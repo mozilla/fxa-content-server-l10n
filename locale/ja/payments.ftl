@@ -59,10 +59,12 @@ input-error-is-required = { $label } は必須です
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox } ロゴ
+brand-name-mozilla-logo = { -brand-mozilla } ロゴ
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = { -brand-name-firefox } アカウントをお持ちの方は <a>ログイン</a> してください
+new-user-sign-in-link-2 = { -product-mozilla-account }をお持ちの方は <a>ログイン</a> してください
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -382,6 +384,7 @@ coupon-success-repeating = プランは { $couponDurationDate } に自動更新�
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. { -brand-name-firefox } アカウントを作成
+new-user-step-1-2 = 1. { -product-mozilla-account }を作成
 new-user-card-title = カード情報を入力してください
 new-user-submit = サブスクリプションを購入
 

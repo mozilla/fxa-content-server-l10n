@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } 詳細につ
 automated-email-no-action-plaintext = これは自動的に配信されたメールです。心当たりがない場合は、何も行わないでください。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = これは自動送信されたメールです。この操作に覚えがない場合は、パスワードを変更してください:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = このリクエストは { $uaOS } { $uaOSVersion } 上の { $uaBrowser } から送信されました。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = このリクエストは { $uaOS } 上の { $uaBrowser } から送信されました。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = このリクエストは { $uaBrowser } から送信されました。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = このリクエストは { $uaOS } { $uaOSVersion } から送信されました。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = このリクエストは { $uaOS } から送信されました。
+automatedEmailRecoveryKey-delete-key-change-pwd = 心当たりがない場合は、<a data-l10n-name="revokeAccountRecoveryLink">新しいキーを削除</a> し、<a data-l10n-name="passwordChangeLink">パスワードを変更</a> してください。
+automatedEmailRecoveryKey-change-pwd-only = 心当たりがない場合は、<a data-l10n-name="passwordChangeLink">パスワードを変更</a> してください。
+automatedEmailRecoveryKey-more-info = 詳細については、<a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = このリクエストは以下から送信されました:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = 心当たりがない場合は、新しいキーを削除してください:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = 心当たりがない場合は、パスワードを変更してください:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = パスワードも変更してください:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = 詳細については、{ -brand-mozilla } サポートをご覧ください:
 automated-email-reset =
     これは自動送信されたメールです。この操作に覚えがない場合は、<a data-l10n-name="resetLink">パスワードをリセットしてください</a>。
     詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 変更した覚えがない場合は、今すぐ { $resetLink } でパスワードをリセットしてください。
+brand-banner-message = アカウントの名称が { -product-firefox-accounts } から { -product-mozilla-accounts } に変更されたことをご存知ですか？ <a data-l10n-name="learnMore">詳細</a>
 cancellationSurvey = この <a data-l10n-name="cancellationSurveyUrl">簡単なアンケート</a> に回答して、サービスの改善にご協力ください。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = この簡単なアンケートに回答して、サービスの改善にご協力ください。
@@ -295,6 +334,7 @@ passwordResetAccountRecovery-action-2 = 新しいアカウント回復用キー�
 passwordResetAccountRecovery-regen-required-mjml-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください:
+postAddAccountRecovery-subject-3 = 新しいアカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
 postAddAccountRecovery-action = アカウント管理
 postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
@@ -589,7 +629,9 @@ verificationReminderSecond-second-description-2 = { -product-mozilla-account }�
 verificationReminderSecond-sub-description-2 = インターネットをすべての人に開かれ、アクセス可能な場所として形作っていく私たちの使命にご協力ください。
 verificationReminderSecond-action-2 = アカウントを確認
 verify-title-2 = { -brand-firefox } でインターネットをオープンに
+verify-title-3 = { -brand-mozilla } 製品でインターネットをオープンに
 verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
+verify-description-2 = アカウントを確認すると、ログインしたどの端末からでも { -brand-mozilla } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
 verify-action-2 = アカウントを確認
 # Variables:
@@ -620,13 +662,19 @@ verifySecondaryCode-action-2 = メールアドレスを確認
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-mozilla-account }から行われました:
 verifySecondaryCode-prompt-2 = この確認コードを使用してください:
 verifySecondaryCode-expiry-notice-2 = この確認コードは 5 分で有効期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = アカウントを確認してください
 verifyShortCode-title-2 = { -brand-firefox } でインターネットをオープンに
+verifyShortCode-title-3 = { -brand-mozilla } でインターネットをオープンに
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = アカウントを確認すると、ログインしたどの端末からでも { -brand-mozilla } を最大限に活用できます。まずこちらから:
 verifyShortCode-prompt-3 = この確認コードを使用してください:
 verifyShortCode-expiry-notice = 5 分以内に確認コードを入力してください。

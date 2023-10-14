@@ -19,10 +19,6 @@ link-expired-resent-code-error-message = エラーが発生しました。新し
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = 閉じる
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts }が 11 月 1 日から { -product-mozilla-accounts }に名称変更されます
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -54,6 +50,9 @@ recovery-key-pdf-heading = アカウント回復用キー
 recovery-key-pdf-download-date = 作成日: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = アカウント回復用キー
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = キーを保管する場所
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -449,7 +448,7 @@ flow-recovery-key-info-cta-text-v3 = はじめに
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = メニューを閉じる
 header-menu-closed = サイトナビゲーションメニュー
