@@ -931,6 +931,8 @@ terms-privacy-agreement-intro = Duke vazhduar, pajtoheni me:
 terms-privacy-agreement-intro-2 = Duke vazhduar, pajtoheni me:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Terma Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim Privatësie</pocketPrivacy> të { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kushte Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim mbi Privatësinë</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Terma Shërbimi</firefoxTos> dhe <firefoxPrivacy>Shënim Privatësie</firefoxPrivacy> të { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
@@ -964,6 +966,7 @@ auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter 
 auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
+auth-error-159 = Kyç rimarrjeje llogarie i pavlefshëm
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-999 = Gabim i papritur
 auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
@@ -1241,6 +1244,7 @@ complete-reset-password-success-alert = Fjalëkalimi u caktua
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
+complete-reset-password-recovery-key-error-v2 = Na ndjeni, pati një problem me kontrollin për të parë nëse keni një kyç rimarrjeje llogarie.
 
 ## Confirm Reset Password Component
 
@@ -1288,6 +1292,8 @@ confirm-signin-message = Shihni te email-et tuaj për lidhjen e ripohimit të hy
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Jepni fjalëkalimin tuaj <span>për { -product-firefox-account } tuajën</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Jepni fjalëkalimin tuaj <span>për { -product-mozilla-account } tuaj</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Vazhdoni te <span>{ $serviceLogo }</span>
