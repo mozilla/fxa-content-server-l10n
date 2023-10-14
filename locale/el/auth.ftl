@@ -96,6 +96,21 @@ automated-email-no-action = { automated-email-no-action-plaintext } Για πε�
 automated-email-no-action-plaintext = Αυτό είναι ένα αυτοματοποιημένο email. Εάν το λάβατε κατά λάθος, δεν χρειάζεται να κάνετε τίποτα.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, τότε παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Αυτό το αίτημα προήλθε από το { $uaBrowser } σε { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Αυτό το αίτημα προήλθε από το { $uaBrowser } σε { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Αυτό το αίτημα προήλθε από το { $uaBrowser }.
 automated-email-reset =
     Αυτό είναι ένα αυτοματοποιημένο email· αν δεν εξουσιοδοτήσατε αυτήν την ενέργεια, τότε <a data-l10n-name="resetLink">παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας</a>.
     Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
