@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-09-29 16:27+0000\n"
+"PO-Revision-Date: 2023-10-14 01:19+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -73,7 +73,7 @@ msgstr "Οι Λογαριασμοί Firefox απαιτούν JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Για τη χρήση των λογαριασμών Mozilla είναι απαραίτητη η ενεργοποίηση της JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -106,3 +106,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Ο λογαριασμός Mozilla σας χρησιμοποιεί δυνατότητες που\n"
+"δεν υποστηρίζονται από την έκδοση του Firefox που διαθέτετε.\n"
+"Κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του\n"
+"Firefox για να συνεχίσετε."
