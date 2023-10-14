@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-10-14 10:21+0000\n"
+"PO-Revision-Date: 2023-10-14 10:24+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -1163,6 +1163,11 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Продолжая, вы принимаете:<br />\n"
+"              <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Условия использования и уведомление о конфиденциальности</a> Firefox Monitor<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> Firefox\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1213,6 +1218,11 @@ msgid ""
 "          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"            Продолжая, вы принимаете:<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Условия использования</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Уведомление о конфиденциальности</a> Pocket<br />\n"
+"           <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> Firefox\n"
+"          "
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1222,6 +1232,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              Продолжая, вы принимаете:<br />\n"
+"              <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Условия использования и уведомление о конфиденциальности</a> Firefox Monitor<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> Firefox\n"
+"            "
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to your Mozilla account"
@@ -1238,6 +1253,11 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"            Продолжая, вы принимаете:<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Условия использования</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Уведомление о конфиденциальности</a> Pocket<br />\n"
+"           <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> Firefox\n"
+"          "
 
 #: .es5/templates/index.mustache:22
 msgid ""
@@ -1246,6 +1266,11 @@ msgid ""
 "  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"              Продолжая, вы принимаете:<br />\n"
+"              <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Условия использования и уведомление о конфиденциальности</a> Firefox Monitor<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> Firefox\n"
+"            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1692,7 +1717,7 @@ msgstr "Пожалуйста, создайте пароль, чтобы прод
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Создать пароль"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
