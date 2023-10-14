@@ -924,10 +924,18 @@ terms-privacy-agreement-intro-2 = 続けることにより、次のことに同�
 terms-privacy-agreement-pocket = { -product-pocket } の <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor } の <monitorTos>サービス利用規約とプライバシーに関する通知</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>サービス利用規約とプライバシーに関する通知</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } の <firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts } <mozillaAccountsTos>サービス利用規約</mozillaAccountsTos> と <mozillaAccountsPrivacy>プライバシー通知</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = 続けることにより、<firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy> に同意したものとみなされます。
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = 続けることにより、<mozillaAccountsTos>サービス利用規約</mozillaAccountsTos> および <mozillaAccountsPrivacy>プライバシー通知</mozillaAccountsPrivacy> に同意したものとみなされます。
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -945,6 +953,9 @@ auth-error-102 = 不明なアカウント
 auth-error-103 = パスワードが正しくありません
 auth-error-105-2 = 不正な確認コード
 auth-error-110 = トークンが正しくありません
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = 何回も試したため中断されました。また後で試してください。
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -954,6 +965,7 @@ auth-error-114 = 何回も試したため中断されました。{ $retryAfter }
 auth-error-138-2 = 未確認のセッション
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
 auth-error-155 = TOTP トークンが見つかりません
+auth-error-159 = 無効なアカウント回復用キー
 auth-error-183-2 = 確認コードが不正または有効期限切れです
 auth-error-999 = 予期しないエラー
 auth-error-1003 = ローカルストレージまたは Cookie が無効になっています
@@ -965,6 +977,7 @@ auth-error-1011 = 有効なメールアドレスが必要です
 
 cannot-create-account-header = アカウントを作成できません
 cannot-create-account-requirements = { -product-firefox-account }を作成するには、規定の年齢に達している必要があります。
+cannot-create-account-requirements-2 = { -product-mozilla-account }を作成するには、規定の年齢に達している必要があります。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 詳細情報
 
@@ -1000,6 +1013,7 @@ connect-another-device-ios-complete-setup-message = iOS 版 { -brand-firefox } �
 
 cookies-disabled-header = ローカルストレージと Cookie が必要です
 cookies-disabled-enable-prompt = { -product-firefox-accounts }へアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。
+cookies-disabled-enable-prompt-2 = { -product-mozilla-account }へアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 再試行
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1200,6 +1214,7 @@ account-recovery-confirm-key-heading-w-default-service = アカウント回復�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = アカウント回復用キーでパスワードをリセットして <span>{ $serviceName } に進む</span>
 account-recovery-confirm-key-instructions = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-firefox-account } へのアクセスを取り戻しましょう。
+account-recovery-confirm-key-instructions-2 = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-mozilla-account }へのアクセスを取り戻しましょう。
 account-recovery-confirm-key-warning-message = <span>注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1231,6 +1246,8 @@ complete-reset-password-success-alert = パスワードを設定しました
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 申し訳ありませんが、パスワードの設定中に問題が発生しました
+complete-reset-password-recovery-key-error-v2 = 申し訳ありませんが、アカウント回復用キーの確認中に問題が発生しました。
+complete-reset-password-recovery-key-link = アカウント回復用キーであなたのパスワードをリセットします。
 
 ## Confirm Reset Password Component
 
@@ -1278,6 +1295,8 @@ confirm-signin-message = ログイン確認リンクを { $email } 宛にお送�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = <span>{ -product-firefox-account }</span> のパスワードを入力してください
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> のパスワードを入力してください
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> に進む
@@ -1334,6 +1353,10 @@ signin-reported-message = 担当者に通知が送られました。こうした
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = <span>{ -product-firefox-account }</span> の確認コードを入力してください
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> の確認コードを入力してください
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 5 分以内に { $email } に送信されたコードを入力してください。
 signin-token-code-input-label-v2 = 6 桁のコードを入力してください
@@ -1385,6 +1408,10 @@ confirm-signup-code-page-title = 確認コードの入力
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = <span>{ -product-firefox-account }</span> の確認コードを入力してください
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span> の確認コードを入力してください
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = 5 分以内に { $email } 宛に送信されたコードを入力してください。
 confirm-signup-code-input-label = 6 桁のコードを入力してください
