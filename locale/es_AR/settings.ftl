@@ -958,9 +958,9 @@ terms-privacy-agreement-pocket = <pocketTos>Términos del servicio</pocketTos> y
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Términos del servicio</pocketTos> y <pocketPrivacy>nota de privacidad</pocketPrivacy> de { -product-pocket }
 # link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos> Términos de servicio y nota de privacidad </monitorTos> de { -product-firefox-monitor }
+terms-privacy-agreement-monitor = <monitorTos>Términos del servicio y nota de privacidad</monitorTos> de { -product-firefox-monitor }
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos> Términos del servicio y nota de privacidad </monitorTos>
+terms-privacy-agreement-monitor-2 = <monitorTos>Términos del servicio y nota de privacidad</monitorTos> de { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Términos del servicio</firefoxTos> y <firefoxPrivacy>nota de privacidad</firefoxPrivacy> de { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
