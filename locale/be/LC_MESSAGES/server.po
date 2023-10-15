@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-09-30 17:52+0000\n"
+"PO-Revision-Date: 2023-10-15 15:12+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -73,7 +73,7 @@ msgstr "Для ўліковага запісу Firefox патрэбен JavaScri
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Для ўліковага запісу Mozilla патрэбен JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -106,3 +106,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Уліковы запіс Mozilla выкарыстоўвае функцыі, \n"
+"якія не падтрымліваюцца ў вашай версіі Firefox. \n"
+"Калі ласка, сцягніце і ўсталюйце апошнюю версію \n"
+"Firefox, каб працягнуць."

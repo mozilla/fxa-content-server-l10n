@@ -1328,6 +1328,8 @@ confirm-signin-message = Пашукайце ў сваёй пошце спасы
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Увядзіце пароль <span>для свайго { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Увядзіце пароль <span>для свайго { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Працягнуць у <span>{ $serviceLogo }</span>
@@ -1384,6 +1386,10 @@ signin-reported-message = Наша каманда апавешчана. Такі
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Увядзіце код пацверджання <span>для свайго { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Увядзіце код пацверджання <span>для свайго { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Увядзіце код, які быў адпраўлены на адрас { $email } на працягу 5 хвілін.
 signin-token-code-input-label-v2 = Увядзіце 6-значны код
@@ -1435,6 +1441,10 @@ confirm-signup-code-page-title = Увядзіце код пацвярджэнн�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Увядзіце код пацвярджэння <span>для свайго { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Увядзіце код пацвярджэння <span>для свайго { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Увядзіце код, які быў адпраўлены на адрас { $email } на працягу 5 хвілін.
 confirm-signup-code-input-label = Увядзіце 6-значны код
