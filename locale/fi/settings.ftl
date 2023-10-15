@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Jokin meni pieleen. Uutta koodia ei voi
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Sulje
+brand-banner-dismiss-button-2 =
+    .aria-label = Sulje ilmoitus
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } saa uuden nimen 1. marraskuuta: { -product-mozilla-accounts }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -957,6 +957,10 @@ terms-privacy-agreement-intro-2 = Jatkamalla hyväksyt:
 terms-privacy-agreement-pocket = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytäntö</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytännön</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor }in <monitorTos>käyttöehdot ja tietosuojakäytäntö</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor }in <monitorTos>käyttöehdot ja tietosuojakäytäntö</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }in <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytäntö</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
