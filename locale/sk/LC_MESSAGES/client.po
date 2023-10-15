@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-10-15 17:32+0000\n"
+"PO-Revision-Date: 2023-10-15 17:42+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -43,7 +43,7 @@ msgstr "%(permissionName)s (povinné)"
 
 #: .es5/views/permissions.js:34
 msgid "Email address"
-msgstr "E-mailová adresa"
+msgstr "E‑mailová adresa"
 
 #: .es5/views/permissions.js:38
 msgid "Display name"
@@ -75,7 +75,7 @@ msgstr "Odteraz môžete robiť zmeny vo svojom účte Firefox."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr "Hlavná e-mailová adresa bola potvrdená"
+msgstr "Hlavná e‑mailová adresa bola potvrdená"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Upozornenia o účte budú odteraz odosielané taktiež na %(secondaryEm
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:46
 msgid "Secondary email confirmed"
-msgstr "Alternatívna e-mailová adresa bola potvrdená"
+msgstr "Alternatívna e‑mailová adresa bola potvrdená"
 
 #: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -115,11 +115,11 @@ msgstr "Iné"
 
 #: .es5/views/support.js:231
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Ďakujeme, že ste sa obrátili na podporu Mozilly kvôli problému <b>%(escapedLowercaseTopic)s</b>. Čo najskôr vás budeme kontaktovať e-mailom."
+msgstr "Ďakujeme, že ste sa obrátili na podporu Mozilly kvôli problému <b>%(escapedLowercaseTopic)s</b>. Čo najskôr vás budeme kontaktovať e‑mailom."
 
 #: .es5/views/support.js:233
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Ďakujeme, že ste sa obrátili na podporu Mozilly kvôli problému <b>%(escapedLowercaseTopic)s</b> s <b>%(escapedSelectedProduct)s</b>. Čo najskôr vás budeme kontaktovať e-mailom."
+msgstr "Ďakujeme, že ste sa obrátili na podporu Mozilly kvôli problému <b>%(escapedLowercaseTopic)s</b> s <b>%(escapedSelectedProduct)s</b>. Čo najskôr vás budeme kontaktovať e‑mailom."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
@@ -204,7 +204,7 @@ msgstr "Kľúč na obnovenie účtu Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu accounts@firefox.com. Zabezpečíte tým bezproblémové doručenie."
+msgstr "E‑mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu accounts@firefox.com. Zabezpečíte tým bezproblémové doručenie."
 
 #: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
@@ -284,11 +284,11 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
-msgstr "Hlavná e-mailová adresa bola úspešne overená"
+msgstr "Hlavná e‑mailová adresa bola úspešne overená"
 
 #: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
-msgstr "Alternatívna e-mailová adresa bola úspešne overená"
+msgstr "Alternatívna e‑mailová adresa bola úspešne overená"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -336,7 +336,7 @@ msgstr "Neznámy účet"
 
 #: .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr "Neplatný tvar e-mailovej adresy"
+msgstr "Neplatný tvar e‑mailovej adresy"
 
 #: .es5/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -396,19 +396,19 @@ msgstr "Na toto číslo nie je možné odoslať správu"
 
 #: .es5/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr "Váš e-mail sa práve vrátil"
+msgstr "Váš e‑mail sa práve vrátil"
 
 #: .es5/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr "E-mailová správa sa vrátila. Zadali ste adresu správne?"
+msgstr "E‑mailová správa sa vrátila. Zadali ste adresu správne?"
 
 #: .es5/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr "E-mail nebolo možné doručiť"
+msgstr "E‑mail nebolo možné doručiť"
 
 #: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
-msgstr "Táto e-mailová adresa už bola overená iným používateľom"
+msgstr "Táto e‑mailová adresa už bola overená iným používateľom"
 
 #: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
@@ -416,27 +416,27 @@ msgstr "Neoverená relácia"
 
 #: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
-msgstr "Alternatívna e-mailová adresa musí byť iná ako adresa účtu"
+msgstr "Alternatívna e‑mailová adresa musí byť iná ako adresa účtu"
 
 #: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "Dosiahli ste maximálny počet alternatívnych e-mailových adries"
+msgstr "Dosiahli ste maximálny počet alternatívnych e‑mailových adries"
 
 #: .es5/lib/auth-errors.js:170
 msgid "This email already exists on your account"
-msgstr "Táto e-mailová adresa je už s vašim účtom spojená"
+msgstr "Táto e‑mailová adresa je už s vašim účtom spojená"
 
 #: .es5/lib/auth-errors.js:178
 msgid "Primary account email required for sign-in"
-msgstr "Na prihlásenie je nutná hlavná e-mailová adresa"
+msgstr "Na prihlásenie je nutná hlavná e‑mailová adresa"
 
 #: .es5/lib/auth-errors.js:182
 msgid "Address in use by another account"
-msgstr "Túto e-mailovú adresu používa iný účet"
+msgstr "Túto e‑mailovú adresu používa iný účet"
 
 #: .es5/lib/auth-errors.js:186
 msgid "Primary account email required for reset"
-msgstr "Pre obnovu je nutná hlavná e-mailová adresa"
+msgstr "Pre obnovu je nutná hlavná e‑mailová adresa"
 
 #: .es5/lib/auth-errors.js:190
 msgid "Invalid signin code"
@@ -444,19 +444,19 @@ msgstr "Neplatný prihlasovací kód"
 
 #: .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an unverified email"
-msgstr "Hlavnú e-mailovú adresu nemôžete zmeniť na neoverenú e-mailovú adresu"
+msgstr "Hlavnú e‑mailovú adresu nemôžete zmeniť na neoverenú e‑mailovú adresu"
 
 #: .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:206
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Hlavnú e-mailovú adresu nemožno zmeniť na adresu, ktorá nepatrí k tomuto účtu"
+msgstr "Hlavnú e‑mailovú adresu nemožno zmeniť na adresu, ktorá nepatrí k tomuto účtu"
 
 #: .es5/lib/auth-errors.js:202
 msgid "This email can not currently be used to login"
-msgstr "Túto e-mailovú adresu v súčasnosti nemôžete použiť na prihlásenie"
+msgstr "Túto e‑mailovú adresu v súčasnosti nemôžete použiť na prihlásenie"
 
 #: .es5/lib/auth-errors.js:210
 msgid "Failed to send email"
-msgstr "Odoslanie e-mailu zlyhalo"
+msgstr "Odoslanie e‑mailu zlyhalo"
 
 #: .es5/lib/auth-errors.js:214
 msgid "Valid code required"
@@ -589,7 +589,7 @@ msgstr "Vyžaduje sa zadanie platného hesla"
 
 #: .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
 msgid "Valid email required"
-msgstr "Vyžaduje sa platná e-mailová adresa"
+msgstr "Vyžaduje sa platná e‑mailová adresa"
 
 #: .es5/lib/auth-errors.js:365
 msgid "A usable image was not found"
@@ -605,11 +605,11 @@ msgstr "Vyžaduje sa platná URL adresa"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr "Váš potvrdzujúci e-mail sa práve vrátil. Nesprávne zadaný email?"
+msgstr "Váš potvrdzujúci e‑mail sa práve vrátil. Nesprávne zadaný email?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Zadajte platnú e-mailovú adresu. firefox.com e-mailové adresy neposkytuje."
+msgstr "Zadajte platnú e‑mailovú adresu. firefox.com e‑mailové adresy neposkytuje."
 
 #: .es5/lib/auth-errors.js:404
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -705,7 +705,7 @@ msgstr "Neplatné presmerovanie"
 
 #: .es5/lib/auth-errors.js:604
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr "Nepomýlili ste sa? Doména %(domain)s nemá e-maily."
+msgstr "Nepomýlili ste sa? Doména %(domain)s nemá e‑maily."
 
 #: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
@@ -721,7 +721,7 @@ msgstr "Neplatná konfigurácia"
 
 #: .es5/lib/email-domain-validator.js:51
 msgid "Mistyped email?"
-msgstr "Nesprávna e-mailová adresa?"
+msgstr "Nesprávna e‑mailová adresa?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -949,7 +949,7 @@ msgstr "Odkaz na obnovenie hesla je poškodený"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova."
+msgstr "Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e‑mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -981,7 +981,7 @@ msgstr "Pamätáte si svoje heslo? Prihláste sa"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "Hlavná e-mailová adresa už bola overená"
+msgstr "Hlavná e‑mailová adresa už bola overená"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -993,7 +993,7 @@ msgstr "Platnosť potvrdzovacieho odkazu vypršala"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr "Platnosť odkazu, na ktorý ste klikli na potvrdenie vášho e-mailu, vypršala."
+msgstr "Platnosť odkazu, na ktorý ste klikli na potvrdenie vášho e‑mailu, vypršala."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1017,16 +1017,16 @@ msgstr "Potvrdiť toto prihlásenie"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr "Potvrdzovací odkaz sme odoslali na e-mailovú adresu %(escapedEmail)s"
+msgstr "Potvrdzovací odkaz sme odoslali na e‑mailovú adresu %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "Potvrdzovací odkaz sme odoslali na e-mailovú adresu %(escapedEmail)s"
+msgstr "Potvrdzovací odkaz sme odoslali na e‑mailovú adresu %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr "Nemáte nič v schránke ani v priečinku so spamom? Chcete, aby sme vám e-mail odoslali znova?"
+msgstr "Nemáte nič v schránke ani v priečinku so spamom? Chcete, aby sme vám e‑mail odoslali znova?"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
@@ -1035,11 +1035,11 @@ msgstr "Naspäť"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "E-mailová správa na obnovu hesla bola odoslaná"
+msgstr "E‑mailová správa na obnovu hesla bola odoslaná"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Kliknutím na odkaz odoslaný e-mailom na adresu %(email)s v priebehu nasledujúcej hodiny vytvorte nové heslo."
+msgstr "Kliknutím na odkaz odoslaný e‑mailom na adresu %(email)s v priebehu nasledujúcej hodiny vytvorte nové heslo."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
@@ -1052,7 +1052,7 @@ msgstr "pre váš účet Firefox"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu %(escapedEmail)s."
+msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu %(escapedEmail)s."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1070,7 +1070,7 @@ msgstr "Platnosť kódu vypršala?"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr "Odoslať e-mailom nový kód."
+msgstr "Odoslať e‑mailom nový kód."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
@@ -1086,7 +1086,7 @@ msgstr "Ste prihlásený/-á do Firefoxu"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr "E-mail potvrdený"
+msgstr "E‑mail potvrdený"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
 msgid "Complete your set-up"
@@ -1193,7 +1193,7 @@ msgstr "Synchronizujte svoje heslá, karty a záložky všade, kde používate F
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
-msgstr "Zadajte e-mailovú adresu"
+msgstr "Zadajte e‑mailovú adresu"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1416,7 +1416,7 @@ msgstr "Nahlásiť neoprávnené prihlásenie?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Dostali ste e-mail o pokuse o prihlásenie sa k vášmu účtu. Chcete túto aktivitu nahlásiť ako podozrivú?"
+msgstr "Dostali ste e‑mail o pokuse o prihlásenie sa k vášmu účtu. Chcete túto aktivitu nahlásiť ako podozrivú?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1436,7 +1436,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr "E-mailová adresa"
+msgstr "E‑mailová adresa"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1476,11 +1476,11 @@ msgstr "Mrzí nás to, no váš účet bol uzamknutý."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Potvrdzovací e-mail, ktorý sme poslali na %(email)s, nebol doručený. Aby sme ochránili vaše údaje Firefoxu, váš účet sme uzamkli."
+msgstr "Potvrdzovací e‑mail, ktorý sme poslali na %(email)s, nebol doručený. Aby sme ochránili vaše údaje Firefoxu, váš účet sme uzamkli."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Ak ide o platnú e-mailovú adresu, <a %(escapedSupportLinkAttrs)s>dajte nám vedieť</a> a my vám pomôžeme odomknúť váš účet."
+msgstr "Ak ide o platnú e‑mailovú adresu, <a %(escapedSupportLinkAttrs)s>dajte nám vedieť</a> a my vám pomôžeme odomknúť váš účet."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1516,7 +1516,7 @@ msgstr "Zadajte potvrdzovací kód <span class=\"card-subheader\">pre svoj úče
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu %(email)s."
+msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
@@ -1540,7 +1540,7 @@ msgstr "Autorizovať toto prihlásenie"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Na vašu e-mailovú adresu %(email)s sme poslali autorizačný kód."
+msgstr "Na vašu e‑mailovú adresu %(email)s sme poslali autorizačný kód."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1552,7 +1552,7 @@ msgstr "Nastavte si heslo"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
-msgstr "Zmeniť e-mailovú adresu"
+msgstr "Zmeniť e‑mailovú adresu"
 
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
@@ -1700,7 +1700,7 @@ msgstr "Znova odoslať kartu"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr "Karta neprichádza? Poslať radšej e-mail"
+msgstr "Karta neprichádza? Poslať radšej e‑mail"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
@@ -1712,15 +1712,15 @@ msgstr "Vytvoriť heslo"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr "Pridanie alternatívnej e-mailovej adresy"
+msgstr "Pridanie alternatívnej e‑mailovej adresy"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Pridanie alternatívnej e-mailovej adresy vám pomôže dostať sa späť do vášho účtu, ak je uzamknutý a nemáte prístup ku schránke na adrese %(escapedEmail)s."
+msgstr "Pridanie alternatívnej e‑mailovej adresy vám pomôže dostať sa späť do vášho účtu, ak je uzamknutý a nemáte prístup ku schránke na adrese %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr "Alternatívna e-mailová adresa"
+msgstr "Alternatívna e‑mailová adresa"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1729,7 +1729,7 @@ msgstr "Možno neskôr"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "V priebehu 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e-mailovú adresu %(escapedEmail)s."
+msgstr "V priebehu 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e‑mailovú adresu %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1737,7 +1737,7 @@ msgstr "Potrebujete ďalší kód? Odoslať znova"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr "Použiť iný e-mail"
+msgstr "Použiť iný e‑mail"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -1783,7 +1783,7 @@ msgstr "Prihláste sa na odber ďalších vecí"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr "Praktické rady do vašej e-mailovej schránky."
+msgstr "Praktické rady do vašej e‑mailovej schránky."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
@@ -1795,7 +1795,7 @@ msgstr "Prihlásiť %(email)s na odber"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "V odkaze, na ktorý ste klikli, chýbali niektoré znaky. Zrejme mohol byť poškodený vašim e-mailovým klientom."
+msgstr "V odkaze, na ktorý ste klikli, chýbali niektoré znaky. Zrejme mohol byť poškodený vašim e‑mailovým klientom."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Firefox Account"
@@ -2004,7 +2004,7 @@ msgstr "Minimálne 8 znakov"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr "Nie je to vaša e-mailová adresa"
+msgstr "Nie je to vaša e‑mailová adresa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"

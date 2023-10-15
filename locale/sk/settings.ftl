@@ -12,7 +12,7 @@ banner-dismiss-button =
     .aria-label = Zavrieť
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
+link-expired-resent-link-success-message = E‑mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Niečo sa pokazilo. Nový kód sa nepodarilo odoslať.
 
@@ -225,7 +225,7 @@ reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Potvrdzovací odkaz je poškodený
 # The user followed a password reset or confirmation link received by email, but the link was damaged.
-reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
+reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e‑mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
 
 ## LinkExpired component
 
@@ -243,7 +243,7 @@ reset-pwd-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľo
 
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Platnosť potvrdzovacieho odkazu vypršala
-signin-link-expired-message = Platnosť odkazu, na ktorý ste klikli na potvrdenie vášho e-mailu, vypršala.
+signin-link-expired-message = Platnosť odkazu, na ktorý ste klikli na potvrdenie vášho e‑mailu, vypršala.
 
 ## LinkRememberPassword component
 
@@ -254,7 +254,7 @@ remember-pw-link = Pamätáte si svoje heslo? Prihláste sa
 ## LinkUsed component
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Hlavná e-mailová adresa už bola overená
+primary-email-confirmation-link-reused = Hlavná e‑mailová adresa už bola overená
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prihlásenie je už potvrdené
 confirmation-link-reused-message = Tento potvrdzovací odkaz bol už použitý (dá sa použiť len raz).
@@ -269,7 +269,7 @@ password-info-balloon-reset-risk-info = Vynulovanie znamená možnú stratu úda
 
 password-strength-balloon-heading = Požiadavky na heslo
 password-strength-balloon-min-length = Minimálne 8 znakov
-password-strength-balloon-not-email = Nie je to vaša e-mailová adresa
+password-strength-balloon-not-email = Nie je to vaša e‑mailová adresa
 password-strength-balloon-not-common = Nie je to bežne používané heslo
 password-strength-balloon-stay-safe-tips = Zostaňte v bezpečí – nepoužívajte heslá znova. Pozrite si ďalšie tipy na <LinkExternal>vytvorenie silných hesiel</LinkExternal>.
 
@@ -289,7 +289,7 @@ ready-account-ready = Váš účet je pripravený.
 ready-continue = Pokračovať
 sign-in-complete-header = Prihlásenie potvrdené
 sign-up-complete-header = Účet bol potvrdený
-primary-email-verified-header = Hlavná e-mailová adresa bola potvrdená
+primary-email-verified-header = Hlavná e‑mailová adresa bola potvrdená
 
 ## Alert Bar
 
@@ -527,12 +527,12 @@ modal-default-confirm-button = Potvrdiť
 
 ## Modal Verify Session
 
-mvs-verify-your-email-2 = Potvrďte vašu e-mailovú adresu
+mvs-verify-your-email-2 = Potvrďte vašu e‑mailovú adresu
 mvs-enter-verification-code-2 = Zadajte svoj potvrdzovací kód
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc-2 = V priebehu 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e-mailovú adresu <email>{ $email }</email>.
+mvs-enter-verification-code-desc-2 = V priebehu 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
 msv-cancel-button = Zrušiť
 msv-submit-button-2 = Potvrdiť
 
@@ -544,7 +544,7 @@ nav-security = Bezpečnosť
 nav-connected-services = Pripojené služby
 nav-data-collection = Zbieranie údajov a ich použitie
 nav-paid-subs = Predplatné
-nav-email-comm = E-mailová komunikácia
+nav-email-comm = E‑mailová komunikácia
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -596,7 +596,7 @@ avatar-page-image-too-large-error-2 = Nie je možné nahrať obrázok, pretože 
 pw-change-header =
     .title = Zmena hesla
 pw-8-chars = Minimálne 8 znakov
-pw-not-email = Nepoužívajte vašu e-mailovú adresu
+pw-not-email = Nepoužívajte vašu e‑mailovú adresu
 pw-change-must-match = nové heslo sa musí zhodovať s potvrdzujúcim
 pw-commonly-used = Nezadávajte bežne používané heslo
 # linkExternal is a link to a mozilla.org support article on password strength
@@ -649,7 +649,7 @@ delete-account-chk-box-1-v3 =
 delete-account-chk-box-2 =
     .label = môžete prísť o uložené informácie a niektoré funkcie produktov { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
-    .label = opätovná aktivácia pomocou tejto e-mailovej adresy nemusí obnoviť vaše uložené informácie
+    .label = opätovná aktivácia pomocou tejto e‑mailovej adresy nemusí obnoviť vaše uložené informácie
 delete-account-chk-box-4 =
     .label = všetky rozšírenia a témy vzhľadu, ktoré ste zverejnili na addons.mozilla.org, budú odstránené
 delete-account-continue-button = Pokračovať
@@ -688,7 +688,7 @@ recent-activity-account-login-v2 = Bolo spustené prihlásenie pomocou účtu
 recent-activity-account-reset-v2 = Bolo spustené obnovenie hesla
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
-recent-activity-emails-clearBounces-v2 = E-maily o nedoručení vymazané
+recent-activity-emails-clearBounces-v2 = E‑maily o nedoručení vymazané
 recent-activity-account-login-failure = Pokus o prihlásenie do účtu zlyhal
 recent-activity-account-two-factor-added = Dvojstupňové overenie bolo povolené
 recent-activity-account-two-factor-requested = Vyžaduje sa dvojstupňové overenie
@@ -703,9 +703,9 @@ recent-activity-account-recovery-key-verification-success = Overenie kľúča na
 recent-activity-account-recovery-key-removed = Kľúč na obnovenie účtu bol odstránený
 recent-activity-account-password-added = Bolo pridané nové heslo
 recent-activity-account-password-changed = Heslo bolo zmenené
-recent-activity-account-secondary-email-added = Bola pridaná alternatívna e-mailová adresa
-recent-activity-account-secondary-email-removed = Alternatívna e-mailová adresa bola odstránená
-recent-activity-account-emails-swapped = Hlavná a alternatívna e-mailová adresa boli vzájomne vymenené
+recent-activity-account-secondary-email-added = Bola pridaná alternatívna e‑mailová adresa
+recent-activity-account-secondary-email-removed = Alternatívna e‑mailová adresa bola odstránená
+recent-activity-account-emails-swapped = Hlavná a alternatívna e‑mailová adresa boli vzájomne vymenené
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Iná aktivita účtu
 
@@ -734,11 +734,11 @@ recovery-key-create-back-button-title = Späť na nastavenia
 ## Add secondary email page
 
 add-secondary-email-step-1 = Krok 1 z 2
-add-secondary-email-error-2 = Pri vytváraní tohto e-mailu sa vyskytol problém
+add-secondary-email-error-2 = Pri vytváraní tohto e‑mailu sa vyskytol problém
 add-secondary-email-page-title =
-    .title = Alternatívna e-mailová adresa
+    .title = Alternatívna e‑mailová adresa
 add-secondary-email-enter-address =
-    .label = Zadajte e-mailovú adresu
+    .label = Zadajte e‑mailovú adresu
 add-secondary-email-cancel-button = Zrušiť
 add-secondary-email-save-button = Uložiť
 
@@ -747,7 +747,7 @@ add-secondary-email-save-button = Uložiť
 add-secondary-email-step-2 = Krok 2 z 2
 verify-secondary-email-error-3 = Pri odosielaní potvrdzovacieho kódu sa vyskytol problém
 verify-secondary-email-page-title =
-    .title = Alternatívna e-mailová adresa
+    .title = Alternatívna e‑mailová adresa
 verify-secondary-email-verification-code-2 =
     .label = Zadajte svoj potvrdzovací kód
 verify-secondary-email-cancel-button = Zrušiť
@@ -755,7 +755,7 @@ verify-secondary-email-verify-button-2 = Potvrdiť
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code-2 = Do 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e-mailovú adresu <strong>{ $email }</strong>.
+verify-secondary-email-please-enter-code-2 = Do 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e‑mailovú adresu <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -818,7 +818,7 @@ profile-picture =
 profile-display-name =
     .header = Zobrazované meno
 profile-primary-email =
-    .header = Hlavná e-mailová adresa
+    .header = Hlavná e‑mailová adresa
 
 ##
 
@@ -889,36 +889,36 @@ unit-row-recovery-key-delete-icon-button-title = Odstrániť kľúč na obnoveni
 
 ## Secondary email sub-section on main Settings page
 
-se-heading = Alternatívna e-mailová adresa
-    .header = Alternatívna e-mailová adresa
-se-cannot-refresh-email = Ľutujeme, ale pri obnovení tohto e-mailu sa vyskytol problém.
+se-heading = Alternatívna e‑mailová adresa
+    .header = Alternatívna e‑mailová adresa
+se-cannot-refresh-email = Ľutujeme, ale pri obnovení tohto e‑mailu sa vyskytol problém.
 se-cannot-resend-code-3 = Ľutujeme, pri opätovnom odosielaní potvrdzovacieho kódu sa vyskytol problém
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful-2 = Adresa { $email } je teraz vašou hlavnou e-mailovou adresou
-se-set-primary-error-2 = Ľutujeme, ale pri zmene vašej hlavnej e-mailovej adresy sa vyskytol problém
+se-set-primary-successful-2 = Adresa { $email } je teraz vašou hlavnou e‑mailovou adresou
+se-set-primary-error-2 = Ľutujeme, ale pri zmene vašej hlavnej e‑mailovej adresy sa vyskytol problém
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Adresa { $email } bola úspešne odstránená
-se-delete-email-error-2 = Ľutujeme, ale pri odstraňovaní tejto e-mailovej adresy sa vyskytol problém
+se-delete-email-error-2 = Ľutujeme, ale pri odstraňovaní tejto e‑mailovej adresy sa vyskytol problém
 se-verify-session-3 = Ak chcete vykonať túto akciu, budete musieť potvrdiť svoju aktuálnu reláciu
 se-verify-session-error-3 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 # Button to remove the secondary email
 se-remove-email =
-    .title = Odstrániť e-mailovú adresu
+    .title = Odstrániť e‑mailovú adresu
 # Button to refresh secondary email status
 se-refresh-email =
-    .title = Obnoviť e-mailovú adresu
+    .title = Obnoviť e‑mailovú adresu
 se-unverified-2 = nepotvrdený
 se-resend-code-2 =
     Vyžaduje sa potvrdenie. <button>Opäť si pošlite potvrdzovací kód</button>,
     ak sa tento nenachádza vo vašej doručenej pošte alebo priečinku so spamom.
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako hlavnú adresu
-se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí prihlásiť pomocou svojej hlavnej e-mailovej adresy.
-se-content-note-1 = Poznámka: alternatívna e-mailová adresa neumožní obnoviť vaše informácie – na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
+se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí prihlásiť pomocou svojej hlavnej e‑mailovej adresy.
+se-content-note-1 = Poznámka: alternatívna e‑mailová adresa neumožní obnoviť vaše informácie – na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
 # Default value for the secondary email
 se-secondary-email-none = žiadna
 
@@ -1000,14 +1000,14 @@ auth-error-114-generic = Vykonali ste príliš veľa pokusov. Skúste to znova n
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryAfter }.
 auth-error-138-2 = Nepotvrdená relácia
-auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa účtu
+auth-error-139 = Alternatívna e‑mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel
 auth-error-159 = Neplatný kľúč na obnovenie účtu
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-999 = Neočakávaná chyba
 auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
-auth-error-1011 = Vyžaduje sa platná e-mailová adresa
+auth-error-1011 = Vyžaduje sa platná e‑mailová adresa
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1023,7 +1023,7 @@ cannot-create-account-learn-more-link = Ďalšie informácie
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Ste prihlásený/-á do { -brand-firefox(case: "gen") }
 # A "success" message visible to users who verified via email
-connect-another-device-email-confirmed-banner = E-mail potvrdený
+connect-another-device-email-confirmed-banner = E‑mail potvrdený
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Prihlásenie potvrdené
 # A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
@@ -1290,10 +1290,10 @@ complete-reset-password-recovery-key-link = Obnovte svoje heslo pomocou kľúča
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = E-mailová správa na obnovu hesla bola odoslaná
+confirm-pw-reset-header = E‑mailová správa na obnovu hesla bola odoslaná
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Kliknutím na odkaz odoslaný e-mailom na adresu { $email } v priebehu nasledujúcej hodiny si vytvoríte nové heslo.
+confirm-pw-reset-instructions = Kliknutím na odkaz odoslaný e‑mailom na adresu { $email } v priebehu nasledujúcej hodiny si vytvoríte nové heslo.
 
 ## ResetPassword page
 
@@ -1307,10 +1307,10 @@ reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do s
 reset-password-warning-message-2 = <span>Poznámka:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { -product-pocket }.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
-    .label = E-mailová adresa
+    .label = E‑mailová adresa
 reset-password-button = Spustiť obnovu
 # Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Vyžaduje sa e-mailová adresa
+reset-password-email-required-error = Vyžaduje sa e‑mailová adresa
 reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
@@ -1326,7 +1326,7 @@ validating-signin = Overuje sa prihlásenie…
 
 confirm-signin-header = Potvrdiť toto prihlásenie
 # { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Potvrdzovací odkaz sme odoslali na e-mailovú adresu { $email }
+confirm-signin-message = Potvrdzovací odkaz sme odoslali na e‑mailovú adresu { $email }
 
 ## Signin page
 
@@ -1347,9 +1347,9 @@ signin-use-a-different-account-link = Použiť iný účet
 signin-forgot-password-link = Zabudli ste heslo?
 signin-bounced-header = Mrzí nás to, no váš účet bol uzamknutý.
 # $email (string) - The user's email.
-signin-bounced-message = Potvrdzovací e-mail, ktorý sme poslali na adresu { $email }, nebol doručený. Aby sme ochránili vaše údaje { -brand-firefox(case: "gen") }, váš účet sme uzamkli.
+signin-bounced-message = Potvrdzovací e‑mail, ktorý sme poslali na adresu { $email }, nebol doručený. Aby sme ochránili vaše údaje { -brand-firefox(case: "gen") }, váš účet sme uzamkli.
 # linkExternal is button which logs the user's action and navigates them to mozilla support
-signin-bounced-help = Ak ide o platnú e-mailovú adresu, <linkExternal>dajte nám vedieť</linkExternal> a my vám pomôžeme odomknúť váš účet.
+signin-bounced-help = Ak ide o platnú e‑mailovú adresu, <linkExternal>dajte nám vedieť</linkExternal> a my vám pomôžeme odomknúť váš účet.
 signin-bounced-create-new-account = Už tento účet nevlastníte? Vytvorte si nový účet
 back = Naspäť
 
@@ -1395,13 +1395,13 @@ signin-token-code-heading = Zadajte potvrdzovací kód<span> pre svoj { -product
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zadajte potvrdzovací kód<span> pre svoj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu { $email }.
+signin-token-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu { $email }.
 signin-token-code-input-label-v2 = Zadajte šesťmiestny kód
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potvrdiť
 signin-token-code-code-expired = Platnosť kódu vypršala?
 # Link to resend a new code to the user's email.
-signin-token-code-resend-code-link = Odoslať e-mailom nový kód.
+signin-token-code-resend-code-link = Odoslať e‑mailom nový kód.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Vyžaduje sa potvrdzovací kód
 
@@ -1431,7 +1431,7 @@ signin-totp-code-required-error = Vyžaduje sa overovací kód
 
 confirm-signup-heading = Potvrďte svoj účet
 # { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Potvrdzovací odkaz pre prihlásenie sme odoslali na e-mailovú adresu { $email }
+confirm-signup-instruction = Potvrdzovací odkaz pre prihlásenie sme odoslali na e‑mailovú adresu { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1450,13 +1450,13 @@ confirm-signup-code-heading = Zadajte potvrdzovací kód <span> pre svoj { -prod
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Zadajte potvrdzovací kód <span>pre svoj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu { $email }.
+confirm-signup-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu { $email }.
 confirm-signup-code-input-label = Zadajte šesťmiestny kód
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdiť
 confirm-signup-code-code-expired = Platnosť kódu vypršala?
 # Link to resend a new code to the user's email.
-confirm-signup-code-resend-code-link = Odoslať e-mailom nový kód.
+confirm-signup-code-resend-code-link = Odoslať e‑mailom nový kód.
 confirm-signup-code-success-alert = Účet bol úspešne potvrdený
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Vyžaduje sa potvrdzovací kód
@@ -1469,7 +1469,7 @@ signup-heading = Nastavte si heslo
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Prečo si musím vytvoriť tento účet? <LinkExternal>Zistíte to tu</LinkExternal>.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
-signup-change-email-link = Zmeniť e-mailovú adresu
+signup-change-email-link = Zmeniť e‑mailovú adresu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Koľko máte rokov?

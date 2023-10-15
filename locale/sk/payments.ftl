@@ -79,29 +79,29 @@ new-user-sign-in-link-2 = Už máte { -product-mozilla-account(capitalization: "
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-enter-email =
-    .label = Zadajte e-mailovú adresu
+    .label = Zadajte e‑mailovú adresu
 new-user-confirm-email =
-    .label = Potvrďte vašu e-mailovú adresu
+    .label = Potvrďte vašu e‑mailovú adresu
 new-user-subscribe-product-updates-mozilla = Chcem dostávať novinky o produktoch { -brand-mozilla(case: "gen") }
 new-user-subscribe-product-updates-snp = Chcem dostávať novinky { -brand-mozilla(case: "gen") } týkajúce sa bezpečnosti a ochrany osobných údajov
 new-user-subscribe-product-updates-hubs = Chcem dostávať novinky o produktoch od { -product-mozilla-hubs } a { -brand-mozilla(case: "gen") }
 new-user-subscribe-product-updates-mdnplus = Chcem dostávať novinky o produktoch od { -product-mdn-plus } a { -brand-mozilla(case: "gen") }
-new-user-subscribe-product-assurance = Vašu e-mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
-new-user-email-validate = E-mailová adresa nie je platná
-new-user-email-validate-confirm = E-mailové adresy sa nezhodujú
+new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
+new-user-email-validate = E‑mailová adresa nie je platná
+new-user-email-validate-confirm = E‑mailové adresy sa nezhodujú
 new-user-already-has-account-sign-in = Už máte účet. <a>Prihláste sa</a>
 # $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = Nesprávne zadaný email? Doména { $domain } neponúka e-mailovú službu.
+new-user-invalid-email-domain = Nesprávne zadaný email? Doména { $domain } neponúka e‑mailovú službu.
 
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Ďakujeme!
-payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e-mail!
+payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e‑mail!
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
-payment-confirmation-thanks-subheading = Na adresu { $email } bol odoslaný potvrdzujúci e-mail s podrobnosťami o tom, ako začať so službou { $product_name }.
+payment-confirmation-thanks-subheading = Na adresu { $email } bol odoslaný potvrdzujúci e‑mail s podrobnosťami o tom, ako začať so službou { $product_name }.
 # $email (string) - The user's email.
-payment-confirmation-thanks-subheading-account-exists = Na adresu { $email } dostanete e-mail s pokynmi na nastavenie účtu, ako aj s podrobnosťami o platbe.
+payment-confirmation-thanks-subheading-account-exists = Na adresu { $email } dostanete e‑mail s pokynmi na nastavenie účtu, ako aj s podrobnosťami o platbe.
 payment-confirmation-order-heading = Podrobnosti o objednávke
 payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
@@ -431,8 +431,8 @@ no-subscription-change = Ľutujeme, váš plán predplatného nemôžete zmeniť
 iap-already-subscribed = Už máte predplatné cez { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Systémová chyba spôsobila zlyhanie vašej registrácie produktu { $productName }. Váš spôsob platby nebol zaúčtovaný. Prosím, skúste to znova.
-fxa-post-passwordless-sub-error = Predplatné bolo potvrdené, ale nepodarilo sa načítať stránku s potvrdením. Skontrolujte svoj e-mail a nastavte si účet.
-newsletter-signup-error = Nie ste zaregistrovaný na odber e-mailov s novinkami v produkte. Môžete to skúsiť znova v nastaveniach účtu.
+fxa-post-passwordless-sub-error = Predplatné bolo potvrdené, ale nepodarilo sa načítať stránku s potvrdením. Skontrolujte svoj e‑mail a nastavte si účet.
+newsletter-signup-error = Nie ste zaregistrovaný na odber e‑mailov s novinkami v produkte. Môžete to skúsiť znova v nastaveniach účtu.
 product-plan-error =
     .title = Problém s načítaním plánov
 product-profile-error =
