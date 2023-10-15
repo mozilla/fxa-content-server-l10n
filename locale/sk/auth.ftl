@@ -96,12 +96,27 @@ automated-email-no-action = { automated-email-no-action-plaintext } Ďalšie inf
 automated-email-no-action-plaintext = Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nemusíte robiť nič.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, zmeňte si svoje heslo:
+automatedEmailRecoveryKey-delete-key-change-pwd = Ak ste to neboli vy, <a data-l10n-name="revokeAccountRecoveryLink">odstráňte nový kľúč</a> a <a data-l10n-name="passwordChangeLink">zmeňte si heslo</a>.
+automatedEmailRecoveryKey-change-pwd-only = Ak ste to neboli vy, <a data-l10n-name="passwordChangeLink">zmeňte si heslo</a>.
+automatedEmailRecoveryKey-more-info = Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Táto žiadosť prišla z:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ak ste to neboli vy, odstráňte nový kľúč:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ak ste to neboli vy, zmeňte si heslo:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = a zmeňte si heslo:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Ďalšie informácie nájdete na stránkach Podpory { -brand-mozilla(case: "gen") }.
 automated-email-reset =
     Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, <a data-l10n-name="resetLink">zmeňte si svoje heslo</a>.
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ak ste ho nezmenili, prosím, obnovte si svoje heslo na adrese { $resetLink }
+brand-banner-message = Vedeli ste, že sme zmenili názov z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Ďalšie informácie</a>
 cancellationSurvey = Vyplňte, prosím, tento <a data-l10n-name="cancellationSurveyUrl">krátky prieskum</a> a pomôžte nám zlepšiť naše služby.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vyplňte, prosím, tento krátky formulár a pomôžte nám zlepšiť naše služby:
@@ -297,16 +312,13 @@ passwordResetAccountRecovery-action-2 = Vytvoriť nový kľúč na obnovenie ú�
 passwordResetAccountRecovery-regen-required-mjml-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili:
-postAddAccountRecovery-subject-2 = Bol vytvorený kľúč na obnovenie účtu
+postAddAccountRecovery-subject-3 = Bol vytvorený nový kľúč na obnovenie účtu
 postAddAccountRecovery-title2 = Vytvorili ste nový kľúč na obnovenie účtu
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Nový kľúč bol vytvorený z:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Neboli ste to vy?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Odstráňte tento nový kľúč</a> a <a data-l10n-name="passwordChangeLink">zmeňte si heslo</a>.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Uložte si tento kľúč na bezpečné miesto – budete ho potrebovať na obnovenie zašifrovaných údajov prehliadania, ak zabudnete heslo.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Tento kľúč je možné použiť iba raz. Keď ho použijete, automaticky vám vytvoríme nový. Alebo si môžete kedykoľvek vytvoriť nový v nastaveniach účtu.
 postAddAccountRecovery-action = Spravovať účet
-postAddAccountRecovery-delete-key = Odstrániť nový kľúč:
-postAddAccountRecovery-changd-password = Zmeniť heslo:
 postAddLinkedAccount-subject = Nový účet prepojený s { -brand-firefox(case: "ins") }
 postAddLinkedAccount-subject-2 = Nový účet prepojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lower") }
 #  Variables:
@@ -322,6 +334,11 @@ postAddTwoStepAuthentication-title-2 = Zapli ste dvojstupňové overenie
 postAddTwoStepAuthentication-from-device = Povolili ste ho z:
 postAddTwoStepAuthentication-action = Spravovať účet
 postAddTwoStepAuthentication-code-required-2 = Pri každom prihlásení sa teraz vyžadujú bezpečnostné kódy z vašej overovacej aplikácie.
+postChangeAccountRecovery-subject = Kľúč na obnovenie účtu bol zmenený
+postChangeAccountRecovery-title = Zmenili ste kľúč na obnovenie účtu
+postChangeAccountRecovery-body-part1 = Teraz máte nový kľúč na obnovenie účtu. Váš predchádzajúci kľúč bol odstránený.
+postChangeAccountRecovery-body-part2 = Uložte si tento nový kľúč na bezpečné miesto – budete ho potrebovať na obnovenie zašifrovaných údajov prehliadania, ak zabudnete heslo.
+postChangeAccountRecovery-action = Spravovať účet
 postChangePrimary-subject = Hlavná e-mailová adresa bola aktualizovaná
 postChangePrimary-title = Nová hlavná e-mailová adresa
 # Variables:
@@ -347,11 +364,10 @@ postNewRecoveryCodes-title-2 = Vytvorili ste nové záložné overovacie kódy
 postNewRecoveryCodes-description-2 = Boli vytvorené na:
 postNewRecoveryCodes-action = Spravovať účet
 postRemoveAccountRecovery-subject-2 = Kľúč na obnovenie účtu bol odstránený
-postRemoveAccountRecovery-title-2 = Odstránili ste kľúč na obnovenie účtu.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Bol odstránený z:
+postRemoveAccountRecovery-title-3 = Odstránili ste kľúč na obnovenie účtu
+postRemoveAccountRecovery-body-part1 = Ak zabudnete heslo, na obnovenie zašifrovaných údajov prehliadania sa vyžaduje kľúč na obnovenie účtu.
+postRemoveAccountRecovery-body-part2 = Ak ste tak ešte neurobili, vytvorte si v nastaveniach účtu nový kľúč na obnovenie účtu, aby ste predišli strate uložených hesiel, záložiek, histórie prehliadania atď.
 postRemoveAccountRecovery-action = Spravovať účet
-postRemoveAccountRecovery-invalid-2 = Ak zabudnete heslo, na obnovenie údajov { -brand-firefox(case: "gen") } potrebujete kľúč na obnovenie účtu.
 postRemoveSecondary-subject = Alternatívna e-mailová adresa bola odstránená
 postRemoveSecondary-title = Alternatívna e-mailová adresa bola odstránená
 # Variables:
