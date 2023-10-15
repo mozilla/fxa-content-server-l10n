@@ -19,10 +19,6 @@ link-expired-resent-code-error-message = משהו השתבש. לא ניתן הי
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = סגירה
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } ישונו ל{ -product-mozilla-accounts } ב־1 בנובמבר
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -898,6 +894,10 @@ terms-privacy-agreement-intro-2 = המשך התהליך מהווה הסכמה ל
 terms-privacy-agreement-pocket = <pocketTos>תנאי השירות</pocketTos> ו<pocketPrivacy>הצהרת הפרטיות</pocketPrivacy> של { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>תנאי השירות</pocketTos> ו<pocketPrivacy>הצהרת הפרטיות</pocketPrivacy> של { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>תנאי השירות והצהרת הפרטיות</monitorTos> של { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>תנאי השירות והצהרת הפרטיות</monitorTos> של { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>תנאי השירות</firefoxTos> ו<firefoxPrivacy>הצהרת הפרטיות</firefoxPrivacy> של { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
