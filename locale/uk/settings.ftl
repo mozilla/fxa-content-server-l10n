@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Щось пішло не так. Не �
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Закрити
+brand-banner-dismiss-button-2 =
+    .aria-label = Закрити банер
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = 1 листопада { -product-firefox-accounts } буде перейменовано на { -product-mozilla-accounts(capitalization: "upper") }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -965,6 +965,10 @@ terms-privacy-agreement-intro-2 = Продовжуючи, ви погоджує�
 terms-privacy-agreement-pocket = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Умови користування та Положення про приватність</monitorTos> { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Умови користування та Положення про приватність</monitorTos> { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy> { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
