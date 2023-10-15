@@ -64,6 +64,7 @@ brand-name-mozilla-logo = Лагатып { -brand-mozilla }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = У вас ужо ёсць уліковы запіс { -brand-name-firefox }? <a>Увайсці</a>
+new-user-sign-in-link-2 = Ужо маеце { -product-mozilla-account }? <a>Увайсці</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -439,6 +440,7 @@ coupon-success-repeating = Ваш план будзе аўтаматычна п�
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Стварыце ўліковы запіс { -brand-name-firefox }
+new-user-step-1-2 = 1. Стварыце { -product-mozilla-account }
 new-user-card-title = Увядзіце даныя вашай карты
 new-user-submit = Падпісацца зараз
 
