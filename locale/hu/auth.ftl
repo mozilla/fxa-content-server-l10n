@@ -101,16 +101,16 @@ automated-email-not-authorized-plaintext = Ez egy automatikus e-mail, ha nem Ön
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
-automatedEmailRecoveryKey-origin-device-all = Ez a kérés a { $uaBrowser }tól érkezett, ekkor: { $uaOS } { $uaOSVersion }.
+automatedEmailRecoveryKey-origin-device-all = Ez a kérés { $uaBrowser } böngészőtől érkezett, erről: { $uaOS } { $uaOSVersion }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 # - $uaOS: the user agent's operating system (e.g, MacOS)
-automatedEmailRecoveryKey-origin-device-browser-os = Ez a kérés a(z) { $uaBrowser } részéről érkezett ekkor: { $uaOS }.
+automatedEmailRecoveryKey-origin-device-browser-os = Ez a kérés { $uaBrowser } böngészőtől érkezett, erről: { $uaOS }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
-automatedEmailRecoveryKey-origin-device-browser-only = A kérés a(z) { $uaBrowser } felől érkezett.
+automatedEmailRecoveryKey-origin-device-browser-only = Ez a kérés { $uaBrowser } böngészőtől érkezett.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
@@ -119,12 +119,12 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = A kérés a következ�
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
-automatedEmailRecoveryKey-origin-device-OS-only = A kérés ettől érkezett: { $uaOS }.
-automatedEmailRecoveryKey-delete-key-change-pwd = Ha ez nem Ön volt, <a data-l10n-name="revokeAccountRecoveryLink">törölje az új kulcsot</a> és <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>.
-automatedEmailRecoveryKey-change-pwd-only = Ha nem Ön volt, <a data-l10n-name="passwordChangeLink">változtassa meg jelszavát</a>.
+automatedEmailRecoveryKey-origin-device-OS-only = A kérés a következőtől érkezett: { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Ha ez nem Ön volt, <a data-l10n-name="revokeAccountRecoveryLink">törölje az új kulcsot</a> és <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>
+automatedEmailRecoveryKey-change-pwd-only = Ha ez nem Ön volt, <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>.
 automatedEmailRecoveryKey-more-info = További információért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
-automatedEmailRecoveryKey-origin-plaintext = A kérés innen érkezett:
+automatedEmailRecoveryKey-origin-plaintext = A kérés a következőtől érkezett:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ha ez nem Ön volt, törölje az új kulcsot:
 # Colon is followed by a URL to the change password section of account settings
@@ -340,7 +340,7 @@ postAddAccountRecovery-title2 = Létrehozott egy új fiók-helyreállítási kul
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Mentse el ezt a kulcsot – szüksége lesz rá a titkosított böngészési adatainak helyreállításához, ha elfelejtené a jelszavát.
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = Ez a kulcs csak egyszer használható. Miután használta, automatikusan létrehozunk egy újat. Vagy bármikor létrehozhat egy újat a fiókbeállításokban.
+postAddAccountRecovery-body-part2 = Ez a kulcs csak egyszer használható. Miután felhasználta, automatikusan létrehozunk egy újat. Vagy bármikor létrehozhat egy újat a fiókbeállításokban.
 postAddAccountRecovery-action = Fiók kezelése
 postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox(case: "instrumental") }
 postAddLinkedAccount-subject-2 = Új fiók kapcsolva a { -product-mozilla-account }jához

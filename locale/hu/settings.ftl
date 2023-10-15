@@ -967,9 +967,9 @@ terms-privacy-agreement-pocket = A { -product-pocket } <pocketTos> Szolgáltatá
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Szolgáltatási feltételek</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozat</pocketPrivacy>
 # link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = A { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételei és Adatvédelmi nyilatkozat</monitorTos>
+terms-privacy-agreement-monitor = A { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételei és Adatvédelmi nyilatkozata</monitorTos>
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételek és Adatvédelmi nyilatkozat</monitorTos>
+terms-privacy-agreement-monitor-2 = A { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételei és Adatvédelmi nyilatkozata</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = A { -brand-firefox } <firefoxTos>Szolgáltatási feltételeit</firefoxTos> és az <firefoxPrivacy>Adatvédelmi nyilatkozatot</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
