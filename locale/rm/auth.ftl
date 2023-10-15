@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Access a { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Acceder a tes conto { -product-mozilla-account }?
 session-verify-send-push-body-2 = Clicca qua per confermar tia identitad
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Clicca qua per confermar tia identitad
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo da { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronisar ils apparats">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparats">
 fxa-privacy-url = Directivas per la protecziun da datas da { -brand-mozilla }
+moz-accounts-privacy-url = Directivas per la protecziun da datas da { -product-mozilla-accounts }
 fxa-service-url = Cundiziuns d’utilisaziun dals servetschs da cloud da { -product-firefox-cloud }
+moz-accounts-terms-url = Cundiziuns d'utilisaziun da { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo da { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 subplat-automated-email = Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut.
 subplat-privacy-notice = Infurmaziuns davart la protecziun da datas
@@ -24,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-firefox-account } e ti has in abunament da { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-mozilla-account } e ti has in abunament da { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Ti retschaivas quest e-mail perquai che { $email } ha in { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Ti retschaivas quest e-mail perquai che { $email } ha in { -product-mozilla-account }.
 subplat-explainer-multiple = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-firefox-account } e ti has abunà plirs products.
+subplat-explainer-multiple-2 = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-mozilla-account } e ti has abunà plirs products.
 subplat-explainer-was-deleted = Ti retschaivas quest e-mail perquai che { $email } è vegnì duvrà per endrizzar in { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Ti retschaivas quest e-mail perquai che { $email } è vegnì duvrà per avrir in { -product-mozilla-account }.
 subplat-manage-account = Administrescha tes parameters dal { -product-firefox-account } cun visitar tia <a data-l10n-name="subplat-account-page">pagina dal conto</a>.
+subplat-manage-account-2 = Administrescha tes parameters dal { -product-mozilla-account } cun visitar tia <a data-l10n-name="subplat-account-page">pagina dal conto</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Administrescha tes parameters dal { -product-firefox-account } cun visitar tia pagina dal conto: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Administrescha tes parameters dal { -product-mozilla-account } cun visitar tia pagina dal conto: { $accountSettingsUrl }
 subplat-terms-policy = Cundiziuns e reglas per l’annullaziun
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Annullar l’abunament
@@ -78,6 +96,30 @@ automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriur
 automated-email-no-action-plaintext = Quai è in e-mail automatic. Sche ti al has survegnì per sbagl na stos ti far nagut.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Quai è in e-mail automatic; sche ti n'has betg autorisà questa acziun, mida per plaschair tes pled-clav:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Questa dumonda vegn da { $uaBrowser } sin { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Questa dumonda vegn da { $uaBrowser } sin { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Questa dumonda vegn da { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Questa dumonda vegn da { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Questa dumonda vegn da { $uaOS }.
 automated-email-reset =
     Quai è in e-mail automatic. Sche ti n'has betg autorisà questa acziun, <a data-l10n-name="resetLink">reinizialisescha per plaschair tes pled-clav</a>.
     Per ulteriuras infurmaziuns, per plaschair visitar il <a data-l10n-name="supportLink">support da { -brand-mozilla }</a>.
@@ -201,7 +243,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = I dovra dus per sincronisar
 cadReminderFirst-description-1 = Piglia tes tabs cun tai sin tut tes apparats. Acceda a tes segnapaginas, pleds-clav ed autras datas dapertut là nua che utiliseschas { -brand-firefox }. Quai è la magia da tes conto da { -brand-firefox }!
-cadReminderFirst-description-2 = I dovra be ina secunda per la sincronisaziun.
 cadReminderSecond-subject-2 = Na sta betg cun la bucca sitga! Cumplettescha la configuraziun da tia sincronisaziun
 cadReminderSecond-action = Sincronisar in auter apparat
 cadReminderSecond-title-2 = N'emblida betg da sincronisar!
@@ -242,8 +283,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova annunzia a { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Tes { -product-firefox-account } è vegnì duvrà per s'annunziar
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +299,6 @@ passwordChangeRequired-title = Midada dal pled-clav necessaria
 passwordChangeRequired-suspicious-activity = Nus avain constatà in cumportament suspectus en tes { -product-firefox-account }. Per impedir l'access nunautorisà a tes { -product-firefox-account } avain nus deconnectà tut tes apparats da tes conto e sco mesira da precauziun stos ti midar tes pled-clav.
 passwordChangeRequired-sign-in = T'annunzia danovamain sin in dals apparats tar in dals servetschs nua che ti utiliseschas tes { -product-firefox-account } e suonda ils pass che ta vegnan proponids.
 passwordChangeRequired-different-password = <b>Impurtant:</b> Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail.
-passwordChangeRequired-signoff = Cordialmain,
-passwordChangeRequired-signoff-name = Il team dal { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Impurtant: Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail.
 passwordReset-subject = Actualisà il pled-clav
 passwordReset-title = Il pled-clav da tes conto è vegnì midà
@@ -275,16 +312,8 @@ passwordResetAccountRecovery-action-2 = Crear ina nova clav da recuperaziun dal 
 passwordResetAccountRecovery-regen-required-mjml-1 = Ti stos t'annunziar danovamain sin tut tes apparats sincronisads. Tegna endament da crear ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Ti stos t'annunziar danovamain sin tut tes apparats sincronisads. Tegna endament da crear ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà:
-postAddAccountRecovery-subject-2 = Creà la clav da recuperaziun dal conto
 postAddAccountRecovery-title2 = Ti has creà ina nova clav da recuperaziun dal conto
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Ina nova clav è vegnida creada ord:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Quai n'es betg ti?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Stizza la nova clav</a> e <a data-l10n-name="passwordChangeLink">mida tes pled-clav</a>
 postAddAccountRecovery-action = Administrar il conto
-postAddAccountRecovery-delete-key = Stizza la nova clav:
-postAddAccountRecovery-changd-password = Mida tes pled-clav:
 postAddLinkedAccount-subject = Nov conto collià cun { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -317,11 +346,7 @@ postNewRecoveryCodes-title-2 = Ti has creà novs codes d'autentificaziun da back
 postNewRecoveryCodes-description-2 = Els èn vegnids creads sin:
 postNewRecoveryCodes-action = Administrar il conto
 postRemoveAccountRecovery-subject-2 = Stizzà la clav da recuperaziun dal conto
-postRemoveAccountRecovery-title-2 = Ti has stizzà tia clav da recuperaziun dal conto.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Ella è vegnida stizzada sin:
 postRemoveAccountRecovery-action = Administrar il conto
-postRemoveAccountRecovery-invalid-2 = Ti dovras ina clav da recuperaziun dal conto per recuperar tias datas da { -brand-firefox } sche ti emblidas tes pled-clav.
 postRemoveSecondary-subject = Allontanà l’adressa dad e-mail alternativa
 postRemoveSecondary-title = Allontanà l’adressa dad e-mail alternativa
 # Variables:
@@ -520,7 +545,6 @@ subscriptionUpgrade-upgrade-info = Ti has midà cun success da { $productNameOld
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = A partir da tes proxim quint mida la summa debitada da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }. Il medem mument vegn era debità il pajament unic da { $paymentProrated } che reflectescha la debitaziun pli auta durant il rest da quest { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = I vegn debità il pajament unic da { $paymentProrated } per reflectar il pretsch pli aut da l'abunament per il rest da quest { $productPaymentCycleOld }. A partir da tes proxim quint mida la summa debitada da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
