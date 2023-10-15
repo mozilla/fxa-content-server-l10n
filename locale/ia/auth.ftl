@@ -338,6 +338,8 @@ passwordResetAccountRecovery-regen-required-txt-1 = Tu debera acceder de novo su
 postAddAccountRecovery-subject-3 = Nove clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Reserva iste clave in un loco secur, illo te besoniara pro restaurar tu datos de navigation cryptate si tu oblida tu contrasigno.
+# Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Iste es un clave a uso singule. Post que tu lo usara, nos automaticamente creara pro te un nove clave. O tu pote crear quandocunque uno nove per le parametros de tu conto.
 postAddAccountRecovery-action = Gerer le conto
 postAddLinkedAccount-subject = Nove conto ligate a { -brand-firefox }
@@ -358,6 +360,7 @@ postAddTwoStepAuthentication-code-required-2 = Le codices de securitate ab tu ap
 postChangeAccountRecovery-subject = Clave de recuperation del conto cambiate
 postChangeAccountRecovery-title = Tu cambiava tu clave de recuperation del conto
 postChangeAccountRecovery-body-part1 = Tu ora ha un nove clave de recuperation del conto.Tu clave precedente era delite.
+postChangeAccountRecovery-body-part2 = Reserva iste nove clave in un loco secur, illo te besoniara pro restaurar tu datos de navigation cryptate si tu oblida tu contrasigno.
 postChangeAccountRecovery-action = Gerer le conto
 postChangePrimary-subject = E-mail primari actualisate
 postChangePrimary-title = Nove e-mail primari
