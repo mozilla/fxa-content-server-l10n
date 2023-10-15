@@ -96,6 +96,30 @@ automated-email-no-action = { automated-email-no-action-plaintext } Ďalšie inf
 automated-email-no-action-plaintext = Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nemusíte robiť nič.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, zmeňte si svoje heslo:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Táto žiadosť prišla z prehliadača { $uaBrowser } na { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Táto žiadosť prišla z prehliadača { $uaBrowser } na { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Táto žiadosť prišla z prehliadača { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Táto žiadosť prišla zo systému { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Táto žiadosť prišla zo systému { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Ak ste to neboli vy, <a data-l10n-name="revokeAccountRecoveryLink">odstráňte nový kľúč</a> a <a data-l10n-name="passwordChangeLink">zmeňte si heslo</a>.
 automatedEmailRecoveryKey-change-pwd-only = Ak ste to neboli vy, <a data-l10n-name="passwordChangeLink">zmeňte si heslo</a>.
 automatedEmailRecoveryKey-more-info = Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.

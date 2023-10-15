@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-10-15 17:27+0000\n"
+"PO-Revision-Date: 2023-10-15 17:32+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1158,6 +1158,11 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Pokračovaním súhlasíte s:<br />\n"
+"              <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Podmienkami používania služby a Vyhlásením o ochrane osobných údajov</a> služby Firefox Monitor< br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Vyhlásením o ochrane osobných údajov</a> prehliadača Firefox\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1210,6 +1215,9 @@ msgid ""
 "          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"Pokračovaním súhlasíte s:<br />\n"
+"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Podmienkami používania služby</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Vyhlásením o ochrane osobných údajov</a> služby Pocket<br />\n"
+"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Vyhlásením o ochrane osobných údajov</a> prehliadača Firefox"
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1219,6 +1227,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              Pokračovaním súhlasíte s:<br />\n"
+"              <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Podmienkami používania služby a Vyhlásením o ochrane osobných údajov</a> služby Firefox Monitor< br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Vyhlásením o ochrane osobných údajov</a> prehliadača Firefox\n"
+"            "
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to your Mozilla account"
@@ -1235,6 +1248,9 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"Pokračovaním súhlasíte s:<br />\n"
+"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Podmienkami používania služby</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Vyhlásením o ochrane osobných údajov</a> služby Pocket<br />\n"
+"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Vyhlásením o ochrane osobných údajov</a> pre Účty Mozilla"
 
 #: .es5/templates/index.mustache:22
 msgid ""
@@ -1243,6 +1259,11 @@ msgid ""
 "  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"              Pokračovaním súhlasíte s:<br />\n"
+"              <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Podmienkami používania služby a Vyhlásením o ochrane osobných údajov</a> služby Firefox Monitor< br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Vyhlásením o ochrane osobných údajov</a> pre Účty Mozilla\n"
+"            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1687,7 +1708,7 @@ msgstr "Ak chcete pokračovať do Firefox Sync, vytvorte si heslo. Vaše údaje 
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Vytvoriť heslo"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"

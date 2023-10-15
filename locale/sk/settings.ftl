@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Niečo sa pokazilo. Nový kód sa nepod
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Zavrieť
+brand-banner-dismiss-button-2 =
+    .aria-label = Zavrieť oznámenie
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } sa 1. novembra premenujú na { -product-mozilla-accounts }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -961,6 +961,10 @@ terms-privacy-agreement-intro-2 = Pokračovaním súhlasíte s:
 terms-privacy-agreement-pocket = <pocketTos>Podmienky používania služby</pocketTos> a <pocketPrivacy>Vyhlásenie o ochrane osobných údajov</pocketPrivacy> služby { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Podmienky používania služby</pocketTos> a <pocketPrivacy>Vyhlásenie o ochrane osobných údajov</pocketPrivacy> služby { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Podmienky používania služby a Vyhlásenie o ochrane osobných údajov</monitorTos> pre { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Podmienky používania služby a Vyhlásenie o ochrane osobných údajov</monitorTos> pre { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmienky používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásenie o ochrane osobných údajov</firefoxPrivacy> prehliadača { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
