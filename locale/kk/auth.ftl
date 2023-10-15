@@ -296,16 +296,8 @@ passwordResetAccountRecovery-action-2 = Тіркелгіні қалпына ке
 passwordResetAccountRecovery-regen-required-mjml-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз:
-postAddAccountRecovery-subject-2 = Тіркелгіні қалпына келтіру кілті жасалды
 postAddAccountRecovery-title2 = Сіз тіркелгіні қалпына келтіру жаңа кілтін жасадыңыз
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Жаңа кілт келесі жерден жасалды:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Сен емессіз бе?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Жана кілтті өшіріңіз</a> және <a data-l10n-name="passwordChangeLink">өз пароліңізді өзгертіңіз</a>
 postAddAccountRecovery-action = Тіркелгіні басқару
-postAddAccountRecovery-delete-key = Жаңа кілтті өшіру:
-postAddAccountRecovery-changd-password = Пароліңізді өзгертіңіз:
 postAddLinkedAccount-subject = { -brand-firefox } ішіне жаңа тіркелгі байланыстырылды
 postAddLinkedAccount-subject-2 = Сіздің { -product-mozilla-account } ішіне жаңа тіркелгі байланыстырылды
 #  Variables:
@@ -321,6 +313,8 @@ postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутент
 postAddTwoStepAuthentication-from-device = Сіз оны келесі жерден іске қостыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
 postAddTwoStepAuthentication-code-required-2 = Аутентификация қолданбасының қауіпсіздік кодтары енді жүйеге әр рет кірген сайын керек болады.
+postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
+postChangeAccountRecovery-action = Тіркелгіні басқару
 postChangePrimary-subject = Біріншілік эл. пошта адресі жаңартылды
 postChangePrimary-title = Жаңа біріншілік эл. поштасы
 # Variables:
@@ -345,11 +339,8 @@ postNewRecoveryCodes-title-2 = Сіз жаңа сақтық көшірме ау�
 postNewRecoveryCodes-description-2 = Олар келесі жерде жасалды:
 postNewRecoveryCodes-action = Тіркелгіні басқару
 postRemoveAccountRecovery-subject-2 = Тіркелгіні қалпына келтіру коды өшірілді
-postRemoveAccountRecovery-title-2 = Сіз тіркелгіні қалпына келтіру кілтін өшірдіңіз.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Ол келесі жерден өшірілді:
+postRemoveAccountRecovery-title-3 = Сіз тіркелгіні қалпына келтіру кілтін өшірдіңіз
 postRemoveAccountRecovery-action = Тіркелгіні басқару
-postRemoveAccountRecovery-invalid-2 = Пароліңізді ұмытып қалсаңыз, { -brand-firefox } деректерін қалпына келтіру үшін тіркелгіні қалпына келтіру кілті керек болады.
 postRemoveSecondary-subject = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-title = Екіншілік эл. пошта адресі өшірілді
 # Variables:
