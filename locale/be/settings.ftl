@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Нешта пайшло не так. Н
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Закрыць
+brand-banner-dismiss-button-2 =
+    .aria-label = Закрыць банер
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } будуць перайменаваны ва { -product-mozilla-accounts } 1 лістапада
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -171,6 +171,7 @@ form-verify-code-default-error = Гэта поле абавязковае
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ аднаўлення ўліковага запісу { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі
 get-data-trio-download-2 =
     .title = Сцягванне
     .aria-label = Сцягванне
@@ -308,6 +309,7 @@ avatar-default-avatar =
 
 bento-menu-title = Меню прадуктаў { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
+bento-menu-mozilla-title = { -brand-mozilla } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -381,6 +383,7 @@ cs-disconnect-lost-advice-content-2 =
     для захавання вашай інфармацыі ў бяспецы, вам варта змяніць пароль свайго { -product-firefox-account(case: "singular_genitive") }
     у наладах. Вам таксама варта азнаёміцца з парадамі вытворцы
     сваёй прылады па аддаленым выдаленні даных.
+cs-disconnect-lost-advice-content-3 = Паколькі ваша прылада была страчана або скрадзена, для захавання вашай інфармацыі ў бяспецы, вам варта змяніць пароль свайго { -product-mozilla-account } у наладах. Вам таксама варта азнаёміцца з парадамі вытворцы сваёй прылады па аддаленым выдаленні дадзеных.
 cs-disconnect-suspicious-advice-heading = Падазроная прылада адлучана
 cs-disconnect-suspicious-advice-content =
     Калі адлучаная прылада сапраўды падазроная, 
@@ -388,6 +391,9 @@ cs-disconnect-suspicious-advice-content =
     у наладах уліковага запісу, каб захаваць вашу інфармацыю ў бяспецы.
     Вам таксама варта змяніць любыя іншыя паролі,
     якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
+cs-disconnect-suspicious-advice-content-2 =
+    Калі адлучаная прылада сапраўды падазроная, вам варта змяніць пароль { -product-mozilla-account }
+    у наладах уліковага запісу, каб захаваць вашу інфармацыю ў бяспецы. Вам таксама варта змяніць любыя іншыя паролі, якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
 cs-sign-out-button = Выйсці
 
 ##
@@ -397,15 +403,20 @@ cs-sign-out-button = Выйсці
 
 dc-heading = Збор і выкарыстанне дадзеных
 dc-subheader = Дапамажыце ўдасканаліць { -product-firefox-accounts }
+dc-subheader-2 = Дапамажыце ўдасканаліць { -product-mozilla-accounts }
 dc-subheader-content = Дазволіць { -product-firefox-accounts } адпраўляць тэхнічныя даныя і інфармацыя аб узаемадзеянні { -brand-mozilla }.
+dc-subheader-content-2 = Дазволіць { -product-mozilla-accounts } адпраўляць тэхнічныя дадзеныя і інфармацыю аб узаемадзеянні ў { -brand-mozilla }.
 dc-opt-out-success = Адмова пацверджана. { -product-firefox-accounts } не будзе адпраўляць тэхнічныя даныя або звесткі аб ўзаемадзеянні ў { -brand-mozilla }.
+dc-opt-out-success-2 = Адмова пацверджана. { -product-mozilla-accounts } не будзе адпраўляць тэхнічныя дадзеныя або звесткі аб ўзаемадзеянні ў { -brand-mozilla }.
 dc-opt-in-success = Дзякуй! Адпраўка гэтых даных дапаможа нам палепшыць { -product-firefox-accounts }.
+dc-opt-in-success-2 = Дзякуй! Адпраўка гэтых дадзеных дапаможа нам палепшыць { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = На жаль, пры змене параметраў збору дадзеных ўзнікла праблема
 dc-learn-more = Падрабязней
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Меню { -product-firefox-account }
+drop-down-menu-title-2 = Меню { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -948,8 +959,12 @@ tfa-row-change-modal-explain = Вы не зможаце адмяніць гэт�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Працягваючы, вы згаджаецеся:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Працягваючы, вы згаджаецеся з:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Умовы выкарыстання</pocketTos> і <pocketPrivacy>Паведамленне аб прыватнасці</pocketPrivacy> { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Умовы выкарыстання</pocketTos> і <pocketPrivacy>Паведамленне аб прыватнасці</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Умовы выкарыстання</firefoxTos> і <firefoxPrivacy>Паведамленне аб прыватнасці</firefoxPrivacy> { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
@@ -995,6 +1010,7 @@ auth-error-1011 = Патрэбен сапраўдны адрас электро�
 
 cannot-create-account-header = Не ўдаецца стварыць уліковы запіс
 cannot-create-account-requirements = Вы мусіце адпавядаць пэўным патрабаванням па ўзросце, каб стварыць { -product-firefox-account }.
+cannot-create-account-requirements-2 = Вы мусіце адпавядаць пэўным патрабаванням па ўзросце, каб стварыць { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Падрабязней
 
@@ -1030,6 +1046,7 @@ connect-another-device-ios-complete-setup-message = Увайдзіце ў { -bra
 
 cookies-disabled-header = Лакальнае сховішча і кукі абавязковыя
 cookies-disabled-enable-prompt = Калі ласка, уключыце кукі і лакальнае сховішча ў вашым браўзеры для доступу да { -product-firefox-accounts }. Гэта дасць магчымасць помніць вас паміж сеансамі.
+cookies-disabled-enable-prompt-2 = Калі ласка, уключыце кукі і лакальнае сховішча ў вашым браўзеры для доступу да свайго { -product-mozilla-account }. Гэта дасць магчымасць помніць вас паміж сеансамі.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Паспрабаваць зноў
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1230,6 +1247,7 @@ account-recovery-confirm-key-heading-w-default-service = Скіньце паро
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу, <span>каб перайсці да { $serviceName }</span>
 account-recovery-confirm-key-instructions = Калі ласка, увядзіце аднаразовы ключ аднаўлення ўліковага запісу, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да свайго { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Калі ласка, увядзіце аднаразовы ключ аднаўлення ўліковага запісу, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да свайго { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Заўвага:</span> Калі вы скінеце пароль, але не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер звесткі, такія як гісторыя і закладкі).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
