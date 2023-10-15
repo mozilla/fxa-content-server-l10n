@@ -40,10 +40,15 @@ subplat-explainer-reminder-form-2 = Otrzymujesz tę wiadomość, ponieważ { $em
 subplat-explainer-multiple = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-firefox-account(case: "acc", capitalization: "lower") } i subskrybowano wiele produktów.
 subplat-explainer-multiple-2 = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-mozilla-account(case: "acc", capitalization: "lower") } i subskrybowano wiele produktów.
 subplat-explainer-was-deleted = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-firefox-account(case: "acc", capitalization: "lower") }.
+subplat-explainer-was-deleted-2 = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 subplat-manage-account = Zarządzaj ustawieniami { -product-firefox-account(case: "gen", capitalization: "lower") } na stronie swojego <a data-l10n-name="subplat-account-page">konta</a>.
+subplat-manage-account-2 = Zarządzaj ustawieniami { -product-mozilla-account(case: "gen", capitalization: "lower") } na stronie swojego <a data-l10n-name="subplat-account-page">konta</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Zarządzaj ustawieniami { -product-firefox-account(case: "gen", capitalization: "lower") } na stronie swojego konta: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Zarządzaj ustawieniami { -product-mozilla-account(case: "gen", capitalization: "lower") } na stronie swojego konta: { $accountSettingsUrl }
 subplat-terms-policy = Regulamin i zasady anulowania
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anuluj subskrypcję
@@ -91,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Więcej info
 automated-email-no-action-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej czynności, to należy zmienić hasło:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Zmiana z przeglądarki { $uaBrowser } w systemie { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Zmiana z przeglądarki { $uaBrowser } w systemie { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Zmiana z przeglądarki { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Zmiana z systemu { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Zmiana z systemu { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Jeśli to nie Ty, <a data-l10n-name="revokeAccountRecoveryLink">usuń nowy klucz</a> i <a data-l10n-name="passwordChangeLink">zmień hasło</a>.
+automatedEmailRecoveryKey-change-pwd-only = Jeśli to nie Ty, <a data-l10n-name="passwordChangeLink">zmień hasło</a>.
+automatedEmailRecoveryKey-more-info = Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Zmiana z:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Jeśli to nie Ty, usuń nowy klucz:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Jeśli to nie Ty, zmień hasło:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = i zmień hasło:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Więcej informacji można znaleźć w pomocy { -brand-mozilla(case: "gen") }:
 automated-email-reset =
     Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej czynności, to należy <a data-l10n-name="resetLink">zmienić hasło</a>.
     Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jeśli nie zmieniono hasła, to należy je teraz zmienić pod adresem { $resetLink }
+brand-banner-message = Czy wiesz, że zmieniliśmy naszą nazwę z { -product-firefox-accounts(case: "gen", capitalization: "lower") } na { -product-mozilla-accounts(case: "gen", capitalization: "lower") }? <a data-l10n-name="learnMore">Więcej informacji</a>
 cancellationSurvey = Pomóż nam ulepszać nasze usługi wypełniając tę <a data-l10n-name="cancellationSurveyUrl">krótką ankietę</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomóż nam ulepszać nasze usługi wypełniając tę krótką ankietę:
@@ -219,6 +263,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Do synchronizacji trzeba dwojga
 cadReminderFirst-description-1 = Korzystaj ze swoich kart na wszystkich urządzeniach. Miej swoje zakładki, hasła i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }. To jak magia na Twoim koncie { -brand-firefox(case: "gen") }!
+cadReminderFirst-description-v2 = Korzystaj ze swoich kart na wszystkich urządzeniach. Miej swoje zakładki, hasła i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
 cadReminderSecond-subject-2 = Nie przegap! Dokończmy konfigurację synchronizacji
 cadReminderSecond-action = Synchronizuj inne urządzenie
 cadReminderSecond-title-2 = Nie zapomnij zsynchronizować!
@@ -233,9 +278,12 @@ downloadSubscription-title = Witamy w { $productName }
 downloadSubscription-content-2 = Zacznij korzystać ze wszystkich funkcji zawartych w subskrypcji:
 downloadSubscription-link-action-2 = Zacznij teraz
 fraudulentAccountDeletion-subject = Twoje { -product-firefox-account(case: "nom", capitalization: "lower") } zostało usunięte
+fraudulentAccountDeletion-subject-2 = Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } zostało usunięte
 fraudulentAccountDeletion-title = Twoje konto zostało usunięte
 fraudulentAccountDeletion-content = Niedawno za pomocą tego adresu e-mail utworzono { -product-firefox-account(case: "acc", capitalization: "lower") } i naliczono subskrypcję. Tak jak w przypadku każdego nowego konta, poprosiliśmy o jego potwierdzenie, najpierw weryfikując ten adres e-mail.
+fraudulentAccountDeletion-content-part1-v2 = Niedawno za pomocą tego adresu e-mail utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") } i naliczono subskrypcję. Tak jak w przypadku każdego nowego konta, poprosiliśmy o jego potwierdzenie, najpierw weryfikując ten adres e-mail.
 fraudulentAccountDeletion-content-2 = Na tę chwilę widzimy, że konto nigdy nie zostało potwierdzone. Ponieważ ten krok nie został ukończony, nie jesteśmy pewni, czy subskrypcja została upoważniona. Z tego powodu { -product-firefox-account(case: "nom", capitalization: "lower") } zarejestrowane na ten adres e-mail zostało usunięte, a subskrypcja anulowana ze zwrotem wszystkich opłat.
+fraudulentAccountDeletion-content-part2-v2 = Na tę chwilę widzimy, że konto nigdy nie zostało potwierdzone. Ponieważ ten krok nie został ukończony, nie jesteśmy pewni, czy subskrypcja została upoważniona. Z tego powodu { -product-mozilla-account(case: "nom", capitalization: "lower") } zarejestrowane na ten adres e-mail zostało usunięte, a subskrypcja anulowana ze zwrotem wszystkich opłat.
 fraudulentAccountDeletion-contact = W razie pytań prosimy o kontakt z naszym <a data-l10n-name="mozillaSupportUrl">zespołem wsparcia</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -261,6 +309,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe logowanie do „{ $clientName }”
 newDeviceLogin-title-2 = Twoje { -product-firefox-account(case: "nom", capitalization: "lower") } zostało użyte do zalogowania
+newDeviceLogin-title-3 = Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } zostało użyte do zalogowania
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = To nie Ty? <a data-l10n-name="passwordChangeLink">Zmień hasło</a>.
@@ -271,10 +320,13 @@ newDeviceLogin-action = Zarządzaj kontem
 passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
 passwordChanged-description = Pomyślnie zmieniono hasło { -product-firefox-account(case: "gen", capitalization: "lower") } z poniższego urządzenia:
+passwordChanged-description-2 = Pomyślnie zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } z poniższego urządzenia:
 passwordChangeRequired-subject = Wykryto podejrzane działania
 passwordChangeRequired-title = Wymagana jest zmiana hasła
 passwordChangeRequired-suspicious-activity = Wykryliśmy podejrzane zachowanie na Twoim { -product-firefox-account(case: "loc", capitalization: "lower") }. Aby uniemożliwić nieupoważniony dostęp do konta, odłączyliśmy od niego wszystkie urządzenia i wymagamy zmiany hasła w ramach środków ostrożności.
+passwordChangeRequired-suspicious-activity-2 = Wykryliśmy podejrzane zachowanie na Twoim { -product-mozilla-account(case: "loc", capitalization: "lower") }. Aby uniemożliwić nieupoważniony dostęp do konta, odłączyliśmy od niego wszystkie urządzenia i wymagamy zmiany hasła w ramach środków ostrożności.
 passwordChangeRequired-sign-in = Zaloguj się z powrotem na dowolnym urządzeniu lub usłudze, na której korzystasz z { -product-firefox-account(case: "gen", capitalization: "lower") } i postępuj zgodnie z instrukcją, która zostanie wyświetlona.
+passwordChangeRequired-sign-in-2 = Zaloguj się z powrotem na dowolnym urządzeniu lub usłudze, na której korzystasz z { -product-mozilla-account(case: "gen", capitalization: "lower") } i postępuj zgodnie z instrukcją, która zostanie wyświetlona.
 passwordChangeRequired-different-password = <b>Ważne:</b> wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
 passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
 passwordReset-subject = Zaktualizowano hasło
@@ -289,12 +341,21 @@ passwordResetAccountRecovery-action-2 = Utwórz nowy klucz odzyskiwania konta
 passwordResetAccountRecovery-regen-required-mjml-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty:
+postAddAccountRecovery-subject-3 = Utworzono nowy klucz odzyskiwania konta
 postAddAccountRecovery-title2 = Utworzono nowy klucz odzyskiwania konta
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Zachowaj ten klucz w bezpiecznym miejscu — będzie Ci potrzebny do przywrócenia zaszyfrowanych danych przeglądania, jeśli zapomnisz hasła.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Tego klucza można użyć tylko raz. Po jego wykorzystaniu automatycznie utworzymy dla Ciebie nowy. Możesz też w każdej chwili utworzyć nowy w ustawieniach konta.
 postAddAccountRecovery-action = Zarządzaj kontem
 postAddLinkedAccount-subject = Nowe konto powiązane z { -brand-firefox(case: "ins") }
+postAddLinkedAccount-subject-2 = Nowe konto powiązane z { -product-mozilla-account(case: "ins") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Konto { $providerName } zostało powiązane z { -product-firefox-account(case: "ins", capitalization: "lower") }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Konto { $providerName } zostało powiązane z { -product-mozilla-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Zarządzaj kontem
 postAddTwoStepAuthentication-subject-2 = Uwierzytelnianie dwuetapowe zostało włączone
 postAddTwoStepAuthentication-title-2 = Włączono uwierzytelnianie dwuetapowe
@@ -302,11 +363,19 @@ postAddTwoStepAuthentication-title-2 = Włączono uwierzytelnianie dwuetapowe
 postAddTwoStepAuthentication-from-device = Włączono je z urządzenia:
 postAddTwoStepAuthentication-action = Zarządzaj kontem
 postAddTwoStepAuthentication-code-required-2 = Podczas każdego logowania wymagane są teraz kody zabezpieczeń z aplikacji do uwierzytelniania.
+postChangeAccountRecovery-subject = Zmieniono klucz odzyskiwania konta
+postChangeAccountRecovery-title = Zmieniono klucz odzyskiwania konta
+postChangeAccountRecovery-body-part1 = Masz teraz nowy klucz odzyskiwania konta. Twój poprzedni klucz został usunięty.
+postChangeAccountRecovery-body-part2 = Zachowaj ten nowy klucz w bezpiecznym miejscu — będzie Ci potrzebny do przywrócenia zaszyfrowanych danych przeglądania, jeśli zapomnisz hasła.
+postChangeAccountRecovery-action = Zarządzaj kontem
 postChangePrimary-subject = Zaktualizowano główny adres e-mail
 postChangePrimary-title = Nowy główny adres e-mail
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Pomyślnie zmieniono główny adres e-mail na { $email }. Ten adres jest teraz nazwą użytkownika do logowania na { -product-firefox-account(case: "loc", capitalization: "lower") }, a także adresem odbierającym powiadomienia bezpieczeństwa
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Pomyślnie zmieniono główny adres e-mail na { $email }. Ten adres jest teraz nazwą użytkownika do logowania na { -product-mozilla-account(case: "loc", capitalization: "lower") }, a także adresem odbierającym powiadomienia bezpieczeństwa
 postChangePrimary-action = Zarządzaj kontem
 postConsumeRecoveryCode-title-2 = Użyto zapasowy kod uwierzytelniania
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -324,12 +393,17 @@ postNewRecoveryCodes-title-2 = Utworzono nowe zapasowe kody uwierzytelniania
 postNewRecoveryCodes-description-2 = Utworzono je na urządzeniu:
 postNewRecoveryCodes-action = Zarządzaj kontem
 postRemoveAccountRecovery-subject-2 = Klucz odzyskiwania konta został usunięty
+postRemoveAccountRecovery-title-3 = Usunięto klucz odzyskiwania konta
+postRemoveAccountRecovery-body-part1 = Twój klucz odzyskiwania konta jest wymagany do przywrócenia zaszyfrowanych danych logowania, jeśli zapomnisz hasła.
 postRemoveAccountRecovery-action = Zarządzaj kontem
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Pomyślnie usunięto dodatkowy adres e-mail { $secondaryEmail } z { -product-firefox-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania nie będą już wysyłane na ten adres.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Pomyślnie usunięto dodatkowy adres e-mail { $secondaryEmail } z { -product-mozilla-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania nie będą już wysyłane na ten adres.
 postRemoveSecondary-action = Zarządzaj kontem
 postRemoveTwoStepAuthentication-subject-line-2 = Uwierzytelnianie dwuetapowe zostało wyłączone
 postRemoveTwoStepAuthentication-title-2 = Wyłączono uwierzytelnianie dwuetapowe
@@ -342,6 +416,7 @@ postVerify-title-2 = Chcesz mieć tę samą kartę na dwóch urządzeniach?
 postVerify-description-2 = To łatwe! Wystarczy zainstalować { -brand-firefox(case: "acc") } na innym urządzeniu i zalogować się do synchronizacji. To jak magia!
 postVerify-sub-description = (A przy okazji… oznacza to, że możesz mieć swoje zakładki, hasła i wszystkie inne dane { -brand-firefox(case: "gen") } wszędzie tam, gdzie się zalogujesz.)
 postVerify-subject-3 = Witamy w { -brand-firefox(case: "loc") }!
+postVerify-subject-4 = Witamy w { -brand-mozilla(case: "loc") }!
 postVerify-setup-2 = Połącz inne urządzenie:
 postVerify-action-2 = Połącz inne urządzenie
 postVerifySecondary-subject = Dodano dodatkowy adres e-mail
@@ -349,12 +424,18 @@ postVerifySecondary-title = Dodano dodatkowy adres e-mail
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Pomyślnie potwierdzono { $secondaryEmail } jako dodatkowy adres e-mail dla { -product-firefox-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania będą teraz wysyłane na oba adresy.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Pomyślnie potwierdzono { $secondaryEmail } jako dodatkowy adres e-mail dla { -product-mozilla-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania będą teraz wysyłane na oba adresy.
 postVerifySecondary-action = Zarządzaj kontem
 recovery-subject = Zmień hasło
 recovery-title-2 = Nie pamiętasz hasła?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-firefox-account(case: "gen", capitalization: "lower") } z:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z:
 recovery-new-password-button = Utwórz nowe hasło, klikając poniższy przycisk. Ten odnośnik wygaśnie w ciągu godziny.
 recovery-copy-paste = Utwórz nowe hasło, kopiując i wklejając poniższy adres do przeglądarki. Ten odnośnik wygaśnie w ciągu godziny.
 recovery-action = Utwórz nowe hasło
@@ -367,6 +448,11 @@ subscriptionAccountDeletion-title = Przykro nam, że chcesz się z nami pożegn
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Niedawno usunięto { -product-firefox-account(case: "acc", capitalization: "lower") }. Z tego powodu anulowaliśmy subskrypcję { $productName }. Ostatnia płatność w wysokości { $invoiceTotal } została opłacona w dniu { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Niedawno usunięto { -product-mozilla-account(case: "acc", capitalization: "lower") }. Z tego powodu anulowaliśmy subskrypcję { $productName }. Ostatnia płatność w wysokości { $invoiceTotal } została opłacona w dniu { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Witamy w { $productName }: prosimy ustawić swoje hasło.
@@ -375,16 +461,20 @@ subscriptionAccountFinishSetup-subject = Witamy w { $productName }: prosimy ust
 subscriptionAccountFinishSetup-title = Witamy w { $productName }
 subscriptionAccountFinishSetup-content-processing = Płatność jest przetwarzana, co może zająć do czterech dni roboczych. Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 subscriptionAccountFinishSetup-content-create-2 = Następnie utworzysz hasło { -product-firefox-account(case: "gen", capitalization: "lower") }, aby zacząć korzystać z nowej subskrypcji.
+subscriptionAccountFinishSetup-content-create-3 = Następnie utworzysz hasło { -product-mozilla-account(case: "gen", capitalization: "lower") }, aby zacząć korzystać z nowej subskrypcji.
 subscriptionAccountFinishSetup-action-2 = Zacznij teraz
 subscriptionAccountReminderFirst-subject = Przypomnienie: dokończ konfigurację konta
 subscriptionAccountReminderFirst-title = Nie masz jeszcze dostępu do swojej subskrypcji
 subscriptionAccountReminderFirst-content-info-2 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Mamy nadzieję, że dokończysz konfigurowanie konta, aby móc korzystać ze swojej nowej subskrypcji.
+subscriptionAccountReminderFirst-content-info-3 = Kilka dni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Mamy nadzieję, że dokończysz konfigurowanie konta, aby móc korzystać ze swojej nowej subskrypcji.
 subscriptionAccountReminderFirst-content-select-2 = Kliknij „Utwórz hasło”, aby ustawić nowe hasło i dokończyć potwierdzanie konta.
 subscriptionAccountReminderFirst-action = Utwórz hasło
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Ostatnie przypomnienie: skonfiguruj swoje konto
 subscriptionAccountReminderSecond-title = Witamy w { -brand-firefox(case: "loc") }!
+subscriptionAccountReminderSecond-title-2 = Witamy w { -brand-mozilla(case: "loc") }!
 subscriptionAccountReminderSecond-content-info-2 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Mamy nadzieję, że dokończysz konfigurowanie konta, aby móc korzystać ze swojej nowej subskrypcji.
+subscriptionAccountReminderSecond-content-info-3 = Kilka dni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Mamy nadzieję, że dokończysz konfigurowanie konta, aby móc korzystać ze swojej nowej subskrypcji.
 subscriptionAccountReminderSecond-content-select-2 = Kliknij „Utwórz hasło”, aby ustawić nowe hasło i dokończyć potwierdzanie konta.
 subscriptionAccountReminderSecond-action = Utwórz hasło
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -538,23 +628,31 @@ unblockCode-report = Jeśli nie, prosimy pomóc nam odpędzić intruzów <a data
 unblockCode-report-plaintext = Jeśli nie, prosimy pomóc nam odpędzić intruzów zgłaszając to.
 verificationReminderFinal-subject = Ostatnie przypomnienie o potwierdzeniu konta
 verificationReminderFinal-description = Kilka tygodni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Ze względów bezpieczeństwa usuniemy je, jeśli nie zostanie zweryfikowane w ciągu najbliższych 24 godzin.
+verificationReminderFinal-description-2 = Kilka tygodni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Ze względów bezpieczeństwa usuniemy je, jeśli nie zostanie zweryfikowane w ciągu najbliższych 24 godzin.
 confirm-account = Potwierdź konto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Pamiętaj o potwierdzeniu konta
 verificationReminderFirst-title-2 = Witamy w { -brand-firefox(case: "loc") }!
+verificationReminderFirst-title-3 = Witamy w { -brand-mozilla(case: "loc") }!
 verificationReminderFirst-description-2 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 15 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
+verificationReminderFirst-description-3 = Kilka dni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 15 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
 verificationReminderFirst-sub-description-3 = Nie przegap przeglądarki, która stawia Ciebie i Twoją prywatność na pierwszym miejscu.
 confirm-email-2 = Potwierdź konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potwierdź konto
 verificationReminderSecond-subject-2 = Pamiętaj o potwierdzeniu konta
 verificationReminderSecond-title-2 = Nie przegap { -brand-firefox(case: "gen") }!
+verificationReminderSecond-title-3 = Nie przegap { -brand-mozilla(case: "gen") }!
 verificationReminderSecond-description-3 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 10 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
+verificationReminderSecond-description-4 = Kilka dni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 10 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
 verificationReminderSecond-second-description = { -product-firefox-account } umożliwia synchronizowanie swoich danych między urządzeniami i odblokowuje dostęp do innych produktów chroniących prywatność od { -brand-mozilla(case: "gen") }.
+verificationReminderSecond-second-description-2 = { -product-mozilla-account } umożliwia synchronizowanie swoich danych między urządzeniami i odblokowuje dostęp do innych produktów chroniących prywatność od { -brand-mozilla(case: "gen") }.
 verificationReminderSecond-sub-description-2 = Bądź częścią naszej misji przekształcania Internetu w miejsce otwarte dla wszystkich.
 verificationReminderSecond-action-2 = Potwierdź konto
 verify-title-2 = Uczyń Internet bardziej otwartym z { -brand-firefox(case: "ins") }
+verify-title-3 = Uczyń Internet bardziej otwartym z { -brand-mozilla(case: "ins") }
 verify-description = Potwierdź konto i w pełni wykorzystaj { -brand-firefox(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
+verify-description-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
 verify-subject = Dokończ tworzenie konta
 verify-action-2 = Potwierdź konto
 # Variables:
@@ -585,13 +683,19 @@ verifySecondaryCode-action-2 = Potwierdź adres e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Z tego { -product-firefox-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Z tego { -product-mozilla-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
 verifySecondaryCode-prompt-2 = Użyj tego kodu potwierdzenia:
 verifySecondaryCode-expiry-notice-2 = Wygasa za 5 minut. Po potwierdzeniu ten adres będzie otrzymywał powiadomienia bezpieczeństwa i potwierdzenia.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potwierdź konto
 verifyShortCode-title-2 = Uczyń Internet bardziej otwartym z { -brand-firefox(case: "ins") }
+verifyShortCode-title-3 = Uczyń Internet bardziej otwartym z { -brand-mozilla(case: "ins") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Potwierdź konto i w pełni wykorzystaj { -brand-firefox(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
 verifyShortCode-prompt-3 = Użyj tego kodu potwierdzenia:
 verifyShortCode-expiry-notice = Wygasa za 5 minut.
