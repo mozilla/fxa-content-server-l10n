@@ -963,6 +963,8 @@ terms-privacy-agreement-monitor = { -product-firefox-monitor }in <monitorTos>kä
 terms-privacy-agreement-monitor-2 = { -product-firefox-monitor }in <monitorTos>käyttöehdot ja tietosuojakäytäntö</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }in <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytäntö</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } -palvelun <mozillaAccountsTos>käyttöehdot</mozillaAccountsTos> ja <mozillaAccountsPrivacy>tietosuojakäytäntö</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Jatkamalla hyväksyt <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytännön</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice

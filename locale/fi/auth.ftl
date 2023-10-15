@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Lisätietoja
 automated-email-no-action-plaintext = Tämä on automaattinen sähköposti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Tämä on automaattinen sähköpostiviesti; Jos et valtuuttanut tätä toimintoa, vaihda salasanasi:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Pyyntö lähetettiin selaimella { $uaBrowser } käyttöjärjestelmästä { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Pyyntö lähetettiin selaimesta { $uaBrowser } käyttöjärjestelmällä { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Pyyntö lähetettiin selaimesta { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Pyyntö lähetettiin käyttöjärjestelmästä { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Pyyntö lähetettiin käyttöjärjestelmästä { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Jos et ollut sinä, <a data-l10n-name="revokeAccountRecoveryLink">poista uusi avain</a> ja <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a>.
+automatedEmailRecoveryKey-change-pwd-only = Jos et ollut sinä, <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a>.
+automatedEmailRecoveryKey-more-info = Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }-tuesta</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Pyynnön lähde:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Jos et ollut sinä, poista uusi avain:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Jos et ollut sinä, vaihda salasanasi:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ja vaihda salasanasi:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Lisätietoja saat { -brand-mozilla }-tuesta:
 automated-email-reset =
     Tämä on automaattisesti lähetetty viesti. Jos et valtuuttanut tätä toimintoa, <a data-l10n-name="resetLink">vaihda salasanasi</a>.
     Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jos et vaihtanut sitä, nollaa salasanasi nyt osoitteessa { $resetLink }
+brand-banner-message = Tiesitkö, että { -product-firefox-accounts } nimettiin uudelleen, ja uusi nimi on { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Lisätietoja</a>
 cancellationSurvey = Auta parantamaan palveluitamme <a data-l10n-name="cancellationSurveyUrl">vastaamalla kyselyyn</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:
@@ -296,16 +335,13 @@ passwordResetAccountRecovery-action-2 = Luo uusi tilin palautusavain
 passwordResetAccountRecovery-regen-required-mjml-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle:
-postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
+postAddAccountRecovery-subject-3 = Uusi tilin palautusavain luotu
 postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Uusi avain luotiin käyttäen:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Etkö se ollut sinä?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Poista uusi avain</a> ja <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Tallenna tämä avain turvalliseen paikkaan – tarvitset sitä salattujen selaustietojesi palauttamiseen, jos unohdat salasanasi.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Tätä avainta on mahdollista käyttää vain kerran. Kun olet käyttänyt sen, luomme sinulle automaattisesti uuden avaimen. Tai voit luoda uuden avaimen milloin tahansa tilisi asetuksista.
 postAddAccountRecovery-action = Hallinnoi tiliä
-postAddAccountRecovery-delete-key = Poista uusi avain:
-postAddAccountRecovery-changd-password = Vaihda salasanasi:
 postAddLinkedAccount-subject = Uusi tili linkitetty { -brand-firefox }iin
 postAddLinkedAccount-subject-2 = Uusi tili yhdistetty { -product-mozilla-account }isi
 #  Variables:
@@ -321,6 +357,11 @@ postAddTwoStepAuthentication-title-2 = Otit kaksivaiheisen todennuksen käyttö�
 postAddTwoStepAuthentication-from-device = Otit sen käyttöön käyttäen:
 postAddTwoStepAuthentication-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-code-required-2 = Todennussovelluksen turvallisuuskoodit vaaditaan tästä lähtien aina kirjauduttaessa.
+postChangeAccountRecovery-subject = Tilin palautusavain vaihdettu
+postChangeAccountRecovery-title = Vaihdoit tilisi palautusavaimen
+postChangeAccountRecovery-body-part1 = Sinulla on nyt uusi tilin palautusavain. Edellinen avaimesi poistettiin.
+postChangeAccountRecovery-body-part2 = Tallenna tämä uusi avain turvalliseen paikkaan – tarvitset sitä salattujen selaustietojesi palauttamiseen, jos unohdat salasanasi.
+postChangeAccountRecovery-action = Hallitse tiliä
 postChangePrimary-subject = Ensisijainen sähköpostiosoite päivitetty
 postChangePrimary-title = Uusi ensisijainen sähköposti
 # Variables:
@@ -345,11 +386,8 @@ postNewRecoveryCodes-title-2 = Loit uudet varatodennuskoodit
 postNewRecoveryCodes-description-2 = Ne luotiin käyttäen:
 postNewRecoveryCodes-action = Hallinnoi tiliä
 postRemoveAccountRecovery-subject-2 = Tilin palautusavain poistettu
-postRemoveAccountRecovery-title-2 = Poistit tilisi palautusavaimen.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Se poistettiin käyttäen:
+postRemoveAccountRecovery-title-3 = Poistit tilisi palautusavaimen
 postRemoveAccountRecovery-action = Hallinnoi tiliä
-postRemoveAccountRecovery-invalid-2 = Tarvitset tilin palautusavaimen palauttaaksesi { -brand-firefox }-tietosi, jos unohdat salasanasi.
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 # Variables:
