@@ -96,6 +96,30 @@ automated-email-no-action = { automated-email-no-action-plaintext } Další info
 automated-email-no-action-plaintext = Tento e-mail byl zaslán automaticky. Pokud jste jej obdrželi omylem, nemusíte nic dělat.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automatický e-mail; pokud jste tuto akci neprovedli, změňte si své heslo:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Tento požadavek přišel z prohlížeče { $uaBrowser } v systému { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Tento požadavek přišel z prohlížeče { $uaBrowser } v systému { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Tento požadavek přišel z prohlížeče { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Tento požadavek přišel ze systému { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Tento požadavek přišel ze systému { $uaOS }.
 automated-email-reset =
     Toto je automatický e-mail; pokud jste tuto akci neschválili, tak si prosím <a data-l10n-name="resetLink">obnovte heslo</a>.
     Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
@@ -298,16 +322,8 @@ passwordResetAccountRecovery-action-2 = Vytvořit nový obnovovací klíč k ú�
 passwordResetAccountRecovery-regen-required-mjml-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali:
-postAddAccountRecovery-subject-2 = Obnovovací klíč k účtu byl vytvořen
 postAddAccountRecovery-title2 = Vytvořili jste nový obnovovací klíč k účtu
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Nový klíč byl vytvořen z:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Nejste to vy?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Smažte nový klíč</a> a <a data-l10n-name="passwordChangeLink">změňte si heslo</a>
 postAddAccountRecovery-action = Správa účtu
-postAddAccountRecovery-delete-key = Smazat nový klíč:
-postAddAccountRecovery-changd-password = Změňte si své heslo:
 postAddLinkedAccount-subject = Nový účet propojený s { -brand-firefox(case: "ins") }
 postAddLinkedAccount-subject-2 = Nový účet propojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lowercase") }
 #  Variables:
@@ -349,11 +365,7 @@ postNewRecoveryCodes-title-2 = Vytvořili jste nové záložní ověřovací kó
 postNewRecoveryCodes-description-2 = Byly vytvořeny na:
 postNewRecoveryCodes-action = Správa účtu
 postRemoveAccountRecovery-subject-2 = Obnovovací klíč k účtu byl smazán
-postRemoveAccountRecovery-title-2 = Smazali jste svůj obnovovací klíč k účtu.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Byl smazán z:
 postRemoveAccountRecovery-action = Správa účtu
-postRemoveAccountRecovery-invalid-2 = Pokud zapomenete heslo, potřebujete k obnovení dat { -brand-firefox(case: "gen") } klíč pro obnovení účtu.
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 # Variables:
