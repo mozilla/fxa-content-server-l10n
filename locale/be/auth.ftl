@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Уваходзіце ў { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Уваходзіце ў { -product-mozilla-account }?
 session-verify-send-push-body-2 = Націсніце тут, каб пацвердзіць, што гэта вы
 
 ## Email content
@@ -26,13 +27,21 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account } і вы зарэгістраваліся ў { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-mozilla-account } і вы зарэгістраваліся ў { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account }.
 subplat-explainer-multiple = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account } і вы падпісаліся на некалькі прадуктаў.
 subplat-explainer-was-deleted = Вы атрымалі гэты ліст, таму што на { $email } быў зарэгістраваны { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Вы атрымалі гэты ліст, таму што на { $email } быў зарэгістраваны { -product-mozilla-account }.
 subplat-manage-account = Кіруйце наладамі { -product-firefox-account }, са сваёй <a data-l10n-name="subplat-account-page">старонкі ўліковага запісу</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Кіруйце наладамі { -product-firefox-account }, наведаўшы старонку свайго ўліковага запісу: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Кіруйце наладамі { -product-mozilla-account }, наведаўшы старонку свайго ўліковага запісу: { $accountSettingsUrl }
 subplat-terms-policy = Умовы і палітыка адмовы ад паслуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ануляваць падпіску
@@ -80,6 +89,14 @@ automated-email-no-action = { automated-email-no-action-plaintext } Для ат�
 automated-email-no-action-plaintext = Гэта аўтаматычна створанае паведамленне. Калі вы атрымалі яго памылкова, вам не трэба нічога рабіць.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Гэта аўтаматычна створаны ліст; калі вы не здзяйснялі гэтага дзеяння, калі ласка, змяніце свой пароль:
+automatedEmailRecoveryKey-more-info = Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">падтрымку { -brand-mozilla }</a>.
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Калі гэта былі не вы, змяніце пароль:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = і змяніць свой пароль:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }:
 automated-email-reset =
     Гэта аўтаматычна створаны ліст; калі вы не здзяйснялі гэтага дзеяння, калі ласка, <a data-l10n-name="resetLink">скіньце свой пароль</a>.
     Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">Сайт падтрымкі { -brand-mozilla }</a>.
@@ -219,7 +236,9 @@ downloadSubscription-link-action-2 = Пачаць
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } быў выдалены
 fraudulentAccountDeletion-title = Ваш уліковы запіс быў выдалены
 fraudulentAccountDeletion-content = Нядаўна з дапамогай гэтага адраса электроннай пошты быў створаны { -product-firefox-account } і знята аплата за падпіску. Як і для ўсіх новых уліковых запісаў, мы папрасілі вас пацвердзіць адрас электроннай пошты.
+fraudulentAccountDeletion-content-part1-v2 = Нядаўна з дапамогай гэтага адраса электроннай пошты быў створаны { -product-mozilla-account } і знята аплата за падпіску. Як і для ўсіх новых уліковых запісаў, мы папрасілі вас пацвердзіць адрас электроннай пошты.
 fraudulentAccountDeletion-content-2 = Зараз мы бачым, што ўліковы запіс яшчэ не быў пацверджаны. Паколькі гэты крок не быў завершаны, мы не можам быць упэўненымі, што гэта была аўтарызаваная падпіска. У выніку гэтага { -product-firefox-account }, зарэгістраваны на гэты адрас электроннай пошты, быў выдалены, а ваша падпіска — скасавана са зваротам усіх сродкаў.
+fraudulentAccountDeletion-content-part2-v2 = Зараз мы бачым, што ўліковы запіс яшчэ не быў пацверджаны. Паколькі гэты крок не быў завершаны, мы не можам быць упэўненымі, што гэта была аўтарызаваная падпіска. У выніку гэтага { -product-mozilla-account }, зарэгістраваны на гэты адрас электроннай пошты, быў выдалены, а ваша падпіска — скасавана са зваротам усіх сродкаў.
 fraudulentAccountDeletion-contact = Калі ў вас ёсць пытанні, звярніцеся да нашай <a data-l10n-name="mozillaSupportUrl">каманды падтрымкі</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -245,6 +264,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новы ўваход у { $clientName }
 newDeviceLogin-title-2 = Ваш { -product-firefox-account } быў выкарыстаны для ўваходу
+newDeviceLogin-title-3 = Ваш { -product-mozilla-account } быў выкарыстаны для ўваходу
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Гэта былі не вы? <a data-l10n-name="passwordChangeLink">Змяніце свой пароль</a>.
@@ -273,16 +293,8 @@ passwordResetAccountRecovery-action-2 = Стварыць новы ключ ад�
 passwordResetAccountRecovery-regen-required-mjml-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі:
-postAddAccountRecovery-subject-2 = Ключ аднаўлення ўліковага запісу створаны
 postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Новы ключ быў створаны з:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Гэта не вы?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Выдаліць новы ключ</a> і <a data-l10n-name="passwordChangeLink">змяніць пароль</a>
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
-postAddAccountRecovery-delete-key = Выдаліць новы ключ:
-postAddAccountRecovery-changd-password = Змяніць ваш пароль:
 postAddLinkedAccount-subject = Новы ўліковы запіс, звязаны з { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -294,6 +306,7 @@ postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапн�
 postAddTwoStepAuthentication-from-device = Вы ўключылі яе з:
 postAddTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postAddTwoStepAuthentication-code-required-2 = Цяпер пры кожным уваходзе неабходна ўводзіць коды бяспекі з вашай праграмы аўтэнтыфікацыі.
+postChangeAccountRecovery-action = Кіраванне ўліковым запісам
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
 # Variables:
@@ -316,11 +329,7 @@ postNewRecoveryCodes-title-2 = Вы стварылі новыя рэзервов
 postNewRecoveryCodes-description-2 = Яны былі створаны на:
 postNewRecoveryCodes-action = Кіраванне ўліковым запісам
 postRemoveAccountRecovery-subject-2 = Ключ аднаўлення ўліковага запісу выдалены
-postRemoveAccountRecovery-title-2 = Вы выдалілі ключ аднаўлення ўліковага запісу.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Ён быў выдалены з:
 postRemoveAccountRecovery-action = Кіраванне ўліковым запісам
-postRemoveAccountRecovery-invalid-2 = Вам патрэбен ключ аднаўлення ўліковага запісу, каб аднавіць даныя { -brand-firefox }, калі вы забудзецеся свой пароль.
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
 # Variables:
@@ -338,6 +347,7 @@ postVerify-title-2 = Хочаце бачыць адну і тую ж картк�
 postVerify-description-2 = Гэта лёгка! Проста ўсталюйце { -brand-firefox } на іншую прыладу і ўвайдзіце ў свой уліковы запіс для сінхранізацыі. Гэта як магія!
 postVerify-sub-description = (Псст… Гэта таксама азначае, што вы можаце атрымаць свае закладкі, паролі і іншыя даныя { -brand-firefox } усюды, дзе вы ўвайшлі ў свой уліковы запіс.)
 postVerify-subject-3 = Вітаем у { -brand-firefox }!
+postVerify-subject-4 = Вітаем у { -brand-mozilla }!
 postVerify-setup-2 = Злучыць іншую прыладу:
 postVerify-action-2 = Злучыць іншую прыладу
 postVerifySecondary-subject = Дададзены другі адрас эл.пошты
@@ -380,7 +390,9 @@ subscriptionAccountReminderFirst-action = Стварыць пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Апошні напамін: Наладзьце свой уліковы запіс
 subscriptionAccountReminderSecond-title = Вітаем у { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Вітаем у { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Некалькі дзён таму вы стварылі { -product-firefox-account }, але гэтак і не пацвердзілі яго. Мы спадзяемся, што вы скончыце наладу свайго ўліковага запісу, каб мець магчымасць карыстацца новай падпіскай.
+subscriptionAccountReminderSecond-content-info-3 = Некалькі дзён таму вы стварылі { -product-mozilla-account }, але гэтак і не пацвердзілі яго. Мы спадзяемся, што вы скончыце наладу свайго ўліковага запісу, каб мець магчымасць карыстацца новай падпіскай.
 subscriptionAccountReminderSecond-content-select-2 = Выберыце «Стварыць пароль», каб усталяваць новы пароль і скончыць пацвярджэнне ўліковага запісу.
 subscriptionAccountReminderSecond-action = Стварыць пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -534,23 +546,31 @@ unblockCode-report = Калі не, дапамажыце нам стрымлів
 unblockCode-report-plaintext = Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым.
 verificationReminderFinal-subject = Апошні напамін аб праверцы вашага ўліковага запісу
 verificationReminderFinal-description = Пару тыдняў таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго. У мэтах вашай бяспекі мы выдалім уліковы запіс, калі вы не пацвердзіце яго на працягу наступных 24 гадзін.
+verificationReminderFinal-description-2 = Пару тыдняў таму вы стварылі { -product-mozilla-account }, але так і не пацвердзілі яго. У мэтах вашай бяспекі мы выдалім уліковы запіс, калі вы не пацвердзіце яго на працягу наступных 24 гадзін.
 confirm-account = Пацвердзіць уліковы запіс
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудзьцеся пацвердзіць свой уліковы запіс
 verificationReminderFirst-title-2 = Вітаем у { -brand-firefox }!
+verificationReminderFirst-title-3 = Вітаем у { -brand-mozilla }!
 verificationReminderFirst-description-2 = Некалькі дзён таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго. Калі ласка, пацвердзіце свой уліковы запіс на працягу наступных 15 дзён, інакш ён будзе аўтаматычна выдалены.
+verificationReminderFirst-description-3 = Некалькі дзён таму вы стварылі { -product-mozilla-account }, але так і не пацвердзілі яго. Калі ласка, пацвердзіце свой уліковы запіс на працягу наступных 15 дзён, інакш ён будзе аўтаматычна выдалены.
 verificationReminderFirst-sub-description-3 = Не прапусціце браўзер, які ставіць вас і вашу прыватнасць на першае месца.
 confirm-email-2 = Пацвердзіць уліковы запіс
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Пацвердзіць уліковы запіс
 verificationReminderSecond-subject-2 = Не забудзьцеся пацвердзіць свой уліковы запіс
 verificationReminderSecond-title-2 = Не прапусціце { -brand-firefox }!
+verificationReminderSecond-title-3 = Не прапусціце { -brand-mozilla }!
 verificationReminderSecond-description-3 = Некалькі дзён таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго. Калі ласка, пацвердзіце свой уліковы запіс на працягу наступных 10 дзён, інакш ён будзе аўтаматычна выдалены.
+verificationReminderSecond-description-4 = Некалькі дзён таму вы стварылі { -product-mozilla-account }, але так і не пацвердзілі яго. Калі ласка, пацвердзіце свой уліковы запіс на працягу наступных 10 дзён, інакш ён будзе аўтаматычна выдалены.
 verificationReminderSecond-second-description = Ваш { -product-firefox-account } дазваляе сінхранізаваць вашу інфармацыю паміж прыладамі і адкрывае доступ да большай колькасці прадуктаў для абароны прыватнасці ад { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Ваш { -product-mozilla-account } дазваляе сінхранізаваць вашу інфармацыю паміж прыладамі і адкрывае доступ да большай колькасці прадуктаў для абароны прыватнасці ад { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Станьце часткай нашай місіі па пераўтварэнні Інтэрнэту ў месца, адкрытае для ўсіх.
 verificationReminderSecond-action-2 = Пацвердзіць уліковы запіс
 verify-title-2 = Адкрыйце Інтэрнэт з дапамогай { -brand-firefox }
+verify-title-3 = Адкрыйце Інтэрнэт з дапамогай { -brand-mozilla }
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
+verify-description-2 = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-mozilla } усюды, дзе ўвайшлі, пачынаючы з:
 verify-subject = Скончыце стварэнне ўліковага запісу
 verify-action-2 = Пацвердзіць уліковы запіс
 # Variables:
@@ -581,13 +601,19 @@ verifySecondaryCode-action-2 = Пацвердзіце электронную п�
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Запыт на выкарыстанне { $email } у якасці другога адрасу электроннай пошты быў зроблены з наступнага { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Запыт на выкарыстанне { $email } у якасці другога адрасу электроннай пошты быў зроблены з наступнага { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Выкарыстайце гэты код пацверджання:
 verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля пацверджання, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Пацвердзіце свой уліковы запіс
 verifyShortCode-title-2 = Адкрыйце Інтэрнэт з дапамогай { -brand-firefox }
+verifyShortCode-title-3 = Адкрыйце Інтэрнэт з дапамогай { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-mozilla } усюды, дзе ўвайшлі, пачынаючы з:
 verifyShortCode-prompt-3 = Выкарыстайце гэты код пацверджання:
 verifyShortCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
