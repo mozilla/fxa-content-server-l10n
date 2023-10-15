@@ -314,6 +314,7 @@ postAddTwoStepAuthentication-from-device = Сіз оны келесі жерде
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
 postAddTwoStepAuthentication-code-required-2 = Аутентификация қолданбасының қауіпсіздік кодтары енді жүйеге әр рет кірген сайын керек болады.
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
+postChangeAccountRecovery-title = Сіз тіркелгіңізді қалпына келтіру кілтін өзгерттіңіз
 postChangeAccountRecovery-action = Тіркелгіні басқару
 postChangePrimary-subject = Біріншілік эл. пошта адресі жаңартылды
 postChangePrimary-title = Жаңа біріншілік эл. поштасы
