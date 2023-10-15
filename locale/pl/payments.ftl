@@ -83,10 +83,12 @@ input-error-is-required = Pole „{ $label }” jest wymagane
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox(case: "gen") }
+brand-name-mozilla-logo = Logo { -brand-mozilla(case: "gen") }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Masz już konto { -brand-name-firefox(case: "gen") }? <a>Zaloguj się</a>
+new-user-sign-in-link-2 = Masz już { -product-mozilla-account(case: "acc", capitalization: "lower") }? <a>Zaloguj się</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -491,10 +493,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Sprawdź zmianę
 sub-change-failed = Zmiana planu się nie powiodła
-sub-update-copy =
-    Twój plan zmieni się natychmiast, a opłata zostanie skorygowana
-    o daną kwotę dla pozostałego czasu okresu rozliczeniowego. Począwszy od { $startingDate }
-    opłata będzie wynosiła pełną kwotę.
 sub-update-acknowledgment =
     Twój plan zmieni się natychmiast, a dzisiejsza opłata zostanie podzielona proporcjonalnie
     za pozostały czas tego okresu rozliczeniowego. Począwszy od { $startingDate }
