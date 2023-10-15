@@ -293,12 +293,16 @@ passwordResetAccountRecovery-action-2 = Стварыць новы ключ ад�
 passwordResetAccountRecovery-regen-required-mjml-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі:
+postAddAccountRecovery-subject-3 = Створаны новы ключ аднаўлення ўліковага запісу
 postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
 postAddLinkedAccount-subject = Новы ўліковы запіс, звязаны з { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Уліковы запіс { $providerName } быў звязаны з вашім { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Уліковы запіс { $providerName } быў звязаны з вашым { -product-mozilla-account }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddTwoStepAuthentication-subject-2 = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапную аўтэнтыфікацыю
@@ -312,6 +316,9 @@ postChangePrimary-title = Новы асноўны адрас эл.пошты
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Вы паспяхова змянілі свой асноўны адрас электроннай пошты на { $email }. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс { -product-firefox-account }, а таксама для атрымання абвестак бяспекі
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Вы паспяхова змянілі свой асноўны адрас электроннай пошты на { $email }. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс { -product-mozilla-account }, а таксама для атрымання абвестак бяспекі
 postChangePrimary-action = Кіраванне ўліковым запісам
 postConsumeRecoveryCode-title-2 = Вы выкарысталі рэзервовы код аўтэнтыфікацыі
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -335,6 +342,9 @@ postRemoveSecondary-title = Другі адрас эл.пошты выдален
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Вы паспяхова выдалілі другі адрас { $secondaryEmail } з вашага ўліковага запісу { -product-firefox-account }. Абвесткі бяспекі і пацвярджэнні ўваходу больш на гэты адрас дасылацца не будуць.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Вы паспяхова выдалілі другі адрас { $secondaryEmail } з вашага ўліковага запісу { -product-mozilla-account }. Абвесткі бяспекі і пацвярджэнні ўваходу больш на гэты адрас дасылацца не будуць.
 postRemoveSecondary-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-subject-line-2 = Двухэтапная аўтарызацыя выключана
 postRemoveTwoStepAuthentication-title-2 = Вы адключылі двухэтапную аўтэнтыфікацыю
@@ -355,12 +365,18 @@ postVerifySecondary-title = Дададзены другі адрас эл.пош
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Вы паспяхова пацвердзілі другі адрас { $secondaryEmail } для вашага ўліковага запісу { -product-firefox-account }. Абвесткі бяспекі і пацвярджэнні ўваходу цяпер будуць дасылацца на абодва адрасы электроннай пошты.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Вы паспяхова пацвердзілі другі адрас { $secondaryEmail } для вашага ўліковага запісу { -product-mozilla-account }. Абвесткі бяспекі і пацвярджэнні ўваходу цяпер будуць дасылацца на абодва адрасы электроннай пошты.
 postVerifySecondary-action = Кіраванне ўліковым запісам
 recovery-subject = Скінуць пароль
 recovery-title-2 = Забылі свой пароль?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Мы атрымалі запыт на змену пароля для вашага { -product-firefox-account } ад:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
 recovery-new-password-button = Стварыце новы пароль, націснуўшы кнопку ніжэй. Тэрмін дзеяння гэтай спасылкі скончыцца на працягу наступнай гадзіны.
 recovery-copy-paste = Стварыце новы пароль, скапіраваўшы і ўставіўшы прыведзены ніжэй URL-адрас у свой браўзер. Тэрмін дзеяння гэтай спасылкі скончыцца на працягу наступнай гадзіны.
 recovery-action = Стварыць новы пароль
@@ -373,6 +389,11 @@ subscriptionAccountDeletion-title = Шкада, што вы сыходзіце
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Вы нядаўняе выдалілі свой { -product-firefox-account }. У выніку, мы скасавалі вашу падпіску на { $productName }. Ваш апошні плацеж у памеры { $invoiceTotal } быў здзейснены { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Вы нядаўняе выдалілі свой { -product-mozilla-account }. У выніку, мы скасавалі вашу падпіску на { $productName }. Ваш апошні плацеж у памеры { $invoiceTotal } быў зроблены { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Калі ласка, усталюйце пароль.
@@ -381,10 +402,12 @@ subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Ка�
 subscriptionAccountFinishSetup-title = Вітаем у { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваш плацеж апрацоўваецца. Гэта можа заняць да чатырох працоўных дзён. Ваша падпіска будзе аўтаматычна падаўжацца кожны разліковы перыяд, пакуль вы не вырашыце яе скасаваць.
 subscriptionAccountFinishSetup-content-create-2 = Далей вы створыце пароль для { -product-firefox-account }, каб пачаць выкарыстоўваць сваю новую падпіску.
+subscriptionAccountFinishSetup-content-create-3 = Далей вы створыце пароль для { -product-mozilla-account }, каб пачаць выкарыстоўваць сваю новую падпіску.
 subscriptionAccountFinishSetup-action-2 = Пачаць
 subscriptionAccountReminderFirst-subject = Напамін: Скончыце наладку вашага ўліковага запісу
 subscriptionAccountReminderFirst-title = Вы пакуль не можаце атрымаць доступ да сваёй падпіскі
 subscriptionAccountReminderFirst-content-info-2 = Некалькі дзён таму вы стварылі { -product-firefox-account }, але гэтак і не пацвердзілі яго. Мы спадзяемся, што вы скончыце наладу свайго ўліковага запісу, каб мець магчымасць карыстацца новай падпіскай.
+subscriptionAccountReminderFirst-content-info-3 = Некалькі дзён таму вы стварылі { -product-mozilla-account }, але гэтак і не пацвердзілі яго. Мы спадзяемся, што вы скончыце наладу свайго ўліковага запісу, каб мець магчымасць карыстацца новай падпіскай.
 subscriptionAccountReminderFirst-content-select-2 = Выберыце «Стварыць пароль», каб усталяваць новы пароль і скончыць пацвярджэнне ўліковага запісу.
 subscriptionAccountReminderFirst-action = Стварыць пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
