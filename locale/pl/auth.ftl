@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logujesz się na { -product-firefox-accounts(case: "acc", capitalization: "lower") }?
+session-verify-send-push-title-2 = Logujesz się na { -product-mozilla-account(case: "acc", capitalization: "lower") }?
 session-verify-send-push-body-2 = Kliknij tutaj, aby potwierdzić, że to Ty
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Kliknij tutaj, aby potwierdzić, że to Ty
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox(case: "gen") }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizuj urządzenia">
 body-devices-image = <img data-l10n-name="devices-image" alt="Urządzenia">
 fxa-privacy-url = Zasady ochrony prywatności { -brand-mozilla(case: "gen") }
+moz-accounts-privacy-url = Zasady ochrony prywatności { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 fxa-service-url = Regulamin usługi { -product-firefox-cloud }
+moz-accounts-terms-url = Regulamin usługi { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox(case: "gen") }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
 subplat-automated-email = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 subplat-privacy-notice = Zasady ochrony prywatności
@@ -24,8 +29,16 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-firefox-account(case: "acc", capitalization: "lower") } i zapisano się na usługę { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-mozilla-account(case: "acc", capitalization: "lower") } i zapisano się na usługę { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Otrzymujesz tę wiadomość, ponieważ { $email } ma { -product-firefox-account(case: "acc", capitalization: "lower") }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Otrzymujesz tę wiadomość, ponieważ { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 subplat-explainer-multiple = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-firefox-account(case: "acc", capitalization: "lower") } i subskrybowano wiele produktów.
+subplat-explainer-multiple-2 = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-mozilla-account(case: "acc", capitalization: "lower") } i subskrybowano wiele produktów.
 subplat-explainer-was-deleted = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-firefox-account(case: "acc", capitalization: "lower") }.
 subplat-manage-account = Zarządzaj ustawieniami { -product-firefox-account(case: "gen", capitalization: "lower") } na stronie swojego <a data-l10n-name="subplat-account-page">konta</a>.
 # Variables:
@@ -206,7 +219,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Do synchronizacji trzeba dwojga
 cadReminderFirst-description-1 = Korzystaj ze swoich kart na wszystkich urządzeniach. Miej swoje zakładki, hasła i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }. To jak magia na Twoim koncie { -brand-firefox(case: "gen") }!
-cadReminderFirst-description-2 = Synchronizacja zajmie tylko chwilkę.
 cadReminderSecond-subject-2 = Nie przegap! Dokończmy konfigurację synchronizacji
 cadReminderSecond-action = Synchronizuj inne urządzenie
 cadReminderSecond-title-2 = Nie zapomnij zsynchronizować!
@@ -248,8 +260,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe logowanie do „{ $clientName }”
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Twoje { -product-firefox-account(case: "nom", capitalization: "lower") } zostało użyte do zalogowania
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -266,8 +276,6 @@ passwordChangeRequired-title = Wymagana jest zmiana hasła
 passwordChangeRequired-suspicious-activity = Wykryliśmy podejrzane zachowanie na Twoim { -product-firefox-account(case: "loc", capitalization: "lower") }. Aby uniemożliwić nieupoważniony dostęp do konta, odłączyliśmy od niego wszystkie urządzenia i wymagamy zmiany hasła w ramach środków ostrożności.
 passwordChangeRequired-sign-in = Zaloguj się z powrotem na dowolnym urządzeniu lub usłudze, na której korzystasz z { -product-firefox-account(case: "gen", capitalization: "lower") } i postępuj zgodnie z instrukcją, która zostanie wyświetlona.
 passwordChangeRequired-different-password = <b>Ważne:</b> wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
-passwordChangeRequired-signoff = Pozdrawiamy,
-passwordChangeRequired-signoff-name = Zespół { -product-firefox-accounts(case: "gen", capitalization: "lower") }
 passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
 passwordReset-subject = Zaktualizowano hasło
 passwordReset-title = Hasło konta zostało zmienione
@@ -281,16 +289,8 @@ passwordResetAccountRecovery-action-2 = Utwórz nowy klucz odzyskiwania konta
 passwordResetAccountRecovery-regen-required-mjml-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty:
-postAddAccountRecovery-subject-2 = Klucz odzyskiwania konta został utworzony
 postAddAccountRecovery-title2 = Utworzono nowy klucz odzyskiwania konta
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Utworzono nowy klucz z:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = To nie Ty?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Usuń nowy klucz</a> i <a data-l10n-name="passwordChangeLink">zmień hasło</a>
 postAddAccountRecovery-action = Zarządzaj kontem
-postAddAccountRecovery-delete-key = Usuń nowy klucz:
-postAddAccountRecovery-changd-password = Zmień hasło:
 postAddLinkedAccount-subject = Nowe konto powiązane z { -brand-firefox(case: "ins") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -324,11 +324,7 @@ postNewRecoveryCodes-title-2 = Utworzono nowe zapasowe kody uwierzytelniania
 postNewRecoveryCodes-description-2 = Utworzono je na urządzeniu:
 postNewRecoveryCodes-action = Zarządzaj kontem
 postRemoveAccountRecovery-subject-2 = Klucz odzyskiwania konta został usunięty
-postRemoveAccountRecovery-title-2 = Usunięto klucz odzyskiwania konta.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Usunięto go na urządzeniu:
 postRemoveAccountRecovery-action = Zarządzaj kontem
-postRemoveAccountRecovery-invalid-2 = Potrzebujesz klucza odzyskiwania konta, aby odzyskać swoje dane { -brand-firefox(case: "gen") }, jeśli zapomnisz hasła.
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
 # Variables:
@@ -527,7 +523,6 @@ subscriptionUpgrade-upgrade-info = Pomyślnie przełączono z { $productNameOld
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Zaczynając od następnego rachunku, opłata zostanie zmieniona z { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }. Wtedy też zostanie naliczona jednorazowa opłata w wysokości { $paymentProrated }, aby odzwierciedlić wyższą opłatę przez pozostały czas tego okresu ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-info-different-cycle = Zostanie naliczona jednorazowa opłata w wysokości { $paymentProrated }, aby odzwierciedlić wyższą cenę subskrypcji przez pozostały czas tego okresu ({ $productPaymentCycleOld }). Zaczynając od następnego rachunku, opłata zostanie zmieniona z { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
