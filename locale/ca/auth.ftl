@@ -80,12 +80,8 @@ payment-plan-charged = Cobrat: { $invoiceTotal } el { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Propera factura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Mètode de pagament:
+payment-method = Forma de pagament:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = Targeta { $cardType } acabada en { $lastFour }
 subscriptionSupport = Teniu dutes sobre la subscripció? L’<a data-l10n-name="subscriptionSupportUrl">equip d’assistència</a> és aquí per a ajudar-vos.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Teniu dubtes sobre la vostra subscripció? El nostre equip de suport és aquí per ajudar-vos:
@@ -108,7 +104,6 @@ passwordChanged-subject = S'ha actualitzat la contrasenya
 passwordChanged-title = La contrasenya s’ha canviat correctament
 passwordChangeRequired-title = Cal que canvieu la contrasenya
 passwordChangeRequired-different-password = <b>Important:</b> Trieu una contrasenya diferent de la que utilitzàveu prèviament i assegureu-vos que sigui diferent de la del vostre compte de correu electrònic.
-passwordChangeRequired-signoff = Cordialment,
 passwordChangeRequired-different-password-plaintext = Important: Trieu una contrasenya diferent de la que utilitzàveu prèviament i assegureu-vos que sigui diferent de la del vostre compte de correu electrònic.
 passwordReset-title = S’ha canviat la contrasenya del compte
 postAddAccountRecovery-action = Gestiona el compte
