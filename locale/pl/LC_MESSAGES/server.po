@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2022-03-06 13:43+0000\n"
+"PO-Revision-Date: 2023-10-15 17:34+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -73,7 +73,7 @@ msgstr "Konta Firefoksa wymagają obsługi JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Konta Mozilli wymagają obsługi JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -97,7 +97,7 @@ msgstr "Pobierz najnowszą wersję"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Konto Mozilli"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -106,3 +106,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Twoje konto Mozilli korzysta z funkcji, które nie są\n"
+"obsługiwane przez używaną wersję Firefoksa.\n"
+"Prosimy pobrać i zainstalować najnowszą wersję,\n"
+"aby kontynuować."

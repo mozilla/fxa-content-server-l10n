@@ -464,6 +464,7 @@ coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie automat
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Utwórz konto { -brand-name-firefox(case: "gen") }
+new-user-step-1-2 = 1. Utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Podaj informacje o karcie
 new-user-submit = Subskrybuj
 
