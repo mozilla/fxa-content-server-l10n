@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Något gick fel. En ny kod kunde inte s
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Stäng
+brand-banner-dismiss-button-2 =
+    .aria-label = Stäng banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } kommer att döpas om till { -product-mozilla-accounts } den 1 november
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -964,6 +964,10 @@ terms-privacy-agreement-intro-2 = Genom att fortsätta godkänner du:
 terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>användarvillkor</pocketTos> och <pocketPrivacy>sekretesspolicy</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Användarvillkor</pocketTos> och <pocketPrivacy>sekretessmeddelande</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor }:s <monitorTos>användarvillkor och sekretessmeddelande</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>användarvillkor och sekretessmeddelande</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }s <firefoxTos>användarvillkor</firefoxTos> och <firefoxPrivacy>sekretesspolicy</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list

@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Der is wat misgien. Der koe gjin nije k
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Slute
+brand-banner-dismiss-button-2 =
+    .aria-label = Banner slute
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } wurdt op 1 novimber omneamd nei { -product-mozilla-accounts }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -968,6 +968,10 @@ terms-privacy-agreement-intro-2 = Troch troch te gean geane jo akkoard mei de:
 terms-privacy-agreement-pocket = De <pocketTos>Tsjinstbetingsten</pocketTos> en <pocketPrivacy>Privacyferklearring</pocketPrivacy> fan { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = De <pocketTos>Tsjinstbetingsten</pocketTos> en <pocketPrivacy>Privacyferklearring</pocketPrivacy> fan { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = De <monitorTos>Tsjinstbetingsten en Privacyferklearring</monitorTos> fan { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Tsjinstbetingsten en Privacyferklearring</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = De <firefoxTos>Tsjinstbetingsten</firefoxTos> en <firefoxPrivacy>Privacyferklearring</firefoxPrivacy> fan { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
