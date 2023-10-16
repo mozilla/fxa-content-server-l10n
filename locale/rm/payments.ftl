@@ -59,10 +59,12 @@ input-error-is-required = { $label } è obligatoric
 ## Component - Header
 
 brand-name-firefox-logo = Logo da { -brand-name-firefox }
+brand-name-mozilla-logo = Logo da { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
+new-user-sign-in-link-2 = Has ti gia in { -product-mozilla-account }? <a>T'annunzia</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $c
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Crear in conto da { -brand-name-firefox }
+new-user-step-1-2 = 1. Creescha in { -product-mozilla-account }
 new-user-card-title = Endatescha las infurmaziuns da tia carta
 new-user-submit = Abunar ussa
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Controllescha tia midada
 sub-change-failed = Midada dal plan betg reussida
-sub-update-copy =
-    Tes plan vegn immediat midà ed i vegn debità ina summa
-    adattada per il rest dal ciclus da facturaziun. A partir dals { $startingDate }
-    vegn debità l'entir import.
 sub-update-acknowledgment =
     Tes plan vegn immediat midà ed i vegn debità oz ina summa proporziunala
     per il rest da tes ciclus da facturaziun. A partir dals { $startingDate }

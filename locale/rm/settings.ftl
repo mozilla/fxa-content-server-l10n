@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = Tramess anc ina giada l'e-mail. Agiun
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Insatge è ì mal. I n'è betg reussì da trametter in nov code.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Serrar la bandiera
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = Ils { -product-firefox-accounts } vegnan a partir da l'emprim da november numnads { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Ti vegns vinavant a pudair t'annunziar cun il medem num d'utilisader e pled-clav ed i na dat naginas autras midadas che concernan ils products che ti utiliseschas.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Nus numnain ils { -product-firefox-accounts } ussa { -product-mozilla-accounts }. Ti vegns vinavant a pudair t'annunziar cun il medem num d'utilisader e pled-clav ed i na dat naginas autras midadas che concernan ils products che ti utiliseschas.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Ulteriuras infurmaziuns
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Serrar la bandiera
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo cun il m da { -brand-mozilla }
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Perstgisa, igl ha dà in problem cun telecharg
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Ti retschaivas tips pratics directamain en tia chascha postala. Ta registrescha per vegnir a savair anc dapli:
+choose-newsletters-prompt-2 = Va per dapli da { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Retschaiver las novitads las pli novas davart { -brand-mozilla } e { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Ans gida da mantegnair in internet saun
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = T'engascha per che l'internet restia saun
+choose-newsletters-option-security-privacy =
+    .label = Novitads ed actualisaziuns da segirezza e protecziun da datas
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Emprender da navigar a moda intelligenta e segira en l'internet
+choose-newsletters-option-test-pilot =
+    .label = Access anticipà per testar novs products
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Tscherna quai che duai vegnir sincronisà:
+choose-what-to-sync-prompt-2 = Tscherna quai che duai vegnir sincronisà
 choose-what-to-sync-option-bookmarks =
     .label = Segnapaginas
 choose-what-to-sync-option-history =
@@ -148,6 +171,7 @@ form-verify-code-default-error = Quest champ è obligatoric
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Clav da recuperaziun dal conto da { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Codes d'autentificaziun da backup da { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Codes d'autentificaziun da backup
 get-data-trio-download-2 =
     .title = Telechargiar
     .aria-label = Telechargiar
@@ -284,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Menu Bento da { -brand-firefox }
+bento-menu-title-2 = Menu Bento da { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } è ina tecnologia che cumbatta per la protecziun da tias datas en l'internet.
+bento-menu-mozilla-title = { -brand-mozilla } è ina tecnologia che va bain a prà cun la protecziun da tias datas en l'internet.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -358,12 +384,18 @@ cs-disconnect-lost-advice-content-2 =
     duessas ti midar tes pled-clav dal { -product-firefox-account } en ils parameters dal conto
     per che tias datas restian segiras. Emprova en pli da chattar ora sch'il producent da tes apparat
     pussibilitescha da stizzar tias datas senza che ti hajas a disposiziun l'apparat.
+cs-disconnect-lost-advice-content-3 =
+    Cunquai che tes apparat è pers u engulà, duessas ti midar tes pled-clav dal { -product-mozilla-account } en ils parameters dal conto
+    per che tias datas restian segiras. Emprova en pli da chattar ora sch'il producent da tes apparat pussibilitescha da stizzar tias datas senza che ti hajas a disposiziun l'apparat.
 cs-disconnect-suspicious-advice-heading = Deconnectà l'apparat suspectus
 cs-disconnect-suspicious-advice-content =
     Sche l'apparat deconnectà è propi
     suspectus, duessas ti midar tes pled-clav dal { -product-firefox-account } en ils parameters da tes conto
     per che tias datas restian segiras. En pli duessas ti era midar tut tschels pleds-clavs che
     ti has memorisà en { -brand-firefox } cun tippar about:logins en la trav d'adressas.
+cs-disconnect-suspicious-advice-content-2 =
+    Sche l'apparat deconnectà è propi suspectus, duessas ti midar tes pled-clav dal { -product-mozilla-account } en ils parameters da tes conto
+    per che tias datas restian segiras. En pli duessas ti era midar tut tschels pleds-clavs che ti has memorisà en { -brand-firefox } cun tippar about:logins en la trav d'adressas.
 cs-sign-out-button = Sortir
 
 ##
@@ -373,15 +405,20 @@ cs-sign-out-button = Sortir
 
 dc-heading = Rimnada ed utilisaziun da datas
 dc-subheader = Gida da meglierar { -product-firefox-accounts }
+dc-subheader-2 = Gida a meglierar { -product-mozilla-accounts }
 dc-subheader-content = Permetter a { -product-firefox-accounts } da trametter datas tecnicas e datas d'interacziun a { -brand-mozilla }.
+dc-subheader-content-2 = Permetter a { -product-mozilla-accounts } da trametter datas tecnicas e datas d'interacziun a { -brand-mozilla }.
 dc-opt-out-success = Deactivà cun success. { -product-firefox-accounts } na trametta naginas datas tecnicas u datas d'interacziun a { -brand-mozilla }.
+dc-opt-out-success-2 = Deactivà cun success. { -product-mozilla-accounts } na trametta naginas datas tecnicas u datas d'interacziun a { -brand-mozilla }.
 dc-opt-in-success = Grazia! La cundivisiun da questas datas ans gidan da meglierar { -product-firefox-accounts }.
+dc-opt-in-success-2 = Grazia! La cundivisiun da questas datas ans gidan da meglierar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Perstgisa, igl ha dà in problem cun midar tias preferenzas areguard la rimnada da datas
 dc-learn-more = Ulteriuras infurmaziuns
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu dal { -product-firefox-account(capitalization: "lowercase") }
+drop-down-menu-title-2 = Menu { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -463,13 +500,14 @@ flow-recovery-key-info-cta-text-v3 = Cumenzar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Interrumper
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Serrar il menu
 header-menu-closed = Menu da navigaziun da la website
 header-back-to-top-link =
     .title = Turnar ensi
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Agid
 
 ## Linked Accounts section
@@ -597,7 +635,9 @@ delete-account-header =
 delete-account-step-1-2 = Pass 1 da 2
 delete-account-step-2-2 = Pass 2 da 2
 delete-account-confirm-title-3 = Ti has eventualmain connectà tes { -product-firefox-account } cun  in u plirs dals suandants products u servetschs da { -brand-mozilla } che gidan a navigar a moda segira e productiva en il web:
+delete-account-confirm-title-4 = Ti has eventualmain connectà tes { -product-mozilla-account } cun  in u plirs dals suandants products u servetschs da { -brand-mozilla } che gidan a navigar a moda segira e productiva en il web:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -924,12 +964,24 @@ tfa-row-change-modal-explain = Ti na vegns betg a pudair revocar questa acziun.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Cun cuntinuar acceptas ti:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Cun cuntinuar acceptas ti:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = Las <pocketTos>cundiziuns d'utilisaziun</pocketTos> e las <pocketPrivacy>infurmaziuns davart la protecziun da datas</pocketPrivacy> da { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = Las <pocketTos>cundiziuns d'utilisaziun</pocketTos> e las <pocketPrivacy>infurmaziuns davart la protecziun da datas</pocketPrivacy> da { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = Las <monitorTos>cundiziuns d'utilisaziun e las infurmaziuns davart la protecziun da datas</monitorTos> da { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = Las <monitorTos>cundiziuns d'utilisaziun e las infurmaziuns davart la protecziun da datas</monitorTos> da { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = Las <firefoxTos>cundiziuns d'utilisaziun</firefoxTos> e las <firefoxPrivacy>infurmaziuns davart la protecziun da datas</firefoxPrivacy> da { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = Las  <mozillaAccountsTos>cundiziuns d'utilisaziun</mozillaAccountsTos> e las <mozillaAccountsPrivacy>infurmaziuns davart la protecziun da datas</mozillaAccountsPrivacy> da { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Cun cuntinuar acceptas ti las <firefoxTos>cundiziuns d'utilisaziun</firefoxTos> e las <firefoxPrivacy>infurmaziuns davart la protecziun da datas</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Cun cuntinuar acceptas ti las <mozillaAccountsTos>cundiziuns d'utilisaziun</mozillaAccountsTos> e las <mozillaAccountsPrivacy>infurmaziuns davart la protecziun da datas</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -971,6 +1023,7 @@ auth-error-1011 = Adressa dad e-mail valida è obligatorica
 
 cannot-create-account-header = Impussibel da crear in conto
 cannot-create-account-requirements = Ti stos avair ina tscherta vegliadetgna per crear in { -product-firefox-account }.
+cannot-create-account-requirements-2 = Ti stos avair ina tscherta vegliadetgna per crear in { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Ulteriuras infurmaziuns
 
@@ -1006,6 +1059,7 @@ connect-another-device-ios-complete-setup-message = T'annunzia en { -brand-firef
 
 cookies-disabled-header = Igl è necessari dad activar l'arcun local e cookies
 cookies-disabled-enable-prompt = Activescha p.pl. cookies e l'arcun local en tes navigatur per acceder al { -product-firefox-accounts }. Quai activescha funcziuns sco quella che ta reconuscha en ina nova sesida.
+cookies-disabled-enable-prompt-2 = Activescha p.pl. cookies e l'arcun local en tes navigatur per acceder a tes { -product-mozilla-account }. Quai activescha funcziuns sco quella che ta reconuscha en ina nova sesida.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Empruvar anc ina giada
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1206,6 +1260,7 @@ account-recovery-confirm-key-heading-w-default-service = Reinizialisescha il ple
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Reinizialisescha il pled-clav cun la clav da recuperaziun dal conto per <span>cuntinuar cun { $serviceName }</span>
 account-recovery-confirm-key-instructions = Endatescha per plaschair la clav da recuperaziun a diever unic da tes conto che ti has tegnì en salv en in lieu segir per puspè obtegnair l'access a tes { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Endatescha per plaschair la clav da recuperaziun a diever unic da tes conto che ti has tegnì en salv en in lieu segir per puspè obtegnair l'access a tes { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav e n'has betg tia clav da recuperaziun dal conto memorisada, vegnan tschertas datas stizzadas (inclus las datas memorisadas sin il server sco la cronologia ed ils segnapaginas).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1286,6 +1341,8 @@ confirm-signin-message = Controllescha tes e-mails per chattar la colliaziun per
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Endatescha il pled-clav da <span>tes { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Endatescha il pled-clav da <span>tes { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Cuntinuar cun <span>{ $serviceLogo }</span>
@@ -1342,6 +1399,10 @@ signin-reported-message = Noss team è vegnì infurmà. Quests rapports ans gida
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Endatescha il code da conferma <span>per tes { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Endatescha il code da conferma <span>per tes { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Endatescha entaifer la proximas 5 minutas il code tramess a { $email }.
 signin-token-code-input-label-v2 = Endatescha il code da 6 cifras
@@ -1393,6 +1454,10 @@ confirm-signup-code-page-title = Endatescha il code da conferma
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Endatescha il code da conferma <span>per tes { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Endatescha il code da conferma <span>per tes { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Endatescha entaifer la proximas 5 minutas il code tramess a { $email }.
 confirm-signup-code-input-label = Endatescha il code da 6 cifras
