@@ -296,16 +296,9 @@ passwordResetAccountRecovery-action-2 = Criar nova chave de recuperação de con
 passwordResetAccountRecovery-regen-required-mjml-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou:
-postAddAccountRecovery-subject-2 = Criada chave de recuperação de conta
+postAddAccountRecovery-subject-3 = Criada nova chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Uma nova chave foi criada a partir de:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Não foi você?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Exclua a nova chave</a> e <a data-l10n-name="passwordChangeLink">mude sua senha</a>
 postAddAccountRecovery-action = Gerenciar conta
-postAddAccountRecovery-delete-key = Exclua a nova chave:
-postAddAccountRecovery-changd-password = Mude sua senha:
 postAddLinkedAccount-subject = Nova conta vinculada ao { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nova conta vinculada à sua { -product-mozilla-account }
 #  Variables:
@@ -321,6 +314,9 @@ postAddTwoStepAuthentication-title-2 = Você ativou a autenticação em duas eta
 postAddTwoStepAuthentication-from-device = Você ativou de:
 postAddTwoStepAuthentication-action = Gerenciar conta
 postAddTwoStepAuthentication-code-required-2 = Códigos de segurança do seu aplicativo de autenticação agora são necessários toda vez que você entrar na conta.
+postChangeAccountRecovery-subject = Alterada a chave de recuperação de conta
+postChangeAccountRecovery-title = Você alterou a chave de recuperação da sua conta
+postChangeAccountRecovery-action = Gerenciar conta
 postChangePrimary-subject = Email principal atualizado
 postChangePrimary-title = Novo email principal
 # Variables:
@@ -345,11 +341,8 @@ postNewRecoveryCodes-title-2 = Você criou novos códigos de autenticação de b
 postNewRecoveryCodes-description-2 = Foram criados no:
 postNewRecoveryCodes-action = Gerenciar conta
 postRemoveAccountRecovery-subject-2 = Chave de recuperação de conta excluída
-postRemoveAccountRecovery-title-2 = Você excluiu sua chave de recuperação de conta.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Foi excluída no:
+postRemoveAccountRecovery-title-3 = Você excluiu sua chave de recuperação de conta
 postRemoveAccountRecovery-action = Gerenciar conta
-postRemoveAccountRecovery-invalid-2 = Você precisa de uma chave de recuperação de conta para recuperar seus dados do { -brand-firefox }, caso esqueça sua senha.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
