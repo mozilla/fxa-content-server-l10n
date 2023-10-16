@@ -940,17 +940,17 @@ terms-privacy-agreement-intro = En poursuivant, vous acceptez :
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = En poursuivant, vous acceptez :
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = Les <pocketTos>Conditions d’utilisation</pocketTos> et la <pocketPrivacy>Politique de confidentialité</pocketPrivacy> de { -product-pocket }
+terms-privacy-agreement-pocket = Les <pocketTos>conditions d’utilisation</pocketTos> et la <pocketPrivacy>politique de confidentialité</pocketPrivacy> de { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = Les <pocketTos>Conditions d’utilisation</pocketTos> et la <pocketPrivacy>Politique de confidentialité</pocketPrivacy> de { -product-pocket }
+terms-privacy-agreement-pocket-2 = Les <pocketTos>conditions d’utilisation</pocketTos> et la <pocketPrivacy>politique de confidentialité</pocketPrivacy> de { -product-pocket }
 # link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Conditions d’utilisation et politique de confidentialité</monitorTos> de { -product-firefox-monitor }
+terms-privacy-agreement-monitor = <monitorTos>Les conditions d’utilisation et la politique de confidentialité</monitorTos> de { -product-firefox-monitor }
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Conditions d’utilisation et politique de confidentialité</monitorTos> de { -product-firefox-monitor }
+terms-privacy-agreement-monitor-2 = <monitorTos>Les conditions d’utilisation et la politique de confidentialité</monitorTos> de { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = Les <firefoxTos>Conditions d’utilisation</firefoxTos> et la <firefoxPrivacy>Politique de confidentialité</firefoxPrivacy> de { -brand-firefox }
+terms-privacy-agreement-firefox = Les <firefoxTos>conditions d’utilisation</firefoxTos> et la <firefoxPrivacy>politique de confidentialité</firefoxPrivacy> de { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = Les <mozillaAccountsTos>Conditions d’utilisation</mozillaAccountsTos> et la <mozillaAccountsPrivacy>Politique de confidentialité</mozillaAccountsPrivacy> des { -product-mozilla-accounts }
+terms-privacy-agreement-mozilla = Les <mozillaAccountsTos>conditions d’utilisation</mozillaAccountsTos> et la <mozillaAccountsPrivacy>politique de confidentialité</mozillaAccountsPrivacy> des { -product-mozilla-accounts }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = En poursuivant, vous acceptez les <firefoxTos>Conditions d’utilisation</firefoxTos> et la <firefoxPrivacy>Politique de confidentialité</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
