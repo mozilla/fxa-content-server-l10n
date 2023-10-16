@@ -120,12 +120,27 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Questa dumonda vegn da
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Questa dumonda vegn da { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Sche ti n'has betg fatg quai, <a data-l10n-name="revokeAccountRecoveryLink">stizza la nova clav</a> e <a data-l10n-name="passwordChangeLink">mida tes pled-clav</a>.
+automatedEmailRecoveryKey-change-pwd-only = Sche ti n'has betg fatg quai, <a data-l10n-name="passwordChangeLink">mida tes pled-clav</a>.
+automatedEmailRecoveryKey-more-info = Per ulteriuras infurmaziuns, visita <a data-l10n-name="supportLink">l'agid da { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Questa dumonda vegn da:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Sche ti n'has betg fatg quai, stizza la nova clav:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Sche ti n'has betg fatg quai, mida tes pled-clav:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = e mida tes pled-clav:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Per ulteriuras infurmaziuns, visita l'agid da { -brand-mozilla }:
 automated-email-reset =
     Quai è in e-mail automatic. Sche ti n'has betg autorisà questa acziun, <a data-l10n-name="resetLink">reinizialisescha per plaschair tes pled-clav</a>.
     Per ulteriuras infurmaziuns, per plaschair visitar il <a data-l10n-name="supportLink">support da { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Sche ti n'al has betg midà, reinizialisescha per plaschair ussa tes pled-clav sin { $resetLink }
+brand-banner-message = Sas ti che nus avain midà noss num da { -product-firefox-accounts } en { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Ulteriuras infurmaziuns</a>
 cancellationSurvey = Ans gida per plaschair da meglierar noss servetschs cun participar a questa <a data-l10n-name="cancellationSurveyUrl">curta enquista</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ans gida per plaschair da meglierar noss servetschs cun participar a questa curta enquista:
@@ -243,6 +258,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = I dovra dus per sincronisar
 cadReminderFirst-description-1 = Piglia tes tabs cun tai sin tut tes apparats. Acceda a tes segnapaginas, pleds-clav ed autras datas dapertut là nua che utiliseschas { -brand-firefox }. Quai è la magia da tes conto da { -brand-firefox }!
+cadReminderFirst-description-v2 = Prenda cun tai tes tabs sin tut tes apparats. Va per tes segnapaginas, pleds-clav ed autras datas per als avair dapertut là nua che ti dovras { -brand-firefox }.
 cadReminderSecond-subject-2 = Na sta betg cun la bucca sitga! Cumplettescha la configuraziun da tia sincronisaziun
 cadReminderSecond-action = Sincronisar in auter apparat
 cadReminderSecond-title-2 = N'emblida betg da sincronisar!
@@ -257,8 +273,10 @@ downloadSubscription-title = Bainvegni tar { $productName }
 downloadSubscription-content-2 = Entschaiva ad utilisar tut las funcziuns inclusas en tes abunament:
 downloadSubscription-link-action-2 = Emprims pass
 fraudulentAccountDeletion-subject = Tes { -product-firefox-account } è vegnì stizzà
+fraudulentAccountDeletion-subject-2 = Tes conto { -product-mozilla-account } è vegnì stizzà
 fraudulentAccountDeletion-title = Tes conto è vegnì stizzà
 fraudulentAccountDeletion-content = Dacurt è vegnì creà cun agid da questa adressa dad e-mail in { -product-firefox-account } cun in abunament che custa. Nus avain ta dumandà – uschia faschain nus quai cun tut ils contos novs – da confermar il conto cun validar questa adressa dad e-mail.
+fraudulentAccountDeletion-content-part1-v2 = Dacurt è vegnì creà cun agid da questa adressa dad e-mail in { -product-mozilla-account } cun in abunament che custa. Nus avain ta dumandà – uschia faschain nus quai cun tut ils contos novs – da confermar il conto cun validar questa adressa dad e-mail.
 fraudulentAccountDeletion-content-2 = Ussa avain nus constatà ch'il conto n'è mai vegnì confermà. Cunquai che quest pass manca, na savain nus betg segir sch'i sa tracta dad in abunament autorisà. En consequenza è il { -product-firefox-account } registrà cun questa adressa dad e-mail vegnì stizzà e tes abunament è vegnì annullà e tut las debitaziuns restituidas.
 fraudulentAccountDeletion-contact = En cas da dumondas, contactescha per plaschair noss <a data-l10n-name="mozillaSupportUrl">team d'agid</a>.
 # Variables:
