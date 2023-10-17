@@ -926,6 +926,10 @@ terms-privacy-agreement-intro-2 = Ao prosseguir, você concorda com os:
 terms-privacy-agreement-pocket = <pocketTos>Termos do serviço</pocketTos> e <pocketPrivacy>Aviso de privacidade</pocketPrivacy> do { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Termos do serviço</pocketTos> e <pocketPrivacy>Aviso de privacidade</pocketPrivacy> do { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Termos do serviço e Aviso de privacidade</monitorTos> do { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Termos do serviço e Aviso de privacidade</monitorTos> do { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Termos do serviço</firefoxTos> e <firefoxPrivacy>Aviso de privacidade</firefoxPrivacy> do { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
