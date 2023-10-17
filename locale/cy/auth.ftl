@@ -110,21 +110,21 @@ automatedEmailRecoveryKey-origin-device-browser-os = Daeth y cais hwn gan { $uaB
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
-automatedEmailRecoveryKey-origin-device-browser-only = Daeth y cais hwn o { $uaBrowser }.
+automatedEmailRecoveryKey-origin-device-browser-only = Daeth y cais hwn gan { $uaBrowser }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
-automatedEmailRecoveryKey-origin-device-OS-version-only = Daeth y cais hwn o { $uaOS } { $uaOSVersion }.
+automatedEmailRecoveryKey-origin-device-OS-version-only = Daeth y cais hwn gan { $uaOS } { $uaOSVersion }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Daeth y cais hwn gan { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Os nad chi oedd hwn, <a data-l10n-name="revokeAccountRecoveryLink">dilëwch yr allwedd newydd</a> a <a data-l10n-name="passwordChangeLink">newidiwch eich cyfrinair</a>.
 automatedEmailRecoveryKey-change-pwd-only = Os nad chi oedd hwn, <a data-l10n-name="passwordChangeLink">newidiwch eich cyfrinair</a>.
-automatedEmailRecoveryKey-more-info = Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
+automatedEmailRecoveryKey-more-info = Am ragor o wybodaeth, ewch i'n <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
-automatedEmailRecoveryKey-origin-plaintext = Daeth y cais hwn o:
+automatedEmailRecoveryKey-origin-plaintext = Daeth y cais hwn gan:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Os nad chi oedd hwn, dilëwch yr allwedd newydd:
 # Colon is followed by a URL to the change password section of account settings
@@ -133,14 +133,14 @@ automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Os nad chi oedd hwn
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = a newidiwch eich cyfrinair:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
-automatedEmailRecoveryKey-more-info-plaintext = Am ragor o wybodaeth, ewch i { -brand-mozilla } Cefnogaeth:
+automatedEmailRecoveryKey-more-info-plaintext = Am ragor o wybodaeth, ewch i'n { -brand-mozilla } Cefnogaeth:
 automated-email-reset =
     Mae hwn yn e-bost awtomatig; os na wnaethoch chi awdurdodi'r weithred hon, yna <a data-l10n-name="resetLink"> newidiwch eich cyfrinair</a>.
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Os nad ydych wedi ei newid, cofiwch ailosod eich cyfrinair yn syth yn { $resetLink }
-brand-banner-message = Oeddech chi'n gwybod ein bod wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Dysgu rhagor</a>
+brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
 cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Helpwch ni i wella ein gwasanaethau trwy lanw’r arolwg byr hwn:
@@ -342,9 +342,9 @@ passwordResetAccountRecovery-regen-required-txt-1 = Bydd angen i chi fewngofnodi
 postAddAccountRecovery-subject-3 = Allwedd adfer cyfrif newydd wedi'i chreu
 postAddAccountRecovery-title2 = Rydych chi wedi creu allwedd adfer cyfrif newydd
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part1 = Arbedwch yr allwedd hon mewn man diogel - bydd ei angen arnoch i adfer eich data pori wedi'i amgryptio os byddwch yn anghofio eich cyfrinair.
+postAddAccountRecovery-body-part1 = Cadwch yr allwedd hon mewn man diogel - bydd ei hangen arnoch i adfer eich data pori wedi'i amgryptio os byddwch yn anghofio eich cyfrinair.
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = Dim ond unwaith y gellir defnyddio'r allwedd hon. Ar ôl i chi ei ddefnyddio, byddwn yn creu un newydd i chi yn awtomatig. Neu gallwch greu un newydd unrhyw bryd o osodiadau eich cyfrif.
+postAddAccountRecovery-body-part2 = Dim ond unwaith y mae modd defnyddio'r allwedd hon. Ar ôl i chi ei ddefnyddio, byddwn yn creu un newydd i chi'n awtomatig. Neu gallwch greu un newydd ar unrhywadeg o osodiadau eich cyfrif.
 postAddAccountRecovery-action = Rheoli cyfrif
 postAddLinkedAccount-subject = Cyfrif newydd yn gysylltiedig â { -brand-firefox }
 postAddLinkedAccount-subject-2 = Cyfrif newydd yn gysylltiedig â'ch cyfrif { -product-mozilla-account }
