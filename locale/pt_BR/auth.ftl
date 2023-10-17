@@ -96,6 +96,12 @@ automated-email-no-action = { automated-email-no-action-plaintext } Para obter m
 automated-email-no-action-plaintext = Este é um email automático. Se recebeu por engano, não precisa fazer nada.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este é um email automático. Se você não autorizou esta ação, mude sua senha:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Esta solicitação veio de { $uaBrowser } em { $uaOS } { $uaOSVersion }.
 automated-email-reset =
     Este é um email automático. Se você não autorizou esta ação, <a data-l10n-name="resetLink">redefina sua senha</a>.
     Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
