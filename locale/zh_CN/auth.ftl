@@ -100,6 +100,12 @@ automated-email-not-authorized-plaintext = 这是一封自动发送的邮件。�
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 # - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = 此请求来自 { $uaOS } { $uaOSVersion } 的 { $uaBrowser }。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-browser-os = 此请求来自 { $uaOS } 上的 { $uaBrowser }。
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
@@ -328,6 +334,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = 您需要在所有同步的
 passwordResetAccountRecovery-regen-required-txt-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥：
 postAddAccountRecovery-subject-3 = 已创建新的账户恢复密钥
 postAddAccountRecovery-title2 = 您已生成新的账户恢复密钥
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = 请妥善保存该密钥——当您忘记密码时，可以用它来恢复加密的浏览数据。
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = 该密钥只能使用一次。在您使用过一次之后我们会自动为您创建一个新密钥。您也可以随时在账户设置中创建新的密钥。
 postAddAccountRecovery-action = 管理账户
 postAddLinkedAccount-subject = 新账户连接到 { -brand-firefox }
 postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-account }
@@ -344,6 +354,11 @@ postAddTwoStepAuthentication-title-2 = 您已开启两步验证
 postAddTwoStepAuthentication-from-device = 您已从下列位置启用：
 postAddTwoStepAuthentication-action = 管理账户
 postAddTwoStepAuthentication-code-required-2 = 现在起，每次登录时都会要求您输入身份验证应用上的安全码。
+postChangeAccountRecovery-subject = 账户恢复密钥已变更
+postChangeAccountRecovery-title = 您更改了账户恢复密钥
+postChangeAccountRecovery-body-part1 = 您现在拥有了一个新的账户恢复密钥。您先前的密钥已删除。
+postChangeAccountRecovery-body-part2 = 请妥善保存新密码——如果您忘记了密码，则需要用它来恢复加密的浏览数据。
+postChangeAccountRecovery-action = 管理账户
 postChangePrimary-subject = 主邮箱已更新
 postChangePrimary-title = 新的主邮箱
 # Variables:
@@ -367,6 +382,9 @@ postNewRecoveryCodes-title-2 = 您已生成新的备用验证码
 postNewRecoveryCodes-description-2 = 创建于：
 postNewRecoveryCodes-action = 管理账户
 postRemoveAccountRecovery-subject-2 = 已删除账户恢复密钥
+postRemoveAccountRecovery-title-3 = 您已删除账户恢复密钥。
+postRemoveAccountRecovery-body-part1 = 在忘记密码的情况下，需要使用账户恢复密钥来恢复加密的浏览数据。
+postRemoveAccountRecovery-body-part2 = 请在账户设置中创建一个新的账户恢复密钥以防止丢失您保存的密码、书签、浏览历史记录等。
 postRemoveAccountRecovery-action = 管理账户
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
