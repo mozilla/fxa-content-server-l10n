@@ -62,6 +62,7 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = תנאי השירות של { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = תנאי השימוש של { -product-mozilla-accounts }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = מידע משפטי
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = פרטיות
@@ -311,6 +312,8 @@ passwordResetAccountRecovery-title-2 = ססמה אופסה בהצלחה
 passwordResetAccountRecovery-description-2 = השתמש במפתח שחזור החשבון שלך כדי לעדכן את הססמה שלך מ:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = יצירת מפתח שחזור חשבון חדש
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = יצירת מפתח שחזור חשבון
 passwordResetAccountRecovery-regen-required-mjml-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת:
@@ -585,6 +588,7 @@ verificationReminderSecond-title-3 = לא כדאי לפספס את { -brand-mozi
 verificationReminderSecond-description-3 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־10 הימים הקרובים או שהוא יימחק באופן אוטומטי.
 verificationReminderSecond-description-4 = לפני מספר ימים יצרת { -product-mozilla-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־10 הימים הקרובים או שהוא יימחק באופן אוטומטי.
 verificationReminderSecond-second-description = { -product-firefox-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך ב־{ -brand-firefox } על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = אנחנו מזמינים אותך להיות חלק מהמשימה שלנו להפוך את האינטרנט למקום שפתוח לכולם.
 verificationReminderSecond-action-2 = אימות החשבון
 verify-title-2 = לפתוח את האינטרנט עם { -brand-firefox }

@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox Accounts
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account(case: "a") }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -57,11 +60,13 @@ input-error-is-required = ‏{ $label } נדרש
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = הלוגו של { -brand-name-firefox }
 brand-name-mozilla-logo = הסמל של { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = כבר יש לך חשבון { -brand-name-firefox }? <a>כניסה</a>
 new-user-sign-in-link-2 = כבר יש לך חשבון { -product-mozilla-account }? <a>כניסה</a>
 # "Required" to indicate that the user must use the checkbox below this text to

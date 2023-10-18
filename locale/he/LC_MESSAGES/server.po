@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-29 14:03+0000\n"
+"PO-Revision-Date: 2023-10-18 20:28+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "חשבונות Mozilla"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -90,6 +90,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"חשבון ה־Mozilla שלך עושה שימוש בתכונות\n"
+"                        שאינן נתמכות בגרסת ה־Firefox שלך. נא\n"
+"                        להוריד ולהתקין את הגרסה האחרונה של Firefox\n"
+"                        כדי להמשיך."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -102,3 +106,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Firefox Accounts עושה שימוש בתכונות\n"
+"שאינן נתמכות בגרסת ה־Firefox שלך. נא\n"
+"להוריד ולהתקין את הגרסה האחרונה של Firefox\n"
+"כדי להמשיך."
