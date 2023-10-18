@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-18 22:11+0000\n"
+"PO-Revision-Date: 2023-10-18 22:19+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -71,7 +71,7 @@ msgstr "Complete a configuração digitando a nova senha em seus outros disposit
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Agora está tudo pronto para você fazer alterações na sua conta Mozilla."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -1185,7 +1185,7 @@ msgstr "Esqueceu sua senha?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Digite a senha <span class=\"card-subheader\" id=\"subheader\">da sua conta Firefox</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
