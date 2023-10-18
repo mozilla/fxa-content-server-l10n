@@ -128,6 +128,13 @@ automatedEmailRecoveryKey-change-pwd-only = Jeli njejsće to był wy, <a data-l1
 automatedEmailRecoveryKey-more-info = Za dalše informacije wopytajće <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Tute naprašowanje přińdźe wot:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Jeli njejsće to był wy, zhašejće nowy kluč:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Jeli njejsće to był wy, změńće swoje hesło:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = a změńće swoje hesło:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = Za dalše informacije wopytajće pomoc { -brand-mozilla }:
 automated-email-reset =
@@ -354,6 +361,7 @@ postAddTwoStepAuthentication-action = Konto rjadować
 postAddTwoStepAuthentication-code-required-2 = Wěstotne kody z wašeho nałoženja awtentizowanja su kóždy raz trěbne, hdyž so přizjewjeće.
 postChangeAccountRecovery-subject = Kontowy wobnowjenski kluč je so změnił
 postChangeAccountRecovery-title = Sće swój kontowy wobnowjenski kluč změnił
+postChangeAccountRecovery-body-part1 = Maće nětko nowy kontowy wobnowjenski kluč. Waš předchadny kluč je so zhašał.
 postChangeAccountRecovery-action = Konto rjadować
 postChangePrimary-subject = Primarna e-mejlowa adresa je so zaktualizowała
 postChangePrimary-title = Nowa primarna e-mejlowa adresa
@@ -633,6 +641,7 @@ verificationReminderSecond-title-3 = Popřejće sej { -brand-mozilla }!
 verificationReminderSecond-description-3 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
 verificationReminderSecond-description-4 = Před někotrymi dnjemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
 verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swoje informacije přez graty synchronizować a dowoluje přistup k wjace priwatnosć škitacym produktam wot { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Waš { -product-mozilla-account } wam zmóžnja, swoje dožiwjenje { -brand-firefox } přez graty synchronizować a dowoluje přistup k wjace priwatnosć škitacym produktam wot { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Budźće dźěl našeje misije, internet do městna přetworić, kotryž je wotewrjeny za kóždeho.
 verificationReminderSecond-action-2 = Konto wobkrućić
 verify-title-2 = Wočińće internet z { -brand-firefox }
