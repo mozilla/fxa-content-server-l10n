@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox Accounts
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = Se necesita { $label }
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = Logo de { -brand-name-firefox }
 brand-name-mozilla-logo = Logo de { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = ¿Ya tenés una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
 new-user-sign-in-link-2 = ¿Ya tenés una { -product-mozilla-account }? <a>Iniciar sesión</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -411,6 +416,7 @@ coupon-success-repeating = Tu plan se renovará automáticamente después de { $
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Creá una cuenta de { -brand-name-firefox }
 new-user-step-1-2 = 1. Creá una { -product-mozilla-account }
 new-user-card-title = Ingresá la información de tu tarjeta
