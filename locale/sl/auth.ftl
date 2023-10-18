@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -bra
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinhronizirajte naprave">
 body-devices-image = <img data-l10n-name="devices-image" alt="Naprave">
 fxa-privacy-url = Politika zasebnosti { -brand-mozilla(sklon: "rodilnik") }
-moz-accounts-privacy-url = Pravilnik o zasebnosti { -product-mozilla-accounts(sklon: "rodilnik") }
 fxa-service-url = Pogoji uporabe storitev { -product-firefox-cloud }
 moz-accounts-terms-url = Pogoji uporabe { -product-mozilla-accounts(sklon: "rodilnik") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotip { -brand-firefox(sklon: "rodilnik") }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -brand-mozilla(sklon: "rodilnik") }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logotip { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -brand-mozilla(sklon: "rodilnik") }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logotip { -brand-mozilla }">
 subplat-automated-email = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
 subplat-privacy-notice = Obvestilo o zasebnosti
 subplat-privacy-plaintext = Obvestilo o zasebnosti:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Politika zasebnosti { -brand-mozilla(sklon: "rodilnik")
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Pogoji uporabe storitev { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Pogoji uporabe { -product-mozilla-accounts(sklon: "rodilnik") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Pravne informacije
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Zasebnost
@@ -334,6 +337,8 @@ passwordResetAccountRecovery-title-2 = Geslo uspešno ponastavljeno
 passwordResetAccountRecovery-description-2 = S ključem za obnovitev računa ste spremenili geslo z naslednje naprave:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Ustvari nov ključ za obnovitev računa
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Ustvari ključ za obnovitev računa
 passwordResetAccountRecovery-regen-required-mjml-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega:
@@ -644,7 +649,7 @@ verificationReminderSecond-title-3 = Ne zamudite { -brand-mozilla(sklon: "rodiln
 verificationReminderSecond-description-3 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 10 dneh, sicer bo samodejno izbrisan.
 verificationReminderSecond-description-4 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 10 dneh, sicer bo samodejno izbrisan.
 verificationReminderSecond-second-description = { -product-firefox-account } vam omogoča sinhronizacijo podatkov med napravami in dostop do več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki ščitijo zasebnost.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account } vam omogoča sinhronizacijo podatkov med napravami in dostop do več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki ščitijo zasebnost.
+verificationReminderSecond-second-description-3 = Vaš { -product-mozilla-account } vam omogoča sinhronizacijo vaše izkušnje s { -brand-firefox } med napravami in dostop do več izdelkov { -brand-mozilla }, ki varujejo zasebnost.
 verificationReminderSecond-sub-description-2 = Bodite del našega poslanstva spreminjanja interneta v prostor, odprt za vsakogar.
 verificationReminderSecond-action-2 = Potrdi račun
 verify-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
