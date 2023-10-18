@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-10-09 15:29+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,9 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444993321.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Firefox 帳號"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -33,6 +32,10 @@ msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "首頁"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Firefox 帳號"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -63,12 +66,16 @@ msgid "Loading"
 msgstr "載入中"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr "需要開啟 JavaScript 才能使用 Mozilla 帳號。"
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "需要開啟 JavaScript 才能使用 Firefox Accounts。"
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
-msgstr "需要開啟 JavaScript 才能使用 Mozilla 帳號。"
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
+msgstr "Mozilla 帳號"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -76,24 +83,20 @@ msgstr "需要更新 Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
-msgstr "Firefox Accounts 使用了您的 Firefox 版本尚不支援的功能。請先更新到最新版 Firefox 再繼續。"
+msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "下載最新版本"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr "Mozilla 帳號"
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
-msgstr "Mozilla 帳號會需要用到您目前版本的 Firefox 仍不支援的功能，請下載安裝最新版 Firefox 再繼續。"
+msgstr ""

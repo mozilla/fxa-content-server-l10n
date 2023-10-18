@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-09-29 08:37+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,9 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444998452.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -33,6 +32,10 @@ msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Start"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -63,12 +66,16 @@ msgid "Loading"
 msgstr "Lade"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr "Mozilla-accounts fereaskje JavaScript."
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox-accounts fereasket JavaScript."
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
-msgstr "Mozilla-accounts fereaskje JavaScript."
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
+msgstr "Mozilla-account"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -76,32 +83,20 @@ msgstr "Firefox-fernijing fereaske"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox Accounts makket gebrûk fan funksjes dy’t\n"
-"                        net stipe wurde yn jo ferzje fan Firefox.\n"
-"                        Download en ynstallearje de lêste ferzje fan Firefox om\n"
-"                        troch te gean."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lêste downloade"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr "Mozilla-account"
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
-"Jo Mozilla-account makket gebrûk fan funksjes dy't net\n"
-"stipe wurde yn jo ferzje fan Firefox. Download\n"
-"en ynstallearje de lêste ferzje fan Firefox om\n"
-"troch te gean."

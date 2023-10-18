@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-09-30 03:48+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -14,10 +14,9 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Firefox тіркелгілері"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -34,6 +33,10 @@ msgstr ""
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Үй"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Firefox тіркелгілері"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -68,12 +71,16 @@ msgid "Loading"
 msgstr "Жүктелу"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr "Mozilla тіркелгілері JavaScript-ті талап етеді."
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox тіркелгілері JavaScript-ті талап етеді."
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
-msgstr "Mozilla тіркелгілері JavaScript-ті талап етеді."
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
+msgstr "Mozilla тіркелгісі"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -81,32 +88,20 @@ msgstr "Firefox жаңартуы қажет"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox тіркелгілері сіздің ағымдағы Firefox нұсқасы қолдау\n"
-"                        көрсетпейтін мүмкіндіктерді қолданады.\n"
-"                        Жалғастыру үшін Firefox соңғы нұсқасын жүктеп алып,\n"
-"                        орнатыңыз."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Соңғы нұсқасын жүктеп алу"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr "Mozilla тіркелгісі"
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
-"Сіздің Mozilla тіркелгіңіз Firefox бұл нұсқасында\n"
-"қолдау көрсетілмейтін мүмкіндіктерді пайдаланады.\n"
-"Жалғастыру үшін Firefox-тың соңғы нұсқасын\n"
-"жүктеп алып, орнатыңыз."

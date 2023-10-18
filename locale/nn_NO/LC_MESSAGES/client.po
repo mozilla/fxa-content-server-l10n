@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-10-02 10:44+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,8 +69,8 @@ msgid "Complete set-up by entering the new password on your other Firefox device
 msgstr "Fullfør oppsettet med å skrive inn det nye passordet på dei andre Firefox-einingane dine."
 
 #: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Du er no klar for å gjere endringar i Firefox-kontoen din."
+msgid "You are now ready to make changes to your Mozilla account."
+msgstr ""
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -99,6 +99,10 @@ msgstr "Konto stadfesta"
 #: .es5/views/ready.js:79
 msgid "Connected"
 msgstr "Tilkopla"
+
+#: .es5/views/ready.js:177
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Du er no klar for å gjere endringar i Firefox-kontoen din."
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -611,8 +615,8 @@ msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Skriv inn ei gyldig e-postadresse. firefox.com tilbyr ikkje e-post."
 
 #: .es5/lib/auth-errors.js:404
-msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettsider"
+msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -709,6 +713,10 @@ msgstr "Skrivefeil i e-postadresse? %(domain)s tilbyr ikkje e-post."
 #: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
 msgstr "Bildefilstørrelsen er for stor til å laste opp."
+
+#: .es5/lib/auth-errors.js:681
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettsider"
 
 #: .es5/lib/config-loader.js:101
 msgid "Missing configuration"
@@ -907,8 +915,8 @@ msgid "Continue to %(serviceName)s"
 msgstr "Hald fram til %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Skriv inn eingongs-gjenopprettingsnøkkelen du lagra på ein trygg plass, for å få tilgang til Firefox-kontoen din igjen."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
@@ -931,8 +939,8 @@ msgid "Don't have an account recovery key?"
 msgstr "Har du ikkje ein kontogjenopprettingsnøkkel?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Skriv inn eingongs-gjenopprettingsnøkkelen du lagra på ein trygg plass, for å få tilgang til Firefox-kontoen din igjen."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1042,42 +1050,42 @@ msgstr "E-post for tilbakestilling er sendt"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Klikk på lenka som er sendt til %(email)s i løpet av den neste timen, for å lage eit nytt passord."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "Skriv inn stadfestingskode"
-
-#: .es5/templates/confirm_signup_code.mustache:2
-msgid "for your Firefox account"
-msgstr "for Firefox-kontoen din"
-
-#: .es5/templates/confirm_signup_code.mustache:3
-msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Skriv inn koden som vart sendt til %(escapedEmail)s, innan 5 minutt."
-
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "Skriv inn 6-sifra kode"
-
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "Stadfest"
-
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
-msgid "Code expired?"
-msgstr "Har koden gått ut?"
-
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
-msgid "Email new code."
-msgstr "Send ny kode på e-post."
-
-#: .es5/templates/confirm_signup_code.mustache:8
+#: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
 msgstr ""
 "Skriv inn stadfestingskoden \n"
 "<span class=\"card-subheader\" id=\"subheader\"> for Mozilla-kontoen din</span>"
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "Skriv inn koden som vart sendt til %(escapedEmail)s, innan 5 minutt."
+
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "Skriv inn 6-sifra kode"
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Stadfest"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr "Har koden gått ut?"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr "Send ny kode på e-post."
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "Skriv inn stadfestingskode"
+
+#: .es5/templates/confirm_signup_code.mustache:8
+msgid "for your Firefox account"
+msgstr "for Firefox-kontoen din"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1128,14 +1136,8 @@ msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Logg inn på Firefox for iOS for å fullføre oppsettet"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid ""
-"\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
-"        "
-msgstr ""
-"\n"
-"          Skriv inn passordet ditt <span class=\"card-subheader\" id=\"subheader\">for Firefox-kontoen din</span>\n"
-"        "
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
+msgstr "Skriv inn passordet ditt <span class=\"card-subheader\" id=\"subheader\">for Mozilla-kontoen din</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1176,12 +1178,12 @@ msgid "Forgot password?"
 msgstr "Gløymt passordet?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "Skriv inn passordet ditt <span class=\"card-subheader\" id=\"subheader\">for Mozilla-kontoen din</span>"
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
+msgstr ""
 
 #: .es5/templates/index.mustache:1
-msgid "Continue to Firefox accounts"
-msgstr "Hald fram til Firefox-konto"
+msgid "Continue to your Mozilla account"
+msgstr "Hald fram til Mozilla-kontoen din"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1200,8 +1202,8 @@ msgid "Sign up or sign in"
 msgstr "Registrer deg eller logg inn"
 
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Ein Firefox-konto låser også opp tilgang til fleire personvernbeskyttande produkt frå Mozilla."
+msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "Ein Mozilla-konto låser også opp tilgang til fleire personvernbeskyttande produkt frå Mozilla."
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1209,7 +1211,7 @@ msgid ""
 "          By proceeding, you agree to:<br />\n"
 "          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 
@@ -1218,17 +1220,17 @@ msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
 "            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
 #: .es5/templates/index.mustache:19
-msgid "Continue to your Mozilla account"
-msgstr "Hald fram til Mozilla-kontoen din"
+msgid "Continue to Firefox accounts"
+msgstr "Hald fram til Firefox-konto"
 
 #: .es5/templates/index.mustache:20
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Ein Mozilla-konto låser også opp tilgang til fleire personvernbeskyttande produkt frå Mozilla."
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "Ein Firefox-konto låser også opp tilgang til fleire personvernbeskyttande produkt frå Mozilla."
 
 #: .es5/templates/index.mustache:21
 msgid ""
@@ -1236,7 +1238,7 @@ msgid ""
 "  By proceeding, you agree to:<br />\n"
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
 #: .es5/templates/index.mustache:22
@@ -1491,18 +1493,18 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Teamet vårt er varsla. Rapportar som denne hjelper oss med å avverja inntrengarar."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "Skriv inn stadfestingskoden <span class=\"card-subheader\">for Firefox-kontoen din</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
+msgstr ""
+"Skriv inn stadfestingskoden\n"
+" <span class=\"card-subheader\">for Mozilla-kontoen din</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "Skriv inn koden som vart sendt til %(email)s, innan 5 minutt."
 
 #: .es5/templates/sign_in_token_code.mustache:7
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
-"Skriv inn stadfestingskoden\n"
-" <span class=\"card-subheader\">for Mozilla-kontoen din</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr "Skriv inn stadfestingskoden <span class=\"card-subheader\">for Firefox-kontoen din</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1557,8 +1559,8 @@ msgid "Create account"
 msgstr "Opprett konto"
 
 #: .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox-kontoar"
+msgid "Mozilla account"
+msgstr "Mozilla-konto"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
@@ -1625,8 +1627,8 @@ msgid "Terms of Service"
 msgstr "Tenestevilkår"
 
 #: .es5/templates/support.mustache:25
-msgid "Mozilla account"
-msgstr "Mozilla-konto"
+msgid "Firefox Accounts"
+msgstr "Firefox-kontoar"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1731,8 +1733,8 @@ msgstr "for å halde fram til %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Vi oppdaga mistenkeleg oppførsel på Firefox-kontoen din. Lag eit nytt passord for å beskytte kontoen din. Du brukar dette passordet for å logge deg på alle Firefox-kontotenestene dine."
+"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
+msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1752,8 +1754,8 @@ msgstr "Byt passord"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr "Vi oppdaga mistenkeleg oppførsel på Firefox-kontoen din. Lag eit nytt passord for å beskytte kontoen din. Du brukar dette passordet for å logge deg på alle Firefox-kontotenestene dine."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1780,8 +1782,8 @@ msgid "The link you clicked was missing characters, and may have been broken by 
 msgstr "Lenka du klikka på mangla teikn, og kan ha blitt øydelagd av e-postklienten din."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Firefox Account"
-msgstr "Opprett ein Firefox-konto"
+msgid "Create a Mozilla account"
+msgstr "Opprett ein Mozilla-konto"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1797,8 +1799,8 @@ msgid "Confirm password"
 msgstr "Stadfest passordet"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
-msgid "Create a Mozilla account"
-msgstr "Opprett ein Mozilla-konto"
+msgid "Create a Firefox Account"
+msgstr "Opprett ein Firefox-konto"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

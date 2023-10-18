@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2022-05-03 14:43+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -15,10 +15,9 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423120631.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Firefox アカウント"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -33,6 +32,10 @@ msgstr "リクエストされたページは見つかりませんでした。サ
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "ホーム"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Firefox アカウント"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -63,11 +66,15 @@ msgid "Loading"
 msgstr "読み込み中"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr ""
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox アカウントは JavaScript を必要とします。"
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:2
@@ -76,25 +83,19 @@ msgstr "Firefox の更新が必要です"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox アカウントは、このバージョンの Firefox でサポートされていない機能を利用します。\n"
-"                        続行するには、Firefox の最新バージョンをダウンロードしてインストールしてください。"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "最新バージョンをダウンロードする"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr ""
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."

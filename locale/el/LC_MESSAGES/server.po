@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-10-14 01:19+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,10 +14,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Λογαριασμοί Firefox"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -34,6 +33,10 @@ msgstr ""
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Αρχική"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Λογαριασμοί Firefox"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -68,12 +71,16 @@ msgid "Loading"
 msgstr "Φόρτωση"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr "Για τη χρήση των λογαριασμών Mozilla είναι απαραίτητη η ενεργοποίηση της JavaScript."
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Οι Λογαριασμοί Firefox απαιτούν JavaScript."
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
-msgstr "Για τη χρήση των λογαριασμών Mozilla είναι απαραίτητη η ενεργοποίηση της JavaScript."
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
+msgstr "Λογαριασμός Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -81,32 +88,20 @@ msgstr "Απαιτείται ενημέρωση του Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Η υπηρεσία Firefox Accounts χρησιμοποιεί λειτουργίες που δεν\n"
-"                        υποστηρίζονται στην έκδοση του Firefox σας. Παρακαλούμε\n"
-"                        κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του Firefox\n"
-"                        για να συνεχίσετε."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Λήψη τελευταίας έκδοσης"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr "Λογαριασμός Mozilla"
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
-"Ο λογαριασμός Mozilla σας χρησιμοποιεί δυνατότητες που\n"
-"δεν υποστηρίζονται από την έκδοση του Firefox που διαθέτετε.\n"
-"Κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του\n"
-"Firefox για να συνεχίσετε."

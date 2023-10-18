@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-10-02 18:01+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,9 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442482729.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Účty Firefox"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -33,6 +32,10 @@ msgstr "Požadovaná stránka nebola nájdená. Boli sme na to upozornení a pr�
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Domov"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Účty Firefox"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -63,12 +66,16 @@ msgid "Loading"
 msgstr "Načítava sa"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr "Účty Mozilla vyžadujú povolený JavaScript."
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Účty Firefox vyžadujú povolený JavaScript."
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
-msgstr "Účty Mozilla vyžadujú povolený JavaScript."
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
+msgstr "Účet Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -76,27 +83,20 @@ msgstr "Vyžaduje sa aktualizácia Firefoxu"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Účet Firefox využíva funkcie, ktoré vo vašej verzii Firefoxu\n"
-"                        nie sú podporované. Prosím, stiahnite a\n"
-"                        nainštalujte si najnovšiu verziu Firefoxu."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Stiahnuť najnovšiu verziu"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr "Účet Mozilla"
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
-msgstr "Váš účet Mozilla využíva funkcie, ktoré nie sú podporované vo vašej verzii Firefoxu. Stiahnite a nainštalujte si najnovšiu verziu Firefoxu."
+msgstr ""

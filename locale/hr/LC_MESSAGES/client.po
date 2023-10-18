@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-01-01 23:41+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,8 +69,8 @@ msgid "Complete set-up by entering the new password on your other Firefox device
 msgstr "Dovrši postavljanje upisom nove lozinke na tvojim drugim uređajima s Firefoxom."
 
 #: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Sada možeš promijeniti svoj Firefox račun."
+msgid "You are now ready to make changes to your Mozilla account."
+msgstr ""
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -99,6 +99,10 @@ msgstr "Račun potvrđen"
 #: .es5/views/ready.js:79
 msgid "Connected"
 msgstr "Povezano"
+
+#: .es5/views/ready.js:177
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Sada možeš promijeniti svoj Firefox račun."
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -611,8 +615,8 @@ msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Upiši ispravnu e-mail adresu. firefox.com ne nudi e-mail adrese."
 
 #: .es5/lib/auth-errors.js:404
-msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox Account se može postaviti u IFRAME samo na odobrenim web lokacijama"
+msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -709,6 +713,10 @@ msgstr "Je li e-mail adresa ispravna? %(domain)s ne nudi e-mail adrese."
 #: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
 msgstr "Slika je prevelika da bi se prenijela."
+
+#: .es5/lib/auth-errors.js:681
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Firefox Account se može postaviti u IFRAME samo na odobrenim web lokacijama"
 
 #: .es5/lib/config-loader.js:101
 msgid "Missing configuration"
@@ -907,8 +915,8 @@ msgid "Continue to %(serviceName)s"
 msgstr "Nastavi na %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Za dobivanje pristupa svom Firefox računu upiši jednokratni ključ za obnavljanje računa koji si spremio/la na sigurno mjesto."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
@@ -931,8 +939,8 @@ msgid "Don't have an account recovery key?"
 msgstr "Nemaš ključ za obnavljanje računa?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Za dobivanje pristupa svom Firefox računu upiši jednokratni ključ za obnavljanje računa koji si spremio/la na sigurno mjesto."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1042,39 +1050,39 @@ msgstr "Poslan je e-mail za resetiranje"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Kliknite na poveznicu poslanu na %(email)s unutar sat vremena kako biste stvorili novu lozinku."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
-msgid "for your Firefox account"
-msgstr ""
-
-#: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Upiši kod koji je poslan na %(escapedEmail)s u roku od 5 minuta."
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Upiši šesteroznamenkasti kȏd"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Potvrdi"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr "Pošalji e-mailom novi kod."
 
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr ""
+
 #: .es5/templates/confirm_signup_code.mustache:8
-msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
+msgid "for your Firefox account"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
@@ -1126,14 +1134,8 @@ msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Prijavi se u Firefoxu za iOS za završavanje postavljanja"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid ""
-"\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
-"        "
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
 msgstr ""
-"\n"
-"          Upiši lozinku <span class=\"card-subheader\" id=\"subheader\">za tvoj Firefox račun</span>\n"
-"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1174,11 +1176,11 @@ msgid "Forgot password?"
 msgstr "Zaboravio/la si lozinku?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/index.mustache:1
-msgid "Continue to Firefox accounts"
+msgid "Continue to your Mozilla account"
 msgstr ""
 
 #: .es5/templates/index.mustache:2
@@ -1198,8 +1200,8 @@ msgid "Sign up or sign in"
 msgstr "Registriraj se ili se prijavi"
 
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Firefox račun također otključava pristup Mozillinim proizvodima za zaštitu privatnosti."
+msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1207,7 +1209,7 @@ msgid ""
 "          By proceeding, you agree to:<br />\n"
 "          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 
@@ -1216,17 +1218,17 @@ msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
 "            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
 #: .es5/templates/index.mustache:19
-msgid "Continue to your Mozilla account"
+msgid "Continue to Firefox accounts"
 msgstr ""
 
 #: .es5/templates/index.mustache:20
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "Firefox račun također otključava pristup Mozillinim proizvodima za zaštitu privatnosti."
 
 #: .es5/templates/index.mustache:21
 msgid ""
@@ -1234,7 +1236,7 @@ msgid ""
 "  By proceeding, you agree to:<br />\n"
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
 #: .es5/templates/index.mustache:22
@@ -1489,7 +1491,7 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Naš tim je obaviješten. Ovakvi nam izvještaji pomažu obraniti se od napadača."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
@@ -1497,7 +1499,7 @@ msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:7
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1553,8 +1555,8 @@ msgid "Create account"
 msgstr "Otvori račun"
 
 #: .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox računi"
+msgid "Mozilla account"
+msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
@@ -1621,8 +1623,8 @@ msgid "Terms of Service"
 msgstr "Uvjeti korištenja"
 
 #: .es5/templates/support.mustache:25
-msgid "Mozilla account"
-msgstr ""
+msgid "Firefox Accounts"
+msgstr "Firefox računi"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1727,8 +1729,8 @@ msgstr "za nastavak na %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Otkrili smo sumnjivo ponašanje na tvom Firefox računu. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovnu prijavu na sve tvoje usluge Firefox računa."
+"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
+msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1748,8 +1750,8 @@ msgstr "Promjena lozinke"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr "Otkrili smo sumnjivo ponašanje na tvom Firefox računu. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovnu prijavu na sve tvoje usluge Firefox računa."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1776,8 +1778,8 @@ msgid "The link you clicked was missing characters, and may have been broken by 
 msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Firefox Account"
-msgstr "Stvori račun za Firefox"
+msgid "Create a Mozilla account"
+msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1793,8 +1795,8 @@ msgid "Confirm password"
 msgstr "Potvrdi lozinku"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
-msgid "Create a Mozilla account"
-msgstr ""
+msgid "Create a Firefox Account"
+msgstr "Stvori račun za Firefox"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

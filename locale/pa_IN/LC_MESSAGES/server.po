@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-02-19 21:47+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,9 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444671008.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Firefox ਖਾਤੇ"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -35,6 +34,10 @@ msgstr ""
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "ਮੁੱਖ ਸਫ਼ਾ"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Firefox ਖਾਤੇ"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -69,11 +72,15 @@ msgid "Loading"
 msgstr "ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr ""
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox ਖਾਤੇ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:2
@@ -82,27 +89,19 @@ msgstr "ਫਾਇਰਫਾਕਸ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ �
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox ਖਾਤੇ ਅਜਿਹਾ ਫੀਚਰ ਵਰਤਦੇ ਹਨ, ਜਿਸ ਲਈ \n"
-"                        Firefox ਦਾ ਤੁਹਾਡਾ ਵਰਜ਼ਨ ਸਹਾਇਕ ਨਹੀਂ ਹੈ। ਜਾਰੀ ਰੱਖਣ\n"
-"                        ਲਈ Firefox ਦਾ ਨਵਾਂ ਵਰਜ਼ਨ ਡਾਊਨਲੋਡ ਕਰਕੇ ਇੰਸਟਾਲ\n"
-"                        ਕਰੋ।"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "ਨਵਾਂ ਡਾਊਨਲੋਡ ਕਰੋ"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr ""
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."

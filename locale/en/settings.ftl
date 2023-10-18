@@ -364,7 +364,7 @@ cs-cannot-refresh = Sorry, there was a problem refreshing the list of connected
 cs-cannot-disconnect = Client not found, unable to disconnect
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logged out of { $service }
 
@@ -379,7 +379,7 @@ cs-disconnect-sync-heading = Disconnect from Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = Your browsing data will remain on <span>{ $device }</span>,
@@ -1101,7 +1101,7 @@ cookies-disabled-learn-more = Learn more
 inline-recovery-setup-header-default = Confirm backup authentication code <span>to continue to account settings</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Save backup authentication codes <span>to continue to { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Store these one-time use codes in a safe place for when you don’t have your mobile device.
@@ -1121,7 +1121,7 @@ inline-recovery-confirmation-description = To ensure that you will be able to re
 inline-recovery-confirmation-header-default = Confirm backup authentication code <span>to continue to account settings</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirm backup authentication code <span>to continue to { $serviceName }</span>
 
 ## InlineTotpSetup page

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-10-03 06:41+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,10 +14,9 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Firefox Accounts"
-msgstr "Tài khoản Firefox"
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+msgid "Mozilla accounts"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -34,6 +33,10 @@ msgstr ""
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Trang chủ"
+
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+msgid "Firefox Accounts"
+msgstr "Tài khoản Firefox"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
@@ -68,12 +71,16 @@ msgid "Loading"
 msgstr "Đang tải"
 
 #: server/templates/pages/src/index.html:3
+msgid "Mozilla accounts require JavaScript."
+msgstr "Tài khoản Mozilla yêu cầu JavaScript."
+
+#: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Tài khoản Firefox yêu cầu JavaScript."
 
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
-msgstr "Tài khoản Mozilla yêu cầu JavaScript."
+#: server/templates/pages/src/update_firefox.html:1
+msgid "Mozilla account"
+msgstr "Tài khoản Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -81,32 +88,20 @@ msgstr "Yêu cầu cập nhật Firefox"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
-"Firefox Accounts makes use of features that are\n"
+"Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Tài khoản Firefox sử dụng các tính năng\n"
-"                        mà không được hỗ trợ trong phiên bản Firefox của bạn. Vui lòng\n"
-"                        tải xuống và cài đặt phiên bản Firefox mới nhất để\n"
-"                        tiếp tục."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Tải xuống"
 
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Mozilla account"
-msgstr "Tài khoản Mozilla"
-
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
-"Your Mozilla account makes use of features that are\n"
+"Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
-"Tài khoản Mozilla của bạn sử dụng các tính năng\n"
-"không được hỗ trợ trong phiên bản Firefox của bạn.\n"
-"Vui lòng tải xuống và cài đặt phiên bản Firefox\n"
-"mới nhất để tiếp tục."
