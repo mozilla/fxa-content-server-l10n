@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox 账户
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } 必填
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox } 徽标
 brand-name-mozilla-logo = { -brand-mozilla } 徽标
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录</a>
 new-user-sign-in-link-2 = 已有 { -product-mozilla-account }？<a>立即登录</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -407,6 +412,7 @@ coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之后按�
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. 创建 { -brand-name-firefox } 账户
 new-user-step-1-2 = 1. 创建 { -product-mozilla-account }
 new-user-card-title = 输入您的卡片信息

@@ -1228,6 +1228,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            继续操作即表示您同意<br />\n"
+"            Firefox Monitor 的<a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">服务条款和隐私声明</a>< br />\n"
+"            Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp \" href=\"/legal/privacy\">隐私声明</a>\n"
+"          "
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to Firefox accounts"

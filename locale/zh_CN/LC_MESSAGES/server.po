@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-30 12:02+0000\n"
-"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
+"PO-Revision-Date: 2023-10-18 23:32+0000\n"
+"Last-Translator: wxie <xiewensheng@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla 账户"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -88,6 +88,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"您的 Mozilla 账户使用的功能\n"
+"                        您的 Firefox 版本不支持。请\n"
+"                        下载并安装最新版本的 Firefox\n"
+"                        以继续。"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -100,3 +104,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Firefox 账户使用的功能\n"
+"您的 Firefox 版本不支持。请\n"
+"下载并安装最新版本的 Firefox\n"
+"以继续。"
