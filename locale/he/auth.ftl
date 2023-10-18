@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="הסמל של 
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="סנכרון מכשירים">
 body-devices-image = <img data-l10n-name="devices-image" alt="מכשירים">
 fxa-privacy-url = מדיניות הפרטיות של { -brand-mozilla }
-moz-accounts-privacy-url = מדיניות הפרטיות של { -product-mozilla-accounts }
 fxa-service-url = תנאי השירות של { -product-firefox-cloud }
 moz-accounts-terms-url = תנאי השימוש של { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="הסמל של { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="הסמל של { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="הסמל של { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="הסמל של { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="הסמל של { -brand-mozilla }">
 subplat-automated-email = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
 subplat-privacy-notice = הצהרת פרטיות
 subplat-privacy-plaintext = הצהרת פרטיות:
@@ -60,6 +61,7 @@ subplat-privacy-policy = מדיניות הפרטיות של { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = תנאי השירות של { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = תנאי השימוש של { -product-mozilla-accounts }
 subplat-legal = מידע משפטי
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = פרטיות
@@ -583,7 +585,6 @@ verificationReminderSecond-title-3 = לא כדאי לפספס את { -brand-mozi
 verificationReminderSecond-description-3 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־10 הימים הקרובים או שהוא יימחק באופן אוטומטי.
 verificationReminderSecond-description-4 = לפני מספר ימים יצרת { -product-mozilla-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־10 הימים הקרובים או שהוא יימחק באופן אוטומטי.
 verificationReminderSecond-second-description = { -product-firefox-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = אנחנו מזמינים אותך להיות חלק מהמשימה שלנו להפוך את האינטרנט למקום שפתוח לכולם.
 verificationReminderSecond-action-2 = אימות החשבון
 verify-title-2 = לפתוח את האינטרנט עם { -brand-firefox }
