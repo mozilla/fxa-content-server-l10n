@@ -99,7 +99,37 @@ automated-email-no-action = { automated-email-no-action-plaintext } Za dalše in
 automated-email-no-action-plaintext = To je awtomatizowana mejlka. Jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To je awtomatiska e-mejlka; jeli njejsće tutu akciju awtorizował, změńće prošu swoje hesło.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Tute naprašowanje wot { $uaBrowser } na { $uaOS } { $uaOSVersion } přińdźe.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Tute naprašowanje wot { $uaBrowser } na { $uaOS } přińdźe.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Tute naprašowanje wot { $uaBrowser } přińdźe.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Tute naprašowanje wot{ $uaOS } { $uaOSVersion } přińdźe.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Tute naprašowanje wot { $uaOS } přińdźe.
 automatedEmailRecoveryKey-delete-key-change-pwd = Jeli njejsće to był wy, <a data-l10n-name="revokeAccountRecoveryLink">zhašejće nowy kluč</a> a <a data-l10n-name="passwordChangeLink">změńće swoje hesło</a>.
+automatedEmailRecoveryKey-change-pwd-only = Jeli njejsće to był wy, <a data-l10n-name="passwordChangeLink">změńće swoje hesło</a>.
+automatedEmailRecoveryKey-more-info = Za dalše informacije wopytajće <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Tute naprašowanje přińdźe wot:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Za dalše informacije wopytajće pomoc { -brand-mozilla }:
 automated-email-reset =
     To je awtomatizowana mejlka; jeli njejsće tutu akciju awtorizował, <a data-l10n-name="resetLink">stajće prošu swoje hesło wróćo.</a>.
     Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
@@ -299,9 +329,12 @@ passwordResetAccountRecovery-title-2 = Hesło je so wuspěšnje wróćo stajiło
 passwordResetAccountRecovery-description-2 = Sće swój kontowy wobnowjenski kluč wužił, zo byšće swoje hesło aktualizował wot:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Nowy kontowy wobnowjenski kluč wutworić
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Kontowy wobnowjenski kluč wutworić
 passwordResetAccountRecovery-regen-required-mjml-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił:
+postAddAccountRecovery-subject-3 = Nowy kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 postAddAccountRecovery-action = Konto rjadować
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwjazane konto
@@ -319,6 +352,9 @@ postAddTwoStepAuthentication-title-2 = Sće dwukročelowu awtentifikaciju zmóž
 postAddTwoStepAuthentication-from-device = Sće ju zmóžnił z:
 postAddTwoStepAuthentication-action = Konto rjadować
 postAddTwoStepAuthentication-code-required-2 = Wěstotne kody z wašeho nałoženja awtentizowanja su kóždy raz trěbne, hdyž so přizjewjeće.
+postChangeAccountRecovery-subject = Kontowy wobnowjenski kluč je so změnił
+postChangeAccountRecovery-title = Sće swój kontowy wobnowjenski kluč změnił
+postChangeAccountRecovery-action = Konto rjadować
 postChangePrimary-subject = Primarna e-mejlowa adresa je so zaktualizowała
 postChangePrimary-title = Nowa primarna e-mejlowa adresa
 # Variables:
@@ -345,6 +381,7 @@ postNewRecoveryCodes-title-2 = Sće nowy kod za zawěsćensku awtentifikaciju wu
 postNewRecoveryCodes-description-2 = Su so wutworili za:
 postNewRecoveryCodes-action = Konto rjadować
 postRemoveAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so zhašał
+postRemoveAccountRecovery-title-3 = Sće swój kontowy wobnowjenski kluč zhašał
 postRemoveAccountRecovery-action = Konto rjadować
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
