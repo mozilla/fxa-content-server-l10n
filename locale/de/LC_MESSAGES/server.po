@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-29 13:07+0000\n"
-"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2023-10-18 19:11+0000\n"
+"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla-Konten"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -94,6 +94,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Ihr Mozilla-Konto verwendet Funktionen, die\n"
+"                        wird in Ihrer Firefox-Version nicht unterstützt. Bitte\n"
+"                        Laden Sie die neueste Version von Firefox herunter und installieren Sie sie\n"
+"                        Weiter."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -106,3 +110,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Firefox-Konten verwenden Funktionen, die\n"
+"wird in Ihrer Firefox-Version nicht unterstützt. Bitte\n"
+"Laden Sie die neueste Version von Firefox herunter und installieren Sie sie\n"
+"Weiter."
