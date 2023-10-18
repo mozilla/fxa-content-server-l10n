@@ -96,6 +96,21 @@ automated-email-no-action = { automated-email-no-action-plaintext } Көбіре
 automated-email-no-action-plaintext = Бұл автоматтандырылған электрондық пошта. Егер сіз оны қателесіп алсаңыз, сізге ештеңе істеудің қажеті жоқ.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Бұл автоматтандырылған электрондық пошта; егер сіз бұл әрекетке рұқсат бермеген болсаңыз, пароліңізді өзгертіңіз:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Бұл сұраным { $uaOS }{ $uaOSVersion } жүйесіндегі { $uaBrowser } атынан келді.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Бұл сұраным { $uaOS } жүйесіндегі { $uaBrowser } атынан келді.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Бұл сұраным { $uaBrowser } атынан келді.
 automated-email-reset =
     Бұл автоматтандырылған электрондық пошта; егер сіз бұл әрекетке рұқсат бермеген болсаңыз, <a data-l10n-name="resetLink">пароліңізді қалпына келтіріңіз</a>.
     Көбірек білу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау</a> сайтын шолыңыз.
