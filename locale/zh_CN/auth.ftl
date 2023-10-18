@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步设备">
 body-devices-image = <img data-l10n-name="devices-image" alt="设备">
 fxa-privacy-url = { -brand-mozilla } 隐私政策
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") }隐私政策
 fxa-service-url = { -product-firefox-cloud } 服务条款
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }服务条款
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 徽标">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 徽标">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } 徽标">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 徽标">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } 徽标">
 subplat-automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
 subplat-privacy-notice = 隐私声明
 subplat-privacy-plaintext = 隐私声明：
@@ -60,6 +61,8 @@ subplat-privacy-policy = { -brand-mozilla } 隐私政策
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
 subplat-cloud-terms = { -product-firefox-cloud }服务条款
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } 服务条款
+subplat-moz-terms-plaintext = { subplat-moz-terms }
 subplat-legal = 法律
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隐私
@@ -329,6 +332,8 @@ passwordResetAccountRecovery-title-2 = 密码重置成功
 passwordResetAccountRecovery-description-2 = 您已从下列位置使用账户恢复密钥更改密码：
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 生成新的账户恢复密钥
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = 创建账户恢复密钥
 passwordResetAccountRecovery-regen-required-mjml-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥：
@@ -636,7 +641,7 @@ verificationReminderSecond-title-3 = 不要错过 { -brand-mozilla }！
 verificationReminderSecond-description-3 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 10 天内完成验证，否则该账户将被自动删除。
 verificationReminderSecond-description-4 = 您几天前创建的 { -product-mozilla-account }还未完成确认。请在 10 天内确认您的账户，否则将被自动删除。
 verificationReminderSecond-second-description = 您的 { -product-firefox-account } 可以让您在不同设备之间同步信息，并解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
-verificationReminderSecond-second-description-2 = 您可以通过 { -product-mozilla-account }来在不同设备间同步信息，并解锁 { -brand-mozilla } 提供的更多隐私保护产品。
+verificationReminderSecond-second-description-3 = 您的 { -product-mozilla-account } 可让您跨设备同步 { -brand-firefox } 体验并可解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
 verificationReminderSecond-sub-description-2 = 让互联网成为对所有人开放的地方，是我们使命的一部分。
 verificationReminderSecond-action-2 = 验证账户
 verify-title-2 = 使用 { -brand-firefox } 打开互联网
