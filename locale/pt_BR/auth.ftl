@@ -645,6 +645,7 @@ verificationReminderSecond-title-3 = Não perca nada da { -brand-mozilla }!
 verificationReminderSecond-description-3 = Há alguns dias você criou uma { -product-firefox-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
 verificationReminderSecond-description-4 = Há alguns dias você criou uma { -product-mozilla-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
 verificationReminderSecond-second-description = Sua { -product-firefox-account } permite sincronizar suas informações entre dispositivos e abre caminho a mais produtos de proteção de privacidade da { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Sua { -product-mozilla-account } permite sincronizar sua experiência de uso do { -brand-firefox } entre dispositivos e libera o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Faça parte da nossa missão de transformar a internet em um lugar aberto a todos.
 verificationReminderSecond-action-2 = Confirmar conta
 verify-title-2 = Abra a internet com o { -brand-firefox }
