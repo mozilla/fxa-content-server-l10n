@@ -111,12 +111,36 @@ automatedEmailRecoveryKey-origin-device-browser-os = Бұл сұраным { $ua
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 automatedEmailRecoveryKey-origin-device-browser-only = Бұл сұраным { $uaBrowser } атынан келді.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Бұл сұраным { $uaOS }{ $uaOSVersion } жүйесінен келді.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Бұл сұраным { $uaOS } жүйесінен келді.
+automatedEmailRecoveryKey-delete-key-change-pwd = Бұл сіз болмасаңыз, <a data-l10n-name="revokeAccountRecoveryLink">жана кілтті өшіріңіз</a> және <a data-l10n-name="passwordChangeLink">өз пароліңізді өзгертіңіз</a>.
+automatedEmailRecoveryKey-change-pwd-only = Бұл сіз болмасаңыз, <a data-l10n-name="passwordChangeLink">өз пароліңізді өзгертіңіз</a>.
+automatedEmailRecoveryKey-more-info = Көбірек ақпарат алу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау сайтын</a> шолыңыз.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Бұл сұраным келесіден келді:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Бұл сіз болмасаңыз, жаңа кілтті өшіріңіз:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Бұл сіз болмасаңыз, өз пароліңізді өзгертіңіз:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = және өз пароліңізді өзгертіңіз:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Көбірек ақпарат алу үшін, { -brand-mozilla } қолдау сайтын шолыңыз:
 automated-email-reset =
     Бұл автоматтандырылған электрондық пошта; егер сіз бұл әрекетке рұқсат бермеген болсаңыз, <a data-l10n-name="resetLink">пароліңізді қалпына келтіріңіз</a>.
     Көбірек білу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау</a> сайтын шолыңыз.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Егер сіз оны өзгертпесеңіз, { $resetLink } адресі бойынша пароліңізді қалпына келтіріңіз
+brand-banner-message = { -product-firefox-accounts } деген атымызды { -product-mozilla-accounts } етіп өзгерткенімізді білесіз бе? <a data-l10n-name="learnMore">Көбірек білу</a>
 cancellationSurvey = Осы <a data-l10n-name="cancellationSurveyUrl">қысқа сауалнамаға</a> қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Осы қысқа сауалнамаға қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз:
@@ -311,7 +335,12 @@ passwordResetAccountRecovery-action-2 = Тіркелгіні қалпына ке
 passwordResetAccountRecovery-regen-required-mjml-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз:
+postAddAccountRecovery-subject-3 = Тіркелгіні қалпына келтірудің жаңа кілті жасалды
 postAddAccountRecovery-title2 = Сіз тіркелгіні қалпына келтіру жаңа кілтін жасадыңыз
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Бұл кілтті қауіпсіз жерде сақтаңыз — парольді ұмытып қалсаңыз, ол шифрленген шолу деректерін қалпына келтіру үшін қажет болады.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Бұл кілтті тек бір рет пайдалануға болады. Сіз оны пайдаланғаннан кейін біз сізге автоматты түрде жаңасын жасаймыз. Немесе тіркелгі параметрлерінен кез келген уақытта жаңасын жасауға болады.
 postAddAccountRecovery-action = Тіркелгіні басқару
 postAddLinkedAccount-subject = { -brand-firefox } ішіне жаңа тіркелгі байланыстырылды
 postAddLinkedAccount-subject-2 = Сіздің { -product-mozilla-account } ішіне жаңа тіркелгі байланыстырылды
@@ -330,6 +359,8 @@ postAddTwoStepAuthentication-action = Тіркелгіні басқару
 postAddTwoStepAuthentication-code-required-2 = Аутентификация қолданбасының қауіпсіздік кодтары енді жүйеге әр рет кірген сайын керек болады.
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
 postChangeAccountRecovery-title = Сіз тіркелгіңізді қалпына келтіру кілтін өзгерттіңіз
+postChangeAccountRecovery-body-part1 = Енді сізде тіркелгіні қалпына келтірудің жаңа кілті бар. Сіздің алдыңғы кілтіңіз өшірілді.
+postChangeAccountRecovery-body-part2 = Бұл жаңа кілтті қауіпсіз жерде сақтаңыз — парольді ұмытып қалсаңыз, ол шифрленген шолу деректерін қалпына келтіру үшін қажет болады.
 postChangeAccountRecovery-action = Тіркелгіні басқару
 postChangePrimary-subject = Біріншілік эл. пошта адресі жаңартылды
 postChangePrimary-title = Жаңа біріншілік эл. поштасы
@@ -356,6 +387,7 @@ postNewRecoveryCodes-description-2 = Олар келесі жерде жасал
 postNewRecoveryCodes-action = Тіркелгіні басқару
 postRemoveAccountRecovery-subject-2 = Тіркелгіні қалпына келтіру коды өшірілді
 postRemoveAccountRecovery-title-3 = Сіз тіркелгіні қалпына келтіру кілтін өшірдіңіз
+postRemoveAccountRecovery-body-part1 = Парольді ұмытып қалсаңыз, шифрленген шолу деректерін қалпына келтіру үшін тіркелгіні қалпына келтіру кілті қажет.
 postRemoveAccountRecovery-action = Тіркелгіні басқару
 postRemoveSecondary-subject = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-title = Екіншілік эл. пошта адресі өшірілді
