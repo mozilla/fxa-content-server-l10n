@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-05-03 09:43+0000\n"
 "Last-Translator: Hanjin Lee <jinifor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,8 +70,8 @@ msgid "Complete set-up by entering the new password on your other Firefox device
 msgstr "다른 Firefox 기기에서 새 비밀번호를 입력해 설정을 완료하세요."
 
 #: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Firefox Account를 변경할 수 있는 준비가 다 되었습니다."
+msgid "You are now ready to make changes to your Mozilla account."
+msgstr ""
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -100,6 +100,10 @@ msgstr "계정 확인됨"
 #: .es5/views/ready.js:79
 msgid "Connected"
 msgstr "연결됨"
+
+#: .es5/views/ready.js:177
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Firefox Account를 변경할 수 있는 준비가 다 되었습니다."
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -612,8 +616,8 @@ msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "올바른 이메일 주소를 입력해 주세요. firefox.com은 이메일을 제공하지 않습니다."
 
 #: .es5/lib/auth-errors.js:404
-msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
+msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -710,6 +714,10 @@ msgstr "이메일을 잘못 입력하지는 않으셨나요? %(domain)s(은)는 
 #: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
 msgstr "이미지 파일 크기가 너무 커서 업로드 할 수 없습니다."
+
+#: .es5/lib/auth-errors.js:681
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
 #: .es5/lib/config-loader.js:101
 msgid "Missing configuration"
@@ -909,7 +917,7 @@ msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s(으)로 이동"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
@@ -931,7 +939,7 @@ msgid "Don't have an account recovery key?"
 msgstr "계정 복구 키가 없습니까?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
 msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
@@ -1044,40 +1052,40 @@ msgstr "이메일 전송 재설정"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "새로운 비밀번호를 생성을 위해 %(email)s 이메일로 보낸 링크를 한 시간 이내에 클릭하세요."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "인증 코드를 입력하세요"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
-msgid "for your Firefox account"
-msgstr "Firefox 계정에 필요합니다"
-
-#: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "5분 이내에 %(escapedEmail)s로 전송된 코드를 입력하세요."
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "6자리 숫자 코드 입력"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "확인"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr "코드가 만료되었나요?"
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr "이메일로 새 코드를 받으세요."
 
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "인증 코드를 입력하세요"
+
 #: .es5/templates/confirm_signup_code.mustache:8
-msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgid "for your Firefox account"
+msgstr "Firefox 계정에 필요합니다"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1128,14 +1136,8 @@ msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "iOS용 Firefox에 로그인하여 설정을 완료하기"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid ""
-"\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
-"        "
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
 msgstr ""
-"\n"
-"          <span class=\"card-subheader\" id=\"subheader\">Firefox 계정의 비밀번호를 입력하세요.</span>\n"
-"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1177,12 +1179,12 @@ msgid "Forgot password?"
 msgstr "비밀번호를 잊으셨습니까?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/index.mustache:1
-msgid "Continue to Firefox accounts"
-msgstr "Firefox 계정으로 계속"
+msgid "Continue to your Mozilla account"
+msgstr ""
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1201,8 +1203,8 @@ msgid "Sign up or sign in"
 msgstr "가입 또는 로그인"
 
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Firefox 계정은 또한 Mozilla의 더 많은 개인 정보 보호 제품에 대한 액세스를 잠금 해제합니다."
+msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1210,7 +1212,7 @@ msgid ""
 "          By proceeding, you agree to:<br />\n"
 "          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 
@@ -1219,17 +1221,17 @@ msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
 "            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
 #: .es5/templates/index.mustache:19
-msgid "Continue to your Mozilla account"
-msgstr ""
+msgid "Continue to Firefox accounts"
+msgstr "Firefox 계정으로 계속"
 
 #: .es5/templates/index.mustache:20
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "Firefox 계정은 또한 Mozilla의 더 많은 개인 정보 보호 제품에 대한 액세스를 잠금 해제합니다."
 
 #: .es5/templates/index.mustache:21
 msgid ""
@@ -1237,7 +1239,7 @@ msgid ""
 "  By proceeding, you agree to:<br />\n"
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
 #: .es5/templates/index.mustache:22
@@ -1494,16 +1496,16 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "우리 팀에 통보되었습니다. 이와 같은 보고서는 우리가 침입자를 방어하는데 도움이 됩니다."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "<span class=\"card-subheader\">Firefox 계정</span>의 인증 코드를 입력하세요."
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "5분 이내에 %(email)s 주소로 전송된 코드를 입력하세요."
 
 #: .es5/templates/sign_in_token_code.mustache:7
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr "<span class=\"card-subheader\">Firefox 계정</span>의 인증 코드를 입력하세요."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1558,8 +1560,8 @@ msgid "Create account"
 msgstr "계정 생성"
 
 #: .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox 계정"
+msgid "Mozilla account"
+msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
@@ -1626,8 +1628,8 @@ msgid "Terms of Service"
 msgstr "서비스 약관"
 
 #: .es5/templates/support.mustache:25
-msgid "Mozilla account"
-msgstr ""
+msgid "Firefox Accounts"
+msgstr "Firefox 계정"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1732,8 +1734,8 @@ msgstr "%(serviceName)s 이동"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Firefox 계정에서 의심스러운 행동이 감지되었습니다. 계정을 보호하려면 새 비밀번호를 만드십시오. 이 비밀번호를 사용하여 모든 Firefox 계정 서비스에 다시 로그인합니다."
+"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
+msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1753,8 +1755,8 @@ msgstr "비밀번호 변경"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr "Firefox 계정에서 의심스러운 행동이 감지되었습니다. 계정을 보호하려면 새 비밀번호를 만드십시오. 이 비밀번호를 사용하여 모든 Firefox 계정 서비스에 다시 로그인합니다."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1781,8 +1783,8 @@ msgid "The link you clicked was missing characters, and may have been broken by 
 msgstr "클릭한 링크에 문자가 누락되었으며, 이메일 클라이언트에 의해 손상되었을 수 있습니다."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Firefox Account"
-msgstr "Firefox 계정 생성"
+msgid "Create a Mozilla account"
+msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1798,8 +1800,8 @@ msgid "Confirm password"
 msgstr "비밀번호 확인"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
-msgid "Create a Mozilla account"
-msgstr ""
+msgid "Create a Firefox Account"
+msgstr "Firefox 계정 생성"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

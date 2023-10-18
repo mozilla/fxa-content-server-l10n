@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -74,7 +74,7 @@ msgid "Complete set-up by entering the new password on your other Firefox device
 msgstr ""
 
 #: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Firefox Account."
+msgid "You are now ready to make changes to your Mozilla account."
 msgstr ""
 
 #: .es5/views/ready.js:59
@@ -110,6 +110,10 @@ msgstr ""
 
 #: .es5/views/ready.js:79
 msgid "Connected"
+msgstr ""
+
+#: .es5/views/ready.js:177
+msgid "You are now ready to make changes to your Firefox Account."
 msgstr ""
 
 #: .es5/views/reset_password.js:92
@@ -671,7 +675,7 @@ msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 
 #: .es5/lib/auth-errors.js:404
-msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:423
@@ -772,6 +776,10 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:681
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
 #: .es5/lib/config-loader.js:101
@@ -1000,7 +1008,7 @@ msgstr ""
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid ""
 "Please enter the one time use account recovery key you stored in a safe "
-"place to regain access to your Firefox Account."
+"place to regain access to your Mozilla account."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
@@ -1028,7 +1036,7 @@ msgstr ""
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid ""
 "Please enter the one time use account recovery key you stored in a safe "
-"place to regain access to your Mozilla account."
+"place to regain access to your Firefox Account."
 msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
@@ -1164,27 +1172,23 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
+msgid ""
+"Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> "
+"for your Mozilla account</span>"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
-msgid "for your Firefox account"
-msgstr ""
-
-#: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:3
 #: .es5/templates/sign_in_token_code.mustache:3
 #: .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:4
 #: .es5/templates/inline_recovery_setup.mustache:16
 #: .es5/templates/sign_in_recovery_code.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:4
@@ -1194,20 +1198,24 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:6
 #: .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
+#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr ""
+
 #: .es5/templates/confirm_signup_code.mustache:8
-msgid ""
-"Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> "
-"for your Mozilla account</span>"
+msgid "for your Firefox account"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:1
@@ -1269,10 +1277,8 @@ msgstr ""
 #: .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1
 msgid ""
-"\n"
-"          Enter your password <span class=\"card-subheader\" "
-"id=\"subheader\">for your Firefox account</span>\n"
-"        "
+"Enter your password <span class=\"card-subheader\" id=\"subheader\">for "
+"your Mozilla account</span>"
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:6
@@ -1340,11 +1346,11 @@ msgstr ""
 #: .es5/templates/sign_in_password.mustache:20
 msgid ""
 "Enter your password <span class=\"card-subheader\" id=\"subheader\">for "
-"your Mozilla account</span>"
+"your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/index.mustache:1
-msgid "Continue to Firefox accounts"
+msgid "Continue to your Mozilla account"
 msgstr ""
 
 #: .es5/templates/index.mustache:2
@@ -1368,7 +1374,7 @@ msgstr ""
 #: .es5/templates/index.mustache:11
 #: .es5/templates/index.mustache:12
 msgid ""
-"A Firefox account also unlocks access to more privacy-protecting products "
+"A Mozilla account also unlocks access to more privacy-protecting products "
 "from Mozilla."
 msgstr ""
 
@@ -1380,7 +1386,7 @@ msgid ""
 "href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a "
 "id=\"pocket-pp\" class=\"link-grey\" "
 "href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" "
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" "
 "id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
@@ -1393,19 +1399,19 @@ msgid ""
 "            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" "
 "href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service "
 "and Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" "
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" "
 "id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
 #: .es5/templates/index.mustache:19
-msgid "Continue to your Mozilla account"
+msgid "Continue to Firefox accounts"
 msgstr ""
 
 #: .es5/templates/index.mustache:20
 msgid ""
-"A Mozilla account also unlocks access to more privacy-protecting products "
+"A Firefox account also unlocks access to more privacy-protecting products "
 "from Mozilla."
 msgstr ""
 
@@ -1417,7 +1423,7 @@ msgid ""
 "href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a "
 "id=\"pocket-pp\" class=\"link-grey\" "
 "href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" "
+"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" "
 "id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
@@ -1729,7 +1735,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid ""
-"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
+"Enter confirmation code <span class=\"card-subheader\">for your Mozilla "
 "account</span>"
 msgstr ""
 
@@ -1739,7 +1745,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid ""
-"Enter confirmation code <span class=\"card-subheader\">for your Mozilla "
+"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
 "account</span>"
 msgstr ""
 
@@ -1805,7 +1811,7 @@ msgid "Create account"
 msgstr ""
 
 #: .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
+msgid "Mozilla account"
 msgstr ""
 
 #: .es5/templates/support.mustache:2
@@ -1876,7 +1882,7 @@ msgid "Terms of Service"
 msgstr ""
 
 #: .es5/templates/support.mustache:25
-msgid "Mozilla account"
+msgid "Firefox Accounts"
 msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -2000,9 +2006,9 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your "
+"We detected suspicious behavior on your Mozilla account. To protect your "
 "account, please create a new password. You’ll use this password to sign "
-"back in to all of your Firefox account services."
+"back in to all of your Mozilla account services."
 msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
@@ -2023,9 +2029,9 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your "
+"We detected suspicious behavior on your Firefox account. To protect your "
 "account, please create a new password. You’ll use this password to sign "
-"back in to all of your Mozilla account services."
+"back in to all of your Firefox account services."
 msgstr ""
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
@@ -2056,7 +2062,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Firefox Account"
+msgid "Create a Mozilla account"
 msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
@@ -2074,7 +2080,7 @@ msgid "Confirm password"
 msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
-msgid "Create a Mozilla account"
+msgid "Create a Firefox Account"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1

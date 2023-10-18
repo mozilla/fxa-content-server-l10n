@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-12 20:10+0000\n"
+"POT-Creation-Date: 2023-10-18 18:57+0000\n"
 "PO-Revision-Date: 2023-08-06 00:48+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,8 +69,8 @@ msgid "Complete set-up by entering the new password on your other Firefox device
 msgstr "ตั้งค่าให้สมบูรณ์ โดยการป้อนรหัสผ่านใหม่บน Firefox ในอุปกรณ์อื่น ๆ"
 
 #: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "ตอนนี้คณพร้อมแล้วที่จะเปลี่ยนแปล Firefox Account ของคุณ"
+msgid "You are now ready to make changes to your Mozilla account."
+msgstr ""
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -99,6 +99,10 @@ msgstr "ยืนยันบัญชีแล้ว"
 #: .es5/views/ready.js:79
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
+
+#: .es5/views/ready.js:177
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "ตอนนี้คณพร้อมแล้วที่จะเปลี่ยนแปล Firefox Account ของคุณ"
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -611,8 +615,8 @@ msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "โปรแกรดป้อนที่อยู่อีเมลที่ถูกต้อง firefox.com ไม่มีบริการอีเมล"
 
 #: .es5/lib/auth-errors.js:404
-msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได้เฉพาะเว็บได้รับอนุญาตแล้ว"
+msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -709,6 +713,10 @@ msgstr "พิมพ์อีเมลผิด? %(domain)s ไม่มีบ�
 #: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
 msgstr "ไฟล์ภาพมีขนาดใหญ่เกินกว่าจะอัปโหลดได้"
+
+#: .es5/lib/auth-errors.js:681
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได้เฉพาะเว็บได้รับอนุญาตแล้ว"
 
 #: .es5/lib/config-loader.js:101
 msgid "Missing configuration"
@@ -907,7 +915,7 @@ msgid "Continue to %(serviceName)s"
 msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
@@ -929,7 +937,7 @@ msgid "Don't have an account recovery key?"
 msgstr "ไม่มีคีย์การกู้คืนบัญชี?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
 msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
@@ -1042,40 +1050,40 @@ msgstr "ส่งอีเมลสำหรับตั้งรหัสผ่
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "คลิกที่ลิงก์เพื่อส่งอีเมลไปยัง %(email)s ภายในชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่"
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "ใส่รหัสยืนยัน"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
-msgid "for your Firefox account"
-msgstr "สำหรับบัญชี Firefox ของคุณ"
-
-#: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "ใส่รหัสที่ส่งไปยัง %(escapedEmail)s ภายใน 5 นาที"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "ป้อนรหัส 6 หลัก"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "ยืนยัน"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr "รหัสหมดอายุ?"
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr "ส่งรหัสใหม่ทางอีเมล"
 
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "ใส่รหัสยืนยัน"
+
 #: .es5/templates/confirm_signup_code.mustache:8
-msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgid "for your Firefox account"
+msgstr "สำหรับบัญชี Firefox ของคุณ"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1126,14 +1134,8 @@ msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ iOS เพื่อการติดตั้งที่สมบูรณ์"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid ""
-"\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
-"        "
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
 msgstr ""
-"\n"
-"          ใส่รหัสผ่านของคุณ <span class=\"card-subheader\" id=\"subheader\">สำหรับบัญชี Firefox ของคุณ</span>\n"
-"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1173,12 +1175,12 @@ msgid "Forgot password?"
 msgstr "ลืมรหัสผ่าน?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/index.mustache:1
-msgid "Continue to Firefox accounts"
-msgstr "ไปยังบัญชี Firefox ต่อ"
+msgid "Continue to your Mozilla account"
+msgstr ""
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1197,8 +1199,8 @@ msgid "Sign up or sign in"
 msgstr "สมัครหรือลงชื่อเข้า"
 
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "บัญชี Firefox ยังปลดล็อกสิทธิ์เข้าถึงผลิตภัณฑ์ปกป้องความเป็นส่วนตัวเพิ่มเติมจาก Mozilla"
+msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1206,7 +1208,7 @@ msgid ""
 "          By proceeding, you agree to:<br />\n"
 "          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 
@@ -1215,17 +1217,17 @@ msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
 "            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
 #: .es5/templates/index.mustache:19
-msgid "Continue to your Mozilla account"
-msgstr ""
+msgid "Continue to Firefox accounts"
+msgstr "ไปยังบัญชี Firefox ต่อ"
 
 #: .es5/templates/index.mustache:20
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "บัญชี Firefox ยังปลดล็อกสิทธิ์เข้าถึงผลิตภัณฑ์ปกป้องความเป็นส่วนตัวเพิ่มเติมจาก Mozilla"
 
 #: .es5/templates/index.mustache:21
 msgid ""
@@ -1233,7 +1235,7 @@ msgid ""
 "  By proceeding, you agree to:<br />\n"
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
-"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
 #: .es5/templates/index.mustache:22
@@ -1490,7 +1492,7 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "คณะทำงานได้รับคำแจ้งแล้ว รายงานสิ่งที่คล้ายกันเพื่อช่วยเรากำจัดผู้บุกรุก"
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
@@ -1498,7 +1500,7 @@ msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "ใส่รหัสที่ส่งไปยัง %(email)s ภายใน 5 นาที"
 
 #: .es5/templates/sign_in_token_code.mustache:7
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1554,8 +1556,8 @@ msgid "Create account"
 msgstr "สร้างบัญชี"
 
 #: .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "บัญชี Firefox"
+msgid "Mozilla account"
+msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
@@ -1622,8 +1624,8 @@ msgid "Terms of Service"
 msgstr "เงื่อนไขการให้บริการ"
 
 #: .es5/templates/support.mustache:25
-msgid "Mozilla account"
-msgstr ""
+msgid "Firefox Accounts"
+msgstr "บัญชี Firefox"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1728,8 +1730,8 @@ msgstr "เพื่อดำเนินการต่อไปยัง %(ser
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "เราตรวจพบพฤติกรรมที่น่าสงสัยในบัญชี Firefox ของคุณ เพื่อปกป้องบัญชีของคุณโปรดสร้างรหัสผ่านใหม่ คุณจะใช้รหัสผ่านนี้เพื่อลงชื่อกลับเข้าใช้บริการบัญชี Firefox ทั้งหมดของคุณ"
+"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
+msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1749,8 +1751,8 @@ msgstr "เปลี่ยนรหัสผ่าน"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr "เราตรวจพบพฤติกรรมที่น่าสงสัยในบัญชี Firefox ของคุณ เพื่อปกป้องบัญชีของคุณโปรดสร้างรหัสผ่านใหม่ คุณจะใช้รหัสผ่านนี้เพื่อลงชื่อกลับเข้าใช้บริการบัญชี Firefox ทั้งหมดของคุณ"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1777,8 +1779,8 @@ msgid "The link you clicked was missing characters, and may have been broken by 
 msgstr "ลิงก์ที่คุณคลิกไม่มีอักขระ และไคลเอนต์เมลของคุณอาจทำให้ลิงก์นี้เสียหาย"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Firefox Account"
-msgstr "สร้างบัญชี Firefox"
+msgid "Create a Mozilla account"
+msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1794,8 +1796,8 @@ msgid "Confirm password"
 msgstr "ยืนยันรหัสผ่าน"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
-msgid "Create a Mozilla account"
-msgstr ""
+msgid "Create a Firefox Account"
+msgstr "สร้างบัญชี Firefox"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
