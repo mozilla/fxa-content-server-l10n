@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Něšto je so nimokuliło. Nowy kod nje
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Začinić
+brand-banner-dismiss-button-2 =
+    .aria-label = Chorhoj začinić
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } so 1. nowembra do { -product-mozilla-accounts } přemjenuje
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Klient njeje so namakał, zwisk njeda so dźělić
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wot { $service } wotzjewjeny
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Ze Sync dźělić
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -1060,7 +1060,7 @@ cookies-disabled-learn-more = Dalše informacije
 inline-recovery-setup-header-default = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Składujće awtentifikaciske kody za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
@@ -1080,7 +1080,7 @@ inline-recovery-confirmation-description = Zo byšće zaso přistup k swojemu ko
 inline-recovery-confirmation-header-default = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
 
 ## InlineTotpSetup page

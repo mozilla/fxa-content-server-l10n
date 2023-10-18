@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-29 09:28+0000\n"
+"PO-Revision-Date: 2023-10-18 20:00+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Konta Mozilla"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -94,6 +94,11 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Waše konto Mozilla funkcije wužiwa, kotrež\n"
+"             so we wašej wersiji Firefox njepodpěruje. Prošu\n"
+"             sćehńće a instalujće najnowšu wersiju Firefox,\n"
+"             zo byšće pokročował.\n"
+"                        "
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -106,3 +111,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Firefox Accounts funkcije wužiwa, kotrež\n"
+"waša wersija Firefox njepodpěruje. Prošu\n"
+"sćehńće a instalujće najnowšu wersiju Firefox,\n"
+"zo byšće pokročował."

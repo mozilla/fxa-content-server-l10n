@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizowane graty">
 body-devices-image = <img data-l10n-name="devices-image" alt="Graty">
 fxa-privacy-url = Prawidła priwatnosće { -brand-mozilla }
-moz-accounts-privacy-url = Prawidła priwatnosće { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 fxa-service-url = Wužiwanske wuměnjenja za { -product-firefox-cloud }
 moz-accounts-terms-url = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="logo { -brand-mozilla }">
 subplat-automated-email = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 subplat-privacy-notice = Zdźělenka priwatnosće
 subplat-privacy-plaintext = Zdźělenka priwatnosće:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Prawidła priwatnosće { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Wužiwanske wuměnjenja za { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Prawniske
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
@@ -96,6 +99,7 @@ automated-email-no-action = { automated-email-no-action-plaintext } Za dalše in
 automated-email-no-action-plaintext = To je awtomatizowana mejlka. Jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To je awtomatiska e-mejlka; jeli njejsće tutu akciju awtorizował, změńće prošu swoje hesło.
+automatedEmailRecoveryKey-delete-key-change-pwd = Jeli njejsće to był wy, <a data-l10n-name="revokeAccountRecoveryLink">zhašejće nowy kluč</a> a <a data-l10n-name="passwordChangeLink">změńće swoje hesło</a>.
 automated-email-reset =
     To je awtomatizowana mejlka; jeli njejsće tutu akciju awtorizował, <a data-l10n-name="resetLink">stajće prošu swoje hesło wróćo.</a>.
     Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
@@ -298,16 +302,8 @@ passwordResetAccountRecovery-action-2 = Nowy kontowy wobnowjenski kluč wutwori�
 passwordResetAccountRecovery-regen-required-mjml-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił:
-postAddAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Nowy kluč je so wutworił z:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Njejsće to wy?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Zhašejće nowy kluč</a> a <a data-l10n-name="passwordChangeLink">změńće swoje hesło</a>
 postAddAccountRecovery-action = Konto rjadować
-postAddAccountRecovery-delete-key = Zhašejće nowy kluč:
-postAddAccountRecovery-changd-password = Změńće swoje hesło:
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwjazane konto
 postAddLinkedAccount-subject-2 = Nowe konto je so z wašim { -product-mozilla-account(case: "instr", capitalization: "lower") } zwjazało
 #  Variables:
@@ -349,11 +345,7 @@ postNewRecoveryCodes-title-2 = Sće nowy kod za zawěsćensku awtentifikaciju wu
 postNewRecoveryCodes-description-2 = Su so wutworili za:
 postNewRecoveryCodes-action = Konto rjadować
 postRemoveAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so zhašał
-postRemoveAccountRecovery-title-2 = Sće swój kontowy wobnowjenski kluč zhašał
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Je so zhašał z:
 postRemoveAccountRecovery-action = Konto rjadować
-postRemoveAccountRecovery-invalid-2 = Trjebaće kontowy wobnowjenski kluč, zo byšće swoje daty { -brand-firefox } wobnowił, jeli sće swoje hesło zabył.
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
 # Variables:
@@ -604,7 +596,6 @@ verificationReminderSecond-title-3 = Popřejće sej { -brand-mozilla }!
 verificationReminderSecond-description-3 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
 verificationReminderSecond-description-4 = Před někotrymi dnjemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
 verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swoje informacije přez graty synchronizować a dowoluje přistup k wjace priwatnosć škitacym produktam wot { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Waš { -product-mozilla-account } wam zmóžnja, swoje informacije přez graty synchronizować a dowoluje přistup k wjace priwatnosć škitacym produktam wot { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Budźće dźěl našeje misije, internet do městna přetworić, kotryž je wotewrjeny za kóždeho.
 verificationReminderSecond-action-2 = Konto wobkrućić
 verify-title-2 = Wočińće internet z { -brand-firefox }
