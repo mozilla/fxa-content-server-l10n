@@ -27,7 +27,10 @@
     }
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox-fiókok
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -63,11 +66,13 @@ input-error-is-required = { $label } szükséges
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox } logó
 brand-name-mozilla-logo = { -brand-mozilla } logó
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
 new-user-sign-in-link-2 = Már van { -product-mozilla-account }ja? <a>Jelentkezzen be</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -416,6 +421,7 @@ coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan 
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Hozzon létre egy { -brand-name-firefox }-fiókot
 new-user-step-1-2 = 1. Hozzon létre egy { -product-mozilla-account }ot
 new-user-card-title = Adja meg a kártyaadatait

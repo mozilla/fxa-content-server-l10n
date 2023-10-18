@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Eszközök szinkronizálása">
 body-devices-image = <img data-l10n-name="devices-image" alt="Eszközök">
 fxa-privacy-url = { -brand-mozilla } adatvédelmi irányelvek
-moz-accounts-privacy-url = { -product-mozilla-accounts } adatvédelmi irányelvei
 fxa-service-url = { -product-firefox-cloud } Szolgáltatási feltételek
 moz-accounts-terms-url = { -product-mozilla-accounts } szolgáltatási feltételei
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logó">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logó">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logó">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logó">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logó">
 subplat-automated-email = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
 subplat-privacy-notice = Adatvédelmi nyilatkozat
 subplat-privacy-plaintext = Adatvédelmi nyilatkozat:
@@ -60,6 +61,8 @@ subplat-privacy-policy = A { -brand-mozilla } adatvédelmi irányelvei
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = A { -product-firefox-cloud } szolgáltatási feltételei
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts } szolgáltatási feltételei
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Jogi információk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Adatvédelem
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Jelszó sikeresen visszaállítva
 passwordResetAccountRecovery-description-2 = Fiók-helyreállítási kulcsával frissítette jelszavát a következőről:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Új fiók-helyreállítási kulcs létrehozása
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Fiók-helyreállítási kulcs létrehozása
 passwordResetAccountRecovery-regen-required-mjml-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Ne hagyja ki a { -brand-mozilla(ending: "ac
 verificationReminderSecond-description-3 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 10 napon belül nem igazolja vissza.
 verificationReminderSecond-description-4 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. A következő 10 napon belül erősítse meg fiókját, különben automatikusan törlésre kerül.
 verificationReminderSecond-second-description = A { -product-firefox-account }ja segítségével szinkronizálhatja adatait az eszközei között, és további { -brand-mozilla(ending: "accented", case: "lower") }s adatvédelmi eszközökhöz biztosít hozzáférést.
-verificationReminderSecond-second-description-2 = A { -product-mozilla-account }ja segítségével szinkronizálhatja adatait az eszközei között, és hozzáférést biztosít a { -brand-mozilla } további adatvédelmi termékeihez.
+verificationReminderSecond-second-description-3 = A { -product-mozilla-account }ja segítségével szinkronizálhatja a { -brand-firefox } élményét az eszközök között, és hozzáférést biztosít a { -brand-mozilla } további adatvédelmi termékeihez.
 verificationReminderSecond-sub-description-2 = Legyen része küldetésünknek, hogy az internetet mindenki számára nyitott hellyé alakítsuk.
 verificationReminderSecond-action-2 = Fiók megerősítése
 verify-title-2 = Tárja nyitva az internetet a { -brand-firefox(case: "instrumental") }
