@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipo da { 
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronizar dispositivos">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositivos">
 fxa-privacy-url = Política de privacidade da { -brand-mozilla }
-moz-accounts-privacy-url = Política de privacidade das { -product-mozilla-accounts(capitalization: "lowercase") }
 fxa-service-url = Termos do serviço do { -product-firefox-cloud }
 moz-accounts-terms-url = Termos do serviço das { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotipo do { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipo da { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipo da { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 subplat-privacy-notice = Aviso de privacidade
 subplat-privacy-plaintext = Aviso de privacidade:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Política de privacidade da { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Termos do serviço do { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Termos do serviço das { -product-mozilla-accounts(capitalization: "lowercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Jurídico
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidade
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Senha redefinida com sucesso
 passwordResetAccountRecovery-description-2 = Você usou sua chave de recuperação de conta para atualizar sua senha no:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Criar nova chave de recuperação de conta
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Criar chave de recuperação de conta
 passwordResetAccountRecovery-regen-required-mjml-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou:
@@ -640,7 +645,6 @@ verificationReminderSecond-title-3 = Não perca nada da { -brand-mozilla }!
 verificationReminderSecond-description-3 = Há alguns dias você criou uma { -product-firefox-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
 verificationReminderSecond-description-4 = Há alguns dias você criou uma { -product-mozilla-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
 verificationReminderSecond-second-description = Sua { -product-firefox-account } permite sincronizar suas informações entre dispositivos e abre caminho a mais produtos de proteção de privacidade da { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Sua { -product-mozilla-account } permite sincronizar suas informações entre dispositivos e abre caminho a mais produtos de proteção de privacidade da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Faça parte da nossa missão de transformar a internet em um lugar aberto a todos.
 verificationReminderSecond-action-2 = Confirmar conta
 verify-title-2 = Abra a internet com o { -brand-firefox }
