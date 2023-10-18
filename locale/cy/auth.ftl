@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cydweddu dyfeisiau">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dyfeisiau">
 fxa-privacy-url = Polisi Preifatrwydd { -brand-mozilla }
-moz-accounts-privacy-url = Polisi Preifatrwydd { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Amodau Gwasanaethau { -product-firefox-cloud }
 moz-accounts-terms-url = Amodau Gwasanaeth { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
 subplat-privacy-notice = Hysbysiad preifatrwydd
 subplat-privacy-plaintext = Hysbysiad preifatrwydd:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Polisi Preifatrwydd { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Amodau Gwasanaethau { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Amodau Gwasanaeth { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms } :
 subplat-legal = Cyfreithiol
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Preifatrwydd
@@ -336,6 +339,8 @@ passwordResetAccountRecovery-title-2 = Mae eich cyfrinair wedi'i ailosod yn llwy
 passwordResetAccountRecovery-description-2 = Rydych wedi defnyddio'ch allwedd adfer cyfrif i ddiweddaru'ch cyfrinair o:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Crëwch allwedd adfer cyfrif newydd
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Crëwch allwedd adfer cyfrif
 passwordResetAccountRecovery-regen-required-mjml-1 = Bydd angen i chi fewngofnodi eto ar bob un o'ch dyfeisiau wedi'u cydweddu. Cofiwch greu allwedd adfer cyfrif newydd yn lle'r un rydych wedi'i ddefnyddio.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Bydd angen i chi fewngofnodi eto ar bob un o'ch dyfeisiau wedi'u cydweddu. Cofiwch greu allwedd adfer cyfrif newydd yn lle'r un rydych wedi'i ddefnyddio.
@@ -648,7 +653,7 @@ verificationReminderSecond-title-3 = Peidiwch â cholli allan ar { -brand-mozill
 verificationReminderSecond-description-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
 verificationReminderSecond-description-4 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu cyfrif { -product-mozilla-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 10 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
 verificationReminderSecond-second-description = Mae eich cyfrif  { -product-firefox-account } yn gadael i chi gydweddu'ch manylion ar draws dyfeisiau ac yn datgloi mynediad i fwy o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Mae eich cyfrif { -product-mozilla-account } yn caniatáu i chi gydweddu eich manylion ar draws dyfeisiau ac yn datgloi mynediad i ragor o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Mae eich { -product-mozilla-account } yn gadael i chi gysoni eich profiad { -brand-firefox } ar draws dyfeisiau ac yn datgloi mynediad i fwy o gynhyrchion sy'n diogelu preifatrwydd o { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Byddwch yn rhan o’n cenhadaeth i drawsnewid y rhyngrwyd yn lle sy’n agored i bawb.
 verificationReminderSecond-action-2 = Cadarnhewch eich cyfrif
 verify-title-2 = Agorwch y rhyngrwyd gyda { -brand-firefox }

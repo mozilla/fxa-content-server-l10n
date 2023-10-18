@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Cyfrifon Firefox
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = Mae angen { $label }
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = Logo { -brand-name-firefox }
 brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnodi</a>
 new-user-sign-in-link-2 = Oes gennych chi gyfrif { -product-mozilla-account } yn barod? <a>Mewngofnodi</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -523,6 +528,7 @@ coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ôl { $
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = Creu cyfrif { -brand-name-firefox }
 new-user-step-1-2 = 1. Creu cyfrif { -product-mozilla-account }
 new-user-card-title = Rhowch fanylion eich cerdyn
