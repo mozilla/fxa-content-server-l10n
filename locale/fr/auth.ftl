@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchroniser les appareils">
 body-devices-image = <img data-l10n-name="devices-image" alt="Appareils">
 fxa-privacy-url = Politique de confidentialité de { -brand-mozilla }
-moz-accounts-privacy-url = Politique de confidentialité des { -product-mozilla-accounts }
 fxa-service-url = Conditions d’utilisation de { -product-firefox-cloud }
 moz-accounts-terms-url = Conditions d’utilisation des { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
 subplat-privacy-notice = Politique de confidentialité
 subplat-privacy-plaintext = Politique de confidentialité :
@@ -60,6 +61,8 @@ subplat-privacy-policy = Politique de confidentialité de { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy } :
 subplat-cloud-terms = Conditions d’utilisation de { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms } :
+subplat-moz-terms = Conditions d’utilisation des { -product-mozilla-accounts }
+subplat-moz-terms-plaintext = { subplat-moz-terms } :
 subplat-legal = Mentions légales
 subplat-legal-plaintext = { subplat-legal } :
 subplat-privacy = Vie privée
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Mot de passe réinitialisé
 passwordResetAccountRecovery-description-2 = Vous avez utilisé votre clé de récupération de compte pour mettre à jour votre mot de passe depuis :
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Créer une nouvelle clé de récupération de compte
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Créer une clé de récupération de compte
 passwordResetAccountRecovery-regen-required-mjml-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée :
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Ne manquez rien de { -brand-mozilla } !
 verificationReminderSecond-description-3 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 10 prochains jours ou il sera automatiquement supprimé.
 verificationReminderSecond-description-4 = Il y a quelques jours, vous avez créé un { -product-mozilla-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 10 prochains jours ou il sera automatiquement supprimé.
 verificationReminderSecond-second-description = Votre { -product-firefox-account } vous permet de synchroniser vos informations sur tous vos appareils et donne accès à davantage de produits de { -brand-mozilla } pour protéger votre vie privée.
-verificationReminderSecond-second-description-2 = Votre { -product-mozilla-account } vous permet de synchroniser vos informations sur tous vos appareils et donne accès à davantage de produits de { -brand-mozilla } pour protéger votre vie privée.
+verificationReminderSecond-second-description-3 = Votre { -product-mozilla-account } vous permet de synchroniser votre expérience de { -brand-firefox } sur tous vos appareils et donne accès à davantage de produits de { -brand-mozilla } pour protéger votre vie privée.
 verificationReminderSecond-sub-description-2 = Rejoignez notre mission pour transformer Internet en un lieu ouvert à tout le monde.
 verificationReminderSecond-action-2 = Confirmer le compte
 verify-title-2 = Accédez à Internet avec { -brand-firefox }
