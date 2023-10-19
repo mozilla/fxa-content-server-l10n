@@ -397,6 +397,7 @@ postNewRecoveryCodes-action = Konto rjadować
 postRemoveAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so zhašał
 postRemoveAccountRecovery-title-3 = Sće swój kontowy wobnowjenski kluč zhašał
 postRemoveAccountRecovery-body-part1 = Waš kontowy wobnowjenski kluč je trěbny, zo bychu so waše zaklučowane přehladowanske daty wobnowili, jeli waše hesło zabudźeće.
+postRemoveAccountRecovery-body-part2 = Jeli hišće kluč nimaće, wutworće nowy kontowy wobnowjenski kluč w swojich kontowych nastajenjach, zo byšće tomu zadźěwał, zo so waše składowane hesła, zapołožki, přehladowanska historija a wjace zhubja.
 postRemoveAccountRecovery-action = Konto rjadować
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
