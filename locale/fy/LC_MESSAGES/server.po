@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-29 08:37+0000\n"
+"PO-Revision-Date: 2023-10-19 15:31+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla-accounts"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -88,6 +88,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Jo Mozilla-account makket gebrûk fan funksjes dy’t\n"
+"                        net stipe wurde yn jo ferzje fan Firefox.\n"
+"                        Download en ynstallearje de lêste ferzje fan Firefox om\n"
+"                        troch te gean."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
