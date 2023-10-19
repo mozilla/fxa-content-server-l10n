@@ -13,7 +13,6 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Ñemigua Porureko
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Porureko Ñemigua
 fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’eporu reko
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
@@ -60,6 +59,8 @@ subplat-privacy-policy = { -brand-mozilla } Ñemigua Porureko
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = { -product-firefox-cloud } Mba’eporurã rehegua
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’eporu reko
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Añete
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ñemigua
@@ -631,7 +632,6 @@ verificationReminderSecond-title-3 = ¡Aníke ejavy { -brand-mozilla }!
 verificationReminderSecond-description-3 = Emoheñoiramoite { -product-firefox-account }, hákatu neremoneĩri gueteri. Emoneĩ ne mba’ete 10 ára oútabape térã oñemboguéta ijeheguiete.
 verificationReminderSecond-description-4 = Emoheñoiramoite { -product-mozilla-account }, hákatu neremoneĩri gueteri. Emoneĩ ne mba’ete 15 ára oútabape térã oñemboguéta ijeheguiete.
 verificationReminderSecond-second-description = Nde { -product-firefox-account } ombojuehekuaa ne marandu mba’e’oka pa’ũme ha oipe’a okẽ heta { -brand-mozilla } apopyrépe omo’ãkuaa hag̃ua tekoñemíme.
-verificationReminderSecond-second-description-2 = Nde { -product-mozilla-account } ombojuehekuaa ne marandu mba’e’oka pa’ũme ha oipe’a okẽ heta { -brand-mozilla } apopyrépe omo’ãkuaa hag̃ua tekoñemíme.
 verificationReminderSecond-sub-description-2 = Eike ore rembipotápe emoambuekuaa hag̃ua ñanduti peteĩ tenda ijurujáva opavavépe g̃uarã.
 verificationReminderSecond-action-2 = Emoneĩjey mba’ete
 verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
