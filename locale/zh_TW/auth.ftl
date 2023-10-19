@@ -641,6 +641,7 @@ verificationReminderSecond-title-3 = 別錯過 { -brand-mozilla } 的獨家功�
 verificationReminderSecond-description-3 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 10 天內完成確認，否則帳號將被自動刪除。
 verificationReminderSecond-description-4 = 幾天前您註冊了 { -product-mozilla-account }，但並未確認過帳號身分。請在 10 天內完成確認，否則帳號將被自動刪除。
 verificationReminderSecond-second-description = { -product-firefox-account } 可讓您在不同裝置間同步您的資訊，並且解鎖 { -brand-mozilla } 提供的更多隱私保護產品。
+verificationReminderSecond-second-description-3 = { -product-mozilla-account }可讓您在不同裝置間同步 { -brand-firefox } 的使用體驗，並且解鎖 { -brand-mozilla } 提供的更多隱私保護產品。
 verificationReminderSecond-sub-description-2 = 加入我們的使命，讓網路環境轉變為對每個人都開放的地方。
 verificationReminderSecond-action-2 = 確認帳號
 verify-title-2 = 使用 { -brand-firefox } 打開網路環境
