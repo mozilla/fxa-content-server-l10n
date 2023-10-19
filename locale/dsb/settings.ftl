@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Něco njejo se raźiło. Nowy code njed
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Zacyniś
+brand-banner-dismiss-button-2 =
+    .aria-label = Chórgoj zacyniś
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } se 1. nowembra do { -product-mozilla-accounts } pśemjenijo
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Klient njejo sr namakał, zwisk njedajo se źěliś
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wót { $service } wótzjawjony
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Ze Sync źěliś
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -958,6 +958,10 @@ terms-privacy-agreement-intro-2 = Gaž pókšacujośo, zwólijośo do:
 terms-privacy-agreement-pocket = <pocketTos>Wužywańske wuměnjenja</pocketTos> a <pocketPrivacy>powěźeńka priwatnosći</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Wužywańske wuměnjenja</pocketTos> a <pocketPrivacy>powěźeńka priwatnosći</pocketPrivacy> { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Wužywańske wuměnjenja a powěźeńka priwatnosći</monitorTos> { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Wužywańske wuměnjenja a powěźeńka priwatnosći</monitorTos> { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Wužywańske wuměnjenja</firefoxTos> a <firefoxPrivacy>powěźeńka priwatnosći</firefoxPrivacy> { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1058,7 +1062,7 @@ cookies-disabled-learn-more = Dalšne informacije
 inline-recovery-setup-header-default = Wobkšuśćo awtentifikaciski kod za zawěsćenje, <span>aby z kontowymi nastajenjami pókšacował</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Składujśo awtentifikaciske kody za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Składujśo toś te kody za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
@@ -1078,7 +1082,7 @@ inline-recovery-confirmation-description = Aby zasej pśistup k swójomu kontoju
 inline-recovery-confirmation-header-default = Wobkšuśćo awtentifikaciski kod za zawěsćenje, <span>aby z kontowymi nastajenjami pókšacował</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Wobkšuśćo awtentifikaciske kody za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
 
 ## InlineTotpSetup page
