@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-18 19:12+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-10-19 05:20+0000\n"
+"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -1187,7 +1187,7 @@ msgstr "¿Te olvidaste la contraseña?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr "Ingresa la contraseña <span class = \"card-subheader\" id = \"subheader\"> para tu cuenta de Firefox </span>"
+msgstr "Ingresá la contraseña <span class=\"card-subheader\" id=\"subheader\">para tu cuenta de Firefox</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"

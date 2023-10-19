@@ -17,9 +17,9 @@ fxa-service-url = Términos del servicio de { -product-firefox-cloud }
 moz-accounts-terms-url = Términos de servicio de la { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo de { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo de { -brand-mozilla }">
-subplat-header-mozilla-logo-2 = <img data-l10n-name = "subplat-mozilla-logo" alt = "{ -brand-mozilla } logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo de { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo de { -brand-mozilla }">
-subplat-footer-mozilla-logo-2 = <img data-l10n-name = "mozilla-logo-footer" alt = "{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo de { -brand-mozilla }">
 subplat-automated-email = Este es un correo electrónico automático; si lo recibiste por error, no debes hacer nada.
 subplat-privacy-notice = Nota de privacidad
 subplat-privacy-plaintext = Aviso de privacidad:
