@@ -53,6 +53,7 @@ subplat-privacy-policy = Палітыка прыватнасці { -brand-mozill
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Умовы выкарыстання { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Прававыя звесткі
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Прыватнасць
@@ -89,6 +90,10 @@ automated-email-no-action = { automated-email-no-action-plaintext } Для ат�
 automated-email-no-action-plaintext = Гэта аўтаматычна створанае паведамленне. Калі вы атрымалі яго памылкова, вам не трэба нічога рабіць.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Гэта аўтаматычна створаны ліст; калі вы не здзяйснялі гэтага дзеяння, калі ласка, змяніце свой пароль:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Гэты запыт прыйшоў ад { $uaOS }.
 automatedEmailRecoveryKey-more-info = Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">падтрымку { -brand-mozilla }</a>.
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Калі гэта былі не вы, змяніце пароль:
@@ -587,7 +592,6 @@ verificationReminderSecond-title-3 = Не прапусціце { -brand-mozilla 
 verificationReminderSecond-description-3 = Некалькі дзён таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго. Калі ласка, пацвердзіце свой уліковы запіс на працягу наступных 10 дзён, інакш ён будзе аўтаматычна выдалены.
 verificationReminderSecond-description-4 = Некалькі дзён таму вы стварылі { -product-mozilla-account }, але так і не пацвердзілі яго. Калі ласка, пацвердзіце свой уліковы запіс на працягу наступных 10 дзён, інакш ён будзе аўтаматычна выдалены.
 verificationReminderSecond-second-description = Ваш { -product-firefox-account } дазваляе сінхранізаваць вашу інфармацыю паміж прыладамі і адкрывае доступ да большай колькасці прадуктаў для абароны прыватнасці ад { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Ваш { -product-mozilla-account } дазваляе сінхранізаваць вашу інфармацыю паміж прыладамі і адкрывае доступ да большай колькасці прадуктаў для абароны прыватнасці ад { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Станьце часткай нашай місіі па пераўтварэнні Інтэрнэту ў месца, адкрытае для ўсіх.
 verificationReminderSecond-action-2 = Пацвердзіць уліковы запіс
 verify-title-2 = Адкрыйце Інтэрнэт з дапамогай { -brand-firefox }
