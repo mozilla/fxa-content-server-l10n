@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Apparaten synchroniseren">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparaten">
 fxa-privacy-url = { -brand-mozilla }-privacybeleid
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Privacybeleid
 fxa-service-url = Servicevoorwaarden voor { -product-firefox-cloud }
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Servicevoorwaarden
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Dit is een geautomatiseerd e-mailbericht; als u het per abuis hebt ontvangen, hoeft u niets te doen.
 subplat-privacy-notice = Privacyverklaring
 subplat-privacy-plaintext = Privacyverklaring:
@@ -60,6 +61,8 @@ subplat-privacy-policy = { -brand-mozilla }-privacybeleid
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Servicevoorwaarden voor { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") }-Servicevoorwaarden
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisch
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Wachtwoord met succes opnieuw ingesteld
 passwordResetAccountRecovery-description-2 = U hebt uw accountherstelsleutel gebruikt om uw wachtwoord bij te werken vanaf:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Een nieuwe accountherstelsleutel aanmaken
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Accountherstelsleutel aanmaken
 passwordResetAccountRecovery-regen-required-mjml-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Mis niets van { -brand-mozilla }!
 verificationReminderSecond-description-3 = U hebt een paar dagen geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account in de komende 10 dagen, anders wordt deze automatisch verwijderd.
 verificationReminderSecond-description-4 = U hebt een paar dagen geleden een { -product-mozilla-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account binnen de komende 10 dagen, anders wordt deze automatisch verwijderd.
 verificationReminderSecond-second-description = Met uw { -product-firefox-account } kunt u uw gegevens tussen apparaten synchroniseren en krijgt u toegang tot meer privacybeschermende producten van { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Met uw { -product-mozilla-account } kunt u uw gegevens tussen apparaten synchroniseren en krijgt u toegang tot meer privacybeschermende producten van { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Met uw { -product-mozilla-account } kunt u uw { -brand-firefox }-ervaring tussen apparaten synchroniseren en krijgt u toegang tot meer privacybeschermende producten van { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Maak deel uit van onze missie om het internet om te vormen tot een plek die openstaat voor iedereen.
 verificationReminderSecond-action-2 = Account bevestigen
 verify-title-2 = Open het internet met { -brand-firefox }
