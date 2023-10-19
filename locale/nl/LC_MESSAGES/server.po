@@ -88,6 +88,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Uw Mozilla-account maakt gebruik van functies die\n"
+"                        niet ondersteund worden in uw versie van Firefox.\n"
+"                        Download en installeer de laatste versie van Firefox om\n"
+"                        door te gaan."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
