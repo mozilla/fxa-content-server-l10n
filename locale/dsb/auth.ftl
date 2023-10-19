@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizěrowane rědy">
 body-devices-image = <img data-l10n-name="devices-image" alt="Rědy">
 fxa-privacy-url = Pšawidła priwatnosći { -brand-mozilla }
-moz-accounts-privacy-url = Pšawidła priwatnosći { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 fxa-service-url = Wužywańske wuměnjenja za { -product-firefox-cloud }
 moz-accounts-terms-url = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="logo { -brand-mozilla }">
 subplat-automated-email = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
 subplat-privacy-notice = Powěźeńka priwatnosći
 subplat-privacy-plaintext = Powěźeńka priwatnosći:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Pšawidła priwatnosći { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Wužywańske wuměnjenja za { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Pšawniske
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
@@ -96,6 +99,30 @@ automated-email-no-action = { automated-email-no-action-plaintext } Za dalšne i
 automated-email-no-action-plaintext = To jo awtomatizěrowana mejlka. Jolic sćo dostał ju womylnje, njetrjebaśo nic cyniś.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To jo awtomatizěrowana mejlka; jolic njejsćo toś tu akciju awtorizěrował, změńśo pšosym swójo gronidło.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Toś to napšašowanje wót { $uaBrowser } na { $uaOS } { $uaOSVersion } pśiźo.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Toś to napšašowanje wót { $uaBrowser } na { $uaOS } pśiźo.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Toś to napšašowanje wót { $uaBrowser } pśiźo.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Toś to napšašowanje wót { $uaOS } { $uaOSVersion } pśiźo.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Toś to napšašowanje wót { $uaOS } pśiźo.
 automated-email-reset =
     To jo awtomatizěrowana mejlka; jolic njejsćo awtorizěrował toś tu akciju, <a data-l10n-name="resetLink">stajśo pšosym swójo gronidło slědk.</a>.
     Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
@@ -298,16 +325,8 @@ passwordResetAccountRecovery-action-2 = Nowy kontowy wótnowjeński kluc napóra
 passwordResetAccountRecovery-regen-required-mjml-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył:
-postAddAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Nowy kluc jo se napórał z:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Njejsćo to wy?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Wulašujśo nowy kluc</a> a <a data-l10n-name="passwordChangeLink">změńśo swójo gronidło</a>
 postAddAccountRecovery-action = Konto zastojaś
-postAddAccountRecovery-delete-key = Wulašujśo nowy kluc:
-postAddAccountRecovery-changd-password = Změńśo swójo gronidło:
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
 postAddLinkedAccount-subject-2 = Nowe konto jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
 #  Variables:
@@ -349,11 +368,7 @@ postNewRecoveryCodes-title-2 = Sćo napórał kod za zawěsćeńsku awtentifikac
 postNewRecoveryCodes-description-2 = Su se napórali za:
 postNewRecoveryCodes-action = Konto zastojaś
 postRemoveAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se wulašował
-postRemoveAccountRecovery-title-2 = Sćo wulašował kontowy wótnowjeński kluc.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Jo se wulašował z:
 postRemoveAccountRecovery-action = Konto zastojaś
-postRemoveAccountRecovery-invalid-2 = Trjebaśo kontowy wótnowjeński kluc, aby swóje daty { -brand-firefox } wótnowił, jolic sćo zabył swójo gronidło.
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:
@@ -604,7 +619,6 @@ verificationReminderSecond-title-3 = Njeskomuźćo { -brand-mozilla }!
 verificationReminderSecond-description-3 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderSecond-description-4 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swóje informacije pśez rědy synchronizěrowaś a dowólujo pśistup k wěcej priwatnosć šćitajucym produktam wót { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Waš { -product-mozilla-account } wam zmóžnja, swóje informacije pśez rědy synchronizěrowaś a dowólujo pśistup k wěcej priwatnosć šćitajucym produktam wót { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Buźćo źěl našeje misije, internet do městna pśetworiś, kótaryž jo wótwórjony za kuždego.
 verificationReminderSecond-action-2 = Konto wobkšuśiś
 verify-title-2 = Wócyńśo internet z { -brand-firefox }
