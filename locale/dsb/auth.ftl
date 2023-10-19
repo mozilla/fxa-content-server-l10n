@@ -123,12 +123,27 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Toś to napšašowanje
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Toś to napšašowanje wót { $uaOS } pśiźo.
+automatedEmailRecoveryKey-delete-key-change-pwd = Jolic njejsćo to był wy, <a data-l10n-name="revokeAccountRecoveryLink">wulašujśo nowy kluc</a> a <a data-l10n-name="passwordChangeLink">změńśo swójo gronidło</a>.
+automatedEmailRecoveryKey-change-pwd-only = Jolic njejsćo to był wy, <a data-l10n-name="passwordChangeLink">změńśo swójo gronidło</a>.
+automatedEmailRecoveryKey-more-info = Za dalšne informacije woglědajśo s k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Toś to napšašowanje pśiźo wót:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Jolic njejsćo to był wy, lašujśo nowy kluc:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Jolic njejsćo to był wy, změńśo swójo gronidło:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = a změńśo swójo gronidło:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Za dalšne informacije woglědajśo k pomocy { -brand-mozilla }:
 automated-email-reset =
     To jo awtomatizěrowana mejlka; jolic njejsćo awtorizěrował toś tu akciju, <a data-l10n-name="resetLink">stajśo pšosym swójo gronidło slědk.</a>.
     Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jolic njejsćo jo změnił, stajśo pšosym něnto swójo gronidło na { $resetLink } slědk
+brand-banner-message = Sćo wěźeł, až smy  změnili našo mě wót { -product-firefox-accounts } do { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Dalšne informacije</a>
 cancellationSurvey = Pšosym wobźělśo se na toś tom <a data-l10n-name="cancellationSurveyUrl">krotkem napšašowanju</a>, aby nam pomagał, naše słužby pólěpšyś.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pšosym wobźělśo se na toś tom krotkem napšašowanju, aby nam pomagał, naše słužby pólěpšyś:
@@ -322,9 +337,12 @@ passwordResetAccountRecovery-title-2 = Gronidło jo se wuspěšnje slědk staji�
 passwordResetAccountRecovery-description-2 = Sćo wužył swój kontowy wótnowjeński kluc, aby swójo gronidło aktualizěrował wót:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Nowy kontowy wótnowjeński kluc napóraś
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Kontowy wótnowjeński kluc napóraś
 passwordResetAccountRecovery-regen-required-mjml-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył:
+postAddAccountRecovery-subject-3 = Nowy kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 postAddAccountRecovery-action = Konto zastojaś
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
@@ -342,6 +360,10 @@ postAddTwoStepAuthentication-title-2 = Sćo zmóžnił dwójokšacowu awtentifik
 postAddTwoStepAuthentication-from-device = Sćo ju zmóžnił z:
 postAddTwoStepAuthentication-action = Konto zastojaś
 postAddTwoStepAuthentication-code-required-2 = Wěstotne kody z wašogo awtentificěrowańskego nałoženja su kuždy raz trjebne, gaž se pśizjawjaśo.
+postChangeAccountRecovery-subject = Kontowy wótnowjeński kluc jo se změnił
+postChangeAccountRecovery-title = Sćo změnił swój kontowy wótnowjeński kluc
+postChangeAccountRecovery-body-part1 = Maśo něnto nowy kontowy wótnowjeński kluc. Waš pjerwjejšny kluc jo se wulašował.
+postChangeAccountRecovery-action = Konto zastojaś
 postChangePrimary-subject = Primarna e-mailowa adresa jo se zaktualizěrowała
 postChangePrimary-title = Nowa primarna e-mailowa adresa
 # Variables:
@@ -368,6 +390,7 @@ postNewRecoveryCodes-title-2 = Sćo napórał kod za zawěsćeńsku awtentifikac
 postNewRecoveryCodes-description-2 = Su se napórali za:
 postNewRecoveryCodes-action = Konto zastojaś
 postRemoveAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se wulašował
+postRemoveAccountRecovery-title-3 = Sćo wulašował swój kontowy wótnowjeński kluc
 postRemoveAccountRecovery-action = Konto zastojaś
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
