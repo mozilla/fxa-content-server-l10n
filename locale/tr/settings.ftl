@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilem
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Kapat
+brand-banner-dismiss-button-2 =
+    .aria-label = Duyuruyu kapat
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts }nın adı 1 Kasım’da { -product-mozilla-accounts } olarak değiştirilecek
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } oturumu kapatıldı
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Sync bağlantısını kes
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -937,6 +937,10 @@ terms-privacy-agreement-intro-2 = Devam ettiğinizde şunları kabul etmiş olur
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor }’ün <monitorTos>Hizmet Koşulları ve Gizlilik Bildirimi</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Hizmet Koşulları ve Gizlilik Bildirimi</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Kullanım Koşulları</firefoxTos> ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1037,7 +1041,7 @@ cookies-disabled-learn-more = Daha fazla bilgi al
 inline-recovery-setup-header-default = <span>Hesap ayarlarına devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodlarını kaydedin
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık kodları güvenli bir yerde saklayın.
@@ -1057,7 +1061,7 @@ inline-recovery-confirmation-description = Cihazınız kaybolursa hesabınıza t
 inline-recovery-confirmation-header-default = <span>Hesap ayarlarına devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
 
 ## InlineTotpSetup page

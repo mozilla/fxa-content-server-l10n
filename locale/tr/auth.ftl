@@ -13,7 +13,6 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cihazları eşitle">
 body-devices-image = <img data-l10n-name="devices-image" alt="Cihazlar">
 fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Gizlilik Politikası
 fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Hizmet Koşulları
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logosu">
@@ -295,16 +294,9 @@ passwordResetAccountRecovery-action-2 = Yeni hesap kurtarma anahtarı oluştur
 passwordResetAccountRecovery-regen-required-mjml-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın:
-postAddAccountRecovery-subject-2 = Hesap kurtarma anahtarı oluşturuldu
+postAddAccountRecovery-subject-3 = Yeni hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Yeni bir anahtar oluşturuldu:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Siz değil miydiniz?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Yeni anahtarı silin</a> ve <a data-l10n-name="passwordChangeLink">parolanızı değiştirin</a>
 postAddAccountRecovery-action = Hesabı yönet
-postAddAccountRecovery-delete-key = Yeni anahtarı silin:
-postAddAccountRecovery-changd-password = Parolanızı değiştirin:
 postAddLinkedAccount-subject = { -brand-firefox }’a yeni hesap bağlandı
 postAddLinkedAccount-subject-2 = { -product-mozilla-account }nıza yeni bir hesap bağlandı
 #  Variables:
@@ -320,6 +312,10 @@ postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
 postAddTwoStepAuthentication-from-device = Bu cihazdan etkinleştirdiniz:
 postAddTwoStepAuthentication-action = Hesabı yönet
 postAddTwoStepAuthentication-code-required-2 = Artık her girişinizde kimlik doğrulama uygulamanızdaki güvenlik kodları gerekecektir.
+postChangeAccountRecovery-subject = Hesap kurtarma anahtarı değiştirildi
+postChangeAccountRecovery-title = Hesap kurtarma anahtarınızı değiştirdiniz
+postChangeAccountRecovery-body-part1 = Artık yeni bir hesap kurtarma anahtarınız var. Önceki anahtarınız silindi.
+postChangeAccountRecovery-action = Hesabınızı yönetin
 postChangePrimary-subject = Ana e-posta güncellendi
 postChangePrimary-title = Yeni ana e-posta
 # Variables:
@@ -344,11 +340,8 @@ postNewRecoveryCodes-title-2 = Yeni yedek kimlik doğrulama kodları oluşturdun
 postNewRecoveryCodes-description-2 = Oluşturan cihaz:
 postNewRecoveryCodes-action = Hesabı yönet
 postRemoveAccountRecovery-subject-2 = Hesap kurtarma anahtarı silindi
-postRemoveAccountRecovery-title-2 = Hesap kurtarma anahtarınızı sildiniz.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Silme işleminin yapıldığı cihaz:
+postRemoveAccountRecovery-title-3 = Hesap kurtarma anahtarınızı sildiniz
 postRemoveAccountRecovery-action = Hesabı yönet
-postRemoveAccountRecovery-invalid-2 = Parolanızı unutursanız { -brand-firefox } verilerinizi kurtarmak için bir hesap kurtarma anahtarına ihtiyacınız olur.
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
 # Variables:
@@ -575,7 +568,6 @@ verificationReminderSecond-title-3 = { -brand-mozilla } sizi bekliyor!
 verificationReminderSecond-description-3 = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 10 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderSecond-description-4 = Birkaç gün önce bir { -product-mozilla-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 10 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderSecond-second-description = { -product-firefox-account } sayesinde bilgilerinizi cihazlarınız arasında senkronize edebilir ve gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerini kullanabilirsiniz.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account } sayesinde bilgilerinizi cihazlarınız arasında eşitleyebilir ve gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerini kullanabilirsiniz.
 verificationReminderSecond-sub-description-2 = İnterneti herkese açık bir yere dönüştürme misyonumuzun bir parçası olun.
 verificationReminderSecond-action-2 = Hesabı onaylayın
 verify-title-2 = İnternete { -brand-firefox } ile açılın
