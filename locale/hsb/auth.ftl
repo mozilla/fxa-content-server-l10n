@@ -346,6 +346,8 @@ postAddAccountRecovery-subject-3 = Nowy kontowy wobnowjenski kluč je so wutwori
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Składujće tutón kluč na wěstym městnje – trjebaće jón, zo byšće swoje zaklučowane přehladowanske daty wobnowił, jeli swoje hesło zabudźeće.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Tutón kluč da so jenož jedyn raz wužiwać. Po tym zo sće jón wužił, wutworimy awtomatisce nowy kluč za was. Abo móžeće kóždy čas nowy kluč ze swojich kontowych nastajenjow wutworić.
 postAddAccountRecovery-action = Konto rjadować
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwjazane konto
 postAddLinkedAccount-subject-2 = Nowe konto je so z wašim { -product-mozilla-account(case: "instr", capitalization: "lower") } zwjazało
@@ -365,6 +367,7 @@ postAddTwoStepAuthentication-code-required-2 = Wěstotne kody z wašeho nałože
 postChangeAccountRecovery-subject = Kontowy wobnowjenski kluč je so změnił
 postChangeAccountRecovery-title = Sće swój kontowy wobnowjenski kluč změnił
 postChangeAccountRecovery-body-part1 = Maće nětko nowy kontowy wobnowjenski kluč. Waš předchadny kluč je so zhašał.
+postChangeAccountRecovery-body-part2 = Składujće tutón nowy kluč na wěstym městnje – trjebaće jón, zo byšće swoje zaklučowane přehladowanske daty wobnowił, jeli swoje hesło zabudźeće.
 postChangeAccountRecovery-action = Konto rjadować
 postChangePrimary-subject = Primarna e-mejlowa adresa je so zaktualizowała
 postChangePrimary-title = Nowa primarna e-mejlowa adresa
@@ -393,6 +396,7 @@ postNewRecoveryCodes-description-2 = Su so wutworili za:
 postNewRecoveryCodes-action = Konto rjadować
 postRemoveAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so zhašał
 postRemoveAccountRecovery-title-3 = Sće swój kontowy wobnowjenski kluč zhašał
+postRemoveAccountRecovery-body-part1 = Waš kontowy wobnowjenski kluč je trěbny, zo bychu so waše zaklučowane přehladowanske daty wobnowili, jeli waše hesło zabudźeće.
 postRemoveAccountRecovery-action = Konto rjadować
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
