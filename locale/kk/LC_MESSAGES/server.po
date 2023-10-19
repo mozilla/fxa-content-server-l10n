@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-30 03:48+0000\n"
+"PO-Revision-Date: 2023-10-19 01:51+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla тіркелгілері"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -93,6 +93,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Mozilla тіркелгілері сіздің ағымдағы Firefox нұсқасы қолдау\n"
+"                        көрсетпейтін мүмкіндіктерді қолданады.\n"
+"                        Жалғастыру үшін Firefox соңғы нұсқасын жүктеп алып,\n"
+"                        орнатыңыз."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"

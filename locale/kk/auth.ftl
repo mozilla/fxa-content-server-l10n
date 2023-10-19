@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Құрылғыларды синхрондау">
 body-devices-image = <img data-l10n-name="devices-image" alt="Құрылғылар">
 fxa-privacy-url = { -brand-mozilla }-ның жекелік саясаты
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } жекелік саясаты
 fxa-service-url = { -product-firefox-cloud } Қолдану шарттары
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } қолдану шарттары
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } логотипі">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Бұл автоматтандырылған эл. пошта хаты; осыны алғаныңыз қате деп ойласаңыз, еш әрекетті жасау керек емес.
 subplat-privacy-notice = Жекелік ескертуі
 subplat-privacy-plaintext = Жекелік ескертуі:
@@ -60,6 +61,8 @@ subplat-privacy-policy = { -brand-mozilla } жекелік саясаты
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = { -product-firefox-cloud } Қолдану шарттары
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Қолдану Шарттары
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Құқықтық ақпарат
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Жекелік
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Парольді тастау сәтті 
 passwordResetAccountRecovery-description-2 = Пароліңізді жаңарту үшін тіркелгіні қалпына келтіру кілтін келесі жерден пайдаландыңыз:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Тіркелгіні қалпына келтіру кілтін жасау
 passwordResetAccountRecovery-regen-required-mjml-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз:
@@ -639,7 +644,6 @@ verificationReminderSecond-title-3 = { -brand-mozilla } жіберіп алма�
 verificationReminderSecond-description-3 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
 verificationReminderSecond-description-4 = Бірнеше күн бұрын сіз { -product-mozilla-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
 verificationReminderSecond-second-description = { -product-firefox-account } ақпаратыңызды құрылғылар арасында синхрондауға мүмкіндік береді және { -brand-mozilla } ұсынған, жекелігіңізді қорғайтын басқа да өнімдерге қол жеткізу мүмкіндігін береді.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account } ақпаратыңызды құрылғылар арасында синхрондауға мүмкіндік береді және { -brand-mozilla } ұсынған, жекелігіңізді қорғайтын басқа да өнімдерге қол жеткізу мүмкіндігін береді.
 verificationReminderSecond-sub-description-2 = Интернетті әркім үшін ашық жерге айналдыру миссиямыздың бір бөлігі болыңыз.
 verificationReminderSecond-action-2 = Тіркелгіні растау
 verify-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
