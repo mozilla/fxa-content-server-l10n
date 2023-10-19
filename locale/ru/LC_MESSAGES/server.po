@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-08 21:38+0000\n"
+"PO-Revision-Date: 2023-10-19 21:07+0000\n"
 "Last-Translator: Valery Ledovskoy <valery@ledovskoy.com>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Аккаунты Mozilla"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -94,6 +94,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Аккаунты Mozilla используют функции, которые\n"
+"                        не поддерживаются в вашей версии Firefox. Пожалуйста,\n"
+"                        загрузите и установите последнюю версию Firefox для\n"
+"                        продолжения."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -106,3 +110,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Аккаунты Firefox используют функции, которые\n"
+"не поддерживаются в вашей версии Firefox. Пожалуйста,\n"
+"загрузите и установите последнюю версию Firefox\n"
+"для продолжения."
