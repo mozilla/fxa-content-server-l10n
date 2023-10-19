@@ -143,6 +143,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jeli njejsće jo změnił, stajće prošu nětko swoje hesło na { $resetLink } wróćo
+brand-banner-message = Sće wědźał, zo smy naše mjeno wot { -product-firefox-accounts } do { -product-mozilla-accounts } změnili? <a data-l10n-name="learnMore">Dalše informacije</a>
 cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl">krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Prošu wobdźělće so na tutym krótkim naprašowanju, zo byšće nam pomhał, naše słužby polěpšić:
@@ -343,6 +344,8 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Dyrbiće so na wšěch swoj
 passwordResetAccountRecovery-regen-required-txt-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił:
 postAddAccountRecovery-subject-3 = Nowy kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Składujće tutón kluč na wěstym městnje – trjebaće jón, zo byšće swoje zaklučowane přehladowanske daty wobnowił, jeli swoje hesło zabudźeće.
 postAddAccountRecovery-action = Konto rjadować
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwjazane konto
 postAddLinkedAccount-subject-2 = Nowe konto je so z wašim { -product-mozilla-account(case: "instr", capitalization: "lower") } zwjazało
