@@ -961,7 +961,7 @@ terms-privacy-agreement-pocket = <pocketTos>Wužiwanske wuměnjenja</pocketTos> 
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Słužbne wuměnjenja</pocketTos> a <pocketPrivacy>zdźělenka priwatnosće</pocketPrivacy> słužby { -product-pocket }
 # link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Wužiwanske wuměnjenja zdźělenka priwatnosće</monitorTos> { -product-firefox-monitor }
+terms-privacy-agreement-monitor = <monitorTos>Wužiwanske wuměnjenja a zdźělenka priwatnosće</monitorTos> { -product-firefox-monitor }
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-2 = <monitorTos>Wužiwanske wuměnjenja zdźělenka priwatnosće</monitorTos> { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
