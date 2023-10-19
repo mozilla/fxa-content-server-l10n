@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步裝置">
 body-devices-image = <img data-l10n-name="devices-image" alt="裝置">
 fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } 隱私權保護政策
 fxa-service-url = { -product-firefox-cloud } 服務條款
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } 服務條款
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 圖樣">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 標誌">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } 標誌">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 圖樣">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } 標誌">
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
 subplat-privacy-notice = 隱私權公告
 subplat-privacy-plaintext = 隱私權保護政策：
@@ -60,6 +61,8 @@ subplat-privacy-policy = { -brand-mozilla } 隱私權保護政策
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
 subplat-cloud-terms = { -product-firefox-cloud } 服務條款
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } 服務條款
+subplat-moz-terms-plaintext = { subplat-moz-terms }：
 subplat-legal = 法律資訊
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隱私權
@@ -329,6 +332,8 @@ passwordResetAccountRecovery-title-2 = 成功重設密碼
 passwordResetAccountRecovery-description-2 = 您已從下列位置使用帳號救援金鑰更改密碼：
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 產生新的帳號救援金鑰
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = 產生帳號救援金鑰
 passwordResetAccountRecovery-regen-required-mjml-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰：
@@ -636,7 +641,6 @@ verificationReminderSecond-title-3 = 別錯過 { -brand-mozilla } 的獨家功�
 verificationReminderSecond-description-3 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 10 天內完成確認，否則帳號將被自動刪除。
 verificationReminderSecond-description-4 = 幾天前您註冊了 { -product-mozilla-account }，但並未確認過帳號身分。請在 10 天內完成確認，否則帳號將被自動刪除。
 verificationReminderSecond-second-description = { -product-firefox-account } 可讓您在不同裝置間同步您的資訊，並且解鎖 { -brand-mozilla } 提供的更多隱私保護產品。
-verificationReminderSecond-second-description-2 = { -product-mozilla-account } 可讓您在不同裝置間同步資訊，並且解鎖 { -brand-mozilla } 提供的更多隱私保護產品。
 verificationReminderSecond-sub-description-2 = 加入我們的使命，讓網路環境轉變為對每個人都開放的地方。
 verificationReminderSecond-action-2 = 確認帳號
 verify-title-2 = 使用 { -brand-firefox } 打開網路環境
