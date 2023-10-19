@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронизация устройств">
 body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
-moz-accounts-privacy-url = Политика конфидeциальности { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Условия использования { -product-firefox-cloud }
 moz-accounts-terms-url = Правила использования { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
 subplat-privacy-notice = Уведомление о конфиденциальности
 subplat-privacy-plaintext = Уведомление о конфиденциальности:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Политика конфиденциальности {
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Условия использования { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Правила использования { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Права
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Конфиденциальность
@@ -333,6 +336,8 @@ passwordResetAccountRecovery-title-2 = Пароль успешно сброше�
 passwordResetAccountRecovery-description-2 = Вы использовали ключ восстановления аккаунта для обновления пароля от:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Создать новый ключ восстановления аккаунта
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Создать ключ восстановления аккаунта
 passwordResetAccountRecovery-regen-required-mjml-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали:
@@ -642,7 +647,7 @@ verificationReminderSecond-title-3 = Не упустите в { -brand-mozilla }
 verificationReminderSecond-description-3 = Несколько дней назад вы создали { -product-firefox-account(case: "nominative_uppercase") }, Пожалуйста подтвердите ваш аккаунт в течении следующих 10 дней, иначе он будет автоматически удалён.
 verificationReminderSecond-description-4 = Несколько дней назад вы создали { -product-mozilla-account }, но так и не подтвердили ее. Пожалуйста, подтвердите свой аккаунт в течение следующих 10 дней, или он будет автоматически удалён.
 verificationReminderSecond-second-description = Ваш { -product-firefox-account(case: "nominative_uppercase") } позволяет синхронизировать вашу информацию между устройствами и открывает доступ к большему количеству продуктов от { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Ваш { -product-mozilla-account } помогает синхронизировать информацию на всех устройствах и открывает доступ к большому количеству продуктов с защитой конфиденциальности от { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Ваш { -product-mozilla-account } позволяет синхронизировать работу с { -brand-firefox } на разных устройствах и открывает доступ к большему количеству продуктов от { -brand-mozilla }, защищающих конфиденциальность.
 verificationReminderSecond-sub-description-2 = Станьте частью нашей миссии по трансформации Интернета в место, открытое для всех.
 verificationReminderSecond-action-2 = Подтвердить аккаунт
 verify-title-2 = Откройте Интернет с помощью { -brand-firefox }.
