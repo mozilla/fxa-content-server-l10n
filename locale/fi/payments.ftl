@@ -28,7 +28,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox-tilit
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -64,11 +67,13 @@ input-error-is-required = { $label } vaaditaan
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox }in logo
 brand-name-mozilla-logo = { -brand-mozilla }n logo
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaudu sisään</a>
 new-user-sign-in-link-2 = Onko sinulla jo { -product-mozilla-account }? <a>Kirjaudu sisään</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -417,6 +422,7 @@ coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDuration
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Luo { -brand-name-firefox }-tili
 new-user-step-1-2 = 1. Luo { -product-mozilla-account }
 new-user-card-title = Anna korttisi tiedot

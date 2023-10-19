@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronoi laitteet">
 body-devices-image = <img data-l10n-name="devices-image" alt="Laitteet">
 fxa-privacy-url = { -brand-mozilla }n tietosuojakäytäntö
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } -tietosuojakäytäntö
 fxa-service-url = { -product-firefox-cloud } -käyttöehdot
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } -käyttöehdot
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }in logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }n logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla }n logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }n logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla }n logo">
 subplat-automated-email = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 subplat-privacy-notice = Tietosuojakäytäntö
 subplat-privacy-plaintext = Tietosuojaseloste:
@@ -60,6 +61,8 @@ subplat-privacy-policy = { -brand-mozilla }n tietosuojakäytäntö
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = { -product-firefox-cloud } -käyttöehdot
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } -käyttöehdot
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Lakiasiat
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Tietosuoja
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Salasanan nollaus onnistui
 passwordResetAccountRecovery-description-2 = Käytit tilisi palautusavaimen päivittääksesi salasanasi:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Luo uusi tilin palautusavain
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Luo tilin palautusavain
 passwordResetAccountRecovery-regen-required-mjml-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Älä jää paitsi { -brand-mozilla }sta!
 verificationReminderSecond-description-3 = Loit muutama päivä sitten { -product-firefox-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 10 päivän kuluessa tai se poistetaan automaattisesti.
 verificationReminderSecond-description-4 = Loit muutama päivä sitten { -product-mozilla-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 10 päivän kuluessa tai se poistetaan automaattisesti.
 verificationReminderSecond-second-description = { -product-firefox-account }si avulla voit synkronoida tietosi eri laitteiden välillä, lisäksi se avaa pääsyn muihin yksityisyyttä suojaaviin { -brand-mozilla }n tuotteisiin.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account }si avulla voit synkronoida tietosi eri laitteiden välillä, lisäksi se avaa pääsyn muihin yksityisyyttä suojaaviin { -brand-mozilla }n tuotteisiin.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account }si avulla voit synkronoida { -brand-firefox }-kokemuksesi eri laitteiden välillä. Lisäksi se avaa pääsyn muihin yksityisyyttä suojaaviin { -brand-mozilla }-tuotteisiin.
 verificationReminderSecond-sub-description-2 = Ole osa tehtäväämme muuttaa internet kaikille avoimeksi paikaksi.
 verificationReminderSecond-action-2 = Vahvista tili
 verify-title-2 = Avaa internet { -brand-firefox }illa
