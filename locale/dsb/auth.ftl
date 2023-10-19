@@ -344,6 +344,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Musyśo se na wšych swóji
 passwordResetAccountRecovery-regen-required-txt-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył:
 postAddAccountRecovery-subject-3 = Nowy kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Składujśo toś ten kluc na wěstem městnje – trjebaśo jen, aby swóje skoděrowane pśeglědowańske daty wótnowił, jolic swójo gronidło zabydnjośo.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Toś ten kluc dajo se jano jaden raz wužywaś. Za tym až sćo jen wužył, napórajomy awtomatiski nowy kluc za was. Abo móžośo kuždy cas nowy kluc ze swójich kontowych nastajenjow napóraś.
 postAddAccountRecovery-action = Konto zastojaś
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
 postAddLinkedAccount-subject-2 = Nowe konto jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
@@ -363,6 +367,7 @@ postAddTwoStepAuthentication-code-required-2 = Wěstotne kody z wašogo awtentif
 postChangeAccountRecovery-subject = Kontowy wótnowjeński kluc jo se změnił
 postChangeAccountRecovery-title = Sćo změnił swój kontowy wótnowjeński kluc
 postChangeAccountRecovery-body-part1 = Maśo něnto nowy kontowy wótnowjeński kluc. Waš pjerwjejšny kluc jo se wulašował.
+postChangeAccountRecovery-body-part2 = Składujśo toś ten nowy kluc na wěstem městnje – trjebaśo jen, aby swóje skoděrowane pśeglědowańske daty wótnowił, jolic swójo gronidło zabydnjośo.
 postChangeAccountRecovery-action = Konto zastojaś
 postChangePrimary-subject = Primarna e-mailowa adresa jo se zaktualizěrowała
 postChangePrimary-title = Nowa primarna e-mailowa adresa
@@ -391,6 +396,8 @@ postNewRecoveryCodes-description-2 = Su se napórali za:
 postNewRecoveryCodes-action = Konto zastojaś
 postRemoveAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se wulašował
 postRemoveAccountRecovery-title-3 = Sćo wulašował swój kontowy wótnowjeński kluc
+postRemoveAccountRecovery-body-part1 = Waš kontowy wótnowjeński kluc jo trjebny, aby se waše skoděrowane pśeglědowańske daty wótnowili, jolic wašo gronidło zabydnjośo.
+postRemoveAccountRecovery-body-part2 = Jolic hyšći kluc njamaśo, napórajśo nowy kontowy wótnowjeński kluc w swójich kontowych nastajenjach, aby tomu zajźował, až se waše skłaźone gronidła, cytańske znamjenja, pśeglědowańska historija a wěcej zgubiju.
 postRemoveAccountRecovery-action = Konto zastojaś
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
