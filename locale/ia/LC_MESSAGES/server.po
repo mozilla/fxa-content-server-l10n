@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-30 06:32+0000\n"
+"PO-Revision-Date: 2023-10-20 09:19+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -87,6 +87,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Tu conto Mozilla usa functiones que non\n"
+"                        es supportate in tu version de Firefox. \n"
+"                        Discarga e installa le ultime version de Firefox pro\n"
+"                        continuar."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"

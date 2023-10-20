@@ -13,7 +13,6 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronisar apparatos">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparatos">
 fxa-privacy-url = Politica de confidentialitate de { -brand-mozilla }
-moz-accounts-privacy-url = Politica de confidentialitate de { -product-mozilla-accounts }
 fxa-service-url = Terminos de servicio de { -product-firefox-cloud }
 moz-accounts-terms-url = Terminos del servicio del { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
@@ -60,6 +59,7 @@ subplat-privacy-policy = Politica de confidentialitate de { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Terminos de servicio de { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Confidentialitate
@@ -332,6 +332,8 @@ passwordResetAccountRecovery-title-2 = Contrasigno remontate con successo
 passwordResetAccountRecovery-description-2 = Tu ha usate tu clave recuperation del conto pro actualisar tu contrasigno ab:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Crear un nove clave recuperation del conto
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Crear clave de recuperation del conto
 passwordResetAccountRecovery-regen-required-mjml-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate:
@@ -387,6 +389,7 @@ postNewRecoveryCodes-description-2 = Illos era create sur:
 postNewRecoveryCodes-action = Gerer le conto
 postRemoveAccountRecovery-subject-2 = Clave recuperation del conto delite
 postRemoveAccountRecovery-title-3 = Tu ha delite tu clave recuperation del conto
+postRemoveAccountRecovery-body-part1 = Tu clave de recuperation del conto es necessari pro restaurar tu datos de navigation cryptate si tu oblida tu contrasigno.
 postRemoveAccountRecovery-action = Gerer le conto
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
@@ -638,7 +641,6 @@ verificationReminderSecond-title-3 = Non te lassa escappar { -brand-mozilla }!
 verificationReminderSecond-description-3 = Alcun dies retro tu ha create un { -product-firefox-account }, ma non lo ha jammais confirmate . Confirma tu conto in le proxime 10 dies o illo essera automaticamente delite.
 verificationReminderSecond-description-4 = Alcun dies retro tu creava un { -product-mozilla-account }, ma non lo ha jammais confirmate. Confirma tu conto in le proxime 10 dies o illo essera automaticamente delite.
 verificationReminderSecond-second-description = Tu { -product-firefox-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a plus productos de protection del confidentialitate de { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Tu { -product-mozilla-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Contribue a nostre mission pro transformar internet in un placia aperte pro totes.
 verificationReminderSecond-action-2 = Confirmar conto
 verify-title-2 = Aperi internet con { -brand-firefox }
