@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Nový kód se nepodařilo odeslat.
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Zavřít
+brand-banner-dismiss-button-2 =
+    .aria-label = Zavřít oznámení
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } bude 1. listopadu přejmenován na { -product-mozilla-accounts }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -343,7 +343,7 @@ cs-cannot-refresh = Nepodařilo se obnovit seznam propojených služeb.
 cs-cannot-disconnect = Klient nebyl nalezen, nelze se odpojit
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Byli jste odhlášeni ze služby { $service }
 cs-refresh-button =
@@ -355,7 +355,7 @@ cs-disconnect-sync-heading = Odpojit od Syncu
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = Vaše data o prohlížení zůstanou v zařízení <span>{ $device }</span>, ale už nebudou synchronizována s vaším účtem.
@@ -1051,7 +1051,7 @@ cookies-disabled-learn-more = Zjistit více
 inline-recovery-setup-header-default = Potvrďte záložní ověřovací kód <span>a pokračujte do nastavení účtu</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Uložte záložní ověřovací kódy a <span>pokračujte do služby { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
@@ -1071,7 +1071,7 @@ inline-recovery-confirmation-description = Abyste zajistili, že budete moci zno
 inline-recovery-confirmation-header-default = Potvrďte záložní ověřovací kód <span>a pokračujte do nastavení účtu</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložní ověřovací kód a <span>pokračujte do služby { $serviceName }</span>
 
 ## InlineTotpSetup page

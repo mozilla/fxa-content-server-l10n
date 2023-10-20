@@ -120,6 +120,17 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Tento požadavek při�
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Tento požadavek přišel ze systému { $uaOS }.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Tato žádost přišla z:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Pokud jste to nebyli vy, odstraňte nový klíč:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Pokud jste to nebyli vy, změňte si heslo:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = a změňte si heslo:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }:
 automated-email-reset =
     Toto je automatický e-mail; pokud jste tuto akci neschválili, tak si prosím <a data-l10n-name="resetLink">obnovte heslo</a>.
     Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
@@ -319,9 +330,12 @@ passwordResetAccountRecovery-title-2 = Heslo bylo úspěšně obnoveno
 passwordResetAccountRecovery-description-2 = Použili jste obnovovací klíč k účtu k aktualizaci hesla z:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Vytvořit nový obnovovací klíč k účtu
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Vytvořit obnovovací klíč k účtu
 passwordResetAccountRecovery-regen-required-mjml-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali:
+postAddAccountRecovery-subject-3 = Nový obnovovací klíč k účtu byl vytvořen
 postAddAccountRecovery-title2 = Vytvořili jste nový obnovovací klíč k účtu
 postAddAccountRecovery-action = Správa účtu
 postAddLinkedAccount-subject = Nový účet propojený s { -brand-firefox(case: "ins") }
@@ -339,6 +353,10 @@ postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
 postAddTwoStepAuthentication-from-device = Povolili jste ho z:
 postAddTwoStepAuthentication-action = Správa účtu
 postAddTwoStepAuthentication-code-required-2 = Při každém přihlášení teď bude nutné zadat bezpečnostní kód z vaší ověřovací aplikace.
+postChangeAccountRecovery-subject = Obnovovací klíč k účtu byl změněn
+postChangeAccountRecovery-title = Změnili jste svůj obnovovací klíč k účtu
+postChangeAccountRecovery-body-part1 = Nyní máte nový obnovovací klíč k účtu. Váš předchozí klíč byl smazán.
+postChangeAccountRecovery-action = Spravovat účet
 postChangePrimary-subject = Hlavní e-mailová adresa aktualizována
 postChangePrimary-title = Nová hlavní e-mailová adresa
 # Variables:
@@ -365,6 +383,7 @@ postNewRecoveryCodes-title-2 = Vytvořili jste nové záložní ověřovací kó
 postNewRecoveryCodes-description-2 = Byly vytvořeny na:
 postNewRecoveryCodes-action = Správa účtu
 postRemoveAccountRecovery-subject-2 = Obnovovací klíč k účtu byl smazán
+postRemoveAccountRecovery-title-3 = Smazali jste svůj obnovovací klíč k účtu
 postRemoveAccountRecovery-action = Správa účtu
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
