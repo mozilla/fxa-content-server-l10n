@@ -17,7 +17,9 @@ fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
 moz-accounts-terms-url = Podmínky služby { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox(case: "gen") }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla(case: "gen") }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla(case: "gen") }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
 subplat-privacy-notice = Zásady ochrany osobních údajů
 subplat-privacy-plaintext = Zásady ochrany osobních údajů:
@@ -59,6 +61,7 @@ subplat-privacy-policy = { -brand-mozilla } a soukromí
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Podmínky poskytování služby { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Podmínky služby { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Právní informace
 subplat-legal-plaintext = { subplat-legal }:
@@ -120,6 +123,9 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Tento požadavek při�
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Tento požadavek přišel ze systému { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Pokud jste to nebyli vy, <a data-l10n-name="revokeAccountRecoveryLink">smažte nový klíč</a> a <a data-l10n-name="passwordChangeLink">změňte si heslo</a>.
+automatedEmailRecoveryKey-change-pwd-only = Pokud jste to nebyli vy, <a data-l10n-name="passwordChangeLink">změňte si heslo</a>.
+automatedEmailRecoveryKey-more-info = Další informace nalezete na stránkách <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Tato žádost přišla z:
 # Colon is followed by a URL to the account recovery key section of account settings
