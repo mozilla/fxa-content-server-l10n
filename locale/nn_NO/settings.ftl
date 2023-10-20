@@ -801,6 +801,7 @@ auth-error-155 = TOTP-token ikkje funne
 auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
 auth-error-999 = Uventa feil
+auth-error-1003 = Lokal lagring eller infokapslar er framleis slått av
 auth-error-1008 = Det må vere eit nytt passord
 auth-error-1011 = Gyldig e-postadresse påkravd
 
@@ -827,10 +828,15 @@ connect-another-device-signin-link = Logg inn
 connect-another-device-cad-link = Kople til ei anna eining
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ikkje no
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Logg inn på { -brand-firefox } for Android for å fullføre konfigurasjonen
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Logg inn på { -brand-firefox } for iOS for å fullføre konfigurasjonen
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Lokal lagring og infokapslar er påkravd
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Prøv igjen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
