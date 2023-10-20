@@ -14,6 +14,10 @@ banner-dismiss-button =
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Lat att banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } endrar namn til { -product-mozilla-accounts } den 1. november
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
@@ -262,6 +266,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
+bento-menu-title-2 = { -brand-mozilla } Bento-meny
 bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for retten din til privatliv på nettet.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -294,7 +299,7 @@ cs-description = Alt du brukar og er innlogga på.
 cs-cannot-disconnect = Fann ikkje klienten, klarte ikkje å kople frå
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logga ut frå { $service }
 cs-refresh-button =
@@ -306,7 +311,7 @@ cs-disconnect-sync-heading = Kople frå Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -341,6 +346,7 @@ dc-learn-more = Les meir
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }-meny
+drop-down-menu-title-2 = { -product-mozilla-account }-meny
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -423,6 +429,7 @@ header-help = Hjelp
 la-heading = Kopla kontoar
 la-unlink-button = Fjern tilknyting
 la-unlink-account-button = Fjern tilknyting
+la-set-password-button = Vel passord
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -565,7 +572,10 @@ recent-activity-title = Nyleg kontoaktivitet
 recent-activity-account-create-v2 = Konto opretta
 recent-activity-account-disable-v2 = Konto deaktivert
 recent-activity-account-enable-v2 = Konto aktivert
+recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endra
+recent-activity-account-secondary-email-added = Sekundær e-postadesse lagt til
+recent-activity-account-secondary-email-removed = Sekundær e-postadesse fjerna
 
 # Account recovery key setup page
 
@@ -1042,6 +1052,8 @@ signin-token-code-confirm-button = Stadfest
 signin-token-code-code-expired = Har koden gått ut?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Send ny kode på e-post.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Stadfestingskode påkravd
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1050,6 +1062,10 @@ signin-token-code-resend-code-link = Send ny kode på e-post.
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-totp-code-heading-w-default-service-v2 = Skriv inn godkjenningskoden <span>for å halde fram til kontoinnstillingar</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Skriv inn godkjenningskode <span>for å halde fram til { $serviceName }</span>
 signin-totp-code-input-label-v2 = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
@@ -1072,6 +1088,10 @@ confirm-signup-heading = Stadfest kontoen din
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Skriv inn stadfestingskode
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Skriv inn stadfestingskode <span>for { -product-mozilla-account }-en din</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Skriv inn koden som vart sendt til { $email } innan 5 minutt.
 confirm-signup-code-input-label = Skriv inn 6-sifra kode
