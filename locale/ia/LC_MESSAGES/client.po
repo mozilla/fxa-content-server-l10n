@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-20 09:18+0000\n"
+"PO-Revision-Date: 2023-10-20 22:39+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1182,7 +1182,7 @@ msgstr "Contrasigno oblidate?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Insere tu contrasigno <span class=\"card-subheader\" id=\"subheader\">pro tu conto Firefox</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -1216,6 +1216,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"            Si tu procede, tu concorda con le:<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terminos de servicio</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Aviso de confidentialitate</a><br />de Pocket\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a> de Mozilla Accounts.\n"
+"          "
 
 #: .es5/templates/index.mustache:16
 msgid ""

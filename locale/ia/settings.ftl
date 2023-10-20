@@ -343,7 +343,7 @@ cs-cannot-refresh = Desolate, occurreva un problema durante le actualisation del
 cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Session { $service } claudite.
 cs-refresh-button =
@@ -355,7 +355,7 @@ cs-disconnect-sync-heading = Disconnecter se de Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -958,6 +958,8 @@ terms-privacy-agreement-intro-2 = Si tu procede, tu concorda con:
 terms-privacy-agreement-pocket = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Terminos de servicio e aviso de confidentialitate</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Terminos de servicio</firefoxTos> e <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy> de { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1058,7 +1060,7 @@ cookies-disabled-learn-more = Pro saper plus
 inline-recovery-setup-header-default = Confirma le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Salva le codices authentication del salvamento <span>pro continuar a { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Reserva iste codices a uso unic in un loco secur pro le caso que tu non ha accesso a tu apparato mobile.
@@ -1078,7 +1080,7 @@ inline-recovery-confirmation-description = Pro permitter que tu potera reganiar 
 inline-recovery-confirmation-header-default = Confirma le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirma le codice authentication del salvamento <span>pro continuar a { $serviceName }</span>
 
 ## InlineTotpSetup page
