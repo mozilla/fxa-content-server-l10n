@@ -576,6 +576,9 @@ recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endra
 recent-activity-account-secondary-email-added = Sekundær e-postadesse lagt til
 recent-activity-account-secondary-email-removed = Sekundær e-postadesse fjerna
+recent-activity-account-emails-swapped = Primær og sekundær e-post er bytt om
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Annan kontoaktivitet
 
 # Account recovery key setup page
 
@@ -730,6 +733,14 @@ unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkk
 
 se-heading = Sekundær e-postadresse
     .header = Sekundær e-postadresse
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } er no den primære e-postadressa di
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } er sletta
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjern e-postadresse
@@ -756,13 +767,17 @@ tfa-row-button-refresh =
     .title = Oppdater tostegs-godkjenning
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
+tfa-row-change-modal-heading-1 = Endre reserve-godkjenningskodar?
 tfa-row-change-modal-confirm = Endre
+tfa-row-change-modal-explain = Du vil ikkje kunne angre denne handlinga.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Ved å halde fram seier du deg samd i:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Ved å halde fram seier du deg samd i:
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -783,6 +798,7 @@ auth-error-110 = Ugyldig token
 auth-error-138-2 = Ikkje stadfesta økt
 auth-error-139 = Sekundær e-postadresse må vere ulik e-postadressa til kontoen din
 auth-error-155 = TOTP-token ikkje funne
+auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
 auth-error-999 = Uventa feil
 auth-error-1008 = Det må vere eit nytt passord
