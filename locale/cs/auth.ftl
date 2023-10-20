@@ -13,7 +13,6 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizovat zařízení">
 body-devices-image = <img data-l10n-name="devices-image" alt="Zařízení">
 fxa-privacy-url = { -brand-mozilla } a soukromí
-moz-accounts-privacy-url = Zásady ochrany osobních údajů { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
 moz-accounts-terms-url = Podmínky služby { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox(case: "gen") }">
@@ -60,6 +59,7 @@ subplat-privacy-policy = { -brand-mozilla } a soukromí
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Podmínky poskytování služby { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Právní informace
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ochrana osobních údajů
@@ -616,7 +616,6 @@ verificationReminderSecond-title-3 = Nenechte si ujít { -brand-mozilla }!
 verificationReminderSecond-description-3 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 10 dní, jinak bude automaticky smazán.
 verificationReminderSecond-description-4 = Před několika dny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 10 dní, jinak bude automaticky smazán.
 verificationReminderSecond-second-description = Váš { -product-firefox-account } vám umožňuje synchronizovat vaše informace mezi zařízeními a odemyká přístup k produktům { -brand-mozilla }, které ještě více chrání soukromí.
-verificationReminderSecond-second-description-2 = Váš { -product-mozilla-account } vám umožňuje synchronizovat vaše informace mezi zařízeními a odemyká přístup k produktům { -brand-mozilla }, které ještě více chrání soukromí.
 verificationReminderSecond-sub-description-2 = Staňte se součástí našeho poslání proměnit internet v místo, které je otevřené pro každého.
 verificationReminderSecond-action-2 = Potvrdit účet
 verify-title-2 = Pojďte na internet pomocí { -brand-firefox(case: "acc") }
