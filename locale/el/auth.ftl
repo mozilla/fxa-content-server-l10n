@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Λογότυπ
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Συγχρονισμός συσκευών">
 body-devices-image = <img data-l10n-name="devices-image" alt="Συσκευές">
 fxa-privacy-url = Πολιτική απορρήτου { -brand-mozilla }
-moz-accounts-privacy-url = Πολιτική απορρήτου { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 fxa-service-url = Όροι υπηρεσίας { -product-firefox-cloud }
 moz-accounts-terms-url = Όροι υπηρεσίας { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Λογότυπο { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Λογότυπο { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Λογότυπο { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Λογότυπο { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Λογότυπο { -brand-mozilla }">
 subplat-automated-email = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
 subplat-privacy-notice = Σημείωση απορρήτου
 subplat-privacy-plaintext = Σημείωση απορρήτου:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Πολιτική απορρήτου { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Όροι υπηρεσίας { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Όροι υπηρεσίας { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Νομικά
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Απόρρητο
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Επιτυχής επαναφορά κω�
 passwordResetAccountRecovery-description-2 = Χρησιμοποιήσατε το κλειδί ανάκτησης λογαριασμού σας για να ενημερώσετε τον κωδικό πρόσβασής σας από το:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Δημιουργία κλειδιού ανάκτησης λογαριασμού
 passwordResetAccountRecovery-regen-required-mjml-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Μη χάσετε τα νέα της { -bra
 verificationReminderSecond-description-3 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Παρακαλούμε επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 10 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
 verificationReminderSecond-description-4 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 10 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
 verificationReminderSecond-second-description = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } σας σάς επιτρέπει να συγχρονίζετε τις πληροφορίες σας μεταξύ των συσκευών σας και ξεκλειδώνει την πρόσβαση σε περισσότερα προϊόντα από τη { -brand-mozilla }, που προστατεύουν το απόρρητό σας.
-verificationReminderSecond-second-description-2 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας σάς επιτρέπει να συγχρονίζετε τις πληροφορίες σας μεταξύ των συσκευών σας και ξεκλειδώνει την πρόσβαση σε περισσότερα προϊόντα, που προστατεύουν το απόρρητό σας, από τη { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας, σάς επιτρέπει να συγχρονίζετε την εμπειρία σας με το { -brand-firefox } μεταξύ των συσκευών σας και ξεκλειδώνει την πρόσβαση σε περισσότερα προϊόντα, που προστατεύουν το απόρρητό σας, από τη { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Λάβετε μέρος στην αποστολή μας να μετατρέψουμε το διαδίκτυο σε ένα μέρος ανοικτό για όλους.
 verificationReminderSecond-action-2 = Επιβεβαίωση λογαριασμού
 verify-title-2 = Ανοίξτε το διαδίκτυο με το { -brand-firefox }
