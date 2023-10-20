@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-14 05:28+0000\n"
+"PO-Revision-Date: 2023-10-20 09:18+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -70,7 +70,7 @@ msgstr "Pro terminar le configuration, insere le nove contrasigno in tu altere a
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Tu es ora preste a modificar tu conto Mozilla."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"

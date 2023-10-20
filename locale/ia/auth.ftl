@@ -59,6 +59,7 @@ subplat-privacy-policy = Politica de confidentialitate de { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Terminos de servicio de { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Terminos del servicio de { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
