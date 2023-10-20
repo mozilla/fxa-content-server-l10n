@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="დასინქ. მოწყობილობები">
 body-devices-image = <img data-l10n-name="devices-image" alt="მოწყობილობები">
 fxa-privacy-url = { -brand-mozilla } – პირადულობის დებულება
-moz-accounts-privacy-url = { -product-mozilla-accounts(case: "gen") } პირადულობის დებულება
 fxa-service-url = { -product-firefox-cloud } – მომსახურების პირობები
 moz-accounts-terms-url = { -product-mozilla-accounts(case: "gen") } მომსახურების პირობები
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-ლოგო">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla }-ლოგო">
 subplat-automated-email = ეს ავტომატური შეტყობინებაა; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
 subplat-privacy-notice = პირადულობის განაცხადი
 subplat-privacy-plaintext = პირადი მონაცემების დაცვის განაცხადი:
@@ -60,6 +61,8 @@ subplat-privacy-policy = { -brand-mozilla } – პირადულობი�
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }
 subplat-cloud-terms = { -product-firefox-cloud } – მომსახურების პირობები
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }
+subplat-moz-terms = { -product-mozilla-accounts(case: "gen") } მომსახურების პირობები
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = სამართლებრივი
 subplat-legal-plaintext = { subplat-legal }
 subplat-privacy = პირადულობა
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = პაროლი აღდგენი�
 passwordResetAccountRecovery-description-2 = თქვენ გამოიყენეთ ანგარიშის აღდგენის გასაღები პაროლის გასაახლებლად:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = ანგარიშის აღდგენის ახალი გასაღების შექმნა
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = ანგარიშის აღდგენის გასაღების შექმნა
 passwordResetAccountRecovery-regen-required-mjml-1 = ახლიდან შესვლა დაგჭირდებათ ყველა დასინქრონებულ მოწყობილობაზე. არ დაგავიწყდეთ ანგარიშის აღდგენის ახალი გასაღებით ძველის ჩანაცვლება.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = ახლიდან შესვლა დაგჭირდებათ ყველა დასინქრონებულ მოწყობილობაზე. არ დაგავიწყდეთ ანგარიშის აღდგენის ახალი გასაღებით ძველის ჩანაცვლება:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = არ გამოგრჩეთ { -brand
 verificationReminderSecond-description-3 = რამდენიმე დღის წინ შექმენით { -product-firefox-account }, მაგრამ ჯერ არ დაგიდასტურებიათ. გთხოვთ დაამოწმოთ მომდევნო 10 დღეში, თუ არადა ავტომატურად წაიშლება.
 verificationReminderSecond-description-4 = რამდენიმე დღის წინ შექმენით { -product-mozilla-account }, მაგრამ ჯერ არ დაგიმოწმებიათ. გთხოვთ დაადასტუროთ მომდევნო 10 დღეში, თუ არადა ავტომატურად წაიშლება.
 verificationReminderSecond-second-description = თქვენი { -product-firefox-account } საშუალებას გაძლევთ, დაასინქრონოთ მონაცემები მოწყობილობებს შორის და წვდომა მიიღოთ პირადულობის უზრუნველმყოფ მეტ პროდუქტზე { -brand-mozilla }-ისგან.
-verificationReminderSecond-second-description-2 = თქვენი { -product-mozilla-account } საშუალებას გაძლევთ, დაასინქრონოთ მონაცემები მოწყობილობებს შორის და წვდომა მიიღოთ პირადულობის უზრუნველმყოფ მეტ პროდუქტზე { -brand-mozilla }-ისგან.
+verificationReminderSecond-second-description-3 = თქვენი { -product-mozilla-account } საშუალებას გაძლევთ, დაასინქრონოთ { -brand-firefox } მოწყობილობებს შორის და წვდომა მიიღოთ პირადულობის უზრუნველმყოფ მეტ პროდუქტზე { -brand-mozilla }-ისგან.
 verificationReminderSecond-sub-description-2 = გახდით ჩვენი მიზნის მონაწილე, რომ ვაქციოთ ინტერნეტი საყოველთაოდ ღია და თავისუფალი.
 verificationReminderSecond-action-2 = ანგარიშის დადასტურება
 verify-title-2 = შეაღეთ ინტერნეტის კარი { -brand-firefox }-ით

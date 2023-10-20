@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2022-01-27 19:08+0000\n"
+"PO-Revision-Date: 2023-10-20 06:58+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla-ანგარიშები"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -72,7 +72,7 @@ msgstr "იტვირთება"
 
 #: server/templates/pages/src/index.html:3
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla-ანგარიშებს ესაჭიროება JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
@@ -80,7 +80,7 @@ msgstr "Firefox-ანგარიშით სარგებლობისთ
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-ანგარიში"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -93,6 +93,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Mozilla-ანგარიშები სარგებლობს იმ შესაძლებლობებით, რომლებიც\n"
+"                        არაა მხარდაჭერილი თქვენი ვერსიის Firefox-ზე. გთხოვთ\n"
+"                        ჩამოტვირთოთ და დააყენოთ უახლესი ვერსიის Firefox\n"
+"                        გასაგრძელებლად."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -105,3 +109,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Firefox-ანგარიშები სარგებლობს იმ შესაძლებლობებით, რომლებიც\n"
+"არაა მხარდაჭერილი თქვენი ვერსიის Firefox-ზე. გთხოვთ\n"
+"ჩამოტვირთეთ და დააყენეთ უახლესი Firefox\n"
+"გასაგრძელებლად."
