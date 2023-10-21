@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-29 14:08+0000\n"
+"PO-Revision-Date: 2023-10-19 11:33+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Облікові записи Mozilla"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -94,6 +94,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Ваш обліковий запис Mozilla має функції, які не\n"
+"                        підтримуються вашою версією Firefox.\n"
+"                        Завантажте й встановіть найновішу\n"
+"                        версію Firefox, щоб продовжити."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -106,3 +110,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Облікові записи Mozilla мають функції,\n"
+"які не підтримуються вашою версією Firefox.\n"
+"Завантажте й встановіть найновішу\n"
+"версію Firefox, щоб продовжити."

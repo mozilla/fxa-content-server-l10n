@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронізовані пристрої">
 body-devices-image = <img data-l10n-name="devices-image" alt="Пристрої">
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
-moz-accounts-privacy-url = Політика приватності { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 fxa-service-url = Умови користування { -product-firefox-cloud }
 moz-accounts-terms-url = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
 subplat-privacy-notice = Положення про приватність
 subplat-privacy-plaintext = Положення про приватність:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Політика Приватності { -brand-mozill
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Умови користування { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Правові положення
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Приватність
@@ -333,6 +336,8 @@ passwordResetAccountRecovery-title-2 = Пароль успішно скинут�
 passwordResetAccountRecovery-description-2 = Ви використали ключ відновлення облікового запису, щоб оновити пароль із:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Створити новий ключ відновлення облікового запису
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Створити ключ відновлення облікового запису
 passwordResetAccountRecovery-regen-required-mjml-1 = Вам потрібно буде знову ввійти в систему на всіх синхронізованих пристроях. Не забудьте створити новий ключ відновлення облікового запису, щоб замінити той, який ви використовували.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Вам потрібно буде знову ввійти в систему на всіх синхронізованих пристроях. Не забудьте створити новий ключ відновлення облікового запису, щоб замінити той, який ви використовували:
@@ -642,7 +647,6 @@ verificationReminderSecond-title-3 = Не пропустіть { -brand-mozilla 
 verificationReminderSecond-description-3 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але так і не підтвердили його. Підтвердьте свій обліковий запис протягом наступних 10 днів, інакше його буде автоматично видалено.
 verificationReminderSecond-description-4 = Кілька днів тому ви створили { -product-mozilla-account }, але досі його не підтвердили. Якщо ви не підтвердите свій обліковий запис протягом наступних 10 днів, його буде автоматично видалено.
 verificationReminderSecond-second-description = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } дає можливість синхронізувати ваші дані на різних пристроях і відкриває доступ до більшої кількості продуктів для захисту приватності від { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account(capitalization: "upper") } дає можливість синхронізувати ваші дані на різних пристроях і відкриває доступ до більшої кількості продуктів для захисту приватності від { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Станьте частиною нашої місії з перетворення Інтернету на місце, відкрите для всіх.
 verificationReminderSecond-action-2 = Підтвердити обліковий запис
 verify-title-2 = Відкрийте Інтернет за допомогою { -brand-firefox }
