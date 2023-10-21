@@ -107,6 +107,20 @@ automated-email-not-authorized-plaintext = Гэта аўтаматычна ст�
 automatedEmailRecoveryKey-origin-device-all = Гэты запыт прыйшоў з { $uaBrowser } на { $uaOS } { $uaOSVersion }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Гэты запыт прыйшоў з { $uaBrowser } на { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Гэты запыт прыйшоў ад { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Гэты запыт прыйшоў ад { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Гэты запыт прыйшоў ад { $uaOS }.
 automatedEmailRecoveryKey-more-info = Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">падтрымку { -brand-mozilla }</a>.
