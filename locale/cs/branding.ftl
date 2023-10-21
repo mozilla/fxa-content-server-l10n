@@ -78,10 +78,112 @@
             }
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = Účet Mozilla
+-product-mozilla-account =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] účtu Mozilla
+                [upper] Účtu Mozilla
+                [lowercase] účtu Mozilla
+               *[uppercase] Účtu Mozilla
+            }
+        [dat]
+            { $capitalization ->
+                [lower] účtu Mozilla
+                [upper] Účtu Mozilla
+                [lowercase] účtu Mozilla
+               *[uppercase] Účtu Mozilla
+            }
+        [acc]
+            { $capitalization ->
+                [lower] účet Mozilla
+                [upper] Účet Mozilla
+                [lowercase] účet Mozilla
+               *[uppercase] Účet Mozilla
+            }
+        [voc]
+            { $capitalization ->
+                [lower] účte Mozilla
+                [upper] Účte Mozilla
+                [lowercase] účte Mozilla
+               *[uppercase] Účte Mozilla
+            }
+        [loc]
+            { $capitalization ->
+                [lower] účtu Mozilla
+                [upper] Účtu Mozilla
+                [lowercase] účtu Mozilla
+               *[uppercase] Účtu Mozilla
+            }
+        [ins]
+            { $capitalization ->
+                [lower] účtem Mozilla
+                [upper] Účtem Mozilla
+                [lowercase] účtem Mozilla
+               *[uppercase] Účtem Mozilla
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účet Mozilla
+                [upper] Účet Mozilla
+                [lowercase] účet Mozilla
+               *[uppercase] Účet Mozilla
+            }
+    }
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
 # "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
--product-mozilla-accounts = Účty Mozilla
+-product-mozilla-accounts =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] účtu Mozilla
+                [upper] Účtu Mozilla
+                [lowercase] účtu Mozilla
+               *[uppercase] Účtu Mozilla
+            }
+        [dat]
+            { $capitalization ->
+                [lower] účtu Mozilla
+                [upper] Účtu Mozilla
+                [lowercase] účtu Mozilla
+               *[uppercase] Účtu Mozilla
+            }
+        [acc]
+            { $capitalization ->
+                [lower] účet Mozilla
+                [upper] Účet Mozilla
+                [lowercase] účet Mozilla
+               *[uppercase] Účet Mozilla
+            }
+        [voc]
+            { $capitalization ->
+                [lower] účte Mozilla
+                [upper] Účte Mozilla
+                [lowercase] účte Mozilla
+               *[uppercase] Účte Mozilla
+            }
+        [loc]
+            { $capitalization ->
+                [lower] účtu Mozilla
+                [upper] Účtu Mozilla
+                [lowercase] účtu Mozilla
+               *[uppercase] Účtu Mozilla
+            }
+        [ins]
+            { $capitalization ->
+                [lower] účtem Mozilla
+                [upper] Účtem Mozilla
+                [lowercase] účtem Mozilla
+               *[uppercase] Účtem Mozilla
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účet Mozilla
+                [upper] Účet Mozilla
+                [lowercase] účet Mozilla
+               *[uppercase] Účet Mozilla
+            }
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
