@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Privacy Policy
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Privacy Policy
 fxa-service-url = { -product-firefox-cloud } Terms of Service
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Terms of Service
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = This is an automated email; if you received it in error, no action is required.
 subplat-privacy-notice = Privacy notice
 subplat-privacy-plaintext = Privacy notice:
@@ -60,6 +61,8 @@ subplat-privacy-policy = { -brand-mozilla } Privacy Policy
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = { -product-firefox-cloud } Terms of Service
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Terms of Service
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Password reset successfully
 passwordResetAccountRecovery-description-2 = You used your account recovery key to update your password from:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Create a new account recovery key
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Create account recovery key
 passwordResetAccountRecovery-regen-required-mjml-1 = You’ll need to sign in again on all of your synced devices. Remember to create a new account recovery key to replace the one you used.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = You’ll need to sign in again on all of your synchronised devices. Remember to create a new account recovery key to replace the one you used:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Don’t miss out on { -brand-mozilla }!
 verificationReminderSecond-description-3 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account in the next 10 days or it will be automatically deleted.
 verificationReminderSecond-description-4 = A few days ago you created a { -product-mozilla-account }, but never confirmed it. Please confirm your account in the next 10 days or it will be automatically deleted.
 verificationReminderSecond-second-description = Your { -product-firefox-account } lets you synchronise your info across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Your { -product-mozilla-account } lets you synchronise your info across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Your { -product-mozilla-account } lets you synchronise your { -brand-firefox } experience across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Be part of our mission to transform the internet into a place that’s open for everyone.
 verificationReminderSecond-action-2 = Confirm account
 verify-title-2 = Open the internet with { -brand-firefox }
