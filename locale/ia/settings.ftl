@@ -958,6 +958,8 @@ terms-privacy-agreement-intro-2 = Si tu procede, tu concorda con:
 terms-privacy-agreement-pocket = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Terminos de servicio e aviso de confidentialitate</monitorTos> de { -product-firefox-monitor }
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Terminos de servicio e aviso de confidentialitate</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
