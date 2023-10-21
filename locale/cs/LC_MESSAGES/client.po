@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-21 19:45+0000\n"
+"PO-Revision-Date: 2023-10-21 20:08+0000\n"
 "Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -71,7 +71,7 @@ msgstr "Dokončete nastavení zadáním nového hesla na ostatní zařízeních 
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Nyní můžete provést změny ve svém účtu Mozilla."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -617,7 +617,7 @@ msgstr "Zadejte platnou e-mailovou adresu. firefox.com neposkytuje e-mailové sl
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Účet Mozilla může být umístěn do IFRAME pouze na schválených stránkách"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
