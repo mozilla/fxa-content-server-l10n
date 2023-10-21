@@ -17,6 +17,7 @@ fxa-service-url = Terminos de servicio de { -product-firefox-cloud }
 moz-accounts-terms-url = Terminos del servicio del { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
@@ -643,6 +644,7 @@ verificationReminderSecond-title-3 = Non te lassa escappar { -brand-mozilla }!
 verificationReminderSecond-description-3 = Alcun dies retro tu ha create un { -product-firefox-account }, ma non lo ha jammais confirmate . Confirma tu conto in le proxime 10 dies o illo essera automaticamente delite.
 verificationReminderSecond-description-4 = Alcun dies retro tu creava un { -product-mozilla-account }, ma non lo ha jammais confirmate. Confirma tu conto in le proxime 10 dies o illo essera automaticamente delite.
 verificationReminderSecond-second-description = Tu { -product-firefox-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a plus productos de protection del confidentialitate de { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Tu { -product-mozilla-account } te permitte de synchronisar tu experientia con { -brand-firefox } inter apparatos e disblocar le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Contribue a nostre mission pro transformar internet in un placia aperte pro totes.
 verificationReminderSecond-action-2 = Confirmar conto
 verify-title-2 = Aperi internet con { -brand-firefox }
