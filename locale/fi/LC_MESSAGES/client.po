@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-19 16:23+0000\n"
+"PO-Revision-Date: 2023-10-21 06:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1148,6 +1148,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Jatkamalla hyväksyt:<br />\n"
+"            Pocketin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">käyttöehdot</a> ja <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">tietosuojakäytännön</a><br />\n"
+"            Firefoxin <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>\n"
+"          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
@@ -1157,6 +1162,11 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Jatkamalla hyväksyt:<br />\n"
+"              Firefox Monitorin <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">käyttöehdot ja tietosuojakäytännön</a><br />\n"
+"              Firefoxin <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1173,7 +1183,7 @@ msgstr "Unohditko salasanan?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Anna <span class=\"card-subheader\" id=\"subheader\">Firefox-tilisi</span> salasana"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -1207,6 +1217,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"          Jatkamalla hyväksyt:<br />\n"
+"          Pocketin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">käyttöehdot</a> ja <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">tietosuojakäytännön</a><br />\n"
+"          Mozilla-tilien <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>\n"
+"        "
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1216,6 +1231,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Jatkamalla hyväksyt:<br />\n"
+"            Firefox Monitorin <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">käyttöehdot ja tietosuojakäytännön</a><br />\n"
+"            Mozilla-tilien <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>\n"
+"          "
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to Firefox accounts"
@@ -1232,6 +1252,10 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"  Jatkamalla hyväksyt:<br />\n"
+"  Pocketin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">käyttöehdot</a> ja <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">tietosuojakäytännön</a><br />\n"
+"  Firefoxin <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>"
 
 #: .es5/templates/index.mustache:22
 msgid ""
@@ -1240,6 +1264,10 @@ msgid ""
 "  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"  Jatkamalla hyväksyt:<br />\n"
+"  Firefox Monitorin <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">käyttöehdot ja tietosuojakäytännön</a><br />\n"
+"  Mozilla-tilien <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
