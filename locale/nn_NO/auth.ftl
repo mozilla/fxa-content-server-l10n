@@ -13,7 +13,6 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser einingar">3
 body-devices-image = <img data-l10n-name="devices-image" alt="Einingar">
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
 fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
 moz-accounts-terms-url = Tenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
@@ -54,6 +53,7 @@ subplat-privacy-policy = { -brand-mozilla }s personvernpraksis
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Brukarvilkår for { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Personvern
@@ -90,6 +90,10 @@ automated-email-no-action = { automated-email-no-action-plaintext } Gå til <a d
 automated-email-no-action-plaintext = Denne e-posten vart sendt automatisk. Om du fekk den ved ein feil, treng du ikkje gjere noko.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Denne e-posten vart sendt automatisk; om du ikkje godkjende denne handlinga, må du endre passordet ditt:
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Denne førspurnaden kom frå:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Gå til { -brand-mozilla } brukarstøtte for meir informasjon:
 automated-email-reset =
     Denne e-posten vart sendt automatisk; om du ikkje godkjende denne handlinga, <a data-l10n-name="resetLink">må du tilbakestille passordet ditt</a>.
     Gå til <a data-l10n-name="supportLink">{ -brand-mozilla } brukarstøtte</a> for meir informasjon.
@@ -281,19 +285,13 @@ passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
 passwordResetAccountRecovery-description-2 = Du brukte kontogjenopprettingsnøkkelen din til å oppdatere passordet ditt frå:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Opprett ein ny kontogjenopprettingsnøkkel
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Opprett kontogjenopprettingsnøkkel
 passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
-postAddAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel oppretta
 postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Ein ny nøkkel vart oppretta frå:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Ikke deg?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Slett den nye nøkkelen</a> og <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>
 postAddAccountRecovery-action = Handsam kontoen
-postAddAccountRecovery-delete-key = Slett den nye nøkkelen::
-postAddAccountRecovery-changd-password = Endre passordet ditt?
 postAddLinkedAccount-subject = Ny konto knytt til { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -305,6 +303,7 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 postAddTwoStepAuthentication-from-device = Du har aktivert det frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postAddTwoStepAuthentication-code-required-2 = Sikkerheitskoder frå autentiseringsappen din er no påkravd no kvar gong du loggar inn.
+postChangeAccountRecovery-action = Handsam kontoen
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
 # Variables:
@@ -326,11 +325,7 @@ postNewRecoveryCodes-title-2 = Du oppretta nye reserve-godkjenningskodar
 postNewRecoveryCodes-description-2 = Dei vart oppretta på:
 postNewRecoveryCodes-action = Handsam kontoen
 postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
-postRemoveAccountRecovery-title-2 = Du sletta kontogjenopprettingsnøkkelen din
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Han vart sletta frå:
 postRemoveAccountRecovery-action = Handsam kontoen
-postRemoveAccountRecovery-invalid-2 = Du treng ein kontogjenopprettingsnøkkel for å gjenopprette { -brand-firefox }-dataa dine dersom du gløymer passordet ditt.
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
 # Variables:
