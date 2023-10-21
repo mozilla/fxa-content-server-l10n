@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronize dispositîfs">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositîfs">
 fxa-privacy-url = Informative su la riservatece di { -brand-mozilla }
-moz-accounts-privacy-url = Informative su la riservatece dai { -product-mozilla-accounts }
 fxa-service-url = Cundizions di ûs dal servizi di { -product-firefox-cloud }
 moz-accounts-terms-url = Cundizions di utilizazion dal servizi dai { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo di { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo di { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Cheste e je une e-mail inviade di un servizi automatic; se tu le âs ricevude par erôr, nol covente fâ nuie.
 subplat-privacy-notice = Informative su la riservatece
 subplat-privacy-plaintext = Informative su la riservatece:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Informative su la riservatece di { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Cundizions di ûs dal servizi di { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Cundizions di utilizazion dal servizi dai { -product-mozilla-accounts }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Notis legâls
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Riservatece
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Password ristabilide cun sucès
 passwordResetAccountRecovery-description-2 = Tu âs doprât la clâf di recupar dal account par inzornâ la password di:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Cree une gnove clâf di recupar dal account
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Cree une clâf di recupar dal account
 passwordResetAccountRecovery-regen-required-mjml-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî chê che tu âs doprât.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî che che tu âs doprât:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = No sta fâti scjampâ { -brand-mozilla }!
 verificationReminderSecond-description-3 = Cualchi zornade indaûr tu âs creât un { -product-firefox-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 10 dîs, se no in automatic al vignarà eliminât.
 verificationReminderSecond-description-4 = Cualchi zornade indaûr tu âs creât un { -product-mozilla-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 10 dîs, se no in automatic al vignarà eliminât.
 verificationReminderSecond-second-description = Il to { -product-firefox-account } ti permet di sincronizâ lis informazions su ducj i dispositîfs e al sbloche l'acès a altris prodots { -brand-mozilla } dedicâts ae protezion de riservatece.
-verificationReminderSecond-second-description-2 = Il to { -product-mozilla-account } ti permet di sincronizâ lis informazions su ducj i dispositîfs e al sbloche l'acès a altris prodots { -brand-mozilla } dedicâts ae protezion de riservatece.
+verificationReminderSecond-second-description-3 = Il to { -product-mozilla-account } ti permet di sincronizâ la tô esperience cun { -brand-firefox } su ducj i dispositîfs e al da acès a altris prodots { -brand-mozilla } dedicâts ae protezion de riservatece.
 verificationReminderSecond-sub-description-2 = Partecipe ae nestre mission par trasformâ internet intun puest viert a ducj.
 verificationReminderSecond-action-2 = Conferme account
 verify-title-2 = Esplore internet cun { -brand-firefox }
