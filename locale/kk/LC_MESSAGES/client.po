@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-19 01:54+0000\n"
+"PO-Revision-Date: 2023-10-21 07:42+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1164,6 +1164,11 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Жалғастыру арқылы сіз келесімен келісесіз:<br />\n"
+"              Firefox Monitor өнімінің <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Қолдану шарттары және Жекелік ескертуі</a><br />\n"
+"              Firefox өнімінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1180,7 +1185,7 @@ msgstr "Пароліңізді ұмыттыңыз ба?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Firefox тіркелгіңіз үшін</span> пароліңізді енгізіңіз"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -1214,6 +1219,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
+"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
+"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"          "
 
 #: .es5/templates/index.mustache:16
 msgid ""
