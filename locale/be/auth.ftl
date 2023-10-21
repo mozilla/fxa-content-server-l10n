@@ -14,9 +14,12 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="С
 body-devices-image = <img data-l10n-name="devices-image" alt="Прылады">
 fxa-privacy-url = Палітыка прыватнасці { -brand-mozilla }
 fxa-service-url = Умовы выкарыстання { -product-firefox-cloud }
+moz-accounts-terms-url = Умовы выкарыстання { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Лагатып { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Лагатып { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Лагатып { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Лагатып { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Лагатып { -brand-mozilla }">
 subplat-automated-email = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
 subplat-privacy-notice = Паведамленне аб прыватнасці
 subplat-privacy-plaintext = Паведамленне аб прыватнасці:
@@ -32,10 +35,15 @@ subplat-explainer-specific-2 = Вы атрымалі гэты ліст, таму
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-mozilla-account }.
 subplat-explainer-multiple = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account } і вы падпісаліся на некалькі прадуктаў.
+subplat-explainer-multiple-2 = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-mozilla-account } і вы падпісаліся на некалькі прадуктаў.
 subplat-explainer-was-deleted = Вы атрымалі гэты ліст, таму што на { $email } быў зарэгістраваны { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Вы атрымалі гэты ліст, таму што на { $email } быў зарэгістраваны { -product-mozilla-account }.
 subplat-manage-account = Кіруйце наладамі { -product-firefox-account }, са сваёй <a data-l10n-name="subplat-account-page">старонкі ўліковага запісу</a>.
+subplat-manage-account-2 = Кіруйце наладамі { -product-mozilla-account } са сваёй <a data-l10n-name="subplat-account-page">старонкі ўліковага запісу</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Кіруйце наладамі { -product-firefox-account }, наведаўшы старонку свайго ўліковага запісу: { $accountSettingsUrl }
@@ -53,6 +61,7 @@ subplat-privacy-policy = Палітыка прыватнасці { -brand-mozill
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Умовы выкарыстання { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Умовы выкарыстання { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Прававыя звесткі
 subplat-legal-plaintext = { subplat-legal }:
@@ -90,6 +99,12 @@ automated-email-no-action = { automated-email-no-action-plaintext } Для ат�
 automated-email-no-action-plaintext = Гэта аўтаматычна створанае паведамленне. Калі вы атрымалі яго памылкова, вам не трэба нічога рабіць.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Гэта аўтаматычна створаны ліст; калі вы не здзяйснялі гэтага дзеяння, калі ласка, змяніце свой пароль:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Гэты запыт прыйшоў з { $uaBrowser } на { $uaOS } { $uaOSVersion }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
