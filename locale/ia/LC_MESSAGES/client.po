@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-20 22:39+0000\n"
+"PO-Revision-Date: 2023-10-20 22:42+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -616,7 +616,7 @@ msgstr "Scribe un adresse de e-mail valide. firefox.com non forni un servicio de
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Le contos Mozilla solo pote esser placiate in un IFRAME sur sitos approbate"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
