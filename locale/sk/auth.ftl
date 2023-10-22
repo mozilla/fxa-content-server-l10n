@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizovať zariadenia">
 body-devices-image = <img data-l10n-name="devices-image" alt="Zariadenia">
 fxa-privacy-url = Zásady ochrany osobných údajov { -brand-mozilla(case: "gen") }
-moz-accounts-privacy-url = Zásady ochrany osobných údajov pre { -product-mozilla-accounts(case: "acc", capitalization: "lowercase") }
 fxa-service-url = Podmienky používania služby { -product-firefox-cloud }
 moz-accounts-terms-url = Podmienky používania služby { -product-mozilla-accounts(case: "acc", capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla(case: "gen") }">
 subplat-automated-email = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 subplat-privacy-notice = Vyhlásenie o ochrane osobných údajov
 subplat-privacy-plaintext = Vyhlásenie o ochrane osobných údajov:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Zásady ochrany osobných údajov { -brand-mozilla(case
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Podmienky používania služby { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Podmienky používania služby { -product-mozilla-accounts(case: "acc", capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Právne informácie
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Súkromie
@@ -333,6 +336,8 @@ passwordResetAccountRecovery-title-2 = Heslo bolo úspešne obnovené
 passwordResetAccountRecovery-description-2 = Použili ste kľúč na obnovenie účtu na aktualizáciu hesla z:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Vytvoriť nový kľúč na obnovenie účtu
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Vytvoriť kľúč na obnovenie účtu
 passwordResetAccountRecovery-regen-required-mjml-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili:
@@ -642,7 +647,7 @@ verificationReminderSecond-title-3 = Nenechajte si ujsť { -brand-mozilla(case: 
 verificationReminderSecond-description-3 = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(capitalization: "lower", case: "acc") }, no nikdy ste ho nepotvrdili. Potvrďte svoj účet v priebehu nasledujúcich 10 dní, inak bude automaticky vymazaný.
 verificationReminderSecond-description-4 = Pred niekoľkými dňami ste si vytvorili { -product-mozilla-account(capitalization: "lower", case: "acc") }, no doteraz ste ho nepotvrdili. Potvrďte svoj účet v priebehu nasledujúcich 10 dní, inak bude automaticky vymazaný.
 verificationReminderSecond-second-description = Váš { -product-firefox-account(capitalization: "lower") } vám umožňuje synchronizovať informácie naprieč zariadeniami a odomyká vám prístup k produktom { -brand-mozilla(case: "gen") }, ktoré ešte viac chránia súkromie.
-verificationReminderSecond-second-description-2 = Váš { -product-mozilla-account(capitalization: "lower") } vám umožňuje synchronizovať informácie naprieč zariadeniami a odomyká vám prístup k produktom { -brand-mozilla(case: "gen") }, ktoré ešte viac chránia súkromie.
+verificationReminderSecond-second-description-3 = Váš { -product-mozilla-account(capitalization: "lower") } vám umožňuje synchronizovať údaje { -brand-firefox(case: "gen") } naprieč zariadeniami a odomyká vám prístup k produktom { -brand-mozilla(case: "gen") }, ktoré ešte viac chránia súkromie.
 verificationReminderSecond-sub-description-2 = Staňte sa súčasťou nášho poslania premeniť internet na miesto, ktoré je otvorené pre každého.
 verificationReminderSecond-action-2 = Potvrdiť účet
 verify-title-2 = Poďte na internet pomocou { -brand-firefox(case: "gen") }
