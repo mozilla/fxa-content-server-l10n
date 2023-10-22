@@ -201,7 +201,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Njëkohësimi lyp dy anë
 cadReminderFirst-description-1 = Merrini skedat tuaja në krejt pajisjet tuaja. Merrni faqerojtësit tuaj, fjalëkalimet dhe të tjera të dhëna kudo që përdorni { -brand-firefox }-in. Njësoj si të kishit fuqi magjike në llogarinë tuaj { -brand-firefox }!
-cadReminderFirst-description-2 = Njëkohësimi lyp vetëm një sekondë.
 cadReminderSecond-subject-2 = Mos humbni rastin! Le të përfundojmë ujdisjen e njëkohësimit tuaj
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
 cadReminderSecond-title-2 = Mos harroni të bëni njëkohësim!
@@ -242,8 +241,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Hyrje e re te { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Për të bërë hyrjen qe përdorur { -product-firefox-account } e juaja
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +257,6 @@ passwordChangeRequired-title = Lypset Ndryshim Fjalëkalimi
 passwordChangeRequired-suspicious-activity = Pikasëm sjellje të dyshimtë në { -product-firefox-account } tuajën. Për të parandaluar hyrje të paautorizuar te { -product-firefox-account }, kemi shkëputur krejt pajisjet në llogarinë tuaj dhe, si masë parandaluese, po ju kërkojmë të ndryshoni doemos fjalëkalimin tuaj.
 passwordChangeRequired-sign-in = Rihyni në çfarëdo pajisje ose shërbim ku përdorni { -product-firefox-account } tuajën dhe ndiqni hapat që do t’ju paraqiten.
 passwordChangeRequired-different-password = <b>E rëndësishme:</b> zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
-passwordChangeRequired-signoff = Gjithë të mirat,
-passwordChangeRequired-signoff-name = Ekipi i { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 passwordReset-subject = Fjalëkalimi u përditësua
 passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
@@ -275,16 +270,8 @@ passwordResetAccountRecovery-action-2 = Krijo një kyç të ri rimarrjeje llogar
 passwordResetAccountRecovery-regen-required-mjml-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët:
-postAddAccountRecovery-subject-2 = U krijua kyç rimarrjeje llogarie
 postAddAccountRecovery-title2 = Krijuat një kyç të ri rimarrjeje llogarie
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Një kyç i ri u krijua nga:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Nuk jeni ju?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Fshijeni kyçin e ri</a> dhe <a data-l10n-name="passwordChangeLink">ndryshoni fjalëkalimin tuaj</a>
 postAddAccountRecovery-action = Administroni llogarinë
-postAddAccountRecovery-delete-key = Fshini kyçin e ri:
-postAddAccountRecovery-changd-password = Ndryshoni fjalëkalimin tuaj:
 postAddLinkedAccount-subject = Llogari e re e lidhur me { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -296,6 +283,7 @@ postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
 postAddTwoStepAuthentication-from-device = E aktivizuat që nga:
 postAddTwoStepAuthentication-action = Administroni llogarinë
 postAddTwoStepAuthentication-code-required-2 = Tani e tutje, sa herë që bëni hyrjen, kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
+postChangeAccountRecovery-action = Administroni llogarinë
 postChangePrimary-subject = Email-i parësor u përditësua
 postChangePrimary-title = Email parësor i ri
 # Variables:
@@ -317,11 +305,7 @@ postNewRecoveryCodes-title-2 = Krijuat kode mirëfilltësimi kopjeruajtje të ri
 postNewRecoveryCodes-description-2 = U krijuan në:
 postNewRecoveryCodes-action = Administroni llogarinë
 postRemoveAccountRecovery-subject-2 = U fshi kyç rimarrjeje llogarie
-postRemoveAccountRecovery-title-2 = Fshitë kyçin tuaj të rimarrjes së llogarisë.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = U fshi nga:
 postRemoveAccountRecovery-action = Administroni llogarinë
-postRemoveAccountRecovery-invalid-2 = Ju duhet një kyç rimarrjeje llogarie që të rimerrni të dhënat tuaja { -brand-firefox }, nëse harroni fjalëkalimin tuaj.
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
 # Variables:
@@ -520,7 +504,6 @@ subscriptionUpgrade-upgrade-info = Bëtë me sukses përmirësimin nga { $produc
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Duke filluar me faturën tuaj të ardhshme, vlera që ju faturohet do të ndryshohet nga { $paymentAmountOld } për { $productPaymentCycleOld } në { $paymentAmountNew } për { $productPaymentCycleNew }. Në atë kohë do t’ju faturohet edhe një tarifë vetëm për një herë prej { $paymentProrated } për të pasqyruar tarifën më të lartë për pjesën e mbetur të këtij { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Do t’ju faturohet një tarifë njëherëshe prej { $paymentProrated } për të pasqyruar rritjen e çmimit të pajtimit tuaj për pjesën e mbetur të këtij { $productPaymentCycleOld }. Duke filluar me faturën tuaj pasuese, vlera e faturimit tuaj do të ndryshojë nga { $paymentAmountOld } për { $productPaymentCycleOld } në { $paymentAmountNew } për { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
