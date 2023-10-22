@@ -1250,6 +1250,9 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"Pokračovaním súhlasíte s:<br />\n"
+"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Podmienkami používania služby</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Vyhlásením o ochrane osobných údajov</a> služby Pocket<br />\n"
+"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Vyhlásením o ochrane osobných údajov</a> pre prehliadač Firefox"
 
 #: .es5/templates/index.mustache:22
 msgid ""

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-02 18:01+0000\n"
+"PO-Revision-Date: 2023-10-22 17:14+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Účty Mozilla"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -88,6 +88,9 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Účet Mozilla využíva funkcie, ktoré vo vašej verzii Firefoxu\n"
+"nie sú podporované. Prosím, stiahnite a\n"
+"nainštalujte si najnovšiu verziu Firefoxu."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -100,3 +103,6 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Účet Firefox používa funkcie, ktoré nie sú podporované\n"
+"vo vašej verzii Firefoxu. Prosím, stiahnite a nainštalujte\n"
+"si najnovšiu verziu Firefoxu."
