@@ -143,6 +143,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Pokud jste své heslo neměnili, okamžitě ho prosím obnovte na adrese { $resetLink }
+brand-banner-message = Víte, že jsme změnili název z { -product-firefox-accounts } na { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Zjistit více</a>
 cancellationSurvey = Pomozte nám vylepšit naše služby tím, že se zúčastníte tohoto <a data-l10n-name="cancellationSurveyUrl">krátkého průzkumu</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:
@@ -343,6 +344,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Na všech synchronizovanýc
 passwordResetAccountRecovery-regen-required-txt-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali:
 postAddAccountRecovery-subject-3 = Nový obnovovací klíč k účtu byl vytvořen
 postAddAccountRecovery-title2 = Vytvořili jste nový obnovovací klíč k účtu
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Uložte si tento klíč na bezpečné místo — budete ho potřebovat k obnovení zašifrovaných údajů o prohlížení, pokud zapomenete heslo.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Tento klíč lze použít pouze jednou. Jakmile ho začnete používat, automaticky vám vytvoříme nový. Nebo si můžete kdykoli vytvořit nový v nastavení účtu.
 postAddAccountRecovery-action = Správa účtu
 postAddLinkedAccount-subject = Nový účet propojený s { -brand-firefox(case: "ins") }
 postAddLinkedAccount-subject-2 = Nový účet propojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lowercase") }
@@ -362,6 +367,7 @@ postAddTwoStepAuthentication-code-required-2 = Při každém přihlášení teď
 postChangeAccountRecovery-subject = Obnovovací klíč k účtu byl změněn
 postChangeAccountRecovery-title = Změnili jste svůj obnovovací klíč k účtu
 postChangeAccountRecovery-body-part1 = Nyní máte nový obnovovací klíč k účtu. Váš předchozí klíč byl smazán.
+postChangeAccountRecovery-body-part2 = Tento nový klíč si uložte na bezpečné místo — budete ho potřebovat k obnovení zašifrovaných dat prohlížení, pokud zapomenete své heslo.
 postChangeAccountRecovery-action = Spravovat účet
 postChangePrimary-subject = Hlavní e-mailová adresa aktualizována
 postChangePrimary-title = Nová hlavní e-mailová adresa
@@ -390,6 +396,8 @@ postNewRecoveryCodes-description-2 = Byly vytvořeny na:
 postNewRecoveryCodes-action = Správa účtu
 postRemoveAccountRecovery-subject-2 = Obnovovací klíč k účtu byl smazán
 postRemoveAccountRecovery-title-3 = Smazali jste svůj obnovovací klíč k účtu
+postRemoveAccountRecovery-body-part1 = Pokud zapomenete heslo, je vyžadován obnovovací klíč k vašemu účtu.
+postRemoveAccountRecovery-body-part2 = Pokud jste tak ještě neučinili, vytvořte si v nastavení účtu nový obnovovací klíč k účtu, abyste předešli ztrátě svých uložených hesel, záložek, historie prohlížení a dalších věcí.
 postRemoveAccountRecovery-action = Správa účtu
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
@@ -641,6 +649,7 @@ verificationReminderSecond-title-3 = Nenechte si ujít { -brand-mozilla }!
 verificationReminderSecond-description-3 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 10 dní, jinak bude automaticky smazán.
 verificationReminderSecond-description-4 = Před několika dny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 10 dní, jinak bude automaticky smazán.
 verificationReminderSecond-second-description = Váš { -product-firefox-account } vám umožňuje synchronizovat vaše informace mezi zařízeními a odemyká přístup k produktům { -brand-mozilla }, které ještě více chrání soukromí.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account } vám umožňuje synchronizovat { -brand-firefox(case: "acc") } mezi zařízeními a odemyká přístup k produktům { -brand-mozilla }, které ještě více chrání soukromí.
 verificationReminderSecond-sub-description-2 = Staňte se součástí našeho poslání proměnit internet v místo, které je otevřené pro každého.
 verificationReminderSecond-action-2 = Potvrdit účet
 verify-title-2 = Pojďte na internet pomocí { -brand-firefox(case: "acc") }
