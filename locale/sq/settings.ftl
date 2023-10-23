@@ -475,11 +475,18 @@ flow-recovery-key-success-alert = U krijua kyç rimarrjeje llogarie
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Ndihmëza duhet të përmbajë më pak se 255 shenja.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Ndihmëza s’mund të përmbajë shenja unikod jo të parrezik. Lejohen vetëm shkronja, numra, shenja pikësimi dhe simbole.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Krijoni një kyç rimarrjeje llogarie, për rastin kur harroni fjalëkalimin tuaj
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Ndryshoni kyçin e rimarrjes së llogarisë tuaj
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Të dhënat e shfletimit i fshehtëzojmë –– fjalëkalime, faqerojtës, etj. Kjo është e mirë për privatësinë, por mund të humbni të dhënat tuaja, nëse harroni fjalëkalimin.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Fillojani
 # Link to cancel account recovery key change and return to settings
@@ -683,14 +690,15 @@ recent-activity-account-two-factor-success = Mirëfilltësimi dyhapësh qe i suk
 recent-activity-account-two-factor-removed = Mirëfilltësimi dyhapësh u hoq
 recent-activity-account-password-reset-requested = Ricaktim fjalëkalimi kërkuar nga llogaria
 recent-activity-account-password-reset-success = Ricaktim fjalëkalimi llogarie i suksesshëm
-recent-activity-account-recovery-key-added = U aktivizua kyç rikthimi llogarie
-recent-activity-account-recovery-key-verification-failure = Verifikimi i kyçit të rikthimit të llogarisë dështoi
-recent-activity-account-recovery-key-verification-success = Verifikim i suksesshëm i kyçit të rikthimit të llogarisë
+recent-activity-account-recovery-key-added = U aktivizua kyç rimarrjeje llogarie
+recent-activity-account-recovery-key-verification-failure = Verifikimi i kyçit të rimarrjes së llogarisë dështoi
+recent-activity-account-recovery-key-verification-success = Verifikim i suksesshëm i kyçit të rimarrjes së llogarisë
 recent-activity-account-recovery-key-removed = Kyçi i rimarrjes së llogarisë u hoq
 recent-activity-account-password-added = U shtua fjalëkalim i ri
 recent-activity-account-password-changed = Fjalëkalimi u ndryshua
 recent-activity-account-secondary-email-added = U shtua adresë email dytësore
 recent-activity-account-secondary-email-removed = U hoq adresë email dytësore
+recent-activity-account-emails-swapped = Ndërruan vendet email-i parësor me atë dytësor
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Tjetër veprimtari në llogari
 
@@ -948,10 +956,18 @@ terms-privacy-agreement-intro-2 = Duke vazhduar, pajtoheni me:
 terms-privacy-agreement-pocket = <pocketTos>Terma Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim Privatësie</pocketPrivacy> të { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kushte Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim mbi Privatësinë</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor }'s <monitorTos>Kushte Shërbimi dhe Shënim Privatësie</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Kushte Shërbimi dhe Shënim Privatësie</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Terma Shërbimi</firefoxTos> dhe <firefoxPrivacy>Shënim Privatësie</firefoxPrivacy> të { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim Privatësie</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Duke vazhduar, pajtoheni me <firefoxTos>Terma Shërbimi</firefoxTos> dhe <firefoxPrivacy>Shënim Privatësie</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Duke vazhduar, pajtoheni me <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim Privatësie</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -993,6 +1009,7 @@ auth-error-1011 = Lypset email i vlefshëm
 
 cannot-create-account-header = S’krijohet dot llogaria
 cannot-create-account-requirements = Duhet të plotësoni disa domosdoshmëri moshe, që të krijoni një { -product-firefox-account }.
+cannot-create-account-requirements-2 = Duhet të plotësoni disa domosdoshmëri moshe, që të krijoni një { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Mësoni më tepër
 
@@ -1028,6 +1045,7 @@ connect-another-device-ios-complete-setup-message = Hyni te { -brand-firefox }-i
 
 cookies-disabled-header = Depozitimi vendor dhe cookie-t janë të domosdoshme
 cookies-disabled-enable-prompt = Ju lutemi, që të përdorni { -product-firefox-accounts }, aktivizoni te shfletuesi juaj cookie-t dhe depozitimin vendor. Kjo do të bëjë të mundur funksione të tillë si mbajtja mend e përdoruesit mes dy sesionesh.
+cookies-disabled-enable-prompt-2 = Ju lutemi, që të përdorni { -product-mozilla-account } tuajën, aktivizoni te shfletuesi juaj cookie-t dhe depozitimin vendor. Kjo do të bëjë të mundur funksione të tillë si mbajtja mend e përdoruesit mes dy sesionesh.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Riprovoni
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1228,6 +1246,7 @@ account-recovery-confirm-key-heading-w-default-service = Ricaktoni fjalëkalimin
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ricaktoni fjalëkalimin përmes kyçi rimarrjeje llogarie, <span>që të vazhdoni te { $serviceName }</span>
 account-recovery-confirm-key-instructions = Ju lutemi, që të rimerrni hyrjen te { -product-firefox-account } juaj, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik.
+account-recovery-confirm-key-instructions-2 = Ju lutemi, që të rimerrni hyrjen te { -product-mozilla-account } juaj, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik.
 account-recovery-confirm-key-warning-message = <span>SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga shërbyesi, f.v., historik dhe shfletues).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1260,6 +1279,7 @@ complete-reset-password-success-alert = Fjalëkalimi u caktua
 # Displayed in an alert bar
 complete-reset-password-error-alert = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
 complete-reset-password-recovery-key-error-v2 = Na ndjeni, pati një problem me kontrollin për të parë nëse keni një kyç rimarrjeje llogarie.
+complete-reset-password-recovery-key-link = Ricaktoni fjalëkalimin tuaj me kyçin tuaj të rimarrjes së llogarisë.
 
 ## Confirm Reset Password Component
 
@@ -1365,6 +1385,10 @@ signin-reported-message = Ekipi ynë i njoftua. Raporte si ky na ndihmojnë të 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Jepni kod ripohimi <span>për { -product-firefox-account } tuajën</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Jepni kod ripohimi <span>për { -product-mozilla-account } tuajën</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Jepni brenda 5 minutash kodin që u dërgua te { $email }.
 signin-token-code-input-label-v2 = Jepni kodin 6-shifror
@@ -1416,6 +1440,10 @@ confirm-signup-code-page-title = Jepni kodin e ripohimit
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Jepni kod ripohimi <span>për { -product-firefox-account } tuajën</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Jepni kod ripohimi <span>për { -product-mozilla-account } tuajën</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Jepni brenda 5 minutash kodin që u dërgua te { $email }.
 confirm-signup-code-input-label = Jepni kodin 6-shifror
