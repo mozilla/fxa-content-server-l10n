@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronisera enheter">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheter">
 fxa-privacy-url = { -brand-mozilla } sekretesspolicy
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } sekretesspolicy
 fxa-service-url = Användarvillkor för { -product-firefox-cloud }
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } användarvillkor
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logotyp">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logotyp">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logotyp">
 subplat-automated-email = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
 subplat-privacy-notice = Sekretessmeddelande
 subplat-privacy-plaintext = Sekretessmeddelande:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Sekretesspolicy för { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Användarvillkor för { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } användarvillkor
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisk information
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Sekretess
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Lösenordet har återställts
 passwordResetAccountRecovery-description-2 = Du använde din kontoåterställningsnyckel för att uppdatera ditt lösenord från:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Skapa en ny kontoåterställningsnyckel
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Skapa kontoåterställningsnyckel
 passwordResetAccountRecovery-regen-required-mjml-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Missa inte { -brand-mozilla }!
 verificationReminderSecond-description-3 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 10 dagarna, annars kommer det att raderas automatiskt.
 verificationReminderSecond-description-4 = För några dagar sedan skapade du ett { -product-mozilla-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 10 dagarna, annars kommer det att raderas automatiskt.
 verificationReminderSecond-second-description = Ditt { -product-firefox-account } låter dig synkronisera din information mellan enheter och låser upp åtkomst till mer integritetsskyddande produkter från { -brand-mozilla }
-verificationReminderSecond-second-description-2 = Ditt { -product-mozilla-account } låter dig synkronisera din information mellan enheter och låser upp åtkomst till mer integritetsskyddande produkter från { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Ditt { -product-mozilla-account } låter dig synkronisera din { -brand-firefox }-upplevelse mellan enheter och låser upp åtkomst till mer integritetsskyddande produkter från { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Bli en del av vårt uppdrag att förvandla internet till en plats som är öppen för alla.
 verificationReminderSecond-action-2 = Bekräfta konto
 verify-title-2 = Öppna internet med { -brand-firefox }

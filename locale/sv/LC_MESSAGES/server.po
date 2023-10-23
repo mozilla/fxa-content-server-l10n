@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-09-30 01:10+0000\n"
+"PO-Revision-Date: 2023-10-21 06:50+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla-konton"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -94,6 +94,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Ditt Mozilla-konto använder funktioner som inte stöds\n"
+"                        i din version av Firefox. Ladda ner och\n"
+"                        installera den senaste versionen av Firefox för att\n"
+"                        fortsätta."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -106,3 +110,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Firefox-konton använder sig av funktioner som\n"
+"inte stöds i din version av Firefox. Ladda ner och\n"
+"installera den senaste versionen av Firefox för att\n"
+"fortsätta."
