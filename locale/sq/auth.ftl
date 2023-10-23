@@ -119,12 +119,31 @@ automatedEmailRecoveryKey-origin-device-browser-only = Kjo kërkesë erdhi nga {
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
 automatedEmailRecoveryKey-origin-device-OS-version-only = Kjo kërkesë erdhi nga { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Kjo kërkesë erdhi nga { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Nëse s’qetë ju, <a data-l10n-name="revokeAccountRecoveryLink">fshijeni kyçin e ri</a> dhe <a data-l10n-name="passwordChangeLink">ndryshoni fjalëkalimin tuaj</a>.
+automatedEmailRecoveryKey-change-pwd-only = Nëse s’qetë ju, <a data-l10n-name="passwordChangeLink">ndryshoni fjalëkalimin tuaj</a>.
+automatedEmailRecoveryKey-more-info = Për më tepër hollësi, vizitoni <a data-l10n-name="supportLink">Asistencën { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Kjo kërkesë erdhi nga:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Nëse s’qetë ju, fshijeni kyçin e ri:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Nëse s’qetë ju, ndryshoni fjalëkalimin tuaj:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = dhe ndryshoni fjalëkalimin tuaj:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Për më tepër hollësi, vizitoni Asistencën { -brand-mozilla }:
 automated-email-reset =
-    Ky është një email i automatizuar; nëse nuk e autorizuat ju këtë veprim, atëherë <a data-l10n-name="resetLink">ju lutemi, ndryshoni fjalëkalimin tuaj</a>.
+    Ky është një email i automatizuar; nëse këtë veprim s’e autorizuat ju, atëherë <a data-l10n-name="resetLink">ju lutemi, ndryshoni fjalëkalimin tuaj</a>.
     Për më tepër hollësi, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Nëse s’e ndryshuat ju, ju lutemi, fjalëkalimin tuaj që tani te { $resetLink }
+automated-email-reset-plaintext = Nëse s’e ndryshuat ju, ju lutemi, ricaktoni fjalëkalimin tuaj që tani te { $resetLink }
+brand-banner-message = E dini se ndryshuam emrin tonë nga { -product-firefox-accounts } në { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mësoni më tepër</a>
 cancellationSurvey = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë <a data-l10n-name="cancellationSurveyUrl">pyetësor të shkurtër</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë pyetësor të shkurtër:
@@ -242,6 +261,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Njëkohësimi lyp dy anë
 cadReminderFirst-description-1 = Merrini skedat tuaja në krejt pajisjet tuaja. Merrni faqerojtësit tuaj, fjalëkalimet dhe të tjera të dhëna kudo që përdorni { -brand-firefox }-in. Njësoj si të kishit fuqi magjike në llogarinë tuaj { -brand-firefox }!
+cadReminderFirst-description-v2 = Merrini skedat tuaja në krejt pajisjet tuaja. Merrni faqerojtësit tuaj, fjalëkalimet dhe të tjera të dhëna kudo që përdorni { -brand-firefox }-in.
 cadReminderSecond-subject-2 = Mos humbni rastin! Le të përfundojmë ujdisjen e njëkohësimit tuaj
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
 cadReminderSecond-title-2 = Mos harroni të bëni njëkohësim!
@@ -253,12 +273,14 @@ downloadSubscription-subject = Mirë se vini te { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Mirë se vini te { $productName }.
-downloadSubscription-content-2 = Le t’ia fillojmë duke përdorur krejt veçoritë e përfshira te pajtimi juaj:
+downloadSubscription-content-2 = Le t’ia fillojmë duke përdorur krejt veçoritë që përfshin pajtimi juaj:
 downloadSubscription-link-action-2 = Fillojani
-fraudulentAccountDeletion-subject = { -product-firefox-account } juaj u fshi
+fraudulentAccountDeletion-subject = { -product-firefox-account } e juaja u fshi
+fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } e juaja u fshi
 fraudulentAccountDeletion-title = Llogaria juaj u fshi
 fraudulentAccountDeletion-content = Tani së fundi u krijua një { -product-firefox-account } dhe u bë një faturim pajtimi duke përdorur këtë adresë email. Siç bëjmë me krejt llogaritë e reja, ju kërkuam të ripohoni llogarinë tuaj, duke dëshmuar së pari se kjo adresë email është e vlefshme.
-fraudulentAccountDeletion-content-2 = Hëpërhë shohim se llogaria q’e ripohuar kurrë. Ngaqë s’qe plotësuar ky hap, s’jemi të sigurt nëse ky qe një pajtim i autorizuar. Si pasojë, { -product-firefox-account } e regjistruar me këtë adresë email qe fshirë dhe pajtimi juaj u anulua me rimbursim të gjithë ç’qe faturuar.
+fraudulentAccountDeletion-content-part1-v2 = Tani së fundi u krijua një { -product-mozilla-account } dhe u bë një faturim pajtimi duke përdorur këtë adresë email. Siç bëjmë me krejt llogaritë e reja, ju kërkuam të ripohoni llogarinë tuaj, duke dëshmuar së pari se kjo adresë email është e vlefshme.
+fraudulentAccountDeletion-content-2 = Hëpërhë shohim se llogaria s’qe ripohuar kurrë. Ngaqë s’qe plotësuar ky hap, s’jemi të sigurt nëse ky qe një pajtim i autorizuar. Si pasojë, { -product-firefox-account } e regjistruar me këtë adresë email qe fshirë dhe pajtimi juaj u anulua me rimbursim të gjithë ç’qe faturuar.
 fraudulentAccountDeletion-contact = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me  <a data-l10n-name="mozillaSupportUrl">ekipin tonë të asistencës</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
