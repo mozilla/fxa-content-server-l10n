@@ -487,6 +487,8 @@ flow-recovery-key-info-header = Krijoni një kyç rimarrjeje llogarie, për rast
 flow-recovery-key-info-header-change-key = Ndryshoni kyçin e rimarrjes së llogarisë tuaj
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Të dhënat e shfletimit i fshehtëzojmë –– fjalëkalime, faqerojtës, etj. Kjo është e mirë për privatësinë, por mund të humbni të dhënat tuaja, nëse harroni fjalëkalimin.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Kjo është arsyeja pse një kyç rimarrjeje llogarie është kaq i rëndësishëm –– mund ta përdorni për të rikthyer të dhënat tuaja.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Fillojani
 # Link to cancel account recovery key change and return to settings
@@ -511,6 +513,7 @@ la-unlink-account-button = Shkëpute
 la-set-password-button = Caktoni Fjalëkalim
 la-unlink-heading = Shkëpute prej llogarie palësh të treta
 la-unlink-content-3 = Jeni i sigurt se doni të shkëputet llogaria juaj? Shkëputja e llogarisë tuaj nuk do të thotë nxjerrje juaj automatikisht jashtë Shërbimesh tuaja të Lidhura. Për ta bërë këtë, do t’ju duhet të dilni dorazi që nga ndarja Shërbime të Lidhura.
+la-unlink-content-4 = Para shkëputjes së llogarisë tuaj, duhet të caktoni një fjalëkalim. Pa një fjalëkalim, nuk ka ndonjë mënyrë për të bërë hyrjen, pas shkëputjes së llogarisë tuaj.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -649,6 +652,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Vazhdo
 delete-account-password-input =
     .label = Jepni fjalëkalimin
+pocket-delete-notice = Nëse pajtoheni te Pocket Premium, ju lutemi, mos harroni të <a>anuloni pajtimin tuaj</a>, para fshirjes së llogarisë tuaj.
 delete-account-cancel-button = Anuloje
 delete-account-delete-button-2 = Fshije
 
