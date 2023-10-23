@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-20 09:01+0000\n"
-"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
+"PO-Revision-Date: 2023-10-23 16:17+0000\n"
+"Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -1185,7 +1185,7 @@ msgstr "Wachtwoord vergeten?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr "Voer uw wachtwoord <span class=\"card-subheader\" id=\"subheader\">voor uw Mozilla-account</span> in"
+msgstr "Voer uw wachtwoord <span class=\"card-subheader\" id=\"subheader\">voor uw Firefox-account</span> in"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
