@@ -368,6 +368,7 @@ subscriptionAccountReminderSecond-subject = Kujtues përfundimtar: Ujdisni lloga
 subscriptionAccountReminderSecond-title = Mirë se vini në { -brand-firefox }
 subscriptionAccountReminderSecond-title-2 = Mirë se vini në { -brand-mozilla }
 subscriptionAccountReminderSecond-content-info-2 = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderSecond-content-info-3 = Ca ditë më parë krijuar një { -product-mozilla-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
 subscriptionAccountReminderSecond-content-select-2 = Që të ujdisni një fjalëkalim të ri dhe të përfundoni ripohimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
 subscriptionAccountReminderSecond-action = Krijoni Fjalëkalim
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -521,23 +522,31 @@ unblockCode-report = Nëse jo, ndihmonani të mbajmë jashtë të padëshiruarit
 unblockCode-report-plaintext = Nëse jo, na ndihmoni të mbajmë jashtë të padëshiruarit dhe raportojeni këtë te ne.
 verificationReminderFinal-subject = Kujtuesi i fundit për të ripohuar llogarinë tuaj
 verificationReminderFinal-description = Nja dy javë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Për sigurinë tuaj, do ta fshijmë llogarinë, po s’u verifikua brenda 24 orëve të ardhshme.
+verificationReminderFinal-description-2 = Nja dy javë më parë krijuat një { -product-mozilla-account }, por s’e ripohuat kurrë këtë. Për sigurinë tuaj, do ta fshijmë llogarinë, po s’u verifikua brenda 24 orëve të ardhshme.
 confirm-account = Ripohoni llogarinë
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Mos harroni të ripohoni llogarinë tuaj
 verificationReminderFirst-title-2 = Mirë se vini në { -brand-firefox }
+verificationReminderFirst-title-3 = Mirë se vini në { -brand-mozilla }!
 verificationReminderFirst-description-2 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 15 ditëve të ardhshme, ose do të fshihet automatikisht.
+verificationReminderFirst-description-3 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 15 ditëve të ardhshme, ose do të fshihet automatikisht.
 verificationReminderFirst-sub-description-3 = Mos humbi lajme nga shfletuesi që vë ju dhe privatësinë tuaj mbi të gjitha.
 confirm-email-2 = Ripohoni llogarinë
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Ripohoni llogarinë
 verificationReminderSecond-subject-2 = Mos harroni të ripohoni llogarinë tuaj
 verificationReminderSecond-title-2 = Mos humbni lajmet mbi { -brand-firefox }-in!
+verificationReminderSecond-title-3 = Mos humbni lajmet mbi { -brand-mozilla }-n!
 verificationReminderSecond-description-3 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 10 ditëve të ardhshme, ose do të fshihet automatikisht.
+verificationReminderSecond-description-4 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 10 ditëve të ardhshme, ose do të fshihet automatikisht.
 verificationReminderSecond-second-description = { -product-firefox-account } juaj ju lejon të njëkohësoni informacionin tuaj nëpër pajisje dhe shkyç portën për më tepër produkte { -brand-mozilla } që mbrojnë privatësinë.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account } juaj ju lejon të njëkohësoni punimin tuaj me { -brand-firefox }nëpër pajisje dhe shkyç portën për më tepër produkte { -brand-mozilla } që mbrojnë privatësinë.
 verificationReminderSecond-sub-description-2 = Bëhuni pjesë e misionit tonë për të shndërruar internetin në një vend që është i hapët për këdo.
 verificationReminderSecond-action-2 = Ripohoni llogarinë
 verify-title-2 = Hapeni internetin me { -brand-firefox }
+verify-title-3 = Hapeni internetin me { -brand-mozilla }
 verify-description = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
+verify-description-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action-2 = Ripohoni llogarinë
 # Variables:
@@ -568,13 +577,19 @@ verifySecondaryCode-action-2 = Ripohoni email-in
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Prej llogarisë vijuese { -product-mozilla-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondaryCode-prompt-2 = Përdor këtë kod ripohimi:
 verifySecondaryCode-expiry-notice-2 = Skadon për 5 minuta. Pas ripohimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Ripohoni llogarinë tuaj
 verifyShortCode-title-2 = Hapeni internetin me { -brand-firefox }
+verifyShortCode-title-3 = Hapeni internetin me { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verifyShortCode-prompt-3 = Përdor këtë kod ripohimi:
 verifyShortCode-expiry-notice = Skadon për 5 minuta.
