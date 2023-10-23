@@ -136,7 +136,7 @@ payment-confirmation-download-button = Emboguejy ehóvo
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ tepy ojekuaáva, ojogueraháva umi <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
-payment-confirm-checkbox-error = Emyenyhẽraẽ kóva eku’ejey mboyve
+payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 ## Component - PaymentErrorView
 
@@ -508,7 +508,7 @@ sub-invoice-error =
     .title = Apañuãi emyanyhẽvo kuatiañemure
 sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
 sub-invoice-previews-error-title = Apañuãi emyanyhẽvo kuatiañemure
-sub-invoice-previews-error-text = Ndaikatúi oñemyenyhẽ kuatiañemure jehecha’ypy
+sub-invoice-previews-error-text = Ndaikatúi oñemyanyhẽ kuatiañemure jehecha’ypy
 
 ## Routes - Subscription - ActionButton
 
