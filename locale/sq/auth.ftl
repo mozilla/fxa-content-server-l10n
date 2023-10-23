@@ -281,30 +281,32 @@ fraudulentAccountDeletion-title = Llogaria juaj u fshi
 fraudulentAccountDeletion-content = Tani së fundi u krijua një { -product-firefox-account } dhe u bë një faturim pajtimi duke përdorur këtë adresë email. Siç bëjmë me krejt llogaritë e reja, ju kërkuam të ripohoni llogarinë tuaj, duke dëshmuar së pari se kjo adresë email është e vlefshme.
 fraudulentAccountDeletion-content-part1-v2 = Tani së fundi u krijua një { -product-mozilla-account } dhe u bë një faturim pajtimi duke përdorur këtë adresë email. Siç bëjmë me krejt llogaritë e reja, ju kërkuam të ripohoni llogarinë tuaj, duke dëshmuar së pari se kjo adresë email është e vlefshme.
 fraudulentAccountDeletion-content-2 = Hëpërhë shohim se llogaria s’qe ripohuar kurrë. Ngaqë s’qe plotësuar ky hap, s’jemi të sigurt nëse ky qe një pajtim i autorizuar. Si pasojë, { -product-firefox-account } e regjistruar me këtë adresë email qe fshirë dhe pajtimi juaj u anulua me rimbursim të gjithë ç’qe faturuar.
+fraudulentAccountDeletion-content-part2-v2 = Hëpërhë shohim se llogaria s’qe ripohuar kurrë. Ngaqë s’qe plotësuar ky hap, s’jemi të sigurt nëse ky qe një pajtim i autorizuar. Si pasojë, { -product-mozilla-account } e regjistruar me këtë adresë email qe fshirë dhe pajtimi juaj u anulua me rimbursim të gjithë ç’qe faturuar.
 fraudulentAccountDeletion-contact = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me  <a data-l10n-name="mozillaSupportUrl">ekipin tonë të asistencës</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me ekipin tonë të asistencës: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title-zero = Keni mbetur pa kode mirëfilltësimi kopjeruajtje!
-codes-reminder-title-one = Keni mbetur me kodin e fundit mirëfilltësimi kopjeruajtje!
-codes-reminder-title-two = Ka ardhur koha për të krijuar më tepër kode mirëfilltësimi kopjeruajtje
-codes-reminder-description-part-one = Kodet e mirëfilltësimit kopjeruajtje ju ndihmojnë të riktheni informacionin tuaj, kur harroni fjalëkalimin.
+codes-reminder-title-zero = Keni mbetur pa kode mirëfilltësimi kopjeruajtjeje!
+codes-reminder-title-one = Keni mbetur me kodin e fundit mirëfilltësimi kopjeruajtjeje!
+codes-reminder-title-two = Ka ardhur koha për të krijuar më tepër kode mirëfilltësimi kopjeruajtjesh
+codes-reminder-description-part-one = Kodet e mirëfilltësimit të kopjeruajtjes ju ndihmojnë të riktheni informacionin tuaj, kur harroni fjalëkalimin.
 codes-reminder-description-part-two = Krijoni kode të rinj tani, që të mos humbni të dhëna më vonë.
 codes-reminder-description-two-left = Ju kanë mbetur vetëm dy kode.
-codes-reminder-description-create-codes = Krijoni kode të rinj mirëfilltësimi kopjeruajtje, për të ndihmuar veten të riktheheni te llogaria juaj, nëse mbeteni jashtë saj.
+codes-reminder-description-create-codes = Krijoni kode të rinj mirëfilltësimi kopjeruajtjeje, për të ndihmuar veten të riktheheni te llogaria juaj, nëse mbeteni jashtë saj.
 lowRecoveryCodes-action-2 = Krijoni kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [0] Pa kode mirëfilltësimi kopjeruajtje të tjerë
-        [one] Ka mbetur vetëm 1 kod mirëfilltësimi kopjeruajtje
-       *[other] Kanë mbetur vetëm { $numberRemaining } kode mirëfilltësimi kopjeruajtje!
+        [0] Pa kode të tjerë mirëfilltësimi kopjeruajtjeje
+        [one] Ka mbetur vetëm 1 kod mirëfilltësimi kopjeruajtjeje
+       *[other] Kanë mbetur vetëm { $numberRemaining } kode mirëfilltësimi kopjeruajtjeje!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Hyrje e re te { $clientName }
 newDeviceLogin-title-2 = Për të bërë hyrjen qe përdorur { -product-firefox-account } e juaja
+newDeviceLogin-title-3 = Për të bërë hyrjen qe përdorur { -product-mozilla-account } e juaja
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = S’jeni ju? <a data-l10n-name="passwordChangeLink">Ndryshoni fjalëkalimin tuaj</a>.
@@ -315,30 +317,44 @@ newDeviceLogin-action = Administroni llogarinë
 passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
 passwordChanged-description = Fjalëkalimi juaj për { -product-firefox-account } u ndryshua me sukses që nga pajisja vijuese:
+passwordChanged-description-2 = Fjalëkalimi juaj për { -product-mozilla-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
 passwordChangeRequired-title = Lypset Ndryshim Fjalëkalimi
 passwordChangeRequired-suspicious-activity = Pikasëm sjellje të dyshimtë në { -product-firefox-account } tuajën. Për të parandaluar hyrje të paautorizuar te { -product-firefox-account }, kemi shkëputur krejt pajisjet në llogarinë tuaj dhe, si masë parandaluese, po ju kërkojmë të ndryshoni doemos fjalëkalimin tuaj.
+passwordChangeRequired-suspicious-activity-2 = Pikasëm sjellje të dyshimtë në { -product-mozilla-account } tuajën. Për të parandaluar hyrje të paautorizuar te { -product-mozilla-account }, kemi shkëputur krejt pajisjet në llogarinë tuaj dhe, si masë parandaluese, po ju kërkojmë të ndryshoni doemos fjalëkalimin tuaj.
 passwordChangeRequired-sign-in = Rihyni në çfarëdo pajisje ose shërbim ku përdorni { -product-firefox-account } tuajën dhe ndiqni hapat që do t’ju paraqiten.
+passwordChangeRequired-sign-in-2 = Rihyni në çfarëdo pajisje ose shërbim ku përdorni { -product-mozilla-account } tuajën dhe ndiqni hapat që do t’ju paraqiten.
 passwordChangeRequired-different-password = <b>E rëndësishme:</b> zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 passwordReset-subject = Fjalëkalimi u përditësua
 passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
-passwordReset-description = Do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera që të rimerret njëkohësimi.
+passwordReset-description = Që të vazhdohet me njëkohësimin, do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera
 passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordResetAccountRecovery-title-2 = Fjalëkalimi u ricaktua me sukses
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Përdorët kyçin tuaj të rimarrjes së llogarisë për të përditësuar fjalëkalimin tuaj nga:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Krijo një kyç të ri rimarrjeje llogarie
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Krijoni kyç rimarrjeje llogarie
 passwordResetAccountRecovery-regen-required-mjml-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët:
+postAddAccountRecovery-subject-3 = U krijua kyç i ri rimarrjeje llogarie
 postAddAccountRecovery-title2 = Krijuat një kyç të ri rimarrjeje llogarie
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Ruajeni këtë kyç në një vend të sigurt — do t’ju duhet për rikthim të të dhënave të fshehtëzuara të shfletimit tuaj, nëse harroni fjalëkalimin tuaj.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Ky kyç mund të përdoret vetëm një herë. Pasi ta përdorni, do të krijojmë automatikisht për ju një të ri. Ose mund të krijoni një të ri, në çfarëdo kohe, që nga rregullimet e llogarisë tuaj.
 postAddAccountRecovery-action = Administroni llogarinë
 postAddLinkedAccount-subject = Llogari e re e lidhur me { -brand-firefox }
+postAddLinkedAccount-subject-2 = Me { -product-mozilla-account } tuajën u lidh llogari e re
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Llogaria juaj { $providerName } është lidhura me { -product-firefox-account } tuaj
+postAddLinkedAccount-title = Llogaria juaj { $providerName } është lidhur me { -product-firefox-account } tuajën
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Llogaria juaj { $providerName } është lidhur me { -product-mozilla-account } tuajën
 postAddLinkedAccount-action = Administroni llogarinë
 postAddTwoStepAuthentication-subject-2 = Mirëfilltësimi dyhapësh u aktivizua
 postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
@@ -346,6 +362,8 @@ postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
 postAddTwoStepAuthentication-from-device = E aktivizuat që nga:
 postAddTwoStepAuthentication-action = Administroni llogarinë
 postAddTwoStepAuthentication-code-required-2 = Tani e tutje, sa herë që bëni hyrjen, kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
+postChangeAccountRecovery-subject = U ndryshua kyç rimarrjeje llogarie
+postChangeAccountRecovery-title = Ndryshuat kyçin e rimarrjes së llogarisë tuaj
 postChangeAccountRecovery-action = Administroni llogarinë
 postChangePrimary-subject = Email-i parësor u përditësua
 postChangePrimary-title = Email parësor i ri
