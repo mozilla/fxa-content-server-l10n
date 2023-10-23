@@ -647,6 +647,7 @@ verificationReminderSecond-title-3 = Не пропустіть { -brand-mozilla 
 verificationReminderSecond-description-3 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але так і не підтвердили його. Підтвердьте свій обліковий запис протягом наступних 10 днів, інакше його буде автоматично видалено.
 verificationReminderSecond-description-4 = Кілька днів тому ви створили { -product-mozilla-account }, але досі його не підтвердили. Якщо ви не підтвердите свій обліковий запис протягом наступних 10 днів, його буде автоматично видалено.
 verificationReminderSecond-second-description = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } дає можливість синхронізувати ваші дані на різних пристроях і відкриває доступ до більшої кількості продуктів для захисту приватності від { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account(capitalization: "upper") } дає можливість синхронізувати ваші дані { -brand-firefox } на різних пристроях і відкриває доступ до інших продуктів від { -brand-mozilla }, які захищають вашу приватність.
 verificationReminderSecond-sub-description-2 = Станьте частиною нашої місії з перетворення Інтернету на місце, відкрите для всіх.
 verificationReminderSecond-action-2 = Підтвердити обліковий запис
 verify-title-2 = Відкрийте Інтернет за допомогою { -brand-firefox }
