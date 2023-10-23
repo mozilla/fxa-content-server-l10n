@@ -19,6 +19,7 @@ subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -bra
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 subplat-privacy-notice = Marandu’i ñemiguáva
 subplat-privacy-plaintext = Ñemigua porureko:
@@ -122,6 +123,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Ko mba’ejerure ou { 
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Ko mba’ejerure ou { $uaOS }-gui.
+automatedEmailRecoveryKey-delete-key-change-pwd = Nandéiramo, <a data-l10n-name="revokeAccountRecoveryLink">embogue ne mba’eñemi pyahu</a> ha <a data-l10n-name="passwordChangeLink">emoambue ne ñe’ẽñemi</a>
 automatedEmailRecoveryKey-change-pwd-only = ¿Nandéiramo? <a data-l10n-name="passwordChangeLink">Emoambue ne ñe’ẽñemi</a>.
 automatedEmailRecoveryKey-more-info = Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõhápe</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
@@ -333,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Ñe’ẽñemi jeguerujey apañuãi’ỹ
 passwordResetAccountRecovery-description-2 = Eiporu ayvu jeguerujeyrã embohekopyahu hag̃ua ne ñe’ẽñemi tenda guive:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Emoheñói mba’ete mba’eñemi guerujeyrã
 passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eiporuva’ekue.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eiporuva’ekue.
@@ -356,6 +360,7 @@ postAddTwoStepAuthentication-action = Mba’ete ñangareko
 postAddTwoStepAuthentication-code-required-2 = Ko’ág̃a guive ojejeruréta ne rembiporu’i ayvu rekorosã ñemoneĩrã eñepyrũjeývo tembiapo.
 postChangeAccountRecovery-subject = Mba’eñemi guerujeyrã oñemoambuéma
 postChangeAccountRecovery-title = Emoambue ne mba’ete mba’eñemi guerujeyrã
+postChangeAccountRecovery-body-part1 = Eguerekóma mba’ete mba’eñemi guerujeyrã pyahu. Oguéma pe mba’eñemi tuja.
 postChangeAccountRecovery-action = Mba’ete ñangareko
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
