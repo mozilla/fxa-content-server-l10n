@@ -138,6 +138,7 @@ payment-confirmation-download-button = Continue to download
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+payment-confirm-with-legal-links-static-2 = I authorize { -brand-name-mozilla } to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
 
 payment-confirm-checkbox-error = You need to complete this before moving forward
 
@@ -306,6 +307,9 @@ sub-guarantee = 30-day money-back guarantee
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization:"uppercase") }
 terms = Terms of Service
 privacy = Privacy Notice
 terms-download = Download Terms
