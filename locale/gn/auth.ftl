@@ -17,6 +17,7 @@ fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’eporu reko
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 subplat-privacy-notice = Marandu’i ñemiguáva
