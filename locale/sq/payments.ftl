@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Llogari Firefox
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } është i domosdoshëm
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = Stemë e { -brand-name-firefox }-it
 brand-name-mozilla-logo = Stemë { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Keni tashmë një llogari { -brand-name-firefox } account? <a>Hyni në të</a>
 new-user-sign-in-link-2 = Keni tashmë një { -product-mozilla-account }? <a>Bëni hyrjen</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -411,6 +416,7 @@ coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $couponDur
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Krijoni një llogari { -brand-name-firefox }
 new-user-step-1-2 = 1. Krijoni një { -product-mozilla-account }
 new-user-card-title = Jepni hollësitë e kartës tuaj
@@ -442,6 +448,10 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Shqyrtoni ndryshimin tuaj
 sub-change-failed = Ndryshimi i planit dështoi
+sub-update-acknowledgment =
+    Plani juaj do të ndryshojë menjëherë dhe do t’ju faturohet sot vlera e
+    cila i takon pjesës së mbetur e këtij cikli faturimi. Duke filluar nga
+    { $startingDate } do t’ju faturohet vlera e plotë.
 sub-change-submit = Ripohoni ndryshimin
 sub-update-current-plan-label = Plani i tanishëm
 sub-update-new-plan-label = Plan i ri

@@ -343,7 +343,7 @@ cs-cannot-refresh = Na ndjeni, pati një problem me rifreskimin e listës së sh
 cs-cannot-disconnect = S’u gjet klient, s’arrihet të bëhet shkëputje
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = U dol nga { $service }
 cs-refresh-button =
@@ -355,7 +355,7 @@ cs-disconnect-sync-heading = Shkëputu prej Sync-u
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -403,7 +403,9 @@ dc-subheader-2 = Ndihmoni të përmirësohet { -product-mozilla-accounts }
 dc-subheader-content = Lejoje { -product-firefox-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
 dc-subheader-content-2 = Lejojeni { -product-mozilla-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
 dc-opt-out-success = Lënie jashtë e suksesshme. { -product-firefox-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
+dc-opt-out-success-2 = Lënie jashtë e suksesshme. { -product-mozilla-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
 dc-opt-in-success = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-firefox-accounts }.
+dc-opt-in-success-2 = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Na ndjeni, pati një problem në ndryshimin e parapëlqimit tuaj për grumbullim të dhënash
 dc-learn-more = Mësoni më tepër
 
@@ -534,6 +536,7 @@ nav-email-comm = Komunikime Me Email
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Pati një problem me zëvendësimin e kodeve tuaj të mirëfilltësimit kopjeruajtje.
+tfa-create-code-error = Pati një problem me krijimin e kodeve tuaj të mirëfilltësimit të kopjeruajtjes.
 tfa-replace-code-success-1 =
     U krijuan kode të reja. Ruajini këto kode njëpërdorimsh
     mirëfilltësimi kopjeruajtje në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
@@ -616,6 +619,7 @@ delete-account-header =
 delete-account-step-1-2 = Hapi 1 nga 2
 delete-account-step-2-2 = Hapi 2 nga 2
 delete-account-confirm-title-3 = Munde të keni lidhur { -product-firefox-account } tuaj me një ose më tepër produkte ose shërbime vijues { -brand-mozilla } që ju mbajnë në internet të parrezik dhe prodhimtar në internet:
+delete-account-confirm-title-4 = Munde të keni lidhur { -product-mozilla-account } tuaj me një ose më tepër produkte ose shërbime vijues { -brand-mozilla } që ju mbajnë në internet të parrezik dhe prodhimtar në internet:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -666,12 +670,23 @@ recent-activity-title = Veprimtari Llogarie Së Fundi
 recent-activity-account-create-v2 = Llogaria u krijua
 recent-activity-account-disable-v2 = Llogaria u çaktivizua
 recent-activity-account-enable-v2 = Llogaria u aktivizua
+recent-activity-account-login-v2 = U fillua hyrje në llogari
+recent-activity-account-reset-v2 = U fillua ricaktim fjalëkalimi
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = U spastruan email-e të kthyer mbrapsht
 recent-activity-account-login-failure = Dështoi përpjekje për hyrje në llogari
 recent-activity-account-two-factor-added = Mirëfilltësimi dyhapësh u aktivizua
 recent-activity-account-two-factor-requested = U kërkua mirëfilltësim dyhapësh
 recent-activity-account-two-factor-failure = Mirëfilltësimi dyhapësh dështoi
 recent-activity-account-two-factor-success = Mirëfilltësimi dyhapësh qe i suksesshëm
 recent-activity-account-two-factor-removed = Mirëfilltësimi dyhapësh u hoq
+recent-activity-account-password-reset-requested = Ricaktim fjalëkalimi kërkuar nga llogaria
+recent-activity-account-password-reset-success = Ricaktim fjalëkalimi llogarie i suksesshëm
+recent-activity-account-recovery-key-added = U aktivizua kyç rikthimi llogarie
+recent-activity-account-recovery-key-verification-failure = Verifikimi i kyçit të rikthimit të llogarisë dështoi
+recent-activity-account-recovery-key-verification-success = Verifikim i suksesshëm i kyçit të rikthimit të llogarisë
+recent-activity-account-recovery-key-removed = Kyçi i rimarrjes së llogarisë u hoq
 recent-activity-account-password-added = U shtua fjalëkalim i ri
 recent-activity-account-password-changed = Fjalëkalimi u ndryshua
 recent-activity-account-secondary-email-added = U shtua adresë email dytësore
@@ -1027,7 +1042,7 @@ cookies-disabled-learn-more = Mësoni më tepër
 inline-recovery-setup-header-default = <span>Që të vazhdoni te rregullimet e llogarisë</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = <span>Që të vazhdohet te { $serviceName }</span>, ruani kode mirëfilltësimi kopjeruajtjeje
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Ruajini këta kode njëpërdorimsh në një vend të sigurt, për kur të mos keni pajisjen tuaj celulare.
@@ -1047,7 +1062,7 @@ inline-recovery-confirmation-description = Që të garantohet se do të jeni në
 inline-recovery-confirmation-header-default = <span>Që të vazhdoni te rregullimet e llogarisë</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>Që të vazhdoni te { $serviceName }</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
 
 ## InlineTotpSetup page
