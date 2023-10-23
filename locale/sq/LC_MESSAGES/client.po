@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-23 08:41+0000\n"
+"PO-Revision-Date: 2023-10-23 08:44+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1254,7 +1254,7 @@ msgstr "Hyni ose regjistrohuni"
 
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Një llogari Mozilla ju lejon gjithashtu përdorim më tepër produktesh Mozilla që mbrojnë privatësinë."
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1264,6 +1264,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"          Duke vazhduar, pajtoheni me::<br />\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Shënim Privatësie</a><br /> të Pocket-it\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive Mozilla\n"
+"        "
 
 #: .es5/templates/index.mustache:16
 msgid ""
