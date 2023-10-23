@@ -364,12 +364,17 @@ postAddTwoStepAuthentication-action = Administroni llogarinë
 postAddTwoStepAuthentication-code-required-2 = Tani e tutje, sa herë që bëni hyrjen, kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
 postChangeAccountRecovery-subject = U ndryshua kyç rimarrjeje llogarie
 postChangeAccountRecovery-title = Ndryshuat kyçin e rimarrjes së llogarisë tuaj
+postChangeAccountRecovery-body-part1 = Tani keni një kyç të ri rimarrjeje llogarie. Kyçi juaj i mëparshëm u fshi.
+postChangeAccountRecovery-body-part2 = Ruajeni këtë kyç të ri në një vend të sigurt — do t’ju duhet për rikthim të të dhënave të fshehtëzuara të shfletimit tuaj, nëse harroni fjalëkalimin tuaj.
 postChangeAccountRecovery-action = Administroni llogarinë
 postChangePrimary-subject = Email-i parësor u përditësua
 postChangePrimary-title = Email parësor i ri
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = E ndryshuar me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-firefox-account } e juaja, si edhe për të marrë njoftime sigurie dhe konfirmime hyrjesh.
+postChangePrimary-description = E ndryshuat me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-firefox-account } e juaja, si edhe për të marrë njoftime sigurie dhe ripohime hyrjesh.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = E ndryshuat me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-mozilla-account } e juaja, si edhe për të marrë njoftime sigurie dhe ripohime hyrjesh.
 postChangePrimary-action = Administroni llogarinë
 postConsumeRecoveryCode-title-2 = Përdorët një kod mirëfilltësimi kopjeruajtje
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -377,15 +382,16 @@ postConsumeRecoveryCode-description-2 = Qe përdorur në:
 postConsumeRecoveryCode-action = Administroni llogarinë
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
-        [one] Edhe 1 kod mirëfilltësimi kopjeruajtje
-       *[other] Edhe { $numberRemaining } kode mirëfilltësimi kopjeruajtje
+        [one] Edhe 1 kod mirëfilltësimi kopjeruajtjeje
+       *[other] Edhe { $numberRemaining } kode mirëfilltësimi kopjeruajtjeje
     }
-postNewRecoveryCodes-subject-2 = U krijuan kode mirëfilltësimi kopjeruajtje të rinj
-postNewRecoveryCodes-title-2 = Krijuat kode mirëfilltësimi kopjeruajtje të rinj
+postNewRecoveryCodes-subject-2 = U krijuan kode të rinj mirëfilltësimi kopjeruajtjeje
+postNewRecoveryCodes-title-2 = Krijuat kode të rinj mirëfilltësimi kopjeruajtje
 # After the colon, there is information about the device that the authentication codes were created on
-postNewRecoveryCodes-description-2 = U krijuan në:
+postNewRecoveryCodes-description-2 = U krijuan te:
 postNewRecoveryCodes-action = Administroni llogarinë
 postRemoveAccountRecovery-subject-2 = U fshi kyç rimarrjeje llogarie
+postRemoveAccountRecovery-title-3 = Fshitë kyçin tuaj të rimarrjes së llogarisë
 postRemoveAccountRecovery-body-part1 = Kyçi i rimarrjes së llogarisë tuaj është i domosdoshëm për rikthim të dhënash të fshehtëzuara shfletimi, nëse harroni fjalëkalimin tuaj.
 postRemoveAccountRecovery-body-part2 = Nëse s’e keni bërë tashmë, krijoni një kyç të ri rimarrjeje llogarie, që nga rregullimet e llogarisë tuaj, për të parandaluar humbjen e fjalëkalimeve të ruajtur, faqerojtësve, historikut të shfletimeve, etj.
 postRemoveAccountRecovery-action = Administroni llogarinë
@@ -393,10 +399,13 @@ postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
+postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuaj. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-mozilla-account } tuaj. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
 postRemoveTwoStepAuthentication-subject-line-2 = Mirëfilltësimi dyhapësh u çaktivizua
-postRemoveTwoStepAuthentication-title-2 = Çaktivizuar mirëfilltësim dyhapësh
+postRemoveTwoStepAuthentication-title-2 = Çaktivizuat mirëfilltësim dyhapësh
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = E çaktivizuat që nga:
 postRemoveTwoStepAuthentication-action = Administroni llogarinë
@@ -414,12 +423,18 @@ postVerifySecondary-title = Email-i dytësor u shtua
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Keni ripohuar me sukses { $secondaryEmail } si një email dytësor për { -product-firefox-account } tuajën. Njoftimet e sigurisë dhe ripohime hyrjesh tanimë do të dërgohen te të dy adresat.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Keni ripohuar me sukses { $secondaryEmail } si një email dytësor për { -product-mozilla-account } tuajën. Njoftimet e sigurisë dhe ripohime hyrjesh tanimë do të dërgohen te të dy adresat.
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title-2 = Harruat fjalëkalimin tuaj?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-firefox-account } tuaj nga:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
 recovery-new-password-button = Krijoni një fjalëkalim të ri duke klikuar butonin më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.
 recovery-copy-paste = Krijoni një fjalëkalim të ri duke kopjuar dhe ngjitur në shfletuesin tuaj URL-në më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.
 recovery-action = Krijoni fjalëkalim të ri
@@ -431,7 +446,12 @@ subscriptionAccountDeletion-title = Ju shohim me keqardhje teksa ikni
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Tani afër fshitë { -product-firefox-account } tuajën. Si pasojë, anuluam pajtimin tuaj për { $productName }. Pagesa juaj e fundit prej { $invoiceTotal } qe paguar më { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled = Tani afër fshitë { -product-firefox-account } tuajën. Si pasojë, anuluam pajtimin tuaj për { $productName }. Pagesa juaj përfundimtare prej { $invoiceTotal } qe bërë më { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Tani afër fshitë { -product-mozilla-account } tuajën. Si pasojë, anuluam pajtimin tuaj për { $productName }. Pagesa juaj përfundimtare prej { $invoiceTotal } qe bërë më { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Mirë se vini në{ $productName }: Ju lutemi, caktoni fjalëkalimin tuaj.
@@ -440,18 +460,20 @@ subscriptionAccountFinishSetup-subject = Mirë se vini në{ $productName }: Ju l
 subscriptionAccountFinishSetup-title = Mirë se vini te { $productName }.
 subscriptionAccountFinishSetup-content-processing = Pagesa juaj po përpunohet dhe mund të duhen deri në katër ditë pune që të plotësohet. Pajtimi juaj do të rinovohet automatikisht për çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
 subscriptionAccountFinishSetup-content-create-2 = Më pas do të krijoni një fjalëkalim { -product-firefox-account }, që të nisni të përdorni pajtimin tuaj.
+subscriptionAccountFinishSetup-content-create-3 = Më pas do të krijoni një fjalëkalim { -product-mozilla-account }, që të nisni të përdorni pajtimin tuaj.
 subscriptionAccountFinishSetup-action-2 = Fillojani
 subscriptionAccountReminderFirst-subject = Kujtues: Përfundoni ujdisjen e llogarisë tuaj
 subscriptionAccountReminderFirst-title = S’mund të përdorni ende pajtimin tuaj
-subscriptionAccountReminderFirst-content-info-2 = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderFirst-content-info-2 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderFirst-content-info-3 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
 subscriptionAccountReminderFirst-content-select-2 = Që të ujdisni një fjalëkalim të ri dhe të përfundoni ripohimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
 subscriptionAccountReminderFirst-action = Krijoni Fjalëkalim
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Kujtues përfundimtar: Ujdisni llogarinë tuaj
 subscriptionAccountReminderSecond-title = Mirë se vini në { -brand-firefox }
 subscriptionAccountReminderSecond-title-2 = Mirë se vini në { -brand-mozilla }
-subscriptionAccountReminderSecond-content-info-2 = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
-subscriptionAccountReminderSecond-content-info-3 = Ca ditë më parë krijuar një { -product-mozilla-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderSecond-content-info-2 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderSecond-content-info-3 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
 subscriptionAccountReminderSecond-content-select-2 = Që të ujdisni një fjalëkalim të ri dhe të përfundoni ripohimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
 subscriptionAccountReminderSecond-action = Krijoni Fjalëkalim
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -486,7 +508,7 @@ subscriptionDowngrade-content-switch = U hodhët me sukses nga { $productNameOld
 subscriptionDowngrade-content-charge-info = Duke filluar me faturën tuaj të ardhshme, vlera që ju faturohet do të ndryshohet nga { $paymentAmountOld } për { $productPaymentCycleOld } në { $paymentAmountNew } për { $productPaymentCycleNew }. Në atë kohë do t’ju jepet një kredit vetëm për një herë prej { $paymentProrated } për të pasqyruar tarifën më të ulët për pjesën e mbetur të këtij { $productPaymentCycleOld }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Në pastë software të ri që ta instaloni për të mundur të përdorni { $productName }, do të merrni një email veçmas me udhëzime shkarkimi.
+subscriptionDowngrade-content-install = Në pastë <em>software</em> të ri që ta instaloni, për të mundur të përdorni { $productName }, do të merrni një email veçmas me udhëzime shkarkimi.
 subscriptionDowngrade-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -541,7 +563,7 @@ subscriptionReactivation-title = Faleminderit për riaktivizimin e pajtimit tuaj
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionReactivation-content = Cikli juaj i faturimeve dhe pagesa do të mbesin njësoj. Faturimi pasues do të jetë { $invoiceTotal }, më { $nextInvoiceDateOnly }. Pajtimi juaj do të rinovohet automatikisht në çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
+subscriptionReactivation-content = Cikli juaj i faturimeve dhe pagesave do të mbesë njësoj. Faturimi pasues do të jetë { $invoiceTotal }, më { $nextInvoiceDateOnly }. Pajtimi juaj do të rinovohet automatikisht në çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Njoftim rinovimi të automatizuar të { $productName }
