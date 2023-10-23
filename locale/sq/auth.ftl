@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Të hyhet te { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Të hyhet te { -product-mozilla-account } juaj?
 session-verify-send-push-body-2 = Klikoni këtu që të ripohoni se jeni ju
 
 ## Email content
@@ -8,15 +9,20 @@ session-verify-send-push-body-2 = Klikoni këtu që të ripohoni se jeni ju
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Stemë e { -brand-firefox }-it">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Njëkohësoni pajisje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Pajisje">
 fxa-privacy-url = Rregulla Privatësie të { -brand-mozilla }-s
-fxa-service-url = Kushte Shërbimi { -product-firefox-cloud }
+fxa-service-url = Kushte Shërbimi  të { -product-firefox-cloud }
+moz-accounts-terms-url = Kushte Shërbimi të { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Stemë e { -brand-firefox }-it">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Stemë e { -brand-mozilla }-s">
 subplat-automated-email = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
-subplat-privacy-notice = Shënim mbi privatësinë
-subplat-privacy-plaintext = Shënim mbi privatësinë:
+subplat-privacy-notice = Shënim privatësie
+subplat-privacy-plaintext = Shënim privatësie:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
@@ -24,24 +30,39 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Këtë email e merrni ngaqë për { $email } ka një { -product-firefox-account } dhe jeni regjistruar për { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Këtë email e merrni ngaqë për { $email } ka një { -product-mozilla-account } dhe jeni regjistruar për { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Këtë email po e merrni, ngaqë për { $email } ka një { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Këtë email po e merrni, ngaqë për { $email } ka një { -product-mozilla-account }.
 subplat-explainer-multiple = Këtë email po e merrni ngaqë { $email } ka një { -product-firefox-account } dhe jeni pajtuar te disa produkte.
+subplat-explainer-multiple-2 = Këtë email po e merrni ngaqë { $email } ka një { -product-mozilla-account } dhe jeni pajtuar te disa produkte.
 subplat-explainer-was-deleted = Këtë email po e merrni, ngaqë { $email } qe regjistruar për një { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Këtë email po e merrni, ngaqë { $email } qe regjistruar për një { -product-mozilla-account }.
 subplat-manage-account = Administroni rregullimet tuaja { -product-firefox-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
+subplat-manage-account-2 = Administroni rregullimet tuaja { -product-mozilla-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Administroni rregullimet për { -product-firefox-account } tuajën, duke vizituar faqen e llogarisë tuaj: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Administroni rregullimet për { -product-mozilla-account } tuajën, duke vizituar faqen e llogarisë tuaj: { $accountSettingsUrl }
 subplat-terms-policy = Kushte dhe rregulla anulimi
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anulojeni pajtimin
 subplat-cancel-plaintext = { subplat-cancel }:
-subplat-reactivate = Riaktivizo pajtimin
+subplat-reactivate = Riaktivizoni pajtimin
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Përditësoni të dhëna faturimi
 subplat-privacy-policy = Rregulla Privatësie të { -brand-mozilla }-s
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = Kushte Shërbimi { -product-firefox-cloud }
+subplat-cloud-terms = Kushte Shërbimi të { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Kushte Shërbimi të { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Ligjore
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatësi
@@ -63,7 +84,7 @@ another-device-2 = Instalojeni { $productName } në <a data-l10n-name="anotherDe
 android-download-plaintext = Merrni { $productName } në Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-ios-download-plaintext = Shkarkoni { $productName } në App Store:
+ios-download-plaintext = Shkarkojeni { $productName } nga App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instaloni { $productName } në tjetër pajisje:
@@ -78,6 +99,26 @@ automated-email-no-action = { automated-email-no-action-plaintext } Për më tep
 automated-email-no-action-plaintext = Ky është një email i automatizuar. Nëse e morët gabimisht, s’ju duhet të bëni gjë.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ky është një email i automatizuar; nëse s’e autorizoni këtë veprim, atëherë, ju lutemi, ndryshoni fjalëkalimin tuaj:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Kjo kërkesë erdhi nga { $uaBrowser } në { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Kjo kërkesë erdhi nga { $uaBrowser } në { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Kjo kërkesë erdhi nga { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Kjo kërkesë erdhi nga { $uaOS } { $uaOSVersion }.
 automated-email-reset =
     Ky është një email i automatizuar; nëse nuk e autorizuat ju këtë veprim, atëherë <a data-l10n-name="resetLink">ju lutemi, ndryshoni fjalëkalimin tuaj</a>.
     Për më tepër hollësi, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
@@ -305,6 +346,8 @@ postNewRecoveryCodes-title-2 = Krijuat kode mirëfilltësimi kopjeruajtje të ri
 postNewRecoveryCodes-description-2 = U krijuan në:
 postNewRecoveryCodes-action = Administroni llogarinë
 postRemoveAccountRecovery-subject-2 = U fshi kyç rimarrjeje llogarie
+postRemoveAccountRecovery-body-part1 = Kyçi i rimarrjes së llogarisë tuaj është i domosdoshëm për rikthim të dhënash të fshehtëzuara shfletimi, nëse harroni fjalëkalimin tuaj.
+postRemoveAccountRecovery-body-part2 = Nëse s’e keni bërë tashmë, krijoni një kyç të ri rimarrjeje llogarie, që nga rregullimet e llogarisë tuaj, për të parandaluar humbjen e fjalëkalimeve të ruajtur, faqerojtësve, historikut të shfletimeve, etj.
 postRemoveAccountRecovery-action = Administroni llogarinë
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
