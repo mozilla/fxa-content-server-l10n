@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-23 08:55+0000\n"
+"PO-Revision-Date: 2023-10-23 09:36+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -35,7 +35,7 @@ msgstr "Llogaria u fshi me sukses"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Përdoreni kodin %(code)s që të rregulloni mirëfilltësim dyhapsh te aplikacione që e mbulojnë."
+msgstr "Përdoreni kodin %(code)s që të rregulloni mirëfilltësim dyhapash te aplikacione që e mbulojnë."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"

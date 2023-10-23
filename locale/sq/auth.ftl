@@ -580,11 +580,11 @@ subscriptionRenewalReminder-content-current = Pajtimi juaj aktual është ujdisu
 subscriptionRenewalReminder-content-closing = Sinqerisht,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionRenewalReminder-content-signature = Ekipi i { $productName }
+subscriptionRenewalReminder-content-signature = Ekipi i { $productName }-s
 subscriptionsPaymentExpired-subject-1 = Karta e kreditit për pajtimet tuaja ka skaduar, ose skadon së shpejti
 subscriptionsPaymentExpired-title-1 = Karta juaj e kreditit ka skaduar ose është afër skadimit
 subscriptionsPaymentExpired-content-1 = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese ka skaduar, ose është afër skadimit.
-subscriptionsPaymentProviderCancelled-subject = Lypset përditësim të dhënash pagese për pajtime { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-subject = Lypset përditësim hollësish pagese për pajtime { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me metodën tuaj të pagesave
 subscriptionsPaymentProviderCancelled-content-detected = Pikasëm një problem me metodën tuaj të pagesës për pajtimet vijuese.
 subscriptionsPaymentProviderCancelled-content-payment = Mundet që karta juaj e kreditit të ketë skaduar, ose metoda juaj e tanishme e pagesës të jetë vjetruar.
@@ -615,7 +615,7 @@ subscriptionUpgrade-upgrade-info = Bëtë me sukses përmirësimin nga { $produc
 subscriptionUpgrade-content-charge-info-different-cycle = Do t’ju faturohet një tarifë njëherëshe prej { $paymentProrated } për të pasqyruar rritjen e çmimit të pajtimit tuaj për pjesën e mbetur të këtij { $productPaymentCycleOld }. Duke filluar me faturën tuaj pasuese, vlera e faturimit tuaj do të ndryshojë nga { $paymentAmountOld } për { $productPaymentCycleOld } në { $paymentAmountNew } për { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Në pastë software të ri që ta instaloni për të mundur të përdorni { $productName }, do të merrni një email veçmas me udhëzime shkarkimi.
+subscriptionUpgrade-install = Në pastë <em>software</em> të ri që ta instaloni, për të mundur të përdorni { $productName }, do të merrni një email veçmas me udhëzime shkarkimi.
 subscriptionUpgrade-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 unblockCode-subject = Kod autorizimi llogarie
 unblockCode-title = A jeni ju që po hyni?
