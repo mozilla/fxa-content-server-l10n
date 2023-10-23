@@ -393,6 +393,7 @@ postNewRecoveryCodes-action = Gerer le conto
 postRemoveAccountRecovery-subject-2 = Clave recuperation del conto delite
 postRemoveAccountRecovery-title-3 = Tu ha delite tu clave recuperation del conto
 postRemoveAccountRecovery-body-part1 = Tu clave de recuperation del conto es necessari pro restaurar tu datos de navigation cryptate si tu oblida tu contrasigno.
+postRemoveAccountRecovery-body-part2 = Si tu jam non lo habeva, crea un nove clave de recuperation del conto in le parametro de tu conto, pro impedir de perder tu contrasignos, marcapaginas, chronologia de navigation, e altero ancora reservate.
 postRemoveAccountRecovery-action = Gerer le conto
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
