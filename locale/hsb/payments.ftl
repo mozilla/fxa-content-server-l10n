@@ -144,6 +144,7 @@ payment-confirmation-download-button = Dale k sćehnjenju
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
+payment-confirm-with-legal-links-static-2 = Awtorizuju { -brand-name-mozilla } po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
 payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móžeće pokročować
 
 ## Component - PaymentErrorView
@@ -352,6 +353,9 @@ sub-guarantee = 30-dnjowska garantija wróćenja pjenjez
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Wužiwanske wuměnjenja
 privacy = Zdźělenka priwatnosće
 terms-download = Sćehnjenske wuměnjenja

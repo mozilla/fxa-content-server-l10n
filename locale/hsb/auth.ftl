@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizowane graty">
 body-devices-image = <img data-l10n-name="devices-image" alt="Graty">
 fxa-privacy-url = Prawidła priwatnosće { -brand-mozilla }
+moz-accounts-privacy-url-2 = Zdźělenka priwatnosće { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 fxa-service-url = Wužiwanske wuměnjenja za { -product-firefox-cloud }
 moz-accounts-terms-url = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
@@ -58,7 +59,9 @@ subplat-reactivate = Abonement zaso aktiwizować
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Płaćenske informacije aktualizować
 subplat-privacy-policy = Prawidła priwatnosće { -brand-mozilla }
+subplat-privacy-policy-2 = Zdźělenka priwatnosće { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Wužiwanske wuměnjenja za { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
