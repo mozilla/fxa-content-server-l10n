@@ -954,7 +954,7 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</p
 # link to Firefox Monitor's Terms of Service and Privacy Notice
 terms-privacy-agreement-monitor = <monitorTos>Podmínky poskytování služby a oznámení o ochraně osobních údajů</monitorTos> aplikace { -product-firefox-monitor }
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Podmínky poskytování služby a oznámení o ochraně osobních údajů</monitorTos> { -product-firefox-monitor }
+terms-privacy-agreement-monitor-2 = <monitorTos>Podmínky poskytování služby a oznámení o ochraně osobních údajů</monitorTos> pro { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmínky používání služby</firefoxTos> a <firefoxPrivacy>Oznámení o ochraně osobních údajů</firefoxPrivacy> prohlížeče { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
