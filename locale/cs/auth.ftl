@@ -13,7 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizovat zařízení">
 body-devices-image = <img data-l10n-name="devices-image" alt="Zařízení">
 fxa-privacy-url = { -brand-mozilla } a soukromí
-moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Zásady ochrany osobních údajů
+moz-accounts-privacy-url-2 = Oznámení o ochraně osobních údajů { -product-mozilla-accounts(capitalization: "uppercase", case: "gen") }
 fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
 moz-accounts-terms-url = Podmínky služby { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox(case: "gen") }">
@@ -59,7 +59,7 @@ subplat-reactivate = Obnovit předplatné
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualizovat platební informace
 subplat-privacy-policy = { -brand-mozilla } a soukromí
-subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Zásady ochrany osobních údajů
+subplat-privacy-policy-2 = Oznámení o ochraně osobních údajů { -product-mozilla-accounts(capitalization: "uppercase", case: "gen") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Podmínky poskytování služby { -product-firefox-cloud }
@@ -146,7 +146,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Pokud jste své heslo neměnili, okamžitě ho prosím obnovte na adrese { $resetLink }
-brand-banner-message = Víte, že jsme změnili název z { -product-firefox-accounts } na { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Zjistit více</a>
+brand-banner-message = Víte, že jsme změnili název z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Zjistit více</a>
 cancellationSurvey = Pomozte nám vylepšit naše služby tím, že se zúčastníte tohoto <a data-l10n-name="cancellationSurveyUrl">krátkého průzkumu</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:
