@@ -136,7 +136,7 @@ payment-confirmation-download-button = Prosegui con il download
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare l’importo visualizzato utilizzando il metodo di pagamento da me scelto, in base alle <termsOfServiceLink>condizioni di utilizzo del servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
-payment-confirm-with-legal-links-static-2 = Autorizzo { -brand-name-mozilla } ad addebitare sul mio metodo di pagamento l’importo indicato, in base ai <termsOfServiceLink>Termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>Informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò l’abbonamento.
+payment-confirm-with-legal-links-static-2 = Autorizzo { -brand-name-mozilla } ad addebitare l’importo visualizzato utilizzando il metodo di pagamento da me scelto, in base alle <termsOfServiceLink>condizioni di utilizzo del servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
 payment-confirm-checkbox-error = È necessario selezionare questa opzione per procedere
 
 ## Component - PaymentErrorView
