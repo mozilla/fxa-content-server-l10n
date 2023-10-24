@@ -13,7 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Eszközök szinkronizálása">
 body-devices-image = <img data-l10n-name="devices-image" alt="Eszközök">
 fxa-privacy-url = { -brand-mozilla } adatvédelmi irányelvek
-moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Adatvédelmi nyilatkozat
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts } adatvédelmi nyilatkozata
 fxa-service-url = { -product-firefox-cloud } Szolgáltatási feltételek
 moz-accounts-terms-url = { -product-mozilla-accounts } szolgáltatási feltételei
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logó">
@@ -59,7 +59,7 @@ subplat-reactivate = Előfizetés újraaktiválása
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Számlázási információk frissítése
 subplat-privacy-policy = A { -brand-mozilla } adatvédelmi irányelvei
-subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Adatvédelmi nyilatkozat
+subplat-privacy-policy-2 = { -product-mozilla-accounts } adatvédelmi nyilatkozata
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = A { -product-firefox-cloud } szolgáltatási feltételei

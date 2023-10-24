@@ -141,7 +141,7 @@ payment-confirmation-download-button = Tovább a letöltéshez
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Engedélyt adok a { -brand-name-mozilla }, a { -brand-name-firefox } termékek gyártója, számára, hogy levonja a megjelenített összeget a számlámról az <termsOfServiceLink>Általános szerződési feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-payment-confirm-with-legal-links-static-2 = Felhatalmazom a { -brand-name-mozilla } szervezetet, hogy terhelje meg a megjelenített összeget az én fizetési módommmal az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
+payment-confirm-with-legal-links-static-2 = Felhatalmazom a { -brand-name-mozilla(ending: "accented") }t, hogy terhelje meg a megjelenített összeget az én fizetési módommal az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
 payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 ## Component - PaymentErrorView
@@ -320,7 +320,7 @@ sub-guarantee = 30 napos pénzvisszafizetési garancia
 
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 terms = A szolgáltatás feltételei
 privacy = Adatvédelmi nyilatkozat
 terms-download = Letöltési feltételek
