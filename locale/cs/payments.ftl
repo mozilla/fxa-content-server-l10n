@@ -210,6 +210,7 @@ payment-confirmation-download-button = Pokračovat ke stažení
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala zobrazenou částku skrze mou preferovanou platební metodu v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
+payment-confirm-with-legal-links-static-2 = Souhlasím, aby { -brand-name-mozilla } strhávala zobrazenou částku skrze mé platební metody v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
 payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
 ## Component - PaymentErrorView
@@ -418,6 +419,9 @@ sub-guarantee = 30denní záruka vrácení peněz
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Podmínky služby
 privacy = Zásady ochrany osobních údajů
 terms-download = Stáhnout podmínky

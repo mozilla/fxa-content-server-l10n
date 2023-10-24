@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizovat zařízení">
 body-devices-image = <img data-l10n-name="devices-image" alt="Zařízení">
 fxa-privacy-url = { -brand-mozilla } a soukromí
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Zásady ochrany osobních údajů
 fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
 moz-accounts-terms-url = Podmínky služby { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox(case: "gen") }">
@@ -58,7 +59,9 @@ subplat-reactivate = Obnovit předplatné
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualizovat platební informace
 subplat-privacy-policy = { -brand-mozilla } a soukromí
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Zásady ochrany osobních údajů
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Podmínky poskytování služby { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Podmínky služby { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
