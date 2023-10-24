@@ -347,6 +347,8 @@ postAddAccountRecovery-subject-3 = Ny genoprettelsesnøgle til kontoen blev opre
 postAddAccountRecovery-title2 = Du oprettede en ny genoprettelsesnøgle til kontoen
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Gem denne nøgle et sikkert sted — du skal bruge den til at gendanne dine krypterede browserdata, hvis du glemmer din adgangskode.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Denne nøgle kan kun bruges én gang. Når du har brugt den, opretter vi automatisk en ny til dig. Du kan også til enhver tid oprette en ny fra dine kontoindstillinger.
 postAddAccountRecovery-action = Håndter konto
 postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 postAddLinkedAccount-subject-2 = Ny konto knyttet til din { -product-mozilla-account }
@@ -646,6 +648,7 @@ verificationReminderSecond-title-3 = Gå ikke glip af { -brand-mozilla }!
 verificationReminderSecond-description-3 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-description-4 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-second-description = Din { -product-firefox-account } giver dig mulighed for at synkronisere dine oplysninger på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
+verificationReminderSecond-second-description-3 = Din { -product-mozilla-account } giver dig mulighed for at synkronisere alt det, du bruger { -brand-firefox } til, på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
 verificationReminderSecond-sub-description-2 = Vær en del af vores mission om at transformere internettet til et sted, der er åbent for alle.
 verificationReminderSecond-action-2 = Bekræft konto
 verify-title-2 = Åbn internettet med { -brand-firefox }
