@@ -326,6 +326,9 @@ sub-guarantee = החזר כספי מובטח תוך 30 יום
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 terms = תנאי השירות
 privacy = הצהרת פרטיות
 terms-download = תנאי הורדה

@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="הסמל של 
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="סנכרון מכשירים">
 body-devices-image = <img data-l10n-name="devices-image" alt="מכשירים">
 fxa-privacy-url = מדיניות הפרטיות של { -brand-mozilla }
+moz-accounts-privacy-url-2 = הצהרת הפרטיות של { -product-mozilla-accounts }
 fxa-service-url = תנאי השירות של { -product-firefox-cloud }
 moz-accounts-terms-url = תנאי השימוש של { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="הסמל של { -brand-firefox }">
@@ -58,7 +59,9 @@ subplat-reactivate = הפעלת המינוי מחדש
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = עדכון פרטי החיוב
 subplat-privacy-policy = מדיניות הפרטיות של { -brand-mozilla }
+subplat-privacy-policy-2 = הצהרת הפרטיות של { -product-mozilla-accounts }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = תנאי השירות של { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = תנאי השימוש של { -product-mozilla-accounts }
