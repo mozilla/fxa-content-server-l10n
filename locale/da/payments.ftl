@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox-konti
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } er påkrævet
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox }-logo
 brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Har du allerede en { -brand-name-firefox }-konto? <a>Log ind</a>
 new-user-sign-in-link-2 = Har du allerede en { -product-mozilla-account }? <a>Log ind</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -131,6 +136,7 @@ payment-confirmation-download-button = Fortsæt til hentning
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
+payment-confirm-with-legal-links-static-2 = Jeg giver hermed tilladelse til, at { -brand-name-mozilla } kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
 payment-confirm-checkbox-error = Du skal fuldføre dette, før du går videre
 
 ## Component - PaymentErrorView
@@ -307,6 +313,9 @@ sub-guarantee = 30-dages pengene-tilbage-garanti
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Tjenestevilkår
 privacy = Privatlivserklæring
 terms-download = Betingelser for hentning
@@ -411,6 +420,7 @@ coupon-success-repeating = Din plan fornys automatisk til listeprisen efter { $c
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Opret en { -brand-name-firefox }-konto
 new-user-step-1-2 = 1. Opret en { -product-mozilla-account }
 new-user-card-title = Indtast oplysninger om dit betalingskort

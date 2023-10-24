@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke s
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Luk
+brand-banner-dismiss-button-2 =
+    .aria-label = Luk banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } ændrer navn til { -product-mozilla-accounts } den 1. november
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Klienten blev ikke fundet, kunne ikke afbryde forbindelsen
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logget ud af { $service }
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -963,6 +963,10 @@ terms-privacy-agreement-intro-2 = Ved at fortsætte accepterer du:
 terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivserklæring</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivserklæring</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor }s <monitorTos>tjenestevilkår og privatlivserklæring</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>tjenestevilkår og privatlivserklæring</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }' <firefoxTos>tjenestevilkår</firefoxTos> og <firefoxPrivacy>privatlivserklæring</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1063,7 +1067,7 @@ cookies-disabled-learn-more = Læs mere
 inline-recovery-setup-header-default = Bekræft reserve-godkendelseskode <span>for at fortsætte til kontoindstillingerne</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Gem reserve-godkendelseskoder <span>for at fortsætte til { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Opbevar disse engangskoder et sikkert sted i tilfælde af, at du mister adgangen til din mobile enhed.
@@ -1083,7 +1087,7 @@ inline-recovery-confirmation-description = Indtast en af dine gemte reserve-godk
 inline-recovery-confirmation-header-default = Bekræft reserve-godkendelseskode <span>for at fortsætte til kontoindstillingerne</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekræft reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
 
 ## InlineTotpSetup page
