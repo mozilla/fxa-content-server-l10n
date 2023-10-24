@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -bra
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronisar ils apparats">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparats">
 fxa-privacy-url = Directivas per la protecziun da datas da { -brand-mozilla }
-moz-accounts-privacy-url = Directivas per la protecziun da datas da { -product-mozilla-accounts }
 fxa-service-url = Cundiziuns d’utilisaziun dals servetschs da cloud da { -product-firefox-cloud }
 moz-accounts-terms-url = Cundiziuns d'utilisaziun da { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo da { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo da { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo da { -brand-mozilla }">
 subplat-automated-email = Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut.
 subplat-privacy-notice = Infurmaziuns davart la protecziun da datas
 subplat-privacy-plaintext = Infurmaziuns davart la protecziun da datas:
@@ -60,6 +61,8 @@ subplat-privacy-policy = Directivas per la protecziun da datas da { -brand-mozil
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Cundiziuns d'utilisaziun dals servetschs da { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Cundiziuns d'utilisaziun dals { -product-mozilla-accounts }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Infurmaziuns giuridicas
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Protecziun da datas
@@ -332,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Redefinì cun success tes pled-clav
 passwordResetAccountRecovery-description-2 = Ti has duvrà tia clav da recuperaziun dal conto per actualisar tes pled-clav:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Crear ina nova clav da recuperaziun dal conto
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Crear ina clav da recuperaziun dal conto
 passwordResetAccountRecovery-regen-required-mjml-1 = Ti stos t'annunziar danovamain sin tut tes apparats sincronisads. Tegna endament da crear ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Ti stos t'annunziar danovamain sin tut tes apparats sincronisads. Tegna endament da crear ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà:
@@ -640,7 +645,7 @@ verificationReminderSecond-title-3 = Na manchenta nagut da { -brand-mozilla }!
 verificationReminderSecond-description-3 = Avant in pèr dis has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 10 dis, uschiglio vegn el stizzà automaticamain.
 verificationReminderSecond-description-4 = Avant in pèr dis has ti creà in { -product-mozilla-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 10 dis, uschiglio vegn el stizzà automaticamain.
 verificationReminderSecond-second-description = Tes { -product-firefox-account } ta permetta da sincronisar tias infurmaziuns tranter tes apparats e ta dat access ad ulteriurs products per la protecziun da datas da { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Tes { -product-mozilla-account } ta permetta da sincronisar tias infurmaziuns tranter tes apparats e ta dat access ad ulteriurs products per la protecziun da datas da { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = Tes { -product-mozilla-account } ta permetta da sincronisar tias datas da { -brand-firefox } tranter tes apparats e ta dat access ad ulteriurs products per la protecziun da datas da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Participescha a nossa missiun che vul transfurmar l'internet en in lieu avert per ina e mintgin.
 verificationReminderSecond-action-2 = Confermar il conto
 verify-title-2 = Avrir l'internet cun { -brand-firefox }

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-02 08:54+0000\n"
+"PO-Revision-Date: 2023-10-19 07:41+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Contos Mozilla"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -94,6 +94,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Tes conto Mozilla fa diever da differentas funcziunalitads che\n"
+"                        na vegnan betg sustegnidas da tia versiun da Firefox. Telechargia\n"
+"                        per plaschair la versiun la pli nova da Firefox per\n"
+"                        cuntinuar."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -106,3 +110,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Ils contos da Firefox fan diever da bleras funcziuns betg\n"
+"sustegnidas da tia versiun da Firefox. Telechargia ed\n"
+"installescha per plaschair la versiun la pli nova da Firefox per\n"
+"cuntinuar."
