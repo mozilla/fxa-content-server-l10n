@@ -342,6 +342,9 @@ sub-guarantee = 30-dňová záruka vrátenia peňazí
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Podmienky používania služby
 privacy = Vyhlásenie o ochrane osobných údajov
 terms-download = Stiahnuť podmienky
