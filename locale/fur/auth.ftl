@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronize dispositîfs">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositîfs">
 fxa-privacy-url = Informative su la riservatece di { -brand-mozilla }
+moz-accounts-privacy-url-2 = Informative su la riservatece dai { -product-mozilla-accounts }
 fxa-service-url = Cundizions di ûs dal servizi di { -product-firefox-cloud }
 moz-accounts-terms-url = Cundizions di utilizazion dal servizi dai { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo di { -brand-firefox }">
@@ -58,7 +59,9 @@ subplat-reactivate = Torne ative l'abonament
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Inzorne lis informazions pe fature
 subplat-privacy-policy = Informative su la riservatece di { -brand-mozilla }
+subplat-privacy-policy-2 = Informative su la riservatece dai { -product-mozilla-accounts }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Cundizions di ûs dal servizi di { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Cundizions di utilizazion dal servizi dai { -product-mozilla-accounts }

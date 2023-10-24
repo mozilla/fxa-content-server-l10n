@@ -136,6 +136,7 @@ payment-confirmation-download-button = Continue par discjariâ
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = O autorizi { -brand-name-mozilla }, la organizazion che e realize i prodots { -brand-name-firefox }, a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae <privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintremai che no anularai il gno abonament.
+payment-confirm-with-legal-links-static-2 = O autorizi { -brand-name-mozilla } a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae<privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintant che no anularai il gno abonament.
 payment-confirm-checkbox-error = Tu scugnis completâ cheste operazion prime di procedi
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = Garanzie di rimbors di 30 dîs
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Tiermins dal servizi
 privacy = Informative su la riservatece
 terms-download = Discjame i tiermins
