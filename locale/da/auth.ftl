@@ -13,12 +13,14 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser enheder">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheder">
 fxa-privacy-url = { -brand-mozilla }s privatlivspolitik
-moz-accounts-privacy-url = Privatlivspolitik for { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-privacy-url-2 = Privatlivserklæring for { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Servicevilkår for { -product-firefox-cloud }
 moz-accounts-terms-url = Tjenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
 subplat-privacy-notice = Privatlivserklæring
 subplat-privacy-plaintext = Privatlivserklæring:
@@ -57,9 +59,13 @@ subplat-reactivate = Forny abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Opdater faktureringsoplysninger
 subplat-privacy-policy = { -brand-mozilla }s privatlivspolitik
+subplat-privacy-policy-2 = Privatlivserklæring for { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Servicevilkår for { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Tjenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatliv
@@ -96,12 +102,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Besøg <a da
 automated-email-no-action-plaintext = Denne mail er sendt automatisk. Hvis du har modtaget den ved en fejl, behøver du ikke foretage dig noget.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Denne mail er sendt automatisk. Hvis du ikke har godkendt denne handling, så skift din adgangskode:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Denne anmodning kom fra { $uaBrowser }på { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Denne anmodning kom fra { $uaBrowser } på { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Denne anmodning kom fra { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Denne anmodning kom fra { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Denne anmodning kom fra { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Hvis det ikke var dig, så <a data-l10n-name="revokeAccountRecoveryLink">slet den nye nøgle</a> og <a data-l10n-name="passwordChangeLink">skift din adgangskode</a>.
+automatedEmailRecoveryKey-change-pwd-only = Hvis det ikke var dig, så <a data-l10n-name="passwordChangeLink">skift din adgangskode</a>.
+automatedEmailRecoveryKey-more-info = Besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> for at få mere at vide.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Denne anmodning kom fra:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Hvis det ikke var dig, så slet den nye nøgle:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Hvis det ikke var dig, så skift din adgangskode:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = og skift din adgangskode:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Besøg { -brand-mozilla } Support for at få mere at vide:
 automated-email-reset =
     Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så <a data-l10n-name="resetLink">nulstil din adgangskode</a>.
     For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Hvis du ikke ændrede den, så nulstil din adgangskode nu på { $resetLink }
+brand-banner-message = Vidste du, at vi har ændret vores navn fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Læs mere</a>
 cancellationSurvey = Hjælp os med at forbedre vores tjenester ved at deltage i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøgelse</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjælp os med at forbedre vores tjenester ved at deltage i denne korte undersøgelse:
@@ -293,19 +338,16 @@ passwordResetAccountRecovery-title-2 = Adgangskoden er blevet nulstillet
 passwordResetAccountRecovery-description-2 = Du brugte din genoprettelsesnøgle til kontoen til at opdatere din adgangskode fra:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Opret en ny genoprettelsesnøgle til kontoen
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Opret genoprettelsesnøgle til kontoen
 passwordResetAccountRecovery-regen-required-mjml-1 = Du skal logge ind igen på alle dine synkroniserede enheder. Husk at oprette en ny genoprettelsesnøgle til kontoen til erstatning for den, du brugte.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Du skal logge ind igen på alle dine synkroniserede enheder. Husk at oprette en ny genoprettelsesnøgle til kontoen til erstatning for den, du brugte:
-postAddAccountRecovery-subject-2 = Genoprettelsesnøgle til kontoen blev oprettet
+postAddAccountRecovery-subject-3 = Ny genoprettelsesnøgle til kontoen blev oprettet
 postAddAccountRecovery-title2 = Du oprettede en ny genoprettelsesnøgle til kontoen
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = En ny nøgle blev oprettet fra:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Var det ikke dig?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Slet den nye nøgle</a> og <a data-l10n-name="passwordChangeLink">skift din adgangskode</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Gem denne nøgle et sikkert sted — du skal bruge den til at gendanne dine krypterede browserdata, hvis du glemmer din adgangskode.
 postAddAccountRecovery-action = Håndter konto
-postAddAccountRecovery-delete-key = Slet den nye nøgle:
-postAddAccountRecovery-changd-password = Skift din adgangskode:
 postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 postAddLinkedAccount-subject-2 = Ny konto knyttet til din { -product-mozilla-account }
 #  Variables:
@@ -321,6 +363,11 @@ postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
 postAddTwoStepAuthentication-from-device = Du har aktiveret det fra:
 postAddTwoStepAuthentication-action = Håndter konto
 postAddTwoStepAuthentication-code-required-2 = Sikkerhedskoder fra din godkendelsesapp vil nu være påkrævet, hver gang du logger ind.
+postChangeAccountRecovery-subject = Genoprettelsesnøgle til kontoen blev ændret
+postChangeAccountRecovery-title = Du ændrede din genoprettelsesnøgle til kontoen
+postChangeAccountRecovery-body-part1 = Du har nu en ny genoprettelsesnøgle til kontoen. Din tidligere nøgle blev slettet.
+postChangeAccountRecovery-body-part2 = Gem denne nye nøgle et sikkert sted — du skal bruge den til at gendanne dine krypterede data, hvis du glemmer din adgangskode.
+postChangeAccountRecovery-action = Håndter konto
 postChangePrimary-subject = Primær mailadresse opdateret
 postChangePrimary-title = Ny primær mailadresse
 # Variables:
@@ -345,11 +392,10 @@ postNewRecoveryCodes-title-2 = Du oprettede nye reserve-godkendelseskoder
 postNewRecoveryCodes-description-2 = De blev oprettet på:
 postNewRecoveryCodes-action = Håndter konto
 postRemoveAccountRecovery-subject-2 = Genoprettelsesnøgle til kontoen blev slettet
-postRemoveAccountRecovery-title-2 = Du slettede din genoprettelsesnøgle til kontoen.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Den blev slettet fra:
+postRemoveAccountRecovery-title-3 = Du slettede din genoprettelsesnøgle til kontoen
+postRemoveAccountRecovery-body-part1 = Din genoprettelsesnøgle til kontoen er påkrævet for at gendanne dine krypterede browserdata, hvis du glemmer din adgangskode.
+postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, så opret en ny genoprettelsesnøgle til kontoen i dine kontoindstillinger for at forhindre, at du mister dine gemte adgangskoder, bogmærker, browserhistorik med mere.
 postRemoveAccountRecovery-action = Håndter konto
-postRemoveAccountRecovery-invalid-2 = Du skal bruge en genoprettelsesnøgle til kontoen til at gendanne dine { -brand-firefox }-data, hvis du glemmer din adgangskode.
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = Sekundær mailadresse fjernet
 # Variables:
@@ -600,7 +646,6 @@ verificationReminderSecond-title-3 = Gå ikke glip af { -brand-mozilla }!
 verificationReminderSecond-description-3 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-description-4 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-second-description = Din { -product-firefox-account } giver dig mulighed for at synkronisere dine oplysninger på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
-verificationReminderSecond-second-description-2 = Din { -product-mozilla-account } giver dig mulighed for at synkronisere dine oplysninger på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
 verificationReminderSecond-sub-description-2 = Vær en del af vores mission om at transformere internettet til et sted, der er åbent for alle.
 verificationReminderSecond-action-2 = Bekræft konto
 verify-title-2 = Åbn internettet med { -brand-firefox }
