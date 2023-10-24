@@ -13,7 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -bra
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinhronizirajte naprave">
 body-devices-image = <img data-l10n-name="devices-image" alt="Naprave">
 fxa-privacy-url = Politika zasebnosti { -brand-mozilla(sklon: "rodilnik") }
-moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Obvestilo o zasebnosti
+moz-accounts-privacy-url-2 = Obvestilo o zasebnosti { -product-mozilla-accounts(sklon: "rodilnik") }
 fxa-service-url = Pogoji uporabe storitev { -product-firefox-cloud }
 moz-accounts-terms-url = Pogoji uporabe { -product-mozilla-accounts(sklon: "rodilnik") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotip { -brand-firefox(sklon: "rodilnik") }">
@@ -59,7 +59,7 @@ subplat-reactivate = Obnovi naročnino
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Posodobi podatke za obračun
 subplat-privacy-policy = Politika zasebnosti { -brand-mozilla(sklon: "rodilnik") }
-subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Obvestilo o zasebnosti
+subplat-privacy-policy-2 = Obvestilo o zasebnosti { -product-mozilla-accounts(sklon: "rodilnik") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Pogoji uporabe storitev { -product-firefox-cloud }

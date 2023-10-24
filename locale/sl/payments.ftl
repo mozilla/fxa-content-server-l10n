@@ -371,7 +371,7 @@ sub-guarantee = 30-dnevno vračilo denarja
 
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(zacetnica: "velika") }
 terms = Pogoji storitve
 privacy = Obvestilo o zasebnosti
 terms-download = Pogoji prenosa
