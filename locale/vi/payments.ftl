@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Tài khoản Firefox
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } là bắt buộc
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = Logo { -brand-name-firefox }
 brand-name-mozilla-logo = Biểu tượng { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng nhập</a>
 new-user-sign-in-link-2 = Đã có { -product-mozilla-account }? <a>Đăng nhập</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -127,6 +132,7 @@ payment-confirmation-download-button = Tiếp tục tải xuống
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, dùng phương thức thanh toán của tôi để tính phí cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>thông báo quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao của mình.
+payment-confirm-with-legal-links-static-2 = Tôi ủy quyền { -brand-name-mozilla } để tính phí phương thức thanh toán của tôi cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản sử dụng</termsOfServiceLink> và <privacyNoticeLink>thông báo về quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao.
 payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trước khi tiếp tục
 
 ## Component - PaymentErrorView
@@ -287,6 +293,9 @@ sub-guarantee = Đảm bảo hoàn tiền trong 30 ngày
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Điều khoản dịch vụ
 privacy = Chính sách riêng tư
 terms-download = Tải xuống các điều khoản
@@ -383,6 +392,7 @@ coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $c
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Tạo tài khoản { -brand-name-firefox }
 new-user-step-1-2 = 1. Tạo { -product-mozilla-account }
 new-user-card-title = Nhập thông tin thẻ của bạn

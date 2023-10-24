@@ -13,12 +13,14 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Đồng bộ hóa thiết bị">
 body-devices-image = <img data-l10n-name="devices-image" alt="Thiết bị">
 fxa-privacy-url = Chính sách bảo mật của { -brand-mozilla }
-moz-accounts-privacy-url = Chính sách riêng tư của { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-privacy-url-2 = Thông báo về quyền riêng tư của { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Điều khoản dịch vụ của { -product-firefox-cloud }
 moz-accounts-terms-url = Điều khoản sử dụng của { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào.
 subplat-privacy-notice = Chính sách riêng tư
 subplat-privacy-plaintext = Thông báo bảo mật:
@@ -57,9 +59,13 @@ subplat-reactivate = Kích hoạt lại thuê bao
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Cập nhật thông tin thanh toán
 subplat-privacy-policy = Chính sách bảo mật của { -brand-mozilla }
+subplat-privacy-policy-2 = Thông báo về quyền riêng tư của { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Điều khoản dịch vụ của { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Điều khoản sử dụng của { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Pháp lý
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Riêng tư
@@ -331,6 +337,8 @@ passwordResetAccountRecovery-title-2 = Đặt lại mật khẩu thành công
 passwordResetAccountRecovery-description-2 = Bạn đã sử dụng khóa khôi phục tài khoản của mình để cập nhật mật khẩu của mình từ:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Tạo khóa khôi phục tài khoản mới
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Tạo khóa khôi phục tài khoản
 passwordResetAccountRecovery-regen-required-mjml-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng:
@@ -638,7 +646,7 @@ verificationReminderSecond-title-3 = Đừng bỏ lỡ { -brand-mozilla }!
 verificationReminderSecond-description-3 = Vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Vui lòng xác minh tài khoản của bạn trong 10 ngày tới, nếu không tài khoản sẽ tự động bị xóa.
 verificationReminderSecond-description-4 = Một vài ngày trước, bạn đã tạo { -product-mozilla-account } nhưng chưa bao giờ xác nhận nó. Vui lòng xác nhận tài khoản của bạn trong 10 ngày tới, nếu không nó sẽ tự động bị xóa.
 verificationReminderSecond-second-description = { -product-firefox-account } của bạn cho phép bạn đồng bộ hóa thông tin của mình trên các thiết bị và mở khóa quyền truy cập vào các sản phẩm bảo vệ quyền riêng tư khác từ { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account } cho phép bạn đồng bộ hóa thông tin của mình trên các thiết bị và mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account } của bạn cho phép bạn đồng bộ hóa trải nghiệm { -brand-firefox } của bạn trên nhiều thiết bị và mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Hãy là một phần trong sứ mệnh của chúng tôi là biến Internet thành một nơi mở cửa cho tất cả mọi người.
 verificationReminderSecond-action-2 = Xác minh tài khoản
 verify-title-2 = Mở Internet bằng { -brand-firefox }
