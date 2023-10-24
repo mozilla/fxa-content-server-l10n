@@ -312,6 +312,9 @@ sub-guarantee = 30 天內保證退款
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = 服務條款
 privacy = 隱私權公告
 terms-download = 下載條款
