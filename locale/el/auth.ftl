@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Λογότυπ
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Συγχρονισμός συσκευών">
 body-devices-image = <img data-l10n-name="devices-image" alt="Συσκευές">
 fxa-privacy-url = Πολιτική απορρήτου { -brand-mozilla }
+moz-accounts-privacy-url-2 = Σημείωση απορρήτου { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 fxa-service-url = Όροι υπηρεσίας { -product-firefox-cloud }
 moz-accounts-terms-url = Όροι υπηρεσίας { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Λογότυπο { -brand-firefox }">
@@ -58,7 +59,9 @@ subplat-reactivate = Επανενεργοποίηση συνδρομής
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ενημέρωση στοιχείων χρέωσης
 subplat-privacy-policy = Πολιτική απορρήτου { -brand-mozilla }
+subplat-privacy-policy-2 = Σημείωση απορρήτου { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Όροι υπηρεσίας { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Όροι υπηρεσίας { -product-mozilla-accounts(case: "gen", capitalization: "upper") }

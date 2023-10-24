@@ -136,6 +136,7 @@ payment-confirmation-download-button = Συνέχεια στη λήψη
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου με το αναγραφόμενο ποσό, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
+payment-confirm-with-legal-links-static-2 = Εξουσιοδοτώ τη { -brand-name-mozilla } να χρεώνει τη μέθοδο πληρωμής μου με το αναγραφόμενο ποσό, σύμφωνα με τους <termsOfServiceLink>Όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>Σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
 payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε αυτήν τη διαδικασία πριν προχωρήσετε
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 ημερ
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: "nom", capitalization: "upper") }
 terms = Όροι υπηρεσίας
 privacy = Σημείωση απορρήτου
 terms-download = Λήψη όρων
