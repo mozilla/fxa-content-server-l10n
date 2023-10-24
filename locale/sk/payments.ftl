@@ -150,6 +150,7 @@ payment-confirmation-download-button = Pokračovať na stiahnutie
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
+payment-confirm-with-legal-links-static-2 = Oprávňujem spoločnosť { -brand-name-mozilla } účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
 payment-confirm-checkbox-error = Pred pokračovaním musíte dokončiť toto.
 
 ## Component - PaymentErrorView
