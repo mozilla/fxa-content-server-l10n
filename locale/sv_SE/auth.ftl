@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronisera enheter">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheter">
 fxa-privacy-url = { -brand-mozilla } sekretesspolicy
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } sekretessmeddelande
 fxa-service-url = Användarvillkor för { -product-firefox-cloud }
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } användarvillkor
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logotyp">
@@ -58,7 +59,9 @@ subplat-reactivate = Återaktivera prenumerationen
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Uppdatera faktureringsinformation
 subplat-privacy-policy = Sekretesspolicy för { -brand-mozilla }
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } sekretessmeddelande
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Användarvillkor för { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } användarvillkor
