@@ -136,6 +136,7 @@ payment-confirmation-download-button = Doorgaan naar download
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
+payment-confirm-with-legal-links-static-2 = Ik autoriseer { -brand-name-mozilla } om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
 payment-confirm-checkbox-error = U dient dit te voltooien voordat u verder gaat
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = 30-dagen-geldteruggarantie
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Servicevoorwaarden
 privacy = Privacyverklaring
 terms-download = Voorwaarden downloaden
