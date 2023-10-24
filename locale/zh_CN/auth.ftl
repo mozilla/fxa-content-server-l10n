@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步设备">
 body-devices-image = <img data-l10n-name="devices-image" alt="设备">
 fxa-privacy-url = { -brand-mozilla } 隐私政策
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隐私声明
 fxa-service-url = { -product-firefox-cloud } 服务条款
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }服务条款
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 徽标">
@@ -58,7 +59,9 @@ subplat-reactivate = 重新激活订阅
 subplat-reactivate-plaintext = { subplat-reactivate }：
 subplat-update-billing = 更新结算信息
 subplat-privacy-policy = { -brand-mozilla } 隐私政策
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隐私声明
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }：
 subplat-cloud-terms = { -product-firefox-cloud }服务条款
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } 服务条款

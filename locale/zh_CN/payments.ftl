@@ -132,6 +132,7 @@ payment-confirmation-download-button = 前往下载
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
+payment-confirm-with-legal-links-static-2 = 我授权 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
 payment-confirm-checkbox-error = 同意此项后才可继续
 
 ## Component - PaymentErrorView
@@ -308,6 +309,9 @@ sub-guarantee = 30 天退款保证
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = 服务条款
 privacy = 隐私声明
 terms-download = 下载条款
