@@ -136,6 +136,7 @@ payment-confirmation-download-button = Weiter zum Download
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Ich ermächtige { -brand-name-mozilla }, Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode gemäß den <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> mit dem angezeigten Betrag zu belasten, bis ich meinen Dauerauftrag kündige.
+payment-confirm-with-legal-links-static-2 = Ich ermächtige { -brand-name-mozilla }, meine Zahlungsmethode gemäß den <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> mit dem angezeigten Betrag zu belasten, bis ich meinen Dauerauftrag kündige.
 payment-confirm-checkbox-error = Sie müssen dieses Kästchen aktivieren, bevor Sie fortfahren
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = 30 Tage Geld-zurück-Garantie
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Nutzungsbedingungen
 privacy = Datenschutzhinweis
 terms-download = Nutzungsbedingungen herunterladen
