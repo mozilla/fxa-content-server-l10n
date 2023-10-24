@@ -160,6 +160,7 @@ payment-confirmation-download-button = Nadaljuj prenos
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Pooblaščam { -brand-name-mozilla(sklon: "tozilnik") }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
+payment-confirm-with-legal-links-static-2 = Dovoljujem, da { -brand-name-mozilla } v skladu s <termsOfServiceLink>Pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>izvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek.
 payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 ## Component - PaymentErrorView
@@ -368,6 +369,9 @@ sub-guarantee = 30-dnevno vračilo denarja
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Pogoji storitve
 privacy = Obvestilo o zasebnosti
 terms-download = Pogoji prenosa
