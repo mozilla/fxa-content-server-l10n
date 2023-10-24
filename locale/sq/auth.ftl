@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -br
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Njëkohësoni pajisje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Pajisje">
 fxa-privacy-url = Rregulla Privatësie të { -brand-mozilla }-s
+moz-accounts-privacy-url-2 = Shënim privatësie { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Kushte Shërbimi  të { -product-firefox-cloud }
 moz-accounts-terms-url = Kushte Shërbimi të { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Stemë e { -brand-firefox }-it">
@@ -58,7 +59,9 @@ subplat-reactivate = Riaktivizoni pajtimin
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Përditësoni të dhëna faturimi
 subplat-privacy-policy = Rregulla Privatësie të { -brand-mozilla }-s
+subplat-privacy-policy-2 = Shënim privatësie { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Kushte Shërbimi të { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Kushte Shërbimi të { -product-mozilla-accounts(capitalization: "uppercase") }

@@ -136,6 +136,7 @@ payment-confirmation-download-button = Vazhdoni te shkarkimi
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës vlerën e shfaqur, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
+payment-confirm-with-legal-links-static-2 = E autorizoj { -brand-name-mozilla }-n të më faturojë sipas metodës sime të pagesës vlerën e shfaqur, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
 payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni më tej
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = 30 ditë garanci kthimi parash
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Kushte Shërbimi
 privacy = Shënim Mbi Privatësinë
 terms-download = Kushte Shkarkimi
