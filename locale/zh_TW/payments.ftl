@@ -136,6 +136,7 @@ payment-confirmation-download-button = 前往下載
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
+payment-confirm-with-legal-links-static-2 = 我授權 { -brand-name-mozilla } 根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
 payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下一步
 
 ## Component - PaymentErrorView
