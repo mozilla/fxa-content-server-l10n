@@ -140,6 +140,7 @@ payment-confirmation-download-button = Продолжить загрузку
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты указанную сумму в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+payment-confirm-with-legal-links-static-2 = Я разрешаю { -brand-name-mozilla } взимать с моего способа оплаты указанную сумму в соответствии с <termsOfServiceLink>Условиями обслуживания</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
 payment-confirm-checkbox-error = Вы должны принять это, прежде чем перейти к следующему шагу
 
 ## Component - PaymentErrorView
@@ -332,6 +333,9 @@ sub-guarantee = 30-дневная гарантия возврата денег
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Условия службы
 privacy = Уведомление о конфиденциальности
 terms-download = Условия загрузки
