@@ -10,56 +10,79 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = ਬੰਦ ਕਰੋ
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਲਿੰਕ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = ਈਮੇਲ ਮੁੜ-ਭੇਜੀ ਗਈ। ਬੇਫਿਕਰੀ ਨਾਲ ਡਿਲਵਰੀ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ { $accountsEmail } ਨੂੰ ਆਪਣੇ ਸੰਪਰਕਾਂ ਵਿੱਚ ਜੋੜੋ।
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਕੋਡ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = ਬੈਨਰ ਬੰਦ ਕਰੋ
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = 1 ਨਵੰਬਰ ਨੂੰ { -product-firefox-accounts } ਦਾ ਨਾਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਕੀਤਾ ਜਾਵੇਗਾ
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਉਸੇ ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤੋਂਗੇ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਉਤਪਾਦਾਂ ਵਿੱਚ ਹੋਰ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਆਵੇਗੀ।
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = { -product-firefox-accounts } ਖਾਤਿਆਂ ਦਾ ਨਾਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਖਾਤੇ ਕਰ ਦਿੱਤਾ ਹੈ। ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਉਸੇ ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤੋਂਗੇ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਉਤਪਾਦਾਂ ਵਿੱਚ ਹੋਰ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਆਵੇਗੀ।
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = ਹੋਰ ਜਾਣੋ
+# Alt text for close banner image
+brand-close-banner =
+    .alt = ਬੈਨਰ ਬੰਦ ਕਰੋ
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m ਲੋਗੋ
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਡਾਊਨਲੋਡ ਕਰੋ
-    .title = ਡਾਊਨਲੋਡ
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
-recovery-key-file-header = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਸੰਭਾਲੋ
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 ਕੁੰਜੀ:  { $recoveryKeyValue }
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • ਕੁੰਜੀ ਬਣਾਈ: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਾਰੇ ਹੋਰ ਸਿੱਖੋ: { $supportURL }
+recovery-key-download-button-v3 = ਡਾਊਨਲੋਡ ਅਤੇ ਜਾਰੀ ਰੱਖੋ
+    .title = ਡਾਊਨਲੋਡ ਅਤੇ ਜਾਰੀ ਰੱਖੋ
+recovery-key-pdf-heading = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = ਤਿਆਰ ਕੀਤੀ: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = ਤੁਹਾਡੀ ਕੁੰਜੀ ਨੂੰ ਸੰਭਾਲਣ ਲਈ ਥਾਵਾਂ
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਾਰੇ ਹੋਰ ਜਾਣੋ
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਡਾਊਨਲੋਡ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ‘ਚ ਲਵੋ। ਹੋਰ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ:
+choose-newsletters-prompt-2 = { -brand-mozilla } ਤੋਂ ਹੋਰ ਲਵੋ:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = { -brand-mozilla } ਅਤੇ { -brand-firefox } ਬਾਰੇ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਲਵੋ
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = ਇੰਟਰਨੈੱਟ ਨੂੰ ਮਜ਼ਬੂਤ ਬਣਾਉਣ ਲਈ ਮਦਦ ਕਰੋ
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = ਇੰਟਰਨੈੱਟ ਨੂੰ ਮਜ਼ਬੂਤ ਬਣਾਈ ਰੱਖਣ ਲਈ ਕਾਰਵਾਈ ਕਰੋ
+choose-newsletters-option-security-privacy =
+    .label = ਸੁਰੱਖਿਆ ਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = ਆਨਲਾਈਨ ਵੱਧ ਸੁਰੱਖਿਅਤ ਅਤੇ ਸਮਝਦਾਰ ਬਣੋ
+choose-newsletters-option-test-pilot =
+    .label = ਨਵੇਂ ਉਤਪਾਦਾਂ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਛੇਤੀ ਪਹੁੰਚ
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ:
+choose-what-to-sync-prompt-2 = ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ
 choose-what-to-sync-option-bookmarks =
     .label = ਬੁੱਕਮਾਰਕ
 choose-what-to-sync-option-history =
@@ -144,6 +167,7 @@ form-verify-code-default-error = ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹ�
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+get-data-trio-title-backup-verification-codes = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 get-data-trio-download-2 =
     .title = ਡਾਊਨਲੋਡ
     .aria-label = ਡਾਊਨਲੋਡ ਕਰੋ
@@ -155,6 +179,7 @@ get-data-trio-print-2 =
     .aria-label = ਪਰਿੰਟ ਕਰੋ
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = ਕੰਪਿਊਟਰ ਤੇ ਮੋਬਾਈਲ ਫ਼ੋਨ ਅਤੇ ਦੋਵਾਂ ਉੱਤੇ ਟੁੱਟੇ ਹੋਏ ਦਿਲ ਦੀ ਤਸਵੀਰ
@@ -166,7 +191,12 @@ signin-totp-code-image-label =
     .aria-label = ਲੁਕੋਏ 6-ਅੰਕ ਕੋਡ ਨਾਲ ਡਿਵਾਈਸ
 confirm-signup-aria-label =
     .aria-label = ਲਿੰਕ ਰੱਖਣ ਵਾਲਾ ਲਿਫ਼ਾਫ਼ਾ
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
+    .aria-label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਰਸਾਉਣ ਵਾਸਤੇ ਮਿਸਾਲ ਹੈ।
+# Used for an image of a single key.
+recovery-key-image-aria-label =
     .aria-label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਰਸਾਉਣ ਵਾਸਤੇ ਮਿਸਾਲ ਹੈ।
 
 ## Input Password
@@ -271,6 +301,7 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } ਬੇਂਟੋ ਮੇਨੂ
 bento-menu-firefox-title = { -brand-firefox } ਤਕਨੀਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੀ ਆਨਲਾਈਨ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸਿੱਝਣਾ ਸਿਖਾਉਂਦੀ ਹੈ।
+bento-menu-mozilla-title = { -brand-mozilla } ਟੈਕ ਹੈ, ਜੋ ਤੁਹਾਡੇ ਆਨਲਾਈਨ ਹੱਕਾਂ ਦੀ ਖ਼ਾਤਰ ਲੜਦਾ ਹੈ।
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -301,7 +332,7 @@ cs-cannot-refresh = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਕਨੈਕਟ ਹੋਈ�
 cs-cannot-disconnect = ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ, ਡਿਸਕਨੈਕਟ ਕਰਨ ਲਈ ਅਸਮਰੱਥ
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } ਚੋਂ ਲਾਗ ਆਉਟ ਕੀਤਾ
 cs-refresh-button =
@@ -313,10 +344,11 @@ cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ �
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ <span>{ $device }</span> ਉੱਤੇ ਰਹੇਗਾ, ਪਰ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।
+cs-disconnect-sync-reason-3 = <span>{ $device }</span> ਡਿਸ-ਕਨੈਕਟ ਕਰਨ ਦਾ ਮੁੱਖ ਕੀ ਕਾਰਨ ਹੈ?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -334,7 +366,6 @@ cs-disconnect-advice-confirm = ਠੀਕ, ਸਮਝ ਗਏ
 cs-disconnect-lost-advice-heading = ਗੁਆਚਿਆ ਜਾਂ ਚੋਰੀ ਹੋਇਆ ਡਿਵਾਈਸ ਡਿਸਕਨੈਕਟ ਕੀਤਾ
 cs-disconnect-suspicious-advice-heading = ਸ਼ੱਕੀ ਡਿਵਾਈਸ ਡਿਸਕਨੈਕਟ ਕੀਤਾ
 cs-sign-out-button = ਸਾਈਨ ਆਉਟ
-cs-recent-activity = ਸੱਜਰੀ ਖਾਤਾ ਸਰਗਰਮੀ
 
 ##
 
@@ -343,15 +374,19 @@ cs-recent-activity = ਸੱਜਰੀ ਖਾਤਾ ਸਰਗਰਮੀ
 
 dc-heading = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
 dc-subheader = { -product-firefox-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਮਦਦ
+dc-subheader-2 = { -product-mozilla-accounts } ਨੂੰ ਸੁਧਾਰਨ ਲਈ ਮਦਦ ਕਰੋ
 dc-subheader-content = { -product-firefox-accounts } ਨੂੰ ਤਕਨੀਕੀ ਅਤੇ ਤਾਲਮੇਲ ਡਾਟਾ { -brand-mozilla } ਨੂੰ ਭੇਜਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।
+dc-subheader-content-2 = { -product-mozilla-accounts } ਨੂੰ { -brand-mozilla } ਵੱਲ ਤਕਨੀਕੀ ਅਤੇ ਤਾਲਮੇਲ ਡਾਟਾ ਭੇਜਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।
 dc-opt-out-success = ਅਲਹਿਦਾ ਹੋਣਾ ਕਾਮਯਾਬ। { -product-firefox-accounts } { -brand-mozilla } ਨੂੰ ਕੋਈ ਵੀ ਤਕਨੀਕੀ ਜਾਂ ਤਾਲਮੇਲ ਡਾਟਾ ਨਹੀਂ ਭੇਜੇਗਾ।
 dc-opt-in-success = ਮੇਹਰਬਾਨੀ! ਇਹ ਡਾਟਾ ਸਾਂਝਾ ਕਰਨਾ { -product-firefox-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ।
+dc-opt-in-success-2 = ਮੇਹਰਬਾਨੀ! ਇਹ ਡਾਟਾ ਸਾਂਝਾ ਕਰਨਾ { -product-mozilla-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ।
 dc-opt-in-out-error-2 = ਅਫ਼਼ਸੋਸ, ਤੁਹਾਡੀ ਡਾਟਾ ਇਕੱਤਰ ਕਰਨ ਦੀ ਪਸੰਦ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ
 dc-learn-more = ਹੋਰ ਜਾਣੋ
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } ਮੇਨੂ
+drop-down-menu-title-2 = { -product-mozilla-account } ਮੇਨੂ
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -363,26 +398,76 @@ drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾ�
 
 flow-container-back = ਪਿੱਛੇ
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-heading-v2 = ਸੁਰੱਖਿਆ ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਫੇਰ ਭਰੋ
+flow-recovery-key-confirm-pwd-input-label = ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = ਆਪਣੀ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-heading-v2 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ — ਇਸ ਨੂੰ ਹੁਣ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = ਬਿਨਾਂ ਡਾਊਨਲੋਡ ਕੀਤੇ ਹੀ ਜਾਰੀ ਰੱਖੋ
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = ਤੁਹਾਡੀ ਕੁੰਜੀ ਨੂੰ ਸੰਭਾਲਣ ਲਈ ਥਾਵਾਂ:
+flow-recovery-key-download-storage-ideas-folder-v2 = ਸੁਰੱਖਿਅਤ ਡਿਵਾਈਸ ਉੱਤੇ ਫੋਲਡਰ
+flow-recovery-key-download-storage-ideas-cloud = ਭਰੋਸੇਯੋਗ ਕਲਾਉਡ ਸਟੋਰੇਜ਼
+flow-recovery-key-download-storage-ideas-print-v2 = ਕਾਗਜ਼ ਉੱਤੇ ਪਰਿੰਟ ਕਰਕੇ ਰੱਖੋ
+flow-recovery-key-download-storage-ideas-pwd-manager = ਪਾਸਵਰਡ ਮੈਨੇਜਰ
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = ਤੁਹਾਡੀ ਕੁੰਜੀ ਨੂੰ ਲੱਭਣ ਲਈ ਮਦਦ ਵਾਸਤੇ ਇਸ਼ਾਰਾ ਦਿਓ
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = ਇਸ਼ਾਰਾ ਦਿਓ (ਚੋਣਵਾਂ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = ਮੁਕੰਮਲ
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = ਇਸ਼ਾਰੇ ਵਿੱਚ 255 ਤੋਂ ਘੱਟ ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ ਤਾਂ ਵਰਤਣ ਲਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-shield-bullet-point = ਅਸੀਂ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲੇ ਡਾਟੇ –– ਪਾਸਵਰਡਾਂ, ਬੁੱਕਮਾਰਕਾਂ ਤੇ ਹੋਰ ਚੀਜ਼ਾਂ ਨੂੰ ਇੰਕ੍ਰਿਪਟ ਕਰਦੇ ਹਾਂ। ਇਹ ਪਰਦੇਦਾਰੀ ਲਈ ਤਾਂ ਬਹੁਤ ਵਧੀਆ ਹੈ, ਪਰ ਨਾਲ ਇਹ ਵੀ ਹੈ ਕਿ ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਤਾਂ ਅਸੀਂ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਬਹਾਲ ਨਹੀਂ ਕਰ ਸਕਾਂਗੇ।
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-key-bullet-point = ਇਸ ਕਰਕੇ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਉਣ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੈ –– ਤੁਸੀਂ ਆਪਣੀ ਕੁੰਜੀ ਨੂੰ ਆਪਣਾ ਡਾਟਾ ਵਾਪਸ ਹਾਸਲ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ।
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਉਣਾ ਸ਼ੁਰੂ ਕਰੋ
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਦਲੋ
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = ਅਸੀਂ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲੇ ਡਾਟੇ –– ਪਾਸਵਰਡਾਂ, ਬੁੱਕਮਾਰਕਾਂ ਤੇ ਹੋਰ ਚੀਜ਼ਾਂ ਨੂੰ ਇੰਕ੍ਰਿਪਟ ਕਰਦੇ ਹਾਂ। ਇਹ ਪਰਦੇਦਾਰੀ ਲਈ ਤਾਂ ਬਹੁਤ ਵਧੀਆ ਹੈ, ਪਰ ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਤਾਂ ਅਸੀਂ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਬਹਾਲ ਨਹੀਂ ਕਰ ਸਕਾਂਗੇ।
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = ਇਸ ਕਰਕੇ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਉਣ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੈ –– ਤੁਸੀਂ ਇਸ ਨੂੰ ਆਪਣਾ ਡਾਟਾ ਵਾਪਸ ਹਾਸਲ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ।
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = ਸ਼ੁਰੂ ਕਰੀਏ
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = ਰੱਦ ਕਰੋ
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = ਮੇਨੂ ਬੰਦ ਕਰੋ
 header-menu-closed = ਸਾਈਟ ਨੇਵੀਗੇਸ਼ਨ ਮੇਨੂ
 header-back-to-top-link =
     .title = ਸਿਖਰ ਉੱਤੇ ਜਾਓ
 header-title = Firefox ਖਾਤਾ
+header-title-2 = { -product-mozilla-account }
 header-help = ਮਦਦ
 
 ## Linked Accounts section
@@ -391,6 +476,7 @@ la-heading = ਲਿੰਕ ਕੀਤੇ ਖਾਤੇ
 la-description = ਤੁਹਾਡੇ ਕੋਲ ਇਹਨਾਂ ਖਾਤਿਆਂ ਲਈ ਅਧਿਕਾਰਿਤ ਪਹੁੰਚ ਹੈ।
 la-unlink-button = ਅਣ-ਲਿੰਕ ਕਰੋ
 la-unlink-account-button = ਅਣ-ਲਿੰਕ ਕਰੋ
+la-set-password-button = ਪਾਸਵਰਡ ਲਾਓ
 la-unlink-heading = ਤੀਜੀ ਧਿਰ ਦੇ ਖਾਤੇ ਤੋਂ ਅਣ-ਲਿੰਕ ਕਰੋ
 nav-linked-accounts = { la-heading }
 
@@ -503,6 +589,7 @@ delete-account-header =
 delete-account-step-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 delete-account-step-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -535,14 +622,11 @@ display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱ�
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = ਸੱਜੀ ਖਾਤਾ ਸਰਗਰਮੀ
-recent-activity-account-create = ਖਾਤਾ ਬਣਾਇਆ ਗਿਆ ਸੀ
-recent-activity-account-disable = ਖਾਤਾ ਅਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਸੀ
-recent-activity-account-enable = ਖਾਤਾ ਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਸੀ
-recent-activity-account-login = ਖਾਤੇ ਲਈ ਲਾਗਇਨ ਸ਼ੁਰੂ ਕੀਤਾ
-recent-activity-account-reset = ਖਾਤੇ ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ
 
 # Account recovery key setup page
 
@@ -557,7 +641,7 @@ recovery-key-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
 recovery-key-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
 recovery-key-success-alert-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
@@ -843,7 +927,7 @@ inline-recovery-backup-authentication-code = ਬੈਕਅੱਪ ਪਰਮਾਣ�
 inline-recovery-confirmation-header-default = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
 
 ## InlineTotpSetup page
@@ -988,10 +1072,6 @@ account-recovery-confirm-key-input =
     .label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਿਓ
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਸਦੀਕ ਕਰੋ
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = ਗਲਤ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਚਾਹੀਦੀ ਹੈ
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਹੈ?
 
