@@ -406,8 +406,13 @@ subscriptionAccountFinishSetup-subject = { $productName } ਲਈ ਜੀ ਆਇ�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
+subscriptionAccountFinishSetup-content-create-2 = ਅੱਗੇ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰੀ ਵਰਤਣ ਲਈ { -product-firefox-account } ਪਾਸਵਰਡ ਬਣਾਉਂਗੇ।
+subscriptionAccountFinishSetup-content-create-3 = ਅੱਗੇ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰੀ ਵਰਤਣ ਲਈ { -product-mozilla-account } ਪਾਸਵਰਡ ਬਣਾਉਂਗੇ।
 subscriptionAccountFinishSetup-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
 subscriptionAccountReminderFirst-subject = ਸੂਚਨਾ: ਆਪਣਾ ਖਾਤੇ ਦੇ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ
+subscriptionAccountReminderFirst-title = ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਹਾਲੇ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ
+subscriptionAccountReminderFirst-content-info-2 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-firefox-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਹਾਲੇ ਤੱਕ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨਾ ਪੂਰਾ ਕਰੋਗੇ ਤਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰ ਵਰਤ ਸਕੋ।
+subscriptionAccountReminderFirst-content-info-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਹਾਲੇ ਤੱਕ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨਾ ਪੂਰਾ ਕਰੋਗੇ ਤਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰ ਵਰਤ ਸਕੋ।
 subscriptionAccountReminderFirst-action = ਪਾਸਵਰਡ ਬਣਾਓ
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = ਆਖਰੀ ਰਿਮਾਈਂਡਰ: ਆਪਣਾ ਖਾਤਾ ਸੈਟਅੱਪ  ਕਰੋ
