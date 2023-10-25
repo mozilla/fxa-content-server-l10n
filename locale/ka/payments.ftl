@@ -136,6 +136,7 @@ payment-confirmation-download-button = განაგრძეთ ჩამო�
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
+payment-confirm-with-legal-links-static-2 = ნებას ვრთავ { -brand-name-mozilla }-ს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
 payment-confirm-checkbox-error = უნდა დაასრულოთ, სანამ განაგრძობთ
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = 30-დღიანი ვადით თანხის და�
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 terms = გამოყენების პირობები
 privacy = პირადულობის განაცხადი
 terms-download = პირობების ჩამოტვირთვა

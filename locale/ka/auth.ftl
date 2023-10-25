@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="დასინქ. მოწყობილობები">
 body-devices-image = <img data-l10n-name="devices-image" alt="მოწყობილობები">
 fxa-privacy-url = { -brand-mozilla } – პირადულობის დებულება
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(case: "gen") } პირადულობის განაცხადი
 fxa-service-url = { -product-firefox-cloud } – მომსახურების პირობები
 moz-accounts-terms-url = { -product-mozilla-accounts(case: "gen") } მომსახურების პირობები
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-ლოგო">
@@ -58,7 +59,9 @@ subplat-reactivate = გამოწერის კვლავ ამოქმ
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = ანგარიშსწორების მონაცემების განახლება
 subplat-privacy-policy = { -brand-mozilla } – პირადულობის დებულება
+subplat-privacy-policy-2 = { -product-mozilla-accounts(case: "gen") } პირადულობის განაცხადი
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = { -product-firefox-cloud } – მომსახურების პირობები
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }
 subplat-moz-terms = { -product-mozilla-accounts(case: "gen") } მომსახურების პირობები
