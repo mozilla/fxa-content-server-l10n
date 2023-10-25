@@ -32,7 +32,7 @@ subplat-explainer-specific = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲ
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ { $productName } ਲਈ ਸਾਈਨ ਅੱਪ ਕਰਕ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਆਈ ਹੈ।
+subplat-explainer-specific-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ { $productName } ਲਈ ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਆਈ ਹੈ।
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ
@@ -40,11 +40,17 @@ subplat-explainer-reminder-form = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮ�
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ।
 subplat-explainer-multiple = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ ਅਤੇ ਤੁਸੀਂ ਕਈ ਉਤਪਾਦਾਂ ਲਈ ਮੈਂਬਰ ਬਣ ਚੁੱਕੇ ਹੋ।
+subplat-explainer-multiple-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਕਈ ਉਤਪਾਦਾਂ ਵਾਸਤੇ ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਆਈ ਹੈ।
 subplat-explainer-was-deleted = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } { -product-firefox-account } ਲਈ ਰਜਿਸਟਰ ਕੀਤੀ ਗਈ ਸੀ।
+subplat-explainer-was-deleted-2 = { -product-mozilla-account } ਲਈ { $email } ਰਜਿਸਟਰ ਕੀਤਾ ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ।
 subplat-manage-account = ਆਪਣੇ <a data-l10n-name="subplat-account-page">ਖਾਤਾ ਸਫ਼ੇ</a> ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ { -product-firefox-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ।
+subplat-manage-account-2 = ਆਪਣੇ <a data-l10n-name="subplat-account-page">ਖਾਤਾ ਸਫ਼ੇ</a> ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ { -product-mozilla-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = ਆਪਣੇ ਖਾਤਾ ਸਫ਼ੇ ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ { -product-firefox-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = ਆਪਣੇ ਖਾਤਾ ਸਫ਼ੇ ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ{ -product-mozilla-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ: { $accountSettingsUrl }
 subplat-terms-policy = ਸ਼ਰਤਾਂ ਅਤੇ ਰੱਦ ਕਰਨ ਦੀ ਨੀਤੀ
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
@@ -53,9 +59,13 @@ subplat-reactivate = ਮੈਂਬਰੀ ਫੇਰ ਐਕਟੀਵੇਟ ਕਰ�
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = ਬਿਲਿੰਗ ਜਾਣਕਾਰੀ ਨੂੰ ਅਪਡੇਟ ਕਰੋ
 subplat-privacy-policy = { -brand-mozilla } ਪਰਦੇਦਾਰੀ ਨੀਤੀ
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = { -product-firefox-cloud } ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = ਕਨੂੰਨੀ
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ਪਰਦੇਦਾਰੀ
@@ -92,10 +102,50 @@ automated-email-no-action = { automated-email-no-action-plaintext } ਹੋਰ �
 automated-email-no-action-plaintext = ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਕੁਝ ਵੀ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = ਜੇ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ; ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਪਰਮਾਣਿਤ ਨਹੀਂ ਕੀਤਾ ਹੈ ਤਾਂ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = ਇਹ ਬੇਨਤੀ { $uaOS } { $uaOSVersion } ਤੋਂ { $uaBrowser } ਵਲੋਂ ਆਈ ਸੀ।
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = ਇਹ ਬੇਨਤੀ { $uaOS } ਤੋਂ { $uaBrowser } ਵਲੋਂ ਆਈ ਸੀ।
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = ਇਹ ਬੇਨਤੀ { $uaBrowser } ਤੋਂ ਆਈ ਸੀ।
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = ਇਹ ਬੇਨਤੀ { $uaOS } { $uaOSVersion } ਤੋਂ ਆਈ ਸੀ।
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = ਇਹ ਬੇਨਤੀ { $uaOS } ਤੋਂ ਆਈ ਸੀ।
+automatedEmailRecoveryKey-delete-key-change-pwd = ਜੇ ਇਹ ਤੁਸੀਂ ਨਹੀਂ ਸੀ ਤਾਂ <a data-l10n-name="revokeAccountRecoveryLink">ਨਵੀਂ ਕੁੰਜੀ ਨੂੰ ਹਟਾਓ</a> ਅਤੇ <a data-l10n-name="passwordChangeLink">ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲੋ</a>।
+automatedEmailRecoveryKey-change-pwd-only = ਜੇ ਇਹ ਤੁਸੀਂ ਨਹੀਂ ਸੀ ਤਾਂ <a data-l10n-name="passwordChangeLink">ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ</a>।
+automatedEmailRecoveryKey-more-info = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-name="supportLink">{ -brand-mozilla } ਸਹਾਇਤਾ</a> ਨੂੰ ਵੇਖੋ।
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = ਇਹ ਬੇਨਤੀ ਇਥੋਂ ਆਈ ਸੀ:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = ਜੇ ਇਹ ਤੁਸੀਂ ਨਹੀਂ ਸੀ ਤਾਂ ਨਵੀਂ ਕੁੰਜੀ ਨੂੰ ਹਟਾਓ:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = ਜੇ ਇਹ ਤੁਸੀਂ ਨਹੀਂ ਸੀ ਤਾਂ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ਅਤੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਾਇਤਾ ਨੂੰ ਵੇਖੋ:
 automated-email-reset = ਇਹ ਆਟੋਮੈਟਿਕ ਭੇਜੀ ਗਈ ਈਮੇਲ ਹੈ। ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਖੁਦ ਨਹੀਂ ਕੀਤਾ ਸੀ ਤਾਂ <a data-l10n-name="resetLink">ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ</a>। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-name="supportLink">{ -brand-mozilla } ਸਹਿਯੋਗ</a> ਨੂੰ ਵੇਖੋ।
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = ਜੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਨਹੀਂ ਬਦਲਿਆ ਤਾਂ ਹੁਣੇ ਆਪਣਾ ਪਾਸਵਰਡ { $resetLink } ਰਾਹੀਂ ਬਦਲੋ
+brand-banner-message = ਕੀ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ ਕਿ ਅਸੀਂ ਆਪਣਾ ਨਾਂ { -product-firefox-accounts } ਤੋਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਕੀਤਾ ਹੈ? <a data-l10n-name="learnMore">ਹੋਰ ਜਾਣੋ</a>
+cancellationSurvey = ਇਸ <a data-l10n-name="cancellationSurveyU?rl">ਸੰਖੇਪ ਜਿਹੇ ਸਰਵੇਖਣ</a> ਨੂੰ ਪੂਰਾ ਕਰਕੇ ਸਾਨੂੰ ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ ਬੇਹਤਰ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰੋ।
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = ਇਹ ਛੋਟਾ ਜਿਹਾ ਸਰਵੇਖਣ ਭਰ ਕੇ ਸਾਨੂੰ ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ ਸੁਧਾਰਨ ਲਈ ਮਦਦ ਕਰੋ:
 change-password-plaintext = ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਲੱਗੇ ਕਿ ਕੋਈ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਕੋਸ਼ਸ਼ ਕਰ ਰਿਹਾ/ਰਹੀ ਹੈ ਤਾਂ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ।
