@@ -452,12 +452,19 @@ subscriptionFirstInvoice-subject = { $productName } ਭੁਗਤਾਨ ਦੀ �
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = { $productName } ਲਈ ਮੈਂਬਰ ਬਣਨ ਵਾਸਤੇ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ
+subscriptionFirstInvoice-content-auto-renew = ਜਦ ਤੱਕ ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਨਹੀਂ ਕਰਦੇ ਹੋ, ਤਦ ਤੱਕ ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਹਰ ਬਿੱਲਿੰਗ ਸਮੇਂ ਉੱਤੇ ਆਪਣੇ-ਆਪ ਨਵਿਆਈ ਜਾਵੇਗੀ।
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = { $productName } ਲਈ ਵਰਤੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
+subscriptionPaymentExpired-title-1 = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ਭੁਗਤਾਨ ਅਸਫ਼ਲ ਹੋਇਆ
+subscriptionPaymentFailed-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
+subscriptionPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = { $productName } ਆਪਣੇ-ਆਪ ਨਵਿਆਉਣ ਨੋਟਿਸ
@@ -471,6 +478,7 @@ subscriptionRenewalReminder-content-closing = ਤਹਿ ਦਿਲੋਂ,
 subscriptionRenewalReminder-content-signature = { $productName } ਟੀਮ
 subscriptionsPaymentExpired-subject-1 = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਲਈ ਵਰਤੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
 subscriptionsPaymentExpired-title-1 = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
+subscriptionsPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } ਭੁਗਤਾਨ ਮਿਲਿਆ
@@ -492,18 +500,25 @@ subscriptionUpgrade-upgrade-info = ਤੁਸੀਂ { $productNameOld } ਤੋਂ
 unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 unblockCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?
 unblockCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ: { $unblockCode }
+verificationReminderFinal-subject = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਆਖਰੀ ਰਿਮਾਈਂਡਰ
 confirm-account = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
 verificationReminderFirst-title-2 = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
+verificationReminderFirst-title-3 = { -brand-mozilla } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
 confirm-email-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verificationReminderSecond-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
 verificationReminderSecond-title-2 = { -brand-firefox } ਨੂੰ ਖੁੰਝ ਨਾ ਜਾਇਓ
+verificationReminderSecond-title-3 = { -brand-mozilla } ਨੂੰ ਖੁੰਝ ਨਾ ਜਾਇਓ
 verificationReminderSecond-sub-description-2 = ਇੰਟਰਨੈੱਟ ਨੂੰ ਹਰ ਕਿਸੇ ਲਈ ਆਜ਼ਾਦ ਥਾਂ ਬਣਾਉਣ ਦੇ ਸਾਡੇ ਮਕਸਦ ਦਾ ਹਿੱਸਾ ਬਣੋ।
 verificationReminderSecond-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verify-title-2 = { -brand-firefox } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
+verify-title-3 = { -brand-mozilla } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
 verify-subject = ਆਪਣਾ ਖਾਤਾ ਬਣਾਉਣਾ ਮੁਕੰਮਲ ਕਰੋ
 verify-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 # Variables:
@@ -537,5 +552,8 @@ verifySecondaryCode-expiry-notice-2 = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ 
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verifyShortCode-title-2 = { -brand-firefox } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
+verifyShortCode-title-3 = { -brand-mozilla } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ ਅਤੇ ਹਰੇਕ ਥਾਂ ਉੱਤੇ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ { -brand-mozilla } ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਫਾਇਦਾ ਲਵੋ।
 verifyShortCode-prompt-3 = ਇਹ ਤਸਦੀਕੀ ਕੋਡ ਵਰਤੋ:
 verifyShortCode-expiry-notice = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ।
