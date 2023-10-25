@@ -165,6 +165,15 @@ payment-plan-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateO
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = ਭੁਗਤਾਨ ਢੰਗ:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = { $cardName } ਕਾਰਡ ਦੇ ਪਿਛਲੇ ਅੰਕ { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = ਅਣਪਛਾਤੇ ਕਾਰਡ ਦੇ ਆਖਰੀ ਅੰਕ { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = ਇਵਾਇਸ ਨੰਬਰ: <b>{ $invoiceNumber }</b>
@@ -194,6 +203,9 @@ subscriptionCharges-content-tax = ਟੈਕਸ ਤੇ ਫ਼ੀਸਾਂ: { $invoic
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = { $invoiceDateOnly } ਨੂੰ { $invoiceTotal } ਵਸੂਲੇ
+subscriptionSupport = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਬਾਰੇ ਸਵਾਲ ਹਨ? ਸਾਡੀ <a data-l10n-name="subscriptionSupportUrl">ਸਹਾਇਤਾ ਟੀਮ</a> ਤੁਹਾਡੀ ਮਦਦ ਵਾਸਤੇ ਇੱਥੇ ਮੌਜੂਦ ਹੈ।
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਲਈ ਸਵਾਲ ਹਨ? ਸਾਡੀ ਸਹਾਇਤਾ ਟੀਮ ਤੁਹਾਡੀ ਮਦਦ ਵਾਸਤੇ ਇੱਥੇ ਮੌਜੂਦ ਹੈ:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਿਯੋਗ ਨੂੰ ਵੇਖੋ: { $supportUrl }।
@@ -248,7 +260,9 @@ downloadSubscription-subject = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ
 downloadSubscription-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
 downloadSubscription-link-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
 fraudulentAccountDeletion-subject = ਤੁਹਾਡਾ { -product-firefox-account } ਹਟਾਇਆ ਗਿਆ ਸੀ
+fraudulentAccountDeletion-subject-2 = ਤੁਹਾਡਾ { -product-mozilla-account } ਹਟਾਇਆ ਗਿਆ ਸੀ
 fraudulentAccountDeletion-title = ਤੁਹਾਡਾ ਖਾਤਾ ਹਟਾਇਆ ਗਿਆ ਸੀ
+fraudulentAccountDeletion-contact = ਜੇ ਤੁਹਾਨੂੰ ਕੋਈ ਵੀ ਸਵਾਲ ਹੋਵੇ ਤਾਂ ਸਾਡੀ <a data-l10n-name="mozillaSupportUrl">ਸਹਿਯੋਗੀ ਟੀਮ</a> ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = ਜੇ ਤੁਹਾਨੂੰ ਕੋਈ ਵੀ ਸਵਾਲ ਹੋਵੇ ਤਾਂ ਸਾਡੀ ਸਹਿਯੋਗੀ ਟੀਮ ਨਾਲ ਸੰਪਰਕ ਕਰੋ: { $mozillaSupportUrl }
@@ -259,6 +273,7 @@ codes-reminder-title-two = ਹੋਰ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰ
 codes-reminder-description-part-one = ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ ਤਾਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤੁਹਾਨੂੰ ਆਪਣੀ ਜਾਣਕਾਰੀ ਬਹਾਲ ਕਰਨ ਲਈ ਮਦਦ ਕਰਦੇ ਹਨ।
 codes-reminder-description-part-two = ਹੁਣੇ ਨਵੇਂ ਕੋਡ ਬਣਾਓ ਤਾਂ ਕਿ ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਆਪਣਾ ਡਾਟਾ ਨਾ ਗੁਆ ਦਿਓ।
 codes-reminder-description-two-left = ਸਿਰਫ਼਼ ਦੋ ਹੀ ਕੋਡ ਬਾਕੀ ਬਚੇ ਹਨ।
+codes-reminder-description-create-codes = ਜੇ ਕਿਤੇ ਤੁਸੀਂ ਲਾਕ ਆਉਟ ਹੋ ਜਾਵੋ ਤਾਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਵਾਪਸ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਮਦਦ ਵਾਸਤੇ ਨਵਾਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਓ।
 lowRecoveryCodes-action-2 = ਕੋਡ ਬਣਾਓ
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
@@ -271,6 +286,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ਲਈ ਨਵਾਂ ਸਾਈਨ-ਇਨ
 newDeviceLogin-title-2 = ਤੁਹਾਡਾ { -product-firefox-account } ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤਿਆ ਗਿਆ ਸੀ
+newDeviceLogin-title-3 = ਤੁਹਾਡਾ { -product-mozilla-account } ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤਿਆ ਗਿਆ ਸੀ
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = ਤੁਸੀ ਨਹੀਂ? <a data-l10n-name="passwordChangeLink">ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ</a>।
@@ -281,15 +297,25 @@ newDeviceLogin-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 passwordChanged-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 passwordChanged-title = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ
 passwordChanged-description = ਤੁਹਾਡਾ { -product-firefox-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
+passwordChanged-description-2 = ਤੁਹਾਡਾ{ -product-mozilla-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChangeRequired-subject = ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਗਈ ਹੈ
 passwordChangeRequired-title = ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਲੋੜ ਹੈ
+passwordChangeRequired-suspicious-activity-2 = ਅਸੀਂ ਤੁਹਾਡੇ { -product-mozilla-account } ਲਈ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਹੈ। ਤੁਹਾਡੇ { -product-mozilla-account } ਲਈ ਨਾ-ਪਰਾਮਣਿਤ ਪਹੁੰਚ ਨੂੰ ਰੋਕਣ ਵਾਸਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲੋਂ ਸਾਰੇ ਡਿਵਾਈਸ ਡਿਸ-ਕਨੈਕਟ ਕਰ ਦਿੱਤੇ ਹਨ ਅਤੇ ਸਾਵਧਾਨੀ ਦੇ ਵਜੋਂ ਤੁਹਾਨੂੰ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲਣਾ ਪਵੇਗਾ।
+passwordChangeRequired-sign-in = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਆਪਣਾ { -product-firefox-account } ਖਾਤਾ ਵਰਤਿਆ ਹੋਵੇ, ਉਸ ਡਿਵਾਈਸ ਜਾਂ ਸੇਵਾ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਤੁਹਾਨੂੰ ਦਿੱਤੀਆਂ ਹਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।
+passwordChangeRequired-sign-in-2 = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਆਪਣਾ { -product-mozilla-account } ਖਾਤਾ ਵਰਤਿਆ ਹੋਵੇ, ਉਸ ਡਿਵਾਈਸ ਜਾਂ ਸੇਵਾ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਤੁਹਾਨੂੰ ਦਿੱਤੀਆਂ ਹਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।
+passwordChangeRequired-different-password = <b>ਖਾਸ</b>: ਤੁਹਾਡੇ ਵਲੋਂ ਪਹਿਲਾਂ ਵਰਤੇ ਪਾਸਵਰਡ ਤੋਂ ਵੱਖਰਾ ਪਾਸਵਰਡ ਚੁਣੋ ਅਤੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਈਮੇਲ ਖਾਤੇ ਤੋਂ ਵੱਖਰਾ ਹੋਵੇ।
+passwordChangeRequired-different-password-plaintext = ਖਾਸ: ਤੁਹਾਡੇ ਵਲੋਂ ਪਹਿਲਾਂ ਵਰਤੇ ਪਾਸਵਰਡ ਤੋਂ ਵੱਖਰਾ ਪਾਸਵਰਡ ਚੁਣੋ ਅਤੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਈਮੇਲ ਖਾਤੇ ਤੋਂ ਵੱਖਰਾ ਹੋਵੇ।
 passwordReset-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 passwordReset-title = ਤੁਹਾਡੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲਿਆ ਗਿਆ ਸੀ
 passwordReset-description = ਸਿੰਕ ਕਰਨਾ ਮੁੜ-ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹੋਰ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇਣ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
 passwordResetAccountRecovery-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 passwordResetAccountRecovery-title-2 = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = ਤੁਸੀਂ ਇਸ ਤੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਿਆ ਹੈ:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = ਆਪਣੀ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
 postAddAccountRecovery-title2 = ਤੁਸੀਂ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਹੈ
 postAddAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postAddLinkedAccount-subject = { -brand-firefox } ਨਾਲ ਨਵਾਂ ਖਾਤਾ ਲਿੰਕ ਕੀਤਾ
