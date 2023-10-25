@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-25 21:02+0000\n"
+"PO-Revision-Date: 2023-10-25 21:12+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1023,7 +1023,7 @@ msgstr "ਇਹ ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "%(escapedEmail)s ਨੂੰ ਭੇਜੇ ਤਸਦੀਕੀ ਲਿੰਕ ਵਾਸਤੇ ਆਪਣੀ ਈਮੇਲ ਚੈਕ ਕਰੋ"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1049,11 +1049,11 @@ msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਲਈ ਅਗਲੇ ਘ�
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">ਤੁਹਾਡੇ Mozilla ਖਾਤੇ ਲਈ</span> ਤਸਦੀਕ ਕੋਡ ਭਰੋ"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "%(escapedEmail)s ਨੂੰ ਭੇਜੇ ਗਏ ਕੋਡ ਨੂੰ 5 ਮਿੰਟਾਂ ਵਿੱਚ ਭਰੋ।"
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1132,7 +1132,7 @@ msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ iOS ਲ�
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">ਤੁਹਾਡੇ Mozilla ਖਾਤੇ ਲਈ</span> ਪਾਸਵਰਡ ਭਰੋ"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1171,11 +1171,11 @@ msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">ਤੁਹਾਡੇ Firefox ਖਾਤੇ ਲਈ</span> ਪਾਸਵਰਡ ਭਰੋ"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "ਆਪਣੇ Mozilla ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1195,7 +1195,7 @@ msgstr "ਸਾਈਨ ਅੱਪ ਜਾਂ ਸਾਈਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Mozilla ਖਾਤਾ Mozilla ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾਰੀ-ਸੁਰੱਖਿਅਤ ਖਾਤਿਆਂ ਲਈ ਪਹੁੰਚ ਵੀ ਦਿੰਦਾ ਹੈ।"
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1300,7 +1300,7 @@ msgstr "ਕੋਡ ਖੁਦ ਭਰੋ"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "ਆਪਣੀ ਪਰਮਾਣਕਿਤਾ ਐਪ ਰਾਹੀਂ QR ਕੋਡ ਸਕੈਨ ਕਰੋ ਅਤੇ ਇਸ ਵਲੋਂ ਦਿੱਤਾ ਸੁਰੱਖਿਆ ਕੋਡ ਭਰੋ।"
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
@@ -1308,7 +1308,7 @@ msgstr "ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ ਹੋ?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "ਇੱਕ ਵਾਰ ਪੂਰਾ ਹੋਣ ਉੱਤੇ ਇਹ ਤੁਹਾਡੇ ਵਲੋਂ ਭਰਨ ਵਾਲੇ ਸੁਰੱਖਿਆ ਕੋਡ ਬਣਾਉਣਾ ਸ਼ੁਰੂ ਕਰੇਗਾ।"
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
@@ -1536,7 +1536,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Mozilla ਤੋਂ ਹੋਰ ਲਵੋ:"
 
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
@@ -1548,7 +1548,7 @@ msgstr "ਖਾਤਾ ਬਣਾਓ"
 
 #: .es5/templates/support.mustache:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla ਖਾਤਾ"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
@@ -1596,7 +1596,7 @@ msgstr "ਸੂਚੀਬੱਧ ਨਹੀਂ"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "ਕੀ ਤੁਹਾਨੂੰ ਕਿਸੇ ਖਾਸ ਐਪ ਜਾਂ ਸਰਵਿਸ ਨਾਲ ਮਦਦ ਚਾਹੀਦੀ ਹੈ? (ਚੋਣਵਾਂ)"
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
@@ -1680,7 +1680,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਬਣਾਓ"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1701,7 +1701,7 @@ msgstr "ਸ਼ਾਇਦ ਬਾਦ 'ਚ"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਦਾਖਲ ਕਰੋ, ਜੋ %(escapedEmail)s ਨੂੰ 5 ਮਿੰਟ ਦੇ ਅੰਦਰ ਭੇਜਿਆ ਗਿਆ ਸੀ।"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1771,7 +1771,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Mozilla ਖਾਤਾ ਬਣਾਓ"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1872,7 +1872,7 @@ msgstr "<span class=\"number\">4</span>ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ �
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਾਲ ਆਪਣਾ ਡਾਟਾ ਸੁਰੱਖਿਅਤ ਕਰੋ"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1892,7 +1892,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "ਤੁਹਾਡੇ ਕੋਲ ਕਾਪੀ ਸੰਭਾਲੀ ਹੋਣ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਭਰੋ"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
@@ -1908,23 +1908,23 @@ msgstr "ਮੈਨੂੰ ਖਾਤਾ ਬਣਾਉਣ ਦੀ ਲੋੜ ਕਿਉ�
 
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Mozilla m ਲੋਗੋ"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "1 ਨਵੰਬਰ ਨੂੰ Firefox ਖਾਤਿਆਂ ਦਾ ਨਾਂ ਬਦਲ ਕੇ Mozilla ਖਾਤੇ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਉਸੇ ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤੋਂਗੇ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਉਤਪਾਦਾਂ ਵਿੱਚ ਹੋਰ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਆਵੇਗੀ।"
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
-msgstr ""
+msgstr "ਹੋਰ ਜਾਣੋ"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Firefox ਖਾਤਿਆਂ ਦਾ ਨਾਂ ਬਦਲ ਕੇ Mozilla ਖਾਤੇ ਕਰ ਦਿੱਤਾ ਹੈ। ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਉਸੇ ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤੋਂਗੇ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਉਤਪਾਦਾਂ ਵਿੱਚ ਹੋਰ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਆਵੇਗੀ।"
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
