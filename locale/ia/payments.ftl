@@ -136,6 +136,7 @@ payment-confirmation-download-button = Continuar a discargar
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Io autorisa { -brand-name-mozilla }, creator del productos { -brand-name-firefox }, a debitar a mi methodo de pagamento le amonta indicate, in conformitate con le <termsOfServiceLink>conditiones de servicio</termsOfServiceLink> e con le <privacyNoticeLink>aviso de confidentialitate</privacyNoticeLink>, usque io cancella mi subscription.
+payment-confirm-with-legal-links-static-2 = Io autorisa { -brand-name-mozilla } cargar mi methodo de pagamento pro le amonta monstrate, secundo <termsOfServiceLink>Terminos de servicio</termsOfServiceLink> e <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi abonamento.
 payment-confirm-checkbox-error = Il besonia completar isto, ante proceder
 
 ## Component - PaymentErrorView
