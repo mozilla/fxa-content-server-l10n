@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox ਖਾਤੇ
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -38,6 +41,8 @@ settings-home = ਖਾਤੇ ਦਾ ਮੁੱਖ ਸਫ਼ਾ
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = ਪ੍ਰੋਮੋ ਕੋਡ ਲਾਗੂ ਕੀਤਾ
 coupon-submit = ਲਾਗੂ ਕਰੋ
 coupon-remove = ਹਟਾਓ
 coupon-error = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤਾ ਕੋਡ ਅਢੁੱਕਵਾਂ ਹੈ ਜਾਂ ਇਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਹੈ।
@@ -53,11 +58,17 @@ input-error-is-required = { $label } ਲੋੜੀਂਦਾ ਹੈ
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox } ਲੋਗੋ
+brand-name-mozilla-logo = { -brand-mozilla } ਲੋਗੋ
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = ਪਹਿਲਾਂ ਹੀ { -brand-name-firefox } ਖਾਤਾ ਹੈ? <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
+new-user-sign-in-link-2 =
+    ਪਹਿਲਾਂ ਹੀ { -product-mozilla-account } ਹੈ?
+    <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -65,10 +76,16 @@ new-user-enter-email =
     .label = ਆਪਣੀ ਈਮੇਲ ਦਿਓ
 new-user-confirm-email =
     .label = ਆਪਣਾ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
-new-user-subscribe-product-updates = ਮੈਂ { -brand-name-firefox } ਤੋਂ ਉਤਪਾਦ ਅੱਪਡੇਟ ਹਾਸਲ ਕਰਨੇ ਚਾਹਾਂਗਾ/ਚਾਹਾਂਗੀ
+new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
+new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
+new-user-subscribe-product-updates-hubs = ਮੈਂ { -product-mozilla-hubs } ਅਤੇ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
+new-user-subscribe-product-updates-mdnplus = ਮੈਂ { -product-mdn-plus } ਅਤੇ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
+new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈਮੇਲ ਨੂੰ ਸਿਰਫ ਤੁਹਾਡਾ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਹੀ ਵਰਤਦੇ ਹਾਂ। ਅਸੀਂ ਕਦੇ ਵੀ ਇਸ ਨੂੰ ਤੀਜੀ ਧਿਰ ਨੂੰ ਨਹੀਂ ਵੇਚਾਂਗੇ।
 new-user-email-validate = ਈਮੇਲ ਠੀਕ ਨਹੀਂ ਹੈ
 new-user-email-validate-confirm = ਈਮੇਲ ਮਿਲਦੀਆਂ ਨਹੀਂ ਹਨ
 new-user-already-has-account-sign-in = ਤੁਹਾਡੇ ਕੋਲ ਪਹਿਲਾਂ ਹੀ ਖਾਤਾ ਹੈ। <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = ਈਮੇਲ ਗਲਤ ਲਿਖਤੀ ਗਈ? { $domain } ਈਮੇਲ ਨਹੀਂ ਦਿੰਦੀ ਹੈ।
 
 ## Component - PaymentConfirmation
 
@@ -76,6 +93,8 @@ payment-confirmation-thanks-heading = ਤੁਹਾਡਾ ਧੰਨਵਾਦ!
 payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁਣ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ!
 payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
 payment-confirmation-invoice-number = ਇਨਵਾਇਸ ${ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 payment-confirmation-amount = { $amount } ਪ੍ਰਤੀ { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -110,6 +129,7 @@ payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ ਜਾ
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-checkbox-error = ਅੱਗੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਇਹ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 
 ## Component - PaymentErrorView
 
@@ -118,6 +138,9 @@ payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦ�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = ਤੁਸੀਂ { -brand-name-google } ਜਾਂ { -brand-name-apple } ਐਪ ਸਟੋਰ ਰਾਹੀਂ ਪਹਿਲਾਂ ਹੀ { $productName } ਦੇ ਮੈਂਬਰ ਹੋ।
+iap-upgrade-no-bundle-support = ਅਸੀਂ ਇਹਨਾਂ ਮੈਂਬਰੀਆਂ ਤੋਂ ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹਨ, ਪਰ ਛੇਤੀ ਹੀ ਹੋਵਾਂਗੇ।
 iap-upgrade-get-help-button = ਮਦਦ ਲਵੋ
 
 ## Component - PaymentForm
@@ -147,6 +170,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ਪਰ�
 payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 
 ## Component - PaymentProcessing
 
@@ -179,6 +203,50 @@ product-no-such-plan = ਉਸ ਉਤਪਾਦ ਲਈ ਕੋਈ ਪਲਾਨ ਨ�
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } ਟੈਕਸ
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } ਦਿਨ
+       *[other] { $priceAmount } ਹਰ { $intervalCount } ਦਿਨ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ਰੋਜ਼
+           *[other] { $priceAmount } ਹਰ { $intervalCount } ਦਿਨ
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } ਹਫ਼ਤੇਵਾਰ
+       *[other] { $priceAmount } ਹਰ { $intervalCount } ਹਫ਼ਤੇ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ਹਫ਼ਤੇਵਾਰ
+           *[other] { $priceAmount } ਹਰ { $intervalCount } ਹਫ਼ਤੇ
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } ਮਹੀਨੇਵਾਰ
+       *[other] { $priceAmount } ਹਰ { $intervalCount } ਮਹੀਨੇ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ਮਹੀਨੇਵਾਰ
+           *[other] { $priceAmount } ਹਰ { $intervalCount } ਮਹੀਨੇ
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } ਸਾਲਨਾ
+       *[other] { $priceAmount } ਹਰ { $intervalCount } ਸਾਲ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ਸਾਲਨਾ
+           *[other] { $priceAmount } ਹਰ { $intervalCount } ਸਾਲ
+        }
 
 ## Component - SubscriptionTitle
 
@@ -192,6 +260,9 @@ sub-guarantee = 30-ਦਿਨ ਦੀ ਰਕਮ ਵਾਪਸੀ ਗਾਰੰਟੀ
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 privacy = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 terms-download = ਡਾਊਨਲੋਡ ਕਰਨ ਦੀਆਂ ਸ਼ਰਤਾਂ
@@ -235,7 +306,9 @@ product-plan-not-found = ਪਲਾਨ ਨਹੀਂ ਲੱਭਿਆ
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. { -brand-name-firefox } ਖਾਤਾ ਬਣਾਓ
+new-user-step-1-2 = 1. { -product-mozilla-account } ਬਣਾਓ
 new-user-card-title = ਆਪਣੇ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
 new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
 
@@ -247,6 +320,7 @@ sub-update-payment-title = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = ਕਾਰਡ ਨਾਲ ਭੁਗਤਾਨ
+product-invoice-preview-error-title = ਇਨਵਾਈਸ ਝਲਕ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ
 
 ## Routes - Product - IapRoadblock
 
@@ -266,6 +340,19 @@ sub-change-submit = ਤਬਦੀਲੀ ਦੀ ਤਸਦੀਕ
 sub-update-current-plan-label = ਮੌਜੂਦਾ ਪਲਾਨ
 sub-update-new-plan-label = ਨਵਾਂ ਪਲਾਨ
 sub-update-total-label = ਨਵਾਂ ਜੋੜ
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (ਰੋਜ਼ਾਨਾ)
+sub-update-new-plan-weekly = { $productName } (ਹਫ਼ਤੇਵਾਰ)
+sub-update-new-plan-monthly = { $productName } (ਮਹੀਨੇਵਾਰ)
+sub-update-new-plan-yearly = { $productName } (ਸਾਲਾਨਾ)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

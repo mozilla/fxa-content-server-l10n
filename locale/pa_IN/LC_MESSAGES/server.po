@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-02-19 21:47+0000\n"
+"PO-Revision-Date: 2023-10-25 21:13+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla ਖਾਤੇ"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -73,7 +73,7 @@ msgstr "ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: server/templates/pages/src/index.html:3
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla ਖਾਤੇ ਲਈ JavaScript ਚਾਹੀਦੀ ਹੈ।"
 
 #: server/templates/pages/src/index.html:4
 msgid "Firefox Accounts requires JavaScript."
@@ -81,7 +81,7 @@ msgstr "Firefox ਖਾਤੇ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ �
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla ਖਾਤਾ"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
