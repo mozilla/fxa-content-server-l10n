@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-21 05:28+0000\n"
-"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
+"PO-Revision-Date: 2023-10-25 14:47+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1131,7 +1131,7 @@ msgstr "登录 Firefox iOS 版以完成设置"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "请输入密码<span class=\"card-subheader\" id=\"subheader\">以登录 Mozilla 账户</span>"
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Mozilla 账户</span>请输入密码"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1180,7 +1180,7 @@ msgstr "忘记密码？"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr "请输入您的 <span class=\"card-subheader\" id=\"subheader\">Firefox 账户</span> 密码"
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Firefox 账户</span>请输入密码"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"

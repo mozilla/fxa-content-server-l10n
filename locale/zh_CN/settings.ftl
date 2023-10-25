@@ -341,7 +341,7 @@ cs-cannot-refresh = 很抱歉，刷新关联服务列表时出现问题。
 cs-cannot-disconnect = 找不到客户端，无法断开连接
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = 已退出 { $service }
 cs-refresh-button =
@@ -353,7 +353,7 @@ cs-disconnect-sync-heading = 断开同步
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -1032,7 +1032,7 @@ cookies-disabled-learn-more = 详细了解
 inline-recovery-setup-header-default = 确认备用验证码以<span>继续进行账户设置</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = 保存备用验证码<span>以继续使用 { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = 请妥善保管下列一次性恢复码，以便在移动设备不可用时使用。
@@ -1052,7 +1052,7 @@ inline-recovery-confirmation-description = 为确保您在设备丢失的情况�
 inline-recovery-confirmation-header-default = 确认备用验证码以<span>继续进行账户设置</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用 { $serviceName }</span>
 
 ## InlineTotpSetup page
@@ -1304,7 +1304,7 @@ confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = 请为<span>{ -product-firefox-account }</span>输入您的密码
+signin-password-needed-header = <span>{ -product-firefox-account }</span>请输入密码
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span>请输入密码
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
