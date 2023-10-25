@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = { -product-firefox-accounts } ਵਿੱਚ ਲਾਗਇਨ ਕਰਨਾ ਹੈ?
+session-verify-send-push-title-2 = ਤੁਹਾਡੇ { -product-mozilla-account } ਵਿੱਚ ਲਾਗ ਇਨ ਕਰਨਾ ਹੈ?
 session-verify-send-push-body-2 = ਇਹ ਤੁਸੀਂ ਹੀ ਹੋ, ਇਹ ਤਸਦੀਕ ਕਰਨ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ
 
 ## Email content
@@ -8,12 +9,18 @@ session-verify-send-push-body-2 = ਇਹ ਤੁਸੀਂ ਹੀ ਹੋ, ਇਹ �
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } ਪਰਦੇਦਾਰੀ ਨੀਤੀ
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 fxa-service-url = { -product-firefox-cloud } ਕਲਾਉਡ ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
 subplat-privacy-notice = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 subplat-privacy-plaintext = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ:
@@ -24,7 +31,14 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ ਅਤੇ ਤੁਸੀਂ { $productName } ਲਈ ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਹੈ।
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ { $productName } ਲਈ ਸਾਈਨ ਅੱਪ ਕਰਕ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਆਈ ਹੈ।
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ।
 subplat-explainer-multiple = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ ਅਤੇ ਤੁਸੀਂ ਕਈ ਉਤਪਾਦਾਂ ਲਈ ਮੈਂਬਰ ਬਣ ਚੁੱਕੇ ਹੋ।
 subplat-explainer-was-deleted = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } { -product-firefox-account } ਲਈ ਰਜਿਸਟਰ ਕੀਤੀ ਗਈ ਸੀ।
 subplat-manage-account = ਆਪਣੇ <a data-l10n-name="subplat-account-page">ਖਾਤਾ ਸਫ਼ੇ</a> ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ { -product-firefox-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ।
@@ -102,10 +116,6 @@ payment-plan-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateO
 payment-method = ਭੁਗਤਾਨ ਢੰਗ:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = ਪਿਛਲੇ ਅੱਖਰਾਂ { $lastFour } ਵਾਲਾ { $cardType } ਕਾਰਡ
-# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = ਇਵਾਇਸ ਨੰਬਰ: <b>{ $invoiceNumber }</b>
 # Variables:
@@ -175,7 +185,6 @@ cadReminderFirst-action = ਹੋਰ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = ਸਿੰਕ ਕਰਨ ਲਈ ਦੋ ਚਾਹੀਦੇ ਹਨ
-cadReminderFirst-description-2 = ਸਿੰਕ ਕਰਨ ਲਈ ਸਕਿੰਟ ਕੁ ਲੱਗਦਾ ਹੈ।
 cadReminderSecond-subject-2 = ਖੁੰਝੋ ਨਾ! ਆਓ ਤੁਹਾਡੇ ਸਿੰਕ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੀਏ
 cadReminderSecond-action = ਹੋਰ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ
 cadReminderSecond-title-2 = ਸਿੰਕ ਕਰਨਾ ਨਾ ਭੁੱਲੋ!
@@ -211,8 +220,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ਲਈ ਨਵਾਂ ਸਾਈਨ-ਇਨ
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = ਤੁਹਾਡਾ { -product-firefox-account } ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤਿਆ ਗਿਆ ਸੀ
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -226,8 +233,6 @@ passwordChanged-title = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬ�
 passwordChanged-description = ਤੁਹਾਡਾ { -product-firefox-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChangeRequired-subject = ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਗਈ ਹੈ
 passwordChangeRequired-title = ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਲੋੜ ਹੈ
-passwordChangeRequired-signoff = ਸਭ ਤੋਂ ਵਧੀਆ,
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } ਟੀਮ
 passwordReset-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 passwordReset-title = ਤੁਹਾਡੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲਿਆ ਗਿਆ ਸੀ
 passwordReset-description = ਸਿੰਕ ਕਰਨਾ ਮੁੜ-ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹੋਰ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇਣ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
@@ -235,16 +240,8 @@ passwordResetAccountRecovery-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ �
 passwordResetAccountRecovery-title-2 = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = ਆਪਣੀ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
-postAddAccountRecovery-subject-2 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
 postAddAccountRecovery-title2 = ਤੁਸੀਂ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਹੈ
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = ਨਵੀਂ ਕੁੰਜੀ ਇਸ ਤੋਂ ਬਣਾਈ ਗਈ ਸੀ:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = ਤੁਸੀਂ ਨਹੀਂ ਹੋ?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">ਕੁੰਜੀ ਹਟਾਓ</a> ਅਤੇ <a data-l10n-name="passwordChangeLink">ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ</a>
 postAddAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-postAddAccountRecovery-delete-key = ਨਵੀਂ ਕੁੰਜੀ ਹਟਾਓ:
-postAddAccountRecovery-changd-password = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ:
 postAddLinkedAccount-subject = { -brand-firefox } ਨਾਲ ਨਵਾਂ ਖਾਤਾ ਲਿੰਕ ਕੀਤਾ
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -274,9 +271,6 @@ postNewRecoveryCodes-title-2 = ਤੁਸੀਂ ਨਵੇਂ ਬੈਕਅੱਪ �
 postNewRecoveryCodes-description-2 = ਇਹਨਾਂ ਨੂੰ ਇੱਥੇ ਬਣਾਇਆ ਗਿਆ ਸੀ:
 postNewRecoveryCodes-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postRemoveAccountRecovery-subject-2 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਈ ਗਈ
-postRemoveAccountRecovery-title-2 = ਤੁਸੀਂ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਈ ਹੈ।
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = ਇਸ ਨੂੰ ਇੱਥੋਂ ਹਟਾਇਆ:
 postRemoveAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postRemoveSecondary-subject = ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾਈ
 postRemoveSecondary-title = ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾਈ
