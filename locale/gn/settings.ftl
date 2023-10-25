@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Joguahára ndojejuhúi, ndaikatúi osẽ
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Osẽma { $service }-gui.
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Sync-gui ñesẽ
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -1008,7 +1008,7 @@ auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-999 = Jejavy eha’arõ’ỹva
-auth-error-1003 = Ñeñongatu pypegua terã umi kookie noñembojurujái gueteri
+auth-error-1003 = Ñeñongatu pypegua térã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 auth-error-1011 = Eikotevẽ ñanduti veve oikóva
 
@@ -1068,7 +1068,7 @@ cookies-disabled-learn-more = Kuaave
 inline-recovery-setup-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Erujey ayvu jeguerujeyrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Eñongatu ko’ã ayvu ijeporu peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry.
@@ -1088,7 +1088,7 @@ inline-recovery-confirmation-description = Eikekuaajey hag̃ua ne mba’etépe o
 inline-recovery-confirmation-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua mba’ete ñemboheko ndive</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Erujey ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
 
 ## InlineTotpSetup page
