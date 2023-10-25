@@ -627,6 +627,30 @@ display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱ�
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = ਸੱਜੀ ਖਾਤਾ ਸਰਗਰਮੀ
+recent-activity-account-create-v2 = ਖਾਤਾ ਬਣਾਇਆ
+recent-activity-account-disable-v2 = ਖਾਤਾ ਅਸਮਰੱਥ ਕੀਤਾ
+recent-activity-account-enable-v2 = ਖਾਤਾ ਸਮਰੱਥ ਕੀਤਾ
+recent-activity-account-login-v2 = ਖਾਤਾ ਲਾਗਇਨ ਸ਼ੁਰੂ ਕੀਤਾ
+recent-activity-account-reset-v2 = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ
+recent-activity-account-login-failure = ਖਾਤਾ ਲਾਗਇਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਅਸਫ਼ਲ ਹੋਈ
+recent-activity-account-two-factor-added = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਹੈ
+recent-activity-account-two-factor-requested = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਦੀ ਮੰਗ ਕੀਤੀ ਗਈ ਹੈ
+recent-activity-account-two-factor-failure = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਫ਼ਲ ਹੈ
+recent-activity-account-two-factor-success = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਕਾਮਯਾਬ ਹੈ
+recent-activity-account-two-factor-removed = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਹਟਾਈ ਗਈ ਹੈ
+recent-activity-account-password-reset-requested = ਖਾਤਾ ਤੋਂ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਬੇਨਤੀ ਕੀਤੀ ਗਈ
+recent-activity-account-password-reset-success = ਖਾਤਾ ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈੱਟ ਕੀਤਾ ਗਿਆ
+recent-activity-account-recovery-key-added = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਸਮਰੱਥ ਹੈ
+recent-activity-account-recovery-key-verification-failure = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਸਦੀਕ ਅਸਫ਼ਲ ਹੈ
+recent-activity-account-recovery-key-verification-success = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਸਦੀਕ ਕਾਮਯਾਬ ਹੈ
+recent-activity-account-recovery-key-removed = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਈ ਗਈ
+recent-activity-account-password-added = ਨਵਾਂ ਪਾਸਵਰਡ ਜੋੜਿਆ ਗਿਆ
+recent-activity-account-password-changed = ਪਾਸਵਰਡ ਬਦਲਿਆ
+recent-activity-account-secondary-email-added = ਸਹਾਇਕ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਜੋੜਿਆ ਗਿਆ
+recent-activity-account-secondary-email-removed = ਸਹਾਇਕ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਹਟਾਇਆ ਗਿਆ
+recent-activity-account-emails-swapped = ਮੂਲ ਅਤੇ ਸਹਾਇਕ ਈਮੇਲ ਆਪਸ ਵਿੱਚ ਬਦਲੇ ਗਏ
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = ਹੋਰ ਖਾਤਾ ਸਰਗਰਮੀ
 
 # Account recovery key setup page
 
@@ -645,6 +669,9 @@ recovery-key-success-alert-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ �
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 
 ## Add secondary email page
 
@@ -726,6 +753,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = { $numberOfSteps } ਵਿੱਚੋਂ { $currentStep } ਪੜਾਅ।
 
 ## Security section of Setting
 
@@ -739,6 +771,8 @@ security-password-created-date = { $date } ਨੂੰ ਬਣਾਇਆ
 security-not-set = ਸੈੱਟ ਨਹੀਂ
 security-action-create = ਬਣਾਓ
 security-set-password = ਸਿੰਕ ਕਰਨ ਤੇ ਕੁਝ ਖਾਤਾ ਸੁਰੱਖਿਆ ਫ਼ੀਚਰ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ।
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = ਸੱਜਰੀ ਖਾਤਾ ਸਰਗਰਮੀ ਵੇਖੋ
 
 ## Switch component
 
@@ -764,6 +798,8 @@ rk-header-1 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 rk-enabled = ਸਮਰੱਥ ਹੈ
 rk-not-set = ਸੈੱਟ ਨਹੀਂ
 rk-action-create = ਬਣਾਓ
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = ਬਦਲੋ
 rk-action-remove = ਹਟਾਓ
 rk-key-removed-2 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਈ ਗਈ
 rk-cannot-remove-key = ਤੁਹਾਡੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ ਹੈ।
