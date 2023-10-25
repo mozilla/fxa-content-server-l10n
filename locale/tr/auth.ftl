@@ -13,11 +13,14 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cihazları eşitle">
 body-devices-image = <img data-l10n-name="devices-image" alt="Cihazlar">
 fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Gizlilik Bildirimi
 fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Hizmet Koşulları
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logosu">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logosu">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logosu">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logosu">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logosu">
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 subplat-privacy-notice = Gizlilik bildirimi
 subplat-privacy-plaintext = Gizlilik bildirimi:
@@ -56,9 +59,13 @@ subplat-reactivate = Aboneliği yeniden etkinleştir
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Fatura bilgilerini güncelle
 subplat-privacy-policy = { -brand-mozilla } Gizlilik İlkeleri
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Gizlilik Bildirimi
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = { -product-firefox-cloud } Hizmet Koşulları
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Hizmet Koşulları
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Hukuki Bilgiler
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Gizlilik
@@ -95,12 +102,24 @@ automated-email-no-action = { automated-email-no-action-plaintext } Daha fazla b
 automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi şey yapmanıza gerek yok.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen parolanızı değiştirin:
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Bu istek şuradan geldi:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Bu siz değilseniz yeni anahtarı silin:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Bu siz değilseniz parolanızı değiştirin:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ve parolanızı değiştirin:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Daha fazla bilgi için { -brand-mozilla } destek sayfasını ziyaret edin:
 automated-email-reset =
     Bu otomatik bir e-postadır. Bu işlemi siz onaylamadıysanız <a data-l10n-name="resetLink">lütfen parolanızı sıfırlayın</a>.
     Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Parolanızı siz değiştirmediyseniz lütfen hemen { $resetLink } adresinden sıfırlayın
+brand-banner-message = { -product-firefox-accounts } adını { -product-mozilla-accounts } olarak değiştirdiğimizi biliyor muydunuz? <a data-l10n-name="learnMore">Bilgi alın</a>
 cancellationSurvey = Hizmetlerimizi iyileştirebilmemiz için bu <a data-l10n-name="cancellationSurveyUrl">kısa ankete</a> katılmanızı rica ederiz.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hizmetlerimizi iyileştirebilmemiz için kısa bir ankete katılmanızı rica ederiz:
@@ -291,6 +310,8 @@ passwordResetAccountRecovery-title-2 = Parola başarıyla sıfırlandı
 passwordResetAccountRecovery-description-2 = Şu cihazdan parolanızı güncellemek için hesap kurtarma anahtarınızı kullandınız:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Yeni hesap kurtarma anahtarı oluştur
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Hesap kurtarma anahtarı oluştur
 passwordResetAccountRecovery-regen-required-mjml-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın:
