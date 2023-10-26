@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Apparaten syngronisearje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparaten">
 fxa-privacy-url = { -brand-mozilla }-privacybelied
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") }-privacyferklearring
 fxa-service-url = Brûkersbetingsten { -product-firefox-cloud }
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Tsjinstbetingsten
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
@@ -58,7 +59,9 @@ subplat-reactivate = Abonnemint opnij aktivearje
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Fakturaasjegegevens bywurkje
 subplat-privacy-policy = { -brand-mozilla }-privacybelied
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") }-privacyferklearring
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Tsjinstbetingsten foar { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") }-Tsjinstbetingsten
