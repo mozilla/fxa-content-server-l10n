@@ -13,7 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cydweddu dyfeisiau">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dyfeisiau">
 fxa-privacy-url = Polisi Preifatrwydd { -brand-mozilla }
-moz-accounts-privacy-url-2 = { -product-mozilla-accounts(cyfalafu: "uppercase") } Hysbysiad Preifatrwydd
+moz-accounts-privacy-url-2 = Hysbysiad Preifatrwydd { -product-mozilla-accounts(cyfalafu: "uppercase") }
 fxa-service-url = Amodau Gwasanaethau { -product-firefox-cloud }
 moz-accounts-terms-url = Amodau Gwasanaeth { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
@@ -59,7 +59,7 @@ subplat-reactivate = Ailgychwyn y tanysgrifiad
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Diweddaru’r manylion bilio
 subplat-privacy-policy = Polisi Preifatrwydd { -brand-mozilla }
-subplat-privacy-policy-2 = { -product-mozilla-accounts(cyfalafu: "uppercase") } Hysbysiad Preifatrwydd
+subplat-privacy-policy-2 = Hysbysiad Preifatrwydd { -product-mozilla-accounts(cyfalafu: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 } :
 subplat-cloud-terms = Amodau Gwasanaethau { -product-firefox-cloud }

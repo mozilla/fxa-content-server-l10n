@@ -152,7 +152,7 @@ payment-confirmation-download-button = Parhau i lwytho i lawr
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu y swm sy'n cael ei ddangos, yn ôl <termsOfServiceLink>Amodau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-payment-confirm-with-legal-links-static-2 = Rwy'n awdurdodi { -brand-name-mozilla } i godi tâl ar fy null talu am y swm a ddangosir, yn unol â <termsOfServiceLink>Telerau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ganslo fy nhanysgrifiad.
+payment-confirm-with-legal-links-static-2 = Rwy'n awdurdodi { -brand-name-mozilla } i godi tâl ar fy null talu am y swm sy'n cael ei ddangos, yn unol â <termsOfServiceLink>Thelerau Gwasanaeth</termsOfServiceLink> a'r <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
 payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymlaen
 
 ## Component - PaymentErrorView
