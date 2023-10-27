@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 18:57+0000\n"
-"PO-Revision-Date: 2023-10-27 16:12+0000\n"
+"PO-Revision-Date: 2023-10-27 16:13+0000\n"
 "Last-Translator: pdehaan <pdehaan@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_CA\n"
@@ -1228,6 +1228,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to Firefox accounts"
@@ -1244,6 +1249,10 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"  By proceeding, you agree to:<br />\n"
+"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 
 #: .es5/templates/index.mustache:22
 msgid ""
@@ -1252,6 +1261,10 @@ msgid ""
 "  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"  By proceeding, you agree to:<br />\n"
+"  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
+"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1696,7 +1709,7 @@ msgstr "Please create a password to continue to Firefox Sync. Your data is encry
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Create password"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"

@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Something went wrong. A new code could 
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Close
+brand-banner-dismiss-button-2 =
+    .aria-label = Close banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } will be renamed { -product-mozilla-accounts } on Nov 1
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -343,7 +343,7 @@ cs-cannot-refresh = Sorry, there was a problem refreshing the list of connected 
 cs-cannot-disconnect = Client not found, unable to disconnect
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logged out of { $service }
 cs-refresh-button =
@@ -355,7 +355,7 @@ cs-disconnect-sync-heading = Disconnect from Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -946,6 +946,10 @@ terms-privacy-agreement-intro-2 = By proceeding, you agree to the:
 terms-privacy-agreement-pocket = { -product-pocket }’s <pocketTos>Terms of Service</pocketTos> and <pocketPrivacy>Privacy Notice</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Terms of Service</pocketTos> and <pocketPrivacy>Privacy Notice</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor }'s <monitorTos>Terms of Service and Privacy Notice</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Terms of Service and Privacy Notice</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }’s <firefoxTos>Terms of Service</firefoxTos> and <firefoxPrivacy>Privacy Notice</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1046,7 +1050,7 @@ cookies-disabled-learn-more = Learn more
 inline-recovery-setup-header-default = Confirm backup authentication code <span>to continue to account settings</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Save backup authentication codes <span>to continue to { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Store these one-time use codes in a safe place for when you don’t have your mobile device.
@@ -1066,7 +1070,7 @@ inline-recovery-confirmation-description = To ensure that you will be able to re
 inline-recovery-confirmation-header-default = Confirm backup authentication code <span>to continue to account settings</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirm backup authentication code <span>to continue to { $serviceName }</span>
 
 ## InlineTotpSetup page

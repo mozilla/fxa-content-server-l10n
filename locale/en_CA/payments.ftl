@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox Accounts
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } is required
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox } logo
 brand-name-mozilla-logo = { -brand-mozilla } logo
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Already have a { -brand-name-firefox } account? <a>Sign in</a>
 new-user-sign-in-link-2 = Already have a { -product-mozilla-account }? <a>Sign in</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -131,6 +136,7 @@ payment-confirmation-download-button = Continue to download
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+payment-confirm-with-legal-links-static-2 = I authorize { -brand-name-mozilla } to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
 payment-confirm-checkbox-error = You need to complete this before moving forward
 
 ## Component - PaymentErrorView
@@ -307,6 +313,9 @@ sub-guarantee = 30-day money-back guarantee
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Terms of Service
 privacy = Privacy Notice
 terms-download = Download Terms
@@ -411,6 +420,7 @@ coupon-success-repeating = Your plan will automatically renew after { $couponDur
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Create a { -brand-name-firefox } account
 new-user-step-1-2 = 1. Create a { -product-mozilla-account }
 new-user-card-title = Enter your card information
