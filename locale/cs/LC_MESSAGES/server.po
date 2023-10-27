@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-24 18:53+0000\n"
-"Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
+"PO-Revision-Date: 2023-10-27 20:19+0000\n"
+"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Účty Mozilla"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logo Mozilly"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -69,6 +69,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Aktuálně pozorujeme velké zatížení a pracujeme na tom, abychom se vrátili\n"
+"            uveďte systém co nejdříve do normálu."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
