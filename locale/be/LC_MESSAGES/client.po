@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-10-22 18:29+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr "Асноўны адрас электроннай пошты пацвер
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Абвесткі ўліковага запісу будуць таксама дасылацца на %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:46
+#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
 msgstr "Другі адрас электроннай пошты пацверджаны"
 
@@ -112,7 +112,7 @@ msgstr "Невядомы ўліковы запіс. <a href=\"/signup\">Зарэ
 msgid "Account no longer exists. Recreate it?"
 msgstr "Уліковы запіс больш не існуе. Стварыць ізноў?"
 
-#: .es5/views/support.js:230 .es5/templates/support.mustache:9
+#: .es5/views/support.js:230 .es5/templates/support.mustache:10
 msgid "Other"
 msgstr "Іншае"
 
@@ -129,23 +129,11 @@ msgstr "Дзякуем, што звярнуліся ў службу падтры
 msgid "Close"
 msgstr "Закрыць"
 
-#: .es5/views/post_verify/verified.js:38
-msgid "Your sync data is protected"
-msgstr "Вашы сінхранізаваныя дадзеныя абаронены"
-
-#: .es5/views/post_verify/verified.js:39
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr "Калі вы страціце доступ да свайго ўліковага запісу, вы зможаце аднавіць сінхранізаваныя звесткі."
-
-#: .es5/views/post_verify/verified.js:40 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "Пачаць агляданне"
-
-#: .es5/views/post_verify/verified.js:43
+#: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr "Абвесткі ўліковага запісу будуць таксама дасылацца на %(secondaryEmail)s."
 
-#: .es5/views/post_verify/verified.js:44
+#: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "Працягнуць у %(serviceName)s"
 
@@ -296,10 +284,6 @@ msgstr "Другі адрас эл.пошты паспяхова пацверд�
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr "Пароль паспяхова скінуты"
-
-#: .es5/models/auth_brokers/web.js:36
-msgid "Account recovery enabled"
-msgstr "Аднаўленне ўліковага запісу ўключана"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -847,7 +831,9 @@ msgid "Invalid Token"
 msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Працягваючы, вы згаджаецеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовамі абслугоўвання</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Паведамленнем аб прыватнасці</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -908,8 +894,6 @@ msgstr "Скінуць пароль з дапамогай ключа аднаў
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Працягнуць у %(serviceName)s"
 
@@ -918,7 +902,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Калі ласка, увядзіце аднаразовы ключ аднаўлення, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да ўліковага запісу Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЗАЎВАГА:</span> Калі вы скінеце пароль і не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер "
 "звесткі, такія як гісторыя і закладкі)."
@@ -927,8 +912,7 @@ msgstr ""
 msgid "Enter account recovery key"
 msgstr "Увядзіце ключ аднаўлення ўліковага запісу"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
 msgstr "Пацвердзіце ключ аднаўлення ўліковага запісу"
 
@@ -1038,7 +1022,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Няма ў уваходных ці ў спаме? Выслаць яшчэ раз"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6
 msgid "Back"
 msgstr "Назад"
 
@@ -1064,7 +1048,7 @@ msgid "Enter 6-digit code"
 msgstr "Увядзіце 6-значны код"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Пацвердзіць"
 
@@ -1145,14 +1129,17 @@ msgstr "Пароль"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Працягваючы, вы згаджаецеся з:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">умовамі выкарыстання</a> і <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">паведамленнем аб прыватнасці</a> Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">умовамі выкарыстання</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">паведамленнем аб прыватнасці</a> Firefox\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">умовамі выкарыстання</a> і <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">паведамленнем аб прыватнасці</a> Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">умовамі выкарыстання</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">паведамленнем аб прыватнасці</a> "
+"Firefox\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
@@ -1166,8 +1153,11 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Працягваючы, вы згаджаецеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовамі абслугоўвання</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Палітыкай прыватнасці</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Працягваючы, вы згаджаецеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовамі абслугоўвання</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Палітыкай "
+"прыватнасці</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1209,7 +1199,8 @@ msgstr "Уліковы запіс Mozilla таксама адкрывае дос
 msgid ""
 "\n"
 "          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
@@ -1235,7 +1226,8 @@ msgstr "Уліковы запіс Firefox таксама адкрывае дос
 msgid ""
 "\n"
 "  By proceeding, you agree to:<br />\n"
-"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
@@ -1255,22 +1247,20 @@ msgstr "Захаваць рэзервовыя коды аўтэнтыфікац�
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Захоўвайце гэтыя аднаразовыя коды ў бяспечным месцы, на выпадак, калі ў вас не будзе мабільнай прылады."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"
 msgstr "Сцягнуць"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
 msgid "Copy"
 msgstr "Капіраваць"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
 msgid "Print"
 msgstr "Друкаваць"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Працягнуць"
 
@@ -1364,17 +1354,21 @@ msgstr "%(serviceName)s хоча наступную інфармацыю з ва
 msgid "Accept"
 msgstr "Прыняць"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Скасаваць"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
 msgstr "Паведамленне аб прыватнасці"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Поспех"
+
+#: .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Пачаць агляданне"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1556,75 +1550,79 @@ msgstr "Выберыце, што сінхранізаваць"
 msgid "Create account"
 msgstr "Стварыць уліковы запіс"
 
-#: .es5/templates/support.mustache:1
+#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Лагатып Mozilla m"
+
+#: .es5/templates/support.mustache:2
 msgid "Mozilla account"
 msgstr "Уліковы запіс Mozilla"
 
-#: .es5/templates/support.mustache:2
+#: .es5/templates/support.mustache:3
 msgid "Account Home"
 msgstr "Галоўная старонка ўліковага запісу"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:4
 msgid "Subscriptions"
 msgstr "Падпіскі"
 
-#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
 msgid "Contact Us"
 msgstr "Сувязь з намі"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7
 msgid "What are you contacting us about?"
 msgstr "Якое ў вас пытанне да нас?"
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
 msgid "Please select one"
 msgstr "Калі ласка, абярыце што-небудзь"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:11
 msgid "What do you need help with?"
 msgstr "У чым вам патрэбна дапамога?"
 
-#: .es5/templates/support.mustache:12
+#: .es5/templates/support.mustache:13
 msgid "Payment & billing"
 msgstr "Аплата і выстаўленне рахункаў"
 
-#: .es5/templates/support.mustache:13
+#: .es5/templates/support.mustache:14
 msgid "Account issues"
 msgstr "Праблемы з уліковым запісам"
 
-#: .es5/templates/support.mustache:14
+#: .es5/templates/support.mustache:15
 msgid "Technical issues"
 msgstr "Тэхнічныя праблемы"
 
-#: .es5/templates/support.mustache:15
+#: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"
 msgstr "Адправіць водгук / запыт на новую функцыю"
 
-#: .es5/templates/support.mustache:16
+#: .es5/templates/support.mustache:17
 msgid "Not listed"
 msgstr "Не пералічаны"
 
-#: .es5/templates/support.mustache:17
+#: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "Вам патрэбна дапамога з пэўнай праграмай або сэрвісам? (неабавязкова)"
 
-#: .es5/templates/support.mustache:19
+#: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
 msgstr "Тэма (па жаданні)"
 
-#: .es5/templates/support.mustache:20
+#: .es5/templates/support.mustache:21
 msgid "Description of issue"
 msgstr "Апісанне праблемы"
 
-#: .es5/templates/support.mustache:22
+#: .es5/templates/support.mustache:23
 msgid "Send"
 msgstr "Адправіць"
 
-#: .es5/templates/support.mustache:23
+#: .es5/templates/support.mustache:24
 msgid "Terms of Service"
 msgstr "Умовы абслугоўвання"
 
-#: .es5/templates/support.mustache:25
+#: .es5/templates/support.mustache:26
 msgid "Firefox Accounts"
 msgstr "Уліковыя запісы Firefox"
 
@@ -1644,7 +1642,7 @@ msgstr "Крок 1 з 2: Паўторна ўвядзіце пароль"
 msgid "Enter your password to view your account recovery key."
 msgstr "Увядзіце свой пароль, каб пабачыць ключ аднаўлення ўліковага запісу."
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
 msgstr "Увядзіце пароль"
 
@@ -1705,7 +1703,6 @@ msgid "Secondary email"
 msgstr "Дадатковая пошта"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Магчыма пазней"
 
@@ -1795,8 +1792,7 @@ msgstr "Перайсці да %(productName)s"
 msgid "Enter a password"
 msgstr "Увядзіце пароль"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
 msgstr "Пацвердзіце пароль"
 
@@ -1884,45 +1880,9 @@ msgstr "<span class=\"number\">3</span>Усталюйце Firefox і адкры�
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Увайдзіце ў свой уліковы запіс"
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with an account recovery key"
-msgstr "Абараніце свае звесткі з дапамогай ключа аднаўлення ўліковага запісу"
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
-msgid "Your synced data can include passwords you've saved."
-msgstr "Вашы сінхранізаваныя звесткі могуць утрымліваць паролі, якія вы захавалі."
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "Паколькі гэта інфармацыя крытычна важная для вашай бяспекі, Firefox выдаляе яе, каб абараніць вас, калі ваш пароль будзе скінуты, каб не дазволіць іншым людзям атрымаць доступ да яе."
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get an Account Recovery Key"
-msgstr "Атрымаць ключ аднаўлення ўліковага запісу"
-
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr "Пацвердзіце ваш пароль для %(escapedEmail)s, каб стварыць ключ аднаўлення ўліковага запісу."
-
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr "Увядзіце ключ аднаўлення ўліковага запісу, каб пацвердзіць, што вы захавалі копію."
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save account recovery key"
-msgstr "Захаваць ключ аднаўлення ўліковага запісу"
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Гатова"
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Навошта ствараць гэты ўліковы запіс? <a %(escapedSuggestionAttrs)s>Даведайцеся тут</a>"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Лагатып Mozilla m"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
@@ -2109,7 +2069,8 @@ msgid "Or download"
 msgstr "або сцягніце"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Адскануйце, каб сцягнуць Firefox для мабільных прылад, ці адпраўце сабе <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">спасылку для сцягвання.</a>"

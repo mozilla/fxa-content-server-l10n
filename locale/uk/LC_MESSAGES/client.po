@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-10-23 17:40+0000\n"
 "Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgstr "Основну адресу електронної пошти підтв
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Сповіщення облікового запису тепер також будуть надсилатися на %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:46
+#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
 msgstr "Альтернативну адресу електронної пошти підтверджено"
 
@@ -113,7 +113,7 @@ msgstr "Невідомий обліковий запис. <a href=\"/signup\">З
 msgid "Account no longer exists. Recreate it?"
 msgstr "Обліковий запис більше не існує. Повторно створити його?"
 
-#: .es5/views/support.js:230 .es5/templates/support.mustache:9
+#: .es5/views/support.js:230 .es5/templates/support.mustache:10
 msgid "Other"
 msgstr "Інше"
 
@@ -130,23 +130,11 @@ msgstr "Дякуємо, що звернулися до служби підтри
 msgid "Close"
 msgstr "Закрити"
 
-#: .es5/views/post_verify/verified.js:38
-msgid "Your sync data is protected"
-msgstr "Ваші синхронізовані дані захищені"
-
-#: .es5/views/post_verify/verified.js:39
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr "Якщо ви втратите доступ до свого облікового запису, ви зможете відновити синхронізовані дані."
-
-#: .es5/views/post_verify/verified.js:40 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "Почати перегляд"
-
-#: .es5/views/post_verify/verified.js:43
+#: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr "Сповіщення облікового запису тепер також надсилатимуться на %(secondaryEmail)s."
 
-#: .es5/views/post_verify/verified.js:44
+#: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "Продовжити в %(serviceName)s"
 
@@ -297,10 +285,6 @@ msgstr "Альтернативна адреса електронної пошт�
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr "Пароль успішно скинуто"
-
-#: .es5/models/auth_brokers/web.js:36
-msgid "Account recovery enabled"
-msgstr "Відновлення облікового запису увімкнено"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -848,7 +832,9 @@ msgid "Invalid Token"
 msgstr "Недійсний токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Продовжуючи, ви погоджуєтеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами користування</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Положенням про приватність</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -909,8 +895,6 @@ msgstr "Відновити пароль за допомогою ключа ві�
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Продовжити в %(serviceName)s"
 
@@ -919,15 +903,15 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Введіть свій одноразовий ключ відновлення, щоб поновити доступ до облікового запису Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">ПРИМІТКА:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включаючи історію перегляду й закладки)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
 msgstr "Введіть ключ відновлення облікового запису"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
 msgstr "Підтвердьте ключ відновлення облікового запису"
 
@@ -1037,7 +1021,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Немає у вхідних чи у спамі? Надіслати ще раз"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6
 msgid "Back"
 msgstr "Назад"
 
@@ -1063,7 +1047,7 @@ msgid "Enter 6-digit code"
 msgstr "Введіть 6-значний код"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Підтвердити"
 
@@ -1144,14 +1128,17 @@ msgstr "Пароль"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Положенням про приватність</a> Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Firefox\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Положенням про приватність</a> Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Firefox\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
@@ -1165,13 +1152,17 @@ msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
 "            <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Умовами користування та Положенням про приватність</a> Firefox Monitor<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Firefox\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Firefox\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Продовжуючи, ви погоджуєтеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Продовжуючи, ви погоджуєтеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про "
+"приватність</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1213,14 +1204,17 @@ msgstr "Обліковий запис Mozilla також відкриває до
 msgid ""
 "\n"
 "          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Продовжуючи, ви погоджуєтеся з:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Положенням про приватність</a> Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Облікових записів Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Положенням про приватність</a> Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Облікових записів Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:16
@@ -1234,7 +1228,8 @@ msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
 "            <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Умовами користування та Положенням про приватність</a> Firefox Monitor<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Облікових записів Mozilla\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Облікових записів Mozilla\n"
 "          "
 
 #: .es5/templates/index.mustache:19
@@ -1249,13 +1244,16 @@ msgstr "Обліковий запис Firefox також відкриває до
 msgid ""
 "\n"
 "  By proceeding, you agree to:<br />\n"
-"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 "\n"
 "          Продовжуючи, ви погоджуєтеся з:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Положенням про приватність</a> Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Firefox\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Положенням про приватність</a> Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Firefox\n"
 "        "
 
 #: .es5/templates/index.mustache:22
@@ -1268,7 +1266,8 @@ msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
 "            <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Умовами користування та Положенням про приватність</a> Firefox Monitor<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Облікових записів Mozilla\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Облікових записів Mozilla\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1279,22 +1278,20 @@ msgstr "Збережіть резервні коди автентифікаці�
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Збережіть ці одноразові коди в безпечному місці на випадок, коли у вас не буде мобільного пристрою."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"
 msgstr "Завантажити"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
 msgid "Copy"
 msgstr "Копіювати"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
 msgid "Print"
 msgstr "Друк"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Продовжити"
 
@@ -1388,17 +1385,21 @@ msgstr "%(serviceName)s хоче отримати таку інформацію 
 msgid "Accept"
 msgstr "Погодитись"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
 msgstr "Положення про приватність"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Успішно"
+
+#: .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Почати перегляд"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1437,8 +1438,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми шифруємо"
-" дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
+"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми "
+"шифруємо дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1580,75 +1581,79 @@ msgstr "Виберіть що синхронізувати"
 msgid "Create account"
 msgstr "Створити обліковий запис"
 
-#: .es5/templates/support.mustache:1
+#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Логотип m Mozilla"
+
+#: .es5/templates/support.mustache:2
 msgid "Mozilla account"
 msgstr "Обліковий запис Mozilla"
 
-#: .es5/templates/support.mustache:2
+#: .es5/templates/support.mustache:3
 msgid "Account Home"
 msgstr "Домівка облікового запису"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:4
 msgid "Subscriptions"
 msgstr "Підписки"
 
-#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
 msgid "Contact Us"
 msgstr "Зв’язок з нами"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7
 msgid "What are you contacting us about?"
 msgstr "Яке у вас питання до нас?"
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
 msgid "Please select one"
 msgstr "Будь ласка, виберіть причину"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:11
 msgid "What do you need help with?"
 msgstr "З чим вам потрібна допомога?"
 
-#: .es5/templates/support.mustache:12
+#: .es5/templates/support.mustache:13
 msgid "Payment & billing"
 msgstr "Оплата і виставлення рахунків"
 
-#: .es5/templates/support.mustache:13
+#: .es5/templates/support.mustache:14
 msgid "Account issues"
 msgstr "Проблеми з обліковим записом"
 
-#: .es5/templates/support.mustache:14
+#: .es5/templates/support.mustache:15
 msgid "Technical issues"
 msgstr "Технічні проблеми"
 
-#: .es5/templates/support.mustache:15
+#: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"
 msgstr "Надіслати відгук / запит нової функції"
 
-#: .es5/templates/support.mustache:16
+#: .es5/templates/support.mustache:17
 msgid "Not listed"
 msgstr "Не в переліку"
 
-#: .es5/templates/support.mustache:17
+#: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "Вам потрібна допомога з певною програмою чи службою? (необов’язково)"
 
-#: .es5/templates/support.mustache:19
+#: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
 msgstr "Тема (необов'язково)"
 
-#: .es5/templates/support.mustache:20
+#: .es5/templates/support.mustache:21
 msgid "Description of issue"
 msgstr "Опис проблеми"
 
-#: .es5/templates/support.mustache:22
+#: .es5/templates/support.mustache:23
 msgid "Send"
 msgstr "Надіслати"
 
-#: .es5/templates/support.mustache:23
+#: .es5/templates/support.mustache:24
 msgid "Terms of Service"
 msgstr "Умови користування"
 
-#: .es5/templates/support.mustache:25
+#: .es5/templates/support.mustache:26
 msgid "Firefox Accounts"
 msgstr "Облікові записи Firefox"
 
@@ -1668,7 +1673,7 @@ msgstr "Крок 1 з 2: Повторно введіть пароль"
 msgid "Enter your password to view your account recovery key."
 msgstr "Введіть пароль для перегляду ключа відновлення облікового запису."
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
 msgstr "Введіть пароль"
 
@@ -1729,7 +1734,6 @@ msgid "Secondary email"
 msgstr "Додаткова адреса електронної пошти"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Можливо, пізніше"
 
@@ -1819,8 +1823,7 @@ msgstr "Продовжити у %(productName)s"
 msgid "Enter a password"
 msgstr "Введіть пароль"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
 msgstr "Підтвердити пароль"
 
@@ -1908,45 +1911,9 @@ msgstr "<span class=\"number\">3</span>Встановіть Firefox та зап�
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Увійдіть до вашого облікового запису"
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with an account recovery key"
-msgstr "Захистіть свої дані за допомогою ключа відновлення облікового запису"
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
-msgid "Your synced data can include passwords you've saved."
-msgstr "Ваші синхронізовані дані можуть включати збережені паролі."
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "Оскільки ця інформація критично важлива для вашої безпеки, Firefox видаляє її, щоб захистити вас при відновленні пароля та не дозволити іншим отримати до неї доступ."
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get an Account Recovery Key"
-msgstr "Отримати ключ відновлення облікового запису"
-
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr "Підтвердьте свій пароль для %(escapedEmail)s, щоб згенерувати ваш ключ відновлення облікового запису."
-
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr "Введіть свій ключ відновлення облікового запису, щоб підтвердити збереження копії."
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save account recovery key"
-msgstr "Зберегти ключ відновлення облікового запису"
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Готово"
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Навіщо потрібно створити цей обліковий запис? <a %(escapedSuggestionAttrs)s>Дізнайтеся тут</a>"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Логотип m Mozilla"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
@@ -2132,7 +2099,8 @@ msgid "Or download"
 msgstr "Або завантажте"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Скануйте, щоб завантажити Firefox для мобільних пристроїв, або надішліть собі <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">посилання для завантаження.</a>"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-02-07 05:03+0000\n"
 "Last-Translator: Bund10z <abu.avila@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr "Correo principal confirmado"
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Las notificaciones de la cuenta también se enviarán ahora a %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:46
+#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
 msgstr "Correo secundario confirmado"
 
@@ -112,7 +112,7 @@ msgstr "Cuenta desconocida. <a href=\"/signup\">Registro</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "La cuenta ya no existe. ¿Quieres crearla de nuevo?"
 
-#: .es5/views/support.js:230 .es5/templates/support.mustache:9
+#: .es5/views/support.js:230 .es5/templates/support.mustache:10
 msgid "Other"
 msgstr "Otro"
 
@@ -129,23 +129,11 @@ msgstr "Gracias por comunicarte con el Soporte de Mozilla sobre <b>%(escapedLowe
 msgid "Close"
 msgstr "Cerrar"
 
-#: .es5/views/post_verify/verified.js:38
-msgid "Your sync data is protected"
-msgstr "Tu sincronización de datos está protegida"
-
-#: .es5/views/post_verify/verified.js:39
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr "Si pierdes el acceso a tu cuenta, podrás restaurar tus datos de sincronización."
-
-#: .es5/views/post_verify/verified.js:40 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "Empezar a navegar"
-
-#: .es5/views/post_verify/verified.js:43
+#: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr "Las notificaciones de la cuenta también se enviarán ahora a %(secondaryEmail)s."
 
-#: .es5/views/post_verify/verified.js:44
+#: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "Continuar con %(serviceName)s"
 
@@ -296,10 +284,6 @@ msgstr "Se verificó con éxito el correo secundario"
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr "Contraseña restablecida correctamente"
-
-#: .es5/models/auth_brokers/web.js:36
-msgid "Account recovery enabled"
-msgstr "Recuperación de cuenta habilitada"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -910,8 +894,6 @@ msgstr "Restablecer contraseña con la clave de recuperación de la cuenta"
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continuar a %(serviceName)s"
 
@@ -930,8 +912,7 @@ msgstr ""
 msgid "Enter account recovery key"
 msgstr "Ingresa la clave de recuperación de la cuenta"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
 msgstr "Confirmar clave de recuperación de cuenta"
 
@@ -1041,7 +1022,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "¿No está en tu Bandeja de Entrada o en tu carpeta de spam? Reenviar"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6
 msgid "Back"
 msgstr "Atrás"
 
@@ -1067,7 +1048,7 @@ msgid "Enter 6-digit code"
 msgstr "Ingresa el código de 6 dígitos"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -1259,22 +1240,20 @@ msgstr "Guardar códigos de autenticación de respaldo"
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Guardar estos códigos de uso único en un lugar seguro para cuando no tengas tu dispositivo móvil."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"
 msgstr "Descargar"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
 msgid "Copy"
 msgstr "Copiar"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
 msgid "Print"
 msgstr "Imprimir"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Continuar"
 
@@ -1368,17 +1347,21 @@ msgstr "%(serviceName)s quiere la siguiente información de tu cuenta:"
 msgid "Accept"
 msgstr "Aceptar"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
 msgstr "Aviso de privacidad"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Éxito"
+
+#: .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Empezar a navegar"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1561,75 +1544,79 @@ msgstr "Elige que sincronizar"
 msgid "Create account"
 msgstr "Crea una cuenta"
 
-#: .es5/templates/support.mustache:1
-msgid "Mozilla account"
+#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
 msgstr ""
 
 #: .es5/templates/support.mustache:2
+msgid "Mozilla account"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
 msgid "Account Home"
 msgstr "Página principal de la cuenta"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:4
 msgid "Subscriptions"
 msgstr "Suscripciones"
 
-#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
 msgid "Contact Us"
 msgstr "Contáctanos"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7
 msgid "What are you contacting us about?"
 msgstr "¿Por qué te pones en contacto con nosotros?"
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
 msgid "Please select one"
 msgstr "Por favor, selecciona uno"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:11
 msgid "What do you need help with?"
 msgstr "¿En qué podemos ayudarte?"
 
-#: .es5/templates/support.mustache:12
+#: .es5/templates/support.mustache:13
 msgid "Payment & billing"
 msgstr "Pagos y facturas"
 
-#: .es5/templates/support.mustache:13
+#: .es5/templates/support.mustache:14
 msgid "Account issues"
 msgstr "Problemas con la cuenta"
 
-#: .es5/templates/support.mustache:14
+#: .es5/templates/support.mustache:15
 msgid "Technical issues"
 msgstr "Problemas técnicos"
 
-#: .es5/templates/support.mustache:15
+#: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"
 msgstr "Enviar comentarios / solicitar funcionalidades"
 
-#: .es5/templates/support.mustache:16
+#: .es5/templates/support.mustache:17
 msgid "Not listed"
 msgstr "No está en la lista"
 
-#: .es5/templates/support.mustache:17
+#: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "¿Necesitas ayuda con una aplicación o servicio específico? (opcional)"
 
-#: .es5/templates/support.mustache:19
+#: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
 msgstr "Asunto (opcional)"
 
-#: .es5/templates/support.mustache:20
+#: .es5/templates/support.mustache:21
 msgid "Description of issue"
 msgstr "Descripción del problema"
 
-#: .es5/templates/support.mustache:22
+#: .es5/templates/support.mustache:23
 msgid "Send"
 msgstr "Enviar"
 
-#: .es5/templates/support.mustache:23
+#: .es5/templates/support.mustache:24
 msgid "Terms of Service"
 msgstr "Términos de servicio"
 
-#: .es5/templates/support.mustache:25
+#: .es5/templates/support.mustache:26
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -1649,7 +1636,7 @@ msgstr "Paso 1 de 2: Reingresar contraseña"
 msgid "Enter your password to view your account recovery key."
 msgstr "Ingresa tu contraseña para ver la clave de recuperación de tu cuenta."
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
 msgstr "Ingresar contraseña"
 
@@ -1710,7 +1697,6 @@ msgid "Secondary email"
 msgstr "Correo secundario"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Quizás después"
 
@@ -1798,8 +1784,7 @@ msgstr "Continuar a %(productName)s"
 msgid "Enter a password"
 msgstr "Ingresar una contraseña"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
 msgstr "Confirmar contraseña"
 
@@ -1887,45 +1872,9 @@ msgstr "<span class=\"number\">3</span>Instala Firefox y ábrelo en tu dispositi
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Inicia sesión en tu cuenta"
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with an account recovery key"
-msgstr "Protege tus datos con una clave de recuperación de la cuenta"
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
-msgid "Your synced data can include passwords you've saved."
-msgstr "Tu información sincronizada puede incluir contraseñas que hayas guardado."
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "Debido a que esta información es crítica para tu seguridad, Firefox la elimina para protegerte cuando se restablece tu contraseña para evitar que otras personas accedan a ella."
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get an Account Recovery Key"
-msgstr "Obtener una clave de recuperación de cuenta"
-
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr "Por favor, confirma tu contraseña para %(escapedEmail)s para generar tu clave de recuperación."
-
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr "Ingresa tu clave de recuperación de tu la cuenta para confirmar que has guardado una copia."
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save account recovery key"
-msgstr "Guardar clave de recuperación de la cuenta"
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Hecho"
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "¿Por qué necesito crear una cuenta? <a %(escapedSuggestionAttrs)s>Descúbrelo aquí</a>"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"

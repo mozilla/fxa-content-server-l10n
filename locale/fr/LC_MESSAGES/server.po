@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-10-18 19:25+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,57 +19,62 @@ msgstr ""
 msgid "Mozilla accounts"
 msgstr "Comptes Mozilla"
 
-#: server/templates/pages/src/404.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Mozilla logo"
+msgstr ""
+
+#: server/templates/pages/src/404.html:3
 msgid "Page not found"
 msgstr "Page introuvable"
 
-#: server/templates/pages/src/404.html:3
+#: server/templates/pages/src/404.html:4
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr "La page demandée est introuvable. Nous en avons été informés et nous rétablirons les liens éventuellement cassés."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "Accueil"
 
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
 msgid "Firefox Accounts"
 msgstr "Comptes Firefox"
 
-#: server/templates/pages/src/500.html:2
+#: server/templates/pages/src/500.html:3
 msgid "500 Error"
 msgstr "Erreur 500"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr "Une erreur s’est produite. Nous en avons été avertis et allons mettre au point un correctif."
 
-#: server/templates/pages/src/502.html:2
+#: server/templates/pages/src/502.html:3
 msgid "502 Error"
 msgstr "Erreur 502"
 
-#: server/templates/pages/src/503.html:2
+#: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
 msgstr "Serveur occupé, veuillez réessayer plus tard"
 
-#: server/templates/pages/src/503.html:3
+#: server/templates/pages/src/503.html:4
 msgid ""
 "We are currently under heavy strain and are working to return\n"
-"          the system to normal as soon as possible."
-msgstr "Nous subissons actuellement un trafic important et nous occupons de remettre le système en état au plus vite."
+"            the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
 msgstr "Chargement…"
 
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "JavaScript est nécessaire pour utiliser les comptes Mozilla."
 
-#: server/templates/pages/src/index.html:4
+#: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
 msgstr "JavaScript est nécessaire pour utiliser les comptes Firefox."
 
@@ -77,11 +82,11 @@ msgstr "JavaScript est nécessaire pour utiliser les comptes Firefox."
 msgid "Mozilla account"
 msgstr "Compte Mozilla"
 
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
 msgstr "Mise à jour de Firefox nécessaire"
 
-#: server/templates/pages/src/update_firefox.html:3
+#: server/templates/pages/src/update_firefox.html:4
 msgid ""
 "Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
@@ -90,11 +95,11 @@ msgid ""
 msgstr ""
 "Les comptes Mozilla utilisent des fonctionnalités qui ne sont pas prises en charge par votre version de Firefox. Veuillez télécharger et installer la dernière version de Firefox pour continuer."
 
-#: server/templates/pages/src/update_firefox.html:4
+#: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Télécharger la dernière version"
 
-#: server/templates/pages/src/update_firefox.html:6
+#: server/templates/pages/src/update_firefox.html:7
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"

@@ -136,6 +136,7 @@ payment-confirmation-download-button = Fortsätt till nedladdning
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod för det visade beloppet, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
+payment-confirm-with-legal-links-static-2 = Jag godkänner { -brand-name-mozilla } att debitera min betalningsmetod för det visade beloppet, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
 payment-confirm-checkbox-error = Du måste slutföra detta innan du går vidare
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = 30-dagars återbetalningsgaranti
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Användarvillkor
 privacy = Sekretesspolicy
 terms-download = Nerladdningsvillkor

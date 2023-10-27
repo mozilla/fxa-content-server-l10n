@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-10-20 07:13+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,57 +19,62 @@ msgstr ""
 msgid "Mozilla accounts"
 msgstr "Mozilla-accounts"
 
-#: server/templates/pages/src/404.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Mozilla logo"
+msgstr ""
+
+#: server/templates/pages/src/404.html:3
 msgid "Page not found"
 msgstr "Side net fûn"
 
-#: server/templates/pages/src/404.html:3
+#: server/templates/pages/src/404.html:4
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy’t mooglik net wurkje werstelle."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "Start"
 
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: server/templates/pages/src/500.html:2
+#: server/templates/pages/src/500.html:3
 msgid "500 Error"
 msgstr "Flater 500"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr "Och heden, der gie wat mis. Wy binne op de hichte brocht en gean oan in oplossing wurkje."
 
-#: server/templates/pages/src/502.html:2
+#: server/templates/pages/src/502.html:3
 msgid "502 Error"
 msgstr "Flater 502"
 
-#: server/templates/pages/src/503.html:2
+#: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
 msgstr "Server beset, probearje it letter opnij"
 
-#: server/templates/pages/src/503.html:3
+#: server/templates/pages/src/503.html:4
 msgid ""
 "We are currently under heavy strain and are working to return\n"
-"          the system to normal as soon as possible."
-msgstr "Wy stean op dit stuit ûnder hege druk en wurkje oan in sa gau as mooglik werstel fan it systeem."
+"            the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
 msgstr "Lade"
 
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Mozilla-accounts fereaskje JavaScript."
 
-#: server/templates/pages/src/index.html:4
+#: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox-accounts fereasket JavaScript."
 
@@ -77,11 +82,11 @@ msgstr "Firefox-accounts fereasket JavaScript."
 msgid "Mozilla account"
 msgstr "Mozilla-account"
 
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
 msgstr "Firefox-fernijing fereaske"
 
-#: server/templates/pages/src/update_firefox.html:3
+#: server/templates/pages/src/update_firefox.html:4
 msgid ""
 "Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
@@ -93,11 +98,11 @@ msgstr ""
 "                        Download en ynstallearje de lêste ferzje fan Firefox om\n"
 "                        troch te gean."
 
-#: server/templates/pages/src/update_firefox.html:4
+#: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Lêste downloade"
 
-#: server/templates/pages/src/update_firefox.html:6
+#: server/templates/pages/src/update_firefox.html:7
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-08-06 00:48+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr "ยืนยันอีเมลหลักแล้ว"
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "การแจ้งเตือนบัญชีจะถูกส่งไปยัง %(secondaryEmailVerified)s ด้วย"
 
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:46
+#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
 msgstr "ยืนยันอีเมลสำรองแล้ว"
 
@@ -112,7 +112,7 @@ msgstr "ไม่รู้จักบัญชีนี้ <a href=\"/signup\">
 msgid "Account no longer exists. Recreate it?"
 msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
 
-#: .es5/views/support.js:230 .es5/templates/support.mustache:9
+#: .es5/views/support.js:230 .es5/templates/support.mustache:10
 msgid "Other"
 msgstr "อื่น ๆ"
 
@@ -129,23 +129,11 @@ msgstr "ขอบคุณสำหรับการติดต่อฝ่า
 msgid "Close"
 msgstr "ปิด"
 
-#: .es5/views/post_verify/verified.js:38
-msgid "Your sync data is protected"
-msgstr "ข้อมูลการซิงค์ของคุณได้รับการปกป้อง"
-
-#: .es5/views/post_verify/verified.js:39
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr "หากคุณสูญเสียการเข้าถึงบัญชีของคุณ คุณจะสามารถคืนค่าข้อมูลการซิงค์ของคุณได้"
-
-#: .es5/views/post_verify/verified.js:40 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "เริ่มการเรียกดู"
-
-#: .es5/views/post_verify/verified.js:43
+#: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr "การแจ้งเตือนบัญชีจะถูกส่งไปยัง %(secondaryEmail)s ด้วย"
 
-#: .es5/views/post_verify/verified.js:44
+#: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
@@ -296,10 +284,6 @@ msgstr "อีเมลสำรองได้รับการยืนยั
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr "รีเซ็ตรหัสผ่านสำเร็จแล้ว"
-
-#: .es5/models/auth_brokers/web.js:36
-msgid "Account recovery enabled"
-msgstr "เปิดใช้งานการกู้คืนบัญชีแล้ว"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -909,8 +893,6 @@ msgstr "ตั้งรหัสผ่านใหม่ด้วยคีย์
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
@@ -927,8 +909,7 @@ msgstr "<span class=\"note\">หมายเหตุ:</span> หากคุณ
 msgid "Enter account recovery key"
 msgstr "ใส่คีย์การกู้คืนบัญชี"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
 msgstr "ยืนยันคีย์การกู้คืนบัญชี"
 
@@ -1038,7 +1019,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปม? ส่งใหม่"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6
 msgid "Back"
 msgstr "ย้อนกลับ"
 
@@ -1064,7 +1045,7 @@ msgid "Enter 6-digit code"
 msgstr "ป้อนรหัส 6 หลัก"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "ยืนยัน"
 
@@ -1254,22 +1235,20 @@ msgstr ""
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "เก็บรหัสแบบใช้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัยเมื่อคุณไม่มีอุปกรณ์มือถือของคุณ"
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"
 msgstr "ดาวน์โหลด"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
 msgid "Copy"
 msgstr "คัดลอก"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
 msgid "Print"
 msgstr "พิมพ์"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "ดำเนินการต่อ"
 
@@ -1363,17 +1342,21 @@ msgstr "%(serviceName)s ต้องการข้อมูลดังต่�
 msgid "Accept"
 msgstr "ยอมรับ"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "ยกเลิก"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
 msgstr "ประกาศความเป็นส่วนตัว"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "สำเร็จ"
+
+#: .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "เริ่มการเรียกดู"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1555,75 +1538,79 @@ msgstr "เลือกสิ่งที่จะซิงค์"
 msgid "Create account"
 msgstr "สร้างบัญชี"
 
-#: .es5/templates/support.mustache:1
-msgid "Mozilla account"
+#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
 msgstr ""
 
 #: .es5/templates/support.mustache:2
+msgid "Mozilla account"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
 msgid "Account Home"
 msgstr "หน้าแรกบัญชี"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:4
 msgid "Subscriptions"
 msgstr "การสมัครสมาชิก"
 
-#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
 msgid "Contact Us"
 msgstr "ติดต่อเรา"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7
 msgid "What are you contacting us about?"
 msgstr "คุณกำลังติดต่อเราเกี่ยวกับอะไร?"
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
 msgid "Please select one"
 msgstr "โปรดเลือกหนึ่งรายการ"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:11
 msgid "What do you need help with?"
 msgstr "คุณต้องการความช่วยเหลืออะไร?"
 
-#: .es5/templates/support.mustache:12
+#: .es5/templates/support.mustache:13
 msgid "Payment & billing"
 msgstr "การชำระและการเรียกเก็บเงิน"
 
-#: .es5/templates/support.mustache:13
+#: .es5/templates/support.mustache:14
 msgid "Account issues"
 msgstr "ปัญหาบัญชี"
 
-#: .es5/templates/support.mustache:14
+#: .es5/templates/support.mustache:15
 msgid "Technical issues"
 msgstr "ปัญหาทางเทคนิค"
 
-#: .es5/templates/support.mustache:15
+#: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"
 msgstr "ให้คำติชม / ขอคุณลักษณะ"
 
-#: .es5/templates/support.mustache:16
+#: .es5/templates/support.mustache:17
 msgid "Not listed"
 msgstr "ไม่อยู่ในรายการ"
 
-#: .es5/templates/support.mustache:17
+#: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "คุณต้องการความช่วยเหลือเกี่ยวกับแอปหรือบริการเฉพาะหรือไม่? (ไม่จำเป็น)"
 
-#: .es5/templates/support.mustache:19
+#: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
 msgstr "หัวข้อ (ตัวเลือก)"
 
-#: .es5/templates/support.mustache:20
+#: .es5/templates/support.mustache:21
 msgid "Description of issue"
 msgstr "คำอธิบายของปัญหา"
 
-#: .es5/templates/support.mustache:22
+#: .es5/templates/support.mustache:23
 msgid "Send"
 msgstr "ส่ง"
 
-#: .es5/templates/support.mustache:23
+#: .es5/templates/support.mustache:24
 msgid "Terms of Service"
 msgstr "เงื่อนไขการให้บริการ"
 
-#: .es5/templates/support.mustache:25
+#: .es5/templates/support.mustache:26
 msgid "Firefox Accounts"
 msgstr "บัญชี Firefox"
 
@@ -1643,7 +1630,7 @@ msgstr "ขั้นตอนที่ 1 จาก 2: ใส่รหัสอ�
 msgid "Enter your password to view your account recovery key."
 msgstr ""
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
 msgstr "ใส่รหัสผ่าน"
 
@@ -1704,7 +1691,6 @@ msgid "Secondary email"
 msgstr "อีเมลสำรอง"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "ไว้ภายหลัง"
 
@@ -1790,8 +1776,7 @@ msgstr "ดำเนินการต่อไปยัง %(productName)s"
 msgid "Enter a password"
 msgstr "ใส่รหัสผ่าน"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
 msgstr "ยืนยันรหัสผ่าน"
 
@@ -1879,45 +1864,9 @@ msgstr "<span class=\"number\">3</span>ติดตั้ง Firefox และ�
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>ลงชื่อเข้าบัญชีของคุณ"
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with an account recovery key"
-msgstr ""
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
-msgid "Your synced data can include passwords you've saved."
-msgstr "ข้อมูลที่ซิงค์ของคุณอาจมีรหัสผ่านที่คุณได้บันทึกไว้"
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "เนื่องจากข้อมูลนี้สำคัญต่อความปลอดภัยของคุณ Firefox จึงลบเพื่อปกป้องคุณเมื่อรหัสผ่านของคุณถูกตั้งค่าใหม่เพื่อป้องกันไม่ให้คนอื่นเข้าถึงได้"
-
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get an Account Recovery Key"
-msgstr ""
-
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
-
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save account recovery key"
-msgstr "บันทึกคีย์การกู้คืนบัญชี"
-
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "เสร็จสิ้น"
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "ทำไมฉันต้องสร้างบัญชีนี้? <a %(escapedSuggestionAttrs)s>ค้นพบได้ที่นี่</a>"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
