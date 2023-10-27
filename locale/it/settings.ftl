@@ -343,7 +343,7 @@ cs-cannot-refresh = Siamo spiacenti, si è verificato un problema durante l’ag
 cs-cannot-disconnect = Client non trovato, impossibile effettuare la disconnessione
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Disconnesso da { $service }
 cs-refresh-button =
@@ -355,7 +355,7 @@ cs-disconnect-sync-heading = Disconnetti da Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = I dati relativi alla navigazione rimarranno nel dispositivo <span>{ $device }</span>, ma non verranno più sincronizzati con il tuo account.
@@ -491,7 +491,7 @@ header-menu-closed = Menu di navigazione del sito
 header-back-to-top-link =
     .title = Torna su
 header-title = Account Firefox
-header-title-2 = { -product-mozilla-account }
+header-title-2 = { -product-mozilla-account(capitalization: "uppercase") }
 header-help = Aiuto
 
 ## Linked Accounts section
@@ -618,7 +618,7 @@ delete-account-step-2-2 = Passaggio 2 di 2
 delete-account-confirm-title-3 = Potresti aver connesso il tuo { -product-firefox-account } a uno o più dei seguenti prodotti o servizi { -brand-mozilla } che ti garantiscono un’esperienza sul Web sicura e produttiva:
 delete-account-confirm-title-4 = Potresti aver connesso il tuo { -product-mozilla-account } a uno o più dei seguenti prodotti o servizi { -brand-mozilla } che ti garantiscono un’esperienza sul Web sicura e produttiva:
 delete-account-product-firefox-account = { -product-firefox-account }
-delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-account = { -product-mozilla-account(capitalization: "uppercase") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -1041,7 +1041,7 @@ cookies-disabled-learn-more = Ulteriori informazioni
 inline-recovery-setup-header-default = Conferma il codice di autenticazione di backup <span>per continuare con le impostazioni dell’account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Salva i codici di autenticazione di backup <span>per continuare su { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Conserva questi codici monouso in un posto sicuro dove poterli consultare quando non hai accesso al tuo dispositivo mobile.
@@ -1061,7 +1061,7 @@ inline-recovery-confirmation-description = Per ottenere nuovamente accesso al tu
 inline-recovery-confirmation-header-default = Conferma il codice di autenticazione di backup <span>per continuare con le impostazioni dell’account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferma il codice di autenticazione di backup <span>per continuare su { $serviceName }</span>
 
 ## InlineTotpSetup page
