@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-10-19 16:26+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,16 @@ msgstr ""
 msgid "Mozilla accounts"
 msgstr "Mozilla-tilit"
 
-#: server/templates/pages/src/404.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Mozilla logo"
+msgstr ""
+
+#: server/templates/pages/src/404.html:3
 msgid "Page not found"
 msgstr "Sivua ei löydy"
 
-#: server/templates/pages/src/404.html:3
+#: server/templates/pages/src/404.html:4
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
@@ -31,19 +36,19 @@ msgstr ""
 "Hakemaasi sivua ei löytynyt. Saimme tiedon ongelmasta\n"
 "          ja korjaamme mahdolliset rikkinäiset linkit."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "Etusivu"
 
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
 msgid "Firefox Accounts"
 msgstr "Firefox-tilit"
 
-#: server/templates/pages/src/500.html:2
+#: server/templates/pages/src/500.html:3
 msgid "500 Error"
 msgstr "Virhe 500"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
@@ -51,31 +56,29 @@ msgstr ""
 "Voi ei, jokin meni pieleen. Saimme tiedon ongelmasta\n"
 "          työstämme korjausta siihen."
 
-#: server/templates/pages/src/502.html:2
+#: server/templates/pages/src/502.html:3
 msgid "502 Error"
 msgstr "Virhe 502"
 
-#: server/templates/pages/src/503.html:2
+#: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
 msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 
-#: server/templates/pages/src/503.html:3
+#: server/templates/pages/src/503.html:4
 msgid ""
 "We are currently under heavy strain and are working to return\n"
-"          the system to normal as soon as possible."
+"            the system to normal as soon as possible."
 msgstr ""
-"Olemme kovan rasituksen alaisina ja työskentelemme palauttaaksemme\n"
-"          järjestelmän normaalitilaan mahdollisimman pian."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
 msgstr "Ladataan"
 
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Mozilla-tilit vaativat JavaScriptin."
 
-#: server/templates/pages/src/index.html:4
+#: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox-tili -palvelu edellyttää JavaScriptin olevan päällä."
 
@@ -83,11 +86,11 @@ msgstr "Firefox-tili -palvelu edellyttää JavaScriptin olevan päällä."
 msgid "Mozilla account"
 msgstr "Mozilla-tili"
 
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
 msgstr "Firefox-päivitys vaaditaan"
 
-#: server/templates/pages/src/update_firefox.html:3
+#: server/templates/pages/src/update_firefox.html:4
 msgid ""
 "Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
@@ -99,11 +102,11 @@ msgstr ""
 "                        Lataa ja asenna Firefoxin uusin versio\n"
 "                        jatkaaksesi."
 
-#: server/templates/pages/src/update_firefox.html:4
+#: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Lataa viimeisin"
 
-#: server/templates/pages/src/update_firefox.html:6
+#: server/templates/pages/src/update_firefox.html:7
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"

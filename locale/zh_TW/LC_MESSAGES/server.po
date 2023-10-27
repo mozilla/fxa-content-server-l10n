@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2023-10-19 03:37+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,57 +19,62 @@ msgstr ""
 msgid "Mozilla accounts"
 msgstr "Mozilla 帳號"
 
-#: server/templates/pages/src/404.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Mozilla logo"
+msgstr ""
+
+#: server/templates/pages/src/404.html:3
 msgid "Page not found"
 msgstr "找不到頁面"
 
-#: server/templates/pages/src/404.html:3
+#: server/templates/pages/src/404.html:4
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查修正網頁內容。"
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "首頁"
 
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
 msgid "Firefox Accounts"
 msgstr "Firefox 帳號"
 
-#: server/templates/pages/src/500.html:2
+#: server/templates/pages/src/500.html:3
 msgid "500 Error"
 msgstr "錯誤 500"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr "抱歉，有些東西怪怪的，我們已經記錄下來，並將會進行修復。"
 
-#: server/templates/pages/src/502.html:2
+#: server/templates/pages/src/502.html:3
 msgid "502 Error"
 msgstr "502 錯誤"
 
-#: server/templates/pages/src/503.html:2
+#: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
 msgstr "伺服器忙碌中，請稍後再試"
 
-#: server/templates/pages/src/503.html:3
+#: server/templates/pages/src/503.html:4
 msgid ""
 "We are currently under heavy strain and are working to return\n"
-"          the system to normal as soon as possible."
-msgstr "目前有大量使用者連線中，超過我們的伺服器的負荷能力。我們將盡快讓伺服器恢復正常。"
+"            the system to normal as soon as possible."
+msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
 msgstr "載入中"
 
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "需要開啟 JavaScript 才能使用 Mozilla 帳號。"
 
-#: server/templates/pages/src/index.html:4
+#: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
 msgstr "需要開啟 JavaScript 才能使用 Firefox Accounts。"
 
@@ -77,11 +82,11 @@ msgstr "需要開啟 JavaScript 才能使用 Firefox Accounts。"
 msgid "Mozilla account"
 msgstr "Mozilla 帳號"
 
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
 msgstr "需要更新 Firefox"
 
-#: server/templates/pages/src/update_firefox.html:3
+#: server/templates/pages/src/update_firefox.html:4
 msgid ""
 "Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
@@ -89,11 +94,11 @@ msgid ""
 "                        continue."
 msgstr "Mozilla 帳號使用了您的 Firefox 版本尚不支援的功能。請先更新到最新版 Firefox 再繼續使用。"
 
-#: server/templates/pages/src/update_firefox.html:4
+#: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "下載最新版本"
 
-#: server/templates/pages/src/update_firefox.html:6
+#: server/templates/pages/src/update_firefox.html:7
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"

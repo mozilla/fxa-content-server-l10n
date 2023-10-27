@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 18:57+0000\n"
+"POT-Creation-Date: 2023-10-27 20:06+0000\n"
 "PO-Revision-Date: 2021-08-12 03:45+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,16 @@ msgstr ""
 msgid "Mozilla accounts"
 msgstr ""
 
-#: server/templates/pages/src/404.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Mozilla logo"
+msgstr ""
+
+#: server/templates/pages/src/404.html:3
 msgid "Page not found"
 msgstr "페이지를 찾을 수 없음"
 
-#: server/templates/pages/src/404.html:3
+#: server/templates/pages/src/404.html:4
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
@@ -31,19 +36,19 @@ msgstr ""
 "요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며\n"
 "          잘못된 모든 링크를 수정할 예정입니다."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "홈"
 
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:5
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
 msgid "Firefox Accounts"
 msgstr "Firefox 계정"
 
-#: server/templates/pages/src/500.html:2
+#: server/templates/pages/src/500.html:3
 msgid "500 Error"
 msgstr "500 오류"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
@@ -51,31 +56,29 @@ msgstr ""
 "오, 문제가 발생했습니다. 알림을 받았으며\n"
 "          수정 작업을 할 것입니다."
 
-#: server/templates/pages/src/502.html:2
+#: server/templates/pages/src/502.html:3
 msgid "502 Error"
 msgstr "502 오류"
 
-#: server/templates/pages/src/503.html:2
+#: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
 msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
-#: server/templates/pages/src/503.html:3
+#: server/templates/pages/src/503.html:4
 msgid ""
 "We are currently under heavy strain and are working to return\n"
-"          the system to normal as soon as possible."
+"            the system to normal as soon as possible."
 msgstr ""
-"우리는 현재 시스템 문제를 겪고 있으며\n"
-"          가능한 한 빨리 시스템을 정상화 하겠습니다."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
 msgstr "읽는 중"
 
-#: server/templates/pages/src/index.html:3
+#: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr ""
 
-#: server/templates/pages/src/index.html:4
+#: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox 계정은 자바스트립트를 필요로 합니다."
 
@@ -83,11 +86,11 @@ msgstr "Firefox 계정은 자바스트립트를 필요로 합니다."
 msgid "Mozilla account"
 msgstr ""
 
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
 msgstr "Firefox 업데이트 필요"
 
-#: server/templates/pages/src/update_firefox.html:3
+#: server/templates/pages/src/update_firefox.html:4
 msgid ""
 "Your Mozilla account makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
@@ -95,11 +98,11 @@ msgid ""
 "                        continue."
 msgstr ""
 
-#: server/templates/pages/src/update_firefox.html:4
+#: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "최신 다운로드"
 
-#: server/templates/pages/src/update_firefox.html:6
+#: server/templates/pages/src/update_firefox.html:7
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "not supported in your version of Firefox. Please\n"
