@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-19 07:08+0000\n"
-"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2023-10-27 20:19+0000\n"
+"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Mozilla-Konten"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla-Logo"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -69,6 +69,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Wir stehen derzeit unter hoher Belastung und arbeiten an unserer Rückkehr\n"
+"            das System so schnell wie möglich wieder in den Normalzustand."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
