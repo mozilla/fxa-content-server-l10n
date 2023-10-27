@@ -38,6 +38,7 @@
     }
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Konta Firefoksa
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
@@ -82,11 +83,13 @@ input-error-is-required = Pole „{ $label }” jest wymagane
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = Logo { -brand-name-firefox(case: "gen") }
 brand-name-mozilla-logo = Logo { -brand-mozilla(case: "gen") }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Masz już konto { -brand-name-firefox(case: "gen") }? <a>Zaloguj się</a>
 new-user-sign-in-link-2 = Masz już { -product-mozilla-account(case: "acc", capitalization: "lower") }? <a>Zaloguj się</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -463,6 +466,7 @@ coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie automat
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Utwórz konto { -brand-name-firefox(case: "gen") }
 new-user-step-1-2 = 1. Utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Podaj informacje o karcie
