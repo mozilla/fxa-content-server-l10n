@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Құрылғыларды синхрондау">
 body-devices-image = <img data-l10n-name="devices-image" alt="Құрылғылар">
 fxa-privacy-url = { -brand-mozilla }-ның жекелік саясаты
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } жекелік ескертуі
 fxa-service-url = { -product-firefox-cloud } Қолдану шарттары
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } қолдану шарттары
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } логотипі">
@@ -58,7 +59,9 @@ subplat-reactivate = Жазылуды қайта белсендіру
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Төлем ақпаратын жаңарту
 subplat-privacy-policy = { -brand-mozilla } жекелік саясаты
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } жекелік ескертуі
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = { -product-firefox-cloud } Қолдану шарттары
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Қолдану Шарттары

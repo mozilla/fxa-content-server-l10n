@@ -136,6 +136,7 @@ payment-confirmation-download-button = Жүктеп алуды жалғасты�
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Мен { -brand-name-firefox } өнімдерін өндірушісі, { -brand-name-mozilla } компаниясына, оның <termsOfServiceLink>Қызмет көрсету шарттары</termsOfServiceLink> және <privacyNoticeLink>Жекелік ескертуіне</privacyNoticeLink> сәйкес, мен жазылудан бас тартқанша дейін, көрсетілген сома үшін төлем әдісімнен ақы алуға рұқсат беремін.
+payment-confirm-with-legal-links-static-2 = Мен { -brand-name-mozilla } компаниясына, оның <termsOfServiceLink>Қызмет көрсету шарттары</termsOfServiceLink> және <privacyNoticeLink>Жекелік ескертуіне</privacyNoticeLink> сәйкес, мен жазылудан бас тартқанша дейін, көрсетілген сома үшін төлем әдісімнен ақы алуға рұқсат беремін.
 payment-confirm-checkbox-error = Алға жылжу алдында осыны аяқтауыңыз керек.
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = Ақшаны қайтарудың 30-күндік кепілді
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Қолдану шарттары
 privacy = Жекелік ескертуі
 terms-download = Жүктеп алу шарттары
