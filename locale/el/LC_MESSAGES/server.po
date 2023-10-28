@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-20 13:43+0000\n"
-"Last-Translator: George kitsoukakis <norhorn@gmail.com>\n"
+"PO-Revision-Date: 2023-10-28 18:16+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "Λογαριασμοί Mozilla"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Λογότυπο Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
