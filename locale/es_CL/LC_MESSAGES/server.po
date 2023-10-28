@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-18 20:22+0000\n"
+"PO-Revision-Date: 2023-10-28 01:58+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -22,7 +22,7 @@ msgstr "Cuentas de Mozilla"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logo de Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -68,7 +68,7 @@ msgstr "Servidor ocupado, vuelve a intentarlo más tarde"
 msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
-msgstr ""
+msgstr "Estamos bajo una fuerte demanda y trabajamos para regresar el sistema a la normalidad tan pronto como nos sea posible."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
