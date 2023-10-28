@@ -1130,6 +1130,10 @@ confirm-pw-reset-header = ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗ�
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = <span>{ $serviceName }</span> ਨੀਲ ਜਾਰੀ ਰੱਖਣ ਲਈ ਪਾਸਰਵਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = ਈਮੇਲ
