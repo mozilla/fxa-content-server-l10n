@@ -652,19 +652,6 @@ recent-activity-account-emails-swapped = ਮੂਲ ਅਤੇ ਸਹਾਇਕ ਈ
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = ਹੋਰ ਖਾਤਾ ਸਰਗਰਮੀ
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = ਰੱਦ ਕਰੋ
-recovery-key-close-button = ਬੰਦ ਕਰੋ
-recovery-key-continue-button = ਜਾਰੀ ਰੱਖੋ
-recovery-key-enter-password =
-    .label = ਪਾਸਵਰਡ ਭਰੋ
-recovery-key-page-title-1 =
-    .title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
-recovery-key-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
-recovery-key-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-recovery-key-success-alert-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1130,6 +1117,7 @@ complete-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+complete-reset-password-recovery-key-link = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਾਲ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
 
 ## Confirm Reset Password Component
 
