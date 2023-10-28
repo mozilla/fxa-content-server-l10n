@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-21 10:34+0000\n"
+"PO-Revision-Date: 2023-10-28 11:25+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -21,7 +21,7 @@ msgstr "Accounts di Mozilla"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logo Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -68,6 +68,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"In chest moment il sisteme al è sorecjariât, ma o stin lavorant par tornâ\n"
+"            ae normalitât il prime pussibil."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
