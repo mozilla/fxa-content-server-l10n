@@ -160,7 +160,7 @@ payment-confirmation-download-button = Nadaljuj prenos
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Pooblaščam { -brand-name-mozilla(sklon: "tozilnik") }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
-payment-confirm-with-legal-links-static-2 = Dovoljujem, da { -brand-name-mozilla } v skladu s <termsOfServiceLink>Pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>izvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek.
+payment-confirm-with-legal-links-static-2 = Dovoljujem, da { -brand-name-mozilla } v skladu s <termsOfServiceLink>Pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
 payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 ## Component - PaymentErrorView
