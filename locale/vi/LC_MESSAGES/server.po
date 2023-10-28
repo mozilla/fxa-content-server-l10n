@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-24 01:58+0000\n"
+"PO-Revision-Date: 2023-10-28 04:15+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -21,7 +21,7 @@ msgstr "Tài khoản Mozilla"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logo Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -68,6 +68,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Hệ thống hiện đang chịu tải nặng và chúng tôi đang nỗ lực để đưa nó\n"
+"            trở lại bình thường càng sớm càng tốt."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
