@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-19 03:37+0000\n"
+"PO-Revision-Date: 2023-10-28 05:17+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -22,7 +22,7 @@ msgstr "Mozilla 帳號"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla 標誌"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -64,7 +64,7 @@ msgstr "伺服器忙碌中，請稍後再試"
 msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
-msgstr ""
+msgstr "目前有大量使用者連線中，超過我們的伺服器的負荷能力。我們將盡快讓伺服器恢復正常。"
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
