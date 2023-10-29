@@ -335,6 +335,8 @@ passwordResetAccountRecovery-title-2 = Það tókst að endurstilla lykilorð
 passwordResetAccountRecovery-description-2 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra lykilorðið þitt frá:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Útbúa nýjan endurheimtulykil fyrir reikninginn
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Útbúðu endurheimtulykil reiknings
 passwordResetAccountRecovery-regen-required-mjml-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir:
@@ -643,6 +645,7 @@ verificationReminderSecond-title-3 = Ekki missa af { -brand-mozilla }!
 verificationReminderSecond-description-3 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
 verificationReminderSecond-description-4 = Fyrir nokkrum dögum bjóstu til { -product-mozilla-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
 verificationReminderSecond-second-description = { -product-firefox-account } gerir þér kleift að samstilla upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account } gerir þér kleift að samstilla { -brand-firefox }-upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Vertu hluti af verkefni okkar að breyta internetinu í stað sem er opinn fyrir alla.
 verificationReminderSecond-action-2 = Staðfesta reikning
 verify-title-2 = Opnaðu internetið með { -brand-firefox }
