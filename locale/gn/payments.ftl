@@ -182,7 +182,7 @@ payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
 
 ## Component - PaymentProcessing
 
-payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’ẽ…
+payment-processing-message = Ikatúiko eha’ãrõ romongu’e aja ne jehepyme’ẽ…
 
 ## Component - PaymentProviderDetails
 
@@ -382,7 +382,7 @@ general-error-heading = Tembiporu’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 payment-error-1 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
 payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
-payment-error-3b = Oiko peteĩ jejavy eha’arõ’ỹva ehepyme’ẽnguévo. Eha’ãjey uperire.
+payment-error-3b = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey uperire.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
 insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
 withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eiporu ambue kuatia’atã.

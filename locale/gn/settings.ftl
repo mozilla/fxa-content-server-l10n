@@ -708,20 +708,6 @@ recent-activity-account-emails-swapped = Ñanduti veve ha’etéva ha mokõiháv
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Mba’ete rembiapo ambuéva
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Heja
-recovery-key-close-button = Mboty
-recovery-key-continue-button = Ku’ejey
-recovery-key-created-1 = Ne mba’ete mba’eñemi guerujeyrã heñóima. Eñongatúke ne mba’eñemi tenda hekorosãvape ejuhukuaa hag̃ua upe rire: eikotevẽta mba’eñemi eikekuaajey hag̃ua ne mba’ekuaarãme nderesaráirõ ne ñe’ẽñemígui.
-recovery-key-enter-password =
-    .label = Emoinge ñe’ẽñemi
-recovery-key-page-title-1 =
-    .title = Mba’ete mba’eñemi jeguerujeyrã
-recovery-key-step-1 = Ku’e 1 2-gui
-recovery-key-step-2 = Ku’e 2 2-gui
-recovery-key-success-alert-3 = Oñemoheñói mba’ete mba’eñemi jeguerujeyrã
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1007,7 +993,7 @@ auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne
 auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
-auth-error-999 = Jejavy eha’arõ’ỹva
+auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1003 = Ñeñongatu pypegua térã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 auth-error-1011 = Eikotevẽ ñanduti veve oikóva
