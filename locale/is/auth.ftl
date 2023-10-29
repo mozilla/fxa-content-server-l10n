@@ -13,12 +13,13 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Samstilla tæki">
 body-devices-image = <img data-l10n-name="devices-image" alt="Tæki">
 fxa-privacy-url = Persónuverndarstefna { -brand-mozilla }
-moz-accounts-privacy-url = Persónuverndarstefna { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Þjónustuskilmálar { -product-firefox-cloud }
 moz-accounts-terms-url = Þjónustuskilmálar { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } merki">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } táknmerki">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } táknmerki">
 subplat-automated-email = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
 subplat-privacy-notice = Meðferð persónuupplýsinga
 subplat-privacy-plaintext = Meðferð persónuupplýsinga:
@@ -58,8 +59,10 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Uppfæra greiðsluupplýsingar
 subplat-privacy-policy = Persónuverndarstefna { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Þjónustuskilmálar { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Lögfræðilegt efni
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Friðhelgi
@@ -640,7 +643,6 @@ verificationReminderSecond-title-3 = Ekki missa af { -brand-mozilla }!
 verificationReminderSecond-description-3 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
 verificationReminderSecond-description-4 = Fyrir nokkrum dögum bjóstu til { -product-mozilla-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
 verificationReminderSecond-second-description = { -product-firefox-account } gerir þér kleift að samstilla upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account } gerir þér kleift að samstilla upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Vertu hluti af verkefni okkar að breyta internetinu í stað sem er opinn fyrir alla.
 verificationReminderSecond-action-2 = Staðfesta reikning
 verify-title-2 = Opnaðu internetið með { -brand-firefox }

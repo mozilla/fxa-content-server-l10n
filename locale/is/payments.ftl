@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox reikningar
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } er nauðsynlegt
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox }-táknmerki
 brand-name-mozilla-logo = { -brand-mozilla } táknmerki
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Ertu nú þegar með { -brand-name-firefox } reikning? <a>Skráðu þig inn</a>
 new-user-sign-in-link-2 = Ertu nú þegar með { -product-mozilla-account }? <a>Skráðu þig inn</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -307,6 +312,9 @@ sub-guarantee = 30-daga skilafrestur
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Þjónustuskilmálar
 privacy = Meðferð persónuupplýsinga
 terms-download = Sækja skilmála
@@ -411,6 +419,7 @@ coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir { $co
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Búðu til { -brand-name-firefox }-reikning
 new-user-step-1-2 = 1. Búðu til { -product-mozilla-account }
 new-user-card-title = Settu inn kortaupplýsingarnar þínar
