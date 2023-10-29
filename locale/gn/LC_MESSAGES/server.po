@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-19 11:51+0000\n"
+"PO-Revision-Date: 2023-10-29 20:18+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -22,7 +22,7 @@ msgstr "Mozilla mba’etekuéra"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla ra’ãnga’i"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -109,3 +109,6 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Nde Firefox Accounts oiporu tembiapoite ndojokupytýiva nde Firefox eiporúva rehe.\n"
+"Emboguejy ha emohenda Firefox ipyahuvéva\n"
+"eku’ejey hag̃ua."

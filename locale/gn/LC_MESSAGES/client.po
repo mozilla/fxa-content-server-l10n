@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-29 19:15+0000\n"
+"PO-Revision-Date: 2023-10-29 20:12+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1159,7 +1159,7 @@ msgstr "¿Nderesarái ne ñe’ẽñemi?"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Emoinge ne ñe’ẽñemi <span class=\"card-subheader\" id=\"subheader\"> Firefox mba’etépe g̃uarã</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
