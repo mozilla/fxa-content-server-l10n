@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-29 12:23+0000\n"
+"PO-Revision-Date: 2023-10-29 19:08+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -71,7 +71,7 @@ msgstr "Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka Fir
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Ko’ág̃a emoambuekuaáma nde Mozilla mba’etépe."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -601,7 +601,7 @@ msgstr "Emoinge ñanduti veve oikóva. firefox.com nome’ẽi ñanduti veve."
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Mozilla mba’ete emoĩkuaa kuatiarogue moneĩmbyre IFRAME-pe añoite."
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
