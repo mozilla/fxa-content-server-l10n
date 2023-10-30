@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронізовані пристрої">
 body-devices-image = <img data-l10n-name="devices-image" alt="Пристрої">
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
+moz-accounts-privacy-url-2 = Положення про приватність { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 fxa-service-url = Умови користування { -product-firefox-cloud }
 moz-accounts-terms-url = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип { -brand-firefox }">
@@ -58,7 +59,9 @@ subplat-reactivate = Поновити передплату
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Оновіть платіжну інформацію
 subplat-privacy-policy = Політика Приватності { -brand-mozilla }
+subplat-privacy-policy-2 = Положення про приватність { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Умови користування { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }

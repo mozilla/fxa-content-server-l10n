@@ -140,6 +140,7 @@ payment-confirmation-download-button = Продовжити завантажен
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов користування</termsOfServiceLink> та <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
+payment-confirm-with-legal-links-static-2 = Я дозволяю { -brand-name-mozilla } стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов користування</termsOfServiceLink> та <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
 payment-confirm-checkbox-error = Необхідно завершити це, перш ніж переходити далі
 
 ## Component - PaymentErrorView
@@ -332,6 +333,9 @@ sub-guarantee = Гарантоване повернення коштів упр�
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Умови користування
 privacy = Положення про приватність
 terms-download = Завантажити умови
