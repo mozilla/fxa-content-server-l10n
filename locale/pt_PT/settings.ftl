@@ -13,38 +13,25 @@ banner-dismiss-button =
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo correu mal. Não foi possível enviar um novo código.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } será renomeada { -product-mozilla-accounts } no dia 1 de novembro
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Transferir e continuar
     .title = Transferir e continuar
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = GUARDAR A SUA CHAVE DE RECUPERAÇÃO DE CONTA
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Chave:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Chave gerada: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Saiba mais sobre a sua chave de recuperação da conta: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = O conhecimento prático está a chegar à sua caixa de entrada. Registe-se para mais:
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -278,7 +265,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Cliente não encontrado, não foi possível desassociar
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Desligado de { $service }
 cs-refresh-button =
@@ -290,7 +277,7 @@ cs-disconnect-sync-heading = Desassociar do Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -320,7 +307,6 @@ cs-disconnect-suspicious-advice-content =
     { -product-firefox-account } nas configurações da sua conta. Também deve alterar quaisquer outras
     palavras-passe que guardou no { -brand-firefox } digitando about:logins na barra de endereço.
 cs-sign-out-button = Terminar sessão
-cs-recent-activity = Atividade Recente da Conta
 
 ##
 
@@ -390,7 +376,7 @@ flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Fechar menu
 header-menu-closed = Menu de navegação do site
@@ -552,29 +538,11 @@ display-name-success-alert-2 = Nome de apresentação atualizado
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Atividade Recente da Conta
-recent-activity-account-create = A conta foi criada
-recent-activity-account-disable = A conta foi desativada
-recent-activity-account-enable = A conta foi ativada
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Cancelar
-recovery-key-close-button = Fechar
-recovery-key-continue-button = Continuar
-recovery-key-enter-password =
-    .label = Inserir palavra-passe
-recovery-key-page-title-1 =
-    .title = Chave de recuperação da conta
-recovery-key-step-1 = Passo 1 de 2
-recovery-key-step-2 = Passo 2 de 2
-recovery-key-success-alert-3 = Chave de recuperação da conta criada
 
 ## PageRecoveryKeyCreate
 
@@ -1003,10 +971,6 @@ account-recovery-confirm-key-input =
     .label = Inserir uma chave de recuperação da conta
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Confirmar chave de recuperação da conta
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Chave de recuperação da conta inválida
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Chave de recuperação da conta obrigatória
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação da conta?
 
