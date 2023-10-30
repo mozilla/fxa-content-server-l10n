@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-07-08 14:25+0000\n"
+"PO-Revision-Date: 2023-10-30 14:10+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -30,7 +30,7 @@ msgstr "Iniciar sessão"
 
 #: .es5/views/index.js:152
 msgid "Account deleted successfully"
-msgstr "Conta apagada com sucesso"
+msgstr "Conta eliminada com sucesso"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -70,7 +70,7 @@ msgstr "Complete a configuração ao digitar a sua nova palavra-passe nos seus o
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Agora está pronto para efetuar alterações na sua conta Mozilla."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -78,7 +78,7 @@ msgstr "E-mail primário confirmado"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Notificações de conta irão também agora ser enviadas para %(secondaryEmailVerified)s."
+msgstr "Agora, as notificações de conta também serão enviadas para %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
@@ -131,7 +131,7 @@ msgstr "Fechar"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Agora, as notificações de conta irão também ser enviadas para %(secondaryEmail)s."
+msgstr "Agora, as notificações de conta também serão enviadas para %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
@@ -223,7 +223,7 @@ msgstr "pagamento e faturação"
 
 #: .es5/models/support-form.js:23
 msgid "account issues"
-msgstr "problemas com a conta"
+msgstr "problemas de conta"
 
 #: .es5/models/support-form.js:23
 msgid "technical issues"
@@ -331,7 +331,7 @@ msgstr "Palavra-passe incorreta"
 
 #: .es5/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr "Conta não-verificada"
+msgstr "Conta não verificada"
 
 #: .es5/lib/auth-errors.js:67
 msgid "Invalid verification code"
@@ -403,7 +403,7 @@ msgstr "Sessão não-confirmada"
 
 #: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
-msgstr "O email secundário tem de ser diferente do email da sua conta"
+msgstr "O e-mail secundário deve ser diferente do e-mail da sua conta"
 
 #: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
@@ -423,7 +423,7 @@ msgstr "Endereço em utilização por outra conta"
 
 #: .es5/lib/auth-errors.js:186
 msgid "Primary account email required for reset"
-msgstr "Email primário da conta requerido para reposição"
+msgstr "E-mail principal da conta requerido para redefinição"
 
 #: .es5/lib/auth-errors.js:190
 msgid "Invalid signin code"
@@ -435,7 +435,7 @@ msgstr "Não pode alterar um email primário para um email não verificado"
 
 #: .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:206
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Não pode alterar um email primário para um email que não pertence a esta conta"
+msgstr "Não pode alterar um e-mail principal para um e-mail que não pertence a esta conta"
 
 #: .es5/lib/auth-errors.js:202
 msgid "This email can not currently be used to login"
@@ -455,7 +455,7 @@ msgstr "Este código de verificação expirou"
 
 #: .es5/lib/auth-errors.js:222
 msgid "A TOTP token already exists for this account"
-msgstr "Um token TOTP já existe para esta conta"
+msgstr "Já existe um código TOTP para esta conta"
 
 #: .es5/lib/auth-errors.js:226
 msgid "TOTP token not found"
@@ -600,7 +600,7 @@ msgstr "Insira um endereço de email válido. O domínio firefox.com não fornec
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "As contas Mozilla só podem ser colocadas numa IFRAME nos sites aprovados"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -680,7 +680,7 @@ msgstr "Código de autenticação de recuperação inválido"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
-msgstr "Chave de recuperação da conta necessária"
+msgstr "Necessária chave de recuperação da conta"
 
 #: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
@@ -700,7 +700,7 @@ msgstr "O tamanho do ficheiro de imagem é muito grande para ser carregado."
 
 #: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "As Contas Firefox apenas podem ser colocadas num IFRAME em sites aprovados"
+msgstr "As Contas Firefox só podem ser colocadas numa IFRAME nos sites aprovados"
 
 #: .es5/lib/config-loader.js:101
 msgid "Missing configuration"
@@ -831,9 +831,7 @@ msgid "Invalid Token"
 msgstr "Token inválido"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ao proceder, está concordar com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos de serviço</a> e com o <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidade</a> do %(serviceName)s "
 "(%(serviceUri)s)."
@@ -899,14 +897,13 @@ msgstr "Continuar para o %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Por favor, insira a chave de recuperação da conta única que guardou num local seguro para recuperar o acesso à sua conta Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">NOTA:</span> Se repuser a sua palavra-passe e não tiver uma chave de recuperação guardada, alguns dos seus dados irão ser apagados (incluindo dados de servidor sincronizados "
-"como histórico e marcadores)."
+"<span class=\"note\">NOTA:</span> Se redefinir a sua palavra-passe e não tiver uma chave de recuperação da conta guardada, serão eliminados alguns dos seus dados (incluindo os dados de servidor "
+"sincronizados, tais como, histórico e marcadores)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1129,8 +1126,7 @@ msgstr "Palavra-passe"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1146,11 +1142,10 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Ao continuar, está a concordar com os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
-"privacy\">Informação de privacidade</a>."
+"Ao continuar, está a concordar com os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Informação de privacidade</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1192,8 +1187,7 @@ msgstr ""
 msgid ""
 "\n"
 "          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
@@ -1219,8 +1213,7 @@ msgstr "Uma conta do Firefox também desbloqueia o acesso a mais produtos de pro
 msgid ""
 "\n"
 "  By proceeding, you agree to:<br />\n"
-"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
@@ -1400,8 +1393,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>NOTA:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Pode perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto é porque nós "
-"encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá continuar a manter quaisquer subscrições que tenha e os dados do Pocket não serã afetados."
+"<span>NOTA:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Pode perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto é porque nós encriptamos"
+" os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá continuar a manter quaisquer subscrições que tenha e os dados do Pocket não serã afetados."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1879,7 +1872,7 @@ msgstr "Por que preciso criar esta conta? <a %(escapedSuggestionAttrs)s>Descubra
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Contas Firefox será renomeada como contas Mozilla no dia 1 de novembro"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -2060,8 +2053,7 @@ msgid "Or download"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Digitalize para transferir o Firefox para o telemóvel, ou envie para si mesmo uma <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">ligação de transferência.</a>"

@@ -442,16 +442,20 @@ subscriptionAccountFinishSetup-subject = Bem-vindo(a) a { $productName }: Por fa
 subscriptionAccountFinishSetup-title = Bem-vindo(a) ao { $productName }.
 subscriptionAccountFinishSetup-content-processing = O seu pagamento está a ser processado e pode demorar até quatro dias úteis para ser concluído. A sua subscrição será renovada automaticamente a cada período de faturação, a menos que opte por cancelar.
 subscriptionAccountFinishSetup-content-create-2 = A seguir, irá criar uma palavra-passe da { -product-firefox-account } para começar a utilizar a sua nova subscrição.
+subscriptionAccountFinishSetup-content-create-3 = A seguir, irá criar uma palavra-passe da { -product-mozilla-account } para começar a utilizar a sua nova subscrição.
 subscriptionAccountFinishSetup-action-2 = Começar
 subscriptionAccountReminderFirst-subject = Lembrete: termine a configuração da sua conta
 subscriptionAccountReminderFirst-title = Ainda não pode aceder à sua subscrição
 subscriptionAccountReminderFirst-content-info-2 = Criou uma { -product-firefox-account } há alguns dias, mas nunca a confirmou. Nós gostaríamos que concluísse a configuração da sua conta para que possa utilizar a sua nova subscrição.
+subscriptionAccountReminderFirst-content-info-3 = Há alguns dias, criou uma { -product-mozilla-account } mas nunca a confirmou. Nós gostaríamos que concluísse a configuração da sua conta, para que possa utilizar a sua nova subscrição.
 subscriptionAccountReminderFirst-content-select-2 = Selecione “Criar Palavra-passe” para definir uma nova palavra-passe e concluir a confirmação da sua conta.
 subscriptionAccountReminderFirst-action = Criar palavra-passe
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lembrete final: configure a sua conta
 subscriptionAccountReminderSecond-title = Bem-vindo(a) ao { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info-2 = Criou uma { -product-firefox-account } há alguns dias, mas nunca a confirmou. Nós gostaríamos que concluísse a configuração da sua conta, para que possa utilizar a sua nova subscrição.
+subscriptionAccountReminderSecond-title-2 = Bem-vindo(a) à { -brand-mozilla }!
+subscriptionAccountReminderSecond-content-info-2 = Há alguns dias, criou uma { -product-firefox-account } mas nunca a confirmou. Nós gostaríamos que concluísse a configuração da sua conta, para que possa utilizar a sua nova subscrição.
+subscriptionAccountReminderSecond-content-info-3 = Há alguns dias, criou uma { -product-mozilla-account } mas nunca a confirmou. Nós gostaríamos que concluísse a configuração da sua conta, para que possa utilizar a sua nova subscrição.
 subscriptionAccountReminderSecond-content-select-2 = Selecione “Criar Palavra-passe” para definir uma nova palavra-passe e concluir a confirmação da sua conta.
 subscriptionAccountReminderSecond-action = Criar palavra-passe
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -465,6 +469,10 @@ subscriptionCancellation-title = Temos pena que se vá embora
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-outstanding-content-2 = Nós cancelámos a sua subscrição do { $productName }. O seu pagamento final de { $invoiceTotal } será pago em { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = O seu serviço continuará até o final do período de faturação atual, que é em { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Mudou para { $productName }
@@ -593,23 +601,28 @@ unblockCode-report = Se não, ajude-nos a afastar os intrusos e <a data-l10n-nam
 unblockCode-report-plaintext = Se não, ajude-nos a afastar os intrusos e reporte a situação à nossa equipa.
 verificationReminderFinal-subject = Lembrete final para configurar a sua conta
 verificationReminderFinal-description = Há algumas semanas, criou uma { -product-firefox-account }, mas nunca a confirmou. Para sua segurança, nós iremos eliminar a conta se não for verificada nas próximas 24 horas.
+verificationReminderFinal-description-2 = Há algumas semanas, criou uma { -product-mozilla-account }, mas nunca a confirmou. Para sua segurança, nós iremos eliminar a conta se não for verificada nas próximas 24 horas.
 confirm-account = Confirmar conta
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Lembre-se de confirmar a sua conta
 verificationReminderFirst-title-2 = Bem-vindo ao { -brand-firefox }!
-verificationReminderFirst-description-2 = Há alguns dias criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 15 dias ou esta será eliminada automaticamente.
+verificationReminderFirst-description-2 = Há alguns dias, criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 15 dias ou esta será eliminada automaticamente.
+verificationReminderFirst-description-3 = Há alguns dias, criou uma { -product-mozilla-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 15 dias ou esta será eliminada automaticamente.
 verificationReminderFirst-sub-description-3 = Não perca o navegador que o coloca a si e a sua privacidade, em primeiro lugar.
 confirm-email-2 = Confirmar conta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conta
 verificationReminderSecond-subject-2 = Lembre-se de confirmar a sua conta
 verificationReminderSecond-title-2 = Não perca o { -brand-firefox }!
-verificationReminderSecond-description-3 = Há alguns dias criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 10 dias ou esta será eliminada automaticamente.
+verificationReminderSecond-description-3 = Há alguns dias, criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 10 dias ou esta será eliminada automaticamente.
+verificationReminderSecond-description-4 = Há alguns dias, criou uma { -product-mozilla-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 10 dias ou esta será eliminada automaticamente.
 verificationReminderSecond-second-description = A sua { -product-firefox-account } deixa-o sincronizar a sua informação entre os dispositivos e desbloqueia o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
+verificationReminderSecond-second-description-3 = A sua { -product-mozilla-account } deixa-o sincronizar o seu { -brand-firefox } entre os dispositivos e desbloqueia o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Faça parte da nossa missão para transformar a Internet num lugar aberto para todos.
 verificationReminderSecond-action-2 = Confirmar conta
 verify-title-2 = Aceda à Internet com o { -brand-firefox }
-verify-description = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os lugares em que iniciar sessão, a começar por:
+verify-description = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os sítios em que iniciar sessão, a começar por:
+verify-description-2 = Confirme a sua conta e aproveite ao máximo o { -brand-mozilla } em todos os sítios em que iniciar a sessão, começando por:
 verify-subject = Conclua a criação da sua conta
 verify-action-2 = Confirmar conta
 # Variables:
@@ -639,7 +652,10 @@ verifySecondaryCode-title-2 = Confirmar e-mail secundário
 verifySecondaryCode-action-2 = Confirmar e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Uma solicitação para utilizar { $email } como endereço de email secundário foi feito a partir da seguinte { -product-firefox-account }:
+verifySecondaryCode-explainer = Foi efetuado um pedido para utilizar { $email } como endereço de e-mail secundário a partir da seguinte { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Foi efetuado um pedido para utilizar { $email } como endereço de e-mail secundário a partir da seguinte { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Utilizar este código de confirmação:
 verifySecondaryCode-expiry-notice-2 = Este expira em 5 minutos. Depois de confirmado, este endereço irá começar a receber notificações e confirmações de segurança.
 # Variables:
@@ -647,7 +663,7 @@ verifySecondaryCode-expiry-notice-2 = Este expira em 5 minutos. Depois de confir
 verifyShortCode-subject-3 = Confirmar a sua conta
 verifyShortCode-title-2 = Aceda à Internet com o { -brand-firefox }
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os sítios em que iniciar sessão, a começar com:
+verifyShortCode-title-subtext = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os sítios em que iniciar sessão, começando com:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirme a sua conta e aproveite ao máximo a { -brand-mozilla } em todos os sítios em que iniciar sessão, começando com:
 verifyShortCode-prompt-3 = Utilizar este código de confirmação:
