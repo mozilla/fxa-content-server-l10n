@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-10-20 07:13+0000\n"
+"PO-Revision-Date: 2023-10-28 14:43+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -22,7 +22,7 @@ msgstr "Mozilla-accounts"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla-logo"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -65,6 +65,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Wy stean op dit stuit ûnder hege druk en wurkje oan\n"
+"            in sa gau as mooglik werstel fan it systeem."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"

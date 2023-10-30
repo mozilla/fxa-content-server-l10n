@@ -22,6 +22,7 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Contas do Firefox
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
@@ -58,10 +59,12 @@ input-error-is-required = { $label } é necessário
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = Logótipo de { -brand-name-firefox }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = Já tem uma conta { -brand-name-firefox }? <a>Inicie sessão</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -70,7 +73,6 @@ new-user-enter-email =
     .label = Introduza o seu e-mail
 new-user-confirm-email =
     .label = Confirme o seu e-mail
-new-user-subscribe-product-updates = Eu gostaria de receber atualizações do produto do { -brand-name-firefox }
 new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
 new-user-email-validate = O e-mail não é válido
 new-user-email-validate-confirm = Os e-mails não coincidem
@@ -97,7 +99,7 @@ payment-confirmation-amount = { $amount } por { $interval }
 # $intervalCount (Number) - The interval between payments, in days.
 payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] { $amount } diário
+        [one] { $amount } diariamente
        *[other] { $amount } a cada { $intervalCount } dias
     }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -356,6 +358,7 @@ coupon-success-repeating = O seu plano será renovado automaticamente depois de 
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
 new-user-card-title = Introduza a informação do seu cartão
 new-user-submit = Subscrever agora
@@ -386,10 +389,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Rever a sua alteração
 sub-change-failed = A alteração do plano falhou
-sub-update-copy =
-    O seu plano irá mudar imediatamente e você vai ser cobrado um valor ajustado 
-    durante o resto do seu ciclo de pagamento. A partir de { $startingDate }
-    você será cobrado o valor total.
 sub-update-acknowledgment =
     O seu plano irá mudar imediatamente, e será cobrado um valor ajustado 
     durante o resto do seu ciclo de faturação. A partir de { $startingDate }
@@ -398,6 +397,15 @@ sub-change-submit = Confirmar alteração
 sub-update-current-plan-label = Plano atual
 sub-update-new-plan-label = Novo plano
 sub-update-total-label = Novo total
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -448,7 +456,7 @@ pay-update-manage-btn = Gerir
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
-sub-next-bill = Próxima cobrança a { $date }
+sub-next-bill = Próxima faturação em { $date }
 sub-next-bill-no-tax = A sua próxima fatura de <strong>{ $priceAmount }</strong> vence a <strong>{ $date }</strong>
 sub-next-bill-tax = A sua próxima fatura de <strong>{ $priceAmount } + { $taxAmount }</strong> de imposto vence a <strong>{ $date }</strong>
 sub-expires-on = Expira a { $date }
