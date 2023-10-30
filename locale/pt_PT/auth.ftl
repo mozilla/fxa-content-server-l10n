@@ -1,22 +1,29 @@
 ## Non-email strings
 
-session-verify-send-push-title = A iniciar sessão nas { -product-firefox-accounts }?
-session-verify-send-push-body-2 = Clique aqui para verificar se é você mesmo(a)
+session-verify-send-push-title = Iniciar a sessão em { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Iniciar a sessão em { -product-mozilla-account }?
+session-verify-send-push-body-2 = Clique aqui para confirmar que é você
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logótipo do { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logótipo do { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronizar dispositivos">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositivos">
-fxa-privacy-url = Política de privacidade da { -brand-mozilla }
+fxa-privacy-url = Política de Privacidade da { -brand-mozilla }
+moz-accounts-privacy-url-2 = Informação de Privacidade de { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Termos de Serviço do { -product-firefox-cloud }
+moz-accounts-terms-url = Termos do Serviço de { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logótipo do { -brand-firefox }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logótipo do { -brand-mozilla }">
-subplat-automated-email = Este é um email automático; se o recebeu por erro, nenhuma ação é requerida.
-subplat-privacy-notice = Política de privacidade
-subplat-privacy-plaintext = Política de privacidade:
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logótipo da { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="logótipo da { -brand-mozilla }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logótipo da { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="logótipo da { -brand-mozilla }">
+subplat-automated-email = Esta é uma mensagem automática; se a recebeu por erro, não é necessária nenhuma ação.
+subplat-privacy-notice = Informação de privacidade
+subplat-privacy-plaintext = Informação de privacidade:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
@@ -24,13 +31,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Está a receber esta mensagem porque { $email } tem uma { -product-mozilla-account } e subscreveu { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Está a receber esta mensagem porque { $email } tem uma conta { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Está a receber esta mensagem porque { $email } tem uma { -product-mozilla-account }.
 subplat-explainer-multiple = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu múltiplos produtos.
+subplat-explainer-multiple-2 = Está a receber esta mensagem porque { $email } tem uma { -product-mozilla-account } e subscreveu múltiplos produtos.
 subplat-explainer-was-deleted = Está a receber esta mensagem porque { $email } foi registado para uma { -product-firefox-account }.
-subplat-manage-account = Faça a gestão das definições da sua { -product-firefox-account } visitando a <a data-l10n-name="subplat-account-page">página da conta</a>.
+subplat-explainer-was-deleted-2 = Está a receber esta mensagem porque { $email } foi registado para uma { -product-mozilla-account }.
+subplat-manage-account = Controle as suas definições da { -product-firefox-account } visitando a sua <a data-l10n-name="subplat-account-page">página da conta</a>.
+subplat-manage-account-2 = Controle as suas definições da { -product-mozilla-account } visitando a sua <a data-l10n-name="subplat-account-page">página da conta</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Faça a gestão das definições da sua { -product-firefox-account } ao visitar a página da sua conta: { $accountSettingsUrl }
+subplat-manage-account-plaintext = Controle as suas definições da { -product-firefox-account } visitando a página da conta: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Controle as suas definições da { -product-mozilla-account } visitando a página da sua conta: { $accountSettingsUrl }
 subplat-terms-policy = Termos e política de cancelamento
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar subscrição
@@ -39,9 +59,11 @@ subplat-reactivate = Reativar subscrição
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Atualizar a informação de faturação
 subplat-privacy-policy = Política de privacidade da { -brand-mozilla }
+subplat-privacy-policy-2 = Informação de Privacidade de { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Termos do Serviço { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Termos do Serviço de { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-legal = Informações legais
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidade
@@ -72,18 +94,53 @@ automated-email-support = Para mais informação, visite o <a data-l10n-name="su
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Se não executou esta ação, altere a sua palavra-passe imediatamente:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-support-plaintext = Para mais informação, visite o apoio da { -brand-mozilla }:
+automated-email-support-plaintext = Para mais informação, visite o Apoio da { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para mais informação, visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>
 automated-email-no-action-plaintext = Esta é uma mensagem automática. Se a recebeu por engano, não precisa de fazer nada.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-not-authorized-plaintext = Esta é uma mensagem automática; se não autorizou esta ação então, por favor, altere a sua palavra-passe:
+automated-email-not-authorized-plaintext = Esta é uma mensagem automática; se não autorizou esta ação, então, por favor, altere a sua palavra-passe:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Este pedido teve origem em { $uaBrowser } em { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Este pedido teve origem em { $uaBrowser } em { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Este pedido teve origem em { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Este pedido teve origem em { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Este pedido teve origem em { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Se não foi você, <a data-l10n-name="revokeAccountRecoveryLink">elimine a nova chave</a> e <a data-l10n-name="passwordChangeLink">altere a sua palavra-passe</a>.
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Se não foi você, elimine a nova chave:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Se não foi você, altere a sua palavra-passe:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = e altere a sua palavra-passe:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Para mais informação, visite o Apoio da { -brand-mozilla }:
 automated-email-reset =
     Este é um e-mail automático; se não autorizou esta ação, <a data-l10n-name="resetLink">por favor altere a sua palavra-passe</a>.
     Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Se não a alterou, por favor, faça imediatamente a reposição da sua palavra-passe em { $resetLink }
+automated-email-reset-plaintext = Se não a alterou, por favor, redefina agora a sua palavra-passe em { $resetLink }
+brand-banner-message = Sabia que nós alterámos o nosso nome de { -product-firefox-accounts } para { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saiba mais</a>
 cancellationSurvey = Ajude-nos a melhorar os nossos serviços preenchendo este <a data-l10n-name="cancellationSurveyUrl">pequeno questionário</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ajude-nos a melhorar os nossos serviços respondendo a este pequeno questionário:
@@ -161,7 +218,7 @@ subscriptionUpdatePayment = Para evitar qualquer interrupção no seu serviço, 
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu serviço, por favor, atualize a sua informação de pagamento assim que possível:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Para mais informação, visite o { -brand-mozilla } Apoio: { $supportUrl }.
+support-message-2 = Para mais informação, visite o Apoio da { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -200,7 +257,7 @@ cadReminderFirst-action = Sincronizar outro dispositivo
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = São necessários dois para sincronizar
-cadReminderFirst-description-2 = Leva apenas um segundo para sincronizar.
+cadReminderFirst-description-1 = Utilize os seus separadores em todos os seus dispositivos. Obtenha os seus marcadores, palavras-passe e outros dados, onde quer que utilize o { -brand-firefox }. É como ter magia na sua conta { -brand-firefox }!
 cadReminderSecond-subject-2 = Não perca nada! Vamos terminar a sua configuração da sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title-2 = Não se esqueça de sincronizar!
@@ -215,7 +272,8 @@ downloadSubscription-title = Bem-vindo(a) ao { $productName }.
 downloadSubscription-content-2 = Vamos começar a utilizar todas as funcionalidades incluídas na sua subscrição:
 downloadSubscription-link-action-2 = Começar
 fraudulentAccountDeletion-subject = A sua { -product-firefox-account } foi eliminada
-fraudulentAccountDeletion-title = A sua conta foi apagada
+fraudulentAccountDeletion-subject-2 = A sua { -product-mozilla-account } foi eliminada
+fraudulentAccountDeletion-title = A sua conta foi eliminada
 fraudulentAccountDeletion-contact = Se tiver quaisquer questões, por favor, contacte a nossa <a data-l10n-name="mozillaSupportUrl">equipa de apoio</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -239,9 +297,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo início de sessão para { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = A sua { -product-firefox-account } foi utilizada para iniciar a sessão
+newDeviceLogin-title-3 = A sua { -product-mozilla-account } foi utilizada para iniciar a sessão
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Não é você? <a data-l10n-name="passwordChangeLink">Altere a sua palavra-passe</a>.
@@ -251,17 +308,17 @@ newDeviceLogin-change-password-plain = Não é você? Altere a sua palavra-passe
 newDeviceLogin-action = Gerir conta
 passwordChanged-subject = Palavra-passe atualizada
 passwordChanged-title = Palavra-passe alterada com sucesso
-passwordChanged-description = A palavra-passe das { -product-firefox-account } foi alterada com sucesso a partir do seguinte dispositivo:
+passwordChanged-description = A palavra-passe da { -product-firefox-account } foi alterada com sucesso a partir do seguinte dispositivo:
+passwordChanged-description-2 = A palavra-passe da { -product-mozilla-account } foi alterada com sucesso a partir do seguinte dispositivo:
 passwordChangeRequired-subject = Detetada atividade suspeita
 passwordChangeRequired-title = Alteração de palavra-passe necessária
-passwordChangeRequired-suspicious-activity = Detetámos um comportamento suspeito nas { -product-firefox-account }. Para impedir acessos não autorizados ao seu produto { -product-firefox-account }, desassociámos todos os dispositivos da sua conta e iremos solicitar que altere a sua palavra-passe como precaução.
+passwordChangeRequired-suspicious-activity = Nós detetámos um comportamento suspeito na sua { -product-firefox-account }. Para impedir acessos não autorizados na sua { -product-firefox-account }, nós desassociamos todos os dispositivos da sua conta e como precaução solicitamos-lhe que altere a sua palavra-passe.
+passwordChangeRequired-suspicious-activity-2 = Nós detetámos um comportamento suspeito na sua { -product-mozilla-account }. Para impedir acessos não autorizados na sua { -product-mozilla-account }, nós desassociamos todos os dispositivos da sua conta e como precaução solicitamos-lhe que altere a sua palavra-passe.
 passwordChangeRequired-sign-in = Inicie sessão novamente em qualquer dispositivo em que utiliza a sua { -product-firefox-account } e siga os procedimentos que lhe serão indicados.
 passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
-passwordChangeRequired-signoff = O melhor,
-passwordChangeRequired-signoff-name = A equipa das { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
 passwordReset-subject = Palavra-passe atualizada
-passwordReset-title = A palavra-passe da sua conta foi alterada
+passwordReset-title = A sua palavra-passe da conta foi alterada
 passwordReset-description = Terá de inserir a sua nova palavra-passe nos outros dispositivos para retomar a sincronização.
 passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
 passwordResetAccountRecovery-title-2 = Palavra-passe redefinida com sucesso
@@ -269,23 +326,22 @@ passwordResetAccountRecovery-title-2 = Palavra-passe redefinida com sucesso
 passwordResetAccountRecovery-description-2 = Utilizou a sua chave de recuperação da conta para atualizar a sua palavra-passe de:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Criar uma nova chave de recuperação da conta
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Criar chave de recuperação da conta
 passwordResetAccountRecovery-regen-required-mjml-1 = Terá de iniciar a sessão novamente em todos os seus dispositivos sincronizados. Lembre-se de criar uma nova chave de recuperação da conta para substituir a que utilizou.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Terá de iniciar a sessão novamente em todos os seus dispositivos sincronizados. Lembre-se de criar uma nova chave de recuperação da conta para substituir a que utilizou:
-postAddAccountRecovery-subject-2 = Chave de recuperação da conta criada
+postAddAccountRecovery-subject-3 = Nova chave de recuperação da conta criada
 postAddAccountRecovery-title2 = Criou uma nova chave de recuperação da conta
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Uma nova chave foi criada a partir de:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Não é você?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Elimine a nova chave</a> e <a data-l10n-name="passwordChangeLink">altere a sua palavra-passe</a>
 postAddAccountRecovery-action = Gerir conta
-postAddAccountRecovery-delete-key = Eliminar a nova chave:
-postAddAccountRecovery-changd-password = Alterar a sua palavra-passe:
-postAddLinkedAccount-subject = Nova conta vinculada ao { -brand-firefox }
+postAddLinkedAccount-subject = Nova conta associada ao { -brand-firefox }
+postAddLinkedAccount-subject-2 = Nova conta associada à sua { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = A sua conta { $providerName } foi associada à sua { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = A sua conta { $providerName } foi associada à sua { -product-mozilla-account }
 postAddLinkedAccount-action = Gerir conta
 postAddTwoStepAuthentication-subject-2 = Autenticação de dois passos ativada
 postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois passos
@@ -293,11 +349,19 @@ postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois passos
 postAddTwoStepAuthentication-from-device = Ativou-a de:
 postAddTwoStepAuthentication-action = Gerir conta
 postAddTwoStepAuthentication-code-required-2 = Os códigos de segurança da sua aplicação de autenticação são agora obrigatórios em cada início de sessão.
+postChangeAccountRecovery-subject = Chave de recuperação da conta alterada
+postChangeAccountRecovery-title = Alterou a sua chave de recuperação da conta
+postChangeAccountRecovery-body-part1 = Agora tem uma nova chave de recuperação da conta. A sua chave anterior foi eliminada.
+postChangeAccountRecovery-body-part2 = Guarde esta nova chave num local seguro – se esquecer a sua palavra-passe irá precisar da mesma para restaurar os seus dados de navegação encriptados.
+postChangeAccountRecovery-action = Gerir conta
 postChangePrimary-subject = E-mail principal atualizado
 postChangePrimary-title = Novo email primário
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = Alterou com sucesso o seu e-mail primário para { $email }. Este endereço é agora o seu nome de utilizador para iniciar sessão na sua { -product-firefox-account }, assim como para receber notificações de segurança e confirmações de autenticação.
+postChangePrimary-description = Alterou com sucesso o seu e-mail principal para { $email }. Este endereço é agora o seu nome de utilizador para iniciar a sessão na sua { -product-firefox-account }, assim como para receber notificações de segurança e confirmações de autenticação.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Alterou com sucesso o seu e-mail principal para { $email }. Este endereço é agora o seu nome de utilizador para iniciar a sessão na sua { -product-mozilla-account }, assim como para receber notificações de segurança e confirmações de autenticação.
 postChangePrimary-action = Gerir conta
 postConsumeRecoveryCode-title-2 = Utilizou um código de autenticação de recuperação
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -314,11 +378,9 @@ postNewRecoveryCodes-title-2 = Criou novos códigos de autenticação de recuper
 postNewRecoveryCodes-description-2 = Foram criados em:
 postNewRecoveryCodes-action = Gerir conta
 postRemoveAccountRecovery-subject-2 = Chave de recuperação da conta eliminada
-postRemoveAccountRecovery-title-2 = Eliminou a sua chave de recuperação da conta.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Esta foi eliminada de:
+postRemoveAccountRecovery-title-3 = Eliminou a sua chave de recuperação da conta
+postRemoveAccountRecovery-body-part1 = Se esquecer a sua palavra-passe, é necessária a chave de recuperação da conta para restaurar os seus dados de navegação encriptados.
 postRemoveAccountRecovery-action = Gerir conta
-postRemoveAccountRecovery-invalid-2 = Precisa de uma chave de recuperação da conta para recuperar os seus dados do { -brand-firefox } se esquecer a sua palavra-passe.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
@@ -343,12 +405,18 @@ postVerifySecondary-title = Email secundário adicionado
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Confirmou com sucesso { $secondaryEmail } como um endereço de correio eletrónico secundário para a sua { -product-firefox-account }. As notificações de segurança e as confirmações de início de sessão serão agora entregues em ambos os endereços de correio eletrónico.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Confirmou { $secondaryEmail } com sucesso, como um endereço de correio eletrónico secundário para a sua { -product-mozilla-account }. As notificações de segurança e as confirmações de início de sessão serão agora entregues em ambos os endereços de correio eletrónico.
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title-2 = Esqueceu-se da sua palavra-passe?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-firefox-account } de:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:
 recovery-new-password-button = Crie uma nova palavra-passe clicando no botão abaixo. Esta ligação irá expirar daqui a uma hora.
 recovery-copy-paste = Crie uma nova palavra-passe copiando e colando o endereço abaixo no seu navegador. Esta ligação irá expirar daqui a uma hora.
 recovery-action = Criar nova palavra-passe
@@ -361,6 +429,11 @@ subscriptionAccountDeletion-title = Temos pena que se vá embora
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Excluiu recentemente a sua { -product-firefox-account }. Como resultado, cancelámos a sua subscrição { $productName }. O seu pagamento final de { $invoiceTotal } foi pago a { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Recentemente eliminou a sua { -product-mozilla-account }. Como resultado, nós cancelámos a sua subscrição do { $productName }. O seu pagamento final de { $invoiceTotal } foi pago em { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Bem-vindo(a) a { $productName }: Por favor, defina a sua palavra-passe.
@@ -575,5 +648,7 @@ verifyShortCode-subject-3 = Confirmar a sua conta
 verifyShortCode-title-2 = Aceda à Internet com o { -brand-firefox }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os sítios em que iniciar sessão, a começar com:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Confirme a sua conta e aproveite ao máximo a { -brand-mozilla } em todos os sítios em que iniciar sessão, começando com:
 verifyShortCode-prompt-3 = Utilizar este código de confirmação:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
