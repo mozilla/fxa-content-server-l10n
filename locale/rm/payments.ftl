@@ -136,6 +136,7 @@ payment-confirmation-download-button = Vinavant a la telechargiada
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament l'import mussà, confurm a las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+payment-confirm-with-legal-links-static-2 = Jau permet a { -brand-name-mozilla } da debitar cun mia metoda da pajament l'import mussà, confurm a las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
 payment-confirm-checkbox-error = Ti stos acceptar quai per pudair cuntinuar
 
 ## Component - PaymentErrorView
@@ -312,6 +313,9 @@ sub-guarantee = Garanzia da restituziun da 30 dis
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Cundiziuns d'utilisaziun
 privacy = Infurmaziuns davart la protecziun da datas
 terms-download = Telechargiar las cundiziuns

@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -bra
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronisar ils apparats">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparats">
 fxa-privacy-url = Directivas per la protecziun da datas da { -brand-mozilla }
+moz-accounts-privacy-url-2 = Infurmaziuns davart la protecziun da datas da { -product-mozilla-accounts }
 fxa-service-url = Cundiziuns d’utilisaziun dals servetschs da cloud da { -product-firefox-cloud }
 moz-accounts-terms-url = Cundiziuns d'utilisaziun da { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo da { -brand-firefox }">
@@ -58,7 +59,9 @@ subplat-reactivate = Reactivar l’abunament
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Actualisar las infurmaziuns per la facturaziun
 subplat-privacy-policy = Directivas per la protecziun da datas da { -brand-mozilla }
+subplat-privacy-policy-2 = Infurmaziuns davart la protecziun da datas da { -product-mozilla-accounts }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Cundiziuns d'utilisaziun dals servetschs da { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Cundiziuns d'utilisaziun dals { -product-mozilla-accounts }
