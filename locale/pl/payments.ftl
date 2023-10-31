@@ -40,6 +40,8 @@
 # 'Firefox Accounts' refers to the service
 # TODO - Remove once branding sticks
 project-brand = Konta Firefoksa
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account(case: "nom", capitalization: "upper") }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -162,6 +164,7 @@ payment-confirmation-download-button = Kontynuuj, aby pobrać
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania wymienionej opłaty zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
+payment-confirm-with-legal-links-static-2 = Upoważniam { -brand-name-mozilla(case: "acc") } do pobierania wymienionej opłaty zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
 payment-confirm-checkbox-error = Należy to wypełnić, aby móc przejść dalej
 
 ## Component - PaymentErrorView
@@ -354,6 +357,9 @@ sub-guarantee = 30-dniowa gwarancja zwrotu pieniędzy
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: "nom", capitalization: "upper") }
 terms = Regulamin usługi
 privacy = Zasady ochrony prywatności
 terms-download = Warunki pobierania
