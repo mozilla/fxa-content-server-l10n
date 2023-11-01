@@ -345,6 +345,8 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opa
 passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eiporuva’ekue.
 postAddAccountRecovery-subject-3 = Mba’eñemi pyahu mba’ete guerujeyrã heñóima
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Eñongatu mba’eñemi tenda hekorosãvape; eikotevẽta eguerujey hag̃ua mba’ekuaarã ipapapýva nderesaráirõ ñe’ẽñemígui.
 postAddAccountRecovery-action = Mba’ete ñangareko
 postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
 postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
