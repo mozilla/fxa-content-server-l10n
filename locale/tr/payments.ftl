@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox Hesapları
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } gereklidir
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox } logosu
 brand-name-mozilla-logo = { -brand-mozilla } logosu
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
 new-user-sign-in-link-2 = Zaten  { -product-mozilla-account }nız var mı? <a>Giriş yapın</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -307,6 +312,9 @@ sub-guarantee = 30 gün para iade garantisi
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Kullanım Koşulları
 privacy = Gizlilik Bildirimi
 terms-download = İndirme koşulları
@@ -411,6 +419,7 @@ coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra l
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
 new-user-step-1-2 = 1. { -product-mozilla-account } oluşturun
 new-user-card-title = Kart bilgilerinizi girin
