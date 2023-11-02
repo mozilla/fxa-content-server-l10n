@@ -275,7 +275,7 @@ password-strength-balloon-stay-safe-tips = Protégez-vous — ne réutilisez pas
 
 ## Ready component
 
-reset-password-complete-header = Votre mot de passe à été réinitialisé
+reset-password-complete-header = Votre mot de passe a été réinitialisé
 ready-complete-set-up-instruction = Terminez la configuration en saisissant votre nouveau mot de passe sur vos autres appareils { -brand-firefox }.
 ready-start-browsing-button = Commencer la navigation
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -343,7 +343,7 @@ cs-cannot-refresh = Désolé, un problème est survenu lors de l’actualisation
 cs-cannot-disconnect = Client introuvable, impossible de se déconnecter
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Déconnecté·e de { $service }.
 cs-refresh-button =
@@ -355,7 +355,7 @@ cs-disconnect-sync-heading = Se déconnecter de Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = Vos données de navigation seront conservées sur <span>{ $device }</span>, mais elles ne seront plus synchronisées avec votre compte.
@@ -696,20 +696,6 @@ recent-activity-account-emails-swapped = Les adresses e-mail principale et secon
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Autre activité du compte
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Annuler
-recovery-key-close-button = Fermer
-recovery-key-continue-button = Continuer
-recovery-key-created-1 = Votre clé de récupération de compte a été créée. Assurez-vous d’enregistrer la clé dans un endroit sûr que vous pourrez facilement trouver plus tard — vous aurez besoin de la clé pour retrouver l’accès à vos données si vous oubliez votre mot de passe.
-recovery-key-enter-password =
-    .label = Saisissez votre mot de passe
-recovery-key-page-title-1 =
-    .title = Clé de récupération de compte
-recovery-key-step-1 = Étape 1 sur 2
-recovery-key-step-2 = Étape 2 sur 2
-recovery-key-success-alert-3 = Clé de récupération de compte créée
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1047,7 +1033,7 @@ cookies-disabled-learn-more = En savoir plus
 inline-recovery-setup-header-default = Confirmez le code d’authentification de secours <span>pour accéder aux paramètres du compte</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Enregistrez les codes d’authentification de secours <span>pour continuer vers { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Conservez ces codes à usage unique en lieu sûr pour quand vous n’avez pas accès à votre appareil mobile.
@@ -1067,7 +1053,7 @@ inline-recovery-confirmation-description = Pour vous assurer d’être en mesure
 inline-recovery-confirmation-header-default = Confirmez le code d’authentification de secours <span>pour accéder aux paramètres du compte</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirmez le code d’authentification de secours <span>pour continuer vers { $serviceName }</span>
 
 ## InlineTotpSetup page
