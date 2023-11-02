@@ -29,7 +29,7 @@ brand-prelaunch-title = { -product-firefox-accounts(zacetnica: "velika") } se bo
 brand-prelaunch-subtitle = Še vedno se boste prijavljali z istim uporabniškim imenom in geslom, izdelki, ki jih uporabljate, pa se ne bodo spremenili.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts(sklon: "tozilnik") } smo preimenovali v { -product-mozilla-accounts(sklon: "tozilnik") }. Prijavite se lahko z istim uporabniškim imenom in geslom kot doslej, izdelki, ki jih uporabljate, pa se niso spremenili.
+brand-postlaunch-title = { -product-firefox-accounts(sklon: "tozilnik") } smo preimenovali v { -product-mozilla-accounts(sklon: "tozilnik") }. Prijavite se lahko z istim uporabniškim imenom in geslom kot doslej, prav tako pa se niso spremenili izdelki, ki jih uporabljate.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Več o tem
 # Alt text for close banner image
@@ -322,9 +322,7 @@ bento-menu-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
 ## Connect another device promo
 
 connect-another-fx-mobile = Prenesite si { -brand-firefox } na telefon ali tablični računalnik
-connect-another-find-fx-mobile =
-    Poiščite { -brand-firefox } v trgovini { -google-play } ali { -app-store } ali
-    <br /><linkExternal>si pošlite povezavo za prenos na napravo</linkExternal>.
+connect-another-find-fx-mobile = Poiščite { -brand-firefox } v trgovini { -google-play } ali { -app-store } ali <linkExternal>si pošljite povezavo za prenos na napravo</linkExternal>.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -345,7 +343,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Odjemalec ni najden, povezave ni bilo mogoče prekiniti
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Odjavljeno iz storitve { $service }
 cs-refresh-button =
@@ -357,7 +355,7 @@ cs-disconnect-sync-heading = Odklopi od Synca
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -401,7 +399,7 @@ cs-sign-out-button = Odjava
 
 dc-heading = Zbiranje in uporaba podatkov
 dc-subheader = Pomagajte izboljšati { -product-firefox-accounts(sklon: "tozilnik") }
-dc-subheader-2 = Pomagajte izboljšati { -product-mozilla-accounts }
+dc-subheader-2 = Pomagajte izboljšati { -product-mozilla-accounts(sklon: "tozilnik") }
 dc-subheader-content = Dovoli { -product-firefox-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-subheader-content-2 = Dovoli { -product-mozilla-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-opt-out-success = Odklonitev uspešna. { -product-firefox-accounts } ne bodo pošiljali { -brand-mozilla(sklon: "dajalnik") } tehničnih ali interakcijskih podatkov.
@@ -707,20 +705,6 @@ recent-activity-account-secondary-email-removed = Odstranjen pomožni e-poštni 
 recent-activity-account-emails-swapped = Zamenjana glavni in pomožni e-poštni naslov
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Drugačna dejavnost v računu
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Prekliči
-recovery-key-close-button = Zapri
-recovery-key-continue-button = Nadaljuj
-recovery-key-created-1 = Vaš ključ za obnovitev računa je bil ustvarjen. Ključ shranite na varnem mestu, kjer ga boste pozneje zlahka našli – potrebovali ga boste za ponovni dostop do svojih podatkov, če pozabite geslo.
-recovery-key-enter-password =
-    .label = Vnesite geslo
-recovery-key-page-title-1 =
-    .title = Ključ za obnovitev računa
-recovery-key-step-1 = Korak 1 od 2
-recovery-key-step-2 = Korak 2 od 2
-recovery-key-success-alert-3 = Ključ za obnovitev računa ustvarjen
 
 ## PageRecoveryKeyCreate
 
@@ -1066,7 +1050,7 @@ cookies-disabled-learn-more = Več o tem
 inline-recovery-setup-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Shranite rezervne overitvene kode <span>za nadaljevanje na { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Shranite te kode za enkratno uporabo na varno mesto za primere, ko nimate mobilne naprave.
@@ -1086,7 +1070,7 @@ inline-recovery-confirmation-description = Vnesite eno od shranjenih rezervnih o
 inline-recovery-confirmation-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potrdite rezervno overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
 
 ## InlineTotpSetup page

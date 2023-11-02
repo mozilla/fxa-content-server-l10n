@@ -13,7 +13,7 @@ app-footer-terms-of-service = Pogoji storitve
 
 app-default-title = { -product-firefox-accounts }
 # This string is used as the default title for pages, displayed in the browser tab.
-app-default-title-2 = { -product-mozilla-accounts }
+app-default-title-2 = { -product-mozilla-accounts(zacetnica: "velika") }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
@@ -23,7 +23,7 @@ app-page-title = { $title } | { -product-firefox-accounts }
 # Variables:
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
-app-page-title-2 = { $title } | { -product-mozilla-accounts }
+app-page-title-2 = { $title } | { -product-mozilla-accounts(zacetnica: "velika") }
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
