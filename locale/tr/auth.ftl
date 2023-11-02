@@ -102,6 +102,33 @@ automated-email-no-action = { automated-email-no-action-plaintext } Daha fazla b
 automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi şey yapmanıza gerek yok.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen parolanızı değiştirin:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Bu istek { $uaOS } { $uaOSVersion } işletim sistemindeki { $uaBrowser } tarayıcısından yapıldı.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Bu istek { $uaOS } işletim sistemindeki { $uaBrowser } tarayıcısından yapıldı.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Bu istek { $uaBrowser } tarayıcısından yapıldı.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Bu istek { $uaOS } { $uaOSVersion } işletim sisteminden yapıldı.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Bu istek { $uaOS } işletim sisteminden yapıldı.
+automatedEmailRecoveryKey-delete-key-change-pwd = Bunu yapan siz değilseniz <a data-l10n-name="revokeAccountRecoveryLink">yeni anahtarı silip</a> <a data-l10n-name="passwordChangeLink">parolanızı değiştirin</a>.
+automatedEmailRecoveryKey-change-pwd-only = Bunu yapan siz değilseniz <a data-l10n-name="passwordChangeLink">parolanızı değiştirin</a>.
+automatedEmailRecoveryKey-more-info = Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a> sitesini ziyaret edebilirsiniz.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Bu istek şuradan geldi:
 # Colon is followed by a URL to the account recovery key section of account settings
@@ -589,6 +616,7 @@ verificationReminderSecond-title-3 = { -brand-mozilla } sizi bekliyor!
 verificationReminderSecond-description-3 = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 10 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderSecond-description-4 = Birkaç gün önce bir { -product-mozilla-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 10 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderSecond-second-description = { -product-firefox-account } sayesinde bilgilerinizi cihazlarınız arasında senkronize edebilir ve gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerini kullanabilirsiniz.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account } sayesinde { -brand-firefox } verilerinizi cihazlarınız arasında eşitleyebilir ve gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerini kullanabilirsiniz.
 verificationReminderSecond-sub-description-2 = İnterneti herkese açık bir yere dönüştürme misyonumuzun bir parçası olun.
 verificationReminderSecond-action-2 = Hesabı onaylayın
 verify-title-2 = İnternete { -brand-firefox } ile açılın

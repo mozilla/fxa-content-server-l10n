@@ -136,6 +136,7 @@ payment-confirmation-download-button = İndirmeye devam et
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
+payment-confirm-with-legal-links-static-2 = { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
 payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerekiyor
 
 ## Component - PaymentErrorView
