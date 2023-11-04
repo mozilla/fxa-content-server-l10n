@@ -394,6 +394,7 @@ postNewRecoveryCodes-action = Mba’ete ñangareko
 postRemoveAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã:
 postRemoveAccountRecovery-title-3 = Emboguéma ne mba’ete mba’eñemi guerujeyrã
 postRemoveAccountRecovery-body-part1 = Eikotevẽ mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ñeikundaha mba’ekuaarã ipapapýva nderesaráirõ ñe’ẽñemígui.
+postRemoveAccountRecovery-body-part2 = Nderejapóirõ gueteri, emoheñói mba’ete mba’eñemi guerujeyrã pyahu ne mba’ete ñembohekópe ani hag̃ua okañy ñe’ẽñemi ñongatupyre, techaukaha, ñeikundaha rembiasakue ha hetave.
 postRemoveAccountRecovery-action = Mba’ete ñangareko
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
