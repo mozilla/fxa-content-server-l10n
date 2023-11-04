@@ -366,6 +366,7 @@ postAddTwoStepAuthentication-code-required-2 = Ko’ág̃a guive ojejeruréta ne
 postChangeAccountRecovery-subject = Mba’eñemi guerujeyrã oñemoambuéma
 postChangeAccountRecovery-title = Emoambue ne mba’ete mba’eñemi guerujeyrã
 postChangeAccountRecovery-body-part1 = Eguerekóma mba’ete mba’eñemi guerujeyrã pyahu. Oguéma pe mba’eñemi tuja.
+postChangeAccountRecovery-body-part2 = Eñongatu mba’eñemi pyahu tenda hekorosãvape; eikotevẽta eguerujey hag̃ua mba’ekuaarã ipapapýva nderesaráirõ ñe’ẽñemígui.
 postChangeAccountRecovery-action = Mba’ete ñangareko
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
