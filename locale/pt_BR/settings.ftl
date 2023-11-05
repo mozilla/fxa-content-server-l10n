@@ -341,9 +341,9 @@ cs-cannot-refresh = Desculpe, houve um problema ao atualizar a lista de serviço
 cs-cannot-disconnect = Cliente não encontrado, não é possível desconectar
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out-2 = Saiu da conta do { $service }
+cs-logged-out-2 = Desconectado da conta em { $service }
 cs-refresh-button =
     .title = Atualizar serviços conectados
 # Link text to a support page on missing or duplicate devices
@@ -353,7 +353,7 @@ cs-disconnect-sync-heading = Desconectar da sincronização
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = Seus dados de navegação permanecerão em <span>{ $device }</span>, mas não serão mais sincronizados com sua conta.
@@ -362,7 +362,7 @@ cs-disconnect-sync-reason-3 = Qual o principal motivo para desconectar <span>{ $
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
-cs-disconnect-sync-opt-prefix = O dispositivo:
+cs-disconnect-sync-opt-prefix = Este dispositivo:
 cs-disconnect-sync-opt-suspicious = É suspeito
 cs-disconnect-sync-opt-lost = Foi perdido ou roubado
 cs-disconnect-sync-opt-old = É antigo ou foi substituído
@@ -378,7 +378,7 @@ cs-disconnect-lost-advice-content-3 = Como seu dispositivo foi perdido ou roubad
 cs-disconnect-suspicious-advice-heading = Desconectado dispositivo suspeito
 cs-disconnect-suspicious-advice-content = Se o dispositivo desconectado for de fato suspeito, para manter suas informações seguras, você deve alterar a senha da sua { -product-firefox-account } nas configurações da conta. Também deve alterar todas as outras senhas salvas no { -brand-firefox } digitando about:login na barra de endereços.
 cs-disconnect-suspicious-advice-content-2 = Se o dispositivo desconectado for de fato suspeito, para manter suas informações seguras, você deve alterar a senha da sua { -product-mozilla-account } nas configurações da conta. Também deve alterar todas as outras senhas salvas no { -brand-firefox } digitando about:login na barra de endereços.
-cs-sign-out-button = Sair
+cs-sign-out-button = Desconectar
 
 ##
 
@@ -500,7 +500,7 @@ la-unlink-button = Desvincular
 la-unlink-account-button = Desvincular
 la-set-password-button = Definir senha
 la-unlink-heading = Desvincular da conta de terceiros
-la-unlink-content-3 = Tem certeza que quer desvincular sua conta? Fazer isso não te desconecta automaticamente dos seus serviços. Para desconectar, você precisa sair manualmente na seção de serviços conectados.
+la-unlink-content-3 = Tem certeza que quer desvincular sua conta? Fazer isso não te desconecta automaticamente dos seus serviços. Para fazer isso, você precisa desconectar manualmente na seção de serviços conectados.
 la-unlink-content-4 = Antes de desvincular sua conta, você deve definir uma senha. Sem uma senha, não há como você entrar após desvincular sua conta.
 nav-linked-accounts = { la-heading }
 
@@ -690,20 +690,6 @@ recent-activity-account-secondary-email-removed = Endereço de email secundário
 recent-activity-account-emails-swapped = Emails primário e secundário invertidos
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Outra atividade da conta
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Cancelar
-recovery-key-close-button = Fechar
-recovery-key-continue-button = Continuar
-recovery-key-created-1 = Sua chave de recuperação de conta foi criada. Certifique-se de guardar a chave em um local seguro, que você possa encontrar facilmente mais tarde. Você precisará da chave para recuperar o acesso aos seus dados, caso esqueça sua senha.
-recovery-key-enter-password =
-    .label = Digite a senha
-recovery-key-page-title-1 =
-    .title = Chave de recuperação de conta
-recovery-key-step-1 = Etapa 1 de 2
-recovery-key-step-2 = Etapa 2 de 2
-recovery-key-success-alert-3 = Criada chave de recuperação de conta
 
 ## PageRecoveryKeyCreate
 
@@ -1030,7 +1016,7 @@ cookies-disabled-learn-more = Saiba mais
 inline-recovery-setup-header-default = Confirme o código de autenticação de backup <span>para continuar para as configurações da conta</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Salve os códigos de autenticação de backup <span>para continuar para o { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Armazene esses códigos de uso único em um local seguro para quando você não estiver com seu dispositivo móvel.
@@ -1050,7 +1036,7 @@ inline-recovery-confirmation-description = Para garantir que você poderá recup
 inline-recovery-confirmation-header-default = Confirme o código de autenticação de backup <span>para continuar para as configurações da conta</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirme o código de autenticação de backup <span>para continuar para o { $serviceName }</span>
 
 ## InlineTotpSetup page
