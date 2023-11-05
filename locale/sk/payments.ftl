@@ -96,7 +96,7 @@ new-user-email-validate = E‑mailová adresa nie je platná
 new-user-email-validate-confirm = E‑mailové adresy sa nezhodujú
 new-user-already-has-account-sign-in = Už máte účet. <a>Prihláste sa</a>
 # $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = Nesprávne zadaný email? Doména { $domain } neponúka e‑mailovú službu.
+new-user-invalid-email-domain = Nesprávne zadaný e‑mail? Doména { $domain } neponúka e‑mailovú službu.
 
 ## Component - PaymentConfirmation
 
