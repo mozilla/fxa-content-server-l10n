@@ -347,6 +347,8 @@ postAddAccountRecovery-subject-3 = Mba’eñemi pyahu mba’ete guerujeyrã heñ
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Eñongatu mba’eñemi tenda hekorosãvape; eikotevẽta eguerujey hag̃ua mba’ekuaarã ipapapýva nderesaráirõ ñe’ẽñemígui.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Ko mba’eñemi eiporukuaa peteĩjeýnte. Eiporupa rire, rojapóta ipyahuetévava. Térã emoheñoikuaa ipyahúva ejapose vovénte ne mba’ete ñemboheko guive.
 postAddAccountRecovery-action = Mba’ete ñangareko
 postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
 postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
