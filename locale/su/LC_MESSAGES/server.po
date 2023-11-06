@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-06 20:08+0000\n"
 "PO-Revision-Date: 2021-11-15 14:26+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr ""
 
@@ -39,10 +39,6 @@ msgstr ""
 #: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "Tepas"
-
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/500.html:3
 msgid "500 Error"
@@ -99,6 +95,10 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Undeur panganyarna"
+
+#: server/templates/pages/src/update_firefox.html:6
+msgid "Firefox Accounts"
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/update_firefox.html:7
 msgid ""
