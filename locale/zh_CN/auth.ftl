@@ -144,7 +144,7 @@ automated-email-reset = 这是一封自动发送的邮件。若您并未授权�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 若您未进行更改，请立即到 { $resetLink } 重置密码
-brand-banner-message = 您知道我们已由 { -product-firefox-accounts } 更名为 { -product-mozilla-accounts } 吗？<a data-l10n-name="learnMore">详细了解</a>
+brand-banner-message = 您知道我们已由 { -product-firefox-accounts }更名为 { -product-mozilla-accounts }吗？<a data-l10n-name="learnMore">详细了解</a>
 cancellationSurvey = 请填写这份<a data-l10n-name="cancellationSurveyUrl">简短问卷</a> ，帮助我们改善服务质量。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 请填写这份简短问卷，帮助我们改善服务质量：
