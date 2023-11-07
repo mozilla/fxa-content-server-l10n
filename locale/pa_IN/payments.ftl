@@ -426,6 +426,7 @@ sub-item-no-such-plan = ਉਸ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਪਲਾਨ 
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-body-2 = ਇਸ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਲਈ, <linkExternal>ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</linkExternal>।
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.

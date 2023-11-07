@@ -852,16 +852,24 @@ tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂ�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = ਜਾਰੀ ਰੱਖਣ ਕੇ ਤੁਸੀਂ ਸਹਿਮਤ ਇਹਨਾਂ ਨਾਲ ਹੁੰਦੇ ਹੋ:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = ਜਾਰੀ ਰੱਖਣ ਕੇ ਤੁਸੀਂ ਸਹਿਮਤ ਇਹਨਾਂ ਨਾਲ ਹੁੰਦੇ ਹੋ:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } ਦੀਆਂ <pocketTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</pocketTos> ਅਤੇ <pocketPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket }  <pocketTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</pocketTos> ਅਤੇ <pocketPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</pocketPrivacy>
 # link to Firefox Monitor's Terms of Service and Privacy Notice
 terms-privacy-agreement-monitor = { -product-firefox-monitor } ਦੀਆਂ <monitorTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</monitorTos>
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } ਦੀਆਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</mozillaAccountsTos> ਅਤੇ <mozillaAccountsPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy> ਨਾਲ ਸਹਿਮਤ ਹੋ
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <mozillaAccountsTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</mozillaAccountsTos> ਅਤੇ <mozillaAccountsPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</mozillaAccountsPrivacy> ਨਾਲ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ।
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -879,6 +887,9 @@ auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
 auth-error-103 = ਗਲਤ ਪਾਸਵਰਡ
 auth-error-105-2 = ਗਲਤ ਤਸਦੀਕੀ ਕੋਡ
 auth-error-110 = ਗਲਤ ਟੋਕਨ
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = ਤੁਸੀਂ ਕਾਫੀ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -888,6 +899,7 @@ auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ �
 auth-error-138-2 = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਸ਼ੈਸ਼ਨ
 auth-error-139 = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਈਮੇਲ ਤੋਂ ਵੱਖਰੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
 auth-error-155 = TOTP ਟੋਕ ਨਹੀਂ ਲੱਭਿਆ
+auth-error-159 = ਗਲਤ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 auth-error-183-2 = ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ
 auth-error-999 = ਅਣਜਾਣ ਗਲਤੀ
 auth-error-1003 = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਹਾਲੇ ਵੀ ਅਸਮਰੱਥ ਹਨ
@@ -899,6 +911,7 @@ auth-error-1011 = ਢੁੱਕਵੀਂ ਈਮੇਲ ਚਾਹੀਦੀ ਹੈ
 
 cannot-create-account-header = ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
 cannot-create-account-requirements = ਤੁਹਾਨੂੰ { -product-firefox-account } ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
+cannot-create-account-requirements-2 = ਤੁਹਾਨੂੰ { -product-mozilla-account } ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = ਹੋਰ ਜਾਣੋ
 
@@ -933,6 +946,8 @@ connect-another-device-ios-complete-setup-message = ਸੈੱਟਅੱਪ ਨੂ
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਚਾਹੀਦੇ ਹਨ
+cookies-disabled-enable-prompt = { -product-firefox-accounts } ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕੁਕੀਜ਼ ਅਤੇ ਲੋਕਲ ਸਟੋਰੇਜ ਸਮਰੱਥ ਕਰੋ। ਅਜਿਹਾ ਕਰਨਾ ਕਾਰਜ-ਸਮਰੱਥਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾ ਦੇਵੇਗਾ ਜਿਵੇਂ ਕਿ ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣਾ।
+cookies-disabled-enable-prompt-2 = ਤੁਹਾਡੇ { -product-mozilla-account } ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕੁਕੀਜ਼ ਅਤੇ ਲੋਕਲ ਸਟੋਰੇਜ ਸਮਰੱਥ ਕਰੋ। ਅਜਿਹਾ ਕਰਨਾ ਕਾਰਜ-ਸਮਰੱਥਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾ ਦੇਵੇਗਾ ਜਿਵੇਂ ਕਿ ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣਾ।
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -942,6 +957,15 @@ cookies-disabled-learn-more = ਹੋਰ ਜਾਣੋ
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-setup-header = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਸੰਭਾਲੋ
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = ਜਦੋਂ ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤਣ ਲਈ ਇਹ ਇਕਹੇਰੀ ਵਰਤੋਂਯੋਗ ਕੋਡ ਨੂੰ ਸੁਰੱਖਿਆ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ।
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = ਰੱਦ ਕਰੋ
@@ -965,6 +989,8 @@ inline-recovery-confirmation-header = <span>{ $serviceName } ਨਾਲ ਜਾਰ
 
 inline-totp-setup-cancel-setup-button = ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ
 inline-totp-setup-continue-button = ਜਾਰੀ ਰੱਖੋ
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਿਕਤਾ ਸਮਰੱਥ ਕਰੋ
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ</span> ਰੱਖਣ ਲਈ ਦੋ-ਪੜਾਵੀ ਪਰਮਾਣੀਕਰਨ ਸਮਰੱਥ ਕਰੋ
 inline-totp-setup-ready-button = ਤਿਆਰ
@@ -976,6 +1002,10 @@ inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } ਨਾ�
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਸਕੈਨ ਕਰੋ
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ <span>ਕੋਡ ਖੁਦ ਭਰੋ</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = ਇਹ ਗੁਪਤ ਕੁੰਜੀ ਨੂੰ ਆਪਣੇ ਪਰਮਾਣੀਕਰਨ ਐਪ ਵਿੱਚ ਲਿਖੋ। <toggleToQRButton>ਇਸ ਦੀ ਜਬਾਏ QR ਕੋਡ ਸਕੈਨ ਕਰਨਾ ਹੈ?</toggleToQRButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 
