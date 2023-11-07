@@ -13,9 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步裝置">
 body-devices-image = <img data-l10n-name="devices-image" alt="裝置">
 fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
-moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } 隱私權公告
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隱私權公告
 fxa-service-url = { -product-firefox-cloud } 服務條款
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } 服務條款
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }服務條款
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 圖樣">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 標誌">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } 標誌">
@@ -59,12 +59,12 @@ subplat-reactivate = 重新啟用訂閱
 subplat-reactivate-plaintext = { subplat-reactivate }：
 subplat-update-billing = 更新帳務資訊
 subplat-privacy-policy = { -brand-mozilla } 隱私權保護政策
-subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } 隱私權公告
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隱私權公告
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }：
 subplat-cloud-terms = { -product-firefox-cloud } 服務條款
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
-subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } 服務條款
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") }服務條款
 subplat-moz-terms-plaintext = { subplat-moz-terms }：
 subplat-legal = 法律資訊
 subplat-legal-plaintext = { subplat-legal }：
