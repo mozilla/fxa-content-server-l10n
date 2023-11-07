@@ -644,7 +644,7 @@ verificationReminderSecond-title-3 = 不要错过 { -brand-mozilla }！
 verificationReminderSecond-description-3 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 10 天内完成验证，否则该账户将被自动删除。
 verificationReminderSecond-description-4 = 您几天前创建的 { -product-mozilla-account }还未完成确认。请在 10 天内确认您的账户，否则将被自动删除。
 verificationReminderSecond-second-description = 您的 { -product-firefox-account } 可以让您在不同设备之间同步信息，并解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
-verificationReminderSecond-second-description-3 = 您的 { -product-mozilla-account } 可让您跨设备同步 { -brand-firefox } 体验并可解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
+verificationReminderSecond-second-description-3 = 您的 { -product-mozilla-account }可让您跨设备同步 { -brand-firefox } 体验并可解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
 verificationReminderSecond-sub-description-2 = 让互联网成为对所有人开放的地方，是我们使命的一部分。
 verificationReminderSecond-action-2 = 验证账户
 verify-title-2 = 使用 { -brand-firefox } 打开互联网
@@ -683,7 +683,7 @@ verifySecondaryCode-action-2 = 验证电子邮箱
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer-2 = 已请求使用 { $email } 作为下列 { -product-mozilla-account } 的备用电子邮件地址：
+verifySecondaryCode-explainer-2 = 已请求使用 { $email } 作为下列 { -product-mozilla-account }的备用电子邮件地址：
 verifySecondaryCode-prompt-2 = 请使用此验证码：
 verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证完成后，此邮箱也将开始接收安全通知和验证邮件。
 # Variables:

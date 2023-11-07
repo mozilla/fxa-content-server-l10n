@@ -402,7 +402,7 @@ dc-learn-more = 详细了解
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } 菜单
-drop-down-menu-title-2 = { -product-mozilla-account } 菜单
+drop-down-menu-title-2 = { -product-mozilla-account }菜单
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -692,20 +692,6 @@ recent-activity-account-secondary-email-removed = 移除备用邮箱
 recent-activity-account-emails-swapped = 主邮箱与备用邮箱调换
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他账户活动
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = 取消
-recovery-key-close-button = 关闭
-recovery-key-continue-button = 继续
-recovery-key-created-1 = 您的账户恢复密钥已创建。请确保将密钥保存在安全的位置，以备日后可轻易找到。如果您忘记了密码，则需要使用此密钥来重新获得对数据的访问权限。
-recovery-key-enter-password =
-    .label = 请输入密码
-recovery-key-page-title-1 =
-    .title = 账户恢复密钥
-recovery-key-step-1 = 步骤（1 / 2）
-recovery-key-step-2 = 步骤（2 / 2）
-recovery-key-success-alert-3 = 已创建账户恢复密钥
 
 ## PageRecoveryKeyCreate
 
