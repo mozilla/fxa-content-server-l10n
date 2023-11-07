@@ -281,6 +281,28 @@ coupon-promo-code = ਪਰਚਾਰ ਕੋਡ
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } ਰੋਜ਼
+       *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ਰੋਜ਼
+           *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } ਹਫਤੇਵਾਰ
+       *[other] { $amount } ਹਰ { $intervalCount } ਹਫਤੇ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ਹਫਤੇਵਾਰ
+           *[other] { $amount } ਹਰ { $intervalCount } ਹਫਤੇ
+        }
 
 ## Error messages
 

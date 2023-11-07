@@ -258,6 +258,7 @@ downloadSubscription-subject = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
+downloadSubscription-content-2 = ਆਓ ਤੁਹਾਡੀ ਮੈਂਬਰ ਵਿੱਚ ਸ਼ਾਮਲ ਸਭ ਫੀਚਰਾਂ ਨੂੰ ਵਰਤਣਾ ਸ਼ੁਰੂ ਕਰੀਏ:
 downloadSubscription-link-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
 fraudulentAccountDeletion-subject = ਤੁਹਾਡਾ { -product-firefox-account } ਹਟਾਇਆ ਗਿਆ ਸੀ
 fraudulentAccountDeletion-subject-2 = ਤੁਹਾਡਾ { -product-mozilla-account } ਹਟਾਇਆ ਗਿਆ ਸੀ

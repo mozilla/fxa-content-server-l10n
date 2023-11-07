@@ -794,6 +794,9 @@ rk-refresh-key-1 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਾਜ਼ਾ 
 rk-content-explain = ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਵੋ ਤਾਂ ਆਪਣੀ ਜਾਣਕਾਰੀ ਬਹਾਲ ਕਰੋ।
 rk-cannot-verify-session-4 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 rk-remove-modal-heading-1 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਉਣੀ ਹੈ?
+rk-remove-error-2 = ਤੁਹਾਡੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ ਹੈ
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਓ
 
 ## Secondary email sub-section on main Settings page
 
@@ -851,6 +854,10 @@ tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂ�
 terms-privacy-agreement-intro = ਜਾਰੀ ਰੱਖਣ ਕੇ ਤੁਸੀਂ ਸਹਿਮਤ ਇਹਨਾਂ ਨਾਲ ਹੁੰਦੇ ਹੋ:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } ਦੀਆਂ <pocketTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</pocketTos> ਅਤੇ <pocketPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor } ਦੀਆਂ <monitorTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } ਦੀਆਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
