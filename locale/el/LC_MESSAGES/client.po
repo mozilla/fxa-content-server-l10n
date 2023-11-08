@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-11-02 11:26+0000\n"
+"PO-Revision-Date: 2023-11-08 20:18+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1047,7 +1047,7 @@ msgstr "Εισαγάγετε τον κωδικό επαλήθευσης που �
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr "Εισαγάγετε τον 6-ψήφιο κωδικό"
+msgstr "Εισαγάγετε τον εξαψήφιο κωδικό"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
@@ -1121,7 +1121,7 @@ msgstr "Συνδεθείτε στο Firefox για iOS για ολοκλήρωσ
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "Εισαγάγετε τον κωδικό πρόσβασής σας <span class=\"card-subheader\" id=\"subheader\">για τον λογαριασμό Mozilla σας</span>"
+msgstr "Εισαγάγετε τον κωδικό πρόσβασης <span class=\"card-subheader\" id=\"subheader\">του λογαριασμού Mozilla σας</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1170,7 +1170,7 @@ msgstr "Ξεχάσατε τον κωδικό πρόσβασής σας;"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr "Εισαγάγετε τον κωδικό πρόσβασής σας <span class=\"card-subheader\" id=\"subheader\">για τον λογαριασμό Firefox σας</span>"
+msgstr "Εισαγάγετε τον κωδικό πρόσβασης <span class=\"card-subheader\" id=\"subheader\">του λογαριασμού Firefox σας</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
