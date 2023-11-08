@@ -192,7 +192,7 @@ hearts-verified-image-aria-label =
 signin-recovery-code-image-description =
     .aria-label = Έγγραφο που περιέχει κρυφό κείμενο.
 signin-totp-code-image-label =
-    .aria-label = Μια συσκευή με κρυφό 6ψήφιο κωδικό.
+    .aria-label = Μια συσκευή με κρυφό εξαψήφιο κωδικό.
 confirm-signup-aria-label =
     .aria-label = Ένας φάκελος που περιέχει έναν σύνδεσμο
 # Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
@@ -271,7 +271,7 @@ password-strength-balloon-heading = Απαιτήσεις κωδικού πρόσ
 password-strength-balloon-min-length = Τουλάχιστον 8 χαρακτήρες
 password-strength-balloon-not-email = Όχι τη διεύθυνση email σας
 password-strength-balloon-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασης
-password-strength-balloon-stay-safe-tips = Μείνετε ασφαλείς — μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <LinkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</LinkExternal>.
+password-strength-balloon-stay-safe-tips = Για την προστασία σας, μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <LinkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</LinkExternal>.
 
 ## Ready component
 
@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Η εφαρμογή πελάτη δεν βρέθηκε, δεν είναι δυνατή η αποσύνδεση
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Έγινε αποσύνδεση από το { $service }
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -444,7 +444,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Δημιουργία ν
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε — Κάντε λήψη και αποθήκευσή του τώρα
+flow-recovery-key-download-heading-v2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε. Κάντε λήψη και αποθήκευσή του τώρα
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info-v2 = Αυτό το κλειδί σάς επιτρέπει να ανακτήσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας. Αποθηκεύστε το κάπου που θα θυμάστε. Δεν θα μπορείτε να επιστρέψετε σε αυτήν τη σελίδα αργότερα.
 # This link allows user to proceed to the next step without clicking the download button
@@ -553,7 +553,7 @@ tfa-replace-code-error-3 = Προέκυψε πρόβλημα κατά την α�
 tfa-create-code-error = Προέκυψε πρόβλημα κατά τη δημιουργία των εφεδρικών κωδικών ταυτοποίησής σας
 tfa-replace-code-success-1 =
     Δημιουργήθηκαν νέοι κωδικοί. Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης
-    μιας χρήσης σε ένα ασφαλές μέρος — όπου θα έχετε πρόσβαση σε περίπτωση που δεν
+    μιας χρήσης σε ένα ασφαλές μέρος, όπου θα έχετε πρόσβαση σε περίπτωση που δεν
     έχετε την κινητή συσκευή σας.
 tfa-replace-code-success-alert-3 = Ενημερώθηκαν οι εφεδρικοί κωδικοί ταυτοποίησης
 tfa-replace-code-1-2 = Βήμα 1 από 2
@@ -601,7 +601,7 @@ pw-not-email = Όχι τη διεύθυνση email σας
 pw-change-must-match = Ο νέος κωδικός πρόσβασης αντιστοιχεί στην επιβεβαίωση
 pw-commonly-used = Όχι κάποιο συνήθη κωδικό πρόσβασής σας
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-tips = Μείνετε ασφαλείς — μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <linkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</linkExternal>.
+pw-tips = Για την προστασία σας, μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <linkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</linkExternal>.
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
@@ -709,20 +709,6 @@ recent-activity-account-secondary-email-removed = Αφαιρέθηκε δευτ�
 recent-activity-account-emails-swapped = Έγινε εναλλαγή του κύριου email με το δευτερεύον
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Άλλη δραστηριότητα λογαριασμού
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Ακύρωση
-recovery-key-close-button = Κλείσιμο
-recovery-key-continue-button = Συνέχεια
-recovery-key-created-1 = Δημιουργήθηκε το κλειδί ανάκτησης λογαριασμού σας. Αποθηκεύστε αυτό το κλειδί σε ασφαλές μέρος όπου θα έχετε εύκολη πρόσβαση αργότερα — χρειάζεστε αυτό το κλειδί για πρόσβαση στα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
-recovery-key-enter-password =
-    .label = Εισαγωγή κωδικού πρόσβασης
-recovery-key-page-title-1 =
-    .title = Κλειδί ανάκτησης λογαριασμού
-recovery-key-step-1 = Βημα 1 απο 2
-recovery-key-step-2 = Βημα 2 απο 2
-recovery-key-success-alert-3 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 
 ## PageRecoveryKeyCreate
 
@@ -920,8 +906,8 @@ se-resend-code-2 =
 se-make-primary = Ορισμός ως κύριο
 se-default-content = Αποκτήστε πρόσβαση στον λογαριασμό σας εάν δεν μπορείτε να συνδεθείτε στο κύριο email σας.
 se-content-note-1 =
-    Σημείωση: ένα δευτερεύον email δεν θα ανακτήσει τα δεδομένα σας — 
-    θα χρειαστείτε ένα <a>κλειδί ανάκτησης λογαριασμού</a> για αυτό.
+    Σημείωση: ένα δευτερεύον email δεν θα ανακτήσει τα δεδομένα σας. Για τον
+    σκοπό αυτό, θα χρειαστείτε ένα <a>κλειδί ανάκτησης λογαριασμού</a>.
 # Default value for the secondary email
 se-secondary-email-none = Κανένα
 
@@ -1070,7 +1056,7 @@ cookies-disabled-learn-more = Μάθετε περισσότερα
 inline-recovery-setup-header-default = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Αποθηκεύστε τους εφεδρικούς κωδικούς ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Αποθηκεύστε αυτούς τους κωδικούς μίας χρήσης σε ένα ασφαλές μέρος για την περίπτωση που δεν θα έχετε την κινητή συσκευή σας.
@@ -1090,7 +1076,7 @@ inline-recovery-confirmation-description = Για να διασφαλίσετε 
 inline-recovery-confirmation-header-default = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 
 ## InlineTotpSetup page
@@ -1175,7 +1161,7 @@ auth-totp-heading-w-default-service = Εισαγάγετε τον κωδικό �
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 auth-totp-instruction = Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ταυτοποίησης που σας παρέχει.
-auth-totp-input-label = Εισαγάγετε τον 6-ψήφιο κωδικό
+auth-totp-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Επιβεβαίωση
 # Error displayed in a tooltip when the form is submitted without a code
@@ -1401,7 +1387,7 @@ signin-token-code-heading = Εισαγάγετε τον κωδικό επιβε�
 signin-token-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email } εντός 5 λεπτών.
-signin-token-code-input-label-v2 = Εισαγάγετε τον 6-ψήφιο κωδικό
+signin-token-code-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Επιβεβαίωση
 signin-token-code-code-expired = Έληξε ο κωδικός;
@@ -1422,7 +1408,7 @@ signin-totp-code-heading-w-default-service-v2 = Εισαγάγετε τον κω
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 signin-totp-code-instruction-v2 = Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ταυτοποίησης που σας παρέχει.
-signin-totp-code-input-label-v2 = Εισαγάγετε τον 6-ψήφιο κωδικό
+signin-totp-code-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση
 signin-totp-code-other-account-link = Χρήση διαφορετικού λογαριασμού
@@ -1456,7 +1442,7 @@ confirm-signup-code-heading = Εισαγάγετε τον κωδικό επιβ�
 confirm-signup-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email }, εντός 5 λεπτών.
-confirm-signup-code-input-label = Εισαγάγετε τον 6-ψήφιο κωδικό
+confirm-signup-code-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Επιβεβαίωση
 confirm-signup-code-code-expired = Έληξε ο κωδικός;

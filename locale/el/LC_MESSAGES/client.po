@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 20:06+0000\n"
-"PO-Revision-Date: 2023-11-08 20:18+0000\n"
+"PO-Revision-Date: 2023-11-08 20:33+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -2017,7 +2017,7 @@ msgstr "Συνέχεια με Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr "Συνδεθείτε μόλις τώρα στο Firefox;"
+msgstr "Συνδεθήκατε μόλις στο Firefox;"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
