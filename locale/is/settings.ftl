@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Biðlaraforrit fannst ekki, get ekki aftengst
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Skráð út af { $service }
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Aftengjast frá Sync-samstillingu
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -705,20 +705,6 @@ recent-activity-account-emails-swapped = Skipt var um aðal- og aukatölvupóstf
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Önnur virkni á reikningi
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Hætta við
-recovery-key-close-button = Loka
-recovery-key-continue-button = Halda áfram
-recovery-key-created-1 = Endurheimtulykillinn fyrir reikninginn þinn hefur verið útbúinn. Gakktu úr skugga um að lykilinn sé vistaður á öruggum stað sem þú getur auðveldlega fundið síðar - þú munt þurfa lykilinn til að fá aftur aðgang að gögnunum þínum ef þú gleymir lykilorðinu þínu.
-recovery-key-enter-password =
-    .label = Settu inn lykilorð
-recovery-key-page-title-1 =
-    .title = Endurheimtulykill reiknings
-recovery-key-step-1 = Skref 1 af 2
-recovery-key-step-2 = Skref 2 af 2
-recovery-key-success-alert-3 = Endurheimtulykill reiknings útbúinn
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -958,6 +944,10 @@ terms-privacy-agreement-intro-2 = Með því að halda áfram, samþykkir þú:
 terms-privacy-agreement-pocket = <pocketTos>Þjónustuskilmálar</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefna</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Þjónustuskilmála</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefnu</pocketPrivacy> { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Þjónustuskilmálar og persónuverndarstefna</monitorTos> { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Þjónustuskilmálar og persónuverndarstefna</monitorTos> { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Þjónustuskilmálar</firefoxTos> { -brand-firefox } og <firefoxPrivacy>persónuverndarstefna</firefoxPrivacy>.
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1058,7 +1048,7 @@ cookies-disabled-learn-more = Frekari upplýsingar
 inline-recovery-setup-header-default = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í stillingar reikningsins</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Vistaðu öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Geymdu þessa einnota kóða á öruggum stað til að geta notað þá þegar þú ert ekki með snjalltækið þitt við hendina.
@@ -1078,7 +1068,7 @@ inline-recovery-confirmation-description = Til að tryggja að þú getir endurh
 inline-recovery-confirmation-header-default = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í stillingar reikningsins</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
 
 ## InlineTotpSetup page

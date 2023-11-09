@@ -13,6 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Samstilla tæki">
 body-devices-image = <img data-l10n-name="devices-image" alt="Tæki">
 fxa-privacy-url = Persónuverndarstefna { -brand-mozilla }
+moz-accounts-privacy-url-2 = Persónuverndarstefna { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Þjónustuskilmálar { -product-firefox-cloud }
 moz-accounts-terms-url = Þjónustuskilmálar { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } merki">
@@ -58,6 +59,7 @@ subplat-reactivate = Endurvirkja áskrift
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Uppfæra greiðsluupplýsingar
 subplat-privacy-policy = Persónuverndarstefna { -brand-mozilla }
+subplat-privacy-policy-2 = Persónuverndarstefna { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Þjónustuskilmálar { -product-firefox-cloud }
