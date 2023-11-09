@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 "PO-Revision-Date: 2014-09-03 08:41+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2011,7 +2011,7 @@ msgid "Manage devices"
 msgstr ""
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small>from your other device</small>"
+msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
 msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1

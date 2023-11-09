@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 "PO-Revision-Date: 2023-10-24 02:00+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2067,8 +2067,8 @@ msgid "Manage devices"
 msgstr "Quản lý thiết bị"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small>from your other device</small>"
-msgstr "Hiện tại cần chấp nhận <small>từ thiết bị khác của bạn</small>"
+msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
+msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"

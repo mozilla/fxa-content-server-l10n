@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -2321,7 +2321,9 @@ msgstr ""
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1
 #: .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small>from your other device</small>"
+msgid ""
+"Approval now required <small class=\"card-subheader\">from your other "
+"device</small>"
 msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1

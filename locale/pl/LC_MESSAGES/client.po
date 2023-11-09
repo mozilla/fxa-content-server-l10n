@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 "PO-Revision-Date: 2023-10-15 17:43+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -2050,8 +2050,8 @@ msgid "Manage devices"
 msgstr "Zarządzaj urządzeniami"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small>from your other device</small>"
-msgstr "Teraz wymagane jest zatwierdzenie <small>z innego używanego urządzenia</small>"
+msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
+msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
