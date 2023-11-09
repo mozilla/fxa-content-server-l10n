@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 "PO-Revision-Date: 2023-10-21 06:57+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -2060,8 +2060,8 @@ msgid "Manage devices"
 msgstr "Hantera enheter"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small>from your other device</small>"
-msgstr "Godkännande krävs nu <small>från din andra enhet</small>"
+msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
+msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 "PO-Revision-Date: 2023-10-15 17:34+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr ""
 
@@ -38,10 +38,6 @@ msgstr ""
 #: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "Strona domowa"
-
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Konta Firefoksa"
 
 #: server/templates/pages/src/500.html:3
 msgid "500 Error"
@@ -100,6 +96,10 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Pobierz najnowszą wersję"
+
+#: server/templates/pages/src/update_firefox.html:6
+msgid "Firefox Accounts"
+msgstr "Konta Firefoksa"
 
 #: server/templates/pages/src/update_firefox.html:7
 msgid ""

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 "PO-Revision-Date: 2023-10-28 05:17+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444993321.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr "Mozilla 帳號"
 
@@ -37,10 +37,6 @@ msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查
 #: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
 msgstr "首頁"
-
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Firefox 帳號"
 
 #: server/templates/pages/src/500.html:3
 msgid "500 Error"
@@ -97,6 +93,10 @@ msgstr "Mozilla 帳號使用了您的 Firefox 版本尚不支援的功能。請�
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "下載最新版本"
+
+#: server/templates/pages/src/update_firefox.html:6
+msgid "Firefox Accounts"
+msgstr "Firefox 帳號"
 
 #: server/templates/pages/src/update_firefox.html:7
 msgid ""

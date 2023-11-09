@@ -264,27 +264,6 @@ device-all = { $uaBrowser } on { $uaOS } { $uaOSVersion }
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } on { $uaOS }
 
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP address: { $ip }
-
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (estimated)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (estimated)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (estimated)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (estimated)
-
 view-invoice = <a data-l10n-name="invoiceLink">View your invoice</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -378,7 +357,7 @@ passwordReset-description = You will need to enter your new password on other de
 
 passwordResetAccountRecovery-subject-2 = Your password has been reset
 passwordResetAccountRecovery-title-2 = Password reset successfully
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = You used your account recovery key to update your password from:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Create a new account recovery key
@@ -489,11 +468,9 @@ postVerifySecondary-action = Manage account
 
 recovery-subject = Reset your password
 recovery-title-2 = Forgot your password?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = We received a request for a password change on your { -product-firefox-account } from:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = We received a request for a password change on your { -product-mozilla-account } from:
 recovery-new-password-button = Create a new password by clicking the button below. This link will expire within the next hour.
 recovery-copy-paste = Create a new password by copying and pasting the URL below into your browser. This link will expire within the next hour.

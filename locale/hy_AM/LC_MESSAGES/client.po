@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 20:06+0000\n"
+"POT-Creation-Date: 2023-11-09 20:09+0000\n"
 "PO-Revision-Date: 2022-04-27 00:21+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2016,8 +2016,8 @@ msgid "Manage devices"
 msgstr "Կառավարել սարքերը"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small>from your other device</small>"
-msgstr "Այս հաստատումը պահանջում է <small> ձեր մյուս սարքից </small>"
+msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
+msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
