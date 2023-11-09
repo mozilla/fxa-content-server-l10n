@@ -136,6 +136,7 @@ payment-confirmation-download-button = Halda áfram í niðurhal
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra tilgreinda upphæð af greiðslumátanum mínum, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+payment-confirm-with-legal-links-static-2 = Ég heimila hér með { -brand-name-mozilla } að millifæra tilgreinda upphæð af greiðslumátanum mínum, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
 payment-confirm-checkbox-error = Þú þarft að ljúka þessu áður en þú heldur áfram
 
 ## Component - PaymentErrorView
