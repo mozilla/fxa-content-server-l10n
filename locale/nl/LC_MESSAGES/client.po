@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-10-23 17:29+0000\n"
-"Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
+"PO-Revision-Date: 2023-11-10 09:28+0000\n"
+"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -832,9 +832,7 @@ msgid "Invalid Token"
 msgstr "Ongeldige token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyverklaring</a> van "
 "%(serviceName)s (%(serviceUri)s)."
@@ -903,8 +901,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Voer de accountherstelsleutel voor eenmalig gebruik die u op een veilige plek hebt opgeslagen in om weer toegang tot uw Mozilla-account te krijgen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOOT:</span> als u uw wachtwoord opnieuw instelt en geen sleutel voor accountherstel hebt opgeslagen, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde "
 "servergegevens zoals geschiedenis en bladwijzers)."
@@ -1130,15 +1127,13 @@ msgstr "Wachtwoord"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Als u doorgaat, stemt u in met:<br />\n"
-"            De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacyverklaring</a> van Pocket<br />\n"
+"            De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacyverklaring</a> van Pocket<br />\n"
 "            De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox\n"
 "          "
 
@@ -1153,17 +1148,13 @@ msgstr ""
 "\n"
 "              Als u doorgaat, stemt u in met:<br />\n"
 "              De <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Servicevoorwaarden en privacyverklaring</a><br />van Firefox Monitor\n"
-"              De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van "
-"Firefox\n"
+"              De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Door verder te gaan, gaat u akkoord met de <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
-"privacy\">Privacyverklaring</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Door verder te gaan, gaat u akkoord met de <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1205,17 +1196,14 @@ msgstr "Een Mozilla-account ontgrendelt ook de toegang tot meer privacybescherme
 msgid ""
 "\n"
 "          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Als u doorgaat, stemt u in met:<br />\n"
-"          De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacyverklaring</a> van Pocket<br />\n"
-"          De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Mozilla-"
-"accounts\n"
+"          De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacyverklaring</a> van Pocket<br />\n"
+"          De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Mozilla-accounts\n"
 "        "
 
 #: .es5/templates/index.mustache:16
@@ -1229,8 +1217,7 @@ msgstr ""
 "\n"
 "            Als u doorgaat, stemt u in met:<br />\n"
 "            De <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Servicevoorwaarden en Privacyverklaring</a> van Firefox Monitor<br />\n"
-"            De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Mozilla-"
-"accounts\n"
+"            De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Mozilla-accounts\n"
 "          "
 
 #: .es5/templates/index.mustache:19
@@ -1245,14 +1232,12 @@ msgstr "Een Firefox-account ontgrendelt ook de toegang tot meer privacybescherme
 msgid ""
 "\n"
 "  By proceeding, you agree to:<br />\n"
-"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 "\n"
 "  Als u doorgaat, stemt u in met:<br />\n"
-"  De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacyverklaring</a> van Pocket<br />\n"
+"  De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacyverklaring</a> van Pocket<br />\n"
 "  De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox"
 
 #: .es5/templates/index.mustache:22
@@ -2070,7 +2055,7 @@ msgstr "Apparaten beheren"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "Goedkeuring <small class=\"card-subheader\">vanaf uw andere apparaat</small> nu vereist"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
@@ -2101,11 +2086,8 @@ msgid "Or download"
 msgstr "Of downloaden"
 
 #: .es5/templates/pair/index.mustache:7
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
-"Scan om Firefox voor mobiel te downloaden, of stuur uzelf een <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
-"blue\">downloadkoppeling.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr "Scan om Firefox voor mobiel te downloaden, of stuur uzelf een <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">downloadkoppeling.</a>"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "QR code"
