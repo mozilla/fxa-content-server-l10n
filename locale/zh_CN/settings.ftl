@@ -1374,7 +1374,7 @@ signin-totp-code-heading-w-default-service-v2 = 输入验证码以<span>继续�
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = 输入验证码以<span>继续使用 { $serviceName }</span>
+signin-totp-code-heading-w-custom-service-v2 = 输入验证码<span>以继续使用 { $serviceName }</span>
 signin-totp-code-instruction-v2 = 请打开您的身份验证应用，并输入其提供的验证码。
 signin-totp-code-input-label-v2 = 请输入 6 位验证码
 # Form button to confirm if the authentication code entered by the user is valid
