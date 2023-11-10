@@ -125,6 +125,8 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Este pedido teve orige
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Este pedido teve origem em { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Se não foi você, <a data-l10n-name="revokeAccountRecoveryLink">elimine a nova chave</a> e <a data-l10n-name="passwordChangeLink">altere a sua palavra-passe</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Este pedido veio de:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Se não foi você, elimine a nova chave:
 # Colon is followed by a URL to the change password section of account settings
@@ -228,25 +230,6 @@ device-all = { $uaBrowser } no { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } no { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Endereço de IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (estimado)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (estimado)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (estimado)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (estimado)
 view-invoice = <a data-l10n-name="invoiceLink">Ver a sua fatura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -258,6 +241,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = São necessários dois para sincronizar
 cadReminderFirst-description-1 = Utilize os seus separadores em todos os seus dispositivos. Obtenha os seus marcadores, palavras-passe e outros dados, onde quer que utilize o { -brand-firefox }. É como ter magia na sua conta { -brand-firefox }!
+cadReminderFirst-description-v2 = Utilize os seus separadores em todos os seus dispositivos. Obtenha os seus marcadores, palavras-passe e outros dados onde quer que utilize o { -brand-firefox }.
 cadReminderSecond-subject-2 = Não perca nada! Vamos terminar a sua configuração da sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title-2 = Não se esqueça de sincronizar!
@@ -315,6 +299,7 @@ passwordChangeRequired-title = Alteração de palavra-passe necessária
 passwordChangeRequired-suspicious-activity = Nós detetámos um comportamento suspeito na sua { -product-firefox-account }. Para impedir acessos não autorizados na sua { -product-firefox-account }, nós desassociamos todos os dispositivos da sua conta e como precaução solicitamos-lhe que altere a sua palavra-passe.
 passwordChangeRequired-suspicious-activity-2 = Nós detetámos um comportamento suspeito na sua { -product-mozilla-account }. Para impedir acessos não autorizados na sua { -product-mozilla-account }, nós desassociamos todos os dispositivos da sua conta e como precaução solicitamos-lhe que altere a sua palavra-passe.
 passwordChangeRequired-sign-in = Inicie sessão novamente em qualquer dispositivo em que utiliza a sua { -product-firefox-account } e siga os procedimentos que lhe serão indicados.
+passwordChangeRequired-sign-in-2 = Inicie novamente a sessão em qualquer dispositivo ou serviço em que utiliza a sua { -product-mozilla-account } e siga os passos que lhe serão apresentados.
 passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
 passwordChangeRequired-different-password-plaintext = Importante: Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
 passwordReset-subject = Palavra-passe atualizada
@@ -322,7 +307,7 @@ passwordReset-title = A sua palavra-passe da conta foi alterada
 passwordReset-description = Terá de inserir a sua nova palavra-passe nos outros dispositivos para retomar a sincronização.
 passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
 passwordResetAccountRecovery-title-2 = Palavra-passe redefinida com sucesso
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Utilizou a sua chave de recuperação da conta para atualizar a sua palavra-passe de:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Criar uma nova chave de recuperação da conta
@@ -333,6 +318,8 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Terá de iniciar a sessão 
 passwordResetAccountRecovery-regen-required-txt-1 = Terá de iniciar a sessão novamente em todos os seus dispositivos sincronizados. Lembre-se de criar uma nova chave de recuperação da conta para substituir a que utilizou:
 postAddAccountRecovery-subject-3 = Nova chave de recuperação da conta criada
 postAddAccountRecovery-title2 = Criou uma nova chave de recuperação da conta
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Esta chave só pode ser utilizada uma vez. Depois de a utilizar, nós criaremos automaticamente uma nova para si. Ou pode criar uma nova a qualquer momento nas suas definições da conta.
 postAddAccountRecovery-action = Gerir conta
 postAddLinkedAccount-subject = Nova conta associada ao { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nova conta associada à sua { -product-mozilla-account }
@@ -380,12 +367,16 @@ postNewRecoveryCodes-action = Gerir conta
 postRemoveAccountRecovery-subject-2 = Chave de recuperação da conta eliminada
 postRemoveAccountRecovery-title-3 = Eliminou a sua chave de recuperação da conta
 postRemoveAccountRecovery-body-part1 = Se esquecer a sua palavra-passe, é necessária a chave de recuperação da conta para restaurar os seus dados de navegação encriptados.
+postRemoveAccountRecovery-body-part2 = Se ainda não o fez, crie uma nova chave de recuperação da conta nas suas definições da conta para evitar a perda das palavras-passe guardadas, marcadores, histórico de navegação e muito mais.
 postRemoveAccountRecovery-action = Gerir conta
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Removeu com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão não serão mais entregues neste endereço.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Removeu com sucesso { $secondaryEmail } como um e-mail secundário da sua { -product-mozilla-account }. As notificações de segurança e as confirmações de início de sessão já não serão enviadas para este endereço.
 postRemoveSecondary-action = Gerir conta
 postRemoveTwoStepAuthentication-subject-line-2 = Autenticação de dois passos está desativada
 postRemoveTwoStepAuthentication-title-2 = Desativou a autenticação de dois passos
@@ -411,11 +402,9 @@ postVerifySecondary-content-3 = Confirmou { $secondaryEmail } com sucesso, como 
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title-2 = Esqueceu-se da sua palavra-passe?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-firefox-account } de:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:
 recovery-new-password-button = Crie uma nova palavra-passe clicando no botão abaixo. Esta ligação irá expirar daqui a uma hora.
 recovery-copy-paste = Crie uma nova palavra-passe copiando e colando o endereço abaixo no seu navegador. Esta ligação irá expirar daqui a uma hora.
