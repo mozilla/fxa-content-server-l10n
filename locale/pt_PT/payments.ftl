@@ -63,11 +63,13 @@ input-error-is-required = { $label } é necessário
 
 # TODO: Remove once new branding sticks
 brand-name-firefox-logo = Logótipo de { -brand-name-firefox }
+brand-name-mozilla-logo = Logótipo da { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 # TODO: Remove once new branding sticks
 new-user-sign-in-link = Já tem uma conta { -brand-name-firefox }? <a>Inicie sessão</a>
+new-user-sign-in-link-2 = Já tem uma { -product-mozilla-account }? <a>Iniciar sessão</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -75,6 +77,10 @@ new-user-enter-email =
     .label = Insira o seu e-mail
 new-user-confirm-email =
     .label = Confirme o seu e-mail
+new-user-subscribe-product-updates-mozilla = Eu gostaria de receber notícias e atualizações de produtos da { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Eu gostaria de receber notícias e atualizações sobre segurança e privacidade da { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Eu gostaria de receber notícias e atualizações de produtos da { -product-mozilla-hubs } e da { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Eu gostaria de receber notícias e atualizações de produtos do { -product-mdn-plus } e da { -brand-mozilla }
 new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
 new-user-email-validate = O e-mail não é válido
 new-user-email-validate-confirm = Os e-mails não coincidem
@@ -142,6 +148,10 @@ payment-error-manage-subscription-button = Gerir a minha subscrição
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Já tem uma subscrição do(a) { $productName } através das lojas de aplicações da { -brand-name-google } ou da { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Não suportamos atualizações para estas subscrições, mas iremos suportar em breve.
+iap-upgrade-contact-support = Pode ainda obter este produto — por favor, contacte o suporte para que possamos ajudar.
 iap-upgrade-get-help-button = Obter ajuda
 
 ## Component - PaymentForm
@@ -171,6 +181,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>política de privacidade do { -
 payment-method-header = Escolha o seu método de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Primeiro, precisa de aprovar a sua subscrição
 
 ## Component - PaymentProcessing
 
@@ -257,6 +268,39 @@ price-details-tax-day =
         { $intervalCount ->
             [one] { $priceAmount } + { $taxAmount } imposto diariamente
            *[other] { $priceAmount } + { $taxAmount } imposto a cada { $intervalCount } dias
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } impostos semanais
+       *[other] { $priceAmount } + impostos { $taxAmount } a cada { $intervalCount } semana
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } impostos semanais
+           *[other] { $priceAmount } + impostos { $taxAmount } a cada { $intervalCount } semana
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } impostos mensais
+       *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } mês
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } impostos mensais
+           *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } mês
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } impostos por ano
+       *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } anos
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } impostos por ano
+           *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } anos
         }
 
 ## Component - SubscriptionTitle
@@ -380,6 +424,7 @@ coupon-success-repeating = O seu plano será renovado automaticamente depois de 
 
 # TODO - Remove once branding sticks
 new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
+new-user-step-1-2 = 1. Crie uma { -product-mozilla-account }
 new-user-card-title = Introduza a informação do seu cartão
 new-user-submit = Subscrever agora
 
@@ -417,12 +462,17 @@ sub-change-submit = Confirmar alteração
 sub-update-current-plan-label = Plano atual
 sub-update-new-plan-label = Novo plano
 sub-update-total-label = Novo total
+sub-update-prorated-upgrade = Atualização proporcional
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (diariamente)
+sub-update-new-plan-weekly = { $productName } (Semanalmente)
+sub-update-new-plan-monthly = { $productName } (mensal)
+sub-update-new-plan-yearly = { $productName } (anualmente)
 
 ##
 
