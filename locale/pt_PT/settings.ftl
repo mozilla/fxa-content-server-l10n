@@ -371,6 +371,9 @@ flow-recovery-key-download-next-link-v2 = Continuar sem transferir
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar a sua chave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Esta dica deveria ajudar a lembrar onde guardou a sua chave de recuperação da conta. Nós podemos mostrar a mesma durante a redefinição da palavra-passe para recuperar os seus dados.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -378,6 +381,12 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Terminar
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 carateres.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = A dica não pode conter carateres Unicode inseguros. É permitido apenas letras, números, sinais de pontuação e símbolos.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -393,16 +402,19 @@ header-menu-closed = Menu de navegação do site
 header-back-to-top-link =
     .title = Ir para o topo
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Ajuda
 
 ## Linked Accounts section
 
-la-heading = Contas ligadas
+la-heading = Contas associadas
 la-description = Autorizou o acesso às seguintes contas.
-la-unlink-button = Dissociar
-la-unlink-account-button = Dissociar
-la-unlink-heading = Dissociar de uma conta de terceiros
+la-unlink-button = Desassociar
+la-unlink-account-button = Desassociar
+la-set-password-button = Definir palavra-passe
+la-unlink-heading = Desassociar de uma conta de terceiros
 la-unlink-content-3 = Tem certeza que deseja desassociar a sua conta? Desassociar a sua conta não termina sessão automaticamente dos seus Serviços Associados. Para fazer isto precisará de terminar sessão manualmente da secção Serviços Associados.
+la-unlink-content-4 = Antes de desassociar a sua conta, deve definir uma palavra-passe. Sem a mesma, não tem como iniciar a sessão depois de desassociar a sua conta.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -415,6 +427,10 @@ modal-default-confirm-button = Confirmar
 
 mvs-verify-your-email-2 = Confirmar o seu endereço de correio eletrónico
 mvs-enter-verification-code-2 = Introduza o seu código de confirmação
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Por favor, insira o código de confirmação que foi enviado para <email>{ $email }</email> dentro de 5 minutos.
 msv-cancel-button = Cancelar
 msv-submit-button-2 = Confirmar
 
@@ -553,6 +569,8 @@ display-name-success-alert-2 = Nome de apresentação atualizado
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Atividade Recente da Conta
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Outra atividade da conta
 
 ## PageRecoveryKeyCreate
 
@@ -700,7 +718,10 @@ rk-refresh-key-1 = Recarregar chave de recuperação da conta
 rk-content-explain = Restaurar os seus dados quando se esquecer da sua palavra-passe.
 rk-cannot-verify-session-4 = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
 rk-remove-modal-heading-1 = Remover a chave de recuperação da conta?
-rk-remove-error-2 = Não foi possível remover a sua chave de recuperação de conta
+rk-remove-modal-content-1 =
+    Na eventualidade de redefinir a sua palavra-passe, não conseguirá
+    utilizar a sua chave de recuperação para aceder aos seus dados. Não pode anular esta ação.
+rk-remove-error-2 = Não foi possível remover a sua chave de recuperação da conta
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Eliminar a chave de recuperação da conta
 
@@ -730,6 +751,9 @@ se-unverified-2 = não confirmado
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Aceda à sua conta se não conseguir iniciar sessão no seu e-mail principal.
+se-content-note-1 =
+    Nota: um e-mail secundário não irá restaurar os seus dados — irá 
+    precisar de uma <a>chave de recuperação</a> para isso.
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
 
@@ -765,10 +789,20 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 terms-privacy-agreement-intro = Ao prosseguir, concorda com:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Termos do Serviço</pocketTos> e <pocketPrivacy>Informação de Privacidade</pocketPrivacy> do { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Termos do Serviço</pocketTos> e <pocketPrivacy>Informação de Privacidade</pocketPrivacy> do { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Termos do Serviço e Informação de Privacidade</monitorTos> do { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Termos do Serviço e Informação de Privacidade</monitorTos> do { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Termos do Serviço</firefoxTos> e <firefoxPrivacy>Informação de Privacidade</firefoxPrivacy> do { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Termos do Serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Informação de Privacidade</mozillaAccountsPrivacy> das { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Ao continuar, concorda com os <firefoxTos>Termos do Serviço</firefoxTos> e com a <firefoxPrivacy>Informação de Privacidade</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Ao continuar, concorda com os <mozillaAccountsTos>Termos do Serviço</mozillaAccountsTos> e com a <mozillaAccountsPrivacy>Informação de Privacidade</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -808,6 +842,8 @@ auth-error-1011 = É necessário um e-mail válido
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Não é possível criar a conta
+cannot-create-account-requirements = Deve cumprir com determinados requisitos de idade para poder criar uma { -product-firefox-account }.
+cannot-create-account-requirements-2 = Deve cumprir com determinados requisitos de idade para poder criar uma { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Saber mais
 
@@ -845,6 +881,9 @@ cookies-disabled-learn-more = Saber mais
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Confirme o código de autenticação da cópia de segurança <span>para continuar para as definições da conta</span>
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Cancelar
@@ -856,13 +895,23 @@ inline-recovery-back-link = Voltar
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Código de recuperação de autenticação
 inline-recovery-confirmation-description = Para garantir que poderá recuperar o acesso à sua conta no caso de perda de um dispositivo, por favor, insira um dos seus códigos de recuperação de autenticação que guardou.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Confirme o código de autenticação da cópia de segurança <span>para continuar para as definições da conta</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Cancelar configuração
 inline-totp-setup-continue-button = Continuar
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Ative a autenticação de dois passos <span>para continuar para as definições da conta</span>
 inline-totp-setup-ready-button = Pronto
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Digite o código de autenticação <span>para continuar para as definições da conta</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Insira o código manualmente <span>para continuar para as definições da conta</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticação
 
@@ -909,6 +958,9 @@ pair-auth-complete-manage-devices-link = Gerir dispositivos
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Insira o código de autenticação <span>para continuar para as definições da conta</span>
 auth-totp-input-label = Inserir código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Confirmar
@@ -976,6 +1028,9 @@ pair-unsupported-header = Emparelhar usando uma aplicação
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Redefina a palavra-passe com a chave de recuperação da conta <span>para continuar para as definições da conta</span>
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Inserir uma chave de recuperação da conta
@@ -1014,6 +1069,9 @@ confirm-pw-reset-header = Mensagem de reposição enviada
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Redefina a palavra-passe <span>para continuar para as definições da conta</span>
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = E-mail
@@ -1056,6 +1114,9 @@ back = Voltar
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Insira o código de autenticação da cópia de segurança <span>para continuar para as definições da conta</span>
 signin-recovery-code-input-label = Insira o código de recuperação de autenticação de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
@@ -1089,6 +1150,9 @@ signin-token-code-required-error = É necessário o código de confirmação
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Insira o código de autenticação <span>para continuar para as definições da conta</span>
 signin-totp-code-input-label-v2 = Inserir código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
