@@ -57,6 +57,8 @@ choose-what-to-sync-option-creditcards =
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Não está na caixa de entrada ou pasta do lixo? Reenviar
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Anterior
 
@@ -137,6 +139,10 @@ signin-totp-code-image-label =
     .aria-label = Um dispositivo com um código oculto de 6 dígitos.
 confirm-signup-aria-label =
     .aria-label = Um envelope contendo uma ligação
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustração para representar uma chave de recuperação da conta.
 
 ## Input Password
 
@@ -206,6 +212,8 @@ password-strength-balloon-not-common = Não é uma palavra-passe comummente util
 
 reset-password-complete-header = A sua palavra-passe foi reposta
 ready-start-browsing-button = Começar a navegar
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Agora está pronto para utilizar as definições da conta
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = A sua conta está pronta!
 ready-continue = Continuar
@@ -296,16 +304,18 @@ cs-disconnect-sync-opt-not-say = Prefiro não dizer
 cs-disconnect-advice-confirm = OK, percebi
 cs-disconnect-lost-advice-heading = Dispositivo perdido ou roubado desassociado
 cs-disconnect-lost-advice-content-2 =
-    Uma vez que seu dispositivo foi perdido ou roubado, para
-    manter os seus dados seguros, deve alterar a sua palavra-passe do { -product-firefox-account }
-    nas configurações da sua conta. Também deve procurar informações no fabricante 
-    do seu dispositivo sobre como apagar os seus dados remotamente.
+    Porque o seu dispositivo foi perdido ou roubado, para
+     manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-firefox-account }
+     nas suas definições da conta. Também deveria procurar por informação do fabricante 
+     do seu dispositivo sobre como eliminar os seus dados remotamente.
+cs-disconnect-lost-advice-content-3 = Porque o seu dispositivo foi perdido ou roubado, para manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-mozilla-account } nas suas definições da conta. Também deveria procurar por informação do fabricante do seu dispositivo sobre como eliminar os seus dados remotamente.
 cs-disconnect-suspicious-advice-heading = Dispositivo suspeito desassociado
 cs-disconnect-suspicious-advice-content =
-    Se o dispositivo desassociado é, de fato,
-    suspeito, para manter as suas informações seguras, deve alterar a sua palavra-passe 
-    { -product-firefox-account } nas configurações da sua conta. Também deve alterar quaisquer outras
-    palavras-passe que guardou no { -brand-firefox } digitando about:logins na barra de endereço.
+    Se o dispositivo desassociado é, de facto,
+    suspeito, para manter a sua informação segura, deveria alterar a sua palavra-passe 
+    do { -product-firefox-account } nas suas definições da conta. Também deveria alterar quaisquer outras
+    palavras-passe que guardou no { -brand-firefox }, digitando about:logins na barra de endereço.
+cs-disconnect-suspicious-advice-content-2 = Se o dispositivo desassociado é, de facto, suspeito, para manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-mozilla-account } nas suas definições da conta. Também deveria alterar quaisquer outras palavras-passe que guardou no { -brand-firefox }, digitando about:logins na barra de endereço.
 cs-sign-out-button = Terminar sessão
 
 ##

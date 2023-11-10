@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-11-10 11:21+0000\n"
+"PO-Revision-Date: 2023-11-10 11:22+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -1201,6 +1201,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"              Ao continuar, concorda com os:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Termos do Serviço</a> e com a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Informação de Privacidade</a> do Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do Serviço</a> e com a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de Privacidade</a> das Contas Mozilla\n"
+"            "
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1210,6 +1215,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              Ao continuar, concorda com os:<br />\n"
+"              <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Termos do Serviço e Informação de Privacidade</a> do Firefox Monitor<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do Serviço</a> e com a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de Privacidade</a> das Contas Mozilla\n"
+"              "
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to Firefox accounts"
@@ -1226,6 +1236,10 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"  Ao continuar, concorda com os:<br />\n"
+"  <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Termos do Serviço</a> e com a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Informação de Privacidade</a> do Pocket<br />\n"
+"  <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do Serviço</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de Privacidade</a> do Firefox\n"
 
 #: .es5/templates/index.mustache:22
 msgid ""
@@ -1234,6 +1248,10 @@ msgid ""
 "  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"  Ao continuar, concorda com os:<br />\n"
+"  <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Termos do Serviço e Informação de Privacidade</a> do Firefox Monito<br />\n"
+"  <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do Serviço</a> e com a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de Privacidade</a> das Contas Mozilla\n"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1356,7 +1374,7 @@ msgstr "Cancelar"
 
 #: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
-msgstr "Aviso de privacidade"
+msgstr "Informação de privacidade"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"

@@ -23,7 +23,9 @@
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
 # TODO - Remove once branding sticks
-project-brand = Contas do Firefox
+project-brand = Contas Firefox
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -70,7 +72,7 @@ new-user-sign-in-link = Já tem uma conta { -brand-name-firefox }? <a>Inicie ses
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-enter-email =
-    .label = Introduza o seu e-mail
+    .label = Insira o seu e-mail
 new-user-confirm-email =
     .label = Confirme o seu e-mail
 new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
@@ -127,6 +129,10 @@ payment-confirmation-download-button = Continuar para descarregar
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Eu autorizo a { -brand-name-mozilla }, a criadora dos produtos { -brand-name-firefox }, a debitar no meu método de pagamento o montante apresentado, de acordo com os <termsOfServiceLink>Termos do Serviço</termsOfServiceLink> e a <privacyNoticeLink>Informação de Privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+payment-confirm-with-legal-links-static-2 =
+    Eu autorizo a { -brand-name-mozilla } a debitar no meu método de pagamento o montante apresentado, de acordo com os <termsOfServiceLink>Termos do
+    Serviço</termsOfServiceLink> e a <privacyNoticeLink>Informação de Privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
 payment-confirm-checkbox-error = Precisa de concluir isto antes de continuar
 
 ## Component - PaymentErrorView
@@ -241,6 +247,17 @@ price-details-no-tax-year =
             [one] { $priceAmount } anualmente
            *[other] { $priceAmount } a cada { $intervalCount } anos
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } imposto diariamente
+       *[other] { $priceAmount } + { $taxAmount } imposto a cada { $intervalCount } dias
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } imposto diariamente
+           *[other] { $priceAmount } + { $taxAmount } imposto a cada { $intervalCount } dias
+        }
 
 ## Component - SubscriptionTitle
 
@@ -254,8 +271,11 @@ sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Termos do serviço
-privacy = Política de privacidade
+privacy = Informação de privacidade
 terms-download = Termos da transferência
 
 ## App-level string(s) and messages shared by multiple components or routes
