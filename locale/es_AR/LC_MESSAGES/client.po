@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-11-09 21:28+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-11-10 05:11+0000\n"
+"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -2055,7 +2055,7 @@ msgstr "Administrar dispositivos"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "Ahora se requiere aprobación <small class = \"card-subheader\"> desde el otro dispositivo </small>"
+msgstr "Ahora tenés que aprobarlo <small class=\"card-subheader\">desde tu otro dispositivo</small>"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
