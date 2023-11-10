@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-11-10 00:00+0000\n"
-"Last-Translator: wxie <xiewensheng@hotmail.com>\n"
+"PO-Revision-Date: 2023-11-10 09:42+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -2034,7 +2034,7 @@ msgstr "管理设备"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "现在需要 <small class=\"card-subheader\">在您的另一台设备上</small> 批准"
+msgstr "请批准登录<small class=\"card-subheader\">在另一台设备上批准登录</small>"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
