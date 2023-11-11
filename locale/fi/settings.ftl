@@ -343,7 +343,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Asiakasta ei löydy, yhteyttä ei voi katkaista
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Kirjautunut ulos palvelusta { $service }
 cs-refresh-button =
@@ -355,7 +355,7 @@ cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -382,12 +382,14 @@ cs-disconnect-lost-advice-content-2 =
     sinun tulisi vaihtaa { -product-firefox-account }si salasana
     tilin asetuksissa. Sinun kannattaa myös etsiä ohjeita oman
     laitteen valmistajalta tietojen etäpoistoon liittyen.
+cs-disconnect-lost-advice-content-3 = Koska laitteesi katosi tai varastettiin, sinun tulisi vaihtaa { -product-mozilla-account }si salasana tilin asetuksissa. Sinun kannattaa myös etsiä ohjeita oman laitteen valmistajalta tietojen etäpoistoon liittyen.
 cs-disconnect-suspicious-advice-heading = Yhteys epäilyttävään laitteeseen on katkaistu
 cs-disconnect-suspicious-advice-content =
     Jos irrotettu laite todellakin on epäilyttävä,
     sinun tulisi vaihtaa { -product-firefox-account }n salasana
     tilin asetuksissa. Sinun kannattaa vaihtaa myös muut
     salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
+cs-disconnect-suspicious-advice-content-2 = Jos irrotettu laite todellakin on epäilyttävä, sinun tulisi vaihtaa { -product-mozilla-account }n salasana tilin asetuksissa. Sinun kannattaa vaihtaa myös muut salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
 cs-sign-out-button = Kirjaudu ulos
 
 ##
@@ -681,6 +683,9 @@ recent-activity-account-disable-v2 = Tili poistettu käytöstä
 recent-activity-account-enable-v2 = Tili otettu käyttöön
 recent-activity-account-login-v2 = Tiliin kirjautuminen aloitettu
 recent-activity-account-reset-v2 = Salasanan nollaus aloitettu
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Palautuneet sähköpostiviestit tyhjennetty
 recent-activity-account-login-failure = Tilin kirjautumisyritys epäonnistui
 recent-activity-account-two-factor-added = Kaksivaiheinen todennus otettu käyttöön
 recent-activity-account-two-factor-requested = Kaksivaiheista todennusta pyydetty
@@ -700,20 +705,6 @@ recent-activity-account-secondary-email-removed = Toissijainen sähköpostiosoit
 recent-activity-account-emails-swapped = Ensisijainen ja toissijainen sähköpostiosoite vaihdettu
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Muuta toimintaa tilillä
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Peruuta
-recovery-key-close-button = Sulje
-recovery-key-continue-button = Jatka
-recovery-key-created-1 = Tilin palautusavain on luotu. Talleta avain turvalliseen paikkaan, jonka löydät vaivatta myöhemmin — tarvitset avaimen päästäksesi takaisin tietoihisi, jos unohdat salasanasi.
-recovery-key-enter-password =
-    .label = Kirjoita salasana
-recovery-key-page-title-1 =
-    .title = Tilin palautusavain
-recovery-key-step-1 = Vaihe 1/2
-recovery-key-step-2 = Vaihe 2/2
-recovery-key-success-alert-3 = Tilin palautusavain luotu
 
 ## PageRecoveryKeyCreate
 
@@ -1061,7 +1052,7 @@ cookies-disabled-learn-more = Lue lisää
 inline-recovery-setup-header-default = Vahvista varatodennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Tallenna varatodennuskoodit <span>jatkaaksesi palveluun { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Säilytä nämä kertakäyttökoodit turvallisessa paikassa. Tarvitset niitä, jos sinulla ei ole mobiililaitettasi.
@@ -1081,7 +1072,7 @@ inline-recovery-confirmation-description = Varmistaaksesi pääsyn tilillesi, jo
 inline-recovery-confirmation-header-default = Vahvista varatodennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Vahvista varatodennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
 
 ## InlineTotpSetup page
