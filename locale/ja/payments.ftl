@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox アカウント
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,13 @@ input-error-is-required = { $label } は必須です
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = { -brand-name-firefox } ロゴ
 brand-name-mozilla-logo = { -brand-mozilla } ロゴ
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = { -brand-name-firefox } アカウントをお持ちの方は <a>ログイン</a> してください
 new-user-sign-in-link-2 = { -product-mozilla-account }をお持ちの方は <a>ログイン</a> してください
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -127,6 +132,7 @@ payment-confirmation-download-button = ダウンロードを続行
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
+payment-confirm-with-legal-links-static-2 = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
 payment-confirm-checkbox-error = 先へ進む前に、こちらに同意していただく必要があります。
 
 ## Component - PaymentErrorView
@@ -287,6 +293,9 @@ sub-guarantee = 30 日間の返金保証
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = 利用規約
 privacy = プライバシー通知
 terms-download = 利用規約をダウンロード
@@ -383,6 +392,7 @@ coupon-success-repeating = プランは { $couponDurationDate } に自動更新�
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. { -brand-name-firefox } アカウントを作成
 new-user-step-1-2 = 1. { -product-mozilla-account }を作成
 new-user-card-title = カード情報を入力してください

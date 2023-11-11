@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2022-05-03 14:43+0000\n"
-"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
+"PO-Revision-Date: 2023-11-08 05:30+0000\n"
+"Last-Translator: Kazushi <arcsaber@protonmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -17,12 +17,12 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla アカウント"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla ロゴ"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -61,6 +61,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"現在サーバーに過度な負担が掛かっており、\n"
+"            できる限り早くシステムを正常な状態に戻すべく取り組んでいます。"
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -68,7 +70,7 @@ msgstr "読み込み中"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla アカウントの動作には JavaScript が必要です。"
 
 #: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
@@ -76,7 +78,7 @@ msgstr "Firefox アカウントは JavaScript を必要とします。"
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla アカウント"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -89,6 +91,8 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Mozilla アカウントは、このバージョンの Firefox でサポートされていない機能を利用します。\n"
+"                        続行するには、Firefox の最新バージョンをダウンロードしてインストールしてください。"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
@@ -104,4 +108,4 @@ msgid ""
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
-msgstr ""
+msgstr "Firefox アカウントがご使用の Firefox のバージョンでサポートされていない機能を使用しようとしています。続けるには、最新バージョンの Firefox をダウンロードし、インストールしてください。"
