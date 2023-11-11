@@ -13,12 +13,14 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="端末の同期">
 body-devices-image = <img data-l10n-name="devices-image" alt="端末">
 fxa-privacy-url = { -brand-mozilla } プライバシーポリシー
-moz-accounts-privacy-url = { -product-mozilla-accounts }プライバシーポリシー
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } プライバシー通知
 fxa-service-url = { -product-firefox-cloud } 利用規約
 moz-accounts-terms-url = { -product-mozilla-accounts }利用規約
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } ロゴ">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ロゴ">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } ロゴ">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ロゴ">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } ロゴ">
 subplat-automated-email = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
 subplat-privacy-notice = プライバシー通知
 subplat-privacy-plaintext = プライバシー通知:
@@ -57,9 +59,13 @@ subplat-reactivate = 購読を再開
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = 支払い情報を更新
 subplat-privacy-policy = { -brand-mozilla } プライバシーポリシー
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } プライバシー通知
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = { -product-firefox-cloud } 利用規約
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } サービス利用規約
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = 法的通知
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = プライバシー
@@ -228,25 +234,6 @@ device-all = { $uaOS } { $uaOSVersion } 上の { $uaBrowser }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS } 上の { $uaBrowser }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP アドレス: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }、{ $stateCode }、{ $country } (おおよその位置)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $country }、{ $city } (おおよその位置)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }、{ $country } (おおよその位置)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (おおよその位置)
 view-invoice = <a data-l10n-name="invoiceLink">請求書を表示する</a>。
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -327,15 +314,21 @@ passwordReset-title = アカウントのパスワードが変更されました
 passwordReset-description = 同期を再開するには、他の端末で新しいパスワードを入力する必要があります。
 passwordResetAccountRecovery-subject-2 = あなたのパスワードはリセットされました
 passwordResetAccountRecovery-title-2 = パスワードのリセットが完了しました
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 次の端末でアカウント回復用キーを使用してパスワードを更新しました:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 新しいアカウント回復用キーを生成する
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = アカウント回復用キーを作成
 passwordResetAccountRecovery-regen-required-mjml-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください:
 postAddAccountRecovery-subject-3 = 新しいアカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = このキーを安全な場所に保管してください。パスワードを忘れた場合、暗号化されたブラウジングデータを復元するために、このキーが必要です。
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = このキーは 1 度だけ使用できます。使用すると、新しいものが自動的に作成されます。または、アカウント設定からいつでも新しいキーを作成できます。
 postAddAccountRecovery-action = アカウント管理
 postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
 postAddLinkedAccount-subject-2 = { -product-mozilla-account }に新しいアカウントがリンクされました
@@ -352,6 +345,10 @@ postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
 postAddTwoStepAuthentication-from-device = 次の端末から有効にしました:
 postAddTwoStepAuthentication-action = アカウント管理
 postAddTwoStepAuthentication-code-required-2 = 今後はログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
+postChangeAccountRecovery-subject = アカウント回復用キーが変更されました
+postChangeAccountRecovery-title = アカウント回復用キーを変更しました
+postChangeAccountRecovery-body-part1 = 新しいアカウント回復キーを作成しました。以前のキーは削除されました。
+postChangeAccountRecovery-body-part2 = このキーを安全な場所に保管してください。パスワードを忘れた場合、暗号化されたブラウジングデータを復元するために、このキーが必要です。
 postChangePrimary-subject = 優先メールアドレスが更新されました
 postChangePrimary-title = 新しい優先メールアドレス
 # Variables:
@@ -410,11 +407,9 @@ postVerifySecondary-content-3 = { $secondaryEmail } があなたの { -product-m
 postVerifySecondary-action = アカウント管理
 recovery-subject = パスワードをリセットしました
 recovery-title-2 = パスワードを忘れた場合
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = 次の端末で { -product-firefox-account } のパスワード変更がリクエストされました:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
 recovery-new-password-button = 以下のボタンをクリックして新しいパスワードを生成してください。このリンクは 1 時間以内に有効期限切れになります。
 recovery-copy-paste = 以下の URL をコピーしてブラウザーに貼り付け、新しいパスワードを生成してください。このリンクは 1 時間以内に有効期限切れになります。
@@ -625,7 +620,6 @@ verificationReminderSecond-title-3 = { -brand-mozilla } をお忘れなく！
 verificationReminderSecond-description-3 = 数日前に { -product-firefox-account } を作成されましたが、まだ確認が終わっていません。10 日以内に確認されない場合、アカウントが自動的に削除されます。
 verificationReminderSecond-description-4 = 数日前に { -product-mozilla-account }を作成されましたが、まだ確認が終わっていません。10 日以内に確認されない場合、アカウントが自動的に削除されます。
 verificationReminderSecond-second-description = { -product-firefox-account } は複数の端末で情報を同期し、プライバシーが保護された { -brand-mozilla } の他の製品にもアクセスできます。
-verificationReminderSecond-second-description-2 = { -product-mozilla-account }は複数の端末で情報を同期し、プライバシーが保護された { -brand-mozilla } の他の製品にもアクセスできます。
 verificationReminderSecond-sub-description-2 = インターネットをすべての人に開かれ、アクセス可能な場所として形作っていく私たちの使命にご協力ください。
 verificationReminderSecond-action-2 = アカウントを確認
 verify-title-2 = { -brand-firefox } でインターネットをオープンに
