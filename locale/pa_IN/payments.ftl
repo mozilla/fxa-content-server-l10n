@@ -47,6 +47,8 @@ coupon-submit = ਲਾਗੂ ਕਰੋ
 coupon-remove = ਹਟਾਓ
 coupon-error = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤਾ ਕੋਡ ਅਢੁੱਕਵਾਂ ਹੈ ਜਾਂ ਇਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਹੈ।
 coupon-error-expired = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਹੈ।
+coupon-error-limit-reached = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਕੋਡ ਦੀ ਲਿਮਟ ਅੱਪੜੀ ਹੈ।
+coupon-error-invalid = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤਾ ਕੋਡ ਗ਼ੈਰ-ਵਾਜਬ ਹੈ।
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = ਕੋਡ ਦਿਓ

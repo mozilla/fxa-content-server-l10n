@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-11-11 15:28+0000\n"
+"PO-Revision-Date: 2023-11-11 15:36+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1517,7 +1517,7 @@ msgstr "ਪਾਸਵਰਡ ਦੁਹਰਾਉ"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "ਤੁਹਾਨੂੰ ਇਹ ਪਾਸਵਰਡ ਸਾਡੇ ਕੋਲ ਸੰਭਾਲੇ ਕਿਸ ਵੀ ਇੰਕ੍ਰਿਪਟ ਕੀਤੇ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਚਾਹੀਦਾ ਹੈ।<br class=\"mb-3\">ਮੁੜ-ਸੈੱਟ ਕਰਨਾ ਪਾਸਵਰਡਾਂ ਅਤੇ ਬੁੱਕਮਾਰਕਾਂ ਵਰਗੇ ਡਾਟੇ ਨੂੰ ਸੰਭਵ ਤੌਰ ਉੱਤੇ ਗੁਆਉਣਾ ਹੋਵੇਗਾ।"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1645,7 +1645,7 @@ msgstr "ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "ਜੇ ਤੁਹਾਨੂੰ ਸ਼ੱਕ ਹੈ ਕਿ ਕੋਈ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਵਰਤਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਿਹਾ ਹੈ ਤਾਂ <a id=\"change-password\" href=\"/settings/change_password\">ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ।</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
@@ -1665,7 +1665,7 @@ msgstr "ਟੈਬ ਹਾਲੇ ਨਹੀ ਆਈ? ਇਸ ਦੀ ਬਜਾਏ ਈ�
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Firefox Sync ਨੂੰ ਵਰਤਣਾ ਜਾਰੀ ਰੱਖਣ ਵਾਸਤੇ ਪਾਸਵਰਡ ਬਣਾਓ। ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਵਾਸਤੇ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨਾਲ ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
@@ -1711,6 +1711,7 @@ msgstr "%(serviceName)s ਨਾਲ ਜਾਰੀ ਰਹਿਣ ਲਈ ਪਾਸਵ�
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"ਸਾਨੂੰ ਤੁਹਾਡੇ Mozilla ਖਾਤੇ ਵਿੱਚ ਕੁਝ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਦੀ ਸੂਹ ਮਿਲੀ ਹੈ। ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਤੁਸੀਂ ਆਪਣੀਆਂ ਸਾਰੀਆਂ Mozilla ਖਾਤਾ ਸੇਵਾਵਾਂ ਲਈ ਵਾਪਸ ਸਾਈਨ ਇਨ ਕਰਨ ਥਈ ਵਰਤੋਂਗੇ।"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1732,6 +1733,7 @@ msgstr "ਪਾਸਵਰਡ ਬਦਲੋ"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"ਸਾਨੂੰ ਤੁਹਾਡੇ Firefox ਖਾਤੇ ਵਿੱਚ ਕੁਝ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਦੀ ਸੂਹ ਮਿਲੀ ਹੈ। ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਤੁਸੀਂ ਆਪਣੀਆਂ ਸਾਰੀਆਂ Firefox ਖਾਤਾ ਸੇਵਾਵਾਂ ਲਈ ਵਾਪਸ ਸਾਈਨ ਇਨ ਕਰਨ ਥਈ ਵਰਤੋਂਗੇ।"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1823,7 +1825,7 @@ msgstr "ਸਕੈਨ ਕਰਨ ਲਈ ਤਿਆਰ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "QR ਕੋਡ ਰਾਹੀਂ <h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਕਰੋ</h1><p>, ਜੋ ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਬਣਾਇਆ ਹੈ।</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1883,7 +1885,7 @@ msgstr "ਬੈਨਰ ਬੰਦ ਕਰੋ"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ? ਅਸੀਂ ਤੁਹਾਡੀ ਉਮਰ ਕਿਉ ਪੁੱਛਦੇ ਹਾਂ, ਇਸ ਦਾ ਕਾਰਨ ਪਤਾ ਕਰਨ ਲਈ ਹੇਠਲੇ ਲਿੰਕ \"ਅਸੀਂ ਕਿਉਂ ਪੁੱਛਿਆ ਹੈ\" ਨੂੰ ਖੋਲ੍ਹੋ।"
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
