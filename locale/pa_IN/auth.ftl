@@ -206,6 +206,14 @@ subscriptionFirstInvoice-content-charge = { $invoiceDateOnly } ਨੂੰ { $invo
 subscriptionSupport = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਬਾਰੇ ਸਵਾਲ ਹਨ? ਸਾਡੀ <a data-l10n-name="subscriptionSupportUrl">ਸਹਾਇਤਾ ਟੀਮ</a> ਤੁਹਾਡੀ ਮਦਦ ਵਾਸਤੇ ਇੱਥੇ ਮੌਜੂਦ ਹੈ।
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਲਈ ਸਵਾਲ ਹਨ? ਸਾਡੀ ਸਹਾਇਤਾ ਟੀਮ ਤੁਹਾਡੀ ਮਦਦ ਵਾਸਤੇ ਇੱਥੇ ਮੌਜੂਦ ਹੈ:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = { $productName } ਦੇ ਮੈਂਬਰ ਬਣਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਸਵਾਲ ਹੋਣ ਜਾਂ { $productName } ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ ਤਾਂ <a data-l10n-name="subscriptionSupportUrl">ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ</a>।
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = { $productName } ਦੇ ਮੈਂਬਰ ਬਣਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਸਵਾਲ ਹੋਣ ਜਾਂ { $productName } ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ ਤਾਂ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
+subscriptionUpdateBillingEnsure = ਤੁਸੀਂ <a data-l10n-name="updateBillingUrl">ਇੱਥੇ</a> ਯਕੀਨੀ ਬਣਾ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਅਤੇ ਖਾਤਾ ਜਾਣਕਾਰੀ ਦਰੁਸਤ ਹੈ:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = ਤੁਸੀਂ ਇੱਥੇ ਯਕੀਨੀ ਬਣਾ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਅਤੇ ਖਾਤਾ ਜਾਣਕਾਰੀ ਦਰੁਸਤ ਹੈ:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਿਯੋਗ ਨੂੰ ਵੇਖੋ: { $supportUrl }।
@@ -218,25 +226,6 @@ device-all = { $uaOS } { $uaOSVersion } ਉੱਤੇ { $uaBrowser }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS } ਉੱਤੇ { $uaBrowser }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP ਸਿਰਨਾਵਾਂ: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (ਅੰਦਾਜ਼ਾ)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (ਅੰਦਾਜ਼ਾ)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (ਅੰਦਾਜ਼ਾ)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (ਅੰਦਾਜ਼)
 view-invoice = <a data-l10n-name="invoiceLink">ਆਪਣਾ ਇਨਵਾਇਸ ਵੇਖੋ</a>।
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -311,7 +300,7 @@ passwordReset-title = ਤੁਹਾਡੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ 
 passwordReset-description = ਸਿੰਕ ਕਰਨਾ ਮੁੜ-ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹੋਰ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇਣ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
 passwordResetAccountRecovery-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 passwordResetAccountRecovery-title-2 = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = ਤੁਸੀਂ ਇਸ ਤੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਿਆ ਹੈ:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = ਆਪਣੀ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
@@ -388,11 +377,9 @@ postVerifySecondary-title = ਸਹਾਇਕ ਈਮੇਲ ਜੋੜਿਆ ਗਿ�
 postVerifySecondary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 recovery-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
 recovery-title-2 = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-firefox-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
 recovery-new-password-button = ਹੇਠ ਦਿੱਤੇ ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰਕੇ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਲਿੰਕ ਦੀ ਮਿਆਦ ਅਗਲੇ ਘੰਟੇ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
 recovery-copy-paste = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਲਈ ਹੇਠਲੇ URL ਨੂੰ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕਾਪੀ ਕਰਕੇ ਚੇਪੋ। ਇਸ ਲਿੰਕ ਦੀ ਮਿਆਦ ਅਗਲੇ ਘੰਟੇ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
@@ -498,6 +485,7 @@ subscriptionUpgrade-title = ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਤੁਹਾ�
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = ਤੁਸੀਂ { $productNameOld } ਤੋਂ { $productName } ਲਈ ਕਾਮਯਾਬੀ ਨਾਲ ਅੱਪਗਰੇਡ ਕਰ ਚੁੱਕੇ ਹੋ।
+subscriptionUpgrade-auto-renew = ਜਦ ਤੱਕ ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਨਹੀਂ ਕਰਦੇ ਹੋ, ਤਦ ਤੱਕ ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਹਰ ਬਿੱਲਿੰਗ ਸਮੇਂ ਉੱਤੇ ਆਪਣੇ-ਆਪ ਨਵਿਆਈ ਜਾਵੇਗੀ।
 unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 unblockCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?
 unblockCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
@@ -510,12 +498,17 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
 verificationReminderFirst-title-2 = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
 verificationReminderFirst-title-3 = { -brand-mozilla } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
+verificationReminderFirst-description-2 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-firefox-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 15 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
+verificationReminderFirst-description-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 15 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
+verificationReminderFirst-sub-description-3 = ਬਰਾਊਜ਼ਰ, ਜੋ ਤੁਹਾਨੂੰ ਅਤੇ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਨੂੰ ਪਹਿਲ ਦਿੰਦਾ ਹੈ, ਨੂੰ ਨਾ ਭੁਲਾਓ।
 confirm-email-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verificationReminderSecond-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
 verificationReminderSecond-title-2 = { -brand-firefox } ਨੂੰ ਖੁੰਝ ਨਾ ਜਾਇਓ
 verificationReminderSecond-title-3 = { -brand-mozilla } ਨੂੰ ਖੁੰਝ ਨਾ ਜਾਇਓ
+verificationReminderSecond-description-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-firefox-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 10 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
+verificationReminderSecond-description-4 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 10 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
 verificationReminderSecond-sub-description-2 = ਇੰਟਰਨੈੱਟ ਨੂੰ ਹਰ ਕਿਸੇ ਲਈ ਆਜ਼ਾਦ ਥਾਂ ਬਣਾਉਣ ਦੇ ਸਾਡੇ ਮਕਸਦ ਦਾ ਹਿੱਸਾ ਬਣੋ।
 verificationReminderSecond-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verify-title-2 = { -brand-firefox } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
