@@ -54,15 +54,26 @@ recovery-key-pdf-heading = アカウント回復用キー
 recovery-key-pdf-download-date = 作成日: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = アカウント回復用キー
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = パスワードを忘れた場合、暗号化されたブラウジングデータ (パスワード、ブックマーク、閲覧履歴など) をこのキーで復元できます。このキーを思い出しやすい場所に保管してください。
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = キーを保管する場所
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = アカウント回復用キーの詳細
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = 申し訳ありませんが、アカウント回復用キーのダウンロード中に問題が発生しました。
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = { -brand-mozilla } からの詳細:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = 健全なインターネットの維持に協力する
 # Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = セキュリティとプライバシーに関するニュースと最新情報
@@ -332,7 +343,7 @@ cs-cannot-refresh = 申し訳ありませんが、接続されたサービスの
 cs-cannot-disconnect = クライアントが見つからないため、切断できません
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } からログアウトしました
 cs-refresh-button =
@@ -344,7 +355,7 @@ cs-disconnect-sync-heading = Sync から切断
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = ブラウジングデータは <span>{ $device }</span> に残りますが、アカウントと同期されなくなります。
@@ -469,7 +480,7 @@ flow-recovery-key-info-shield-bullet-point-v2 = パスワードやブックマ�
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = そのため、アカウント回復用キーの作成が非常に重要です。このキーを使用してデータを復元してください。
 # The text of the "submit" button to start creating (or changing) an account recovery key
-flow-recovery-key-info-cta-text-v3 = はじめに
+flow-recovery-key-info-cta-text-v3 = はじめる
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
 
@@ -492,6 +503,7 @@ la-unlink-account-button = リンク解除
 la-set-password-button = パスワードを設定
 la-unlink-heading = サードパーティのアカウントとのリンクを解除する
 la-unlink-content-3 = 本当にアカウントとのリンクを解除しますか？ アカウントとのリンクを解除しても接続済みのサービスはログアウトされません。ログアウトするには、 [接続済みサービス] から手動でログアウトする必要があります。
+la-unlink-content-4 = アカウントのリンクを解除する前にパスワードを設定する必要があります。パスワードを設定しないと、リンクを解除した後に再度ログインすることができません。
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -680,20 +692,6 @@ recent-activity-account-secondary-email-removed = 予備のメールアドレス
 recent-activity-account-emails-swapped = 優先メールアドレスと予備メールアドレスを交換しました
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = その他のアカウント利用情報
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = キャンセル
-recovery-key-close-button = 閉じる
-recovery-key-continue-button = 続ける
-recovery-key-created-1 = アカウント回復用キーが作成されました。後で簡単に見つけられる安全な場所にキーを保存してください — パスワードを忘れた場合、データに再びアクセスするには、キーが必要になります。
-recovery-key-enter-password =
-    .label = パスワードを入力してください
-recovery-key-page-title-1 =
-    .title = アカウント回復用キー
-recovery-key-step-1 = ステップ 1/2
-recovery-key-step-2 = ステップ 2/2
-recovery-key-success-alert-3 = アカウント回復用キーが生成されました
 
 ## PageRecoveryKeyCreate
 
@@ -1028,7 +1026,7 @@ cookies-disabled-learn-more = 詳細情報
 inline-recovery-setup-header-default = バックアップ認証コードを確認して <span>アカウント設定に進む</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = バックアップ認証コードを保存して <span>{ $serviceName } に進む</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
@@ -1048,7 +1046,7 @@ inline-recovery-confirmation-description = 端末を紛失してしまった場�
 inline-recovery-confirmation-header-default = バックアップ認証コードを確認して <span>アカウント設定に進む</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = バックアップ認証コードを確認して <span>{ $serviceName } に進む</span>
 
 ## InlineTotpSetup page
@@ -1167,7 +1165,7 @@ pair-scan-to-download-message = スキャンしてモバイル版 { -brand-firef
 pair-not-now-button = 後で
 pair-take-your-data-message = { -brand-firefox } を使用しているすべての場所でパスワード、タブ、ブックマークを持ち運びましょう。
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
-pair-get-started-button = はじめに
+pair-get-started-button = はじめる
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR コード
 

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-11-11 10:29+0000\n"
+"PO-Revision-Date: 2023-11-11 10:34+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1162,7 +1162,7 @@ msgstr "パスワードをお忘れですか？"
 
 #: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Firefox アカウント</span> のパスワードを入力してください"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -1830,7 +1830,7 @@ msgstr "ブックマーク、履歴、パスワードをモバイル端末の Fi
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
 msgid "Get started"
-msgstr "はじめに"
+msgstr "はじめる"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
@@ -2039,7 +2039,7 @@ msgstr "端末の管理"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "<small class=\"card-subheader\">他の端末から</small> の承認が必要です"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
