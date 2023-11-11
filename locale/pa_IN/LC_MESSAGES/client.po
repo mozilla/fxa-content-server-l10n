@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-11-11 15:20+0000\n"
+"PO-Revision-Date: 2023-11-11 15:28+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1228,7 +1228,7 @@ msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਸੰਭਾਲ
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "ਜਦ ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨਾ ਹੋਵੇ ਤਾਂ ਇਹ ਇਕਹੇਰੀ ਵਰਤੋਂ ਵਾਲੇ ਕੋਡਾਂ ਵਰਤਣ ਲਈ ਸੁਰੱਖਿਅਤ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ।"
 
 #: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"
@@ -1469,7 +1469,7 @@ msgstr "ਸਾਡੀ ਟੀਮ ਨੂੰ ਜਾਣਕਾਰੀ ਦਿੱਤੀ �
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\">ਆਪਣੇ Mozilla ਖਾਤੇ</span> ਲਈ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
