@@ -140,6 +140,7 @@ payment-confirmation-download-button = Працягнуць сцягванне
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Я дазваляю { -brand-name-mozilla }, вытворцу прадуктаў { -brand-name-firefox } збіраць з майго метаду аплаты паказаную суму ў адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
+payment-confirm-with-legal-links-static-2 = Я дазваляю { -brand-name-mozilla }, збіраць з майго метаду аплаты паказаную суму ў адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
 payment-confirm-checkbox-error = Вам трэба завяршыць гэта, перш чым рухацца далей
 
 ## Component - PaymentErrorView
@@ -332,6 +333,9 @@ sub-guarantee = 30-дзённая гарантыя вяртання грошай
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Умовы абслугоўвання
 privacy = Паведамленне аб прыватнасці
 terms-download = Умовы сцягвання

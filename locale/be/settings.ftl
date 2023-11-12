@@ -344,7 +344,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Кліент не знойдзены, не ўдалося адключыць
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Вы выйшлі з { $service }
 cs-refresh-button =
@@ -356,7 +356,7 @@ cs-disconnect-sync-heading = Адлучыцца ад Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -633,6 +633,7 @@ delete-account-header =
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
 delete-account-confirm-title-3 = Магчыма, вы падключылі свой { -product-firefox-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
+delete-account-confirm-title-4 = Магчыма, вы падключылі свой { -product-mozilla-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -708,20 +709,6 @@ recent-activity-account-secondary-email-removed = Другі адрас элек
 recent-activity-account-emails-swapped = Асноўны і другі адрас электроннай пошты памяняліся месцамі
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Іншыя дзеянні ўліковага запісу
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Скасаваць
-recovery-key-close-button = Закрыць
-recovery-key-continue-button = Працягнуць
-recovery-key-created-1 = Ключ аднаўлення ўліковага запісу паспяхова створаны. Абавязкова захавайце ключ у бяспечным месцы, да якога вы потым зможаце лёгка атрымаць доступ — ключ спатрэбіцца вам, каб аднавіць доступ да вашых даных, калі вы забудзеце пароль.
-recovery-key-enter-password =
-    .label = Увядзіце пароль
-recovery-key-page-title-1 =
-    .title = Ключ аднаўлення ўліковага запісу
-recovery-key-step-1 = Крок 1 з 2
-recovery-key-step-2 = Крок 2 з 2
-recovery-key-success-alert-3 = Ключ аднаўлення ўліковага запісу створаны
 
 ## PageRecoveryKeyCreate
 
@@ -1061,7 +1048,7 @@ cookies-disabled-learn-more = Падрабязней
 inline-recovery-setup-header-default = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Захавайце рэзервовыя коды аўтарызацыі <span>для пераходу да { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Захоўвайце гэтыя аднаразовыя коды ў бяспечным месцы, на выпадак, калі ў вас не будзе мабільнай прылады.
@@ -1081,7 +1068,7 @@ inline-recovery-confirmation-description = Каб упэўніцца, што в�
 inline-recovery-confirmation-header-default = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
 
 ## InlineTotpSetup page

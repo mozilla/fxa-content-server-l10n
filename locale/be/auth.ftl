@@ -59,6 +59,7 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Абнавіць плацежную інфармацыю
 subplat-privacy-policy = Палітыка прыватнасці { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Умовы выкарыстання { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Умовы выкарыстання { -product-mozilla-accounts(capitalization: "uppercase") }
@@ -224,25 +225,6 @@ device-all = { $uaBrowser } на { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } на { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-адрас: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (прыблізна)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (прыблізна)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (прыблізна)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (прыблізна)
 view-invoice = <a data-l10n-name="invoiceLink">Праглядзіце ваш рахунак-фактуру</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -313,6 +295,7 @@ passwordChangeRequired-subject = Выяўлена падазроная акты�
 passwordChangeRequired-title = Патрабуецца змена пароля
 passwordChangeRequired-suspicious-activity = Мы выявілі падазроную актыўнасць у вашым { -product-firefox-account }. Каб прадухіліць несанкцыянаваны доступ да { -product-firefox-account }, мы адлучылі ўсе прылады вашага ўліковага запісу і патрабуем ад вас змяніць пароль у якасці меры засцярогі.
 passwordChangeRequired-sign-in = Увайдзіце зноў на любой прыладзе або ў службе, дзе вы выкарыстоўваеце свой { -product-firefox-account }, і выканайце крокі, якія будуць вам прапанаваны.
+passwordChangeRequired-sign-in-2 = Увайдзіце зноў на любой прыладзе або ў службе, дзе вы выкарыстоўваеце свой { -product-mozilla-account }, і выканайце крокі, якія будуць вам прапанаваны.
 passwordChangeRequired-different-password = <b>Важна</b>: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
 passwordChangeRequired-different-password-plaintext = Важна: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
 passwordReset-subject = Пароль абноўлены
@@ -320,15 +303,19 @@ passwordReset-title = Пароль вашага ўліковага запісу 
 passwordReset-description = Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю.
 passwordResetAccountRecovery-subject-2 = Ваш пароль быў скінуты
 passwordResetAccountRecovery-title-2 = Пароль паспяхова скінуты
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Вы выкарысталі ключ аднаўлення ўліковага запісу, каб абнавіць свой пароль з:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Стварыць новы ключ аднаўлення ўліковага запісу
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Стварыць ключ аднаўлення ўліковага запісу
 passwordResetAccountRecovery-regen-required-mjml-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі:
 postAddAccountRecovery-subject-3 = Створаны новы ключ аднаўлення ўліковага запісу
 postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Захавайце гэты ключ у надзейным месцы — ён спатрэбіцца вам для аднаўлення зашыфраваных звестак аглядання, калі вы забудзеце пароль.
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
 postAddLinkedAccount-subject = Новы ўліковы запіс, звязаны з { -brand-firefox }
 #  Variables:
@@ -408,11 +395,9 @@ postVerifySecondary-content-3 = Вы паспяхова пацвердзілі �
 postVerifySecondary-action = Кіраванне ўліковым запісам
 recovery-subject = Скінуць пароль
 recovery-title-2 = Забылі свой пароль?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = Мы атрымалі запыт на змену пароля для вашага { -product-firefox-account } ад:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
 recovery-new-password-button = Стварыце новы пароль, націснуўшы кнопку ніжэй. Тэрмін дзеяння гэтай спасылкі скончыцца на працягу наступнай гадзіны.
 recovery-copy-paste = Стварыце новы пароль, скапіраваўшы і ўставіўшы прыведзены ніжэй URL-адрас у свой браўзер. Тэрмін дзеяння гэтай спасылкі скончыцца на працягу наступнай гадзіны.
