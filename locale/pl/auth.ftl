@@ -13,7 +13,6 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizuj urządzenia">
 body-devices-image = <img data-l10n-name="devices-image" alt="Urządzenia">
 fxa-privacy-url = Zasady ochrony prywatności { -brand-mozilla(case: "gen") }
-moz-accounts-privacy-url = Zasady ochrony prywatności { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 fxa-service-url = Regulamin usługi { -product-firefox-cloud }
 moz-accounts-terms-url = Regulamin usługi { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox(case: "gen") }">
@@ -140,7 +139,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jeśli nie zmieniono hasła, to należy je teraz zmienić pod adresem { $resetLink }
-brand-banner-message = Czy wiesz, że zmieniliśmy naszą nazwę z { -product-firefox-accounts(case: "gen", capitalization: "lower") } na { -product-mozilla-accounts(case: "gen", capitalization: "lower") }? <a data-l10n-name="learnMore">Więcej informacji</a>
+brand-banner-message = Czy wiesz, że zmieniliśmy naszą nazwę z { -product-firefox-accounts(case: "gen", capitalization: "lower") } na { -product-mozilla-accounts(case: "acc", capitalization: "lower") }? <a data-l10n-name="learnMore">Więcej informacji</a>
 cancellationSurvey = Pomóż nam ulepszać nasze usługi wypełniając tę <a data-l10n-name="cancellationSurveyUrl">krótką ankietę</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomóż nam ulepszać nasze usługi wypełniając tę krótką ankietę:
@@ -233,25 +232,6 @@ device-all = { $uaBrowser } w systemie { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } w systemie { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Adres IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (przybliżone)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (przybliżone)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (przybliżone)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (przybliżone)
 view-invoice = <a data-l10n-name="invoiceLink">Wyświetl fakturę</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -334,7 +314,7 @@ passwordReset-title = Hasło konta zostało zmienione
 passwordReset-description = Wznowienie synchronizacji wymaga wprowadzenia nowego hasła na pozostałych urządzeniach.
 passwordResetAccountRecovery-subject-2 = Zmieniono hasło
 passwordResetAccountRecovery-title-2 = Pomyślnie zmieniono hasło
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Użyto klucza odzyskiwania konta, aby zaktualizować hasło na urządzeniu:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Utwórz nowy klucz odzyskiwania konta
@@ -431,11 +411,9 @@ postVerifySecondary-content-3 = Pomyślnie potwierdzono { $secondaryEmail } jako
 postVerifySecondary-action = Zarządzaj kontem
 recovery-subject = Zmień hasło
 recovery-title-2 = Nie pamiętasz hasła?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-firefox-account(case: "gen", capitalization: "lower") } z:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z:
 recovery-new-password-button = Utwórz nowe hasło, klikając poniższy przycisk. Ten odnośnik wygaśnie w ciągu godziny.
 recovery-copy-paste = Utwórz nowe hasło, kopiując i wklejając poniższy adres do przeglądarki. Ten odnośnik wygaśnie w ciągu godziny.
@@ -647,7 +625,6 @@ verificationReminderSecond-title-3 = Nie przegap { -brand-mozilla(case: "gen") }
 verificationReminderSecond-description-3 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 10 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
 verificationReminderSecond-description-4 = Kilka dni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 10 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
 verificationReminderSecond-second-description = { -product-firefox-account } umożliwia synchronizowanie swoich danych między urządzeniami i odblokowuje dostęp do innych produktów chroniących prywatność od { -brand-mozilla(case: "gen") }.
-verificationReminderSecond-second-description-2 = { -product-mozilla-account } umożliwia synchronizowanie swoich danych między urządzeniami i odblokowuje dostęp do innych produktów chroniących prywatność od { -brand-mozilla(case: "gen") }.
 verificationReminderSecond-sub-description-2 = Bądź częścią naszej misji przekształcania Internetu w miejsce otwarte dla wszystkich.
 verificationReminderSecond-action-2 = Potwierdź konto
 verify-title-2 = Uczyń Internet bardziej otwartym z { -brand-firefox(case: "ins") }
