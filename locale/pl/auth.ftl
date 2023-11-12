@@ -13,11 +13,14 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizuj urządzenia">
 body-devices-image = <img data-l10n-name="devices-image" alt="Urządzenia">
 fxa-privacy-url = Zasady ochrony prywatności { -brand-mozilla(case: "gen") }
+moz-accounts-privacy-url-2 = Zasady ochrony prywatności { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 fxa-service-url = Regulamin usługi { -product-firefox-cloud }
 moz-accounts-terms-url = Regulamin usługi { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox(case: "gen") }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla(case: "gen") }">
 subplat-automated-email = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 subplat-privacy-notice = Zasady ochrony prywatności
 subplat-privacy-plaintext = Zasady ochrony prywatności:
@@ -56,9 +59,13 @@ subplat-reactivate = Ponownie aktywuj subskrypcję
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Zaktualizuj dane płatnicze
 subplat-privacy-policy = Zasady ochrony prywatności { -brand-mozilla(case: "gen") }
+subplat-privacy-policy-2 = Zasady ochrony prywatności { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Regulamin usługi { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = Regulamin usługi { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Podstawa prawna
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Prywatność
@@ -318,6 +325,8 @@ passwordResetAccountRecovery-title-2 = Pomyślnie zmieniono hasło
 passwordResetAccountRecovery-description-2 = Użyto klucza odzyskiwania konta, aby zaktualizować hasło na urządzeniu:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Utwórz nowy klucz odzyskiwania konta
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Utwórz klucz odzyskiwania konta
 passwordResetAccountRecovery-regen-required-mjml-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty:
@@ -625,6 +634,7 @@ verificationReminderSecond-title-3 = Nie przegap { -brand-mozilla(case: "gen") }
 verificationReminderSecond-description-3 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 10 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
 verificationReminderSecond-description-4 = Kilka dni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 10 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
 verificationReminderSecond-second-description = { -product-firefox-account } umożliwia synchronizowanie swoich danych między urządzeniami i odblokowuje dostęp do innych produktów chroniących prywatność od { -brand-mozilla(case: "gen") }.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account } umożliwia synchronizowanie swoich danych { -brand-firefox(case: "gen") } między urządzeniami i odblokowuje dostęp do innych produktów chroniących prywatność od { -brand-mozilla(case: "gen") }.
 verificationReminderSecond-sub-description-2 = Bądź częścią naszej misji przekształcania Internetu w miejsce otwarte dla wszystkich.
 verificationReminderSecond-action-2 = Potwierdź konto
 verify-title-2 = Uczyń Internet bardziej otwartym z { -brand-firefox(case: "ins") }
