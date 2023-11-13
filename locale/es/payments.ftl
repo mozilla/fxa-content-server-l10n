@@ -22,7 +22,10 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
+# TODO - Remove once branding sticks
 project-brand = Firefox Accounts
+# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
+settings-project-header-title = { -product-mozilla-account }
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -58,11 +61,15 @@ input-error-is-required = Se requiere { $label }
 
 ## Component - Header
 
+# TODO: Remove once new branding sticks
 brand-name-firefox-logo = Logo de { -brand-name-firefox }
+brand-name-mozilla-logo = Logo de { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+# TODO: Remove once new branding sticks
 new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
+new-user-sign-in-link-2 = ¿Ya tienes una { -product-mozilla-account }? <a>Inicia sesión</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -70,6 +77,10 @@ new-user-enter-email =
     .label = Escribe tu correo electrónico
 new-user-confirm-email =
     .label = Confirma tu correo electrónico
+new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias y actualizaciones de productos de { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Me gustaría recibir noticias y actualizaciones de productos de { -product-mozilla-hubs } y { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Me gustaría recibir noticias y actualizaciones de productos de { -product-mdn-plus } y { -brand-mozilla }
 new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 new-user-email-validate = El correo electrónico no es válido
 new-user-email-validate-confirm = Las direcciones de correo electrónico no coinciden
@@ -125,6 +136,7 @@ payment-confirmation-download-button = Continuar para descargar
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago el importe mostrado, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
+payment-confirm-with-legal-links-static-2 = Autorizo a { -brand-name-mozilla } para que cargue a mi método de pago el importe mostrado, de acuerdo con los <termsOfServiceLink>términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
 payment-confirm-checkbox-error = Debes completar esto antes de seguir adelante
 
 ## Component - PaymentErrorView
@@ -301,6 +313,9 @@ sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Términos del servicio
 privacy = Aviso de privacidad
 terms-download = Descargar términos
@@ -405,7 +420,9 @@ coupon-success-repeating = Tu plan se renovará automáticamente después de { $
 
 ## Routes - Checkout - New user
 
+# TODO - Remove once branding sticks
 new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
+new-user-step-1-2 = 1. Crea una { -product-mozilla-account }
 new-user-card-title = Escribe la información de tu tarjeta
 new-user-submit = Suscribirse ahora
 
@@ -443,6 +460,7 @@ sub-change-submit = Confirmar cambio
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nuevo plan
 sub-update-total-label = Nuevo total
+sub-update-prorated-upgrade = Actualización prorrateada
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
@@ -452,6 +470,7 @@ sub-update-total-label = Nuevo total
 sub-update-new-plan-daily = { $productName } (diario)
 sub-update-new-plan-weekly = { $productName } (semanal)
 sub-update-new-plan-monthly = { $productName } (mensual)
+sub-update-new-plan-yearly = { $productName } (Anual)
 
 ##
 
