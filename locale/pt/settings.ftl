@@ -10,14 +10,34 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Fechar
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Email reenviado. Adicione { $accountsEmail } aos seus contactos para garantir uma entrega suave.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo correu mal. Não foi possível enviar um novo código.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Fechar banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } será renomeada { -product-mozilla-accounts } no dia 1 de novembro
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe e não existem outras alterações nos produtos que utiliza.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Nós renomeámos as { -product-firefox-accounts } para { -product-mozilla-accounts }. Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe e não existem outras alterações nos produtos que utiliza.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Saber mais
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Fechar Faixa
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logótipo da { -brand-mozilla } m
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -28,14 +48,45 @@ brand-prelaunch-title = { -product-firefox-accounts } será renomeada { -product
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Transferir e continuar
     .title = Transferir e continuar
+recovery-key-pdf-heading = Chave de Recuperação da Conta
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Gerado: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Chave de Recuperação da Conta
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Esta chave permite que recupere os seus dados encriptados do navegador (incluindo palavras-passe, marcadores e histórico) se se esquecer da sua palavra-passe. Guarde-o num local que irá memorizar.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Locais para guardar a sua chave
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Saber mais sobre a sua chave de recuperação da conta
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Pedimos desculpa, mas ocorreu um problema ao transferir a sua chave de recuperação da conta.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Obtenha mais da { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Ajude a manter a Internet saudável
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Notícias e atualizações sobre segurança e privacidade
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Acesso antecipado para testar novos produtos
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Escolha o que sincronizar
 choose-what-to-sync-option-bookmarks =
     .label = Marcadores
 choose-what-to-sync-option-history =
@@ -57,6 +108,8 @@ choose-what-to-sync-option-creditcards =
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Não está na caixa de entrada ou pasta do lixo? Reenviar
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Anterior
 
@@ -118,6 +171,7 @@ form-verify-code-default-error = Este campo é obrigatório
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Chave de recuperação da conta { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticação de recuperação do { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Códigos de autenticação de recuperação
 get-data-trio-download-2 =
     .title = Transferir
     .aria-label = Transferir
@@ -131,12 +185,27 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Um computador e um telemóvel e a imagem de um coração quebrado em cada
+hearts-verified-image-aria-label =
+    .aria-label = Um computador, um telemóvel e um tablet com um coração a piscar em cada um
 signin-recovery-code-image-description =
     .aria-label = Documento que contém texto oculto.
 signin-totp-code-image-label =
     .aria-label = Um dispositivo com um código oculto de 6 dígitos.
 confirm-signup-aria-label =
     .aria-label = Um envelope contendo uma ligação
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustração para representar uma chave de recuperação da conta.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustração para representar uma chave de recuperação da conta.
+lock-image-aria-label =
+    .aria-label = Uma exemplo de uma bloqueio
+lightbulb-aria-label =
+    .aria-label = Imagem para representar a criação de uma dica de armazenamento.
 
 ## Input Password
 
@@ -194,6 +263,7 @@ confirmation-link-reused-message = A ligação de confirmação já foi utilizad
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Precisa desta palavra-passe para aceder a quaisquer dados encriptados guardados connosco.
+password-info-balloon-reset-risk-info = Uma reposição significa a perda potencial de dados como palavras-passe e marcadores.
 
 ## PasswordStrengthBalloon component
 
@@ -201,11 +271,19 @@ password-strength-balloon-heading = Requisitos da palavra-passe
 password-strength-balloon-min-length = Pelo menos 8 carateres
 password-strength-balloon-not-email = Não é o seu endereço de e-mail
 password-strength-balloon-not-common = Não é uma palavra-passe comummente utilizada
+password-strength-balloon-stay-safe-tips = Mantenha-se seguro - Não reutilize palavras-passe. Veja mais dicas para <LinkExternal>criar palavras-passe fortes</LinkExternal>.
 
 ## Ready component
 
 reset-password-complete-header = A sua palavra-passe foi reposta
+ready-complete-set-up-instruction = Complete a configuração ao digitar a sua nova palavra-passe nos seus outros dispositivos { -brand-firefox }.
 ready-start-browsing-button = Começar a navegar
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Está pronto(a) para utilizar { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Agora está pronto para utilizar as definições da conta
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = A sua conta está pronta!
 ready-continue = Continuar
@@ -230,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Menu Bento { -brand-firefox }
+bento-menu-title-2 = Menu Bento { -brand-mozilla }
 bento-menu-firefox-title = O { -brand-firefox } é tecnologia que luta pela sua privacidade na Internet.
+bento-menu-mozilla-title = A { -brand-mozilla } é tecnologia que luta pela sua privacidade na Internet.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -280,6 +360,8 @@ cs-disconnect-sync-heading = Desassociar do Sync
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = Os seus dados de navegação irão manter-se em <span>{ $device }</span>, mas deixarão de ser mais sincronizados com a sua conta.
+cs-disconnect-sync-reason-3 = Qual é o principal motivo para desassociar <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -296,16 +378,18 @@ cs-disconnect-sync-opt-not-say = Prefiro não dizer
 cs-disconnect-advice-confirm = OK, percebi
 cs-disconnect-lost-advice-heading = Dispositivo perdido ou roubado desassociado
 cs-disconnect-lost-advice-content-2 =
-    Uma vez que seu dispositivo foi perdido ou roubado, para
-    manter os seus dados seguros, deve alterar a sua palavra-passe do { -product-firefox-account }
-    nas configurações da sua conta. Também deve procurar informações no fabricante 
-    do seu dispositivo sobre como apagar os seus dados remotamente.
+    Porque o seu dispositivo foi perdido ou roubado, para
+     manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-firefox-account }
+     nas suas definições da conta. Também deveria procurar por informação do fabricante 
+     do seu dispositivo sobre como eliminar os seus dados remotamente.
+cs-disconnect-lost-advice-content-3 = Porque o seu dispositivo foi perdido ou roubado, para manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-mozilla-account } nas suas definições da conta. Também deveria procurar por informação do fabricante do seu dispositivo sobre como eliminar os seus dados remotamente.
 cs-disconnect-suspicious-advice-heading = Dispositivo suspeito desassociado
 cs-disconnect-suspicious-advice-content =
-    Se o dispositivo desassociado é, de fato,
-    suspeito, para manter as suas informações seguras, deve alterar a sua palavra-passe 
-    { -product-firefox-account } nas configurações da sua conta. Também deve alterar quaisquer outras
-    palavras-passe que guardou no { -brand-firefox } digitando about:logins na barra de endereço.
+    Se o dispositivo desassociado é, de facto,
+    suspeito, para manter a sua informação segura, deveria alterar a sua palavra-passe 
+    do { -product-firefox-account } nas suas definições da conta. Também deveria alterar quaisquer outras
+    palavras-passe que guardou no { -brand-firefox }, digitando about:logins na barra de endereço.
+cs-disconnect-suspicious-advice-content-2 = Se o dispositivo desassociado é, de facto, suspeito, para manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-mozilla-account } nas suas definições da conta. Também deveria alterar quaisquer outras palavras-passe que guardou no { -brand-firefox }, digitando about:logins na barra de endereço.
 cs-sign-out-button = Terminar sessão
 
 ##
@@ -315,15 +399,20 @@ cs-sign-out-button = Terminar sessão
 
 dc-heading = Recolha e utilização de dados
 dc-subheader = Ajude a melhorar as { -product-firefox-accounts }
+dc-subheader-2 = Ajude a melhorar as { -product-mozilla-accounts }
 dc-subheader-content = Permitir que as { -product-firefox-accounts } enviem dados técnicos e de interação para a { -brand-mozilla }.
+dc-subheader-content-2 = Permitir que as { -product-mozilla-accounts } enviem dados técnicos e de interação para a { -brand-mozilla }.
 dc-opt-out-success = Cancelamento com sucesso. As { -product-firefox-accounts } não enviarão dados técnicos ou de interação para a { -brand-mozilla }.
+dc-opt-out-success-2 = Desativação bem sucedida. As { -product-mozilla-accounts } não irão enviar dados técnicos ou de interação para a { -brand-mozilla }.
 dc-opt-in-success = Obrigado! Ao partilhar estes dados ajuda-nos a melhorar as { -product-firefox-accounts }.
+dc-opt-in-success-2 = Obrigado! Partilhar estes dados ajuda-nos a melhorar as { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Pedimos desculpa, mas ocorreu um problema ao alterar a sua preferência de recolha de dados
 dc-learn-more = Saber mais
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
+drop-down-menu-title-2 = Menu { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -351,8 +440,18 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Criar nova chave de rec
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Chave de recuperação da conta criada — Transferi-la e armazená-la agora
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Esta chave permite-lhe recuperar os seus dados caso se esqueça da sua palavra-passe. Transfira-o agora e guarde-o num lugar de que se lembre - não poderá voltar a esta página mais tarde.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuar sem transferir
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Locais para guardar a sua chave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Pasta em dispositivo seguro
+flow-recovery-key-download-storage-ideas-cloud = Armazenamento em nuvem confiável
+flow-recovery-key-download-storage-ideas-print-v2 = Cópia física impressa
+flow-recovery-key-download-storage-ideas-pwd-manager = Gestor de palavras-passe
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -361,6 +460,9 @@ flow-recovery-key-download-next-link-v2 = Continuar sem transferir
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar a sua chave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Esta dica deveria ajudar a lembrar onde guardou a sua chave de recuperação da conta. Nós podemos mostrar a mesma durante a redefinição da palavra-passe para recuperar os seus dados.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -368,9 +470,25 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Terminar
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Chave de recuperação da conta criada
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 carateres.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = A dica não pode conter carateres Unicode inseguros. É permitido apenas letras, números, sinais de pontuação e símbolos.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Criar uma chave de recuperação da conta no caso de se esquecer da sua palavra-passe
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Alterar a sua chave de recuperação da conta
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Nós encriptamos os dados de navegação –– palavras-passe, marcadores, e mais. É ótimo para a privacidade, mas pode perder os seus dados se esquecer a sua palavra-passe.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = É por isso que criar uma chave de recuperação da conta é tão importante –– pode utilizar a mesma para restaurar os seus dados.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
@@ -383,16 +501,19 @@ header-menu-closed = Menu de navegação do site
 header-back-to-top-link =
     .title = Ir para o topo
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Ajuda
 
 ## Linked Accounts section
 
-la-heading = Contas ligadas
+la-heading = Contas associadas
 la-description = Autorizou o acesso às seguintes contas.
-la-unlink-button = Dissociar
-la-unlink-account-button = Dissociar
-la-unlink-heading = Dissociar de uma conta de terceiros
+la-unlink-button = Desassociar
+la-unlink-account-button = Desassociar
+la-set-password-button = Definir palavra-passe
+la-unlink-heading = Desassociar de uma conta de terceiros
 la-unlink-content-3 = Tem certeza que deseja desassociar a sua conta? Desassociar a sua conta não termina sessão automaticamente dos seus Serviços Associados. Para fazer isto precisará de terminar sessão manualmente da secção Serviços Associados.
+la-unlink-content-4 = Antes de desassociar a sua conta, deve definir uma palavra-passe. Sem a mesma, não tem como iniciar a sessão depois de desassociar a sua conta.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -405,6 +526,10 @@ modal-default-confirm-button = Confirmar
 
 mvs-verify-your-email-2 = Confirmar o seu endereço de correio eletrónico
 mvs-enter-verification-code-2 = Introduza o seu código de confirmação
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Por favor, insira o código de confirmação que foi enviado para <email>{ $email }</email> dentro de 5 minutos.
 msv-cancel-button = Cancelar
 msv-submit-button-2 = Confirmar
 
@@ -420,6 +545,10 @@ nav-email-comm = Comunicações por e-mail
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Ocorreu um problema ao substituir os seus códigos de autenticação de recuperação
+tfa-create-code-error = Ocorreu um problema ao criar os seus códigos de autenticação de recuperação
+tfa-replace-code-success-1 = Novos códigos foram criados. Guarde estes códigos de autenticação de recuperação de utilização única num local seguro - precisará dos mesmos para aceder à sua conta, caso não tenha o seu dispositivo móvel.
+tfa-replace-code-success-alert-3 = Códigos de autenticação de recuperação de conta atualizados
 tfa-replace-code-1-2 = Passo 1 de 2
 tfa-replace-code-2-2 = Passo 2 de 2
 
@@ -496,7 +625,10 @@ delete-account-header =
     .title = Eliminar conta
 delete-account-step-1-2 = Passo 1 de 2
 delete-account-step-2-2 = Passo 2 de 2
+delete-account-confirm-title-3 = Pode ter ligado a sua { -product-firefox-account } a um ou mais dos seguintes produtos ou serviços da { -brand-mozilla } que o mantêm seguro e produtivo na Internet:
+delete-account-confirm-title-4 = Pode ter ligado a sua { -product-mozilla-account } a um ou mais dos seguintes produtos ou serviços da { -brand-mozilla } que o mantêm seguro e produtivo na Internet:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -543,6 +675,33 @@ display-name-success-alert-2 = Nome de apresentação atualizado
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Atividade Recente da Conta
+recent-activity-account-create-v2 = Criada conta
+recent-activity-account-disable-v2 = Conta desativada
+recent-activity-account-enable-v2 = Conta ativada
+recent-activity-account-login-v2 = Início de sessão iniciado
+recent-activity-account-reset-v2 = Reposição de palavra-passe iniciada
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Rejeições de e-mail removidas
+recent-activity-account-login-failure = A tentativa de início de sessão à conta falhou
+recent-activity-account-two-factor-added = Autenticação de dois passos ativada
+recent-activity-account-two-factor-requested = Solicitada autenticação de dois passos
+recent-activity-account-two-factor-failure = A autenticação de dois passos falhou
+recent-activity-account-two-factor-success = Autenticação de dois passos com sucesso
+recent-activity-account-two-factor-removed = Autenticação de dois passos removida
+recent-activity-account-password-reset-requested = A conta solicitou a redefinição da palavra-passe
+recent-activity-account-password-reset-success = Palavra-passe da conta reposta com sucesso
+recent-activity-account-recovery-key-added = Chave de recuperação da conta ativada
+recent-activity-account-recovery-key-verification-failure = Falha na verificação da chave de recuperação da conta
+recent-activity-account-recovery-key-verification-success = Chave de recuperação da conta verificada com sucesso
+recent-activity-account-recovery-key-removed = Chave de recuperação de conta removida
+recent-activity-account-password-added = Nova palavra-passe adicionada
+recent-activity-account-password-changed = Palavra-passe alterada
+recent-activity-account-secondary-email-added = Endereço de e-mail secundário adicionado
+recent-activity-account-secondary-email-removed = Endereço de e-mail secundário removido
+recent-activity-account-emails-swapped = E-mails primários e secundários trocados
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Outra atividade da conta
 
 ## PageRecoveryKeyCreate
 
@@ -617,6 +776,8 @@ tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autent
 tfa-enter-totp-v2 = Agora insira o código de segurança da aplicação de autenticação.
 tfa-input-enter-totp-v2 =
     .label = Inserir código de autenticação
+tfa-save-these-codes-1 = Guarde estes códigos de autenticação de recuperação de utilização única num local seguro para quando não tiver o seu dispositivo móvel.
+tfa-enter-code-to-confirm-1 = Por favor, introduza agora um dos seus códigos de autenticação de recuperação para confirmar que o guardou. Irá precisar de um código para iniciar sessão, caso não tenha acesso ao seu dispositivo móvel.
 tfa-enter-recovery-code-1 =
     .label = Insira um código de autenticação de recuperação
 
@@ -656,6 +817,8 @@ security-password-created-date = Criado em { $date }
 security-not-set = Não definida
 security-action-create = Criar
 security-set-password = Defina uma palavra-passe para sincronizar e usar determinados recursos de segurança da conta.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ver a atividade recente da conta
 
 ## Switch component
 
@@ -690,7 +853,10 @@ rk-refresh-key-1 = Recarregar chave de recuperação da conta
 rk-content-explain = Restaurar os seus dados quando se esquecer da sua palavra-passe.
 rk-cannot-verify-session-4 = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
 rk-remove-modal-heading-1 = Remover a chave de recuperação da conta?
-rk-remove-error-2 = Não foi possível remover a sua chave de recuperação de conta
+rk-remove-modal-content-1 =
+    Na eventualidade de redefinir a sua palavra-passe, não conseguirá
+    utilizar a sua chave de recuperação para aceder aos seus dados. Não pode anular esta ação.
+rk-remove-error-2 = Não foi possível remover a sua chave de recuperação da conta
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Eliminar a chave de recuperação da conta
 
@@ -710,6 +876,8 @@ se-set-primary-error-2 = Pedimos desculpa, mas ocorreu um problema ao alterar o 
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } eliminado com sucesso
 se-delete-email-error-2 = Pedimos desculpa, mas ocorreu um problema ao eliminar este e-mail
+se-verify-session-3 = Precisa de confirmar a sua sessão atual para realizar esta ação
+se-verify-session-error-3 = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
 # Button to remove the secondary email
 se-remove-email =
     .title = Remover e-mail
@@ -717,9 +885,13 @@ se-remove-email =
 se-refresh-email =
     .title = Atualizar e-mail
 se-unverified-2 = não confirmado
+se-resend-code-2 = Necessária confirmação. <button>Reenvie o código de confirmação</button> se não estiver na sua caixa de entrada ou na pasta de correio não-solicitado.
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Aceda à sua conta se não conseguir iniciar sessão no seu e-mail principal.
+se-content-note-1 =
+    Nota: um e-mail secundário não irá restaurar os seus dados — irá 
+    precisar de uma <a>chave de recuperação</a> para isso.
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
 
@@ -742,9 +914,12 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Impedir que outra pessoa inicie sessão exigindo um
     código único ao qual apenas você tem acesso.
+tfa-row-cannot-verify-session-4 = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
 tfa-row-disable-modal-heading = Desativar a autenticação de dois passos?
 tfa-row-disable-modal-confirm = Desativar
+tfa-row-disable-modal-explain-1 = Não poderá desfazer esta ação. Tem também a opção de <linkExternal>substituir os seus códigos de autenticação de recuperação</linkExternal>.
 tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação de dois passos
+tfa-row-change-modal-heading-1 = Alterar códigos de autenticação de recuperação?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 
@@ -753,12 +928,24 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Ao prosseguir, concorda com:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Ao proceder, concorda com o:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Termos do Serviço</pocketTos> e <pocketPrivacy>Informação de Privacidade</pocketPrivacy> do { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Termos do Serviço</pocketTos> e <pocketPrivacy>Informação de Privacidade</pocketPrivacy> do { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Termos do Serviço e Informação de Privacidade</monitorTos> do { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Termos do Serviço e Informação de Privacidade</monitorTos> do { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Termos do Serviço</firefoxTos> e <firefoxPrivacy>Informação de Privacidade</firefoxPrivacy> do { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Termos do Serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Informação de Privacidade</mozillaAccountsPrivacy> das { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Ao continuar, concorda com os <firefoxTos>Termos do Serviço</firefoxTos> e com a <firefoxPrivacy>Informação de Privacidade</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Ao continuar, concorda com os <mozillaAccountsTos>Termos do Serviço</mozillaAccountsTos> e com a <mozillaAccountsPrivacy>Informação de Privacidade</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -788,6 +975,7 @@ auth-error-114 = Tentou demasiadas vezes. Tente novamente { $retryAfter }.
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
 auth-error-155 = Código TOTP não encontrado
+auth-error-159 = Chave de recuperação da conta inválida
 auth-error-183-2 = Código de confirmação inválido ou expirado
 auth-error-999 = Erro inesperado
 auth-error-1003 = O armazenamento local ou os cookies ainda estão desativados
@@ -798,6 +986,8 @@ auth-error-1011 = É necessário um e-mail válido
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Não é possível criar a conta
+cannot-create-account-requirements = Deve cumprir com determinados requisitos de idade para poder criar uma { -product-firefox-account }.
+cannot-create-account-requirements-2 = Deve cumprir com determinados requisitos de idade para poder criar uma { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Saber mais
 
@@ -813,6 +1003,12 @@ connect-another-device-signin-confirmed-banner = Início de sessão confirmado
 connect-another-device-signin-to-complete-message = Inicie a sessão neste { -brand-firefox } para concluir a configuração
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Iniciar a sessão
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Ainda a adicionar dispositivos? Inicie sessão no { -brand-firefox } noutro dispositivo para concluir a configuração
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Inicie sessão no { -brand-firefox } noutro dispositivo para concluir a configuração
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Pretende ter os seus separadores, marcadores e as palavras-passe noutro dispositivo?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Ligar outro dispositivo
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
@@ -826,6 +1022,8 @@ connect-another-device-ios-complete-setup-message = Inicie sessão no { -brand-f
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = O armazenamento local e os cookies são obrigatórios
+cookies-disabled-enable-prompt = Por favor ative os cookies e armazenamento local no seu navegador para aceder às { -product-firefox-accounts }. Ao fazê-lo irá ativar funcionalidades como memorizar-lhe entre sessões.
+cookies-disabled-enable-prompt-2 = Por favor ative os cookies e armazenamento local no seu navegador para aceder à sua { -product-mozilla-account }. Ao fazê-lo irá ativar funcionalidades como memorizar-lhe entre sessões.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Tentar novamente
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -835,6 +1033,15 @@ cookies-disabled-learn-more = Saber mais
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Confirme o código de autenticação da cópia de segurança <span>para continuar para as definições da conta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-setup-header = Guarde os códigos de autenticação de recuperação <span>para continuar para o { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Guarde estes códigos de utilização única num local seguro para quando não tiver o seu dispositivo móvel.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Cancelar
@@ -846,13 +1053,42 @@ inline-recovery-back-link = Voltar
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Código de recuperação de autenticação
 inline-recovery-confirmation-description = Para garantir que poderá recuperar o acesso à sua conta no caso de perda de um dispositivo, por favor, insira um dos seus códigos de recuperação de autenticação que guardou.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Confirme o código de autenticação da cópia de segurança <span>para continuar para as definições da conta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-confirmation-header = Confirme o código de autenticação de recuperação <span>para continuar para { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Cancelar configuração
 inline-totp-setup-continue-button = Continuar
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Adicione uma camada de segurança à sua conta ao requerer códigos de autenticação de uma das <authenticationAppsLink>aplicações de autenticação</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Ative a autenticação de dois passos <span>para continuar para as definições da conta</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ative a autenticação de dois passos <span>para continuar para { $serviceName }</span>
 inline-totp-setup-ready-button = Pronto
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Digitalize o código de autenticação <span>para continuar para { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Introduza o código manualmente <span>para continuar para { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Digite o código de autenticação <span>para continuar para as definições da conta</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Insira o código manualmente <span>para continuar para as definições da conta</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Digite esta chave secreta na sua aplicação de autenticação. <toggleToQRButton>Como alternativa, digitalizar código QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Digitalize o código QR na sua aplicação de autenticação e depois introduza o código de autenticação que esta lhe providenciar. <toggleToManualModeButton>Não consegue digitalizar o código?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Depois de concluído, ele começará a gerar os códigos de autenticação que poderá especificar.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticação
 
@@ -899,6 +1135,14 @@ pair-auth-complete-manage-devices-link = Gerir dispositivos
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Insira o código de autenticação <span>para continuar para as definições da conta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Insira o código de autenticação <span>para continuar para { $serviceName }</span>
+auth-totp-instruction = Abra a sua aplicação de autenticação e introduza o código de autenticação providenciado.
 auth-totp-input-label = Inserir código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Confirmar
@@ -931,6 +1175,7 @@ pair-or-download-subheader = Ou transferir
 pair-scan-to-download-message = Digitalize para transferir o { -brand-firefox } para um dispositivo móvel, ou envie para si mesmo uma <linkExternal>ligação de transferência</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Agora não
+pair-take-your-data-message = Leve os seus separadores, marcadores e palavras-passe para qualquer sítio em que utilizar o { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Começar
 # This is the aria label on the QR code image
@@ -955,17 +1200,32 @@ pair-supp-allow-cancel-link = Cancelar
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = A aprovação agora é obrigatória <span>do seu outro dispositivo</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Emparelhar usando uma aplicação
+pair-unsupported-message = Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicação { -brand-firefox }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Por favor aguarde, está a ser reencaminhado para uma aplicação autorizada.
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Redefina a palavra-passe com a chave de recuperação da conta <span>para continuar para as definições da conta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Reponha a palavra-passe com a chave de recuperação da conta <span>para continuar para { $serviceName }</span>
+account-recovery-confirm-key-instructions = Por favor, insira a chave única de recuperação da conta que guardou num lugar seguro para recuperar o acesso à sua { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Por favor, insira a chave única de recuperação da conta que guardou num lugar seguro para recuperar o acesso à sua { -product-mozilla-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> Se repuser a sua palavra-passe e não tiver uma chave de recuperação da sua conta guardada, alguns dos seus dados irão ser apagados (incluindo dados de servidor sincronizados como histórico e marcadores).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Inserir uma chave de recuperação da conta
@@ -989,21 +1249,35 @@ account-recovery-reset-password-redirecting = A redirecionar
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Criar nova palavra-passe
+complete-reset-password-warning-message-2 = <span>Memorizar:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores, e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Palavra-passe definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, ocorreu um problema ao definir a sua palavra-passe
+complete-reset-password-recovery-key-error-v2 = Pedimos desculpa, mas ocorreu um problema ao verificar se tem uma chave de recuperação da conta.
+complete-reset-password-recovery-key-link = Reponha a sua palavra-passe com a sua chave de recuperação da conta.
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Mensagem de reposição enviada
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Clique na ligação enviada para { $email } dentro da próxima hora para criar uma nova palavra-passe.
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Redefina a palavra-passe <span>para continuar para as definições da conta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Reponha a palavra-passe <span>para continuar para { $serviceName }</span>
+reset-password-warning-message-2 = <span>Nota:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores, e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = E-mail
@@ -1024,9 +1298,15 @@ validating-signin = A validar o início de sessão…
 ## ConfirmSignin component
 
 confirm-signin-header = Confirmar este início de sessão
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Verifique o seu email para a ligação de confirmação de início de sessão enviada para { $email }
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Insira a sua palavra-passe <span>para a sua { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Insira a sua palavra-passe <span>para a sua { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continue para <span>{ $serviceLogo }</span>
@@ -1039,6 +1319,11 @@ signin-header = Iniciar a sessão
 signin-use-a-different-account-link = Utilizar uma conta diferente
 signin-forgot-password-link = Esqueceu-se da palavra-passe?
 signin-bounced-header = Desculpe. Nós bloqueámos a sua conta.
+# $email (string) - The user's email.
+signin-bounced-message = O e-mail de confirmação que enviámos para { $email } foi retornado e bloqueámos a sua conta para proteger os seus dados do { -brand-firefox }.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Se este é um endereço de email válido, <linkExternal>deixe-nos saber</linkExternal> e podemos ajudar a desbloquear a sua conta.
+signin-bounced-create-new-account = Já não possui esse email? Crie uma nova conta
 back = Voltar
 
 ## SigninRecoveryCode page
@@ -1046,6 +1331,14 @@ back = Voltar
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Insira o código de autenticação da cópia de segurança <span>para continuar para as definições da conta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Insira o código de autenticação de recuperação <span>para continuar para { $serviceName }</span>
+signin-recovery-code-instruction = Por favor, insira um código de autenticação de recuperação que lhe foi fornecido durante a configuração da autenticação de dois passos.
 signin-recovery-code-input-label = Insira o código de recuperação de autenticação de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
@@ -1066,6 +1359,16 @@ signin-reported-message = A nossa equipa foi notificada. As denúncias como esta
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Insira o código de confirmação<span> para a sua { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Insira o código de confirmação<span> para a sua { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Digite dentro de 5 minutos o código que foi enviado para { $email }.
 signin-token-code-input-label-v2 = Inserir código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
@@ -1079,6 +1382,14 @@ signin-token-code-required-error = É necessário o código de confirmação
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Insira o código de autenticação <span>para continuar para as definições da conta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Insira o código de autenticação <span>para continuar para { $serviceName }</span>
+signin-totp-code-instruction-v2 = Abra a sua aplicação de autenticação e introduza o código de autenticação providenciado.
 signin-totp-code-input-label-v2 = Inserir código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
@@ -1092,6 +1403,8 @@ signin-totp-code-required-error = É necessário o código de autenticação
 ## when setting up a new account
 
 confirm-signup-heading = Confirmar a sua conta
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Verifique o seu email para a ligação de confirmação enviada para { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1101,6 +1414,16 @@ confirm-signup-heading = Confirmar a sua conta
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Inserir código de confirmação
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Insira o código de confirmação <span>para a sua { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Insira o código de confirmação <span>para a sua { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Digite dentro de 5 minutos o código que foi enviado para { $email }.
 confirm-signup-code-input-label = Inserir código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
@@ -1115,6 +1438,9 @@ confirm-signup-code-is-required-error = É necessário o código de confirmaçã
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Definir a sua palavra-passe
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Por que preciso criar esta conta? <LinkExternal>Descubra aqui</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)

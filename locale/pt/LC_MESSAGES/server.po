@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2021-11-15 22:28+0000\n"
-"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
+"PO-Revision-Date: 2023-11-10 23:50+0000\n"
+"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -16,12 +16,12 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "contas Mozilla"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logótipo da Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -60,6 +60,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Nós estamos atualmente sob tensão pesada e estamos a trabalhar para devolver\n"
+"            o sistema ao normal assim que possível."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -67,7 +69,7 @@ msgstr "A carregar"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "As contas Mozilla requerem JavaScript."
 
 #: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
@@ -75,7 +77,7 @@ msgstr "As contas do Firefox necessitam de JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Conta Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -88,6 +90,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"A sua conta Mozilla utiliza funcionalidades que não\n"
+"                        são suportadas na sua versão do Firefox. Por favor,\n"
+"                        transfira e instale a versão mais recente do Firefox para\n"
+"                        continuar."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
@@ -104,3 +110,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"As Contas Firefox utilizam funcionalidades que não são\n"
+"não suportadas na sua versão do Firefox. Por favor,\n"
+"transfira e instale a versão mais recente do Firefox\n"
+"para continuar."

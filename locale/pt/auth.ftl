@@ -61,9 +61,11 @@ subplat-update-billing = Atualizar a informação de faturação
 subplat-privacy-policy = Política de privacidade da { -brand-mozilla }
 subplat-privacy-policy-2 = Informação de Privacidade de { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Termos do Serviço { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Termos do Serviço de { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Informações legais
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidade
@@ -125,6 +127,10 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Este pedido teve orige
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Este pedido teve origem em { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Se não foi você, <a data-l10n-name="revokeAccountRecoveryLink">elimine a nova chave</a> e <a data-l10n-name="passwordChangeLink">altere a sua palavra-passe</a>.
+automatedEmailRecoveryKey-change-pwd-only = Se não foi você, <a data-l10n-name="passwordChangeLink">altere a sua palavra-passe</a>.
+automatedEmailRecoveryKey-more-info = Para mais informação, visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Este pedido veio de:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Se não foi você, elimine a nova chave:
 # Colon is followed by a URL to the change password section of account settings
@@ -228,25 +234,6 @@ device-all = { $uaBrowser } no { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } no { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Endereço de IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (estimado)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (estimado)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (estimado)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (estimado)
 view-invoice = <a data-l10n-name="invoiceLink">Ver a sua fatura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -258,6 +245,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = São necessários dois para sincronizar
 cadReminderFirst-description-1 = Utilize os seus separadores em todos os seus dispositivos. Obtenha os seus marcadores, palavras-passe e outros dados, onde quer que utilize o { -brand-firefox }. É como ter magia na sua conta { -brand-firefox }!
+cadReminderFirst-description-v2 = Utilize os seus separadores em todos os seus dispositivos. Obtenha os seus marcadores, palavras-passe e outros dados onde quer que utilize o { -brand-firefox }.
 cadReminderSecond-subject-2 = Não perca nada! Vamos terminar a sua configuração da sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title-2 = Não se esqueça de sincronizar!
@@ -274,6 +262,10 @@ downloadSubscription-link-action-2 = Começar
 fraudulentAccountDeletion-subject = A sua { -product-firefox-account } foi eliminada
 fraudulentAccountDeletion-subject-2 = A sua { -product-mozilla-account } foi eliminada
 fraudulentAccountDeletion-title = A sua conta foi eliminada
+fraudulentAccountDeletion-content = Recentemente, uma { -product-firefox-account } foi criada e foi debitada uma subscrição com este endereço de email. Como fazemos com todas as novas contas, pedimos que confirme a sua conta validando primeiro este endereço de email.
+fraudulentAccountDeletion-content-part1-v2 = Recentemente, uma { -product-mozilla-account } foi criada e foi debitada uma subscrição com este endereço de email. Como fazemos com todas as novas contas, pedimos que confirme a sua conta validando primeiro este endereço de email.
+fraudulentAccountDeletion-content-2 = Neste momento, vemos que a conta nunca foi confirmada. Como este passo não foi concluído, não temos a certeza se esta foi uma subscrição autorizada. Como resultado, a { -product-firefox-account } registada neste endereço de email foi eliminada e a sua subscrição foi cancelada com todos os débitos reembolsados.
+fraudulentAccountDeletion-content-part2-v2 = Neste momento, vemos que a conta nunca foi confirmada. Como este passo não foi concluído, não temos a certeza se esta foi uma subscrição autorizada. Como resultado, a { -product-mozilla-account } registada neste endereço de email foi eliminada e a sua subscrição foi cancelada com todos os débitos reembolsados.
 fraudulentAccountDeletion-contact = Se tiver quaisquer questões, por favor, contacte a nossa <a data-l10n-name="mozillaSupportUrl">equipa de apoio</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -315,6 +307,7 @@ passwordChangeRequired-title = Alteração de palavra-passe necessária
 passwordChangeRequired-suspicious-activity = Nós detetámos um comportamento suspeito na sua { -product-firefox-account }. Para impedir acessos não autorizados na sua { -product-firefox-account }, nós desassociamos todos os dispositivos da sua conta e como precaução solicitamos-lhe que altere a sua palavra-passe.
 passwordChangeRequired-suspicious-activity-2 = Nós detetámos um comportamento suspeito na sua { -product-mozilla-account }. Para impedir acessos não autorizados na sua { -product-mozilla-account }, nós desassociamos todos os dispositivos da sua conta e como precaução solicitamos-lhe que altere a sua palavra-passe.
 passwordChangeRequired-sign-in = Inicie sessão novamente em qualquer dispositivo em que utiliza a sua { -product-firefox-account } e siga os procedimentos que lhe serão indicados.
+passwordChangeRequired-sign-in-2 = Inicie novamente a sessão em qualquer dispositivo ou serviço em que utiliza a sua { -product-mozilla-account } e siga os passos que lhe serão apresentados.
 passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
 passwordChangeRequired-different-password-plaintext = Importante: Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
 passwordReset-subject = Palavra-passe atualizada
@@ -322,7 +315,7 @@ passwordReset-title = A sua palavra-passe da conta foi alterada
 passwordReset-description = Terá de inserir a sua nova palavra-passe nos outros dispositivos para retomar a sincronização.
 passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
 passwordResetAccountRecovery-title-2 = Palavra-passe redefinida com sucesso
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Utilizou a sua chave de recuperação da conta para atualizar a sua palavra-passe de:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Criar uma nova chave de recuperação da conta
@@ -333,6 +326,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Terá de iniciar a sessão 
 passwordResetAccountRecovery-regen-required-txt-1 = Terá de iniciar a sessão novamente em todos os seus dispositivos sincronizados. Lembre-se de criar uma nova chave de recuperação da conta para substituir a que utilizou:
 postAddAccountRecovery-subject-3 = Nova chave de recuperação da conta criada
 postAddAccountRecovery-title2 = Criou uma nova chave de recuperação da conta
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Guarde esta chave num local seguro - irá precisar da mesma para restaurar os seus dados de navegação encriptados caso se esqueça da sua palavra-passe.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Esta chave só pode ser utilizada uma vez. Depois de a utilizar, nós criaremos automaticamente uma nova para si. Ou pode criar uma nova a qualquer momento nas suas definições da conta.
 postAddAccountRecovery-action = Gerir conta
 postAddLinkedAccount-subject = Nova conta associada ao { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nova conta associada à sua { -product-mozilla-account }
@@ -380,12 +377,16 @@ postNewRecoveryCodes-action = Gerir conta
 postRemoveAccountRecovery-subject-2 = Chave de recuperação da conta eliminada
 postRemoveAccountRecovery-title-3 = Eliminou a sua chave de recuperação da conta
 postRemoveAccountRecovery-body-part1 = Se esquecer a sua palavra-passe, é necessária a chave de recuperação da conta para restaurar os seus dados de navegação encriptados.
+postRemoveAccountRecovery-body-part2 = Se ainda não o fez, crie uma nova chave de recuperação da conta nas suas definições da conta para evitar a perda das palavras-passe guardadas, marcadores, histórico de navegação e muito mais.
 postRemoveAccountRecovery-action = Gerir conta
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Removeu com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão não serão mais entregues neste endereço.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Removeu com sucesso { $secondaryEmail } como um e-mail secundário da sua { -product-mozilla-account }. As notificações de segurança e as confirmações de início de sessão já não serão enviadas para este endereço.
 postRemoveSecondary-action = Gerir conta
 postRemoveTwoStepAuthentication-subject-line-2 = Autenticação de dois passos está desativada
 postRemoveTwoStepAuthentication-title-2 = Desativou a autenticação de dois passos
@@ -398,6 +399,7 @@ postVerify-title-2 = Quer ver o mesmo separador em dois dispositivos?
 postVerify-description-2 = É fácil! Basta instalar o { -brand-firefox } noutro dispositivo e iniciar a sessão para sincronizar. É como se fosse magia!
 postVerify-sub-description = (Psst… Isto também significa que pode obter os seus marcadores, palavras-passe e outros dados do { -brand-firefox } em todos os sítios em que estiver autenticado.)
 postVerify-subject-3 = Bem-vindo(a) ao { -brand-firefox }!
+postVerify-subject-4 = Bem-vindo(a) à { -brand-mozilla }!
 postVerify-setup-2 = Ligue outro dispositivo:
 postVerify-action-2 = Ligar outro dispositivo
 postVerifySecondary-subject = Email secundário adicionado
@@ -411,11 +413,9 @@ postVerifySecondary-content-3 = Confirmou { $secondaryEmail } com sucesso, como 
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title-2 = Esqueceu-se da sua palavra-passe?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-firefox-account } de:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:
 recovery-new-password-button = Crie uma nova palavra-passe clicando no botão abaixo. Esta ligação irá expirar daqui a uma hora.
 recovery-copy-paste = Crie uma nova palavra-passe copiando e colando o endereço abaixo no seu navegador. Esta ligação irá expirar daqui a uma hora.
@@ -469,6 +469,7 @@ subscriptionCancellation-title = Temos pena que se vá embora
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Cancelámos a sua subscrição do(a) { $productName }. O seu pagamento final de { $invoiceTotal } foi pago a { $invoiceDateOnly }.
 subscriptionCancellation-outstanding-content-2 = Nós cancelámos a sua subscrição do { $productName }. O seu pagamento final de { $invoiceTotal } será pago em { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
@@ -588,6 +589,13 @@ subscriptionUpgrade-title = Obrigado por atualizar!
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Atualizou com sucesso de { $productNameOld } para { $productName }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle = Será cobrado uma taxa única de { $paymentProrated } para refletir o preço mais alto da sua subscrição para o remanescente deste { $productPaymentCycleOld }. A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
+# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Se existir um novo software para instalar de forma a utilizar o { $productName }, irá receber um e-mail separado com as instruções para a transferência.
 subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
@@ -606,6 +614,7 @@ confirm-account = Confirmar conta
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Lembre-se de confirmar a sua conta
 verificationReminderFirst-title-2 = Bem-vindo ao { -brand-firefox }!
+verificationReminderFirst-title-3 = Bem-vindo(a) à { -brand-mozilla }!
 verificationReminderFirst-description-2 = Há alguns dias, criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 15 dias ou esta será eliminada automaticamente.
 verificationReminderFirst-description-3 = Há alguns dias, criou uma { -product-mozilla-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 15 dias ou esta será eliminada automaticamente.
 verificationReminderFirst-sub-description-3 = Não perca o navegador que o coloca a si e a sua privacidade, em primeiro lugar.
@@ -614,6 +623,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conta
 verificationReminderSecond-subject-2 = Lembre-se de confirmar a sua conta
 verificationReminderSecond-title-2 = Não perca o { -brand-firefox }!
+verificationReminderSecond-title-3 = Não perca a { -brand-mozilla }!
 verificationReminderSecond-description-3 = Há alguns dias, criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 10 dias ou esta será eliminada automaticamente.
 verificationReminderSecond-description-4 = Há alguns dias, criou uma { -product-mozilla-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 10 dias ou esta será eliminada automaticamente.
 verificationReminderSecond-second-description = A sua { -product-firefox-account } deixa-o sincronizar a sua informação entre os dispositivos e desbloqueia o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
@@ -621,6 +631,7 @@ verificationReminderSecond-second-description-3 = A sua { -product-mozilla-accou
 verificationReminderSecond-sub-description-2 = Faça parte da nossa missão para transformar a Internet num lugar aberto para todos.
 verificationReminderSecond-action-2 = Confirmar conta
 verify-title-2 = Aceda à Internet com o { -brand-firefox }
+verify-title-3 = Aceda à Internet com a { -brand-mozilla }
 verify-description = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os sítios em que iniciar sessão, a começar por:
 verify-description-2 = Confirme a sua conta e aproveite ao máximo o { -brand-mozilla } em todos os sítios em que iniciar a sessão, começando por:
 verify-subject = Conclua a criação da sua conta
@@ -662,6 +673,7 @@ verifySecondaryCode-expiry-notice-2 = Este expira em 5 minutos. Depois de confir
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirmar a sua conta
 verifyShortCode-title-2 = Aceda à Internet com o { -brand-firefox }
+verifyShortCode-title-3 = Aceda à Internet com a { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os sítios em que iniciar sessão, começando com:
 # Information on the browser and device triggering this confirmation email follows below this string.
