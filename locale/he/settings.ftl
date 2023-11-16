@@ -301,8 +301,9 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = מוצרי { -brand-mozilla }
 bento-menu-firefox-title = ‏{ -brand-firefox } הוא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
-bento-menu-mozilla-title = ‏{ -brand-mozilla } היא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
+bento-menu-tagline = מוצרים נוספים מ־{ -brand-mozilla } שמגנים על הפרטיות שלך
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -335,7 +336,7 @@ cs-cannot-refresh = הייתה בעיה ברענון רשימת השירותים
 cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = נותקת מ־{ $service }
 cs-refresh-button =
@@ -347,7 +348,7 @@ cs-disconnect-sync-heading = ניתוק מ־Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = נתוני הגלישה שלך יישארו ב־<span>{ $device }</span>, אך לא יסתנכרנו עוד עם החשבון שלך.
@@ -667,20 +668,6 @@ recent-activity-account-secondary-email-removed = הוסרה כתובת דוא״
 recent-activity-account-emails-swapped = הוחלפה כתובת הדוא״ל הראשית במשנית
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = פעילות אחרת בחשבון
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = ביטול
-recovery-key-close-button = סגירה
-recovery-key-continue-button = המשך
-recovery-key-created-1 = מפתח לשחזור החשבון שלך נוצר. יש להקפיד לשמור את המפתח במקום בטוח שתהיה לך האפשרות למצוא בקלות מאוחר יותר — יהיה לך צורך במפתח זה כדי לקבל בחזרה גישה לנתונים שלך במקרה ששכחת את הססמה שלך.
-recovery-key-enter-password =
-    .label = נא להכניס ססמה
-recovery-key-page-title-1 =
-    .title = מפתח שחזור חשבון
-recovery-key-step-1 = שלב 1 מתוך 2
-recovery-key-step-2 = שלב 2 מתוך 2
-recovery-key-success-alert-3 = נוצר מפתח לשחזור החשבון
 
 ## PageRecoveryKeyCreate
 
