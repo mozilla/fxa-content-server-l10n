@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Bento-meni { -brand-firefox }
 bento-menu-title-2 = Meni Bento { -brand-mozilla }
+bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } jo technologija, kótaraž za wašu priwatnosć online wójujo.
-bento-menu-mozilla-title = { -brand-mozilla } jo technologija, kótaraž za wašu priwatnosć online wójujo.
+bento-menu-tagline = Dalšne produkty wót { -brand-mozilla }, kótarež wašu priwatnosć šćitaju
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -707,20 +708,6 @@ recent-activity-account-secondary-email-removed = Sekundarna e-mailowa adresa w�
 recent-activity-account-emails-swapped = Primarne a sekundarne e-mailowe adrese su zaměnjone
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Pśetergnuś
-recovery-key-close-button = Zacyniś
-recovery-key-continue-button = Dalej
-recovery-key-created-1 = Waš kontowy wótnowjeński kluc jo se napórał. Składujśo kluc na wěstem městnje, kótarež móžośo pózdźej lažko zasej namakaś – trjebaśo kluc, aby zasej pśistup k swójim datam dostał, jolic sćo zabył swójo gronidło.
-recovery-key-enter-password =
-    .label = Gronidło zapódaś
-recovery-key-page-title-1 =
-    .title = Kontowy wótnowjeński kluc
-recovery-key-step-1 = Kšac 1 z 2
-recovery-key-step-2 = Kšac 2 z 2
-recovery-key-success-alert-3 = Kontowy wótnowjeński kluc jo se napórał
 
 ## PageRecoveryKeyCreate
 
