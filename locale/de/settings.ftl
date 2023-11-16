@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-Menü
 bento-menu-title-2 = { -brand-mozilla }-Bento-Menü
+bento-menu-title-3 = { -brand-mozilla }-Produkte
 bento-menu-firefox-title = { -brand-firefox } ist eine Technologie, die für Ihre Privatsphäre im Internet kämpft.
-bento-menu-mozilla-title = { -brand-mozilla } ist eine Technologie, die für Ihre Privatsphäre im Internet kämpft.
+bento-menu-tagline = Weitere { -brand-mozilla }-Produkte, die deine Privatsphäre schützen
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Client nicht gefunden, Verbindung kann nicht getrennt werden
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Von { $service } abgemeldet
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Von Sync trennen
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = Ihre Surf-Daten verbleiben auf <span>{ $device }</span>, werden aber nicht mehr mit Ihrem Konto synchronisiert.
@@ -706,20 +707,6 @@ recent-activity-account-emails-swapped = Primär- und Sekundär-E-Mail-Adresse v
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Andere Kontoaktivitäten
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Abbrechen
-recovery-key-close-button = Schließen
-recovery-key-continue-button = Fortsetzen
-recovery-key-created-1 = Ihr Kontowiederherstellungsschlüssel wurde erstellt. Bewahren Sie den Schlüssel an einem sicheren Ort auf, den Sie später leicht finden können. Wenn Sie Ihr Passwort vergessen haben, benötigen Sie den Schlüssel, um wieder auf Ihre Daten zugreifen zu können.
-recovery-key-enter-password =
-    .label = Passwort eingeben
-recovery-key-page-title-1 =
-    .title = Kontowiederherstellungsschlüssel
-recovery-key-step-1 = Schritt 1 von 2
-recovery-key-step-2 = Schritt 2 von 2
-recovery-key-success-alert-3 = Kontowiederherstellungsschlüssel erstellt
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1061,7 +1048,7 @@ cookies-disabled-learn-more = Weitere Informationen
 inline-recovery-setup-header-default = Bestätigen Sie den Sie Sicherungs-Authentifizierungscode, <span>um mit den Kontoeinstellungen fortzufahren</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Speichern Sie einen Sicherungs-Authentifizierungscode, <span>um mit { $serviceName } fortzufahren</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Bewahren Sie diese Einmalbenutzungscodes an einem sicheren Ort auf, für den Fall, dass Sie den Zugriff auf Ihr Mobilgerät verlieren.
@@ -1081,7 +1068,7 @@ inline-recovery-confirmation-description = Geben Sie einen Ihrer gespeicherten S
 inline-recovery-confirmation-header-default = Bestätigen Sie den Sie Sicherungs-Authentifizierungscode, <span>um mit den Kontoeinstellungen fortzufahren</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bestätigen Sie den Sicherungs-Authentifizierungscode, <span>um mit { $serviceName } fortzufahren</span>
 
 ## InlineTotpSetup page
