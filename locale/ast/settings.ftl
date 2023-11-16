@@ -38,6 +38,8 @@
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Contraseña
 
 ## FormVerifyCode
 
@@ -92,6 +94,10 @@
 # BentoMenu component
 
 bento-menu-firefox-title = { -brand-firefox } ye teunoloxía que llucha pola to privacidá en llinia.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Restolador { -brand-firefox } pa ordenadores
 bento-menu-firefox-mobile = Restolador { -brand-firefox } pa móviles
 
@@ -108,10 +114,8 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Servicios conectaos
-cs-description = Tolo que tas usando y no qu'aniciesti sesión.
-cs-cannot-refresh =
-    Sentímoslo, hebo un problema al refrescar la llista de servicios
-    conectaos.
+cs-description = Tolo que tas usando y no qu'aniciesti la sesión.
+cs-cannot-refresh = Hebo un problema al anovar la llista de servicios conectaos.
 cs-cannot-disconnect = Nun s'atopó'l veceru, nun ye posible conectase
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -126,12 +130,12 @@ cs-cannot-disconnect = Nun s'atopó'l veceru, nun ye posible conectase
 
 cs-disconnect-sync-opt-prefix = El preséu:
 cs-disconnect-sync-opt-suspicious = Ye sospechosu
-cs-disconnect-sync-opt-lost = Ta perdíu o robáronlu
+cs-disconnect-sync-opt-lost = Perdílu o robáronlu
 cs-disconnect-sync-opt-not-say = Nun quiero dicilo
 
 ##
 
-cs-sign-out-button = Zarrar sesión
+cs-sign-out-button = Zarrar la sesión
 
 ##
 
@@ -143,7 +147,7 @@ dc-subheader-content = Permitir a { -product-firefox-accounts } qu'unvie datos t
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menú de { -product-firefox-account }
-drop-down-menu-sign-out-error-2 = Sentímoslo, hebo un problema al zarrar la sesión
+drop-down-menu-sign-out-error-2 = Hebo un problema al zarrar la sesión
 
 ## Flow Container
 
@@ -186,7 +190,7 @@ msv-cancel-button = Encaboxar
 
 ## Settings Nav
 
-nav-settings = Axustes
+nav-settings = Configuración
 nav-profile = Perfil
 nav-security = Seguranza
 nav-connected-services = Servicios conectaos
@@ -216,8 +220,6 @@ avatar-page-zoom-out-button =
     .title = Alloñar
 avatar-page-zoom-in-button =
     .title = Averar
-avatar-page-rotate-button =
-    .title = Voltiar
 avatar-page-camera-error = Nun pudo aniciase la cámara
 avatar-page-new-avatar =
     .alt = semeya del perfil nueva
@@ -248,6 +250,14 @@ delete-account-header =
     .title = Desaniciu de la cuenta
 delete-account-step-1-2 = Pasu 1 de 2
 delete-account-step-2-2 = Pasu 2 de 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-chk-box-4 =
     .label = Van desaniciase toles estensiones y estilos qu'espublizares n'addons.mozilla.org
 delete-account-continue-button = Siguir
@@ -308,9 +318,7 @@ tfa-scan-this-code =
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Usa'l códigu { $secret } pa configurar la verificación en dos
-    pasos nes aplicaciones compatibles.
+tfa-qa-code-alt = Usa'l códigu { $secret } pa configurar la verificación en dos pasos nes aplicaciones compatibles.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
@@ -348,14 +356,13 @@ row-defaults-action-change = Camudar
 
 ## Account recovery key sub-section on main Settings page
 
-rk-not-set = Nun s'afitó
 rk-action-create = Crear
 rk-action-remove = Quitar
-rk-cannot-remove-key = La clave de recuperación de la cuenta nun pudo quitase.
+rk-cannot-remove-key = Nun se pudo quitar la clave de recuperación de la cuenta.
 
 ## Secondary email sub-section on main Settings page
 
-se-delete-email-error-2 = Sentímoslo, hebo un problema al desaniciar esta direición de corréu electrónicu
+se-delete-email-error-2 = Hebo un problema al desaniciar esta direición de corréu electrónicu
 
 ##
 
@@ -363,14 +370,15 @@ se-delete-email-error-2 = Sentímoslo, hebo un problema al desaniciar esta direi
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticación en dos pasos
-tfa-row-not-set = Nun s'afitó
 tfa-row-action-add = Amestar
 tfa-row-button-refresh =
-    .title = Refrescar l'autenticación en dos pasos
+    .title = Anovar l'autenticación en dos pasos
 tfa-row-cannot-refresh =
-    Sentímoslo, hebo un problema al refrescar
-    l'autenticación en dos pasos.
-tfa-row-content-explain = Impide qu'otra persona anicia la sesión pidiendo
+    Hebo un problema al anovar l'autenticación
+    en dos pasos.
+tfa-row-content-explain =
+    Impide qu'otres persones anicien la sesión pidiendo
+    un códigu únicu que namás tu conoces.
 tfa-row-disable-modal-heading = ¿Quies desactivar l'autenticación en dos pasos?
 tfa-row-change-modal-confirm = Camudar
 tfa-row-change-modal-explain = Nun vas ser a desfacer esta aición.
