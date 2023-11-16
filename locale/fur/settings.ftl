@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Menù bento di { -brand-firefox }
 bento-menu-title-2 = Menù bento di { -brand-mozilla }
+bento-menu-title-3 = Prodots { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } e je une tecnologjie che e combat pe tô riservatece in rêt.
-bento-menu-mozilla-title = { -brand-mozilla } e je la tecnologjie che e combat pe tô riservatece in rêt.
+bento-menu-tagline = Altris prodots di { -brand-mozilla } che a protezin la tô riservatece
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Client no cjatât, impussibil disconeti
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Disconetût di { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Disconet di Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = I dâts relatîfs ae navigazion a restaran tal dispositîf <span>{ $device }</span>, ma no vignaran plui sincronizâts cul to account.
@@ -706,20 +707,6 @@ recent-activity-account-emails-swapped = Direzions e-mails primarie e secondarie
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altris ativitâts dal account
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Anule
-recovery-key-close-button = Siere
-recovery-key-continue-button = Continue
-recovery-key-created-1 = La tô clâf di recupar dal account e je stade creade. Viôt di salvâ la clâf intun puest sigûr che tu podarâs cjatâ cun facilitât plui indevant — la clâf ti coventarà par tornâ a otignî l’acès ai tiei dâts se tu dismenteis la password.
-recovery-key-enter-password =
-    .label = Inserî la password
-recovery-key-page-title-1 =
-    .title = Clâf di recupar dal account
-recovery-key-step-1 = Passaç 1 di 2
-recovery-key-step-2 = Passaç 2 di 2
-recovery-key-success-alert-3 = La clâf di recupar dal account e je stade creade
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1064,7 +1051,7 @@ cookies-disabled-learn-more = Plui informazions
 inline-recovery-setup-header-default = Conferme il codiç di autenticazion di backup <span>par continuâ cu lis impostazions dal account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Salve i codiçs di autenticazion di backup <span>par continuâ su { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Conserve chescj codiçs, che si puedin doprâ une volte sole, intun puest sigûr tal câs che tu no tu vedis a puartade di man il to dispositîf mobil.
@@ -1084,7 +1071,7 @@ inline-recovery-confirmation-description = Par sigurâsi che tu podedis tornâ a
 inline-recovery-confirmation-header-default = Conferme il codiç di autenticazion di backup <span>par continuâ cu lis impostazions dal account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferme il codiç di autenticazion di backup <span>par continuâ su { $serviceName }</span>
 
 ## InlineTotpSetup page
