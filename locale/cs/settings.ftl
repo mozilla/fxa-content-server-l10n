@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Nabídka { -brand-firefox(case: "gen") }
 bento-menu-title-2 = Nabídka { -brand-mozilla(case: "gen") }
+bento-menu-title-3 = produkty { -brand-mozilla(case: "gen") }
 bento-menu-firefox-title = { -brand-firefox } je technologie, která bojuje za vaše soukromí na internetu.
-bento-menu-mozilla-title = { -brand-mozilla } je technologie, která bojuje za vaše soukromí na internetu.
+bento-menu-tagline = Další produkty od { -brand-mozilla(case: "gen") }, které chrání vaše soukromí
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -707,20 +708,6 @@ recent-activity-account-secondary-email-removed = Odebrán záložní e-mail
 recent-activity-account-emails-swapped = Prohozen hlavní a záložní e-mail
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Jiná aktivita u účtu
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Zrušit
-recovery-key-close-button = Zavřít
-recovery-key-continue-button = Pokračovat
-recovery-key-created-1 = Váš obnovovací klíč k účtu byl vytvořen. Uložte si ho na bezpečném místě, kde ho v případě potřeby snadno najdete. V případě zapomenutí hesla ho budete potřebovat pro získání přístupu ke svým datům.
-recovery-key-enter-password =
-    .label = Zadejte heslo
-recovery-key-page-title-1 =
-    .title = Obnovovací klíč k účtu
-recovery-key-step-1 = Krok 1 ze 2
-recovery-key-step-2 = Krok 2 ze 2
-recovery-key-success-alert-3 = Obnovovací klíč k účtu byl vytvořen
 
 ## PageRecoveryKeyCreate
 
