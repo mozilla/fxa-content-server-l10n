@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } bentó menü
 bento-menu-title-2 = { -brand-mozilla } bentó menü
+bento-menu-title-3 = { -brand-mozilla } termékekre
 bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
-bento-menu-mozilla-title = A { -brand-mozilla } olyan technológia, amely az Ön online adatvédelméért harcol.
+bento-menu-tagline = A { -brand-mozilla } további termékei, amelyek védik az adatait
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = A kliens nem található, a leválasztás sikertelen
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Kijelentkezett innen: { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Leválás a Syncről
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -712,20 +713,6 @@ recent-activity-account-emails-swapped = Elsődleges és másodlagos e-mail cím
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Egyéb fióktevékenység
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Mégse
-recovery-key-close-button = Bezárás
-recovery-key-continue-button = Folytatás
-recovery-key-created-1 = A fiók-helyreállítási kulcs létrejött. Győződjön meg róla, hogy olyan helyen tárolja biztonságosan, ahol könnyen megtalálja – a jelszó elfelejtése esetén szüksége lesz a kulcsra, hogy visszanyerje a hozzáférést az adataihoz.
-recovery-key-enter-password =
-    .label = Adja meg a jelszót
-recovery-key-page-title-1 =
-    .title = Fiók-helyreállítási kulcs
-recovery-key-step-1 = 1. / 2. lépés
-recovery-key-step-2 = 2. / 2. lépés
-recovery-key-success-alert-3 = Fiók-helyreállítási kulcs létrehozva
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1070,7 +1057,7 @@ cookies-disabled-learn-more = További tudnivalók
 inline-recovery-setup-header-default = Erősítse meg a tartalék hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Mentse el a tartalék hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Tárolja ezeket az egyszer használatos kódokat biztonságos helyen, arra az esetre, ha nincs mobileszköze.
@@ -1090,7 +1077,7 @@ inline-recovery-confirmation-description = Annak érdekében, hogy visszaszerezh
 inline-recovery-confirmation-header-default = Erősítse meg a tartalék hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Erősítse meg a tartalék hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 
 ## InlineTotpSetup page
