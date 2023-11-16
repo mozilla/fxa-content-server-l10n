@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Bento-meni { -brand-firefox }
 bento-menu-title-2 = Meni Bento { -brand-mozilla }
+bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } je technologija, kotraž za wašu priwatnosć online wojuje.
-bento-menu-mozilla-title = { -brand-mozilla } je technologija, kotraž za wašu priwatnosć online wojuje.
+bento-menu-tagline = Dalše produkty wot { -brand-mozilla }, kotrež wašu priwatnosć škitaja
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -707,20 +708,6 @@ recent-activity-account-secondary-email-removed = Sekundarna e-mejlowa adresa je
 recent-activity-account-emails-swapped = Primarne a sekundarne e-mejlowe adresy su zaměnjene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druha kontowa aktiwita
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Přetorhnyć
-recovery-key-close-button = Začinić
-recovery-key-continue-button = Dale
-recovery-key-created-1 = Waš kontowy wobnowjenski kluč je so wutworił. Składujće kluč na wěstym městnje, kotrež móžeće pozdźišo lochko zaso namakać – trjebaće kluč, zo byšće zaso přistup k swojim datam dóstał, jeli sće swoje hesło zabył.
-recovery-key-enter-password =
-    .label = Hesło zapodać
-recovery-key-page-title-1 =
-    .title = Kontowy wobnowjenski kluč
-recovery-key-step-1 = Krok 1 z 2
-recovery-key-step-2 = Krok 2 z 2
-recovery-key-success-alert-3 = Kontowy wobnowjenski kluč je so wutworił
 
 ## PageRecoveryKeyCreate
 
