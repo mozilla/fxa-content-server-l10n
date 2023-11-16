@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Menu bento di { -brand-firefox }
 bento-menu-title-2 = Menu bento di { -brand-mozilla }
+bento-menu-title-3 = { -brand-mozilla } prodotti
 bento-menu-firefox-title = { -brand-firefox } è una tecnologia che combatte per la tua privacy online.
-bento-menu-mozilla-title = { -brand-mozilla } è la tecnologia che combatte per la tua privacy online.
+bento-menu-tagline = Altri prodotti { -brand-mozilla } che proteggono la tua privacy
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -692,20 +693,6 @@ recent-activity-account-secondary-email-removed = Indirizzo email secondario rim
 recent-activity-account-emails-swapped = Indirizzo email principale e secondario scambiati
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altre attività dell’account
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Annulla
-recovery-key-close-button = Chiudi
-recovery-key-continue-button = Continua
-recovery-key-created-1 = La chiave di recupero dell’account è stata creata. Assicurati di salvare la chiave in un luogo sicuro che potrai trovare facilmente in seguito: ti servirà per riottenere l’accesso ai tuoi dati se dimentichi la password.
-recovery-key-enter-password =
-    .label = Inserire la password
-recovery-key-page-title-1 =
-    .title = Chiave di recupero dell’account
-recovery-key-step-1 = Passaggio 1 di 2
-recovery-key-step-2 = Passaggio 2 di 2
-recovery-key-success-alert-3 = La chiave di recupero dell’account è stata generata
 
 ## PageRecoveryKeyCreate
 
