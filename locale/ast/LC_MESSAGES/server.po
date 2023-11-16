@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2022-07-25 19:09+0000\n"
+"PO-Revision-Date: 2023-11-16 20:12+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -41,7 +41,7 @@ msgstr "Aniciu"
 
 #: server/templates/pages/src/500.html:3
 msgid "500 Error"
-msgstr "Fallu 500"
+msgstr "Error 500"
 
 #: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
@@ -53,7 +53,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
-msgstr "Fallu 502"
+msgstr "Error 502"
 
 #: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
