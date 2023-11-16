@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Dewislen Bento { -brand-firefox }
 bento-menu-title-2 = Dewislen Bento { -brand-mozilla }
+bento-menu-title-3 = { -brand-mozilla } cynnyrch
 bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
-bento-menu-mozilla-title = Mae { -brand-mozilla } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
+bento-menu-tagline = Mwy o gynhyrchion o { -brand-mozilla } sy'n amddiffyn eich preifatrwydd
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -343,7 +344,7 @@ cs-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r rhestr o wasan
 cs-cannot-disconnect = Cleient heb ei ddarganfod, yn methu â datgysylltu
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wedi allgofnodi o { $service }.
 cs-refresh-button =
@@ -355,7 +356,7 @@ cs-disconnect-sync-heading = Datgysylltu o Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -706,20 +707,6 @@ recent-activity-account-emails-swapped = E-byst cyntaf ac ail wedi'u cyfnewid
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Gweithgarwch cyfrif arall
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Diddymu
-recovery-key-close-button = Cau
-recovery-key-continue-button = Parhau
-recovery-key-created-1 = Mae allwedd adfer eich cyfrif wedi'i chreu. Gwnewch yn siŵr eich bod chi'n cadw'r allwedd mewn man diogel y gallwch chi ddod o hyd iddo'n hawdd yn nes ymlaen - bydd angen yr allwedd arnoch i adennill mynediad i'ch data os byddwch chi'n anghofio'ch cyfrinair.
-recovery-key-enter-password =
-    .label = Rhowch gyfrinair
-recovery-key-page-title-1 =
-    .title = Allwedd adfer cyfrif
-recovery-key-step-1 = Cam 1 o 2
-recovery-key-step-2 = Cam 2 o 2
-recovery-key-success-alert-3 = Crëwyd eich allwedd adfer cyfrif
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1062,7 +1049,7 @@ cookies-disabled-learn-more = Dysgu rhagor
 inline-recovery-setup-header-default = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i osodiadau'r cyfrif</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Cadwch godau dilysu wrth gefn <span>i barhau i { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Storiwch y codau defnydd un-amser hyn mewn man diogel pan nad oes gennych chi'ch dyfais symudol.
@@ -1082,7 +1069,7 @@ inline-recovery-confirmation-description = Er mwyn sicrhau y byddwch yn gallu ad
 inline-recovery-confirmation-header-default = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i osodiadau'r cyfrif</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i { $serviceName }</span>
 
 ## InlineTotpSetup page
