@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento Menu
 bento-menu-title-2 = { -brand-mozilla } Bento Menu
+bento-menu-title-3 = { -brand-mozilla } products
 bento-menu-firefox-title = { -brand-firefox } is tech that fights for your online privacy.
-bento-menu-mozilla-title = { -brand-mozilla } is tech that fights for your online privacy.
+bento-menu-tagline = More products from { -brand-mozilla } that protect your privacy
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Client not found, unable to disconnect
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logged out of { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Disconnect from Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -708,20 +709,6 @@ recent-activity-account-emails-swapped = Primary and secondary emails swapped
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Other account activity
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Cancel
-recovery-key-close-button = Close
-recovery-key-continue-button = Continue
-recovery-key-created-1 = Your account recovery key has been created. Be sure to save the key in a safe place that you can easily find later — you’ll need the key to regain access to your data if you forget your password.
-recovery-key-enter-password =
-    .label = Enter password
-recovery-key-page-title-1 =
-    .title = Account recovery key
-recovery-key-step-1 = Step 1 of 2
-recovery-key-step-2 = Step 2 of 2
-recovery-key-success-alert-3 = Account recovery key created
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1068,7 +1055,7 @@ cookies-disabled-learn-more = Learn more
 inline-recovery-setup-header-default = Confirm backup authentication code <span>to continue to account settings</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Save backup authentication codes <span>to continue to { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Store these one-time use codes in a safe place for when you don’t have your mobile device.
@@ -1088,7 +1075,7 @@ inline-recovery-confirmation-description = To ensure that you will be able to re
 inline-recovery-confirmation-header-default = Confirm backup authentication code <span>to continue to account settings</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirm backup authentication code <span>to continue to { $serviceName }</span>
 
 ## InlineTotpSetup page
