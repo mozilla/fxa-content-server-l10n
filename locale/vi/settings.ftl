@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Menu { -brand-firefox } Bento
 bento-menu-title-2 = Menu Bento { -brand-mozilla }
+bento-menu-title-3 = Các sản phẩm { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } là công nghệ đấu tranh cho quyền riêng tư trực tuyến của bạn.
-bento-menu-mozilla-title = { -brand-mozilla } là công nghệ đấu tranh cho quyền riêng tư trực tuyến của bạn.
+bento-menu-tagline = Các sản phẩm khác từ { -brand-mozilla } bảo vệ quyền riêng tư của bạn
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Không tìm thấy ứng dụng khách, không ngắt kết nối được.
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Đã đăng xuất khỏi { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Ngắt kết nối khỏi đồng bộ hóa
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -708,20 +709,6 @@ recent-activity-account-emails-swapped = Đã hoán đổi giữa địa chỉ e
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Hoạt động tài khoản khác
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Hủy bỏ
-recovery-key-close-button = Đóng
-recovery-key-continue-button = Tiếp tục
-recovery-key-created-1 = Khóa khôi phục tài khoản của bạn đã được tạo. Đảm bảo lưu khóa ở nơi an toàn mà bạn có thể dễ dàng tìm thấy sau này — bạn sẽ cần khóa để lấy lại quyền truy cập vào dữ liệu của mình nếu quên mật khẩu.
-recovery-key-enter-password =
-    .label = Nhập mật khẩu
-recovery-key-page-title-1 =
-    .title = Khóa khôi phục tài khoản
-recovery-key-step-1 = Bước 1/2
-recovery-key-step-2 = Bước 2/2
-recovery-key-success-alert-3 = Đã tạo khóa khôi phục tài khoản
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1066,7 +1053,7 @@ cookies-disabled-learn-more = Tìm hiểu thêm
 inline-recovery-setup-header-default = Xác nhận mã xác thực dự phòng <span>để tiếp tục đến cài đặt tài khoản</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Lưu mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Lưu trữ các mã sử dụng một lần này ở nơi an toàn khi bạn không có thiết bị di động.
@@ -1086,7 +1073,7 @@ inline-recovery-confirmation-description = Để đảm bảo rằng bạn có t
 inline-recovery-confirmation-header-default = Xác nhận mã xác thực dự phòng <span>để tiếp tục đến cài đặt tài khoản</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Xác nhận mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
 
 ## InlineTotpSetup page
