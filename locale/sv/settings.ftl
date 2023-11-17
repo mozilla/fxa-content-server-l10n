@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-meny
 bento-menu-title-2 = { -brand-mozilla } Bento-meny
+bento-menu-title-3 = { -brand-mozilla }-produkter
 bento-menu-firefox-title = { -brand-firefox } är teknik som kämpar för din integritet online.
-bento-menu-mozilla-title = { -brand-mozilla } är teknik som kämpar för din integritet online.
+bento-menu-tagline = Fler produkter från { -brand-mozilla } som skyddar din integritet
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Klienten hittades inte, kunde inte koppla ifrån
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Loggade ut från { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Koppla från Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -708,20 +709,6 @@ recent-activity-account-emails-swapped = Primär och sekundär e-post har bytts
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Avbryt
-recovery-key-close-button = Stäng
-recovery-key-continue-button = Fortsätt
-recovery-key-created-1 = Din kontoåterställningsnyckel har skapats. Se till att spara nyckeln på ett säkert ställe som du lätt kan hitta senare — du behöver nyckeln för att återfå åtkomst till dina data om du glömmer ditt lösenord.
-recovery-key-enter-password =
-    .label = Ange lösenord
-recovery-key-page-title-1 =
-    .title = Nyckel för kontoåterställning
-recovery-key-step-1 = Steg 1 av 2
-recovery-key-step-2 = Steg 2 av 2
-recovery-key-success-alert-3 = Kontoåterställningsnyckel skapad
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1068,7 +1055,7 @@ cookies-disabled-learn-more = Läs mer
 inline-recovery-setup-header-default = Bekräfta reservautentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Spara reservautentiseringskoder <span>för att fortsätta till { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Förvara dessa engångskoder på en säker plats när du inte har tillgång till din mobila enhet.
@@ -1088,7 +1075,7 @@ inline-recovery-confirmation-description = För att säkerställa att du kommer 
 inline-recovery-confirmation-header-default = Bekräfta reservautentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekräfta reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
 
 ## InlineTotpSetup page
