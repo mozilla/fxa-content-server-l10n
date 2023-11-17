@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox アカウント
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = アカウントホーム
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -131,8 +100,7 @@ payment-confirmation-download-button = ダウンロードを続行
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
-payment-confirm-with-legal-links-static-2 = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
+payment-confirm-with-legal-links-static-3 = 私がサブスクリプションをキャンセルするまでの間、{ -brand-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
 payment-confirm-checkbox-error = 先へ進む前に、こちらに同意していただく必要があります。
 
 ## Component - PaymentErrorView
@@ -143,7 +111,7 @@ payment-error-manage-subscription-button = サブスクリプションの管理
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = すでに { -brand-name-google } もしくは { -brand-name-apple } のアプリストア経由で { $productName } のサブスクリプションをお持ちです。
+iap-upgrade-already-subscribed-2 = すでに { -brand-google } もしくは { -brand-apple } のアプリストア経由で { $productName } のサブスクリプションをお持ちです。
 iap-upgrade-no-bundle-support = 現在これらのサブスクリプションのアップグレードには対応していませんが、まもなく対応する予定です。
 iap-upgrade-contact-support = それでも、この製品が入手できますので、サポートへお問い合わせください。
 iap-upgrade-get-help-button = ヘルプを表示
@@ -158,16 +126,16 @@ payment-cc =
 payment-cancel-btn = キャンセル
 payment-update-btn = 更新
 payment-pay-btn = 今すぐ払う
-payment-pay-with-paypal-btn = { -brand-name-paypal } で支払う
+payment-pay-with-paypal-btn-2 = { -brand-paypal } で支払う
 payment-validate-name-error = お名前を入力してください。
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } は、安全な決済処理のために { -brand-name-stripe }と { -brand-name-paypal } を使用します。
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } プライバシーポリシー</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } プライバシーポリシー</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } は、安全な決済処理のために { -brand-name-paypal } を使用します。
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } プライバシーポリシー</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } は、安全な決済処理のために { -brand-name-stripe } を使用します。
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } は、安全な決済処理のために { -brand-name-stripe }と { -brand-paypal } を使用します。
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } プライバシーポリシー</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } プライバシーポリシー</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } は、安全な決済処理のために { -brand-paypal } を使用します。
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } プライバシーポリシー</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } は、安全な決済処理のために { -brand-name-stripe } を使用します。
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } プライバシーポリシー</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -187,7 +155,7 @@ payment-confirmation-cc-card-ending-in = 下 4 桁が { $last4 } のカード
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = { -brand-name-paypal } で支払う
+pay-with-heading-paypal-2 = { -brand-paypal } で支払う
 
 ## Component - PlanDetails
 
@@ -416,9 +384,6 @@ subscription-iaperrorupgrade-title = まだアップグレードできません
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play ストア
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -466,7 +431,6 @@ sub-route-idx-cancel-msg-title = ご利用ありがとうございました
 sub-route-idx-cancel-msg =
     { $name } のサブスクリプションがキャンセルされました。<br />
     { $date } まで { $name } へのアクセスができます。
-sub-route-idx-cancel-aside = ご質問のある方は <a>{ -brand-name-mozilla } サポート</a> をご覧ください。
 
 ## Routes - Subscriptions - Errors
 
@@ -501,7 +465,6 @@ sub-expires-on = 有効期限: { $date }
 pay-update-card-exp = 有効期限: { $expirationDate }
 sub-route-idx-updating = 請求情報を更新しています...
 sub-route-payment-modal-heading = 請求情報が無効です
-sub-route-payment-modal-message = { -brand-name-paypal } のアカウントに問題があるようです。この支払いの問題を解決するために必要な手続きを行ってください。
 sub-route-missing-billing-agreement-payment-alert = 支払い方法が無効です。アカウントに問題があります。<div>管理</div>
 sub-route-funding-source-payment-alert = 支払い方法が無効です。アカウントに問題があります。正しい情報に更新した後、この警告が解除されるまでしばらく時間がかかる場合があります。<div>管理</div>
 
@@ -515,7 +478,6 @@ sub-invoice-preview-error-text = サブスクリプションの請求書プレ�
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = { -brand-name-pocket } の有料サブスクリプションをお探しですか？
 manage-pocket-body-2 = 管理するには、 <linkExternal>ここをクリック</linkExternal>してください。
 
 ## Routes - Subscriptions - Reactivate
@@ -540,6 +502,4 @@ reactivate-success-button = 閉じる
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: アプリ内課金
-sub-iap-item-apple-purchase = { -brand-name-apple }: アプリ内課金
 sub-iap-item-manage-button = 管理
