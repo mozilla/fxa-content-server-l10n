@@ -992,6 +992,7 @@ auth-error-999 = Njewótcakowana zmólka
 auth-error-1003 = Local Storage abo cookieje su hyšći znjemóžnjone
 auth-error-1008 = Wašo nowe gronidło musy druge byś
 auth-error-1011 = Płaśiwa e-mailowa adresa trěbna
+auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.

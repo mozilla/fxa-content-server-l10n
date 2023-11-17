@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox Accounts
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Startowy bok konta
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -143,8 +112,7 @@ payment-confirmation-download-button = Dalej k ześěgnjenjeju
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu wobśěžyś, daniž swój abonement njewupowěźejom.
-payment-confirm-with-legal-links-static-2 = Awtorizěrujom { -brand-name-mozilla } pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu wobśěžyś, daniž swój abonement njewupowěźejom.
+payment-confirm-with-legal-links-static-3 = Awtorizěrujom { -brand-mozilla } pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu wobśěžyś, daniž swój abonement njewupowěźejom.
 payment-confirm-checkbox-error = Musyśo to dokóncyś, nježli až móžośo pókšacowaś
 
 ## Component - PaymentErrorView
@@ -155,7 +123,7 @@ payment-error-manage-subscription-button = Abonoment zastojaś
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Maśo južo abonement { $productName } pśez app-wobchoda { -brand-name-google } abo { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Maśo južo abonement { $productName } pśez app-wobchoda { -brand-google } abo { -brand-apple }.
 iap-upgrade-no-bundle-support = Njepódpěramy aktualizacije za toś te abonementy, ale buźomy to skóro cyniś.
 iap-upgrade-contact-support = Móžośo toś ten produkt hyšći dostaś – stajśo se z teamom pomocy do zwiska, aby mógli wam pomagaś.
 iap-upgrade-get-help-button = Pomoc se wobstaraś
@@ -170,16 +138,16 @@ payment-cc =
 payment-cancel-btn = Pśetergnuś
 payment-update-btn = Aktualizěrowaś
 payment-pay-btn = Něnto płaśiś
-payment-pay-with-paypal-btn = Z { -brand-name-paypal } płaśiś
+payment-pay-with-paypal-btn-2 = Z { -brand-paypal } płaśiś
 payment-validate-name-error = Pšosym zapódajśo swójo mě
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>pšawidła priwatnosći { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal }l za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } Pšawidła priwatnosći</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste pśeźěłowanje płaśenjow wužywa.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } { -brand-name-stripe } a { -brand-paypal } za wěste pśeźěłowanje płaśenjow wužywa.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>pšawidła priwatnosći { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } { -brand-paypal }l za wěste pśeźěłowanje płaśenjow wužywa.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } Pšawidła priwatnosći</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } { -brand-name-stripe } za wěste pśeźěłowanje płaśenjow wužywa.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -199,7 +167,7 @@ payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kó�
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Z { -brand-name-paypal } płaśiś
+pay-with-heading-paypal-2 = Z { -brand-paypal } płaśiś
 
 ## Component - PlanDetails
 
@@ -500,9 +468,8 @@ subscription-iaperrorupgrade-title = Hyšći njamóžomy was aktualizěrowaś
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Wobchod { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -558,7 +525,7 @@ sub-route-idx-cancel-msg =
     Waš abonement za { $name } jo se wupowěźeł.
           <br />
           Maśo hyšći pśistup k { $name } až do { $date }.
-sub-route-idx-cancel-aside = Maśo pšašanja? Woglědajśo se k <a>Pomocy { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Maśo pšašanja? Woglědajśo se k <a>Pomocy { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -593,7 +560,7 @@ sub-expires-on = Spadnjo { $date }
 pay-update-card-exp = Spadnjo { $expirationDate }
 sub-route-idx-updating = Wótliceńske informacije se aktualizěruju…
 sub-route-payment-modal-heading = Njepłaśiwe płaśeńske informacije
-sub-route-payment-modal-message = Zda se, až dajo zmólka z wašym kontom { -brand-name-paypal }, musymy trjebne kšace pśewjasć, aby toś ten płaśeński problem rozwězali.
+sub-route-payment-modal-message-2 = Zda se, až dajo zmólka z wašym kontom { -brand-paypal }, musymy trjebne kšace pśewjasć, aby toś ten płaśeński problem rozwězali.
 sub-route-missing-billing-agreement-payment-alert = Njepłaśiwe płaśeńske informacije; jo zmólka z wašym kontom. <div>Zastojaś</div>
 sub-route-funding-source-payment-alert = Njepłaśiwe płaśeńske informacije; dajo zmólku z wašym kontom. Toś to warnowanje pitśu casa trjeba, aby se zgubiło, za tym až sćo wuspěšnje zaktualizěrował swóje informacije. <div>Zastojaś</div>
 
@@ -607,7 +574,7 @@ sub-invoice-preview-error-text = Pśeglěd zliceńki njejo se namakał za toś t
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Pytaśo za premiumowym abonementom { -brand-name-pocket }?
+manage-pocket-title-2 = Pytaśo za premiumowym abonementom { -product-pocket }?
 manage-pocket-body-2 = <linkExternal>Klikniśo how</linkExternal>, aby to zastojał.
 
 ## Routes - Subscriptions - Reactivate
@@ -638,6 +605,6 @@ reactivate-success-button = Zacyniś
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Kup w nałoženju
-sub-iap-item-apple-purchase = { -brand-name-apple }: Kup w nałoženju
+sub-iap-item-google-purchase-2 = { -brand-google }: Kup w nałoženju
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Kup w nałoženju
 sub-iap-item-manage-button = Zastojaś
