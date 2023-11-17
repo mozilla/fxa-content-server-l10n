@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox Accounts
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Startowa strona konta
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -143,8 +112,7 @@ payment-confirmation-download-button = Dale k sćehnjenju
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
-payment-confirm-with-legal-links-static-2 = Awtorizuju { -brand-name-mozilla } po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
+payment-confirm-with-legal-links-static-3 = Awtorizuju { -brand-mozilla } po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
 payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móžeće pokročować
 
 ## Component - PaymentErrorView
@@ -155,7 +123,7 @@ payment-error-manage-subscription-button = Abonement zrjadować
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Maće hižo abonement { $productName } přez app-wobchodaj { -brand-name-google } abo { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Maće hižo abonement { $productName } přez app-wobchodaj { -brand-google } abo { -brand-apple }.
 iap-upgrade-no-bundle-support = Njepodpěrujemy aktualizacije za tute abonementy, ale budźemy to bórze činić.
 iap-upgrade-contact-support = Móžeće tutón produkt hišće dóstać – stajće so z teamom pomocy do zwiska, zo bychu móhli wam pomhać.
 iap-upgrade-get-help-button = Pomoc wobstarać
@@ -170,16 +138,16 @@ payment-cc =
 payment-cancel-btn = Přetorhnyć
 payment-update-btn = Aktualizować
 payment-pay-btn = Nětko płaćić
-payment-pay-with-paypal-btn = Z { -brand-name-paypal } płaćić
+payment-pay-with-paypal-btn-2 = Z { -brand-paypal } płaćić
 payment-validate-name-error = Prošu zapodajće swoje mjeno
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } Prawidła priwatnosće</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } { -brand-name-stripe } a { -brand-paypal } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>prawidła priwatnosće { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } { -brand-paypal } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } Prawidła priwatnosće</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } { -brand-name-stripe } za wěste předźěłowanje płaćenjow wužiwa.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -199,7 +167,7 @@ payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } kónči
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Z { -brand-name-paypal } płaćić
+pay-with-heading-paypal-2 = Z { -brand-paypal } płaćić
 
 ## Component - PlanDetails
 
@@ -500,9 +468,8 @@ subscription-iaperrorupgrade-title = Hišće njemóžemy was aktualizować
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Wobchod { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -558,7 +525,7 @@ sub-route-idx-cancel-msg =
     Waš abonement za { $name } je so wupowědźił.
           <br />
           Maće hišće přistup k { $name } hač do { $date }.
-sub-route-idx-cancel-aside = Maće prašenja? Wopytajće <a>Pomoc { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Maće prašenja? Wopytajće <a>Pomoc { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -593,7 +560,7 @@ sub-expires-on = Spadnje { $date }
 pay-update-card-exp = Spadnje { $expirationDate }
 sub-route-idx-updating = Wotličenske informacije so aktualizuja…
 sub-route-payment-modal-heading = Njepłaćiwe płaćenske informacije
-sub-route-payment-modal-message = Zda so, zo je zmylk z wašim kontom { -brand-name-paypal }, dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
+sub-route-payment-modal-message-2 = Zda so, zo je zmylk z wašim kontom { -brand-paypal }, dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
 sub-route-missing-billing-agreement-payment-alert = Njepłaćiwe płaćenske informacije; je zmylk z wašim kontom. <div>Rjadować</div>
 sub-route-funding-source-payment-alert = Njepłaciwe płaćenske informacije; je zmylk z wašim kontom. Tute warnowanje trochu časa trjeba, zo by so zhubiło, po tym zo sće wuspěšnje swóje informacije  zaktualizěrował. <div>Rjadować</div>
 
@@ -607,7 +574,7 @@ sub-invoice-preview-error-text = Přehlad zličbowanki njeje so za tutón abonem
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Pytaće za premiumowym abonementom { -brand-name-pocket }?
+manage-pocket-title-2 = Pytaće za premiumowym abonementom { -product-pocket }?
 manage-pocket-body-2 = <linkExternal>Klikńće tu</linkExternal>, zo byšće to rjadował.
 
 ## Routes - Subscriptions - Reactivate
@@ -638,6 +605,5 @@ reactivate-success-button = Začinić
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Kup w nałoženju
-sub-iap-item-apple-purchase = { -brand-name-apple }: Kup w nałoženju
+sub-iap-item-google-purchase-2 = { -brand-google }: Kup w nałoženju
 sub-iap-item-manage-button = Rjadować
