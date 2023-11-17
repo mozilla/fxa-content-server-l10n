@@ -108,7 +108,7 @@ payment-confirmation-download-button = Pokračovat ke stažení
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Souhlasím, aby { -brand-mozilla } strhávala zobrazenou částku z mé platební metody, a to v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
+payment-confirm-with-legal-links-static-3 = Souhlasím, aby { -brand-mozilla } strhávala zobrazenou částku z mé platební metody, a to v souladu s <termsOfServiceLink>podmínkami poskytování služby</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
 payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
 ## Component - PaymentErrorView
@@ -139,7 +139,7 @@ payment-validate-name-error = Zadejte prosím své jméno
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") } a { -brand-paypal }.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe } a { -brand-paypal }.
 payment-legal-link-stripe-paypal-2 = Zásady ochrany osobních údajů pro službu <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> &nbsp; Zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-paypal }</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-paypal(case: "acc") }.
 payment-legal-link-paypal-3 = Zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-paypal }</paypalPrivacyLink>
@@ -565,7 +565,7 @@ sub-invoice-preview-error-text = Náhled faktury pro toto předplatné nebyl nal
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title-2 = Hledáte své prémiové předplatné { -product-pocket(case: "gen") }?
+manage-pocket-title-2 = Hledáte své prémiové předplatné služby { -product-pocket }?
 manage-pocket-body-2 = Pro správu <linkExternal>klepněte zde</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
