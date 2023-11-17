@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Menu de produtos e serviços { -brand-firefox }
 bento-menu-title-2 = Menu bento da { -brand-mozilla }
+bento-menu-title-3 = Produtos { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } é tecnologia que defende sua privacidade online.
-bento-menu-mozilla-title = { -brand-mozilla } é tecnologia que defende sua privacidade online.
+bento-menu-tagline = Mais produtos da { -brand-mozilla } que protegem sua privacidade
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
