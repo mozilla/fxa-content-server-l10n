@@ -3,57 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla =
-    { $sklon ->
-       *[imenovalnik] Mozilla
-        [rodilnik] Mozille
-        [dajalnik] Mozilli
-        [tozilnik] Mozillo
-        [mestnik] Mozilli
-        [orodnik] Mozillo
-    }
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox računi
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google =
-    { $sklon ->
-       *[imenovalnik] Google
-        [rodilnik] Googla
-        [dajalnik] Googlu
-        [tozilnik] Google
-        [mestnik] Googlu
-        [orodnik] Googlom
-    }
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Domača stran računa
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -159,8 +112,7 @@ payment-confirmation-download-button = Nadaljuj prenos
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Pooblaščam { -brand-name-mozilla(sklon: "tozilnik") }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
-payment-confirm-with-legal-links-static-2 = Dovoljujem, da { -brand-name-mozilla } v skladu s <termsOfServiceLink>Pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
+payment-confirm-with-legal-links-static-3 = Dovoljujem, da { -brand-mozilla } v skladu s <termsOfServiceLink>Pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>izvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek.
 payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 ## Component - PaymentErrorView
@@ -171,7 +123,7 @@ payment-error-manage-subscription-button = Upravljaj z naročnino
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Ste že naročeni na { $productName } v trgovinah z aplikacijami { -brand-name-google } ali { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Ste že naročeni na { $productName } v trgovinah z aplikacijami { -brand-google } ali { -brand-apple }.
 iap-upgrade-no-bundle-support = Za te naročnine ne podpiramo nadgradenj, vendar jih bomo kmalu.
 iap-upgrade-contact-support = Ta izdelek je še vedno na voljo – obrnite se na podporo, da vam lahko pomagamo.
 iap-upgrade-get-help-button = Poišči pomoč
@@ -186,16 +138,16 @@ payment-cc =
 payment-cancel-btn = Prekliči
 payment-update-btn = Posodobi
 payment-pay-btn = Plačaj zdaj
-payment-pay-with-paypal-btn = Plačaj s storitvijo { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Plačajte s { -brand-paypal }
 payment-validate-name-error = Vnesite svoje ime
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } za varno obdelavo plačil uporablja storitvi { -brand-name-stripe } in { -brand-name-paypal }.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Politika zasebnosti za { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politika zasebnosti za { -brand-name-paypal }</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } za varno obdelavo plačil uporablja storitev { -brand-name-paypal }.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Politika zasebnosti za { -brand-name-paypal }</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } za varno obdelavo plačil uporablja storitev { -brand-name-stripe }.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } za varno obdelavo plačil uporablja { -brand-name-stripe } in { -brand-paypal }.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Pravilnik o zasebnosti za { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Pravilnik o zasebnosti za { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } za varno obdelavo plačil uporablja { -brand-paypal }.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Pravilnik o zasebnosti za { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } uporablja { -brand-name-stripe } za varno obdelavo plačil.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Politika zasebnosti za { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -215,7 +167,7 @@ payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Plačaj s storitvijo { -brand-name-paypal }
+pay-with-heading-paypal-2 = Plačajte s { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -516,9 +468,8 @@ subscription-iaperrorupgrade-title = Nadgradnje še ni mogoče izvesti
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = Trgovina { -brand-name-google } Play
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Trgovina { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -569,7 +520,7 @@ sub-route-idx-cancel-msg =
     Vaša naročnina na { $name } je preklicana.
           <br />
           Do { $date } boste lahko še vedno uporabljali { $name }.
-sub-route-idx-cancel-aside = Imate vprašanja? Obiščite <a>podporo { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Imate vprašanja? Obiščite <a> { -brand-mozilla } </a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -604,7 +555,7 @@ sub-expires-on = Preteče { $date }
 pay-update-card-exp = Poteče { $expirationDate }
 sub-route-idx-updating = Posodabljanje podatkov za obračun …
 sub-route-payment-modal-heading = Neveljavni podatki za obračun
-sub-route-payment-modal-message = Videti je, da je na vašem { -brand-name-paypal } računu prišlo do napake. Za razrešitev težave s plačilom po potrebi ukrepajte.
+sub-route-payment-modal-message-2 = Videti je, da je v vašem { -brand-paypal } računu prišlo do napake. Poskrbite, da odpravite težavo s plačilom.
 sub-route-missing-billing-agreement-payment-alert = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake. <div>Upravljaj</div>
 sub-route-funding-source-payment-alert = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake. Po uspešni posodobitvi podatkov lahko traja nekaj časa, da se to opozorilo izbriše. <div>Upravljaj</div>
 
@@ -618,7 +569,7 @@ sub-invoice-preview-error-text = Predogleda računa za to naročnino ni bilo mog
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Iščete svojo premium naročnino na { -brand-name-pocket }?
+manage-pocket-title-2 = Iščete svojo premium naročnino na { -product-pocket }?
 manage-pocket-body-2 = Za upravljanje <linkExternal>kliknite tukaj</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -643,6 +594,6 @@ reactivate-success-button = Zapri
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Nakup v aplikaciji
-sub-iap-item-apple-purchase = { -brand-name-apple }: Nakup v aplikaciji
+sub-iap-item-google-purchase-2 = { -brand-google }: Nakup v aplikaciji
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Nakup znotraj aplikacije
 sub-iap-item-manage-button = Upravljaj

@@ -994,6 +994,7 @@ auth-error-999 = Nepričakovana napaka
 auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
 auth-error-1008 = Novo geslo mora biti drugačno
 auth-error-1011 = Zahtevan je veljaven e-poštni naslov
+auth-error-1062 = Neveljavna preusmeritev
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
