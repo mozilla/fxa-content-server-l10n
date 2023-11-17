@@ -309,7 +309,7 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox }ov meni
 bento-menu-title-2 = { -brand-mozilla } Meni bento
-bento-menu-title-3 = izdelkov { -brand-mozilla(sklon: "rodilnik") }a
+bento-menu-title-3 = Izdelki { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } je tehnologija, ki se bori za vašo zasebnost na spletu.
 bento-menu-tagline = Več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki varujejo vašo zasebnost
 bento-menu-vpn-2 = { -product-mozilla-vpn }
