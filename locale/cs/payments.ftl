@@ -3,111 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla =
-    { $case ->
-       *[nom] Mozilla
-        [gen] Mozilly
-        [dat] Mozille
-        [acc] Mozillu
-        [voc] Mozillo
-        [loc] Mozille
-        [ins] Mozillou
-    }
-    .gender = feminine
--brand-name-firefox =
-    { $case ->
-       *[nom] Firefox
-        [gen] Firefoxu
-        [dat] Firefoxu
-        [acc] Firefox
-        [voc] Firefoxe
-        [loc] Firefoxu
-        [ins] Firefoxem
-    }
-    .gender = masculine
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Účet Firefoxu
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal =
-    { $case ->
-       *[nom] PayPal
-        [gen] PayPalu
-        [dat] PayPalu
-        [acc] PayPal
-        [voc] PayPale
-        [loc] PayPalu
-        [ins] PayPalem
-    }
-    .gender = masculine
--brand-name-stripe =
-    { $case ->
-       *[nom] Stripe
-        [gen] Stripu
-        [dat] Stripu
-        [acc] Stripe
-        [voc] Stripe
-        [loc] Stripu
-        [ins] Stripem
-    }
-    .gender = masculine
--brand-name-google =
-    { $case ->
-       *[nom] Google
-        [gen] Googlu
-        [dat] Googlu
-        [acc] Google
-        [voc] Google
-        [loc] Googlu
-        [ins] Googlem
-    }
-    .gender = masculine
--brand-name-apple =
-    { $case ->
-       *[nom] Apple
-        [gen] Applu
-        [dat] Applu
-        [acc] Apple
-        [voc] Apple
-        [loc] Applu
-        [ins] Applem
-    }
-    .gender = masculine
--brand-name-pocket =
-    { $case ->
-       *[nom] Pocket
-        [gen] Pocketu
-        [dat] Pocketu
-        [acc] Pocket
-        [voc] Pocket
-        [loc] Pocketu
-        [ins] Pocketem
-    }
-    .gender = masculine
-
 ## Component - AppLayout
 
 settings-home = Domovská stránka účtu
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -209,8 +108,7 @@ payment-confirmation-download-button = Pokračovat ke stažení
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala zobrazenou částku skrze mou preferovanou platební metodu v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
-payment-confirm-with-legal-links-static-2 = Souhlasím, aby { -brand-name-mozilla } strhávala zobrazenou částku skrze mé platební metody v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
+payment-confirm-with-legal-links-static-3 = Souhlasím, aby { -brand-mozilla } strhávala zobrazenou částku z mé platební metody, a to v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
 payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
 ## Component - PaymentErrorView
@@ -221,7 +119,7 @@ payment-error-manage-subscription-button = Správa předplatného
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Přeplatné produktu { $productName } už máte skrze obchod s aplikacemi { -brand-name-google(case: "gen") } nebo { -brand-name-apple(case: "gen") }.
+iap-upgrade-already-subscribed-2 = Předplatné produktu { $productName } už máte skrze obchod s aplikacemi { -brand-google } nebo { -brand-apple }.
 iap-upgrade-no-bundle-support = V tuto chvílí změnu plánu těchto předplatných nepodporujeme, ale brzy budeme.
 iap-upgrade-contact-support = Tento produkt můžete stále získat – abychom vám mohli pomoci, kontaktujte prosím podporu.
 iap-upgrade-get-help-button = Získat pomoc
@@ -236,16 +134,16 @@ payment-cc =
 payment-cancel-btn = Zrušit
 payment-update-btn = Aktualizovat
 payment-pay-btn = Zaplatit
-payment-pay-with-paypal-btn = Zaplatit přes { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Zaplatit přes { -brand-paypal }
 payment-validate-name-error = Zadejte prosím své jméno
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") } a { -brand-name-paypal(case: "acc") }.
-payment-legal-link-stripe-paypal = Zásady ochrany osobních údajů pro služby <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-paypal(case: "acc") }.
-payment-legal-link-paypal-2 = Zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") }.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") } a { -brand-paypal }.
+payment-legal-link-stripe-paypal-2 = Zásady ochrany osobních údajů pro službu <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> &nbsp; Zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-paypal(case: "acc") }.
+payment-legal-link-paypal-3 = Zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") }.
 payment-legal-link-stripe-3 = Zásady ochrany osobních údajů pro službu <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -265,7 +163,7 @@ payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Zaplatit přes { -brand-name-paypal(case: "acc") }
+pay-with-heading-paypal-2 = Zaplatit přes { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -566,9 +464,8 @@ subscription-iaperrorupgrade-title = Vaše předplatné zatím nemůžeme pový�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = Obchod { -brand-name-google } Play
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Obchod { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -619,7 +516,7 @@ sub-route-idx-cancel-msg =
     Vaše předplatné služby { $name } bylo zrušeno.
           <br />
           Přístup ke službě { $name } vám zůstane do { $date }.
-sub-route-idx-cancel-aside = S případnými dotazy se prosím obraťte na <a>Podporu { -brand-name-mozilla(case: "gen") }</a>.
+sub-route-idx-cancel-aside-2 = Máte otázky? Navštivte <a>podporu { -brand-mozilla(case: "gen") }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -654,7 +551,7 @@ sub-expires-on = Datum konce platnosti: { $date }
 pay-update-card-exp = Konec platnosti { $expirationDate }
 sub-route-idx-updating = Probíhá aktualizace platebních údajů…
 sub-route-payment-modal-heading = Neplatné platební údaje
-sub-route-payment-modal-message = U vašeho účtu { -brand-name-paypal } došlo k chybě. Je potřeba, abyste podnikli nezbytné kroky pro vyřešení problému s touto platbou.
+sub-route-payment-modal-message-2 = U vašeho účtu { -brand-paypal } došlo k chybě. Je potřeba, abyste podnikli nezbytné kroky pro vyřešení problému s touto platbou.
 sub-route-missing-billing-agreement-payment-alert = Neplatné platební údaje. U vašeho účtu došlo k chybě. <div>Spravovat</div>
 sub-route-funding-source-payment-alert = Neplatné platební údaje. U vašeho účtu došlo k chybě. Tato chyba se může zobrazovat i nějaký čas poté, co své údaje aktualizujete. <div>Spravovat</div>
 
@@ -668,7 +565,7 @@ sub-invoice-preview-error-text = Náhled faktury pro toto předplatné nebyl nal
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Hledáte své prémiové předplatné { -brand-name-pocket(case: "gen") }?
+manage-pocket-title-2 = Hledáte své prémiové předplatné { -product-pocket(case: "gen") }?
 manage-pocket-body-2 = Pro správu <linkExternal>klepněte zde</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -699,6 +596,6 @@ reactivate-success-button = Zavřít
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Nákup v aplikaci
-sub-iap-item-apple-purchase = { -brand-name-apple }: Nákup v aplikaci
+sub-iap-item-google-purchase-2 = { -brand-google }: Nákup v aplikaci
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Nákup v aplikaci
 sub-iap-item-manage-button = Spravovat

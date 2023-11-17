@@ -985,6 +985,7 @@ auth-error-999 = Neočekávaná chyba
 auth-error-1003 = Místní úložiště nebo cookies jsou stále zakázány
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
 auth-error-1011 = Je požadován platný e-mail
+auth-error-1062 = Neplatné přesměrování
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
