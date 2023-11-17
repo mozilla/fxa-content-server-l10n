@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } 產品選單
 bento-menu-title-2 = { -brand-mozilla } 便當選單
+bento-menu-title-3 = { -brand-mozilla } 產品
 bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
-bento-menu-mozilla-title = { -brand-mozilla } 是一間為您的線上隱私而戰的科技公司。
+bento-menu-tagline = { -brand-mozilla } 更多會保護您隱私的產品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -341,7 +342,7 @@ cs-cannot-refresh = 很抱歉，重新整理已連結的服務清單時發生問
 cs-cannot-disconnect = 找不到客戶端，無法取消連線
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = 已登出 { $service }
 cs-refresh-button =
@@ -353,7 +354,7 @@ cs-disconnect-sync-heading = 中斷與 Sync 的連結
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = 您的瀏覽資料將保留在 <span>{ $device }</span> 上，但不再與您的帳號同步。
@@ -691,20 +692,6 @@ recent-activity-account-emails-swapped = 已交換主要與次要電子郵件地
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他帳號活動
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = 取消
-recovery-key-close-button = 關閉
-recovery-key-continue-button = 繼續
-recovery-key-created-1 = 已建立您的帳號救援金鑰。請務必將金鑰儲存在安全，且之後能簡單找到的位置。若忘記密碼時，必須使用此金鑰才能拿回存取權。
-recovery-key-enter-password =
-    .label = 輸入密碼
-recovery-key-page-title-1 =
-    .title = 帳號救援金鑰
-recovery-key-step-1 = 第 1 步，共 2 步
-recovery-key-step-2 = 第 2 步，共 2 步
-recovery-key-success-alert-3 = 已建立帳號救援金鑰
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1030,7 +1017,7 @@ cookies-disabled-learn-more = 了解更多
 inline-recovery-setup-header-default = 確認備用驗證碼<span>即可繼續前往帳號設定</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = 儲存備用驗證碼<span>即可繼續前往 { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = 請將這些單次使用的救援碼保存在安全的地方，以備行動裝置不在手邊時使用。
@@ -1050,7 +1037,7 @@ inline-recovery-confirmation-description = 為了確保在遺失裝置的情況�
 inline-recovery-confirmation-header-default = 確認備用驗證碼<span>即可繼續前往帳號設定</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = 確認備用驗證碼<span>即可繼續前往 { $serviceName }</span>
 
 ## InlineTotpSetup page
