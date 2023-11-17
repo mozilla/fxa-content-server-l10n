@@ -19,6 +19,11 @@ link-expired-resent-code-error-message = 문제가 발생했습니다. 새 코�
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = { -product-firefox-accounts }의 이름을 { -product-mozilla-accounts }으로 변경했습니다. 동일한 사용자 이름과 비밀번호로 계속 로그인할 수 있으며, 사용하는 제품에는 다른 변경 사항이 없습니다.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = 더 알아보기
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -165,7 +170,7 @@ cs-cannot-refresh = 죄송합니다. 연결된 서비스 목록은 다시 불러
 cs-cannot-disconnect = 클라이언트를 찾지 못해 연결할 수 없음
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service }에서 로그아웃하였습니다.
 cs-refresh-button =
@@ -177,7 +182,7 @@ cs-disconnect-sync-heading = Sync 연결 끊기
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -412,19 +417,6 @@ display-name-success-alert-2 = 표시 이름 업데이트됨
 
 recent-activity-title = 최근 계정 활동
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = 취소
-recovery-key-close-button = 닫기
-recovery-key-continue-button = 계속
-recovery-key-enter-password =
-    .label = 암호 입력
-recovery-key-page-title-1 =
-    .title = 계정 복구 키
-recovery-key-step-1 = 1/2 단계
-recovery-key-step-2 = 2/2 단계
-recovery-key-success-alert-3 = 계정 복구 키 생성됨
-
 ## PageRecoveryKeyCreate
 
 
@@ -650,6 +642,8 @@ auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = 더 알아보기
 
 ## Connect Another Device page
 
@@ -657,6 +651,8 @@ auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = 더 알아보기
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -743,6 +739,10 @@ auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = <span>{ -product-firefox-account }</span> 비밀번호를 입력하세요
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비밀번호를 입력하세요
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
