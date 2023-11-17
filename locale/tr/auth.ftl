@@ -99,7 +99,7 @@ automated-email-change-plaintext-2 = Bu işlemi siz yapmadıysanız hemen parola
 automated-email-support-plaintext = Daha fazla bilgi için { -brand-mozilla } Destek sayfasını ziyaret edin:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
-automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi şey yapmanıza gerek yok.
+automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi bir şey yapmanıza gerek yok.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen parolanızı değiştirin:
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
@@ -234,25 +234,6 @@ device-all = { $uaBrowser } - { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } - { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP adresi: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (tahmini)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (tahmini)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (tahmini)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (tahmini)
 view-invoice = <a data-l10n-name="invoiceLink">Faturanızı görüntüleyin</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -333,7 +314,7 @@ passwordReset-title = Hesap parolanız değiştirildi
 passwordReset-description = Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz.
 passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
 passwordResetAccountRecovery-title-2 = Parola başarıyla sıfırlandı
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Şu cihazdan parolanızı güncellemek için hesap kurtarma anahtarınızı kullandınız:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Yeni hesap kurtarma anahtarı oluştur
@@ -424,11 +405,9 @@ postVerifySecondary-content-3 = { $secondaryEmail } adresini { -product-mozilla-
 postVerifySecondary-action = Hesabı yönet
 recovery-subject = Parolanızı sıfırlayın
 recovery-title-2 = Parolanızı mı unuttunuz?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = { -product-firefox-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
 recovery-new-password-button = Aşağıdaki düğmeye tıklayarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
 recovery-copy-paste = Aşağıdaki adresi kopyalayıp tarayıcınıza yapıştırarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.

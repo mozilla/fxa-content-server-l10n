@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } bento menüsü
 bento-menu-title-2 = { -brand-mozilla } bento menüsü
+bento-menu-title-3 = { -brand-mozilla } ürünleri
 bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
-bento-menu-mozilla-title = { -brand-mozilla } çevrimiçi gizliliğiniz için savaşır.
+bento-menu-tagline = { -brand-mozilla }’dan gizliliğinizi koruyan daha fazla ürün
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -696,20 +697,6 @@ recent-activity-account-secondary-email-removed = İkinci e-posta adresi kaldır
 recent-activity-account-emails-swapped = Birinci ve ikinci e-postalar birbirleriyle değiştirildi
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Diğer hesap etkinlikleri
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = İptal
-recovery-key-close-button = Kapat
-recovery-key-continue-button = Devam et
-recovery-key-created-1 = Hesap kurtarma anahtarınız oluşturuldu. Anahtarı daha sonra kolayca bulabileceğiniz, güvenli bir yerde saklayın. Parolanızı unutursanız verilerinize yeniden ulaşmak için bu anahtara ihtiyacınız olacak.
-recovery-key-enter-password =
-    .label = Parolanızı yazın
-recovery-key-page-title-1 =
-    .title = Hesap kurtarma anahtarı
-recovery-key-step-1 = Adım 1/2
-recovery-key-step-2 = Adım 2/2
-recovery-key-success-alert-3 = Hesap kurtarma anahtarı oluşturuldu
 
 ## PageRecoveryKeyCreate
 
