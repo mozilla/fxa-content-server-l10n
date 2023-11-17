@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } 产品菜单
 bento-menu-title-2 = { -brand-mozilla } 产品菜单
+bento-menu-title-3 = { -brand-mozilla } 产品
 bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
-bento-menu-mozilla-title = { -brand-mozilla } 用技术为您的隐私而战。
+bento-menu-tagline = { -brand-mozilla } 的更多保护您隐私的产品。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
