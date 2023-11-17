@@ -136,9 +136,9 @@ payment-validate-name-error = Bitte geben Sie Ihren Namen ein
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } verwendet { -brand-name-stripe } und { -brand-paypal } für die sichere Zahlungsabwicklung.
-payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Datenschutzerklärung von { -brand-paypal }</paypalPrivacyLink>
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Datenschutzerklärung von { -brand-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal-2 = { -brand-mozilla } verwendet { -brand-paypal } für die sichere Zahlungsabwicklung.
-payment-legal-link-paypal-3 = <paypalPrivacyLink>Datenschutzerklärung von { -brand-paypal }</paypalPrivacyLink>
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Datenschutzerklärung von { -brand-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-3 = { -brand-mozilla } verwendet { -brand-name-stripe } für die sichere Zahlungsabwicklung.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink>.
 
