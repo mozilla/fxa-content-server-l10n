@@ -104,6 +104,7 @@ payment-confirmation-download-button = Vazhdoni te shkarkimi
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = E autorizoj { -brand-mozilla } të faturojë metodën time të pagesave me vlerën e treguar, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënim Privatësie</privacyNoticeLink>, deri sa ta anuloj pajtimin tim.
 payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni më tej
 
 ## Component - PaymentErrorView
@@ -113,6 +114,8 @@ payment-error-manage-subscription-button = Administroni pajtimet e mia
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Keni tashmë një pajtim { $productName } përmes shitoreve të aplikacioneve { -brand-google } ose { -brand-apple }.
 iap-upgrade-no-bundle-support = Nuk mbulojmë përmirësime për këto pajtime, por së shpejti do të mbulojmë.
 iap-upgrade-contact-support = Mundeni prapë ta merrni këtë produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
 iap-upgrade-get-help-button = Merrni ndihmë
