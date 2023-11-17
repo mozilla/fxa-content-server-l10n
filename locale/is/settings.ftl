@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-valmynd
 bento-menu-title-2 = { -brand-mozilla } Bento-valmynd
+bento-menu-title-3 = { -brand-mozilla } hugbúnaður
 bento-menu-firefox-title = { -brand-firefox } er tækni sem berst fyrir friðhelgi þinni á netinu.
-bento-menu-mozilla-title = { -brand-mozilla } er tækni sem berst fyrir friðhelgi þinni á netinu.
+bento-menu-tagline = Fleiri vörur frá { -brand-mozilla } sem vernda friðhelgi þína
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
