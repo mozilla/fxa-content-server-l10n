@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Llogari Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Kreu i Llogarive
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,6 @@ payment-confirmation-download-button = Vazhdoni te shkarkimi
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës vlerën e shfaqur, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-payment-confirm-with-legal-links-static-2 = E autorizoj { -brand-name-mozilla }-n të më faturojë sipas metodës sime të pagesës vlerën e shfaqur, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
 payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni më tej
 
 ## Component - PaymentErrorView
@@ -146,8 +113,6 @@ payment-error-manage-subscription-button = Administroni pajtimet e mia
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Keni tashmë një pajtim { $productName } përmes shitoreve të aplikacioneve { -brand-name-google } ose { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Nuk mbulojmë përmirësime për këto pajtime, por së shpejti do të mbulojmë.
 iap-upgrade-contact-support = Mundeni prapë ta merrni këtë produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
 iap-upgrade-get-help-button = Merrni ndihmë
@@ -162,16 +127,16 @@ payment-cc =
 payment-cancel-btn = Anuloje
 payment-update-btn = Përditësoje
 payment-pay-btn = Paguani tani
-payment-pay-with-paypal-btn = Paguani me { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Paguani me { -brand-paypal }
 payment-validate-name-error = Ju lutemi, jepni emrin tuaj
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } për{ -brand-name-stripe }-in dhe { -brand-name-paypal }-in për përpunim të sigurt pagesash.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } rregulla privatësie policy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } rregulla privatësie</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } përdor { -brand-name-paypal } për përpunim të sigurt të pagesave.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } rregulla privatësie</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } përdor { -brand-name-stripe } për përpunim të sigurt të pagesave.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } përdor { -brand-name-stripe } dhe { -brand-paypal } për kryerje të siguruar të pagesave.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Rregulla privatësie { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Rregulla privatësie { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } përdor { -brand-paypal } për kryerje të siguruar të pagesave.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Rregulla privatësie { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } përdor { -brand-name-stripe } për përpunim të sigurt të pagesave.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } rregulla privatësie</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -191,7 +156,7 @@ payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Paguani me { -brand-name-paypal }
+pay-with-heading-paypal-2 = Paguani me { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +409,8 @@ subscription-iaperrorupgrade-title = S’ju përmirësojmë dot ende
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Shitore { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -497,7 +461,7 @@ sub-route-idx-cancel-msg =
     Pajtimi juaj në { $name } është anuluar.
           <br />
          Do të mund të përdorni ende { $name } deri më { $date }.
-sub-route-idx-cancel-aside = Keni pyetje? Vizitoni <a>Asistencën e { -brand-name-mozilla }-s</a>.
+sub-route-idx-cancel-aside-2 = Keni pyetje? Vizitoni <a>Asistencën e { -brand-mozilla }-s</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -532,7 +496,7 @@ sub-expires-on = Skadon më { $date }
 pay-update-card-exp = Skadon më { $expirationDate }
 sub-route-idx-updating = Po përditësohen të dhëna faturimi…
 sub-route-payment-modal-heading = Të dhëna faturimi të pavlefshme
-sub-route-payment-modal-message = Duket se ka një gabim me llogarinë tuaj { -brand-name-paypal }, duhet të ndërmerrni hapat e nevojshëm për zgjidhjen e këtij problemi me pagesën.
+sub-route-payment-modal-message-2 = Duket të ketë një gabim me llogarinë tuaj { -brand-paypal }, lypset të ndërmerrni hapat e nevojshëm për të zgjidhur këtë problem pagese.
 sub-route-missing-billing-agreement-payment-alert = Hollësi të pavlefshme pagese; ka një gabim me llogarinë tuaj. <div>Shiheni</div>
 sub-route-funding-source-payment-alert = Hollësi të pavlefshme pagese; ka një gabim me llogarinë tuaj. Mund të duhet ca kohë që të hiqet ky sinjalizim, pasi të përditësoni me sukses hollësitë tuaja. <div>Shiheni</div>
 
@@ -546,7 +510,7 @@ sub-invoice-preview-error-text = S’u gjet paraparje fature për këtë pajtim
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Po shihni për pajtimin tuaj me pagesë në { -brand-name-pocket }?
+manage-pocket-title-2 = Po shihni për pajtimin tuaj me pagesë në { -product-pocket }?
 manage-pocket-body-2 = Për ta administruar, <linkExternal>klikoni këtu</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -575,6 +539,6 @@ reactivate-success-button = Mbylle
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Blerje që nga aplikacioni
-sub-iap-item-apple-purchase = { -brand-name-apple }: Blerje që nga aplikacioni
+sub-iap-item-google-purchase-2 = { -brand-google }: Blerje që nga aplikacioni
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Blerje që nga aplikacioni
 sub-iap-item-manage-button = Administrojini

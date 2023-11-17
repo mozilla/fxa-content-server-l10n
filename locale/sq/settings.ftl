@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Menu { -brand-firefox } Bento
 bento-menu-title-2 = Menu { -brand-mozilla }
+bento-menu-title-3 = Produkte { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox }-i është eknologjike që lufton për privatësinë tuaj internetore.
-bento-menu-mozilla-title = { -brand-mozilla } është shoqëri teknologjie që lufton për privatësinë tuaj internetore.
+bento-menu-tagline = Më tepër produkte nga { -brand-mozilla } që mbrojnë privatësinë tuaj
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -706,20 +707,6 @@ recent-activity-account-emails-swapped = Ndërruan vendet email-i parësor me at
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Tjetër veprimtari në llogari
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Anuloje
-recovery-key-close-button = Mbylle
-recovery-key-continue-button = Vazhdo
-recovery-key-created-1 = Kyçi i rimarrjes së llogarisë tuaj u krijua. Sigurohuni se e ruani kyçin në një vend të parrezik, që të mund të gjeni kollaj më vonë — kyçi do t’ju duhet të rifitoni hyrje në të dhënat tuaja, nëse harroni fjalëkalimin tuaj.
-recovery-key-enter-password =
-    .label = Jepni fjalëkalimin
-recovery-key-page-title-1 =
-    .title = Kyç rimarrjeje llogarie
-recovery-key-step-1 = Hapi 1 nga 2
-recovery-key-step-2 = Hapi 2 nga 2
-recovery-key-success-alert-3 = U krijua kyç rimarrjeje llogarie
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1007,6 +994,7 @@ auth-error-999 = Gabim i papritur
 auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
 auth-error-1011 = Lypset email i vlefshëm
+auth-error-1062 = Ridrejtim i pavlefshëm
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
