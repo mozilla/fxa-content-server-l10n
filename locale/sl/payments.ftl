@@ -555,7 +555,7 @@ sub-expires-on = Preteče { $date }
 pay-update-card-exp = Poteče { $expirationDate }
 sub-route-idx-updating = Posodabljanje podatkov za obračun …
 sub-route-payment-modal-heading = Neveljavni podatki za obračun
-sub-route-payment-modal-message-2 = Videti je, da je v vašem { -brand-paypal } računu prišlo do napake. Poskrbite, da odpravite težavo s plačilom.
+sub-route-payment-modal-message-2 = Videti je, da je prišlo do napake v vašem računu { -brand-paypal }. Za razrešitev težave s plačilom po potrebi ukrepajte.
 sub-route-missing-billing-agreement-payment-alert = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake. <div>Upravljaj</div>
 sub-route-funding-source-payment-alert = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake. Po uspešni posodobitvi podatkov lahko traja nekaj časa, da se to opozorilo izbriše. <div>Upravljaj</div>
 
@@ -595,5 +595,5 @@ reactivate-success-button = Zapri
 ## Routes - Subscriptions - Subscription iap item
 
 sub-iap-item-google-purchase-2 = { -brand-google }: Nakup v aplikaciji
-sub-iap-item-apple-purchase-2 = { -brand-apple }: Nakup znotraj aplikacije
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Nakup v aplikaciji
 sub-iap-item-manage-button = Upravljaj
