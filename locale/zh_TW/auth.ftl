@@ -23,7 +23,7 @@ subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-m
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } 標誌">
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
 subplat-privacy-notice = 隱私權公告
-subplat-privacy-plaintext = 隱私權保護政策：
+subplat-privacy-plaintext = 隱私權公告：
 subplat-update-billing-plaintext = { subplat-update-billing }：
 # Variables:
 #  $email (String) - A user's primary email address
@@ -232,25 +232,6 @@ device-all = { $uaOS } { $uaOSVersion } 上的 { $uaBrowser }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS } 上的 { $uaBrowser }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP 地址：{ $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $country } { $stateCode } { $city }（估計地點）
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $country } { $city }（估計地點）
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $country } { $stateCode }（估計地點）
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country }（估計地點）
 view-invoice = <a data-l10n-name="invoiceLink">檢視您的請款單</a>。
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -331,7 +312,7 @@ passwordReset-title = 您的帳號密碼已變更
 passwordReset-description = 將需要在其他裝置上輸入新密碼才能恢復同步。
 passwordResetAccountRecovery-subject-2 = 已重設您的密碼
 passwordResetAccountRecovery-title-2 = 成功重設密碼
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 您已從下列位置使用帳號救援金鑰更改密碼：
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 產生新的帳號救援金鑰
@@ -428,11 +409,9 @@ postVerifySecondary-content-3 = 您已成功將 { $secondaryEmail } 加入為 { 
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title-2 = 忘記密碼了嗎？
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = 我們收到要更改您 { -product-firefox-account }密碼的請求：
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = 我們收到要更改您 { -product-mozilla-account }的密碼的請求：
 recovery-new-password-button = 請點擊下列按鈕來設定新密碼。此鏈結將於一小時後失效。
 recovery-copy-paste = 請複製下列網址，並貼到瀏覽器網址列開啟，即可設定新密碼。此鏈結將於一小時後失效。

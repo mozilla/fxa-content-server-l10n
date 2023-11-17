@@ -6,7 +6,7 @@ app-general-err-message = 某些東西不對勁，請稍候再試一次。
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = { -brand-mozilla } 圖示
-app-footer-privacy-notice = 網站隱私權保護政策
+app-footer-privacy-notice = 網站隱私權公告
 app-footer-terms-of-service = 服務條款
 
 ## FxA React - Strings shared between multiple FxA products for application page title

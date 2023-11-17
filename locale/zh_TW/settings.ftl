@@ -1082,7 +1082,7 @@ legal-privacy-link = 隱私權公告
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
-legal-privacy-heading = 隱私權保護政策隱私權公告
+legal-privacy-heading = 隱私權公告
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
