@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-title-2 = { -brand-mozilla } Bento-menu
+bento-menu-title-3 = { -brand-mozilla }-producten
 bento-menu-firefox-title = { -brand-firefox } is technologie die vecht voor uw online privacy.
-bento-menu-mozilla-title = { -brand-mozilla } is een technologie, die vecht voor uw online privacy.
+bento-menu-tagline = Meer producten van { -brand-mozilla } die uw privacy beschermen
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Client niet gevonden, verbinding kan niet worden verbroken
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Afgemeld bij { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Verbinding met Sync verbreken
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -708,20 +709,6 @@ recent-activity-account-emails-swapped = Primaire en secundaire e-mailadressen o
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Overige accountactiviteit
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Annuleren
-recovery-key-close-button = Sluiten
-recovery-key-continue-button = Doorgaan
-recovery-key-created-1 = Uw accountherstelsleutel is aangemaakt. Zorg ervoor dat u de sleutel op een veilige plek die u later makkelijk kunt vinden bewaart – u hebt de sleutel nodig om opnieuw toegang tot uw gegevens te krijgen als u uw wachtwoord vergeet.
-recovery-key-enter-password =
-    .label = Voer wachtwoord in
-recovery-key-page-title-1 =
-    .title = Accountherstelsleutel
-recovery-key-step-1 = Stap 1 van 2
-recovery-key-step-2 = Stap 2 van 2
-recovery-key-success-alert-3 = Sleutel voor accountherstel aangemaakt
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1068,7 +1055,7 @@ cookies-disabled-learn-more = Meer info
 inline-recovery-setup-header-default = Bevestig uw reserve-authenticatiecode <span>om door te gaan naar uw accountinstellingen</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Bewaar uw reserve-authenticatiecodes <span>om door te gaan naar { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Bewaar deze codes voor eenmalig gebruik op een veilige plaats voor als u uw mobiele apparaat niet hebt.
@@ -1088,7 +1075,7 @@ inline-recovery-confirmation-description = Voer in geval van een verloren appara
 inline-recovery-confirmation-header-default = Bevestig uw reserve-authenticatiecode <span>om door te gaan naar uw accountinstellingen</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bevestig uw reserve-authenticatiecode <span>om door te gaan naar { $serviceName }</span>
 
 ## InlineTotpSetup page
