@@ -992,6 +992,7 @@ auth-error-999 = Gwall anhysbys
 auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 auth-error-1011 = Mae angen e-bost dilys
+auth-error-1062 = Ailgyfeirio annilys
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.

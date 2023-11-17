@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Cyfrifon Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Cartref Cyfrif
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -151,8 +120,7 @@ payment-confirmation-download-button = Parhau i lwytho i lawr
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu y swm sy'n cael ei ddangos, yn ôl <termsOfServiceLink>Amodau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-payment-confirm-with-legal-links-static-2 = Rwy'n awdurdodi { -brand-name-mozilla } i godi tâl ar fy null talu am y swm sy'n cael ei ddangos, yn unol â <termsOfServiceLink>Thelerau Gwasanaeth</termsOfServiceLink> a'r <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
+payment-confirm-with-legal-links-static-3 = Rwy'n awdurdodi { -brand-mozilla } i godi tâl ar fy null talu am y swm a ddangosir, yn unol â <termsOfServiceLink>Telerau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ganslo fy nhanysgrifiad.
 payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymlaen
 
 ## Component - PaymentErrorView
@@ -163,7 +131,7 @@ payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Mae gennych danysgrifiad { $productName } eisoes trwy siopau apiau { -brand-name-google } neu { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Mae gennych danysgrifiad o { $productName } yn barod trwy'r siopau ap { -brand-google } neu { -brand-apple }.
 iap-upgrade-no-bundle-support = Nid ydym yn cefnogi uwchraddio'r tanysgrifiadau hyn ar hyn o bryd, ond byddwn yn gwneud hynny'n fuan.
 iap-upgrade-contact-support = Gallwch gael y cynnyrch hwn o hyd - cysylltwch â chymorth fel y gallwn ni eich helpu.
 iap-upgrade-get-help-button = Cael cymorth
@@ -178,16 +146,16 @@ payment-cc =
 payment-cancel-btn = Diddymu
 payment-update-btn = Diweddaru
 payment-pay-btn = Talu nawr
-payment-pay-with-paypal-btn = Talu gyda { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Talu gyda { -brand-paypal }
 payment-validate-name-error = Rhowch eich enw
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>polisi preifatrwydd { -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
-payment-legal-link-paypal-2 = Gweld polisi preifatrwydd <paypalPrivacyLink> { -brand-name-paypal } </paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau diogel.
+payment-legal-copy-stripe-and-paypal-3 = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } polisi preifatrwydd</ stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } polisi preifatrwydd</ paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } yn defnyddio { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } polisi preifatrwydd</ paypalPrivacyLink>
+payment-legal-copy-stripe-3 = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau'n ddiogel.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Polisi preifatrwydd { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -207,7 +175,7 @@ payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Talu gyda { -brand-name-paypal }
+pay-with-heading-paypal-2 = Talu gyda { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -556,9 +524,8 @@ subscription-iaperrorupgrade-title = Nid ydym yn gallu eich uwchraddio eto
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Siop { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -611,7 +578,7 @@ sub-route-idx-cancel-msg =
     Mae eich tanysgrifiad { $name } wedi'i ddiddymu.
           <br />
           Bydd gennych fynediad o hyd i { $name } tan { $date }.
-sub-route-idx-cancel-aside = Oes gennych chi gwestiynau? Ewch i <a>Gefnogaeth { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Oes gennych chi gwestiynau? Ewch i <a>{ -brand-mozilla } Cefnogaeth</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -646,7 +613,7 @@ sub-expires-on = Yn dod i ben ar: { $date }
 pay-update-card-exp = Daw i ben { $expirationDate }
 sub-route-idx-updating = Diweddaru'r manylion bilio…
 sub-route-payment-modal-heading = Manylion bilio annilys
-sub-route-payment-modal-message = Mae'n ymddangos bod eich cyfrif { -brand-name-paypal } yn wallus, rydym  angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
+sub-route-payment-modal-message-2 = Mae'n ymddangos bod gwall gyda'ch cyfrif { -brand-paypal } , mae angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
 sub-route-missing-billing-agreement-payment-alert = Manylion talu annilys; mae gwall gyda'ch cyfrif. <div>Rheoli</div>
 sub-route-funding-source-payment-alert = Manylion talu annilys; mae gwall gyda'ch cyfrif. Efallai y bydd y rhybudd hwn yn cymryd peth amser i'w glirio ar ôl i chi ddiweddaru'ch manylion yn llwyddiannus. <div> Rheoli </div>
 
@@ -660,7 +627,7 @@ sub-invoice-preview-error-text = Heb ganfod rhagolwg anfoneb y tanysgrifiad hwn
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Yn chwilio am eich tanysgrifiad premiwm { -brand-name-pocket }?
+manage-pocket-title-2 = Chwilio am eich tanysgrifiad premiwm { -product-pocket }?
 manage-pocket-body-2 = I'w reoli, <linkExternal>cliciwch yma</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -691,6 +658,6 @@ reactivate-success-button = Cau
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Prynu o fewn yr ap
-sub-iap-item-apple-purchase = { -brand-name-apple }: Prynu o fewn yr ap
+sub-iap-item-google-purchase-2 = { -brand-google } : Pryniant o fewn yr ap
+sub-iap-item-apple-purchase-2 = { -brand-apple } : Prynu o fewn yr ap
 sub-iap-item-manage-button = Rheoli
