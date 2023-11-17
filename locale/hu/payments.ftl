@@ -3,46 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox =
-    { $case ->
-       *[nominative] Firefox
-        [accusative] Firefoxot
-        [instrumental] Firefoxszal
-    }
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox-fiókok
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Fiók kezdőlapja
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -140,8 +104,7 @@ payment-confirmation-download-button = Tovább a letöltéshez
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Engedélyt adok a { -brand-name-mozilla }, a { -brand-name-firefox } termékek gyártója, számára, hogy levonja a megjelenített összeget a számlámról az <termsOfServiceLink>Általános szerződési feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-payment-confirm-with-legal-links-static-2 = Felhatalmazom a { -brand-name-mozilla(ending: "accented") }t, hogy terhelje meg a megjelenített összeget az én fizetési módommal az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
+payment-confirm-with-legal-links-static-3 = Felhatalmazom a { -brand-mozilla } szervezetet, hogy terhelje meg a megjelenített összeget az általam megjelenített fizetési móddal, az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
 payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 ## Component - PaymentErrorView
@@ -152,7 +115,7 @@ payment-error-manage-subscription-button = Saját feliratkozások kezelése
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Már van { $productName } előfizetése a { -brand-name-google } vagy az { -brand-name-apple } alkalmazásboltján keresztül.
+iap-upgrade-already-subscribed-2 = Már van { $productName }-előfizetése a { -brand-google } vagy az { -brand-apple } alkalmazásboltján keresztül.
 iap-upgrade-no-bundle-support = Jelenleg nem támogatjuk a frissítést ezekről az előfizetésekről, de hamarosan fogjuk.
 iap-upgrade-contact-support = Továbbra is beszerezheti ezt a terméket – lépjen kapcsolatba a támogatással, hogy segíthessünk.
 iap-upgrade-get-help-button = Segítség kérése
@@ -167,16 +130,16 @@ payment-cc =
 payment-cancel-btn = Mégse
 payment-update-btn = Frissítés
 payment-pay-btn = Fizetés most
-payment-pay-with-paypal-btn = Fizetés { -brand-name-paypal }lal
+payment-pay-with-paypal-btn-2 = Fizetés { -brand-paypal }lal
 payment-validate-name-error = Adja meg a nevét
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot és a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-name-paypal } adatvédemi irányelvei</paypalPrivacyLink>.
-payment-legal-copy-paypal = A { -brand-name-mozilla } a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>A { -brand-name-paypal } adatvédelmi irányelvei</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-copy-stripe-and-paypal-3 = A { -brand-mozilla } a { -brand-name-stripe }-ot és a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-paypal } adatvédelmi irányelvei</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = A { -brand-mozilla } a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>A { -brand-paypal } adatvédelmi irányelvei</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = A { -brand-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
 payment-legal-link-stripe-3 = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -196,7 +159,7 @@ payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Fizetés { -brand-name-paypal }lal
+pay-with-heading-paypal-2 = Fizetés { -brand-paypal }lal
 
 ## Component - PlanDetails
 
@@ -449,9 +412,8 @@ subscription-iaperrorupgrade-title = Jelenleg nem tudjuk frissíteni
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Áruház
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Áruházból
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -507,7 +469,7 @@ sub-route-idx-cancel-msg =
     A(z) { $name }-előfizetése lemondva.
           <br />
           { $date }-ig továbbra is el fogja érni a(z) { $name } szolgáltatást.
-sub-route-idx-cancel-aside = Kérdése van? Keresse fel a <a>{ -brand-name-mozilla } Támogatást</a>.
+sub-route-idx-cancel-aside-2 = Kérdése van? Keresse fel a <a>{ -brand-mozilla } támogatást</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -542,7 +504,7 @@ sub-expires-on = Lejár: { $date }
 pay-update-card-exp = Lejárat: { $expirationDate }
 sub-route-idx-updating = Számlázási információk frissítése…
 sub-route-payment-modal-heading = Érvénytelen számlázási információk
-sub-route-payment-modal-message = Úgy tűnik, hogy hiba történt a(z) { -brand-name-paypal }-fiókjával kapcsolatban, meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
+sub-route-payment-modal-message-2 = Úgy tűnik, hogy hiba történt { -brand-paypal }-fiókjával kapcsolatban, meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
 sub-route-missing-billing-agreement-payment-alert = Érvénytelen fizetési információk; hiba van a fiókjában. <div>Kezelés</div>
 sub-route-funding-source-payment-alert = Érvénytelen fizetési információk; hiba van a fiókjában. Az értesítés törlése eltarthat egy ideig az adatok sikeres frissítése után. <div>Kezelés</div>
 
@@ -556,7 +518,7 @@ sub-invoice-preview-error-text = A számla előnézete nem található ehhez az 
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = A { -brand-name-pocket } prémium előfizetését keresi?
+manage-pocket-title-2 = Prémium { -product-pocket } előfizetését keresi?
 manage-pocket-body-2 = A kezeléséhez <linkExternal>kattintson ide</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -587,6 +549,6 @@ reactivate-success-button = Bezárás
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: alkalmazáson belüli vásárlás
-sub-iap-item-apple-purchase = { -brand-name-apple }: alkalmazáson belüli vásárlás
+sub-iap-item-google-purchase-2 = { -brand-google }: Alkalmazáson belüli vásárlás
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Alkalmazáson belüli vásárlás
 sub-iap-item-manage-button = Kezelés

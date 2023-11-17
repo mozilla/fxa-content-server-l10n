@@ -1000,6 +1000,7 @@ auth-error-999 = Nem várt hiba
 auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 auth-error-1011 = Érvényes e-mail-cím szükséges
+auth-error-1062 = Érvénytelen átirányítás
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
