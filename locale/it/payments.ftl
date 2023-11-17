@@ -138,7 +138,7 @@ payment-validate-name-error = Inserisci il tuo nome
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } utilizza { -brand-name-stripe } e { -brand-paypal } per l’elaborazione sicura dei pagamenti.
 payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Informativa sulla privacy di { -brand-paypal }</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } utilizza { -brand-paypal } per l’elaborazione sicura dei pagamenti.
-payment-legal-link-paypal-3 = <paypalPrivacyLink>Informativa sulla privacy di { -brand-paypal }</paypalPrivacyLink>
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Informativa sulla privacy di { -brand-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-3 = { -brand-mozilla } utilizza { -brand-name-stripe } per l’elaborazione sicura dei pagamenti.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink>.
 
@@ -412,7 +412,7 @@ subscription-iaperrorupgrade-title = Non è ancora possibile effettuare l’aggi
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play-2 = Negozio { -google-play }
+brand-name-google-play-2 = { -google-play } Store
 brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
@@ -462,7 +462,7 @@ sub-route-idx-cancel-msg =
     Il tuo abbonamento a { $name } è stato annullato.
           <br />
           Potrai ancora accedere a { $name } fino al { $date }.
-sub-route-idx-cancel-aside-2 = Hai domande? Visita l’<a>assistenza di { -brand-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Hai domande? Visita il <a>supporto per { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -497,7 +497,7 @@ sub-expires-on = Scade il { $date }
 pay-update-card-exp = Scade il { $expirationDate }
 sub-route-idx-updating = Aggiornamento dati di fatturazione…
 sub-route-payment-modal-heading = Informazioni di fatturazione non valide
-sub-route-payment-modal-message-2 = Sembra che si sia verificato un errore con il tuo account { -brand-paypal }. Abbiamo bisogno che tu adotti le misure necessarie per risolvere il problema con il pagamento.
+sub-route-payment-modal-message-2 = Sembra che si sia verificato un errore con il tuo account { -brand-paypal }, è necessario seguire i passaggi richiesti per risolvere questo problema con il pagamento.
 sub-route-missing-billing-agreement-payment-alert = Si è verificato un errore con il tuo account: informazioni di pagamento non valide. <div>Gestisci</div>
 sub-route-funding-source-payment-alert = Si è verificato un errore con il tuo account: informazioni di pagamento non valide. Potrebbe trascorrere diverso tempo prima che questo avviso venga rimosso, anche dopo aver aggiornato correttamente le informazioni. <div>Gestisci</div>
 
@@ -511,7 +511,7 @@ sub-invoice-preview-error-text = Anteprima fattura non trovata per questo abbona
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title-2 = Stai cercando il tuo abbonamento premium a { -product-pocket }?
+manage-pocket-title-2 = Cerchi il tuo abbonamento premium a { -product-pocket }?
 manage-pocket-body-2 = Per gestirlo, <linkExternal>fai clic qui</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
