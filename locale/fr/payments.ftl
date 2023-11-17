@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Comptes Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account(capitalization: "uppercase") }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Accueil du compte
+settings-project-header-title = { -product-mozilla-account(capitalization: "uppercase") }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Continuer vers le téléchargement
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement le montant affiché, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-payment-confirm-with-legal-links-static-2 = J’autorise { -brand-name-mozilla } à prélever via mon moyen de paiement le montant affiché, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
+payment-confirm-with-legal-links-static-3 = J’autorise { -brand-mozilla } à prélever via mon mode de paiement le montant affiché, conformément aux <termsOfServiceLink>Conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>Politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
 payment-confirm-checkbox-error = Vous devez terminer cette étape avant de continuer
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Gérer mon abonnement
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Vous avez déjà un abonnement à { $productName } sur l’App Store de { -brand-name-google } ou d’{ -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Vous avez déjà un abonnement à { $productName } sur l’App Store de { -brand-google } ou d’{ -brand-apple }.
 iap-upgrade-no-bundle-support = À présent, nous n’offrons pas de mises à niveau pour ces abonnements, mais nous le ferons bientôt.
 iap-upgrade-contact-support = Vous pouvez tout de même obtenir ce produit ; veuillez contacter notre équipe d’assistance afin que nous puissions vous aider.
 iap-upgrade-get-help-button = Obtenir de l’aide
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = Annuler
 payment-update-btn = Mettre à jour
 payment-pay-btn = Payer
-payment-pay-with-paypal-btn = Payer avec { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Payer avec { -brand-paypal }
 payment-validate-name-error = Veuillez saisir votre nom
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } et { -brand-name-paypal } pour le traitement sécurisé des paiements.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } utilise { -brand-name-paypal } pour un traitement sécurisé des paiements.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } pour le traitement sécurisé des paiements.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } utilise { -brand-name-stripe } et { -brand-paypal } pour le traitement sécurisé des paiements.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politique de confidentialité de { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } utilise { -brand-paypal } pour le traitement sécurisé des paiements.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Politique de confidentialité de { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } utilise { -brand-name-stripe } pour le traitement sécurisé des paiements.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Payer avec { -brand-name-paypal }
+pay-with-heading-paypal-2 = Payer avec { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = Nous n’offrons pas encore cette mise à n
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -497,7 +464,7 @@ sub-route-idx-cancel-msg =
     Votre abonnement à { $name } a été résilié.
     <br />
     Vous aurez encore accès à { $name } jusqu’au { $date }.
-sub-route-idx-cancel-aside = Vous avez des questions ? Consultez <a>l’assistance de { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Vous avez des questions ? Consultez <a>l’assistance de { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -532,7 +499,7 @@ sub-expires-on = Date d’expiration : { $date }
 pay-update-card-exp = Expiration : { $expirationDate }
 sub-route-idx-updating = Mise à jour des informations de facturation…
 sub-route-payment-modal-heading = Informations de facturation invalides
-sub-route-payment-modal-message = Il semble y avoir une erreur avec votre compte { -brand-name-paypal }, veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
+sub-route-payment-modal-message-2 = Il semble y avoir une erreur avec votre compte { -brand-paypal }, veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
 sub-route-missing-billing-agreement-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. <div>Gérer</div>
 sub-route-funding-source-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. Cette alerte peut prendre un certain temps à disparaitre après la mise à jour de vos informations. <div>Gérer</div>
 
@@ -546,7 +513,7 @@ sub-invoice-preview-error-text = Aperçu de la facture introuvable pour cet abon
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Vous recherchez votre abonnement premium { -brand-name-pocket } ?
+manage-pocket-title-2 = Vous recherchez votre abonnement premium { -product-pocket } ?
 manage-pocket-body-2 = Pour le gérer, <linkExternal>cliquez ici</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -571,6 +538,6 @@ reactivate-success-button = Fermer
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google } : achats via l’application
-sub-iap-item-apple-purchase = { -brand-name-apple } : inclut des achats intégrés
+sub-iap-item-google-purchase-2 = { -brand-google } : achats via l’application
+sub-iap-item-apple-purchase-2 = { -brand-apple } : inclut des achats intégrés
 sub-iap-item-manage-button = Gérer

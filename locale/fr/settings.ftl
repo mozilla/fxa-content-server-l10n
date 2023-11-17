@@ -977,6 +977,7 @@ auth-error-999 = Erreur inattendue
 auth-error-1003 = Le stockage local ou les cookies sont toujours désactivés
 auth-error-1008 = Votre nouveau mot de passe doit être différent
 auth-error-1011 = Adresse e-mail valide requise
+auth-error-1062 = Redirection invalide
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
