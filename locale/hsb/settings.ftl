@@ -994,6 +994,7 @@ auth-error-999 = Njewočakowany zmylk
 auth-error-1003 = Local Storage abo placki su hišće znjemóžnjene
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
 auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
+auth-error-1062 = Njepłaćiwe dalesposrědkowanje
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
