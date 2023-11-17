@@ -112,7 +112,7 @@ payment-confirmation-download-button = Nadaljuj prenos
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Dovoljujem, da { -brand-mozilla } v skladu s <termsOfServiceLink>Pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>izvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek.
+payment-confirm-with-legal-links-static-3 = Dovoljujem, da { -brand-mozilla } v skladu s <termsOfServiceLink>pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
 payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 ## Component - PaymentErrorView
@@ -123,7 +123,7 @@ payment-error-manage-subscription-button = Upravljaj z naročnino
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed-2 = Ste že naročeni na { $productName } v trgovinah z aplikacijami { -brand-google } ali { -brand-apple }.
+iap-upgrade-already-subscribed-2 = Že ste naročeni na { $productName } v trgovinah z aplikacijami { -brand-google } ali { -brand-apple }.
 iap-upgrade-no-bundle-support = Za te naročnine ne podpiramo nadgradenj, vendar jih bomo kmalu.
 iap-upgrade-contact-support = Ta izdelek je še vedno na voljo – obrnite se na podporo, da vam lahko pomagamo.
 iap-upgrade-get-help-button = Poišči pomoč
@@ -138,16 +138,16 @@ payment-cc =
 payment-cancel-btn = Prekliči
 payment-update-btn = Posodobi
 payment-pay-btn = Plačaj zdaj
-payment-pay-with-paypal-btn-2 = Plačajte s { -brand-paypal }
+payment-pay-with-paypal-btn-2 = Plačaj s { -brand-paypal }om
 payment-validate-name-error = Vnesite svoje ime
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } za varno obdelavo plačil uporablja { -brand-name-stripe } in { -brand-paypal }.
-payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Pravilnik o zasebnosti za { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Pravilnik o zasebnosti za { -brand-paypal }</paypalPrivacyLink>
-payment-legal-copy-paypal-2 = { -brand-mozilla } za varno obdelavo plačil uporablja { -brand-paypal }.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } za varno obdelavo plačil uporablja storitvi { -brand-name-stripe } in { -brand-paypal }.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Politika zasebnosti za { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politika zasebnosti za { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } za varno obdelavo plačil uporablja storitev { -brand-paypal }.
 payment-legal-link-paypal-3 = <paypalPrivacyLink>Pravilnik o zasebnosti za { -brand-paypal }</paypalPrivacyLink>
-payment-legal-copy-stripe-3 = { -brand-mozilla } uporablja { -brand-name-stripe } za varno obdelavo plačil.
+payment-legal-copy-stripe-3 = { -brand-mozilla } za varno obdelavo plačil uporablja storitev { -brand-name-stripe }.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Politika zasebnosti za { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -167,7 +167,7 @@ payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal-2 = Plačajte s { -brand-paypal }
+pay-with-heading-paypal-2 = Plačaj s { -brand-paypal }om
 
 ## Component - PlanDetails
 
@@ -469,7 +469,7 @@ subscription-iaperrorupgrade-title = Nadgradnje še ni mogoče izvesti
 # but rather looked up in code and passed into the message as variables.
 
 brand-name-google-play-2 = Trgovina { -google-play }
-brand-name-apple-app-store-2 = { -app-store }
+brand-name-apple-app-store-2 = Trgovina { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -520,7 +520,7 @@ sub-route-idx-cancel-msg =
     Vaša naročnina na { $name } je preklicana.
           <br />
           Do { $date } boste lahko še vedno uporabljali { $name }.
-sub-route-idx-cancel-aside-2 = Imate vprašanja? Obiščite <a> { -brand-mozilla } </a>.
+sub-route-idx-cancel-aside-2 = Imate vprašanja? Obiščite <a>podporo { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
