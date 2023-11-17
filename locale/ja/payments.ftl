@@ -384,6 +384,8 @@ subscription-iaperrorupgrade-title = まだアップグレードできません
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } ストア
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -431,6 +433,7 @@ sub-route-idx-cancel-msg-title = ご利用ありがとうございました
 sub-route-idx-cancel-msg =
     { $name } のサブスクリプションがキャンセルされました。<br />
     { $date } まで { $name } へのアクセスができます。
+sub-route-idx-cancel-aside-2 = ご質問のある方は <a>{ -brand-mozilla } サポート</a> をご覧ください。
 
 ## Routes - Subscriptions - Errors
 
@@ -465,6 +468,7 @@ sub-expires-on = 有効期限: { $date }
 pay-update-card-exp = 有効期限: { $expirationDate }
 sub-route-idx-updating = 請求情報を更新しています...
 sub-route-payment-modal-heading = 請求情報が無効です
+sub-route-payment-modal-message-2 = { -brand-paypal } のアカウントに問題があるようです。この支払いの問題を解決するために必要な手続きを行ってください。
 sub-route-missing-billing-agreement-payment-alert = 支払い方法が無効です。アカウントに問題があります。<div>管理</div>
 sub-route-funding-source-payment-alert = 支払い方法が無効です。アカウントに問題があります。正しい情報に更新した後、この警告が解除されるまでしばらく時間がかかる場合があります。<div>管理</div>
 
@@ -478,6 +482,7 @@ sub-invoice-preview-error-text = サブスクリプションの請求書プレ�
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = { -product-pocket } の有料サブスクリプションをお探しですか？
 manage-pocket-body-2 = 管理するには、 <linkExternal>ここをクリック</linkExternal>してください。
 
 ## Routes - Subscriptions - Reactivate
@@ -502,4 +507,6 @@ reactivate-success-button = 閉じる
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: アプリ内課金
+sub-iap-item-apple-purchase-2 = { -brand-apple }: アプリ内課金
 sub-iap-item-manage-button = 管理
