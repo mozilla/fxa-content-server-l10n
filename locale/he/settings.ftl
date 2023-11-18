@@ -924,6 +924,7 @@ auth-error-999 = שגיאה בלתי צפויה
 auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבתים
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 auth-error-1011 = נדרשת כתובת דוא״ל חוקית
+auth-error-1062 = הפנייה לא חוקית
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
