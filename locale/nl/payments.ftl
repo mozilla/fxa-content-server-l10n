@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox Accounts
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Account-startpagina
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Doorgaan naar download
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-payment-confirm-with-legal-links-static-2 = Ik autoriseer { -brand-name-mozilla } om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
+payment-confirm-with-legal-links-static-3 = Ik autoriseer { -brand-mozilla } om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
 payment-confirm-checkbox-error = U dient dit te voltooien voordat u verder gaat
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Mijn abonnement beheren
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = U hebt al een abonnement op { $productName } via de appstore van { -brand-name-google } of { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = U hebt al een abonnement op { $productName } via de appstore van { -brand-google } of { -brand-apple }.
 iap-upgrade-no-bundle-support = We ondersteunen geen upgrades voor deze abonnementen, maar dat doen we binnenkort wel.
 iap-upgrade-contact-support = U kunt dit product nog steeds verkrijgen – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
 iap-upgrade-get-help-button = Hulp verkrijgen
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = Annuleren
 payment-update-btn = Bijwerken
 payment-pay-btn = Nu betalen
-payment-pay-with-paypal-btn = Betalen met { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Betalen met { -brand-paypal }
 payment-validate-name-error = Voer uw naam in
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } en { -brand-name-paypal } voor veilig betalingsverkeer.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } gebruikt { -brand-name-paypal } voor veilig betalingsverkeer.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } voor veilig betalingsverkeer.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } gebruikt { -brand-name-stripe } en { -brand-paypal } voor veilig betalingsverkeer.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal }-privacybeleid</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } gebruikt { -brand-paypal } voor veilig betalingsverkeer.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal }-privacybeleid</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } gebruikt { -brand-name-stripe } voor veilig betalingsverkeer.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Betalen met { -brand-name-paypal }
+pay-with-heading-paypal-2 = Betalen met { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = We kunnen u nog niet upgraden
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +469,7 @@ sub-route-idx-cancel-msg =
     Uw abonnement op { $name } is opgezegd.
           <br />
           U hebt nog tot { $date } toegang tot { $name }.
-sub-route-idx-cancel-aside = Vragen? Bezoek <a>{ -brand-name-mozilla } Support</a>.
+sub-route-idx-cancel-aside-2 = Vragen? Bezoek <a>{ -brand-mozilla } Support</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +504,7 @@ sub-expires-on = Vervalt op { $date }
 pay-update-card-exp = Vervalt op { $expirationDate }
 sub-route-idx-updating = Facturatiegegevens bijwerken…
 sub-route-payment-modal-heading = Ongeldige facturatiegegevens
-sub-route-payment-modal-message = Er lijkt een fout op te treden met uw { -brand-name-paypal }-account, u dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
+sub-route-payment-modal-message-2 = Er lijkt een fout op te treden met uw { -brand-paypal }-account, u dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
 sub-route-missing-billing-agreement-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. <div>Beheren</div>
 sub-route-funding-source-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. Deze waarschuwing verdwijnt mogelijk pas enige tijd nadat u met succes uw gegevens hebt bijgewerkt. <div>Beheren</div>
 
@@ -551,7 +518,7 @@ sub-invoice-preview-error-text = Factuurvoorbeeld niet gevonden voor dit abonnem
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Op zoek naar uw abonnement op { -brand-name-pocket } premium?
+manage-pocket-title-2 = Op zoek naar uw abonnement op { -product-pocket } premium?
 manage-pocket-body-2 = <linkExternal>Klik hier</linkExternal> om dit te beheren.
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +549,6 @@ reactivate-success-button = Sluiten
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: in-app-aankoop
-sub-iap-item-apple-purchase = { -brand-name-apple }: in-app-aankoop
+sub-iap-item-google-purchase-2 = { -brand-google }: in-app-aankoop
+sub-iap-item-apple-purchase-2 = { -brand-apple }: in-app-aankoop
 sub-iap-item-manage-button = Beheren

@@ -998,6 +998,7 @@ auth-error-999 = Onverwachte fout
 auth-error-1003 = Lokale opslag of cookies zijn nog steeds uitgeschakeld
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
 auth-error-1011 = Geldig e-mailadres vereist
+auth-error-1062 = Ongeldige omleiding
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
