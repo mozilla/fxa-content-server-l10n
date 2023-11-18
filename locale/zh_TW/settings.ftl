@@ -960,6 +960,7 @@ auth-error-999 = 未預期的錯誤
 auth-error-1003 = 本機儲存空間或 Cookie 仍然停用
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 auth-error-1011 = 請輸入有效的電子郵件信箱
+auth-error-1062 = 重導無效
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.

@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox 帳號
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = 帳號首頁
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = 前往下載
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
-payment-confirm-with-legal-links-static-2 = 我授權 { -brand-name-mozilla } 根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
+payment-confirm-with-legal-links-static-3 = 我授權 { -brand-mozilla } 根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
 payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下一步
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = 管理我的訂閱
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = 您已透過 { -brand-name-google } 或 { -brand-name-apple } 應用程式商店訂閱 { $productName }。
+iap-upgrade-already-subscribed-2 = 您已透過 { -brand-google } 或 { -brand-apple } 應用程式商店訂閱 { $productName }。
 iap-upgrade-no-bundle-support = 我們目前暫時無法升級透過這些方式訂閱的方案，但此功能正在開發中。
 iap-upgrade-contact-support = 您還是可以獲得此產品，請聯絡支援團隊，讓我們來協助。
 iap-upgrade-get-help-button = 取得幫助
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = 取消
 payment-update-btn = 更新
 payment-pay-btn = 現在付款
-payment-pay-with-paypal-btn = 使用 { -brand-name-paypal } 付款
+payment-pay-with-paypal-btn-2 = 使用 { -brand-paypal } 付款
 payment-validate-name-error = 請輸入您的大名
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 與 { -brand-name-paypal } 來安全地處理交易款項。
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 來安全地處理交易款項。
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 來安全地處理交易款項。
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } 使用 { -brand-name-stripe } 與 { -brand-paypal } 來安全地處理交易款項。
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink>&nbsp;<paypalPrivacyLink>{ -brand-paypal } 隱私權保護政策</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } 使用 { -brand-paypal } 來安全地處理交易款項。
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } 隱私權保護政策</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } 使用 { -brand-name-stripe } 來安全地處理交易款項。
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = 使用 { -brand-name-paypal } 付款
+pay-with-heading-paypal-2 = 使用 { -brand-paypal } 付款
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = 我們暫時無法為您升級
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } 商店
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -492,7 +459,7 @@ sub-route-idx-cancel-msg-title = 很遺憾看到您離開
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg = 已取消您對 { $name } 的訂閱。<br />仍可繼續使用 { $name } 到 { $date }為止。
-sub-route-idx-cancel-aside = 有問題嗎？請到 <a>{ -brand-name-mozilla } Support</a>。
+sub-route-idx-cancel-aside-2 = 有問題嗎？請到 <a>{ -brand-mozilla } Support</a>。
 
 ## Routes - Subscriptions - Errors
 
@@ -527,7 +494,7 @@ sub-expires-on = 於 { $date } 到期
 pay-update-card-exp = 到期於 { $expirationDate }
 sub-route-idx-updating = 正在更新帳務資訊…
 sub-route-payment-modal-heading = 帳務資訊無效
-sub-route-payment-modal-message = 您的 { -brand-name-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。
+sub-route-payment-modal-message-2 = 您的 { -brand-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。
 sub-route-missing-billing-agreement-payment-alert = 您的帳號發生問題，付款資訊無效。<div>點此管理</div>
 sub-route-funding-source-payment-alert = 您的帳號發生問題，付款資訊無效。當您成功更新資訊後，可能要過一點時間此警示才會消失。<div>點此管理</div>
 
@@ -541,7 +508,7 @@ sub-invoice-preview-error-text = 找不到此訂閱的請款單預覽頁面
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = 在尋找您的 { -brand-name-pocket } Premium 訂閱嗎？
+manage-pocket-title-2 = 在尋找您的 { -product-pocket } Premium 訂閱嗎？
 manage-pocket-body-2 = 請<linkExternal>點擊此處</linkExternal>即可管理。
 
 ## Routes - Subscriptions - Reactivate
@@ -566,6 +533,6 @@ reactivate-success-button = 關閉
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }：應用程式內購買
-sub-iap-item-apple-purchase = { -brand-name-apple }：應用程式內購買
+sub-iap-item-google-purchase-2 = { -brand-google }：應用程式內購買
+sub-iap-item-apple-purchase-2 = { -brand-apple }：應用程式內購買
 sub-iap-item-manage-button = 管理
