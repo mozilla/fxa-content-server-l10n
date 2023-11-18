@@ -130,10 +130,14 @@ payment-cc =
 payment-cancel-btn = Бас тарту
 payment-update-btn = Жаңарту
 payment-pay-btn = Қазір төлеу
+payment-pay-with-paypal-btn-2 = { -brand-paypal } арқылы төлеу
 payment-validate-name-error = Атыңызды енгізіңіз
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } және { -brand-paypal } пайдаланады.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } жекелік саясаты</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-paypal } пайдаланады.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
