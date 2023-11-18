@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox-konton
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Startsida för konton
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Fortsätt till nedladdning
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod för det visade beloppet, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
-payment-confirm-with-legal-links-static-2 = Jag godkänner { -brand-name-mozilla } att debitera min betalningsmetod för det visade beloppet, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
+payment-confirm-with-legal-links-static-3 = Jag godkänner { -brand-mozilla } att debitera min betalningsmetod för det visade beloppet, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
 payment-confirm-checkbox-error = Du måste slutföra detta innan du går vidare
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Hantera min prenumeration
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Du har redan en prenumeration på { $productName } via appbutikerna { -brand-name-google } eller { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Du har redan en prenumeration på { $productName } via appbutikerna { -brand-google } eller { -brand-apple }.
 iap-upgrade-no-bundle-support = Vi stöder inte uppgraderingar för dessa prenumerationer, men vi kommer att göra det snart.
 iap-upgrade-contact-support = Du kan fortfarande få den här produkten — kontakta supporten så att vi kan hjälpa dig.
 iap-upgrade-get-help-button = Få hjälp
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = Avbryt
 payment-update-btn = Uppdatera
 payment-pay-btn = Betala nu
-payment-pay-with-paypal-btn = Betala med { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Betala med { -brand-paypal }
 payment-validate-name-error = Ange ditt namn
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } använder { -brand-name-stripe } och { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } använder { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } använder { -brand-name-stripe } för säker betalningshantering.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } använder { -brand-name-stripe } och { -brand-paypal } för säker betalningshantering.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } sekretesspolicy</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } använder { -brand-paypal } för säker betalningshantering.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } sekretesspolicy</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } använder { -brand-name-stripe } för säker betalningshantering.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Betala med { -brand-name-paypal }
+pay-with-heading-paypal-2 = Betala med { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = Vi kan inte uppgradera dig riktigt än
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Butik
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Butik
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +469,7 @@ sub-route-idx-cancel-msg =
     Din prenumeration { $name } har avbrutits.
           <br />
           Du har fortfarande åtkomst till { $name } ända tills { $date }.
-sub-route-idx-cancel-aside = Har du frågor? Besök <a>{ -brand-name-mozilla } Support</a>.
+sub-route-idx-cancel-aside-2 = Har du frågor? Besök <a>{ -brand-mozilla } Support</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +504,7 @@ sub-expires-on = Upphör { $date }
 pay-update-card-exp = Upphör { $expirationDate }
 sub-route-idx-updating = Uppdaterar faktureringsinformation…
 sub-route-payment-modal-heading = Ogiltig faktureringsinformation
-sub-route-payment-modal-message = Det verkar finnas ett fel med ditt { -brand-name-paypal }-konto, du måste vidta nödvändiga steg för att lösa detta betalningsproblem.
+sub-route-payment-modal-message-2 = Det verkar vara ett fel med ditt { -brand-paypal }-konto, vi måste vidta nödvändiga åtgärder för att lösa det här betalningsproblemet.
 sub-route-missing-billing-agreement-payment-alert = Ogiltig betalningsinformation, det finns ett problem med ditt konto. <div>Hantera</div>
 sub-route-funding-source-payment-alert = Ogiltig betalningsinformation. Det finns ett problem med ditt konto. Det kan ta en stund att rensa den här varningen efter att du har uppdaterat din information. <div>Hantera</div>
 
@@ -551,7 +518,7 @@ sub-invoice-preview-error-text = Förhandsgranskning av faktura hittades inte f�
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Letar du efter din premiumprenumeration på { -brand-name-pocket }?
+manage-pocket-title-2 = Letar du efter din premiumprenumeration på { -product-pocket }?
 manage-pocket-body-2 = För att hantera det, <linkExternal>klicka här</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +549,6 @@ reactivate-success-button = Stäng
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Köp i appen
-sub-iap-item-apple-purchase = { -brand-name-apple }: Köp i appen
+sub-iap-item-google-purchase-2 = { -brand-google }: Köp i appen
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Köp i appen
 sub-iap-item-manage-button = Hantera
