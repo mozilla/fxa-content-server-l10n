@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Contas Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account(capitalization: "uppercase") }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Página inicial da conta
+settings-project-header-title = { -product-mozilla-account(capitalization: "uppercase") }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Continuar para baixar
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento a quantia exibida, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
-payment-confirm-with-legal-links-static-2 = Autorizo à { -brand-name-mozilla } cobrar com meu método de pagamento a quantia exibida, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
+payment-confirm-with-legal-links-static-3 = Autorizo à { -brand-mozilla } cobrar com meu método de pagamento a quantia exibida, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até eu cancelar minha assinatura.
 payment-confirm-checkbox-error = Você precisa concluir isto antes de prosseguir
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Gerenciar minha assinatura
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Você já tem uma assinatura do { $productName } na loja de aplicativos do { -brand-name-google } ou da { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Você já tem uma assinatura do { $productName } na loja de aplicativos do { -brand-google } ou da { -brand-apple }.
 iap-upgrade-no-bundle-support = Não oferecemos suporte a mudanças nessas assinaturas, mas faremos isso em breve.
 iap-upgrade-contact-support = Você ainda pode obter este produto. Entre em contato com o suporte para podermos te ajudar.
 iap-upgrade-get-help-button = Obter ajuda
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = Cancelar
 payment-update-btn = Atualizar
 payment-pay-btn = Pagar agora
-payment-pay-with-paypal-btn = Pagar com { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Pagar com { -brand-paypal }
 payment-validate-name-error = Digite seu nome
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } e o { -brand-name-paypal } para processamento seguro de pagamentos.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Política de privacidade do { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = A { -brand-name-mozilla } usa o { -brand-name-paypal } para processamento seguro de pagamentos.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } para processamento seguro de pagamentos.
+payment-legal-copy-stripe-and-paypal-3 = A { -brand-mozilla } usa o { -brand-name-stripe } e o { -brand-paypal } para processamento seguro de pagamentos.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Política de privacidade do { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Política de privacidade do { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = A { -brand-mozilla } usa o { -brand-paypal } para processamento seguro de pagamentos.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Política de privacidade do { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = A { -brand-mozilla } usa o { -brand-name-stripe } para processamento seguro de pagamentos.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidade do { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Pagar com { -brand-name-paypal }
+pay-with-heading-paypal-2 = Pagar com { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = Ainda não podemos mudar sua assinatura
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -497,7 +464,7 @@ sub-route-idx-cancel-msg =
     Sua assinatura de { $name } foi cancelada.
           <br />
           Você continua tendo acesso a { $name } até { $date }.
-sub-route-idx-cancel-aside = Tem dúvidas? Visite o <a>{ -brand-name-mozilla } suporte</a>.
+sub-route-idx-cancel-aside-2 = Tem dúvidas? Visite o <a>Suporte { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -532,7 +499,6 @@ sub-expires-on = Expira em { $date }
 pay-update-card-exp = Expira em { $expirationDate }
 sub-route-idx-updating = Atualizando informações de cobrança…
 sub-route-payment-modal-heading = Informações de cobrança inválidas
-sub-route-payment-modal-message = Parece haver um erro na sua conta { -brand-name-paypal }, precisamos que você execute as etapas necessárias para resolver este problema de pagamento.
 sub-route-missing-billing-agreement-payment-alert = Informações de pagamento inválidas. Há um erro em sua conta. <div>Gerenciar</div>
 sub-route-funding-source-payment-alert = Informações de pagamento inválidas. Há um erro em sua conta. Este alerta pode demorar algum tempo para sumir após você atualizar suas informações com sucesso. <div>Gerenciar</div>
 
@@ -546,7 +512,6 @@ sub-invoice-preview-error-text = Visão prévia da fatura não foi encontrada pa
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Procurando sua assinatura premium do { -brand-name-pocket }?
 manage-pocket-body-2 = Para gerenciar, <linkExternal>clique aqui</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -571,6 +536,4 @@ reactivate-success-button = Fechar
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Compra no aplicativo
-sub-iap-item-apple-purchase = { -brand-name-apple }: Compra no aplicativo
 sub-iap-item-manage-button = Gerenciar
