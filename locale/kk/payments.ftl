@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox тіркелгілері
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Тіркелгінің басты беті
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Жүктеп алуды жалғасты�
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Мен { -brand-name-firefox } өнімдерін өндірушісі, { -brand-name-mozilla } компаниясына, оның <termsOfServiceLink>Қызмет көрсету шарттары</termsOfServiceLink> және <privacyNoticeLink>Жекелік ескертуіне</privacyNoticeLink> сәйкес, мен жазылудан бас тартқанша дейін, көрсетілген сома үшін төлем әдісімнен ақы алуға рұқсат беремін.
-payment-confirm-with-legal-links-static-2 = Мен { -brand-name-mozilla } компаниясына, оның <termsOfServiceLink>Қызмет көрсету шарттары</termsOfServiceLink> және <privacyNoticeLink>Жекелік ескертуіне</privacyNoticeLink> сәйкес, мен жазылудан бас тартқанша дейін, көрсетілген сома үшін төлем әдісімнен ақы алуға рұқсат беремін.
+payment-confirm-with-legal-links-static-3 = Мен { -brand-mozilla } компаниясына, оның <termsOfServiceLink>Қызмет көрсету шарттары</termsOfServiceLink> және <privacyNoticeLink>Жекелік ескертуіне</privacyNoticeLink> сәйкес, мен жазылудан бас тартқанша дейін, көрсетілген сома үшін төлем әдісімнен ақы алуға рұқсат беремін.
 payment-confirm-checkbox-error = Алға жылжу алдында осыны аяқтауыңыз керек.
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Менің жазылуымды ба�
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Сізде { $productName } жазылуы { -brand-name-google } немесе { -brand-name-apple } қолданба дүкендері арқылы бар болып тұр.
+iap-upgrade-already-subscribed-2 = Сізде { $productName } жазылуы { -brand-google }немесе { -brand-apple } қолданба дүкендері арқылы бар болып тұр.
 iap-upgrade-no-bundle-support = Біз бұл жазылуларды жаңартуға қолдау көрсетпейміз, бірақ жақын арада оны бастаймыз.
 iap-upgrade-contact-support = Сіз бұл өнімді әлі де ала аласыз — көмек алу үшін қолдау қызметіне хабарласыңыз.
 iap-upgrade-get-help-button = Көмек алу
@@ -162,16 +130,10 @@ payment-cc =
 payment-cancel-btn = Бас тарту
 payment-update-btn = Жаңарту
 payment-pay-btn = Қазір төлеу
-payment-pay-with-paypal-btn = { -brand-name-paypal } көмегімен төлеу
 payment-validate-name-error = Атыңызды енгізіңіз
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } және { -brand-name-paypal } пайдаланады.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } жекелік саясаты</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-paypal } пайдаланады.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } жекелік саясаты</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } пайдаланады.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -191,7 +153,6 @@ payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын кар�
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = { -brand-name-paypal } арқылы төлеу
 
 ## Component - PlanDetails
 
@@ -444,9 +405,6 @@ subscription-iaperrorupgrade-title = Біз сізді әлі толықтай �
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -498,7 +456,6 @@ sub-route-idx-cancel-msg =
     { $name } жазылуыңыздан бас тартылды.
           <br />
           { $date } дейін { $name } ішіне әлі де қол жеткізе аласыз.
-sub-route-idx-cancel-aside = Сұрақтарыңыз бар ма? <a>{ -brand-name-mozilla } Қолдау</a> сайтын шолыңыз.
 
 ## Routes - Subscriptions - Errors
 
@@ -533,7 +490,6 @@ sub-expires-on = Мерзімі { $date } күні аяқталады
 pay-update-card-exp = Мерзімі { $expirationDate } күні аяқталады
 sub-route-idx-updating = Төлем ақпаратын жаңарту…
 sub-route-payment-modal-heading = Төлем ақпараты жарамсыз
-sub-route-payment-modal-message = { -brand-name-paypal } тіркелгіңізде қате бар сияқты, бұл төлем мәселесін шешу үшін сізге қажетті қадамдарды орындау қажет.
 sub-route-missing-billing-agreement-payment-alert = Төлем ақпараты жарамсыз; тіркелгіңізде қате бар. <div>Басқару</div>
 sub-route-funding-source-payment-alert = Төлем ақпараты жарамсыз; тіркелгіңізде қате бар.  Ақпаратты сәтті жаңартқаннан кейін бұл ескертудің жойылуы біраз уақыт алуы мүмкін. <div>Басқару</div>
 
@@ -547,7 +503,6 @@ sub-invoice-preview-error-text = Бұл жазылу үшін шот-факту�
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = { -brand-name-pocket } премиум жазылeын іздедіңіз бе?
 manage-pocket-body-2 = Оны басқару үшін <linkExternal>осы жерді басыңыз</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -578,6 +533,4 @@ reactivate-success-button = Жабу
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Қолданбада сатып алу
-sub-iap-item-apple-purchase = { -brand-name-apple }: Қолданбада сатып алу
 sub-iap-item-manage-button = Басқару
