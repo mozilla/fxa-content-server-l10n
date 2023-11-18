@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox Accounts
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Mba’ete Ñepyrũgua
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,6 @@ payment-confirmation-download-button = Emboguejy ehóvo
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ tepy ojekuaáva, ojogueraháva umi <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
-payment-confirm-with-legal-links-static-2 = Amoneĩ { -brand-name-mozilla }-pe, toip’a aheme’ẽhápe he’iháicha <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>Ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
 payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 ## Component - PaymentErrorView
@@ -146,8 +113,6 @@ payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Eñemboheraguapýma { $productName } tembiporu’i ñemuha rupive { -brand-name-google } térã { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Noromoneĩri ñembohekopyahu ko’ã ñemoheraguapýpe, hákatu vokóinte rojapóta.
 iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
 iap-upgrade-get-help-button = Eipota pytyvõ
@@ -162,16 +127,13 @@ payment-cc =
 payment-cancel-btn = Heja
 payment-update-btn = Mbohekopyahu
 payment-pay-btn = Ehepyme’ẽ ko’ág̃a
-payment-pay-with-paypal-btn = Ehepyme’ẽ { -brand-name-paypal } ndive
+payment-pay-with-paypal-btn-2 = Ehepyme’ẽ { -brand-paypal } ndive
 payment-validate-name-error = Emoinge nde réra
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oiporu { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua porureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }ñemigua porureko</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } oiporu { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } ñemigua porureko</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } oiporu { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } oiporu { -brand-name-stripe } ha { -brand-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua porureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } ñemigua porureko</paypalPrivacyLink>
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua porureko</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +153,6 @@ payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Ehepyme’ẽ { -brand-name-paypal } ndive
 
 ## Component - PlanDetails
 
@@ -444,9 +405,6 @@ subscription-iaperrorupgrade-title = Norombohekopyahukuaái gueteri
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +460,6 @@ sub-route-idx-cancel-msg =
     Pe mboheraguapy { $name } pegua ojejokóma.
           <br />
           Eikekuaa { $name }-pe { $date } peve.
-sub-route-idx-cancel-aside = ¿Eporandusépa? Eike <a>{ -brand-name-mozilla } Pytyvõha</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +494,6 @@ sub-expires-on = Opáta { $date }
 pay-update-card-exp = Hu’ãta { $expirationDate }
 sub-route-idx-updating = Hekopyahuhína ñemuhakuatia marandu…
 sub-route-payment-modal-heading = Marandu kuatiañemure oiko’ỹva
-sub-route-payment-modal-message = Oĩvaiccha jejavy { -brand-name-paypal } mba’ete ndive, roikotevẽ emboguata mba’éichapa emoĩporãta ko apañuãi jehepyme’ẽ rehegua.
 sub-route-missing-billing-agreement-payment-alert = Marandu jehepyme’ẽ rehegua oiko’ỹva; oĩ jejavy mba’ete ndive. <div>Ñangareko</div>
 sub-route-funding-source-payment-alert = Marandu jehepyme’ẽ rehegua oiko’ỹva; oĩ jejavy mba’ete ndive. Ko jyhyjerã ndohopya’emo’ãi embohehekopyahu rire pe marandu hekopete. <div>Ñangareko</div>
 
@@ -551,7 +507,6 @@ sub-invoice-preview-error-text = Kuatiañemungue jehecha ypy ndojejuhúi ko ñem
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = ¿Eheka ne ñemboheraguapy guasu { -brand-name-pocket } pegua?
 manage-pocket-body-2 = Eñagareko hag̃ua, <linkExternal>eikutu ápe</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +537,4 @@ reactivate-success-button = Mboty
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: ejogua tembiporu’ípe
-sub-iap-item-apple-purchase = { -brand-name-apple }: ejogua tembiporu’ípe
 sub-iap-item-manage-button = Ñangareko
