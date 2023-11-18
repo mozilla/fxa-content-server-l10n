@@ -3,40 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox Accounts
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account(case: "a") }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
+settings-project-header-title = { -product-mozilla-account(case: "a") }
 
 ## Component - CouponForm
 
@@ -147,7 +116,7 @@ payment-error-manage-subscription-button = ניהול המינוי שלי
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = כבר יש לך מינוי ל־{ $productName } דרך חנויות האפליקציות { -brand-name-google } או { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = כבר יש לך מינוי ל־{ $productName } דרך חנויות האפליקציות { -brand-google } או { -brand-apple }.
 iap-upgrade-no-bundle-support = איננו תומכים בשדרוגים עבור המינויים האלה, אבל נתמוך בכך בקרוב.
 iap-upgrade-contact-support = באפשרותך עדיין להשיג את המוצר הזה — נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
 iap-upgrade-get-help-button = קבלת עזרה
@@ -162,16 +131,16 @@ payment-cc =
 payment-cancel-btn = ביטול
 payment-update-btn = עדכון
 payment-pay-btn = לשלם כעת
-payment-pay-with-paypal-btn = תשלום באמצעות { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = תשלום באמצעות { -brand-paypal }
 payment-validate-name-error = נא להכניס את השם שלך
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } וב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>
-payment-legal-copy-paypal = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } לצורך עיבוד תשלומים מאובטח.
+payment-legal-copy-stripe-and-paypal-3 = ‏{ -brand-mozilla } משתמש ב־{ -brand-name-stripe } וב־{ -brand-paypal } לצורך עיבוד תשלומים מאובטח.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = ‏{ -brand-mozilla } משתמש ב־{ -brand-paypal } לצורך עיבוד תשלומים מאובטח.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>מדיניות הפרטיות של { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = ‏{ -brand-mozilla } משתמש ב־{ -brand-name-stripe } לצורך עיבוד תשלומים מאובטח.
 payment-legal-link-stripe-3 = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +160,7 @@ payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = תשלום באמצעות { -brand-name-paypal }
+pay-with-heading-paypal-2 = תשלום באמצעות { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -456,9 +425,8 @@ subscription-iaperrorupgrade-title = אנחנו לא יכולים לשדרג א�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = חנות { -brand-name-google } Play
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = חנות { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -509,7 +477,7 @@ sub-route-idx-cancel-msg =
     המינוי שלך ל־{ $name } בוטל.
           <br />
           תהיה לך עדיין גישה ל־{ $name } עד { $date }.
-sub-route-idx-cancel-aside = יש שאלות? ניתן לבקר ב<a>{ -brand-name-mozilla }תמיכה</a>.
+sub-route-idx-cancel-aside-2 = יש שאלות? ניתן לבקר ב<a>{ -brand-mozilla }תמיכה</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -541,7 +509,7 @@ sub-expires-on = יפוג בתאריך { $date }
 
 sub-route-idx-updating = בתהליך עדכון פרטי החיוב…
 sub-route-payment-modal-heading = פרטי חיוב שגויים
-sub-route-payment-modal-message = נראה שיש שגיאה בחשבון ה־{ -brand-name-paypal } שלך, אנחנו צריכים שתנקוט בצעדים הדרושים כדי לפתור בעיית תשלום זו.
+sub-route-payment-modal-message-2 = נראה שיש שגיאה בחשבון ה־{ -brand-paypal } שלך, אנחנו צריכים שתנקוט בצעדים הדרושים כדי לפתור בעיית תשלום זו.
 sub-route-missing-billing-agreement-payment-alert = פרטי חיוב שגויים; אירעה שגיאה בחשבון שלך. <div>ניהול</div>
 sub-route-funding-source-payment-alert = פרטי תשלום לא חוקיים; יש שגיאה עם החשבון שלך. ייתכן שהתראה זו תופיע למשך זמן מה לאחר שהמידע שלך יעודכן בהצלחה. <div>ניהול</div>
 
@@ -553,7 +521,7 @@ sub-invoice-preview-error-text = תצוגה מקדימה של החשבונית �
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = חיפשת את מינוי הפרימיום שלך עבור { -brand-name-pocket }?
+manage-pocket-title-2 = חיפשת את מינוי הפרימיום שלך עבור { -product-pocket }?
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -583,6 +551,4 @@ reactivate-success-button = סגירה
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = ‏{ -brand-name-google }: רכישה מתוך היישומון
-sub-iap-item-apple-purchase = ‏{ -brand-name-apple }: רכישה מתוך היישומון
 sub-iap-item-manage-button = ניהול
