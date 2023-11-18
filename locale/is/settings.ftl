@@ -992,6 +992,7 @@ auth-error-999 = Óvænt villa
 auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 auth-error-1011 = Krafist er gilds tölvupóstfangs
+auth-error-1062 = Ógild endurbeining
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.

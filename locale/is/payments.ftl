@@ -138,6 +138,8 @@ payment-validate-name-error = Settu inn nafnið þitt
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } notar { -brand-name-stripe } og { -brand-paypal }fyrir örugga vinnslu greiðslna.
 payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } persónuverndarstefna</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } notar { -brand-paypal } fyrir örugga vinnslu greiðslna.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } persónuverndarstefna</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } notar { -brand-name-stripe } fyrir örugga vinnslu greiðslna.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -157,6 +159,7 @@ payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Greiða með { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -409,6 +412,8 @@ subscription-iaperrorupgrade-title = Við getum ekki ennþá uppfært fyrir þig
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } forritaverslun
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -464,6 +469,7 @@ sub-route-idx-cancel-msg =
     { $name } áskriftinni þinni hefur verið sagt upp.
           <br />
           Þú munt áfram hafa aðgang að { $name } til { $date }.
+sub-route-idx-cancel-aside-2 = Ertu með spurningar? Farðu á <a>{ -brand-mozilla } aðstoðargáttina</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -498,6 +504,7 @@ sub-expires-on = Rennur út { $date }
 pay-update-card-exp = Rennur út { $expirationDate }
 sub-route-idx-updating = Uppfæri greiðsluupplýsingar…
 sub-route-payment-modal-heading = Ógildar greiðsluupplýsingar
+sub-route-payment-modal-message-2 = Það virðist vera villa varðandi { -brand-paypal }-reikninginn þinn, við þurfum að gera nauðsynlegar ráðstafanir til að leysa þetta greiðsluvandamál.
 sub-route-missing-billing-agreement-payment-alert = Ógildar greiðsluupplýsingar; það er villa varðandi reikninginn þinn. <div>Sýsla með upplýsingarnar</div>
 sub-route-funding-source-payment-alert = Ógildar greiðsluupplýsingar; það er villa varðandi reikninginn þinn. Það getur tekið nokkurn tíma að hreinsa út þessa viðvörun eftir að þú hefur uppfært upplýsingarnar þínar. <div>Sýsla með upplýsingarnar</div>
 
@@ -511,6 +518,7 @@ sub-invoice-preview-error-text = Forskoðun greiðsluseðils fyrir þessa áskri
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Ertu að leita að { -product-pocket } forgangsáskriftinni þinni?
 manage-pocket-body-2 = Til að stjórna þessu skaltu <linkExternal>smella hér</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -541,4 +549,6 @@ reactivate-success-button = Loka
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Innkaup í forriti
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Innkaup í forriti
 sub-iap-item-manage-button = Stjórna
