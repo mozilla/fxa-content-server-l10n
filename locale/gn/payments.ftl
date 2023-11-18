@@ -134,6 +134,9 @@ payment-validate-name-error = Emoinge nde réra
 
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } oiporu { -brand-name-stripe } ha { -brand-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua porureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } ñemigua porureko</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } oiporu { -brand-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } ñemigua porureko</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } oiporu { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua porureko</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -153,6 +156,7 @@ payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Ehepyme’ẽ { -brand-paypal } ndive
 
 ## Component - PlanDetails
 
@@ -405,6 +409,8 @@ subscription-iaperrorupgrade-title = Norombohekopyahukuaái gueteri
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -460,6 +466,7 @@ sub-route-idx-cancel-msg =
     Pe mboheraguapy { $name } pegua ojejokóma.
           <br />
           Eikekuaa { $name }-pe { $date } peve.
+sub-route-idx-cancel-aside-2 = Eporandusépa. Eike <a>{ -brand-mozilla } Pytyvõha</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -507,6 +514,7 @@ sub-invoice-preview-error-text = Kuatiañemungue jehecha ypy ndojejuhúi ko ñem
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = ¿Eheka ne ñemboheraguapy guasu { -product-pocket } pegua?
 manage-pocket-body-2 = Eñagareko hag̃ua, <linkExternal>eikutu ápe</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -537,4 +545,6 @@ reactivate-success-button = Mboty
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: ejogua tembiporu’ípe
+sub-iap-item-apple-purchase-2 = { -brand-apple }: ejogua tembiporu’ípe
 sub-iap-item-manage-button = Ñangareko

@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
 bento-menu-title-2 = Bento Poravorã { -brand-mozilla } mba’e
+bento-menu-title-3 = { -brand-mozilla } apopyrekuéra
 bento-menu-firefox-title = Tembiporupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
-bento-menu-mozilla-title = { -brand-mozilla } rembiporupyahu oñeha’ã nde rekoñemíre ñandutípe.
+bento-menu-tagline = { -brand-mozilla } apopyrekuéra omo’ãva nde rekoñemi
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -997,6 +998,7 @@ auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1003 = Ñeñongatu pypegua térã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 auth-error-1011 = Eikotevẽ ñanduti veve oikóva
+auth-error-1062 = Ñemondojey ndoikói
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
