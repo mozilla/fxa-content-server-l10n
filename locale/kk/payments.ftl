@@ -138,6 +138,8 @@ payment-validate-name-error = Атыңызды енгізіңіз
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } және { -brand-paypal } пайдаланады.
 payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } жекелік саясаты</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-paypal } пайдаланады.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } жекелік саясаты</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } пайдаланады.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -157,6 +159,7 @@ payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын кар�
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = { -brand-paypal } арқылы төлеу
 
 ## Component - PlanDetails
 
@@ -409,6 +412,8 @@ subscription-iaperrorupgrade-title = Біз сізді әлі толықтай �
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -460,6 +465,7 @@ sub-route-idx-cancel-msg =
     { $name } жазылуыңыздан бас тартылды.
           <br />
           { $date } дейін { $name } ішіне әлі де қол жеткізе аласыз.
+sub-route-idx-cancel-aside-2 = Сұрақтарыңыз бар ма? <a>{ -brand-mozilla } Қолдау көрсету</a> сайтын шолыңыз.
 
 ## Routes - Subscriptions - Errors
 
@@ -494,6 +500,7 @@ sub-expires-on = Мерзімі { $date } күні аяқталады
 pay-update-card-exp = Мерзімі { $expirationDate } күні аяқталады
 sub-route-idx-updating = Төлем ақпаратын жаңарту…
 sub-route-payment-modal-heading = Төлем ақпараты жарамсыз
+sub-route-payment-modal-message-2 = { -brand-paypal } тіркелгіңізде қате бар сияқты, бұл төлем мәселесін шешу үшін сізге қажетті қадамдарды орындау қажет.
 sub-route-missing-billing-agreement-payment-alert = Төлем ақпараты жарамсыз; тіркелгіңізде қате бар. <div>Басқару</div>
 sub-route-funding-source-payment-alert = Төлем ақпараты жарамсыз; тіркелгіңізде қате бар.  Ақпаратты сәтті жаңартқаннан кейін бұл ескертудің жойылуы біраз уақыт алуы мүмкін. <div>Басқару</div>
 
@@ -507,6 +514,7 @@ sub-invoice-preview-error-text = Бұл жазылу үшін шот-факту�
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = { -product-pocket } премиум жазылымын іздедіңіз бе?
 manage-pocket-body-2 = Оны басқару үшін <linkExternal>осы жерді басыңыз</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -537,4 +545,6 @@ reactivate-success-button = Жабу
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Қолданбада сатып алу
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Қолданбада сатып алу
 sub-iap-item-manage-button = Басқару

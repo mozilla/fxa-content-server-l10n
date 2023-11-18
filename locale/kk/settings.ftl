@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } өнімдер мәзірі
 bento-menu-title-2 = { -brand-mozilla } Bento мәзірі
+bento-menu-title-3 = { -brand-mozilla } өнімдері
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
-bento-menu-mozilla-title = { -brand-mozilla } — желідегі жекелігіңіз үшін күресетін технологиялар.
+bento-menu-tagline = Жекелігіңізді қорғайтын басқа да { -brand-mozilla } өнімдері
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Клиент табылмады, ажырату мүмкін емес
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } жүйесінен шықтыңыз
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Синхрондаумен байланысты ү�
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -711,20 +712,6 @@ recent-activity-account-emails-swapped = Негізгі және екіншіл�
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Тіркелгінің басқа белсенділігі
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Бас тарту
-recovery-key-close-button = Жабу
-recovery-key-continue-button = Жалғастыру
-recovery-key-created-1 = Тіркелгіңізді қалпына келтіру кілті жасалды. Кілтті кейін оңай табуға болатын қауіпсіз жерде сақтауды ұмытпаңыз — парольді ұмытып қалсаңыз, деректеріңізге қайта кіру үшін кілт қажет болады.
-recovery-key-enter-password =
-    .label = Парольді енгізіңіз
-recovery-key-page-title-1 =
-    .title = Тіркелгіні қалпына келтіру кілті
-recovery-key-step-1 = Қадам 1, барлығы 2
-recovery-key-step-2 = Қадам 2, барлығы 2
-recovery-key-success-alert-3 = Тіркелгіні қалпына келтіру кілті жасалды
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1012,6 +999,7 @@ auth-error-999 = Күтпеген қате
 auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 auth-error-1011 = Жарамды эл. пошта адресі керек
+auth-error-1062 = Жарамсыз қайта бағдарлау
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1069,7 +1057,7 @@ cookies-disabled-learn-more = Көбірек білу
 inline-recovery-setup-header-default = <span>Тіркелгі баптауларына өту үшін</span> сақтық аутентификация кодын растаңыз
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын сақтаңыз
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Бұл бір реттік пайдалану кодтарын ұялы телефоныңыз болмаған кезі үшін қауіпсіз жерде сақтаңыз.
@@ -1089,7 +1077,7 @@ inline-recovery-confirmation-description = Құрылғы жоғалған жа�
 inline-recovery-confirmation-header-default = <span>Тіркелгі баптауларына өту үшін</span> сақтық аутентификация кодын растаңыз
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын растаңыз
 
 ## InlineTotpSetup page
