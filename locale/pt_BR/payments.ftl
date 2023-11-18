@@ -499,6 +499,7 @@ sub-expires-on = Expira em { $date }
 pay-update-card-exp = Expira em { $expirationDate }
 sub-route-idx-updating = Atualizando informações de cobrança…
 sub-route-payment-modal-heading = Informações de cobrança inválidas
+sub-route-payment-modal-message-2 = Parece haver um erro com sua conta no { -brand-paypal }. Precisamos que você tome as medidas necessárias para resolver este problema de pagamento.
 sub-route-missing-billing-agreement-payment-alert = Informações de pagamento inválidas. Há um erro em sua conta. <div>Gerenciar</div>
 sub-route-funding-source-payment-alert = Informações de pagamento inválidas. Há um erro em sua conta. Este alerta pode demorar algum tempo para sumir após você atualizar suas informações com sucesso. <div>Gerenciar</div>
 
@@ -512,6 +513,7 @@ sub-invoice-preview-error-text = Visão prévia da fatura não foi encontrada pa
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Procurando sua assinatura premium do { -product-pocket }?
 manage-pocket-body-2 = Para gerenciar, <linkExternal>clique aqui</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -536,4 +538,6 @@ reactivate-success-button = Fechar
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Compra no aplicativo
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Compra no aplicativo
 sub-iap-item-manage-button = Gerenciar
