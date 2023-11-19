@@ -404,14 +404,18 @@ dc-heading = Recopilación y uso de datos
 dc-subheader = Ayuda a mejorar { -product-firefox-accounts }
 dc-subheader-2 = Ayuda a mejorar { -product-mozilla-accounts }
 dc-subheader-content = Permitir que { -product-firefox-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
+dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
 dc-opt-out-success = Desactivación correcta. { -product-firefox-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
+dc-opt-out-success-2 = Desactivación correcta. { -product-mozilla-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-firefox-accounts }.
+dc-opt-in-success-2 = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Lo sentimos, ha surgido un problema al cambiar tu preferencia de recolección de datos
 dc-learn-more = Saber más
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = menú { -product-firefox-account }
+drop-down-menu-title-2 = menú { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -500,6 +504,7 @@ header-menu-closed = Menú de navegación del sitio
 header-back-to-top-link =
     .title = Volver arriba
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Ayuda
 
 ## Linked Accounts section
@@ -508,8 +513,10 @@ la-heading = Cuentas vinculadas
 la-description = Has autorizado el acceso a las siguientes cuentas.
 la-unlink-button = Desvincular
 la-unlink-account-button = Desvincular
+la-set-password-button = Establecer contraseña
 la-unlink-heading = Desvincular de cuenta de terceros
 la-unlink-content-3 = ¿Seguro que quieres desvincular tu cuenta? Desvincular tu cuenta no te desconecta automáticamente de tus Servicios conectados. Para hacerlo, deberás cerrar sesión manualmente en la sección Servicios conectados.
+la-unlink-content-4 = Antes de desvincular tu cuenta, debes establecer una contraseña. Sin una contraseña, no hay forma de que te conectes después de desvincular tu cuenta.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -625,7 +632,9 @@ delete-account-header =
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
 delete-account-confirm-title-3 = Puede que hayas conectado tu { -product-firefox-account } a uno o más de los siguientes productos o servicios de { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
+delete-account-confirm-title-4 = Puede que hayas conectado tu { -product-mozilla-account } a uno o más de los siguientes productos o servicios de { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -672,6 +681,33 @@ display-name-success-alert-2 = Nombre visible actualizado
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Actividad reciente de la cuenta
+recent-activity-account-create-v2 = Cuenta creada
+recent-activity-account-disable-v2 = Cuenta desactivada
+recent-activity-account-enable-v2 = Cuenta activada
+recent-activity-account-login-v2 = Sesión de cuenta iniciada
+recent-activity-account-reset-v2 = Se ha iniciado el restablecimiento de la contraseña
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Correos rebotados eliminados
+recent-activity-account-login-failure = Intento fallido de acceso a la cuenta
+recent-activity-account-two-factor-added = Autenticación en dos pasos activada
+recent-activity-account-two-factor-requested = Autenticación en dos pasos solicitada
+recent-activity-account-two-factor-failure = Autenticación en dos pasos fallida
+recent-activity-account-two-factor-success = Autenticación en dos pasos completada con éxito
+recent-activity-account-two-factor-removed = Autenticación en dos pasos eliminada
+recent-activity-account-password-reset-requested = Se ha solicitado un restablecimiento de contraseña
+recent-activity-account-password-reset-success = Contraseña de cuenta restablecida correctamente
+recent-activity-account-recovery-key-added = Clave de recuperación de cuenta activada
+recent-activity-account-recovery-key-verification-failure = Verificación de clave de recuperación de cuenta fallida
+recent-activity-account-recovery-key-verification-success = Verificación de clave de recuperación de cuenta completada con éxito
+recent-activity-account-recovery-key-removed = Clave de recuperación de cuenta eliminada
+recent-activity-account-password-added = Nueva contraseña añadida
+recent-activity-account-password-changed = Contraseña cambiada
+recent-activity-account-secondary-email-added = Dirección de correo secundario añadida
+recent-activity-account-secondary-email-removed = Dirección de correo secundario eliminada
+recent-activity-account-emails-swapped = Correos electrónicos primario y secundario intercambiados
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Otra actividad de la cuenta
 
 ## PageRecoveryKeyCreate
 
@@ -791,6 +827,8 @@ security-password-created-date = Creado { $date }
 security-not-set = No establecido
 security-action-create = Crear
 security-set-password = Establecer una contraseña para sincronizar y usar ciertas funciones de seguridad de la cuenta.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ver actividad reciente de la cuenta
 
 ## Switch component
 
@@ -902,8 +940,16 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Al continuar, aceptas:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Al continuar, aceptas:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Términos de servicio</pocketTos> y <pocketPrivacy>Aviso de privacidad</pocketPrivacy> de { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Términos de servicio</pocketTos> y <pocketPrivacy>Aviso de privacidad</pocketPrivacy> de { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Términos de servicio y aviso de privacidad</monitorTos> de { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Términos del servicio y aviso de privacidad</monitorTos> de { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Términos de servicio</firefoxTos> y <firefoxPrivacy>Aviso de privacidad</firefoxPrivacy> de { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
