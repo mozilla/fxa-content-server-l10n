@@ -307,8 +307,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox }-valikko
+bento-menu-title-3 = { -brand-mozilla }-tuotteet
 bento-menu-firefox-title = { -brand-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
-bento-menu-mozilla-title = { -brand-mozilla } on teknologiaa, joka taistelee yksityisyytesi puolesta.
+bento-menu-tagline = Lisää yksityisyyttäsi suojaavia tuotteita { -brand-mozilla }lta
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -995,6 +996,7 @@ auth-error-999 = Odottamaton virhe
 auth-error-1003 = Paikallinen tallennustila tai evästeet ovat edelleen poissa käytöstä
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
 auth-error-1011 = Sähköpostiosoitteen täytyy olla kelvollinen
+auth-error-1062 = Virheellinen uudelleenohjaus
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
