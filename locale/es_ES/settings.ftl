@@ -309,7 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Menú Bento de { -brand-firefox }
 bento-menu-title-2 = Menú Bento de { -brand-mozilla }
+bento-menu-title-3 = productos { -brand-mozilla }
 bento-menu-firefox-title = La tecnología de { -brand-firefox } lucha por tu privacidad en la red.
+bento-menu-tagline = Más productos de { -brand-mozilla } que protegen tu privacidad
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -952,8 +954,12 @@ terms-privacy-agreement-monitor = <monitorTos>Términos de servicio y aviso de p
 terms-privacy-agreement-monitor-2 = <monitorTos>Términos del servicio y aviso de privacidad</monitorTos> de { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Términos de servicio</firefoxTos> y <firefoxPrivacy>Aviso de privacidad</firefoxPrivacy> de { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Términos de servicio</mozillaAccountsTos> y <mozillaAccountsPrivacy>Aviso de privacidad</mozillaAccountsPrivacy> de { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Al continuar, aceptas los <firefoxTos>Términos de servicio</firefoxTos> y <firefoxPrivacy>Aviso de privacidad</firefoxPrivacy>
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Al continuar, aceptas los <mozillaAccountsTos>Términos de servicio</mozillaAccountsTos> y <mozillaAccountsPrivacy>Aviso de privacidad</mozillaAccountsPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -983,17 +989,20 @@ auth-error-114 = Has probado demasiadas veces. Vuelve a intentarlo { $retryAfter
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente del correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
+auth-error-159 = Clave de recuperación de cuenta no válida
 auth-error-183-2 = Código de confirmación no válido o caducado
 auth-error-999 = Error inesperado
 auth-error-1003 = El almacenamiento local o las cookies siguen desactivados
 auth-error-1008 = La nueva contraseña debe ser diferente
 auth-error-1011 = Se requiere un correo válido
+auth-error-1062 = Redirección no válida
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = No se ha podido crear la cuenta
 cannot-create-account-requirements = Debes cumplir ciertos requisitos mínimos de edad para crear una { -product-firefox-account }.
+cannot-create-account-requirements-2 = Debes cumplir ciertos requisitos mínimos de edad para crear una { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Saber más
 
@@ -1029,6 +1038,7 @@ connect-another-device-ios-complete-setup-message = Inicia sesión en { -brand-f
 
 cookies-disabled-header = Se requiere almacenamiento local y cookies
 cookies-disabled-enable-prompt = Por favor, activa las cookies y el almacenamiento local en tu navegador para acceder a { -product-firefox-accounts }. Si lo haces, se activarán funcionalidades como recordar tus datos entre sesiones.
+cookies-disabled-enable-prompt-2 = Por favor, activa las cookies y el almacenamiento local en tu navegador para acceder a { -product-mozilla-account }. Si lo haces, se activarán funcionalidades como recordar tus datos entre sesiones.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Reintentar
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1229,6 +1239,7 @@ account-recovery-confirm-key-heading-w-default-service = Restablecer la contrase
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Restablecer la contraseña con la clave de recuperación de la cuenta <span>para continuar a { $serviceName }</span>
 account-recovery-confirm-key-instructions = Escribe la clave de un solo uso de recuperación de cuenta que guardaste en un lugar seguro para recuperar el acceso a tu { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Escribe la clave de un solo uso de recuperación de cuenta que guardaste en un lugar seguro para recuperar el acceso a tu { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Nota:</span> si reinicias tu contraseña y no tienes guardada tu clave de recuperación de la cuenta, algunos de tus datos serán borrados (incluyendo datos sincronizados del servidor como historial y marcadores).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1260,6 +1271,8 @@ complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Lo sentimos, ha surgido un problema al establecer tu contraseña
+complete-reset-password-recovery-key-error-v2 = Lo sentimos, hubo un problema al verificar si tienes una clave de recuperación de cuenta.
+complete-reset-password-recovery-key-link = Restablecer tu contraseña con tu clave de recuperación de cuenta.
 
 ## Confirm Reset Password Component
 
@@ -1307,6 +1320,8 @@ confirm-signin-message = Comprueba en tu correo electrónico el enlace de confir
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Introduce tu contraseña <span>para tu { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Introduce tu contraseña <span>para tu { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
@@ -1363,6 +1378,10 @@ signin-reported-message = Se ha notificado a nuestro equipo. Informes como éste
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Introduce el código de confirmación <span>para tu { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Introduce el código de confirmación <span> para tu { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Introduce en menos de 5 minutos el código que fue enviado a { $email }.
 signin-token-code-input-label-v2 = Introduce el código de 6 dígitos
@@ -1414,6 +1433,10 @@ confirm-signup-code-page-title = Introduce el código de confirmación
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Introduce el código de confirmación <span>para tu { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Introduce el código de confirmación <span>para tu { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Introduce en menos de 5 minutos el código que fue enviado a { $email }.
 confirm-signup-code-input-label = Introduce el código de 6 dígitos
