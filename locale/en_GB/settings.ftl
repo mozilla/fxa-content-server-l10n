@@ -998,6 +998,7 @@ auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
 auth-error-1011 = Valid email required
+auth-error-1062 = Invalid redirect
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
