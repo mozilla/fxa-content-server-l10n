@@ -409,6 +409,7 @@ subscription-iaperrorupgrade-title = 我们暂时无法为您升级
 # but rather looked up in code and passed into the message as variables.
 
 brand-name-google-play-2 = { -google-play } 商店
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -457,6 +458,7 @@ sub-route-idx-cancel-msg =
     您的 { $name } 订阅已被取消。
           <br />
           在 { $date } 之前，您仍然可以访问 { $name }。
+sub-route-idx-cancel-aside-2 = 遇到问题？请访问 <a>{ -brand-mozilla } 技术支持</a>。
 
 ## Routes - Subscriptions - Errors
 
@@ -491,6 +493,7 @@ sub-expires-on = 到期于 { $date }
 pay-update-card-exp = 有效期 { $expirationDate }
 sub-route-idx-updating = 正在更新账单信息…
 sub-route-payment-modal-heading = 账单信息无效
+sub-route-payment-modal-message-2 = 您的 { -brand-paypal } 账户似乎存在问题，请按下列必要步骤解决此付款问题。
 sub-route-missing-billing-agreement-payment-alert = 您的账户出现问题，付款信息无效。<div>点此管理</div>
 sub-route-funding-source-payment-alert = 您的账户出现问题，付款信息无效。此提醒将在成功更新信息一段时间后清除。<div>点此管理</div>
 
@@ -504,6 +507,7 @@ sub-invoice-preview-error-text = 找不到此订阅的发票预览
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = 在寻找您的 { -product-pocket } Premium 订阅吗？
 manage-pocket-body-2 = 请<linkExternal>点击此处</linkExternal>进行管理。
 
 ## Routes - Subscriptions - Reactivate
@@ -528,4 +532,6 @@ reactivate-success-button = 关闭
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }：应用内购买
+sub-iap-item-apple-purchase-2 = { -brand-apple }：应用内购买
 sub-iap-item-manage-button = 管理

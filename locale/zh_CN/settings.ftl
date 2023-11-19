@@ -962,6 +962,7 @@ auth-error-999 = 意外错误
 auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
 auth-error-1011 = 需要有效的邮箱地址
+auth-error-1062 = 无效重定向
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
