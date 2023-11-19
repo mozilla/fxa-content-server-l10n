@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Accounts di Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account(capitalization: "uppercase") }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Pagjine principâl dal account
+settings-project-header-title = { -product-mozilla-account(capitalization: "uppercase") }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Continue par discjariâ
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = O autorizi { -brand-name-mozilla }, la organizazion che e realize i prodots { -brand-name-firefox }, a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae <privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintremai che no anularai il gno abonament.
-payment-confirm-with-legal-links-static-2 = O autorizi { -brand-name-mozilla } a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae<privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintant che no anularai il gno abonament.
+payment-confirm-with-legal-links-static-3 = O autorizi { -brand-mozilla } a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae<privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintant che no anularai il gno abonament.
 payment-confirm-checkbox-error = Tu scugnis completâ cheste operazion prime di procedi
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Gjestion abonament
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Tu âs za un abonament a { $productName } midiant l’app store di { -brand-name-google } o di { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Tu âs za un abonament a { $productName } midiant l’app store di { -brand-google } o di { -brand-apple }.
 iap-upgrade-no-bundle-support = I inzornaments no son disponibii par chescj abonaments, ma lu saran chi di pôc.
 iap-upgrade-contact-support = Tu puedis ancjemò otignî chest prodot — contate il supuart pe assistence par ricevi jutori.
 iap-upgrade-get-help-button = Oten jutori
@@ -162,16 +130,11 @@ payment-cc =
 payment-cancel-btn = Anule
 payment-update-btn = Inzorne
 payment-pay-btn = Paie cumò
-payment-pay-with-paypal-btn = Paie cun { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Paie cun { -brand-paypal }
 payment-validate-name-error = Inserìs il to non
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } al dopre { -brand-name-stripe } e { -brand-name-paypal } pe elaborazion sigure dal paiament.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Informative su la riservatece di { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Informative su la riservatece di { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } al dopre { -brand-name-paypal } pe elaborazion sigure dai paiaments.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Informative su la riservatece di { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } al dopre { -brand-name-stripe } pe elaborazion sigure dai paiaments.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Informative su la riservatece di { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +154,6 @@ payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Paie cun { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +406,6 @@ subscription-iaperrorupgrade-title = Nol è ancjemò pussibil inzornâti
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -497,7 +456,6 @@ sub-route-idx-cancel-msg =
     Il to abonament a { $name } al è stât cancelât.
           <br />
           Tu podarâs ancjemò acedi a { $name } fin al/ai { $date }.
-sub-route-idx-cancel-aside = Âstu domandis? Visite il <a>supuart par { -brand-name-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -532,7 +490,6 @@ sub-expires-on = Al scjat al/ai { $date }
 pay-update-card-exp = Al scjât al/ai { $expirationDate }
 sub-route-idx-updating = Inzornament dâts di faturazion…
 sub-route-payment-modal-heading = Informazions di faturazion no validis
-sub-route-payment-modal-message = Al somee che al sedi vignût fûr un erôr cul to account { -brand-name-paypal }, al covente fâ i passaçs necessaris par risolvi chest probleme cul paiament.
 sub-route-missing-billing-agreement-payment-alert = Informazions di paiament no validis; al è vignût fûr un erôr cul to account. <div>Gjestìs</div>
 sub-route-funding-source-payment-alert = Informazions di paiament no validis; al è vignût fûr un erôr cul to account. Al podarès passâ un pôc di timp prime che chest avîs al vegni gjavât, ancje dopo che tu âs inzornât cun sucès lis tôs informazions. <div>Gjestìs</div>
 
@@ -546,7 +503,6 @@ sub-invoice-preview-error-text = Anteprime fature no cjatade par chest abonament
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Ciristu il to abonament premium a { -brand-name-pocket }?
 manage-pocket-body-2 = Par gjestîlu, <linkExternal>fâs clic achì</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -577,6 +533,4 @@ reactivate-success-button = Siere
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: acuist vie aplicazion
-sub-iap-item-apple-purchase = { -brand-name-apple }: acuist vie aplicazion
 sub-iap-item-manage-button = Gjestìs
