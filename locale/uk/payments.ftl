@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Облікові записи Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account(capitalization: "upper") }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Головна сторінка облікового запису
+settings-project-header-title = { -product-mozilla-account(capitalization: "upper") }
 
 ## Component - CouponForm
 
@@ -139,8 +108,7 @@ payment-confirmation-download-button = Продовжити завантажен
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов користування</termsOfServiceLink> та <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
-payment-confirm-with-legal-links-static-2 = Я дозволяю { -brand-name-mozilla } стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов користування</termsOfServiceLink> та <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
+payment-confirm-with-legal-links-static-3 = Я дозволяю { -brand-mozilla } стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов користування</termsOfServiceLink> та <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
 payment-confirm-checkbox-error = Необхідно завершити це, перш ніж переходити далі
 
 ## Component - PaymentErrorView
@@ -151,7 +119,7 @@ payment-error-manage-subscription-button = Керувати передплато
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = У вас вже є передплата { $productName } через магазин { -brand-name-google } або { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = У вас вже є передплата { $productName } через магазин { -brand-google } або { -brand-apple }.
 iap-upgrade-no-bundle-support = Наразі не підтримується підвищення рівня для цих передплат, але невдовзі буде така можливість.
 iap-upgrade-contact-support = Ви все одно можете отримати цей продукт — зверніться до служби підтримки по допомогу.
 iap-upgrade-get-help-button = Отримати допомогу
@@ -166,16 +134,16 @@ payment-cc =
 payment-cancel-btn = Скасувати
 payment-update-btn = Оновити
 payment-pay-btn = Сплатити зараз
-payment-pay-with-paypal-btn = Сплатити через { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Сплатити через { -brand-paypal }
 payment-validate-name-error = Будь ласка, введіть своє ім’я
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } і { -brand-name-paypal } для безпечної обробки платежів.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } використовує { -brand-name-paypal } для безпечної обробки платежів.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } для безпечної обробки платежів.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } використовує { -brand-name-stripe } і { -brand-paypal } для безпечної обробки платежів.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Політика приватності { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Політика приватності { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } використовує { -brand-paypal } для безпечної обробки платежів.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Політика приватності { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } використовує { -brand-name-stripe } для безпечної обробки платежів.
 payment-legal-link-stripe-3 = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -195,7 +163,7 @@ payment-confirmation-cc-card-ending-in = Картка, номер якої за�
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Сплатити з використанням { -brand-name-paypal }
+pay-with-heading-paypal-2 = Сплатити через { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -472,9 +440,8 @@ subscription-iaperrorupgrade-title = Поки що ми не можемо під
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Маркет
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Магазин { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -528,7 +495,7 @@ sub-route-idx-cancel-msg =
     Вашу передплату { $name } було скасовано.
           <br />
           Ви все одно матимете доступ до { $name } до { $date }.
-sub-route-idx-cancel-aside = Маєте запитання? Відвідайте <a>підтримку { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Маєте запитання? Відвідайте <a>Підтримку { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -563,7 +530,7 @@ sub-expires-on = Чинний до { $date }
 pay-update-card-exp = Термін дії закінчується { $expirationDate }
 sub-route-idx-updating = Оновлення платіжних даних…
 sub-route-payment-modal-heading = Недійсна платіжна інформація
-sub-route-payment-modal-message = Схоже, виникла помилка з вашим обліковим записом { -brand-name-paypal }. Вам необхідно виконати певні кроки для розв'язання проблеми з оплатою.
+sub-route-payment-modal-message-2 = Схоже, виникла помилка з вашим обліковим записом { -brand-paypal }. Вам необхідно виконати певні кроки для розв'язання проблеми з оплатою.
 sub-route-missing-billing-agreement-payment-alert = Недійсні платіжні дані. Виникла помилка з вашим обліковим записом. <div>Керувати</div>
 sub-route-funding-source-payment-alert = Недійсні платіжні дані; сталася помилка з вашим обліковим записом. Це попередження зникне невдовзі після успішного оновлення даних. <div>Керувати</div>
 
@@ -577,7 +544,7 @@ sub-invoice-preview-error-text = Не знайдено попередній пе
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Шукаєте свою передплату { -brand-name-pocket } преміум?
+manage-pocket-title-2 = Шукаєте свою передплату { -product-pocket } преміум?
 manage-pocket-body-2 = Щоб керувати ним, <linkExternal>клацніть тут</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -608,6 +575,6 @@ reactivate-success-button = Закрити
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Покупка в програмі
-sub-iap-item-apple-purchase = { -brand-name-apple }: Покупка в програмі
+sub-iap-item-google-purchase-2 = { -brand-google }: покупка в програмі
+sub-iap-item-apple-purchase-2 = { -brand-apple }: покупка в програмі
 sub-iap-item-manage-button = Керувати

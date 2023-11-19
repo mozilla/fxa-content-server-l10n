@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Меню продуктів { -brand-firefox }
 bento-menu-title-2 = { -brand-mozilla } – меню Bento
+bento-menu-title-3 = Продукти { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } - це технологія, яка захищає вашу приватність у мережі.
-bento-menu-mozilla-title = { -brand-mozilla } – це технологія, яка захищає вашу приватність онлайн.
+bento-menu-tagline = Інші продукти від { -brand-mozilla }, які захищають вашу приватність
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Клієнта не знайдено. Неможливо від'єднати
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Виконано вихід із { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Від'єднатись від синхроніза
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -709,20 +710,6 @@ recent-activity-account-emails-swapped = Основну та додаткову 
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Інші дії в обліковому записі
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Скасувати
-recovery-key-close-button = Закрити
-recovery-key-continue-button = Продовжити
-recovery-key-created-1 = Ваш ключ відновлення облікового запису успішно створено. Обов'язково збережіть ключ у надійному місці, яке ви згодом зможете легко знайти. Вам знадобиться цей ключ для відновлення доступу до своїх даних, якщо ви забудете пароль.
-recovery-key-enter-password =
-    .label = Введіть пароль
-recovery-key-page-title-1 =
-    .title = Ключ відновлення облікового запису
-recovery-key-step-1 = Крок 1 з 2
-recovery-key-step-2 = Крок 2 з 2
-recovery-key-success-alert-3 = Ключ відновлення облікового запису створено
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1012,6 +999,7 @@ auth-error-999 = Несподівана помилка
 auth-error-1003 = Локальне сховище або куки все ще вимкнені
 auth-error-1008 = Ваш новий пароль повинен бути іншим
 auth-error-1011 = Потрібна дійсна адреса електронної пошти
+auth-error-1062 = Недійсне переспрямування
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1069,7 +1057,7 @@ cookies-disabled-learn-more = Докладніше
 inline-recovery-setup-header-default = <span>Щоб перейти до налаштувань облікового запису</span>, введіть резервний код автентифікації
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = <span>Щоб перейти до { $serviceName }</span>, збережіть резервний код автентифікації
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Збережіть ці одноразові коди в безпечному місці на випадок, коли у вас не буде мобільного пристрою.
@@ -1089,7 +1077,7 @@ inline-recovery-confirmation-description = Щоб переконатися, що
 inline-recovery-confirmation-header-default = <span>Щоб перейти до налаштувань облікового запису</span>, введіть резервний код автентифікації
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>Щоб перейти до { $serviceName }</span>, введіть резервний код автентифікації
 
 ## InlineTotpSetup page
