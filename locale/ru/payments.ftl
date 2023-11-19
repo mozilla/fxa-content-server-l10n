@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Аккаунты Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Главная страница аккаунта
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -139,8 +108,7 @@ payment-confirmation-download-button = Продолжить загрузку
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты указанную сумму в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-payment-confirm-with-legal-links-static-2 = Я разрешаю { -brand-name-mozilla } взимать с моего способа оплаты указанную сумму в соответствии с <termsOfServiceLink>Условиями обслуживания</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+payment-confirm-with-legal-links-static-3 = Я разрешаю { -brand-mozilla } взимать с моего способа оплаты указанную сумму в соответствии с <termsOfServiceLink>Условиями обслуживания</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
 payment-confirm-checkbox-error = Вы должны принять это, прежде чем перейти к следующему шагу
 
 ## Component - PaymentErrorView
@@ -151,7 +119,7 @@ payment-error-manage-subscription-button = Управление моей под�
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = У вас уже есть подписка на { $productName } в магазинах приложений { -brand-name-google } или { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = У вас уже есть подписка на { $productName } в магазинах приложений { -brand-google } или { -brand-apple }.
 iap-upgrade-no-bundle-support = Мы не поддерживаем обновления для этих подписок, но скоро будем поддерживать.
 iap-upgrade-contact-support = Вы всё ещё можете получить этот продукт — обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
 iap-upgrade-get-help-button = Получить помощь
@@ -166,16 +134,11 @@ payment-cc =
 payment-cancel-btn = Отмена
 payment-update-btn = Обновить
 payment-pay-btn = Оплатить
-payment-pay-with-paypal-btn = Оплатить через { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Оплатить через { -brand-paypal }
 payment-validate-name-error = Пожалуйста, введите своё имя
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } использует { -brand-name-stripe } и { -brand-name-paypal } для безопасной обработки платежей.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Политика конфиденциальности { -brand-name-stripe }</stripePrivacyLink> и <paypalPrivacyLink>Политика конфиденциальности { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } использует { -brand-name-paypal } для безопасной обработки платежей.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Политика конфиденциальности { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } использует { -brand-name-stripe } для безопасной обработки платежей.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Политика конфиденциальности { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -195,7 +158,6 @@ payment-confirmation-cc-card-ending-in = Номер карты заканчив�
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Оплатить через { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -472,9 +434,6 @@ subscription-iaperrorupgrade-title = Мы пока не можем провес�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -530,7 +489,6 @@ sub-route-idx-cancel-msg =
     Ваша подписка на { $name } была отменена.
           <br />
           У вас по-прежнему будет доступ к { $name } до { $date }.
-sub-route-idx-cancel-aside = Есть вопросы? Посетите <a>Поддержку { -brand-name-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -565,7 +523,6 @@ sub-expires-on = Истекает { $date }
 pay-update-card-exp = Срок действия истекает { $expirationDate }
 sub-route-idx-updating = Обновление платёжной информации…
 sub-route-payment-modal-heading = Неверная платёжная информация
-sub-route-payment-modal-message = Похоже, в вашем аккаунте { -brand-name-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.
 sub-route-missing-billing-agreement-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. <div>Управление</div>
 sub-route-funding-source-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. Это предупреждение может отображаться в течение некоторого времени после успешного обновления вами своей информации. <div>Управление</div>
 
@@ -579,7 +536,6 @@ sub-invoice-preview-error-text = Предварительный просмотр
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Ищете премиум-подписку на { -brand-name-pocket }?
 manage-pocket-body-2 = Для управления им, <linkExternal>нажмите здесь</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -610,6 +566,4 @@ reactivate-success-button = Закрыть
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Покупка в приложении
-sub-iap-item-apple-purchase = { -brand-name-apple }: Покупка в приложении
 sub-iap-item-manage-button = Управление
