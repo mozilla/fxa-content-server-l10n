@@ -139,6 +139,11 @@ payment-validate-name-error = Пожалуйста, введите своё им
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } использует { -brand-name-stripe } и { -brand-paypal } для безопасной обработки платежей.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } Политика конфиденциальности</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } Политика конфиденциальности</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } использует { -brand-paypal } для безопасной обработки платежей.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Политика конфиденциальности { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } использует { -brand-name-stripe } для безопасной обработки платежей.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Политика конфиденциальности { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -158,6 +163,7 @@ payment-confirmation-cc-card-ending-in = Номер карты заканчив�
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Оплатить через { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -434,6 +440,8 @@ subscription-iaperrorupgrade-title = Мы пока не можем провес�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = Магазин { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -489,6 +497,7 @@ sub-route-idx-cancel-msg =
     Ваша подписка на { $name } была отменена.
           <br />
           У вас по-прежнему будет доступ к { $name } до { $date }.
+sub-route-idx-cancel-aside-2 = Есть вопросы? Посетите <a>Поддержку { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -523,6 +532,7 @@ sub-expires-on = Истекает { $date }
 pay-update-card-exp = Срок действия истекает { $expirationDate }
 sub-route-idx-updating = Обновление платёжной информации…
 sub-route-payment-modal-heading = Неверная платёжная информация
+sub-route-payment-modal-message-2 = Похоже, в вашем аккаунте { -brand-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.
 sub-route-missing-billing-agreement-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. <div>Управление</div>
 sub-route-funding-source-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. Это предупреждение может отображаться в течение некоторого времени после успешного обновления вами своей информации. <div>Управление</div>
 
@@ -536,6 +546,7 @@ sub-invoice-preview-error-text = Предварительный просмотр
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Ищете премиум-подписку на { -product-pocket }?
 manage-pocket-body-2 = Для управления им, <linkExternal>нажмите здесь</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -566,4 +577,6 @@ reactivate-success-button = Закрыть
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Покупка в приложении
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Покупка в приложении
 sub-iap-item-manage-button = Управление

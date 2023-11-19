@@ -994,6 +994,7 @@ auth-error-999 = Непредвиденная ошибка
 auth-error-1003 = Локальное хранилище или куки по-прежнему отключены
 auth-error-1008 = Ваш новый пароль должен быть другим
 auth-error-1011 = Введите действующий адрес электронной почты
+auth-error-1062 = Некорректное перенаправление
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
