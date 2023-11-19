@@ -3,47 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla =
-    { $case ->
-       *[nominative] Mozilla
-        [allative] Mozillalle
-        [elative] Mozillasta
-        [genitive] Mozillan
-    }
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox-tilit
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Tilin koti
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -141,8 +104,6 @@ payment-confirmation-download-button = Jatka lataamiseen
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-payment-confirm-with-legal-links-static-2 = Valtuutan { -brand-name-mozilla }n veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
 payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen kuin jatkat eteenpäin
 
 ## Component - PaymentErrorView
@@ -152,8 +113,6 @@ payment-error-manage-subscription-button = Hallitse tilausta
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Sinulla on jo { $productName }-tilaus { -brand-name-google }n tai { -brand-name-apple }n sovelluskaupan kautta.
 iap-upgrade-no-bundle-support = Emme tue päivityksiä näille tilauksille tällä hetkellä, mutta tuemme pian.
 iap-upgrade-contact-support = Voit edelleen hankkia tämän tuotteen — ota yhteyttä tukeen, jotta voimme auttaa sinua.
 iap-upgrade-get-help-button = Tuki
@@ -168,16 +127,11 @@ payment-cc =
 payment-cancel-btn = Peruuta
 payment-update-btn = Päivitä
 payment-pay-btn = Maksa nyt
-payment-pay-with-paypal-btn = Maksa { -brand-name-paypal }illa
+payment-pay-with-paypal-btn-2 = Maksa { -brand-paypal }illa
 payment-validate-name-error = Kirjoita nimesi
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a ja { -brand-name-paypal }ia maksujen turvalliseen käsittelyyn.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } käyttää { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a maksujen turvalliseen käsittelyyn.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -197,7 +151,7 @@ payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Maksa { -brand-name-paypal }illa
+pay-with-heading-paypal-2 = Maksa { -brand-paypal }illa
 
 ## Component - PlanDetails
 
@@ -450,9 +404,7 @@ subscription-iaperrorupgrade-title = Emme voi päivittää sinua vielä
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Kauppa
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -503,7 +455,6 @@ sub-route-idx-cancel-msg =
     { $name }-tilauksesi on peruutettu.
           <br />
           Voit edelleen käyttää { $name }-tuotetta { $date } asti.
-sub-route-idx-cancel-aside = Kysymyksiä? Käy <a>{ -brand-name-mozilla }-tuessa</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -538,7 +489,6 @@ sub-expires-on = Vanhenee { $date }
 pay-update-card-exp = Vanhenee { $expirationDate }
 sub-route-idx-updating = Päivitetään laskutustietoja…
 sub-route-payment-modal-heading = Virheelliset laskutustiedot
-sub-route-payment-modal-message = { -brand-name-paypal }-tililläsi vaikuttaa olevan virhe. Sinun on tehtävä tarvittavat toimet tämän maksuongelman ratkaisemiseksi.
 sub-route-missing-billing-agreement-payment-alert = Virheelliset maksutiedot. Tiliisi kohdistuu virhe. <div>Hallitse</div>
 sub-route-funding-source-payment-alert = Virheelliset maksutiedot; tililläsi on virhe. Tämän hälytyksen poistaminen voi kestää jonkin aikaa, kun olet päivittänyt tietosi. <div>Hallinnoi</div>
 
@@ -552,7 +502,6 @@ sub-invoice-preview-error-text = Tälle tilaukselle ei löytynyt laskun esikatse
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Etsitkö { -brand-name-pocket }in premium-tilaustasi?
 manage-pocket-body-2 = Hallinnoi sitä <linkExternal>napsauttamalla tästä</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -583,6 +532,6 @@ reactivate-success-button = Sulje
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Sovelluksen sisäinen osto
-sub-iap-item-apple-purchase = { -brand-name-apple }: Sovelluksen sisäinen osto
+sub-iap-item-google-purchase-2 = { -brand-google }: Sovelluksen sisäinen osto
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Sovelluksen sisäinen osto
 sub-iap-item-manage-button = Hallitse
