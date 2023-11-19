@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox 账户
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = 账户首页
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -131,8 +100,7 @@ payment-confirmation-download-button = 前往下载
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
-payment-confirm-with-legal-links-static-2 = 我授权 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
+payment-confirm-with-legal-links-static-3 = 我授权 { -brand-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
 payment-confirm-checkbox-error = 同意此项后才可继续
 
 ## Component - PaymentErrorView
@@ -143,7 +111,7 @@ payment-error-manage-subscription-button = 管理我的订阅
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = 您已通过 { -brand-name-google } 或 { -brand-name-apple } 应用商店订阅 { $productName }。
+iap-upgrade-already-subscribed-2 = 您已通过 { -brand-google } 或 { -brand-apple } 应用商店订阅 { $productName }。
 iap-upgrade-no-bundle-support = 我们暂时无法升级这类方式的订阅，不久后可能会支持。
 iap-upgrade-contact-support = 您仍可获得此产品，请联系用户支持为您提供帮助。
 iap-upgrade-get-help-button = 获取帮助
@@ -158,16 +126,16 @@ payment-cc =
 payment-cancel-btn = 取消
 payment-update-btn = 更新
 payment-pay-btn = 立即付款
-payment-pay-with-paypal-btn = 通过 { -brand-name-paypal } 付款
+payment-pay-with-paypal-btn-2 = 通过 { -brand-paypal } 付款
 payment-validate-name-error = 请输入您的名字
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 和 { -brand-name-paypal } 进行安全支付。
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
-payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 进行安全支付。
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 进行安全支付。
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } 使用 { -brand-name-stripe } 和 { -brand-paypal } 进行安全支付。
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } 隐私政策</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } 使用 { -brand-paypal } 进行安全支付。
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } 隐私政策</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } 使用 { -brand-name-stripe } 进行安全支付。
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -187,7 +155,7 @@ payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = 通过 { -brand-name-paypal } 付款
+pay-with-heading-paypal-2 = 通过 { -brand-paypal } 付款
 
 ## Component - PlanDetails
 
@@ -440,9 +408,7 @@ subscription-iaperrorupgrade-title = 我们暂时无法为您升级
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play 商店
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } 商店
 
 ## Routes - Product - Subscription upgrade
 
@@ -491,7 +457,6 @@ sub-route-idx-cancel-msg =
     您的 { $name } 订阅已被取消。
           <br />
           在 { $date } 之前，您仍然可以访问 { $name }。
-sub-route-idx-cancel-aside = 遇到问题？请访问 <a>{ -brand-name-mozilla } 用户支持</a>。
 
 ## Routes - Subscriptions - Errors
 
@@ -526,7 +491,6 @@ sub-expires-on = 到期于 { $date }
 pay-update-card-exp = 有效期 { $expirationDate }
 sub-route-idx-updating = 正在更新账单信息…
 sub-route-payment-modal-heading = 账单信息无效
-sub-route-payment-modal-message = 您的 { -brand-name-paypal } 账户似乎出现问题，请按下列必要步骤解决此付款问题。
 sub-route-missing-billing-agreement-payment-alert = 您的账户出现问题，付款信息无效。<div>点此管理</div>
 sub-route-funding-source-payment-alert = 您的账户出现问题，付款信息无效。此提醒将在成功更新信息一段时间后清除。<div>点此管理</div>
 
@@ -540,7 +504,6 @@ sub-invoice-preview-error-text = 找不到此订阅的发票预览
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = 在寻找您的 { -brand-name-pocket } Premium 订阅吗？
 manage-pocket-body-2 = 请<linkExternal>点击此处</linkExternal>进行管理。
 
 ## Routes - Subscriptions - Reactivate
@@ -565,6 +528,4 @@ reactivate-success-button = 关闭
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }：应用内购买
-sub-iap-item-apple-purchase = { -brand-name-apple }：应用内购买
 sub-iap-item-manage-button = 管理
