@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Λογαριασμοί Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Αρχική σελίδα λογαριασμού
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,6 @@ payment-confirmation-download-button = Συνέχεια στη λήψη
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου με το αναγραφόμενο ποσό, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
-payment-confirm-with-legal-links-static-2 = Εξουσιοδοτώ τη { -brand-name-mozilla } να χρεώνει τη μέθοδο πληρωμής μου με το αναγραφόμενο ποσό, σύμφωνα με τους <termsOfServiceLink>Όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>Σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
 payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε αυτήν τη διαδικασία πριν προχωρήσετε
 
 ## Component - PaymentErrorView
@@ -146,8 +113,6 @@ payment-error-manage-subscription-button = Διαχείριση συνδρομή
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Διαθέτετε ήδη συνδρομή { $productName } μέσω του { -brand-name-google } Play Store ή του { -brand-name-apple } App Store.
 iap-upgrade-no-bundle-support = Δεν υποστηρίζουμε αναβαθμίσεις για αυτές τις συνδρομές, αλλά θα το κάνουμε σύντομα.
 iap-upgrade-contact-support = Μπορείτε ακόμα να αποκτήσετε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
 iap-upgrade-get-help-button = Λήψη βοήθειας
@@ -162,16 +127,11 @@ payment-cc =
 payment-cancel-btn = Ακύρωση
 payment-update-btn = Ενημέρωση
 payment-pay-btn = Πληρωμή τώρα
-payment-pay-with-paypal-btn = Πληρωμή με { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Πληρωμή με { -brand-paypal }
 payment-validate-name-error = Παρακαλώ εισαγάγετε το όνομά σας
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = Η { -brand-name-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-stripe } για ασφαλή επεξεργασία των πληρωμών.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +151,7 @@ payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $la
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Πληρωμή με { -brand-name-paypal }
+pay-with-heading-paypal-2 = Πληρωμή με { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +404,8 @@ subscription-iaperrorupgrade-title = Δεν μπορεί να γίνει ανα�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +461,6 @@ sub-route-idx-cancel-msg =
     Η συνδρομή σας στο { $name } έχει ακυρωθεί.
           <br />
           Θα έχετε ακόμη πρόσβαση στο { $name } μέχρι τις { $date }.
-sub-route-idx-cancel-aside = Έχετε απορίες; Επισκεφθείτε την <a>Υποστήριξη { -brand-name-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +495,6 @@ sub-expires-on = Λήγει στις { $date }
 pay-update-card-exp = Λήγει στις { $expirationDate }
 sub-route-idx-updating = Ενημέρωση στοιχείων χρέωσης…
 sub-route-payment-modal-heading = Μη έγκυρα στοιχεία χρέωσης
-sub-route-payment-modal-message = Φαίνεται ότι υπάρχει σφάλμα με τον λογαριασμό σας στο { -brand-name-paypal }. Θα πρέπει να λάβετε τα απαραίτητα μέτρα για την επίλυση αυτού του προβλήματος πληρωμής.
 sub-route-missing-billing-agreement-payment-alert = Μη έγκυρα στοιχεία πληρωμής· υπάρχει σφάλμα με τον λογαριασμό σας. <div>Διαχείριση</div>
 sub-route-funding-source-payment-alert = Μη έγκυρα στοιχεία πληρωμής· υπάρχει σφάλμα στον λογαριασμό σας. Αυτή η ειδοποίηση ενδέχεται να χρειαστεί λίγη ώρα για να εξαφανιστεί αφού ενημερώσετε επιτυχώς τα στοιχεία σας. <div>Διαχείριση</div>
 
@@ -551,7 +508,6 @@ sub-invoice-preview-error-text = Δεν βρέθηκε προεπισκόπησ�
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Ψάχνετε την premium συνδρομή του { -brand-name-pocket } σας;
 manage-pocket-body-2 = Για να τη διαχειριστείτε, <linkExternal>κάντε κλικ εδώ</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +538,6 @@ reactivate-success-button = Κλείσιμο
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Αγορά εντός εφαρμογής
-sub-iap-item-apple-purchase = { -brand-name-apple }: Αγορά εντός εφαρμογής
+sub-iap-item-google-purchase-2 = { -brand-google }: Αγορά εντός εφαρμογής
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Αγορά εντός εφαρμογής
 sub-iap-item-manage-button = Διαχείριση

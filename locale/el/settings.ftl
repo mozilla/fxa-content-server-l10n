@@ -1000,6 +1000,7 @@ auth-error-999 = Απροσδόκητο σφάλμα
 auth-error-1003 = Η τοπική αποθήκευση ή τα cookies εξακολουθούν να είναι απενεργοποιημένα
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
 auth-error-1011 = Απαιτείται έγκυρο email
+auth-error-1062 = Μη έγκυρη ανακατεύθυνση
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
