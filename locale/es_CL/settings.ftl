@@ -309,8 +309,8 @@ avatar-default-avatar =
 
 bento-menu-title = Menú Bento de { -brand-firefox }
 bento-menu-title-2 = Menú Bento de { -brand-mozilla }
+bento-menu-title-3 = Productos de { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } es tecnología que lucha por tu privacidad en línea.
-bento-menu-mozilla-title = { -brand-mozilla } es tecnología que lucha por tu privacidad en línea.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +345,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Cliente no encontrado, no se pudo desconectar
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Desconectado de { $service }
 cs-refresh-button =
@@ -357,7 +357,7 @@ cs-disconnect-sync-heading = Desconectarse de Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = Tus datos de navegación se mantendrán en <span>{ $device }</span>, pero ya no se sincronizarán con tu cuenta.
@@ -706,20 +706,6 @@ recent-activity-account-emails-swapped = Correos electrónicos primario y secund
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Cancelar
-recovery-key-close-button = Cerrar
-recovery-key-continue-button = Continuar
-recovery-key-created-1 = Tu clave de recuperación de cuenta ha sido creada. Asegúrate de guardar la clave en un lugar seguro donde la puedas encontrar más tarde: necesitarás la clave para recuperar el acceso a tus datos si olvidas tu contraseña.
-recovery-key-enter-password =
-    .label = Ingresar contraseña
-recovery-key-page-title-1 =
-    .title = Clave de recuperación de cuenta
-recovery-key-step-1 = Paso 1 de 2
-recovery-key-step-2 = Paso 2 de 2
-recovery-key-success-alert-3 = Clave de recuperación de cuenta creada
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1002,6 +988,7 @@ auth-error-999 = Error inesperado
 auth-error-1003 = El almacenamiento local o las cookies siguen deshabilitados
 auth-error-1008 = Tu nueva conraseña debe ser diferente
 auth-error-1011 = Se requiere un correo válido
+auth-error-1062 = Redirección inválida
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1059,7 +1046,7 @@ cookies-disabled-learn-more = Aprender más
 inline-recovery-setup-header-default = Confirma el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Guarda los códigos de autenticación de respaldo <span>para continuar con { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Almacena estos códigos de un solo uso en un lugar seguro para cuando no tengas tu dispositivo móvil.
@@ -1079,7 +1066,7 @@ inline-recovery-confirmation-description = Para asegurar que podrás recobrar el
 inline-recovery-confirmation-header-default = Confirma el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirma un código de autenticación de respaldo <span>para continuar con { $serviceName }</span>
 
 ## InlineTotpSetup page
