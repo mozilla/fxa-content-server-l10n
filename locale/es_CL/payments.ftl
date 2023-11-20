@@ -104,6 +104,7 @@ payment-confirmation-download-button = Continuar para descargar
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = Autorizo a { -brand-mozilla } para que cargue a mi método de pago por el monto mostrado, de acuerdo con los <termsOfServiceLink >Términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
 payment-confirm-checkbox-error = Debe completar esto antes de seguir adelante
 
 ## Component - PaymentErrorView
@@ -113,6 +114,8 @@ payment-error-manage-subscription-button = Gestionar mi suscripción
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Ya tienes una suscripción a { $productName } a través de la tienda de aplicaciones { -brand-google } o { -brand-apple }.
 iap-upgrade-no-bundle-support = No admitimos actualizaciones para estas suscripciones, pero lo haremos pronto.
 iap-upgrade-contact-support = Todavía puede obtener este producto — por favor contacta con el soporte para que podamos ayudarte.
 iap-upgrade-get-help-button = Obtener ayuda
@@ -501,6 +504,7 @@ sub-expires-on = Expira el { $date }
 pay-update-card-exp = Vence el { $expirationDate }
 sub-route-idx-updating = Actualizando información de pagos…
 sub-route-payment-modal-heading = Información de pago inválida
+sub-route-payment-modal-message-2 = Parece que hay un error con tu cuenta de { -brand-paypal }, necesitamos que tomes las medidas necesarias para resolver este problema de pago.
 sub-route-missing-billing-agreement-payment-alert = Información de pago inválida; Hay un error con tu cuenta. <div>Gestionar</div>
 sub-route-funding-source-payment-alert = Información de pago inválida; Hay un error con tu cuenta. Esta alerta puede demorar un poco en desaparecer después de que actualices exitosamente tu información. <div>Gestionar</div>
 
@@ -514,6 +518,7 @@ sub-invoice-preview-error-text = Previsualización de la factura no encontrada p
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = ¿Buscas tu suscripción premium a { -product-pocket }?
 manage-pocket-body-2 = Para administrarlo, <linkExternal>haz clic aquí</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate

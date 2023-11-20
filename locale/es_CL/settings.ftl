@@ -311,6 +311,7 @@ bento-menu-title = Menú Bento de { -brand-firefox }
 bento-menu-title-2 = Menú Bento de { -brand-mozilla }
 bento-menu-title-3 = Productos de { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } es tecnología que lucha por tu privacidad en línea.
+bento-menu-tagline = Más productos de { -brand-mozilla } que protegen tu privacidad
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
