@@ -998,6 +998,7 @@ auth-error-999 = Oväntat fel
 auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 auth-error-1011 = Giltig e-postadress krävs
+auth-error-1062 = Ogiltig omdirigering
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
