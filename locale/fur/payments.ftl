@@ -544,4 +544,6 @@ reactivate-success-button = Siere
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: compris te aplicazion
+sub-iap-item-apple-purchase-2 = { -brand-apple }: compris te aplicazion
 sub-iap-item-manage-button = Gjestìs

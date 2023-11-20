@@ -994,6 +994,7 @@ auth-error-999 = Erôr inspietât
 auth-error-1003 = La archiviazion locâl o i cookies a son ancjemò disativâts
 auth-error-1008 = La gnove password e scugne jessi diferente
 auth-error-1011 = Al è necessari inserî une direzion e-mail valide
+auth-error-1062 = Dirotament no valit
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
