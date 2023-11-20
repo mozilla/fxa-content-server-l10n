@@ -3,51 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla =
-    { $case ->
-       *[nom] Mozilla
-        [gen] Mozilly
-    }
-    .gender = feminine
--brand-name-firefox =
-    { $case ->
-       *[nom] Firefox
-        [gen] Firefoxu
-    }
-    .gender = masculine
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Účet Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Domovská stránka účtu
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -149,8 +108,7 @@ payment-confirmation-download-button = Pokračovať na stiahnutie
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
-payment-confirm-with-legal-links-static-2 = Oprávňujem spoločnosť { -brand-name-mozilla } účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
+payment-confirm-with-legal-links-static-3 = Oprávňujem spoločnosť { -brand-mozilla } účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
 payment-confirm-checkbox-error = Pred pokračovaním musíte dokončiť toto.
 
 ## Component - PaymentErrorView
@@ -161,7 +119,7 @@ payment-error-manage-subscription-button = Spravovať moje predplatné
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Už máte predplatné produktu { $productName } prostredníctvom cez obchod s aplikáciami { -brand-name-google } alebo { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Už máte predplatné produktu { $productName } prostredníctvom cez obchod s aplikáciami spoločnosti { -brand-google } alebo { -brand-apple }.
 iap-upgrade-no-bundle-support = Inovácie týchto predplatných zatiaľ nepodporujeme, čoskoro však budeme.
 iap-upgrade-contact-support = Tento produkt stále môžete získať – kontaktujte podporu, aby sme vám mohli pomôcť.
 iap-upgrade-get-help-button = Získať pomoc
@@ -176,16 +134,16 @@ payment-cc =
 payment-cancel-btn = Zrušiť
 payment-update-btn = Aktualizovať
 payment-pay-btn = Zaplatiť teraz
-payment-pay-with-paypal-btn = Zaplatiť cez { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Zaplatiť cez { -brand-paypal }
 payment-validate-name-error = Prosím, zadajte svoje meno
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb služby { -brand-name-stripe } a { -brand-name-paypal }
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-paypal }</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb službu { -brand-name-paypal }
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-paypal }</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb službu { -brand-name-stripe }
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } používa pre bezpečné spracovanie platieb služby { -brand-name-stripe } a { -brand-paypal }
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } používa pre bezpečné spracovanie platieb službu { -brand-paypal }
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } používa pre bezpečné spracovanie platieb službu { -brand-name-stripe }
 payment-legal-link-stripe-3 = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -205,7 +163,7 @@ payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Zaplatiť cez { -brand-name-paypal }
+pay-with-heading-paypal-2 = Zaplatiť cez { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -482,9 +440,8 @@ subscription-iaperrorupgrade-title = Zatiaľ vás nemôžeme inovovať
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = Obchod { -brand-name-google } Play
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Obchod { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -533,7 +490,7 @@ sub-route-idx-cancel-msg =
     Vaše predplatné služby { $name } bolo zrušené.
           <br />
           K službe { $name } máte stále prístup do { $date }.
-sub-route-idx-cancel-aside = Máte otázky? Navštívte <a>podporu organizácie { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Máte otázky? Navštívte <a>podporu organizácie { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -568,7 +525,7 @@ sub-expires-on = Vyprší dňa { $date }
 pay-update-card-exp = Vyprší { $expirationDate }
 sub-route-idx-updating = Aktualizujem platobné údaje
 sub-route-payment-modal-heading = Neplatné fakturačné údaje
-sub-route-payment-modal-message = Zdá sa, že sa vyskytla chyba vo vašom účte { -brand-name-paypal }. Potrebujeme, aby ste podnikli potrebné kroky na vyriešenie tohto problému s platbou.
+sub-route-payment-modal-message-2 = Zdá sa, že sa vyskytla chyba vo vašom účte { -brand-paypal }. Potrebujeme, aby ste podnikli potrebné kroky na vyriešenie tohto problému s platbou.
 sub-route-missing-billing-agreement-payment-alert = Neplatné informácie o platbe; vo vašom účte sa vyskytla chyba. <div>Spravovať</div>
 sub-route-funding-source-payment-alert = Neplatné informácie o platbe; vo vašom účte sa vyskytla chyba. Po úspešnej aktualizácii informácií môže chvíľu trvať, kým sa toto upozornenie vymaže. <div>Spravovať</div>
 
@@ -582,7 +539,7 @@ sub-invoice-preview-error-text = Pre toto predplatné sa nenašla ukážka fakt�
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Hľadáte svoje prémiové predplatné { -brand-name-pocket }?
+manage-pocket-title-2 = Hľadáte svoje prémiové predplatné služby { -product-pocket }?
 manage-pocket-body-2 = Ak ho chcete spravovať, <linkExternal>kliknite sem</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -607,6 +564,6 @@ reactivate-success-button = Zavrieť
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Nákup v aplikácii
-sub-iap-item-apple-purchase = { -brand-name-apple }: Nákup v aplikácii
+sub-iap-item-google-purchase-2 = { -brand-google }: Nákup v aplikácii
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Nákup v aplikácii
 sub-iap-item-manage-button = Spravovať

@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Ponuka { -brand-firefox } Bento
 bento-menu-title-2 = Ponuka { -brand-mozilla } Bento
+bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
-bento-menu-mozilla-title = { -brand-mozilla } je technológia, ktorá bojuje za vaše súkromie na internete.
+bento-menu-tagline = Ďalšie produkty od { -brand-mozilla(case: "gen") }, ktoré chránia vaše súkromie
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Klient sa nenašiel, nedá sa odpojiť
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Odhlásené zo služby { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Odpojiť zo služby Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = Údaje vášho prehliadania zostanú aj naďalej na zariadení <span>{ $device }</span>, ale nebudú sa synchronizovať s vaším účtom.
@@ -709,20 +710,6 @@ recent-activity-account-emails-swapped = Hlavná a alternatívna e‑mailová ad
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Iná aktivita účtu
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Zrušiť
-recovery-key-close-button = Zavrieť
-recovery-key-continue-button = Pokračovať
-recovery-key-created-1 = Váš kľúč na obnovenie účtu bol vytvorený. Uistite sa, že ste kľúč uložili na bezpečnom mieste, kde ho neskôr ľahko nájdete. V prípade zabudnutia hesla budete kľúč potrebovať na opätovné získanie prístupu k svojim údajom.
-recovery-key-enter-password =
-    .label = Zadajte heslo
-recovery-key-page-title-1 =
-    .title = Kľúč na obnovenie účtu
-recovery-key-step-1 = Krok 1 z 2
-recovery-key-step-2 = Krok 2 z 2
-recovery-key-success-alert-3 = Bol vytvorený kľúč na obnovenie účtu
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1008,6 +995,7 @@ auth-error-999 = Neočakávaná chyba
 auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 auth-error-1011 = Vyžaduje sa platná e‑mailová adresa
+auth-error-1062 = Neplatné presmerovanie
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1065,7 +1053,7 @@ cookies-disabled-learn-more = Ďalšie informácie
 inline-recovery-setup-header-default = Potvrďte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Ak chcete <span>pokračovať do služby { $serviceName }</span>, uložte si záložné overovacie kódy
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Tieto jednorazové kódy si uložte na bezpečné miesto, na ktoré sa dostanete aj bez svojho mobilného zariadenia.
@@ -1085,7 +1073,7 @@ inline-recovery-confirmation-description = Aby ste sa uistili, že budete môcť
 inline-recovery-confirmation-header-default = Potvrďte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
 
 ## InlineTotpSetup page
