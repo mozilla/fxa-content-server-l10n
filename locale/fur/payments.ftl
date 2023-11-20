@@ -135,6 +135,11 @@ payment-validate-name-error = Inserìs il to non
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } al dopre { -brand-name-stripe } e { -brand-paypal } pe elaborazion sigure dal paiament.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Informative su la riservatece di { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Informative su la riservatece di { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } al dopre { -brand-paypal } pe elaborazion sigure dai paiaments.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Informative su la riservatece di { -brand-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } al dopre { -brand-name-stripe } pe elaborazion sigure dai paiaments.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Informative su la riservatece di { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -154,6 +159,7 @@ payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Paie cun { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -406,6 +412,8 @@ subscription-iaperrorupgrade-title = Nol è ancjemò pussibil inzornâti
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -456,6 +464,7 @@ sub-route-idx-cancel-msg =
     Il to abonament a { $name } al è stât cancelât.
           <br />
           Tu podarâs ancjemò acedi a { $name } fin al/ai { $date }.
+sub-route-idx-cancel-aside-2 = Âstu domandis? Visite il <a>supuart par { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -490,6 +499,7 @@ sub-expires-on = Al scjat al/ai { $date }
 pay-update-card-exp = Al scjât al/ai { $expirationDate }
 sub-route-idx-updating = Inzornament dâts di faturazion…
 sub-route-payment-modal-heading = Informazions di faturazion no validis
+sub-route-payment-modal-message-2 = Al somee che al sedi presint un erôr cul to account { -brand-paypal }, al covente che tu fasedis i passaçs necessaris par risolvi chest probleme cul paiament.
 sub-route-missing-billing-agreement-payment-alert = Informazions di paiament no validis; al è vignût fûr un erôr cul to account. <div>Gjestìs</div>
 sub-route-funding-source-payment-alert = Informazions di paiament no validis; al è vignût fûr un erôr cul to account. Al podarès passâ un pôc di timp prime che chest avîs al vegni gjavât, ancje dopo che tu âs inzornât cun sucès lis tôs informazions. <div>Gjestìs</div>
 
@@ -503,6 +513,7 @@ sub-invoice-preview-error-text = Anteprime fature no cjatade par chest abonament
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Ciristu il to abonament premium a { -product-pocket }?
 manage-pocket-body-2 = Par gjestîlu, <linkExternal>fâs clic achì</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
