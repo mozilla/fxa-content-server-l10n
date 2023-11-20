@@ -136,7 +136,9 @@ payment-validate-name-error = Lütfen adınızı girin
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-paypal } kullanır.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink> ve <paypalPrivacyLink>{ -brand-paypal } gizlilik ilkeleri</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-paypal } kullanır.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } gizlilik ilkeleri</paypalPrivacyLink>
 payment-legal-copy-stripe-3 = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink>
 
