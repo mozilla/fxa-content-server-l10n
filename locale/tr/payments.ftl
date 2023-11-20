@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox Hesapları
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Hesap ana sayfası
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = İndirmeye devam et
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
-payment-confirm-with-legal-links-static-2 = { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
+payment-confirm-with-legal-links-static-3 = { -brand-mozilla }’nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
 payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerekiyor
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Aboneliğimi yönet
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Zaten { -brand-name-google } veya { -brand-name-apple } uygulama mağazaları aracılığıyla alınmış bir { $productName } aboneliğiniz var.
+iap-upgrade-already-subscribed-2 = Zaten { -brand-google } veya { -brand-apple } uygulama mağazası aracılığıyla alınmış bir { $productName } aboneliğiniz var.
 iap-upgrade-no-bundle-support = Bu abonelikler için yükseltmeleri desteklemiyoruz ancak yakında destekleyeceğiz.
 iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
 iap-upgrade-get-help-button = Yardım alın
@@ -162,16 +130,14 @@ payment-cc =
 payment-cancel-btn = İptal et
 payment-update-btn = Güncelle
 payment-pay-btn = Ödeme yap
-payment-pay-with-paypal-btn = { -brand-name-paypal } ile öde
+payment-pay-with-paypal-btn-2 = { -brand-paypal } ile öde
 payment-validate-name-error = Lütfen adınızı girin
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-name-paypal } kullanır.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink> ve <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkeleri</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-paypal } kullanır.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkeleri</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-paypal } kullanır.
+payment-legal-copy-paypal-2 = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-paypal } kullanır.
+payment-legal-copy-stripe-3 = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -191,7 +157,7 @@ payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = { -brand-name-paypal } ile öde
+pay-with-heading-paypal-2 = { -brand-paypal } ile öde
 
 ## Component - PlanDetails
 
@@ -444,9 +410,8 @@ subscription-iaperrorupgrade-title = Sizi henüz yükseltemiyoruz
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -494,7 +459,7 @@ sub-route-idx-cancel-msg =
     { $name } aboneliğiniz iptal edildi.
           <br />
           { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
-sub-route-idx-cancel-aside = Sorularınız mı var? <a>{ -brand-name-mozilla } Destek sayfasını</a> ziyaret edin.
+sub-route-idx-cancel-aside-2 = Sorularınız mı var? <a>{ -brand-mozilla } Destek sayfasını</a> ziyaret edin.
 
 ## Routes - Subscriptions - Errors
 
@@ -529,7 +494,7 @@ sub-expires-on = Son geçerlilik tarihi: { $date }
 pay-update-card-exp = Son kullanım: { $expirationDate }
 sub-route-idx-updating = Fatura bilgileri güncelleniyor…
 sub-route-payment-modal-heading = Geçersiz fatura bilgileri
-sub-route-payment-modal-message = { -brand-name-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için gerekli adımları atmanız gerekiyor.
+sub-route-payment-modal-message-2 = { -brand-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için gerekli adımları atmanız gerekiyor.
 sub-route-missing-billing-agreement-payment-alert = Geçersiz ödeme bilgileri: Hesabınızla ilgili bir sorun var. <div>Yönet</div>
 sub-route-funding-source-payment-alert = Geçersiz ödeme bilgisi: Hesabınızla ilgili bir hata var. Bilgilerinizi güncelledikten sonra bu uyarının temizlenmesi biraz zaman alabilir. <div>Yönet</div>
 
@@ -543,7 +508,7 @@ sub-invoice-preview-error-text = Bu abonelik için fatura ön izlemesi bulunamad
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
+manage-pocket-title-2 = { -product-pocket } premium aboneliğinizi mi arıyorsunuz?
 manage-pocket-body-2 = Yönetmek için <linkExternal>buraya tıklayın</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -568,6 +533,6 @@ reactivate-success-button = Kapat
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Uygulama içi satın alma
-sub-iap-item-apple-purchase = { -brand-name-apple }: Uygulama içi satın alma
+sub-iap-item-google-purchase-2 = { -brand-google }: Uygulama içi satın alma
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Uygulama içi satın alma
 sub-iap-item-manage-button = Yönet

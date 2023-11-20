@@ -971,6 +971,7 @@ auth-error-999 = Beklenmeyen hata
 auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
 auth-error-1011 = Geçerli bir e-posta gerekiyor
+auth-error-1062 = Geçersiz yönlendirme
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.

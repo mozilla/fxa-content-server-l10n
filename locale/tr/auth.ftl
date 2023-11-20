@@ -326,6 +326,8 @@ passwordResetAccountRecovery-regen-required-txt-1 = Eşitlenen tüm cihazların�
 postAddAccountRecovery-subject-3 = Yeni hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
 # Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Bu anahtarı güvenli bir yerde saklayın. Parolanızı unutursanız şifrelenmiş gezinti verilerinizi geri yüklemek için bu anahtara ihtiyacınız olacak.
+# Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Bu anahtar sadece bir kez kullanılabilir. Kullandıktan sonra sizin için otomatik olarak yeni bir tane oluşturacağız. İstediğiniz zaman hesap ayarlarınızdan yeni bir tane oluşturabilirsiniz.
 postAddAccountRecovery-action = Hesabı yönet
 postAddLinkedAccount-subject = { -brand-firefox }’a yeni hesap bağlandı
