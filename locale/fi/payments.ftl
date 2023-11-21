@@ -104,6 +104,7 @@ payment-confirmation-download-button = Jatka lataamiseen
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = Valtuutan { -brand-mozilla }n veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
 payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen kuin jatkat eteenpäin
 
 ## Component - PaymentErrorView
@@ -134,6 +135,8 @@ payment-validate-name-error = Kirjoita nimesi
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } käyttää { -brand-name-stripe }a ja { -brand-paypal }ia maksujen turvalliseen käsittelyyn.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
 payment-legal-copy-paypal-2 = { -brand-mozilla } käyttää { -brand-paypal }ia turvalliseen maksunvälitykseen.
 payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal }in tietosuojakäytäntö</paypalPrivacyLink>
 payment-legal-copy-stripe-3 = { -brand-mozilla } käyttää { -brand-name-stripe }a maksujen turvalliseen käsittelyyn.
@@ -495,6 +498,7 @@ sub-expires-on = Vanhenee { $date }
 pay-update-card-exp = Vanhenee { $expirationDate }
 sub-route-idx-updating = Päivitetään laskutustietoja…
 sub-route-payment-modal-heading = Virheelliset laskutustiedot
+sub-route-payment-modal-message-2 = { -brand-paypal }-tililläsi vaikuttaa olevan virhe. Sinun on tehtävä tarvittavat toimet tämän maksuongelman ratkaisemiseksi.
 sub-route-missing-billing-agreement-payment-alert = Virheelliset maksutiedot. Tiliisi kohdistuu virhe. <div>Hallitse</div>
 sub-route-funding-source-payment-alert = Virheelliset maksutiedot; tililläsi on virhe. Tämän hälytyksen poistaminen voi kestää jonkin aikaa, kun olet päivittänyt tietosi. <div>Hallinnoi</div>
 
