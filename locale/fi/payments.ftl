@@ -113,6 +113,8 @@ payment-error-manage-subscription-button = Hallitse tilausta
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Sinulla on jo { $productName }-tilaus { -brand-google }n tai { -brand-apple }n sovelluskaupan kautta.
 iap-upgrade-no-bundle-support = Emme tue päivityksiä näille tilauksille tällä hetkellä, mutta tuemme pian.
 iap-upgrade-contact-support = Voit edelleen hankkia tämän tuotteen — ota yhteyttä tukeen, jotta voimme auttaa sinua.
 iap-upgrade-get-help-button = Tuki
@@ -132,6 +134,9 @@ payment-validate-name-error = Kirjoita nimesi
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-paypal-2 = { -brand-mozilla } käyttää { -brand-paypal }ia turvalliseen maksunvälitykseen.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal }in tietosuojakäytäntö</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } käyttää { -brand-name-stripe }a maksujen turvalliseen käsittelyyn.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -455,6 +460,7 @@ sub-route-idx-cancel-msg =
     { $name }-tilauksesi on peruutettu.
           <br />
           Voit edelleen käyttää { $name }-tuotetta { $date } asti.
+sub-route-idx-cancel-aside-2 = Kysymyksiä? Käy <a>{ -brand-mozilla }-tuessa</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -502,6 +508,7 @@ sub-invoice-preview-error-text = Tälle tilaukselle ei löytynyt laskun esikatse
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Etsitkö { -product-pocket }in premium-tilaustasi?
 manage-pocket-body-2 = Hallinnoi sitä <linkExternal>napsauttamalla tästä</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
