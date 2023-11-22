@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Tài khoản Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Trang chủ tài khoản
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -131,8 +100,7 @@ payment-confirmation-download-button = Tiếp tục tải xuống
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, dùng phương thức thanh toán của tôi để tính phí cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>thông báo quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao của mình.
-payment-confirm-with-legal-links-static-2 = Tôi ủy quyền { -brand-name-mozilla } để tính phí phương thức thanh toán của tôi cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản sử dụng</termsOfServiceLink> và <privacyNoticeLink>thông báo về quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao.
+payment-confirm-with-legal-links-static-3 = Tôi ủy quyền { -brand-mozilla } để tính phí phương thức thanh toán của tôi cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản sử dụng</termsOfServiceLink> và <privacyNoticeLink>thông báo về quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao.
 payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trước khi tiếp tục
 
 ## Component - PaymentErrorView
@@ -143,7 +111,7 @@ payment-error-manage-subscription-button = Quản lý thuê bao của tôi
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Bạn đã có thuê bao { $productName } qua cửa hàng ứng dụng { -brand-name-google } hoặc { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Bạn đã có thuê bao { $productName } qua cửa hàng ứng dụng { -brand-google } hoặc { -brand-apple }.
 iap-upgrade-no-bundle-support = Chúng tôi không hỗ trợ nâng cấp cho các thuê bao này, nhưng chúng tôi sẽ sớm thực hiện.
 iap-upgrade-contact-support = Bạn vẫn có thể nhận được sản phẩm này — vui lòng liên hệ với bộ phận hỗ trợ để chúng tôi có thể giúp bạn.
 iap-upgrade-get-help-button = Nhận trợ giúp
@@ -158,16 +126,16 @@ payment-cc =
 payment-cancel-btn = Hủy bỏ
 payment-update-btn = Cập nhật
 payment-pay-btn = Thanh toán ngay
-payment-pay-with-paypal-btn = Thanh toán bằng { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Thanh toán bằng { -brand-paypal }
 payment-validate-name-error = Vui lòng nhập tên của bạn
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } và { -brand-name-paypal } để xử lý thanh toán an toàn.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Chính sách riêng tư của { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Chính sách riêng tư của { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } sử dụng { -brand-name-paypal } để xử lý thanh toán an toàn.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Chính sách riêng tư của { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } để xử lý thanh toán an toàn.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } sử dụng { -brand-name-stripe } và { -brand-paypal } để xử lý thanh toán an toàn.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Chính sách riêng tư của { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Chính sách riêng tư của { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } sử dụng { -brand-paypal } để xử lý thanh toán an toàn.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Chính sách riêng tư của { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } sử dụng { -brand-name-stripe } để xử lý thanh toán an toàn.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Chính sách riêng tư của { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -187,7 +155,7 @@ payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Thanh toán bằng { -brand-name-paypal }
+pay-with-heading-paypal-2 = Thanh toán bằng { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -416,9 +384,8 @@ subscription-iaperrorupgrade-title = Chúng tôi chưa thể nâng cấp cho b�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = Cửa hàng { -brand-name-google } Play
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = Cửa hàng { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -474,7 +441,7 @@ sub-route-idx-cancel-msg =
     Thuê bao { $name } của bạn đã bị hủy.
           <br />
           Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
-sub-route-idx-cancel-aside = Có một vài câu hỏi? Truy cập <a>Hỗ trợ { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Có một vài câu hỏi? Truy cập <a>Hỗ trợ { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -509,7 +476,7 @@ sub-expires-on = Hết hạn vào { $date }
 pay-update-card-exp = Hết hạn vào { $expirationDate }
 sub-route-idx-updating = Đang cập nhật thông tin thanh toán…
 sub-route-payment-modal-heading = Thông tin thanh toán không hợp lệ
-sub-route-payment-modal-message = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-name-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.
+sub-route-payment-modal-message-2 = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.
 sub-route-missing-billing-agreement-payment-alert = Thông tin thanh toán không hợp lệ; có lỗi với tài khoản của bạn. <div>Quản lý</div>
 sub-route-funding-source-payment-alert = Thông tin thanh toán không hợp lệ; Có lỗi xảy ra với tài khoản của bạn. Cảnh báo này có thể mất một thời gian để xóa sau khi bạn cập nhật thành công thông tin của mình. <div>Quản lý</div>
 
@@ -523,7 +490,7 @@ sub-invoice-preview-error-text = Không tìm thấy bản xem trước hóa đơ
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Bạn đang tìm cách đăng ký { -brand-name-pocket } premium?
+manage-pocket-title-2 = Bạn đang tìm cách đăng ký { -product-pocket } premium?
 manage-pocket-body-2 = Để quản lý nó, hãy <linkExternal>nhấp vào đây</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -554,6 +521,6 @@ reactivate-success-button = Đóng
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Mua hàng trong ứng dụng
-sub-iap-item-apple-purchase = { -brand-name-apple }: Mua hàng trong ứng dụng
+sub-iap-item-google-purchase-2 = { -brand-google }: Mua hàng trong ứng dụng
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Mua hàng trong ứng dụng
 sub-iap-item-manage-button = Quản lý

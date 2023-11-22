@@ -996,6 +996,7 @@ auth-error-999 = Lỗi không xác định
 auth-error-1003 = Bộ nhớ cục bộ hoặc cookie vẫn bị tắt
 auth-error-1008 = Mật khẩu mới của bạn phải khác
 auth-error-1011 = Yêu cầu email hợp lệ
+auth-error-1062 = Chuyển hướng không hợp lệ
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
