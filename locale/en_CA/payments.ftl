@@ -114,6 +114,8 @@ payment-error-manage-subscription-button = Manage my subscription
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = You already have a { $productName } subscription via the { -brand-google } or { -brand-apple } app stores.
 iap-upgrade-no-bundle-support = We don’t support upgrades for these subscriptions, but we will soon.
 iap-upgrade-contact-support = You can still get this product — please contact support so we can help you.
 iap-upgrade-get-help-button = Get help
@@ -128,10 +130,16 @@ payment-cc =
 payment-cancel-btn = Cancel
 payment-update-btn = Update
 payment-pay-btn = Pay now
+payment-pay-with-paypal-btn-2 = Pay with { -brand-paypal }
 payment-validate-name-error = Please enter your name
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } uses { -brand-name-stripe } and { -brand-paypal } for secure payment processing.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } privacy policy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } privacy policy</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } uses { -brand-paypal } for secure payment processing.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } privacy policy</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } uses { -brand-name-stripe } for secure payment processing.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privacy policy</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -151,6 +159,7 @@ payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Pay with { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -403,6 +412,8 @@ subscription-iaperrorupgrade-title = We can’t upgrade you quite yet
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -458,6 +469,7 @@ sub-route-idx-cancel-msg =
     Your { $name } subscription has been cancelled.
           <br />
           You will still have access to { $name } until { $date }.
+sub-route-idx-cancel-aside-2 = Have questions? Visit <a>{ -brand-mozilla } Support</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -492,6 +504,7 @@ sub-expires-on = Expires on { $date }
 pay-update-card-exp = Expires { $expirationDate }
 sub-route-idx-updating = Updating billing information…
 sub-route-payment-modal-heading = Invalid billing information
+sub-route-payment-modal-message-2 = There seems to be an error with your { -brand-paypal } account, we need you to take the necessary steps to resolve this payment issue.
 sub-route-missing-billing-agreement-payment-alert = Invalid payment information; there is an error with your account. <div>Manage</div>
 sub-route-funding-source-payment-alert = Invalid payment information; there is an error with your account. This alert may take some time to clear after you successfully update your information. <div>Manage</div>
 
@@ -505,6 +518,7 @@ sub-invoice-preview-error-text = Invoice preview not found for this subscription
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Looking for your { -product-pocket } premium subscription?
 manage-pocket-body-2 = To manage it, <linkExternal>click here</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -535,4 +549,6 @@ reactivate-success-button = Close
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: In-App purchase
+sub-iap-item-apple-purchase-2 = { -brand-apple }: In-App purchase
 sub-iap-item-manage-button = Manage

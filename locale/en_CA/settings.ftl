@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento Menu
 bento-menu-title-2 = { -brand-mozilla } Bento Menu
+bento-menu-title-3 = { -brand-mozilla } products
 bento-menu-firefox-title = { -brand-firefox } is tech that fights for your online privacy.
-bento-menu-mozilla-title = { -brand-mozilla } is tech that fights for your online privacy.
+bento-menu-tagline = More products from { -brand-mozilla } that protect your privacy
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -698,20 +699,6 @@ recent-activity-account-emails-swapped = Primary and secondary emails swapped
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Other account activity
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Cancel
-recovery-key-close-button = Close
-recovery-key-continue-button = Continue
-recovery-key-created-1 = Your account recovery key has been created. Be sure to save the key in a safe place that you can easily find later — you’ll need the key to regain access to your data if you forget your password.
-recovery-key-enter-password =
-    .label = Enter password
-recovery-key-page-title-1 =
-    .title = Account recovery key
-recovery-key-step-1 = Step 1 of 2
-recovery-key-step-2 = Step 2 of 2
-recovery-key-success-alert-3 = Account recovery key created
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -993,6 +980,7 @@ auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
 auth-error-1011 = Valid email required
+auth-error-1062 = Invalid redirect
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
