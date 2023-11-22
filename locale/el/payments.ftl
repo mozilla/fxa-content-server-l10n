@@ -114,6 +114,8 @@ payment-error-manage-subscription-button = Διαχείριση συνδρομή
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Διαθέτετε ήδη συνδρομή στο { $productName } μέσω του { -brand-google } Play Store ή του { -brand-apple } App Store.
 iap-upgrade-no-bundle-support = Δεν υποστηρίζουμε αναβαθμίσεις για αυτές τις συνδρομές, αλλά θα το κάνουμε σύντομα.
 iap-upgrade-contact-support = Μπορείτε ακόμα να αποκτήσετε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
 iap-upgrade-get-help-button = Λήψη βοήθειας
@@ -133,6 +135,11 @@ payment-validate-name-error = Παρακαλώ εισαγάγετε το όνο�
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = Η { -brand-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-paypal } για την ασφαλή επεξεργασία των πληρωμών.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Πολιτική απορρήτου του { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = Η { -brand-mozilla } χρησιμοποιεί το { -brand-paypal } για την ασφαλή επεξεργασία των πληρωμών.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Πολιτική απορρήτου του { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = Η { -brand-mozilla } χρησιμοποιεί το { -brand-name-stripe } για την ασφαλή επεξεργασία των πληρωμών.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -462,6 +469,7 @@ sub-route-idx-cancel-msg =
     Η συνδρομή σας στο { $name } έχει ακυρωθεί.
           <br />
           Θα έχετε ακόμη πρόσβαση στο { $name } μέχρι τις { $date }.
+sub-route-idx-cancel-aside-2 = Έχετε απορίες; Επισκεφτείτε την <a>Υποστήριξη { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -496,6 +504,7 @@ sub-expires-on = Λήγει στις { $date }
 pay-update-card-exp = Λήγει στις { $expirationDate }
 sub-route-idx-updating = Ενημέρωση στοιχείων χρέωσης…
 sub-route-payment-modal-heading = Μη έγκυρα στοιχεία χρέωσης
+sub-route-payment-modal-message-2 = Φαίνεται ότι υπάρχει σφάλμα με τον λογαριασμό σας στο { -brand-paypal }. Θα πρέπει να λάβετε τα απαραίτητα μέτρα για την επίλυση αυτού του προβλήματος πληρωμής.
 sub-route-missing-billing-agreement-payment-alert = Μη έγκυρα στοιχεία πληρωμής· υπάρχει σφάλμα με τον λογαριασμό σας. <div>Διαχείριση</div>
 sub-route-funding-source-payment-alert = Μη έγκυρα στοιχεία πληρωμής· υπάρχει σφάλμα στον λογαριασμό σας. Αυτή η ειδοποίηση ενδέχεται να χρειαστεί λίγη ώρα για να εξαφανιστεί αφού ενημερώσετε επιτυχώς τα στοιχεία σας. <div>Διαχείριση</div>
 
@@ -509,6 +518,7 @@ sub-invoice-preview-error-text = Δεν βρέθηκε προεπισκόπησ�
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Ψάχνετε την premium συνδρομή του { -product-pocket } σας;
 manage-pocket-body-2 = Για να τη διαχειριστείτε, <linkExternal>κάντε κλικ εδώ</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
