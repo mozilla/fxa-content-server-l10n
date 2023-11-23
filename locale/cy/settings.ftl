@@ -309,9 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Dewislen Bento { -brand-firefox }
 bento-menu-title-2 = Dewislen Bento { -brand-mozilla }
-bento-menu-title-3 = { -brand-mozilla } cynnyrch
+bento-menu-title-3 = Cynnyrch { -brand-mozilla }
 bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
-bento-menu-tagline = Mwy o gynhyrchion o { -brand-mozilla } sy'n amddiffyn eich preifatrwydd
+bento-menu-tagline = Rhagor o gynnyrch { -brand-mozilla } sy'n diogelu'ch preifatrwydd
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }

@@ -120,7 +120,7 @@ payment-confirmation-download-button = Parhau i lwytho i lawr
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Rwy'n awdurdodi { -brand-mozilla } i godi tâl ar fy null talu am y swm a ddangosir, yn unol â <termsOfServiceLink>Telerau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
+payment-confirm-with-legal-links-static-3 = Rwy'n awdurdodi { -brand-mozilla } i godi tâl ar fy null talu am y swm sy'n cael ei ddangos, yn unol â <termsOfServiceLink>Thelerau Gwasanaeth</termsOfServiceLink> a'r <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
 payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymlaen
 
 ## Component - PaymentErrorView
@@ -131,7 +131,7 @@ payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed-2 = Mae gennych danysgrifiad o { $productName } yn barod trwy'r siopau ap { -brand-google } neu { -brand-apple }.
+iap-upgrade-already-subscribed-2 = Mae gennych danysgrifiad { $productName } yn barod trwy'r siop apiau { -brand-google } neu { -brand-apple }.
 iap-upgrade-no-bundle-support = Nid ydym yn cefnogi uwchraddio'r tanysgrifiadau hyn ar hyn o bryd, ond byddwn yn gwneud hynny'n fuan.
 iap-upgrade-contact-support = Gallwch gael y cynnyrch hwn o hyd - cysylltwch â chymorth fel y gallwn ni eich helpu.
 iap-upgrade-get-help-button = Cael cymorth
@@ -152,9 +152,9 @@ payment-validate-name-error = Rhowch eich enw
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-3 = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
-payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } polisi preifatrwydd</ stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } polisi preifatrwydd</ paypalPrivacyLink>
-payment-legal-copy-paypal-2 = { -brand-mozilla } yn defnyddio { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
-payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } polisi preifatrwydd</ paypalPrivacyLink>
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Polisi preifatrwydd { -brand-name-stripe }</ stripePrivacyLink> &nbsp; <paypalPrivacyLink>polisi preifatrwydd { -brand-paypal }</ paypalPrivacyLink>
+payment-legal-copy-paypal-2 = Mae { -brand-mozilla } yn defnyddio { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Polisi preifatrwydd { -brand-paypal } </ paypalPrivacyLink>
 payment-legal-copy-stripe-3 = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau'n ddiogel.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Polisi preifatrwydd { -brand-name-stripe }</stripePrivacyLink>.
 
@@ -627,7 +627,7 @@ sub-invoice-preview-error-text = Heb ganfod rhagolwg anfoneb y tanysgrifiad hwn
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title-2 = Chwilio am eich tanysgrifiad premiwm { -product-pocket }?
+manage-pocket-title-2 = Yn chwilio am eich tanysgrifiad premiwm { -product-pocket }?
 manage-pocket-body-2 = I'w reoli, <linkExternal>cliciwch yma</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -658,6 +658,6 @@ reactivate-success-button = Cau
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase-2 = { -brand-google } : Pryniant o fewn yr ap
+sub-iap-item-google-purchase-2 = { -brand-google } : Prynu o fewn yr ap
 sub-iap-item-apple-purchase-2 = { -brand-apple } : Prynu o fewn yr ap
 sub-iap-item-manage-button = Rheoli
