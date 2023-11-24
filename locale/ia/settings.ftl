@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = Menu Bento de { -brand-firefox }
 bento-menu-title-2 = Menu Bento de { -brand-mozilla }
+bento-menu-title-3 = Productos { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vita private in linea.
-bento-menu-mozilla-title = { -brand-mozilla } es technologia que lucta pro tu confidentialitate in linea.
+bento-menu-tagline = Plus de productos { -brand-mozilla } que protege tu confidentialitate
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -703,20 +704,6 @@ recent-activity-account-emails-swapped = Emails primari e secundari excambiate
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altere activitate de conto
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Cancellar
-recovery-key-close-button = Clauder
-recovery-key-continue-button = Continuar
-recovery-key-created-1 = Tu clave de recuperation del conto ha essite create. Cura salvar le clave in un loco secur que tu pote facilemente trovar plus tarde: tu debera haber le clave pro reganiar accesso a tu datos si tu oblida tu contrasigno.
-recovery-key-enter-password =
-    .label = Insere le contrasigno
-recovery-key-page-title-1 =
-    .title = Clave de recuperation del conto
-recovery-key-step-1 = Passo 1 de 2
-recovery-key-step-2 = Passo 2 de 2
-recovery-key-success-alert-3 = Clave de recuperation del conto create
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1005,6 +992,7 @@ auth-error-999 = Error inexpectate
 auth-error-1003 = Immagazinage e cookies local es ancora disactivate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 auth-error-1011 = Il es necessari un adresse email valide
+auth-error-1062 = Redirection non valide
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.

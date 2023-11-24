@@ -104,6 +104,7 @@ payment-confirmation-download-button = Continuar a discargar
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = Io autorisa { -brand-mozilla } a cargar mi methodo de pagamento pro le amonta monstrate, secundo <termsOfServiceLink>Terminos de servicio</termsOfServiceLink> e <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi abonamento.
 payment-confirm-checkbox-error = Il besonia completar isto, ante proceder
 
 ## Component - PaymentErrorView
@@ -113,6 +114,8 @@ payment-error-manage-subscription-button = Gerer mi subscription
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Tu jam ha un subscription a { $productName }  via le magazines de apps de { -brand-google } o de { -brand-apple }.
 iap-upgrade-no-bundle-support = Nos non supporta promotiones pro iste subscriptiones, ma nos los supportara tosto.
 iap-upgrade-contact-support = Tu pote ancora obtener iste producto. Contacta nostre equipa de assistentia a fin que nos pote adjutar te.
 iap-upgrade-get-help-button = Obtener auxilio
@@ -127,11 +130,16 @@ payment-cc =
 payment-cancel-btn = Cancellar
 payment-update-btn = Actualisar
 payment-pay-btn = Paga ora
+payment-pay-with-paypal-btn-2 = Paga con { -brand-paypal }
 payment-validate-name-error = Insere tu nomine
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } usa { -brand-name-stripe } e { -brand-paypal } pro le elaboration secur del pagamentos.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } politica de confidentialitate</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } Politica de confidentialitate</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } usa { -brand-paypal } pro processar pagamentos secur.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } Politica de confidentialitate</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } usa { -brand-name-stripe } pro le processo secur de pagamento.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Politica de confidentialitate de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -151,6 +159,7 @@ payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Paga con { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -403,6 +412,8 @@ subscription-iaperrorupgrade-title = Nos non pote promover te ancora
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = Boteca de { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -451,6 +462,7 @@ sub-route-idx-cancel-msg =
     Tu subscription a { $name } ha essite cancellate.
           <br />
           Tu habera ancora accesso a { $name } usque { $date }.
+sub-route-idx-cancel-aside-2 = Ha tu questiones? Visita le <a>Supporto de { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -485,6 +497,7 @@ sub-expires-on = Expira le { $date }
 pay-update-card-exp = Expira le { $expirationDate }
 sub-route-idx-updating = Actualisation del informationes de factura…
 sub-route-payment-modal-heading = Informationes de facturation non valide
+sub-route-payment-modal-message-2 = Il pare haber un error con tu conto de { -brand-paypal }, nos besonia que tu face le passos necessari pro resolver iste problema de pagamento.
 sub-route-missing-billing-agreement-payment-alert = Informationes de pagamento non valide; il ha un error con tu conto. <div>Gerer</div>
 sub-route-funding-source-payment-alert = Informationes de pagamento non valide; il ha un error con tu conto. Iste aviso pote remaner un certe tempore post que tu corrige tu informationes. <div>Gerer</div>
 
@@ -498,6 +511,7 @@ sub-invoice-preview-error-text = Vista previe de factura non trovate pro iste ab
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Recerca tu un abonamento premio pro tu { -product-pocket }?
 manage-pocket-body-2 = Pro gerer lo, <linkExternal>clicca ci</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -525,4 +539,6 @@ reactivate-success-button = Clauder
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: compras In-App
+sub-iap-item-apple-purchase-2 = { -brand-apple }: compras de In-App
 sub-iap-item-manage-button = Gerer
