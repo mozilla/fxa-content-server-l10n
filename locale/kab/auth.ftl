@@ -196,6 +196,7 @@ downloadSubscription-title = Ansuf ɣer { $productName }
 downloadSubscription-content-2 = Aha bdu aseqdec n meṛṛa timahilin yeddan deg umulteɣ-inek·inem:
 downloadSubscription-link-action-2 = Bdu
 fraudulentAccountDeletion-subject = { -product-firefox-account } inek yettwakkes
+fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } inek yettwakkes
 fraudulentAccountDeletion-title = Amiḍan-ik•im yettwakkes
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ur tesɛiḍ ula  yiwet n tengalt n usesteb n uḥraz!
