@@ -8,12 +8,16 @@ session-verify-send-push-body-2 = Tapitz'a' richin najikib'a' chi at ja rat
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo de { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = Ichinan Runa’oj { -brand-mozilla }
 fxa-service-url = { -product-firefox-cloud } Rojqanem Samaj
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo de { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo"><img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Ruyonil nitaq re taqoya’l re‘; we xak'ül ruma jun sachoj, majun achike tab'ana'.
 subplat-privacy-notice = Ichinan na'oj
 subplat-privacy-plaintext = Ichinan na’oj:
@@ -22,6 +26,10 @@ subplat-update-billing-plaintext = { subplat-update-billing }
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Xak'ül re taqoya'l ruma chi ri { $email } k'o jun rub'i' rutaqoya'l richin { -product-firefox-account } chuqa' xatz'ib'aj ab'i' richin { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Xak'ül re taqoya'l ruma chi ri { $email } k'o jun rub'i' rutaqoya'l richin { -product-mozilla-account } chuqa' xatz'ib'aj ab'i' richin { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Nak'ül re taqoya'l re' ruma chi ri { $email } k'o pa jun { -product-firefox-account }.
@@ -99,10 +107,6 @@ payment-plan-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
 payment-method = Rub'eyal tojïk:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $cardType } tarjeta' k'isib'en pa { $lastFour }
-# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Rajilab'al Paktura': <b>{ $invoiceNumber }</b>
 # Variables:
@@ -127,25 +131,6 @@ device-all = { $uaBrowser } pa { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } pa { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP ochochib'äl: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country }, (q'ijun)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country }, (q'ijun)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (q'ijun)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (q'ijun)
 cadReminderFirst-action = Tixim jun chik okisab’äl
 cadReminderFirst-action-plaintext = { cadReminderFirst-action } :
 cadReminderSecond-action = Tixim jun chik okisab’äl
@@ -169,8 +154,6 @@ passwordChangeRequired-title = Nrajo’ chi Nijal Ewan Tzij
 passwordChangeRequired-suspicious-activity = Xqïl itzel b'anoj pa rub'i' ataqoya'l richin { -product-firefox-account }. Richin man ke'ok pa rub'i' ataqoya'l richin { -product-firefox-account } toq man aya'on ta q'ij, yeqachüp ronojel ri rokisab'al ri rub'i' ataqoya'l chuqa' niqak'utuj chi tajala' ri ewan atzij richin yatqachajij.
 passwordChangeRequired-sign-in = Tatikirisaj moloj pa xab'achike okisab'äl o samaj akuchi' nawokisaj ri rub'i' ataqoya'l richin { -product-firefox-account } chuqa' tawojqaj ri ya'on rutzijol.
 passwordChangeRequired-different-password = <b>K'atzinel:</b> Tacha' jun chik ewan tzij chuwäch ri xawokisala' chuqa' tajikib'a' chi jun wi rik'in ri rub'i' ataqoya'l.
-passwordChangeRequired-signoff = Rutzil iwäch,
-passwordChangeRequired-signoff-name = Rumoloj { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = K'atzinel: Tacha' jun chik ewan tzij chuwäch ri xawokisala' chuqa' tajikib'a' chi jun wi rik'in ri rub'i' ataqoya'l.
 passwordReset-subject = Xk’extäj ri ewan tzij
 passwordReset-title = Xjalatäj ri ewan rutzij rub’i‘ ataqoya'l
@@ -178,7 +161,6 @@ passwordReset-description = K’o chi natz‘ib'aj chik ri k'ak'a' ewan tzij pa 
 passwordResetAccountRecovery-subject-2 = Xtzolïx ri ewan atzij
 passwordResetAccountRecovery-title-2 = Xtzolïx ütz ri ewan tzij
 postAddAccountRecovery-action = Tinuk’samajïx rub‘i' taqoya'l
-postAddAccountRecovery-changd-password = Tajala' ri ewan atzij:
 postAddLinkedAccount-action = Tinuk’samajïx rub‘i' taqoya'l
 postAddTwoStepAuthentication-action = Tinuk’samajïx rub‘i' taqoya'l
 postChangePrimary-subject = Xk’ex ri nab‘ey taqoya'l
