@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox-ანგარიშები
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = ანგარიშის მთავარი გვერდი
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = განაგრძეთ ჩამო�
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-payment-confirm-with-legal-links-static-2 = ნებას ვრთავ { -brand-name-mozilla }-ს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
+payment-confirm-with-legal-links-static-3 = ნებას ვრთავ { -brand-mozilla }-ს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
 payment-confirm-checkbox-error = უნდა დაასრულოთ, სანამ განაგრძობთ
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = გამოწერების მ
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = უკვე გამოწერილი გაქვთ { $productName } ან { -brand-name-google }-ის, ან { -brand-name-apple }-ის მაღაზიიდან.
+iap-upgrade-already-subscribed-2 = უკვე გამოწერილი გაქვთ { $productName } ან { -brand-google }-ის, ან { -brand-apple }-ის მაღაზიიდან.
 iap-upgrade-no-bundle-support = ჯერ არაა მხარდაჭერილი ამ გამოწერების გაუმჯობესება, მაგრამ მუშავდება.
 iap-upgrade-contact-support = კვლავ შეგიძლიათ ამ პროდუქტის მიღება — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
 iap-upgrade-get-help-button = დახმარების მიღება
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = გაუქმება
 payment-update-btn = განახლება
 payment-pay-btn = ახლავე გადახდა
-payment-pay-with-paypal-btn = გადაიხადეთ { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = გადახდისთვის გამოიყენეთ { -brand-paypal }
 payment-validate-name-error = გთხოვთ მიუთითოთ თქვენი სახელი
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } იყენებს { -brand-name-stripe }-ს და { -brand-name-paypal }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } იყენებს { -brand-name-paypal }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } იყენებს { -brand-name-stripe }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } იყენებს { -brand-name-stripe }-სა და { -brand-paypal }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } პირადულობის დებულება</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } იყენებს { -brand-paypal }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } პირადულობის დებულება</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } იყენებს { -brand-name-stripe }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = ბარათი დაბოლო�
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = გადაიხადეთ { -brand-name-paypal }
+pay-with-heading-paypal-2 = გადახდისთვის გამოიყენეთ { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = ჯერ ვერ მოხერხდ�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } მაღაზია
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +469,7 @@ sub-route-idx-cancel-msg =
     თქვენ მიერ გამოწერილი { $name } გაუქმებულია.
           <br />
           ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
-sub-route-idx-cancel-aside = კითხვები გაქვთ? იხილეთ <a>{ -brand-name-mozilla } მხარდაჭერა</a>.
+sub-route-idx-cancel-aside-2 = კითხვები გაქვთ? იხილეთ<a>{ -brand-mozilla }-ს მხარდაჭერა</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +504,7 @@ sub-expires-on = ბოლო ვადაა { $date }
 pay-update-card-exp = მოქმედების ვადა { $expirationDate }
 sub-route-idx-updating = ანგარიშსწორების მონაცემების განახლება…
 sub-route-payment-modal-heading = ანგარიშსწორების არასწორი მონაცემები
-sub-route-payment-modal-message = როგორც ჩანს, თქვენს { -brand-name-paypal }-ანგარიშთან დაკავშირებით წარმოიშვა შეცდომა. ამ საკითხის მოსაგვარებლად, სათანადო ზომების მიღება დაგვჭირდება.
+sub-route-payment-modal-message-2 = როგორც ჩანს, თქვენს { -brand-paypal }-ანგარიშთან დაკავშირებით წარმოიშვა შეცდომა. ამ საკითხის მოსაგვარებლად სათანადო ზომების მიღება დაგვჭირდება.
 sub-route-missing-billing-agreement-payment-alert = გადახდის არამართებული მონაცემები; შეცდომა წარმოიშვა თქვენს ანგარიშთან. <div>მართვა</div>
 sub-route-funding-source-payment-alert = გადახდის არამართებული მონაცემები; შეცდომა წარმოიშვა თქვენს ანგარიშთან. ეს შეტყობინება შეიძლება რაღაც დროით დარჩეს, მონაცემების განახლების შემდგომაც. <div>მართვა</div>
 
@@ -551,7 +518,7 @@ sub-invoice-preview-error-text = ზედნადების შესათ�
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = გსურთ, შეიძინოთ { -brand-name-pocket }-ის რჩეული ვერსია?
+manage-pocket-title-2 = გსურთ, შეიძინოთ { -product-pocket }-ის რჩეული ვერსია?
 manage-pocket-body-2 = მის სამართავად <linkExternal>დაწკაპეთ აქ</linkExternal>
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +549,6 @@ reactivate-success-button = დახურვა
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: აპის შიდა შენაძენი
-sub-iap-item-apple-purchase = { -brand-name-apple }: აპის შიდა შენაძენი
+sub-iap-item-google-purchase-2 = { -brand-google }: აპის შიდა შესყიდვა
+sub-iap-item-apple-purchase-2 = { -brand-apple }: აპის შიდა შესყიდვა
 sub-iap-item-manage-button = მართვა
