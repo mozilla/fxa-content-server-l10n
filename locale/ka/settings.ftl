@@ -311,8 +311,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-მენიუ
 bento-menu-title-2 = { -brand-mozilla }-ს ცხრილური მენიუ
+bento-menu-title-3 = { -brand-mozilla }-ს ნაწარმი
 bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
-bento-menu-mozilla-title = { -brand-mozilla } ტექკომპანიაა, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობის დასაცავად.
+bento-menu-tagline = { -brand-mozilla }-ს მეტი ნაწარმი თქვენი პირადულობის დასაცავად
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -347,7 +348,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = კლიენტი ვერ მოიძებნა, გამოთიშვა შეუძლებელია
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = გამოთიშულია { $service }
 cs-refresh-button =
@@ -359,7 +360,7 @@ cs-disconnect-sync-heading = გამოთიშვა სინქრონ�
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -710,20 +711,6 @@ recent-activity-account-emails-swapped = პირველადი და დ�
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = სხვა მოქმედებები ანგარიშზე
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = გაუქმება
-recovery-key-close-button = დახურვა
-recovery-key-continue-button = გაგრძელება
-recovery-key-created-1 = ანგარიშის აღდგენის ახალი გასაღები შეიქმნა. შეინახეთ გასაღები ისეთ უსაფრთხო ადგილას, სადაც ადვილად მიაგნებთ — გამოგადგებათ ანგარიშთან წვდომისთვის პაროლის დავიწყებისას.
-recovery-key-enter-password =
-    .label = შეიყვანეთ პაროლი
-recovery-key-page-title-1 =
-    .title = ანგარიშის აღდგენის გასაღები
-recovery-key-step-1 = 1-ელი ნაბიჯი 2-დან
-recovery-key-step-2 = მე-2 ნაბიჯი 2-დან
-recovery-key-success-alert-3 = ანგარიშის აღდგენის გასაღები შექმნილია
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1011,6 +998,7 @@ auth-error-999 = მოულოდნელი შეცდომა
 auth-error-1003 = ადგილობრივი საცავი ან ფუნთუშები კვლავ გათიშულია
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
 auth-error-1011 = მართებული ელფოსტის მითითება აუცილებელია
+auth-error-1062 = არამართებული გადამისამართება
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1068,7 +1056,7 @@ cookies-disabled-learn-more = ვრცლად
 inline-recovery-setup-header-default = დაადასტურეთ შესვლის სამარქაფო კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = შეინახეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = გადაინახეთ ეს ერთჯერადი კოდები უსაფრთხო ადგილას იმ შემთხვევისთვის, თუ არ გექნებათ მობილური მოწყობილობა.
@@ -1088,7 +1076,7 @@ inline-recovery-confirmation-description = იმის უზრუნველ
 inline-recovery-confirmation-header-default = დაადასტურეთ შესვლის სამარქაფო კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = დაადასტურეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
 
 ## InlineTotpSetup page
