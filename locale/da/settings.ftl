@@ -309,6 +309,7 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-title-2 = { -brand-mozilla } Bento-menu
+bento-menu-title-3 = Produkter fra { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
 bento-menu-tagline = Flere produkter fra { -brand-mozilla }, der beskytter dit privatliv
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -639,7 +640,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
-delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
+delete-account-product-firefox-sync = Synkronisering af { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tilføjelser
 delete-account-acknowledge = Bekræft venligst, at når du sletter din konto:
 delete-account-chk-box-1-v3 =
