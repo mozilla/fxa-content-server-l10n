@@ -410,6 +410,8 @@ subscription-iaperrorupgrade-title = Vi kan ikke opgradere dig helt endnu
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Butik
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -465,6 +467,7 @@ sub-route-idx-cancel-msg =
     Dit abonnement på { $name } er blevet annulleret.
           <br />
           Du har adgang til { $name } frem til { $date }.
+sub-route-idx-cancel-aside-2 = Har du spørgsmål? Besøg <a>{ -brand-mozilla } Support</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -499,6 +502,7 @@ sub-expires-on = Udløber den { $date }
 pay-update-card-exp = Udløber { $expirationDate }
 sub-route-idx-updating = Opdaterer faktureringsoplysninger…
 sub-route-payment-modal-heading = Ugyldige faktureringsoplysninger
+sub-route-payment-modal-message-2 = Der ser ud til at være en fejl med din { -brand-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.
 sub-route-missing-billing-agreement-payment-alert = Ugyldig betalingsinformation; der er en fejl med din konto.<div>Håndtér</div>
 sub-route-funding-source-payment-alert = Ugyldig betalingsinformation; der er en fejl med din konto. Det kan tage nogen tid, før denne advarsel forsvinder efter du har opdateret dine oplysninger. <div>Håndtér</div>
 
@@ -512,6 +516,7 @@ sub-invoice-preview-error-text = Eksempel på faktura ikke fundet for dette abon
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Leder du efter dit premium-abonnement på { -product-pocket }?
 manage-pocket-body-2 = <linkExternal>Klik her</linkExternal> for at håndtere det.
 
 ## Routes - Subscriptions - Reactivate
@@ -542,4 +547,6 @@ reactivate-success-button = Luk
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Køb i appen
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Køb i appen
 sub-iap-item-manage-button = Håndter

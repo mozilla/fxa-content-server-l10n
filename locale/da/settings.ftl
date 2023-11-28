@@ -310,7 +310,7 @@ avatar-default-avatar =
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-title-2 = { -brand-mozilla } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
-bento-menu-mozilla-title = { -brand-mozilla } er teknologi, der kæmper for at beskytte dit privatliv på nettet.
+bento-menu-tagline = Flere produkter fra { -brand-mozilla }, der beskytter dit privatliv
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -707,20 +707,6 @@ recent-activity-account-emails-swapped = Primær og sekundær mailadresse byttet
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Anden kontoaktivitet
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Annuller
-recovery-key-close-button = Luk
-recovery-key-continue-button = Fortsæt
-recovery-key-created-1 = Din genoprettelsesnøgle til kontoen er blevet oprettet. Gem nøglen et sikkert sted, hvor du nemt kan finde den senere. Du skal bruge nøglen til at få adgang til dine data, hvis du glemmer din adgangskode.
-recovery-key-enter-password =
-    .label = Indtast adgangskode
-recovery-key-page-title-1 =
-    .title = Genoprettelsesnøgle til kontoen
-recovery-key-step-1 = Trin 1 af 2
-recovery-key-step-2 = Trin 2 af 2
-recovery-key-success-alert-3 = Genoprettelsesnøgle til kontoen blev oprettet
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1010,6 +996,7 @@ auth-error-999 = Uventet fejl
 auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
 auth-error-1011 = Gyldig mailadresse påkrævet
+auth-error-1062 = Ugyldig omdirigering
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
