@@ -580,19 +580,6 @@ recent-activity-account-emails-swapped = Primær og sekundær e-post er bytt om
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Avbryt
-recovery-key-close-button = Lat att
-recovery-key-continue-button = Fortset
-recovery-key-enter-password =
-    .label = Skriv inn passord
-recovery-key-page-title-1 =
-    .title = Kontogjenopprettingsnøkkel
-recovery-key-step-1 = Steg 1 av 2
-recovery-key-step-2 = Steg 2 av 2
-recovery-key-success-alert-3 = Kontogjenopprettingsnøkkel oppretta
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1035,7 +1022,7 @@ signin-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Hald fram til { $serviceName }
-signin-subheader-without-logo-default = Hald fram til kontoinnstillinga
+signin-subheader-without-logo-default = Hald fram til kontoinnstillingar
 signin-button = Logg inn
 signin-header = Logg inn
 signin-use-a-different-account-link = Bruk ein annan konto
