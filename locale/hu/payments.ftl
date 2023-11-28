@@ -104,7 +104,7 @@ payment-confirmation-download-button = Tovább a letöltéshez
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Felhatalmazom a { -brand-mozilla } szervezetet, hogy terhelje meg a megjelenített összeget az általam megjelenített fizetési móddal, az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
+payment-confirm-with-legal-links-static-3 = Felhatalmazom a { -brand-mozilla(ending: "accented") }t, hogy terhelje meg a megjelenített összeget az én fizetési módommal az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
 payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 ## Component - PaymentErrorView
