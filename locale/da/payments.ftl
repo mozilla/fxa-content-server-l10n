@@ -140,7 +140,7 @@ payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe }s 
 payment-legal-copy-paypal-2 = { -brand-mozilla } bruger { -brand-paypal } til sikker behandling af betaling.
 payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal }s privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-stripe-3 = { -brand-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
-payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }s privatlivspolitik</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
 
