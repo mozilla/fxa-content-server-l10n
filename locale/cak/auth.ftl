@@ -17,7 +17,6 @@ subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo d
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
-subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo"><img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Ruyonil nitaq re taqoya’l re‘; we xak'ül ruma jun sachoj, majun achike tab'ana'.
 subplat-privacy-notice = Ichinan na'oj
 subplat-privacy-plaintext = Ichinan na’oj:
