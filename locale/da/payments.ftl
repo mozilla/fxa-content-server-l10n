@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox-konti
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Startside for konto
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Fortsæt til hentning
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
-payment-confirm-with-legal-links-static-2 = Jeg giver hermed tilladelse til, at { -brand-name-mozilla } kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
+payment-confirm-with-legal-links-static-3 = Jeg giver hermed tilladelse til, at { -brand-mozilla } kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
 payment-confirm-checkbox-error = Du skal fuldføre dette, før du går videre
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Håndter mine abonnementer
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Du har allerede et { $productName }-abonnement via { -brand-name-google }s  eller { -brand-name-apple }s appbutikker.
+iap-upgrade-already-subscribed-2 = Du har allerede et { $productName }-abonnement via { -brand-google }s  eller { -brand-apple }s appbutikker.
 iap-upgrade-no-bundle-support = Vi understøtter ikke opgraderinger til disse abonnementer, men det kommer vi til at gøre snart.
 iap-upgrade-contact-support = Du kan stadig få dette produkt. Kontakt supporten, så vi kan hjælpe dig.
 iap-upgrade-get-help-button = Få hjælp
@@ -162,16 +130,14 @@ payment-cc =
 payment-cancel-btn = Annuller
 payment-update-btn = Opdater
 payment-pay-btn = Betal nu
-payment-pay-with-paypal-btn = Betal med { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Betal med { -brand-paypal }
 payment-validate-name-error = Indtast dit navn
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } og { -brand-name-paypal } til sikker behandling af betaling.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } bruger { -brand-name-paypal } til sikker behandling af betaling.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } bruger { -brand-name-stripe } og { -brand-paypal } til sikker behandling af betaling.
+payment-legal-copy-paypal-2 = { -brand-mozilla } bruger { -brand-paypal } til sikker behandling af betaling.
+payment-legal-copy-stripe-3 = { -brand-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +157,7 @@ payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Betal med { -brand-name-paypal }
+pay-with-heading-paypal-2 = Betal med { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +410,6 @@ subscription-iaperrorupgrade-title = Vi kan ikke opgradere dig helt endnu
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +465,6 @@ sub-route-idx-cancel-msg =
     Dit abonnement på { $name } er blevet annulleret.
           <br />
           Du har adgang til { $name } frem til { $date }.
-sub-route-idx-cancel-aside = Har du spørgsmål? Besøg <a>{ -brand-name-mozilla } Support</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +499,6 @@ sub-expires-on = Udløber den { $date }
 pay-update-card-exp = Udløber { $expirationDate }
 sub-route-idx-updating = Opdaterer faktureringsoplysninger…
 sub-route-payment-modal-heading = Ugyldige faktureringsoplysninger
-sub-route-payment-modal-message = Der ser ud til at være en fejl med din { -brand-name-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.
 sub-route-missing-billing-agreement-payment-alert = Ugyldig betalingsinformation; der er en fejl med din konto.<div>Håndtér</div>
 sub-route-funding-source-payment-alert = Ugyldig betalingsinformation; der er en fejl med din konto. Det kan tage nogen tid, før denne advarsel forsvinder efter du har opdateret dine oplysninger. <div>Håndtér</div>
 
@@ -551,7 +512,6 @@ sub-invoice-preview-error-text = Eksempel på faktura ikke fundet for dette abon
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Leder du efter dit premium-abonnement på { -brand-name-pocket }?
 manage-pocket-body-2 = <linkExternal>Klik her</linkExternal> for at håndtere det.
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +542,4 @@ reactivate-success-button = Luk
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Køb i appen
-sub-iap-item-apple-purchase = { -brand-name-apple }: Køb i appen
 sub-iap-item-manage-button = Håndter
