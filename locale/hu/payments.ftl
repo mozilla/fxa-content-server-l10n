@@ -115,7 +115,7 @@ payment-error-manage-subscription-button = Saját feliratkozások kezelése
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed-2 = Már van { $productName }-előfizetése a { -brand-google } vagy az { -brand-apple } alkalmazásboltján keresztül.
+iap-upgrade-already-subscribed-2 = Már van { $productName } előfizetése a { -brand-google } vagy az { -brand-apple } alkalmazásboltján keresztül.
 iap-upgrade-no-bundle-support = Jelenleg nem támogatjuk a frissítést ezekről az előfizetésekről, de hamarosan fogjuk.
 iap-upgrade-contact-support = Továbbra is beszerezheti ezt a terméket – lépjen kapcsolatba a támogatással, hogy segíthessünk.
 iap-upgrade-get-help-button = Segítség kérése
@@ -136,9 +136,9 @@ payment-validate-name-error = Adja meg a nevét
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-3 = A { -brand-mozilla } a { -brand-name-stripe }-ot és a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-paypal } adatvédelmi irányelvei</paypalPrivacyLink>
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-paypal } atomvédelmi irányelvei</paypalPrivacyLink>.
 payment-legal-copy-paypal-2 = A { -brand-mozilla } a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-paypal-3 = <paypalPrivacyLink>A { -brand-paypal } adatvédelmi irányelvei</paypalPrivacyLink>
+payment-legal-link-paypal-3 = <paypalPrivacyLink>A { -brand-paypal } adatvédelmi irányelvei</paypalPrivacyLink>.
 payment-legal-copy-stripe-3 = A { -brand-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
 payment-legal-link-stripe-3 = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink>.
 
@@ -412,7 +412,7 @@ subscription-iaperrorupgrade-title = Jelenleg nem tudjuk frissíteni
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play-2 = { -google-play } Áruházból
+brand-name-google-play-2 = { -google-play } Áruház
 brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
@@ -469,7 +469,7 @@ sub-route-idx-cancel-msg =
     A(z) { $name }-előfizetése lemondva.
           <br />
           { $date }-ig továbbra is el fogja érni a(z) { $name } szolgáltatást.
-sub-route-idx-cancel-aside-2 = Kérdése van? Keresse fel a <a>{ -brand-mozilla } támogatást</a>.
+sub-route-idx-cancel-aside-2 = Kérdése van? Keresse fel a <a>{ -brand-mozilla } Támogatást</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -504,7 +504,7 @@ sub-expires-on = Lejár: { $date }
 pay-update-card-exp = Lejárat: { $expirationDate }
 sub-route-idx-updating = Számlázási információk frissítése…
 sub-route-payment-modal-heading = Érvénytelen számlázási információk
-sub-route-payment-modal-message-2 = Úgy tűnik, hogy hiba történt { -brand-paypal }-fiókjával kapcsolatban, meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
+sub-route-payment-modal-message-2 = Úgy tűnik, hogy hiba történt a(z) { -brand-paypal }-fiókjával kapcsolatban, meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
 sub-route-missing-billing-agreement-payment-alert = Érvénytelen fizetési információk; hiba van a fiókjában. <div>Kezelés</div>
 sub-route-funding-source-payment-alert = Érvénytelen fizetési információk; hiba van a fiókjában. Az értesítés törlése eltarthat egy ideig az adatok sikeres frissítése után. <div>Kezelés</div>
 
@@ -518,7 +518,7 @@ sub-invoice-preview-error-text = A számla előnézete nem található ehhez az 
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title-2 = Prémium { -product-pocket } előfizetését keresi?
+manage-pocket-title-2 = A { -product-pocket } prémium előfizetését keresi?
 manage-pocket-body-2 = A kezeléséhez <linkExternal>kattintson ide</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
