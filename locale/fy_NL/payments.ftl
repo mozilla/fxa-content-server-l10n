@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox Accounts
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Account-startside
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Trochgean mei download
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade foar it toande bedrach te belêsten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-payment-confirm-with-legal-links-static-2 = Ik autorisearje { -brand-name-mozilla } om myn betelmetoade foar it toande bedrach te belêsten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+payment-confirm-with-legal-links-static-3 = Ik autorisearje { -brand-mozilla } om myn betelmetoade foar it toande bedrach te belêsten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
 payment-confirm-checkbox-error = Jo moatte dit foltôgje eardat jo fierder gean
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Myn abonnemint beheare
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Jo hawwe al in abonnemint op { $productName } fia de appstore { -brand-name-google } of { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Jo hawwe al in abonnemint op { $productName } fia de appstore { -brand-google } of { -brand-apple }.
 iap-upgrade-no-bundle-support = Wy stypje gjin upwurdearringen foar dizze abonneminten, mar dat dogge wy ynkoarten wol.
 iap-upgrade-contact-support = Jo kinne dit produkt noch hieltyd krije – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
 iap-upgrade-get-help-button = Help krije
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = Annulearje
 payment-update-btn = Bywurkje
 payment-pay-btn = No betelje
-payment-pay-with-paypal-btn = Betelje mei { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Betelje mei { -brand-paypal }
 payment-validate-name-error = Fier jo namme yn
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } brûkt { -brand-name-stripe } en { -brand-name-paypal } foar feilich betellingsferkear.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybelied</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybelied</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } brûkt { -brand-name-paypal } foar feilich betellingsferkear.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }-privacybelied</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } brûkt { -brand-name-stripe } foar feilich betellingsferkear.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } brûkt { -brand-name-stripe } en { -brand-paypal } foar feilich betellingsferkear.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe }-privacybelied</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal }-privacybelied</paypalPrivacyLink>.
+payment-legal-copy-paypal-2 = { -brand-mozilla } brûkt { -brand-paypal } foar feilich betellingsferkear.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal }-privacybelied</paypalPrivacyLink>.
+payment-legal-copy-stripe-3 = { -brand-mozilla } brûkt { -brand-name-stripe } foar feilich betellingsferkear.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }-privacybelied</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Betelje mei { -brand-name-paypal }
+pay-with-heading-paypal-2 = Betelje mei { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = Wy kinne jo noch net opwurdearje
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +469,7 @@ sub-route-idx-cancel-msg =
     Jo abonnemint op { $name } is opsein.
           <br />
           Jo hawwe noch oant { $date } tagong ta { $name }.
-sub-route-idx-cancel-aside = Fragen? Besykje <a>{ -brand-name-mozilla } Support</a>.
+sub-route-idx-cancel-aside-2 = Fragen? Besykje <a>{ -brand-mozilla } Support</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +504,7 @@ sub-expires-on = Ferrint op { $date }
 pay-update-card-exp = Ferrint op { $expirationDate }
 sub-route-idx-updating = Fakturaasjegegevens bywurkje…
 sub-route-payment-modal-heading = Ungjildige fakturaasjegegevens
-sub-route-payment-modal-message = Der liket in flater te barren mei jo { -brand-name-paypal }-account, jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
+sub-route-payment-modal-message-2 = Der liket in flater te barren mei jo { -brand-paypal }-account, jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
 sub-route-missing-billing-agreement-payment-alert = Ungjidige betellingsgegevens; der is in flater bard mei jo account. <div>Beheare</div>
 sub-route-funding-source-payment-alert = Ungjidige betellingsgegevens; der is in flater bard mei jo account. Dizze warskôging ferdwynt mooglik pas nei ferrin fan tiid neidat jo mei sukses jo gegevens bywurke hawwe. <div>Beheare</div>
 
@@ -551,7 +518,7 @@ sub-invoice-preview-error-text = Faktuerfoarbyld net fûn foar dit abonnemint
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Op syk nei jo abonnemint op { -brand-name-pocket } premium?
+manage-pocket-title-2 = Op syk nei jo abonnemint op { -product-pocket } premium?
 manage-pocket-body-2 = <linkExternal>Klik hjir</linkExternal> om dit te behearen.
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +549,6 @@ reactivate-success-button = Slute
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: yn-app-oankeap
-sub-iap-item-apple-purchase = { -brand-name-apple }: yn-app-oankeap
+sub-iap-item-google-purchase-2 = { -brand-google }: yn-app-oankeap
+sub-iap-item-apple-purchase-2 = { -brand-apple }: yn-app-oankeap
 sub-iap-item-manage-button = Beheare

@@ -309,8 +309,9 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-title-2 = { -brand-mozilla } Bento-menu
+bento-menu-title-3 = { -brand-mozilla }-produkten
 bento-menu-firefox-title = { -brand-firefox } is technology dy’t stridet foar jo online privacy.
-bento-menu-mozilla-title = { -brand-mozilla } is in technology dy’t fjochtet foar jo online privacy.
+bento-menu-tagline = Mear produkten fan { -brand-mozilla } dy’t jo privacy beskermje
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -345,7 +346,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Client net fûn, ferbining kin net ferbrutsen wurde
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Ofmeld by { $service }
 cs-refresh-button =
@@ -357,7 +358,7 @@ cs-disconnect-sync-heading = Ferbining mei Sync ferbrekke
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -712,20 +713,6 @@ recent-activity-account-emails-swapped = Primêre en sekundêre e-mailadressen w
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Oare accountaktiviteit
 
-# Account recovery key setup page
-
-recovery-key-cancel-button = Annulearje
-recovery-key-close-button = Slute
-recovery-key-continue-button = Trochgean
-recovery-key-created-1 = Jo accountwerstelkaai is oanmakke. Soargje derfoar dat jo de kaai op in feilich plak dy’t jo letter maklik fine kinne bewarje – jo hawwe de kaai nedich om opnij tagong ta jo gegevens te krijen as jo jo wachtwurd ferjitte.
-recovery-key-enter-password =
-    .label = Fier wachtwurd yn
-recovery-key-page-title-1 =
-    .title = Accountwerstelkaai
-recovery-key-step-1 = Stap 1 fan 2
-recovery-key-step-2 = Stap 2 fan 2
-recovery-key-success-alert-3 = Kaai foar accountwerstel oanmakke
-
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
@@ -1015,6 +1002,7 @@ auth-error-999 = Unferwachte flater
 auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 auth-error-1011 = Jildich e-mailadres fereaske
+auth-error-1062 = Unjildige trochferwizing
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1072,7 +1060,7 @@ cookies-disabled-learn-more = Mear ynfo
 inline-recovery-setup-header-default = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Bewarje jo reserve-autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Bewarje dizze koaden foar ienmalich gebrûk op in feilich plak foar as jo jo mobile apparaat net hawwe.
@@ -1092,7 +1080,7 @@ inline-recovery-confirmation-description = Fier yn gefal fan in ferlern apparaat
 inline-recovery-confirmation-header-default = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
 
 ## InlineTotpSetup page
