@@ -376,6 +376,7 @@ postNewRecoveryCodes-action = Hesabı yönet
 postRemoveAccountRecovery-subject-2 = Hesap kurtarma anahtarı silindi
 postRemoveAccountRecovery-title-3 = Hesap kurtarma anahtarınızı sildiniz
 postRemoveAccountRecovery-body-part1 = Parolanızı unutursanız şifrelenmiş gezinti verilerinizi kurtarmak için hesap kurtarma anahtarınız gerekir.
+postRemoveAccountRecovery-body-part2 = Henüz oluşturmadıysanız hesap ayarlarınızdan yeni bir hesap kurtarma anahtarı oluşturun. Kayıtlı parolalarınızı, yer imlerinizi, gezinti geçmişinizi ve diğer verilerinizi kaybetmeyin.
 postRemoveAccountRecovery-action = Hesabı yönet
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
