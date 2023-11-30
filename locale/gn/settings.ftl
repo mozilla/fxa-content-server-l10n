@@ -1132,7 +1132,7 @@ legal-terms-heading = Mba’epytyvõrã ñemboguata
 pair-auth-allow-heading-text = ¿Eikeramoite { -product-firefox } ndive?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
-pair-auth-allow-confirm-button = Hẽe, emboaje mba’e’oka
+pair-auth-allow-confirm-button = Héẽ, emboaje mba’e’oka
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = Nandéiramo, <link>emoambue ne ñe’ẽñemi</link>
