@@ -310,7 +310,6 @@ avatar-default-avatar =
 bento-menu-title = { -brand-firefox } 弁当メニュー
 bento-menu-title-2 = { -brand-mozilla } 弁当メニュー
 bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
-bento-menu-mozilla-title = { -brand-mozilla } は、オンラインプライバシーに立ち向かう技術です。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -969,6 +968,7 @@ auth-error-999 = 予期しないエラー
 auth-error-1003 = ローカルストレージまたは Cookie が無効になっています
 auth-error-1008 = 新しいパスワードは別のものにしてください
 auth-error-1011 = 有効なメールアドレスが必要です
+auth-error-1062 = リダイレクトが無効です
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
