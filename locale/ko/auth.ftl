@@ -11,6 +11,7 @@ fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="동기화 기기">
 body-devices-image = <img data-l10n-name="devices-image" alt="장치">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } 개인정보 보호정책
 fxa-service-url = { -product-firefox-cloud } 이용약관
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 로고">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 로고">
@@ -75,6 +76,7 @@ automated-email-change-plaintext-2 = 이 조치를 취하지 않았다면 즉시
 automated-email-support-plaintext = 자세한 내용은 { -brand-mozilla } 지원을 참조하세요:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla } 지원</a>을 참조하세요.
+automated-email-no-action-plaintext = 이것은 자동 이메일입니다. 실수로 받은 경우에는 아무 조치도 취할 필요가 없습니다.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 자동으로 발송된 이메일입니다. 이 작업을 승인하지 않았다면 비밀번호를 변경해 주세요:
 automated-email-reset =
@@ -103,10 +105,12 @@ payment-plan-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = 지불 방식:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $lastFour }로 끝나는 { $cardType } 카드
+credit-card-ending-in = { $lastFour }로 끝나는 { $cardName } 카드
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
@@ -165,25 +169,6 @@ device-all = { $uaOS } { $uaOSVersion }의 { $uaBrowser }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS }의 { $uaBrowser }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP 주소: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (추정)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (추정)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (추정)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (추정)
 view-invoice = <a data-l10n-name="invoiceLink">청구서를 확인</a>하세요.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -194,7 +179,6 @@ cadReminderFirst-action = 다른 기기 동기화
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 동기화를 위해 둘 이상의 기기가 필요합니다.
-cadReminderFirst-description-2 = 동기화에 1초면 충분합니다.
 cadReminderSecond-subject-2 = 잊지 마세요! 동기화 설정을 완료해야 합니다.
 cadReminderSecond-action = 다른 기기 동기화
 cadReminderSecond-title-2 = 동기화를 잊지 마세요!
@@ -228,15 +212,13 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName }에 대한 새 로그인
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = 귀하의 { -product-firefox-account }이(가) 로그인에 사용되었습니다.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password = 본인이 아니세요? <a data-l10n-name="passwordChangeLink">비밀번호를 바꾸세요</a>.
+newDeviceLogin-change-password = 본인이 아닌가요? <a data-l10n-name="passwordChangeLink">비밀번호를 바꾸세요</a>.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password-plain = 본인이 아니세요? 비밀번호를 바꾸세요:
+newDeviceLogin-change-password-plain = 본인이 아닌가요? 비밀번호를 바꾸세요:
 newDeviceLogin-action = 계정 관리
 passwordChanged-subject = 비밀번호 수정 완료
 passwordChanged-title = 비밀번호 변경 성공
@@ -246,31 +228,21 @@ passwordChangeRequired-title = 비밀번호 변경 필요
 passwordChangeRequired-suspicious-activity = { -product-firefox-account }에서 의심스러운 동작을 감지했습니다. 귀하의 { -product-firefox-account }에 대한 무단 접근을 방지하기 위해 귀하의 계정에 있는 모든 기기의 연결을 해제했으며 예방책으로 비밀번호를 변경해야 합니다.
 passwordChangeRequired-sign-in = { -product-firefox-account } 계정을 사용하는 기기나 서비스에 다시 로그인하고 제시된 단계를 따라주세요.
 passwordChangeRequired-different-password = <b>중요:</b> 이전에 사용하던 것과 다른 비밀번호를 선택하고 이메일 계정과 다른지 확인하세요.
-passwordChangeRequired-signoff = 최고,
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } 팀
 passwordChangeRequired-different-password-plaintext = 중요: 이전에 사용했던 것과 다른 비밀번호를 선택하세요. 이메일 계정과 다른 비밀번호인지 확인하세요.
 passwordReset-subject = 비밀번호 수정 완료
 passwordReset-title = 계정 비밀번호가 변경됨
 passwordReset-description = 동기화를 다시 시작하려면 다른 기기에서 새 비밀번호를 입력해야 합니다.
 passwordResetAccountRecovery-subject-2 = 비밀번호가 재설정되었습니다.
 passwordResetAccountRecovery-title-2 = 비밀번호 재설정 성공
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 계정 복구 키를 사용하여 비밀번호를 업데이트 했습니다:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 새 계정 복구 키 생성
 passwordResetAccountRecovery-regen-required-mjml-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
-postAddAccountRecovery-subject-2 = 계정 복구 키 생성됨
 postAddAccountRecovery-title2 = 새 계정 복구 키를 생성했습니다
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = 다음에서 새 키가 생성되었습니다:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = 본인이 아니세요?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">새 키 삭제</a> 와 <a data-l10n-name="passwordChangeLink">비밀번호 변경</a>
 postAddAccountRecovery-action = 계정 관리
-postAddAccountRecovery-delete-key = 새 키를 삭제합니다:
-postAddAccountRecovery-changd-password = 비밀번호 변경:
 postAddLinkedAccount-subject = { -brand-firefox }에 연결된 새 계정
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -294,9 +266,7 @@ postNewRecoveryCodes-subject-2 = 새 백업 인증 코드가 생성됨
 postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다
 postNewRecoveryCodes-action = 계정 관리
 postRemoveAccountRecovery-subject-2 = 계정 복구 키 삭제됨
-postRemoveAccountRecovery-title-2 = 계정 복구 키를 삭제했습니다.
 postRemoveAccountRecovery-action = 계정 관리
-postRemoveAccountRecovery-invalid-2 = 비밀번호를 잊어버린 경우 { -brand-firefox } 데이터를 복구하려면 계정 복구 키가 필요합니다.
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
 # Variables:
@@ -324,8 +294,7 @@ postVerifySecondary-content-2 = { -product-firefox-account }에서 { $secondaryE
 postVerifySecondary-action = 계정 관리
 recovery-subject = 비밀번호 재설정
 recovery-title-2 = 비밀번호를 잊으셨습니까?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = 다음으로부터 { -product-firefox-account } 비밀번호 변경 요청을 받았습니다:
 recovery-new-password-button = 아래의 버튼을 클릭하여, 새 비밀번호를 만드세요. 링크는 한 시간 후 만료됩니다.
 recovery-copy-paste = 아래 URL을 복사하고 브라우저에 붙여 넣어 새 비밀번호를 만드세요. 링크는 한 시간 후에 만료됩니다.
@@ -423,9 +392,16 @@ subscriptionRenewalReminder-content-closing = 진심으로,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 팀 드림
+subscriptionsPaymentExpired-title-1 = 신용카드가 만료되었거나 곧 만료될 예정입니다.
+subscriptionsPaymentProviderCancelled-title = 죄송합니다. 선택하신 결제 수단에 문제가 있습니다.
+subscriptionsPaymentProviderCancelled-content-detected = 다음 구독에 대한 결제 방법에 문제가 있음을 감지했습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } 결제 수신됨
+subscriptionSubsequentInvoice-title = 구독해 주셔서 감사합니다!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = { $productName }에 대한 최근 결제가 접수되었습니다.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
@@ -438,13 +414,6 @@ subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = { $productNameOld }에서 { $productName }로 성공적으로 업그레이드했습니다.
 # Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = 다음 청구서부터 청구 금액이 { $productPaymentCycleOld } 당 { $paymentAmountOld }에서 { $productPaymentCycleNew } 당 { $paymentAmountNew }로 변경됩니다. 또한 { $productPaymentCycleOld }의 나머지 부분에 대해 더 높은 요금을 반영하기 위해 { $paymentProrated }의 일회성 요금이 청구됩니다.
-# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = { $productName }를 사용하기 위해 설치할 새 소프트웨어가 있는 경우 다운로드 지침이 포함된 별도의 이메일을 받게 됩니다.
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
@@ -456,18 +425,25 @@ unblockCode-prompt = 그렇다면 인증 코드를 사용하세요:
 unblockCode-prompt-plaintext = 그렇다면 인증 코드를 사용하세요: { $unblockCode }
 unblockCode-report = 그렇지 않은 경우, 침입자를 차단할 수 있도록 <a data-l10n-name="reportSignInLink">신고</a>바랍니다.
 unblockCode-report-plaintext = 그렇지 않다면 침입자를 방어할 수 있도록 우리에게 알려 주세요.
+verificationReminderFinal-subject = 계정 확인을 위한 최종 알림
 confirm-account = 계정 확인
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = 계정 확인을 잊지 마세요
 verificationReminderFirst-title-2 = { -brand-firefox }에 오신 것을 환영합니다!
 confirm-email-2 = 계정 확인
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = 계정 확인
+verificationReminderSecond-title-2 = { -brand-firefox }를 놓치지 마세요!
 verificationReminderSecond-action-2 = 계정 확인
 verify-description = 계정을 확인하고, 모든 곳에서 { -brand-firefox }를 최대한 활용하세요.
 verify-subject = 계정 생성 완료
 verify-action-2 = 계정 확인
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = { $clientName }에 로그인하셨나요?
 verifyLogin-subject-2 = 로그인 확인
 verifyLogin-action = 로그인 확인
+verifyLoginCode-prompt-3 = 만약 그렇다면, 검증 코드는 다음과 같습니다.
 verifyLoginCode-expiry-notice = 5분 후에 만료됩니다.
 verifyPrimary-title-2 = 기본 이메일 확인
 verifyPrimary-description = 다음 기기에서 계정 변경을 수행하라는 요청이 있었습니다:
@@ -486,5 +462,6 @@ verifySecondaryCode-expiry-notice-2 = 5분 후에 만료됩니다. 확인되면 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 계정 확인
+verifyShortCode-title-2 = { -brand-firefox }로 인터넷을 여세요.
 verifyShortCode-prompt-3 = 인증 코드 사용:
 verifyShortCode-expiry-notice = 5분 후에 만료됩니다.

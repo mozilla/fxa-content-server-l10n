@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-11-17 19:40+0000\n"
-"Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
+"PO-Revision-Date: 2023-12-02 08:31+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr "다른 Firefox 기기에서 새 비밀번호를 입력해 설정을 완�
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "이제 Mozilla 계정을 변경할 준비가 되었습니다."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -464,7 +464,7 @@ msgstr "TOTP 토큰을 찾을 수 없습니다"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "백업 인증 코드를 찾을 수 없습니다"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
@@ -512,7 +512,7 @@ msgstr "업데이트가 거부되었습니다, 다시 시도하세요"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "유효하지 않거나 만료된 인증 코드"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
@@ -533,7 +533,7 @@ msgstr "더 이상 지원하지 않음"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "계정 설정을 완료하려면, <a href=\"/reset_password\">비밀번호를 초기화</a>하여 계속하세요."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -601,7 +601,7 @@ msgstr "올바른 이메일 주소를 입력해 주세요. firefox.com은 이메
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Mozilla 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다."
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -673,11 +673,11 @@ msgstr "잘못된 2단계 인증 코드"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "백업 인증 코드 필요"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "유효하지 않은 백업 인증 코드"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
@@ -717,7 +717,7 @@ msgstr "이메일을 잘못 입력했나요?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "신제품 테스트를 위한 조기 액세스"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -725,7 +725,7 @@ msgstr "Mozilla와 Firefox에 대한 소식을 받기"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "인터넷을 건강하게 유지할 수 있도록 도와주세요"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -733,7 +733,7 @@ msgstr "더 안전하고 스마트한 온라인"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "보안 및 개인 정보 보호 뉴스 및 업데이트"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -896,7 +896,7 @@ msgstr "%(serviceName)s(으)로 이동"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Mozilla 계정에 다시 접근하려면 안전한 장소에 저장한 일회용 계정 복구 키를 입력하세요."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -916,7 +916,7 @@ msgstr "계정 복구 키가 없습니까?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Firefox 계정에 다시 접근하려면 안전한 장소에 저장한 일회용 계정 복구 키를 입력하세요."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -950,7 +950,7 @@ msgstr "<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "계정 복구 키를 사용하여 계정을 성공적으로 복원했습니다. 데이터를 보호하기 위해 새 비밀번호를 만들고 안전한 장소에 보관하세요."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1028,7 +1028,7 @@ msgstr "새로운 비밀번호를 생성을 위해 %(email)s 이메일로 보낸
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Mozilla 계정</span>의 인증 코드를 입력하세요."
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
