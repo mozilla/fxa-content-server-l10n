@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2021-08-12 03:45+0000\n"
+"PO-Revision-Date: 2023-12-03 07:54+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla 계정"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
@@ -72,7 +72,7 @@ msgstr "읽는 중"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla 계정은 JavaScript를 필요로 합니다."
 
 #: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
@@ -80,7 +80,7 @@ msgstr "Firefox 계정은 자바스트립트를 필요로 합니다."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla 계정"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -93,6 +93,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Mozilla 계정이 현재 버전의 Firefox에서 \n"
+"                        지원하지 않는 기능을 사용하고 있습니다.\n"
+"                        최신 버전의 Firefox를 내려받고 설치하여\n"
+"                        계속하세요."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
@@ -109,3 +113,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Firefox 계정이 현재 버전의 Firefox에서\n"
+"지원하지 않는 기능을 사용하고 있습니다.\n"
+"최신 버전의 Firefox를 내려받고 설치하여\n"
+"계속하세요."

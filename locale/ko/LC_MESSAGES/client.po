@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-12-03 07:51+0000\n"
-"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
+"PO-Revision-Date: 2023-10-21 07:35+0000\n"
+"Last-Translator: paperbox <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1263,11 +1263,11 @@ msgstr "백업 인증 코드 확인"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "기기를 잃어버렸을 때 계정에 다시 접근할 수 있도록 저장한 백업 인증 코드 중 하나를 입력하세요."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "백업 인증 코드"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1373,7 +1373,7 @@ msgstr "계정생성완료!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "새 계정 복구 키 생성"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1451,15 +1451,15 @@ msgstr "더 이상 사용하고 있는 이메일이 아닌가요? 새 계정 만
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "백업 인증 코드 입력"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "2단계 인증 설정 과정에서 제공된 백업 인증 코드를 입력하세요."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "10자리 백업 인증 코드를 입력하세요"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1475,7 +1475,7 @@ msgstr "우리 팀에 통보되었습니다. 이와 같은 보고서는 우리�
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\">Mozilla 계정</span>의 인증 코드를 입력하세요"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1527,7 +1527,7 @@ msgstr "여기에 저장한 암호화된 데이터에 접근하기 위해서는 
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Mozilla에서 더 많은 것을 얻으세요:"
 
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
@@ -1539,11 +1539,11 @@ msgstr "계정 생성"
 
 #: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Mozilla m 로고"
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla 계정"
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
@@ -1627,7 +1627,7 @@ msgstr "2단계 중 1단계: 비밀번호 재입력"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "계정 복구 키를 확인하시려면 비밀번호를 입력하세요."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1671,11 +1671,11 @@ msgstr "탭이 도착하지 않았나요? 대신 이메일로 보내세요."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Firefox Sync를 계속 사용하시려면 비밀번호를 생성하세요. 개인정보 보호를 위해 데이터는 비밀번호로 암호화됩니다."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "비밀번호 생성"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1716,7 +1716,7 @@ msgstr "%(serviceName)s 이동"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "Mozilla 계정에서 의심스러운 행동이 감지되었습니다. 계정을 보호하려면 새 비밀번호를 만드십시오. 이 비밀번호를 사용하여 모든 Mozilla 계정 서비스에 다시 로그인합니다."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1765,7 +1765,7 @@ msgstr "클릭한 링크에 문자가 누락되었으며, 이메일 클라이언
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "새 Mozilla 계정 생성"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1869,11 +1869,11 @@ msgstr "계정을 생성해야 하는 이유가 궁금하신가요? <a %(escaped
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Firefox 계정의 명칭이 11월 1일부터 Mozilla 계정으로 변경됩니다"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "여전히 같은 사용자 이름과 비밀번호로 로그인할 수 있으며, 사용 중인 제품에 다른 영향은 없습니다."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
@@ -1885,11 +1885,11 @@ msgstr "Firefox 계정의 이름을 Mozilla 계정으로 변경했습니다. 동
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "배너 닫기"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "나이가 어떻게 되시나요? 나이를 묻는 이유를 알아보시려면, 아래의 “왜 이것을 확인하나요?” 링크를 확인하세요."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1897,7 +1897,7 @@ msgstr "몇살이세요?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "왜 이것을 확인하나요?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1989,7 +1989,7 @@ msgstr "네, 기기를 승인합니다"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "본인의 활동이 아니라면, <a id=\"change-password\" class=\"link-blue\">비밀번호를 변경하세요</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -2028,11 +2028,11 @@ msgstr "설정 과정이 종료되었습니다."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "다른 기기에서 Firefox 연결"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "휴대폰 혹은 태블릿에서 Firefox 동기화"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
@@ -2040,15 +2040,15 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "기기 동기화"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Or download"
-msgstr ""
+msgstr "또는 다운로드"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "스캔하여 모바일용 Firefox를 다운로드하거나, <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">다운로드 링크</a>를 직접 보내실 수 있습니다."
 
 #: .es5/templates/pair/index.mustache:8
 msgid "QR code"
@@ -2056,7 +2056,7 @@ msgstr "QR 코드"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Firefox를 사용하는 어디에서나 사용자의 탭, 북마크, 비밀번호 데이터를 이용하세요."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"

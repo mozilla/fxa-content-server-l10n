@@ -29,6 +29,11 @@ brand-learn-more = 더 알아보기
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = 다운로드 및 계속
+    .title = 다운로드 및 계속
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,6 +55,10 @@ choose-what-to-sync-option-tabs =
     .label = 열린 탭
 choose-what-to-sync-option-prefs =
     .label = 설정
+choose-what-to-sync-option-addresses =
+    .label = 주소
+choose-what-to-sync-option-creditcards =
+    .label = 신용카드
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -73,6 +82,13 @@ datablock-print =
 
 signup-new-password-label =
     .label = 비밀번호
+signup-confirm-password-label =
+    .label = 비밀번호 재입력
+signup-submit-button = 계정 생성
+form-reset-password-with-balloon-new-password =
+    .label = 새 비밀번호
+form-reset-password-with-balloon-confirm-password =
+    .label = 비밀번호 재입력
 form-reset-password-with-balloon-submit-button = 비밀번호 재설정
 form-reset-password-with-balloon-match-error = 비밀번호가 일치하지 않습니다
 
@@ -83,11 +99,17 @@ form-verify-code-default-error = 필수 항목입니다
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 계정 복구 키
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 백업 인증 코드
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+signin-recovery-code-image-description =
+    .aria-label = 숨겨진 텍스트가 포함된 문서입니다.
+signin-totp-code-image-label =
+    .aria-label = 6자리 코드가 숨겨져 있는 기기입니다.
 
 ## Input Password
 
@@ -95,6 +117,8 @@ input-password-hide = 비밀번호 숨기기
 input-password-show = 비밀번호 표시
 input-password-hide-aria = 화면에서 비밀번호 숨기기
 input-password-show-aria = 비밀번호를 일반 텍스트로 표시합니다. 비밀번호가 화면에 표시됩니다.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = 뒤로
 
 ## LinkDamaged component
 
@@ -107,22 +131,50 @@ input-password-show-aria = 비밀번호를 일반 텍스트로 표시합니다. 
 
 ## LinkExpiredSignin component
 
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = 인증 링크가 만료됨
+signin-link-expired-message = 클릭하신 이메일 인증 링크가 만료되었습니다.
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = 비밀번호를 기억하시나요? 로그인하세요
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = 기본 이메일이 이미 승인됨
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = 이 로그인은 이미 승인됨
+confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 승인 링크는 단 한 번만 사용할 수 있습니다.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = 여기에 저장한 암호화된 데이터에 접근하려면 이 비밀번호가 필요합니다.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-min-length = 최소 8자 이상이어야 합니다
+password-strength-balloon-not-email = 사용자의 이메일 주소가 아니어야 합니다
+password-strength-balloon-not-common = 흔히 사용되는 비밀번호가 아니어야 합니다
+password-strength-balloon-stay-safe-tips = 안전을 위해 — 비밀번호를 재사용하지 마세요. <linkExternal>강력한 비밀번호를 생성</linkExternal>하는 방법에 대해 알아보세요.
 
 ## Ready component
 
+reset-password-complete-header = 비밀번호가 재설정되었습니다
+ready-complete-set-up-instruction = 다른 { -brand-firefox } 기기에 새 비밀번호를 입력하여 설정을 완료하세요.
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = { $serviceName } 사용할 준비가 완료되었습니다.
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = 계정생성완료!
+ready-continue = 계속
+sign-in-complete-header = 로그인 확인됨
+sign-up-complete-header = 계정 확인됨
+primary-email-verified-header = 기본 이메일 확인됨
 
 ## Alert Bar
 
@@ -142,6 +194,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento 메뉴
 bento-menu-firefox-title = { -brand-firefox }는 온라인 개인정보 보호를 위해 싸우는 기술입니다.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = 데스크톱 용 { -brand-firefox } 브라우저
 bento-menu-firefox-mobile = 모바일 용 { -brand-firefox } 브라우저
 bento-menu-made-by-mozilla = { -brand-mozilla } 제작
@@ -185,6 +241,7 @@ cs-disconnect-sync-heading = Sync 연결 끊기
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-reason-3 = <span>{ $device }</span>의 연결을 해제하는 이유는 무엇인가요?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -244,19 +301,58 @@ flow-container-back = 이전
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = 보안을 위해 비밀번호를 다시 입력하세요.
+flow-recovery-key-confirm-pwd-input-label = 암호 입력
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = 계정 복구 키 생성
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = 새로운 계정 복구 키 생성
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = 키를 저장할 장소:
+flow-recovery-key-download-storage-ideas-folder-v2 = 보안 기기의 폴더
+flow-recovery-key-download-storage-ideas-cloud = 신뢰할 수 있는 클라우드 스토리지
+flow-recovery-key-download-storage-ideas-print-v2 = 복사 된 물리적 사본
+flow-recovery-key-download-storage-ideas-pwd-manager = 비밀번호 관리자
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = 키를 찾는 데 도움이 되는 힌트를 추가하세요
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = 이 힌트는 계정 복구 키를 어디에 저장했는지 기억하는 데 도움을 줍니다. 데이터를 복구하기 위해 비밀번호를 재설정하는 동안 이것을 볼 수 있습니다.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = 힌트 입력 (선택사항)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = 완료
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = 계정 복구 키 생성됨
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = 힌트는 255자 미만이어야 합니다.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = 힌트에는 안전하지 않은 유니코드 문자가 포함될 수 없습니다. 문자, 숫자, 구두점 및 기호만 허용됩니다.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = 비밀번호를 잊어버린 경우를 대비해 계정 복구 키 만들기
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = 계정 복구 키 변경
 
 ## HeaderLockup component, the header in account settings
 
@@ -501,6 +597,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = { $numberOfSteps } 단계 중 { $currentStep } 단계입니다.
 
 ## Security section of Setting
 
@@ -638,15 +739,19 @@ auth-error-139 = 보조 이메일은 계정 이메일과 달라야 합니다.
 auth-error-155 = TOTP 토큰 찾을 수 없음
 auth-error-183-2 = 유효하지 않거나 만료된 인증 코드
 auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니다.
+auth-error-1011 = 올바른 이메일이 필요합니다
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = 계정을 생성할 수 없습니다
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 더 알아보기
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = { -brand-firefox }에 로그인했습니다.
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
