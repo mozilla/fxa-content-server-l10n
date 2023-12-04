@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-04 20:07+0000\n"
 "PO-Revision-Date: 2023-10-28 07:39+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,10 +76,6 @@ msgstr "Načítání"
 msgid "Mozilla accounts require JavaScript."
 msgstr "Účty Mozilly vyžadují povolený JavaScript."
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Účty Firefoxu vyžadují povolený JavaScript."
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "Účet Mozilla"
@@ -102,18 +98,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Stáhnout aktualizaci"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Účet Firefoxu"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
-"Účet Firefoxu využívá nové funkce, které \n"
-"nejsou podporovány ve vaší verzi Firefoxu. Pro pokračování\n"
-"si prosím stáhněte a nainstalujte nejnovější verzi Firefoxu."

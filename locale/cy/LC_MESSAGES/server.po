@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-04 20:07+0000\n"
 "PO-Revision-Date: 2023-10-30 11:16+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,10 +76,6 @@ msgstr "Llwytho"
 msgid "Mozilla accounts require JavaScript."
 msgstr "Mae cyfrifon Mozilla angen JavaScript."
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Mae Cyfrifon Firefox angen JavaScript."
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "Cyfrif Mozilla"
@@ -103,19 +99,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Llwytho'r diweddariad diweddaraf i lawr"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Cyfrifon Firefox"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
-"Mae Cyfrifon Firefox yn gwneud defnydd o nodweddion\n"
-"sydd heb eu cefnogi yn eich fersiwn chi o Firefox.\n"
-"Mae angen i chi lwytho i lawr a gosod y fersiwn\n"
-"diweddaraf o Firefox i barhau."

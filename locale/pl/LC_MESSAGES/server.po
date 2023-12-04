@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-04 20:07+0000\n"
 "PO-Revision-Date: 2023-11-12 13:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -75,10 +75,6 @@ msgstr "Wczytywanie"
 msgid "Mozilla accounts require JavaScript."
 msgstr "Konta Mozilli wymagają obsługi JavaScript."
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Konta Firefoksa wymagają obsługi JavaScript."
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "Konto Mozilli"
@@ -102,19 +98,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Pobierz najnowszą wersję"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Konta Firefoksa"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
-"Konta Firefoksa korzystają z funkcji, które nie są\n"
-"obsługiwane przez używaną wersję Firefoksa.\n"
-"Prosimy pobrać i zainstalować najnowszą wersję,\n"
-"aby kontynuować."

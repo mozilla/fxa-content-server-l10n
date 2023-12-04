@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-04 20:07+0000\n"
 "PO-Revision-Date: 2023-11-08 05:30+0000\n"
 "Last-Translator: Kazushi <arcsaber@protonmail.com>\n"
 "Language-Team: Japanese\n"
@@ -72,10 +72,6 @@ msgstr "読み込み中"
 msgid "Mozilla accounts require JavaScript."
 msgstr "Mozilla アカウントの動作には JavaScript が必要です。"
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox アカウントは JavaScript を必要とします。"
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "Mozilla アカウント"
@@ -97,15 +93,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "最新バージョンをダウンロードする"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Firefox アカウント"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr "Firefox アカウントがご使用の Firefox のバージョンでサポートされていない機能を使用しようとしています。続けるには、最新バージョンの Firefox をダウンロードし、インストールしてください。"

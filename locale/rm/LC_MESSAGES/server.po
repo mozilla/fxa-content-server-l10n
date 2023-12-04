@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-04 20:07+0000\n"
 "PO-Revision-Date: 2023-10-19 07:41+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,10 +74,6 @@ msgstr "Chargiar"
 msgid "Mozilla accounts require JavaScript."
 msgstr "Ils contos Mozilla pretendan JavaScript."
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Ils contos da Firefox basegnan JavaScript."
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "conto Mozilla"
@@ -101,19 +97,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Telechargiar la pli nova"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Contos da Firefox"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
-"Ils contos da Firefox fan diever da bleras funcziuns betg\n"
-"sustegnidas da tia versiun da Firefox. Telechargia ed\n"
-"installescha per plaschair la versiun la pli nova da Firefox per\n"
-"cuntinuar."

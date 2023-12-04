@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-04 20:07+0000\n"
 "PO-Revision-Date: 2023-11-10 23:50+0000\n"
 "Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,10 +71,6 @@ msgstr "A carregar"
 msgid "Mozilla accounts require JavaScript."
 msgstr "As contas Mozilla requerem JavaScript."
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "As contas do Firefox necessitam de JavaScript."
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "Conta Mozilla"
@@ -98,19 +94,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Transferir a mais recente"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Contas Firefox"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
-"As Contas Firefox utilizam funcionalidades que não são\n"
-"não suportadas na sua versão do Firefox. Por favor,\n"
-"transfira e instale a versão mais recente do Firefox\n"
-"para continuar."

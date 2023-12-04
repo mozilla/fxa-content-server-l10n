@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-04 20:07+0000\n"
 "PO-Revision-Date: 2023-10-28 11:25+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,10 +75,6 @@ msgstr "Daûr a cjariâ"
 msgid "Mozilla accounts require JavaScript."
 msgstr "I accounts Mozilla a àn bisugne di JavaScript."
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Accounts di Firefox al à bisugne di JavaScript."
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "account Mozilla"
@@ -102,19 +98,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Discjame la ultime version"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Accounts di Firefox"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
-"I Accounts di Firefox a doprin funzionalitâts che\n"
-"no son supuartadis de tô version di Firefox. Par plasê\n"
-"discjame e instale la ultime version di Firefox par\n"
-"continuâ."
