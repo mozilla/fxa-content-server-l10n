@@ -3,35 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Firefox-kontoer
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Startside for kontoen
@@ -93,7 +64,6 @@ payment-confirmation-download-button = Fortsett til nedlasting
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>Vilkår for bruk</termsOfServiceLink> og <privacyNoticeLink>Personvernbestemmelser</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
 
 ## Component - PaymentErrorView
 
@@ -113,7 +83,6 @@ payment-cc =
 payment-cancel-btn = Avbryt
 payment-update-btn = Oppdater
 payment-pay-btn = Betal nå
-payment-pay-with-paypal-btn = Betal med { -brand-name-paypal }
 payment-validate-name-error = Skriv inn navnet ditt
 
 ## Component - PaymentLegalBlurb
@@ -156,6 +125,9 @@ sub-guarantee = 30-dagers pengene-tilbake-garanti
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Tjenestevilkår
 privacy = Personvernerklæring
 terms-download = Vilkår for nedlasting
@@ -225,22 +197,24 @@ pay-with-heading-card-only = Betal med kort
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play-butikk
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = Se gjennom endringen
 sub-change-failed = Endring av plan mislyktes
-sub-update-copy =
-    Planen din vil endres umiddelbart, og du vil bli belastet en justert
-    beløp for resten av faktureringssyklusen. Fra og med { $startingDate }
-    belastes du hele beløpet.
 sub-change-submit = Bekreft endring
 sub-update-current-plan-label = Gjeldende plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny sum
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -269,7 +243,6 @@ sub-route-idx-cancel-msg =
     { $name }-abonnementet ditt er avsluttet.
           <br />
           Du vil fortsatt ha tilgang til { $name } til den { $date }.
-sub-route-idx-cancel-aside = Har du spørsmål? Besøk <a>{ -brand-name-mozilla } brukerstøtte</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -338,6 +311,4 @@ reactivate-success-button = Lukk
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Kjøp i app
-sub-iap-item-apple-purchase = { -brand-name-apple }: Kjøp i app
 sub-iap-item-manage-button = Behandle

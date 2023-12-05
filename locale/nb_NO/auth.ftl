@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logger du inn på { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Logger du inn på { -product-mozilla-account }-en din?
 session-verify-send-push-body-2 = Klikk her for å bekrefte at det er deg
 
 ## Email content
@@ -8,12 +9,18 @@ session-verify-send-push-body-2 = Klikk her for å bekrefte at det er deg
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser enheter">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheter">
 fxa-privacy-url = { -brand-mozilla } personvernbestemmelser
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Personvernerklæring
 fxa-service-url = Tjenestevilkår for { -product-firefox-cloud }
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Tjenestevilkår
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Dette er en automatisert e-postmelding; hvis du har mottatt denne e-posten ved en feil,  trenger du ikke å gjøre noe.
 subplat-privacy-notice = Personvernbestemmelser
 subplat-privacy-plaintext = Personvernbestemmelser:
@@ -24,13 +31,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Du mottar denne e-postmeldingen fordi { $email } har en { -product-firefox-account } og du registrerte deg for { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Du mottar denne e-postmeldingen fordi { $email } har en { -product-mozilla-account } og du registrerte deg for { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Du mottar denne e-postmeldingen fordi { $email } har en { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Du mottar denne e-postmeldingen fordi { $email } har en { -product-mozilla-account }.
 subplat-explainer-multiple = Du mottar denne e-postmeldingen fordi { $email } har en { -product-firefox-account } og du har abonnert på flere produkter.
+subplat-explainer-multiple-2 = Du mottar denne e-postmeldingen fordi { $email } har en { -product-mozilla-account } og du har abonnert på flere produkter.
 subplat-explainer-was-deleted = Du mottar denne e-postmeldingen fordi { $email } ble registrert for en { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Du mottar denne e-postmeldingen fordi { $email } ble registrert for en { -product-mozilla-account }.
 subplat-manage-account = Behandle innstillingene for { -product-firefox-account } ved å gå til <a data-l10n-name="subplat-account-page">kontosiden</a>.
+subplat-manage-account-2 = Behandle innstillingene for { -product-mozilla-account } ved å gå til <a data-l10n-name="subplat-account-page">kontosiden</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Behandle innstillingene for { -product-firefox-account } ved å gå til kontosiden din: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Behandle innstillingene for { -product-mozilla-account } ved å gå til kontosiden din: { $accountSettingsUrl }
 subplat-terms-policy = Vilkår og avbestillingsregler
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt abonnement
@@ -39,9 +59,13 @@ subplat-reactivate = Reaktiver abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-privacy-policy = { -brand-mozilla } personvernbestemmelser
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Personvernerklæring
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-cloud-terms = Tjenestevilkår for { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Tjenestevilkår
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Personvern
@@ -78,12 +102,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } For mer info
 automated-email-no-action-plaintext = Dette er en automatisert e-post. Hvis du mottok den ved en feil, trenger du ikke gjøre noe.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dette er en automatisert e-post; hvis du ikke autoriserte denne handlingen, endre passordet ditt:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Denne forespørselen kom fra { $uaBrowser } på { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Denne forespørselen kom fra { $uaBrowser } på { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Denne forespørselen kom fra { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Denne forespørselen kom fra { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Denne forespørselen kom fra { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Hvis dette ikke var deg, <a data-l10n-name="revokeAccountRecoveryLink">slett den nye nøkkelen</a> og <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>.
+automatedEmailRecoveryKey-change-pwd-only = Hvis dette ikke var deg, <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>.
+automatedEmailRecoveryKey-more-info = For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Denne forespørselen kom fra:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Hvis dette ikke var deg, slett den nye nøkkelen:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Hvis dette ikke var deg, endre passordet ditt:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = og endre passordet ditt:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = For mer informasjon, besøk { -brand-mozilla } Support:
 automated-email-reset =
     Dette er en automatisert e-post; hvis du ikke autoriserte denne handlingen, <a data-l10n-name="resetLink">tilbakestill passordet ditt</a>.
     For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Om du ikke endret det, tilbakestill passordet ditt nå på { $resetLink }
+brand-banner-message = Visste du at vi endret navnet vårt fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les mer</a>
 cancellationSurvey = Hjelp oss med å forbedre tjenestene våre ved å være med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkelsen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbedre tjenestene våre ved å ta denne korte undersøkelsen:
@@ -104,10 +167,15 @@ payment-plan-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Betalingsmetode:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $cardType }-kort som slutter på { $lastFour }
+credit-card-ending-in = { $cardName }-kort som slutter på { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Ukjent kort som slutter på { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Fakturanummer: <b>{ $invoiceNumber }</b>
@@ -166,25 +234,6 @@ device-all = { $uaBrowser } på { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } på { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-addresse: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (estimert)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (estimert)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (estimert)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (estimert)
 view-invoice = <a data-l10n-name="invoiceLink">Se fakturaen din</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -196,7 +245,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det skal to til for å synkronisere
 cadReminderFirst-description-1 = Se dine faner på alle dine enheter. Få bokmerker, passord og de andre dataene dine overalt hvor du bruker { -brand-firefox }. Det er som å ha magi i din { -brand-firefox }-konto!
-cadReminderFirst-description-2 = Det tar bare et sekund å synkronisere.
+cadReminderFirst-description-v2 = Se fanene dine på alle enhetene dine. Få tilgang til bokmerkene, passordene og andre data overalt hvor du bruker { -brand-firefox }.
 cadReminderSecond-subject-2 = Ikke gå glipp av det! La oss fullføre synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser en annen enhet
 cadReminderSecond-title-2 = Ikke glem å synkronisere!
@@ -211,6 +260,7 @@ downloadSubscription-title = Velkommen til { $productName }
 downloadSubscription-content-2 = La oss komme i gang med å bruke alle funksjonene som er inkludert i abonnementet ditt:
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = Din { -product-firefox-account } ble slettet
+fraudulentAccountDeletion-subject-2 = Din { -product-mozilla-account } ble slettet
 fraudulentAccountDeletion-title = Kontoen din ble slettet
 fraudulentAccountDeletion-content = Nylig ble en { -product-firefox-account } opprettet og et abonnement ble belastet med denne e-postadressen. Som vi gjør med alle nye kontoer, ba vi deg bekrefte kontoen din ved først å validere denne e-postadressen.
 fraudulentAccountDeletion-content-2 = Foreløpig ser vi at kontoen aldri ble bekreftet. Siden dette trinnet ikke ble fullført, er vi ikke sikre på om dette var et autorisert abonnement. Som et resultat ble { -product-firefox-account } registrert på denne e-postadressen slettet og abonnementet ditt ble avsluttet med alle kostnader refundert.
@@ -237,8 +287,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny innlogging på { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Din { -product-firefox-account } ble brukt til å logge på
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -255,31 +303,21 @@ passwordChangeRequired-title = Passordendring kreves
 passwordChangeRequired-suspicious-activity = Vi oppdaget mistenkelig oppførsel på din { -product-firefox-account }. For å forhindre uautorisert tilgang til din { -product-firefox-account }, har vi koblet fra alle enhetene på kontoen og krever at du endrer passordet ditt som en forholdsregel.
 passwordChangeRequired-sign-in = Logg deg tilbake på hvilken som helst enhet eller tjeneste der du bruker { -product-firefox-account }en din, og følg trinnene som vil bli presentert for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
-passwordChangeRequired-signoff = Med vennlig hilsen
-passwordChangeRequired-signoff-name = { -product-firefox-accounts }-teamet
 passwordChangeRequired-different-password-plaintext = Viktig: Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt ble endret
 passwordReset-description = Du må skrive inn det nye passordet ditt på andre enheter for å fortsette synkroniseringen.
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Du brukte din kontogjenopprettingsnøkkel til å oppdatere passordet ditt fra:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Opprett en ny kontogjenopprettingsnøkkel
 passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
-postAddAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel opprettet
 postAddAccountRecovery-title2 = Du opprettet en ny kontogjenopprettingsnøkkel
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = En ny nøkkel ble opprettet fra:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Ikke deg?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Slett den nye nøkkelen</a> og <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>
 postAddAccountRecovery-action = Behandle konto
-postAddAccountRecovery-delete-key = Slett den nye nøkkelen:
-postAddAccountRecovery-changd-password = Endre passordet ditt:
 postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -312,11 +350,7 @@ postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
 postNewRecoveryCodes-description-2 = De ble opprettet på:
 postNewRecoveryCodes-action = Behandle konto
 postRemoveAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel slettet
-postRemoveAccountRecovery-title-2 = Du slettet din kontogjenopprettingsnøkkel.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Den ble slettet fra:
 postRemoveAccountRecovery-action = Behandle konto
-postRemoveAccountRecovery-invalid-2 = Du trenger en kontogjenopprettingsnøkkel for å gjenopprette { -brand-firefox }-dataene dine hvis du glemmer passordet ditt.
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
 # Variables:
@@ -344,8 +378,7 @@ postVerifySecondary-content-2 = Du har bekreftet { $secondaryEmail } som en seku
 postVerifySecondary-action = Behandle konto
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Glemt passord ditt?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = Vi mottok en forespørsel om passordendring på din { -product-firefox-account } fra:
 recovery-new-password-button = Opprett et nytt passord ved å klikke på knappen nedenfor. Denne lenken vil utløpe innen den neste timen.
 recovery-copy-paste = Opprett et nytt passord ved å kopiere og lime inn nettadressen nedenfor i nettleseren din. Denne lenken vil utløpe innen den neste timen.
