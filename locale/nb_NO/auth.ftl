@@ -263,7 +263,9 @@ fraudulentAccountDeletion-subject = Din { -product-firefox-account } ble slettet
 fraudulentAccountDeletion-subject-2 = Din { -product-mozilla-account } ble slettet
 fraudulentAccountDeletion-title = Kontoen din ble slettet
 fraudulentAccountDeletion-content = Nylig ble en { -product-firefox-account } opprettet og et abonnement ble belastet med denne e-postadressen. Som vi gjør med alle nye kontoer, ba vi deg bekrefte kontoen din ved først å validere denne e-postadressen.
+fraudulentAccountDeletion-content-part1-v2 = Nylig ble en { -product-mozilla-account } opprettet og et abonnement ble belastet med denne e-postadressen. Som vi gjør med alle nye kontoer, ba vi deg bekrefte kontoen din ved først å validere denne e-postadressen.
 fraudulentAccountDeletion-content-2 = Foreløpig ser vi at kontoen aldri ble bekreftet. Siden dette trinnet ikke ble fullført, er vi ikke sikre på om dette var et autorisert abonnement. Som et resultat ble { -product-firefox-account } registrert på denne e-postadressen slettet og abonnementet ditt ble avsluttet med alle kostnader refundert.
+fraudulentAccountDeletion-content-part2-v2 = Foreløpig ser vi at kontoen aldri ble bekreftet. Siden dette trinnet ikke ble fullført, er vi ikke sikre på om dette var et autorisert abonnement. Som et resultat ble { -product-mozilla-account } registrert på denne e-postadressen slettet og abonnementet ditt ble avsluttet med alle kostnader refundert.
 fraudulentAccountDeletion-contact = Hvis du har spørsmål, så kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -288,6 +290,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny innlogging på { $clientName }
 newDeviceLogin-title-2 = Din { -product-firefox-account } ble brukt til å logge på
+newDeviceLogin-title-3 = Din { -product-mozilla-account } ble brukt til å logge på
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Ikke deg? <a data-l10n-name="passwordChangeLink">Endre passordet ditt</a>.
@@ -298,10 +301,13 @@ newDeviceLogin-action = Behandle konto
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endret
 passwordChanged-description = Passordet for din { -product-firefox-account } ble endret fra følgende enhet:
+passwordChanged-description-2 = Passordet til din { -product-mozilla-account } ble endret fra følgende enhet:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaget
 passwordChangeRequired-title = Passordendring kreves
 passwordChangeRequired-suspicious-activity = Vi oppdaget mistenkelig oppførsel på din { -product-firefox-account }. For å forhindre uautorisert tilgang til din { -product-firefox-account }, har vi koblet fra alle enhetene på kontoen og krever at du endrer passordet ditt som en forholdsregel.
+passwordChangeRequired-suspicious-activity-2 = Vi oppdaget mistenkelig oppførsel på din { -product-mozilla-account }. For å forhindre uautorisert tilgang til din { -product-mozilla-account }, har vi koblet fra alle enhetene på kontoen og krever at du endrer passordet ditt som en forholdsregel.
 passwordChangeRequired-sign-in = Logg deg tilbake på hvilken som helst enhet eller tjeneste der du bruker { -product-firefox-account }en din, og følg trinnene som vil bli presentert for deg.
+passwordChangeRequired-sign-in-2 = Logg deg tilbake på hvilken som helst enhet eller tjeneste der du bruker { -product-mozilla-account }-en din, og følg trinnene som vil bli presentert for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
 passwordChangeRequired-different-password-plaintext = Viktig: Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
 passwordReset-subject = Passord oppdatert
@@ -313,12 +319,20 @@ passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
 passwordResetAccountRecovery-description-2 = Du brukte din kontogjenopprettingsnøkkel til å oppdatere passordet ditt fra:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Opprett en ny kontogjenopprettingsnøkkel
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Opprett kontogjenopprettingsnøkkel
 passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
+postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel opprettet
 postAddAccountRecovery-title2 = Du opprettet en ny kontogjenopprettingsnøkkel
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Lagre denne nøkkelen på et trygt sted — du trenger den for å gjenopprette de krypterte nettleserdataene dine hvis du glemmer passordet ditt.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Denne nøkkelen kan bare brukes én gang. Etter at du har brukt den, oppretter vi automatisk en ny for deg. Eller du kan opprette en ny når som helst fra kontoinnstillingene dine.
 postAddAccountRecovery-action = Behandle konto
 postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
+postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Din { $providerName }-konto er koblet til { -product-firefox-account } din
