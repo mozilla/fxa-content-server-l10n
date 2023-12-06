@@ -537,6 +537,9 @@ unblockCode-prompt = Hvis ja, her er godkjenningskoden du trenger:
 unblockCode-report-plaintext = Hvis nei, hjelp oss med å avverge inntrengere og rapporter dette til oss.
 verificationReminderFinal-description-2 = For et par uker siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. For din sikkerhet vil vi slette kontoen hvis den ikke bekreftes i løpet av de neste 24 timene.
 verificationReminderFirst-description-3 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 15 dagene, ellers blir den automatisk slettet.
+verificationReminderSecond-title-2 = Ikke gå glipp av { -brand-firefox }!
+verificationReminderSecond-title-3 = Ikke gå glipp av { -brand-mozilla }!
+verificationReminderSecond-description-3 = For noen dager siden opprettet du en { -product-firefox-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 10 dagene, ellers blir den automatisk slettet.
 verificationReminderSecond-description-4 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 10 dagene, ellers blir den automatisk slettet.
 verificationReminderSecond-second-description-3 = Din { -product-mozilla-account } lar deg synkronisere { -brand-firefox }-opplevelsen din på tvers av enheter og låser opp tilgang til mer personvernbeskyttende produkter fra { -brand-mozilla }.
 verify-description = Bekreftede kontoen din og få mest mulig ut av { -brand-firefox } overalt hvor du logger inn, startende med:
@@ -545,7 +548,11 @@ verifyLogin-action = Bekreft innlogging
 verifyLoginCode-expiry-notice = Den løper ut om 5 minutter.
 verifyPrimary-description = En forespørsel om å utføre en kontoendring er gjort fra følgende enhet:
 verifyPrimary-subject = Bekreft primær e-postadresse
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Når bekreftet, vil endringer i kontoen som å legge til en sekundær e-post, bli mulig fra denne enheten.
 verifySecondaryCode-subject = Bekreft sekundær e-postadresse
+verifySecondaryCode-title-2 = Bekreft sekundær e-postadresse
+verifySecondaryCode-action-2 = Bekreft e-postadressen
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -product-mozilla-account }:
