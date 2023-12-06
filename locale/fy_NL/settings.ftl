@@ -29,7 +29,7 @@ brand-prelaunch-title = { -product-firefox-accounts } wurdt op 1 novimber omneam
 brand-prelaunch-subtitle = Jo melde noch hieltyd oan mei deselde brûkersnamme en itselde wachtwurd, en der binne gjin oare wizigingen yn de produkten dy’t jo brûke.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Wy hawwen { -product-firefox-accounts } omneamd nei { -product-mozilla-accounts }. Jo melde noch hieltyd oan mei deselde brûkersnamme en itselde wachtwurd, en der binne gjin oare wizigingen yn de produkten dy’t jo brûke.
+brand-postlaunch-title = Wy hawwe { -product-firefox-accounts } omneamd nei { -product-mozilla-accounts }. Jo melde noch hieltyd oan mei deselde brûkersnamme en itselde wachtwurd, en der binne gjin oare wizigingen yn de produkten dy’t jo brûke.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Mear ynfo
 # Alt text for close banner image
