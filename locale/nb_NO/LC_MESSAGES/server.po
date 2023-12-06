@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 20:09+0000\n"
-"PO-Revision-Date: 2023-12-06 15:45+0000\n"
+"PO-Revision-Date: 2023-12-06 16:06+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -65,6 +65,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Vi er for tiden under stor belastning og arbeider for at systemet\n"
+"            så snart som mulig skal fungere normalt igjen."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -72,7 +74,7 @@ msgstr "Laster"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla-kontoer krever JavaScript."
 
 #: server/templates/pages/src/index.html:5
 msgid "Firefox Accounts requires JavaScript."
@@ -80,7 +82,7 @@ msgstr "Firefox-kontoer krever JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-konto"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -93,6 +95,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Din Mozilla-konto bruker funksjoner som ikke er\n"
+"                        støttet i din versjon av Firefox. Last ned\n"
+"                        og installer den siste versjonen av Firefox for å\n"
+"                        fortsette."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
