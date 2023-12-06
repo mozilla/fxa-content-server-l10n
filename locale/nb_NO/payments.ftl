@@ -79,6 +79,11 @@ payment-error-manage-subscription-button = Behandle mitt abonnement
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Du har allerede et { $productName }-abonnement via { -brand-google }s eller { -brand-apple }s appbutikker.
+iap-upgrade-no-bundle-support = Vi støtter ikke oppgraderinger for disse abonnementene, men vi vil snart.
+iap-upgrade-contact-support = Du kan fortsatt få dette produktet — kontakt brukerstøtten, så kan vi hjelpe deg.
+iap-upgrade-get-help-button = Få hjelp
 
 ## Component - PaymentForm
 
@@ -90,14 +95,24 @@ payment-cc =
 payment-cancel-btn = Avbryt
 payment-update-btn = Oppdater
 payment-pay-btn = Betal nå
+payment-pay-with-paypal-btn-2 = Betal med { -brand-paypal }
 payment-validate-name-error = Skriv inn navnet ditt
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } bruker { -brand-name-stripe } og { -brand-paypal } for sikker behandling av betaling.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } personvernbestemmelser</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } personvernbestemmelser</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } bruker { -brand-paypal } for sikker behandling av betaling.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } personvernbestemmelser</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } bruker { -brand-name-stripe } for sikker behandling av betaling.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernbestemmelser</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Velg betalingsmetode
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Først må du godkjenne abonnementet ditt
 
 ## Component - PaymentProcessing
 
@@ -105,9 +120,11 @@ payment-processing-message = Vent mens vi behandler betalingen din…
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Betal med { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -116,6 +133,7 @@ plan-details-list-price = Listepris
 plan-details-show-button = Vis detaljer
 plan-details-hide-button = Skjul detaljer
 plan-details-total-label = Totalt
+plan-details-tax = Skatter og avgifter
 
 ## Component - PlanErrorDialog
 
@@ -125,6 +143,8 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } skatt
 
 ## Component - SubscriptionTitle
 
