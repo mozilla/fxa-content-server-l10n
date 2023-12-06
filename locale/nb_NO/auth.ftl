@@ -433,7 +433,7 @@ subscriptionAccountDeletion-content-cancelled = Du har nylig slettet { -product-
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = Du har nylig slettet { -product-mozilla-account }en din. Som et resultat har vi avsluttet ditt abonnement på { $productName }. Den endelige betalingen på { $invoiceTotal } ble betalt den { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled-2 = Du har nylig slettet { -product-mozilla-account }-en din. Som et resultat har vi avsluttet ditt abonnement på { $productName }. Den endelige betalingen på { $invoiceTotal } ble betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et passord.
@@ -442,16 +442,20 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et
 subscriptionAccountFinishSetup-title = Velkommen til { $productName }
 subscriptionAccountFinishSetup-content-processing = Betalingen din behandles og kan ta opptil fire virkedager å fullføre. Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 subscriptionAccountFinishSetup-content-create-2 = Deretter oppretter du et { -product-firefox-account }-passord for å begynne å bruke ditt nye abonnement.
+subscriptionAccountFinishSetup-content-create-3 = Deretter oppretter du et { -product-mozilla-account }-passord for å begynne å bruke ditt nye abonnement.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikke tilgang til abonnementet ditt ennå
 subscriptionAccountReminderFirst-content-info-2 = For noen dager siden opprettet du en { -product-firefox-account }, men bekreftet den aldri. Vi håper du fullfører konfigureringen av kontoen din, slik at du kan bruke ditt nye abonnement.
+subscriptionAccountReminderFirst-content-info-3 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Vi håper du fullfører konfigureringen av kontoen din, slik at du kan bruke ditt nye abonnement.
 subscriptionAccountReminderFirst-content-select-2 = Velg «Opprett passord» for å sette opp et nytt passord og fullfør bekreftelsen av kontoen din.
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminnelse: Konfigurer kontoen din
 subscriptionAccountReminderSecond-title = Velkommen til { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Velkommen til { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = For noen dager siden opprettet du en { -product-firefox-account }, men bekreftet den aldri. Vi håper du fullfører konfigureringen av kontoen din, slik at du kan bruke ditt nye abonnement.
+subscriptionAccountReminderSecond-content-info-3 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Vi håper du fullfører konfigureringen av kontoen din, slik at du kan bruke ditt nye abonnement.
 subscriptionAccountReminderSecond-content-select-2 = Velg «Opprett passord» for å sette opp et nytt passord og fullfør bekreftelsen av kontoen din.
 subscriptionAccountReminderSecond-action = Opprett passord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -531,6 +535,10 @@ unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som logger inn?
 unblockCode-prompt = Hvis ja, her er godkjenningskoden du trenger:
 unblockCode-report-plaintext = Hvis nei, hjelp oss med å avverge inntrengere og rapporter dette til oss.
+verificationReminderFinal-description-2 = For et par uker siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. For din sikkerhet vil vi slette kontoen hvis den ikke bekreftes i løpet av de neste 24 timene.
+verificationReminderFirst-description-3 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 15 dagene, ellers blir den automatisk slettet.
+verificationReminderSecond-description-4 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 10 dagene, ellers blir den automatisk slettet.
+verificationReminderSecond-second-description-3 = Din { -product-mozilla-account } lar deg synkronisere { -brand-firefox }-opplevelsen din på tvers av enheter og låser opp tilgang til mer personvernbeskyttende produkter fra { -brand-mozilla }.
 verify-description = Bekreftede kontoen din og få mest mulig ut av { -brand-firefox } overalt hvor du logger inn, startende med:
 verify-subject = Fullfør oppretting av kontoen din
 verifyLogin-action = Bekreft innlogging
@@ -538,4 +546,7 @@ verifyLoginCode-expiry-notice = Den løper ut om 5 minutter.
 verifyPrimary-description = En forespørsel om å utføre en kontoendring er gjort fra følgende enhet:
 verifyPrimary-subject = Bekreft primær e-postadresse
 verifySecondaryCode-subject = Bekreft sekundær e-postadresse
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -product-mozilla-account }:
 verifyShortCode-expiry-notice = Den løper ut om 5 minutter.

@@ -160,7 +160,9 @@ cs-disconnect-sync-opt-not-say = Vil helst ikke fortelle
 
 cs-disconnect-advice-confirm = Ok, jeg forstår
 cs-disconnect-lost-advice-heading = Tapt eller stjålet enhet frakoblet
+cs-disconnect-lost-advice-content-3 = Siden enheten din ble tapt eller stjålet, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingene dine for å holde informasjonen din trygg. Du bør også se etter informasjon fra enhetsprodusenten om fjernsletting av dine data.
 cs-disconnect-suspicious-advice-heading = Mistenkelig enhet frakoblet
+cs-disconnect-suspicious-advice-content-2 = Hvis den frakoblede enheten virkelig er mistenkelig, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingene dine for å holde informasjonen din trygg. Du bør også endre eventuelle andre passord du har lagret i { -brand-firefox } ved å skrive about:logins i adresselinjen.
 cs-sign-out-button = Logg ut
 
 ##
@@ -172,10 +174,13 @@ dc-heading = Datainnsamling og -bruk
 dc-subheader = Hjelp til med å forbedre { -product-firefox-accounts }
 dc-subheader-2 = Hjelp til med å forbedre { -product-mozilla-accounts }
 dc-subheader-content-2 = Tillate { -product-mozilla-accounts } å sende tekniske- og interaksjonsdata til { -brand-mozilla }?
+dc-opt-out-success-2 = Fravalget vellykket. { -product-mozilla-accounts } sender ikke tekniske data eller interaksjonsdata til { -brand-mozilla }.
+dc-opt-in-success-2 = Takk! Deling av disse data hjelper oss med å forbedre { -product-mozilla-accounts }.
 dc-learn-more = Les mer
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = { -product-mozilla-account }-meny
 drop-down-menu-sign-out = Logg ut
 
 ## Flow Container
@@ -206,6 +211,7 @@ header-menu-open = Lukk meny
 header-menu-closed = Meny for nettstednavigering
 header-back-to-top-link =
     .title = Tilbake til toppen
+header-title-2 = { -product-mozilla-account }
 header-help = Hjelp
 
 ## Linked Accounts section
@@ -292,6 +298,8 @@ delete-account-header =
     .title = Slett konto
 delete-account-step-1-2 = Trinn 1 av 2
 delete-account-step-2-2 = Trinn 2 av 2
+delete-account-confirm-title-4 = Du kan ha koblet { -product-mozilla-account } til ett eller flere av følgende { -brand-mozilla }-produkter eller -tjenester som holder deg sikker og produktiv på nettet:
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-continue-button = Fortsett
 delete-account-password-input =
     .label = Skriv inn passord
@@ -366,6 +374,8 @@ add-secondary-email-step-1 = Trinn 1 av 2
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tjenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæring</mozillaAccountsPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -377,6 +387,7 @@ add-secondary-email-step-1 = Trinn 1 av 2
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-requirements-2 = Du må oppfylle visse alderskrav for å opprette en { -product-mozilla-account }.
 
 ## Connect Another Device page
 
@@ -384,6 +395,7 @@ add-secondary-email-step-1 = Trinn 1 av 2
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt-2 = Slå på infokapsler og lokal lagring i nettleseren din for å få tilgang til din { -product-mozilla-account }. Dette vil aktivere funksjonalitet som for eksempel å huske deg mellom økter.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -448,6 +460,7 @@ add-secondary-email-step-1 = Trinn 1 av 2
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-instructions-2 = Skriv inn engangs-kontogjenopprettingsnøkkelen du lagret på et trygt sted, for å få tilgang til din { -product-mozilla-account } igjen.
 
 ## Account recovery reset password page
 
@@ -470,6 +483,8 @@ add-secondary-email-step-1 = Trinn 1 av 2
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Skriv inn passordet ditt <span>for { -product-mozilla-account } din</span>
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -484,6 +499,10 @@ add-secondary-email-step-1 = Trinn 1 av 2
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Skriv inn bekreftelseskoden<span> for { -product-mozilla-account }en din</span>
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -501,6 +520,10 @@ add-secondary-email-step-1 = Trinn 1 av 2
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Skriv inn bekreftelseskoden <span>for { -product-mozilla-account }en din</span>
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

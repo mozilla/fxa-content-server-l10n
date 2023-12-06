@@ -6,6 +6,7 @@
 ## Component - AppLayout
 
 settings-home = Startside for kontoen
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -25,6 +26,7 @@ input-error-is-required = { $label } er påkrevd
 
 ## Component - NewUserEmailForm
 
+new-user-sign-in-link-2 = Har du allerede en { -product-mozilla-account }? <a>Logg inn</a>
 
 ## Component - PaymentConfirmation
 
@@ -181,6 +183,7 @@ product-plan-not-found = Fant ikke planen
 
 ## Routes - Checkout - New user
 
+new-user-step-1-2 = 1. Opprett en { -product-mozilla-account }
 
 ## Routes - Product and Subscriptions
 
