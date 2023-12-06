@@ -336,6 +336,9 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Din { $providerName }-konto er koblet til { -product-firefox-account } din
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Din { $providerName }-konto er koblet til { -product-mozilla-account } din
 postAddLinkedAccount-action = Behandle konto
 postAddTwoStepAuthentication-subject-2 = Totrinns-verifisering er slått på
 postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
@@ -343,11 +346,19 @@ postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
 postAddTwoStepAuthentication-from-device = Du har slått det på fra:
 postAddTwoStepAuthentication-action = Behandle konto
 postAddTwoStepAuthentication-code-required-2 = Sikkerhetskoder fra autentiseringsappen din kreves nå hver gang du logger inn.
+postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endret
+postChangeAccountRecovery-title = Du endret kontogjenopprettingsnøkkelen
+postChangeAccountRecovery-body-part1 = Du har nå en ny kontogjenopprettingsnøkkel. Den forrige nøkkelen din ble slettet.
+postChangeAccountRecovery-body-part2 = Lagre denne nye nøkkelen på et trygt sted — du trenger den for å gjenopprette de krypterte nettleserdataene dine hvis du glemmer passordet ditt.
+postChangeAccountRecovery-action = Behandle konto
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-post
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på din { -product-firefox-account }, samt for å ta imot sikkerhetsvarsler og bekreftelser på innlogginger.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på din { -product-mozilla-account }, samt for å ta imot sikkerhetsvarsler og bekreftelser på innlogginger.
 postChangePrimary-action = Behandle konto
 postConsumeRecoveryCode-title-2 = Du brukte en reserve-autentiseringskode
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -364,12 +375,18 @@ postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
 postNewRecoveryCodes-description-2 = De ble opprettet på:
 postNewRecoveryCodes-action = Behandle konto
 postRemoveAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel slettet
+postRemoveAccountRecovery-title-3 = Du slettet din kontogjenopprettingsnøkkel
+postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din kreves for å gjenopprette de krypterte nettleserdataene dine hvis du glemmer passordet ditt.
+postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, kan du opprette en ny kontogjenopprettingsnøkkel i kontoinnstillingene dine for å forhindre at du mister lagrede passord, bokmerker, nettleserhistorikk og mer.
 postRemoveAccountRecovery-action = Behandle konto
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har slettet { $secondaryEmail } som en sekundær e-postadresse fra din { -product-firefox-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil ikke lenger bli leverte til denne adressen.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Du har slettet { $secondaryEmail } som en sekundær e-postadresse fra din { -product-mozilla-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil ikke lenger bli leverte til denne adressen.
 postRemoveSecondary-action = Behandle konto
 postRemoveTwoStepAuthentication-subject-line-2 = Totrinns-verifisering er slått av
 postRemoveTwoStepAuthentication-title-2 = Du har slått av totrinns-verifisering
@@ -382,6 +399,7 @@ postVerify-title-2 = Vil du se den samme fanen på to enheter?
 postVerify-description-2 = Det er lett! Installer bare { -brand-firefox } på en annen enhet og logg på for å synkronisere. Det er som magi!
 postVerify-sub-description = (Psst… Det betyr også at du kan få bokmerker, passord og andre { -brand-firefox }-data overalt hvor du er logget inn.)
 postVerify-subject-3 = Velkommen til { -brand-firefox }!
+postVerify-subject-4 = Velkommen til { -brand-mozilla }!
 postVerify-setup-2 = Koble til en annen enhet:
 postVerify-action-2 = Koble til en annen enhet
 postVerifySecondary-subject = Sekundær e-postadresse lagt til
@@ -389,11 +407,16 @@ postVerifySecondary-title = Sekundær e-postadresse lagt til
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Du har bekreftet { $secondaryEmail } som en sekundær e-postadresse for din { -product-firefox-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil nå bli leverte til begge e-postadressene.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Du har bekreftet { $secondaryEmail } som en sekundær e-postadresse for din { -product-mozilla-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil nå bli leverte til begge e-postadressene.
 postVerifySecondary-action = Behandle konto
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Glemt passord ditt?
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin = Vi mottok en forespørsel om passordendring på din { -product-firefox-account } fra:
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Vi mottok en forespørsel om passordendring på din { -product-mozilla-account } fra:
 recovery-new-password-button = Opprett et nytt passord ved å klikke på knappen nedenfor. Denne lenken vil utløpe innen den neste timen.
 recovery-copy-paste = Opprett et nytt passord ved å kopiere og lime inn nettadressen nedenfor i nettleseren din. Denne lenken vil utløpe innen den neste timen.
 recovery-action = Lag nytt passord
@@ -406,6 +429,11 @@ subscriptionAccountDeletion-title = Det er synd at du sier opp abonnementet ditt
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Du har nylig slettet { -product-firefox-account }en din. Som et resultat har vi avsluttet ditt abonnement på { $productName }. Den endelige betalingen på { $invoiceTotal } ble betalt den { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Du har nylig slettet { -product-mozilla-account }en din. Som et resultat har vi avsluttet ditt abonnement på { $productName }. Den endelige betalingen på { $invoiceTotal } ble betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et passord.
