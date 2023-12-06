@@ -33,6 +33,9 @@ new-user-sign-in-link-2 = Har du allerede en { -product-mozilla-account }? <a>Lo
 payment-confirmation-thanks-heading = Takk skal du ha!
 payment-confirmation-order-heading = Ordredetaljer
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
+payment-confirmation-details-heading-2 = Betalingsinformasjon
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
@@ -66,6 +69,8 @@ payment-confirmation-download-button = Fortsett til nedlasting
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = Jeg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>Tjenestevilkår</termsOfServiceLink> og <privacyNoticeLink>Personvernerklæring</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
+payment-confirm-checkbox-error = Du må fullføre dette før du går videre
 
 ## Component - PaymentErrorView
 
