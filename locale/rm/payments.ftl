@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Contos da Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Pagina principala dal conto
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -135,8 +104,7 @@ payment-confirmation-download-button = Vinavant a la telechargiada
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament l'import mussà, confurm a las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
-payment-confirm-with-legal-links-static-2 = Jau permet a { -brand-name-mozilla } da debitar cun mia metoda da pajament l'import mussà, confurm a las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+payment-confirm-with-legal-links-static-3 = Jau permet a { -brand-mozilla } da debitar cun mia metoda da pajament l'import mussà, confurm a las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
 payment-confirm-checkbox-error = Ti stos acceptar quai per pudair cuntinuar
 
 ## Component - PaymentErrorView
@@ -147,7 +115,7 @@ payment-error-manage-subscription-button = Administrar mes abunament
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Ti has gia in abunament da { $productName } via l'app store da { -brand-name-google } u { -brand-name-apple }.
+iap-upgrade-already-subscribed-2 = Ti has gia in abunament da { $productName } via l'app store da { -brand-google } u { -brand-apple }
 iap-upgrade-no-bundle-support = Nus n'offrin anc nagins upgrades per quests abunaments, ma vegnin prest a far quai.
 iap-upgrade-contact-support = Ti pos tuttina survegnir quest product – contactescha per plaschair il support per che nus pudain ta gidar.
 iap-upgrade-get-help-button = Ir per agid
@@ -162,16 +130,16 @@ payment-cc =
 payment-cancel-btn = Interrumper
 payment-update-btn = Actualisar
 payment-pay-btn = Pajar ussa
-payment-pay-with-paypal-btn = Pajar cun { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Pajar cun { -brand-paypal }
 payment-validate-name-error = Endatescha per plaschair tes num
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } e { -brand-name-paypal } per l'elavuraziun segira dal pajament.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>directivas da la protecziun da datas da { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } utilisescha { -brand-name-paypal } per l'elavuraziun segira dal pajament.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Directivas da la protecziun da datas da { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } per l'elavuraziun segira da pajaments.
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } utilisescha { -brand-name-stripe } e { -brand-paypal } per l'elavuraziun segira da pajaments.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>directivas da la protecziun da datas da { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } utilisescha { -brand-paypal } per l'elavuraziun segira da pajaments.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Directivas per la protecziun da datas da { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } utilisescha { -brand-name-stripe } per l'elavuraziun segira da pajaments.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -191,7 +159,7 @@ payment-confirmation-cc-card-ending-in = Carta che chala cun { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Pajar cun { -brand-name-paypal }
+pay-with-heading-paypal-2 = Pajar cun { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -444,9 +412,8 @@ subscription-iaperrorupgrade-title = Anc n'è l'upgrade betg pussaivel
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -502,7 +469,7 @@ sub-route-idx-cancel-msg =
     Tes abunament da { $name } è vegnì annullà.
           <br />
           Ti has anc access a { $name } enfin ils { $date }.
-sub-route-idx-cancel-aside = Has ti dumondas? Visita <a>l'agid da { -brand-name-mozilla }</a>.
+sub-route-idx-cancel-aside-2 = Has ti dumondas? Visita <a>l'agid da { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -537,7 +504,7 @@ sub-expires-on = Scada ils { $date }
 pay-update-card-exp = Scadenza: { $expirationDate }
 sub-route-idx-updating = Actualisar las infurmaziuns per la facturaziun…
 sub-route-payment-modal-heading = Infurmaziuns da facturaziun nunvalidas
-sub-route-payment-modal-message = I para da dar ina errur cun tes conto da { -brand-name-paypal }. Ti stos instradar ils pass necessaris per schliar quest problem cun il pajament.
+sub-route-payment-modal-message-2 = I para ch'i dettia ina errur cun tes conto da { -brand-paypal }. Ti stos instradar ils pass necessaris per schliar quest problem cun il pajament.
 sub-route-missing-billing-agreement-payment-alert = Infurmaziun da pajament nunvalida. Igl è succedida ina errur cun tes conto. <div>Administrar</div>
 sub-route-funding-source-payment-alert = Infurmaziuns da pajament nunvalidas. Igl è succedida ina errur cun tes conto. I po cuzzar in mument enfin che quest avis svanescha suenter l'actualisaziun da tias infurmaziuns. <div>Administrar</div>
 
@@ -551,7 +518,7 @@ sub-invoice-preview-error-text = Betg chattà la prevista dal quint per quest ab
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Tschertgas ti tes abunament premium da { -brand-name-pocket }?
+manage-pocket-title-2 = Tschertgas ti tes abunament premium da { -product-pocket }?
 manage-pocket-body-2 = Per l'administrar, <linkExternal>cliccar qua</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -582,6 +549,6 @@ reactivate-success-button = Serrar
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Cumpra in-app
-sub-iap-item-apple-purchase = { -brand-name-apple }: Cumpra in-app
+sub-iap-item-google-purchase-2 = { -brand-google }: Cumpra in-app
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Cumpra in-app
 sub-iap-item-manage-button = Administrar
