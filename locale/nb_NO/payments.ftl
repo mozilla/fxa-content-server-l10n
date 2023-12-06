@@ -145,6 +145,17 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } skatt
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } daglig
+       *[other] { $priceAmount } hver { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } daglig
+           *[other] { $priceAmount } hver { $intervalCount } dag
+        }
 
 ## Component - SubscriptionTitle
 
