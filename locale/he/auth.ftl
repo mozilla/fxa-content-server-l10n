@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = מנסה להתחבר ל־{ -product-firefox-accounts }?
 session-verify-send-push-title-2 = מנסה להתחבר ל{ -product-mozilla-account(case: "the") } שלך?
 session-verify-send-push-body-2 = נא ללחוץ כאן כדי לאמת את זהותך
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = נא ללחוץ כאן כדי לאמת את ז
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="הסמל של { -brand-firefox }">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="הסמל של { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="סנכרון מכשירים">
 body-devices-image = <img data-l10n-name="devices-image" alt="מכשירים">
 fxa-privacy-url = מדיניות הפרטיות של { -brand-mozilla }
 moz-accounts-privacy-url-2 = הצהרת הפרטיות של { -product-mozilla-accounts }
-fxa-service-url = תנאי השירות של { -product-firefox-cloud }
 moz-accounts-terms-url = תנאי השימוש של { -product-mozilla-accounts }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="הסמל של { -brand-firefox }">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="הסמל של { -brand-mozilla }">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="הסמל של { -brand-mozilla }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="הסמל של { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="הסמל של { -brand-mozilla }">
 subplat-automated-email = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
 subplat-privacy-notice = הצהרת פרטיות
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") } ונרשמת אל { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-mozilla-account(case: "a") } ונרשמת אל { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = קיבלת את הודעת הדוא״ל הזו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = קיבלת את הודעת הדוא״ל הזו מכיוון שלכתובת { $email } יש { -product-mozilla-account(case: "a") }.
-subplat-explainer-multiple = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") } ונרשמת כמינוי למספר מוצרים.
 subplat-explainer-multiple-2 = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-mozilla-account(case: "a") } ונרשמת כמינוי למספר מוצרים.
-subplat-explainer-was-deleted = קיבלת את הודעת הדוא״ל הזו מכיוון שהכתובת { $email } נרשמה עבור { -product-firefox-account(case: "a") }.
 subplat-explainer-was-deleted-2 = קיבלת את הודעת הדוא״ל הזו מכיוון שהכתובת { $email } נרשמה עבור { -product-mozilla-account(case: "a") }.
-subplat-manage-account = ניתן לנהל את הגדרות { -product-firefox-account(case: "the") } על־ידי ביקור ב<a data-l10n-name="subplat-account-page">דף החשבון</a> שלך.
 subplat-manage-account-2 = ניתן לנהל את הגדרות { -product-mozilla-account(case: "the") } על־ידי ביקור ב<a data-l10n-name="subplat-account-page">דף החשבון</a> שלך.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = ניתן לנהל את הגדרות { -product-firefox-account(case: "the") } שלך על־ידי כניסה לדף החשבון שלך: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = ניתן לנהל את הגדרות { -product-mozilla-account(case: "the") } שלך על־ידי כניסה לדף החשבון שלך: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = מדיניות הפרטיות של { -brand-mozilla }
 subplat-privacy-policy-2 = הצהרת הפרטיות של { -product-mozilla-accounts }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = תנאי השירות של { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = תנאי השימוש של { -product-mozilla-accounts }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = מידע משפטי
@@ -227,25 +206,6 @@ device-all = ‏{ $uaBrowser } ב־{ $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = ‏{ $uaBrowser } ב־{ $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = כתובת IP:‏ { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (משוער)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = ‏{ $city }, { $country } (משוער)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = ‏{ $stateCode }, { $country } (משוער)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (משוער)
 view-invoice = <a data-l10n-name="invoiceLink">הצגת החשבונית שלך</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -267,12 +227,9 @@ downloadSubscription-subject = ברוכים הבאים אל { $productName }
 downloadSubscription-title = ברוכים הבאים אל { $productName }
 downloadSubscription-content-2 = אפשר להתחיל עם כל היכולות שכלולות במינוי שלך:
 downloadSubscription-link-action-2 = תחילת עבודה
-fraudulentAccountDeletion-subject = { -product-firefox-account(case: "the") } שלך נמחק
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account(case: "the") } שלך נמחק
 fraudulentAccountDeletion-title = החשבון שלך נמחק
-fraudulentAccountDeletion-content = לאחרונה נוצר { -product-firefox-account(case: "a") }, ומינוי חוייב באמצעות כתובת דוא״ל זו. כפי שאנו עושים בעת פתיחת חשבונות חדשים, ביקשנו שתאשר את החשבון שלך תחילה על־ידי אימות כתובת דוא״ל זו.
 fraudulentAccountDeletion-content-part1-v2 = לאחרונה נוצר { -product-mozilla-account(case: "a") }, ומינוי חוייב באמצעות כתובת דוא״ל זו. כפי שאנו עושים בעת פתיחת חשבונות חדשים, ביקשנו שתאשר את החשבון שלך תחילה על־ידי אימות כתובת דוא״ל זו.
-fraudulentAccountDeletion-content-2 = נכון להיום, אנחנו רואים שהחשבון מעולם לא אומת. מכיוון ששלב זה לא הושלם, איננו בטוחים אם המינוי היה מורשה. כתוצאה מכך, { -product-firefox-account(case: "the") } המשוייך לכתובת דוא״ל זו נמחק, המינוי שלך בוטל וכל החיובים הוחזרו.
 fraudulentAccountDeletion-content-part2-v2 = נכון להיום, אנחנו רואים שהחשבון מעולם לא אומת. מכיוון ששלב זה לא הושלם, איננו בטוחים אם המינוי היה מורשה. כתוצאה מכך, { -product-mozilla-account(case: "the") } המשוייך לכתובת דוא״ל זו נמחק, המינוי שלך בוטל וכל החיובים הוחזרו.
 fraudulentAccountDeletion-contact = אם יש לך שאלות כלשהן, נא ליצור קשר עם <a data-l10n-name="mozillaSupportUrl">צוות התמיכה</a> שלנו.
 # Variables:
@@ -285,7 +242,7 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = כניסה חדשה ל־{ $clientName }
-newDeviceLogin-title-2 = נעשה שימוש ב{ -product-firefox-account(case: "the") } שלך להתחברות
+newDeviceLogin-subjectForMozillaAccount = התחברות חדשה ל{ -product-mozilla-account(case: "the") } שלך
 newDeviceLogin-title-3 = נעשה שימוש ב{ -product-mozilla-account(case: "the") } שלך להתחברות
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -296,13 +253,10 @@ newDeviceLogin-change-password-plain = פעולה זו לא בוצעה על יד
 newDeviceLogin-action = ניהול חשבון
 passwordChanged-subject = הססמה עודכנה
 passwordChanged-title = הססמה שונתה בהצלחה
-passwordChanged-description = ססמת { -product-firefox-account(case: "the") } שלך שונתה בהצלחה מהמכשיר הבא:
 passwordChanged-description-2 = ססמת { -product-mozilla-account(case: "the") } שלך שונתה בהצלחה מהמכשיר הבא:
 passwordChangeRequired-subject = זוהתה פעילות חשודה
 passwordChangeRequired-title = נדרש שינוי לססמה
-passwordChangeRequired-suspicious-activity = איתרנו התנהגות חשודה ב{ -product-firefox-account(case: "the") } שלך. כדי למנוע גישה בלתי מורשית ל{ -product-firefox-account(case: "the") } שלך, ניתקנו את כל המכשירים בחשבון שלך ואנו דורשים ממך לשנות את הססמה שלך כאמצעי זהירות.
 passwordChangeRequired-suspicious-activity-2 = איתרנו התנהגות חשודה ב{ -product-mozilla-account(case: "the") } שלך. כדי למנוע גישה בלתי מורשית ל{ -product-mozilla-account(case: "the") } שלך, ניתקנו את כל המכשירים בחשבון שלך ואנו דורשים ממך לשנות את הססמה שלך כאמצעי זהירות.
-passwordChangeRequired-sign-in = יש להתחבר שוב לכל מכשיר או שירות שבו { -product-firefox-account(case: "the") } שלך משמש אותך ולעקוב אחר ההוראות שיוצגו בפניך.
 passwordChangeRequired-sign-in-2 = יש להתחבר שוב לכל מכשיר או שירות שבו { -product-mozilla-account(case: "the") } שלך משמש אותך ולעקוב אחר ההוראות שיוצגו בפניך.
 passwordChangeRequired-different-password = <b>חשוב:</b> יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
 passwordChangeRequired-different-password-plaintext = חשוב: יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
@@ -311,10 +265,8 @@ passwordReset-title = ססמת החשבון שלך הוחלפה
 passwordReset-description = יהיה עליך להקליד את הססמה החדשה שלך בשאר המכשירים כדי להמשיך בסנכרון.
 passwordResetAccountRecovery-subject-2 = הססמה שלך אופסה
 passwordResetAccountRecovery-title-2 = ססמה אופסה בהצלחה
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = השתמש במפתח שחזור החשבון שלך כדי לעדכן את הססמה שלך מ:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = יצירת מפתח שחזור חשבון חדש
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = יצירת מפתח שחזור חשבון
 passwordResetAccountRecovery-regen-required-mjml-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת.
@@ -327,11 +279,7 @@ postAddAccountRecovery-body-part1 = יש לשמור את מפתח זה במקו�
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = ניתן להשתמש במפתח זה רק פעם אחת. לאחר השימוש בו, ניצור מפתח חדש עבורך. באפשרותך גם ליצור מפתח חדש בכל עת מהגדרות החשבון שלך.
 postAddAccountRecovery-action = ניהול חשבון
-postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefox }
 postAddLinkedAccount-subject-2 = חשבון חדש מקושר ל{ -product-mozilla-account(case: "the") } שלך
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = חשבון ה־{ $providerName } קושר אל { -product-firefox-account(case: "the") } שלך
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = חשבון ה־{ $providerName } קושר אל { -product-mozilla-account(case: "the") } שלך
@@ -351,9 +299,6 @@ postChangePrimary-subject = כתובת הדוא״ל הראשית עודכנה
 postChangePrimary-title = כתובת דוא״ל ראשית חדשה
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = שינית את כתובת הדוא״ל הראשית שלך ל־{ $email }. כתובת זו היא מעכשיו שם המשתמש שלך לכניסה ל{ -product-firefox-account(case: "the") } שלך, ותשמש לקבלת התרעות אבטחה ואישורי כניסה.
-# Variables:
-#  $email (String) - A user's email address
 postChangePrimary-description-2 = שינית את כתובת הדוא״ל הראשית שלך ל־{ $email }. כתובת זו היא מעכשיו שם המשתמש שלך לכניסה ל{ -product-mozilla-account(case: "the") } שלך, ותשמש לקבלת התרעות אבטחה ואישורי כניסה.
 postChangePrimary-action = ניהול חשבון
 postConsumeRecoveryCode-action = ניהול חשבון
@@ -365,9 +310,6 @@ postRemoveAccountRecovery-body-part2 = אם עדיין לא עשית זאת, מ�
 postRemoveAccountRecovery-action = ניהול חשבון
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
-# Variables:
-#  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = הסרת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה לא יישלחו יותר לכתובת זו.
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = הסרת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-mozilla-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה לא יישלחו יותר לכתובת זו.
@@ -382,7 +324,6 @@ postVerify-sub-title-3 = אנחנו שמחים לראות אותך!
 postVerify-title-2 = רוצה לראות את אותה הלשונית בשני מכשירים שונים?
 postVerify-description-2 = זה קל! צריך פשוט להתקין את { -brand-firefox } במכשיר נוסף ולהתחבר כדי לסנכרן. זה עובד כמו קסם!
 postVerify-sub-description = (פססט… זה גם אומר שבאפשרותך לקבל את הסימניות, הססמאות ונתוני { -brand-firefox } אחרים שלך בכל מקום שבו החשבון שלך מחובר.)
-postVerify-subject-3 = ברוכים הבאים אל { -brand-firefox }!
 postVerify-subject-4 = ברוכים הבאים אל { -brand-mozilla }!
 postVerify-setup-2 = חיבור מכשיר נוסף:
 postVerify-action-2 = חיבור מכשיר נוסף
@@ -390,18 +331,11 @@ postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-mozilla-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס ססמה
 recovery-title-2 = שכחת את הססמה שלך?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = קיבלנו בקשה לשינוי ססמה ב{ -product-firefox-account(case: "the") } שלך מ:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = קיבלנו בקשה לשינוי ססמה ב{ -product-mozilla-account(case: "the") } שלך מ:
 recovery-new-password-button = ניתן ליצור ססמה חדשה על־ידי לחיצה על הכפתור שלהלן. קישור זה יפוג בשעה הקרובה.
 recovery-copy-paste = ניתן ליצור ססמה חדשה על־ידי העתקה והדבקת הקישור שלהלן בדפדפן שלך. קישור זה יפוג בשעה הקרובה.
@@ -410,11 +344,6 @@ recovery-action = יצירת ססמה חדשה
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = המינוי שלך ל־{ $productName } בוטל
 subscriptionAccountDeletion-title = עצוב לנו שבחרת לעזוב
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = לאחרונה מחקת את { -product-firefox-account(case: "the") } שלך. כתוצאה מכך, ביטלנו את מינוי ה־{ $productName } שלך. התשלום הסופי שלך בסך { $invoiceTotal } שולם בתאריך { $invoiceDateOnly }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
@@ -429,15 +358,12 @@ subscriptionAccountFinishSetup-title = ברוכים הבאים אל { $productNa
 subscriptionAccountFinishSetup-action-2 = תחילת עבודה
 subscriptionAccountReminderFirst-subject = תזכורת: סיום הגדרת החשבון שלך
 subscriptionAccountReminderFirst-title = אין לך עדיין אפשרות לגשת למינוי שלך
-subscriptionAccountReminderFirst-content-info-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
 subscriptionAccountReminderFirst-content-info-3 = לפני מספר ימים יצרת { -product-mozilla-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
 subscriptionAccountReminderFirst-content-select-2 = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
 subscriptionAccountReminderFirst-action = יצירת ססמה
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = תזכורת אחרונה: הגדרת החשבון שלך
-subscriptionAccountReminderSecond-title = ברוכים הבאים אל { -brand-firefox }!
 subscriptionAccountReminderSecond-title-2 = ברוכים הבאים אל { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
 subscriptionAccountReminderSecond-content-info-3 = לפני מספר ימים יצרת { -product-mozilla-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
 subscriptionAccountReminderSecond-content-select-2 = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
 subscriptionAccountReminderSecond-action = יצירת ססמה
@@ -572,31 +498,23 @@ unblockCode-prompt-plaintext = אם כן, להלן קוד ההרשאה בו יש
 unblockCode-report = אם לא, עזרו לנו להדוף פורצים <a data-l10n-name="reportSignInLink">ודווחו לנו על זה</a>.
 unblockCode-report-plaintext = אם לא, עזרו לנו להדוף פורצים ודווחו לנו על זה.
 verificationReminderFinal-subject = תזכורת אחרונה לאימות החשבון שלך
-verificationReminderFinal-description = לפני מספר שבועות יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. למען האבטחה שלך, אנחנו נמחק את החשבון אם הוא לא יאומת ב־24 השעות הקרובות.
 verificationReminderFinal-description-2 = לפני מספר שבועות יצרת { -product-mozilla-account(case: "a") }, אך מעולם לא אימתת אותו. למען האבטחה שלך, אנחנו נמחק את החשבון אם הוא לא יאומת ב־24 השעות הקרובות.
 confirm-account = אימות החשבון
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = תזכורת לאימות החשבון שלך
-verificationReminderFirst-title-2 = ברוכים הבאים אל { -brand-firefox }!
 verificationReminderFirst-title-3 = ברוכים הבאים אל { -brand-mozilla }!
-verificationReminderFirst-description-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־15 הימים הקרובים או שהוא יימחק באופן אוטומטי.
 verificationReminderFirst-description-3 = לפני מספר ימים יצרת { -product-mozilla-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־15 הימים הקרובים או שהוא יימחק באופן אוטומטי.
 verificationReminderFirst-sub-description-3 = לא כדאי לפספס את הדפדפן ששם אותך ואת הפרטיות שלך במקום הראשון.
 confirm-email-2 = אימות החשבון
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = אימות החשבון
 verificationReminderSecond-subject-2 = תזכורת לאימות החשבון שלך
-verificationReminderSecond-title-2 = לא כדאי לפספס את { -brand-firefox }!
 verificationReminderSecond-title-3 = לא כדאי לפספס את { -brand-mozilla }!
-verificationReminderSecond-description-3 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־10 הימים הקרובים או שהוא יימחק באופן אוטומטי.
 verificationReminderSecond-description-4 = לפני מספר ימים יצרת { -product-mozilla-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־10 הימים הקרובים או שהוא יימחק באופן אוטומטי.
-verificationReminderSecond-second-description = { -product-firefox-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך ב־{ -brand-firefox } על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = אנחנו מזמינים אותך להיות חלק מהמשימה שלנו להפוך את האינטרנט למקום שפתוח לכולם.
 verificationReminderSecond-action-2 = אימות החשבון
-verify-title-2 = לפתוח את האינטרנט עם { -brand-firefox }
 verify-title-3 = לפתוח את האינטרנט עם { -brand-mozilla }
-verify-description = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר לרבות:
 verify-description-2 = אימות החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-mozilla } עם כל מכשיר מחובר לרבות:
 verify-subject = סיום יצירת החשבון שלך
 verify-action-2 = אימות החשבון
@@ -627,19 +545,13 @@ verifySecondaryCode-title-2 = אימות כתובת דוא״ל משנית
 verifySecondaryCode-action-2 = אימות דוא״ל
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-mozilla-account(case: "the") } הבא:
 verifySecondaryCode-prompt-2 = נא להשתמש בקוד האימות הזה:
 verifySecondaryCode-expiry-notice-2 = הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = אימות החשבון שלך
-verifyShortCode-title-2 = לפתוח את האינטרנט עם { -brand-firefox }
 verifyShortCode-title-3 = לפתוח את האינטרנט עם { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = אימות החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר לרבות:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = אימות החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-mozilla } עם כל מכשיר מחובר לרבות:
 verifyShortCode-prompt-3 = נא להשתמש בקוד האימות הזה:
