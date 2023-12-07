@@ -288,6 +288,28 @@ plan-price-interval-week =
             [one] { $amount } ukentlig
            *[other] { $amount } hver { $intervalCount }. uke
         }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } månedlig
+       *[other] { $amount } hver { $intervalCount }. måned
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } månedlig
+           *[other] { $amount } hver { $intervalCount }. måned
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } årlig
+       *[other] { $amount } hvert { $intervalCount }. år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } årlig
+           *[other] { $amount } hvert { $intervalCount }. år
+        }
 
 ## Error messages
 
@@ -312,6 +334,7 @@ no-subscription-change = Beklager. Du kan ikke endre abonnementsplanen din.
 iap-already-subscribed = Du abonnerer allerede via { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = En systemfeil førte til at { $productName }-registreringen mislyktes. Betalingsmåten din er ikke belastet. Prøv igjen.
+fxa-post-passwordless-sub-error = Abonnementet ble bekreftet, men bekreftelsessiden kunne ikke lastes inn. Sjekk e-posten din for å sette opp kontoen din.
 product-plan-error =
     .title = Problem med å laste planene dine
 product-profile-error =
