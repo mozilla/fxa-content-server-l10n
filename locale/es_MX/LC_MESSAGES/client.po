@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-07 20:08+0000\n"
 "PO-Revision-Date: 2023-02-07 05:03+0000\n"
 "Last-Translator: Bund10z <abu.avila@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,7 +108,7 @@ msgstr "Ahora estás listo para hacer cambios a tu cuenta de Firefox."
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cuenta desconocida. <a href=\"/signup\">Registro</a>"
 
-#: .es5/views/sign_up_password.js:64
+#: .es5/views/sign_up_password.js:66
 msgid "Account no longer exists. Recreate it?"
 msgstr "La cuenta ya no existe. ¿Quieres crearla de nuevo?"
 
@@ -920,10 +920,6 @@ msgstr "Confirmar clave de recuperación de cuenta"
 msgid "Don't have an account recovery key?"
 msgstr "¿No tienes una clave de recuperación de cuenta?"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Por favor, ingresa la clave de recuperación de cuenta de un solo uso que almacenaste en un lugar seguro para recuperar el acceso a tu cuenta de Firefox."
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Selecciona qué sincronizar:"
@@ -1060,15 +1056,6 @@ msgstr "¿El código expiró?"
 msgid "Email new code."
 msgstr "Enviar código nuevo por correo."
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "Ingresar código de confirmación"
-
-#: .es5/templates/confirm_signup_code.mustache:8
-msgid "for your Firefox account"
-msgstr "para tu cuenta de Firefox"
-
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
 msgstr "Conectar a otro dispositivo"
@@ -1160,10 +1147,6 @@ msgstr "Usa una cuenta diferente"
 msgid "Forgot password?"
 msgstr "¿Olvidaste la contraseña?"
 
-#: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr ""
-
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
 msgstr ""
@@ -1205,31 +1188,6 @@ msgid ""
 "            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
-msgstr ""
-
-#: .es5/templates/index.mustache:19
-msgid "Continue to Firefox accounts"
-msgstr "Continuar a cuentas de Firefox"
-
-#: .es5/templates/index.mustache:20
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Una cuenta de Firefox también desbloquea el acceso a más productos de protección de la privacidad de Mozilla."
-
-#: .es5/templates/index.mustache:21
-msgid ""
-"\n"
-"  By proceeding, you agree to:<br />\n"
-"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
-"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-msgstr ""
-
-#: .es5/templates/index.mustache:22
-msgid ""
-"\n"
-"  By proceeding, you agree to:<br />\n"
-"  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1487,10 +1445,6 @@ msgstr ""
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "Ingresa el código que fue enviado a %(email)s en los últimos 5 minutos."
 
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "Ingresa código de confirmación <span class=\"card-subheader\">para tu cuenta de Firefox</span>"
-
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
 msgstr "Ingresar código de seguridad"
@@ -1616,10 +1570,6 @@ msgstr "Enviar"
 msgid "Terms of Service"
 msgstr "Términos de servicio"
 
-#: .es5/templates/support.mustache:26
-msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
-
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
 msgstr "¿Quieres sincronizar este dispositivo con tu cuenta?"
@@ -1700,6 +1650,10 @@ msgstr "Correo secundario"
 msgid "Maybe later"
 msgstr "Quizás después"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "Ingresar código de confirmación"
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Por favor, ingresa el código de confirmación que se envió a %(escapedEmail)s en lo últimos 5 minutos."
@@ -1741,13 +1695,6 @@ msgstr "Volver a introducir la nueva contraseña"
 msgid "Change password"
 msgstr "Cambiar contraseña"
 
-#: .es5/templates/post_verify/password/force_password_change.mustache:11
-msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr ""
-"Detectamos un comportamiento sospechoso en tu cuenta de Firefox. Para proteger tu cuenta, crea una nueva contraseña. Utilizarás esta contraseña para volver a iniciar sesión en todos los servicios "
-"de tu cuenta de Firefox."
-
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Este Firefox está conectado"
@@ -1787,10 +1734,6 @@ msgstr "Ingresar una contraseña"
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
 msgstr "Confirmar contraseña"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
-msgid "Create a Firefox Account"
-msgstr "Crea una cuenta de Firefox"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

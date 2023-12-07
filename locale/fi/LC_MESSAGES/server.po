@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-07 20:08+0000\n"
 "PO-Revision-Date: 2023-11-02 09:15+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,10 +76,6 @@ msgstr "Ladataan"
 msgid "Mozilla accounts require JavaScript."
 msgstr "Mozilla-tilit vaativat JavaScriptin."
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox-tili -palvelu edellyttää JavaScriptin olevan päällä."
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr "Mozilla-tili"
@@ -103,19 +99,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "Lataa viimeisin"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Firefox-tilit"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
-"Mozilla-tilisi hyödyntää nyt ominaisuuksia, jotka eivät\n"
-"ole yhteensopivia nykyisen Firefox-versiosi kanssa.\n"
-"Lataa ja asenna Firefoxin uusin versio\n"
-"jatkaaksesi."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-07 20:08+0000\n"
 "PO-Revision-Date: 2023-11-11 15:36+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,7 +109,7 @@ msgstr "ਹੁਣ ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾ�
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: .es5/views/sign_up_password.js:64
+#: .es5/views/sign_up_password.js:66
 msgid "Account no longer exists. Recreate it?"
 msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਮੁੜ-ਬਣਾਉਣਾ ਹੈ?"
 
@@ -832,10 +832,11 @@ msgid "Invalid Token"
 msgstr "ਅਢੁੱਕਵਾਂ ਟੋਕਨ"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ "
-"ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
+"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -901,10 +902,10 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">ਸਾਵਧਾਨ:</span> ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜਸੈੱਟ ਕੀਤਾ ਅਤੇ ਤੁਹਾਡੇ ਕੋਲ ਸੰਭਾਲਈ ਹੋਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀ ਹੈ ਤਾਂ ਤੁਹਾਡਾ ਕੁਝ ਡਾਟਾ ਮਿਟਾ ਜਾਵੇਗਾ (ਜਿਸ ਵਿੱਚ ਸਿੰਕ ਕੀਤਾ ਸਰਵਰ ਡਾਟਾ ਜਿਵੇਂ ਕਿ ਅਤੀਤ "
-"ਅਤੇ ਬੁੱਕਮਰਾਕ ਸ਼ਾਮਲ ਹਨ)।"
+"<span class=\"note\">ਸਾਵਧਾਨ:</span> ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜਸੈੱਟ ਕੀਤਾ ਅਤੇ ਤੁਹਾਡੇ ਕੋਲ ਸੰਭਾਲਈ ਹੋਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀ ਹੈ ਤਾਂ ਤੁਹਾਡਾ ਕੁਝ ਡਾਟਾ ਮਿਟਾ ਜਾਵੇਗਾ (ਜਿਸ ਵਿੱਚ ਸਿੰਕ ਕੀਤਾ ਸਰਵਰ ਡਾਟਾ ਜਿਵੇਂ ਕਿ ਅਤੀਤ ਅਤੇ ਬੁੱਕਮਰਾਕ ਸ਼ਾਮਲ ਹਨ)।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -917,10 +918,6 @@ msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਸਦੀਕ ਕਰ�
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
 msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਹੈ?"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:12
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1056,15 +1053,6 @@ msgstr "ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?"
 msgid "Email new code."
 msgstr "ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।"
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
-
-#: .es5/templates/confirm_signup_code.mustache:8
-msgid "for your Firefox account"
-msgstr "ਤੁਹਾਡੇ Firefox ਖਾਤੇ ਲਈ"
-
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
 msgstr "ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
@@ -1125,7 +1113,8 @@ msgstr "ਪਾਸਵਰਡ"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1141,7 +1130,8 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ।"
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
@@ -1151,10 +1141,6 @@ msgstr "ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 #: .es5/templates/force_auth.mustache:14 .es5/templates/sign_in_password.mustache:19
 msgid "Forgot password?"
 msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
-
-#: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>"
-msgstr "<span class=\"card-subheader\" id=\"subheader\">ਤੁਹਾਡੇ Firefox ਖਾਤੇ ਲਈ</span> ਪਾਸਵਰਡ ਭਰੋ"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -1184,7 +1170,8 @@ msgstr "Mozilla ਖਾਤਾ Mozilla ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾ�
 msgid ""
 "\n"
 "          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
@@ -1196,30 +1183,6 @@ msgid ""
 "            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
-msgstr ""
-
-#: .es5/templates/index.mustache:19
-msgid "Continue to Firefox accounts"
-msgstr "Firefox ਖਾਤਿਆਂ ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
-
-#: .es5/templates/index.mustache:20
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Firefox ਖਾਤਾ Mozilla ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾਰੀ-ਸੁਰੱਖਿਅਤ ਖਾਤਿਆਂ ਲਈ ਪਹੁੰਚ ਵੀ ਦਿੰਦਾ ਹੈ।"
-
-#: .es5/templates/index.mustache:21
-msgid ""
-"\n"
-"  By proceeding, you agree to:<br />\n"
-"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"  Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-msgstr ""
-
-#: .es5/templates/index.mustache:22
-msgid ""
-"\n"
-"  By proceeding, you agree to:<br />\n"
-"  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1475,10 +1438,6 @@ msgstr "<span class=\"card-subheader\">ਆਪਣੇ Mozilla ਖਾਤੇ</span> 
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "5 ਮਿੰਟ ਵਿੱਚ %(email)s ਉੱਤੇ ਭੇਜਿਆ ਕੋਡ ਭਰੋ।"
 
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "<span class=\"card-subheader\">ਆਪਣੇ Firefox ਖਾਤੇ</span> ਲਈ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
-
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
 msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ"
@@ -1603,10 +1562,6 @@ msgstr "ਭੇਜੋ"
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#: .es5/templates/support.mustache:26
-msgid "Firefox Accounts"
-msgstr "Firefox ਖਾਤੇ"
-
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
 msgstr "ਕੀ ਤੁਸੀਂ ਇਸ ਡਿਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
@@ -1687,6 +1642,10 @@ msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ"
 msgid "Maybe later"
 msgstr "ਸ਼ਾਇਦ ਬਾਦ 'ਚ"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਦਾਖਲ ਕਰੋ, ਜੋ %(escapedEmail)s ਨੂੰ 5 ਮਿੰਟ ਦੇ ਅੰਦਰ ਭੇਜਿਆ ਗਿਆ ਸੀ।"
@@ -1710,8 +1669,7 @@ msgstr "%(serviceName)s ਨਾਲ ਜਾਰੀ ਰਹਿਣ ਲਈ ਪਾਸਵ�
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
-"ਸਾਨੂੰ ਤੁਹਾਡੇ Mozilla ਖਾਤੇ ਵਿੱਚ ਕੁਝ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਦੀ ਸੂਹ ਮਿਲੀ ਹੈ। ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਤੁਸੀਂ ਆਪਣੀਆਂ ਸਾਰੀਆਂ Mozilla ਖਾਤਾ ਸੇਵਾਵਾਂ ਲਈ ਵਾਪਸ ਸਾਈਨ ਇਨ ਕਰਨ ਥਈ ਵਰਤੋਂਗੇ।"
+msgstr "ਸਾਨੂੰ ਤੁਹਾਡੇ Mozilla ਖਾਤੇ ਵਿੱਚ ਕੁਝ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਦੀ ਸੂਹ ਮਿਲੀ ਹੈ। ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਤੁਸੀਂ ਆਪਣੀਆਂ ਸਾਰੀਆਂ Mozilla ਖਾਤਾ ਸੇਵਾਵਾਂ ਲਈ ਵਾਪਸ ਸਾਈਨ ਇਨ ਕਰਨ ਥਈ ਵਰਤੋਂਗੇ।"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1728,12 +1686,6 @@ msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਦਿਓ"
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
 msgstr "ਪਾਸਵਰਡ ਬਦਲੋ"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:11
-msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr ""
-"ਸਾਨੂੰ ਤੁਹਾਡੇ Firefox ਖਾਤੇ ਵਿੱਚ ਕੁਝ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਦੀ ਸੂਹ ਮਿਲੀ ਹੈ। ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਤੁਸੀਂ ਆਪਣੀਆਂ ਸਾਰੀਆਂ Firefox ਖਾਤਾ ਸੇਵਾਵਾਂ ਲਈ ਵਾਪਸ ਸਾਈਨ ਇਨ ਕਰਨ ਥਈ ਵਰਤੋਂਗੇ।"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1774,10 +1726,6 @@ msgstr "ਪਾਸਵਰਡ ਦਿਓ"
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
 msgstr "ਪਾਸਵਰਡ ਤਸਦੀਕ ਕਰੋ"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
-msgid "Create a Firefox Account"
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਓ"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2046,7 +1994,8 @@ msgid "Or download"
 msgstr "ਜਾਂ ਡਾਊਨਲੋਡ ਕਰੋ"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
