@@ -149,12 +149,89 @@ price-details-tax = { $priceAmount } + { $taxAmount } skatt
 price-details-no-tax-day =
     { $intervalCount ->
         [one] { $priceAmount } daglig
-       *[other] { $priceAmount } hver { $intervalCount } dag
+       *[other] { $priceAmount } hver { $intervalCount }. dag
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } daglig
-           *[other] { $priceAmount } hver { $intervalCount } dag
+           *[other] { $priceAmount } hver { $intervalCount }. dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } ukentlig
+       *[other] { $priceAmount } hver { $intervalCount }. uke
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ukentlig
+           *[other] { $priceAmount } hver { $intervalCount }. uke
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } månedlig
+       *[other] { $priceAmount } hver { $intervalCount }. måned
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } månedlig
+           *[other] { $priceAmount } hver { $intervalCount }. måned
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } årlig
+       *[other] { $priceAmount } hver { $intervalCount }. år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } årlig
+           *[other] { $priceAmount } hver { $intervalCount }. år
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt daglig
+       *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt daglig
+           *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt ukentlig
+       *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. uke
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt ukentlig
+           *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. uke
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt månedlig
+       *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. måned
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt månedlig
+           *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. måned
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt årlig
+       *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt årlig
+           *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. år
         }
 
 ## Component - SubscriptionTitle
