@@ -182,12 +182,12 @@ price-details-no-tax-month =
 price-details-no-tax-year =
     { $intervalCount ->
         [one] { $priceAmount } årlig
-       *[other] { $priceAmount } hver { $intervalCount }. år
+       *[other] { $priceAmount } hvert { $intervalCount }. år
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } årlig
-           *[other] { $priceAmount } hver { $intervalCount }. år
+           *[other] { $priceAmount } hvert { $intervalCount }. år
         }
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
@@ -226,12 +226,12 @@ price-details-tax-month =
 price-details-tax-year =
     { $intervalCount ->
         [one] { $priceAmount } + { $taxAmount } skatt årlig
-       *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. år
+       *[other] { $priceAmount } + { $taxAmount } skatt hvert { $intervalCount }. år
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } + { $taxAmount } skatt årlig
-           *[other] { $priceAmount } + { $taxAmount } skatt hver { $intervalCount }. år
+           *[other] { $priceAmount } + { $taxAmount } skatt hvert { $intervalCount }. år
         }
 
 ## Component - SubscriptionTitle
@@ -240,6 +240,7 @@ subscription-create-title = Sett opp abonnementet ditt
 subscription-success-title = Bekreftelse av abonnement
 subscription-processing-title = Bekrefter abonnementet …
 subscription-error-title = Feil under bekreftelse av abonnement …
+subscription-noplanchange-title = Denne endringen av abonnementsplanen støttes ikke
 sub-guarantee = 30-dagers pengene-tilbake-garanti
 
 ## Component - TermsAndPrivacy
@@ -259,10 +260,34 @@ document =
 close-aria =
     .aria-label = Lukk modal
 settings-subscriptions-title = Abonnementer
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Rabattkode
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } daglig
+       *[other] { $amount } hver { $intervalCount }. dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } daglig
+           *[other] { $amount } hver { $intervalCount }. dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } ukentlig
+       *[other] { $amount } hver { $intervalCount }. uke
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ukentlig
+           *[other] { $amount } hver { $intervalCount }. uke
+        }
 
 ## Error messages
 
