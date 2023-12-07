@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 20:09+0000\n"
+"POT-Creation-Date: 2023-12-07 20:08+0000\n"
 "PO-Revision-Date: 2019-09-04 15:22+0000\n"
 "Last-Translator: sadi06888 <sadi06888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,10 +70,6 @@ msgstr "লোডিং"
 msgid "Mozilla accounts require JavaScript."
 msgstr ""
 
-#: server/templates/pages/src/index.html:5
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox অ্যাকাউন্টস ব্যবহার করতে জাভাস্ক্রিপ্ট চালু করুন।"
-
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
 msgstr ""
@@ -93,15 +89,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
 msgstr "সর্বশেষটি ডাউনলোড করুন"
-
-#: server/templates/pages/src/update_firefox.html:6
-msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
-
-#: server/templates/pages/src/update_firefox.html:7
-msgid ""
-"Firefox Accounts makes use of features that are\n"
-"not supported in your version of Firefox. Please\n"
-"download and install the latest version of Firefox to\n"
-"continue."
-msgstr ""
