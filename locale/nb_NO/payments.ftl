@@ -236,6 +236,10 @@ price-details-tax-year =
 
 ## Component - SubscriptionTitle
 
+subscription-create-title = Sett opp abonnementet ditt
+subscription-success-title = Bekreftelse av abonnement
+subscription-processing-title = Bekrefter abonnementet …
+subscription-error-title = Feil under bekreftelse av abonnement …
 sub-guarantee = 30-dagers pengene-tilbake-garanti
 
 ## Component - TermsAndPrivacy
