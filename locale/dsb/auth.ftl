@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = Pla { -product-firefox-accounts } pśizjawiś?
 session-verify-send-push-title-2 = Pla { -product-mozilla-account(case: "gen") } pśizjawiś?
 session-verify-send-push-body-2 = Klikniśo how, aby wobkšuśił, až ty to sy
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Klikniśo how, aby wobkšuśił, až ty to sy
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizěrowane rědy">
 body-devices-image = <img data-l10n-name="devices-image" alt="Rědy">
 fxa-privacy-url = Pšawidła priwatnosći { -brand-mozilla }
 moz-accounts-privacy-url-2 = Powěźeńka priwatnosći { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
-fxa-service-url = Wužywańske wuměnjenja za { -product-firefox-cloud }
 moz-accounts-terms-url = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="logo { -brand-mozilla }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="logo { -brand-mozilla }">
 subplat-automated-email = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
 subplat-privacy-notice = Powěźeńka priwatnosći
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account } a wy sćo za { $productName } zregistrěrowany.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Dostawaśo toś tu mejlku, dokulaž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") } a wy sćo za { $productName } zregistrěrowany.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Dostawaśo toś tu mejlku, dokulaž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") }.
-subplat-explainer-multiple = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account } a sćo aboněrował někotare produkty.
 subplat-explainer-multiple-2 = Dostawaśo toś tu mejlku, dokulaž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") } a sćo aboněrował někotare produkty.
-subplat-explainer-was-deleted = Dostawaśo toś tu mejlku, dokulaž { $email } jo se zregistrěrowała za konto { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Dostawaśo toś tu mejlku, dokulaž { $email } jo se zregistrěrowała za  { -product-mozilla-account(case: "acc", capitalization: "lower") }.
-subplat-manage-account = Woglědajśo se k swójomu <a data-l10n-name="subplat-account-page">kontowem bokoju</a>, aby swóje nastajenja { -product-firefox-account } zastojał.
 subplat-manage-account-2 = Woglědajśo se k swójomu <a data-l10n-name="subplat-account-page">kontowem bokoju</a>, aby nastajenja swójogo { -product-mozilla-account(case: "gen", capitalization: "lower") } zastojał.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Woglědajśo se k swójomu kontowemu bokoju, aby swóje nastajenja { -product-firefox-account } zastojał: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Woglědajśo se k swójomu kontowemu bokoju, aby nastajenja swójogo { -product-mozilla-account(case: "gen", capitalization: "lower") } zastojał: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = Pšawidła priwatnosći { -brand-mozilla }
 subplat-privacy-policy-2 = Powěźeńka priwatnosći { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = Wužywańske wuměnjenja za { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Pšawniske
@@ -234,25 +213,6 @@ device-all = { $uaBrowser } na { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } na { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-adresa: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (pówoblicone)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (pówoblicone)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (pówoblicone)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (pówoblicone)
 view-invoice = <a data-l10n-name="invoiceLink">Wašu zliceńku pokazaś</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Drugi rěd synchronizěrowaś
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaciji pśecej dwa šłušatej
-cadReminderFirst-description-1 = Wužywajśo swóje rejtariki na wšych wašych rědach. Wzejśo swóje cytańske znamjenja, gronidła a druge daty wšuźi sobu, źož { -brand-firefox } wužywaśo. Jo, ako by była magija we wašom konśe { -brand-firefox }!
 cadReminderFirst-description-v2 = Wužywajśo swóje rejtariki na wšych wašych rědach. Wobstarajśo se cytańske znamjenja, gronidła a druge daty wšuźi tam, źož { -brand-firefox } wužywaśo.
 cadReminderSecond-subject-2 = Njewuwostajśo nic! Dajśo nam konfiguraciju wašeje snychronizacije dokóńcyś
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
@@ -278,12 +237,9 @@ downloadSubscription-subject = Witajśo k { $productName }
 downloadSubscription-title = Witajśo k { $productName }
 downloadSubscription-content-2 = Zachopśo wšykne funkcije w swójom abonemenśe wužywaś:
 downloadSubscription-link-action-2 = Prědne kšace
-fraudulentAccountDeletion-subject = Wašo konto { -product-firefox-account } jo se wulašowało
 fraudulentAccountDeletion-subject-2 = Wašo { -product-mozilla-account } jo se wulašowało
 fraudulentAccountDeletion-title = Wašo konto jo se wulašowało
-fraudulentAccountDeletion-content = Njedawno jo se załožyło konto { -product-firefox-account } a abonement jo se wótlicył z pomocu toś teje e-mailoweje adrese. Ako pśi wšych kontach smy was pšosyli, toś tu e-mailowa adresu wobkšuśiś, aby wy swójo konto wobkšuśił.
 fraudulentAccountDeletion-content-part1-v2 = Njedawno jo se załožyło { -product-mozilla-account } a abonement jo se wótlicył z pomocu toś teje e-mailoweje adrese. Ako pśi wšych kontach smy was pšosyli, toś tu e-mailowa adresu wobkšuśiś, aby wy swójo konto wobkšuśił.
-fraudulentAccountDeletion-content-2 = Tuchylu wiźimy, až konto njejo se nigdy wobkšuśiło. Dokulaž toś ten kšac njejo se dokóńcył, njejsmy se wěste, lěc to jo było awtorizěrowany abonement. Togodla jo se konto { -product-firefox-account } wulašowało, kótarež jo se zregistrěrowało z toś teju e-mailoweju adresu, a waš abonement jo se wupowěźeł ze zarunanim wšych płaśonkow.
 fraudulentAccountDeletion-content-part2-v2 = Tuchylu wiźimy, až konto njejo se nigdy wobkšuśiło. Dokulaž toś ten kšac njejo se dokóńcył, njejsmy se wěste, lěc to jo było awtorizěrowany abonement. Togodla jo se { -product-mozilla-account } wulašowało, kótarež jo se zregistrěrowało z toś teju e-mailoweju adresu, a waš abonement jo se wupowěźeł ze zarunanim wšych płaśonkow.
 fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym <a data-l10n-name="mozillaSupportUrl">teamom pomocy</a> do zwiska.
 # Variables:
@@ -310,7 +266,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe pśizjawjenje pla { $clientName }
-newDeviceLogin-title-2 = Wašo konto { -product-firefox-account } jo se wužyło za pśizjeajenje
+newDeviceLogin-subjectForMozillaAccount = Nowe pśizjawjenje pla wašogo { -product-mozilla-account }
 newDeviceLogin-title-3 = Wašo { -product-mozilla-account } jo se wužyło za pśizjeajenje
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -321,13 +277,10 @@ newDeviceLogin-change-password-plain = To wy njejsćo? Změńśo swójo gronidł
 newDeviceLogin-action = Konto zastojaś
 passwordChanged-subject = Gronidło jo se zaktualizěrowało
 passwordChanged-title = Gronidło jo se wuspěšnje změniło
-passwordChanged-description = Gronidło wašogo konta { -product-firefox-account } jo se wuspěšnje ze slědujucego rěda změniło:
 passwordChanged-description-2 = Gronidło wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } jo se wuspěšnje ze slědujucego rěda změniło:
 passwordChangeRequired-subject = Zawózdatna aktiwita namakana
 passwordChangeRequired-title = Změnjanje gronidła trěbne
-passwordChangeRequired-suspicious-activity = Smy zwěsćili suspektne zaźaržanje na wašom konśe { -product-firefox-account }. Aby my njeawtorizěrowanemu pśistupoju k wašomu kontu { -product-firefox-account } zajźowali, smy źělili wšykne rědy we wašom konśe a napominamy was, wašo gronidło wěstoty dla změniś.
 passwordChangeRequired-suspicious-activity-2 = Smy zwěsćili suspektne zaźaržanje na wašom { -product-mozilla-account(case: "loc", capitalization: "lower") }. Aby my njeawtorizěrowanemu pśistupoju k wašomu { -product-mozilla-account(case: "dat", capitalization: "lower") } zajźowali, smy źělili wšykne rědy we wašom konśe a napominamy was, wašo gronidło wěstoty dla změniś.
-passwordChangeRequired-sign-in = Pśizjawśo se zasej pla rěda abo słužby, źož swójo konto { -product-firefox-account } wužywaśo a slědujśo kšacam, kótarež se wam pokazuju.
 passwordChangeRequired-sign-in-2 = Pśizjawśo se zasej pla rěda abo słužby, źož swójo { -product-mozilla-account(case: "acc", capitalization: "lower") } wužywaśo a slědujśo kšacam, kótarež se wam pokazuju.
 passwordChangeRequired-different-password = <b>Wažny:</b> Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
 passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
@@ -336,10 +289,8 @@ passwordReset-title = Wašo kontowe gronidło jo se změniło
 passwordReset-description = Musyśo swójo nowe gronidło na drugich rědach zapódaś, aby ze synchronizaciju pókšacował.
 passwordResetAccountRecovery-subject-2 = Wašo gronidło jo se slědk stajiło
 passwordResetAccountRecovery-title-2 = Gronidło jo se wuspěšnje slědk stajiło
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Sćo wužył swój kontowy wótnowjeński kluc, aby swójo gronidło aktualizěrował wót:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Nowy kontowy wótnowjeński kluc napóraś
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Kontowy wótnowjeński kluc napóraś
 passwordResetAccountRecovery-regen-required-mjml-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył.
@@ -352,11 +303,7 @@ postAddAccountRecovery-body-part1 = Składujśo toś ten kluc na wěstem městnj
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Toś ten kluc dajo se jano jaden raz wužywaś. Za tym až sćo jen wužył, napórajomy awtomatiski nowy kluc za was. Abo móžośo kuždy cas nowy kluc ze swójich kontowych nastajenjow napóraś.
 postAddAccountRecovery-action = Konto zastojaś
-postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
 postAddLinkedAccount-subject-2 = Nowe konto jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Wašo konto { $providerName } jo se zwězało z wašym { -product-firefox-account }.
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Wašo konto { $providerName } jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
@@ -374,9 +321,6 @@ postChangeAccountRecovery-body-part2 = Składujśo toś ten nowy kluc na wěstem
 postChangeAccountRecovery-action = Konto zastojaś
 postChangePrimary-subject = Primarna e-mailowa adresa jo se zaktualizěrowała
 postChangePrimary-title = Nowa primarna e-mailowa adresa
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta { -product-firefox-account } a aby wy wěstotne powěsći a pśizjawjeńske
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywaŕske mě za pśizjawjenje pla wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } a aby wy wěstotne powěsći a pśizjawjeńske
@@ -406,9 +350,6 @@ postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Sćo { $secondaryEmail } ako sekundarnu e-mailowu adresu ze swójogo konta { -product-firefox-account } wuspěšnje wótwónoźeł. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja njebudu se wěcej na toś tu adresu słaś.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Sćo { $secondaryEmail } ako sekundarnu e-mailowu adresu ze swójogo { -product-mozilla-account(case: "gen", capitalization: "lower") } wuspěšnje wótwónoźeł. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja njebudu se wěcej na toś tu adresu słaś.
 postRemoveSecondary-action = Konto zastojaś
 postRemoveTwoStepAuthentication-subject-line-2 = Dwójokšacowa awtentifikacija jo znjemóžnjona
@@ -421,7 +362,6 @@ postVerify-sub-title-3 = Wjaselimy se was wiźeś!
 postVerify-title-2 = Cośo samski rejtarik na dwěma rědoma wiźeś?
 postVerify-description-2 = To jo lažko! Instalštujśo jadnorje { -brand-firefox } na drugem rěźe a pśizawśo se za synchronizaciju. Na magisku wašnju!
 postVerify-sub-description = (Pst… Wóznamjenijo teke, až móžośo swóje cytańske znamjenja, gronidła a druge daty { -brand-firefox } dostaś, źožkuli sćo se pśizjawił.)
-postVerify-subject-3 = Witajśo k { -brand-firefox }!
 postVerify-subject-4 = Witajśo k { -brand-mozilla }!
 postVerify-setup-2 = Z drugim rědom zwězaś:
 postVerify-action-2 = Z drugim rědom zwězaś
@@ -429,18 +369,11 @@ postVerifySecondary-subject = Druga e-mailowa adresa jo se pśidała
 postVerifySecondary-title = Druga e-mailowa adresa jo se pśidała
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu za swójo konto { -product-firefox-account }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu za swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
 postVerifySecondary-action = Konto zastojaś
 recovery-subject = Stajśo swójo gronidło slědk
 recovery-title-2 = Sćo swójo gronidło zabył?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Smy dostali pšosbu wó změnjanje gronidła za wašo konto { -product-firefox-account }:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 recovery-new-password-button = Klikniśo na slědujuce tłocašk, aby nowe gronidło napórał. Toś ten wótkaz za pśiducu góźinu spadnjo.
 recovery-copy-paste = Kopěrujśo slědujucy URL do swójogo wobglědowaka, aby gronidło napórał. Toś ten wótkaz za pśiducu góźinu spadnjo.
@@ -453,11 +386,6 @@ subscriptionAccountDeletion-title = Škóda, až wótejźośo
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Sćo njedawno wulašował swójo konto { -product-firefox-account }. Togodla smy wótskazali waš abonement { $productName }. Wašo kóńcne płaśenje { $invoiceTotal } jo se zapłaśiło dnja { $invoiceDateOnly }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Sćo njedawno wulašował swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }. Togodla smy wótskazali waš abonement { $productName }. Wašo kóńcne płaśenje { $invoiceTotal } jo se zapłaśiło dnja { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -466,20 +394,16 @@ subscriptionAccountFinishSetup-subject = Witajśo k { $productName }: Nastajśo 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Witajśo k { $productName }
 subscriptionAccountFinishSetup-content-processing = Wašo płaśenje se pśeźěłujo a móžo až do styri wšednych dnjow traś. Waš abonement se w kuždem wótliceńskem casu awtomatiski pódlejšujo, snaźkuli wupowěźejośo.
-subscriptionAccountFinishSetup-content-create-2 = Ako pśiducee gronidło konta { -product-firefox-account } napórajośo, aby zachopił swój nowy abonement wužywaś.
 subscriptionAccountFinishSetup-content-create-3 = Ako pśiduce gronidło { -product-mozilla-account(case: "gen", capitalization: "lower") } napórajośo, aby zachopił swój nowy abonement wužywaś.
 subscriptionAccountFinishSetup-action-2 = Prědne kšace
 subscriptionAccountReminderFirst-subject = Dopominanje: Dokóńcćo konfigurěrowanje swójogo konta
 subscriptionAccountReminderFirst-title = Hysći njamaśo pśistup k swójomu abonementoju
-subscriptionAccountReminderFirst-content-info-2 = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
 subscriptionAccountReminderFirst-content-info-3 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
 subscriptionAccountReminderFirst-content-select-2 = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
 subscriptionAccountReminderFirst-action = Gronidło napóraś
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Slědne dopominanje: Konfigurěrujśo swójo konto
-subscriptionAccountReminderSecond-title = Witajśo k { -brand-firefox }!
 subscriptionAccountReminderSecond-title-2 = Witajśo k { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-2 = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
 subscriptionAccountReminderSecond-content-info-3 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
 subscriptionAccountReminderSecond-content-select-2 = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
 subscriptionAccountReminderSecond-action = Gronidło napóraś
@@ -633,31 +557,23 @@ unblockCode-prompt-plaintext = Jolic jo, how jo awtorizěrowański kod, kótary�
 unblockCode-report = Joli nic, pomagajśo nam zadobywarje wótwoboraś a <a data-l10n-name="reportSignInLink">dajśo nam to k wěsći.</a>
 unblockCode-report-plaintext = Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wěsći.
 verificationReminderFinal-subject = Slědne dopomnjeśe: Wobkšuśćo swójo konto
-verificationReminderFinal-description = Pśed někotarymi njeźelami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Za wašu wěstotu wulašujomy konto, jolic se za pśiduce 24 góźin njewobkšuśijo.
 verificationReminderFinal-description-2 = Pśed někotarymi njeźelami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo wobkšuśił. Za wašu wěstotu wulašujomy konto, jolic se za pśiduce 24 góźin njewobkšuśijo.
 confirm-account = Konto wobkšuśiś
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Njezabywajśo swójo konto wobkšuśiś
-verificationReminderFirst-title-2 = Witajśo k { -brand-firefox }!
 verificationReminderFirst-title-3 = Witajśo k { -brand-mozilla }!
-verificationReminderFirst-description-2 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 15 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderFirst-description-3 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 15 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderFirst-sub-description-3 = Njeskomuźćo wobglědowak, za kótaryž wy a waša priwatnosć na prědne městno stajatej.
 confirm-email-2 = Konto wobkšuśiś
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkšuśiś
 verificationReminderSecond-subject-2 = Njezabywajśo swójo konto wobkšuśiś
-verificationReminderSecond-title-2 = Njeskomuźćo { -brand-firefox }!
 verificationReminderSecond-title-3 = Njeskomuźćo { -brand-mozilla }!
-verificationReminderSecond-description-3 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderSecond-description-4 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
-verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swóje informacije pśez rědy synchronizěrowaś a dowólujo pśistup k wěcej priwatnosć šćitajucym produktam wót { -brand-mozilla }.
 verificationReminderSecond-second-description-3 = Waš { -product-mozilla-account } wam zmóžnja, swójo dožywjenje { -brand-firefox } pśez rědy synchronizěrowaś a dowólujo pśistup k wěcej priwatnosć šćitajucym produktam wót { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Buźćo źěl našeje misije, internet do městna pśetworiś, kótaryž jo wótwórjony za kuždego.
 verificationReminderSecond-action-2 = Konto wobkšuśiś
-verify-title-2 = Wócyńśo internet z { -brand-firefox }
 verify-title-3 = Wócyńśo internet z { -brand-mozilla }
-verify-description = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verify-description-2 = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-mozilla }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verify-subject = Dokóńcćo załožowanje swójogo konta
 verify-action-2 = Konto wobkšuśiś
@@ -688,19 +604,13 @@ verifySecondaryCode-title-2 = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondaryCode-action-2 = E-mailowu adresu wobkšuśiś
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Slědujuce konto { -product-mozilla-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
 verifySecondaryCode-prompt-2 = Toś ten wobkšuśeński kod wužywaś:
 verifySecondaryCode-expiry-notice-2 = Spadnjo za 5 minutow. Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Wubkšuśćo swójo konto
-verifyShortCode-title-2 = Wócyńśo internet z { -brand-firefox }
 verifyShortCode-title-3 = Wócyńśo internet z { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-mozilla }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verifyShortCode-prompt-3 = Toś ten wobkšuśeński kod wužywaś:
