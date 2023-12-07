@@ -335,6 +335,7 @@ iap-already-subscribed = Du abonnerer allerede via { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = En systemfeil førte til at { $productName }-registreringen mislyktes. Betalingsmåten din er ikke belastet. Prøv igjen.
 fxa-post-passwordless-sub-error = Abonnementet ble bekreftet, men bekreftelsessiden kunne ikke lastes inn. Sjekk e-posten din for å sette opp kontoen din.
+newsletter-signup-error = Du er ikke registrert for produktoppdateringer via e-post. Du kan prøve igjen i kontoinnstillingene.
 product-plan-error =
     .title = Problem med å laste planene dine
 product-profile-error =
@@ -345,6 +346,9 @@ product-plan-not-found = Fant ikke planen
 
 ## Hooks - coupons
 
+coupon-success = Planen din fornyes automatisk til listeprisen.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Planen din fornyes automatisk etter { $couponDurationDate } til listeprisen.
 
 ## Routes - Checkout - New user
 
