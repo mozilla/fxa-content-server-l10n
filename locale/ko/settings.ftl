@@ -19,6 +19,10 @@ link-expired-resent-code-error-message = 문제가 발생했습니다. 새 코�
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts }는 11월 1일에 { -product-mozilla-accounts }로 이름이 변경됩니다.
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = 동일한 사용자 이름과 비밀번호로 계속 로그인할 수 있으며, 사용하는 제품에는 다른 변경 사항이 없습니다.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
 brand-postlaunch-title = { -product-firefox-accounts }의 이름을 { -product-mozilla-accounts }으로 변경했습니다. 동일한 사용자 이름과 비밀번호로 계속 로그인할 수 있으며, 사용하는 제품에는 다른 변경 사항이 없습니다.
@@ -101,7 +105,6 @@ form-verify-code-default-error = 필수 항목입니다
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 계정 복구 키
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 백업 인증 코드
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -192,8 +195,6 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento 메뉴
-bento-menu-firefox-title = { -brand-firefox }는 온라인 개인정보 보호를 위해 싸우는 기술입니다.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -257,17 +258,7 @@ cs-disconnect-sync-opt-not-say = 답변하지 않음
 
 cs-disconnect-advice-confirm = 알겠습니다.
 cs-disconnect-lost-advice-heading = 분실 또는 도난당한 장치 연걸 해제됨
-cs-disconnect-lost-advice-content-2 =
-    기기가 분실 또는 도난 되었기 때문에 
-    정보를 안전하게 보호하기 위해 { -product-firefox-account } 비밀번호를 
-    계정 설정에서 변경해야만 합니다. 또한 제조사에서 원격으로 기기의 데이터를 
-    삭제하는 방법을 알아보아야 합니다.
 cs-disconnect-suspicious-advice-heading = 의심스러운 기기가 연결 해제됨
-cs-disconnect-suspicious-advice-content =
-    연결 해제된 장치가 실제로 의심스러울 경우,
-    정보를 안전하게 보호하기 위해 계정 정보에서 { -product-firefox-account } 암호를
-    변경 해야 합니다. { -brand-firefox }에 저장된 다른 암호도 
-    주소창에 about:logins를 입력해서 변경해야 합니다.
 cs-sign-out-button = 로그아웃
 
 ##
@@ -276,16 +267,11 @@ cs-sign-out-button = 로그아웃
 ## Data collection section
 
 dc-heading = 데이터 수집 및 사용
-dc-subheader = { -product-firefox-accounts } 개선에 참여
-dc-subheader-content = { -product-firefox-accounts }이 기술 및 상호작용 데이터를 { -brand-mozilla }에 보낼 수 있도록 허용합니다.
-dc-opt-out-success = 동의 철회에 성공헀습니다. { -product-firefox-accounts }은 기술 또는 상호작용 데이터를 { -brand-mozilla }에 보내지 않습니다.
-dc-opt-in-success = 감사합니다! 이 데이터를 공유하면 { -product-firefox-accounts } 개선에 도움이 됩니다.
 dc-opt-in-out-error-2 = 데이터 수집 설정을 변경하는 중 문제가 발생했습니다.
 dc-learn-more = 자세히 알아보기
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } 메뉴
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -360,7 +346,6 @@ header-menu-open = 메뉴 닫기
 header-menu-closed = 사이트 탐색 메뉴
 header-back-to-top-link =
     .title = 맨 위로
-header-title = Firefox Account
 header-help = 도움말
 
 ## Linked Accounts section
@@ -844,8 +829,6 @@ cookies-disabled-learn-more = 더 알아보기
 
 ## Signin page
 
-# Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = <span>{ -product-firefox-account }</span> 비밀번호를 입력하세요
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비밀번호를 입력하세요
 
