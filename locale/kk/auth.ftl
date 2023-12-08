@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = { -product-firefox-accounts } ішіне кіріп отырсыз ба?
 session-verify-send-push-title-2 = { -product-mozilla-account } тіркелгіңізге кіріп жатырсыз ба?
 session-verify-send-push-body-2 = Сіз екеніңізді растау үшін осында шертіңіз
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Сіз екеніңізді растау үш�
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } логотипі">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Құрылғыларды синхрондау">
 body-devices-image = <img data-l10n-name="devices-image" alt="Құрылғылар">
 fxa-privacy-url = { -brand-mozilla }-ның жекелік саясаты
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } жекелік ескертуі
-fxa-service-url = { -product-firefox-cloud } Қолдану шарттары
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } қолдану шарттары
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } логотипі">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Бұл автоматтандырылған эл. пошта хаты; осыны алғаныңыз қате деп ойласаңыз, еш әрекетті жасау керек емес.
 subplat-privacy-notice = Жекелік ескертуі
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар және сіз { $productName } қызметіне тіркелгенсіз.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-mozilla-account } бар және сіз { $productName } қызметіне тіркелгенсіз.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-mozilla-account } бар.
-subplat-explainer-multiple = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар және сіз бірнеше өнімге жазылғансыз.
 subplat-explainer-multiple-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-mozilla-account } бар және сіз бірнеше өнімге жазылғансыз.
-subplat-explainer-was-deleted = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресі { -product-firefox-account } өніміне тіркелген.
 subplat-explainer-was-deleted-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресі { -product-mozilla-account } өніміне тіркелген.
-subplat-manage-account = <a data-l10n-name="subplat-account-page">Тіркелгі парағын</a> шолу арқылы өз { -product-firefox-account } баптауларын басқарыңыз.
 subplat-manage-account-2 = <a data-l10n-name="subplat-account-page">Тіркелгі парағын</a> шолу арқылы өз { -product-mozilla-account } баптауларын басқарыңыз.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Тіркелгі парағын шолу арқылы өз { -product-firefox-account } баптауларын басқарыңыз: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Тіркелгі парағын шолу арқылы өз { -product-mozilla-account } баптауларын басқарыңыз: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = { -brand-mozilla } жекелік саясаты
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } жекелік ескертуі
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = { -product-firefox-cloud } Қолдану шарттары
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Қолдану Шарттары
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Құқықтық ақпарат
@@ -234,25 +213,6 @@ device-all = { $uaBrowser }, { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser }, { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP адресі: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (шамамен)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (шамамен)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (шамамен)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (шамамен)
 view-invoice = <a data-l10n-name="invoiceLink">Шот-фактураңызды қараңыз</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Басқа құрылғыны синхрондау
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхрондау үшін екі құрылғы қажет
-cadReminderFirst-description-1 = Барлық құрылғыларда браузер беттерін алыңыз. Бетбелгілер, парольдер және басқа деректерді { -brand-firefox } пайдаланатын барлық жерде алыңыз. Бұл сіздің { -brand-firefox } тіркелгіңіздегі сиқырға ұқсайды!
 cadReminderFirst-description-v2 = Барлық құрылғыларда беттеріңізді алыңыз. Бетбелгілер, парольдер және басқа деректерді { -brand-firefox } пайдаланатын барлық жерде алыңыз.
 cadReminderSecond-subject-2 = Жіберіп алмаңыз! Синхрондауды баптауды аяқтайық.
 cadReminderSecond-action = Басқа құрылғыны синхрондау
@@ -278,12 +237,9 @@ downloadSubscription-subject = { $productName } ішіне қош келдіңі
 downloadSubscription-title = { $productName } ішіне қош келдіңіз
 downloadSubscription-content-2 = Жазылуыңыздағы барлық мүмкіндіктерді пайдалануды бастайық:
 downloadSubscription-link-action-2 = Бастау
-fraudulentAccountDeletion-subject = Сіздің { -product-firefox-account } өшірілді
 fraudulentAccountDeletion-subject-2 = Сіздің { -product-mozilla-account } өшірілді
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
-fraudulentAccountDeletion-content = { -product-firefox-account } жуырда жасалды және осы эл. пошта адресі арқылы жазылым ақысы алынды. Барлық жаңа тіркелгілермен сияқты, алдымен осы эл. пошта адресін растау арқылы тіркелгіңізді растауыңызды сұрадық.
 fraudulentAccountDeletion-content-part1-v2 = { -product-mozilla-account } жуырда жасалды және осы эл. пошта адресі арқылы жазылым ақысы алынды. Барлық жаңа тіркелгілермен сияқты, алдымен осы эл. пошта адресін растау арқылы тіркелгіңізді растауыңызды сұрадық.
-fraudulentAccountDeletion-content-2 = Қазіргі уақытта біз тіркелгінің ешқашан расталмағанын көріп отырмыз. Бұл қадам аяқталмағандықтан, бұл рұқсат етілген жазылу болғанына сенімді емеспіз. Нәтижесінде, осы эл. пошта адресіне тіркелген { -product-firefox-account } өшірілді және барлық төлемдер қайтарылып, жазылуыңыздан бас тартылды.
 fraudulentAccountDeletion-content-part2-v2 = Қазіргі уақытта біз тіркелгінің ешқашан расталмағанын көріп отырмыз. Бұл қадам аяқталмағандықтан, бұл рұқсат етілген жазылу болғанына сенімді емеспіз. Нәтижесінде, осы эл. пошта адресіне тіркелген { -product-mozilla-account } өшірілді және барлық төлемдер қайтарылып, жазылуыңыздан бас тартылды.
 fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біздің <a data-l10n-name="mozillaSupportUrl">қолдау көрсету тобымызға</a> хабарласыңыз.
 # Variables:
@@ -308,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ішіне жаңа кіру
-newDeviceLogin-title-2 = Сіздің { -product-firefox-account } жүйеге кіру үшін пайдаланылды
+newDeviceLogin-subjectForMozillaAccount = Сіздің { -product-mozilla-account } ішіне жаңа кіру орын алды
 newDeviceLogin-title-3 = Сіздің { -product-mozilla-account } жүйеге кіру үшін пайдаланылды
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -319,13 +275,10 @@ newDeviceLogin-change-password-plain = Сен емес пе? Пароліңіз�
 newDeviceLogin-action = Тіркелгіні басқару
 passwordChanged-subject = Пароль жаңартылды
 passwordChanged-title = Пароль сәтті өзгертілді
-passwordChanged-description = Сіздің { -product-firefox-account } тіркелгісінің паролі келесі құрылғыдан сәтті өзгертілді:
 passwordChanged-description-2 = Сіздің { -product-mozilla-account } тіркелгісінің паролі келесі құрылғыдан сәтті өзгертілді:
 passwordChangeRequired-subject = Күдікті әрекет анықталды
 passwordChangeRequired-title = Парольді өзгерту керек
-passwordChangeRequired-suspicious-activity = { -product-firefox-account } тіркелгіңізде күмәнді әрекетті анықтадық. { -product-firefox-account } тіркелгіңізге рұқсатсыз кіруді болдырмау үшін тіркелгіңізден барлық құрылғыларды ажыраттық және сақтық шарасы ретінде пароліңізді өзгертуді талап етеміз.
 passwordChangeRequired-suspicious-activity-2 = { -product-mozilla-account } тіркелгіңізде күмәнді әрекетті анықтадық. { -product-mozilla-account } тіркелгіңізге рұқсатсыз кіруді болдырмау үшін тіркелгіңізден барлық құрылғыларды ажыраттық және сақтық шарасы ретінде пароліңізді өзгертуді талап етеміз.
-passwordChangeRequired-sign-in = { -product-firefox-account } пайдаланатын кез келген құрылғыға немесе қызметке қайта кіріп, сізге ұсынылатын қадамдарды орындаңыз.
 passwordChangeRequired-sign-in-2 = { -product-mozilla-account } пайдаланатын кез келген құрылғыға немесе қызметке қайта кіріп, сізге ұсынылатын қадамдарды орындаңыз.
 passwordChangeRequired-different-password = <b>Маңызды:</b> Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
 passwordChangeRequired-different-password-plaintext = Маңызды: Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
@@ -334,10 +287,8 @@ passwordReset-title = Тіркелгіңіздің паролі өзгертіл
 passwordReset-description = Синхрондауды жалғастыру үшін басқа құрылғыларда жаңа парольді енгізу қажет.
 passwordResetAccountRecovery-subject-2 = Пароліңіз тасталды
 passwordResetAccountRecovery-title-2 = Парольді тастау сәтті аяқталды
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Пароліңізді жаңарту үшін тіркелгіні қалпына келтіру кілтін келесі жерден пайдаландыңыз:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Тіркелгіні қалпына келтіру кілтін жасау
 passwordResetAccountRecovery-regen-required-mjml-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
@@ -350,11 +301,7 @@ postAddAccountRecovery-body-part1 = Бұл кілтті қауіпсіз жер�
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Бұл кілтті тек бір рет пайдалануға болады. Сіз оны пайдаланғаннан кейін біз сізге автоматты түрде жаңасын жасаймыз. Немесе тіркелгі параметрлерінен кез келген уақытта жаңасын жасауға болады.
 postAddAccountRecovery-action = Тіркелгіні басқару
-postAddLinkedAccount-subject = { -brand-firefox } ішіне жаңа тіркелгі байланыстырылды
 postAddLinkedAccount-subject-2 = Сіздің { -product-mozilla-account } ішіне жаңа тіркелгі байланыстырылды
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Сіздің { $providerName } тіркелгіңіз { -product-firefox-account } ішіне байланыстырылды.
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Сіздің { $providerName } тіркелгіңіз { -product-mozilla-account } ішіне байланыстырылды.
@@ -372,9 +319,6 @@ postChangeAccountRecovery-body-part2 = Бұл жаңа кілтті қауіпс
 postChangeAccountRecovery-action = Тіркелгіні басқару
 postChangePrimary-subject = Біріншілік эл. пошта адресі жаңартылды
 postChangePrimary-title = Жаңа біріншілік эл. поштасы
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Сіз біріншілік электрондық поштаңызды { $email } етіп өзгерттіңіз. Бұл аджрес енді { -product-firefox-account } тіркелгіңізге кіруге, сондай-ақ қауіпсіздік хабарландыруларын және жүйеге кіру растауларын алуға арналған пайдаланушы атыңыз болып табылады.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Сіз біріншілік электрондық поштаңызды { $email } етіп өзгерттіңіз. Бұл аджрес енді { -product-mozilla-account } тіркелгіңізге кіруге, сондай-ақ қауіпсіздік хабарландыруларын және жүйеге кіру растауларын алуға арналған пайдаланушы атыңыз болып табылады.
@@ -402,9 +346,6 @@ postRemoveSecondary-subject = Екіншілік эл. пошта адресі �
 postRemoveSecondary-title = Екіншілік эл. пошта адресі өшірілді
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Сіз { -product-firefox-account } тіркелгіңізден { $secondaryEmail } адресін екіншілік адресі ретінде сәтті өшірдіңіз. Қауіпсіздік ескертулері және кіру хабарламалары ол адреске енді жіберілмейтін болады.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Сіз { -product-mozilla-account } тіркелгіңізден { $secondaryEmail } адресін екіншілік адресі ретінде сәтті өшірдіңіз. Қауіпсіздік ескертулері және кіру хабарламалары ол адреске енді жіберілмейтін болады.
 postRemoveSecondary-action = Тіркелгіні басқару
 postRemoveTwoStepAuthentication-subject-line-2 = Екі қадамды аутентификация сөндірілді
@@ -417,7 +358,6 @@ postVerify-sub-title-3 = Біз сізді көруге қуаныштымыз!
 postVerify-title-2 = Бір бетті екі құрылғыда көргіңіз келе ме?
 postVerify-description-2 = Бұл оңай! Басқа құрылғыға { -brand-firefox } орнатып, синхрондау үшін тіркелгіңізге кіріңіз. Бұл сиқыр сияқты!
 postVerify-sub-description = (Бұл сонымен қатар бетбелгілер, парольдер және басқа { -brand-firefox } деректерін жүйеге кірген кез келген жерден алуға болатынын білдіреді.)
-postVerify-subject-3 = { -brand-firefox } ішіне қош келдіңіз!
 postVerify-subject-4 = { -brand-mozilla } ішіне қош келдіңіз!
 postVerify-setup-2 = Басқа құрылғыны байланыстыру:
 postVerify-action-2 = Басқа құрылғыны байланыстыру
@@ -425,18 +365,11 @@ postVerifySecondary-subject = Екіншілік эл. пошта адресі �
 postVerifySecondary-title = Екіншілік эл. пошта адресі қосылған
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Сіз { $secondaryEmail } адресін { -product-firefox-account } үшін екіншілік эл. пошта ретінде сәтті растадыңыз. Қауіпсіздік хабарландырулары мен кіру растаулары енді екі эл. пошта адресіне де жеткізіледі.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Сіз { $secondaryEmail } адресін { -product-mozilla-account } үшін екіншілік эл. пошта ретінде сәтті растадыңыз. Қауіпсіздік хабарландырулары мен кіру растаулары енді екі эл. пошта адресіне де жеткізіледі.
 postVerifySecondary-action = Тіркелгіні басқару
 recovery-subject = Парольді тастау
 recovery-title-2 = Пароліңізді ұмыттыңыз ба?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Біз сіздің { -product-firefox-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Біз сіздің { -product-mozilla-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
 recovery-new-password-button = Төмендегі батырманы басу арқылы жаңа парольді жасаңыз. Бұл сілтеме мерзімі келесі сағат ішінде аяқталады.
 recovery-copy-paste = Төмендегі URL адресін көшіріп, браузерге кірістіру арқылы жаңа парольді жасаңыз. Бұл сілтеме мерзімі келесі сағатта аяқталады.
@@ -449,11 +382,6 @@ subscriptionAccountDeletion-title = Кеткеніңізге өкінеміз
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Сіз жақында { -product-firefox-account } тіркелгіңізді өшірдіңіз. Нәтижесінде { $productName } жазылуыңызды тоқтаттық. Соңғы { $invoiceTotal } төлеміңіз { $invoiceDateOnly } күні төленді.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Сіз жақында { -product-mozilla-account } тіркелгіңізді өшірдіңіз. Нәтижесінде { $productName } жазылуыңызды тоқтаттық. Соңғы { $invoiceTotal } төлеміңіз { $invoiceDateOnly } күні төленді.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -462,20 +390,16 @@ subscriptionAccountFinishSetup-subject = { $productName } ішіне қош ке
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName } ішіне қош келдіңіз
 subscriptionAccountFinishSetup-content-processing = Төлеміңіз өңделуде және оның аяқталуына төрт жұмыс күні кетуі мүмкін. Бас тартуды таңдамасаңыз, жазылуыңыз әр есеп айырысу кезеңінде автоматты түрде жаңартылады.
-subscriptionAccountFinishSetup-content-create-2 = Содан кейін жаңа жазылуды пайдалануды бастау үшін { -product-firefox-account } паролін жасайсыз.
 subscriptionAccountFinishSetup-content-create-3 = Содан кейін жаңа жазылуды пайдалануды бастау үшін { -product-mozilla-account } паролін жасайсыз.
 subscriptionAccountFinishSetup-action-2 = Бастау
 subscriptionAccountReminderFirst-subject = Еске салғыш: тіркелгіңізді баптауды аяқтаңыз
 subscriptionAccountReminderFirst-title = Жазылуыңызға әлі қол жеткізе алмайсыз
-subscriptionAccountReminderFirst-content-info-2 = Бірнеше күн бұрын сіз { -product-firefox-account } тіркелгісін жасадыңыз, бірақ оны ешқашан растамадыңыз. Жаңа жазылуды пайдалана алуыңыз үшін тіркелгіңізді баптауды аяқтайсыз деп үміттенеміз.
 subscriptionAccountReminderFirst-content-info-3 = Бірнеше күн бұрын сіз { -product-mozilla-account } тіркелгісін жасадыңыз, бірақ оны ешқашан растамадыңыз. Жаңа жазылуды пайдалана алуыңыз үшін тіркелгіңізді баптауды аяқтайсыз деп үміттенеміз.
 subscriptionAccountReminderFirst-content-select-2 = Жаңа парольді орнату және тіркелгіңізді растауды аяқтау үшін "Парольді жасау" опциясын таңдаңыз.
 subscriptionAccountReminderFirst-action = Парольді жасау
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Соңғы ескерту: тіркелгіңізді баптаңыз
-subscriptionAccountReminderSecond-title = { -brand-firefox } ішіне қош келдіңіз!
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } ішіне қош келдіңіз!
-subscriptionAccountReminderSecond-content-info-2 = Бірнеше күн бұрын сіз { -product-firefox-account } тіркелгісін жасадыңыз, бірақ оны ешқашан растамадыңыз. Жаңа жазылуды пайдалана алуыңыз үшін тіркелгіңізді баптауды аяқтайсыз деп үміттенеміз.
 subscriptionAccountReminderSecond-content-info-3 = Бірнеше күн бұрын сіз { -product-mozilla-account } тіркелгісін жасадыңыз, бірақ оны ешқашан растамадыңыз. Жаңа жазылуды пайдалана алуыңыз үшін тіркелгіңізді баптауды аяқтайсыз деп үміттенеміз.
 subscriptionAccountReminderSecond-content-select-2 = Жаңа парольді орнату және тіркелгіңізді растауды аяқтау үшін "Парольді жасау" опциясын таңдаңыз.
 subscriptionAccountReminderSecond-action = Парольді жасау
@@ -629,31 +553,23 @@ unblockCode-prompt-plaintext = Иә болса, міне, сізге керек 
 unblockCode-report = Жоқ болса, алаяқтылармен күресуге көмектесу үшін <a data-l10n-name="reportSignInLink">ол туралы бізге хабарлаңыз.</a>
 unblockCode-report-plaintext = Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз.
 verificationReminderFinal-subject = Тіркелгіңізді растау үшін соңғы еске салғыш
-verificationReminderFinal-description = Бірнеше апта бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Сіздің қауіпсіздігіңіз үшін, тіркелгіңіз келесі 24 сағат ішінде расталмаса, оны өшіреміз.
 verificationReminderFinal-description-2 = Бірнеше апта бұрын сіз { -product-mozilla-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Сіздің қауіпсіздігіңіз үшін, тіркелгіңіз келесі 24 сағат ішінде расталмаса, оны өшіреміз.
 confirm-account = Тіркелгіні растау
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
-verificationReminderFirst-title-2 = { -brand-firefox } ішіне қош келдіңіз!
 verificationReminderFirst-title-3 = { -brand-mozilla } ішіне қош келдіңіз!
-verificationReminderFirst-description-2 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 15 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
 verificationReminderFirst-description-3 = Бірнеше күн бұрын сіз { -product-mozilla-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 15 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
 verificationReminderFirst-sub-description-3 = Сізді және сіздің жекелігіңізді бірінші орынға қоятын браузерді жіберіп алмаңыз.
 confirm-email-2 = Тіркелгіні растау
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Тіркелгіні растау
 verificationReminderSecond-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
-verificationReminderSecond-title-2 = { -brand-firefox } жіберіп алмаңыз!
 verificationReminderSecond-title-3 = { -brand-mozilla } жіберіп алмаңыз!
-verificationReminderSecond-description-3 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
 verificationReminderSecond-description-4 = Бірнеше күн бұрын сіз { -product-mozilla-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
-verificationReminderSecond-second-description = { -product-firefox-account } ақпаратыңызды құрылғылар арасында синхрондауға мүмкіндік береді және { -brand-mozilla } ұсынған, жекелігіңізді қорғайтын басқа да өнімдерге қол жеткізу мүмкіндігін береді.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account } { -brand-firefox } қалып-күйін құрылғылар арасында синхрондауға мүмкіндік береді және { -brand-mozilla } ұсынған, жекелігіңізді қорғайтын басқа да өнімдерге қол жеткізу мүмкіндігін береді.
 verificationReminderSecond-sub-description-2 = Интернетті әркім үшін ашық жерге айналдыру миссиямыздың бір бөлігі болыңыз.
 verificationReminderSecond-action-2 = Тіркелгіні растау
-verify-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
 verify-title-3 = { -brand-mozilla } көмегімен Интернетті ашыңыз
-verify-description = Тіркелгіңізді растаңыз және { -brand-firefox } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:
 verify-description-2 = Тіркелгіңізді растаңыз және { -brand-mozilla } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:
 verify-subject = Тіркелгіні жасауды аяқтаңыз
 verify-action-2 = Тіркелгіні растау
@@ -684,19 +600,13 @@ verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды ра
 verifySecondaryCode-action-2 = Эл. поштаны растау
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі { -product-firefox-account } тіркелгісінен жасалған:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі { -product-mozilla-account } тіркелгісінен жасалған:
 verifySecondaryCode-prompt-2 = Бұл растау кодын пайдалану:
 verifySecondaryCode-expiry-notice-2 = Оның мерзімі 5 минутта бітеді. Расталғаннан кейін бұл адрес қауіпсіздік хабарландырулары мен растауларын ала бастайды.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Тіркелгіңізді растаңыз
-verifyShortCode-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
 verifyShortCode-title-3 = { -brand-mozilla } көмегімен Интернетті ашыңыз
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Тіркелгіңізді растаңыз және { -brand-firefox } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Тіркелгіңізді растаңыз және { -brand-mozilla } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:
 verifyShortCode-prompt-3 = Бұл растау кодын пайдалану:
