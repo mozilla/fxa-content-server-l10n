@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = Skrá þig inn á { -product-firefox-accounts }?
 session-verify-send-push-title-2 = Skrá þig inn á { -product-mozilla-account }?
 session-verify-send-push-body-2 = Smelltu hér til að staðfesta að þetta sért þú
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Smelltu hér til að staðfesta að þetta sé
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } merki">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Samstilla tæki">
 body-devices-image = <img data-l10n-name="devices-image" alt="Tæki">
 fxa-privacy-url = Persónuverndarstefna { -brand-mozilla }
 moz-accounts-privacy-url-2 = Persónuverndarstefna { -product-mozilla-accounts(capitalization: "uppercase") }
-fxa-service-url = Þjónustuskilmálar { -product-firefox-cloud }
 moz-accounts-terms-url = Þjónustuskilmálar { -product-mozilla-accounts(capitalization: "uppercase") }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } merki">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } táknmerki">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } táknmerki">
 subplat-automated-email = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
 subplat-privacy-notice = Meðferð persónuupplýsinga
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú hefur skráð þig á { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-mozilla-account } og þú hefur skráð þig á { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-mozilla-account }.
-subplat-explainer-multiple = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú ert áskrifandi að ýmsum þjónustum.
 subplat-explainer-multiple-2 = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-mozilla-account } og þú ert áskrifandi að ýmsum þjónustum.
-subplat-explainer-was-deleted = Þú færð þennan tölvupóst vegna þess að { $email } var skráð fyrir { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Þú færð þennan tölvupóst vegna þess að { $email } var skráð fyrir { -product-mozilla-account }.
-subplat-manage-account = Sýslaðu með stillingar { -product-firefox-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
 subplat-manage-account-2 = Sýslaðu með stillingar { -product-mozilla-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Stjórnaðu stillingum { -product-firefox-account } með því að fara á reikningssíðuna þína: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Stjórnaðu stillingum { -product-mozilla-account } með því að fara á reikningssíðuna þína: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = Persónuverndarstefna { -brand-mozilla }
 subplat-privacy-policy-2 = Persónuverndarstefna { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = Þjónustuskilmálar { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Þjónustuskilmálar { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Lögfræðilegt efni
@@ -234,25 +213,6 @@ device-all = { $uaBrowser } á { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } á { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-vistfang: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (áætlað)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (áætlað)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (áætlað)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (áætlað)
 view-invoice = <a data-l10n-name="invoiceLink">Skoðaðu reikninginn þinn</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Samstilla annað tæki
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Það þarf tvennt til að samstilla
-cadReminderFirst-description-1 = Taktu með þér flipana á öllum tækjunum þínum. Hafðu bókamerkin þín, lykilorð og önnur gögn hvar sem þú notar { -brand-firefox }. { -brand-firefox } reikningurinn þinn getur gert galdra!
 cadReminderFirst-description-v2 = Taktu flipana með þér yfir á öll tækin þín. Fáðu bókamerkin þín, lykilorð og önnur gögn hvert sem þú notar { -brand-firefox }.
 cadReminderSecond-subject-2 = Ekki missa af! Ljúkum við uppsetningu samstillingar hjá þér
 cadReminderSecond-action = Samstilla annað tæki
@@ -278,12 +237,9 @@ downloadSubscription-subject = Velkomin í { $productName }
 downloadSubscription-title = Velkomin í { $productName }
 downloadSubscription-content-2 = Við skulum byrja á að nota alla eiginleikana sem fylgja áskriftinni þinni:
 downloadSubscription-link-action-2 = Komast í gang
-fraudulentAccountDeletion-subject = { -product-firefox-account } þínum var eytt
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } þínum var eytt
 fraudulentAccountDeletion-title = Reikningnum þínum var eytt
-fraudulentAccountDeletion-content = Nýlega var { -product-firefox-account } stofnað og áskrift sett í innheimtu með þessu póstfangi. Eins og við gerum með alla nýja reikninga, báðum við þig um að staðfesta reikninginn þinn með því að staðfesta þetta tölvupóstfang fyrst.
 fraudulentAccountDeletion-content-part1-v2 = Nýlega var stofnaður { -product-mozilla-account } og áskrift sett í innheimtu með þessu póstfangi. Eins og við gerum með alla nýja reikninga, báðum við þig um að staðfesta reikninginn þinn með því að staðfesta þetta tölvupóstfang fyrst.
-fraudulentAccountDeletion-content-2 = Sem stendur sjáum við að reikningurinn hefur aldrei verið staðfestur. Þar sem ekki var lokið við þetta skref, getum við ekki verið viss um hvort þetta hafi verið heimil áskrift. Þess vegna var { -product-firefox-account } sem skráð var á þetta póstfang eytt og áskriftinni sagt upp auk þess að allar kröfur hafa verið endurgreiddar.
 fraudulentAccountDeletion-content-part2-v2 = Sem stendur sjáum við að reikningurinn hefur aldrei verið staðfestur. Þar sem ekki var lokið við þetta skref, getum við ekki verið viss um hvort þetta hafi verið heimil áskrift. Þess vegna var { -product-mozilla-account } sem skráður var á þetta póstfang eytt og áskriftinni sagt upp auk þess að allar kröfur hafa verið endurgreiddar.
 fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skaltu hafa samband við <a data-l10n-name="mozillaSupportUrl">aðstoðarteymið okkar</a>.
 # Variables:
@@ -308,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ný innskráning á { $clientName }
-newDeviceLogin-title-2 = { -product-firefox-account } þinn var notaður til að skrá þig inn
+newDeviceLogin-subjectForMozillaAccount = Ný innskráning á { -product-mozilla-account }-reikninginn þinn
 newDeviceLogin-title-3 = { -product-mozilla-account } þinn var notaður til að skrá þig inn
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -319,13 +275,10 @@ newDeviceLogin-change-password-plain = Ekki þú? Breyttu lykilorðinu þínu:
 newDeviceLogin-action = Sýsla með reikning
 passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
-passwordChanged-description = Lykilorðinu fyrir { -product-firefox-account } reikninginn þinn var breytt af eftirfarandi tæki:
 passwordChanged-description-2 = Lykilorðinu fyrir { -product-mozilla-account } þinn var breytt af eftirfarandi tæki:
 passwordChangeRequired-subject = Vart við grunsamlega virkni
 passwordChangeRequired-title = Nauðsynlegt að skipta um lykilorð
-passwordChangeRequired-suspicious-activity = Við fundum grunsamlega virkni á { -product-firefox-account } þínum. Til að koma í veg fyrir óheimilan aðgang að { -product-firefox-account } þínum höfum við aftengt öll tæki á reikningnum þínum og krefjumst þess að þú breytir lykilorðinu þínu í varúðarskyni.
 passwordChangeRequired-suspicious-activity-2 = Við fundum grunsamlega virkni á { -product-mozilla-account } þínum. Til að koma í veg fyrir óheimilan aðgang að { -product-mozilla-account } þínum höfum við aftengt öll tæki á reikningnum þínum og krefjumst þess að þú breytir lykilorðinu þínu í varúðarskyni.
-passwordChangeRequired-sign-in = Skráðu þig aftur inn á hvaða tæki eða þjónustu sem er þar sem þú notar { -product-firefox-account } og fylgdu skrefunum sem verða kynnt fyrir þér.
 passwordChangeRequired-sign-in-2 = Skráðu þig aftur inn á hvaða tæki eða þjónustu sem er þar sem þú notar { -product-mozilla-account } og fylgdu skrefunum sem verða kynnt fyrir þér.
 passwordChangeRequired-different-password = <b>Mikilvægt:</b> Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
 passwordChangeRequired-different-password-plaintext = Mikilvægt: Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
@@ -334,10 +287,8 @@ passwordReset-title = Lykilorð reikningsins þíns breyttist
 passwordReset-description = Þú verður að setja inn nýja lykilorðið þitt á öðrum tækjum til að halda áfram með samstillingu.
 passwordResetAccountRecovery-subject-2 = Lykilorðið þitt var endurstillt
 passwordResetAccountRecovery-title-2 = Það tókst að endurstilla lykilorð
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra lykilorðið þitt frá:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Útbúa nýjan endurheimtulykil fyrir reikninginn
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Útbúðu endurheimtulykil reiknings
 passwordResetAccountRecovery-regen-required-mjml-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir.
@@ -350,11 +301,7 @@ postAddAccountRecovery-body-part1 = Vistaðu þennan lykil á öruggum stað - �
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Aðeins er hægt að nota þennan lykil einu sinni. Eftir að þú hefur notað hann munum við sjálfkrafa búa til nýjan fyrir þig. Eða þú getur búið til nýjan hvenær sem er í stillingum reikningsins þíns.
 postAddAccountRecovery-action = Sýsla með reikning
-postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nýr reikningur tengdur við { -product-mozilla-account }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-firefox-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-mozilla-account }
@@ -372,9 +319,6 @@ postChangeAccountRecovery-body-part2 = Vistaðu þennan nýja lykil á öruggum 
 postChangeAccountRecovery-action = Sýsla með reikning
 postChangePrimary-subject = Aðaltölvupóstfang uppfært
 postChangePrimary-title = Nýtt aðaltölvupóstfang
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-firefox-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-mozilla-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
@@ -402,9 +346,6 @@ postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Þú hefur fjarlægt { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða ekki lengur sendar á þetta tölvupóstfang.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Þú hefur fjarlægt { $secondaryEmail } sem aukapóstfang fyrir { -product-mozilla-account }. Öryggistilkynningar og staðfestingar á innskráningu verða ekki lengur sendar á þetta tölvupóstfang.
 postRemoveSecondary-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-subject-line-2 = Slökkt er á tveggja-þrepa auðkenningu
@@ -417,7 +358,6 @@ postVerify-sub-title-3 = Við erum ánægð að sjá þig!
 postVerify-title-2 = Viltu sjá sama flipa á tveimur tækjum?
 postVerify-description-2 = Það er einfalt! Settu bara { -brand-firefox } upp á öðru tæki og skráðu þig inn til að samstilla. Það virkar eins og galdrar!
 postVerify-sub-description = (Psst… Það þýðir líka að þú getur náð í bókamerkin þín, lykilorð og önnur { -brand-firefox } gögn hvar sem þú ert skráð/ur inn.)
-postVerify-subject-3 = Velkomin í { -brand-firefox }!
 postVerify-subject-4 = Velkomin í { -brand-mozilla }!
 postVerify-setup-2 = Tengja annað tæki:
 postVerify-action-2 = Tengja annað tæki
@@ -425,18 +365,11 @@ postVerifySecondary-subject = Aukapóstfangi bætt við
 postVerifySecondary-title = Aukapóstfangi bætt við
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-mozilla-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
 postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
 recovery-title-2 = Gleymt lykilorð?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Við fengum beiðni um breytingu á lykilorði á { -product-firefox-account }-reikningnum þínum frá:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Við fengum beiðni um breytingu á lykilorði á { -product-mozilla-account }-reikningnum þínum frá:
 recovery-new-password-button = Búðu til nýtt lykilorð með því að smella á hnappinn hér fyrir neðan. Þessi tengill mun renna út innan klukkustundar.
 recovery-copy-paste = Búðu til nýtt lykilorð með því að afrita og líma slóðina hér að neðan í vafrann þinn. Þessi tengill mun renna út innan klukkustundar.
@@ -449,11 +382,6 @@ subscriptionAccountDeletion-title = Okkur þykir miður að þú sért á förum
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Þú eyddir { -product-firefox-account }-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín upp á { $invoiceTotal } var greidd þann { $invoiceDateOnly }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Þú eyddir { -product-mozilla-account }-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín upp á { $invoiceTotal } var greidd þann { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -462,20 +390,16 @@ subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu l
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomin í { $productName }
 subscriptionAccountFinishSetup-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni. Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
-subscriptionAccountFinishSetup-content-create-2 = Næst muntu búa til { -product-firefox-account } lykilorð til að geta byrjað að nota nýju áskriftina þína.
 subscriptionAccountFinishSetup-content-create-3 = Næst muntu búa til { -product-mozilla-account }-lykilorð til að geta byrjað að nota nýju áskriftina þína.
 subscriptionAccountFinishSetup-action-2 = Komast í gang
 subscriptionAccountReminderFirst-subject = Áminning: Ljúktu við að setja upp reikninginn þinn
 subscriptionAccountReminderFirst-title = Þú hefur ekki ennþá aðgang að áskriftinni þinni
-subscriptionAccountReminderFirst-content-info-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
 subscriptionAccountReminderFirst-content-info-3 = Fyrir nokkrum dögum síðan bjóstu til { -product-mozilla-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
 subscriptionAccountReminderFirst-content-select-2 = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
 subscriptionAccountReminderFirst-action = Búa til lykilorð
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lokaáminning: Settu upp reikninginn þinn
-subscriptionAccountReminderSecond-title = Velkomin í { -brand-firefox }!
 subscriptionAccountReminderSecond-title-2 = Velkomin í { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
 subscriptionAccountReminderSecond-content-info-3 = Fyrir nokkrum dögum síðan bjóstu til { -product-mozilla-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
 subscriptionAccountReminderSecond-content-select-2 = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
 subscriptionAccountReminderSecond-action = Búa til lykilorð
@@ -629,31 +553,23 @@ unblockCode-prompt-plaintext = Ef já, þá er hérna auðkenningarkóðinn sem 
 unblockCode-report = Ef nei, hjálpaðu okkur að verjast boðflennum með því að <a data-l10n-name="reportSignInLink">tilkynna okkur þetta.</a>
 unblockCode-report-plaintext = Ef nei, hjálpaðu okkur að verjast boðflennum með því að tilkynna okkur þetta.
 verificationReminderFinal-subject = Lokaáminning um að staðfesta reikninginn þinn
-verificationReminderFinal-description = Fyrir nokkrum vikum síðan stofnaðir þú { -product-firefox-account } en staðfestir hann aldrei. Til að gæta öryggis þíns, munum við eyða reikningnum ef hann er ekki staðfestur innan 24 klukkustunda.
 verificationReminderFinal-description-2 = Fyrir nokkrum vikum síðan stofnaðir þú { -product-mozilla-account } en staðfestir hann aldrei. Til að gæta öryggis þíns, munum við eyða reikningnum ef hann er ekki staðfestur innan 24 klukkustunda.
 confirm-account = Staðfesta reikning
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Mundu að staðfesta reikninginn þinn
-verificationReminderFirst-title-2 = Velkomin í { -brand-firefox }!
 verificationReminderFirst-title-3 = Velkomin í { -brand-mozilla }!
-verificationReminderFirst-description-2 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 15 daga eða honum verður sjálfkrafa eytt.
 verificationReminderFirst-description-3 = Fyrir nokkrum dögum bjóstu til { -product-mozilla-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 15 daga eða honum verður sjálfkrafa eytt.
 verificationReminderFirst-sub-description-3 = Ekki missa af tækni sem setur þig og friðhelgi þína í fyrsta sæti.
 confirm-email-2 = Staðfesta reikning
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Staðfesta reikning
 verificationReminderSecond-subject-2 = Mundu að staðfesta reikninginn þinn
-verificationReminderSecond-title-2 = Ekki missa af { -brand-firefox }!
 verificationReminderSecond-title-3 = Ekki missa af { -brand-mozilla }!
-verificationReminderSecond-description-3 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
 verificationReminderSecond-description-4 = Fyrir nokkrum dögum bjóstu til { -product-mozilla-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
-verificationReminderSecond-second-description = { -product-firefox-account } gerir þér kleift að samstilla upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account } gerir þér kleift að samstilla { -brand-firefox }-upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Vertu hluti af verkefni okkar að breyta internetinu í stað sem er opinn fyrir alla.
 verificationReminderSecond-action-2 = Staðfesta reikning
-verify-title-2 = Opnaðu internetið með { -brand-firefox }
 verify-title-3 = Opnaðu internetið með { -brand-mozilla }
-verify-description = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verify-description-2 = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-mozilla } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verify-subject = Ljúktu við að búa til reikninginn þinn
 verify-action-2 = Staðfesta reikning
@@ -684,19 +600,13 @@ verifySecondaryCode-title-2 = Staðfestu aukatölvupóstfang
 verifySecondaryCode-action-2 = Staðfestu tölvupóstfangið
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-mozilla-account }-reikningi:
 verifySecondaryCode-prompt-2 = Notaðu þennan staðfestingarkóða:
 verifySecondaryCode-expiry-notice-2 = Hann rennur út eftir 5 mínútur. Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Staðfestu reikninginn þinn
-verifyShortCode-title-2 = Opnaðu internetið með { -brand-firefox }
 verifyShortCode-title-3 = Opnaðu internetið með { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn, til dæmis fyrst á:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-mozilla } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verifyShortCode-prompt-3 = Notaðu þennan staðfestingarkóða:
