@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = Đăng nhập vào { -product-firefox-accounts }?
 session-verify-send-push-title-2 = Đăng nhập vào { -product-mozilla-account } của bạn?
 session-verify-send-push-body-2 = Nhấp vào đây để xác minh đó là bạn
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Nhấp vào đây để xác minh đó là b�
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Đồng bộ hóa thiết bị">
 body-devices-image = <img data-l10n-name="devices-image" alt="Thiết bị">
 fxa-privacy-url = Chính sách bảo mật của { -brand-mozilla }
 moz-accounts-privacy-url-2 = Thông báo về quyền riêng tư của { -product-mozilla-accounts(capitalization: "uppercase") }
-fxa-service-url = Điều khoản dịch vụ của { -product-firefox-cloud }
 moz-accounts-terms-url = Điều khoản sử dụng của { -product-mozilla-accounts(capitalization: "uppercase") }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào.
 subplat-privacy-notice = Chính sách riêng tư
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Bạn nhận được email này vì { $email } có { -product-firefox-account } và bạn đã đăng ký { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Bạn nhận được email này vì { $email } đã tạo { -product-mozilla-account } và bạn đã đăng ký { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Bạn nhận được email này vì { $email } có { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Bạn nhận được email này vì { $email } đã tạo { -product-mozilla-account }.
-subplat-explainer-multiple = Bạn nhận được email này vì { $email } có { -product-firefox-account } và bạn đã đăng ký nhiều sản phẩm.
 subplat-explainer-multiple-2 = Bạn nhận được email này vì { $email } đã tạo { -product-mozilla-account } và bạn đã đăng ký nhiều sản phẩm.
-subplat-explainer-was-deleted = Bạn nhận được email này vì { $email } đã được đăng ký cho một { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Bạn nhận được email này vì { $email } đã được đăng ký cho { -product-mozilla-account }.
-subplat-manage-account = Quản lý cài đặt { -product-firefox-account } của bạn bằng cách truy cập <a data-l10n-name="subplat-account-page">trang tài khoản</a> của bạn.
 subplat-manage-account-2 = Quản lý cài đặt { -product-mozilla-account } của bạn bằng cách truy cập <a data-l10n-name="subplat-account-page">trang tài khoản</a> của bạn.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Quản lý cài đặt { -product-firefox-account } của bạn bằng cách truy cập trang tài khoản của bạn: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Quản lý cài đặt { -product-mozilla-account } của bạn bằng cách truy cập trang tài khoản của bạn: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = Chính sách bảo mật của { -brand-mozilla }
 subplat-privacy-policy-2 = Thông báo về quyền riêng tư của { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = Điều khoản dịch vụ của { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Điều khoản sử dụng của { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Pháp lý
@@ -234,25 +213,6 @@ device-all = { $uaBrowser } trên { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } trên { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Địa chỉ IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (ước tính)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (ước tính)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (ước tính)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (ước tính)
 view-invoice = <a data-l10n-name="invoiceLink">Xem hóa đơn của bạn</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Đồng bộ hóa thiết bị khác
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Hai thiết bị để đồng bộ hóa
-cadReminderFirst-description-1 = Đưa các thẻ của bạn trên tất cả các thiết bị của bạn. Nhận dấu trang, mật khẩu và dữ liệu khác của bạn ở mọi nơi bạn sử dụng { -brand-firefox }. Nó giống như có phép thuật trong tài khoản { -brand-firefox } của bạn!
 cadReminderFirst-description-v2 = Nhận các thẻ của bạn trên tất cả các thiết bị của bạn. Nhận dấu trang, mật khẩu và dữ liệu khác ở mọi nơi bạn sử dụng { -brand-firefox }.
 cadReminderSecond-subject-2 = Đừng bỏ lỡ! Hãy hoàn tất thiết lập đồng bộ hóa của bạn
 cadReminderSecond-action = Đồng bộ hóa thiết bị khác
@@ -278,12 +237,9 @@ downloadSubscription-subject = Chào mừng đến với { $productName }
 downloadSubscription-title = Chào mừng đến với { $productName }
 downloadSubscription-content-2 = Hãy bắt đầu sử dụng tất cả các tính năng có trong thuê bao của bạn:
 downloadSubscription-link-action-2 = Bắt đầu
-fraudulentAccountDeletion-subject = { -product-firefox-account } của bạn đã bị xóa
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } của bạn đã bị xoá
 fraudulentAccountDeletion-title = Tài khoản của bạn đã bị xóa
-fraudulentAccountDeletion-content = Gần đây, một { -product-firefox-account } đã được tạo và một thuê bao đã bị tính phí khi sử dụng địa chỉ email này. Như chúng tôi làm với tất cả các tài khoản mới, chúng tôi yêu cầu bạn xác nhận tài khoản của mình bằng cách xác thực địa chỉ email này trước.
 fraudulentAccountDeletion-content-part1-v2 = Gần đây, một { -product-mozilla-account } đã được tạo và đăng ký được tính phí bằng địa chỉ email này. Như chúng tôi làm với tất cả các tài khoản mới, chúng tôi đã yêu cầu bạn xác nhận tài khoản của mình bằng cách xác thực địa chỉ email này trước tiên.
-fraudulentAccountDeletion-content-2 = Hiện tại, chúng tôi thấy rằng tài khoản chưa bao giờ được xác nhận. Vì bước này chưa hoàn thành nên chúng tôi không chắc đây có phải là thuê bao được ủy quyền hay không. Do đó, { -product-firefox-account } đã đăng ký với địa chỉ email này đã bị xóa và thuê bao của bạn bị hủy với tất cả các khoản phí được hoàn lại.
 fraudulentAccountDeletion-content-part2-v2 = Hiện tại, chúng tôi thấy rằng tài khoản chưa bao giờ được xác nhận. Vì bước này chưa được hoàn thành nên chúng tôi không chắc liệu đây có phải là đăng ký được ủy quyền hay không. Do đó, { -product-mozilla-account } được đăng ký theo địa chỉ email này đã bị xóa và thuê bao của bạn đã bị hủy với tất cả các khoản phí đã được hoàn lại.
 fraudulentAccountDeletion-contact = Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với<a data-l10n-name="mozillaSupportUrl">nhóm hỗ trợ</a> của chúng tôi.
 # Variables:
@@ -307,7 +263,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Đăng nhập mới vào { $clientName }
-newDeviceLogin-title-2 = { -product-firefox-account } của bạn đã được sử dụng để đăng nhập
+newDeviceLogin-subjectForMozillaAccount = Đăng nhập mới vào { -product-mozilla-account } của bạn
 newDeviceLogin-title-3 = { -product-mozilla-account } của bạn đã được sử dụng để đăng nhập
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -318,13 +274,10 @@ newDeviceLogin-change-password-plain = Không phải bạn? Thay đổi mật kh
 newDeviceLogin-action = Quản lý tài khoản
 passwordChanged-subject = Đã cập nhật mật khẩu
 passwordChanged-title = Mật khẩu đã thay đổi thành công
-passwordChanged-description = Mật khẩu { -product-firefox-account } của bạn đã được thay đổi thành công từ thiết bị sau:
 passwordChanged-description-2 = Mật khẩu { -product-mozilla-account } của bạn đã được thay đổi thành công từ thiết bị sau:
 passwordChangeRequired-subject = Phát hiện hoạt động đáng ngờ
 passwordChangeRequired-title = Yêu cầu thay đổi mật khẩu
-passwordChangeRequired-suspicious-activity = Chúng tôi đã phát hiện thấy hành vi đáng ngờ trên { -product-firefox-account } của bạn. Để ngăn truy cập trái phép vào { -product-firefox-account } của bạn, chúng tôi đã ngắt kết nối tất cả các thiết bị trong tài khoản của bạn và yêu cầu bạn thay đổi mật khẩu của mình để đề phòng.
 passwordChangeRequired-suspicious-activity-2 = Chúng tôi đã phát hiện thấy hành vi đáng ngờ trên { -product-mozilla-account } của bạn. Để ngăn chặn truy cập trái phép vào { -product-mozilla-account } của bạn, chúng tôi đã ngắt kết nối tất cả các thiết bị trên tài khoản của bạn và yêu cầu bạn thay đổi mật khẩu để đề phòng.
-passwordChangeRequired-sign-in = Đăng nhập lại vào bất kỳ thiết bị hoặc dịch vụ nào mà bạn sử dụng { -product-firefox-account } của mình và làm theo các bước sẽ được trình bày cho bạn.
 passwordChangeRequired-sign-in-2 = Đăng nhập lại vào bất kỳ thiết bị hoặc dịch vụ nào mà bạn sử dụng { -product-mozilla-account } và làm theo các bước sẽ được cung cấp cho bạn.
 passwordChangeRequired-different-password = <b>Quan trọng:</b> Chọn một mật khẩu khác với mật khẩu bạn đã sử dụng trước đó và đảm bảo rằng nó khác với tài khoản email của bạn.
 passwordChangeRequired-different-password-plaintext = Quan trọng: Chọn một mật khẩu khác với mật khẩu bạn đã sử dụng trước đó và đảm bảo rằng nó khác với tài khoản email của bạn.
@@ -333,10 +286,8 @@ passwordReset-title = Mật khẩu tài khoản của bạn đã được thay �
 passwordReset-description = Bạn sẽ cần nhập mật khẩu mới của mình trên các thiết bị khác để tiếp tục đồng bộ hóa.
 passwordResetAccountRecovery-subject-2 = Mật khẩu của bạn đã được đặt lại
 passwordResetAccountRecovery-title-2 = Đặt lại mật khẩu thành công
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Bạn đã sử dụng khóa khôi phục tài khoản của mình để cập nhật mật khẩu của mình từ:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Tạo khóa khôi phục tài khoản mới
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Tạo khóa khôi phục tài khoản
 passwordResetAccountRecovery-regen-required-mjml-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng.
@@ -349,11 +300,7 @@ postAddAccountRecovery-body-part1 = Lưu khóa này ở nơi an toàn — bạn 
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Khóa này chỉ có thể được sử dụng một lần. Sau khi bạn sử dụng nó, chúng tôi sẽ tự động tạo một cái mới cho bạn. Hoặc bạn có thể tạo một tài khoản mới bất kỳ lúc nào từ cài đặt tài khoản của mình.
 postAddAccountRecovery-action = Quản lý tài khoản
-postAddLinkedAccount-subject = Tài khoản mới được liên kết với { -brand-firefox }
 postAddLinkedAccount-subject-2 = Tài khoản mới được liên kết với { -product-mozilla-account } của bạn
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Tài khoản { $providerName } của bạn đã được liên kết với { -product-firefox-account } của bạn
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tài khoản { $providerName } của bạn đã được liên kết với { -product-mozilla-account }
@@ -371,9 +318,6 @@ postChangeAccountRecovery-body-part2 = Lưu khóa mới này ở nơi an toàn �
 postChangeAccountRecovery-action = Quản lý tài khoản
 postChangePrimary-subject = Email chính đã xác minh
 postChangePrimary-title = Email chính mới
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Bạn đã thay đổi thành công email chính của mình thành { $email }. Địa chỉ này hiện là tên người dùng của bạn để đăng nhập vào { -product-firefox-account } của bạn, cũng như nhận thông báo bảo mật và xác nhận đăng nhập.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Bạn đã thay đổi thành công email chính của mình thành { $email }. Địa chỉ này hiện là tên người dùng để đăng nhập vào { -product-mozilla-account } của bạn cũng như nhận thông báo bảo mật và xác nhận đăng nhập.
@@ -400,9 +344,6 @@ postRemoveSecondary-subject = Đã xóa email phụ
 postRemoveSecondary-title = Đã xóa email phụ
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Bạn đã xóa thành công { $secondaryEmail } dưới dạng email phụ khỏi { -product-firefox-account } của mình. Thông báo bảo mật và xác nhận đăng nhập sẽ không còn được gửi đến địa chỉ này.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Bạn đã xóa thành công { $secondaryEmail } làm email phụ khỏi { -product-mozilla-account } của mình. Thông báo bảo mật và xác nhận đăng nhập sẽ không còn được gửi tới địa chỉ này nữa.
 postRemoveSecondary-action = Quản lý tài khoản
 postRemoveTwoStepAuthentication-subject-line-2 = Xác thực hai bước đã tắt
@@ -415,7 +356,6 @@ postVerify-sub-title-3 = Chúng tôi rất vui được gặp bạn!
 postVerify-title-2 = Bạn muốn xem cùng một thẻ trên hai thiết bị?
 postVerify-description-2 = Dễ thôi! Chỉ cần cài đặt { -brand-firefox } trên một thiết bị khác và đăng nhập để đồng bộ hóa. Nó giống như một phép thuật!
 postVerify-sub-description = (Psst… Điều đó cũng có nghĩa là bạn có thể lấy dấu trang, mật khẩu và dữ liệu { -brand-firefox } khác ở mọi nơi bạn đăng nhập.)
-postVerify-subject-3 = Chào mừng đến với { -brand-firefox }!
 postVerify-subject-4 = Chào mừng đến với { -brand-mozilla }!
 postVerify-setup-2 = Kết nối thiết bị khác:
 postVerify-action-2 = Kết nối thiết bị khác
@@ -423,18 +363,11 @@ postVerifySecondary-subject = Đã thêm email phụ
 postVerifySecondary-title = Đã thêm email phụ
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Bạn đã xác minh thành công { $secondaryEmail } làm email phụ từ { -product-firefox-account } của mình. Giờ đây, thông báo bảo mật và xác nhận đăng nhập sẽ được gửi tới cả hai địa chỉ email.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Bạn đã xác nhận thành công { $secondaryEmail } làm email phụ cho { -product-mozilla-account } của mình. Thông báo bảo mật và xác nhận đăng nhập giờ đây sẽ được gửi đến cả hai địa chỉ email.
 postVerifySecondary-action = Quản lý tài khoản
 recovery-subject = Đặt lại mật khẩu của bạn
 recovery-title-2 = Bạn đã quên mật khẩu?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu trên { -product-firefox-account } của bạn từ:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu { -product-mozilla-account } của bạn từ:
 recovery-new-password-button = Tạo mật khẩu mới bằng cách nhấp vào nút bên dưới. Liên kết này sẽ hết hạn trong vòng một giờ tới.
 recovery-copy-paste = Tạo mật khẩu mới bằng cách sao chép và dán URL bên dưới vào trình duyệt của bạn. Liên kết này sẽ hết hạn trong vòng một giờ tới.
@@ -447,11 +380,6 @@ subscriptionAccountDeletion-title = Rất tiếc vì bạn chuẩn bị ra đi
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Gần đây bạn đã xóa { -product-firefox-account }. Do đó, chúng tôi đã hủy thuê bao { $productName } của bạn. Khoản thanh toán cuối cùng { $invoiceTotal } của bạn đã được thực hiện vào { $invoiceDateOnly }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Gần đây bạn đã xóa { -product-mozilla-account } của mình. Do đó, chúng tôi đã hủy đăng ký { $productName } của bạn. Khoản thanh toán cuối cùng của bạn là { $invoiceTotal } đã được thanh toán vào { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -460,20 +388,16 @@ subscriptionAccountFinishSetup-subject = Chào mừng bạn đến với { $prod
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Chào mừng đến với { $productName }
 subscriptionAccountFinishSetup-content-processing = Thanh toán của bạn đang được xử lý và có thể mất đến bốn ngày làm việc để hoàn tất. Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
-subscriptionAccountFinishSetup-content-create-2 = Tiếp theo, bạn sẽ tạo mật khẩu { -product-firefox-account } để bắt đầu sử dụng thuê bao mới của mình.
 subscriptionAccountFinishSetup-content-create-3 = Tiếp theo, bạn sẽ tạo mật khẩu { -product-mozilla-account } để bắt đầu sử dụng thuê bao mới của mình.
 subscriptionAccountFinishSetup-action-2 = Bắt đầu
 subscriptionAccountReminderFirst-subject = Nhắc nhở: Hoàn tất thiết lập tài khoản của bạn
 subscriptionAccountReminderFirst-title = Bạn chưa thể truy cập thuê bao của mình
-subscriptionAccountReminderFirst-content-info-2 = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh tài khoản đó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới của mình.
 subscriptionAccountReminderFirst-content-info-3 = Vài ngày trước bạn đã tạo { -product-mozilla-account } nhưng chưa bao giờ xác nhận nó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới.
 subscriptionAccountReminderFirst-content-select-2 = Chọn “Tạo mật khẩu” để thiết lập mật khẩu mới và hoàn tất việc xác minh tài khoản của bạn.
 subscriptionAccountReminderFirst-action = Tạo mật khẩu
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lời nhắc cuối cùng: Thiết lập tài khoản của bạn
-subscriptionAccountReminderSecond-title = Chào mừng đến với { -brand-firefox }!
 subscriptionAccountReminderSecond-title-2 = Chào mừng đến với { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-2 = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh tài khoản đó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới của mình.
 subscriptionAccountReminderSecond-content-info-3 = Vài ngày trước bạn đã tạo { -product-mozilla-account } nhưng chưa bao giờ xác nhận nó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới.
 subscriptionAccountReminderSecond-content-select-2 = Chọn “Tạo mật khẩu” để thiết lập mật khẩu mới và hoàn tất việc xác minh tài khoản của bạn.
 subscriptionAccountReminderSecond-action = Tạo mật khẩu
@@ -627,31 +551,23 @@ unblockCode-prompt-plaintext = Nếu có, đây là mã xác minh bạn cần: {
 unblockCode-report = Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và <a data-l10n-name="reportSignInLink">báo cáo cho chúng tôi</a>.
 unblockCode-report-plaintext = Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và báo cáo cho chúng tôi.
 verificationReminderFinal-subject = Lời nhắc cuối cùng để xác minh tài khoản của bạn
-verificationReminderFinal-description = Vài tuần trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Để bảo mật cho bạn, chúng tôi sẽ xóa tài khoản nếu không được xác minh trong 24 giờ tới.
 verificationReminderFinal-description-2 = Một vài tuần trước, bạn đã tạo { -product-mozilla-account } nhưng chưa bao giờ xác nhận nó. Để bảo mật cho bạn, chúng tôi sẽ xóa tài khoản nếu không được xác minh trong 24 giờ tới.
 confirm-account = Xác minh tài khoản
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hãy nhớ xác minh tài khoản của bạn
-verificationReminderFirst-title-2 = Chào mừng đến với { -brand-firefox }!
 verificationReminderFirst-title-3 = Chào mừng đến với { -brand-mozilla }!
-verificationReminderFirst-description-2 = Vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Vui lòng xác minh tài khoản của bạn trong 15 ngày tới, nếu không tài khoản sẽ tự động bị xóa.
 verificationReminderFirst-description-3 = Một vài ngày trước, bạn đã tạo { -product-mozilla-account } nhưng chưa bao giờ xác nhận nó. Vui lòng xác nhận tài khoản của bạn trong 15 ngày tới, nếu không tài khoản sẽ tự động bị xóa.
 verificationReminderFirst-sub-description-3 = Đừng bỏ lỡ trình duyệt đặt bạn và quyền riêng tư của bạn lên hàng đầu.
 confirm-email-2 = Xác minh tài khoản
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Xác minh tài khoản
 verificationReminderSecond-subject-2 = Hãy nhớ xác minh tài khoản của bạn
-verificationReminderSecond-title-2 = Đừng bỏ lỡ { -brand-firefox }!
 verificationReminderSecond-title-3 = Đừng bỏ lỡ { -brand-mozilla }!
-verificationReminderSecond-description-3 = Vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Vui lòng xác minh tài khoản của bạn trong 10 ngày tới, nếu không tài khoản sẽ tự động bị xóa.
 verificationReminderSecond-description-4 = Một vài ngày trước, bạn đã tạo { -product-mozilla-account } nhưng chưa bao giờ xác nhận nó. Vui lòng xác nhận tài khoản của bạn trong 10 ngày tới, nếu không nó sẽ tự động bị xóa.
-verificationReminderSecond-second-description = { -product-firefox-account } của bạn cho phép bạn đồng bộ hóa thông tin của mình trên các thiết bị và mở khóa quyền truy cập vào các sản phẩm bảo vệ quyền riêng tư khác từ { -brand-mozilla }.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account } của bạn cho phép bạn đồng bộ hóa trải nghiệm { -brand-firefox } của bạn trên nhiều thiết bị và mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Hãy là một phần trong sứ mệnh của chúng tôi là biến Internet thành một nơi mở cửa cho tất cả mọi người.
 verificationReminderSecond-action-2 = Xác minh tài khoản
-verify-title-2 = Mở Internet bằng { -brand-firefox }
 verify-title-3 = Mở ra thế giới internet với { -brand-mozilla }
-verify-description = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-firefox } ở mọi nơi bạn đăng nhập bắt đầu bằng:
 verify-description-2 = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-mozilla } ở mọi nơi bạn đăng nhập, bắt đầu bằng:
 verify-subject = Hoàn tất việc tạo tài khoản của bạn
 verify-action-2 = Xác minh tài khoản
@@ -682,19 +598,13 @@ verifySecondaryCode-title-2 = Xác minh email phụ
 verifySecondaryCode-action-2 = Xác minh email
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Yêu cầu sử dụng { $email } làm địa chỉ email phụ đã được thực hiện từ { -product-firefox-account } sau:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Yêu cầu sử dụng { $email } làm địa chỉ email phụ đã được gửi từ { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Sử dụng mã xác minh này:
 verifySecondaryCode-expiry-notice-2 = Nó hết hạn sau 5 phút. Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Xác minh tài khoản của bạn
-verifyShortCode-title-2 = Mở Internet bằng { -brand-firefox }
 verifyShortCode-title-3 = Mở ra thế giới internet với { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Xác minh tài khoản của bạn và tận dụng tối đa { -brand-firefox } ở mọi nơi bạn đăng nhập bắt đầu bằng:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-mozilla } ở mọi nơi bạn đăng nhập, bắt đầu bằng:
 verifyShortCode-prompt-3 = Sử dụng mã xác minh này:
