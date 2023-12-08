@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = 是否在登录 { -product-firefox-accounts }？
 session-verify-send-push-title-2 = 正在登录您的 { -product-mozilla-account }？
 session-verify-send-push-body-2 = 点击此处以验证本人操作
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = 点击此处以验证本人操作
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } 徽标">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 徽标">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步设备">
 body-devices-image = <img data-l10n-name="devices-image" alt="设备">
 fxa-privacy-url = { -brand-mozilla } 隐私政策
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隐私声明
-fxa-service-url = { -product-firefox-cloud } 服务条款
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }服务条款
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 徽标">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 徽标">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } 徽标">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 徽标">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } 徽标">
 subplat-automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
 subplat-privacy-notice = 隐私声明
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }：
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = 您收到此邮件是因为 { $email } 注册了 { -product-firefox-account }，且订阅了 { $productName }。
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = 您收到此邮件是因为 { $email } 注册了 { -product-mozilla-account }且订阅了 { $productName }。
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = 您收到这封邮件是因为 { $email } 注册了 { -product-mozilla-account }。
-subplat-explainer-multiple = 您收到此邮件是因为 { $email } 注册了 { -product-firefox-account }，且订阅了多个产品。
 subplat-explainer-multiple-2 = 您收到此邮件是因为 { $email } 注册了 { -product-mozilla-account }且订阅了多个产品。
-subplat-explainer-was-deleted = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
 subplat-explainer-was-deleted-2 = 您收到这封邮件是因为 { $email } 注册了 { -product-mozilla-account }。
-subplat-manage-account = 访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-firefox-account }设置。
 subplat-manage-account-2 = 请访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-mozilla-account }的设置。
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = 访问您的账户页面来管理 { -product-firefox-account } 设置：{ $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = 请访问您的账户页面管理 { -product-mozilla-account }的设置：{ $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = { -brand-mozilla } 隐私政策
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隐私声明
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }：
-subplat-cloud-terms = { -product-firefox-cloud }服务条款
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } 服务条款
 subplat-moz-terms-plaintext = { subplat-moz-terms }
 subplat-legal = 法律
@@ -232,25 +211,6 @@ device-all = { $uaOS } { $uaOSVersion } 上的 { $uaBrowser }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS } 上的 { $uaBrowser }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP 地址：{ $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $country }, { $stateCode }, { $city }（估计）
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $country }, { $city }（估计）
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $country }，{ $stateCode }（估计）
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country }（估计）
 view-invoice = <a data-l10n-name="invoiceLink">查看您的发票</a>。
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -261,7 +221,6 @@ cadReminderFirst-action = 与其他设备同步
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }：
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 需要两台设备来进行同步
-cadReminderFirst-description-1 = 在您的所有设备上随心浏览标签页。使用 { -brand-firefox }，让书签、密码等数据触手可得。{ -brand-firefox } 账户如有十八般武艺！
 cadReminderFirst-description-v2 = 将标签页同步到各设备，让书签、密码等数据在您使用 { -brand-firefox } 的设备上触手可得。
 cadReminderSecond-subject-2 = 稍安毋躁，让我们完成同步设置！
 cadReminderSecond-action = 与其他设备同步
@@ -276,12 +235,9 @@ downloadSubscription-subject = 欢迎使用 { $productName }
 downloadSubscription-title = 欢迎使用 { $productName }
 downloadSubscription-content-2 = 准备开始使用包含在您的订阅内的所有功能吧：
 downloadSubscription-link-action-2 = 开始使用
-fraudulentAccountDeletion-subject = 已删除您的 { -product-firefox-account }
 fraudulentAccountDeletion-subject-2 = 已删除您的 { -product-mozilla-account }
 fraudulentAccountDeletion-title = 已删除您的账户
-fraudulentAccountDeletion-content = 最近有人使用此电子邮箱注册 { -product-firefox-account } 并支付订阅。根据我们对所有新账户的要求，需要您先验证此电子邮箱来确认账户。
 fraudulentAccountDeletion-content-part1-v2 = 最近有人使用此邮箱地址创建 { -product-mozilla-account }并支付订阅。根据我们对所有新账户的要求，需要您先验证此邮箱地址来确认账户。
-fraudulentAccountDeletion-content-2 = 目前，该账户尚未完成验证，无法确定是否为授权的订阅行为。因此，已删除此电子邮箱注册的 { -product-firefox-account }，您的订阅也将被取消，所有费用均已退还。
 fraudulentAccountDeletion-content-part2-v2 = 目前，该账户尚未完成验证，无法确定是否为授权的订阅行为。因此，我们已删除使用此邮箱地址注册的 { -product-mozilla-account }，并取消订阅，所有费用均已退还。
 fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10n-name="mozillaSupportUrl">用户支持团队</a>。
 # Variables:
@@ -305,7 +261,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
-newDeviceLogin-title-2 = 您的 { -product-firefox-account }有登录活动
+newDeviceLogin-subjectForMozillaAccount = 您的 { -product-mozilla-account }有新的登录活动
 newDeviceLogin-title-3 = 您的 { -product-mozilla-account }有登录活动
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -316,13 +272,10 @@ newDeviceLogin-change-password-plain = 不是您本人操作？请更改密码�
 newDeviceLogin-action = 管理账户
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
-passwordChanged-description = 已从下列设备成功更改您的 { -product-firefox-account }密码：
 passwordChanged-description-2 = 已从下列设备成功更改您的 { -product-mozilla-account }密码
 passwordChangeRequired-subject = 检测到可疑活动
 passwordChangeRequired-title = 需要更改密码
-passwordChangeRequired-suspicious-activity = 我们监测到您的 { -product-firefox-account }存在可疑行为。为了防止他人未经授权访问您的 { -product-firefox-account }，我们已断开该账户下所有设备的连接，并要求您更改密码。
 passwordChangeRequired-suspicious-activity-2 = 我们监测到您的 { -product-mozilla-account }存在可疑行为。为了防止他人未经授权访问您的 { -product-mozilla-account }，我们已断开该账户下所有设备的连接，并要求您更改密码，以防万一。
-passwordChangeRequired-sign-in = 请到常用设备或服务中重新登录 { -product-firefox-account }，并按照所显示步骤进行操作。
 passwordChangeRequired-sign-in-2 = 请到常用设备或服务中重新登录 { -product-mozilla-account }，并按照所显示步骤进行操作。
 passwordChangeRequired-different-password = <b>重要</b>：请改用您从未使用过的全新密码，并确保该密码不要与您的电子邮件账户密码相同。
 passwordChangeRequired-different-password-plaintext = 重要：请改用您从未使用过的全新密码，并确保该密码不要与您的电子邮件账户密码相同。
@@ -331,10 +284,8 @@ passwordReset-title = 您的密码已变更
 passwordReset-description = 您必须在其他设备上输入新密码才能继续同步。
 passwordResetAccountRecovery-subject-2 = 您的密码已重置
 passwordResetAccountRecovery-title-2 = 密码重置成功
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 您已从下列位置使用账户恢复密钥更改密码：
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = 生成新的账户恢复密钥
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = 创建账户恢复密钥
 passwordResetAccountRecovery-regen-required-mjml-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥。
@@ -347,11 +298,7 @@ postAddAccountRecovery-body-part1 = 请妥善保存该密钥——当您忘记�
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = 该密钥只能使用一次。在您使用过一次之后我们会自动为您创建一个新密钥。您也可以随时在账户设置中创建新的密钥。
 postAddAccountRecovery-action = 管理账户
-postAddLinkedAccount-subject = 新账户连接到 { -brand-firefox }
 postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-account }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = 您的 { $providerName } 账户已连接至 { -product-firefox-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -product-mozilla-account }
@@ -369,9 +316,6 @@ postChangeAccountRecovery-body-part2 = 请妥善保存新密码——如果您�
 postChangeAccountRecovery-action = 管理账户
 postChangePrimary-subject = 主邮箱已更新
 postChangePrimary-title = 新的主邮箱
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-firefox-account }的用户名，以及用于接收安全通知和登录确认。
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-mozilla-account }的用户名，也用于接收安全通知和登录确认。
@@ -398,9 +342,6 @@ postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-firefox-account }中删除。安全通知和登录确认将不再发送到此地址。
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-mozilla-account }中删除。安全通知和登录确认将不再发送到此地址。
 postRemoveSecondary-action = 管理账户
 postRemoveTwoStepAuthentication-subject-line-2 = 两步验证已关闭
@@ -413,7 +354,6 @@ postVerify-sub-title-3 = 我们很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到相同的标签吗？
 postVerify-description-2 = 很简单！只需在另一台设备上安装 { -brand-firefox } 并登录，即可进行同步。就像魔法一样！
 postVerify-sub-description = （嘘…… 这也意味着您可以在任何地方登录获取您的书签、密码和其他 { -brand-firefox } 数据。）
-postVerify-subject-3 = 欢迎使用 { -brand-firefox }！
 postVerify-subject-4 = { -brand-mozilla } 欢迎您！
 postVerify-setup-2 = 连接其他设备：
 postVerify-action-2 = 连接另一台设备
@@ -421,18 +361,11 @@ postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = 您已成功将 { $secondaryEmail } 添加为您 { -product-firefox-account } 的备用邮箱。从现在起，安全通知和登录验证邮件也将发送至该邮箱。
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = 已成功将 { $secondaryEmail } 设为 { -product-mozilla-account }的备用邮箱。安全通知和登录确认现在将同时发送到这两个邮箱地址。
 postVerifySecondary-action = 管理账户
 recovery-subject = 重置密码
 recovery-title-2 = 忘记密码？
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = 我们收到了要更改您的 { -product-firefox-account } 密码的请求：
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = 我们收到更改 { -product-mozilla-account }密码的请求，来自：
 recovery-new-password-button = 通过点击下面的按钮创建一个新密码。此链接将在一小时后失效。
 recovery-copy-paste = 通过复制和粘贴下面的 URL 到您的浏览器创建一个新密码。此链接将在一小时后失效。
@@ -445,11 +378,6 @@ subscriptionAccountDeletion-title = 不敢说后会有期，但愿有缘再见
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = 您最近删除了 { -product-firefox-account }，因此我们也同步取消了您的 { $productName } 订阅。最后一次付款发生于 { $invoiceDateOnly }，金额为 { $invoiceTotal }。
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = 您最近删除了 { -product-mozilla-account }，因此我们也同步取消了您的 { $productName } 订阅。最后一笔款项金额为 { $invoiceTotal }，已于 { $invoiceDateOnly } 支付。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -458,20 +386,16 @@ subscriptionAccountFinishSetup-subject = 欢迎使用 { $productName }：请设�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = 欢迎使用 { $productName }
 subscriptionAccountFinishSetup-content-processing = 正在处理您的付款，最多可能需要 4 个工作日才可完成。除非您主动取消订阅，否则将在每个账单周期结束后自动续订。
-subscriptionAccountFinishSetup-content-create-2 = 接下来，请设置 { -product-firefox-account }密码，以开始使用您新订阅的项目。
 subscriptionAccountFinishSetup-content-create-3 = 接下来请设置 { -product-mozilla-account }密码，完成后即可开始使用您新订阅的项目。
 subscriptionAccountFinishSetup-action-2 = 开始使用
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
-subscriptionAccountReminderFirst-content-info-2 = 您几天前注册的 { -product-firefox-account } 还没有完成验证。请您尽快完成账户设置，以便使用新订阅的内容。
 subscriptionAccountReminderFirst-content-info-3 = 您几天前创建的 { -product-mozilla-account }还未完成确认。请尽快完成账户设置，以便使用新订阅的内容。
 subscriptionAccountReminderFirst-content-select-2 = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderFirst-action = 创建密码
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action } :
 subscriptionAccountReminderSecond-subject = 最后一次提醒：请设置您的账户
-subscriptionAccountReminderSecond-title = 欢迎使用 { -brand-firefox }！
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } 欢迎您！
-subscriptionAccountReminderSecond-content-info-2 = 您几天前注册的 { -product-firefox-account } 还没有完成验证。请您尽快完成账户设置，以便使用新订阅的内容。
 subscriptionAccountReminderSecond-content-info-3 = 您几天前创建的 { -product-mozilla-account }还未完成确认。请尽快完成账户设置，以便使用新订阅的内容。
 subscriptionAccountReminderSecond-content-select-2 = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderSecond-action = 创建密码
@@ -625,31 +549,23 @@ unblockCode-prompt-plaintext = 是的话，这里是您需要的授权码：{ $u
 unblockCode-report = 不是的话，请帮助我们抵御入侵者，并<a data-l10n-name="reportSignInLink">向我们报告</a>。
 unblockCode-report-plaintext = 如果不是，请帮助我们防范入侵者，向我们报告此事例。
 verificationReminderFinal-subject = 最后一次提醒：请验证您的账户
-verificationReminderFinal-description = 您于几周前注册了 { -product-firefox-account }， 但一直没有验证。为了您的安全，如果在接下来的24小时内还未通过验证，我们将删除该账户。
 verificationReminderFinal-description-2 = 您几周前创建的 { -product-mozilla-account }还未完成确认。安全起见，如果在接下来的 24 小时内仍未通过验证，我们将删除该账户。
 confirm-account = 验证账户
 confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 记得验证您的账户
-verificationReminderFirst-title-2 = 欢迎使用 { -brand-firefox }！
 verificationReminderFirst-title-3 = { -brand-mozilla } 欢迎您！
-verificationReminderFirst-description-2 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 15 天内完成验证，否则该账户将被自动删除。
 verificationReminderFirst-description-3 = 您几天前创建的 { -product-mozilla-account }还未完成确认。请在 15 天内确认您的账户，否则将被自动删除。
 verificationReminderFirst-sub-description-3 = 不要错过将您和您的隐私放在首位的浏览器。
 confirm-email-2 = 验证账户
 confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 验证账户
 verificationReminderSecond-subject-2 = 记得验证您的账户
-verificationReminderSecond-title-2 = 不要错过 { -brand-firefox }！
 verificationReminderSecond-title-3 = 不要错过 { -brand-mozilla }！
-verificationReminderSecond-description-3 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 10 天内完成验证，否则该账户将被自动删除。
 verificationReminderSecond-description-4 = 您几天前创建的 { -product-mozilla-account }还未完成确认。请在 10 天内确认您的账户，否则将被自动删除。
-verificationReminderSecond-second-description = 您的 { -product-firefox-account } 可以让您在不同设备之间同步信息，并解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
 verificationReminderSecond-second-description-3 = 您的 { -product-mozilla-account }可让您跨设备同步 { -brand-firefox } 体验并可解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
 verificationReminderSecond-sub-description-2 = 让互联网成为对所有人开放的地方，是我们使命的一部分。
 verificationReminderSecond-action-2 = 验证账户
-verify-title-2 = 使用 { -brand-firefox } 打开互联网
 verify-title-3 = 使用 { -brand-mozilla } 打开互联网世界
-verify-description = 确认您的账户，即可在任何登录的设备中，解锁 { -brand-firefox } 完整体验：
 verify-description-2 = 确认您的账户即可在任何登录的设备中解锁 { -brand-mozilla } 完整体验，现在开始：
 verify-subject = 账户创建完成
 verify-action-2 = 验证账户
@@ -680,19 +596,13 @@ verifySecondaryCode-title-2 = 验证备用邮箱
 verifySecondaryCode-action-2 = 验证电子邮箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = 已请求使用 { $email } 作为下列 { -product-mozilla-account }的备用电子邮件地址：
 verifySecondaryCode-prompt-2 = 请使用此验证码：
 verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证完成后，此邮箱也将开始接收安全通知和验证邮件。
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 验证您的账户
-verifyShortCode-title-2 = 使用 { -brand-firefox } 打开互联网
 verifyShortCode-title-3 = 使用 { -brand-mozilla } 打开互联网世界
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = 验证您的账户，即可在任何登录的设备中，解锁 { -brand-firefox } 完整体验：
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 确认您的账户即可在任何登录的设备中解锁 { -brand-mozilla } 完整体验，现在开始：
 verifyShortCode-prompt-3 = 请使用此验证码：
