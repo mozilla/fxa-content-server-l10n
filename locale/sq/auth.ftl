@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = Të hyhet te { -product-firefox-accounts }?
 session-verify-send-push-title-2 = Të hyhet te { -product-mozilla-account } juaj?
 session-verify-send-push-body-2 = Klikoni këtu që të ripohoni se jeni ju
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Klikoni këtu që të ripohoni se jeni ju
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Stemë e { -brand-firefox }-it">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Njëkohësoni pajisje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Pajisje">
 fxa-privacy-url = Rregulla Privatësie të { -brand-mozilla }-s
 moz-accounts-privacy-url-2 = Shënim privatësie { -product-mozilla-accounts(capitalization: "uppercase") }
-fxa-service-url = Kushte Shërbimi  të { -product-firefox-cloud }
 moz-accounts-terms-url = Kushte Shërbimi të { -product-mozilla-accounts(capitalization: "uppercase") }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Stemë e { -brand-firefox }-it">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Stemë e { -brand-mozilla }-s">
 subplat-automated-email = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
 subplat-privacy-notice = Shënim privatësie
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Këtë email e merrni ngaqë për { $email } ka një { -product-firefox-account } dhe jeni regjistruar për { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Këtë email e merrni ngaqë për { $email } ka një { -product-mozilla-account } dhe jeni regjistruar për { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Këtë email po e merrni, ngaqë për { $email } ka një { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Këtë email po e merrni, ngaqë për { $email } ka një { -product-mozilla-account }.
-subplat-explainer-multiple = Këtë email po e merrni ngaqë { $email } ka një { -product-firefox-account } dhe jeni pajtuar te disa produkte.
 subplat-explainer-multiple-2 = Këtë email po e merrni ngaqë { $email } ka një { -product-mozilla-account } dhe jeni pajtuar te disa produkte.
-subplat-explainer-was-deleted = Këtë email po e merrni, ngaqë { $email } qe regjistruar për një { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Këtë email po e merrni, ngaqë { $email } qe regjistruar për një { -product-mozilla-account }.
-subplat-manage-account = Administroni rregullimet tuaja { -product-firefox-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
 subplat-manage-account-2 = Administroni rregullimet tuaja { -product-mozilla-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Administroni rregullimet për { -product-firefox-account } tuajën, duke vizituar faqen e llogarisë tuaj: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Administroni rregullimet për { -product-mozilla-account } tuajën, duke vizituar faqen e llogarisë tuaj: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = Rregulla Privatësie të { -brand-mozilla }-s
 subplat-privacy-policy-2 = Shënim privatësie { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = Kushte Shërbimi të { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Kushte Shërbimi të { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Ligjore
@@ -234,25 +213,6 @@ device-all = { $uaBrowser } në { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } në { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Adresë IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (hamendësuar)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (hamendësuar)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (hamendësuar)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (hamendësuar)
 view-invoice = <a data-l10n-name="invoiceLink">Shihni faturën tuaj</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Njëkohësoni pajisje tjetër
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Njëkohësimi lyp dy anë
-cadReminderFirst-description-1 = Merrini skedat tuaja në krejt pajisjet tuaja. Merrni faqerojtësit tuaj, fjalëkalimet dhe të tjera të dhëna kudo që përdorni { -brand-firefox }-in. Njësoj si të kishit fuqi magjike në llogarinë tuaj { -brand-firefox }!
 cadReminderFirst-description-v2 = Merrini skedat tuaja në krejt pajisjet tuaja. Merrni faqerojtësit tuaj, fjalëkalimet dhe të tjera të dhëna kudo që përdorni { -brand-firefox }-in.
 cadReminderSecond-subject-2 = Mos humbni rastin! Le të përfundojmë ujdisjen e njëkohësimit tuaj
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
@@ -278,12 +237,9 @@ downloadSubscription-subject = Mirë se vini te { $productName }.
 downloadSubscription-title = Mirë se vini te { $productName }.
 downloadSubscription-content-2 = Le t’ia fillojmë duke përdorur krejt veçoritë që përfshin pajtimi juaj:
 downloadSubscription-link-action-2 = Fillojani
-fraudulentAccountDeletion-subject = { -product-firefox-account } e juaja u fshi
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } e juaja u fshi
 fraudulentAccountDeletion-title = Llogaria juaj u fshi
-fraudulentAccountDeletion-content = Tani së fundi u krijua një { -product-firefox-account } dhe u bë një faturim pajtimi duke përdorur këtë adresë email. Siç bëjmë me krejt llogaritë e reja, ju kërkuam të ripohoni llogarinë tuaj, duke dëshmuar së pari se kjo adresë email është e vlefshme.
 fraudulentAccountDeletion-content-part1-v2 = Tani së fundi u krijua një { -product-mozilla-account } dhe u bë një faturim pajtimi duke përdorur këtë adresë email. Siç bëjmë me krejt llogaritë e reja, ju kërkuam të ripohoni llogarinë tuaj, duke dëshmuar së pari se kjo adresë email është e vlefshme.
-fraudulentAccountDeletion-content-2 = Hëpërhë shohim se llogaria s’qe ripohuar kurrë. Ngaqë s’qe plotësuar ky hap, s’jemi të sigurt nëse ky qe një pajtim i autorizuar. Si pasojë, { -product-firefox-account } e regjistruar me këtë adresë email qe fshirë dhe pajtimi juaj u anulua me rimbursim të gjithë ç’qe faturuar.
 fraudulentAccountDeletion-content-part2-v2 = Hëpërhë shohim se llogaria s’qe ripohuar kurrë. Ngaqë s’qe plotësuar ky hap, s’jemi të sigurt nëse ky qe një pajtim i autorizuar. Si pasojë, { -product-mozilla-account } e regjistruar me këtë adresë email qe fshirë dhe pajtimi juaj u anulua me rimbursim të gjithë ç’qe faturuar.
 fraudulentAccountDeletion-contact = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me  <a data-l10n-name="mozillaSupportUrl">ekipin tonë të asistencës</a>.
 # Variables:
@@ -308,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Hyrje e re te { $clientName }
-newDeviceLogin-title-2 = Për të bërë hyrjen qe përdorur { -product-firefox-account } e juaja
+newDeviceLogin-subjectForMozillaAccount = Hyrje e re te { -product-mozilla-account } juaj
 newDeviceLogin-title-3 = Për të bërë hyrjen qe përdorur { -product-mozilla-account } e juaja
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -319,13 +275,10 @@ newDeviceLogin-change-password-plain = Jo ju? Ndryshoni fjalëkalimin tuaj:
 newDeviceLogin-action = Administroni llogarinë
 passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
-passwordChanged-description = Fjalëkalimi juaj për { -product-firefox-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChanged-description-2 = Fjalëkalimi juaj për { -product-mozilla-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
 passwordChangeRequired-title = Lypset Ndryshim Fjalëkalimi
-passwordChangeRequired-suspicious-activity = Pikasëm sjellje të dyshimtë në { -product-firefox-account } tuajën. Për të parandaluar hyrje të paautorizuar te { -product-firefox-account }, kemi shkëputur krejt pajisjet në llogarinë tuaj dhe, si masë parandaluese, po ju kërkojmë të ndryshoni doemos fjalëkalimin tuaj.
 passwordChangeRequired-suspicious-activity-2 = Pikasëm sjellje të dyshimtë në { -product-mozilla-account } tuajën. Për të parandaluar hyrje të paautorizuar te { -product-mozilla-account }, kemi shkëputur krejt pajisjet në llogarinë tuaj dhe, si masë parandaluese, po ju kërkojmë të ndryshoni doemos fjalëkalimin tuaj.
-passwordChangeRequired-sign-in = Rihyni në çfarëdo pajisje ose shërbim ku përdorni { -product-firefox-account } tuajën dhe ndiqni hapat që do t’ju paraqiten.
 passwordChangeRequired-sign-in-2 = Rihyni në çfarëdo pajisje ose shërbim ku përdorni { -product-mozilla-account } tuajën dhe ndiqni hapat që do t’ju paraqiten.
 passwordChangeRequired-different-password = <b>E rëndësishme:</b> zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
@@ -334,10 +287,8 @@ passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
 passwordReset-description = Që të vazhdohet me njëkohësimin, do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera
 passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordResetAccountRecovery-title-2 = Fjalëkalimi u ricaktua me sukses
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Përdorët kyçin tuaj të rimarrjes së llogarisë për të përditësuar fjalëkalimin tuaj nga:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Krijo një kyç të ri rimarrjeje llogarie
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Krijoni kyç rimarrjeje llogarie
 passwordResetAccountRecovery-regen-required-mjml-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët.
@@ -350,11 +301,7 @@ postAddAccountRecovery-body-part1 = Ruajeni këtë kyç në një vend të sigurt
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Ky kyç mund të përdoret vetëm një herë. Pasi ta përdorni, do të krijojmë automatikisht për ju një të ri. Ose mund të krijoni një të ri, në çfarëdo kohe, që nga rregullimet e llogarisë tuaj.
 postAddAccountRecovery-action = Administroni llogarinë
-postAddLinkedAccount-subject = Llogari e re e lidhur me { -brand-firefox }
 postAddLinkedAccount-subject-2 = Me { -product-mozilla-account } tuajën u lidh llogari e re
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Llogaria juaj { $providerName } është lidhur me { -product-firefox-account } tuajën
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Llogaria juaj { $providerName } është lidhur me { -product-mozilla-account } tuajën
@@ -372,9 +319,6 @@ postChangeAccountRecovery-body-part2 = Ruajeni këtë kyç të ri në një vend 
 postChangeAccountRecovery-action = Administroni llogarinë
 postChangePrimary-subject = Email-i parësor u përditësua
 postChangePrimary-title = Email parësor i ri
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = E ndryshuat me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-firefox-account } e juaja, si edhe për të marrë njoftime sigurie dhe ripohime hyrjesh.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = E ndryshuat me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-mozilla-account } e juaja, si edhe për të marrë njoftime sigurie dhe ripohime hyrjesh.
@@ -402,9 +346,6 @@ postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuaj. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-mozilla-account } tuaj. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
 postRemoveTwoStepAuthentication-subject-line-2 = Mirëfilltësimi dyhapësh u çaktivizua
@@ -417,7 +358,6 @@ postVerify-sub-title-3 = Jemi të ngazëllyer t’ju shohim!
 postVerify-title-2 = Doni të shihni të njëjtën skedë në dy pajisje?
 postVerify-description-2 = Është kollaj! Thjesht instaloni { -brand-firefox }-in në pajisjen tjetër dhe bëni hyrjen që t’i njëkohësoni. Si me magji!
 postVerify-sub-description = (Eeej… Kjo do të thotë gjithashtu se mund të merrni faqerojtësit tuaj, fjalëkalime dhe të tjera të dhëna { -brand-firefox } kudo ku keni bërë hyrjen.)
-postVerify-subject-3 = Mirë se vini në { -brand-firefox }
 postVerify-subject-4 = Mirë se vini në { -brand-mozilla }
 postVerify-setup-2 = Lidhni një tjetër pajisje:
 postVerify-action-2 = Lidhni pajisje tjetër
@@ -425,18 +365,11 @@ postVerifySecondary-subject = Email-i dytësor u shtua
 postVerifySecondary-title = Email-i dytësor u shtua
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Keni ripohuar me sukses { $secondaryEmail } si një email dytësor për { -product-firefox-account } tuajën. Njoftimet e sigurisë dhe ripohime hyrjesh tanimë do të dërgohen te të dy adresat.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Keni ripohuar me sukses { $secondaryEmail } si një email dytësor për { -product-mozilla-account } tuajën. Njoftimet e sigurisë dhe ripohime hyrjesh tanimë do të dërgohen te të dy adresat.
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title-2 = Harruat fjalëkalimin tuaj?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-firefox-account } tuaj nga:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
 recovery-new-password-button = Krijoni një fjalëkalim të ri duke klikuar butonin më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.
 recovery-copy-paste = Krijoni një fjalëkalim të ri duke kopjuar dhe ngjitur në shfletuesin tuaj URL-në më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.
@@ -449,11 +382,6 @@ subscriptionAccountDeletion-title = Ju shohim me keqardhje teksa ikni
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Tani afër fshitë { -product-firefox-account } tuajën. Si pasojë, anuluam pajtimin tuaj për { $productName }. Pagesa juaj përfundimtare prej { $invoiceTotal } qe bërë më { $invoiceDateOnly }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Tani afër fshitë { -product-mozilla-account } tuajën. Si pasojë, anuluam pajtimin tuaj për { $productName }. Pagesa juaj përfundimtare prej { $invoiceTotal } qe bërë më { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -462,20 +390,16 @@ subscriptionAccountFinishSetup-subject = Mirë se vini në{ $productName }: Ju l
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Mirë se vini te { $productName }.
 subscriptionAccountFinishSetup-content-processing = Pagesa juaj po përpunohet dhe mund të duhen deri në katër ditë pune që të plotësohet. Pajtimi juaj do të rinovohet automatikisht për çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
-subscriptionAccountFinishSetup-content-create-2 = Më pas do të krijoni një fjalëkalim { -product-firefox-account }, që të nisni të përdorni pajtimin tuaj.
 subscriptionAccountFinishSetup-content-create-3 = Më pas do të krijoni një fjalëkalim { -product-mozilla-account }, që të nisni të përdorni pajtimin tuaj.
 subscriptionAccountFinishSetup-action-2 = Fillojani
 subscriptionAccountReminderFirst-subject = Kujtues: Përfundoni ujdisjen e llogarisë tuaj
 subscriptionAccountReminderFirst-title = S’mund të përdorni ende pajtimin tuaj
-subscriptionAccountReminderFirst-content-info-2 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
 subscriptionAccountReminderFirst-content-info-3 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
 subscriptionAccountReminderFirst-content-select-2 = Që të ujdisni një fjalëkalim të ri dhe të përfundoni ripohimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
 subscriptionAccountReminderFirst-action = Krijoni Fjalëkalim
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Kujtues përfundimtar: Ujdisni llogarinë tuaj
-subscriptionAccountReminderSecond-title = Mirë se vini në { -brand-firefox }
 subscriptionAccountReminderSecond-title-2 = Mirë se vini në { -brand-mozilla }
-subscriptionAccountReminderSecond-content-info-2 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
 subscriptionAccountReminderSecond-content-info-3 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
 subscriptionAccountReminderSecond-content-select-2 = Që të ujdisni një fjalëkalim të ri dhe të përfundoni ripohimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
 subscriptionAccountReminderSecond-action = Krijoni Fjalëkalim
@@ -629,31 +553,23 @@ unblockCode-prompt-plaintext = Nëse po, ja ku keni kodin e autorizimit që ju d
 unblockCode-report = Nëse jo, ndihmonani të mbajmë jashtë të padëshiruarit dhe <a data-l10n-name="reportSignInLink">na e raportoni këtë.</a>
 unblockCode-report-plaintext = Nëse jo, na ndihmoni të mbajmë jashtë të padëshiruarit dhe raportojeni këtë te ne.
 verificationReminderFinal-subject = Kujtuesi i fundit për të ripohuar llogarinë tuaj
-verificationReminderFinal-description = Nja dy javë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Për sigurinë tuaj, do ta fshijmë llogarinë, po s’u verifikua brenda 24 orëve të ardhshme.
 verificationReminderFinal-description-2 = Nja dy javë më parë krijuat një { -product-mozilla-account }, por s’e ripohuat kurrë këtë. Për sigurinë tuaj, do ta fshijmë llogarinë, po s’u verifikua brenda 24 orëve të ardhshme.
 confirm-account = Ripohoni llogarinë
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Mos harroni të ripohoni llogarinë tuaj
-verificationReminderFirst-title-2 = Mirë se vini në { -brand-firefox }
 verificationReminderFirst-title-3 = Mirë se vini në { -brand-mozilla }!
-verificationReminderFirst-description-2 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 15 ditëve të ardhshme, ose do të fshihet automatikisht.
 verificationReminderFirst-description-3 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 15 ditëve të ardhshme, ose do të fshihet automatikisht.
 verificationReminderFirst-sub-description-3 = Mos humbi lajme nga shfletuesi që vë ju dhe privatësinë tuaj mbi të gjitha.
 confirm-email-2 = Ripohoni llogarinë
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Ripohoni llogarinë
 verificationReminderSecond-subject-2 = Mos harroni të ripohoni llogarinë tuaj
-verificationReminderSecond-title-2 = Mos humbni lajmet mbi { -brand-firefox }-in!
 verificationReminderSecond-title-3 = Mos humbni lajmet mbi { -brand-mozilla }-n!
-verificationReminderSecond-description-3 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 10 ditëve të ardhshme, ose do të fshihet automatikisht.
 verificationReminderSecond-description-4 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 10 ditëve të ardhshme, ose do të fshihet automatikisht.
-verificationReminderSecond-second-description = { -product-firefox-account } juaj ju lejon të njëkohësoni informacionin tuaj nëpër pajisje dhe shkyç portën për më tepër produkte { -brand-mozilla } që mbrojnë privatësinë.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account } juaj ju lejon të njëkohësoni punimin tuaj me { -brand-firefox }nëpër pajisje dhe shkyç portën për më tepër produkte { -brand-mozilla } që mbrojnë privatësinë.
 verificationReminderSecond-sub-description-2 = Bëhuni pjesë e misionit tonë për të shndërruar internetin në një vend që është i hapët për këdo.
 verificationReminderSecond-action-2 = Ripohoni llogarinë
-verify-title-2 = Hapeni internetin me { -brand-firefox }
 verify-title-3 = Hapeni internetin me { -brand-mozilla }
-verify-description = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-description-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action-2 = Ripohoni llogarinë
@@ -684,19 +600,13 @@ verifySecondaryCode-title-2 = Ripohoni email dytësor
 verifySecondaryCode-action-2 = Ripohoni email-in
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Prej llogarisë vijuese { -product-mozilla-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondaryCode-prompt-2 = Përdor këtë kod ripohimi:
 verifySecondaryCode-expiry-notice-2 = Skadon për 5 minuta. Pas ripohimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Ripohoni llogarinë tuaj
-verifyShortCode-title-2 = Hapeni internetin me { -brand-firefox }
 verifyShortCode-title-3 = Hapeni internetin me { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verifyShortCode-prompt-3 = Përdor këtë kod ripohimi:
