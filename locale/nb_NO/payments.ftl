@@ -365,6 +365,7 @@ pay-with-heading-card-only = Betal med kort
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Vi kan ikke oppgradere deg helt ennå
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
