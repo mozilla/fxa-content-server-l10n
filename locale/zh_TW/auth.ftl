@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = 有要登入 { -product-firefox-accounts } 嗎？
 session-verify-send-push-title-2 = 要登入您的 { -product-mozilla-account } 嗎？
 session-verify-send-push-body-2 = 請點擊此處確認是您
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = 請點擊此處確認是您
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } 圖樣">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 標誌">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步裝置">
 body-devices-image = <img data-l10n-name="devices-image" alt="裝置">
 fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隱私權公告
-fxa-service-url = { -product-firefox-cloud } 服務條款
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }服務條款
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 圖樣">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 標誌">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } 標誌">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 圖樣">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } 標誌">
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
 subplat-privacy-notice = 隱私權公告
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }：
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了 { $productName }。
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = 您會收到這封信，是因為 { $email } 註冊了 { -product-mozilla-account }，並且訂閱了 { $productName }。
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-mozilla-account }。
-subplat-explainer-multiple = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了多套產品。
 subplat-explainer-multiple-2 = 您會收到這封信，是因為 { $email } 註冊了 { -product-mozilla-account }，並且訂閱了多套產品。
-subplat-explainer-was-deleted = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
 subplat-explainer-was-deleted-2 = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-mozilla-account }。
-subplat-manage-account = 可以到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-firefox-account }設定。
 subplat-manage-account-2 = 到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-mozilla-account }設定。
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = 可到您的帳號頁面來管理 { -product-firefox-account } 設定：{ $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = 可到您的帳號頁面來管理 { -product-mozilla-account }設定：{ $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = { -brand-mozilla } 隱私權保護政策
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") }隱私權公告
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }：
-subplat-cloud-terms = { -product-firefox-cloud } 服務條款
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") }服務條款
 subplat-moz-terms-plaintext = { subplat-moz-terms }：
 subplat-legal = 法律資訊
@@ -242,7 +221,6 @@ cadReminderFirst-action = 同步另一台裝置
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }：
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 需要有兩台裝置才能同步
-cadReminderFirst-description-1 = 讓分頁在所有裝置間同步。隨時隨地在您使用的所有 { -brand-firefox } 之間同步書籤、密碼與其他資料，就像是讓您的 { -brand-firefox } 帳號擁有魔法一樣！
 cadReminderFirst-description-v2 = 讓您的分頁在所有裝置間跳轉。在所有使用 { -brand-firefox } 的地方同步書籤、網站密碼與其他資料。
 cadReminderSecond-subject-2 = 別錯過！一起完成同步功能設定吧！
 cadReminderSecond-action = 同步另一台裝置
@@ -257,12 +235,9 @@ downloadSubscription-subject = 歡迎使用 { $productName }。
 downloadSubscription-title = 歡迎使用 { $productName }。
 downloadSubscription-content-2 = 讓我們開始使用訂閱中包含的各種功能：
 downloadSubscription-link-action-2 = 開始使用
-fraudulentAccountDeletion-subject = 已刪除您的 { -product-firefox-account }
 fraudulentAccountDeletion-subject-2 = 已刪除您的 { -product-mozilla-account }
 fraudulentAccountDeletion-title = 已刪除您的帳號
-fraudulentAccountDeletion-content = 最近有人使用此電子郵件信箱註冊 { -product-firefox-account } 並付費訂閱。如我們對所有新帳號所要求的，需請您先確認此電子郵件地址。
 fraudulentAccountDeletion-content-part1-v2 = 最近有人使用此電子郵件信箱註冊 { -product-mozilla-account }並付費訂閱。如我們對所有新帳號所要求的，需請您先確認此電子郵件地址。
-fraudulentAccountDeletion-content-2 = 目前此帳號尚未經過確認，無法確認這是不是經過授權的訂閱行為。因此，已刪除使用此電子郵件信箱註冊的 { -product-firefox-account }，並將取消已訂閱的項目並完全退費。
 fraudulentAccountDeletion-content-part2-v2 = 目前此帳號尚未經過確認，無法確認這是不是經過授權的訂閱行為。因此，已刪除使用此電子郵件信箱註冊的 { -product-mozilla-account }，並將取消已訂閱的項目並完全退費。
 fraudulentAccountDeletion-contact = 若您有其他問題，請聯絡我們的<a data-l10n-name="mozillaSupportUrl">技術支援團隊</a>。
 # Variables:
@@ -286,7 +261,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
-newDeviceLogin-title-2 = 您的 { -product-firefox-account }已用於登入
+newDeviceLogin-subjectForMozillaAccount = 您的 { -product-mozilla-account }有新登入紀錄
 newDeviceLogin-title-3 = 您的 { -product-mozilla-account }已用於登入
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -297,13 +272,10 @@ newDeviceLogin-change-password-plain = 不是您嗎？請更改密碼：
 newDeviceLogin-action = 管理帳號
 passwordChanged-subject = 密碼已更新
 passwordChanged-title = 已成功修改密碼
-passwordChanged-description = 已從下列裝置成功更改您的 { -product-firefox-account } 密碼：
 passwordChanged-description-2 = 已從下列裝置成功更改您 { -product-mozilla-account }的密碼：
 passwordChangeRequired-subject = 偵測到可疑行為
 passwordChangeRequired-title = 需要更改密碼
-passwordChangeRequired-suspicious-activity = 我們偵測到您的 { -product-firefox-account } 有可疑行為。為了防止您的 { -product-firefox-account }未經授權被使用，我們已解除您的帳號下所有裝置的連結，並請您更改密碼。
 passwordChangeRequired-suspicious-activity-2 = 我們偵測到您的 { -product-mozilla-account }有可疑行為。為了防止您的 { -product-mozilla-account }未經授權被使用，我們已解除您的帳號下所有裝置的連結，並請您更改密碼。
-passwordChangeRequired-sign-in = 請到您會使用 { -product-firefox-account } 的裝置重新登入，並依照顯示的步驟操作。
 passwordChangeRequired-sign-in-2 = 請到您會使用 { -product-mozilla-account }的裝置重新登入，並依照顯示的步驟操作。
 passwordChangeRequired-different-password = <b>重要：</b>請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
 passwordChangeRequired-different-password-plaintext = 重要：請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
@@ -314,8 +286,6 @@ passwordResetAccountRecovery-subject-2 = 已重設您的密碼
 passwordResetAccountRecovery-title-2 = 成功重設密碼
 # Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 您已從下列位置使用帳號救援金鑰更改密碼：
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = 產生新的帳號救援金鑰
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = 產生帳號救援金鑰
 passwordResetAccountRecovery-regen-required-mjml-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰。
@@ -328,11 +298,7 @@ postAddAccountRecovery-body-part1 = 請將這把金鑰存放在安全的地方�
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = 這把金鑰只能使用一次，使用後我們會自動再產生一把新的金鑰。您也可以隨時到帳號設定當中更換。
 postAddAccountRecovery-action = 管理帳號
-postAddLinkedAccount-subject = 新帳號連結到 { -brand-firefox }
 postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozilla-account }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = 您的 { $providerName } 帳號已連結到 { -product-firefox-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 帳號已連結到 { -product-mozilla-account }
@@ -350,9 +316,6 @@ postChangeAccountRecovery-body-part2 = 請將這把新的金鑰存放在安全�
 postChangeAccountRecovery-action = 管理帳號
 postChangePrimary-subject = 已更改主要電子郵件地址
 postChangePrimary-title = 新增主要電子郵件地址
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-firefox-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-mozilla-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
@@ -379,9 +342,6 @@ postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = 您已成功將 { $secondaryEmail } 從 { -product-firefox-account } 的次要電子郵件信箱刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = 您已成功將 { $secondaryEmail } 從 { -product-mozilla-account }的次要電子郵件信箱刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。
 postRemoveSecondary-action = 管理帳號
 postRemoveTwoStepAuthentication-subject-line-2 = 已關閉兩階段驗證
@@ -394,7 +354,6 @@ postVerify-sub-title-3 = 很高興能見到你！
 postVerify-title-2 = 想要在其他裝置上也能看到同個分頁嗎？
 postVerify-description-2 = 很簡單！只要在另一台裝置上也安裝 { -brand-firefox } 並且登入同步功能就好！
 postVerify-sub-description = （噓…只要登入之後，所有書籤、密碼、其他 { -brand-firefox } 資料就可以在所有裝置間同步起來了。）
-postVerify-subject-3 = 歡迎使用 { -brand-firefox }！
 postVerify-subject-4 = 歡迎來到 { -brand-mozilla }！
 postVerify-setup-2 = 連結其他裝置
 postVerify-action-2 = 連結其他裝置
@@ -402,15 +361,10 @@ postVerifySecondary-subject = 已加入次要電子郵件地址
 postVerifySecondary-title = 已加入次要電子郵件地址
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = 您已成功將 { $secondaryEmail } 加入為 { -product-mozilla-account }的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title-2 = 忘記密碼了嗎？
-# Information on the device, date and time of the request that triggered the email follows.
-recovery-request-origin = 我們收到要更改您 { -product-firefox-account }密碼的請求：
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = 我們收到要更改您 { -product-mozilla-account }的密碼的請求：
 recovery-new-password-button = 請點擊下列按鈕來設定新密碼。此鏈結將於一小時後失效。
@@ -424,11 +378,6 @@ subscriptionAccountDeletion-title = 很遺憾看見您離開
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = 您最近刪除了 { -product-firefox-account }，因此我們也同步取消了您的 { $productName } 訂閱。最後一次付款發生於 { $invoiceDateOnly }，金額為 { $invoiceTotal }。
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = 您最近刪除了 { -product-mozilla-account }，因此我們也同步取消了您的 { $productName } 訂閱。最後一次付款發生於 { $invoiceDateOnly }，金額為 { $invoiceTotal }。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -437,20 +386,16 @@ subscriptionAccountFinishSetup-subject = 歡迎使用 { $productName }：請設�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = 歡迎使用 { $productName }
 subscriptionAccountFinishSetup-content-processing = 正在處理您的付款，可能最多需要 4 個工作天才可完成。除非您主動取消，將在每個帳務週期結束後自動續訂。
-subscriptionAccountFinishSetup-content-create-2 = 接下來，請設定 { -product-firefox-account } 密碼，即可開始使用您新訂閱的項目。
 subscriptionAccountFinishSetup-content-create-3 = 接下來，請為 { -product-mozilla-account } 設定密碼，即可開始使用您新訂閱的項目。
 subscriptionAccountFinishSetup-action-2 = 開始使用
 subscriptionAccountReminderFirst-subject = 提醒：請完成帳號註冊
 subscriptionAccountReminderFirst-title = 您暫時還不能使用您的訂閱項目
-subscriptionAccountReminderFirst-content-info-2 = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
 subscriptionAccountReminderFirst-content-info-3 = 幾天前，您註冊了 { -product-mozilla-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
 subscriptionAccountReminderFirst-content-select-2 = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
 subscriptionAccountReminderFirst-action = 設定密碼
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }：
 subscriptionAccountReminderSecond-subject = 這是最後一次提醒囉：註冊帳號
-subscriptionAccountReminderSecond-title = 歡迎使用 { -brand-firefox }！
 subscriptionAccountReminderSecond-title-2 = 歡迎來到 { -brand-mozilla }！
-subscriptionAccountReminderSecond-content-info-2 = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
 subscriptionAccountReminderSecond-content-info-3 = 幾天前，您註冊了 { -product-mozilla-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
 subscriptionAccountReminderSecond-content-select-2 = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
 subscriptionAccountReminderSecond-action = 設定密碼
@@ -604,31 +549,23 @@ unblockCode-prompt-plaintext = 是的話，以下是您需要的授權碼：{ $u
 unblockCode-report = 不是的話，請幫助我們阻擋入侵者，並<a data-l10n-name="reportSignInLink">讓我們知道</a>。
 unblockCode-report-plaintext = 不是的話，請幫助我們阻擋入侵者，並讓我們知道。
 verificationReminderFinal-subject = 這是最後一次提醒囉：確認帳號
-verificationReminderFinal-description = 幾週前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。為了您的安全，請在 24 小時內完成確認，否則帳號將被自動刪除。
 verificationReminderFinal-description-2 = 幾週前您註冊了 { -product-mozilla-account }，但並未確認過帳號身分。為了您的安全，請在 24 小時內完成確認，否則帳號將被自動刪除。
 confirm-account = 確認帳號
 confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 請記得要確認帳號
-verificationReminderFirst-title-2 = 歡迎使用 { -brand-firefox }！
 verificationReminderFirst-title-3 = 歡迎來到 { -brand-mozilla }！
-verificationReminderFirst-description-2 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 15 天內完成確認，否則帳號將被自動刪除。
 verificationReminderFirst-description-3 = 幾天前您註冊了 { -product-mozilla-account }，但並未確認過帳號身分。請在 15 天內完成確認，否則帳號將被自動刪除。
 verificationReminderFirst-sub-description-3 = 別錯過將您與您的隱私視為最優先的瀏覽器。
 confirm-email-2 = 確認帳號
 confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 確認帳號
 verificationReminderSecond-subject-2 = 請記得要確認帳號
-verificationReminderSecond-title-2 = 別錯過 { -brand-firefox } 的獨家功能！
 verificationReminderSecond-title-3 = 別錯過 { -brand-mozilla } 的獨家功能！
-verificationReminderSecond-description-3 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 10 天內完成確認，否則帳號將被自動刪除。
 verificationReminderSecond-description-4 = 幾天前您註冊了 { -product-mozilla-account }，但並未確認過帳號身分。請在 10 天內完成確認，否則帳號將被自動刪除。
-verificationReminderSecond-second-description = { -product-firefox-account } 可讓您在不同裝置間同步您的資訊，並且解鎖 { -brand-mozilla } 提供的更多隱私保護產品。
 verificationReminderSecond-second-description-3 = { -product-mozilla-account }可讓您在不同裝置間同步 { -brand-firefox } 的使用體驗，並且解鎖 { -brand-mozilla } 提供的更多隱私保護產品。
 verificationReminderSecond-sub-description-2 = 加入我們的使命，讓網路環境轉變為對每個人都開放的地方。
 verificationReminderSecond-action-2 = 確認帳號
-verify-title-2 = 使用 { -brand-firefox } 打開網路環境
 verify-title-3 = 與 { -brand-mozilla } 一起打開網路環境
-verify-description = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能：
 verify-description-2 = 確認您的帳號，就可以在任何登入的裝置中發揮 { -brand-mozilla } 產品的最大功能：
 verify-subject = 完成帳號註冊
 verify-action-2 = 確認帳號
@@ -659,19 +596,13 @@ verifySecondaryCode-title-2 = 確認次要電子郵件地址
 verifySecondaryCode-action-2 = 確認電子郵件信箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = 有人要求將 { $email } 加入為下列 { -product-firefox-account } 帳號的次要郵件帳號：
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = 有人要求將 { $email } 加入為下列 { -product-mozilla-account }帳號的次要郵件帳號：
 verifySecondaryCode-prompt-2 = 使用這組驗證碼：
 verifySecondaryCode-expiry-notice-2 = 驗證碼將於 5 分鐘後失效。驗證完成後，此信箱也會收到安全性通知與確認郵件。
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 確認您的帳號
-verifyShortCode-title-2 = 使用 { -brand-firefox } 打開網路環境
 verifyShortCode-title-3 = 與 { -brand-mozilla } 一起打開網路環境
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能：
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 確認您的帳號，就可以在任何登入的裝置中發揮 { -brand-mozilla } 產品的最大功能：
 verifyShortCode-prompt-3 = 使用這組驗證碼：
