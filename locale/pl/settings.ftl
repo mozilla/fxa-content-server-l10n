@@ -307,6 +307,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title-3 = Produkty { -brand-mozilla(case: "gen") }
+bento-menu-tagline = Więcej produktów od { -brand-mozilla(case: "gen") }, które chronią Twoją prywatność
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -964,6 +965,7 @@ auth-error-999 = Nieznany błąd
 auth-error-1003 = Obsługa lokalnego przechowywania danych lub ciasteczek jest nadal wyłączona
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
 auth-error-1011 = Wymagany jest prawidłowy adres e-mail
+auth-error-1062 = Nieprawidłowe przekierowanie
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.

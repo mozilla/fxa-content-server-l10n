@@ -434,7 +434,7 @@ subscription-iaperrorupgrade-title = Jeszcze nie możemy Cię przełączyć
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play-2 = { -google-play } Store
+brand-name-google-play-2 = Sklep { -google-play }
 brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
