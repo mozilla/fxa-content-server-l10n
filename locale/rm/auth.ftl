@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = Access a { -product-firefox-accounts }?
 session-verify-send-push-title-2 = Acceder a tes conto { -product-mozilla-account }?
 session-verify-send-push-body-2 = Clicca qua per confermar tia identitad
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Clicca qua per confermar tia identitad
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo da { -brand-firefox }">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronisar ils apparats">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparats">
 fxa-privacy-url = Directivas per la protecziun da datas da { -brand-mozilla }
 moz-accounts-privacy-url-2 = Infurmaziuns davart la protecziun da datas da { -product-mozilla-accounts }
-fxa-service-url = Cundiziuns d’utilisaziun dals servetschs da cloud da { -product-firefox-cloud }
 moz-accounts-terms-url = Cundiziuns d'utilisaziun da { -product-mozilla-accounts }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo da { -brand-firefox }">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo da { -brand-mozilla }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo da { -brand-mozilla }">
 subplat-automated-email = Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut.
 subplat-privacy-notice = Infurmaziuns davart la protecziun da datas
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-firefox-account } e ti has in abunament da { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-mozilla-account } e ti has in abunament da { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Ti retschaivas quest e-mail perquai che { $email } ha in { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Ti retschaivas quest e-mail perquai che { $email } ha in { -product-mozilla-account }.
-subplat-explainer-multiple = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-firefox-account } e ti has abunà plirs products.
 subplat-explainer-multiple-2 = Ti retschaivas quest e-mail perquai che { $email } è associà cun in { -product-mozilla-account } e ti has abunà plirs products.
-subplat-explainer-was-deleted = Ti retschaivas quest e-mail perquai che { $email } è vegnì duvrà per endrizzar in { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Ti retschaivas quest e-mail perquai che { $email } è vegnì duvrà per avrir in { -product-mozilla-account }.
-subplat-manage-account = Administrescha tes parameters dal { -product-firefox-account } cun visitar tia <a data-l10n-name="subplat-account-page">pagina dal conto</a>.
 subplat-manage-account-2 = Administrescha tes parameters dal { -product-mozilla-account } cun visitar tia <a data-l10n-name="subplat-account-page">pagina dal conto</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Administrescha tes parameters dal { -product-firefox-account } cun visitar tia pagina dal conto: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Administrescha tes parameters dal { -product-mozilla-account } cun visitar tia pagina dal conto: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = Directivas per la protecziun da datas da { -brand-mozil
 subplat-privacy-policy-2 = Infurmaziuns davart la protecziun da datas da { -product-mozilla-accounts }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = Cundiziuns d'utilisaziun dals servetschs da { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Cundiziuns d'utilisaziun dals { -product-mozilla-accounts }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Infurmaziuns giuridicas
@@ -234,25 +213,6 @@ device-all = { $uaBrowser } sin { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } sin { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Adressa IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (probablamain)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (probablamain)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (probablamain)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (probablamain)
 view-invoice = <a data-l10n-name="invoiceLink">Mussar tes quint</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Sincronisar in auter apparat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = I dovra dus per sincronisar
-cadReminderFirst-description-1 = Piglia tes tabs cun tai sin tut tes apparats. Acceda a tes segnapaginas, pleds-clav ed autras datas dapertut là nua che utiliseschas { -brand-firefox }. Quai è la magia da tes conto da { -brand-firefox }!
 cadReminderFirst-description-v2 = Prenda cun tai tes tabs sin tut tes apparats. Va per tes segnapaginas, pleds-clav ed autras datas per als avair dapertut là nua che ti dovras { -brand-firefox }.
 cadReminderSecond-subject-2 = Na sta betg cun la bucca sitga! Cumplettescha la configuraziun da tia sincronisaziun
 cadReminderSecond-action = Sincronisar in auter apparat
@@ -278,12 +237,9 @@ downloadSubscription-subject = Bainvegni tar { $productName }
 downloadSubscription-title = Bainvegni tar { $productName }
 downloadSubscription-content-2 = Entschaiva ad utilisar tut las funcziuns inclusas en tes abunament:
 downloadSubscription-link-action-2 = Emprims pass
-fraudulentAccountDeletion-subject = Tes { -product-firefox-account } è vegnì stizzà
 fraudulentAccountDeletion-subject-2 = Tes conto { -product-mozilla-account } è vegnì stizzà
 fraudulentAccountDeletion-title = Tes conto è vegnì stizzà
-fraudulentAccountDeletion-content = Dacurt è vegnì creà cun agid da questa adressa dad e-mail in { -product-firefox-account } cun in abunament che custa. Nus avain ta dumandà – uschia faschain nus quai cun tut ils contos novs – da confermar il conto cun validar questa adressa dad e-mail.
 fraudulentAccountDeletion-content-part1-v2 = Dacurt è vegnì creà cun agid da questa adressa dad e-mail in { -product-mozilla-account } cun in abunament che custa. Nus avain ta dumandà – uschia faschain nus quai cun tut ils contos novs – da confermar il conto cun validar questa adressa dad e-mail.
-fraudulentAccountDeletion-content-2 = Ussa avain nus constatà ch'il conto n'è mai vegnì confermà. Cunquai che quest pass manca, na savain nus betg segir sch'i sa tracta dad in abunament autorisà. En consequenza è il { -product-firefox-account } registrà cun questa adressa dad e-mail vegnì stizzà e tes abunament è vegnì annullà e tut las debitaziuns restituidas.
 fraudulentAccountDeletion-content-part2-v2 = Ussa avain nus constatà ch'il conto n'è mai vegnì confermà. Cunquai che quest pass manca, na savain nus betg sch'i sa tracta dad in abunament autorisà. En consequenza è il { -product-mozilla-account } registrà cun questa adressa dad e-mail vegnì stizzà e tes abunament è vegnì annullà e tut las debitaziuns restituidas.
 fraudulentAccountDeletion-contact = En cas da dumondas, contactescha per plaschair noss <a data-l10n-name="mozillaSupportUrl">team d'agid</a>.
 # Variables:
@@ -308,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova annunzia a { $clientName }
-newDeviceLogin-title-2 = Tes { -product-firefox-account } è vegnì duvrà per s'annunziar
+newDeviceLogin-subjectForMozillaAccount = Nova annunzia en tes { -product-mozilla-account }
 newDeviceLogin-title-3 = Tes { -product-mozilla-account } è vegnì duvrà per s'annunziar
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -319,13 +275,10 @@ newDeviceLogin-change-password-plain = Quai n'es betg ti? Mida tes pled-clav:
 newDeviceLogin-action = Administrar il conto
 passwordChanged-subject = Actualisà il pled-clav
 passwordChanged-title = Midà cun success il pled-clav
-passwordChanged-description = Il pled-clav da tes { -product-firefox-account } è vegnì midà cun success da suandant apparat:
 passwordChanged-description-2 = Il pled-clav da tes { -product-mozilla-account } è vegnì midà cun success cun agid da suandant apparat:
 passwordChangeRequired-subject = Observà ina activitad suspecta
 passwordChangeRequired-title = Midada dal pled-clav necessaria
-passwordChangeRequired-suspicious-activity = Nus avain constatà in cumportament suspectus en tes { -product-firefox-account }. Per impedir l'access nunautorisà a tes { -product-firefox-account } avain nus deconnectà tut tes apparats da tes conto e sco mesira da precauziun stos ti midar tes pled-clav.
 passwordChangeRequired-suspicious-activity-2 = Nus avain constatà in cumportament suspectus en tes { -product-mozilla-account }. Per impedir l'access nunautorisà a tes { -product-mozilla-account } avain nus deconnectà tut tes apparats da tes conto e sco mesira da precauziun stos ti midar tes pled-clav.
-passwordChangeRequired-sign-in = T'annunzia danovamain sin in dals apparats tar in dals servetschs nua che ti utiliseschas tes { -product-firefox-account } e suonda ils pass che ta vegnan proponids.
 passwordChangeRequired-sign-in-2 = T'annunzia danovamain sin in dals apparats tar in dals servetschs nua che ti utiliseschas tes { -product-mozilla-account } e suonda ils pass che ta vegnan proponids.
 passwordChangeRequired-different-password = <b>Impurtant:</b> Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail.
 passwordChangeRequired-different-password-plaintext = Impurtant: Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail.
@@ -334,10 +287,8 @@ passwordReset-title = Il pled-clav da tes conto è vegnì midà
 passwordReset-description = Ti stos endatar tes nov pled-clav sin tes auters apparats per pudair cuntinuar cun la sincronisaziun.
 passwordResetAccountRecovery-subject-2 = Tes pled-clav è vegnì reinizialisà
 passwordResetAccountRecovery-title-2 = Redefinì cun success tes pled-clav
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Ti has duvrà tia clav da recuperaziun dal conto per actualisar tes pled-clav:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Crear ina nova clav da recuperaziun dal conto
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Crear ina clav da recuperaziun dal conto
 passwordResetAccountRecovery-regen-required-mjml-1 = Ti stos t'annunziar danovamain sin tut tes apparats sincronisads. Tegna endament da crear ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà.
@@ -350,11 +301,7 @@ postAddAccountRecovery-body-part1 = Tegna en salv questa clav en in lieu segir �
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Questa clav po vegnir duvrada mo ina suletta giada. Suenter l'utilisaziun creain nus automaticamain ina nova clav per tai. Ma ti pos era da tut temp crear ina nova clav en ils parameters dal conto.
 postAddAccountRecovery-action = Administrar il conto
-postAddLinkedAccount-subject = Nov conto collià cun { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nov conto associà cun tes { -product-mozilla-account }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Tes conto da { $providerName } è vegnì collià cun tes conto da { -product-firefox-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tes conto da { $providerName } è vegnì collià cun tes conto da { -product-mozilla-account }
@@ -372,9 +319,6 @@ postChangeAccountRecovery-body-part2 = Tegna en salv questa nova clav en in lieu
 postChangeAccountRecovery-action = Administrar il conto
 postChangePrimary-subject = Adressa dad e-mail principala actualisada
 postChangePrimary-title = Nova adressa dad e-mail principala
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar a tes { -product-firefox-account }. En pli serva ella per retschaiver communicaziuns da segirezza e confermas d'annunzia.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar en tes { -product-mozilla-account }. En pli serva ella per retschaiver avis da segirezza e confermas d'annunzia.
@@ -402,9 +346,6 @@ postRemoveSecondary-subject = Allontanà l’adressa dad e-mail alternativa
 postRemoveSecondary-title = Allontanà l’adressa dad e-mail alternativa
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Ti has allontanà cun success { $secondaryEmail } sco adressa dad e-mail alternativa da tes { -product-firefox-account }. Avis da segirezza e confermas d'annunzia na vegnan betg pli tramessas a questa adressa.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Ti has allontanà cun success { $secondaryEmail } sco adressa dad e-mail secundara da tes { -product-mozilla-account }. Avis da segirezza e confermas d'annunzia na vegnan betg pli tramessas a questa adressa.
 postRemoveSecondary-action = Administrar il conto
 postRemoveTwoStepAuthentication-subject-line-2 = L'autentificaziun en dus pass è deactivada
@@ -417,7 +358,6 @@ postVerify-sub-title-3 = Nus ans allegrain che ti es qua!
 postVerify-title-2 = Vuls ti vesair il medem tab sin dus apparats?
 postVerify-description-2 = Quai è simpel! Installescha simplamain { -brand-firefox } sin in auter apparat e t'annunzia per sincronisar. Sco sch'i fiss magia!
 postVerify-sub-description = (Psst… Quai vul era dir che ti pos ir per tes segnapaginas, pleds-clav ed autras datas da { -brand-firefox } dapertut là nua che ti es annunzià.)
-postVerify-subject-3 = Bainvegni en { -brand-firefox }!
 postVerify-subject-4 = Bainvegni tar { -brand-mozilla }!
 postVerify-setup-2 = Connectar in auter apparat:
 postVerify-action-2 = Connectar in auter apparat
@@ -425,18 +365,11 @@ postVerifySecondary-subject = Agiuntà ina adressa dad e-mail alternativa
 postVerifySecondary-title = Agiuntà ina adressa dad e-mail alternativa
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Ti has confermà cun success { $secondaryEmail } sco adressa dad e-mail alternativa per tes { -product-firefox-account }. Avis da segirezza e confermas d'annunzia vegnan ussa tramess ad omaduas adressas.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Ti has confermà cun success { $secondaryEmail } sco adressa dad e-mail alternativa per tes { -product-mozilla-account }. Avis da segirezza e confermas d'annunzia vegnan ussa tramess ad omaduas adressas.
 postVerifySecondary-action = Administrar il conto
 recovery-subject = Redefinir tes pled-clav
 recovery-title-2 = Emblidà tes pled-clav?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Nus avain retschavì ina dumonda da midar il pled-clav per tes { -product-firefox-account } da:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nus avain retschavì ina dumonda da midar il pled-clav per tes { -product-mozilla-account } da:
 recovery-new-password-button = Creescha in nov pled-clav cun cliccar sin il buttun sutvart. Questa colliaziun vegn a scrudar en ina ura.
 recovery-copy-paste = Creescha in nov pled-clav cun copiar ed encollar l'URL sutvart en tes navigatur. Questa colliaziun vegn a scrudar en ina ura.
@@ -449,11 +382,6 @@ subscriptionAccountDeletion-title = Donn che ti vas
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Ti has dacurt stizzà tes { -product-firefox-account }. En consequenza avain nus annullà tes abunament da { $productName }. Tes ultim pajament da { $invoiceTotal } è vegnì pajà ils { $invoiceDateOnly }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Ti has dacurt stizzà tes { -product-mozilla-account }. En consequenza avain nus annullà tes abunament da { $productName }. Tes ultim pajament da { $invoiceTotal } è vegnì pajà ils { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -462,20 +390,16 @@ subscriptionAccountFinishSetup-subject = Bainvegni tar { $productName }: Defines
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bainvegni tar { $productName }
 subscriptionAccountFinishSetup-content-processing = Tes pajament vegn elavurà. Quai po cuzzar enfin quatter dis da lavur. Tes abunament vegn renovà automaticamain suenter mintga perioda da facturaziun sche ti n'al annulleschas betg.
-subscriptionAccountFinishSetup-content-create-2 = Sco proxim stos ti crear in pled-clav per il { -product-firefox-account } per pudair cumenzar ad utilisar tes nov abunament.
 subscriptionAccountFinishSetup-content-create-3 = Sco proxim stos ti crear in pled-clav per il { -product-mozilla-account } per pudair cumenzar ad utilisar tes nov abunament.
 subscriptionAccountFinishSetup-action-2 = Cumenzar
 subscriptionAccountReminderFirst-subject = Promemoria: Terminescha la configuraziun da tes conto
 subscriptionAccountReminderFirst-title = Ti na pos anc betg acceder a tes abunament
-subscriptionAccountReminderFirst-content-info-2 = Avant in pèr dis has ti creà in { -product-firefox-account } ma n'al has mai confermà. Nus sperain che ti fineschias la configuraziun per che ti possias utilisar tes nov abunament.
 subscriptionAccountReminderFirst-content-info-3 = Avant in pèr dis has ti creà in { -product-mozilla-account } ma n'al has mai confermà. Nus sperain che ti termineschias la configuraziun per che ti possias utilisar tes nov abunament.
 subscriptionAccountReminderFirst-content-select-2 = Tscherna «Crear in pled-clav» per endrizzar in nov pled-clav e cumplettar la conferma da tes conto.
 subscriptionAccountReminderFirst-action = Crear in pled-clav
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Ultima promemoria: Endrizza tes conto
-subscriptionAccountReminderSecond-title = Bainvegni tar { -brand-firefox }!
 subscriptionAccountReminderSecond-title-2 = Bainvegni tar { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-2 = Avant in pèr dis has ti creà in { -product-firefox-account } ma n'al has mai confermà. Nus sperain che ti fineschias la configuraziun da tes conto per che ti possias utilisar tes nov abunament.
 subscriptionAccountReminderSecond-content-info-3 = Avant in pèr dis has ti creà in { -product-mozilla-account } ma n'al has mai confermà. Nus sperain che ti termineschias la configuraziun per che ti possias utilisar tes nov abunament.
 subscriptionAccountReminderSecond-content-select-2 = Tscherna «Crear in pled-clav» per endrizzar in nov pled-clav e cumplettar la conferma da tes conto.
 subscriptionAccountReminderSecond-action = Crear in pled-clav
@@ -629,31 +553,23 @@ unblockCode-prompt-plaintext = Sche gea, quai è il code d'autorisaziun che ti d
 unblockCode-report = Sche na, ans pos ti gidar d'ans defender encunter laders ed <a data-l10n-name="reportSignInLink">ans rapportar quai</a>.
 unblockCode-report-plaintext = Sche na ans pos ti gidar d’ans defender encunter laders ed ans rapportar quai.
 verificationReminderFinal-subject = Ultima promemoria per confermar tes conto
-verificationReminderFinal-description = Avant in pèr emnas has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà. Per tia segirezza stizzain nus il conto sch'el na vegn betg verifitgà durant las proximas 24 uras.
 verificationReminderFinal-description-2 = Avant in pèr emnas has ti creà in { -product-mozilla-account }, ma ti n'al has mai confermà. Per tia segirezza stizzain nus il conto sch'el na vegn betg verifitgà durant las proximas 24 uras.
 confirm-account = Confermar il conto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = N'emblida betg da confermar tes conto
-verificationReminderFirst-title-2 = Bainvegni en { -brand-firefox }!
 verificationReminderFirst-title-3 = Bainvegni tar { -brand-mozilla }!
-verificationReminderFirst-description-2 = Avant in pèr dis has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 15 dis, uschiglio vegn el stizzà automaticamain.
 verificationReminderFirst-description-3 = Avant in pèr dis has ti creà in { -product-mozilla-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 15 dis, uschiglio vegn el stizzà automaticamain.
 verificationReminderFirst-sub-description-3 = Na manchenta betg il navigatur che dat la prioritad a ti ed a tia sfera privata.
 confirm-email-2 = Confermar il conto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confermar il conto
 verificationReminderSecond-subject-2 = N'emblida betg da confermar tes conto
-verificationReminderSecond-title-2 = Na manchenta betg { -brand-firefox }!
 verificationReminderSecond-title-3 = Na manchenta nagut da { -brand-mozilla }!
-verificationReminderSecond-description-3 = Avant in pèr dis has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 10 dis, uschiglio vegn el stizzà automaticamain.
 verificationReminderSecond-description-4 = Avant in pèr dis has ti creà in { -product-mozilla-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 10 dis, uschiglio vegn el stizzà automaticamain.
-verificationReminderSecond-second-description = Tes { -product-firefox-account } ta permetta da sincronisar tias infurmaziuns tranter tes apparats e ta dat access ad ulteriurs products per la protecziun da datas da { -brand-mozilla }.
 verificationReminderSecond-second-description-3 = Tes { -product-mozilla-account } ta permetta da sincronisar tias datas da { -brand-firefox } tranter tes apparats e ta dat access ad ulteriurs products per la protecziun da datas da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Participescha a nossa missiun che vul transfurmar l'internet en in lieu avert per ina e mintgin.
 verificationReminderSecond-action-2 = Confermar il conto
-verify-title-2 = Avrir l'internet cun { -brand-firefox }
 verify-title-3 = Avra l'internet cun { -brand-mozilla }
-verify-description = Conferma tes conto e profitescha al maximum da { -brand-firefox } – dapertut là nua che ti t’annunzias. L‘emprim pass:
 verify-description-2 = Conferma tes conto e profitescha il meglier da { -brand-mozilla } – dapertut là nua che ti t’annunzias. L‘emprim pass:
 verify-subject = Finir la creaziun da tes conto
 verify-action-2 = Confermar il conto
@@ -684,19 +600,13 @@ verifySecondaryCode-title-2 = Confermar l'adressa dad e-mail secundara
 verifySecondaryCode-action-2 = Confermar l’adressa d‘e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant { -product-firefox-account }:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Ina dumonda per utilisar { $email } sco adressa dad e-mail secundara è vegnida fatga da suandant { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Utilisescha quest code da conferma:
 verifySecondaryCode-expiry-notice-2 = El scada en 5 minutas. Uschespert che questa adressa è confermada, retschaiva ella avis e confermas da segirezza.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Conferma tes conto
-verifyShortCode-title-2 = Avra l'internet cun { -brand-firefox }
 verifyShortCode-title-3 = Avra l'internet cun { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Conferma tes conto e profitescha il meglier pussaivel da { -brand-firefox } – dapertut là nua che ti t’annunzias. L‘emprim pass:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Conferma tes conto e profitescha al maximum da { -brand-mozilla } – dapertut là nua che ti t’annunzias. L‘emprim pass:
 verifyShortCode-prompt-3 = Dovra quest code da conferma:
