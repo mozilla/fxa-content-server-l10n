@@ -508,6 +508,8 @@ subscriptionRenewalReminder-content-closing = Vennlig hilsen,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName }-teamet
+subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementene dine er utløpt eller utløper snart
+subscriptionsPaymentExpired-title-1 = Ditt betalingskort har utløpt eller i ferd med å utløpe
 subscriptionUpgrade-title = Takk for at du oppgraderer!
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 unblockCode-subject = Godkjenningskode for konto
@@ -515,7 +517,15 @@ unblockCode-title = Er det du som logger inn?
 unblockCode-prompt = Hvis ja, her er godkjenningskoden du trenger:
 unblockCode-report-plaintext = Hvis nei, hjelp oss med å avverge inntrengere og rapporter dette til oss.
 verificationReminderFinal-description-2 = For et par uker siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. For din sikkerhet vil vi slette kontoen hvis den ikke bekreftes i løpet av de neste 24 timene.
+confirm-account = Bekreft konto
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Husk å bekrefte kontoen din
+verificationReminderFirst-title-3 = Velkommen til { -brand-mozilla }!
 verificationReminderFirst-description-3 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 15 dagene, ellers blir den automatisk slettet.
+confirm-email-2 = Bekreft konto
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Bekreft konto
+verificationReminderSecond-subject-2 = Husk å bekrefte kontoen din
 verificationReminderSecond-title-3 = Ikke gå glipp av { -brand-mozilla }!
 verificationReminderSecond-description-4 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 10 dagene, ellers blir den automatisk slettet.
 verificationReminderSecond-second-description-3 = Din { -product-mozilla-account } lar deg synkronisere { -brand-firefox }-opplevelsen din på tvers av enheter og låser opp tilgang til mer personvernbeskyttende produkter fra { -brand-mozilla }.
