@@ -171,7 +171,6 @@ cs-sign-out-button = Logg ut
 ## Data collection section
 
 dc-heading = Datainnsamling og -bruk
-dc-subheader = Hjelp til med å forbedre { -product-firefox-accounts }
 dc-subheader-2 = Hjelp til med å forbedre { -product-mozilla-accounts }
 dc-subheader-content-2 = Tillate { -product-mozilla-accounts } å sende tekniske- og interaksjonsdata til { -brand-mozilla }?
 dc-opt-out-success-2 = Fravalget vellykket. { -product-mozilla-accounts } sender ikke tekniske data eller interaksjonsdata til { -brand-mozilla }.
@@ -196,6 +195,8 @@ flow-container-back = Tilbake
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Fortsett uten å laste ned
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -380,6 +381,12 @@ terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "u
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = eller
+continue-with-google-button = Fortsett med { -brand-google }
+continue-with-apple-button = Fortsett med { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -426,6 +433,13 @@ cookies-disabled-enable-prompt-2 = Slå på infokapsler og lokal lagring i nettl
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Skriv inn verifiseringskoden <span>for å fortsette til kontoinnstillingene</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Skriv inn verifiseringskoden <span>for å fortsette til { $serviceName }</span>
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -460,6 +474,13 @@ cookies-disabled-enable-prompt-2 = Slå på infokapsler og lokal lagring i nettl
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Tilbakestill passord med kontogjenopprettingsnøkkelen <span>for å fortsette til kontoinnstillingene</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Tilbakestill passord med kontogjenopprettingsnøkkelen <span>for å fortsette til { $serviceName }</span>
 account-recovery-confirm-key-instructions-2 = Skriv inn engangs-kontogjenopprettingsnøkkelen du lagret på et trygt sted, for å få tilgang til din { -product-mozilla-account } igjen.
 
 ## Account recovery reset password page
@@ -471,9 +492,20 @@ account-recovery-confirm-key-instructions-2 = Skriv inn engangs-kontogjenopprett
 
 ## Confirm Reset Password Component
 
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Trykk på lenken som er sendt til { $email } innen en time, for å lage et nytt passord.
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Tilbakestill passordet <span>for å fortsette til kontoinnstillingene</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Tilbakestill passordet <span>for å fortsette til { $serviceName }</span>
+reset-password-with-recovery-key-verified-continue-to-account = Fortsett til kontoen min
 
 ## CompleteSignin component
 
@@ -485,12 +517,26 @@ account-recovery-confirm-key-instructions-2 = Skriv inn engangs-kontogjenopprett
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Skriv inn passordet ditt <span>for { -product-mozilla-account } din</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Fortsett til <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Fortsett til { $serviceName }
+signin-subheader-without-logo-default = Fortsett til kontoinnstillingene
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Skriv inn reserve-verifiseringskode <span>for å fortsette til kontoinnstillingene</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Skriv inn reserve-verifiseringskode <span>for å fortsette til { $serviceName }</span>
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -508,6 +554,13 @@ signin-token-code-heading-2 = Skriv inn bekreftelseskoden<span> for { -product-m
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Skriv inn verifiseringskoden <span>for å fortsette til kontoinnstillingene</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Skriv inn verifiseringskoden <span>for å fortsette til { $serviceName }</span>
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
