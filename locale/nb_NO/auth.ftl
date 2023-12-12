@@ -432,7 +432,7 @@ subscriptionDowngrade-content-switch = Du har byttet fra { $productNameOld } til
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge-info = Fra og med din neste regning, vil kostnaden endres fra { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew }. På det tidspunktet vil du også få godskrevet et engangsbeløp på { $paymentProrated } for å reflektere den lavere kostnaden for resten av denne { $productPaymentCycleOld }.
+subscriptionDowngrade-content-charge-info = Fra og med din neste regning, vil kostnaden endres fra { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew } per { $productPaymentCycleNew }. På det tidspunktet vil du også få godskrevet et engangsbeløp på { $paymentProrated } for å reflektere den lavere kostnaden for resten av denne { $productPaymentCycleOld }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Om det finnes ny programvare for deg å installere for å bruke { $productName }, vil du motta en egen e-postmelding med nedlastingsinstruksjoner.
