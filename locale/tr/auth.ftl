@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = { -product-firefox-accounts }na giriş mi yapıyorsunuz?
 session-verify-send-push-title-2 = { -product-mozilla-account }nıza giriş mi yapıyorsunuz?
 session-verify-send-push-body-2 = Siz olduğunuzu onaylamak için tıklayın
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Siz olduğunuzu onaylamak için tıklayın
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logosu">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logosu">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cihazları eşitle">
 body-devices-image = <img data-l10n-name="devices-image" alt="Cihazlar">
 fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Gizlilik Bildirimi
-fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Hizmet Koşulları
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logosu">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logosu">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logosu">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logosu">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logosu">
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 subplat-privacy-notice = Gizlilik bildirimi
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = { $email } adresine kayıtlı bir { -product-firefox-account }nız olduğu ve { $productName } ürününe kaydolduğunuz için bu e-postayı aldınız.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = { $email } adresine kayıtlı bir { -product-mozilla-account }nız olduğu ve { $productName } ürününe kaydolduğunuz için bu e-postayı aldınız.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = { $email } adresine kayıtlı bir { -product-firefox-account } olduğu için bu e-postayı aldınız.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = { $email } adresine kayıtlı bir { -product-mozilla-account } olduğu için bu e-postayı aldınız.
-subplat-explainer-multiple = { $email } adresine kayıtlı bir { -product-firefox-account }nız olduğu ve birden fazla ürüne kaydolduğunuz için bu e-postayı aldınız.
 subplat-explainer-multiple-2 = { $email } adresine kayıtlı bir { -product-mozilla-account }nız olduğu ve birden fazla ürüne kaydolduğunuz için bu e-postayı aldınız.
-subplat-explainer-was-deleted = { $email } adresine kayıtlı bir { -product-firefox-account } olduğu için bu e-postayı aldınız.
 subplat-explainer-was-deleted-2 = { $email } adresine kayıtlı bir { -product-mozilla-account } olduğu için bu e-postayı aldınız.
-subplat-manage-account = { -product-firefox-account } ayarlarınızı yönetmek için <a data-l10n-name="subplat-account-page">hesap sayfanızı</a> ziyaret edin.
 subplat-manage-account-2 = { -product-mozilla-account } ayarlarınızı yönetmek için <a data-l10n-name="subplat-account-page">hesap sayfanızı</a> ziyaret edin.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Hesap sayfanızı ziyaret ederek { -product-firefox-account } ayarlarınızı yönetin: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = { -product-mozilla-account } ayarlarınızı yönetmek için hesap sayfanıza gidebilirsiniz: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = { -brand-mozilla } Gizlilik İlkeleri
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Gizlilik Bildirimi
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = { -product-firefox-cloud } Hizmet Koşulları
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Hizmet Koşulları
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Hukuki Bilgiler
@@ -244,7 +223,6 @@ cadReminderFirst-action = Başka bir cihazı eşitle
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Eşitleme için iki cihaza ihtiyacınız var
-cadReminderFirst-description-1 = Sekmelerinize tüm cihazlarınızdan ulaşın. Yer imlerinizi, parolalarınızı ve diğer verilerinizi  { -brand-firefox } kullandığınız her yere götürün.
 cadReminderSecond-subject-2 = Eşitleme kurulumunuzu tamamlayalım
 cadReminderSecond-action = Başka bir cihazı eşitle
 cadReminderSecond-title-2 = Eşitlemeyi unutmayın!
@@ -258,12 +236,9 @@ downloadSubscription-subject = { $productName } uygulamasına hoş geldiniz
 downloadSubscription-title = { $productName } uygulamasına hoş geldiniz
 downloadSubscription-content-2 = Aboneliğinize dahil olan tüm özellikleri kullanmaya başlayalım:
 downloadSubscription-link-action-2 = Başlayın
-fraudulentAccountDeletion-subject = { -product-firefox-account }nız silindi
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account }nız silindi
 fraudulentAccountDeletion-title = Hesabınız silindi
-fraudulentAccountDeletion-content = Yakın zamanda bu e-posta adresiyle bir { -product-firefox-account } oluşturuldu ve abonelik ücreti alındı. Tüm yeni hesaplarda yaptığımız gibi, öncelikle bu e-posta adresini doğrulayarak hesabınızı onaylamanızı istemiştik.
 fraudulentAccountDeletion-content-part1-v2 = Yakın zamanda bu e-posta adresiyle bir { -product-mozilla-account } oluşturuldu ve abonelik ücreti alındı. Tüm yeni hesaplarda yaptığımız gibi, öncelikle bu e-posta adresini doğrulayarak hesabınızı onaylamanızı istemiştik.
-fraudulentAccountDeletion-content-2 = Bu hesabın daha önce onaylanmadığını görüyoruz. Onay adımı tamamlanmadığı için bu aboneliğin gerçek olup olmadığından emin değiliz. Bu nedenle bu e-posta adresine kayıtlı { -product-firefox-account }nı sildik, aboneliğinizi iptal ettik ve tüm ücretleri iade ettik.
 fraudulentAccountDeletion-content-part2-v2 = Bu hesabın daha önce onaylanmadığını görüyoruz. Onay adımı tamamlanmadığı için bu aboneliğin gerçek olup olmadığından emin değiliz. Bu nedenle bu e-posta adresine kayıtlı { -product-mozilla-account }nı sildik, aboneliğinizi iptal ettik ve tüm ücretleri iade ettik.
 fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l10n-name="mozillaSupportUrl">destek ekibimizle</a> iletişime geçin.
 # Variables:
@@ -288,7 +263,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Yeni { $clientName } girişi
-newDeviceLogin-title-2 = { -product-firefox-account }nıza giriş yapıldı
+newDeviceLogin-subjectForMozillaAccount = { -product-mozilla-account }nıza yeni giriş
 newDeviceLogin-title-3 = { -product-mozilla-account }nıza giriş yapıldı
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -299,13 +274,10 @@ newDeviceLogin-change-password-plain = Siz değil miydiniz? Parolanızı değiş
 newDeviceLogin-action = Hesabı yönet
 passwordChanged-subject = Parola güncellendi
 passwordChanged-title = Parola başarıyla değiştirildi
-passwordChanged-description = { -product-firefox-account } parolanız aşağıdaki cihaz üzerinden değiştirildi:
 passwordChanged-description-2 = { -product-mozilla-account } parolanız aşağıdaki cihaz üzerinden değiştirildi:
 passwordChangeRequired-subject = Şüpheli etkinlik algılandı
 passwordChangeRequired-title = Parola değişikliği gerekiyor
-passwordChangeRequired-suspicious-activity = { -product-firefox-account }nızda şüpheli bir davranış tespit ettik. { -product-firefox-account }nıza yetkisiz erişimi önlemek için hesabınızdaki tüm cihazların bağlantısını kestik ve önlem olarak parolanızı değiştirmenizi istiyoruz.
 passwordChangeRequired-suspicious-activity-2 = { -product-mozilla-account }nızda şüpheli bir davranış tespit ettik. { -product-mozilla-account }nıza yetkisiz erişimi önlemek için hesabınızdaki tüm cihazların bağlantısını kestik ve önlem olarak parolanızı değiştirmenizi istiyoruz.
-passwordChangeRequired-sign-in = { -product-firefox-account }nızı kullandığınız herhangi bir cihaza veya hizmete yeniden giriş yaptıktan sonra size sunulacak adımları izleyin.
 passwordChangeRequired-sign-in-2 = { -product-mozilla-account }nızı kullandığınız herhangi bir cihaza veya hizmete yeniden giriş yaptıktan sonra size sunulacak adımları izleyin.
 passwordChangeRequired-different-password = <b>Önemli:</b> Daha önce kullandığınız paroladan ve e-posta parolanızdan farklı bir parola seçin.
 passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullandığınız paroladan ve e-posta parolanızdan farklı bir parola seçin.
@@ -316,8 +288,6 @@ passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
 passwordResetAccountRecovery-title-2 = Parola başarıyla sıfırlandı
 # Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Şu cihazdan parolanızı güncellemek için hesap kurtarma anahtarınızı kullandınız:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Yeni hesap kurtarma anahtarı oluştur
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Hesap kurtarma anahtarı oluştur
 passwordResetAccountRecovery-regen-required-mjml-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın.
@@ -330,11 +300,7 @@ postAddAccountRecovery-body-part1 = Bu anahtarı güvenli bir yerde saklayın. P
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Bu anahtar sadece bir kez kullanılabilir. Kullandıktan sonra sizin için otomatik olarak yeni bir tane oluşturacağız. İstediğiniz zaman hesap ayarlarınızdan yeni bir tane oluşturabilirsiniz.
 postAddAccountRecovery-action = Hesabı yönet
-postAddLinkedAccount-subject = { -brand-firefox }’a yeni hesap bağlandı
 postAddLinkedAccount-subject-2 = { -product-mozilla-account }nıza yeni bir hesap bağlandı
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = { $providerName } hesabınız { -product-firefox-account }na bağlandı
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } hesabınız { -product-mozilla-account }na bağlandı
@@ -352,9 +318,6 @@ postChangeAccountRecovery-body-part2 = Bu yeni anahtarı güvenli bir yerde sakl
 postChangeAccountRecovery-action = Hesabınızı yönetin
 postChangePrimary-subject = Ana e-posta güncellendi
 postChangePrimary-title = Yeni ana e-posta
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-firefox-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-mozilla-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
@@ -382,9 +345,6 @@ postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = { -product-firefox-account }nızda ikinci e-posta olarak kayıtlı { $secondaryEmail } adresini başarıyla sildiniz. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = { -product-mozilla-account }nızda ikinci e-posta olarak kayıtlı { $secondaryEmail } adresini başarıyla sildiniz. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir.
 postRemoveSecondary-action = Hesabı yönet
 postRemoveTwoStepAuthentication-subject-line-2 = İki aşamalı doğrulama kapatıldı
@@ -397,7 +357,6 @@ postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
 postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
 postVerify-description-2 = Çok kolay! Eşitlemeyi başlatmak için başka bir cihaza { -brand-firefox }’u yükleyip hesabınıza giriş yapmanız yeterli.
 postVerify-sub-description = (Ayrıca yer imlerinize, parolalarınıza ve diğer { -brand-firefox } verilerinize tüm cihazlarınızdan ulaşabilirsiniz.)
-postVerify-subject-3 = { -brand-firefox }’a hoş geldiniz!
 postVerify-subject-4 = { -brand-mozilla }’ya hoş geldiniz!
 postVerify-setup-2 = Başka bir cihaz bağla:
 postVerify-action-2 = Başka bir cihaz bağla
@@ -405,15 +364,10 @@ postVerifySecondary-subject = İkinci e-posta eklendi
 postVerifySecondary-title = İkinci e-posta eklendi
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = { $secondaryEmail } adresini { -product-firefox-account }nızın ikinci e-postası olarak onayladınız. Güvenlik bildirimleri ve giriş onayları artık her iki adresinize de gönderilecektir.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = { $secondaryEmail } adresini { -product-mozilla-account }nızın ikinci e-postası olarak onayladınız. Güvenlik bildirimleri ve giriş onayları artık her iki adresinize de gönderilecektir.
 postVerifySecondary-action = Hesabı yönet
 recovery-subject = Parolanızı sıfırlayın
 recovery-title-2 = Parolanızı mı unuttunuz?
-# Information on the device, date and time of the request that triggered the email follows.
-recovery-request-origin = { -product-firefox-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
 recovery-new-password-button = Aşağıdaki düğmeye tıklayarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
@@ -427,11 +381,6 @@ subscriptionAccountDeletion-title = Ayrılık sevdaya dahil
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Yakın zamanda { -product-firefox-account }nızı sildiniz. Bu nedenle { $productName } aboneliğinizi iptal ettik. { $invoiceTotal } tutarındaki son ödemeniz { $invoiceDateOnly } tarihinde ödendi.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Yakın zamanda { -product-mozilla-account }nızı sildiniz. Bu nedenle { $productName } aboneliğinizi iptal ettik. { $invoiceTotal } tutarındaki son ödemeniz { $invoiceDateOnly } tarihinde ödendi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -440,20 +389,16 @@ subscriptionAccountFinishSetup-subject = { $productName } hizmetine hoş geldini
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName } hizmetine hoş geldiniz
 subscriptionAccountFinishSetup-content-processing = Ödemeniz işleme alındı. Tamamlanması 4 iş günü sürebilir. İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenecektir.
-subscriptionAccountFinishSetup-content-create-2 = Ardından, yeni aboneliğinizi kullanmaya başlamak için { -product-firefox-account } parolanızı oluşturacaksınız.
 subscriptionAccountFinishSetup-content-create-3 = Ardından, yeni aboneliğinizi kullanmaya başlamak için { -product-mozilla-account } parolanızı oluşturacaksınız.
 subscriptionAccountFinishSetup-action-2 = Başlayın
 subscriptionAccountReminderFirst-subject = Hatırlatma: Hesabınızın kurulumunu tamamlayın
 subscriptionAccountReminderFirst-title = Henüz aboneliğinize erişemezsiniz
-subscriptionAccountReminderFirst-content-info-2 = Birkaç gün önce { -product-firefox-account } açtınız ama hesabınızı henüz onaylamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
 subscriptionAccountReminderFirst-content-info-3 = Birkaç gün önce { -product-mozilla-account } açtınız ama hesabınızı henüz onaylamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
 subscriptionAccountReminderFirst-content-select-2 = Yeni parola belirlemek için “Parola oluştur”u seçerek hesabınızı doğrulamayı tamamlayın.
 subscriptionAccountReminderFirst-action = Parola oluştur
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Son hatırlatma: Hesabınızı kurun
-subscriptionAccountReminderSecond-title = { -brand-firefox }’a hoş geldiniz!
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla }’ya hoş geldiniz!
-subscriptionAccountReminderSecond-content-info-2 = Birkaç gün önce { -product-firefox-account } açtınız ama hesabınızı henüz onaylamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
 subscriptionAccountReminderSecond-content-info-3 = Birkaç gün önce { -product-mozilla-account } açtınız ama hesabınızı henüz onaylamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
 subscriptionAccountReminderSecond-content-select-2 = Yeni parola belirlemek için “Parola oluştur”u seçerek hesabınızı doğrulamayı tamamlayın.
 subscriptionAccountReminderSecond-action = Parola oluştur
@@ -583,31 +528,23 @@ unblockCode-prompt-plaintext = Sizseniz bu yetkilendirme kodunu kullanabilirsini
 unblockCode-report = Değilseniz, saldırganları kapı dışarı edebilmemiz için <a data-l10n-name="reportSignInLink">bize rapor edin</a>.
 unblockCode-report-plaintext = Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin.
 verificationReminderFinal-subject = Hesabınızı onaylamanız için son hatırlatma
-verificationReminderFinal-description = Birkaç hafta önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Güvenliğiniz için, önümüzdeki 24 saat içinde onaylamazsanız bu hesabı sileceğiz.
 verificationReminderFinal-description-2 = Birkaç hafta önce bir { -product-mozilla-account } açtınız ama hesabınızı onaylamadınız. Güvenliğiniz için, önümüzdeki 24 saat içinde onaylamazsanız bu hesabı sileceğiz.
 confirm-account = Hesabı onaylayın
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hesabınızı onaylamayı unutmayın
-verificationReminderFirst-title-2 = { -brand-firefox }’a hoş geldiniz!
 verificationReminderFirst-title-3 = { -brand-mozilla }’ya hoş geldiniz!
-verificationReminderFirst-description-2 = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 15 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderFirst-description-3 = Birkaç gün önce bir { -product-mozilla-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 15 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderFirst-sub-description-3 = Sizi ve gizliliğinizi ilk sıraya koyan tarayıcıyı kaçırmayın.
 confirm-email-2 = Hesabı onaylayın
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Hesabı onaylayın
 verificationReminderSecond-subject-2 = Hesabınızı onaylamayı unutmayın
-verificationReminderSecond-title-2 = { -brand-firefox } sizi bekliyor!
 verificationReminderSecond-title-3 = { -brand-mozilla } sizi bekliyor!
-verificationReminderSecond-description-3 = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 10 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderSecond-description-4 = Birkaç gün önce bir { -product-mozilla-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 10 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
-verificationReminderSecond-second-description = { -product-firefox-account } sayesinde bilgilerinizi cihazlarınız arasında senkronize edebilir ve gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerini kullanabilirsiniz.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account } sayesinde { -brand-firefox } verilerinizi cihazlarınız arasında eşitleyebilir ve gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerini kullanabilirsiniz.
 verificationReminderSecond-sub-description-2 = İnterneti herkese açık bir yere dönüştürme misyonumuzun bir parçası olun.
 verificationReminderSecond-action-2 = Hesabı onaylayın
-verify-title-2 = İnternete { -brand-firefox } ile açılın
 verify-title-3 = İnternete { -brand-mozilla } ile açılın
-verify-description = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın. İlk olarak…
 verify-description-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. İlk olarak…
 verify-subject = Hesabınızı oluşturmayı tamamlayın
 verify-action-2 = Hesabı onaylayın
@@ -638,19 +575,13 @@ verifySecondaryCode-title-2 = İkinci e-postayı onayla
 verifySecondaryCode-action-2 = E-postanızı doğrulayın
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-firefox-account }ndan bir istek yapıldı:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-mozilla-account }ndan bir istek yapıldı:
 verifySecondaryCode-prompt-2 = Bu doğrulama kodunu kullanın:
 verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Hesabınızı onaylayın
-verifyShortCode-title-2 = İnternete { -brand-firefox } ile açılın
 verifyShortCode-title-3 = İnternete { -brand-mozilla } ile açılın
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın. İlk olarak…
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. İlk olarak…
 verifyShortCode-prompt-3 = Bu doğrulama kodunu kullanın:
