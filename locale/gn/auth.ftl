@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = ¿Eñepyrũ tembiapo { -product-firefox-accounts } ndive?
 session-verify-send-push-title-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
 session-verify-send-push-body-2 = Eikutu ápe roikuaa hag̃ua ndeha
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Eikutu ápe roikuaa hag̃ua ndeha
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Ñemigua Porureko
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Porureko Ñemigua
-fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’eporu reko
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 subplat-privacy-notice = Marandu’i ñemiguáva
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } ha eñemboheraguapy { $productName } peg̃uarã.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Og̃uahẽ ko ñanduti veve { $email } ereko rupi { -product-mozilla-account } ha eñemboheraguapy { $productName } peg̃uarã.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Og̃uahẽ ndéve ko ñanduti veve { $email } oreko rupi { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Og̃uahẽ ndéve ko ñanduti veve { $email } oreko rupi { -product-mozilla-account }.
-subplat-explainer-multiple = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
 subplat-explainer-multiple-2 = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-mozilla-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
-subplat-explainer-was-deleted = Og̃uahẽ ndéve ko ñanduti veve { $email } oñemboheraguapy rupi { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Og̃uahẽ ndéve ko ñanduti veve { $email } oñemboheraguapy rupi { -product-mozilla-account }.
-subplat-manage-account = Eñangareko nde { -product-firefox-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
 subplat-manage-account-2 = Eñangareko nde { -product-mozilla-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Eñangareko { -product-firefox-account } ñangarekóre eikévo ne mba’ete kuatiaroguépe: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Eñangareko { -product-mozilla-account } ñangarekóre eikévo ne mba’ete kuatiaroguépe: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = { -brand-mozilla } Ñemigua Porureko
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Porureko Ñemigua
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }
-subplat-cloud-terms = { -product-firefox-cloud } Mba’eporurã rehegua
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’eporu reko
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Añete
@@ -234,25 +213,6 @@ device-all = { $uaBrowser } { $uaOS } { $uaOSVersion }-pe
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } { $uaOS }-pe
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP kundaharape: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (hayhupyre)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (hayhupyre)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (hayhupyre)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (hayhupyre)
 view-invoice = <a data-l10n-name="invoiceLink">Ehecha ne ñemuhague</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Embojuehe ambue mba’e’oka
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Tekotevẽ mokõi ojuehe hag̃ua
-cadReminderFirst-description-1 = Egueraha tendake opaite mba’e’okápe. Egueraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eiporusehápe { -brand-firefox }. ¡Ha’e tuichave mba’éva ne mba’ete { -brand-firefox } pegua!
 cadReminderFirst-description-v2 = Egueraha ne rendayke ne mba’e’okuéra rupive. Eraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eiporuhápe { -brand-firefox }.
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
@@ -278,12 +237,9 @@ downloadSubscription-subject = ¡Eg̃uahẽporãite { $productName }-pe!
 downloadSubscription-title = ¡Eg̃uahẽporãite { $productName }-pe!
 downloadSubscription-content-2 = Ñañepyrũkatu jaiporu opaite tembiapoite oikéva ne ñemboheraguapýpe:
 downloadSubscription-link-action-2 = Jeguata Ñepyrũ
-fraudulentAccountDeletion-subject = Nde { -product-firefox-account } oñemboguéma
 fraudulentAccountDeletion-subject-2 = Nde { -product-mozilla-account } oñemboguéma
 fraudulentAccountDeletion-title = Ne mba’ete oñemboguéma
-fraudulentAccountDeletion-content = Oñemoheñoiramoite { -product-firefox-account } ha orekóta ñemboheraguapy ñanduti veve kundaharape ndive. Rojapoháicha mba’ete pyahu ndive, rojerure ndéve emoneĩ hag̃ua mba’ete emboajévo ñepyrũrã ñanduti veve kundaharape.
 fraudulentAccountDeletion-content-part1-v2 = Oñemoheñoiramoite { -product-mozilla-account } ha orekóta ñemboheraguapy ñanduti veve kundaharape ndive. Rojapoháicha mba’ete pyahu ndive, rojerure ndéve emoneĩ hag̃ua mba’ete emboajévo ñepyrũrã ñanduti veve kundaharape.
-fraudulentAccountDeletion-content-2 = Ko’ag̃aite, rohecha pe mba’e noñemboajeihague. Kóva ndojejapói haguére, ndoroikuaaporãi ha’épa ñemboheraguapy moneĩmbyrépa. Ha upéicha rupi, { -product-firefox-account } oñemboheraguapýva ko ñanduti veve kundaharapépe oñemboguéma ha ne ñemboheraguapy ojejokóma opaite mba’e heseguáva reheve.
 fraudulentAccountDeletion-content-part2-v2 = Ko’ag̃aite, rohecha pe mba’e noñemboajeihague. Kóva ndojejapói haguére, ndoroikuaaporãi ha’épa ñemboheraguapy moneĩmbyrépa. Ha upéicha rupi, { -product-mozilla-account } oñemboheraguapýva ko ñanduti veve kundaharapépe oñemboguéma ha ne ñemboheraguapy ojejokóma opaite mba’e heseguáva reheve.
 fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n-name="mozillaSupportUrl">aty pytyvõha ndive</a>.
 # Variables:
@@ -308,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
-newDeviceLogin-title-2 = Nde { -product-firefox-account } ojeporu tembiapo ñepyrũrã
+newDeviceLogin-subjectForMozillaAccount = ¿Eñepyrũjey tembiapo { -product-mozilla-account } ndive?
 newDeviceLogin-title-3 = Nde { -product-mozilla-account } ojeporu tembiapo ñepyrũrã
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -319,13 +275,10 @@ newDeviceLogin-change-password-plain = ¿Nandéipa? Emoambue ne ñe’ẽñemi:
 newDeviceLogin-action = Mba’ete ñangareko
 passwordChanged-subject = Ñe’ẽñemi hekopyahúva
 passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
-passwordChanged-description = Oñemoambue hekoitépe nde { -product-firefox-account } ñe’ẽñemi peteĩva mba’e’oka guive:
 passwordChanged-description-2 = Oñemoambue hekoitépe nde { -product-mozilla-account } ñe’ẽñemi peteĩva mba’e’oka guive:
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
-passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
 passwordChangeRequired-suspicious-activity-2 = Rohecha jeku’e ikatúva oñembyai nde { -product-mozilla-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-mozilla-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
-passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’eporu eiporuhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
 passwordChangeRequired-sign-in-2 = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’eporu eiporuhápe nde { -product-mozilla-account } ha tereho pe tape ehechátavape.
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eiporúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
 passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo peteĩ ñe’ẽñemi iñambuéva umi eiporúvagui kuri ha ehecha avei iñambuéva pe ne ñanduti veve mba’etégui.
@@ -334,10 +287,8 @@ passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
 passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe.
 passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
 passwordResetAccountRecovery-title-2 = Ñe’ẽñemi jeguerujey apañuãi’ỹre
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Eiporu ayvu jeguerujeyrã embohekopyahu hag̃ua ne ñe’ẽñemi tenda guive:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Emoheñói mba’ete mba’eñemi guerujeyrã
 passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eiporuva’ekue.
@@ -350,11 +301,7 @@ postAddAccountRecovery-body-part1 = Eñongatu mba’eñemi tenda hekorosãvape; 
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Ko mba’eñemi eiporukuaa peteĩjeýnte. Eiporupa rire, rojapóta ipyahuetévava. Térã emoheñoikuaa ipyahúva ejapose vovénte ne mba’ete ñemboheko guive.
 postAddAccountRecovery-action = Mba’ete ñangareko
-postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
 postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-firefox-account } rehe
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-mozilla-account } rehe
@@ -372,9 +319,6 @@ postChangeAccountRecovery-body-part2 = Eñongatu mba’eñemi pyahu tenda hekoro
 postChangeAccountRecovery-action = Mba’ete ñangareko
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Emoambue hekopete ne ñandutiveve eiporuvéva { $email }. Ko kundaharape ha’e nde poruhára réra eñepyrũ hag̃ua tembiapo nde { -product-firefox-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Emoambue hekopete ne ñandutiveve eiporuvéva { $email }. Ko kundaharape ha’e nde poruhára réra eñepyrũ hag̃ua tembiapo nde { -product-mozilla-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
@@ -402,9 +346,6 @@ postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Emboguéma hekopete { $secondaryEmail } ñanduti veve mokõiguáva nde { -product-firefox-account } pegua. Umi marandu’i tekorosãrãva ha ñemoneĩ tembiapo ñepyrũ rehegua nog̃uahẽmo’ãvéima ko kundaharapépe.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Emboguéma hekopete { $secondaryEmail } ñanduti veve mokõiguáva nde { -product-mozilla-account } pegua. Umi marandu’i tekorosãrãva ha ñemoneĩ tembiapo ñepyrũ rehegua nog̃uahẽmo’ãvéima ko kundaharapépe.
 postRemoveSecondary-action = Mba’ete ñangareko
 postRemoveTwoStepAuthentication-subject-line-2 = Ñemoneĩ mokõi jeygua myandypyre
@@ -417,7 +358,6 @@ postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
 postVerify-title-2 = ¿Ehechasépa tendayke mokõi mba’e’okápe?
 postVerify-description-2 = ¡Ndahasýi! Emohenda { -brand-firefox } ambue mba’e’okápe ha eñepyrũ tembiapo embojuehe hag̃ua. ¡Ha’ete hasy’ỹva!
 postVerify-sub-description = (Psst… he’ise avei erekokuaaha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã { -brand-firefox } guive emoñepyrũhápe tembiapo).
-postVerify-subject-3 = Eg̃uahẽporã { -brand-firefox }-pe
 postVerify-subject-4 = ¡Eg̃uahẽporã { -brand-mozilla }-pe!
 postVerify-setup-2 = Embojuaju ambue mba’e’oka:
 postVerify-action-2 = Embojuaju ambue mba’e’oka
@@ -425,18 +365,11 @@ postVerifySecondary-subject = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-title = Ñanduti veve mokõiguáva mbojuajupyre
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Emoneĩ hekopete { $secondaryEmail } ñanduti veve mokõihávarõ ne { -product-firefox-account } pegua. Marandu’i tekorosã ha ñemoneĩrã tembiapo ñepyrũgua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve kundaharapépe.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Emoneĩ hekopete { $secondaryEmail } ñanduti veve mokõihávarõ ne { -product-mozilla-account } pegua. Marandu’i tekorosã ha ñemoneĩrã tembiapo ñepyrũgua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve kundaharapépe.
 postVerifySecondary-action = Mba’ete ñangareko
 recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title-2 = ¿Nderesarái ñe’ẽñemígui?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-firefox-account }-pe:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-mozilla-account }-pe:
 recovery-new-password-button = Emoheñói ñe’ẽñemi pyahu eikutúvo amo votõ. Ko juajuha hekopáta peteĩ aravo rire.
 recovery-copy-paste = Emoheñói ñe’ẽñemi pyahu embokuatia ha embojávo ko URL ne mohendahápe. Ko juajuha hekopaháta peteĩ aravo ohasa rire.
@@ -449,11 +382,6 @@ subscriptionAccountDeletion-title = Ambyasy eho haguére
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Embogueramoite nde { -product-firefox-account }. Péva rupi, romboykéma ne ñemoheraguapy { $productName }. Ñe ñehepyme’ẽ ipaháva { $invoiceTotal } pegua oñehepyme’ẽvo { $invoiceDateOnly }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Embogueramoite nde { -product-mozilla-account }. Péva rupi, romboykéma ne ñemoheraguapy { $productName }. Ñe ñehepyme’ẽ ipaháva { $invoiceTotal } pegua oñehepyme’ẽvo { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -462,20 +390,16 @@ subscriptionAccountFinishSetup-subject = Eg̃uahẽporã { $productName }-pe: Em
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = ¡Eg̃uahẽporã { $productName }-pe!
 subscriptionAccountFinishSetup-content-processing = Pe jehepyme’ẽ oñemboajehína ha ohupytykuaa irundy ára oĩmba hag̃ua. Pe ñemboheraguapy hekopyahúta ijehegui ohasávo pe kuatiañemurã arapa’ũ ndete mba’e nderejokóiramo.
-subscriptionAccountFinishSetup-content-create-2 = Eñepyrũjeývo emoheñói ñe’ẽñemi { -product-firefox-account } eiporukuaa hag̃ua ne memboheraguapy.
 subscriptionAccountFinishSetup-content-create-3 = Eñepyrũjeývo emoheñói ñe’ẽñemi { -product-mozilla-account } eiporukuaa hag̃ua ne memboheraguapy.
 subscriptionAccountFinishSetup-action-2 = Ñañepyrũ
 subscriptionAccountReminderFirst-subject = Mandu’arã: Embohekopyahupa ne mba’ete
 subscriptionAccountReminderFirst-title = Ndereikekuaái gueteri ne ñemboheraguapýpe
-subscriptionAccountReminderFirst-content-info-2 = Nda’areiete emoheñoihague { -product-firefox-account } hákatu araka’eve neremoneĩri. Roha’ãrõ embohekóvo ne mba’ete, péichamante eiporukuaa ne ñemboheraguapy pyahúpe.
 subscriptionAccountReminderFirst-content-info-3 = Nda’areiete emoheñoihague { -product-mozilla-account } hákatu araka’eve neremoneĩri. Roha’ãrõ embohekóvo ne mba’ete, péichamante eiporukuaa ne ñemboheraguapy pyahúpe.
 subscriptionAccountReminderFirst-content-select-2 = Eiporavo “Ñe’ẽñemi moheñói” emboheko hag̃ua ñe’ẽñemi pyahu ha péicha emoneĩ ne mba’ete.
 subscriptionAccountReminderFirst-action = Emoheñói ñe’ẽñemi
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Mandu’arã paha: Emboheko ne mba’ete
-subscriptionAccountReminderSecond-title = Tereg̃uahẽporãite { -brand-firefox }-pe
 subscriptionAccountReminderSecond-title-2 = ¡Eg̃uahẽporã { -brand-mozilla }-pe!
-subscriptionAccountReminderSecond-content-info-2 = Nda’areiete emoheñoihague { -product-firefox-account } hákatu araka’eve neremoneĩri. Roha’ãrõ embohekóvo ne mba’ete, péichamante eiporukuaa ne ñemboheraguapy pyahu.
 subscriptionAccountReminderSecond-content-info-3 = Nda’areiete emoheñoihague { -product-mozilla-account } hákatu araka’eve neremoneĩri. Roha’ãrõ embohekóvo ne mba’ete, péichamante eiporukuaa ne ñemboheraguapy pyahúpe.
 subscriptionAccountReminderSecond-content-select-2 = Eiporavo “Ñe’ẽñemi moheñói” emboheko hag̃ua ñe’ẽñemi pyahu ha péicha emoneĩ ne mba’ete.
 subscriptionAccountReminderSecond-action = Emoheñói ñe’ẽñemi
@@ -629,31 +553,23 @@ unblockCode-prompt-plaintext = Upéicharõ, ayvu jeguerujeyrã reikotevẽva ha�
 unblockCode-report = Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña <a data-l10n-name="reportSignInLink">oremomarandu</a>.
 unblockCode-report-plaintext = Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna.
 verificationReminderFinal-subject = Nemandu’áke emoneĩ hag̃ua ne mba’ete
-verificationReminderFinal-description = Mokõi arapokõindy emoheñoihague ko { -product-firefox-account }, hákatu araka’eve neremoneĩri. Nde rekorosãrã, romboguéta ko mba’ete neremoneĩriramo 24 aravo mboyve.
 verificationReminderFinal-description-2 = Mokõi arapokõindy emoheñoihague ko { -product-mozilla-account }, hákatu araka’eve neremoneĩri. Nde rekorosãrã, romboguéta ko mba’ete neremoneĩriramo 24 aravo mboyve.
 confirm-account = Emoneĩjey mba’ete
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
-verificationReminderFirst-title-2 = ¡Eg̃uahẽporã { -brand-firefox }-pe!
 verificationReminderFirst-title-3 = ¡Eg̃uahẽporã { -brand-mozilla }-pe!
-verificationReminderFirst-description-2 = Emoheñoiramoite { -product-firefox-account }, hákatu neremoneĩri gueteri. Emoneĩ ne mba’ete 15 ára oútabape térã oñemboguéta ijeheguiete.
 verificationReminderFirst-description-3 = Emoheñoiramoite { -product-mozilla-account }, hákatu neremoneĩri gueteri. Emoneĩ ne mba’ete 15 ára oútabape térã oñemboguéta ijeheguiete.
 verificationReminderFirst-sub-description-3 = Aníke ejavy kundahára nemoĩva ndéve ha nde rekoñemíme tenondete.
 confirm-email-2 = Emoneĩjey mba’ete
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Emoneĩjey mba’ete
 verificationReminderSecond-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
-verificationReminderSecond-title-2 = ¡Aníke ejavy { -brand-firefox }!
 verificationReminderSecond-title-3 = ¡Aníke ejavy { -brand-mozilla }!
-verificationReminderSecond-description-3 = Emoheñoiramoite { -product-firefox-account }, hákatu neremoneĩri gueteri. Emoneĩ ne mba’ete 10 ára oútabape térã oñemboguéta ijeheguiete.
 verificationReminderSecond-description-4 = Emoheñoiramoite { -product-mozilla-account }, hákatu neremoneĩri gueteri. Emoneĩ ne mba’ete 15 ára oútabape térã oñemboguéta ijeheguiete.
-verificationReminderSecond-second-description = Nde { -product-firefox-account } ombojuehekuaa ne marandu mba’e’oka pa’ũme ha oipe’a okẽ heta { -brand-mozilla } apopyrépe omo’ãkuaa hag̃ua tekoñemíme.
 verificationReminderSecond-second-description-3 = Nde { -product-mozilla-account } ombojuehekuaa nde rejapopyréva { -brand-firefox } ndive opaite mba’e’okápe ha oipe’áta okẽ { -brand-mozilla } apopyrépe omo’ãkuaa hag̃ua tekoñemi.
 verificationReminderSecond-sub-description-2 = Eike ore rembipotápe emoambuekuaa hag̃ua ñanduti peteĩ tenda ijurujáva opavavépe g̃uarã.
 verificationReminderSecond-action-2 = Emoneĩjey mba’ete
-verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 verify-title-3 = Embojuruja ñanduti { -brand-mozilla } ndive
-verify-description = Emoneĩ ne mba’ete ha eiporuporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 verify-description-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
 verify-subject = Emoheñoimava’erã mba’ete
 verify-action-2 = Emoneĩjey mba’ete
@@ -684,19 +600,13 @@ verifySecondaryCode-title-2 = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Ojejerure ojeporu hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Ojejerure ojeporu hag̃ua { $email } ñanduti veve mokõháva ambue { -product-mozilla-account } peg̃uarã:
 verifySecondaryCode-prompt-2 = Eiporu ko ayvu rechajeyrã:
 verifySecondaryCode-expiry-notice-2 = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽta marandu’i tekorosã ha ñemoneĩ rehegua.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
-verifyShortCode-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 verifyShortCode-title-3 = Embojuruja ñanduti { -brand-mozilla } ndive
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Emoneĩ ne mba’ete ha eiporuporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
 verifyShortCode-prompt-3 = Eiporu ko ayvu ñemoneĩrã:

@@ -30,14 +30,10 @@ input-error-is-required = Oñeikotevẽ { $label }
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } ra’ãnga’i
 brand-name-mozilla-logo = { -brand-mozilla } ra’ãnga’i
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = ¿Erekóma mba’ete { -brand-name-firefox } pegua? <a>Eñepyrũ tembiapo</a>
 new-user-sign-in-link-2 = Erekómapa { -product-mozilla-account }? <a>Eñepyrũ tembiapo</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -104,6 +100,7 @@ payment-confirmation-download-button = Emboguejy ehóvo
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = Amoneĩ { -brand-mozilla }-pe, tomyanyhẽ ahepyme’ẽhápe he’iháicha <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>Ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
 payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 ## Component - PaymentErrorView
@@ -385,8 +382,6 @@ coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurationDat
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Emoheñói mba’ete { -brand-name-firefox }-pe
 new-user-step-1-2 = 1. Emoheñói { -product-mozilla-account }
 new-user-card-title = Emoinge marandu kuatia’atã rehegua
 new-user-submit = Eñemboheraguapy Ko’ág̃a
