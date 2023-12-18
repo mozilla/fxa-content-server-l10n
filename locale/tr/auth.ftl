@@ -545,7 +545,7 @@ verificationReminderSecond-second-description-3 = { -product-mozilla-account } s
 verificationReminderSecond-sub-description-2 = İnterneti herkese açık bir yere dönüştürme misyonumuzun bir parçası olun.
 verificationReminderSecond-action-2 = Hesabı onaylayın
 verify-title-3 = İnternete { -brand-mozilla } ile açılın
-verify-description-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. İlk olarak…
+verify-description-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
 verify-subject = Hesabınızı oluşturmayı tamamlayın
 verify-action-2 = Hesabı onaylayın
 # Variables:
@@ -583,6 +583,6 @@ verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Ad
 verifyShortCode-subject-3 = Hesabınızı onaylayın
 verifyShortCode-title-3 = İnternete { -brand-mozilla } ile açılın
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. İlk olarak…
+verifyShortCode-title-subtext-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
 verifyShortCode-prompt-3 = Bu doğrulama kodunu kullanın:
 verifyShortCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
