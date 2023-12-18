@@ -110,6 +110,8 @@ payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Eñemboheraguapýma { $productName } tembiporu’i ñemuha rupive { -brand-google } térã { -brand-apple }.
 iap-upgrade-no-bundle-support = Noromoneĩri ñembohekopyahu ko’ã ñemoheraguapýpe, hákatu vokóinte rojapóta.
 iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
 iap-upgrade-get-help-button = Eipota pytyvõ
@@ -496,6 +498,7 @@ sub-expires-on = Opáta { $date }
 pay-update-card-exp = Hu’ãta { $expirationDate }
 sub-route-idx-updating = Hekopyahuhína ñemuhakuatia marandu…
 sub-route-payment-modal-heading = Marandu kuatiañemure oiko’ỹva
+sub-route-payment-modal-message-2 = Oĩvaicha jejavy { -brand-paypal } mba’ete ndive, roikotevẽ emboguata mba’eichaitépa emoĩporãta ko apañuãi jehepyme’ẽ rehegua.
 sub-route-missing-billing-agreement-payment-alert = Marandu jehepyme’ẽ rehegua oiko’ỹva; oĩ jejavy mba’ete ndive. <div>Ñangareko</div>
 sub-route-funding-source-payment-alert = Marandu jehepyme’ẽ rehegua oiko’ỹva; oĩ jejavy mba’ete ndive. Ko jyhyjerã ndohopya’emo’ãi embohehekopyahu rire pe marandu hekopete. <div>Ñangareko</div>
 
