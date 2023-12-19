@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-07 20:08+0000\n"
-"PO-Revision-Date: 2023-12-19 16:02+0000\n"
+"PO-Revision-Date: 2023-12-19 17:18+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -546,7 +546,7 @@ msgstr "Η συνεδρία έληξε. Συνδεθείτε για να συν�
 
 #: .es5/lib/auth-errors.js:322
 msgid "Cookies are still disabled"
-msgstr "Τα cookies είναι ακόμη ανενεργά"
+msgstr "Τα cookie είναι ακόμη ανενεργά"
 
 #: .es5/lib/auth-errors.js:326
 msgid "Passwords do not match"

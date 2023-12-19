@@ -170,7 +170,6 @@ form-verify-code-default-error = Αυτό το πεδίο απαιτείται
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Κλειδί ανάκτησης λογαριασμού { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης
 get-data-trio-download-2 =
     .title = Λήψη
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Μενού Bento του { -brand-firefox }
-bento-menu-title-2 = Μενού bento της { -brand-mozilla }
 bento-menu-title-3 = Προϊόντα { -brand-mozilla }
-bento-menu-firefox-title = Το { -brand-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
 bento-menu-tagline = Περισσότερα προϊόντα από τη { -brand-mozilla } που προστατεύουν το απόρρητό σας
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,18 +376,8 @@ cs-disconnect-sync-opt-not-say = Προτιμώ να μην πω
 
 cs-disconnect-advice-confirm = Εντάξει, το 'πιασα
 cs-disconnect-lost-advice-heading = Αποσυνδέθηκε απολεσθείσα ή κλεμμένη συσκευή
-cs-disconnect-lost-advice-content-2 =
-    Εφόσον η συσκευή σας χάθηκε ή κλάπηκε, για την προστασία
-    των δεδομένων σας, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του { -product-firefox-account(case: "gen", capitalization: "lower") } σας.
-    Θα πρέπει επίσης να αναζητήσετε πληροφορίες από τον κατασκευαστή της
-    συσκευής σας σχετικά με την απομακρυσμένη διαγραφή δεδομένων.
 cs-disconnect-lost-advice-content-3 = Εφόσον η συσκευή σας χάθηκε ή κλάπηκε, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } στις ρυθμίσεις λογαριασμού σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την απομακρυσμένη διαγραφή δεδομένων.
 cs-disconnect-suspicious-advice-heading = Η ύποπτη συσκευή αποσυνδέθηκε
-cs-disconnect-suspicious-advice-content =
-    Αν η αποσυνδεδεμένη συσκευή είναι πράγματι ύποπτη,
-    για την προστασία των δεδομένων σας, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
-    { -product-firefox-account(case: "gen", capitalization: "lower") } σας. Θα πρέπει επίσης να αλλάξετε
-    όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα about:logins.
 cs-disconnect-suspicious-advice-content-2 =
     Αν η αποσυνδεδεμένη συσκευή είναι πράγματι ύποπτη, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
     { -product-mozilla-account(case: "gen", capitalization: "lower") } σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αλλάξετε όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα «about:logins».
@@ -403,20 +389,15 @@ cs-sign-out-button = Αποσύνδεση
 ## Data collection section
 
 dc-heading = Συλλογή και χρήση δεδομένων
-dc-subheader = Βοηθήστε στη βελτίωση των { -product-firefox-accounts(case: "gen", capitalization: "upper") }
 dc-subheader-2 = Βοηθήστε στη βελτίωση των { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
-dc-subheader-content = Να επιτρέπεται στους { -product-firefox-accounts(case: "acc", capitalization: "upper") } η αποστολή τεχνικών δεδομένων και αλληλεπίδρασης στη { -brand-mozilla }.
 dc-subheader-content-2 = Να επιτρέπεται στους { -product-mozilla-accounts(case: "acc", capitalization: "lower") } η αποστολή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης στη { -brand-mozilla }.
-dc-opt-out-success = Επιτυχής αποχώρηση. Οι { -product-firefox-accounts(case: "nom", capitalization: "upper") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-out-success-2 = Επιτυχής απενεργοποίηση. Οι { -product-mozilla-accounts(case: "nom", capitalization: "lower") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
-dc-opt-in-success = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-firefox-accounts(case: "acc", capitalization: "upper") }.
 dc-opt-in-success-2 = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή της προτίμησής σας για τη συλλογή δεδομένων
 dc-learn-more = Μάθετε περισσότερα
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Μενού { -product-firefox-account(case: "gen", capitalization: "lower") }
 drop-down-menu-title-2 = Μενού { -product-mozilla-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -505,7 +486,6 @@ header-menu-open = Κλείσιμο μενού
 header-menu-closed = Μενού πλοήγησης ιστοτόπου
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
-header-title = Λογαριασμός Firefox
 header-title-2 = { -product-mozilla-account(case: "nom", capitalization: "upper") }
 header-help = Βοήθεια
 
@@ -633,9 +613,7 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
-delete-account-confirm-title-3 = Ίσως έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-confirm-title-4 = Ίσως έχετε συνδέσει τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla }, που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account(case: "nom", capitalization: "upper") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -946,23 +924,16 @@ tfa-row-change-modal-explain = Δεν μπορείτε να αναιρέσετε
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Συνεχίζοντας, συμφωνείτε με:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Συνεχίζοντας, συμφωνείτε με:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Όροι υπηρεσίας</pocketTos> και <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = τους <pocketTos>Όρους υπηρεσίας</pocketTos> και τη <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
 # link to Firefox Monitor's Terms of Service and Privacy Notice
 terms-privacy-agreement-monitor = <monitorTos>Όροι υπηρεσίας και Σημείωση απορρήτου</monitorTos> του { -product-firefox-monitor }
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-2 = <monitorTos>Όροι υπηρεσίας και Σημείωση απορρήτου</monitorTos> του { -product-firefox-monitor }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = Τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy> του { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Όροι υπηρεσίας</mozillaAccountsTos> και <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy> των { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Συνεχίζοντας, αποδέχεστε τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Συνεχίζοντας, αποδέχεστε τους <mozillaAccountsTos>Όρους υπηρεσίας</mozillaAccountsTos> και τη <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>.
 
@@ -997,7 +968,7 @@ auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-999 = Απροσδόκητο σφάλμα
-auth-error-1003 = Η τοπική αποθήκευση ή τα cookies εξακολουθούν να είναι απενεργοποιημένα
+auth-error-1003 = Η τοπική αποθήκευση ή τα cookie εξακολουθούν να είναι απενεργοποιημένα
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
 auth-error-1011 = Απαιτείται έγκυρο email
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
@@ -1006,7 +977,6 @@ auth-error-1062 = Μη έγκυρη ανακατεύθυνση
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Αδυναμία δημιουργίας λογαριασμού
-cannot-create-account-requirements = Πρέπει να πληροίτε ορισμένα ηλικιακά κριτήρια για τη δημιουργία ενός { -product-firefox-account(case: "gen", capitalization: "lower") }.
 cannot-create-account-requirements-2 = Πρέπει να πληροίτε ορισμένα ηλικιακά κριτήρια για τη δημιουργία ενός { -product-mozilla-account(case: "gen", capitalization: "lower") }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Μάθετε περισσότερα
@@ -1041,9 +1011,8 @@ connect-another-device-ios-complete-setup-message = Συνδεθείτε στο 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
-cookies-disabled-header = Απαιτούνται cookies και τοπική αποθήκευση
-cookies-disabled-enable-prompt = Παρακαλούμε ενεργοποιήστε τα cookies και την τοπική αποθήκευση στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στο { -product-firefox-accounts }. Έτσι, θα ενεργοποιηθούν λειτουργίες, όπως η απομνημόνευση ανάμεσα σε συνεδρίες.
-cookies-disabled-enable-prompt-2 = Ενεργοποιήστε τα cookies και τον τοπικό χώρο αποθήκευσης στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Με αυτόν τον τρόπο, θα ενεργοποιήσετε λειτουργίες όπως η απομνημόνευση της σύνδεσής σας μεταξύ των συνεδριών.
+cookies-disabled-header = Απαιτούνται cookie και τοπική αποθήκευση
+cookies-disabled-enable-prompt-2 = Ενεργοποιήστε τα cookie και τον τοπικό χώρο αποθήκευσης στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Με αυτόν τον τρόπο, θα ενεργοποιήσετε λειτουργίες όπως η απομνημόνευση της σύνδεσής σας μεταξύ των συνεδριών.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Δοκιμή ξανά
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1243,7 +1212,6 @@ account-recovery-confirm-key-heading-w-default-service = Κάντε επαναφ
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Κάντε επαναφορά κωδικού πρόσβασης με το κλειδί ανάκτησης λογαριασμού <span>για να συνεχίσετε στο { $serviceName }</span>
-account-recovery-confirm-key-instructions = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού μίας χρήσης που έχετε αποθηκεύσει σε κάποιο ασφαλές μέρος για να ανακτήσετε την πρόσβαση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας.
 account-recovery-confirm-key-instructions-2 = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού μίας χρήσης που έχετε αποθηκεύσει σε κάποιο ασφαλές μέρος για να ανακτήσετε την πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
 account-recovery-confirm-key-warning-message = <span>Σημείωση:</span> Εάν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει το κλειδί ανάκτησης λογαριασμού, κάποια από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες).
 # Prompts the user to enter their account recovery code
@@ -1324,8 +1292,6 @@ confirm-signin-message = Ελέγξτε το email σας για τον σύνδ
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Εισαγάγετε τον κωδικό πρόσβασης <span>του { -product-firefox-account(case: "gen", capitalization: "lower") } σας</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Εισαγάγετε τον κωδικό πρόσβασης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1380,10 +1346,6 @@ signin-reported-message = Η ομάδα μας έχει ειδοποιηθεί. 
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
@@ -1434,10 +1396,6 @@ confirm-signup-instruction = Ελέγξτε το email σας για τον σύ
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβαίωσης
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
