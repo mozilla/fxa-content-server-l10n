@@ -1,36 +1,18 @@
 ## Non-email strings
 
-session-verify-send-push-title = กำลังเข้าสู่ระบบ { -product-firefox-accounts } อยู่ใช่หรือไม่?
 session-verify-send-push-body-2 = คลิกที่นี่เพื่อยืนยันว่าเป็นคุณ
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="โลโก้ { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="ซิงค์อุปกรณ์">
 body-devices-image = <img data-l10n-name="devices-image" alt="อุปกรณ์">
 fxa-privacy-url = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
-fxa-service-url = ข้อกำหนดในการให้บริการของ { -product-firefox-cloud }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="โลโก้ { -brand-firefox }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="โลโก้ { -brand-mozilla }">
 subplat-automated-email = นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร
 subplat-privacy-notice = ประกาศความเป็นส่วนตัว
 subplat-privacy-plaintext = ประกาศความเป็นส่วนตัว:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-firefox-account } และคุณได้ลงชื่อเข้าใช้ { $productName }
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-firefox-account }
-subplat-explainer-multiple = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-firefox-account } และคุณได้สมัครสมาชิกผลิตภัณฑ์หลายอย่าง
-subplat-explainer-was-deleted = คุณได้รับอีเมลนี้เนื่องจาก { $email } ถูกลงทะเบียนสำหรับใช้กับ{ -product-firefox-account }
-subplat-manage-account = จัดการการตั้งค่า{ -product-firefox-account } ของคุณโดยไปที่<a data-l10n-name="subplat-account-page">หน้าบัญชี</a>ของคุณ
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = จัดการการตั้งค่า { -product-firefox-account } ของคุณโดยไปที่หน้าบัญชีของคุณ: { $accountSettingsUrl }
 subplat-terms-policy = ข้อกำหนดและนโยบายการยกเลิก
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ยกเลิกการสมัครสมาชิก
@@ -40,8 +22,6 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = อัปเดตข้อมูลการเรียกเก็บเงิน
 subplat-privacy-policy = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = ข้อกำหนดในการให้บริการของ { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = ข้อกฎหมาย
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ความเป็นส่วนตัว
@@ -75,6 +55,7 @@ automated-email-change-plaintext-2 = หากคุณไม่ดำเนิ�
 automated-email-support-plaintext = สำหรับข้อมูลเพิ่มเติม ให้ไปที่ฝ่ายช่วยเหลือของ { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } สำหรับข้อมูลเพิ่มเติม ให้ไปที่<a data-l10n-name="supportLink">ฝ่ายช่วยเหลือของ { -brand-mozilla }</a>:
+automated-email-no-action-plaintext = นี่เป็นอีเมลที่ส่งแบบอัตโนมัติ ถ้าคุณได้รับอีเมลนี้เนื่องจากความผิดพลาด คุณไม่จำเป็นต้องทำสิ่งใด
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่ได้อนุญาตให้ดำเนินการนี้ โปรดเปลี่ยนรหัสผ่านของคุณ:
 automated-email-reset =
@@ -103,6 +84,12 @@ payment-plan-next-invoice = ใบแจ้งหนี้ถัดไป: { $ne
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = วิธีการชำระเงิน:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = บัตร { $cardName } ซึ่งลงท้ายด้วย { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = หมายเลขใบแจ้งหนี้: <b>{ $invoiceNumber }</b>
@@ -161,25 +148,6 @@ device-all = { $uaBrowser } บน { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } บน { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = ที่อยู่ IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (โดยประมาณ)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (โดยประมาณ)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (โดยประมาณ)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (โดยประมาณ)
 view-invoice = <a data-l10n-name="invoiceLink">ดูใบแจ้งหนี้ของคุณ</a>
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -190,7 +158,6 @@ cadReminderFirst-action = ซิงค์กับอุปกรณ์อื่
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = ต้องใช้อุปกรณ์สองเครื่องในการซิงค์
-cadReminderFirst-description-2 = การซิงค์ใช้เวลาเพียงไม่กี่วินาทีเท่านั้น
 cadReminderSecond-subject-2 = อย่าพลาด! มาตั้งค่าการซิงค์ของคุณให้เสร็จกันเถอะ
 cadReminderSecond-action = ซิงค์กับอุปกรณ์อื่น
 cadReminderSecond-title-2 = อย่าลืมซิงค์!
@@ -204,9 +171,7 @@ downloadSubscription-subject = ยินดีต้อนรับสู่ { $
 downloadSubscription-title = ยินดีต้อนรับสู่ { $productName }
 downloadSubscription-content-2 = เริ่มต้นใช้คุณลักษณะทั้งหมดที่รวมอยู่ในการสมัครสมาชิกของคุณ:
 downloadSubscription-link-action-2 = เริ่มต้น
-fraudulentAccountDeletion-subject = ลบ{ -product-firefox-account } ของคุณแล้ว
 fraudulentAccountDeletion-title = ลบบัญชีของคุณแล้ว
-fraudulentAccountDeletion-content = เมื่อเร็วๆ นี้ { -product-firefox-account } ได้ถูกสร้างขึ้นและได้มีการเรียกเก็บเงินค่าสมัครสมาชิกโดยใช้ที่อยู่อีเมลนี้ เช่นเดียวกับที่เราดำเนินการกับบัญชีใหม่ทั้งหมด เราขอให้คุณยืนยันบัญชีของคุณโดยตรวจสอบความถูกต้องของที่อยู่อีเมลนี้ก่อน
 fraudulentAccountDeletion-contact = หากคุณมีคำถามใดๆ โปรดติดต่อ<a data-l10n-name="mozillaSupportUrl">ทีมช่วยเหลือ</a>ของเรา
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -224,9 +189,6 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = มีการลงชื่อเข้าใช้ใหม่ที่ { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title-2 = { -product-firefox-account } ของคุณถูกใช้เพื่อลงชื่อเข้า
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = ไม่ใช่คุณหรือ? <a data-l10n-name="passwordChangeLink">เปลี่ยนรหัสผ่านของคุณ</a>
@@ -236,41 +198,22 @@ newDeviceLogin-change-password-plain = ไม่ใช่คุณหรือ? 
 newDeviceLogin-action = จัดการบัญชี
 passwordChanged-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 passwordChanged-title = ได้เปลี่ยนรหัสผ่านสำเร็จแล้ว
-passwordChanged-description = เปลี่ยนรหัสผ่าน { -product-firefox-account } ของคุณบนอุปกรณ์เหล่านี้เรียบร้อย:
 passwordChangeRequired-subject = ตรวจพบกิจกรรมที่น่าสงสัย
 passwordChangeRequired-title = ต้องเปลี่ยนรหัสผ่าน
-passwordChangeRequired-suspicious-activity = เราตรวจพบพฤติกรรมที่น่าสงสัยใน{ -product-firefox-account } ของคุณ เพื่อป้องกันการเข้าถึง{ -product-firefox-account } ของคุณโดยไม่ได้รับอนุญาต เราได้ตัดการเชื่อมต่ออุปกรณ์ทั้งหมดในบัญชีของคุณและจำเป็นต้องให้คุณเปลี่ยนรหัสผ่านเพื่อป้องกันไว้ก่อนล่วงหน้า
-passwordChangeRequired-sign-in = ลงชื่อกลับเข้าสู่อุปกรณ์หรือบริการใด ๆ ที่คุณใช้{ -product-firefox-account } ของคุณ และทำตามขั้นตอนที่คุณเห็น
 passwordChangeRequired-different-password = <b>สำคัญ:</b> เลือกรหัสผ่านที่ต่างจากที่คุณใช้ก่อนหน้านี้ และตรวจดูให้แน่ใจว่ารหัสผ่านนั้นต่างจากบัญชีอีเมลของคุณ
-passwordChangeRequired-signoff = ขอแสดงความนับถือ
-passwordChangeRequired-signoff-name = ทีมงาน{ -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = สำคัญ: เลือกรหัสผ่านที่ต่างจากที่คุณใช้ก่อนหน้านี้ และตรวจดูให้แน่ใจว่ารหัสผ่านนั้นต่างจากบัญชีอีเมลของคุณ
 passwordReset-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 passwordReset-title = รหัสผ่านบัญชีคุณถูกเปลี่ยนแล้ว
 passwordReset-description = คุณจะต้องป้อนรหัสผ่านใหม่ของคุณบนอุปกรณ์อื่น ๆ เพื่อดำเนินการซิงค์ต่อ
 passwordResetAccountRecovery-subject-2 = ตั้งรหัสผ่านของคุณใหม่แล้ว
 passwordResetAccountRecovery-title-2 = ได้ตั้งรหัสผ่านใหม่เรียบร้อยแล้ว
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = คุณใช้คีย์กู้คืนบัญชีเพื่อปรับเปลี่ยนรหัสผ่านจาก:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = สร้างคีย์การกู้คืนบัญชีใหม่
 passwordResetAccountRecovery-regen-required-mjml-1 = คุณจะต้องลงชื่อเข้าอีกครั้งบนอุปกรณ์ที่ซิงค์แล้วทั้งหมด โปรดอย่าลืมสร้างคีย์กู้คืนบัญชีใหม่แทนที่คีย์ที่คุณใช้ไปแล้ว
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = คุณจะต้องลงชื่อเข้าอีกครั้งบนอุปกรณ์ที่ซิงค์แล้วทั้งหมด โปรดอย่าลืมสร้างคีย์กู้คืนบัญชีใหม่แทนที่คีย์ที่คุณใช้ไปแล้ว:
-postAddAccountRecovery-subject-2 = สร้างคีย์กู้คืนบัญชีแล้ว
 postAddAccountRecovery-title2 = คุณสร้างคีย์การกู้คืนบัญชีใหม่แล้ว
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = คีย์ใหม่ถูกสร้างขึ้นจาก:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = ไม่ใช่คุณใช่หรือไม่?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">ลบคีย์ใหม่</a>และ<a data-l10n-name="passwordChangeLink">เปลี่ยนรหัสผ่านของคุณ</a>
 postAddAccountRecovery-action = จัดการบัญชี
-postAddAccountRecovery-delete-key = ลบคีย์ใหม่:
-postAddAccountRecovery-changd-password = เปลี่ยนรหัสผ่านของคุณ:
-postAddLinkedAccount-subject = เชื่อมโยงบัญชีใหม่กับ { -brand-firefox } แล้ว
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = ได้เชื่อมโยงบัญชี { $providerName } ของคุณกับ{ -product-firefox-account } ของคุณแล้ว
 postAddLinkedAccount-action = จัดการบัญชี
 postAddTwoStepAuthentication-subject-2 = เปิดการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
 postAddTwoStepAuthentication-title-2 = คุณเปิดการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
@@ -280,9 +223,6 @@ postAddTwoStepAuthentication-action = จัดการบัญชี
 postAddTwoStepAuthentication-code-required-2 = ต่อจากนี้ไป คุณจะต้องป้อนรหัสความปลอดภัยจากแอพการยืนยันตัวบุคคลในทุกครั้งที่คุณลงชื่อเข้า
 postChangePrimary-subject = อีเมลหลักได้รับการปรับปรุงแล้ว
 postChangePrimary-title = อีเมลหลักใหม่
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = คุณได้เปลี่ยนแปลงอีเมลหลักเป็น { $email } สำเร็จแล้ว ที่อยู่นี้จะเป็นชื่อผู้ใช้ของคุณสำหรับการลงชื่อเข้าใช้ใน{ -product-firefox-account } ของคุณ รวมถึงการรับการแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใจ
 postChangePrimary-action = จัดการบัญชี
 postConsumeRecoveryCode-title-2 = คุณใช้รหัสยืนยันตัวตนสำรองไปแล้ว
 postConsumeRecoveryCode-action = จัดการบัญชี
@@ -290,14 +230,9 @@ postNewRecoveryCodes-subject-2 = สร้างรหัสยืนยัน�
 postNewRecoveryCodes-title-2 = คุณได้สร้างรหัสยืนยันตัวตนสำรองใหม่แล้ว
 postNewRecoveryCodes-action = จัดการบัญชี
 postRemoveAccountRecovery-subject-2 = ลบคีย์กู้คืนบัญชีแล้ว
-postRemoveAccountRecovery-title-2 = คุณลบคีย์กู้คืนบัญชีของคุณแล้ว
 postRemoveAccountRecovery-action = จัดการบัญชี
-postRemoveAccountRecovery-invalid-2 = คุณต้องใช้คีย์กู้คืนบัญชีเพื่อกู้คืนข้อมูลใน { -brand-firefox } ของคุณหากคุณลืมรหัสผ่าน
 postRemoveSecondary-subject = อีเมลสำรองถูกลบแล้ว
 postRemoveSecondary-title = อีเมลสำรองถูกลบแล้ว
-# Variables:
-#  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = คุณได้ลบ { $secondaryEmail } จากอีเมลสำรองจาก{ -product-firefox-account } ของคุณสำเร็จแล้ว การแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะไม่มีการส่งไปยังที่อยู่นี้อีก
 postRemoveSecondary-action = จัดการบัญชี
 postRemoveTwoStepAuthentication-subject-line-2 = ปิดการยืนยันตัวตนแบบสองขั้นตอนแล้ว
 postRemoveTwoStepAuthentication-title-2 = คุณได้ปิดการยืนยันตัวตนแบบสองขั้นตอนแล้ว
@@ -309,20 +244,13 @@ postVerify-sub-title-3 = เราดีใจที่ได้พบคุณ!
 postVerify-title-2 = ต้องการดูแท็บเดียวกันบนอุปกรณ์สองเครื่องไหม?
 postVerify-description-2 = ง่ายมาก! เพียงติดตั้ง { -brand-firefox } บนอุปกรณ์อีกเครื่องแล้วเข้าระบบเพื่อซิงค์ ง่ายเหมือนเสกเวทมนตร์เลย!
 postVerify-sub-description = (และยังหมายความว่าคุณสามารถนำที่คั่นหน้า รหัสผ่าน และข้อมูลอื่นๆ ใน { -brand-firefox } ของคุณไปได้ทุกที่ที่คุณลงชื่อเข้า)
-postVerify-subject-3 = ยินดีต้อนรับสู่ { -brand-firefox }!
 postVerify-setup-2 = เชื่อมต่ออุปกรณ์อื่น:
 postVerify-action-2 = เชื่อมต่ออุปกรณ์อื่น
 postVerifySecondary-subject = เพิ่มอีเมลสำรองแล้ว
 postVerifySecondary-title = เพิ่มอีเมลสำรองแล้ว
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = คุณได้ยืนยัน { $secondaryEmail } เป็นอีเมลสำรองสำหรับ{ -product-firefox-account } ของคุณสำเร็จแล้ว ตอนนี้การแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าจะส่งไปยังอีเมลทั้งสอง
 postVerifySecondary-action = จัดการบัญชี
 recovery-subject = ตั้งรหัสผ่านใหม่
 recovery-title-2 = ลืมรหัสผ่านของคุณใช่หรือไม่?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = เราได้รับคำขอเปลี่ยนรหัสผ่านใน{ -product-firefox-account } ของคุณจาก:
 recovery-new-password-button = สร้างรหัสผ่านใหม่โดยคลิกที่ปุ่มด้านล่าง ลิงก์นี้จะหมดอายุภายในชั่วโมงถัดไป
 recovery-copy-paste = สร้างรหัสผ่านใหม่โดยคัดลอกและวาง URL ด้านล่างลงในเบราว์เซอร์ของคุณ ลิงก์นี้จะหมดอายุภายในชั่วโมงถัดไป
 recovery-action = สร้างรหัสผ่านใหม่
@@ -330,11 +258,6 @@ recovery-action = สร้างรหัสผ่านใหม่
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = การสมัครสมาชิก { $productName } ของคุณถูกยกเลิกแล้ว
 subscriptionAccountDeletion-title = เสียใจที่เห็นคุณจากไป
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = คุณเพิ่งลบ{ -product-firefox-account } ของคุณ ด้วยเหตุนี้ เราจึงได้ยกเลิกการสมัครสมาชิก { $productName } ของคุณ การชำระเงินครั้งสุดท้ายจำนวน { $invoiceTotal } ของคุณได้จ่ายแล้วเมื่อ { $invoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = ยินดีต้อนรับสู่ { $productName }: โปรดตั้งรหัสผ่านของคุณ
@@ -342,17 +265,13 @@ subscriptionAccountFinishSetup-subject = ยินดีต้อนรับส
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = ยินดีต้อนรับสู่ { $productName }
 subscriptionAccountFinishSetup-content-processing = ระบบกำลังประมวลผลการชำระเงินของคุณซึ่งอาจต้องใช้เวลาสี่วันทำการจึงจะเสร็จสมบูรณ์ โดยจะต่ออายุการสมัครสมาชิกของคุณในระยะเวลาการเรียกเก็บเงินแต่ละระยะให้โดยอัตโนมัติเว้นแต่คุณเลือกที่จะยกเลิก
-subscriptionAccountFinishSetup-content-create-2 = ถัดไป คุณจะต้องสร้างรหัสผ่าน{ -product-firefox-account } เพื่อเริ่มใช้การสมัครสมาชิกใหม่ของคุณ
 subscriptionAccountFinishSetup-action-2 = เริ่มต้นใช้งาน
 subscriptionAccountReminderFirst-subject = แจ้งเตือน: ตั้งค่าบัญชีของคุณให้เสร็จ
 subscriptionAccountReminderFirst-title = คุณยังไม่สามารถเข้าถึงการสมัครสมาชิกของคุณได้
-subscriptionAccountReminderFirst-content-info-2 = เมื่อไม่กี่วันก่อน คุณได้สร้าง{ -product-firefox-account } แต่ยังไม่เคยยืนยันเลย เราหวังว่าคุณจะตั้งค่าบัญชีของคุณให้เสร็จสิ้น เพื่อให้คุณสามารถใช้การสมัครสมาชิกใหม่ของคุณได้
 subscriptionAccountReminderFirst-content-select-2 = เลือก “สร้างรหัสผ่าน” เพื่อตั้งค่ารหัสผ่านใหม่และยืนยันบัญชีของคุณให้เสร็จ
 subscriptionAccountReminderFirst-action = สร้างรหัสผ่าน
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = การแจ้งเตือนครั้งสุดท้าย: ตั้งค่าบัญชีของคุณ
-subscriptionAccountReminderSecond-title = ยินดีต้อนรับสู่ { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info-2 = เมื่อไม่กี่วันก่อน คุณได้สร้าง{ -product-firefox-account } แต่ยังไม่เคยยืนยันเลย เราหวังว่าคุณจะตั้งค่าบัญชีของคุณให้เสร็จสิ้น เพื่อให้คุณสามารถใช้การสมัครสมาชิกใหม่ของคุณได้
 subscriptionAccountReminderSecond-content-select-2 = เลือก “สร้างรหัสผ่าน” เพื่อตั้งค่ารหัสผ่านใหม่และยืนยันบัญชีของคุณให้เสร็จ
 subscriptionAccountReminderSecond-action = สร้างรหัสผ่าน
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -439,14 +358,6 @@ subscriptionUpgrade-title = ขอบคุณสำหรับการอั�
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = คุณได้อัปเกรดจาก { $productNameOld } เป็น { $productName } สำเร็จแล้ว
 # Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
-subscriptionUpgrade-content-charge-info = ตั้งแต่การเรียกเก็บเงินครั้งถัดไป ค่าบริการของคุณจะเปลี่ยนจาก { $paymentAmountOld } ต่อ { $productPaymentCycleOld } เป็น { $paymentAmountNew } ต่อ { $productPaymentCycleNew } เมื่อถึงเวลานั้น คุณจะถูกเรียกเก็บค่าธรรมเนียมแบบจ่ายครั้งเดียวจำนวน { $paymentProrated } เพื่อให้สอดคล้องกับค่าใช้จ่ายที่สูงขึ้นสำหรับส่วนที่เหลือของ { $productPaymentCycleOld } นี้
-# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = หากมีซอฟต์แวร์ใหม่ให้คุณติดตั้งเพื่อใช้ { $productName } คุณจะได้รับอีเมลแยกต่างหากพร้อมคำแนะนำในการดาวน์โหลด
 subscriptionUpgrade-auto-renew = การสมัครของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
@@ -460,12 +371,10 @@ unblockCode-report = ถ้าไม่ใช่ ช่วยเรากำจ�
 unblockCode-report-plaintext = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา
 confirm-account = ยืนยันบัญชี
 confirm-account-plaintext = { confirm-account }:
-verificationReminderFirst-title-2 = ยินดีต้อนรับสู่ { -brand-firefox }!
 confirm-email-2 = ยืนยันบัญชี
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = ยืนยันบัญชี
 verificationReminderSecond-action-2 = ยืนยันบัญชี
-verify-description = ยืนยันบัญชีของคุณและรับประโยชน์สูงสุดจาก { -brand-firefox } ทุกที่ที่คุณลงชื่อเข้าใช้ไม่ว่าจะเป็น:
 verify-subject = สร้างบัญชีของคุณให้เสร็จ
 verify-action-2 = ยืนยันบัญชี
 verifyLogin-subject-2 = ยืนยันการลงชื่อเข้า
@@ -480,9 +389,6 @@ verifyPrimary-post-verify-2 = เมื่อยืนยันแล้ว ก�
 verifySecondaryCode-subject = ยืนยันอีเมลสำรอง
 verifySecondaryCode-title-2 = ยืนยันอีเมลสำรอง
 verifySecondaryCode-action-2 = ยืนยันอีเมล
-# Variables:
-#  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = คำขอเพื่อใช้ { $email } เป็นที่อยู่อีเมลสำรองถูกสร้างขึ้นจาก{ -product-firefox-account } นี้:
 verifySecondaryCode-prompt-2 = ใช้รหัสยืนยันนี้:
 verifySecondaryCode-expiry-notice-2 = จะหมดอายุใน 5 นาที เมื่อยืนยันแล้ว ที่อยู่นี้จะเริ่มได้รับการแจ้งเตือนด้านความปลอดภัยและการยืนยันต่างๆ
 # Variables:
