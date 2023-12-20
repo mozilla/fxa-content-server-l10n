@@ -285,6 +285,7 @@ subscriptionCancellation-title = เสียใจที่เห็นคุ�
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-outstanding-content-2 = เรายกเลิกการสมัครสมาชิก { $productName } ของคุณแล้ว ยอดชำระรอบสุดท้ายจำนวน { $invoiceTotal } ของคุณจะถูกชำระในวันที่ { $invoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = คุณได้เปลี่ยนเป็น { $productName }
@@ -343,6 +344,7 @@ subscriptionRenewalReminder-content-closing = ขอแสดงความน�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = ทีมงาน { $productName }
+subscriptionsPaymentExpired-title-1 = บัตรเครดิตของคุณหมดอายุแล้ว หรือกำลังจะหมดอายุ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = ได้รับการชำระเงิน { $productName } แล้ว
@@ -371,6 +373,7 @@ unblockCode-report = ถ้าไม่ใช่ ช่วยเรากำจ�
 unblockCode-report-plaintext = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา
 confirm-account = ยืนยันบัญชี
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = อย่าลืมยืนยันบัญชีของคุณ
 confirm-email-2 = ยืนยันบัญชี
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = ยืนยันบัญชี

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-07 20:08+0000\n"
-"PO-Revision-Date: 2022-05-12 14:20+0000\n"
+"PO-Revision-Date: 2023-12-20 12:10+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -88,6 +88,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"บัญชี Mozilla ของคุณใช้ประโยชน์จากคุณลักษณะที่\n"
+"                        ไม่รองรับใน Firefox รุ่นที่คุณใช้ โปรด\n"
+"                        ดาวน์โหลดและติดตั้ง Firefox รุ่นล่าสุดเพื่อ\n"
+"                        ดำเนินการต่อ"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
