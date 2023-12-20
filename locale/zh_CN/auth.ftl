@@ -294,9 +294,9 @@ passwordResetAccountRecovery-regen-required-txt-1 = 您需要在所有同步的�
 postAddAccountRecovery-subject-3 = 已创建新的账户恢复密钥
 postAddAccountRecovery-title2 = 您已生成新的账户恢复密钥
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part1 = 请妥善保存该密钥——当您忘记密码时，可以用它来恢复加密的浏览数据。
+postAddAccountRecovery-body-part1 = 请妥善保存此密钥。如果您忘记密码，则需要用它来恢复加密的浏览数据。
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = 该密钥只能使用一次。在您使用过一次之后我们会自动为您创建一个新密钥。您也可以随时在账户设置中创建新的密钥。
+postAddAccountRecovery-body-part2 = 此密钥只能使用一次。使用过后，我们会为您自动创建新密钥。您也可随时在账户设置中创建新密钥。
 postAddAccountRecovery-action = 管理账户
 postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-account }
 #  Variables:
