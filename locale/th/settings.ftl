@@ -14,42 +14,26 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = ส่งอีเมลใหม่แล้ว เพิ่ม { $accountsEmail } ในรายชื่อติดต่อของคุณเพื่อให้แน่ใจว่ามีการส่งมอบอย่างราบรื่น
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = มีบางอย่างผิดพลาด ไม่สามารถส่งลิงก์ใหม่ได้
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = มีบางอย่างผิดพลาด ไม่สามารถส่งรหัสใหม่ได้
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } จะถูกเปลี่ยนชื่อเป็น { -product-mozilla-accounts } ในวันที่ 1 พ.ย. นี้
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = บันทึกคีย์กู้คืนบัญชีของคุณ
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = ให้เก็บไฟล์นี้ซึ่งประกอบด้วยคีย์กู้คืนบัญชีของคุณไว้ในตำแหน่งที่คุณจำได้ หรือพิมพ์ออกมาบนกระดาษแล้วเก็บไว้ คีย์กู้คืนบัญชีสามารถช่วยคุณกู้คืนข้อมูลใน { -brand-firefox } เมื่อคุณลืมรหัสผ่านของคุณได้
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = ความรู้ที่เป็นประโยชน์กำลังมาถึงในกล่องจดหมายขาเข้าของคุณ ลงทะเบียนเพื่อรับข้อมูลเพิ่มเติม:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = รับข่าวล่าสุดเกี่ยวกับ { -brand-mozilla } และ { -brand-firefox }
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = ร่วมลงมือสร้างอินเตอร์เน็ตที่ดี
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = อยู่บนโลกออนไลน์ได้อย่างปลอดภัยและฉลาดขึ้น
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = เลือกสิ่งที่ต้องการซิงค์:
 choose-what-to-sync-option-bookmarks =
     .label = ที่คั่นหน้า
 choose-what-to-sync-option-history =
@@ -158,8 +142,6 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = เมนู Bento ของ { -brand-firefox }
-bento-menu-firefox-title = { -brand-firefox } เป็นเทคโนโลยีที่ต่อสู้เพื่อความเป็นส่วนตัวออนไลน์ของคุณ
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
 bento-menu-firefox-mobile = เบราว์เซอร์ { -brand-firefox } สำหรับมือถือ
 bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
@@ -193,7 +175,7 @@ cs-disconnect-sync-heading = ตัดการเชื่อมต่อจา
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -211,17 +193,7 @@ cs-disconnect-sync-opt-not-say = ไม่ระบุ
 
 cs-disconnect-advice-confirm = ตกลง เข้าใจแล้ว
 cs-disconnect-lost-advice-heading = อุปกรณ์ที่สูญหายหรือถูกขโมยถูกตัดการเชื่อมต่อ
-cs-disconnect-lost-advice-content-2 =
-    เนื่องจากอุปกรณ์ของคุณสูญหายหรือถูกขโมย เพื่อเป็นการปกป้องข้อมูลของคุณให้ปลอดภัย
-    คุณควรเปลี่ยนรหัสผ่าน{ -product-firefox-account } ของคุณในการตั้งค่าบัญชีของคุณ
-    นอกจากนี้ คุณควรมองหาข้อมูลจากผู้ผลิตอุปกรณ์ของคุณเกี่ยวกับการลบข้อมูลของคุณ
-    จากระยะไกลด้วย
 cs-disconnect-suspicious-advice-heading = อุปกรณ์ที่น่าสงสัยถูกตัดการเชื่อมต่อ
-cs-disconnect-suspicious-advice-content =
-    ถ้าอุปกรณ์ที่ตัดการเชื่อมต่อนั้นน่าสงสัยจริง ๆ
-    เพื่อรักษาข้อมูลของคุณให้ปลอดภัย คุณควรเปลี่ยนรหัสผ่าน{ -product-firefox-account }
-    ของคุณในการตั้งค่าบัญชี นอกจากนี้คุณควรเปลี่ยนรหัสผ่านอื่น ๆ
-    ที่คุณบันทึกไว้ใน { -brand-firefox } โดยพิมพ์ about:logins ลงในแถบที่อยู่
 cs-sign-out-button = ลงชื่อออก
 
 ##
@@ -230,16 +202,11 @@ cs-sign-out-button = ลงชื่อออก
 ## Data collection section
 
 dc-heading = การเก็บรวบรวมและใช้ข้อมูล
-dc-subheader = ช่วยปรับปรุง { -product-firefox-accounts }
-dc-subheader-content = อนุญาตให้ { -product-firefox-accounts } ส่งข้อมูลทางเทคนิคและการโต้ตอบไปยัง { -brand-mozilla }
-dc-opt-out-success = ยกเลิกสำเร็จ { -product-firefox-accounts } จะไม่ส่งข้อมูลทางเทคนิคหรือการโต้ตอบไปยัง { -brand-mozilla }
-dc-opt-in-success = ขอบคุณ! การแบ่งปันข้อมูลนี้ช่วยเราปรับปรุง { -product-firefox-accounts }
 dc-opt-in-out-error-2 = ขออภัย มีปัญหาในการเปลี่ยนการกำหนดลักษณะการรวบรวมข้อมูลของคุณ
 dc-learn-more = เรียนรู้เพิ่มเติม
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = เมนู { -product-firefox-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -269,13 +236,12 @@ flow-container-back = กลับ
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = ปิดเมนู
 header-menu-closed = เมนูนำทางไซต์
 header-back-to-top-link =
     .title = กลับขึ้นด้านบน
-header-title = { -product-firefox-accounts }
 header-help = ช่วยเหลือ
 
 ## Linked Accounts section
@@ -425,19 +391,6 @@ display-name-success-alert-2 = ปรับปรุงชื่อที่ใ�
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = กิจกรรมในบัญชีล่าสุด
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = ยกเลิก
-recovery-key-close-button = ปิด
-recovery-key-continue-button = ดำเนินการต่อ
-recovery-key-enter-password =
-    .label = ใส่รหัสผ่าน
-recovery-key-page-title-1 =
-    .title = คีย์กู้คืนบัญชี
-recovery-key-step-1 = ขั้นตอนที่ 1 จาก 2
-recovery-key-step-2 = ขั้นตอนที่ 2 จาก 2
-recovery-key-success-alert-3 = สร้างคีย์กู้คืนบัญชีแล้ว
 
 ## PageRecoveryKeyCreate
 
@@ -614,7 +567,6 @@ auth-error-114 = คุณได้พยายามหลายครั้ง
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = ไม่สามารถสร้างบัญชีได้
-cannot-create-account-requirements = คุณต้องมีอายุตามข้อกำหนดในการสร้าง{ -product-firefox-account }
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = เรียนรู้เพิ่มเติม
 

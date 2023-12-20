@@ -3,35 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Firefox Accounts
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = หน้าแรกบัญชี
@@ -58,11 +29,9 @@ input-error-is-required = จำเป็นต้องกรอก { $label }
 
 ## Component - Header
 
-brand-name-firefox-logo = โลโก้ { -brand-name-firefox }
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link = มีบัญชี { -brand-name-firefox } แล้วหรือยัง? <a>ลงชื่อเข้า</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -120,7 +89,6 @@ payment-confirmation-download-button = ดำเนินการต่อเ�
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = ฉันอนุญาตให้ { -brand-name-mozilla } ผู้สร้างผลิตภัณฑ์ { -brand-name-firefox } เรียกเก็บเงินจากวิธีการชำระเงินของฉันเป็นจำนวนเงินที่แสดง ตาม<termsOfServiceLink>เงื่อนไขการให้บริการ</termsOfServiceLink>และ<privacyNoticeLink>ประกาศความเป็นส่วนตัว</privacyNoticeLink> จนกว่าฉันจะยกเลิกการสมัครสมาชิก
 payment-confirm-checkbox-error = คุณจะต้องทำเครื่องหมายในช่องนี้ก่อนจึงจะไปต่อได้
 
 ## Component - PaymentErrorView
@@ -130,8 +98,6 @@ payment-error-manage-subscription-button = จัดการการสมั�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = คุณมีการสมัครสมาชิก { $productName } ผ่านร้านค้าแอปของ { -brand-name-google } หรือ { -brand-name-apple } อยู่แล้ว
 iap-upgrade-get-help-button = รับความช่วยเหลือ
 
 ## Component - PaymentForm
@@ -144,16 +110,10 @@ payment-cc =
 payment-cancel-btn = ยกเลิก
 payment-update-btn = อัปเดต
 payment-pay-btn = ชำระเงินตอนนี้
-payment-pay-with-paypal-btn = ชำระเงินด้วย { -brand-name-paypal }
 payment-validate-name-error = โปรดป้อนชื่อของคุณ
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } ใช้ { -brand-name-stripe } และ { -brand-name-paypal } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
-payment-legal-link-stripe-paypal = <stripePrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-paypal }</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } ใช้ { -brand-name-paypal } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
-payment-legal-link-paypal-2 = <paypalPrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-paypal }</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } ใช้ { -brand-name-stripe } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
 payment-legal-link-stripe-3 = <stripePrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -173,7 +133,6 @@ payment-confirmation-cc-card-ending-in = หมายเลขบัตรลง
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = ชำระเงินด้วย { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -191,6 +150,7 @@ product-no-such-plan = ไม่มีแผนดังกล่าวสำห
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-tax = { $priceAmount } + ภาษี { $taxAmount }
 
 ## Component - SubscriptionTitle
 
@@ -243,6 +203,8 @@ no-subscription-change = ขออภัย คุณไม่สามารถ
 iap-already-subscribed = คุณได้สมัครสมาชิกผ่านทาง { $mobileAppStore } แล้ว
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = เกิดข้อผิดพลาดของระบบที่ทำให้การสมัครใช้งาน { $productName } ของคุณล้มเหลว จึงยังไม่มีการเรียกเก็บเงินผ่านวิธีการชำระเงินของคุณ โปรดลองอีกครั้ง
+fxa-post-passwordless-sub-error = การสมัครสมาชิกได้ถูกยืนยันแล้ว แต่หน้ายืนยันไม่สามารถโหลดได้ โปรดตรวจสอบอีเมลของคุณเพื่อตั้งค่าบัญชีของคุณ
+newsletter-signup-error = คุณไม่ได้ลงทะเบียนรับอีเมลข่าวสารผลิตภัณฑ์ คุณสามารถลองอีกครั้งได้ในการตั้งค่าบัญชีของคุณ
 product-plan-error =
     .title = เกิดปัญหาในการโหลดแผน
 product-profile-error =
@@ -259,7 +221,6 @@ coupon-success-repeating = แผนของคุณจะต่ออาย�
 
 ## Routes - Checkout - New user
 
-new-user-step-1 = 1. สร้างบัญชี { -brand-name-firefox }
 new-user-card-title = ป้อนข้อมูลบัตรของคุณ
 new-user-submit = สมัครสมาชิกเลย
 
@@ -278,18 +239,11 @@ pay-with-heading-card-only = ชำระด้วยบัตร
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = ตรวจสอบการเปลี่ยนแปลงของคุณ
 sub-change-failed = การเปลี่ยนแผนล้มเหลว
-sub-update-copy =
-    แผนของคุณจะเปลี่ยนทันที และคุณจะถูกเรียกเก็บเงินตามจำนวนที่ถูกปรับ
-    ในรอบการเรียกเก็บเงินที่เหลือของคุณ ตั้งแต่ { $startingDate }
-    คุณจะถูกเรียกเก็บเงินเต็มจำนวน
 sub-change-submit = ยืนยันการเปลี่ยนแปลง
 sub-update-current-plan-label = แผนปัจจุบัน
 sub-update-new-plan-label = แผนใหม่
@@ -331,7 +285,6 @@ sub-route-idx-cancel-msg =
     การสมัครสมาชิก { $name } ของคุณได้ถูกยกเลิกแล้ว
           <br />
           คุณจะยังสามารถเข้าถึง { $name } ได้จนถึง { $date }
-sub-route-idx-cancel-aside = มีคำถามใช่หรือไม่? เยี่ยมชม<a>ฝ่ายสนับสนุนของ { -brand-name-mozilla }</a>
 
 ## Routes - Subscriptions - Errors
 
@@ -362,7 +315,6 @@ sub-expires-on = จะหมดอายุใน { $date }
 pay-update-card-exp = หมดอายุ { $expirationDate }
 sub-route-idx-updating = กำลังอัปเดตข้อมูลการเรียกเก็บเงิน…
 sub-route-payment-modal-heading = ข้อมูลการเรียกเก็บเงินไม่ถูกต้อง
-sub-route-payment-modal-message = ดูเหมือนว่าจะมีข้อผิดพลาดกับบัญชี { -brand-name-paypal } ของคุณ เราต้องการให้คุณทำตามขั้นตอนที่จำเป็นเพื่อแก้ไขปัญหาการชำระเงินนี้
 sub-route-missing-billing-agreement-payment-alert = ข้อมูลการชำระเงินไม่ถูกต้อง มีข้อผิดพลาดกับบัญชีของคุณ <div>จัดการ</div>
 sub-route-funding-source-payment-alert = ข้อมูลการชำระเงินไม่ถูกต้อง มีข้อผิดพลาดกับบัญชีของคุณ การแจ้งเตือนนี้อาจใช้เวลาสักครู่จึงจะหายไปหลังจากที่คุณอัปเดตข้อมูลเรียบร้อยแล้ว <div>จัดการ</div>
 
@@ -374,7 +326,6 @@ sub-item-no-such-subsequent-invoice = ไม่พบใบแจ้งหนี
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = กำลังมองหาการสมัครสมาชิก { -brand-name-pocket } แบบพรีเมียมของคุณอยู่ใช่ไหม?
 manage-pocket-body-2 = หากต้องการจัดการ ให้<linkExternal>คลิกที่นี่</linkExternal>
 
 ## Routes - Subscriptions - Reactivate
@@ -405,6 +356,4 @@ reactivate-success-button = ปิด
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: การซื้อในแอป
-sub-iap-item-apple-purchase = { -brand-name-apple }: การซื้อในแอป
 sub-iap-item-manage-button = จัดการ
