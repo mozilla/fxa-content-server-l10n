@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-07 20:08+0000\n"
-"PO-Revision-Date: 2023-10-28 00:19+0000\n"
-"Last-Translator: wxie <xiewensheng@hotmail.com>\n"
+"PO-Revision-Date: 2023-12-20 16:24+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -86,11 +86,7 @@ msgid ""
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
-msgstr ""
-"您的 Mozilla 账户使用的功能\n"
-"                        您的 Firefox 版本不支持。请\n"
-"                        下载并安装最新版本的 Firefox\n"
-"                        以继续。"
+msgstr "Mozilla 账户使用了当前版本 Firefox 不支持的功能。请下载安装最新版 Firefox 以继续。"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
