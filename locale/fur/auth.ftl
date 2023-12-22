@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = Jentrâ su { -product-firefox-accounts }?
 session-verify-send-push-title-2 = Jentrâ tal to { -product-mozilla-account }?
 session-verify-send-push-body-2 = Fâs clic achì par confermâ la tô identitât
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = Fâs clic achì par confermâ la tô identitâ
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo di { -brand-firefox }">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronize dispositîfs">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositîfs">
 fxa-privacy-url = Informative su la riservatece di { -brand-mozilla }
 moz-accounts-privacy-url-2 = Informative su la riservatece dai { -product-mozilla-accounts }
-fxa-service-url = Cundizions di ûs dal servizi di { -product-firefox-cloud }
 moz-accounts-terms-url = Cundizions di utilizazion dal servizi dai { -product-mozilla-accounts }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo di { -brand-firefox }">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo di { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Cheste e je une e-mail inviade di un servizi automatic; se tu le âs ricevude par erôr, nol covente fâ nuie.
 subplat-privacy-notice = Informative su la riservatece
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e je associade a un { -product-firefox-account } e tu ti sês regjistrât/regjistrade par { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je associade a un { -product-mozilla-account } e tu âs fat la regjistrazion a { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Tu ricevis cheste e-mail parcè che la direzion e-mail { $email } e je associade a un { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je associade a un { -product-mozilla-account }.
-subplat-explainer-multiple = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e je associade a un { -product-firefox-account } e tu ti sês regjistrât/regjistrade a plui prodots.
 subplat-explainer-multiple-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je associade a un { -product-mozilla-account } e tu âs fat la sotscrizion a plui prodots.
-subplat-explainer-was-deleted = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e jere regjistrade par un { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je stade doprade par regjistrâ un { -product-mozilla-account }
-subplat-manage-account = Gjestìs lis impostazions dal to { -product-firefox-account } visitant la <a data-l10n-name="subplat-account-page">pagjine dal account</a>.
 subplat-manage-account-2 = Gjestìs lis impostazions dal to { -product-mozilla-account } visitant la <a data-l10n-name="subplat-account-page">pagjine dal account</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Gjestìs lis impostazions dal to { -product-firefox-account } visitant cheste pagjine: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Gjestìs lis impostazions dal to { -product-mozilla-account } visitant la pagjine dal to account: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = Informative su la riservatece di { -brand-mozilla }
 subplat-privacy-policy-2 = Informative su la riservatece dai { -product-mozilla-accounts }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = Cundizions di ûs dal servizi di { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = Cundizions di utilizazion dal servizi dai { -product-mozilla-accounts }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Notis legâls
@@ -234,25 +213,6 @@ device-all = { $uaBrowser } su { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } su { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Direzion IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (stimât)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (stimât)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (stimât)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (stimât)
 view-invoice = <a data-l10n-name="invoiceLink">Visualize la tô fature</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -263,7 +223,6 @@ cadReminderFirst-action = Sincronize un altri dispositîf
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = A coventin doi par sincronizâ
-cadReminderFirst-description-1 = Puartiti daûr lis tôs schedis su ducj i dispositîfs. Dopre i tiei segnelibris, lis passwords e altris dâts dapardut là che tu dopris { -brand-firefox }. Al è come vê la magjie tal to account { -brand-firefox }!
 cadReminderFirst-description-v2 = Puarte lis tôs schedis su ducj i tiei dispositîfs. Oten segnelibris, passwords e altris dâts dapardut là che tu dopris { -brand-firefox }.
 cadReminderSecond-subject-2 = No sta pierdi nuie! Complete la configurazion par scomençâ a sincronizâ
 cadReminderSecond-action = Sincronize un altri dispositîf
@@ -278,12 +237,9 @@ downloadSubscription-subject = Benvignûts in { $productName }
 downloadSubscription-title = Benvignûts in { $productName }
 downloadSubscription-content-2 = Scomence a doprâ dutis lis funzionalitâts includudis tal to abonament:
 downloadSubscription-link-action-2 = Scomence
-fraudulentAccountDeletion-subject = Il to { -product-firefox-account } al è stât eliminât
 fraudulentAccountDeletion-subject-2 = Il to { -product-mozilla-account } al è stât eliminât
 fraudulentAccountDeletion-title = Il to account al è stât eliminât
-fraudulentAccountDeletion-content = Di resint al è stât creât un { -product-firefox-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, ti vin domandât di confermâ il to account, convalidant cheste direzion e-mail.
 fraudulentAccountDeletion-content-part1-v2 = Di resint al è stât creât un { -product-mozilla-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, par prime robe o vin domandât di confermâ il to account convalidant cheste direzion e-mail.
-fraudulentAccountDeletion-content-2 = Pal moment nus risulte che l'account nol è mai stât confermât. Viodût che chest passaç nol è stât completât, no podìn jessi sigûrs che al sedi un abonament autorizât. Duncje, l’{ -product-firefox-account } regjistrât cun cheste direzion e-mail al è stât eliminât e l’abonament al è stât anulât cul rimbors di ducj i adebits.
 fraudulentAccountDeletion-content-part2-v2 = Par cumò nus risulte che l’account nol è mai stât confermât. Viodût che chest passaç nol è stât completât, no podìn jessi sigûrs che al sedi un abonament autorizât. Duncje, l’{ -product-mozilla-account } regjistrât cun cheste direzion e-mail al è stât eliminât e l’abonament al è stât anulât cu la rifusion di ducj i adebitaments.
 fraudulentAccountDeletion-contact = Par cualsisei domande contate il nestri <a data-l10n-name="mozillaSupportUrl">grup di supuart</a>.
 # Variables:
@@ -308,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Gnûf acès a { $clientName }
-newDeviceLogin-title-2 = Al è stât doprât il to { -product-firefox-account } par jentrâ
+newDeviceLogin-subjectForMozillaAccount = Gnûf acès al to { -product-mozilla-account }
 newDeviceLogin-title-3 = Il to { -product-mozilla-account } al è stât doprât par jentrâ
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -319,13 +275,10 @@ newDeviceLogin-change-password-plain = No jeristu tu? Cambie la tô password:
 newDeviceLogin-action = Gjestìs account
 passwordChanged-subject = Password inzornade
 passwordChanged-title = Password modificade cun sucès
-passwordChanged-description = La password dal { -product-firefox-account } e je stade cambiade cun sucès doprant chest dispositîf:
 passwordChanged-description-2 = La password dal { -product-mozilla-account } e je stade modificade cun sucès di chest dispositîf:
 passwordChangeRequired-subject = Rilevade ativitât suspiete
 passwordChangeRequired-title = Cambi di password necessari
-passwordChangeRequired-suspicious-activity = O vin rilevât ativitâts suspietis sul to { -product-firefox-account }. Par impedî acès no autorizâts al to { -product-firefox-account }, o vin disconetût ducj i dispositîfs associâts sul to account e, par precauzion, al è obligatori cambiâ la password.
 passwordChangeRequired-suspicious-activity-2 = O vin rilevât un compuartament suspiet sul to { -product-mozilla-account }. Par impedî acès no autorizâts, ducj i dispositîfs a son stâts disconetûts dal to { -product-mozilla-account } e, par motîfs precauzionâi, al è obligatori cambiâ la password.
-passwordChangeRequired-sign-in = Torne jentre su cualsisei dispositîf o servizi dulà che tu dopris il to { -product-firefox-account } e va daûr dai passaçs che ti vegnin presentâts.
 passwordChangeRequired-sign-in-2 = Torne jentre in cualsisei dispositîf o servizi là che tu dopris il to { -product-mozilla-account } e va daûr dai passaçs che ti vegnin mostrâts.
 passwordChangeRequired-different-password = <b>Impuartant:</b> sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
 passwordChangeRequired-different-password-plaintext = Impuartant: sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
@@ -334,10 +287,8 @@ passwordReset-title = La password dal to account e je stade modificade
 passwordReset-description = Tu varâs di inserì la tô gnove password sui altris dispositîfs colegâts par podê ripiâ la sincronizazion.
 passwordResetAccountRecovery-subject-2 = La password e je stade ristabilide
 passwordResetAccountRecovery-title-2 = Password ristabilide cun sucès
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Tu âs doprât la clâf di recupar dal account par inzornâ la password di:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Cree une gnove clâf di recupar dal account
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Cree une clâf di recupar dal account
 passwordResetAccountRecovery-regen-required-mjml-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî chê che tu âs doprât.
@@ -350,11 +301,7 @@ postAddAccountRecovery-body-part1 = Salve cheste clâf intun puest sigûr: ti co
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Al è pussibil doprâ cheste clâf nome une volte. Dopo doprade, ti crearìn in automatic une gnove. Opûr, da lis impostazions dal account, tu puedis creâ une gnove clâf in cualsisei moment.
 postAddAccountRecovery-action = Gjestìs account
-postAddLinkedAccount-subject = Gnûf account colegât a { -brand-firefox }
 postAddLinkedAccount-subject-2 = Gnûf account colegât al to { -product-mozilla-account }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Il to account { $providerName } al è stât colegât al to { -product-firefox-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Il to account { $providerName } al è stât colegât al to { -product-mozilla-account }
@@ -372,9 +319,6 @@ postChangeAccountRecovery-body-part2 = Salve cheste gnove clâf intun puest sig�
 postChangeAccountRecovery-action = Gjestìs account
 postChangePrimary-subject = E-mail primarie inzornade
 postChangePrimary-title = Gnove e-mail primarie
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Tu âs modificât cun sucès la tô e-mail primarie in { $email }. Di ca indenant la gnove direzion e-mail e je il to non utent par jentrâ tal to { -product-firefox-account } e par ricevi notifichis di sigurece e di conferme.
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Tu âs modificât cun sucès la tô e-mail primarie in { $email }. Di ca indenant la gnove direzion e-mail e je il to non utent par jentrâ tal to { -product-mozilla-account } e par ricevi notifichis di sigurece e di conferme.
@@ -402,9 +346,6 @@ postRemoveSecondary-subject = E-mail secondarie gjavade
 postRemoveSecondary-title = E-mail secondarie gjavade
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Tu âs gjavât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-firefox-account }. Lis notifichis di sigurece e lis verifichis di acès no vignaran plui mandadis a cheste direzion.
-# Variables:
-#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Tu âs gjavât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-mozilla-account }. Lis notifichis di sigurece e lis verifichis di acès no vignaran plui mandadis a cheste direzion.
 postRemoveSecondary-action = Gjestìs account
 postRemoveTwoStepAuthentication-subject-line-2 = Autenticazion in doi passaçs disativade
@@ -417,7 +358,6 @@ postVerify-sub-title-3 = O sin contents di vêti chi!
 postVerify-title-2 = Vûstu visualizâ la stesse schede su doi dispositîfs?
 postVerify-description-2 = Al è facil! Ti baste instalâ { -brand-firefox } suntun altri dispositîf e jentrâ par ativâ la sincronizazion. E somee magjie!
 postVerify-sub-description = (Psst… Chest al significhe che tu puedis doprâ i tiei segnelibris, lis passwords e i altris dâts di { -brand-firefox } dapardut là che tu sês jentrât cu lis tôs credenziâls.)
-postVerify-subject-3 = Benvignûts in { -brand-firefox }
 postVerify-subject-4 = Benvignûts in { -brand-mozilla }!
 postVerify-setup-2 = Conet un altri dispositîf:
 postVerify-action-2 = Conet un altri dispositîf
@@ -425,18 +365,11 @@ postVerifySecondary-subject = E-mail secondarie zontade
 postVerifySecondary-title = E-mail secondarie zontade
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Tu âs confermât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-firefox-account }. Di ca indenant lis notifichis di sigurece e lis verifichis di acès a vignaran mandadis a dutis dôs lis direzions di pueste.
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Tu âs confermât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-mozilla-account }. Di ca indenant lis notifichis di sigurece e lis verifichis di acès a vignaran mandadis a dutis dôs lis direzions di pueste.
 postVerifySecondary-action = Gjestìs account
 recovery-subject = Ristabilìs la tô password
 recovery-title-2 = Password dismenteade?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = O vin ricevût une richieste di modifiche de tô password pal to { -product-firefox-account } di:
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
+# Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = O vin ricevût une richieste di modifiche de tô password pal to { -product-mozilla-account } di:
 recovery-new-password-button = Fâs clic sul boton chi sot par creâ une gnove password. Chest colegament al scjadarà chi di une ore.
 recovery-copy-paste = Cope e tache chest URL tal to navigadôr par creâ une gnove password. Chest colegament al scjadarà chi di une ore.
@@ -449,11 +382,6 @@ subscriptionAccountDeletion-title = Tu nus mancjarâs
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Di resint tu âs eliminât il to { -product-firefox-account }. Alore o ven anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al è stât paiât ai { $invoiceDateOnly }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Di resint tu âs eliminât il to { -product-mozilla-account }. Alore o ven anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al è stât paiât ai { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -462,20 +390,16 @@ subscriptionAccountFinishSetup-subject = Benvignûts in { $productName }: config
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Benvignûts in { $productName }
 subscriptionAccountFinishSetup-content-processing = Il paiament al è in fase di elaborazion, la operazion e podarès domandâ fin a cuatri dîs lavoratîfs. Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
-subscriptionAccountFinishSetup-content-create-2 = Dopo, tu varâs di creâ une password par { -product-firefox-account } cussì di scomençâ a doprâ il to gnûf abonament.
 subscriptionAccountFinishSetup-content-create-3 = Dopo, tu varâs di creâ une password par { -product-mozilla-account } cussì di scomençâ a doprâ il to gnûf abonament.
 subscriptionAccountFinishSetup-action-2 = Scomence
 subscriptionAccountReminderFirst-subject = Pro memoria: complete la configurazion dal to account
 subscriptionAccountReminderFirst-title = No tu puedis ancjemò jentrâ tal to abonament
-subscriptionAccountReminderFirst-content-info-2 = Cualchi dì indaûr tu âs creât un { -product-firefox-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
 subscriptionAccountReminderFirst-content-info-3 = Cualchi dì indaûr tu âs creât un { -product-mozilla-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
 subscriptionAccountReminderFirst-content-select-2 = Selezione “ Cree password” par configurâ une gnove password e completâ la conferme dal to account.
 subscriptionAccountReminderFirst-action = Cree password
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Pro memoria finâl: configure il to account
-subscriptionAccountReminderSecond-title = Benvignûts in { -brand-firefox }
 subscriptionAccountReminderSecond-title-2 = Benvignûts in { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-2 = Cualchi dì indaûr tu âs creât un { -product-firefox-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
 subscriptionAccountReminderSecond-content-info-3 = Cualchi dì indaûr tu âs creât un { -product-mozilla-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
 subscriptionAccountReminderSecond-content-select-2 = Selezione “ Cree password” par configurâ une gnove password e completâ la conferme dal to account.
 subscriptionAccountReminderSecond-action = Cree password
@@ -629,31 +553,23 @@ unblockCode-prompt-plaintext = Se sì, chest al è il codiç di autorizazion che
 unblockCode-report = In câs contrari, judinus a tignî lontans i intrûs <a data-l10n-name="reportSignInLink">fasintnus une segnalazion</a>.
 unblockCode-report-plaintext = In câs contrari, judinus a tignî lontans i intrûs e segnalinus il fat.
 verificationReminderFinal-subject = Ultin pro memoria par confermâ il to account
-verificationReminderFinal-description = Un pâr di setemanis indaûr tu âs creât un { -product-firefox-account }, ma no tu lu âs mai confermât. Pe tô sigurece o eliminarìn l'account se nol vignarà verificât tes prossimis 24 oris.
 verificationReminderFinal-description-2 = Un pâr di setemanis indaûr tu âs creât un { -product-mozilla-account }, ma no tu lu âs mai confermât. Pe tô sigurece o eliminarìn l'account se nol vignarà verificât tes prossimis 24 oris.
 confirm-account = Conferme account
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Visiti di confermâ il to account
-verificationReminderFirst-title-2 = Benvignûts in { -brand-firefox }
 verificationReminderFirst-title-3 = Benvignûts in { -brand-mozilla }!
-verificationReminderFirst-description-2 = Cualchi zornade indaûr tu âs creât un { -product-firefox-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 15 dîs, se no in automatic al vignarà eliminât.
 verificationReminderFirst-description-3 = Cualchi zornade indaûr tu âs creât un { -product-mozilla-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 15 dîs, se no in automatic al vignarà eliminât.
 verificationReminderFirst-sub-description-3 = No sta fâti scjampâ il navigadôr che al met te e la tô riservatece al prin puest.
 confirm-email-2 = Conferme account
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Conferme account
 verificationReminderSecond-subject-2 = Visiti di confermâ il to account
-verificationReminderSecond-title-2 = No sta fâti scjampâ { -brand-firefox }!
 verificationReminderSecond-title-3 = No sta fâti scjampâ { -brand-mozilla }!
-verificationReminderSecond-description-3 = Cualchi zornade indaûr tu âs creât un { -product-firefox-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 10 dîs, se no in automatic al vignarà eliminât.
 verificationReminderSecond-description-4 = Cualchi zornade indaûr tu âs creât un { -product-mozilla-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 10 dîs, se no in automatic al vignarà eliminât.
-verificationReminderSecond-second-description = Il to { -product-firefox-account } ti permet di sincronizâ lis informazions su ducj i dispositîfs e al sbloche l'acès a altris prodots { -brand-mozilla } dedicâts ae protezion de riservatece.
 verificationReminderSecond-second-description-3 = Il to { -product-mozilla-account } ti permet di sincronizâ la tô esperience cun { -brand-firefox } su ducj i dispositîfs e al da acès a altris prodots { -brand-mozilla } dedicâts ae protezion de riservatece.
 verificationReminderSecond-sub-description-2 = Partecipe ae nestre mission par trasformâ internet intun puest viert a ducj.
 verificationReminderSecond-action-2 = Conferme account
-verify-title-2 = Esplore internet cun { -brand-firefox }
 verify-title-3 = Esplore internet cun { -brand-mozilla }
-verify-description = Conferme il to account e tire fûr il massim di { -brand-firefox } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
 verify-description-2 = Conferme il to account e tire fûr il massim di { -brand-mozilla } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
 verify-subject = Complete la creazion dal to account
 verify-action-2 = Conferme account
@@ -684,19 +600,13 @@ verifySecondaryCode-title-2 = Conferme la e-mail secondarie
 verifySecondaryCode-action-2 = Conferme la direzion e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Chest { -product-firefox-account } al domande di doprâ { $email } tant che direzion e-mail secondarie:
-# Variables:
-#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Chest { -product-mozilla-account } al domande di doprâ { $email } come direzion e-mail secondarie:
 verifySecondaryCode-prompt-2 = Dopre chest codiç di conferme:
 verifySecondaryCode-expiry-notice-2 = Al scjât chi di 5 minûts. Une volte confermade, cheste direzion e-mail e ricevarà notifichis di sigurece e messaçs di conferme.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Conferme il to account
-verifyShortCode-title-2 = Esplore internet cun { -brand-firefox }
 verifyShortCode-title-3 = Esplore internet cun { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Conferme il to account e tire fûr il massim di { -brand-firefox } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Conferme il to account e tire fûr il massim di { -brand-mozilla } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
 verifyShortCode-prompt-3 = Dopre chest codiç di conferme:
