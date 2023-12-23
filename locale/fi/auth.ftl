@@ -572,7 +572,7 @@ verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title-2 = Kirjauduitko palveluun { $clientName }?
+verifyLogin-title-2 = Kirjauduitko { $clientName }iin?
 verifyLogin-description-2 = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
 verifyLogin-subject-2 = Vahvista sisäänkirjautuminen
 verifyLogin-action = Vahvista kirjautuminen
