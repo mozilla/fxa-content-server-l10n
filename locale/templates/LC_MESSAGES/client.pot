@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-12-07 20:08+0000\n"
+"POT-Creation-Date: 2023-12-28 20:07+0000\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1249,12 +1249,12 @@ msgstr ""
 #: .es5/templates/sign_up_password.mustache:15
 msgid ""
 "\n"
-"            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" "
+"            By proceeding, you agree to the:<br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" "
 "href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a "
 "id=\"pocket-pp\" class=\"link-grey\" "
 "href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" "
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" "
 "id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
@@ -1265,18 +1265,22 @@ msgstr ""
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
-"              By proceeding, you agree to:<br />\n"
-"              Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" "
-"href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service "
-"and Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" "
+"              By proceeding, you agree to the:<br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" "
+"id=\"moz-subscription-tos\" "
+"href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\""
+">Terms of Service</a> and <a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" "
+"href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy "
+"Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" "
 "id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:12
-#: .es5/templates/index.mustache:18
+#: .es5/templates/index.mustache:16
 #: .es5/templates/sign_in_password.mustache:17
 #: .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10
@@ -1320,18 +1324,17 @@ msgstr ""
 msgid "Sign up or sign in"
 msgstr ""
 
-#: .es5/templates/index.mustache:11
-#: .es5/templates/index.mustache:12
+#: .es5/templates/index.mustache:10
 msgid ""
 "A Mozilla account also unlocks access to more privacy-protecting products "
 "from Mozilla."
 msgstr ""
 
-#: .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:12
 msgid ""
 "\n"
-"          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" "
+"          By proceeding, you agree to the:<br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" "
 "href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a "
 "id=\"pocket-pp\" class=\"link-grey\" "
 "href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
@@ -1341,13 +1344,17 @@ msgid ""
 "        "
 msgstr ""
 
-#: .es5/templates/index.mustache:16
+#: .es5/templates/index.mustache:14
 msgid ""
 "\n"
-"            By proceeding, you agree to:<br />\n"
-"            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" "
-"href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service "
-"and Privacy Notice</a><br />\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" "
+"id=\"moz-subscription-tos\" "
+"href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\""
+">Terms of Service</a> and <a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" "
+"href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy "
+"Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" "
 "id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"

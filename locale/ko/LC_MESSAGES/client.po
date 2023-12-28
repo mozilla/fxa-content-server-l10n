@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 20:08+0000\n"
+"POT-Creation-Date: 2023-12-28 20:07+0000\n"
 "PO-Revision-Date: 2023-10-21 07:35+0000\n"
 "Last-Translator: paperbox <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1114,29 +1114,24 @@ msgstr "비밀번호"
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:15
 msgid ""
 "\n"
-"            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"\n"
-"              계속하면 다음 사항에 동의하는 것으로 간주됩니다.<br />\n"
-"              Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 이용 약관</a> 및 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">개인정보 취급 방침</a><br />\n"
-"              Firefox의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>.\n"
-"            "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
-"              By proceeding, you agree to:<br />\n"
-"              Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              By proceeding, you agree to the:<br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1172,31 +1167,26 @@ msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> 서비스�
 msgid "Sign up or sign in"
 msgstr "가입 또는 로그인"
 
-#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
+#: .es5/templates/index.mustache:10
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Mozilla 계정을 사용하면 Mozilla의 더 많은 개인 정보 보호 제품에 접근할 수 있습니다."
 
-#: .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:12
 msgid ""
 "\n"
-"          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"          By proceeding, you agree to the:<br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
-"\n"
-"          계속 진행하면 다음에 대해 동의하게 됩니다:<br />\n"
-"          Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개인"
-"정보 보호정책</a><br />\n"
-"          Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
-"        "
 
-#: .es5/templates/index.mustache:16
+#: .es5/templates/index.mustache:14
 msgid ""
 "\n"
-"            By proceeding, you agree to:<br />\n"
-"            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
