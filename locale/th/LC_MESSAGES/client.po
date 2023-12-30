@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-07 20:08+0000\n"
-"PO-Revision-Date: 2023-12-30 17:10+0000\n"
+"PO-Revision-Date: 2023-12-30 17:20+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1674,7 +1674,7 @@ msgstr "เพื่อดำเนินการต่อไปยัง %(ser
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "เราตรวจพบพฤติกรรมที่น่าสงสัยในบัญชี Mozilla ของคุณ เพื่อปกป้องบัญชีของคุณ โปรดสร้างรหัสผ่านใหม่ คุณจะใช้รหัสผ่านนี้เพื่อลงชื่อกลับเข้าใช้บริการบัญชี Mozilla ทั้งหมดของคุณ"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1718,7 +1718,7 @@ msgstr "ลิงก์ที่คุณคลิกไม่มีอักข
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "สร้างบัญชี Mozilla"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1818,27 +1818,27 @@ msgstr "ทำไมฉันต้องสร้างบัญชีนี้
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "บัญชี Firefox จะถูกเปลี่ยนชื่อเป็นบัญชี Mozilla ในวันที่ 1 พ.ย."
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "คุณจะยังลงชื่อเข้าด้วยชื่อผู้ใช้และรหัสผ่านเดียวกันอยู่ และจะไม่มีการเปลี่ยนแปลงอื่นใดกับผลิตภัณฑ์ที่คุณใช้"
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
-msgstr ""
+msgstr "เรียนรู้เพิ่มเติม"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "เราได้เปลี่ยนชื่อบัญชี Firefox เป็นบัญชี Mozilla แล้ว คุณจะยังลงชื่อเข้าด้วยชื่อผู้ใช้และรหัสผ่านเดียวกันอยู่ และจะไม่มีการเปลี่ยนแปลงอื่นใดกับผลิตภัณฑ์ที่คุณใช้"
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "ปิดแบนเนอร์"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "คุณอายุเท่าไร? หากต้องการเรียนรู้เกี่ยวกับเหตุผลที่เราถามอายุของคุณ ให้ไปที่ลิงก์ “ทำไมเราจึงต้องถาม” ซึ่งอยู่ด้านล่างนี้"
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1846,7 +1846,7 @@ msgstr "คุณอายุเท่าไร?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "ทำไมเราจึงต้องถาม?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1938,7 +1938,7 @@ msgstr "ใช่ อนุมัติอุปกรณ์"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "ถ้านี่ไม่ใช่คุณ ให้<a id=\"change-password\" class=\"link-blue\">เปลี่ยนรหัสผ่านของคุณ</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1950,6 +1950,9 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        ขณะนี้คุณกำลังซิงค์กับ: <span>%(deviceFamily)s ใน %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -1977,11 +1980,11 @@ msgstr "กระบวนการตั้งค่าถูกยกเลิ
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "เชื่อมต่อ Firefox ในอุปกรณ์อื่น"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "ซิงค์ Firefox ในโทรศัพท์หรือแท็บเล็ตของคุณ"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
@@ -1989,15 +1992,15 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "ซิงค์อุปกรณ์ของคุณ"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Or download"
-msgstr ""
+msgstr "หรือดาวน์โหลด"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "สแกนเพื่อดาวน์โหลด Firefox สำหรับมือถือ หรือส่ง<a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ลิงก์ดาวน์โหลด</a>ให้ตัวคุณเอง"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "QR code"
@@ -2005,7 +2008,7 @@ msgstr "คิวอาร์โค้ด"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "นำแท็บ ที่คั่นหน้า และรหัสผ่านของคุณไปทุกที่ที่คุณใช้ Firefox"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
