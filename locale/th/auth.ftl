@@ -346,9 +346,15 @@ subscriptionRenewalReminder-content-closing = ขอแสดงความน�
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = ทีมงาน { $productName }
 subscriptionsPaymentExpired-title-1 = บัตรเครดิตของคุณหมดอายุแล้ว หรือกำลังจะหมดอายุ
+subscriptionsPaymentProviderCancelled-title = ขออภัย เราประสบปัญหากับวิธีการชำระเงินของคุณ
+subscriptionsPaymentProviderCancelled-content-detected = เราพบปัญหากับวิธีการชำระเงินของคุณสำหรับการสมัครสมาชิกต่อไปนี้
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = ได้รับการชำระเงิน { $productName } แล้ว
+subscriptionSubsequentInvoice-title = ขอบคุณที่สมัครเป็นสมาชิก!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = เราได้รับการชำระเงินสำหรับ { $productName } ครั้งล่าสุดของคุณแล้ว
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = ใบแจ้งหนี้ถัดไป: { $nextInvoiceDateOnly }
@@ -372,6 +378,7 @@ unblockCode-prompt = ถ้าใช่ นี่คือรหัสอนุ�
 unblockCode-prompt-plaintext = ถ้าใช่ นี่คือรหัสอนุญาตที่คุณต้องการ: { $unblockCode }
 unblockCode-report = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและ<a data-l10n-name="reportSignInLink">รายงานมายังเรา</a>
 unblockCode-report-plaintext = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา
+verificationReminderFinal-subject = การแจ้งเตือนครั้งสุดท้ายให้ยืนยันบัญชีของคุณ
 confirm-account = ยืนยันบัญชี
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = อย่าลืมยืนยันบัญชีของคุณ
@@ -381,6 +388,9 @@ verificationReminderFirst-action-2 = ยืนยันบัญชี
 verificationReminderSecond-action-2 = ยืนยันบัญชี
 verify-subject = สร้างบัญชีของคุณให้เสร็จ
 verify-action-2 = ยืนยันบัญชี
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = คุณได้ลงชื่อเข้า { $clientName } หรือไม่?
 verifyLogin-subject-2 = ยืนยันการลงชื่อเข้า
 verifyLogin-action = ยืนยันการลงชื่อเข้า
 verifyLoginCode-expiry-notice = จะหมดอายุใน 5 นาที
