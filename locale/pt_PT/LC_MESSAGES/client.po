@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-07 20:08+0000\n"
-"PO-Revision-Date: 2023-12-30 22:40+0000\n"
+"PO-Revision-Date: 2023-12-30 22:43+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -1842,7 +1842,7 @@ msgstr "Contas Firefox será renomeada como contas Mozilla no dia 1 de novembro"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe e não existem outras alterações nos produtos que utiliza."
+msgstr "Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe, e não existem outras alterações nos produtos que utiliza."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
@@ -1850,11 +1850,11 @@ msgstr "Saber mais"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Nós renomeámos as contas Firefox para contas Mozilla. Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe e não existem outras alterações nos produtos que utiliza."
+msgstr "Renomeámos as contas Firefox para contas Mozilla. Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe, e não existem outras alterações nos produtos que utiliza."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr "Fechar Faixa"
+msgstr "Fechar faixa"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
