@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 20:08+0000\n"
+"POT-Creation-Date: 2024-01-01 20:07+0000\n"
 "PO-Revision-Date: 2023-11-17 07:48+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1112,30 +1112,24 @@ msgstr "密碼"
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:15
 msgid ""
 "\n"
-"            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服務條款</a>及<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隱私權公告</"
-"a><br />\n"
-"Firefox 的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>"
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
-"              By proceeding, you agree to:<br />\n"
-"              Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              By proceeding, you agree to the:<br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
-"若繼續，代表您同意：<br />\n"
-"Firefox Monitor 的 <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">服務條款與隱私權公告</a><br />\n"
-"Firefox 的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>"
 
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1169,35 +1163,29 @@ msgstr "繼續前往 <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div
 msgid "Sign up or sign in"
 msgstr "註冊或登入"
 
-#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
+#: .es5/templates/index.mustache:10
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "註冊 Mozilla 帳號，即可使用 Mozilla 更多隱私保護相關產品。"
 
-#: .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:12
 msgid ""
 "\n"
-"          By proceeding, you agree to:<br />\n"
-"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"          By proceeding, you agree to the:<br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
 "\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
-"若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服務條款</a>與<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隱私權公告</"
-"a><br />\n"
-"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>"
 
-#: .es5/templates/index.mustache:16
+#: .es5/templates/index.mustache:14
 msgid ""
 "\n"
-"            By proceeding, you agree to:<br />\n"
-"            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"若繼續，代表您同意：<br />\n"
-"Firefox Monitor 的 <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">服務條款與隱私權公告</a><br />\n"
-"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
