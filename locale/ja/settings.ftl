@@ -170,7 +170,6 @@ form-verify-code-default-error = この項目は必須です
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } アカウント回復用キー
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } バックアップ認証コード
 get-data-trio-title-backup-verification-codes = バックアップ認証コード
 get-data-trio-download-2 =
     .title = ダウンロード
@@ -307,9 +306,8 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } 弁当メニュー
-bento-menu-title-2 = { -brand-mozilla } 弁当メニュー
-bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
+bento-menu-title-3 = { -brand-mozilla } の製品
+bento-menu-tagline = プライバシーを保護する他の { -brand-mozilla } の製品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -374,10 +372,8 @@ cs-disconnect-sync-opt-not-say = 無回答
 
 cs-disconnect-advice-confirm = 了解しました
 cs-disconnect-lost-advice-heading = 紛失または盗難にあった端末を切断しました
-cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
 cs-disconnect-lost-advice-content-3 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-mozilla-account }のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
-cs-disconnect-suspicious-advice-content = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
 cs-disconnect-suspicious-advice-content-2 = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-mozilla-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
 cs-sign-out-button = ログアウト
 
@@ -387,20 +383,15 @@ cs-sign-out-button = ログアウト
 ## Data collection section
 
 dc-heading = データの収集と使用
-dc-subheader = { -product-firefox-accounts } の改善にご協力ください
 dc-subheader-2 = { -product-mozilla-accounts } の改善にご協力ください
-dc-subheader-content = { -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
 dc-subheader-content-2 = { -product-mozilla-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
-dc-opt-out-success = オプトアウトが完了しました。{ -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
 dc-opt-out-success-2 = オプトアウトが完了しました。{ -product-mozilla-accounts }が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
-dc-opt-in-success = ご協力ありがとうございます。このデータを共有することで { -product-firefox-accounts }の改善に役立てられます。
 dc-opt-in-success-2 = ご協力ありがとうございます。このデータを共有することで { -product-mozilla-accounts }の改善に役立てられます。
 dc-opt-in-out-error-2 = データ収集設定の変更時に問題が発生しました
 dc-learn-more = 詳細情報
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } メニュー
 drop-down-menu-title-2 = { -product-mozilla-account }メニュー
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -489,7 +480,6 @@ header-menu-open = メニューを閉じる
 header-menu-closed = サイトナビゲーションメニュー
 header-back-to-top-link =
     .title = トップに戻る
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = ヘルプ
 
@@ -614,9 +604,7 @@ delete-account-header =
     .title = アカウントを削除
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
-delete-account-confirm-title-3 = あなたの { -product-firefox-account }が、ウェブ上の安全と生産性を保つ次のいずれかの { -brand-mozilla } 製品と接続されている可能性があります:
 delete-account-confirm-title-4 = あなたの { -product-mozilla-account }が、ウェブ上の安全と生産性を保つ次のいずれかの { -brand-mozilla } 製品と接続されている可能性があります:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -914,23 +902,16 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = 続けることにより、次のことに同意したものとみなされます:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 続けることにより、次のことに同意したものとみなされます:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } の <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
 # link to Firefox Monitor's Terms of Service and Privacy Notice
 terms-privacy-agreement-monitor = { -product-firefox-monitor } の <monitorTos>サービス利用規約とプライバシーに関する通知</monitorTos>
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>サービス利用規約とプライバシーに関する通知</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } の <firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts } <mozillaAccountsTos>サービス利用規約</mozillaAccountsTos> と <mozillaAccountsPrivacy>プライバシー通知</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = 続けることにより、<firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy> に同意したものとみなされます。
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 続けることにより、<mozillaAccountsTos>サービス利用規約</mozillaAccountsTos> および <mozillaAccountsPrivacy>プライバシー通知</mozillaAccountsPrivacy> に同意したものとみなされます。
 
@@ -974,7 +955,6 @@ auth-error-1062 = リダイレクトが無効です
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = アカウントを作成できません
-cannot-create-account-requirements = { -product-firefox-account }を作成するには、規定の年齢に達している必要があります。
 cannot-create-account-requirements-2 = { -product-mozilla-account }を作成するには、規定の年齢に達している必要があります。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 詳細情報
@@ -1010,7 +990,6 @@ connect-another-device-ios-complete-setup-message = iOS 版 { -brand-firefox } �
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = ローカルストレージと Cookie が必要です
-cookies-disabled-enable-prompt = { -product-firefox-accounts }へアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。
 cookies-disabled-enable-prompt-2 = { -product-mozilla-account }へアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 再試行
@@ -1211,7 +1190,6 @@ account-recovery-confirm-key-heading-w-default-service = アカウント回復�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = アカウント回復用キーでパスワードをリセットして <span>{ $serviceName } に進む</span>
-account-recovery-confirm-key-instructions = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-firefox-account } へのアクセスを取り戻しましょう。
 account-recovery-confirm-key-instructions-2 = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-mozilla-account }へのアクセスを取り戻しましょう。
 account-recovery-confirm-key-warning-message = <span>注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。
 # Prompts the user to enter their account recovery code
@@ -1292,8 +1270,6 @@ confirm-signin-message = ログイン確認リンクを { $email } 宛にお送�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = <span>{ -product-firefox-account }</span> のパスワードを入力してください
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> のパスワードを入力してください
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1348,10 +1324,6 @@ signin-reported-message = 担当者に通知が送られました。こうした
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = <span>{ -product-firefox-account }</span> の確認コードを入力してください
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> の確認コードを入力してください
@@ -1402,10 +1374,6 @@ confirm-signup-instruction = 確認リンクを { $email } 宛にお送りしま
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = 確認コードの入力
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = <span>{ -product-firefox-account }</span> の確認コードを入力してください
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
