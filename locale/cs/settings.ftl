@@ -170,7 +170,6 @@ form-verify-code-default-error = Toto pole je povinné
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Klíč k obnovení účtu { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Záložní ověřovací kódy pro účet { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Záložní ověřovací kódy
 get-data-trio-download-2 =
     .title = Stáhnout
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Nabídka { -brand-firefox(case: "gen") }
-bento-menu-title-2 = Nabídka { -brand-mozilla(case: "gen") }
 bento-menu-title-3 = produkty { -brand-mozilla(case: "gen") }
-bento-menu-firefox-title = { -brand-firefox } je technologie, která bojuje za vaše soukromí na internetu.
 bento-menu-tagline = Další produkty od { -brand-mozilla(case: "gen") }, které chrání vaše soukromí
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -376,19 +372,11 @@ cs-disconnect-sync-opt-not-say = Raději neupřesňovat
 
 cs-disconnect-advice-confirm = Ok, rozumím
 cs-disconnect-lost-advice-heading = Ztracené nebo ukradené zařízení bylo odpojeno
-cs-disconnect-lost-advice-content-2 =
-    Pokud bylo vaše zařízení ztraceno nebo ukradeno,
-    pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
-    Doporučujeme také u výrobce svého zařízení zjistit možnosti pro jeho vzdálené vymazání.
 cs-disconnect-lost-advice-content-3 =
     Pokud bylo vaše zařízení ztraceno nebo ukradeno,
     pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-mozilla-account(case: "gen", capitalization: "lower") }.
     Doporučujeme také u výrobce svého zařízení zjistit možnosti pro jeho vzdálené vymazání.
 cs-disconnect-suspicious-advice-heading = Podezřelé zařízení bylo odpojeno
-cs-disconnect-suspicious-advice-content =
-    Pokud je odpojované zařízení skutečně podezřejmé,
-    pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
-    Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
 cs-disconnect-suspicious-advice-content-2 =
     Pokud je odpojované zařízení skutečně podezřejmé,
     pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-mozilla-account(case: "gen", capitalization: "lower") }.
@@ -401,20 +389,15 @@ cs-sign-out-button = Odhlásit se
 ## Data collection section
 
 dc-heading = Sběr dat a jejich použití
-dc-subheader = Pomozte vylepšit { -product-firefox-accounts(case: "acc", capitalization: "lower") }
 dc-subheader-2 = Pomozte vylepšit { -product-mozilla-accounts(case: "acc", capitalization: "lower") }
-dc-subheader-content = Povolte { -product-firefox-accounts(case: "dat", capitalization: "lower") } zasílat { -brand-mozilla(case: "dat") } technická data a data o interakcích.
 dc-subheader-content-2 = Povolte { -product-mozilla-accounts(case: "dat", capitalization: "lower") } zasílat { -brand-mozilla(case: "dat") } technická data a data o interakcích.
-dc-opt-out-success = Sdílení dat bylo úspěšně zrušeno. { -product-firefox-accounts } nebude { -brand-mozilla(case: "dat") } odesílat technická data ani data o interakcích.
 dc-opt-out-success-2 = Sdílení dat bylo úspěšně zrušeno. { -product-mozilla-accounts } nebude { -brand-mozilla(case: "dat") } odesílat technická data ani data o interakcích.
-dc-opt-in-success = Díky! Sdílení těchto dat nám pomáhá vylepšovat { -product-firefox-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-success-2 = Díky! Sdílení těchto dat nám pomáhá vylepšovat { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Při změně předvolby shromažďování dat došlo k problému
 dc-learn-more = Zjistit více
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Nabídka { -product-firefox-account(case: "gen", capitalization: "lower") }
 drop-down-menu-title-2 = Nabídka { -product-mozilla-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -503,7 +486,6 @@ header-menu-open = Zavřít nabídku
 header-menu-closed = Nabídka navigace na webu
 header-back-to-top-link =
     .title = Zpět nahoru
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Nápověda
 
@@ -631,9 +613,7 @@ delete-account-header =
     .title = Smazat účet
 delete-account-step-1-2 = Krok 1 ze 2
 delete-account-step-2-2 = Krok 2 ze 2
-delete-account-confirm-title-3 = Možná jste svůj { -product-firefox-account(case: "acc", capitalization: "lower") }  připojili k jednomu nebo více z následujících produktů nebo služeb od { -brand-mozilla(case: "gen") }, které vám zajišťují bezpečnost a produktivitu na webu:
 delete-account-confirm-title-4 = Možná jste svůj { -product-mozilla-account(case: "acc", capitalization: "lower") }  připojili k jednomu nebo více z následujících produktů nebo služeb od { -brand-mozilla(case: "gen") }, které vám zajišťují bezpečnost a produktivitu na webu:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -931,23 +911,13 @@ tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Pokračováním souhlasíte s:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Pokračováním souhlasíte s:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Podmínky poskytování služby a oznámení o ochraně osobních údajů</monitorTos> aplikace { -product-firefox-monitor }
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Podmínky poskytování služby a oznámení o ochraně osobních údajů</monitorTos> pro { -product-firefox-monitor }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Podmínky používání služby</firefoxTos> a <firefoxPrivacy>Oznámení o ochraně osobních údajů</firefoxPrivacy> prohlížeče { -brand-firefox }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Podmínky poskytování služby</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Oznámení o ochraně osobních údajů</mozSubscriptionPrivacyLink> { -brand-mozilla } Services Subscription Services
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Podmínky poskytování služby</mozillaAccountsTos>a <mozillaAccountsPrivacy>Oznámení o ochraně osobních údajů</mozillaAccountsPrivacy> { -product-mozilla-accounts(case: "gen") }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Pokračováním vyjadřujete souhlas s <firefoxTos>Podmínkami poskytování služby</firefoxTos> a <firefoxPrivacy>Oznámením o ochraně osobních údajů</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Pokračováním vyjadřujete souhlas s <mozillaAccountsTos>Podmínkami poskytování služby</mozillaAccountsTos> a <mozillaAccountsPrivacy>Oznámením o ochraně osobních údajů</mozillaAccountsPrivacy>.
 
@@ -991,7 +961,6 @@ auth-error-1062 = Neplatné přesměrování
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Účet nelze vytvořit
-cannot-create-account-requirements = Pokud si chcete vytvořit { -product-firefox-account(case: "acc", capitalization: "lower") }, musíte splňovat stanovené věkové požadavky.
 cannot-create-account-requirements-2 = Pokud si chcete vytvořit { -product-mozilla-account(case: "acc", capitalization: "lower") }, musíte splňovat stanovené věkové požadavky.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Zjistit více
@@ -1027,7 +996,6 @@ connect-another-device-ios-complete-setup-message = Pro dokončení nastavení s
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Je vyžadováno místní úložiště a cookies
-cookies-disabled-enable-prompt = Abyste mohli používat { -product-firefox-accounts(case: "acc", capitalization: "lower") }, povolte prosím cookies a local storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi.
 cookies-disabled-enable-prompt-2 = Abyste mohli používat { -product-mozilla-account(case: "acc", capitalization: "lower") }, povolte prosím cookies a local storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Zkusit znovu
@@ -1228,7 +1196,6 @@ account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocí k
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Obnovte heslo pomocí obnovovacího klíče k účtu a <span>pokračujte do služby { $serviceName }</span>
-account-recovery-confirm-key-instructions = Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu { -product-firefox-account }.
 account-recovery-confirm-key-instructions-2 = Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou smazána.
 # Prompts the user to enter their account recovery code
@@ -1309,8 +1276,6 @@ confirm-signin-message = Zkontrolujte potvrzovací odkaz, který jsme poslali na
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Zadejte své heslo <span>k účtu { -product-firefox-account }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Zadejte své heslo <span>k účtu { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1365,10 +1330,6 @@ signin-reported-message = Náš tým byl upozorněn. Zprávy jako tato nám pom�
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Zadejte potvrzovací kód<span> pro váš { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zadejte potvrzovací kód<span> pro váš { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
@@ -1419,10 +1380,6 @@ confirm-signup-instruction = Zkontrolujte svůj e-mail, zda jste nezískali potv
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Zadejte potvrzovací kód
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Zadejte potvrzovací kód<span>pro svůj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
