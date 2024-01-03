@@ -170,7 +170,6 @@ form-verify-code-default-error = Ez a mező kötelező
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } fiók-helyreállítási kulcs
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } tartalék hitelesítési kódok
 get-data-trio-title-backup-verification-codes = Tartalék hitelesítési kódok
 get-data-trio-download-2 =
     .title = Letöltés
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } bentó menü
-bento-menu-title-2 = { -brand-mozilla } bentó menü
 bento-menu-title-3 = { -brand-mozilla } termékek
-bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
 bento-menu-tagline = A { -brand-mozilla } további termékei, amelyek védik a magánszféráját
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,20 +376,10 @@ cs-disconnect-sync-opt-not-say = Inkább nem mondja meg
 
 cs-disconnect-advice-confirm = Rendben, értem
 cs-disconnect-lost-advice-heading = Az elveszett vagy ellopott eszköz leválasztva
-cs-disconnect-lost-advice-content-2 =
-    Mivel az eszközét elvesztette vagy ellopták,
-    ezért hogy biztonságban tartsa az információit, változtassa meg a { -product-firefox-account }ja
-    jelszavát a fiókbeállításokban. Érdemes megkeresni az eszköz gyártójának
-    leírását az adatok távoli törléséről.
 cs-disconnect-lost-advice-content-3 =
     Mivel az eszközét elvesztette vagy ellopták, ezért hogy biztonságban tartsa az információit, változtassa meg a { -product-mozilla-account }ja
     jelszavát a fiókbeállításokban. Érdemes megkeresni az eszköz gyártójának leírását az adatok távoli törléséről.
 cs-disconnect-suspicious-advice-heading = Gyanús eszköz leválasztva
-cs-disconnect-suspicious-advice-content =
-    Ha a leválasztott eszköz valóban gyanús,
-    akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-firefox-account }ja
-    jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett
-    jelszavát is, az about:logins beírásával a címsávba.
 cs-disconnect-suspicious-advice-content-2 =
     Ha a leválasztott eszköz valóban gyanús, akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-mozilla-account }ja
     jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett jelszavát is, az about:logins beírásával a címsávba.
@@ -405,20 +391,15 @@ cs-sign-out-button = Kijelentkezés
 ## Data collection section
 
 dc-heading = Adatgyűjtés és -felhasználás
-dc-subheader = Segítsen a { -product-firefox-accounts } fejlesztésében
 dc-subheader-2 = Segítsen a { -product-mozilla-accounts } fejlesztésében
-dc-subheader-content = Engedélyezés, hogy a { -product-firefox-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla(ending: "accented") }nak.
 dc-subheader-content-2 = Engedélyezés, hogy a { -product-mozilla-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla(ending: "accented") }nak.
-dc-opt-out-success = Sikeres leiratkozás. A { -product-firefox-accounts } nem fog műszaki vagy interakciós adatokat küldeni a { -brand-mozilla(ending: "accented") }nak.
 dc-opt-out-success-2 = Sikeres leiratkozás. A { -product-mozilla-accounts } nem fog műszaki vagy interakciós adatokat küldeni a { -brand-mozilla(ending: "accented") }nak.
-dc-opt-in-success = Köszönjük! Ezen adatok megosztása segít nekünk a { -product-firefox-accounts } fejlesztésében.
 dc-opt-in-success-2 = Köszönjük! Ezen adatok megosztása segít nekünk a { -product-mozilla-accounts } fejlesztésében.
 dc-opt-in-out-error-2 = Sajnos probléma merült fel az adatgyűjtési beállítás megváltoztatásakor
 dc-learn-more = További tudnivalók
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } menü
 drop-down-menu-title-2 = { -product-mozilla-account } menü
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -507,7 +488,6 @@ header-menu-open = Menü bezárása
 header-menu-closed = Webhely navigációs menü
 header-back-to-top-link =
     .title = Vissza a tetejére
-header-title = Firefox-fiók
 header-title-2 = { -product-mozilla-account }
 header-help = Súgó
 
@@ -635,9 +615,7 @@ delete-account-header =
     .title = Fiók törlése
 delete-account-step-1-2 = 1. / 2. lépés
 delete-account-step-2-2 = 2. / 2. lépés
-delete-account-confirm-title-3 = Előfordulhat, hogy a { -product-firefox-account }ját a következő { -brand-mozilla } termékekhez vagy szolgáltatásokhoz kapcsolta, amelyekkel biztonságban lehet és hatékonyabb lehet a weben:
 delete-account-confirm-title-4 = Előfordulhat, hogy a { -product-mozilla-account }ját a következő { -brand-mozilla } termékekhez vagy szolgáltatásokhoz kapcsolta, amelyek segítségével biztonságban lehet és hatékonyabb lehet az interneten:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -946,23 +924,13 @@ tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = A továbblépéssel elfogadja a következőket:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = A folytatással elfogadja a következőket:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = A { -product-pocket } <pocketTos> Szolgáltatási feltételeit</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozatot</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Szolgáltatási feltételek</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozat</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = A { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételei és Adatvédelmi nyilatkozata</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = A { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételei és Adatvédelmi nyilatkozata</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = A { -brand-firefox } <firefoxTos>Szolgáltatási feltételeit</firefoxTos> és az <firefoxPrivacy>Adatvédelmi nyilatkozatot</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = A { -brand-mozilla } Előfizetési szolgáltatások <mozSubscriptionTosLink>Általános szerződési feltételei</mozSubscriptionTosLink> és az <mozSubscriptionPrivacyLink>Adatvédelmi nyilatkozat</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Szolgáltatási feltételek</mozillaAccountsTos> és az <mozillaAccountsPrivacy>Adatvédelmi nyilatkozat</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = A továbblépéssel elfogadja a <firefoxTos>Szolgáltatási feltételeket</firefoxTos> és az <firefoxPrivacy>Adatvédelmi nyilatkozatot</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = A folytatással elfogadja a <mozillaAccountsTos>Szolgáltatási feltételeket</mozillaAccountsTos> és az <mozillaAccountsPrivacy>Adatvédelmi nyilatkozatot</mozillaAccountsPrivacy>.
 
@@ -1006,7 +974,6 @@ auth-error-1062 = Érvénytelen átirányítás
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Nem hozható létre fiók
-cannot-create-account-requirements = Bizonyos korkövetelményeknek meg kell felelni a { -product-firefox-account } létrehozásához.
 cannot-create-account-requirements-2 = Bizonyos korkövetelményeknek meg kell felelni a { -product-mozilla-account } létrehozásához.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = További tudnivalók
@@ -1042,7 +1009,6 @@ connect-another-device-ios-complete-setup-message = Jelentkezzen be a { -brand-f
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Helyi tároló és sütik szükségesek
-cookies-disabled-enable-prompt = A { -product-firefox-accounts }ba történő belépéshez engedélyezze böngészőjében a sütiket és a helyi tárolót. Ezzel lehetővé teszi olyan funkciók működését, mint az adatok megjegyzése az egyes munkamenetei között.
 cookies-disabled-enable-prompt-2 = Kérjük, engedélyezze a sütiket és a helyi tárolást a böngészőjében, hogy elérje a { -product-mozilla-account }ját. Ezzel lehetővé válik olyan funkciók, mint az adatok megjegyzése a munkamenetek között.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Próbálja újra
@@ -1243,7 +1209,6 @@ account-recovery-confirm-key-heading-w-default-service = Állítsa vissza a jels
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Állítsa vissza a jelszót a fiók-helyreállítási kulccsal <span>a { $serviceName } szolgáltatáshoz való továbblépéshez</span>
-account-recovery-confirm-key-instructions = Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a { -product-firefox-account }jához.
 account-recovery-confirm-key-instructions-2 = Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tárolt, hogy újra hozzáférjen a { -product-mozilla-account }jához.
 account-recovery-confirm-key-warning-message = <span>Megjegyzés</span> Ha a jelszót visszaállítja, és nincs mentett fiókhelyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők).
 # Prompts the user to enter their account recovery code
@@ -1324,8 +1289,6 @@ confirm-signin-message = Ellenőrizze a leveleit, hogy megérkezett-e a bejelent
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Adja meg a jelszavát <span>a { -product-firefox-account }</span> számára
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Adja meg a <span>{ -product-mozilla-account }</span> jelszavát
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1380,10 +1343,6 @@ signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segít
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Adja meg a megerősítési kódját <span>a { -product-firefox-account }</span> számára
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Adja meg a megerősítő kódot<span> a { -product-mozilla-account }</span> számára
@@ -1434,10 +1393,6 @@ confirm-signup-instruction = Ellenőrizze a leveleit, hogy megérkezett-e a mege
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Adja meg a megerősítő kódot
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Adja meg a megerősítési kódját <span>a { -product-firefox-account }</span> számára
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
