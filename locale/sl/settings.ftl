@@ -170,7 +170,6 @@ form-verify-code-default-error = To polje je obvezno
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ključ za obnovitev { -brand-firefox } Računa
-get-data-trio-title-firefox-backup-verification-codes = Rezervne overitvene kode za { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Rezervne overitvene kode
 get-data-trio-download-2 =
     .title = Prenesi
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox }ov meni
-bento-menu-title-2 = { -brand-mozilla } Meni bento
 bento-menu-title-3 = Izdelki { -brand-mozilla }
-bento-menu-firefox-title = { -brand-firefox } je tehnologija, ki se bori za vašo zasebnost na spletu.
 bento-menu-tagline = Več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki varujejo vašo zasebnost
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -378,18 +374,8 @@ cs-disconnect-sync-opt-not-say = raje ne bi povedal
 
 cs-disconnect-advice-confirm = Razumem
 cs-disconnect-lost-advice-heading = Povezava z izgubljeno/ukradeno napravo je prekinjena
-cs-disconnect-lost-advice-content-2 =
-    Ker je bila vaša naprava izgubljena oziroma ukradena, morate
-    zaradi varnosti svojih podatkov spremeniti geslo { -product-firefox-account(sklon: "rodilnik") } v
-    nastavitvah računa. Prav tako pri proizvajalcu naprave preverite, ali
-    obstaja možnost izbrisa podatkov na daljavo.
 cs-disconnect-lost-advice-content-3 = Ker je bila vaša naprava izgubljena oziroma ukradena, morate zaradi varnosti svojih podatkov spremeniti geslo { -product-mozilla-account(sklon: "rodilnik") } v nastavitvah. Prav tako pri proizvajalcu naprave preverite, ali obstaja možnost za izbris podatkov na daljavo.
 cs-disconnect-suspicious-advice-heading = Povezava s sumljivo napravo je prekinjena
-cs-disconnect-suspicious-advice-content =
-    Če je naprava, ki ste jo odklopili, res sumljiva,
-    morate zaradi varnosti svojih podatkov spremeniti geslo { -product-firefox-account(sklon: "rodilnik") }
-    v nastavitvah računa. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili
-    v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
 cs-disconnect-suspicious-advice-content-2 = Če je naprava, ki ste jo odklopili, res sumljiva, morate zaradi varnosti svojih podatkov spremeniti geslo { -product-mozilla-account(sklon: "rodilnik") } v nastavitvah. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
 cs-sign-out-button = Odjava
 
@@ -399,20 +385,15 @@ cs-sign-out-button = Odjava
 ## Data collection section
 
 dc-heading = Zbiranje in uporaba podatkov
-dc-subheader = Pomagajte izboljšati { -product-firefox-accounts(sklon: "tozilnik") }
 dc-subheader-2 = Pomagajte izboljšati { -product-mozilla-accounts(sklon: "tozilnik") }
-dc-subheader-content = Dovoli { -product-firefox-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-subheader-content-2 = Dovoli { -product-mozilla-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
-dc-opt-out-success = Odklonitev uspešna. { -product-firefox-accounts } ne bodo pošiljali { -brand-mozilla(sklon: "dajalnik") } tehničnih ali interakcijskih podatkov.
 dc-opt-out-success-2 = Odjava je uspela. { -product-mozilla-accounts } { -brand-mozilla(sklon: "rodilnik") } ne bodo pošiljali tehničnih ali interakcijskih podatkov.
-dc-opt-in-success = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-firefox-accounts(sklon: "tozilnik") }.
 dc-opt-in-success-2 = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-mozilla-accounts(sklon: "tozilnik") }.
 dc-opt-in-out-error-2 = Oprostite, pri spreminjanju nastavitve o zbiranju podatkov je prišlo do težave
 dc-learn-more = Več o tem
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Meni { -product-firefox-account(sklon: "rodilnik") }
 drop-down-menu-title-2 = Meni { -product-mozilla-account(sklon: "rodilnik") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -501,7 +482,6 @@ header-menu-open = Zapri meni
 header-menu-closed = Meni za krmarjenje po strani
 header-back-to-top-link =
     .title = Nazaj na vrh
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomoč
 
@@ -629,9 +609,7 @@ delete-account-header =
     .title = Izbriši račun
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
-delete-account-confirm-title-3 = Morda ste svoj { -product-firefox-account(sklon: "tozilnik") } povezali z enim ali več izmed naslednjih izdelkov ali storitev { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
 delete-account-confirm-title-4 = Morda ste svoj { -product-mozilla-account(sklon: "tozilnik") } povezali z enim ali več izmed naslednjih izdelkov ali storitev { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -940,23 +918,13 @@ tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Z nadaljevanjem se strinjate z:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Z nadaljevanjem se strinjate z:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> { -product-pocket }a
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> storitve { -product-pocket }
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos> { -product-firefox-monitor }ja
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos> { -product-firefox-monitor }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilo o zasebnosti</firefoxPrivacy> { -brand-firefox }a
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Pogoji storitve</mozSubscriptionTosLink> in <mozSubscriptionPrivacyLink>Obvestilo o zasebnosti</mozSubscriptionTosLink> naročniških storitev { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilo o zasebnosti</mozillaAccountsPrivacy> { -product-mozilla-accounts(zacetnica: "velika", sklon: "rodilnik") }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Z nadaljevanjem se strinjate s <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilom o zasebnosti</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Z nadaljevanjem se strinjate s <mozillaAccountsTos>pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilom o zasebnosti</mozillaAccountsPrivacy>.
 
@@ -1000,7 +968,6 @@ auth-error-1062 = Neveljavna preusmeritev
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Ni mogoče ustvariti računa
-cannot-create-account-requirements = Za ustvarjanje računa { -product-firefox-account } morate izpolnjevati starostne pogoje.
 cannot-create-account-requirements-2 = Za ustvarjanje { -product-mozilla-account(sklon: "rodilnik") } morate izpolniti starostne pogoje.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Več o tem
@@ -1036,7 +1003,6 @@ connect-another-device-ios-complete-setup-message = Za dokončanje namestitve se
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Lokalna shramba in piškotki so zahtevani
-cookies-disabled-enable-prompt = Za dostop do { -product-firefox-accounts(sklon: "rodilnik") } v svojem brskalniku omogočite piškotke in lokalno shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik zapomnil med sejami.
 cookies-disabled-enable-prompt-2 = Za dostop do { -product-mozilla-account(sklon: "rodilnik") } v brskalniku omogočite piškotke in lokalno shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik zapomnil med sejami.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Poskusi znova
@@ -1237,7 +1203,6 @@ account-recovery-confirm-key-heading-w-default-service = Ponastavite geslo s klj
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje na { $serviceName }</span>
-account-recovery-confirm-key-instructions = Vnesite ključ za enkratno uporabo, ki ste ga shranili na varnem mestu, da ponovno pridobite dostop do svojega { -product-firefox-account(sklon: "rodilnik") }.
 account-recovery-confirm-key-instructions-2 = Vnesite ključ za enkratno uporabo, ki ste ga shranili na varnem mestu, da ponovno pridobite dostop do svojega { -product-mozilla-account(sklon: "rodilnik") }.
 account-recovery-confirm-key-warning-message = <span>Opomba:</span> Če ponastavite geslo in nimate shranjenega ključa za obnovitev računa, bodo nekateri vaši podatki izbrisani (vključno s sinhroniziranimi podatki strežnika, npr. zgodovino in zaznamki).
 # Prompts the user to enter their account recovery code
@@ -1318,8 +1283,6 @@ confirm-signin-message = Med svojo e-pošto poiščite povezavo za potrditev pri
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Vnesite svoje geslo <span>za { -product-firefox-account }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Vnesite geslo <span>za { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1374,10 +1337,6 @@ signin-reported-message = Naša ekipa je bila obveščena. Takšna poročila nam
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Vnesite potrditveno kodo<span> za svoj { -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Vnesite potrditveno kodo<span> za svoj { -product-mozilla-account }</span>
@@ -1428,10 +1387,6 @@ confirm-signup-instruction = Med svojo e-pošto poiščite potrditveno povezavo,
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Vnesite potrditveno kodo
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Vnesite potrditveno kodo <span>za svoj { -product-firefox-account }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
