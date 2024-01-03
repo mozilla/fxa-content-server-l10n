@@ -170,7 +170,6 @@ form-verify-code-default-error = Mae angen llanw'r maes hwn
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Allwedd adfer cyfrif { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Codau dilysu wrth gefn { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Codau dilysu wrth gefn
 get-data-trio-download-2 =
     .title = Llwytho i Lawr
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Dewislen Bento { -brand-firefox }
-bento-menu-title-2 = Dewislen Bento { -brand-mozilla }
 bento-menu-title-3 = Cynnyrch { -brand-mozilla }
-bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
 bento-menu-tagline = Rhagor o gynnyrch { -brand-mozilla } sy'n diogelu'ch preifatrwydd
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -378,18 +374,8 @@ cs-disconnect-sync-opt-not-say = Gwell peidio dweud
 
 cs-disconnect-advice-confirm = Iawn
 cs-disconnect-lost-advice-heading = Dyfais coll neu wedi'i dwyn wedi'i datgysylltu
-cs-disconnect-lost-advice-content-2 =
-    Gan bod eich dyfais wedi cael ei cholli neu
-    ei dwyn, i cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-account }
-    yn eich gosodiadau cyfrif. Dylech hefyd edrych am wybodaeth o'ch
-    gwneuthurwr dyfeisiau ynglŷn â dileu eich data o bell.
 cs-disconnect-lost-advice-content-3 = Ers i'ch dyfais gael ei cholli neu ei dwyn, er mwyn cadw'ch manylion yn ddiogel, dylech newid eich cyfrinair { -product-mozilla-account } yng ngosodiadau eich cyfrif. Dylech hefyd edrych am wybodaeth gan wneuthurwr eich dyfais ynglŷn â dileu eich data o bell.
 cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
-cs-disconnect-suspicious-advice-content =
-    Os yw'r ddyfais sydd wedi'i datgysylltu wir 
-    yn amheus, er mwyn cadw'ch manylion yn ddiogel, dylech newid cyfrinair eich { -product-firefox-account }
-    yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrinair arall
-    a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins i'r bar cyfeiriad.
 cs-disconnect-suspicious-advice-content-2 = Os yw'r ddyfais sydd wedi'i datgysylltu yn wir amheus, i gadw'ch manylion yn ddiogel, dylech newid cyfrinair eich cyfrif { -product-mozilla-account } yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrineiriau eraill a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins yn y bar cyfeiriad.
 cs-sign-out-button = Allgofnodi
 
@@ -399,20 +385,15 @@ cs-sign-out-button = Allgofnodi
 ## Data collection section
 
 dc-heading = Casglu a'r Defnydd o Ddata
-dc-subheader = Helpwch i wella { -product-firefox-accounts }
 dc-subheader-2 = Helpwch i wella { -product-mozilla-accounts }
-dc-subheader-content = Caniatáu i { -product-firefox-accounts } anfon data technegol a rhyngweithio i { -brand-mozilla }.
 dc-subheader-content-2 = Caniatáu i { -product-mozilla-accounts } anfon data technegol a rhyngweithio i { -brand-mozilla }.
-dc-opt-out-success = Eithrio'n llwyddiannus. Ni fydd { -product-firefox-accounts } yn anfon data technegol neu ryngweithio i { -brand-mozilla }.
 dc-opt-out-success-2 = Rydych wedi dewis peidio cael eich cynnwys yn llwyddiannus. Ni fydd { -product-mozilla-accounts } yn anfon data technegol na data rhyngweithio i { -brand-mozilla }.
-dc-opt-in-success = Diolch! Mae rhannu'r data hwn yn ein helpu i wella { -product-firefox-accounts }.
 dc-opt-in-success-2 = Diolch! Mae rhannu'r data hwn yn ein helpu i wella { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Ymddiheuriadau, bu anhawster wrth newid eich dewisiadau casglu data.
 dc-learn-more = Dysgu rhagor
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Dewislen { -product-firefox-account }
 drop-down-menu-title-2 = Dewislen cyfrif { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -501,7 +482,6 @@ header-menu-open = Cau'r ddewislen
 header-menu-closed = Dewislen llywio'r wefan
 header-back-to-top-link =
     .title = Nôl i'r brig
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Cymorth
 
@@ -629,9 +609,7 @@ delete-account-header =
     .title = Dileu Cyfrif
 delete-account-step-1-2 = Cam 1 o 2
 delete-account-step-2-2 = Cam 2 o 2
-delete-account-confirm-title-3 = Efallai eich bod wedi cysylltu eich { -product-firefox-account } ag un neu fwy o'r cynnyrch neu wasanaethau { -brand-mozilla } canlynol sy'n eich cadw'n ddiogel a chynhyrchiol ar y we:
 delete-account-confirm-title-4 = Mae'n bosibl eich bod wedi cysylltu eich cyfrif { -product-mozilla-account } ag un neu fwy o'r cynnyrch neu'r gwasanaethau { -brand-mozilla } canlynol sy'n eich cadw'n ddiogel a chynhyrchiol ar y we:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -938,23 +916,13 @@ tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Drwy barhau, rydych yn cytuno i:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Drwy barhau, rydych yn cytuno i:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Telerau Gwasanaeth</pocketTos> a <pocketPrivacy>Hysbysiad Preifatrwydd</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Amodau Gwasanaeth</pocketTos> a <pocketPrivacy>Hysbysiad Preifatrwydd</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Telerau Gwasanaeth a Hysbysiad Preifatrwydd</monitorTos> { -product-firefox-monitor }
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Telerau Gwasanaeth a Hysbysiad Preifatrwydd</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Telerau Gwasanaeth</firefoxTos> a <firefoxPrivacy>Hysbysiad Preifatrwydd</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } Gwasanaethau Tanysgrifio <mozSubscriptionTosLink>Telerau Gwasanaeth</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Hysbysiad Preifatrwydd</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(cyfalafu: "mawr") } <mozillaAccountsTos>Amodau Gwasanaeth</mozillaAccountsTos> a <mozillaAccountsPrivacy>Hysbysiad Preifatrwydd</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Drwy barhau, rydych yn cytuno i'r <firefoxTos>Telerau Gwasanaeth</firefoxTos> a'r <firefoxPrivacy>Hysbysiad Preifatrwydd</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Drwy barhau, rydych yn cytuno i <mozillaAccountsTos>Amodau Gwasanaeth</mozillaAccountsTos> a <mozillaAccountsPrivacy>Hysbysiad Preifatrwydd</mozillaAccountsPrivacy>.
 
@@ -998,7 +966,6 @@ auth-error-1062 = Ailgyfeirio annilys
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Methu creu cyfrif
-cannot-create-account-requirements = Rhaid i chi fodloni gofynion oedran penodol i greu { -product-firefox-account }.
 cannot-create-account-requirements-2 = Rhaid i chi fodloni gofynion oedran penodol i greu cyfrif { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Dysgu rhagor
@@ -1034,7 +1001,6 @@ connect-another-device-ios-complete-setup-message = Mewngofnodwch i { -brand-fir
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Mae angen storfa leol a chwcis
-cookies-disabled-enable-prompt = Galluogwch cwcis a storfa leol yn eich porwr er mwy cael mynediad at { -product-firefox-accounts }. Bydd gwneud hynny'n galluogi swyddogaethau fel cofio rhwng sesiynau.
 cookies-disabled-enable-prompt-2 = Galluogwch cwcis a storfa leol yn eich porwr i gael mynediad i'ch cyfrif { -product-mozilla-account }. Bydd gwneud hynny yn galluogi swyddogaethau fel eich cofio rhwng sesiynau.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Ceisiwch eto
@@ -1235,7 +1201,6 @@ account-recovery-confirm-key-heading-w-default-service = Ailosodwch gyfrinair gy
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ailosodwch gyfrinair gydag allwedd adfer cyfrif <span>i barhau { $serviceName }</span>
-account-recovery-confirm-key-instructions = Rhowch yr allwedd adfer cyfrif un-tro rydych wedi ei gadw mewn man diogel er mwyn ad-ennill mynediad i'ch { -product-firefox-account }.
 account-recovery-confirm-key-instructions-2 = Rhowch yr allwedd adfer cyfrif defnydd unwaith y gwnaethoch ei storio mewn man diogel i adennill mynediad i'ch { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Sylwch:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei gydweddu fel hanes a nodau tudalen).
 # Prompts the user to enter their account recovery code
@@ -1316,8 +1281,6 @@ confirm-signin-message = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Rhowch eich cyfrinair <span>ar gyfer eich { -product-firefox-account }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Rhowch eich cyfrinair <span>ar gyfer eich cyfrif { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1372,10 +1335,6 @@ signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn 
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Rhowch y cod cadarnhau <span> ar gyfer eich { -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Rhowch y cod cadarnhau <span> ar gyfer eich cyfrif { -product-mozilla-account }</span>
@@ -1426,10 +1385,6 @@ confirm-signup-instruction = Edrychwch yn eich e-bost am y ddolen cadarnhau anfo
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Rhowch y cod dilysu
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Rhowch y cod cadarnhau <span> ar gyfer eich { -product-firefox-account }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
