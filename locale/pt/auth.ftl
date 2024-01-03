@@ -239,8 +239,8 @@ downloadSubscription-content-2 = Vamos começar a utilizar todas as funcionalida
 downloadSubscription-link-action-2 = Começar
 fraudulentAccountDeletion-subject-2 = A sua { -product-mozilla-account } foi eliminada
 fraudulentAccountDeletion-title = A sua conta foi eliminada
-fraudulentAccountDeletion-content-part1-v2 = Recentemente, uma { -product-mozilla-account } foi criada e foi debitada uma subscrição com este endereço de email. Como fazemos com todas as novas contas, pedimos que confirme a sua conta validando primeiro este endereço de email.
-fraudulentAccountDeletion-content-part2-v2 = Neste momento, vemos que a conta nunca foi confirmada. Como este passo não foi concluído, não temos a certeza se esta foi uma subscrição autorizada. Como resultado, a { -product-mozilla-account } registada neste endereço de email foi eliminada e a sua subscrição foi cancelada com todos os débitos reembolsados.
+fraudulentAccountDeletion-content-part1-v2 = Recentemente, uma { -product-mozilla-account } foi criada e foi debitada uma subscrição com este endereço de e-mail. Como fazemos com todas as novas contas, pedimos que confirme a sua conta começando por validar este endereço de e-mail.
+fraudulentAccountDeletion-content-part2-v2 = Neste momento, verificamos que a conta nunca foi confirmada. Como este passo não foi concluído, não temos a certeza se esta foi uma subscrição autorizada. Como resultado, a { -product-mozilla-account } registada neste endereço de e-mail foi eliminada e a sua subscrição foi cancelada com todos os débitos reembolsados.
 fraudulentAccountDeletion-contact = Se tiver quaisquer questões, por favor, contacte a nossa <a data-l10n-name="mozillaSupportUrl">equipa de apoio</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -297,7 +297,7 @@ passwordResetAccountRecovery-regen-required-txt-1 = Terá de iniciar a sessão n
 postAddAccountRecovery-subject-3 = Nova chave de recuperação da conta criada
 postAddAccountRecovery-title2 = Criou uma nova chave de recuperação da conta
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part1 = Guarde esta chave num local seguro - irá precisar da mesma para restaurar os seus dados de navegação encriptados caso se esqueça da sua palavra-passe.
+postAddAccountRecovery-body-part1 = Guarde esta chave num local seguro – irá precisar da mesma para restaurar os seus dados de navegação encriptados, caso se esqueça da sua palavra-passe.
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Esta chave só pode ser utilizada uma vez. Depois de a utilizar, nós criaremos automaticamente uma nova para si. Ou pode criar uma nova a qualquer momento nas suas definições da conta.
 postAddAccountRecovery-action = Gerir conta
@@ -539,7 +539,7 @@ subscriptionUpgrade-upgrade-info = Atualizou com sucesso de { $productNameOld } 
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Será cobrado uma taxa única de { $paymentProrated } para refletir o preço mais alto da sua subscrição para o remanescente deste { $productPaymentCycleOld }. A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
+subscriptionUpgrade-content-charge-info-different-cycle = Será cobrada uma taxa única de { $paymentProrated } para refletir o preço mais alto da sua subscrição para o remanescente deste { $productPaymentCycleOld }. A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Se existir um novo software para instalar de forma a utilizar o { $productName }, irá receber um e-mail separado com as instruções para a transferência.
@@ -564,7 +564,7 @@ confirm-email-2 = Confirmar conta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conta
 verificationReminderSecond-subject-2 = Lembre-se de confirmar a sua conta
-verificationReminderSecond-title-3 = Não perca a { -brand-mozilla }!
+verificationReminderSecond-title-3 = Não perca nada da { -brand-mozilla }!
 verificationReminderSecond-description-4 = Há alguns dias, criou uma { -product-mozilla-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 10 dias ou esta será eliminada automaticamente.
 verificationReminderSecond-second-description-3 = A sua { -product-mozilla-account } deixa-o sincronizar o seu { -brand-firefox } entre os dispositivos e desbloqueia o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Faça parte da nossa missão para transformar a Internet num lugar aberto para todos.

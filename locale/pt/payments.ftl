@@ -30,14 +30,10 @@ input-error-is-required = { $label } é necessário
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logótipo de { -brand-name-firefox }
 brand-name-mozilla-logo = Logótipo da { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Já tem uma conta { -brand-name-firefox }? <a>Inicie sessão</a>
 new-user-sign-in-link-2 = Já tem uma { -product-mozilla-account }? <a>Iniciar sessão</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = O seu plano será renovado automaticamente depois de 
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
 new-user-step-1-2 = 1. Crie uma { -product-mozilla-account }
 new-user-card-title = Introduza a informação do seu cartão
 new-user-submit = Subscrever agora
