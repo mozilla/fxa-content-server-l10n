@@ -1,22 +1,17 @@
 ## Non-email strings
 
-session-verify-send-push-title = ¿La nitikirisäx moloj pa { -product-firefox-accounts }?
 session-verify-send-push-body-2 = Tapitz'a' richin najikib'a' chi at ja rat
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo de { -brand-firefox }">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = Ichinan Runa’oj { -brand-mozilla }
-fxa-service-url = { -product-firefox-cloud } Rojqanem Samaj
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo de { -brand-firefox }">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Ruyonil nitaq re taqoya’l re‘; we xak'ül ruma jun sachoj, majun achike tab'ana'.
 subplat-privacy-notice = Ichinan na'oj
 subplat-privacy-plaintext = Ichinan na’oj:
@@ -24,20 +19,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Xak'ül re taqoya'l ruma chi ri { $email } k'o jun rub'i' rutaqoya'l richin { -product-firefox-account } chuqa' xatz'ib'aj ab'i' richin { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Xak'ül re taqoya'l ruma chi ri { $email } k'o jun rub'i' rutaqoya'l richin { -product-mozilla-account } chuqa' xatz'ib'aj ab'i' richin { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Nak'ül re taqoya'l re' ruma chi ri { $email } k'o pa jun { -product-firefox-account }.
-subplat-explainer-multiple = Nak'ül re taqoya'l re' ruma chi ri { $email } k'o pa jun { -product-firefox-account } chuqa' xatz'ib'aj ab'i' pa jalajöj taq tikojil.
-subplat-explainer-was-deleted = Nak'ül re taqoya'l re' ruma chi ri { $email } xtz'ib'äx pa jun { -product-firefox-account }.
-subplat-manage-account = Tanuk'samajij ri taq runuk'ulem ataqoya'l richin { -product-firefox-account } rik'in yatok pa <a data-l10n-name="subplat-account-page">ruxaq taqoya'l</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Tanuk'samajij ri runuk'ulem { -product-firefox-account } rik'in natz'ët ruxaq ataqoya'l: { $accountSettingsUrl }
 subplat-terms-policy = Rojqanem chuqa’ ruq‘atik na'ojil
 subplat-terms-policy-plaintext = { subplat-terms-policy } :
 subplat-cancel = Ruq’atik tz‘ib'anïk b'i'aj
@@ -47,8 +29,6 @@ subplat-reactivate-plaintext = { subplat-reactivate } :
 subplat-update-billing = Tik’ex ri wetamab‘al richin wujil
 subplat-privacy-policy = Ichinan Runa'oj { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = { -product-firefox-cloud } Rojqanem Samaj
-subplat-cloud-terms-plaintext = { subplat-cloud-terms } :
 subplat-legal = Taqanel rutzijol
 subplat-legal-plaintext = { subplat-legal } :
 subplat-privacy = Ichinanem
@@ -147,11 +127,8 @@ newDeviceLogin-subject = K'ak'a' rutikirisaxik molojri'ïl { $clientName }
 newDeviceLogin-action = Tinuk’samajïx rub‘i' taqoya'l
 passwordChanged-subject = Xk’extäj ri ewan tzij
 passwordChanged-title = Xjal ütz ri ewan tzij
-passwordChanged-description = Ütz xjal ri ewan rutzij { -product-firefox-account } pa re jun okisaxel re':
 passwordChangeRequired-subject = Xilitäj q’eleb‘el samaj
 passwordChangeRequired-title = Nrajo’ chi Nijal Ewan Tzij
-passwordChangeRequired-suspicious-activity = Xqïl itzel b'anoj pa rub'i' ataqoya'l richin { -product-firefox-account }. Richin man ke'ok pa rub'i' ataqoya'l richin { -product-firefox-account } toq man aya'on ta q'ij, yeqachüp ronojel ri rokisab'al ri rub'i' ataqoya'l chuqa' niqak'utuj chi tajala' ri ewan atzij richin yatqachajij.
-passwordChangeRequired-sign-in = Tatikirisaj moloj pa xab'achike okisab'äl o samaj akuchi' nawokisaj ri rub'i' ataqoya'l richin { -product-firefox-account } chuqa' tawojqaj ri ya'on rutzijol.
 passwordChangeRequired-different-password = <b>K'atzinel:</b> Tacha' jun chik ewan tzij chuwäch ri xawokisala' chuqa' tajikib'a' chi jun wi rik'in ri rub'i' ataqoya'l.
 passwordChangeRequired-different-password-plaintext = K'atzinel: Tacha' jun chik ewan tzij chuwäch ri xawokisala' chuqa' tajikib'a' chi jun wi rik'in ri rub'i' ataqoya'l.
 passwordReset-subject = Xk’extäj ri ewan tzij
@@ -172,7 +149,6 @@ postRemoveSecondary-subject = Xyuj ri ruka’n taqoya‘l
 postRemoveSecondary-title = Xyuj ri ruka’n taqoya‘l
 postRemoveSecondary-action = Tinuk’samajïx rub‘i' taqoya'l
 postRemoveTwoStepAuthentication-action = Tinuk’samajïx rub‘i' taqoya'l
-postVerify-subject-3 = ¡Ütz apetik pa { -brand-firefox }!
 postVerify-setup-2 = Tokisäx jun chik okisaxel:
 postVerify-action-2 = Tokisäx jun chik okisaxel
 postVerifySecondary-subject = Xtz’aqatisäx ri ruka‘n taqoya'l
@@ -190,7 +166,6 @@ subscriptionAccountDeletion-title = Yojb’ison ruma yab‘e
 subscriptionAccountFinishSetup-title = Ütz apetik pa { $productName }
 subscriptionAccountFinishSetup-action-2 = Titikirisäx
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
-subscriptionAccountReminderSecond-title = ¡Ütz apetik pa { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Titz'uk ewan tzij
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -269,12 +244,10 @@ unblockCode-prompt-plaintext = We ke ri', ja re' ri rub'itz'ib' ya'oj q'ij nik'a
 unblockCode-report-plaintext = We man ke ta ri’, kojato‘ richin niqato' qi' chi kiwa ri nachanela' chuqa' ke'asujuj pe.
 confirm-account = Tijikib'äx rub'i' taqoya'l
 confirm-account-plaintext = { confirm-account }:
-verificationReminderFirst-title-2 = ¡Ütz apetik pa { -brand-firefox }!
 confirm-email-2 = Tijikib'äx rub'i' taqoya'l
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Tijikib'äx rub'i' taqoya'l
 verificationReminderSecond-action-2 = Tijikib'äx rub'i' taqoya'l
-verify-description = Tajikib’a‘ ri rub'i' ataqoy'al richin jeb'ël nawokisaj ri { -brand-firefox } rik'in natikirisaj molojri'ïl xab'akuchi':
 verify-subject = Tak’isa‘ runuk'ik ri rub'i' ataqoya'l
 verify-action-2 = Tijikib'äx rub'i' taqoya'l
 verifyLogin-subject-2 = Tijikib'äx rutikirisaxik molojri'ïl
@@ -291,6 +264,4 @@ verifySecondaryCode-action-2 = Tijikib'äx taqoya'l
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Tajikib'a' rub'i' ataqoya'l
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Tajikib'a' ri rub'i' ataqoy'al richin jeb'ël nawokisaj ri { -brand-firefox } rik'in natikirisaj molojri'ïl xab'akuchi':
 verifyShortCode-expiry-notice = Xtik’is ruq‘ijul pa 5 ch'utiramaj.
