@@ -170,7 +170,6 @@ form-verify-code-default-error = Kjo fushë është e domosdoshme
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kyç rimarrjeje llogarie { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Kode mirëfilltësimi kopjeruajtje { -brand-firefox }-i
 get-data-trio-title-backup-verification-codes = Kode mirëfilltësimi kopjeruajtjeje
 get-data-trio-download-2 =
     .title = Shkarkoje
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Menu { -brand-firefox } Bento
-bento-menu-title-2 = Menu { -brand-mozilla }
 bento-menu-title-3 = Produkte { -brand-mozilla }
-bento-menu-firefox-title = { -brand-firefox }-i është eknologjike që lufton për privatësinë tuaj internetore.
 bento-menu-tagline = Më tepër produkte nga { -brand-mozilla } që mbrojnë privatësinë tuaj
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -378,18 +374,8 @@ cs-disconnect-sync-opt-not-say = S’dëshiroj ta them
 
 cs-disconnect-advice-confirm = OK, e mora vesh
 cs-disconnect-lost-advice-heading = U shkëput pajisje e humbur ose e vjedhur
-cs-disconnect-lost-advice-content-2 =
-    Meqë pajisja juaj qe vjedhur ose humbur, për
-    të mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-account } tuaj
-    te rregullimet e llogarisë tuaj. Duhet të kërkoni gjithashtu informacion nga
-    prodhuesi i pajisjes tuaj rreth fshirjes së të dhënave së largëti.
 cs-disconnect-lost-advice-content-3 = Meqë pajisja juaj qe vjedhur ose humbur, për të mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-mozilla-account } tuaj, te rregullimet e llogarisë tuaj. Duhet të kërkoni gjithashtu informacion nga prodhuesi i pajisjes tuaj rreth fshirjes së të dhënave së largëti.
 cs-disconnect-suspicious-advice-heading = U shkëput pajisje e dyshimtë
-cs-disconnect-suspicious-advice-content =
-    Nëse pajisja e shkëputur është vërtet
-    e dyshimtë, për t’i mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-account }
-    tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi
-    tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
 cs-disconnect-suspicious-advice-content-2 = Nëse pajisja e shkëputur është vërtet e dyshimtë, për t’i mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-mozilla-account } tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
 cs-sign-out-button = Dilni
 
@@ -399,20 +385,15 @@ cs-sign-out-button = Dilni
 ## Data collection section
 
 dc-heading = Grumbullim dhe Përdorim të Dhënash
-dc-subheader = Ndihmoni të përmirësohet { -product-firefox-accounts }
 dc-subheader-2 = Ndihmoni të përmirësohet { -product-mozilla-accounts }
-dc-subheader-content = Lejoje { -product-firefox-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
 dc-subheader-content-2 = Lejojeni { -product-mozilla-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
-dc-opt-out-success = Lënie jashtë e suksesshme. { -product-firefox-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
 dc-opt-out-success-2 = Lënie jashtë e suksesshme. { -product-mozilla-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
-dc-opt-in-success = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-firefox-accounts }.
 dc-opt-in-success-2 = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Na ndjeni, pati një problem në ndryshimin e parapëlqimit tuaj për grumbullim të dhënash
 dc-learn-more = Mësoni më tepër
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Menu { -product-firefox-account }
 drop-down-menu-title-2 = Menu { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -501,7 +482,6 @@ header-menu-open = Mbylle menunë
 header-menu-closed = Menu lëvizje në sajt
 header-back-to-top-link =
     .title = Mbrapsht te kreu
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Ndihmë
 
@@ -629,9 +609,7 @@ delete-account-header =
     .title = Fshijeni Llogarinë
 delete-account-step-1-2 = Hapi 1 nga 2
 delete-account-step-2-2 = Hapi 2 nga 2
-delete-account-confirm-title-3 = Munde të keni lidhur { -product-firefox-account } tuaj me një ose më tepër produkte ose shërbime vijues { -brand-mozilla } që ju mbajnë në internet të parrezik dhe prodhimtar në internet:
 delete-account-confirm-title-4 = Munde të keni lidhur { -product-mozilla-account } tuaj me një ose më tepër produkte ose shërbime vijues { -brand-mozilla } që ju mbajnë në internet të parrezik dhe prodhimtar në internet:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -940,23 +918,13 @@ tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë vep
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Duke vazhduar, pajtoheni me:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Duke vazhduar, pajtoheni me:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Terma Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim Privatësie</pocketPrivacy> të { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kushte Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim mbi Privatësinë</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor }'s <monitorTos>Kushte Shërbimi dhe Shënim Privatësie</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Kushte Shërbimi dhe Shënim Privatësie</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Terma Shërbimi</firefoxTos> dhe <firefoxPrivacy>Shënim Privatësie</firefoxPrivacy> të { -brand-firefox }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Kushte Shërbimi</mozSubscriptionTosLink> dhe <mozSubscriptionPrivacyLink>Shënim Privatësie</mozSubscriptionPrivacyLink> Shërbimesh Pajtimesh { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim Privatësie</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Duke vazhduar, pajtoheni me <firefoxTos>Terma Shërbimi</firefoxTos> dhe <firefoxPrivacy>Shënim Privatësie</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Duke vazhduar, pajtoheni me <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim Privatësie</mozillaAccountsPrivacy>.
 
@@ -1000,7 +968,6 @@ auth-error-1062 = Ridrejtim i pavlefshëm
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = S’krijohet dot llogaria
-cannot-create-account-requirements = Duhet të plotësoni disa domosdoshmëri moshe, që të krijoni një { -product-firefox-account }.
 cannot-create-account-requirements-2 = Duhet të plotësoni disa domosdoshmëri moshe, që të krijoni një { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Mësoni më tepër
@@ -1036,7 +1003,6 @@ connect-another-device-ios-complete-setup-message = Hyni te { -brand-firefox }-i
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Depozitimi vendor dhe cookie-t janë të domosdoshme
-cookies-disabled-enable-prompt = Ju lutemi, që të përdorni { -product-firefox-accounts }, aktivizoni te shfletuesi juaj cookie-t dhe depozitimin vendor. Kjo do të bëjë të mundur funksione të tillë si mbajtja mend e përdoruesit mes dy sesionesh.
 cookies-disabled-enable-prompt-2 = Ju lutemi, që të përdorni { -product-mozilla-account } tuajën, aktivizoni te shfletuesi juaj cookie-t dhe depozitimin vendor. Kjo do të bëjë të mundur funksione të tillë si mbajtja mend e përdoruesit mes dy sesionesh.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Riprovoni
@@ -1237,7 +1203,6 @@ account-recovery-confirm-key-heading-w-default-service = Ricaktoni fjalëkalimin
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ricaktoni fjalëkalimin përmes kyçi rimarrjeje llogarie, <span>që të vazhdoni te { $serviceName }</span>
-account-recovery-confirm-key-instructions = Ju lutemi, që të rimerrni hyrjen te { -product-firefox-account } juaj, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik.
 account-recovery-confirm-key-instructions-2 = Ju lutemi, që të rimerrni hyrjen te { -product-mozilla-account } juaj, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik.
 account-recovery-confirm-key-warning-message = <span>SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga shërbyesi, f.v., historik dhe shfletues).
 # Prompts the user to enter their account recovery code
@@ -1318,8 +1283,6 @@ confirm-signin-message = Shihni te email-et tuaj për lidhjen e ripohimit të hy
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Jepni fjalëkalimin tuaj <span>për { -product-firefox-account } tuajën</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Jepni fjalëkalimin tuaj <span>për { -product-mozilla-account } tuaj</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1374,10 +1337,6 @@ signin-reported-message = Ekipi ynë i njoftua. Raporte si ky na ndihmojnë të 
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Jepni kod ripohimi <span>për { -product-firefox-account } tuajën</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Jepni kod ripohimi <span>për { -product-mozilla-account } tuajën</span>
@@ -1428,10 +1387,6 @@ confirm-signup-instruction = Shihni te email-et tuaj për lidhjen e ripohimit d�
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Jepni kodin e ripohimit
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Jepni kod ripohimi <span>për { -product-firefox-account } tuajën</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
