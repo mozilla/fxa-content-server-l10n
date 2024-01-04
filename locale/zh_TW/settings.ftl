@@ -170,7 +170,6 @@ form-verify-code-default-error = 此欄位必填
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 帳號救援金鑰
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 備用驗證碼
 get-data-trio-title-backup-verification-codes = 備用驗證碼
 get-data-trio-download-2 =
     .title = 下載
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } 產品選單
-bento-menu-title-2 = { -brand-mozilla } 便當選單
 bento-menu-title-3 = { -brand-mozilla } 產品
-bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
 bento-menu-tagline = { -brand-mozilla } 更多會保護您隱私的產品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -374,10 +370,8 @@ cs-disconnect-sync-opt-not-say = 我不想說
 
 cs-disconnect-advice-confirm = 好的，知道了
 cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
-cs-disconnect-lost-advice-content-2 = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-lost-advice-content-3 = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-mozilla-account }的密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
-cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-disconnect-suspicious-advice-content-2 = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-mozilla-account }的密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
 
@@ -387,20 +381,15 @@ cs-sign-out-button = 登出
 ## Data collection section
 
 dc-heading = 資料收集與使用
-dc-subheader = 幫助我們改善 { -product-firefox-accounts }
 dc-subheader-2 = 幫助我們改善 { -product-mozilla-accounts }
-dc-subheader-content = 允許 { -product-firefox-accounts } 傳送技術與互動資料給 { -brand-mozilla }。
 dc-subheader-content-2 = 允許 { -product-mozilla-accounts }傳送技術與互動資料給 { -brand-mozilla }。
-dc-opt-out-success = 成功退出。{ -product-firefox-accounts } 將不再傳送技術或互動資料給 { -brand-mozilla }。
 dc-opt-out-success-2 = 成功退出。{ -product-mozilla-accounts }將不再傳送技術或互動資料給 { -brand-mozilla }。
-dc-opt-in-success = 感謝您！分享此資料可協助我們改進 { -product-firefox-accounts }。
 dc-opt-in-success-2 = 感謝您！分享此資料可協助我們改進 { -product-mozilla-accounts }。
 dc-opt-in-out-error-2 = 很抱歉，更改您的資料收集偏好設定時發生問題
 dc-learn-more = 了解更多
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } 選單
 drop-down-menu-title-2 = { -product-mozilla-account } 選單
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -489,7 +478,6 @@ header-menu-open = 關閉選單
 header-menu-closed = 網站導航選單
 header-back-to-top-link =
     .title = 回到頁面頂端
-header-title = Firefox 帳號
 header-title-2 = { -product-mozilla-account }
 header-help = 說明
 
@@ -614,9 +602,7 @@ delete-account-header =
     .title = 刪除帳號
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
-delete-account-confirm-title-3 = 您可能曾經將 { -product-firefox-account } 連結到下列一個或多個可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
 delete-account-confirm-title-4 = 您可能曾經將 { -product-mozilla-account }連結到下列一個或多個可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -906,23 +892,13 @@ tfa-row-change-modal-explain = 將無法恢復此動作。
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = 使用本服務，代表您同意：
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 使用本服務，代表您同意：
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor } 的<monitorTos>服務條款及隱私權公告</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } 的<monitorTos>服務條款及隱私權公告</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } 訂閱服務的<mozSubscriptionTosLink>服務條款</mozSubscriptionTosLink>及<mozSubscriptionPrivacyLink>隱私權公告</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } 的<mozillaAccountsTos>服務條款</mozillaAccountsTos>與<mozillaAccountsPrivacy>隱私權公告</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = 使用本服務，代表您同意<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 使用本服務，代表您同意：<mozillaAccountsTos>服務條款</mozillaAccountsTos>與<mozillaAccountsPrivacy>隱私權公告</mozillaAccountsPrivacy>.
 
@@ -966,7 +942,6 @@ auth-error-1062 = 重導無效
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = 無法註冊帳號
-cannot-create-account-requirements = 您需要符合年齡需求才能註冊 { -product-firefox-account }。
 cannot-create-account-requirements-2 = 您需要符合年齡需求才能註冊 { -product-mozilla-account }。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 了解更多
@@ -1002,7 +977,6 @@ connect-another-device-ios-complete-setup-message = 登入 { -brand-firefox } fo
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = 必須開啟本機儲存空間與 Cookie 功能
-cookies-disabled-enable-prompt = 請開啟 Cookie 與本機儲存空間以讓瀏覽器存取 { -product-firefox-accounts }。這麼做可讓帳號系統在每次使用時記住您的登入狀態。
 cookies-disabled-enable-prompt-2 = 請開啟瀏覽器的 Cookie 與本機儲存空間功能，才能使用 { -product-mozilla-account }。這麼做可讓帳號系統在每次使用時記住您的登入狀態。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 重試
@@ -1203,7 +1177,6 @@ account-recovery-confirm-key-heading-w-default-service = 請使用帳號救援�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往 { $serviceName }</span>
-account-recovery-confirm-key-instructions = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-firefox-account }的使用權限。
 account-recovery-confirm-key-instructions-2 = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-mozilla-account }的使用權限。
 account-recovery-confirm-key-warning-message = <span>註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。
 # Prompts the user to enter their account recovery code
@@ -1284,8 +1257,6 @@ confirm-signin-message = 請到 { $email } 信箱收信，點擊登入確認鏈�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = 請輸入您的密碼 <span>{ -product-firefox-account }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = 請輸入您的密碼 <span>{ -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1340,10 +1311,6 @@ signin-reported-message = 已通知我們的營運團隊。像這樣的回報可
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = 請輸入您的確認碼 <span>{ -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = 請輸入您的確認碼 <span>{ -product-mozilla-account }</span>
@@ -1394,10 +1361,6 @@ confirm-signup-instruction = 請到 { $email } 信箱收信，點擊登入確認
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = 請輸入確認碼
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = 請輸入您的驗證碼 <span>{ -product-firefox-account }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
