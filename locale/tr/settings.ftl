@@ -170,7 +170,6 @@ form-verify-code-default-error = Bu alanı doldurmalısınız
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } hesap kurtarma anahtarı
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } yedek kimlik doğrulama kodları
 get-data-trio-title-backup-verification-codes = Yedek kimlik doğrulama kodları
 get-data-trio-download-2 =
     .title = İndir
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } bento menüsü
-bento-menu-title-2 = { -brand-mozilla } bento menüsü
 bento-menu-title-3 = { -brand-mozilla } ürünleri
-bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
 bento-menu-tagline = Gizliliğinizi koruyan diğer { -brand-mozilla } ürünleri
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,10 +376,8 @@ cs-disconnect-sync-opt-not-say = Söylemek istemiyorum
 
 cs-disconnect-advice-confirm = Tamam, anladım
 cs-disconnect-lost-advice-heading = Kayıp veya çalınan cihazın bağlantısı kesildi
-cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
 cs-disconnect-lost-advice-content-3 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-mozilla-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
-cs-disconnect-suspicious-advice-content = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
 cs-disconnect-suspicious-advice-content-2 = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-mozilla-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
 cs-sign-out-button = Çıkış yap
 
@@ -393,20 +387,15 @@ cs-sign-out-button = Çıkış yap
 ## Data collection section
 
 dc-heading = Veri toplanması ve kullanımı
-dc-subheader = { -product-firefox-accounts }nı geliştirmemize yardım edin
 dc-subheader-2 = { -product-mozilla-accounts }nı geliştirmemize yardım edin
-dc-subheader-content = { -product-firefox-accounts }nın teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermesine izin veriyorum.
 dc-subheader-content-2 = { -product-mozilla-accounts }nın teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermesine izin veriyorum.
-dc-opt-out-success = Ayrılma işlemi başarılı. { -product-firefox-accounts } artık teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermeyecek.
 dc-opt-out-success-2 = Ayrılma işlemi başarılı. { -product-mozilla-accounts } artık teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermeyecek.
-dc-opt-in-success = Teşekkürler! Bu verileri paylaşmanız { -product-firefox-accounts }nı geliştirmemize yardımcı oluyor.
 dc-opt-in-success-2 = Teşekkürler! Bu verileri paylaşmanız { -product-mozilla-accounts }nı geliştirmemize yardımcı oluyor.
 dc-opt-in-out-error-2 = Üzgünüz, veri toplama tercihiniz değiştirilirken bir sorun oluştu
 dc-learn-more = Daha fazla bilgi al
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } menüsü
 drop-down-menu-title-2 = { -product-mozilla-account } menüsü
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -495,7 +484,6 @@ header-menu-open = Menüyü kapat
 header-menu-closed = Site gezinti menüsü
 header-back-to-top-link =
     .title = Başa dön
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Yardım
 
@@ -620,9 +608,7 @@ delete-account-header =
     .title = Hesabı sil
 delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
-delete-account-confirm-title-3 = { -product-firefox-account }nızı, internette güvenliğinizi ve verimliliğinizi artıran aşağıdaki { -brand-mozilla } ürün ve hizmetlerine bağlamış olabilirsiniz:
 delete-account-confirm-title-4 = { -product-mozilla-account }nızı, internette güvenliğinizi ve verimliliğinizi artıran aşağıdaki { -brand-mozilla } ürün ve hizmetlerine bağlamış olabilirsiniz:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -917,23 +903,13 @@ tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Devam ettiğinizde şunları kabul etmiş olursunuz:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Devam ettiğinizde şunları kabul etmiş olursunuz:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor }’ün <monitorTos>Hizmet Koşulları ve Gizlilik Bildirimi</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Hizmet Koşulları ve Gizlilik Bildirimi</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Kullanım Koşulları</firefoxTos> ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } Abonelik Hizmetleri <mozSubscriptionTosLink>Hizmet Koşulları</mozSubscriptionTosLink> ve <mozSubscriptionPrivacyLink>Gizlilik Bildirimi</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos> ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Devam ederek <firefoxTos>Hizmet Koşulları</firefoxTos>’nı ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>’ni kabul etmiş olursunuz.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Devam ederek <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos>’nı ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>’ni kabul etmiş olursunuz.
 
@@ -977,7 +953,6 @@ auth-error-1062 = Geçersiz yönlendirme
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Hesap oluşturulamıyor
-cannot-create-account-requirements = { -product-firefox-account } açmak için yaş gereksinimlerini karşılamalısınız.
 cannot-create-account-requirements-2 = { -product-mozilla-account } açmak için yaş gereksinimlerini karşılamalısınız.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Daha fazla bilgi al
@@ -1013,7 +988,6 @@ connect-another-device-ios-complete-setup-message = Kurulumu tamamlamak için iO
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Yerel depolama ve çerezler gereklidir
-cookies-disabled-enable-prompt = { -product-firefox-accounts }na erişmek için lütfen tarayıcınızda çerezleri ve yerel depolamayı etkinleştirin. Bu sayede oturumlar arasında sizi hatırlama gibi işlevleri kullanabileceğiz.
 cookies-disabled-enable-prompt-2 = { -product-mozilla-account }nıza erişmek için lütfen tarayıcınızda çerezleri ve yerel depolamayı etkinleştirin. Bu sayede oturumlar arasında sizi hatırlama gibi işlevleri kullanabileceğiz.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Tekrar dene
@@ -1214,7 +1188,6 @@ account-recovery-confirm-key-heading-w-default-service = <span>Hesap ayarlarına
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> hesap kurtarma anahtarıyla parolanızı sıfırlayın
-account-recovery-confirm-key-instructions = { -product-firefox-account }nıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın.
 account-recovery-confirm-key-instructions-2 = { -product-mozilla-account }nıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın.
 account-recovery-confirm-key-warning-message = <span>Not:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir.
 # Prompts the user to enter their account recovery code
@@ -1295,8 +1268,6 @@ confirm-signin-message = { $email } adresine gönderdiğimiz giriş onayı bağl
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = <span>{ -product-firefox-account }</span> parolanızı yazın
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> parolanızı yazın
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1351,10 +1322,6 @@ signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırgan
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = <span>{ -product-firefox-account }</span> onay kodunuzu yazın
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> onay kodunuzu yazın
@@ -1405,10 +1372,6 @@ confirm-signup-instruction = { $email } adresine gönderdiğimiz onay bağlantı
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Onay kodunu girin
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = <span>{ -product-firefox-account }</span> onay kodunuzu girin
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
