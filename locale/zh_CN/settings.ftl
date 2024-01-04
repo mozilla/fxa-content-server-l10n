@@ -170,7 +170,6 @@ form-verify-code-default-error = 此字段必填
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户恢复密钥
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 备用验证码
 get-data-trio-title-backup-verification-codes = 备用验证码
 get-data-trio-download-2 =
     .title = 下载
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } 产品菜单
-bento-menu-title-2 = { -brand-mozilla } 产品菜单
 bento-menu-title-3 = { -brand-mozilla } 产品
-bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
 bento-menu-tagline = { -brand-mozilla } 的更多保护您隐私的产品。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -376,10 +372,8 @@ cs-disconnect-sync-opt-not-say = 我不想说
 
 cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已断开连接
-cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-account }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-lost-advice-content-3 = 鉴于您的设备已丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-mozilla-account }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
-cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改保存在 { -brand-firefox } 的所有网站密码。
 cs-disconnect-suspicious-advice-content-2 = 若解绑的设备确实可疑，为了确保您的信息安全，应及时到账户设置中更改 { -product-mozilla-account }密码，以及在地址栏输入 about:logins，更改所有保存在 { -brand-firefox } 中的网站密码。
 cs-sign-out-button = 退出
 
@@ -389,20 +383,15 @@ cs-sign-out-button = 退出
 ## Data collection section
 
 dc-heading = 数据收集与使用
-dc-subheader = 帮助我们改进 { -product-firefox-accounts }
 dc-subheader-2 = 帮助我们改进 { -product-mozilla-accounts }
-dc-subheader-content = 允许 { -product-firefox-accounts }向 { -brand-mozilla } 发送技术与交互数据。
 dc-subheader-content-2 = 允许 { -product-mozilla-accounts }向 { -brand-mozilla } 发送技术与交互数据。
-dc-opt-out-success = 成功退出，{ -product-firefox-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-out-success-2 = 退出成功，{ -product-mozilla-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
-dc-opt-in-success = 感谢！共享此数据可帮助我们改进 { -product-firefox-accounts }。
 dc-opt-in-success-2 = 感谢！共享此数据可帮助我们改进 { -product-mozilla-accounts }。
 dc-opt-in-out-error-2 = 抱歉，更改您的数据收集首选项时遇到问题
 dc-learn-more = 详细了解
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } 菜单
 drop-down-menu-title-2 = { -product-mozilla-account }菜单
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -491,7 +480,6 @@ header-menu-open = 关闭菜单
 header-menu-closed = 网站导航菜单
 header-back-to-top-link =
     .title = 回到顶端
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = 帮助
 
@@ -616,9 +604,7 @@ delete-account-header =
     .title = 删除账户
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
-delete-account-confirm-title-3 = 该 { -product-firefox-account }可能已关联至以下一项或多项 { -brand-mozilla } 产品或服务，它们正助力您安全、高效地畅游网络：
 delete-account-confirm-title-4 = 此 { -product-mozilla-account }可能已关联至以下一项或多项 { -brand-mozilla } 产品或服务，它们正助力您安全、高效地畅游网络：
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -908,23 +894,13 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = 继续操作即表示您同意：
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 继续操作即表示您同意：
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服务条款</pocketTos>和<pocketPrivacy>隐私声明</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服务条款</pocketTos>和<pocketPrivacy>隐私声明</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor } 的<monitorTos>服务条款和隐私声明</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>服务条款和隐私声明</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } 订阅服务的<mozSubscriptionTosLink>服务条款</mozSubscriptionTosLink>和<mozSubscriptionPrivacyLink>隐私声明</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") }<mozillaAccountsTos>服务条款</mozillaAccountsTos>和<mozillaAccountsPrivacy>隐私声明</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = 继续操作即表示您同意我们的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>。
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 继续操作即表示您同意<mozillaAccountsTos>服务条款</mozillaAccountsTos>和<mozillaAccountsPrivacy>隐私声明</mozillaAccountsPrivacy>。
 
@@ -968,7 +944,6 @@ auth-error-1062 = 无效重定向
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = 无法创建账户
-cannot-create-account-requirements = 您必须符合年龄要求才能创建 { -product-firefox-account }。
 cannot-create-account-requirements-2 = 您必须符合年龄要求才能创建 { -product-mozilla-account }。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 详细了解
@@ -1004,7 +979,6 @@ connect-another-device-ios-complete-setup-message = 登录 iOS 版 { -brand-fire
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = 需要本地存储和 Cookie
-cookies-disabled-enable-prompt = 请在您的浏览器中启用 Cookie 和本地存储功能以访问 { -product-firefox-accounts }。这样才能使会话间记住信息等功能正常运行。
 cookies-disabled-enable-prompt-2 = 请在浏览器中启用 Cookie 和本地存储功能以访问 { -product-mozilla-account }，这样您就可以使用记住登录状态等功能。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 重试
@@ -1211,7 +1185,6 @@ account-recovery-confirm-key-heading-w-default-service = 使用账户恢复密�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = 使用账户恢复密钥重置密码以<span>继续使用 { $serviceName }</span>
-account-recovery-confirm-key-instructions = 请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 { -product-firefox-account }的访问权限。
 account-recovery-confirm-key-instructions-2 = 请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 { -product-mozilla-account }的访问权限。
 account-recovery-confirm-key-warning-message = <span>注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。
 # Prompts the user to enter their account recovery code
@@ -1292,8 +1265,6 @@ confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = <span>{ -product-firefox-account }</span>请输入密码
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span>请输入密码
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1348,10 +1319,6 @@ signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = 输入确认码以<span>登录 { -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span>请输入确认码
@@ -1402,10 +1369,6 @@ confirm-signup-instruction = 请查收发送至您邮箱 { $email } 的账户确
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = 输入验证码
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = 输入您的<span>{ -product-firefox-account }验证码</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
