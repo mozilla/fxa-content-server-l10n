@@ -907,7 +907,7 @@ terms-privacy-agreement-intro-2 = Proseguendo accetti:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Condizioni di utilizzo del servizio</pocketTos> e <pocketPrivacy>informativa sulla privacy</pocketPrivacy> di { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = Servizi in abbonamento { -brand-mozilla } <mozSubscriptionTosLink>Termini di servizio</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informativa sulla privacy</mozSubscriptionPrivacyLink>
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Condizioni di utilizzo del servizio</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informativa sulla privacy</mozSubscriptionPrivacyLink> dei servizi in abbonamento { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Termini di servizio</mozillaAccountsTos> e <mozillaAccountsPrivacy>informativa sulla privacy</mozillaAccountsPrivacy> degli { -product-mozilla-accounts }
 # links to Mozilla Account's Terms of Service and Privacy Notice
