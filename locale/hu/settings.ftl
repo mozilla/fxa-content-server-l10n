@@ -928,7 +928,7 @@ terms-privacy-agreement-intro-2 = A folytatással elfogadja a következőket:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Szolgáltatási feltételek</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozat</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = A { -brand-mozilla } Előfizetési szolgáltatások <mozSubscriptionTosLink>Általános szerződési feltételei</mozSubscriptionTosLink> és az <mozSubscriptionPrivacyLink>Adatvédelmi nyilatkozat</mozSubscriptionPrivacyLink>
+terms-privacy-agreement-monitor-3 = A { -brand-mozilla } előfizetéses szolgáltatásainak <mozSubscriptionTosLink>Szolgáltatási feltételei</mozSubscriptionTosLink> és <mozSubscriptionPrivacyLink>Adatvédelmi nyilatkozata</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Szolgáltatási feltételek</mozillaAccountsTos> és az <mozillaAccountsPrivacy>Adatvédelmi nyilatkozat</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
