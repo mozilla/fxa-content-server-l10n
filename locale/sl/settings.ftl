@@ -921,8 +921,6 @@ tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 terms-privacy-agreement-intro-2 = Z nadaljevanjem se strinjate z:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> storitve { -product-pocket }
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Pogoji storitve</mozSubscriptionTosLink> in <mozSubscriptionPrivacyLink>Obvestilo o zasebnosti</mozSubscriptionTosLink> naročniških storitev { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilo o zasebnosti</mozillaAccountsPrivacy> { -product-mozilla-accounts(zacetnica: "velika", sklon: "rodilnik") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
