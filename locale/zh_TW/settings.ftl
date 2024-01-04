@@ -896,7 +896,7 @@ terms-privacy-agreement-intro-2 = 使用本服務，代表您同意：
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } 訂閱服務的<mozSubscriptionTosLink>服務條款</mozSubscriptionTosLink>及<mozSubscriptionPrivacyLink>隱私權公告</mozSubscriptionPrivacyLink>
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } 訂閱服務的<mozSubscriptionTosLink>服務條款</mozSubscriptionTosLink>與<mozSubscriptionPrivacyLink>隱私權公告</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } 的<mozillaAccountsTos>服務條款</mozillaAccountsTos>與<mozillaAccountsPrivacy>隱私權公告</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
