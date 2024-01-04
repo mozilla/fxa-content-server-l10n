@@ -170,7 +170,6 @@ form-verify-code-default-error = Tute polo je trěbne
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontowy wobnowjenski kluč { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Zawěsćenske awtentifikaciske kody { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Zawěsćenske awtentifikaciske kody
 get-data-trio-download-2 =
     .title = Sćahnyć
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Bento-meni { -brand-firefox }
-bento-menu-title-2 = Meni Bento { -brand-mozilla }
 bento-menu-title-3 = Produkty { -brand-mozilla }
-bento-menu-firefox-title = { -brand-firefox } je technologija, kotraž za wašu priwatnosć online wojuje.
 bento-menu-tagline = Dalše produkty wot { -brand-mozilla }, kotrež wašu priwatnosć škitaja
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,18 +376,8 @@ cs-disconnect-sync-opt-not-say = Bjez podaća
 
 cs-disconnect-advice-confirm = W porjadku, sym zrozumił
 cs-disconnect-lost-advice-heading = Zhubjeny abo kradnjeny grat je so dźělił
-cs-disconnect-lost-advice-content-2 =
-    Dokelž waš grat je so zhubił abo kradnył, wy měł waše hesło
-    { -product-firefox-account } w swojich kontowych nastajenjach změnić, zo byšće waše informacije
-    wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja
-    pytać, zo by waše daty wotdaloka zhašał.
 cs-disconnect-lost-advice-content-3 = Dokelž waš grat je so zhubił abo kradnył, wy měł hesło swojeho { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojich kontowych nastajenjach změnić, zo byšće waše informacije wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja pytać, zo by waše daty wotdaloka zhašał.
 cs-disconnect-suspicious-advice-heading = Podhladny grat je so dźělił
-cs-disconnect-suspicious-advice-content =
-    Jeli wotdźěleny grat je woprawdźe
-    podhladny, wy dyrbjał swoje hesło { -product-firefox-account } w swojich nastajenjach
-    změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do
-    adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
 cs-disconnect-suspicious-advice-content-2 = Jeli wotdźěleny grat je woprawdźe podhladny, wy dyrbjał hesło swojeho { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojich nastajenjach změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
 cs-sign-out-button = Wotzjewić
 
@@ -401,20 +387,15 @@ cs-sign-out-button = Wotzjewić
 ## Data collection section
 
 dc-heading = Zběranje a wužiwanje datow
-dc-subheader = Pomhajće { -product-firefox-accounts } polěpšić
 dc-subheader-2 = Pomhajće { -product-mozilla-accounts(case: "acc", capitalization: "lower") } polěpšić
-dc-subheader-content = { -product-firefox-accounts } dowolić, zo byšće techniske a interakciske daty na { -brand-mozilla } pósłał.
 dc-subheader-content-2 = { -product-mozilla-accounts(case: "dat", capitalization: "upper") } dowolić, techniske a interakciske daty na { -brand-mozilla } pósłać.
-dc-opt-out-success = Wotzjewjenje wuspěšne. { -product-firefox-accounts } njebudźe techniske abo interakciske daty na { -brand-mozilla } słać.
 dc-opt-out-success-2 = Wotzjewjenje wuspěšne. { -product-mozilla-accounts } njebudźe techniske abo interakciske daty na { -brand-mozilla } słać.
-dc-opt-in-success = Wulki dźak! Dźělenje tutych datow nam pomha, { -product-firefox-accounts } polěpšić.
 dc-opt-in-success-2 = Wulki dźak! Dźělenje tutych datow nam pomha, { -product-mozilla-accounts(case: "acc", capitalization: "lower") } polěpšić.
 dc-opt-in-out-error-2 = Bohužel je při měnjenju wašeho nastajenja datoweje zběrki problem nastał
 dc-learn-more = Dalše informacije
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Meni { -product-firefox-account }
 drop-down-menu-title-2 = Meni { -product-mozilla-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -503,7 +484,6 @@ header-menu-open = Meni začinić
 header-menu-closed = Meni sydłoweje nawigacije
 header-back-to-top-link =
     .title = Wróćo horje
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomoc
 
@@ -631,9 +611,7 @@ delete-account-header =
     .title = Konto zhašeć
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
-delete-account-confirm-title-3 = Sće snano swoje konto { -product-firefox-account } z jednym produktom abo z jednej słužbu  { -brand-mozilla } abo z wjacorymi z nich zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
 delete-account-confirm-title-4 = Sće snano swoje { -product-mozilla-account(case: "acc", capitalization: "lower") } z jednym produktom abo z jednej słužbu  { -brand-mozilla } abo z wjacorymi z nich zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -940,23 +918,13 @@ tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Hdyž pokročujeće, zwoliće do:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Hdyž pokročujeće, zwoliće do:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Wužiwanske wuměnjenja</pocketTos> a <pocketPrivacy>zdźělenka priwatnosće</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Słužbne wuměnjenja</pocketTos> a <pocketPrivacy>zdźělenka priwatnosće</pocketPrivacy> słužby { -product-pocket }
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Wužiwanske wuměnjenja a zdźělenka priwatnosće</monitorTos> { -product-firefox-monitor }
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Wužiwanske wuměnjenja zdźělenka priwatnosće</monitorTos> { -product-firefox-monitor }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Wužiwanske wuměnjenja</firefoxTos> a <firefoxPrivacy>zdźělenka priwatnosće</firefoxPrivacy> { -brand-firefox }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Wužiwanske wuměnenja</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Zdźělenka priwatnosće</mozSubscriptionPrivacyLink> abonementowych słužbow { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Wužiwanske wuměnjenja</mozillaAccountsTos> a <mozillaAccountsPrivacy>zdźělenki priwatnosće</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Hdyž pokročujeće, zwoliće do <firefoxTos>wužiwanskich wuměnjenjow</firefoxTos> a <firefoxPrivacy>zdźělenki priwatnosće</firefoxPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Hdyž pokročujeće, zwoliće do <mozillaAccountsTos>wužiwanskich wuměnjenjow</mozillaAccountsTos> a <mozillaAccountsPrivacy>zdźělenki priwatnosće</mozillaAccountsPrivacy>
 
@@ -1000,7 +968,6 @@ auth-error-1062 = Njepłaćiwe dalesposrědkowanje
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Konto njeda so załožić
-cannot-create-account-requirements = Dyrbiće wěste starobne žadanja spjelnić, zo byšće konto { -product-firefox-account } załožił.
 cannot-create-account-requirements-2 = Dyrbiće wěste starobne žadanja spjelnić, zo byšće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Dalše informacije
@@ -1036,7 +1003,6 @@ connect-another-device-ios-complete-setup-message = Přizjewće so pola { -brand
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Local storage a placki su trěbne
-cookies-disabled-enable-prompt = Prošu zmóžńće placki a lokalny składowak we wašim wobhladowaku, zo byšće přistup na konta { -product-firefox-accounts } měł. To funkcije zmóžnja, kaž na přikład spomjatkowanje přez posedźenja.
 cookies-disabled-enable-prompt-2 = Prošu zmóžńće placki a lokalny składowak we wašim wobhladowaku, zo byšće přistup k swojemu { -product-mozilla-account(case: "dat", capitalization: "lower") } měł. To funkcije zmóžnja, kaž na přikład spomjatkowanje přez posedźenja.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Hišće raz spytać
@@ -1237,7 +1203,6 @@ account-recovery-confirm-key-heading-w-default-service = Stajće hesło z kontow
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Stajće hesło z kontowym wobnowjenskim klučom wróćo, <span>zo byšće z { $serviceName } pokročował</span>
-account-recovery-confirm-key-instructions = Prošu zapodajće kontowy wobnowjenski kluč za jónkróćne wužiće, kotryž sće na wěstym městnje składował, zo byšće přistup k swojemu kontu { -product-firefox-account } měł.
 account-recovery-confirm-key-instructions-2 = Prošu zapodajće kontowy wobnowjenski kluč za jónkróćne wužiće, kotryž sće na wěstym městnje składował, zo byšće přistup k swojemu  { -product-mozilla-account(case: "dat", captalization: "lower)") } měł.
 account-recovery-confirm-key-warning-message = <span>KEDŹBU:</span> Jeli sće swoje hesło wróćo stajił a njejsće swój kontowy wobnowjenski kluč składował, so někotre z wašich datow zhašeja (inkluziwnje synchronizowane serwerowe daty kaž historiju a zapołožki).
 # Prompts the user to enter their account recovery code
@@ -1318,8 +1283,6 @@ confirm-signin-message = Přepytujće swoju e-mejl za přizjewjenskim wobkrućen
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Zapodajće swoje hesło <span>za swoje konto { -product-firefox-account }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Zapodajće swoje hesło <span>za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1374,10 +1337,6 @@ signin-reported-message = Naš team je zdźělenku dóstał. Rozprawy kaž tuta 
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Zapodajće wobkrućenski kod<span>za swoje konto { -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zapodajće wobkrućenski kod<span>za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
@@ -1428,10 +1387,6 @@ confirm-signup-instruction = Přepytujće swoju e-mejl za wobkrućenskim wotkazo
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Wobkrućenski kod zapodać
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Zapodajće wobkrućenski kod <span>za swoje konto { -product-firefox-account }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
