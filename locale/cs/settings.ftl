@@ -635,7 +635,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
-pocket-delete-notice = Pokud si předplatíte Pocket Premium, ujistěte se, že jste před smazáním účtu <a>zrušili své předplatné</a>.
 delete-account-cancel-button = Zrušit
 delete-account-delete-button-2 = Smazat
 
