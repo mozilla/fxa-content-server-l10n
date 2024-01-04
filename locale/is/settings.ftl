@@ -170,7 +170,6 @@ form-verify-code-default-error = Þessi reitur er nauðsynlegur
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Endurheimtulykill fyrir { -brand-firefox }-reikning
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } varaauðkenningarkóðar
 get-data-trio-title-backup-verification-codes = Varaauðkenningarkóðar
 get-data-trio-download-2 =
     .title = Sækja
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento-valmynd
-bento-menu-title-2 = { -brand-mozilla } Bento-valmynd
 bento-menu-title-3 = { -brand-mozilla } hugbúnaður
-bento-menu-firefox-title = { -brand-firefox } er tækni sem berst fyrir friðhelgi þinni á netinu.
 bento-menu-tagline = Fleiri vörur frá { -brand-mozilla } sem vernda friðhelgi þína
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,18 +376,8 @@ cs-disconnect-sync-opt-not-say = Vil helst ekki segja
 
 cs-disconnect-advice-confirm = Allt í lagi, ég skil
 cs-disconnect-lost-advice-heading = Týnt eða stolið tæki aftengt
-cs-disconnect-lost-advice-content-2 =
-    Þar sem tækið þitt týndist eða því var stolið,
-    til að halda upplýsingum þínum öruggum ættirðu að breyta lykilorðinu þínu fyrir { -product-firefox-account }
-    í stillingum reikningsins þíns. Þú ættir líka að leita að upplýsingum frá
-    framleiðanda tækisins um hvernig hægt sé að eyða gögnunum þínum úr fjarska.
 cs-disconnect-lost-advice-content-3 = Þar sem tækið þitt týndist eða því var stolið, til að halda upplýsingum þínum öruggum, ættirðu að breyta lykilorðinu þínu fyrir { -product-mozilla-account } í stillingum reikningsins þíns. Þú ættir líka að leita að upplýsingum frá framleiðanda tækisins um hvernig hægt sé að eyða gögnunum þínum úr fjarlægð.
 cs-disconnect-suspicious-advice-heading = Grunsamlegt tæki aftengt
-cs-disconnect-suspicious-advice-content =
-    Ef ótengda tækið er örugglega
-    grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-firefox-account }
-    lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum
-    lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
 cs-disconnect-suspicious-advice-content-2 = Ef ótengda tækið er örugglega grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-mozilla-account } lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
 cs-sign-out-button = Útskráning
 
@@ -401,20 +387,15 @@ cs-sign-out-button = Útskráning
 ## Data collection section
 
 dc-heading = Gagnasöfnun og upplýsingar um notkun
-dc-subheader = Hjálpaðu til við að bæta { -product-firefox-accounts }
 dc-subheader-2 = Hjálpaðu til við að bæta { -product-mozilla-accounts }
-dc-subheader-content = Leyfa { -product-firefox-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
 dc-subheader-content-2 = Leyfa { -product-mozilla-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
-dc-opt-out-success = Tókst að afþakka. { -product-firefox-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
 dc-opt-out-success-2 = Tókst að afþakka. { -product-mozilla-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
-dc-opt-in-success = Takk! Að deila þessum gögnum hjálpar okkur að bæta { -product-firefox-accounts }.
 dc-opt-in-success-2 = Takk! Að deila þessum gögnum hjálpar okkur að bæta { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Því miður kom upp vandamál við að breyta kjörstillingum þínum varðandi gagnasöfnun
 dc-learn-more = Frekari upplýsingar
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } valmynd
 drop-down-menu-title-2 = { -product-mozilla-account }-valmynd
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -503,7 +484,6 @@ header-menu-open = Loka valmynd
 header-menu-closed = Valmynd vefleiðsögu
 header-back-to-top-link =
     .title = Til baka efst
-header-title = Firefox-reikningur
 header-title-2 = { -product-mozilla-account }
 header-help = Hjálp
 
@@ -628,9 +608,7 @@ delete-account-header =
     .title = Eyða reikningi
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
-delete-account-confirm-title-3 = Þú gætir hafa tengt { -product-firefox-account } við eina eða fleiri { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
 delete-account-confirm-title-4 = Þú gætir hafa tengt { -product-mozilla-account } við eina eða fleiri { -brand-mozilla }-þjónustur sem tryggja öryggi þitt og afköst á vefnum:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -938,23 +916,13 @@ tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Með því að halda áfram, samþykkir þú:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Með því að halda áfram, samþykkir þú:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Þjónustuskilmálar</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefna</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Þjónustuskilmála</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefnu</pocketPrivacy> { -product-pocket }
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Þjónustuskilmálar og persónuverndarstefna</monitorTos> { -product-firefox-monitor }
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Þjónustuskilmálar og persónuverndarstefna</monitorTos> { -product-firefox-monitor }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Þjónustuskilmálar</firefoxTos> { -brand-firefox } og <firefoxPrivacy>persónuverndarstefna</firefoxPrivacy>.
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Þjónustuskilmálar</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>meðferð persónuupplýsinga</mozSubscriptionPrivacyLink> { -brand-mozilla } áskriftarþjónustunnar
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Þjónustuskilmálar</mozillaAccountsTos> og <mozillaAccountsPrivacy>persónuverndarstefna</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Með því að halda áfram samþykkir þú <firefoxTos>þjónustuskilmála</firefoxTos> og <firefoxPrivacy>persónuverndarstefnuna</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Með því að halda áfram samþykkir þú <mozillaAccountsTos>þjónustuskilmála</mozillaAccountsTos> og <mozillaAccountsPrivacy>persónuverndarstefnuna</mozillaAccountsPrivacy>.
 
@@ -998,7 +966,6 @@ auth-error-1062 = Ógild endurbeining
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Get ekki stofnað notandareikning
-cannot-create-account-requirements = Þú þarft að uppfylla tilteknar aldurskröfur til að geta stofnað { -product-firefox-account }-reikning.
 cannot-create-account-requirements-2 = Þú þarft að uppfylla tilteknar aldurskröfur til að geta stofnað { -product-mozilla-account }-reikning.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Frekari upplýsingar
@@ -1034,7 +1001,6 @@ connect-another-device-ios-complete-setup-message = Skráðu þig inn í { -bran
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Heimild fyrir staðvært geymslurými og vefkökur eru nauðsynleg
-cookies-disabled-enable-prompt = Virkjaðu vefkökur og staðværar gagnageymslur í vafranum þínum til að fá aðgang að { -product-firefox-accounts }-reikningum. Það mun virkja eiginleika á borð við að muna eftir þér á milli lota.
 cookies-disabled-enable-prompt-2 = Virkjaðu vefkökur og staðværar gagnageymslur í vafranum þínum til að fá aðgang að { -product-mozilla-account }-reikningum. Það mun virkja eiginleika á borð við að muna eftir þér á milli lota.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Reyna aftur
@@ -1235,7 +1201,6 @@ account-recovery-confirm-key-heading-w-default-service = Endurstilltu aðgangsor
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Endurstilltu aðgangsorðið með endurheimtarlykli reikningsins <span>til að halda áfram í { $serviceName }</span>
-account-recovery-confirm-key-instructions = Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að { -product-firefox-account }.
 account-recovery-confirm-key-instructions-2 = Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Athugaðu:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á netþjóni á borð við vafurferil og bókamerki).
 # Prompts the user to enter their account recovery code
@@ -1316,8 +1281,6 @@ confirm-signin-message = Skoðaðu í tölvupóstinum þínum hvort tengillinn h
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Sláðu inn lykilorðið þitt <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Sláðu inn lykilorðið þitt <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1372,10 +1335,6 @@ signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tiky
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Settu inn staðfestingarkóða <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
@@ -1426,10 +1385,6 @@ confirm-signup-instruction = Skoðaðu tölvupóstinn þinn og finndu staðfesti
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Settu inn staðfestingarkóða
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
