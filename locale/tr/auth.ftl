@@ -223,6 +223,7 @@ cadReminderFirst-action = Başka bir cihazı eşitle
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Eşitleme için iki cihaza ihtiyacınız var
+cadReminderFirst-description-v2 = Sekmelerinizi yanınızda taşıyın. { -brand-firefox } kullandığınız her yerden yer imlerinize, parolalarınızı ve diğer verilerinize ulaşın.
 cadReminderSecond-subject-2 = Eşitleme kurulumunuzu tamamlayalım
 cadReminderSecond-action = Başka bir cihazı eşitle
 cadReminderSecond-title-2 = Eşitlemeyi unutmayın!
