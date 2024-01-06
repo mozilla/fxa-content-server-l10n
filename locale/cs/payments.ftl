@@ -30,14 +30,10 @@ input-error-is-required = Pole „{ $label }“ je povinné
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logo { -brand-name-firefox(case: "gen") }
 brand-name-mozilla-logo = Logo { -brand-mozilla(case: "gen") }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Už máte účet { -brand-name-firefox(case: "gen") }? <a>Přihlaste se</a>
 new-user-sign-in-link-2 = Už máte { -product-mozilla-account(capitalization: "lower") }? <a>Přihlaste se</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -167,7 +163,7 @@ pay-with-heading-paypal-2 = Zaplatit přes { -brand-paypal }
 
 ## Component - PlanDetails
 
-plan-details-header = Podrobnosti produktu
+plan-details-header = Informace o produktu
 plan-details-list-price = Ceník
 plan-details-show-button = Zobrazit podrobnosti
 plan-details-hide-button = Skrýt podrobnosti
@@ -440,8 +436,6 @@ coupon-success-repeating = Vaše předplatné se po { $couponDurationDate } auto
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Vytvořte si účet { -brand-name-firefox(case: "gen") }
 new-user-step-1-2 = 1. Vytvoření { -product-mozilla-account(case: "gen", capitalization: "lower") }
 new-user-card-title = Zadejte informace o platební kartě
 new-user-submit = Odebírat
