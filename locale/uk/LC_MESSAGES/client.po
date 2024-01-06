@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-03 22:48+0000\n"
-"PO-Revision-Date: 2024-01-05 19:44+0000\n"
+"PO-Revision-Date: 2015-10-16 08:03+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -1568,7 +1568,7 @@ msgstr "Надіслати"
 
 #: .es5/templates/support.mustache:24
 msgid "Terms of Service"
-msgstr "Умови користування"
+msgstr "Умови надання послуг"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
