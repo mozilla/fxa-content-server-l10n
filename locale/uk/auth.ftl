@@ -12,7 +12,7 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="С
 body-devices-image = <img data-l10n-name="devices-image" alt="Пристрої">
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
 moz-accounts-privacy-url-2 = Положення про приватність { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
-moz-accounts-terms-url = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
+moz-accounts-terms-url = Умови надання послуг { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
@@ -43,7 +43,7 @@ subplat-privacy-policy = Політика Приватності { -brand-mozill
 subplat-privacy-policy-2 = Положення про приватність { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-moz-terms = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
+subplat-moz-terms = Умови надання послуг { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Правові положення
 subplat-legal-plaintext = { subplat-legal }:

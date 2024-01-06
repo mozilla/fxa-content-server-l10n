@@ -30,14 +30,10 @@ input-error-is-required = { $label } обов'язково
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Логотип { -brand-name-firefox }
 brand-name-mozilla-logo = Логотип { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = У вас уже є обліковий запис { -brand-name-firefox }? <a>Увійдіть у нього</a>
 new-user-sign-in-link-2 = Вже маєте { -product-mozilla-account }? <a>Увійти</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -108,7 +104,7 @@ payment-confirmation-download-button = Продовжити завантажен
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Я дозволяю { -brand-mozilla } стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов користування</termsOfServiceLink> та <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
+payment-confirm-with-legal-links-static-3 = Я дозволяю { -brand-mozilla } стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> і <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
 payment-confirm-checkbox-error = Необхідно завершити це, перш ніж переходити далі
 
 ## Component - PaymentErrorView
@@ -304,7 +300,7 @@ sub-guarantee = Гарантоване повернення коштів упр�
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
 subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
-terms = Умови користування
+terms = Умови надання послуг
 privacy = Положення про приватність
 terms-download = Завантажити умови
 
@@ -416,8 +412,6 @@ coupon-success-repeating = Ваш тарифний план буде автом�
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Створіть обліковий запис { -brand-name-firefox }
 new-user-step-1-2 = 1. Створіть { -product-mozilla-account }
 new-user-card-title = Введіть дані своєї картки
 new-user-submit = Передплатити

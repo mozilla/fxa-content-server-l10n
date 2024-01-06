@@ -170,7 +170,6 @@ form-verify-code-default-error = Це поле обов'язкове
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ відновлення облікового запису { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Резервні коди автентифікації { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Резервні коди автентифікації
 get-data-trio-download-2 =
     .title = Завантажити
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Меню продуктів { -brand-firefox }
-bento-menu-title-2 = { -brand-mozilla } – меню Bento
 bento-menu-title-3 = Продукти { -brand-mozilla }
-bento-menu-firefox-title = { -brand-firefox } - це технологія, яка захищає вашу приватність у мережі.
 bento-menu-tagline = Інші продукти від { -brand-mozilla }, які захищають вашу приватність
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,19 +376,8 @@ cs-disconnect-sync-opt-not-say = Не вказувати
 
 cs-disconnect-advice-confirm = Гаразд, зрозуміло
 cs-disconnect-lost-advice-heading = Втрачений або викрадений пристрій від'єднано
-cs-disconnect-lost-advice-content-2 =
-    Оскільки ваш пристрій було втрачено або викрадено, щоб
-    захистити свої дані, вам варто змінити пароль { -product-firefox-account(case: "gen", capitalization: "lower") }
-    у його налаштуваннях. Вам також треба переглянути поради
-    виробника пристрою щодо віддаленого стирання даних.
 cs-disconnect-lost-advice-content-3 = Оскільки ваш пристрій було втрачено або викрадено, щоб захистити свої дані, вам варто змінити пароль { -product-mozilla-account(case: "gen") } у його налаштуваннях. Вам також варто переглянути поради виробника пристрою щодо віддаленого стирання даних.
 cs-disconnect-suspicious-advice-heading = Підозрілий пристрій від'єднано
-cs-disconnect-suspicious-advice-content =
-    Якщо від'єднаний пристрій справді підозрілий,
-    вам варто змінити пароль { -product-firefox-account(case: "gen", capitalization: "lower") }
-    у його налаштуваннях, щоб зберегти свою інформацію в безпеці.
-    Вам також треба змінити будь-які інші паролі,
-    збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-disconnect-suspicious-advice-content-2 = Якщо від'єднаний пристрій справді підозрілий, вам варто змінити пароль { -product-mozilla-account(case: "gen") } у його налаштуваннях, щоб зберегти свою інформацію в безпеці. Вам також варто змінити будь-які інші паролі, збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
 
@@ -402,20 +387,15 @@ cs-sign-out-button = Вийти
 ## Data collection section
 
 dc-heading = Збір та використання даних
-dc-subheader = Допоможіть вдосконалити { -product-firefox-accounts(case: "nom", capitalization: "lower") }
 dc-subheader-2 = Допоможіть вдосконалити { -product-mozilla-accounts }
-dc-subheader-content = Дозволити { -product-firefox-accounts(case: "dat", capitalization: "lower") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-subheader-content-2 = Дозволити { -product-mozilla-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
-dc-opt-out-success = Відмова пройшла успішно. { -product-firefox-accounts } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-out-success-2 = Відмова пройшла успішно. { -product-mozilla-accounts(capitalization: "upper") } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
-dc-opt-in-success = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-firefox-accounts(case: "nom", capitalization: "lower") }.
 dc-opt-in-success-2 = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Перепрошуємо, виникла проблема зі зміною параметрів збору даних
 dc-learn-more = Докладніше
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Меню { -product-firefox-account(case: "gen", capitalization: "lower") }
 drop-down-menu-title-2 = Меню { -product-mozilla-account(case: "gen") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -504,7 +484,6 @@ header-menu-open = Закрити меню
 header-menu-closed = Меню навігації по сайту
 header-back-to-top-link =
     .title = Вгору
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account(capitalization: "upper") }
 header-help = Допомога
 
@@ -632,9 +611,7 @@ delete-account-header =
     .title = Видалити обліковий запис
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
-delete-account-confirm-title-3 = Можливо, ви під'єднали свій { -product-firefox-account } до одного або більше зазначених продуктів або сервісів { -brand-mozilla }, які забезпечують ваш захист і продуктивність в інтернеті.
 delete-account-confirm-title-4 = Можливо, ви під'єднали свій { -product-mozilla-account } до одного або більше зазначених продуктів або сервісів { -brand-mozilla }, які забезпечують ваш захист і продуктивність в інтернеті.
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account(capitalization: "upper") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -945,25 +922,15 @@ tfa-row-change-modal-explain = Ви не зможете скасувати цю 
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Продовжуючи, ви погоджуєтеся з:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Продовжуючи, ви погоджуєтеся з:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Умови користування та Положення про приватність</monitorTos> { -product-firefox-monitor }
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Умови користування та Положення про приватність</monitorTos> { -product-firefox-monitor }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy> { -brand-firefox }
+terms-privacy-agreement-pocket-2 = <pocketTos>Умовами надання послуг</pocketTos> і <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Умови надання послуг</mozSubscriptionTosLink> і <mozSubscriptionPrivacyLink>Положення про приватність</mozSubscriptionPrivacyLink> Послуг передплати { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "upper") } – <mozillaAccountsTos>Умови користування</mozillaAccountsTos> та <mozillaAccountsPrivacy>Положення про приватність</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Продовжуючи, ви погоджуєтеся з <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy>.
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "upper") } – <mozillaAccountsTos>Умови надання послуг</mozillaAccountsTos> і <mozillaAccountsPrivacy>Положення про приватність</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
-terms-privacy-agreement-default-2 = Продовжуючи, ви погоджуєтеся з <mozillaAccountsTos>Умовами користування</mozillaAccountsTos> та <mozillaAccountsPrivacy>Положенням про приватність</mozillaAccountsPrivacy>.
+terms-privacy-agreement-default-2 = Продовжуючи, ви погоджуєтеся з <mozillaAccountsTos>Умовами надання послуг</mozillaAccountsTos> і <mozillaAccountsPrivacy>Положенням про приватність</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1005,7 +972,6 @@ auth-error-1062 = Недійсне переспрямування
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Неможливо створити обліковий запис
-cannot-create-account-requirements = Щоб створити обліковий запис { -product-firefox-account }, ваш вік має відповідати вимогам.
 cannot-create-account-requirements-2 = Щоб створити { -product-mozilla-account }, ваш вік має відповідати вимогам.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Докладніше
@@ -1041,7 +1007,6 @@ connect-another-device-ios-complete-setup-message = Увійдіть у { -brand
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Доступ до локального сховища та збереження кук обов'язковий
-cookies-disabled-enable-prompt = Щоб отримати доступ до { -product-firefox-accounts }, увімкніть куки та локальне сховище у своєму браузері. Це дозволить пам'ятати вас між сеансами.
 cookies-disabled-enable-prompt-2 = Щоб отримати доступ до { -product-mozilla-account(case: "gen") }, увімкніть куки та локальне сховище у своєму браузері. Це дозволить пам'ятати вас між сеансами.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Спробувати знову
@@ -1116,7 +1081,7 @@ inline-totp-setup-security-code-placeholder = Код автентифікаці�
 
 legal-header = Правові положення
 # Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = Умови користування
+legal-terms-of-service-link = Умови надання послуг
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-privacy-link = Положення про приватність
 
@@ -1126,7 +1091,7 @@ legal-privacy-heading = Положення про приватність
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
-legal-terms-heading = Умови користування
+legal-terms-heading = Умови надання послуг
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -1242,7 +1207,6 @@ account-recovery-confirm-key-heading-w-default-service = Відновіть па
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Відновіть пароль за допомогою ключа відновлення облікового запису, <span>щоб перейти до { $serviceName }</span>
-account-recovery-confirm-key-instructions = Введіть свій одноразовий ключ відновлення, щоб поновити доступ до { -product-firefox-account(case: "gen", capitalization: "lower") }.
 account-recovery-confirm-key-instructions-2 = Введіть свій одноразовий ключ відновлення, щоб поновити доступ до { -product-mozilla-account(case: "gen") }.
 account-recovery-confirm-key-warning-message = <span>Примітка:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включно з історією перегляду й закладками).
 # Prompts the user to enter their account recovery code
@@ -1323,8 +1287,6 @@ confirm-signin-message = Знайдіть лист із посиланням д�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Введіть пароль <span>для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Введіть пароль <span>для свого { -product-mozilla-account(case: "gen") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1379,10 +1341,6 @@ signin-reported-message = Наша команда була сповіщена. �
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Введіть код підтвердження<span> для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Введіть код підтвердження<span> для свого { -product-mozilla-account(case: "gen") }</span>
@@ -1433,10 +1391,6 @@ confirm-signup-instruction = Знайдіть лист із посиланням
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Введіть код підтвердження
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Введіть код підтвердження <span>для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"

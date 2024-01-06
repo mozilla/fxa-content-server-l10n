@@ -7,18 +7,12 @@ app-general-err-message = Щось пішло не так. Будь ласка, 
 
 app-footer-mozilla-logo-label = Логотип { -brand-mozilla }
 app-footer-privacy-notice = Положення про приватність вебсайту
-app-footer-terms-of-service = Умови користування
+app-footer-terms-of-service = Умови надання послуг
 
 ## FxA React - Strings shared between multiple FxA products for application page title
 
-app-default-title = { -product-firefox-accounts }
 # This string is used as the default title for pages, displayed in the browser tab.
 app-default-title-2 = { -product-mozilla-accounts(capitalization: "upper") }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
 # This string is used as the title of the page, displayed in the browser tab.
 # Variables:
 #   $title (String) - the name of the current page
@@ -37,9 +31,5 @@ app-loading-spinner-aria-label-loading = Завантаження…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
-app-logo-alt =
-    .alt = Логотип { -brand-firefox }
-app-logo-alt-2 =
-    .alt = Логотип { -brand-mozilla }
 app-logo-alt-3 =
     .alt = Логотип m { -brand-mozilla }
