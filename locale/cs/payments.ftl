@@ -438,7 +438,7 @@ coupon-success-repeating = Vaše předplatné se po { $couponDurationDate } auto
 
 new-user-step-1-2 = 1. Vytvoření { -product-mozilla-account(case: "gen", capitalization: "lower") }
 new-user-card-title = Zadejte informace o platební kartě
-new-user-submit = Odebírat
+new-user-submit = Předplatit
 
 ## Routes - Product and Subscriptions
 
