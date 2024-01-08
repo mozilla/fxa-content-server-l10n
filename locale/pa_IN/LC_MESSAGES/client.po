@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-03 22:48+0000\n"
-"PO-Revision-Date: 2024-01-08 01:40+0000\n"
+"PO-Revision-Date: 2024-01-08 01:42+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1282,7 +1282,7 @@ msgstr "Android ਨੂੰ Firefox ਲਈ ਡਾਊਨਲੋਡ ਕਰੋ।"
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "ਮੋਬਾਇਲ ਡਿਵਾਇਸਾਂ ਲਈ Firefox  ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ।"
+msgstr "ਮੋਬਾਇਲ ਡਿਵਾਇਸਾਂ ਲਈ Firefox ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ।"
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
@@ -1898,7 +1898,7 @@ msgstr "ਮੈਂਬਰੀ ਤੇ ਵਾਪਸ ਜਾਓ"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਲੱਭ ਰਹੇ ਹੋ? <a %(escapedSyncSuggestionAttrs)s>ਇਥੋਂ ਸ਼ੁਰੂ ਕਰੋ</a>"
+msgstr "Firefox ਸਿੰਕ ਲੱਭ ਰਹੇ ਹੋ? <a %(escapedSyncSuggestionAttrs)s>ਇਥੋਂ ਸ਼ੁਰੂ ਕਰੋ</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -2024,4 +2024,4 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਅੰਦਰੋਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
+msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ Firefox ਐਪ ਵਿੱਚੋਂ ਪੇਅਰ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"
