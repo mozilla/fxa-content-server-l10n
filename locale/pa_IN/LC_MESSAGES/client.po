@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-03 22:48+0000\n"
-"PO-Revision-Date: 2024-01-08 01:28+0000\n"
+"PO-Revision-Date: 2024-01-08 01:40+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -67,7 +67,7 @@ msgstr "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੇੱ�
 
 #: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "ਆਪਣੇ ਹੋਰ ਫਾਇਰਫਾਕਸ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਦਰਜ ਕਰਕੇ ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
+msgstr "ਆਪਣੇ ਹੋਰ Firefox ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇ ਕੇ ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
@@ -103,7 +103,7 @@ msgstr "ਕਨੈਕਟ ਹੈ"
 
 #: .es5/views/ready.js:177
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "ਹੁਣ ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਲਈ ਤਬਦੀਲੀਆਂ ਕਰਨ ਲਈ ਤਬਦੀਲ ਕਰਨ ਤਿਆਰ ਹੋ।"
+msgstr "ਹੁਣ ਤੁਸੀਂ ਆਪਣੇ Firefox ਖਾਤੇ ਲਈ ਤਬਦੀਲੀਆਂ ਕਰਨ ਲਈ ਤਬਦੀਲ ਕਰਨ ਤਿਆਰ ਹੋ।"
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -721,7 +721,7 @@ msgstr "ਨਵੇਂ ਉਤਪਾਦਾਂ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲ�
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr "ਮੋਜ਼ੀਲਾ ਅਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਲਵੋ"
+msgstr "Mozilla ਅਤੇ Firefox ਬਾਰੇ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਲਵੋ"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
@@ -843,7 +843,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-a
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr "ਮੋਜ਼ੀਲਾ ਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਲਵੋ।"
+msgstr "Mozilla ਅਤੇ Firefox ਬਾਰੇ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਲਵੋ।"
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
@@ -1070,7 +1070,7 @@ msgstr "ਆਪਣਾ ਸੈਟਅੱਪ ਪੂਰਾ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਇਸ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰੋ"
+msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਇਸ Firefox ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
@@ -1078,7 +1078,7 @@ msgstr "ਹਾਲੇ ਵੀ ਡਿਵਾਈਸਾਂ ਜੋੜੀਆਂ ਜਾ �
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰੋ"
+msgstr "ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ Firefox ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
@@ -1090,15 +1090,15 @@ msgstr "ਹੁਣੇ ਨਹੀਂ"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "ਹਾਲੇ ਵੀ ਡਿਵਾਈਸਾਂ ਜੋੜੀਆਂ ਜਾ ਰਹੀਆਂ? ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰੋ"
+msgstr "ਹਾਲੇ ਵੀ ਡਿਵਾਈਸ ਜੋੜਨੇ ਹਨ? ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ Firefox ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਐਂਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਰੋ"
+msgstr "ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ Android ਲਈ Firefox ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ iOS ਲਈ ਫਾਇਰਫਾਕਸ ਨੂੰ ਸਾਇਨ ਚੁਣੋ"
+msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ iOS ਲਈ Firefox ਨੂੰ ਸਾਇਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1273,16 +1273,16 @@ msgstr "ਪੂਰੇ ਸਿੰਕ ਤਜਰਬੇ ਦਾ ਮਜ਼ਾ ਲਵੋ।"
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr "iOS ਲਈ ਫਾਇਰਫਾਕਸ ਡਾਊਨਲੋਡ ਕਰੋ!"
+msgstr "iOS ਲਈ Firefox ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr "ਐਂਡਰਾਇਡ ਨੂੰ ਫਾਇਰਫਾਕਸ ਲਈ ਡਾਊਨਲੋਡ ਕਰੋ।"
+msgstr "Android ਨੂੰ Firefox ਲਈ ਡਾਊਨਲੋਡ ਕਰੋ।"
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "ਮੋਬਾਇਲ ਡਿਵਾਇਸਾਂ ਲਈ ਫਾਇਰਫਾਕਸ ਡਾਊਨਲੋਡ ਕਰੋ।"
+msgstr "ਮੋਬਾਇਲ ਡਿਵਾਇਸਾਂ ਲਈ Firefox  ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ।"
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
@@ -1686,7 +1686,7 @@ msgstr "ਪਾਸਵਰਡ ਬਦਲੋ"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
-msgstr "ਫਾਇਰਫਾਕਸ ਕਨੈਕਟ ਹੈ"
+msgstr "Firefox ਕਨੈਕਟ ਹੈ"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
@@ -1742,7 +1742,7 @@ msgstr "ਹੁਣ ਮੈਂ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr "ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਕਰੋ"
+msgstr "ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ Firefox ਸਿੰਕ ਕਰੋ"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
@@ -1758,7 +1758,7 @@ msgstr "ਮੈਂ ਬਾਅਦ ਵਿੱਚ ਕਰਾਂਗਾ/ਕਰਾਂਗ�
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr "ਆਪਣੇ ਕੈਮਰਾ ਐਪ ਨਾਲ ਫਾਇਰਫਾਕਸ ਡਾਊਨਲੋਡ ਕਰੋ"
+msgstr "ਆਪਣੇ ਕੈਮਰਾ ਐਪ ਨਾਲ Firefox ਡਾਊਨਲੋਡ ਕਰੋ"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
