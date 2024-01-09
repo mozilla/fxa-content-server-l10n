@@ -623,11 +623,11 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizují se údaje { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Doplňky { -brand-firefox(case: "gen") }
-delete-account-acknowledge = Potvrďte prosím, že smazáním účtu:
+delete-account-acknowledge = Potvrďte prosím, že berete na vědomí, že smazáním svého účtu:
 delete-account-chk-box-1-v3 =
     .label = Všechna placená předplatná, která máte, budou zrušena (kromě služby { -product-pocket })
 delete-account-chk-box-2 =
-    .label = můžete ztratit uložené informace a funkce produktů { -brand-mozilla(case: "gen") }
+    .label = V produktech { -brand-mozilla(case: "gen") } můžete přijít o uložené informace a funkce
 delete-account-chk-box-3 =
     .label = Následná reaktivace pomocí tohoto e-mailu nemusí obnovit vaše uložené informace
 delete-account-chk-box-4 =
@@ -635,7 +635,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
-pocket-delete-notice = Pokud si předplatíte Pocket Premium, ujistěte se, že jste před smazáním účtu <a>zrušili své předplatné</a>.
+pocket-delete-notice = Pokud jste si předplatili Pocket Premium, ujistěte se, že jste před smazáním účtu <a>zrušili své předplatné</a>.
 delete-account-cancel-button = Zrušit
 delete-account-delete-button-2 = Smazat
 
@@ -915,7 +915,7 @@ terms-privacy-agreement-intro-2 = Pokračováním souhlasíte s:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Podmínky poskytování služby</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Oznámení o ochraně osobních údajů</mozSubscriptionPrivacyLink> { -brand-mozilla } Services Subscription Services
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Podmínky poskytování služby</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Oznámení o ochraně osobních údajů</mozSubscriptionPrivacyLink> pro služby předplatného { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Podmínky poskytování služby</mozillaAccountsTos>a <mozillaAccountsPrivacy>Oznámení o ochraně osobních údajů</mozillaAccountsPrivacy> { -product-mozilla-accounts(case: "gen") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
