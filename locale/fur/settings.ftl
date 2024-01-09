@@ -170,7 +170,6 @@ form-verify-code-default-error = Chest cjamp al è obligatori
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Clâf di recupar dal account { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Codiçs di autenticazion di backup par { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Codiçs di autenticazion di backup
 get-data-trio-download-2 =
     .title = Discjame
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Menù bento di { -brand-firefox }
-bento-menu-title-2 = Menù bento di { -brand-mozilla }
 bento-menu-title-3 = Prodots { -brand-mozilla }
-bento-menu-firefox-title = { -brand-firefox } e je une tecnologjie che e combat pe tô riservatece in rêt.
 bento-menu-tagline = Altris prodots di { -brand-mozilla } che a protezin la tô riservatece
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -378,18 +374,8 @@ cs-disconnect-sync-opt-not-say = O preferìs no rispuindi
 
 cs-disconnect-advice-confirm = Va ben, capît
 cs-disconnect-lost-advice-heading = Dispositîf pierdût o robât disconetût
-cs-disconnect-lost-advice-content-2 =
-    Viodût che il to dispositîf al è stât pierdût o robât, par
-    tignî al sigûr lis tôs informazions, tu varessis di cambiâ la tô password di { -product-firefox-account }
-    tes impostazions dal account. Tu varessis ancje di butâ un voli aes informazions dal
-    produtôr dal dispositîf in merit ae cancelazion di lontan dai tiei dâts.
 cs-disconnect-lost-advice-content-3 = Viodût che il to dispositîf al è stât pierdût o robât, par tignî al sigûr lis tôs informazions, tu varessis di cambiâ la tô password di { -product-mozilla-account } tes impostazions dal account. Tu varessis ancje di butâ un voli aes informazions dal produtôr dal dispositîf in merit ae cancelazion di lontan dai tiei dâts.
 cs-disconnect-suspicious-advice-heading = Dispositîf suspiet disconetût
-cs-disconnect-suspicious-advice-content =
-    Se pardabon il dispositîf disconetût al è
-    suspiet, par tignî al sigûr lis tôs informazions, tu varessis di cambiâ la tô password
-    di { -product-firefox-account } tes impostazions dal account. Tu varessis di cambiâ ancje dutis lis altris
-    passwords che tu âs salvât su { -brand-firefox } scrivint about:logins te sbare de direzion.
 cs-disconnect-suspicious-advice-content-2 = Se pardabon il dispositîf disconetût al è suspiet, par tignî al sigûr lis tôs informazions, tu varessis di cambiâ la tô password di { -product-mozilla-account } tes impostazions dal account. Tu varessis di cambiâ ancje dutis lis altris passwords che tu âs salvât su { -brand-firefox } scrivint about:logins te sbare de direzion.
 cs-sign-out-button = Disconet
 
@@ -399,20 +385,15 @@ cs-sign-out-button = Disconet
 ## Data collection section
 
 dc-heading = Racuelte e utilizazion dâts
-dc-subheader = Judinus a miorâ i { -product-firefox-accounts }
 dc-subheader-2 = Judinus a miorâ i { -product-mozilla-accounts }
-dc-subheader-content = Permet al servizi di { -product-firefox-accounts } di inviâ a { -brand-mozilla } dâts tecnics e di interazion.
 dc-subheader-content-2 = Permet al servizi di { -product-mozilla-accounts } di inviâ a { -brand-mozilla } dâts tecnics e di interazion.
-dc-opt-out-success = Disativazion lade a bon fin. { -product-firefox-accounts } nol mandarà a { -brand-mozilla } dâts tecnics o di interazion.
 dc-opt-out-success-2 = Disativazion lade a bon fin. { -product-mozilla-accounts } nol mandarà a { -brand-mozilla } dâts tecnics o di interazion.
-dc-opt-in-success = Graciis! La condivision di chescj dâts nus jude a miorâ i { -product-firefox-accounts }.
 dc-opt-in-success-2 = Graciis! La condivision di chescj dâts nus jude a miorâ i { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Nus displâs, al è vignût fûr un probleme tal cambiâ lis preferencis relativis ae racuelte dai dâts
 dc-learn-more = Plui informazions
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Menù dal { -product-firefox-account(capitalization: "lowercase") }
 drop-down-menu-title-2 = Menù { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -501,7 +482,6 @@ header-menu-open = Siere menù
 header-menu-closed = Menù di navigazion dal sît
 header-back-to-top-link =
     .title = Torne sù
-header-title = Account di Firefox
 header-title-2 = { -product-mozilla-account }
 header-help = Jutori
 
@@ -629,9 +609,7 @@ delete-account-header =
     .title = Elimine account
 delete-account-step-1-2 = Passaç 1 di 2
 delete-account-step-2-2 = Passaç 2 di 2
-delete-account-confirm-title-3 = Tu podaressis vê colegât il to { -product-firefox-account } a un o plui di chescj prodots o servizis { -brand-mozilla } che ti garantissin une esperience sul web sigure e produtive:
 delete-account-confirm-title-4 = Tu podaressis vê colegât il to { -product-mozilla-account } a un o plui di chescj prodots o servizis { -brand-mozilla } che ti garantissin une esperience sul web sigure e produtive:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -940,23 +918,13 @@ tfa-row-change-modal-explain = No tu rivarâs a tornâ indaûr di cheste azion.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Se tu continuis tu acetis:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Se tu continuis tu acetis:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Cundizions di utilizazion dal servizi</pocketTos> e <pocketPrivacy>Informative su la riservatece</pocketPrivacy> di { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Cundizions di utilizazion dal servizi</pocketTos> e <pocketPrivacy>Informative su la riservatece</pocketPrivacy> di { -product-pocket }
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Cundizions di utilizazion dal servizi e informative su la riservatece</monitorTos> di { -product-firefox-monitor }
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Cundizions di utilizazion dal servizi e informative su la riservatece</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Cundizions di utilizazion dal servizi</firefoxTos> e <firefoxPrivacy>Informative su la riservatece</firefoxPrivacy> di { -brand-firefox }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Cundizions di utilizazion dal servizi</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informative su la riservatece</mozSubscriptionPrivacyLink> dai servizis in abonament { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Tiermins dal servizi</mozillaAccountsTos> e <mozillaAccountsPrivacy>informative su la riservatece</mozillaAccountsPrivacy> dai { -product-mozilla-accounts }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Continuant tu acetis lis <firefoxTos>Cundizions di utilizazion dal servizi</firefoxTos> e la <firefoxPrivacy>Informative su la riservatece</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Se tu continuis tu acetis lis <mozillaAccountsTos>cundizions di utilizazion dal servizi</mozillaAccountsTos> e la <mozillaAccountsPrivacy>informative su la riservatece</mozillaAccountsPrivacy>.
 
@@ -1000,7 +968,6 @@ auth-error-1062 = Dirotament no valit
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Impussibil creâ un account
-cannot-create-account-requirements = Par creâ un { -product-firefox-account } tu scugnis sodisfâ determinâts recuisîts di etât.
 cannot-create-account-requirements-2 = Par creâ un { -product-mozilla-account } tu scugnis sodisfâ determinâts recuisîts di etât.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Plui informazions
@@ -1036,7 +1003,6 @@ connect-another-device-ios-complete-setup-message = Jentre in { -brand-firefox }
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Al è necessari ativâ la archiviazion locâl e i cookies
-cookies-disabled-enable-prompt = Ative i cookies e la archiviazion locâl tal to navigadôr par acedi ai { -product-firefox-accounts }. Se tu lu fasis tu ativarâs lis funzionalitâts come la memorizazion dal utent tra lis sessions.
 cookies-disabled-enable-prompt-2 = Ative i cookies e la archiviazion locâl tal to navigadôr par acedi al { -product-mozilla-account }. Se tu lu fasis tu ativarâs lis funzionalitâts come la memorizazion dal utent tra lis sessions.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Torne prove
@@ -1237,7 +1203,6 @@ account-recovery-confirm-key-heading-w-default-service = Ristabilìs la password
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ristabilìs la password cu la clâf di recupar dal account <span>par continuâ su { $serviceName }</span>
-account-recovery-confirm-key-instructions = Inserìs la clâf di recupar dal account (che si pues doprâ dome une volte) che tu âs salvât intun puest sigûr par tornâ a otignî l’acès al to { -product-firefox-account }.
 account-recovery-confirm-key-instructions-2 = Inserìs la clâf di recupar dal account (che si pues doprâ dome une volte) che tu âs salvât intun puest sigûr par tornâ a otignî l’acès al to { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Note:</span> se tu ristabilissis la password e no tu âs salvade la clâf di recupar dal account, cualchi dât al vignarà eliminât (comprindûts i dâts sincronizâts sul servidôr come la cronologjie e i segnelibris).
 # Prompts the user to enter their account recovery code
@@ -1318,8 +1283,6 @@ confirm-signin-message = Controle la tô casele di pueste pe conferme di acès m
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Inserìs la password <span>pal to { -product-firefox-account }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Inserìs la password <span>pal to { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1374,10 +1337,6 @@ signin-reported-message = Il nestri grup al è stât visât. Lis segnalazions co
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Inserìs il codiç di conferme <span>pal to { -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Inserìs il codiç di conferme <span>pal to { -product-mozilla-account }</span>
@@ -1428,10 +1387,6 @@ confirm-signup-instruction = Controle la tô casele di pueste pal colegament di 
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Inserìs il codiç di conferme
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Inserìs il codiç di conferme <span>pal to { -product-firefox-account }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
