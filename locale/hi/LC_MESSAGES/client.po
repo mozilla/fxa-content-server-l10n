@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-03 22:48+0000\n"
+"POT-Creation-Date: 2024-01-11 20:07+0000\n"
 "PO-Revision-Date: 2021-12-26 05:55+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,8 +269,8 @@ msgid "Addresses"
 msgstr "पता"
 
 #: .es5/models/sync-engines.js:82
-msgid "Credit Cards"
-msgstr "क्रेडिट कार्ड"
+msgid "Payment Methods"
+msgstr ""
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -701,7 +701,11 @@ msgstr ""
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
