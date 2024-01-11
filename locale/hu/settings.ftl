@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Beállítások
 choose-what-to-sync-option-addresses =
     .label = Címek
-choose-what-to-sync-option-creditcards =
-    .label = Bankkártyák
+choose-what-to-sync-option-paymentmethods =
+    .label = Fizetési módok
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -709,6 +709,10 @@ add-secondary-email-enter-address =
     .label = Adja meg az e-mail-címet
 add-secondary-email-cancel-button = Mégse
 add-secondary-email-save-button = Mentés
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Az e-mail-maszkok nem használhatók másodlagos e-mail-címként
 
 ## Verify secondary email page
 
