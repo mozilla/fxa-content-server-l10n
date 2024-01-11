@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Настройки
 choose-what-to-sync-option-addresses =
     .label = Адреса
-choose-what-to-sync-option-creditcards =
-    .label = Банковские карты
+choose-what-to-sync-option-paymentmethods =
+    .label = Способы оплаты
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -703,6 +703,10 @@ add-secondary-email-enter-address =
     .label = Введите адрес электронной почты
 add-secondary-email-cancel-button = Отмена
 add-secondary-email-save-button = Сохранить
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Псевдонимы электронной почты не могут использоваться в качестве альтернативной электронной почты
 
 ## Verify secondary email page
 
