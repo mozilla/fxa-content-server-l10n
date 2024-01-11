@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Preferencias
 choose-what-to-sync-option-addresses =
     .label = Direcciones
-choose-what-to-sync-option-creditcards =
-    .label = Tarjetas de crédito
+choose-what-to-sync-option-paymentmethods =
+    .label = Métodos de pago
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -700,6 +700,10 @@ add-secondary-email-enter-address =
     .label = Ingresar dirección de correo electrónico
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Las máscaras de correo electrónico no se pueden usar como correo electrónico secundario
 
 ## Verify secondary email page
 
