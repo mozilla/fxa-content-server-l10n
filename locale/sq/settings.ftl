@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Parapëlqime
 choose-what-to-sync-option-addresses =
     .label = Adresa
-choose-what-to-sync-option-creditcards =
-    .label = Karta Krediti
+choose-what-to-sync-option-paymentmethods =
+    .label = Metoda Pagese
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -703,6 +703,10 @@ add-secondary-email-enter-address =
     .label = Jepni adresë email
 add-secondary-email-cancel-button = Anuloje
 add-secondary-email-save-button = Ruaje
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Maskat email s’mund të përdoren si një email dytësor
 
 ## Verify secondary email page
 
