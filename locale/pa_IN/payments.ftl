@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox ਖਾਤੇ
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = ਖਾਤੇ ਦਾ ਮੁੱਖ ਸਫ਼ਾ
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -60,14 +29,10 @@ input-error-is-required = { $label } ਲੋੜੀਂਦਾ ਹੈ
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } ਲੋਗੋ
 brand-name-mozilla-logo = { -brand-mozilla } ਲੋਗੋ
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = ਪਹਿਲਾਂ ਹੀ { -brand-name-firefox } ਖਾਤਾ ਹੈ? <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
 new-user-sign-in-link-2 =
     ਪਹਿਲਾਂ ਹੀ { -product-mozilla-account } ਹੈ?
     <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
@@ -140,8 +105,6 @@ payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦ�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = ਤੁਸੀਂ { -brand-name-google } ਜਾਂ { -brand-name-apple } ਐਪ ਸਟੋਰ ਰਾਹੀਂ ਪਹਿਲਾਂ ਹੀ { $productName } ਦੇ ਮੈਂਬਰ ਹੋ।
 iap-upgrade-no-bundle-support = ਅਸੀਂ ਇਹਨਾਂ ਮੈਂਬਰੀਆਂ ਤੋਂ ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹਨ, ਪਰ ਛੇਤੀ ਹੀ ਹੋਵਾਂਗੇ।
 iap-upgrade-get-help-button = ਮਦਦ ਲਵੋ
 
@@ -155,16 +118,16 @@ payment-cc =
 payment-cancel-btn = ਰੱਦ ਕਰੋ
 payment-update-btn = ਅੱਪਡੇਟ ਕਰੋ
 payment-pay-btn = ਹੁਣੇ ਭੁਗਤਾਨ ਕਰੋ
-payment-pay-with-paypal-btn = { -brand-name-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
+payment-pay-with-paypal-btn-2 = { -brand-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
 payment-validate-name-error = ਆਪਣਾ ਪੂਰਾ ਨਾਂ ਭਰੋ
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } ਸੁਰੱਖਿਅਤ ਭੁਗਤਾਨ ਕਾਰਵਾਈ ਲਈ { -brand-name-stripe } ਤੇ { -brand-name-paypal } ਵਰਤਦਾ ਹੈ।
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } ਪਰਦੇਦਾਰੀ ਨੀਤੀ</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } ਪਰਦੇਦਾਰੀ ਨੀਤੀ</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } ਸੁਰੱਖਿਅਤ ਭੁਗਤਾਨ ਕਾਰਵਾਈ ਲਈ { -brand-name-paypal } ਵਰਤਦਾ ਹੈ।
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } ਪਰਦੇਦਾਰੀ ਨੀਤੀ</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } ਸੁਰੱਖਿਅਤ ਭੁਗਤਾਨ ਕਾਰਵਾਈ ਲਈ { -brand-name-stripe } ਵਰਤਦਾ ਹੈ।
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } ਸੁਰੱਖਿਅਤ ਭੁਗਤਾਨ ਕਾਰਵਾਈ ਲਈ { -brand-name-stripe } ਅਤੇ { -brand-paypal } ਨੂੰ ਵਰਤਦਾ ਹੈ।
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } ਪਰਦੇਦਾਰੀ ਨੀਤੀ</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } ਪਰਦੇਦਾਰੀ ਨੀਤੀ</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } ਸੁਰੱਖਿਅਤ ਭੁਗਤਾਨ ਕਾਰਵਾਈ ਲਈ { -brand-paypal } ਵਰਤਦਾ ਹੈ।
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } ਪਰਦੇਦਾਰੀ ਨੀਤੀ</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } ਸੁਰੱਖਿਅਤ ਭੁਗਤਾਨ ਕਾਰਵਾਈ ਲਈ { -brand-name-stripe } ਨੂੰ ਵਰਤਦਾ ਹੈ।
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ਪਰਦੇਦਾਰੀ ਨੀਤੀ</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -184,7 +147,7 @@ payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } �
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = { -brand-name-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
+pay-with-heading-paypal-2 = { -brand-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
 
 ## Component - PlanDetails
 
@@ -330,8 +293,6 @@ product-plan-not-found = ਪਲਾਨ ਨਹੀਂ ਲੱਭਿਆ
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. { -brand-name-firefox } ਖਾਤਾ ਬਣਾਓ
 new-user-step-1-2 = 1. { -product-mozilla-account } ਬਣਾਓ
 new-user-card-title = ਆਪਣੇ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
 new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
@@ -352,9 +313,8 @@ product-invoice-preview-error-title = ਇਨਵਾਈਸ ਝਲਕ ਲੋਡ ਕ
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play ਸਟੋਰ
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } ਸਟੋਰ
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -443,6 +403,4 @@ reactivate-success-button = ਬੰਦ ਕਰੋ
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: ਐਪ ਵਿੱਚ ਖਰੀਦਦਾਰੀ
-sub-iap-item-apple-purchase = { -brand-name-apple }: ਐਪ ਵਿੱਚ ਖਰੀਦਦਾਰੀ
 sub-iap-item-manage-button = ਬੰਦੋਬਸਤ
