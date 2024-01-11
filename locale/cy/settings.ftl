@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Dewisiadau
 choose-what-to-sync-option-addresses =
     .label = Cyfeiriadau
-choose-what-to-sync-option-creditcards =
-    .label = Cardiau Credyd
+choose-what-to-sync-option-paymentmethods =
+    .label = Dulliau Talu
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -703,6 +703,10 @@ add-secondary-email-enter-address =
     .label = Rhowch gyfeiriad e-bost
 add-secondary-email-cancel-button = Diddymu
 add-secondary-email-save-button = Cadw
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Ni ellir defnyddio masgiau e-bost fel e-bost eilaidd
 
 ## Verify secondary email page
 
