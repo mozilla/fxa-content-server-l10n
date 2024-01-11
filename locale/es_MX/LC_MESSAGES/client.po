@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-03 22:48+0000\n"
+"POT-Creation-Date: 2024-01-11 20:07+0000\n"
 "PO-Revision-Date: 2023-02-07 05:03+0000\n"
 "Last-Translator: Bund10z <abu.avila@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,8 +266,8 @@ msgid "Addresses"
 msgstr "Direcciones"
 
 #: .es5/models/sync-engines.js:82
-msgid "Credit Cards"
-msgstr "Tarjetas de crédito"
+msgid "Payment Methods"
+msgstr ""
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -698,7 +698,11 @@ msgstr "¿Correo electrónico mal escrito? %(domain)s no ofrece correo electrón
 msgid "The image file size is too large to be uploaded."
 msgstr "El tamaño del archivo de imagen es demasiado grande para subirlo."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Las cuentas de Firefox solo pueden ser ubicadas en un IFRAME en sitios aprobados"
 

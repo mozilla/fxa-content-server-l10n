@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-03 22:48+0000\n"
+"POT-Creation-Date: 2024-01-11 20:07+0000\n"
 "PO-Revision-Date: 2023-11-12 13:10+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -266,8 +266,8 @@ msgid "Addresses"
 msgstr "Adresy"
 
 #: .es5/models/sync-engines.js:82
-msgid "Credit Cards"
-msgstr "Karty płatnicze"
+msgid "Payment Methods"
+msgstr ""
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -698,7 +698,11 @@ msgstr "Błąd w adresie e-mail? %(domain)s nie oferuje usług pocztowych."
 msgid "The image file size is too large to be uploaded."
 msgstr "Rozmiar pliku obrazu jest za duży, aby można go było wysłać."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Konta Firefoksa mogą być umieszczane w elementach „iframe” tylko w zatwierdzonych witrynach"
 

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-01-03 22:48+0000\n"
+"POT-Creation-Date: 2024-01-11 20:07+0000\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -297,7 +297,7 @@ msgid "Addresses"
 msgstr ""
 
 #: .es5/models/sync-engines.js:82
-msgid "Credit Cards"
+msgid "Payment Methods"
 msgstr ""
 
 #: .es5/models/reliers/browser.js:68
@@ -759,7 +759,11 @@ msgstr ""
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
