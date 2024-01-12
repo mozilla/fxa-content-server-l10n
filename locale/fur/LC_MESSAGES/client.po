@@ -700,7 +700,7 @@ msgstr "La dimension dal file imagjin e je masse grande par podêle cjariâ in r
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "Nol è pussibil doprâ lis mascaris di e-mail par creâ un account."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
