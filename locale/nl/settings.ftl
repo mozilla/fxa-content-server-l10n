@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Voorkeuren
 choose-what-to-sync-option-addresses =
     .label = Adressen
-choose-what-to-sync-option-creditcards =
-    .label = Creditcards
+choose-what-to-sync-option-paymentmethods =
+    .label = Betalingsmethoden
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
