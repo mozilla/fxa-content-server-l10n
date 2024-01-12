@@ -102,6 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Preferenzas
 choose-what-to-sync-option-addresses =
     .label = Adressas
+choose-what-to-sync-option-paymentmethods =
+    .label = Metodas da pajament
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -707,6 +709,10 @@ add-secondary-email-enter-address =
     .label = Endatar l'adressa dad e-mail
 add-secondary-email-cancel-button = Interrumper
 add-secondary-email-save-button = Memorisar
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = I n'è betg pussaivel da duvrar alias dad e-mail sco adressa dad e-mail secundara
 
 ## Verify secondary email page
 

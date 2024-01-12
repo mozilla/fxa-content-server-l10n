@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 20:07+0000\n"
-"PO-Revision-Date: 2024-01-05 11:42+0000\n"
+"PO-Revision-Date: 2024-01-12 09:37+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -268,7 +268,7 @@ msgstr "Adressas"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Metodas da pajament"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -701,7 +701,7 @@ msgstr "La datoteca dal maletg è memia gronda per il transferiment."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "I n'è betg pussaivel da duvrar alias dad e-mail per crear in conto."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
