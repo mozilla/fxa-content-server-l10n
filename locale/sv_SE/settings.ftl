@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Inställningar
 choose-what-to-sync-option-addresses =
     .label = Adresser
-choose-what-to-sync-option-creditcards =
-    .label = Kreditkort
+choose-what-to-sync-option-paymentmethods =
+    .label = Betalningsmetoder
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -705,6 +705,10 @@ add-secondary-email-enter-address =
     .label = Ange e-postadress
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Spara
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = E-postalias kan inte användas som ett sekundär e-post
 
 ## Verify secondary email page
 
