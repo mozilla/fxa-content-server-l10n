@@ -701,7 +701,7 @@ add-secondary-email-save-button = Salva
 # This message is shown when a user tries to add a secondary email that is a
 # Firefox Relay email mask (generated email address that can be used in place of
 # your real email address)
-add-secondary-email-mask = Gli alias email non possono essere utilizzati come indirizzi email secondari
+add-secondary-email-mask = Non è possibile utilizzare alias di posta elettronica come indirizzo email secondario.
 
 ## Verify secondary email page
 
