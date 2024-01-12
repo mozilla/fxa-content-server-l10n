@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Tùy chỉnh
 choose-what-to-sync-option-addresses =
     .label = Địa chỉ
-choose-what-to-sync-option-creditcards =
-    .label = Thẻ tín dụng
+choose-what-to-sync-option-paymentmethods =
+    .label = Phương thức thanh toán
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -705,6 +705,10 @@ add-secondary-email-enter-address =
     .label = Nhập địa chỉ email
 add-secondary-email-cancel-button = Hủy bỏ
 add-secondary-email-save-button = Lưu
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Không thể sử dụng mặt nạ email làm email phụ
 
 ## Verify secondary email page
 
