@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = 首选项
 choose-what-to-sync-option-addresses =
     .label = 地址
-choose-what-to-sync-option-creditcards =
-    .label = 信用卡
+choose-what-to-sync-option-paymentmethods =
+    .label = 付款方式
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -698,6 +698,10 @@ add-secondary-email-enter-address =
     .label = 请输入邮箱地址
 add-secondary-email-cancel-button = 取消
 add-secondary-email-save-button = 保存
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = 无法将马甲邮箱设为备用邮箱
 
 ## Verify secondary email page
 
