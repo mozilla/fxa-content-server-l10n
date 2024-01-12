@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Jerohoryvéva
 choose-what-to-sync-option-addresses =
     .label = Kundaharape
-choose-what-to-sync-option-creditcards =
-    .label = Kuatia’atã ñemurã
+choose-what-to-sync-option-paymentmethods =
+    .label = Mba’éicha ehepyme’ẽta
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -170,7 +170,6 @@ form-verify-code-default-error = Ko korápe ahaiva’erã
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } Mba’ete mba’eñemi jeguerujeyrã
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ayvu ñemoneĩ jeykekoha
 get-data-trio-title-backup-verification-codes = Ayvu ñemoneĩrã jeykekoha
 get-data-trio-download-2 =
     .title = Mboguejy
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Bento poravorã { -brand-firefox } mba’e
-bento-menu-title-2 = Bento Poravorã { -brand-mozilla } mba’e
 bento-menu-title-3 = { -brand-mozilla } apopyrekuéra
-bento-menu-firefox-title = Tembiporupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
 bento-menu-tagline = { -brand-mozilla } apopyrekuéra omo’ãva nde rekoñemi
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,18 +376,8 @@ cs-disconnect-sync-opt-not-say = Nda’eséinte
 
 cs-disconnect-advice-confirm = Oĩma, aikumbýma
 cs-disconnect-lost-advice-heading = Pe mba’e’oka kañymby térã mondapyre ojepe’áma
-cs-disconnect-lost-advice-content-2 =
-    Ojehechávo ne mba’e’oka okañy térã oñemonaha, ereko
-    hag̃ua ne marandu tekorosãme, emoambue ñe’ẽñemi { -product-firefox-account } pegua
-    ne mba’ete ñembohekópe. Avei eheva’erã pe marandu
-    mba’e’oka apoharégui mba’éicapa emboguéta ne mba’ekuaarã mombyry guive.
 cs-disconnect-lost-advice-content-3 = Ojehechávo ne mba’e’oka okañy térã oñemonaha, ereko hag̃ua ne marandu tekorosãme, emoambue ñe’ẽñemi { -product-mozilla-account } pegua ne mba’ete ñembohekahápe. Avei eheka pe marandu mba’e’oka apoharégui mba’éicapa emboguéta ne mba’ekuaarã oka guive.
 cs-disconnect-suspicious-advice-heading = Pe mba’e’oka imarãkuaáva ojepe’áma
-cs-disconnect-suspicious-advice-content =
-    Pe mba’e’oka pe’apyre ehecháramo
-    ivaikuaaha, ereko hag̃ua ne marandu tekorosãme, emoambue ne ñe’ẽñemi { -product-firefox-account } pegua
-    ne mba’ete ñembohekópe. Avei emoambue oimeraẽva ambue
-    ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
 cs-disconnect-suspicious-advice-content-2 = Pe mba’e’oka pe’apyre ehecháramo ivaikuaaha, ereko hag̃ua ne marandu tekorosãme, emoambue ne ñe’ẽñemi { -product-mozilla-account } pegua ne mba’ete ñembohekohápe. Avei emoambue oimeraẽva ambue ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
 cs-sign-out-button = Emboty tembiapo
 
@@ -401,20 +387,15 @@ cs-sign-out-button = Emboty tembiapo
 ## Data collection section
 
 dc-heading = Ñembyaty ha mba’ekuaarã jeporu
-dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
 dc-subheader-2 = Eipytyvõ oiko porãvévo { -product-mozilla-accounts }
-dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-subheader-content-2 = Emoneĩ { -product-mozilla-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
-dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-out-success-2 = Esẽ porã. { -product-mozilla-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
-dc-opt-in-success = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-firefox-accounts } oiko porãvévo.
 dc-opt-in-success-2 = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-mozilla-accounts } oiko porãvévo.
 dc-opt-in-out-error-2 = Ore ñyrõ, iñapañuãi emoambuévo mba’ekuaarã ñembyaty eguerohoryvéva
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } poravopyrã
 drop-down-menu-title-2 = { -product-mozilla-account } poravorã
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -503,7 +484,6 @@ header-menu-open = Emboty poravorã
 header-menu-closed = Tenda kundahára poravorã
 header-back-to-top-link =
     .title = Ejevy yvateguápe
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Pytyvõ
 
@@ -631,9 +611,7 @@ delete-account-header =
     .title = Embogue mba’ete
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
-delete-account-confirm-title-3 = Ikatu kuri embojuaju ne { -product-firefox-account } peteĩ térã hetave apopyre térã mba’eporu { -brand-mozilla } mba’éva rehe nemohekorosã ha nemboha’evéva ñandutípe:
 delete-account-confirm-title-4 = Ikatu kuri embojuaju ne { -product-mozilla-account } peteĩ térã hetaiteve apopyre térã mba’eporu { -brand-mozilla } mba’etéva rehe nemohekorosã ha nemboha’evétava ñandutípe:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -944,23 +922,11 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu Ñemigua</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Mba’epytyvõrã ñemboguata ha marandu’i ñemigua</monitorTos> { -product-firefox-monitor } mba’e
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>Mba’epytyvõrã ñemboguata ha marandu’i ñemigua</monitorTos> { -product-firefox-monitor } mba’e
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu’i ñemigua</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Eku’ejeývo, emoneĩ umi <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu ñemigua</mozillaAccountsPrivacy>.
 
@@ -1004,7 +970,6 @@ auth-error-1062 = Ñemondojey ndoikói
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Ndaikatúi emoheñói mba’ete
-cannot-create-account-requirements = Eguerekova’erã ary ojejuréva emoheñoikuaa hag̃ua { -product-firefox-account }.
 cannot-create-account-requirements-2 = Eguerekova’erã ary ojejuréva emoheñoikuaa hag̃ua { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Kuaave
@@ -1040,7 +1005,6 @@ connect-another-device-ios-complete-setup-message = Emoñepyrũ tembiapo { -bran
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Eikotevẽ ñembyaty pepeguáva ha kookie
-cookies-disabled-enable-prompt = Emyandy umi kookie ha mbyatyha pypegua kundahárape eikekuaa hag̃ua { -product-firefox-accounts }-pe. Ejapóramo péicha hendýta tembiapoite nemomandu’átava ne rembiapo pa’ũme.
 cookies-disabled-enable-prompt-2 = Emyandy umi kookie ha ñembyatyha pypegua ne kundahárape eikekuaa hag̃ua { -product-mozilla-account }-pe. Ejapóramo péicha, hendýta tembiapoite nemomandu’átava ne rembiapo pa’ũme.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Eha’ãjey
@@ -1241,7 +1205,6 @@ account-recovery-confirm-key-heading-w-default-service = Erujey ñe’ẽñemi m
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Erujey ñe’ẽñemi mba’eñemi jeguerujeyrã ndive <span>eku’ejey hag̃ua { $serviceName }</span>
-account-recovery-confirm-key-instructions = Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde { -product-firefox-account }.
 account-recovery-confirm-key-instructions-2 = Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde { -product-mozilla-account }-pe.
 account-recovery-confirm-key-warning-message = <span>Jehaipy</span> emoñepyrũjeývo ñe’ẽñemi ha nereñongatúirõ mba’eñemi jeguerujeyrã, oguekuaa mba’ekuaarã (oikehápe apopyvusu mba’ekuaarã moñondivepyre ikatúva tambiasakue ha techaukaha).
 # Prompts the user to enter their account recovery code
@@ -1322,8 +1285,6 @@ confirm-signin-message = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $email
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Ehai ñe’ẽñemi <span>ne { -product-firefox-account }</span> peg̃uarã
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Ehai ñe’ẽñemi <span>ne { -product-mozilla-account }</span> peg̃uarã
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1378,10 +1339,6 @@ signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore p
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Emoinge ayvu ñemoneĩrã<span> ne { -product-firefox-account }</span> peg̃uarã
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Emoinge ayvu ñemoneĩrã<span> ne { -product-mozilla-account }</span> peg̃uarã
@@ -1432,10 +1389,6 @@ confirm-signup-instruction = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $e
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Emoinge ayvu jehechajeyrã
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Emoinge ayvu ñemoneĩrã<span> ne { -product-firefox-account }</span> peg̃uarã
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
