@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Баптаулар
 choose-what-to-sync-option-addresses =
     .label = Адрестер
-choose-what-to-sync-option-creditcards =
-    .label = Несиелік карталар
+choose-what-to-sync-option-paymentmethods =
+    .label = Төлем әдістері
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -707,6 +707,10 @@ add-secondary-email-enter-address =
     .label = Эл. пошта адресін енгізіңіз
 add-secondary-email-cancel-button = Бас тарту
 add-secondary-email-save-button = Сақтау
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Электрондық пошта маскаларын қосымша электрондық пошта ретінде пайдалану мүмкін емес
 
 ## Verify secondary email page
 
