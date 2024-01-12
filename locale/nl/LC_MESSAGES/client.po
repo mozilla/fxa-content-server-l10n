@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 20:07+0000\n"
-"PO-Revision-Date: 2024-01-12 06:48+0000\n"
+"PO-Revision-Date: 2024-01-12 06:49+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -701,7 +701,7 @@ msgstr "De afbeeldingsbestandsgrootte is te groot om te uploaden."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "E-mailmaskers kunnen niet worden gebruikt om een account aan te maken."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"

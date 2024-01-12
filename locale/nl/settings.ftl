@@ -705,6 +705,10 @@ add-secondary-email-enter-address =
     .label = Voer e-mailadres in
 add-secondary-email-cancel-button = Annuleren
 add-secondary-email-save-button = Opslaan
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = E-mailmaskers kunnen niet als secundair e-mailadres worden gebruikt
 
 ## Verify secondary email page
 
