@@ -104,8 +104,8 @@ choose-what-to-sync-option-prefs =
     .label = პარამეტრები
 choose-what-to-sync-option-addresses =
     .label = მისამართები
-choose-what-to-sync-option-creditcards =
-    .label = საკრედიტო ბარათები
+choose-what-to-sync-option-paymentmethods =
+    .label = გადახდის საშუალებები
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -172,7 +172,6 @@ form-verify-code-default-error = ველის შევსება აუც
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-ანგარიშის აღდგენის გასაღები
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-ის დამოწმების სამარქაფო კოდები
 get-data-trio-title-backup-verification-codes = შესვლის სამარქაფო კოდები
 get-data-trio-download-2 =
     .title = ჩამოტვირთვა
@@ -309,10 +308,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento-მენიუ
-bento-menu-title-2 = { -brand-mozilla }-ს ცხრილური მენიუ
 bento-menu-title-3 = { -brand-mozilla }-ს ნაწარმი
-bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
 bento-menu-tagline = { -brand-mozilla }-ს მეტი ნაწარმი თქვენი პირადულობის დასაცავად
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -382,18 +378,8 @@ cs-disconnect-sync-opt-not-say = დუმილს ვამჯობინე�
 
 cs-disconnect-advice-confirm = კარგი, გასაგებია
 cs-disconnect-lost-advice-heading = დაკარგული ან მოპარული მოწყობილობა გამოთიშულია
-cs-disconnect-lost-advice-content-2 =
-    ვინაიდან თქვენი მოწყობილობა დაკარგული ან მოპარულია
-    მონაცემების უსაფრთხოებისთვის უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") } პაროლი
-    თქვენი პარამეტრებიდან. აგრეთვე, სასურველია გაეცნოთ მითითებებს თავად
-    მოწყობილობის მწარმოებლისგან, მონაცემების დაშორებულად წაშლის თაობაზე.
 cs-disconnect-lost-advice-content-3 = ვინაიდან თქვენი მოწყობილობა დაკარგული ან მოპარულია, მონაცემების უსაფრთხოებისთვის უმჯობესია შეცვალოთ { -product-mozilla-account(case: "gen") } პაროლი თქვენი პარამეტრებიდან. აგრეთვე სასურველია, გაეცნოთ თავად მოწყობილობის მწარმოებლისგან მითითებებს მონაცემების დაშორებულად წაშლის შესახებ.
 cs-disconnect-suspicious-advice-heading = საეჭვო მოწყობილობა გამოთიშულია
-cs-disconnect-suspicious-advice-content =
-    თუ გამოთიშული მოწყობილობა ნამდვილად
-    საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") }
-    პაროლი თქვენი პარამეტრებიდან. აგრეთვე, სასურველია შეცვალოთ ყველა სხვა
-    პაროლიც, რომელსაც ინახავს { -brand-firefox }, მისამართების ველში, about:logins აკრეფით.
 cs-disconnect-suspicious-advice-content-2 = თუ გამოთიშული მოწყობილობა ნამდვილად საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის უმჯობესია, შეცვალოთ { -product-mozilla-account(case: "gen") } პაროლი თქვენი პარამეტრებიდან. აგრეთვე სასურველია, მისამართების ველში გადახვიდეთ about:logins გვერდზე და შეცვალოთ ყველა დანარჩენი პაროლიც, რომელთაც ინახავს { -brand-firefox }.
 cs-sign-out-button = გამოსვლა
 
@@ -403,20 +389,15 @@ cs-sign-out-button = გამოსვლა
 ## Data collection section
 
 dc-heading = მონაცემთა აღრიცხვა და გამოყენება
-dc-subheader = დაგვეხმარეთ, გავაუმჯობესოთ { -product-firefox-accounts }
 dc-subheader-2 = დაგვეხმარეთ, გავაუმჯობესოთ { -product-mozilla-accounts }
-dc-subheader-content = ნების დართვა, რომ { -product-firefox-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს, ტექნიკური და გამოყენების მონაცემები.
 dc-subheader-content-2 = ნების დართვა, რომ { -product-mozilla-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს ტექნიკური და გამოყენების მონაცემები.
-dc-opt-out-success = უარი მიღებულია. { -product-firefox-accounts } არ გაუგზავნის { -brand-mozilla }-ს, ტექნიკურ და გამოყენების მონაცემებს.
 dc-opt-out-success-2 = უარი მიღებულია. { -product-mozilla-accounts } არ გაუგზავნის { -brand-mozilla }-ს ტექნიკურ და გამოყენების მონაცემებს.
-dc-opt-in-success = გმადლობთ! ამ მონაცემების გაზიარება, მეტად დაგვეხმარება, რომ განვავითაროთ { -product-firefox-accounts }
 dc-opt-in-success-2 = გმადლობთ! ამ მონაცემების გაზიარება მეტად წაადგება { -product-mozilla-accounts(case: "gen") } გაუმჯობესებას.
 dc-opt-in-out-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა მონაცემთა აღრიცხვის პარამეტრის ცვლილებისას
 dc-learn-more = ვრცლად
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
 drop-down-menu-title-2 = { -product-mozilla-account(case: "gen") } მენიუ
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -505,7 +486,6 @@ header-menu-open = მენიუს დახურვა
 header-menu-closed = საიტზე გადაადგილების მენიუ
 header-back-to-top-link =
     .title = დასაწყისში დაბრუნება
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = დახმარება
 
@@ -633,9 +613,7 @@ delete-account-header =
     .title = ანგარიშის წაშლა
 delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
-delete-account-confirm-title-3 = შესაძლოა, თქვენი { -product-firefox-account } დაკავშირებული იყოს რომელიმე { -brand-mozilla }-პროდუქტთან ან მომსახურებასთან, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
 delete-account-confirm-title-4 = შესაძლოა, თქვენი { -product-mozilla-account } დაკავშირებული იყოს რომელიმე { -brand-mozilla }-პროდუქტთან ან მომსახურებასთან, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -729,6 +707,10 @@ add-secondary-email-enter-address =
     .label = შეიყვანეთ ელფოსტის მისამართი
 add-secondary-email-cancel-button = გაუქმება
 add-secondary-email-save-button = შენახვა
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = ელფოსტის ნიღბები ვერ ვერ მიეთითება დამატებით ელფოსტად
 
 ## Verify secondary email page
 
@@ -944,23 +926,13 @@ tfa-row-change-modal-explain = ეს ქმედება შეუქცე�
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = თუ განაგრძობთ, ეთანხმებით:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = თუ განაგრძობთ, ამით თანახმა ხართ მიიღოთ:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket }-ის <pocketTos>მომსახურების პირობებსა</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადს</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket }-ის <pocketTos>მომსახურების პირობები</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადი</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor }-ის <monitorTos>მომსახურების პირობებისა და პირადულობის დებულება</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor }-ის <monitorTos>მომსახურების პირობებისა და პირადულობის დებულება</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox }-ის <firefoxTos>მომსახურების პირობებსა</firefoxTos> და <firefoxPrivacy>პირადულობის დაცვის განაცხადს</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla }-ს გამოწერილი მომსახურებების <mozSubscriptionTosLink> პირობები</mozSubscriptionTosLink> და <mozSubscriptionPrivacyLink>პირადულობის განაცხადი</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts } <mozillaAccountsTos>მომსახურების პირობები</mozillaAccountsTos> და <mozillaAccountsPrivacy>პირადულობის განაცხადი</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = თუ განაგრძობთ, ეთანხმებით <firefoxTos>მომსახურების პირობებსა</firefoxTos> და <firefoxPrivacy>პირადულობის დაცვის განაცხადს</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = თუ განაგრძობთ, ამით ეთანხმებით <mozillaAccountsTos>მომსახურების პირობებსა</mozillaAccountsTos> და <mozillaAccountsPrivacy>პირადულობის განაცხადს</mozillaAccountsPrivacy>.
 
@@ -1004,7 +976,6 @@ auth-error-1062 = არამართებული გადამისა�
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = ანგარიშის შექმნა ვერ მოხერხდა
-cannot-create-account-requirements = უნდა აკმაყოფილებდეთ ასაკის გარკვეულ მოთხოვნილებებს, რომ შექმნათ { -product-firefox-account }.
 cannot-create-account-requirements-2 = უნდა აკმაყოფილებდეთ ასაკის გარკვეულ მოთხოვნებს { -product-mozilla-account(case: "gen") } შესაქმნელად.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = ვრცლად
@@ -1040,7 +1011,6 @@ connect-another-device-ios-complete-setup-message = შედით { -brand-fir
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = საჭიროა ადგილობრივი საცავისა და ფუნთუშების გამოყენება
-cookies-disabled-enable-prompt = გთხოვთ ჩართოთ ბრაუზერში ფუნთუშებსა და საცავთან წვდომა { -product-firefox-accounts(case: "add") } დასაკავშირებლად. შედეგად ამოქმედდება სხვადასხვა შესაძლებლობა, მათ შორის თქვენი სეანსების დამახსოვრების საშუალება.
 cookies-disabled-enable-prompt-2 = გთხოვთ ჩართოთ ბრაუზერში ფუნთუშებსა და საცავთან წვდომა { -product-mozilla-account(case: "add") } დასაკავშირებლად. შედეგად ამოქმედდება სხვადასხვა შესაძლებლობა, მათ შორის თქვენი სეანსების დამახსოვრების საშუალება.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = ხელახლა ცდა
@@ -1241,7 +1211,6 @@ account-recovery-confirm-key-heading-w-default-service = გაანულე�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = გაანულეთ პაროლი ანგარიშის აღდგენის გასაღებით, <span>რომ იხილოთ { $serviceName }</span>
-account-recovery-confirm-key-instructions = თქვენს { -product-firefox-account } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
 account-recovery-confirm-key-instructions-2 = თქვენს { -product-mozilla-account(case: "add") } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
 account-recovery-confirm-key-warning-message = <span>გაითვალისწინეთ:</span> თუ ანგარიშის აღდგენის გასაღები არ გაქვთ შენახული და მის გარეშე გაანულებთ პაროლს, თქვენი მონაცემების ნაწილი დაიკარგება (მათ შორის სერვერზე დასინქრონებული ისტორია და სანიშნები).
 # Prompts the user to enter their account recovery code
@@ -1322,8 +1291,6 @@ confirm-signin-message = შეამოწმეთ თქვენი ელ�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = შეიყვანეთ პაროლი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = შეიყვანეთ პაროლი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1378,10 +1345,6 @@ signin-reported-message = ჩვენი გუნდი უკვე გაფ
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-firefox-account(case: "ben") }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-mozilla-account(case: "ben") }</span>
@@ -1432,10 +1395,6 @@ confirm-signup-instruction = შეამოწმეთ თქვენი ე�
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = შეიყვანეთ დადასტურების კოდი
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = შეიყვანეთ დასტურის კოდი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
