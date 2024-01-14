@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Preferencje
 choose-what-to-sync-option-addresses =
     .label = Adresy
-choose-what-to-sync-option-creditcards =
-    .label = Karty płatnicze
+choose-what-to-sync-option-paymentmethods =
+    .label = Metody płatności
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -705,6 +705,10 @@ add-secondary-email-enter-address =
     .label = Wpisz adres e-mail
 add-secondary-email-cancel-button = Anuluj
 add-secondary-email-save-button = Zachowaj
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Maski dla adresu e-mail nie mogą być używane jako dodatkowe adresy e-mail
 
 ## Verify secondary email page
 
@@ -919,13 +923,10 @@ tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Kontynuując, wyrażasz zgodę na:
-# links to Pocket's Terms of Service and Privacy Notice
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>regulamin usługi</pocketTos> i <pocketPrivacy>zasady ochrony prywatności</pocketPrivacy> serwisu { -product-pocket }
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>regulamin usługi i zasady ochrony prywatności</monitorTos> usługi { -product-firefox-monitor }
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = <monitorTos>regulamin usługi i zasady ochrony prywatności</monitorTos> usługi { -product-firefox-monitor }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>regulamin usługi</mozSubscriptionTosLink> i <mozSubscriptionPrivacyLink>zasady ochrony prywatności</mozSubscriptionPrivacyLink> usług subskrypcyjnych { -brand-mozilla(case: "gen") }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>regulamin usługi</mozillaAccountsTos> i <mozillaAccountsPrivacy>zasady ochrony prywatności</mozillaAccountsPrivacy> { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
