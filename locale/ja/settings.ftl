@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = 設定
 choose-what-to-sync-option-addresses =
     .label = 住所
-choose-what-to-sync-option-creditcards =
-    .label = クレジットカード情報
+choose-what-to-sync-option-paymentmethods =
+    .label = 決済方法
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -698,6 +698,10 @@ add-secondary-email-enter-address =
     .label = メールアドレスを入力してください
 add-secondary-email-cancel-button = キャンセル
 add-secondary-email-save-button = 保存
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = メールマスクは予備メールアドレスとして登録できません
 
 ## Verify secondary email page
 
@@ -903,13 +907,10 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 続けることにより、次のことに同意したものとみなされます:
-# links to Pocket's Terms of Service and Privacy Notice
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor } の <monitorTos>サービス利用規約とプライバシーに関する通知</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>サービス利用規約とプライバシーに関する通知</monitorTos>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } サブスクリプションサービスの <mozSubscriptionTosLink>利用規約</mozSubscriptionTosLink> および <mozSubscriptionPrivacyLink>プライバシー通知</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts } <mozillaAccountsTos>サービス利用規約</mozillaAccountsTos> と <mozillaAccountsPrivacy>プライバシー通知</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
