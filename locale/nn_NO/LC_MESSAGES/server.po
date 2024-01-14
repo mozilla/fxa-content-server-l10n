@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 20:07+0000\n"
-"PO-Revision-Date: 2023-10-20 05:52+0000\n"
+"PO-Revision-Date: 2024-01-14 05:50+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -21,7 +21,7 @@ msgstr "Mozilla-kontoar"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla-logo"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -64,6 +64,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Vi er for tida under stor belastning og arbeider for at systemet\n"
+"            så snart som mogleg skal fungere normalt igjen."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -88,6 +90,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Mozilla-kontoen din brukar funksjonar som ikkje er\n"
+"                        støtta i din versjon av Firefox. Last ned\n"
+"                        og installer den siste versjonen av Firefox for å\n"
+"                        halde fram."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"

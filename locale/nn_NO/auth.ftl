@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = Loggar inn på { -product-firefox-accounts }?
 session-verify-send-push-title-2 = Loggar du inn på { -product-mozilla-account }-en din?
 session-verify-send-push-body-2 = Klikk her for å stadfeste at det er du
 
@@ -8,16 +7,14 @@ session-verify-send-push-body-2 = Klikk her for å stadfeste at det er du
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser einingar">3
 body-devices-image = <img data-l10n-name="devices-image" alt="Einingar">
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
-fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
 moz-accounts-terms-url = Tenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
 subplat-privacy-notice = Personvernmerknad
 subplat-privacy-plaintext = Personvernmerknad:
@@ -25,23 +22,10 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }, og du har registrert deg for { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = DU får denne e-posten fordi { $email } har ein { -product-mozilla-account } og du har meldt deg på { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Du får denne e-posten fordi { $email } har ein { -product-mozilla-account }.
-subplat-explainer-multiple = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }, og du abonnerer på fleire produkt.
-subplat-explainer-was-deleted = Du får denne e-posten fordi { $email } vart registrert for ein { -product-firefox-account }.
-subplat-manage-account = Handsam { -product-firefox-account }innstillingane dine ved å gå til <a data-l10n-name="subplat-account-page">konto-sida</a> di.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Handsam { -product-firefox-account }-innstillingane dine ved å gå til kontosida di: { $accountSettingsUrl }
 subplat-terms-policy = Vilkår og avbestillingsreglar
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt abonnement
@@ -51,8 +35,6 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-privacy-policy = { -brand-mozilla }s personvernpraksis
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = Brukarvilkår for { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
@@ -90,6 +72,10 @@ automated-email-no-action = { automated-email-no-action-plaintext } Gå til <a d
 automated-email-no-action-plaintext = Denne e-posten vart sendt automatisk. Om du fekk den ved ein feil, treng du ikkje gjere noko.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Denne e-posten vart sendt automatisk; om du ikkje godkjende denne handlinga, må du endre passordet ditt:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Denne førespurnaden kom frå { $uaBrowser }.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Denne førspurnaden kom frå:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
@@ -187,25 +173,6 @@ device-all = { $uaBrowser } på { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } på { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-adresse: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (estimert)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (estimert)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (estimert)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (estimert)
 view-invoice = <a data-l10n-name="invoiceLink">Sjå fakturaen din</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -216,7 +183,6 @@ cadReminderFirst-action = Synkroniser ei anna eining
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det må to til for å synkronisere
-cadReminderFirst-description-1 = Ta med deg fanene dine til alle einingane dine. Få bokmerke, passord og dei andre dataa dine overalt der du brukar { -brand-firefox }. Det er som å ha magi i { -brand-firefox }-kontoen din!
 cadReminderSecond-subject-2 = Ikkje gå glipp av det! La oss fullføre synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser ei anna eining
 cadReminderSecond-title-2 = Ikkje gløym å synkronisere!
@@ -230,11 +196,8 @@ downloadSubscription-subject = Velkomen til { $productName }
 downloadSubscription-title = Velkomen til { $productName }
 downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonane i abonementet ditt.
 downloadSubscription-link-action-2 = Kom i gang
-fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account }-en din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
-fraudulentAccountDeletion-content = Nyleg vart ein { -product-firefox-account } oppretta og eit abonnement  vart belasta med denne e-postadressa. Og som vi gjer med alle nye kontoar, ba vi deg stadfeste kontoen din ved først å validere denne e-postadressa.
-fraudulentAccountDeletion-content-2 = Førebels ser vi at kontoen aldri vart stadfesta. Sidan dette steget ikkje vart fullført, er vi ikkje sikre på om dette var eit autorisert abonnement. Som eit resultat vart { -product-firefox-account } registrert på denne e-postadressa sletta og abonnementet ditt vart avslutta med alle kostnadar refunderte.
 fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -258,7 +221,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
-newDeviceLogin-title-2 = { -product-firefox-account }en din vart brukt til å logge på
 newDeviceLogin-title-3 = { -product-mozilla-account }-en din vart brukt til å logge inn
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -269,11 +231,8 @@ newDeviceLogin-change-password-plain = Ikkje deg? Endre passordet ditt:
 newDeviceLogin-action = Handsam kontoen
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endra
-passwordChanged-description = Passordet for { -product-firefox-account } vart endra frå følgejande eining:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaga
 passwordChangeRequired-title = Passordendring påkravd
-passwordChangeRequired-suspicious-activity = Vi oppdaga mistenkjeleg oppførsel på { -product-firefox-account }. For å hindre uautorisert tilgang til { -product-firefox-account }, har vi kopla frå alle einingane på kontoen og krev at du endrar passordet ditt som ein førehandsregel.
-passwordChangeRequired-sign-in = Logg deg tilbake på hkva som helst som helst eining eller teneste der du brukar { -product-firefox-account }en din, og følg stega som vil bli presenterte for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordReset-subject = Passord oppdatert
@@ -281,21 +240,16 @@ passwordReset-title = Kontopassordet ditt vart endra
 passwordReset-description = Du må skrive inn det nye passordet ditt på andre einingar for å fortsetje synkroniseringa.
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
+# Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Du brukte kontogjenopprettingsnøkkelen din til å oppdatere passordet ditt frå:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Opprett ein ny kontogjenopprettingsnøkkel
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = Opprett kontogjenopprettingsnøkkel
 passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
+postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel oppretta
 postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
 postAddAccountRecovery-action = Handsam kontoen
-postAddLinkedAccount-subject = Ny konto knytt til { -brand-firefox }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = { $providerName }-kontoen din er kopla til { -product-firefox-account }en din
 postAddLinkedAccount-action = Handsam kontoen
 postAddTwoStepAuthentication-subject-2 = Tostegs-godkjenning er slått på
 postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
@@ -303,12 +257,10 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 postAddTwoStepAuthentication-from-device = Du har aktivert det frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postAddTwoStepAuthentication-code-required-2 = Sikkerheitskoder frå autentiseringsappen din er no påkravd no kvar gong du loggar inn.
+postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-action = Handsam kontoen
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Du har endra den primære e-postadressa di til { $email }. Denne adressa er no brukarnamn for å logge inn på { -product-firefox-account }en din, i tillegg til å ta imot sikkerheitsvarsel og stadfestingar på innloggingar.
 postChangePrimary-action = Handsam kontoen
 postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -328,9 +280,6 @@ postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
 postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
-# Variables:
-#  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Du har sletta { $secondaryEmail } som ei sekundær e-postadresse frå { -product-firefox-account }en din. Sikkerheitsmeldingar og innloggingsstadfestingar vil ikkje lenger bli leverte til denne adressa.
 postRemoveSecondary-action = Handsam kontoen
 postRemoveTwoStepAuthentication-subject-line-2 = Tostegs-godkjenning er slått av
 postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-godkjenning
@@ -342,21 +291,14 @@ postVerify-sub-title-3 = Vi er glade for å sjå deg!
 postVerify-title-2 = Vil du sjå den same fana på to einingar?
 postVerify-description-2 = Det er lett! Installer berre { -brand-firefox } på ei anna eining og logg på for å synkronisere. Det er som magi!
 postVerify-sub-description = (Psst… Det betyr også at du kan få bokmerke, passord og andre { -brand-firefox }-data overalt der du er logga inn.)
-postVerify-subject-3 = Velkomen til { -brand-firefox }!
 postVerify-subject-4 = Velkomen til { -brand-mozilla }!
 postVerify-setup-2 = Kople til ei anna eining:
 postVerify-action-2 = Kople til ei anna eining
 postVerifySecondary-subject = Sekundær e-post lagt til
 postVerifySecondary-title = Sekundær e-post lagt til
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Du har stadfesta { $secondaryEmail } som ei sekundær e-postadresse for { -product-firefox-account }en din. Tryggingsvarsel og innloggingsstadfestingar vil no bli leverte til begge e-postadressene.
 postVerifySecondary-action = Handsam kontoen
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Gløymt passordet ditt?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Vi mottok ein førespurnad om passordendring på { -product-firefox-account }en din frå:
 recovery-new-password-button = Opprett eit nytt passord ved å klikke på knappen nedanfor. Denne lenka vil gå ut innan den neste timen.
 recovery-copy-paste = Opprett eit nytt passord ved å kopiere og lime inn nettadressa nedanfor i nettlesaren din. Denne lenka vil gåp ut innan den neste timen.
 recovery-action = Lag nytt passord
@@ -364,11 +306,6 @@ recovery-action = Lag nytt passord
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Abonnentet ditt på { $productName } her avslutta
 subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Du har nyleg sletta { -product-firefox-account }en din. Som eit resultat har vi avslutta abonnementet ditt på { $productName }. Den endelege betalinga på { $invoiceTotal } vart betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit passord.
@@ -376,18 +313,14 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomen til { $productName }
 subscriptionAccountFinishSetup-content-processing = Betalinga din vert behandla og kan ta opptil fire yrkedagar å fullføre. Abonnementet ditt vert fornya automatisk kvar faktureringsperiode, dersom du ikkje vel å avslutte.
-subscriptionAccountFinishSetup-content-create-2 = Deretter opprettar du eit { -product-firefox-account }-passord for å byrje å bruke det nye abonnementet ditt.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminning: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikkje tilgang til abonnementet ditt enno
-subscriptionAccountReminderFirst-content-info-2 = For nokre dager sidan oppretta du ein { -product-firefox-account }, men stadfesta han aldri. Vi håper du fullfører konfigureringa av kontoen din, slik at du kan bruke det nye abonnemenet ditt.
 subscriptionAccountReminderFirst-content-select-2 = Vel «Opprett passord» for å setje opp eit nytt passord og fullfør stadfestinga av kontoen din.
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din
-subscriptionAccountReminderSecond-title = Velkomen til { -brand-firefox }
 subscriptionAccountReminderSecond-title-2 = Velkomen til { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-2 = For nokre dager sidan oppretta du ein { -product-firefox-account }, men stadfesta han aldri. Vi håper du fullfører konfigureringa av kontoen din, slik at du kan bruke det nye abonnement ditt.
 subscriptionAccountReminderSecond-content-select-2 = Vel «Opprett passord» for å setje opp eit nytt passord og fullfør stadfestinga av kontoen din.
 subscriptionAccountReminderSecond-action = Opprett passord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -491,19 +424,15 @@ verificationReminderFinal-subject = Siste påminning om å stadfeste kontoen din
 confirm-account = Stadfest kontoen
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hugs å stadfeste kontoen din
-verificationReminderFirst-title-2 = Velkomen til { -brand-firefox }!
 verificationReminderFirst-title-3 = Velkomen til { -brand-mozilla }!
 confirm-email-2 = Stadfest kontoen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
 verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
-verificationReminderSecond-title-2 = Gå ikkje glipp av { -brand-firefox }!
 verificationReminderSecond-action-2 = Stadfest kontoen
-verify-title-2 = Opne internett med { -brand-firefox }
 verify-title-3 =
     Opne internett med
      { -brand-mozilla }
-verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verify-description-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mozilla }, overalt der du loggar inn:
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen
@@ -532,12 +461,9 @@ verifySecondaryCode-prompt-2 = Bruk denne stadfestingskoden:
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Stadfest kontoen din
-verifyShortCode-title-2 = Opne internett med { -brand-firefox }
 verifyShortCode-title-3 =
     Opne internett med
      { -brand-mozilla }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mozilla }, overalt der du loggar inn:
 verifyShortCode-prompt-3 = Bruk denne stadfestingskoden
