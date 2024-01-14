@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Asetukset
 choose-what-to-sync-option-addresses =
     .label = Osoitteet
-choose-what-to-sync-option-creditcards =
-    .label = Luottokortit
+choose-what-to-sync-option-paymentmethods =
+    .label = Maksutavat
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -170,7 +170,6 @@ form-verify-code-default-error = Tämä kenttä on pakollinen
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-tilin palautusavain
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-varatodennuskoodit
 get-data-trio-download-2 =
     .title = Lataa
     .aria-label = Lataa
@@ -306,9 +305,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox }-valikko
 bento-menu-title-3 = { -brand-mozilla }-tuotteet
-bento-menu-firefox-title = { -brand-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
 bento-menu-tagline = Lisää yksityisyyttäsi suojaavia tuotteita { -brand-mozilla }lta
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -378,18 +375,8 @@ cs-disconnect-sync-opt-not-say = En halua sanoa
 
 cs-disconnect-advice-confirm = Selvä
 cs-disconnect-lost-advice-heading = Yhteys kadonneeseen tai varastettuun laitteeseen on katkaistu
-cs-disconnect-lost-advice-content-2 =
-    Koska laitteesi katosi tai varastettiin,
-    sinun tulisi vaihtaa { -product-firefox-account }si salasana
-    tilin asetuksissa. Sinun kannattaa myös etsiä ohjeita oman
-    laitteen valmistajalta tietojen etäpoistoon liittyen.
 cs-disconnect-lost-advice-content-3 = Koska laitteesi katosi tai varastettiin, sinun tulisi vaihtaa { -product-mozilla-account }si salasana tilin asetuksissa. Sinun kannattaa myös etsiä ohjeita oman laitteen valmistajalta tietojen etäpoistoon liittyen.
 cs-disconnect-suspicious-advice-heading = Yhteys epäilyttävään laitteeseen on katkaistu
-cs-disconnect-suspicious-advice-content =
-    Jos irrotettu laite todellakin on epäilyttävä,
-    sinun tulisi vaihtaa { -product-firefox-account }n salasana
-    tilin asetuksissa. Sinun kannattaa vaihtaa myös muut
-    salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
 cs-disconnect-suspicious-advice-content-2 = Jos irrotettu laite todellakin on epäilyttävä, sinun tulisi vaihtaa { -product-mozilla-account }n salasana tilin asetuksissa. Sinun kannattaa vaihtaa myös muut salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
 cs-sign-out-button = Kirjaudu ulos
 
@@ -399,20 +386,15 @@ cs-sign-out-button = Kirjaudu ulos
 ## Data collection section
 
 dc-heading = Tietojen keruu ja käyttö
-dc-subheader = Auta parantamaan palvelua { -product-firefox-accounts }
 dc-subheader-2 = Auta parantamaan { -product-mozilla-accounts } -palvelua
-dc-subheader-content = Salli palvelun { -product-firefox-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
 dc-subheader-content-2 = Salli palvelun { -product-mozilla-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
-dc-opt-out-success = Poistuminen onnistui. { -product-firefox-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-out-success-2 = Poistuminen onnistui. { -product-mozilla-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
-dc-opt-in-success = Kiitos! Tämän tiedon jakaminen auttaa parantamaan { -product-firefox-accounts } -palvelua.
 dc-opt-in-success-2 = Kiitos! Tämän tiedon jakaminen auttaa parantamaan { -product-mozilla-accounts } -palvelua.
 dc-opt-in-out-error-2 = Valitettavasti tiedonkeruuasetusten muuttamisen yhteydessä ilmeni ongelma
 dc-learn-more = Lue lisää
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } -valikko
 drop-down-menu-title-2 = { -product-mozilla-account }en valikko
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -501,7 +483,6 @@ header-menu-open = Sulje valikko
 header-menu-closed = Sivuston navigointivalikko
 header-back-to-top-link =
     .title = Takaisin ylös
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Ohje
 
@@ -629,9 +610,7 @@ delete-account-header =
     .title = Poista tili
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
-delete-account-confirm-title-3 = Saatat olla yhdistänyt { -product-firefox-account }si ainakin yhteen { -brand-mozilla }n tuotteeseen tai palveluun, joka pitää sinut verkossa turvassa ja tuotteliaana:
 delete-account-confirm-title-4 = Saatat olla yhdistänyt { -product-mozilla-account }si ainakin yhteen { -brand-mozilla }n tuotteeseen tai palveluun, joka pitää sinut verkossa turvassa ja tuotteliaana:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -725,6 +704,10 @@ add-secondary-email-enter-address =
     .label = Kirjoita sähköpostiosoite
 add-secondary-email-cancel-button = Peruuta
 add-secondary-email-save-button = Tallenna
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Sähköpostimaskeja ei voi käyttää toissijaisena sähköpostina
 
 ## Verify secondary email page
 
@@ -942,23 +925,13 @@ tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Jatkamalla hyväksyt:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Jatkamalla hyväksyt:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytäntö</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytännön</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor }in <monitorTos>käyttöehdot ja tietosuojakäytäntö</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor }in <monitorTos>käyttöehdot ja tietosuojakäytäntö</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox }in <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytäntö</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla }n tilauspalvelujen <mozSubscriptionTosLink>käyttöehdot</mozSubscriptionTosLink> ja <mozSubscriptionPrivacyLink>tietosuojakäytäntö</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } -palvelun <mozillaAccountsTos>käyttöehdot</mozillaAccountsTos> ja <mozillaAccountsPrivacy>tietosuojakäytäntö</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Jatkamalla hyväksyt <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytännön</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Jatkamalla hyväksyt <mozillaAccountsTos>käyttöehdot</mozillaAccountsTos> ja <mozillaAccountsPrivacy>tietosuojakäytännön</mozillaAccountsPrivacy>.
 
@@ -1002,7 +975,6 @@ auth-error-1062 = Virheellinen uudelleenohjaus
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Tiliä ei voida luoda
-cannot-create-account-requirements = Sinun on oltava riittävän vanha luodaksesi { -product-firefox-account }n.
 cannot-create-account-requirements-2 = Sinun on oltava riittävän vanha luodaksesi { -product-mozilla-account }n.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Lue lisää
@@ -1038,7 +1010,6 @@ connect-another-device-ios-complete-setup-message = Kirjaudu { -brand-firefox }i
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Paikallinen tallennustila ja evästeet vaaditaan
-cookies-disabled-enable-prompt = Ota evästeet ja paikallinen tallennustila käyttöön selaimessasi käyttääksesi { -product-firefox-accounts } -palvelua. Tämä mahdollistaa toiminnot, joiden ansiosta sinut esimerkiksi muistetaan istuntojen välillä.
 cookies-disabled-enable-prompt-2 = Ota evästeet ja paikallinen tallennustila käyttöön selaimessasi käyttääksesi { -product-mozilla-account }-palvelua. Tämä mahdollistaa toiminnot, joiden ansiosta sinut esimerkiksi muistetaan istuntojen välillä.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Yritä uudelleen
@@ -1239,7 +1210,6 @@ account-recovery-confirm-key-heading-w-default-service = Nollaa salasana tilin p
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Nollaa salasana tilin palautusavaimella <span>jatkaaksesi palveluun { $serviceName }</span>
-account-recovery-confirm-key-instructions = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-firefox-account }äsi.
 account-recovery-confirm-key-instructions-2 = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-mozilla-account }äsi.
 account-recovery-confirm-key-warning-message = <span>Huomaa:</span> Jos nollaat salasanasi etkä ole tallentanut tilin palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja kirjanmerkit).
 # Prompts the user to enter their account recovery code
@@ -1319,8 +1289,6 @@ confirm-signin-message = Katso osoitteeseen { $email } lähetetty kirjautumisen 
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Syötä <span>{ -product-firefox-account }si</span> salasana
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Anna <span>{ -product-mozilla-account }si</span> salasana
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1375,10 +1343,6 @@ signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset autt
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Anna vahvistuskoodi<span> { -product-firefox-account }llesi</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Anna vahvistuskoodi<span> { -product-mozilla-account }llesi</span>
@@ -1429,10 +1393,6 @@ confirm-signup-instruction = Katso osoitteeseen { $email } lähetetty vahvistusl
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Kirjoita vahvistuskoodi
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Syötä <span>{ -product-firefox-account }si</span> vahvistuskoodi
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
