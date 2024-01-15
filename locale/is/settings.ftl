@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Kjörstillingar
 choose-what-to-sync-option-addresses =
     .label = Tölvupóstföng
-choose-what-to-sync-option-creditcards =
-    .label = Greiðslukort
+choose-what-to-sync-option-paymentmethods =
+    .label = Greiðslumátar
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -702,6 +702,10 @@ add-secondary-email-enter-address =
     .label = Settu inn tölvupóstfang
 add-secondary-email-cancel-button = Hætta við
 add-secondary-email-save-button = Vista
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Ekki er hægt að nota tölvupósthulur sem aukapóstfang
 
 ## Verify secondary email page
 
