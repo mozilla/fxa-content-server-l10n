@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Tercihler
 choose-what-to-sync-option-addresses =
     .label = Adresler
-choose-what-to-sync-option-creditcards =
-    .label = Kredi kartları
+choose-what-to-sync-option-paymentmethods =
+    .label = Ödeme yöntemleri
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -702,6 +702,10 @@ add-secondary-email-enter-address =
     .label = E-posta adresinizi yazın
 add-secondary-email-cancel-button = İptal
 add-secondary-email-save-button = Kaydet
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = İkinci e-posta olarak e-posta maskesi kullanılamaz
 
 ## Verify secondary email page
 
