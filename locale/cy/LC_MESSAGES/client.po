@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 20:07+0000\n"
-"PO-Revision-Date: 2024-01-11 21:09+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2024-01-17 11:45+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -701,7 +701,7 @@ msgstr "Mae'r ffeil delwedd yn rhy fawr i'w lwytho."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr "Ni ellir defnyddio masgiau e-bost i greu cyfrif."
+msgstr "Nid oes modd defnyddio arallenwau e-bost i greu cyfrif."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"

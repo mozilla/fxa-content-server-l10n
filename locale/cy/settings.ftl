@@ -706,7 +706,7 @@ add-secondary-email-save-button = Cadw
 # This message is shown when a user tries to add a secondary email that is a
 # Firefox Relay email mask (generated email address that can be used in place of
 # your real email address)
-add-secondary-email-mask = Ni ellir defnyddio masgiau e-bost fel e-bost eilaidd
+add-secondary-email-mask = Nid oes modd defnyddio arallenwau e-bost fel ail e-bost
 
 ## Verify secondary email page
 
