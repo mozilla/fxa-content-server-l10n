@@ -61,6 +61,9 @@ android-download-plaintext = הורדת { $productName } מ־Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 ios-download-plaintext = הורדת { $productName } מ־App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = התקנת { $productName } במכשיר נוסף:
 automated-email-change-2 = אם לא ביצעת פעולה זו, יש <a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a> מיד.
 automated-email-support = למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
@@ -214,6 +217,8 @@ view-invoice-plaintext = הצגת חשבונית: { $invoiceLink }
 cadReminderFirst-subject-1 = תזכורת! בואו נסנכרן את { -brand-firefox }
 cadReminderFirst-action = סנכרון מכשיר נוסף
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = צריך שניים לסנכרון
 cadReminderSecond-subject-2 = אל תפספסו! בואו נסיים את הגדרת הסנכרון שלך
 cadReminderSecond-action = סנכרון מכשיר נוסף
 cadReminderSecond-title-2 = לא לשכוח לסנכרן!
