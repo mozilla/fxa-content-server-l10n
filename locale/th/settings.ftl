@@ -111,6 +111,10 @@ get-data-trio-title-firefox-recovery-key = คีย์กู้คืนบั�
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+signin-recovery-code-image-description =
+    .aria-label = เอกสารที่มีข้อความที่ซ่อนอยู่
+signin-totp-code-image-label =
+    .aria-label = อุปกรณ์ที่มีรหัส 6 หลักซ่อนอยู่
 
 ## Input Password
 
@@ -118,6 +122,8 @@ input-password-hide = ซ่อนรหัสผ่าน
 input-password-show = แสดงรหัสผ่าน
 input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
 input-password-show-aria = แสดงรหัสผ่านในรูปข้อความธรรมดา รหัสผ่านของคุณจะปรากฏให้เห็นบนหน้าจอ
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = ย้อนกลับ
 
 ## LinkDamaged component
 
@@ -130,22 +136,51 @@ input-password-show-aria = แสดงรหัสผ่านในรูป�
 
 ## LinkExpiredSignin component
 
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = ลิงก์ยืนยันหมดอายุ
+signin-link-expired-message = ลิงก์ที่คุณได้คลิกเพื่อยืนยันอีเมลของคุณหมดอายุแล้ว
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = จำรหัสผ่านของคุณได้ใช่หรือไม่? ลงชื่อเข้า
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = ยืนยันอีเมลหลักไปแล้ว
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = ยืนยันการลงชื่อเข้าไปแล้ว
+confirmation-link-reused-message = ลิงก์ยืนยันนั้นถูกใช้ไปแล้ว และสามารถใช้ได้แค่ครั้งเดียว
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = คุณต้องใช้รหัสผ่านนี้เพื่อเข้าถึงข้อมูลที่เข้ารหัสใดๆ ที่คุณเก็บไว้กับเรา
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = ข้อกำหนดรหัสผ่าน
+password-strength-balloon-min-length = อย่างน้อย 8 ตัวอักษร
+password-strength-balloon-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
+password-strength-balloon-not-common = ไม่ใช่รหัสผ่านที่พบบ่อย
+password-strength-balloon-stay-safe-tips = รักษาความปลอดภัยด้วยการไม่ใช้รหัสผ่านซ้ำ ดูเคล็ดลับในการ<LinkExternal>สร้างรหัสผ่านที่รัดกุม</LinkExternal>เพิ่ม
 
 ## Ready component
 
+reset-password-complete-header = รีเซ็ตรหัสผ่านของคุณแล้ว
+ready-complete-set-up-instruction = ตั้งค่าให้เสร็จสิ้นโดยป้อนรหัสผ่านใหม่ของคุณบน { -brand-firefox } ในอุปกรณ์อื่นๆ
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = ขณะนี้คุณพร้อมใช้ { $serviceName } แล้ว
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = บัญชีของคุณพร้อมแล้ว!
+ready-continue = ดำเนินการต่อ
+sign-in-complete-header = ยืนยันการลงชื่อเข้าแล้ว
+sign-up-complete-header = ยืนยันบัญชีแล้ว
+primary-email-verified-header = ยืนยันอีเมลหลักแล้ว
 
 ## Alert Bar
 
@@ -163,6 +198,10 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
 bento-menu-firefox-mobile = เบราว์เซอร์ { -brand-firefox } สำหรับมือถือ
 bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
@@ -187,6 +226,11 @@ cs-heading = บริการที่เชื่อมต่อ
 cs-description = ทุกสิ่งที่คุณใช้และลงชื่อเข้า
 cs-cannot-refresh = ขออภัย เกิดปัญหาในการรีเฟรชรายการบริการที่เชื่อมต่อ
 cs-cannot-disconnect = ไม่พบไคลเอ็นต์ ไม่สามารถยกเลิกการเชื่อมต่อได้
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Mozilla accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = ลงชื่อออกจาก { $service } แล้ว
 cs-refresh-button =
     .title = รีเฟรชบริการที่เชื่อมต่อ
 # Link text to a support page on missing or duplicate devices
@@ -199,6 +243,7 @@ cs-disconnect-sync-heading = ตัดการเชื่อมต่อจา
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-reason-3 = เหตุผลหลักที่ตัดการเชื่อมต่อ <span>{ $device }</span> มีอะไรบ้าง?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -243,16 +288,33 @@ flow-container-back = กลับ
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = ป้อนรหัสผ่านของคุณอีกครั้งเพื่อความปลอดภัย
+flow-recovery-key-confirm-pwd-input-label = ป้อนรหัสผ่านของคุณ
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = สร้างคีย์กู้คืนบัญชี
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = สร้างคีย์กู้คืนบัญชีใหม่
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = ตำแหน่งที่จะเก็บคีย์ของคุณ:
+flow-recovery-key-download-storage-ideas-folder-v2 = โฟลเดอร์บนอุปกรณ์ที่ปลอดภัย
+flow-recovery-key-download-storage-ideas-cloud = ที่เก็บข้อมูลบนคลาวด์ที่เชื่อถือได้
+flow-recovery-key-download-storage-ideas-print-v2 = พิมพ์ลงบนกระดาษ
+flow-recovery-key-download-storage-ideas-pwd-manager = ตัวจัดการรหัสผ่าน
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = เพิ่มคำใบ้สำหรับช่วยหาคีย์ของคุณ
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
