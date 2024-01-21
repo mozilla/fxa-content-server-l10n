@@ -169,7 +169,7 @@ password-strength-balloon-stay-safe-tips = รักษาความปลอ�
 
 ## Ready component
 
-reset-password-complete-header = รีเซ็ตรหัสผ่านของคุณแล้ว
+reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
 ready-complete-set-up-instruction = ตั้งค่าให้เสร็จสิ้นโดยป้อนรหัสผ่านใหม่ของคุณบน { -brand-firefox } ในอุปกรณ์อื่นๆ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -315,9 +315,31 @@ flow-recovery-key-download-storage-ideas-pwd-manager = ตัวจัดกา�
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = เพิ่มคำใบ้สำหรับช่วยหาคีย์ของคุณ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = คำใบนี้ควรเป็นคำใบ้ที่สามารถช่วยคุณจำตำแหน่งที่คุณเก็บคีย์กู้คืนบัญชีของคุณได้ โดยเราจะแสดงให้คุณเห็นระหว่างที่ตั้งรหัสผ่านใหม่เพื่อกู้คืนข้อมูลของคุณ
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = ป้อนคำใบ้ (ไม่บังคับ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = เสร็จสิ้น
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = สร้างคีย์กู้คืนบัญชีแล้ว
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = คำใบ้จะต้องมีอักขระน้อยกว่า 255 ตัว
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = คำใบ้จะต้องไม่มีอักขระ Unicode ที่ไม่ปลอดภัย โดยให้ใช้ได้เฉพาะตัวอักษร ตัวเลข เครื่องหมายวรรคตอน และเครื่องหมายทั่วไปเท่านั้น
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = สร้างคีย์กู้คืนบัญชีเผื่อไว้ใช้ในกรณีที่คุณลืมรหัสผ่าน
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = เปลี่ยนคีย์กู้คืนบัญชีของคุณ
 
 ## HeaderLockup component, the header in account settings
 
@@ -333,6 +355,8 @@ la-heading = บัญชีที่เชื่อมโยง
 la-description = คุณได้รับอนุญาตให้เข้าถึงบัญชีต่อไปนี้แล้ว
 la-unlink-button = เลิกเชื่อมโยง
 la-unlink-account-button = เลิกเชื่อมโยง
+la-unlink-heading = เลิกลิงก์จากบัญชีบุคคลที่สาม
+la-unlink-content-3 = คุณแน่ใจหรือไม่ว่าต้องการเลิกลิงก์บัญชีของคุณ? การเลิกลิงก์บัญชีของคุณไม่ได้ทำให้คุณลงชื่อออกจากบริการที่เชื่อมต่อของคุณโดยอัตโนมัติ หากต้องการทำเช่นนั้น คุณจะต้องลงชื่อออกด้วยตนเองจากส่วน “บริการที่เชื่อมต่อ”
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -557,6 +581,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = ขั้นที่ { $currentStep } จาก { $numberOfSteps }
 
 ## Security section of Setting
 
@@ -570,6 +599,8 @@ security-password-created-date = สร้างเมื่อ { $date }
 security-not-set = ไม่ได้ตั้งไว้
 security-action-create = สร้าง
 security-set-password = ตั้งรหัสผ่านเพื่อซิงค์และใช้คุณลักษณะด้านความปลอดภัยของบัญชีบางอย่าง
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = ดูกิจกรรมบัญชีล่าสุด
 
 ## Switch component
 
@@ -610,20 +641,62 @@ se-heading = อีเมลสำรอง
     .header = อีเมลสำรอง
 se-cannot-refresh-email = ขออภัย เกิดปัญหาในการรีเฟรชอีเมลนั้น
 se-cannot-resend-code-3 = ขออภัย เกิดปัญหาในการส่งรหัสยืนยันใหม่
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } เป็นอีเมลหลักของคุณแล้ว
+se-set-primary-error-2 = ขออภัย เกิดปัญหาในการเปลี่ยนอีเมลหลักของคุณ
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = ลบ { $email } เรียบร้อยแล้ว
+se-delete-email-error-2 = ขออภัย เกิดปัญหาในการลบอีเมลนี้
+se-verify-session-3 = คุณจะต้องยืนยันวาระปัจจุบันของคุณเพื่อดำเนินการนี้
+se-verify-session-error-3 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
 # Button to remove the secondary email
 se-remove-email =
     .title = ลบอีเมล
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = เรียกอีเมลใหม่
+se-unverified-2 = ยังไม่ยืนยัน
+se-resend-code-2 =
+    จำเป็นต้องมีการยืนยัน <button>ส่งรหัสยืนยันอีกครั้ง</button>
+    หากไม่ได้อยู่ในกล่องจดหมายหรือโฟลเดอร์สแปมของคุณ
+# Button to make secondary email the primary
+se-make-primary = ทำให้เป็นหลัก
+se-default-content = เข้าถึงบัญชีของคุณหากคุณไม่สามารถเข้าสู่ระบบอีเมลหลักของคุณได้
+se-content-note-1 =
+    หมายเหตุ: อีเมลสำรองจะไม่กู้คืนข้อมูลของคุณ คุณจะ
+    ต้องมี<a>คีย์กู้คืนบัญชี</a>จึงจะกู้คืนได้
+# Default value for the secondary email
+se-secondary-email-none = ไม่มี
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = การยืนยันตัวตนแบบสองชั้น
+tfa-row-disabled-2 = ปิดใช้งานการยืนยันตัวตนแบบสองชั้นแล้ว
 tfa-row-enabled = เปิดใช้งานอยู่
 tfa-row-not-set = ไม่ได้ตั้งค่า
 tfa-row-action-add = เพิ่ม
 tfa-row-action-disable = ปิดใช้งาน
+tfa-row-button-refresh =
+    .title = เรียกการยืนยันตัวตนแบบสองชั้นใหม่
+tfa-row-cannot-refresh =
+    ขออภัย เกิดปัญหาในการเรียกการยืนยันตัวตน
+    แบบสองชั้นใหม่
+tfa-row-content-explain =
+    ป้องกันไม่ให้บุคคลอื่นใดเข้าสู่ระบบโดยกำหนด
+    รหัสเฉพาะที่คุณเข้าถึงได้เพียงคนเดียว
+tfa-row-cannot-verify-session-4 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
+tfa-row-disable-modal-heading = ต้องการปิดใช้งานการยืนยันตัวตนแบบสองชั้นหรือไม่?
 tfa-row-disable-modal-confirm = ปิดใช้งาน
+tfa-row-disable-modal-explain-1 =
+    คุณจะไม่สามารถยกเลิกการกระทำนี้ได้ คุณยัง
+    มีตัวเลือกในการ<linkExternal>แทนที่รหัสยืนยันตัวตนสำรองของคุณ</linkExternal>
 tfa-row-change-modal-confirm = เปลี่ยน
 
 ## TermsPrivacyAgreement
