@@ -21,11 +21,23 @@ link-expired-resent-code-error-message = มีบางอย่างผิด
 
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } จะถูกเปลี่ยนชื่อเป็น { -product-mozilla-accounts } ในวันที่ 1 พ.ย. นี้
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = คุณจะยังลงชื่อเข้าด้วยชื่อผู้ใช้และรหัสผ่านเดียวกันอยู่ และจะไม่มีการเปลี่ยนแปลงอื่นใดกับผลิตภัณฑ์ที่คุณใช้
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = เราได้เปลี่ยนชื่อ{ -product-firefox-accounts } เป็น{ -product-mozilla-accounts } แล้ว คุณจะยังลงชื่อเข้าด้วยชื่อผู้ใช้และรหัสผ่านเดียวกันอยู่ และจะไม่มีการเปลี่ยนแปลงอื่นใดกับผลิตภัณฑ์ที่คุณใช้
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = เรียนรู้เพิ่มเติม
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = ดาวน์โหลดและดำเนินการต่อ
+    .title = ดาวน์โหลดและดำเนินการต่อ
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -49,8 +61,6 @@ choose-what-to-sync-option-prefs =
     .label = การกำหนดลักษณะ
 choose-what-to-sync-option-addresses =
     .label = ที่อยู่
-choose-what-to-sync-option-creditcards =
-    .label = บัตรเครดิต
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -78,14 +88,25 @@ datablock-print =
 
 signup-new-password-label =
     .label = รหัสผ่าน
+signup-confirm-password-label =
+    .label = ทวนรหัสผ่าน
+signup-submit-button = สร้างบัญชี
+form-reset-password-with-balloon-new-password =
+    .label = รหัสผ่านใหม่
+form-reset-password-with-balloon-confirm-password =
+    .label = ป้อนรหัสผ่านอีกครั้ง
 form-reset-password-with-balloon-submit-button = ตั้งรหัสผ่านใหม่
 form-reset-password-with-balloon-match-error = รหัสผ่านไม่ตรงกัน
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = จำเป็นต้องกรอกช่องนี้
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = คีย์กู้คืนบัญชี { -brand-firefox }
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
