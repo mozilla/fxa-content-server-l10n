@@ -697,7 +697,10 @@ tfa-row-disable-modal-confirm = ปิดใช้งาน
 tfa-row-disable-modal-explain-1 =
     คุณจะไม่สามารถยกเลิกการกระทำนี้ได้ คุณยัง
     มีตัวเลือกในการ<linkExternal>แทนที่รหัสยืนยันตัวตนสำรองของคุณ</linkExternal>
+tfa-row-cannot-disable-2 = ไม่สามารถปิดใช้งานการยืนยันตัวตนแบบสองชั้นได้
+tfa-row-change-modal-heading-1 = ต้องการเปลี่ยนรหัสยืนยันตัวตนสำรองหรือไม่?
 tfa-row-change-modal-confirm = เปลี่ยน
+tfa-row-change-modal-explain = คุณจะไม่สามารถยกเลิกการกระทำนี้ได้
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -711,6 +714,7 @@ tfa-row-change-modal-confirm = เปลี่ยน
 
 auth-error-102 = บัญชีที่ไม่รู้จัก
 auth-error-103 = รหัสผ่านไม่ถูกต้อง
+auth-error-105-2 = รหัสยืนยันไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -718,6 +722,13 @@ auth-error-110 = โทเคนไม่ถูกต้อง
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = คุณได้พยายามหลายครั้งเกินไป โปรดลองอีกครั้ง{ $retryAfter }
+auth-error-138-2 = วาระที่ยังไม่ยืนยัน
+auth-error-139 = อีเมลสำรองต้องแตกต่างจากอีเมลของบัญชีคุณ
+auth-error-155 = ไม่พบโทเค็น TOTP
+auth-error-183-2 = รหัสยืนยันไม่ถูกต้องหรือหมดอายุ
+auth-error-1008 = รหัสผ่านใหม่ของคุณต้องไม่เหมือนเดิม
+auth-error-1011 = ต้องการอีเมลที่ถูกต้อง
+auth-error-1062 = การเปลี่ยนเส้นทางไม่ถูกต้อง
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -728,6 +739,8 @@ cannot-create-account-learn-more-link = เรียนรู้เพิ่ม�
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = คุณได้ลงชื่อเข้า { -brand-firefox } แล้ว
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
