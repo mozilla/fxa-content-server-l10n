@@ -102,8 +102,8 @@ choose-what-to-sync-option-prefs =
     .label = Indstillinger
 choose-what-to-sync-option-addresses =
     .label = Adresser
-choose-what-to-sync-option-creditcards =
-    .label = Betalingskort
+choose-what-to-sync-option-paymentmethods =
+    .label = Betalingsmetoder
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -170,7 +170,6 @@ form-verify-code-default-error = Dette felt er påkrævet
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Genoprettelsesnøgle til { -brand-firefox }-konto
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkendelseskoder
 get-data-trio-title-backup-verification-codes = Reserve-godkendelseskoder
 get-data-trio-download-2 =
     .title = Hent
@@ -307,10 +306,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento-menu
-bento-menu-title-2 = { -brand-mozilla } Bento-menu
 bento-menu-title-3 = Produkter fra { -brand-mozilla }
-bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
 bento-menu-tagline = Flere produkter fra { -brand-mozilla }, der beskytter dit privatliv
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -380,18 +376,8 @@ cs-disconnect-sync-opt-not-say = Det vil jeg helst ikke oplyse
 
 cs-disconnect-advice-confirm = Ok, forstået
 cs-disconnect-lost-advice-heading = Afbrudt forbindelsen til mistet eller stjålet enhed
-cs-disconnect-lost-advice-content-2 =
-    Da din enhed er mistet eller stjålet, skal
-    du ændre adgangskoden til din { -product-firefox-account }
-    i dine kontoindstillinger for at beskytte dine informationer. Du skal også kigge efter
-    oplysninger fra producenten af din enhed om fjernsletning af dine data.
 cs-disconnect-lost-advice-content-3 = Da din enhed er mistet eller stjålet, skal du ændre adgangskoden til din { -product-mozilla-account } i dine kontoindstillinger for at beskytte dine informationer. Du skal også kigge efter oplysninger fra producenten af din enhed om fjernsletning af dine data.
 cs-disconnect-suspicious-advice-heading = Afbrudt forbindelsen til mistænkelig enhed
-cs-disconnect-suspicious-advice-content =
-    Hvis den frakoblede enhed virkelig er mistænkelig,
-    skal du ændre adgangskoden til din { -product-firefox-account }
-    i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre
-    adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
 cs-disconnect-suspicious-advice-content-2 = Hvis den frakoblede enhed virkelig er mistænkelig, skal du ændre adgangskoden til din { -product-mozilla-account } i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
 cs-sign-out-button = Log ud
 
@@ -401,20 +387,15 @@ cs-sign-out-button = Log ud
 ## Data collection section
 
 dc-heading = Dataindsamling og -brug
-dc-subheader = Hjælp med at forbedre { -product-firefox-accounts }
 dc-subheader-2 = Hjælp med at forbedre { -product-mozilla-accounts }
-dc-subheader-content = Tillad at { -product-firefox-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
 dc-subheader-content-2 = Tillad at { -product-mozilla-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
-dc-opt-out-success = Fravalget lykkedes. { -product-firefox-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-out-success-2 = Fravalget lykkedes. { -product-mozilla-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
-dc-opt-in-success = Tak! Deling af disse data hjælper os med at forbedre { -product-firefox-accounts }.
 dc-opt-in-success-2 = Tak! Deling af disse data hjælper os med at forbedre { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Der opstod desværre et problem med at ændre din indstilling for dataindsamling
 dc-learn-more = Læs mere
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account }-menu
 drop-down-menu-title-2 = { -product-mozilla-account }-menu
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -503,7 +484,6 @@ header-menu-open = Luk menu
 header-menu-closed = Menu til websteds-navigation
 header-back-to-top-link =
     .title = Tilbage til toppen
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Hjælp
 
@@ -630,9 +610,7 @@ delete-account-header =
     .title = Slet konto
 delete-account-step-1-2 = Trin 1 af 2
 delete-account-step-2-2 = Trin 2 af 2
-delete-account-confirm-title-3 = Du har muligvis knyttet din { -product-firefox-account } til en eller flere af følgende { -brand-mozilla }-produkter eller tjenester, der sikrer dit privatliv og øger din produktivitet på nettet:
 delete-account-confirm-title-4 = Du har muligvis knyttet din { -product-mozilla-account } til en eller flere af følgende { -brand-mozilla }-produkter eller tjenester, der sikrer dit privatliv og øger din produktivitet på nettet:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -726,6 +704,10 @@ add-secondary-email-enter-address =
     .label = Indtast mailadresse
 add-secondary-email-cancel-button = Annuller
 add-secondary-email-save-button = Gem
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Mail-masker kan ikke bruges som sekundær mailadresse
 
 ## Verify secondary email page
 
@@ -943,23 +925,13 @@ tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Ved at fortsætte accepterer du:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ved at fortsætte accepterer du:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivserklæring</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivserklæring</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor }s <monitorTos>tjenestevilkår og privatlivserklæring</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>tjenestevilkår og privatlivserklæring</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox }' <firefoxTos>tjenestevilkår</firefoxTos> og <firefoxPrivacy>privatlivserklæring</firefoxPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Tjenestevilkår</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>privatlivserklæring</mozSubscriptionPrivacyLink> for { -brand-mozilla }s abonnementstjenester
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tjenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>privatlivserklæring</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Ved at fortsætte accepterer du <firefoxTos>tjenestevilkårene</firefoxTos> og <firefoxPrivacy>privatlivserklæringen</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Ved at fortsætte accepterer du <mozillaAccountsTos>tjenestevilkårene</mozillaAccountsTos> og <mozillaAccountsPrivacy>privatlivserklæringen</mozillaAccountsPrivacy>.
 
@@ -1003,7 +975,6 @@ auth-error-1062 = Ugyldig omdirigering
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Kan ikke oprette en konto
-cannot-create-account-requirements = Du skal opfylde visse alderskriterier for at oprette en { -product-firefox-account }.
 cannot-create-account-requirements-2 = Du skal opfylde visse alderskriterier for at oprette en { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Læs mere
@@ -1039,7 +1010,6 @@ connect-another-device-ios-complete-setup-message = Log ind på { -brand-firefox
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Lokalt lager og cookies er påkrævet
-cookies-disabled-enable-prompt = Du skal aktivere cookies og lokalt lager i din browser for at tilgå { -product-firefox-accounts }. Dette vil aktivere funktioner som fx at huske dig mellem sessioner.
 cookies-disabled-enable-prompt-2 = Du skal aktivere cookies og lokalt lager i din browser for at tilgå din { -product-mozilla-account }. Dette vil aktivere funktioner som fx at huske dig mellem sessioner.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Prøv igen
@@ -1240,7 +1210,6 @@ account-recovery-confirm-key-heading-w-default-service = Nulstil adgangskode med
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Nulstil adgangskode med genoprettelsesnøgle til kontoen <span>for at fortsætte til { $serviceName }</span>
-account-recovery-confirm-key-instructions = Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din { -product-firefox-account } igen.
 account-recovery-confirm-key-instructions-2 = Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din { -product-mozilla-account } igen.
 account-recovery-confirm-key-warning-message = <span>BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt din genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data som fx historik og bogmærker).
 # Prompts the user to enter their account recovery code
@@ -1321,8 +1290,6 @@ confirm-signin-message = Tjek din mail for det login-bekræfteleslink, der er se
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Indtast adgangskoden <span>til din { -product-firefox-account }</span>
-# Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Indtast adgangskoden <span>til din { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1377,10 +1344,6 @@ signin-reported-message = Vores team har fået besked. Rapporter som denne hjæl
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Indtast bekræftelseskode<span> til din { -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Indtast bekræftelseskoden<span> til din { -product-mozilla-account }</span>
@@ -1431,10 +1394,6 @@ confirm-signup-instruction = Tjek din mail for det bekræfteleslink, der er send
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Indtast bekræftelseskode
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Indtast bekræftelseskode <span>til din { -product-firefox-account }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
