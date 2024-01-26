@@ -920,6 +920,8 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 terms-privacy-agreement-intro-2 = Al continuar, aceptas:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Términos de servicio</pocketTos> y <pocketPrivacy>Aviso de privacidad</pocketPrivacy> de { -product-pocket }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = Los <mozSubscriptionTosLink>Términos del servicio</mozSubscriptionTosLink> y la <mozSubscriptionPrivacyLink>Política de Privacidad</mozSubscriptionPrivacyLink> de los Servicios de suscripción de { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Términos de servicio</mozillaAccountsTos> y <mozillaAccountsPrivacy>Aviso de privacidad</mozillaAccountsPrivacy> de { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
