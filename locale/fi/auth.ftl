@@ -11,6 +11,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronoi laitteet">
 body-devices-image = <img data-l10n-name="devices-image" alt="Laitteet">
 fxa-privacy-url = { -brand-mozilla }n tietosuojakäytäntö
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } - tietosuojakäytäntö
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } -käyttöehdot
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla }n logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla }n logo">
@@ -39,7 +40,9 @@ subplat-reactivate = Aktivoi tilaus uudelleen
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Päivitä laskutustiedot
 subplat-privacy-policy = { -brand-mozilla }n tietosuojakäytäntö
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } - tietosuojakäytäntö
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } -käyttöehdot
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Lakiasiat
