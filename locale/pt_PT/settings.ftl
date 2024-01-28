@@ -1234,8 +1234,8 @@ complete-reset-password-success-alert = Palavra-passe definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, ocorreu um problema ao definir a sua palavra-passe
-complete-reset-password-recovery-key-error-v2 = Pedimos desculpa, mas ocorreu um problema ao verificar se tem uma chave de recuperação da conta.
-complete-reset-password-recovery-key-link = Reponha a sua palavra-passe com a sua chave de recuperação da conta.
+complete-reset-password-recovery-key-error-v2 = Pedimos desculpa, mas ocorreu um problema ao verificar se tem uma chave de recuperação de conta.
+complete-reset-password-recovery-key-link = Reponha a sua palavra-passe com a sua chave de recuperação de conta.
 
 ## Confirm Reset Password Component
 
@@ -1255,7 +1255,7 @@ reset-password-heading-w-default-service = Redefina a palavra-passe <span>para c
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reponha a palavra-passe <span>para continuar para { $serviceName }</span>
-reset-password-warning-message-2 = <span>Nota:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores, e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
+reset-password-warning-message-2 = <span>Nota:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = E-mail
@@ -1277,7 +1277,7 @@ validating-signin = A validar o início de sessão…
 
 confirm-signin-header = Confirmar este início de sessão
 # { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Verifique o seu email para a ligação de confirmação de início de sessão enviada para { $email }
+confirm-signin-message = Consulte o seu e-mail para a ligação de confirmação de início de sessão enviada para { $email }
 
 ## Signin page
 
@@ -1296,10 +1296,10 @@ signin-use-a-different-account-link = Utilizar uma conta diferente
 signin-forgot-password-link = Esqueceu-se da palavra-passe?
 signin-bounced-header = Desculpe. Nós bloqueámos a sua conta.
 # $email (string) - The user's email.
-signin-bounced-message = O e-mail de confirmação que enviámos para { $email } foi retornado e bloqueámos a sua conta para proteger os seus dados do { -brand-firefox }.
+signin-bounced-message = O e-mail de confirmação que enviámos para { $email } foi devolvido e bloqueámos a sua conta para proteger os seus dados do { -brand-firefox }.
 # linkExternal is button which logs the user's action and navigates them to mozilla support
-signin-bounced-help = Se este é um endereço de email válido, <linkExternal>deixe-nos saber</linkExternal> e podemos ajudar a desbloquear a sua conta.
-signin-bounced-create-new-account = Já não possui esse email? Crie uma nova conta
+signin-bounced-help = Se este é um endereço de e-mail válido, <linkExternal>informe-nos</linkExternal> e podemos ajudar a desbloquear a sua conta.
+signin-bounced-create-new-account = Já não tem este e-mail? Crie uma nova conta
 back = Voltar
 
 ## SigninRecoveryCode page
@@ -1313,7 +1313,7 @@ signin-recovery-code-heading-w-default-service = Insira o código de autenticaç
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Insira o código de autenticação de recuperação <span>para continuar para { $serviceName }</span>
+signin-recovery-code-heading-w-custom-service = Introduza o código de autenticação de recuperação <span>para continuar para { $serviceName }</span>
 signin-recovery-code-instruction = Insira um código de autenticação de recuperação que lhe foi fornecido durante a configuração da autenticação de dois fatores.
 signin-recovery-code-input-label = Insira o código de recuperação de autenticação de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1338,9 +1338,9 @@ signin-reported-message = A nossa equipa foi notificada. As denúncias como esta
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-signin-token-code-heading-2 = Insira o código de confirmação<span> para a sua { -product-mozilla-account }</span>
+signin-token-code-heading-2 = Introduza o código de confirmação <span>para a sua { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Digite dentro de 5 minutos o código que foi enviado para { $email }.
+signin-token-code-instruction = Introduza o código que foi enviado para { $email } dentro de 5 minutos.
 signin-token-code-input-label-v2 = Inserir código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
@@ -1360,8 +1360,8 @@ signin-totp-code-heading-w-default-service-v2 = Insira o código de autenticaç�
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Insira o código de autenticação <span>para continuar para { $serviceName }</span>
-signin-totp-code-instruction-v2 = Abra a sua aplicação de autenticação e introduza o código de autenticação providenciado.
+signin-totp-code-heading-w-custom-service-v2 = Introduza o código de autenticação <span>para continuar para { $serviceName }</span>
+signin-totp-code-instruction-v2 = Abra a sua aplicação de autenticação e introduza o código de autenticação fornecido.
 signin-totp-code-input-label-v2 = Inserir código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
@@ -1376,7 +1376,7 @@ signin-totp-code-required-error = É necessário o código de autenticação
 
 confirm-signup-heading = Confirmar a sua conta
 # { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Verifique o seu email para a ligação de confirmação enviada para { $email }
+confirm-signup-instruction = Consulte o seu e-mail para a ligação de confirmação enviada para { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
