@@ -113,7 +113,7 @@ payment-error-manage-subscription-button = Gerir a minha subscrição
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed-2 = Já tem uma subscrição do(a) { $productName } através das lojas de aplicações da { -brand-google } ou da { -brand-apple }.
 iap-upgrade-no-bundle-support = Não suportamos atualizações para estas subscrições, mas iremos suportar em breve.
-iap-upgrade-contact-support = Pode ainda obter este produto — por favor, contacte o suporte para que possamos ajudar.
+iap-upgrade-contact-support = Ainda pode obter este produto – contacte o suporte para que possamos ajudar.
 iap-upgrade-get-help-button = Obter ajuda
 
 ## Component - PaymentForm
@@ -234,35 +234,35 @@ price-details-tax-day =
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } impostos semanais
-       *[other] { $priceAmount } + impostos { $taxAmount } a cada { $intervalCount } semana
+        [one] { $priceAmount } + { $taxAmount } de imposto, por semana
+       *[other] { $priceAmount } + { $taxAmount } de imposto, a cada { $intervalCount } semanas
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } impostos semanais
-           *[other] { $priceAmount } + impostos { $taxAmount } a cada { $intervalCount } semana
+            [one] { $priceAmount } + { $taxAmount } de imposto, por semana
+           *[other] { $priceAmount } + { $taxAmount } de imposto, a cada { $intervalCount } semanas
         }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } impostos mensais
-       *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } mês
+        [one] { $priceAmount } + { $taxAmount } de imposto, por mês
+       *[other] { $priceAmount } + { $taxAmount } de imposto, a cada { $intervalCount } meses
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } impostos mensais
-           *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } mês
+            [one] { $priceAmount } + { $taxAmount } de imposto, por mês
+           *[other] { $priceAmount } + { $taxAmount } de imposto, a cada { $intervalCount } meses
         }
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } impostos por ano
-       *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } anos
+        [one] { $priceAmount } + { $taxAmount } de imposto, por ano
+       *[other] { $priceAmount } + { $taxAmount } de imposto, a cada { $intervalCount } anos
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } impostos por ano
-           *[other] { $priceAmount } + { $taxAmount } a cada { $intervalCount } anos
+            [one] { $priceAmount } + { $taxAmount } de imposto, por ano
+           *[other] { $priceAmount } + { $taxAmount } de imposto, a cada { $intervalCount } anos
         }
 
 ## Component - SubscriptionTitle
@@ -406,7 +406,7 @@ subscription-iaperrorupgrade-title = Nós ainda não o podemos atualizar
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play-2 = Loja { -google-play }
+brand-name-google-play-2 = { -google-play }
 brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
@@ -421,17 +421,17 @@ sub-change-submit = Confirmar alteração
 sub-update-current-plan-label = Plano atual
 sub-update-new-plan-label = Novo plano
 sub-update-total-label = Novo total
-sub-update-prorated-upgrade = Atualização proporcional
+sub-update-prorated-upgrade = Upgrade proporcional
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
-sub-update-new-plan-daily = { $productName } (diariamente)
-sub-update-new-plan-weekly = { $productName } (Semanalmente)
+sub-update-new-plan-daily = { $productName } (diário)
+sub-update-new-plan-weekly = { $productName } (semanal)
 sub-update-new-plan-monthly = { $productName } (mensal)
-sub-update-new-plan-yearly = { $productName } (anualmente)
+sub-update-new-plan-yearly = { $productName } (anual)
 
 ##
 
@@ -463,7 +463,7 @@ sub-route-idx-cancel-msg =
     A sua subscrição { $name } foi cencelada.
     <br />
     Ainda terá acesso a { $name } até { $date }.
-sub-route-idx-cancel-aside-2 = Tem questões? Visite o <a>{ -brand-mozilla } Suporte</a>.
+sub-route-idx-cancel-aside-2 = Tem questões? Visite o <a>Apoio da { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -498,7 +498,7 @@ sub-expires-on = Expira a { $date }
 pay-update-card-exp = Expira em { $expirationDate }
 sub-route-idx-updating = A atualizar a informação de pagamento…
 sub-route-payment-modal-heading = Informação de faturação inválida
-sub-route-payment-modal-message-2 = Parece haver um erro com a sua conta { -brand-paypal }, precisamos que execute os passos necessários para resolver este problema de pagamento.
+sub-route-payment-modal-message-2 = Parece existir um erro com a sua conta { -brand-paypal }. Precisamos que execute os passos necessários para resolver este problema de pagamento.
 sub-route-missing-billing-agreement-payment-alert = Informação de pagamento inválida; há um erro com a sua conta. <div>Gerir</div>
 sub-route-funding-source-payment-alert = Informação de pagamento inválida; há um erro com a sua conta. Este alerta pode levar algum tempo a desaparecer depois de atualizar as suas informações com sucesso. <div>Gerir</div>
 
@@ -512,7 +512,7 @@ sub-invoice-preview-error-text = Não foi encontrada a pré-visualização da fa
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title-2 = A procurar pela sua subscrição premium do { -product-pocket }?
+manage-pocket-title-2 = Está à procura da sua subscrição premium do { -product-pocket }?
 manage-pocket-body-2 = Para gerir o mesmo, <linkExternal>clique aqui</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate

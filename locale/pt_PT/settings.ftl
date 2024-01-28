@@ -12,7 +12,7 @@ banner-dismiss-button =
     .aria-label = Fechar
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Email reenviado. Adicione { $accountsEmail } aos seus contactos para garantir uma entrega suave.
+link-expired-resent-link-success-message = E-mail reenviado. Adicione { $accountsEmail } aos seus contactos para garantir uma entrega sem problemas.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo correu mal. Não foi possível enviar um novo código.
 
@@ -26,7 +26,7 @@ brand-banner-dismiss-button-2 =
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } será renomeada { -product-mozilla-accounts } no dia 1 de novembro
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe e não existem outras alterações nos produtos que utiliza.
+brand-prelaunch-subtitle = Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe, e não existem outras alterações nos produtos que utiliza.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
 brand-postlaunch-title = Nós renomeámos as { -product-firefox-accounts } para { -product-mozilla-accounts }. Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe e não existem outras alterações nos produtos que utiliza.
