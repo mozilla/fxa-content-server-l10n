@@ -468,9 +468,9 @@ flow-recovery-key-info-header = Criar uma chave de recuperação de conta no cas
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Alterar a sua chave de recuperação de conta
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point-v2 = Nós encriptamos os dados de navegação –– palavras-passe, marcadores, e mais. É ótimo para a privacidade, mas pode perder os seus dados se esquecer a sua palavra-passe.
+flow-recovery-key-info-shield-bullet-point-v2 = Nós encriptamos os dados de navegação – palavras-passe, marcadores, entre outros. É ótimo para a privacidade, mas pode perder os seus dados se se esquecer da sua palavra-passe.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point-v2 = É por isso que criar uma chave de recuperação da conta é tão importante –– pode utilizar a mesma para restaurar os seus dados.
+flow-recovery-key-info-key-bullet-point-v2 = É por isto que criar uma chave de recuperação da conta é tão importante – pode utilizá-la para restaurar os seus dados.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
@@ -528,7 +528,7 @@ nav-email-comm = Comunicações por e-mail
 
 tfa-replace-code-error-3 = Ocorreu um problema ao substituir os seus códigos de autenticação de recuperação
 tfa-create-code-error = Ocorreu um problema ao criar os seus códigos de autenticação de recuperação
-tfa-replace-code-success-1 = Novos códigos foram criados. Guarde estes códigos de autenticação de recuperação de utilização única num local seguro - precisará dos mesmos para aceder à sua conta, caso não tenha o seu dispositivo móvel.
+tfa-replace-code-success-1 = Foram criados novos códigos. Guarde estes códigos de autenticação de recuperação de utilização única num local seguro – precisará dos mesmos para aceder à sua conta, caso não tenha o seu dispositivo móvel.
 tfa-replace-code-success-alert-3 = Códigos de autenticação de recuperação de conta atualizados
 tfa-replace-code-1-2 = Passo 1 de 2
 tfa-replace-code-2-2 = Passo 2 de 2
@@ -654,7 +654,7 @@ display-name-success-alert-2 = Nome de apresentação atualizado
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Atividade Recente da Conta
-recent-activity-account-create-v2 = Criada conta
+recent-activity-account-create-v2 = Conta criada
 recent-activity-account-disable-v2 = Conta desativada
 recent-activity-account-enable-v2 = Conta ativada
 recent-activity-account-login-v2 = Início de sessão iniciado
@@ -662,12 +662,12 @@ recent-activity-account-reset-v2 = Reposição de palavra-passe iniciada
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = Rejeições de e-mail removidas
-recent-activity-account-login-failure = A tentativa de início de sessão à conta falhou
-recent-activity-account-two-factor-added = Autenticação de dois passos ativada
-recent-activity-account-two-factor-requested = Solicitada autenticação de dois passos
-recent-activity-account-two-factor-failure = A autenticação de dois passos falhou
-recent-activity-account-two-factor-success = Autenticação de dois passos com sucesso
-recent-activity-account-two-factor-removed = Autenticação de dois passos removida
+recent-activity-account-login-failure = Tentativa falhada de início de sessão na conta
+recent-activity-account-two-factor-added = Autenticação de dois fatores ativada
+recent-activity-account-two-factor-requested = Solicitada autenticação de dois fatores
+recent-activity-account-two-factor-failure = Falha na autenticação de dois fatores
+recent-activity-account-two-factor-success = Autenticação de dois fatores bem sucedida
+recent-activity-account-two-factor-removed = Autenticação de dois fatores removida
 recent-activity-account-password-reset-requested = A conta solicitou a redefinição da palavra-passe
 recent-activity-account-password-reset-success = Palavra-passe da conta reposta com sucesso
 recent-activity-account-recovery-key-added = Chave de recuperação da conta ativada
@@ -731,25 +731,25 @@ delete-account-link = Eliminar conta
 
 ## Two Step Authentication
 
-tfa-title = Autenticação de dois passos
+tfa-title = Autenticação de dois fatores
 tfa-step-1-3 = Passo 1 de 3
 tfa-step-2-3 = Passo 2 de 3
 tfa-step-3-3 = Passo 3 de 3
 tfa-button-continue = Continuar
 tfa-button-cancel = Cancelar
 tfa-button-finish = Concluir
-tfa-incorrect-totp = Código de autenticação de dois passos inválido
+tfa-incorrect-totp = Código de autenticação de dois fatores inválido
 tfa-cannot-retrieve-code = Houve um problema ao obter o seu código.
 tfa-cannot-verify-code-4 = Ocorreu um problema ao confirmar o seu código de autenticação de recuperação
 tfa-incorrect-recovery-code-1 = Código de autenticação de recuperação incorreto
-tfa-enabled = Autenticação de dois passos ativada
+tfa-enabled = Autenticação de dois fatores ativada
 tfa-scan-this-code = Digitalize este código QR utilizando uma das seguintes <linkExternal>aplicações de autenticação</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
-    Utilize o código { $secret } para configurar a autenticação de dois passos nas 
+    Utilize o código { $secret } para configurar a autenticação de dois fatores nas 
     aplicações suportadas.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
@@ -883,25 +883,25 @@ se-secondary-email-none = Nenhum
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = Autenticação de dois passos
-tfa-row-disabled-2 = Autenticação de dois passos desativada
+tfa-row-header = Autenticação de dois fatores
+tfa-row-disabled-2 = Autenticação de dois fatores desativada
 tfa-row-enabled = Ativado
 tfa-row-not-set = Não definida
 tfa-row-action-add = Adicionar
 tfa-row-action-disable = Desativar
 tfa-row-button-refresh =
-    .title = Atualizar a autenticação de dois passos
+    .title = Atualizar a autenticação de dois fatores
 tfa-row-cannot-refresh =
     Pedimos desculpa, mas ocorreu um problema ao atualizar 
-    a autenticação em dois passos.
+    a autenticação de dois fatores.
 tfa-row-content-explain =
     Impedir que outra pessoa inicie sessão exigindo um
     código único ao qual apenas você tem acesso.
 tfa-row-cannot-verify-session-4 = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
-tfa-row-disable-modal-heading = Desativar a autenticação de dois passos?
+tfa-row-disable-modal-heading = Desativar a autenticação de dois fatores?
 tfa-row-disable-modal-confirm = Desativar
 tfa-row-disable-modal-explain-1 = Não poderá desfazer esta ação. Tem também a opção de <linkExternal>substituir os seus códigos de autenticação de recuperação</linkExternal>.
-tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação de dois passos
+tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação de dois fatores
 tfa-row-change-modal-heading-1 = Alterar códigos de autenticação de recuperação?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Não poderá desfazer esta ação.
@@ -1041,9 +1041,9 @@ inline-totp-setup-continue-button = Continuar
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Adicione uma camada de segurança à sua conta ao requerer códigos de autenticação de uma das <authenticationAppsLink>aplicações de autenticação</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header-2 = Ative a autenticação de dois passos <span>para continuar para as definições da conta</span>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Ative a autenticação de dois fatores <span>para continuar para as definições da conta</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ative a autenticação de dois passos <span>para continuar para { $serviceName }</span>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ative a autenticação de dois fatores <span>para continuar para { $serviceName }</span>
 inline-totp-setup-ready-button = Pronto
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
@@ -1307,7 +1307,7 @@ signin-recovery-code-heading-w-default-service = Insira o código de autenticaç
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Insira o código de autenticação de recuperação <span>para continuar para { $serviceName }</span>
-signin-recovery-code-instruction = Por favor, insira um código de autenticação de recuperação que lhe foi fornecido durante a configuração da autenticação de dois passos.
+signin-recovery-code-instruction = Insira um código de autenticação de recuperação que lhe foi fornecido durante a configuração da autenticação de dois fatores.
 signin-recovery-code-input-label = Insira o código de recuperação de autenticação de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
