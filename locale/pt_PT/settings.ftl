@@ -670,9 +670,9 @@ recent-activity-account-two-factor-success = Autenticação de dois fatores bem 
 recent-activity-account-two-factor-removed = Autenticação de dois fatores removida
 recent-activity-account-password-reset-requested = A conta solicitou a redefinição da palavra-passe
 recent-activity-account-password-reset-success = Palavra-passe da conta reposta com sucesso
-recent-activity-account-recovery-key-added = Chave de recuperação da conta ativada
-recent-activity-account-recovery-key-verification-failure = Falha na verificação da chave de recuperação da conta
-recent-activity-account-recovery-key-verification-success = Chave de recuperação da conta verificada com sucesso
+recent-activity-account-recovery-key-added = Chave de recuperação de conta ativada
+recent-activity-account-recovery-key-verification-failure = Falha na verificação da chave de recuperação de conta
+recent-activity-account-recovery-key-verification-success = Chave de recuperação de conta verificada com sucesso
 recent-activity-account-recovery-key-removed = Chave de recuperação de conta removida
 recent-activity-account-password-added = Nova palavra-passe adicionada
 recent-activity-account-password-changed = Palavra-passe alterada
@@ -759,8 +759,13 @@ tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autent
 tfa-enter-totp-v2 = Agora insira o código de segurança da aplicação de autenticação.
 tfa-input-enter-totp-v2 =
     .label = Inserir código de autenticação
-tfa-save-these-codes-1 = Guarde estes códigos de autenticação de recuperação de utilização única num local seguro para quando não tiver o seu dispositivo móvel.
-tfa-enter-code-to-confirm-1 = Por favor, introduza agora um dos seus códigos de autenticação de recuperação para confirmar que o guardou. Irá precisar de um código para iniciar sessão, caso não tenha acesso ao seu dispositivo móvel.
+tfa-save-these-codes-1 =
+    Guarde estes códigos de autenticação de recuperação de utilização única num local seguro, 
+    para quando não tiver o seu dispositivo móvel.
+tfa-enter-code-to-confirm-1 =
+    Introduza agora um dos seus códigos de autenticação de recuperação 
+    para confirmar que o guardou. Irá precisar de um código para iniciar sessão, caso não tenha 
+    acesso ao seu dispositivo móvel.
 tfa-enter-recovery-code-1 =
     .label = Insira um código de autenticação de recuperação
 
@@ -868,7 +873,9 @@ se-remove-email =
 se-refresh-email =
     .title = Atualizar e-mail
 se-unverified-2 = não confirmado
-se-resend-code-2 = Necessária confirmação. <button>Reenvie o código de confirmação</button> se não estiver na sua caixa de entrada ou na pasta de correio não-solicitado.
+se-resend-code-2 =
+    Confirmação necessária. <button>Reenvie o código de confirmação</button> 
+    se não estiver na sua caixa de entrada ou na pasta de correio não-solicitado.
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Aceda à sua conta se não conseguir iniciar sessão no seu e-mail principal.
@@ -900,7 +907,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
 tfa-row-disable-modal-heading = Desativar a autenticação de dois fatores?
 tfa-row-disable-modal-confirm = Desativar
-tfa-row-disable-modal-explain-1 = Não poderá desfazer esta ação. Tem também a opção de <linkExternal>substituir os seus códigos de autenticação de recuperação</linkExternal>.
+tfa-row-disable-modal-explain-1 = Não poderá anular esta ação. Tem também a opção de <linkExternal>substituir os seus códigos de autenticação de recuperação</linkExternal>.
 tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação de dois fatores
 tfa-row-change-modal-heading-1 = Alterar códigos de autenticação de recuperação?
 tfa-row-change-modal-confirm = Alterar
@@ -910,11 +917,11 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Ao proceder, concorda com o:
+terms-privacy-agreement-intro-2 = Ao continuar, concorda com os:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Termos do Serviço</pocketTos> e <pocketPrivacy>Informação de Privacidade</pocketPrivacy> do { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = Subscrição dos serviços da { -brand-mozilla } <mozSubscriptionTosLink>Termos do serviço</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informação de privacidade</mozSubscriptionPrivacyLink>
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Termos do serviço</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informação de privacidade</mozSubscriptionPrivacyLink> da subscrição dos serviços da { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Termos do Serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Informação de Privacidade</mozillaAccountsPrivacy> das { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
