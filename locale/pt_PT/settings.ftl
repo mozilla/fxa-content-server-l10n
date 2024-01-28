@@ -22,22 +22,22 @@ link-expired-resent-code-error-message = Algo correu mal. Não foi possível env
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
 brand-banner-dismiss-button-2 =
-    .aria-label = Fechar banner
+    .aria-label = Fechar faixa
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } será renomeada { -product-mozilla-accounts } no dia 1 de novembro
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe, e não existem outras alterações nos produtos que utiliza.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Nós renomeámos as { -product-firefox-accounts } para { -product-mozilla-accounts }. Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe e não existem outras alterações nos produtos que utiliza.
+brand-postlaunch-title = Nós renomeámos as { -product-firefox-accounts } para { -product-mozilla-accounts }. Irá continuar a iniciar sessão com o mesmo nome de utilizador e palavra-passe, e não existem outras alterações nos produtos que utiliza.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Saber mais
 # Alt text for close banner image
 brand-close-banner =
-    .alt = Fechar Faixa
+    .alt = Fechar faixa
 # Alt text for 'm' logo in banner header
 brand-m-logo =
-    .alt = Logótipo da { -brand-mozilla } m
+    .alt = Logótipo m da { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -48,12 +48,12 @@ brand-m-logo =
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Transferir e continuar
     .title = Transferir e continuar
-recovery-key-pdf-heading = Chave de Recuperação da Conta
+recovery-key-pdf-heading = Chave de recuperação da conta
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
 recovery-key-pdf-download-date = Gerado: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
-recovery-key-pdf-key-legend = Chave de Recuperação da Conta
+recovery-key-pdf-key-legend = Chave de recuperação da conta
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
