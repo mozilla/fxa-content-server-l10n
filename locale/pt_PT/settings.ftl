@@ -1002,7 +1002,7 @@ connect-another-device-ios-complete-setup-message = Inicie sessão no { -brand-f
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = O armazenamento local e os cookies são obrigatórios
-cookies-disabled-enable-prompt-2 = Por favor ative os cookies e armazenamento local no seu navegador para aceder à sua { -product-mozilla-account }. Ao fazê-lo irá ativar funcionalidades como memorizar-lhe entre sessões.
+cookies-disabled-enable-prompt-2 = Por favor, ative os cookies e armazenamento local no seu navegador para aceder à sua { -product-mozilla-account }. Ao fazê-lo irá ativar funcionalidades tais a memória entre sessões.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Tentar novamente
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1018,7 +1018,7 @@ inline-recovery-setup-header-default = Confirme o código de autenticação da c
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = Guarde os códigos de autenticação de recuperação <span>para continuar para o { $serviceName }</span>
+inline-recovery-setup-header = Guarde os códigos de autenticação de recuperação <span>para continuar para { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Guarde estes códigos de utilização única num local seguro para quando não tiver o seu dispositivo móvel.
 # This button allows a user to copy their recovery codes to their clipboard
