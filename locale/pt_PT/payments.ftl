@@ -44,8 +44,8 @@ new-user-confirm-email =
     .label = Confirme o seu e-mail
 new-user-subscribe-product-updates-mozilla = Eu gostaria de receber notícias e atualizações de produtos da { -brand-mozilla }
 new-user-subscribe-product-updates-snp = Eu gostaria de receber notícias e atualizações sobre segurança e privacidade da { -brand-mozilla }
-new-user-subscribe-product-updates-hubs = Eu gostaria de receber notícias e atualizações de produtos da { -product-mozilla-hubs } e da { -brand-mozilla }
-new-user-subscribe-product-updates-mdnplus = Eu gostaria de receber notícias e atualizações de produtos do { -product-mdn-plus } e da { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Eu gostaria de receber notícias e atualizações de produtos de { -product-mozilla-hubs } e da { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Eu gostaria de receber notícias e atualizações de produtos da { -product-mdn-plus } e da { -brand-mozilla }
 new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
 new-user-email-validate = O e-mail não é válido
 new-user-email-validate-confirm = Os e-mails não coincidem
@@ -100,7 +100,7 @@ payment-confirmation-download-button = Continuar para descarregar
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Eu autorizo a { -brand-mozilla } a cobrar o meu método de pagamento pelo valor mostrado, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até eu cancelar a minha subscrição.
+payment-confirm-with-legal-links-static-3 = Eu autorizo a { -brand-mozilla } a cobrar o meu método de pagamento pelo valor apresentado, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>Informação de privacidade</privacyNoticeLink>, até eu cancelar a minha subscrição.
 payment-confirm-checkbox-error = Precisa de concluir isto antes de continuar
 
 ## Component - PaymentErrorView
