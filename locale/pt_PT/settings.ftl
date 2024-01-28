@@ -185,9 +185,9 @@ get-data-trio-print-2 =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
-    .aria-label = Um computador e um telemóvel e a imagem de um coração quebrado em cada
+    .aria-label = Um computador e um telemóvel, e a imagem de um coração quebrado em cada um
 hearts-verified-image-aria-label =
-    .aria-label = Um computador, um telemóvel e um tablet com um coração a piscar em cada um
+    .aria-label = Um computador, um telemóvel e um tablet, com um coração a pulsar em cada um
 signin-recovery-code-image-description =
     .aria-label = Documento que contém texto oculto.
 signin-totp-code-image-label =
@@ -202,9 +202,9 @@ security-shield-aria-label =
 recovery-key-image-aria-label =
     .aria-label = Ilustração para representar uma chave de recuperação da conta.
 lock-image-aria-label =
-    .aria-label = Uma exemplo de uma bloqueio
+    .aria-label = Uma ilustração de um cadeado
 lightbulb-aria-label =
-    .aria-label = Imagem para representar a criação de uma dica de armazenamento.
+    .aria-label = Ilustração para representar a criação de uma dica de armazenamento.
 
 ## Input Password
 
@@ -262,7 +262,7 @@ confirmation-link-reused-message = A ligação de confirmação já foi utilizad
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Precisa desta palavra-passe para aceder a quaisquer dados encriptados guardados connosco.
-password-info-balloon-reset-risk-info = Uma reposição significa a perda potencial de dados como palavras-passe e marcadores.
+password-info-balloon-reset-risk-info = Uma reposição significa a perda potencial de dados, tais como palavras-passe e marcadores.
 
 ## PasswordStrengthBalloon component
 
@@ -270,12 +270,12 @@ password-strength-balloon-heading = Requisitos da palavra-passe
 password-strength-balloon-min-length = Pelo menos 8 carateres
 password-strength-balloon-not-email = Não é o seu endereço de e-mail
 password-strength-balloon-not-common = Não é uma palavra-passe comummente utilizada
-password-strength-balloon-stay-safe-tips = Mantenha-se seguro - Não reutilize palavras-passe. Veja mais dicas para <LinkExternal>criar palavras-passe fortes</LinkExternal>.
+password-strength-balloon-stay-safe-tips = Mantenha-se em segurança: não reutilize palavras-passe. Consulte mais dicas para <LinkExternal>criar palavras-passe fortes</LinkExternal>.
 
 ## Ready component
 
 reset-password-complete-header = A sua palavra-passe foi reposta
-ready-complete-set-up-instruction = Complete a configuração ao digitar a sua nova palavra-passe nos seus outros dispositivos { -brand-firefox }.
+ready-complete-set-up-instruction = Complete a configuração ao introduzir a sua nova palavra-passe nos seus outros dispositivos { -brand-firefox }.
 ready-start-browsing-button = Começar a navegar
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -422,16 +422,16 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Criar nova chave de rec
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Chave de recuperação da conta criada — Transferi-la e armazená-la agora
+flow-recovery-key-download-heading-v2 = Chave de recuperação da conta criada – Transfira e armazene a mesma agora
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Esta chave permite-lhe recuperar os seus dados caso se esqueça da sua palavra-passe. Transfira-o agora e guarde-o num lugar de que se lembre - não poderá voltar a esta página mais tarde.
+flow-recovery-key-download-info-v2 = Esta chave permite-lhe recuperar os seus dados caso se esqueça da sua palavra-passe. Transfira e guarde a mesma agora, num lugar que se lembre – não poderá voltar a esta página mais tarde.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuar sem transferir
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Locais para guardar a sua chave:
-flow-recovery-key-download-storage-ideas-folder-v2 = Pasta em dispositivo seguro
-flow-recovery-key-download-storage-ideas-cloud = Armazenamento em nuvem confiável
+flow-recovery-key-download-storage-ideas-folder-v2 = Pasta num dispositivo seguro
+flow-recovery-key-download-storage-ideas-cloud = Armazenamento de confiança na nuvem
 flow-recovery-key-download-storage-ideas-print-v2 = Cópia física impressa
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestor de palavras-passe
 
@@ -464,9 +464,9 @@ flow-recovery-key-hint-unsafe-char-error = A dica não pode conter carateres Uni
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
-flow-recovery-key-info-header = Criar uma chave de recuperação da conta no caso de se esquecer da sua palavra-passe
+flow-recovery-key-info-header = Criar uma chave de recuperação de conta no caso de se esquecer da sua palavra-passe
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
-flow-recovery-key-info-header-change-key = Alterar a sua chave de recuperação da conta
+flow-recovery-key-info-header-change-key = Alterar a sua chave de recuperação de conta
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Nós encriptamos os dados de navegação –– palavras-passe, marcadores, e mais. É ótimo para a privacidade, mas pode perder os seus dados se esquecer a sua palavra-passe.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
