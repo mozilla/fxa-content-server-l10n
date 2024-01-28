@@ -1,37 +1,20 @@
 ## Non-email strings
 
-session-verify-send-push-title = { -product-firefox-accounts }에 로그인하시겠습니까?
+session-verify-send-push-title-2 = { -product-mozilla-account }에 로그인하시겠습니까?
 session-verify-send-push-body-2 = 본인 확인을 위해 여기를 클릭하세요
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } 로고">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="동기화 기기">
 body-devices-image = <img data-l10n-name="devices-image" alt="장치">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } 개인정보 보호정책
-fxa-service-url = { -product-firefox-cloud } 이용약관
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 로고">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 로고">
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
 subplat-privacy-notice = 개인 정보 보호 정책
 subplat-privacy-plaintext = 개인정보처리방침:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = 이 이메일은 { $email }에 { -product-firefox-account }가 있고 { $productName }에 가입했기 때문에 발송되었습니다.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = 이 이메일은 { $email }에 { -product-firefox-account }가 있기 때문에 발송되었습니다.
-subplat-explainer-multiple = 이 이메일은 { $email }에 { -product-firefox-account }가 있고 여러 제품을 구독했기 때문에 발송되었습니다.
-subplat-explainer-was-deleted = 이 이메일은 { $email }에 { -product-firefox-account }이 등록되어있어 발송되었습니다.
-subplat-manage-account = <a data-l10n-name="subplat-account-page">계정 페이지</a> 를 방문하여 { -product-firefox-account } 설정을 관리하세요.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = 다음 계정 페이지를 방문하여 { -product-firefox-account } 설정을 관리하세요. { $accountSettingsUrl }
 subplat-terms-policy = 약관 및 취소 정책
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = 구독 취소
@@ -41,8 +24,6 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = 결제 정보 업데이트
 subplat-privacy-policy = { -brand-mozilla } 개인 정보 보호 정책
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = { -product-firefox-cloud } 이용약관
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = 법적 고지
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = 개인 정보 정책
@@ -192,9 +173,7 @@ downloadSubscription-subject = { $productName }에 오신 것을 환영합니다
 downloadSubscription-title = { $productName }에 오신 것을 환영합니다.
 downloadSubscription-content-2 = 구독에 포함된 모든 기능을 사용해보세요
 downloadSubscription-link-action-2 = 시작하기
-fraudulentAccountDeletion-subject = { -product-firefox-account }이 삭제되었습니다
 fraudulentAccountDeletion-title = 계정이 삭제되었습니다
-fraudulentAccountDeletion-content = 최근에 이 이메일을 사용하여 { -product-firefox-account }이 생성되었고 구독이 청구되었습니다. 모든 새 계정에 필요한 절차와 같이, 이 이메일 주소를 인증하여 계정을 확인하세요.
 fraudulentAccountDeletion-contact = 궁금하신 점이 있다면, <a data-l10n-name="mozillaSupportUrl">지원 팀</a>에 문의하세요.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -212,7 +191,6 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName }에 대한 새 로그인
-newDeviceLogin-title-2 = 귀하의 { -product-firefox-account }이(가) 로그인에 사용되었습니다.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 본인이 아닌가요? <a data-l10n-name="passwordChangeLink">비밀번호를 바꾸세요</a>.
@@ -222,11 +200,8 @@ newDeviceLogin-change-password-plain = 본인이 아닌가요? 비밀번호를 �
 newDeviceLogin-action = 계정 관리
 passwordChanged-subject = 비밀번호 수정 완료
 passwordChanged-title = 비밀번호 변경 성공
-passwordChanged-description = { -product-firefox-account } 비밀번호가 다음 기기에서 성공적으로 변경됨:
 passwordChangeRequired-subject = 의심스러운 활동 감지
 passwordChangeRequired-title = 비밀번호 변경 필요
-passwordChangeRequired-suspicious-activity = { -product-firefox-account }에서 의심스러운 동작을 감지했습니다. 귀하의 { -product-firefox-account }에 대한 무단 접근을 방지하기 위해 귀하의 계정에 있는 모든 기기의 연결을 해제했으며 예방책으로 비밀번호를 변경해야 합니다.
-passwordChangeRequired-sign-in = { -product-firefox-account } 계정을 사용하는 기기나 서비스에 다시 로그인하고 제시된 단계를 따라주세요.
 passwordChangeRequired-different-password = <b>중요:</b> 이전에 사용하던 것과 다른 비밀번호를 선택하고 이메일 계정과 다른지 확인하세요.
 passwordChangeRequired-different-password-plaintext = 중요: 이전에 사용했던 것과 다른 비밀번호를 선택하세요. 이메일 계정과 다른 비밀번호인지 확인하세요.
 passwordReset-subject = 비밀번호 수정 완료
@@ -236,17 +211,11 @@ passwordResetAccountRecovery-subject-2 = 비밀번호가 재설정되었습니�
 passwordResetAccountRecovery-title-2 = 비밀번호 재설정 성공
 # Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 계정 복구 키를 사용하여 비밀번호를 업데이트 했습니다:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = 새 계정 복구 키 생성
 passwordResetAccountRecovery-regen-required-mjml-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
 postAddAccountRecovery-title2 = 새 계정 복구 키를 생성했습니다
 postAddAccountRecovery-action = 계정 관리
-postAddLinkedAccount-subject = { -brand-firefox }에 연결된 새 계정
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = { $providerName } 계정이 { -product-firefox-account } 계정에 연결되었습니다.
 postAddLinkedAccount-action = 계정 관리
 postAddTwoStepAuthentication-subject-2 = 2단계 인증이 켜져 있습니다
 postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
@@ -254,13 +223,20 @@ postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
 postAddTwoStepAuthentication-from-device = 다음에서 활성화했습니다:
 postAddTwoStepAuthentication-action = 계정 관리
 postAddTwoStepAuthentication-code-required-2 = 이제 로그인할 때마다 인증 앱의 보안 코드가 필요합니다.
+postChangeAccountRecovery-subject = 계정 복구 키 변경됨
+postChangeAccountRecovery-title = 계정 복구 키를 변경했습니다.
+postChangeAccountRecovery-body-part1 = 새로운 계정 복구 키가 생성되었습니다. 이전 키는 삭제되었습니다.
+postChangeAccountRecovery-body-part2 = 새 복구 키를 안전한 장소에 저장하세요 — 비밀번호를 잊어 버렸을 때 암호화된 브라우저 데이터를 복원하는 용도로 필요합니다.
+postChangeAccountRecovery-action = 계정 관리
 postChangePrimary-subject = 기본 이메일 수정 완료
 postChangePrimary-title = 새 기본 이메일
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = 기본 이메일을 { $email }으로 성공적으로 변경했습니다. 이 주소는 이제 { -product-firefox-account }에 로그인하고 보안 알림 및 로그인 확인을 받는 사용자 이름입니다.
+postChangePrimary-description-2 = 기본 이메일을 { $email }으로 성공적으로 변경했습니다. 이 주소는 이제 { -product-mozilla-account }에 로그인하고 보안 알림 및 로그인 확인을 받는 사용자 이름입니다.
 postChangePrimary-action = 계정 관리
 postConsumeRecoveryCode-title-2 = 백업 인증 코드를 사용하였습니다.
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = 사용된 기기:
 postConsumeRecoveryCode-action = 계정 관리
 postNewRecoveryCodes-subject-2 = 새 백업 인증 코드가 생성됨
 postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다
@@ -269,9 +245,6 @@ postRemoveAccountRecovery-subject-2 = 계정 복구 키 삭제됨
 postRemoveAccountRecovery-action = 계정 관리
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
-# Variables:
-#  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = { -product-firefox-account } 계정에서 { $secondaryEmail }을 보조 이메일에서 삭제하였습니다. 보안 알림과 로그인 확인은 더 이상 이 이메일로 전송되지 않습니다.
 postRemoveSecondary-action = 계정 관리
 postRemoveTwoStepAuthentication-subject-line-2 = 2단계 인증이 꺼져 있습니다
 postRemoveTwoStepAuthentication-title-2 = 2단계 인증을 껐습니다
@@ -283,19 +256,13 @@ postVerify-sub-title-3 = 만나서 반갑습니다!
 postVerify-title-2 = 두 기기에서 동일한 탭을 보고 싶은가요?
 postVerify-description-2 = 간단합니다! 다른 기기에 { -brand-firefox }를 설치하고 로그인하여 동기화하세요. 마법처럼요!
 postVerify-sub-description = (잠깐… 또한 로그인 한 모든 곳에서 북마크, 암호 및 기타 { -brand-firefox } 데이터를 가져올 수 있습니다.)
-postVerify-subject-3 = { -brand-firefox }에 오신 것을 환영합니다!
 postVerify-setup-2 = 다른 기기 연결:
 postVerify-action-2 = 다른 기기 연결
 postVerifySecondary-subject = 보조 이메일 주소를 추가했습니다
 postVerifySecondary-title = 보조 이메일 주소를 추가했습니다
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = { -product-firefox-account }에서 { $secondaryEmail }을 보조 이메일로 검증했습니다. 이제 보안 알림 및 로그인 확인은 두 이메일 주소로 전송됩니다.
 postVerifySecondary-action = 계정 관리
 recovery-subject = 비밀번호 재설정
 recovery-title-2 = 비밀번호를 잊으셨습니까?
-# Information on the device, date and time of the request that triggered the email follows.
-recovery-request-origin = 다음으로부터 { -product-firefox-account } 비밀번호 변경 요청을 받았습니다:
 recovery-new-password-button = 아래의 버튼을 클릭하여, 새 비밀번호를 만드세요. 링크는 한 시간 후 만료됩니다.
 recovery-copy-paste = 아래 URL을 복사하고 브라우저에 붙여 넣어 새 비밀번호를 만드세요. 링크는 한 시간 후에 만료됩니다.
 recovery-action = 새로운 비밀번호 생성
@@ -303,11 +270,6 @@ recovery-action = 새로운 비밀번호 생성
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = { $productName } 구독이 취소되었습니다.
 subscriptionAccountDeletion-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = 최근에 { -product-firefox-account }을 삭제했습니다. 그 결과 귀하의 { $productName } 구독이 취소되었습니다. { $invoiceTotal }의 최종 결제는 { $invoiceDateOnly }에 이루어졌습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = { $productName }에 오신 것을 환영합니다: 비밀번호를 설정해주세요.
@@ -315,17 +277,13 @@ subscriptionAccountFinishSetup-subject = { $productName }에 오신 것을 환�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName }에 오신 것을 환영합니다.
 subscriptionAccountFinishSetup-content-processing = 결제가 진행중이며 최대 4 영업일이 소요될 수 있습니다. 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
-subscriptionAccountFinishSetup-content-create-2 = 다음으로 새로운 구독을 사용하기 위해 { -product-firefox-account }의 비밀번호를 생성해야 합니다.
 subscriptionAccountFinishSetup-action-2 = 시작하기
 subscriptionAccountReminderFirst-subject = 알림: 계정 설정 완료
 subscriptionAccountReminderFirst-title = 아직 구독에 접근할 수 없습니다.
-subscriptionAccountReminderFirst-content-info-2 = 며칠 전에 { -product-firefox-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
 subscriptionAccountReminderFirst-content-select-2 = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
 subscriptionAccountReminderFirst-action = 비밀번호 생성
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = 마지막 알림: 계정 설정
-subscriptionAccountReminderSecond-title = { -brand-firefox }에 오신 것을 환영합니다!
-subscriptionAccountReminderSecond-content-info-2 = 며칠 전에 { -product-firefox-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
 subscriptionAccountReminderSecond-content-select-2 = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
 subscriptionAccountReminderSecond-action = 비밀번호 생성
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -429,13 +387,10 @@ verificationReminderFinal-subject = 계정 확인을 위한 최종 알림
 confirm-account = 계정 확인
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = 계정 확인을 잊지 마세요
-verificationReminderFirst-title-2 = { -brand-firefox }에 오신 것을 환영합니다!
 confirm-email-2 = 계정 확인
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = 계정 확인
-verificationReminderSecond-title-2 = { -brand-firefox }를 놓치지 마세요!
 verificationReminderSecond-action-2 = 계정 확인
-verify-description = 계정을 확인하고, 모든 곳에서 { -brand-firefox }를 최대한 활용하세요.
 verify-subject = 계정 생성 완료
 verify-action-2 = 계정 확인
 # Variables:
@@ -454,14 +409,10 @@ verifyPrimary-post-verify-2 = 검증이 되면 이 기기에서 보조 이메일
 verifySecondaryCode-subject = 보조 이메일 확인
 verifySecondaryCode-title-2 = 보조 이메일 확인
 verifySecondaryCode-action-2 = 이메일 확인
-# Variables:
-#  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = 다음 { -product-firefox-account }으로부터 { $email } 이메일을 보조 이메일 주소로 사용하기 위한 요청이 왔습니다:
 verifySecondaryCode-prompt-2 = 인증 코드 사용:
 verifySecondaryCode-expiry-notice-2 = 5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 계정 확인
-verifyShortCode-title-2 = { -brand-firefox }로 인터넷을 여세요.
 verifyShortCode-prompt-3 = 인증 코드 사용:
 verifyShortCode-expiry-notice = 5분 후에 만료됩니다.
