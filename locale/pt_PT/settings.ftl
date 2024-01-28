@@ -1063,11 +1063,11 @@ inline-totp-setup-show-qr-default-service-header-2 = Digite o código de autenti
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Insira o código manualmente <span>para continuar para as definições da conta</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
-inline-totp-setup-enter-key-or-use-qr-instructions = Digite esta chave secreta na sua aplicação de autenticação. <toggleToQRButton>Como alternativa, digitalizar código QR?</toggleToQRButton>
+inline-totp-setup-enter-key-or-use-qr-instructions = Digite esta chave secreta na sua aplicação de autenticação. <toggleToQRButton>Alternativamente digitalizar código QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
-inline-totp-setup-use-qr-or-enter-key-instructions = Digitalize o código QR na sua aplicação de autenticação e depois introduza o código de autenticação que esta lhe providenciar. <toggleToManualModeButton>Não consegue digitalizar o código?</toggleToManualModeButton>
+inline-totp-setup-use-qr-or-enter-key-instructions = Digitalize o código QR na sua aplicação de autenticação e depois introduza o código de autenticação que esta lhe fornecer. <toggleToManualModeButton>Não consegue digitalizar o código?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-on-completion-description = Depois de concluído, ele começará a gerar os códigos de autenticação que poderá especificar.
+inline-totp-setup-on-completion-description = Depois de concluído, esta começará a gerar os códigos de autenticação para você introduzir.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticação
 
@@ -1120,8 +1120,8 @@ auth-totp-heading-w-default-service = Insira o código de autenticação <span>p
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-auth-totp-heading-w-custom-service = Insira o código de autenticação <span>para continuar para { $serviceName }</span>
-auth-totp-instruction = Abra a sua aplicação de autenticação e introduza o código de autenticação providenciado.
+auth-totp-heading-w-custom-service = Introduza o código de autenticação <span>para continuar para { $serviceName }</span>
+auth-totp-instruction = Abra a sua aplicação de autenticação e introduza o código de autenticação fornecido.
 auth-totp-input-label = Inserir código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Confirmar
@@ -1154,7 +1154,7 @@ pair-or-download-subheader = Ou transferir
 pair-scan-to-download-message = Digitalize para transferir o { -brand-firefox } para um dispositivo móvel, ou envie para si mesmo uma <linkExternal>ligação de transferência</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Agora não
-pair-take-your-data-message = Leve os seus separadores, marcadores e palavras-passe para qualquer sítio em que utilizar o { -brand-firefox }.
+pair-take-your-data-message = Leve os seus separadores, marcadores e palavras-passe para qualquer sítio onde utilize o { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Começar
 # This is the aria label on the QR code image
@@ -1181,17 +1181,17 @@ pair-supp-allow-cancel-link = Cancelar
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-auth-heading-text = A aprovação agora é obrigatória <span>do seu outro dispositivo</span>
+pair-wait-for-auth-heading-text = A aprovação agora é necessária <span>do seu outro dispositivo</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Emparelhar usando uma aplicação
-pair-unsupported-message = Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicação { -brand-firefox }.
+pair-unsupported-message = Utilizou a câmara do sistema? Deve emparelhar a partir de uma aplicação { -brand-firefox }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Por favor aguarde, está a ser reencaminhado para uma aplicação autorizada.
+third-party-auth-callback-message = Por favor, aguarde. Está a ser reencaminhado para uma aplicação autorizada.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1202,8 +1202,8 @@ account-recovery-confirm-key-heading-w-default-service = Redefina a palavra-pass
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Reponha a palavra-passe com a chave de recuperação da conta <span>para continuar para { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Por favor, insira a chave única de recuperação da conta que guardou num lugar seguro para recuperar o acesso à sua { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Nota:</span> Se repuser a sua palavra-passe e não tiver uma chave de recuperação da sua conta guardada, alguns dos seus dados irão ser apagados (incluindo dados de servidor sincronizados como histórico e marcadores).
+account-recovery-confirm-key-instructions-2 = Por favor, introduza a chave única de recuperação da conta que guardou num lugar seguro, para recuperar o acesso à sua { -product-mozilla-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> Se repuser a sua palavra-passe e não tiver uma chave de recuperação da sua conta guardada, alguns dos seus dados irão ser eliminados (incluindo os dados de servidor sincronizados, tais como histórico e marcadores).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Inserir uma chave de recuperação da conta
@@ -1227,7 +1227,7 @@ account-recovery-reset-password-redirecting = A redirecionar
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Criar nova palavra-passe
-complete-reset-password-warning-message-2 = <span>Memorizar:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores, e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
+complete-reset-password-warning-message-2 = <span>Memorizar:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Palavra-passe definida
