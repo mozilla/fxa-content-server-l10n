@@ -1389,9 +1389,9 @@ confirm-signup-code-page-title = Inserir código de confirmação
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-confirm-signup-code-heading-2 = Insira o código de confirmação <span>para a sua { -product-mozilla-account }</span>
+confirm-signup-code-heading-2 = Introduza o código de confirmação <span>para a sua { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Digite dentro de 5 minutos o código que foi enviado para { $email }.
+confirm-signup-code-instruction = Introduza o código que foi enviado para { $email } dentro de 5 minutos.
 confirm-signup-code-input-label = Inserir código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
@@ -1408,7 +1408,7 @@ confirm-signup-code-is-required-error = É necessário o código de confirmaçã
 signup-heading = Definir a sua palavra-passe
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Por que preciso criar esta conta? <LinkExternal>Descubra aqui</LinkExternal>
+signup-info-banner-for-pocket = Porque preciso de criar esta conta? <LinkExternal>Descubra aqui</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
