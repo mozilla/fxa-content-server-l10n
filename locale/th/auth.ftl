@@ -1,5 +1,6 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = กำลังจะเข้าสู่ระบบ{ -product-mozilla-account } ของคุณใช่หรือไม่?
 session-verify-send-push-body-2 = คลิกที่นี่เพื่อยืนยันว่าเป็นคุณ
 
 ## Email content
