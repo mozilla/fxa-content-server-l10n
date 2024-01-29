@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 20:07+0000\n"
-"PO-Revision-Date: 2024-01-28 18:48+0000\n"
+"PO-Revision-Date: 2024-01-29 00:25+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -1702,7 +1702,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "O histórico, favoritos, credenciais e outros dados pessoais sincronizados não serão perdidos."
+msgstr "O histórico, marcadores, credenciais e outros dados pessoais sincronizados não serão perdidos."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
