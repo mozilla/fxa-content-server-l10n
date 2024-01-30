@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 20:07+0000\n"
-"PO-Revision-Date: 2024-01-12 11:03+0000\n"
+"PO-Revision-Date: 2024-01-30 17:19+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1179,7 +1179,7 @@ msgstr "Cadastre-se ou entre na conta"
 
 #: .es5/templates/index.mustache:10
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Uma conta Mozilla também libera acesso a mais produtos de proteção de privacidade da Mozilla."
+msgstr "Uma conta Mozilla também dá acesso a mais produtos de proteção de privacidade da Mozilla."
 
 #: .es5/templates/index.mustache:12
 msgid ""
