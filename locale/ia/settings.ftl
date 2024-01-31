@@ -704,6 +704,10 @@ add-secondary-email-enter-address =
     .label = Insere tu adresse de e-mail
 add-secondary-email-cancel-button = Cancellar
 add-secondary-email-save-button = Salvar
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Mascas email non pote esser usate como email secundari
 
 ## Verify secondary email page
 
@@ -923,6 +927,8 @@ tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 terms-privacy-agreement-intro-2 = Si tu procede, tu concorda con:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } Servicios de Abonamento<mozSubscriptionTosLink>Terminos de servicio</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Aviso de confidentialitate</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Terminos de servicio</mozillaAccountsTos>e <mozillaAccountsPrivacy>Aviso de confidentialitate</mozillaAccountsPrivacy> de { -product-mozilla-accounts(capitalization: "uppercase") }.
 # links to Mozilla Account's Terms of Service and Privacy Notice
