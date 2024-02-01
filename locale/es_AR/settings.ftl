@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = El enlace para restablecer la contraseña está 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = El enlace de confirmación está dañado
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Enlace dañado
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo lo haya roto. Copiá la dirección con cuidado y probá de nuevo.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Productos de { -brand-mozilla }
 bento-menu-tagline = Más productos de { -brand-mozilla } que protegen tu privacidad
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
@@ -612,7 +615,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
 delete-account-product-firefox-addons = Complementos de { -brand-firefox }
@@ -960,8 +963,10 @@ auth-error-155 = No se econtró el token TOTP.
 auth-error-159 = Clave de recuperación de cuenta no válida
 auth-error-183-2 = El código de confirmación no es válido o ya venció
 auth-error-999 = Error inesperado
+auth-error-1002 = La sesión caducó. Iniciá sesión de nuevo para conituar.
 auth-error-1003 = El almacenamiento local o las cookies aún están deshabilitadas
 auth-error-1008 = La nueva contraseña debe ser diferente
+auth-error-1010 = Se requiere una contraseña válida
 auth-error-1011 = Se requiere una dirección de correo electrónico válida
 auth-error-1062 = Redirección inválida
 
@@ -1296,6 +1301,19 @@ signin-button = Iniciar sesión
 signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usar una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste la contraseña?
+signin-password-button-label = Contraseña
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo lo haya roto. Copiá la dirección con cuidado y probá de nuevo.
+report-signin-header = ¿Infomar ingreso sin autorización?
+report-signin-body = Recibiste un correo electrónico sobre un intento de acceso a tu cuenta. ¿Querés informar de esta actividad como sospechosa?
+report-signin-submit-button = Informar actividad
+report-signin-support-link = ¿Por qué pasa esto?
+report-signin-error = Disculpá, hubo un problema enviando el informe.
 signin-bounced-header = Lo sentimos. Bloqueamos tu cuenta.
 # $email (string) - The user's email.
 signin-bounced-message = El correo electrónico de confirmación que enviamos a { $email } rebotó y bloqueamos tu cuenta para proteger tus datos de { -brand-firefox }.
