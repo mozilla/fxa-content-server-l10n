@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = A megerősítő hivatkozás sérült
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Sérült hivatkozás
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } termékek
 bento-menu-tagline = A { -brand-mozilla } további termékei, amelyek védik a magánszféráját
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
@@ -621,7 +624,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = A { -brand-firefox } adatainak szinkronizálása
 delete-account-product-firefox-addons = { -brand-firefox } Kiegészítők
@@ -969,8 +972,10 @@ auth-error-155 = A TOTP token nem található
 auth-error-159 = Érvénytelen fiók-helyreállítási kulcs
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-999 = Nem várt hiba
+auth-error-1002 = A munkamenet lejárt. Jelentkezzen be a folytatáshoz.
 auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
+auth-error-1010 = Érvényes jelszó szükséges
 auth-error-1011 = Érvényes e-mail-cím szükséges
 auth-error-1062 = Érvénytelen átirányítás
 
@@ -1305,6 +1310,19 @@ signin-button = Bejelentkezés
 signin-header = Bejelentkezés
 signin-use-a-different-account-link = Másik fiók használata
 signin-forgot-password-link = Elfelejtette a jelszót?
+signin-password-button-label = Jelszó
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
+report-signin-header = Jelenti a jogosulatlan bejelentkezést?
+report-signin-body = Kapott egy e-mailt a fiókjába egy hozzáférési kísérletről. Szeretné gyanúsként jelenteni ezt a tevékenységet?
+report-signin-submit-button = Jelentési tevékenység
+report-signin-support-link = Miért történik ez?
+report-signin-error = Elnézést, hiba történt a jelentés beküldésekor.
 signin-bounced-header = Sajnáljuk. A fiókját zároltuk.
 # $email (string) - The user's email.
 signin-bounced-message = A megerősítő e-mail elküldésre került ide: { $email }, de az visszatért, így zároltuk a fiókját, hogy megvédjük a { -brand-firefox }ban tárolt adatait.
