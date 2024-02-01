@@ -218,7 +218,10 @@ reset-pwd-link-damaged-header = קישור לאיפוס ססמה פגום
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = קישור האימות פגום
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = קישור פגום
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
 
 ## LinkExpired component
@@ -304,7 +307,7 @@ avatar-default-avatar =
 bento-menu-title-3 = מוצרי { -brand-mozilla }
 bento-menu-tagline = מוצרים נוספים מ־{ -brand-mozilla } שמגנים על הפרטיות שלך
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
@@ -595,7 +598,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = בתהליך סנכרון נתוני { -brand-firefox }
 delete-account-product-firefox-addons = תוספות של { -brand-firefox }
@@ -904,8 +907,10 @@ auth-error-155 = אסימון TOTP לא נמצא
 auth-error-159 = מפתח שחזור חשבון שגוי
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-999 = שגיאה בלתי צפויה
+auth-error-1002 = פג תוקף ההפעלה. יש להתחבר כדי להמשיך.
 auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבתים
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
+auth-error-1010 = נדרשת ססמה חוקית
 auth-error-1011 = נדרשת כתובת דוא״ל חוקית
 auth-error-1062 = הפנייה לא חוקית
 
@@ -1220,6 +1225,19 @@ signin-button = כניסה
 signin-header = כניסה
 signin-use-a-different-account-link = שימוש בחשבון אחר
 signin-forgot-password-link = שכחת את הססמה?
+signin-password-button-label = ססמה
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
+report-signin-header = לדווח על התחברות בלתי מורשית?
+report-signin-body = קיבלת הודעת דוא״ל על ניסיון התחברות לחשבון שלך. האם ברצונך לדווח על פעילות זו כחשודה?
+report-signin-submit-button = דיווח פעילות
+report-signin-support-link = מדוע זה קורה?
+report-signin-error = אירעה שגיאה בשליחת הדיווח, עמך הסליחה.
 signin-bounced-header = מצטערים. חסמנו את החשבון שלך.
 # $email (string) - The user's email.
 signin-bounced-message = הודעת האימות ששלחנו לכתובת { $email } חזרה וחסמנו את החשבון שלך כדי להגן על נתוני ה־{ -brand-firefox } שלך.
