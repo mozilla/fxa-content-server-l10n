@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Wótkaz k slědkstajanjeju gronidła wobškóźo
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Wobkšuśeński wótkaz jo wobškóźony
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Wótkaz jo wobškóźony
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš e-mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći raz.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-tagline = Dalšne produkty wót { -brand-mozilla }, kótarež wašu priwatnosć šćitaju
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
@@ -617,7 +620,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Daty { -brand-firefox } se synchronizěruju
 delete-account-product-firefox-addons = Dodanki { -brand-firefox }
@@ -961,8 +964,10 @@ auth-error-155 = TOTP-token njejo se namakał
 auth-error-159 = Njepłaśiwy kontowy wótnowjeński kluc
 auth-error-183-2 = Njepłaśiwy abo spadnjony wobkšuśeński kod
 auth-error-999 = Njewótcakowana zmólka
+auth-error-1002 = Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował.
 auth-error-1003 = Local Storage abo cookieje su hyšći znjemóžnjone
 auth-error-1008 = Wašo nowe gronidło musy druge byś
+auth-error-1010 = Płaśiwe gronidło trjebne
 auth-error-1011 = Płaśiwa e-mailowa adresa trěbna
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
 
@@ -1297,6 +1302,19 @@ signin-button = Pśizjawiś
 signin-header = Pśizjawiś
 signin-use-a-different-account-link = Druge konto wužywaś
 signin-forgot-password-link = Sćo gronidło zabył?
+signin-password-button-label = Gronidło
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš e-mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći raz.
+report-signin-header = Njeawtorizěrowane pśizjawjenje k wěsći daś?
+report-signin-body = Sćo mejlku wó wopytanem pśistupu na swójo konto dostał. Cośo toś tu aktiwitu ako suspektnu k wěsći daś?
+report-signin-submit-button = Aktiwitu k wěsći daś
+report-signin-support-link = Cogodla se to stawa?
+report-signin-error = Pśi slanju wašeje rozpšawy jo bóžko nastał problem.
 signin-bounced-header = Bóžko jo wašo konto zastajone.
 # $email (string) - The user's email.
 signin-bounced-message = Wobkśuśeńska mejlka, kótaruž smy na { $email } pósłali, jo se wrośiła a smy wašo konto zastajili, aby my waše daty { -brand-firefox } šćitali.
