@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2023-05-17 10:00+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Парол уңышлы үзгәртелде. Дәвам итү өчен
 msgid "Sign in"
 msgstr "Керү"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "Хисап бетерелде"
 
@@ -126,7 +126,7 @@ msgstr ""
 "<b>%(escapedSelectedProduct)s</b> өчен <b>%(escapedLowercaseTopic)s</b> турында Mozilla Ярдәм хезмәтенә мөрәҗәгать иткәнегез өчен рәхмәт. Без сезнең белән тиз арада эл. почта аша элемтәгә керербез."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr "Ябу"
 
@@ -699,11 +699,7 @@ msgstr "Адресны язганда хата җибәрмәдегезме? %(d
 msgid "The image file size is too large to be uploaded."
 msgstr "Рәсем файлы йөкләп булмаслык зур."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Хисаплары расланган сайтлардагы IFRAME эченә генә урнаштырыла ала"
 
@@ -1904,10 +1900,6 @@ msgstr "Хәбәрегез ярдәмчеләр төркеменә җибәре�
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "Язылуларга кире кайту"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Firefox Синхронлауны эзлисезме? <a %(escapedSyncSuggestionAttrs)s>Моннан башлагыз</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

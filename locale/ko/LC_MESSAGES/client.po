@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2023-10-21 07:35+0000\n"
 "Last-Translator: paperbox <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -126,7 +126,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "<b>%(escapedSelectedProduct)s</b>의 <b>%(escapedLowercaseTopic)s</b>에 대해 Mozilla 지원팀에 문의 해 주셔서 감사합니다. 가능한 한 빨리 이메일로 연락 드리겠습니다."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr "닫기"
 
@@ -699,11 +699,7 @@ msgstr "이메일을 잘못 입력하지는 않으셨나요? %(domain)s(은)는 
 msgid "The image file size is too large to be uploaded."
 msgstr "이미지 파일 크기가 너무 커서 업로드 할 수 없습니다."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
@@ -1910,10 +1906,6 @@ msgstr "메시지가 지원 팀에 전송되었습니다"
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "구독으로 돌아가기"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Firefox Sync를 찾고 계신가요? <a %(escapedSyncSuggestionAttrs)s>여기에서 시작하기</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

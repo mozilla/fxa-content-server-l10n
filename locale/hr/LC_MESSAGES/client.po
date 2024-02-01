@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2023-01-01 23:41+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Lozinka je uspješno resetirana. Prijavi se za nastavljanje."
 msgid "Sign in"
 msgstr "Prijava"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "Račun je uspješno izbrisan"
 
@@ -125,7 +125,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "Zahvaljujemo na kontaktiranju Mozilline podrške zbog <b>%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedProduct)s</b>. Kontaktirat ćemo te putem e-pošte što je prije moguće."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr "Zatvori"
 
@@ -698,11 +698,7 @@ msgstr "Je li e-mail adresa ispravna? %(domain)s ne nudi e-mail adrese."
 msgid "The image file size is too large to be uploaded."
 msgstr "Slika je prevelika da bi se prenijela."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Account se može postaviti u IFRAME samo na odobrenim web lokacijama"
 
@@ -1905,10 +1901,6 @@ msgstr "Tvoja je poruka poslana Podršci"
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "Natrag na Pretplate"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Tražiš Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Započni ovdje</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

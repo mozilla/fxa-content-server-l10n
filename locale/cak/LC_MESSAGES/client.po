@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2023-02-25 22:19+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Ütz xjikib'äx ri ewan tzij. Tatikirisaj chik el molojri'ïl."
 msgid "Sign in"
 msgstr "Titikirisäx molojri'ïl"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "Xyuj ütz ri rub'i' taqoya'l"
 
@@ -125,7 +125,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "Matyox ruma yach'o pe rik'in ri Rutob'al Mozilla chi rij <b>%(escapedLowercaseTopic)s</b> richin <b>%(escapedSelectedProduct)s</b>. Junanin xkojtzijon awik'in pa taqoya'l."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr "Titz'apïx"
 
@@ -698,11 +698,7 @@ msgstr "¿La itzel rutz'ib'axik ri taqoya'l? %(domain)s man yerusüj ta taq taqo
 msgid "The image file size is too large to be uploaded."
 msgstr "Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Ri taq rub'i' rutaqoya'l Firefox xa xe tikirel yeya' pa jun IFRAME pa ya'on q'ij chi ke taq ruxaq k'amaya'l"
 
@@ -1907,10 +1903,6 @@ msgstr "Xtaq ri atzijol chi ke ri To'onel Molaj"
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "Titz'ib'äx chik B'i'aj"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "¿La nakanoj ri Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Tatikirisaj wawe'</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

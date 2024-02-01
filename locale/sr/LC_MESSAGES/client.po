@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2023-06-28 19:23+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Лозинка је успешно ресетована. Пријави�
 msgid "Sign in"
 msgstr "Пријави ме"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "Налог је успешно избрисан"
 
@@ -126,7 +126,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "Хвала вам што сте се обратили Mozilla подршци у вези <b>%(escapedLowercaseTopic)s</b> за <b>%(escapedSelectedProduct)s</b>. Контактираћемо вас е-поштом што је пре могуће."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr "Затвори"
 
@@ -699,11 +699,7 @@ msgstr "Нетачно унета адреса е-поште? %(domain)s не н
 msgid "The image file size is too large to be uploaded."
 msgstr "Величина датотеке слике је превелика за отпремање."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox налози могу бити постављени само у IFRAME-у на одобреним сајтовима"
 
@@ -1912,10 +1908,6 @@ msgstr "Ваша порука је послана подршци"
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "Назад на претплате"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Тражите Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Започните овде</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2022-06-05 18:14+0000\n"
 "Last-Translator: ‪Sociologist Abedi <sociologist.abedi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "بازنشانی گذرواژه با موفقیت انجام شد. بر�
 msgid "Sign in"
 msgstr "ورود"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
@@ -126,7 +126,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "از اینکه با پشتیبانی Mozilla در مورد <b>%(escapedLowercaseTopic)s</b> برای <b>%(escapedSelectedProduct)s</b> تماس گرفتید متشکریم. ما در اسرع وقت از طریق ایمیل با شما تماس خواهیم گرفت."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr ""
 
@@ -699,11 +699,7 @@ msgstr "ایمیل را اشتباه وارد کردید؟ %(domain)s امکان
 msgid "The image file size is too large to be uploaded."
 msgstr "حجم این تصویر برای آپلود خیلی بزرگ است."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
 
@@ -1906,10 +1902,6 @@ msgstr "پیام شما به پشتیبانی ارسال شد"
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "برگشت به اشتراک‌ها"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "به دنبال همگام‌ساز فایرفاکس هستید؟ <a %(escapedSyncSuggestionAttrs)s>از اینجا شروع کنید</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
