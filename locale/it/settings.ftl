@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Link per la reimpostazione della password danneg
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Il link di conferma è danneggiato
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Il link non è valido
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Prodotti { -brand-mozilla }
 bento-menu-tagline = Altri prodotti { -brand-mozilla } che proteggono la tua privacy
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Browser { -brand-firefox } per desktop
@@ -610,7 +613,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizzazione dati in { -brand-firefox }
 delete-account-product-firefox-addons = Componenti aggiuntivi in { -brand-firefox }
@@ -948,8 +951,10 @@ auth-error-155 = Token TOTP non trovato
 auth-error-159 = Chiave di recupero dell’account non valida
 auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-999 = Errore imprevisto
+auth-error-1002 = La sessione è scaduta. Accedi per continuare.
 auth-error-1003 = L’archiviazione locale o i cookie sono ancora disattivati
 auth-error-1008 = La nuova password deve essere diversa
+auth-error-1010 = È necessario inserire una password valida
 auth-error-1011 = È necessario inserire un indirizzo email valido
 auth-error-1062 = Reindirizzamento non valido
 
@@ -1284,6 +1289,19 @@ signin-button = Accedi
 signin-header = Accedi
 signin-use-a-different-account-link = Utilizza un altro account
 signin-forgot-password-link = Password dimenticata?
+signin-password-button-label = Password
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
+report-signin-header = Vuoi segnalare questo accesso non autorizzato?
+report-signin-body = Sei giunto qui dopo aver ricevuto una email che ti avvisava di un tentativo di accesso al tuo account. Vuoi segnalare questo accesso come sospetto?
+report-signin-submit-button = Segnala attività sospetta
+report-signin-support-link = Che cosa sta succedendo?
+report-signin-error = Siamo spiacenti, si è verificato un problema durante l’invio della segnalazione.
 signin-bounced-header = Spiacenti, l’account è stato bloccato.
 # $email (string) - The user's email.
 signin-bounced-message = L’email di conferma che abbiamo inviato all’indirizzo { $email } è tornata indietro. L’account è stato bloccato per proteggere i dati in { -brand-firefox }.
