@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used across fxa-auth-server, fxa-payments-server, and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
@@ -37,7 +38,6 @@
         [ins] Firefoxem
     }
     .gender = masculine
-
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # "Firefox accounts" refers to the service
 -product-firefox-accounts =
@@ -78,7 +78,6 @@
                 [lower] účtem Firefoxu
             }
     }
-
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
 -product-mozilla-account =
     { $case ->
@@ -132,7 +131,6 @@
                *[uppercase] Účet Mozilla
             }
     }
-
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
 # "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
 -product-mozilla-accounts =
@@ -187,7 +185,6 @@
                *[uppercase] Účet Mozilla
             }
     }
-
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
@@ -228,7 +225,6 @@
                 [lower] účtem Firefoxu
             }
     }
-
 -product-mozilla-vpn =
     { $case ->
         [gen] Mozilly VPN
@@ -253,17 +249,7 @@
         [ins] Firefox Cloudem
     }
     .gender = masculine
--product-firefox-monitor =
-    { $case ->
-        [gen] Firefox Monitoru
-        [dat] Firefox Monitoru
-        [acc] Firefox Monitor
-        [voc] Firefox Monitore
-        [loc] Firefox Monitoru
-        [ins] Firefox Monitorem
-       *[nom] Firefox Monitor
-    }
-    .gender = masculine
+-product-mozilla-monitor = Mozilla Monitor
 -product-firefox-relay =
     { $case ->
         [gen] Firefoxu Relay
@@ -286,7 +272,6 @@
        *[nom] Pocket
     }
     .gender = masculine
-
 -brand-apple =
     { $case ->
        *[nom] Apple
@@ -331,7 +316,6 @@
         [ins] Stripem
     }
     .gender = masculine
-
 -app-store =
     { $case ->
        *[nom] App Store
