@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Mae dolen ailosod y cyfrinair wedi ei difrodi
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Mae'r ddolen cadarnhad wedi'i difrodi
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Mae'r ddolen wedi ei difrodi
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Cynnyrch { -brand-mozilla }
 bento-menu-tagline = Rhagor o gynnyrch { -brand-mozilla } sy'n diogelu'ch preifatrwydd
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Porwr { -brand-firefox } ar gyfer y Bwrdd Gwaith
@@ -615,7 +618,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Wrthi'n cydweddu data { -brand-firefox }
 delete-account-product-firefox-addons = Ychwanegion { -brand-firefox }
@@ -961,8 +964,10 @@ auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-159 = Allwedd adfer cyfrif annilys
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-999 = Gwall anhysbys
+auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodi i barhau.
 auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
+auth-error-1010 = Rhaid darparu cyfrinair dilys
 auth-error-1011 = Mae angen e-bost dilys
 auth-error-1062 = Ailgyfeirio annilys
 
@@ -1297,6 +1302,19 @@ signin-button = Mewngofnodi
 signin-header = Mewngofnodi
 signin-use-a-different-account-link = Defnyddiwch gyfrif gwahanol
 signin-forgot-password-link = Wedi anghofio'r cyfrinair?
+signin-password-button-label = Cyfrinair
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
+report-signin-header = Adrodd ar fewngofnodi heb ganiatâd?
+report-signin-body = Rydych wedi derbyn e-bost am ymgais i gael mynediad at eich cyfrif. Hoffech chi adrodd hyn fel digwyddiad amheus?
+report-signin-submit-button = Adroddiad gweithgaredd
+report-signin-support-link = Pam mae hyn yn digwydd?
+report-signin-error = Mae'n ddrwg gennym, roedd problem wrth gyflwyno'r adroddiad.
 signin-bounced-header = Ymddiheuriadau. Rydym wedi cloi eich  cyfrif.
 # $email (string) - The user's email.
 signin-bounced-message = Cafodd yr e-bost cadarnhau roeddem wedi ei anfon i { $email } ei ddychwelyd ac rydym wedi cloi eich cyfrif er mwyn diogelu eich data { -brand-firefox }.
