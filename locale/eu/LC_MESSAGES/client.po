@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2023-04-15 08:04+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Pasahitza ondo berrezarri da. Jarraitzeko, hasi saioa."
 msgid "Sign in"
 msgstr "Hasi saioa"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "Kontua ondo ezabatu da"
 
@@ -126,7 +126,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr ""
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr "Itxi"
 
@@ -699,11 +699,7 @@ msgstr "Helbidea gaizki idatzi duzu? %(domain)s domeinuak ez du posta elektronik
 msgid "The image file size is too large to be uploaded."
 msgstr "Irudi-fitxategiaren tamaina handiegia da igotzeko."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
 
@@ -1908,10 +1904,6 @@ msgstr ""
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "Itzuli harpidetzetara"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Firefox Sync bila zabiltza? <a %(escapedSyncSuggestionAttrs)s>Hasi hemen</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

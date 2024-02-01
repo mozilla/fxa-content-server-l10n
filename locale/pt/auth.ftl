@@ -306,8 +306,8 @@ postAddLinkedAccount-subject-2 = Nova conta associada à sua { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = A sua conta { $providerName } foi associada à sua { -product-mozilla-account }
 postAddLinkedAccount-action = Gerir conta
-postAddTwoStepAuthentication-subject-2 = Autenticação de dois passos ativada
-postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois passos
+postAddTwoStepAuthentication-subject-2 = Autenticação de dois fatores ativada
+postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois fatores
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Ativou-a de:
 postAddTwoStepAuthentication-action = Gerir conta
@@ -348,8 +348,8 @@ postRemoveSecondary-title = Email secundário removido
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Removeu com sucesso { $secondaryEmail } como um e-mail secundário da sua { -product-mozilla-account }. As notificações de segurança e as confirmações de início de sessão já não serão enviadas para este endereço.
 postRemoveSecondary-action = Gerir conta
-postRemoveTwoStepAuthentication-subject-line-2 = Autenticação de dois passos está desativada
-postRemoveTwoStepAuthentication-title-2 = Desativou a autenticação de dois passos
+postRemoveTwoStepAuthentication-subject-line-2 = Autenticação de dois fatores está desativada
+postRemoveTwoStepAuthentication-title-2 = Desativou a autenticação de dois fatores
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Desativou-a de:
 postRemoveTwoStepAuthentication-action = Gerir conta

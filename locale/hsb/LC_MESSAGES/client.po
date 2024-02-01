@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2024-01-20 18:56+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Hesło je so wuspěšnje wróćo stajiło. Přizjewće so, zo byšće po
 msgid "Sign in"
 msgstr "Přizjewić"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "Konto je so wuspěšnje zhašało"
 
@@ -127,7 +127,7 @@ msgstr ""
 "Wulki dźak, zo sće so přez <b>%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedProduct)s</b> na pomoc Mozilla wobroćił. Stajimy so přez wašu e-mejlowu adresu tak bórze kaž móžno do zwiska."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr "Začinić"
 
@@ -700,11 +700,7 @@ msgstr "E-mejlowa adresa zapisana? %(domain)s e-mejlowu słužbu njeposkića."
 msgid "The image file size is too large to be uploaded."
 msgstr "Wobrazowa dataja je přewulka za nahraće."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr "E-mejlowe maski njedadźa so za wutworjenje konta wužiwać."
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts da so jenož na schwalenych sydłach do IFRAME stajić"
 
@@ -837,7 +833,9 @@ msgid "Invalid Token"
 msgstr "Njepłaćiwy token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Přez to, zo pokročujeće, zwoliće do <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłow priwatnosće</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -906,10 +904,11 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Prošu zapodajće kontowy wobnowjenski kluč za jónkróćne wužiće, kotryž sće na wěstym městnje składował, zo byšće přistup k swojemu kontu Mozilla měł."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">KEDŹBU:</span> Jeli sće swoje hesło wróćo stajił a nimaće składowany kontowy wobnowjenski kluč, so někotre z wašich datow zhašeja (inkluziwnje synchronizowane serwerowe daty kaž"
-" historiju a zapołožki)."
+"<span class=\"note\">KEDŹBU:</span> Jeli sće swoje hesło wróćo stajił a nimaće składowany kontowy wobnowjenski kluč, so někotre z wašich datow zhašeja (inkluziwnje synchronizowane serwerowe daty "
+"kaž historiju a zapołožki)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1119,34 +1118,43 @@ msgstr "Hesło"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Hdyž pokročujeće, zwoliće do:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">wužiwanskich wuměnjenjow</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">rozswětlenja priwatnosće</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">rozswětlenja priwatnosće</a> kontow Mozilla\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">wužiwanskich wuměnjenjow</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">rozswětlenja priwatnosće</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">rozswětlenja priwatnosće</a> "
+"kontow Mozilla\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Hdyž pokročujeće, zwoliće do:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zdźělenki priwatnosće</a> abonementowych słužbow<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zdźělenki priwatnosće</a> kontow Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zdźělenki priwatnosće</a> abonementowych słužbow<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zdźělenki priwatnosće</a> "
+"kontow Mozilla\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Pokročujće, zo byšće do <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pokazki priwatnosće</a> zwolił."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Pokročujće, zo byšće do <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pokazki priwatnosće</"
+"a> zwolił."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1184,28 +1192,34 @@ msgstr "Konto Mozilla tež přistup k wjace produktam škita datow wot Mozilla z
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "              Hdyž pokročujeće, zwoliće do:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">wužiwanskich wuměnjenjow</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">rozswětlenja priwatnosće</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">rozswětlenja priwatnosće</a> kontow Mozilla\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">wužiwanskich wuměnjenjow</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">rozswětlenja priwatnosće</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">rozswětlenja priwatnosće</a> "
+"kontow Mozilla\n"
 "            "
 
 #: .es5/templates/index.mustache:14
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Hdyž pokročujeće, zwoliće do:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zdźělenki priwatnosće</a> abonementowych słužbow<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zdźělenki priwatnosće</a> kontow Mozilla\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zdźělenki priwatnosće</a> abonementowych słužbow<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zdźělenki priwatnosće</a> kontow "
+"Mozilla\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1925,10 +1939,6 @@ msgstr "Waša powěsć je so na team pomocy pósłała"
 msgid "Back to Subscriptions"
 msgstr "Wróćo k abonementam"
 
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Pytaće Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Započńće tu</a>"
-
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
 msgstr "abo"
@@ -2020,10 +2030,11 @@ msgid "Or download"
 msgstr "Abo sćehńće"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
-"Skenujće, zo byšće Fiefoxo za mobilne graty sćahnył, abo sćelće sej <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">sćehnjenski"
-" wotkaz.</a>"
+"Skenujće, zo byšće Fiefoxo za mobilne graty sćahnył, abo sćelće sej <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
+"blue\">sćehnjenski wotkaz.</a>"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "QR code"

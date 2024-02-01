@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 20:07+0000\n"
+"POT-Creation-Date: 2024-02-01 20:07+0000\n"
 "PO-Revision-Date: 2022-10-01 13:55+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Parolă resetată cu succes. Autentifică-te pentru a continua."
 msgid "Sign in"
 msgstr "Autentifică-te"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:151
 msgid "Account deleted successfully"
 msgstr "Cont șters cu succes"
 
@@ -126,7 +126,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "Îți mulțumim că ai apelat la Mozilla Support legat de <b>%(escapedLowercaseTopic)s</b> pentru <b>%(escapedSelectedProduct)s</b>. Te vom contacta prin e-mail cât mai curând posibil."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
 msgstr ""
 
@@ -709,11 +709,7 @@ msgstr "Ai scris greșit adresa de e-mail? %(domain)s nu oferă poștă electron
 msgid "The image file size is too large to be uploaded."
 msgstr "Mărimea fișierului de imagine este prea mare și nu poate fi încărcat."
 
-#: .es5/lib/auth-errors.js:612
-msgid "Email masks can’t be used to create an account."
-msgstr ""
-
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:681
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Conturile Firefox pot fi plasate numai într-un IFRAME pe site-urile aprobate"
 
@@ -1919,10 +1915,6 @@ msgstr "Mesajul tău a fost trimis la departamentul de asistență"
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
 msgstr "Revenire la Abonamente"
-
-#: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Cauți Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Începe aici</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
