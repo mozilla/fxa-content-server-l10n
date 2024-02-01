@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Wotkaz k wróćostajenju hesła wobškodźeny
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Wobkrućenski wotkaz je wobškodźeny
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Wotkaz je wobškodźeny
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Wotkazej, na kotryž sće kliknył, znamješka faluja, a je snano přez waš e-mejlowy program wobškodźeny. Kopěrujće adresu kedźbliwje a spytajće hišće raz.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-tagline = Dalše produkty wot { -brand-mozilla }, kotrež wašu priwatnosć škitaja
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Wobhladowak { -brand-firefox } za desktop
@@ -617,7 +620,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Daty { -brand-firefox } so synchronizuja
 delete-account-product-firefox-addons = Přidatki { -brand-firefox }
@@ -963,8 +966,10 @@ auth-error-155 = TOTP-token njeje so namakał
 auth-error-159 = Njepłaćiwy kontowy wobnowjenski kluč
 auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
 auth-error-999 = Njewočakowany zmylk
+auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
 auth-error-1003 = Local Storage abo placki su hišće znjemóžnjene
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
+auth-error-1010 = Płaćiwe hesło trěbne
 auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
 auth-error-1062 = Njepłaćiwe dalesposrědkowanje
 
@@ -1299,6 +1304,19 @@ signin-button = Přizjewić
 signin-header = Přizjewić
 signin-use-a-different-account-link = Druhe konto wužiwać
 signin-forgot-password-link = Sće hesło zabył?
+signin-password-button-label = Hesło
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Wotkazej, na kotryž sće kliknył, znamješka faluja, a je snano přez waš e-mejlowy program wobškodźeny. Kopěrujće adresu kedźbliwje a spytajće hišće raz.
+report-signin-header = Njeawtorizowane přizjewjenje zdźělić?
+report-signin-body = Sće mejlku wo spytanym přistupu na swoje konto dóstał. Chceće tutu aktiwitu jako podhladnu zdźělić?
+report-signin-submit-button = Aktiwitu zdźělić
+report-signin-support-link = Čehodla so to stawa?
+report-signin-error = Bohužel je při słanju wašeje rozprawy problem nastał.
 signin-bounced-header = Bohužel je waše konto zawrjene.
 # $email (string) - The user's email.
 signin-bounced-message = Wobkrućenska e-mejlka, kotruž smy na { $email } pósłali, je so wróćiła a smy waše konto zawrěli, zo bychmy waše daty { -brand-firefox } škitali.
