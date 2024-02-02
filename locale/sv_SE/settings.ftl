@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Länken för att återställa lösenordet funger
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Bekräftelselänken är trasig
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Länk skadad
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt e-postprogram. Kopiera adressen noggrant och försök igen.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla }-produkter
 bento-menu-tagline = Fler produkter från { -brand-mozilla } som skyddar din integritet
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser för datorer
@@ -617,7 +620,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserar { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox } Tillägg
@@ -969,8 +972,10 @@ auth-error-155 = TOTP-tecken hittades inte
 auth-error-159 = Ogiltig nyckel för kontoåterställning
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-999 = Oväntat fel
+auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
 auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
+auth-error-1010 = Giltigt lösenord krävs
 auth-error-1011 = Giltig e-postadress krävs
 auth-error-1062 = Ogiltig omdirigering
 
@@ -1305,6 +1310,18 @@ signin-button = Logga in
 signin-header = Logga in
 signin-use-a-different-account-link = Använd ett annat konto
 signin-forgot-password-link = Glömt ditt lösenord?
+signin-password-button-label = Lösenord
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt e-postprogram. Kopiera adressen noggrant och försök igen.
+report-signin-header = Rapportera otillåten inloggning?
+report-signin-body = Du har fått e-post om försök att få tillgång till ditt konto. Vill du rapportera denna aktivitet som misstänkt?
+report-signin-submit-button = Rapportera aktivitet
+report-signin-support-link = Varför händer detta?
 signin-bounced-header = Förlåt. Vi har låst ditt konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekräftelsemeddelandet som vi skickade till { $email } returnerades och vi har låst ditt konto för att skydda din { -brand-firefox }-data.
