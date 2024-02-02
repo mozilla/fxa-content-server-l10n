@@ -1322,6 +1322,7 @@ report-signin-header = Rapportera otillåten inloggning?
 report-signin-body = Du har fått e-post om försök att få tillgång till ditt konto. Vill du rapportera denna aktivitet som misstänkt?
 report-signin-submit-button = Rapportera aktivitet
 report-signin-support-link = Varför händer detta?
+report-signin-error = Det uppstod ett problem med att skicka in rapporten.
 signin-bounced-header = Förlåt. Vi har låst ditt konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekräftelsemeddelandet som vi skickade till { $email } returnerades och vi har låst ditt konto för att skydda din { -brand-firefox }-data.
