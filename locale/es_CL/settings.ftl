@@ -1299,12 +1299,19 @@ signin-button = Conectarse
 signin-header = Conectarse
 signin-use-a-different-account-link = Usar una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
+signin-password-button-label = Contraseña
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Al enlace que cliqueaste le faltan caracteres, y puede que haya sido corrompido por tu cliente de correo. Copia la dirección cuidadosamente, y vuelve a intentarlo.
+report-signin-header = ¿Reportar conexión no autorizada?
+report-signin-body = Recibiste un correo sobre un intento de acceso a tu cuenta. ¿Te gustaría reportar esta actividad como sospechosa?
+report-signin-submit-button = Reportar actividad
+report-signin-support-link = ¿Por qué sucede esto?
+report-signin-error = Lo sentimos, hubo un problema al enviar el informe.
 signin-bounced-header = Lo sentimos. Hemos bloqueado tu cuenta.
 # $email (string) - The user's email.
 signin-bounced-message = El correo de confirmación que enviamos a { $email } fue devuelto y hemos bloqueado tu cuenta para proteger tus datos de { -brand-firefox }.
