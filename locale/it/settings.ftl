@@ -1298,7 +1298,7 @@ signin-password-button-label = Password
 
 report-signin-link-damaged-body = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
 report-signin-header = Vuoi segnalare questo accesso non autorizzato?
-report-signin-body = Sei giunto qui dopo aver ricevuto una email che ti avvisava di un tentativo di accesso al tuo account. Vuoi segnalare questo accesso come sospetto?
+report-signin-body = Hai ricevuto un’email relativa a un tentativo di accesso al tuo account. Vuoi segnalare questa attività come sospetta?
 report-signin-submit-button = Segnala attività sospetta
 report-signin-support-link = Che cosa sta succedendo?
 report-signin-error = Siamo spiacenti, si è verificato un problema durante l’invio della segnalazione.
