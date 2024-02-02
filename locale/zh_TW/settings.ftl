@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = 重設密碼鏈結已毀損
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 驗證鏈結無效
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = 鏈結毀損
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } 產品
 bento-menu-tagline = { -brand-mozilla } 更多會保護您隱私的產品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser 桌面版
@@ -608,7 +611,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } 的同步資料
 delete-account-product-firefox-addons = { -brand-firefox } 附加元件
@@ -937,8 +940,10 @@ auth-error-155 = 找不到 TOTP token
 auth-error-159 = 帳號救援金鑰無效
 auth-error-183-2 = 驗證碼無效或失效
 auth-error-999 = 未預期的錯誤
+auth-error-1002 = 登入階段已失效，請登入以繼續。
 auth-error-1003 = 本機儲存空間或 Cookie 仍然停用
 auth-error-1008 = 您的新密碼必須與舊密碼不同
+auth-error-1010 = 必須輸入有效的密碼
 auth-error-1011 = 請輸入有效的電子郵件信箱
 auth-error-1062 = 重導無效
 
@@ -1273,6 +1278,19 @@ signin-button = 登入
 signin-header = 登入
 signin-use-a-different-account-link = 使用另一個帳號
 signin-forgot-password-link = 忘記密碼？
+signin-password-button-label = 密碼
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = 您點擊的鏈結可能缺少了一些字元，或您的郵件軟體修改了鏈結文字。請確認您複製了完整的網址，再次開啟確認鏈結。
+report-signin-header = 要回報未經授權的登入嗎？
+report-signin-body = 您將會收到嘗試登入帳號的相關資訊的電子郵件。您想要將該筆登入回報為可疑行為嗎？
+report-signin-submit-button = 回報可疑行為
+report-signin-support-link = 為什麼會發生？
+report-signin-error = 很抱歉，送出報告時發生問題。
 signin-bounced-header = 抱歉，我們鎖定了您的帳號。
 # $email (string) - The user's email.
 signin-bounced-message = 先前寄到 { $email } 的確認信被退回。為了保護您 { -brand-firefox } 的資料，已暫時鎖定您的帳號。
