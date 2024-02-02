@@ -1317,10 +1317,10 @@ signin-password-button-label = Jelszó
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
-report-signin-link-damaged-body = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
+report-signin-link-damaged-body = A hivatkozásból karakterek hiányoztak, ezt az e-mail-kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
 report-signin-header = Jelenti a jogosulatlan bejelentkezést?
-report-signin-body = Kapott egy e-mailt a fiókjába egy hozzáférési kísérletről. Szeretné gyanúsként jelenteni ezt a tevékenységet?
-report-signin-submit-button = Jelentési tevékenység
+report-signin-body = Levelet kapott arról, hogy megpróbáltak hozzáférni a fiókjához. Szeretné gyanúsnak jelenteni ezt a tevékenységet?
+report-signin-submit-button = Tevékenység jelentése
 report-signin-support-link = Miért történik ez?
 report-signin-error = Elnézést, hiba történt a jelentés beküldésekor.
 signin-bounced-header = Sajnáljuk. A fiókját zároltuk.
