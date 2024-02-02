@@ -223,7 +223,7 @@ reset-pwd-link-damaged-header = 重置密码链接已损坏
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 确认链接已损坏
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 您点击的链接缺少字符，可能是您的邮件客户端损坏了该链接。请确保复制了完整的网址，然后再试一次。
 
 ## LinkExpired component
@@ -309,7 +309,6 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } 产品
 bento-menu-tagline = { -brand-mozilla } 的更多保护您隐私的产品。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } 桌面浏览器
@@ -610,7 +609,6 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = 同步 { -brand-firefox } 数据
 delete-account-product-firefox-addons = { -brand-firefox } 附加组件
@@ -939,6 +937,7 @@ auth-error-155 = 找不到 TOTP 令牌
 auth-error-159 = 账户恢复密钥无效
 auth-error-183-2 = 验证码无效或已过期
 auth-error-999 = 意外错误
+auth-error-1002 = 会话已过期。请登录以继续操作。
 auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
 auth-error-1011 = 需要有效的邮箱地址
@@ -1281,6 +1280,12 @@ signin-button = 登录
 signin-header = 登录
 signin-use-a-different-account-link = 换个账户登录
 signin-forgot-password-link = 忘记密码？
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = 对不起。我们已锁定您的账户。
 # $email (string) - The user's email.
 signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被退回，我们已锁定您的账户以保护您的 { -brand-firefox } 数据。
