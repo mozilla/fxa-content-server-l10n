@@ -1307,7 +1307,7 @@ report-signin-header = Signaler une connexion non autorisée ?
 report-signin-body = Vous avez reçu un e-mail concernant une tentative d’accès à votre compte. Voulez-vous signaler cette activité comme suspecte ?
 report-signin-submit-button = Signaler cette activité
 report-signin-support-link = Que se passe-t-il ?
-report-signin-error = Une erreur s'est produite lors de l'envoi du rapport.
+report-signin-error = Un problème est survenu lors de l’envoi du rapport.
 signin-bounced-header = Désolé, nous avons bloqué votre compte.
 # $email (string) - The user's email.
 signin-bounced-message = Le message de confirmation que nous avons envoyé à { $email } a été renvoyé et nous avons verrouillé votre compte pour protéger vos données { -brand-firefox }.
