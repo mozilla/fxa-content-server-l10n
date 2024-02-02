@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Ligamine pro reinitialisar contrasigno damnifica
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Ligamine de confirmation damnificate
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Ligamine damnificate
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Productos { -brand-mozilla }
 bento-menu-tagline = Plus de productos { -brand-mozilla } que protege tu confidentialitate
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser pro scriptorio
@@ -616,7 +619,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronisation datos de { -brand-firefox }
 delete-account-product-firefox-addons = Additivos de { -brand-firefox }
@@ -965,8 +968,10 @@ auth-error-155 = Token TOTP non trovate
 auth-error-159 = Clave de recuperation del conto non valide
 auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-999 = Error inexpectate
+auth-error-1002 = Session expirate. Reaperi session pro continuar.
 auth-error-1003 = Immagazinage e cookies local es ancora disactivate
 auth-error-1008 = Tu nove contrasigno debe esser differente
+auth-error-1010 = Un contrasigno valide es necessari
 auth-error-1011 = Il es necessari un adresse email valide
 auth-error-1062 = Redirection non valide
 
@@ -1301,6 +1306,19 @@ signin-button = Aperir session
 signin-header = Aperir session
 signin-use-a-different-account-link = Usa un conto differente
 signin-forgot-password-link = Contrasigno oblidate?
+signin-password-button-label = Contrasigno
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
+report-signin-header = Reportar un apertura de session non autorisate?
+report-signin-body = Tu ha recipite un message sur un tentativa de accesso a tu conto. Vole tu reportar iste activitate como suspecte?
+report-signin-submit-button = Reporto de activitate
+report-signin-support-link = Proque occurre isto?
+report-signin-error = Desolate. Il ha habite un problema durante le invio de tu reporto.
 signin-bounced-header = Regrettabilemente, tu conto ha essite blocate.
 # $email (string) - The user's email.
 signin-bounced-message = Le message de confirmation que nos ha inviate a { $email } ha essite retornate e nos ha blocate tu conto a fin de proteger tu datos { -brand-firefox }.
