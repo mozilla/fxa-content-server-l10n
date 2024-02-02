@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Ο σύνδεσμος επαναφοράς κω�
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Ο σύνδεσμος επιβεβαίωσης είναι κατεστραμμένος
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Κατεστραμμένος σύνδεσμος
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Ο σύνδεσμος στον οποίο κάνατε κλικ δεν είχε κάποιους χαρακτήρες και ενδέχεται να έχει καταστραφεί από το πρόγραμμα email σας. Αντιγράψτε προσεκτικά τη διεύθυνση και δοκιμάστε ξανά.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Προϊόντα { -brand-mozilla }
 bento-menu-tagline = Περισσότερα προϊόντα από τη { -brand-mozilla } που προστατεύουν το απόρρητό σας
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } για υπολογιστές
@@ -619,7 +622,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Συγχρονισμός δεδομένων { -brand-firefox }
 delete-account-product-firefox-addons = Πρόσθετα { -brand-firefox }
@@ -969,8 +972,10 @@ auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-999 = Απροσδόκητο σφάλμα
+auth-error-1002 = Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε.
 auth-error-1003 = Η τοπική αποθήκευση ή τα cookie εξακολουθούν να είναι απενεργοποιημένα
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
+auth-error-1010 = Απαιτείται έγκυρος κωδικός πρόσβασης
 auth-error-1011 = Απαιτείται έγκυρο email
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
 
@@ -1305,6 +1310,19 @@ signin-button = Σύνδεση
 signin-header = Σύνδεση
 signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
 signin-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
+signin-password-button-label = Κωδικός πρόσβασης
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Λείπουν χαρακτήρες απο τον σύνδεσμο που κάνατε κλικ και ενδέχεται να έχει καταστραφεί από το πρόγραμμα email σας. Αντιγράψτε προσεκτικά τη διεύθυνση και δοκιμάστε ξανά.
+report-signin-header = Αναφορά μη εξουσιοδοτημένης σύνδεσης;
+report-signin-body = Λάβατε ένα email σχετικά με κάποια απόπειρα πρόσβασης στον λογαριασμό σας. Θα θέλατε να αναφέρετε αυτήν τη δραστηριότητα ως ύποπτη;
+report-signin-submit-button = Αναφορά δραστηριότητας
+report-signin-support-link = Γιατί συμβαίνει αυτό;
+report-signin-error = Δυστυχώς, προέκυψε πρόβλημα κατά την υποβολή της αναφοράς.
 signin-bounced-header = Συγγνώμη. Έχουμε κλειδώσει τον λογαριασμό σας.
 # $email (string) - The user's email.
 signin-bounced-message = Το email επιβεβαίωσης που στείλαμε στο { $email } επιστράφηκε και έχουμε κλειδώσει τον λογαριασμό σας για να προστατέψουμε τα δεδομένα του { -brand-firefox } σας.
