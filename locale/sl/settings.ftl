@@ -966,10 +966,10 @@ auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-159 = Neveljaven ključ za obnovitev računa
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-999 = Nepričakovana napaka
-auth-error-1002 = Seja je potekla. Prijavite se za nadaljevanje.
+auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.
 auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
 auth-error-1008 = Novo geslo mora biti drugačno
-auth-error-1010 = Veljavno geslo je obvezno
+auth-error-1010 = Zahtevano je veljavno geslo
 auth-error-1011 = Zahtevan je veljaven e-poštni naslov
 auth-error-1062 = Neveljavna preusmeritev
 
