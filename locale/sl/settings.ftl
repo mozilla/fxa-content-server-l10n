@@ -1311,7 +1311,7 @@ signin-password-button-label = Geslo
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
-report-signin-link-damaged-body = Povezavi, ki ste jo kliknili, so manjkali nekateri znaki. Morda jo je pokvaril vaš poštni odjemalec. Bodite previdni pri kopiranju in poskusite znova.
+report-signin-link-damaged-body = Povezavi, ki ste jo kliknili, je manjkalo nekaj znakov. Morda jo je pokvaril vaš poštni odjemalec. Poskusite jo previdno kopirati še enkrat.
 report-signin-header = Prijavi nepooblaščeno prijavo?
 report-signin-body = Prejeli ste sporočilo o poskusu dostopa do vašega računa. Želite to dejavnost prijaviti kot sumljivo?
 report-signin-submit-button = Prijavi sumljivo dejavnost
