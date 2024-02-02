@@ -1311,6 +1311,10 @@ signin-password-button-label = Lykilorð
 
 report-signin-link-damaged-body = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
 report-signin-header = Tilkynna óheimila innskráningu?
+report-signin-body = Þú fékkst tölvupóst varðandi tilraun til að fá aðgang að reikningnum þínum. Viltu tilkynna það sem grunsamlega virkni?
+report-signin-submit-button = Tilkynna virkni
+report-signin-support-link = Hvers vegna er þetta að gerast?
+report-signin-error = Því miður kom upp vandamál við að senda skýrsluna.
 signin-bounced-header = Því miður. Við höfum læst aðgangnum þínum.
 # $email (string) - The user's email.
 signin-bounced-message = Staðfestingartölvupóstur sem við sendum á { $email } var sendur til baka og við höfum því lokað á reikninginn þinn til að verja gögn þín í { -brand-firefox }.
