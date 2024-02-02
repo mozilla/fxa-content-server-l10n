@@ -1316,7 +1316,7 @@ report-signin-header = Prijavi nepooblaščeno prijavo?
 report-signin-body = Prejeli ste sporočilo o poskusu dostopa do vašega računa. Želite to dejavnost prijaviti kot sumljivo?
 report-signin-submit-button = Prijavi sumljivo dejavnost
 report-signin-support-link = Zakaj se to dogaja?
-report-signin-error = Pri pošiljanju poročila je prišlo do težave.
+report-signin-error = Pri pošiljanju poročila je prišlo do napake.
 signin-bounced-header = Oprostite. Zaklenili smo vaš račun.
 # $email (string) - The user's email.
 signin-bounced-message = Potrditveno sporočilo, ki smo ga poslali na { $email }, je bilo vrnjeno, vaš račun pa smo zaradi zaščite vaših podatkov v { -brand-firefox(sklon: "mestnik") } zaklenili.
