@@ -964,7 +964,7 @@ auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-159 = Allwedd adfer cyfrif annilys
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-999 = Gwall anhysbys
-auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodi i barhau.
+auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
 auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 auth-error-1010 = Rhaid darparu cyfrinair dilys
@@ -1311,10 +1311,10 @@ signin-password-button-label = Cyfrinair
 
 report-signin-link-damaged-body = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
 report-signin-header = Adrodd ar fewngofnodi heb ganiatâd?
-report-signin-body = Rydych wedi derbyn e-bost am ymgais i gael mynediad at eich cyfrif. Hoffech chi adrodd hyn fel digwyddiad amheus?
+report-signin-body = Rydych wedi derbyn e-bost am ymgais i gael mynediad at eich cyfrif. Hoffech chi adrodd am hyn fel digwyddiad amheus?
 report-signin-submit-button = Adroddiad gweithgaredd
 report-signin-support-link = Pam mae hyn yn digwydd?
-report-signin-error = Mae'n ddrwg gennym, roedd problem wrth gyflwyno'r adroddiad.
+report-signin-error = Ymddiheuriadau, bu anhawster wrth gyflwyno'r adroddiad.
 signin-bounced-header = Ymddiheuriadau. Rydym wedi cloi eich  cyfrif.
 # $email (string) - The user's email.
 signin-bounced-message = Cafodd yr e-bost cadarnhau roeddem wedi ei anfon i { $email } ei ddychwelyd ac rydym wedi cloi eich cyfrif er mwyn diogelu eich data { -brand-firefox }.
