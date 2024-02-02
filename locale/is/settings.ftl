@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Tengill til að endurstilla lykilorð er skemmdu
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Staðfestingartengill er skemmdur
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Skemmdur tengill
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } hugbúnaður
 bento-menu-tagline = Fleiri vörur frá { -brand-mozilla } sem vernda friðhelgi þína
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-vafri fyrir vinnutölvur
@@ -614,7 +617,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Samstilli { -brand-firefox }-gögn
 delete-account-product-firefox-addons = { -brand-firefox }-viðbætur
@@ -961,8 +964,10 @@ auth-error-155 = TOTP-teikn fannst ekki
 auth-error-159 = Ógildur endurheimtulykill reiknings
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-999 = Óvænt villa
+auth-error-1002 = Lota rann út. Skráðu þig inn til að halda áfram.
 auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
+auth-error-1010 = Gerð er krafa um gilt lykilorð
 auth-error-1011 = Krafist er gilds tölvupóstfangs
 auth-error-1062 = Ógild endurbeining
 
@@ -1297,6 +1302,15 @@ signin-button = Skrá inn
 signin-header = Skrá inn
 signin-use-a-different-account-link = Nota annan reikning
 signin-forgot-password-link = Gleymt lykilorð?
+signin-password-button-label = Lykilorð
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
+report-signin-header = Tilkynna óheimila innskráningu?
 signin-bounced-header = Því miður. Við höfum læst aðgangnum þínum.
 # $email (string) - The user's email.
 signin-bounced-message = Staðfestingartölvupóstur sem við sendum á { $email } var sendur til baka og við höfum því lokað á reikninginn þinn til að verja gögn þín í { -brand-firefox }.
