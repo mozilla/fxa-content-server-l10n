@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Parolayı sıfırlama bağlantısı hasarlı
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Onay bağlantısı zarar görmüş
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Bozuk bağlantı
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Tıkladığınız bağlantıda bazı karakterler eksikti. Bağlantı, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } ürünleri
 bento-menu-tagline = Gizliliğinizi koruyan diğer { -brand-mozilla } ürünleri
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
@@ -614,7 +617,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } verileri eşitleniyor
 delete-account-product-firefox-addons = { -brand-firefox } Eklentileri
@@ -948,8 +951,10 @@ auth-error-155 = TOTP jetonu bulunamadı
 auth-error-159 = Geçersiz hesap kurtarma anahtarı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-999 = Beklenmeyen hata
+auth-error-1002 = Oturum zaman aşımına uğradı. Devam etmek için giriş yapın.
 auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
+auth-error-1010 = Geçerli parola gerekli
 auth-error-1011 = Geçerli bir e-posta gerekiyor
 auth-error-1062 = Geçersiz yönlendirme
 
@@ -1284,6 +1289,19 @@ signin-button = Giriş yap
 signin-header = Giriş yap
 signin-use-a-different-account-link = Farklı bir hesap kullan
 signin-forgot-password-link = Parolanızı unuttunuz mu?
+signin-password-button-label = Parola
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Tıkladığınız bağlantıda bazı karakterler eksikti. Bağlantı, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin.
+report-signin-header = İzinsiz giriş rapor edilsin mi?
+report-signin-body = Hesabınıza yapılan bir giriş denemesiyle ilgili bir e-posta aldınız. Bu denemeyi şüpheli etkinlik olarak rapor etmek ister misiniz?
+report-signin-submit-button = Etkinliği rapor et
+report-signin-support-link = Neden böyle bir şey oldu?
+report-signin-error = Rapor gönderilirken bir sorun oluştu.
 signin-bounced-header = Kusura bakmayın, hesabınızı kilitledik.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } adresine gönderdiğimiz onay e-postası geri döndüğü için { -brand-firefox } verilerinizi korumak amacıyla hesabınızı kilitledik.
