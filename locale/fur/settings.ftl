@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Chest colegament par ristabilî la password al �
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Il colegament di conferme al è danezât
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Il colegament al è danezât
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Al colegament che tu âs doprât i mancjave cualchi caratar, al è probabil che il probleme al sedi stât causât dal to client di pueste eletroniche. Torne prove copiant cun atenzion la direzion.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Prodots { -brand-mozilla }
 bento-menu-tagline = Altris prodots di { -brand-mozilla } che a protezin la tô riservatece
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navigadôr { -brand-firefox } par scritori
@@ -615,7 +618,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizazion dâts in { -brand-firefox }
 delete-account-product-firefox-addons = Components adizionâi in { -brand-firefox }
@@ -963,8 +966,10 @@ auth-error-155 = Gjeton TOTP no cjatât
 auth-error-159 = Clâf di recupar dal account no valide
 auth-error-183-2 = Codiç di conferme scjadût o no valit
 auth-error-999 = Erôr inspietât
+auth-error-1002 = Session scjadude. Jentre par continuâ.
 auth-error-1003 = La archiviazion locâl o i cookies a son ancjemò disativâts
 auth-error-1008 = La gnove password e scugne jessi diferente
+auth-error-1010 = E covente une gnove password valide
 auth-error-1011 = Al è necessari inserî une direzion e-mail valide
 auth-error-1062 = Dirotament no valit
 
@@ -1299,6 +1304,19 @@ signin-button = Jentre
 signin-header = Jentre
 signin-use-a-different-account-link = Dopre un altri account
 signin-forgot-password-link = Password dismenteade?
+signin-password-button-label = Password
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Al colegament che tu âs doprât i mancjave cualchi caratar, al è probabil che il probleme al sedi stât causât dal to client di pueste eletroniche. Torne prove copiant cun atenzion la direzion.
+report-signin-header = Segnalâ acès cence autorizazion?
+report-signin-body = Tu âs ricevût une e-mail in merit a un tentatîf di acès al to account. Desideristu segnalâ cheste ativitât tant che suspiete?
+report-signin-submit-button = Segnale ativitât suspiete
+report-signin-support-link = Ce staial sucedint?
+report-signin-error = Nus displâs, al è vignût fûr un probleme tal inviâ la segnalazion.
 signin-bounced-header = Nus displâs, l’account al è stât blocât.
 # $email (string) - The user's email.
 signin-bounced-message = La e-mail di conferme che o vin mandât a { $email } e je tornade indaûr. Duncje o vin blocât il to account par protezi i tiei dâts di { -brand-firefox }.
