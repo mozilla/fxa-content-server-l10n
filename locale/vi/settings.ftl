@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Liên kết đặt lại mật khẩu đã bị 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Liên kết xác minh bị hỏng
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Liên kết bị hỏng
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Các sản phẩm { -brand-mozilla }
 bento-menu-tagline = Các sản phẩm khác từ { -brand-mozilla } bảo vệ quyền riêng tư của bạn
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
@@ -617,7 +620,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Đang đồng bộ hóa dữ liệu { -brand-firefox }
 delete-account-product-firefox-addons = Tiện ích { -brand-firefox }
@@ -965,8 +968,10 @@ auth-error-155 = Không tìm thấy token TOTP
 auth-error-159 = Khóa khôi phục tài khoản không hợp lệ
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-999 = Lỗi không xác định
+auth-error-1002 = Phiên đã hết hạn. Đăng nhập để tiếp tục.
 auth-error-1003 = Bộ nhớ cục bộ hoặc cookie vẫn bị tắt
 auth-error-1008 = Mật khẩu mới của bạn phải khác
+auth-error-1010 = Yêu cầu mật khẩu hợp lệ
 auth-error-1011 = Yêu cầu email hợp lệ
 auth-error-1062 = Chuyển hướng không hợp lệ
 
@@ -1301,6 +1306,19 @@ signin-button = Đăng nhập
 signin-header = Đăng nhập
 signin-use-a-different-account-link = Sử dụng một tài khoản khác
 signin-forgot-password-link = Đã quên mật khẩu?
+signin-password-button-label = Mật khẩu
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email của bạn làm hỏng. Hãy sao chép địa chỉ một cách cẩn thận và thử lại.
+report-signin-header = Báo cáo đăng nhập không được phép?
+report-signin-body = Bạn đã nhận được email về việc cố gắng truy cập vào tài khoản của bạn. Bạn có muốn báo cáo hoạt động này là đáng ngờ không?
+report-signin-submit-button = Báo cáo hoạt động
+report-signin-support-link = Tại sao chuyện này xảy ra?
+report-signin-error = Rất tiếc, đã xảy ra sự cố khi gửi báo cáo.
 signin-bounced-header = Rất tiếc. Chúng tôi đã khóa tài khoản của bạn.
 # $email (string) - The user's email.
 signin-bounced-message = Email xác nhận chúng tôi gửi tới { $email } đã bị trả lại và chúng tôi đã khóa tài khoản của bạn để bảo vệ dữ liệu { -brand-firefox } của bạn.
