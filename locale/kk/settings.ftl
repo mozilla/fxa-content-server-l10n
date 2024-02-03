@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Парольді тастау сілтемесі
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Растау сілтемесі зақымдалған
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Сілтеме зақымдалған
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } өнімдері
 bento-menu-tagline = Жекелігіңізді қорғайтын басқа да { -brand-mozilla } өнімдері
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Компьютер үшін { -brand-firefox } браузері
@@ -619,7 +622,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } деректерін синхрондау
 delete-account-product-firefox-addons = { -brand-firefox } қосымшалары
@@ -967,8 +970,10 @@ auth-error-155 = TOTP токені табылмады
 auth-error-159 = Тіркелгіні қалпына келтіру кілті жарамсыз
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-999 = Күтпеген қате
+auth-error-1002 = Сессия мерзімі бітті. Жалғастыру үшін кіріңіз.
 auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
+auth-error-1010 = Жарамды пароль керек
 auth-error-1011 = Жарамды эл. пошта адресі керек
 auth-error-1062 = Жарамсыз қайта бағдарлау
 
@@ -1303,6 +1308,19 @@ signin-button = Кіру
 signin-header = Кіру
 signin-use-a-different-account-link = Басқа тіркелгіні қолдану
 signin-forgot-password-link = Пароліңізді ұмыттыңыз ба?
+signin-password-button-label = Пароль
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
+report-signin-header = Авторизацияланбаған кіруді хабарлау керек пе?
+report-signin-body = Сіз тіркелгіңізге қатынау талабы жөнінде хат алдыңыз. Бұл белсенділікті күмәнді ретінде хабарлауды қалайсыз ба?
+report-signin-submit-button = Белсенділік туралы хабарлау
+report-signin-support-link = Бұл неліктен орын алады?
+report-signin-error = Кешіріңіз, хабарламаны жіберу кезінде мәселе туындады.
 signin-bounced-header = Кешіріңіз. Біз сіздің тіркелгіңізді блоктадық.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } адресіне жіберілген растау хаты қайтарылды, сондықтан біз сіздің { -brand-firefox } деректерін қорғау мақсатында тіркелгіңізді құлыптадық.
