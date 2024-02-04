@@ -223,7 +223,7 @@ reset-pwd-link-damaged-header = Посилання для відновлення
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Посилання для підтвердження пошкоджено
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Посилання, за яким ви перейшли, має пропущені символи та, можливо, було пошкоджене вашим поштовим клієнтом. Уважно скопіюйте адресу та спробуйте знову.
 
 ## LinkExpired component
@@ -309,7 +309,6 @@ avatar-default-avatar =
 bento-menu-title-3 = Продукти { -brand-mozilla }
 bento-menu-tagline = Інші продукти від { -brand-mozilla }, які захищають вашу приватність
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Браузер для комп'ютера
@@ -617,7 +616,6 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Синхронізація даних { -brand-firefox }
 delete-account-product-firefox-addons = Додатки { -brand-firefox }
@@ -967,7 +965,7 @@ auth-error-155 = TOTP-код не знайдено
 auth-error-159 = Недійсний ключ відновлення облікового запису
 auth-error-183-2 = Недійсний або протермінований код підтвердження
 auth-error-999 = Несподівана помилка
-auth-error-1003 = Локальне сховище або куки все ще вимкнені
+auth-error-1003 = Локальне сховище або файли cookie все ще вимкнено
 auth-error-1008 = Ваш новий пароль повинен бути іншим
 auth-error-1011 = Потрібна дійсна адреса електронної пошти
 auth-error-1062 = Недійсне переспрямування
@@ -1010,7 +1008,7 @@ connect-another-device-ios-complete-setup-message = Увійдіть у { -brand
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
-cookies-disabled-header = Доступ до локального сховища та збереження кук обов'язковий
+cookies-disabled-header = Доступ до локального сховища та збереження файлів cookie обов'язковий
 cookies-disabled-enable-prompt-2 = Щоб отримати доступ до { -product-mozilla-account(case: "gen") }, увімкніть куки та локальне сховище у своєму браузері. Це дозволить пам'ятати вас між сеансами.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Спробувати знову
@@ -1303,6 +1301,12 @@ signin-button = Увійти
 signin-header = Увійти
 signin-use-a-different-account-link = Використати інший обліковий запис
 signin-forgot-password-link = Забули пароль?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = Вибачте. Ми заблокували ваш обліковий запис.
 # $email (string) - The user's email.
 signin-bounced-message = Електронний лист із підтвердженням, який ми надіслали на адресу { $email }, повернувся, і ми заблокували ваш обліковий запис, щоб захистити ваші дані { -brand-firefox }.
