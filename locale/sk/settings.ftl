@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Potvrdzovací odkaz je poškodený
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Odkaz je poškodený
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e‑mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-tagline = Ďalšie produkty od { -brand-mozilla(case: "gen") }, ktoré chránia vaše súkromie
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Prehliadač { -brand-firefox } pre počítač
@@ -615,7 +618,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizujú sa údaje { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Doplnky pre { -brand-firefox }
@@ -961,8 +964,10 @@ auth-error-155 = Token TOTP sa nenašiel
 auth-error-159 = Neplatný kľúč na obnovenie účtu
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-999 = Neočakávaná chyba
+auth-error-1002 = Platnosť relácie vypršala. Ak chcete pokračovať, prihláste sa.
 auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
+auth-error-1010 = Vyžaduje sa zadanie platného hesla
 auth-error-1011 = Vyžaduje sa platná e‑mailová adresa
 auth-error-1062 = Neplatné presmerovanie
 
@@ -1297,6 +1302,19 @@ signin-button = Prihlásiť sa
 signin-header = Prihlásenie
 signin-use-a-different-account-link = Použiť iný účet
 signin-forgot-password-link = Zabudli ste heslo?
+signin-password-button-label = Heslo
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e‑mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
+report-signin-header = Nahlásiť neoprávnené prihlásenie?
+report-signin-body = Dostali ste e‑mail o pokuse o prihlásenie sa k vášmu účtu. Chcete túto aktivitu nahlásiť ako podozrivú?
+report-signin-submit-button = Nahlásiť aktivitu
+report-signin-support-link = Prečo sa to stalo?
+report-signin-error = Ľutujeme, pri odosielaní hlásenia sa vyskytol problém.
 signin-bounced-header = Mrzí nás to, no váš účet bol uzamknutý.
 # $email (string) - The user's email.
 signin-bounced-message = Potvrdzovací e‑mail, ktorý sme poslali na adresu { $email }, nebol doručený. Aby sme ochránili vaše údaje { -brand-firefox(case: "gen") }, váš účet sme uzamkli.
