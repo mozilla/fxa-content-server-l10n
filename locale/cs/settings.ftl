@@ -1304,7 +1304,7 @@ signin-password-button-label = Heslo
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
-report-signin-link-damaged-body = Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a zkuste to znovu.
+report-signin-link-damaged-body = V odkazu, na který jste klepli, chyběly znaky a váš e-mailový klient jej mohl poškodit. Pečlivě si adresu zkopírujte a zkuste to znovu.
 report-signin-header = Nahlásit neoprávněné přihlášení?
 report-signin-body = Obdrželi jste e-mail o pokusu o přihlášení k vašemu účtu. Chcete tuto aktivitu nahlásit jako podezřelou?
 report-signin-submit-button = Nahlásit aktivitu
