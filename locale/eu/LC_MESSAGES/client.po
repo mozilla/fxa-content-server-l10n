@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2023-04-15 08:04+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Pasahitza ondo berrezarri da. Jarraitzeko, hasi saioa."
 msgid "Sign in"
 msgstr "Hasi saioa"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Kontua ondo ezabatu da"
 
@@ -699,7 +699,11 @@ msgstr "Helbidea gaizki idatzi duzu? %(domain)s domeinuak ez du posta elektronik
 msgid "The image file size is too large to be uploaded."
 msgstr "Irudi-fitxategiaren tamaina handiegia da igotzeko."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
 

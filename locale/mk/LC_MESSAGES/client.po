@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2022-07-24 10:24+0000\n"
 "Last-Translator: Goce Mitevski <goce.mitevski@nicer2.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Лозинката е успешно ресетирана. Најаве�
 msgid "Sign in"
 msgstr "Најавете се"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Сметката е успешно избришана"
 
@@ -698,7 +698,11 @@ msgstr ""
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 

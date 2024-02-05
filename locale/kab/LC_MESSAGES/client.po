@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2023-02-21 11:32+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Awal uffir yettuwennez akken iwata. Kcem akken ad tkemleḍ."
 msgid "Sign in"
 msgstr "Kcem"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Amiḍan yettwakkes akken iwata"
 
@@ -698,7 +698,11 @@ msgstr "Imayl d arameɣtu? %(domain)s ur d-yettak ara imayl."
 msgid "The image file size is too large to be uploaded."
 msgstr "Teɣzi n ufaylu n tugniwin meqqer nezzeh i usali."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Imiḍanen Firefox zemren kan ad ttusersen di IFRAME n yesmal imeɣta"
 

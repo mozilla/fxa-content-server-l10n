@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-11 21:08+0000\n"
 "Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Passwort erfolgreich zurückgesetzt. Melden Sie sich an, um fortzufahren
 msgid "Sign in"
 msgstr "Anmelden"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Konto erfolgreich gelöscht"
 
@@ -701,7 +701,11 @@ msgstr "E-Mail-Adresse falsch geschrieben? %(domain)s bietet keine E-Mail-Dienst
 msgid "The image file size is too large to be uploaded."
 msgstr "Die Grafikdatei ist zu groß, um hochgeladen zu werden."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-Konten können nur in einem IFRAME auf freigeschalteten Websites platziert werden"
 

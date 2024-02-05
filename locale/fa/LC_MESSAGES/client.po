@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2022-06-05 18:14+0000\n"
 "Last-Translator: ‪Sociologist Abedi <sociologist.abedi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "بازنشانی گذرواژه با موفقیت انجام شد. بر�
 msgid "Sign in"
 msgstr "ورود"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
@@ -699,7 +699,11 @@ msgstr "ایمیل را اشتباه وارد کردید؟ %(domain)s امکان
 msgid "The image file size is too large to be uploaded."
 msgstr "حجم این تصویر برای آپلود خیلی بزرگ است."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
 

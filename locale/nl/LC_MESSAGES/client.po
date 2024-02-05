@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-12 06:49+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 msgid "Sign in"
 msgstr "Aanmelden"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
@@ -699,7 +699,11 @@ msgstr "Hebt u het e-mailadres verkeerd getypt? %(domain)s biedt geen e-mail aan
 msgid "The image file size is too large to be uploaded."
 msgstr "De afbeeldingsbestandsgrootte is te groot om te uploaden."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-accounts kunnen alleen in een IFRAME op goedgekeurde websites worden geplaatst"
 
