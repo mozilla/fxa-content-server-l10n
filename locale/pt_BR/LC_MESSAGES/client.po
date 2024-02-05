@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-30 17:19+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Senha redefinida com sucesso. Identifique-se para continuar."
 msgid "Sign in"
 msgstr "Identifique-se"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Conta excluída com sucesso"
 
@@ -699,7 +699,11 @@ msgstr "Email incorreto? %(domain)s não oferece email."
 msgid "The image file size is too large to be uploaded."
 msgstr "O arquivo de imagem é grande demais para ser enviado."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Contas Firefox só podem ser colocadas em um IFRAME em sites aprovados"
 

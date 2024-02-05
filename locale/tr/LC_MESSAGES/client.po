@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-12 12:21+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 msgid "Sign in"
 msgstr "Giriş yap"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
@@ -699,7 +699,11 @@ msgstr "E-postanızı yanlış mı yazdınız? %(domain)s e-posta hizmeti vermiy
 msgid "The image file size is too large to be uploaded."
 msgstr "Resim dosyası boyutu yüklenemeyecek kadar büyük."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Hesapları yalnızca onaylanmış sitelerde IFRAME içine yerleştirilebilir"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-12 14:58+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -28,7 +28,7 @@ msgstr "Парольді тастау сәтті аяқталды. Жалғас�
 msgid "Sign in"
 msgstr "Кіру"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Тіркелгі сәтті өшірілді"
 
@@ -699,7 +699,11 @@ msgstr "Қате тердіңіз бе? %(domain)s эл. поштаны ұсын
 msgid "The image file size is too large to be uploaded."
 msgstr "Сурет файлының өлшемі жүктеп жіберу үшін тым үлкен."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox тіркелгілерін тек расталған сайттарда IFRAME-ге орналастыруға болады."
 

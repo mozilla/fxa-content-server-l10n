@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2022-10-01 13:55+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Parolă resetată cu succes. Autentifică-te pentru a continua."
 msgid "Sign in"
 msgstr "Autentifică-te"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Cont șters cu succes"
 
@@ -709,7 +709,11 @@ msgstr "Ai scris greșit adresa de e-mail? %(domain)s nu oferă poștă electron
 msgid "The image file size is too large to be uploaded."
 msgstr "Mărimea fișierului de imagine este prea mare și nu poate fi încărcat."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Conturile Firefox pot fi plasate numai într-un IFRAME pe site-urile aprobate"
 

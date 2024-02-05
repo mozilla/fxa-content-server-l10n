@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2023-12-12 23:48+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Passord tilbakestilt. Logg inn for å fortsette."
 msgid "Sign in"
 msgstr "Logg inn"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Kontoen er nå slettet"
 
@@ -700,7 +700,11 @@ msgstr "Skrivefeil i e-postadresse? %(domain)s tilbyr ikke e-post."
 msgid "The image file size is too large to be uploaded."
 msgstr "Bildefilens størrelse er for stor til å lastes opp."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-kontoer kan bare plasseres i en IFRAME på godkjente nettsteder"
 

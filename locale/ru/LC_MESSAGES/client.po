@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-11 21:09+0000\n"
 "Last-Translator: Valery Ledovskoy <valery@ledovskoy.com>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Пароль успешно сброшен. Войдите, чтобы �
 msgid "Sign in"
 msgstr "Войти"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Аккаунт успешно удалён"
 
@@ -700,7 +700,11 @@ msgstr "Опечатались? %(domain)s не предлагает услуг 
 msgid "The image file size is too large to be uploaded."
 msgstr "Размер файла изображения слишком велик для загрузки."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Аккаунты Firefox могут быть помещены внутри IFRAME только на одобренных сайтах"
 

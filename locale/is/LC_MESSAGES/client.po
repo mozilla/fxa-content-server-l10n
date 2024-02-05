@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-15 14:23+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Tókst að endurstilla lykilorð. Skráðu þig inn til að halda áfram
 msgid "Sign in"
 msgstr "Innskráning"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Tókst að eyða reikningi"
 
@@ -701,7 +701,11 @@ msgstr "Rangt skrifað tölvupóstfang? %(domain)s býður ekki upp á tölvupó
 msgid "The image file size is too large to be uploaded."
 msgstr "Stærð myndarinnar er of mikil til að hægt sé að senda hana inn."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Aðeins er hægt að setja Firefox-reikninga inn í IFRAME á samþykktum vefsvæðum"
 

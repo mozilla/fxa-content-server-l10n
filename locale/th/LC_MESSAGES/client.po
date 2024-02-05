@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2023-12-30 17:20+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "ตั้งรหัสผ่านใหม่สำเร็จแล
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "ได้ลบบัญชีเรียบร้อยแล้ว"
 
@@ -698,7 +698,11 @@ msgstr "พิมพ์อีเมลผิด? %(domain)s ไม่มีบ�
 msgid "The image file size is too large to be uploaded."
 msgstr "ไฟล์ภาพมีขนาดใหญ่เกินกว่าจะอัปโหลดได้"
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได้เฉพาะเว็บได้รับอนุญาตแล้ว"
 

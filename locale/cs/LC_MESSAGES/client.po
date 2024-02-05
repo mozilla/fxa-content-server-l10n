@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2024-01-21 20:10+0000\n"
 "Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Heslo bylo úspěšně obnoveno. Pro pokračování se přihlaste."
 msgid "Sign in"
 msgstr "Přihlásit se"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Účet byl úspěšně smazán"
 
@@ -699,7 +699,11 @@ msgstr "Neudělali jste překlep? Doména %(domain)s nemá e-maily."
 msgid "The image file size is too large to be uploaded."
 msgstr "Obrázek je pro nahrání příliš velký."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Účet Firefoxu může být umístěn do IFRAME pouze na schválených stránkách"
 

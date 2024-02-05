@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Keppeling foar opnij ynstellen skansearre
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Befêstigingskeppeling skansearre
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Keppeling skansearre
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik skansearre rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla }-produkten
 bento-menu-tagline = Mear produkten fan { -brand-mozilla } dy’t jo privacy beskermje
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser foar desktop
@@ -621,7 +624,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox }-gegevens syngronisearje
 delete-account-product-firefox-addons = { -brand-firefox }-add-ons
@@ -971,8 +974,10 @@ auth-error-155 = TOTP-token net fûn
 auth-error-159 = Unjildige accountwerstelkaai
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
 auth-error-999 = Unferwachte flater
+auth-error-1002 = Sesje ferrûn. Meld jo oan om troch te gean.
 auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
+auth-error-1010 = Jildich wachtwurd fereaske
 auth-error-1011 = Jildich e-mailadres fereaske
 auth-error-1062 = Unjildige trochferwizing
 
@@ -1307,6 +1312,19 @@ signin-button = Oanmelde
 signin-header = Oanmelde
 signin-use-a-different-account-link = In oar account brûke
 signin-forgot-password-link = Wachtwurd ferjitten?
+signin-password-button-label = Wachtwurd
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik defekt rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
+report-signin-header = Net-autorisearre oanmelding rapportearje?
+report-signin-body = Jo hawwe in e-mail ûntfongen oer in besykjen tagong te krijen ta jo account. Wolle jo dizze aktiviteit as fertocht rapportearje?
+report-signin-submit-button = Aktiviteit rapportearje
+report-signin-support-link = Werom bart dit?
+report-signin-error = Sorry, der wie in probleem mei it yntsjinjen fan jo rapport.
 signin-bounced-header = Sorry. Wy hawwe jo account beskoattele.
 # $email (string) - The user's email.
 signin-bounced-message = De befêstigingsmail dy’t wy nei { $email } ferstjoerd hawwe, is retoernearre en om jo { -brand-firefox }-gegevens te beskermjen, is jo account beskoattele.

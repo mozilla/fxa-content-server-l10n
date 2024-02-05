@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 20:07+0000\n"
+"POT-Creation-Date: 2024-02-05 20:08+0000\n"
 "PO-Revision-Date: 2023-10-21 07:35+0000\n"
 "Last-Translator: paperbox <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
-#: .es5/views/index.js:151
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -699,7 +699,11 @@ msgstr "이메일을 잘못 입력하지는 않으셨나요? %(domain)s(은)는 
 msgid "The image file size is too large to be uploaded."
 msgstr "이미지 파일 크기가 너무 커서 업로드 할 수 없습니다."
 
-#: .es5/lib/auth-errors.js:681
+#: .es5/lib/auth-errors.js:612
+msgid "Email masks can’t be used to create an account."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
