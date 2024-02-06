@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Link til nulstilling af adgangskode beskadiget
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Bekræftelseslink beskadiget
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Link beskadiget
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Produkter fra { -brand-mozilla }
 bento-menu-tagline = Flere produkter fra { -brand-mozilla }, der beskytter dit privatliv
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser til din computer
@@ -616,7 +619,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkronisering af { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tilføjelser
@@ -966,8 +969,10 @@ auth-error-155 = TOTP-token ikke fundet
 auth-error-159 = Ugyldig genoprettelsesnøgle til kontoen
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-999 = Uventet fejl
+auth-error-1002 = Sessionen udløb. Log ind for at fortsætte.
 auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
+auth-error-1010 = Gyldig adgangskode påkrævet
 auth-error-1011 = Gyldig mailadresse påkrævet
 auth-error-1062 = Ugyldig omdirigering
 
@@ -1302,6 +1307,13 @@ signin-button = Log ind
 signin-header = Log ind
 signin-use-a-different-account-link = Brug en anden konto
 signin-forgot-password-link = Glemt adgangskode?
+signin-password-button-label = Adgangskode
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = Vi har låst din konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekræftelsesmailen, vi sendte til{ $email }, kom retur, så vi har låst din konto for at beskytte dine { -brand-firefox }-data.
