@@ -1315,9 +1315,11 @@ signin-password-button-label = Adgangskode
 ## This will be the page shown to users to block the sign in and report it.
 
 report-signin-link-damaged-body = Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen.
+report-signin-header = Rapportér uautoriseret login?
 report-signin-body = Du har modtaget en mail vedrørende forsøg på at få adgang til din konto. Vi du rapportere denne aktivitet som mistænkelig?
 report-signin-submit-button = Rapportér aktivitet
 report-signin-support-link = Hvorfor sker dette?
+report-signin-error = Der opstod desværre et problem under indsendelsen af rapporten.
 signin-bounced-header = Vi har låst din konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekræftelsesmailen, vi sendte til{ $email }, kom retur, så vi har låst din konto for at beskytte dine { -brand-firefox }-data.
