@@ -223,7 +223,7 @@ reset-pwd-link-damaged-header = Reset password link damaged
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Confirmation link damaged
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
 
 ## LinkExpired component
@@ -309,7 +309,6 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } products
 bento-menu-tagline = More products from { -brand-mozilla } that protect your privacy
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
@@ -615,7 +614,6 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Syncing { -brand-firefox } data
 delete-account-product-firefox-addons = { -brand-firefox } Add-ons
@@ -932,7 +930,7 @@ terms-privacy-agreement-default-2 = By proceeding, you agree to the <mozillaAcco
 # This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
-third-party-auth-options-or = Or
+third-party-auth-options-or = or
 continue-with-google-button = Continue with { -brand-google }
 continue-with-apple-button = Continue with { -brand-apple }
 
@@ -1293,6 +1291,12 @@ signin-button = Sign in
 signin-header = Sign in
 signin-use-a-different-account-link = Use a different account
 signin-forgot-password-link = Forgot password?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = Sorry. We’ve locked your account.
 # $email (string) - The user's email.
 signin-bounced-message = The confirmation email we sent to { $email } was returned and we’ve locked your account to protect your { -brand-firefox } data.
