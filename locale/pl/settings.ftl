@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Odnośnik do zmiany hasła jest uszkodzony
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Odnośnik potwierdzenia jest uszkodzony
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Uszkodzony odnośnik
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
 
 ## LinkExpired component
@@ -309,7 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Produkty { -brand-mozilla(case: "gen") }
 bento-menu-tagline = Więcej produktów od { -brand-mozilla(case: "gen") }, które chronią Twoją prywatność
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Przeglądarka { -brand-firefox } na komputery
@@ -617,7 +620,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizowanie danych { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Dodatki do { -brand-firefox(case: "gen") }
@@ -963,8 +966,10 @@ auth-error-155 = Nie odnaleziono tokena TOTP
 auth-error-159 = Nieprawidłowy klucz odzyskiwania konta
 auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
 auth-error-999 = Nieznany błąd
+auth-error-1002 = Sesja wygasła. Zaloguj się, aby kontynuować.
 auth-error-1003 = Obsługa lokalnego przechowywania danych lub ciasteczek jest nadal wyłączona
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
+auth-error-1010 = Wymagane jest prawidłowe hasło
 auth-error-1011 = Wymagany jest prawidłowy adres e-mail
 auth-error-1062 = Nieprawidłowe przekierowanie
 
@@ -1299,6 +1304,19 @@ signin-button = Zaloguj się
 signin-header = Zaloguj się
 signin-use-a-different-account-link = Użyj innego konta
 signin-forgot-password-link = Nie pamiętasz hasła?
+signin-password-button-label = Hasło
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
+report-signin-header = Zgłosić nieupoważnione logowanie?
+report-signin-body = To wiadomość o próbie dostępu do konta. Czy zgłosić ją jako podejrzaną?
+report-signin-submit-button = Zgłoś działanie
+report-signin-support-link = Dlaczego to się stało?
+report-signin-error = Podczas przesyłania zgłoszenia wystąpił błąd.
 signin-bounced-header = Konto zostało zablokowane.
 # $email (string) - The user's email.
 signin-bounced-message = Wiadomość z potwierdzeniem wysłana na adres { $email } została zwrócona, więc konto zostało zablokowane, aby chronić dane użytkownika { -brand-firefox(case: "gen") }.

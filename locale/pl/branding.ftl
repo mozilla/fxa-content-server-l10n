@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used across fxa-auth-server, fxa-payments-server, and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
@@ -33,7 +34,6 @@
         [ins] Firefoksem
         [loc] Firefoksie
     }
-
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # "Firefox accounts" refers to the service
 -product-firefox-accounts =
@@ -69,7 +69,6 @@
                 [lower] kontach Firefoksa
             }
     }
-
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
 -product-mozilla-account =
     { $case ->
@@ -104,7 +103,6 @@
                *[upper] Konto Mozilli
             }
     }
-
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
 # "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
 -product-mozilla-accounts =
@@ -140,7 +138,6 @@
                *[upper] Konta Mozilli
             }
     }
-
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
@@ -176,15 +173,13 @@
                 [lower] koncie Firefoksa
             }
     }
-
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
 -product-mdn-plus = MDN Plus
 -product-firefox-cloud = Firefox Cloud
--product-firefox-monitor = Firefox Monitor
+-product-mozilla-monitor = Mozilla Monitor
 -product-firefox-relay = Firefox Relay
 -product-pocket = Pocket
-
 -brand-apple =
     { $case ->
         [gen] Apple’a
@@ -197,6 +192,5 @@
 -brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
-
 -app-store = App Store
 -google-play = Google Play
