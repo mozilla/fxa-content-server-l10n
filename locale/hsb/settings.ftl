@@ -241,12 +241,6 @@ reset-pwd-resend-link = Nowy wotkaz dóstać
 reset-pwd-link-expired-header = Wotkaz k wróćostajenju hesła spadnjony
 reset-pwd-link-expired-message = Wotkaz, na kotryž sće kliknył, zo byšće swoje hesło wróćo stajił, je spadnjeny.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Wobkrućenski wotkaz spadnjeny
-signin-link-expired-message = Wotkaz, na kotryž sće kliknył, zo byšće swoju e-mejlowu adresu přepruwował, je spadnjeny.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1282,6 +1276,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu ko
 error-label = Zmylk:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Přizjewjenje so wobkrućuje…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Wobkrućenski zmylk
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Wobkrućenski wotkaz spadnjeny
+signin-link-expired-message-2 = Wotkaz, na kotryž sće kliknył, je spadnjeny abo je so hižo wužiwał.
 
 ## ConfirmSignin component
 
