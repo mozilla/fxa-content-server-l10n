@@ -241,12 +241,6 @@ reset-pwd-resend-link = Derbyn dolen newydd
 reset-pwd-link-expired-header = Mae'r ddolen ailosod wedi dod i ben
 reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Mae'r ddolen dilysu wedi dod i ben
-signin-link-expired-message = Mae'r ddolen rydych newydd ei chlicio i gadarnhau eich e-bost wedi dod i ben.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1280,6 +1274,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghy
 error-label = Gwall:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Wrthi'n dilysu mewngofnod…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Gwall cadarnhau
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Mae'r ddolen dilysu wedi dod i ben
+signin-link-expired-message-2 = Mae'r ddolen a gliciwyd gennych wedi dod i ben neu eisoes wedi'i defnyddio.
 
 ## ConfirmSignin component
 
