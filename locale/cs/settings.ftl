@@ -241,12 +241,6 @@ reset-pwd-resend-link = Získat nový odkaz
 reset-pwd-link-expired-header = Platnost odkazu pro obnovení hesla vypršela
 reset-pwd-link-expired-message = Platnost odkazu pro obnovení hesla už vypršela.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Platnost odkazu pro potvrzení vypršela
-signin-link-expired-message = Platnost odkazu pro potvrzení už vypršela.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1275,6 +1269,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do m
 error-label = Chyba:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Ověřuje se přihlášení…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Chyba při potvrzení
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Platnost odkazu pro potvrzení vypršela
+signin-link-expired-message-2 = Odkaz, na který jste klepli, vypršel nebo byl již použit.
 
 ## ConfirmSignin component
 
