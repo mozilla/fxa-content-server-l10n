@@ -241,12 +241,6 @@ reset-pwd-resend-link = Prejmi novo povezavo
 reset-pwd-link-expired-header = Povezava za ponastavitev gesla je potekla
 reset-pwd-link-expired-message = Povezava, ki ste jo kliknili za ponastavitev gesla, je potekla.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Potrditvena povezava je potekla
-signin-link-expired-message = Povezava za potrditev e-poštnega naslova je potekla.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1282,6 +1276,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj r
 error-label = Napaka:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Potrjevanje prijave …
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Napaka pri potrditvi
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Potrditvena povezava je potekla
+signin-link-expired-message-2 = Povezava, ki ste jo kliknili, je potekla ali pa je že uporabljena.
 
 ## ConfirmSignin component
 
