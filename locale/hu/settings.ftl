@@ -241,12 +241,6 @@ reset-pwd-resend-link = Új hivatkozás kérése
 reset-pwd-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
 reset-pwd-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = A megerősítő hivatkozás lejárt
-signin-link-expired-message = Az e-mail-cím megerősítéséhez használt hivatkozás lejárt.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1288,6 +1282,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saj
 error-label = Hiba:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Bejelentkezés ellenőrzése…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Megerősítési hiba
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = A megerősítő hivatkozás lejárt
+signin-link-expired-message-2 = A hivatkozás, amelyre kattintott, lejárt, vagy már használták.
 
 ## ConfirmSignin component
 
