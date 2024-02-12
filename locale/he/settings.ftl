@@ -236,12 +236,6 @@ reset-pwd-resend-link = קבלת קישור חדש
 reset-pwd-link-expired-header = פג תוקף הקישור לאיפוס הססמה
 reset-pwd-link-expired-message = פג תוקף הקישור לאיפוס הססמה עליו לחצת.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = פג תוקף קישור האימות
-signin-link-expired-message = פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1203,6 +1197,11 @@ reset-password-with-recovery-key-verified-continue-to-account = המשך לחש�
 error-label = שגיאה:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = בתהליך אימות התחברות…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = שגיאת אימות
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = פג תוקף קישור האימות
+signin-link-expired-message-2 = פג תוקף הקישור עליו לחצת, או שכבר נעשה בו שימוש.
 
 ## ConfirmSignin component
 
