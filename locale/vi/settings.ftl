@@ -241,12 +241,6 @@ reset-pwd-resend-link = Nhận liên kết mới
 reset-pwd-link-expired-header = Liên kết đặt lại mật khẩu đã hết hạn
 reset-pwd-link-expired-message = Liên kết bạn đã nhấp để đặt lại mật khẩu của bạn đã hết hạn.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Liên kết xác minh đã hết hạn
-signin-link-expired-message = Liên kết bạn đã nhấp để xác minh email của bạn đã hết hạn.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1284,6 +1278,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đ�
 error-label = Lỗi:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Đang xác thực đăng nhập…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Lỗi xác minh
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Liên kết xác minh đã hết hạn
+signin-link-expired-message-2 = Liên kết bạn nhấp vào đã hết hạn hoặc đã được sử dụng.
 
 ## ConfirmSignin component
 
