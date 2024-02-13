@@ -241,12 +241,6 @@ reset-pwd-resend-link = 取得新鏈結
 reset-pwd-link-expired-header = 重設密碼鏈結已失效
 reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已失效。
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = 驗證鏈結已失效
-signin-link-expired-message = 您點擊的密碼重設驗證鏈結已失效。
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1256,6 +1250,11 @@ reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我�
 error-label = 錯誤：
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = 正在驗證登入…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = 確認過程發生錯誤
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = 驗證鏈結已失效
+signin-link-expired-message-2 = 您點擊的鏈結已失效，或已經被使用過。
 
 ## ConfirmSignin component
 
