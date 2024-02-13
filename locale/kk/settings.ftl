@@ -241,12 +241,6 @@ reset-pwd-resend-link = Жаңа сілтемені алу
 reset-pwd-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
 reset-pwd-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Растау сілтемесінің мерзімі аяқталған
-signin-link-expired-message = Эл. пошта адресін растау үшін сіз шерткен сілтеменің мерзімі біткен.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1286,6 +1280,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Менің ті�
 error-label = Қате:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Жүйеге кіру расталуда…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Растау қатесі
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Растау сілтемесінің мерзімі аяқталған
+signin-link-expired-message-2 = Сіз басқан сілтеменің мерзімі өтіп кеткен немесе ол бұрыннан қолданылған.
 
 ## ConfirmSignin component
 
