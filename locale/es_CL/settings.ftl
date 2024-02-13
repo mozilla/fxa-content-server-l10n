@@ -241,12 +241,6 @@ reset-pwd-resend-link = Recibir enlace nuevo
 reset-pwd-link-expired-header = Enlace de reinicio de contraseña expirado
 reset-pwd-link-expired-message = El enlace que cliqueaste para reiniciar tu contraseña está expirado.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Enlace de confirmación expirado
-signin-link-expired-message = El enlace que apretaste para confirmar tu correo electrónico está expirado.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1277,6 +1271,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 error-label = Error:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Validando conexión…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Error de confirmación
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Enlace de confirmación expirado
+signin-link-expired-message-2 = El enlace en el que hiciste clic ha caducado o ya ha sido utilizado.
 
 ## ConfirmSignin component
 
