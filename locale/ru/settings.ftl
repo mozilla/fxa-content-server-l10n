@@ -241,12 +241,6 @@ reset-pwd-resend-link = Получить новую ссылку
 reset-pwd-link-expired-header = Срок жизни ссылки для сброса пароля истёк
 reset-pwd-link-expired-message = Срок жизни ссылки, по которой вы щёлкаете, чтобы сбросить пароль, истёк.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Срок действия ссылки для подтверждения истёк
-signin-link-expired-message = Срок действия ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, истёк.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1282,6 +1276,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Перейти �
 error-label = Ошибка:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Проверка входа…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Ошибка подтверждения
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Срок действия ссылки для подтверждения истёк
+signin-link-expired-message-2 = Срок действия ссылки, на которую вы нажали, истёк или она уже была использована.
 
 ## ConfirmSignin component
 
