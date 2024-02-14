@@ -241,12 +241,6 @@ reset-pwd-resend-link = Λήψη νέου συνδέσμου
 reset-pwd-link-expired-header = Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης έληξε
 reset-pwd-link-expired-message = Ο σύνδεσμος στον οποίο κάνατε κλικ για επαναφορά του κωδικού πρόσβασής σας έχει λήξει.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Ο σύνδεσμος επιβεβαίωσης έληξε
-signin-link-expired-message = Ο σύνδεσμος που επιλέξατε για την επιβεβαίωση του email σας έχει λήξει.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1288,6 +1282,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια
 error-label = Σφάλμα:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Επικύρωση σύνδεσης…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Σφάλμα επιβεβαίωσης
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Ο σύνδεσμος επιβεβαίωσης έληξε
+signin-link-expired-message-2 = Ο σύνδεσμος στον οποίο κάνατε κλικ έχει λήξει ή έχει ήδη χρησιμοποιηθεί.
 
 ## ConfirmSignin component
 
