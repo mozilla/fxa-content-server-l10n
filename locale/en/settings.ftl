@@ -1339,12 +1339,6 @@ complete-signin-error-header = Confirmation error
 signin-link-expired-header = Confirmation link expired
 signin-link-expired-message-2 = The link you clicked has expired or has already been used.
 
-## ConfirmSignin component
-
-confirm-signin-header = Confirm this sign-in
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Check your email for the sign-in confirmation link sent to { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1452,14 +1446,6 @@ signin-totp-code-other-account-link = Use a different account
 signin-totp-code-recovery-code-link = Trouble entering code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authentication code required
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Confirm your account
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Check your email for the confirmation link sent to { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
