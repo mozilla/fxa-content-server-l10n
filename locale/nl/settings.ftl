@@ -241,12 +241,6 @@ reset-pwd-resend-link = Nieuwe koppeling ontvangen
 reset-pwd-link-expired-header = Herinitialisatiekoppeling verlopen
 reset-pwd-link-expired-message = De koppeling waarop u hebt geklikt voor het opnieuw instellen van uw wachtwoord is verlopen.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Bevestigingskoppeling verlopen
-signin-link-expired-message = De koppeling waarop u hebt geklikt voor het bevestigen van uw e-mailadres is verlopen.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1286,6 +1280,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mi
 error-label = Fout:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Aanmelding valideren…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Bevestigingsfout
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Bevestigingskoppeling verlopen
+signin-link-expired-message-2 = De koppeling waarop u hebt geklikt is verlopen of is al gebruikt.
 
 ## ConfirmSignin component
 
