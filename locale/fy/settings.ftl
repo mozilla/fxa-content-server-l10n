@@ -241,12 +241,6 @@ reset-pwd-resend-link = Nije keppeling ûntfange
 reset-pwd-link-expired-header = Keppeling foar opnij ynstellen is ferrûn
 reset-pwd-link-expired-message = De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd is ferrûn.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Befêstigingskeppeling ferrûn
-signin-link-expired-message = De keppeling wêrop jo klikt hawwe om jo e-mailadres te befêstigjen is ferrûn.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1290,6 +1284,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei my
 error-label = Flater:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Oanmelding falidearje…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Befêstigingsflater
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Befêstigingskeppeling ferrûn
+signin-link-expired-message-2 = De keppeling wêrop jo klikt hawwe is ferrûn of is al brûkt.
 
 ## ConfirmSignin component
 
