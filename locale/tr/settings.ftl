@@ -241,12 +241,6 @@ reset-pwd-resend-link = Yeni bağlantı iste
 reset-pwd-link-expired-header = Parolayı sıfırlama bağlantısının süresi doldu
 reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığınız bağlantı zaman aşımına uğramış.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Onay bağlantısının süresi dolmuş
-signin-link-expired-message = E-postanızı onaylamak için tıkladığınız bağlantı zaman aşımına uğramış.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1267,6 +1261,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam 
 error-label = Hata:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Giriş doğrulanıyor…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Doğrulama hatası
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Onay bağlantısının süresi dolmuş
+signin-link-expired-message-2 = Tıkladığınız bağlantının süresi dolmuş veya bağlantı daha önce kullanılmış.
 
 ## ConfirmSignin component
 
