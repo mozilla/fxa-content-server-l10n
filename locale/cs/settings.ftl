@@ -1275,12 +1275,6 @@ complete-signin-error-header = Chyba při potvrzení
 signin-link-expired-header = Platnost odkazu pro potvrzení vypršela
 signin-link-expired-message-2 = Odkaz, na který jste klepli, vypršel nebo byl již použit.
 
-## ConfirmSignin component
-
-confirm-signin-header = Potvrdit toto přihlášení
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Zkontrolujte potvrzovací odkaz, který jsme poslali na { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1384,14 +1378,6 @@ signin-totp-code-other-account-link = Použít jiný účet
 signin-totp-code-recovery-code-link = Problém se zadáváním kódu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Je vyžadován ověřovací kód
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Potvrzení účtu
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Zkontrolujte svůj e-mail, zda jste nezískali potvrzovací odkaz zaslaný na adresu { $email }.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
