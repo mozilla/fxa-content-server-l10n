@@ -241,12 +241,6 @@ reset-pwd-resend-link = Recipe un nove ligamine
 reset-pwd-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
 reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Ligamine de confirmation expirate
-signin-link-expired-message = Le ligamine que tu cliccava pro confirmar tu adresse email expirava.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1284,12 +1278,10 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 error-label = Error:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Validation del accesso…
-
-## ConfirmSignin component
-
-confirm-signin-header = Confirmar iste session
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Consulta le ligamine de confirmation de accesso inviate per email a { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Error de confirmation
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Ligamine de confirmation expirate
 
 ## Signin page
 
@@ -1394,14 +1386,6 @@ signin-totp-code-other-account-link = Usa un conto differente
 signin-totp-code-recovery-code-link = Problemas a inserer le codice?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Codice de authentication requirite
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Confirma tu conto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Controla tu email pro le ligamine de confirmation inviate a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
