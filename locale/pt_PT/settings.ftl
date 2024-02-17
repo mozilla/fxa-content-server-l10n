@@ -958,7 +958,7 @@ auth-error-999 = Erro inesperado
 auth-error-1002 = A sessão expirou. Inicie sessão para continuar.
 auth-error-1003 = O armazenamento local ou os cookies ainda estão desativados
 auth-error-1008 = A sua nova palavra-passe tem de ser diferente
-auth-error-1010 = Palavra-passe válida requerida
+auth-error-1010 = Palavra-passe válida necessária
 auth-error-1011 = É necessário um e-mail válido
 auth-error-1062 = Redirecionamento inválido
 
@@ -1277,12 +1277,6 @@ complete-signin-error-header = Erro de confirmação
 signin-link-expired-header = A ligação de confirmação expirou
 signin-link-expired-message-2 = A ligação que clicou expirou ou já foi utilizada.
 
-## ConfirmSignin component
-
-confirm-signin-header = Confirmar este início de sessão
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Consulte o seu e-mail para a ligação de confirmação de início de sessão enviada para { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1305,11 +1299,11 @@ signin-password-button-label = Palavra-passe
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
-report-signin-link-damaged-body = A ligação que clicou tem carateres em falta e pode ter sido quebrada pelo seu cliente de email. Copie cuidadosamente o endereço e tente novamente.
+report-signin-link-damaged-body = A ligação que clicou tem caracteres em falta e pode ter sido quebrada pelo seu cliente de e-mail. Copie cuidadosamente o endereço e tente novamente.
 report-signin-header = Denunciar início de sessão não autorizado?
-report-signin-body = Recebeu um email acerca de uma tentativa de acesso à sua conta. Deseja denunciar esta atividade como suspeita?
+report-signin-body = Recebeu um e-mail sobre de uma tentativa de acesso à sua conta. Deseja denunciar esta atividade como suspeita?
 report-signin-submit-button = Denunciar atividade
-report-signin-support-link = O que está a acontecer?
+report-signin-support-link = Porque é que isto está a acontecer?
 report-signin-error = Pedimos desculpa, mas ocorreu um problema ao submeter o relatório.
 signin-bounced-header = Desculpe. Nós bloqueámos a sua conta.
 # $email (string) - The user's email.
@@ -1386,14 +1380,6 @@ signin-totp-code-other-account-link = Utilizar uma conta diferente
 signin-totp-code-recovery-code-link = Problemas ao inserir o código?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = É necessário o código de autenticação
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Confirmar a sua conta
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Consulte o seu e-mail para a ligação de confirmação enviada para { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
