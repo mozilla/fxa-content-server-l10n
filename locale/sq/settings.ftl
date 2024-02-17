@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = Lidhja e ricaktimit të fjalëkalimit është e 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Lidhje ripohimi e dëmtuar
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Lidhje e dëmtuar
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni.
 
 ## LinkExpired component
@@ -237,12 +240,6 @@ reset-pwd-resend-link = Merrni lidhje të re
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Lidhja e ricaktimit të fjalëkalimit skadoi
 reset-pwd-link-expired-message = Lidhja që klikuat për ricaktimin e fjalëkalimit tuaj ka skaduar.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Lidhje ripohimi e skaduar
-signin-link-expired-message = Lidhja që klikuat për ripohimin e email-it tuaj ka skaduar.
 
 ## LinkRememberPassword component
 
@@ -309,7 +306,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Produkte { -brand-mozilla }
 bento-menu-tagline = Më tepër produkte nga { -brand-mozilla } që mbrojnë privatësinë tuaj
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Shfletuesi { -brand-firefox } për Desktop
@@ -615,7 +612,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Po njëkohësohen të dhëna { -brand-firefox }
 delete-account-product-firefox-addons = Shtesa { -brand-firefox }
@@ -963,8 +960,10 @@ auth-error-155 = S’u gjet token TOTP
 auth-error-159 = Kyç rimarrjeje llogarie i pavlefshëm
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-999 = Gabim i papritur
+auth-error-1002 = Sesioni skadoi. Që të vazhdohet, bëni hyrjen.
 auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
+auth-error-1010 = Lyp fjalëkalim të vlefshëm
 auth-error-1011 = Lypset email i vlefshëm
 auth-error-1062 = Ridrejtim i pavlefshëm
 
@@ -1277,12 +1276,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Vazhdo te llogar
 error-label = Gabim:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Po vlerësohet hyrja…
-
-## ConfirmSignin component
-
-confirm-signin-header = Ripohoni këtë hyrje
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Shihni te email-et tuaj për lidhjen e ripohimit të hyrjes dërguar te { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Gabim ripohimi
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Lidhje ripohimi e skaduar
+signin-link-expired-message-2 = Lidhja që klikuat, ka skaduar, ose është përdorur tashmë.
 
 ## Signin page
 
@@ -1299,6 +1297,19 @@ signin-button = Hyni
 signin-header = Hyni
 signin-use-a-different-account-link = Përdorni një llogari tjetër
 signin-forgot-password-link = Harruat  fjalëkalimin?
+signin-password-button-label = Fjalëkalim
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni.
+report-signin-header = Të raportohet hyrja e paautorizuar?
+report-signin-body = Morët një email rreth përpjekjesh hyrjeje te llogaria juaj. Do të donit ta raportonit këtë veprimtari si të dyshimtë?
+report-signin-submit-button = Raportoje aktin
+report-signin-support-link = Pse ndodh kjo?
+report-signin-error = Na ndjeni, pati një problem me parashtrimin e njoftimit.
 signin-bounced-header = Na ndjeni. Kemi kyçur llogarinë tuaj.
 # $email (string) - The user's email.
 signin-bounced-message = Email-i i ripohimit që dërguam te { $email } u kthye mbrapsht dhe e kemi kyçur llogarinë tuaj që të mbrojmë të dhënat tuaja { -brand-firefox }.
@@ -1374,14 +1385,6 @@ signin-totp-code-other-account-link = Përdorni një llogari tjetër
 signin-totp-code-recovery-code-link = Probleme me dhënien e kodit?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Lypset kod mirëfilltësimi
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Ripohoni llogarinë tuaj
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Shihni te email-et tuaj për lidhjen e ripohimit dërguar te { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
