@@ -241,12 +241,6 @@ reset-pwd-resend-link = Fá nýjan tengil
 reset-pwd-link-expired-header = Tengill til að endurstilla lykilorð er útrunninn
 reset-pwd-link-expired-message = Tengillinn sem þú smelltir á til að endursetja lykilorðið þitt er útrunninn.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Staðfestingartengill er útrunninn
-signin-link-expired-message = Tengillinn sem þú smelltir á til að staðfesta tölvupóstfangið þitt er útrunninn.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1280,12 +1274,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á 
 error-label = Villa:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Sannvotta innskráningu…
-
-## ConfirmSignin component
-
-confirm-signin-header = Staðfestu þessa innskráningu
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Skoðaðu í tölvupóstinum þínum hvort tengillinn hafi borist með staðfestingu innskráningar sem sendur var á { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Villa í staðfestingu
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Staðfestingartengill er útrunninn
+signin-link-expired-message-2 = Tengillinn sem þú smelltir á er útrunninn eða hefur þegar verið notaður.
 
 ## Signin page
 
@@ -1390,14 +1383,6 @@ signin-totp-code-other-account-link = Nota annan reikning
 signin-totp-code-recovery-code-link = Vandamál við að setja inn kóða?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Auðkenningarkóða krafist
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Staðfestu reikninginn þinn
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Skoðaðu tölvupóstinn þinn og finndu staðfestingartengilinn sem sendur var á  { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
