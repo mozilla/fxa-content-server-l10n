@@ -241,12 +241,6 @@ reset-pwd-resend-link = Отримати нове посилання
 reset-pwd-link-expired-header = Посилання для відновлення пароля протерміноване
 reset-pwd-link-expired-message = Посилання для відновлення пароля, за яким ви перейшли, протерміноване.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Термін дії посилання для підтвердження завершився
-signin-link-expired-message = Термін дії посилання, за яким ви перейшли для підтвердження електронної пошти, завершився.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1286,12 +1280,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Продовжи
 error-label = Помилка:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Перевірка входу…
-
-## ConfirmSignin component
-
-confirm-signin-header = Підтвердьте цей вхід
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Знайдіть лист із посиланням для підтвердження входу, надісланий на { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Помилка підтвердження
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Термін дії посилання для підтвердження завершився
+signin-link-expired-message-2 = Термін дії посилання, яке ви натиснули, закінчився або воно вже було використано.
 
 ## Signin page
 
@@ -1396,14 +1389,6 @@ signin-totp-code-other-account-link = Використати інший облі
 signin-totp-code-recovery-code-link = Проблеми з введенням коду?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Потрібно ввести код автентифікації
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Підтвердьте свій обліковий запис
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Знайдіть лист із посиланням для підтвердження, надісланий на { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
