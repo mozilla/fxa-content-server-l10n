@@ -223,7 +223,10 @@ reset-pwd-link-damaged-header = El enlace para restablecer la contraseña está 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Enlace de confirmación dañado
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Enlace dañado
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
 
 ## LinkExpired component
@@ -237,12 +240,6 @@ reset-pwd-resend-link = Recibir nuevo enlace
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = El enlace para restablecer la contraseña ha cadudado
 reset-pwd-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha caducado.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Enlace de confirmación expirado
-signin-link-expired-message = El enlace en el que hiciste clic para confirmar tu correo electrónico ha caducado.
 
 ## LinkRememberPassword component
 
@@ -309,7 +306,7 @@ avatar-default-avatar =
 bento-menu-title-3 = productos { -brand-mozilla }
 bento-menu-tagline = Más productos de { -brand-mozilla } que protegen tu privacidad
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
@@ -619,7 +616,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
 delete-account-product-firefox-addons = Complementos de { -brand-firefox }
@@ -964,8 +961,10 @@ auth-error-155 = Token TOTP no encontrado
 auth-error-159 = Clave de recuperación de cuenta no válida
 auth-error-183-2 = Código de confirmación no válido o caducado
 auth-error-999 = Error inesperado
+auth-error-1002 = La sesión expiró. Inicia sesión para continuar.
 auth-error-1003 = El almacenamiento local o las cookies siguen desactivados
 auth-error-1008 = La nueva contraseña debe ser diferente
+auth-error-1010 = Introduce una contraseña válida
 auth-error-1011 = Se requiere un correo válido
 auth-error-1062 = Redirección no válida
 
@@ -1278,12 +1277,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar el acc
 error-label = Error:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Validando inicio de sesión…
-
-## ConfirmSignin component
-
-confirm-signin-header = Confirmar este inicio de sesión
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Comprueba en tu correo electrónico el enlace de confirmación enviado a { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Error de confirmación
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Enlace de confirmación expirado
+signin-link-expired-message-2 = El enlace en el que hiciste clic ha caducado o ya ha sido utilizado.
 
 ## Signin page
 
@@ -1300,6 +1298,19 @@ signin-button = Iniciar sesión
 signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usar una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
+signin-password-button-label = Contraseña
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Al enlace que has pulsado le faltan caracteres y puede que tu cliente de correo lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
+report-signin-header = ¿Informar de un inicio de sesión no autorizado?
+report-signin-body = Has recibido un correo electrónico sobre un intento de acceso a tu cuenta. ¿Quieres informar de esta actividad como sospechosa?
+report-signin-submit-button = Informar de actividad
+report-signin-support-link = ¿Por qué sucede esto?
+report-signin-error = Lo sentimos, ha habido un problema al enviar el informe.
 signin-bounced-header = Lo sentimos. Hemos bloqueado tu cuenta.
 # $email (string) - The user's email.
 signin-bounced-message = El correo electrónico de confirmación enviado a { $email } fue devuelto y hemos bloqueado tu cuenta para proteger tus datos de { -brand-firefox }.
@@ -1375,14 +1386,6 @@ signin-totp-code-other-account-link = Usar una cuenta diferente
 signin-totp-code-recovery-code-link = ¿Problemas para introducir el código?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Código de autenticación requerido
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Confirma tu cuenta
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Comprueba en tu correo electrónico el enlace de confirmación enviado a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
