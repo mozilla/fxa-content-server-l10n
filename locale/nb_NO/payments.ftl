@@ -109,7 +109,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personve
 
 ## Component - PaymentMethodHeader
 
-payment-method-header = Velg betalingsmetode
+payment-method-header = Velg betalingsmåte
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
 payment-method-first-approve = Først må du godkjenne abonnementet ditt

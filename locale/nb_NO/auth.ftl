@@ -144,7 +144,7 @@ payment-plan-charged = Belastet: { $invoiceTotal } den { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Betalingsmetode:
+payment-method = Betalingsmåte:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # This string displays when the type of credit card is known
 # https://stripe.com/docs/payments/cards/supported-card-brands
@@ -476,7 +476,7 @@ subscriptionPaymentFailed-content-outdated = Det kan være at betalingskortet di
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon kreves for { $productName }
-subscriptionPaymentProviderCancelled-title = Beklager, vi har problemer med betalingsmetoden din
+subscriptionPaymentProviderCancelled-title = Beklager, vi har problemer med betalingsmåten din
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Vi har oppdaget et problem med betalingsmåten din for { $productName }.
