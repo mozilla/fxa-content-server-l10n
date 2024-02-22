@@ -960,6 +960,8 @@ auth-error-1003 = O armazenamento local ou os cookies ainda estão desativados
 auth-error-1008 = A sua nova palavra-passe tem de ser diferente
 auth-error-1010 = Palavra-passe válida necessária
 auth-error-1011 = É necessário um e-mail válido
+auth-error-1031 = Deve inserir a sua idade para se registar
+auth-error-1032 = Deve introduzir uma idade válida para se registar
 auth-error-1062 = Redirecionamento inválido
 
 ## Cannot Create Account page
@@ -1417,8 +1419,6 @@ signup-change-email-link = Alterar e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Qual é a sua idade?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Deve inserir a sua idade para se registar
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Por que é que nós perguntamos?
