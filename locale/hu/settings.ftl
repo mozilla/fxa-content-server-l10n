@@ -1288,12 +1288,6 @@ complete-signin-error-header = Megerősítési hiba
 signin-link-expired-header = A megerősítő hivatkozás lejárt
 signin-link-expired-message-2 = A hivatkozás, amelyre kattintott, lejárt, vagy már használták.
 
-## ConfirmSignin component
-
-confirm-signin-header = Erősítse meg ezt a bejelentkezést
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Ellenőrizze a leveleit, hogy megérkezett-e a bejelentkezési megerősítő hivatkozás ide: { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1397,14 +1391,6 @@ signin-totp-code-other-account-link = Másik fiók használata
 signin-totp-code-recovery-code-link = Nem tudja beírni a kódot?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Hitelesítési kód szükséges
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Erősítse meg a fiókját
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Ellenőrizze a leveleit, hogy megérkezett-e a megerősítési hivatkozás ide: { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
