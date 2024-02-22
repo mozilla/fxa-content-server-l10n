@@ -906,6 +906,8 @@ auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבת�
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 auth-error-1010 = נדרשת ססמה חוקית
 auth-error-1011 = נדרשת כתובת דוא״ל חוקית
+auth-error-1031 = עליך להכניס את גילך כדי להשלים את ההרשמה
+auth-error-1032 = עליך להקליד גיל תקני כדי להירשם
 auth-error-1062 = הפנייה לא חוקית
 
 ## Cannot Create Account page
@@ -1203,12 +1205,6 @@ complete-signin-error-header = שגיאת אימות
 signin-link-expired-header = פג תוקף קישור האימות
 signin-link-expired-message-2 = פג תוקף הקישור עליו לחצת, או שכבר נעשה בו שימוש.
 
-## ConfirmSignin component
-
-confirm-signin-header = אישור התחברות זו
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח אל { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1300,14 +1296,6 @@ signin-totp-code-recovery-code-link = מתקשה בהזנת הקוד?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = נדרש קוד אימות
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = אימות החשבון שלך
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח אל { $email }
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1344,8 +1332,6 @@ signup-change-email-link = שינוי כתובת דוא״ל
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = מהו גילך?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = עליך להכניס את גילך כדי להשלים את ההרשמה
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = למה אנחנו שואלים?
