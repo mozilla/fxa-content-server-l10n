@@ -241,12 +241,6 @@ reset-pwd-resend-link = Mandimi un gnûf colegament
 reset-pwd-link-expired-header = Chest colegament par ristabilî la password al è scjadût
 reset-pwd-link-expired-message = Il colegament doprât par ristabilî la tô password al è scjadût.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Colegament di conferme scjadût
-signin-link-expired-message = Il colegament doprât par confermâ la e-mail al è scjadût.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -1282,12 +1276,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Continue sul gno
 error-label = Erôr:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Convalide dal acès…
-
-## ConfirmSignin component
-
-confirm-signin-header = Conferme chest acès
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Controle la tô casele di pueste pe conferme di acès mandade a { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Erôr te conferme
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Colegament di conferme scjadût
+signin-link-expired-message-2 = Tu âs fat clic suntun colegament che al è scjadût o che al è za stât doprât.
 
 ## Signin page
 
@@ -1392,14 +1385,6 @@ signin-totp-code-other-account-link = Dopre un altri account
 signin-totp-code-recovery-code-link = Problemis a inserî il codiç?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Codiç di autenticazion necessari
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Conferme il to account
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Controle la tô casele di pueste pal colegament di conferme mandât a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,

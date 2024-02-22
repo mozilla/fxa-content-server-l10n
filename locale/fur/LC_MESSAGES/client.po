@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2024-02-10 17:52+0000\n"
+"PO-Revision-Date: 2024-02-22 12:18+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -996,7 +996,7 @@ msgstr "Il colegament di conferme al è danezât"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr "Erôr di conferme"
+msgstr "Erôr te conferme"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
