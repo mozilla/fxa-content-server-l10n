@@ -963,6 +963,8 @@ auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 auth-error-1010 = Rhaid darparu cyfrinair dilys
 auth-error-1011 = Mae angen e-bost dilys
+auth-error-1031 = Mae'n rhaid i chi nodi eich oed er mwyn ymuno
+auth-error-1032 = Rhaid rhoi oed dilys er mwyn cofrestru
 auth-error-1062 = Ailgyfeirio annilys
 
 ## Cannot Create Account page
@@ -1280,12 +1282,6 @@ complete-signin-error-header = Gwall cadarnhau
 signin-link-expired-header = Mae'r ddolen dilysu wedi dod i ben
 signin-link-expired-message-2 = Mae'r ddolen a gliciwyd gennych wedi dod i ben neu eisoes wedi'i defnyddio.
 
-## ConfirmSignin component
-
-confirm-signin-header = Yn cadarnhau'r mewngofnod hwn
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1390,14 +1386,6 @@ signin-totp-code-recovery-code-link = Trafferth cyflwyno cod?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Mae angen cod dilysu
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Cadarnhewch eich cyfrif
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at { $email }
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1434,8 +1422,6 @@ signup-change-email-link = Newid e-bost
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Beth yw eich oed?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Mae'n rhaid i chi nodi eich oed er mwyn ymuno
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Pam rydyn ni'n gofyn?
