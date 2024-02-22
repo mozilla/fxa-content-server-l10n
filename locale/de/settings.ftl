@@ -962,6 +962,8 @@ auth-error-1003 = Local Storage oder Cookies sind weiterhin deaktiviert
 auth-error-1008 = Ihr neues Passwort muss ein anderes sein
 auth-error-1010 = Gültiges Passwort erforderlich
 auth-error-1011 = Gültige E-Mail-Adresse erforderlich
+auth-error-1031 = Zur Registrierung müssen Sie Ihr Alter eingeben.
+auth-error-1032 = Zur Registrierung müssen Sie ein zulässiges Alter eingeben
 auth-error-1062 = Ungültige Weiterleitung
 
 ## Cannot Create Account page
@@ -1279,12 +1281,6 @@ complete-signin-error-header = Fehler bei der Bestätigung
 signin-link-expired-header = Bestätigungslink abgelaufen
 signin-link-expired-message-2 = Der Link, den Sie angeklickt haben, ist abgelaufen oder wurde bereits verwendet.
 
-## ConfirmSignin component
-
-confirm-signin-header = Diese Anmeldung bestätigen
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Sehen Sie in Ihrem E-Mail-Postfach nach dem Anmeldebestätigungs-Link, der an { $email } gesendet wurde
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1389,14 +1385,6 @@ signin-totp-code-recovery-code-link = Probleme bei der Codeeingabe?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authentifizierungscode erforderlich
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Bestätigen Sie Ihr Konto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Sehen Sie in Ihrem E-Mail-Postfach nach dem Bestätigungs-Link, der an { $email } gesendet wurde
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1433,8 +1421,6 @@ signup-change-email-link = E-Mail-Adresse ändern
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Wie alt sind Sie?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Zur Registrierung müssen Sie Ihr Alter eingeben.
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Warum fragen wir?
