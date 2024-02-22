@@ -965,6 +965,8 @@ auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
 auth-error-1008 = Novo geslo mora biti drugačno
 auth-error-1010 = Zahtevano je veljavno geslo
 auth-error-1011 = Zahtevan je veljaven e-poštni naslov
+auth-error-1031 = Za registracijo morate vnesti svojo starost
+auth-error-1032 = Za registracijo morate vnesti veljavno starost
 auth-error-1062 = Neveljavna preusmeritev
 
 ## Cannot Create Account page
@@ -1282,12 +1284,6 @@ complete-signin-error-header = Napaka pri potrditvi
 signin-link-expired-header = Potrditvena povezava je potekla
 signin-link-expired-message-2 = Povezava, ki ste jo kliknili, je potekla ali pa je že uporabljena.
 
-## ConfirmSignin component
-
-confirm-signin-header = Potrdite prijavo
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Med svojo e-pošto poiščite povezavo za potrditev prijave, poslano na { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1392,14 +1388,6 @@ signin-totp-code-recovery-code-link = Imate težave pri vnosu kode?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Zahtevana je overitvena koda
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Potrdite račun
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Med svojo e-pošto poiščite potrditveno povezavo, poslano na { $email }
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1436,8 +1424,6 @@ signup-change-email-link = Spremeni e-pošto
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Koliko ste stari?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Za registracijo morate vnesti svojo starost
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Zakaj sprašujemo?
