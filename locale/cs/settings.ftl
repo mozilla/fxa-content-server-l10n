@@ -958,6 +958,8 @@ auth-error-1003 = Místní úložiště nebo cookies jsou stále zakázány
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
 auth-error-1010 = Je požadováno platné heslo
 auth-error-1011 = Je požadován platný e-mail
+auth-error-1031 = Pro registraci musíte zadat svůj věk
+auth-error-1032 = Pro registraci musíte zadat platný věk
 auth-error-1062 = Neplatné přesměrování
 
 ## Cannot Create Account page
@@ -1415,8 +1417,6 @@ signup-change-email-link = Změna e-mailu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kolik vám je let?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Pro registraci musíte zadat svůj věk
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Proč se ptáme?
