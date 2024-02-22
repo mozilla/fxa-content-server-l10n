@@ -950,6 +950,8 @@ auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
 auth-error-1010 = Geçerli parola gerekli
 auth-error-1011 = Geçerli bir e-posta gerekiyor
+auth-error-1031 = Kaydolmak için yaşınızı belirtmelisiniz
+auth-error-1032 = Kaydolmak için geçerli bir yaş belirtmelisiniz
 auth-error-1062 = Geçersiz yönlendirme
 
 ## Cannot Create Account page
@@ -1267,12 +1269,6 @@ complete-signin-error-header = Doğrulama hatası
 signin-link-expired-header = Onay bağlantısının süresi dolmuş
 signin-link-expired-message-2 = Tıkladığınız bağlantının süresi dolmuş veya bağlantı daha önce kullanılmış.
 
-## ConfirmSignin component
-
-confirm-signin-header = Bu girişi onaylayın
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = { $email } adresine gönderdiğimiz giriş onayı bağlantısını kontrol edin
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1377,14 +1373,6 @@ signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Kimlik doğrulama kodu gerekli
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Hesabınızı onaylayın
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = { $email } adresine gönderdiğimiz onay bağlantısını kontrol edin
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1421,8 +1409,6 @@ signup-change-email-link = E-postayı değiştir
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kaç yaşındasınız?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Kaydolmak için yaşınızı belirtmelisiniz
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Neden soruyoruz?
