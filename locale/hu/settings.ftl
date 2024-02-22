@@ -971,6 +971,8 @@ auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 auth-error-1010 = Érvényes jelszó szükséges
 auth-error-1011 = Érvényes e-mail-cím szükséges
+auth-error-1031 = A feliratkozáshoz meg kell adnia életkorát
+auth-error-1032 = A feliratkozáshoz érvényes életkort kell megadnia
 auth-error-1062 = Érvénytelen átirányítás
 
 ## Cannot Create Account page
@@ -1428,8 +1430,6 @@ signup-change-email-link = E-mail-cím módosítása
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Hány éves?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = A regisztrációhoz meg kell adnia az életkorát
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Miért kérdezzük?
