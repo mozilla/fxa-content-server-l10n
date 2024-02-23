@@ -965,6 +965,8 @@ auth-error-1003 = Local Storage abo placki su hišće znjemóžnjene
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
 auth-error-1010 = Płaćiwe hesło trěbne
 auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
+auth-error-1031 = Dyrbiće swoju starobu zapodać, zo byšće so registrował
+auth-error-1032 = Dyrbiće płaćiwu starobu zapodać, zo byšće so registrował
 auth-error-1062 = Njepłaćiwe dalesposrědkowanje
 
 ## Cannot Create Account page
@@ -1282,12 +1284,6 @@ complete-signin-error-header = Wobkrućenski zmylk
 signin-link-expired-header = Wobkrućenski wotkaz spadnjeny
 signin-link-expired-message-2 = Wotkaz, na kotryž sće kliknył, je spadnjeny abo je so hižo wužiwał.
 
-## ConfirmSignin component
-
-confirm-signin-header = Tute přizjewjenje wobkrućić
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Přepytujće swoju e-mejl za přizjewjenskim wobkrućenskim wotkazom, kotryž je so na { $email } pósłał
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1392,14 +1388,6 @@ signin-totp-code-recovery-code-link = Maće problemy při zapodawanju koda?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Awtentifikaciski kod trěbny
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Wobkrućće swoje konto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Přepytujće swoju e-mejl za wobkrućenskim wotkazom, kotryž je so na { $email } pósłał
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1436,8 +1424,6 @@ signup-change-email-link = E-mejlowu adresu změnić
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kak stary sće?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Dyrbiće swoju starobu zapodać, zo byšće so registrował
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Čehodla so prašamy?
