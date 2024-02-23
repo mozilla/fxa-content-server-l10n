@@ -1279,10 +1279,10 @@ error-label = Napaka:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Potrjevanje prijave …
 # Shown above an error banner (e.g., invalid confirmation code, unexpected error)
-complete-signin-error-header = Napaka pri potrditvi
+complete-signin-error-header = Napaka pri potrjevanju
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Potrditvena povezava je potekla
-signin-link-expired-message-2 = Povezava, ki ste jo kliknili, je potekla ali pa je že uporabljena.
+signin-link-expired-message-2 = Povezavi, ki ste jo kliknili, je potekla veljavnost ali pa je bila že uporabljena.
 
 ## Signin page
 
