@@ -971,6 +971,8 @@ auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 auth-error-1010 = Giltigt lösenord krävs
 auth-error-1011 = Giltig e-postadress krävs
+auth-error-1031 = Du måste ange din ålder för att registrera dig
+auth-error-1032 = Du måste ange en giltig ålder för att registrera dig
 auth-error-1062 = Ogiltig omdirigering
 
 ## Cannot Create Account page
@@ -1288,12 +1290,6 @@ complete-signin-error-header = Bekräftelsefel
 signin-link-expired-header = Bekräftelselänken har upphört
 signin-link-expired-message-2 = Länken du klickade på har upphört eller har redan använts.
 
-## ConfirmSignin component
-
-confirm-signin-header = Bekräfta denna inloggning
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Kontrollera din e-post för inloggningsbekräftelselänken som skickats till { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1398,14 +1394,6 @@ signin-totp-code-recovery-code-link = Har du problem att ange koden?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Autentiseringskod krävs
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Bekräfta ditt konto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Kontrollera din e-post för bekräftelselänken som skickats till { $email }
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1442,8 +1430,6 @@ signup-change-email-link = Ändra e-post
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Hur gammal är du?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Du måste ange din ålder för att registrera dig
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Varför frågar vi?
