@@ -941,6 +941,8 @@ auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
 auth-error-1010 = 请输入有效的密码
 auth-error-1011 = 需要有效的邮箱地址
+auth-error-1031 = 您需要输入您的年龄才能注册
+auth-error-1032 = 您需要输入有效年龄才能注册
 auth-error-1062 = 无效重定向
 
 ## Cannot Create Account page
@@ -1264,12 +1266,6 @@ complete-signin-error-header = 确认时发生错误
 signin-link-expired-header = 确认链接已过期
 signin-link-expired-message-2 = 您点击的链接已过期或已被使用。
 
-## ConfirmSignin component
-
-confirm-signin-header = 确认此登录
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认链接
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1374,14 +1370,6 @@ signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = 请输入验证码
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = 确认您的账户
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = 请查收发送至您邮箱 { $email } 的账户确认链接
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1418,8 +1406,6 @@ signup-change-email-link = 更改邮箱
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = 您目前多少岁？
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = 您必须输入您的年龄才能注册
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = 为何询问？
