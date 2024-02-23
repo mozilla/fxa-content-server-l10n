@@ -969,6 +969,8 @@ auth-error-1003 = Lokale opslag of cookies zijn nog steeds uitgeschakeld
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
 auth-error-1010 = Geldig wachtwoord vereist
 auth-error-1011 = Geldig e-mailadres vereist
+auth-error-1031 = U moet uw leeftijd invoeren om te registreren
+auth-error-1032 = U moet een geldige leeftijd invoeren om te registreren
 auth-error-1062 = Ongeldige omleiding
 
 ## Cannot Create Account page
@@ -1286,12 +1288,6 @@ complete-signin-error-header = Bevestigingsfout
 signin-link-expired-header = Bevestigingskoppeling verlopen
 signin-link-expired-message-2 = De koppeling waarop u hebt geklikt is verlopen of is al gebruikt.
 
-## ConfirmSignin component
-
-confirm-signin-header = Deze aanmelding bevestigen
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Controleer uw e-mail op de bevestigingskoppeling voor aanmelding die naar { $email } is verzonden
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1396,14 +1392,6 @@ signin-totp-code-recovery-code-link = Problemen bij het invoeren van de code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authenticatiecode vereist
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Bevestig uw account
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Controleer uw e-mail op de bevestigingskoppeling die naar { $email } is verzonden
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1440,8 +1428,6 @@ signup-change-email-link = E-mailadres wijzigen
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Hoe oud bent u?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = U moet uw leeftijd invoeren om te registreren
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Waarom vragen we dit?
