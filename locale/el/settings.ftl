@@ -971,6 +971,8 @@ auth-error-1003 = Η τοπική αποθήκευση ή τα cookie εξακο
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
 auth-error-1010 = Απαιτείται έγκυρος κωδικός πρόσβασης
 auth-error-1011 = Απαιτείται έγκυρο email
+auth-error-1031 = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
+auth-error-1032 = Πρέπει να εισαγάγετε μια έγκυρη ηλικία για εγγραφή
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
 
 ## Cannot Create Account page
@@ -1288,12 +1290,6 @@ complete-signin-error-header = Σφάλμα επιβεβαίωσης
 signin-link-expired-header = Ο σύνδεσμος επιβεβαίωσης έληξε
 signin-link-expired-message-2 = Ο σύνδεσμος στον οποίο κάνατε κλικ έχει λήξει ή έχει ήδη χρησιμοποιηθεί.
 
-## ConfirmSignin component
-
-confirm-signin-header = Επιβεβαίωση σύνδεσης
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Ελέγξτε το email σας για τον σύνδεσμο επιβεβαίωσης εισόδου που απεστάλη στο { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1398,14 +1394,6 @@ signin-totp-code-recovery-code-link = Πρόβλημα με την εισαγω�
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Επιβεβαίωση του λογαριασμού σας
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Ελέγξτε το email σας για τον σύνδεσμο επιβεβαίωσης που απεστάλη στο { $email }
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1442,8 +1430,6 @@ signup-change-email-link = Αλλαγή email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Ποια είναι η ηλικία σας;
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Γιατί ρωτάμε;
