@@ -940,7 +940,7 @@ auth-error-1008 = Sua nova senha deve ser diferente
 auth-error-1010 = É necessário uma senha válida
 auth-error-1011 = É necessário um email válido
 auth-error-1031 = É necessário informar sua idade para se cadastrar
-auth-error-1032 = Você deve informar uma idade válida para se cadastrar
+auth-error-1032 = É necessário informar uma idade válida para se cadastrar
 auth-error-1062 = Redirecionamento inválido
 
 ## Cannot Create Account page
