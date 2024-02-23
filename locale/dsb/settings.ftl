@@ -963,6 +963,8 @@ auth-error-1003 = Local Storage abo cookieje su hyšći znjemóžnjone
 auth-error-1008 = Wašo nowe gronidło musy druge byś
 auth-error-1010 = Płaśiwe gronidło trjebne
 auth-error-1011 = Płaśiwa e-mailowa adresa trěbna
+auth-error-1031 = Musyśo swójo starstwo zapódaś, aby se registrěrował
+auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
 
 ## Cannot Create Account page
@@ -1280,12 +1282,6 @@ complete-signin-error-header = Wobkšuśeńska zmólka
 signin-link-expired-header = Wobkšuśeński wótkaz jo pśepadnuł
 signin-link-expired-message-2 = Wótkaz, na kótaryž sćo kliknuł, jo spadnjony abo jo se južo wužywał.
 
-## ConfirmSignin component
-
-confirm-signin-header = Toś to pśizjawjenje wobkšuśiś
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Pśepytujśo swóju e-mail za pśizjawjeńskim wóbkšuśeńskim wótkazom, kótaryž jo se na { $email } pósłał
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1390,14 +1386,6 @@ signin-totp-code-recovery-code-link = Maśo problemy pśi zapódawanju koda?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Awtentifikaciski kod trjebny
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Wobkšuśćo swójo konto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Pśepytujśo swóju e-mail za wóbkšuśeńskim wótkazom, kótaryž jo se na { $email } pósłał
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1434,8 +1422,6 @@ signup-change-email-link = E-mailowu adresu změniś
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kak stary sćo?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Musyśo swójo starstwo zapódaś, aby se registrěrował
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Cogodla se pšašamy?
