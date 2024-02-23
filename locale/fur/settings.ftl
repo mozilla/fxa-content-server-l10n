@@ -965,6 +965,8 @@ auth-error-1003 = La archiviazion locâl o i cookies a son ancjemò disativâts
 auth-error-1008 = La gnove password e scugne jessi diferente
 auth-error-1010 = E covente une gnove password valide
 auth-error-1011 = Al è necessari inserî une direzion e-mail valide
+auth-error-1031 = Par completâ la regjistrazion tu scugnis inserî la tô etât
+auth-error-1032 = Par completâ la regjistrazion tu cugnis inserî une etât valide
 auth-error-1062 = Dirotament no valit
 
 ## Cannot Create Account page
@@ -1422,8 +1424,6 @@ signup-change-email-link = Cambie e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Trops agns âstu?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Par completâ la regjistrazion tu scugnis inserî la tô etât
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Parcè ti domandìno?
