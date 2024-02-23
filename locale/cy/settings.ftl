@@ -963,7 +963,7 @@ auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 auth-error-1010 = Rhaid darparu cyfrinair dilys
 auth-error-1011 = Mae angen e-bost dilys
-auth-error-1031 = Mae'n rhaid i chi nodi eich oed er mwyn ymuno
+auth-error-1031 = Mae'n rhaid i chi roi eich oed er mwyn cofrestru
 auth-error-1032 = Rhaid rhoi oed dilys er mwyn cofrestru
 auth-error-1062 = Ailgyfeirio annilys
 
