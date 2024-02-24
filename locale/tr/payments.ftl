@@ -30,14 +30,10 @@ input-error-is-required = { $label } gereklidir
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } logosu
 brand-name-mozilla-logo = { -brand-mozilla } logosu
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
 new-user-sign-in-link-2 = Zaten  { -product-mozilla-account }nız var mı? <a>Giriş yapın</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -358,7 +354,7 @@ payment-error-3b = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen t
 expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
 insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
 withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
-charge-exceeds-source-limit = Bu işlem günlük kredi limitinizi aşacak gibi görünüyor. 24 saat sonra ya da başka bir kart deneyin.
+charge-exceeds-source-limit = Bu işlem günlük kredi limitinizi aşacak gibi görünüyor. 24 saat sonra tekrar deneyin ya da başka bir kart deneyin.
 instant-payouts-unsupported = Banka kartınız anında ödeme için ayarlanmamış. Başka bir banka veya kredi kartı deneyin.
 duplicate-transaction = Benzer bir işlem yeni gönderilmiş gibi görünüyor. Ödeme geçmişinizi kontrol edin.
 coupon-expired = Promosyon kodunun süresi dolmuş.
@@ -388,8 +384,6 @@ coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra l
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
 new-user-step-1-2 = 1. { -product-mozilla-account } oluşturun
 new-user-card-title = Kart bilgilerinizi girin
 new-user-submit = Şimdi abone ol

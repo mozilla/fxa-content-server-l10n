@@ -203,7 +203,7 @@ subscriptionUpdatePayment = Hizmetinizde kesinti olmaması için lütfen en kıs
 subscriptionUpdatePayment-plaintext = Hizmetinizde kesinti olmaması için lütfen ödeme bilgilerinizi en kısa zamanda güncelleyin:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Daha fazla  bilgi için { -brand-mozilla } Destek'i ziyaret edin: { $supportUrl }.
+support-message-2 = Daha fazla bilgi için { -brand-mozilla } Destek'i ziyaret edin: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -556,7 +556,7 @@ verificationReminderSecond-second-description-3 = { -product-mozilla-account } s
 verificationReminderSecond-sub-description-2 = İnterneti herkese açık bir yere dönüştürme misyonumuzun bir parçası olun.
 verificationReminderSecond-action-2 = Hesabı onaylayın
 verify-title-3 = İnternete { -brand-mozilla } ile açılın
-verify-description-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
+verify-description-2 = Hesabınızı doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
 verify-subject = Hesabınızı oluşturmayı tamamlayın
 verify-action-2 = Hesabı onaylayın
 # Variables:
@@ -594,6 +594,6 @@ verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Ad
 verifyShortCode-subject-3 = Hesabınızı onaylayın
 verifyShortCode-title-3 = İnternete { -brand-mozilla } ile açılın
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
+verifyShortCode-title-subtext-2 = Hesabınızı doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
 verifyShortCode-prompt-3 = Bu doğrulama kodunu kullanın:
 verifyShortCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
