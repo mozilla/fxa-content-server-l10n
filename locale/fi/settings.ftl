@@ -222,7 +222,10 @@ reset-pwd-link-damaged-header = Salasanan nollauslinkki on vaurioitunut
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Vahvistuslinkki vaurioitunut
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Linkki vioittunut
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen.
 
 ## LinkExpired component
@@ -236,12 +239,6 @@ reset-pwd-resend-link = Vastaanota uusi linkki
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Salasanan nollauslinkki on vanhentunut
 reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on vanhentunut.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Vahvistuslinkki on vanhentunut
-signin-link-expired-message = Avaamasi vahvistuslinkki on vanhentunut.
 
 ## LinkRememberPassword component
 
@@ -308,7 +305,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla }-tuotteet
 bento-menu-tagline = Lisää yksityisyyttäsi suojaavia tuotteita { -brand-mozilla }lta
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-selain työpöydälle
@@ -616,7 +613,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkronoidaan { -brand-firefox }-tietoja
 delete-account-product-firefox-addons = { -brand-firefox }-lisäosat
@@ -966,9 +963,13 @@ auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-159 = Virheellinen tilin palautusavain
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-999 = Odottamaton virhe
+auth-error-1002 = Istunto vanhentui. Kirjaudu sisään uudelleen.
 auth-error-1003 = Paikallinen tallennustila tai evästeet ovat edelleen poissa käytöstä
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
+auth-error-1010 = Salasanan täytyy olla kelvollinen
 auth-error-1011 = Sähköpostiosoitteen täytyy olla kelvollinen
+auth-error-1031 = Ikä täytyy antaa rekisteröitymistä varten
+auth-error-1032 = Sinun tulee antaa kelvollinen ikä rekisteröityäksesi
 auth-error-1062 = Virheellinen uudelleenohjaus
 
 ## Cannot Create Account page
@@ -1279,12 +1280,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle til
 error-label = Virhe:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Vahvistetaan kirjautumista…
-
-## ConfirmSignin component
-
-confirm-signin-header = Vahvista tämä kirjautuminen
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Katso osoitteeseen { $email } lähetetty kirjautumisen vahvistuslinkki
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Vahvistusvirhe
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Vahvistuslinkki on vanhentunut
+signin-link-expired-message-2 = Napsautamasi linkki on vanhentunut tai se on jo käytetty.
 
 ## Signin page
 
@@ -1301,6 +1301,18 @@ signin-button = Kirjaudu sisään
 signin-header = Kirjaudu sisään
 signin-use-a-different-account-link = Käytä toista tiliä
 signin-forgot-password-link = Unohditko salasanan?
+signin-password-button-label = Salasana
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen.
+report-signin-header = Ilmoitetaanko luvattomasta kirjautumisesta?
+report-signin-body = Sait sähköpostin tilisi käyttöyrityksestä. Haluatko ilmoittaa käyttöyrityksen epäilyttäväksi?
+report-signin-submit-button = Ilmoita toiminnasta
+report-signin-support-link = Mistä tämä johtuu?
 signin-bounced-header = Pahoittelut, olemme lukinneet tilisi.
 # $email (string) - The user's email.
 signin-bounced-message = Osoitteeseen { $email } lähetetty vahvistusviesti palautui vastaanottamattomana ja tilisi on lukittu { -brand-firefox }-tietojesi suojaamiseksi.
@@ -1377,14 +1389,6 @@ signin-totp-code-recovery-code-link = Ongelmia koodin kirjoittamisen kanssa?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Todennuskoodi vaaditaan
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Vahvista tilisi
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Katso osoitteeseen { $email } lähetetty vahvistuslinkki
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1421,8 +1425,6 @@ signup-change-email-link = Vaihda sähköpostiosoite
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kuinka vanha olet?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Ikä täytyy antaa rekisteröitymistä varten
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Miksi kysymme?
