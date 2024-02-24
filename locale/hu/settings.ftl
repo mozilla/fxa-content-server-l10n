@@ -971,8 +971,8 @@ auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 auth-error-1010 = Érvényes jelszó szükséges
 auth-error-1011 = Érvényes e-mail-cím szükséges
-auth-error-1031 = A feliratkozáshoz meg kell adnia életkorát
-auth-error-1032 = A feliratkozáshoz érvényes életkort kell megadnia
+auth-error-1031 = A regisztrációhoz meg kell adnia az életkorát
+auth-error-1032 = A regisztrációhoz érvényes életkort kell megadnia
 auth-error-1062 = Érvénytelen átirányítás
 
 ## Cannot Create Account page
