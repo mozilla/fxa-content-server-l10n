@@ -967,6 +967,8 @@ auth-error-1003 = Bộ nhớ cục bộ hoặc cookie vẫn bị tắt
 auth-error-1008 = Mật khẩu mới của bạn phải khác
 auth-error-1010 = Yêu cầu mật khẩu hợp lệ
 auth-error-1011 = Yêu cầu email hợp lệ
+auth-error-1031 = Bạn phải nhập tuổi của bạn để đăng ký
+auth-error-1032 = Bạn phải nhập tuổi hợp lệ để đăng ký
 auth-error-1062 = Chuyển hướng không hợp lệ
 
 ## Cannot Create Account page
@@ -1284,12 +1286,6 @@ complete-signin-error-header = Lỗi xác minh
 signin-link-expired-header = Liên kết xác minh đã hết hạn
 signin-link-expired-message-2 = Liên kết bạn nhấp vào đã hết hạn hoặc đã được sử dụng.
 
-## ConfirmSignin component
-
-confirm-signin-header = Xác nhận lần đăng nhập này
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Kiểm tra email của bạn để biết liên kết xác nhận đăng nhập được gửi tới { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1394,14 +1390,6 @@ signin-totp-code-recovery-code-link = Sự cố khi nhập mã?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Yêu cầu mã xác thực
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Xác thực tài khoản của bạn
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Kiểm tra email của bạn để biết liên kết xác thực được gửi tới { $email }
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1438,8 +1426,6 @@ signup-change-email-link = Thay đổi email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Bạn bao nhiêu tuổi?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Bạn phải nhập tuổi của bạn để đăng ký
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Tại sao chúng tôi hỏi?
