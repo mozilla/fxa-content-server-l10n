@@ -963,6 +963,8 @@ auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 auth-error-1010 = Vyžaduje sa zadanie platného hesla
 auth-error-1011 = Vyžaduje sa platná e‑mailová adresa
+auth-error-1031 = Ak sa chcete prihlásiť, musíte zadať svoj vek
+auth-error-1032 = Ak sa chcete prihlásiť, musíte zadať platný vek
 auth-error-1062 = Neplatné presmerovanie
 
 ## Cannot Create Account page
@@ -1280,12 +1282,6 @@ complete-signin-error-header = Chyba potvrdenia
 signin-link-expired-header = Platnosť potvrdzovacieho odkazu vypršala
 signin-link-expired-message-2 = Platnosť odkazu, na ktorý ste klikli, vypršala alebo už bol použitý.
 
-## ConfirmSignin component
-
-confirm-signin-header = Potvrdiť toto prihlásenie
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Potvrdzovací odkaz sme odoslali na e‑mailovú adresu { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1390,14 +1386,6 @@ signin-totp-code-recovery-code-link = Máte problémy so zadaním kódu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Vyžaduje sa overovací kód
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-confirm-signup-heading = Potvrďte svoj účet
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Potvrdzovací odkaz pre prihlásenie sme odoslali na e‑mailovú adresu { $email }
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1434,8 +1422,6 @@ signup-change-email-link = Zmeniť e‑mailovú adresu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Koľko máte rokov?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Ak sa chcete prihlásiť, musíte zadať svoj vek
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Prečo sa pýtame?
