@@ -1296,6 +1296,17 @@ signin-totp-code-recovery-code-link = מתקשה בהזנת הקוד?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = נדרש קוד אימות
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = אישור התחברות זו
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = נא לבדוק קבלת קוד אישור שנשלחה לכתובת { $email } בהודעת דוא״ל.
+signin-unblock-code-input = נא להכניס את קוד ההרשאה
+signin-unblock-submit-button = המשך
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = נדרש קוד הרשאה
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
