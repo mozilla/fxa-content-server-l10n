@@ -1385,6 +1385,21 @@ signin-totp-code-recovery-code-link = ¿Problemas para ingresar el código?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Código de autenticación requerido
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Autorizar este ingreso
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Revisá tu correo electrónico para ver el código de autorización enviado a { $email }.
+signin-unblock-code-input = Ingresar código de autorización
+signin-unblock-submit-button = Continuar
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Código de autorización requerido
+signin-unblock-code-incorrect-length = El código de autorización debe tener 8 caracteres
+signin-unblock-code-incorrect-format = La autorización solo puede contener letras y / o números
+signin-unblock-resend-code-button = ¿No está en la bandeja de entrada o correo basura? Reenviar
+signin-unblock-support-link = ¿Por qué pasa esto?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
