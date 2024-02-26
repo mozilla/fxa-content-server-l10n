@@ -1386,6 +1386,21 @@ signin-totp-code-recovery-code-link = Trafferth cyflwyno cod?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Mae angen cod dilysu
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Awdurdodi'r mewngofnod hwn
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Gwiriwch eich e-bost am y cod awdurdodi anfonwyd at { $email }.
+signin-unblock-code-input = Rhowch y cod awdurdodi
+signin-unblock-submit-button = Parhau
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Mae angen cod awdurdodi
+signin-unblock-code-incorrect-length = Rhaid i'r cod awdurdodi gynnwys 8 nod
+signin-unblock-code-incorrect-format = Dim ond llythrennau a/neu rifau y gall awdurdodiad eu cynnwys
+signin-unblock-resend-code-button = Ddim yn y blwch derbyn na'r sbam? Ailanfon
+signin-unblock-support-link = Pam mae hyn yn digwydd?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
