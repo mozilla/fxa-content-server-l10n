@@ -1301,11 +1301,15 @@ signin-totp-code-required-error = נדרש קוד אימות
 
 signin-unblock-header = אישור התחברות זו
 # Where $email is the email address entered for the sign-in attempt
-signin-unblock-body = נא לבדוק קבלת קוד אישור שנשלחה לכתובת { $email } בהודעת דוא״ל.
+signin-unblock-body = נא לבדוק מהו קוד ההרשאה שנשלח לכתובת { $email } בהודעת דוא״ל.
 signin-unblock-code-input = נא להכניס את קוד ההרשאה
 signin-unblock-submit-button = המשך
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = נדרש קוד הרשאה
+signin-unblock-code-incorrect-length = קוד ההרשאה חייב להכיל 8 תווים
+signin-unblock-code-incorrect-format = קוד ההרשאה יכול להכיל רק אותיות ו/או מספרים
+signin-unblock-resend-code-button = לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת
+signin-unblock-support-link = מדוע זה קורה?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
