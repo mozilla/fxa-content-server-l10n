@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2024-02-24 04:37+0000\n"
+"PO-Revision-Date: 2024-02-26 00:22+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1733,7 +1733,7 @@ msgstr "%(email)s abone olun"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "Tıkladığınız bağlantıda eksik karakterler vardı. E-posta istemciniz bağlantısı bozmuş olabilir."
+msgstr "Tıkladığınız bağlantıda eksik karakterler vardı. E-posta istemciniz bağlantıyı bozmuş olabilir."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
