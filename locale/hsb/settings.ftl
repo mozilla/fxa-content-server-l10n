@@ -109,7 +109,7 @@ choose-what-to-sync-option-paymentmethods =
 ## Users will see this page if a confirmation link was sent to their email address
 
 # Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Ani w postowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
+confirm-with-link-resend-link-button = Ani w póstowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Wróćo
 
@@ -1398,6 +1398,8 @@ signin-unblock-code-input = Awtorizowanski kod zapodać
 signin-unblock-submit-button = Dale
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Awtorizowanski kod trěbny
+signin-unblock-code-incorrect-length = Kod awtorizacije dyrbi 8 znamješkow wobsahować
+signin-unblock-code-incorrect-format = Awtorizacija móže jenož pismiki a/abo ličby wobsahować
 signin-unblock-resend-code-button = Ani w póstowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
 signin-unblock-support-link = Čehodla so to stawa?
 
