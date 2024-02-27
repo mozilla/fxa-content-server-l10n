@@ -1404,6 +1404,8 @@ signin-unblock-submit-button = Жалғастыру
 signin-unblock-code-required-error = Авторизация коды керек
 signin-unblock-code-incorrect-length = Авторизация коды 8 таңбадан тұруы керек
 signin-unblock-code-incorrect-format = Авторизацияда тек әріптер және/немесе сандар болуы мүмкін
+signin-unblock-resend-code-button = Кіріс немесе спам бумасында жоқ па? Қайта жіберу
+signin-unblock-support-link = Бұл неліктен орын алады?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
