@@ -1386,6 +1386,21 @@ signin-totp-code-recovery-code-link = Máte problémy so zadaním kódu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Vyžaduje sa overovací kód
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Autorizovať toto prihlásenie
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Na e‑mailovú adresu { $email } sme poslali autorizačný kód.
+signin-unblock-code-input = Zadajte autorizačný kód
+signin-unblock-submit-button = Pokračovať
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Vyžaduje sa autorizačný kód
+signin-unblock-code-incorrect-length = Autorizačný kód musí obsahovať 8 znakov
+signin-unblock-code-incorrect-format = Autorizačný kód môže obsahovať iba písmená a/alebo čísla
+signin-unblock-resend-code-button = Nemáte nič v schránke ani v priečinku so spamom? Chcete, aby sme vám e‑mail odoslali znova?
+signin-unblock-support-link = Prečo sa to stalo?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
