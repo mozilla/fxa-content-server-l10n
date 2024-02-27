@@ -965,6 +965,8 @@ auth-error-1003 = Локальное хранилище или куки по-п�
 auth-error-1008 = Ваш новый пароль должен быть другим
 auth-error-1010 = Введите правильный пароль
 auth-error-1011 = Введите действующий адрес электронной почты
+auth-error-1031 = Вы должны ввести свой возраст, чтобы зарегистрироваться
+auth-error-1032 = Для регистрации вы должны ввести корректный возраст
 auth-error-1062 = Некорректное перенаправление
 
 ## Cannot Create Account page
@@ -1282,12 +1284,6 @@ complete-signin-error-header = Ошибка подтверждения
 signin-link-expired-header = Срок действия ссылки для подтверждения истёк
 signin-link-expired-message-2 = Срок действия ссылки, на которую вы нажали, истёк или она уже была использована.
 
-## ConfirmSignin component
-
-confirm-signin-header = Подтвердите этот вход
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Проверьте свой почтовый ящик на наличие ссылки для подтверждения входа, отправленной на { $email }
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1392,13 +1388,20 @@ signin-totp-code-recovery-code-link = Проблемы с вводом кода?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Требуется код аутентификации
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Подтвердите ваш аккаунт
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Проверьте свой почтовый ящик на наличие ссылки для подтверждения, отправленной на { $email }
+signin-unblock-header = Разрешить этот вход
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Проверьте свой почтовый ящик на наличие кода авторизации, отправленного на { $email }.
+signin-unblock-code-input = Введите код авторизации
+signin-unblock-submit-button = Продолжить
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Требуется ввести код авторизации
+signin-unblock-code-incorrect-length = Код авторизации должен содержать 8 символов
+signin-unblock-code-incorrect-format = Авторизация может содержать только буквы и/или цифры
+signin-unblock-resend-code-button = Нет в папке «Входящие» или «Спам»? Отправить снова
+signin-unblock-support-link = Почему это происходит?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1436,8 +1439,6 @@ signup-change-email-link = Сменить адрес электронной по
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Сколько вам лет?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Для регистрации вы должны указать свой возраст
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Почему мы спрашиваем?
