@@ -1391,16 +1391,16 @@ signin-totp-code-required-error = Zahtevana je overitvena koda
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
-signin-unblock-header = Overi to prijavo
+signin-unblock-header = Pooblasti to prijavo
 # Where $email is the email address entered for the sign-in attempt
-signin-unblock-body = Preverite, ali ste v svoji e-pošti prejeli avtorizacijsko kodo, poslano na { $email }.
+signin-unblock-body = Med svojo e-pošto poiščite overitveno kodo, poslano na { $email }.
 signin-unblock-code-input = Vnesite overitveno kodo
 signin-unblock-submit-button = Nadaljuj
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Zahtevana je overitvena koda
 signin-unblock-code-incorrect-length = Pooblastitvena koda mora vsebovati 8 znakov
-signin-unblock-code-incorrect-format = Pooblastilo lahko vsebuje samo črke in/ali številke
-signin-unblock-resend-code-button = Ni med prejeto ali vsiljeno pošto? Pošlji ponovno
+signin-unblock-code-incorrect-format = Koda lahko vsebuje samo črke in številke
+signin-unblock-resend-code-button = Ni med prejeto ali vsiljeno pošto? Pošlji znova
 signin-unblock-support-link = Zakaj se to dogaja?
 
 ## ConfirmSignupCode page
