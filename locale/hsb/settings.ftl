@@ -1388,6 +1388,19 @@ signin-totp-code-recovery-code-link = Maće problemy při zapodawanju koda?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Awtentifikaciski kod trěbny
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Tute přizjewjenje awtorizować
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Přepytajće swoju e-mejl za awtorizowanskim kodom, kotryž je so na { $email } pósłał.
+signin-unblock-code-input = Awtorizowanski kod zapodać
+signin-unblock-submit-button = Dale
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Awtorizowanski kod trěbny
+signin-unblock-resend-code-button = Ani w póstowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
+signin-unblock-support-link = Čehodla so to stawa?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
