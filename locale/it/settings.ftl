@@ -1378,13 +1378,13 @@ signin-totp-code-required-error = Codice di autenticazione richiesto
 
 signin-unblock-header = Autorizza questo accesso
 # Where $email is the email address entered for the sign-in attempt
-signin-unblock-body = Controlla la tua email per il codice di autorizzazione inviato a { $email }.
+signin-unblock-body = Controlla la tua casella di posta: il codice di autorizzazione è stato inviato a { $email }.
 signin-unblock-code-input = Digita il codice di autorizzazione
 signin-unblock-submit-button = Continua
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = È necessario inserire il codice di autorizzazione
 signin-unblock-code-incorrect-length = Il codice di autorizzazione deve contenere 8 caratteri
-signin-unblock-code-incorrect-format = L’autorizzazione può contenere solo lettere e/o numeri
+signin-unblock-code-incorrect-format = Il codice di autorizzazione può contenere solo lettere e/o numeri
 signin-unblock-resend-code-button = Il messaggio non si trova nella posta in arrivo e neppure nello spam? Invia nuovamente il link
 signin-unblock-support-link = Che cosa sta succedendo?
 
