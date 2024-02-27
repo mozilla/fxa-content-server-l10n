@@ -1398,9 +1398,15 @@ signin-totp-code-required-error = Απαιτείται κωδικός ταυτο
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Πιστοποίηση σύνδεσης
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Ελέγξτε το email σας για τον κωδικό ταυτοποίησης που απεστάλη στο { $email }.
+signin-unblock-code-input = Εισαγάγετε κωδικό ταυτοποίησης
 signin-unblock-submit-button = Συνέχεια
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Απαιτείται κωδικός ταυτοποίησης
+signin-unblock-code-incorrect-length = Ο κωδικός ταυτοποίησης πρέπει να περιέχει 8 χαρακτήρες
+signin-unblock-code-incorrect-format = Η πιστοποίηση μπορεί να περιέχει μόνο γράμματα ή/και αριθμούς
+signin-unblock-resend-code-button = Δεν βρίσκεται στα εισερχόμενα ή στα ανεπιθύμητα; Αποστολή ξανά
 signin-unblock-support-link = Γιατί συμβαίνει αυτό;
 
 ## ConfirmSignupCode page
