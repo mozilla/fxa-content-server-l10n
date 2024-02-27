@@ -1366,12 +1366,16 @@ signin-totp-code-required-error = 需要輸入驗證碼
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = 授權此登入
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = 請到 { $email } 收信，取得授權碼。
 signin-unblock-code-input = 輸入授權碼
 signin-unblock-submit-button = 繼續
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = 需要輸入授權碼
 signin-unblock-code-incorrect-length = 授權碼必須包含 8 個字元
 signin-unblock-code-incorrect-format = 授權碼僅可包含字母或數字
+signin-unblock-resend-code-button = 沒在收件匣或垃圾信件匣中找到嗎？點此重送
+signin-unblock-support-link = 為什麼會發生？
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
