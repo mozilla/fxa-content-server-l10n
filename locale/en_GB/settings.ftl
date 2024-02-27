@@ -1392,6 +1392,21 @@ signin-totp-code-recovery-code-link = Trouble entering code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authentication code required
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Authorise this sign-in
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Check your email for the authorisation code sent to { $email }.
+signin-unblock-code-input = Enter authorisation code
+signin-unblock-submit-button = Continue
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Authorisation code required
+signin-unblock-code-incorrect-length = Authorisation code must contain 8 characters
+signin-unblock-code-incorrect-format = Authorisation can only contain letters and/or numbers
+signin-unblock-resend-code-button = Not in inbox or spam folder? Resend
+signin-unblock-support-link = Why is this happening?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
