@@ -1394,6 +1394,12 @@ signin-totp-code-recovery-code-link = Πρόβλημα με την εισαγω�
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-submit-button = Συνέχεια
+signin-unblock-support-link = Γιατί συμβαίνει αυτό;
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
