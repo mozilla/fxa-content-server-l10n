@@ -1398,7 +1398,7 @@ signin-unblock-code-input = Vnesite overitveno kodo
 signin-unblock-submit-button = Nadaljuj
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Zahtevana je overitvena koda
-signin-unblock-code-incorrect-length = Pooblastitvena koda mora vsebovati 8 znakov
+signin-unblock-code-incorrect-length = Overitvena koda mora vsebovati 8 znakov
 signin-unblock-code-incorrect-format = Koda lahko vsebuje samo črke in številke
 signin-unblock-resend-code-button = Ni med prejeto ali vsiljeno pošto? Pošlji znova
 signin-unblock-support-link = Zakaj se to dogaja?
