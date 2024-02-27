@@ -1399,14 +1399,14 @@ signin-totp-code-required-error = Hitelesítési kód szükséges
 
 signin-unblock-header = Engedélyezze ezt a bejelentkezést
 # Where $email is the email address entered for the sign-in attempt
-signin-unblock-body = Ellenőrizze a leveleit, hogy megérkezett-e az engedélyezési kód ide: { $email }.
+signin-unblock-body = Ellenőrizze a leveleit, hogy megérkezett-e az ide küldött engedélyezési kód: { $email }.
 signin-unblock-code-input = Adja meg az engedélyezési kódot
 signin-unblock-submit-button = Folytatás
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Engedélyezési kód szükséges
 signin-unblock-code-incorrect-length = Az engedélyezési kódnak 8 karakterből kell állnia
-signin-unblock-code-incorrect-format = A jogosultság csak betűket és/vagy számokat tartalmazhat
-signin-unblock-resend-code-button = Nincs a beérkezett vagy a spam mappában? Újraküldés
+signin-unblock-code-incorrect-format = Az engedélyezési kód csak betűket és/vagy számokat tartalmazhat
+signin-unblock-resend-code-button = Nincs a beérkezett vagy a levélszemét mappában? Újraküldés
 signin-unblock-support-link = Miért történik ez?
 
 ## ConfirmSignupCode page
