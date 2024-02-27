@@ -1381,7 +1381,7 @@ signin-unblock-submit-button = 继续
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = 请输入授权码
 signin-unblock-code-incorrect-length = 授权码应由 8 个字符组成
-signin-unblock-code-incorrect-format = 授权码应该只由字母和/或数字组成
+signin-unblock-code-incorrect-format = 授权码应仅由字母和/或数字组成
 signin-unblock-resend-code-button = 收件箱和垃圾邮件箱中都没有？重新发送
 signin-unblock-support-link = 为什么会出现此情况？
 
