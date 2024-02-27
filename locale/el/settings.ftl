@@ -1397,7 +1397,10 @@ signin-totp-code-required-error = Απαιτείται κωδικός ταυτο
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Πιστοποίηση σύνδεσης
 signin-unblock-submit-button = Συνέχεια
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 signin-unblock-support-link = Γιατί συμβαίνει αυτό;
 
 ## ConfirmSignupCode page
