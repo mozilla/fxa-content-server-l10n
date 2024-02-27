@@ -1362,6 +1362,17 @@ signin-totp-code-recovery-code-link = 輸入代碼時遇到問題嗎？
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = 需要輸入驗證碼
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = 授權此登入
+signin-unblock-code-input = 輸入授權碼
+signin-unblock-submit-button = 繼續
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = 需要輸入授權碼
+signin-unblock-code-incorrect-length = 授權碼必須包含 8 個字元
+signin-unblock-code-incorrect-format = 授權碼僅可包含字母或數字
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
