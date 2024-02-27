@@ -1370,6 +1370,21 @@ signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = 请输入验证码
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = 授权此次登录
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = 授权码邮件已发送至 { $email }，请注意查收。
+signin-unblock-code-input = 请输入授权码
+signin-unblock-submit-button = 继续
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = 请输入授权码
+signin-unblock-code-incorrect-length = 授权码应由 8 个字符组成
+signin-unblock-code-incorrect-format = 授权码应该只由字母和/或数字组成
+signin-unblock-resend-code-button = 收件箱和垃圾邮件箱中都没有？重新发送
+signin-unblock-support-link = 为什么会出现此情况？
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
