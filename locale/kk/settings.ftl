@@ -1392,6 +1392,19 @@ signin-totp-code-recovery-code-link = Кодты енгізуде мәселе �
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Аутентификация коды керек
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Бұл кіруді авторизациялау
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Эл. поштаңызды { $email } адресіне жіберілген авторизация кодына тексеріңіз.
+signin-unblock-code-input = Авторизация кодын енгізіңіз
+signin-unblock-submit-button = Жалғастыру
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Авторизация коды керек
+signin-unblock-code-incorrect-length = Авторизация коды 8 таңбадан тұруы керек
+signin-unblock-code-incorrect-format = Авторизацияда тек әріптер және/немесе сандар болуы мүмкін
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
