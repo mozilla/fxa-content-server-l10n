@@ -961,7 +961,7 @@ auth-error-1008 = A sua nova palavra-passe tem de ser diferente
 auth-error-1010 = Palavra-passe válida necessária
 auth-error-1011 = É necessário um e-mail válido
 auth-error-1031 = Deve inserir a sua idade para se registar
-auth-error-1032 = Deve introduzir uma idade válida para se registar
+auth-error-1032 = Deve inserir uma idade válida para se registar
 auth-error-1062 = Redirecionamento inválido
 
 ## Cannot Create Account page
