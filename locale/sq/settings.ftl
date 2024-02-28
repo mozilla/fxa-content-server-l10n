@@ -966,6 +966,7 @@ auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
 auth-error-1010 = Lyp fjalëkalim të vlefshëm
 auth-error-1011 = Lypset email i vlefshëm
 auth-error-1031 = Duhet të jepni moshën tuaj që të regjistroheni
+auth-error-1032 = Që të regjistroheni, duhet të jepni një moshë të vlefshme
 auth-error-1062 = Ridrejtim i pavlefshëm
 
 ## Cannot Create Account page
@@ -1390,6 +1391,17 @@ signin-totp-code-required-error = Lypset kod mirëfilltësimi
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Autorizoje këtë hyrje
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Kontrolloni email-in tuaj për kodin e autorizimit dërguar te { $email }.
+signin-unblock-code-input = Jepni kodin e autorizimit
+signin-unblock-submit-button = Vazhdoni
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Lyp kod autorizimi
+signin-unblock-code-incorrect-length = Kodi i autorizimit duhet të përmbajë 8 shenja
+signin-unblock-code-incorrect-format = Kodi i autorizimit mund të përmbajë vetëm shkronja dhe/ose numra
+signin-unblock-resend-code-button = S’gjendet te dosja e të marrëve apo e të padëshiruarave? Ridërgojeni
+signin-unblock-support-link = Pse ndodh kjo?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
