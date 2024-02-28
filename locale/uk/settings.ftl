@@ -969,6 +969,8 @@ auth-error-1003 = Локальне сховище або файли cookie вс�
 auth-error-1008 = Ваш новий пароль повинен бути іншим
 auth-error-1010 = Введіть правильний пароль
 auth-error-1011 = Потрібна дійсна адреса електронної пошти
+auth-error-1031 = Ви повинні вказати свій вік, щоб виконати вхід
+auth-error-1032 = Для реєстрації ви повинні вказати правильний вік
 auth-error-1062 = Недійсне переспрямування
 
 ## Cannot Create Account page
@@ -1390,6 +1392,10 @@ signin-totp-code-recovery-code-link = Проблеми з введенням к�
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Потрібно ввести код автентифікації
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1426,8 +1432,6 @@ signup-change-email-link = Змінити адресу електронної п
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Скільки вам років?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Щоб зареєструватися, ви маєте вказати свій вік
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Чому ми запитуємо?
