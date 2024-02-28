@@ -965,6 +965,7 @@ auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
 auth-error-1010 = Lyp fjalëkalim të vlefshëm
 auth-error-1011 = Lypset email i vlefshëm
+auth-error-1031 = Duhet të jepni moshën tuaj që të regjistroheni
 auth-error-1062 = Ridrejtim i pavlefshëm
 
 ## Cannot Create Account page
@@ -1386,6 +1387,10 @@ signin-totp-code-recovery-code-link = Probleme me dhënien e kodit?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Lypset kod mirëfilltësimi
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1422,8 +1427,6 @@ signup-change-email-link = Ndryshoni email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Ç’moshë keni?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Duhet të jepni moshën tuaj që të regjistroheni
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Pse pyesim?
