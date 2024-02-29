@@ -1403,6 +1403,7 @@ signin-unblock-submit-button = Fortsæt
 signin-unblock-code-required-error = Godkendelseskode påkrævet
 signin-unblock-code-incorrect-length = Godkendelseskoden skal indeholde 8 tegn
 signin-unblock-code-incorrect-format = Godkendelseskoden kan kun indeholde bogstaver og/eller tal
+signin-unblock-resend-code-button = Er den ikke i indbakken eller spam-mappen? Send igen
 signin-unblock-support-link = Hvorfor sker dette?
 
 ## ConfirmSignupCode page
