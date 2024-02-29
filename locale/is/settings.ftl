@@ -963,6 +963,8 @@ auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 auth-error-1010 = Gerð er krafa um gilt lykilorð
 auth-error-1011 = Krafist er gilds tölvupóstfangs
+auth-error-1031 = Þú verður að setja inn aldur þinn til að geta nýskráð þig
+auth-error-1032 = Þú verður að setja inn gildan aldur til að geta nýskráð þig
 auth-error-1062 = Ógild endurbeining
 
 ## Cannot Create Account page
@@ -1384,6 +1386,21 @@ signin-totp-code-recovery-code-link = Vandamál við að setja inn kóða?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Auðkenningarkóða krafist
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Heimila þessa innskráningu
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Skoðaðu tölvupóstinn þinn og finndu heimildarkóðann sem sendur var á { $email }.
+signin-unblock-code-input = Settu inn heimildarkóða
+signin-unblock-submit-button = Halda áfram
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Heimildarkóða er krafist
+signin-unblock-code-incorrect-length = Heimildarkóði verður að innihalda 8 stafi
+signin-unblock-code-incorrect-format = Heimildarkóði getur aðeins innihaldið bókstafi og/eða tölustafi
+signin-unblock-resend-code-button = Ekki í pósthólfinu eða ruslpóstmöppunni? Senda aftur
+signin-unblock-support-link = Hvers vegna er þetta að gerast?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1420,8 +1437,6 @@ signup-change-email-link = Breyta tölvupóstfangi
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Hvaða aldri ertu á?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Þú verður að setja inn aldur þinn til að geta nýskráð þig
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Hvers vegna spyrjum við?
