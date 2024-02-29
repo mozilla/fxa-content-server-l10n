@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2024-02-26 00:22+0000\n"
+"PO-Revision-Date: 2024-02-28 04:42+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -605,7 +605,7 @@ msgstr "Mozilla hesapları yalnızca onaylanmış sitelerde IFRAME içine yerle�
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
-msgstr "Doğrulama linki zarar görmüş"
+msgstr "Doğrulama bağlantısı zarar görmüş"
 
 #: .es5/lib/auth-errors.js:431
 msgid "The image dimensions must be at least 100x100px"
@@ -978,7 +978,7 @@ msgstr "Giriş zaten onaylanmış"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr "Onay linki zaman aşımına uğramış"
+msgstr "Onay bağlantısı zaman aşımına uğramış"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
@@ -986,11 +986,11 @@ msgstr "E-postanızı onaylamak için tıkladığınız link zaman aşımına u�
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr "Yeni bir onay linki almak için buraya tıklayın"
+msgstr "Yeni bir onay bağlantısı almak için buraya tıklayın"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr "Onay linki zarar görmüş"
+msgstr "Onay bağlantısı zarar görmüş"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1478,7 +1478,7 @@ msgstr "Bu girişe izin ver"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "%(email)s adresine gönderdiğimiz yetki kodunu kontrol edin."
+msgstr "%(email)s adresine gönderdiğimiz yetkilendirme kodunu kontrol edin."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"

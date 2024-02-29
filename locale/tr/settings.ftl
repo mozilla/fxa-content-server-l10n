@@ -1373,6 +1373,21 @@ signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Kimlik doğrulama kodu gerekli
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Bu girişe izin ver
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = { $email } adresine gönderdiğimiz yetkilendirme kodunu kontrol edin.
+signin-unblock-code-input = Yetkilendirme kodunu girin
+signin-unblock-submit-button = Devam et
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Yetkilendirme kodu gerekli
+signin-unblock-code-incorrect-length = Yetkilendirme kodu 8 karakterden oluşmalıdır
+signin-unblock-code-incorrect-format = Yetkilendirme kodu yalnızca harf ve rakamlardan oluşabilir
+signin-unblock-resend-code-button = Gelen kutusunda ve spam klasöründe göremediniz mi? Yeniden gönderin
+signin-unblock-support-link = Neden böyle bir şey oldu?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
