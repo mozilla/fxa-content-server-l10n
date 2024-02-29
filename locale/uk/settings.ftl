@@ -1395,6 +1395,17 @@ signin-totp-code-required-error = Потрібно ввести код авте�
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Дозволити цей вхід
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Знайдіть лист з кодом авторизації, надісланий на { $email }.
+signin-unblock-code-input = Введіть код авторизації
+signin-unblock-submit-button = Продовжити
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Потрібно ввести код авторизації
+signin-unblock-code-incorrect-length = Код авторизації повинен містити 8 символів
+signin-unblock-code-incorrect-format = Код авторизації може містити лише літери та/або цифри
+signin-unblock-resend-code-button = Немає у вхідних чи у спамі? Надіслати ще раз
+signin-unblock-support-link = Чому це відбувається?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
