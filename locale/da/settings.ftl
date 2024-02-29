@@ -241,12 +241,6 @@ reset-pwd-resend-link = Få et nyt link
 reset-pwd-link-expired-header = Linket til nulstilling af adgangskode udløb
 reset-pwd-link-expired-message = Linket, du klikkede på for at nulstille din adgangskode, er udløbet.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Bekræftelseslinket er udløbet
-signin-link-expired-message = Linket, du klikkede på for at bekræfte din mailadresse, er udløbet.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -974,6 +968,8 @@ auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
 auth-error-1010 = Gyldig adgangskode påkrævet
 auth-error-1011 = Gyldig mailadresse påkrævet
+auth-error-1031 = Du skal indtaste din alder for at tilmelde dig
+auth-error-1032 = Du skal indtaste en gyldig alder for at tilmelde dig
 auth-error-1062 = Ugyldig omdirigering
 
 ## Cannot Create Account page
@@ -1285,12 +1281,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min
 error-label = Fejl:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Validerer login…
-
-## ConfirmSignin component
-
-confirm-signin-header = Bekræft dette login
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Tjek din mail for det login-bekræfteleslink, der er sendt til { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Bekræftelsesfejl
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Bekræftelseslinket er udløbet
+signin-link-expired-message-2 = Linket, du klikkede på, er udløbet eller er allerede blevet brugt.
 
 ## Signin page
 
@@ -1396,13 +1391,19 @@ signin-totp-code-recovery-code-link = Har du problemer med at indtaste koden?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Godkendelseskode påkrævet
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Bekræft din konto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Tjek din mail for det bekræfteleslink, der er sendt til { $email }
+signin-unblock-header = Godkend dette login
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Tjek din mail for godkendelseskoden, der er sendt til { $email }.
+signin-unblock-code-input = Indtast godkendelseskode
+signin-unblock-submit-button = Fortsæt
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Godkendelseskode påkrævet
+signin-unblock-code-incorrect-length = Godkendelseskoden skal indeholde 8 tegn
+signin-unblock-code-incorrect-format = Godkendelseskoden kan kun indeholde bogstaver og/eller tal
+signin-unblock-support-link = Hvorfor sker dette?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1440,8 +1441,6 @@ signup-change-email-link = Skift mailadresse
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Hvor gammel er du?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Du skal indtaste din alder for at tilmelde dig
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Hvorfor spørger vi om det?
