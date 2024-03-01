@@ -1405,7 +1405,7 @@ signin-unblock-submit-button = Συνέχεια
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 signin-unblock-code-incorrect-length = Ο κωδικός ταυτοποίησης πρέπει να περιέχει 8 χαρακτήρες
-signin-unblock-code-incorrect-format = Η πιστοποίηση μπορεί να περιέχει μόνο γράμματα ή/και αριθμούς
+signin-unblock-code-incorrect-format-2 = Ο κωδικός ταυτοποίησης μπορεί να περιέχει μόνο γράμματα ή/και αριθμούς
 signin-unblock-resend-code-button = Δεν βρίσκεται στα εισερχόμενα ή στα ανεπιθύμητα; Αποστολή ξανά
 signin-unblock-support-link = Γιατί συμβαίνει αυτό;
 
