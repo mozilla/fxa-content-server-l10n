@@ -1397,7 +1397,7 @@ signin-unblock-submit-button = Halda áfram
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Heimildarkóða er krafist
 signin-unblock-code-incorrect-length = Heimildarkóði verður að innihalda 8 stafi
-signin-unblock-code-incorrect-format = Heimildarkóði getur aðeins innihaldið bókstafi og/eða tölustafi
+signin-unblock-code-incorrect-format-2 = Heimildarkóði getur aðeins innihaldið bókstafi og/eða tölustafi
 signin-unblock-resend-code-button = Ekki í pósthólfinu eða ruslpóstmöppunni? Senda aftur
 signin-unblock-support-link = Hvers vegna er þetta að gerast?
 
