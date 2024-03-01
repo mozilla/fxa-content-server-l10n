@@ -1405,7 +1405,7 @@ signin-unblock-submit-button = Folytatás
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Engedélyezési kód szükséges
 signin-unblock-code-incorrect-length = Az engedélyezési kódnak 8 karakterből kell állnia
-signin-unblock-code-incorrect-format = Az engedélyezési kód csak betűket és/vagy számokat tartalmazhat
+signin-unblock-code-incorrect-format-2 = Az engedélyezési kód csak betűket és/vagy számokat tartalmazhat
 signin-unblock-resend-code-button = Nincs a beérkezett vagy a levélszemét mappában? Újraküldés
 signin-unblock-support-link = Miért történik ez?
 
