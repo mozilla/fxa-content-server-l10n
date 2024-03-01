@@ -1403,7 +1403,7 @@ signin-unblock-submit-button = Жалғастыру
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Авторизация коды керек
 signin-unblock-code-incorrect-length = Авторизация коды 8 таңбадан тұруы керек
-signin-unblock-code-incorrect-format = Авторизацияда тек әріптер және/немесе сандар болуы мүмкін
+signin-unblock-code-incorrect-format-2 = Авторизация кодында тек әріптер және/немесе сандар болуы мүмкін
 signin-unblock-resend-code-button = Кіріс немесе спам бумасында жоқ па? Қайта жіберу
 signin-unblock-support-link = Бұл неліктен орын алады?
 
