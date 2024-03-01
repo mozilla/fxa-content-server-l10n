@@ -1397,7 +1397,7 @@ signin-unblock-submit-button = Parhau
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Mae angen cod awdurdodi
 signin-unblock-code-incorrect-length = Rhaid i'r cod awdurdodi gynnwys 8 nod
-signin-unblock-code-incorrect-format = Dim ond llythrennau a/neu rifau y gall awdurdodiad eu cynnwys
+signin-unblock-code-incorrect-format-2 = Dim ond llythrennau a/neu rifau y gall cod awdurdodi eu cynnwys
 signin-unblock-resend-code-button = Ddim yn y blwch derbyn na'r sbam? Ailanfon
 signin-unblock-support-link = Pam mae hyn yn digwydd?
 
