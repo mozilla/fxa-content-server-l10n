@@ -1397,7 +1397,7 @@ signin-unblock-submit-button = Dalej
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Awtorizěrowański kod trjebny
 signin-unblock-code-incorrect-length = Kod awtorizacije musy 8 znamuškow wopśimowaś
-signin-unblock-code-incorrect-format = Awtorizacija móžo jano pismiki a/abo licby wopśimowaś
+signin-unblock-code-incorrect-format-2 = Awtorizaciski kod móžo jano pismiki a/abo licby wopśimowaś
 signin-unblock-resend-code-button = Ani w postowem dochaźe ani w spamowem zarědniku? Znowego pósłaś
 signin-unblock-support-link = Cogodla se to stawa?
 
