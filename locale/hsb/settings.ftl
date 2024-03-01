@@ -1399,7 +1399,7 @@ signin-unblock-submit-button = Dale
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Awtorizowanski kod trěbny
 signin-unblock-code-incorrect-length = Kod awtorizacije dyrbi 8 znamješkow wobsahować
-signin-unblock-code-incorrect-format = Awtorizacija móže jenož pismiki a/abo ličby wobsahować
+signin-unblock-code-incorrect-format-2 = Awtorizaciski kod móže jenož pismiki a/abo ličby wobsahować
 signin-unblock-resend-code-button = Ani w póstowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
 signin-unblock-support-link = Čehodla so to stawa?
 
