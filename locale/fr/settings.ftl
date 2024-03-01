@@ -1390,7 +1390,7 @@ signin-unblock-submit-button = Continuer
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Code d’autorisation requis
 signin-unblock-code-incorrect-length = Le code d’autorisation doit contenir 8 caractères
-signin-unblock-code-incorrect-format = L’autorisation ne peut contenir que des lettres et/ou des chiffres
+signin-unblock-code-incorrect-format-2 = Le code d’autorisation ne peut contenir que des lettres et/ou des chiffres
 signin-unblock-resend-code-button = Vous ne voyez rien dans votre boîte de réception ni dans le dossier des indésirables ? Renvoyez le message
 signin-unblock-support-link = Que se passe-t-il ?
 
