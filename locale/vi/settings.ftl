@@ -1390,6 +1390,21 @@ signin-totp-code-recovery-code-link = Sự cố khi nhập mã?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Yêu cầu mã xác thực
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Cho phép lần đăng nhập này
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Kiểm tra email của bạn để xem mã xác minh được gửi tới { $email }.
+signin-unblock-code-input = Nhập mã xác minh
+signin-unblock-submit-button = Tiếp tục
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Yêu cầu mã xác minh
+signin-unblock-code-incorrect-length = Mã xác minh phải chứa 8 ký tự
+signin-unblock-code-incorrect-format-2 = Mã xác minh chỉ có thể chứa chữ cái và/hoặc số
+signin-unblock-resend-code-button = Không có trong hộp thư đến hoặc thư mục spam? Gửi lại
+signin-unblock-support-link = Tại sao chuyện này xảy ra?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 

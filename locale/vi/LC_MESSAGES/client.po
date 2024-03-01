@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2024-02-06 08:49+0000\n"
+"PO-Revision-Date: 2024-03-01 05:16+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -367,7 +367,7 @@ msgstr "Yêu cầu đã bị chặn vì lý do bảo mật"
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
-msgstr "Mã ủy quyền không hợp lệ"
+msgstr "Mã xác minh không hợp lệ"
 
 #: .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
@@ -654,7 +654,7 @@ msgstr "Đây là một trường bắt buộc"
 
 #: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
-msgstr "Yêu cầu mã ủy quyền"
+msgstr "Yêu cầu mã xác minh"
 
 #: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
@@ -1481,11 +1481,11 @@ msgstr "Cho phép đăng nhập này"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Kiểm tra email của bạn để xem mã ủy quyền được gửi tới %(email)s."
+msgstr "Kiểm tra email của bạn để xem mã xác minh được gửi tới %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr "Nhập mã ủy quyền"
+msgstr "Nhập mã xác minh"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"

@@ -542,12 +542,12 @@ subscriptionUpgrade-content-charge-info-different-cycle = Bạn sẽ bị tính 
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Nếu có phần mềm mới để bạn cài đặt để sử dụng { $productName }, bạn sẽ nhận được một email riêng với hướng dẫn tải xuống.
 subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
-unblockCode-subject = Mã ủy quyền tài khoản
+unblockCode-subject = Mã xác minh tài khoản
 unblockCode-title = Đây có phải là bạn đăng nhập không?
-unblockCode-prompt = Nếu có, dưới đây là mã ủy quyền bạn cần:
+unblockCode-prompt = Nếu đúng, dưới đây là mã xác minh bạn cần:
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
-unblockCode-prompt-plaintext = Nếu có, đây là mã xác minh bạn cần: { $unblockCode }
+unblockCode-prompt-plaintext = Nếu đúng, đây là mã xác minh bạn cần: { $unblockCode }
 unblockCode-report = Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và <a data-l10n-name="reportSignInLink">báo cáo cho chúng tôi</a>.
 unblockCode-report-plaintext = Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và báo cáo cho chúng tôi.
 verificationReminderFinal-subject = Lời nhắc cuối cùng để xác minh tài khoản của bạn
@@ -585,7 +585,7 @@ verifyLoginCode-subject-line-2 = Phê duyệt đăng nhập vào { $serviceName 
 verifyLoginCode-title-2 = Bạn đã đăng nhập vào { $serviceName } chưa?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Giúp chúng tôi giữ an toàn cho tài khoản của bạn bằng cách chấp thuận đăng nhập của bạn trên:
-verifyLoginCode-prompt-3 = Nếu có, đây là mã xác minh của bạn:
+verifyLoginCode-prompt-3 = Nếu đúng, đây là mã xác minh của bạn:
 verifyLoginCode-expiry-notice = Nó hết hạn sau 5 phút.
 verifyPrimary-title-2 = Xác minh email chính
 verifyPrimary-description = Yêu cầu thực hiện thay đổi tài khoản đã được thực hiện từ thiết bị sau:
