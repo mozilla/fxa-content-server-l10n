@@ -1392,7 +1392,7 @@ signin-unblock-submit-button = Pokračovat
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Je vyžadován autorizační kód
 signin-unblock-code-incorrect-length = Autorizační kód musí obsahovat 8 znaků
-signin-unblock-code-incorrect-format = Autorizace může obsahovat pouze písmena a/nebo čísla
+signin-unblock-code-incorrect-format-2 = Autorizační kód může obsahovat pouze písmena a/nebo čísla
 signin-unblock-resend-code-button = Žádný email jste neobdrželi? Znovu odeslat
 signin-unblock-support-link = Proč se to stalo?
 
