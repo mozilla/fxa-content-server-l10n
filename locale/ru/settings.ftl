@@ -1399,7 +1399,7 @@ signin-unblock-submit-button = Продолжить
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Требуется ввести код авторизации
 signin-unblock-code-incorrect-length = Код авторизации должен содержать 8 символов
-signin-unblock-code-incorrect-format = Авторизация может содержать только буквы и/или цифры
+signin-unblock-code-incorrect-format-2 = Код авторизации может содержать только буквы и/или цифры
 signin-unblock-resend-code-button = Нет в папке «Входящие» или «Спам»? Отправить снова
 signin-unblock-support-link = Почему это происходит?
 
