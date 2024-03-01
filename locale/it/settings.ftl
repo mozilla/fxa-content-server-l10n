@@ -1384,7 +1384,7 @@ signin-unblock-submit-button = Continua
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = È necessario inserire il codice di autorizzazione
 signin-unblock-code-incorrect-length = Il codice di autorizzazione deve contenere 8 caratteri
-signin-unblock-code-incorrect-format = Il codice di autorizzazione può contenere solo lettere e/o numeri
+signin-unblock-code-incorrect-format-2 = Il codice di autorizzazione può contenere solo lettere e/o numeri
 signin-unblock-resend-code-button = Il messaggio non si trova nella posta in arrivo e neppure nello spam? Invia nuovamente il link
 signin-unblock-support-link = Che cosa sta succedendo?
 
