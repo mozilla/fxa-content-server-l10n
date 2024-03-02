@@ -1389,6 +1389,21 @@ signin-totp-code-recovery-code-link = Ongelmia koodin kirjoittamisen kanssa?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Todennuskoodi vaaditaan
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Salli tämä kirjautuminen
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Katso osoitteeseen { $email } lähetetty valtuuskoodi.
+signin-unblock-code-input = Kirjoita valtuuskoodi
+signin-unblock-submit-button = Jatka
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Valtuuskoodi vaaditaan
+signin-unblock-code-incorrect-length = Valtuutuskoodin tulee sisältää 8 merkkiä
+signin-unblock-code-incorrect-format-2 = Valtuutuskoodi voi sisältää vain kirjaimia ja/tai numeroita
+signin-unblock-resend-code-button = Ei saapuneissa tai roskapostissa? Lähetä uudestaan
+signin-unblock-support-link = Mistä tämä johtuu?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
