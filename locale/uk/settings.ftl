@@ -1403,7 +1403,7 @@ signin-unblock-submit-button = Продовжити
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Потрібно ввести код авторизації
 signin-unblock-code-incorrect-length = Код авторизації повинен містити 8 символів
-signin-unblock-code-incorrect-format = Код авторизації може містити лише літери та/або цифри
+signin-unblock-code-incorrect-format-2 = Код авторизації може містити лише літери та/або цифри
 signin-unblock-resend-code-button = Немає у вхідних чи у спамі? Надіслати ще раз
 signin-unblock-support-link = Чому це відбувається?
 
