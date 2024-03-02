@@ -1307,7 +1307,7 @@ signin-unblock-submit-button = המשך
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = נדרש קוד הרשאה
 signin-unblock-code-incorrect-length = קוד ההרשאה חייב להכיל 8 תווים
-signin-unblock-code-incorrect-format = קוד ההרשאה יכול להכיל רק אותיות ו/או מספרים
+signin-unblock-code-incorrect-format-2 = קוד ההרשאה יכול להכיל רק אותיות ו/או מספרים
 signin-unblock-resend-code-button = לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת
 signin-unblock-support-link = מדוע זה קורה?
 
