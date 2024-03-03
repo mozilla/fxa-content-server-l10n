@@ -1034,12 +1034,12 @@ inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ative a auten
 inline-totp-setup-ready-button = Pronto
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header-2 = Capture o código de autenticação <span>para continuar para o { $serviceName }</span>
+inline-totp-setup-show-qr-custom-service-header-2 = Aponte a câmera para o código de autenticação <span>para continuar para o { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Digite o código manualmente <span>para continuar para o { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header-2 = Capture o código de autenticação <span>para continuar para as configurações da conta</span>
+inline-totp-setup-show-qr-default-service-header-2 = Aponte a câmera para o código de autenticação <span>para continuar para as configurações da conta</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Digite o código manualmente <span>para continuar para as configurações da conta</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
@@ -1131,7 +1131,7 @@ pair-sync-your-device-button = Sincronize seu dispositivo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Ou baixe
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
-pair-scan-to-download-message = Capture o código para baixar o { -brand-firefox } para dispositivos móveis ou envie para si mesmo um <linkExternal>link de download</linkExternal>.
+pair-scan-to-download-message = Aponte a câmera para o código para baixar o { -brand-firefox } para dispositivos móveis ou envie para si mesmo um <linkExternal>link de download</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Agora não
 pair-take-your-data-message = Tenha suas abas, favoritos e senhas onde quer que use o { -brand-firefox }.
