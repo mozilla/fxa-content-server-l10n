@@ -1373,7 +1373,7 @@ signin-unblock-submit-button = 繼續
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = 需要輸入授權碼
 signin-unblock-code-incorrect-length = 授權碼必須包含 8 個字元
-signin-unblock-code-incorrect-format = 授權碼僅可包含字母或數字
+signin-unblock-code-incorrect-format-2 = 授權碼僅可包含字母或數字
 signin-unblock-resend-code-button = 沒在收件匣或垃圾信件匣中找到嗎？點此重送
 signin-unblock-support-link = 為什麼會發生？
 
