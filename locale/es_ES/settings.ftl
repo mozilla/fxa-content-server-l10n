@@ -1393,6 +1393,16 @@ signin-totp-code-required-error = Código de autenticación requerido
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Autorizar este inicio de sesión
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Revisa tu correo por el código de verificación enviado a { $email }.
+signin-unblock-code-input = Introducir el código de autorización
+signin-unblock-submit-button = Continuar
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Se requiere un código de autorización
+signin-unblock-code-incorrect-length = El código de autorización debe tener 8 caracteres
+signin-unblock-code-incorrect-format-2 = El código de autorización solo puede contener letras y/o números
+signin-unblock-resend-code-button = ¿No está en la bandeja de entrada o en la carpeta de spam? Reenviar
+signin-unblock-support-link = ¿Por qué sucede esto?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
