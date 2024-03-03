@@ -1389,6 +1389,11 @@ signin-totp-code-recovery-code-link = ¿Problemas para introducir el código?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Código de autenticación requerido
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Autorizar este inicio de sesión
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
