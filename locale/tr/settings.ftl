@@ -1384,7 +1384,7 @@ signin-unblock-submit-button = Devam et
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Yetkilendirme kodu gerekli
 signin-unblock-code-incorrect-length = Yetkilendirme kodu 8 karakterden oluşmalıdır
-signin-unblock-code-incorrect-format = Yetkilendirme kodu yalnızca harf ve rakamlardan oluşabilir
+signin-unblock-code-incorrect-format-2 = Yetkilendirme kodu yalnızca harf ve rakamlardan oluşabilir
 signin-unblock-resend-code-button = Gelen kutusunda ve spam klasöründe göremediniz mi? Yeniden gönderin
 signin-unblock-support-link = Neden böyle bir şey oldu?
 
