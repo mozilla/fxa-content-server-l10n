@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2024-02-06 03:09+0000\n"
+"PO-Revision-Date: 2024-03-04 11:30+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -301,7 +301,7 @@ msgstr "您已尝试太多次。请稍后再试。"
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "您已尝试太多次。请重试 %(retryAfterLocalized)s。"
+msgstr "您已尝试太多次。请在 %(retryAfterLocalized)s再试 。"
 
 #: .es5/lib/auth-errors.js:35 .es5/lib/oauth-errors.js:51
 msgid "Invalid token"
