@@ -1392,6 +1392,21 @@ signin-totp-code-recovery-code-link = Problemen bij het invoeren van de code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authenticatiecode vereist
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Deze aanmelding autoriseren
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Controleer uw e-mail op de autorisatiecode die naar { $email } is verzonden.
+signin-unblock-code-input = Voer autorisatiecode in
+signin-unblock-submit-button = Doorgaan
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Autorisatiecode vereist
+signin-unblock-code-incorrect-length = Autorisatiecode moet 8 tekens bevatten
+signin-unblock-code-incorrect-format-2 = Autorisatiecode mag alleen letters en/of cijfers bevatten
+signin-unblock-resend-code-button = Niet in Postvak IN of map met spam? Opnieuw verzenden
+signin-unblock-support-link = Waarom gebeurt dit?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
