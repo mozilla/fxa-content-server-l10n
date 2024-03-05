@@ -1394,6 +1394,21 @@ signin-totp-code-recovery-code-link = Har du problem att ange koden?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Autentiseringskod krävs
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Auktorisera denna inloggning
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Kontrollera din e-post efter behörighetskoden som skickats till { $email }.
+signin-unblock-code-input = Ange behörighetskod
+signin-unblock-submit-button = Fortsätt
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Behörighetskod krävs
+signin-unblock-code-incorrect-length = Behörighetskod måste innehålla 8 tecken
+signin-unblock-code-incorrect-format-2 = Behörighetskod kan endast innehålla bokstäver och/eller siffror
+signin-unblock-resend-code-button = Inte i inkorgen eller skräppostmappen? Skicka igen
+signin-unblock-support-link = Varför händer detta?
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
