@@ -30,14 +30,10 @@ input-error-is-required = { $label } 必填
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } 徽标
 brand-name-mozilla-logo = { -brand-mozilla } 徽标
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录</a>
 new-user-sign-in-link-2 = 已有 { -product-mozilla-account }？<a>立即登录</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -384,8 +380,6 @@ coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之后按�
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. 创建 { -brand-name-firefox } 账户
 new-user-step-1-2 = 1. 创建 { -product-mozilla-account }
 new-user-card-title = 输入您的卡片信息
 new-user-submit = 立即订阅
@@ -415,7 +409,7 @@ brand-name-apple-app-store-2 = { -app-store }
 
 product-plan-change-heading = 确认您的更改
 sub-change-failed = 方案更改失败
-sub-update-acknowledgment = 您的方案内容会即刻变更，且会向您收取本期剩余部分的差额。自 { $startingDate } 起将会向您收取全额。
+sub-update-acknowledgment = 您的方案将立即更改，并向您收取本期剩余部分的差额。自 { $startingDate } 起将会向您收取全额。
 sub-change-submit = 确认更改
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
