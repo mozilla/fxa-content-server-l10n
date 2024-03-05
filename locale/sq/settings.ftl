@@ -1399,7 +1399,7 @@ signin-unblock-submit-button = Vazhdoni
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Lyp kod autorizimi
 signin-unblock-code-incorrect-length = Kodi i autorizimit duhet të përmbajë 8 shenja
-signin-unblock-code-incorrect-format = Kodi i autorizimit mund të përmbajë vetëm shkronja dhe/ose numra
+signin-unblock-code-incorrect-format-2 = Kodi i autorizimit mund të përmbajë vetëm shkronja dhe/ose numra
 signin-unblock-resend-code-button = S’gjendet te dosja e të marrëve apo e të padëshiruarave? Ridërgojeni
 signin-unblock-support-link = Pse ndodh kjo?
 
