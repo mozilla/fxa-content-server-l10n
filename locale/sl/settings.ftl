@@ -103,7 +103,7 @@ choose-what-to-sync-option-prefs =
 choose-what-to-sync-option-addresses =
     .label = naslove
 choose-what-to-sync-option-paymentmethods =
-    .label = načine plačila
+    .label = plačilna sredstva
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
