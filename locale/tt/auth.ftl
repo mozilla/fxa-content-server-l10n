@@ -1,19 +1,20 @@
 ## Non-email strings
 
-session-verify-send-push-title = { -product-firefox-accounts } эченә кердегезме?
+session-verify-send-push-title-2 = { -product-mozilla-account } эченә кердегезме?
 session-verify-send-push-body-2 = Сез икәнегезне раслау өчен монда басыгыз
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } логотибы">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотибы">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Җиһазларны синхронлау">
 body-devices-image = <img data-l10n-name="devices-image" alt="Җиһазлар">
 fxa-privacy-url = { -brand-mozilla }’ның Хосусыйлык Сәясәте
-fxa-service-url = { -product-firefox-cloud } хезмәтен куллану шартлары
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } логотибы">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотибы">
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Хосусыйлык Аңлатмасы
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Куллану Шартлары
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } логотибы">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } логотибы">
 subplat-automated-email = Бу автоматик электрон хат. Аның килүе бер хата аркасында булды дип уйласагыз, берни дә эшләргә кирәкми.
 subplat-privacy-notice = Хосусыйлык аңлатмасы
 subplat-privacy-plaintext = Хоусыйлык аңлатмасы:
@@ -21,10 +22,16 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = { $email } адресы өчен { -product-firefox-account } аккаунты булганы һәм Сез { $productName } хезмәтенә теркәлгәнегез өчен, Сезгә бу хат җибәрелде.
+subplat-explainer-specific-2 = { $email } адресы өчен { -product-mozilla-account } аккаунты булганы һәм Сез { $productName } хезмәтенә теркәлгәнегез өчен, Сезгә бу хат җибәрелде.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = { $email } адресы өчен { -product-firefox-account } хисабы булганы өчен, Сезгә бу хат җибәрелде.
+subplat-explainer-reminder-form-2 = { $email } адресы өчен { -product-mozilla-account } хисабы булганга, Сезгә бу хат җибәрелде.
+subplat-explainer-multiple-2 = { $email } адресы өчен { -product-mozilla-account } аккаунты булганга һәм Сез берничә продуктка язылганга күрә, Сезгә бу хат җибәрелде.
+subplat-explainer-was-deleted-2 = { $email } адресы өчен { -product-mozilla-account } хисабы булганы өчен, Сезгә бу хат җибәрелде.
+subplat-manage-account-2 = { -product-mozilla-account } көйләүләрен <a data-l10n-name="subplat-account-page">Хисап битегездә</a> үзгәртә аласыз.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = { -product-mozilla-account } көйләүләрен хисап битегездә карап һәм үзгәртеп була: { $accountSettingsUrl }
 subplat-terms-policy = Шартлар һәм баш тарту сәясәте
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Язылудан баш тарту
@@ -33,9 +40,11 @@ subplat-reactivate = Язылуны яңадан активлаштыру
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Түләү турындагы мәгълүматны яңарту
 subplat-privacy-policy = { -brand-mozilla }-ның Хосусыйлык Сәясәте
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Хосусыйлык Аңлатмасы
 subplat-privacy-policy-plaintext = { subplat-privacy-policy } :
-subplat-cloud-terms = { -product-firefox-cloud } хезмәтен куллану шартлары
-subplat-cloud-terms-plaintext = { subplat-cloud-terms } :
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Куллану Шартлары
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Хокукый мәсьәләләр
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = Хосусыйлык
@@ -70,10 +79,6 @@ payment-plan-next-invoice = Киләсе квитанция: { $nextInvoiceDateO
 payment-method = Түләү ысулы:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $lastFour } белән тәмамланучы { $cardType } картасы
-# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Квитанция номеры: <b>{ $invoiceNumber }</b>
 # Variables:
@@ -104,25 +109,6 @@ subscriptionUpdateBillingEnsure-plaintext = Түләү ысулыгызның һ
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS }-да { $uaBrowser }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP адрес: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (чама белән)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (чама белән)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (чама белән)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (чама белән)
 view-invoice = <a data-l10n-name="invoiceLink">Квитанциягезне карагыз</a>
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -159,22 +145,14 @@ newDeviceLogin-change-password-plain = Сез түгелме? Серсүзеге
 newDeviceLogin-action = Хисап белән идарә итү
 passwordChanged-subject = Серсүз яңартылды
 passwordChanged-title = Парол уңышлы үзгәртелде
-passwordChanged-description = { -product-firefox-account } хисабыгызның серсүзе түбәндәге җиһаздан уңышлы гына үзгәртелде:
 passwordChangeRequired-subject = Шөбһәле гамәлләр ачыкланды
 passwordChangeRequired-title = Серсүзне үзгәртү кирәк
-passwordChangeRequired-signoff = Хөрмәт илә,
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } такымы
 passwordReset-subject = Серсүз яңартылды
 passwordReset-title = Хисабыгызның паролы үзгәртелде
 passwordReset-description = Башка җиһазларыгызда да синхронлау дәвам итсен өчен, аларга да яңа паролыгызны кертүегез кирәк.
 passwordResetAccountRecovery-subject-2 = Серсүзегез үзгәртелде
 passwordResetAccountRecovery-title-2 = Серсүз уңышлы үзгәртелде
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Яңа хисапны коткару ачкычын булдыру
-postAddAccountRecovery-subject-2 = Хисапны коткару ачкычы ясалды
 postAddAccountRecovery-title2 = Сез яңа хисапны коткару ачкычы булдырдыгыз
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Сез түгелме?
 postAddAccountRecovery-action = Хисап белән идарә итү
 postAddLinkedAccount-action = Хисап белән идарә итү
 postAddTwoStepAuthentication-subject-2 = Ике адымлы аутентификация кабызылды
@@ -184,9 +162,6 @@ postAddTwoStepAuthentication-from-device = Сез аны бу җиһаздан �
 postAddTwoStepAuthentication-action = Хисап белән идарә итү
 postChangePrimary-subject = Төп эл. почта адресы яңартылды
 postChangePrimary-title = Яңа төп электрон почта адресы
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Төп электрон почта адресыгызны { $email } адресына уңышлы үзгәрттегез. Бу адрес хәзер { -product-firefox-account } эченә керү өчен кулланасы исемегез булачак. Моннан тыш, хәвефсезлеккә бәйле белдерүләр һәм хисап язмагызга керү турындагы хәбәрләр дә шул адреска җибәреләчәк.
 postChangePrimary-action = Хисап белән идарә итү
 postConsumeRecoveryCode-title-2 = Сез резерв копия аутентификация кодын кулландыгыз
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -203,16 +178,9 @@ postNewRecoveryCodes-title-2 = Сез яңа резерв копия аутен�
 postNewRecoveryCodes-description-2 = Алар бу җиһазда ясалган:
 postNewRecoveryCodes-action = Хисап белән идарә итү
 postRemoveAccountRecovery-subject-2 = Хисапны коткару ачкычы бетерелде
-postRemoveAccountRecovery-title-2 = Сез хисапны коткару ачкычын бетердегез.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Бу җиһаздан бетерелде:
 postRemoveAccountRecovery-action = Хисап белән идарә итү
-postRemoveAccountRecovery-invalid-2 = Серсүзегезне онытсагыз, { -brand-firefox } мәгълүматыгызны тергезү өчен сезгә хисапны коткару ачкычы кирәк.
 postRemoveSecondary-subject = Икенчел электрон почта бетерелде
 postRemoveSecondary-title = Икенчел электрон почта бетерелде
-# Variables:
-#  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Сез { $secondaryEmail } икенчел электрон почта адресын үзегезнең { -product-firefox-account }-тан уңышлы бетердегез. Моннан ары хәвефсезлеккә бәйле белдерүләр һәм кергәнне раслаулар ул адреска җибәрелмәячәк.
 postRemoveSecondary-action = Хисап белән идарә итү
 postRemoveTwoStepAuthentication-subject-line-2 = Ике адымлы аутентификация сүндерелде
 postRemoveTwoStepAuthentication-title-2 = Сез ике адымлы аутентификацияне сүндердегез
@@ -223,7 +191,6 @@ postRemoveTwoStepAuthentication-not-required-2 = Сез кергәндә, аут
 postVerify-sub-title-3 = Без сезне күреп бик бәхетле!
 postVerify-title-2 = Бер үк табны ике җиһазда да күрәсегез киләме?
 postVerify-description-2 = Бу җиңел! Башка җиһазга { -brand-firefox } урнаштырыгыз һәм синхронлауга керегез. Тылсым кебек!
-postVerify-subject-3 = { -brand-firefox }-ка рәхим итегез!
 postVerify-setup-2 = Башка бер җиһазны тоташтыру:
 postVerify-action-2 = Башка бер җиһазны тоташтыру
 postVerifySecondary-subject = Икенчел эл. почта өстәлде
@@ -248,7 +215,6 @@ subscriptionAccountReminderFirst-title = Сез әле абунәгезгә ке
 subscriptionAccountReminderFirst-action = Серсүз булдыру
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Соңгы искәртү: Хисабыгызны көйләгез
-subscriptionAccountReminderSecond-title = { -brand-firefox }-ка рәхим итегез!
 subscriptionAccountReminderSecond-action = Серсүз булдыру
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -353,21 +319,16 @@ verificationReminderFinal-subject = Хисабыгызны раслау өчен
 confirm-account = Хисапны раслагыз
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Хисабыгызны расларга онытмагыз
-verificationReminderFirst-title-2 = { -brand-firefox }-ка рәхим итегез!
 verificationReminderFirst-sub-description-3 = Сезне һәм хосусыйлыгыгызны беренче урынга куйган браузерны күрми калмагыз.
 confirm-email-2 = Хисапны раслагыз
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Хисапны раслагыз
 verificationReminderSecond-subject-2 = Хисабыгызны расларга онытмагыз
-verificationReminderSecond-title-2 = { -brand-firefox }-ны күрми калмагыз!
 verify-subject = Хисап язмагызны ясап бетерегез
 verifyLogin-action = Керүне раслау
 verifyLoginCode-expiry-notice = Кодның яраклылык вакыты 5 минут.
 verifyPrimary-description = Түбәндәге җиһаздан хисапны үзгәртүгә үтенеч керде:
 verifyPrimary-subject = Төп эл. почтаны раслау
 verifySecondaryCode-subject = Икенчел эл. почтаны раслау
-# Variables:
-#  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = { $email } адресын икенчел эл. почта адресы буларак куллану өчен түбәндәге { -product-firefox-account } хисабыннан бер үтенеч килде:
 verifyShortCode-prompt-3 = Бу раслау кодын куллану:
 verifyShortCode-expiry-notice = Кодның яраклылык вакыты 5 минут.
