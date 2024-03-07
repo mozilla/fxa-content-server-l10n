@@ -1388,15 +1388,15 @@ signin-totp-code-required-error = É necessário o código de autenticação
 
 signin-unblock-header = Autorizar este início de sessão
 # Where $email is the email address entered for the sign-in attempt
-signin-unblock-body = Verifique o seu email para o código de autorização enviado para { $email }.
+signin-unblock-body = Verifique o seu e-mail para o código de autorização enviado para { $email }.
 signin-unblock-code-input = Introduzir o código de autorização
 signin-unblock-submit-button = Continuar
 # Shown when the user attempts to submit the form without including a code
-signin-unblock-code-required-error = Código de autorização requerido
+signin-unblock-code-required-error = Código de autorização necessário
 signin-unblock-code-incorrect-length = O código de autorização tem de conter 8 caracteres
 signin-unblock-code-incorrect-format-2 = O código de autorização só pode conter letras e/ou números
 signin-unblock-resend-code-button = Não está na caixa de entrada ou pasta de lixo? Reenviar
-signin-unblock-support-link = O que está a acontecer?
+signin-unblock-support-link = Porque é que isto está a acontecer?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
