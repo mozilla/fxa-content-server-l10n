@@ -1401,6 +1401,7 @@ signin-unblock-code-required-error = Al covente inserî il codiç di autorizazio
 signin-unblock-code-incorrect-length = Il codiç di autorizazion al à di vê 8 caratars
 signin-unblock-code-incorrect-format-2 = Il codiç di autorizazion al pues contignî dome letaris e/o numars
 signin-unblock-resend-code-button = No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande
+signin-unblock-support-link = Ce staial sucedint?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
