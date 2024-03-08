@@ -1388,6 +1388,20 @@ signin-totp-code-recovery-code-link = Problemis a inserî il codiç?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Codiç di autenticazion necessari
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Autorize chest acès
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Controle la tô casele di pueste: il codiç di autorizazion al è stât mandât a { $email }.
+signin-unblock-code-input = Inserìs il codiç di autorizazion
+signin-unblock-submit-button = Continue
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Al covente inserî il codiç di autorizazion
+signin-unblock-code-incorrect-length = Il codiç di autorizazion al à di vê 8 caratars
+signin-unblock-code-incorrect-format-2 = Il codiç di autorizazion al pues contignî dome letaris e/o numars
+signin-unblock-resend-code-button = No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
