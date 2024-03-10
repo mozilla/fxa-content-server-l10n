@@ -1398,6 +1398,10 @@ signin-unblock-code-input = Wpisz kod upoważnienia
 signin-unblock-submit-button = Kontynuuj
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Wymagany jest kod upoważnienia
+signin-unblock-code-incorrect-length = Kod upoważnienia musi mieć 8 znaków
+signin-unblock-code-incorrect-format-2 = Kod upoważnienia może zawierać tylko litery i cyfry
+signin-unblock-resend-code-button = Nie ma nic w Odebranych ani w Niechcianych? Wyślij jeszcze raz
+signin-unblock-support-link = Dlaczego to się stało?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
