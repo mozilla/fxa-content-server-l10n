@@ -241,12 +241,6 @@ reset-pwd-resend-link = Wyślij nowy odnośnik
 reset-pwd-link-expired-header = Odnośnik do zmiany hasła wygasł
 reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Odnośnik potwierdzenia wygasł
-signin-link-expired-message = Kliknięty odnośnik do potwierdzenia adresu e-mail wygasł.
-
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -971,6 +965,8 @@ auth-error-1003 = Obsługa lokalnego przechowywania danych lub ciasteczek jest n
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
 auth-error-1010 = Wymagane jest prawidłowe hasło
 auth-error-1011 = Wymagany jest prawidłowy adres e-mail
+auth-error-1031 = Należy podać swój wiek przed zarejestrowaniem
+auth-error-1032 = Należy podać prawidłowy wiek przed zarejestrowaniem
 auth-error-1062 = Nieprawidłowe przekierowanie
 
 ## Cannot Create Account page
@@ -1282,12 +1278,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Przejdź do moje
 error-label = Błąd:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Weryfikowanie logowania…
-
-## ConfirmSignin component
-
-confirm-signin-header = Potwierdź to logowanie
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Sprawdź, czy na koncie { $email } jest odnośnik potwierdzenia logowania
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Błąd potwierdzenia
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Odnośnik potwierdzenia wygasł
+signin-link-expired-message-2 = Kliknięty odnośnik wygasł lub został już wykorzystany.
 
 ## Signin page
 
@@ -1393,13 +1388,16 @@ signin-totp-code-recovery-code-link = Masz problem z wpisywaniem kodu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Wymagany jest kod uwierzytelniania
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Potwierdź konto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Sprawdź, czy na koncie { $email } jest odnośnik potwierdzenia
+signin-unblock-header = Upoważnij to logowanie
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Sprawdź, czy na koncie { $email } jest kod upoważnienia.
+signin-unblock-code-input = Wpisz kod upoważnienia
+signin-unblock-submit-button = Kontynuuj
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Wymagany jest kod upoważnienia
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1437,8 +1435,6 @@ signup-change-email-link = Zmień adres e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Ile masz lat?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Należy podać swój wiek przed zarejestrowaniem
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Dlaczego pytamy?
