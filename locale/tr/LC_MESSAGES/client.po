@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2024-02-28 04:42+0000\n"
+"PO-Revision-Date: 2024-03-08 11:30+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -356,7 +356,7 @@ msgstr "Geçersiz istek imzası"
 
 #: .es5/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr "Eksik content-length üstbilgisi"
+msgstr "Eksik content-length üst bilgisi"
 
 #: .es5/lib/auth-errors.js:91
 msgid "Request body too large"
