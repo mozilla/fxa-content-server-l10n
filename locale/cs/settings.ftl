@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Zopakujte heslo
 form-reset-password-with-balloon-submit-button = Obnovit heslo
 form-reset-password-with-balloon-match-error = Hesla se neshodují
+form-password-sr-too-short-message = Heslo musí obsahovat alespoň 8 znaků.
+form-password-sr-not-email-message = Heslo nesmí obsahovat vaši e-mailovou adresu.
+form-password-sr-not-common-message = Heslo nesmí být běžně používaným heslem.
+form-password-sr-requirements-met = Zadané heslo respektuje požadavky na heslo.
+form-password-sr-passwords-match = Zadaná hesla se shodují.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Skrýt heslo
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Zobrazit heslo
-input-password-hide-aria = Skrýt heslo z obrazovky.
-input-password-show-aria = Zobrazit heslo v čitelné podobě. Vaše heslo bude viditelné na obrazovce.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Vaše heslo je aktuálně viditelné na obrazovce.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Vaše heslo je aktuálně skryté.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Vaše heslo je nyní viditelné na obrazovce.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Vaše heslo je nyní skryté.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Zpět
 
