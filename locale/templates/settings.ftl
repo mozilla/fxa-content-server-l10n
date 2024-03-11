@@ -12,7 +12,7 @@ banner-dismiss-button =
 
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
+link-expired-resent-link-success-message = Email re-sent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Something went wrong. A new code could not be sent.
 
@@ -175,6 +175,12 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Reset password
 form-reset-password-with-balloon-match-error = Passwords do not match
 
+form-password-sr-too-short-message = Password must contain at least 8 characters.
+form-password-sr-not-email-message = Password must not contain your email address.
+form-password-sr-not-common-message = Password must not be a commonly used password.
+form-password-sr-requirements-met = The entered password respects all password requirements.
+form-password-sr-passwords-match = Entered passwords match.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -222,11 +228,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Hide password
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Show password
-input-password-hide-aria = Hide password from screen.
-input-password-show-aria = Show password as plain text. Your password will be visible on screen.
-
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Your password is currently visible on screen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Your password is currently hidden.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Your password is now visible on screen.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Your password is now hidden.
 
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Back
