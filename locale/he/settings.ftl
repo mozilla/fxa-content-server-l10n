@@ -156,6 +156,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = הזנת הססמה מחדש
 form-reset-password-with-balloon-submit-button = איפוס ססמה
 form-reset-password-with-balloon-match-error = הססמאות אינן תואמות
+form-password-sr-too-short-message = הססמה חייבת להכיל לפחות 8 תווים.
+form-password-sr-not-email-message = הססמה אינה יכולה להכיל את כתובת הדוא״ל שלך.
+form-password-sr-not-common-message = אסור שהססמה תהיה ססמה נפוצה.
+form-password-sr-requirements-met = הססמה שהוזנה מכבדת את כל הדרישות לססמה תקינה.
+form-password-sr-passwords-match = הססמאות שהוזנו תואמות.
 
 ## FormVerifyCode
 
@@ -203,10 +208,14 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = הסתרת ססמה
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = הצגת ססמה
-input-password-hide-aria = הסתרת הססמה מהמסך.
-input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = הססמה שלך גלויה כעת על המסך.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = הססמה שלך מוסתרת כרגע.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = חזרה
 
