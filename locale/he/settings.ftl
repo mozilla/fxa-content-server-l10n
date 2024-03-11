@@ -213,9 +213,13 @@ input-password-hide = הסתרת ססמה
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = הצגת ססמה
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
-input-password-hide-aria-2 = הססמה שלך גלויה כעת על המסך.
+input-password-hide-aria-2 = הססמה שלך גלויה כרגע על המסך.
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
 input-password-show-aria-2 = הססמה שלך מוסתרת כרגע.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = הססמה שלך עכשיו גלויה על המסך.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = הססמה שלך עכשיו מוסתרת.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = חזרה
 
