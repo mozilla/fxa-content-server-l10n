@@ -160,6 +160,9 @@ form-reset-password-with-balloon-confirm-password =
     .label = Εισαγάγετε ξανά τον κωδικό πρόσβασης
 form-reset-password-with-balloon-submit-button = Επαναφορά κωδικού πρόσβασης
 form-reset-password-with-balloon-match-error = Οι κωδικοί πρόσβασης δεν ταιριάζουν
+form-password-sr-too-short-message = Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον 8 χαρακτήρες.
+form-password-sr-not-email-message = Ο κωδικός πρόσβασης δεν πρέπει να περιέχει τη διεύθυνση email σας.
+form-password-sr-not-common-message = Ο κωδικός πρόσβασης δεν πρέπει να είναι ένας συνήθης κωδικός πρόσβασης.
 
 ## FormVerifyCode
 
@@ -208,10 +211,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Απόκρυψη κωδικού πρόσβασης
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Εμφάνιση κωδικού πρόσβασης
-input-password-hide-aria = Απόκρυψη κωδικού πρόσβασης από την οθόνη.
-input-password-show-aria = Εμφάνιση κωδικού πρόσβασης ως απλό κείμενο. Θα είναι ορατός στην οθόνη.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Πίσω
 
