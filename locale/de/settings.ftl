@@ -160,9 +160,9 @@ form-reset-password-with-balloon-confirm-password =
     .label = Passwort erneut eingeben
 form-reset-password-with-balloon-submit-button = Passwort zurücksetzen
 form-reset-password-with-balloon-match-error = Passwörter stimmen nicht überein
-form-password-sr-too-short-message = Passwort muss mindestens 8 Zeichen enthalten.
+form-password-sr-too-short-message = Das Passwort muss mindestens 8 Zeichen enthalten.
 form-password-sr-not-email-message = Das Passwort darf nicht Ihre E-Mail-Adresse enthalten.
-form-password-sr-not-common-message = Passwort darf kein häufig verwendetes Passwort sein.
+form-password-sr-not-common-message = Das Passwort darf kein häufig verwendetes Passwort sein.
 form-password-sr-requirements-met = Das eingegebene Passwort berücksichtigt alle Passwortanforderungen.
 form-password-sr-passwords-match = Eingegebene Passwörter stimmen überein.
 
