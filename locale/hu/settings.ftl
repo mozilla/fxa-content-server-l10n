@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Jelszó megerősítése
 form-reset-password-with-balloon-submit-button = Jelszó visszaállítása
 form-reset-password-with-balloon-match-error = A jelszavak nem egyeznek
+form-password-sr-too-short-message = A jelszónak legalább 8 karakterből kell állnia.
+form-password-sr-not-email-message = A jelszó nem tartalmazhatja az e-mail címét.
+form-password-sr-not-common-message = A jelszó nem lehet gyakran használt jelszó.
+form-password-sr-requirements-met = A megadott jelszó tiszteletben tartja az összes jelszókövetelményt.
+form-password-sr-passwords-match = A megadott jelszavak egyeznek.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Jelszó elrejtése
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Jelszó megjelenítése
-input-password-hide-aria = Jelszó elrejtése a képernyőn.
-input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = A jelszava jelenleg látható a képernyőn.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = A jelszava jelenleg rejtett.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = A jelszava most már látható a képernyőn.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = A jelszava most már rejtett.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Vissza
 
