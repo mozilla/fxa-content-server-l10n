@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Ponovno vnesite geslo
 form-reset-password-with-balloon-submit-button = Ponastavi geslo
 form-reset-password-with-balloon-match-error = Gesli se ne ujemata
+form-password-sr-too-short-message = Geslo mora vsebovati vsaj 8 znakov.
+form-password-sr-not-email-message = Geslo ne sme vsebovati vašega e-poštnega naslova.
+form-password-sr-not-common-message = Geslo ne sme biti pogosto uporabljeno geslo.
+form-password-sr-requirements-met = Vneseno geslo upošteva vse zahteve za geslo.
+form-password-sr-passwords-match = Vneseni gesli se ujemata.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Skrij geslo
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Pokaži geslo
-input-password-hide-aria = Skrij geslo z zaslona.
-input-password-show-aria = Prikaži geslo kot navadno besedilo. Vaše geslo bo vidno na zaslonu.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Vaše geslo je trenutno vidno na zaslonu.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Vaše geslo je trenutno skrito.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Vaše geslo je sedaj vidno na zaslonu.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Vaše geslo je zdaj skrito.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Nazaj
 
