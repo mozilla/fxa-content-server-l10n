@@ -163,7 +163,7 @@ form-reset-password-with-balloon-match-error = Hesla se neshodují
 form-password-sr-too-short-message = Heslo musí obsahovat alespoň 8 znaků.
 form-password-sr-not-email-message = Heslo nesmí obsahovat vaši e-mailovou adresu.
 form-password-sr-not-common-message = Heslo nesmí být běžně používaným heslem.
-form-password-sr-requirements-met = Zadané heslo respektuje požadavky na heslo.
+form-password-sr-requirements-met = Zadané heslo respektuje všechny požadavky na heslo.
 form-password-sr-passwords-match = Zadaná hesla se shodují.
 
 ## FormVerifyCode
