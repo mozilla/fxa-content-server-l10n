@@ -973,6 +973,8 @@ auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 auth-error-1010 = Jildich wachtwurd fereaske
 auth-error-1011 = Jildich e-mailadres fereaske
+auth-error-1031 = Jo moatte jo leeftiid ynfiere om te registrearjen
+auth-error-1032 = Jo moatte in jildige leeftiid ynfiere om te registrearjen
 auth-error-1062 = Unjildige trochferwizing
 
 ## Cannot Create Account page
@@ -1290,12 +1292,6 @@ complete-signin-error-header = Befêstigingsflater
 signin-link-expired-header = Befêstigingskeppeling ferrûn
 signin-link-expired-message-2 = De keppeling wêrop jo klikt hawwe is ferrûn of is al brûkt.
 
-## ConfirmSignin component
-
-confirm-signin-header = Dizze oanmelding befêstigje
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei { $email } is ferstjoerd
-
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1400,13 +1396,20 @@ signin-totp-code-recovery-code-link = Problemen by it ynfieren fan de koade?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Autentikaasjekoade fereaske
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Befêstigje jo account
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Kontrolearje jo e-mail op de befêstigingskeppeling dy’t nei { $email } is ferstjoerd
+signin-unblock-header = Dizze oanmelding autorisearje
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Kontrolearje jo e-mail op de autorisaasjekoade dy’t nei { $email } ferstjoerd is.
+signin-unblock-code-input = Fier autorisaasjekoade yn
+signin-unblock-submit-button = Trochgean
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Autorisaasjekoade fereaske
+signin-unblock-code-incorrect-length = Autorisaasjekoade moat 8 tekens befetsje
+signin-unblock-code-incorrect-format-2 = Autorisaasjekoade mei allinnich letters en/of sifers befetsje
+signin-unblock-resend-code-button = Net yn Postfek YN of map mei net-winske? Opnij ferstjoere
+signin-unblock-support-link = Werom bart dit?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1444,8 +1447,6 @@ signup-change-email-link = E-mailadres wizigje
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Hoe âld binne jo?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Jo moatte jo leeftiid ynfiere om te registrearjen
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Wêrom freegje wy dit?
