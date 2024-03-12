@@ -160,6 +160,8 @@ form-reset-password-with-balloon-confirm-password =
     .label = 重新输入密码
 form-reset-password-with-balloon-submit-button = 重置密码
 form-reset-password-with-balloon-match-error = 密码不匹配
+form-password-sr-too-short-message = 密码至少需要包含 8 个字符。
+form-password-sr-not-email-message = 密码中不能包含您的邮箱地址。
 
 ## FormVerifyCode
 
@@ -208,10 +210,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = 隐藏密码
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = 显示密码
-input-password-hide-aria = 在屏幕上隐藏密码。
-input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 后退
 
