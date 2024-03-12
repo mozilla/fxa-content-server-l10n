@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Torne inserìs la password
 form-reset-password-with-balloon-submit-button = Ristabilìs la password
 form-reset-password-with-balloon-match-error = Lis passwords no corispuindin
+form-password-sr-too-short-message = La password e à di vê almancul 8 caratars.
+form-password-sr-not-email-message = La password no à di contignî la tô direzion e-mail.
+form-password-sr-not-common-message = La password no à di jessi une password di ûs comun.
+form-password-sr-requirements-met = La password inseride e rispiete ducj i recuisîts pes passwords.
+form-password-sr-passwords-match = Lis passwords inseridis a corispuindin.
 
 ## FormVerifyCode
 
@@ -208,10 +213,12 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Plate password
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Mostre password
-input-password-hide-aria = Plate la password dal schermi.
-input-password-show-aria = Mostre la password come test normâl. La tô password e sarà visibile sul schermi.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = In chest moment la password e je visibile sul schermi.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Indaûr
 
