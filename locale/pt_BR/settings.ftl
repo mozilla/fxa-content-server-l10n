@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Confirme a nova senha
 form-reset-password-with-balloon-submit-button = Redefinir senha
 form-reset-password-with-balloon-match-error = As senhas não coincidem
+form-password-sr-too-short-message = A senha deve ter pelo menos 8 caracteres.
+form-password-sr-not-email-message = A senha não pode ter seu endereço de email
+form-password-sr-not-common-message = A senha não deve ser uma comumente usada.
+form-password-sr-requirements-met = A senha inserida respeita todos os requisitos de senha.
+form-password-sr-passwords-match = As senhas inseridas coincidem.
 
 ## FormVerifyCode
 
@@ -208,10 +213,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Ocultar senha
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Exibir senha
-input-password-hide-aria = Oculta a senha na tela.
-input-password-show-aria = Exibe a senha como texto legível. Sua senha fica visível na tela.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Voltar
 
