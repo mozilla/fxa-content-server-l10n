@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Nhập lại mật khẩu
 form-reset-password-with-balloon-submit-button = Đặt lại mật khẩu
 form-reset-password-with-balloon-match-error = Mật khẩu không khớp
+form-password-sr-too-short-message = Mật khẩu phải chứa ít nhất 8 ký tự.
+form-password-sr-not-email-message = Mật khẩu không được chứa địa chỉ email của bạn.
+form-password-sr-not-common-message = Mật khẩu không trùng với các mật khẩu được sử dụng phổ biến.
+form-password-sr-requirements-met = Mật khẩu đã nhập cần đáp ứng tất cả các yêu cầu về mật khẩu.
+form-password-sr-passwords-match = Mật khẩu đã nhập đã khớp.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Ẩn mật khẩu
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Hiện mật khẩu
-input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
-input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Mật khẩu của bạn hiện đang được hiển thị trên màn hình.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Mật khẩu của bạn hiện đang bị ẩn.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Mật khẩu của bạn bây giờ được hiển thị trên màn hình.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Mật khẩu của bạn bây giờ đã bị ẩn.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Quay lại
 
