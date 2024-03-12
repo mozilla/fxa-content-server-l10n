@@ -162,7 +162,7 @@ form-reset-password-with-balloon-submit-button = Réinitialiser le mot de passe
 form-reset-password-with-balloon-match-error = Les mots de passe ne correspondent pas
 form-password-sr-too-short-message = Le mot de passe doit contenir au moins 8 caractères.
 form-password-sr-not-email-message = Le mot de passe ne doit pas contenir votre adresse email.
-form-password-sr-not-common-message = Le mot de passe ne doit pas être un mot de passe d’usage courant.
+form-password-sr-not-common-message = Le mot de passe ne doit pas être un mot de passe trop commun.
 form-password-sr-requirements-met = Le mot de passe saisi respecte toutes les exigences en matière de mots de passe.
 form-password-sr-passwords-match = Les mots de passe saisis correspondent.
 
