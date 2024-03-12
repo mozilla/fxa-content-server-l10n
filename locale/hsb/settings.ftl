@@ -160,6 +160,10 @@ form-reset-password-with-balloon-confirm-password =
     .label = Hesło znowa zapodać
 form-reset-password-with-balloon-submit-button = Hesło wróćo stajić
 form-reset-password-with-balloon-match-error = Hesle jenakej njejstej
+form-password-sr-too-short-message = Hesło dyrbi znajmjeńša 8 znamješkow wobsahować.
+form-password-sr-not-email-message = Hesło njesmě wašu e-mejlowu adresu wobsahować.
+form-password-sr-not-common-message = Hesło njesmě zhromadnje wužiwane hesło być.
+form-password-sr-requirements-met = Zapodate hesło wšě žadanja na hesło respektuje.
 
 ## FormVerifyCode
 
@@ -208,10 +212,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Hesło schować
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Hesło pokazać
-input-password-hide-aria = Hesło na wobrazowce schować.
-input-password-show-aria = Hesło jako luty tekst pokazać. Waše hesło budźe widźomne na wobrazowce.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Wróćo
 
