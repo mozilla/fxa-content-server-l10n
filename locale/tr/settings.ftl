@@ -160,6 +160,7 @@ form-reset-password-with-balloon-confirm-password =
     .label = Parolayı yeniden girin
 form-reset-password-with-balloon-submit-button = Parolayı sıfırla
 form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
+form-password-sr-too-short-message = Parola en az 8 karakterden oluşmalıdır.
 
 ## FormVerifyCode
 
@@ -208,10 +209,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Parolayı gizle
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Parolayı göster
-input-password-hide-aria = Parolayı ekrandan gizle.
-input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Geri
 
