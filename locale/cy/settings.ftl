@@ -162,7 +162,7 @@ form-reset-password-with-balloon-submit-button = Ailosod y cyfrinair
 form-reset-password-with-balloon-match-error = Nid yw'r cyfrineiriau'n cydweddu
 form-password-sr-too-short-message = Rhaid i'r cyfrinair gynnwys o leiaf 8 nod.
 form-password-sr-not-email-message = Ni ddylai cyfrinair gynnwys eich cyfeiriad e-bost.
-form-password-sr-not-common-message = Ni ddylai cyfrinair fod yn gyfrinair a ddefnyddir yn gyffredin.
+form-password-sr-not-common-message = Peidiwch â defnyddio cyfrinair cyffredin
 form-password-sr-requirements-met = Mae'r cyfrinair a gofnodwyd yn parchu'r holl ofynion cyfrinair.
 form-password-sr-passwords-match = Mae cyfrineiriau a fewnbynnwyd yn cyfateb.
 
