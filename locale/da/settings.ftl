@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Indtast adgangskode igen
 form-reset-password-with-balloon-submit-button = Nulstil adgangskode
 form-reset-password-with-balloon-match-error = Adgangskoderne er ikke ens
+form-password-sr-too-short-message = Adgangskoden skal indeholde mindst 8 tegn.
+form-password-sr-not-email-message = Adgangskoden må ikke indeholde din mailadresse.
+form-password-sr-not-common-message = Adgangskoden må ikke være en ofte anvendt adgangskode.
+form-password-sr-requirements-met = Den indtastede adgangskode opfylder alle kravene til adgangskoder.
+form-password-sr-passwords-match = De indtastede adgangskoder er ens.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Skjul adgangskode
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Vis adgangskode
-input-password-hide-aria = Skjul adgangskode fra skærmen.
-input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Din adgangskode er i øjeblikket synlig på skærmen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Din adgangskode er i øjeblikket skjult.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Din adgangskode er nu synlig på skærmen.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Din adgangskode er nu skjult.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbage
 
