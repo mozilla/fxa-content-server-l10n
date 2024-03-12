@@ -163,7 +163,7 @@ form-reset-password-with-balloon-match-error = Le password non corrispondono
 form-password-sr-too-short-message = La password deve contenere almeno 8 caratteri.
 form-password-sr-not-email-message = La password non deve contenere il tuo indirizzo email.
 form-password-sr-not-common-message = La password non deve essere una password di uso comune.
-form-password-sr-requirements-met = La password inserita rispetta tutti i requisiti per la password.
+form-password-sr-requirements-met = La password inserita rispetta tutti i requisiti per le password.
 form-password-sr-passwords-match = Le password inserite corrispondono.
 
 ## FormVerifyCode
