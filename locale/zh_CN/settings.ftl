@@ -162,6 +162,9 @@ form-reset-password-with-balloon-submit-button = 重置密码
 form-reset-password-with-balloon-match-error = 密码不匹配
 form-password-sr-too-short-message = 密码至少需要包含 8 个字符。
 form-password-sr-not-email-message = 密码中不能包含您的邮箱地址。
+form-password-sr-not-common-message = 密码不能设置为常见密码。
+form-password-sr-requirements-met = 输入的密码符合各项密码要求。
+form-password-sr-passwords-match = 两次输入的密码一致。
 
 ## FormVerifyCode
 
@@ -214,6 +217,14 @@ lightbulb-aria-label =
 input-password-hide = 隐藏密码
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = 显示密码
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = 您的密码目前显示在屏幕上。
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = 您的密码目前被隐藏。
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = 您的密码现在会显示在屏幕上。
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = 您的密码现在会被隐藏。
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 后退
 
