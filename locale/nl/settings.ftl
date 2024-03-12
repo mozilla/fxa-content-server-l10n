@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Voer wachtwoord nogmaals in
 form-reset-password-with-balloon-submit-button = Wachtwoord herinitialiseren
 form-reset-password-with-balloon-match-error = Wachtwoorden komen niet overeen
+form-password-sr-too-short-message = Wachtwoord dient ten minste 8 tekens te bevatten.
+form-password-sr-not-email-message = Wachtwoord mag niet uw e-mailadres bevatten.
+form-password-sr-not-common-message = Wachtwoord mag geen veelgebruikt wachtwoord zijn.
+form-password-sr-requirements-met = Het ingevoerde wachtwoord voldoet aan alle wachtwoordvereisten.
+form-password-sr-passwords-match = Ingevoerde wachtwoorden komen overeen.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Wachtwoord verbergen
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Wachtwoord tonen
-input-password-hide-aria = Wachtwoord op scherm verbergen
-input-password-show-aria = Wachtwoord als platte tekst tonen. Uw wachtwoord zal zichtbaar zijn op het scherm.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Uw wachtwoord is momenteel zichtbaar op het scherm.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Uw wachtwoord is momenteel verborgen.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Uw wachtwoord is nu zichtbaar op het scherm.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Uw wachtwoord is nu verborgen.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Terug
 
