@@ -161,8 +161,8 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Restablecer contraseña
 form-reset-password-with-balloon-match-error = Las contraseñas no coinciden
 form-password-sr-too-short-message = La contraseña debe contener al menos 8 caracteres.
-form-password-sr-not-email-message = La contraseña no debe contener tu correo electrónico.
-form-password-sr-not-common-message = La contraseña no debe ser una contraseña de uso común.
+form-password-sr-not-email-message = La contraseña no debe contener tu dirección de correo electrónico.
+form-password-sr-not-common-message = La contraseña no debe ser una contraseña comunmente usada.
 form-password-sr-requirements-met = La contraseña ingresada respeta todos los requisitos de contraseña.
 form-password-sr-passwords-match = Las contraseñas introducidas coinciden.
 
