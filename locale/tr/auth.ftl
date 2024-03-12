@@ -377,7 +377,7 @@ recovery-action = Yeni parola oluştur
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = { $productName } aboneliğiniz iptal edildi
-subscriptionAccountDeletion-title = Ayrılık sevdaya dahil
+subscriptionAccountDeletion-title = Ayrılmanıza üzüldük
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
@@ -407,7 +407,7 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = { $productName } aboneliğiniz iptal edildi
-subscriptionCancellation-title = Ayrılık sevdaya dahil
+subscriptionCancellation-title = Ayrılmanıza üzüldük
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

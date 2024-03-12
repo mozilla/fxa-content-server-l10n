@@ -161,6 +161,10 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Parolayı sıfırla
 form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
 form-password-sr-too-short-message = Parola en az 8 karakterden oluşmalıdır.
+form-password-sr-not-email-message = Parolanız e-posta adresinizi içeremez.
+form-password-sr-not-common-message = Parolanız yaygın olarak kullanılan bir parola olmamalıdır.
+form-password-sr-requirements-met = Girdiğiniz parola tüm parola gereksinimlerine uygun.
+form-password-sr-passwords-match = Girilen parolalar eşleşiyor.
 
 ## FormVerifyCode
 
@@ -213,6 +217,14 @@ lightbulb-aria-label =
 input-password-hide = Parolayı gizle
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Parolayı göster
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Parolanız şu anda ekranda görülebilir durumda.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Parolanız şu anda gizli.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Parolanız artık ekranda görülebilir.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Parolanız gizlendi.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Geri
 
@@ -1318,7 +1330,7 @@ signin-recovery-code-heading-w-default-service = <span>Hesap ayarlarına devam e
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu girin
-signin-recovery-code-instruction = Lütfen iki adımlı kimlik doğrulama kurulumu sırasında size verilen yedek kimlik doğrulama kodunu yazın.
+signin-recovery-code-instruction = Lütfen iki aşamalı kimlik doğrulama kurulumu sırasında size verilen yedek kimlik doğrulama kodunu yazın.
 signin-recovery-code-input-label = 10 basamaklı yedek kimlik doğrulama kodunu girin
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Onayla
