@@ -161,10 +161,10 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Ailosod y cyfrinair
 form-reset-password-with-balloon-match-error = Nid yw'r cyfrineiriau'n cydweddu
 form-password-sr-too-short-message = Rhaid i'r cyfrinair gynnwys o leiaf 8 nod.
-form-password-sr-not-email-message = Ni ddylai cyfrinair gynnwys eich cyfeiriad e-bost.
+form-password-sr-not-email-message = Peidiwch â chynnwys eich cyfeiriad e-bost yn eich cyfrinair.
 form-password-sr-not-common-message = Peidiwch â defnyddio cyfrinair cyffredin
 form-password-sr-requirements-met = Mae'r cyfrinair a gofnodwyd yn parchu'r holl ofynion cyfrinair.
-form-password-sr-passwords-match = Mae cyfrineiriau a fewnbynnwyd yn cyfateb.
+form-password-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cyfateb.
 
 ## FormVerifyCode
 
@@ -218,13 +218,13 @@ input-password-hide = Cuddio cyfrinair
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Dangos cyfrinair
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
-input-password-hide-aria-2 = Mae eich cyfrinair i'w weld ar y sgrin ar hyn o bryd.
+input-password-hide-aria-2 = Mae'ch cyfrinair i'w weld ar y sgrin ar hyn o bryd.
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
-input-password-show-aria-2 = Mae eich cyfrinair wedi'i guddio ar hyn o bryd.
+input-password-show-aria-2 = Mae'ch cyfrinair wedi'i guddio ar hyn o bryd.
 # Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
-input-password-sr-only-now-visible = Mae eich cyfrinair bellach yn weladwy ar y sgrin.
+input-password-sr-only-now-visible = Mae'ch cyfrinair nawr yn weladwy ar y sgrin.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
-input-password-sr-only-now-hidden = Mae eich cyfrinair bellach wedi'i guddio.
+input-password-sr-only-now-hidden = Mae eich cyfrinair nawr wedi'i guddio.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Nôl
 
