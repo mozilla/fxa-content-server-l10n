@@ -162,7 +162,7 @@ form-reset-password-with-balloon-submit-button = 重置密码
 form-reset-password-with-balloon-match-error = 密码不匹配
 form-password-sr-too-short-message = 密码至少需要包含 8 个字符。
 form-password-sr-not-email-message = 密码中不能包含您的邮箱地址。
-form-password-sr-not-common-message = 密码不能设置为常见密码。
+form-password-sr-not-common-message = 不能使用常见密码。
 form-password-sr-requirements-met = 输入的密码符合各项密码要求。
 form-password-sr-passwords-match = 两次输入的密码一致。
 
