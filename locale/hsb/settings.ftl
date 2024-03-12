@@ -164,6 +164,7 @@ form-password-sr-too-short-message = Hesło dyrbi znajmjeńša 8 znamješkow wob
 form-password-sr-not-email-message = Hesło njesmě wašu e-mejlowu adresu wobsahować.
 form-password-sr-not-common-message = Hesło njesmě zhromadnje wužiwane hesło być.
 form-password-sr-requirements-met = Zapodate hesło wšě žadanja na hesło respektuje.
+form-password-sr-passwords-match = Zapodate hesła su jenake.
 
 ## FormVerifyCode
 
@@ -216,6 +217,14 @@ lightbulb-aria-label =
 input-password-hide = Hesło schować
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Hesło pokazać
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Waše hesło je tuchwilu na wobrazowce widźomne.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Waše hesło je tuchwilu schowane.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Waše hesło je nětko na wobrazowce widźomne.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Waše hesło je nětko schowane.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Wróćo
 
