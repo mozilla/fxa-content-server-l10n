@@ -219,6 +219,12 @@ input-password-hide = Fela lykilorð
 input-password-show = Birta lykilorð
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
 input-password-hide-aria-2 = Lykilorðið þitt er nú sýnilegt á skjánum.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Lykilorðið þitt er núna falið.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Lykilorðið þitt er nú sýnilegt á skjánum.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Lykilorðið þitt er núna falið.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Til baka
 
