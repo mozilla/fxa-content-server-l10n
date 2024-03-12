@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Gronidło znowego zapódaś
 form-reset-password-with-balloon-submit-button = Gronidło slědk stajiś
 form-reset-password-with-balloon-match-error = Gronidle njejstej jadnakej
+form-password-sr-too-short-message = Gronidło musy nanejmjenjej 8 znamuškow wopśimowaś.
+form-password-sr-not-email-message = Gronidło njesmějo wašu e-mailowu adresu wopśimowaś.
+form-password-sr-not-common-message = Gronidło njesměj zgromadnje wužywane gronidło byś.
+form-password-sr-requirements-met = Zapódane gronidło wšykne pominanja na gronidło respektěrujo.
+form-password-sr-passwords-match = Zapódane gronidła su jadnake.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Gronidła schowaś
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Gronidło pokazaś
-input-password-hide-aria = Gronidło na wobrazowce schowaś.
-input-password-show-aria = Gronidło ako lutny tekst pokazaś. Wašo gronidło buźo widobne na wobrazowce.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Wašo gronidło jo tuchylu na wobrazowce widobne.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Wašo gronidło jo tuchylu schowane.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Wašo gronidło jo něnto na wobrazowce widobne.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Wašo gronidło jo něnto schowane.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Slědk
 
