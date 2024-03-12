@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Повторите ввод пароля
 form-reset-password-with-balloon-submit-button = Сбросить пароль
 form-reset-password-with-balloon-match-error = Пароли не совпадают
+form-password-sr-too-short-message = Пароль должен содержать не менее 8 символов.
+form-password-sr-not-email-message = Пароль не должен содержать ваш адрес электронной почты.
+form-password-sr-not-common-message = Пароль не должен быть часто используемым паролем.
+form-password-sr-requirements-met = Введённый пароль соответствует всем требованиям к паролям.
+form-password-sr-passwords-match = Введённые пароли совпадают.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Скрыть пароль
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Показать пароль
-input-password-hide-aria = Скрыть пароль с экрана.
-input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Ваш пароль в данный момент виден на экране.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Ваш пароль сейчас скрыт.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Ваш пароль теперь виден на экране.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Ваш пароль теперь скрыт.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
