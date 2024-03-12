@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Парольді қайта енгізіңіз
 form-reset-password-with-balloon-submit-button = Парольді тастау
 form-reset-password-with-balloon-match-error = Парольдер өзара сәйкес келмейді
+form-password-sr-too-short-message = Пароль кемінде 8 таңбадан тұруы керек.
+form-password-sr-not-email-message = Пароль ішінде сіздің эл. пошта адресіңіз болмауы керек.
+form-password-sr-not-common-message = Пароль жиі қолданылатын пароль болмауы керек.
+form-password-sr-requirements-met = Енгізілген пароль парольдерге қойылатын барлық шарттарға сай келеді.
+form-password-sr-passwords-match = Енгізілген парольдер өзара сәйкес келеді.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Парольді жасыру
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Парольді көрсету
-input-password-hide-aria = Парольді экраннан жасыру.
-input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Сіздің пароліңіз ағымдағы уақытта экранда көрініп тұр.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Сіздің пароліңіз ағымдағы уақытта жасырын болып тұр.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Сіздің пароліңіз енді экранда көрініп тұр.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Сіздің пароліңіз енді жасырын болып тұр.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Артқа
 
