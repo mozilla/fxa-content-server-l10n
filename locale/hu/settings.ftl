@@ -161,9 +161,9 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Jelszó visszaállítása
 form-reset-password-with-balloon-match-error = A jelszavak nem egyeznek
 form-password-sr-too-short-message = A jelszónak legalább 8 karakterből kell állnia.
-form-password-sr-not-email-message = A jelszó nem tartalmazhatja az e-mail címét.
+form-password-sr-not-email-message = A jelszó nem tartalmazhatja az e-mail-címét.
 form-password-sr-not-common-message = A jelszó nem lehet gyakran használt jelszó.
-form-password-sr-requirements-met = A megadott jelszó tiszteletben tartja az összes jelszókövetelményt.
+form-password-sr-requirements-met = A megadott jelszó betartja az összes jelszókövetelményt.
 form-password-sr-passwords-match = A megadott jelszavak egyeznek.
 
 ## FormVerifyCode
