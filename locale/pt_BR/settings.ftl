@@ -217,6 +217,14 @@ lightbulb-aria-label =
 input-password-hide = Ocultar senha
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Exibir senha
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Sua senha está visível na tela.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Sua senha está oculta.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Agora sua senha está visível na tela.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Agora sua senha está oculta.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Voltar
 
