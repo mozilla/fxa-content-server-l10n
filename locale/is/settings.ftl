@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Settu aftur inn lykilorðið
 form-reset-password-with-balloon-submit-button = Endurstilla lykilorð
 form-reset-password-with-balloon-match-error = Lykilorð passa ekki
+form-password-sr-too-short-message = Lykilorð verður að innihalda að minnsta kosti 8 stafi.
+form-password-sr-not-email-message = Lykilorð má ekki innihalda tölvupóstfangið þitt.
+form-password-sr-not-common-message = Lykilorð má ekki vera algengt lykilorð.
+form-password-sr-requirements-met = Uppgefna lykilorðið uppfyllir allar kröfur um lykilorð.
+form-password-sr-passwords-match = Uppgefin lykilorð passa saman.
 
 ## FormVerifyCode
 
@@ -208,10 +213,12 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Fela lykilorð
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Birta lykilorð
-input-password-hide-aria = Fela lykilorð af skjánum.
-input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Lykilorðið þitt er nú sýnilegt á skjánum.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Til baka
 
