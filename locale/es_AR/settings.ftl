@@ -164,7 +164,7 @@ form-password-sr-too-short-message = La contraseña debe contener al menos 8 car
 form-password-sr-not-email-message = La contraseña no debe contener tu dirección de correo electrónico.
 form-password-sr-not-common-message = La contraseña no debe ser una contraseña comunmente usada.
 form-password-sr-requirements-met = La contraseña ingresada respeta todos los requisitos de contraseña.
-form-password-sr-passwords-match = Las contraseñas introducidas coinciden.
+form-password-sr-passwords-match = Las contraseñas ingresadas coinciden.
 
 ## FormVerifyCode
 
@@ -220,11 +220,11 @@ input-password-show = Mostrar contraseña
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
 input-password-hide-aria-2 = Tu contraseña actualmente está visible en pantalla.
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
-input-password-show-aria-2 = Tu contraseña actualmente está oculta
+input-password-show-aria-2 = Tu contraseña actualmente está oculta.
 # Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
 input-password-sr-only-now-visible = Tu contraseña ahora está visible en pantalla.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
-input-password-sr-only-now-hidden = Tu contraseña ahora está oculta
+input-password-sr-only-now-hidden = Tu contraseña ahora está oculta.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Atrás
 
