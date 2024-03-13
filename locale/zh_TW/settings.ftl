@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = 再次輸入密碼
 form-reset-password-with-balloon-submit-button = 重設密碼
 form-reset-password-with-balloon-match-error = 密碼不符合
+form-password-sr-too-short-message = 密碼必須包含至少 8 個字元。
+form-password-sr-not-email-message = 密碼不得包含您的電子郵件地址。
+form-password-sr-not-common-message = 密碼不能是被普遍使用的密碼。
+form-password-sr-requirements-met = 輸入的密碼應符合所有要求。
+form-password-sr-passwords-match = 輸入的密碼相符。
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = 隱藏密碼
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = 顯示密碼
-input-password-hide-aria = 在畫面上隱藏密碼。
-input-password-show-aria = 用明文顯示密碼在螢幕上。
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = 您的密碼目前顯示在畫面上。
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = 您的密碼目前隱藏。
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = 您的密碼現在顯示在畫面上。
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = 您的密碼現在已隱藏。
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 上一頁
 
