@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Bekräfta lösenordet
 form-reset-password-with-balloon-submit-button = Återställ lösenordet
 form-reset-password-with-balloon-match-error = Lösenorden matchar inte
+form-password-sr-too-short-message = Lösenord måste innehålla minst 8 tecken.
+form-password-sr-not-email-message = Lösenord får inte innehålla din e-postadress.
+form-password-sr-not-common-message = Lösenord får inte vara ett vanligt använt lösenord.
+form-password-sr-requirements-met = Det angivna lösenordet respekterar alla lösenordskrav.
+form-password-sr-passwords-match = Angivna lösenord matchar.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Dölj lösenord
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Visa lösenord
-input-password-hide-aria = Dölj lösenord från skärmen.
-input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Ditt lösenord visas för närvarande på skärmen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Ditt lösenord är för närvarande dolt.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Ditt lösenord visas nu på skärmen.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Ditt lösenord är nu dolt.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tillbaka
 
