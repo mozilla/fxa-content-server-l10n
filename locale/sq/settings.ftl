@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Rijepni fjalëkalimin
 form-reset-password-with-balloon-submit-button = Ricaktoni fjalëkalimin
 form-reset-password-with-balloon-match-error = Fjalëkalimet nuk përputhen
+form-password-sr-too-short-message = Fjalëkalimi duhet të përmbajë të paktën 8 shenja.
+form-password-sr-not-email-message = Fjalëkalimi s’duhet të përmbajë adresën tuaj email.
+form-password-sr-not-common-message = Fjalëkalimi s’duhet të jetë një fjalëkalim i përdorur rëndom.
+form-password-sr-requirements-met = Fjalëkalimi i dhënë respekton krejt domosdoshmëritë për fjalëkalim.
+form-password-sr-passwords-match = Fjalëkalimet e dhënë përputhen.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Fshihe fjalëkalimin
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Shfaqe fjalëkalimin
-input-password-hide-aria = Fshihe fjalëkalimin nga ekrani.
-input-password-show-aria = Shfaqe fjalëkalimin si tekst të thjeshtë. Fjalëkalimi juaj do të jetë i dukshëm në ekran.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Fjalëkalimi juaj aktualisht është i dukshëm në ekran.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Fjalëkalimi juaj aktualisht është i fshehur.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Fjalëkalimi juaj tani është i dukshëm në ekran.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Fjalëkalimi juaj tani është i fshehur.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Mbrapsht
 
