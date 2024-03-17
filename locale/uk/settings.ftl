@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Введіть пароль ще раз
 form-reset-password-with-balloon-submit-button = Відновити пароль
 form-reset-password-with-balloon-match-error = Паролі відрізняються
+form-password-sr-too-short-message = Пароль має містити принаймні 8 символів.
+form-password-sr-not-email-message = Пароль не повинен містити вашу електронну адресу.
+form-password-sr-not-common-message = Пароль не повинен бути загальновживаним.
+form-password-sr-requirements-met = Введений пароль відповідає всім вимогам.
+form-password-sr-passwords-match = Введені паролі збігаються.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Сховати пароль
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Показати пароль
-input-password-hide-aria = Сховати пароль з екрана.
-input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Ваш пароль зараз видно на екрані.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Ваш пароль зараз приховано.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Ваш пароль тепер видно на екрані.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Ваш пароль тепер приховано.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
