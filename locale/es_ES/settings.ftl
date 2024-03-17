@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Volver a introducir contraseña
 form-reset-password-with-balloon-submit-button = Restablecer contraseña
 form-reset-password-with-balloon-match-error = Las contraseñas no coinciden
+form-password-sr-too-short-message = La contraseña debe contener al menos 8 caracteres.
+form-password-sr-not-email-message = La contraseña no debe contener tu dirección de correo electrónico.
+form-password-sr-not-common-message = La contraseña no debe ser una contraseña de uso común.
+form-password-sr-requirements-met = La contraseña introducida respeta todos los requisitos de contraseña.
+form-password-sr-passwords-match = Las contraseñas introducidas coinciden.
 
 ## FormVerifyCode
 
@@ -208,10 +213,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Ocultar contraseña
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Mostrar contraseña
-input-password-hide-aria = Ocultar la contraseña de la pantalla.
-input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Tu contraseña está actualmente visible en la pantalla.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Tu contraseña está actualmente oculta.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Tu contraseña ahora está visible en la pantalla.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Tu contraseña ahora está oculta.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Atrás
 
