@@ -1297,6 +1297,7 @@ validating-signin = Amoneĩ tembiapo ñepyrũ…
 complete-signin-error-header = Ñemoneĩha jejavy
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Juajuha ñemoneĩha ndoikovéima
+signin-link-expired-message-2 = Pe juajuha eikutuva’ekue ndoikovéima térã ojeporúma.
 
 ## Signin page
 
@@ -1313,12 +1314,19 @@ signin-button = Eñemboheraguapy
 signin-header = Eñemboheraguapy
 signin-use-a-different-account-link = Eiporu ambuéva mba’ete
 signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
+signin-password-button-label = Ñe’ẽñemi
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
+report-signin-header = ¿Emomarandu jeike ñemoneĩ’ỹva?
+report-signin-body = Og̃uahẽ ndéve ñanduti veve peteĩ jeikese ne mba’etépe rehegua. ¿Emombe’usépa ko tembiapo ivaikuaávaramo?
+report-signin-submit-button = Emomarandu tembiaporã
+report-signin-support-link = ¿Mba’ére oiko ko’ãva?
+report-signin-error = Rombyasy, oiko apañuãi emondóvo ne rembiapo.
 signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
 # $email (string) - The user's email.
 signin-bounced-message = Ko ñanduti veve ñemoneĩgua romondóva { $email }-pe nog̃uahẽi ha rojokóma mba’ete romo’ã hag̃ua mba’ekuaarã { -brand-firefox } pegua.
@@ -1398,6 +1406,13 @@ signin-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Emoneĩ ko tembiapo ñepyrũ
+signin-unblock-code-input = Emoinge ayvu ñemoneĩrã
+signin-unblock-submit-button = Eku’ejey
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Ayvu ñemoneĩrã jerurepyre
+signin-unblock-code-incorrect-length = Pe ayvu ñemoneĩrã orekova’erã michĩvérõ 8 tai
+signin-unblock-code-incorrect-format-2 = Pe ayvu ñemoneĩrã orekova’erã tai ha/térã papapy
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
