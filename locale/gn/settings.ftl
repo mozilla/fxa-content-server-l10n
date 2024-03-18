@@ -221,6 +221,10 @@ input-password-show = Ehechauka ñe’ẽñemi
 input-password-hide-aria-2 = Ne ñe’ẽñemi ojekuaa mba’erechahápe.
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
 input-password-show-aria-2 = Ne ñe’ẽñemi ko’ag̃aite oĩ kañyhápe.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Ne ñe’ẽñemi ojekuaa mba’erechahápe.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Ne ñe’ẽñemi ko’ag̃aite oĩ kañyhápe.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tapykue
 
@@ -232,6 +236,9 @@ reset-pwd-link-damaged-header = Juajuha eguerujey hag̃ua ñe’ẽñemi oñemby
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Juajuha hechajeyha oñembyai
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Juajuha ndoikóiva
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
 
@@ -968,9 +975,13 @@ auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-999 = Jejavy eha’ãrõ’ỹva
+auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
 auth-error-1003 = Ñeñongatu pypegua térã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
+auth-error-1010 = Eikotevẽ ñe’ẽñemi oikóva
 auth-error-1011 = Eikotevẽ ñanduti veve oikóva
+auth-error-1031 = Emoinge nde arytee eñemboheraguapývo
+auth-error-1032 = Emoinge nde arytee eñemboheraguapývo
 auth-error-1062 = Ñemondojey ndoikói
 
 ## Cannot Create Account page
@@ -1282,6 +1293,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 error-label = Javy:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Amoneĩ tembiapo ñepyrũ…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Ñemoneĩha jejavy
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Juajuha ñemoneĩha ndoikovéima
 
