@@ -1413,6 +1413,8 @@ signin-unblock-submit-button = Eku’ejey
 signin-unblock-code-required-error = Ayvu ñemoneĩrã jerurepyre
 signin-unblock-code-incorrect-length = Pe ayvu ñemoneĩrã orekova’erã michĩvérõ 8 tai
 signin-unblock-code-incorrect-format-2 = Pe ayvu ñemoneĩrã orekova’erã tai ha/térã papapy
+signin-unblock-resend-code-button = ¿Ndaipóri ñe’ẽmondo g̃uahẽhápe térã spam marandurendápe? Emondojey
+signin-unblock-support-link = ¿Mba’ére oiko ko’ãva?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
