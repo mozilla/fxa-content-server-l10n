@@ -160,6 +160,10 @@ form-reset-password-with-balloon-confirm-password =
     .label = Emoingejey ñe’ẽñemi
 form-reset-password-with-balloon-submit-button = Ñe’ẽñemi mbojevyjey
 form-reset-password-with-balloon-match-error = Ko’ã ñe’ẽñemi ndojojoguái
+form-password-sr-too-short-message = Pe ñe’ẽñemi oguerekova’erã michĩ’vérõ 8 tai.
+form-password-sr-not-email-message = Pe ñe’ẽñemi ani oreko ñanduti veve kundaharape.
+form-password-sr-not-common-message = Pe ñe’ẽñemi ani oreko ñe’ẽñemi ojeporumeméva.
+form-password-sr-requirements-met = Pe ñe’ẽñemi haipyre ohechapava’erã ñe’ẽñemi oikotevẽva.
 
 ## FormVerifyCode
 
@@ -208,10 +212,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Emokañy ñe’ẽñemi
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Ehechauka ñe’ẽñemi
-input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
-input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tapykue
 
@@ -223,7 +227,7 @@ reset-pwd-link-damaged-header = Juajuha eguerujey hag̃ua ñe’ẽñemi oñemby
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Juajuha hechajeyha oñembyai
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
 
 ## LinkExpired component
@@ -237,12 +241,6 @@ reset-pwd-resend-link = Ereko juajuha pyahu
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Juajuha eguerujey hag̃ua ñe’ẽñemi ndoikovéima
 reset-pwd-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’ẽñemi ndoikovéima.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Juajuha ñemoneĩha ndoikovéima
-signin-link-expired-message = Pe juajuha emoneĩhague ne ñanduti veve ndoikovéima.
 
 ## LinkRememberPassword component
 
@@ -309,7 +307,6 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } apopyrekuéra
 bento-menu-tagline = { -brand-mozilla } apopyrekuéra omo’ãva nde rekoñemi
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
@@ -617,7 +614,6 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Embojuehe mba’ekuaarã { -brand-firefox } rehegua
 delete-account-product-firefox-addons = { -brand-firefox } Moĩmbaha
@@ -1279,12 +1275,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 error-label = Javy:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Amoneĩ tembiapo ñepyrũ…
-
-## ConfirmSignin component
-
-confirm-signin-header = Emoneĩ ne rembiapo ñepyrũ
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $email } ne ñanduti vevépe
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Juajuha ñemoneĩha ndoikovéima
 
 ## Signin page
 
@@ -1301,6 +1293,12 @@ signin-button = Eñemboheraguapy
 signin-header = Eñemboheraguapy
 signin-use-a-different-account-link = Eiporu ambuéva mba’ete
 signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
 # $email (string) - The user's email.
 signin-bounced-message = Ko ñanduti veve ñemoneĩgua romondóva { $email }-pe nog̃uahẽi ha rojokóma mba’ete romo’ã hag̃ua mba’ekuaarã { -brand-firefox } pegua.
@@ -1377,13 +1375,9 @@ signin-totp-code-recovery-code-link = ¿Apañuãi emoinge hag̃ua ayvu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Emoneĩjey ne mba’ete
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $email } ne ñanduti vevépe
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1421,8 +1415,6 @@ signup-change-email-link = Emoambue  ñanduti veve
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = ¿Mboy ary eguereko?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Emoinge nde ary eñemboheraguapykuévo
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = ¿Mba’ére roporandu?
