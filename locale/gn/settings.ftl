@@ -164,6 +164,7 @@ form-password-sr-too-short-message = Pe ñe’ẽñemi oguerekova’erã michĩ�
 form-password-sr-not-email-message = Pe ñe’ẽñemi ani oreko ñanduti veve kundaharape.
 form-password-sr-not-common-message = Pe ñe’ẽñemi ani oreko ñe’ẽñemi ojeporumeméva.
 form-password-sr-requirements-met = Pe ñe’ẽñemi haipyre ohechapava’erã ñe’ẽñemi oikotevẽva.
+form-password-sr-passwords-match = Ko’ã ñe’ẽñemi haipyre ojuehegua.
 
 ## FormVerifyCode
 
@@ -216,6 +217,10 @@ lightbulb-aria-label =
 input-password-hide = Emokañy ñe’ẽñemi
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Ehechauka ñe’ẽñemi
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Ne ñe’ẽñemi ojekuaa mba’erechahápe.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Ne ñe’ẽñemi ko’ag̃aite oĩ kañyhápe.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tapykue
 
@@ -307,6 +312,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } apopyrekuéra
 bento-menu-tagline = { -brand-mozilla } apopyrekuéra omo’ãva nde rekoñemi
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
@@ -614,6 +620,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Embojuehe mba’ekuaarã { -brand-firefox } rehegua
 delete-account-product-firefox-addons = { -brand-firefox } Moĩmbaha
