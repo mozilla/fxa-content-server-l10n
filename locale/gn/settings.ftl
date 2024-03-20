@@ -1407,6 +1407,8 @@ signin-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Emoneĩ ko tembiapo ñepyrũ
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Ehechajey ne ñanduti veve ayvu ñemoneĩva emondopyre { $email }-pe.
 signin-unblock-code-input = Emoinge ayvu ñemoneĩrã
 signin-unblock-submit-button = Eku’ejey
 # Shown when the user attempts to submit the form without including a code
