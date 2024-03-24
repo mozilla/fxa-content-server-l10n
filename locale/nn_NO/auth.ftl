@@ -35,6 +35,8 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-privacy-policy = { -brand-mozilla }s personvernpraksis
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = Tenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
@@ -76,8 +78,12 @@ automated-email-not-authorized-plaintext = Denne e-posten vart sendt automatisk;
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 automatedEmailRecoveryKey-origin-device-browser-only = Denne førespurnaden kom frå { $uaBrowser }.
+automatedEmailRecoveryKey-more-info = Gå til <a data-l10n-name="supportLink">{ -brand-mozilla } brukarstøtte</a> for meir informasjon.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Denne førspurnaden kom frå:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = og endre passordet ditt:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = Gå til { -brand-mozilla } brukarstøtte for meir informasjon:
 automated-email-reset =
