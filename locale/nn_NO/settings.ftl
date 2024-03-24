@@ -81,8 +81,8 @@ choose-what-to-sync-option-prefs =
     .label = Innstillingar
 choose-what-to-sync-option-addresses =
     .label = Adresser
-choose-what-to-sync-option-creditcards =
-    .label = Betalingskort
+choose-what-to-sync-option-paymentmethods =
+    .label = Betalingsmåtar
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -149,7 +149,6 @@ form-verify-code-default-error = Dette feltet er påkravd
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontogjenopprettingsnøkkel for { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkjenningskode
 get-data-trio-title-backup-verification-codes = Reserve-godkjenningskodar
 get-data-trio-download-2 =
     .title = Last ned
@@ -175,10 +174,10 @@ security-shield-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Gøym passord
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Vis passord
-input-password-hide-aria = Gøym passord frå skjermen.
-input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast på skjermen.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbake
 
@@ -190,7 +189,7 @@ reset-pwd-link-damaged-header = Passordlenke for tilbakestilling er skada
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Stadfestingslenka er skada
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Lenka du trykte på manglar nokre teikn, og kan ha blitt skada av e-postklienten. Kopier adressa nøye, og prøv på nytt.
 
 ## LinkExpired component
@@ -204,11 +203,6 @@ reset-pwd-resend-link = Få ei ny lenke
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Passordlenke for tilbakestilling er gått ut
 reset-pwd-link-expired-message = Lenka du trykte på for å tilbakestille passordet ditt har gått ut.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Stadfestingslenka har gått ut
 
 ## LinkRememberPassword component
 
@@ -265,11 +259,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento-meny
-bento-menu-title-2 = { -brand-mozilla } Bento-meny
-bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for retten din til privatliv på nettet.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-nettlesar for datamaskiner
@@ -338,14 +328,10 @@ cs-sign-out-button = Logg ut
 ## Data collection section
 
 dc-heading = Datainnsamling og bruk
-dc-subheader = Hjelp til med å forbetre { -product-firefox-accounts }
-dc-subheader-content = Tillat { -product-firefox-accounts } å sende tekniske data og brukardata til { -brand-mozilla }.
-dc-opt-out-success = Vellykka avmelding. { -product-firefox-accounts } vil ikkje sende tekniske data eller brukardata til { -brand-mozilla }.
 dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account }-meny
 drop-down-menu-title-2 = { -product-mozilla-account }-meny
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -420,7 +406,6 @@ header-menu-open = Lat att meny
 header-menu-closed = Meny for nettstadnavigering
 header-back-to-top-link =
     .title = Tilbake til toppen
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Hjelp
 
@@ -528,12 +513,10 @@ delete-account-header =
     .title = Slett kontoen
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tillegg
@@ -761,8 +744,6 @@ tfa-row-change-modal-explain = Du vil ikkje kunne angre denne handlinga.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro = Ved å halde fram seier du deg samd i:
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ved å halde fram seier du deg samd i:
 
@@ -1007,15 +988,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Hald fram til ko
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Feil:
-
-## ConfirmSignin component
-
-confirm-signin-header = Stadfest denne innlogginga
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Stadfestingslenka har gått ut
 
 ## Signin page
 
-# Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Skriv inn passordet ditt <span>for { -product-firefox-account }en din</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
@@ -1027,6 +1004,12 @@ signin-button = Logg inn
 signin-header = Logg inn
 signin-use-a-different-account-link = Bruk ein annan konto
 signin-forgot-password-link = Gløymt passordet?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
 back = Tilbake
 
@@ -1083,11 +1066,9 @@ signin-totp-code-recovery-code-link = Har du poblem med å taste inn koden?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Godkjenningskode påkravd
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Stadfest kontoen din
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1125,8 +1106,6 @@ signup-change-email-link = Endre e-post
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kor gammal er du?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Du må skrive inn alder for å registrere deg
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Kvifor spør vi?

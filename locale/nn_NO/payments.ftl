@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Firefox-kontoar
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Startside for kontoen
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -59,14 +28,10 @@ input-error-is-required = { $label } er påkravd
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox }-logo
 brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Har du allereie ein { -brand-name-firefox }-konto? <a>Logg inn</a>
 new-user-sign-in-link-2 =
     Har du allereie ein
      { -product-mozilla-account }? <a>Logg inn</a>
@@ -126,7 +91,6 @@ payment-confirmation-download-button = Hald fram til nedlasting
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min for beløpet som vert vist, i samsvar med <termsOfServiceLink>Vilkår for bruk</termsOfServiceLink> og <privacyNoticeLink>Personvernpraksisen</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
 payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 ## Component - PaymentErrorView
@@ -148,12 +112,10 @@ payment-cc =
 payment-cancel-btn = Avbryt
 payment-update-btn = Oppdater
 payment-pay-btn = Betal no
-payment-pay-with-paypal-btn = Betal med { -brand-name-paypal }
 payment-validate-name-error = Skriv inn namnet ditt
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } brukar { -brand-name-stripe } for sikker betalingsprosessering.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernpraksis</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -173,7 +135,6 @@ payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Betal med { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -341,8 +302,6 @@ product-plan-not-found = Fann ikkje planen
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Opprett ein { -brand-name-firefox }-konto
 new-user-step-1-2 = 1. Opprett ein { -product-mozilla-account }
 new-user-card-title = Skriv inn betalingskortinformasjon
 new-user-submit = Abonner no
@@ -362,9 +321,8 @@ pay-with-heading-card-only = Betal med kort
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } butikk
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -415,7 +373,6 @@ sub-route-idx-cancel-msg =
     { $name }-abonnementet ditt er sagt opp.
           <br />
           Du vil framleis ha tilgang til { $name } til den { $date }.
-sub-route-idx-cancel-aside = Har du spørsmål? Besøk <a>{ -brand-name-mozilla } brukarstøtte</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -455,7 +412,6 @@ sub-invoice-preview-error-title = Fann ikkje førehandsvising av faktura
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Ser du etter premium-abonnementet ditt på { -brand-name-pocket }?
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -484,6 +440,4 @@ reactivate-success-button = Lat att
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Kjøp i appen
-sub-iap-item-apple-purchase = { -brand-name-apple }: KJøp i appen
 sub-iap-item-manage-button = Handsam

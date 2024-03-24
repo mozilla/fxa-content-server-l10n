@@ -227,6 +227,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
+newDeviceLogin-subjectForMozillaAccount = Ny innlogging på { -product-mozilla-account }-en din.
 newDeviceLogin-title-3 = { -product-mozilla-account }-en din vart brukt til å logge inn
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -435,6 +436,7 @@ confirm-email-2 = Stadfest kontoen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
 verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
+verificationReminderSecond-title-3 = Ikkje gå glipp av { -brand-mozilla }!
 verificationReminderSecond-action-2 = Stadfest kontoen
 verify-title-3 =
     Opne internett med
