@@ -163,7 +163,7 @@ form-reset-password-with-balloon-match-error = Gesli se ne ujemata
 form-password-sr-too-short-message = Geslo mora vsebovati vsaj 8 znakov.
 form-password-sr-not-email-message = Geslo ne sme vsebovati vašega e-poštnega naslova.
 form-password-sr-not-common-message = Geslo ne sme biti pogosto uporabljeno geslo.
-form-password-sr-requirements-met = Vneseno geslo upošteva vse zahteve za geslo.
+form-password-sr-requirements-met = Vneseno geslo izpolnjuje vse zahteve.
 form-password-sr-passwords-match = Vneseni gesli se ujemata.
 
 ## FormVerifyCode
@@ -222,7 +222,7 @@ input-password-hide-aria-2 = Vaše geslo je trenutno vidno na zaslonu.
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
 input-password-show-aria-2 = Vaše geslo je trenutno skrito.
 # Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
-input-password-sr-only-now-visible = Vaše geslo je sedaj vidno na zaslonu.
+input-password-sr-only-now-visible = Vaše geslo je zdaj vidno na zaslonu.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Vaše geslo je zdaj skrito.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
