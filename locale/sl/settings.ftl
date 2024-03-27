@@ -162,7 +162,7 @@ form-reset-password-with-balloon-submit-button = Ponastavi geslo
 form-reset-password-with-balloon-match-error = Gesli se ne ujemata
 form-password-sr-too-short-message = Geslo mora vsebovati vsaj 8 znakov.
 form-password-sr-not-email-message = Geslo ne sme vsebovati vašega e-poštnega naslova.
-form-password-sr-not-common-message = Geslo ne sme biti pogosto uporabljeno geslo.
+form-password-sr-not-common-message = Ne smete uporabiti pogosto uporabljenega gesla.
 form-password-sr-requirements-met = Vneseno geslo izpolnjuje vse zahteve.
 form-password-sr-passwords-match = Vneseni gesli se ujemata.
 
