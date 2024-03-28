@@ -163,6 +163,8 @@ form-reset-password-with-balloon-match-error = Οι κωδικοί πρόσβα�
 form-password-sr-too-short-message = Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον 8 χαρακτήρες.
 form-password-sr-not-email-message = Ο κωδικός πρόσβασης δεν πρέπει να περιέχει τη διεύθυνση email σας.
 form-password-sr-not-common-message = Ο κωδικός πρόσβασης δεν πρέπει να είναι ένας συνήθης κωδικός πρόσβασης.
+form-password-sr-requirements-met = Ο κωδικός πρόσβασης εισήχθη πληροί όλες τις απαιτήσεις κωδικού πρόσβασης.
+form-password-sr-passwords-match = Οι κωδικοί πρόσβασης που εισήχθησαν ταιριάζουν.
 
 ## FormVerifyCode
 
