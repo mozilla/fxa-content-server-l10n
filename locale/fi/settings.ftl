@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Kirjoita salasana uudelleen
 form-reset-password-with-balloon-submit-button = Nollaa salasana
 form-reset-password-with-balloon-match-error = Salasanat eivät täsmää
+form-password-sr-too-short-message = Salasanan tulee sisältää vähintään 8 merkkiä.
+form-password-sr-not-email-message = Salasana ei saa sisältää sähköpostiosoitettasi.
+form-password-sr-not-common-message = Salasana ei saa olla yleisesti käytetty salasana.
+form-password-sr-requirements-met = Syötetty salasana noudattaa kaikkia salasanavaatimuksia.
+form-password-sr-passwords-match = Annetut salasanat vastaavat toisiaan.
 
 ## FormVerifyCode
 
@@ -207,10 +212,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Piilota salasana
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Näytä salasana
-input-password-hide-aria = Piilota salasana näytöltä.
-input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Salasanasi näkyy tällä hetkellä näytöllä.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Salasanasi on tällä hetkellä piilotettu.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Salasanasi näkyy nyt näytöllä.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Salasanasi on nyt piilotettu.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Takaisin
 
