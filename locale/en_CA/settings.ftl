@@ -208,10 +208,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Hide password
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Show password
-input-password-hide-aria = Hide password from screen.
-input-password-show-aria = Show password as plain text. Your password will be visible on screen.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Back
 
@@ -237,12 +237,6 @@ reset-pwd-resend-link = Receive new link
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Reset password link expired
 reset-pwd-link-expired-message = The link you clicked to reset your password is expired.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Confirmation link expired
-signin-link-expired-message = The link you clicked to confirm your email is expired.
 
 ## LinkRememberPassword component
 
@@ -957,7 +951,10 @@ auth-error-183-2 = Invalid or expired confirmation code
 auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
+auth-error-1010 = Valid password required
 auth-error-1011 = Valid email required
+auth-error-1031 = You must enter your age to sign up
+auth-error-1032 = You must enter a valid age to sign up
 auth-error-1062 = Invalid redirect
 
 ## Cannot Create Account page
@@ -1269,12 +1266,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Continue to my a
 error-label = Error:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Validating sign-in…
-
-## ConfirmSignin component
-
-confirm-signin-header = Confirm this sign-in
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Check your email for the sign-in confirmation link sent to { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Confirmation error
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Confirmation link expired
+signin-link-expired-message-2 = The link you clicked has expired or has already been used.
 
 ## Signin page
 
@@ -1291,12 +1287,19 @@ signin-button = Sign in
 signin-header = Sign in
 signin-use-a-different-account-link = Use a different account
 signin-forgot-password-link = Forgot password?
+signin-password-button-label = Password
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
+report-signin-header = Report unauthorized sign-in?
+report-signin-body = You received an email about attempted access to your account. Would you like to report this activity as suspicious?
+report-signin-submit-button = Report activity
+report-signin-support-link = Why is this happening?
+report-signin-error = Sorry, there was a problem submitting the report.
 signin-bounced-header = Sorry. We’ve locked your account.
 # $email (string) - The user's email.
 signin-bounced-message = The confirmation email we sent to { $email } was returned and we’ve locked your account to protect your { -brand-firefox } data.
@@ -1373,13 +1376,20 @@ signin-totp-code-recovery-code-link = Trouble entering code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authentication code required
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Confirm your account
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Check your email for the confirmation link sent to { $email }
+signin-unblock-header = Authorize this sign-in
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Check your email for the authorization code sent to { $email }.
+signin-unblock-code-input = Enter authorization code
+signin-unblock-submit-button = Continue
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Authorization code required
+signin-unblock-code-incorrect-length = Authorization code must contain 8 characters
+signin-unblock-code-incorrect-format-2 = Authorization code can only contain letters and/or numbers
+signin-unblock-resend-code-button = Not in inbox or spam folder? Resend
+signin-unblock-support-link = Why is this happening?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1417,8 +1427,6 @@ signup-change-email-link = Change email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = How old are you?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = You must enter your age to sign up
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Why do we ask?
