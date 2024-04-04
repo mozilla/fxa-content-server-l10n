@@ -160,6 +160,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Re-enter password
 form-reset-password-with-balloon-submit-button = Reset password
 form-reset-password-with-balloon-match-error = Passwords do not match
+form-password-sr-too-short-message = Password must contain at least 8 characters.
+form-password-sr-not-email-message = Password must not contain your email address.
+form-password-sr-not-common-message = Password must not be a commonly used password.
+form-password-sr-requirements-met = The entered password respects all password requirements.
+form-password-sr-passwords-match = Entered passwords match.
 
 ## FormVerifyCode
 
@@ -212,6 +217,14 @@ lightbulb-aria-label =
 input-password-hide = Hide password
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Show password
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Your password is currently visible on screen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Your password is currently hidden.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Your password is now visible on screen.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Your password is now hidden.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Back
 
@@ -223,6 +236,9 @@ reset-pwd-link-damaged-header = Reset password link damaged
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Confirmation link damaged
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Link damaged
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
 
@@ -303,6 +319,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } products
 bento-menu-tagline = More products from { -brand-mozilla } that protect your privacy
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
@@ -608,6 +625,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Syncing { -brand-firefox } data
 delete-account-product-firefox-addons = { -brand-firefox } Add-ons
@@ -949,6 +967,7 @@ auth-error-155 = TOTP token not found
 auth-error-159 = Invalid account recovery key
 auth-error-183-2 = Invalid or expired confirmation code
 auth-error-999 = Unexpected error
+auth-error-1002 = Session expired. Sign in to continue.
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
 auth-error-1010 = Valid password required
