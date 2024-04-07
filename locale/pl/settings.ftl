@@ -163,6 +163,8 @@ form-reset-password-with-balloon-match-error = Hasła są niezgodne
 form-password-sr-too-short-message = Hasło musi mieć co najmniej 8 znaków.
 form-password-sr-not-email-message = Hasło nie może zawierać Twojego adresu e-mail.
 form-password-sr-not-common-message = Hasło nie może być często używanym hasłem.
+form-password-sr-requirements-met = Wpisane hasło spełnia wszystkie wymagania.
+form-password-sr-passwords-match = Wpisane hasła są zgodne.
 
 ## FormVerifyCode
 
@@ -215,6 +217,14 @@ lightbulb-aria-label =
 input-password-hide = Ukryj hasło
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Pokaż hasło
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Twoje hasło jest obecnie widoczne na ekranie.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Twoje hasło jest obecnie ukryte.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Twoje hasło jest teraz widoczne na ekranie.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Twoje hasło jest teraz ukryte.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Wstecz
 
