@@ -160,6 +160,9 @@ form-reset-password-with-balloon-confirm-password =
     .label = Wpisz hasło ponownie
 form-reset-password-with-balloon-submit-button = Zmień hasło
 form-reset-password-with-balloon-match-error = Hasła są niezgodne
+form-password-sr-too-short-message = Hasło musi mieć co najmniej 8 znaków.
+form-password-sr-not-email-message = Hasło nie może zawierać Twojego adresu e-mail.
+form-password-sr-not-common-message = Hasło nie może być często używanym hasłem.
 
 ## FormVerifyCode
 
@@ -208,10 +211,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Ukryj hasło
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Pokaż hasło
-input-password-hide-aria = Ukryj hasło z ekranu.
-input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie widoczne na ekranie.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Wstecz
 
