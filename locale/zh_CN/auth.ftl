@@ -604,6 +604,6 @@ verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证
 verifyShortCode-subject-3 = 验证您的账户
 verifyShortCode-title-3 = 使用 { -brand-mozilla } 打开互联网世界
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = 确认您的账户即可在任何登录的设备中解锁 { -brand-mozilla } 完整体验，现在开始：
+verifyShortCode-title-subtext-2 = 确认您的账户后，即可在所有登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：
 verifyShortCode-prompt-3 = 请使用此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
