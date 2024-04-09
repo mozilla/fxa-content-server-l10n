@@ -112,10 +112,15 @@ payment-cc =
 payment-cancel-btn = Avbryt
 payment-update-btn = Oppdater
 payment-pay-btn = Betal no
+payment-pay-with-paypal-btn-2 = Betal med { -brand-paypal }
 payment-validate-name-error = Skriv inn namnet ditt
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } brukar { -brand-name-stripe } og { -brand-paypal } for trygg betalingsbehandling.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } personvernerklæring</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } personvernerklæring</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } brukar { -brand-paypal } for trygg betalingsbehandling.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } personvernerklæring</paypalPrivacyLink>
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernpraksis</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -135,6 +140,7 @@ payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Betal med { -brand-paypal }
 
 ## Component - PlanDetails
 
