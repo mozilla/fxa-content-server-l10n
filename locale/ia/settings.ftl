@@ -208,10 +208,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Celar contrasigno
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Monstrar contrasigno
-input-password-hide-aria = Celar le contrasigno ab le schermo.
-input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Retro
 
@@ -1387,6 +1387,11 @@ signin-totp-code-recovery-code-link = Problemas a inserer le codice?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Codice de authentication requirite
 
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+signin-unblock-header = Autorisar iste apertura de session
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1423,8 +1428,6 @@ signup-change-email-link = Cambiar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Que etate ha tu?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Tu debe inserer tu etate pro inscriber te
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Pro que nos demanda?
