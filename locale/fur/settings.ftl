@@ -1048,6 +1048,7 @@ inline-recovery-continue-button = Continue
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Conferme
 inline-recovery-back-link = Indaûr
+inline-recovery-cancel-setup = Anule configurazion
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Codiç di autenticazion di backup
 inline-recovery-confirmation-description = Par sigurâsi che tu podedis tornâ a cuistâ l’acès al to account, tal câs che tu pierdis il dispositîf, inserìs un dai tiei codiçs di autenticazion di backup che tu âs salvât.
@@ -1058,6 +1059,7 @@ inline-recovery-confirmation-header-default = Conferme il codiç di autenticazio
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferme il codiç di autenticazion di backup <span>par continuâ su { $serviceName }</span>
+inline-recovery-2fa-enabled = Autenticazion in doi passaçs ativade
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1089,6 +1091,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scansione il codiç QR te t
 inline-totp-setup-on-completion-description = Une volte completât, al scomençarà a gjenerâ codiçs di autenticazion di inserî.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Codiç di autenticazion
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Codiç di autenticazion necessari
+tfa-qr-code-alt = Dopre il codiç { $code } par configurâ la autenticazion in doi passaçs tes aplicazions supuartadis.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
