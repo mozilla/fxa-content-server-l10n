@@ -1022,6 +1022,7 @@ inline-recovery-continue-button = 繼續
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = 確認
 inline-recovery-back-link = 返回
+inline-recovery-cancel-setup = 取消設定
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = 備用驗證碼
 inline-recovery-confirmation-description = 為了確保在遺失裝置的情況下能夠正常登入帳號，請輸入任一組先前留存的備用救援碼。
@@ -1032,6 +1033,7 @@ inline-recovery-confirmation-header-default = 確認備用驗證碼<span>即可�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = 確認備用驗證碼<span>即可繼續前往 { $serviceName }</span>
+inline-recovery-2fa-enabled = 已開啟兩階段驗證
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1063,6 +1065,8 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 請在您的驗證器應用
 inline-totp-setup-on-completion-description = 完成後，就會自動開始產生驗證碼讓您登入。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 驗證碼
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = 需要輸入驗證碼
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
