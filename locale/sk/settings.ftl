@@ -1046,6 +1046,7 @@ inline-recovery-continue-button = Pokračovať
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Potvrdiť
 inline-recovery-back-link = Naspäť
+inline-recovery-cancel-setup = Zrušiť nastavenie
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Záložný overovací kód
 inline-recovery-confirmation-description = Aby ste sa uistili, že budete môcť znova získať prístup k svojmu účtu, v prípade straty zariadenia zadajte jeden z uložených záložných overovacích kódov.
@@ -1056,6 +1057,7 @@ inline-recovery-confirmation-header-default = Potvrďte záložný overovací k�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
+inline-recovery-2fa-enabled = Dvojstupňové overenie bolo povolené
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1087,6 +1089,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Naskenujte QR kód vo svoje
 inline-totp-setup-on-completion-description = Po dokončení začne generovať overovacie kódy, ktoré môžete zadať.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Overovací kód
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Vyžaduje sa overovací kód
+tfa-qr-code-alt = Pomocou kódu { $code } nastavte dvojstupňové overenie v podporovaných aplikáciách.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
