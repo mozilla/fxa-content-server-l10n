@@ -1090,7 +1090,7 @@ inline-totp-setup-on-completion-description = Una vez completado, va a generar c
 inline-totp-setup-security-code-placeholder = Código de autenticación
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Código de autenticación requerido
-tfa-qr-code-alt = Usa el código { $code } para configurar la autenticación de dos pasos en las aplicaciones compatibles.
+tfa-qr-code-alt = Usá el código { $code } para configurar la autenticación de dos pasos en las aplicaciones soportadas.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
