@@ -1054,6 +1054,7 @@ inline-recovery-continue-button = Συνέχεια
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Επιβεβαίωση
 inline-recovery-back-link = Πίσω
+inline-recovery-cancel-setup = Ακύρωση ρύθμισης
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Εφεδρικός κωδικός ταυτοποίησης
 inline-recovery-confirmation-description = Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στον λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, παρακαλούμε εισαγάγετε έναν από τους αποθηκευμένους εφεδρικούς κωδικούς ταυτοποίησης.
@@ -1064,6 +1065,7 @@ inline-recovery-confirmation-header-default = Επιβεβαιώστε τον ε
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
+inline-recovery-2fa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1095,6 +1097,8 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Σαρώστε τον κω�
 inline-totp-setup-on-completion-description = Μόλις τελειώσετε, θα αρχίσει η δημιουργία των κωδικών ταυτοποίησής σας.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
