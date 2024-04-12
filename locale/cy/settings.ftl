@@ -1046,6 +1046,7 @@ inline-recovery-continue-button = Parhau
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Cadarnhau
 inline-recovery-back-link = Nôl
+inline-recovery-cancel-setup = Diddymu'r creu
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Cod dilysu wrth gefn
 inline-recovery-confirmation-description = Er mwyn sicrhau y byddwch yn gallu adennill mynediad i'ch cyfrif, os bydd dyfais ar goll, rhowch un o'ch codau dilysu wrth gefn rydych wedi'u cadw.
@@ -1056,6 +1057,7 @@ inline-recovery-confirmation-header-default = Cadarnhewch y cod dilysu wrth gefn
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i { $serviceName }</span>
+inline-recovery-2fa-enabled = Mae dilysu dau gam wedi ei alluogi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1087,6 +1089,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Sganiwch y cod QR yn eich a
 inline-totp-setup-on-completion-description = Unwaith y bydd wedi'i gwblhau, bydd yn dechrau cynhyrchu codau dilysu i chi eu rhoi.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Cod dilysu
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Mae angen cod dilysu
+tfa-qr-code-alt = Defnyddiwch y cod { $code } i sefydlu dilysiad dau gam mewn rhaglenni a gefnogir.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
