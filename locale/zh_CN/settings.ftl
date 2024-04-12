@@ -1034,6 +1034,7 @@ inline-recovery-confirmation-header-default = 确认备用验证码以<span>继�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用 { $serviceName }</span>
+inline-recovery-2fa-enabled = 已启用两步验证
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1065,6 +1066,8 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 请使用您的身份验证
 inline-totp-setup-on-completion-description = 输入完成后，将自动生成供您输入的验证码。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 验证码
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = 请输入验证码
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
