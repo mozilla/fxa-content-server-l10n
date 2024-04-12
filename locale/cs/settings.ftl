@@ -1041,6 +1041,7 @@ inline-recovery-continue-button = Pokračovat
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Potvrdit
 inline-recovery-back-link = Zpět
+inline-recovery-cancel-setup = Zrušit nastavení
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Záložní ověřovací kód
 inline-recovery-confirmation-description = Abyste zajistili, že budete moci znovu získat přístup ke svému účtu, v případě ztráty zařízení zadejte jeden z uložených záložních ověřovacích kódů.
@@ -1051,6 +1052,7 @@ inline-recovery-confirmation-header-default = Potvrďte záložní ověřovací 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložní ověřovací kód a <span>pokračujte do služby { $serviceName }</span>
+inline-recovery-2fa-enabled = Dvoufázové ověřování je zapnuto
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1082,6 +1084,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Naskenujte QR kód ve své 
 inline-totp-setup-on-completion-description = Po dokončení začne generovat ověřovací kódy, které můžete zadat.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Ověřovací kód
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Je vyžadován ověřovací kód
+tfa-qr-code-alt = Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód { $code }.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
