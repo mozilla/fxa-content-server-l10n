@@ -1052,6 +1052,7 @@ inline-recovery-continue-button = Жалғастыру
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Растау
 inline-recovery-back-link = Артқа
+inline-recovery-cancel-setup = Баптаудан бас тарту
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Сақтық аутентификация коды
 inline-recovery-confirmation-description = Құрылғы жоғалған жағдайда тіркелгіңізге қайта кіру мүмкіндігіне ие болу үшін сақталған сақтық аутентификация кодтарының бірін енгізіңіз.
