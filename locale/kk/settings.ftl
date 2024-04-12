@@ -1063,6 +1063,7 @@ inline-recovery-confirmation-header-default = <span>Тіркелгі бапта�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын растаңыз
+inline-recovery-2fa-enabled = Екі қадамды аутентификация іске қосылды
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1094,6 +1095,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Аутентификаци�
 inline-totp-setup-on-completion-description = Аяқтағаннан кейін ол сізге енгізу үшін аутентификация кодтарын жасай бастайды.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Аутентификация коды
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Аутентификация коды керек
+tfa-qr-code-alt = Қолдауы бар қолданбаларда екі қадамды аутентификацияны орнату үшін { $code } кодын пайдаланыңыз.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
