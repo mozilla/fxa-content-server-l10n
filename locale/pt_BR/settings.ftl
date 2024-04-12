@@ -1022,6 +1022,7 @@ inline-recovery-continue-button = Continuar
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Voltar
+inline-recovery-cancel-setup = Cancelar configuração
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Código de autenticação de backup
 inline-recovery-confirmation-description = Para garantir que você poderá recuperar o acesso à sua conta, no caso de perda de um dispositivo, digite um dos seus códigos de autenticação de backup salvos.
@@ -1032,6 +1033,7 @@ inline-recovery-confirmation-header-default = Confirme o código de autenticaç�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirme o código de autenticação de backup <span>para continuar para o { $serviceName }</span>
+inline-recovery-2fa-enabled = Autenticação em duas etapas ativada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1063,6 +1065,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Capture o código QR em seu
 inline-totp-setup-on-completion-description = Após concluir, ele começa a gerar códigos de autenticação para você digitar.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticação
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Necessário código de autenticação
+tfa-qr-code-alt = Use o código { $secret } para configurar a autenticação em duas etapas em aplicativos suportados.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
