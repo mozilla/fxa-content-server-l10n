@@ -1045,6 +1045,7 @@ inline-recovery-continue-button = Weiter
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Bestätigen
 inline-recovery-back-link = Zurück
+inline-recovery-cancel-setup = Einrichtung abbrechen
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Sicherungs-Authentifizierungscode
 inline-recovery-confirmation-description = Geben Sie einen Ihrer gespeicherten Sicherungs-Authentifizierungscodes ein, um sicherzustellen, dass Sie im Falle eines verlorenen Geräts wieder auf Ihr Konto zugreifen können.
@@ -1055,6 +1056,7 @@ inline-recovery-confirmation-header-default = Bestätigen Sie den Sie Sicherungs
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bestätigen Sie den Sicherungs-Authentifizierungscode, <span>um mit { $serviceName } fortzufahren</span>
+inline-recovery-2fa-enabled = Zwei-Schritt-Authentifizierung aktiviert
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1086,6 +1088,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scannen Sie den QR-Code in 
 inline-totp-setup-on-completion-description = Sobald der Vorgang abgeschlossen ist, werden Authentifizierungscodes generiert, die Sie eingeben können.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Authentifizierungscode
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Authentifizierungscode erforderlich
+tfa-qr-code-alt = Verwenden Sie den Code { $code } zum Einrichten der Zwei-Schritt-Authentifizierung in unterstützten Anwendungen.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
