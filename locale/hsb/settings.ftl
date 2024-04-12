@@ -1048,6 +1048,7 @@ inline-recovery-continue-button = Dale
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Wobkrućić
 inline-recovery-back-link = Wróćo
+inline-recovery-cancel-setup = Instalaciju přetorhnyć
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Awtentifikaciski kod zawěsćić
 inline-recovery-confirmation-description = Zo byšće zaso přistup k swojemu kontu dóstał, jeli sće swój grat zhubił, zapodajće prošu jedyn ze swojich kodow za zawěsćensku awtentifikaciju.
@@ -1058,6 +1059,7 @@ inline-recovery-confirmation-header-default = Wobkrućće awtentifikaciski kod z
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
+inline-recovery-2fa-enabled = Dwukročelowa awtentifikacija zmóžnjena
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1089,6 +1091,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skenujće QR-kod w swojim a
 inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Awtentifikaciski kod
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Awtentifikaciski kod trěbny
+tfa-qr-code-alt = Wužiwajće kod { $code }, zo byšće dwukročelowu awtentifikaciju w podpěranych nałoženjach připrawił.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
