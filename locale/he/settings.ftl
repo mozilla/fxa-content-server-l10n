@@ -980,6 +980,7 @@ inline-recovery-continue-button = המשך
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = אישור
 inline-recovery-back-link = חזרה
+inline-recovery-2fa-enabled = אימות דו־שלבי הופעל
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1011,6 +1012,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = יש לסרוק את קוד
 inline-totp-setup-on-completion-description = לאחר סיום התהליך, היישומון יתחיל לייצר עבורך קודי אימות שיהיו באפשרותך להזין.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = קוד אימות
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = נדרש קוד אימות
+tfa-qr-code-alt = ניתן להשתמש בקוד { $code } כדי להגדיר אימות דו־שלבי ביישומים נתמכים.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
