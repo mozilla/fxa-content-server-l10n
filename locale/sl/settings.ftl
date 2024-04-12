@@ -1048,6 +1048,7 @@ inline-recovery-continue-button = Nadaljuj
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Potrdi
 inline-recovery-back-link = Nazaj
+inline-recovery-cancel-setup = Ne nastavi
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Rezervna overitvena koda
 inline-recovery-confirmation-description = Vnesite eno od shranjenih rezervnih overitvenih kod, da si zagotovite ponoven dostop do svojega računa v primeru izgube naprave.
@@ -1058,6 +1059,7 @@ inline-recovery-confirmation-header-default = Potrdite rezervno overitveno kodo 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potrdite rezervno overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
+inline-recovery-2fa-enabled = Overitev v dveh korakih je omogočena
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1089,6 +1091,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skenirajte kodo QR v svoji 
 inline-totp-setup-on-completion-description = Ko bo končano, bo začelo ustvarjati overitvene kode, ki jih lahko vnesete.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Overitvena koda
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Zahtevana je overitvena koda
+tfa-qr-code-alt = Uporabite kodo { $code } za nastavitev dvostopenjskega preverjanja pristnosti v podprtih aplikacijah.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
