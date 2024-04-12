@@ -1048,6 +1048,7 @@ inline-recovery-continue-button = Продолжить
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Подтвердить
 inline-recovery-back-link = Назад
+inline-recovery-cancel-setup = Отменить настройку
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Резервный код аутентификации
 inline-recovery-confirmation-description = Чтобы убедиться, что вы сможете восстановить доступ к своему аккаунту в случае утери устройства, введите один из сохранённых резервных кодов аутентификации.
@@ -1058,6 +1059,7 @@ inline-recovery-confirmation-header-default = Подтвердите резер�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Подтвердите резервный код аутентификации <span>для перехода к { $serviceName }</span>
+inline-recovery-2fa-enabled = Двухэтапная аутентификация включена
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1089,6 +1091,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Отсканируйте QR
 inline-totp-setup-on-completion-description = По завершении оно начнёт генерировать коды аутентификации, которые вы сможете ввести.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Код аутентификации
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Требуется код аутентификации
+tfa-qr-code-alt = Используйте код { $code } для настройки двухэтапной аутентификации в поддерживаемых приложениях.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
