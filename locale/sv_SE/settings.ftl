@@ -1054,6 +1054,7 @@ inline-recovery-continue-button = Fortsätt
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Bekräfta
 inline-recovery-back-link = Tillbaka
+inline-recovery-cancel-setup = Avbryt konfiguration
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reservautentiseringskod
 inline-recovery-confirmation-description = För att säkerställa att du kommer att kunna återfå åtkomst till ditt konto, i händelse av en borttappad enhet, vänligen ange en av dina sparade reservautentiseringskoder.
@@ -1064,6 +1065,7 @@ inline-recovery-confirmation-header-default = Bekräfta reservautentiseringskode
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekräfta reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
+inline-recovery-2fa-enabled = Tvåstegsautentisering aktiverad
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1095,6 +1097,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skanna QR-koden i din auten
 inline-totp-setup-on-completion-description = När den är klar kommer den att börja generera autentiseringskoder som du kan ange.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskod
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Autentiseringskod krävs
+tfa-qr-code-alt = Använd koden { $code } för att ställa in tvåstegsautentisering i applikationer som stöds.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
