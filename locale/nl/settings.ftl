@@ -1052,6 +1052,7 @@ inline-recovery-continue-button = Doorgaan
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Bevestigen
 inline-recovery-back-link = Terug
+inline-recovery-cancel-setup = Configuratie annuleren
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-authenticatiecode
 inline-recovery-confirmation-description = Voer in geval van een verloren apparaat een van uw opgeslagen reserve-authenticatiecodes in, om ervoor te zorgen dat u weer toegang kunt krijgen tot uw account.
@@ -1062,6 +1063,7 @@ inline-recovery-confirmation-header-default = Bevestig uw reserve-authenticatiec
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bevestig uw reserve-authenticatiecode <span>om door te gaan naar { $serviceName }</span>
+inline-recovery-2fa-enabled = Authenticatie in twee stappen ingeschakeld
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1093,6 +1095,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scan de QR-code in uw authe
 inline-totp-setup-on-completion-description = Na voltooiing worden authenticatiecodes voor u gegenereerd die u kunt invoeren.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Authenticatiecode
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Authenticatiecode vereist
+tfa-qr-code-alt = Gebruik de code { $code } om authenticatie in twee stappen in ondersteunde toepassingen in te schakelen.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
