@@ -239,6 +239,8 @@ downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonan
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account }-en din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
+fraudulentAccountDeletion-content-part1-v2 = Nyleg vart ein { -product-mozilla-account } oppretta og eit abonnement vart belasta med denne e-postadressa. Som vi gjer med alle nye kontoar, ba vi deg stadfeste kontoen din ved først å validere denne e-postadressa.
+fraudulentAccountDeletion-content-part2-v2 = Førebels ser vi at kontoen aldri vart stadfesta. Sidan dette steget ikkje vart fullført, er vi ikkje sikre på om dette var eit autorisert abonnement. Som eit resultat vart { -product-mozilla-account } registrert på denne e-postadressa sletta og abonnementet ditt vart avslutta med alle kostnadar refunderte.
 fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -273,6 +275,7 @@ newDeviceLogin-change-password-plain = Ikkje deg? Endre passordet ditt:
 newDeviceLogin-action = Handsam kontoen
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endra
+passwordChanged-description-2 = Passordet til { -product-mozilla-account }-en din vart endra frå følgjande eining:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaga
 passwordChangeRequired-title = Passordendring påkravd
 passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
