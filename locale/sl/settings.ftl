@@ -1093,7 +1093,7 @@ inline-totp-setup-on-completion-description = Ko bo končano, bo začelo ustvarj
 inline-totp-setup-security-code-placeholder = Overitvena koda
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Zahtevana je overitvena koda
-tfa-qr-code-alt = Uporabite kodo { $code } za nastavitev dvostopenjskega preverjanja pristnosti v podprtih aplikacijah.
+tfa-qr-code-alt = S pomočjo kode { $code } nastavite dvostopenjsko overjanje v podprtih aplikacijah.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
