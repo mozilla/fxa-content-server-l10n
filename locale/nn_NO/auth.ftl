@@ -302,6 +302,9 @@ postAddAccountRecovery-body-part1 = Lagre denne nøkkelen på ein trygg stad —
 postAddAccountRecovery-body-part2 = Denne nøkkelen kan berre brukast éin gong. Etter at du har brukt han, opprettar vi automatisk ein ny for deg. Eller du kan opprette ein ny når som helst frå kontoinnstillingane dine.
 postAddAccountRecovery-action = Handsam kontoen
 postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
 postAddTwoStepAuthentication-subject-2 = Tostegs-godkjenning er slått på
 postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
