@@ -1024,6 +1024,7 @@ inline-recovery-continue-button = 继续
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = 确认
 inline-recovery-back-link = 上一步
+inline-recovery-cancel-setup = 取消设置
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = 备用验证码
 inline-recovery-confirmation-description = 为确保您在设备丢失的情况下仍能登录您的账号，请输入此前保存的备用验证码中的任意一个。
