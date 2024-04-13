@@ -1069,6 +1069,7 @@ inline-totp-setup-on-completion-description = 输入完成后，将自动生成�
 inline-totp-setup-security-code-placeholder = 验证码
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = 请输入验证码
+tfa-qr-code-alt = 使用安全码 { $code } 在支持的应用程序中设置两步验证。
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
