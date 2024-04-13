@@ -278,6 +278,8 @@ passwordChanged-title = Passordet er endra
 passwordChanged-description-2 = Passordet til { -product-mozilla-account }-en din vart endra frå følgjande eining:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaga
 passwordChangeRequired-title = Passordendring påkravd
+passwordChangeRequired-suspicious-activity-2 = Vi oppdaga mistenkeleg oppførsel på { -product-mozilla-account }-en din. For å hindre uautorisert tilgang til { -product-mozilla-account }-en din, har vi kopla frå alle einingane på kontoen og krev at du endrar passordet ditt som eit førebyggjande tiltak.
+passwordChangeRequired-sign-in-2 = Logg deg tilbake på kva som helst eining eller teneste der du brukar { -product-mozilla-account }-en din, og følg stega som vil bli presenterte for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordReset-subject = Passord oppdatert
@@ -294,7 +296,12 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på 
 passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
 postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel oppretta
 postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Lagre denne nøkkelen på ein trygg stad — du treng han for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Denne nøkkelen kan berre brukast éin gong. Etter at du har brukt han, opprettar vi automatisk ein ny for deg. Eller du kan opprette ein ny når som helst frå kontoinnstillingane dine.
 postAddAccountRecovery-action = Handsam kontoen
+postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 postAddLinkedAccount-action = Handsam kontoen
 postAddTwoStepAuthentication-subject-2 = Tostegs-godkjenning er slått på
 postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
