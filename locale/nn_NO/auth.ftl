@@ -26,6 +26,9 @@ subplat-explainer-specific-2 = DU får denne e-posten fordi { $email } har ein {
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Du får denne e-posten fordi { $email } har ein { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Du får denne e-postmeldinga fordi { $email } har ein { -product-mozilla-account } og du har abonnert på fleire produkt.
+subplat-explainer-was-deleted-2 = Du får denne e-postmeldinga fordi { $email } vart brukt til å registrere ein { -product-mozilla-account }.
+subplat-manage-account-2 = Handsam innstillingane for { -product-mozilla-account } ved å gå til <a data-l10n-name="subplat-account-page">kontosida</a>.
 subplat-terms-policy = Vilkår og avbestillingsreglar
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt abonnement
