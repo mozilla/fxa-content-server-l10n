@@ -29,6 +29,9 @@ subplat-explainer-reminder-form-2 = Du får denne e-posten fordi { $email } har 
 subplat-explainer-multiple-2 = Du får denne e-postmeldinga fordi { $email } har ein { -product-mozilla-account } og du har abonnert på fleire produkt.
 subplat-explainer-was-deleted-2 = Du får denne e-postmeldinga fordi { $email } vart brukt til å registrere ein { -product-mozilla-account }.
 subplat-manage-account-2 = Handsam innstillingane for { -product-mozilla-account } ved å gå til <a data-l10n-name="subplat-account-page">kontosida</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Handsam innstillingane for { -product-mozilla-account } ved å gå til kontosida di: { $accountSettingsUrl }
 subplat-terms-policy = Vilkår og avbestillingsreglar
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt abonnement
@@ -37,6 +40,7 @@ subplat-reactivate = Reaktiver abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-privacy-policy = { -brand-mozilla }s personvernpraksis
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = Tenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
@@ -80,10 +84,36 @@ automated-email-not-authorized-plaintext = Denne e-posten vart sendt automatisk;
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Denne førespurnaden kom frå { $uaBrowser } på { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Denne førespurnaden kom frå { $uaBrowser } på { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 automatedEmailRecoveryKey-origin-device-browser-only = Denne førespurnaden kom frå { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Denne førespurnaden kom frå { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Denne førespurnaden kom frå { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Viss dette ikkje var deg, <a data-l10n-name="revokeAccountRecoveryLink">slett den nye nøkkelen</a> og <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>.
+automatedEmailRecoveryKey-change-pwd-only = Viss dette ikkje var deg, <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>.
 automatedEmailRecoveryKey-more-info = Gå til <a data-l10n-name="supportLink">{ -brand-mozilla } brukarstøtte</a> for meir informasjon.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Denne førspurnaden kom frå:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Viss dette ikkje var deg, slett den nye nøkkelen:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Viss dette ikkje var deg, endre passordet ditt:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = og endre passordet ditt:
@@ -95,6 +125,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Om du ikkje endra det, tilbakestill passordet ditt no på { $resetLink }
+brand-banner-message = Visste du at vi endra namnet vårt frå { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les meir</a>
 cancellationSurvey = Hjelp oss med å forbetre tenestene våre ved å vere med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkinga</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbetre tenestene våre ved å vere med i denne korte undersøkinga:
@@ -192,6 +223,7 @@ cadReminderFirst-action = Synkroniser ei anna eining
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det må to til for å synkronisere
+cadReminderFirst-description-v2 = Sjå fanene dine på alle einingane dine. Få tilgang til bokmerka, passorda og andre data overalt der du brukar { -brand-firefox }.
 cadReminderSecond-subject-2 = Ikkje gå glipp av det! La oss fullføre synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser ei anna eining
 cadReminderSecond-title-2 = Ikkje gløym å synkronisere!
