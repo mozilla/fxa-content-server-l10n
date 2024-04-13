@@ -1050,6 +1050,7 @@ inline-recovery-continue-button = Tiếp tục
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Xác nhận
 inline-recovery-back-link = Quay lại
+inline-recovery-cancel-setup = Hủy thiết lập
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Mã xác thực dự phòng
 inline-recovery-confirmation-description = Để đảm bảo rằng bạn có thể lấy lại quyền truy cập vào tài khoản của mình, trong trường hợp đã mất thiết bị, vui lòng nhập một trong các mã xác thực dự phòng đã lưu của bạn.
@@ -1060,6 +1061,7 @@ inline-recovery-confirmation-header-default = Xác nhận mã xác thực dự p
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Xác nhận mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
+inline-recovery-2fa-enabled = Đã bật xác thực hai bước
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1091,6 +1093,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Quét mã QR trong ứng d�
 inline-totp-setup-on-completion-description = Sau khi hoàn tất, nó sẽ bắt đầu tạo mã xác thực để bạn nhập.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Mã xác thực
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Yêu cầu mã xác thực
+tfa-qr-code-alt = Sử dụng mã { $code } để thiết lập xác thực hai bước trong các ứng dụng được hỗ trợ.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
