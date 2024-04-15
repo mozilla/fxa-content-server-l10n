@@ -162,6 +162,9 @@ form-reset-password-with-balloon-submit-button = Reinitialisar le contrasigno
 form-reset-password-with-balloon-match-error = Le contrasignos non concorda
 form-password-sr-too-short-message = Le contrasigno debe continer al minus 8 characteres.
 form-password-sr-not-email-message = Le contrasigno non debe continer tu adresse email.
+form-password-sr-not-common-message = Le contrasigno debe esser communmente usate.
+form-password-sr-requirements-met = Le contrasigno inserite respecta tote le requisitos.
+form-password-sr-passwords-match = Le contrasignos inserite concorda.
 
 ## FormVerifyCode
 
@@ -214,6 +217,14 @@ lightbulb-aria-label =
 input-password-hide = Celar contrasigno
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Monstrar contrasigno
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Tu contrasigno es actualmente visibile sur le schermo.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Tu contrasigno es actualmente celate.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Tu contrasigno es ora visibile sur le schermo.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Tu contrasigno es ora celate.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Retro
 
@@ -969,6 +980,8 @@ auth-error-1003 = Immagazinage e cookies local es ancora disactivate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 auth-error-1010 = Un contrasigno valide es necessari
 auth-error-1011 = Il es necessari un adresse email valide
+auth-error-1031 = Tu debe inserer tu etate pro inscriber te
+auth-error-1032 = Tu debe inserer un etate valide pro inscriber te
 auth-error-1062 = Redirection non valide
 
 ## Cannot Create Account page
@@ -1037,6 +1050,7 @@ inline-recovery-continue-button = Continuar
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Retro
+inline-recovery-cancel-setup = Cancellar configuration
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Codice de authentication de salvamento
 inline-recovery-confirmation-description = Pro permitter que tu potera reganiar accesso a tu conto, in caso de un apparato perdite, insere un de tu codices de authentication de salvamento salvate.
@@ -1047,6 +1061,7 @@ inline-recovery-confirmation-header-default = Confirma le codice authentication 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirma le codice authentication del salvamento <span>pro continuar a { $serviceName }</span>
+inline-recovery-2fa-enabled = Authentication a duo passos activate
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1078,6 +1093,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scande le codice QR in tu a
 inline-totp-setup-on-completion-description = Un vice complete, illo comenciara a generar codices de authentication que tu pote inserer.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Codices de authentication
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Codice de authentication requirite
+tfa-qr-code-alt = Usa le codice { $code } pro configurar le authentication a duo passos in applicationes que lo supporta.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
