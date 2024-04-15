@@ -1033,6 +1033,7 @@ inline-recovery-continue-button = Devam
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Onayla
 inline-recovery-back-link = Geri
+inline-recovery-cancel-setup = Kurulumu iptal et
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Yedek kimlik doğrulama kodu
 inline-recovery-confirmation-description = Cihazınız kaybolursa hesabınıza tekrar erişebileceğinizden emin olmak için lütfen kaydettiğiniz yedek kimlik doğrulama kodlarınızdan birini girin.
@@ -1043,6 +1044,7 @@ inline-recovery-confirmation-header-default = <span>Hesap ayarlarına devam etme
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
+inline-recovery-2fa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1074,6 +1076,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Kimlik doğrulama uygulaman
 inline-totp-setup-on-completion-description = İşlem tamamlandığında kimlik doğrulama kodları oluşturulmaya başlanacaktır.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Kimlik doğrulama kodu gerekli
+tfa-qr-code-alt = Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak için { $code } kodunu kullanın.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
