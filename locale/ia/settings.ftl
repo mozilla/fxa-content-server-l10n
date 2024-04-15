@@ -160,6 +160,8 @@ form-reset-password-with-balloon-confirm-password =
     .label = Reinsere le contrasigno
 form-reset-password-with-balloon-submit-button = Reinitialisar le contrasigno
 form-reset-password-with-balloon-match-error = Le contrasignos non concorda
+form-password-sr-too-short-message = Le contrasigno debe continer al minus 8 characteres.
+form-password-sr-not-email-message = Le contrasigno non debe continer tu adresse email.
 
 ## FormVerifyCode
 
