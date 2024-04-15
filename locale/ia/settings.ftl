@@ -1302,6 +1302,7 @@ validating-signin = Validation del accesso…
 complete-signin-error-header = Error de confirmation
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Ligamine de confirmation expirate
+signin-link-expired-message-2 = Le ligamine que tu cliccava ha expirate o ha jam essite usate.
 
 ## Signin page
 
@@ -1411,6 +1412,16 @@ signin-totp-code-required-error = Codice de authentication requirite
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Autorisar iste apertura de session
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Controla tu e-mail pro le codice de autorisation inviate a { $email }.
+signin-unblock-code-input = Insere le codice de autorisation
+signin-unblock-submit-button = Continuar
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Es necessari un codice de autorisation
+signin-unblock-code-incorrect-length = Le codice de autorisation debe continer 8 characteres
+signin-unblock-code-incorrect-format-2 = Le codice de autorisation solo pote continer litteras o numeros
+signin-unblock-resend-code-button = Non in le cassa de entrata, ni in le plica SPAM? Reinviar
+signin-unblock-support-link = Perque isto eveni?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
