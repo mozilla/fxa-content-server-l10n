@@ -939,6 +939,8 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu Ñemigua</pocketPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Mba’epytyvõrã ñemboguata</mozSubscriptionTosLink> ha <mozSubscriptionPrivacyLink>Marandu’i ñemigua</mozSubscriptionPrivacyLink> { -brand-mozilla } mba’eporurã mboheraguapyrã
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu’i ñemigua</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
@@ -1050,6 +1052,7 @@ inline-recovery-continue-button = Ku’ejey
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Moneĩ
 inline-recovery-back-link = Tapykue
+inline-recovery-cancel-setup = Eheja ñemboheko
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Ayvu ñemoneĩrã jeykekoha
 inline-recovery-confirmation-description = Eikekuaajey hag̃ua ne mba’etépe okañýramo ndehegui peteĩ mba’e’oka, emoinge peteĩva umi ayvu jeguerujeyrã jeykekogua ñongatupyre.
@@ -1060,6 +1063,7 @@ inline-recovery-confirmation-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoh
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Erujey ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
+inline-recovery-2fa-enabled = Ijurujáma mokõi jeku’épe ñemoneĩ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1091,6 +1095,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Emoha’ãnga QR ayvu ñemo
 inline-totp-setup-on-completion-description = Emoĩmba vove, oñepyrũta omoheñóifta ayvu rekorosãrã eikekuaa hag̃ua.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Ayvu ñemoneĩgua jerurepyre
+tfa-qr-code-alt = Eiporu { $code } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe tembiporu’i moneĩmbyre.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
