@@ -1051,6 +1051,7 @@ inline-recovery-continue-button = Fortsæt
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Bekræft
 inline-recovery-back-link = Tilbage
+inline-recovery-cancel-setup = Annuller opsætning
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-godkendelseskode
 inline-recovery-confirmation-description = Indtast en af dine gemte reserve-godkendelseskoder for at sikre, at du kan få adgang til din konto igen, hvis du mister en enhed.
@@ -1061,6 +1062,7 @@ inline-recovery-confirmation-header-default = Bekræft reserve-godkendelseskode 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekræft reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
+inline-recovery-2fa-enabled = Totrinsgodkendelse aktiveret
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1092,6 +1094,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skan QR-koden i din godkend
 inline-totp-setup-on-completion-description = Når processen er afsluttet, oprettes godkendelseskoder, som du kan indtaste.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Godkendelseskode
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Godkendelseskode påkrævet
+tfa-qr-code-alt = Brug koden { $code } til at opsætte totrinsgodkendelse i understøttede applikationer.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
