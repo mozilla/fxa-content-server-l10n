@@ -1046,7 +1046,7 @@ inline-recovery-continue-button = Parhau
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Cadarnhau
 inline-recovery-back-link = Nôl
-inline-recovery-cancel-setup = Diddymu'r creu
+inline-recovery-cancel-setup = Diddymu'r gosod
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Cod dilysu wrth gefn
 inline-recovery-confirmation-description = Er mwyn sicrhau y byddwch yn gallu adennill mynediad i'ch cyfrif, os bydd dyfais ar goll, rhowch un o'ch codau dilysu wrth gefn rydych wedi'u cadw.
@@ -1091,7 +1091,7 @@ inline-totp-setup-on-completion-description = Unwaith y bydd wedi'i gwblhau, byd
 inline-totp-setup-security-code-placeholder = Cod dilysu
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Mae angen cod dilysu
-tfa-qr-code-alt = Defnyddiwch y cod { $code } i sefydlu dilysiad dau gam mewn rhaglenni a gefnogir.
+tfa-qr-code-alt = Defnyddiwch y cod { $code } i osod dilysiad dau gam mewn rhaglenni sy'n ei gefnogi.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
