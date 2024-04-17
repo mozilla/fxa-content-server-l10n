@@ -304,7 +304,7 @@ postAddAccountRecovery-action = Behandle konto
 postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title-2 = Din { $providerName }-konto er koblet til { -product-mozilla-account } din
+postAddLinkedAccount-title-2 = { $providerName }-kontoen er koblet til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Behandle konto
 postAddTwoStepAuthentication-subject-2 = Totrinns-verifisering er slått på
 postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
