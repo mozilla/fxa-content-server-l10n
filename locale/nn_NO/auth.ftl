@@ -339,6 +339,7 @@ postNewRecoveryCodes-description-2 = Dei vart oppretta på:
 postNewRecoveryCodes-action = Handsam kontoen
 postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
 postRemoveAccountRecovery-title-3 = Du sletta kontogjenopprettingsnøkkelen din
+postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din er påkravd for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
 postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
