@@ -313,9 +313,15 @@ postAddTwoStepAuthentication-from-device = Du har aktivert det frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postAddTwoStepAuthentication-code-required-2 = Sikkerheitskoder frå autentiseringsappen din er no påkravd no kvar gong du loggar inn.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
+postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen
+postChangeAccountRecovery-body-part1 = Du har no ein ny kontogjenopprettingsnøkkel. Den førre nøkkelen din vart sletta.
+postChangeAccountRecovery-body-part2 = Lagre denne nye nøkkelen på ein trygg stad — du treng han for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
 postChangeAccountRecovery-action = Handsam kontoen
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Du har endra den primære e-postadressa di til { $email }. Denne adressa nyttar du som brukarnamn for å logge inn på { -product-mozilla-account }-en din, i tillegg til å ta imot sikkerheitsvarsel og stadfestingar på innloggingar.
 postChangePrimary-action = Handsam kontoen
 postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -332,6 +338,7 @@ postNewRecoveryCodes-title-2 = Du oppretta nye reserve-godkjenningskodar
 postNewRecoveryCodes-description-2 = Dei vart oppretta på:
 postNewRecoveryCodes-action = Handsam kontoen
 postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
+postRemoveAccountRecovery-title-3 = Du sletta kontogjenopprettingsnøkkelen din
 postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
