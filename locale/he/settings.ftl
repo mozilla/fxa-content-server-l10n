@@ -982,6 +982,7 @@ inline-recovery-continue-button = המשך
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = אישור
 inline-recovery-back-link = חזרה
+inline-recovery-cancel-setup = ביטול ההגדרה
 inline-recovery-2fa-enabled = אימות דו־שלבי הופעל
 
 ## InlineTotpSetup page
