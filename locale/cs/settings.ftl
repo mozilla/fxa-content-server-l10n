@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Hlavní adresa už byla ověřena
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Přihlášení už bylo potvrzeno
 confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze jednou a tento už byl použit.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Špatný požadavek
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -974,6 +976,7 @@ auth-error-1011 = Je požadován platný e-mail
 auth-error-1031 = Pro registraci musíte zadat svůj věk
 auth-error-1032 = Pro registraci musíte zadat platný věk
 auth-error-1062 = Neplatné přesměrování
+oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
