@@ -262,6 +262,8 @@ primary-email-confirmation-link-reused = כתובת הדוא״ל הראשית כ
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ההתחברות כבר אושרה
 confirmation-link-reused-message = נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = בקשה שגויה
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
