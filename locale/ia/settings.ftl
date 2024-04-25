@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Email primari ja confirmate
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Session ja confirmate
 confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Mal requesta
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -983,6 +985,7 @@ auth-error-1011 = Il es necessari un adresse email valide
 auth-error-1031 = Tu debe inserer tu etate pro inscriber te
 auth-error-1032 = Tu debe inserer un etate valide pro inscriber te
 auth-error-1062 = Redirection non valide
+oauth-error-1000 = Un error ha occurrite. Per favor claude iste scheda e retenta.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
