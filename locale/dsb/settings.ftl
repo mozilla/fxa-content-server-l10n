@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Primarna e-mailowa adresa jo južo wok�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Pśizjawjenje jo se južo wobkšuśiło
 confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jaden raz wužywaś.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Špatne napšašowanje
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -979,6 +981,7 @@ auth-error-1011 = Płaśiwa e-mailowa adresa trěbna
 auth-error-1031 = Musyśo swójo starstwo zapódaś, aby se registrěrował
 auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
+oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtark a wopytajśo hyšći raz.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
