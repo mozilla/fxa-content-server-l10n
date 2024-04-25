@@ -1051,6 +1051,7 @@ inline-recovery-continue-button = Jatka
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Vahvista
 inline-recovery-back-link = Takaisin
+inline-recovery-cancel-setup = Peruuta käyttöönotto
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Varatodennuskoodi
 inline-recovery-confirmation-description = Varmistaaksesi pääsyn tilillesi, jos laite esimerkiksi katoaa tai rikkoutuu, syötä yksi tallentamistasi varatodennuskoodeista.
@@ -1061,6 +1062,7 @@ inline-recovery-confirmation-header-default = Vahvista varatodennuskoodi <span>j
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Vahvista varatodennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
+inline-recovery-2fa-enabled = Kaksivaiheinen todennus käytössä
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1092,6 +1094,8 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skannaa QR-koodi todennusso
 inline-totp-setup-on-completion-description = Määrityksen valmistuttua sovellus tuottaa kirjautumisen yhteydessä tarvittavia todennuskoodeja.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Toodennuskoodi
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Todennuskoodi vaaditaan
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
