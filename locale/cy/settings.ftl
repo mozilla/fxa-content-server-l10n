@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Mae'r prif e-bost wedi ei ddilysu eisoe
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Mae'r mewngofnod eisoes wedi ei gadarnhau
 confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Cais Gwael
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -979,6 +981,7 @@ auth-error-1011 = Mae angen e-bost dilys
 auth-error-1031 = Mae'n rhaid i chi roi eich oed er mwyn cofrestru
 auth-error-1032 = Rhaid rhoi oed dilys er mwyn cofrestru
 auth-error-1062 = Ailgyfeirio annilys
+oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
