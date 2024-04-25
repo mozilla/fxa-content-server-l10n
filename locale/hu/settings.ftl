@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett er�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
 confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Hibás kérés
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -987,6 +989,7 @@ auth-error-1011 = Érvényes e-mail-cím szükséges
 auth-error-1031 = A regisztrációhoz meg kell adnia az életkorát
 auth-error-1032 = A regisztrációhoz érvényes életkort kell megadnia
 auth-error-1062 = Érvénytelen átirányítás
+oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
