@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Correo electrónico principal ya fue co
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inicio de sesión ya confirmado
 confirmation-link-reused-message = Ese enlace de confirmación ya fue utilizado y se puede usar una sola vez.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Solicitud errónea
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -978,6 +980,7 @@ auth-error-1011 = Se requiere una dirección de correo electrónico válida
 auth-error-1031 = Tenés que ingresar tu edad para registrarte
 auth-error-1032 = Tenés que ingresar una edad válida para registrarte
 auth-error-1062 = Redirección inválida
+oauth-error-1000 = Algo no funcionó. Cerrá esta pestaña y probá de nuevo.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
