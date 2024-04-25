@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Glavni e-poštni naslov je že potrjen
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je že potrjena
 confirmation-link-reused-message = Ta potrditvena povezava je bila že uporabljena, uporabiti pa jo je mogoče le enkrat.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Napačna zahteva
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -981,6 +983,7 @@ auth-error-1011 = Zahtevan je veljaven e-poštni naslov
 auth-error-1031 = Za registracijo morate vnesti svojo starost
 auth-error-1032 = Za registracijo morate vnesti veljavno starost
 auth-error-1062 = Neveljavna preusmeritev
+oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
