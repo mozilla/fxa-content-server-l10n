@@ -289,6 +289,9 @@ signin-confirmation-link-reused = Sign-in already confirmed
 
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
 
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Bad Request
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -1023,6 +1026,8 @@ auth-error-1011 = Valid email required
 auth-error-1031 = You must enter your age to sign up
 auth-error-1032 = You must enter a valid age to sign up
 auth-error-1062 = Invalid redirect
+
+oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
