@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Primêr e-mailadres al befêstige
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Oanmelding is al befêstige
 confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Unjildige oanfraach
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -989,6 +991,7 @@ auth-error-1011 = Jildich e-mailadres fereaske
 auth-error-1031 = Jo moatte jo leeftiid ynfiere om te registrearjen
 auth-error-1032 = Jo moatte in jildige leeftiid ynfiere om te registrearjen
 auth-error-1062 = Unjildige trochferwizing
+oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
