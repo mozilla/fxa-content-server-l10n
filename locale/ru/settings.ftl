@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Основная электронная
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вход уже подтверждён
 confirmation-link-reused-message = Эта ссылка для подтверждения уже была использована, и может использоваться только один раз.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Неверный запрос
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -981,6 +983,7 @@ auth-error-1011 = Введите действующий адрес электр�
 auth-error-1031 = Вы должны ввести свой возраст, чтобы зарегистрироваться
 auth-error-1032 = Для регистрации вы должны ввести корректный возраст
 auth-error-1062 = Некорректное перенаправление
+oauth-error-1000 = Что-то пошло не так. Пожалуйста, закройте эту вкладку и попробуйте ещё раз.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
