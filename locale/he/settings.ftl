@@ -495,6 +495,9 @@ header-help = עזרה
 la-heading = חשבונות מקושרים
 la-description = יש לך גישה מורשית לחשבונות הבאים.
 la-set-password-button = הגדרת ססמה
+la-unlink-heading = ביטול קישור מחשבון צד שלישי
+la-unlink-content-3 = האם ברצונך לבטל את קישור החשבון שלך? ביטול קישור החשבון שלך אינו מנתק אותך אוטומטית מהשירותים המחוברים שלך. כדי לעשות זאת, יהיה עליך להתנתק באופן ידני מאזור 'שירותים מחוברים'.
+la-unlink-content-4 = לפני ביטול קישור החשבון שלך, עליך להגדיר ססמה. ללא ססמה, לא יהיה באפשרותך להיכנס לאחר ביטול קישור החשבון שלך.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
