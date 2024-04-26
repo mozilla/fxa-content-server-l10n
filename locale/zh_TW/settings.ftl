@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = 主要電子郵件地址已經驗證過
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 已確認過此次登入
 confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被使用過了。
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = 請求錯誤
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -955,6 +957,7 @@ auth-error-1011 = 請輸入有效的電子郵件信箱
 auth-error-1031 = 您必須輸入年齡才能註冊
 auth-error-1032 = 您必須輸入有效年齡才能註冊
 auth-error-1062 = 重導無效
+oauth-error-1000 = 有些東西不對勁，請關閉此分頁再試一次。
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
