@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Primair e-mailadres al bevestigd
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Aanmelding is al bevestigd
 confirmation-link-reused-message = Die bevestigingskoppeling is al gebruikt, en kan maar één keer worden gebruikt.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Ongeldige aanvraag
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -985,6 +987,7 @@ auth-error-1011 = Geldig e-mailadres vereist
 auth-error-1031 = U moet uw leeftijd invoeren om te registreren
 auth-error-1032 = U moet een geldige leeftijd invoeren om te registreren
 auth-error-1062 = Ongeldige omleiding
+oauth-error-1000 = Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
