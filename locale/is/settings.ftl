@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Aðallykilorð hefur þegar verið sta�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innskráning hefur þegar verið staðfest
 confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Röng beiðni
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -979,6 +981,7 @@ auth-error-1011 = Krafist er gilds tölvupóstfangs
 auth-error-1031 = Þú verður að setja inn aldur þinn til að geta nýskráð þig
 auth-error-1032 = Þú verður að setja inn gildan aldur til að geta nýskráð þig
 auth-error-1062 = Ógild endurbeining
+oauth-error-1000 = Eitthvað fór úrskeiðis. Lokaðu þessum flipa og prófaðu aftur.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
