@@ -133,6 +133,7 @@ payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Xelleṣ { -brand-paypal }
 
 ## Component - PlanDetails
 
