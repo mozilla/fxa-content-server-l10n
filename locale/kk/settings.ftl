@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Біріншілік эл. пошта �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Кіру расталған болып тұр
 confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Жарамсыз сұраным
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -985,6 +987,7 @@ auth-error-1011 = Жарамды эл. пошта адресі керек
 auth-error-1031 = Тіркелу үшін өз жасыңызды көрсетуіңіз керек
 auth-error-1032 = Тіркелу үшін жарамды жасты енгізуіңіз керек
 auth-error-1062 = Жарамсыз қайта бағдарлау
+oauth-error-1000 = Бірнәрсе қате кетті. Бұл бетті жауып, қайталап көріңіз.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
