@@ -1,42 +1,24 @@
 ## Non-email strings
 
-session-verify-send-push-title = Qqen ɣer { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Qqen ɣer { -product-mozilla-account }?
 session-verify-send-push-body-2 = Sit da i wakken ad nẓer d kečč·kemm
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Alugu n { -brand-firefox }">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Alugu n { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = Tasertit tabaḍnit n { -brand-mozilla }
-fxa-service-url = Tiwtilin n useqdec n { -product-firefox-cloud }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Alugu { -brand-firefox }">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Alugu n { -brand-mozilla }">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Alugu n { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
 subplat-privacy-notice = Tasertit n tbaḍnit
 subplat-privacy-plaintext = Tasertit n tbaḍnit:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Tremseḍ-d imayl-a acku { $email } ɣur-s { -product-firefox-account } daɣen tjerrdeḍ ɣer { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Tremdeḍ-d imayl-a acku { $email } ɣur-s { -product-firefox-account }.
-subplat-explainer-multiple = Teṭṭfeḍ imayl-a acku { $email } ɣur-s { -product-firefox-account } yerna tmuletɣed ɣer waṭas n yifarisen.
-subplat-explainer-was-deleted = Tremdeḍ-d imayl-a acku { $email } yettwasekles i { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Tremdeḍ-d imayl-a acku { $email } yettwasekles i { -product-mozilla-account }.
-subplat-manage-account = Sefrek iɣewwarengik•im { -product-firefox-account } s tirza ɣer <a data-l10n-name="subplat-account-page">usebter n umiḍan-ik•im</a>.
 subplat-manage-account-2 = Sefrek iɣewwarengik•im { -product-mozilla-account } s tirza ɣer <a data-l10n-name="subplat-account-page">usebter n umiḍan-ik•im</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Sefrek { -product-firefox-account } iɣewwaṛen-ik s tirza ɣer usebter n umiḍan-ik: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = Sefrek { -product-mozilla-account } iɣewwaṛen-ik s tirza ɣer usebter n umiḍan-ik: { $accountSettingsUrl }
@@ -50,8 +32,6 @@ subplat-update-billing = Aleqqem n telɣut n ufter
 subplat-privacy-policy = Tasertit tabaḍnit n { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = Tiwtilin n useqdec n { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Usḍif
 subplat-legal-plaintext = { subplat-legal }:
@@ -89,6 +69,11 @@ automated-email-no-action = { automated-email-no-action-plaintext } Wugar n yisa
 automated-email-no-action-plaintext = Wa d imayl awurman. Ma tenremseḍ-t s leɣlaḍ, ur tesriḍ ad txedmeḍ kra.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tessirgeḍ ara tigawt-a, ttxil-k·m beddel awal-ik·im uffir:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Assuter-a yusa-d seg { $uaOS } { $uaOSVersion }.
 automatedEmailRecoveryKey-more-info = I wugar n yisallen, rzu ɣer <a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt </a>.
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
@@ -195,7 +180,6 @@ downloadSubscription-subject = Ansuf ɣer { $productName }
 downloadSubscription-title = Ansuf ɣer { $productName }
 downloadSubscription-content-2 = Aha bdu aseqdec n meṛṛa timahilin yeddan deg umulteɣ-inek·inem:
 downloadSubscription-link-action-2 = Bdu
-fraudulentAccountDeletion-subject = { -product-firefox-account } inek yettwakkes
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } inek yettwakkes
 fraudulentAccountDeletion-title = Amiḍan-ik•im yettwakkes
 # The user has a low number of valid recovery codes remaining for use
@@ -212,11 +196,8 @@ newDeviceLogin-change-password-plain = Mačči d kečč·kemm? Beddel awal-ik·i
 newDeviceLogin-action = Sefrek amiḍan
 passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
-passwordChanged-description = Awal-ik·im uffir n { -product-firefox-account } yettwabeddel akken iwata seg yibenk-a:
 passwordChangeRequired-subject = Armud anida yella ccek yettwaf
 passwordChangeRequired-title = Yettusra ubeddel n wawal uffir
-passwordChangeRequired-suspicious-activity = Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik·im n { -product-firefox-account }. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik·im n { -product-firefox-account }, nsens ibenkan akk n umiḍan-ik·im. Ad ak·am-nsuter ad tesnifleḍ awal-ik·im uffir i uḍman n tɣellist.
-passwordChangeRequired-sign-in = Ɛawed qqen ɣer yibenk neɣ ɣer umeẓlu seg wanida i tesseqdaceḍ { -product-firefox-account } syen ḍfer imecwaṛen ara ak·am-d-yettunefken.
 passwordChangeRequired-different-password = <b>Axatar:</b> Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
 passwordChangeRequired-different-password-plaintext = Axatar: Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
 passwordReset-subject = Awal uffir yettuleqqem
@@ -224,14 +205,9 @@ passwordReset-title = Awal uffir n umiḍan inek ibeddel
 passwordReset-description = Isefk ad teskecmeḍ awal-ik uffir amaynut akken ad tesfesxeḍ amtawi.
 passwordResetAccountRecovery-subject-2 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-title-2 = Awal uffir yettuwennez akken iwata
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Rnu tasarut n tririt n umiḍan tamaynut
+postAddAccountRecovery-subject-3 = Tasarut n tririt n umiḍan amaynut i tettwarna
 postAddAccountRecovery-title2 = Terniḍ tasarut n tririt n umiḍani tamaynut
 postAddAccountRecovery-action = Sefrek amiḍan
-postAddLinkedAccount-subject = Amiḍan amaynut yeqqnen ɣer { -brand-firefox }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-firefox-account }-ik·im
 postAddLinkedAccount-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject-2 = Asesteb s snat n tarrayin yettwarmed
 postAddTwoStepAuthentication-title-2 = Tremseḍ asesteb s snat tarrayin
@@ -250,9 +226,6 @@ postRemoveAccountRecovery-subject-2 = Tasarut n tririt n umiḍan tettwakkes
 postRemoveAccountRecovery-action = Sefrek amiḍan
 postRemoveSecondary-subject = Imay wis sin ittwakkes
 postRemoveSecondary-title = Imay wis sin ittwakkes
-# Variables:
-#  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Tekkseḍ akken iwata { $secondaryEmail } imayl-ik asnawan seg umiḍan-ik { -product-firefox-account }. Ilɣa n tɣellistakked isentam n tuqqna ur d-ttwaznan ara ar tensa-agi imayl.
 postRemoveSecondary-action = Sefrek amiḍan
 postRemoveTwoStepAuthentication-subject-line-2 = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-title-2 = Tessenseḍ asesteb s snat tarrayin
@@ -260,43 +233,30 @@ postRemoveTwoStepAuthentication-title-2 = Tessenseḍ asesteb s snat tarrayin
 postRemoveTwoStepAuthentication-from-device = Tessenseḍ-t seg:
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postVerify-title-2 = Tebɣiḍ kifkif iccer ara twaliḍ ɣef sin yibenkan?
-postVerify-subject-3 = Ansuf γer { -brand-firefox }!
 postVerify-setup-2 = Qqen ibenk-nniḍen:
 postVerify-action-2 = Qqen ibenk-nniḍen
 postVerifySecondary-subject = Imay wis sin ittwarna
 postVerifySecondary-title = Imay wis sin ittwarna
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Tesnetmeḍ akken iwata { $secondaryEmail } imayl-ik asnawan i { -product-firefox-account }. Ilɣa n tɣellist akked isentam n tuqqna ad d-ttwaznen ar snat n tansiwin imayl.
 postVerifySecondary-action = Sefrek amiḍan
 recovery-subject = Wennez awal uffir-ik
 recovery-title-2 = Tettuḍ awal inek uffir?
-# Information on the device, date and time of the request that triggered the email follows.
-recovery-request-origin = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-firefox-account }-inek·inem seg:
 recovery-action = Sekcem awal uffir amaynut
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Amulteɣ-ik·im ɣer { $productName } yefsex
 subscriptionAccountDeletion-title = Neḥzen imi tṛuḥeḍ
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Tekkseḍ tineggura-a { -product-firefox-account }. Ihi, nsefsex ajerred-ik•im ɣer { $productName }. Lexlaṣ-ik aneggaru n { $invoiceTotal } yettwag deg { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Ansuf ɣer { $productName }: Ma ulac aɣlif, sbadu awal-ik·im uffir.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Ansuf ɣer { $productName }
-subscriptionAccountFinishSetup-content-create-2 = Sakin, ad ternuḍ awal uffir n { -product-firefox-account } i wakken ad tebduḍ aseqdec n umulteɣ-ik·im amaynut.
 subscriptionAccountFinishSetup-action-2 = Bdu
 subscriptionAccountReminderFirst-subject = Asmekti: Ssali asesteb n umiḍan-ik·im
 subscriptionAccountReminderFirst-title = Mazal ur tezmireḍ ara ad tkecmeḍ ɣer umulteɣ-ik·im
 subscriptionAccountReminderFirst-action = Rnu awal uffir
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Asmekti aneggaru: Sesteb amiḍan-ik·im
-subscriptionAccountReminderSecond-title = Ansuf γer { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Rnu awal uffir
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -410,14 +370,11 @@ verificationReminderFinal-subject = Asmekti aneggaru i usentem n umiḍan-ik:im
 confirm-account = Sentem amiḍan
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ur tettu ara ad tesnetmeḍ amiḍan-ik·im
-verificationReminderFirst-title-2 = Ansuf γer { -brand-firefox }!
 confirm-email-2 = Sentem amiḍan
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Sentem amiḍan
 verificationReminderSecond-subject-2 = Ur tettu ara ad tesnetmeḍ amiḍan-ik·im
 verificationReminderSecond-action-2 = Sentem amiḍan
-verify-title-2 = Ldi internet s { -brand-firefox }
-verify-description = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-firefox } sekra wanida i teqqneḍ, bdu s:
 verify-subject = Fak timerna n umiḍan-ik
 verify-action-2 = Sentem amiḍan
 # Variables:
@@ -435,16 +392,10 @@ verifyPrimary-post-verify-2 = Mi yedda usentem, tzemreḍ ad tesnifleḍ amiḍa
 verifySecondaryCode-subject = Sentem tansa tis snat
 verifySecondaryCode-title-2 = Sentem tansa tis snat
 verifySecondaryCode-action-2 = Sentem imayl
-# Variables:
-#  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Seqdec tangalt-a n usentem:
 verifySecondaryCode-expiry-notice-2 = Aya ad yemmet deg 5 n tesdatin. Ticki yettwasentem, tansa-yagi ad as-d-aweḍen yilγa n tγellist akked usentem.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Sentem amiḍan inek
-verifyShortCode-title-2 = Ldi internet s { -brand-firefox }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-firefox } sekra wanida i teqqneḍ, bdu s:
 verifyShortCode-prompt-3 = Seqdec tangalt-a n usentem:
 verifyShortCode-expiry-notice = Ad immet deg 5 n tseddatin.

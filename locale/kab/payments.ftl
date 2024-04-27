@@ -3,35 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Imiḍanen Firefox
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Ameɣri
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Asebter agejdan n umiḍan
@@ -56,11 +27,9 @@ input-error-is-required = { $label } ilaq
 
 ## Component - Header
 
-brand-name-firefox-logo = Alugu { -brand-name-firefox }
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link = Tesεiḍ yakan amiḍan { -brand-name-firefox }? <a>Qqen</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -68,7 +37,6 @@ new-user-enter-email =
     .label = Sekcem imayl inek
 new-user-confirm-email =
     .label = Sentem imayl-inek·inem
-new-user-subscribe-product-updates = Bɣiɣ ad d-remseɣ ileqman n yifarisen seg { -brand-name-firefox }
 new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 new-user-email-validate = Imayl-a d arameɣtu
 new-user-email-validate-confirm = Ur mṣadan ara yimaylen-a
@@ -87,6 +55,8 @@ payment-confirmation-thanks-subheading = Imayl n usentem yettwazen-ak·am-n ɣer
 payment-confirmation-thanks-subheading-account-exists = Ad tremseḍ imayl ɣer { $email } s yiwellihen ara tesbaduḍ amiḍan-ik·im, akked telɣut n lexlaṣ-ik·im.
 payment-confirmation-order-heading = Talqayt n usuter
 payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Talɣut n lexlaṣ
 payment-confirmation-amount = { $amount } s { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -141,16 +111,10 @@ payment-cc =
 payment-cancel-btn = Sefsex
 payment-update-btn = Leqqem
 payment-pay-btn = Sellek tura
-payment-pay-with-paypal-btn = Xelles s { -brand-name-paypal }
 payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } tasertit n tbaḍnit</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } isseqdac { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } i usesfer aɣelsan n yiselliken.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } tasertit n tbaḍnit</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -158,7 +122,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } tasertit
 payment-method-header = Fren tarrayt-ik·im n lexlaṣ
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Yettwasra
 
 ## Component - PaymentProcessing
 
@@ -167,6 +130,9 @@ payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
+
+## Component - PayPalButton
+
 
 ## Component - PlanDetails
 
@@ -258,7 +224,6 @@ coupon-success-repeating = Aɣawas-ik·im ad yettuεawed s wudem awuran seld { $
 
 ## Routes - Checkout - New user
 
-new-user-step-1 = 1. Rnu amiḍan { -brand-name-firefox }
 new-user-card-title = Sekcem talɣut-ik·im n yimayl
 new-user-submit = Multeɣ tura
 
@@ -266,9 +231,9 @@ new-user-submit = Multeɣ tura
 
 sub-update-payment-title = Talɣut n usellek
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = neɣ xelleṣ s tkarḍa
 pay-with-heading-card-only = Xelleṣ s tkarḍa
 
 ## Routes - Product - IapRoadblock
@@ -277,21 +242,24 @@ pay-with-heading-card-only = Xelleṣ s tkarḍa
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = Senqed asnifel-ik·im
 sub-change-failed = Asnifel n uɣawas yecceḍ
-sub-update-copy =
-    Aɣawas-ik•im ad ibeddel tura kan, tasmekta n tfaturt-ik•im
-    ad tmelles i wayen i d-yeggran deg wallus-ik•im n ufetter. Seg { $startingDate } tamekta tummidt ad ternu ɣer tfaturt-ik•im.
 sub-change-submit = Sentem abeddel
 sub-update-current-plan-label = Aɣawas amiran
 sub-update-new-plan-label = Aɣawas amaynut
 sub-update-total-label = Asemday amaynut
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -320,7 +288,6 @@ sub-route-idx-cancel-msg =
     Ajerred-inek { $name } yefsex.
            <br />
           Ad tizmireḍ ad tkecmeḍ ɣer { $name } seg { $date }.
-sub-route-idx-cancel-aside = Tesεiḍ asteqsi? Rzu ɣer <a>{ -brand-name-mozilla } tallalt</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -352,7 +319,6 @@ sub-expires-on = Ad yemmet deg { $date }
 pay-update-card-exp = Ad yemmes { $expirationDate }
 sub-route-idx-updating = Aleqqem n telɣut n ufter
 sub-route-payment-modal-heading = Talɣut n ufter d tarameɣtut
-sub-route-payment-modal-message = Akka d-yettban tella tuccḍa aked umiḍan-ik·im { -brand-name-paypal }, ma ulac uɣilif xdem ayen i ilaqen i ferru n wugur-a n lexlaṣ.
 sub-route-missing-billing-agreement-payment-alert = Talɣut n uxelleṣ d tarameɣtut; tella tuccḍa akked umiḍan-ik·im. <div>Sefrek</div>
 sub-route-funding-source-payment-alert = Talɣut n uxelleṣ d tarameɣtut; tella tuccḍa deg umiḍan-ik·im. Alɣu-a yezmer ad yeṭṭef kra n wakud i wakken ad yekkes seld aleqqem n talɣut-ik·im. <div>Sefrek</div>
 
@@ -364,7 +330,6 @@ sub-item-no-such-subsequent-invoice = Tafaṭurt-a ulac-itt i umultaɣ-a.
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Tettnadiḍ amulteɣ-ik·im premium { -brand-name-pocket }?
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -393,6 +358,4 @@ reactivate-success-button = Mdel
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Tiɣin s usnas
-sub-iap-item-apple-purchase = { -brand-name-apple }: Tiɣin s usnas
 sub-iap-item-manage-button = Sefrek
