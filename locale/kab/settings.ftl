@@ -11,6 +11,15 @@
 banner-dismiss-button =
     .aria-label = Mdel
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Issin ugar
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Mdel aɣarrac
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -19,24 +28,10 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Timussniwin i ilaqen wwḍent-d ɣer tbewwaḍt-ik n urmas. Multeɣ akken ad tissineḍ ugar:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Awi isallen ineggura ɣef { -brand-mozilla } d { -brand-firefox }
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Xdem kra i tezmert yelhan n internet
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Issin ad tinigeḍ s teḥerci akked tɣellist
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Fren ayen ara temtawiḍ:
 choose-what-to-sync-option-bookmarks =
     .label = Ticraḍ n isebtar
 choose-what-to-sync-option-history =
@@ -52,8 +47,6 @@ choose-what-to-sync-option-prefs =
     .label = Ismenyifen
 choose-what-to-sync-option-addresses =
     .label = Tansiwin
-choose-what-to-sync-option-creditcards =
-    .label = Takarḍa n usmad
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -120,7 +113,6 @@ form-verify-code-default-error = Urti-a yettwasra
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Tasarut n tririt n umiḍan n { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Tingalin n usesteb n uḥraz n { -brand-firefox }
 get-data-trio-download-2 =
     .title = Sader
     .aria-label = Sader
@@ -137,10 +129,10 @@ get-data-trio-print-2 =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Ffer awal uffir
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Sken awal uffir
-input-password-hide-aria = Ffer awal uffir deg ugdil.
-input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Ɣer deffir
 
@@ -152,7 +144,7 @@ reset-pwd-link-damaged-header = Wennez aseɣwen n wawal uffir ixeṣṛen
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Aseɣwen n usentem yerreẓ
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen.
 
 ## LinkExpired component
@@ -166,12 +158,6 @@ reset-pwd-resend-link = Awi aseγwen amaynut
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Wennez aseɣwen n wawal uffir aqbuṛ
 reset-pwd-link-expired-message = Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ awal inek uffir yezri.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Aseɣwen n usentem yezri
-signin-link-expired-message = Aseɣwen ɣef i tsiteḍ akken ad tesnetmeḍ imayl inek yezri.
 
 ## LinkRememberPassword component
 
@@ -224,10 +210,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Umuɣ Bento n { -brand-firefox }
-bento-menu-firefox-title = { -brand-firefox } d tatiknulijit yettennaɣen ɣef tbaḍnit-ik srid.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
@@ -260,7 +243,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Ur yettwaf ara umsaɣ, d awezɣi ad teffɣeḍ seg tuqqna
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Tuffɣa n { $service }
 cs-refresh-button =
@@ -272,7 +255,7 @@ cs-disconnect-sync-heading = Ffeɣ seg Syn
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -290,17 +273,7 @@ cs-disconnect-sync-opt-not-say = Axiṛ ur d-qqareɣ ara
 
 cs-disconnect-advice-confirm = Ih, awi-t-id
 cs-disconnect-lost-advice-heading = Ibenk ur nelli neɣ i yettwakren ur yeqqin ara
-cs-disconnect-lost-advice-content-2 =
-    Imi ubenk-ik·im tesruḥeḍ-t neɣ yettwaker
-    eǧǧ talɣut-ik·im d taɣellsant, ilaq ad tbeddleḍ awal-ik·im uffir { -product-firefox-account }
-    deg yiɣewwaren n umiḍan-ik·im. Ilaq daɣen ad testeqsiḍ
-    amfaras n yibenk-ik·im ɣef wamek ara tekkseḍ isefka-inek·inem s wudem anmeggag.
 cs-disconnect-suspicious-advice-heading = Ibenk ideg yella ccekk ur yeqqin ara
-cs-disconnect-suspicious-advice-content =
-    Ma ibenk yeffɣen seg tuqqna d tidet
-    deg-s ccekk, akken ad tḥerzeḍ tilɣa-k•m, ilaq ad tbeddleḍ { -product-firefox-account }
-    awal-ik•im uffir deg yiɣewwaren n umiḍan-ik•im. Ilaq daɣen ad tbeddleḍ kra n
-    wawal uffir i teskelseḍ deg { -brand-firefox } s tira n about:logins into the address bar.
 cs-sign-out-button = Ffeɣ
 
 ##
@@ -309,16 +282,11 @@ cs-sign-out-button = Ffeɣ
 ## Data collection section
 
 dc-heading = Alqaḍ d useqdec n yisefka
-dc-subheader = Allel i usnerni { -product-firefox-accounts }
-dc-subheader-content = Sireg { -product-firefox-accounts } i tuzna n yisefka itiknikanen d umyigew ɣer { -brand-mozilla }.
-dc-opt-out-success = Asensi yedda akken iwata. { -product-firefox-accounts } ur ttaznen ara isefka itiknikanen d umyigew ɣer { -brand-mozilla }.
-dc-opt-in-success = Tanemmirt! Beṭṭu n yisefka-a ad aɣ-ɛawnen deg usnerni n { -product-firefox-accounts }.
 dc-opt-in-out-error-2 = Nesḥassef, yella wugur deg usali n yismenyafen-ik•im n ulqaḍ n yisefka
 dc-learn-more = Issin ugar
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Umuɣ { -product-firefox-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -348,13 +316,12 @@ flow-container-back = Uɣal ɣer deffir
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Mdel umuɣ
 header-menu-closed = Umuɣ n tunigin n usmel
 header-back-to-top-link =
     .title = Uɣal d asawen
-header-title = { -product-firefox-accounts }
 header-help = Tallalt
 
 ## Linked Accounts section
@@ -468,12 +435,10 @@ delete-account-header =
     .title = Kkes amiḍan
 delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
 delete-account-chk-box-1-v3 =
@@ -512,20 +477,6 @@ display-name-success-alert-2 = Isem n uskan yettusnifel
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-account-password-changed = Awal uffir yettusneflen
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Sefsex
-recovery-key-close-button = Mdel
-recovery-key-continue-button = Kemmel
-recovery-key-created-1 = Tasarut-ik·im n tririt n umiḍan tettwarna. Ḍmen teskelseḍ tasarut-a deg wadeg aɣellsan i tzemreḍ ad tafeḍ s sshala ticki — Tesriḍ tasarut-a i wakken ad d-terreḍ anekcum ɣer yisefka-inek·inem ma yella tettuḍ awal-ik·im uffir.
-recovery-key-enter-password =
-    .label = Sekcem awal uffir
-recovery-key-page-title-1 =
-    .title = Tasarut n tririt n umiḍan
-recovery-key-step-1 = Asurif 1 seg 2
-recovery-key-step-2 = Asurif 2 seg 2
-recovery-key-success-alert-3 = Tasarut n tririt n umiḍan tettwarna
 
 ## PageRecoveryKeyCreate
 
@@ -943,10 +894,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umi�
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Tuccḍa:
-
-## ConfirmSignin component
-
-confirm-signin-header = Sentem tuqqna-agi
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Aseɣwen n usentem yezri
 
 ## Signin page
 
@@ -960,6 +909,12 @@ signin-button = Kcem
 signin-header = Kcem
 signin-use-a-different-account-link = Seqdec amiḍan nniḍen
 signin-forgot-password-link = Tettuḍ awal uffir?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-create-new-account = Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut
 back = Ɣer deffir
 
@@ -1002,11 +957,9 @@ signin-totp-code-confirm-button = Sentem
 signin-totp-code-other-account-link = Seqdec amiḍan nniḍen
 signin-totp-code-recovery-code-link = Ugur deg usekcem n tengalt?
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Sentem amiḍan inek
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1030,8 +983,6 @@ signup-change-email-link = Snifel imayl
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Acḥal awtay inek?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Yessefk ad tmuddeḍ awtay inek akken ad ternud amiḍan
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Ayɣer i nessutur?
