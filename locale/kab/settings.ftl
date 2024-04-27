@@ -211,6 +211,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
