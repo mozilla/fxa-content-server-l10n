@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Email chính đã được xác minh tr
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Đăng nhập đã được xác nhận trước đó
 confirmation-link-reused-message = Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Yêu cầu không hợp lệ
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -983,6 +985,7 @@ auth-error-1011 = Yêu cầu email hợp lệ
 auth-error-1031 = Bạn phải nhập tuổi của bạn để đăng ký
 auth-error-1032 = Bạn phải nhập tuổi hợp lệ để đăng ký
 auth-error-1062 = Chuyển hướng không hợp lệ
+oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
