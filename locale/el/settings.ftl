@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Το κύριο email έχει ήδη �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
 confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβαίωσης έχει ήδη χρησιμοποιηθεί και μπορεί να χρησιμοποιηθεί μόνο μία φορά.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Εσφαλμένο αίτημα
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -987,6 +989,7 @@ auth-error-1011 = Απαιτείται έγκυρο email
 auth-error-1031 = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
 auth-error-1032 = Πρέπει να εισαγάγετε μια έγκυρη ηλικία για εγγραφή
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
+oauth-error-1000 = Κάτι πήγε στραβά. Παρακαλώ κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
