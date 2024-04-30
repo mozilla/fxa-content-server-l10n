@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Email-i parësor tashmë i verifikuar
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Hyrje tashmë e ripohuar
 confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe mund të përdoret vetëm një herë.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Kërkesë e Gabuar
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -981,6 +983,7 @@ auth-error-1011 = Lypset email i vlefshëm
 auth-error-1031 = Duhet të jepni moshën tuaj që të regjistroheni
 auth-error-1032 = Që të regjistroheni, duhet të jepni një moshë të vlefshme
 auth-error-1062 = Ridrejtim i pavlefshëm
+oauth-error-1000 = Diç shkoi ters. Ju lutemi, mbylleni këtë skedë dhe riprovoni.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1048,6 +1051,7 @@ inline-recovery-continue-button = Vazhdo
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Ripohojeni
 inline-recovery-back-link = Mbrapsht
+inline-recovery-cancel-setup = Anuloje ujdisjen
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Kod mirëfilltësimi kopjeruajtjeje
 inline-recovery-confirmation-description = Që të garantohet se do të jeni në gjendje të rifitoni hyrjen në llogarinë tuaj, në rast humbjeje pajisjeje, ju lutemi, jepni një nga kodet e ruajtur për mirëfilltësimi kopjeruajtjeje.
@@ -1058,6 +1062,7 @@ inline-recovery-confirmation-header-default = <span>Që të vazhdoni te rregulli
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>Që të vazhdoni te { $serviceName }</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
+inline-recovery-2fa-enabled = Mirëfilltësimi dyhapësh u aktivizua
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1089,6 +1094,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skanojeni kodin QR te aplik
 inline-totp-setup-on-completion-description = Pasi të jetë plotësuar, do të fillohet të prodhohen kode mirëfilltësimi për t’i dhënë ju.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Kod mirëfilltësimi
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Lypset kod mirëfilltësimi
+tfa-qr-code-alt = Përdoreni kodin { $code } që të rregulloni mirëfilltësim dyhapësh te aplikacione që e mbulojnë.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
