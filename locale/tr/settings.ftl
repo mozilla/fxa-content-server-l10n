@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Giriş zaten onaylanmış
 confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Hatalı istek
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -966,6 +968,7 @@ auth-error-1011 = Geçerli bir e-posta gerekiyor
 auth-error-1031 = Kaydolmak için yaşınızı belirtmelisiniz
 auth-error-1032 = Kaydolmak için geçerli bir yaş belirtmelisiniz
 auth-error-1062 = Geçersiz yönlendirme
+oauth-error-1000 = Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
