@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Primär e-postadress redan bekräftad
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inloggning redan bekräftad
 confirmation-link-reused-message = Den bekräftelselänken har redan använts och kan bara användas en gång.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Felaktig begäran
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -987,6 +989,7 @@ auth-error-1011 = Giltig e-postadress krävs
 auth-error-1031 = Du måste ange din ålder för att registrera dig
 auth-error-1032 = Du måste ange en giltig ålder för att registrera dig
 auth-error-1062 = Ogiltig omdirigering
+oauth-error-1000 = Något gick fel. Stäng den här fliken och försök igen.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
