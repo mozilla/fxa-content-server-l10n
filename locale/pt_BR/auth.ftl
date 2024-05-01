@@ -126,9 +126,9 @@ automated-email-reset =
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Se você não mudou sua senha, redefina a senha agora em { $resetLink }
 brand-banner-message = Você sabia que mudamos nosso nome de { -product-firefox-accounts } para { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saiba mais</a>
-cancellationSurvey = Ajude-nos a melhorar nossos serviços participando desta <a data-l10n-name="cancellationSurveyUrl">breve pesquisa</a>.
+cancellationSurvey = Ajude-nos a melhorar nossos serviços participando desta <a data-l10n-name="cancellationSurveyUrl">breve pesquisa de opinião</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
-cancellationSurvey-plaintext = Ajude-nos a melhorar nossos serviços participando desta breve pesquisa:
+cancellationSurvey-plaintext = Ajude-nos a melhorar nossos serviços participando desta breve pesquisa de opinião:
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
 manage-account = Gerenciar conta
 manage-account-plaintext = { manage-account }:
