@@ -30,14 +30,10 @@ input-error-is-required = { $label } 必填
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } 圖示
 brand-name-mozilla-logo = { -brand-mozilla } 標誌
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = 已經有 { -brand-name-firefox } 帳號了嗎？<a>請登入</a>
 new-user-sign-in-link-2 = 已經有 { -product-mozilla-account }了嗎？<a>點此登入</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之後依�
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. 註冊 { -brand-name-firefox } 帳號
 new-user-step-1-2 = 1. 註冊 { -product-mozilla-account }
 new-user-card-title = 輸入您的卡片資訊
 new-user-submit = 立刻訂閱
