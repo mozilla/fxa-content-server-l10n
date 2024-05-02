@@ -267,6 +267,8 @@ primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
 confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Mba’ejerure ojavýva
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -985,6 +987,7 @@ auth-error-1011 = Eikotevẽ ñanduti veve oikóva
 auth-error-1031 = Emoinge nde arytee eñemboheraguapývo
 auth-error-1032 = Emoinge nde arytee eñemboheraguapývo
 auth-error-1062 = Ñemondojey ndoikói
+oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ãjey.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
