@@ -323,6 +323,12 @@ passwordChangeRequired-sign-in-2 = Sign back into any device or service where yo
 passwordChangeRequired-different-password = <b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account.
 passwordChangeRequired-different-password-plaintext = Important: Pick a different password than what you were previously using and make sure that it is different from your email account.
 
+password-forgot-otp-subject = Forgot your password?
+password-forgot-otp-title = Forgot your password?
+password-forgot-otp-request = We received a request for a password change on your { -product-mozilla-account } from:
+password-forgot-otp-code = If yes, here is your confirmation code to proceed:
+password-forgot-otp-expiry-notice = This code expires in 10 minutes.
+
 passwordReset-subject = Password updated
 passwordReset-title = Your account password was changed
 passwordReset-description = You will need to enter your new password on other devices to resume syncing.
