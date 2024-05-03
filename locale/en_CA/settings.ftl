@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Sorry, there was a problem downloading your ac
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Get more from { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Help keep the internet healthy
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Security & privacy news and updates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Early access to test new products
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Action alerts to reclaim the internet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Entered passwords match.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = This field is required
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Submit { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -267,6 +274,8 @@ primary-email-confirmation-link-reused = Primary email already confirmed
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Sign-in already confirmed
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Bad Request
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -946,6 +955,14 @@ third-party-auth-options-or = or
 continue-with-google-button = Continue with { -brand-google }
 continue-with-apple-button = Continue with { -brand-apple }
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Digit { $inputNumber } of { $codeLength }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Unknown account
@@ -975,6 +992,7 @@ auth-error-1011 = Valid email required
 auth-error-1031 = You must enter your age to sign up
 auth-error-1032 = You must enter a valid age to sign up
 auth-error-1062 = Invalid redirect
+oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
