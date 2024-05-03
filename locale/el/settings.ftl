@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Δυστυχώς, προέκυψε πρόβλ�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Περισσότερα από τη { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Βοηθήστε μας να διατηρήσουμε το διαδίκτυο υγιές
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Ειδήσεις και ενημερώσεις για την ασφάλεια και το απόρρητο
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = Οι κωδικοί πρόσβασης που
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Αυτό το πεδίο απαιτείται
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Υποβολή { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -959,6 +962,14 @@ terms-privacy-agreement-default-2 = Συνεχίζοντας, αποδέχεστ
 third-party-auth-options-or = Ή
 continue-with-google-button = Συνέχεια με { -brand-google }
 continue-with-apple-button = Συνέχεια με { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Ψηφίο { $inputNumber } από { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
