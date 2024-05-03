@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Nus displâs, al è vignût fûr un probleme t
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Oten di plui di { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Judinus a tignî internet in salût
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Novitâts e inzornaments su sigurece e riservatece
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Acès in anteprime par provâ gnûfs prodots
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Avîs ae azion par tornâ a cjapâ in man il control di internet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Lis passwords inseridis a corispuindin.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Chest cjamp al è obligatori
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Mande { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -267,6 +274,8 @@ primary-email-confirmation-link-reused = E-mail primarie za confermade
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Acès za confermât
 confirmation-link-reused-message = Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Richieste sbaliade
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -952,6 +961,14 @@ third-party-auth-options-or = Opûr
 continue-with-google-button = Continue cun { -brand-google }
 continue-with-apple-button = Continue cun { -brand-apple }
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Cifre { $inputNumber } di { $codeLength }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Account no cognossût
@@ -981,6 +998,7 @@ auth-error-1011 = Al è necessari inserî une direzion e-mail valide
 auth-error-1031 = Par completâ la regjistrazion tu scugnis inserî la tô etât
 auth-error-1032 = Par completâ la regjistrazion tu cugnis inserî une etât valide
 auth-error-1062 = Dirotament no valit
+oauth-error-1000 = Alc al è lât strucj. Siere cheste schede e torne prove.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
