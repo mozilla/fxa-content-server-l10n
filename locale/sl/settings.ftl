@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Pri prenosu ključa za obnovitev računa je pr
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Izkoristite { -brand-mozilla(sklon: "tozilnik") }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Pomagajte internet ohraniti zdrav
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Novice in posodobitve o varnosti in zasebnosti
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Zgodnji dostop za preizkušanje novih izdelkov
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Opozorila o dejanjih za povrnitev interneta
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Vneseni gesli se ujemata.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = To polje je obvezno
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Pošlji { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -953,6 +960,14 @@ terms-privacy-agreement-default-2 = Z nadaljevanjem se strinjate s <mozillaAccou
 third-party-auth-options-or = ali
 continue-with-google-button = Nadaljuj z { -brand-google(sklon: "orodnik") }
 continue-with-apple-button = Nadaljuj z { -brand-apple(sklon: "orodnik") }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Števka { $inputNumber } od { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
