@@ -80,7 +80,7 @@ choose-newsletters-option-test-pilot =
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
 # "Action alerts" can be interpreted as "Calls to action"
 choose-newsletters-option-reclaim-the-internet =
-    .label = Actions pour réclamer Internet
+    .label = Actions pour reprendre le contrôle d’Internet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
