@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Кешіріңіз, тіркелгіні қа�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla }-дан көбірек алыңыз:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Интернетті сау сақтауға көмектесіңіз
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Қауіпсіздік және жекелік жаңалықтары мен жаңартулары
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Жаңа өнімдерді сынауға ерте қол жеткізу
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Интернетті қалпына келтіруге арналған әрекет ескертулері
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Енгізілген парольдер өз�
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Бұл өріс міндетті түрде керек
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = { $codeValue } жіберу
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -957,6 +964,14 @@ terms-privacy-agreement-default-2 = Жалғастыру арқылы сіз <mo
 third-party-auth-options-or = Немесе
 continue-with-google-button = { -brand-google } арқылы жалғастыру
 continue-with-apple-button = { -brand-apple } арқылы жалғастыру
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = { $inputNumber } цифрасы, { $codeLength } ішінен
 
 ## Auth-server based errors that originate from backend service
 
