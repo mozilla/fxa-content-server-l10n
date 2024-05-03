@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } bültenlerine kaydolun:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = İnternetin sağlığını birlikte koruyalım
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Güvenlik ve gizlilik haberleri ve duyuruları
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = Girilen parolalar eşleşiyor.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Bu alanı doldurmalısınız
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = { $codeValue } kodunu gönder
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -938,6 +941,14 @@ terms-privacy-agreement-default-2 = Devam ederek <mozillaAccountsTos>Hizmet Koş
 third-party-auth-options-or = veya
 continue-with-google-button = { -brand-google } ile devam et
 continue-with-apple-button = { -brand-apple } ile devam et
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = { $inputNumber } haneden { $codeLength }. hane
 
 ## Auth-server based errors that originate from backend service
 
