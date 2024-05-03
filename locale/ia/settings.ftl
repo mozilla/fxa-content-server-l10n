@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Desolate, il habeva un problema discargante tu
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Obtene plus de { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Adjuta a mantener Internet in salute
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Novas e actualisationes de securitate & confidentialitate
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = Le contrasignos inserite concorda.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Campo requirite.
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Inviar { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -955,6 +958,10 @@ terms-privacy-agreement-default-2 = Si tu procede, tu accepta le <mozillaAccount
 third-party-auth-options-or = O
 continue-with-google-button = Continuar con { -brand-google }
 continue-with-apple-button = Continuar con { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
 
 ## Auth-server based errors that originate from backend service
 
