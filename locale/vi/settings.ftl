@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Rất tiếc, đã xảy ra sự cố khi tả
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Nhận thêm từ { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Giúp giữ cho Internet lành mạnh
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Tin tức và cập nhật về bảo mật & quyền riêng tư
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Truy cập sớm để kiểm tra sản phẩm mới
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Cảnh báo hành động để lấy lại môi trường trực tuyến
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Mật khẩu đã nhập đã khớp.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Trường này là bắt buộc
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Gửi { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -955,6 +962,14 @@ terms-privacy-agreement-default-2 = Bằng cách tiếp tục, bạn đồng ý 
 third-party-auth-options-or = Hoặc
 continue-with-google-button = Tiếp tục với { -brand-google }
 continue-with-apple-button = Tiếp tục với { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Chữ số { $inputNumber } của { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
