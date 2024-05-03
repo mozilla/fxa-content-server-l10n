@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Sajnos probléma merült fel a fiók-helyreál
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Kapjon többet a { -brand-mozilla(ending: "accented") }ból:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Segítsen, hogy az internet egészséges maradjon
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Biztonsági és adatvédelmi hírek és frissítések
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Korai hozzáférés az új termékek teszteléséhez
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Műveleti figyelmeztetések az internet visszaszerzéséhez
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = A megadott jelszavak egyeznek.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Ez a mező kötelező
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = { $codeValue } beküldése
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -959,6 +966,14 @@ terms-privacy-agreement-default-2 = A folytatással elfogadja a <mozillaAccounts
 third-party-auth-options-or = Vagy
 continue-with-google-button = Folytatás a { -brand-google }-lel
 continue-with-apple-button = Folytatás az { -brand-apple }-lel
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = { $inputNumber }. számjegye / { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
