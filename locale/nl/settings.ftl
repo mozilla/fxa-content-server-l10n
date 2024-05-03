@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Sorry, er is een probleem opgetreden bij het d
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Meer van { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Help het internet gezond te houden
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Beveiligings- en privacynieuws en -updates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Vroege toegang om nieuwe producten te testen
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Actiewaarschuwingen om het internet terug te eisen
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Ingevoerde wachtwoorden komen overeen.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dit veld is verplicht
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = { $codeValue } indienen
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -957,6 +964,14 @@ terms-privacy-agreement-default-2 = Door door te gaan stemt u in met de <mozilla
 third-party-auth-options-or = Of
 continue-with-google-button = Doorgaan met { -brand-google }
 continue-with-apple-button = Doorgaan met { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Cijfer { $inputNumber } van { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
