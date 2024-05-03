@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Eguerekove { -brand-mozilla }-gui:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Eipytyvõkena ñanduti resãiverã
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Marandu ha tekopyahu tekorosã ha tekoñemirãve
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = Ko’ã ñe’ẽñemi haipyre ojuehegua.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Ko korápe ahaiva’erã
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Eme’ẽ { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -957,6 +960,10 @@ terms-privacy-agreement-default-2 = Eku’ejeývo, emoneĩ umi <mozillaAccountsT
 third-party-auth-options-or = Térã
 continue-with-google-button = Eku’ejey { -brand-google } ndive
 continue-with-apple-button = Eku’ejey { -brand-apple } ndive
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
 
 ## Auth-server based errors that originate from backend service
 
