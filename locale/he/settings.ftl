@@ -68,9 +68,6 @@ recovery-key-pdf-download-error = אירעה שגיאה בהורדת מפתח ש
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = קבלו יותר מ־{ -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = סיוע בשמירה על בריאות האינטרנט
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = חדשות ועדכוני אבטחה ופרטיות
 # Newsletter checklist item
@@ -166,6 +163,9 @@ form-password-sr-passwords-match = הססמאות שהוזנו תואמות.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = שדה זה נדרש
+
+## FormVerifyTotp
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -898,6 +898,14 @@ terms-privacy-agreement-default-2 = המשך התהליך מהווה הסכמה 
 continue-with-google-button = המשך באמצעות { -brand-google }
 continue-with-apple-button = המשך באמצעות { -brand-apple }
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = ספרה { $inputNumber } מתוך { $codeLength }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = חשבון לא ידוע
@@ -927,6 +935,7 @@ auth-error-1011 = נדרשת כתובת דוא״ל חוקית
 auth-error-1031 = עליך להכניס את גילך כדי להשלים את ההרשמה
 auth-error-1032 = עליך להקליד גיל תקני כדי להירשם
 auth-error-1062 = הפנייה לא חוקית
+oauth-error-1000 = משהו השתבש. נא לסגור לשונית זו ולנסות שוב.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
