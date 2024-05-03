@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Siamo spiacenti, si è verificato un problema 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Ottieni di più da { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Aiutaci a mantenere Internet in salute
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Novità e aggiornamenti su sicurezza e privacy
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Accesso in anteprima per testare nuovi prodotti
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Avvisi di azione per recuperare Internet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Le password inserite corrispondono.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Campo obbligatorio
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Invia { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -938,6 +945,14 @@ terms-privacy-agreement-default-2 = Proseguendo accetti le <mozillaAccountsTos>c
 third-party-auth-options-or = Oppure
 continue-with-google-button = Continua con { -brand-google }
 continue-with-apple-button = Continua con { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Cifra { $inputNumber } di { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
