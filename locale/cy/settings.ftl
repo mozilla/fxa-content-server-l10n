@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Mae'n ddrwg gennym, roedd problem wrth lwytho 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Cael mwy gan { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Helpwch i gadw'r rhyngrwyd yn iach
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Newyddion diogelwch a phreifatrwydd a diweddariadau
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Mynediad cynnar i brofi cynnyrch newydd
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Rhybuddion gweithredu i adennill y rhyngrwyd
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cyfateb.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Mae angen llanw'r maes hwn
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Cyflwyno { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -951,6 +958,14 @@ terms-privacy-agreement-default-2 = Drwy barhau, rydych yn cytuno i <mozillaAcco
 third-party-auth-options-or = Neu
 continue-with-google-button = Parhau gyda { -brand-google }
 continue-with-apple-button = Parhau gyda { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Digid { $inputNumber } o { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
