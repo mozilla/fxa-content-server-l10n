@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Bohužel je při sćahowanju  kontoweho wobnow
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Wobstarajće sej wjace wot { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Pomhajće nam, zo by internet strowy wostał
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Nowinki a aktualizacije wo wěstoće a priwatnosći
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = Zapodate hesła su jenake.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Tute polo je trěbne
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = { $codeValue } pósłać
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -953,6 +956,14 @@ terms-privacy-agreement-default-2 = Hdyž pokročujeće, zwoliće do <mozillaAcc
 third-party-auth-options-or = abo
 continue-with-google-button = Dale z { -brand-google }
 continue-with-apple-button = Dale z { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Městno { $inputNumber } z { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
