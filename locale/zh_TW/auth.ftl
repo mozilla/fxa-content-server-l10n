@@ -283,6 +283,7 @@ password-forgot-otp-subject = 忘記密碼了嗎？
 password-forgot-otp-title = 忘記密碼了嗎？
 password-forgot-otp-request = 我們收到要更改您 { -product-mozilla-account }密碼的請求：
 password-forgot-otp-code = 有的話，請使用下列驗證碼：
+password-forgot-otp-expiry-notice = 此驗證碼將於 10 分鐘後失效。
 passwordReset-subject = 密碼已更新
 passwordReset-title = 您的帳號密碼已變更
 passwordReset-description = 將需要在其他裝置上輸入新密碼才能恢復同步。

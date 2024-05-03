@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = 很抱歉，下載帳號救援金鑰時發生�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = 獲得 { -brand-mozilla } 的更多消息：
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = 幫助維護網路生態安全
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = 安全性與隱私權保護的最新消息
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = 輸入的密碼相符。
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = 此欄位必填
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = 送出 { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -927,6 +930,14 @@ terms-privacy-agreement-default-2 = 使用本服務，代表您同意：<mozilla
 third-party-auth-options-or = 或著
 continue-with-google-button = 使用 { -brand-google } 帳號繼續
 continue-with-apple-button = 使用 { -brand-apple } 帳號繼續
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = 第 { $inputNumber } 位數，共 { $codeLength } 位數
 
 ## Auth-server based errors that originate from backend service
 
