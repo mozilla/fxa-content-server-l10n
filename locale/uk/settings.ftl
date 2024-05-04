@@ -652,7 +652,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Продовжити
 delete-account-password-input =
     .label = Введіть пароль
-pocket-delete-notice = Якщо ви передплатили Pocket Premium, переконайтеся, що ви <a>скасуєте свою передплату</a> до видалення свого облікового запису.
+pocket-delete-notice = Якщо ви передплатили Pocket Premium, обов'язково <a>скасуйте передплату</a> перш ніж видаляти обліковий запис.
 delete-account-cancel-button = Скасувати
 delete-account-delete-button-2 = Видалити
 
