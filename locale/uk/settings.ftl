@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = На жаль, виникла проблема
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Отримайте більше від { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Допоможіть зберегти здоров'я інтернету
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Новини та поради щодо безпеки та приватності
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Ранній доступ до тестування нових продуктів
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Сповіщення про дії для відновлення доступу до інтернету
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Введені паролі збігають�
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Це поле обов'язкове
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Надіслати { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -957,6 +964,14 @@ terms-privacy-agreement-default-2 = Продовжуючи, ви погоджу�
 third-party-auth-options-or = Або
 continue-with-google-button = Продовжити з { -brand-google }
 continue-with-apple-button = Продовжити з { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Цифра { $inputNumber } з { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
