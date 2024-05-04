@@ -1,60 +1,77 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = Մուտք եք գործու՞մ { -product-mozilla-account }
+session-verify-send-push-body-2 = Սեղմեք այստեղ՝ հաստատելու համար, որ դուք եք
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Սարքերի համաժամեցում">
+body-devices-image = <img data-l10n-name="devices-image" alt="Սարքեր">
 fxa-privacy-url = { -brand-mozilla } գաղտնիության քաղաքականություն
-fxa-service-url = { -product-firefox-cloud } ծառայությունների մատուցման պայմաններ
-
 subplat-automated-email = Սա ավտոմատ հաղորդագրություն է։ Եթե դա սխալ եք ստացել, ոչ մի գործողություն չի պահանջվում։
 subplat-privacy-plaintext = Գաղտնիության ծանուցում
 subplat-terms-policy = Պայմանները և չեղյալ հայտարարման քաղաքականությունը
+subplat-terms-policy-plaintext = { subplat-terms-policy }՝
 subplat-cancel = Կառավարել բաժանորդագրությունները
+subplat-cancel-plaintext = { subplat-cancel }՝
+subplat-reactivate = Վերագործարկեք բաժանորդագրությունը
+subplat-reactivate-plaintext = { subplat-reactivate }՝
 subplat-update-billing = Թարմացրեք վճարման մասին տեղեկությունները
-
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Ստացեք { $productName }-ը՝ Google Play-ում.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Ներբեռնեք { $productName }-ը՝ App Store-ում.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Տեղադրեք { $productName }-ը մեկ այլ սարքում.
 change-password-plaintext = Եթե կասկածում եք, որ ինչ-որ մեկը փորձում է հասանելիություն ստանալ ձեր հաշիվ, ապա փոխեք ձեր գաղտնաբառը։
-
 manage-account = Կառավարել հաշիվը
-
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Վճարման եղանակ՝
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = { $cardName } քարտը՝ ավարտվում է { $lastFour }-ով
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Բարի գալուստ { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Բարի գալուստ { $productName }
+downloadSubscription-link-action-2 = Սկսել
 newDeviceLogin-action = Կառավարել հաշիվը
-
 passwordChanged-subject = Գաղտնաբառը թարմացվել է
 passwordChanged-title = Գաղտնաբառը հաջողությամբ փոփոխվեց
-
 passwordChangeRequired-subject = Հայտնաբերվել է կասկածելի գործողություն
-passwordChangeRequired-signoff = Լավագույնը,
-
 passwordReset-subject = Գաղտնաբառը թարմացվել է
 passwordReset-title = Ձեր հաշվի գաղտնաբառը փոփոխվել է
 passwordReset-description = Համաժամեցումը վերսկսելու համար հարկավոր է մուտքագրել ձեր նոր գաղտնաբառը այլ սարքերում։
-
 postAddAccountRecovery-action = Կառավարել հաշիվը
-
+postAddLinkedAccount-action = Կառավարել հաշիվը
 postAddTwoStepAuthentication-action = Կառավարել հաշիվը
-
 postChangePrimary-subject = Առաջնային էլ֊փոստը թարմացվել է
 postChangePrimary-title = Նոր առաջնային էլ֊փոստ
 postChangePrimary-action = Կառավարել հաշիվը
-
 postConsumeRecoveryCode-action = Կառավարել հաշիվը
-
 postNewRecoveryCodes-action = Կառավարել հաշիվը
-
 postRemoveAccountRecovery-action = Կառավարել հաշիվը
-
 postRemoveSecondary-subject = Երկրորդային էլ֊փոստը հեռացվեց
 postRemoveSecondary-title = Երկրորդային էլ֊փոստը հեռացվեց
 postRemoveSecondary-action = Կառավարել հաշիվը
-
 postRemoveTwoStepAuthentication-action = Կառավարել հաշիվը
-
 postVerifySecondary-subject = Երկրորդային էլ֊փոստը ավելացվել է
 postVerifySecondary-title = Երկրորդային էլ֊փոստը ավելացվել է
 postVerifySecondary-action = Կառավարել հաշիվը
-
-recovery-subject = Նշեք ձեր գաղտնաբառը
+recovery-subject = Վերակայել Ձեր գաղտնաբառը
+recovery-title-2 = Մոռացե՞լ եք Ձեր գաղտնաբառը
 recovery-action = Ստեղծել նոր գաղտնաբառ
 
 ## Variables
@@ -62,21 +79,38 @@ recovery-action = Ստեղծել նոր գաղտնաբառ
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Դուք փոխարկվել եք դեպի { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName }-ի վճարումը հաստատված է
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Շնորհակալություն { $productName }-ին բաժանորդագրվելու համար
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName }-ի բաժանորդագրությունը վերագործարկվել է
 unblockCode-subject = Հաշվի թույլտվության կոդ
 unblockCode-title = Դու՞ք եք մուտք գործել։
 unblockCode-prompt = Եթե այո, ապա Ձեզ հարկավոր է լիազորման կոդ․
 unblockCode-report-plaintext = Եթե ոչ, օգնեք մեզ խուսափել ներխուժումներից և դա զեկուցեք մեզ այդ մասին։
-
-verify-description = Հաստատեք Ձեր հաշիվը և առավելագույնը օգտվեք { -brand-firefox }֊ից՝ ամենուր, որտեղ մուտք եք գործել, սկսելով՝․
+confirm-account = Հաստատել հաշիվը
+confirm-account-plaintext = { confirm-account }.
+verificationReminderFirst-title-3 = Բարի գալու՜ստ { -brand-mozilla }
+confirm-email-2 = Հաստատել հաշիվը
+confirm-email-plaintext-2 = { confirm-email-2 }.
+verificationReminderFirst-action-2 = Հաստատել հաշիվը
+verificationReminderSecond-action-2 = Հաստատել հաշիվը
+verify-title-3 = Բացեք համացանցը { -brand-mozilla }-ով
 verify-subject = Ավարտեք ձեր հաշիվը
-
+verify-action-2 = Հաստատել հաշիվը
 verifyLogin-action = Հաստատեք մուտքը
-
 verifyLoginCode-expiry-notice = Այն ավարտվում է 5 րոպեի ընթացքում։
-
+verifyPrimary-title-2 = Հաստատեք հիմնական էլ․ փոստը
 verifyPrimary-description = Հերևյալ սարքից հաշվի փոփոխություն կատարելու դիմում է կատարվել․
-verifyPrimary-subject = Հաստատեք առաջնային էլ․փոստը
-
+verifyPrimary-subject = Հաստատեք հիմնական էլ․ փոստը
+verifyPrimary-action-2 = Հաստատեք էլ․ փոստը
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }.
 verifySecondaryCode-subject = Հաստատեք երկրորդական էլ․փոստը
-
 verifyShortCode-expiry-notice = Այն ավարտվում է 5 րոպեի ընթացքում։
