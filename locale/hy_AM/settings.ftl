@@ -7,8 +7,12 @@
 ## Used to show success, error or info messages
 
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
 
@@ -19,27 +23,86 @@
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+choose-what-to-sync-option-paymentmethods =
+    .label = Վճարամիջոցներ
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Ներբեռնման կամ լցոնի թղթապանակում չե՞ք։ Ուղարկել նորից
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Ետ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
+datablock-download =
+    .message = Ներբեռնված
+datablock-copy =
+    .message = Պատճենված
+datablock-print =
+    .message = Տպվեց
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (մոտավոր)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (մոտավոր)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (մոտավոր)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (մոտավոր)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Անհայտ վայր
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } { $genericOSName }-ում
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP հասցե՝ { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Գաղտնաբառ
+signup-confirm-password-label =
+    .label = Կրկնեք գաղտնաբառը
+signup-submit-button = Ստեղծել հաշիվ
+form-reset-password-with-balloon-new-password =
+    .label = Նոր գաղտնաբառ
+form-reset-password-with-balloon-confirm-password =
+    .label = Վերամուտքագրեք գաղտնաբառը
+form-reset-password-with-balloon-submit-button = Վերակայել գաղտնաբառը
+form-reset-password-with-balloon-match-error = Գաղտնաբառերը չեն համապատասխանում
+form-password-sr-passwords-match = Մուտքագրված գաղտնաբառերը համընկնում են:
 
 ## FormVerifyCode
 
 
+## FormVerifyTotp
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } հաշվի վերականգնման բանալի
+get-data-trio-title-backup-verification-codes = Երկրորդական նույնականացման ծածկագիր
+get-data-trio-download-2 =
+    .title = Ներբեռնել
+    .aria-label = Ներբեռնել
+get-data-trio-copy-2 =
+    .title = Պատճենել
+    .aria-label = Պատճենել
+get-data-trio-print-2 =
+    .title = Տպել
+    .aria-label = Տպել
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -47,17 +110,23 @@
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
+input-password-hide = Թաքցնել գաղտնաբառը
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
+input-password-show = Ցուցադրել գաղտնաբառը
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Ետ
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Վերականգնված գաղտնաբառի հղումը վնասված է
 
 ## LinkExpired component
 
 
 ## LinkExpiredResetPassword component
-
-
-## LinkExpiredSignin component
 
 
 ## LinkRememberPassword component
@@ -75,18 +144,28 @@
 
 ## Ready component
 
+ready-continue = Շարունակել
+sign-in-complete-header = Մուտք գործումը հաստատվեց
+sign-up-complete-header = Հաշիվը հաստատվեց
+primary-email-verified-header = Հիմնական էլ. փոստը հաստատվեց
 
 ## Alert Bar
 
+alert-bar-close-message = Փակել նամակը
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Ձեր ավատարը
+avatar-default-avatar =
+    .alt = Սկզբնադիր ավատար
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title-3 = { -brand-mozilla } արտադրանքներ
 
 ## Connect another device promo
 
@@ -100,7 +179,7 @@
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -134,10 +213,15 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## This screen displays the generated key and allows users to download or copy the key
 
 
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 
 ## Linked Accounts section
@@ -185,10 +269,9 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ##
 
 
-## Recent Activity
-
-
-# Account recovery key setup page
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 
 ## PageRecoveryKeyCreate
@@ -245,6 +328,10 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
 
 
 ## Auth-server based errors that originate from backend service
@@ -341,10 +428,13 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## CompleteSignin component
 
 
-## ConfirmSignin component
-
-
 ## Signin page
+
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
 
 
 ## SigninRecoveryCode page
@@ -366,9 +456,8 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page

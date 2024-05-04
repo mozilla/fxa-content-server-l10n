@@ -112,5 +112,10 @@ verifyPrimary-description = Հերևյալ սարքից հաշվի փոփոխո�
 verifyPrimary-subject = Հաստատեք հիմնական էլ․ փոստը
 verifyPrimary-action-2 = Հաստատեք էլ․ փոստը
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }.
-verifySecondaryCode-subject = Հաստատեք երկրորդական էլ․փոստը
+verifySecondaryCode-subject = Հաստատեք երկրորդական էլ․ փոստը
+verifySecondaryCode-title-2 = Հաստատեք երկրորդական էլ․ փոստը
+verifySecondaryCode-action-2 = Հաստատեք էլ․ փոստը
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Հաստատեք Ձեր հաշիվը
 verifyShortCode-expiry-notice = Այն ավարտվում է 5 րոպեի ընթացքում։
