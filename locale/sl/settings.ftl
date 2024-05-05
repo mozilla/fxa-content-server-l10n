@@ -77,10 +77,6 @@ choose-newsletters-option-security-privacy =
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Zgodnji dostop za preizkušanje novih izdelkov
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Opozorila o dejanjih za povrnitev interneta
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -275,7 +271,7 @@ primary-email-confirmation-link-reused = Glavni e-poštni naslov je že potrjen
 signin-confirmation-link-reused = Prijava je že potrjena
 confirmation-link-reused-message = Ta potrditvena povezava je bila že uporabljena, uporabiti pa jo je mogoče le enkrat.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
-error-bad-request = Napačna zahteva
+error-bad-request = Zahteva z napako
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
