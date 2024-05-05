@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Przepraszamy, wystąpił problem podczas pobie
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Więcej od { -brand-mozilla(case: "gen") }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Pomóż utrzymać zdrowy Internet
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Aktualności i aktualizacje na temat bezpieczeństwa i prywatności
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Wczesny dostęp do testowania nowych produktów
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Wezwania do działań mających na celu odzyskanie Internetu
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Wpisane hasła są zgodne.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = To pole jest wymagane
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Wyślij { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -267,6 +274,8 @@ primary-email-confirmation-link-reused = Główny adres e-mail został już potw
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Już potwierdzono logowanie
 confirmation-link-reused-message = Ten odnośnik potwierdzenia został już użyty, a może być używany tylko raz.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Błędne żądanie
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -952,6 +961,14 @@ third-party-auth-options-or = Lub
 continue-with-google-button = Kontynuuj za pomocą konta { -brand-google }
 continue-with-apple-button = Kontynuuj za pomocą konta { -brand-apple }
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = { $inputNumber }. cyfra z { $codeLength }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Nieznane konto
@@ -981,6 +998,7 @@ auth-error-1011 = Wymagany jest prawidłowy adres e-mail
 auth-error-1031 = Należy podać swój wiek przed zarejestrowaniem
 auth-error-1032 = Należy podać prawidłowy wiek przed zarejestrowaniem
 auth-error-1062 = Nieprawidłowe przekierowanie
+oauth-error-1000 = Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1048,6 +1066,7 @@ inline-recovery-continue-button = Kontynuuj
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Potwierdź
 inline-recovery-back-link = Wstecz
+inline-recovery-cancel-setup = Anuluj konfigurację
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Zapasowy kod uwierzytelniania
 inline-recovery-confirmation-description = Aby upewnić się, że będzie można odzyskać dostęp do konta, to w przypadku zgubienia urządzenia podaj jeden z zachowanych zapasowych kodów uwierzytelniania.
@@ -1058,6 +1077,7 @@ inline-recovery-confirmation-header-default = Potwierdź zapasowy kod uwierzytel
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potwierdź zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
+inline-recovery-2fa-enabled = Włączono uwierzytelnianie dwuetapowe
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1089,6 +1109,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Zeskanuj kod QR w aplikacj
 inline-totp-setup-on-completion-description = Po ukończeniu zacznie tworzyć kody uwierzytelniania, które należy podać.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Kod uwierzytelniania
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Wymagany jest kod uwierzytelniania
+tfa-qr-code-alt = Użyj kodu { $code }, aby skonfigurować uwierzytelnianie dwuetapowe w obsługiwanych aplikacjach.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
