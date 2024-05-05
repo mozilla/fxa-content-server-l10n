@@ -51,9 +51,6 @@ recovery-key-pdf-key-legend = Kontogjenopprettingsnøkkel
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Få meir frå { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Hjelp til med å halde internettet sunt
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Sikkerheit- og personvern-nytt, og oppdateringar
 # Newsletter checklist item
@@ -144,6 +141,9 @@ form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dette feltet er påkravd
+
+## FormVerifyTotp
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -304,6 +304,7 @@ cs-disconnect-sync-heading = Kople frå Sync
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-reason-3 = Kva er hovudgrunnen for å kople frå <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -756,6 +757,10 @@ terms-privacy-agreement-intro-2 = Ved å halde fram seier du deg samd i:
 third-party-auth-options-or = Eller
 continue-with-google-button = Hald fram med { -brand-google }
 continue-with-apple-button = Hald fram med { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
 
 ## Auth-server based errors that originate from backend service
 
