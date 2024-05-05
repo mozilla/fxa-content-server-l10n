@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Der opstod desværre et problem med at hente d
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Få mere fra { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Hjælp med at holde internettet sundt
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Nyheder og opdateringer om sikkerhed og privatliv
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Tidlig adgang til at teste nye produkter
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Opfordringer til handling for at tage kontrollen over internettet tilbage
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = De indtastede adgangskoder er ens.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dette felt er påkrævet
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Indsend { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -956,6 +963,10 @@ terms-privacy-agreement-default-2 = Ved at fortsætte accepterer du <mozillaAcco
 third-party-auth-options-or = eller
 continue-with-google-button = fortsæt med { -brand-google }
 continue-with-apple-button = fortsæt med { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
 
 ## Auth-server based errors that originate from backend service
 
