@@ -77,6 +77,10 @@ choose-newsletters-option-security-privacy =
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = 新製品をテストするための早期アクセス
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = インターネットを取り戻すために行動を起こしましょう
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -239,6 +243,9 @@ reset-pwd-link-damaged-header = パスワードをリセットするリンクが
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 確認リンクが壊れています
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = リンクが不完全です
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
 
@@ -267,6 +274,8 @@ primary-email-confirmation-link-reused = 優先メールアドレスは既に確
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ログインは既に確認されています
 confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = 不正なリクエスト
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -319,6 +328,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } の製品
 bento-menu-tagline = プライバシーを保護する他の { -brand-mozilla } の製品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
@@ -619,6 +629,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } データの同期
 delete-account-product-firefox-addons = { -brand-firefox } のアドオン
@@ -937,6 +948,10 @@ continue-with-apple-button = { -brand-apple } で続ける
 ## TotpInputGroup component
 ## This component is composed of 6 or 8 single digit inputs for verification codes
 
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = { $inputNumber } / { $codeLength } 桁
 
 ## Auth-server based errors that originate from backend service
 
@@ -959,10 +974,15 @@ auth-error-155 = TOTP トークンが見つかりません
 auth-error-159 = 無効なアカウント回復用キー
 auth-error-183-2 = 確認コードが不正または有効期限切れです
 auth-error-999 = 予期しないエラー
+auth-error-1002 = セッションの期限が切れました。続けるにはログインしてください。
 auth-error-1003 = ローカルストレージまたは Cookie が無効になっています
 auth-error-1008 = 新しいパスワードは別のものにしてください
+auth-error-1010 = 正しいパスワードを入力してください (必須)
 auth-error-1011 = 有効なメールアドレスが必要です
+auth-error-1031 = 登録するには年齢を入力してください
+auth-error-1032 = 登録するには有効な年齢を入力する必要があります
 auth-error-1062 = リダイレクトが無効です
+oauth-error-1000 = エラーが発生しました。このタブを閉じて、もう一度試してください。
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1030,6 +1050,7 @@ inline-recovery-continue-button = 続ける
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = 確認
 inline-recovery-back-link = 戻る
+inline-recovery-cancel-setup = セットアップをキャンセル
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = バックアップ認証コード
 inline-recovery-confirmation-description = 端末を紛失してしまった場合にアカウントへのアクセスを確実に回復できるようにするため、保存したいずれかのバックアップ認証コードを入力してください。
@@ -1040,6 +1061,7 @@ inline-recovery-confirmation-header-default = バックアップ認証コード�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = バックアップ認証コードを確認して <span>{ $serviceName } に進む</span>
+inline-recovery-2fa-enabled = 2 段階認証が有効になりました
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1071,6 +1093,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 認証アプリで QR コ�
 inline-totp-setup-on-completion-description = 完了すると、入力する認証コードの生成が開始されます。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 認証コード
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = 認証コードが必要です
+tfa-qr-code-alt = コード { $code } を使って対応アプリケーション内で 2 段階認証を設定してください。
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1273,8 +1298,11 @@ reset-password-with-recovery-key-verified-continue-to-account = 自分のアカ�
 error-label = エラー:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = ログインを検証しています…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = 確認エラー
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = 確認リンクの有効期限が切れています
+signin-link-expired-message-2 = クリックしたリンクは有効期限が切れているか、すでに使用されています。
 
 ## Signin page
 
@@ -1291,12 +1319,19 @@ signin-button = ログイン
 signin-header = ログイン
 signin-use-a-different-account-link = 別のアカウントを使用する
 signin-forgot-password-link = パスワードをお忘れですか？
+signin-password-button-label = パスワード
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
+report-signin-header = 未承認のログインを報告しますか？
+report-signin-body = あなたのアカウントへのアクセス試行についてのメールをお送りしました。疑わしい挙動として報告しますか？
+report-signin-submit-button = 疑わしい挙動を報告
+report-signin-support-link = このような問題が起きた理由
+report-signin-error = レポートの送信中に問題が発生しました。
 signin-bounced-header = 申し訳ありません。あなたのアカウントはロックされています。
 # $email (string) - The user's email.
 signin-bounced-message = { $email } へ送られた確認メールが返送されてきたので、あなたの { -brand-firefox } データを守るためアカウントをロックしました。
@@ -1376,6 +1411,17 @@ signin-totp-code-required-error = 認証コードが必要です
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = このログインを承認
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = 認証コードを { $email } 宛にお送りしましたので、メールを確認してください。
+signin-unblock-code-input = 認証コードを入力
+signin-unblock-submit-button = 続ける
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = 認証コードが必要です
+signin-unblock-code-incorrect-length = 認証コードは 8 文字でなければなりません
+signin-unblock-code-incorrect-format-2 = 認証コードに含められるのは英数字のみです
+signin-unblock-resend-code-button = 受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信
+signin-unblock-support-link = このような問題が起きた理由
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
