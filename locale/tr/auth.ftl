@@ -285,6 +285,7 @@ passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullan
 password-forgot-otp-subject = Parolanızı unuttunuz mu?
 password-forgot-otp-title = Parolanızı unuttunuz mu?
 password-forgot-otp-request = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
+password-forgot-otp-code = Parolanızı unuttuysanız şu onay koduyla devam edebilirsiniz:
 password-forgot-otp-expiry-notice = Kodun geçerlilik süresi 10 dakikadır.
 passwordReset-subject = Parola güncellendi
 passwordReset-title = Hesap parolanız değiştirildi
