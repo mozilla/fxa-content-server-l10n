@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Sorry, der is in probleem bard by it downloade
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Mear fan { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Help it ynternet sûn te hâlden
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Befeiligings- en privacynijs en -updates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Iere tagong om nije produkten te testen
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Aksjewarskôgingen om it ynternet werom te easken
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -170,6 +171,12 @@ form-password-sr-passwords-match = Ynfierde wachtwurden komme oerien.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dit fjild is ferplichte
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = { $codeValue } yntsjinje
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -961,6 +968,14 @@ terms-privacy-agreement-default-2 = Troch fierder te gean, geane jo akkoard mei 
 third-party-auth-options-or = Of
 continue-with-google-button = Trochgean mei { -brand-google }
 continue-with-apple-button = Trochgean mei { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Sifer { $inputNumber } fan { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
