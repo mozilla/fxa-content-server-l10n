@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = 申し訳ありませんが、アカウント�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } からの詳細:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = 健全なインターネットの維持に協力する
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = セキュリティとプライバシーに関するニュースと最新情報
 # Newsletter checklist item
@@ -160,11 +157,22 @@ form-reset-password-with-balloon-confirm-password =
     .label = パスワードを再入力
 form-reset-password-with-balloon-submit-button = パスワードをリセット
 form-reset-password-with-balloon-match-error = パスワードが一致しません
+form-password-sr-too-short-message = パスワードは 8 文字以上にする必要があります。
+form-password-sr-not-email-message = パスワードにメールアドレスを含めることはできません。
+form-password-sr-not-common-message = パスワードは一般的に使用されているパスワードにしてはいけません。
+form-password-sr-requirements-met = 入力されたパスワードはすべてのパスワード要件を満たしています。
+form-password-sr-passwords-match = 入力したパスワードは一致しています。
 
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = この項目は必須です
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = { $codeValue } を送信
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -208,10 +216,18 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = パスワードを隠す
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = パスワードを開示
-input-password-hide-aria = 画面上のパスワードを隠す
-input-password-show-aria = パスワードをプレーンテキストで表示する。パスワードが画面に表示されます。
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = パスワードが画面に表示されています。
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = パスワードが隠されています。
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = パスワードが画面に表示されました。
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = パスワードが隠されました。
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 戻る
 
@@ -223,7 +239,7 @@ reset-pwd-link-damaged-header = パスワードをリセットするリンクが
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 確認リンクが壊れています
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
 
 ## LinkExpired component
@@ -237,12 +253,6 @@ reset-pwd-resend-link = 新しいリンクを受け取る
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = パスワードをリセットするリンクの有効期限が切れました
 reset-pwd-link-expired-message = パスワードをリセットするリンクの有効期限が過ぎています。
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = 確認リンクの有効期限が切れています
-signin-link-expired-message = クリックされたメールアドレス確認リンクの有効期限が切れています。
 
 ## LinkRememberPassword component
 
@@ -309,7 +319,6 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla } の製品
 bento-menu-tagline = プライバシーを保護する他の { -brand-mozilla } の製品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
@@ -610,7 +619,6 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } データの同期
 delete-account-product-firefox-addons = { -brand-firefox } のアドオン
@@ -925,6 +933,10 @@ terms-privacy-agreement-default-2 = 続けることにより、<mozillaAccountsT
 third-party-auth-options-or = または
 continue-with-google-button = { -brand-google } で続ける
 continue-with-apple-button = { -brand-apple } で続ける
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -1261,12 +1273,8 @@ reset-password-with-recovery-key-verified-continue-to-account = 自分のアカ�
 error-label = エラー:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = ログインを検証しています…
-
-## ConfirmSignin component
-
-confirm-signin-header = このログインを確認
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = ログイン確認リンクを { $email } 宛にお送りしましたので、メールをチェックしてください。
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = 確認リンクの有効期限が切れています
 
 ## Signin page
 
@@ -1283,6 +1291,12 @@ signin-button = ログイン
 signin-header = ログイン
 signin-use-a-different-account-link = 別のアカウントを使用する
 signin-forgot-password-link = パスワードをお忘れですか？
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = 申し訳ありません。あなたのアカウントはロックされています。
 # $email (string) - The user's email.
 signin-bounced-message = { $email } へ送られた確認メールが返送されてきたので、あなたの { -brand-firefox } データを守るためアカウントをロックしました。
@@ -1359,13 +1373,9 @@ signin-totp-code-recovery-code-link = コードの入力時に問題が発生し
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = 認証コードが必要です
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = アカウントを確認してください
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = 確認リンクを { $email } 宛にお送りしましたので、メールをチェックしてください。
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1403,8 +1413,6 @@ signup-change-email-link = メールアドレスを変更
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = あなたの年齢は何歳ですか？
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = 登録するには年齢を入力してください
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = この質問の理由
