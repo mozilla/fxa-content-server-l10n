@@ -287,6 +287,7 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge g
 password-forgot-otp-subject = Sćo swójo gronidło zabył?
 password-forgot-otp-title = Sćo swójo gronidło zabył?
 password-forgot-otp-request = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:
+password-forgot-otp-code = Jolic jo, how jo waš wobkšuśeński kod, aby wy pókšacował:
 password-forgot-otp-expiry-notice = Toś ten kod za 20 minutow spadnjo.
 passwordReset-subject = Gronidło jo se zaktualizěrowało
 passwordReset-title = Wašo kontowe gronidło jo se změniło
