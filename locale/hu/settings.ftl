@@ -80,7 +80,7 @@ choose-newsletters-option-test-pilot =
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
 # "Action alerts" can be interpreted as "Calls to action"
 choose-newsletters-option-reclaim-the-internet =
-    .label = Műveleti figyelmeztetések az internet visszaszerzéséhez
+    .label = Felhívások az internet visszaszerzésére
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -973,7 +973,7 @@ continue-with-apple-button = Folytatás az { -brand-apple }-lel
 # Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
 # $inputNumber is a number from 1 to 8
 # $codeLength is a number, it represents the total length of the code
-single-char-input-label = { $inputNumber }. számjegye / { $codeLength }
+single-char-input-label = { $inputNumber }. számjegy / { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
