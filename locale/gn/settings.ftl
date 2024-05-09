@@ -77,6 +77,10 @@ choose-newsletters-option-security-privacy =
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Eike pya’e eiporu hag̃ua apopyre pyahu
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Nehenói tembiaporã Ñanduti mopu’ãjeyrã
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices

@@ -285,6 +285,7 @@ passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo pet
 password-forgot-otp-subject = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-title = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-request = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-mozilla-account } rehegua:
+password-forgot-otp-code = Emoneĩ mba’éramo, ko’ápe oĩ ayvu ñemoneĩrã:
 password-forgot-otp-expiry-notice = Ko ayvu ndoikovéitama 10 aravo’ípe.
 passwordReset-subject = Ñe’ẽñemi hekopyahúva
 passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
