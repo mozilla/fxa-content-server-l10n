@@ -163,7 +163,7 @@ form-reset-password-with-balloon-submit-button = Redefinir palavra-passe
 form-reset-password-with-balloon-match-error = As palavras-passe não coincidem
 form-password-sr-too-short-message = A palavra-passe deve conter, pelo menos, 8 caracteres.
 form-password-sr-not-email-message = A palavra-passe não pode conter o seu endereço de e-mail.
-form-password-sr-not-common-message = A palavra-passe não pode ser uma palavra-passe comummente utilizada.
+form-password-sr-not-common-message = A palavra-passe não pode ser uma palavra-passe habitualmente utilizada.
 form-password-sr-requirements-met = A palavra-passe introduzida respeita todos os requisitos de palavra-passe.
 form-password-sr-passwords-match = As palavras-passe introduzidas coincidem.
 
@@ -227,7 +227,7 @@ input-password-show = Mostrar palavra-passe
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
 input-password-hide-aria-2 = A sua palavra-passe está atualmente visível no ecrã.
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
-input-password-show-aria-2 = A sua palavra-passe está atualmente ocultada.
+input-password-show-aria-2 = A sua palavra-passe está atualmente oculta.
 # Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
 input-password-sr-only-now-visible = A sua palavra-passe está agora visível no ecrã.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
@@ -993,7 +993,7 @@ auth-error-1011 = É necessário um e-mail válido
 auth-error-1031 = Deve inserir a sua idade para se registar
 auth-error-1032 = Deve inserir uma idade válida para se registar
 auth-error-1062 = Redirecionamento inválido
-oauth-error-1000 = Ocorreu um erro. Por favor, feche este separador e tente novamente.
+oauth-error-1000 = Ocorreu um erro. Feche este separador e tente novamente.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1072,7 +1072,7 @@ inline-recovery-confirmation-header-default = Confirme o código de autenticaç�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirme o código de autenticação de recuperação <span>para continuar para { $serviceName }</span>
-inline-recovery-2fa-enabled = Autenticação de dois passos ativada
+inline-recovery-2fa-enabled = Autenticação de dois fatores ativada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1106,7 +1106,9 @@ inline-totp-setup-on-completion-description = Depois de concluído, esta começa
 inline-totp-setup-security-code-placeholder = Código de autenticação
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Código de autenticação obrigatório
-tfa-qr-code-alt = Utilize o código { $code } para configurar a autenticação de dois passos em aplicações suportadas.
+tfa-qr-code-alt =
+    Utilize o código { $code } para configurar a autenticação de dois fatores nas 
+    aplicações suportadas.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
