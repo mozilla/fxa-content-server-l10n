@@ -6,15 +6,23 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Փակել
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Իմանալ ավելին
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Հաշվի վերականգնման բանալի
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -23,6 +31,21 @@
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+choose-what-to-sync-option-bookmarks =
+    .label = Էջանիշեր
+choose-what-to-sync-option-history =
+    .label = Պատմություն
+choose-what-to-sync-option-passwords =
+    .label = Գաղտնաբառեր
+choose-what-to-sync-option-addons =
+    .label = Հավելումներ
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Բաց ներդիրներ
+choose-what-to-sync-option-prefs =
+    .label = Կարգավորումներ
+choose-what-to-sync-option-addresses =
+    .label = Հասցեներ
 choose-what-to-sync-option-paymentmethods =
     .label = Վճարամիջոցներ
 
