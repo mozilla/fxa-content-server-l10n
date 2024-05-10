@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = 很抱歉，下载您的账户恢复密钥时�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = 接收 { -brand-mozilla } 的更多消息：
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = 一起守护互联网健康发展
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = 安全与隐私的最新动态
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = 两次输入的密码一致。
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = 此字段必填
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = 提交 { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -267,6 +270,8 @@ primary-email-confirmation-link-reused = 主邮箱地址已经确认
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 登录已确认
 confirmation-link-reused-message = 此确认链接已被使用，并只能使用一次。
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = 错误请求
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -928,6 +933,14 @@ third-party-auth-options-or = 或者
 continue-with-google-button = 通过 { -brand-google } 登录
 continue-with-apple-button = 通过 { -brand-apple } 登录
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = 第 { $inputNumber } 位数，共 { $codeLength } 位数
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 未知账户
@@ -957,6 +970,7 @@ auth-error-1011 = 需要有效的邮箱地址
 auth-error-1031 = 您需要输入您的年龄才能注册
 auth-error-1032 = 您需要输入有效年龄才能注册
 auth-error-1062 = 无效重定向
+oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
