@@ -77,6 +77,10 @@ choose-newsletters-option-security-privacy =
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Πρώιμη πρόσβαση σε δοκιμές νέων προϊόντων
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Ειδοποιήσεις για δράσεις που αφορούν την ανάκτηση του ελέγχου του διαδικτύου
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
