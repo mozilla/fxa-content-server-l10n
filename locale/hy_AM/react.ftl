@@ -17,7 +17,7 @@ link-sr-new-window = Բացում է նոր պատուհանում
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
 # Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Բեռնում...
+app-loading-spinner-aria-label-loading = Բեռնում…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
