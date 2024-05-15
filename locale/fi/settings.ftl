@@ -170,6 +170,9 @@ form-verify-code-default-error = Tämä kenttä on pakollinen
 
 ## FormVerifyTotp
 
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Lähetä { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -958,6 +961,10 @@ continue-with-apple-button = Jatka käyttämällä { -brand-apple }a
 ## TotpInputGroup component
 ## This component is composed of 6 or 8 single digit inputs for verification codes
 
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Numero { $inputNumber } / { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
@@ -1101,6 +1108,7 @@ inline-totp-setup-on-completion-description = Määrityksen valmistuttua sovellu
 inline-totp-setup-security-code-placeholder = Toodennuskoodi
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Todennuskoodi vaaditaan
+tfa-qr-code-alt = Ota käyttöön kaksivaiheinen todennus tuetuissa sovelluksissa käyttämällä koodia { $code }.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
