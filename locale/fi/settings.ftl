@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Valitettavasti tilin palautusavaimen lataamise
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Lisää { -brand-mozilla }lta:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Auta pitämään Internet terveenä
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Tietoturva- ja tietosuojauutiset sekä päivitykset
 # Newsletter checklist item
@@ -170,6 +167,9 @@ form-password-sr-passwords-match = Annetut salasanat vastaavat toisiaan.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Tämä kenttä on pakollinen
+
+## FormVerifyTotp
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -955,6 +955,10 @@ third-party-auth-options-or = Tai
 continue-with-google-button = Jatka käyttämällä { -brand-google }a
 continue-with-apple-button = Jatka käyttämällä { -brand-apple }a
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Tuntematon tili
@@ -984,6 +988,7 @@ auth-error-1011 = Sähköpostiosoitteen täytyy olla kelvollinen
 auth-error-1031 = Ikä täytyy antaa rekisteröitymistä varten
 auth-error-1032 = Sinun tulee antaa kelvollinen ikä rekisteröityäksesi
 auth-error-1062 = Virheellinen uudelleenohjaus
+oauth-error-1000 = Jokin meni pieleen. Sulje tämä välilehti ja yritä uudelleen.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
