@@ -331,6 +331,7 @@ postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다
 postNewRecoveryCodes-description-2 = 생성 일시:
 postNewRecoveryCodes-action = 계정 관리
 postRemoveAccountRecovery-subject-2 = 계정 복구 키 삭제됨
+postRemoveAccountRecovery-title-3 = 계정 복구 키를 삭제했습니다
 postRemoveAccountRecovery-action = 계정 관리
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
@@ -345,13 +346,19 @@ postVerify-sub-title-3 = 만나서 반갑습니다!
 postVerify-title-2 = 두 기기에서 동일한 탭을 보고 싶은가요?
 postVerify-description-2 = 간단합니다! 다른 기기에 { -brand-firefox }를 설치하고 로그인하여 동기화하세요. 마법처럼요!
 postVerify-sub-description = (잠깐… 또한 로그인 한 모든 곳에서 북마크, 암호 및 기타 { -brand-firefox } 데이터를 가져올 수 있습니다.)
+postVerify-subject-4 = { -brand-mozilla }에 오신 것을 환영합니다!
 postVerify-setup-2 = 다른 기기 연결:
 postVerify-action-2 = 다른 기기 연결
 postVerifySecondary-subject = 보조 이메일 주소를 추가했습니다
 postVerifySecondary-title = 보조 이메일 주소를 추가했습니다
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = { -product-mozilla-account }에서 { $secondaryEmail }을 보조 이메일로 검증했습니다. 이제 보안 알림 및 로그인 확인은 두 이메일 주소로 전송됩니다.
 postVerifySecondary-action = 계정 관리
 recovery-subject = 비밀번호 재설정
 recovery-title-2 = 비밀번호를 잊으셨습니까?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = 다음으로부터 { -product-mozilla-account } 비밀번호 변경 요청을 받았습니다:
 recovery-new-password-button = 아래의 버튼을 클릭하여, 새 비밀번호를 만드세요. 링크는 한 시간 후 만료됩니다.
 recovery-copy-paste = 아래 URL을 복사하고 브라우저에 붙여 넣어 새 비밀번호를 만드세요. 링크는 한 시간 후에 만료됩니다.
 recovery-action = 새로운 비밀번호 생성
@@ -359,6 +366,11 @@ recovery-action = 새로운 비밀번호 생성
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = { $productName } 구독이 취소되었습니다.
 subscriptionAccountDeletion-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = 최근에 { -product-mozilla-account }을 삭제했습니다. 그 결과 귀하의 { $productName } 구독이 취소되었습니다. { $invoiceTotal }의 최종 결제는 { $invoiceDateOnly }에 이루어졌습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = { $productName }에 오신 것을 환영합니다: 비밀번호를 설정해주세요.
@@ -366,13 +378,17 @@ subscriptionAccountFinishSetup-subject = { $productName }에 오신 것을 환�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName }에 오신 것을 환영합니다.
 subscriptionAccountFinishSetup-content-processing = 결제가 진행중이며 최대 4 영업일이 소요될 수 있습니다. 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
+subscriptionAccountFinishSetup-content-create-3 = 다음으로 새로운 구독을 사용하기 위해 { -product-mozilla-account }의 비밀번호를 생성해야 합니다.
 subscriptionAccountFinishSetup-action-2 = 시작하기
 subscriptionAccountReminderFirst-subject = 알림: 계정 설정 완료
 subscriptionAccountReminderFirst-title = 아직 구독에 접근할 수 없습니다.
+subscriptionAccountReminderFirst-content-info-3 = 며칠 전에 { -product-mozilla-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
 subscriptionAccountReminderFirst-content-select-2 = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
 subscriptionAccountReminderFirst-action = 비밀번호 생성
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = 마지막 알림: 계정 설정
+subscriptionAccountReminderSecond-title-2 = { -brand-mozilla }에 오신 것을 환영합니다!
+subscriptionAccountReminderSecond-content-info-3 = 며칠 전에 { -product-mozilla-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
 subscriptionAccountReminderSecond-content-select-2 = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
 subscriptionAccountReminderSecond-action = 비밀번호 생성
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -388,6 +404,23 @@ subscriptionCancellation-title = 가까운 시일 내에 다시 뵐 수 있기�
 
 subscriptionCancellation-content-2 = { $productName } 구독을 취소했습니다. { $invoiceDateOnly }에 최종 결제 금액 { $invoiceTotal }이 지불되었습니다.
 subscriptionCancellation-outstanding-content-2 = { $productName } 구독을 취소했습니다. { $invoiceDateOnly }에 최종 결제 금액 { $invoiceTotal }이 지불될 예정됩니다.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = 서비스는 현재 청구 기간인 { $serviceLastActiveDateOnly }까지 계속 제공됩니다.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = { $productName }로 전환 완료
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld }에서 { $productName }로 성공적으로 전환했습니다.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = 다음 청구서부터 청구 금액이 { $productPaymentCycleOld } 당 { $paymentAmountOld }에서 { $productPaymentCycleNew } 당 { $paymentAmountNew }로 변경됩니다. 또한 { $productPaymentCycleOld }의 나머지 부분에 대해 더 높은 요금을 반영하기 위해 { $paymentProrated }의 일회성 요금이 청구됩니다.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = { $productName }를 사용하기 위해 설치할 새 소프트웨어가 있는 경우 다운로드 지침이 포함된 별도의 이메일을 받게 됩니다.
@@ -396,6 +429,9 @@ subscriptionDowngrade-content-auto-renew = 취소를 선택하지 않는 한 구
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName } 구독이 취소됨
 subscriptionFailedPaymentsCancellation-title = 구독이 취소됨
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = 여러 번의 결제 시도가 실패하여 { $productName } 구독을 취소했습니다. 다시 사용하시려면, 결제 수단을 변경하고 새 구독을 시작하세요.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } 결제 승인
@@ -407,6 +443,13 @@ subscriptionFirstInvoice-content-processing = 결제가 진행중이며 최대 4
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = { $productName }를 사용하기 위한 방법을 별도의 이메일로 받게 됩니다.
 subscriptionFirstInvoice-content-auto-renew = 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = { $productName } 결제에 사용하는 신용 카드 만료 혹은 만료 예정
+subscriptionPaymentExpired-title-1 = 신용카드가 만료되었거나 곧 만료될 예정입니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content-1 = { $productName } 결제에 사용하는 신용카드가 곧 만료되거나 이미 만료되었습니다.
@@ -432,16 +475,34 @@ subscriptionReactivation-subject = { $productName } 구독 재활성화됨
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = { $productName } 구독을 다시 활성화해 주셔서 감사합니다!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = 결제 주기와 결제는 동일하게 유지됩니다. 다음 청구 금액은 { $nextInvoiceDateOnly }에 { $invoiceTotal }입니다. 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = { $productName } 자동 갱신 알림
+subscriptionRenewalReminder-title = 구독이 곧 갱신됩니다
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = { $productName } 고객님께,
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = 현재 구독은 { $reminderLength }일 후 자동 갱신됩니다. { -brand-mozilla }가 { $planIntervalCount } { $planInterval } 구독을 갱신하고 계정에 등록된 결제 수단에 { $invoiceTotal } 상당을 청구할 예정입니다.
 subscriptionRenewalReminder-content-closing = 진심으로,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 팀 드림
+subscriptionsPaymentExpired-subject-1 = 결제용 신용 카드 만료 혹은 만료 예정
 subscriptionsPaymentExpired-title-1 = 신용카드가 만료되었거나 곧 만료될 예정입니다.
+subscriptionsPaymentExpired-content-1 = 다음 구독에 대한 결제에 사용 중인 신용 카드가 만료되었거나 곧 만료됩니다.
+subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } 구독에 대한 결제 정보 갱신 필요
 subscriptionsPaymentProviderCancelled-title = 죄송합니다. 선택하신 결제 수단에 문제가 있습니다.
 subscriptionsPaymentProviderCancelled-content-detected = 다음 구독에 대한 결제 방법에 문제가 있음을 감지했습니다.
+subscriptionsPaymentProviderCancelled-content-payment = 신용 카드가 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } 결제 수신됨
@@ -473,20 +534,40 @@ unblockCode-prompt-plaintext = 그렇다면 인증 코드를 사용하세요: { 
 unblockCode-report = 그렇지 않은 경우, 침입자를 차단할 수 있도록 <a data-l10n-name="reportSignInLink">신고</a>바랍니다.
 unblockCode-report-plaintext = 그렇지 않다면 침입자를 방어할 수 있도록 우리에게 알려 주세요.
 verificationReminderFinal-subject = 계정 확인을 위한 최종 알림
+verificationReminderFinal-description-2 = 몇 주 전에 { -product-mozilla-account }을 생성했지만 승인하지 않았습니다. 보안을 위해 24시간 내에 확인하지 않으면 계정이 삭제됩니다.
 confirm-account = 계정 확인
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = 계정 확인을 잊지 마세요
+verificationReminderFirst-title-3 = { -brand-mozilla }에 오신 것을 환영합니다!
+verificationReminderFirst-description-3 = 며칠 전 { -product-mozilla-account }을 생성했지만 승인하지 않았습니다. 15일 내에 계정을 확인하지 않으면 자동으로 삭제됩니다.
+verificationReminderFirst-sub-description-3 = 개인 정보 보호를 최우선으로 하는 브라우저를 놓치지 마세요.
 confirm-email-2 = 계정 확인
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = 계정 확인
+verificationReminderSecond-subject-2 = 계정 확인을 잊지 마세요
+verificationReminderSecond-title-3 = { -brand-mozilla }를 놓치지 마세요!
+verificationReminderSecond-description-4 = 며칠 전 { -product-mozilla-account } 계정을 생성했지만 승인하지 않았습니다. 10일 내에 계정을 확인하지 않으면 자동으로 삭제됩니다.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account }으로 기기 간 { -brand-firefox } 경험을 동기화하고 개인정보를 더욱 보호하는 { -brand-mozilla } 제품을 이용할 수 있습니다.
+verificationReminderSecond-sub-description-2 = 인터넷을 모두에게 개방된 공간으로 변화시키려는 우리의 사명에 동참해 주세요.
 verificationReminderSecond-action-2 = 계정 확인
+verify-title-3 = { -brand-mozilla }로 인터넷을 여세요.
+verify-description-2 = 계정을 확인하고, 모든 곳에서 { -brand-mozilla }를 최대한 활용하세요.
 verify-subject = 계정 생성 완료
 verify-action-2 = 계정 확인
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName }에 로그인하셨나요?
+verifyLogin-description-2 = 다음 서비스에서 발생한 로그인을 확인하여 계정을 안전하게 보호하세요.
 verifyLogin-subject-2 = 로그인 확인
 verifyLogin-action = 로그인 확인
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = { $serviceName } 로그인 승인
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = { $serviceName }에 로그인하셨나요?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = 다음 기기에서 발생한 로그인을 확인하여 계정을 안전하게 보호하세요.
 verifyLoginCode-prompt-3 = 만약 그렇다면, 검증 코드는 다음과 같습니다.
 verifyLoginCode-expiry-notice = 5분 후에 만료됩니다.
 verifyPrimary-title-2 = 기본 이메일 확인

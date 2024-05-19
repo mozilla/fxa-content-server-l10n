@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2024-03-10 00:23+0000\n"
-"Last-Translator: paperbox <lego37yoon@outlook.com>\n"
+"PO-Revision-Date: 2024-05-19 03:34+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1116,6 +1116,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            계속 진행하면 다음에 대해 동의하게 됩니다:<br />\n"
+"            Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개인정보 보호정책</a><br />\n"
+"            Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
+"          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
@@ -1125,6 +1130,11 @@ msgid ""
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              계속 진행하면 다음에 대해 동의하게 됩니다.<br />\n"
+"              Mozilla 구독 서비스 <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">개인정보 보호정책</a><br />\n"
+"              Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1171,6 +1181,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"          계속 진행하면 다음에 대해 동의하게 됩니다:<br />\n"
+"          Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개인정보 보호정책</a><br />\n"
+"          Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
+"        "
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1180,6 +1195,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            계속 진행하면 다음에 동의하게 됩니다.<br />\n"
+"            Mozilla 구독 서비스의 <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">개인정보 보호정책</a>< br />\n"
+"            Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
+"          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1937,6 +1957,9 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        <span>%(deviceOS)s %(deviceFamily)s</span> 기기에서 현재 동기화 중\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -1952,7 +1975,7 @@ msgstr "기기 관리"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "<small class=\"card-subheader\">다른 기기로부터</small> 승인이 필요합니다"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
@@ -1972,7 +1995,7 @@ msgstr "휴대폰 혹은 태블릿에서 Firefox 동기화"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "이미 휴대폰 혹은 태블릿에 Firefox가 설치되어 있나요?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
@@ -2004,7 +2027,7 @@ msgstr "페어링에 성공했습니다."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span>에 대한</span> 페어링 확인"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

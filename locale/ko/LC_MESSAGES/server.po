@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 20:08+0000\n"
-"PO-Revision-Date: 2023-12-03 07:54+0000\n"
-"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
+"PO-Revision-Date: 2024-03-10 00:22+0000\n"
+"Last-Translator: paperbox <lego37yoon@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Mozilla 계정"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla 로고"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -65,6 +65,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"우리는 현재 시스템 문제를 겪고 있으며\n"
+"            가능한 한 빨리 시스템을 정상화 하겠습니다."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
