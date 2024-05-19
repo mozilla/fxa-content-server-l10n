@@ -7,14 +7,31 @@ session-verify-send-push-body-2 = 본인 확인을 위해 여기를 클릭하세
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="동기화 기기">
-body-devices-image = <img data-l10n-name="devices-image" alt="장치">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 로고">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="기기 동기화">
+body-devices-image = <img data-l10n-name="devices-image" alt="기기">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } 개인정보 보호정책
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } 이용 약관
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } 로고">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } 로고">
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
 subplat-privacy-notice = 개인 정보 보호 정책
-subplat-privacy-plaintext = 개인정보처리방침:
+subplat-privacy-plaintext = 개인정보 보호정책:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = 이 이메일은 { $email }에 { -product-mozilla-account }가 있고 { $productName }에 가입했기 때문에 발송되었습니다.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = 이 이메일은 { $email }에 { -product-mozilla-account }가 있기 때문에 발송되었습니다.
+subplat-explainer-multiple-2 = 이 이메일은 { $email }에 { -product-mozilla-account }가 있고 여러 제품을 구독했기 때문에 발송되었습니다.
+subplat-explainer-was-deleted-2 = 이 이메일은 { $email }에 { -product-mozilla-account }가 등록되어 있어 발송되었습니다.
+subplat-manage-account-2 = <a data-l10n-name="subplat-account-page">계정 페이지</a>를 방문하여 { -product-mozilla-account } 설정을 관리하세요.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = 다음 계정 페이지를 방문하여 { -product-mozilla-account } 설정을 관리하세요. { $accountSettingsUrl }
 subplat-terms-policy = 약관 및 취소 정책
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = 구독 취소
@@ -23,7 +40,9 @@ subplat-reactivate = 구독 재활성
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = 결제 정보 업데이트
 subplat-privacy-policy = { -brand-mozilla } 개인 정보 보호 정책
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } 개인정보 보호정책
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } 이용 약관
 subplat-legal = 법적 고지
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = 개인 정보 정책
@@ -60,12 +79,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } 자세한 �
 automated-email-no-action-plaintext = 이것은 자동 이메일입니다. 실수로 받은 경우에는 아무 조치도 취할 필요가 없습니다.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 자동으로 발송된 이메일입니다. 이 작업을 승인하지 않았다면 비밀번호를 변경해 주세요:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = 이 요청은 { $uaOS } { $uaOSVersion } 버전의 { $uaBrowser }에서 발송되었습니다.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = 이 요청은 { $uaOS }의 { $uaBrowser }에서 발송되었습니다.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = 이 요청은 { $uaBrowser }에서 발송되었습니다.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = 이 요청은 { $uaOS } { $uaOSVersion } 버전에서 발송되었습니다.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = 이 요청은 { $uaOS }에서 발송되었습니다.
+automatedEmailRecoveryKey-delete-key-change-pwd = 본인이 아니라면, <a data-l10n-name="revokeAccountRecoveryLink">새 키를 삭제</a>하시고 <a data-l10n-name="passwordChangeLink">비밀번호를 변경하세요</a>.
+automatedEmailRecoveryKey-change-pwd-only = 본인이 아니라면, <a data-l10n-name="passwordChangeLink">비밀번호를 변경하세요</a>.
+automatedEmailRecoveryKey-more-info = 자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla } 지원</a>을 참조하세요.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = 이 요청은 다음 기기에서 발송되었습니다.
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = 본인이 아니라면, 다음 주소에서 새 키를 삭제하세요.
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = 본인이 아니라면, 다음 주소에서 비밀번호를 변경하세요.
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = 그리고 다음 주소에서 비밀번호를 변경하세요.
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = 자세한 내용은 { -brand-mozilla } 지원을 참조하세요:
 automated-email-reset =
     자동으로 발송된 이메일입니다. 승인하지 않은 작업인 경우 <a data-l10n-name="resetLink">비밀번호를 재설정</a>하십시오.
     자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla }지원 페이지</a>를 참조하십시오.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 비밀번호를 변경하지 않으셨다면 지금 { $resetLink }에서 비밀번호를 재설정하세요.
+brand-banner-message = { -product-firefox-accounts } 명칭이 { -product-mozilla-accounts }으로 변경되었다는 사실을 알고 계신가요? <a data-l10n-name="learnMore">자세히 알아보세요</a>
 cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl">설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 이 짧은 설문조사에 참여하셔서 서비스 개선에 도움을 주십시오.
@@ -92,6 +150,9 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 credit-card-ending-in = { $lastFour }로 끝나는 { $cardName } 카드
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = { $lastFour } 번호로 끝나는 알 수 없는 카드
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
@@ -160,6 +221,7 @@ cadReminderFirst-action = 다른 기기 동기화
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 동기화를 위해 둘 이상의 기기가 필요합니다.
+cadReminderFirst-description-v2 = 모든 장치에서 탭을 사용하세요. { -brand-firefox }를 사용하는 어디서나 북마크, 비밀번호, 그리고 그 밖의 데이터를 이용하세요.
 cadReminderSecond-subject-2 = 잊지 마세요! 동기화 설정을 완료해야 합니다.
 cadReminderSecond-action = 다른 기기 동기화
 cadReminderSecond-title-2 = 동기화를 잊지 마세요!
@@ -173,7 +235,10 @@ downloadSubscription-subject = { $productName }에 오신 것을 환영합니다
 downloadSubscription-title = { $productName }에 오신 것을 환영합니다.
 downloadSubscription-content-2 = 구독에 포함된 모든 기능을 사용해보세요
 downloadSubscription-link-action-2 = 시작하기
+fraudulentAccountDeletion-subject-2 = { -product-mozilla-account }가 삭제되었습니다
 fraudulentAccountDeletion-title = 계정이 삭제되었습니다
+fraudulentAccountDeletion-content-part1-v2 = 최근에 이 이메일 주소로 { -product-mozilla-account }가 생성되었고 구독이 청구되었습니다. 모든 새 계정에 필요한 절차와 같이, 이 이메일 주소를 인증하여 계정을 확인하세요.
+fraudulentAccountDeletion-content-part2-v2 = 현재 계정을 승인하지 않은 것으로 확인됩니다. 이 절차를 완료하지 않아, 이 구독이 의도한 것인지 확인할 수 없었습니다. 결과적으로, 이 이메일에 등록된 { -product-mozilla-account }가 구독을 취소하고 모든 청구 요금을 환불했습니다.
 fraudulentAccountDeletion-contact = 궁금하신 점이 있다면, <a data-l10n-name="mozillaSupportUrl">지원 팀</a>에 문의하세요.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -188,9 +253,16 @@ codes-reminder-description-two-left = 코드가 두 개만 남았습니다.
 codes-reminder-description-create-codes = 계정이 잠긴 경우 다시 로그인할 수 있도록 새 백업 인증 코드를 만드세요.
 lowRecoveryCodes-action-2 = 코드 생성
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] 백업 인증 코드가 남아있지 않습니다
+       *[other] 백업 인증 코드가 { $numberRemaining }개 남았습니다!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName }에 대한 새 로그인
+newDeviceLogin-subjectForMozillaAccount = { -product-mozilla-account }에 대한 새 로그인
+newDeviceLogin-title-3 = 귀하의 { -product-mozilla-account }가 로그인에 사용되었습니다.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 본인이 아닌가요? <a data-l10n-name="passwordChangeLink">비밀번호를 바꾸세요</a>.
@@ -200,8 +272,11 @@ newDeviceLogin-change-password-plain = 본인이 아닌가요? 비밀번호를 �
 newDeviceLogin-action = 계정 관리
 passwordChanged-subject = 비밀번호 수정 완료
 passwordChanged-title = 비밀번호 변경 성공
+passwordChanged-description-2 = { -product-mozilla-account } 비밀번호가 다음 기기에서 성공적으로 변경됨:
 passwordChangeRequired-subject = 의심스러운 활동 감지
 passwordChangeRequired-title = 비밀번호 변경 필요
+passwordChangeRequired-suspicious-activity-2 = { -product-mozilla-account }에서 의심스러운 동작을 감지했습니다. 귀하의 { -product-mozilla-account }에 대한 무단 접근을 방지하기 위해 귀하의 계정에 있는 모든 기기의 연결을 해제했으며 예방책으로 비밀번호를 변경해야 합니다.
+passwordChangeRequired-sign-in-2 = { -product-mozilla-account } 계정을 사용하는 기기나 서비스에 다시 로그인하고 제시된 단계를 따라주세요.
 passwordChangeRequired-different-password = <b>중요:</b> 이전에 사용하던 것과 다른 비밀번호를 선택하고 이메일 계정과 다른지 확인하세요.
 passwordChangeRequired-different-password-plaintext = 중요: 이전에 사용했던 것과 다른 비밀번호를 선택하세요. 이메일 계정과 다른 비밀번호인지 확인하세요.
 passwordReset-subject = 비밀번호 수정 완료
@@ -211,11 +286,22 @@ passwordResetAccountRecovery-subject-2 = 비밀번호가 재설정되었습니�
 passwordResetAccountRecovery-title-2 = 비밀번호 재설정 성공
 # Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 계정 복구 키를 사용하여 비밀번호를 업데이트 했습니다:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = 계정 복구 키 생성
 passwordResetAccountRecovery-regen-required-mjml-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
+postAddAccountRecovery-subject-3 = 새 계정 복구 키 생성됨
 postAddAccountRecovery-title2 = 새 계정 복구 키를 생성했습니다
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = 이 키를 안전한 장소에 저장하세요 — 비밀번호를 잊어 버렸을 때 암호화된 브라우저 데이터를 복원하는 용도로 필요합니다.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = 이 키는 한 번만 사용할 수 있습니다. 사용한 후에는 자동으로 새 키를 생성해드립니다. 혹은 언제든 계정 설정에서 새 키를 생성할 수 있습니다.
 postAddAccountRecovery-action = 계정 관리
+postAddLinkedAccount-subject-2 = { -product-mozilla-account }에 새 계정 연결됨
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = { $providerName } 계정이 { -product-mozilla-account } 계정에 연결되었습니다.
 postAddLinkedAccount-action = 계정 관리
 postAddTwoStepAuthentication-subject-2 = 2단계 인증이 켜져 있습니다
 postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
@@ -238,8 +324,11 @@ postConsumeRecoveryCode-title-2 = 백업 인증 코드를 사용하였습니다.
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = 사용된 기기:
 postConsumeRecoveryCode-action = 계정 관리
+postConsumeRecoveryCode-subject-2 = { $numberRemaining }개의 백업 인증 코드 남음
 postNewRecoveryCodes-subject-2 = 새 백업 인증 코드가 생성됨
 postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = 생성 일시:
 postNewRecoveryCodes-action = 계정 관리
 postRemoveAccountRecovery-subject-2 = 계정 복구 키 삭제됨
 postRemoveAccountRecovery-action = 계정 관리
