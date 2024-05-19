@@ -579,10 +579,16 @@ verifyPrimary-post-verify-2 = 검증이 되면 이 기기에서 보조 이메일
 verifySecondaryCode-subject = 보조 이메일 확인
 verifySecondaryCode-title-2 = 보조 이메일 확인
 verifySecondaryCode-action-2 = 이메일 확인
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = 다음 { -product-mozilla-account }으로부터 { $email } 이메일을 보조 이메일 주소로 사용하기 위한 요청이 왔습니다:
 verifySecondaryCode-prompt-2 = 인증 코드 사용:
 verifySecondaryCode-expiry-notice-2 = 5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 계정 확인
+verifyShortCode-title-3 = { -brand-mozilla }로 인터넷을 여세요.
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = 계정을 확인하고, 모든 곳에서 { -brand-mozilla }를 최대한 활용하세요.
 verifyShortCode-prompt-3 = 인증 코드 사용:
 verifyShortCode-expiry-notice = 5분 후에 만료됩니다.
