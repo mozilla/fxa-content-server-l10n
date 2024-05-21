@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Na ndjeni, pati një problem me shkarkimin e k
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Merrni më tepër nga { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Ndihmoni ta mbajmë Internetin të shëndetshëm
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Lajme dhe përditësime mbi sigurinë & privatësinë
 # Newsletter checklist item
@@ -170,6 +167,12 @@ form-password-sr-passwords-match = Fjalëkalimet e dhënë përputhen.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Kjo fushë është e domosdoshme
+
+## FormVerifyTotp
+
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Parashtro { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -953,6 +956,14 @@ terms-privacy-agreement-default-2 = Duke vazhduar, pajtoheni me <mozillaAccounts
 third-party-auth-options-or = Ose
 continue-with-google-button = Vazhdo me { -brand-google }
 continue-with-apple-button = Vazhdo me { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Shifra { $inputNumber } nga { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
