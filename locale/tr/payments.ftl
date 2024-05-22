@@ -413,6 +413,7 @@ brand-name-apple-app-store-2 = { -app-store }
 
 product-plan-change-heading = Değişikliğinizi gözden geçirin
 sub-change-failed = Plan değişikliği başarısız oldu
+sub-update-acknowledgment = Planınız hemen değişecek ve bu fatura döneminin kalan süresi için hesaplanan ek ücret tahsil edilecektir. { $startingDate } tarihinden itibaren tam ücret tahsil edilecektir.
 sub-change-submit = Değişikliği onaylayın
 sub-update-current-plan-label = Geçerli plan
 sub-update-new-plan-label = Yeni plan
