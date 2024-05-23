@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Bir kilit resmi
 lightbulb-aria-label =
     .aria-label = Saklama ipucu oluşturmayı betimleyen çizim.
+email-code-image-aria-label =
+    .aria-label = Kod içeren bir e-postayı betimleyen çizim.
 
 ## Input Password
 
@@ -263,9 +265,8 @@ reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığın�
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Parolanızı hatırladınız mı? Giriş yapın
+# link navigates to the sign in page
+remember-password-signin-link = Giriş yap
 
 ## LinkUsed component
 
@@ -1292,6 +1293,33 @@ reset-password-email-required-error = E-posta gerekli
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Parolayı sıfırla
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Onay kodunu girin
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = <span>{ $email }</span> adresine gönderdiğimiz 8 basamaklı onay kodunu 10 dakika içinde girin.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = 8 basamaklı kodu girin
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Devam
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Kodu yeniden gönder
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Farklı bir hesap kullan
+
+## ResetPassword start page
+
+password-reset-body = E-posta adresinizi yazın. Gerçekten siz olduğunuzu doğrulamak için e-posta adresinize bir doğrulama kodu göndereceğiz.
+password-reset-email-input =
+    .label = E-posta adresinizi yazın
 
 ## CompleteSignin component
 
