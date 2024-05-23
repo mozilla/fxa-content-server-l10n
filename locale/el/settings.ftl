@@ -263,9 +263,8 @@ reset-pwd-link-expired-message = Ο σύνδεσμος στον οποίο κά�
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Θυμάστε τον κωδικό πρόσβασης σας; Συνδεθείτε
+# link navigates to the sign in page
+remember-password-signin-link = Σύνδεση
 
 ## LinkUsed component
 
@@ -1313,6 +1312,16 @@ reset-password-email-required-error = Απαιτείται email
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Επαναφορά κωδικού πρόσβασης
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Συνέχεια
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
