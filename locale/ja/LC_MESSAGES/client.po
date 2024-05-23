@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-05 20:08+0000\n"
+"POT-Creation-Date: 2024-05-23 20:08+0000\n"
 "PO-Revision-Date: 2024-05-06 01:34+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -24,7 +24,7 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "パスワードのリセットが完了しました。続けるにはログインしてください。"
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "ログイン"
@@ -85,7 +85,7 @@ msgstr "アカウント通知は今後 %(secondaryEmailVerified)s にも送ら�
 msgid "Secondary email confirmed"
 msgstr "予備のメールアドレスを確認しました"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "ログインが確認されました"
 
@@ -837,8 +837,12 @@ msgid "Invalid Token"
 msgstr "不正なトークン"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなさ"
+"れます。"
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -905,8 +909,11 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "安全な場所に保管された 1 度だけ使用可能なアカウント回復用キーを入力して、Mozilla アカウントへのアクセスを取り戻しましょう。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr "<span class=\"note\">注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。"
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されま"
+"す。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -948,7 +955,9 @@ msgstr "新しいパスワードを設定"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
+msgstr ""
+"<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+"のパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1016,7 +1025,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Back"
 msgstr "戻る"
 
@@ -1054,51 +1063,55 @@ msgstr "コードの有効期限が切れていますか？"
 msgid "Email new code."
 msgstr "新しいコードをメールに送信する。"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
 msgid "Connect another device"
 msgstr "他の端末を接続"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
 msgstr "Firefox にログインしました"
 
-#: .es5/templates/connect_another_device.mustache:4
+#: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
 msgstr "メールアドレスを確認しました"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
 msgid "Complete your set-up"
 msgstr "セットアップを完了"
 
-#: .es5/templates/connect_another_device.mustache:10
+#: .es5/templates/connect_another_device.mustache:11
+msgid "You’re signed in to Firefox"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "この Firefox へログインして設定を完了してください"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "他にも端末を追加しますか？"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "他の端末上の Firefox へログインして設定を完了してください"
 
-#: .es5/templates/connect_another_device.mustache:17
+#: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "他の端末で開いているタブやブックマーク、パスワードを読み込みますか？"
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
-msgid "Not now"
-msgstr "後で"
+#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "ブラウジングを始める"
 
-#: .es5/templates/connect_another_device.mustache:22
+#: .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
 msgstr "まだ端末を追加していますか？ 他の端末上で Firefox へログインして設定を完了しましょう"
 
-#: .es5/templates/connect_another_device.mustache:24
+#: .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Android 版 Firefox へログインして設定を完了してください"
 
-#: .es5/templates/connect_another_device.mustache:26
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "iOS 版 Firefox へログインして設定を完了してください"
 
@@ -1114,34 +1127,43 @@ msgstr "パスワード"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            続行すると、以下の規約に同意したものとみなされます:<br />\n"
-"            Pocket の <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">プライバシー通知</a><br />\n"
-"            Mozilla アカウントの <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> およひ <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>\n"
+"            Pocket の <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">プライバシー通知</a><br />\n"
+"            Mozilla アカウントの <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> およひ <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知"
+"</a>\n"
 "        "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              続行すると、<br />\n"
-"              Mozilla サブスクリプションサービスの <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">利用規約</a> および <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">プライバシー通知</a>、<br />\n"
-"              Mozilla アカウント <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。\n"
+"              Mozilla サブスクリプションサービスの <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">利用規約</a> および "
+"<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">プライバシー通知</a>、<br />\n"
+"              Mozilla アカウント <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意"
+"したものとみなされます。\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "続けることで、<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> と <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"続けることで、<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> と <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされま"
+"す。"
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1179,28 +1201,34 @@ msgstr "Mozilla アカウントを使用すると、さらにプライバシー�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          続行すると、以下の規約に同意したものとみなされます:<br />\n"
-"          Pocket の <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">プライバシー通知</a><br />\n"
-"          Mozilla アカウントの <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> およひ <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>\n"
+"          Pocket の <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">プライバシー通知</a><br />\n"
+"          Mozilla アカウントの <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> およひ <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</"
+"a>\n"
 "        "
 
 #: .es5/templates/index.mustache:14
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            続行すると、<br />\n"
-"            Mozilla サブスクリプションサービスの <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">利用規約</a> および <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">プライバシー通知</a>、<br />\n"
-"            Mozilla アカウント <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。\n"
+"            Mozilla サブスクリプションサービスの <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">利用規約</a> および <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">プライバシー通知</a>、<br />\n"
+"            Mozilla アカウント <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意し"
+"たものとみなされます。\n"
 "            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1224,7 +1252,7 @@ msgid "Print"
 msgstr "印刷"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:15
 msgid "Continue"
 msgstr "続ける"
 
@@ -1330,10 +1358,6 @@ msgstr "プライバシー通知"
 msgid "Success"
 msgstr "成功"
 
-#: .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "ブラウジングを始める"
-
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> を使用する準備が整いました"
@@ -1370,7 +1394,9 @@ msgstr "このような問題が起きた理由"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>補足:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
+msgstr ""
+"<span>補足:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+"のパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1687,7 +1713,9 @@ msgstr "%(serviceName)s へ進む"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr "Mozilla アカウントで疑わしい動作が検出されました。アカウントを保護するために、新しいパスワードを作成してください。すべての Mozilla アカウントサービスに、このパスワードを使用して再度ログインしてください。"
+msgstr ""
+"Mozilla アカウントで疑わしい動作が検出されました。アカウントを保護するために、新しいパスワードを作成してください。すべての Mozilla アカウントサービスに、このパスワードを使用して再度ログインしてくだ"
+"さい。"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1769,7 +1797,7 @@ msgstr "端末間で Firefox を同期"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "ブックマーク、履歴、パスワードをモバイル端末の Firefox と同期します。ほんの数分しかかかりません。"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
 msgid "Get started"
 msgstr "はじめる"
 
@@ -1986,35 +2014,63 @@ msgstr "ペアリングに失敗しました"
 msgid "The setup process was terminated."
 msgstr "セットアップ処理が中断されました。"
 
-#: .es5/templates/pair/index.mustache:1
-msgid "Connect Firefox on another device"
-msgstr "別の端末の Firefox を接続する"
+#: .es5/templates/pair/index.mustache:5
+msgid "Sync your Firefox experience"
+msgstr ""
 
-#: .es5/templates/pair/index.mustache:3
+#: .es5/templates/pair/index.mustache:6
+msgid "Download Firefox for mobile"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
 msgstr "スマートフォンやタブレットで Firefox を同期する"
 
-#: .es5/templates/pair/index.mustache:4
-msgid "Already have Firefox on a phone or tablet?"
-msgstr "スマートフォンやタブレットでお使いの Firefox がありますか？"
+#: .es5/templates/pair/index.mustache:10
+msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
+msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
-msgid "Sync your device"
-msgstr "端末を同期する"
-
-#: .es5/templates/pair/index.mustache:6
-msgid "Or download"
-msgstr "またはダウンロード"
-
-#: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr "スキャンしてモバイル版 Firefox をダウンロードするか、自分に<a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ダウンロードのリンク</a>を送る"
-
-#: .es5/templates/pair/index.mustache:8
-msgid "QR code"
-msgstr "QR コード"
+#: .es5/templates/pair/index.mustache:11
+msgid "I already have Firefox for mobile"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:12
+msgid "Start your sync now if you already have Firefox on your mobile device."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:13
+msgid "I don’t have Firefox for mobile"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:14
+msgid "Download Firefox on your mobile device, then start your sync."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
+msgid "Not now"
+msgstr "後で"
+
+#: .es5/templates/pair/index.mustache:17
+msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:18
+msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:19
+msgid "QR code (located in the middle of the screen)"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:20
+msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:21
+msgid "Continue to sync"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr "Firefox を使用しているすべての場所でパスワード、タブ、ブックマークを持ち運びましょう。"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-05 20:08+0000\n"
+"POT-Creation-Date: 2024-05-23 20:08+0000\n"
 "PO-Revision-Date: 2023-05-17 10:00+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Парол уңышлы үзгәртелде. Дәвам итү өчен керегез."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Керү"
@@ -84,7 +84,7 @@ msgstr "Аккаунтыгызга кагылышлы белдерүләр хә�
 msgid "Secondary email confirmed"
 msgstr "Икенчел эл. почта расланды"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Керү расланды"
 
@@ -1019,7 +1019,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Килгән яки спам папкасында түгелме? Яңадан җибәрү"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Back"
 msgstr "Кире"
 
@@ -1057,51 +1057,55 @@ msgstr "Мөддәте чыккан кодмы?"
 msgid "Email new code."
 msgstr "Эл. почта аша яңа код җибәрегез."
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
 msgid "Connect another device"
 msgstr "Башка җиһазны тоташтыру"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
 msgstr "Сез Firefox-ка кердегез"
 
-#: .es5/templates/connect_another_device.mustache:4
+#: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
 msgstr "Эл. почта расланды"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
 msgid "Complete your set-up"
 msgstr "Урнаштыруны тәмамлагыз"
 
-#: .es5/templates/connect_another_device.mustache:10
+#: .es5/templates/connect_another_device.mustache:11
+msgid "You’re signed in to Firefox"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Көйләүне тәмамлар өчен бу Firefox'ка керегез"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Әле дә җиһазлар өстисезме?"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Көйләүне тәмамлар өчен башка бер җиһаздан Firefox'ка керегез"
 
-#: .es5/templates/connect_another_device.mustache:17
+#: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
-msgid "Not now"
-msgstr "Хәзер түгел"
+#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Гизүне башлау"
 
-#: .es5/templates/connect_another_device.mustache:22
+#: .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
 msgstr "Әле дә җиһазлар өстисезме? Көйләүне тәмамлар өчен башка бер җиһаздан Firefox-ка керегез"
 
-#: .es5/templates/connect_another_device.mustache:24
+#: .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Көйләүне тәмамлар өчен Android өчен Firefox'ка керегез"
 
-#: .es5/templates/connect_another_device.mustache:26
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Көйләүне тәмамлар өчен iOS өчен Firefox'ка керегез"
 
@@ -1212,7 +1216,7 @@ msgid "Print"
 msgstr "Бастыру"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:15
 msgid "Continue"
 msgstr "Дәвам итү"
 
@@ -1317,10 +1321,6 @@ msgstr "Хоусыйлык Аңлатмасы"
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Уңышлы"
-
-#: .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "Гизүне башлау"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1757,7 +1757,7 @@ msgstr "Firefox-ны җиһазлар арасында синхронлау"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
 msgid "Get started"
 msgstr "Башлап җибәрү"
 
@@ -1972,36 +1972,63 @@ msgstr "Ялгау килеп чыкмады"
 msgid "The setup process was terminated."
 msgstr "Урнаштыру процессы өзелде."
 
-#: .es5/templates/pair/index.mustache:1
-msgid "Connect Firefox on another device"
-msgstr "Firefox-ны башка җиһазга тоташтырыгыз"
+#: .es5/templates/pair/index.mustache:5
+msgid "Sync your Firefox experience"
+msgstr ""
 
-#: .es5/templates/pair/index.mustache:3
+#: .es5/templates/pair/index.mustache:6
+msgid "Download Firefox for mobile"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
 msgstr "Firefox-ны телефоныгызда яки планшетыгызда синхронлагыз"
 
-#: .es5/templates/pair/index.mustache:4
-msgid "Already have Firefox on a phone or tablet?"
-msgstr "Телефоныгызда яки планшетыгызда Firefox бармы инде?"
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Sync your device"
-msgstr "Җиһазыгызны синхронлагыз"
-
-#: .es5/templates/pair/index.mustache:6
-msgid "Or download"
+#: .es5/templates/pair/index.mustache:10
+msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:7
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+#: .es5/templates/pair/index.mustache:11
+msgid "I already have Firefox for mobile"
 msgstr ""
-
-#: .es5/templates/pair/index.mustache:8
-msgid "QR code"
-msgstr "QR коды"
 
 #: .es5/templates/pair/index.mustache:12
+msgid "Start your sync now if you already have Firefox on your mobile device."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:13
+msgid "I don’t have Firefox for mobile"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:14
+msgid "Download Firefox on your mobile device, then start your sync."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
+msgid "Not now"
+msgstr "Хәзер түгел"
+
+#: .es5/templates/pair/index.mustache:17
+msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:18
+msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:19
+msgid "QR code (located in the middle of the screen)"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:20
+msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:21
+msgid "Continue to sync"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr ""
 

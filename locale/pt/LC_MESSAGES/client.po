@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-05 20:08+0000\n"
+"POT-Creation-Date: 2024-05-23 20:08+0000\n"
 "PO-Revision-Date: 2024-02-05 20:25+0000\n"
 "Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Palavra-passe reposta com sucesso. Inicie sessão para continuar."
 
 #. submit button
-#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Iniciar sessão"
@@ -84,7 +84,7 @@ msgstr "Agora, as notificações de conta também serão enviadas para %(seconda
 msgid "Secondary email confirmed"
 msgstr "E-mail secundário confirmado"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Início de sessão confirmado"
 
@@ -835,7 +835,9 @@ msgid "Invalid Token"
 msgstr "Token inválido"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ao proceder, está a concordar com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do Serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s\">Informação de Privacidade</a> do "
 "%(serviceName)s (%(serviceUri)s)."
@@ -904,7 +906,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Por favor, insira a chave de recuperação da conta única que guardou num local seguro para recuperar o acesso à sua conta Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> Se redefinir a sua palavra-passe e não tiver uma chave de recuperação da conta guardada, serão eliminados alguns dos seus dados (incluindo os dados de servidor "
 "sincronizados, tais como, histórico e marcadores)."
@@ -1019,7 +1022,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Não está na caixa de entrada ou pasta de lixo? Reenviar"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
 msgid "Back"
 msgstr "Retroceder"
 
@@ -1057,51 +1060,55 @@ msgstr "O código expirou?"
 msgid "Email new code."
 msgstr "Enviar novo código por e-mail."
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
 msgid "Connect another device"
 msgstr "Ligar outro dispositivo"
 
-#: .es5/templates/connect_another_device.mustache:2
+#: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
 msgstr "Iniciou sessão no Firefox"
 
-#: .es5/templates/connect_another_device.mustache:4
+#: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
 msgstr "Endereço de correio eletrónico confirmado"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
 msgid "Complete your set-up"
 msgstr "Conclua a sua configuração"
 
-#: .es5/templates/connect_another_device.mustache:10
+#: .es5/templates/connect_another_device.mustache:11
+msgid "You’re signed in to Firefox"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Iniciar sessão neste Firefox para completar a configuração"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Ainda a adicionar dispositivos?"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Inicie sessão no Firefox noutro dispositivo para completar a configuração"
 
-#: .es5/templates/connect_another_device.mustache:17
+#: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "Pretende ter os seus separadores, marcadores e as palavras-passe noutro dispositivo?"
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
-msgid "Not now"
-msgstr "Agora não"
+#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Começar a navegar"
 
-#: .es5/templates/connect_another_device.mustache:22
+#: .es5/templates/connect_another_device.mustache:27
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
 msgstr "Continua a adicionar dispositivos? Inicie sessão no Firefox noutro dispositivo para completar a configuração"
 
-#: .es5/templates/connect_another_device.mustache:24
+#: .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Inicie sessão no Firefox para Android para completar a configuração"
 
-#: .es5/templates/connect_another_device.mustache:26
+#: .es5/templates/connect_another_device.mustache:31
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Inicie sessão no Firefox para iOS para completar a configuração"
 
@@ -1117,36 +1124,43 @@ msgstr "Palavra-passe"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ao continuar, concorda com:<br />\n"
-"            Os <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Termos do serviço</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Informação de privacidade</a> do Pocket<br />\n"
-"            Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das Contas Mozilla\n"
+"            Os <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Termos do serviço</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Informação de privacidade</a> do Pocket<br />\n"
+"            Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das "
+"Contas Mozilla\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Ao continuar, concorda com:<br />\n"
-"              Os <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Termos do serviço</a> e <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informação de privacidade</a> dos serviços de subscrição da Mozilla<br />\n"
-"              Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das Contas Mozilla\n"
+"              Os <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Termos do serviço</a> e <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informação de privacidade</a> dos serviços de subscrição da Mozilla<br />\n"
+"              Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das "
+"Contas Mozilla\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Ao continuar, está a concordar com os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Informação de privacidade</a>."
+"Ao continuar, está a concordar com os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Informação de privacidade</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1184,28 +1198,34 @@ msgstr "Uma conta Mozilla também desbloqueia o acesso a mais produtos de prote�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Ao continuar, concorda com:<br />\n"
-"          Os <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Termos do serviço</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Informação de privacidade</a> do Pocket<br />\n"
-"          Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das Contas Mozilla\n"
+"          Os <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Termos do serviço</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Informação de privacidade</a> do Pocket<br />\n"
+"          Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das "
+"Contas Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:14
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ao continuar, concorda com:<br />\n"
-"            Os <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Termos do serviço</a> e <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informação de privacidade</a> dos serviços de subscrição da Mozilla<br />\n"
-"            Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das Contas Mozilla\n"
+"            Os <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Termos do serviço</a> e <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informação de privacidade</a> dos serviços de subscrição da Mozilla<br />\n"
+"            Os <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> das "
+"Contas Mozilla\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1229,7 +1249,7 @@ msgid "Print"
 msgstr "Imprimir"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:15
 msgid "Continue"
 msgstr "Continuar"
 
@@ -1335,10 +1355,6 @@ msgstr "Informação de privacidade"
 msgid "Success"
 msgstr "Sucesso"
 
-#: .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "Começar a navegar"
-
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Agora você está pronto para usar <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1376,8 +1392,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>NOTA:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Pode perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto é porque nós encriptamos"
-" os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá continuar a manter quaisquer subscrições que tenha e os dados do Pocket não serã afetados."
+"<span>NOTA:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Pode perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto é porque nós "
+"encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá continuar a manter quaisquer subscrições que tenha e os dados do Pocket não serã afetados."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1697,8 +1713,8 @@ msgstr "para continuar para %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
-"Detetámos um comportamento suspeito na sua conta Mozilla. Para proteger a sua conta, por favor, crie uma nova palavra-passe. Irá utilizar esta palavra-passe para iniciar sessão novamente em todos os"
-" serviços da sua conta Mozilla."
+"Detetámos um comportamento suspeito na sua conta Mozilla. Para proteger a sua conta, por favor, crie uma nova palavra-passe. Irá utilizar esta palavra-passe para iniciar sessão novamente em todos "
+"os serviços da sua conta Mozilla."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1780,7 +1796,7 @@ msgstr "Firefox Sync entre dispositivos"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Sincronize os marcadores, histórico e palavras-passe do Firefox nos seus dispositivos móveis. Demora apenas alguns minutos."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
 msgid "Get started"
 msgstr "Começar"
 
@@ -1998,37 +2014,63 @@ msgstr "Emparelhamento sem sucesso"
 msgid "The setup process was terminated."
 msgstr "O processo de configuração foi terminado."
 
-#: .es5/templates/pair/index.mustache:1
-msgid "Connect Firefox on another device"
-msgstr "Associar o Firefox noutro dispositivo"
+#: .es5/templates/pair/index.mustache:5
+msgid "Sync your Firefox experience"
+msgstr ""
 
-#: .es5/templates/pair/index.mustache:3
+#: .es5/templates/pair/index.mustache:6
+msgid "Download Firefox for mobile"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
 msgstr "Sincronizar o Firefox no seu telemóvel ou tablet"
 
-#: .es5/templates/pair/index.mustache:4
-msgid "Already have Firefox on a phone or tablet?"
-msgstr "Já tem o Firefox num telefone ou tablet?"
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Sync your device"
-msgstr "Sincronizar o seu dispositivo"
-
-#: .es5/templates/pair/index.mustache:6
-msgid "Or download"
-msgstr "Ou transferir"
-
-#: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+#: .es5/templates/pair/index.mustache:10
+msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
 msgstr ""
-"Digitalize para transferir o Firefox para o telemóvel, ou envie para si mesmo uma <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
-"blue\">ligação de transferência.</a>"
 
-#: .es5/templates/pair/index.mustache:8
-msgid "QR code"
-msgstr "Código QR"
+#: .es5/templates/pair/index.mustache:11
+msgid "I already have Firefox for mobile"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:12
+msgid "Start your sync now if you already have Firefox on your mobile device."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:13
+msgid "I don’t have Firefox for mobile"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:14
+msgid "Download Firefox on your mobile device, then start your sync."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
+msgid "Not now"
+msgstr "Agora não"
+
+#: .es5/templates/pair/index.mustache:17
+msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:18
+msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:19
+msgid "QR code (located in the middle of the screen)"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:20
+msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:21
+msgid "Continue to sync"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr "Leve os seus separadores, marcadores e palavras-passe para qualquer sítio em que utilizar o Firefox."
 
