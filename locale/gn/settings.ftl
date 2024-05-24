@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Peteĩ mbotyha ra’ãnga
 lightbulb-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua ñemoñe’ẽ moheñoimby ñembyatyha rendarã.
+email-code-image-aria-label =
+    .aria-label = Ta’ãnga ehechaukakuaa hag̃ua ñanduti veve ijayvúva.
 
 ## Input Password
 
@@ -263,9 +265,10 @@ reset-pwd-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’�
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = ¿Nemandu’a ne ñe’ẽñemíre? Eñepyrũ tembiapo
+# immediately before remember-password-signin-link
+remember-password-text = ¿Nemandu’áke ñe’ẽñemíre?
+# link navigates to the sign in page
+remember-password-signin-link = Eñepyrũ tembiapo
 
 ## LinkUsed component
 
@@ -1311,6 +1314,26 @@ reset-password-email-required-error = Ñanduti veve tekotevẽva
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Ñe’ẽñemi guerujey
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Emoinge ayvu ñemoneĩrã
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = Emoinge ayvu 8 taíva
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Eku’ejey
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Emondojey ayvu
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
