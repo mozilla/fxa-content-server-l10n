@@ -263,6 +263,8 @@ reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已失效。
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = 想起密碼了嗎？
 # link navigates to the sign in page
 remember-password-signin-link = 登入
 
@@ -1304,6 +1306,9 @@ confirm-reset-password-otp-different-account-link = 使用另一個帳號
 
 ## ResetPassword start page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = 重設密碼<span>即可繼續前往帳號設定</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
