@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Una ilustración de un candado
 lightbulb-aria-label =
     .aria-label = Ilustración para representar la creación de una pista de donde la guardarás.
+email-code-image-aria-label =
+    .aria-label = Ilustración para representar un correo electrónico que contiene un código.
 
 ## Input Password
 
@@ -263,9 +265,10 @@ reset-pwd-link-expired-message = El enlace en el que hiciste clic para restablec
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = ¿Recordás tu contraseña? Iniciá la sesión
+# immediately before remember-password-signin-link
+remember-password-text = ¿Recordar tu contraseña?
+# link navigates to the sign in page
+remember-password-signin-link = Iniciar sesión
 
 ## LinkUsed component
 
@@ -1304,6 +1307,33 @@ reset-password-email-required-error = Se requiere correo electrónico
 reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Restablecer contraseña
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Ingresá el código de confirmación
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = Ingresá el código de confirmación de 8 dígitos que enviamos a <span>{ $email }</span> dentro de los próximos 10 minutos.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = Ingresá el código de 8 dígitos
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Continuar
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Reenviar codigo
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
+
+## ResetPassword start page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Restablecer la contraseña <span>para continuar con la configuración de la cuenta</span>
 
 ## CompleteSignin component
 
