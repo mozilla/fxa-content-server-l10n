@@ -1254,6 +1254,10 @@ confirm-reset-password-otp-different-account-link = שימוש בחשבון אח
 
 ## ResetPassword start page
 
+password-reset-body = נא להכניס  את כתובת הדוא״ל שלך ואנו נשלח לך קוד אישור כדי לאמת את זהותך.
+password-reset-email-input =
+    .label = נא להכניס את כתובת הדוא״ל שלך
+password-reset-submit-button = שלחו לי הוראות לאיפוס
 
 ## CompleteSignin component
 
