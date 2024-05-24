@@ -1334,6 +1334,14 @@ confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 password-reset-heading-w-default-service = Restablecer la contraseña <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Restablecer la contraseña <span>para continuar a { $serviceName }</span>
+password-reset-body = Ingresá tu correo electrónico y te enviaremos un código de confirmación para confirmar que realmente so vos.
+password-reset-email-input =
+    .label = Ingresá tu correo electrónico
+password-reset-submit-button = Envíame instrucciones de restablecimiento
 
 ## CompleteSignin component
 
