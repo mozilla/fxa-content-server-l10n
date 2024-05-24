@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-24 15:31+0000\n"
+"PO-Revision-Date: 2024-05-24 15:38+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -2014,23 +2014,23 @@ msgstr "Samstilltu Firefox við símann eða spjaldtölvuna"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Skoðaðu vistuð lykilorð, flipa, vafurferil og fleira - í öllum tækjunum þínum."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Ég er nú þegar með Firefox fyrir farsíma"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Byrjaðu samstillinguna þína strax ef þú ert nú þegar með Firefox í snjalltækinu þínu."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Ég er ekki með Firefox fyrir farsíma"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Sæktu Firefox í farsímann þinn og ræstu síðan samstillinguna þína."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2038,19 +2038,19 @@ msgstr "Ekki núna"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Til að samstilla Firefox á símanum þínum eða spjaldtölvunni þarftu fyrst að hlaða niður Firefox fyrir farsíma. Svona ferð þú að:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Skref 1</b>: Sæktu Firefox með því að skanna þennan QR-kóða með myndavélinni í snjalltækinu þínu:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QR-kóði (staðsettur á miðjum skjánum)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Skref 2</b>: Veldu \"Halda áfram að samstilla\" til að samstilla Firefox-gögnin þín á farsímanum þínum."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
