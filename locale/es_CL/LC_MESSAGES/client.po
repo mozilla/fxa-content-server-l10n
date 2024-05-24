@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-24 04:20+0000\n"
+"PO-Revision-Date: 2024-05-24 04:22+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -2034,15 +2034,15 @@ msgstr "Para sincronizar Firefox en tu teléfono o tablet, primero debes descarg
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Paso 1</b>: Descarga Firefox escaneando este código QR con la cámara de tu dispositivo móvil:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "Código QR (ubicado en el medio de la pantalla)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Paso 2</b>: selecciona \"Continuar para sincronizar\" para sincronizar tu experiencia Firefox con tu dispositivo móvil."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"

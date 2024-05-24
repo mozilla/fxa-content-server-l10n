@@ -265,6 +265,8 @@ reset-pwd-link-expired-message = El enlace que cliqueaste para reiniciar tu cont
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = ¿Recuerdas tu contraseña?
 # link navigates to the sign in page
 remember-password-signin-link = Conectarse
 
@@ -1310,6 +1312,10 @@ confirm-reset-password-otp-flow-name = Reiniciar contraseña
 # The confirmation code is an 8-digit confirmation code sent by email
 # Used to confirm possession of the email account
 confirm-reset-password-otp-heading = Ingresar código de confirmación
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = Ingresa el código de confirmación de 8 dígitos que enviamos a <span>{ $email }</span> dentro de 10 minutos.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-otp-input-group-label = Ingresa el código de 8 dígitos
