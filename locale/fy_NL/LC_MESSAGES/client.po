@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-24 09:10+0000\n"
+"PO-Revision-Date: 2024-05-24 09:11+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -2052,11 +2052,11 @@ msgstr "QR-koade (yn it midden fan it skerm)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Stap 2</b>: Selektearje ‘Trochgean om te syngronisearjen’ om jo Firefox-ûnderfining op jo mobile apparaat te syngronisearjen."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "Trochgean om te syngronisearjen"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
