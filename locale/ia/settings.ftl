@@ -263,9 +263,8 @@ reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro rein
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Memora tu contrasigno? Accede.
+# link navigates to the sign in page
+remember-password-signin-link = Aperir session
 
 ## LinkUsed component
 
@@ -1309,6 +1308,28 @@ reset-password-email-required-error = Email obligatori
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Reinitialisar le contrasigno
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Insere le codice de confirmation
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = Insere le codice de 8 digitos
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Continuar
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Reinviar le codice
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Usa un conto differente
+
+## ResetPassword start page
+
+password-reset-email-input =
+    .label = Insere tu email
 
 ## CompleteSignin component
 
