@@ -1311,10 +1311,10 @@ confirm-reset-password-otp-heading = Saisissez le code de confirmation
 # Text within span appears in bold
 # $email - email address for which a password reset was requested, and where confirmation code was sent
 # code contains numbers only
-confirm-reset-password-otp-instruction = Saisissez le code de confirmation à 8 chiffres que nous avons envoyé à <span>{ $email }</span> dans les 10 minutes.
+confirm-reset-password-otp-instruction = Saisissez le code de confirmation à 8 chiffres que nous avons envoyé à <span>{ $email }</span> dans les 10 minutes.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Saisissez le code à 8 chiffres
+confirm-reset-password-otp-input-group-label = Saisissez le code à 8 chiffres
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Continuer
@@ -1330,10 +1330,10 @@ password-reset-heading-w-default-service = Réinitialisez le mot de passe <span>
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 password-reset-heading-w-custom-service = Réinitialisez le mot de passe <span>pour continuer vers { $serviceName }</span>
-password-reset-body = Saisissez votre adresse électronique et nous vous enverrons un code de confirmation pour s’assurer qu’il s’agit bien de vous.
+password-reset-body = Saisissez votre adresse e-mail et nous vous enverrons un code de confirmation pour s’assurer qu’il s’agit bien de vous.
 password-reset-email-input =
-    .label = Saisissez votre adresse électronique
-password-reset-submit-button = M’envoyer des instructions pour réinitialiser
+    .label = Saisissez votre adresse e-mail
+password-reset-submit-button = M’envoyer les instructions de réinitialisation
 
 ## CompleteSignin component
 

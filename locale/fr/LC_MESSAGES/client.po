@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-23 21:46+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-05-24 08:14+0000\n"
+"Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2013,7 +2013,7 @@ msgstr "Synchroniser Firefox sur votre téléphone ou votre tablette"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr "Affichez vos mots de passe enregistrés, onglets, historique de navigation et plus encore, sur tous vos appareils."
+msgstr "Consultez vos mots de passe enregistrés, onglets, historique de navigation et plus encore, sur tous vos appareils."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
@@ -2021,7 +2021,7 @@ msgstr "J’ai déjà Firefox pour mobile"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "Démarrez votre synchronisation maintenant si vous avez déjà Firefox sur votre appareil mobile."
+msgstr "Lancez la synchronisation maintenant si vous avez déjà Firefox sur votre appareil mobile."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
@@ -2029,7 +2029,7 @@ msgstr "Je n’ai pas Firefox pour mobile"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr "Téléchargez Firefox sur votre appareil mobile, puis lancez votre synchronisation."
+msgstr "Téléchargez Firefox sur votre appareil mobile, puis lancez la synchronisation."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2053,7 +2053,7 @@ msgstr "<b>Étape 2</b> : sélectionnez « Continuer la synchronisation » po
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr "Continuer pour synchroniser"
+msgstr "Continuer la synchronisation"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
