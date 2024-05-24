@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Иллюстрация замка
 lightbulb-aria-label =
     .aria-label = Иллюстрация, показывающая создание подсказки хранилища.
+email-code-image-aria-label =
+    .aria-label = Иллюстрация для представления электронного письма, содержащего код.
 
 ## Input Password
 
@@ -263,9 +265,10 @@ reset-pwd-link-expired-message = Срок жизни ссылки, по кото
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Помните свой пароль? Войти
+# immediately before remember-password-signin-link
+remember-password-text = Помните ваш пароль?
+# link navigates to the sign in page
+remember-password-signin-link = Войти
 
 ## LinkUsed component
 
@@ -1307,6 +1310,41 @@ reset-password-email-required-error = Требуется указать элек
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
 reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
 reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Сбросить пароль
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Введите код подтверждения
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = Введите 8-значный код подтверждения, который мы отправили на <span>{ $email }</span>, в течение 10 минут.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = Введите код из 8 цифр
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Продолжить
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Отправить код ещё раз
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Использовать другой аккаунт
+
+## ResetPassword start page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Сбросьте пароль <span>для перехода к настройкам аккаунта</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Сбросьте пароль <span>для перехода к { $serviceName }</span>
+password-reset-body = Введите свой адрес электронной почты, и мы вышлем вам код подтверждения, чтобы подтвердить, что это действительно вы.
+password-reset-email-input =
+    .label = Введите ваш адрес эл. почты
+password-reset-submit-button = Отправить мне инструкции по сбросу
 
 ## CompleteSignin component
 
