@@ -263,6 +263,8 @@ reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro rein
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Rememorar tu contrasigno?
 # link navigates to the sign in page
 remember-password-signin-link = Aperir session
 
