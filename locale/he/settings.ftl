@@ -205,6 +205,8 @@ lock-image-aria-label =
     .aria-label = איור של מנעול
 lightbulb-aria-label =
     .aria-label = איור המייצג יצירת רמז לאחסון.
+email-code-image-aria-label =
+    .aria-label = איור המייצג מייל המכיל קוד.
 
 ## Input Password
 
@@ -251,9 +253,10 @@ reset-pwd-link-expired-message = פג תוקף הקישור לאיפוס הסס�
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = נזכרת בססמה שלך? התחברות
+# immediately before remember-password-signin-link
+remember-password-text = נזכרת בססמה שלך?
+# link navigates to the sign in page
+remember-password-signin-link = כניסה
 
 ## LinkUsed component
 
@@ -1224,6 +1227,12 @@ reset-password-email-required-error = דוא״ל נדרש
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
+
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 

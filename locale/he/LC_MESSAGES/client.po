@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-24 04:50+0000\n"
+"PO-Revision-Date: 2024-05-24 04:53+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -2011,15 +2011,15 @@ msgstr "כבר יש לי Firefox בנייד"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "ניתן להתחיל בסנכרון עכשיו אם כבר יש לך Firefox במכשיר הנייד שלך."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "אין לי Firefox בנייד"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "יש להוריד את Firefox למכשיר הנייד שלך, ואז להתחיל לסנכרן."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2027,23 +2027,23 @@ msgstr "לא כעת"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "כדי לסנכרן את Firefox בטלפון או במחשב הלוח שלך, תחילה יהיה עליך להוריד את Firefox לנייד באופן הבא:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>שלב 1</b>: יש להוריד את Firefox על־ידי סריקת קוד QR זה עם המצלמה במכשיר הנייד שלך:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "קוד QR (ממוקם באמצע המסך)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>שלב 2</b>: יש לבחור באפשרות ״המשך לסנכרון״ כדי לסנכרן את חוויית המשתמש שלך ב־Firefox למכשיר הנייד שלך."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "המשך לסנכרון"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
