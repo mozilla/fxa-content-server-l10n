@@ -263,9 +263,8 @@ reset-pwd-link-expired-message = Wotkaz, na kotryž sće kliknył, zo byšće sw
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Dopominaće so na swoje hesło? Přizjewće so
+# link navigates to the sign in page
+remember-password-signin-link = Přizjewić
 
 ## LinkUsed component
 
@@ -1307,6 +1306,28 @@ reset-password-email-required-error = E-mejlowa adresa trěbna
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
 reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu kontu
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Hesło wróćo stajić
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Wobkrućenski kod zapodać
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = 8-městnowy kod zapodać
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Dale
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Kod znowa słać
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Wužiwajće druhe konto
+
+## ResetPassword start page
+
+password-reset-email-input =
+    .label = Zapodajće swoju e-mejlowu adresu
 
 ## CompleteSignin component
 
