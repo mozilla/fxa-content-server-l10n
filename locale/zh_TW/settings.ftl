@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = 一把鎖頭的插圖
 lightbulb-aria-label =
     .aria-label = 請使用者建立備份儲存位置提示的插圖。
+email-code-image-aria-label =
+    .aria-label = 表示出一封含有確認碼的電子郵件的圖片。
 
 ## Input Password
 
