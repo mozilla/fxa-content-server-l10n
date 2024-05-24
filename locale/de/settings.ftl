@@ -266,7 +266,7 @@ reset-pwd-link-expired-message = Der Link, den Sie zum Zurücksetzen Ihres Passw
 ## LinkRememberPassword component
 
 # immediately before remember-password-signin-link
-remember-password-text = Kennen Sie Ihr Passwort noch?
+remember-password-text = Passwort speichern?
 # link navigates to the sign in page
 remember-password-signin-link = Anmelden
 
@@ -1333,7 +1333,7 @@ confirm-reset-password-otp-different-account-link = Ein anderes Konto verwenden
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Setzen Sie das Passwort zurück, <span>um mit den Kontoeinstellungen fortzufahren</span>
+password-reset-heading-w-default-service = Passwort zurücksetzen, <span>um mit den Kontoeinstellungen fortzufahren</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
