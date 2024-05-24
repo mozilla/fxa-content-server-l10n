@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Ilustracija ključavnice
 lightbulb-aria-label =
     .aria-label = Slika, ki predstavlja ustvarjanje namiga za shranjevanje.
+email-code-image-aria-label =
+    .aria-label = Ilustracija, ki upodablja e-poštno sporočilo s kodo.
 
 ## Input Password
 
