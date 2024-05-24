@@ -1321,7 +1321,7 @@ confirm-reset-password-otp-different-account-link = Utilizza un altro account
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Reimposta la password <span>per continuare con le impostazioni dell’account</span>
+password-reset-heading-w-default-service = Reimposta la password <span>per passare alle impostazioni dell’account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-23 21:48+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-05-24 07:43+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -2000,7 +2000,7 @@ msgstr "Processo di installazione interrotto."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
-msgstr "Sincronizza la tua esperienza con Firefox"
+msgstr "Sincronizza la tua esperienza in Firefox"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Download Firefox for mobile"
@@ -2040,7 +2040,7 @@ msgstr "Per sincronizzare Firefox sul tuo telefono o tablet, devi prima scaricar
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>Passaggio 1</b>: scarica Firefox scansionando il codice QR con la fotocamera del tuo dispositivo mobile:"
+msgstr "<b>Passaggio 1</b>: scarica Firefox scansionando il codice QR con la fotocamera del tuo dispositivo:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
@@ -2048,7 +2048,7 @@ msgstr "Codice QR (situato al centro dello schermo)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr "<b>Passaggio 2</b>: seleziona “Continua con la sincronizzazione” per sincronizzare la tua esperienza con Firefox sul tuo dispositivo mobile."
+msgstr "<b>Passaggio 2</b>: seleziona “Continua con la sincronizzazione” per sincronizzare la tua esperienza in Firefox sul tuo dispositivo mobile."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
