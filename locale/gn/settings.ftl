@@ -1334,6 +1334,12 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 
 ## ResetPassword start page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
+password-reset-email-input =
+    .label = Ehai ne ñandutiveve
+password-reset-submit-button = Embou mba’éichapa emoĩporãjeýta
 
 ## CompleteSignin component
 
