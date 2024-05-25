@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-24 23:51+0000\n"
+"PO-Revision-Date: 2024-05-25 14:53+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2013,7 +2013,7 @@ msgstr "Synchronisa Firefox sur tu telephono o tabletta"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Vide tu contrasignos, schedas, chronologia de navigation salvate e altero, inter tote tu apparatos."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
@@ -2021,7 +2021,7 @@ msgstr "Io jam ha Firefox pro mobile"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Initia tu synchronisation ora si tu jam ha Firefox sur tu apparato mobile."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
