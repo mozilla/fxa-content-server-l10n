@@ -1313,6 +1313,20 @@ reset-password-with-recovery-key-verified-continue-to-account = Менің ті�
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-otp-flow-name = Парольді тастау
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Растау кодын енгізіңіз
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = 8-цифрлық кодты енгізіңіз
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Жалғастыру
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Кодты қайта жіберу
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Басқа тіркелгіні қолдану
 
 ## ResetPassword start page
 
