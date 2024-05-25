@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-25 15:11+0000\n"
+"PO-Revision-Date: 2024-05-25 15:12+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -2039,11 +2039,11 @@ msgstr "<b>1-қадам</b>: Мобильді құрылғыңыздағы ка�
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QR коды (экранның ортасында орналасқан)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>2-қадам</b>: Мобильді құрылғыда Firefox тәжірибесін синхрондау үшін \"Синхрондауға жалғастыру\" опциясын таңдаңыз."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
