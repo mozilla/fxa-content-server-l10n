@@ -1,36 +1,18 @@
 ## Non-email strings
 
-session-verify-send-push-title = Asup ka { -product-firefox-accounts }?
 session-verify-send-push-body-2 = Toél di dieu pikeun muguhkeun éta anjeun
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Singkronkeun parabot">
 body-devices-image = <img data-l10n-name="devices-image" alt="Parabot">
 fxa-privacy-url = Kawijakan Salindungan { -brand-mozilla }
-fxa-service-url = Katangtuan Layanan { -product-firefox-cloud }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-automated-email = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
 subplat-privacy-notice = Wawar pripasi
 subplat-privacy-plaintext = Wawar pripasi:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Anjeun nampa ieu surélék kusabab { $email } boga { -product-firefox-account } sarta anjeun geus kadaptar pikeun { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Anjeun narima ieu surélék kusabab { $email } boga { -product-firefox-account }.
-subplat-explainer-multiple = Anjeun nampa ieu surélék kusabab { $email } boga { -product-firefox-account } sarta anjeun geus kadaptar kana rupa-rupa produk.
-subplat-explainer-was-deleted = Anjeun narima ieu surélék kusabab { $email } kadaptar pikeun { -product-firefox-account }.
-subplat-manage-account = Atur setélan { -product-firefox-account } anjeun ku sindang ka <a data-l10n-name="subplat-account-page">kaca akun</a> anjeun.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Kokolakeun setélan { -product-firefox-account } anjeun ku di kaca akun anjeun: { $accountSettingsUrl }
 subplat-terms-policy = Sarat jeung kawijakan bolay
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Bolay daptar
@@ -40,8 +22,6 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ropéa émbaran tagiheun
 subplat-privacy-policy = Kawijakan Pripasi { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = Katangtuan Layanan { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Légal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Pripasi
@@ -75,6 +55,7 @@ automated-email-change-plaintext-2 = Upama anjeun teu migawé ieu, geuwat ganti 
 automated-email-support-plaintext = Pikeun leuwih teleb, buka Pangrojong { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pikeun leuwih teleb, buka <a data-l10n-name="supportLink">Pangrojong { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Ieu surél otomatis. Lamun teu kahaja, ulah diwaro.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ieu surél otomatis; upama anjeun henteu nyatujuan, mangga ganti kecap konci anjeun:
 automated-email-reset =
@@ -83,6 +64,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Lamun anjeun teu rumasa ngarobah, mangga rését kecap sandi anjeun ayeuna di { $resetLink }
+cancellationSurvey = Bantuan ngaronjatkeun layanan kami ku cara ngeusian ieu <a data-l10n-name="cancellationSurveyUrl"> surpéy</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy pondok ieu:
 change-password-plaintext = Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura robah sandi anjeun.
@@ -92,12 +74,22 @@ payment-details = Wincikan babayar:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Nomer Paktur: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Ditagih: { $invoiceTotal } dina { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Paktur salajengna: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Cara Mayar:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = Kartu { $cardName } bakal anggeusan dina { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Nomer Paktur: <b>{ $invoiceNumber }</b>
@@ -134,25 +126,6 @@ device-all = { $uaBrowser } di { $uaOS } { $uaOSVersion }
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } di { $uaOS }
 # Variables:
-#  $ip (Number) - User's IP address
-user-ip = Alamat IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (ancer-ancer)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (ancer-ancer)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (ancer-ancer)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (ancer-ancer)
-# Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Tingali Tagihan: { $invoiceLink }
@@ -160,7 +133,6 @@ cadReminderFirst-action = Singkronkeun séjén alat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Butuh dua pikeun nyingkronkeun
-cadReminderFirst-description-2 = Ukur butuh sadetik pikeun nyingkronkeun.
 cadReminderSecond-action = Singkronkeun séjén alat
 cadReminderSecond-title-2 = Ulah poho nyingkronkeun!
 #  Variables:
@@ -170,7 +142,6 @@ downloadSubscription-subject = Wilujeng sumping di { $productName }
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Wilujeng sumping di { $productName }
 downloadSubscription-link-action-2 = Mitembeyan
-fraudulentAccountDeletion-subject = { -product-firefox-account } anjeun geus dihapus
 fraudulentAccountDeletion-title = Akun anjeun dihapus
 lowRecoveryCodes-action-2 = Jieun kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -185,16 +156,11 @@ passwordChanged-subject = Kecap sandi geus diropéa
 passwordChanged-title = Ngarobah sandi geus hasil
 passwordChangeRequired-subject = Aya kagiatan picurigaeun
 passwordChangeRequired-title = Kudu Gandi Sandi
-passwordChangeRequired-sign-in = Asup deui ka sakur paranti atawa layanan anu maké akun { -product-firefox-account } sarta tuturkeun pituduh anu bakal dipidangkeun.
-passwordChangeRequired-signoff = Panghadéna
-passwordChangeRequired-signoff-name = Tim { -product-firefox-accounts }.
 passwordReset-subject = Kecap sandi geus diropéa
 passwordReset-title = Sandi akun anjeun geus dirobah
 passwordReset-description = Anjeun bakal perlu ngasupkeun sandi anyar anjeun na parangkat séjén pikeun ngahanca singkronan.
 passwordResetAccountRecovery-subject-2 = Sandi anjeun geus disetél ulang
 passwordResetAccountRecovery-title-2 = Nyetél ulang sandi geus hasil
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Lain anjeun?
 postAddAccountRecovery-action = Kokolakeun akun
 postAddLinkedAccount-action = Kokolakeun akun
 postAddTwoStepAuthentication-action = Kokolakeun akun
@@ -218,7 +184,6 @@ subscriptionAccountDeletion-title = Pileuleuyan
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Wilujeng sumping di { $productName }
 subscriptionAccountFinishSetup-action-2 = Mitembeyan
-subscriptionAccountReminderSecond-title = Wilujeng sumping di { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Jieun Kecap Sandi
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -237,7 +202,6 @@ unblockCode-subject = Kodeu otorisasi akun
 unblockCode-title = Nu asup téh anjeun lin?
 unblockCode-prompt = Mun enya mah, ieu kodeu otorisasi nu anjeun perlukeun:
 unblockCode-report-plaintext = Mun henteu, bantuan kami nyingkahan nu ngaganggu sarta laporkeun ka kami.
-verify-description = Puguhkeun akun anjeun sarta meunangkeun hasil maksimal ti { -brand-firefox } di mana baé anjeun asup dimimitian ku:
 verify-subject = Réngsékeun nyieun akun anjeun
 verifyLogin-action = Konfirmasi peta asup
 verifyLoginCode-expiry-notice = Bakal kadaluwarsa dina 5 menit.

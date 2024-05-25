@@ -3,128 +3,144 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Component - AppLayout
 
-project-brand = Firefox Accounts
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
-document =
-    .title = Firefox Accounts
+settings-home = Tepas Akun
 
-## general-aria
+## Component - CouponForm
 
-close-aria =
-    .aria-label = Tutup modal
 
-## app error dialog
+## Component - Fields
 
-general-error-heading = Éror aplikasi umum
-basic-error-message = Aya anu salah. Cobaan deui engké.
-payment-error-1 = Duh. Aya masalah sanggeus mastikeun bayaran anjeun. Cobaan deui atawa béjaan anu ngaluarkeun kartu anjeun.
+
+## Component - Header
+
+
+## Component - NewUserEmailForm
+
+
+## Component - PaymentConfirmation
+
+
+## Component - PaymentConsentCheckbox
+
+
+## Component - PaymentErrorView
+
 payment-error-retry-button = Pecakan deui
 payment-error-manage-subscription-button = Kokolakeun langganan kami
 
-##  $productName (String) - The name of the subscribed product.
+## Component - PaymentErrorView - IAP upgrade errors
 
 
-## settings
-
-settings-home = Tepas Akun
-settings-subscriptions-title = Langganan
-
-## legal footer
-
-terms = Katangtuan Layanan
-privacy = Wawar Privasi
-terms-download = Undeur Katangtuan
-
-## Subscription titles
-
-
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-## Product route
-
-product-profile-error =
-    .title = Propil hésé dimuat
-product-customer-error =
-    .title = Konsumén hésé dimuat
-
-## payment legal blurb
-
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } maké { -brand-name-stripe } jeung { -brand-name-paypal } pikeun kaamanan prosés mayarna.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } kawijakan pripasi</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } kawijakan pripasi</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } maké { -brand-name-paypal } pikeun kaamanan prosés mayarna.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } kawijakan pripasi</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } maké { -brand-name-stripe } pikeun kaamanan prosés mayarna.
-payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } kawijakan pripasi</stripePrivacyLink>.
-
-## payment form
+## Component - PaymentForm
 
 payment-name =
     .placeholder = Ngaran Lengkep
     .label = Ngaran luyu jeung kartu anjeun
 payment-cc =
     .label = Kartu anjeun
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-##
-
 payment-cancel-btn = Bolay
 
-## subscription redirect
+## Component - PaymentLegalBlurb
+
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } kawijakan pripasi</stripePrivacyLink>.
+
+## Component - PaymentMethodHeader
 
 
-## fields
+## Component - PaymentProcessing
 
 
-## subscription upgrade
+## Component - PaymentProviderDetails
+
+
+## Component - PayPalButton
+
+
+## Component - PlanDetails
+
+
+## Component - PlanErrorDialog
+
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
+## Component - SubscriptionTitle
+
+
+## Component - TermsAndPrivacy
+
+terms = Katangtuan Layanan
+privacy = Wawar Privasi
+terms-download = Undeur Katangtuan
+
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Akun Firefox
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Tutup modal
+settings-subscriptions-title = Langganan
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## Error messages
+
+# App error dialog
+general-error-heading = Éror aplikasi umum
+basic-error-message = Aya anu salah. Cobaan deui engké.
+payment-error-1 = Duh. Aya masalah sanggeus mastikeun bayaran anjeun. Cobaan deui atawa béjaan anu ngaluarkeun kartu anjeun.
+product-profile-error =
+    .title = Propil hésé dimuat
+product-customer-error =
+    .title = Konsumén hésé dimuat
+
+## Hooks - coupons
+
+
+## Routes - Checkout - New user
+
+
+## Routes - Product and Subscriptions
+
+
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
+
+
+## Routes - Product - IapRoadblock
+
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+
+## Routes - Product - Subscription upgrade
+
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
 ##
 
 
-## subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Bolay Langganan
 
-## subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-## $date (Date) - The date for the next time a charge will occur.
-
-
-##
-
-
-## reactivate
-## $name (String) - The name of the subscribed product.
-
-
-##  $date (Date) - Last day of product access
-
-reactivate-panel-date = Anjeun ngabolaykeun langganan dina { $date }.
-
-## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-cancel-sub = Bolay Langganan
 sub-item-cancel-msg =
     Anjeun moal bisa maké { $name } sanggeus
     { $period }, poé panungtung daur tagihan anjeun.
@@ -132,37 +148,41 @@ sub-item-cancel-confirm =
     Bolaykeun aksés jeung émbaran anu disimpen nepi ka
     { $name } dina { $period }
 
-## subscription iap item
-
-
-## subscription route index
+## Routes - Subscription
 
 sub-route-idx-cancel-failed = Ngabolaykeun langganan gagal
 sub-route-idx-cancel-msg-title = Pileuleuyan
 
-## subscription create
+## Routes - Subscriptions - Errors
 
 
-## plan-details
+## Routes - Subscription - ActionButton
 
 
-## payment-processing
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $date (Date) - The date for the next time a charge will occur.
 
 
-## payment confirmation
-
-payment-confirmation-mobile-alert = Teu muka aplikasi? <a>Klik Ieu</a>
-
-## payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
+## Routes - Subscription - PaymentUpdate
 
 
-## $email (string) - The user's email.
+# $expirationDate (Date) - The payment card's expiration date.
 
 
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Subscription - SubscriptionItem
 
 
-## new user email form
+## Routes - Subscriptions - Pocket Subscription
+
+
+## Routes - Subscriptions - Reactivate
+## $name (String) - The name of the subscribed product.
+
+
+## $date (Date) - Last day of product access
+
+
+## Routes - Subscriptions - Subscription iap item
 
