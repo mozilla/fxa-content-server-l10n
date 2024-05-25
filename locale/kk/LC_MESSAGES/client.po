@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-25 08:37+0000\n"
+"PO-Revision-Date: 2024-05-25 15:11+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1995,11 +1995,11 @@ msgstr "Баптау әрекеті үзілген."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Өзіңіздің Firefox тәжірибесін синхрондаңыз"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Мобильді құрылғылар үшін Firefox-ты жүктеп алыңыз"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
@@ -2007,7 +2007,7 @@ msgstr "Телефонда немесе планшетте Firefox-ты синх
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Барлық құрылғыларда сақталған парольдер, беттер, шолу тарихын және т.б. қараңыз."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
@@ -2015,15 +2015,15 @@ msgstr "Менде мобильді Firefox бар"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Мобильді құрылғыңызда Firefox бар болса, синхрондауды қазір бастаңыз."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Менде мобильді Firefox жоқ"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Мобильді құрылғыңызға Firefox жүктеп алыңыз, содан кейін синхрондауды бастаңыз."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2031,11 +2031,11 @@ msgstr "Қазір емес"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Телефонда немесе планшетте Firefox-ты синхрондау үшін алдымен мобильді телефонға Firefox-ты жүктеп алу керек. Оны келесідей жасауға болады:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>1-қадам</b>: Мобильді құрылғыңыздағы камерамен осы QR кодын сканерлеу арқылы Firefox қолданбасын жүктеп алыңыз:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
