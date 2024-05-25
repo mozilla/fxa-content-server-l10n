@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-24 13:21+0000\n"
+"PO-Revision-Date: 2024-05-24 23:51+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2025,7 +2025,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Io non ha Firefox pro mobile"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."

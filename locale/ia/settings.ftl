@@ -1330,6 +1330,13 @@ confirm-reset-password-otp-different-account-link = Usa un conto differente
 
 ## ResetPassword start page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Remontar le contrasigno <span>pro continuar a configurar le conto</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Remontar le contrasigno <span>pro continuar a { $serviceName }</span>
 password-reset-email-input =
     .label = Insere tu email
 
