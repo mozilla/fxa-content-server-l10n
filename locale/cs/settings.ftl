@@ -218,7 +218,7 @@ lock-image-aria-label =
 lightbulb-aria-label =
     .aria-label = Ilustrace znázorňující vytvoření nápovědy k úložišti.
 email-code-image-aria-label =
-    .aria-label = Ilustrace e-mailu obsahujícího kód.
+    .aria-label = Ilustrace znázorňující e-mail obsahující kód.
 
 ## Input Password
 
@@ -1329,11 +1329,11 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Obnovení hesla <span>a pokračujte do nastavení účtu</span>
+password-reset-heading-w-default-service = Obnovení hesla <span>pro pokračování do nastavení účtu</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = <span>Obnovení hesla a pokračování do služby { $serviceName }</span>
+password-reset-heading-w-custom-service = Obnovení hesla <span>pro pokračování do služby { $serviceName }</span>
 password-reset-body = Zadejte svou e-mailovou adresu a my vám zašleme potvrzovací kód pro ověření, že jste to skutečně vy.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
