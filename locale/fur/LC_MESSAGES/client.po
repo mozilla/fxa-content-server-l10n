@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-25 18:08+0000\n"
+"PO-Revision-Date: 2024-05-25 18:12+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1076,7 +1076,7 @@ msgstr "Complete la configurazion"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "Acès eseguît a Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"

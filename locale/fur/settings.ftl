@@ -1344,6 +1344,7 @@ password-reset-heading-w-custom-service = Torne stabilìs la password <span>par 
 password-reset-body = Inserìs la tô direzion e-mail e ti inviarìn un codiç di conferme par confermâ la tô identitât.
 password-reset-email-input =
     .label = Inserìs la tô e-mail
+password-reset-submit-button = Mandimi lis istruzions pal ristabilî la password
 
 ## CompleteSignin component
 
