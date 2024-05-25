@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-25 18:10+0000\n"
+"PO-Revision-Date: 2024-05-25 18:11+0000\n"
 "Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -2043,7 +2043,7 @@ msgstr "QR kód (umístěn uprostřed obrazovky)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr "<b>Krok 2</b>: Zvolte „Pokračovat“ pro synchronizaci Firefoxu na vašem mobilním zařízení."
+msgstr "<b>Krok 2</b>: Výběrem možnosti \"Pokračovat v synchronizaci\" synchronizujte svá data s prohlížečem Firefox v mobilním zařízení."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"

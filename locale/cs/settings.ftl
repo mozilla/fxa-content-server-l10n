@@ -1313,7 +1313,7 @@ confirm-reset-password-otp-heading = Zadejte potvrzovací kód
 # Text within span appears in bold
 # $email - email address for which a password reset was requested, and where confirmation code was sent
 # code contains numbers only
-confirm-reset-password-otp-instruction = Zadejte osmimístný potvrzovací kód, který jsme vám během 10 minut poslali na adresu <span>{ $email }</span>.
+confirm-reset-password-otp-instruction = Do 10 minut zadejte 8místný potvrzovací kód, který jsme vám zaslali na e-mail <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-otp-input-group-label = Zadejte osmimístný kód
