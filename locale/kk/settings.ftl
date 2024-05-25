@@ -263,9 +263,8 @@ reset-pwd-link-expired-message = Пароліңізді тастау үшін с
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Пароліңіз есіңізде бар ма? Кіріңіз
+# link navigates to the sign in page
+remember-password-signin-link = Кіру
 
 ## LinkUsed component
 
@@ -1311,6 +1310,12 @@ reset-password-email-required-error = Эл. пошта керек
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
+
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
