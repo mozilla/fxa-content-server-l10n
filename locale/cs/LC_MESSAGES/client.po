@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-23 21:45+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-05-25 18:10+0000\n"
+"Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -2015,7 +2015,7 @@ msgstr "Již mám Firefox pro mobily"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "Pokud už máte Firefox na svém zařízení nainstalovaný, spusťte synchronizaci."
+msgstr "Pokud již máte Firefox v mobilním zařízení, spusťte synchronizaci."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
@@ -2031,11 +2031,11 @@ msgstr "Teď ne"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr "Pro synchronizaci Firefoxu na vašem telefonu nebo tabletu si nejdříve stáhněte Firefox pro mobily. Jak na to:"
+msgstr "Chcete-li synchronizovat Firefox v telefonu nebo tabletu, musíte si nejprve stáhnout Firefox pro mobilní zařízení. Zde je návod, jak na to:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>Krok 1</b>: Stáhněte si Firefox naskenováním tohoto QR kódu pomocí fotoaparátu svého mobilního zařízení:"
+msgstr "<b>Krok 1</b>: Stáhněte si Firefox naskenováním tohoto QR kódu pomocí fotoaparátu na svém mobilním zařízení:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
