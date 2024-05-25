@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-25 14:53+0000\n"
+"PO-Revision-Date: 2024-05-25 15:01+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -2029,7 +2029,7 @@ msgstr "Io non ha Firefox pro mobile"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Discarga Firefox sur tu apparato mobile, pois initia tu synchronisation."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2037,19 +2037,19 @@ msgstr "Non ora"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Pro synchronisar Firefox sur tu telephono o tabletta, tu primo besonia de installar Firefox pro apparato mobile. Ecce como:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Passo 1</b>: discarga Firefox scandente iste codice QR con le camera de tu apparato mobile:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "Codice QR (ubicate in le medio del schermo)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Passo 2</b>: selige \"Continuar a synchronisar\" a synchronisa tu experientia con Firefox sur tu apparato mobile."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
