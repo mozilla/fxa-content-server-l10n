@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Құлыптың суреті
 lightbulb-aria-label =
     .aria-label = Сақтау туралы кеңес жасауды бейнелейтін сурет.
+email-code-image-aria-label =
+    .aria-label = Коды бар электрондық поштаны көрсетуге арналған иллюстрация.
 
 ## Input Password
 
@@ -263,6 +265,8 @@ reset-pwd-link-expired-message = Пароліңізді тастау үшін с
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Пароліңіз есіңізде ме?
 # link navigates to the sign in page
 remember-password-signin-link = Кіру
 
@@ -1330,6 +1334,8 @@ confirm-reset-password-otp-different-account-link = Басқа тіркелгі�
 
 ## ResetPassword start page
 
+password-reset-email-input =
+    .label = Эл. поштаңызды енгізіңіз
 
 ## CompleteSignin component
 

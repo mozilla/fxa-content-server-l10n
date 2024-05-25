@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-25 07:20+0000\n"
+"PO-Revision-Date: 2024-05-25 08:37+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -2011,7 +2011,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Менде мобильді Firefox бар"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
@@ -2047,7 +2047,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "Синхрондауға жалғастыру"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
