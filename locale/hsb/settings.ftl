@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Ilustracija zamka
 lightbulb-aria-label =
     .aria-label = Ilustracija za wutworjenje składowanskeje pokazki.
+email-code-image-aria-label =
+    .aria-label = Ilustracija za mejlku, kotraž kod wobsahuje.
 
 ## Input Password
 
@@ -263,6 +265,8 @@ reset-pwd-link-expired-message = Wotkaz, na kotryž sće kliknył, zo byšće sw
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Hesło sej spomjatkować?
 # link navigates to the sign in page
 remember-password-signin-link = Přizjewić
 
@@ -1313,6 +1317,10 @@ confirm-reset-password-otp-flow-name = Hesło wróćo stajić
 # The confirmation code is an 8-digit confirmation code sent by email
 # Used to confirm possession of the email account
 confirm-reset-password-otp-heading = Wobkrućenski kod zapodać
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = Zapodajće 8-městnowy wobkrućenski kod za 10 mjeńšin, kotryž smy na <span>{ $email }</span> pósłali.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-otp-input-group-label = 8-městnowy kod zapodać
@@ -1328,6 +1336,7 @@ confirm-reset-password-otp-different-account-link = Wužiwajće druhe konto
 
 password-reset-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
+password-reset-submit-button = Sćelće mi instrukcije wo wróćostajenju
 
 ## CompleteSignin component
 
