@@ -1334,6 +1334,14 @@ confirm-reset-password-otp-different-account-link = Wužiwajće druhe konto
 
 ## ResetPassword start page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Hesło hesło wróćo stajić, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Hesło wróćo stajić, <span>zo byšće z { $serviceName } pokročował</span>
+password-reset-body = Zapodajće swoju e-mejlowu adresu a budźemy wam wobkrućenski kod słać, zo bychmy wašu identitu wobkrućili.
 password-reset-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
 password-reset-submit-button = Sćelće mi instrukcije wo wróćostajenju
