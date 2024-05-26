@@ -2043,11 +2043,11 @@ msgstr "QR kód (umiestnený v strede obrazovky)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Krok 2</b>: Ak chcete synchronizovať prostredie Firefoxu na svojom mobilnom zariadení, vyberte možnosť „Pokračovať so synchronizáciou“."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "Pokračovať so synchronizáciou"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
