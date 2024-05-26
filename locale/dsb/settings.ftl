@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Ilustracija pytka
 lightbulb-aria-label =
     .aria-label = Ilustracija za napóranje składowańskeje pokazki.
+email-code-image-aria-label =
+    .aria-label = Ilustracija za mejlku, kótaraž kod wopśimujo.
 
 ## Input Password
 
@@ -263,9 +265,10 @@ reset-pwd-link-expired-message = Wótkaz, na kótaryž sćo kliknuł, aby swójo
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Dopominaśo se na swójo  gronidło? Pśizjawśo se
+# immediately before remember-password-signin-link
+remember-password-text = Gronidło se spomniś?
+# link navigates to the sign in page
+remember-password-signin-link = Pśizjawiś
 
 ## LinkUsed component
 
@@ -1305,6 +1308,41 @@ reset-password-email-required-error = E-mailowa adresa trjebna
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
 reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Gronidło slědk stajiś
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Wobkšuśeński kod zapódaś
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = Zapódajśo 8-městnowy wobkšuśeński kod za 10 minutow, kótaryž smy pósłali na <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = 8-městnowy kod zapódaś
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Dalej
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Kod znowego słaś
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Wužywajśo druge konto
+
+## ResetPassword start page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Gronidło slědk stajiś, <span>aby z kontowymi nastajenjami pókšacował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Gronidło slědk stajiś, <span>aby z { $serviceName } pókšacował</span>
+password-reset-body = Zapódajśo swóju e-mailowu adresu a buźomy wam wobkšuśeński kod słaś, aby my wašu identitu wobkšuśili.
+password-reset-email-input =
+    .label = Zapódajśo swóju e-mailowu adresu
+password-reset-submit-button = Sćelśo mě instrukcije wó slědkstajanju
 
 ## CompleteSignin component
 
