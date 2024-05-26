@@ -1343,6 +1343,14 @@ confirm-reset-password-otp-different-account-link = Använd ett annat konto
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 password-reset-heading-w-default-service = Fortsätt till kontoinställningar
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Fortsätt till { $serviceName }
+password-reset-body = Ange din e-postadress så skickar vi en bekräftelsekod för att bekräfta att det verkligen är du.
+password-reset-email-input =
+    .label = Ange din e-postadress
+password-reset-submit-button = Skicka mig återställningsinstruktioner
 
 ## CompleteSignin component
 
