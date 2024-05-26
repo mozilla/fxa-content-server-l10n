@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-26 11:43+0000\n"
+"PO-Revision-Date: 2024-05-26 19:20+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1997,11 +1997,11 @@ msgstr "Instalowanski proces je so skónčił."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Synchronizujće swoje dožiwjenje Firefox"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Firefox za mobilne graty sćahnyć"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
@@ -2009,23 +2009,23 @@ msgstr "Firefox na swójim šmóratce abo tableće synchronizować"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Wobhladajće sej swoje składowane hesła, rajtarki, přehladowansku historiju a wjace – na wšěch swojich gratach."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Mam hižo Firefox za mobilne graty"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Startujće swoju synchronizaciju, jeli hižo Firefox na swojim mobilnym graće maće."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Nimam Firefox za mobilne graty"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Sćehńće Firefox do swojeho mobilneho grata a startujće potom swoju synchronizaciju."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2033,7 +2033,7 @@ msgstr "Nic nětko"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Zo byšće Firefox na swojim telefonje abo tableće synchronizował, dyrbiće najprjedy Firefox za mobilne graty sćahnyć. Tak to dźe:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
