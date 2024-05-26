@@ -174,6 +174,11 @@ signin-totp-code-image-label =
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Illustrasjon som representerer ein kontogjenopprettingsnøkkel.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Illustrasjon som representerer ein kontogjenopprettingsnøkkel.
+lock-image-aria-label =
+    .aria-label = Ein illustrasjon av ein lås.
 
 ## Input Password
 
@@ -212,6 +217,8 @@ reset-pwd-link-expired-message = Lenka du trykte på for å tilbakestille passor
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Hugse passordet ditt?
 # link navigates to the sign in page
 remember-password-signin-link = Logg inn
 
@@ -574,6 +581,11 @@ recent-activity-title = Nyleg kontoaktivitet
 recent-activity-account-create-v2 = Konto opretta
 recent-activity-account-disable-v2 = Konto deaktivert
 recent-activity-account-enable-v2 = Konto aktivert
+recent-activity-account-two-factor-added = Tostegs-godkjenning aktivert
+recent-activity-account-two-factor-requested = Tostegs-godkjenning påkravd
+recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
+recent-activity-account-two-factor-success = Tostegs-godkjenning, vellykka
+recent-activity-account-two-factor-removed = Tostegs-verifisering fjerna
 recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endra
 recent-activity-account-secondary-email-added = Sekundær e-postadesse lagt til
@@ -748,6 +760,7 @@ se-secondary-email-none = Ingen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tostegs-godkjenning
+tfa-row-disabled-2 = Tostegs-godkjenning deaktivert
 tfa-row-enabled = Aktivert
 tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
@@ -756,6 +769,7 @@ tfa-row-button-refresh =
     .title = Oppdater tostegs-godkjenning
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
+tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-godkjenning.
 tfa-row-change-modal-heading-1 = Endre reserve-godkjenningskodar?
 tfa-row-change-modal-confirm = Endre
 tfa-row-change-modal-explain = Du vil ikkje kunne angre denne handlinga.
@@ -847,6 +861,7 @@ inline-recovery-confirm-button = Stadfest
 inline-recovery-back-link = Tilbake
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-godkjenningskode
+inline-recovery-2fa-enabled = Tostegs-godkjenning aktivert
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1070,6 +1085,7 @@ report-signin-header = Rapportere uautorisert inloggning?
 report-signin-body = Du har fått e-post om forsøk på å få tillgang til kontoen din. Vil du rapportere denne aktiviteten som mistenkjeleg?
 report-signin-submit-button = Rapporter aktivitet
 report-signin-support-link = Kvifor skjer dette?
+signin-bounced-header = Beklagar. Vi har låst kontoen din.
 signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
 back = Tilbake
 
@@ -1129,6 +1145,10 @@ signin-totp-code-required-error = Godkjenningskode påkravd
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-submit-button = Hald fram
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Godkjenningskode påkravd
+signin-unblock-support-link = Kvifor skjer dette?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
