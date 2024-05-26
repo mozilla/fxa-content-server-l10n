@@ -465,6 +465,8 @@ subscriptionRenewalReminder-content-closing = Vennleg helsing,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
 subscriptionsPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er i ferd med å gå ut
+subscriptionsPaymentProviderCancelled-title = Beklagar, vi har problem med betalingsmetoden din
+subscriptionsPaymentProviderCancelled-content-detected = Vi har oppdaga eit problem med betalingsmåten din for følgjande abonnement.
 subscriptionsPaymentProviderCancelled-content-payment = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

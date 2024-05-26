@@ -767,6 +767,9 @@ tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-button-refresh =
     .title = Oppdater tostegs-godkjenning
+tfa-row-cannot-refresh =
+    Diverre oppstod eit problem med å oppdatere
+    tostegs-godkjenning.
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-godkjenning.
@@ -868,9 +871,14 @@ inline-recovery-2fa-enabled = Tostegs-godkjenning aktivert
 
 inline-totp-setup-cancel-setup-button = Avbryt konfigurasjon
 inline-totp-setup-continue-button = Hald fram
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver tostegs-godkjenning <span>for å halde fram til kontoinnstillingane</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver tostegs-godkjenning <span>for å halde fram til { $serviceName }</span>
 inline-totp-setup-ready-button = Klar
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = godkjenningskode
+tfa-qr-code-alt = Bruk koden { $code } or å stille inn tostegs-godkjenning i stødde appar.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
