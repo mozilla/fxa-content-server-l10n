@@ -144,6 +144,9 @@ form-verify-code-default-error = Dette feltet er påkravd
 
 ## FormVerifyTotp
 
+# When focused on the button, screen reader will read the action and entire number that will be submitted
+form-verify-code-submit-button =
+    .aria-label = Send inn { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -189,6 +192,9 @@ reset-pwd-link-damaged-header = Passordlenke for tilbakestilling er skada
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Stadfestingslenka er skada
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Øydelagd lenke
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Lenka du trykte på manglar nokre teikn, og kan ha blitt skada av e-postklienten. Kopier adressa nøye, og prøv på nytt.
 
@@ -206,6 +212,8 @@ reset-pwd-link-expired-message = Lenka du trykte på for å tilbakestille passor
 
 ## LinkRememberPassword component
 
+# link navigates to the sign in page
+remember-password-signin-link = Logg inn
 
 ## LinkUsed component
 
@@ -214,6 +222,8 @@ primary-email-confirmation-link-reused = Primær e-postadresse allereie stadfest
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innlogging allereie stadfesta
 confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og kan berre brukast ein gong.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Ugyldig førespurnad
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -259,7 +269,10 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = { -brand-mozilla }-produkt
+bento-menu-tagline = Fleire produkt frå { -brand-mozilla } som tek vare på personvernet ditt
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-nettlesar for datamaskiner
@@ -329,6 +342,9 @@ cs-sign-out-button = Logg ut
 ## Data collection section
 
 dc-heading = Datainnsamling og bruk
+dc-subheader-2 = Hjelp til med å forbetre { -product-mozilla-accounts }
+dc-subheader-content-2 = Tillat { -product-mozilla-accounts } å sende tekniske data og interaksjonsdata til { -brand-mozilla }?
+dc-opt-out-success-2 = Vellykka utmelding. { -product-mozilla-accounts } sender ikkje tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
@@ -988,6 +1004,12 @@ reset-password-button = Start tilbakestilling
 reset-password-email-required-error = E-post påkravd
 reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
 reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
+
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
