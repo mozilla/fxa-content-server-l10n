@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Uma ilustração de um cadeado
 lightbulb-aria-label =
     .aria-label = Ilustração para representar a criação de uma dica de onde guardou.
+email-code-image-aria-label =
+    .aria-label = Ilustração para representar um email contendo um código.
 
 ## Input Password
 
@@ -263,9 +265,8 @@ reset-pwd-link-expired-message = O link que você clicou para redefinir sua senh
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Lembra sua senha? Entre na conta
+# immediately before remember-password-signin-link
+remember-password-text = Memorizar sua senha?
 
 ## LinkUsed component
 
@@ -1281,6 +1282,12 @@ reset-password-email-required-error = Email obrigatório
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
+
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
