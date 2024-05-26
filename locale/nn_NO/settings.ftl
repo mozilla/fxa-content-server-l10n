@@ -530,10 +530,12 @@ delete-account-header =
     .title = Slett kontoen
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tillegg
@@ -1007,14 +1009,39 @@ reset-password-with-recovery-key-verified-continue-to-account = Hald fram til ko
 
 ## Confirm Reset Password With Code
 
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = Skriv inn 8-sifra kode
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Hald fram
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Send koden på nytt
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 
 ## ResetPassword start page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Passordtilbakestilling <span>for å halde fram til kontoinnstillingar</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Passordtilbakestilling <span>for å halde fram til { $serviceName }</span>
+password-reset-body = Skriv inn e-postadressa di, og vi sender deg ein kode, for å stadfeste at det er deg.
+password-reset-email-input =
+    .label = Skriv inn e-postadressa di
+password-reset-submit-button = Send meg instruksjonar for tilbakestilling
 
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Feil:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validerer innlogging…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Stadfestingsfeil
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Stadfestingslenka har gått ut
 
@@ -1031,12 +1058,18 @@ signin-button = Logg inn
 signin-header = Logg inn
 signin-use-a-different-account-link = Bruk ein annan konto
 signin-forgot-password-link = Gløymt passordet?
+signin-password-button-label = Passord
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Lenka du trykte på manglar nokre teikn, og kan ha blitt skada av e-postklienten. Kopier adressa nøye, og prøv på nytt.
+report-signin-header = Rapportere uautorisert inloggning?
+report-signin-body = Du har fått e-post om forsøk på å få tillgang til kontoen din. Vil du rapportere denne aktiviteten som mistenkjeleg?
+report-signin-submit-button = Rapporter aktivitet
+report-signin-support-link = Kvifor skjer dette?
 signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
 back = Tilbake
 
