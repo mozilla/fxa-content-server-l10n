@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 20:08+0000\n"
-"PO-Revision-Date: 2024-05-26 18:36+0000\n"
+"PO-Revision-Date: 2024-05-26 19:05+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1929,11 +1929,11 @@ msgstr "alebo"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"
-msgstr "Pokračovať s Google"
+msgstr "Pokračovať cez Google"
 
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
-msgstr "Pokračovať s Apple"
+msgstr "Pokračovať cez Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
