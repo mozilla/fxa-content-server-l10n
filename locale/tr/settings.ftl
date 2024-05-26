@@ -265,6 +265,8 @@ reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığın�
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Parolanızı hatırladınız mı?
 # link navigates to the sign in page
 remember-password-signin-link = Giriş yap
 
