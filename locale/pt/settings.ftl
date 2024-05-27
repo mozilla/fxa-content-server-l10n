@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Uma ilustração de um cadeado
 lightbulb-aria-label =
     .aria-label = Ilustração para representar a criação de uma dica de armazenamento.
+email-code-image-aria-label =
+    .aria-label = Imagem para representar um e-mail que contém um código.
 
 ## Input Password
 
@@ -263,9 +265,10 @@ reset-pwd-link-expired-message = A ligação que utilizou para redefinir a palav
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Memorizar a sua palavra-passe? Iniciar a sessão
+# immediately before remember-password-signin-link
+remember-password-text = Memorizar a sua palavra-passe?
+# link navigates to the sign in page
+remember-password-signin-link = Iniciar sessão
 
 ## LinkUsed component
 
@@ -1304,6 +1307,41 @@ reset-password-email-required-error = É necessário o e-mail
 reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar uma nova chave de recuperação da conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para a minha conta
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-otp-flow-name = Redefinir palavra-passe
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = Inserir código de confirmação
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = Insira nos próximos 10 minutos o código de confirmação de 8 dígitos que enviámos para <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = Inserir código de 8 dígitos
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Continuar
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Reenviar código
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Utilizar uma conta diferente
+
+## ResetPassword start page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = Reposição da palavra-passe <span>para continuar para as definições da conta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = Reposição de palavra-passe <span>para continuar para { $serviceName }</span>
+password-reset-body = Insira o seu e-mail e iremos enviar-lhe um código de confirmação para confirmar que é mesmo você.
+password-reset-email-input =
+    .label = Inserir o seu e-mail
+password-reset-submit-button = Enviar as instruções de reposição para mim
 
 ## CompleteSignin component
 
