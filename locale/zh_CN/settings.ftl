@@ -259,9 +259,6 @@ reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = 记起了密码？登录
 
 ## LinkUsed component
 
@@ -1285,6 +1282,24 @@ reset-password-email-required-error = 请输入邮箱地址
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
+
+## Confirm Reset Password With Code
+
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = 重新发送验证码
+# LInk to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = 换个账户登录
+
+## ResetPassword start page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+password-reset-heading-w-default-service = 重置密码以<span>继续设置账户</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+password-reset-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
+password-reset-body = 请输入您的电子邮件地址，我们会向您发送一个验证码以确认身份。
 
 ## CompleteSignin component
 
