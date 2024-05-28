@@ -77,6 +77,10 @@ choose-newsletters-option-security-privacy =
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = 抢先体验新产品
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = 重领互联网的行动号召
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -213,6 +217,8 @@ lock-image-aria-label =
     .aria-label = 挂锁图形
 lightbulb-aria-label =
     .aria-label = 创建存储的图案。
+email-code-image-aria-label =
+    .aria-label = 一封包含验证码的电子邮件的插图。
 
 ## Input Password
 
@@ -259,6 +265,10 @@ reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = 记住密码？
+# link navigates to the sign in page
+remember-password-signin-link = 登录
 
 ## LinkUsed component
 
@@ -1285,6 +1295,20 @@ reset-password-with-recovery-key-verified-continue-to-account = 继续使用我�
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-otp-flow-name = 重置密码
+# The confirmation code is an 8-digit confirmation code sent by email
+# Used to confirm possession of the email account
+confirm-reset-password-otp-heading = 输入验证码
+# Text within span appears in bold
+# $email - email address for which a password reset was requested, and where confirmation code was sent
+# code contains numbers only
+confirm-reset-password-otp-instruction = 请在 10 分钟内输入我们发送到 <span>{ $email }</span> 的 8 位验证码。
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-otp-input-group-label = 请输入 8 位验证码
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = 继续
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = 重新发送验证码
 # LInk to cancel the password reset and sign in with a different account
@@ -1300,6 +1324,9 @@ password-reset-heading-w-default-service = 重置密码以<span>继续设置账�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 password-reset-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
 password-reset-body = 请输入您的电子邮件地址，我们会向您发送一个验证码以确认身份。
+password-reset-email-input =
+    .label = 请输入您的电子邮箱
+password-reset-submit-button = 请向我发送重置操作说明
 
 ## CompleteSignin component
 
