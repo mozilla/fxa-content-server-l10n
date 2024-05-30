@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 20:08+0000\n"
+"POT-Creation-Date: 2024-05-30 20:08+0000\n"
 "PO-Revision-Date: 2024-02-24 17:43+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1073,8 +1073,8 @@ msgid "Email confirmed"
 msgstr "Sähköposti vahvistettu"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
-msgid "Complete your set-up"
-msgstr "Suorita asennus loppuun"
+msgid "Devices with hearts on their screens"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"

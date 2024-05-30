@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 20:08+0000\n"
+"POT-Creation-Date: 2024-05-30 20:08+0000\n"
 "PO-Revision-Date: 2024-02-06 11:13+0000\n"
 "Last-Translator: dex <krzysztof.glebowicz@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -1073,8 +1073,8 @@ msgid "Email confirmed"
 msgstr "Potwierdzono adres e-mail"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
-msgid "Complete your set-up"
-msgstr "Dokończ konfigurację"
+msgid "Devices with hearts on their screens"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
