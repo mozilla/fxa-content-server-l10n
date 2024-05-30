@@ -1298,34 +1298,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Vai al mio accou
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Reimposta password
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Inserisci il codice di conferma
+confirm-reset-password-with-code-heading = Controlla la tua email
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Inserisci entro 10 minuti il codice di conferma di 8 cifre che abbiamo inviato a <span>{ $email }</span>.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Abbiamo inviato un codice di conferma a <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Inserisci il codice a 8 cifre
+confirm-reset-password-code-input-group-label = Inserire il codice di 8 cifre entro 10 minuti
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Continua
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Invia di nuovo il codice
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Utilizza un altro account
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Reimposta la password <span>per passare alle impostazioni dell’account</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Reimposta la password <span>per continuare su { $serviceName }</span>
+password-reset-flow-heading = Reimpostazione della password
 password-reset-body = Inserisci il tuo indirizzo email e ti invieremo un codice di conferma per confermare la tua identità.
 password-reset-email-input =
     .label = Inserisci la tua email
