@@ -263,9 +263,6 @@ reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod e
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Yn cofio eich cyfrinair? Mewngofnodwch
 
 ## LinkUsed component
 
@@ -1305,6 +1302,20 @@ reset-password-email-required-error = Mae angen e-bost
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-with-code-heading = Gwiriwch eich e-bost
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Anfonwyd cod cadarnhau i <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Rhowch god 8 digid o fewn 10 munud
+
+## ResetPassword start page
+
+password-reset-flow-heading = Ailosod eich cyfrinair
 
 ## CompleteSignin component
 
