@@ -1311,34 +1311,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu 
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Gronidło slědk stajiś
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Wobkšuśeński kod zapódaś
+confirm-reset-password-with-code-heading = Pséglědajśo swóju e-mail
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Zapódajśo 8-městnowy wobkšuśeński kod za 10 minutow, kótaryž smy pósłali na <span>{ $email }</span>.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Smy pósłali wobkšuśeński kod do <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = 8-městnowy kod zapódaś
+confirm-reset-password-code-input-group-label = Zapódajśo 8-městnowy kod za 10 minutow
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Dalej
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Kod znowego słaś
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Wužywajśo druge konto
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Gronidło slědk stajiś, <span>aby z kontowymi nastajenjami pókšacował</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Gronidło slědk stajiś, <span>aby z { $serviceName } pókšacował</span>
+password-reset-flow-heading = Stajśo swójo gronidło slědk
 password-reset-body = Zapódajśo swóju e-mailowu adresu a buźomy wam wobkšuśeński kod słaś, aby my wašu identitu wobkšuśili.
 password-reset-email-input =
     .label = Zapódajśo swóju e-mailowu adresu
