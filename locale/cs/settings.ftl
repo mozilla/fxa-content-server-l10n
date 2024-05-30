@@ -1306,34 +1306,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do m
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Obnovit heslo
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Zadejte potvrzovací kód
+confirm-reset-password-with-code-heading = Zkontrolujte svou e-mailovou schránku
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Do 10 minut zadejte 8místný potvrzovací kód, který jsme vám zaslali na e-mail <span>{ $email }</span>.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Na adresu <span>{ $email }</span> jsme zaslali potvrzovací kód.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Zadejte osmimístný kód
+confirm-reset-password-code-input-group-label = Zadejte během 10 minut 8místný kód
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Pokračovat
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Znovu odeslat kód
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Použít jiný účet
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Obnovení hesla <span>pro pokračování do nastavení účtu</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Obnovení hesla <span>pro pokračování do služby { $serviceName }</span>
+password-reset-flow-heading = Obnovit heslo
 password-reset-body = Zadejte svou e-mailovou adresu a my vám zašleme potvrzovací kód pro ověření, že jste to skutečně vy.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
