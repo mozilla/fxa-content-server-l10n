@@ -1344,6 +1344,7 @@ password-reset-heading-w-default-service = Nulstil adgangskode <span>for at fort
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 password-reset-heading-w-custom-service = Nulstil adgangskode <span>for at fortsætte til { $serviceName }</span>
+password-reset-body = Indtast din mailadresse for at få tilsendt en bekræftelseskode til at bekræfte din identitet.
 password-reset-email-input =
     .label = Indtast din mailadresse
 password-reset-submit-button = Send mig en vejledning til at nulstille
