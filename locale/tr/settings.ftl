@@ -1298,27 +1298,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam 
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Parolayı sıfırla
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Onay kodunu girin
+confirm-reset-password-with-code-heading = E-postanızı kontrol edin
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = <span>{ $email }</span> adresine gönderdiğimiz 8 basamaklı onay kodunu 10 dakika içinde girin.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = <span>{ $email }</span> adresine bir onay kodu gönderdik.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = 8 basamaklı kodu girin
+confirm-reset-password-code-input-group-label = 8 basamaklı kodu 10 dakika içinde yazın
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Devam
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Kodu yeniden gönder
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Farklı bir hesap kullan
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Parolanızı sıfırlayın
 password-reset-body = E-posta adresinizi yazın. Gerçekten siz olduğunuzu doğrulamak için e-posta adresinize bir doğrulama kodu göndereceğiz.
 password-reset-email-input =
     .label = E-posta adresinizi yazın
