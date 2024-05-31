@@ -1317,34 +1317,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Менің ті�
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Парольді тастау
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Растау кодын енгізіңіз
+confirm-reset-password-with-code-heading = Эл. поштаңызды тексеріңіз
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = 10 минут ішінде <span>{ $email }</span> адресіне жіберілген 8 таңбалы растау кодын енгізіңіз.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Біз <span>{ $email }</span> адресіне растау кодын жібердік.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = 8-цифрлық кодты енгізіңіз
+confirm-reset-password-code-input-group-label = 10 минут ішінде 8 таңбалы кодты енгізіңіз
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Жалғастыру
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Кодты қайта жіберу
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Басқа тіркелгіні қолдану
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> парольді қалпына келтіру
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіру
+password-reset-flow-heading = Парольді тастау
 password-reset-body = Электрондық поштаңызды енгізіңіз, сіздің шынайылығын растау үшін сізге растау кодын жібереміз.
 password-reset-email-input =
     .label = Эл. поштаңызды енгізіңіз
