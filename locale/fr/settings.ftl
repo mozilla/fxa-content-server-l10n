@@ -1304,7 +1304,7 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuer vers m
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-with-code-heading = Vérifiez votre adresse e-mail
+confirm-reset-password-with-code-heading = Consultez vos e-mails
 # Text within span appears in bold
 # $email - email address for which a password reset was requested
 confirm-reset-password-with-code-instruction = Nous avons envoyé un code de confirmation à <span>{ $email }</span>.
