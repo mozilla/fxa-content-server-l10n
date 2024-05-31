@@ -1233,27 +1233,24 @@ reset-password-with-recovery-key-verified-continue-to-account = המשך לחש�
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = איפוס ססמה
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = נא להכניס את קוד האימות
+confirm-reset-password-with-code-heading = נא לבדוק את הדוא״ל שלך
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = נא להכניס את קוד האימות בן 8 ספרות ששלחנו אל <span>{ $email }</span> תוך 10 דקות.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = שלחנו קוד אימות אל <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = נא להכניס קוד בן 6 ספרות
+confirm-reset-password-code-input-group-label = נא להכניס קוד בן 8 ספרות תוך 10 דקות
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = המשך
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = שליחת הקוד מחדש
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = שימוש בחשבון אחר
 
 ## ResetPassword start page
 
+password-reset-flow-heading = איפוס הססמה שלך
 password-reset-body = נא להכניס  את כתובת הדוא״ל שלך ואנו נשלח לך קוד אישור כדי לאמת את זהותך.
 password-reset-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
