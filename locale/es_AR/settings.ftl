@@ -1316,7 +1316,7 @@ confirm-reset-password-with-code-heading = Revisá tu correo electrónico
 confirm-reset-password-with-code-instruction = Enviamos un código de confirmación a <span> { $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-code-input-group-label = Ingrese el código de 8 dígitos en 10 minutos
+confirm-reset-password-code-input-group-label = Ingresá el código de 8 dígitos dentro de los próximos 10 minutos
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Continuar
