@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = An illustration of a lock
 lightbulb-aria-label =
     .aria-label = Illustration to represent creating a storage hint.
+email-code-image-aria-label =
+    .aria-label = Illustration to represent an email containing a code.
 
 ## Input Password
 
@@ -263,9 +265,10 @@ reset-pwd-link-expired-message = The link you clicked to reset your password is 
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Remember your password? Sign in
+# immediately before remember-password-signin-link
+remember-password-text = Remember your password?
+# link navigates to the sign in page
+remember-password-signin-link = Sign in
 
 ## LinkUsed component
 
@@ -1301,6 +1304,31 @@ reset-password-email-required-error = Email required
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-with-code-heading = Check your email
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = We sent a confirmation code to <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Enter 8-digit code within 10 minutes
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Continue
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Resend code
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Use a different account
+
+## ResetPassword start page
+
+password-reset-flow-heading = Reset your password
+password-reset-body = Enter your email and we’ll send you a confirmation code to confirm it’s really you.
+password-reset-email-input =
+    .label = Enter your email
+password-reset-submit-button = Send me reset instructions
 
 ## CompleteSignin component
 
