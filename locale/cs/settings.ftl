@@ -1309,10 +1309,10 @@ reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do m
 confirm-reset-password-with-code-heading = Zkontrolujte svou e-mailovou schránku
 # Text within span appears in bold
 # $email - email address for which a password reset was requested
-confirm-reset-password-with-code-instruction = Na adresu <span>{ $email }</span> jsme zaslali potvrzovací kód.
+confirm-reset-password-with-code-instruction = Potvrzovací kód jsme odeslali na adresu <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-code-input-group-label = Zadejte během 10 minut 8místný kód
+confirm-reset-password-code-input-group-label = Zadejte 8místný kód do 10 minut
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Pokračovat
@@ -1323,7 +1323,7 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 
 ## ResetPassword start page
 
-password-reset-flow-heading = Obnovit heslo
+password-reset-flow-heading = Obnovení hesla
 password-reset-body = Zadejte svou e-mailovou adresu a my vám zašleme potvrzovací kód pro ověření, že jste to skutečně vy.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
