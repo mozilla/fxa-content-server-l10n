@@ -263,9 +263,8 @@ reset-pwd-link-expired-message = パスワードをリセットするリンク�
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = パスワードを覚えている場合はログインしてください
+# link navigates to the sign in page
+remember-password-signin-link = ログイン
 
 ## LinkUsed component
 
@@ -1291,6 +1290,26 @@ reset-password-email-required-error = メールアドレスが必須です
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
 reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-with-code-heading = メールを確認してください
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = 確認コードを <span>{ $email }</span> に送信しました。
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = 10 分以内に 8 桁のコードを入力してください
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = 続ける
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = 確認コードを再送する
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = 別のアカウントを使用する
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
