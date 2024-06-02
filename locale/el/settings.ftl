@@ -1319,34 +1319,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Επαναφορά κωδικού πρόσβασης
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Εισαγωγή κωδικού επιβεβαίωσης
+confirm-reset-password-with-code-heading = Ελέγξτε τα email σας
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Εισαγάγετε τον οκταψήφιο κωδικό επιβεβαίωσης που στείλαμε στο <span>{ $email }</span> εντός 10 λεπτών.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Στείλαμε έναν κωδικό επιβεβαίωσης στο <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Εισαγάγετε τον οκταψήφιο κωδικό
+confirm-reset-password-code-input-group-label = Εισαγάγετε τον οκταψήφιο κωδικό μέσα σε 10 λεπτά
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Συνέχεια
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Νέα αποστολή κωδικού
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Χρήση διαφορετικού λογαριασμού
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Κάντε επαναφορά του κωδικού πρόσβασης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Κάντε επαναφορά του κωδικού πρόσβασης <span>για να συνεχίσετε στο { $serviceName }</span>
+password-reset-flow-heading = Επαναφορά κωδικού πρόσβασης
 password-reset-body = Εισαγάγετε το email σας και θα σας στείλουμε έναν κωδικό επιβεβαίωσης για να επαληθεύσουμε την ταυτότητά σας.
 password-reset-email-input =
     .label = Εισαγάγετε το email σας
