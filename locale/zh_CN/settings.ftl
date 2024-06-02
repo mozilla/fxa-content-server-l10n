@@ -203,7 +203,7 @@ hearts-verified-image-aria-label =
 signin-recovery-code-image-description =
     .aria-label = 包含隐藏文本的文档。
 signin-totp-code-image-label =
-    .aria-label = 带有隐藏 6 位验证码的设备。
+    .aria-label = 包含隐藏 6 位验证码的设备。
 confirm-signup-aria-label =
     .aria-label = 包含链接的信封
 # Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
@@ -1295,34 +1295,24 @@ reset-password-with-recovery-key-verified-continue-to-account = 继续使用我�
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = 重置密码
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = 输入验证码
+confirm-reset-password-with-code-heading = 请查收邮件
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = 请在 10 分钟内输入我们发送到 <span>{ $email }</span> 的 8 位验证码。
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = 我们已将确认码发送至 <span>{ $email }</span>。
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = 请输入 8 位验证码
+confirm-reset-password-code-input-group-label = 请输入 8 位确认码（10 分钟内有效）
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = 继续
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = 重新发送验证码
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = 换个账户登录
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = 重置密码以<span>继续设置账户</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
+password-reset-flow-heading = 重置您的密码
 password-reset-body = 请输入您的电子邮件地址，我们会向您发送一个验证码以确认身份。
 password-reset-email-input =
     .label = 请输入您的电子邮箱
