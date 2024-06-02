@@ -265,6 +265,10 @@ reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Zapamiętać hasło?
+# link navigates to the sign in page
+remember-password-signin-link = Zaloguj się
 
 ## LinkUsed component
 
@@ -1309,9 +1313,28 @@ reset-password-with-recovery-key-verified-continue-to-account = Przejdź do moje
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Sprawdź pocztę
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Wysłano kod potwierdzenia na adres <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Wpisz 8-cyfrowy kod w ciągu 10 minut
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Kontynuuj
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Wyślij ponownie kod
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Użyj innego konta
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Zmień hasło
+password-reset-body = Wpisz swój adres e-mail, a wyślemy Ci kod potwierdzający Twoją tożsamość.
+password-reset-email-input =
+    .label = Wpisz adres e-mail
+password-reset-submit-button = Wyślij mi instrukcję zmiany hasła
 
 ## CompleteSignin component
 
