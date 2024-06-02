@@ -265,7 +265,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
 newDeviceLogin-subjectForMozillaAccount = Ny innlogging på { -product-mozilla-account }-en din.
-newDeviceLogin-title-3 = { -product-mozilla-account }-en din vart brukt til å logge inn
+newDeviceLogin-title-3 = { -product-mozilla-account }en din vart brukt til å logge inn
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Ikkje deg? <a data-l10n-name="passwordChangeLink">Endre passordet ditt</a>.
