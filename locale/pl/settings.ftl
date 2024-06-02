@@ -266,7 +266,7 @@ reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
 ## LinkRememberPassword component
 
 # immediately before remember-password-signin-link
-remember-password-text = Zapamiętać hasło?
+remember-password-text = Pamiętasz hasło?
 # link navigates to the sign in page
 remember-password-signin-link = Zaloguj się
 
