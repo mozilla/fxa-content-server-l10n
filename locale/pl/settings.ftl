@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Rysunek zamka
 lightbulb-aria-label =
     .aria-label = Rysunek przedstawiający tworzenie wskazówki o miejscu przechowywania.
+email-code-image-aria-label =
+    .aria-label = Rysunek przedstawiający wiadomość e-mail zawierającą kod.
 
 ## Input Password
 
@@ -263,9 +265,6 @@ reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Pamiętasz hasło? Zaloguj się
 
 ## LinkUsed component
 
@@ -1307,6 +1306,12 @@ reset-password-email-required-error = Adres e-mail jest wymagany
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
 reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
+
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
