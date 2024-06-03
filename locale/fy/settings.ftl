@@ -1321,34 +1321,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei my
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Wachtwurd opnij ynstelle
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Fier befêstigingskoade yn
+confirm-reset-password-with-code-heading = Kontrolearje jo e-mail
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Fier binnen 10 minuten de 8-siferige befêstigingskoade yn dy’t wy nei <span>{ $email }</span> ferstjoerd hawwe.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Wy hawwe in befêstigingskoade nei <span>{ $email }</span> stjoerd.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Fier 8-siferige koade yn
+confirm-reset-password-code-input-group-label = Fier binnen 10 minuten in 8-siferige koade yn
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Trochgean
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Koade nochris ferstjoere
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = In oar account brûke
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Wachtwurd opnij ynsteld <span>om troch te gean nei jo accountynstellingen</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Wachtwurd opnij ynsteld <span>om troch te gean nei { $serviceName }</span>
+password-reset-flow-heading = Jo wachtwurd opnij ynstelle
 password-reset-body = Fier jo e-mailadres yn en wy stjoere jo in befêstigingskoade om te befêstigjen dat jo it echt binne.
 password-reset-email-input =
     .label = Fier jo e-mailadres yn
