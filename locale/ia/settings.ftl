@@ -1316,6 +1316,12 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Controla tu email
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Nos invia un codice de confirmation a <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Insere un codice de confirmation de 8 cifras in 10 minutas
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Continuar
@@ -1326,6 +1332,7 @@ confirm-reset-password-otp-different-account-link = Usa un conto differente
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Reinitialisa tu contrasigno
 password-reset-body = Insere tu email e nos te inviara un codice de confirmation pro confirmar que es realmente tu.
 password-reset-email-input =
     .label = Insere tu email
