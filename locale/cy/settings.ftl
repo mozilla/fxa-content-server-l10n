@@ -1329,6 +1329,7 @@ confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 ## ResetPassword start page
 
 password-reset-flow-heading = Ailosod eich cyfrinair
+password-reset-body = Rhowch eich e-bost a byddwn yn anfon cod cadarnhau atoch i gadarnhau mai chi sydd yno.
 password-reset-email-input =
     .label = Rhowch eich e-bost
 password-reset-submit-button = Anfonwch ata i fanylion sut i ailosod
