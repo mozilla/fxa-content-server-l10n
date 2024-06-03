@@ -263,9 +263,10 @@ reset-pwd-link-expired-message = Lidhja që klikuat për ricaktimin e fjalëkali
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = E mbani mend fjalëkalimin tuaj? Hyni
+# immediately before remember-password-signin-link
+remember-password-text = E mbani mend fjalëkalimin tuaj?
+# link navigates to the sign in page
+remember-password-signin-link = Hyni
 
 ## LinkUsed component
 
@@ -1307,6 +1308,27 @@ reset-password-email-required-error = Lypset email
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-with-recovery-key-verified-generate-new-key = Prodho një kyç të ri rimarrjeje llogarie
 reset-password-with-recovery-key-verified-continue-to-account = Vazhdo te llogaria ime
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-with-code-heading = Shihni email-in tuaj
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Dërguam një kod ripohimi te <span>{ $email }</span>.
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Vazhdoni
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Ridërgo kodin
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Përdorni një llogari tjetër
+
+## ResetPassword start page
+
+password-reset-flow-heading = Ricaktoni fjalëkalimin tuaj
+password-reset-email-input =
+    .label = Jepni email-in tuaj
+password-reset-submit-button = Dërgomëni udhëzime ricaktimi
 
 ## CompleteSignin component
 
