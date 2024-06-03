@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-03 10:21+0000\n"
+"PO-Revision-Date: 2024-06-03 11:01+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -2013,23 +2013,23 @@ msgstr "Cydweddwch Firefox ar eich ffôn neu dabled"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Gweld eich cyfrineiriau wedi'u cadw, tabiau, hanes pori a mwy - ar draws eich holl ddyfeisiau."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Mae gen i Firefox symudol eisoes"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Cychwyn cydweddu nawr os oes gennych chi Firefox eisoes ar eich dyfais symudol."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Does gen i ddim Firefox symudol"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Llwythwch i lawr Firefox symudol, yna dechreuwch eich cydweddu."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2037,23 +2037,23 @@ msgstr "Nid nawr"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "I gydweddu Firefox ar eich ffôn neu dabled, yn gyntaf mae angen i chi lwytho i lawr Firefox symudol. Dyma sut mae gwneud:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Cam 1</b>: Llwythwch i lawr Firefox drwy sganio'r cod QR hwn gyda'r camera ar eich dyfais symudol:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "Cod QR (i'w weld ar ganol y sgrin)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Cam 2</b>: Dewiswch \"Parhau i gydweddu\" i gydweddu eich profiad Firefox ar eich dyfais symudol."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "Parhau i gydweddu"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."

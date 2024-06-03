@@ -217,6 +217,8 @@ lock-image-aria-label =
     .aria-label = Darlun o glo
 lightbulb-aria-label =
     .aria-label = Darlun i gynrychioli creu awgrym storio.
+email-code-image-aria-label =
+    .aria-label = Darlun i gynrychioli e-bost sy'n cynnwys cod.
 
 ## Input Password
 
@@ -263,6 +265,10 @@ reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod e
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Yn cofio eich cyfrinair?
+# link navigates to the sign in page
+remember-password-signin-link = Mewngofnodi
 
 ## LinkUsed component
 
@@ -1312,6 +1318,13 @@ confirm-reset-password-with-code-instruction = Anfonwyd cod cadarnhau i <span>{ 
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-code-input-group-label = Rhowch god 8 digid o fewn 10 munud
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Parhau
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Ail-anfon y cod
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 
 ## ResetPassword start page
 
