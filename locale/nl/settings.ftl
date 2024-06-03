@@ -1334,7 +1334,7 @@ confirm-reset-password-otp-different-account-link = Een andere account gebruiken
 
 ## ResetPassword start page
 
-password-reset-flow-heading = Herinitialiseer uw wachtwoord
+password-reset-flow-heading = Uw wachtwoord opnieuw instellen
 password-reset-body = Voer uw e-mailadres in en we sturen u een bevestigingscode om te bevestigen dat u het bent.
 password-reset-email-input =
     .label = Voer uw e-mailadres in
