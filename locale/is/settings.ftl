@@ -1311,34 +1311,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á 
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Endurstilla lykilorð
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Settu inn staðfestingarkóða
+confirm-reset-password-with-code-heading = Skoðaðu tölvupóstinn þinn
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Sláðu inn 8-stafa staðfestingarkóðann sem við sendum á <span>{ $email }</span> innan 10 mínútna.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Við sendum staðfestingarkóða á <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Settu inn 8-stafa kóða
+confirm-reset-password-code-input-group-label = Settu inn 8-stafa kóða innan 10 mínútna
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Halda áfram
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Senda kóða aftur
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Nota annan reikning
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Endurstilltu lykilorðið <span>til að halda áfram í aðgangsstillingar</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Endurstilltu lykilorðið <span>til að halda áfram í { $serviceName }</span>
+password-reset-flow-heading = Endurstilltu lykilorðið þitt
 password-reset-body = Settu inn tölvupóstfangið þitt og við sendum þér staðfestingarkóða til að staðfesta að þetta sé raunverulega þú.
 password-reset-email-input =
     .label = Settu inn tölvupóstfangið þitt
