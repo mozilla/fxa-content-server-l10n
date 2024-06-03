@@ -1315,34 +1315,17 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Reinitialisar le contrasigno
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Insere le codice de confirmation
-# Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Insere le codice de confirmation de 8-cifras que nos inviava a <span>{ $email }</span> intra 10 minutas.
-# Shown above a group of 8 single-digit input boxes
-# Only numbers allowed
-confirm-reset-password-otp-input-group-label = Insere le codice de 8 digitos
+confirm-reset-password-with-code-heading = Controla tu email
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Continuar
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Reinviar le codice
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Usa un conto differente
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Remontar le contrasigno <span>pro continuar a configurar le conto</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Remontar le contrasigno <span>pro continuar a { $serviceName }</span>
 password-reset-body = Insere tu email e nos te inviara un codice de confirmation pro confirmar que es realmente tu.
 password-reset-email-input =
     .label = Insere tu email
