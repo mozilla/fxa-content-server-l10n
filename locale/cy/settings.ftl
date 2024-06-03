@@ -1329,6 +1329,9 @@ confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 ## ResetPassword start page
 
 password-reset-flow-heading = Ailosod eich cyfrinair
+password-reset-email-input =
+    .label = Rhowch eich e-bost
+password-reset-submit-button = Anfonwch ata i fanylion sut i ailosod
 
 ## CompleteSignin component
 
