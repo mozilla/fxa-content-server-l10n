@@ -1319,27 +1319,24 @@ reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till m
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Återställ lösenord
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Ange bekräftelsekod
+confirm-reset-password-with-code-heading = Kontrollera din e-post
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Ange den 8-siffriga bekräftelsekod vi skickade till <span>{ $email }</span> inom 10 minuter.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Vi skickade en bekräftelsekod till <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Ange 8-siffrig kod
+confirm-reset-password-code-input-group-label = Ange en 8-siffrig kod inom 10 minuter
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Fortsätt
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Skicka koden igen
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Använd ett annat konto
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Återställ ditt lösenord
 password-reset-body = Ange din e-postadress så skickar vi en bekräftelsekod för att bekräfta att det verkligen är du.
 password-reset-email-input =
     .label = Ange din e-postadress
