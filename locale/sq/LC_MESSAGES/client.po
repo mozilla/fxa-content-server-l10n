@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-03 11:48+0000\n"
+"PO-Revision-Date: 2024-06-04 07:40+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1118,7 +1118,7 @@ msgstr "Email-i u ripohua"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
 msgid "Devices with hearts on their screens"
-msgstr ""
+msgstr "Pajisje me zemra në ekranet e tyre"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
@@ -2045,7 +2045,7 @@ msgstr "Procesi i rregullimit u përfundua."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Njëkohësoni përdorimin tuaj të Firefox-it"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Download Firefox for mobile"
@@ -2057,7 +2057,7 @@ msgstr "Njëkohësoni Firefox-in te telefoni ose tableti juaj"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Shihni fjalëkalimet tuaj të ruajtur, skeda, historik shfletimi, etj — nëpër krejt pajisjet tuaja."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
@@ -2065,7 +2065,7 @@ msgstr "E kam tashmë Firefox-in për celular"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Niseni njëkohësimin tuaj tani, nëse e keni tashmë Firefox-in në pajisjen tuaj celulare."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
@@ -2081,11 +2081,11 @@ msgstr "Jo tani"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Që të njëkohësoni Firefox-in në telefonin ose tabletin tuaj, së pari ju duhet të shkarkoni Firefox-in për celular. Ja se si:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Hapi 1</b>: Shkarkoni Firefox-in duke skanuar këtë kod QR me kamerën në pajisjen tuaj celulare:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
