@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2023-11-12 14:58+0000\n"
+"PO-Revision-Date: 2024-06-04 17:56+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -64,6 +64,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Мы зараз моцна загружаны і працуем над тым, каб вярнуць\n"
+"            сістэму ў нармальны стан як мага хутчэй."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
