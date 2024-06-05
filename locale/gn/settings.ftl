@@ -12,7 +12,7 @@ banner-dismiss-button =
     .aria-label = Mboty
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
+link-expired-resent-link-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuai’ỹre.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 
@@ -64,7 +64,7 @@ recovery-key-pdf-storage-ideas-heading = Eñongatukuaaha mba’eñemi
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Eikuaave ne mba’ete mba’eñemi guerujeyrã rehegua
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
+recovery-key-pdf-download-error = Ore ñyro, oĩ apañuái hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -359,7 +359,7 @@ connect-another-app-store-image-2 =
 cs-heading = Mba’eporu mbojuajupyre
 cs-description = Eiporúva guive ha emoñepyrũhápe tembiapo.
 cs-cannot-refresh =
-    Rombyasy, oĩ apañuãi hekopyahúvo mba’epytyvõrã rysýi
+    Rombyasy, oĩ apañuái hekopyahúvo mba’epytyvõrã rysýi
     juajupyre.
 cs-cannot-disconnect = Joguahára ndojejuhúi, ndaikatúi osẽ
 # This string is used in a notification message near the top of the page.
@@ -413,7 +413,7 @@ dc-subheader-2 = Eipytyvõ oiko porãvévo { -product-mozilla-accounts }
 dc-subheader-content-2 = Emoneĩ { -product-mozilla-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success-2 = Esẽ porã. { -product-mozilla-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success-2 = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-mozilla-accounts } oiko porãvévo.
-dc-opt-in-out-error-2 = Ore ñyrõ, iñapañuãi emoambuévo mba’ekuaarã ñembyaty eguerohoryvéva
+dc-opt-in-out-error-2 = Ore ñyrõ, iñapañuái emoambuévo mba’ekuaarã ñembyaty eguerohoryvéva
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
@@ -424,7 +424,7 @@ drop-down-menu-title-2 = { -product-mozilla-account } poravorã
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ramo
 drop-down-menu-sign-out = Ñesẽ
-drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuãi embotykuévo ne rembiapo
+drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuái embotykuévo ne rembiapo
 
 ## Flow Container
 
@@ -512,7 +512,7 @@ header-help = Pytyvõ
 ## Linked Accounts section
 
 la-heading = Mba’ete juajupyre
-la-description = Eikekuaa apañuãi’ỹre ko’ã mba’etépe.
+la-description = Eikekuaa apañuai’ỹre ko’ã mba’etépe.
 la-unlink-button = Pe’aite
 la-unlink-account-button = Pe’aite
 la-set-password-button = Emoĩ Ñe’ẽñemi
@@ -550,8 +550,8 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = Oiko apañuãi emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
-tfa-create-code-error = Oiko apañuãi emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
+tfa-replace-code-error-3 = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
+tfa-create-code-error = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
 tfa-replace-code-success-1 =
     Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
     ñemoneĩrã jeykekoha tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
@@ -586,8 +586,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
 avatar-page-new-avatar =
     .alt = ta’ãnga pyahu mba’etépe
-avatar-page-file-upload-error-3 = Iñapysẽ apañuãi ehupívo nera’ãnga mba’etépe
-avatar-page-delete-error-3 = Iñapysẽ apañuãi emboguévo nera’ãnga mba’etégui
+avatar-page-file-upload-error-3 = Iñapysẽ apañuái ehupívo nera’ãnga mba’etépe
+avatar-page-delete-error-3 = Iñapysẽ apañuái emboguévo nera’ãnga mba’etégui
 avatar-page-image-too-large-error-2 = Pe ta’ãnga marandurenda tuicha emyanyhẽ hag̃ua
 
 ##
@@ -622,7 +622,7 @@ pw-change-success-alert-2 = Ñe’ẽñemi hekopyahúva
 pw-create-header =
     .title = Emoheñói ñe’ẽñemi
 pw-create-success-alert-2 = Ñe’ẽñemi moĩmbyre
-pw-create-error-2 = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi
+pw-create-error-2 = Rombyasy, oiko apañuái emoĩnguévo ne ñe’ẽñemi
 
 ##
 
@@ -670,7 +670,7 @@ display-name-input =
     .label = Emoinge téra ehechauka hag̃ua
 submit-display-name = Ñongatu
 cancel-display-name = Heja
-display-name-update-error-2 = Oĩ apañuãi embohekopyahúvo nde réra ehechauka hag̃ua
+display-name-update-error-2 = Oĩ apañuái embohekopyahúvo nde réra ehechauka hag̃ua
 display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 
 ##
@@ -720,7 +720,7 @@ recovery-key-create-back-button-title = Eguevi ñembohekópe
 ## Add secondary email page
 
 add-secondary-email-step-1 = Ku’e 1 2-gui
-add-secondary-email-error-2 = Oiko apañuãi emoheñóivo ko ñanduti veve
+add-secondary-email-error-2 = Oiko apañuái emoheñóivo ko ñanduti veve
 add-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 add-secondary-email-enter-address =
@@ -735,7 +735,7 @@ add-secondary-email-mask = Ñanduti veve rovamo’ãha ndojeporukuaái ñanduti 
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Ku’e 2 2-gui
-verify-secondary-email-error-3 = Oiko apañuãi emondokuévo nde ayvu jehechajeyrã
+verify-secondary-email-error-3 = Oiko apañuái emondokuévo nde ayvu jehechajeyrã
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 verify-secondary-email-verification-code-2 =
@@ -1317,26 +1317,16 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Ñe’ẽñemi guerujey
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Emoinge ayvu ñemoneĩrã
-# Shown above a group of 8 single-digit input boxes
-# Only numbers allowed
-confirm-reset-password-otp-input-group-label = Emoinge ayvu 8 taíva
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Eku’ejey
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Emondojey ayvu
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
 password-reset-submit-button = Embou mba’éichapa emoĩporãjeýta

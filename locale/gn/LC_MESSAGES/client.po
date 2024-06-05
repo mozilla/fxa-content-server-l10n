@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-05-24 15:48+0000\n"
+"PO-Revision-Date: 2024-06-05 18:27+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -31,7 +31,7 @@ msgstr "Eñepyrũ tembiapo"
 
 #: .es5/views/index.js:152
 msgid "Account deleted successfully"
-msgstr "Mba’ete oñemboguete apañuãi’ỹre"
+msgstr "Mba’ete oñemboguete apañuai’ỹre"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -196,7 +196,7 @@ msgstr "Firefox mba’ete mba’eñemi jeguerujeyrã"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Ñanduti veve mondojeypyre. Embojuaju accounts@firefox.com ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre."
+msgstr "Ñanduti veve mondojeypyre. Embojuaju accounts@firefox.com ne ñomongetahápe og̃uahẽ hag̃ua apañuai’ỹre."
 
 #: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
@@ -216,7 +216,7 @@ msgstr "Monguatiapyre"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr "Mba’ete oñemoneĩva apañuãi’ỹre"
+msgstr "Mba’ete oñemoneĩva apañuai’ỹre"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
@@ -224,11 +224,11 @@ msgstr "hepyme’ẽ ha mbokuatiañemu"
 
 #: .es5/models/support-form.js:23
 msgid "account issues"
-msgstr "mba’ete apañuãi"
+msgstr "mba’ete apañuái"
 
 #: .es5/models/support-form.js:23
 msgid "technical issues"
-msgstr "apañuãi aporekóva"
+msgstr "apañuái aporekóva"
 
 #: .es5/models/support-form.js:23
 msgid "provide feedback / request features"
@@ -280,11 +280,11 @@ msgstr "Ojehechajey ñanduti veve mba’eguasuvéva"
 
 #: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
-msgstr "Ñanduti veve mokõiguáva ojehechajeýva apañuãi’ỹre"
+msgstr "Ñanduti veve mokõiguáva ojehechajeýva apañuai’ỹre"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
-msgstr "Ñe’ẽñemi jeguerujey apañuãi’ỹre"
+msgstr "Ñe’ẽñemi jeguerujey apañuai’ỹre"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -484,7 +484,7 @@ msgstr "Ko mba’ejerure oikotevẽ ñemboaje mokõi jeku’e ijurujáva mba’e
 
 #: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
-msgstr "Ojavy mba’ejerure omoapañuãiva rupi, eha’ãjey ag̃ave."
+msgstr "Ojavy mba’ejerure omoapañuáiva rupi, eha’ãjey ag̃ave."
 
 #: .es5/lib/auth-errors.js:258
 msgid "Unknown customer for subscription."
@@ -836,12 +836,8 @@ msgid "Invalid Token"
 msgstr "Token oiko’ỹva"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba’epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) "
-"mba’éva."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba’epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) mba’éva."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -877,7 +873,7 @@ msgstr "500 Javy"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "¡Ups! Ha’ete oikóva apañuãi. Ko’ág̃a roikuaáma ha rohecháma mba’éichapa romoĩporãta."
+msgstr "¡Ups! Ha’ete oikóva apañuái. Ko’ág̃a roikuaáma ha rohecháma mba’éichapa romoĩporãta."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -907,8 +903,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde Mozilla mba’etépe."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">JEHAIPY:</span> emoñepyrũjeývo ñe’ẽñemi ha nereñongatúirõ mba’ete mba’eñemi jeguerujeyrã, oguekuaa ne mba’ekuaarã (oikehápe apopyvusu mba’ekuaarã moñondivepyre ikatúva "
 "tambiasakue ha techaukaha)."
@@ -1125,44 +1120,35 @@ msgstr "Ñe’ẽñemi"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Eku’ejeývo, emoneĩ:<br />\n"
-"              Umi <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Temiñemi porureko</a> ha <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Ñemigua jehaipy</a> Pocket mba’e<br />\n"
-"             <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’eporu porureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Ñemigua jehaipy</a> Mozilla mba’ete "
-"rehegua\n"
+"              Umi <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Temiñemi porureko</a> ha <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Ñemigua jehaipy</a> Pocket mba’e<br />\n"
+"             <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’eporu porureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Ñemigua jehaipy</a> Mozilla mba’ete rehegua\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Eku’ejeývo, emoneĩ:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" "
-"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Temiñemi porureko</a> Mozilla mba’eporurãme ñemboheguapy rehegua<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Temiñemi porureko</a> Mozilla "
-"mba’ete rehegua\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Temiñemi porureko</a> Mozilla mba’eporurãme ñemboheguapy rehegua<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Temiñemi porureko</a> Mozilla mba’ete rehegua\n"
 "            \n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Eku’ejeývo, emoneĩ ko’ã <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Temiñemi Porureko</"
-"a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Eku’ejeývo, emoneĩ ko’ã <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Temiñemi Porureko</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1200,34 +1186,28 @@ msgstr "Mozilla mba’ete ombojurujakuaa heta apopyrépe jeike Mozilla ñemigua 
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "              Eku’ejeývo, emoneĩ:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Temiñemi porureko</a> ha <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Ñemigua jehaipy</a><br />\n"
-"             <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’eporu porureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Ñemigua jehaipy</a> Mozilla Accounts "
-"rehegua\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Temiñemi porureko</a> ha <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Ñemigua jehaipy</a><br />\n"
+"             <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’eporu porureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Ñemigua jehaipy</a> Mozilla Accounts rehegua\n"
 "            "
 
 #: .es5/templates/index.mustache:14
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Eku’ejeývo, emoneĩ:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" "
-"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Temiñemi porureko</a> Mozilla mba’eporurãme ñemboheguapy rehegua<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Temiñemi porureko</a> Mozilla "
-"mba’ete rehegua\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Temiñemi porureko</a> Mozilla mba’eporurãme ñemboheguapy rehegua<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\"> Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Temiñemi porureko</a> Mozilla mba’ete rehegua\n"
 "            \n"
 "            "
 
@@ -1492,7 +1472,7 @@ msgstr "Embojuruja ne rembiporu’i ñemoneĩha ha emoinge tekorosã ayvu eipot�
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr "¿Apañuãi emoinge hag̃ua ayvu?"
+msgstr "¿Apañuái emoinge hag̃ua ayvu?"
 
 #: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
@@ -1572,11 +1552,11 @@ msgstr "Jepyme’ẽ ha ñembokuatiañemu"
 
 #: .es5/templates/support.mustache:14
 msgid "Account issues"
-msgstr "Mba’ete apañuãi"
+msgstr "Mba’ete apañuái"
 
 #: .es5/templates/support.mustache:15
 msgid "Technical issues"
-msgstr "Apañuãi aporekóva"
+msgstr "Apañuái aporekóva"
 
 #: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"
@@ -1596,7 +1576,7 @@ msgstr "Mba’egua (poravokuaáva)"
 
 #: .es5/templates/support.mustache:21
 msgid "Description of issue"
-msgstr "Apañuãi ñemoha’ãnga"
+msgstr "Apañuái ñemoha’ãnga"
 
 #: .es5/templates/support.mustache:23
 msgid "Send"
@@ -1929,11 +1909,11 @@ msgstr "Ndaha’éi ñe’ẽñemi ojeporumeméva"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr "Eiko apañuãi’ỹre &mdash; ani eiporujey ñe’ẽñemi. Eporandu ñe’ẽporãre <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">emoheñói ñe’ẽñemi</a> peg̃uarã."
+msgstr "Eiko apañuai’ỹre &mdash; ani eiporujey ñe’ẽñemi. Eporandu ñe’ẽporãre <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">emoheñói ñe’ẽñemi</a> peg̃uarã."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Ehechápa, oĩ apañuãi apopyvusúpe. Romba’apohína romoĩporã hag̃ua ha rombyasy ko oikóvare. Eha’ãjey uperire."
+msgstr "Ehechápa, oĩ apañuái apopyvusúpe. Romba’apohína romoĩporã hag̃ua ha rombyasy ko oikóvare. Eha’ãjey uperire."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"

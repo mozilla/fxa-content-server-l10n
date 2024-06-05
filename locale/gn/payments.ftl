@@ -348,8 +348,8 @@ plan-price-interval-year =
 # App error dialog
 general-error-heading = Tembiporu’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
-payment-error-1 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
-payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
+payment-error-1 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
+payment-error-2 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
 payment-error-3b = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey uperire.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
 insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
@@ -369,11 +369,11 @@ fxa-account-signup-error-2 = Peteĩ apopyvusu ndoikóiva ojavyka { $productName 
 fxa-post-passwordless-sub-error = Mboheraguapy moneĩmbyre, hákatu kuatiarogue ñemoneĩ nahenyhẽkuaái. Ehecha ne ñanduti veve emboheko hag̃ua ne mba’ete.
 newsletter-signup-error = Nereiméi ñanduti veve apopyre ñembohekopyahúpe g̃uarã. Eha’ãjey ag̃ave ne mba’ete ñembohekópe.
 product-plan-error =
-    .title = Apañuãi emyanyhẽvo tembiaporã
+    .title = Apañuái emyanyhẽvo tembiaporã
 product-profile-error =
-    .title = Apañuãi emyanyhẽvo mba’etee
+    .title = Apañuái emyanyhẽvo mba’etee
 product-customer-error =
-    .title = Apañuãi emyanyhẽvo ñemuhára
+    .title = Apañuái emyanyhẽvo ñemuhára
 product-plan-not-found = Ndojejuhúi tembiaporã
 
 ## Hooks - coupons
@@ -396,7 +396,7 @@ sub-update-payment-title = Jehepyme’ẽ marandu
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Ehepyme’ẽ kuatia’atãme
-product-invoice-preview-error-title = Apañuãi emyanyhẽvo kuatiañemure jehecha ypy
+product-invoice-preview-error-title = Apañuái emyanyhẽvo kuatiañemure jehecha ypy
 product-invoice-preview-error-text = Ndaikatúi oñemyanyhẽ kuatiañemure jehecha ypy
 
 ## Routes - Product - IapRoadblock
@@ -468,11 +468,11 @@ sub-route-idx-cancel-aside-2 = Eporandusépa. Eike <a>{ -brand-mozilla } Pytyvõ
 ## Routes - Subscriptions - Errors
 
 sub-customer-error =
-    .title = Apañuãi emyanyhẽvo ñemuhára
+    .title = Apañuái emyanyhẽvo ñemuhára
 sub-invoice-error =
-    .title = Apañuãi emyanyhẽvo kuatiañemure
+    .title = Apañuái emyanyhẽvo kuatiañemure
 sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
-sub-invoice-previews-error-title = Apañuãi emyanyhẽvo kuatiañemure
+sub-invoice-previews-error-title = Apañuái emyanyhẽvo kuatiañemure
 sub-invoice-previews-error-text = Ndaikatúi oñemyanyhẽ kuatiañemure jehecha’ypy
 
 ## Routes - Subscription - ActionButton
@@ -498,7 +498,7 @@ sub-expires-on = Opáta { $date }
 pay-update-card-exp = Hu’ãta { $expirationDate }
 sub-route-idx-updating = Hekopyahuhína ñemuhakuatia marandu…
 sub-route-payment-modal-heading = Marandu kuatiañemure oiko’ỹva
-sub-route-payment-modal-message-2 = Oĩvaicha jejavy { -brand-paypal } mba’ete ndive, roikotevẽ emboguata mba’eichaitépa emoĩporãta ko apañuãi jehepyme’ẽ rehegua.
+sub-route-payment-modal-message-2 = Oĩvaicha jejavy { -brand-paypal } mba’ete ndive, roikotevẽ emboguata mba’eichaitépa emoĩporãta ko apañuái jehepyme’ẽ rehegua.
 sub-route-missing-billing-agreement-payment-alert = Marandu jehepyme’ẽ rehegua oiko’ỹva; oĩ jejavy mba’ete ndive. <div>Ñangareko</div>
 sub-route-funding-source-payment-alert = Marandu jehepyme’ẽ rehegua oiko’ỹva; oĩ jejavy mba’ete ndive. Ko jyhyjerã ndohopya’emo’ãi embohehekopyahu rire pe marandu hekopete. <div>Ñangareko</div>
 
