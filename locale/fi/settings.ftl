@@ -258,9 +258,10 @@ reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on van
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
+# immediately before remember-password-signin-link
+remember-password-text = Muistatko salasanasi?
+# link navigates to the sign in page
+remember-password-signin-link = Kirjaudu sisään
 
 ## LinkUsed component
 
@@ -269,6 +270,8 @@ primary-email-confirmation-link-reused = Ensisijainen sähköposti on jo vahvist
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Kirjautuminen on jo vahvistettu
 confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Virheellinen pyyntö
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -1303,6 +1306,27 @@ reset-password-email-required-error = Sähköpostiosoite vaaditaan
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-with-code-heading = Tarkista sähköpostisi
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Syötä 8-numeroinen koodi 10 minuutin kuluessa
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Jatka
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Lähetä koodi uudelleen
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Käytä toista tiliä
+
+## ResetPassword start page
+
+password-reset-flow-heading = Nollaa salasanasi
+password-reset-email-input =
+    .label = Kirjoita sähköpostiosoitteesi
+password-reset-submit-button = Lähetä minulle palautusohjeet
 
 ## CompleteSignin component
 
