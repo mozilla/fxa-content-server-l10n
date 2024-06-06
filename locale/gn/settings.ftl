@@ -766,8 +766,8 @@ tfa-button-continue = Ku’ejey
 tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
-tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
-tfa-cannot-verify-code-4 = Oiko peteĩ apañuãi emoneĩnguévo nde ayvu ñemoneĩrã jeykekoha
+tfa-cannot-retrieve-code = Oiko peteĩ apañuái eguerukuévo ayvu.
+tfa-cannot-verify-code-4 = Oiko peteĩ apañuái emoneĩnguévo nde ayvu ñemoneĩrã jeykekoha
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
@@ -868,7 +868,7 @@ rk-key-removed-2 = Oguéma ayvu jeguerujeyrã mba’ete
 rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 rk-refresh-key-1 = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
-rk-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
+rk-cannot-verify-session-4 = Rombyasy, oiko apañuái guasu emoneĩjeývo tembiapo
 rk-remove-modal-heading-1 = Embogue mba’ete mba’eñemi jeguerujeyrã
 rk-remove-modal-content-1 =
     Emoĩporãsejeýramo ne ñe’ẽñemi, ndaikatumo’ãi
@@ -881,20 +881,20 @@ unit-row-recovery-key-delete-icon-button-title = Embogue mba’ete mba’eñemi 
 
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
-se-cannot-refresh-email = Ore ñyrõ oĩ apañuãi hekopyahúvo pe ñanduti veve.
-se-cannot-resend-code-3 = Ore ñyrõ, oiko apañuãi emondojeykuévo ayvu jehechajeyrã
+se-cannot-refresh-email = Ore ñyrõ oĩ apañuái hekopyahúvo pe ñanduti veve.
+se-cannot-resend-code-3 = Ore ñyrõ, oiko apañuái emondojeykuévo ayvu jehechajeyrã
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } ha’e ñanduti veve eiporuvéva
-se-set-primary-error-2 = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eiporuvéva
+se-set-primary-error-2 = Ore ñyrõ, oĩ apañuái emoambuévo ñanduti veve eiporuvéva
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } oñembogue hekopete
-se-delete-email-error-2 = Ore ñyrõ, oĩ apañuãi emboguévo ko ñanduti veve
+se-delete-email-error-2 = Ore ñyrõ, oĩ apañuái emboguévo ko ñanduti veve
 se-verify-session-3 = Tekotevẽ emoneĩjey ne rembiapo ag̃agua ejapo mboyve ko jeku’e
-se-verify-session-error-3 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
+se-verify-session-error-3 = Rombyasy, oiko apañuái guasu emoneĩjeývo tembiapo
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
@@ -928,12 +928,12 @@ tfa-row-action-disable = Pe’a
 tfa-row-button-refresh =
     .title = Embopyahu ñemoneĩ mokõi jeku’egua
 tfa-row-cannot-refresh =
-    Rombyasy, oiko apañuãi embopyahúvo ñemoneĩ
+    Rombyasy, oiko apañuái embopyahúvo ñemoneĩ
     mokõi jeku’egua.
 tfa-row-content-explain =
     Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
     ayvu peteĩva ndénte eiporukuaáva.
-tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
+tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuái guasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain-1 =
@@ -1282,8 +1282,8 @@ complete-reset-password-warning-message-2 = <span>Nemandu’ápa:</span> Egueruj
 complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
-complete-reset-password-error-alert = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi
-complete-reset-password-recovery-key-error-v2 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
+complete-reset-password-error-alert = Rombyasy, oiko apañuái emoĩnguévo ne ñe’ẽñemi
+complete-reset-password-recovery-key-error-v2 = Ore ñyro, oĩ apañuái hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
 complete-reset-password-recovery-key-link = Erujey ñe’ẽñemi mba’ete mba’eñemi jeguerujeyrã ndive.
 
 ## Confirm Reset Password Component
@@ -1370,7 +1370,7 @@ report-signin-header = ¿Emomarandu jeike ñemoneĩ’ỹva?
 report-signin-body = Og̃uahẽ ndéve ñanduti veve peteĩ jeikese ne mba’etépe rehegua. ¿Emombe’usépa ko tembiapo ivaikuaávaramo?
 report-signin-submit-button = Emomarandu tembiaporã
 report-signin-support-link = ¿Mba’ére oiko ko’ãva?
-report-signin-error = Rombyasy, oiko apañuãi emondóvo ne rembiapo.
+report-signin-error = Rombyasy, oiko apañuái emondóvo ne rembiapo.
 signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
 # $email (string) - The user's email.
 signin-bounced-message = Ko ñanduti veve ñemoneĩgua romondóva { $email }-pe nog̃uahẽi ha rojokóma mba’ete romo’ã hag̃ua mba’ekuaarã { -brand-firefox } pegua.
@@ -1443,7 +1443,7 @@ signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
 signin-totp-code-other-account-link = Eiporu ambuéva mba’ete
-signin-totp-code-recovery-code-link = ¿Apañuãi emoinge hag̃ua ayvu?
+signin-totp-code-recovery-code-link = ¿Apañuái emoinge hag̃ua ayvu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
 
@@ -1482,7 +1482,7 @@ confirm-signup-code-confirm-button = Moneĩ
 confirm-signup-code-code-expired = ¿Ayvu oiko’ỹva?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
-confirm-signup-code-success-alert = Mba’ete oñemoneĩva apañuãi’ỹre
+confirm-signup-code-success-alert = Mba’ete oñemoneĩva apañuai’ỹre
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
 
