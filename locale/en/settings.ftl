@@ -187,12 +187,6 @@ form-password-sr-passwords-match = Entered passwords match.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = This field is required
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-  .aria-label = Submit { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
