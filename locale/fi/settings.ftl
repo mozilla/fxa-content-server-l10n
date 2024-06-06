@@ -1310,6 +1310,9 @@ reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle til
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Tarkista sähköpostisi
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Lähetimme vahvistuskoodin osoitteeseen <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-code-input-group-label = Syötä 8-numeroinen koodi 10 minuutin kuluessa
