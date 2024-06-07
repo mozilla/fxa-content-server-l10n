@@ -1331,6 +1331,7 @@ confirm-reset-password-otp-different-account-link = Uporabi drug račun
 ## ResetPassword start page
 
 password-reset-flow-heading = Ponastavite vaše geslo
+password-reset-body = Vpišite e-poštni naslov in poslali vam bomo potrditveno kodo, s katero boste potrdili, da ste to res vi.
 password-reset-email-input =
     .label = Vnesite e-poštni naslov
 password-reset-submit-button = Pošlji mi navodila za ponastavitev
