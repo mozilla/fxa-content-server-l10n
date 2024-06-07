@@ -1,12 +1,12 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2021-11-15 14:25+0000\n"
-"Last-Translator: nandar <ia.adnan@gmail.com>\n"
+"PO-Revision-Date: 2024-06-07 06:55+0000\n"
+"Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
 "MIME-Version: 1.0\n"
@@ -71,11 +71,11 @@ msgstr "Lengekepan panataharan kalawan ngasupkeun sandi anyar di parangkat Firef
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Anjeun ayeuna siap nyieun parobahan kana akun Firefox anjeun."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Surélék utama geus divérifikasi"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Iber akun bakal dikirim ogé ka %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Surélék sékunder geus divérifikasi"
 
 #: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -95,7 +95,7 @@ msgstr "Ayeuna anjeun geus siap ngagunakeun %(serviceName)s"
 
 #: .es5/views/ready.js:74
 msgid "Account confirmed"
-msgstr ""
+msgstr "Akun geus dikonfirmasi"
 
 #: .es5/views/ready.js:79
 msgid "Connected"
@@ -128,7 +128,7 @@ msgstr "Nuhun geus ngahontal Mozilla Support ngeunaan <b>%(escapedLowercaseTopic
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -184,7 +184,7 @@ msgstr "Témbongkeun sandi"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Kodeu Auténtikasi Cadangan Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
@@ -192,7 +192,7 @@ msgstr "Oténtikasi dua léngkah dihurungkeun"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Konci Pamulangan Akun Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -216,7 +216,7 @@ msgstr "Kacitak"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Akun geus hasil dikonfirmasi"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
@@ -248,7 +248,7 @@ msgstr "Jujutan"
 
 #: .es5/models/sync-engines.js:54
 msgid "Passwords"
-msgstr ""
+msgstr "Kecap sandi"
 
 #: .es5/models/sync-engines.js:58
 msgid "Add-ons"
@@ -268,7 +268,7 @@ msgstr "Alamat"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Cara Mayar"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -464,7 +464,7 @@ msgstr "Token TOTP teu kapanggih"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Kodeu auténtikasi cadangan teu kapanggih"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
@@ -472,11 +472,11 @@ msgstr "Paréntah parangkat teu sayaga"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Konci pamulangan akun teu kapanggih"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Kodeu pamulihan akun teu sah"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -512,7 +512,7 @@ msgstr "Pamutahiran ditolak, mangga cobaan deui"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Kode konfirmasi teu valid atawa kadaluwarsa"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
@@ -533,7 +533,7 @@ msgstr "Nika deui téh geus teu dirojong deui"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Lengkepan setélan akun, mangga <a href=\"/reset_password\">rését sandi</a> pikeun neruskeun."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -836,9 +836,7 @@ msgid "Invalid Token"
 msgstr "Token teu sah"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Lamun neruskeun, hartina anjeun sapuk kana <a id=\"service-tos\" href=\"%(termsUri)s\">Katangtuan Layanan</a> jeung<a id=\"service-pp\" href=\"%(privacyUri)s\">Wawar Privasi</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -907,8 +905,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\"> CATETAN:</span> Mun anjeun nyetél sandi anjeun sarta teu boga konci pamulangan akun nu kasimpen, sawaréh data anjeun bakal kapupus (kaasup singkronan sérver kayaning jujutan "
 "jeung markah)."
@@ -1123,8 +1120,7 @@ msgstr "Sandi"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1133,16 +1129,14 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
@@ -1181,8 +1175,7 @@ msgstr ""
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
@@ -1191,8 +1184,7 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
