@@ -1316,7 +1316,7 @@ reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj r
 confirm-reset-password-with-code-heading = Preverite e-pošto
 # Text within span appears in bold
 # $email - email address for which a password reset was requested
-confirm-reset-password-with-code-instruction = Poslali smo potrditveno kodo na <span>{ $email }</span>.
+confirm-reset-password-with-code-instruction = Potrditveno kodo smo poslali na <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-code-input-group-label = Vnesite 8-mestno kodo v 10 minutah
@@ -1330,7 +1330,7 @@ confirm-reset-password-otp-different-account-link = Uporabi drug račun
 
 ## ResetPassword start page
 
-password-reset-flow-heading = Ponastavite vaše geslo
+password-reset-flow-heading = Ponastavite geslo
 password-reset-body = Vpišite e-poštni naslov in poslali vam bomo potrditveno kodo, s katero boste potrdili, da ste to res vi.
 password-reset-email-input =
     .label = Vnesite e-poštni naslov
