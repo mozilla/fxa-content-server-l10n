@@ -1,12 +1,12 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2021-11-15 14:26+0000\n"
-"Last-Translator: nandar <ia.adnan@gmail.com>\n"
+"PO-Revision-Date: 2024-06-07 06:51+0000\n"
+"Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
 "MIME-Version: 1.0\n"
@@ -17,12 +17,12 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Akun Mozilla"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logo Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -48,7 +48,7 @@ msgstr "Éror 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
-msgstr ""
+msgstr "Duh lur, aya nu salah ieu téh. Kami geus diwawaran sarta bakal digawé pikeun menerkeunana."
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
@@ -63,6 +63,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Kiwari kami keur pakepuk sarta satékah-polah mulihkeun\n"
+"                    sistem sangkan normal deui sagancangna."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -70,11 +72,11 @@ msgstr "Ngamuat"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Firefox Accounts merlukeun JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Akun Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -87,6 +89,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox Accounts ngamangpaatkeun fitur-fitur anu\n"
+"                        teu dirojong dina vérsi Firefox anjeun. Mangga\n"
+"                        undeur tur pasang vérsi mutahir Firefox pikeun\n"
+"                        neruskeun."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
