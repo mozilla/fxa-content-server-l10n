@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-07 23:51+0000\n"
+"PO-Revision-Date: 2024-06-07 23:52+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1978,7 +1978,7 @@ msgstr "จัดการอุปกรณ์"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "ขณะนี้จำเป็นต้องได้รับการอนุมัติ<small class=\"card-subheader\">จากอุปกรณ์เครื่องอื่นของคุณ</small>"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
@@ -2058,7 +2058,7 @@ msgstr "การจับคู่สำเร็จแล้ว"
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "ยืนยันการจับคู่<span class=\"card-subheader\">สำหรับ <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

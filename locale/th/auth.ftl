@@ -7,14 +7,31 @@ session-verify-send-push-body-2 = คลิกที่นี่เพื่อ�
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="โลโก้ { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="ซิงค์อุปกรณ์">
 body-devices-image = <img data-l10n-name="devices-image" alt="อุปกรณ์">
 fxa-privacy-url = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
 moz-accounts-privacy-url-2 = ประกาศความเป็นส่วนตัวของ{ -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-terms-url = เงื่อนไขการให้บริการของ { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร
 subplat-privacy-notice = ประกาศความเป็นส่วนตัว
 subplat-privacy-plaintext = ประกาศความเป็นส่วนตัว:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-mozilla-account } และคุณได้ลงชื่อเข้าใช้ { $productName }
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-mozilla-account }
+subplat-explainer-multiple-2 = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-mozilla-account } และคุณได้สมัครสมาชิกผลิตภัณฑ์หลายอย่าง
+subplat-explainer-was-deleted-2 = คุณได้รับอีเมลนี้เนื่องจาก { $email } ถูกลงทะเบียนสำหรับใช้กับ{ -product-mozilla-account }
+subplat-manage-account-2 = จัดการการตั้งค่า{ -product-mozilla-account } ของคุณโดยไปที่<a data-l10n-name="subplat-account-page">หน้าบัญชี</a>ของคุณ
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = จัดการการตั้งค่า{ -product-mozilla-account } ของคุณโดยไปที่หน้าบัญชีของคุณ: { $accountSettingsUrl }
 subplat-terms-policy = ข้อกำหนดและนโยบายการยกเลิก
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ยกเลิกการสมัครสมาชิก
@@ -23,7 +40,11 @@ subplat-reactivate = ต่ออายุการสมัครสมาช�
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = อัปเดตข้อมูลการเรียกเก็บเงิน
 subplat-privacy-policy = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
+subplat-privacy-policy-2 = ประกาศความเป็นส่วนตัวของ{ -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = เงื่อนไขการให้บริการของ { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = ข้อกฎหมาย
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ความเป็นส่วนตัว
@@ -60,6 +81,44 @@ automated-email-no-action = { automated-email-no-action-plaintext } สำหร
 automated-email-no-action-plaintext = นี่เป็นอีเมลที่ส่งแบบอัตโนมัติ ถ้าคุณได้รับอีเมลนี้เนื่องจากความผิดพลาด คุณไม่จำเป็นต้องทำสิ่งใด
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่ได้อนุญาตให้ดำเนินการนี้ โปรดเปลี่ยนรหัสผ่านของคุณ:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = คำขอนี้มาจาก { $uaBrowser } บน { $uaOS } { $uaOSVersion }
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = คำขอนี้มาจาก { $uaBrowser } บน { $uaOS }
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = คำขอนี้มาจาก { $uaBrowser }
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = คำขอนี้มาจาก { $uaOS } { $uaOSVersion }
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = คำขอนี้มาจาก { $uaOS }
+automatedEmailRecoveryKey-delete-key-change-pwd = ถ้านี่ไม่ใช่คุณ ให้<a data-l10n-name="revokeAccountRecoveryLink">ลบคีย์ใหม่</a>และ<a data-l10n-name="passwordChangeLink">เปลี่ยนรหัสผ่านของคุณ</a>
+automatedEmailRecoveryKey-change-pwd-only = ถ้านี่ไม่ใช่คุณ ให้<a data-l10n-name="passwordChangeLink">เปลี่ยนรหัสผ่านของคุณ</a>
+automatedEmailRecoveryKey-more-info = สำหรับข้อมูลเพิ่มเติม ให้ไปที่<a data-l10n-name="supportLink">ฝ่ายช่วยเหลือของ { -brand-mozilla }</a>
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = คำขอนี้มาจาก:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = ถ้านี่ไม่ใช่คุณ ให้ลบคีย์ใหม่:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = ถ้านี่ไม่ใช่คุณ ให้เปลี่ยนรหัสผ่านของคุณ:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = และเปลี่ยนรหัสผ่านของคุณ:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = สำหรับข้อมูลเพิ่มเติม ให้ไปที่ฝ่ายช่วยเหลือของ { -brand-mozilla }:
 automated-email-reset =
     นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่อนุญาตให้ดำเนินการนี้ <a data-l10n-name="resetLink">โปรดตั้งค่ารหัสผ่านของคุณใหม่</a>
     สำหรับข้อมูลเพิ่มเติม โปรดไปที่<a data-l10n-name="supportLink">ฝ่ายสนับสนุนของ { -brand-mozilla }</a>
