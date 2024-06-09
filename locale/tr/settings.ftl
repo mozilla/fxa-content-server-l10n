@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Girilen parolalar eşleşiyor.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Bu alanı doldurmalısınız
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = { $codeValue } kodunu gönder
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -1319,6 +1313,7 @@ password-reset-flow-heading = Parolanızı sıfırlayın
 password-reset-body = E-posta adresinizi yazın. Gerçekten siz olduğunuzu doğrulamak için e-posta adresinize bir doğrulama kodu göndereceğiz.
 password-reset-email-input =
     .label = E-posta adresinizi yazın
+password-reset-submit-button = Sıfırlama talimatlarını gönder
 
 ## CompleteSignin component
 
