@@ -343,9 +343,13 @@ postNewRecoveryCodes-action = Handsam kontoen
 postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
 postRemoveAccountRecovery-title-3 = Du sletta kontogjenopprettingsnøkkelen din
 postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din er påkravd for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
+postRemoveAccountRecovery-body-part2 = Viss du ikkje allereie har gjort det, kan du opprette ein ny kontogjenopprettingsnøkkel i kontoinnstillingane dine for å hindre at du mistar lagra passord, bokmerke, nettlesarhistorikk, og meir.
 postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Du har sletta { $secondaryEmail } som ei sekundær e-postadresse frå { -product-mozilla-account }en din. Tryggingsmeldingar og innloggingsstadfestingar vil ikkje lenger bli leverte til denne adressa.
 postRemoveSecondary-action = Handsam kontoen
 postRemoveTwoStepAuthentication-subject-line-2 = Tostegs-godkjenning er slått av
 postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-godkjenning
@@ -362,9 +366,14 @@ postVerify-setup-2 = Kople til ei anna eining:
 postVerify-action-2 = Kople til ei anna eining
 postVerifySecondary-subject = Sekundær e-post lagt til
 postVerifySecondary-title = Sekundær e-post lagt til
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Du har bstadfesta { $secondaryEmail } som ei sekundær e-postadresse for { -product-mozilla-account }en din. Tyggingsmeldingar og innlogging-stadfestingar vil no bli leverte til begge e-postadressene.
 postVerifySecondary-action = Handsam kontoen
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Gløymt passordet ditt?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
 recovery-new-password-button = Opprett eit nytt passord ved å klikke på knappen nedanfor. Denne lenka vil gå ut innan den neste timen.
 recovery-copy-paste = Opprett eit nytt passord ved å kopiere og lime inn nettadressa nedanfor i nettlesaren din. Denne lenka vil gåp ut innan den neste timen.
 recovery-action = Lag nytt passord
