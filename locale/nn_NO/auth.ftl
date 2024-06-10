@@ -285,6 +285,7 @@ passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passo
 password-forgot-otp-subject = Gløymt passordet ditt?
 password-forgot-otp-title = Gløymt passordet ditt?
 password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
+password-forgot-otp-code = Om ja, her er stadfestingskoden din:
 password-forgot-otp-expiry-notice = Denne koden går ut om 10 minutt.
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt vart endra
@@ -382,6 +383,11 @@ recovery-action = Lag nytt passord
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Abonnentet ditt på { $productName } her avslutta
 subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Du har nyleg sletta { -product-mozilla-account }-en din. Som eit resultat har vi avslutta abonnement ditt på { $productName }. Den endelege betalinga på { $invoiceTotal } vart betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit passord.
@@ -389,6 +395,7 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomen til { $productName }
 subscriptionAccountFinishSetup-content-processing = Betalinga din vert behandla og kan ta opptil fire yrkedagar å fullføre. Abonnementet ditt vert fornya automatisk kvar faktureringsperiode, dersom du ikkje vel å avslutte.
+subscriptionAccountFinishSetup-content-create-3 = Deretter opprettar du eit { -product-mozilla-account }-passord for å begynne å bruke det nye abonnementet ditt.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminning: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikkje tilgang til abonnementet ditt enno
