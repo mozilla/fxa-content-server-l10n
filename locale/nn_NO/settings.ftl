@@ -826,6 +826,10 @@ connect-another-device-signin-confirmed-banner = Innlogging stadfesta
 connect-another-device-signin-to-complete-message = Logg inn på denne { -brand-firefox } for å gjere ferdig konfigurasjonen
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Logg inn
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Legg du framleis til einingar? Logg inn på { -brand-firefox } på ei anna eining for å fullføre oppsettet
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Logg inn på { -brand-firefox } på ei anna eining for å fullføre oppsettet
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
 connect-another-device-get-data-on-another-device-message = Vil du ha fanene, bokmerka og passorda dine på ei anna eining?
 # This link leads the user back to the `/pair` page so as to connect another device
