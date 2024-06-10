@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-07 06:55+0000\n"
+"PO-Revision-Date: 2024-06-10 02:41+0000\n"
 "Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -593,7 +593,7 @@ msgstr "URL sah diperlukeun"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Surélék vérifikasi anjeun cik kénéh dipulangkeun deui. Salah ngetik surélék boa?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -601,7 +601,7 @@ msgstr "Asupkeun alamat surélék sah. firefox.com mah teu nawaran surélék."
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Akun Mozilla ukur bisa ditapelkeun kana IFRAME dina situs nu disatujuan"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -673,15 +673,15 @@ msgstr "Kodeu oténtikasi dua léngkah teu sah"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Cadangkeun sandi oténtikasi nu diperlukeun"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Kodeu oténtikasi cadangan teu sah"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Konci pamulangan akun dibutuhkeun"
 
 #: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
@@ -701,7 +701,7 @@ msgstr "Ukuran berkas gambarna gedé teuing."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "Masker email teu tiasa dipaké pikeun nyieun akun."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -721,7 +721,7 @@ msgstr "Salah ngetik surélék?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Aksés awal pikeun nguji produk anyar"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -729,7 +729,7 @@ msgstr "Meunangkeun warta panganyarna ngeunaan Mozilla jeung Firefox"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Mantuan ngajaga internét jagjag"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -737,7 +737,7 @@ msgstr "Daring jadi leuwih aman sarta leuwih iceus"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Iber jeung apdét kaamanan & pribadi"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -843,7 +843,7 @@ msgstr ""
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Pitulung</a>"
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
@@ -891,7 +891,7 @@ msgstr "Tampa tutumbu anyar"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Setél deui sandi kalayan konci pamulihan"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -902,7 +902,7 @@ msgstr "Laju ka %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Prak asupkeun konci pamulangan sakali nu disimpen ku anjeun di tempat nu aman pikeun meunangkeun deui aksés kana akun Firefox anjeun."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -912,15 +912,15 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Asupkeun konci pamulihan akun"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "Konfirmasi konci pamulihan akun"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "Teu boga konci pamulihan?"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -951,10 +951,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>CATETAN:</span> Nalika anjeun nyetél ulang sandi, anjeun ogé nyetél ulang akun anjeun. Anjeun mungkin leungiteun sababaraha informasi pribadi (kaasup jujutan, markah, jeung sandi). Éta téh "
+"alatan kami ngaénkripsi data ku sandi anjeun pikeun ngamankeun privasi anjeun."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Anjeun geus hasil mulangkeun akun anjeun maké konci pamulihan anjeun. Jieun sandi anyar jang ngamankeun data anjeun, sarta dihadé-hadé di tempat aman."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -978,23 +980,23 @@ msgstr "Peta asup geus dikonfirmasi"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Tutumbu vérifikasi kadaluwarsa"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Tutumbu nu diklik ku anjeun pikeun mérivikasi surélék anjeun geus kadaluwarsa."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klik didieu pikeun narima tutumbu konfirmasi anyar"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Tutumbu konfirmasi ruksak"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Galat konfirmasi"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1006,7 +1008,7 @@ msgstr "Konfirmasi ieu peta asup"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Pariksa surélék anjeun sabab tutumbu vérifikasi geus dikirim&nbsp;ka %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1050,11 +1052,11 @@ msgstr "Konfirmasi"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Kode kadaluwarsa?"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Kirim kode anyar kana surélék."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
 msgid "Connect another device"
@@ -1062,11 +1064,11 @@ msgstr "Sambungkeun parangkat séjén"
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Anjeun geus asup kana Firefox"
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
-msgstr ""
+msgstr "Surélék dikonfirmasi"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
 msgid "Devices with hearts on their screens"
@@ -1074,7 +1076,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "Anjeun geus asup kana Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
