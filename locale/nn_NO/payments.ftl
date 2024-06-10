@@ -217,6 +217,9 @@ sub-guarantee = 30-dagar pengane-tilbake-garanti
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Tenestevilkår
 privacy = Personvernerklæring
 terms-download = Vilkår for nedlasting

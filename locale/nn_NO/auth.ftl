@@ -399,11 +399,13 @@ subscriptionAccountFinishSetup-content-create-3 = Deretter opprettar du eit { -p
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminning: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikkje tilgang til abonnementet ditt enno
+subscriptionAccountReminderFirst-content-info-3 = For nokre dager sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. Vi håpar du fullfører konfigureringa av kontoen din, slik at du kan bruke det nye abonnementet ditt.
 subscriptionAccountReminderFirst-content-select-2 = Vel «Opprett passord» for å setje opp eit nytt passord og fullfør stadfestinga av kontoen din.
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din
 subscriptionAccountReminderSecond-title-2 = Velkomen til { -brand-mozilla }!
+subscriptionAccountReminderSecond-content-info-3 = For nokre dager sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. Vi håpar du fullfører konfigureringa av kontoen din, slik at du kan bruke det nye abonnementet ditt.
 subscriptionAccountReminderSecond-content-select-2 = Vel «Opprett passord» for å setje opp eit nytt passord og fullfør stadfestinga av kontoen din.
 subscriptionAccountReminderSecond-action = Opprett passord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -445,6 +447,10 @@ subscriptionFirstInvoice-subject = Betaling for { $productName } stadfesta
 subscriptionFirstInvoice-title = Takk for at du abonnerer på { $productName }
 subscriptionFirstInvoice-content-processing = Betalinga vert no behandla og det kan ta opptil fire arbeidsdagar å fullføre.
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Du vil få ein separat e-post om korleis du begynner å bruke { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Abonnementet ditt vert fornya automatisk kvar faktureringsperiode, med mindre du vel å avslutte.
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 # Variables:
@@ -466,10 +472,16 @@ subscriptionPaymentFailed-content-outdated = Det kan vere at betalingskortet dit
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon er påkravd for { $productName }
 subscriptionPaymentProviderCancelled-title = Beklagar, vi har problem med betalingsmetoden din
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Vi har oppdaga eit problem med betalingsmåten din for { $productName }.
 subscriptionPaymentProviderCancelled-content-reason = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonnementet på { $productName } er aktivert på nytt
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Takk for at du reaktiverte abonnementet på { $productName }!
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = { $productName } automatisk fornyingsmerknad
