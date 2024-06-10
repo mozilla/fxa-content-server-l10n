@@ -142,12 +142,6 @@ form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dette feltet er påkravd
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Send inn { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -832,6 +826,8 @@ connect-another-device-signin-confirmed-banner = Innlogging stadfesta
 connect-another-device-signin-to-complete-message = Logg inn på denne { -brand-firefox } for å gjere ferdig konfigurasjonen
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Logg inn
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vil du ha fanene, bokmerka og passorda dine på ei anna eining?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Kople til ei anna eining
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
@@ -1032,26 +1028,16 @@ reset-password-with-recovery-key-verified-continue-to-account = Hald fram til ko
 
 ## Confirm Reset Password With Code
 
-# Shown above a group of 8 single-digit input boxes
-# Only numbers allowed
-confirm-reset-password-otp-input-group-label = Skriv inn 8-sifra kode
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Hald fram
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Send koden på nytt
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Passordtilbakestilling <span>for å halde fram til kontoinnstillingar</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Passordtilbakestilling <span>for å halde fram til { $serviceName }</span>
 password-reset-body = Skriv inn e-postadressa di, og vi sender deg ein kode, for å stadfeste at det er deg.
 password-reset-email-input =
     .label = Skriv inn e-postadressa di

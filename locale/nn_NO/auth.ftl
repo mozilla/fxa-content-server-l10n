@@ -284,6 +284,7 @@ passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord 
 passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 password-forgot-otp-subject = Gløymt passordet ditt?
 password-forgot-otp-title = Gløymt passordet ditt?
+password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
 password-forgot-otp-expiry-notice = Denne koden går ut om 10 minutt.
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt vart endra
