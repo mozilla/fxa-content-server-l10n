@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Ko’ã ñe’ẽñemi haipyre ojuehegua.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Ko korápe ahaiva’erã
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Eme’ẽ { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -1317,6 +1311,7 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Ehechajey ne ñanduti veve
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Eku’ejey
