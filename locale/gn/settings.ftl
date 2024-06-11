@@ -1312,6 +1312,9 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Ehechajey ne ñanduti veve
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Ehai 8 tai ayvu 10 aravo’i oútavape
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Eku’ejey
@@ -1322,6 +1325,7 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Embojevyjey ne ñe’ẽñemi
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
 password-reset-submit-button = Embou mba’éichapa emoĩporãjeýta
