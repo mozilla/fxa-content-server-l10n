@@ -1034,6 +1034,7 @@ reset-password-password-input =
 reset-password-button = Start tilbakestilling
 # Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
 reset-password-email-required-error = E-post påkravd
+reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
 reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
 
