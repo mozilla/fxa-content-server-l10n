@@ -338,6 +338,7 @@ cs-disconnect-sync-opt-not-say = Vil helst ikkje fortelje det
 cs-disconnect-advice-confirm = Ok, eg forstår
 cs-disconnect-lost-advice-heading = Mista eller stolen eining fråkopla
 cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
+cs-disconnect-suspicious-advice-content-2 = Om den fråkopla eininga verkelig er mistenkjeleg, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingane dine for å halde informasjonen din trygg. Du bør også endre eventuelle andre passord du har lagra i { -brand-firefox } ved å skrive about:logins i adresselinja.
 cs-sign-out-button = Logg ut
 
 ##
@@ -349,6 +350,7 @@ dc-heading = Datainnsamling og bruk
 dc-subheader-2 = Hjelp til med å forbetre { -product-mozilla-accounts }
 dc-subheader-content-2 = Tillat { -product-mozilla-accounts } å sende tekniske data og interaksjonsdata til { -brand-mozilla }?
 dc-opt-out-success-2 = Vellykka utmelding. { -product-mozilla-accounts } sender ikkje tekniske data eller interaksjonsdata til { -brand-mozilla }.
+dc-opt-in-success-2 = Takk! Deling av desse dataa hjelper oss med å forbetre { -product-mozilla-accounts }.
 dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
@@ -433,6 +435,7 @@ header-help = Hjelp
 ## Linked Accounts section
 
 la-heading = Kopla kontoar
+la-description = Du har autorisert tilgang til følgjande kontoar.
 la-unlink-button = Fjern tilknyting
 la-unlink-account-button = Fjern tilknyting
 la-set-password-button = Vel passord
@@ -534,6 +537,7 @@ delete-account-header =
     .title = Slett kontoen
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
+delete-account-confirm-title-4 = Du kan ha kopla { -product-mozilla-account } til eitt eller fleire av følgjande { -brand-mozilla }-produkt eller -tenester som held deg sikker og produktiv på nettet:
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -1035,6 +1039,7 @@ reset-password-with-recovery-key-verified-continue-to-account = Hald fram til ko
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Sjekk e-posten din
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Hald fram
@@ -1045,6 +1050,7 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Tilbakestill passordet ditt
 password-reset-body = Skriv inn e-postadressa di, og vi sender deg ein kode, for å stadfeste at det er deg.
 password-reset-email-input =
     .label = Skriv inn e-postadressa di
