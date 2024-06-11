@@ -20,6 +20,9 @@ brand-banner-dismiss-button-2 =
     .aria-label = Lat att banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } endrar namn til { -product-mozilla-accounts } den 1. november
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Vi har endra namn på { -product-firefox-accounts } til { -product-mozilla-accounts }. Du vil framleis logge på med same brukarnamn og passord, og det er ingen andre endringar i produkta du brukar.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Les meir
 # Alt text for close banner image

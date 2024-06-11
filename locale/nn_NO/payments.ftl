@@ -486,6 +486,7 @@ sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
 
 sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 invoice-not-found = Fann ikkje etterfølgjande faktura
+sub-item-no-such-subsequent-invoice = Finn ikkje påfølgjande faktura for dette abonnementet.
 sub-invoice-preview-error-title = Fann ikkje førehandsvising av faktura
 
 ## Routes - Subscriptions - Pocket Subscription
