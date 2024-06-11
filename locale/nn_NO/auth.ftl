@@ -531,6 +531,7 @@ verificationReminderFirst-action-2 = Stadfest kontoen
 verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderSecond-title-3 = Ikkje gå glipp av { -brand-mozilla }!
 verificationReminderSecond-description-4 = For nokre dagar sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. Stadfest kontoen din i løpet av dei neste 10 dagane, elles vert han automatisk sletta.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account }en din lèt deg synkronisere { -brand-firefox }-opplevinga di på tvers av einingar og låser opp tilgang til fleire personvernbeskyttande produkt frå { -brand-mozilla }.
 verificationReminderSecond-action-2 = Stadfest kontoen
 verify-title-3 =
     Opne internett med
@@ -556,9 +557,13 @@ verifyPrimary-description = Ein førespurnad om å utføre ei kontoendring er gj
 verifyPrimary-subject = Stadfest primær e-postadresse
 verifyPrimary-action-2 = Stadfest e-postadressa
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Når stadfesta, vil endringar i kontoen, som å leggje til ein sekundær e-post, verte mogleg frå denne eininga.
 verifySecondaryCode-subject = Stadfest sekundær e-postadresse
 verifySecondaryCode-title-2 = Stadfest sekundær e-postadresse
 verifySecondaryCode-action-2 = Stadfest e-postadressa
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Ein førespurnad om å bruke { $email } som ei sekundær e-postadresse er gjort frå følgjande { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Bruk denne stadfestingskoden:
 # Variables:
 #  $code (Number) - e.g. 123456

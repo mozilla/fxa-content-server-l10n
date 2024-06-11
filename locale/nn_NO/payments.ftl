@@ -100,6 +100,10 @@ payment-error-manage-subscription-button = Handsame abonnementet mitt
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Du har allereie eit { $productName }-abonnement via { -brand-google }s eller { -brand-apple }s appbutikkar.
+iap-upgrade-no-bundle-support = Vi stør ikkje oppgraderingar for desse abonnementa, men det vil vi snart gjere.
+iap-upgrade-contact-support = Du kan framleis få dette produktet — kontakt brukarstøtte, så kan vi hjelpe deg.
 iap-upgrade-get-help-button = Få hjelp
 
 ## Component - PaymentForm
@@ -121,6 +125,7 @@ payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } brukar { -brand-name
 payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } personvernerklæring</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } personvernerklæring</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } brukar { -brand-paypal } for trygg betalingsbehandling.
 payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } personvernerklæring</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } brukar { -brand-name-stripe } for sikker behandling av betaling.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernpraksis</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -161,6 +166,17 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } i skatt
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } dagleg
+       *[other] { $priceAmount } kvar { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } dagleg
+           *[other] { $priceAmount } kvar { $intervalCount } dag
+        }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-no-tax-month =
     { $intervalCount ->
