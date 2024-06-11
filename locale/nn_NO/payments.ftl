@@ -177,6 +177,17 @@ price-details-no-tax-day =
             [one] { $priceAmount } dagleg
            *[other] { $priceAmount } kvar { $intervalCount } dag
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } kvar veke
+       *[other] { $priceAmount } kvar { $intervalCount } veke
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kvar veke
+           *[other] { $priceAmount } kvar { $intervalCount } veke
+        }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-no-tax-month =
     { $intervalCount ->
@@ -198,6 +209,28 @@ price-details-no-tax-year =
         { $intervalCount ->
             [one] { $priceAmount } år
            *[other] { $priceAmount } kvart { $intervalCount } år
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt dagleg
+       *[other] { $priceAmount } + { $taxAmount } skatt kvar { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt dagleg
+           *[other] { $priceAmount } + { $taxAmount } skatt kvar { $intervalCount } dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt kvar veke
+       *[other] { $priceAmount } + { $taxAmount } skatt kvar { $intervalCount } veke
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt kvar veke
+           *[other] { $priceAmount } + { $taxAmount } skatt kvar { $intervalCount } veke
         }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
@@ -228,6 +261,7 @@ subscription-create-title = Set opp abonnementet ditt
 subscription-success-title = Stadfesting av abonnement
 subscription-processing-title = Stadfestar abonnementet…
 subscription-error-title = Feil ved stadfesting av abonnementet…
+subscription-noplanchange-title = Denne endringa av abonnementsplanen er ikkje stødd
 subscription-iapsubscribed-title = Abonnerer allereie
 sub-guarantee = 30-dagar pengane-tilbake-garanti
 
@@ -306,6 +340,7 @@ general-error-heading = Generell applikasjonsfeil
 basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 payment-error-1 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Prøv igjen eller kontakt kortutskrivaren din.
 payment-error-2 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
+payment-error-3b = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
 expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv eit anna kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensa di. Prøv eit anna kort.
@@ -314,6 +349,14 @@ instant-payouts-unsupported = Det ser ut som at betalingskortet ditt ikkje er ko
 duplicate-transaction = Hmm. Det ser ut som ein identisk transaksjon nettopp vart utført. Sjekk betalingshistorikken.
 coupon-expired = Det ser ut som at kampanjekoden har gått ut.
 card-error = Transaksjonen din kunne ikkje behandlast. Kontroller betalingskortinformasjonen din og prøv igjen.
+country-currency-mismatch = Valutaen for dette abonnementet er ikkje gyldig for landet som er knytt til betalinga di.
+currency-currency-mismatch = Bekalgar. Du kan ikkje byte mellom valutaer.
+no-subscription-change = Beklagar. Du kan ikkje endre abonnementsplanen din.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Du abonnerer allereie via { $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Ein systemfeil førte til at { $productName }-registreringa var mislykka. Betalingsmåten din er ikkje belasta. Prøv igjen.
+fxa-post-passwordless-sub-error = Abonnementet vart stadfesta, men stadfestingssida kunne ikkje lastast inn. Sjekk e-posten din for å sette opp kontoen din.
 product-plan-error =
     .title = Problem med å laste planane dine
 product-profile-error =
