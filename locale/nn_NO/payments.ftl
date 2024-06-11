@@ -357,6 +357,7 @@ iap-already-subscribed = Du abonnerer allereie via { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Ein systemfeil førte til at { $productName }-registreringa var mislykka. Betalingsmåten din er ikkje belasta. Prøv igjen.
 fxa-post-passwordless-sub-error = Abonnementet vart stadfesta, men stadfestingssida kunne ikkje lastast inn. Sjekk e-posten din for å sette opp kontoen din.
+newsletter-signup-error = Du er ikkje registrert for produktoppdateringar via e-post. Du kan prøve igjen i kontoinnstillingane.
 product-plan-error =
     .title = Problem med å laste planane dine
 product-profile-error =
@@ -367,6 +368,9 @@ product-plan-not-found = Fann ikkje planen
 
 ## Hooks - coupons
 
+coupon-success = Planen din vert fornya automatisk til listeprisen.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Planen din vert fornya automatisk etter { $couponDurationDate } til listeprisen.
 
 ## Routes - Checkout - New user
 
@@ -382,9 +386,12 @@ sub-update-payment-title = Betalingsinformasjon
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Betal med kort
+product-invoice-preview-error-title = Problem med å laste førehandsvising av faktura
+product-invoice-preview-error-text = Klarte ikkje å laste inn førehandsvising av faktura
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Vi kan ikkje oppgradere deg heilt enno
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
@@ -441,6 +448,7 @@ sub-route-idx-cancel-msg =
     { $name }-abonnementet ditt er sagt opp.
           <br />
           Du vil framleis ha tilgang til { $name } til den { $date }.
+sub-route-idx-cancel-aside-2 = Har du spørsmål? Besøk <a>{ -brand-mozilla } brukarstøtte</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -449,6 +457,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problemer med å laste inn fakturaer
 sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
+sub-invoice-previews-error-title = Problem med å laste inn førehandsvising av faktura
+sub-invoice-previews-error-text = Klarte ikkje å laste inn førehandsvisingar av faktura
 
 ## Routes - Subscription - ActionButton
 
