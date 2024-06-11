@@ -14,7 +14,7 @@
 brand-prelaunch-title = { -product-firefox-accounts } vil bli omdøpt til { -product-mozilla-accounts } 1. november
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Vi har endret nytt navn på { -product-firefox-accounts } til { -product-mozilla-accounts }. Du vil fortsatt logge på med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker.
+brand-postlaunch-title = Vi har endret navn på { -product-firefox-accounts } til { -product-mozilla-accounts }. Du vil fortsatt logge på med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker.
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -62,9 +62,10 @@ datablock-print =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Skjul passord
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Vis passord
-input-password-hide-aria = Skjul passord fra skjermen.
 
 ## LinkDamaged component
 
@@ -73,9 +74,6 @@ input-password-hide-aria = Skjul passord fra skjermen.
 
 
 ## LinkExpiredResetPassword component
-
-
-## LinkExpiredSignin component
 
 
 ## LinkRememberPassword component
@@ -388,6 +386,10 @@ third-party-auth-options-or = eller
 continue-with-google-button = Fortsett med { -brand-google }
 continue-with-apple-button = Fortsett med { -brand-apple }
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+
 ## Auth-server based errors that originate from backend service
 
 
@@ -507,10 +509,13 @@ reset-password-heading-w-default-service = Tilbakestill passordet <span>for å f
 reset-password-heading-w-custom-service = Tilbakestill passordet <span>for å fortsette til { $serviceName }</span>
 reset-password-with-recovery-key-verified-continue-to-account = Fortsett til kontoen min
 
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
+
 ## CompleteSignin component
-
-
-## ConfirmSignin component
 
 
 ## Signin page
@@ -524,6 +529,12 @@ signin-subheader-with-logo = Fortsett til <span>{ $serviceLogo }</span>
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Fortsett til { $serviceName }
 signin-subheader-without-logo-default = Fortsett til kontoinnstillingene
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -562,9 +573,8 @@ signin-totp-code-heading-w-default-service-v2 = Skriv inn verifiseringskoden <sp
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Skriv inn verifiseringskoden <span>for å fortsette til { $serviceName }</span>
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page
