@@ -493,6 +493,7 @@ subscriptionRenewalReminder-content-closing = Vennleg helsing,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
+subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementa dine har gått ut eller går snart ut
 subscriptionsPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er i ferd med å gå ut
 subscriptionsPaymentProviderCancelled-title = Beklagar, vi har problem med betalingsmetoden din
 subscriptionsPaymentProviderCancelled-content-detected = Vi har oppdaga eit problem med betalingsmåten din for følgjande abonnement.
@@ -518,15 +519,18 @@ unblockCode-prompt = Dersom ja, her er godkjenningskoden du treng:
 unblockCode-report = Om ikkje, hjelp oss med å avverje inntrengarar og <a data-l10n-name="reportSignInLink">rapporter dette til oss</a>.
 unblockCode-report-plaintext = Dersom nei, hjelp oss med å avverje inntrengarar og raporter dette til oss.
 verificationReminderFinal-subject = Siste påminning om å stadfeste kontoen din.
+verificationReminderFinal-description-2 = For eit par veker sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. For di sikkerheit vil vi slette kontoen om han ikkje vert stadfesta i løpet av dei neste 24 timane.
 confirm-account = Stadfest kontoen
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderFirst-title-3 = Velkomen til { -brand-mozilla }!
+verificationReminderFirst-description-3 = For nokre dagar sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. Stadfest kontoen din i løpet av dei neste 15 dagane, elles vert han automatisk sletta.
 confirm-email-2 = Stadfest kontoen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
 verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderSecond-title-3 = Ikkje gå glipp av { -brand-mozilla }!
+verificationReminderSecond-description-4 = For nokre dagar sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. Stadfest kontoen din i løpet av dei neste 10 dagane, elles vert han automatisk sletta.
 verificationReminderSecond-action-2 = Stadfest kontoen
 verify-title-3 =
     Opne internett med
