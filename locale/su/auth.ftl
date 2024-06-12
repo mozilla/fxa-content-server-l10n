@@ -7,13 +7,31 @@ session-verify-send-push-body-2 = Toél di dieu pikeun muguhkeun éta anjeun
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Singkronkeun parabot">
 body-devices-image = <img data-l10n-name="devices-image" alt="Parabot">
 fxa-privacy-url = Kawijakan Salindungan { -brand-mozilla }
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(kapitalisasi: "huruf besar") } Iber Privasi
+moz-accounts-terms-url = { -product-mozilla-accounts(kapitalisasi: "huruf besar") } Syarat Layanan
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
 subplat-privacy-notice = Wawar pripasi
 subplat-privacy-plaintext = Wawar pripasi:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Anjeun narima ieu surélék sabab { $email } bpga { -product-mozilla-account } jeung anjeun ngadaptarkeun { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Anjeun narima ieu email abab { $email } boga { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Anjeun nampa ieu surélék kusabab { $email } boga { -product-mozilla-account } sarta anjeun geus kadaptar kana rupa-rupa produk.
+subplat-explainer-was-deleted-2 = Anjeun nampa ieu surélék kusabab { $email } kadaptar pikeun { -product-mozilla-account }.
+subplat-manage-account-2 = Atur setélan { -product-mozilla-account } anjeun ku sindang ka <a data-l10n-name="subplat-account-page">kaca akun</a> anjeun.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Kokolakeun setélan { -product-mozilla-account } anjeun ku di kaca akun anjeun: { $accountSettingsUrl }
 subplat-terms-policy = Sarat jeung kawijakan bolay
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Bolay daptar
@@ -22,7 +40,11 @@ subplat-reactivate = Aktipkeun deui langganan
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ropéa émbaran tagiheun
 subplat-privacy-policy = Kawijakan Pripasi { -brand-mozilla }
+subplat-privacy-policy-2 = { -product-mozilla-accounts(kapitalisasi: "huruf gedé") } Iber Privasi
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = { -product-mozilla-accounts(kapitalisasi: "huruf gedé") } Syarat Layanan
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Légal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Pripasi
@@ -59,6 +81,33 @@ automated-email-no-action = { automated-email-no-action-plaintext } Pikeun leuwi
 automated-email-no-action-plaintext = Ieu surél otomatis. Lamun teu kahaja, ulah diwaro.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ieu surél otomatis; upama anjeun henteu nyatujuan, mangga ganti kecap konci anjeun:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Paménta ieu asalna ti { $uaBrowser } dina { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Paménta ieu asalna ti { $uaBrowser } dina { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Paménta ieu asalna ti { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Paménta ieu asalna ti { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Paménta ieu asalna ti { $uaBrowser }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Lamun lain  anjeun, <a data-l10n-name="revokeAccountRecoveryLink">hapus konci anyar</a> jeung <a data-l10n-name="passwordChangeLink">robah sandi anjeun</a>.
+automatedEmailRecoveryKey-change-pwd-only = Lamun ieu lain anjeun, <a data-l10n-name="passwordChangeLink">robah sandi anjeun</a>.
+automatedEmailRecoveryKey-more-info = PIkeun leuwih teleb, buka <a data-l10n-name="supportLink">{ -brand-mozilla } Pangrojong</a>.
 automated-email-reset =
     Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="resetLink">ganti kecap sandi</a>.
     Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
