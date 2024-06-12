@@ -556,6 +556,7 @@ verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderSecond-title-3 = Ikkje gå glipp av { -brand-mozilla }!
 verificationReminderSecond-description-4 = For nokre dagar sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. Stadfest kontoen din i løpet av dei neste 10 dagane, elles vert han automatisk sletta.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account }en din lèt deg synkronisere { -brand-firefox }-opplevinga di på tvers av einingar og låser opp tilgang til fleire personvernbeskyttande produkt frå { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Bli ein del av oppdraget vårt med å omforme internett til ein plass som er open for alle.
 verificationReminderSecond-action-2 = Stadfest kontoen
 verify-title-3 =
     Opne internett med
