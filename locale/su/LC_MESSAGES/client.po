@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-12 06:25+0000\n"
+"PO-Revision-Date: 2024-06-12 16:41+0000\n"
 "Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1140,11 +1140,16 @@ msgid ""
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Ku nuluykeun, anjeun satuju kana:<br />\n"
+"              Ladénan Langganan Mozilla <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Syarat Ladénan< /a> jeung <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Iber Privasi</a>< br />\n"
+"              Akun Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Syarat Ladénan</a> jeung <a class=\"link-grey\" id=\"fxa-pp \" href=\"/legal/privacy\">Iber Privasi</a>\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ku nuluykeun, anjeun satuju kana <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Syarat Layanan</a> jeung <a class=\"link-grey\" id =\"fxa-pp\" href=\"/legal/privacy\">Iber Privasi</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1611,11 +1616,11 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Kirim langsung béwara béja asup log"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Pariksa alat Firefox anjeun anu disambungkeun pikeun tab konfirmasi asup anu geus kami kirimkeun."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1627,11 +1632,11 @@ msgstr "Tab henteu norojol? Kirim surélék waé"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Prak jieun sandi kecap pikeun neruskeun Firefox Sync. Data anjeun diénkripsi maké sandi anjeun pikeun nangtayungan privasi anjeun."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Jieun sandi"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1651,11 +1656,11 @@ msgstr "Moal waka"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Asupkeun sandi konfirmasi"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Prak asupkeun kodeu konfirmasi anu dikirim kana %(escapedEmail)s dina 5 menit."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1677,6 +1682,8 @@ msgstr "pikeun laju ka %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Kami ngambeu ayana paripolah anu picurigaeun dina akun Firefox anjeun. Pikeun ngajaga akun anjeun, mangga jieun kecap sandi anyar. Anjeun bakal maké ieu kecap sandi pikeun asup deui ka sakur layanan"
+" akun Mozilla anjeun."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1716,11 +1723,11 @@ msgstr "Daptar %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Rarambat anu bieu diklik ku anjeun téh karakterna leungit, jeung mungkin baé geus ruksak ku layanan surélék anjeun."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Jieun akun Mozilla"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1816,23 +1823,23 @@ msgstr "<span class=\"number\">4</span>Asup ka akun anjeun"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Naha kuring kudu nyieun akun ieu? <a %(escapedSuggestionAttrs)s>Tengetan di dieu</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Akun Firefox bakal diganti ngaranna jadi akun Mozilla dina tanggal 1 Nov"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Anjeun masih bakal asup maké ngaran pamaké jeung sandi anu sarua, sarta euweuh parobahan séjén kana produk anu dipaké ku anjeun."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
-msgstr ""
+msgstr "Lenyepan"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Kami geus ngaganti ngaran akun Firefox kana akun Mozilla. Anjeun masih bakal bisa asup maké ngaran pamaké  jeung sandi anu sarua, sarta euweuh parobahan séjén kana produk dianggo ku anjeun."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
