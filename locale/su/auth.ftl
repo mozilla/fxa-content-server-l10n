@@ -1,5 +1,6 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = Asup kana { -product-mozilla-account } anjeun?
 session-verify-send-push-body-2 = Toél di dieu pikeun muguhkeun éta anjeun
 
 ## Email content
