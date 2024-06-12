@@ -1843,7 +1843,7 @@ msgstr "Kami geus ngaganti ngaran akun Firefox kana akun Mozilla. Anjeun masih b
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "Tutup Banner"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
