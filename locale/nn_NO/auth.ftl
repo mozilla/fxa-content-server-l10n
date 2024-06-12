@@ -446,6 +446,9 @@ subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk for
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName }-abonnentet ditt er annulert
 subscriptionFailedPaymentsCancellation-title = Abonnentet dit er annukert
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Vi har avslutta { $productName }-abonnementet ditt fordi fleire betalingsforsøk var mislykka. For å få tilgang igjen, start eit nytt abonnement med ein oppdatert betalingsmåte.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Betaling for { $productName } stadfesta
@@ -489,6 +492,10 @@ subscriptionReactivation-subject = Abonnementet på { $productName } er aktivert
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Takk for at du reaktiverte abonnementet på { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Faktureringssyklusen og betalinga di vil vere den same. Den neste betalinga di vil vere på { $invoiceTotal } den { $nextInvoiceDateOnly }. Abonnementet ditt vert fornya automatisk kvar faktureringsperiode med mindre du vel å seie det opp.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = { $productName } automatisk fornyingsmerknad
@@ -496,6 +503,12 @@ subscriptionRenewalReminder-title = Abonnentet ditt vil snart verte fornya
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = KJære { $productName }-kunde,
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Abonnement ditt er sett til å fornyast automatisk om { $reminderLength } dagar. På det tidspunktet vil { -brand-mozilla } fornye abonnementet på { $planIntervalCount } { $planInterval }, og ein kostnad på { $invoiceTotal } vert belasta betalingsmåten på kontoen din.
 subscriptionRenewalReminder-content-closing = Vennleg helsing,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -523,6 +536,9 @@ subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar f
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som loggar inn?
 unblockCode-prompt = Dersom ja, her er godkjenningskoden du treng:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Om ja, her er godkjenningskoden du treng: { $unblockCode }
 unblockCode-report = Om ikkje, hjelp oss med å avverje inntrengarar og <a data-l10n-name="reportSignInLink">rapporter dette til oss</a>.
 unblockCode-report-plaintext = Dersom nei, hjelp oss med å avverje inntrengarar og raporter dette til oss.
 verificationReminderFinal-subject = Siste påminning om å stadfeste kontoen din.
@@ -532,6 +548,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderFirst-title-3 = Velkomen til { -brand-mozilla }!
 verificationReminderFirst-description-3 = For nokre dagar sidan oppretta du ein { -product-mozilla-account }, men stadfesta han aldri. Stadfest kontoen din i løpet av dei neste 15 dagane, elles vert han automatisk sletta.
+verificationReminderFirst-sub-description-3 = Gå ikkje glipp av nettlesaren som set deg og ditt privatliv fremst.
 confirm-email-2 = Stadfest kontoen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
