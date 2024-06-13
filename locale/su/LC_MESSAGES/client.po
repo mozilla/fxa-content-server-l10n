@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-13 03:20+0000\n"
+"PO-Revision-Date: 2024-06-13 03:27+0000\n"
 "Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1191,6 +1191,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"            Ku nuluykeun, anjeun satuju kana:<br />\n"
+"            Saku <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Syarat Layanan</a> jeung <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Iber Privasi</a><br />\n"
+"            Akun Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Syarat Ladénan</a> jeung <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Iber Privasi</a>\n"
+"          "
 
 #: .es5/templates/index.mustache:14
 msgid ""
@@ -1200,6 +1205,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              Ku nuluykeun, anjeun satuju kana:<br/>\n"
+"              Ladénan Langganan Mozilla <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Syarat Ladénan</a> jeung <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Iber Privasi</a><br/>\n"
+"              Akun Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Syarat Ladénan</a> jeung <a class=\"link-grey\" id=\"fxa-pp \" href=\"/legal/privacy\">Iber Privasi</a>\n"
+"            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1236,7 +1246,7 @@ msgstr "Konfirmasi cadangkeun sandi oténtikasi"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Pikeun mastikeun bisa muka deui akun anjeun, upama piranti anjeun leungit, asupkeun salasahiji kodeu oténtikasi cadangan anu disimpen."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
@@ -1365,6 +1375,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>CATETAN:</span> Nalika anjeun nyetél ulang sandi, anjeun ogé nyetél ulang akun anjeun. Anjeun mungkin leungiteun sababaraha informasi pribadi (kaasup jujutan, markah, jeung sandi). Éta téh "
+"alatan kami ngaénkripsi data ku sandi anjeun pikeun ngamankeun privasi anjeun."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1488,7 +1500,7 @@ msgstr "Ulang sandi"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Anjeun butuh ieu kecap sandi pikeun muka data diénkrip anu diteundeun di kami.<br class=\"mb-3\">Rését hartina bisa leungiteun data sarupaning kecap sandi jeung marka buku."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1612,7 +1624,7 @@ msgstr "Konfirmasi asup"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, <a id=\"change-password\" href=\"/settings/change_password\"> geura robah sandi anjeun.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
@@ -1847,7 +1859,7 @@ msgstr "Tutup Banner"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Sabaraha umur Anjeun? Pikeun diajar naha urang nanyakeun umur anjeun, tuturkeun rarambat “naha urang nanyakeun” di handap."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1855,7 +1867,7 @@ msgstr "Baraha umur anjeun?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "Naha urang nanya?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1883,19 +1895,19 @@ msgstr "Alamat IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Butuh kecap sandi"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Sahenteuna 8 karakter"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Lain alamat surélék anjeun"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Lain sandi nu biasa dipaké"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
