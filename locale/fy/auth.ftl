@@ -593,7 +593,7 @@ verifyLoginCode-title-2 = Hawwe jo jo oanmeld by { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Help ús jo account feilich te hâlden troch jo oanmelding goed te karren op:
 verifyLoginCode-prompt-3 = Sa ja, dan is dit jo autentikaasjekoade:
-verifyLoginCode-expiry-notice = Dizze ferrin oer fiif minuten.
+verifyLoginCode-expiry-notice = Dizze ferrint oer fiif minuten.
 verifyPrimary-title-2 = Primêr e-mailadres befêstigje
 verifyPrimary-description = Der is in oanfraach foar it útfieren fan in accountwiziging dien fan it folgjende apparaat ôf:
 verifyPrimary-subject = Primêr e-mailadres befêstigje
@@ -615,4 +615,4 @@ verifyShortCode-title-3 = Iepenje it ynternet mei { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-mozilla }, te begjinnen mei:
 verifyShortCode-prompt-3 = Brûk dizze befêstigingskoade:
-verifyShortCode-expiry-notice = Dizze ferrin oer fiif minuten.
+verifyShortCode-expiry-notice = Dizze ferrint oer fiif minuten.
