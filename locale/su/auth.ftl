@@ -100,11 +100,11 @@ automatedEmailRecoveryKey-origin-device-browser-only = Paménta ieu asalna ti { 
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
-automatedEmailRecoveryKey-origin-device-OS-version-only = Paménta ieu asalna ti { $uaBrowser }.
+automatedEmailRecoveryKey-origin-device-OS-version-only = Paménta ieu asalna ti { $uaOS } { $uaOSVersion }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
-automatedEmailRecoveryKey-origin-device-OS-only = Paménta ieu asalna ti { $uaBrowser }.
+automatedEmailRecoveryKey-origin-device-OS-only = Paménta ieu asalna ti { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Lamun lain  anjeun, <a data-l10n-name="revokeAccountRecoveryLink">hapus konci anyar</a> jeung <a data-l10n-name="passwordChangeLink">robah sandi anjeun</a>.
 automatedEmailRecoveryKey-change-pwd-only = Lamun ieu lain anjeun, <a data-l10n-name="passwordChangeLink">robah sandi anjeun</a>.
 automatedEmailRecoveryKey-more-info = PIkeun leuwih teleb, buka <a data-l10n-name="supportLink">{ -brand-mozilla } Pangrojong</a>.
