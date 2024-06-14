@@ -72,14 +72,15 @@ recovery-key-pdf-download-error = Perstgisa, igl ha dà in problem cun telecharg
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Va per dapli da { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Ans gida da mantegnair in internet saun
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Novitads ed actualisaziuns da segirezza e protecziun da datas
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Access anticipà per testar novs products
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Invitaziuns ad acziuns per deliberar l’internet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -160,6 +161,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Reendatar il pled-clav
 form-reset-password-with-balloon-submit-button = Redefinir il pled-clav
 form-reset-password-with-balloon-match-error = Ils pleds-clav na correspundan betg
+form-password-sr-too-short-message = Il pled-clav sto cuntegnair almain 8 caracters
+form-password-sr-not-email-message = Il pled-clav na dastga betg cuntegnair tia adressa dad e-mail.
+form-password-sr-not-common-message = Il pled-clav na dastga betg esser in pled-clav frequent.
+form-password-sr-requirements-met = Il pled-clav endatà resguarda tut ils criteris per pleds-clav.
+form-password-sr-passwords-match = Ils pleds-clav endatads èn identics.
 
 ## FormVerifyCode
 
@@ -205,13 +211,23 @@ lock-image-aria-label =
     .aria-label = Ina illustraziun dad in maschlos
 lightbulb-aria-label =
     .aria-label = Illustraziun che represchenta la creaziun dad in tip per l'archivaziun.
+email-code-image-aria-label =
+    .aria-label = Illustraziun che represchenta in e-mail cun in code.
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Zuppentar il pled-clav
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Mussar il pled-clav
-input-password-hide-aria = Zuppentar il pled-clav dal visur.
-input-password-show-aria = Mussar il pled-clav sco text decifrà. Tes pled-clav vegn ad esser visibel sin il visur.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Tes pled-clav è actualmain visibel sin il visur.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Tes pled-clav è actualmain zuppentà.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Tes pled-clav è ussa visibel sin il visur.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Tes pled-clav è ussa zuppentà.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Enavos
 
@@ -223,7 +239,10 @@ reset-pwd-link-damaged-header = La colliaziun per redefinir il pled-clav è donn
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = La colliaziun da conferma è donnegiada
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Colliaziun rutta
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = La colliaziun sin la quala ti has cliccà n'è betg cumpletta, probablamain pervia da tes program dad e-mail. Fa attenziun da copiar l'entira adressa ed emprova anc ina giada.
 
 ## LinkExpired component
@@ -238,17 +257,12 @@ reset-pwd-resend-link = Ma trametter ina nova colliaziun
 reset-pwd-link-expired-header = La colliaziun per redefinir il pled-clav è scrudada
 reset-pwd-link-expired-message = La colliaziun sin la quala ti has cliccà per redefinir tes pled-clav è scrudada.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = La colliaziun da conferma è scrudada
-signin-link-expired-message = La colliaziun sin la quala ti has cliccà per confermar tia adressa dad e-mail è scrudada.
-
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Ta regordas da tes pled-clav? T'annunzia
+# immediately before remember-password-signin-link
+remember-password-text = Tegnair endament tes pled-clav?
+# link navigates to the sign in page
+remember-password-signin-link = S’annunziar
 
 ## LinkUsed component
 
@@ -257,6 +271,8 @@ primary-email-confirmation-link-reused = L'adressa dad e-mail principala è gia 
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = L'annunzia è gia confermada
 confirmation-link-reused-message = Questa colliaziun da conferma è gia vegnida utilisada e po mo vegnir duvrada ina giada.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Dumonda nuncorrecta
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -309,7 +325,7 @@ avatar-default-avatar =
 bento-menu-title-3 = Products da { -brand-mozilla }
 bento-menu-tagline = Ulteriurs products da { -brand-mozilla } che protegian tia sfera privata
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navigatur { -brand-firefox } per computers
@@ -621,7 +637,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronisaziun da las datas da { -brand-firefox }
 delete-account-product-firefox-addons = Supplements da { -brand-firefox }
@@ -950,6 +966,14 @@ third-party-auth-options-or = u
 continue-with-google-button = Cuntinuar cun { -brand-google }
 continue-with-apple-button = Cuntinuar cun { -brand-apple }
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Cifra { $inputNumber } da { $codeLength }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conto nunenconuschent
@@ -971,10 +995,15 @@ auth-error-155 = Betg chattà il token TOTP
 auth-error-159 = Clav da recuperaziun dal conto nunvalida
 auth-error-183-2 = Code da conferma nunvalid u scadì
 auth-error-999 = Errur nunspetgada
+auth-error-1002 = La sesida è scrudada. T’annunzia per cuntinuar.
 auth-error-1003 = Arcun local u cookies èn anc adina deactivads
 auth-error-1008 = Tes pled-clav nov sto esser different
+auth-error-1010 = In pled-clav valid è necessari
 auth-error-1011 = Adressa dad e-mail valida è obligatorica
+auth-error-1031 = Ti stos inditgar tia vegliadetgna per ta registrar
+auth-error-1032 = Ti stos inditgar ina vegliadetgna valida per ta registrar
 auth-error-1062 = Renviament nunvalid
+oauth-error-1000 = Insatge n’ha betg funcziunà. Serra p.pl. quest tab ed emprova anc ina giada.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1042,6 +1071,7 @@ inline-recovery-continue-button = Cuntinuar
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Confermar
 inline-recovery-back-link = Enavos
+inline-recovery-cancel-setup = Interrumper la configuraziun
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Code d'autentificaziun da backup
 inline-recovery-confirmation-description = Per t'atschertar che ti possias acceder a tes conto era en cas che ti perdessas tes apparat, endatescha per plaschair in da tes codes d'autentificaziun da backup memorisads.
@@ -1052,6 +1082,7 @@ inline-recovery-confirmation-header-default = Conferma il code d'autentificaziun
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferma il code d'autentificaziun da backup per <span>cuntinuar cun { $serviceName }</span>
+inline-recovery-2fa-enabled = Autentificaziun en dus pass activada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1083,6 +1114,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scannescha il code QR en ti
 inline-totp-setup-on-completion-description = Uschespert ch'il process è terminà, vegnan generads codes d'autentificaziun per inserir.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Code d'autentificaziun
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Code d’autentificaziun necessari
+tfa-qr-code-alt = Utilisescha il code { $code } per configurar l’autentificaziun en dus pass en las applicaziuns sustegnidas.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1279,18 +1313,42 @@ reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success
 reset-password-with-recovery-key-verified-generate-new-key = Generar ina nova clav da recuperaziun dal conto
 reset-password-with-recovery-key-verified-continue-to-account = Vinavant tar mes conto
 
+## Confirm Reset Password With Code
+
+confirm-reset-password-with-code-heading = Controllescha tes e-mails
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Nus avain tramess in code da conferma a <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Endatescha il code dad 8 cifras entaifer 10 minutas
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Cuntinuar
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Trametter anc ina giada il code
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Utilisar in auter conto
+
+## ResetPassword start page
+
+password-reset-flow-heading = Redefinir tes pled-clav
+password-reset-body = Endatescha tia adressa dad e-mail e nus ta tramettain in code da conferma per verifitgar tia identitad.
+password-reset-email-input =
+    .label = Endatescha tia adressa dad e-mail
+password-reset-submit-button = Ma tramettai las instrucziuns per la reinizialisaziun
+
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Errur:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Validaziun da l'annunzia…
-
-## ConfirmSignin component
-
-confirm-signin-header = Confermar questa annunzia
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Controllescha tes e-mails per chattar la colliaziun per confermar l'annunzia tramessa a { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Errur durant confermar
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = La colliaziun da conferma è scrudada
+signin-link-expired-message-2 = La colliaziun cliccada è scadida u ch’ella è gia vegnida utilisada.
 
 ## Signin page
 
@@ -1307,6 +1365,19 @@ signin-button = S'annunziar
 signin-header = S'annunziar
 signin-use-a-different-account-link = Utilisar in auter conto
 signin-forgot-password-link = Emblidà il pled-clav?
+signin-password-button-label = Pled-clav
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = La colliaziun sin la quala ti has cliccà, n’è betg cumpletta. Eventualmain ha tes program dad e-mail rut la colliaziun. Fa attenziun da copiar l’entira adressa ed emprova anc ina giada.
+report-signin-header = Rapportar in’annunzia betg autorisada?
+report-signin-body = Ti has survegnì in e-mail areguard in’emprova dad access a tes conto. Vuls ti rapportar questa activitad sco suspectusa?
+report-signin-submit-button = Rapportar l’activitad
+report-signin-support-link = Pertge capita quai?
+report-signin-error = Perstgisa, igl ha dà in problem cun trametter il rapport.
 signin-bounced-header = Deplorablamain è tes conto bloccà.
 # $email (string) - The user's email.
 signin-bounced-message = L'e-mail da conferma tramess a { $email } è vegnì returnà e nus avain bloccà tes conto per proteger tias datas da { -brand-firefox }.
@@ -1383,13 +1454,20 @@ signin-totp-code-recovery-code-link = Difficultads cun endatar il code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Code d'autentificaziun necessari
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Conferma tes conto
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Controllescha tes e-mails per chattar la colliaziun da conferma, tramessa a { $email }
+signin-unblock-header = Autorisar questa annunzia
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Controllescha tes e-mails per chattar il code d’autorisaziun tramess a { $email }.
+signin-unblock-code-input = Endatescha il code d’autorisaziun
+signin-unblock-submit-button = Cuntinuar
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Code d’autorisaziun obligatoric
+signin-unblock-code-incorrect-length = Il code d’autorisaziun sto cuntegnair 8 caracters
+signin-unblock-code-incorrect-format-2 = Il code d’autorisaziun po mo cuntegnair letras e/u cifras
+signin-unblock-resend-code-button = Betg en la posta entrada u en l’ordinatur da spam? Trametter anc ina giada
+signin-unblock-support-link = Pertge capita quai?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1427,8 +1505,6 @@ signup-change-email-link = Midar l'adressa dad e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Quants onns has ti?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Ti stos inditgar tia vegliadetgna per ta registrar
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Pertge dumandain nus?
