@@ -42,7 +42,9 @@ subplat-update-billing = 결제 정보 업데이트
 subplat-privacy-policy = { -brand-mozilla } 개인 정보 보호 정책
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } 개인정보 보호정책
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } 이용 약관
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = 법적 고지
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = 개인 정보 정책
@@ -279,6 +281,11 @@ passwordChangeRequired-suspicious-activity-2 = { -product-mozilla-account }에�
 passwordChangeRequired-sign-in-2 = { -product-mozilla-account } 계정을 사용하는 기기나 서비스에 다시 로그인하고 제시된 단계를 따라주세요.
 passwordChangeRequired-different-password = <b>중요:</b> 이전에 사용하던 것과 다른 비밀번호를 선택하고 이메일 계정과 다른지 확인하세요.
 passwordChangeRequired-different-password-plaintext = 중요: 이전에 사용했던 것과 다른 비밀번호를 선택하세요. 이메일 계정과 다른 비밀번호인지 확인하세요.
+password-forgot-otp-subject = 비밀번호를 잊으셨나요?
+password-forgot-otp-title = 비밀번호를 잊으셨나요?
+password-forgot-otp-request = 다음으로부터 { -product-mozilla-account } 비밀번호 변경 요청을 받았습니다:
+password-forgot-otp-code = 맞다면, 계속 진행하기 위한 확인 코드는 다음과 같습니다:
+password-forgot-otp-expiry-notice = 이 코드는 10분 후에 만료됩니다.
 passwordReset-subject = 비밀번호 수정 완료
 passwordReset-title = 계정 비밀번호가 변경됨
 passwordReset-description = 동기화를 다시 시작하려면 다른 기기에서 새 비밀번호를 입력해야 합니다.
@@ -332,9 +339,14 @@ postNewRecoveryCodes-description-2 = 생성 일시:
 postNewRecoveryCodes-action = 계정 관리
 postRemoveAccountRecovery-subject-2 = 계정 복구 키 삭제됨
 postRemoveAccountRecovery-title-3 = 계정 복구 키를 삭제했습니다
+postRemoveAccountRecovery-body-part1 = 비밀번호를 잊어버린 경우 암호화된 검색 데이터를 복원하려면 계정 복구 키가 필요합니다.
+postRemoveAccountRecovery-body-part2 = 아직 계정 복구 키를 만들지 않았다면 계정 설정에서 새 계정 복구 키를 만들어 저장된 비밀번호, 북마크, 검색 기록 등을 잃어버리지 않도록 하세요.
 postRemoveAccountRecovery-action = 계정 관리
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = { -product-mozilla-account }에서 보조 이메일인 { $secondaryEmail }을 성공적으로 제거했습니다. 보안 알림 및 로그인 확인이 더 이상 이 주소로 전달되지 않습니다.
 postRemoveSecondary-action = 계정 관리
 postRemoveTwoStepAuthentication-subject-line-2 = 2단계 인증이 꺼져 있습니다
 postRemoveTwoStepAuthentication-title-2 = 2단계 인증을 껐습니다
@@ -370,7 +382,7 @@ subscriptionAccountDeletion-title = 가까운 시일 내에 다시 뵐 수 있�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = 최근에 { -product-mozilla-account }을 삭제했습니다. 그 결과 귀하의 { $productName } 구독이 취소되었습니다. { $invoiceTotal }의 최종 결제는 { $invoiceDateOnly }에 이루어졌습니다.
+subscriptionAccountDeletion-content-cancelled-2 = 최근에 { -product-mozilla-account }를 삭제했습니다. 그 결과 귀하의 { $productName } 구독이 취소되었습니다. { $invoiceTotal }의 최종 결제는 { $invoiceDateOnly }에 이루어졌습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = { $productName }에 오신 것을 환영합니다: 비밀번호를 설정해주세요.
@@ -521,6 +533,13 @@ subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = { $productNameOld }에서 { $productName }로 성공적으로 업그레이드했습니다.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle = 이 { $productPaymentCycleOld }의 나머지 기간에 대해 더 높은 구독 가격을 반영하기 위해 { $paymentProrated }의 일회성 수수료가 청구됩니다. 다음 청구서부터 청구 금액이 { $productPaymentCycleOld }당 { $paymentAmountOld }에서 { $productPaymentCycleNew }당 { $paymentAmountNew }로 변경됩니다.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = { $productName }를 사용하기 위해 설치할 새 소프트웨어가 있는 경우 다운로드 지침이 포함된 별도의 이메일을 받게 됩니다.
