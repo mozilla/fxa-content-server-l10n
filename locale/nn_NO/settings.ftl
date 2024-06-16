@@ -1153,6 +1153,7 @@ signin-totp-code-required-error = Godkjenningskode påkravd
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-code-input = Skriv inn godkjenningskode
 signin-unblock-submit-button = Hald fram
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Godkjenningskode påkravd
