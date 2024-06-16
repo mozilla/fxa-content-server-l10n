@@ -172,12 +172,6 @@ form-password-sr-passwords-match = As palavras-passe introduzidas coincidem.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Este campo é obrigatório
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Submeter { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -1316,7 +1310,7 @@ confirm-reset-password-with-code-heading = Verifique o seu e-mail
 confirm-reset-password-with-code-instruction = Enviámos um código de confirmação para <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-code-input-group-label = Introduzir código de 8 dígitos em 10 minutos
+confirm-reset-password-code-input-group-label = Introduza o código de 8 dígitos em 10 minutos
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Continuar
@@ -1327,7 +1321,7 @@ confirm-reset-password-otp-different-account-link = Utilizar uma conta diferente
 
 ## ResetPassword start page
 
-password-reset-flow-heading = Repor a sua palavra-passe
+password-reset-flow-heading = Redefinir a sua palavra-passe
 password-reset-body = Insira o seu e-mail e iremos enviar-lhe um código de confirmação para confirmar que é mesmo você.
 password-reset-email-input =
     .label = Inserir o seu e-mail
