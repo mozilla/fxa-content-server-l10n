@@ -125,6 +125,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = หากคุณไม่ได้เปลียน กรุณาตั้งรหัสผ่านของคุณใหม่ที่ { $resetLink }
+brand-banner-message = คุณรู้หรือไม่ว่าเราเปลี่ยนชื่อของเราจาก { -product-firefox-accounts } เป็น { -product-mozilla-accounts } แล้ว? <a data-l10n-name="learnMore">เรียนรู้เพิ่มเติม</a>
 cancellationSurvey = โปรดช่วยเราปรับปรุงบริการของเราโดยทำ<a data-l10n-name="cancellationSurveyUrl">แบบสำรวจสั้น ๆ</a> นี้
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = โปรดช่วยเราปรับปรุงบริการของเราโดยทำแบบสำรวจสั้น ๆ นี้:
@@ -151,6 +152,9 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 credit-card-ending-in = บัตร { $cardName } ซึ่งลงท้ายด้วย { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = บัตรที่ไม่รู้จักซึ่งลงท้ายด้วย { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = หมายเลขใบแจ้งหนี้: <b>{ $invoiceNumber }</b>
@@ -219,6 +223,7 @@ cadReminderFirst-action = ซิงค์กับอุปกรณ์อื่
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = ต้องใช้อุปกรณ์สองเครื่องในการซิงค์
+cadReminderFirst-description-v2 = นำแท็บของคุณติดตัวไปกับทุกอุปกรณ์ของคุณ รับที่คั่นหน้า รหัสผ่าน และข้อมูลอื่นๆ ของคุณในทุกที่ที่คุณใช้ { -brand-firefox }
 cadReminderSecond-subject-2 = อย่าพลาด! มาตั้งค่าการซิงค์ของคุณให้เสร็จกันเถอะ
 cadReminderSecond-action = ซิงค์กับอุปกรณ์อื่น
 cadReminderSecond-title-2 = อย่าลืมซิงค์!
@@ -232,7 +237,10 @@ downloadSubscription-subject = ยินดีต้อนรับสู่ { $
 downloadSubscription-title = ยินดีต้อนรับสู่ { $productName }
 downloadSubscription-content-2 = เริ่มต้นใช้คุณลักษณะทั้งหมดที่รวมอยู่ในการสมัครสมาชิกของคุณ:
 downloadSubscription-link-action-2 = เริ่มต้น
+fraudulentAccountDeletion-subject-2 = ลบ{ -product-mozilla-account } ของคุณแล้ว
 fraudulentAccountDeletion-title = ลบบัญชีของคุณแล้ว
+fraudulentAccountDeletion-content-part1-v2 = เมื่อเร็วๆ นี้ { -product-mozilla-account } ได้ถูกสร้างขึ้นและได้มีการเรียกเก็บเงินค่าสมัครสมาชิกโดยใช้ที่อยู่อีเมลนี้ เช่นเดียวกับที่เราดำเนินการกับบัญชีใหม่ทั้งหมด เราขอให้คุณยืนยันบัญชีของคุณโดยตรวจสอบความถูกต้องของที่อยู่อีเมลนี้ก่อน
+fraudulentAccountDeletion-content-part2-v2 = ปัจจุบันเราเห็นว่าบัญชีนี้ยังไม่ได้ผ่านการยืนยัน เนื่องจากขั้นตอนนี้ยังไม่เสร็จสมบูรณ์ เราจึงไม่แน่ใจว่านี่เป็นการสมัครสมาชิกที่ได้รับอนุญาตหรือไม่ ด้วยเหตุนี้ { -product-mozilla-account } ที่ลงทะเบียนกับที่อยู่อีเมลนี้จึงถูกลบออก และการสมัครสมาชิกของคุณก็ได้ถูกยกเลิกพร้อมกับคืนเงินค่าบริการทั้งหมดแล้ว
 fraudulentAccountDeletion-contact = หากคุณมีคำถามใดๆ โปรดติดต่อ<a data-l10n-name="mozillaSupportUrl">ทีมช่วยเหลือ</a>ของเรา
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
