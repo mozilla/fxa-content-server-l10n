@@ -1112,6 +1112,8 @@ signin-recovery-code-back-link = Tilbake
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Er du sperra ute?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reserve-autentiseringskode påkravd
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1122,6 +1124,8 @@ signin-reported-message = Teamet vårt er varsla. Rapportar som denne hjelper os
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Skriv inn koden som vart sendt til { $email } innan 5 minutt.
 signin-token-code-input-label-v2 = Skriv inn 6-sifra kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Stadfest
@@ -1153,6 +1157,7 @@ signin-totp-code-required-error = Godkjenningskode påkravd
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Godkjenn denne innlogginga
 signin-unblock-code-input = Skriv inn godkjenningskode
 signin-unblock-submit-button = Hald fram
 # Shown when the user attempts to submit the form without including a code
