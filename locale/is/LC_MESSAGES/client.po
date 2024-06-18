@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-03 19:46+0000\n"
+"PO-Revision-Date: 2024-06-18 09:01+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -599,7 +599,7 @@ msgstr "Staðfestingarpósturinn þinn var endursendur. Rangt tölvupóstfang?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Sláðu inn rétt tölvupóstfang. firefox.com býður ekki upp á tölvupóst."
+msgstr "Settu inn rétt tölvupóstfang. firefox.com býður ekki upp á tölvupóst."
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
@@ -1115,7 +1115,7 @@ msgstr "Skráðu þig inn í Firefox fyrir iOS til að ljúka uppsetningunni"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "Sláðu inn lykilorðið <span class=\"card-subheader\" id=\"subheader\">fyrir Mozilla-reikninginn þinn</span>"
+msgstr "Settu inn lykilorðið <span class=\"card-subheader\" id=\"subheader\">fyrir Mozilla-reikninginn þinn</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"

@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Uppgefin lykilorð passa saman.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Þessi reitur er nauðsynlegur
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Senda inn { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -434,7 +428,7 @@ flow-container-back = Til baka
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading-v2 = Sláðu aftur inn lykilorðið þitt til öryggis
+flow-recovery-key-confirm-pwd-heading-v2 = Settu aftur inn lykilorðið þitt til öryggis
 flow-recovery-key-confirm-pwd-input-label = Settu inn lykilorðið þitt
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Útbúðu endurheimtulykil reiknings
@@ -604,7 +598,7 @@ pw-change-cancel-button = Hætta við
 pw-change-save-button = Vista
 pw-change-forgot-password-link = Gleymt lykilorð?
 pw-change-current-password =
-    .label = Sláðu inn núverandi lykilorð
+    .label = Settu inn núverandi lykilorð
 pw-change-new-password =
     .label = Settu inn nýja lykilorðið
 pw-change-confirm-password =
@@ -1349,7 +1343,7 @@ signin-link-expired-message-2 = Tengillinn sem þú smelltir á er útrunninn e�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header-2 = Sláðu inn lykilorðið þitt <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
+signin-password-needed-header-2 = Settu inn lykilorðið þitt <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
