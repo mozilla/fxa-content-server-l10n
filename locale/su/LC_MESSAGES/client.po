@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-19 13:10+0000\n"
+"PO-Revision-Date: 2024-06-19 13:15+0000\n"
 "Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -2009,43 +2009,43 @@ msgstr "Singkronkeun Firefox dina telepon atawa tablét anjeun"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Tempo sandi anjeun nu disimpen, tab, jujutan panyungsian jeung réa-réa deui — dina sakabéh alat anjeun."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Kuring geus boga Firefox keur mobile"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Mimitian singkronisasi ayeuna lamun anjeun geus mibanda Firefox dina parabot sélulér anjeun."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Kuring teu boga Firefox keur mobile"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Undeur Firefox dina alat sélulér anjeun, terus mimitian singkronisasi anjeun."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
-msgstr ""
+msgstr "Moal waka"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Pikeun nyingkronkeun Firefox dina telepon atawa tablét, anjeun kudu ngundeur heula Firefox keur mobile. Kieu carana:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Léngkah 1</b>: Undeur Firefox ku nyekén kode QR ieu maké kaméra dina alat sélulér anjeun:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "Kodeu QR (aya di tengah layar)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Lengkah 2</b>: Pilih \"Teruskeun singkronisasi\" pikeun nyingkronkeun pangalaman Firefox anjeun dina alat sélulér anjeun."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"

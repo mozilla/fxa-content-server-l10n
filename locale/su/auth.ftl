@@ -108,12 +108,24 @@ automatedEmailRecoveryKey-origin-device-OS-only = Paménta ieu asalna ti { $uaOS
 automatedEmailRecoveryKey-delete-key-change-pwd = Lamun lain  anjeun, <a data-l10n-name="revokeAccountRecoveryLink">hapus konci anyar</a> jeung <a data-l10n-name="passwordChangeLink">robah sandi anjeun</a>.
 automatedEmailRecoveryKey-change-pwd-only = Lamun ieu lain anjeun, <a data-l10n-name="passwordChangeLink">robah sandi anjeun</a>.
 automatedEmailRecoveryKey-more-info = PIkeun leuwih teleb, buka <a data-l10n-name="supportLink">{ -brand-mozilla } Pangrojong</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Paménta ieu asalna ti:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Lamun ieu lain anjeun, hapus konci anyar:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Lamun ieu lain anjeun, ganti sandi anjeun:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = jeung ganti sandi anjeun:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Pikeun leuwih teleb, buka Pangrojong { -brand-mozilla }:
 automated-email-reset =
     Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="resetLink">ganti kecap sandi</a>.
     Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Lamun anjeun teu rumasa ngarobah, mangga rését kecap sandi anjeun ayeuna di { $resetLink }
+brand-banner-message = Naha anjeun nyaho yén urang ngarobah ngaran tina { -product-firefox-accounts } jadi { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Lenyepan</a>
 cancellationSurvey = Bantuan ngaronjatkeun layanan kami ku cara ngeusian ieu <a data-l10n-name="cancellationSurveyUrl"> surpéy</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy pondok ieu:
@@ -140,12 +152,18 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 credit-card-ending-in = Kartu { $cardName } bakal anggeusan dina { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Kartu teu dipikanyaho ditungtungan ku { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Nomer Paktur: <b>{ $invoiceNumber }</b>
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Nomer Paktur: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Parobahan rencana: { $paymentProrated }
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
@@ -159,6 +177,13 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Diskon sakalieun: -
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = Diskon { $discountDuration }-bulan: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Pajeg & waragad: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Ditagih: { $invoiceTotal } dina { $invoiceDateOnly }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangdeudeul kami siap ngabantu:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
