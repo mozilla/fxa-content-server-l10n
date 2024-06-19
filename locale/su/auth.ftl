@@ -184,8 +184,12 @@ subscriptionCharges-content-tax = Pajeg & waragad: { $invoiceTaxAmount }
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = Ditagih: { $invoiceTotal } dina { $invoiceDateOnly }
+subscriptionSupport = Patalékan ngeunaan langganan anjeun?<a data-l10n-name="subscriptionSupportUrl">Tim pangdeudeul</a> urang siap ngabantuan.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangdeudeul kami siap ngabantu:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Hatur nuhun pikeun ngalanggan { $productName }. Upama anjeun boga pananya ngeunaan langganan anjeun atawa perlu inpormasi leuwih lengkep ngeunaan { $productName }, prak <a data-l10n-name="subscriptionSupportUrl">kontak urang</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ngarah layanan anjeun teu kapegat, mutahirkeun info pembayaran anjeun saénggalna:
 # Variables:
