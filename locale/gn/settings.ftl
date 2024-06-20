@@ -1312,6 +1312,9 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Ehechajey ne ñanduti veve
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Romondo ayvu ñemoneĩrã <span>{ $email }</span>-pe.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-code-input-group-label = Ehai 8 tai ayvu 10 aravo’i oútavape

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-20 18:11+0000\n"
+"PO-Revision-Date: 2024-06-20 18:17+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2006,7 +2006,7 @@ msgstr "Embojuehe Firefox-re ne pumbyry térã tabléta"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Ehecha ñe’ẽñemi ñongatupyre, tendayke, kundahára rembiasakue ha hetave, opaite mba’e’okápe."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
@@ -2022,7 +2022,7 @@ msgstr "Ndarekói Firefox pumbyrýpe g̃uarã"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Emboguejy Firefox ne pumbyrýpe ha emoñepyrũ iñembojuehe."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
