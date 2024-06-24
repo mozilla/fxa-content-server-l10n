@@ -168,12 +168,6 @@ form-password-sr-passwords-match = Annetut salasanat vastaavat toisiaan.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Tämä kenttä on pakollinen
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Lähetä { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -212,6 +206,8 @@ lock-image-aria-label =
     .aria-label = Lukon kuva
 lightbulb-aria-label =
     .aria-label = Talletusvihjeen luomista esittävä kuva.
+email-code-image-aria-label =
+    .aria-label = Kuva, joka esittää koodin sisältävää sähköpostiviestiä.
 
 ## Input Password
 
@@ -1327,6 +1323,7 @@ confirm-reset-password-otp-different-account-link = Käytä toista tiliä
 ## ResetPassword start page
 
 password-reset-flow-heading = Nollaa salasanasi
+password-reset-body = Anna sähköpostiosoitteesi, niin lähetämme sinulle vahvistuskoodin, jotta voimme olla varmoja, että se todella olet sinä.
 password-reset-email-input =
     .label = Kirjoita sähköpostiosoitteesi
 password-reset-submit-button = Lähetä minulle palautusohjeet
