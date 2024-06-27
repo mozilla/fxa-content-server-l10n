@@ -443,6 +443,18 @@ sub-item-stay-sub = Resta abbonato
 
 sub-item-cancel-msg = Non potrai più utilizzare { $name } dopo il { $period }, ultimo giorno del tuo ciclo di fatturazione.
 sub-item-cancel-confirm = Disattiva il mio accesso e rimuovi le informazioni personali salvate in { $name } il { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } coupon applicato: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -479,8 +491,8 @@ pay-update-manage-btn = Gestisci
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prossimo addebito il { $date }
-sub-next-bill-no-tax = La prossima fattura di <strong>{ $priceAmount }</strong> è in scadenza il <strong>{ $date }</strong>
-sub-next-bill-tax = La prossima fattura di <strong>{ $priceAmount } + { $taxAmount }</strong> è dovuta il <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = La prossima fattura di { $priceAmount } è in scadenza il { $date }
+sub-next-bill-tax-1 = La prossima fattura da { $priceAmount } + { $taxAmount } tasse è in scadenza il { $date }
 sub-expires-on = Scade il { $date }
 
 ## Routes - Subscription - PaymentUpdate
