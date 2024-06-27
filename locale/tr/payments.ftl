@@ -443,6 +443,18 @@ sub-item-stay-sub = Aboneliğimi sürdür
 
 sub-item-cancel-msg = Faturanızın son günü olan { $period } tarihinden sonra { $name } ürününü kullanamayacaksınız.
 sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgilerimi { $period } tarihinde iptal et
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } kuponu uygulandı: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -479,8 +491,6 @@ pay-update-manage-btn = Yönet
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bir sonraki faturalandırma: { $date }
-sub-next-bill-no-tax = <strong>{ $priceAmount }</strong> tutarındaki bir sonraki ödemeniz <strong>{ $date }</strong> tarihinde
-sub-next-bill-tax = <strong>{ $priceAmount } + { $taxAmount }</strong> tutarındaki bir sonraki ödemeniz <strong>{ $date }</strong> tarihinde
 sub-expires-on = Son geçerlilik tarihi: { $date }
 
 ## Routes - Subscription - PaymentUpdate
