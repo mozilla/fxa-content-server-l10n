@@ -30,14 +30,10 @@ input-error-is-required = Mae angen { $label }
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logo { -brand-name-firefox }
 brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnodi</a>
 new-user-sign-in-link-2 = Oes gennych chi gyfrif { -product-mozilla-account } yn barod? <a>Mewngofnodi</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -500,8 +496,6 @@ coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ôl { $
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = Creu cyfrif { -brand-name-firefox }
 new-user-step-1-2 = 1. Creu cyfrif { -product-mozilla-account }
 new-user-card-title = Rhowch fanylion eich cerdyn
 new-user-submit = Tanysgrifiwch Nawr
@@ -565,6 +559,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Diddymwch fy mynediad a'm manylion sydd wedi'u 
     cadw o fewn { $name } ar { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Cwpon { $promotion_name } wedi'i gymhwyso: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -601,8 +607,8 @@ pay-update-manage-btn = Rheoli
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bydd y taliad nesaf ar { $date }
-sub-next-bill-no-tax = Mae eich bil nesaf o <strong>{ $priceAmount }</strong> yn ddyledus ar <strong>{ $date }</strong>
-sub-next-bill-tax = Mae eich bil nesaf o <strong>{ $priceAmount } a { $taxAmount }</strong> treth yn ddyledus ar <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Mae bil nesaf o { $priceAmount } yn ddyledus { $date }
+sub-next-bill-tax-1 = Mae bil nesaf o { $priceAmount } + { $taxAmount } treth yn ddyledus { $date }
 sub-expires-on = Yn dod i ben ar: { $date }
 
 ## Routes - Subscription - PaymentUpdate
