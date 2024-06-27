@@ -30,14 +30,10 @@ input-error-is-required = { $label } szükséges
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } logó
 brand-name-mozilla-logo = { -brand-mozilla } logó
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
 new-user-sign-in-link-2 = Már van { -product-mozilla-account }ja? <a>Jelentkezzen be</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan 
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Hozzon létre egy { -brand-name-firefox }-fiókot
 new-user-step-1-2 = 1. Hozzon létre egy { -product-mozilla-account }ot
 new-user-card-title = Adja meg a kártyaadatait
 new-user-submit = Előfizetés most
@@ -456,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     A(z) { $name } szolgáltatás hozzáférésének lemondása,
     és az abban mentett adatok törlése ekkor: { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } kupon felhasználva: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +498,8 @@ pay-update-manage-btn = Kezelés
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Következő számlázás: { $date }
-sub-next-bill-no-tax = A következő <strong>{ $priceAmount }</strong> összegű számlájának esedékessége: <strong>{ $date }</strong>
-sub-next-bill-tax = A következő <strong>{ $priceAmount } + { $taxAmount }</strong> adó összegű számlájának esedékessége: <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = A következő { $priceAmount } összegű számla esedékessége: { $date }
+sub-next-bill-tax-1 = A következő { $priceAmount } + { $taxAmount } adó összegű számla esedékessége { $date }
 sub-expires-on = Lejár: { $date }
 
 ## Routes - Subscription - PaymentUpdate
