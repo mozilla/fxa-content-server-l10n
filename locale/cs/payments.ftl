@@ -497,6 +497,18 @@ sub-item-cancel-msg =
     Po skončení předplaceného období { $period }
     už nebudete mít ke službě { $name } přístup.
 sub-item-cancel-confirm = Zrušit můj přístup a smazat má uložená data ve službě { $name } dne { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Kupon { $promotion_name } byl použit: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -533,8 +545,8 @@ pay-update-manage-btn = Správa
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Další platba dne { $date }
-sub-next-bill-no-tax = Vaše další platba <strong>{ $priceAmount }</strong> má splatnost <strong>{ $date }</strong>
-sub-next-bill-tax = Vaše další platba <strong>{ $priceAmount } +</strong> daň <strong>{ $taxAmount }</strong> má splatnost <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Další platba v hodnotě { $priceAmount } je splatná dne { $date }
+sub-next-bill-tax-1 = Další platba na { $priceAmount } + daň { $taxAmount } je splatná dne { $date }
 sub-expires-on = Datum konce platnosti: { $date }
 
 ## Routes - Subscription - PaymentUpdate
