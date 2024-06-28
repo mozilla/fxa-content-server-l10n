@@ -1329,6 +1329,7 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 ## ResetPassword start page
 
 password-reset-flow-heading = Embojevyjey ne ñe’ẽñemi
+password-reset-body = Ehai ne ñanduti veve ha roguerahaukáta ayvu ñemoneĩrã ehechauka hag̃ua ndeha.
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
 password-reset-submit-button = Embou mba’éichapa emoĩporãjeýta
