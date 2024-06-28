@@ -450,7 +450,7 @@ sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问
 # Holiday Offer 2023 coupon applied: $11.20 monthly
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
-sub-promo-coupon-applied = 已使用 { $promotion_name } 优惠券：<priceDetails></priceDetails>
+sub-promo-coupon-applied = 已应用 { $promotion_name } 折扣码：<priceDetails></priceDetails>
 
 ## Routes - Subscription
 
