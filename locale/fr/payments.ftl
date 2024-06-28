@@ -456,7 +456,7 @@ sub-item-cancel-confirm =
 # Holiday Offer 2023 coupon applied: $11.20 monthly
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
-sub-promo-coupon-applied = Bon de réduction appliqué à { $promotion_name } : <priceDetails></priceDetails>
+sub-promo-coupon-applied = Bon de réduction { $promotion_name } appliqué : <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
