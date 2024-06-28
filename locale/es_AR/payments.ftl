@@ -461,7 +461,7 @@ sub-item-cancel-confirm =
 # Holiday Offer 2023 coupon applied: $11.20 monthly
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
-sub-promo-coupon-applied = Cupón de { $promotion_name } aplicado: <priceDetails>
+sub-promo-coupon-applied = Cupón de { $promotion_name } aplicado: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -498,8 +498,8 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
-sub-next-bill-no-tax-1 = La próxima factura de { $priceAmount } el { $date }
-sub-next-bill-tax-1 = La próxima factura de { $priceAmount } + impuestos { $taxAmount } el { $date }
+sub-next-bill-no-tax-1 = La próxima factura de { $priceAmount } vence el { $date }
+sub-next-bill-tax-1 = La próxima factura de { $priceAmount } + { $taxAmount } de impuestos vence el { $date }
 sub-expires-on = Expira el { $date }
 
 ## Routes - Subscription - PaymentUpdate
