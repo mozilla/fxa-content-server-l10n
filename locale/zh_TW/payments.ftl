@@ -443,6 +443,18 @@ sub-item-stay-sub = 保持訂閱
 
 sub-item-cancel-msg = 在帳務週期最後一天（{ $period }）之後，將無法再使用 { $name }。
 sub-item-cancel-confirm = 在 { $period }之後取消我對 { $name } 的使用權限與儲存的所有資訊
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = 已套用「{ $promotion_name }」折扣碼：<priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -476,8 +488,8 @@ pay-update-manage-btn = 管理
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下次收費時間：{ $date }
-sub-next-bill-no-tax = 您的下一張帳單<strong>（金額 { $priceAmount }）</strong>將於 <strong>{ $date }</strong> 到期
-sub-next-bill-tax = 您的下一張帳單<strong>（金額 { $priceAmount } + 稅金 { $taxAmount }）</strong>將於 <strong>{ $date }</strong> 到期
+sub-next-bill-no-tax-1 = 次期帳單金額：{ $priceAmount }，將於 { $date } 到期
+sub-next-bill-tax-1 = 次期帳單金額：{ $priceAmount } + { $taxAmount } 稅金，將於 { $date } 到期
 sub-expires-on = 於 { $date } 到期
 
 ## Routes - Subscription - PaymentUpdate
