@@ -30,14 +30,10 @@ input-error-is-required = É necessário { $label }
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logotipo do { -brand-name-firefox }
 brand-name-mozilla-logo = Logotipo da { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Já tem uma Conta { -brand-name-firefox }? <a>Entre</a>
 new-user-sign-in-link-2 = Já tem uma { -product-mozilla-account }? <a>Entre</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Seu plano será renovado automaticamente após { $cou
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
 new-user-step-1-2 = 1. Crie uma { -product-mozilla-account }
 new-user-card-title = Digite as informações do seu cartão
 new-user-submit = Assinar agora
@@ -451,6 +445,18 @@ sub-item-cancel-msg = Você não poderá mais usar o { $name } após { $period }
 sub-item-cancel-confirm =
     Cancele meu acesso e minhas informações salvas dentro do
     { $name } em { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Cupom { $promotion_name } aplicado: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -487,8 +493,8 @@ pay-update-manage-btn = Gerenciar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima cobrança em { $date }
-sub-next-bill-no-tax = Sua próxima fatura de <strong>{ $priceAmount }</strong> vence em <strong>{ $date }</strong>
-sub-next-bill-tax = Sua próxima fatura de <strong>{ $priceAmount } + { $taxAmount }</strong> de imposto vence em <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = A próxima fatura de { $priceAmount } vence em { $date }
+sub-next-bill-tax-1 = A próxima fatura de { $priceAmount } + { $taxAmount } de imposto vence em { $date }
 sub-expires-on = Expira em { $date }
 
 ## Routes - Subscription - PaymentUpdate
