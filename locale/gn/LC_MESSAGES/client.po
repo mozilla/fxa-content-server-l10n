@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-28 17:59+0000\n"
+"PO-Revision-Date: 2024-06-28 18:05+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2034,7 +2034,7 @@ msgstr "Embojuehe hag̃ua Firefox ne pumbyry térã tablétape, emboguejyraẽ F
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Jeku’e 1</b>: Emboguejy Firefox emoha’ãngávo ko QR ayvu ne pumbyry moha’ãngaha rupive:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
