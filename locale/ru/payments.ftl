@@ -30,14 +30,10 @@ input-error-is-required = { $label } обязательное
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Логотип { -brand-name-firefox }
 brand-name-mozilla-logo = Логотип { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = У вас уже есть аккаунт { -brand-name-firefox }? <a>Войти</a>
 new-user-sign-in-link-2 = У вас уже есть { -product-mozilla-account }? <a>Войти</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -416,8 +412,6 @@ coupon-success-repeating = Ваш тарифный план будет авто�
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Создайте аккаунт { -brand-name-firefox }
 new-user-step-1-2 = 1. Создайте { -product-mozilla-account }
 new-user-card-title = Введите данные вашей карты
 new-user-submit = Подписаться
@@ -484,6 +478,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Отменить мой доступ и мою сохранённую информацию в
     { $name } { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Применён купон { $promotion_name }: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -520,8 +526,8 @@ pay-update-manage-btn = Управление
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Следующий счёт будет выставлен { $date }
-sub-next-bill-no-tax = Ваш следующий счёт на <strong>{ $priceAmount }</strong> подлежит оплате до <strong>{ $date }</strong>
-sub-next-bill-tax = Ваш следующий счёт в размере <strong>{ $priceAmount } + { $taxAmount }</strong> налог подлежит оплате до <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Следующий счёт на { $priceAmount } подлежит оплате { $date }
+sub-next-bill-tax-1 = Следующий счёт в размере { $priceAmount } + налог { $taxAmount } подлежит оплате { $date }
 sub-expires-on = Истекает { $date }
 
 ## Routes - Subscription - PaymentUpdate
