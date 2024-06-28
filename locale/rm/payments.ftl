@@ -30,14 +30,10 @@ input-error-is-required = { $label } è obligatoric
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logo da { -brand-name-firefox }
 brand-name-mozilla-logo = Logo da { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
 new-user-sign-in-link-2 = Has ti gia in { -product-mozilla-account }? <a>T'annunzia</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $c
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Crear in conto da { -brand-name-firefox }
 new-user-step-1-2 = 1. Creescha in { -product-mozilla-account }
 new-user-card-title = Endatescha las infurmaziuns da tia carta
 new-user-submit = Abunar ussa
@@ -456,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Annullar mes access e stizzar mias infurmaziuns memorisadas en
     { $name } ils { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Applitgà il bon { $promotion_name }: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +498,8 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Proxima facturaziun ils { $date }
-sub-next-bill-no-tax = Tes proxim quint da <strong>{ $priceAmount }</strong> è da pajar ils <strong>{ $date }</strong>
-sub-next-bill-tax = Tes proxim quint da <strong>{ $priceAmount } + { $taxAmount }</strong> taxas è da pajar ils <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Il proxim quint da { $priceAmount } è da pajar fin ils { $date }
+sub-next-bill-tax-1 = Il proxim quint da { $priceAmount } + { $taxAmount } taglia è da pajar en fin ils { $date }
 sub-expires-on = Scada ils { $date }
 
 ## Routes - Subscription - PaymentUpdate
