@@ -30,14 +30,10 @@ input-error-is-required = Pole "{ $label }" je povinné
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logo { -brand-name-firefox(case: "gen") }
 brand-name-mozilla-logo = Logo { -brand-mozilla(case: "gen") }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Už máte účet { -brand-name-firefox }? <a>Prihláste sa</a>
 new-user-sign-in-link-2 = Už máte { -product-mozilla-account(capitalization: "lower") }? <a>Prihláste sa</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -416,8 +412,6 @@ coupon-success-repeating = Váš plán sa automaticky obnoví po { $couponDurati
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Vytvorte si účet { -brand-name-firefox }
 new-user-step-1-2 = 1. Vytvorte si { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Zadajte informácie o svojej karte
 new-user-submit = Predplatiť
@@ -477,6 +471,18 @@ sub-item-stay-sub = Ponechať predplatné
 
 sub-item-cancel-msg = Po { $period }, poslednom dni vášho fakturačného cyklu, už produkt { $name } nebudete môcť používať.
 sub-item-cancel-confirm = Zrušiť môj prístup k produktu { $name } a dáta v ňom uložené ku dňu { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Kupón { $promotion_name } bol použitý: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -513,8 +519,8 @@ pay-update-manage-btn = Spravovať
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ďalšia fakturácia dňa { $date }
-sub-next-bill-no-tax = Vaša ďalšia faktúra vo výške <strong>{ $priceAmount }</strong> je splatná dňa <strong>{ $date }</strong>
-sub-next-bill-tax = Vaša ďalšia faktúra vo výške <strong>{ $priceAmount } + daň { $taxAmount }</strong> je splatná dňa <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Ďalšia faktúra vo výške { $priceAmount } je splatná { $date }
+sub-next-bill-tax-1 = Ďalšia faktúra vo výške { $priceAmount } + daň { $taxAmount } je splatná { $date }
 sub-expires-on = Vyprší dňa { $date }
 
 ## Routes - Subscription - PaymentUpdate
