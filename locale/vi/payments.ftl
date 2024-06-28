@@ -30,14 +30,10 @@ input-error-is-required = { $label } là bắt buộc
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logo { -brand-name-firefox }
 brand-name-mozilla-logo = Biểu tượng { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng nhập</a>
 new-user-sign-in-link-2 = Đã có { -product-mozilla-account }? <a>Đăng nhập</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -360,8 +356,6 @@ coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $c
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Tạo tài khoản { -brand-name-firefox }
 new-user-step-1-2 = 1. Tạo { -product-mozilla-account }
 new-user-card-title = Nhập thông tin thẻ của bạn
 new-user-submit = Theo dõi ngay
@@ -428,6 +422,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Hủy quyền truy cập của tôi và thông tin đã lưu của tôi trong
     { $name } vào { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Phiếu giảm giá { $promotion_name } đã được áp dụng: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -464,8 +470,8 @@ pay-update-manage-btn = Quản lý
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Thanh toán tiếp theo vào { $date }
-sub-next-bill-no-tax = Hóa đơn tiếp theo của bạn <strong>{ $priceAmount }</strong> đến hạn vào <strong>{ $date }</strong>
-sub-next-bill-tax = Hóa đơn tiếp theo của bạn gồm <strong>{ $priceAmount } + thuế { $taxAmount }</strong> đến hạn vào <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Hóa đơn tiếp theo { $priceAmount } đến hạn vào ngày { $date }
+sub-next-bill-tax-1 = Hóa đơn tiếp theo { $priceAmount } + thuế { $taxAmount } đến hạn vào ngày { $date }
 sub-expires-on = Hết hạn vào { $date }
 
 ## Routes - Subscription - PaymentUpdate
