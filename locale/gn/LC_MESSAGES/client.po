@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-28 18:05+0000\n"
+"PO-Revision-Date: 2024-06-28 18:12+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2042,7 +2042,7 @@ msgstr "QR ayvu (oĩva mba’erechaha mbytépe)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Jeku’e 1</b>: Eiporavo “Ku’ejey embojuehehápe” embojuehe hag̃ua nde jeike Firefox-pe pumbyrýpe."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"

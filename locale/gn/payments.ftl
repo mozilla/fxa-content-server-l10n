@@ -450,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Ehejarei che jeikeha ha che marandu ñongatupyre
     { $name } pegua { $period }-pe
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Kupõ { $promotion_name } porupy: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -486,8 +498,8 @@ pay-update-manage-btn = Ñangareko
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
-sub-next-bill-no-tax = Kuatiañemure oútava <strong>{ $priceAmount } </strong> hu’ãta <strong>{ $date }</strong>
-sub-next-bill-tax = Kuatiañemungue oútava <strong>{ $priceAmount } + jehepyme’ẽrã { $taxAmount }</strong> omohu’ã <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Kuatiañemuhague pyahu { $priceAmount } rehegua hu’ãta { $date }
+sub-next-bill-tax-1 = Kuatiañemuhague pyahu { $priceAmount } + { $taxAmount } impuesto rehegua hu’ãta { $date }
 sub-expires-on = Opáta { $date }
 
 ## Routes - Subscription - PaymentUpdate
