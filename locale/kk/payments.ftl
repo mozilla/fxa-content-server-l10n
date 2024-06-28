@@ -30,14 +30,10 @@ input-error-is-required = { $label } міндетті түрде керек
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } логотипі
 brand-name-mozilla-logo = { -brand-mozilla } логотипі
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = { -brand-name-firefox } тіркелгіңіз бар ма? <a>Жүйеге кіру</a>
 new-user-sign-in-link-2 = Сізде { -product-mozilla-account } бар ма? <a>Жүйеге кіру</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Жоспарыңыз тізім бағасы бойы
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. { -brand-name-firefox } тіркелгісін жасау
 new-user-step-1-2 = 1. { -product-mozilla-account } жасау
 new-user-card-title = Карта ақпаратын енгізіңіз
 new-user-submit = Қазір жазылу
@@ -452,6 +446,18 @@ sub-item-stay-sub = Жазылуда қала беру
 
 sub-item-cancel-msg = Төлем циклінің соңғы күнінен, яғни { $period } кейін, { $name } бұдан былай пайдалана алмайсыз.
 sub-item-cancel-confirm = { $period } күні { $name } ішіне кіру рұқсатымды және сақталған ақпаратымды тоқтатыңыз
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } купоны қолданылды: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -488,8 +494,8 @@ pay-update-manage-btn = Басқару
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Келесі төлем { $date } күні
-sub-next-bill-no-tax = Келесі <strong>{ $priceAmount }</strong> шотыңыздың мерзімі <strong>{ $date }</strong>
-sub-next-bill-tax = Келесі <strong>{ $priceAmount } + { $taxAmount }</strong> салық шотыңыздың мерзімі <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Келесі { $priceAmount } шотының мерзімі { $date }
+sub-next-bill-tax-1 = Келесі { $priceAmount } шоты + { $taxAmount } салығы, төлеу мерзімі { $date }
 sub-expires-on = Мерзімі { $date } күні аяқталады
 
 ## Routes - Subscription - PaymentUpdate
