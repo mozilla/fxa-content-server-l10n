@@ -30,14 +30,10 @@ input-error-is-required = { $label } al è un cjamp obligatori
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logo di { -brand-name-firefox }
 brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Âstu za un account { -brand-name-firefox }? <a>Jentre</a>
 new-user-sign-in-link-2 = Âstu za un { -product-mozilla-account }? <a>Jentre</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $couponDu
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Cree un account { -brand-name-firefox }
 new-user-step-1-2 = 1. Cree un { -product-mozilla-account }
 new-user-card-title = Inserìs lis informazions relativis ae tô cjarte di credit
 new-user-submit = Aboniti cumò
@@ -451,6 +445,18 @@ sub-item-cancel-msg = No tu rivarâs plui a doprâ { $name } dopo dal/dai { $per
 sub-item-cancel-confirm =
     Scancele il gno acès e lis mês informazions salvadis in
     { $name } al/ai { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Coupon { $promotion_name } aplicât: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -487,8 +493,8 @@ pay-update-manage-btn = Gjestìs
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prossim adebit al/ai { $date }
-sub-next-bill-no-tax = La prossime fature di <strong>{ $priceAmount }</strong> e je dovude al/ai <strong>{ $date }</strong>
-sub-next-bill-tax = La prossime fature di <strong>{ $priceAmount } + { $taxAmount }</strong> e je dovude al/ai <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = La prossime fature di { $priceAmount } e scjât ai { $date }
+sub-next-bill-tax-1 = La prossime fature di { $priceAmount } + { $taxAmount } di tassis e scjât ai { $date }
 sub-expires-on = Al scjat al/ai { $date }
 
 ## Routes - Subscription - PaymentUpdate
