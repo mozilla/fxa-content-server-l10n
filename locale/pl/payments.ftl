@@ -478,6 +478,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Anuluj mój dostęp i moje zachowane informacje
     w { $name } w dniu { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Dodano rabat „{ $promotion_name }”: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -514,8 +526,8 @@ pay-update-manage-btn = Zarządzaj
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Następna płatność: { $date }
-sub-next-bill-no-tax = Następny rachunek na kwotę <strong>{ $priceAmount }</strong> ma termin płatności <strong>{ $date }</strong>
-sub-next-bill-tax = Następny rachunek na kwotę <strong>{ $priceAmount } + { $taxAmount }</strong> podatku ma termin płatności <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Termin płatności następnego rachunku na kwotę { $priceAmount } wynosi { $date }
+sub-next-bill-tax-1 = Termin płatności następnego rachunku na kwotę { $priceAmount }+{ $taxAmount } VAT wynosi { $date }
 sub-expires-on = Wygasa: { $date }
 
 ## Routes - Subscription - PaymentUpdate
