@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 20:08+0000\n"
-"PO-Revision-Date: 2024-06-02 20:46+0000\n"
+"PO-Revision-Date: 2024-06-30 13:11+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -2011,23 +2011,23 @@ msgstr "Synchronizuj Firefoksa na telefonie lub tablecie"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Korzystaj z zachowanych haseł, kart, historii przeglądania i nie tylko — na wszystkich urządzeniach."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Mam już Firefoksa na telefon"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Zacznij synchronizować od razu, jeśli już masz Firefoksa na swoim telefonie."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Nie mam Firefoksa na telefon"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Pobierz Firefoksa na swój telefon i zacznij synchronizować."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2035,23 +2035,23 @@ msgstr "Nie teraz"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Aby synchronizować Firefoksa na swoim telefonie lub tablecie, najpierw musisz go pobrać. Oto jak:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>1. krok</b>: pobierz Firefoksa, skanując ten kod QR aparatem na swoim telefonie:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "Kod QR (znajdujący się na środku ekranu)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>2. krok</b>: kliknij „Przejdź do synchronizacji”, aby synchronizować swojego Firefoksa na telefonie."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "Przejdź do synchronizacji"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
