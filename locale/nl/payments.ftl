@@ -30,14 +30,10 @@ input-error-is-required = { $label } is verplicht
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox }-logo
 brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmelden</a>
 new-user-sign-in-link-2 = Hebt u al een { -product-mozilla-account }? <a>Aanmelden</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Uw abonnement wordt na { $couponDurationDate } automa
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Maak een { -brand-name-firefox }-account aan
 new-user-step-1-2 = 1. Maak een { -product-mozilla-account } aan
 new-user-card-title = Voer uw kaartgegevens in
 new-user-submit = Nu abonneren
@@ -456,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Mijn toegang tot en opgeslagen gegevens in { $name }
     op { $period } opzeggen
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name }-waardebon toegepast: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +498,8 @@ pay-update-manage-btn = Beheren
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Volgende incasso op { $date }
-sub-next-bill-no-tax = Uw volgende rekening van <strong>{ $priceAmount }</strong> is verschuldigd op <strong>{ $date }</strong>
-sub-next-bill-tax = Uw volgende factuur van <strong>{ $priceAmount } + { $taxAmount }</strong> belasting is verschuldigd op <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = De volgende factuur van { $priceAmount } is verschuldigd op { $date }
+sub-next-bill-tax-1 = De volgende factuur van { $priceAmount } + { $taxAmount } btw is verschuldigd op { $date }
 sub-expires-on = Vervalt op { $date }
 
 ## Routes - Subscription - PaymentUpdate
