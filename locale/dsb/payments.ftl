@@ -30,14 +30,10 @@ input-error-is-required = { $label } jo trjebne
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Logo { -brand-name-firefox }
 brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Maśo južo konto { -brand-name-firefox }? <a>Pśizjawiś</a>
 new-user-sign-in-link-2 = Maśo južo { -product-mozilla-account(case: "acc", capitalization: "lower") }? <a>Pśizjawiś</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -444,8 +440,6 @@ coupon-success-repeating = Waš plan se pó { $couponDurationDate } za lisćinow
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Załožćo konto { -brand-name-firefox }
 new-user-step-1-2 = 1. Załožćo { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Zapodajśo swóje kórtowe informacije
 new-user-submit = Něnto aboněrowaś
@@ -512,6 +506,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     { $period } mój pśistup a móje w { $name }
     skłaźone informacije wótwónoźeś
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Bon { $promotion_name } nałožony: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -548,8 +554,8 @@ pay-update-manage-btn = Zastojaś
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Pśiduca zliceńka: { $date }
-sub-next-bill-no-tax = Waša pśiduca zliceńka <strong>{ $priceAmount }</strong> musy se <strong>{ $date }</strong> płaśiś
-sub-next-bill-tax = Waša pśiduca zliceńka <strong>{ $priceAmount } + { $taxAmount }</strong> danka musy se <strong>{ $date }</strong> płaśiś
+sub-next-bill-no-tax-1 = Pśiduca zliceńka { $priceAmount } ma se płaśiś { $date }
+sub-next-bill-tax-1 = Pśiduca zliceńka { $priceAmount } + dank { $taxAmount } ma se płaśiś { $date }
 sub-expires-on = Spadnjo { $date }
 
 ## Routes - Subscription - PaymentUpdate
