@@ -30,14 +30,10 @@ input-error-is-required = { $label } is ferplicht
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox }-logo
 brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Hawwe jo al in { -brand-name-firefox }-account? <a>Oanmelde</a>
 new-user-sign-in-link-2 = Hawwe jo al in { -product-mozilla-account }? <a>Oanmelde</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } autom
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Meitsje in { -brand-name-firefox }-account oan
 new-user-step-1-2 = 1. Meitsje in { -product-mozilla-account } oan
 new-user-card-title = Fier jo kaartgegevens yn
 new-user-submit = No abonnearje
@@ -456,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Myn tagong ta en bewarre gegevens yn { $name }
     op { $period } opsizze
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name }-weardebon tapast: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +498,8 @@ pay-update-manage-btn = Beheare
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Folgjende ynkasso op { $date }
-sub-next-bill-no-tax = Jo folgjende rekkening fan <strong>{ $priceAmount }</strong> is ferskuldige op <strong>{ $date }</strong>
-sub-next-bill-tax = Jo folgjende faktuer fan <strong>{ $priceAmount } + { $taxAmount }</strong> belesting is ferskuldige op <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = De folgjende faktuer fan { $priceAmount } is ferskuldige op { $date }
+sub-next-bill-tax-1 = De folgjende faktuer fan { $priceAmount } + { $taxAmount } btw is ferskuldige op { $date }
 sub-expires-on = Ferrint op { $date }
 
 ## Routes - Subscription - PaymentUpdate
