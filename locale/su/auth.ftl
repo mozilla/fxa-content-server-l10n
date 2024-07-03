@@ -198,6 +198,7 @@ subscriptionUpdateBillingEnsure-plaintext = Anjeun bisa mastikeun yén cara maya
 subscriptionUpdateBillingTry = Urang bakal mecakan cara mayar anjeun deui dina sababaraha poé ka hareup, tapi anjeun mungkin perlu nulungan urang ku cara <a data-l10n-name="updateBillingUrl">nganyarkeun iber cara mayar anjeun</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Urang bakal mecakan cara mayar anjeun deui dina sababaraha poé ka hareup, tapi anjeun mungkin perlu nulungan urang ngoméan ku nganyarkeun iber pamayaran anjeun:
+subscriptionUpdatePayment = Pikeun nyingkahan gangguan kana layanan anjeun, mangga <a data-l10n-name="updateBillingUrl">anyarkeun émbaran cara mayar anjeun</a> sagancangna.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ngarah layanan anjeun teu kapegat, mutahirkeun info pembayaran anjeun saénggalna:
 # Variables:
@@ -212,14 +213,18 @@ device-all = { $uaBrowser } di { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } di { $uaOS }
+view-invoice = <a data-l10n-name="invoiceLink">Tingali tagihan anjeun</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Tingali Tagihan: { $invoiceLink }
+cadReminderFirst-subject-1 = Panginget! Hayu urang singkronkeun { -brand-firefox }
 cadReminderFirst-action = Singkronkeun séjén alat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Butuh dua pikeun nyingkronkeun
+cadReminderFirst-description-v2 = Bawa tab kana sakabéh alat anjeun. Paké tetengger anjeun, sandi, jeung data séjén di mana waé anjeun maké { -brand-firefox }.
+cadReminderSecond-subject-2 = Ulah kaliwat! Hayu anggeuskeun pangaturan singkronisasi anjeun
 cadReminderSecond-action = Singkronkeun séjén alat
 cadReminderSecond-title-2 = Ulah poho nyingkronkeun!
 #  Variables:
