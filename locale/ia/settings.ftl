@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Le contrasignos inserite concorda.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Campo requirite.
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Inviar { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -456,7 +450,7 @@ flow-recovery-key-download-next-link-v2 = Continuar sin discargar
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Ubi conservar tu claves:
-flow-recovery-key-download-storage-ideas-folder-v2 = Plica sur apparato secur
+flow-recovery-key-download-storage-ideas-folder-v2 = Dossier sur apparato secur
 flow-recovery-key-download-storage-ideas-cloud = Stockage fidibile in nube
 flow-recovery-key-download-storage-ideas-print-v2 = Copia physic imprimite
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestor de contrasigno
@@ -903,7 +897,7 @@ se-refresh-email =
 se-unverified-2 = Non confirmate
 se-resend-code-2 =
     Confirmation necessari. <button>Reinviar le codice de confirmation</button> 
-    si illo non es in tu cassa de entrata o plica de spam.
+    si illo non es in tu cassa de entrata o dossier de spam.
 # Button to make secondary email the primary
 se-make-primary = Rende lo primari
 se-default-content = Accede tu conto si tu non pote acceder a tu e-mail primari.
@@ -1466,7 +1460,7 @@ signin-unblock-submit-button = Continuar
 signin-unblock-code-required-error = Es necessari un codice de autorisation
 signin-unblock-code-incorrect-length = Le codice de autorisation debe continer 8 characteres
 signin-unblock-code-incorrect-format-2 = Le codice de autorisation solo pote continer litteras o numeros
-signin-unblock-resend-code-button = Non in le cassa de entrata, ni in le plica SPAM? Reinviar
+signin-unblock-resend-code-button = Non in le cassa de entrata, ni in le dossier de spam? Reinviar
 signin-unblock-support-link = Perque isto eveni?
 
 ## ConfirmSignupCode page
