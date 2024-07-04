@@ -570,7 +570,7 @@ sub-item-cancel-confirm =
 # Holiday Offer 2023 coupon applied: $11.20 monthly
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
-sub-promo-coupon-applied = Cwpon { $promotion_name } wedi'i gymhwyso: <priceDetails></priceDetails>
+sub-promo-coupon-applied = Cwpon { $promotion_name } wedi'i osod: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -607,8 +607,8 @@ pay-update-manage-btn = Rheoli
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bydd y taliad nesaf ar { $date }
-sub-next-bill-no-tax-1 = Mae bil nesaf o { $priceAmount } yn ddyledus { $date }
-sub-next-bill-tax-1 = Mae bil nesaf o { $priceAmount } + { $taxAmount } treth yn ddyledus { $date }
+sub-next-bill-no-tax-1 = Mae bil nesaf o { $priceAmount } yn ddyledus ar { $date }
+sub-next-bill-tax-1 = Mae bil nesaf o { $priceAmount } + { $taxAmount } treth yn ddyledus ar { $date }
 sub-expires-on = Yn dod i ben ar: { $date }
 
 ## Routes - Subscription - PaymentUpdate
