@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 20:08+0000\n"
+"POT-Creation-Date: 2024-07-04 20:08+0000\n"
 "PO-Revision-Date: 2024-03-10 21:00+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1069,7 +1069,7 @@ msgstr ""
 msgid "Email new code."
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "Conectează alt dispozitiv"
 
@@ -2063,10 +2063,30 @@ msgstr ""
 msgid "Confirm pairing"
 msgstr "Confirmă asocierea"
 
-#: .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/pair/unsupported.mustache:3
 msgid "Pair using an app"
 msgstr "Asociere folosind o aplicație"
 
-#: .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:4
+msgid "Oops! It looks like you’re not using Firefox."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:5
+msgid "Attention:"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:6
+msgid "Switch to Firefox and open this page to connect another device."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:7
+msgid "Download Firefox"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:8
+msgid "Opens in new window"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație Firefox."
