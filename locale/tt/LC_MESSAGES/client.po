@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 20:08+0000\n"
+"POT-Creation-Date: 2024-07-04 20:08+0000\n"
 "PO-Revision-Date: 2023-05-17 10:00+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1057,7 +1057,7 @@ msgstr "Мөддәте чыккан кодмы?"
 msgid "Email new code."
 msgstr "Эл. почта аша яңа код җибәрегез."
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "Башка җиһазны тоташтыру"
 
@@ -2048,10 +2048,30 @@ msgstr "<span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span
 msgid "Confirm pairing"
 msgstr "Ялгауны раслау"
 
-#: .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/pair/unsupported.mustache:3
 msgid "Pair using an app"
 msgstr "Кушымта ярдәмендә ялгау"
 
-#: .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:4
+msgid "Oops! It looks like you’re not using Firefox."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:5
+msgid "Attention:"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:6
+msgid "Switch to Firefox and open this page to connect another device."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:7
+msgid "Download Firefox"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:8
+msgid "Opens in new window"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""

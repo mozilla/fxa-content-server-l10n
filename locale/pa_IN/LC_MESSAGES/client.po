@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 20:08+0000\n"
+"POT-Creation-Date: 2024-07-04 20:08+0000\n"
 "PO-Revision-Date: 2024-01-08 01:42+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1057,7 +1057,7 @@ msgstr "ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?"
 msgid "Email new code."
 msgstr "ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
 
@@ -2051,10 +2051,30 @@ msgstr "<span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span
 msgid "Confirm pairing"
 msgstr "ਪੇਅਰ ਕਰਨ ਦੀ ਤਸਦੀਕ ਕਰੋ"
 
-#: .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/pair/unsupported.mustache:3
 msgid "Pair using an app"
 msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 
-#: .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:4
+msgid "Oops! It looks like you’re not using Firefox."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:5
+msgid "Attention:"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:6
+msgid "Switch to Firefox and open this page to connect another device."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:7
+msgid "Download Firefox"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:8
+msgid "Opens in new window"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ Firefox ਐਪ ਵਿੱਚੋਂ ਪੇਅਰ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"

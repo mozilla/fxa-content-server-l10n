@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 20:08+0000\n"
+"POT-Creation-Date: 2024-07-04 20:08+0000\n"
 "PO-Revision-Date: 2024-05-25 09:12+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1059,7 +1059,7 @@ msgstr "Код застарів?"
 msgid "Email new code."
 msgstr "Надіслати новий код електронною поштою."
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "Під'єднати інший пристрій"
 
@@ -2088,10 +2088,30 @@ msgstr "Підтвердьте під'єднання <span class=\"card-subheade
 msgid "Confirm pairing"
 msgstr "Підтвердити зв'язок"
 
-#: .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/pair/unsupported.mustache:3
 msgid "Pair using an app"
 msgstr "Створення пари з використанням програми"
 
-#: .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:4
+msgid "Oops! It looks like you’re not using Firefox."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:5
+msgid "Attention:"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:6
+msgid "Switch to Firefox and open this page to connect another device."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:7
+msgid "Download Firefox"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:8
+msgid "Opens in new window"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ви використали системну камеру? Ви повинні створити пару в програмі Firefox."
