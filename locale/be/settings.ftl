@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = На жаль, узнікла праблема
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Атрымайце больш ад { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = Дапамажыце захаваць інтэрнэт здаровым
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = Навіны і абнаўленні бяспекі і прыватнасці
 # Newsletter checklist item
@@ -102,8 +99,8 @@ choose-what-to-sync-option-prefs =
     .label = Налады
 choose-what-to-sync-option-addresses =
     .label = Адрасы
-choose-what-to-sync-option-creditcards =
-    .label = Крэдытныя карты
+choose-what-to-sync-option-paymentmethods =
+    .label = Спосабы аплаты
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -170,7 +167,6 @@ form-verify-code-default-error = Гэта поле абавязковае
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ аднаўлення ўліковага запісу { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі
 get-data-trio-download-2 =
     .title = Сцягванне
@@ -209,10 +205,10 @@ lightbulb-aria-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Схаваць пароль
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Паказаць пароль
-input-password-hide-aria = Схаваць пароль з экрана.
-input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -224,7 +220,10 @@ reset-pwd-link-damaged-header = Спасылка для скіду пароля 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Спасылка для пацвярджэння пашкоджана
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Спасылка пашкоджана
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
 
 ## LinkExpired component
@@ -239,17 +238,12 @@ reset-pwd-resend-link = Атрымаць новую спасылку
 reset-pwd-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
 reset-pwd-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Тэрмін дзеяння спасылкі для пацвярджэння скончыўся
-signin-link-expired-message = Спасылка, па якой вы прайшлі для пацвярджэння электроннай пошты, пратэрмінаваная.
-
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Памятаеце свой пароль? Увайсці
+# immediately before remember-password-signin-link
+remember-password-text = Памятаеце пароль?
+# link navigates to the sign in page
+remember-password-signin-link = Увайсці
 
 ## LinkUsed component
 
@@ -258,6 +252,8 @@ primary-email-confirmation-link-reused = Асноўны адрас электр�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Уваход у сістэму ўжо пацверджаны
 confirmation-link-reused-message = Гэта спасылка для пацвярджэння ўжо была выкарыстана, і можа выкарыстоўвацца толькі адзін раз.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Дрэнны запыт
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -307,11 +303,9 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = Меню прадуктаў { -brand-firefox }
-bento-menu-firefox-title = { -brand-firefox } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
-bento-menu-mozilla-title = { -brand-mozilla } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
+bento-menu-title-3 = Прадукты { -brand-mozilla }
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Браўзер { -brand-firefox } для камп'ютара
@@ -378,19 +372,8 @@ cs-disconnect-sync-opt-not-say = Не хачу ўказваць
 
 cs-disconnect-advice-confirm = Зразумела
 cs-disconnect-lost-advice-heading = Згубленая або скрадзеная прылада адлучана
-cs-disconnect-lost-advice-content-2 =
-    Паколькі ваша прылада была страчана або скрадзена,
-    для захавання вашай інфармацыі ў бяспецы, вам варта змяніць пароль свайго { -product-firefox-account(case: "singular_genitive") }
-    у наладах. Вам таксама варта азнаёміцца з парадамі вытворцы
-    сваёй прылады па аддаленым выдаленні даных.
 cs-disconnect-lost-advice-content-3 = Паколькі ваша прылада была страчана або скрадзена, для захавання вашай інфармацыі ў бяспецы, вам варта змяніць пароль свайго { -product-mozilla-account } у наладах. Вам таксама варта азнаёміцца з парадамі вытворцы сваёй прылады па аддаленым выдаленні дадзеных.
 cs-disconnect-suspicious-advice-heading = Падазроная прылада адлучана
-cs-disconnect-suspicious-advice-content =
-    Калі адлучаная прылада сапраўды падазроная, 
-    вам варта змяніць пароль { -product-firefox-account }
-    у наладах уліковага запісу, каб захаваць вашу інфармацыю ў бяспецы.
-    Вам таксама варта змяніць любыя іншыя паролі,
-    якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
 cs-disconnect-suspicious-advice-content-2 =
     Калі адлучаная прылада сапраўды падазроная, вам варта змяніць пароль { -product-mozilla-account }
     у наладах уліковага запісу, каб захаваць вашу інфармацыю ў бяспецы. Вам таксама варта змяніць любыя іншыя паролі, якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
@@ -402,20 +385,15 @@ cs-sign-out-button = Выйсці
 ## Data collection section
 
 dc-heading = Збор і выкарыстанне дадзеных
-dc-subheader = Дапамажыце ўдасканаліць { -product-firefox-accounts }
 dc-subheader-2 = Дапамажыце ўдасканаліць { -product-mozilla-accounts }
-dc-subheader-content = Дазволіць { -product-firefox-accounts } адпраўляць тэхнічныя даныя і інфармацыя аб узаемадзеянні { -brand-mozilla }.
 dc-subheader-content-2 = Дазволіць { -product-mozilla-accounts } адпраўляць тэхнічныя дадзеныя і інфармацыю аб узаемадзеянні ў { -brand-mozilla }.
-dc-opt-out-success = Адмова пацверджана. { -product-firefox-accounts } не будзе адпраўляць тэхнічныя даныя або звесткі аб ўзаемадзеянні ў { -brand-mozilla }.
 dc-opt-out-success-2 = Адмова пацверджана. { -product-mozilla-accounts } не будзе адпраўляць тэхнічныя дадзеныя або звесткі аб ўзаемадзеянні ў { -brand-mozilla }.
-dc-opt-in-success = Дзякуй! Адпраўка гэтых даных дапаможа нам палепшыць { -product-firefox-accounts }.
 dc-opt-in-success-2 = Дзякуй! Адпраўка гэтых дадзеных дапаможа нам палепшыць { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = На жаль, пры змене параметраў збору дадзеных ўзнікла праблема
 dc-learn-more = Падрабязней
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Меню { -product-firefox-account }
 drop-down-menu-title-2 = Меню { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -504,7 +482,6 @@ header-menu-open = Закрыць меню
 header-menu-closed = Меню навігацыі па сайце
 header-back-to-top-link =
     .title = Вярнуцца ўгару
-header-title = { -product-firefox-accounts }
 header-title-2 = { -product-mozilla-account }
 header-help = Даведка
 
@@ -632,15 +609,13 @@ delete-account-header =
     .title = Выдаліць уліковы запіс
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
-delete-account-confirm-title-3 = Магчыма, вы падключылі свой { -product-firefox-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
 delete-account-confirm-title-4 = Магчыма, вы падключылі свой { -product-mozilla-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Сінхранізуюцца звесткі { -brand-firefox }
 delete-account-product-firefox-addons = Дадаткі { -brand-firefox }
@@ -945,17 +920,9 @@ tfa-row-change-modal-explain = Вы не зможаце адмяніць гэт�
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = Працягваючы, вы згаджаецеся:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Працягваючы, вы згаджаецеся з:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Умовы выкарыстання</pocketTos> і <pocketPrivacy>Паведамленне аб прыватнасці</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Умовы выкарыстання</pocketTos> і <pocketPrivacy>Паведамленне аб прыватнасці</pocketPrivacy> { -product-pocket }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Умовы выкарыстання</firefoxTos> і <firefoxPrivacy>Паведамленне аб прыватнасці</firefoxPrivacy> { -brand-firefox }
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Працягваючы, вы згаджаецеся з <firefoxTos>умовамі абслугоўвання</firefoxTos> і <firefoxPrivacy>паведамленнем аб прыватнасці</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -966,6 +933,10 @@ terms-privacy-agreement-default = Працягваючы, вы згаджаец�
 third-party-auth-options-or = Або
 continue-with-google-button = Працягнуць з { -brand-google }
 continue-with-apple-button = Працягнуць з { -brand-apple }
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -996,7 +967,6 @@ auth-error-1011 = Патрэбен сапраўдны адрас электро�
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Не ўдаецца стварыць уліковы запіс
-cannot-create-account-requirements = Вы мусіце адпавядаць пэўным патрабаванням па ўзросце, каб стварыць { -product-firefox-account }.
 cannot-create-account-requirements-2 = Вы мусіце адпавядаць пэўным патрабаванням па ўзросце, каб стварыць { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Падрабязней
@@ -1032,7 +1002,6 @@ connect-another-device-ios-complete-setup-message = Увайдзіце ў { -bra
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Лакальнае сховішча і кукі абавязковыя
-cookies-disabled-enable-prompt = Калі ласка, уключыце кукі і лакальнае сховішча ў вашым браўзеры для доступу да { -product-firefox-accounts }. Гэта дасць магчымасць помніць вас паміж сеансамі.
 cookies-disabled-enable-prompt-2 = Калі ласка, уключыце кукі і лакальнае сховішча ў вашым браўзеры для доступу да свайго { -product-mozilla-account }. Гэта дасць магчымасць помніць вас паміж сеансамі.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Паспрабаваць зноў
@@ -1233,7 +1202,6 @@ account-recovery-confirm-key-heading-w-default-service = Скіньце паро
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу, <span>каб перайсці да { $serviceName }</span>
-account-recovery-confirm-key-instructions = Калі ласка, увядзіце аднаразовы ключ аднаўлення ўліковага запісу, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да свайго { -product-firefox-account }.
 account-recovery-confirm-key-instructions-2 = Калі ласка, увядзіце аднаразовы ключ аднаўлення ўліковага запісу, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да свайго { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Заўвага:</span> Калі вы скінеце пароль, але не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер звесткі, такія як гісторыя і закладкі).
 # Prompts the user to enter their account recovery code
@@ -1298,23 +1266,35 @@ reset-password-with-recovery-key-verified-page-title = Пароль паспях
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
 
+## Confirm Reset Password With Code
+
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Працягнуць
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Паўторна адправіць код
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Выкарыстаць іншы уліковы запіс
+
+## ResetPassword start page
+
+password-reset-flow-heading = Скінуць пароль
+password-reset-email-input =
+    .label = Увядзіце сваю электронную пошту
+
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Памылка:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Праверка ўваходу…
-
-## ConfirmSignin component
-
-confirm-signin-header = Пацвердзіце гэты ўваход
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Пашукайце ў сваёй пошце спасылку для пацверджання ўваходу, дасланую на { $email }
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Памылка пацверджання
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Тэрмін дзеяння спасылкі для пацвярджэння скончыўся
 
 ## Signin page
 
-# Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Увядзіце пароль <span>для свайго { -product-firefox-account }</span>
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Увядзіце пароль <span>для свайго { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
@@ -1328,6 +1308,12 @@ signin-button = Увайсці
 signin-header = Увайсці
 signin-use-a-different-account-link = Выкарыстаць іншы уліковы запіс
 signin-forgot-password-link = Забылі пароль?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = Прабачце. Мы заблакавалі ваш уліковы запіс.
 # $email (string) - The user's email.
 signin-bounced-message = Электронны ліст з пацвярджэннем, які мы адправілі на { $email }, быў вернуты, і мы заблакавалі ўліковы запіс, каб абараніць вашы звесткі { -brand-firefox }.
@@ -1370,10 +1356,6 @@ signin-reported-message = Наша каманда апавешчана. Такі
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Увядзіце код пацверджання <span>для свайго { -product-firefox-account }</span>
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Увядзіце код пацверджання <span>для свайго { -product-mozilla-account }</span>
@@ -1408,13 +1390,15 @@ signin-totp-code-recovery-code-link = Праблема з уводам кода?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Патрабуецца код аўтэнтыфікацыі
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Пацвердзіце свой уліковы запіс
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Пашукайце ў сваёй пошце спасылку для пацвярджэння, дасланую на { $email }
+signin-unblock-code-input = Увядзіце код аўтарызацыі
+signin-unblock-submit-button = Працягнуць
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Патрэбен код аўтарызацыі
+signin-unblock-resend-code-button = Няма ў уваходных ці ў спаме? Выслаць яшчэ раз
+signin-unblock-support-link = Чаму гэта адбываецца?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1424,10 +1408,6 @@ confirm-signup-instruction = Пашукайце ў сваёй пошце спа
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Увядзіце код пацвярджэння
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Увядзіце код пацвярджэння <span>для свайго { -product-firefox-account }</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -1456,8 +1436,6 @@ signup-change-email-link = Змяніць адрас электроннай по
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Колькі вам гадоў?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Вы мусіце ўказаць свой узрост, каб зарэгістравацца
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Чаму мы пытаем?

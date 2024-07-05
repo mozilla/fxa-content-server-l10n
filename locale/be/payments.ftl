@@ -3,41 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-# TODO - Remove once branding sticks
-project-brand = Уліковыя запісы Firefox
-# Mozilla account settings header title, appears at top of settings page next to Mozilla "m" logo
-settings-project-header-title = { -product-mozilla-account }
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Галоўная старонка ўліковага запісу
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -61,14 +30,10 @@ input-error-is-required = { $label } абавязковае
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Лагатып { -brand-name-firefox }
 brand-name-mozilla-logo = Лагатып { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = У вас ужо ёсць уліковы запіс { -brand-name-firefox }? <a>Увайсці</a>
 new-user-sign-in-link-2 = Ужо маеце { -product-mozilla-account }? <a>Увайсці</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -139,8 +104,6 @@ payment-confirmation-download-button = Працягнуць сцягванне
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Я дазваляю { -brand-name-mozilla }, вытворцу прадуктаў { -brand-name-firefox } збіраць з майго метаду аплаты паказаную суму ў адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
-payment-confirm-with-legal-links-static-2 = Я дазваляю { -brand-name-mozilla }, збіраць з майго метаду аплаты паказаную суму ў адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
 payment-confirm-checkbox-error = Вам трэба завяршыць гэта, перш чым рухацца далей
 
 ## Component - PaymentErrorView
@@ -150,8 +113,6 @@ payment-error-manage-subscription-button = Кіраваць маёй падпі�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = У вас ужо ёсць падпіска на { $productName } праз краму { -brand-name-google } або { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Мы не падтрымліваем абнаўленні для гэтых падпісак, але ў бліжэйшы час будзем.
 iap-upgrade-contact-support = Вы ўсё яшчэ можаце атрымаць гэты прадукт — звярніцеся ў службу падтрымкі, каб мы маглі вам дапамагчы.
 iap-upgrade-get-help-button = Атрымаць дапамогу
@@ -166,16 +127,11 @@ payment-cc =
 payment-cancel-btn = Скасаваць
 payment-update-btn = Абнавіць
 payment-pay-btn = Аплаціць зараз
-payment-pay-with-paypal-btn = Аплаціць праз { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Аплаціць праз { -brand-paypal }
 payment-validate-name-error = Увядзіце, калі ласка, ваша імя
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } выкарыстоўвае { -brand-name-stripe } і { -brand-name-paypal } для бяспечнай апрацоўкі плацяжоў.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Палітыка прыватнасці { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Палітыка прыватнасці { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } выкарыстоўвае { -brand-name-paypal } для бяспечнай апрацоўкі плацяжоў.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } палітыка прыватнасці</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } выкарыстоўвае { -brand-name-stripe } для бяспечнай апрацоўкі плацяжоў.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } палітыка прыватнасці</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -195,7 +151,6 @@ payment-confirmation-cc-card-ending-in = Карта, нумар якой зак�
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Аплаціць праз { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -448,8 +403,6 @@ coupon-success-repeating = Ваш план будзе аўтаматычна п�
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Стварыце ўліковы запіс { -brand-name-firefox }
 new-user-step-1-2 = 1. Стварыце { -product-mozilla-account }
 new-user-card-title = Увядзіце даныя вашай карты
 new-user-submit = Падпісацца зараз
@@ -472,9 +425,6 @@ subscription-iaperrorupgrade-title = Мы пакуль не можам абна�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -528,7 +478,6 @@ sub-route-idx-cancel-msg =
     Ваша падпіска на { $name } была скасавана.
           <br />
           У вас па-ранейшаму будзе доступ да { $name } да { $date }.
-sub-route-idx-cancel-aside = Ёсць пытанні? Наведайце <a>{ -brand-name-mozilla } службу падтрымкі</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -551,8 +500,6 @@ pay-update-manage-btn = Кіраваць
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Наступная аплата { $date }
-sub-next-bill-no-tax = Ваш наступны рахунак на суму <strong>{ $priceAmount }</strong> павінен быць аплачаны да <strong>{ $date }</strong>
-sub-next-bill-tax = Ваш наступны рахунак на суму <strong>{ $priceAmount } + падатак { $taxAmount }</strong> павінен быць аплачаны да <strong>{ $date }</strong>
 sub-expires-on = Дзейнічае да { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -563,7 +510,6 @@ sub-expires-on = Дзейнічае да { $date }
 pay-update-card-exp = Заканчваецца { $expirationDate }
 sub-route-idx-updating = Абнаўленне плацежнай інфармацыі
 sub-route-payment-modal-heading = Няправільная плацежная інфармацыя
-sub-route-payment-modal-message = Здаецца, узнікла памылка з вашым уліковым запісам { -brand-name-paypal } . Вам неабходна прыняць пэўныя меры, каб вырашыць праблему з аплатай.
 sub-route-missing-billing-agreement-payment-alert = Недапушчальная плацежная інфармацыя; узнікла памылка з вашым уліковым запісам. <div>Кіраваць</div>
 sub-route-funding-source-payment-alert = Недапушчальная плацежная інфармацыя; узнікла памылка з вашым уліковым запісам. Гэта папярэджанне можа адлюстроўвацца цягам пэўнага часу пасля паспяховага абнаўлення вамі сваёй інфармацыі. <div>Кіраваць</div>
 
@@ -577,7 +523,6 @@ sub-invoice-preview-error-text = Папярэдні прагляд рахунк�
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Шукаеце сваю прэміум-падпіску на { -brand-name-pocket }?
 manage-pocket-body-2 = Каб кіраваць ім, <linkExternal>націсніце тут</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -608,6 +553,4 @@ reactivate-success-button = Закрыць
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Купля з праграмы
-sub-iap-item-apple-purchase = { -brand-name-apple }: Купля з праграмы
 sub-iap-item-manage-button = Кіраваць
