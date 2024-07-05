@@ -512,7 +512,7 @@ sub-item-cancel-confirm =
 # Holiday Offer 2023 coupon applied: $11.20 monthly
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
-sub-promo-coupon-applied = Uporabljen kupon za { $promotion_name }: <priceDetails></priceDetails>
+sub-promo-coupon-applied = Unovčen kupon { $promotion_name }: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
