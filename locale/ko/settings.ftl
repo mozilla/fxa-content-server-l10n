@@ -19,6 +19,10 @@ link-expired-resent-code-error-message = 문제가 발생했습니다. 새 코�
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = 배너 닫기
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts }는 11월 1일에 { -product-mozilla-accounts }로 이름이 변경됩니다.
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -28,6 +32,12 @@ brand-prelaunch-subtitle = 동일한 사용자 이름과 비밀번호로 계속 
 brand-postlaunch-title = { -product-firefox-accounts }의 이름을 { -product-mozilla-accounts }으로 변경했습니다. 동일한 사용자 이름과 비밀번호로 계속 로그인할 수 있으며, 사용하는 제품에는 다른 변경 사항이 없습니다.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = 더 알아보기
+# Alt text for close banner image
+brand-close-banner =
+    .alt = 배너 닫기
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m 로고
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -38,6 +48,23 @@ brand-learn-more = 더 알아보기
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = 다운로드 및 계속
     .title = 다운로드 및 계속
+recovery-key-pdf-heading = 계정 복구 키
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = 생성됨: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = 계정 복구 키
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = 이 키를 사용하면 비밀번호를 잊어버렸을 때 암호화된 브라우저 데이터(비밀번호, 북마크 및 기록 포함)를 복구할 수 있습니다. 기억할 수 있는 곳에 보관하세요.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = 키를 저장할 장소
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = 계정 복구 키에 대해 더 알아보기
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = 죄송합니다. 계정 복구 키를 다운로드하는 중 문제가 발생했습니다.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -61,12 +88,16 @@ choose-what-to-sync-option-prefs =
     .label = 설정
 choose-what-to-sync-option-addresses =
     .label = 주소
-choose-what-to-sync-option-creditcards =
-    .label = 신용카드
+choose-what-to-sync-option-paymentmethods =
+    .label = 결제 방법
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = 받은편지함이나 스팸 폴더에 없나요? 다시 보내기
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = 뒤로
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -81,6 +112,26 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (추정)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (추정)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (추정)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (추정)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = 알 수 없는 위치
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName }의 { $browserName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP 주소: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
@@ -95,6 +146,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = 비밀번호 재입력
 form-reset-password-with-balloon-submit-button = 비밀번호 재설정
 form-reset-password-with-balloon-match-error = 비밀번호가 일치하지 않습니다
+form-password-sr-too-short-message = 비밀번호는 적어도 8자 이상 되어야 합니다.
+form-password-sr-not-email-message = 비밀번호에 이메일 주소가 포함되어서는 안 됩니다.
+form-password-sr-not-common-message = 비밀번호는 너무 일반적인 비밀번호가 아니어야 합니다.
+form-password-sr-requirements-met = 입력한 비밀번호는 모든 요건을 충족합니다.
+form-password-sr-passwords-match = 입력한 비밀번호가 일치합니다.
 
 ## FormVerifyCode
 
@@ -116,10 +172,10 @@ signin-totp-code-image-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = 비밀번호 숨기기
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = 비밀번호 표시
-input-password-hide-aria = 화면에서 비밀번호 숨기기
-input-password-show-aria = 비밀번호를 일반 텍스트로 표시합니다. 비밀번호가 화면에 표시됩니다.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 뒤로
 
@@ -132,17 +188,8 @@ legal-back-button = 뒤로
 ## LinkExpiredResetPassword component
 
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = 인증 링크가 만료됨
-signin-link-expired-message = 클릭하신 이메일 인증 링크가 만료되었습니다.
-
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = 비밀번호를 기억하시나요? 로그인하세요
 
 ## LinkUsed component
 
@@ -196,7 +243,6 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = 데스크톱 용 { -brand-firefox } 브라우저
@@ -707,6 +753,10 @@ tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 알 수 없는 계정
@@ -821,16 +871,27 @@ cookies-disabled-learn-more = 더 알아보기
 ## ResetPassword page
 
 
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
+
 ## CompleteSignin component
 
-
-## ConfirmSignin component
-
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = 인증 링크가 만료됨
 
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비밀번호를 입력하세요
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -851,9 +912,8 @@ signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비�
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page

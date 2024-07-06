@@ -258,6 +258,7 @@ sub-update-total-label = 총
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-weekly = { $productName }(매주)
 
 ##
 
