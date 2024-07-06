@@ -9,6 +9,8 @@ settings-home = 계정 홈
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = 프로모션 코드 적용됨
 coupon-submit = 적용
 coupon-remove = 삭제
 coupon-error = 입력한 코드는 유효하지 않거나 만료되었습니다.
@@ -27,13 +29,10 @@ input-error-is-required = { $label }이(가) 필요합니다
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } 로고
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = 이미 { -brand-name-firefox } 계정을 갖고 계신가요? <a>로그인</a>
+new-user-sign-in-link-2 = 이미 { -product-mozilla-account }를 갖고 계신가요? <a>로그인</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -41,6 +40,7 @@ new-user-enter-email =
     .label = 이메일 입력
 new-user-confirm-email =
     .label = 이메일 확인
+new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 제품 뉴스와 최신정보를 받습니다.
 new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
 new-user-email-validate = 유효하지 않은 이메일
 new-user-email-validate-confirm = 이메일이 맞지 않습니다.
@@ -110,6 +110,7 @@ payment-cc =
 payment-cancel-btn = 취소
 payment-update-btn = 업데이트
 payment-pay-btn = 지금 지불
+payment-pay-with-paypal-btn-2 = { -brand-paypal }로 결제
 payment-validate-name-error = 이름을 입력하세요
 
 ## Component - PaymentLegalBlurb
@@ -176,6 +177,8 @@ document =
 close-aria =
     .aria-label = 모달 닫기
 settings-subscriptions-title = 구독 정보
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = 프로모션 코드
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -222,8 +225,6 @@ coupon-success-repeating = 요금제는 { $couponDurationDate } 이후 정가로
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = { -brand-name-firefox } 계정을 만들어 보세요.
 new-user-card-title = 카드 정보를 입력하세요.
 new-user-submit = 지금 구독하기
 
