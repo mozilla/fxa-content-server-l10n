@@ -161,14 +161,43 @@ form-verify-code-default-error = 필수 항목입니다
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 계정 복구 키
+get-data-trio-title-backup-verification-codes = 백업 인증 코드
+get-data-trio-download-2 =
+    .title = 다운로드
+    .aria-label = 다운로드
+get-data-trio-copy-2 =
+    .title = 복사
+    .aria-label = 복사
+get-data-trio-print-2 =
+    .title = 인쇄
+    .aria-label = 인쇄
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = 각각 깨진 하트가 그려진 컴퓨터와 휴대폰
+hearts-verified-image-aria-label =
+    .aria-label = 각각 두근거리는 심장이 그려진 컴퓨터, 휴대폰과 태블릿
 signin-recovery-code-image-description =
     .aria-label = 숨겨진 텍스트가 포함된 문서입니다.
 signin-totp-code-image-label =
     .aria-label = 6자리 코드가 숨겨져 있는 기기입니다.
+confirm-signup-aria-label =
+    .aria-label = 링크가 담긴 봉투
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = 계정 복구 키를 나타내는 그림입니다.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = 계정 복구 키를 나타내는 그림입니다.
+lock-image-aria-label =
+    .aria-label = 자물쇠 그림
+lightbulb-aria-label =
+    .aria-label = 저장소 힌트 생성을 표현한 그림입니다.
+email-code-image-aria-label =
+    .aria-label = 코드가 포함된 이메일을 나타내는 그림입니다.
 
 ## Input Password
 
@@ -243,6 +272,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = 데스크톱 용 { -brand-firefox } 브라우저
@@ -385,6 +415,8 @@ flow-recovery-key-hint-unsafe-char-error = 힌트에는 안전하지 않은 유�
 flow-recovery-key-info-header = 비밀번호를 잊어버린 경우를 대비해 계정 복구 키 만들기
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = 계정 복구 키 변경
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = 취소
 
 ## HeaderLockup component, the header in account settings
 
@@ -392,6 +424,7 @@ header-menu-open = 메뉴 닫기
 header-menu-closed = 사이트 탐색 메뉴
 header-back-to-top-link =
     .title = 맨 위로
+header-title-2 = { -product-mozilla-account }
 header-help = 도움말
 
 ## Linked Accounts section
@@ -508,6 +541,8 @@ delete-account-header =
     .title = 계정 삭제
 delete-account-step-1-2 = 1/2 단계
 delete-account-step-2-2 = 2/2 단계
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-acknowledge = 계정 삭제 전 다음 사항에 유의하세요.
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 제품에 포함된 저장 정보와 기능을 잃을 수 있습니다.
