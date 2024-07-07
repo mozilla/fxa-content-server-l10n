@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2024-07-07 22:19+0000\n"
+"PO-Revision-Date: 2024-07-07 22:21+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -2098,7 +2098,7 @@ msgstr "Προσοχή:"
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Κάντε εναλλαγή στο Firefox και ανοίξτε αυτήν τη σελίδα για να συνδέσετε μια άλλη συσκευή."
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Download Firefox"
