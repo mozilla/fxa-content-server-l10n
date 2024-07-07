@@ -585,6 +585,8 @@ verifyLoginCode-subject-line-2 = Godkjenn innlogging på { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Logga du inn på { $serviceName }
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Hjelp oss med å halde kontoen din trygg ved å godkjenne innlogginga di på:
 verifyLoginCode-prompt-3 = Om ja, her er godkjenningskoden din:
 verifyLoginCode-expiry-notice = Den går ut om 5 minutt.
 verifyPrimary-title-2 = Stadfest primær e-postadresse
@@ -600,6 +602,7 @@ verifySecondaryCode-action-2 = Stadfest e-postadressa
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Ein førespurnad om å bruke { $email } som ei sekundær e-postadresse er gjort frå følgjande { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Bruk denne stadfestingskoden:
+verifySecondaryCode-expiry-notice-2 = Den går ut om 5 minutt. Når den er bekrefta, vil denne adressa få tryggingsvarsel og stadfestingar.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Stadfest kontoen din
