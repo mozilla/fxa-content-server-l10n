@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2024-07-07 02:10+0000\n"
+"PO-Revision-Date: 2024-07-07 02:14+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1069,7 +1069,7 @@ msgstr "E-postadresse stadfesta"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
 msgid "Devices with hearts on their screens"
-msgstr ""
+msgstr "Einingar med hjarte på skjermen"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
@@ -1810,7 +1810,7 @@ msgstr "<span class=\"number\">4</span>Logg inn på kontoen din"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Kvifor må eg opprette denne kontoen? <a %(escapedSuggestionAttrs)s>Finn det ut her</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
