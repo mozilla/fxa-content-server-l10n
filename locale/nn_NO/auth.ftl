@@ -515,6 +515,8 @@ subscriptionRenewalReminder-content-closing = Vennleg helsing,
 subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
 subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementa dine har gått ut eller går snart ut
 subscriptionsPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er i ferd med å gå ut
+subscriptionsPaymentExpired-content-1 = Betalingskortet du brukar for å utføre betalingar for følgjande abonnement har gått ut, eller er i ferd med å gå ut.
+subscriptionsPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon er påkravd for { -brand-mozilla }-abonnementa
 subscriptionsPaymentProviderCancelled-title = Beklagar, vi har problem med betalingsmetoden din
 subscriptionsPaymentProviderCancelled-content-detected = Vi har oppdaga eit problem med betalingsmåten din for følgjande abonnement.
 subscriptionsPaymentProviderCancelled-content-payment = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
@@ -523,12 +525,19 @@ subscriptionsPaymentProviderCancelled-content-payment = Det kan vere at betaling
 subscriptionSubsequentInvoice-subject = Betaling motteken for { $productName }
 subscriptionSubsequentInvoice-title = Takk for at du abonnerer!
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Vi har fått den siste betalinga di for { $productName }.
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har oppgradert til { $productName }
 subscriptionUpgrade-title = Takk for at du oppgraderer!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Du har oppgradert frå { $productNameOld } til %(productNameNew)s.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Om det finst ny programvare for deg å installere for å bruke { $productName }, vil du få ei eiga e-postmelding med nedlastingsinstruksjonar.
@@ -567,6 +576,7 @@ verify-action-2 = Stadfest kontoen
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Logga du inn på { $clientName }?
+verifyLogin-description-2 = Hjelp oss med å halde kontoen din trygg ved å stadfeste att du har logga inn på:
 verifyLogin-subject-2 = Stadfest innlogging
 verifyLogin-action = Stadfest innlogging
 # Variables:
