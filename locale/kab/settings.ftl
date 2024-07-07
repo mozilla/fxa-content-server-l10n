@@ -28,10 +28,15 @@ brand-close-banner =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Awi ugar seg { -brand-mozilla }:
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Fren ayen ara temtawiḍ
 choose-what-to-sync-option-bookmarks =
     .label = Ticraḍ n isebtar
 choose-what-to-sync-option-history =
@@ -47,6 +52,8 @@ choose-what-to-sync-option-prefs =
     .label = Ismenyifen
 choose-what-to-sync-option-addresses =
     .label = Tansiwin
+choose-what-to-sync-option-paymentmethods =
+    .label = Tarrayin n uxelleṣ
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -113,6 +120,7 @@ form-verify-code-default-error = Urti-a yettwasra
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Tasarut n tririt n umiḍan n { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Tingalin n usesteb n uḥraz
 get-data-trio-download-2 =
     .title = Sader
     .aria-label = Sader
@@ -144,6 +152,9 @@ reset-pwd-link-damaged-header = Wennez aseɣwen n wawal uffir ixeṣṛen
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Aseɣwen n usentem yerreẓ
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Aseɣwen yexṣeṛ
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen.
 
@@ -161,6 +172,8 @@ reset-pwd-link-expired-message = Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ aw
 
 ## LinkRememberPassword component
 
+# link navigates to the sign in page
+remember-password-signin-link = Kcem
 
 ## LinkUsed component
 
@@ -169,6 +182,8 @@ primary-email-confirmation-link-reused = Imayl amezwaru ittwasentem yakan
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tuqqna tettwasentem yakan
 confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Yir tuttra
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -693,6 +708,10 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Amiḍan arussin
@@ -890,6 +909,12 @@ reset-password-button = Bdu awennez
 reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
 reset-password-with-recovery-key-verified-generate-new-key = Sirew tasarut n tririt n umiḍan tamaynut
 reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umiḍan-iw
+
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
 
 ## CompleteSignin component
 
