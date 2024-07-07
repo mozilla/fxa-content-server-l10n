@@ -13,6 +13,8 @@ banner-dismiss-button =
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-post sendt på nytt. Legg til { $accountsEmail } i kontaktane dine for å sikre problemfri levering.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Noko gjekk gale. Klarte ikkje å sende ein ny kode.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -50,6 +52,13 @@ recovery-key-pdf-heading = Kontogjenopprettingsnøkkel
 recovery-key-pdf-download-date = Generert: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Kontogjenopprettingsnøkkel
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Plassar å lagre nøkkelen din
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Les meir om kontogjenopprettingsnøkkelen din
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Klarte ikkje å laste ned kontogjenopprettingsnøkkelen din.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
