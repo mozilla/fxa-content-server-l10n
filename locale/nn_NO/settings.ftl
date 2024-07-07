@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Lat att
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-post sendt på nytt. Legg til { $accountsEmail } i kontaktane dine for å sikre problemfri levering.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
