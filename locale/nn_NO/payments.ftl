@@ -42,6 +42,7 @@ new-user-enter-email =
     .label = Skriv inn e-postadressa di
 new-user-confirm-email =
     .label = Stadfest e-postadressa di
+new-user-subscribe-product-updates-mozilla = Eg vil gjerne få produktnyheiter og oppdateringar frå { -brand-mozilla }
 new-user-email-validate = E-postadressa er ikkje gyldig
 new-user-email-validate-confirm = E-postadressene matchar ikkje
 new-user-already-has-account-sign-in = Du har allereie ein konto. <a>Logg inn</a>
@@ -519,4 +520,5 @@ reactivate-success-button = Lat att
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Kjøp i appen
 sub-iap-item-manage-button = Handsam
