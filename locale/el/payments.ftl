@@ -30,14 +30,10 @@ input-error-is-required = Απαιτείται το { $label }
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Λογότυπο { -brand-name-firefox }
 brand-name-mozilla-logo = Λογότυπο { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Έχετε ήδη έναν λογαριασμό { -brand-name-firefox }; <a>Σύνδεση</a>
 new-user-sign-in-link-2 = Διαθέτετε ήδη { -product-mozilla-account(case: "acc", capitalization: "lower") }; <a>Συνδεθείτε</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθε�
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Δημιουργήστε έναν λογαριασμό { -brand-name-firefox }
 new-user-step-1-2 = 1. Δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
 new-user-submit = Συνδρομή τώρα
@@ -456,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Ακύρωση πρόσβασης και αποθηκευμένων πληροφοριών στο
     { $name } στις { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Εφαρμόστηκε το κουπόνι «{ $promotion_name }»: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +498,8 @@ pay-update-manage-btn = Διαχείριση
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Επόμενη χρέωση στις { $date }
-sub-next-bill-no-tax = Ο επόμενός σας λογαριασμός των <strong>{ $priceAmount }</strong> λήγει στις <strong>{ $date }</strong>
-sub-next-bill-tax = Ο επόμενός σας λογαριασμός των <strong>{ $priceAmount } + φόρος { $taxAmount }</strong> λήγει στις <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Ο επόμενος λογαριασμός των { $priceAmount } λήγει στις { $date }
+sub-next-bill-tax-1 = Ο επόμενος λογαριασμός των { $priceAmount } + { $taxAmount } φόρος λήγει στις { $date }
 sub-expires-on = Λήγει στις { $date }
 
 ## Routes - Subscription - PaymentUpdate
