@@ -182,6 +182,8 @@ signin-recovery-code-image-description =
     .aria-label = Dokument som inneheld skjult tekst.
 signin-totp-code-image-label =
     .aria-label = Ei eining med ein skjult 6-sifra kode.
+confirm-signup-aria-label =
+    .aria-label = Ei melding med ei lenke
 # Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
@@ -198,6 +200,8 @@ lock-image-aria-label =
 input-password-hide = Gøym passord
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Vis passord
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Passordet ditt er no synleg på skjermen.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbake
 
@@ -1210,6 +1214,8 @@ signin-totp-code-required-error = Godkjenningskode påkravd
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Godkjenn denne innlogginga
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Sjekk e-posten din for godkjenningskoden sendt til { $email }.
 signin-unblock-code-input = Skriv inn godkjenningskode
 signin-unblock-submit-button = Hald fram
 # Shown when the user attempts to submit the form without including a code

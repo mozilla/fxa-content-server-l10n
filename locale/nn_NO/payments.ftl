@@ -15,7 +15,9 @@ coupon-promo-code-applied = Kampanjekode brukt
 coupon-submit = Bruk
 coupon-remove = Fjern
 coupon-error = Koden du skreiv inn er ugyldig eller utgått.
+coupon-error-generic = Det oppstod ein feil under handsaming av koden. Prøv på nytt.
 coupon-error-expired = Koden du skreiv inn har gått ut.
+coupon-error-limit-reached = Koden du skreiv inn har nådd grensa si.
 coupon-error-invalid = Koden du skreiv inn er ugyldig.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
@@ -472,6 +474,8 @@ pay-update-manage-btn = Handsam
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Neste fakturering den { $date }
+sub-next-bill-no-tax-1 = Neste rekning på{ $priceAmount } forfell { $date }
+sub-next-bill-tax-1 = Neste rekning på { $priceAmount } + { $taxAmount } forfell { $date }
 sub-expires-on = Går ut { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -492,6 +496,8 @@ sub-invoice-preview-error-title = Fann ikkje førehandsvising av faktura
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Ser du etter premium-abonnement ditt på { -product-pocket }?
+manage-pocket-body-2 = For å handsame det, <linkExternal>trykk her</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
