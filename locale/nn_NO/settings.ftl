@@ -153,6 +153,7 @@ form-reset-password-with-balloon-submit-button = Tilbakestill passordet
 form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 form-password-sr-too-short-message = Passord må innehalde minst 8 teikn.
 form-password-sr-not-email-message = Passord kan ikkje innehalde e-postadressa di.
+form-password-sr-passwords-match = Innskrive passord samsvarar.
 
 ## FormVerifyCode
 
@@ -918,6 +919,8 @@ inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver toste
 inline-totp-setup-ready-button = Klar
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = godkjenningskode
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Godkjenningskode påkravd
 tfa-qr-code-alt = Bruk koden { $code } or å stille inn tostegs-godkjenning i stødde appar.
 
 ## Legal page. This page contains simply a header and links to pages that display
@@ -1075,6 +1078,12 @@ reset-password-with-recovery-key-verified-continue-to-account = Hald fram til ko
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Sjekk e-posten din
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Vi har sendt ein stadfestingskode til <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Skriv inn 8-sifra kode innan 10 minutt
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Hald fram
@@ -1101,9 +1110,12 @@ validating-signin = Validerer innlogging…
 complete-signin-error-header = Stadfestingsfeil
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Stadfestingslenka har gått ut
+signin-link-expired-message-2 = Lenka du klikka på har gått ut, eller er allereie brukt.
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Skriv inn passordet ditt <span>for { -product-mozilla-account }en din</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
@@ -1139,6 +1151,7 @@ back = Tilbake
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-recovery-code-heading-w-default-service = Skriv inn godkjenningskode <span>for å halde fram til kontoinnstillingar</span>
+signin-recovery-code-input-label = Skriv inn ein 10-sifra reserve-godkjenningskode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Stadfest
 # Link to return to signin with two-step authentication code
@@ -1158,6 +1171,10 @@ signin-reported-message = Teamet vårt er varsla. Rapportar som denne hjelper os
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Skriv inn stadfestingskode<span> for { -product-mozilla-account }en din</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Skriv inn koden som vart sendt til { $email } innan 5 minutt.
 signin-token-code-input-label-v2 = Skriv inn 6-sifra kode
@@ -1180,6 +1197,7 @@ signin-totp-code-heading-w-default-service-v2 = Skriv inn godkjenningskoden <spa
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Skriv inn godkjenningskode <span>for å halde fram til { $serviceName }</span>
+signin-totp-code-instruction-v2 = Opne autentiseringsappen din og skriv inn godkjenningskoden du får opp.
 signin-totp-code-input-label-v2 = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
@@ -1196,6 +1214,7 @@ signin-unblock-code-input = Skriv inn godkjenningskode
 signin-unblock-submit-button = Hald fram
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Godkjenningskode påkravd
+signin-unblock-code-incorrect-length = Godkjenningskoden må innehalde 8 teikn
 signin-unblock-support-link = Kvifor skjer dette?
 
 ## ConfirmSignupCode page
