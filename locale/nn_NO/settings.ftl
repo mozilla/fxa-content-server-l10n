@@ -151,6 +151,8 @@ form-reset-password-with-balloon-confirm-password =
     .label = Gjenta passord
 form-reset-password-with-balloon-submit-button = Tilbakestill passordet
 form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
+form-password-sr-too-short-message = Passord må innehalde minst 8 teikn.
+form-password-sr-not-email-message = Passord kan ikkje innehalde e-postadressa di.
 
 ## FormVerifyCode
 
@@ -809,6 +811,10 @@ continue-with-apple-button = Hald fram med { -brand-apple }
 ## TotpInputGroup component
 ## This component is composed of 6 or 8 single digit inputs for verification codes
 
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Siffer { $inputNumber } av { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
@@ -816,15 +822,30 @@ auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
 auth-error-105-2 = Ugyldig stadfestingskode
 auth-error-110 = Ugyldig token
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Du har prøvd for mange gongar. Prøv igjen seinare.
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
+auth-error-114 = Du har prøvd for mange gongar. Prøv igjen { $retryAfter }.
 auth-error-138-2 = Ikkje stadfesta økt
 auth-error-139 = Sekundær e-postadresse må vere ulik e-postadressa til kontoen din
 auth-error-155 = TOTP-token ikkje funne
 auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
 auth-error-999 = Uventa feil
+auth-error-1002 = Økta er slutt. Logg inn for å halde fram.
 auth-error-1003 = Lokal lagring eller infokapslar er framleis slått av
 auth-error-1008 = Det må vere eit nytt passord
+auth-error-1010 = Gyldig passord påkravd
 auth-error-1011 = Gyldig e-postadresse påkravd
+auth-error-1031 = Du må skrive inn alder for å registrere deg
+auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
+auth-error-1062 = Ugyldig omdirigering
+oauth-error-1000 = Noko gjekk gale. Lat att fana og prøv på nytt.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1028,6 +1049,7 @@ complete-reset-pw-header = Lag nytt passord
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord innstilt
+complete-reset-password-recovery-key-link = Tilbakestill passordet ditt med kontogjenopprettingsnøkkelen din
 
 ## Confirm Reset Password Component
 
