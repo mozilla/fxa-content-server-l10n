@@ -543,6 +543,11 @@ delete-account-step-1-2 = 1/2 단계
 delete-account-step-2-2 = 2/2 단계
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = 계정 삭제 전 다음 사항에 유의하세요.
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 제품에 포함된 저장 정보와 기능을 잃을 수 있습니다.
@@ -822,6 +827,8 @@ cannot-create-account-learn-more-link = 더 알아보기
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = { -brand-firefox }에 로그인했습니다.
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = 로그인
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -833,10 +840,18 @@ cookies-disabled-learn-more = 더 알아보기
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = 취소
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = 계속
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = 확인
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-continue-button = 계속
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -858,6 +873,8 @@ cookies-disabled-learn-more = 더 알아보기
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = 확인
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -877,6 +894,7 @@ cookies-disabled-learn-more = 더 알아보기
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-cancel-link = 취소
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -905,15 +923,23 @@ cookies-disabled-learn-more = 더 알아보기
 
 ## ResetPassword page
 
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = 이메일
 
 ## Confirm Reset Password With Code
 
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = 계속
 
 ## ResetPassword start page
 
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = 오류:
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = 인증 링크가 만료됨
 
@@ -921,18 +947,25 @@ signin-link-expired-header = 인증 링크가 만료됨
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비밀번호를 입력하세요
+signin-button = 로그인
+signin-password-button-label = 비밀번호
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+back = 뒤로
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = 확인
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = 뒤로
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -941,6 +974,8 @@ signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = 확인
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -950,6 +985,7 @@ signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비�
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-submit-button = 계속
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -957,6 +993,8 @@ signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비�
 
 # and a confirmation code has been sent to their email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = 확인
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
