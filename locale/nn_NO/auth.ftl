@@ -537,7 +537,7 @@ subscriptionUpgrade-title = Takk for at du oppgraderer!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Du har oppgradert frå { $productNameOld } til %(productNameNew)s.
+subscriptionUpgrade-upgrade-info = Du har oppgradert frå { $productNameOld } til { $productName }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Om det finst ny programvare for deg å installere for å bruke { $productName }, vil du få ei eiga e-postmelding med nedlastingsinstruksjonar.
