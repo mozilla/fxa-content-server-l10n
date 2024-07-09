@@ -2133,15 +2133,15 @@ msgstr "Kujdes:"
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Kaloni te Firefox-i dhe hapeni këtë faqe për të lidhur një pajisje tjetër."
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Download Firefox"
-msgstr ""
+msgstr "Shkarkoni Firefox-in"
 
 #: .es5/templates/pair/unsupported.mustache:8
 msgid "Opens in new window"
-msgstr ""
+msgstr "Hapet në dritare të re"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."

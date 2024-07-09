@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Fjalëkalimet e dhënë përputhen.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Kjo fushë është e domosdoshme
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Parashtro { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -217,6 +211,8 @@ lock-image-aria-label =
     .aria-label = Ilustrim dryni
 lightbulb-aria-label =
     .aria-label = Ilustrim që përfaqëson krijimin e një ndihmëze depozitimi.
+email-code-image-aria-label =
+    .aria-label = Ilustrim për të treguar një email që përmban një kod.
 
 ## Input Password
 
@@ -1315,6 +1311,9 @@ confirm-reset-password-with-code-heading = Shihni email-in tuaj
 # Text within span appears in bold
 # $email - email address for which a password reset was requested
 confirm-reset-password-with-code-instruction = Dërguam një kod ripohimi te <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Jepeni kodin me 8-shifra brenda 10 minutash
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Vazhdoni
@@ -1326,6 +1325,7 @@ confirm-reset-password-otp-different-account-link = Përdorni një llogari tjet�
 ## ResetPassword start page
 
 password-reset-flow-heading = Ricaktoni fjalëkalimin tuaj
+password-reset-body = Jepni email-in tuaj dhe do t’ju dërgojmë një kod ripohimi që të ripohoni se jeni vërtet ju.
 password-reset-email-input =
     .label = Jepni email-in tuaj
 password-reset-submit-button = Dërgomëni udhëzime ricaktimi

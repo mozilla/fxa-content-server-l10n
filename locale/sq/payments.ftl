@@ -30,14 +30,10 @@ input-error-is-required = { $label } është i domosdoshëm
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = Stemë e { -brand-name-firefox }-it
 brand-name-mozilla-logo = Stemë { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Keni tashmë një llogari { -brand-name-firefox } account? <a>Hyni në të</a>
 new-user-sign-in-link-2 = Keni tashmë një { -product-mozilla-account }? <a>Bëni hyrjen</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $couponDur
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Krijoni një llogari { -brand-name-firefox }
 new-user-step-1-2 = 1. Krijoni një { -product-mozilla-account }
 new-user-card-title = Jepni hollësitë e kartës tuaj
 new-user-submit = Pajtohuni Tani
@@ -451,6 +445,18 @@ sub-item-stay-sub = Qëndroni i Pajtuar
 
 sub-item-cancel-msg = Pas { $period }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $name }.
 sub-item-cancel-confirm = Më { $period }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $name }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Kuponi { $promotion_name } u aplikua: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -487,8 +493,8 @@ pay-update-manage-btn = Administrojini
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Faturimi i ardhshëm më { $date }
-sub-next-bill-no-tax = Fatura juaj pasuese prej <strong>{ $priceAmount }</strong> ka afat deri më <strong>{ $date }</strong>
-sub-next-bill-tax = Fatura juaj pasuese prej <strong>{ $priceAmount } + { $taxAmount }</strong> taksë ka afat deri më <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Faturimi pasues prej { $priceAmount } bëhet më { $date }
+sub-next-bill-tax-1 = Faturimi pasues prej { $priceAmount } + { $taxAmount } taksa bëhet më { $date }
 sub-expires-on = Skadon më { $date }
 
 ## Routes - Subscription - PaymentUpdate
