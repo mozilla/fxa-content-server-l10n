@@ -30,14 +30,10 @@ input-error-is-required = { $label } is required
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } logo
 brand-name-mozilla-logo = { -brand-mozilla } logo
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Already have a { -brand-name-firefox } account? <a>Sign in</a>
 new-user-sign-in-link-2 = Already have a { -product-mozilla-account }? <a>Sign in</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Your plan will automatically renew after { $couponDur
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Create a { -brand-name-firefox } account
 new-user-step-1-2 = 1. Create a { -product-mozilla-account }
 new-user-card-title = Enter your card information
 new-user-submit = Subscribe Now
@@ -456,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancel my access and my saved information within
     { $name } on { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } coupon applied: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +498,8 @@ pay-update-manage-btn = Manage
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Next billed on { $date }
-sub-next-bill-no-tax = Your next bill of <strong>{ $priceAmount }</strong> is due <strong>{ $date }</strong>
-sub-next-bill-tax = Your next bill of <strong>{ $priceAmount } + { $taxAmount }</strong> tax is due <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Next bill of { $priceAmount } is due { $date }
+sub-next-bill-tax-1 = Next bill of { $priceAmount } + { $taxAmount } tax is due { $date }
 sub-expires-on = Expires on { $date }
 
 ## Routes - Subscription - PaymentUpdate
