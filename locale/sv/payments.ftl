@@ -30,14 +30,10 @@ input-error-is-required = { $label } krävs
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } logotyp
 brand-name-mozilla-logo = { -brand-mozilla } logotyp
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga in</a>
 new-user-sign-in-link-2 = Har du redan ett { -product-mozilla-account }? <a>Logga in</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Din plan förnyas automatiskt efter { $couponDuration
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Skapa ett { -brand-name-firefox }-konto
 new-user-step-1-2 = 1. Skapa ett { -product-mozilla-account }
 new-user-card-title = Ange din kortinformation
 new-user-submit = Prenumerera nu
@@ -456,6 +450,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Avbryt min åtkomst och min sparade information för
     { $name } den { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Utnyttjar erbjudande { $promotion_name }: <priceDetails> </priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +498,8 @@ pay-update-manage-btn = Hantera
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nästa fakturering den { $date }
-sub-next-bill-no-tax = Din nästa räkning på <strong>{ $priceAmount }</strong> förfaller den <strong>{ $date }</strong>
-sub-next-bill-tax = Din nästa faktura på <strong>{ $priceAmount } + { $taxAmount }</strong> skatt ska betalas den <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Nästa faktura på { $priceAmount } förfaller { $date }
+sub-next-bill-tax-1 = Nästa faktura på { $priceAmount } + { $taxAmount } moms förfaller { $date }
 sub-expires-on = Upphör { $date }
 
 ## Routes - Subscription - PaymentUpdate
