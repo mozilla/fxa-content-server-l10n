@@ -11,12 +11,22 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Alugu n { -bra
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = Tasertit tabaḍnit n { -brand-mozilla }
+moz-accounts-privacy-url-2 = Tasertit n tbaḍnit { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-terms-url = Tiwtilin n useqdec { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
 subplat-privacy-notice = Tasertit n tbaḍnit
 subplat-privacy-plaintext = Tasertit n tbaḍnit:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Tremseḍ-d imayl-a acku { $email } ɣur-s { -product-mozilla-account } daɣen tjerrdeḍ ɣer { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Tremdeḍ-d imayl-a acku { $email } ɣur-s { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Teṭṭfeḍ imayl-a acku { $email } ɣur-s { -product-mozilla-account } yerna tmuletɣed ɣer waṭas n yifarisen.
 subplat-explainer-was-deleted-2 = Tremdeḍ-d imayl-a acku { $email } yettwasekles i { -product-mozilla-account }.
 subplat-manage-account-2 = Sefrek iɣewwarengik•im { -product-mozilla-account } s tirza ɣer <a data-l10n-name="subplat-account-page">usebter n umiḍan-ik•im</a>.
 # Variables:
@@ -30,8 +40,10 @@ subplat-reactivate = Ales armad n ujerred
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aleqqem n telɣut n ufter
 subplat-privacy-policy = Tasertit tabaḍnit n { -brand-mozilla }
+subplat-privacy-policy-2 = Tasertit n tbaḍnit { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = Tiwtilin n useqdec { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Usḍif
 subplat-legal-plaintext = { subplat-legal }:
@@ -71,10 +83,31 @@ automated-email-no-action-plaintext = Wa d imayl awurman. Ma tenremseḍ-t s le�
 automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tessirgeḍ ara tigawt-a, ttxil-k·m beddel awal-ik·im uffir:
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Assuter-a yusa-d seg { $uaBrowser } ɣef { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Assuter-a yusa-d seg { $uaBrowser } ɣef { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Assuter-a yusa-d seg { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
 automatedEmailRecoveryKey-origin-device-OS-version-only = Assuter-a yusa-d seg { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Assuter-a yusa-d seg { $uaOS }.
 automatedEmailRecoveryKey-more-info = I wugar n yisallen, rzu ɣer <a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt </a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Assuter-a yusa-d seg:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = rnu beddel awal-ik·im uffir:
