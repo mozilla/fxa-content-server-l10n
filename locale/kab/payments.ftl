@@ -115,6 +115,10 @@ payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } tasertit n tbaḍnit</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } isseqdac { -brand-paypal } i usesfer aɣelsan n yiselliken.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } isseqdac { -brand-name-stripe } i usesfer aɣelsan n yiselliken.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } tasertit n tbaḍnit</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -152,6 +156,7 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } tax
 
 ## Component - SubscriptionTitle
 
@@ -165,6 +170,9 @@ sub-guarantee = Ṭṭmana n tiririt n yidrimen n 30 n wussan
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Tiwtilin n useqdec
 privacy = Tasertit n tbaḍnit
 terms-download = Tiwtilin n usader
@@ -225,6 +233,7 @@ coupon-success-repeating = Aɣawas-ik·im ad yettuεawed s wudem awuran seld { $
 
 ## Routes - Checkout - New user
 
+new-user-step-1-2 = 1. Rnu { -product-mozilla-account }
 new-user-card-title = Sekcem talɣut-ik·im n yimayl
 new-user-submit = Multeɣ tura
 
@@ -236,6 +245,7 @@ sub-update-payment-title = Talɣut n usellek
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Xelleṣ s tkarḍa
+product-invoice-preview-error-title = Ugur deg usali n teskant n tfaṭurin
 
 ## Routes - Product - IapRoadblock
 
@@ -243,6 +253,7 @@ pay-with-heading-card-only = Xelleṣ s tkarḍa
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -289,6 +300,7 @@ sub-route-idx-cancel-msg =
     Ajerred-inek { $name } yefsex.
            <br />
           Ad tizmireḍ ad tkecmeḍ ɣer { $name } seg { $date }.
+sub-route-idx-cancel-aside-2 = Tesεiḍ asteqsi? Rzu ɣer <a>{ -brand-mozilla } tallalt</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -320,6 +332,7 @@ sub-expires-on = Ad yemmet deg { $date }
 pay-update-card-exp = Ad yemmes { $expirationDate }
 sub-route-idx-updating = Aleqqem n telɣut n ufter
 sub-route-payment-modal-heading = Talɣut n ufter d tarameɣtut
+sub-route-payment-modal-message-2 = Akka d-yettban tella tuccḍa aked umiḍan-ik·im { -brand-paypal }, ma ulac uɣilif xdem ayen i ilaqen i ferru n wugur-a n lexlaṣ.
 sub-route-missing-billing-agreement-payment-alert = Talɣut n uxelleṣ d tarameɣtut; tella tuccḍa akked umiḍan-ik·im. <div>Sefrek</div>
 sub-route-funding-source-payment-alert = Talɣut n uxelleṣ d tarameɣtut; tella tuccḍa deg umiḍan-ik·im. Alɣu-a yezmer ad yeṭṭef kra n wakud i wakken ad yekkes seld aleqqem n talɣut-ik·im. <div>Sefrek</div>
 
@@ -331,6 +344,7 @@ sub-item-no-such-subsequent-invoice = Tafaṭurt-a ulac-itt i umultaɣ-a.
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Tettnadiḍ amulteɣ-ik·im premium { -product-pocket }?
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -359,4 +373,5 @@ reactivate-success-button = Mdel
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Tiɣin s usnas
 sub-iap-item-manage-button = Sefrek
