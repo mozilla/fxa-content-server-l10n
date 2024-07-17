@@ -10,20 +10,33 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Mdel
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Email yettwaezn tikelt-nneḍen. Rnu { $accountsEmail } ɣer yinermisen-ik akken ad tḍemneḍ armas yelhan n yiznan.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Mdel aɣarrac
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Issin ugar
 # Alt text for close banner image
 brand-close-banner =
     .alt = Mdel aɣarrac
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = alugu n { -brand-mozilla } m
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+recovery-key-pdf-heading = Tasarut n tririt n umiḍan
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Tasarut n tririt n umiḍan
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -172,6 +185,8 @@ reset-pwd-link-expired-message = Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ aw
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Cfu ɣef awal uffir?
 # link navigates to the sign in page
 remember-password-signin-link = Kcem
 
@@ -289,7 +304,17 @@ cs-disconnect-sync-opt-not-say = Axiṛ ur d-qqareɣ ara
 
 cs-disconnect-advice-confirm = Ih, awi-t-id
 cs-disconnect-lost-advice-heading = Ibenk ur nelli neɣ i yettwakren ur yeqqin ara
+cs-disconnect-lost-advice-content-3 =
+    Imi ubenk-ik·im tesruḥeḍ-t neɣ yettwaker
+    eǧǧ talɣut-ik·im d taɣellsant, ilaq ad tbeddleḍ awal-ik·im uffir{ -product-mozilla-account }
+    deg yiɣewwaren n umiḍan-ik·im. Ilaq daɣen ad testeqsiḍ
+    amfaras n yibenk-ik·im ɣef wamek ara tekkseḍ isefka-inek·inem s wudem anmeggag.
 cs-disconnect-suspicious-advice-heading = Ibenk ideg yella ccekk ur yeqqin ara
+cs-disconnect-suspicious-advice-content-2 =
+    Ma ibenk yeffɣen seg tuqqna d tidet
+    deg-s ccekk, akken ad tḥerzeḍ tilɣa-k•m, ilaq ad tbeddleḍ{ -product-mozilla-account }
+    awal-ik•im uffir deg yiɣewwaren n umiḍan-ik•im. Ilaq daɣen ad tbeddleḍ kra n
+    wawal uffir i teskelseḍ deg { -brand-firefox } s tira n about:logins into the address bar.
 cs-sign-out-button = Ffeɣ
 
 ##
@@ -298,6 +323,8 @@ cs-sign-out-button = Ffeɣ
 ## Data collection section
 
 dc-heading = Alqaḍ d useqdec n yisefka
+dc-subheader-2 = Allel i usnerni { -product-mozilla-accounts }
+dc-subheader-content-2 = Sireg { -product-mozilla-accounts } i tuzna n yisefka itiknikanen d umyigew ɣer { -brand-mozilla }.
 dc-opt-in-out-error-2 = Nesḥassef, yella wugur deg usali n yismenyafen-ik•im n ulqaḍ n yisefka
 dc-learn-more = Issin ugar
 
@@ -331,6 +358,10 @@ flow-container-back = Uɣal ɣer deffir
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Bdu
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Sefsex
 
 ## HeaderLockup component, the header in account settings
 
@@ -338,6 +369,7 @@ header-menu-open = Mdel umuɣ
 header-menu-closed = Umuɣ n tunigin n usmel
 header-back-to-top-link =
     .title = Uɣal d asawen
+header-title-2 = { -product-mozilla-account }
 header-help = Tallalt
 
 ## Linked Accounts section
@@ -346,6 +378,7 @@ la-heading = Imiḍanen yemcudden
 la-description = Tmuddeḍ tisirag i unekcum ɣer yimiḍanen-a.
 la-unlink-button = Sefsex tuqqna
 la-unlink-account-button = Sefsex tuqqna
+la-set-password-button = Wennez tikkelt-nniḍen awal uffir
 la-unlink-heading = Sefsex tuqqna akked umiḍan n wis kraḍ
 nav-linked-accounts = { la-heading }
 
@@ -451,10 +484,12 @@ delete-account-header =
     .title = Kkes amiḍan
 delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
 delete-account-chk-box-1-v3 =
@@ -492,10 +527,20 @@ display-name-success-alert-2 = Isem n uskan yettusnifel
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-account-create-v2 = Yettwarna umiḍan
+recent-activity-account-two-factor-added = Asesteb s snat n tarrayin yermed
+recent-activity-account-two-factor-removed = Asesteb s snat n tarrayin yettwakkes
+recent-activity-account-recovery-key-removed = Tasarutt n tririt n umiḍan tettwakkes
+recent-activity-account-password-added = Awal uffir amaynut ittwarna
 recent-activity-account-password-changed = Awal uffir yettusneflen
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Tasarut n tririt n umiḍan
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Uɣal ɣer iɣewwaṛen
 
 ## Add secondary email page
 
@@ -730,6 +775,12 @@ auth-error-155 = Ulac ajiṭun TOTP
 auth-error-183-2 = Tangalt n usentem d tarameɣtut neɣ temmut
 auth-error-999 = Tuccḍa ur nettwaṛǧi ara
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
+auth-error-1010 = Awal uffir ameɣtu yettwasra
+auth-error-1011 = Imayl ameɣtu ilaq
+auth-error-1031 = Yessefk ad tmuddeḍ awtay inek akken ad ternud amiḍan
+auth-error-1032 = Ilaq ad teskecmeḍ awtay ameɣtu iwakken ad tjerrdeḍ
+auth-error-1062 = Awelleh arameɣtu
+oauth-error-1000 = Yella wayen ur yeddin ara akken iwata. Ma ulac aɣilif, mdel iccer agi, sakin ɛreḍ tikelt nniḍen.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -773,8 +824,10 @@ inline-recovery-continue-button = Kemmel
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Sentem
 inline-recovery-back-link = Ɣer deffir
+inline-recovery-cancel-setup = Sefsex asebeddi
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
+inline-recovery-2fa-enabled = Asesteb s snat n tarrayin yermed
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -888,6 +941,7 @@ create-new-password-header = Sekcem awal uffir amaynut
 account-restored-success-message = Terriḍ-d akken iwata amiḍan-ik·im s tsarutt n tririt n umiḍan. Rnu awal uffir amaynut akken ad ilin isefka-inek/inem d iɣelsanen, sekles-it deg umḍiq iwatan.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Awal uffir yettusbadu
+account-recovery-reset-password-redirecting = Awelleh iteddu
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -902,9 +956,15 @@ complete-reset-password-success-alert = Awal uffir yettusbadu
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Wennez imayl yettwaznen
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Sit ɣef useɣwen i k-d-nuzen ɣer { $email } akka di kra n usrag akken ad ternuḍ awal uffir amaynut.
 
 ## ResetPassword page
 
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Imayl
 reset-password-button = Bdu awennez
 reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
 reset-password-with-recovery-key-verified-generate-new-key = Sirew tasarut n tririt n umiḍan tamaynut
@@ -912,14 +972,27 @@ reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umi�
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Senqed imayl-ik
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Kemmel
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Ales tuzna n tengalt
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Seqdec amiḍan nniḍen
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Wennez awal uffir-ik
+password-reset-email-input =
+    .label = Sekcem imayl inek
 
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Tuccḍa:
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Tuccḍa deg usentem
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Aseɣwen n usentem yezri
 
@@ -935,12 +1008,18 @@ signin-button = Kcem
 signin-header = Kcem
 signin-use-a-different-account-link = Seqdec amiḍan nniḍen
 signin-forgot-password-link = Tettuḍ awal uffir?
+signin-password-button-label = Awal uffir
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen.
+report-signin-header = Azen-d tuqqna ur nettwasireg ara?
+report-signin-body = Tremseḍ-d imayl ɣer uɛṛaḍ n unekcum ɣer umiḍan inek. Tebɣiḍ ad tazneḍ armud amzun d awraḍ n takerḍa?
+report-signin-submit-button = Mmel-aɣ-d armud
+report-signin-support-link = Acuɣeṛ i d-iḍerru waya?
 signin-bounced-create-new-account = Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut
 back = Ɣer deffir
 

@@ -374,4 +374,5 @@ reactivate-success-button = Mdel
 ## Routes - Subscriptions - Subscription iap item
 
 sub-iap-item-google-purchase-2 = { -brand-google }: Tiɣin s usnas
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Tiɣin s usnas
 sub-iap-item-manage-button = Sefrek
