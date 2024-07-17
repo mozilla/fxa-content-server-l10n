@@ -139,6 +139,15 @@ payment-plan-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Tarrayin n uxelleṣ:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = Takarḍa n { $cardName } tettfak s { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Takarḍa tarussint ad tfakk deg { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
@@ -218,28 +227,38 @@ fraudulentAccountDeletion-title = Amiḍan-ik•im yettwakkes
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ur tesɛiḍ ula  yiwet n tengalt n usesteb n uḥraz!
 codes-reminder-title-one = Tesseqdaceḍ tangalt-ik·im taneggarut  n usesteb n uḥraz
+codes-reminder-description-two-left = Mazal-ak kan snat tengalin.
 lowRecoveryCodes-action-2 = Rnu tingalin
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tuqqna tamaynut ɣer { $clientName }
+newDeviceLogin-subjectForMozillaAccount = Tuqqna tamaynut ɣer { -product-mozilla-account }-ik
+newDeviceLogin-title-3 = Yettwaseqdac { -product-mozilla-account }-ik i tuqqna
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Mačči d kečč·kemm? Beddel awal-ik·im uffir:
 newDeviceLogin-action = Sefrek amiḍan
 passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
+passwordChanged-description-2 = Awal-ik·im uffir n { -product-mozilla-account } yettwabeddel akken iwata seg yibenk-a:
 passwordChangeRequired-subject = Armud anida yella ccek yettwaf
 passwordChangeRequired-title = Yettusra ubeddel n wawal uffir
+passwordChangeRequired-suspicious-activity-2 = Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik·im n { -product-mozilla-account }. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik·im n { -product-mozilla-account }, nsens ibenkan akk n umiḍan-ik·im. Ad ak·am-nsuter ad tesnifleḍ awal-ik·im uffir i uḍman n tɣellist.
+passwordChangeRequired-sign-in-2 = Ɛawed qqen ɣer yibenk neɣ ɣer umeẓlu seg wanida i tesseqdaceḍ { -product-mozilla-account } syen ḍfer imecwaṛen ara ak·am-d-yettunefken.
 passwordChangeRequired-different-password = <b>Axatar:</b> Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
 passwordChangeRequired-different-password-plaintext = Axatar: Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
 password-forgot-otp-subject = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-title = Tettuḍ awal-ik n uεeddi?
+password-forgot-otp-request = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:
+password-forgot-otp-code = Ma yella ih, ha-tt-a tengalt n usentem i ukemmel:
 passwordReset-subject = Awal uffir yettuleqqem
 passwordReset-title = Awal uffir n umiḍan inek ibeddel
 passwordReset-description = Isefk ad teskecmeḍ awal-ik uffir amaynut akken ad tesfesxeḍ amtawi.
 passwordResetAccountRecovery-subject-2 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-title-2 = Awal uffir yettuwennez akken iwata
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Rnu tasarut n tririt n umiḍan
 postAddAccountRecovery-subject-3 = Tasarut n tririt n umiḍan amaynut i tettwarna
 postAddAccountRecovery-title2 = Terniḍ tasarut n tririt n umiḍani tamaynut
 postAddAccountRecovery-action = Sefrek amiḍan
@@ -268,13 +287,19 @@ postRemoveTwoStepAuthentication-title-2 = Tessenseḍ asesteb s snat tarrayin
 postRemoveTwoStepAuthentication-from-device = Tessenseḍ-t seg:
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postVerify-title-2 = Tebɣiḍ kifkif iccer ara twaliḍ ɣef sin yibenkan?
+postVerify-subject-4 = Ansuf ɣer { -brand-mozilla }!
 postVerify-setup-2 = Qqen ibenk-nniḍen:
 postVerify-action-2 = Qqen ibenk-nniḍen
 postVerifySecondary-subject = Imay wis sin ittwarna
 postVerifySecondary-title = Imay wis sin ittwarna
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Tesnetmeḍ akken iwata { $secondaryEmail } imayl-ik asnawan i{ -product-mozilla-account }. Ilɣa n tɣellist akked isentam n tuqqna ad d-ttwaznen ar snat n tansiwin imayl.
 postVerifySecondary-action = Sefrek amiḍan
 recovery-subject = Wennez awal uffir-ik
 recovery-title-2 = Tettuḍ awal inek uffir?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:
 recovery-action = Sekcem awal uffir amaynut
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -291,12 +316,14 @@ subscriptionAccountFinishSetup-subject = Ansuf ɣer { $productName }: Ma ulac a�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Ansuf ɣer { $productName }
+subscriptionAccountFinishSetup-content-create-3 = Sakin, ad ternuḍ awal uffir n { -product-mozilla-account } i wakken ad tebduḍ aseqdec n umulteɣ-ik·im amaynut.
 subscriptionAccountFinishSetup-action-2 = Bdu
 subscriptionAccountReminderFirst-subject = Asmekti: Ssali asesteb n umiḍan-ik·im
 subscriptionAccountReminderFirst-title = Mazal ur tezmireḍ ara ad tkecmeḍ ɣer umulteɣ-ik·im
 subscriptionAccountReminderFirst-action = Rnu awal uffir
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Asmekti aneggaru: Sesteb amiḍan-ik·im
+subscriptionAccountReminderSecond-title-2 = Ansuf ɣer { -brand-mozilla }!
 subscriptionAccountReminderSecond-action = Rnu awal uffir
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -340,6 +367,13 @@ subscriptionFirstInvoice-content-auto-renew = Ajerred-ik ad yales s wudem awurma
 subscriptionFirstInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Takarḍa n usmad i { $productName } temmut neɣ qrib ad temmet
+subscriptionPaymentExpired-title-1 = Takarḍa-k n usmad temmut neɣ qrib ad temmet
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Takarḍa n usmad i tesseqdaceḍ akken ad txellṣeḍ { $productName } temmut neɣ qrib ad temmet.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Axelleṣ n { $productName } yecceḍ
 subscriptionPaymentFailed-title = Suref-aɣ, nesɛa uguren akked lexlaṣ-ik
 # Variables:
@@ -371,6 +405,7 @@ subscriptionRenewalReminder-content-closing = S tumert,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tarbaεt { $productName }
+subscriptionsPaymentExpired-title-1 = Takarḍa-k n usmad temmut neɣ qrib ad temmet
 subscriptionsPaymentExpired-content-1 = Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yimultaɣen-a temmut neɣ qrib ad temmet.
 subscriptionsPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ yettusra i yimultaɣ { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ
@@ -410,11 +445,15 @@ verificationReminderFinal-subject = Asmekti aneggaru i usentem n umiḍan-ik:im
 confirm-account = Sentem amiḍan
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ur tettu ara ad tesnetmeḍ amiḍan-ik·im
+verificationReminderFirst-title-3 = Ansuf ɣer { -brand-mozilla }!
 confirm-email-2 = Sentem amiḍan
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Sentem amiḍan
 verificationReminderSecond-subject-2 = Ur tettu ara ad tesnetmeḍ amiḍan-ik·im
+verificationReminderSecond-title-3 = Ur ttaǧǧa ara ad ak-iruḥ kra ɣef { -brand-mozilla }!
 verificationReminderSecond-action-2 = Sentem amiḍan
+verify-title-3 = Ldi internet s { -brand-mozilla }
+verify-description-2 = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-mozilla } sekra wanida i teqqneḍ, bdu s:
 verify-subject = Fak timerna n umiḍan-ik
 verify-action-2 = Sentem amiḍan
 # Variables:
@@ -422,6 +461,12 @@ verify-action-2 = Sentem amiḍan
 verifyLogin-title-2 = Teqqneḍ ɣer { $clientName }?
 verifyLogin-subject-2 = Sentem tuqqna
 verifyLogin-action = Sentem tuqqna
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Sentem tuqqna ɣer { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Teqqneḍ ɣer { $serviceName }?
 verifyLoginCode-expiry-notice = Ad immet deg 5 n tseddatin.
 verifyPrimary-title-2 = Sentem tansa tagejdant
 verifyPrimary-description = Asuter i usnifel n umiḍan tettwag seg ibenk agi:
@@ -432,10 +477,16 @@ verifyPrimary-post-verify-2 = Mi yedda usentem, tzemreḍ ad tesnifleḍ amiḍa
 verifySecondaryCode-subject = Sentem tansa tis snat
 verifySecondaryCode-title-2 = Sentem tansa tis snat
 verifySecondaryCode-action-2 = Sentem imayl
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Seqdec tangalt-a n usentem:
 verifySecondaryCode-expiry-notice-2 = Aya ad yemmet deg 5 n tesdatin. Ticki yettwasentem, tansa-yagi ad as-d-aweḍen yilγa n tγellist akked usentem.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Sentem amiḍan inek
+verifyShortCode-title-3 = Ldi internet s { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-mozilla } sekra wanida i teqqneḍ, bdu s:
 verifyShortCode-prompt-3 = Seqdec tangalt-a n usentem:
 verifyShortCode-expiry-notice = Ad immet deg 5 n tseddatin.
