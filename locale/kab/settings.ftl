@@ -1035,6 +1035,8 @@ signin-recovery-code-back-link = Ɣer deffir
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Ur tezmireḍ ara ad tkecmeḍ?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Tangalt n usesteb n uḥraz tettwasra
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1065,6 +1067,7 @@ signin-totp-code-recovery-code-link = Ugur deg usekcem n tengalt?
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Sireg ajerred-agi
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
