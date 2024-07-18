@@ -172,12 +172,6 @@ form-password-sr-passwords-match = A megadott jelszavak egyeznek.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Ez a mező kötelező
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = { $codeValue } beküldése
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 ## Connect another device promo
 
 connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy táblagépre
-connect-another-find-fx-mobile =
-    Keresse meg a { -brand-firefox }ot a { -google-play }en és az { -app-store }-on, vagy
-    <br /><linkExternal>küldjön letöltési hivatkozást az eszközére.</linkExternal>
+connect-another-find-fx-mobile-2 = Keresse meg a { -brand-firefox }ot a { -google-play }ben és az { -app-store }-ban.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
