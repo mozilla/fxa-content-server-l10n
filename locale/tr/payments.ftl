@@ -282,7 +282,7 @@ sub-guarantee = 30 gün para iade garantisi
 subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Kullanım Koşulları
 privacy = Gizlilik Bildirimi
-terms-download = İndirme koşulları
+terms-download = İndirme Koşulları
 
 ## App-level string(s) and messages shared by multiple components or routes
 
