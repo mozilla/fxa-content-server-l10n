@@ -335,9 +335,7 @@ bento-menu-made-by-mozilla = Criado pela { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Obtenha o { -brand-firefox } para telemóvel ou tablet
-connect-another-find-fx-mobile =
-    Encontre o { -brand-firefox } na { -google-play } e na { -app-store } ou
-    <br /> <linkExternal>envie uma ligação de transferência para o seu dispositivo.</linkExternal>
+connect-another-find-fx-mobile-2 = Encontre o { -brand-firefox } na { -google-play } e na { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
