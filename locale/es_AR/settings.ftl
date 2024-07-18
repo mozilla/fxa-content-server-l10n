@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Las contraseñas ingresadas coinciden.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Este campo es requerido
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Enviar { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Instalá { -brand-firefox } en tu celular o tablet
-connect-another-find-fx-mobile =
-    Buscá { -brand-firefox } en{ -google-play } y { -app-store } o
-    <br /><linkExternal>enviá un enlace de descarga a tu dispositivo.</linkExternal>
+connect-another-find-fx-mobile-2 = Busca { -brand-firefox } en { -google-play } y { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
