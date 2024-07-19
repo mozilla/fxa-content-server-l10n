@@ -172,12 +172,6 @@ form-password-sr-passwords-match = 輸入的密碼相符。
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = 此欄位必填
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = 送出 { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,7 +335,7 @@ bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
 ## Connect another device promo
 
 connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-firefox }
-connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 尋找 { -brand-firefox }，或是<br /><linkExternal>傳送下載鏈結到您的行動裝置上。</linkExternal>
+connect-another-find-fx-mobile-2 = 到 { -google-play } 或 { -app-store } 尋找 { -brand-firefox }。
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
