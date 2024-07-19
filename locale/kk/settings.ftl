@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Енгізілген парольдер өз�
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Бұл өріс міндетті түрде керек
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = { $codeValue } жіберу
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = { -brand-mozilla } жасаған
 ## Connect another device promo
 
 connect-another-fx-mobile = { -brand-firefox } өнімін телефон немесе планшетіңізге алыңыз
-connect-another-find-fx-mobile =
-    { -brand-firefox } өнімін { -google-play } және { -app-store } ішінен табыңыз немесе 
-    <br /><linkExternal>құрылғыңызга жүктеп алу сілтемесін жіберіңіз.</linkExternal>
+connect-another-find-fx-mobile-2 = { -brand-firefox } өнімін { -google-play } және { -app-store } ішінен табыңыз.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
