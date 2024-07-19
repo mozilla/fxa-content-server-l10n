@@ -618,6 +618,8 @@ tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } – <mozillaAccountsTos>Uvjeti usluge</mozillaAccountsTos> i <mozillaAccountsPrivacy>Obavijest o privatnosti</mozillaAccountsPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -720,6 +722,7 @@ cannot-create-account-requirements-2 = Za stvaranje { -product-mozilla-account }
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-instructions-2 = Za ponovni pristup tvom { -product-mozilla-account } upiši spremljeni jednokratni ključ za oporavak računa.
 
 ## Account recovery reset password page
 

@@ -76,6 +76,7 @@ automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ako je nisi promijenio/la, resetiraj lozinku sada na { $resetLink }
+brand-banner-message = Znaš li da smo promijenili ime { -product-firefox-accounts } u { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saznaj više</a>
 cancellationSurvey = Pomogni nam poboljšati naše usluge ispunjavanjem ove <a data-l10n-name="cancellationSurveyUrl">kratke ankete</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
@@ -168,10 +169,12 @@ newDeviceLogin-change-password-plain = To nisi ti? Promijeni lozinku:
 newDeviceLogin-action = Upravljaj računom
 passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
+passwordChanged-description-2 = Tvoja { -product-mozilla-account } lozinka je uspješno promijenjena sa sljedećeg uređaja:
 passwordChangeRequired-subject = Otkrivena je sumnjiva aktivnost
 passwordChangeRequired-title = Potrebna promjena lozinke
 passwordChangeRequired-different-password = <b>Važno:</b> odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
 passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
+password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
 passwordReset-subject = Lozinka aktualizirana
 passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
@@ -184,6 +187,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Morat ćeš se ponovo prija
 passwordResetAccountRecovery-regen-required-txt-1 = Morat ćeš se ponovo prijaviti na svim tvojim sinkroniziranim uređajima. Nemoj zaboraviti izraditi novi ključ za obnavljanje računa koji će zamijeniti prethodno korišteni:
 postAddAccountRecovery-title2 = Stvorio/la si novi ključ za obnavljanje računa
 postAddAccountRecovery-action = Upravljaj računom
+postAddLinkedAccount-subject-2 = Novi račun je povezan s tvojim { -product-mozilla-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Tvoj { $providerName } račun je povezan s tvojim { -product-mozilla-account }
 postAddLinkedAccount-action = Upravljaj računom
 postAddTwoStepAuthentication-subject-2 = Dvofaktorska autentifikacija aktivirana
 postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
@@ -216,6 +223,8 @@ postVerifySecondary-title = Dodana je sekundarna e-mail adresa
 postVerifySecondary-action = Upravljaj računom
 recovery-subject = Resetiraj lozinku
 recovery-title-2 = Zaboravio/la si lozinku?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
 recovery-action = Stvori novu lozinku
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
