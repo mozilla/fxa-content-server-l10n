@@ -16,6 +16,15 @@ subplat-automated-email = Ovo je automatski e-mail; ako si ga dobio/la greškom,
 subplat-privacy-notice = Napomena o privatnosti
 subplat-privacy-plaintext = Napomena o privatnosti:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Dobio/la si ovu e-mail poruku jer { $email } ima { -product-mozilla-account } i jer si se prijavio/la za { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Dobio/la si ovu e-mail poruku jer { $email } ima { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Dobio/la si ovu e-mail poruku jer { $email } ima { -product-mozilla-account } i jer si se pretplatio/la na više proizvoda.
+subplat-explainer-was-deleted-2 = Dobio/la si ovu e-mail poruku jer je { $email } registriran za { -product-mozilla-account }.
 subplat-terms-policy = Uvjeti i politika otkazivanja
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Otkaži pretplatu
@@ -24,7 +33,9 @@ subplat-reactivate = Ponovo aktiviraj pretplatu
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualiziraj podatke naplate
 subplat-privacy-policy = { -brand-mozilla } politika privatnosti
+subplat-privacy-policy-2 = Obavijest o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-moz-terms = Uvjeti usluge za { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-legal = Pravno
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatnost
@@ -137,10 +148,16 @@ cadReminderFirst-subject-1 = Podsjetnik! Sinkronizirajmo { -brand-firefox }
 cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
+fraudulentAccountDeletion-subject-2 = Tvoj { -product-mozilla-account } je izbrisan
 fraudulentAccountDeletion-title = Tvoj račun je izbrisan
+fraudulentAccountDeletion-contact = Ako imaš pitanja, kontaktiraj naš <a data-l10n-name="mozillaSupportUrl">tim za podršku</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Ako imaš pitanja kontaktiraj naš tim za podršku: { $mozillaSupportUrl }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava na { $clientName }
+newDeviceLogin-subjectForMozillaAccount = Nova prijava na tvoj { -product-mozilla-account }
 newDeviceLogin-title-3 = Tvoj { -product-mozilla-account } račun je korišten za prijavu
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
