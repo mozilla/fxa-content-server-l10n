@@ -408,7 +408,7 @@ delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
 delete-account-chk-box-3 =
     .label = Ponovna aktivacija ovom e-poštom možda neće vratiti tvoje spremljene informacije
 delete-account-chk-box-4 =
-    .label = Sva proširenja i teme objavljene na addons.mozilla.org bit će izbrisane
+    .label = Sva proširenja i teme koja objaviš na addons.mozilla.org će se izbrisati
 delete-account-continue-button = Nastavi
 delete-account-password-input =
     .label = Unesi lozinku
@@ -648,6 +648,7 @@ auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-requirements-2 = Za stvaranje { -product-mozilla-account } moraš ispuniti određene dobne uvjete.
 
 ## Connect Another Device page
 

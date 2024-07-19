@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2024-07-19 18:50+0000\n"
+"PO-Revision-Date: 2024-07-19 18:51+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1029,7 +1029,7 @@ msgstr "Kliknite na poveznicu poslanu na %(email)s unutar sat vremena kako biste
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Upiši potvrdni kod <span class=\"card-subheader\" id=\"subheader\"> za tvoj Mozilla račun</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1107,7 +1107,7 @@ msgstr "Prijavi se u Firefoxu za iOS za završavanje postavljanja"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Upiši lozinku <span class=\"card-subheader\" id=\"subheader\">za tvoj Mozilla račun</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
