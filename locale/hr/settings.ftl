@@ -245,10 +245,14 @@ cs-sign-out-button = Odjava
 
 dc-heading = Prikupljanje i upotreba podataka
 dc-subheader-2 = Pomogni poboljšati { -product-mozilla-accounts }
+dc-subheader-content-2 = Dozvoli da { -product-mozilla-accounts } šalju tehničke podatke i podatke o interakciji na { -brand-mozilla }.
+dc-opt-out-success-2 = Isključivanje uspjelo. { -product-mozilla-accounts } neće slati tehničke podatke ili podatke o interakciji na { -brand-mozilla }.
+dc-opt-in-success-2 = Hvala! Dijeljenje ovih podataka nam pomaže poboljšati { -product-mozilla-accounts }.
 dc-learn-more = Saznaj više
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = Izbornik za { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -284,6 +288,7 @@ header-menu-open = Zatvori izbornik
 header-menu-closed = Izbornik navigacije stranicom
 header-back-to-top-link =
     .title = Natrag na vrh
+header-title-2 = { -product-mozilla-account }
 header-help = Pomoć
 
 ## Linked Accounts section
@@ -395,6 +400,10 @@ delete-account-header =
     .title = Izbriši račun
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
 delete-account-chk-box-3 =
     .label = Ponovna aktivacija ovom e-poštom možda neće vratiti tvoje spremljene informacije
@@ -735,6 +744,8 @@ auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Upiši svoju lozinku <span>za tvoj { -product-mozilla-account }</span>
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -755,6 +766,10 @@ auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozilla-account }</span>
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -771,6 +786,10 @@ auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozilla-account }</span>
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

@@ -1,5 +1,6 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = Prijaviti se na tvoj { -product-mozilla-account }?
 session-verify-send-push-body-2 = Pritisni ovdje da potvrdiš da si to ti
 
 ## Email content
@@ -9,6 +10,8 @@ session-verify-send-push-body-2 = Pritisni ovdje da potvrdiš da si to ti
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinkroniziraj uređaje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Uređaji">
 fxa-privacy-url = { -brand-mozilla } - politika privatnosti
+moz-accounts-privacy-url-2 = Obavijest o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-terms-url = Uvjeti usluge za { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-automated-email = Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja.
 subplat-privacy-notice = Napomena o privatnosti
 subplat-privacy-plaintext = Napomena o privatnosti:
