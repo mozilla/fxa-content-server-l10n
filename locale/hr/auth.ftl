@@ -242,6 +242,7 @@ subscriptionAccountReminderFirst-title = Još ne možeš pristupiti svojoj pretp
 subscriptionAccountReminderFirst-action = Stvori lozinku
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Posljednji podsjetnik: postavi svoj račun
+subscriptionAccountReminderSecond-title-2 = Dobro došao, dobro došla u { -brand-mozilla }!
 subscriptionAccountReminderSecond-action = Stvori lozinku
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables

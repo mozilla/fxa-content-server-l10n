@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2024-07-19 18:51+0000\n"
+"PO-Revision-Date: 2024-07-19 19:12+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -600,7 +600,7 @@ msgstr "Upiši ispravnu e-mail adresu. firefox.com ne nudi e-mail adrese."
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Mozilla računi se mogu postaviti samo u IFRAME na odobrenim stranicama"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
