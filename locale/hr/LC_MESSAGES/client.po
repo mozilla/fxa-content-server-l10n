@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2024-07-19 19:12+0000\n"
+"PO-Revision-Date: 2024-07-19 19:29+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1166,7 +1166,7 @@ msgstr "Registriraj se ili se prijavi"
 
 #: .es5/templates/index.mustache:10
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Mozilla račun također otključava pristup daljnjm Mozillia proizvodima za zaštitu privatnosti."
 
 #: .es5/templates/index.mustache:12
 msgid ""
@@ -1429,7 +1429,7 @@ msgstr "Naš tim je obaviješten. Ovakvi nam izvještaji pomažu obraniti se od 
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Upiši potvrdni kod <span class=\"card-subheader\">za tvoj Mozilla račun</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1810,7 +1810,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Firefox računi će se preimenovani u Mozilla račune 1. studenoga"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1822,7 +1822,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Preimenovali smo Firefox račune u Mozilla račune. I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom te nema drugih promjena u proizvodima koje koristiš."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
