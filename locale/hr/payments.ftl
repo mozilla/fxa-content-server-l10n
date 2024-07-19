@@ -3,38 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Firefox računi
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Početna stranica računa
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -56,11 +28,10 @@ input-error-is-required = Polje { $label } je obavezno
 
 ## Component - Header
 
-brand-name-firefox-logo = { -brand-name-firefox } logotip
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link = Već imaš { -brand-name-firefox } račun? <a>Prijavi se</a>
+new-user-sign-in-link-2 = Već imaš { -product-mozilla-account }? <a>Prijavi se</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -68,7 +39,6 @@ new-user-enter-email =
     .label = Upiši svoju e-mail adresu
 new-user-confirm-email =
     .label = Potvrdi svoju e-mail adresu
-new-user-subscribe-product-updates = Želim primati novosti o { -brand-name-firefox }u
 new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
 new-user-email-validate = E-mail adresa nije ispravna
 new-user-email-validate-confirm = E-mail adrese se ne poklapaju
@@ -142,20 +112,16 @@ payment-cc =
 payment-cancel-btn = Odustani
 payment-update-btn = Aktualiziraj
 payment-pay-btn = Plati sada
-payment-pay-with-paypal-btn = Plati s { -brand-name-paypal }
 payment-validate-name-error = Upiši tvoje ime
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-paypal = { -brand-name-mozilla } koristi { -brand-name-paypal } za sigurnu obradu plaćanja.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
 
 ## Component - PaymentMethodHeader
 
 payment-method-header = Odaberi način plaćanja
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Obavezno
 
 ## Component - PaymentProcessing
 
@@ -164,6 +130,9 @@ payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
+
+## Component - PayPalButton
+
 
 ## Component - PlanDetails
 
@@ -196,6 +165,9 @@ sub-guarantee = 30-dnevno jamstvo povrata novca
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Uvjeti usluge
 privacy = Napomena o privatnosti
 terms-download = Uvjeti preuzimanja
@@ -250,7 +222,7 @@ coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $couponD
 
 ## Routes - Checkout - New user
 
-new-user-step-1 = 1. Otvori { -brand-name-firefox } račun
+new-user-step-1-2 = 1. Stvori { -product-mozilla-account }
 new-user-card-title = Upiši podatke tvoje kartice
 new-user-submit = Pretplati se sada
 
@@ -258,9 +230,9 @@ new-user-submit = Pretplati se sada
 
 sub-update-payment-title = Informacije o plaćanju
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Ili plati karticom
 pay-with-heading-card-only = Plati karticom
 
 ## Routes - Product - IapRoadblock
@@ -274,14 +246,19 @@ pay-with-heading-card-only = Plati karticom
 
 product-plan-change-heading = Pregledaj svoju promjenu
 sub-change-failed = Promjena plana nije uspjela
-sub-update-copy =
-    Tvoj plan će se odmah promijeniti i naplatit ćemo prilagođeni iznos
-    za ostatak obračunskog razdoblja. Počevši od { $startingDate }
-    naplatit ćemo puni iznos.
 sub-change-submit = Potvrdi promjenu
 sub-update-current-plan-label = Aktualni plan
 sub-update-new-plan-label = Novi plan
 sub-update-total-label = Nov ukupni iznos
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -310,7 +287,6 @@ sub-route-idx-cancel-msg =
     Tvoja pretplata na { $name } je otkazana.
           <br />
           I dalje imaš pristup usluzi { $name } do { $date }.
-sub-route-idx-cancel-aside = Imaš pitanja? Posjeti <a>{ -brand-name-mozilla } podršku</a>.
 
 ## Routes - Subscriptions - Errors
 
