@@ -14,47 +14,32 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-mail poruka je ponovo poslana. Dodaj { $accountsEmail } u svoje kontakte za sigurnu isporuku.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } će se preimenovati u { -product-mozilla-accounts } 1. studenoga
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Preimenovali smo { -product-firefox-accounts } u { -product-mozilla-accounts }. I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom te nema drugih promjena u proizvodima koje koristiš.
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Preuzmi i nastavi
     .title = Preuzmi i nastavi
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = SPREMITE SVOJ KLJUČ ZA OPORAVAK RAČUNA
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Ključ:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Generirani ključ: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktično znanje stiže u tvoj ulazni sandučić. Registriraj se za više:
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Poduzmi korake za održavanje zdravog interneta
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Budi sigurniji i pametniji na internetu
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Odaberi što će se sinkronizirati:
 choose-what-to-sync-option-bookmarks =
     .label = Zabilješke
 choose-what-to-sync-option-history =
@@ -70,8 +55,6 @@ choose-what-to-sync-option-prefs =
     .label = Postavke
 choose-what-to-sync-option-addresses =
     .label = Adrese
-choose-what-to-sync-option-creditcards =
-    .label = Kreditne kartice
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -138,7 +121,6 @@ form-verify-code-default-error = Ovo je obavezno polje
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ključ za obnavljanje { -brand-firefox } računa
-get-data-trio-title-firefox-backup-verification-codes = Autentifikacijski kodovi za sigurnosne kopije za { -brand-firefox }
 get-data-trio-download-2 =
     .title = Preuzmi
     .aria-label = Preuzmi
@@ -155,10 +137,10 @@ get-data-trio-print-2 =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Sakrij lozinku
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Prikaži lozinku
-input-password-hide-aria = Sakrij lozinku sa zaslona.
-input-password-show-aria = Prikaži lozinku kao obični tekst. Tvoja lozinka bit će vidljiva na zaslonu.
 
 ## LinkDamaged component
 
@@ -167,9 +149,6 @@ input-password-show-aria = Prikaži lozinku kao obični tekst. Tvoja lozinka bit
 
 
 ## LinkExpiredResetPassword component
-
-
-## LinkExpiredSignin component
 
 
 ## LinkRememberPassword component
@@ -204,8 +183,6 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento izbornik
-bento-menu-firefox-title = { -brand-firefox } je tehnologija koja se bori za tvoju privatnost na mreži.
 bento-menu-firefox-desktop = Preglednik { -brand-firefox } za računala
 bento-menu-firefox-mobile = Preglednik { -brand-firefox } za mobilne uređaje
 bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
@@ -213,9 +190,6 @@ bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Nabavi { -brand-firefox } na mobitelu ili tabletu
-connect-another-find-fx-mobile =
-    Pronađi { -brand-firefox } u { -google-play }u i { -app-store }u ili
-    <br /><linkExternal>pošalji poveznicu za preuzimanje na svoj uređaj.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -243,7 +217,7 @@ cs-disconnect-sync-heading = Prekini vezu sa Syncom
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -270,13 +244,11 @@ cs-sign-out-button = Odjava
 ## Data collection section
 
 dc-heading = Prikupljanje i upotreba podataka
-dc-subheader = Pomogni poboljšati { -product-firefox-accounts }
-dc-subheader-content = Dozvoli da { -product-firefox-accounts } šalju tehničke podatke i podatke o interakciji prema { -brand-mozilla }.
+dc-subheader-2 = Pomogni poboljšati { -product-mozilla-accounts }
 dc-learn-more = Saznaj više
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Izbornik za { -product-firefox-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -306,13 +278,12 @@ flow-container-back = Natrag
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Zatvori izbornik
 header-menu-closed = Izbornik navigacije stranicom
 header-back-to-top-link =
     .title = Natrag na vrh
-header-title = { -product-firefox-accounts }
 header-help = Pomoć
 
 ## Linked Accounts section
@@ -454,20 +425,6 @@ cancel-display-name = Odustani
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Odustani
-recovery-key-close-button = Zatvori
-recovery-key-continue-button = Nastavi
-recovery-key-created-1 = Tvoj ključ za obnavljanje računa je stvoren. Spremi ključ na sigurno mjesto koje kasnije možeš lako pronaći – ključ će ti trebati za ponovni pristup tvojim podacima ako zaboraviš lozinku.
-recovery-key-enter-password =
-    .label = Unesi lozinku
-recovery-key-page-title-1 =
-    .title = Ključ za obnavljanje računa
-recovery-key-step-1 = Korak 1 od 2
-recovery-key-step-2 = Korak 2 od 2
-recovery-key-success-alert-3 = Ključ za obnavljanje računa stvoren
 
 ## PageRecoveryKeyCreate
 
@@ -657,6 +614,10 @@ tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Nepoznati račun
@@ -763,13 +724,22 @@ auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 ## ResetPassword page
 
 
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
+
 ## CompleteSignin component
 
 
-## ConfirmSignin component
-
-
 ## Signin page
+
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
 
 
 ## SigninRecoveryCode page
@@ -791,9 +761,8 @@ auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page
