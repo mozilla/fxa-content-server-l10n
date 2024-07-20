@@ -172,12 +172,6 @@ form-password-sr-passwords-match = 入力したパスワードは一致してい
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = この項目は必須です
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = { $codeValue } を送信
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -337,9 +331,6 @@ bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = モバイルまたはタブレット上で { -brand-firefox } を入手する
-connect-another-find-fx-mobile =
-    { -google-play } や { -app-store } で { -brand-firefox } を見つけるか
-    <br /><linkExternal>ダウンロードリンクを端末に送信してください。</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -1310,6 +1301,10 @@ confirm-reset-password-otp-different-account-link = 別のアカウントを使�
 
 ## ResetPassword start page
 
+password-reset-body = メールアドレスを入力すると、本人確認のための確認コードを送信します。
+password-reset-email-input =
+    .label = メールアドレスを入力
+password-reset-submit-button = リセット方法を送信
 
 ## CompleteSignin component
 
