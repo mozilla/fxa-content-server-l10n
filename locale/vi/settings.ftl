@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Mật khẩu đã nhập đã khớp.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Trường này là bắt buộc
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Gửi { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Được tạo bởi { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Tải xuống { -brand-firefox } trên điện thoại di động hoặc máy tính bảng
-connect-another-find-fx-mobile =
-    Tìm kiếm { -brand-firefox } trong { -google-play } và { -app-store } hoặc
-    <br /><linkExternal>gửi liên kết tải xuống cho thiết bị của bạn.</linkExternal>
+connect-another-find-fx-mobile-2 = Tìm kiếm { -brand-firefox } trong { -google-play } và { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
