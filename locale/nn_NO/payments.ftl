@@ -45,6 +45,9 @@ new-user-enter-email =
 new-user-confirm-email =
     .label = Stadfest e-postadressa di
 new-user-subscribe-product-updates-mozilla = Eg vil gjerne få produktnyheiter og oppdateringar frå { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Eg vil gjerne få nyheteir og oppdateringar om sikkerheit og personvern frå { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Eg vil gjerne få produktnyheiter og oppdateringar frå { -product-mozilla-hubs } og { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Eg vil gjerne få produktnyheiter og oppdateringar frå { -product-mdn-plus } og { -brand-mozilla }
 new-user-email-validate = E-postadressa er ikkje gyldig
 new-user-email-validate-confirm = E-postadressene matchar ikkje
 new-user-already-has-account-sign-in = Du har allereie ein konto. <a>Logg inn</a>
@@ -94,6 +97,7 @@ payment-confirmation-download-button = Hald fram til nedlasting
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = Eg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som visest, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, inntil eg seier opp abonnementet mitt.
 payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 ## Component - PaymentErrorView
