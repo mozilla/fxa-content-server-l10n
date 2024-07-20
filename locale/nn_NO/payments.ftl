@@ -48,6 +48,7 @@ new-user-subscribe-product-updates-mozilla = Eg vil gjerne få produktnyheiter o
 new-user-subscribe-product-updates-snp = Eg vil gjerne få nyheteir og oppdateringar om sikkerheit og personvern frå { -brand-mozilla }
 new-user-subscribe-product-updates-hubs = Eg vil gjerne få produktnyheiter og oppdateringar frå { -product-mozilla-hubs } og { -brand-mozilla }
 new-user-subscribe-product-updates-mdnplus = Eg vil gjerne få produktnyheiter og oppdateringar frå { -product-mdn-plus } og { -brand-mozilla }
+new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for å opprette kontoen din. Vi vil aldri selje henne til ein tredje part.
 new-user-email-validate = E-postadressa er ikkje gyldig
 new-user-email-validate-confirm = E-postadressene matchar ikkje
 new-user-already-has-account-sign-in = Du har allereie ein konto. <a>Logg inn</a>
