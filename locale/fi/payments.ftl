@@ -30,14 +30,10 @@ input-error-is-required = { $label } vaaditaan
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox }in logo
 brand-name-mozilla-logo = { -brand-mozilla }n logo
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaudu sisään</a>
 new-user-sign-in-link-2 = Onko sinulla jo { -product-mozilla-account }? <a>Kirjaudu sisään</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -388,8 +384,6 @@ coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDuration
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. Luo { -brand-name-firefox }-tili
 new-user-step-1-2 = 1. Luo { -product-mozilla-account }
 new-user-card-title = Anna korttisi tiedot
 new-user-submit = Tilaa nyt
@@ -450,6 +444,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Peru käyttömahdollisuuteni ja pääsy tietoihini
     palvelussa { $name } { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } -kuponki käytetty: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -486,8 +492,8 @@ pay-update-manage-btn = Hallitse
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Seuraava laskutus { $date }
-sub-next-bill-no-tax = Seuraava laskusi <strong>{ $priceAmount }</strong> erääntyy <strong>{ $date }</strong>
-sub-next-bill-tax = Seuraava laskusi <strong>{ $priceAmount } + vero { $taxAmount }</strong> erääntyy <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Seuraava lasku { $priceAmount } erääntyy { $date }
+sub-next-bill-tax-1 = Seuraava lasku { $priceAmount } + vero { $taxAmount } erääntyy { $date }
 sub-expires-on = Vanhenee { $date }
 
 ## Routes - Subscription - PaymentUpdate
