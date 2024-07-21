@@ -52,6 +52,8 @@ new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for å o
 new-user-email-validate = E-postadressa er ikkje gyldig
 new-user-email-validate-confirm = E-postadressene matchar ikkje
 new-user-already-has-account-sign-in = Du har allereie ein konto. <a>Logg inn</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Skrivefeil i e-postadresse? { $domain } tilbyr ikkje e-post.
 
 ## Component - PaymentConfirmation
 
@@ -60,6 +62,8 @@ payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din no
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = Ein stadfestings e-post er sendt til { $email } med detaljar om korleis du kjem i gang med { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Du vil få ei e-postmelding på { $email } med instruksjonar om korleis du konfigurerer kontoen din, saman med betalingsopplysningar.
 payment-confirmation-order-heading = Ordredetaljar
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
@@ -443,6 +447,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Avbryt tilgangen min og den lagra informasjonen min for
     { $name } den { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name }-kupong brukt: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -491,6 +507,7 @@ sub-expires-on = Går ut { $date }
 pay-update-card-exp = Går ut { $expirationDate }
 sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
+sub-route-missing-billing-agreement-payment-alert = Ugyldig betalingsinformasjon, det er eit problem med kontoen din. <div>Handsam</div>
 
 ## Routes - Subscription - SubscriptionItem
 
