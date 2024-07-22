@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Ynfierde wachtwurden komme oerien.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dit fjild is ferplichte
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = { $codeValue } yntsjinje
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Makke troch { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Download { -brand-firefox } op mobyl of tablet
-connect-another-find-fx-mobile =
-    { -brand-firefox } yn { -google-play } en de { -app-store } sykje of
-    <br /><linkExternal>in downloadkeppeling nei jo apparaat stjoere.</linkExternal>
+connect-another-find-fx-mobile-2 = Sykje { -brand-firefox } yn de { -google-play } en de { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
