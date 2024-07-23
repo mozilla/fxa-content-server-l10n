@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Zadané heslá sa zhodujú.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Toto pole je povinné
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Odoslať { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Získajte { -brand-firefox } pre mobilné zariadenia
-connect-another-find-fx-mobile =
-    Vyhľadajte { -brand-firefox } v { -google-play } alebo { -app-store },
-    <br />prípadne si nechajte <linkExternal>poslať odkaz na svoje zariadenie</linkExternal>.
+connect-another-find-fx-mobile-2 = Nájdite { -brand-firefox } v { -google-play } a { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
