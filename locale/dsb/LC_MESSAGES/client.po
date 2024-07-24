@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2024-07-24 16:41+0000\n"
+"PO-Revision-Date: 2024-07-24 16:42+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -449,7 +449,7 @@ msgstr "E-mailowa adresa njedajo se słaś"
 
 #: .es5/lib/auth-errors.js:214
 msgid "Valid code required"
-msgstr "Płaśiwy kod trěbny"
+msgstr "Płaśiwy kod trjebny"
 
 #: .es5/lib/auth-errors.js:218
 msgid "This verification code has expired"
@@ -574,11 +574,11 @@ msgstr "Musy nanejmjenjej 8 znamuškow dłujke byś"
 
 #: .es5/lib/auth-errors.js:350
 msgid "Valid password required"
-msgstr "Płaśiwe gronidło trěbne"
+msgstr "Płaśiwe gronidło trjebne"
 
 #: .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
 msgid "Valid email required"
-msgstr "Płaśiwa e-mailowa adresa trěbna"
+msgstr "Płaśiwa e-mailowa adresa trjebna"
 
 #: .es5/lib/auth-errors.js:365
 msgid "A usable image was not found"
@@ -590,7 +590,7 @@ msgstr "Kamera njedajo se inicializěrowaś"
 
 #: .es5/lib/auth-errors.js:373
 msgid "Valid URL required"
-msgstr "Płaśiwy URL trěbny"
+msgstr "Płaśiwy URL trjebny"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
@@ -650,11 +650,11 @@ msgstr "Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jade
 
 #: .es5/lib/auth-errors.js:498
 msgid "This is a required field"
-msgstr "To jo trěbne pólo"
+msgstr "To jo trjebne pólo"
 
 #: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
-msgstr "Awtorizěrowański kod trěbny"
+msgstr "Awtorizěrowański kod trjebny"
 
 #: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
@@ -662,11 +662,11 @@ msgstr "Wótkaz jo wobškóźony"
 
 #: .es5/lib/auth-errors.js:533
 msgid "Phone number required"
-msgstr "Telefonowy numer trěbny"
+msgstr "Telefonowy numer trjebny"
 
 #: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
-msgstr "Kod dwójokšacoweje awtentifikacije trěbny"
+msgstr "Kod dwójokšacoweje awtentifikacije trjebny"
 
 #: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
@@ -1985,7 +1985,7 @@ msgstr "Rědy zastojaś"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "Pśizwólenje jo něnto <small class=\"card-subheader\">wót wašogo drugego rěda</small> trěbne"
+msgstr "Pśizwólenje jo něnto <small class=\"card-subheader\">wót wašogo drugego rěda</small> trjebne"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2023-10-27 20:22+0000\n"
+"PO-Revision-Date: 2024-07-24 16:42+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -82,7 +82,7 @@ msgstr "Konto Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
-msgstr "Aktualizacija Firefox trěbna"
+msgstr "Aktualizacija Firefox trjebna"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid ""
