@@ -305,6 +305,39 @@ plan-price-interval-day =
             [one] { $amount } ทุกวัน
            *[other] { $amount } ทุก { $intervalCount } วัน
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } ทุกสัปดาห์
+       *[other] { $amount } ทุก { $intervalCount } สัปดาห์
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ทุกสัปดาห์
+           *[other] { $amount } ทุก { $intervalCount } สัปดาห์
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } ทุกเดือน
+       *[other] { $amount } ทุก { $intervalCount } เดือน
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ทุกเดือน
+           *[other] { $amount } ทุก { $intervalCount } เดือน
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } ทุกปี
+       *[other] { $amount } ทุก { $intervalCount } ปี
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ทุกปี
+           *[other] { $amount } ทุก { $intervalCount } ปี
+        }
 
 ## Error messages
 

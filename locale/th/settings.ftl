@@ -19,6 +19,10 @@ link-expired-resent-code-error-message = มีบางอย่างผิด
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = ปิดแบนเนอร์
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } จะถูกเปลี่ยนชื่อเป็น { -product-mozilla-accounts } ในวันที่ 1 พ.ย. นี้
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -28,6 +32,12 @@ brand-prelaunch-subtitle = คุณจะยังลงชื่อเข้�
 brand-postlaunch-title = เราได้เปลี่ยนชื่อ{ -product-firefox-accounts } เป็น{ -product-mozilla-accounts } แล้ว คุณจะยังลงชื่อเข้าด้วยชื่อผู้ใช้และรหัสผ่านเดียวกันอยู่ และจะไม่มีการเปลี่ยนแปลงอื่นใดกับผลิตภัณฑ์ที่คุณใช้
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = เรียนรู้เพิ่มเติม
+# Alt text for close banner image
+brand-close-banner =
+    .alt = ปิดแบนเนอร์
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = โลโก้รูปตัว m ของ { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -38,14 +48,46 @@ brand-learn-more = เรียนรู้เพิ่มเติม
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = ดาวน์โหลดและดำเนินการต่อ
     .title = ดาวน์โหลดและดำเนินการต่อ
+recovery-key-pdf-heading = คีย์กู้คืนบัญชี
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = สร้างเมื่อ: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = คีย์กู้คืนบัญชี
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = คีย์นี้ช่วยให้คุณสามารถกู้คืนข้อมูลเบราว์เซอร์ที่มีการเข้ารหัสลับไว้ (รวมถึงรหัสผ่าน ที่คั่นหน้า และประวัติ) ในกรณีที่คุณลืมรหัสผ่านได้ โปรดเก็บคีย์นี้ไว้ในตำแหน่งที่คุณสามารถจำได้
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = ตำแหน่งที่จะเก็บคีย์ของคุณ
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = เรียนรู้เพิ่มเติมเกี่ยวกับคีย์กู้คืนบัญชีของคุณ
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = ขออภัย เกิดปัญหาในการดาวน์โหลดคีย์กู้คืนบัญชีของคุณ
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = รับประโยชน์เพิ่มเติมจาก { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = ข่าวสารล่าสุดเกี่ยวกับความปลอดภัยและความเป็นส่วนตัว
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = ทดสอบผลิตภัณฑ์ใหม่ๆ ก่อนใคร
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = โฆษณากระตุ้นการตัดสินใจเพื่อร่วมปฏิรูปอินเทอร์เน็ต
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = เลือกสิ่งที่จะซิงค์
 choose-what-to-sync-option-bookmarks =
     .label = ที่คั่นหน้า
 choose-what-to-sync-option-history =
@@ -61,6 +103,8 @@ choose-what-to-sync-option-prefs =
     .label = การกำหนดลักษณะ
 choose-what-to-sync-option-addresses =
     .label = ที่อยู่
+choose-what-to-sync-option-paymentmethods =
+    .label = วิธีการชำระเงิน
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -83,6 +127,26 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (โดยประมาณ)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (โดยประมาณ)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (โดยประมาณ)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (โดยประมาณ)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = ไม่ทราบตำแหน่งที่ตั้ง
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } ใน { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = ที่อยู่ IP: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
@@ -97,6 +161,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = ป้อนรหัสผ่านอีกครั้ง
 form-reset-password-with-balloon-submit-button = ตั้งรหัสผ่านใหม่
 form-reset-password-with-balloon-match-error = รหัสผ่านไม่ตรงกัน
+form-password-sr-too-short-message = รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
+form-password-sr-not-email-message = รหัสผ่านต้องไม่มีที่อยู่อีเมลของคุณ
+form-password-sr-not-common-message = รหัสผ่านต้องไม่ใช่รหัสผ่านที่ใช้กันทั่วไป
+form-password-sr-requirements-met = รหัสผ่านที่ป้อนเป็นไปตามข้อกำหนดทั้งหมด
+form-password-sr-passwords-match = รหัสผ่านที่ป้อนตรงกัน
 
 ## FormVerifyCode
 
@@ -107,10 +176,24 @@ form-verify-code-default-error = จำเป็นต้องกรอกช�
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = คีย์กู้คืนบัญชี { -brand-firefox }
+get-data-trio-title-backup-verification-codes = รหัสยืนยันตัวตนสำรอง
+get-data-trio-download-2 =
+    .title = ดาวน์โหลด
+    .aria-label = ดาวน์โหลด
+get-data-trio-copy-2 =
+    .title = คัดลอก
+    .aria-label = คัดลอก
+get-data-trio-print-2 =
+    .title = พิมพ์
+    .aria-label = พิมพ์
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = คอมพิวเตอร์และโทรศัพท์มือถือ ซึ่งมีภาพหัวใจสลายอยู่บนหน้าจอของแต่ละเครื่อง
+hearts-verified-image-aria-label =
+    .aria-label = คอมพิวเตอร์ โทรศัพท์มือถือ และแท็บเล็ต ซึ่งมีภาพหัวใจเต้นอยู่บนหน้าจอของแต่ละเครื่อง
 signin-recovery-code-image-description =
     .aria-label = เอกสารที่มีข้อความที่ซ่อนอยู่
 signin-totp-code-image-label =
@@ -118,10 +201,10 @@ signin-totp-code-image-label =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = ซ่อนรหัสผ่าน
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = แสดงรหัสผ่าน
-input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
-input-password-show-aria = แสดงรหัสผ่านในรูปข้อความธรรมดา รหัสผ่านของคุณจะปรากฏให้เห็นบนหน้าจอ
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = ย้อนกลับ
 
@@ -134,17 +217,8 @@ legal-back-button = ย้อนกลับ
 ## LinkExpiredResetPassword component
 
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = ลิงก์ยืนยันหมดอายุ
-signin-link-expired-message = ลิงก์ที่คุณได้คลิกเพื่อยืนยันอีเมลของคุณหมดอายุแล้ว
-
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = จำรหัสผ่านของคุณได้ใช่หรือไม่? ลงชื่อเข้า
 
 ## LinkUsed component
 
@@ -199,7 +273,6 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
@@ -209,7 +282,6 @@ bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = รับ { -brand-firefox } บนมือถือหรือแท็บเล็ต
-connect-another-find-fx-mobile = ค้นหา { -brand-firefox } ใน { -google-play } และ { -app-store } หรือ<br /><linkExternal>ส่งลิงก์ดาวน์โหลดไปยังอุปกรณ์ของคุณ</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -710,6 +782,10 @@ tfa-row-change-modal-explain = คุณจะไม่สามารถยก�
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = บัญชีที่ไม่รู้จัก
@@ -823,13 +899,24 @@ connect-another-device-signed-in-header = คุณได้ลงชื่อ�
 ## ResetPassword page
 
 
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
+
 ## CompleteSignin component
 
-
-## ConfirmSignin component
-
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = ลิงก์ยืนยันหมดอายุ
 
 ## Signin page
+
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
 
 
 ## SigninRecoveryCode page
@@ -851,9 +938,8 @@ connect-another-device-signed-in-header = คุณได้ลงชื่อ�
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page
