@@ -198,6 +198,21 @@ signin-recovery-code-image-description =
     .aria-label = เอกสารที่มีข้อความที่ซ่อนอยู่
 signin-totp-code-image-label =
     .aria-label = อุปกรณ์ที่มีรหัส 6 หลักซ่อนอยู่
+confirm-signup-aria-label =
+    .aria-label = ซองจดหมายซึ่งประกอบด้วยลิงก์
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = ภาพประกอบที่สื่อถึงคีย์กู้คืนบัญชี
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = ภาพประกอบที่สื่อถึงคีย์กู้คืนบัญชี
+lock-image-aria-label =
+    .aria-label = ภาพประกอบแม่กุญแจ
+lightbulb-aria-label =
+    .aria-label = ภาพประกอบที่สื่อถึงการสร้างคำใบ้ที่เก็บ
+email-code-image-aria-label =
+    .aria-label = ภาพประกอบที่สื่อถึงอีเมลที่ประกอบด้วยรหัส
 
 ## Input Password
 
