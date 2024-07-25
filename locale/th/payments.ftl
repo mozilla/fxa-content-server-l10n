@@ -6,6 +6,7 @@
 ## Component - AppLayout
 
 settings-home = หน้าแรกบัญชี
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -29,9 +30,11 @@ input-error-is-required = จำเป็นต้องกรอก { $label }
 
 ## Component - Header
 
+brand-name-mozilla-logo = โลโก้ { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+new-user-sign-in-link-2 = มี{ -product-mozilla-account } แล้วใช่ไหม? <a>ลงชื่อเข้า</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -39,6 +42,10 @@ new-user-enter-email =
     .label = ป้อนอีเมลของคุณ
 new-user-confirm-email =
     .label = ยืนยันอีเมลของคุณ
+new-user-subscribe-product-updates-mozilla = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -brand-mozilla }
+new-user-subscribe-product-updates-snp = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับความปลอดภัยและความเป็นส่วนตัวจาก { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -product-mozilla-hubs } และ { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -product-mdn-plus } และ { -brand-mozilla }
 new-user-subscribe-product-assurance = เราใช้อีเมลของคุณเพื่อสร้างบัญชีของคุณเท่านั้น เราจะไม่ขายให้กับบุคคลที่สาม
 new-user-email-validate = อีเมลไม่ถูกต้อง
 new-user-email-validate-confirm = อีเมลไม่ตรงกัน
@@ -89,6 +96,7 @@ payment-confirmation-download-button = ดำเนินการต่อเ�
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = ฉันอนุญาตให้ { -brand-mozilla } เรียกเก็บเงินจากวิธีการชำระเงินของฉันเป็นจำนวนเงินที่แสดง ตาม<termsOfServiceLink>เงื่อนไขการให้บริการ</termsOfServiceLink>และ<privacyNoticeLink>ประกาศความเป็นส่วนตัว</privacyNoticeLink> จนกว่าฉันจะยกเลิกการสมัครสมาชิก
 payment-confirm-checkbox-error = คุณจะต้องทำเครื่องหมายในช่องนี้ก่อนจึงจะไปต่อได้
 
 ## Component - PaymentErrorView
@@ -98,6 +106,10 @@ payment-error-manage-subscription-button = จัดการการสมั�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = คุณมีการสมัครสมาชิก { $productName } ผ่านร้านค้าแอปของ { -brand-google } หรือ { -brand-apple } อยู่แล้ว
+iap-upgrade-no-bundle-support = เราไม่รองรับการอัปเกรดสำหรับการสมัครสมาชิกเหล่านี้ แต่เราจะรองรับในเร็วๆ นี้
+iap-upgrade-contact-support = คุณยังสามารถรับผลิตภัณฑ์นี้ได้ โปรดติดต่อฝ่ายช่วยเหลือเพื่อให้เราสามารถช่วยเหลือคุณได้
 iap-upgrade-get-help-button = รับความช่วยเหลือ
 
 ## Component - PaymentForm
@@ -110,10 +122,16 @@ payment-cc =
 payment-cancel-btn = ยกเลิก
 payment-update-btn = อัปเดต
 payment-pay-btn = ชำระเงินตอนนี้
+payment-pay-with-paypal-btn-2 = ชำระเงินด้วย { -brand-paypal }
 payment-validate-name-error = โปรดป้อนชื่อของคุณ
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } ใช้ { -brand-name-stripe } และ { -brand-paypal } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } ใช้ { -brand-paypal } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
+payment-legal-link-paypal-3 = <paypalPrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } ใช้ { -brand-name-stripe } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
 payment-legal-link-stripe-3 = <stripePrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -133,6 +151,7 @@ payment-confirmation-cc-card-ending-in = หมายเลขบัตรลง
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = ชำระเงินด้วย { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -141,6 +160,7 @@ plan-details-list-price = ราคาขาย
 plan-details-show-button = แสดงรายละเอียด
 plan-details-hide-button = ซ่อนรายละเอียด
 plan-details-total-label = รวมทั้งหมด
+plan-details-tax = ภาษีและค่าธรรมเนียม
 
 ## Component - PlanErrorDialog
 
@@ -150,7 +170,96 @@ product-no-such-plan = ไม่มีแผนดังกล่าวสำห
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + ภาษี { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } ทุกวัน
+       *[other] { $priceAmount } ทุก { $intervalCount } วัน
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ทุกวัน
+           *[other] { $priceAmount } ทุก { $intervalCount } วัน
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } ทุกสัปดาห์
+       *[other] { $priceAmount } ทุก { $intervalCount } สัปดาห์
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ทุกสัปดาห์
+           *[other] { $priceAmount } ทุก { $intervalCount } สัปดาห์
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } ทุกเดือน
+       *[other] { $priceAmount } ทุก { $intervalCount } เดือน
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ทุกเดือน
+           *[other] { $priceAmount } ทุก { $intervalCount } เดือน
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } ทุกปี
+       *[other] { $priceAmount } ทุก { $intervalCount } ปี
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ทุกปี
+           *[other] { $priceAmount } ทุก { $intervalCount } ปี
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + ภาษี { $taxAmount } ทุกวัน
+       *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } วัน
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + ภาษี { $taxAmount } ทุกวัน
+           *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } วัน
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + ภาษี { $taxAmount } ทุกสัปดาห์
+       *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } สัปดาห์
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + ภาษี { $taxAmount } ทุกสัปดาห์
+           *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } สัปดาห์
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + ภาษี { $taxAmount } ทุกเดือน
+       *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } เดือน
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + ภาษี { $taxAmount } ทุกเดือน
+           *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } เดือน
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + ภาษี { $taxAmount } ทุกปี
+       *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } ปี
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + ภาษี { $taxAmount } ทุกปี
+           *[other] { $priceAmount } + ภาษี { $taxAmount } ทุก { $intervalCount } ปี
+        }
 
 ## Component - SubscriptionTitle
 
@@ -159,10 +268,14 @@ subscription-success-title = ยืนยันการสมัครสมา
 subscription-processing-title = กำลังยืนยันการสมัครสมาชิก…
 subscription-error-title = เกิดข้อผิดพลาดในการยืนยันการสมัครสมาชิก…
 subscription-noplanchange-title = ไม่รองรับการเปลี่ยนแผนการสมัครสมาชิกนี้
+subscription-iapsubscribed-title = เป็นสมาชิกอยู่แล้ว
 sub-guarantee = รับประกันคืนเงินภายใน 30 วัน
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = เงื่อนไขการให้บริการ
 privacy = ประกาศความเป็นส่วนตัว
 terms-download = ดาวน์โหลดข้อกำหนด
@@ -175,10 +288,23 @@ document =
 close-aria =
     .aria-label = ปิดโมดอล
 settings-subscriptions-title = การสมัครสมาชิก
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = รหัสโปรโมชัน
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } ทุกวัน
+       *[other] { $amount } ทุก { $intervalCount } วัน
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ทุกวัน
+           *[other] { $amount } ทุก { $intervalCount } วัน
+        }
 
 ## Error messages
 
