@@ -872,6 +872,9 @@ security-set-password = Set a password to sync and use certain account security 
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = View recent account activity
 
+signout-sync-header = Session Expired
+signout-sync-session-expired = Sorry, something went wrong. Please sign out from the browser menu and try again.
+
 ## Switch component
 
 # Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
