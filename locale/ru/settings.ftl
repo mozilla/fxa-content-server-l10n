@@ -827,6 +827,7 @@ security-set-password = Установите пароль для синхрон�
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Просмотр последних действий в аккаунте
 signout-sync-header = Время сессии истекло
+signout-sync-session-expired = Извините, что-то пошло не так. Пожалуйста, выйдите из меню браузера и попробуйте ещё раз.
 
 ## Switch component
 
