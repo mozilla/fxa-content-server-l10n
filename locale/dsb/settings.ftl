@@ -822,6 +822,8 @@ security-action-create = Napóraś
 security-set-password = Nastajśo gronidło, aby wěste wěstotne funkcije konta synchronizěrował a wužywał.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Nejnowšu kontowu aktiwitu pokazaś
+signout-sync-header = Pósejźenje jo spadnuło
+signout-sync-session-expired = Bóžko něco njejo se raźiło. Pšosym wótzjawśo se z menija wobglědowaka a wopytajśo hyšći raz.
 
 ## Switch component
 
