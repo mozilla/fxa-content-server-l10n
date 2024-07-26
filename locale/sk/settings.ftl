@@ -825,6 +825,8 @@ security-action-create = Vytvoriť
 security-set-password = Nastavte si heslo na synchronizáciu a používanie určitých funkcií zabezpečenia účtu.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Zobraziť nedávnu aktivitu účtu
+signout-sync-header = Relácia vypršala
+signout-sync-session-expired = Prepáčte, niečo sa pokazilo. Odhláste sa v ponuke prehliadača a skúste to znova.
 
 ## Switch component
 
