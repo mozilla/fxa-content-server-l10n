@@ -814,6 +814,8 @@ security-action-create = 创建
 security-set-password = 请设置密码以启用同步及使用更多账户安全功能。
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = 查看近期账户活动
+signout-sync-header = 会话已过期
+signout-sync-session-expired = 抱歉，出了点问题。请在浏览器菜单中退出登录，然后再重试。
 
 ## Switch component
 
