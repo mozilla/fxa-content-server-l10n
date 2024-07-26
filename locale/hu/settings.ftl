@@ -830,6 +830,8 @@ security-action-create = Létrehozás
 security-set-password = Állítson be jelszót a szinkronizáláshoz és bizonyos fiókbiztonsági funkciók használatához.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Legutóbbi fióktevékenységek megtekintése
+signout-sync-header = A munkamenet lejárt
+signout-sync-session-expired = Elnézést, hiba történt. Jelentkezzen ki a böngésző menüjéből, és próbálja újra.
 
 ## Switch component
 
