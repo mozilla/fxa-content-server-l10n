@@ -826,6 +826,8 @@ security-action-create = Ustvari
 security-set-password = Nastavite geslo za sinhronizacijo in uporabo nekaterih varnostnih možnosti računa.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Oglejte si nedavno dejavnost v računu
+signout-sync-header = Seja je potekla
+signout-sync-session-expired = Oprostite, prišlo je do napake. Odjavite se iz menija brskalnika in poskusite znova.
 
 ## Switch component
 
