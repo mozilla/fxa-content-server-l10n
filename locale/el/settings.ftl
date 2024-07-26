@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Οι κωδικοί πρόσβασης που
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Αυτό το πεδίο απαιτείται
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Υποβολή { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κινητά ή tablet
-connect-another-find-fx-mobile =
-    Βρείτε το { -brand-firefox } στο { -google-play } και στο { -app-store } ή
-    <br /><linkExternal>στείλτε έναν σύνδεσμο λήψης στη συσκευή σας.</linkExternal>
+connect-another-find-fx-mobile-2 = Βρείτε το { -brand-firefox } στο { -google-play } και το { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
