@@ -821,6 +821,8 @@ security-action-create = Créer
 security-set-password = Définissez un mot de passe pour synchroniser et utiliser certaines fonctionnalités de sécurité du compte.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Voir l’activité récente du compte
+signout-sync-header = Session expirée
+signout-sync-session-expired = Désolé, une erreur s'est produite. Veuillez vous déconnecter depuis le menu du navigateur puis réessayer.
 
 ## Switch component
 
