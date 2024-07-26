@@ -826,6 +826,8 @@ security-action-create = Creu
 security-set-password = Gosodwch gyfrinair i gydweddu a defnyddio rhai nodweddion diogelwch cyfrif.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Gweld gweithgaredd diweddar cyfrif
+signout-sync-header = Sesiwn wedi dod i ben
+signout-sync-session-expired = Mae'n ddrwg gennym, aeth rhywbeth o'i le. Allgofnodwch o ddewislen y porwr a cheisiwch eto.
 
 ## Switch component
 
