@@ -826,6 +826,7 @@ security-action-create = Создать
 security-set-password = Установите пароль для синхронизации и использования определенных функций безопасности учётной записи.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Просмотр последних действий в аккаунте
+signout-sync-header = Время сессии истекло
 
 ## Switch component
 
