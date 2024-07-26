@@ -824,6 +824,8 @@ security-action-create = Wutworić
 security-set-password = Nastajće hesło, zo byšće wěste wěstotne funkcije konta synchronizował a wužiwał.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Najnowšu kontowu aktiwitu pokazać
+signout-sync-header = Posedźenje je spadnyło
+signout-sync-session-expired = Bohužel něšto je so nimokuliło. Prošu wotzjewće so z menija wobhladowaka a spytajće hišće raz.
 
 ## Switch component
 
