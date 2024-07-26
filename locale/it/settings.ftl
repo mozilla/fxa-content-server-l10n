@@ -820,7 +820,7 @@ security-set-password = Imposta una password per sincronizzare e utilizzare spec
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Visualizza l’attività recente dell’account
 signout-sync-header = Sessione scaduta
-signout-sync-session-expired = Si è verificato un errore. Esci dal menu del browser e riprova.
+signout-sync-session-expired = Si è verificato un errore. Disconnettiti dal menu del browser e riprova.
 
 ## Switch component
 
