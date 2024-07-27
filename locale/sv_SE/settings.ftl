@@ -828,6 +828,8 @@ security-action-create = Skapa
 security-set-password = Ange ett lösenord för att synkronisera och använda vissa kontosäkerhetsfunktioner.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Visa senaste kontoaktivitet
+signout-sync-header = Sessionen upphörde
+signout-sync-session-expired = Tyvärr, något gick fel. Logga ut från webbläsarmenyn och försök igen.
 
 ## Switch component
 
