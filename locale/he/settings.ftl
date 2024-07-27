@@ -164,12 +164,6 @@ form-password-sr-passwords-match = הססמאות שהוזנו תואמות.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = שדה זה נדרש
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = שליחת { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -332,9 +326,6 @@ bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחשב לוח
-connect-another-find-fx-mobile =
-    ניתן למצוא את { -brand-firefox } ב־{ -google-play } וב־{ -app-store } או
-    <br /><linkExternal>לשלוח קישור להורדה למכשיר שלך.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -790,6 +781,8 @@ security-not-set = לא מוגדר
 security-action-create = יצירה
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = הצגת פעילות אחרונה בחשבון
+signout-sync-header = פג תוקף ההפעלה
+signout-sync-session-expired = משהו השתמש, עמך הסליחה. נא להתנתק מתפריט הדפדפן ולנסות שוב.
 
 ## Switch component
 
