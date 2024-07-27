@@ -812,6 +812,8 @@ security-action-create = 設定
 security-set-password = 設定密碼，方可使用同步功能與其他帳號安全相關功能。
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = 檢視近期帳號活動
+signout-sync-header = 登入階段已過期
+signout-sync-session-expired = 抱歉，有些東西不對勁，請從瀏覽器選單登出後再試一次。
 
 ## Switch component
 
