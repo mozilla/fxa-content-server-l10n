@@ -335,9 +335,7 @@ bento-menu-made-by-mozilla = Krijuar nga { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Merreni { -brand-firefox }-in për celular ose tablet
-connect-another-find-fx-mobile =
-    Gjejeni { -brand-firefox }-in te { -google-play } dhe { -app-store } ose
-    <br /><linkExternal>dërgoni një lidhje shkarkimi te pajisja juaj.</linkExternal>
+connect-another-find-fx-mobile-2 = Gjejeni { -brand-firefox }-in te { -google-play } dhe { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -826,6 +824,8 @@ security-action-create = Krijoje
 security-set-password = Caktoni një fjalëkalim për të njëkohësuar dhe përdorur disa veçori sigurie llogarie.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Shihni veprimtari së fundi në llogari
+signout-sync-header = Sesion i Skaduar
+signout-sync-session-expired = Na ndjeni, diç shkoi ters. Ju lutemi, dilni nga llogaria e shfletuesit që nga menuja e tij dhe riprovoni.
 
 ## Switch component
 
