@@ -828,6 +828,8 @@ security-action-create = Жасау
 security-set-password = Синхрондау және белгілі бір тіркелгінің қауіпсіздік мүмкіндіктерін пайдалану үшін парольді орнатыңыз.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Тіркелгінің жуырдағы белсенділігін қарау
+signout-sync-header = Сессия уақыты аяқталды
+signout-sync-session-expired = Кешіріңіз, бірдеңе дұрыс болмады. Браузер мәзірінен шығып, әрекетті қайталаңыз.
 
 ## Switch component
 
