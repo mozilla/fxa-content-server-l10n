@@ -1050,6 +1050,9 @@ pair-auth-complete-manage-devices-link = ਡਿਵਾਈਸਾਂ ਦਾ ਬੰ�
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
 # String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
@@ -1180,9 +1183,28 @@ reset-password-with-recovery-key-verified-continue-to-account = ਮੇਰੇ ਖ
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = ਅਸੀਂ <span>{ $email }</span> ਨੂੰ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਭੇਜਿਆ ਹੈ।
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = 10 ਮਿੰਟਾਂ ਦੇ ਵਿੱਚ ਵਿੱਚ 8 ਅੰਕਾਂ ਦਾ ਕੋਡ ਦਿਓ
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = ਜਾਰੀ ਰੱਖੋ
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = ਕੋਡ ਫੇਰ ਭੇਜੋ
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 
 ## ResetPassword start page
 
+password-reset-flow-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
+password-reset-body = ਆਪਣੀ ਈਮੇਲ ਦਿਓ ਅਤੇ ਅਸੀਂ ਤੁਹਾਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਭੇਜਾਂਗੇ।
+password-reset-email-input =
+    .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+password-reset-submit-button = ਮੈਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀਆਂ ਹਦਾਇਤਾਂ ਭੇਜੋ
 
 ## CompleteSignin component
 
@@ -1190,11 +1212,16 @@ reset-password-with-recovery-key-verified-continue-to-account = ਮੇਰੇ ਖ
 error-label = ਗਲਤੀ:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = …ਸਾਈਨ-ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = ਤਸਦੀਕ ਲਈ ਗਲਤੀ
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
+signin-link-expired-message-2 = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਸੀ ਜਾਂ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਜਾ ਚੁੱਕਾ ਹੈ।
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = <span>ਆਪਣੇ { -product-mozilla-account }</span> ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
@@ -1206,12 +1233,18 @@ signin-button = ਸਾਈਨ ਇਨ
 signin-header = ਸਾਈਨ ਇਨ
 signin-use-a-different-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 signin-forgot-password-link = ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
+signin-password-button-label = ਪਾਸਵਰਡ
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿੰਕ ਵਿੱਚ ਅੱਖਰ ਗੁੰਮ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਈਮੇਲ ਕਲਾਇਟ ਵਲੋਂ ਖ਼ਰਾਬ ਕੀਤੇ ਗਏ ਹੋ ਸਕਦੇ ਹਨ। ਸਿਰਨਾਵਾਂ ਲਿੰਕ ਨੂੰ ਧਿਆਨ ਨਾਲ ਕਾਪੀ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+report-signin-header = ਅਣ-ਅਧਿਕਾਰਤ ਸਾਈਨ-ਇਨ ਦੀ ਰਿਪੋਰਟ ਕਰਨੀ ਨੈ?
+report-signin-body = ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਪਹੁੰਚ ਦੀ ਕੋਸ਼ਿਸ਼ ਬਾਰੇ ਈਮੇਲ ਮਿਲੀ ਹੈ। ਕੀ ਤੁਸੀਂ ਇਸ ਸਰਗਰਮੀ ਨੂੰ ਸ਼ੱਕੀ ਵਜੋਂ ਰਿਪੋਰਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
+report-signin-submit-button = ਸਰਗਰਮੀ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
+report-signin-support-link = ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?
 signin-bounced-header = ਅਫ਼ਸੋਸ। ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕੀਤਾ ਹੈ।
 # $email (string) - The user's email.
 signin-bounced-message = ਸਾਡੇ ਵਲੋਂ { $email } ਨੂੰ ਭੇਜੀ ਤਸਦੀਕੀ ਈਮੇਲ ਬੇਰੰਗ ਪਰਤ ਆਈ ਅਤੇ ਤੁਹਾਡੇ { -brand-firefox } ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕਰ ਲਿਆ ਹੈ।
@@ -1291,10 +1324,16 @@ signin-totp-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾ�
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = ਇਸ ਸਾਇਨ ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕਰੋ
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = { $email } ਨੂੰ ਭੇਜੇ ਗਏ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ।
 signin-unblock-code-input = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 signin-unblock-submit-button = ਜਾਰੀ ਰੱਖੋ
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
+signin-unblock-code-incorrect-length = ਪਰਮਾਣੀਕਰਨ ਕੋਡ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
+signin-unblock-code-incorrect-format-2 = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਵਿੱਚ ਸਿਰਫ਼ ਅੱਖਰ ਅਤੇ/ਜਾਂ ਅੰਕ ਹੀ ਹੋ ਸਕਦੇ ਹਨ
+signin-unblock-resend-code-button = ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ
+signin-unblock-support-link = ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
