@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-04 20:08+0000\n"
-"PO-Revision-Date: 2024-07-27 13:41+0000\n"
+"PO-Revision-Date: 2024-07-27 13:44+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1989,23 +1989,23 @@ msgstr "ਆਪਣੇ ਫ਼਼ੋਨ ਜਾਂ ਟੇਬਲੇਟ ਉੱਤੇ Fire
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "ਆਪਣੇ ਸੰਭਾਲੇ ਹੋਏ ਪਾਸਵਰਡ, ਟੈਬਾਂ, ਬਰਾਊਜ਼ ਕਰਨ ਦੇ ਅਤੀਤ ਤੇ ਹੋਰਾਂ ਨੂੰ — ਆਪਣੇ ਸਭ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਵੇਖੋ।"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "ਮੇਰੇ ਕੋਲ ਮੋਬਾਈਲ ਲਈ Firefox ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾਇਲ ਡਿਵਾਈਸ ਲਈ ਪਹਿਲਾਂ ਹੀ Firefox ਮੌਜੂਦ ਹੈ ਤਾਂ ਆਪਣਾ ਸਿੰਕ ਹੁਣੇ ਸ਼ੁਰੂ ਕਰੋ।"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "ਮੇਰੇ ਕੋਲ ਮੋਬਾਈਲ ਲਈ Firefox ਨਹੀਂ ਹੈ"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਉੱਤੇ Firefox ਡਾਊਨਲੋਡ ਕਰੋ ਅਤੇ ਆਪਣੇ ਸਿੰਕ ਨੂੰ ਸ਼ੁਰੂ ਕਰੋ।"
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2021,7 +2021,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QR ਕੋਡ (ਸਕਰੀਨ ਦੇ ਵਿਚਾਲੇ ਮੌਜੂਦ ਹੈ)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
@@ -2029,7 +2029,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "ਸਿੰਕ ਲਈ ਜਾਰੀ ਰੱਖੋ"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
@@ -2057,23 +2057,23 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 
 #: .es5/templates/pair/unsupported.mustache:4
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "ਓਹ ਹੋ! ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਸੀਂ Firefox ਨਹੀਂ ਵਰਤ ਰਹੇ ਹੋ।"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Attention:"
-msgstr ""
+msgstr "ਸਾਵਧਾਨ:"
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ Firefox ਲਈ ਬਦਲੋ ਅਤੇ ਇਸ ਸਫ਼ੇ ਨੂੰ ਖੋਲ੍ਹੋ।"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Download Firefox"
-msgstr ""
+msgstr "Firefox ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ"
 
 #: .es5/templates/pair/unsupported.mustache:8
 msgid "Opens in new window"
-msgstr ""
+msgstr "ਨਵੀਂ ਵਿੰਡੋ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."

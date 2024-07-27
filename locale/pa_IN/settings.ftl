@@ -68,14 +68,15 @@ recovery-key-pdf-download-error = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੀ ਖਾ�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } ਤੋਂ ਹੋਰ ਲਵੋ:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = ਇੰਟਰਨੈੱਟ ਨੂੰ ਮਜ਼ਬੂਤ ਬਣਾਉਣ ਲਈ ਮਦਦ ਕਰੋ
-# Newsletter checklist item
 choose-newsletters-option-security-privacy =
     .label = ਸੁਰੱਖਿਆ ਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = ਨਵੇਂ ਉਤਪਾਦਾਂ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਛੇਤੀ ਪਹੁੰਚ
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = ਇੰਟਰਨੈੱਟ ਉੱਤੇ ਦਾਅਵਾ ਕਰਨ ਲਈ ਕਾਰਵਾਈ ਚੇਤਾਵਨੀਆਂ
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -98,8 +99,8 @@ choose-what-to-sync-option-prefs =
     .label = ਮੇਰੀ ਪਸੰਦ
 choose-what-to-sync-option-addresses =
     .label = ਸਿਰਨਾਵੇਂ
-choose-what-to-sync-option-creditcards =
-    .label = ਕਰੈਡਿਟ ਕਾਰਡ
+choose-what-to-sync-option-paymentmethods =
+    .label = ਭੁਗਤਾਨ ਦੇ ਢੰਗ
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -156,6 +157,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = ਪਾਸਵਰਡ ਮੁੜ ਲਿਖੋ
 form-reset-password-with-balloon-submit-button = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ
 form-reset-password-with-balloon-match-error = ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ
+form-password-sr-too-short-message = ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+form-password-sr-not-email-message = ਪਾਸਵਰਡ ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਰੱਖਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+form-password-sr-not-common-message = ਪਾਸਵਰਡ ਆਮ ਤੌਰ ਉੱਤੇ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+form-password-sr-requirements-met = ਦਿੱਤਾ ਪਾਸਵਰਡ ਸਾਰੀਆਂ ਪਾਸਵਰਡ ਸ਼ਰਤਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ।
+form-password-sr-passwords-match = ਦਿੱਤੇ ਗਏ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹਨ।
 
 ## FormVerifyCode
 
@@ -166,7 +172,6 @@ form-verify-code-default-error = ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹ�
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 get-data-trio-title-backup-verification-codes = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 get-data-trio-download-2 =
     .title = ਡਾਊਨਲੋਡ
@@ -198,13 +203,23 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਰਸਾਉਣ ਵਾਸਤੇ ਮਿਸਾਲ ਹੈ।
+lock-image-aria-label =
+    .aria-label = ਲਾਕ ਦੀ ਮਿਸਾਲ
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = ਪਾਸਵਰਡ ਲੁਕਾਓ
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = ਪਾਸਵਰਡ ਵੇਖਾਓ
-input-password-hide-aria = ਸਕਰੀਨ ਤੋਂ ਪਾਸਵਰਡ ਨੂੰ ਓਹਲੇ ਕਰੋ।
-input-password-show-aria = ਪਾਸਵਰਡ ਨੂੰ ਸਰਲ ਲਿਖਤ ਵਜੋਂ ਵੇਖਾਓ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦੇਵੇਗਾ।
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਇਸ ਵੇਲੇ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਇਸ ਵੇਲੇ ਓਹਲੇ ਹੈ।
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਇਸ ਵੇਲੇ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਹੁਣ ਲੁਕਵਾਂ ਹੈ।
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = ਪਿੱਛੇ
 
@@ -216,7 +231,10 @@ reset-pwd-link-damaged-header = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿ
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = ਤਸਦੀਕੀ ਲਿੰਕ ਖਰਾਬ ਸੀ
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = ਨੁਕਸਾਨਿਆ ਲਿੰਕ
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿੰਕ ਵਿੱਚ ਅੱਖਰ ਗੁੰਮ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਈਮੇਲ ਕਲਾਇਟ ਵਲੋਂ ਖ਼ਰਾਬ ਕੀਤੇ ਗਏ ਹੋ ਸਕਦੇ ਹਨ। ਸਿਰਨਾਵਾਂ ਲਿੰਕ ਨੂੰ ਧਿਆਨ ਨਾਲ ਕਾਪੀ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## LinkExpired component
@@ -231,17 +249,12 @@ reset-pwd-resend-link = ਨਵਾਂ ਲਿੰਕ ਮਿਲਿਆ
 reset-pwd-link-expired-header = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 reset-pwd-link-expired-message = ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਚੁੱਕੀ ਹੈ।
 
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
-signin-link-expired-message = ਤੁਹਾਡੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਾਲੇ ਲਿੰਕ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਕਲਿੱਕ ਕੀਤਾ ਹੈ, ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।
-
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ
+# immediately before remember-password-signin-link
+remember-password-text = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਯਾਦ ਰੱਖਣਾ ਹੈ?
+# link navigates to the sign in page
+remember-password-signin-link = ਸਾਈਨ ਇਨ
 
 ## LinkUsed component
 
@@ -250,6 +263,8 @@ primary-email-confirmation-link-reused = ਮੁੱਢਲਾ ਈਮੇਲ ਪਹ�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ਸਾਈਨ-ਇਨ ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ
 confirmation-link-reused-message = ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਗਿਆ ਸੀ, ਅਤੇ ਸਿਰਫ਼ ਇੱਕ ਵਾਰ ਹੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = ਖ਼ਰਾਬ ਬੇਨਤੀ
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -299,11 +314,10 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } ਬੇਂਟੋ ਮੇਨੂ
-bento-menu-firefox-title = { -brand-firefox } ਤਕਨੀਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੀ ਆਨਲਾਈਨ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸਿੱਝਣਾ ਸਿਖਾਉਂਦੀ ਹੈ।
-bento-menu-mozilla-title = { -brand-mozilla } ਟੈਕ ਹੈ, ਜੋ ਤੁਹਾਡੇ ਆਨਲਾਈਨ ਹੱਕਾਂ ਦੀ ਖ਼ਾਤਰ ਲੜਦਾ ਹੈ।
+bento-menu-title-3 = { -brand-mozilla } ਉਤਪਾਦ
+bento-menu-tagline = ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ ਲਈ { -brand-mozilla } ਵਲੋਂ ਹੋਰ ਉਤਪਾਦ
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } ਡੈਸਕਟਾਪ ਲਈ ਬਰਾਊਜ਼ਰ
@@ -313,7 +327,7 @@ bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
 ## Connect another device promo
 
 connect-another-fx-mobile = ਮੋਬਾਈਲ ਜਾਂ ਟੈਬਲੇਟ ਲਈ { -brand-firefox } ਲਵੋ
-connect-another-find-fx-mobile = { -google-play } ਅਤੇ { -app-store } ਵਿੱਚ { -brand-firefox } ਲੱਭੋ ਜਾਂ <br /><linkExternal>ਆਪਣੇ ਮੋਬਾਈਲ ਲਈ ਡਾਊਨਲੋਡ ਲਿੰਕ ਭੇਜੋ।</linkExternal>
+connect-another-find-fx-mobile-2 = { -google-play } ਅਤੇ { -app-store } ਵਿੱਚ { -brand-firefox } ਲੱਭੋ।
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -373,19 +387,14 @@ cs-sign-out-button = ਸਾਈਨ ਆਉਟ
 ## Data collection section
 
 dc-heading = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
-dc-subheader = { -product-firefox-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਮਦਦ
 dc-subheader-2 = { -product-mozilla-accounts } ਨੂੰ ਸੁਧਾਰਨ ਲਈ ਮਦਦ ਕਰੋ
-dc-subheader-content = { -product-firefox-accounts } ਨੂੰ ਤਕਨੀਕੀ ਅਤੇ ਤਾਲਮੇਲ ਡਾਟਾ { -brand-mozilla } ਨੂੰ ਭੇਜਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।
 dc-subheader-content-2 = { -product-mozilla-accounts } ਨੂੰ { -brand-mozilla } ਵੱਲ ਤਕਨੀਕੀ ਅਤੇ ਤਾਲਮੇਲ ਡਾਟਾ ਭੇਜਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।
-dc-opt-out-success = ਅਲਹਿਦਾ ਹੋਣਾ ਕਾਮਯਾਬ। { -product-firefox-accounts } { -brand-mozilla } ਨੂੰ ਕੋਈ ਵੀ ਤਕਨੀਕੀ ਜਾਂ ਤਾਲਮੇਲ ਡਾਟਾ ਨਹੀਂ ਭੇਜੇਗਾ।
-dc-opt-in-success = ਮੇਹਰਬਾਨੀ! ਇਹ ਡਾਟਾ ਸਾਂਝਾ ਕਰਨਾ { -product-firefox-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ।
 dc-opt-in-success-2 = ਮੇਹਰਬਾਨੀ! ਇਹ ਡਾਟਾ ਸਾਂਝਾ ਕਰਨਾ { -product-mozilla-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ।
 dc-opt-in-out-error-2 = ਅਫ਼਼ਸੋਸ, ਤੁਹਾਡੀ ਡਾਟਾ ਇਕੱਤਰ ਕਰਨ ਦੀ ਪਸੰਦ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ
 dc-learn-more = ਹੋਰ ਜਾਣੋ
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } ਮੇਨੂ
 drop-down-menu-title-2 = { -product-mozilla-account } ਮੇਨੂ
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
@@ -466,7 +475,6 @@ header-menu-open = ਮੇਨੂ ਬੰਦ ਕਰੋ
 header-menu-closed = ਸਾਈਟ ਨੇਵੀਗੇਸ਼ਨ ਮੇਨੂ
 header-back-to-top-link =
     .title = ਸਿਖਰ ਉੱਤੇ ਜਾਓ
-header-title = Firefox ਖਾਤਾ
 header-title-2 = { -product-mozilla-account }
 header-help = ਮਦਦ
 
@@ -588,13 +596,11 @@ delete-account-header =
     .title = ਖਾਤਾ ਹਟਾਓ
 delete-account-step-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 delete-account-step-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } ਡਾਟਾ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 delete-account-product-firefox-addons = { -brand-firefox } ਐਡ-ਆਨ
@@ -760,6 +766,7 @@ security-action-create = ਬਣਾਓ
 security-set-password = ਸਿੰਕ ਕਰਨ ਤੇ ਕੁਝ ਖਾਤਾ ਸੁਰੱਖਿਆ ਫ਼ੀਚਰ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ।
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = ਸੱਜਰੀ ਖਾਤਾ ਸਰਗਰਮੀ ਵੇਖੋ
+signout-sync-header = ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 
 ## Switch component
 
@@ -851,23 +858,11 @@ tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂ�
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro = ਜਾਰੀ ਰੱਖਣ ਕੇ ਤੁਸੀਂ ਸਹਿਮਤ ਇਹਨਾਂ ਨਾਲ ਹੁੰਦੇ ਹੋ:
-# This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = ਜਾਰੀ ਰੱਖਣ ਕੇ ਤੁਸੀਂ ਸਹਿਮਤ ਇਹਨਾਂ ਨਾਲ ਹੁੰਦੇ ਹੋ:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } ਦੀਆਂ <pocketTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</pocketTos> ਅਤੇ <pocketPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket }  <pocketTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</pocketTos> ਅਤੇ <pocketPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</pocketPrivacy>
-# link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = { -product-firefox-monitor } ਦੀਆਂ <monitorTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</monitorTos>
-# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</monitorTos>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } ਦੀਆਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</mozillaAccountsTos> ਅਤੇ <mozillaAccountsPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</mozillaAccountsPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy> ਨਾਲ ਸਹਿਮਤ ਹੋ
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <mozillaAccountsTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</mozillaAccountsTos> ਅਤੇ <mozillaAccountsPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</mozillaAccountsPrivacy> ਨਾਲ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ।
 
@@ -880,6 +875,10 @@ terms-privacy-agreement-default-2 = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀ�
 third-party-auth-options-or = ਜਾਂ
 continue-with-google-button = { -brand-google } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 continue-with-apple-button = { -brand-apple } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+
+## TotpInputGroup component
+## This component is composed of 6 or 8 single digit inputs for verification codes
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -910,7 +909,6 @@ auth-error-1011 = ਢੁੱਕਵੀਂ ਈਮੇਲ ਚਾਹੀਦੀ ਹੈ
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
-cannot-create-account-requirements = ਤੁਹਾਨੂੰ { -product-firefox-account } ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
 cannot-create-account-requirements-2 = ਤੁਹਾਨੂੰ { -product-mozilla-account } ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = ਹੋਰ ਜਾਣੋ
@@ -946,7 +944,6 @@ connect-another-device-ios-complete-setup-message = ਸੈੱਟਅੱਪ ਨੂ
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਚਾਹੀਦੇ ਹਨ
-cookies-disabled-enable-prompt = { -product-firefox-accounts } ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕੁਕੀਜ਼ ਅਤੇ ਲੋਕਲ ਸਟੋਰੇਜ ਸਮਰੱਥ ਕਰੋ। ਅਜਿਹਾ ਕਰਨਾ ਕਾਰਜ-ਸਮਰੱਥਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾ ਦੇਵੇਗਾ ਜਿਵੇਂ ਕਿ ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣਾ।
 cookies-disabled-enable-prompt-2 = ਤੁਹਾਡੇ { -product-mozilla-account } ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕੁਕੀਜ਼ ਅਤੇ ਲੋਕਲ ਸਟੋਰੇਜ ਸਮਰੱਥ ਕਰੋ। ਅਜਿਹਾ ਕਰਨਾ ਕਾਰਜ-ਸਮਰੱਥਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾ ਦੇਵੇਗਾ ਜਿਵੇਂ ਕਿ ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣਾ।
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
@@ -1181,23 +1178,23 @@ reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁ
 reset-password-with-recovery-key-verified-generate-new-key = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ
 reset-password-with-recovery-key-verified-continue-to-account = ਮੇਰੇ ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 
+## Confirm Reset Password With Code
+
+
+## ResetPassword start page
+
+
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = ਗਲਤੀ:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = …ਸਾਈਨ-ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
-
-## ConfirmSignin component
-
-confirm-signin-header = ਇਹ ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = { $email } ਨੂੰ ਭੇਜੇ ਗਏ ਸਾਈਨ-ਇਨ ਤਸਦੀਕੀਕਰਨ ਲਿੰਕ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 
 ## Signin page
 
-# Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = <span>ਆਪਣੇ { -product-firefox-account } ਲਈ</span> ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
@@ -1209,6 +1206,12 @@ signin-button = ਸਾਈਨ ਇਨ
 signin-header = ਸਾਈਨ ਇਨ
 signin-use-a-different-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 signin-forgot-password-link = ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = ਅਫ਼ਸੋਸ। ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕੀਤਾ ਹੈ।
 # $email (string) - The user's email.
 signin-bounced-message = ਸਾਡੇ ਵਲੋਂ { $email } ਨੂੰ ਭੇਜੀ ਤਸਦੀਕੀ ਈਮੇਲ ਬੇਰੰਗ ਪਰਤ ਆਈ ਅਤੇ ਤੁਹਾਡੇ { -brand-firefox } ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕਰ ਲਿਆ ਹੈ।
@@ -1250,10 +1253,6 @@ signin-reported-message = ਸਾਡੀ ਟੀਮ ਨੂੰ ਜਾਣਕਾਰੀ
 ## a 6-digit code that is sent to the user's email address.
 
 # String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = <span>ਆਪਣੇ { -product-firefox-account } ਲਈ</span> ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
-# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>ਆਪਣੇ { -product-mozilla-account }</span> ਲਈ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਦਿਓ
@@ -1288,13 +1287,14 @@ signin-totp-code-recovery-code-link = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸ�
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = { $email } ਨੂੰ ਭੇਜੇ ਤਸਦੀਕੀਕਰਨ ਲਿੰਕ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ
+signin-unblock-header = ਇਸ ਸਾਇਨ ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕਰੋ
+signin-unblock-code-input = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+signin-unblock-submit-button = ਜਾਰੀ ਰੱਖੋ
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1304,10 +1304,6 @@ confirm-signup-instruction = { $email } ਨੂੰ ਭੇਜੇ ਤਸਦੀਕ�
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਦਿਓ
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = <span>ਆਪਣੇ { -product-firefox-account } ਲਈ</span> ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਦਿਓ
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -1338,8 +1334,6 @@ signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = ਸਾਈਨ ਅੱਪ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੀ ਉਮਰ ਦੇਣੀ ਪਵੇਗੀ
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = ਅਸੀਂ ਕਿਉਂ ਪੁੱਛਦੇ ਹਾਂ?

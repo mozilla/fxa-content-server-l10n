@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = { -product-firefox-accounts } ਵਿੱਚ ਲਾਗਇਨ ਕਰਨਾ ਹੈ?
 session-verify-send-push-title-2 = ਤੁਹਾਡੇ { -product-mozilla-account } ਵਿੱਚ ਲਾਗ ਇਨ ਕਰਨਾ ਹੈ?
 session-verify-send-push-body-2 = ਇਹ ਤੁਸੀਂ ਹੀ ਹੋ, ਇਹ ਤਸਦੀਕ ਕਰਨ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ
 
@@ -8,18 +7,13 @@ session-verify-send-push-body-2 = ਇਹ ਤੁਸੀਂ ਹੀ ਹੋ, ਇਹ �
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } ਪਰਦੇਦਾਰੀ ਨੀਤੀ
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
-fxa-service-url = { -product-firefox-cloud } ਕਲਾਉਡ ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
-subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
 subplat-privacy-notice = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
@@ -28,26 +22,13 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ ਅਤੇ ਤੁਸੀਂ { $productName } ਲਈ ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਹੈ।
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ { $productName } ਲਈ ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਆਈ ਹੈ।
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ।
-subplat-explainer-multiple = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ ਅਤੇ ਤੁਸੀਂ ਕਈ ਉਤਪਾਦਾਂ ਲਈ ਮੈਂਬਰ ਬਣ ਚੁੱਕੇ ਹੋ।
 subplat-explainer-multiple-2 = { $email } ਨਾਲ { -product-mozilla-account } ਹੋਣ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਕਈ ਉਤਪਾਦਾਂ ਵਾਸਤੇ ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਆਈ ਹੈ।
-subplat-explainer-was-deleted = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } { -product-firefox-account } ਲਈ ਰਜਿਸਟਰ ਕੀਤੀ ਗਈ ਸੀ।
 subplat-explainer-was-deleted-2 = { -product-mozilla-account } ਲਈ { $email } ਰਜਿਸਟਰ ਕੀਤਾ ਹੋਣ ਕਰਕੇ ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ।
-subplat-manage-account = ਆਪਣੇ <a data-l10n-name="subplat-account-page">ਖਾਤਾ ਸਫ਼ੇ</a> ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ { -product-firefox-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ।
 subplat-manage-account-2 = ਆਪਣੇ <a data-l10n-name="subplat-account-page">ਖਾਤਾ ਸਫ਼ੇ</a> ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ { -product-mozilla-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = ਆਪਣੇ ਖਾਤਾ ਸਫ਼ੇ ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ { -product-firefox-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext-2 = ਆਪਣੇ ਖਾਤਾ ਸਫ਼ੇ ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਆਪਣੀਆਂ{ -product-mozilla-account } ਸੈਟਿੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ: { $accountSettingsUrl }
@@ -62,8 +43,6 @@ subplat-privacy-policy = { -brand-mozilla } ਪਰਦੇਦਾਰੀ ਨੀਤ�
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-cloud-terms = { -product-firefox-cloud } ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = ਕਨੂੰਨੀ
@@ -249,7 +228,6 @@ downloadSubscription-subject = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ
 downloadSubscription-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
 downloadSubscription-content-2 = ਆਓ ਤੁਹਾਡੀ ਮੈਂਬਰ ਵਿੱਚ ਸ਼ਾਮਲ ਸਭ ਫੀਚਰਾਂ ਨੂੰ ਵਰਤਣਾ ਸ਼ੁਰੂ ਕਰੀਏ:
 downloadSubscription-link-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
-fraudulentAccountDeletion-subject = ਤੁਹਾਡਾ { -product-firefox-account } ਹਟਾਇਆ ਗਿਆ ਸੀ
 fraudulentAccountDeletion-subject-2 = ਤੁਹਾਡਾ { -product-mozilla-account } ਹਟਾਇਆ ਗਿਆ ਸੀ
 fraudulentAccountDeletion-title = ਤੁਹਾਡਾ ਖਾਤਾ ਹਟਾਇਆ ਗਿਆ ਸੀ
 fraudulentAccountDeletion-contact = ਜੇ ਤੁਹਾਨੂੰ ਕੋਈ ਵੀ ਸਵਾਲ ਹੋਵੇ ਤਾਂ ਸਾਡੀ <a data-l10n-name="mozillaSupportUrl">ਸਹਿਯੋਗੀ ਟੀਮ</a> ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
@@ -275,7 +253,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ਲਈ ਨਵਾਂ ਸਾਈਨ-ਇਨ
-newDeviceLogin-title-2 = ਤੁਹਾਡਾ { -product-firefox-account } ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤਿਆ ਗਿਆ ਸੀ
+newDeviceLogin-subjectForMozillaAccount = ਤੁਹਾਡੇ { -product-mozilla-account } ਵਿੱਚ ਨਵਾਂ ਸਾਈਨ-ਇਨ
 newDeviceLogin-title-3 = ਤੁਹਾਡਾ { -product-mozilla-account } ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤਿਆ ਗਿਆ ਸੀ
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -286,15 +264,18 @@ newDeviceLogin-change-password-plain = ਤੁਸੀਂ ਨਹੀਂ? ਆਪਣ�
 newDeviceLogin-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 passwordChanged-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 passwordChanged-title = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ
-passwordChanged-description = ਤੁਹਾਡਾ { -product-firefox-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChanged-description-2 = ਤੁਹਾਡਾ{ -product-mozilla-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChangeRequired-subject = ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਗਈ ਹੈ
 passwordChangeRequired-title = ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਲੋੜ ਹੈ
 passwordChangeRequired-suspicious-activity-2 = ਅਸੀਂ ਤੁਹਾਡੇ { -product-mozilla-account } ਲਈ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਹੈ। ਤੁਹਾਡੇ { -product-mozilla-account } ਲਈ ਨਾ-ਪਰਾਮਣਿਤ ਪਹੁੰਚ ਨੂੰ ਰੋਕਣ ਵਾਸਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲੋਂ ਸਾਰੇ ਡਿਵਾਈਸ ਡਿਸ-ਕਨੈਕਟ ਕਰ ਦਿੱਤੇ ਹਨ ਅਤੇ ਸਾਵਧਾਨੀ ਦੇ ਵਜੋਂ ਤੁਹਾਨੂੰ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲਣਾ ਪਵੇਗਾ।
-passwordChangeRequired-sign-in = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਆਪਣਾ { -product-firefox-account } ਖਾਤਾ ਵਰਤਿਆ ਹੋਵੇ, ਉਸ ਡਿਵਾਈਸ ਜਾਂ ਸੇਵਾ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਤੁਹਾਨੂੰ ਦਿੱਤੀਆਂ ਹਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।
 passwordChangeRequired-sign-in-2 = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਆਪਣਾ { -product-mozilla-account } ਖਾਤਾ ਵਰਤਿਆ ਹੋਵੇ, ਉਸ ਡਿਵਾਈਸ ਜਾਂ ਸੇਵਾ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਤੁਹਾਨੂੰ ਦਿੱਤੀਆਂ ਹਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।
 passwordChangeRequired-different-password = <b>ਖਾਸ</b>: ਤੁਹਾਡੇ ਵਲੋਂ ਪਹਿਲਾਂ ਵਰਤੇ ਪਾਸਵਰਡ ਤੋਂ ਵੱਖਰਾ ਪਾਸਵਰਡ ਚੁਣੋ ਅਤੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਈਮੇਲ ਖਾਤੇ ਤੋਂ ਵੱਖਰਾ ਹੋਵੇ।
 passwordChangeRequired-different-password-plaintext = ਖਾਸ: ਤੁਹਾਡੇ ਵਲੋਂ ਪਹਿਲਾਂ ਵਰਤੇ ਪਾਸਵਰਡ ਤੋਂ ਵੱਖਰਾ ਪਾਸਵਰਡ ਚੁਣੋ ਅਤੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਈਮੇਲ ਖਾਤੇ ਤੋਂ ਵੱਖਰਾ ਹੋਵੇ।
+password-forgot-otp-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
+password-forgot-otp-title = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
+password-forgot-otp-request = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
+password-forgot-otp-code = ਜੇ ਹਾਂ ਤਾਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਡਾ ਤਸਦੀਕੀ-ਕੋਡ ਇਹ ਹੈ:
+password-forgot-otp-expiry-notice = ਇਹ ਕੋਡ ਦੀ ਮਿਆਦ 10 ਮਿੰਟ ਹੈ।
 passwordReset-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 passwordReset-title = ਤੁਹਾਡੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲਿਆ ਗਿਆ ਸੀ
 passwordReset-description = ਸਿੰਕ ਕਰਨਾ ਮੁੜ-ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹੋਰ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇਣ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
@@ -302,8 +283,6 @@ passwordResetAccountRecovery-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ �
 passwordResetAccountRecovery-title-2 = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ
 # Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = ਤੁਸੀਂ ਇਸ ਤੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਿਆ ਹੈ:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = ਆਪਣੀ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
 passwordResetAccountRecovery-regen-required-mjml-1 = ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਮੁੜ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ। ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੀ ਜਾ ਚੁੱਕੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਬਦਲ ਕੇ ਨਵੀਂ ਬਣਾਉਣਾ ਯਾਦ ਰੱਖੋ।
@@ -313,12 +292,10 @@ postAddAccountRecovery-subject-3 = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ 
 postAddAccountRecovery-title2 = ਤੁਸੀਂ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਹੈ
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = ਇਸ ਕੁੰਜੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਥਾਂ ਉੱਤੇ ਰੱਖੋ — ਜੇ ਕਦੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਤਾਂ ਤੁਹਾਨੂੰ ਇਹ ਆਪਣੇ ਇੰਕ੍ਰਿਪਟ ਕੀਤੇ ਬਰਾਊਜ਼ਿੰਗ ਡਾਟੇ ਨੂੰ ਬਹਾਲ ਕਰਨ ਲਈ ਚਾਹੀਦੀ ਹੋਵੇਗੀ।
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = ਇਹ ਕੁੰਜੀ ਸਿਰਫ਼ ਇੱਕ ਹੀ ਵਾਰ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ। ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਣ ਦੇ ਬਾਅਦ ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਆਪਣੇ-ਆਪ ਨਵੀਂ ਬਣਾ ਦੇਵਾਂਗੇ। ਜਾਂ ਤੁਸੀਂ ਆਪਣੀਆਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਜਾ ਕੇ ਕਦੇ ਵੀ ਨਵੀਂ ਬਣਾ ਸਕਦੇ ਹੋ।
 postAddAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-postAddLinkedAccount-subject = { -brand-firefox } ਨਾਲ ਨਵਾਂ ਖਾਤਾ ਲਿੰਕ ਕੀਤਾ
 postAddLinkedAccount-subject-2 = ਤੁਹਾਡੇ { -product-mozilla-account } ਨਾਲ ਨਵਾਂ ਖਾਤਾ ਲਿੰਕ ਕੀਤਾ ਗਿਆ
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = ਤੁਹਾਡਾ { $providerName } ਖਾਤਾ ਤੁਹਾਡੇ { -product-firefox-account } ਨਾਲ ਲਿੰਕ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = oੁਹਾਡੇ { $providerName } ਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਨਾਲ ਲਿੰਕ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ
@@ -368,7 +345,6 @@ postRemoveTwoStepAuthentication-not-required-2 = ਸਾਈਨ ਇਨ ਕਰਨ �
 postVerify-sub-title-3 = ਸਾਨੂੰ ਤੁਹਾਨੂੰ ਮਿਲ ਕੇ ਖੁਸ਼ੀ ਹੋਈ!
 postVerify-title-2 = ਦੋ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਇੱਕੋ ਟੈਬ ਵੇਖਣੀ ਚਾਹੁੰਦੇ ਹੋ?
 postVerify-description-2 = ਸੌਖਾ ਹੀ ਹੈ! ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ { -brand-firefox } ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਸਿੰਕ ਕਰਨ ਲਈ ਲਾਗਇਨ ਕਰੋ। ਜਾਦੂ ਮੰਤਰ ਵਾਗੂੰ!
-postVerify-subject-3 = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
 postVerify-subject-4 = { -brand-mozilla } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
 postVerify-setup-2 = ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ:
 postVerify-action-2 = ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਕਰੋ
@@ -377,8 +353,6 @@ postVerifySecondary-title = ਸਹਾਇਕ ਈਮੇਲ ਜੋੜਿਆ ਗਿ�
 postVerifySecondary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 recovery-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
 recovery-title-2 = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
-# Information on the device, date and time of the request that triggered the email follows.
-recovery-request-origin = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-firefox-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
 recovery-new-password-button = ਹੇਠ ਦਿੱਤੇ ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰਕੇ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਲਿੰਕ ਦੀ ਮਿਆਦ ਅਗਲੇ ਘੰਟੇ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
@@ -394,20 +368,16 @@ subscriptionAccountFinishSetup-subject = { $productName } ਲਈ ਜੀ ਆਇ�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
-subscriptionAccountFinishSetup-content-create-2 = ਅੱਗੇ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰੀ ਵਰਤਣ ਲਈ { -product-firefox-account } ਪਾਸਵਰਡ ਬਣਾਉਂਗੇ।
 subscriptionAccountFinishSetup-content-create-3 = ਅੱਗੇ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰੀ ਵਰਤਣ ਲਈ { -product-mozilla-account } ਪਾਸਵਰਡ ਬਣਾਉਂਗੇ।
 subscriptionAccountFinishSetup-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
 subscriptionAccountReminderFirst-subject = ਸੂਚਨਾ: ਆਪਣਾ ਖਾਤੇ ਦੇ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ
 subscriptionAccountReminderFirst-title = ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਹਾਲੇ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ
-subscriptionAccountReminderFirst-content-info-2 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-firefox-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਹਾਲੇ ਤੱਕ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨਾ ਪੂਰਾ ਕਰੋਗੇ ਤਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰ ਵਰਤ ਸਕੋ।
 subscriptionAccountReminderFirst-content-info-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਹਾਲੇ ਤੱਕ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨਾ ਪੂਰਾ ਕਰੋਗੇ ਤਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰ ਵਰਤ ਸਕੋ।
 subscriptionAccountReminderFirst-content-select-2 = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਵਾਸਤੇ “ਪਾਸਵਰਡ ਬਣਾਓ” ਨੂੰ ਚੁਣੋ ਅਤੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਪੂਰਾ ਕਰੋ।ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿਚ
 subscriptionAccountReminderFirst-action = ਪਾਸਵਰਡ ਬਣਾਓ
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = ਆਖਰੀ ਰਿਮਾਈਂਡਰ: ਆਪਣਾ ਖਾਤਾ ਸੈਟਅੱਪ  ਕਰੋ
-subscriptionAccountReminderSecond-title = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
-subscriptionAccountReminderSecond-content-info-2 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-firefox-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਹਾਲੇ ਤੱਕ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨਾ ਪੂਰਾ ਕਰੋਗੇ ਤਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰ ਵਰਤ ਸਕੋ।
 subscriptionAccountReminderSecond-content-info-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਹਾਲੇ ਤੱਕ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨਾ ਪੂਰਾ ਕਰੋਗੇ ਤਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰ ਵਰਤ ਸਕੋ।
 subscriptionAccountReminderSecond-content-select-2 = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਵਾਸਤੇ “ਪਾਸਵਰਡ ਬਣਾਓ” ਨੂੰ ਚੁਣੋ ਅਤੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਪੂਰਾ ਕਰੋ।
 subscriptionAccountReminderSecond-action = ਪਾਸਵਰਡ ਬਣਾਓ
@@ -496,26 +466,19 @@ verificationReminderFinal-subject = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ �
 confirm-account = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
-verificationReminderFirst-title-2 = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
 verificationReminderFirst-title-3 = { -brand-mozilla } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
-verificationReminderFirst-description-2 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-firefox-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 15 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
 verificationReminderFirst-description-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 15 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
 verificationReminderFirst-sub-description-3 = ਬਰਾਊਜ਼ਰ, ਜੋ ਤੁਹਾਨੂੰ ਅਤੇ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਨੂੰ ਪਹਿਲ ਦਿੰਦਾ ਹੈ, ਨੂੰ ਨਾ ਭੁਲਾਓ।
 confirm-email-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verificationReminderSecond-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
-verificationReminderSecond-title-2 = { -brand-firefox } ਨੂੰ ਖੁੰਝ ਨਾ ਜਾਇਓ
 verificationReminderSecond-title-3 = { -brand-mozilla } ਨੂੰ ਖੁੰਝ ਨਾ ਜਾਇਓ
-verificationReminderSecond-description-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-firefox-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 10 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
 verificationReminderSecond-description-4 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਇਸ ਦੀ ਤਸਦੀਕ ਕਦੇ ਨਹੀਂ ਕੀਤੀ ਸੀ। ਅਗਲੇ 10 ਦਿਨਾਂ ਵਿੱਚ ਆਪਣੇ ਖਾਤੇ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਨਹੀਂ ਤਾਂ ਇਹ ਆਪਣੇ-ਆਪ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।
-verificationReminderSecond-second-description = ਤੁਹਾਡਾ { -product-firefox-account } ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਨੂੰ ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ ਸਿੰਕ ਕਰਨ ਅਤੇ { -brand-mozilla } ਤੋਂ ਹੋਰ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸੁਰੱਖਿਅਤ ਉਤਪਾਦਾਂ ਲਈ ਪਹੁੰਚ ਦੇਣ ਦਾ ਵਸੀਲਾ ਹੈ।
 verificationReminderSecond-second-description-3 = ਤੁਹਾਡਾ { -product-mozilla-account } ਤੁਹਾਡੇ { -brand-firefox } ਤਜਰਬੇ ਨੂੰ ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ ਸਿੰਕ ਕਰਨ ਅਤੇ { -brand-mozilla } ਤੋਂ ਹੋਰ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸੁਰੱਖਿਅਤ ਉਤਪਾਦਾਂ ਲਈ ਪਹੁੰਚ ਦੇਣ ਦਾ ਵਸੀਲਾ ਹੈ।
 verificationReminderSecond-sub-description-2 = ਇੰਟਰਨੈੱਟ ਨੂੰ ਹਰ ਕਿਸੇ ਲਈ ਆਜ਼ਾਦ ਥਾਂ ਬਣਾਉਣ ਦੇ ਸਾਡੇ ਮਕਸਦ ਦਾ ਹਿੱਸਾ ਬਣੋ।
 verificationReminderSecond-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
-verify-title-2 = { -brand-firefox } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
 verify-title-3 = { -brand-mozilla } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
-verify-description = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਕੇ { -brand-firefox } ਤੋਂ ਭਰਪੂਰ ਫਾਇਦਾ ਲਵੋ, ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਇਸ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ:
 verify-description-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ ਅਤੇ ਹਰੇਕ ਥਾਂ ਉੱਤੇ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ { -brand-mozilla } ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਫਾਇਦਾ ਲਵੋ।
 verify-subject = ਆਪਣਾ ਖਾਤਾ ਬਣਾਉਣਾ ਮੁਕੰਮਲ ਕਰੋ
 verify-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
@@ -549,10 +512,7 @@ verifySecondaryCode-expiry-notice-2 = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
-verifyShortCode-title-2 = { -brand-firefox } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
 verifyShortCode-title-3 = { -brand-mozilla } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਕੇ { -brand-firefox } ਤੋਂ ਭਰਪੂਰ ਫਾਇਦਾ ਲਵੋ, ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਇਸ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ:
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ ਅਤੇ ਹਰੇਕ ਥਾਂ ਉੱਤੇ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ { -brand-mozilla } ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਫਾਇਦਾ ਲਵੋ।
 verifyShortCode-prompt-3 = ਇਹ ਤਸਦੀਕੀ ਕੋਡ ਵਰਤੋ:
