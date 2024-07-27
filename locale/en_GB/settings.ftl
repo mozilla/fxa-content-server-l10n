@@ -828,6 +828,8 @@ security-action-create = Create
 security-set-password = Set a password to synchronise and use certain account security features.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = View recent account activity
+signout-sync-header = Session Expired
+signout-sync-session-expired = Sorry, something went wrong. Please sign out from the browser menu and try again.
 
 ## Switch component
 
