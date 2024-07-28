@@ -335,6 +335,7 @@ bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
 ## Connect another device promo
 
 connect-another-fx-mobile = Pobierz { -brand-firefox(case: "acc") } na telefon lub tablet
+connect-another-find-fx-mobile-2 = Znajdź { -brand-firefox(case: "acc") } w { -google-play } lub { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -826,6 +827,7 @@ security-set-password = Ustaw hasło, aby synchronizować i korzystać z czę�
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ostatnie działania na koncie
 signout-sync-header = Sesja wygasła
+signout-sync-session-expired = Coś się nie powiodło. Proszę wylogować się z menu przeglądarki i spróbować ponownie.
 
 ## Switch component
 
