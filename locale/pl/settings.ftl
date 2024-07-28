@@ -172,12 +172,6 @@ form-password-sr-passwords-match = Wpisane hasła są zgodne.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = To pole jest wymagane
 
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Wyślij { $codeValue }
-
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -341,9 +335,6 @@ bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
 ## Connect another device promo
 
 connect-another-fx-mobile = Pobierz { -brand-firefox(case: "acc") } na telefon lub tablet
-connect-another-find-fx-mobile =
-    Znajdź { -brand-firefox(case: "acc") } w sklepie { -google-play } lub { -app-store } albo
-    <br /><linkExternal>wyślij odnośnik do pobrania na swoje urządzenie.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -834,6 +825,7 @@ security-action-create = Utwórz
 security-set-password = Ustaw hasło, aby synchronizować i korzystać z części funkcji bezpieczeństwa konta.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ostatnie działania na koncie
+signout-sync-header = Sesja wygasła
 
 ## Switch component
 
