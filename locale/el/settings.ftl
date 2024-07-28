@@ -830,6 +830,8 @@ security-action-create = Δημιουργία
 security-set-password = Ορίστε έναν κωδικό πρόσβασης για συγχρονισμό και χρήση συγκεκριμένων λειτουργιών ασφαλείας του λογαριασμού.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Προβολή πρόσφατης δραστηριότητας λογαριασμού
+signout-sync-header = Η συνεδρία έληξε
+signout-sync-session-expired = Δυστυχώς, κάτι πήγε στραβά. Παρακαλούμε αποσυνδεθείτε από το μενού του προγράμματος περιήγησης και δοκιμάστε ξανά.
 
 ## Switch component
 
