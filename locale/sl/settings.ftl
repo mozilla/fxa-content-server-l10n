@@ -335,7 +335,7 @@ bento-menu-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
 ## Connect another device promo
 
 connect-another-fx-mobile = Prenesite si { -brand-firefox } na telefon ali tablični računalnik
-connect-another-find-fx-mobile-2 = Poiščite { -brand-firefox } v { -google-play } in { -app-store }.
+connect-another-find-fx-mobile-2 = Poiščite { -brand-firefox } v trgovini { -google-play } in { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -827,7 +827,7 @@ security-set-password = Nastavite geslo za sinhronizacijo in uporabo nekaterih v
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Oglejte si nedavno dejavnost v računu
 signout-sync-header = Seja je potekla
-signout-sync-session-expired = Oprostite, prišlo je do napake. Odjavite se iz menija brskalnika in poskusite znova.
+signout-sync-session-expired = Oprostite, prišlo je do napake. V meniju brskalnika se odjavite in poskusite znova.
 
 ## Switch component
 
