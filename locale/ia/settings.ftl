@@ -827,6 +827,8 @@ security-action-create = Crear
 security-set-password = Defini un contrasigno pro synchronisar e usar certe functionalitates de securitate del conto.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Vider activitate de conto recente
+signout-sync-header = Session expirate
+signout-sync-session-expired = Un error ha occurrite. Claude iste session e retenta.
 
 ## Switch component
 
