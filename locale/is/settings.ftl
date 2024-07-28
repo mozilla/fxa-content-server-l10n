@@ -822,6 +822,8 @@ security-action-create = Búa til
 security-set-password = Settu lykilorð til að samstilla og nota ákveðna öryggiseiginleika reikningsins.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Skoða nýlega virkni á reikningi
+signout-sync-header = Lotan er útrunnin
+signout-sync-session-expired = Því miður, eitthvað fór úrskeiðis. Skráðu þig út í gegnum valmynd vafrans og reyndu aftur.
 
 ## Switch component
 
