@@ -646,6 +646,7 @@ delete-account-continue-button = Parhau
 delete-account-password-input =
     .label = Rhowch gyfrinair
 pocket-delete-notice = Os ydych yn tanysgrifio i Pocket Premium, gwnewch yn siŵr eich bod yn <a>diddymu'ch tanysgrifiad</a> cyn dileu eich cyfrif.
+pocket-delete-notice-marketing = Er mwyn peidio â derbyn e-byst marchnata gan Mozilla Corporation a Mozilla Foundation, rhaid <a>gofyn am ddileu eich data marchnata.</a>
 delete-account-cancel-button = Diddymu
 delete-account-delete-button-2 = Dileu
 
@@ -985,6 +986,7 @@ auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-159 = Allwedd adfer cyfrif annilys
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-999 = Gwall anhysbys
+auth-error-1001 = Diddymwyd yr ymgais i fewngofnodi
 auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
 auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
