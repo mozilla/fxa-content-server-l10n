@@ -650,6 +650,7 @@ delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
 pocket-delete-notice = Pokud jste si předplatili Pocket Premium, ujistěte se, že jste před smazáním účtu <a>zrušili své předplatné</a>.
+pocket-delete-notice-marketing = Chcete-li ukončit zasílání marketingových e-mailů od společností Mozilla Corporation a Mozilla Foundation, musíte <a>požádat o výmaz svých marketingových dat</a>.
 delete-account-cancel-button = Zrušit
 delete-account-delete-button-2 = Smazat
 
@@ -980,6 +981,7 @@ auth-error-155 = TOTP token nenalezen
 auth-error-159 = Neplatný obnovovací klíč k účtu
 auth-error-183-2 = Neplatný nebo starý potvrzovací kód
 auth-error-999 = Neočekávaná chyba
+auth-error-1001 = Pokus o přihlášení zrušen
 auth-error-1002 = Relace vypršela. Pro pokračování se přihlaste.
 auth-error-1003 = Místní úložiště nebo cookies jsou stále zakázány
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
