@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-04 20:08+0000\n"
+"POT-Creation-Date: 2024-07-29 20:08+0000\n"
 "PO-Revision-Date: 2024-05-19 03:34+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_password.mustache:10 .es5/templates/pair/failure.mustache:3
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
@@ -2002,8 +2002,8 @@ msgid "Pairing not successful"
 msgstr "페어링에 실패했습니다"
 
 #: .es5/templates/pair/failure.mustache:2
-msgid "The setup process was terminated."
-msgstr "설정 과정이 종료되었습니다."
+msgid "The setup process was terminated. Please sign in with your email."
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
