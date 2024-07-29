@@ -211,6 +211,8 @@ lock-image-aria-label =
     .aria-label = 錠前のイラスト
 lightbulb-aria-label =
     .aria-label = ストレージヒントの作成を表すイラスト。
+email-code-image-aria-label =
+    .aria-label = コードを含む電子メールを表す図。
 
 ## Input Password
 
@@ -331,6 +333,7 @@ bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = モバイルまたはタブレット上で { -brand-firefox } を入手する
+connect-another-find-fx-mobile-2 = { -google-play } と { -app-store } で { -brand-firefox } を見つけます。
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -636,6 +639,7 @@ delete-account-continue-button = 続ける
 delete-account-password-input =
     .label = パスワードを入力してください
 pocket-delete-notice = Pocket Premium を購読している場合は、アカウントを削除する前に必ず <a>購読をキャンセル</a> してください。
+pocket-delete-notice-marketing = Mozilla Corporation および Mozilla Foundation からのマーケティング メールの受信を停止するには、<a>マーケティングデータの削除をリクエスト</a>する必要があります。
 delete-account-cancel-button = キャンセル
 delete-account-delete-button-2 = 削除
 
@@ -767,7 +771,7 @@ tfa-enter-totp-v2 = 次に、認証アプリからの認証コードを入力し
 tfa-input-enter-totp-v2 =
     .label = 認証コードを入力
 tfa-save-these-codes-1 = これらのワンタイム使用のバックアップ認証コードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
-tfa-enter-code-to-confirm-1 = 保存できたことを確認するためにバックアップ認証コードを 1 個入力してください。こららのコードは、モバイル端末を持っていない場合に必要になります。
+tfa-enter-code-to-confirm-1 = 保存できたことを確認するためにバックアップ認証コードを 1 個入力してください。これらのコードは、モバイル端末を持っていない場合に必要になります。
 tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
@@ -809,6 +813,8 @@ security-action-create = 作成
 security-set-password = パスワードを設定して同期し、特定のアカウントのセキュリティ機能を使用してください。
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = 最近のアカウント利用情報を見る
+signout-sync-header = セッションの有効期限切れ
+signout-sync-session-expired = 申し訳ございません。問題が発生しました。ブラウザーのメニューからログアウトして、もう一度お試しください。
 
 ## Switch component
 
@@ -964,6 +970,7 @@ auth-error-155 = TOTP トークンが見つかりません
 auth-error-159 = 無効なアカウント回復用キー
 auth-error-183-2 = 確認コードが不正または有効期限切れです
 auth-error-999 = 予期しないエラー
+auth-error-1001 = ログイン試行がキャンセルされました
 auth-error-1002 = セッションの期限が切れました。続けるにはログインしてください。
 auth-error-1003 = ローカルストレージまたは Cookie が無効になっています
 auth-error-1008 = 新しいパスワードは別のものにしてください
@@ -1301,6 +1308,7 @@ confirm-reset-password-otp-different-account-link = 別のアカウントを使�
 
 ## ResetPassword start page
 
+password-reset-flow-heading = パスワードをリセット
 password-reset-body = メールアドレスを入力すると、本人確認のための確認コードを送信します。
 password-reset-email-input =
     .label = メールアドレスを入力
