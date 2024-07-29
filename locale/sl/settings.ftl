@@ -648,6 +648,7 @@ delete-account-continue-button = Nadaljuj
 delete-account-password-input =
     .label = Vnesite geslo
 pocket-delete-notice = Če ste naročeni na Pocket Premium, pred izbrisom računa <a>prekličite naročnino</a>.
+pocket-delete-notice-marketing = Če želite prenehati prejemati trženjska sporočila Mozille Corporation in Mozilla Foundation, <a>zahtevajte izbris svojih trženjskih podatkov.</a>
 delete-account-cancel-button = Prekliči
 delete-account-delete-button-2 = Izbriši
 
@@ -989,6 +990,7 @@ auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-159 = Neveljaven ključ za obnovitev računa
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-999 = Nepričakovana napaka
+auth-error-1001 = Poskus prijave preklican
 auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.
 auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
 auth-error-1008 = Novo geslo mora biti drugačno
