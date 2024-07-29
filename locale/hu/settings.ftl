@@ -652,6 +652,7 @@ delete-account-continue-button = Folytatás
 delete-account-password-input =
     .label = Adja meg a jelszót
 pocket-delete-notice = Ha előfizet a Pocket Premiumra, akkor győződjön meg arról, hogy <a>lemondta meg az előfizetését</a>, mielőtt törölné a fiókját.
+pocket-delete-notice-marketing = Ha nem szeretne több marketinges e-mailt kapni a Mozilla Corporationtől és a Mozilla Foundationtől, <a>kérnie kell marketingadatainak törlését</a>.
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
@@ -993,6 +994,7 @@ auth-error-155 = A TOTP token nem található
 auth-error-159 = Érvénytelen fiók-helyreállítási kulcs
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-999 = Nem várt hiba
+auth-error-1001 = Bejelentkezési kísérlet megszakítva
 auth-error-1002 = A munkamenet lejárt. Jelentkezzen be a folytatáshoz.
 auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
