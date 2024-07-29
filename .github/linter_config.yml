@@ -28,6 +28,7 @@ CO01:
             - product-firefox-monitor
             - product-firefox-relay
             - header-title
+            - pocket-delete-notice-marketing
 # Variable comments
 VC:
     disabled: true
