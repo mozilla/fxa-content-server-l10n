@@ -335,9 +335,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
 ## Connect another device promo
 
 connect-another-fx-mobile = { -brand-firefox }’u mobil cihazınıza veya tabletinize indirin
-connect-another-find-fx-mobile =
-    { -google-play }’de ve { -app-store }’da { -brand-firefox }’u arayabilir veya
-    <br /><linkExternal>cihazınıza indirme bağlantısı gönderebilirsiniz.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -821,6 +818,8 @@ security-action-create = Oluştur
 security-set-password = Eşitleme yapmak ve belirli hesap güvenlik özelliklerini kullanmak için parolanızı belirleyin.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Son hesap etkinliklerini görüntüle
+signout-sync-header = Oturumun süresi doldu
+signout-sync-session-expired = Bir şeyler yanlış gitti. Lütfen tarayıcı menüsünden çıkış yapıp yeniden deneyin.
 
 ## Switch component
 
