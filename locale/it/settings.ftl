@@ -641,6 +641,7 @@ delete-account-continue-button = Continua
 delete-account-password-input =
     .label = Inserire la password
 pocket-delete-notice = Se sei abbonato a Pocket Premium, assicurati di <a>annullare l’abbonamento</a> prima di eliminare il tuo account.
+pocket-delete-notice-marketing = Per non ricevere più email di marketing da Mozilla Corporation e Mozilla Foundation, è necessario <a>richiedere la cancellazione dei dati di marketing.</a>
 delete-account-cancel-button = Annulla
 delete-account-delete-button-2 = Elimina
 
@@ -972,6 +973,7 @@ auth-error-155 = Token TOTP non trovato
 auth-error-159 = Chiave di recupero dell’account non valida
 auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-999 = Errore imprevisto
+auth-error-1001 = Tentativo di accesso annullato
 auth-error-1002 = La sessione è scaduta. Accedi per continuare.
 auth-error-1003 = L’archiviazione locale o i cookie sono ancora disattivati
 auth-error-1008 = La nuova password deve essere diversa
