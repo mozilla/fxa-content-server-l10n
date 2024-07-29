@@ -832,6 +832,8 @@ security-action-create = Crear
 security-set-password = Definescha in pled-clav per sincronisar ed utilisar tschertas funcziuns da segirezza dal conto.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Mussar las activitads recentas dal conto
+signout-sync-header = Sesida scadida
+signout-sync-session-expired = Perstgisa, insatge n’ha betg funcziunà. Sorta p.pl. via il menu dal navigatur ed emprova anc ina giada.
 
 ## Switch component
 
