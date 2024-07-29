@@ -828,6 +828,8 @@ security-action-create = Aanmaken
 security-set-password = Stel een wachtwoord in om te synchroniseren en bepaalde accountbeveiligingsfuncties te gebruiken.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Recente accountactiviteit bekijken
+signout-sync-header = Sessie verlopen
+signout-sync-session-expired = Sorry, er is iets misgegaan. Meld u af vanuit het browsermenu en probeer het opnieuw.
 
 ## Switch component
 
