@@ -987,6 +987,7 @@ auth-error-155 = TOTP-token njeje so namakał
 auth-error-159 = Njepłaćiwy kontowy wobnowjenski kluč
 auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
 auth-error-999 = Njewočakowany zmylk
+auth-error-1001 = Přizjewjenski pospyt přetorhnjeny
 auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
 auth-error-1003 = Local Storage abo placki su hišće znjemóžnjene
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
