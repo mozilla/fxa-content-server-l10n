@@ -828,6 +828,8 @@ security-action-create = Tạo
 security-set-password = Đặt mật khẩu để đồng bộ hóa và sử dụng các tính năng bảo mật tài khoản nhất định.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Xem hoạt động tài khoản gần đây
+signout-sync-header = Phiên đã hết hạn
+signout-sync-session-expired = Xin lỗi, đã có lỗi xảy ra. Vui lòng đăng xuất từ menu trình duyệt và thử lại.
 
 ## Switch component
 
