@@ -644,6 +644,7 @@ delete-account-continue-button = Continuer
 delete-account-password-input =
     .label = Saisissez votre mot de passe
 pocket-delete-notice = Si vous êtes abonné·e à Pocket Premium, assurez-vous <a>d’annuler votre abonnement</a> avant de supprimer votre compte.
+pocket-delete-notice-marketing = Pour ne plus recevoir d’e-mails marketing de Mozilla Corporation et de la Fondation Mozilla, vous devez <a>demander la suppression de vos données marketing.</a>
 delete-account-cancel-button = Annuler
 delete-account-delete-button-2 = Supprimer
 
@@ -978,6 +979,7 @@ auth-error-155 = Jeton TOTP introuvable
 auth-error-159 = Clé de récupération du compte non valide
 auth-error-183-2 = Code de confirmation invalide ou expiré
 auth-error-999 = Erreur inattendue
+auth-error-1001 = Tentative de connexion annulée
 auth-error-1002 = Votre session a expiré. Connectez-vous pour continuer.
 auth-error-1003 = Le stockage local ou les cookies sont toujours désactivés
 auth-error-1008 = Votre nouveau mot de passe doit être différent
