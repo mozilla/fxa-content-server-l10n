@@ -641,6 +641,7 @@ delete-account-continue-button = 繼續
 delete-account-password-input =
     .label = 輸入密碼
 pocket-delete-notice = 若您訂閱了 Pocket Premium，請務必先<a>取消訂閱</a>再刪除帳號。
+pocket-delete-notice-marketing = 若要停止接收 Mozilla Corporation 及 Mozilla Foundation 的行銷郵件，必須<a>要求刪除行銷資料。</a>
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 刪除
 
