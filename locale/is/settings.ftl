@@ -645,6 +645,7 @@ delete-account-continue-button = Halda áfram
 delete-account-password-input =
     .label = Settu inn lykilorð
 pocket-delete-notice = Ef þú gerist áskrifandi að Pocket Premium skaltu ganga úr skugga um að þú <a>segir upp áskriftinni</a> áður en þú eyðir reikningnum þínum.
+pocket-delete-notice-marketing = Til að hætta að fá markaðspóst frá Mozilla Corporation og Mozilla Foundation þarftu að <a>biðja um eyðingu markaðsgagnanna þinna.</a>
 delete-account-cancel-button = Hætta við
 delete-account-delete-button-2 = Eyða
 
@@ -985,6 +986,7 @@ auth-error-155 = TOTP-teikn fannst ekki
 auth-error-159 = Ógildur endurheimtulykill reiknings
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-999 = Óvænt villa
+auth-error-1001 = Hætt við tilraun til innskráningar
 auth-error-1002 = Lota rann út. Skráðu þig inn til að halda áfram.
 auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
