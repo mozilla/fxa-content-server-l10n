@@ -650,6 +650,7 @@ delete-account-continue-button = Жалғастыру
 delete-account-password-input =
     .label = Парольді енгізіңіз
 pocket-delete-notice = Pocket Premium-ге жазылсаңыз, тіркелгіңізді өшірмес бұрын <a>жазылымнан бас тартқаныңызға</a> көз жеткізіңіз.
+pocket-delete-notice-marketing = Mozilla Corporation және Mozilla Foundation маркетингтік электрондық хаттарды алуды тоқтату үшін <a>маркетинг деректеріңізді өшіруді сұрауыңыз керек.</a>
 delete-account-cancel-button = Бас тарту
 delete-account-delete-button-2 = Өшіру
 
@@ -991,6 +992,7 @@ auth-error-155 = TOTP токені табылмады
 auth-error-159 = Тіркелгіні қалпына келтіру кілті жарамсыз
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-999 = Күтпеген қате
+auth-error-1001 = Кіру талабынан бас тартылды
 auth-error-1002 = Сессия мерзімі бітті. Жалғастыру үшін кіріңіз.
 auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
