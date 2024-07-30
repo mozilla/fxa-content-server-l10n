@@ -648,6 +648,7 @@ delete-account-continue-button = Doorgaan
 delete-account-password-input =
     .label = Voer wachtwoord in
 pocket-delete-notice = Als u een abonnement hebt op Pocket Premium, zorg er dan voor dat u <a>uw abonnement opzegt</a> voordat u uw account verwijdert.
+pocket-delete-notice-marketing = Om geen marketingberichten van Mozilla Corporation en Mozilla Foundation meer te ontvangen, moet u <a>verwijdering van uw marketinggegevens aanvragen.</a>
 delete-account-cancel-button = Annuleren
 delete-account-delete-button-2 = Verwijderen
 
@@ -991,6 +992,7 @@ auth-error-155 = TOTP-token niet gevonden
 auth-error-159 = Ongeldige accountherstelsleutel
 auth-error-183-2 = Ongeldige of verlopen bevestigingscode
 auth-error-999 = Onverwachte fout
+auth-error-1001 = Aanmeldingspoging geannuleerd
 auth-error-1002 = Sessie verlopen. Meld u aan om door te gaan.
 auth-error-1003 = Lokale opslag of cookies zijn nog steeds uitgeschakeld
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
