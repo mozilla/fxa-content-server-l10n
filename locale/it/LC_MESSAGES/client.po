@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-07-29 21:05+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-07-30 05:07+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1996,7 +1996,7 @@ msgstr "Associazione non riuscita"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated. Please sign in with your email."
-msgstr "Il processo di installazione è stato terminato. Accedi con il tuo indirizzo email."
+msgstr "Il processo di installazione è stato completato. Accedi con il tuo indirizzo email."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
