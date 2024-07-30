@@ -643,6 +643,7 @@ delete-account-continue-button = 继续
 delete-account-password-input =
     .label = 请输入密码
 pocket-delete-notice = 如果您订阅了 Pocket Premium，请确保在删除账户之前<a>取消订阅</a>。
+pocket-delete-notice-marketing = 若要停止接受来自 Mozilla 公司和 Mozilla 基金会的营销邮件，您需要<a>请求删除自己的营销数据</a>。
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 删除
 
@@ -965,6 +966,7 @@ auth-error-155 = 找不到 TOTP 令牌
 auth-error-159 = 账户恢复密钥无效
 auth-error-183-2 = 验证码无效或已过期
 auth-error-999 = 意外错误
+auth-error-1001 = 登录尝试已取消
 auth-error-1002 = 会话已过期。请登录以继续操作。
 auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
