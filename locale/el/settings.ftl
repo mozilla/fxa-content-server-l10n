@@ -650,6 +650,7 @@ delete-account-continue-button = Συνέχεια
 delete-account-password-input =
     .label = Εισαγωγή κωδικού πρόσβασης
 pocket-delete-notice = Εάν εγγραφήκατε στο Pocket Premium, παρακαλούμε βεβαιωθείτε ότι <a>έχετε ακυρώσει τη συνδρομή σας</a> προτού διαγράψετε τον λογαριασμό σας.
+pocket-delete-notice-marketing = Για να διακόψετε τη λήψη διαφημιστικών email από τη Mozilla Corporation και το Mozilla Foundation, πρέπει να <a>αιτηθείτε τη διαγραφή των δεδομένων μάρκετινγκ.</a>
 delete-account-cancel-button = Ακύρωση
 delete-account-delete-button-2 = Διαγραφή
 
@@ -993,6 +994,7 @@ auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-999 = Απροσδόκητο σφάλμα
+auth-error-1001 = Η προσπάθεια σύνδεσης ακυρώθηκε
 auth-error-1002 = Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε.
 auth-error-1003 = Η τοπική αποθήκευση ή τα cookie εξακολουθούν να είναι απενεργοποιημένα
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
