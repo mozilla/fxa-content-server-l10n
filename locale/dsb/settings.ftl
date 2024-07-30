@@ -994,7 +994,7 @@ auth-error-1011 = Płaśiwa e-mailowa adresa trjebna
 auth-error-1031 = Musyśo swójo starstwo zapódaś, aby se registrěrował
 auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
-oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtark a wopytajśo hyšći raz.
+oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
