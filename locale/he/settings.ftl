@@ -326,6 +326,7 @@ bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחשב לוח
+connect-another-find-fx-mobile-2 = ניתן למצוא את { -brand-firefox } ב־{ -google-play } וב־{ -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -926,6 +927,7 @@ auth-error-155 = אסימון TOTP לא נמצא
 auth-error-159 = מפתח שחזור חשבון שגוי
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-999 = שגיאה בלתי צפויה
+auth-error-1001 = ניסיון ההתחברות בוטל
 auth-error-1002 = פג תוקף ההפעלה. יש להתחבר כדי להמשיך.
 auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבתים
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
