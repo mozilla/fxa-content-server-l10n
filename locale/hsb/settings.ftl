@@ -648,6 +648,7 @@ delete-account-continue-button = Dale
 delete-account-password-input =
     .label = Hesło zapodać
 pocket-delete-notice = Jeli Pocket Premium abonujeće, zawěsćće prošu, zo <a>swój abonement wupowědźiće</a>, prjedy hač swoje konto zhašeće.
+pocket-delete-notice-marketing = Zo byšće přestał marketingowe mejlki wot předewzaća Mozilla Corporation a załožby Mozilla Foundation přijimaś, dyrbiće wo <a>zhašenje swojich marketingowych datow prosyć</a>.
 delete-account-cancel-button = Přetorhnyć
 delete-account-delete-button-2 = Zhašeć
 
