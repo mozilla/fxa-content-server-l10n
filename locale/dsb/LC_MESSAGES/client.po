@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-07-30 10:16+0000\n"
+"PO-Revision-Date: 2024-07-30 10:35+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1993,7 +1993,7 @@ msgstr "Koplowanje njejo se raźiło"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated. Please sign in with your email."
-msgstr ""
+msgstr "Instalaciski proces jo dokóńcony. Pšosym pśizjawśo se ze swójeju e-mailowej adresu."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"

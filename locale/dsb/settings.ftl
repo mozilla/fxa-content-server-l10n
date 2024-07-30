@@ -648,6 +648,7 @@ delete-account-continue-button = Dalej
 delete-account-password-input =
     .label = Gronidło zapódaś
 pocket-delete-notice = Jolic Pocket Premium aboněrujośo, zawěsććo pšosym, až <a>swój abonement wupowěźejośo</a>, nježli až swójo konto wulašujośo.
+pocket-delete-notice-marketing = Aby pśestał marketingowe mejlki wót pśedewześa Mozilla Corporation a załožby Mozilla Foundation dostawaś, musyśo wó <a>lašowanje swójich marketingowych datow pšosyś</a>.
 delete-account-cancel-button = Pśetergnuś
 delete-account-delete-button-2 = Lašowaś
 
