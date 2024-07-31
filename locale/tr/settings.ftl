@@ -971,6 +971,7 @@ auth-error-155 = TOTP jetonu bulunamadı
 auth-error-159 = Geçersiz hesap kurtarma anahtarı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-999 = Beklenmeyen hata
+auth-error-1001 = Giriş denemesi iptal edildi
 auth-error-1002 = Oturum zaman aşımına uğradı. Devam etmek için giriş yapın.
 auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
