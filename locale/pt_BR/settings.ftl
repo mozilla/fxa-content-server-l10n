@@ -260,7 +260,7 @@ reset-pwd-link-expired-message = O link que você clicou para redefinir sua senh
 ## LinkRememberPassword component
 
 # immediately before remember-password-signin-link
-remember-password-text = Memorizar sua senha?
+remember-password-text = Lembra sua senha?
 # link navigates to the sign in page
 remember-password-signin-link = Entrar
 
