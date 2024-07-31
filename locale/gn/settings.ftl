@@ -335,9 +335,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
 ## Connect another device promo
 
 connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablétape
-connect-another-find-fx-mobile =
-    Eheka { -brand-firefox } { -google-play }-pe ha { -app-store } térã
-    <br /><linkExternal>emondo ñemboguejy juajuha ne mba’e’okápe.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -830,6 +827,7 @@ security-action-create = Moheñói
 security-set-password = Emoĩ ñe’ẽñemi embojuehe hag̃ua ha eiporu peteĩva mba’ete rekorosã rembiapoite.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ejecha mba’ete rembiapo ramoguavéva
+signout-sync-header = Jeikerã opámava
 
 ## Switch component
 
@@ -991,6 +989,7 @@ auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-999 = Jejavy eha’ãrõ’ỹva
+auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
 auth-error-1003 = Ñeñongatu pypegua térã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
