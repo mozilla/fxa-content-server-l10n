@@ -643,7 +643,7 @@ delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Ingresar contraseña
 pocket-delete-notice = Si te suscribís a Pocket Premium, asegurate de <a>cancelar tu suscripción</a> antes de eliminar tu cuenta.
-pocket-delete-notice-marketing = Para dejar de recibir correos electrónicos de marketing de Mozilla Corporation y Mozilla Foundation, debe <a> solicitar la eliminación de sus datos de marketing </a>
+pocket-delete-notice-marketing = Para dejar de recibir correos electrónicos de marketing de Mozilla Corporation y Mozilla Foundation, tenés que<a>solicitar la eliminación de tus datos de marketing.</a>
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
