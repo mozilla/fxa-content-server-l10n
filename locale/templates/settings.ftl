@@ -85,8 +85,8 @@ recovery-key-pdf-download-error = Sorry, there was a problem downloading your ac
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Get more from { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-  .label = Security & privacy news and updates
+choose-newsletters-option-latest-news =
+  .label = Get our latest news and product updates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
   .label = Early access to test new products
