@@ -644,6 +644,7 @@ delete-account-continue-button = Devam
 delete-account-password-input =
     .label = Parolanızı yazın
 pocket-delete-notice = Pocket Premium abonesiyseniz hesabınızı silmeden önce lütfen <a>aboneliğinizi iptal etmeyi</a> unutmayın.
+pocket-delete-notice-marketing = Mozilla Corporation ve Mozilla Vakfından pazarlama e-postaları almayı durdurmak için <a>pazarlama verilerinizin silinmesini talep etmelisiniz</a>.
 delete-account-cancel-button = İptal
 delete-account-delete-button-2 = Sil
 
