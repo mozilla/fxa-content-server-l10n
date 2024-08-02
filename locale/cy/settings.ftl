@@ -335,7 +335,7 @@ bento-menu-made-by-mozilla = Gwnaed gan { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Cael { -brand-firefox } ar ffôn symudol neu dabled
-connect-another-find-fx-mobile-2 = Dewch o hyd i { -brand-firefox } yn y { -google-play } a'r { -app-store }.
+connect-another-find-fx-mobile-2 = Dewch o hyd i { -brand-firefox } yn { -google-play } a'r { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
