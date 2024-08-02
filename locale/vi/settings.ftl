@@ -648,6 +648,7 @@ delete-account-continue-button = Tiếp tục
 delete-account-password-input =
     .label = Nhập mật khẩu
 pocket-delete-notice = Nếu bạn đăng ký Pocket Premium, vui lòng đảm bảo rằng bạn <a>đã hủy đăng ký</a> trước khi xóa tài khoản của mình.
+pocket-delete-notice-marketing = Để ngừng nhận email tiếp thị từ Mozilla Corporation và Mozilla Foundation, bạn phải <a>yêu cầu xóa dữ liệu tiếp thị của bạn.</a>
 delete-account-cancel-button = Hủy bỏ
 delete-account-delete-button-2 = Xóa
 
@@ -989,6 +990,7 @@ auth-error-155 = Không tìm thấy token TOTP
 auth-error-159 = Khóa khôi phục tài khoản không hợp lệ
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-999 = Lỗi không xác định
+auth-error-1001 = Đã hủy đăng nhập
 auth-error-1002 = Phiên đã hết hạn. Đăng nhập để tiếp tục.
 auth-error-1003 = Bộ nhớ cục bộ hoặc cookie vẫn bị tắt
 auth-error-1008 = Mật khẩu mới của bạn phải khác
