@@ -646,7 +646,7 @@ delete-account-continue-button = Parhau
 delete-account-password-input =
     .label = Rhowch gyfrinair
 pocket-delete-notice = Os ydych yn tanysgrifio i Pocket Premium, gwnewch yn siŵr eich bod yn <a>diddymu'ch tanysgrifiad</a> cyn dileu eich cyfrif.
-pocket-delete-notice-marketing = Er mwyn peidio â derbyn e-byst marchnata gan Mozilla Corporation a Mozilla Foundation, rhaid <a>gofyn am ddileu eich data marchnata.</a>
+pocket-delete-notice-marketing = Er mwyn peidio â derbyn e-byst marchnata gan y Mozilla Corporation a'r Mozilla Foundation, rhaid <a>gofyn am ddileu eich data marchnata.</a>
 delete-account-cancel-button = Diddymu
 delete-account-delete-button-2 = Dileu
 
@@ -827,8 +827,8 @@ security-action-create = Creu
 security-set-password = Gosodwch gyfrinair i gydweddu a defnyddio rhai nodweddion diogelwch cyfrif.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Gweld gweithgaredd diweddar cyfrif
-signout-sync-header = Sesiwn wedi dod i ben
-signout-sync-session-expired = Mae'n ddrwg gennym, aeth rhywbeth o'i le. Allgofnodwch o ddewislen y porwr a cheisiwch eto.
+signout-sync-header = Sesiwn wedi Dod i Ben
+signout-sync-session-expired = Ymddiheuriadau, aeth rhywbeth o'i le. Allgofnodwch o ddewislen y porwr a cheisiwch eto.
 
 ## Switch component
 
