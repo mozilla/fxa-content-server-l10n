@@ -69,6 +69,8 @@ recovery-key-pdf-download-error = 죄송합니다. 계정 복구 키를 다운�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = { -brand-mozilla }에서 더 많은 정보를 얻으세요:
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -282,9 +284,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } 제작
 ## Connect another device promo
 
 connect-another-fx-mobile = 모바일이나 태블릿에서 { -brand-firefox } 받기
-connect-another-find-fx-mobile =
-    { -google-play }나 { -app-store }에서 { -brand-firefox }를 찾거나
-    <br /><linkExternal>내 기기로 다운로드 링크를 보냅니다</linkExternal>.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
