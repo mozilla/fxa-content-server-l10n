@@ -827,6 +827,8 @@ security-action-create = Luo
 security-set-password = Aseta salasana tilin tiettyjen suojausominaisuuksien synkronointia ja käyttöä varten.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Näytä viimeisimmät tilitapahtumat
+signout-sync-header = Istunto vanhentui
+signout-sync-session-expired = Pahoittelut, jotain meni pieleen. Kirjaudu ulos selaimen valikosta ja yritä uudelleen.
 
 ## Switch component
 
@@ -988,6 +990,7 @@ auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-159 = Virheellinen tilin palautusavain
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-999 = Odottamaton virhe
+auth-error-1001 = Kirjautumisyritys peruttu
 auth-error-1002 = Istunto vanhentui. Kirjaudu sisään uudelleen.
 auth-error-1003 = Paikallinen tallennustila tai evästeet ovat edelleen poissa käytöstä
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
