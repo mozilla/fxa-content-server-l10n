@@ -648,6 +648,7 @@ delete-account-continue-button = Fortsätt
 delete-account-password-input =
     .label = Ange lösenord
 pocket-delete-notice = Om du prenumererar på Pocket Premium, se till att du <a>avbryter din prenumeration</a> innan du tar bort ditt konto.
+pocket-delete-notice-marketing = För att sluta få marknadsföringsmejl från Mozilla Corporation och Mozilla Foundation, måste du <a>begära radering av din marknadsföringsdata.</a>
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Ta bort
 
@@ -993,6 +994,7 @@ auth-error-155 = TOTP-tecken hittades inte
 auth-error-159 = Ogiltig nyckel för kontoåterställning
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-999 = Oväntat fel
+auth-error-1001 = Inloggningsförsök avbröts
 auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
 auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
