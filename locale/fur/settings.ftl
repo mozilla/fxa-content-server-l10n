@@ -834,6 +834,7 @@ security-set-password = Stabilìs une password par sincronizâ e doprâ ciertis 
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Visualize lis ativitâts resintis dal account
 signout-sync-header = Session scjadude
+signout-sync-session-expired = Nus displâs, alc al è lât strucj. Disconetiti dal menù dal navigadôr e torne prove.
 
 ## Switch component
 
@@ -995,6 +996,7 @@ auth-error-155 = Gjeton TOTP no cjatât
 auth-error-159 = Clâf di recupar dal account no valide
 auth-error-183-2 = Codiç di conferme scjadût o no valit
 auth-error-999 = Erôr inspietât
+auth-error-1001 = Tentatîf di acès anulât
 auth-error-1002 = Session scjadude. Jentre par continuâ.
 auth-error-1003 = La archiviazion locâl o i cookies a son ancjemò disativâts
 auth-error-1008 = La gnove password e scugne jessi diferente
