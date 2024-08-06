@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Mae'n ddrwg gennym, roedd problem wrth lwytho 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Cael mwy gan { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Newyddion diogelwch a phreifatrwydd a diweddariadau
+choose-newsletters-option-latest-news =
+    .label = Cael ein newyddion diweddaraf a diweddariadau cynnyrch
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Mynediad cynnar i brofi cynnyrch newydd
@@ -791,6 +791,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Canfod lle mae'ch manylion preifat yn cael eu rhyddhau — a'u cipio nôl
+# Links out to the Monitor site
+product-promo-monitor-cta = Cael sgan am ddim
 
 ## Profile section
 
