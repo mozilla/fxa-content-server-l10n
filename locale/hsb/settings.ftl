@@ -794,6 +794,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Wuslědźće, hdźež so waše informacije wotkrywaja – a wzmiće je wróćo
 # Links out to the Monitor site
 product-promo-monitor-cta = Dóstańće darmotny sken
 
