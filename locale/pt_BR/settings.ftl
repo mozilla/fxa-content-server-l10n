@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Desculpe, houve um problema ao baixar a chave 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Obtenha mais da { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Notícias e novidades sobre segurança e privacidade
+choose-newsletters-option-latest-news =
+    .label = Receba nossas últimas notícias e novidades de produtos
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Acesso antecipado para testar novos produtos
@@ -777,6 +777,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Descubra onde suas informações privativas estão expostas e recupere o controle sobre elas
+# Links out to the Monitor site
+product-promo-monitor-cta = Obtenha uma verificação gratuita
 
 ## Profile section
 
