@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Beim Herunterladen Ihres Kontowiederherstellun
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Machen Sie noch mehr aus { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Neuigkeiten und Updates zu Sicherheit und Datenschutz
+choose-newsletters-option-latest-news =
+    .label = Erhalten Sie unsere neuesten Nachrichten und Produktupdates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Vorzeitiger Zugriff, um neue Produkte zu testen
@@ -786,6 +786,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Finden Sie heraus, wo Ihre persönlichen Daten offengelegt wurden – und holen Sie sie zurück
+# Links out to the Monitor site
+product-promo-monitor-cta = Kostenloser Scan
 
 ## Profile section
 
