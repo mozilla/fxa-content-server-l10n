@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Bohužel je při sćahowanju  kontoweho wobnow
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Wobstarajće sej wjace wot { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Nowinki a aktualizacije wo wěstoće a priwatnosći
+choose-newsletters-option-latest-news =
+    .label = Wobstarajće sej najnowše nowinki  a produktowe aktualizacije
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Dočasny přistup, zo byšće nowe produkty testował
@@ -789,6 +789,11 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
 
 ## Profile section
 
