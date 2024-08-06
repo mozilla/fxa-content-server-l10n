@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Sorry, there was a problem downloading your ac
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Get more from { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Security & privacy news and updates
+choose-newsletters-option-latest-news =
+    .label = Get our latest news and product updates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Early access to test new products
@@ -793,6 +793,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Find where your private info is exposed — and take it back
+# Links out to the Monitor site
+product-promo-monitor-cta = Get free scan
 
 ## Profile section
 
