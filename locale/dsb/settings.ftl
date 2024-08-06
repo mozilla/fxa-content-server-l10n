@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Bóžko jo pśi ześěgowanju kontowego wótno
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Wobstarajśo se wěcej wót { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Nowosći a aktualizacije wó wěstośe a priwatnosći
+choose-newsletters-option-latest-news =
+    .label = Wobstarajśo se nejnowše nowosći  a produktowe aktualizacije
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Docasny pśistup, aby nowe produkty testował
@@ -787,6 +787,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Wuslěźćo, źož se waše informacije wótekšywaju – a wzejśo je slědk
+# Links out to the Monitor site
+product-promo-monitor-cta = Dostańśo dermotny scan
 
 ## Profile section
 
