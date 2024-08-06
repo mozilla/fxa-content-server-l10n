@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = К сожалению, при загрузке
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Получите больше от { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Новости и обновления безопасности и конфиденциальности
+choose-newsletters-option-latest-news =
+    .label = Получайте наши последние новости и обновления продуктов
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Ранний доступ к тестированию новых продуктов
@@ -791,6 +791,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Найдите, где находится ваша личная информация, и верните обратно
+# Links out to the Monitor site
+product-promo-monitor-cta = Получить бесплатное сканирование
 
 ## Profile section
 
