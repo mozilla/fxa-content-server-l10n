@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Nus displâs, al è vignût fûr un probleme t
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Oten di plui di { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Novitâts e inzornaments su sigurece e riservatece
+choose-newsletters-option-latest-news =
+    .label = Ricêf lis ultimis notiziis e i inzornaments sui prodots
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Acès in anteprime par provâ gnûfs prodots
@@ -171,12 +171,6 @@ form-password-sr-passwords-match = Lis passwords inseridis a corispuindin.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Chest cjamp al è obligatori
-
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Mande { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Fat di { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Oten { -brand-firefox } sul celulâr o sul tablet
-connect-another-find-fx-mobile =
-    Cjate { -brand-firefox } in { -google-play } e { -app-store } o
-    <br /><linkExternal>mande un colegament par discjariâ sul to dispositîf.</linkExternal>
+connect-another-find-fx-mobile-2 = Cjate { -brand-firefox } in { -google-play } e { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -654,6 +646,7 @@ delete-account-continue-button = Continue
 delete-account-password-input =
     .label = Inserìs la password
 pocket-delete-notice = Se tu âs l’abonament a Pocket Premium, verifiche di <a>anulâ l’abonament</a> prime di eliminâ il to account.
+pocket-delete-notice-marketing = Par no ricevi plui lis e-mail promozionâls di Mozilla Corporation e Mozilla Foundation, al covente <a>domandâ la eliminazion dai dâts di marketing.</a>
 delete-account-cancel-button = Anule
 delete-account-delete-button-2 = Elimine
 
@@ -797,6 +790,14 @@ tfa-enter-recovery-code-1 =
 ##
 
 
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Cjate là che a son esponudis lis tôs informazions personâls e torne a cjapâtes
+# Links out to the Monitor site
+product-promo-monitor-cta = Oten une scansion gratuite
+
 ## Profile section
 
 profile-heading = Profîl
@@ -832,6 +833,7 @@ security-action-create = Cree
 security-set-password = Stabilìs une password par sincronizâ e doprâ ciertis funzions di sigurece dal account.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Visualize lis ativitâts resintis dal account
+signout-sync-header = Session scjadude
 
 ## Switch component
 
