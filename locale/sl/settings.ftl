@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Pri prenosu ključa za obnovitev računa je pr
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Izkoristite { -brand-mozilla(sklon: "tozilnik") }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Novice in posodobitve o varnosti in zasebnosti
+choose-newsletters-option-latest-news =
+    .label = Bodite obveščeni o naših najnovejših novicah in posodobitvah izdelkov
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Zgodnji dostop za preizkušanje novih izdelkov
@@ -791,6 +791,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Poiščite, kje so razkriti vaši zasebni podatki – in jih pridobite nazaj
+# Links out to the Monitor site
+product-promo-monitor-cta = Zagotovite si brezplačen pregled
 
 ## Profile section
 
