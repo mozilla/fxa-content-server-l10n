@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Sorry, der is in probleem bard by it downloade
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Mear fan { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Befeiligings- en privacynijs en -updates
+choose-newsletters-option-latest-news =
+    .label = Untfang ús lêste nijs en produktupdates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Iere tagong om nije produkten te testen
@@ -797,6 +797,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Untdek wêr’t jo priveegegevens lekt binne – en nim se werom
+# Links out to the Monitor site
+product-promo-monitor-cta = Untfang in fergeze scan
 
 ## Profile section
 
