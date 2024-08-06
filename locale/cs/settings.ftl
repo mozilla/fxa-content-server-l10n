@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Je nám líto, ale při stahování klíče pr
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Získejte více od { -brand-mozilla(case: "gen") }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Novinky a aktualizace týkající se zabezpečení a ochrany osobních údajů
+choose-newsletters-option-latest-news =
+    .label = Získejte naše nejnovější novinky a aktualizace produktů
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Brzký přístup k testování nových produktů
@@ -790,6 +790,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Zjistěte, kde jsou vaše soukromé informace odhalené — a vezměte si je zpět
+# Links out to the Monitor site
+product-promo-monitor-cta = Zkontrolovat
 
 ## Profile section
 
