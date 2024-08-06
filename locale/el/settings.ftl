@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Δυστυχώς, προέκυψε πρόβλ�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Περισσότερα από τη { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Ειδήσεις και ενημερώσεις για την ασφάλεια και το απόρρητο
+choose-newsletters-option-latest-news =
+    .label = Λάβετε τα τελευταία νέα και ενημερώσεις προϊόντων
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Πρώιμη πρόσβαση σε δοκιμές νέων προϊόντων
@@ -795,6 +795,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Μάθετε πού εκτίθενται οι προσωπικές σας πληροφορίες και ανακτήστε τις
+# Links out to the Monitor site
+product-promo-monitor-cta = Δωρεάν σάρωση
 
 ## Profile section
 
