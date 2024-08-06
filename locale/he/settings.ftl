@@ -68,9 +68,6 @@ recovery-key-pdf-download-error = אירעה שגיאה בהורדת מפתח ש
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = קבלו יותר מ־{ -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = חדשות ועדכוני אבטחה ופרטיות
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = גישה מוקדמת לבדיקת מוצרים חדשים
 
@@ -747,6 +744,11 @@ tfa-input-enter-totp-v2 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
 
 ## Profile section
 
