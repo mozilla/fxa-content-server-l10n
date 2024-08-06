@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Sajnos probléma merült fel a fiók-helyreál
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Kapjon többet a { -brand-mozilla(ending: "accented") }ból:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Biztonsági és adatvédelmi hírek és frissítések
+choose-newsletters-option-latest-news =
+    .label = Iratkozzon fel a legfrissebb híreinkre és termékeinkre
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Korai hozzáférés az új termékek teszteléséhez
@@ -795,6 +795,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Tudja meg, hogy hol kerültek ki a személyes adatai – és szerezze vissza azokat
+# Links out to the Monitor site
+product-promo-monitor-cta = Ingyenes vizsgálat kérése
 
 ## Profile section
 
