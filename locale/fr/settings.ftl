@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Un problème est survenu lors du téléchargem
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Recevez plus d’informations de la part de { -brand-mozilla } :
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Actualités concernant la sécurité et la confidentialité
+choose-newsletters-option-latest-news =
+    .label = Recevoir nos dernières actualités et actualités produit
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Accès en avant-première pour tester de nouveaux produits
@@ -786,6 +786,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Découvrez où vos informations personnelles ont fuité et reprenez le contrôle
+# Links out to the Monitor site
+product-promo-monitor-cta = Effectuer un scan gratuit
 
 ## Profile section
 
