@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Sorry, er is een probleem opgetreden bij het d
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Meer van { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Beveiligings- en privacynieuws en -updates
+choose-newsletters-option-latest-news =
+    .label = Ontvang ons laatste nieuws en productupdates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Vroege toegang om nieuwe producten te testen
@@ -793,6 +793,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Ontdek waar uw privégegevens zijn gelekt – en neem ze terug
+# Links out to the Monitor site
+product-promo-monitor-cta = Ontvang een gratis scan
 
 ## Profile section
 
