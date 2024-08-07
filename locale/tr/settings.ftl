@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } bültenlerine kaydolun:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Güvenlik ve gizlilik haberleri ve duyuruları
+choose-newsletters-option-latest-news =
+    .label = En son haberlerden ve ürün güncellemelerinden haberdar olun
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Yeni ürünleri test etmek için erken erişim
@@ -784,6 +784,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
+# Links out to the Monitor site
+product-promo-monitor-cta = Ücretsiz taramayı başlat
 
 ## Profile section
 
