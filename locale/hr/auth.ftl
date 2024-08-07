@@ -159,7 +159,7 @@ fraudulentAccountDeletion-contact-plaintext = Ako imaš pitanja kontaktiraj naš
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava na { $clientName }
 newDeviceLogin-subjectForMozillaAccount = Nova prijava na tvoj { -product-mozilla-account }
-newDeviceLogin-title-3 = Tvoj { -product-mozilla-account } račun je korišten za prijavu
+newDeviceLogin-title-3 = Tvoj { -product-mozilla-account } je korišten za prijavu
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = To nisi ti? <a data-l10n-name="passwordChangeLink">Promijeni lozinku</a>.
