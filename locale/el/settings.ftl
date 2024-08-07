@@ -800,7 +800,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Μάθετε πού εκτίθενται οι προσωπικές σας πληροφορίες και ανακτήστε τις
+product-promo-monitor-description = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τα
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
 
