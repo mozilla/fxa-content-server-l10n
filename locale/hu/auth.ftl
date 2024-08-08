@@ -218,12 +218,12 @@ view-invoice = <a data-l10n-name="invoiceLink">Díjbekérő megtekintése</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Díjbekérő megtekintése: { $invoiceLink }
-cadReminderFirst-subject-1 = Emlékeztető! Szinkronizálja a { -brand-firefox }ot
+cadReminderFirst-subject-1 = Emlékeztető! Szinkronizálja a { -brand-firefox(case: "accusative") }
 cadReminderFirst-action = Másik eszköz szinkronizálása
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = A szinkronizáláshoz két fél szükséges
-cadReminderFirst-description-v2 = Vigye át lapjait az összes eszköze között. Vigye magával a könyvjelzőit, jelszavait és egyéb adatait mindenhová, ahol a { -brand-firefox }ot használja.
+cadReminderFirst-description-v2 = Vigye át lapjait az összes eszköze között. Vigye magával a könyvjelzőit, jelszavait és egyéb adatait mindenhová, ahol a { -brand-firefox(case: "accusative") } használja.
 cadReminderSecond-subject-2 = Ne maradjon ki! Fejezze be a szinkronizálás beállítását.
 cadReminderSecond-action = Másik eszköz szinkronizálása
 cadReminderSecond-title-2 = Ne felejtsen el szinkronizálni!
@@ -362,7 +362,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Már nincs szüksége biztonsá
 postVerify-sub-title-3 = Örülünk, hogy látjuk!
 postVerify-title-2 = Két eszközön szeretné látni ugyanazt a lapot?
 postVerify-description-2 = Könnyedén! Csak telepítse a { -brand-firefox(case: "accusative") } egy másik eszközre, és jelentkezzen be a szinkronizáláshoz. Olyan, mint a varázslat!
-postVerify-sub-description = (Pszt… Ez azt is jelenti, hogy könyvjelzőit, jelszavait és egyéb { -brand-firefox(capitalization: "lower") }os adatait bárhol elérheti, ahol be van jelentkezve.)
+postVerify-sub-description = (Pszt… Ez azt is jelenti, hogy a könyvjelzőit, jelszavait és az egyéb a { -brand-firefox(case: "inessive") } tárolt adatait bárhol elérheti, ahol be van jelentkezve.)
 postVerify-subject-4 = Üdvözli a { -brand-mozilla }!
 postVerify-setup-2 = Másik eszköz csatlakoztatása:
 postVerify-action-2 = Másik eszköz csatlakoztatása
@@ -571,7 +571,7 @@ verificationReminderFirst-action-2 = Fiók megerősítése
 verificationReminderSecond-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
 verificationReminderSecond-title-3 = Ne hagyja ki a { -brand-mozilla(ending: "accented") }t!
 verificationReminderSecond-description-4 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. A következő 10 napon belül erősítse meg fiókját, különben automatikusan törlésre kerül.
-verificationReminderSecond-second-description-3 = A { -product-mozilla-account }ja segítségével szinkronizálhatja a { -brand-firefox } élményét az eszközök között, és hozzáférést biztosít a { -brand-mozilla } további adatvédelmi termékeihez.
+verificationReminderSecond-second-description-3 = A { -product-mozilla-account }ja segítségével szinkronizálhatja a { -brand-firefox(case: "accusative") } az eszközök között, és hozzáférést biztosít a { -brand-mozilla } további adatvédelmi termékeihez.
 verificationReminderSecond-sub-description-2 = Legyen része küldetésünknek, hogy az internetet mindenki számára nyitott hellyé alakítsuk.
 verificationReminderSecond-action-2 = Fiók megerősítése
 verify-title-3 = Nyissa meg az internetet a { -brand-mozilla(ending: "accented") }val

@@ -291,7 +291,7 @@ password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne haszná
 ## Ready component
 
 reset-password-complete-header = A jelszó vissza lett állítva
-ready-complete-set-up-instruction = Fejezze be a beállítást az új jelszó megadásával a többi { -brand-firefox(case: "lower") }os eszközén.
+ready-complete-set-up-instruction = Fejezze be a beállítást az új jelszó megadásával a többi { -brand-firefox(case: "accusative") } használó eszközén.
 ready-start-browsing-button = Böngészés megkezdése
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -335,13 +335,13 @@ bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 ## Connect another device promo
 
 connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy táblagépre
-connect-another-find-fx-mobile-2 = Keresse meg a { -brand-firefox(case: "accusative") } a { -google-play }ben és az { -app-store }-ban.
+connect-another-find-fx-mobile-2 = Keresse meg a { -brand-firefox(case: "accusative") } a { -google-play(case: "inessive") } és az { -app-store(case: "inessive") }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
-    .title = A { -brand-firefox } letöltése a { -google-play }ből
+    .title = A { -brand-firefox } letöltése a { -google-play(case: "elative") }
 connect-another-app-store-image-2 =
-    .title = A { -brand-firefox } letöltése az { -app-store }-ból
+    .title = A { -brand-firefox } letöltése az { -app-store(case: "elative") }
 
 ##
 
@@ -396,7 +396,7 @@ cs-disconnect-lost-advice-content-3 =
 cs-disconnect-suspicious-advice-heading = Gyanús eszköz leválasztva
 cs-disconnect-suspicious-advice-content-2 =
     Ha a leválasztott eszköz valóban gyanús, akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-mozilla-account }ja
-    jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett jelszavát is, az about:logins beírásával a címsávba.
+    jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox(case: "inessive") } mentett jelszavát is, az about:logins beírásával a címsávba.
 cs-sign-out-button = Kijelentkezés
 
 ##
@@ -1024,19 +1024,19 @@ cannot-create-account-learn-more-link = További tudnivalók
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
-connect-another-device-signed-in-header = Bejelentkezett a { -brand-firefox }ba
+connect-another-device-signed-in-header = Bejelentkezett a { -brand-firefox(case: "illative") }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = E-mail-cím megerősítve
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Bejelentkezés megerősítve
 # A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
-connect-another-device-signin-to-complete-message = Jelentkezzen be ebbe a { -brand-firefox }ba a beállítás befejezéséhez
+connect-another-device-signin-to-complete-message = Jelentkezzen be ebbe a { -brand-firefox(case: "illative") } a beállítás befejezéséhez
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Bejelentkezés
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
-connect-another-device-still-adding-devices-message = Még ad hozzá eszközöket? Jelentkezzen be a { -brand-firefox }ba egy másik eszközről a beállítás befejezéséhez
+connect-another-device-still-adding-devices-message = Még ad hozzá eszközöket? Jelentkezzen be a { -brand-firefox(case: "illative") } egy másik eszközről a beállítás befejezéséhez
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
-connect-another-device-signin-another-device-to-complete-message = Jelentkezzen be a { -brand-firefox }ba egy másik eszközről a beállítás befejezéséhez
+connect-another-device-signin-another-device-to-complete-message = Jelentkezzen be a { -brand-firefox(case: "illative") } egy másik eszközről a beállítás befejezéséhez
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
 connect-another-device-get-data-on-another-device-message = Szeretné átvinni lapjait, könyvjelzőit és jelszavait egy másik eszközre?
 # This link leads the user back to the `/pair` page so as to connect another device
@@ -1198,8 +1198,8 @@ pair-failure-message = A beállítási folyamat megszakításra került.
 
 ## Pair index page
 
-pair-sync-header = Szinkronizálja a { -brand-firefox }ot a telefonján vagy táblagépén
-pair-cad-header = Csatlakoztassa a { -brand-firefox }ot egy másik eszközön
+pair-sync-header = Szinkronizálja a { -brand-firefox(case: "accusative") } a telefonján vagy táblagépén
+pair-cad-header = Csatlakoztassa a { -brand-firefox(case: "accusative") } egy másik eszközön
 pair-already-have-firefox-paragraph = Már van { -brand-firefox } a telefonján vagy a táblagépén?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Szinkronizálja az eszközét
@@ -1209,7 +1209,7 @@ pair-or-download-subheader = Vagy töltse le
 pair-scan-to-download-message = Olvassa be a { -brand-firefox } mobilra történő letöltéséhez, vagy küldjön magának egy <linkExternal>letöltési hivatkozást</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Most nem
-pair-take-your-data-message = Vigye el lapjait, könyvjelzőit és jelszavait bárhová, ahol { -brand-firefox }ot használ.
+pair-take-your-data-message = Vigye el lapjait, könyvjelzőit és jelszavait bárhová, ahol { -brand-firefox(case: "accusative") } használ.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Kezdő lépések
 # This is the aria label on the QR code image

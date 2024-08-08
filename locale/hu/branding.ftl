@@ -27,6 +27,8 @@
         [accusative] Firefoxot
         [inessive] Firefoxban
         [instrumental] Firefoxszal
+        [illative] Firefoxba
+        [elative] Firefoxból
        *[nominative] Firefox
     }
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
@@ -56,6 +58,14 @@
         [accusative] App Store-t
         [inessive] App Store-ban
         [instrumental] App Store-ral
+        [elative] App Store-ból
        *[nominative] App Store
     }
--google-play = Google Play
+-google-play =
+    { $case ->
+        [accusative] Google Playt
+        [inessive] Google Playben
+        [instrumental] Google Playjel
+        [elative] Google Playből
+       *[nominative] Google Play
+    }
