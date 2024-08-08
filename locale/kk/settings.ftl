@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = Кешіріңіз, тіркелгіні қа�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla }-дан көбірек алыңыз:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Қауіпсіздік және жекелік жаңалықтары мен жаңартулары
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Жаңа өнімдерді сынауға ерте қол жеткізу
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -793,6 +790,11 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
 
 ## Profile section
 
