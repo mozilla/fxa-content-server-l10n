@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Því miður kom upp vandamál við að sækja
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Fáðu meira frá { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Fréttir og uppfærslur í öryggis- og persónuverndarmálum
+choose-newsletters-option-latest-news =
+    .label = Fáðu nýjustu fréttir af okkur og upplýsingar um hugbúnað
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Snemmbúinn aðgangur til að prófa nýjan hugbúnað
@@ -787,6 +787,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Sjáðu hvar einkaupplýsingarnar þínar eru afhjúpaðar - og taktu þær aftur
+# Links out to the Monitor site
+product-promo-monitor-cta = Fáðu fría yfirferð
 
 ## Profile section
 
