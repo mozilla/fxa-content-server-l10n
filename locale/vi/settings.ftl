@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Rất tiếc, đã xảy ra sự cố khi tả
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Nhận thêm từ { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Tin tức và cập nhật về bảo mật & quyền riêng tư
+choose-newsletters-option-latest-news =
+    .label = Nhận tin tức và cập nhật sản phẩm mới nhất của chúng tôi
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Truy cập sớm để kiểm tra sản phẩm mới
@@ -793,6 +793,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Tìm hiểu xem thông tin cá nhân của bạn bị lộ ở đâu — và lấy lại thông tin đó
+# Links out to the Monitor site
+product-promo-monitor-cta = Quét miễn phí
 
 ## Profile section
 
