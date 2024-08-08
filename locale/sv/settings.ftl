@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Det gick tyvärr inte att ladda ned din konto�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Få mer från { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Säkerhets- och integritetsnyheter och uppdateringar
+choose-newsletters-option-latest-news =
+    .label = Få våra senaste nyheter och produktuppdateringar
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Tidig tillgång till att testa nya produkter
@@ -793,6 +793,14 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Hitta var din privata information är exponerad — och ta tillbaka den
+# Links out to the Monitor site
+product-promo-monitor-cta = Få en gratis skanning
 
 ## Profile section
 
