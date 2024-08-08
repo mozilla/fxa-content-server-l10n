@@ -1388,7 +1388,7 @@ report-signin-support-link = Miért történik ez?
 report-signin-error = Elnézést, hiba történt a jelentés beküldésekor.
 signin-bounced-header = Sajnáljuk. A fiókját zároltuk.
 # $email (string) - The user's email.
-signin-bounced-message = A megerősítő e-mail elküldésre került ide: { $email }, de az visszatért, így zároltuk a fiókját, hogy megvédjük a { -brand-firefox }ban tárolt adatait.
+signin-bounced-message = A megerősítő e-mail elküldésre került ide: { $email }, de az visszatért, így zároltuk a fiókját, hogy megvédjük a { -brand-firefox(case: "inessive") } tárolt adatait.
 # linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Ha ez egy érvényes e-mail-cím, <linkExternal>tudassa velünk</linkExternal>, és segítünk feloldani a fiókját.
 signin-bounced-create-new-account = Már nem az Öné az e-mail-cím? Hozzon létre új fiókot
