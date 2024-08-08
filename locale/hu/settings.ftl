@@ -212,7 +212,7 @@ lock-image-aria-label =
 lightbulb-aria-label =
     .aria-label = A tárolási tipp létrehozását jelképező illusztráció.
 email-code-image-aria-label =
-    .aria-label = Ábra: egy kódot tartalmazó e-mail.
+    .aria-label = Egy kódot tartalmazó e-mail ábrája.
 
 ## Input Password
 
@@ -335,7 +335,7 @@ bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 ## Connect another device promo
 
 connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy táblagépre
-connect-another-find-fx-mobile-2 = Keresse meg a { -brand-firefox }ot a { -google-play }ben és az { -app-store }-ban.
+connect-another-find-fx-mobile-2 = Keresse meg a { -brand-firefox(case: "accusative") } a { -google-play }ben és az { -app-store }-ban.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
