@@ -73,7 +73,7 @@ recovery-key-pdf-download-error = Je nám líto, ale při stahování klíče pr
 choose-newsletters-prompt-2 = Získejte více od { -brand-mozilla(case: "gen") }:
 # Newsletter checklist item
 choose-newsletters-option-latest-news =
-    .label = Získejte naše nejnovější novinky a aktualizace produktů
+    .label = Získejte naše nejnovější zprávy a aktualizace produktů
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Brzký přístup k testování nových produktů
