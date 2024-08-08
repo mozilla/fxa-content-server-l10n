@@ -24,8 +24,10 @@
     }
 -brand-firefox =
     { $case ->
-        [lower] firefox
-       *[upper] Firefox
+        [accusative] Firefoxot
+        [inessive] Firefoxban
+        [instrumental] Firefoxszal
+       *[nominative] Firefox
     }
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # "Firefox accounts" refers to the service
@@ -49,5 +51,11 @@
 -brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
--app-store = App Store
+-app-store =
+    { $case ->
+        [accusative] App Store-t
+        [inessive] App Store-ban
+        [instrumental] App Store-ral
+       *[nominative] App Store
+    }
 -google-play = Google Play
