@@ -652,7 +652,7 @@ delete-account-continue-button = Folytatás
 delete-account-password-input =
     .label = Adja meg a jelszót
 pocket-delete-notice = Ha előfizet a Pocket Premiumra, akkor győződjön meg arról, hogy <a>lemondta meg az előfizetését</a>, mielőtt törölné a fiókját.
-pocket-delete-notice-marketing = Ha nem szeretne több marketinges e-mailt kapni a Mozilla Corporationtől és a Mozilla Foundationtől, <a>kérnie kell marketingadatainak törlését</a>.
+pocket-delete-notice-marketing = Ha nem szeretne több marketinges e-mailt kapni a Mozilla Corporationtől és a Mozilla Foundationtől, <a>kérnie kell a marketingadatai törlését</a>.
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
@@ -1341,10 +1341,10 @@ confirm-reset-password-otp-different-account-link = Másik fiók használata
 ## ResetPassword start page
 
 password-reset-flow-heading = Jelszó visszaállítása
-password-reset-body = Adja meg az e-mail címét, és küldünk egy megerősítő kódot, hogy megerősítse, valóban Ön.
+password-reset-body = Adja meg az e-mail-címét, és küldünk egy megerősítő kódot, hogy megerősítse, valóban Ön az.
 password-reset-email-input =
-    .label = Adja meg az e-mail címét
-password-reset-submit-button = Küldjön visszaállítási utasításokat
+    .label = Adja meg az e-mail-címét
+password-reset-submit-button = Visszaállítási utasítások küldése
 
 ## CompleteSignin component
 

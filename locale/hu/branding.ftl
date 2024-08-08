@@ -25,10 +25,20 @@
 -brand-firefox =
     { $case ->
         [accusative] Firefoxot
-        [inessive] Firefoxban
+        [dative] Firefoxnak
+        [genitive] Firefoxé
         [instrumental] Firefoxszal
+        [causal] Firefoxért
+        [translative] Firefoxszá
+        [terminative] Firefoxig
         [illative] Firefoxba
+        [adessive] Firefoxnál
+        [ablative] Firefoxtól
         [elative] Firefoxból
+        [sublative] Firefoxra
+        [inessive] Firefoxban
+        [superessive] Firefoxon
+        [delative] Firefoxról
        *[nominative] Firefox
     }
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
