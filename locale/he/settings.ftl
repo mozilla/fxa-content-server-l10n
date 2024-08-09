@@ -750,8 +750,11 @@ tfa-input-enter-totp-v2 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = למצוא היכן המידע הפרטי שלך חשוף - ולקבל אותו בחזרה
+product-promo-monitor-plus-description = הפרטיות חשובה: באפשרותך למצוא היכן המידע הפרטי שלך חשוף - ולקבל אותו בחזרה
 # Links out to the Monitor site
 product-promo-monitor-cta = קבלת סריקה בחינם
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = תחילת עבודה
 
 ## Profile section
 
