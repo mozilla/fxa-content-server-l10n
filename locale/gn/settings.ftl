@@ -335,6 +335,7 @@ bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
 ## Connect another device promo
 
 connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablétape
+connect-another-find-fx-mobile-2 = Eheka { -brand-firefox } { -google-play } ha { -app-store } ndive.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -794,6 +795,13 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Ehecha ne marandu ñemiguáva oñembyaikuaápa — ha egueru jey
+# Links out to the Monitor site
+product-promo-monitor-cta = Emoha’ãnga reiete
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Ñepyrũ
 
 ## Profile section
 
