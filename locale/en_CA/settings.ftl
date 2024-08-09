@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Sorry, there was a problem downloading your ac
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Get more from { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Security & privacy news and updates
+choose-newsletters-option-latest-news =
+    .label = Get our latest news and product updates
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Early access to test new products
@@ -646,6 +646,7 @@ delete-account-continue-button = Continue
 delete-account-password-input =
     .label = Enter password
 pocket-delete-notice = If you subscribe to Pocket Premium, please make sure that you <a>cancel your subscription</a> before deleting your account.
+pocket-delete-notice-marketing = To stop receiving marketing emails from Mozilla Corporation and Mozilla Foundation, you must <a>request deletion of your marketing data.</a>
 delete-account-cancel-button = Cancel
 delete-account-delete-button-2 = Delete
 
@@ -786,6 +787,17 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Find where your private info is exposed — and take it back
+product-promo-monitor-plus-description = Privacy Matters: Find where your private info is exposed and take it back
+# Links out to the Monitor site
+product-promo-monitor-cta = Get free scan
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Get started
 
 ## Profile section
 
@@ -981,6 +993,7 @@ auth-error-155 = TOTP token not found
 auth-error-159 = Invalid account recovery key
 auth-error-183-2 = Invalid or expired confirmation code
 auth-error-999 = Unexpected error
+auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
