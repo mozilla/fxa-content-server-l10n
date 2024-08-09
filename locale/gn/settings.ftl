@@ -798,6 +798,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Ehecha ne marandu ñemiguáva oñembyaikuaápa — ha egueru jey
+product-promo-monitor-plus-description = Pe tekoñemi tuichamba’e: Ehecha ne marandu ñemiguáva oñembyaikuaa ha egueru jey
 # Links out to the Monitor site
 product-promo-monitor-cta = Emoha’ãnga reiete
 # Links out to the Monitor pricing site
@@ -839,6 +840,7 @@ security-set-password = Emoĩ ñe’ẽñemi embojuehe hag̃ua ha eiporu peteĩv
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ejecha mba’ete rembiapo ramoguavéva
 signout-sync-header = Jeikerã opámava
+signout-sync-session-expired = Oĩ ndoikoporãiva. Emboty tembiapo kundahára poravorãme ha ag̃amieve eha’ã jey.
 
 ## Switch component
 
