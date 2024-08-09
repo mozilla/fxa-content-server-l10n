@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-08-09 17:30+0000\n"
+"PO-Revision-Date: 2024-08-09 17:33+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2082,7 +2082,7 @@ msgstr "Ema’ẽke:"
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Eva Firefox ndive ha embojuruja ko kuatiarogue eike hag̃ua ambue mba’e’okápe."
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Download Firefox"

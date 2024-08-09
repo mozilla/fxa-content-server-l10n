@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Ore ñyro, oĩ apañuái hekopyahúvo ne mba�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Eguerekove { -brand-mozilla }-gui:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Marandu ha tekopyahu tekorosã ha tekoñemirãve
+choose-newsletters-option-latest-news =
+    .label = Og̃uahẽta marandu ha mbohekopyahu apopyre rehegua
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Eike pya’e eiporu hag̃ua apopyre pyahu
@@ -790,6 +790,9 @@ tfa-enter-recovery-code-1 =
     .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
