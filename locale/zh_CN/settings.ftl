@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = 很抱歉，下载您的账户恢复密钥时�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = 接收 { -brand-mozilla } 的更多消息：
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = 安全与隐私的最新动态
+choose-newsletters-option-latest-news =
+    .label = 获取最新消息和产品动态
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = 抢先体验新产品
@@ -779,6 +779,12 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = 扫描隐私信息泄露，收回属于您的秘密
 
 ## Profile section
 
