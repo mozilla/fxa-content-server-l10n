@@ -801,6 +801,8 @@ product-promo-monitor =
 product-promo-monitor-description = Hitta var din privata information är exponerad — och ta tillbaka den
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Kom igång
 
 ## Profile section
 
