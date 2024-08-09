@@ -801,8 +801,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τα
+product-promo-monitor-plus-description = Το απόρρητό σας είναι σημαντικό: Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τα
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Έναρξη
 
 ## Profile section
 
