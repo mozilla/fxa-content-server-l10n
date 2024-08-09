@@ -790,8 +790,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Scopri dove sono esposte le tue informazioni personali e riprendine possesso
+product-promo-monitor-plus-description = Privacy Matters: scopri dove sono esposte le tue informazioni private e recuperale
 # Links out to the Monitor site
 product-promo-monitor-cta = Ottieni una scansione gratuita
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Inizia
 
 ## Profile section
 
