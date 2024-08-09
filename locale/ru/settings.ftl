@@ -801,7 +801,7 @@ product-promo-monitor-plus-description = Вопросы приватности: 
 # Links out to the Monitor site
 product-promo-monitor-cta = Получить бесплатное сканирование
 # Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Приступим
+product-promo-monitor-plus-cta = Приступить
 
 ## Profile section
 
