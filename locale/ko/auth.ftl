@@ -264,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName }에 대한 새 로그인
 newDeviceLogin-subjectForMozillaAccount = { -product-mozilla-account }에 대한 새 로그인
-newDeviceLogin-title-3 = 귀하의 { -product-mozilla-account }가 로그인에 사용되었습니다.
+newDeviceLogin-title-3 = 귀하의 { -product-mozilla-account }이 로그인에 사용되었습니다.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 본인이 아닌가요? <a data-l10n-name="passwordChangeLink">비밀번호를 바꾸세요</a>.
