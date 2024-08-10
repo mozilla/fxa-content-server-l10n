@@ -298,13 +298,17 @@ sub-update-payment-title = Informacije o plaćanju
 
 pay-with-heading-card-only = Plati karticom
 product-invoice-preview-error-title = Problem s učitavanjem pregleda računa
+product-invoice-preview-error-text = Neuspjelo učitavanje pregleda računa
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Još te ne možemo nadograditi
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } trgovina
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -320,6 +324,10 @@ sub-update-total-label = Nov ukupni iznos
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (dnevno)
+sub-update-new-plan-weekly = { $productName } (tjedno)
+sub-update-new-plan-monthly = { $productName } (mjesečno)
+sub-update-new-plan-yearly = { $productName } (godišnje)
 
 ##
 
@@ -415,3 +423,4 @@ reactivate-success-button = Zatvori
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-manage-button = Upravljaj

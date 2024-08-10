@@ -1,6 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
 app-general-err-heading = Opća greška programa
+app-general-err-message = Nešto nije u redu. Pokušaj kasnije ponovo.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
@@ -25,6 +26,10 @@ link-sr-new-window = Otvara se u novom prozoru
 
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Učitavanje …
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
+app-logo-alt-3 =
+    .alt = { -brand-mozilla } m logotip

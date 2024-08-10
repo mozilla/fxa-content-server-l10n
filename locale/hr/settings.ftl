@@ -22,6 +22,11 @@ brand-prelaunch-title = { -product-firefox-accounts } će se preimenovati u { -p
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
 brand-postlaunch-title = Preimenovali smo { -product-firefox-accounts } u { -product-mozilla-accounts }. I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom te nema drugih promjena u proizvodima koje koristiš.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Saznaj više
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m logotip
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -32,14 +37,31 @@ brand-postlaunch-title = Preimenovali smo { -product-firefox-accounts } u { -pro
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Preuzmi i nastavi
     .title = Preuzmi i nastavi
+recovery-key-pdf-heading = Ključ za obnavljanje računa
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Stvoreno: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Ključ za obnavljanje računa
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Mjesta za spremanje tvog ključa
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Saznaj više o ključu za obnavljanje računa
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Dobij naše najnovije vijesti i aktualiziranja proizvoda
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Odaberi što sinkronizirati
 choose-what-to-sync-option-bookmarks =
     .label = Zabilješke
 choose-what-to-sync-option-history =
@@ -55,6 +77,8 @@ choose-what-to-sync-option-prefs =
     .label = Postavke
 choose-what-to-sync-option-addresses =
     .label = Adrese
+choose-what-to-sync-option-paymentmethods =
+    .label = Načini plaćanja
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -139,6 +163,12 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+signin-recovery-code-image-description =
+    .aria-label = Dokument koji sadrži skriveni tekst.
+signin-totp-code-image-label =
+    .aria-label = Uređaj sa skrivenim 6-znamenkastim kodom.
+lock-image-aria-label =
+    .aria-label = Ilustracija lokota
 
 ## Input Password
 
@@ -154,6 +184,8 @@ input-password-show-aria-2 = Tvoja je lozinka trenutačno skrivena.
 input-password-sr-only-now-visible = Tvoja je lozinka sada vidljiva na ekranu.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Tvoja je lozinka sada skrivena.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Natrag
 
 ## LinkDamaged component
 
@@ -163,9 +195,15 @@ reset-pwd-link-damaged-header = Poveznica za resetiranje lozinke je oštećena
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Poveznica potvrde je oštećena
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Poveznica je oštećena
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Primi novu poveznicu
 
 ## LinkExpiredResetPassword component
 
@@ -204,6 +242,17 @@ password-strength-balloon-stay-safe-tips = Zaštiti se – nemoj koristiti već 
 
 reset-password-complete-header = Tvoja je lozinka resetirana
 ready-complete-set-up-instruction = Završi postavljanje upisom tvoje nove lozinke na tvojim drugim { -brand-firefox } uređajima.
+ready-start-browsing-button = Počni pregledavati
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Sada možeš koristiti { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Sada možeš koristiti postavke računa
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Tvoj je račun spreman!
+ready-continue = Nastavi
+sign-in-complete-header = Prijava je potvrđena
 
 ## Alert Bar
 
@@ -319,6 +368,11 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Upravljač lozinki
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Završi
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Ključ za obnavljanje računa je stvoren
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
