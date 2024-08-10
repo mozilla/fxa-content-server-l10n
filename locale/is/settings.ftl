@@ -793,8 +793,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Sjáðu hvar einkaupplýsingarnar þínar eru afhjúpaðar - og taktu þær aftur
+product-promo-monitor-plus-description = Persónuvernd skiptir máli: Finndu hvar einkaupplýsingarnar þínar eru afhjúpaðar og taktu þær til baka
 # Links out to the Monitor site
 product-promo-monitor-cta = Fáðu fría yfirferð
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Hefjumst handa
 
 ## Profile section
 
