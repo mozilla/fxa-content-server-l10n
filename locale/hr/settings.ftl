@@ -505,6 +505,9 @@ tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru au
 ##
 
 
+## Product promotion
+
+
 ## Profile section
 
 profile-heading = Profil
@@ -741,6 +744,8 @@ account-recovery-confirm-key-instructions-2 = Za ponovni pristup tvom { -product
 
 ## Confirm Reset Password With Code
 
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 
 ## ResetPassword start page
 
@@ -752,6 +757,8 @@ account-recovery-confirm-key-instructions-2 = Za ponovni pristup tvom { -product
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Upiši svoju lozinku <span>za tvoj { -product-mozilla-account }</span>
+signin-use-a-different-account-link = Koristi jedan drugi račun
+signin-forgot-password-link = Zaboravio/la si lozinku?
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -781,6 +788,7 @@ signin-token-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozil
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-other-account-link = Koristi jedan drugi račun
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
