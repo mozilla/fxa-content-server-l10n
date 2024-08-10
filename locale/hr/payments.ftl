@@ -195,6 +195,58 @@ settings-subscriptions-title = Pretplate
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } dnevdno
+        [few] { $amount } svaka { $intervalCount } dana
+       *[other] { $amount } svakih { $intervalCount } dana
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } dnevdno
+            [few] { $amount } svaka { $intervalCount } dana
+           *[other] { $amount } svakih { $intervalCount } dana
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } tjedno
+        [few] { $amount } svaka { $intervalCount } tjedna
+       *[other] { $amount } svakih { $intervalCount } tjedna
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } tjedno
+            [few] { $amount } svaka { $intervalCount } tjedna
+           *[other] { $amount } svakih { $intervalCount } tjedna
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } mjesečno
+        [few] { $amount } svaka { $intervalCount } mjeseca
+       *[other] { $amount } svakih { $intervalCount } mjeseci
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mjesečno
+            [few] { $amount } svaka { $intervalCount } mjeseca
+           *[other] { $amount } svakih { $intervalCount } mjeseci
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } godišnje
+        [few] { $amount } svake { $intervalCount } godine
+       *[other] { $amount } svakih { $intervalCount } godina
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } godišnje
+            [few] { $amount } svake { $intervalCount } godine
+           *[other] { $amount } svakih { $intervalCount } godina
+        }
 
 ## Error messages
 
@@ -245,6 +297,7 @@ sub-update-payment-title = Informacije o plaćanju
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Plati karticom
+product-invoice-preview-error-title = Problem s učitavanjem pregleda računa
 
 ## Routes - Product - IapRoadblock
 
