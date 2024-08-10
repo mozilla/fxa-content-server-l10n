@@ -111,6 +111,11 @@ form-reset-password-with-balloon-confirm-password =
     .label = Ponovo upiši lozinku
 form-reset-password-with-balloon-submit-button = Resetiraj lozinku
 form-reset-password-with-balloon-match-error = Lozinke se ne podudaraju
+form-password-sr-too-short-message = Lozinka mora sadržati barem 8 znakova.
+form-password-sr-not-email-message = Lozinka ne smije sadržati tvoju e-mail adresu.
+form-password-sr-not-common-message = Lozinka ne smije biti često korištena lozinka.
+form-password-sr-requirements-met = Upisana lozinka poštuje sve zahtjeve za lozinku.
+form-password-sr-passwords-match = Upisane lozinke se podudaraju.
 
 ## FormVerifyCode
 
@@ -141,18 +146,34 @@ get-data-trio-print-2 =
 input-password-hide = Sakrij lozinku
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Prikaži lozinku
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Tvoja je lozinka trenutačno vidljiva na ekranu.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Tvoja je lozinka trenutačno skrivena.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Tvoja je lozinka sada vidljiva na ekranu.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Tvoja je lozinka sada skrivena.
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Poveznica za resetiranje lozinke je oštećena
 
 ## LinkExpired component
 
 
 ## LinkExpiredResetPassword component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Poveznica za resetiranje lozinke je istekla
+reset-pwd-link-expired-message = Poveznica na koju si pritisnuo/la za resetiranje lozinke je istekla.
 
 ## LinkRememberPassword component
 
+# link navigates to the sign in page
+remember-password-signin-link = Prijavi se
 
 ## LinkUsed component
 
@@ -160,6 +181,8 @@ input-password-show = Prikaži lozinku
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Ovu lozinku trebaš za pristup svim šifriranim podacima koje kod nas spremaš.
+password-info-balloon-reset-risk-info = Resetiranje znači potencijalno gubljenje podataka poput lozinki i zabilješki.
 
 ## PasswordStrengthBalloon component
 
