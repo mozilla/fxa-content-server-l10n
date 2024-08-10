@@ -813,12 +813,43 @@ complete-reset-password-recovery-key-link = Resetiraj lozinku pomoću tvog klju�
 
 ## Confirm Reset Password Component
 
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Za stvaranje nove lozinke pritisni e-poštom poslanu poveznicu na { $email } u roku od sat vremena.
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Resetiraj lozinku <span>za nastavljanje postavljanja računa</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Resetiraj lozinku <span>za nastavljanje s { $serviceName }</span>
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mail adresa
+reset-password-button = Započni resetiranje
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mail adresa se mora zadati
+reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
+reset-password-with-recovery-key-verified-generate-new-key = Generiraj novi ključ za obnavljanje računa
+reset-password-with-recovery-key-verified-continue-to-account = Nastavi na moj račun
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Provjeri tvoju e-mail adresu
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Poslali smo kod za potvrđivanje na <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Upiši 8-znamenkasti kod u roku od 10 minuta
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Nastavi
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Ponovo pošalji kod
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 
