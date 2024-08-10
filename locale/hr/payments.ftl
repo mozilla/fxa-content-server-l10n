@@ -171,6 +171,7 @@ subscription-success-title = Potvrda pretplate
 subscription-processing-title = Potvrđivanje pretplate…
 subscription-error-title = Pogreška pri potvrđivanju pretplate…
 subscription-noplanchange-title = Ova promjena plana pretplate nije podržana
+subscription-iapsubscribed-title = Već pretplaćeno
 sub-guarantee = 30-dnevno jamstvo povrata novca
 
 ## Component - TermsAndPrivacy
