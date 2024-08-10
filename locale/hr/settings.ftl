@@ -190,9 +190,12 @@ password-strength-balloon-heading = Preduvjeti za lozinku
 password-strength-balloon-min-length = Barem 8 znakova
 password-strength-balloon-not-email = Nije tvoja e-mail adresa
 password-strength-balloon-not-common = Nije često korištena lozinka
+password-strength-balloon-stay-safe-tips = Zaštiti se – nemoj koristiti već korištene lozinke. Pogledaj savjete za <LinkExternal>stvaranje jakih lozinki</LinkExternal>.
 
 ## Ready component
 
+reset-password-complete-header = Tvoja je lozinka resetirana
+ready-complete-set-up-instruction = Završi postavljanje upisom tvoje nove lozinke na tvojim drugim { -brand-firefox } uređajima.
 
 ## Alert Bar
 
