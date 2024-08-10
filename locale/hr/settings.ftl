@@ -514,7 +514,7 @@ verify-secondary-email-verify-button-2 = Potvrdi
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code-2 = Upiši kȏd za potvrdu koji je poslan na <strong>{ $email }</strong> u roku od 5 minuta.
+verify-secondary-email-please-enter-code-2 = Upiši potvrdni kod koji je poslan na <strong>{ $email }</strong> u roku od 5 minuta.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.

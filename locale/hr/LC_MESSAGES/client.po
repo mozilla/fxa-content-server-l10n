@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-08-10 18:19+0000\n"
+"PO-Revision-Date: 2024-08-10 18:26+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -34,7 +34,7 @@ msgstr "Račun je uspješno izbrisan"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Koristi kȏd %(code)s za postavljanje dvofaktorske autentikacije u podržanim programima."
+msgstr "Koristi kod %(code)s za postavljanje dvofaktorske autentikacije u podržanim programima."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -335,7 +335,7 @@ msgstr "Nepotvrđeni račun"
 
 #: .es5/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr "Netočni kȏd za potvrdu"
+msgstr "Neispravan potvrdni kod"
 
 #: .es5/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
@@ -367,7 +367,7 @@ msgstr "Zahtjev je blokiran iz sigurnosnih razloga"
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
-msgstr "Neispravan autorizacijski kȏd"
+msgstr "Neispravan autorizacijski kod"
 
 #: .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
@@ -427,7 +427,7 @@ msgstr "Za resetiranje je potrebna primarna e-mail adresa računa"
 
 #: .es5/lib/auth-errors.js:190
 msgid "Invalid signin code"
-msgstr "Neispravan kȏd za prijavu"
+msgstr "Neispravan kod za prijavu"
 
 #: .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an unverified email"
@@ -652,7 +652,7 @@ msgstr "Ovo je obavezno polje"
 
 #: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
-msgstr "Potreban je kȏd autorizacije"
+msgstr "Potreban je kod autorizacije"
 
 #: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
@@ -664,11 +664,11 @@ msgstr "Potreban je broj mobitela"
 
 #: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
-msgstr "Potreban je kȏd dvofaktorske autentikacije"
+msgstr "Potreban je kod dvofaktorske autentikacije"
 
 #: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
-msgstr "Neispravan kȏd dvofaktorske autentikacije"
+msgstr "Neispravan kud dvofaktorske autentikacije"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
@@ -684,7 +684,7 @@ msgstr "Ključ za obnavljanje računa je potreban"
 
 #: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
-msgstr "Upiši potvrdni kȏd"
+msgstr "Upiši potvrdni kod"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
@@ -752,15 +752,15 @@ msgstr "Neispravna potvrda"
 
 #: .es5/lib/oauth-errors.js:39
 msgid "Unknown code"
-msgstr "Nepoznat kȏd"
+msgstr "Nepoznat kod"
 
 #: .es5/lib/oauth-errors.js:43
 msgid "Incorrect code"
-msgstr "Netočan kȏd"
+msgstr "Netočan kod"
 
 #: .es5/lib/oauth-errors.js:47
 msgid "Expired code"
-msgstr "Kȏd je istekao"
+msgstr "Kod je istekao"
 
 #: .es5/lib/oauth-errors.js:55 .es5/lib/oauth-errors.js:77
 msgid "Invalid OAuth parameter: %(param)s"
@@ -1038,7 +1038,7 @@ msgstr "Upiši kod koji je poslan na %(escapedEmail)s u roku od 5 minuta."
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr "Upiši šesteroznamenkasti kȏd"
+msgstr "Upiši šesteroznamenkasti kod"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
@@ -1649,7 +1649,7 @@ msgstr "Upiši potvrdni kod koji je poslan na %(escapedEmail)s u roku od 5 minut
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr "Trebaš drugi kȏd? Pošalji ponovo"
+msgstr "Trebaš jedan drugi kod? Pošalji ponovo"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"

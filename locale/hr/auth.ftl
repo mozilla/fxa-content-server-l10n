@@ -7,6 +7,7 @@ session-verify-send-push-body-2 = Pritisni ovdje da potvrdiš da si to ti
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotip">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinkroniziraj uređaje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Uređaji">
 fxa-privacy-url = { -brand-mozilla } - politika privatnosti
@@ -35,7 +36,9 @@ subplat-update-billing = Aktualiziraj podatke naplate
 subplat-privacy-policy = { -brand-mozilla } politika privatnosti
 subplat-privacy-policy-2 = Obavijest o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = Uvjeti usluge za { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Pravno
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatnost
@@ -79,6 +82,8 @@ automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ako to nisi bio/la 
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = i promijeni lozinku:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške:
 automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, <a data-l10n-name="resetLink">promijeni lozinku</a>. Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }podrške</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
@@ -113,6 +118,9 @@ subscriptionFirstInvoice-content-invoice-number-plaintext = Broj računa: { $inv
 # Variables:
 #  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoice-content-plan-change = Promjena plana: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Podzbroj: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Popust: −{ $invoiceDiscountAmount }
@@ -157,12 +165,20 @@ cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
 cadReminderSecond-description-sync = Sinkroniziraj zabilješke, lozinke i ostalo gdje god koristiš { -brand-firefox }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Dobro došao, dobro došla u { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Dobro došao, dobro došla u { $productName }
+downloadSubscription-link-action-2 = Započni
 fraudulentAccountDeletion-subject-2 = Tvoj { -product-mozilla-account } je izbrisan
 fraudulentAccountDeletion-title = Tvoj račun je izbrisan
 fraudulentAccountDeletion-contact = Ako imaš pitanja, kontaktiraj naš <a data-l10n-name="mozillaSupportUrl">tim za podršku</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ako imaš pitanja kontaktiraj naš tim za podršku: { $mozillaSupportUrl }
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava na { $clientName }
@@ -186,6 +202,7 @@ password-forgot-otp-subject = Zaboravio/la si lozinku?
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
 password-forgot-otp-code = Ako da, evo tvog potvrdnog koda za nastavljanje:
+password-forgot-otp-expiry-notice = Ovaj kod ističe za 10 minuta.
 passwordReset-subject = Lozinka aktualizirana
 passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
