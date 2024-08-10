@@ -28,6 +28,7 @@ input-error-is-required = Polje { $label } je obavezno
 
 ## Component - Header
 
+brand-name-mozilla-logo = { -brand-mozilla } logotip
 
 ## Component - NewUserEmailForm
 

@@ -225,6 +225,7 @@ postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikac
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Aktivirao/la si je s:
 postAddTwoStepAuthentication-action = Upravljaj računom
+postChangeAccountRecovery-action = Upravljaj računom
 postChangePrimary-subject = Primarna e-mail adresa aktualizirana
 postChangePrimary-title = Nova primarna adresa e-pošte
 postChangePrimary-action = Upravljaj računom
@@ -289,6 +290,12 @@ subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obn
 subscriptionFailedPaymentsCancellation-subject = Tvoja pretplata na { $productName } je otkazana
 subscriptionFailedPaymentsCancellation-title = Tvoja pretplata je otkazana
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } plaćanje potvrđeno
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Hvala ti na pretplati na { $productName }
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
 # Variables:
@@ -345,9 +352,14 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdi račun
 verificationReminderSecond-subject-2 = Ne zaboravi potvrditi svoj račun
 verificationReminderSecond-action-2 = Potvrdi račun
+verify-title-3 = Otvori internet s { -brand-mozilla }
 verify-subject = Završi stvaranje računa
 verify-action-2 = Potvrdi račun
+verifyLogin-subject-2 = Potvrdi prijavu
 verifyLogin-action = Potvrdi prijavu
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Odobri prijavu na { $serviceName }
 verifyLoginCode-expiry-notice = Istječe za 5 minuta.
 verifyPrimary-title-2 = Potvrdi primarnu e-mail adresu
 verifyPrimary-description = Zahtjev za izvršavanje promjene računa upućen je sa sljedećeg uređaja:
