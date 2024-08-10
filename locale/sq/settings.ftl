@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Na ndjeni, pati një problem me shkarkimin e k
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Merrni më tepër nga { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Lajme dhe përditësime mbi sigurinë & privatësinë
+choose-newsletters-option-latest-news =
+    .label = Merrni lajmet dhe përditësimet tona më të reja rreth produktesh
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Mundësi për të testuar që herët produkte të reja
@@ -646,6 +646,7 @@ delete-account-continue-button = Vazhdo
 delete-account-password-input =
     .label = Jepni fjalëkalimin
 pocket-delete-notice = Nëse pajtoheni te Pocket Premium, ju lutemi, mos harroni të <a>anuloni pajtimin tuaj</a>, para fshirjes së llogarisë tuaj.
+pocket-delete-notice-marketing = Që të reshtet së marri email-e marketingu nga Mozilla Corporation dhe Mozilla Foundation, duhet <a>të kërkoni fshirjen e të dhënave tuaja rreth marketingut.</a>
 delete-account-cancel-button = Anuloje
 delete-account-delete-button-2 = Fshije
 
@@ -788,6 +789,17 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Gjeni se ku është ekspozuar informacion i juaji privat — dhe rimerreni
+product-promo-monitor-plus-description = Privatësi Ka Rëndësi: Gjeni se ku është ekspozuar informacion i juaji privat dhe rimerreni
+# Links out to the Monitor site
+product-promo-monitor-cta = Përfitoni kontroll falas
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Fillojani
 
 ## Profile section
 
@@ -987,6 +999,7 @@ auth-error-155 = S’u gjet token TOTP
 auth-error-159 = Kyç rimarrjeje llogarie i pavlefshëm
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-999 = Gabim i papritur
+auth-error-1001 = Përpjekja për hyrje u anulua
 auth-error-1002 = Sesioni skadoi. Që të vazhdohet, bëni hyrjen.
 auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
