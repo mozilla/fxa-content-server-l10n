@@ -376,6 +376,12 @@ flow-recovery-key-success-alert = Ključ za obnavljanje računa je stvoren
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Promijeni ključ za obnavljanje računa
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Započni
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Odustani
 
 ## HeaderLockup component, the header in account settings
 
@@ -400,6 +406,7 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Zatvori
 modal-cancel-button = Odustani
+modal-default-confirm-button = Potvrdi
 
 ## Modal Verify Session
 
@@ -502,8 +509,13 @@ delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Sinkroniziranje { -brand-firefox } podataka
+delete-account-product-firefox-addons = { -brand-firefox } dodaci
 delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
 delete-account-chk-box-2 =
     .label = Možda ćeš izgubiti spremljene informacije i funkcije u { -brand-mozilla } proizvodima
@@ -528,6 +540,7 @@ display-name-input =
     .label = Unesi prikazano ime
 submit-display-name = Spremi
 cancel-display-name = Odustani
+display-name-success-alert-2 = Prikazano ime je aktualizirano
 
 ##
 
@@ -536,11 +549,18 @@ cancel-display-name = Odustani
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Nedavna aktivnost računa
+recent-activity-account-create-v2 = Račun je stvoren
+recent-activity-account-disable-v2 = Račun je deaktiviran
+recent-activity-account-enable-v2 = Račun je aktiviran
+recent-activity-account-login-v2 = Pokrenuta je prijava na račun
 recent-activity-account-reset-v2 = Pokrenuto je resetiranje lozinke
 recent-activity-account-password-reset-requested = Račun je zatražio resetiranje lozinke
 recent-activity-account-password-reset-success = Lozinka računa uspješno resetirana
 recent-activity-account-password-added = Nova lozinka dodana
 recent-activity-account-password-changed = Lozinka spremljena
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Druga aktivnost na računu
 
 ## PageRecoveryKeyCreate
 
@@ -689,6 +709,7 @@ se-set-primary-successful-2 = { $email } je sada tvoja primarna e-mail adresa
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = E-mail adresa { $email } je uspješno izrisana
+se-verify-session-error-3 = Žao nam je. Došlo je do greške prilikom potvrđivanja tvoje sesije
 # Button to remove the secondary email
 se-remove-email =
     .title = Ukloni e-poštu
@@ -703,6 +724,8 @@ se-resend-code-2 =
 se-make-primary = Postavi primarnom
 se-default-content = Pristupi svom računu kada se ne možeš prijaviti na svoju primarnu e-poštu.
 se-content-note-1 = Napomena: sekundarna e-mail adresa neće obnoviti tvoje podatke – za to ćeš trebati <a>ključ za obnavljanje računa</a>.
+# Default value for the secondary email
+se-secondary-email-none = Nema
 
 ##
 
@@ -735,6 +758,12 @@ terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "u
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = ili
+continue-with-google-button = Nastavi s { -brand-google }
+continue-with-apple-button = Nastavi s { -brand-apple }
 
 ## TotpInputGroup component
 ## This component is composed of 6 or 8 single digit inputs for verification codes
@@ -755,14 +784,26 @@ auth-error-114 = Previše pokušaja. Pokušaj ponovo { $retryAfter }.
 auth-error-138-2 = Nepotvrđena sesija
 auth-error-139 = Sekundarna e-mail adresa mora biti drugačija od e-mail adrese računa
 auth-error-155 = TOTP token nije pronađen
+auth-error-159 = Neispravan ključ za obnavljanje računa
 auth-error-183-2 = Neispravan ili istekao potvrdni kod
+auth-error-999 = Neočekivana greška
+auth-error-1001 = Pokušaj prijave je prekinut
+auth-error-1002 = Vrijeme sesije je isteklo. Prijavi se za nastavljanje.
 auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 auth-error-1010 = Potrebna je ispravna lozinka
+auth-error-1011 = Potrebna je ispravna e-mail adresa
+auth-error-1031 = Za prijavu moraš upisati svoju dob
+auth-error-1032 = Za registraciju moraš upisati ispravnu dob
+auth-error-1062 = Neispravno preusmjeravanje
+oauth-error-1000 = Dogodila se greška. Zatvori ovu karticu i pokušaj ponovo.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Nije moguće stvoriti račun
 cannot-create-account-requirements-2 = Za stvaranje { -product-mozilla-account } moraš ispuniti određene dobne uvjete.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Saznaj više
 
 ## Connect Another Device page
 
