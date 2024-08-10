@@ -72,6 +72,9 @@ recovery-key-pdf-download-error = Desolate, il habeva un problema discargante tu
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Obtene plus de { -brand-mozilla }:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Recipe le ultime actualisationes de tu novas e productos
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Accesso precoce pro verificar nove productos
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -795,6 +798,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Discoperi ubi tu info private es exponite, e recupera los
+product-promo-monitor-plus-description = Le confidentialitate es importante, discoperi ubi tu info private es exponite, e recupera los
+# Links out to the Monitor site
+product-promo-monitor-cta = Obtene un scansion gratuite
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Comenciar
 
 ## Profile section
 
