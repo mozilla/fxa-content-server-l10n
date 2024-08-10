@@ -855,6 +855,11 @@ confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Resetiraj tvoju lozinku
+password-reset-body = Upiši tvoju e-mail adresu i poslat ćemo ti kod za potvrdu da bismo potvrdili da si to doista ti.
+password-reset-email-input =
+    .label = Upiši tvoju e-mail adresu
+password-reset-submit-button = Pošaljite mi upute za resetiranje
 
 ## CompleteSignin component
 
@@ -865,6 +870,7 @@ confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 signin-password-needed-header-2 = Upiši svoju lozinku <span>za tvoj { -product-mozilla-account }</span>
 signin-use-a-different-account-link = Koristi jedan drugi račun
 signin-forgot-password-link = Zaboravio/la si lozinku?
+signin-password-button-label = Lozinka
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -914,3 +920,4 @@ confirm-signup-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-moz
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Postavi tvoju lozinku
