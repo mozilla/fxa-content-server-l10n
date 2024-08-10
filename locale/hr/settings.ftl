@@ -807,17 +807,42 @@ cannot-create-account-learn-more-link = Saznaj više
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mail adresa je potvrđena
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Prijava je potvrđena
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Prijavi se na ovaj { -brand-firefox } za dovršavanje postavljanja
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Prijavi se
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
 connect-another-device-get-data-on-another-device-message = Želiš li dobiti tvoje kartice, zabilješke i lozinke na jednom drugom uređaju?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Poveži jedan drugi uređaj
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ne sada
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Pokušaj ponovo
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Saznaj više
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Odustani
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Nastavi
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Potvrdi
+inline-recovery-back-link = Natrag
+inline-recovery-cancel-setup = Prekini postavljanje
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -829,24 +854,36 @@ connect-another-device-get-data-on-another-device-message = Želiš li dobiti tv
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Napomena o privatnosti
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Uvjeti usluge
 
 ## AuthAllow page - Part of the device pairing flow
 
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Da, odobri uređaj
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = Ako to nisi bio/la ti, <link>promijeni lozinku</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Uređaj je povezan
 pair-auth-complete-sync-benefits-text = Sada možeš pristupiti tvojim otvorenim karticama, lozinkama i zabilješkama na svim tvojim uređajima.
+pair-auth-complete-manage-devices-link = Upravljaj uređajima
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Upiši šesteroznamenkasti kod
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Potvrdi
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -858,15 +895,29 @@ pair-auth-complete-sync-benefits-text = Sada možeš pristupiti tvojim otvorenim
 
 ## Pair index page
 
+pair-sync-header = Sinkroniziraj { -brand-firefox } na svom telefonu ili tabletu
+pair-cad-header = Poveži { -brand-firefox } na jednom drugom uređaju
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sinkroniziraj svoj uređaj
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Ili preuzmi
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ne sada
 pair-take-your-data-message = Ponesi svoje kartice, zabilješke i lozinke gdje god koristiš { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Započni
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR kod
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Uređaj je povezan
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-cancel-link = Odustani
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -967,6 +1018,8 @@ password-reset-submit-button = Pošaljite mi upute za resetiranje
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Greška:
 # Shown above an error banner (e.g., invalid confirmation code, unexpected error)
 complete-signin-error-header = Greška potvrde
 # The user followed a signin confirmation link, but that link is expired and no longer valid
@@ -976,6 +1029,8 @@ signin-link-expired-header = Poveznica potvrde je oštećena
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Upiši svoju lozinku <span>za tvoj { -product-mozilla-account }</span>
+signin-button = Prijavi se
+signin-header = Prijavi se
 signin-use-a-different-account-link = Koristi jedan drugi račun
 signin-forgot-password-link = Zaboravio/la si lozinku?
 signin-password-button-label = Lozinka
@@ -1012,11 +1067,16 @@ signin-token-code-required-error = Potreban je potvrdni kod
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v2 = Upiši šesteroznamenkasti kod
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Potvrdi
 signin-totp-code-other-account-link = Koristi jedan drugi račun
+signin-totp-code-recovery-code-link = Problem s unosom koda?
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-submit-button = Nastavi
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1030,6 +1090,13 @@ confirm-signup-code-page-title = Upiši potvrdni kod
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozilla-account }</span>
+confirm-signup-code-input-label = Upiši šesteroznamenkasti kod
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Potvrdi
+confirm-signup-code-code-expired = Kod je istekao?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Pošalji e-mailom novi kod.
+confirm-signup-code-success-alert = Račun je uspješno potvrđen
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Potreban je potvrdni kod
 
@@ -1037,3 +1104,14 @@ confirm-signup-code-is-required-error = Potreban je potvrdni kod
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Postavi tvoju lozinku
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Zašto moram stvoriti ovaj račun? <LinkExternal>Saznaj ovdje</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Promijeni e-mail adresu
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Koliko imaš godina?
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Zašto pitamo?
