@@ -890,6 +890,8 @@ signin-password-button-label = Lozinka
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+# $email (string) - The user's email.
+signin-bounced-message = Potvrdni e-mail koji smo poslali na { $email } je vraćen i zaključali smo tvoj račun, kako bismo zaštitili tvoje { -brand-firefox } podatke.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

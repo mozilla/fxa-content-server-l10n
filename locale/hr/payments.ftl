@@ -19,7 +19,7 @@ coupon-error-limit-reached = Upisani kôd je dosegao ograničenje.
 coupon-error-invalid = Upisani kôd je neispravan.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
-    .placeholder = Upiši kȏd
+    .placeholder = Upiši kod
 
 ## Component - Fields
 
@@ -36,7 +36,7 @@ new-user-sign-in-link-2 = Već imaš { -product-mozilla-account }? <a>Prijavi se
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-enter-email =
-    .label = Upiši svoju e-mail adresu
+    .label = Upiši tvoju e-mail adresu
 new-user-confirm-email =
     .label = Potvrdi svoju e-mail adresu
 new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
@@ -53,6 +53,8 @@ payment-confirmation-thanks-heading-account-exists = Hvala, sada provjeri svoju 
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $email } s detaljima o tome kako početi koristiti { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Primit ćeš e-mail na { $email } s uputama za postavljanje računa, kao i podatke o plaćanju.
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice

@@ -185,7 +185,7 @@ passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku ko
 password-forgot-otp-subject = Zaboravio/la si lozinku?
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
-password-forgot-otp-code = Ako da, evo potvrdnog koda za nastavljanje:
+password-forgot-otp-code = Ako da, evo tvog potvrdnog koda za nastavljanje:
 passwordReset-subject = Lozinka aktualizirana
 passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
@@ -340,6 +340,8 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Potvrdi sekundarnu e-mail adresu
 verifySecondaryCode-title-2 = Potvrdi sekundarnu e-mail adresu
 verifySecondaryCode-action-2 = Potvrdi e-mail adresu
+verifySecondaryCode-prompt-2 = Koristi ovaj potvrdni kod:
+verifySecondaryCode-expiry-notice-2 = Isteče za 5 minuta. Nakon potvrde, ova će adresa početi primati sigurnosne obavijesti i potvrde.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrdi svoj račun
