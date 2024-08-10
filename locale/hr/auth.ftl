@@ -61,7 +61,7 @@ ios-download-plaintext = Preuzmi { $productName } na App Storeu:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instaliraj { $productName } na jedan drugi uređaj:
-automated-email-change-2 = Ako nisi poduzeo/la ovu radnju, odmah <a data-l10n-name="passwordChangeLink">promijeni svoju lozinku</a>.
+automated-email-change-2 = Ako nisi poduzeo/la ovu radnju, odmah <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
 automated-email-support = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }„Podrška”</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Ako nisi poduzeo/la ovu radnju, odmah promijeni lozinku:
@@ -72,6 +72,8 @@ automated-email-no-action = { automated-email-no-action-plaintext } Za više inf
 automated-email-no-action-plaintext = Ovo je automatizirana e-mail poruka. Ako si je primio/la greškom, ne moraš ništa učiniti.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, promijeni lozinku:
+automatedEmailRecoveryKey-delete-key-change-pwd = Ako to nisi bio/la ti, <a data-l10n-name="revokeAccountRecoveryLink">izbriši novi ključ</a> i <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
+automatedEmailRecoveryKey-change-pwd-only = Ako to nisi bio/la ti, <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ako to nisi bio/la ti, promijeni lozinku:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
@@ -85,7 +87,7 @@ brand-banner-message = Znaš li da smo promijenili ime { -product-firefox-accoun
 cancellationSurvey = Pomogni nam poboljšati naše usluge ispunjavanjem ove <a data-l10n-name="cancellationSurveyUrl">kratke ankete</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
-change-password-plaintext = Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku.
+change-password-plaintext = Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni lozinku.
 manage-account = Upravljaj računom
 manage-account-plaintext = { manage-account }:
 payment-details = Podaci o plaćanju:
@@ -154,6 +156,7 @@ cadReminderFirst-subject-1 = Podsjetnik! Sinkronizirajmo { -brand-firefox }
 cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
+cadReminderSecond-description-sync = Sinkroniziraj zabilješke, lozinke i ostalo gdje god koristiš { -brand-firefox }.
 fraudulentAccountDeletion-subject-2 = Tvoj { -product-mozilla-account } je izbrisan
 fraudulentAccountDeletion-title = Tvoj račun je izbrisan
 fraudulentAccountDeletion-contact = Ako imaš pitanja, kontaktiraj naš <a data-l10n-name="mozillaSupportUrl">tim za podršku</a>.
@@ -182,6 +185,7 @@ passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku ko
 password-forgot-otp-subject = Zaboravio/la si lozinku?
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
+password-forgot-otp-code = Ako da, evo potvrdnog koda za nastavljanje:
 passwordReset-subject = Lozinka aktualizirana
 passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
@@ -339,5 +343,5 @@ verifySecondaryCode-action-2 = Potvrdi e-mail adresu
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrdi svoj račun
-verifyShortCode-prompt-3 = Koristi ovaj kod za potvrdu:
+verifyShortCode-prompt-3 = Koristi ovaj potvrdni kod:
 verifyShortCode-expiry-notice = Isteče za 5 minuta.
