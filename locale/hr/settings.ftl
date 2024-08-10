@@ -186,6 +186,10 @@ password-info-balloon-reset-risk-info = Resetiranje znači potencijalno gubljenj
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Preduvjeti za lozinku
+password-strength-balloon-min-length = Barem 8 znakova
+password-strength-balloon-not-email = Nije tvoja e-mail adresa
+password-strength-balloon-not-common = Nije često korištena lozinka
 
 ## Ready component
 
