@@ -55,6 +55,8 @@ payment-confirmation-thanks-heading-account-exists = Hvala, sada provjeri svoju 
 payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $email } s detaljima o tome kako početi koristiti { $product_name }.
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Informacije o plaćanju
 payment-confirmation-amount = { $amount } / { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.

@@ -160,6 +160,9 @@ input-password-sr-only-now-hidden = Tvoja je lozinka sada skrivena.
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Poveznica za resetiranje lozinke je oštećena
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Poveznica potvrde je oštećena
 
 ## LinkExpired component
 
@@ -177,6 +180,11 @@ remember-password-signin-link = Prijavi se
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Primarna e-mail adresa je već potvrđena
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Prijava je već potvrđena
+confirmation-link-reused-message = Ta poveznica za potvrdu već je korištena i može se koristiti samo jednom.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -618,6 +626,7 @@ rk-remove-error-2 = Nije moguće ukloniti tvoj ključ za obnavljanje računa
 
 se-heading = Sekundarna adresa e-pošte
     .header = Sekundarna adresa e-pošte
+se-cannot-resend-code-3 = Žao nam je, došlo je do problema prilikom ponovnog slanja potvrdnog koda
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -681,7 +690,7 @@ terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "u
 
 auth-error-102 = Nepoznati račun
 auth-error-103 = Netočna lozinka
-auth-error-105-2 = Neispravan kod za potvrdu
+auth-error-105-2 = Neispravan potvrdni kod
 auth-error-110 = Nevažeći token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -863,6 +872,10 @@ password-reset-submit-button = Pošaljite mi upute za resetiranje
 
 ## CompleteSignin component
 
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Greška potvrde
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Poveznica potvrde je oštećena
 
 ## Signin page
 
@@ -895,6 +908,8 @@ signin-password-button-label = Lozinka
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozilla-account }</span>
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Potreban je potvrdni kod
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -912,10 +927,14 @@ signin-totp-code-other-account-link = Koristi jedan drugi račun
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Upiši potvrdni kod
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozilla-account }</span>
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Potreban je potvrdni kod
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
