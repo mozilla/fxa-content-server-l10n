@@ -694,6 +694,7 @@ auth-error-139 = Sekundarna e-mail adresa mora biti drugačija od e-mail adrese 
 auth-error-155 = TOTP token nije pronađen
 auth-error-183-2 = Neispravan ili istekao potvrdni kod
 auth-error-1008 = Tvoja nova lozinka mora biti drugačija
+auth-error-1010 = Potrebna je ispravna lozinka
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -702,6 +703,8 @@ cannot-create-account-requirements-2 = Za stvaranje { -product-mozilla-account }
 
 ## Connect Another Device page
 
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Želiš li dobiti tvoje kartice, zabilješke i lozinke na jednom drugom uređaju?
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -728,9 +731,13 @@ cannot-create-account-requirements-2 = Za stvaranje { -product-mozilla-account }
 
 ## AuthAllow page - Part of the device pairing flow
 
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Ako to nisi bio/la ti, <link>promijeni lozinku</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+pair-auth-complete-sync-benefits-text = Sada možeš pristupiti tvojim otvorenim karticama, lozinkama i zabilješkama na svim tvojim uređajima.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -747,6 +754,7 @@ cannot-create-account-requirements-2 = Za stvaranje { -product-mozilla-account }
 
 ## Pair index page
 
+pair-take-your-data-message = Ponesi svoje kartice, zabilješke i lozinke gdje god koristiš { -brand-firefox }.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
