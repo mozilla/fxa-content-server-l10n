@@ -785,6 +785,9 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = 扫描隐私信息泄露，收回属于您的秘密
+product-promo-monitor-plus-description = 个人隐私事关重大：扫描隐私信息泄露，收回属于您的秘密
+# Links out to the Monitor site
+product-promo-monitor-cta = 免费扫描
 # Links out to the Monitor pricing site
 product-promo-monitor-plus-cta = 开始使用
 
