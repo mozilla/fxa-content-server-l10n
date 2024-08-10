@@ -71,10 +71,20 @@ recovery-key-pdf-download-error = 죄송합니다. 계정 복구 키를 다운�
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla }에서 더 많은 정보를 얻으세요:
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = 신제품 테스트를 위한 조기 액세스
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = 인터넷을 되찾기 위한 조치 알림
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = 동기화할 항목 선택
 choose-what-to-sync-option-bookmarks =
     .label = 북마크
 choose-what-to-sync-option-history =
@@ -207,11 +217,26 @@ email-code-image-aria-label =
 input-password-hide = 비밀번호 숨기기
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = 비밀번호 표시
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = 비밀번호가 현재 화면에 표시됩니다.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = 비밀번호가 현재 숨겨져 있습니다.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = 이제 비밀번호가 화면에 표시됩니다.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 뒤로
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = 비밀번호 재설정 링크가 손상됨
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = 확인 링크가 손상됨
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = 링크 손상됨
 
 ## LinkExpired component
 
@@ -650,6 +675,9 @@ tfa-button-cant-scan-qr = 코드를 스캔할 수 없습니까?
 tfa-enter-secret-key = 이 비밀 키를 인증 앱에 입력하세요:
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
