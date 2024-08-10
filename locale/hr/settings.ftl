@@ -298,11 +298,14 @@ flow-container-back = Natrag
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Iz sigurnosnih razloga ponovo upiši lozinku
+flow-recovery-key-confirm-pwd-input-label = Upiši lozinku
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-pwd-manager = Upravljač lozinki
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -327,6 +330,8 @@ la-heading = Povezani računi
 la-description = Autorizirao/la si pristup sljedećim računima.
 la-unlink-button = Odspoji
 la-unlink-account-button = Odspoji
+la-set-password-button = Postavi lozinku
+la-unlink-content-4 = Prije odspajanja tvog računa moraš postaviti lozinku. Bez lozinke se ne možeš prijaviti nakon odspajanja tvog računa.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -400,6 +405,9 @@ pw-change-header =
 pw-8-chars = Barem 8 znakova
 pw-not-email = Nije tvoja e-mail adresa
 pw-change-must-match = Nova lozinka podudara se s potvrdom
+pw-commonly-used = Nije često korištena lozinka
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Zaštiti se – nemoj koristiti već korištene lozinke. Pogledaj savjete za <linkExternal>stvaranje jakih lozinki</linkExternal>.
 pw-change-cancel-button = Odustani
 pw-change-save-button = Spremi
 pw-change-forgot-password-link = Zaboravio/la si lozinku?
@@ -443,7 +451,7 @@ delete-account-chk-box-4 =
     .label = Sva proširenja i teme koja objaviš na addons.mozilla.org će se izbrisati
 delete-account-continue-button = Nastavi
 delete-account-password-input =
-    .label = Unesi lozinku
+    .label = Upiši lozinku
 delete-account-cancel-button = Odustani
 delete-account-delete-button-2 = Izbriši
 
@@ -466,6 +474,11 @@ cancel-display-name = Odustani
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-account-reset-v2 = Pokrenuto je resetiranje lozinke
+recent-activity-account-password-reset-requested = Račun je zatražio resetiranje lozinke
+recent-activity-account-password-reset-success = Lozinka računa uspješno resetirana
+recent-activity-account-password-added = Nova lozinka dodana
+recent-activity-account-password-changed = Lozinka spremljena
 
 ## PageRecoveryKeyCreate
 
