@@ -40,6 +40,9 @@ new-user-enter-email =
     .label = Upiši tvoju e-mail adresu
 new-user-confirm-email =
     .label = Potvrdi svoju e-mail adresu
+new-user-subscribe-product-updates-mozilla = Želim primati novosti { -brand-mozilla } proizvoda i aktualiziranja
+new-user-subscribe-product-updates-snp = Želim primati novosti { -brand-mozilla } sigurnosti, obavijesti o privatnosti i aktualiziranja
+new-user-subscribe-product-updates-hubs = Želim primati { -product-mozilla-hubs } i { -brand-mozilla } novosti i aktualiziranja
 new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
 new-user-email-validate = E-mail adresa nije ispravna
 new-user-email-validate-confirm = E-mail adrese se ne poklapaju
@@ -106,6 +109,7 @@ payment-error-manage-subscription-button = Upravljaj mojom pretplatom
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-get-help-button = Dobij pomoć
 
 ## Component - PaymentForm
 
@@ -117,6 +121,7 @@ payment-cc =
 payment-cancel-btn = Odustani
 payment-update-btn = Aktualiziraj
 payment-pay-btn = Plati sada
+payment-pay-with-paypal-btn-2 = Plati s uslugom { -brand-paypal }
 payment-validate-name-error = Upiši tvoje ime
 
 ## Component - PaymentLegalBlurb
