@@ -778,14 +778,38 @@ pair-take-your-data-message = Ponesi svoje kartice, zabilješke i lozinke gdje g
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = <span>Za nastavljanje s postavljanjem računa</span> resetiraj lozinku pomoću ključa za obnavljanje računa
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Resetiraj lozinku pomoću ključa za obnavljanje računa <span>za nastavljanje na { $serviceName }</span>
 account-recovery-confirm-key-instructions-2 = Za ponovni pristup tvom { -product-mozilla-account } upiši spremljeni jednokratni ključ za oporavak računa.
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Stvori novu lozinku
+account-restored-success-message = Uspješno si obnovio/la svoj račun koristeći ključ za obnavljanje računa. Stvori novu lozinku za osiguravanje tvojih podataka i spremi ju na sigurnu mjesto.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Lozinka je postavljena
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Dogodila se neočekivana greška
+account-recovery-reset-password-redirecting = Preusmjeravanje
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Stvori novu lozinku
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Lozinka je postavljena
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Žao nam je. Došlo je do greške prilikom postavljanja tvoje lozinke
+complete-reset-password-recovery-key-error-v2 = Žao nam je. Došlo je do greške prilikom provjere postojanja ključa za obnavljanje računa.
+complete-reset-password-recovery-key-link = Resetiraj lozinku pomoću tvog ključa za obnavljanje računa.
 
 ## Confirm Reset Password Component
 
