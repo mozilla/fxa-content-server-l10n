@@ -241,6 +241,12 @@ fraudulentAccountDeletion-contact = Ako imaš pitanja, kontaktiraj naš <a data-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ako imaš pitanja kontaktiraj naš tim za podršku: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Preostalo ti je još samo par sigurnosnih kodova za autentifikaciju!
+codes-reminder-title-one = Imaš još samo jedan sigurnosni kod za autentifikaciju!
+codes-reminder-title-two = Vrijeme je za izradu dodatnih kodova za autentifikaciju
+codes-reminder-description-part-one = Sigurnosni kodovi za autentifikaciju pomažu ti obnoviti tvoje podatke kada zaboraviš lozinku.
+codes-reminder-description-part-two = Stvori nove kodove sada kako kasnije ne bi izgubio/la tvoje podatke.
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
