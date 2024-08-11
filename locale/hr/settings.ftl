@@ -61,9 +61,14 @@ recovery-key-pdf-support = Saznaj više o ključu za obnavljanje računa
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Dobij više uz { -brand-mozilla }:
 # Newsletter checklist item
 choose-newsletters-option-latest-news =
     .label = Dobij naše najnovije vijesti i aktualiziranja proizvoda
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Rani pristup za testiranje novih proizvoda
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -366,22 +371,46 @@ flow-container-back = Natrag
 
 flow-recovery-key-confirm-pwd-heading-v2 = Iz sigurnosnih razloga ponovo upiši lozinku
 flow-recovery-key-confirm-pwd-input-label = Upiši lozinku
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Stvori ključ za obnavljanje računa
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Stvori novi ključ za obnavljanje računa
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Ključ za obnavljanje računa je stvoren – preuzmi i spremi ga sada
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Nastavi bez preuzimanja
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Mjesta za spremanje tvog ključa:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mapa na sigurnom uređaju
+flow-recovery-key-download-storage-ideas-cloud = Pouzdano spremište u oblaku
+flow-recovery-key-download-storage-ideas-print-v2 = Ispisan fizički primjerak
 flow-recovery-key-download-storage-ideas-pwd-manager = Upravljač lozinki
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Dodaj savjet za pronalaženje ključa
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Upiši savjet (opcionalno)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Završi
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Ključ za obnavljanje računa je stvoren
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Savjet mora sadržati manje od 255 znakova.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -568,11 +597,19 @@ recent-activity-account-password-reset-requested = Račun je zatražio resetiran
 recent-activity-account-password-reset-success = Lozinka računa uspješno resetirana
 recent-activity-account-password-added = Nova lozinka dodana
 recent-activity-account-password-changed = Lozinka spremljena
+recent-activity-account-secondary-email-added = Sekundarna e-mail adresa dodana
+recent-activity-account-secondary-email-removed = Sekundarna e-mail adresa uklonjena
+recent-activity-account-emails-swapped = Primarna i sekundarna e-mail adresa zamijenjene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga aktivnost na računu
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Ključ za obnavljanje računa
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Natrag na postavke
 
 ## Add secondary email page
 
@@ -641,6 +678,8 @@ tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru au
 
 ## Product promotion
 
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Započni
 
 ## Profile section
 
@@ -657,6 +696,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Korak { $currentStep } od { $numberOfSteps }.
 
 ## Security section of Setting
 
