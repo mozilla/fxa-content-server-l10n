@@ -219,6 +219,32 @@ price-details-no-tax-year =
             [few] { $priceAmount } svake { $intervalCount } godine
            *[other] { $priceAmount } svakih { $intervalCount } godina
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } porez dnevno
+        [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } dana
+       *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } dana
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } porez dnevno
+            [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } dana
+           *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } dana
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } porez tjedno
+        [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } tjedna
+       *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } tjedna
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } porez tjedno
+            [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } tjedna
+           *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } tjedna
+        }
 
 ## Component - SubscriptionTitle
 
