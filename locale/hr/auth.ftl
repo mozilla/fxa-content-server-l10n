@@ -321,14 +321,27 @@ postChangeAccountRecovery-body-part2 = Spremi ovaj novi ključ na sigurno mjesto
 postChangeAccountRecovery-action = Upravljaj računom
 postChangePrimary-subject = Primarna e-mail adresa aktualizirana
 postChangePrimary-title = Nova primarna adresa e-pošte
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Uspješno si promijenio/la svoju primarnu e-mail adresu u { $email }. Ova je adresa sada tvoje korisničko ime za prijavu na tvoj { -product-mozilla-account }, kao i za primanje sigurnosnih obavijesti i potvrda prijava.
 postChangePrimary-action = Upravljaj računom
+postConsumeRecoveryCode-title-2 = Koristio/la si sigurnosni kod za autentifikaciju
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Korišten je na:
 postConsumeRecoveryCode-action = Upravljaj računom
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 rezervni kod za autentifikaciju preostao
+        [few] { $numberRemaining } rezervna koda za autentifikaciju preostalo
+       *[other] { $numberRemaining } rezervnih kodova za autentifikaciju preostalo
+    }
 postNewRecoveryCodes-subject-2 = Stvoreni su novi kodovi autentifikacije za spremanje sigurnosnih kopija
 postNewRecoveryCodes-title-2 = Stvorio/la si nove kodove autentifikacije za spremanje sigurnosnih kopija
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Stvoreni su:
 postNewRecoveryCodes-action = Upravljaj računom
 postRemoveAccountRecovery-subject-2 = Ključ za obnavljanje računa je izbrisan
+postRemoveAccountRecovery-title-3 = Izbrisao/la si tvoj ključ za obnavljanje računa
 postRemoveAccountRecovery-action = Upravljaj računom
 postRemoveSecondary-subject = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-title = Sekundarna adresa e-pošte je uklonjena
