@@ -221,14 +221,19 @@ cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Za sinkronizaciju su potrebna dva uređaja
+cadReminderFirst-description-v2 = Koristi svoje kartice na svim tvojim uređajima. Dobij svoje zabilješke, lozinke i druge podatke svugdje gdje koristiš { -brand-firefox }.
+cadReminderSecond-subject-2 = Nemoj ništa propustiti! Završimo tvoje postavljanje sinkronizacije
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
+cadReminderSecond-title-2 = Nemoj zaboraviti sinkronizirati!
 cadReminderSecond-description-sync = Sinkroniziraj zabilješke, lozinke i ostalo gdje god koristiš { -brand-firefox }.
+cadReminderSecond-description-plus = Osim toga, tvoji su podaci uvijek šifrirani. Podatke možeš vidjeti samo ti i uređaji koje odobriš.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Dobro došao, dobro došla u { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Dobro došao, dobro došla u { $productName }
+downloadSubscription-content-2 = Započnimo korištenjem svih funkcija koje su uključene u tvoju pretplatu:
 downloadSubscription-link-action-2 = Započni
 fraudulentAccountDeletion-subject-2 = Tvoj { -product-mozilla-account } je izbrisan
 fraudulentAccountDeletion-title = Tvoj račun je izbrisan
