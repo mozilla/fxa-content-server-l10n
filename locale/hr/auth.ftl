@@ -283,7 +283,7 @@ password-forgot-otp-subject = Zaboravio/la si lozinku?
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
 password-forgot-otp-code = Ako da, evo tvog potvrdnog koda za nastavljanje:
-password-forgot-otp-expiry-notice = Ovaj kod ističe za 10 minuta.
+password-forgot-otp-expiry-notice = Ovaj kod isteče za 10 minuta.
 passwordReset-subject = Lozinka aktualizirana
 passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
@@ -291,10 +291,17 @@ passwordResetAccountRecovery-subject-2 = Tvoja lozinka je resetirana
 passwordResetAccountRecovery-title-2 = Resetiranje lozinke je uspjelo
 # Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Koristio/la si svoj ključ za obnavljanje računa za aktualiziranje lozinke od:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Stvori ključ za obnavljanje računa
 passwordResetAccountRecovery-regen-required-mjml-1 = Morat ćeš se ponovo prijaviti na svim tvojim sinkroniziranim uređajima. Nemoj zaboraviti izraditi novi ključ za obnavljanje računa koji će zamijeniti prethodno korišteni.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Morat ćeš se ponovo prijaviti na svim tvojim sinkroniziranim uređajima. Nemoj zaboraviti izraditi novi ključ za obnavljanje računa koji će zamijeniti prethodno korišteni:
+postAddAccountRecovery-subject-3 = Novi ključ za obnavljanje računa stvoren
 postAddAccountRecovery-title2 = Stvorio/la si novi ključ za obnavljanje računa
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Spremi ovaj ključ na sigurno mjesto – trebat će ti za obnavljanje šifriranih podataka pregledavanja ako zaboraviš lozinku.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Ovaj se ključ može koristiti samo jednom. Nakon što ga upotrijebiš, automatski ćemo izraditi novi ključ za tebe. Ili stvori novi ključ u bilo kojem trenutku u postavkama tvog računa.
 postAddAccountRecovery-action = Upravljaj računom
 postAddLinkedAccount-subject-2 = Novi račun je povezan s tvojim { -product-mozilla-account }
 #  Variables:
@@ -306,6 +313,11 @@ postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikac
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Aktivirao/la si je s:
 postAddTwoStepAuthentication-action = Upravljaj računom
+postAddTwoStepAuthentication-code-required-2 = Sigurnosni kodovi iz tvoje aplikacije za autentifikaciju su sada potrebni pri svakoj prijavi.
+postChangeAccountRecovery-subject = Ključ za obnavljanje računa promijenjen
+postChangeAccountRecovery-title = Promijenio/la si ključ za obnavljanje računa
+postChangeAccountRecovery-body-part1 = Sada imaš novi ključ za obnavljanje računa. Tvoj prethodni ključ je izbrisan.
+postChangeAccountRecovery-body-part2 = Spremi ovaj novi ključ na sigurno mjesto – trebat će ti za obnavljanje šifriranih podataka pregledavanja ako zaboraviš lozinku.
 postChangeAccountRecovery-action = Upravljaj računom
 postChangePrimary-subject = Primarna e-mail adresa aktualizirana
 postChangePrimary-title = Nova primarna adresa e-pošte
