@@ -81,8 +81,37 @@ automated-email-no-action = { automated-email-no-action-plaintext } Za više inf
 automated-email-no-action-plaintext = Ovo je automatizirana e-mail poruka. Ako si je primio/la greškom, ne moraš ništa učiniti.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, promijeni lozinku:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Ovaj je zahtjev došao od { $uaBrowser } na { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Ovaj je zahtjev došao od { $uaBrowser } na { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Ovaj je zahtjev došao od { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Ovaj je zahtjev došao od { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Ovaj je zahtjev došao od { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Ako to nisi bio/la ti, <a data-l10n-name="revokeAccountRecoveryLink">izbriši novi ključ</a> i <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
 automatedEmailRecoveryKey-change-pwd-only = Ako to nisi bio/la ti, <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
+automatedEmailRecoveryKey-more-info = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }„Podrška”</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Ovaj je zahtjev došao od:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ako to nisi bio/bila ti, izbriši novi ključ:
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ako to nisi bio/la ti, promijeni lozinku:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
@@ -115,6 +144,15 @@ payment-plan-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Način plaćanja:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = Broj { $cardName } kreditne kartice završava s { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Nepoznata kreditna kartica koja završava s { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Broj računa: <b>{ $invoiceNumber }</b>
@@ -147,6 +185,11 @@ subscriptionFirstInvoice-content-charge = Naplaćeno { $invoiceTotal }, { $invoi
 subscriptionSupport = Imaš pitanja o tvojoj pretplati? Naš <a data-l10n-name="subscriptionSupportUrl">tim za podršku</a> ti može pomoći.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, <a data-l10n-name="subscriptionSupportUrl">kontaktiraj nas</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, kontaktiraj nas:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
 # Variables:
