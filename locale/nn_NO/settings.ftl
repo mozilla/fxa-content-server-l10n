@@ -66,9 +66,6 @@ recovery-key-pdf-download-error = Klarte ikkje å laste ned kontogjenopprettings
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Få meir frå { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Sikkerheit- og personvern-nytt, og oppdateringar
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Tidleg tilgang til å teste nye produkt
 
@@ -305,9 +302,6 @@ bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
-connect-another-find-fx-mobile =
-    Finn { -brand-firefox } på { -google-play } og { -app-store } eller
-    <br /><linkExternal>send ei nedlastingslenke til eininga.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -680,6 +674,9 @@ tfa-enter-recovery-code-1 =
 ##
 
 
+## Product promotion
+
+
 ## Profile section
 
 profile-heading = Profil
@@ -714,6 +711,8 @@ security-not-set = Ikkje innstilt
 security-action-create = Opprett
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Vis nyleg kontoaktivitet
+signout-sync-header = Økta har gått ut
+signout-sync-session-expired = Noko gjekk diverre gale. Logg ut frå nettlesaren og prøv på nytt.
 
 ## Switch component
 
