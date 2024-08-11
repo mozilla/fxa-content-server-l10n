@@ -10,6 +10,8 @@ settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Primijenjen je promotivni kod
 coupon-submit = Primijeni
 coupon-remove = Ukloni
 coupon-error = Upisani kôd je neispravan i je istekao.
@@ -132,6 +134,7 @@ payment-validate-name-error = Upiši tvoje ime
 payment-method-header = Odaberi način plaćanja
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Najprije moraš odobriti tvoju pretplatu
 
 ## Component - PaymentProcessing
 
@@ -143,6 +146,7 @@ payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Plati s { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -163,6 +167,58 @@ product-no-such-plan = Za ovaj proizvod ne postoji takav plan.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } porez
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } dnevno
+        [few] { $priceAmount } svaka { $intervalCount } dana
+       *[other] { $priceAmount } svakih { $intervalCount } dana
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } dnevno
+            [few] { $priceAmount } svaka { $intervalCount } dana
+           *[other] { $priceAmount } svakih { $intervalCount } dana
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } tjedno
+        [few] { $priceAmount } svaka { $intervalCount } tjedna
+       *[other] { $priceAmount } svakih { $intervalCount } tjedna
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } tjedno
+            [few] { $priceAmount } svaka { $intervalCount } tjedna
+           *[other] { $priceAmount } svakih { $intervalCount } tjedna
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } mjesečno
+        [few] { $priceAmount } svaka { $intervalCount } mjeseca
+       *[other] { $priceAmount } svakih { $intervalCount } mjeseci
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mjesečno
+            [few] { $priceAmount } svaka { $intervalCount } mjeseca
+           *[other] { $priceAmount } svakih { $intervalCount } mjeseci
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } godišnje
+        [few] { $priceAmount } svake { $intervalCount } godine
+       *[other] { $priceAmount } svakih { $intervalCount } godina
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } godišnje
+            [few] { $priceAmount } svake { $intervalCount } godine
+           *[other] { $priceAmount } svakih { $intervalCount } godina
+        }
 
 ## Component - SubscriptionTitle
 
