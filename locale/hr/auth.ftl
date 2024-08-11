@@ -512,5 +512,7 @@ verifySecondaryCode-expiry-notice-2 = Isteče za 5 minuta. Nakon potvrde, ova ć
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrdi svoj račun
 verifyShortCode-title-3 = Otvori internet s { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Potvrdi svoj račun i izvuci maksimum iz { -brand-mozilla } gdje god se prijaviš počevši s:
 verifyShortCode-prompt-3 = Koristi ovaj potvrdni kod:
 verifyShortCode-expiry-notice = Isteče za 5 minuta.
