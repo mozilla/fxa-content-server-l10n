@@ -13,6 +13,8 @@ body-devices-image = <img data-l10n-name="devices-image" alt="Uređaji">
 fxa-privacy-url = { -brand-mozilla } - politika privatnosti
 moz-accounts-privacy-url-2 = Obavijest o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
 moz-accounts-terms-url = Uvjeti usluge za { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logotip">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logotip">
 subplat-automated-email = Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja.
 subplat-privacy-notice = Napomena o privatnosti
 subplat-privacy-plaintext = Napomena o privatnosti:
@@ -26,6 +28,10 @@ subplat-explainer-specific-2 = Dobio/la si ovu e-mail poruku jer { $email } ima 
 subplat-explainer-reminder-form-2 = Dobio/la si ovu e-mail poruku jer { $email } ima { -product-mozilla-account }.
 subplat-explainer-multiple-2 = Dobio/la si ovu e-mail poruku jer { $email } ima { -product-mozilla-account } i jer si se pretplatio/la na više proizvoda.
 subplat-explainer-was-deleted-2 = Dobio/la si ovu e-mail poruku jer je { $email } registriran za { -product-mozilla-account }.
+subplat-manage-account-2 = Upravljaj svojim { -product-mozilla-account } postavkama na <a data-l10n-name="subplat-account-page">stranici tvog računa</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Upravljaj svojim { -product-mozilla-account } postavkama na stranici tvog računa: { $accountSettingsUrl }
 subplat-terms-policy = Uvjeti i politika otkazivanja
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Otkaži pretplatu
