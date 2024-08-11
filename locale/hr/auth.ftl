@@ -247,7 +247,17 @@ codes-reminder-title-one = Imaš još samo jedan sigurnosni kod za autentifikaci
 codes-reminder-title-two = Vrijeme je za izradu dodatnih kodova za autentifikaciju
 codes-reminder-description-part-one = Sigurnosni kodovi za autentifikaciju pomažu ti obnoviti tvoje podatke kada zaboraviš lozinku.
 codes-reminder-description-part-two = Stvori nove kodove sada kako kasnije ne bi izgubio/la tvoje podatke.
+codes-reminder-description-two-left = Imaš još samo dva koda.
+codes-reminder-description-create-codes = Stvori nove sigurnosne kodove za autentifikaciju koji će ti pomoći da se vratiš na svoj račun ako ga izgubiš.
+lowRecoveryCodes-action-2 = Stvori kodove
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nije preostao nijedan rezervni kod za autentifikaciju
+        [one] Preostao je samo { $numberRemaining } rezervni kod za autentifikaciju
+        [few] Preostala je samo { $numberRemaining } rezervna koda za autentifikaciju
+       *[other] Preostalo je samo { $numberRemaining } rezervnih kodova za autentifikaciju
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava na { $clientName }
@@ -265,6 +275,8 @@ passwordChanged-title = Lozinka je uspješno promijenjena
 passwordChanged-description-2 = Tvoja { -product-mozilla-account } lozinka je uspješno promijenjena sa sljedećeg uređaja:
 passwordChangeRequired-subject = Otkrivena je sumnjiva aktivnost
 passwordChangeRequired-title = Potrebna promjena lozinke
+passwordChangeRequired-suspicious-activity-2 = Otkrili smo sumnjivo ponašanje na tvom { -product-mozilla-account }. Da bismo spriječili neovlašteni pristup tvom { -product-mozilla-account }, prekinuli smo vezu sa svim uređajima na tvom računu i iz predostrožnosti zahtijevamo da promijeniš lozinku.
+passwordChangeRequired-sign-in-2 = Ponovo se prijavi na bilo koji uređaj ili uslugu gdje koristiš tvoj { -product-mozilla-account } i slijedi prikazane korake.
 passwordChangeRequired-different-password = <b>Važno:</b> odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
 passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
 password-forgot-otp-subject = Zaboravio/la si lozinku?
