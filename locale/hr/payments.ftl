@@ -222,28 +222,54 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } porez dnevno
-        [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } dana
-       *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } dana
+        [one] { $priceAmount } + { $taxAmount } poreza dnevno
+        [few] { $priceAmount } + { $taxAmount } poreza svaka { $intervalCount } dana
+       *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } dana
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } porez dnevno
-            [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } dana
-           *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } dana
+            [one] { $priceAmount } + { $taxAmount } poreza dnevno
+            [few] { $priceAmount } + { $taxAmount } poreza svaka { $intervalCount } dana
+           *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } dana
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } porez tjedno
-        [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } tjedna
-       *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } tjedna
+        [one] { $priceAmount } + { $taxAmount } poreza tjedno
+        [few] { $priceAmount } + { $taxAmount } poreza svaka { $intervalCount } tjedna
+       *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } tjedna
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } porez tjedno
-            [few] { $priceAmount } + { $taxAmount } porez svaka { $intervalCount } tjedna
-           *[other] { $priceAmount } + { $taxAmount } porez svakih { $intervalCount } tjedna
+            [one] { $priceAmount } + { $taxAmount } poreza tjedno
+            [few] { $priceAmount } + { $taxAmount } poreza svaka { $intervalCount } tjedna
+           *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } tjedna
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } poreza mjesečno
+        [few] { $priceAmount } + { $taxAmount } poreza svaka { $intervalCount } mjeseca
+       *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } mjeseci
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } poreza mjesečno
+            [few] { $priceAmount } + { $taxAmount } poreza svaka { $intervalCount } mjeseca
+           *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } mjeseci
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } poreza godišnje
+        [few] { $priceAmount } + { $taxAmount } poreza svake { $intervalCount } godine
+       *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } godina
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } poreza godišnje
+            [few] { $priceAmount } + { $taxAmount } poreza svake { $intervalCount } godine
+           *[other] { $priceAmount } + { $taxAmount } poreza svakih { $intervalCount } godina
         }
 
 ## Component - SubscriptionTitle
@@ -280,13 +306,13 @@ settings-subscriptions-title = Pretplate
 # $intervalCount (Number) - The interval between payments, in days.
 plan-price-interval-day =
     { $intervalCount ->
-        [one] { $amount } dnevdno
+        [one] { $amount } dnevno
         [few] { $amount } svaka { $intervalCount } dana
        *[other] { $amount } svakih { $intervalCount } dana
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } dnevdno
+            [one] { $amount } dnevno
             [few] { $amount } svaka { $intervalCount } dana
            *[other] { $amount } svakih { $intervalCount } dana
         }
@@ -337,6 +363,7 @@ general-error-heading = Opća greška programa
 basic-error-message = Nešto je pošlo po zlu. Pokušaj ponovo kasnije.
 payment-error-1 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
 payment-error-2 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
+payment-error-3b = Dogodila se neočekivana greška tijekom obrade tvoje uplate, pokušaj ponovo.
 expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
 insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
 withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
@@ -348,8 +375,11 @@ card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu ka
 country-currency-mismatch = Valuta ove pretplate ne vrijedi za zemlju povezanu s tvojom plaćanjem.
 currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
 no-subscription-change = Žao nam je. Ne možeš promijeniti tvoj plan pretplate.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Već si pretplaćen/a putem { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Greška sustava je uzrok neuspjele registracije za { $productName }. Tvoj način plaćanja nije terećen. Pokušaj ponovo.
+fxa-post-passwordless-sub-error = Pretplata je potvrđena, ali se stranica za potvrdu nije uspjela učitati. Provjeri svoju e-poštu za postavljanje tvog računa.
 newsletter-signup-error = Nisi registriran/a za primanje e-mailova o aktualiziranjima proizvoda. Možeš pokušati ponovo u postavkama računa.
 product-plan-error =
     .title = Problem pri učitavanju planova
@@ -428,6 +458,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Otkaži moj pristup i moje spremljene podatke na usluzi
     { $name } { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Kupon { $promotion_name } primijenjen: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
