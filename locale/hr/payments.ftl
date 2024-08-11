@@ -518,6 +518,8 @@ sub-item-no-such-plan = Ne postoji takav plan za ovu pretplatu.
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Tražiš svoju { -product-pocket } premium pretplatu?
+manage-pocket-body-2 = Za upravljanje <linkExternal>klikni ovdje</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -547,4 +549,6 @@ reactivate-success-button = Zatvori
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: kupnja unutar aplikacije
+sub-iap-item-apple-purchase-2 = { -brand-apple }: kupnja unutar aplikacije
 sub-iap-item-manage-button = Upravljaj

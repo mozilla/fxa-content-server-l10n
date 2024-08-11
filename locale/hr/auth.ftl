@@ -351,6 +351,7 @@ postRemoveTwoStepAuthentication-title-2 = Deaktivirao/la si dvofaktorsku autenti
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
 postRemoveTwoStepAuthentication-action = Upravljaj računom
+postVerify-subject-4 = Dobro došao, dobro došla u { -brand-mozilla }!
 postVerify-setup-2 = Poveži jedan drugi uređaj:
 postVerify-action-2 = Poveži jedan drugi uređaj
 postVerifySecondary-subject = Dodana je sekundarna e-mail adresa

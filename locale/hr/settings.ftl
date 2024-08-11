@@ -13,10 +13,16 @@ banner-dismiss-button =
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-mail poruka je ponovo poslana. Dodaj { $accountsEmail } u svoje kontakte za sigurnu isporuku.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Nešto nije u redu. Nije bilo moguće poslati novi kod.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Zatvori natpis
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } će se preimenovati u { -product-mozilla-accounts } 1. studenoga
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
@@ -24,6 +30,9 @@ brand-prelaunch-title = { -product-firefox-accounts } će se preimenovati u { -p
 brand-postlaunch-title = Preimenovali smo { -product-firefox-accounts } u { -product-mozilla-accounts }. I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom te nema drugih promjena u proizvodima koje koristiš.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Saznaj više
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Zatvori natpis
 # Alt text for 'm' logo in banner header
 brand-m-logo =
     .alt = { -brand-mozilla } m logotip
