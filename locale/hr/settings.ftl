@@ -678,6 +678,12 @@ tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru au
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Pronađi gdje su tvoji privatni podaci izloženi i vrati ih
+product-promo-monitor-plus-description = Privatnost je važna: Pronađi gdje su tvoji privatni podaci izloženi i vrati ih
+# Links out to the Monitor site
+product-promo-monitor-cta = Nabavi besplatno snimanje
 # Links out to the Monitor pricing site
 product-promo-monitor-plus-cta = Započni
 

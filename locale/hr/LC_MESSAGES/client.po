@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-08-11 14:24+0000\n"
+"PO-Revision-Date: 2024-08-11 14:52+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1973,7 +1973,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Sinkroniziraj Firefox na svom mobitelu ili tabletu"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."

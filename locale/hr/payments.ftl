@@ -11,7 +11,7 @@ settings-project-header-title = { -product-mozilla-account }
 ## Component - CouponForm
 
 # Title of container showing discount coupon code applied to a subscription.
-coupon-promo-code-applied = Primijenjen je promotivni kod
+coupon-promo-code-applied = Kod kupona primjenjen
 coupon-submit = Primijeni
 coupon-remove = Ukloni
 coupon-error = Upisani kôd je neispravan i je istekao.
@@ -128,6 +128,10 @@ payment-validate-name-error = Upiši tvoje ime
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-paypal-2 = { -brand-mozilla } koristi { -brand-paypal } za sigurnu obradu plaćanja.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } politika privatnosti</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } politika privatnosti</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
@@ -299,6 +303,8 @@ document =
 close-aria =
     .aria-label = Zatvori modal
 settings-subscriptions-title = Pretplate
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Kod kupona
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -370,7 +376,7 @@ withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prij
 charge-exceeds-source-limit = Čini se da ćeš ovom transakcijom prijeći svoj dnevni kreditni limit. Pokušaj s drugom karticom ili za 24 sata.
 instant-payouts-unsupported = Čini se da tvoja debitna kartica nije postavljena za trenutna plaćanja. Pokušaj s drugom debitnom ili kreditnom karticom.
 duplicate-transaction = Hmm. Izgleda da je identična transakcija upravo poslana. Provjeri povijest plaćanja.
-coupon-expired = Čini se da je taj promotivni kôd istekao.
+coupon-expired = Čini se da je taj kod kupona istekao.
 card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
 country-currency-mismatch = Valuta ove pretplate ne vrijedi za zemlju povezanu s tvojom plaćanjem.
 currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
