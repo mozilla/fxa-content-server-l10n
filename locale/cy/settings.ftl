@@ -796,8 +796,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Canfod lle mae'ch manylion preifat yn cael eu rhyddhau — a'u cipio nôl
-product-promo-monitor-plus-description = Materion Preifatrwydd: Dewch o hyd i ble mae'ch gwybodaeth breifat yn cael ei datgelu a mynd ag ef yn ôl
+product-promo-monitor-description = Canfod lle mae'ch manylion preifat yn cael eu hamlygu — a'u cipio nôl
+product-promo-monitor-plus-description = Mae Preifatrwydd yn Bwysig: Dewch o hyd i ble mae'ch manylion preifat yn cael ei datgelu a'i gipio nôl
 # Links out to the Monitor site
 product-promo-monitor-cta = Cael sgan am ddim
 # Links out to the Monitor pricing site
