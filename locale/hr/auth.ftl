@@ -481,24 +481,36 @@ verify-action-2 = Potvrdi račun
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Jesi li se prijavio/la na { $clientName }?
+verifyLogin-description-2 = Pomogni nam zaštiti tvoj račun potvrđivanjem da si se prijavio/la na:
 verifyLogin-subject-2 = Potvrdi prijavu
 verifyLogin-action = Potvrdi prijavu
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line-2 = Odobri prijavu na { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Jesi li se prijavio/la na { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Pomogni nam zaštiti tvoj račun odobravanjem prijave na:
+verifyLoginCode-prompt-3 = Ako da, ovdje je tvoj autorizacijski kod:
 verifyLoginCode-expiry-notice = Istječe za 5 minuta.
 verifyPrimary-title-2 = Potvrdi primarnu e-mail adresu
 verifyPrimary-description = Zahtjev za izvršavanje promjene računa upućen je sa sljedećeg uređaja:
 verifyPrimary-subject = Potvrdi primarnu e-mail adresu
 verifyPrimary-action-2 = Potvrdi e-mail adresu
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Nakon potvrde, promjene računa poput dodavanja sekundarne e-mail adrese postat će moguće s ovog uređaja.
 verifySecondaryCode-subject = Potvrdi sekundarnu e-mail adresu
 verifySecondaryCode-title-2 = Potvrdi sekundarnu e-mail adresu
 verifySecondaryCode-action-2 = Potvrdi e-mail adresu
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Zahtjev za korištenje { $email } kao sekundarne e-mail adrese je podnesen sa sljedećeg { -product-mozilla-account }.
 verifySecondaryCode-prompt-2 = Koristi ovaj potvrdni kod:
 verifySecondaryCode-expiry-notice-2 = Isteče za 5 minuta. Nakon potvrde, ova će adresa početi primati sigurnosne obavijesti i potvrde.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrdi svoj račun
+verifyShortCode-title-3 = Otvori internet s { -brand-mozilla }
 verifyShortCode-prompt-3 = Koristi ovaj potvrdni kod:
 verifyShortCode-expiry-notice = Isteče za 5 minuta.
