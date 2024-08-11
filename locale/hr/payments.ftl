@@ -483,12 +483,17 @@ sub-route-idx-cancel-msg =
     Tvoja pretplata na { $name } je otkazana.
           <br />
           I dalje imaš pristup usluzi { $name } do { $date }.
+sub-route-idx-cancel-aside-2 = Imaš pitanja? Posjeti <a>{ -brand-mozilla } podršku</a>.
 
 ## Routes - Subscriptions - Errors
 
 sub-customer-error =
     .title = Problem s učitavanjem kupca
+sub-invoice-error =
+    .title = Problem pri učitavanju računa
 sub-billing-update-success = Podaci naplate uspješno su aktualizirani
+sub-invoice-previews-error-title = Problem pri učitavanju pregleda računa
+sub-invoice-previews-error-text = Nije bilo moguće učitati preglede računa
 
 ## Routes - Subscription - ActionButton
 
@@ -501,6 +506,7 @@ pay-update-manage-btn = Upravljaj
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Sljedeće naplaćivanje { $date }
+sub-next-bill-no-tax-1 = Sljedeći račun od { $priceAmount } dospijeva { $date }
 sub-expires-on = Isteče { $date }
 
 ## Routes - Subscription - PaymentUpdate

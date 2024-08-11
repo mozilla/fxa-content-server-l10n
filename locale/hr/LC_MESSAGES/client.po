@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-08-11 14:18+0000\n"
+"PO-Revision-Date: 2024-08-11 14:24+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -2049,7 +2049,7 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Attention:"
-msgstr ""
+msgstr "Pažnja:"
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Switch to Firefox and open this page to connect another device."
@@ -2057,11 +2057,11 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Download Firefox"
-msgstr ""
+msgstr "Preuzmi Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:8
 msgid "Opens in new window"
-msgstr ""
+msgstr "Otvara se u novom prozoru"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
