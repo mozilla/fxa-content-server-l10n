@@ -451,7 +451,14 @@ subscriptionSubsequentInvoice-content-received = Primili smo tvoju zadnju uplatu
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Nadogradio/la si na { $productName }
 subscriptionUpgrade-title = Hvala na nadogradnji!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Uspješno si nadogradio/la { $productNameOld } na { $productName }.
 subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 unblockCode-subject = Kod za autorizaciju računa
 unblockCode-title = Je li ovo tvoja prijava?
@@ -460,14 +467,20 @@ unblockCode-report-plaintext = Ako ne, pomozi nam u sprječavanju neovlaštene p
 confirm-account = Potvrdi račun
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ne zaboravi potvrditi svoj račun
+verificationReminderFirst-title-3 = Dobro došao, dobro došla u { -brand-mozilla }!
+verificationReminderFirst-description-3 = Prije nekoliko dana si stvorio/la { -product-mozilla-account }, ali ga nikada nisi potvrdio/la. Potvrdi račun u sljedećih 15 dana ili će se račun automatski izbrisati.
 confirm-email-2 = Potvrdi račun
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdi račun
 verificationReminderSecond-subject-2 = Ne zaboravi potvrditi svoj račun
+verificationReminderSecond-description-4 = Prije nekoliko dana si stvorio/la { -product-mozilla-account }, ali ga nikada nisi potvrdio/la. Potvrdi račun u sljedećih 10 dana ili će se račun automatski izbrisati.
 verificationReminderSecond-action-2 = Potvrdi račun
 verify-title-3 = Otvori internet s { -brand-mozilla }
 verify-subject = Završi stvaranje računa
 verify-action-2 = Potvrdi račun
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Jesi li se prijavio/la na { $clientName }?
 verifyLogin-subject-2 = Potvrdi prijavu
 verifyLogin-action = Potvrdi prijavu
 # Variables:
