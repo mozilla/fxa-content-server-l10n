@@ -190,6 +190,13 @@ subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku
 subscriptionSupportContact = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, <a data-l10n-name="subscriptionSupportUrl">kontaktiraj nas</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, kontaktiraj nas:
+subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Ovdje</a> možeš provjeriti jesu li tvoj način plaćanja i podaci o računu aktualni.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Ovdje možeš provjeriti jesu li tvoj način plaćanja i podaci o računu aktualni:
+subscriptionUpdateBillingTry = Tijekom sljedećih nekoliko dana ćemo ponovo pokušati izvršiti plaćanje, ali ćeš nam možda morati pomoći da to popravimo <a data-l10n-name="updateBillingUrl">aktualiziranjem tvojih podataka o plaćanju</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Tijekom sljedećih nekoliko dana ćemo ponovo pokušati izvršiti plaćanje, ali ćeš nam možda morati pomoći da to popravimo aktualiziranjem tvojih podataka o plaćanju:
+subscriptionUpdatePayment = Za sprečavanje prekida korištenja usluge <a data-l10n-name="updateBillingUrl">aktualiziraj podatke o plaćanju</a> što je prije:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
 # Variables:
@@ -212,6 +219,8 @@ view-invoice-plaintext = Pogledaj račun: { $invoiceLink }
 cadReminderFirst-subject-1 = Podsjetnik! Sinkronizirajmo { -brand-firefox }
 cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Za sinkronizaciju su potrebna dva uređaja
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
 cadReminderSecond-description-sync = Sinkroniziraj zabilješke, lozinke i ostalo gdje god koristiš { -brand-firefox }.
 #  Variables:
