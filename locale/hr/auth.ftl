@@ -442,6 +442,13 @@ subscriptionRenewalReminder-content-closing = S poštovanjem,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } tim
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Uplata za { $productName } primljena
+subscriptionSubsequentInvoice-title = Hvala ti na tvojoj pretplati!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Primili smo tvoju zadnju uplatu za { $productName }.
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
 subscriptionUpgrade-title = Hvala na nadogradnji!
