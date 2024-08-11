@@ -714,6 +714,9 @@ security-password-created-date = Stvoreno { $date }
 security-not-set = Nije postavljeno
 security-action-create = Stvori
 security-set-password = Postavi lozinku za sinkronizaciju i korištenje određenih sigurnosnih funkcija računa.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Pogledaj nedavnu aktivnost računa
+signout-sync-header = Sesija je istekla
 
 ## Switch component
 
@@ -739,6 +742,8 @@ rk-header-1 = Ključ za obnavljanje računa
 rk-enabled = Omogućeno
 rk-not-set = Nije postavljeno
 rk-action-create = Stvori
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Promijeni
 rk-action-remove = Ukloni
 rk-key-removed-2 = Ključ za obnavljanje računa je uklonjen
 rk-cannot-remove-key = Nije moguće ukloniti tvoj ključ za obnavljanje računa.
@@ -748,6 +753,8 @@ rk-cannot-verify-session-4 = Žao nam je. Došlo je do greške prilikom potvrđi
 rk-remove-modal-heading-1 = Ukloniti ključ za obnavljanje računa?
 rk-remove-modal-content-1 = U slučaju da resetiraš lozinku, nećeš moći koristiti ključ za oporavak računa za pristup tvojim podacima. Ovo je nepovratna radnja.
 rk-remove-error-2 = Nije moguće ukloniti tvoj ključ za obnavljanje računa
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Izbriši ključ za obnavljanje računa
 
 ## Secondary email sub-section on main Settings page
 
@@ -842,6 +849,7 @@ auth-error-183-2 = Neispravan ili istekao potvrdni kod
 auth-error-999 = Neočekivana greška
 auth-error-1001 = Pokušaj prijave je prekinut
 auth-error-1002 = Vrijeme sesije je isteklo. Prijavi se za nastavljanje.
+auth-error-1003 = Lokalno spremište ili kolačići su i dalje deaktivirani
 auth-error-1008 = Tvoja nova lozinka mora biti drugačija
 auth-error-1010 = Potrebna je ispravna lozinka
 auth-error-1011 = Potrebna je ispravna e-mail adresa
@@ -860,6 +868,8 @@ cannot-create-account-learn-more-link = Saznaj više
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Prijavljen/na si na { -brand-firefox }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = E-mail adresa je potvrđena
 # A "success" message visible to users who verified via sign-in
@@ -900,6 +910,9 @@ inline-recovery-cancel-setup = Prekini postavljanje
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Prekini postavljanje
+inline-totp-setup-continue-button = Nastavi
+inline-totp-setup-ready-button = Spremno
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -994,6 +1007,13 @@ account-recovery-confirm-key-heading-w-default-service = <span>Za nastavljanje s
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Resetiraj lozinku pomoću ključa za obnavljanje računa <span>za nastavljanje na { $serviceName }</span>
 account-recovery-confirm-key-instructions-2 = Za ponovni pristup tvom { -product-mozilla-account } upiši spremljeni jednokratni ključ za oporavak računa.
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Upiši ključ za obnavljanje računa
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Potvrdi ključ za obnavljanje računa
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Nemaš ključ za obnavljanje računa?
 
 ## Account recovery reset password page
 
@@ -1093,14 +1113,22 @@ signin-password-button-label = Lozinka
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-submit-button = Prijavi aktivnost
+report-signin-support-link = Zašto se ovo događa?
 # $email (string) - The user's email.
 signin-bounced-message = Potvrdni e-mail koji smo poslali na { $email } je vraćen i zaključali smo tvoj račun, kako bismo zaštitili tvoje { -brand-firefox } podatke.
+back = Natrag
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = Upiši 10-znamenkasti rezervni kod za autentifikaciju
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Potvrdi
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Natrag
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1113,6 +1141,14 @@ signin-bounced-message = Potvrdni e-mail koji smo poslali na { $email } je vrać
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Upiši kod koji je poslan na { $email } u roku od 5 minuta.
+signin-token-code-input-label-v2 = Upiši šesteroznamenkasti kod
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Potvrdi
+signin-token-code-code-expired = Kod je istekao?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Pošalji e-mailom novi kod.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Potreban je potvrdni kod
 
@@ -1130,6 +1166,7 @@ signin-totp-code-recovery-code-link = Problem s unosom koda?
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-submit-button = Nastavi
+signin-unblock-support-link = Zašto se ovo događa?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1143,6 +1180,8 @@ confirm-signup-code-page-title = Upiši potvrdni kod
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Upiši potvrdni kod<span> za tvoj { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Upiši kod koji je poslan na { $email } u roku od 5 minuta.
 confirm-signup-code-input-label = Upiši šesteroznamenkasti kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdi
