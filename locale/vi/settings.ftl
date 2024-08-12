@@ -799,8 +799,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Tìm hiểu xem thông tin cá nhân của bạn bị lộ ở đâu — và lấy lại thông tin đó
+product-promo-monitor-plus-description = Vấn đề riêng tư: Tìm hiểu xem thông tin cá nhân của bạn bị lộ ở đâu và lấy lại thông tin đó
 # Links out to the Monitor site
 product-promo-monitor-cta = Quét miễn phí
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Bắt đầu
 
 ## Profile section
 
