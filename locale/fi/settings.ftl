@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Valitettavasti tilin palautusavaimen lataamise
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Lisää { -brand-mozilla }lta:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Tietoturva- ja tietosuojauutiset sekä päivitykset
+choose-newsletters-option-latest-news =
+    .label = Vastaanota viimeisimmät uutiset ja tuotepäivitykset
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Varhainen pääsy uusien tuotteiden testaamiseen
@@ -790,6 +790,9 @@ tfa-enter-recovery-code-1 =
     .label = Anna varatodennuskoodi
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
