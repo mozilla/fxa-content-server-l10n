@@ -72,6 +72,9 @@ recovery-key-pdf-download-error = 很抱歉，下載帳號救援金鑰時發生�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = 獲得 { -brand-mozilla } 的更多消息：
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = 獲得我們的最新消息與最新產品資訊
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = 搶先體驗最新產品
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -779,6 +782,12 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = 看看您的隱私資訊在哪裡外洩，並且搶回控制權
+product-promo-monitor-plus-description = 隱私權很重要：看看您的個資在哪裡外洩，並且搶回控制權
+# Links out to the Monitor site
+product-promo-monitor-cta = 免費掃描
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = 開始使用
 
 ## Profile section
 
