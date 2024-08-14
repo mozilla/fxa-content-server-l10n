@@ -1485,7 +1485,7 @@ signup-info-banner-for-pocket = Por que preciso criar esta conta? <LinkExternal>
 signup-change-email-link = Alterar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
-    .label = Quantos anos você tem?
+    .label = Qual é a sua idade?
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Por que perguntamos?

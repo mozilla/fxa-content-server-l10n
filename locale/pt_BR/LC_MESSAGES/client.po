@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-08-02 19:20+0000\n"
+"PO-Revision-Date: 2024-08-14 14:11+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1179,7 +1179,7 @@ msgstr "Continuar para <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</d
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr "Cadastre-se ou entre na conta"
+msgstr "Entrar na sua conta ou criar uma"
 
 #: .es5/templates/index.mustache:10
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1859,11 +1859,11 @@ msgstr "Fechar aviso"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "Quantos anos você tem? Para saber o motivo de perguntar sua idade, siga o link “por que perguntamos” abaixo."
+msgstr "Qual é a sua idade? Para saber o motivo de perguntar sua idade, siga o link “por que perguntamos” abaixo."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
-msgstr "Quantos anos você tem?"
+msgstr "Qual é a sua idade?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
