@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-08-14 11:30+0000\n"
+"PO-Revision-Date: 2024-08-14 11:40+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1984,7 +1984,7 @@ msgstr "ペアリングに失敗しました"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated. Please sign in with your email."
-msgstr ""
+msgstr "セットアップ処理が終了しました。あなたのメールアドレスでログインしてください。"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
@@ -2000,23 +2000,23 @@ msgstr "スマートフォンやタブレットで Firefox を同期する"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "保存したパスワード、タブ、閲覧履歴などをすべての端末で表示できます。"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "モバイル版 Firefox をすでに持っています"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "携帯端末に Firefox がすでにインストールされている場合は、今すぐ同期を開始してください。"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "モバイル版 Firefox を持っていません"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "端末に Firefox をダウンロードして、同期を開始しましょう。"
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2024,19 +2024,19 @@ msgstr "後で"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "スマートフォンまたはタブレットで Firefox を同期するには、まずモバイル版 Firefox をダウンロードする必要があります。次の方法で同期してください:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>ステップ 1</b>: 携帯端末のカメラで次の QR コードをスキャンして Firefox をダウンロードします:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QRコード (画面中央にあります)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>ステップ 2</b>: [同期を続ける] を選択してモバイル端末上の Firefox データを同期します。"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
@@ -2068,23 +2068,23 @@ msgstr "アプリを使用してペアリング"
 
 #: .es5/templates/pair/unsupported.mustache:4
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "おっとっと！ Firefox を使用していないようです。"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Attention:"
-msgstr ""
+msgstr "注意:"
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "別の端末に接続するには、Firefox に切り替えてこのページを開いてください。"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Download Firefox"
-msgstr ""
+msgstr "Firefoxをダウンロード"
 
 #: .es5/templates/pair/unsupported.mustache:8
 msgid "Opens in new window"
-msgstr ""
+msgstr "新しいウィンドウで開きます"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."

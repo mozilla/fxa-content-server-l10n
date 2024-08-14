@@ -30,14 +30,10 @@ input-error-is-required = { $label } は必須です
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox } ロゴ
 brand-name-mozilla-logo = { -brand-mozilla } ロゴ
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = { -brand-name-firefox } アカウントをお持ちの方は <a>ログイン</a> してください
 new-user-sign-in-link-2 = { -product-mozilla-account }をお持ちの方は <a>ログイン</a> してください
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -360,8 +356,6 @@ coupon-success-repeating = プランは { $couponDurationDate } に自動更新�
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. { -brand-name-firefox } アカウントを作成
 new-user-step-1-2 = 1. { -product-mozilla-account }を作成
 new-user-card-title = カード情報を入力してください
 new-user-submit = サブスクリプションを購入
@@ -421,6 +415,18 @@ sub-item-stay-sub = サブスクリプションを継続
 
 sub-item-cancel-msg = 請求サイクルの最終日 { $period } 以降は { $name } を使用できません。
 sub-item-cancel-confirm = { $period } に { $name } へのアクセスと保存された情報をキャンセルする
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } クーポンが適用されました: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -456,8 +462,6 @@ pay-update-manage-btn = 管理
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 次回の請求日: { $date }
-sub-next-bill-no-tax = 次回は <strong>{ $date }</strong> に <strong>{ $priceAmount }</strong> が請求されます
-sub-next-bill-tax = 次回は <strong>{ $date }</strong> に <strong>{ $priceAmount } + 税 { $taxAmount }</strong> が請求されます
 sub-expires-on = 有効期限: { $date }
 
 ## Routes - Subscription - PaymentUpdate

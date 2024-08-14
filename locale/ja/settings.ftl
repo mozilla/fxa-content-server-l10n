@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = 申し訳ありませんが、アカウント�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } からの詳細:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = セキュリティとプライバシーに関するニュースと最新情報
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = 新製品をテストするための早期アクセス
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -259,6 +256,8 @@ reset-pwd-link-expired-message = パスワードをリセットするリンク�
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = パスワードを思い出しましたか？
 # link navigates to the sign in page
 remember-password-signin-link = ログイン
 
@@ -776,6 +775,9 @@ tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
