@@ -72,6 +72,9 @@ recovery-key-pdf-download-error = 申し訳ありませんが、アカウント�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } からの詳細:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = 最新ニュースと製品アップデートを入手
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = 新製品をテストするための早期アクセス
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -779,6 +782,9 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = 個人情報が漏えいした場所を発見 — そして取り戻します
 
 ## Profile section
 
