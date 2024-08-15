@@ -792,7 +792,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Descubra onde a sua informação privada está exposta – e recupere o controlo
-product-promo-monitor-plus-description = A privacidade importa: encontre onde as suas informações privadas estão expostas e receba as mesmas de volta
+product-promo-monitor-plus-description = A privacidade importa: encontre onde as suas informações privadas estão expostas e recupere o controlo
 # Links out to the Monitor site
 product-promo-monitor-cta = Obter verificação gratuita
 # Links out to the Monitor pricing site
@@ -834,7 +834,7 @@ security-set-password = Defina uma palavra-passe para sincronizar e usar determi
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ver a atividade recente da conta
 signout-sync-header = Sessão expirada
-signout-sync-session-expired = Desculpe, algo correu mal. Por favor, termine sessão no menu do navegador e tente novamente.
+signout-sync-session-expired = Desculpe, algo correu mal. Por favor, termine a sessão no menu do navegador e tente novamente.
 
 ## Switch component
 
