@@ -801,7 +801,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Tudja meg, hogy hol kerültek ki a személyes adatai – és szerezze vissza azokat
-product-promo-monitor-plus-description = Számít az adatvédelem: Találja meg, hol kerültek ki a személyes adatai, és vegye vissza azokat
+product-promo-monitor-plus-description = Számít az adatvédelem: Tudja meg, hogy hol kerültek ki a személyes adatai – és szerezze vissza azokat
 # Links out to the Monitor site
 product-promo-monitor-cta = Ingyenes vizsgálat kérése
 # Links out to the Monitor pricing site
