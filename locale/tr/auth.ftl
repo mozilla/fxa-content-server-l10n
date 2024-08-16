@@ -432,6 +432,13 @@ subscriptionDowngrade-subject = { $productName } aboneliğine geçtiniz
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = { $productNameOld } aboneliğinden { $productName } aboneliğine başarıyla geçtiniz.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Bir sonraki faturanızdan itibaren { $productPaymentCycleOld } { $paymentAmountOld } olan ödemeniz { $productPaymentCycleNew } { $paymentAmountNew } olarak değişecektir. Bu { $productPaymentCycleOld } ücret farkı nedeniyle hesabınıza tek seferlik { $paymentProrated } tutarında kredi tanımlanacaktır.
+# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = { $productName } ürününü kullanmak için kurmanız gereken yeni bir yazılım varsa indirme talimatlarını içeren ayrı bir e-posta alacaksınız.
 subscriptionDowngrade-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
@@ -531,6 +538,13 @@ subscriptionUpgrade-title = Yükseltme yaptığınız için teşekkürler!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = { $productNameOld } aboneliğinden { $productName } aboneliğine başarıyla geçtiniz.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle = { $productPaymentCycleOld } aboneliğinizin fiyat farkı nedeniyle bir kereye mahsus olmak üzere { $paymentProrated } fark ödemeniz gerekecektir. Bir sonraki faturanızdan itibaren { $productPaymentCycleOld } { $paymentAmountOld } olan ödemeniz { $productPaymentCycleNew } { $paymentAmountNew } olarak değişecektir.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = { $productName } ürününü kullanmak için kurmanız gereken yeni bir yazılım varsa indirme talimatlarını içeren ayrı bir e-posta alacaksınız.
