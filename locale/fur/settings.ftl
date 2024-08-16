@@ -795,8 +795,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Cjate là che a son esponudis lis tôs informazions personâls e torne a cjapâtes
+product-promo-monitor-plus-description = La riservatece e je impuartante: scuvierç là che son esponudis lis tôs informazions privadis e torne a cjapâtes
 # Links out to the Monitor site
 product-promo-monitor-cta = Oten une scansion gratuite
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Scomence
 
 ## Profile section
 
