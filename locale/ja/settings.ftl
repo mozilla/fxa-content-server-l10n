@@ -785,6 +785,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = 個人情報が漏えいした場所を発見 — そして取り戻します
+product-promo-monitor-plus-description = 重要なプライバシーのために、個人情報が漏えいした場所を発見し、そして取り戻します
+# Links out to the Monitor site
+product-promo-monitor-cta = 無料でスキャン
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = はじめる
 
 ## Profile section
 
