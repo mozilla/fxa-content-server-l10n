@@ -798,6 +798,11 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Find ud af, hvor dine private oplysninger er blevet eksponeret - og tag dem tilbage
+product-promo-monitor-plus-description = Du har ret til et privatliv: Find ud af, hvor dine private oplysninger er blevet eksponeret, og tag dem tilbage
+# Links out to the Monitor site
+product-promo-monitor-cta = Få en gratis skanning
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Kom i gang
 
 ## Profile section
 
@@ -834,6 +839,8 @@ security-action-create = Opret
 security-set-password = Opret en adgangskode for at synkronisere og bruge visse kontosikkerhedsfunktioner.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Se seneste kontoaktivitet
+signout-sync-header = Sessionen er udløbet
+signout-sync-session-expired = Noget gik galt. Log ud via browser-menuen og prøv igen.
 
 ## Switch component
 
@@ -995,6 +1002,7 @@ auth-error-155 = TOTP-token ikke fundet
 auth-error-159 = Ugyldig genoprettelsesnøgle til kontoen
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-999 = Uventet fejl
+auth-error-1001 = Login-forsøg annulleret
 auth-error-1002 = Sessionen udløb. Log ind for at fortsætte.
 auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
