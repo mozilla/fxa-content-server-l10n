@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Der opstod desværre et problem med at hente d
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Få mere fra { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Nyheder og opdateringer om sikkerhed og privatliv
+choose-newsletters-option-latest-news =
+    .label = Få vores seneste nyheder og produktopdateringer
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Tidlig adgang til at teste nye produkter
@@ -171,12 +171,6 @@ form-password-sr-passwords-match = De indtastede adgangskoder er ens.
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dette felt er påkrævet
-
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Indsend { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Lavet af { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller tablet
-connect-another-find-fx-mobile =
-    Find { -brand-firefox } i { -google-play } og { -app-store } eller
-    <br /><linkExternal>send et link til at hente appen på din enhed.</linkExternal>
+connect-another-find-fx-mobile-2 = Find { -brand-firefox } i { -google-play } og { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -655,6 +647,7 @@ delete-account-continue-button = Fortsæt
 delete-account-password-input =
     .label = Indtast adgangskode
 pocket-delete-notice = Hvis du abonnerer på Pocket Premium, så sørg for at du <a>annullerer dit abonnement</a>, inden du sletter din konto.
+pocket-delete-notice-marketing = For at stoppe med at modtage marketingmails fra Mozilla Corporation og Mozilla Foundation, skal du <a>anmode om sletning af dine marketingdata.</a>
 delete-account-cancel-button = Annuller
 delete-account-delete-button-2 = Slet
 
@@ -799,6 +792,12 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Find ud af, hvor dine private oplysninger er blevet eksponeret - og tag dem tilbage
 
 ## Profile section
 
