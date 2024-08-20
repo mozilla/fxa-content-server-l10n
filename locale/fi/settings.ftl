@@ -794,6 +794,11 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor-plus-description = Yksityisyys on tärkeää: Selvitä missä yksityiset tietosi ovat paljastuneet – ja ota ne takaisin
+# Links out to the Monitor site
+product-promo-monitor-cta = Hanki ilmainen tarkistus
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Aloitetaan
 
 ## Profile section
 
