@@ -1083,12 +1083,12 @@ inline-totp-setup-ready-button = 好了
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = 扫描验证码以<span>继续使用 { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header-2 = 手动输入验证码以<span>继续使用 { $serviceName }</span>
+inline-totp-setup-no-qr-custom-service-header-2 = 手动输入验证码<span>以进入 { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = 扫描验证码以<span>继续进行账户设置</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header-2 = 手动输入验证码以<span>继续进行账户设置</span>
+inline-totp-setup-no-qr-default-service-header-2 = 手动输入验证码<span>以继续进行账户设置</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = 请输入身份验证密钥。<toggleToQRButton>改为扫描二维码？</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -1146,11 +1146,11 @@ pair-auth-complete-manage-devices-link = 管理设备
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-auth-totp-heading-w-default-service = 输入验证码以<span>继续进行账户设置</span>
+auth-totp-heading-w-default-service = 输入验证码以<span>以继续进行账户设置</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-auth-totp-heading-w-custom-service = 输入验证码以<span>继续使用 { $serviceName }</span>
+auth-totp-heading-w-custom-service = 输入验证码<span>以进入 { $serviceName }</span>
 auth-totp-instruction = 请打开您的身份验证应用，并输入其提供的验证码。
 auth-totp-input-label = 请输入 6 位验证码
 # Form button to confirm if the authentication code entered by the user is valid
@@ -1429,11 +1429,11 @@ signin-token-code-required-error = 请输入验证码
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = 输入验证码以<span>继续进行账户设置</span>
+signin-totp-code-heading-w-default-service-v2 = 输入验证码<span>以继续进行账户设置</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = 输入验证码<span>以继续使用 { $serviceName }</span>
+signin-totp-code-heading-w-custom-service-v2 = 输入验证码<span>以进入 { $serviceName }</span>
 signin-totp-code-instruction-v2 = 请打开您的身份验证应用，并输入其提供的验证码。
 signin-totp-code-input-label-v2 = 请输入 6 位验证码
 # Form button to confirm if the authentication code entered by the user is valid
