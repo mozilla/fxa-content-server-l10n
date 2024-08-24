@@ -1094,7 +1094,7 @@ inline-totp-setup-enter-key-or-use-qr-instructions = 请输入身份验证密钥
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = 请使用您的身份验证应用扫描二维码，并输入其提供的验证码。<toggleToManualModeButton>无法扫码？</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-on-completion-description = 输入完成后，将自动生成供您输入的验证码。
+inline-totp-setup-on-completion-description = 完成后，其将自动生成供您输入的验证码。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 验证码
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1233,11 +1233,11 @@ third-party-auth-callback-message = 请稍等，正将您重定向至授权的�
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = 使用账户恢复密钥重置密码以<span>继续设置账户</span>
+account-recovery-confirm-key-heading-w-default-service = 使用账户恢复密钥重置密码<span>以继续进行账户设置</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = 使用账户恢复密钥重置密码以<span>继续使用 { $serviceName }</span>
+account-recovery-confirm-key-heading-w-custom-service = 使用账户恢复密钥重置密码<span>以继续使用 { $serviceName }</span>
 account-recovery-confirm-key-instructions-2 = 请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 { -product-mozilla-account }的访问权限。
 account-recovery-confirm-key-warning-message = <span>注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。
 # Prompts the user to enter their account recovery code
@@ -1286,11 +1286,11 @@ confirm-pw-reset-instructions = 请在一小时内点击发送到 { $email } 的
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = 重置密码以<span>继续设置账户</span>
+reset-password-heading-w-default-service = 重置密码<span>以继续进行账户设置</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
+reset-password-heading-w-custom-service = 重置密码<span>以继续使用 { $serviceName }</span>
 reset-password-warning-message-2 = <span>注意：</span>重置密码时，您也重置了账户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保留您的订阅，并且 { -product-pocket } 数据不会受到影响。
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
@@ -1386,7 +1386,7 @@ signin-recovery-code-heading-w-default-service = 输入备用验证码<span>继�
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>继续使用 { $serviceName }</span>
+signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>以继续使用 { $serviceName }</span>
 signin-recovery-code-instruction = 请输入在两步验证设置期间提供给您的备用验证码。
 signin-recovery-code-input-label = 请输入 10 位备用验证码
 # Form button to confirm if the backup authentication code entered by the user is valid
