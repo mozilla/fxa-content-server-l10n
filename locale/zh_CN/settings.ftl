@@ -1078,7 +1078,7 @@ inline-totp-setup-add-security-link = 通过须额外输入一组由<authenticat
 inline-totp-setup-enable-two-step-authentication-default-header-2 = 启用两步验证以<span>继续进行账户设置</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = 启用两步验证以<span>继续使用 { $serviceName }</span>
-inline-totp-setup-ready-button = 好了
+inline-totp-setup-ready-button = 完成
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = 扫描验证码以<span>继续使用 { $serviceName }</span>
@@ -1094,7 +1094,7 @@ inline-totp-setup-enter-key-or-use-qr-instructions = 请输入身份验证密钥
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = 请使用您的身份验证应用扫描二维码，并输入其提供的验证码。<toggleToManualModeButton>无法扫码？</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-on-completion-description = 完成后，其将自动生成供您输入的验证码。
+inline-totp-setup-on-completion-description = 完成后，其将自动生成验证码供您输入。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 验证码
 # The "authentication code" here refers to the code provided by an authentication app.
