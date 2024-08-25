@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Przepraszamy, wystąpił problem podczas pobie
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Więcej od { -brand-mozilla(case: "gen") }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Aktualności i aktualizacje na temat bezpieczeństwa i prywatności
+choose-newsletters-option-latest-news =
+    .label = Najnowsze aktualności i informacje o produktach
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Wczesny dostęp do testowania nowych produktów
@@ -648,6 +648,7 @@ delete-account-continue-button = Kontynuuj
 delete-account-password-input =
     .label = Wpisz hasło
 pocket-delete-notice = Jeśli subskrybujesz Pocket Premium, upewnij się, że <a>anulujesz subskrypcję</a> przed usunięciem konta.
+pocket-delete-notice-marketing = Aby przestać otrzymywać wiadomości marketingowe od Mozilla Corporation i Mozilla Foundation, musisz <a>poprosić o usunięcie swoich danych marketingowych.</a>
 delete-account-cancel-button = Anuluj
 delete-account-delete-button-2 = Usuń
 
@@ -790,6 +791,17 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Dowiedz się, gdzie wyciekły Twoje dane osobowe — i je odzyskaj
+product-promo-monitor-plus-description = Prywatność jest najważniejsza: dowiedz się, gdzie wyciekły Twoje dane osobowe i je odzyskaj
+# Links out to the Monitor site
+product-promo-monitor-cta = Przeszukaj bezpłatnie
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Zacznij teraz
 
 ## Profile section
 
@@ -987,6 +999,7 @@ auth-error-155 = Nie odnaleziono tokena TOTP
 auth-error-159 = Nieprawidłowy klucz odzyskiwania konta
 auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
 auth-error-999 = Nieznany błąd
+auth-error-1001 = Anulowano próbę logowania
 auth-error-1002 = Sesja wygasła. Zaloguj się, aby kontynuować.
 auth-error-1003 = Obsługa lokalnego przechowywania danych lub ciasteczek jest nadal wyłączona
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
