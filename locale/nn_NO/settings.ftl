@@ -801,6 +801,8 @@ tfa-row-change-modal-explain = Du vil ikkje kunne angre denne handlinga.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ved å halde fram seier du deg samd i:
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Ved å halde fram, godtek du <mozillaAccountsTos>tenestevilkåra</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæringa</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
