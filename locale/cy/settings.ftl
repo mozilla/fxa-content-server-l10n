@@ -399,8 +399,10 @@ cs-sign-out-button = Allgofnodi
 ## Data collection section
 
 dc-heading = Casglu a'r Defnydd o Ddata
-dc-subheader-2 = Helpwch i wella { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = porwr { -brand-firefox }
 dc-subheader-content-2 = Caniatáu i { -product-mozilla-accounts } anfon data technegol a rhyngweithio i { -brand-mozilla }.
+dc-subheader-ff-content = I adolygu neu ddiweddaru gosodiadau data technegol a rhyngweithio eich porwr { -brand-firefox }, agorwch osodiadau { -brand-firefox } a llywio i Preifatrwydd a Diogelwch.
 dc-opt-out-success-2 = Rydych wedi dewis peidio cael eich cynnwys yn llwyddiannus. Ni fydd { -product-mozilla-accounts } yn anfon data technegol na data rhyngweithio i { -brand-mozilla }.
 dc-opt-in-success-2 = Diolch! Mae rhannu'r data hwn yn ein helpu i wella { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Ymddiheuriadau, bu anhawster wrth newid eich dewisiadau casglu data.
