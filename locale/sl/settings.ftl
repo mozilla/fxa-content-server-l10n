@@ -401,8 +401,10 @@ cs-sign-out-button = Odjava
 ## Data collection section
 
 dc-heading = Zbiranje in uporaba podatkov
-dc-subheader-2 = Pomagajte izboljšati { -product-mozilla-accounts(sklon: "tozilnik") }
+dc-subheader-moz-accounts = { -product-mozilla-accounts(zacetnica: "velika") }
+dc-subheader-ff-browser = { -brand-firefox } in { -brand-firefox }
 dc-subheader-content-2 = Dovoli { -product-mozilla-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
+dc-subheader-ff-content = Če želite pregledati ali posodobiti nastavitve tehničnih in interakcijskih podatkov brskalnika { -brand-firefox }, odprite Nastavitve { -brand-firefox }a in se pomaknite v zavihek Zasebnost in varnost.
 dc-opt-out-success-2 = Odjava je uspela. { -product-mozilla-accounts } { -brand-mozilla(sklon: "rodilnik") } ne bodo pošiljali tehničnih ali interakcijskih podatkov.
 dc-opt-in-success-2 = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-mozilla-accounts(sklon: "tozilnik") }.
 dc-opt-in-out-error-2 = Oprostite, pri spreminjanju nastavitve o zbiranju podatkov je prišlo do težave
