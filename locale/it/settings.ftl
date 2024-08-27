@@ -397,8 +397,10 @@ cs-sign-out-button = Disconnetti
 ## Data collection section
 
 dc-heading = Raccolta e utilizzo dati
-dc-subheader-2 = Aiutaci a migliorare gli { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
+dc-subheader-ff-browser = Browser { -brand-firefox }
 dc-subheader-content-2 = Consenti al servizio di { -product-mozilla-accounts } di inviare a { -brand-mozilla } dati tecnici e di interazione.
+dc-subheader-ff-content = Per controllare o aggiornare le impostazioni relative ai dati tecnici e di interazione del browser { -brand-firefox }, apri le impostazioni di { -brand-firefox } e accedi a Privacy e sicurezza.
 dc-opt-out-success-2 = Disattivazione riuscita. Il servizio di { -product-mozilla-accounts } non invierà a { -brand-mozilla } dati tecnici o di interazione.
 dc-opt-in-success-2 = Grazie! La condivisione di questi dati ci aiuta a migliorare gli { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Siamo spiacenti, si è verificato un problema durante la modifica delle preferenze relative alla raccolta dati
