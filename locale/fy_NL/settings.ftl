@@ -805,6 +805,8 @@ product-promo-monitor =
 product-promo-monitor-description = Untdek wêr’t jo priveegegevens lekt binne – en nim se werom
 # Links out to the Monitor site
 product-promo-monitor-cta = Untfang in fergeze scan
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Begjinne
 
 ## Profile section
 
