@@ -399,8 +399,10 @@ cs-sign-out-button = 退出
 ## Data collection section
 
 dc-heading = 数据收集与使用
-dc-subheader-2 = 帮助我们改进 { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } 浏览器
 dc-subheader-content-2 = 允许 { -product-mozilla-accounts }向 { -brand-mozilla } 发送技术与交互数据。
+dc-subheader-ff-content = 若要检查或更新 { -brand-firefox } 浏览器的技术与交互数据设置，请打开 { -brand-firefox } 设置，然后前往“隐私与安全”部分。
 dc-opt-out-success-2 = 退出成功，{ -product-mozilla-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-in-success-2 = 感谢！共享此数据可帮助我们改进 { -product-mozilla-accounts }。
 dc-opt-in-out-error-2 = 抱歉，更改您的数据收集首选项时遇到问题
