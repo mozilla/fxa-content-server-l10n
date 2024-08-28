@@ -405,8 +405,10 @@ cs-sign-out-button = Ofmelde
 ## Data collection section
 
 dc-heading = Gegevenssamling en gebrûk
-dc-subheader-2 = Help { -product-mozilla-accounts } te ferbetterjen
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox }-browser
 dc-subheader-content-2 = { -product-mozilla-accounts } tastean om technyske en ynteraksjegegevens nei { -brand-mozilla } te ferstjoeren.
+dc-subheader-ff-content = As jo de technyske- en ynteraksjegegevensynstellingen fan jo { -brand-firefox }-browser besjen of bywurkje wolle, iepenje jo de ynstellingen fan { -brand-firefox } en navigearje jo nei Privacy en Befeiliging.
 dc-opt-out-success-2 = Ofmelden suksesfol. { -product-mozilla-accounts } stjoert gjin technyske of ynteraksjegegevens nei { -brand-mozilla }.
 dc-opt-in-success-2 = Tank! Troch dizze gegevens te dielen helpe jo ús { -product-mozilla-accounts } te ferbetterjen.
 dc-opt-in-out-error-2 = Sorry, der is in probleem bard by it wizigjen fan jo foarkar foar gegevenssamling
