@@ -400,7 +400,7 @@ dc-heading = Collecte et utilisation de données
 dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
 dc-subheader-ff-browser = Navigateur { -brand-firefox }
 dc-subheader-content-2 = Autoriser les { -product-mozilla-accounts } à envoyer des données techniques et d’interaction à { -brand-mozilla }.
-dc-subheader-ff-content = Pour examiner ou mettre à jour les paramètres techniques et d’interaction de votre navigateur { -brand-firefox }, ouvrez les paramètres de { -brand-firefox } et accédez à Confidentialité et sécurité.
+dc-subheader-ff-content = Pour consulter ou mettre à jour les paramètres des données techniques et d’interaction de votre navigateur { -brand-firefox }, ouvrez les paramètres de { -brand-firefox } et accédez à la section Vie privée et sécurité.
 dc-opt-out-success-2 = Désactivation réussie. Les { -product-mozilla-accounts } n’enverront plus de données techniques ou d’interaction à { -brand-mozilla }.
 dc-opt-in-success-2 = Merci ! Le partage de ces données nous aide à améliorer les { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Un problème est survenu lors de la modification de vos préférences en matière de collecte de données
@@ -1325,6 +1325,8 @@ confirm-reset-password-code-input-group-label = Saisissez le code à 8 chiffres 
 confirm-reset-password-otp-submit-button = Continuer
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Renvoyer le code
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Utiliser un autre { -product-mozilla-account }
 
 ## ResetPassword start page
 
@@ -1359,7 +1361,7 @@ signin-subheader-without-logo-with-servicename = Continuez vers { $serviceName }
 signin-subheader-without-logo-default = Continuer vers les paramètres du compte
 signin-button = Connexion
 signin-header = Connexion
-signin-use-a-different-account-link = Utiliser un autre compte { -brand-firefox }
+signin-use-a-different-account-link = Utiliser un autre { -product-mozilla-account }
 signin-forgot-password-link = Mot de passe oublié ?
 signin-password-button-label = Mot de passe
 
@@ -1445,7 +1447,7 @@ signin-totp-code-instruction-v2 = Ouvrez l’application d’authentification et
 signin-totp-code-input-label-v2 = Saisissez le code à 6 chiffres
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
-signin-totp-code-other-account-link = Utiliser un autre compte { -brand-firefox }
+signin-totp-code-other-account-link = Utiliser un autre { -product-mozilla-account }
 signin-totp-code-recovery-code-link = Un problème pour saisir le code ?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Code d’authentification requis
