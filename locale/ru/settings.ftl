@@ -399,8 +399,10 @@ cs-sign-out-button = Выйти
 ## Data collection section
 
 dc-heading = Сбор и использование данных
-dc-subheader-2 = Помогите улучшить { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Браузер { -brand-firefox }
 dc-subheader-content-2 = Разрешить { -product-mozilla-accounts } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
+dc-subheader-ff-content = Чтобы просмотреть или обновить технические настройки и данные взаимодействия вашего { -brand-firefox }, откройте настройки { -brand-firefox } и перейдите в раздел «Приватность и Защита».
 dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
 dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
