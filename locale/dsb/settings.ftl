@@ -401,8 +401,10 @@ cs-sign-out-button = Wótzjawiś
 ## Data collection section
 
 dc-heading = Zběranje a wužywanje datow
-dc-subheader-2 = Pomagajśo { -product-mozilla-accounts(case: "acc", capitalization: "lower") } pólěpšyś
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Wobglědowak { -brand-firefox }
 dc-subheader-content-2 = { -product-mozilla-accounts(case: "dat", capitalization: "upper") } dowóliś, techniske a interakciske daty na { -brand-mozilla } pósłaś.
+dc-subheader-ff-content = Aby techniske nastajenja a nastajenja za interakciske daty wobglědowaka { -brand-firefox } pśeglědował abo aktualizěrował, wócyńśo nastajenja { -brand-firefox } a nawigěrujśo k Priwatnosć a wěstota.
 dc-opt-out-success-2 = Wótzjawjenje wuspěšne. { -product-mozilla-accounts } njebudu techniske abo interakciske daty na { -brand-mozilla } słaś.
 dc-opt-in-success-2 = Wjeliki źěk! Źělenje toś tych datow nam pomaga, { -product-mozilla-accounts(case: "acc", capitalization: "lower") } pólěpšyś.
 dc-opt-in-out-error-2 = Bóžko jo pśi změnjanju wašogo nastajenja datoweje zběrki problem nastał
