@@ -403,8 +403,10 @@ cs-sign-out-button = Αποσύνδεση
 ## Data collection section
 
 dc-heading = Συλλογή και χρήση δεδομένων
-dc-subheader-2 = Βοηθήστε στη βελτίωση των { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
+dc-subheader-moz-accounts = { -product-mozilla-accounts(case: "nom", capitalization: "upper") }
+dc-subheader-ff-browser = Πρόγραμμα περιήγησης { -brand-firefox }
 dc-subheader-content-2 = Να επιτρέπεται στους { -product-mozilla-accounts(case: "acc", capitalization: "lower") } η αποστολή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης στη { -brand-mozilla }.
+dc-subheader-ff-content = Για να ελέγξετε ή να ενημερώσετε τις ρυθμίσεις των τεχνικών δεδομένων και των δεδομένων αλληλεπίδρασης του προγράμματος περιήγησης { -brand-firefox }, ανοίξτε τις ρυθμίσεις του { -brand-firefox } και μεταβείτε στην ενότητα «Απόρρητο και ασφάλεια».
 dc-opt-out-success-2 = Επιτυχής απενεργοποίηση. Οι { -product-mozilla-accounts(case: "nom", capitalization: "lower") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-in-success-2 = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή της προτίμησής σας για τη συλλογή δεδομένων
