@@ -805,6 +805,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Untdek wêr’t jo priveegegevens lekt binne – en nim se werom
+product-promo-monitor-plus-description = Privacy docht der ta: ûntdek wêr’t jo priveegegevens lekt binne en nim se werom
 # Links out to the Monitor site
 product-promo-monitor-cta = Untfang in fergeze scan
 # Links out to the Monitor pricing site
