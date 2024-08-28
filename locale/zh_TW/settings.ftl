@@ -397,8 +397,10 @@ cs-sign-out-button = 登出
 ## Data collection section
 
 dc-heading = 資料收集與使用
-dc-subheader-2 = 幫助我們改善 { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } 瀏覽器
 dc-subheader-content-2 = 允許 { -product-mozilla-accounts }傳送技術與互動資料給 { -brand-mozilla }。
+dc-subheader-ff-content = 若要確認或更新您的 { -brand-firefox } 瀏覽器技術與互動資料設定，請開啟 { -brand-firefox } 設定，然後開啟「隱私權與安全性」頁面。
 dc-opt-out-success-2 = 成功退出。{ -product-mozilla-accounts }將不再傳送技術或互動資料給 { -brand-mozilla }。
 dc-opt-in-success-2 = 感謝您！分享此資料可協助我們改進 { -product-mozilla-accounts }。
 dc-opt-in-out-error-2 = 很抱歉，更改您的資料收集偏好設定時發生問題
