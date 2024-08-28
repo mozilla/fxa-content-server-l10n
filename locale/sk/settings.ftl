@@ -399,8 +399,10 @@ cs-sign-out-button = Odhlásiť sa
 ## Data collection section
 
 dc-heading = Zbieranie údajov a ich použitie
-dc-subheader-2 = Pomôžte nám vylepšiť { -product-mozilla-accounts(capitalization: "lower", case: "acc") }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Prehliadač { -brand-firefox }
 dc-subheader-content-2 = Povoliť { -product-mozilla-accounts(capitalization: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
+dc-subheader-ff-content = Ak chcete skontrolovať alebo aktualizovať nastavenia prehliadača { -brand-firefox } týkajúce sa údajov, otvorte nastavenia prehliadača { -brand-firefox } a prejdite na Súkromie a bezpečnosť.
 dc-opt-out-success-2 = Odhlásenie bolo úspešné. { -product-mozilla-accounts } nebudú posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-in-success-2 = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-mozilla-accounts(capitalization: "lower", case: "acc") }.
 dc-opt-in-out-error-2 = Ľutujeme, pri zmene predvoľby zhromažďovania údajov sa vyskytol problém
