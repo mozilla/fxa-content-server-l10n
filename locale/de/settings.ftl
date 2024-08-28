@@ -400,7 +400,7 @@ cs-sign-out-button = Abmelden
 
 dc-heading = Datenerfassung und -nutzung
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
-dc-subheader-ff-browser = { -brand-firefox } Browser
+dc-subheader-ff-browser = { -brand-firefox }-Browser
 dc-subheader-content-2 = Firefox { -product-mozilla-accounts } erlauben, technische und Interaktionsdaten an { -brand-mozilla } zu senden.
 dc-subheader-ff-content = Um die technischen Einstellungen und Interaktionsdaten Ihres { -brand-firefox }-Browsers zu überprüfen oder zu aktualisieren, öffnen Sie die { -brand-firefox }-Einstellungen und gehen Sie zu Datenschutz und Sicherheit.
 dc-opt-out-success-2 = Widerspruch erfolgreich. { -product-mozilla-accounts } sendet keine technischen oder Interaktionsdaten an { -brand-mozilla }.
