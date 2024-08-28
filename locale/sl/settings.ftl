@@ -402,7 +402,7 @@ cs-sign-out-button = Odjava
 
 dc-heading = Zbiranje in uporaba podatkov
 dc-subheader-moz-accounts = { -product-mozilla-accounts(zacetnica: "velika") }
-dc-subheader-ff-browser = { -brand-firefox } in { -brand-firefox }
+dc-subheader-ff-browser = Brskalnik { -brand-firefox }
 dc-subheader-content-2 = Dovoli { -product-mozilla-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-subheader-ff-content = Če želite pregledati ali posodobiti nastavitve tehničnih in interakcijskih podatkov brskalnika { -brand-firefox }, odprite Nastavitve { -brand-firefox }a in se pomaknite v zavihek Zasebnost in varnost.
 dc-opt-out-success-2 = Odjava je uspela. { -product-mozilla-accounts } { -brand-mozilla(sklon: "rodilnik") } ne bodo pošiljali tehničnih ali interakcijskih podatkov.
@@ -799,7 +799,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Poiščite, kje so razkriti vaši zasebni podatki – in jih pridobite nazaj
-product-promo-monitor-plus-description = Zasebnost je pomembna: poiščite, kje so izpostavljeni vaši zasebni podatki, in jih vzemite nazaj
+product-promo-monitor-plus-description = Zasebnost šteje: poiščite, kje so razkriti vaši zasebni podatki, in jih pridobite nazaj
 # Links out to the Monitor site
 product-promo-monitor-cta = Zagotovite si brezplačen pregled
 # Links out to the Monitor pricing site
