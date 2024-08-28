@@ -385,7 +385,8 @@ cs-sign-out-button = התנתקות
 ## Data collection section
 
 dc-heading = איסוף ושימוש בנתונים
-dc-subheader-2 = עזרה בשיפור { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = דפדפן { -brand-firefox }
 dc-subheader-content-2 = לאפשר ל{ -product-mozilla-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
 dc-opt-out-success-2 = ביטול ההצטרפות הצליח. { -product-mozilla-accounts } לא ישלחו נתונים טכניים אל { -brand-mozilla }.
 dc-opt-in-success-2 = תודה! שיתוף הנתונים האלה עוזר לנו לשפר את { -product-mozilla-accounts }.
