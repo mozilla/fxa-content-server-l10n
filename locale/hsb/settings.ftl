@@ -401,7 +401,8 @@ cs-sign-out-button = Wotzjewić
 ## Data collection section
 
 dc-heading = Zběranje a wužiwanje datow
-dc-subheader-2 = Pomhajće { -product-mozilla-accounts(case: "acc", capitalization: "lower") } polěpšić
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Wobhladowak { -brand-firefox }
 dc-subheader-content-2 = { -product-mozilla-accounts(case: "dat", capitalization: "upper") } dowolić, techniske a interakciske daty na { -brand-mozilla } pósłać.
 dc-opt-out-success-2 = Wotzjewjenje wuspěšne. { -product-mozilla-accounts } njebudźe techniske abo interakciske daty na { -brand-mozilla } słać.
 dc-opt-in-success-2 = Wulki dźak! Dźělenje tutych datow nam pomha, { -product-mozilla-accounts(case: "acc", capitalization: "lower") } polěpšić.
