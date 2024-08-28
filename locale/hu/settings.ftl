@@ -406,9 +406,9 @@ cs-sign-out-button = Kijelentkezés
 
 dc-heading = Adatgyűjtés és -felhasználás
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
-dc-subheader-ff-browser = { -brand-firefox } böngészőt
+dc-subheader-ff-browser = { -brand-firefox } böngésző
 dc-subheader-content-2 = Engedélyezés, hogy a { -product-mozilla-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla(ending: "accented") }nak.
-dc-subheader-ff-content = A { -brand-firefox } böngészője műszaki és interakciós adatok beállításainak áttekintéséhez vagy frissítéséhez nyissa meg a { -brand-firefox } beállításait, és navigáljon az Adatvédelem és biztonság oldalra.
+dc-subheader-ff-content = A { -brand-firefox } böngészője műszaki és interakciós adatai beállításainak áttekintéséhez vagy frissítéséhez nyissa meg a { -brand-firefox } beállításait, és navigáljon az Adatvédelem és biztonság oldalra.
 dc-opt-out-success-2 = Sikeres leiratkozás. A { -product-mozilla-accounts } nem fog műszaki vagy interakciós adatokat küldeni a { -brand-mozilla(ending: "accented") }nak.
 dc-opt-in-success-2 = Köszönjük! Ezen adatok megosztása segít nekünk a { -product-mozilla-accounts } fejlesztésében.
 dc-opt-in-out-error-2 = Sajnos probléma merült fel az adatgyűjtési beállítás megváltoztatásakor
