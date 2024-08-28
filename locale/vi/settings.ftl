@@ -401,8 +401,10 @@ cs-sign-out-button = Đăng xuất
 ## Data collection section
 
 dc-heading = Thu thập và sử dụng dữ liệu
-dc-subheader-2 = Giúp cải thiện { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Trình duyệt { -brand-firefox }
 dc-subheader-content-2 = Cho phép { -product-mozilla-accounts } để gửi dữ liệu kỹ thuật và tương tác tới { -brand-mozilla }.
+dc-subheader-ff-content = Để xem lại hoặc cập nhật cài đặt dữ liệu kỹ thuật và tương tác của trình duyệt { -brand-firefox } của bạn, hãy mở cài đặt { -brand-firefox } và điều hướng đến Riêng tư và bảo mật.
 dc-opt-out-success-2 = Đã tắt thành công. { -product-mozilla-accounts } sẽ không gửi dữ liệu kỹ thuật hoặc tương tác tới { -brand-mozilla }.
 dc-opt-in-success-2 = Cảm ơn! Chia sẻ dữ liệu này sẽ giúp chúng tôi cải thiện { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Xin lỗi, đã xảy ra sự cố khi thay đổi tùy chọn thu thập dữ liệu của bạn
