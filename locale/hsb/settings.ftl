@@ -404,6 +404,7 @@ dc-heading = Zběranje a wužiwanje datow
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Wobhladowak { -brand-firefox }
 dc-subheader-content-2 = { -product-mozilla-accounts(case: "dat", capitalization: "upper") } dowolić, techniske a interakciske daty na { -brand-mozilla } pósłać.
+dc-subheader-ff-content = Zo byšće techniske nastajenja a nastajenja za interakciske daty wobhladowaka { -brand-firefox } přepruwował abo aktualizował, wočińće nastajenja { -brand-firefox } a nawigěrujće k Priwatnosć a wěstota.
 dc-opt-out-success-2 = Wotzjewjenje wuspěšne. { -product-mozilla-accounts } njebudźe techniske abo interakciske daty na { -brand-mozilla } słać.
 dc-opt-in-success-2 = Wulki dźak! Dźělenje tutych datow nam pomha, { -product-mozilla-accounts(case: "acc", capitalization: "lower") } polěpšić.
 dc-opt-in-out-error-2 = Bohužel je při měnjenju wašeho nastajenja datoweje zběrki problem nastał
