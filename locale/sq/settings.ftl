@@ -399,7 +399,8 @@ cs-sign-out-button = Dilni
 ## Data collection section
 
 dc-heading = Grumbullim dhe Përdorim të Dhënash
-dc-subheader-2 = Ndihmoni të përmirësohet { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Shfletuesi { -brand-firefox }
 dc-subheader-content-2 = Lejojeni { -product-mozilla-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
 dc-opt-out-success-2 = Lënie jashtë e suksesshme. { -product-mozilla-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
 dc-opt-in-success-2 = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-mozilla-accounts }.
