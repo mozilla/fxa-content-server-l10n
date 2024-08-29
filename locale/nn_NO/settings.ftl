@@ -184,6 +184,10 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Ei datamaskin og ein mobiltelefon og eit bilde av eit knust hjarte på kvar
+hearts-verified-image-aria-label =
+    .aria-label = Ei datamaskin og ein mobiltelefon og eit nettbrett med eit pulserande hjarte på kvar
 signin-recovery-code-image-description =
     .aria-label = Dokument som inneheld skjult tekst.
 signin-totp-code-image-label =

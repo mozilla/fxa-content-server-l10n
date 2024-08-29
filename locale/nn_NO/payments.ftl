@@ -419,6 +419,7 @@ sub-change-submit = Stadfest endring
 sub-update-current-plan-label = Gjeldande plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny sum
+sub-update-prorated-upgrade = Forholdsmessig oppgradering
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
@@ -507,7 +508,9 @@ sub-expires-on = Går ut { $date }
 pay-update-card-exp = Går ut { $expirationDate }
 sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
+sub-route-payment-modal-message-2 = Det ser ut til å vere ein feil med { -brand-paypal }-kontoen din. Vi treng at du tek dei nødvendige stega for å løyse dette betalingsproblemet.
 sub-route-missing-billing-agreement-payment-alert = Ugyldig betalingsinformasjon, det er eit problem med kontoen din. <div>Handsam</div>
+sub-route-funding-source-payment-alert = Ugyldig betalingsinformasjon; det er ein feil med kontoen din. Dette varselet kan ta litt tid å fjerne etter at du har oppdatert informasjonen. <div>Administrer</div>
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -515,6 +518,7 @@ sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 invoice-not-found = Fann ikkje etterfølgjande faktura
 sub-item-no-such-subsequent-invoice = Finn ikkje påfølgjande faktura for dette abonnementet.
 sub-invoice-preview-error-title = Fann ikkje førehandsvising av faktura
+sub-invoice-preview-error-text = Fann ikkje førehandsvising av faktura for dette abonnementet
 
 ## Routes - Subscriptions - Pocket Subscription
 
