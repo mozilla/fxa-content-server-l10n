@@ -403,7 +403,8 @@ cs-sign-out-button = Clauder session
 ## Data collection section
 
 dc-heading = Recolta e uso de datos
-dc-subheader-2 = Adjuta a meliorar { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Navigator { -brand-firefox }
 dc-subheader-content-2 = Permitte a{ -product-mozilla-accounts } de inviar datos technic e de interaction a { -brand-mozilla }.
 dc-opt-out-success-2 = Refusate con successo. { -product-mozilla-accounts } non inviara datos technic e de interaction a { -brand-mozilla }.
 dc-opt-in-success-2 = Gratias! Compartir iste datos adjuta nos meliorar { -product-mozilla-accounts }.
