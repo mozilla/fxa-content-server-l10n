@@ -66,8 +66,15 @@ recovery-key-pdf-download-error = Klarte ikkje å laste ned kontogjenopprettings
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Få meir frå { -brand-mozilla }:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Få våre siste nyheiter og produktoppdateringar
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Tidleg tilgang til å teste nye produkt
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Handlingsvarsel for å vinne tilbake internett
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -150,6 +157,8 @@ form-reset-password-with-balloon-submit-button = Tilbakestill passordet
 form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 form-password-sr-too-short-message = Passord må innehalde minst 8 teikn.
 form-password-sr-not-email-message = Passord kan ikkje innehalde e-postadressa di.
+form-password-sr-not-common-message = Passord må ikkje vere eit vanleg brukt passord.
+form-password-sr-requirements-met = Det angitte passordet respekterer alle passordkrav.
 form-password-sr-passwords-match = Innskrive passord samsvarar.
 
 ## FormVerifyCode
@@ -197,8 +206,14 @@ lock-image-aria-label =
 input-password-hide = Gøym passord
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Vis passord
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Passordet ditt er akkurat no synleg på skjermen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Passordet ditt er skjult akkurat no.
 # Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
 input-password-sr-only-now-visible = Passordet ditt er no synleg på skjermen.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Passordet ditt er no skjult.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbake
 
@@ -360,7 +375,6 @@ cs-sign-out-button = Logg ut
 ## Data collection section
 
 dc-heading = Datainnsamling og bruk
-dc-subheader-2 = Hjelp til med å forbetre { -product-mozilla-accounts }
 dc-subheader-content-2 = Tillat { -product-mozilla-accounts } å sende tekniske data og interaksjonsdata til { -brand-mozilla }?
 dc-opt-out-success-2 = Vellykka utmelding. { -product-mozilla-accounts } sender ikkje tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Deling av desse dataa hjelper oss med å forbetre { -product-mozilla-accounts }.
@@ -895,6 +909,9 @@ cookies-disabled-header = Lokal lagring og infokapslar er påkravd
 cookies-disabled-button-try-again = Prøv igjen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Les meir
+
+## Index / home page
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
