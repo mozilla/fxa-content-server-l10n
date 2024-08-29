@@ -404,7 +404,7 @@ cs-sign-out-button = Odhlásit se
 
 dc-heading = Sběr dat a jejich použití
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
-dc-subheader-ff-browser = { -brand-firefox }
+dc-subheader-ff-browser = Prohlížeč { -brand-firefox }
 dc-subheader-content-2 = Povolte { -product-mozilla-accounts(case: "dat", capitalization: "lower") } zasílat { -brand-mozilla(case: "dat") } technická data a data o interakcích.
 dc-subheader-ff-content = Pokud chcete zkontrolovat nebo aktualizovat technické nastavení prohlížeče { -brand-firefox } a data o interakcích, otevřete nastavení { -brand-firefox(case: "gen") } a přejděte do sekce Soukromí a zabezpečení.
 dc-opt-out-success-2 = Sdílení dat bylo úspěšně zrušeno. { -product-mozilla-accounts } nebude { -brand-mozilla(case: "dat") } odesílat technická data ani data o interakcích.
