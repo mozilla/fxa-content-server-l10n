@@ -415,6 +415,10 @@ brand-name-apple-app-store-2 = { -app-store }
 
 product-plan-change-heading = Sjå gjennom endringa
 sub-change-failed = Mislykka endring av plan
+sub-update-acknowledgment =
+    Planen din blir omgåande endra, og du vil bli belasta proporsjonalt
+    beløp i dag for resten av denne faktureringssyklusen. Startar { $startingDate }
+    du vil bli belasta heile beløpet.
 sub-change-submit = Stadfest endring
 sub-update-current-plan-label = Gjeldande plan
 sub-update-new-plan-label = Ny plan
