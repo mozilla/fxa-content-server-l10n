@@ -1055,6 +1055,20 @@ cookies-disabled-button-try-again = Ceisiwch eto
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Dysgu rhagor
 
+## Index / home page
+
+index-header = Rhowch eich e-bost
+index-sync-header = Parhau i'ch { -product-mozilla-account }
+index-sync-subheader = Cysonwch eich cyfrineiriau, tabiau a nodau tudalen ym mhob man rydych yn defnyddio { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Parhau i { $serviceName }
+index-subheader-with-logo = Parhau i <span>{ $serviceLogo }</span>
+index-subheader-default = Parhau i osodiadau cyfrif
+index-cta = Cofrestrwch neu mewngofnodwch
+index-account-info = Mae { -product-mozilla-account } hefyd yn datgloi mynediad i fwy o gynhyrchion sy'n diogelu preifatrwydd o { -brand-mozilla }.
+index-email-input =
+    .label = Rhowch eich e-bost
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
