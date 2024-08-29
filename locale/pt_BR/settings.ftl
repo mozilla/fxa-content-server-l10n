@@ -397,7 +397,8 @@ cs-sign-out-button = Desconectar
 ## Data collection section
 
 dc-heading = Coleta e uso de dados
-dc-subheader-2 = Ajude a melhorar as { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
+dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envie dados técnicos e de interação para a { -brand-mozilla }.
 dc-opt-out-success-2 = Opção por não permitir feita com sucesso. { -product-mozilla-accounts(capitalization: "uppercase") } não irá enviar dados técnicos ou de interação para a { -brand-mozilla }.
 dc-opt-in-success-2 = Obrigado! Compartilhar esses dados nos ajuda a melhorar as { -product-mozilla-accounts }.
