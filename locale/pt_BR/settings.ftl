@@ -400,6 +400,7 @@ dc-heading = Coleta e uso de dados
 dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
 dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envie dados técnicos e de interação para a { -brand-mozilla }.
+dc-subheader-ff-content = Para revisar ou atualizar as configurações de dados técnicos e de interação do navegador { -brand-firefox }, abra as configurações do { -brand-firefox } e percorra o painel de privacidade e segurança.
 dc-opt-out-success-2 = Opção por não permitir feita com sucesso. { -product-mozilla-accounts(capitalization: "uppercase") } não irá enviar dados técnicos ou de interação para a { -brand-mozilla }.
 dc-opt-in-success-2 = Obrigado! Compartilhar esses dados nos ajuda a melhorar as { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Desculpe, houve um problema ao alterar sua preferência de coleta de dados
