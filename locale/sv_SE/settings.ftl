@@ -401,7 +401,8 @@ cs-sign-out-button = Logga ut
 ## Data collection section
 
 dc-heading = Datainsamling och användning
-dc-subheader-2 = Hjälp till att förbättra { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } webbläsare
 dc-subheader-content-2 = Tillåt { -product-mozilla-accounts } att skicka teknisk data och interaktionsdata till { -brand-mozilla }.
 dc-opt-out-success-2 = Valet lyckades. { -product-mozilla-accounts } skickar inte teknisk data eller interaktionsdata till { -brand-mozilla }.
 dc-opt-in-success-2 = Tack! Att dela denna data hjälper oss att förbättra { -product-mozilla-accounts }.
