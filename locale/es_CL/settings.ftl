@@ -399,8 +399,10 @@ cs-sign-out-button = Salir
 ## Data collection section
 
 dc-heading = Recolección de datos y uso
-dc-subheader-2 = Ayuda a mejorar { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permite que { -product-mozilla-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
+dc-subheader-ff-content = Para revisar o actualizar la configuración de datos de interacción y técnicos de tu navegador { -brand-firefox }, abre los ajustes de { -brand-firefox } y navega a Privacidad y seguridad.
 dc-opt-out-success-2 = Salida exitosa. { -product-mozilla-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success-2 = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Lo sentimos, hubo un problema al cambiar tu preferencia de recopilación de datos
