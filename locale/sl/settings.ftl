@@ -1059,6 +1059,20 @@ cookies-disabled-button-try-again = Poskusi znova
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Več o tem
 
+## Index / home page
+
+index-header = Vnesite e-poštni naslov
+index-sync-header = Nadaljujte v svoj { -product-mozilla-account }
+index-sync-subheader = Sinhronizirajte gesla, zavihke in zaznamke povsod, kjer uporabljate { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Nadaljuj na { $serviceName }
+index-subheader-with-logo = Nadaljuj na <span>{ $serviceLogo }</span>
+index-subheader-default = Nadaljuj na nastavitve računa
+index-cta = Registracija ali prijava
+index-account-info = { -product-mozilla-account } omogoča tudi dostop do več izdelkov, ki ščitijo zasebnost podjetja { -brand-mozilla }.
+index-email-input =
+    .label = Vnesite e-poštni naslov
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
