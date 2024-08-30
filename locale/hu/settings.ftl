@@ -193,7 +193,7 @@ get-data-trio-print-2 =
 hearts-broken-image-aria-label =
     .aria-label = Egy számítógép és egy mobiltelefon, mindkettőn egy összetört szív képe
 hearts-verified-image-aria-label =
-    .aria-label = Egy számítógép és egy mobiltelefon, mindkettőn egy dobogó szívvel
+    .aria-label = Egy számítógép, egy mobiltelefon és egy táblagép, mindegyiken egy dobogó szívvel
 signin-recovery-code-image-description =
     .aria-label = Rejtett szöveget tartalmazó dokumentum.
 signin-totp-code-image-label =
@@ -329,7 +329,7 @@ bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
-bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
+bento-menu-firefox-mobile = { -brand-firefox } mobilböngésző
 bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 
 ## Connect another device promo

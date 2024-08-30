@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-08-08 08:49+0000\n"
+"PO-Revision-Date: 2024-08-30 08:39+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -1313,7 +1313,7 @@ msgstr "Töltse le a Firefox for Androidot."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "A Firefox letöltése mobil eszközökre."
+msgstr "A Firefox letöltése mobileszközökre."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
