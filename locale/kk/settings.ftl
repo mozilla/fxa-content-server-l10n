@@ -1062,6 +1062,7 @@ cookies-disabled-learn-more = Көбірек білу
 
 ## Index / home page
 
+index-header = Эл. пошта адресіңізді енгізіңіз
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
