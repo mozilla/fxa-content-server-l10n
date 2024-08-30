@@ -1058,13 +1058,13 @@ cookies-disabled-learn-more = Conocer más
 
 index-header = Ingresá tu correo electrónico
 index-sync-header = Continuar a tu { -product-mozilla-account }
-index-sync-subheader = Sincronizá tus contraseñas, pestañas y marcadores en cualquier lugar que usés { -brand-firefox }.
+index-sync-subheader = Sincronizá tus contraseñas, pestañas y marcadores en cualquier lado que usés { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
 index-subheader-default = Continuar a configuración de cuenta
 index-cta = Ingresar o registrarse
-index-account-info = Una { -product-mozilla-account } también desbloquea el acceso a más productos de { -brand-mozilla } que protegen la privacidad.
+index-account-info = Una { -product-mozilla-account } también desbloquea el acceso a más productos de protección de privacidad de { -brand-mozilla }.
 index-email-input =
     .label = Ingresá tu correo electrónico
 
