@@ -1065,17 +1065,17 @@ cookies-disabled-learn-more = További tudnivalók
 
 ## Index / home page
 
-index-header = Adja meg az e-mail címét
+index-header = Adja meg az e-mail-címét
 index-sync-header = Tovább a { -product-mozilla-account }jához
-index-sync-subheader = Szinkronizálja jelszavait, lapjait és könyvjelzőit mindenütt, ahol { -brand-firefox }ot használ.
+index-sync-subheader = Szinkronizálja jelszavait, lapjait és könyvjelzőit mindenütt, ahol { -brand-firefox(case: "accusative") } használ.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Tovább erre: { $serviceName }
 index-subheader-with-logo = Tovább erre: <span>{ $serviceLogo }</span>
 index-subheader-default = Folytatás a fiókbeállításokhoz
 index-cta = Regisztráljon vagy jelentkezzen be
-index-account-info = Egy { -product-mozilla-account }val a { -brand-mozilla } további adatvédelmi termékeihez is hozzáférést biztosít.
+index-account-info = Egy { -product-mozilla-account } a { -brand-mozilla } további adatvédelmi termékeihez is hozzáférést biztosít.
 index-email-input =
-    .label = Adja meg az e-mail címét
+    .label = Adja meg az e-mail-címét
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
