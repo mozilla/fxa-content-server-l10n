@@ -1033,6 +1033,20 @@ cookies-disabled-button-try-again = 重試
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 了解更多
 
+## Index / home page
+
+index-header = 輸入您的電子郵件地址
+index-sync-header = 繼續前往您的 { -product-mozilla-account }
+index-sync-subheader = 在使用 { -brand-firefox } 的所有地方同步您的密碼、分頁、書籤。
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = 繼續前往 { $serviceName }
+index-subheader-with-logo = 繼續前往 <span>{ $serviceLogo }</span>
+index-subheader-default = 繼續前往帳號設定
+index-cta = 註冊或登入
+index-account-info = 註冊 { -product-mozilla-account }，即可使用 { -brand-mozilla } 更多隱私保護相關產品。
+index-email-input =
+    .label = 輸入您的電子郵件地址
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
