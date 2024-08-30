@@ -622,6 +622,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = המשך
 delete-account-password-input =
     .label = נא להכניס ססמה
+pocket-delete-notice-marketing = כדי להפסיק לקבל דוא״ל שיווקיים מ־Mozilla Corporation ומ־Mozilla Foundation, יש <a>לבקש מחיקה של נתוני השיווק שלך.</a>
 delete-account-cancel-button = ביטול
 delete-account-delete-button-2 = מחיקה
 
@@ -993,6 +994,20 @@ cookies-disabled-enable-prompt-2 = נא להפעיל עוגיות ואחסון �
 cookies-disabled-button-try-again = לנסות שוב
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = מידע נוסף
+
+## Index / home page
+
+index-header = נא להכניס את כתובת הדוא״ל שלך
+index-sync-header = המשך אל { -product-mozilla-account(case: "the") } שלך
+index-sync-subheader = סנכרון הססמאות, הלשוניות פתוחות והסימניות שלך בכל מקום בו יש לך את { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = המשך אל { $serviceName }
+index-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
+index-subheader-default = המשך אל הגדרות החשבון
+index-cta = הרשמה או התחברות
+index-account-info = { -product-mozilla-account(case: "a") } גם פותח גישה למוצרים נוספים המגנים על הפרטיות, מבית { -brand-mozilla }.
+index-email-input =
+    .label = נא להכניס את כתובת הדוא״ל שלך
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
