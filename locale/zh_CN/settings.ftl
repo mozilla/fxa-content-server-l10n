@@ -1035,6 +1035,14 @@ cookies-disabled-button-try-again = 重试
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 详细了解
 
+## Index / home page
+
+index-header = 请输入邮箱地址
+index-cta = 注册或登录
+index-account-info = { -product-mozilla-account }还可用于访问 { -brand-mozilla } 的更多隐私保护产品。
+index-email-input =
+    .label = 请输入邮箱地址
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
