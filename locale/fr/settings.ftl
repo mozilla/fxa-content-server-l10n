@@ -1050,7 +1050,7 @@ cookies-disabled-learn-more = En savoir plus
 
 ## Index / home page
 
-index-header = Saisissez votre adresse électronique
+index-header = Saisissez votre adresse e-mail
 index-sync-header = Continuer vers votre { -product-mozilla-account }
 index-sync-subheader = Synchronisez vos mots de passe, onglets et marque-pages partout où vous utilisez { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
@@ -1060,7 +1060,7 @@ index-subheader-default = Continuer vers les paramètres du compte
 index-cta = S’inscrire ou se connecter
 index-account-info = Un { -product-mozilla-account } donne également accès à davantage de produits de { -brand-mozilla } qui protègent votre vie privée.
 index-email-input =
-    .label = Saisissez votre adresse électronique
+    .label = Saisissez votre adresse e-mail
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
