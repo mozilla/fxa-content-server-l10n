@@ -403,7 +403,8 @@ cs-sign-out-button = Шығу
 ## Data collection section
 
 dc-heading = Деректерді жинау және қолдану
-dc-subheader-2 = { -product-mozilla-accounts } жақсартуға көмектесу
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } браузері
 dc-subheader-content-2 = { -product-mozilla-accounts } үшін техникалық және өзара әрекеттесу деректерін { -brand-mozilla } адресіне жіберуге рұқсат беру.
 dc-opt-out-success-2 = Бас тарту сәтті болды. { -product-mozilla-accounts } техникалық немесе өзара әрекеттесу деректерін { -brand-mozilla } адресіне жібермейтін болады.
 dc-opt-in-success-2 = Рахмет! Бұл деректермен бөлісу { -product-mozilla-accounts } қызметін жақсартуға көмектеседі.
@@ -1058,6 +1059,9 @@ cookies-disabled-enable-prompt-2 = { -product-mozilla-account } тіркелгі
 cookies-disabled-button-try-again = Қайтадан көру
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Көбірек білу
+
+## Index / home page
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
