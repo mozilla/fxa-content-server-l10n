@@ -406,6 +406,7 @@ dc-heading = Деректерді жинау және қолдану
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } браузері
 dc-subheader-content-2 = { -product-mozilla-accounts } үшін техникалық және өзара әрекеттесу деректерін { -brand-mozilla } адресіне жіберуге рұқсат беру.
+dc-subheader-ff-content = { -brand-firefox } браузерінің техникалық және өзара әрекеттесу деректерінің параметрлерін қарап шығу немесе жаңарту үшін { -brand-firefox } баптауларын ашып, Жекелік және қауіпсіздік бөліміне өтіңіз.
 dc-opt-out-success-2 = Бас тарту сәтті болды. { -product-mozilla-accounts } техникалық немесе өзара әрекеттесу деректерін { -brand-mozilla } адресіне жібермейтін болады.
 dc-opt-in-success-2 = Рахмет! Бұл деректермен бөлісу { -product-mozilla-accounts } қызметін жақсартуға көмектеседі.
 dc-opt-in-out-error-2 = Кешіріңіз, деректерді жинау параметрін өзгерту кезінде мәселе орын алды
@@ -1063,6 +1064,16 @@ cookies-disabled-learn-more = Көбірек білу
 ## Index / home page
 
 index-header = Эл. пошта адресіңізді енгізіңіз
+index-sync-header = { -product-mozilla-account } тіркелгіңізге жалғастыру
+index-sync-subheader = { -brand-firefox } қолданатын әр жерде парольдер, беттер, және бетбелгілерді синхрондаңыз.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = { $serviceName } ішіне жалғастыру
+index-subheader-with-logo = <span>{ $serviceLogo }</span> ішіне жалғастыру
+index-subheader-default = Тіркелгі баптауларына жалғастыру
+index-cta = Тіркелгіні жасау немесе кіру
+index-account-info = { -product-mozilla-account } { -brand-mozilla }-дан жекелігіңізді қорғайтын көбірек өнімдерге кіруге мүмкіндік береді.
+index-email-input =
+    .label = Эл. поштаны енгізіңіз
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
