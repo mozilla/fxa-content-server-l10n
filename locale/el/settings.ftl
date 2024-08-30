@@ -1063,6 +1063,17 @@ cookies-disabled-button-try-again = Δοκιμή ξανά
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Μάθετε περισσότερα
 
+## Index / home page
+
+index-header = Εισαγάγετε το email σας
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Συνέχεια στο { $serviceName }
+index-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
+index-subheader-default = Συνέχεια στις ρυθμίσεις λογαριασμού
+index-cta = Εγγραφή ή σύνδεση
+index-email-input =
+    .label = Εισαγάγετε το email σας
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
