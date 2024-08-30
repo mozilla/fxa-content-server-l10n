@@ -402,7 +402,7 @@ dc-heading = Recolección y uso de datos
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
-dc-subheader-ff-content = Para revisar o actualizar la configuración de los datos técnicos y de interacción de tu navegador { -brand-firefox }, abre la configuración de { -brand-firefox } y navega a Privacidad y seguridad.
+dc-subheader-ff-content = Para revisar o actualizar la configuración de los datos técnicos y de interacción de tu navegador { -brand-firefox }, abrí la configuración de { -brand-firefox } y navegá a Privacidad y seguridad.
 dc-opt-out-success-2 = Salida exitosa. { -product-mozilla-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success-2 = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Perdón, hubo un problema al cambiar tus preferencias de recolección de información
@@ -1058,7 +1058,7 @@ cookies-disabled-learn-more = Conocer más
 
 index-header = Ingresá tu correo electrónico
 index-sync-header = Continuar a tu { -product-mozilla-account }
-index-sync-subheader = Sincronizá tus contraseñas, pestañas y marcadores en cualquier lugar que uses { -brand-firefox }.
+index-sync-subheader = Sincronizá tus contraseñas, pestañas y marcadores en cualquier lugar que usés { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
