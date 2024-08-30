@@ -1061,6 +1061,20 @@ cookies-disabled-button-try-again = Opnieuw proberen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Meer info
 
+## Index / home page
+
+index-header = Voer uw e-mailadres in
+index-sync-header = Doorgaan naar uw { -product-mozilla-account }
+index-sync-subheader = Synchroniseer uw wachtwoorden, tabbladen en bladwijzers overal waar u { -brand-firefox } gebruikt.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Doorgaan naar { $serviceName }
+index-subheader-with-logo = Doorgaan naar <span>{ $serviceLogo }</span>
+index-subheader-default = Doorgaan naar accountinstellingen
+index-cta = Registreren of aanmelden
+index-account-info = Een { -product-mozilla-account } ontgrendelt ook de toegang tot meer privacybeschermende producten van { -brand-mozilla }.
+index-email-input =
+    .label = Voer uw e-mailadres in
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
