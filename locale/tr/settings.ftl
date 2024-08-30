@@ -401,7 +401,8 @@ cs-sign-out-button = Çıkış yap
 ## Data collection section
 
 dc-heading = Veri toplanması ve kullanımı
-dc-subheader-2 = { -product-mozilla-accounts }nı geliştirmemize yardım edin
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } tarayıcısı
 dc-subheader-content-2 = { -product-mozilla-accounts }nın teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermesine izin veriyorum.
 dc-opt-out-success-2 = Ayrılma işlemi başarılı. { -product-mozilla-accounts } artık teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermeyecek.
 dc-opt-in-success-2 = Teşekkürler! Bu verileri paylaşmanız { -product-mozilla-accounts }nı geliştirmemize yardımcı oluyor.
@@ -1039,6 +1040,20 @@ cookies-disabled-enable-prompt-2 = { -product-mozilla-account }nıza erişmek i�
 cookies-disabled-button-try-again = Tekrar dene
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Daha fazla bilgi al
+
+## Index / home page
+
+index-header = E-posta adresinizi yazın
+index-sync-header = { -product-mozilla-account }nıza devam edin
+index-sync-subheader = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, sekmelerinizi ve yer imlerinizi eşitleyin.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = { $serviceName } hizmetine devam et
+index-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
+index-subheader-default = Hesap ayarlarına devam et
+index-cta = Kaydol veya giriş yap
+index-account-info = { -product-mozilla-account }, gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerine de erişmenizi sağlar.
+index-email-input =
+    .label = E-posta adresinizi yazın
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
