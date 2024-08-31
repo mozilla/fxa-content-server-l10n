@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = На жаль, виникла проблема
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Отримайте більше від { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Новини та поради щодо безпеки та приватності
+choose-newsletters-option-latest-news =
+    .label = Отримуйте наші останні новини та оновлення продуктів
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Ранній доступ до тестування нових продуктів
@@ -171,12 +171,6 @@ form-password-sr-passwords-match = Введені паролі збігають�
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Це поле обов'язкове
-
-## FormVerifyTotp
-
-# When focused on the button, screen reader will read the action and entire number that will be submitted
-form-verify-code-submit-button =
-    .aria-label = Надіслати { $codeValue }
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -341,9 +335,7 @@ bento-menu-made-by-mozilla = Створено в { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Отримайте { -brand-firefox } для мобільного чи планшета
-connect-another-find-fx-mobile =
-    Знайдіть { -brand-firefox } в { -google-play } та { -app-store } або
-    <br /><linkExternal>надішліть посилання для завантаження на свій пристрій.</linkExternal>
+connect-another-find-fx-mobile-2 = Знайдіть { -brand-firefox } у { -google-play } і { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -409,7 +401,6 @@ cs-sign-out-button = Вийти
 ## Data collection section
 
 dc-heading = Збір та використання даних
-dc-subheader-2 = Допоможіть вдосконалити { -product-mozilla-accounts }
 dc-subheader-content-2 = Дозволити { -product-mozilla-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-out-success-2 = Відмова пройшла успішно. { -product-mozilla-accounts(capitalization: "upper") } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-in-success-2 = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-mozilla-accounts }.
@@ -656,6 +647,7 @@ delete-account-continue-button = Продовжити
 delete-account-password-input =
     .label = Введіть пароль
 pocket-delete-notice = Якщо ви передплатили Pocket Premium, обов'язково <a>скасуйте передплату</a> перш ніж видаляти обліковий запис.
+pocket-delete-notice-marketing = Щоб припинити отримання маркетингових електронних листів від Mozilla Corporation і Mozilla Foundation, ви повинні <a>подати запит на видалення своїх маркетингових даних.</a>
 delete-account-cancel-button = Скасувати
 delete-account-delete-button-2 = Видалити
 
@@ -801,6 +793,16 @@ tfa-enter-recovery-code-1 =
 ##
 
 
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Дізнайтеся, де розкрита ваша особиста інформація, та відновіть контроль
+# Links out to the Monitor site
+product-promo-monitor-cta = Скористайтеся безплатним скануванням
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Розпочати
+
 ## Profile section
 
 profile-heading = Профіль
@@ -836,6 +838,7 @@ security-action-create = Створити
 security-set-password = Встановіть пароль для синхронізації та використання певних функцій безпеки облікового запису.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Переглянути останні дії в обліковому записі
+signout-sync-header = Сеанс завершився
 
 ## Switch component
 
@@ -997,6 +1000,7 @@ auth-error-155 = TOTP-код не знайдено
 auth-error-159 = Недійсний ключ відновлення облікового запису
 auth-error-183-2 = Недійсний або протермінований код підтвердження
 auth-error-999 = Несподівана помилка
+auth-error-1001 = Спробу входу скасовано
 auth-error-1002 = Сеанс завершено. Увійдіть для продовження.
 auth-error-1003 = Локальне сховище або файли cookie все ще вимкнено
 auth-error-1008 = Ваш новий пароль повинен бути іншим
@@ -1051,6 +1055,9 @@ cookies-disabled-enable-prompt-2 = Щоб отримати доступ до { -
 cookies-disabled-button-try-again = Спробувати знову
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Докладніше
+
+## Index / home page
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1317,34 +1324,23 @@ reset-password-with-recovery-key-verified-continue-to-account = Продовжи
 
 ## Confirm Reset Password With Code
 
-confirm-reset-password-otp-flow-name = Скинути пароль
-# The confirmation code is an 8-digit confirmation code sent by email
-# Used to confirm possession of the email account
-confirm-reset-password-otp-heading = Введіть код підтвердження
+confirm-reset-password-with-code-heading = Перевірте свою електронну пошту
 # Text within span appears in bold
-# $email - email address for which a password reset was requested, and where confirmation code was sent
-# code contains numbers only
-confirm-reset-password-otp-instruction = Введіть 8-значний код підтвердження, який ми надіслали на <span>{ $email }</span>, протягом 10 хвилин.
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Ми надіслали код підтвердження на <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-otp-input-group-label = Введіть 8-значний код
+confirm-reset-password-code-input-group-label = Введіть 8-значний код протягом 10 хвилин
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Продовжити
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Надіслати код повторно
-# LInk to cancel the password reset and sign in with a different account
+# Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Використати інший обліковий запис
 
 ## ResetPassword start page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-password-reset-heading-w-default-service = Скиньте пароль, <span>щоб перейти до налаштувань облікового запису</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-password-reset-heading-w-custom-service = Скиньте пароль, <span>щоб продовжити роботу в { $serviceName }</span>
 password-reset-body = Введіть свою електронну адресу, і ми надішлемо вам код підтвердження для перевірки.
 password-reset-email-input =
     .label = Адреса електронної пошти

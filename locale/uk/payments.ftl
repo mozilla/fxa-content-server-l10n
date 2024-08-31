@@ -476,6 +476,18 @@ sub-item-cancel-msg =
     Ви більше не зможете користуватися { $name } після
     { $period }, останній день вашого платіжного циклу.
 sub-item-cancel-confirm = Скасувати мій доступ до { $name } разом зі збереженими даними { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Застосовано купон { $promotion_name }: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -512,8 +524,7 @@ pay-update-manage-btn = Керувати
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Наступна оплата { $date }
-sub-next-bill-no-tax = Ваш наступний рахунок на суму <strong>{ $priceAmount }</strong> має бути сплачений до <strong>{ $date }</strong>
-sub-next-bill-tax = Ваш наступний рахунок на суму <strong>{ $priceAmount } + податок { $taxAmount }</strong> має бути сплачений до <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = Наступний рахунок на суму { $priceAmount } потрібно сплатити до { $date }
 sub-expires-on = Чинний до { $date }
 
 ## Routes - Subscription - PaymentUpdate
