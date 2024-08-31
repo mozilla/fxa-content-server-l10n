@@ -1059,6 +1059,20 @@ cookies-disabled-button-try-again = Thử lại
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Tìm hiểu thêm
 
+## Index / home page
+
+index-header = Nhập email của bạn
+index-sync-header = Tiếp tục với { -product-mozilla-account } của bạn
+index-sync-subheader = Đồng bộ hóa mật khẩu, thẻ và dấu trang của bạn ở mọi nơi bạn sử dụng { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Tiếp tục đến { $serviceName }
+index-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
+index-subheader-default = Tiếp tục đến cài đặt tài khoản
+index-cta = Đăng ký hoặc đăng nhập
+index-account-info = Một { -product-mozilla-account } cũng mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
+index-email-input =
+    .label = Nhập email của bạn
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
