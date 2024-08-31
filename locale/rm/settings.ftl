@@ -72,8 +72,8 @@ recovery-key-pdf-download-error = Perstgisa, igl ha dà in problem cun telecharg
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Va per dapli da { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Novitads ed actualisaziuns da segirezza e protecziun da datas
+choose-newsletters-option-latest-news =
+    .label = Retschaiva nossas ultimas novitads ed actualitads da products
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Access anticipà per testar novs products
@@ -405,8 +405,10 @@ cs-sign-out-button = Sortir
 ## Data collection section
 
 dc-heading = Rimnada ed utilisaziun da datas
-dc-subheader-2 = Gida a meglierar { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Navigatur { -brand-firefox }
 dc-subheader-content-2 = Permetter a { -product-mozilla-accounts } da trametter datas tecnicas e datas d'interacziun a { -brand-mozilla }.
+dc-subheader-ff-content = Per consultar u actualisar ils parameters da las datas tecnicas e d’interacziun da tes navigatur { -brand-firefox }, avrir ils parameters da { -brand-firefox } e navigar a Protecziun da datas e segirezza.
 dc-opt-out-success-2 = Deactivà cun success. { -product-mozilla-accounts } na trametta naginas datas tecnicas u datas d'interacziun a { -brand-mozilla }.
 dc-opt-in-success-2 = Grazia! La cundivisiun da questas datas ans gidan da meglierar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Perstgisa, igl ha dà in problem cun midar tias preferenzas areguard la rimnada da datas
@@ -652,6 +654,7 @@ delete-account-continue-button = Cuntinuar
 delete-account-password-input =
     .label = Endatar il pled-clav
 pocket-delete-notice = Sche ti abuneschas Pocket Premium, fa la segira che ti <a>annulleschas tes abunament</a> avant che ti stizzas tes conto.
+pocket-delete-notice-marketing = Per betg pli retschaiver e-mails da marketing da la Mozilla Corporation e da la Mozilla Foundation, stos ti <a>pretender che tias datas da marketing vegnian stizzadas</a>.
 delete-account-cancel-button = Interrumper
 delete-account-delete-button-2 = Stizzar
 
@@ -796,6 +799,17 @@ tfa-enter-recovery-code-1 =
 
 ##
 
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Ve a savair nua che tias infurmaziuns privatas èn vegnidas expostas – e reprenda la controlla
+product-promo-monitor-plus-description = La protecziun da tias datas è impurtanta: Ve a savair nua che tias infurmaziuns privatas èn vegnidas expostas e reprenda la controlla
+# Links out to the Monitor site
+product-promo-monitor-cta = Fa in scan gratuit
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Emprims pass
 
 ## Profile section
 
@@ -995,6 +1009,7 @@ auth-error-155 = Betg chattà il token TOTP
 auth-error-159 = Clav da recuperaziun dal conto nunvalida
 auth-error-183-2 = Code da conferma nunvalid u scadì
 auth-error-999 = Errur nunspetgada
+auth-error-1001 = Interrut l’emprova d’annunzia
 auth-error-1002 = La sesida è scrudada. T’annunzia per cuntinuar.
 auth-error-1003 = Arcun local u cookies èn anc adina deactivads
 auth-error-1008 = Tes pled-clav nov sto esser different
@@ -1049,6 +1064,20 @@ cookies-disabled-enable-prompt-2 = Activescha p.pl. cookies e l'arcun local en t
 cookies-disabled-button-try-again = Empruvar anc ina giada
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Ulteriuras infurmaziuns
+
+## Index / home page
+
+index-header = Endatescha tia adressa dad e-mail
+index-sync-header = Ir tar tes { -product-mozilla-account }
+index-sync-subheader = Sincronisescha tes pleds-clav, tabs e segnapaginas dapertut là nua che ti utiliseschas { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Cuntinuar sin { $serviceName }
+index-subheader-with-logo = Cuntinuar sin <span>{ $serviceLogo }</span>
+index-subheader-default = Ir tar ils parameters dal conto
+index-cta = Sa registrar u s’annunziar
+index-account-info = In { -product-mozilla-account } dat era access ad ulteriurs products da { -brand-mozilla } che servan a la protecziun da datas.
+index-email-input =
+    .label = Endatescha tia adressa dad e-mail
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
