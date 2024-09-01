@@ -404,6 +404,7 @@ dc-heading = Veri toplanması ve kullanımı
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } tarayıcısı
 dc-subheader-content-2 = { -product-mozilla-accounts }nın teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermesine izin veriyorum.
+dc-subheader-ff-content = { -brand-firefox } tarayıcınızın teknik veri ve etkileşim verisi ayarlarını incelemek veya güncellemek isterseniz { -brand-firefox } ayarlarını açıp Gizlilik ve Güvenlik bölümüne gidin.
 dc-opt-out-success-2 = Ayrılma işlemi başarılı. { -product-mozilla-accounts } artık teknik verileri ve etkileşim verilerini { -brand-mozilla }'ya göndermeyecek.
 dc-opt-in-success-2 = Teşekkürler! Bu verileri paylaşmanız { -product-mozilla-accounts }nı geliştirmemize yardımcı oluyor.
 dc-opt-in-out-error-2 = Üzgünüz, veri toplama tercihiniz değiştirilirken bir sorun oluştu
