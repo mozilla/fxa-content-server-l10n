@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 20:08+0000\n"
-"PO-Revision-Date: 2024-09-01 14:30+0000\n"
+"PO-Revision-Date: 2024-09-01 14:34+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1922,7 +1922,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "plasseringsballong"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
@@ -1968,7 +1968,7 @@ msgstr "Paring ikkje vellykka"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated. Please sign in with your email."
-msgstr ""
+msgstr "Konfigurasjonsprosessen vart avslutta. Logg på med e-posten din."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
@@ -2008,7 +2008,7 @@ msgstr "Ikkje no"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "For å synkronisere Firefox på telefonen eller nettbrettet, må du først laste ned Firefox for mobil. Slik gjer du det:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
