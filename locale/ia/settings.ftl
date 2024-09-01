@@ -406,6 +406,7 @@ dc-heading = Recolta e uso de datos
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Navigator { -brand-firefox }
 dc-subheader-content-2 = Permitte a{ -product-mozilla-accounts } de inviar datos technic e de interaction a { -brand-mozilla }.
+dc-subheader-ff-content = Pro revider o actualisar le parametros technic e de interaction de datos de tu navigator { -brand-firefox }, aperi parametros de { -brand-firefox } e naviga a Confidentialitate e Securitate.
 dc-opt-out-success-2 = Refusate con successo. { -product-mozilla-accounts } non inviara datos technic e de interaction a { -brand-mozilla }.
 dc-opt-in-success-2 = Gratias! Compartir iste datos adjuta nos meliorar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Desolate, problema a cambiar tu preferentias de recolta de datos
@@ -1061,11 +1062,14 @@ cookies-disabled-learn-more = Pro saper plus
 ## Index / home page
 
 index-header = Insere tu email
+index-sync-header = Passa a tu { -product-mozilla-account }
+index-sync-subheader = Synchronisa tu contrasignos, schedas, e marcapaginas ubique tu usa { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 index-subheader-default = Passa a parametros de conto
 index-cta = Inscriber se o acceder
+index-account-info = Un { -product-mozilla-account } alsi disbloca le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.<
 index-email-input =
     .label = Insere tu email
 
