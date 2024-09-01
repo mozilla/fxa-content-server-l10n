@@ -1058,6 +1058,15 @@ cookies-disabled-button-try-again = Retenta
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Pro saper plus
 
+## Index / home page
+
+index-header = Insere tu email
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Continuar a { $serviceName }
+index-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
+index-subheader-default = Passa a parametros de conto
+index-cta = Inscriber se o acceder
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
