@@ -1038,6 +1038,12 @@ cookies-disabled-learn-more = 详细了解
 ## Index / home page
 
 index-header = 请输入邮箱地址
+index-sync-header = 继续使用 { -product-mozilla-account }
+index-sync-subheader = 在所有使用 { -brand-firefox } 的设备上，同步您的密码、标签页、书签。
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = 继续使用 { $serviceName }
+index-subheader-with-logo = 继续使用<span>{ $serviceLogo }</span>
+index-subheader-default = 进入账户设置
 index-cta = 注册或登录
 index-account-info = { -product-mozilla-account }还可用于访问 { -brand-mozilla } 的更多隐私保护产品。
 index-email-input =
