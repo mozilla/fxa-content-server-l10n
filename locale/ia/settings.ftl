@@ -1066,6 +1066,8 @@ index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 index-subheader-default = Passa a parametros de conto
 index-cta = Inscriber se o acceder
+index-email-input =
+    .label = Insere tu email
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
