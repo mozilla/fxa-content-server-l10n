@@ -1058,12 +1058,12 @@ cookies-disabled-learn-more = Dysgu rhagor
 ## Index / home page
 
 index-header = Rhowch eich e-bost
-index-sync-header = Parhau i'ch { -product-mozilla-account }
-index-sync-subheader = Cysonwch eich cyfrineiriau, tabiau a nodau tudalen ym mhob man rydych yn defnyddio { -brand-firefox }.
+index-sync-header = Ymlaen i'ch { -product-mozilla-account }
+index-sync-subheader = Cydweddwch eich cyfrineiriau, tabiau a nodau tudalen ym mhob man rydych yn defnyddio { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
-index-subheader-with-servicename = Parhau i { $serviceName }
-index-subheader-with-logo = Parhau i <span>{ $serviceLogo }</span>
-index-subheader-default = Parhau i osodiadau cyfrif
+index-subheader-with-servicename = Ymlaen i { $serviceName }
+index-subheader-with-logo = Ymlaen i <span>{ $serviceLogo }</span>
+index-subheader-default = Ymlaen i osodiadau'r cyfrif
 index-cta = Cofrestrwch neu mewngofnodwch
 index-account-info = Mae { -product-mozilla-account } hefyd yn datgloi mynediad i fwy o gynhyrchion sy'n diogelu preifatrwydd o { -brand-mozilla }.
 index-email-input =
