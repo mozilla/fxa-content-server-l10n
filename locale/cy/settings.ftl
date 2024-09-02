@@ -1064,8 +1064,8 @@ index-sync-subheader = Cydweddwch eich cyfrineiriau, tabiau a nodau tudalen ym m
 index-subheader-with-servicename = Ymlaen i { $serviceName }
 index-subheader-with-logo = Ymlaen i <span>{ $serviceLogo }</span>
 index-subheader-default = Ymlaen i osodiadau'r cyfrif
-index-cta = Cofrestrwch neu mewngofnodwch
-index-account-info = Mae { -product-mozilla-account } hefyd yn datgloi mynediad i fwy o gynhyrchion sy'n diogelu preifatrwydd o { -brand-mozilla }.
+index-cta = Cofrestrwch neu fewngofnodwch
+index-account-info = Mae { -product-mozilla-account } hefyd yn datgloi mynediad i fwy o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
 index-email-input =
     .label = Rhowch eich e-bost
 
