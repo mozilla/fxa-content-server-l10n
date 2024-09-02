@@ -401,6 +401,7 @@ cs-sign-out-button = Вийти
 ## Data collection section
 
 dc-heading = Збір та використання даних
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-content-2 = Дозволити { -product-mozilla-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-out-success-2 = Відмова пройшла успішно. { -product-mozilla-accounts(capitalization: "upper") } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-in-success-2 = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-mozilla-accounts }.
@@ -1058,6 +1059,13 @@ cookies-disabled-learn-more = Докладніше
 
 ## Index / home page
 
+index-header = Введіть свою адресу електронної пошти
+index-sync-header = Продовжити в обліковому записі { -product-mozilla-account }
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Продовжити в { $serviceName }
+index-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
+index-email-input =
+    .label = Введіть свою адресу електронної пошти
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
