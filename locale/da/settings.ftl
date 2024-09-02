@@ -401,8 +401,10 @@ cs-sign-out-button = Log ud
 ## Data collection section
 
 dc-heading = Dataindsamling og -brug
-dc-subheader-2 = Hjælp med at forbedre { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox }-browser
 dc-subheader-content-2 = Tillad at { -product-mozilla-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
+dc-subheader-ff-content = For at gennemse eller opdatere indstillinger for din  { -brand-firefox }-browsers tekniske data og data om brug, åbn { -brand-firefox }' indstillinger og gå til Privatliv og sikkerhed.
 dc-opt-out-success-2 = Fravalget lykkedes. { -product-mozilla-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-in-success-2 = Tak! Deling af disse data hjælper os med at forbedre { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Der opstod desværre et problem med at ændre din indstilling for dataindsamling
@@ -1057,6 +1059,9 @@ cookies-disabled-enable-prompt-2 = Du skal aktivere cookies og lokalt lager i di
 cookies-disabled-button-try-again = Prøv igen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Læs mere
+
+## Index / home page
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
