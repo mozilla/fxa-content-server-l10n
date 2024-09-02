@@ -1062,6 +1062,17 @@ cookies-disabled-learn-more = Læs mere
 
 ## Index / home page
 
+index-header = Indtast din mailadresse
+index-sync-header = Fortsæt til { -product-mozilla-account }
+index-sync-subheader = Synkroniser dine adgangskoder, faneblade og bogmærker overalt, hvor du bruger { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Fortsæt til { $serviceName }
+index-subheader-with-logo = Fortsæt til <span>{ $serviceLogo }</span>
+index-subheader-default = Fortsæt til kontoindstillinger
+index-cta = Tilmeld dig eller log ind
+index-account-info = En { -product-mozilla-account } giver også adgang til flere privatlivsbeskyttende produkter fra { -brand-mozilla }.
+index-email-input =
+    .label = Indtast din mailadresse
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
