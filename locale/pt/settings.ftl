@@ -402,7 +402,7 @@ dc-heading = Recolha e utilização de dados
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permitir que as { -product-mozilla-accounts } enviem dados técnicos e de interação para a { -brand-mozilla }.
-dc-subheader-ff-content = Para rever ou atualizar as suas definições técnicas e de interação dos seus dados técnicos e de interação do { -brand-firefox }, abra as definições do { -brand-firefox } e navegue até Privacidade e segurança.
+dc-subheader-ff-content = Para rever ou atualizar as definições dos seus dados técnicos e de interação no navegador { -brand-firefox }, abra as configurações do { -brand-firefox } e aceda a Privacidade e Segurança.
 dc-opt-out-success-2 = Desativação bem sucedida. As { -product-mozilla-accounts } não irão enviar dados técnicos ou de interação para a { -brand-mozilla }.
 dc-opt-in-success-2 = Obrigado! Partilhar estes dados ajuda-nos a melhorar as { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Pedimos desculpa, mas ocorreu um problema ao alterar a sua preferência de recolha de dados
@@ -1051,6 +1051,20 @@ cookies-disabled-enable-prompt-2 = Por favor, ative os cookies e armazenamento l
 cookies-disabled-button-try-again = Tentar novamente
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Saber mais
+
+## Index / home page
+
+index-header = Introduza o seu email
+index-sync-header = Continuar para a sua { -product-mozilla-account }
+index-sync-subheader = Sincronize as suas palavras-passe, separadores, marcadores e muito mais, em qualquer sítio que utilize o { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Continuar para { $serviceName }
+index-subheader-with-logo = Continue para <span>{ $serviceLogo }</span>
+index-subheader-default = Continuar para as definições da conta
+index-cta = Criar conta ou iniciar sessão
+index-account-info = Uma { -product-mozilla-account } também desbloqueia o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
+index-email-input =
+    .label = Introduza o seu email
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA

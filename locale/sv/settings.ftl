@@ -404,6 +404,7 @@ dc-heading = Datainsamling och användning
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } webbläsare
 dc-subheader-content-2 = Tillåt { -product-mozilla-accounts } att skicka teknisk data och interaktionsdata till { -brand-mozilla }.
+dc-subheader-ff-content = För att granska eller uppdatera inställningar för tekniska data och interaktionsdata i webbläsaren { -brand-firefox }, öppna inställningarna för { -brand-firefox } och navigera till Sekretess och säkerhet.
 dc-opt-out-success-2 = Valet lyckades. { -product-mozilla-accounts } skickar inte teknisk data eller interaktionsdata till { -brand-mozilla }.
 dc-opt-in-success-2 = Tack! Att dela denna data hjälper oss att förbättra { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Tyvärr, det uppstod ett problem med att ändra din inställning för datainsamling
@@ -1061,6 +1062,20 @@ cookies-disabled-enable-prompt-2 = Vänligen aktivera kakor och lokal lagring i 
 cookies-disabled-button-try-again = Försök igen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Läs mer
+
+## Index / home page
+
+index-header = Ange din e-postadress
+index-sync-header = Fortsätt till ditt { -product-mozilla-account }
+index-sync-subheader = Synkronisera dina lösenord, flikar och bokmärken överallt där du använder { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Fortsätt till { $serviceName }
+index-subheader-with-logo = Fortsätt till <span>{ $serviceLogo }</span>
+index-subheader-default = Fortsätt till kontoinställningar
+index-cta = Registrera dig eller logga in
+index-account-info = Ett { -product-mozilla-account } låser också upp åtkomsten till mer integritetsskyddande produkter från { -brand-mozilla }.
+index-email-input =
+    .label = Ange din e-postadress
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
