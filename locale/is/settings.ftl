@@ -401,8 +401,10 @@ cs-sign-out-button = Útskráning
 ## Data collection section
 
 dc-heading = Gagnasöfnun og upplýsingar um notkun
-dc-subheader-2 = Hjálpaðu til við að bæta { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox }-vafri
 dc-subheader-content-2 = Leyfa { -product-mozilla-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
+dc-subheader-ff-content = Til að endurskoða eða uppfæra tækni- og samskiptagagnastillingar { -brand-firefox }-vafrans skaltu opna { -brand-firefox } stillingar og fara í Friðhelgi og öryggi.
 dc-opt-out-success-2 = Tókst að afþakka. { -product-mozilla-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Að deila þessum gögnum hjálpar okkur að bæta { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Því miður kom upp vandamál við að breyta kjörstillingum þínum varðandi gagnasöfnun
@@ -1052,6 +1054,20 @@ cookies-disabled-enable-prompt-2 = Virkjaðu vefkökur og staðværar gagnageyms
 cookies-disabled-button-try-again = Reyna aftur
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Frekari upplýsingar
+
+## Index / home page
+
+index-header = Settu inn tölvupóstfangið þitt
+index-sync-header = Haltu áfram á { -product-mozilla-account }
+index-sync-subheader = Samstilltu lykilorðin þín, flipa og bókamerki alls staðar þar sem þú notar { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Halda áfram í { $serviceName }
+index-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
+index-subheader-default = Halda áfram í stillingar reiknings
+index-cta = Nýskráðu þig eða skráðu þig inn
+index-account-info = { -product-mozilla-account }-reikningur opnar einnig aðgang að öðrum persónuverndandi hugbúnaði frá { -brand-mozilla }.
+index-email-input =
+    .label = Settu inn tölvupóstfangið þitt
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
