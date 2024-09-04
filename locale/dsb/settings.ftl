@@ -1055,6 +1055,20 @@ cookies-disabled-button-try-again = Hyšći raz wopytaś
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Dalšne informacije
 
+## Index / home page
+
+index-header = Zapódajśo swóju e-mailowu adresu
+index-sync-header = Dalej k swójomu kontoju { -product-mozilla-account }
+index-sync-subheader = Synchronizěrujśo swóje gronidła, rejtariki a cytańske znamjenja wšuźi, źož { -brand-firefox } wužywaśo.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Dalej k { $serviceName }
+index-subheader-with-logo = Dalej k <span>{ $serviceLogo }</span>
+index-subheader-default = Dalej ku kontowym nastajenjam
+index-cta = Registrěrowaś abo pśizjawiś
+index-account-info = Konto { -product-mozilla-account } teke pśistup k wěcej produktam šćita datow wót { -brand-mozilla } zmóžnja.
+index-email-input =
+    .label = Zapódajśo swóju e-mailowu adresu
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
