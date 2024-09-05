@@ -402,7 +402,9 @@ cs-sign-out-button = Вийти
 
 dc-heading = Збір та використання даних
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Браузер { -brand-firefox }
 dc-subheader-content-2 = Дозволити { -product-mozilla-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-subheader-ff-content = Щоб переглянути або оновити технічні налаштування та дані про взаємодію браузера { -brand-firefox }, відкрийте налаштування { -brand-firefox } і перейдіть на панель Приватність і безпека.
 dc-opt-out-success-2 = Відмова пройшла успішно. { -product-mozilla-accounts(capitalization: "upper") } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-in-success-2 = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Перепрошуємо, виникла проблема зі зміною параметрів збору даних
@@ -799,6 +801,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Дізнайтеся, де розкрита ваша особиста інформація, та відновіть контроль
+product-promo-monitor-plus-description = Приватність важлива: Дізнайтеся, де розкрита ваша особиста інформація, та відновіть над нею контроль
 # Links out to the Monitor site
 product-promo-monitor-cta = Скористайтеся безплатним скануванням
 # Links out to the Monitor pricing site
@@ -840,6 +843,7 @@ security-set-password = Встановіть пароль для синхрон�
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Переглянути останні дії в обліковому записі
 signout-sync-header = Сеанс завершився
+signout-sync-session-expired = Перепрошуємо, щось пішло не так. Вийдіть через меню браузера та повторіть спробу.
 
 ## Switch component
 
@@ -1065,7 +1069,9 @@ index-sync-subheader = Синхронізуйте свої паролі, вкл�
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Продовжити в { $serviceName }
 index-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
+index-subheader-default = Перейти до налаштувань облікового запису
 index-cta = Зареєструватися або увійти
+index-account-info = { -product-mozilla-account } також відкриває доступ до інших продуктів { -brand-mozilla }, які захищають вашу приватність.
 index-email-input =
     .label = Введіть свою адресу електронної пошти
 

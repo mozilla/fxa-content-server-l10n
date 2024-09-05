@@ -525,6 +525,7 @@ pay-update-manage-btn = Керувати
 
 sub-next-bill = Наступна оплата { $date }
 sub-next-bill-no-tax-1 = Наступний рахунок на суму { $priceAmount } потрібно сплатити до { $date }
+sub-next-bill-tax-1 = Наступний рахунок на суму { $priceAmount } + податок { $taxAmount } заплановано на { $date }
 sub-expires-on = Чинний до { $date }
 
 ## Routes - Subscription - PaymentUpdate
