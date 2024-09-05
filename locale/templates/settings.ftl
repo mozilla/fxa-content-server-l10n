@@ -1480,6 +1480,23 @@ signin-bounced-help = If this is a valid email address, <linkExternal>let us kno
 signin-bounced-create-new-account = No longer own that email? Create a new account
 back = Back
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verify this login <span>to continue to account settings</span>
+signin-push-code-heading-w-custom-service = Verify this login <span>to continue to { $serviceName }</span>
+signin-push-code-instruction = Please check your other devices and approve this login from your Firefox browser.
+signin-push-code-did-not-recieve = Didn’t receive the notification?
+signin-push-code-send-email-link = Email code
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Confirm your login
+signin-push-code-confirm-description = We detected a login attempt from the following device. If this was you, please approve the login
+signin-push-code-confirm-verifying = Verifying
+signin-push-code-confirm-login = Confirm login
+signin-push-code-confirm-wasnt-me = This wasn’t me, change password.
+signin-push-code-confirm-login-approved = Your login has been approved. Please close this window.
+signin-push-code-confirm-link-error = Link is damaged. Please try again.
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
