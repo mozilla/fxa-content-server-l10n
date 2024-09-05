@@ -1061,9 +1061,11 @@ cookies-disabled-learn-more = Докладніше
 
 index-header = Введіть свою адресу електронної пошти
 index-sync-header = Продовжити в обліковому записі { -product-mozilla-account }
+index-sync-subheader = Синхронізуйте свої паролі, вкладки та закладки всюди, де ви використовуєте { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Продовжити в { $serviceName }
 index-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
+index-cta = Зареєструватися або увійти
 index-email-input =
     .label = Введіть свою адресу електронної пошти
 
@@ -1349,6 +1351,7 @@ confirm-reset-password-otp-different-account-link = Використати ін�
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Відновити свій пароль
 password-reset-body = Введіть свою електронну адресу, і ми надішлемо вам код підтвердження для перевірки.
 password-reset-email-input =
     .label = Адреса електронної пошти
