@@ -399,8 +399,10 @@ cs-sign-out-button = Sign out
 ## Data collection section
 
 dc-heading = Data Collection and Use
-dc-subheader-2 = Help improve { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } browser
 dc-subheader-content-2 = Allow { -product-mozilla-accounts } to send technical and interaction data to { -brand-mozilla }.
+dc-subheader-ff-content = To review or update your { -brand-firefox } browser technical and interaction data settings, open { -brand-firefox } settings and navigate to Privacy and Security.
 dc-opt-out-success-2 = Opt out successful. { -product-mozilla-accounts } won’t send technical or interaction data to { -brand-mozilla }.
 dc-opt-in-success-2 = Thanks! Sharing this data helps us improve { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Sorry, there was a problem changing your data collection preference
@@ -1048,6 +1050,20 @@ cookies-disabled-enable-prompt-2 = Please enable cookies and local storage in yo
 cookies-disabled-button-try-again = Try again
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Learn more
+
+## Index / home page
+
+index-header = Enter your email
+index-sync-header = Continue to your { -product-mozilla-account }
+index-sync-subheader = Sync your passwords, tabs, and bookmarks everywhere you use { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Continue to { $serviceName }
+index-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
+index-subheader-default = Continue to account settings
+index-cta = Sign up or sign in
+index-account-info = A { -product-mozilla-account } also unlocks access to more privacy-protecting products from { -brand-mozilla }.
+index-email-input =
+    .label = Enter your email
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
