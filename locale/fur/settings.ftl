@@ -399,8 +399,10 @@ cs-sign-out-button = Disconet
 ## Data collection section
 
 dc-heading = Racuelte e utilizazion dâts
-dc-subheader-2 = Judinus a miorâ i { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Navigadôr { -brand-firefox }
 dc-subheader-content-2 = Permet al servizi di { -product-mozilla-accounts } di inviâ a { -brand-mozilla } dâts tecnics e di interazion.
+dc-subheader-ff-content = Par controlâ o inzornâ lis impostazions dai dâts tecnics e di interazion dal navigadôr { -brand-firefox }, vierç lis impostazions di { -brand-firefox } e va su Riservatece e sigurece.
 dc-opt-out-success-2 = Disativazion lade a bon fin. { -product-mozilla-accounts } nol mandarà a { -brand-mozilla } dâts tecnics o di interazion.
 dc-opt-in-success-2 = Graciis! La condivision di chescj dâts nus jude a miorâ i { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Nus displâs, al è vignût fûr un probleme tal cambiâ lis preferencis relativis ae racuelte dai dâts
@@ -1054,6 +1056,20 @@ cookies-disabled-enable-prompt-2 = Ative i cookies e la archiviazion locâl tal 
 cookies-disabled-button-try-again = Torne prove
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Plui informazions
+
+## Index / home page
+
+index-header = Inserìs la tô e-mail
+index-sync-header = Continue al to { -product-mozilla-account }
+index-sync-subheader = Sincronize passwords, schedis e segnelibris dapardut là che tu dopris { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Continue su { $serviceName }
+index-subheader-with-logo = Continue su <span>{ $serviceLogo }</span>
+index-subheader-default = Passe aes impostazions dal account
+index-cta = Regjistriti o jentre
+index-account-info = Un { -product-mozilla-account } al permet ancje di acedi a altris prodots { -brand-mozilla } pe protezion de riservatece.
+index-email-input =
+    .label = Inserìs la tô e-mail
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
