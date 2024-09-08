@@ -400,7 +400,7 @@ cs-sign-out-button = Kirjaudu ulos
 ## Data collection section
 
 dc-heading = Tietojen keruu ja käyttö
-dc-subheader-2 = Auta parantamaan { -product-mozilla-accounts } -palvelua
+dc-subheader-ff-browser = { -brand-firefox }-selain
 dc-subheader-content-2 = Salli palvelun { -product-mozilla-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-out-success-2 = Poistuminen onnistui. { -product-mozilla-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-in-success-2 = Kiitos! Tämän tiedon jakaminen auttaa parantamaan { -product-mozilla-accounts } -palvelua.
@@ -794,6 +794,9 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Selvitä missä yksityiset tietosi ovat paljastuneet – ja ota ne takaisin
 product-promo-monitor-plus-description = Yksityisyys on tärkeää: Selvitä missä yksityiset tietosi ovat paljastuneet – ja ota ne takaisin
 # Links out to the Monitor site
 product-promo-monitor-cta = Hanki ilmainen tarkistus
@@ -1053,6 +1056,19 @@ cookies-disabled-enable-prompt-2 = Ota evästeet ja paikallinen tallennustila k�
 cookies-disabled-button-try-again = Yritä uudelleen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Lue lisää
+
+## Index / home page
+
+index-header = Kirjoita sähköpostiosoitteesi
+index-sync-header = Jatka { -product-mozilla-account }llesi
+index-sync-subheader = Synkronoi salasanat, välilehdet ja kirjanmerkit kaikkialla, missä käytät { -brand-firefox }ia.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Jatka palveluun { $serviceName }
+index-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
+index-subheader-default = Jatka tilin asetuksiin
+index-cta = Rekisteröidy tai kirjaudu sisään
+index-email-input =
+    .label = Kirjoita sähköpostiosoitteesi
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
