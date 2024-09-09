@@ -402,6 +402,7 @@ dc-heading = Grumbullim dhe Përdorim të Dhënash
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Shfletuesi { -brand-firefox }
 dc-subheader-content-2 = Lejojeni { -product-mozilla-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
+dc-subheader-ff-content = Që të shqyrtoni, ose përditësoni rregullimet tuaja mbi të dhëna teknike dhe ndërveprimesh, të shfletuesit { -brand-firefox }, hapni rregullimet e { -brand-firefox }-it dhe kaloni te Privatësi dhe Siguri.
 dc-opt-out-success-2 = Lënie jashtë e suksesshme. { -product-mozilla-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
 dc-opt-in-success-2 = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Na ndjeni, pati një problem në ndryshimin e parapëlqimit tuaj për grumbullim të dhënash
@@ -1058,11 +1059,17 @@ cookies-disabled-learn-more = Mësoni më tepër
 
 ## Index / home page
 
+index-header = Jepni email-in tuaj
+index-sync-header = Vazhdoni te { -product-mozilla-account } juaj
+index-sync-subheader = Njëkohësoni fjalëkalimet, skedat dhe faqerojtësit tuaj, kudo që përdorni { -brand-firefox }-in.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Vazhdoni te { $serviceName }
 index-subheader-with-logo = Vazhdoni te <span>{ $serviceLogo }</span>
 index-subheader-default = Vazhdoni te rregullime llogarie
 index-cta = Regjistrohuni, ose bëni hyrjen
+index-account-info = Një { -product-mozilla-account } shkyç gjithashtu përdorim të më tepër produktesh nga { -brand-mozilla } që mbrojnë privatësinë.
+index-email-input =
+    .label = Jepni email-in tuaj
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
