@@ -1056,6 +1056,14 @@ cookies-disabled-button-try-again = Riprovoni
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Mësoni më tepër
 
+## Index / home page
+
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Vazhdoni te { $serviceName }
+index-subheader-with-logo = Vazhdoni te <span>{ $serviceLogo }</span>
+index-subheader-default = Vazhdoni te rregullime llogarie
+index-cta = Regjistrohuni, ose bëni hyrjen
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
