@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 20:08+0000\n"
+"POT-Creation-Date: 2024-09-09 20:08+0000\n"
 "PO-Revision-Date: 2024-06-19 13:15+0000\n"
 "Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "Sandi geus hasil disetél deui. Asup pikeun nuluykeun."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:10 .es5/templates/pair/failure.mustache:3
+#: .es5/templates/sign_in_password.mustache:10 .es5/templates/pair/failure.mustache:5
 msgid "Sign in"
 msgstr "Asup"
 
@@ -1073,7 +1073,7 @@ msgstr "Anjeun geus asup kana Firefox"
 msgid "Email confirmed"
 msgstr "Surélék dikonfirmasi"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "Alat jeung haté dina layarna"
 
@@ -1858,7 +1858,7 @@ msgstr "Akun Firefox bakal diganti ngaranna jadi akun Mozilla dina tanggal 1 Nov
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Anjeun masih bakal asup maké ngaran pamaké jeung sandi anu sarua, sarta euweuh parobahan séjén kana produk anu dipaké ku anjeun."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
 msgid "Learn more"
 msgstr "Lenyepan"
 
@@ -2001,11 +2001,15 @@ msgid "Approval now required <small class=\"card-subheader\">from your other dev
 msgstr "Panyatujuan ayeuna mah diperlukeun <small class=\"card-subheader\"> tina parangkat anjeun nu séjén</small>"
 
 #: .es5/templates/pair/failure.mustache:1
-msgid "Pairing not successful"
-msgstr "Ngadumaniskeun teu ngahasil"
+msgid "Device pairing failed"
+msgstr ""
 
 #: .es5/templates/pair/failure.mustache:2
-msgid "The setup process was terminated. Please sign in with your email."
+msgid "The setup couldn’t be completed."
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:3
+msgid "Please sign in with your email."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
@@ -2084,30 +2088,46 @@ msgstr "Konfirmasi papasangan <span class=\"card-subheader\">pikeun <span class=
 msgid "Confirm pairing"
 msgstr "Konfirmasi aadumanisan"
 
-#: .es5/templates/pair/unsupported.mustache:3
-msgid "Pair using an app"
-msgstr "Adumaniskeun maké aplikasi"
-
-#: .es5/templates/pair/unsupported.mustache:4
+#: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:5
+#: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:6
+#: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:7
+#: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:8
+#: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
 msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:9
+msgid "Pair using an app"
+msgstr "Adumaniskeun maké aplikasi"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplikasi Firefox."
+
+#: .es5/templates/pair/unsupported.mustache:14
+msgid "Download Firefox now"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:16
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:19
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:20
+msgid "Please close this tab and try again."
+msgstr ""
