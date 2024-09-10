@@ -1413,7 +1413,7 @@ signin-push-code-confirm-instruction = Confirmez votre identifiant
 signin-push-code-confirm-description = Nous avons détecté une tentative de connexion depuis l’appareil suivant. S’il s’agit de vous, veuillez approuver la connexion
 signin-push-code-confirm-verifying = Vérification
 signin-push-code-confirm-login = Confirmer la connexion
-signin-push-code-confirm-wasnt-me = Il ne s’agissait pas de moi, veuillez changer le mot de passe.
+signin-push-code-confirm-wasnt-me = Il ne s’agissait pas de moi, changer le mot de passe.
 signin-push-code-confirm-login-approved = Votre connexion a été approuvée. Veuillez fermer cette fenêtre.
 signin-push-code-confirm-link-error = Le lien est altéré. Veuillez réessayer.
 
