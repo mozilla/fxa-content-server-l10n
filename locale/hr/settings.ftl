@@ -227,6 +227,8 @@ reset-pwd-link-expired-message = Poveznica na koju si pritisnuo/la za resetiranj
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Zapamtiti tvoju lozinku?
 # link navigates to the sign in page
 remember-password-signin-link = Prijavi se
 
@@ -237,6 +239,8 @@ primary-email-confirmation-link-reused = Primarna e-mail adresa je već potvrđe
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je već potvrđena
 confirmation-link-reused-message = Ta poveznica za potvrdu već je korištena i može se koristiti samo jednom.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Neispravan zahtjev
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -267,6 +271,8 @@ ready-use-service-default = Sada možeš koristiti postavke računa
 ready-account-ready = Tvoj je račun spreman!
 ready-continue = Nastavi
 sign-in-complete-header = Prijava je potvrđena
+sign-up-complete-header = Račun potvrđen
+primary-email-verified-header = Primarna e-mail adresa potvrđena
 
 ## Alert Bar
 
@@ -284,6 +290,12 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = { -brand-mozilla } proizvodi
+bento-menu-tagline = Daljnji { -brand-mozilla } proizvodi koji štite tvoju privatnost
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Preglednik { -brand-firefox } za računala
 bento-menu-firefox-mobile = Preglednik { -brand-firefox } za mobilne uređaje
 bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
@@ -291,6 +303,7 @@ bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Nabavi { -brand-firefox } na mobitelu ili tabletu
+connect-another-find-fx-mobile-2 = Pronađi { -brand-firefox } u { -google-play } i { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -345,7 +358,8 @@ cs-sign-out-button = Odjava
 ## Data collection section
 
 dc-heading = Prikupljanje i upotreba podataka
-dc-subheader-2 = Pomogni poboljšati { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } preglednik
 dc-subheader-content-2 = Dozvoli da { -product-mozilla-accounts } šalju tehničke podatke i podatke o interakciji na { -brand-mozilla }.
 dc-opt-out-success-2 = Isključivanje uspjelo. { -product-mozilla-accounts } neće slati tehničke podatke ili podatke o interakciji na { -brand-mozilla }.
 dc-opt-in-success-2 = Hvala! Dijeljenje ovih podataka nam pomaže poboljšati { -product-mozilla-accounts }.
@@ -899,6 +913,12 @@ cookies-disabled-button-try-again = Pokušaj ponovo
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Saznaj više
 
+## Index / home page
+
+index-cta = Registriraj se ili se prijavi
+index-email-input =
+    .label = Upiši svoju e-mail adresu
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1124,6 +1144,13 @@ report-signin-support-link = Zašto se ovo događa?
 # $email (string) - The user's email.
 signin-bounced-message = Potvrdni e-mail koji smo poslali na { $email } je vraćen i zaključali smo tvoj račun, kako bismo zaštitili tvoje { -brand-firefox } podatke.
 back = Natrag
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
