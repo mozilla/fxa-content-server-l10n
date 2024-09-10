@@ -1405,6 +1405,25 @@ signin-bounced-help = Jolic to jo płaśiwa adresa, <linkExternal>informěrujśo
 signin-bounced-create-new-account = Toś ta e-mailowa wěcej wam njesłuša? Załožćo konto
 back = Slědk
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Pśeglědujśo toś to pśizjawjenje, <span>aby z kontowymi nastajenjami pókšacował</span>
+signin-push-code-heading-w-custom-service = Pśeglědujśo toś to pśizjawjenje, <span>aby z { $serviceName } pókšacował</span>
+signin-push-code-instruction = Pšosym kontrolěrujśo swóje druge rědy a pśizwólśo toś to pśizjawjenje ze swójogo wobglědowaka { -brand-firefox }.
+signin-push-code-did-not-recieve = Njejsćo toś tu powěźeńku dostał?
+signin-push-code-send-email-link = Kod z e-mailu pósłaś
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Wobkšuśćo swójo pśizjawjenje
+signin-push-code-confirm-description = Smy namakali pśizjawjeński wopyt ze slědujucego rěda. Jolic sćo to wy był, pśizwólśo pšosym pśizjawjenje
+signin-push-code-confirm-verifying = Pśespytujo se
+signin-push-code-confirm-login = Pśizjawjenje wobkšuśiś
+signin-push-code-confirm-wasnt-me = Ja njejsom był to, změńśo gronidło.
+signin-push-code-confirm-login-approved = Wašo pśizjawjenje jo se pśizwóliło. Pšosym zacyńśo toś to wokno.
+signin-push-code-confirm-link-error = Wótkaz jo wobškóźony. Wopytajśo pšosym hyšći raz.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
