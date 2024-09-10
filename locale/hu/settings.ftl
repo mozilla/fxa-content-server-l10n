@@ -1413,6 +1413,25 @@ signin-bounced-help = Ha ez egy érvényes e-mail-cím, <linkExternal>tudassa ve
 signin-bounced-create-new-account = Már nem az Öné az e-mail-cím? Hozzon létre új fiókot
 back = Vissza
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Igazolja ezt a bejelentkezést <span>a fiókbeállításokhoz való továbblépéshez</span>
+signin-push-code-heading-w-custom-service = Erősítse meg ezt a bejelentkezést <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+signin-push-code-instruction = Ellenőrizze a többi eszközét, és hagyja jóvá ezt a bejelentkezést a { -brand-firefox } böngészőjéből.
+signin-push-code-did-not-recieve = Nem kapta meg az értesítést?
+signin-push-code-send-email-link = E-mail kód
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Erősítse meg a bejelentkezését
+signin-push-code-confirm-description = Bejelentkezési kísérletet észleltünk a következő eszközről. Ha ez Ön volt, kérjük hagyja jóvá a bejelentkezését
+signin-push-code-confirm-verifying = Ellenőrzés
+signin-push-code-confirm-login = Bejelentkezés megerősítése
+signin-push-code-confirm-wasnt-me = Nem én voltam, változtasson jelszót.
+signin-push-code-confirm-login-approved = A bejelentkezése jóváhagyva. Zárja be ezt az ablakot.
+signin-push-code-confirm-link-error = A hivatkozás sérült. Próbálja meg újra.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
