@@ -1416,11 +1416,11 @@ signin-push-code-send-email-link = E-Mail-Code
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Bestätigen Sie Ihre Zugangsdaten
-signin-push-code-confirm-description = Wir haben einen Anmeldeversuch von folgendem Gerät erkannt. Wenn Sie das waren, genehmigen Sie bitte die Zugangsdaten
+signin-push-code-confirm-description = Wir haben einen Anmeldeversuch von folgendem Gerät erkannt. Wenn Sie das waren, genehmigen Sie bitte die Anmeldung
 signin-push-code-confirm-verifying = Verifizieren
 signin-push-code-confirm-login = Anmeldung bestätigen
 signin-push-code-confirm-wasnt-me = Das war nicht ich, Passwort ändern.
-signin-push-code-confirm-login-approved = Ihre Zugangsdaten wurden freigeschaltet. Bitte schließen Sie dieses Fenster.
+signin-push-code-confirm-login-approved = Ihr Anmeldung wurde genehmigt. Bitte schließen Sie dieses Fenster.
 signin-push-code-confirm-link-error = Link ist beschädigt. Bitte versuchen Sie es erneut.
 
 ## SigninRecoveryCode page
