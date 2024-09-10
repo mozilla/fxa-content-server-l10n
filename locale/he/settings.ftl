@@ -1327,6 +1327,22 @@ signin-bounced-help = אם זוהי כתובת דוא״ל תקנית, <linkExter
 signin-bounced-create-new-account = כתובת דוא״ל זו כבר לא בבעלותך? יצירת חשבון חדש
 back = חזרה
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = יש לאמת התחברות זו <span>כדי להמשיך להגדרות החשבון</span>
+signin-push-code-heading-w-custom-service = יש לאמת התחברות זו <span>כדי להמשיך אל { $serviceName }</span>
+signin-push-code-instruction = נא לבדוק את שאר המכשירים שלך ולאשר את ההתחברות הזו מדפדפן ה־ { -brand-firefox } שלך.
+signin-push-code-did-not-recieve = לא קיבלת את ההודעה?
+signin-push-code-send-email-link = קוד מהדוא״ל
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = אימות ההתחברות שלך
+signin-push-code-confirm-description = זיהינו ניסיון התחברות מהמכשיר הבא. אם פעולה זו בוצעה על ידך, נא לאשר את ההתחברות
+signin-push-code-confirm-verifying = מתבצע אימות
+signin-push-code-confirm-login = אימות ההתחברות
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-10 07:09+0000\n"
+"PO-Revision-Date: 2024-09-10 07:12+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -2103,12 +2103,12 @@ msgstr "הורדת Firefox כעת"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "חיבור המכשיר הנייד שלך עם חשבון ה־Mozilla שלך"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "אופס! משהו השתבש."
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "נא לסגור לשונית זו ולנסות שוב."
