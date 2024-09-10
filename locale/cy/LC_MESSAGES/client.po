@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-10 06:49+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-09-10 08:11+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -1997,7 +1997,7 @@ msgstr "Methodd paru dyfais"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed."
-msgstr "Ni fu modd cwblhau'r gosodiad."
+msgstr "Nid oedd modd cwblhau'r gosodiad."
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "Please sign in with your email."
@@ -2109,7 +2109,7 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr "Dadlwythwch Firefox nawr"
+msgstr "Llwythwch Firefox i Lawr nawr"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
