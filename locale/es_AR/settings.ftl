@@ -1404,6 +1404,25 @@ signin-bounced-help = Si esta es una dirección de correo electronico válida, <
 signin-bounced-create-new-account = ¿No tenés más ese correo electrónico? Creá una nueva cuenta
 back = Atrás
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verificá este inicio de sesión <span> para continuar con la configuración de la cuenta </span>
+signin-push-code-heading-w-custom-service = Verifique este inicio de sesión <span> para continuar a { $serviceName }</span>
+signin-push-code-instruction = Verifique sus otros dispositivos y apruebe este inicio de sesión desde su navegador { -brand-firefox }.
+signin-push-code-did-not-recieve = ¿No recibiste la notificación?
+signin-push-code-send-email-link = Código de correo
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Confirma tu inicio de sesión
+signin-push-code-confirm-description = Detectamos un intento de inicio de sesión desde el siguiente dispositivo. Si fuiste vos, aprobá el inicio de sesión
+signin-push-code-confirm-verifying = Verificando
+signin-push-code-confirm-login = Confirmar inicio de sesión
+signin-push-code-confirm-wasnt-me = Esta no era yo, cambia la contraseña.
+signin-push-code-confirm-login-approved = Se ha aprobado tu inicio de sesión. Por favor cierra esta ventana
+signin-push-code-confirm-link-error = El enlace está dañado. Inténtelo de nuevo.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
