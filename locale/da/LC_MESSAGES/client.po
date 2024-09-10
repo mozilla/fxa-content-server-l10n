@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-07-30 13:22+0000\n"
+"PO-Revision-Date: 2024-09-10 12:38+0000\n"
 "Last-Translator: Joergen <joradan0@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -136,7 +136,7 @@ msgstr "Meddelelser vedrørende kontoen vil fremover også blive sendt til %(sec
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
-msgstr "Fortsæt til %(serviceName)s"
+msgstr "Fortsæt til %(serviceName)s "
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -836,9 +836,7 @@ msgid "Invalid Token"
 msgstr "Ugyldigt token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ved at fortsætte accepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkårene</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivserklæringen</a> for %(serviceName)s "
 "(%(serviceUri)s)."
@@ -907,11 +905,10 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din Mozilla-konto igen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt en genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-"
-"data som fx historik og bogmærker)."
+"<span class=\"note\">BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt en genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data"
+" som fx historik og bogmærker)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1125,43 +1122,34 @@ msgstr "Adgangskode"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ved at fortsætte accepterer du:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Tjenestevilkårene</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">privatlivserklæringen</a> for Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-"
-"konti\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Tjenestevilkårene</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">privatlivserklæringen</a> for Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-konti\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Ved at fortsætte accepterer du:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"moz-"
-"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">privatlivserklæringen</a> for Mozillas abonnementstjenester<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-"
-"konti\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">privatlivserklæringen</a> for Mozillas abonnementstjenester<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-konti\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Ved at fortsætte accepterer du <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
-"privacy\">privatlivserklæringen</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Ved at fortsætte accepterer du <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1199,34 +1187,28 @@ msgstr "En Mozilla-konto giver også adgang til flere privatlivsbeskyttende prod
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Ved at fortsætte accepterer du:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Tjenestevilkårene</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privatlivserklæringen</a> for Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-"
-"konti\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Tjenestevilkårene</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privatlivserklæringen</a> for Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-konti\n"
 "        "
 
 #: .es5/templates/index.mustache:14
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ved at fortsætte accepterer du:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"moz-"
-"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">privatlivserklæringen</a> for Mozillas abonnementstjenester<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-"
-"konti\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">privatlivserklæringen</a> for Mozillas abonnementstjenester<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæringen</a> for Mozilla-konti\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1642,7 +1624,7 @@ msgstr "Bekræft login"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr "Hvis du har mistanke om, at nogen forsøger at få adgang til din konto, så <a id=\"change-password\" href=\"/settings/change_password\">skift din adgangskode</a>."
+msgstr "Hvis du har mistanke om, at nogen forsøger at få adgang til din konto, så <a id=\"change-password\" href=\"/settings/change_password\">skift din adgangskode.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
@@ -1959,7 +1941,7 @@ msgstr "Har du lige logget ind på Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr "%(email)s"
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
@@ -1971,7 +1953,7 @@ msgstr "Ja, godkend enhed"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr "Hvis det ikke var dig, så <a id=\"change-password\" class=\"link-blue\">skift din adgangskode</a>"
+msgstr "Hvis det ikke var dig, så <a id=\"change-password\" class=\"link-blue\">skift din adgangskode</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
