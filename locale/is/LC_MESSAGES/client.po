@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-10 13:01+0000\n"
+"PO-Revision-Date: 2024-09-10 13:02+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -2110,16 +2110,16 @@ msgstr "Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr F
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Sækja Firefox núna"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Tengi farsímann þinn við Mozilla reikninginn þinn"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Úbbs! Eitthvað fór úrskeiðis."
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Lokaðu þessum flipa og reyndu aftur."

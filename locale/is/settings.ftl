@@ -1405,6 +1405,25 @@ signin-bounced-help = Ef þetta er gilt tölvupóstfang, skaltu <linkExternal>l�
 signin-bounced-create-new-account = Ert þú ekki lengur með þetta tölvupóstfang? Búðu til nýjan aðgang
 back = Til baka
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Staðfestu þessa innskráningu <span>til að halda áfram í reikningsstillingar</span>
+signin-push-code-heading-w-custom-service = Staðfestu þessa innskráningu <span>til að halda áfram í { $serviceName }</span>
+signin-push-code-instruction = Athugaðu hin tækin þín og samþykktu þessa innskráningu í { -brand-firefox } vafranum þínum.
+signin-push-code-did-not-recieve = Fékkstu ekki tilkynninguna?
+signin-push-code-send-email-link = Tölvupóstkóði
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Staðfestu innskráninguna þína
+signin-push-code-confirm-description = Við greindum tilraun til innskráningar úr eftirfarandi tæki. Ef þetta varst þú, skaltu samþykkja innskráninguna
+signin-push-code-confirm-verifying = Sannreyni
+signin-push-code-confirm-login = Staðfestu innskráningu
+signin-push-code-confirm-wasnt-me = Þetta var ekki ég, skiptum um lykilorð.
+signin-push-code-confirm-login-approved = Innskráning þín hefur verið samþykkt. Lokaðu þessum glugga.
+signin-push-code-confirm-link-error = Tengillinn er skemmdur. Reyndu aftur.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
