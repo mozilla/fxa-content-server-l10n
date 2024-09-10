@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-10 12:17+0000\n"
+"PO-Revision-Date: 2024-09-10 12:22+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1989,7 +1989,7 @@ msgstr "Schwalenje je nětko <small class=\"card-subheader\">wot wašeho druheho
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Koplowanje gratow njeje so poradźiło"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed."
@@ -2109,7 +2109,7 @@ msgstr "Firefox nětko sćahnyć"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Waš mobilny grat z wašim kontom Mozilla zwjazać"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."

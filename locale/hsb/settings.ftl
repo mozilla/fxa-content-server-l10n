@@ -1412,12 +1412,14 @@ back = Wróćo
 
 signin-push-code-heading-w-default-service = Přepruwujće tute přizjewjenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 signin-push-code-heading-w-custom-service = Přepruwujće tute přizjewjenje, <span>zo byšće z { $serviceName } pokročował</span>
+signin-push-code-instruction = Prošu kontrolujće swoje druhe graty a schwalće tute přizjewjenje ze swojeho wobhladowaka { -brand-firefox }.
 signin-push-code-did-not-recieve = Njejsće tutu zdźělenku dóstał?
 signin-push-code-send-email-link = Kod z e-mejlu pósłać
 
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Wobkrućće swoje přizjewjenje
+signin-push-code-confirm-description = Smy přizjewjenski pospyt ze slědowaceho grata wotkryli. Jeli sće to wy był, schwalće prošu přizjewjenje
 signin-push-code-confirm-verifying = Přepruwuje so
 signin-push-code-confirm-login = Přizjewjenje wobkrućić
 signin-push-code-confirm-wasnt-me = Ja njejsym był to, změńće hesło.
