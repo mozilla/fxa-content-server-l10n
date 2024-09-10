@@ -1407,6 +1407,20 @@ signin-bounced-help = Jeli to je płaćiwa adresa, <linkExternal>informujće nas
 signin-bounced-create-new-account = Tuta e-mejlowa hižo wam njesłuša? Załožće konto
 back = Wróćo
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Přepruwujće tute přizjewjenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+signin-push-code-heading-w-custom-service = Přepruwujće tute přizjewjenje, <span>zo byšće z { $serviceName } pokročował</span>
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Wobkrućće swoje přizjewjenje
+signin-push-code-confirm-verifying = Přepruwuje so
+signin-push-code-confirm-login = Přizjewjenje wobkrućić
+signin-push-code-confirm-wasnt-me = Ja njejsym był to, změńće hesło.
+signin-push-code-confirm-link-error = Wotkaz je wobškodźeny. Spytajće prošu hišće raz.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
