@@ -1342,6 +1342,9 @@ signin-push-code-confirm-instruction = אימות ההתחברות שלך
 signin-push-code-confirm-description = זיהינו ניסיון התחברות מהמכשיר הבא. אם פעולה זו בוצעה על ידך, נא לאשר את ההתחברות
 signin-push-code-confirm-verifying = מתבצע אימות
 signin-push-code-confirm-login = אימות ההתחברות
+signin-push-code-confirm-wasnt-me = זה לא הייתי אני, ברצוני לשנות ססמה.
+signin-push-code-confirm-login-approved = ההתחברות שלך אומתה. נא לסגור את החלון הזה.
+signin-push-code-confirm-link-error = הקישור פגום. נא לנסות שוב.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
