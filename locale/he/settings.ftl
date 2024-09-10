@@ -1334,7 +1334,7 @@ signin-push-code-heading-w-default-service = יש לאמת התחברות זו <
 signin-push-code-heading-w-custom-service = יש לאמת התחברות זו <span>כדי להמשיך אל { $serviceName }</span>
 signin-push-code-instruction = נא לבדוק את שאר המכשירים שלך ולאשר את ההתחברות הזו מדפדפן ה־ { -brand-firefox } שלך.
 signin-push-code-did-not-recieve = לא קיבלת את ההודעה?
-signin-push-code-send-email-link = קוד מהדוא״ל
+signin-push-code-send-email-link = שליחת הקוד בדוא״ל
 
 ## SigninPushCodeConfirmPage
 
