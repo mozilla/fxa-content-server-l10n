@@ -1403,15 +1403,15 @@ back = Retour
 
 signin-push-code-heading-w-default-service = Vérifiez cet identifiant <span>pour accéder aux paramètres du compte</span>
 signin-push-code-heading-w-custom-service = Vérifiez cet identifiant <span>pour continuer vers { $serviceName }</span>
-signin-push-code-instruction = Veuillez vérifier vos autres appareils et approuver cette connexion depuis votre navigateur { -brand-firefox }.
+signin-push-code-instruction = Consultez vos autres appareils pour approuver cette connexion depuis votre navigateur { -brand-firefox }.
 signin-push-code-did-not-recieve = Vous n’avez pas reçu de notification ?
-signin-push-code-send-email-link = Code e-mail
+signin-push-code-send-email-link = Envoyer un code par e-mail
 
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Confirmez votre identifiant
 signin-push-code-confirm-description = Nous avons détecté une tentative de connexion depuis l’appareil suivant. S’il s’agit de vous, veuillez approuver la connexion
-signin-push-code-confirm-verifying = Vérification en cours
+signin-push-code-confirm-verifying = Vérification
 signin-push-code-confirm-login = Confirmer la connexion
 signin-push-code-confirm-wasnt-me = Il ne s’agissait pas de moi, veuillez changer le mot de passe.
 signin-push-code-confirm-login-approved = Votre connexion a été approuvée. Veuillez fermer cette fenêtre.
