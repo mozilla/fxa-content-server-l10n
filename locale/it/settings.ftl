@@ -1395,7 +1395,7 @@ back = Indietro
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = Verifica queste credenziali <span>per continuare con le impostazioni dell’account</span>
+signin-push-code-heading-w-default-service = Verifica queste credenziali <span>per passare alle impostazioni dell’account</span>
 signin-push-code-heading-w-custom-service = Verifica queste credenziali <span>per continuare su { $serviceName }</span>
 signin-push-code-instruction = Controlla gli altri dispositivi e approva queste credenziali dal browser { -brand-firefox }.
 signin-push-code-did-not-recieve = Non hai ricevuto la notifica?
