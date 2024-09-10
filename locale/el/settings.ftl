@@ -1413,6 +1413,25 @@ signin-bounced-help = Αν αυτή είναι μια έγκυρη διεύθυ�
 signin-bounced-create-new-account = Δεν είστε πλέον κάτοχος αυτού του email; Δημιουργήστε έναν νέο λογαριασμό
 back = Πίσω
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Επαληθεύστε αυτά τα στοιχεία σύνδεσης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+signin-push-code-heading-w-custom-service = Επαληθεύστε αυτά τα στοιχεία σύνδεσης <span>για να συνεχίσετε στο { $serviceName }</span>
+signin-push-code-instruction = Παρακαλούμε ελέγξτε τις άλλες σας συσκευές και εγκρίνετε αυτήν τη σύνδεση από το πρόγραμμα περιήγησης { -brand-firefox } σας.
+signin-push-code-did-not-recieve = Δεν λάβατε ειδοποίηση;
+signin-push-code-send-email-link = Κωδικός email
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Επιβεβαιώστε τη σύνδεσή σας
+signin-push-code-confirm-description = Εντοπίσαμε προσπάθεια σύνδεσης από την παρακάτω συσκευή. Αν ήσασταν εσείς, παρακαλούμε εγκρίνετε τη σύνδεση
+signin-push-code-confirm-verifying = Επαλήθευση
+signin-push-code-confirm-login = Επιβεβαίωση σύνδεσης
+signin-push-code-confirm-wasnt-me = Δεν ήμουν εγώ, αλλαγή κωδικού πρόσβασης.
+signin-push-code-confirm-login-approved = Η σύνδεσή σας έχει εγκριθεί. Παρακαλούμε κλείστε αυτό το παράθυρο.
+signin-push-code-confirm-link-error = Ο σύνδεσμος είναι κατεστραμμένος. Παρακαλούμε δοκιμάστε ξανά.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
