@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-10 08:04+0000\n"
+"PO-Revision-Date: 2024-09-10 08:31+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -2088,12 +2088,12 @@ msgstr "立即下載 Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "使用您的 Mozilla 帳號連線到您的行動裝置"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "喔喔，有些東西不對勁！"
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "請關閉這個分頁然後再試一次。"

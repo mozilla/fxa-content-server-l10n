@@ -1383,6 +1383,25 @@ signin-bounced-help = 若這是有效的電子郵件地址，<linkExternal>請�
 signin-bounced-create-new-account = 那個信箱已經停用了嗎？請註冊新帳號
 back = 返回
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = 確認登入<span>即可繼續前往帳號設定</span>
+signin-push-code-heading-w-custom-service = 確認登入<span>即可繼續前往 { $serviceName }</span>
+signin-push-code-instruction = 請到您的其他裝置允許這次從 { -brand-firefox } 瀏覽器發起的登入。
+signin-push-code-did-not-recieve = 沒有收到通知？
+signin-push-code-send-email-link = 用電子郵件寄送驗證碼
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = 確認登入
+signin-push-code-confirm-description = 我們偵測到下列裝置嘗試登入您的帳號。若這是您發起的，請允許登入
+signin-push-code-confirm-verifying = 驗證中
+signin-push-code-confirm-login = 確認登入
+signin-push-code-confirm-wasnt-me = 不是我發起的，我要更改密碼。
+signin-push-code-confirm-login-approved = 已允許您登入，可關閉視窗。
+signin-push-code-confirm-link-error = 鏈結毀損，請再試一次。
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
