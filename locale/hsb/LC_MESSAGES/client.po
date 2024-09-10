@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-10 09:01+0000\n"
+"PO-Revision-Date: 2024-09-10 12:17+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1993,11 +1993,11 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed."
-msgstr ""
+msgstr "Instalacija njeda so dokónčić."
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "Please sign in with your email."
-msgstr ""
+msgstr "Prošu přizjewće so ze swojej e-mejlowej adresu."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
@@ -2105,7 +2105,7 @@ msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować.
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Firefox nětko sćahnyć"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
@@ -2117,4 +2117,4 @@ msgstr "Hopla! Něšto je so nimokuliło."
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Prošu začińće tutón rajtark a spytajće hišće raz."

@@ -1412,6 +1412,8 @@ back = Wróćo
 
 signin-push-code-heading-w-default-service = Přepruwujće tute přizjewjenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 signin-push-code-heading-w-custom-service = Přepruwujće tute přizjewjenje, <span>zo byšće z { $serviceName } pokročował</span>
+signin-push-code-did-not-recieve = Njejsće tutu zdźělenku dóstał?
+signin-push-code-send-email-link = Kod z e-mejlu pósłać
 
 ## SigninPushCodeConfirmPage
 
@@ -1419,6 +1421,7 @@ signin-push-code-confirm-instruction = Wobkrućće swoje přizjewjenje
 signin-push-code-confirm-verifying = Přepruwuje so
 signin-push-code-confirm-login = Přizjewjenje wobkrućić
 signin-push-code-confirm-wasnt-me = Ja njejsym był to, změńće hesło.
+signin-push-code-confirm-login-approved = Waše přizjewjenje je so schwaliło. Prošu začińće tute wokno.
 signin-push-code-confirm-link-error = Wotkaz je wobškodźeny. Spytajće prošu hišće raz.
 
 ## SigninRecoveryCode page
