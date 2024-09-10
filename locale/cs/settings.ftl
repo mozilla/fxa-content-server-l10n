@@ -1400,6 +1400,25 @@ signin-bounced-help = Pokud se jedná o platnou e-mailovou adresu, <linkExternal
 signin-bounced-create-new-account = Už tento e-mail nevlastníte? Vytvořte si nový účet
 back = Zpět
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = <span>Pro pokračování do nastavení účtu</span> ověřte tyto přihlašovací údaje
+signin-push-code-heading-w-custom-service = Ověřte tyto přihlašovací údaje <span>a pokračujte do služby { $serviceName }</span>
+signin-push-code-instruction = Zkontrolujte prosím svá ostatní zařízení a schvalte toto přihlášení z prohlížeče { -brand-firefox }.
+signin-push-code-did-not-recieve = Nedostali jste oznámení?
+signin-push-code-send-email-link = Kód e-mailu
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Potvrďte své přihlášení
+signin-push-code-confirm-description = Zjistili jsme pokus o přihlášení z následujícího zařízení. Pokud jste to byli vy, potvrďte přihlášení
+signin-push-code-confirm-verifying = Ověřování
+signin-push-code-confirm-login = Potvrďte přihlášení
+signin-push-code-confirm-wasnt-me = Toto jsem nebyl(a) já, změnit heslo.
+signin-push-code-confirm-login-approved = Vaše přihlašovací údaje byly schváleny. Zavřete prosím toto okno.
+signin-push-code-confirm-link-error = Odkaz je poškozen. Zkuste to prosím znovu.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
