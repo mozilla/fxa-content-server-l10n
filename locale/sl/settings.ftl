@@ -1409,6 +1409,25 @@ signin-bounced-help = Če je to veljaven e-poštni naslov, <linkExternal>nam to 
 signin-bounced-create-new-account = Ne uporabljate več tega naslova? Ustvarite nov račun
 back = Nazaj
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Potrdite to prijavo <span>za nadaljevanje nastavitev računa</span>
+signin-push-code-heading-w-custom-service = Potrdite to prijavo, <span>za nadaljevanje v { $serviceName }</span>
+signin-push-code-instruction = Preverite druge svoje naprave in odobrite to prijavo iz svojega brskalnika { -brand-firefox }.
+signin-push-code-did-not-recieve = Niste prejeli obvestila?
+signin-push-code-send-email-link = E-poštna koda
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Potrdite prijavo
+signin-push-code-confirm-description = Zaznali smo poskus prijave naslednje naprave. Če ste bili to vi, odobrite prijavo
+signin-push-code-confirm-verifying = Potrjevanje
+signin-push-code-confirm-login = Potrdite prijavo
+signin-push-code-confirm-wasnt-me = To nisem bil jaz, spremeni geslo.
+signin-push-code-confirm-login-approved = Vaša prijava je bila odobrena. Zaprite to okno.
+signin-push-code-confirm-link-error = Povezava je poškodovana. Prosimo, poskusite znova.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
