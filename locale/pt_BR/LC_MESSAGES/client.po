@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-10 17:50+0000\n"
+"PO-Revision-Date: 2024-09-10 18:00+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1993,11 +1993,11 @@ msgstr "Falha na conexão com dispositivo"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed."
-msgstr ""
+msgstr "A instalação não pôde ser concluída."
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "Please sign in with your email."
-msgstr ""
+msgstr "Entre na conta com seu email."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
@@ -2069,11 +2069,11 @@ msgstr "Conectado com sucesso."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr "Confirmar associação <span class=\"card-subheader\">de <span class=\"break-all\">%(email)s</span></span>"
+msgstr "Confirmar conexão <span class=\"card-subheader\">de <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr "Confirmar pareamento"
+msgstr "Confirmar conexão"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
@@ -2097,24 +2097,24 @@ msgstr "Abre em nova janela"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
-msgstr "Parear usando um app"
+msgstr "Conectar usando um aplicativo"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app Firefox."
+msgstr "Você usou a câmera do sistema? Você deve conectar de dentro de um app Firefox."
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Baixe o Firefox agora"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Conectando o dispositivo móvel à sua conta Mozilla"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Ops, algo deu errado."
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Feche esta aba e tente novamente."

@@ -1182,7 +1182,7 @@ pair-wait-for-supp-heading-text = Agora é exigida aprovação <span>de seu outr
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
-pair-failure-header = Pareamento não concluído
+pair-failure-header = Conexão não concluída
 pair-failure-message = O processo de configuração foi interrompido.
 
 ## Pair index page
@@ -1207,7 +1207,7 @@ pair-qr-code-aria-label = Código QR
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Dispositivo conectado
-pair-success-message-2 = Pareamento bem-sucedido.
+pair-success-message-2 = Conexão bem-sucedida.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1215,8 +1215,8 @@ pair-success-message-2 = Pareamento bem-sucedido.
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Confirmar pareamento <span>de { $email }</span>
-pair-supp-allow-confirm-button = Confirmar pareamento
+pair-supp-allow-heading-text = Confirmar conexão <span>de { $email }</span>
+pair-supp-allow-confirm-button = Confirmar conexão
 pair-supp-allow-cancel-link = Cancelar
 
 ## WaitForAuth page - Part of the devide pairing flow
@@ -1229,8 +1229,8 @@ pair-wait-for-auth-heading-text = Agora precisa aprovar <span>em seu outro dispo
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
-pair-unsupported-header = Parear usando um aplicativo
-pair-unsupported-message = Você usou a câmera do sistema? Você deve parear usando um aplicativo { -brand-firefox }.
+pair-unsupported-header = Conectar usando um aplicativo
+pair-unsupported-message = Você usou a câmera do sistema? Você deve conectar usando um aplicativo { -brand-firefox }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1382,6 +1382,13 @@ signin-bounced-message = O email de confirmação que enviamos para { $email } r
 signin-bounced-help = Se este for um endereço de email válido, <linkExternal>avise-nos</linkExternal> e poderemos ajudar a desbloquear sua conta.
 signin-bounced-create-new-account = Não tem mais este email? Crie outra conta
 back = Voltar
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
