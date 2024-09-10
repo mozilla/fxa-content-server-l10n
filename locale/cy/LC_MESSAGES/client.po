@@ -2113,7 +2113,7 @@ msgstr "Llwythwch Firefox i Lawr nawr"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr "Cysylltu eich dyfais symudol gyda'ch cyfrif Mozilla"
+msgstr "Wrthi'n cysylltu eich dyfais symudol gyda'ch cyfrif Mozilla"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."

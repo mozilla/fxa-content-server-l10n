@@ -1408,7 +1408,7 @@ back = Nôl
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = Dilyswch y mewngofnodi <span>i barhau i osodiadau cyfrif</span>
+signin-push-code-heading-w-default-service = Dilyswch y mewngofnodi hwn <span>i barhau i'r gosodiadau cyfrif</span>
 signin-push-code-heading-w-custom-service = Dilyswch y mewngofnodiad hwn <span>i barhau i { $serviceName }</span>
 signin-push-code-instruction = Gwiriwch eich dyfeisiau eraill a chymeradwywch y mewngofnodi hwn o'ch porwr { -brand-firefox }.
 signin-push-code-did-not-recieve = Heb dderbyn yr hysbysiad?
@@ -1420,9 +1420,9 @@ signin-push-code-confirm-instruction = Cadarnhewch eich mewngofnodi
 signin-push-code-confirm-description = Rydym wedi canfod ymgais mewngofnodi o'r ddyfais ganlynol. Os mai chi oedd hwn, cymeradwywch y mewngofnodi
 signin-push-code-confirm-verifying = Dilysu
 signin-push-code-confirm-login = Cadarnhau mewngofnodi
-signin-push-code-confirm-wasnt-me = Nid fi oedd hwn, newid cyfrinair.
+signin-push-code-confirm-wasnt-me = Nid fi oedd hwn, newidiwch y cyfrinair.
 signin-push-code-confirm-login-approved = Mae eich mewngofnodi wedi'i gymeradwyo. Caewch y ffenestr hon.
-signin-push-code-confirm-link-error = Cyswllt wedi'i ddifrodi. Ceisiwch eto.
+signin-push-code-confirm-link-error = Dolen wedi'i difrodi. Ceisiwch eto.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
