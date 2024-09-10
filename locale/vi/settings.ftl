@@ -1409,6 +1409,25 @@ signin-bounced-help = Nếu đây là địa chỉ email hợp lệ, hãy <linkE
 signin-bounced-create-new-account = Không còn sở hữu email đó nữa? Tạo tài khoản mới
 back = Quay lại
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Xác minh đăng nhập này <span>để tiếp tục cài đặt tài khoản</span>
+signin-push-code-heading-w-custom-service = Xác minh đăng nhập này <span>để tiếp tục đến với { $serviceName }</span>
+signin-push-code-instruction = Vui lòng kiểm tra các thiết bị khác của bạn và phê duyệt thông tin đăng nhập này từ trình duyệt { -brand-firefox } của bạn.
+signin-push-code-did-not-recieve = Không nhận được thông báo?
+signin-push-code-send-email-link = Mã từ email
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Xác nhận đăng nhập của bạn
+signin-push-code-confirm-description = Chúng tôi đã phát hiện lần thử đăng nhập từ thiết bị sau. Nếu đây là bạn, vui lòng phê duyệt đăng nhập
+signin-push-code-confirm-verifying = Đang xác minh
+signin-push-code-confirm-login = Xác nhận đăng nhập
+signin-push-code-confirm-wasnt-me = Không phải tôi, hãy đổi mật khẩu.
+signin-push-code-confirm-login-approved = Đăng nhập của bạn đã được phê duyệt. Hãy đóng cửa sổ này lại.
+signin-push-code-confirm-link-error = Liên kết đã bị hỏng. Hãy thử lại.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
