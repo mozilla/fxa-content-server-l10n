@@ -1409,6 +1409,25 @@ signin-bounced-help = Si isto es un adresse email valide, <linkExternal>face lo 
 signin-bounced-create-new-account = Non possede tu plus iste adresse de e-mail? Crea un nove conto
 back = Retro
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verifica iste accesso <span>pro continuar a configurar le conto</span>
+signin-push-code-heading-w-custom-service = Verifica iste accesso <span>pro continuar a { $serviceName }</span>
+signin-push-code-instruction = Verifica tu altere apparatos e approba iste accesso ab tu navigator { -brand-firefox }.
+signin-push-code-did-not-recieve = Non ha tu recipite le aviso?
+signin-push-code-send-email-link = Inviar codice per email
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Confirma tu accesso
+signin-push-code-confirm-description = Nos detectava un tentativa de accesso ab le sequente apparato. Si il era tu, per favor approba le accesso
+signin-push-code-confirm-verifying = Verificante
+signin-push-code-confirm-login = Confirmar accesso
+signin-push-code-confirm-wasnt-me = Iste non era io, cambiar contrasigno.
+signin-push-code-confirm-login-approved = Tu accesso ha essite approbate. Claude iste fenestra.
+signin-push-code-confirm-link-error = Ligamine damnificate. Retenta.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
