@@ -519,18 +519,45 @@ subscriptionsPaymentExpired-content-1 = Betalingskortet du bruker for å utføre
 subscriptionsPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon kreves for { -brand-mozilla }-abonnementer
 subscriptionsPaymentProviderCancelled-title = Beklager, vi har problemer med betalingsmåten din
 subscriptionsPaymentProviderCancelled-content-detected = Vi har oppdaget et problem med betalingsmåten din for følgende abonnementer.
+subscriptionsPaymentProviderCancelled-content-payment = Det kan være at betalingskortet ditt er utløpt, eller at din nåværende betalingsmåte er utdatert.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Betaling for { $productName } mottatt
+subscriptionSubsequentInvoice-title = Takk for at du abonnerer!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Vi har mottatt din seneste betaling for { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Du har oppgradert til { $productName }
 subscriptionUpgrade-title = Takk for at du oppgraderer!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Du har oppgradert fra { $productNameOld } til { $productName }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Om det finnes ny programvare for deg å installere for å bruke { $productName }, vil du motta en egen e-postmelding med nedlastingsinstruksjoner.
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som logger inn?
 unblockCode-prompt = Hvis ja, her er godkjenningskoden du trenger:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Hvis ja, her er godkjenningskoden du trenger: { $unblockCode }
+unblockCode-report = Hvis nei, hjelp oss med å avverge inntrengere og <a data-l10n-name="reportSignInLink">rapporter dette til oss</a>.
 unblockCode-report-plaintext = Hvis nei, hjelp oss med å avverge inntrengere og rapporter dette til oss.
+verificationReminderFinal-subject = Siste påminnelse om å bekrefte kontoen din
 verificationReminderFinal-description-2 = For et par uker siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. For din sikkerhet vil vi slette kontoen hvis den ikke bekreftes i løpet av de neste 24 timene.
 confirm-account = Bekreft konto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Husk å bekrefte kontoen din
 verificationReminderFirst-title-3 = Velkommen til { -brand-mozilla }!
 verificationReminderFirst-description-3 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 15 dagene, ellers blir den automatisk slettet.
+verificationReminderFirst-sub-description-3 = Gå ikke glipp av nettleseren som setter deg og personvernet ditt først.
 confirm-email-2 = Bekreft konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekreft konto
@@ -538,6 +565,9 @@ verificationReminderSecond-subject-2 = Husk å bekrefte kontoen din
 verificationReminderSecond-title-3 = Ikke gå glipp av { -brand-mozilla }!
 verificationReminderSecond-description-4 = For noen dager siden opprettet du en { -product-mozilla-account }, men bekreftet den aldri. Bekreft kontoen din i løpet av de neste 10 dagene, ellers blir den automatisk slettet.
 verificationReminderSecond-second-description-3 = Din { -product-mozilla-account } lar deg synkronisere { -brand-firefox }-opplevelsen din på tvers av enheter og låser opp tilgang til mer personvernbeskyttende produkter fra { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Bli en del av vårt oppdrag om å forvandle internett til et sted som er åpent for alle.
+verificationReminderSecond-action-2 = Bekreft konto
+verify-title-3 = Åpne internett med { -brand-mozilla }
 verify-subject = Fullfør oppretting av kontoen din
 verifyLogin-action = Bekreft innlogging
 verifyLoginCode-expiry-notice = Den løper ut om 5 minutter.
