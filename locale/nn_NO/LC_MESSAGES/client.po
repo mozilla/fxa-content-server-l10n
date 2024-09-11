@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-11 10:19+0000\n"
+"PO-Revision-Date: 2024-09-11 10:31+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1223,7 +1223,7 @@ msgstr "Stadfest reserve-godkjenningskode"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
@@ -1352,6 +1352,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noko av den personlege informasjonen din (inkludert historikk, bokmerke og passord). Det er fordi"
+" vi krypterer dataa dine med passordet ditt for å ta vare på personvernet ditt. Du vil framleis behalde eventuelle abonnement du måtte ha, og Pocket-data vil ikkje bli påverka."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1411,7 +1413,7 @@ msgstr "Skriv inn reserve-godkjenningskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Skriv inn ein reserve-godkjenningskode som du fekk under installasjonen av tostegs-godkjenninga."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
@@ -1477,7 +1479,7 @@ msgstr "Gjenta passord"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Du treng dette passordet for å få tilgang til alle krypterte data du lagrar hos oss.<br class=\"mb-3\">Ei tilbakestilling betyr potensielt å miste data som passord og bokmerke."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
