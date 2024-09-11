@@ -1412,7 +1412,7 @@ signin-push-code-heading-w-default-service = Staðfestu þessa innskráningu <sp
 signin-push-code-heading-w-custom-service = Staðfestu þessa innskráningu <span>til að halda áfram í { $serviceName }</span>
 signin-push-code-instruction = Athugaðu hin tækin þín og samþykktu þessa innskráningu í { -brand-firefox } vafranum þínum.
 signin-push-code-did-not-recieve = Fékkstu ekki tilkynninguna?
-signin-push-code-send-email-link = Tölvupóstkóði
+signin-push-code-send-email-link = Kóði í tölvupósti
 
 ## SigninPushCodeConfirmPage
 
