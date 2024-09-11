@@ -715,6 +715,10 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+# Links out to the Monitor site
+product-promo-monitor-cta = Få ei gratis skanning
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Kom i gang
 
 ## Profile section
 
@@ -1199,6 +1203,7 @@ back = Tilbake
 signin-push-code-confirm-login = Stadfest pålogging
 signin-push-code-confirm-wasnt-me = Dette var ikkje meg, byt passord.
 signin-push-code-confirm-login-approved = Innlogginga di er godkjend. lat att dette vindauget.
+signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1208,6 +1213,11 @@ signin-push-code-confirm-login-approved = Innlogginga di er godkjend. lat att de
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-recovery-code-heading-w-default-service = Skriv inn godkjenningskode <span>for å halde fram til kontoinnstillingar</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Skriv inn godkjenningskode <span>for å halde fram til { $serviceName }</span>
+signin-recovery-code-instruction = Skriv inn ein reserve-godkjenningskode som som du fekk under installasjonen av tostegs-godkjenninga.
 signin-recovery-code-input-label = Skriv inn ein 10-sifra reserve-godkjenningskode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Stadfest
@@ -1274,6 +1284,8 @@ signin-unblock-submit-button = Hald fram
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Godkjenningskode påkravd
 signin-unblock-code-incorrect-length = Godkjenningskoden må innehalde 8 teikn
+signin-unblock-code-incorrect-format-2 = Godkjenningskoden kan berre innehalde bokstavar og/eller tal
+signin-unblock-resend-code-button = Ikkje i innboksen eller spam-mappa? Send på nytt
 signin-unblock-support-link = Kvifor skjer dette?
 
 ## ConfirmSignupCode page
