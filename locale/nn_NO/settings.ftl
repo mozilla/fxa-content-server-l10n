@@ -25,6 +25,8 @@ brand-banner-dismiss-button-2 =
     .aria-label = Lat att banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } endrar namn til { -product-mozilla-accounts } den 1. november
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Du vil framleis logge på med same brukarnamn og passord, og det er ingen andre endringar i produkta du brukar.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
 brand-postlaunch-title = Vi har endra namn på { -product-firefox-accounts } til { -product-mozilla-accounts }. Du vil framleis logge på med same brukarnamn og passord, og det er ingen andre endringar i produkta du brukar.
@@ -52,6 +54,10 @@ recovery-key-pdf-heading = Kontogjenopprettingsnøkkel
 recovery-key-pdf-download-date = Generert: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Kontogjenopprettingsnøkkel
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Denne nøkkelen lèt deg rette opp igjen dei krypterte nettlesardataa dine (inkludert passord, bokmerke og historikk) viss du gløymer passordet ditt. Oppbevar han på ein stad du vil hugse.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Plassar å lagre nøkkelen din
@@ -267,6 +273,8 @@ error-bad-request = Ugyldig førespurnad
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Du treng dette passordet for å få tilgang til alle krypterte data du lagrar hos oss.
+password-info-balloon-reset-risk-info = Ei tilbakestilling betyr at data som passord og bokmerke kan gå tapt.
 
 ## PasswordStrengthBalloon component
 
@@ -274,10 +282,12 @@ password-strength-balloon-heading = Passordkrav
 password-strength-balloon-min-length = Minst 8 teikn
 password-strength-balloon-not-email = Ikkje di e-postadresse
 password-strength-balloon-not-common = Ikkje eit vanleg brukt passord
+password-strength-balloon-stay-safe-tips = Hald deg trygg – Ikkje bruk passord på nytt. Sjå fleire tips for å <LinkExternal>lage sterke passord</LinkExternal>.
 
 ## Ready component
 
 reset-password-complete-header = Passordet ditt er tilbakestilt
+ready-complete-set-up-instruction = Fullfør oppsettet ved å skrive inn det nye passordet på dei andre { -brand-firefox }-einingane dine.
 ready-start-browsing-button = Start nettlesinga
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
