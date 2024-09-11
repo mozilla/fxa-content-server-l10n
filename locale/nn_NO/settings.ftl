@@ -321,6 +321,7 @@ bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
+connect-another-find-fx-mobile-2 = Finn { -brand-firefox } på { -google-play } og { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -393,6 +394,7 @@ drop-down-menu-title-2 = { -product-mozilla-account }-meny
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Logga inn som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logg ut
+drop-down-menu-sign-out-error-2 = Beklagar, det oppstod eit problem med å logge deg ut
 
 ## Flow Container
 
