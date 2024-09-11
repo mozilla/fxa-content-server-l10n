@@ -717,6 +717,9 @@ tfa-enter-secret-key = Skriv inn denne hemmelege nøkkelen i autentiseringsappen
 tfa-enter-totp-v2 = Skriv no inn godkjenningskoden frå autentiseringsappen.
 tfa-input-enter-totp-v2 =
     .label = SKriv inn godkjenningskode
+tfa-save-these-codes-1 =
+    Lagre desse godkjenningskodane for eingongsbruk på ein trygg stad for å bruke dei 
+    når du ikkje har mobileininga di.
 tfa-enter-recovery-code-1 =
     .label = Skriv inn ein backup authentication code
 
@@ -725,6 +728,10 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Finn ut kvar informasjonen din er eksponert — og ta han tilbake
+product-promo-monitor-plus-description = Personvern er viktig: Finn ut kvar den private informasjonen din er eksponert og ta han tilbake
 # Links out to the Monitor site
 product-promo-monitor-cta = Få ei gratis skanning
 # Links out to the Monitor pricing site
@@ -976,8 +983,10 @@ inline-recovery-continue-button = Hald fram
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Stadfest
 inline-recovery-back-link = Tilbake
+inline-recovery-cancel-setup = Avbryt konfigurasjon
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-godkjenningskode
+inline-recovery-confirmation-description = For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine.
 inline-recovery-2fa-enabled = Tostegs-godkjenning aktivert
 
 ## InlineTotpSetup page
@@ -990,6 +999,9 @@ inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver tost
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver tostegs-godkjenning <span>for å halde fram til { $serviceName }</span>
 inline-totp-setup-ready-button = Klar
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Skann godkjenningskoden <span>for å halde fram til { $serviceName }</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = godkjenningskode
 # The "authentication code" here refers to the code provided by an authentication app.
