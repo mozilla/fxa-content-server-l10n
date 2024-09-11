@@ -638,6 +638,8 @@ recent-activity-title = Nyleg kontoaktivitet
 recent-activity-account-create-v2 = Konto opretta
 recent-activity-account-disable-v2 = Konto deaktivert
 recent-activity-account-enable-v2 = Konto aktivert
+recent-activity-account-login-v2 = Kontoinnlogging starta
+recent-activity-account-reset-v2 = Tilbakestilling av passord starta
 recent-activity-account-two-factor-added = Tostegs-godkjenning aktivert
 recent-activity-account-two-factor-requested = Tostegs-godkjenning påkravd
 recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
@@ -1220,6 +1222,9 @@ signin-push-code-did-not-recieve = Har du ikkje motteke varselet?
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Stadfest innlogginga di
+signin-push-code-confirm-description = Vi oppdaga eit innloggingsforsøk frå følgjande eining. Viss dette var deg, ver vennleg og godkjenn innlogginga
+signin-push-code-confirm-verifying = Kontrollerer
 signin-push-code-confirm-login = Stadfest pålogging
 signin-push-code-confirm-wasnt-me = Dette var ikkje meg, byt passord.
 signin-push-code-confirm-login-approved = Innlogginga di er godkjend. lat att dette vindauget.
