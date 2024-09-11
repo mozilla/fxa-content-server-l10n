@@ -1389,6 +1389,9 @@ back = Voltar
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-verifying = Verificando
+signin-push-code-confirm-login = Confirmar acesso
+signin-push-code-confirm-wasnt-me = Não foi eu, mudar a senha.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
