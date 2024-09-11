@@ -346,6 +346,9 @@ connect-another-app-store-image-2 =
 
 cs-heading = Tilkopla tenester
 cs-description = Alt du brukar og er innlogga på.
+cs-cannot-refresh =
+    Beklagar, det oppstod eit problem med å oppdatere lista over tilkopla
+    tenester.
 cs-cannot-disconnect = Fann ikkje klienten, klarte ikkje å kople frå
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -364,6 +367,9 @@ cs-disconnect-sync-heading = Kople frå Sync
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Nettlesardataa dine blir verande på <span>{ $device }</span>,
+    men det vil ikkje lenger synkroniserast med kontoen din.
 cs-disconnect-sync-reason-3 = Kva er hovudgrunnen for å kople frå <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
@@ -380,6 +386,7 @@ cs-disconnect-sync-opt-not-say = Vil helst ikkje fortelje det
 
 cs-disconnect-advice-confirm = Ok, eg forstår
 cs-disconnect-lost-advice-heading = Mista eller stolen eining fråkopla
+cs-disconnect-lost-advice-content-3 = Sidan eininga di vart mista eller stolen, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingane dine for å halde informasjonen din trygg. Du bør også sjå etter informasjon frå einingsprodusenten om fjernsletting av dataa dine.
 cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
 cs-disconnect-suspicious-advice-content-2 = Om den fråkopla eininga verkelig er mistenkjeleg, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingane dine for å halde informasjonen din trygg. Du bør også endre eventuelle andre passord du har lagra i { -brand-firefox } ved å skrive about:logins i adresselinja.
 cs-sign-out-button = Logg ut
@@ -391,6 +398,7 @@ cs-sign-out-button = Logg ut
 
 dc-heading = Datainnsamling og bruk
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } nettlesar
 dc-subheader-content-2 = Tillat { -product-mozilla-accounts } å sende tekniske data og interaksjonsdata til { -brand-mozilla }?
 dc-opt-out-success-2 = Vellykka utmelding. { -product-mozilla-accounts } sender ikkje tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Deling av desse dataa hjelper oss med å forbetre { -product-mozilla-accounts }.
@@ -1188,6 +1196,9 @@ back = Tilbake
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-login = Stadfest pålogging
+signin-push-code-confirm-wasnt-me = Dette var ikkje meg, byt passord.
+signin-push-code-confirm-login-approved = Innlogginga di er godkjend. lat att dette vindauget.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
