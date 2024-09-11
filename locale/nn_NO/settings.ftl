@@ -645,6 +645,7 @@ recent-activity-account-two-factor-requested = Tostegs-godkjenning påkravd
 recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
 recent-activity-account-two-factor-success = Tostegs-godkjenning, vellykka
 recent-activity-account-two-factor-removed = Tostegs-verifisering fjerna
+recent-activity-account-recovery-key-removed = Gjenopprettingsnøkkel for konto fjerna
 recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endra
 recent-activity-account-secondary-email-added = Sekundær e-postadesse lagt til
@@ -711,6 +712,9 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Skriv inn denne hemmelege nøkkelen i autentiseringsappen din:
+tfa-enter-totp-v2 = Skriv no inn godkjenningskoden frå autentiseringsappen.
 tfa-input-enter-totp-v2 =
     .label = SKriv inn godkjenningskode
 tfa-enter-recovery-code-1 =
