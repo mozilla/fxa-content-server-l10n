@@ -379,6 +379,7 @@ cs-sign-out-button = Logg ut
 ## Data collection section
 
 dc-heading = Datainnsamling og bruk
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-content-2 = Tillat { -product-mozilla-accounts } å sende tekniske data og interaksjonsdata til { -brand-mozilla }?
 dc-opt-out-success-2 = Vellykka utmelding. { -product-mozilla-accounts } sender ikkje tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Deling av desse dataa hjelper oss med å forbetre { -product-mozilla-accounts }.
@@ -1168,6 +1169,13 @@ report-signin-support-link = Kvifor skjer dette?
 signin-bounced-header = Beklagar. Vi har låst kontoen din.
 signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
 back = Tilbake
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
