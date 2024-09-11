@@ -1213,6 +1213,10 @@ back = Tilbake
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Stadfest denne innlogginga <span>for å halde fram til kontoinnstillingane</span>
+signin-push-code-heading-w-custom-service = Stadfest denne innlogginga <span>for å halde fram til { $serviceName }</span>
+signin-push-code-instruction = Kontroller dei andre einingane dine og godkjenn denne innlogginga frå { -brand-firefox }-nettlesaren din.
+signin-push-code-did-not-recieve = Har du ikkje motteke varselet?
 
 ## SigninPushCodeConfirmPage
 
