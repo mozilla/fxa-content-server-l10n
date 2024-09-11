@@ -1411,6 +1411,25 @@ signin-bounced-help = Als dit een geldig e-mailadres is, <linkExternal>laat dit 
 signin-bounced-create-new-account = Hebt u dat e-mailadres niet meer? Maak een nieuwe account
 back = Terug
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verifieer deze aanmelding <span>om door te gaan naar uw accountinstellingen</span>
+signin-push-code-heading-w-custom-service = Verifieer deze aanmelding <span>om door te gaan naar { $serviceName }</span>
+signin-push-code-instruction = Controleer uw andere apparaten en keur deze aanmelding goed vanuit uw { -brand-firefox }-browser.
+signin-push-code-did-not-recieve = Hebt u de melding niet ontvangen?
+signin-push-code-send-email-link = Verzend de code via e-mail
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Bevestig uw aanmelding
+signin-push-code-confirm-description = We hebben een aanmeldpoging vanaf het volgende apparaat gedetecteerd. Als u dit was, keur dan de aanmelding goed
+signin-push-code-confirm-verifying = Verifiëren
+signin-push-code-confirm-login = Aanmelding bevestigen
+signin-push-code-confirm-wasnt-me = Dit was ik niet, wijzig wachtwoord.
+signin-push-code-confirm-login-approved = Uw aanmelding is goedgekeurd. Sluit dit venster.
+signin-push-code-confirm-link-error = Koppeling is beschadigd. Probeer het opnieuw.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)

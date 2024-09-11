@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-11 10:35+0000\n"
+"PO-Revision-Date: 2024-09-11 10:52+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -2110,7 +2110,7 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Firefox nu downloaden"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
@@ -2118,8 +2118,8 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Oeps! Er is iets misgegaan."
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Sluit dit tabblad en probeer het opnieuw."
