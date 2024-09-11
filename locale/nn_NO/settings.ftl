@@ -468,6 +468,8 @@ flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 te
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Opprett ein kontogjenopprettingsnøkkel i tilfelle du gløymer passordet ditt
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Endre kontogjenopprettingsnøkkelen din
 # The text of the "submit" button to start creating (or changing) an account recovery key
