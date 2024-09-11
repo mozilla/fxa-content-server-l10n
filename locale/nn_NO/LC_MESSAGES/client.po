@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-11 10:01+0000\n"
+"PO-Revision-Date: 2024-09-11 10:09+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1671,6 +1671,8 @@ msgstr "for å halde fram til %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Vi oppdaga mistenkjeleg åtferd på Mozilla-kontoen din. For å verne kontoen din, ver vennleg og opprett eit nytt passord. Du brukar dette passordet til å logge på alle Mozilla-kontotenestene dine "
+"igjen."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -2092,4 +2094,4 @@ msgstr "Ops! Noko gjekk gale."
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Lat att denne fana og prøv på nytt."
