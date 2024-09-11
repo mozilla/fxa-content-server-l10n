@@ -472,6 +472,8 @@ flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 te
 flow-recovery-key-info-header = Opprett ein kontogjenopprettingsnøkkel i tilfelle du gløymer passordet ditt
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Endre kontogjenopprettingsnøkkelen din
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Vi krypterer nettlesingsdata – passord, bokmerke og meir. Det er flott for personvernet, men du kan miste dataa dine viss du gløymer passordet ditt.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
@@ -888,6 +890,7 @@ auth-error-155 = TOTP-token ikkje funne
 auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
 auth-error-999 = Uventa feil
+auth-error-1001 = Innloggingsforsøket avbrote
 auth-error-1002 = Økta er slutt. Logg inn for å halde fram.
 auth-error-1003 = Lokal lagring eller infokapslar er framleis slått av
 auth-error-1008 = Det må vere eit nytt passord
@@ -943,6 +946,17 @@ cookies-disabled-learn-more = Les meir
 
 ## Index / home page
 
+index-header = Skriv inn e-postadressa di
+index-sync-header = Hald fram til { -product-mozilla-account }en din
+index-sync-subheader = Synkroniser passorda, fanene og bokmerka dine overalt der du brukar { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Hald fram til { $serviceName }
+index-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
+index-subheader-default = Hald fram til kontoinnstillingar
+index-cta = Registrer deg eller logg inn
+index-account-info = Ein { -product-mozilla-account } låser også opp tilgang til meir personvern-beskyttande produkt frå { -brand-mozilla }.
+index-email-input =
+    .label = Skriv inn e-postadressa di
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
