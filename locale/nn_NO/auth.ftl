@@ -574,9 +574,7 @@ verificationReminderSecond-description-4 = For nokre dagar sidan oppretta du ein
 verificationReminderSecond-second-description-3 = { -product-mozilla-account }en din lèt deg synkronisere { -brand-firefox }-opplevinga di på tvers av einingar og låser opp tilgang til fleire personvernbeskyttande produkt frå { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Bli ein del av oppdraget vårt med å omforme internett til ein plass som er open for alle.
 verificationReminderSecond-action-2 = Stadfest kontoen
-verify-title-3 =
-    Opne internett med
-     { -brand-mozilla }
+verify-title-3 = Opne internett med { -brand-mozilla }
 verify-description-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mozilla }, overalt der du loggar inn:
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen
