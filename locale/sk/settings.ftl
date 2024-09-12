@@ -1405,6 +1405,15 @@ signin-bounced-help = Ak ide o platnú e‑mailovú adresu, <linkExternal>dajte 
 signin-bounced-create-new-account = Už tento účet nevlastníte? Vytvorte si nový účet
 back = Naspäť
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Overte toto prihlásenie <span>a pokračujte do nastavení účtu</span>
+signin-push-code-heading-w-custom-service = Overte toto prihlásenie <span>a pokračujte do služby { $serviceName }</span>
+
+## SigninPushCodeConfirmPage
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
