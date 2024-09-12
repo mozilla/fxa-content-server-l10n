@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustración para representar una clave de recuperación de cuenta.
-lock-image-aria-label =
-    .aria-label = Una ilustración de un candado
+password-image-aria-label =
+    .aria-label = Una ilustración para representar el ingreso de una contraseña.
 lightbulb-aria-label =
     .aria-label = Ilustración para representar la creación de una pista de donde la guardarás.
 email-code-image-aria-label =
     .aria-label = Ilustración para representar un correo electrónico que contiene un código.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Iniciaste sesión en { -brand-firefox }
+inline-recovery-key-setup-create-header = Asegura tu cuenta
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = ¿Tienes un minuto para proteger tus datos?
+inline-recovery-key-setup-info = Crea una clave de recuperación de cuenta para poder restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
+inline-recovery-key-setup-start-button = Crear clave de recuperación de cuenta
+inline-recovery-key-setup-later-button = Hazlo después
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Correo electrónico principal ya fue co
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inicio de sesión ya confirmado
 confirmation-link-reused-message = Ese enlace de confirmación ya fue utilizado y se puede usar una sola vez.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
+account-recovery-notification-header-description = Crea una clave de recuperación de cuenta para restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud errónea
 
@@ -305,6 +323,17 @@ ready-continue = Continuar
 sign-in-complete-header = Inicio de sesión confirmado
 sign-up-complete-header = Cuenta confirmada
 primary-email-verified-header = Se confirmó el correo electrónico principal
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar la clave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Carpeta en dispositivo seguro
+flow-recovery-key-download-storage-ideas-cloud = Almacenamiento en la nube confiable
+flow-recovery-key-download-storage-ideas-print-v2 = Copia física impresa
+flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
 
 ## Alert Bar
 
@@ -443,13 +472,6 @@ flow-recovery-key-download-heading-v2 = Se creó la clave de recuperación de la
 flow-recovery-key-download-info-v2 = Esta clave te permite recuperar tus datos si olvidás tu contraseña. Descargala ahora y guardala en un lugar que recordarás — No podrás volver a esta página más tarde.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuar sin descargar
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar la clave:
-flow-recovery-key-download-storage-ideas-folder-v2 = Carpeta en dispositivo seguro
-flow-recovery-key-download-storage-ideas-cloud = Almacenamiento en la nube confiable
-flow-recovery-key-download-storage-ideas-print-v2 = Copia física impresa
-flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1067,6 +1089,13 @@ index-cta = Ingresar o registrarse
 index-account-info = Una { -product-mozilla-account } también desbloquea el acceso a más productos de protección de privacidad de { -brand-mozilla }.
 index-email-input =
     .label = Ingresá tu correo electrónico
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Se creó la clave de recuperación de la cuenta
+inline-recovery-key-setup-download-header = Asegura tu cuenta
+inline-recovery-key-setup-download-subheader = Descargalo y guardalo
+inline-recovery-key-setup-download-info = Guarda la clave en un lugar que puedas recordar; no podrás volver a la página más adelante.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
