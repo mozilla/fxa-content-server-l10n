@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Slika, ki predstavlja ključ za obnovitev računa.
-lock-image-aria-label =
-    .aria-label = Ilustracija ključavnice
+password-image-aria-label =
+    .aria-label = Ilustracija tipkanja gesla.
 lightbulb-aria-label =
     .aria-label = Slika, ki predstavlja ustvarjanje namiga za shranjevanje.
 email-code-image-aria-label =
     .aria-label = Ilustracija, ki upodablja e-poštno sporočilo s kodo.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Prijavljeni ste v { -brand-firefox }
+inline-recovery-key-setup-create-header = Zavarujte svoj račun
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Imate minuto za zaščito svojih podatkov?
+inline-recovery-key-setup-info = Ustvarite ključ za obnovitev računa, da lahko obnovite podatke brskanja za sinhronizacijo, če kadarkoli pozabite geslo.
+inline-recovery-key-setup-start-button = Ustvari ključ za obnovitev računa
+inline-recovery-key-setup-later-button = Naredite pozneje
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Glavni e-poštni naslov je že potrjen
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je že potrjena
 confirmation-link-reused-message = Ta potrditvena povezava je bila že uporabljena, uporabiti pa jo je mogoče le enkrat.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Ustvari
+account-recovery-notification-header-value = Ne izgubite svojih podatkov, če pozabite geslo
+account-recovery-notification-header-description = Ustvarite obnovitveni ključ za obnovitev podatkov brskanja v sinhronizaciji, če pozabite geslo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Zahteva z napako
 
@@ -305,6 +323,17 @@ ready-continue = Nadaljuj
 sign-in-complete-header = Prijava potrjena
 sign-up-complete-header = Račun potrjen
 primary-email-verified-header = Glavni e-poštni naslov potrjen
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Mesta za shranjevanje ključa:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mapa v varni napravi
+flow-recovery-key-download-storage-ideas-cloud = zaupanja vredna shramba v oblaku
+flow-recovery-key-download-storage-ideas-print-v2 = Natisnjena fizična kopija
+flow-recovery-key-download-storage-ideas-pwd-manager = upravitelj gesel
 
 ## Alert Bar
 
@@ -445,13 +474,6 @@ flow-recovery-key-download-heading-v2 = Ključ za obnovitev računa ustvarjen �
 flow-recovery-key-download-info-v2 = Ta ključ vam omogoča obnovitev podatkov v primeru, da pozabite geslo. Prenesite ga zdaj in ga shranite na kraj, ki si ga boste zapomnili – na to stran se pozneje ne boste mogli vrniti.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Nadaljuj brez prenosa
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Mesta za shranjevanje ključa:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mapa v varni napravi
-flow-recovery-key-download-storage-ideas-cloud = zaupanja vredna shramba v oblaku
-flow-recovery-key-download-storage-ideas-print-v2 = Natisnjena fizična kopija
-flow-recovery-key-download-storage-ideas-pwd-manager = upravitelj gesel
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1072,6 +1094,13 @@ index-cta = Registracija ali prijava
 index-account-info = { -product-mozilla-account } omogoča tudi dostop do več izdelkov, ki ščitijo zasebnost podjetja { -brand-mozilla }.
 index-email-input =
     .label = Vnesite e-poštni naslov
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Ključ za obnovitev računa ustvarjen
+inline-recovery-key-setup-download-header = Zavarujte svoj račun
+inline-recovery-key-setup-download-subheader = Prenesite in shranite ga zdaj
+inline-recovery-key-setup-download-info = Shranite ta ključ nekje, ki si ga boste zapomnili – pozneje se na te strani ne boste mogli vrniti.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
