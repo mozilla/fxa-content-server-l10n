@@ -1419,9 +1419,9 @@ signin-push-code-confirm-instruction = Confirmá tu inicio de sesión
 signin-push-code-confirm-description = Detectamos un intento de inicio de sesión desde el siguiente dispositivo. Si fuiste vos, aprobá el inicio de sesión
 signin-push-code-confirm-verifying = Verificando
 signin-push-code-confirm-login = Confirmar inicio de sesión
-signin-push-code-confirm-wasnt-me = Esta no era yo, cambia la contraseña.
-signin-push-code-confirm-login-approved = Se ha aprobado tu inicio de sesión. Por favor cierra esta ventana
-signin-push-code-confirm-link-error = El enlace está dañado. Inténtelo de nuevo.
+signin-push-code-confirm-wasnt-me = Este no era yo, cambiá la contraseña.
+signin-push-code-confirm-login-approved = Se ha aprobado tu inicio de sesión. Podés cerrar esta ventana.
+signin-push-code-confirm-link-error = El enlace está dañado. Probá de nuevo.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
