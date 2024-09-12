@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Az illusztráció egy fiók-helyreállítási kulcsot reprezentál.
-lock-image-aria-label =
-    .aria-label = Egy zár illusztrációja
+password-image-aria-label =
+    .aria-label = Egy jelszó beírását ábrázoló illusztráció.
 lightbulb-aria-label =
     .aria-label = A tárolási tipp létrehozását jelképező illusztráció.
 email-code-image-aria-label =
     .aria-label = Egy kódot tartalmazó e-mail ábrája.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Bejelentkezett a { -brand-firefox }ba
+inline-recovery-key-setup-create-header = Biztosítsa fiókját
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Van egy perce az adatai megvédésére?
+inline-recovery-key-setup-info = Hozzon létre egy fiók-helyreállítási kulcsot, hogy helyreállítsa a szinkron böngészési adatait, ha elfelejtené a jelszavát.
+inline-recovery-key-setup-start-button = Fiók-helyreállítási kulcs létrehozása
+inline-recovery-key-setup-later-button = Tegye meg később
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett er�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
 confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Létrehozás
+account-recovery-notification-header-value = Ne veszítse el adatait, ha elfelejti a jelszavát
+account-recovery-notification-header-description = Hozzon létre egy fiók-helyreállítási kulcsot a szinkron böngészési adatok helyreállításához, ha elfelejtené a jelszavát.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hibás kérés
 
@@ -305,6 +323,17 @@ ready-continue = Folytatás
 sign-in-complete-header = Bejelentkezés megerősítve
 sign-up-complete-header = Fiók megerősítve
 primary-email-verified-header = Elsődleges e-mail-cím megerősítve
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Kulcstároló helyek:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappa egy biztonságos eszközön
+flow-recovery-key-download-storage-ideas-cloud = Megbízható felhős tároló
+flow-recovery-key-download-storage-ideas-print-v2 = Kinyomtatott fizikai másolat
+flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
 
 ## Alert Bar
 
@@ -449,13 +478,6 @@ flow-recovery-key-download-heading-v2 = Fiók-helyreállítási kulcs létrehozv
 flow-recovery-key-download-info-v2 = Ez a kulcs lehetővé teszi az adatok helyreállítását, ha elfelejti a jelszavát. Töltse le most, és tárolja olyan helyen, amelyre emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Folytatás letöltés nélkül
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Kulcstároló helyek:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mappa egy biztonságos eszközön
-flow-recovery-key-download-storage-ideas-cloud = Megbízható felhős tároló
-flow-recovery-key-download-storage-ideas-print-v2 = Kinyomtatott fizikai másolat
-flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1076,6 +1098,13 @@ index-cta = Regisztráljon vagy jelentkezzen be
 index-account-info = Egy { -product-mozilla-account } a { -brand-mozilla } további adatvédelmi termékeihez is hozzáférést biztosít.
 index-email-input =
     .label = Adja meg az e-mail-címét
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Fiók-helyreállítási kulcs létrehozva
+inline-recovery-key-setup-download-header = Biztosítsa fiókját
+inline-recovery-key-setup-download-subheader = Töltse le és tárolja most
+inline-recovery-key-setup-download-info = Tárolja ezt a kulcsot valahol, ahová emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
