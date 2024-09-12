@@ -1416,6 +1416,7 @@ back = Tilbage
 signin-push-code-heading-w-default-service = Bekræft dette login <span>for at fortsætte til kontoindstillinger</span>
 signin-push-code-heading-w-custom-service = Bekræft dette login <span>for at fortsætte til { $serviceName }</span>
 signin-push-code-instruction = Kontroller dine andre enheder og godkend dette login fra din { -brand-firefox }-browser.
+signin-push-code-did-not-recieve = Har du ikke modtaget beskeden?
 signin-push-code-send-email-link = Send kode
 
 ## SigninPushCodeConfirmPage
