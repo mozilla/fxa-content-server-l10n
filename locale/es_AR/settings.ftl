@@ -1407,15 +1407,15 @@ back = Atrás
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = Verificá este inicio de sesión <span> para continuar con la configuración de la cuenta </span>
-signin-push-code-heading-w-custom-service = Verifique este inicio de sesión <span> para continuar a { $serviceName }</span>
-signin-push-code-instruction = Verifique sus otros dispositivos y apruebe este inicio de sesión desde su navegador { -brand-firefox }.
+signin-push-code-heading-w-default-service = Verificá este inicio de sesión <span>para continuar con la configuración de la cuenta</span>
+signin-push-code-heading-w-custom-service = Verificá este inicio de sesión <span>para continuar a { $serviceName }</span>
+signin-push-code-instruction = Verificá tus otros dispositivos y aprobá este inicio de sesión desde tu navegador { -brand-firefox }.
 signin-push-code-did-not-recieve = ¿No recibiste la notificación?
-signin-push-code-send-email-link = Código de correo
+signin-push-code-send-email-link = Código de correo electrónico
 
 ## SigninPushCodeConfirmPage
 
-signin-push-code-confirm-instruction = Confirma tu inicio de sesión
+signin-push-code-confirm-instruction = Confirmá tu inicio de sesión
 signin-push-code-confirm-description = Detectamos un intento de inicio de sesión desde el siguiente dispositivo. Si fuiste vos, aprobá el inicio de sesión
 signin-push-code-confirm-verifying = Verificando
 signin-push-code-confirm-login = Confirmar inicio de sesión
