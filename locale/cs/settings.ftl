@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustrace představující klíč pro obnovení účtu.
-lock-image-aria-label =
-    .aria-label = Ilustrace zámku
+password-image-aria-label =
+    .aria-label = Ilustrace při zadávání hesla.
 lightbulb-aria-label =
     .aria-label = Ilustrace znázorňující vytvoření nápovědy k úložišti.
 email-code-image-aria-label =
     .aria-label = Ilustrace znázorňující e-mail obsahující kód.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Jste přihlášeni do { -brand-firefox(case: "gen") }
+inline-recovery-key-setup-create-header = Zabezpečte svůj účet
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Máte minutku na ochranu svých dat?
+inline-recovery-key-setup-info = Vytvořte si obnovovací klíč k účtu, abyste mohli obnovit synchronizovaná data procházení, pokud zapomenete heslo.
+inline-recovery-key-setup-start-button = Vytvořit obnovovací klíč k účtu
+inline-recovery-key-setup-later-button = Udělejte to později
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Hlavní adresa už byla ověřena
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Přihlášení už bylo potvrzeno
 confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze jednou a tento už byl použit.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Vytvořit
+account-recovery-notification-header-value = Neztraťte svá data, pokud zapomenete své heslo
+account-recovery-notification-header-description = Vytvořte si obnovovací klíč k účtu, abyste mohli obnovit synchronizovaná data prohlížení, pokud zapomenete heslo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatný požadavek
 
@@ -305,6 +323,17 @@ ready-continue = Pokračovat
 sign-in-complete-header = Přihlášení potvrzeno
 sign-up-complete-header = Účet ověřen
 primary-email-verified-header = Hlavní e-mailová adresa byla potvrzena
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Místa pro uložení vašeho klíče:
+flow-recovery-key-download-storage-ideas-folder-v2 = Složka na zabezpečeném zařízení
+flow-recovery-key-download-storage-ideas-cloud = Důvěryhodné cloudové úložiště
+flow-recovery-key-download-storage-ideas-print-v2 = Tištěná fyzická kopie
+flow-recovery-key-download-storage-ideas-pwd-manager = Správce hesel
 
 ## Alert Bar
 
@@ -447,13 +476,6 @@ flow-recovery-key-download-heading-v2 = Obnovovací klíč k účtu byl vytvoře
 flow-recovery-key-download-info-v2 = Tento klíč umožňuje obnovit data, pokud zapomenete heslo. Stáhněte si jej nyní a uložte na místo, které si budete pamatovat — později se na tuto stránku nebudete moci vrátit.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Pokračovat bez stahování
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Místa pro uložení vašeho klíče:
-flow-recovery-key-download-storage-ideas-folder-v2 = Složka na zabezpečeném zařízení
-flow-recovery-key-download-storage-ideas-cloud = Důvěryhodné cloudové úložiště
-flow-recovery-key-download-storage-ideas-print-v2 = Tištěná fyzická kopie
-flow-recovery-key-download-storage-ideas-pwd-manager = Správce hesel
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1063,6 +1085,13 @@ index-cta = Přihlásit nebo registrovat
 index-account-info = { -product-mozilla-account } odemyká přístup k dalším produktům { -brand-mozilla(case: "gen") }, které chrání soukromí.
 index-email-input =
     .label = Zadejte svoji e-mailovou adresu
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Obnovovací klíč k účtu byl vytvořen
+inline-recovery-key-setup-download-header = Zabezpečte svůj účet
+inline-recovery-key-setup-download-subheader = Stáhněte a uložte jej
+inline-recovery-key-setup-download-info = Uložte si tento klíč na místo, které si budete pamatovat — později se na tuto stránku nebudete moci vrátit.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
