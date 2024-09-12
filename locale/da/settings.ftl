@@ -1410,6 +1410,24 @@ signin-bounced-help = Hvis det er en gyldig mailadresse, <linkExternal>så fort�
 signin-bounced-create-new-account = Er du ikke længere ejer af mailadressen? Opret en ny konto
 back = Tilbage
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Bekræft dette login <span>for at fortsætte til kontoindstillinger</span>
+signin-push-code-heading-w-custom-service = Bekræft dette login <span>for at fortsætte til { $serviceName }</span>
+signin-push-code-instruction = Kontroller dine andre enheder og godkend dette login fra din { -brand-firefox }-browser.
+signin-push-code-send-email-link = Send kode
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Bekræft dit login
+signin-push-code-confirm-description = Vi har registreret et login-forsøg fra følgende enhed. Hvis det var dig, så godkend login'et
+signin-push-code-confirm-verifying = Bekræfter
+signin-push-code-confirm-login = Bekræft login
+signin-push-code-confirm-wasnt-me = Det var ikke mig, skift adgangskode.
+signin-push-code-confirm-login-approved = Dit login er blevet godkendt. Luk dette vindue.
+signin-push-code-confirm-link-error = Link er beskadiget. Prøv igen.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
