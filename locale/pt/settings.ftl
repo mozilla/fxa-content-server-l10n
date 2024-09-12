@@ -1404,6 +1404,25 @@ signin-bounced-help = Se este é um endereço de e-mail válido, <linkExternal>i
 signin-bounced-create-new-account = Já não tem este e-mail? Crie uma nova conta
 back = Voltar
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verifique esta credencial <span>para continuar para as definições da conta</span>
+signin-push-code-heading-w-custom-service = Verifique esta credencial <span>para continuar para { $serviceName }</span>
+signin-push-code-instruction = Por favor verifique os seus outros dispositivos e aprove esta credencial no seu { -brand-firefox }.
+signin-push-code-did-not-recieve = Não recebeu a notificação?
+signin-push-code-send-email-link = Código de e-mail
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Confirmar a sua credencial
+signin-push-code-confirm-description = Detetámos uma tentativa de início de sessão a partir do seguinte dispositivo. Se foi você, por favor aprove a credencial
+signin-push-code-confirm-verifying = A verificar
+signin-push-code-confirm-login = Confirmar início de sessão
+signin-push-code-confirm-wasnt-me = Não foi eu, altere a palavra-passe.
+signin-push-code-confirm-login-approved = A sua credencial foi aprovada. Por favor feche esta janela.
+signin-push-code-confirm-link-error = A ligação está danificada. Por favor, tente novamente.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)

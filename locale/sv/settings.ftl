@@ -1413,6 +1413,25 @@ signin-bounced-help = Om detta är en giltig e-postadress, <linkExternal>meddela
 signin-bounced-create-new-account = Äger du inte längre den e-postadressen? Skapa ett nytt konto
 back = Tillbaka
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verifiera denna inloggning <span>för att fortsätta till kontoinställningarna</span>
+signin-push-code-heading-w-custom-service = Verifiera denna inloggning <span>för att fortsätta till { $serviceName }</span>
+signin-push-code-instruction = Kontrollera dina andra enheter och godkänn den här inloggningen från din { -brand-firefox }-webbläsare.
+signin-push-code-did-not-recieve = Har du inte fått aviseringen?
+signin-push-code-send-email-link = E-posta kod
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Bekräfta din inloggning
+signin-push-code-confirm-description = Vi upptäckte ett inloggningsförsök från följande enhet. Om det var du, vänligen godkänn inloggningen
+signin-push-code-confirm-verifying = Verifierar
+signin-push-code-confirm-login = Bekräfta inloggning
+signin-push-code-confirm-wasnt-me = Det här var inte jag, ändra lösenord.
+signin-push-code-confirm-login-approved = Din inloggning har godkänts. Stäng det här fönstret.
+signin-push-code-confirm-link-error = Länken är skadad. Försök igen.
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
