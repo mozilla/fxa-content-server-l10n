@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Darlun i gynrychioli allwedd adfer cyfrif.
-lock-image-aria-label =
-    .aria-label = Darlun o glo
+password-image-aria-label =
+    .aria-label = Darlun i gynrychioli teipio cyfrinair.
 lightbulb-aria-label =
     .aria-label = Darlun i gynrychioli creu awgrym storio.
 email-code-image-aria-label =
     .aria-label = Darlun i gynrychioli e-bost sy'n cynnwys cod.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Rydych wedi mewngofnodi i { -brand-firefox }
+inline-recovery-key-setup-create-header = Diogelwch eich cyfrif
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Oes gennych chi funud i amddiffyn eich data?
+inline-recovery-key-setup-info = Creu allwedd adfer cyfrif fel y gallwch adfer eich data pori cysoni os byddwch byth yn anghofio eich cyfrinair.
+inline-recovery-key-setup-start-button = Crëwch allwedd adfer cyfrif
+inline-recovery-key-setup-later-button = Gwnewch yn nes ymlaen
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Mae'r prif e-bost wedi ei ddilysu eisoe
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Mae'r mewngofnod eisoes wedi ei gadarnhau
 confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Creu
+account-recovery-notification-header-value = Peidiwch â cholli'ch data os byddwch yn anghofio eich cyfrinair
+account-recovery-notification-header-description = Creu allwedd adfer cyfrif i adfer eich data pori cysoni os byddwch byth yn anghofio eich cyfrinair.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Cais Gwael
 
@@ -305,6 +323,17 @@ ready-continue = Parhau
 sign-in-complete-header = Mewngofnodi wedi ei gadarnhau
 sign-up-complete-header = Cyfrif wedi'i gadarnhau
 primary-email-verified-header = Prif e-bost wedi'i gadarnhau
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lleoedd i gadw'ch allwedd:
+flow-recovery-key-download-storage-ideas-folder-v2 = Ffolder ar ddyfais ddiogel
+flow-recovery-key-download-storage-ideas-cloud = Storfa cwmwl dibynadwy
+flow-recovery-key-download-storage-ideas-print-v2 = Copi ffisegol wedi'i argraffu
+flow-recovery-key-download-storage-ideas-pwd-manager = Rheolwr cyfrineiriau
 
 ## Alert Bar
 
@@ -443,13 +472,6 @@ flow-recovery-key-download-heading-v2 = Crewyd allwedd adfer cyfrif - llwythwch 
 flow-recovery-key-download-info-v2 = Mae'r allwedd hon yn eich galluogi i adennill eich data os byddwch yn anghofio eich cyfrinair. Llwythwch ef i lawr nawr a'i gadw'n rhywle y byddwch chi'n ei gofio - fyddwch chi ddim yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Parhewch heb ei lwytho i lawr
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Lleoedd i gadw'ch allwedd:
-flow-recovery-key-download-storage-ideas-folder-v2 = Ffolder ar ddyfais ddiogel
-flow-recovery-key-download-storage-ideas-cloud = Storfa cwmwl dibynadwy
-flow-recovery-key-download-storage-ideas-print-v2 = Copi ffisegol wedi'i argraffu
-flow-recovery-key-download-storage-ideas-pwd-manager = Rheolwr cyfrineiriau
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1068,6 +1090,13 @@ index-cta = Cofrestrwch neu fewngofnodwch
 index-account-info = Mae { -product-mozilla-account } hefyd yn datgloi mynediad i fwy o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
 index-email-input =
     .label = Rhowch eich e-bost
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Crëwyd yr allwedd adfer cyfrif.
+inline-recovery-key-setup-download-header = Diogelwch eich cyfrif
+inline-recovery-key-setup-download-subheader = Dadlwythwch a storiwch ef nawr
+inline-recovery-key-setup-download-info = Storiwch yr allwedd hon yn rhywle y byddwch chi'n ei gofio - ni fyddwch yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
