@@ -222,12 +222,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
   .aria-label = Illustration to represent an account recovery key.
-lock-image-aria-label =
-  .aria-label = An illustration of a lock
+password-image-aria-label =
+  .aria-label = An illustration to represent typing in a password.
 lightbulb-aria-label =
   .aria-label = Illustration to represent creating a storage hint.
 email-code-image-aria-label =
   .aria-label = Illustration to represent an email containing a code.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = You’re signed in to { -brand-firefox }
+inline-recovery-key-setup-create-header = Secure your account
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Got a minute to protect your data?
+inline-recovery-key-setup-info = Create an account recovery key so you can restore your sync browsing data if you ever forget your password.
+inline-recovery-key-setup-start-button = Create account recovery key
+inline-recovery-key-setup-later-button = Do it later
 
 ## Input Password
 
@@ -293,6 +305,10 @@ signin-confirmation-link-reused = Sign-in already confirmed
 
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
 
+## Notification Promo Banner component
+account-recovery-notification-cta = Create
+account-recovery-notification-header-value = Don’t lose your data if you forget your password
+account-recovery-notification-header-description = Create an account recovery key to restore your sync browsing data if you ever forget your password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Bad Request
 
@@ -327,6 +343,16 @@ ready-continue = Continue
 sign-in-complete-header = Sign-in confirmed
 sign-up-complete-header = Account confirmed
 primary-email-verified-header = Primary email confirmed
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Places to store your key:
+flow-recovery-key-download-storage-ideas-folder-v2 = Folder on secure device
+flow-recovery-key-download-storage-ideas-cloud = Trusted cloud storage
+flow-recovery-key-download-storage-ideas-print-v2 = Printed physical copy
+flow-recovery-key-download-storage-ideas-pwd-manager = Password manager
 
 ## Alert Bar
 
@@ -470,14 +496,6 @@ flow-recovery-key-download-heading-v2 = Account recovery key created — Downloa
 flow-recovery-key-download-info-v2 = This key allows you to recover your data if you forget your password. Download it now and store it somewhere you’ll remember — you won’t be able to return to this page later.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continue without downloading
-
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Places to store your key:
-flow-recovery-key-download-storage-ideas-folder-v2 = Folder on secure device
-flow-recovery-key-download-storage-ideas-cloud = Trusted cloud storage
-flow-recovery-key-download-storage-ideas-print-v2 = Printed physical copy
-flow-recovery-key-download-storage-ideas-pwd-manager = Password manager
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1115,6 +1133,13 @@ index-cta = Sign up or sign in
 index-account-info = A { -product-mozilla-account } also unlocks access to more privacy-protecting products from { -brand-mozilla }.
 index-email-input =
   .label = Enter your email
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Account recovery key created
+inline-recovery-key-setup-download-header = Secure your account
+inline-recovery-key-setup-download-subheader = Download and store it now
+inline-recovery-key-setup-download-info = Store this key somewhere you’ll remember — you won’t be able to get back to this page later.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
