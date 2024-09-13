@@ -221,10 +221,10 @@ email-code-image-aria-label =
 inline-recovery-key-setup-signed-in-firefox = Rydych wedi mewngofnodi i { -brand-firefox }
 inline-recovery-key-setup-create-header = Diogelwch eich cyfrif
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
-inline-recovery-key-setup-create-subheader = Oes gennych chi funud i amddiffyn eich data?
-inline-recovery-key-setup-info = Creu allwedd adfer cyfrif fel y gallwch adfer eich data pori cysoni os byddwch byth yn anghofio eich cyfrinair.
+inline-recovery-key-setup-create-subheader = Oes gennych chi funud i ddiogelu eich data?
+inline-recovery-key-setup-info = Crëwch allwedd adfer cyfrif fel y gallwch adfer eich data cydweddu pori os byddwch byth yn anghofio eich cyfrinair.
 inline-recovery-key-setup-start-button = Crëwch allwedd adfer cyfrif
-inline-recovery-key-setup-later-button = Gwnewch yn nes ymlaen
+inline-recovery-key-setup-later-button = Ei wneud yn nes ymlaen
 
 ## Input Password
 
@@ -286,9 +286,9 @@ confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddi
 
 ## Notification Promo Banner component
 
-account-recovery-notification-cta = Creu
+account-recovery-notification-cta = Crëwch
 account-recovery-notification-header-value = Peidiwch â cholli'ch data os byddwch yn anghofio eich cyfrinair
-account-recovery-notification-header-description = Creu allwedd adfer cyfrif i adfer eich data pori cysoni os byddwch byth yn anghofio eich cyfrinair.
+account-recovery-notification-header-description = Crëwch allwedd adfer cyfrif fel y gallwch adfer eich data cydweddu pori os byddwch byth yn anghofio eich cyfrinair.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Cais Gwael
 
@@ -1095,8 +1095,8 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Crëwyd yr allwedd adfer cyfrif.
 inline-recovery-key-setup-download-header = Diogelwch eich cyfrif
-inline-recovery-key-setup-download-subheader = Dadlwythwch a storiwch ef nawr
-inline-recovery-key-setup-download-info = Storiwch yr allwedd hon yn rhywle y byddwch chi'n ei gofio - ni fyddwch yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
+inline-recovery-key-setup-download-subheader = Llwythwch ef i lawr a'i gadw
+inline-recovery-key-setup-download-info = Cadwch yr allwedd hon yn rhywle y byddwch chi'n ei gofio - fyddwch chi ddim yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
