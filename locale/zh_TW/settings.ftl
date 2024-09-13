@@ -222,6 +222,7 @@ inline-recovery-key-setup-signed-in-firefox = 您已登入 { -brand-firefox }
 inline-recovery-key-setup-create-header = 讓您的帳號更安全
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = 要不要花點時間來保護您的資料？
+inline-recovery-key-setup-info = 建立帳號救援金鑰，就算忘記密碼也能還原同步過的瀏覽資料。
 inline-recovery-key-setup-start-button = 產生帳號救援金鑰
 inline-recovery-key-setup-later-button = 稍後再做
 
@@ -287,6 +288,7 @@ confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被
 
 account-recovery-notification-cta = 建立
 account-recovery-notification-header-value = 就算忘記密碼也不失去資料
+account-recovery-notification-header-description = 建立帳號救援金鑰，讓您在忘記密碼時也能還原同步過的瀏覽資料。
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 請求錯誤
 
@@ -1069,6 +1071,10 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = 已建立帳號救援金鑰
+inline-recovery-key-setup-download-header = 讓您的帳號更安全
+inline-recovery-key-setup-download-subheader = 立即下載保存
+inline-recovery-key-setup-download-info = 未來無法再回到這個頁面，請務必將這把金鑰保存在之後還找得到的地方。
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
