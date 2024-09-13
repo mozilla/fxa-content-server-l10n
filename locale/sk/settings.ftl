@@ -1446,6 +1446,11 @@ signin-push-code-send-email-link = Odoslať kód na e‑mail
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Potvrďte svoje prihlásenie
+signin-push-code-confirm-description = Zistili sme pokus o prihlásenie z nasledujúceho zariadenia. Ak ste to boli vy, potvrďte prihlásenie
+signin-push-code-confirm-verifying = Overuje sa
+signin-push-code-confirm-login = Potvrdiť prihlásenie
+signin-push-code-confirm-wasnt-me = Toto som nebol ja, zmeniť heslo.
+signin-push-code-confirm-login-approved = Vaše prihlásenie bolo schválené. Zatvorte toto okno.
 signin-push-code-confirm-link-error = Odkaz je poškodený. Skúste to znova.
 
 ## SigninRecoveryCode page
