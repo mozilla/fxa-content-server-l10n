@@ -308,7 +308,7 @@ postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero dell�
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Conserva questa chiave in un luogo sicuro: ti servirà per ripristinare i dati di navigazione crittati se dimentichi la password.
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = Questa chiave può essere utilizzata una sola volta. Una volta utilizzata, ne creeremo automaticamente una nuova per te. Puoi anche crearne una nuova in qualsiasi momento dalle impostazioni del tuo account.
+postAddAccountRecovery-body-part2 = Questa chiave può essere utilizzata una sola volta. Una volta utilizzata, ne verrà generata automaticamente una nuova. Puoi anche generarne una nuova in qualsiasi momento dalle impostazioni del tuo account.
 postAddAccountRecovery-action = Gestisci account
 postAddLinkedAccount-subject-2 = Nuovo account collegato al tuo { -product-mozilla-account }
 #  Variables:
@@ -344,12 +344,12 @@ postConsumeRecoveryCode-subject-2 =
 postNewRecoveryCodes-subject-2 = Sono stati generati nuovi codici di autenticazione di backup
 postNewRecoveryCodes-title-2 = Hai generato nuovi codici di autenticazione di backup
 # After the colon, there is information about the device that the authentication codes were created on
-postNewRecoveryCodes-description-2 = Sono stati creati su:
+postNewRecoveryCodes-description-2 = Sono stati generati su:
 postNewRecoveryCodes-action = Gestisci account
 postRemoveAccountRecovery-subject-2 = La chiave di recupero dell’account è stata eliminata
 postRemoveAccountRecovery-title-3 = Hai eliminato la chiave di recupero dell’account
 postRemoveAccountRecovery-body-part1 = La chiave di recupero dell’account è necessaria per ripristinare i dati di navigazione crittati se dimentichi la password.
-postRemoveAccountRecovery-body-part2 = Se non l’hai già fatto, crea una nuova chiave di recupero dell’account nelle impostazioni per evitare di perdere i dati salvati quali password, segnalibri, cronologia di navigazione e altro ancora.
+postRemoveAccountRecovery-body-part2 = Se non l’hai già fatto, genera una nuova chiave di recupero dell’account nelle impostazioni per evitare di perdere i dati salvati quali password, segnalibri, cronologia di navigazione e altro ancora.
 postRemoveAccountRecovery-action = Gestisci account
 postRemoveSecondary-subject = L’indirizzo email secondario è stato rimosso
 postRemoveSecondary-title = L’indirizzo email secondario è stato rimosso
@@ -380,9 +380,9 @@ recovery-subject = Reimposta la tua password
 recovery-title-2 = Password dimenticata?
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Abbiamo ricevuto una richiesta di modifica della password per il tuo { -product-mozilla-account } da:
-recovery-new-password-button = Fai clic sul pulsante in basso per creare una nuova password. Questo link scadrà entro la prossima ora.
-recovery-copy-paste = Copia e incolla il seguente URL nel tuo browser per creare una nuova password. Questo link scadrà entro la prossima ora.
-recovery-action = Crea nuova password
+recovery-new-password-button = Fai clic sul pulsante in basso per generare una nuova password. Questo link scadrà entro la prossima ora.
+recovery-copy-paste = Copia e incolla il seguente URL nel tuo browser per generare una nuova password. Questo link scadrà entro la prossima ora.
+recovery-action = Genera nuova password
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Il tuo abbonamento a { $productName } è stato annullato
