@@ -217,6 +217,11 @@ email-code-image-aria-label =
 ## after signing in.
 
 inline-recovery-key-setup-signed-in-firefox = Sćo pla { -brand-firefox } pśizjawjony
+inline-recovery-key-setup-create-header = Zawěsććo swójo konto
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Maśo minutu, aby swóje daty šćitał?
+inline-recovery-key-setup-start-button = Kontowy wótnowjeński kluc napóraś
+inline-recovery-key-setup-later-button = Pózdźej cyniś
 
 ## Input Password
 
@@ -278,6 +283,7 @@ confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo 
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Napóraś
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne napšašowanje
 
@@ -1082,6 +1088,9 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Kontowy wótnowjeński kluc jo se napórał
+inline-recovery-key-setup-download-header = Zawěsććo swójo konto
+inline-recovery-key-setup-download-subheader = Ześěgniśo a składujśo jen něnto
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
