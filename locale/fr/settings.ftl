@@ -1089,7 +1089,7 @@ index-email-input =
 inline-recovery-key-setup-recovery-created = Clé de récupération de compte créée
 inline-recovery-key-setup-download-header = Sécurisez votre compte
 inline-recovery-key-setup-download-subheader = Téléchargez-la et stockez-la maintenant
-inline-recovery-key-setup-download-info = Conservez cette clé dans un endroit où vous vous en souviendrez — vous ne pourrez pas y revenir plus tard.
+inline-recovery-key-setup-download-info = Conservez cette clé dans un endroit où vous vous en souviendrez ; vous ne pourrez pas rouvrir cette page plus tard.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
