@@ -288,6 +288,7 @@ confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe 
 
 account-recovery-notification-cta = Krijoje
 account-recovery-notification-header-value = Mos humbni të dhënat tuaja, nëse harroni fjalëkalimin
+account-recovery-notification-header-description = Krijoni një kyç rimarrjeje llogarie, që të riktheni të dhëna shfletimi të njëkohësuara, nëse harroni ndonjëherë fjalëkalimin tuaj.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Kërkesë e Gabuar
 
@@ -1094,8 +1095,10 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = U krijua kyç rimarrjeje llogarie
 inline-recovery-key-setup-download-header = Siguroni llogarinë tuaj
 inline-recovery-key-setup-download-subheader = Shkarkojeni dhe depozitojeni që tani
+inline-recovery-key-setup-download-info = Ruajeni këtë kyç diku ku e mbani mend — s’do të jini në gjendje të ktheheni te kjo faqe më vonë.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1436,15 +1439,20 @@ back = Mbrapsht
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = <span>Që të vazhdoni te rregullimet e llogarisë</span>, verifikoni këtë hyrje
+signin-push-code-heading-w-custom-service = <span>Që të vazhdohet te { $serviceName }</span>, verifikoni këtë hyrje
+signin-push-code-instruction = Ju lutemi, shihni te pajisjet tuaja të tjera dhe miratoni këtë hyrje që nga shfletuesi juaj { -brand-firefox }.
 signin-push-code-did-not-recieve = S’e morët njoftimin?
 signin-push-code-send-email-link = Kod email
 
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Ripohoni hyrjen tuaj
+signin-push-code-confirm-description = Pikasëm një përpjekje për hyrje që nga pajisja vijuese. Nëse qetë ju, ju lutemi, miratoni hyrjen.
 signin-push-code-confirm-verifying = Po verifikohet
 signin-push-code-confirm-login = Ripohoni hyrjen
 signin-push-code-confirm-wasnt-me = S’qeshë unë, ndryshojeni fjalëkalimin.
+signin-push-code-confirm-login-approved = Hyrja juaj u miratua. Ju lutemi, mbylleni këtë dritare.
 signin-push-code-confirm-link-error = Lidhja është e dëmtuar. Ju lutemi, riprovoni
 
 ## SigninRecoveryCode page
