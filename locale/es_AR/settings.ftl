@@ -219,12 +219,12 @@ email-code-image-aria-label =
 ## after signing in.
 
 inline-recovery-key-setup-signed-in-firefox = Iniciaste sesión en { -brand-firefox }
-inline-recovery-key-setup-create-header = Asegura tu cuenta
+inline-recovery-key-setup-create-header = Asegurá tu cuenta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
-inline-recovery-key-setup-create-subheader = ¿Tienes un minuto para proteger tus datos?
-inline-recovery-key-setup-info = Crea una clave de recuperación de cuenta para poder restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
+inline-recovery-key-setup-create-subheader = ¿Tenés un minuto para proteger tus datos?
+inline-recovery-key-setup-info = Creá una clave de recuperación de cuenta para poder restaurar tus datos de navegación sincronizados si alguna vez olvidás tu contraseña.
 inline-recovery-key-setup-start-button = Crear clave de recuperación de cuenta
-inline-recovery-key-setup-later-button = Hazlo después
+inline-recovery-key-setup-later-button = Hacerlo después
 
 ## Input Password
 
@@ -287,8 +287,8 @@ confirmation-link-reused-message = Ese enlace de confirmación ya fue utilizado 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Crear
-account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
-account-recovery-notification-header-description = Crea una clave de recuperación de cuenta para restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
+account-recovery-notification-header-value = No perdáss tus datos si olvidás tu contraseña
+account-recovery-notification-header-description = Creá una clave de recuperación de cuenta para restaurar tus datos de navegación sincronizados si alguna vez olvidás tu contraseña.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud errónea
 
@@ -1093,9 +1093,9 @@ index-email-input =
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-recovery-created = Se creó la clave de recuperación de la cuenta
-inline-recovery-key-setup-download-header = Asegura tu cuenta
-inline-recovery-key-setup-download-subheader = Descargalo y guardalo
-inline-recovery-key-setup-download-info = Guarda la clave en un lugar que puedas recordar; no podrás volver a la página más adelante.
+inline-recovery-key-setup-download-header = Asegurá tu cuenta
+inline-recovery-key-setup-download-subheader = Descargala y guardala
+inline-recovery-key-setup-download-info = Guardá esta clave en un lugar que podás recordar; no podrás volver a esta página más adelante.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
