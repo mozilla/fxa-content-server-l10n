@@ -73,7 +73,7 @@ recovery-key-pdf-download-error = Pri prenosu ključa za obnovitev računa je pr
 choose-newsletters-prompt-2 = Izkoristite { -brand-mozilla(sklon: "tozilnik") }:
 # Newsletter checklist item
 choose-newsletters-option-latest-news =
-    .label = Bodite obveščeni o naših najnovejših novicah in posodobitvah izdelkov
+    .label = Bodite na tekočem z našimi novicami in posodobitvami izdelkov
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Zgodnji dostop za preizkušanje novih izdelkov
@@ -218,13 +218,13 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Prijavljeni ste v { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox = Prijavljeni ste v { -brand-firefox(sklon: "tozilnik") }
 inline-recovery-key-setup-create-header = Zavarujte svoj račun
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Imate minuto za zaščito svojih podatkov?
 inline-recovery-key-setup-info = Ustvarite ključ za obnovitev računa, da lahko obnovite podatke brskanja za sinhronizacijo, če kadarkoli pozabite geslo.
 inline-recovery-key-setup-start-button = Ustvari ključ za obnovitev računa
-inline-recovery-key-setup-later-button = Naredite pozneje
+inline-recovery-key-setup-later-button = Pozneje
 
 ## Input Password
 
@@ -1084,14 +1084,14 @@ cookies-disabled-learn-more = Več o tem
 ## Index / home page
 
 index-header = Vnesite e-poštni naslov
-index-sync-header = Nadaljujte v svoj { -product-mozilla-account }
-index-sync-subheader = Sinhronizirajte gesla, zavihke in zaznamke povsod, kjer uporabljate { -brand-firefox }.
+index-sync-header = Nadaljujte v { -product-mozilla-account(sklon: "tozilnik") }
+index-sync-subheader = Sinhronizirajte gesla, zavihke in zaznamke na vseh mestih, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Nadaljuj na { $serviceName }
 index-subheader-with-logo = Nadaljuj na <span>{ $serviceLogo }</span>
 index-subheader-default = Nadaljuj na nastavitve računa
 index-cta = Registracija ali prijava
-index-account-info = { -product-mozilla-account } omogoča tudi dostop do več izdelkov, ki ščitijo zasebnost podjetja { -brand-mozilla }.
+index-account-info = { -product-mozilla-account } omogoča tudi dostop do izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki bolj varujejo zasebnost.
 index-email-input =
     .label = Vnesite e-poštni naslov
 
@@ -1100,7 +1100,7 @@ index-email-input =
 inline-recovery-key-setup-recovery-created = Ključ za obnovitev računa ustvarjen
 inline-recovery-key-setup-download-header = Zavarujte svoj račun
 inline-recovery-key-setup-download-subheader = Prenesite in shranite ga zdaj
-inline-recovery-key-setup-download-info = Shranite ta ključ nekje, ki si ga boste zapomnili – pozneje se na te strani ne boste mogli vrniti.
+inline-recovery-key-setup-download-info = Shranite ta ključ na mesto, ki si ga boste zapomnili – pozneje se na to stran ne boste mogli vrniti.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
