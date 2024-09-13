@@ -222,8 +222,8 @@ inline-recovery-key-setup-signed-in-firefox = Hai effettuato l’accesso a { -br
 inline-recovery-key-setup-create-header = Proteggi il tuo account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hai un minuto per proteggere i tuoi dati?
-inline-recovery-key-setup-info = Crea una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
-inline-recovery-key-setup-start-button = Crea una chiave di recupero dell’account
+inline-recovery-key-setup-info = Genera una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
+inline-recovery-key-setup-start-button = Genera una chiave di recupero dell’account
 inline-recovery-key-setup-later-button = Più tardi
 
 ## Input Password
@@ -286,9 +286,9 @@ confirmation-link-reused-message = Questo link di conferma è già stato utilizz
 
 ## Notification Promo Banner component
 
-account-recovery-notification-cta = Crea
+account-recovery-notification-cta = Genera
 account-recovery-notification-header-value = Non perdere i tuoi dati se dimentichi la password
-account-recovery-notification-header-description = Crea una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
+account-recovery-notification-header-description = Genera una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richiesta non valida
 
@@ -304,7 +304,7 @@ password-strength-balloon-heading = Requisiti della password
 password-strength-balloon-min-length = Almeno 8 caratteri
 password-strength-balloon-not-email = Non uguale al tuo indirizzo email
 password-strength-balloon-not-common = Non una password di uso comune
-password-strength-balloon-stay-safe-tips = Rimani al sicuro: non riutilizzare le password. Scopri altri suggerimenti per <LinkExternal>creare password complesse</LinkExternal>.
+password-strength-balloon-stay-safe-tips = Rimani al sicuro: non riutilizzare le password. Scopri altri suggerimenti per <LinkExternal>generare password complesse</LinkExternal>.
 
 ## Ready component
 
@@ -456,16 +456,16 @@ flow-container-back = Indietro
 flow-recovery-key-confirm-pwd-heading-v2 = Reinserire la password per motivi di sicurezza
 flow-recovery-key-confirm-pwd-input-label = Inserire la password
 # Clicking on this button will check the password and create an account recovery key
-flow-recovery-key-confirm-pwd-submit-button = Crea una chiave di recupero dell’account
+flow-recovery-key-confirm-pwd-submit-button = Genera una chiave di recupero dell’account
 # For users with an existing account recovery key, clicking on this button will
 # check the password, delete the existing key and create a new account recovery key
-flow-recovery-key-confirm-pwd-submit-button-change-key = Crea una nuova chiave di recupero dell’account
+flow-recovery-key-confirm-pwd-submit-button-change-key = Genera una nuova chiave di recupero dell’account
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Chiave di recupero dell’account creata: scaricala e salvala subito
+flow-recovery-key-download-heading-v2 = Chiave di recupero dell’account generata: scaricala e salvala subito
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info-v2 = Questa chiave consente di recuperare i propri dati se si dimentica la password. Scaricala adesso e conservala in un luogo facile da ricordare (non sarà possibile ritornare a questa pagina).
 # This link allows user to proceed to the next step without clicking the download button
@@ -500,13 +500,13 @@ flow-recovery-key-hint-unsafe-char-error = Il suggerimento non può contenere ca
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
-flow-recovery-key-info-header = Crea una chiave di recupero dell’account nel caso in cui dimentichi la password
+flow-recovery-key-info-header = Genera una chiave di recupero dell’account nel caso in cui dimentichi la password
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Modifica la chiave di recupero dell’account
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Crittiamo i dati di navigazione: password, segnalibri e altro ancora. È ottimo per la privacy, ma potresti perdere i tuoi dati se dimentichi la password.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point-v2 = Ecco perché è così importante creare una chiave di recupero dell’account: puoi usarla per ripristinare i tuoi dati.
+flow-recovery-key-info-key-bullet-point-v2 = Ecco perché è così importante generare una chiave di recupero dell’account: puoi usarla per ripristinare i tuoi dati.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Inizia
 # Link to cancel account recovery key change and return to settings
@@ -563,7 +563,7 @@ nav-email-comm = Comunicazioni via email
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Si è verificato un problema durante la sostituzione dei codici di autenticazione di backup
-tfa-create-code-error = Si è verificato un problema durante la creazione dei codici di autenticazione di backup
+tfa-create-code-error = Si è verificato un problema durante la generazione dei codici di autenticazione di backup
 tfa-replace-code-success-1 = Nuovi codici generati. Custodisci questi codici di autenticazione di backup monouso in un posto sicuro e usali per accedere al tuo account quando non hai con te il tuo dispositivo mobile.
 tfa-replace-code-success-alert-3 = Codici di autenticazione di backup dell’account aggiornati
 tfa-replace-code-1-2 = Passaggio 1 di 2
@@ -611,7 +611,7 @@ pw-not-email = Non uguale al tuo indirizzo email
 pw-change-must-match = La nuova password corrisponde alla conferma
 pw-commonly-used = Non una password di uso comune
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-tips = Rimani al sicuro: non riutilizzare la stessa password in servizi diversi. Scopri altri suggerimenti per <linkExternal>creare password complesse</linkExternal>.
+pw-tips = Rimani al sicuro: non riutilizzare la stessa password in servizi diversi. Scopri altri suggerimenti per <linkExternal>generare password complesse</linkExternal>.
 pw-change-cancel-button = Annulla
 pw-change-save-button = Salva
 pw-change-forgot-password-link = Password dimenticata?
