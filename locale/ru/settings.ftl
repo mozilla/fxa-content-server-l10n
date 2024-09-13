@@ -207,12 +207,21 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Иллюстрация для представления ключа восстановления аккаунта.
-lock-image-aria-label =
-    .aria-label = Иллюстрация замка
+password-image-aria-label =
+    .aria-label = Иллюстрация, показывающая ввод пароля.
 lightbulb-aria-label =
     .aria-label = Иллюстрация, показывающая создание подсказки хранилища.
 email-code-image-aria-label =
     .aria-label = Иллюстрация для представления электронного письма, содержащего код.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Вы вошли в { -brand-firefox }
+inline-recovery-key-setup-create-header = Защитите свой аккаунт
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Уделите минуту на защиту своих данных?
 
 ## Input Password
 
@@ -271,6 +280,9 @@ primary-email-confirmation-link-reused = Основная электронная
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вход уже подтверждён
 confirmation-link-reused-message = Эта ссылка для подтверждения уже была использована, и может использоваться только один раз.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неверный запрос
 
@@ -305,6 +317,17 @@ ready-continue = Продолжить
 sign-in-complete-header = Вход подтверждён
 sign-up-complete-header = Аккаунт подтверждён
 primary-email-verified-header = Основная электронная почта подтверждена
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Места для хранения вашего ключа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Папка на защищённом устройстве
+flow-recovery-key-download-storage-ideas-cloud = Надежное облачное хранилище
+flow-recovery-key-download-storage-ideas-print-v2 = Распечатанная физическая копия
+flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
 
 ## Alert Bar
 
@@ -443,13 +466,6 @@ flow-recovery-key-download-heading-v2 = Создан ключ восстанов
 flow-recovery-key-download-info-v2 = Этот ключ позволяет восстановить данные, если вы забудете пароль. Загрузите его сейчас и сохраните в удобном для вас месте — вы не сможете вернуться на эту страницу позже.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Продолжить без загрузки
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Места для хранения вашего ключа:
-flow-recovery-key-download-storage-ideas-folder-v2 = Папка на защищённом устройстве
-flow-recovery-key-download-storage-ideas-cloud = Надежное облачное хранилище
-flow-recovery-key-download-storage-ideas-print-v2 = Распечатанная физическая копия
-flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1070,6 +1086,9 @@ index-cta = Зарегистрироваться или войти
 index-account-info = { -product-mozilla-account } также открывает доступ к другим продуктам { -brand-mozilla } для защиты приватности.
 index-email-input =
     .label = Введите ваш адрес эл. почты
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
