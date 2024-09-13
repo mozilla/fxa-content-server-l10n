@@ -207,12 +207,21 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustracija za kontowy wobnowjenski kluč.
-lock-image-aria-label =
-    .aria-label = Ilustracija zamka
 lightbulb-aria-label =
     .aria-label = Ilustracija za wutworjenje składowanskeje pokazki.
 email-code-image-aria-label =
     .aria-label = Ilustracija za mejlku, kotraž kod wobsahuje.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Sće pola { -brand-firefox } přizjewjeny
+inline-recovery-key-setup-create-header = Zawěsćće swoje konto
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Maće mjeńšinu, zo byšće swoje daty škitał?
+inline-recovery-key-setup-start-button = Kontowy wobnowjenski kluč wutworić
+inline-recovery-key-setup-later-button = Pozdźišo činić
 
 ## Input Password
 
@@ -271,6 +280,10 @@ primary-email-confirmation-link-reused = Primarna e-mejlowa adresa je hižo wokr
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Přizjewjenje je so hižo wobkrućiło
 confirmation-link-reused-message = Tutón wobkrućenski wotkaz je so hižo wužił a da so jenož jónkróć wužiwać.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Wutworić
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne naprašowanje
 
@@ -305,6 +318,17 @@ ready-continue = Dale
 sign-in-complete-header = Přizjewjenje je so wobkrućiło
 sign-up-complete-header = Konto je wobkrućene
 primary-email-verified-header = Primarna e-mejlowa adresa je wokrućena
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašeho kluča:
+flow-recovery-key-download-storage-ideas-folder-v2 = Rjadowak na wěstym graće
+flow-recovery-key-download-storage-ideas-cloud = Dowěryhódny składowak w cloudźe
+flow-recovery-key-download-storage-ideas-print-v2 = Wućišćana kopija
+flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
 
 ## Alert Bar
 
@@ -445,13 +469,6 @@ flow-recovery-key-download-heading-v2 = Kontowy wobnowjenski kluč je so wutwori
 flow-recovery-key-download-info-v2 = Tutón kluč wam zmóžnja, waše daty wobnowić, jeli swoje hesło zabywaće. Sćehńće jón nětko a składujće jón na městnje, kotrež móžeće sej spomjatkować – njemóžeće so pozdźišo k tutej stronje wróćić.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Dale bjez sćehnjenja
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašeho kluča:
-flow-recovery-key-download-storage-ideas-folder-v2 = Rjadowak na wěstym graće
-flow-recovery-key-download-storage-ideas-cloud = Dowěryhódny składowak w cloudźe
-flow-recovery-key-download-storage-ideas-print-v2 = Wućišćana kopija
-flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1070,6 +1087,12 @@ index-cta = Registrować abo přizjewić
 index-account-info = Konto { -product-mozilla-account } tež přistup k wjace produktam škita datow wot { -brand-mozilla } zmóžnja.
 index-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Kontowy wobnowjenski kluč je so wutworił
+inline-recovery-key-setup-download-header = Zawěsćće swoje konto
+inline-recovery-key-setup-download-subheader = Sćehńće a składujće jón nětko
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
