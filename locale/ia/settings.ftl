@@ -217,6 +217,7 @@ email-code-image-aria-label =
 ## after signing in.
 
 inline-recovery-key-setup-create-header = Protege tu conto
+inline-recovery-key-setup-info = Crea un clave de recuperation del conto proque tu pote restaurar le datos de synchronisation de navigation si tu oblida tu contrasigno.
 inline-recovery-key-setup-start-button = Crear clave de recuperation del conto
 
 ## Input Password
@@ -279,6 +280,7 @@ confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite us
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Crear
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mal requesta
 
@@ -1087,6 +1089,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Clave de recuperation del conto create
 inline-recovery-key-setup-download-header = Protege tu conto
 
 ## InlineRecoverySetup page
