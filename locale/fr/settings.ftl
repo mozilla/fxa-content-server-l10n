@@ -221,10 +221,10 @@ email-code-image-aria-label =
 inline-recovery-key-setup-signed-in-firefox = Connexion à { -brand-firefox } établie
 inline-recovery-key-setup-create-header = Sécurisez votre compte
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
-inline-recovery-key-setup-create-subheader = Vous avez une minute pour protéger vos données ?
+inline-recovery-key-setup-create-subheader = Avez-vous une minute pour protéger vos données ?
 inline-recovery-key-setup-info = Créez une clé de récupération de compte afin de pouvoir restaurer vos données de navigation synchronisées si jamais vous oubliez votre mot de passe.
 inline-recovery-key-setup-start-button = Créer une clé de récupération de compte
-inline-recovery-key-setup-later-button = Faire plus tard
+inline-recovery-key-setup-later-button = Le faire plus tard
 
 ## Input Password
 
@@ -1088,7 +1088,7 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Clé de récupération de compte créée
 inline-recovery-key-setup-download-header = Sécurisez votre compte
-inline-recovery-key-setup-download-subheader = Téléchargez-le et stockez-le maintenant
+inline-recovery-key-setup-download-subheader = Téléchargez-la et stockez-la maintenant
 inline-recovery-key-setup-download-info = Conservez cette clé dans un endroit où vous vous en souviendrez — vous ne pourrez pas y revenir plus tard.
 
 ## InlineRecoverySetup page
