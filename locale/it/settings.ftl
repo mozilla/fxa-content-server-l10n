@@ -222,7 +222,7 @@ inline-recovery-key-setup-signed-in-firefox = Hai effettuato l’accesso a { -br
 inline-recovery-key-setup-create-header = Proteggi il tuo account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hai un minuto per proteggere i tuoi dati?
-inline-recovery-key-setup-info = Crea una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati se dovessi dimenticare la password.
+inline-recovery-key-setup-info = Crea una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
 inline-recovery-key-setup-start-button = Crea una chiave di recupero dell’account
 inline-recovery-key-setup-later-button = Fallo più tardi
 
