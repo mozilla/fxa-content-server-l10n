@@ -252,12 +252,12 @@ fraudulentAccountDeletion-contact-plaintext = Per qualsiasi domanda contatta il 
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Hai esaurito i codici di autenticazione di backup!
 codes-reminder-title-one = Ultimo codice di autenticazione di backup rimasto
-codes-reminder-title-two = È arrivato il momento di creare nuovi codici di autenticazione di backup
+codes-reminder-title-two = È arrivato il momento di generare nuovi codici di autenticazione di backup
 codes-reminder-description-part-one = I codici di autenticazione di backup ti permettono di ripristinare i tuoi dati nel caso in cui dimentichi la password.
-codes-reminder-description-part-two = Crea adesso nuovi codici per non perdere i tuoi dati in futuro.
+codes-reminder-description-part-two = Genera adesso nuovi codici per non perdere i tuoi dati in futuro.
 codes-reminder-description-two-left = Rimangono solo solo due codici.
-codes-reminder-description-create-codes = Crea nuovi codici di autenticazione di backup per poter accedere al tuo account nel caso in cui rimani bloccato fuori.
-lowRecoveryCodes-action-2 = Crea codici
+codes-reminder-description-create-codes = Genera nuovi codici di autenticazione di backup per poter accedere al tuo account nel caso in cui rimani bloccato fuori.
+lowRecoveryCodes-action-2 = Genera codici
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
@@ -299,10 +299,10 @@ passwordResetAccountRecovery-title-2 = Password reimpostata correttamente
 # Details of the device and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Hai utilizzato la chiave di recupero dell’account per aggiornare la password da:
 # Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Crea una chiave di recupero dell’account
-passwordResetAccountRecovery-regen-required-mjml-1 = Sarà necessario accedere di nuovo su tutti i tuoi dispositivi sincronizzati. Ricordati di creare una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato.
+passwordResetAccountRecovery-action-3 = Genera una chiave di recupero dell’account
+passwordResetAccountRecovery-regen-required-mjml-1 = Sarà necessario accedere di nuovo su tutti i tuoi dispositivi sincronizzati. Ricordati di generare una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Sarà necessario accedere di nuovo su tutti i tuoi dispositivi sincronizzati. Ricordati di creare una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato:
+passwordResetAccountRecovery-regen-required-txt-1 = Sarà necessario accedere di nuovo su tutti i tuoi dispositivi sincronizzati. Ricordati di generare una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato:
 postAddAccountRecovery-subject-3 = Generata nuova chiave di recupero dell’account
 postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero dell’account
 # Key here refers to account recovery key
@@ -341,8 +341,8 @@ postConsumeRecoveryCode-subject-2 =
         [one] 1 codice di autenticazione di backup rimasto
        *[other] { $numberRemaining } codici di autenticazione di backup rimasti
     }
-postNewRecoveryCodes-subject-2 = Sono stati creati nuovi codici di autenticazione di backup
-postNewRecoveryCodes-title-2 = Hai creato nuovi codici di autenticazione di backup
+postNewRecoveryCodes-subject-2 = Sono stati generati nuovi codici di autenticazione di backup
+postNewRecoveryCodes-title-2 = Hai generato nuovi codici di autenticazione di backup
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Sono stati creati su:
 postNewRecoveryCodes-action = Gestisci account

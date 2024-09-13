@@ -224,7 +224,7 @@ inline-recovery-key-setup-create-header = Proteggi il tuo account
 inline-recovery-key-setup-create-subheader = Hai un minuto per proteggere i tuoi dati?
 inline-recovery-key-setup-info = Crea una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
 inline-recovery-key-setup-start-button = Crea una chiave di recupero dell’account
-inline-recovery-key-setup-later-button = Fallo più tardi
+inline-recovery-key-setup-later-button = Più tardi
 
 ## Input Password
 
@@ -288,7 +288,7 @@ confirmation-link-reused-message = Questo link di conferma è già stato utilizz
 
 account-recovery-notification-cta = Crea
 account-recovery-notification-header-value = Non perdere i tuoi dati se dimentichi la password
-account-recovery-notification-header-description = Crea una chiave di recupero dell’account per ripristinare la sincronizzazione dei dati di navigazione se dovessi dimenticare la password.
+account-recovery-notification-header-description = Crea una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richiesta non valida
 
@@ -1082,8 +1082,8 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = La chiave di recupero dell’account è stata generata
 inline-recovery-key-setup-download-header = Proteggi il tuo account
-inline-recovery-key-setup-download-subheader = Scaricalo e salvalo subito
-inline-recovery-key-setup-download-info = Conserva questa chiave in un posto che ricorderai: non potrai tornare a questa pagina in seguito.
+inline-recovery-key-setup-download-subheader = Scaricala e salvala adesso
+inline-recovery-key-setup-download-info = Conserva questa chiave in un posto facile da ricordare: non potrai tornare a questa pagina più tardi.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
