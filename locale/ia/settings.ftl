@@ -207,6 +207,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustration pro representar un clave de recuperation de conto.
+password-image-aria-label =
+    .aria-label = Un illustration pro representar le insertion de un contrasigno.
 lightbulb-aria-label =
     .aria-label = Illustration pro representar le creation de un indicio de immagazinage.
 email-code-image-aria-label =
@@ -216,9 +218,13 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = Tu ha accedite a { -brand-firefox }
 inline-recovery-key-setup-create-header = Protege tu conto
-inline-recovery-key-setup-info = Crea un clave de recuperation del conto proque tu pote restaurar le datos de synchronisation de navigation si tu oblida tu contrasigno.
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Ha tu un minuta pro proteger tu datos?
+inline-recovery-key-setup-info = Crea un clave de recuperation del conto proque tu pote restaurar le datos de navigation synchronisate si tu oblida tu contrasigno.
 inline-recovery-key-setup-start-button = Crear clave de recuperation del conto
+inline-recovery-key-setup-later-button = Plus tarde
 
 ## Input Password
 
@@ -281,6 +287,8 @@ confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite us
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = Non perde tu datos si tu oblida tu contrasigno
+account-recovery-notification-header-description = Crea un clave de recuperation del conto proque tu pote restaurar le datos de navigation synchronisate si tu oblida tu contrasigno.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mal requesta
 
@@ -1091,6 +1099,8 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Clave de recuperation del conto create
 inline-recovery-key-setup-download-header = Protege tu conto
+inline-recovery-key-setup-download-subheader = Discarga e immagazina lo ora
+inline-recovery-key-setup-download-info = Immagazina iste clave in qualque loco que tu memorara, tu non potera revolver a iste pagina plus tarde.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
