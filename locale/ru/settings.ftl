@@ -222,6 +222,9 @@ inline-recovery-key-setup-signed-in-firefox = Вы вошли в { -brand-firefo
 inline-recovery-key-setup-create-header = Защитите свой аккаунт
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Уделите минуту на защиту своих данных?
+inline-recovery-key-setup-info = Создайте ключ восстановления аккаунта, это позволит вам восстановить синхронизированные данные о просмотре, если забудете пароль.
+inline-recovery-key-setup-start-button = Создать ключ восстановления аккаунта
+inline-recovery-key-setup-later-button = Сделать это позже
 
 ## Input Password
 
@@ -283,6 +286,9 @@ confirmation-link-reused-message = Эта ссылка для подтвержд
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Создать
+account-recovery-notification-header-value = Не потеряйте свои данные, если забудете пароль
+account-recovery-notification-header-description = Создайте ключ восстановления аккаунта, чтобы восстановить синхронизированные данные о просмотре, если забудете пароль.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неверный запрос
 
@@ -1089,6 +1095,10 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Ключ восстановления аккаунта создан
+inline-recovery-key-setup-download-header = Защитите свой аккаунт
+inline-recovery-key-setup-download-subheader = Загрузить и сохранить его сейчас
+inline-recovery-key-setup-download-info = Храните этот ключ в удобном для вас месте — вы не сможете вернуться на эту страницу позже.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
