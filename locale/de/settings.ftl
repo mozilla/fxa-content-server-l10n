@@ -224,7 +224,7 @@ inline-recovery-key-setup-create-header = Sichern Sie Ihr Konto
 inline-recovery-key-setup-create-subheader = Haben Sie eine Minute Zeit, um Ihre Daten zu schützen?
 inline-recovery-key-setup-info = Erstellen Sie einen Kontowiederherstellungsschlüssel, damit Sie Ihre synchronisierten Surf-Daten wiederherstellen können, wenn Sie jemals Ihr Passwort vergessen haben.
 inline-recovery-key-setup-start-button = Kontowiederherstellungsschlüssel erstellen
-inline-recovery-key-setup-later-button = Machen Sie es später
+inline-recovery-key-setup-later-button = Später
 
 ## Input Password
 
@@ -1094,7 +1094,7 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Kontowiederherstellungsschlüssel erstellt
 inline-recovery-key-setup-download-header = Sichern Sie Ihr Konto
-inline-recovery-key-setup-download-subheader = Laden Sie sie jetzt herunter und speichern Sie sie
+inline-recovery-key-setup-download-subheader = Jetzt herunterladen und speichern
 inline-recovery-key-setup-download-info = Speichern Sie diesen Schlüssel an einem Ort, an den Sie sich erinnern können – Sie können diese Seite später nicht wieder aufrufen.
 
 ## InlineRecoverySetup page
