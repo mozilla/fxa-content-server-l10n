@@ -207,12 +207,19 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = 账户恢复密钥的图案。
-lock-image-aria-label =
-    .aria-label = 挂锁图形
+password-image-aria-label =
+    .aria-label = 一幅插图，展示了输入密码的情景。
 lightbulb-aria-label =
     .aria-label = 创建存储的图案。
 email-code-image-aria-label =
     .aria-label = 一封包含验证码的电子邮件的插图。
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = 您已登录 { -brand-firefox }
+inline-recovery-key-setup-create-header = 保护账户安全
 
 ## Input Password
 
@@ -271,6 +278,9 @@ primary-email-confirmation-link-reused = 主邮箱地址已经确认
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 登录已确认
 confirmation-link-reused-message = 此确认链接已被使用，并只能使用一次。
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 错误请求
 
@@ -305,6 +315,17 @@ ready-continue = 继续
 sign-in-complete-header = 已确认登录
 sign-up-complete-header = 账户已确认
 primary-email-verified-header = 主邮箱已确认
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = 密钥存放位置：
+flow-recovery-key-download-storage-ideas-folder-v2 = 安全设备上的文件夹
+flow-recovery-key-download-storage-ideas-cloud = 可信的云存储
+flow-recovery-key-download-storage-ideas-print-v2 = 打印的物理副本
+flow-recovery-key-download-storage-ideas-pwd-manager = 密码管理器
 
 ## Alert Bar
 
@@ -443,13 +464,6 @@ flow-recovery-key-download-heading-v2 = 已创建账户恢复密钥——立即�
 flow-recovery-key-download-info-v2 = 如果您忘记密码，此密钥可让您恢复数据。请立即下载并将其妥善保存——您将无法返回此页面。
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = 继续但不下载
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = 密钥存放位置：
-flow-recovery-key-download-storage-ideas-folder-v2 = 安全设备上的文件夹
-flow-recovery-key-download-storage-ideas-cloud = 可信的云存储
-flow-recovery-key-download-storage-ideas-print-v2 = 打印的物理副本
-flow-recovery-key-download-storage-ideas-pwd-manager = 密码管理器
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1049,6 +1063,9 @@ index-account-info = { -product-mozilla-account }还可用于访问 { -brand-moz
 index-email-input =
     .label = 请输入邮箱地址
 
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1390,6 +1407,13 @@ signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被�
 signin-bounced-help = 如果这是一个有效的电子邮件地址，请<linkExternal>告诉我们</linkExternal>，我们可以帮助解锁您的账户。
 signin-bounced-create-new-account = 不再拥有该邮箱？创建一个新账户吧
 back = 上一步
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
