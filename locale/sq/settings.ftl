@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustrim që përfaqëson një kyç rimarrjeje llogarie.
-lock-image-aria-label =
-    .aria-label = Ilustrim dryni
+password-image-aria-label =
+    .aria-label = Një ilustrim për të treguar shtypje fjalëkalimi.
 lightbulb-aria-label =
     .aria-label = Ilustrim që përfaqëson krijimin e një ndihmëze depozitimi.
 email-code-image-aria-label =
     .aria-label = Ilustrim për të treguar një email që përmban një kod.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Keni bërë hyrjen në llogarinë { -brand-firefox }
+inline-recovery-key-setup-create-header = Siguroni llogarinë tuaj
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Ju tepron një minutë, për mbrojtjen e të dhënave tuaja?
+inline-recovery-key-setup-info = Krijoni një kyç rimarrjeje llogarie, që të mund të riktheni të dhëna shfletimi të njëkohësuara, nëse harroni ndonjëherë fjalëkalimin tuaj.
+inline-recovery-key-setup-start-button = Krijoni kyç rimarrjeje llogarie
+inline-recovery-key-setup-later-button = Bëje më vonë
 
 ## Input Password
 
@@ -271,6 +283,11 @@ primary-email-confirmation-link-reused = Email-i parësor tashmë i verifikuar
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Hyrje tashmë e ripohuar
 confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe mund të përdoret vetëm një herë.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Krijoje
+account-recovery-notification-header-value = Mos humbni të dhënat tuaja, nëse harroni fjalëkalimin
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Kërkesë e Gabuar
 
@@ -305,6 +322,17 @@ ready-continue = Vazhdo
 sign-in-complete-header = Hyrje e ripohuar
 sign-up-complete-header = Llogaria u ripohua
 primary-email-verified-header = Email-i parësor u ripohua
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Vende ku të depozitoni kyçin tuaj:
+flow-recovery-key-download-storage-ideas-folder-v2 = Dosje në pajisje të siguruar
+flow-recovery-key-download-storage-ideas-cloud = Depozitim i besueshëm në re
+flow-recovery-key-download-storage-ideas-print-v2 = Kopje materiale e shtypur
+flow-recovery-key-download-storage-ideas-pwd-manager = Përgjegjës fjalëkalimesh
 
 ## Alert Bar
 
@@ -443,13 +471,6 @@ flow-recovery-key-download-heading-v2 = Kyçi i rimarrjes së llogarisë u kriju
 flow-recovery-key-download-info-v2 = Ky kyç ju lejon të rimerrni të dhënat tuaja, në rast se harroni fjalëkalimin tuaj. Shkarkoheni dhe depozitojeni diku ku e mbani mend — s’do të jeni në gjendje të ktheheni te kjo faqe më vonë.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Vazhdo pa e shkarkuar
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Vende ku të depozitoni kyçin tuaj:
-flow-recovery-key-download-storage-ideas-folder-v2 = Dosje në pajisje të siguruar
-flow-recovery-key-download-storage-ideas-cloud = Depozitim i besueshëm në re
-flow-recovery-key-download-storage-ideas-print-v2 = Kopje materiale e shtypur
-flow-recovery-key-download-storage-ideas-pwd-manager = Përgjegjës fjalëkalimesh
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1071,6 +1092,11 @@ index-account-info = Një { -product-mozilla-account } shkyç gjithashtu përdor
 index-email-input =
     .label = Jepni email-in tuaj
 
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-download-header = Siguroni llogarinë tuaj
+inline-recovery-key-setup-download-subheader = Shkarkojeni dhe depozitojeni që tani
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1406,6 +1432,20 @@ signin-bounced-message = Email-i i ripohimit që dërguam te { $email } u kthye 
 signin-bounced-help = Nëse kjo është një adresë email e vlefshme, <linkExternal>na e bëni të ditur</linkExternal> dhe do t’ju ndihmojmë ta zhbllokoni llogarinë tuaj.
 signin-bounced-create-new-account = S’e keni më në zotërim atë email? Krijoni një llogari të re
 back = Mbrapsht
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-did-not-recieve = S’e morët njoftimin?
+signin-push-code-send-email-link = Kod email
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Ripohoni hyrjen tuaj
+signin-push-code-confirm-verifying = Po verifikohet
+signin-push-code-confirm-login = Ripohoni hyrjen
+signin-push-code-confirm-wasnt-me = S’qeshë unë, ndryshojeni fjalëkalimin.
+signin-push-code-confirm-link-error = Lidhja është e dëmtuar. Ju lutemi, riprovoni
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
