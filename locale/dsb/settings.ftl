@@ -207,12 +207,16 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustracija za kontowy wótnowjeński kluc.
-lock-image-aria-label =
-    .aria-label = Ilustracija pytka
 lightbulb-aria-label =
     .aria-label = Ilustracija za napóranje składowańskeje pokazki.
 email-code-image-aria-label =
     .aria-label = Ilustracija za mejlku, kótaraž kod wopśimujo.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Sćo pla { -brand-firefox } pśizjawjony
 
 ## Input Password
 
@@ -271,6 +275,9 @@ primary-email-confirmation-link-reused = Primarna e-mailowa adresa jo južo wok�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Pśizjawjenje jo se južo wobkšuśiło
 confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jaden raz wužywaś.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne napšašowanje
 
@@ -305,6 +312,17 @@ ready-continue = Dalej
 sign-in-complete-header = Pśizjawjenje jo se wobkšuśiło
 sign-up-complete-header = Konto jo wobkšuśone
 primary-email-verified-header = Primarna e-mailowa adresa jo wokšuśona
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašogo kluca:
+flow-recovery-key-download-storage-ideas-folder-v2 = Zarědnik na wěstem rěźe
+flow-recovery-key-download-storage-ideas-cloud = Dowěry gódny składowak w clouźe
+flow-recovery-key-download-storage-ideas-print-v2 = Wuśišćana kopija
+flow-recovery-key-download-storage-ideas-pwd-manager = Zastojnik gronidłow
 
 ## Alert Bar
 
@@ -445,13 +463,6 @@ flow-recovery-key-download-heading-v2 = Kontowy wótnowjeński kluc jo se napór
 flow-recovery-key-download-info-v2 = Toś ten kluc wam zmóžnja, waše daty wótnowiś, jolic swójo gronidło zabywaśo. Ześěgniśo jen něnto a składujśo jen na městnje, kótarež móžośo se spomnjeś – njamóžośo se pózdźej toś tomu bokoju wrośiś.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Dalej bźez ześěgnjenja
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašogo kluca:
-flow-recovery-key-download-storage-ideas-folder-v2 = Zarědnik na wěstem rěźe
-flow-recovery-key-download-storage-ideas-cloud = Dowěry gódny składowak w clouźe
-flow-recovery-key-download-storage-ideas-print-v2 = Wuśišćana kopija
-flow-recovery-key-download-storage-ideas-pwd-manager = Zastojnik gronidłow
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1068,6 +1079,9 @@ index-cta = Registrěrowaś abo pśizjawiś
 index-account-info = Konto { -product-mozilla-account } teke pśistup k wěcej produktam šćita datow wót { -brand-mozilla } zmóžnja.
 index-email-input =
     .label = Zapódajśo swóju e-mailowu adresu
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
