@@ -207,12 +207,23 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = 表示帳號救援金鑰的插圖。
-lock-image-aria-label =
-    .aria-label = 一把鎖頭的插圖
+password-image-aria-label =
+    .aria-label = 展示密碼輸入過程的示意圖。
 lightbulb-aria-label =
     .aria-label = 請使用者建立備份儲存位置提示的插圖。
 email-code-image-aria-label =
     .aria-label = 表示出一封含有確認碼的電子郵件的圖片。
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = 您已登入 { -brand-firefox }
+inline-recovery-key-setup-create-header = 讓您的帳號更安全
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = 要不要花點時間來保護您的資料？
+inline-recovery-key-setup-start-button = 產生帳號救援金鑰
+inline-recovery-key-setup-later-button = 稍後再做
 
 ## Input Password
 
@@ -271,6 +282,11 @@ primary-email-confirmation-link-reused = 主要電子郵件地址已經驗證過
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 已確認過此次登入
 confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被使用過了。
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = 建立
+account-recovery-notification-header-value = 就算忘記密碼也不失去資料
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 請求錯誤
 
@@ -305,6 +321,17 @@ ready-continue = 繼續
 sign-in-complete-header = 登入完成
 sign-up-complete-header = 帳號已確認
 primary-email-verified-header = 已驗證主要電子郵件地址
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = 金鑰存放位置：
+flow-recovery-key-download-storage-ideas-folder-v2 = 安全裝置上的資料夾
+flow-recovery-key-download-storage-ideas-cloud = 可靠的雲端儲存服務
+flow-recovery-key-download-storage-ideas-print-v2 = 印出紙本
+flow-recovery-key-download-storage-ideas-pwd-manager = 密碼管理員
 
 ## Alert Bar
 
@@ -441,13 +468,6 @@ flow-recovery-key-download-heading-v2 = 已建立帳號救援金鑰 — 請立�
 flow-recovery-key-download-info-v2 = 若您萬一忘記密碼，此金鑰可協助您救回資料。請立即下載，並在您能夠記得找回的方式也備份一份。本頁面只會顯示一次。
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = 不下載繼續
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = 金鑰存放位置：
-flow-recovery-key-download-storage-ideas-folder-v2 = 安全裝置上的資料夾
-flow-recovery-key-download-storage-ideas-cloud = 可靠的雲端儲存服務
-flow-recovery-key-download-storage-ideas-print-v2 = 印出紙本
-flow-recovery-key-download-storage-ideas-pwd-manager = 密碼管理員
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1046,6 +1066,9 @@ index-cta = 註冊或登入
 index-account-info = 註冊 { -product-mozilla-account }，即可使用 { -brand-mozilla } 更多隱私保護相關產品。
 index-email-input =
     .label = 輸入您的電子郵件地址
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
