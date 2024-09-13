@@ -220,6 +220,11 @@ email-code-image-aria-label =
 
 inline-recovery-key-setup-signed-in-firefox = 您已登录 { -brand-firefox }
 inline-recovery-key-setup-create-header = 保护账户安全
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = 花上片刻来保护您的数据吧？
+inline-recovery-key-setup-info = 创建账户恢复密钥。即使忘记密码，也能恢复同步的浏览数据。
+inline-recovery-key-setup-start-button = 创建账户恢复密钥
+inline-recovery-key-setup-later-button = 稍后设置
 
 ## Input Password
 
@@ -281,6 +286,9 @@ confirmation-link-reused-message = 此确认链接已被使用，并只能使用
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = 创建
+account-recovery-notification-header-value = 忘记密码也不致丢失数据
+account-recovery-notification-header-description = 创建账户恢复密钥，以在忘记密码时恢复同步的浏览数据。
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 错误请求
 
@@ -1065,6 +1073,10 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = 已创建账户恢复密钥
+inline-recovery-key-setup-download-header = 保护账户安全
+inline-recovery-key-setup-download-subheader = 立即下载并存储
+inline-recovery-key-setup-download-info = 请将此密钥存储在您会记得的位置。以后将无法再回到此页面。
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1411,9 +1423,21 @@ back = 上一步
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = 验证此次登录<span>以继续进行账户设置</span>
+signin-push-code-heading-w-custom-service = 验证此次登录<span>以进入 { $serviceName }</span>
+signin-push-code-instruction = 请在您的其他设备上，批准此次来自 { -brand-firefox } 浏览器的登录。
+signin-push-code-did-not-recieve = 没有收到通知？
+signin-push-code-send-email-link = 通过邮件发送验证码
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = 请确认登录
+signin-push-code-confirm-description = 我们发现来自以下设备的登录尝试。如果是您在操作，请批准此次登录。
+signin-push-code-confirm-verifying = 正在验证
+signin-push-code-confirm-login = 确认登录
+signin-push-code-confirm-wasnt-me = 非本人操作，更改密码。
+signin-push-code-confirm-login-approved = 已批准登录，请关闭此窗口。
+signin-push-code-confirm-link-error = 链接已损坏，请重试。
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
