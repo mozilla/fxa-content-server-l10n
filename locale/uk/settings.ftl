@@ -216,6 +216,9 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-create-header = Захистіть свій обліковий запис
+inline-recovery-key-setup-start-button = Створити ключ відновлення облікового запису
+inline-recovery-key-setup-later-button = Зробити це пізніше
 
 ## Input Password
 
@@ -277,6 +280,8 @@ confirmation-link-reused-message = Це посилання для підтвер
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Створити
+account-recovery-notification-header-value = Не втратьте свої дані, якщо забудете пароль
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неправильний запит
 
@@ -1087,6 +1092,8 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Ключ відновлення облікового запису створено
+inline-recovery-key-setup-download-header = Захистіть свій обліковий запис
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1430,11 +1437,14 @@ back = Назад
 signin-push-code-heading-w-default-service = Підтвердьте цей вхід, <span>щоб продовжити налаштування облікового запису</span>
 signin-push-code-heading-w-custom-service = Підтвердьте цей вхід, <span>щоб перейти до { $serviceName }</span>
 signin-push-code-instruction = Перевірте свої інші пристрої та підтвердьте цей вхід у браузері { -brand-firefox }.
+signin-push-code-did-not-recieve = Не отримали сповіщення?
 signin-push-code-send-email-link = Код з електронного листа
 
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Підтвердьте свій вхід
+signin-push-code-confirm-verifying = Перевірка
+signin-push-code-confirm-login = Підтвердити вхід
 signin-push-code-confirm-wasnt-me = Це не я, змінити пароль.
 signin-push-code-confirm-login-approved = Ваш вхід підтверджено. Можете закрити це вікно.
 signin-push-code-confirm-link-error = Посилання пошкоджено. Повторіть спробу.
