@@ -207,12 +207,15 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ілюстрація ключа відновлення облікового запису.
-lock-image-aria-label =
-    .aria-label = Ілюстрація замка
 lightbulb-aria-label =
     .aria-label = Ілюстрація для створення підказки про сховище.
 email-code-image-aria-label =
     .aria-label = Ілюстрація із зображенням електронного листа з кодом.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -271,6 +274,9 @@ primary-email-confirmation-link-reused = Основна адреса елект�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вхід вже підтверджений
 confirmation-link-reused-message = Це посилання для підтвердження вже було використане, і може використовуватись лише один раз.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неправильний запит
 
@@ -305,6 +311,17 @@ ready-continue = Продовжити
 sign-in-complete-header = Вхід підтверджено
 sign-up-complete-header = Обліковий запис підтверджено
 primary-email-verified-header = Основну адресу електронної пошти підтверджено
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Місця для зберігання ключа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Тека на безпечному пристрої
+flow-recovery-key-download-storage-ideas-cloud = Надійне хмарне сховище
+flow-recovery-key-download-storage-ideas-print-v2 = Друкована фізична копія
+flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролів
 
 ## Alert Bar
 
@@ -445,13 +462,6 @@ flow-recovery-key-download-heading-v2 = Ключ відновлення облі
 flow-recovery-key-download-info-v2 = Цей ключ дає вам змогу відновити свої дані у разі втрати пароля. Завантажте його і збережіть в надійному місці. Ви не зможете повернутися до цієї сторінки знову.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Продовжити без завантаження
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Місця для зберігання ключа:
-flow-recovery-key-download-storage-ideas-folder-v2 = Тека на безпечному пристрої
-flow-recovery-key-download-storage-ideas-cloud = Надійне хмарне сховище
-flow-recovery-key-download-storage-ideas-print-v2 = Друкована фізична копія
-flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролів
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1075,6 +1085,9 @@ index-account-info = { -product-mozilla-account } також відкриває 
 index-email-input =
     .label = Введіть свою адресу електронної пошти
 
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1410,6 +1423,21 @@ signin-bounced-message = Електронний лист із підтвердж
 signin-bounced-help = Якщо це дійсна адреса електронної пошти, <linkExternal>повідомте нас</linkExternal> і ми допоможемо розблокувати ваш обліковий запис.
 signin-bounced-create-new-account = Ця адреса електронної пошти вам більше не належить? Створіть новий обліковий запис
 back = Назад
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Підтвердьте цей вхід, <span>щоб продовжити налаштування облікового запису</span>
+signin-push-code-heading-w-custom-service = Підтвердьте цей вхід, <span>щоб перейти до { $serviceName }</span>
+signin-push-code-instruction = Перевірте свої інші пристрої та підтвердьте цей вхід у браузері { -brand-firefox }.
+signin-push-code-send-email-link = Код з електронного листа
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Підтвердьте свій вхід
+signin-push-code-confirm-wasnt-me = Це не я, змінити пароль.
+signin-push-code-confirm-login-approved = Ваш вхід підтверджено. Можете закрити це вікно.
+signin-push-code-confirm-link-error = Посилання пошкоджено. Повторіть спробу.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
