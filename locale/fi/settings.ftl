@@ -206,12 +206,22 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Tilin palautusavainta esittävä kuva.
-lock-image-aria-label =
-    .aria-label = Lukon kuva
 lightbulb-aria-label =
     .aria-label = Talletusvihjeen luomista esittävä kuva.
 email-code-image-aria-label =
     .aria-label = Kuva, joka esittää koodin sisältävää sähköpostiviestiä.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Olet kirjautunut { -brand-firefox }iin
+inline-recovery-key-setup-create-header = Suojaa tilisi
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Onko sinulla hetki aikaa suojata tietosi?
+inline-recovery-key-setup-info = Luo tilin palautusavain, jotta voit palauttaa synkronoidut selaustiedot, jos unohdat salasanasi.
+inline-recovery-key-setup-start-button = Luo tilin palautusavain
+inline-recovery-key-setup-later-button = Tee se myöhemmin
 
 ## Input Password
 
@@ -270,6 +280,12 @@ primary-email-confirmation-link-reused = Ensisijainen sähköposti on jo vahvist
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Kirjautuminen on jo vahvistettu
 confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Luo
+account-recovery-notification-header-value = Älä menetä tietojasi, jos unohdat salasanasi
+account-recovery-notification-header-description = Luo tilin palautusavain synkronoitujen selaustietojen palauttamiseksi, jos unohdat salasanasi.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Virheellinen pyyntö
 
@@ -304,6 +320,17 @@ ready-continue = Jatka
 sign-in-complete-header = Kirjautuminen vahvistettu
 sign-up-complete-header = Tili vahvistettu
 primary-email-verified-header = Ensisijainen sähköposti vahvistettu
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Avaimen säilytyspaikkoja:
+flow-recovery-key-download-storage-ideas-folder-v2 = Kansio suojatulla laitteella
+flow-recovery-key-download-storage-ideas-cloud = Luotettu pilvitallennustila
+flow-recovery-key-download-storage-ideas-print-v2 = Tulostettu fyysinen kopio
+flow-recovery-key-download-storage-ideas-pwd-manager = Salasanojen hallinta
 
 ## Alert Bar
 
@@ -400,6 +427,7 @@ cs-sign-out-button = Kirjaudu ulos
 ## Data collection section
 
 dc-heading = Tietojen keruu ja käyttö
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox }-selain
 dc-subheader-content-2 = Salli palvelun { -product-mozilla-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-out-success-2 = Poistuminen onnistui. { -product-mozilla-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
@@ -442,13 +470,6 @@ flow-recovery-key-download-heading-v2 = Tilin palautusavain luotu — Lataa ja t
 flow-recovery-key-download-info-v2 = Tämän avaimen avulla voit palauttaa tietosi, jos unohdat salasanasi. Lataa avain nyt ja talleta se johonkin paikkaan, jonka muistat – et voi palata tälle sivulle myöhemmin.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Jatka lataamatta
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Avaimen säilytyspaikkoja:
-flow-recovery-key-download-storage-ideas-folder-v2 = Kansio suojatulla laitteella
-flow-recovery-key-download-storage-ideas-cloud = Luotettu pilvitallennustila
-flow-recovery-key-download-storage-ideas-print-v2 = Tulostettu fyysinen kopio
-flow-recovery-key-download-storage-ideas-pwd-manager = Salasanojen hallinta
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1070,6 +1091,11 @@ index-cta = Rekisteröidy tai kirjaudu sisään
 index-email-input =
     .label = Kirjoita sähköpostiosoitteesi
 
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-download-header = Suojaa tilisi
+inline-recovery-key-setup-download-subheader = Lataa ja tallenna se nyt
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1403,6 +1429,16 @@ signin-bounced-message = Osoitteeseen { $email } lähetetty vahvistusviesti pala
 signin-bounced-help = Jos tämä on käytössä oleva sähköpostiosoite, <linkExternal>ilmoita siitä meille</linkExternal> niin autamme tilin lukituksen poistossa.
 signin-bounced-create-new-account = Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili
 back = Edellinen
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-wasnt-me = Tämä en ollut minä, vaihda salasana.
+signin-push-code-confirm-login-approved = Kirjautumisesi on hyväksytty. Sulje tämä ikkuna.
+signin-push-code-confirm-link-error = Linkki on vaurioitunut. Yritä uudelleen.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
