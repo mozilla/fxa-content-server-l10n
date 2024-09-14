@@ -195,12 +195,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = איור המייצג מפתח שחזור חשבון.
-lock-image-aria-label =
-    .aria-label = איור של מנעול
+password-image-aria-label =
+    .aria-label = איור המייצג הקלדת ססמה.
 lightbulb-aria-label =
     .aria-label = איור המייצג יצירת רמז לאחסון.
 email-code-image-aria-label =
     .aria-label = איור המייצג מייל המכיל קוד.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = התחברת ל־{ -brand-firefox }
+inline-recovery-key-setup-create-header = אבטחת החשבון שלך
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = יש לך רגע להגן על הנתונים שלך?
+inline-recovery-key-setup-info = ניתן ליצור מפתח לשחזור חשבון כדי לשחזר את נתוני הגלישה המסונכרנים שלך אם הססמה שלך תישכח.
+inline-recovery-key-setup-start-button = יצירת מפתח שחזור חשבון
+inline-recovery-key-setup-later-button = אעשה זאת מאוחר יותר
 
 ## Input Password
 
@@ -259,6 +271,11 @@ primary-email-confirmation-link-reused = כתובת הדוא״ל הראשית כ
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ההתחברות כבר אושרה
 confirmation-link-reused-message = נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = יצירה
+account-recovery-notification-header-description = ניתן ליצור מפתח לשחזור חשבון כדי לשחזר את נתוני הגלישה המסונכרנים שלך אם הססמה שלך תישכח.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = בקשה שגויה
 
@@ -293,6 +310,17 @@ ready-continue = המשך
 sign-in-complete-header = ההתחברות אומתה
 sign-up-complete-header = החשבון מאומת
 primary-email-verified-header = כתובת הדוא״ל הראשית עברה אימות
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = מקומות לאחסון המפתח שלך:
+flow-recovery-key-download-storage-ideas-folder-v2 = תיקייה במכשיר מאובטח
+flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
+flow-recovery-key-download-storage-ideas-print-v2 = עותק פיזי מודפס
+flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
 
 ## Alert Bar
 
@@ -428,13 +456,6 @@ flow-recovery-key-download-heading-v2 = מפתח שחזור חשבון נוצר 
 flow-recovery-key-download-info-v2 = מפתח זה מאפשר לך לשחזר את הנתונים שלך אם הססמה שלך תישכח. יש להוריד אותו עכשיו ולשמור אותו במקום שקל לזכור — לא תהיה לך אפשרות לחזור לדף זה מאוחר יותר.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = המשך ללא הורדה
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = מקומות לאחסון המפתח שלך:
-flow-recovery-key-download-storage-ideas-folder-v2 = תיקייה במכשיר מאובטח
-flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
-flow-recovery-key-download-storage-ideas-print-v2 = עותק פיזי מודפס
-flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1008,6 +1029,9 @@ index-cta = הרשמה או התחברות
 index-account-info = { -product-mozilla-account(case: "a") } גם פותח גישה למוצרים נוספים המגנים על הפרטיות, מבית { -brand-mozilla }.
 index-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
