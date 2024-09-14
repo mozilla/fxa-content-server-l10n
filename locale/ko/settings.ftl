@@ -204,12 +204,15 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = 계정 복구 키를 나타내는 그림입니다.
-lock-image-aria-label =
-    .aria-label = 자물쇠 그림
 lightbulb-aria-label =
     .aria-label = 저장소 힌트 생성을 표현한 그림입니다.
 email-code-image-aria-label =
     .aria-label = 코드가 포함된 이메일을 나타내는 그림입니다.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -255,6 +258,9 @@ primary-email-confirmation-link-reused = 기본 이메일이 이미 승인됨
 signin-confirmation-link-reused = 이 로그인은 이미 승인됨
 confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 승인 링크는 단 한 번만 사용할 수 있습니다.
 
+## Notification Promo Banner component
+
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -281,6 +287,17 @@ ready-continue = 계속
 sign-in-complete-header = 로그인 확인됨
 sign-up-complete-header = 계정 확인됨
 primary-email-verified-header = 기본 이메일 확인됨
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = 키를 저장할 장소:
+flow-recovery-key-download-storage-ideas-folder-v2 = 보안 기기의 폴더
+flow-recovery-key-download-storage-ideas-cloud = 신뢰할 수 있는 클라우드 스토리지
+flow-recovery-key-download-storage-ideas-print-v2 = 복사 된 물리적 사본
+flow-recovery-key-download-storage-ideas-pwd-manager = 비밀번호 관리자
 
 ## Alert Bar
 
@@ -399,13 +416,6 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 새로운 계정 복구
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = 키를 저장할 장소:
-flow-recovery-key-download-storage-ideas-folder-v2 = 보안 기기의 폴더
-flow-recovery-key-download-storage-ideas-cloud = 신뢰할 수 있는 클라우드 스토리지
-flow-recovery-key-download-storage-ideas-print-v2 = 복사 된 물리적 사본
-flow-recovery-key-download-storage-ideas-pwd-manager = 비밀번호 관리자
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -715,6 +725,8 @@ security-action-create = 생성
 security-set-password = 특정 계정 보안 기능을 사용하고 동기화하려면 비밀번호를 설정하세요.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = 최근 계정 활동 보기
+signout-sync-header = 세션이 만료됨
+signout-sync-session-expired = 죄송합니다. 오류가 발생했습니다. 브라우저 메뉴에서 로그아웃하고 다시 시도하세요.
 
 ## Switch component
 
@@ -840,6 +852,7 @@ auth-error-138-2 = 확인되지 않은 세션
 auth-error-139 = 보조 이메일은 계정 이메일과 달라야 합니다.
 auth-error-155 = TOTP 토큰 찾을 수 없음
 auth-error-183-2 = 유효하지 않거나 만료된 인증 코드
+auth-error-1002 = 세션이 만료되었습니다. 계속하려면 로그인하세요.
 auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니다.
 auth-error-1011 = 올바른 이메일이 필요합니다
 
@@ -862,6 +875,12 @@ connect-another-device-signin-link = 로그인
 
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 더 알아보기
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -983,6 +1002,13 @@ signin-password-button-label = 비밀번호
 ## This will be the page shown to users to block the sign in and report it.
 
 back = 뒤로
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
