@@ -983,6 +983,8 @@ cannot-create-account-learn-more-link = מידע נוסף
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = התחברת ל־{ -brand-firefox }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = כתובת הדוא״ל אומתה
 # A "success" message visible to users who verified via sign-in
@@ -1032,6 +1034,10 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = נוצר מפתח לשחזור החשבון
+inline-recovery-key-setup-download-header = אבטחת החשבון שלך
+inline-recovery-key-setup-download-subheader = להוריד ולאחסן אותו כעת
+inline-recovery-key-setup-download-info = יש לשמור את המפתח הזה במקום שקל לזכור — לא תהיה לך אפשרות לחזור לדף זה מאוחר יותר.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
