@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά ένα κλειδί ανάκτησης λογαριασμού.
-lock-image-aria-label =
-    .aria-label = Απεικόνιση μιας κλειδαριάς
+password-image-aria-label =
+    .aria-label = Μια απεικόνιση που αναπαριστά πληκτρολόγηση ενός κωδικού πρόσβασης.
 lightbulb-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά μια υπόδειξη για δημιουργία χώρου.
 email-code-image-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά ένα email που περιέχει έναν κωδικό.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Συνδεθήκατε στο { -brand-firefox }
+inline-recovery-key-setup-create-header = Ασφαλίστε τον λογαριασμό σας
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Έχετε χρόνο για να προστατέψετε τα δεδομένα σας;
+inline-recovery-key-setup-info = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, ώστε να μπορείτε να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
+inline-recovery-key-setup-start-button = Δημιουργία κλειδιού ανάκτησης λογαριασμού
+inline-recovery-key-setup-later-button = Κάντε το αργότερα
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Το κύριο email έχει ήδη �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
 confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβαίωσης έχει ήδη χρησιμοποιηθεί και μπορεί να χρησιμοποιηθεί μόνο μία φορά.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Δημιουργία
+account-recovery-notification-header-value = Μην χάσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας
+account-recovery-notification-header-description = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, για να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Εσφαλμένο αίτημα
 
@@ -305,6 +323,17 @@ ready-continue = Συνέχεια
 sign-in-complete-header = Η σύνδεση επιβεβαιώθηκε
 sign-up-complete-header = Ο λογαριασμός επιβεβαιώθηκε
 primary-email-verified-header = Το κύριο email επιβεβαιώθηκε
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Τοποθεσίες αποθήκευσης του κλειδιού σας:
+flow-recovery-key-download-storage-ideas-folder-v2 = Φάκελος σε ασφαλή συσκευή
+flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος αποθήκευσης σε cloud
+flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
+flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 
 ## Alert Bar
 
@@ -447,13 +476,6 @@ flow-recovery-key-download-heading-v2 = Το κλειδί ανάκτησης λ�
 flow-recovery-key-download-info-v2 = Αυτό το κλειδί σάς επιτρέπει να ανακτήσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας. Αποθηκεύστε το κάπου που θα θυμάστε. Δεν θα μπορείτε να επιστρέψετε σε αυτήν τη σελίδα αργότερα.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Συνέχεια χωρίς λήψη
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Τοποθεσίες αποθήκευσης του κλειδιού σας:
-flow-recovery-key-download-storage-ideas-folder-v2 = Φάκελος σε ασφαλή συσκευή
-flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος αποθήκευσης σε cloud
-flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
-flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1076,6 +1098,13 @@ index-cta = Εγγραφή ή σύνδεση
 index-account-info = Ένας { -product-mozilla-account(case: "nom", capitalization: "lower") } ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της { -brand-mozilla } που προστατεύουν το απόρρητό σας.
 index-email-input =
     .label = Εισαγάγετε το email σας
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
+inline-recovery-key-setup-download-header = Ασφαλίστε τον λογαριασμό σας
+inline-recovery-key-setup-download-subheader = Κάντε το λήψη και αποθήκευση τώρα
+inline-recovery-key-setup-download-info = Αποθηκεύστε αυτό το κλειδί σε μέρος που θα το θυμάστε. Δεν θα μπορείτε να επιστρέψετε σε αυτή τη σελίδα αργότερα.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
