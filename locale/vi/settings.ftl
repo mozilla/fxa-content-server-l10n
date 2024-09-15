@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Hình minh họa đại diện cho khóa khôi phục tài khoản.
-lock-image-aria-label =
-    .aria-label = Hình minh họa ổ khóa
+password-image-aria-label =
+    .aria-label = Hình minh họa thể hiện việc gõ mật khẩu.
 lightbulb-aria-label =
     .aria-label = Hình minh họa đại diện cho việc tạo gợi ý lưu trữ.
 email-code-image-aria-label =
     .aria-label = Hình minh họa thể hiện một email có chứa mã.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Bạn đã đăng nhập vào { -brand-firefox }
+inline-recovery-key-setup-create-header = Bảo mật tài khoản của bạn
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Dành vài phút để bảo vệ dữ liệu của bạn?
+inline-recovery-key-setup-info = Tạo khóa khôi phục tài khoản để bạn có thể khôi phục dữ liệu đồng bộ hóa của mình nếu bạn quên mật khẩu.
+inline-recovery-key-setup-start-button = Tạo khóa khôi phục tài khoản
+inline-recovery-key-setup-later-button = Để sau
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Email chính đã được xác minh tr
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Đăng nhập đã được xác nhận trước đó
 confirmation-link-reused-message = Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Tạo
+account-recovery-notification-header-value = Đừng để mất dữ liệu nếu bạn quên mật khẩu
+account-recovery-notification-header-description = Tạo khóa khôi phục tài khoản để khôi phục dữ liệu đồng bộ hóa của bạn nếu bạn quên mật khẩu.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yêu cầu không hợp lệ
 
@@ -305,6 +323,17 @@ ready-continue = Tiếp tục
 sign-in-complete-header = Đã xác nhận đăng nhập
 sign-up-complete-header = Tài khoản đã xác minh
 primary-email-verified-header = Email chính đã xác minh
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Nơi lưu trữ khóa của bạn:
+flow-recovery-key-download-storage-ideas-folder-v2 = Thư mục trên thiết bị an toàn
+flow-recovery-key-download-storage-ideas-cloud = Lưu trữ đám mây đáng tin cậy
+flow-recovery-key-download-storage-ideas-print-v2 = Bản in vật lý
+flow-recovery-key-download-storage-ideas-pwd-manager = Trình quản lý mật khẩu
 
 ## Alert Bar
 
@@ -445,13 +474,6 @@ flow-recovery-key-download-heading-v2 = Đã tạo khóa khôi phục tài kho�
 flow-recovery-key-download-info-v2 = Khóa này cho phép bạn khôi phục dữ liệu nếu bạn quên mật khẩu. Tải xuống ngay bây giờ và lưu trữ ở đâu đó bạn sẽ nhớ — bạn sẽ không thể quay lại trang này sau này.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Tiếp tục mà không tải xuống
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Nơi lưu trữ khóa của bạn:
-flow-recovery-key-download-storage-ideas-folder-v2 = Thư mục trên thiết bị an toàn
-flow-recovery-key-download-storage-ideas-cloud = Lưu trữ đám mây đáng tin cậy
-flow-recovery-key-download-storage-ideas-print-v2 = Bản in vật lý
-flow-recovery-key-download-storage-ideas-pwd-manager = Trình quản lý mật khẩu
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1072,6 +1094,13 @@ index-cta = Đăng ký hoặc đăng nhập
 index-account-info = Một { -product-mozilla-account } cũng mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
 index-email-input =
     .label = Nhập email của bạn
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Đã tạo khóa khôi phục tài khoản
+inline-recovery-key-setup-download-header = Bảo mật tài khoản của bạn
+inline-recovery-key-setup-download-subheader = Tải xuống và lưu trữ ngay bây giờ
+inline-recovery-key-setup-download-info = Hãy lưu trữ khóa này ở nơi bạn dễ nhớ — bạn sẽ không thể quay lại trang để lấy nó sau này.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
