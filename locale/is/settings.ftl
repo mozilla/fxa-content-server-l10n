@@ -1095,6 +1095,8 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Endurheimtulykill reiknings útbúinn
 inline-recovery-key-setup-download-header = Gerðu reikninginn þinn öruggan
+inline-recovery-key-setup-download-subheader = Sæktu hann og og vistaðu núna
+inline-recovery-key-setup-download-info = Geymdu þennan lykil einhvers staðar sem þú manst - þú munt ekki geta farið aftur á þessa síðu síðar.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
