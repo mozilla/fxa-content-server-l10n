@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-16 08:21+0000\n"
+"PO-Revision-Date: 2024-09-16 08:23+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -49,6 +49,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Ai ene, zerbait gaizki joan da. Jaso dugu abisua eta \n"
+"          arazoa konpontzen saiatuko gara."
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
@@ -63,22 +65,24 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Estuasun larrian gaude orain eta sistema ahalik eta \n"
+"            azkarren bere onera ekartzeko lanean gabiltza."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Kargatzen"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Firefoxeko kontuek JavaScript behar dute."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla kontua"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox eguneratu beharra dago"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid ""
@@ -90,4 +94,4 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
-msgstr ""
+msgstr "Deskargatu azkena"
