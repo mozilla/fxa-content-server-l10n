@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustratie om een sleutel voor accountherstel weer te geven.
-lock-image-aria-label =
-    .aria-label = Een illustratie van een slot
+password-image-aria-label =
+    .aria-label = Een illustratie om het invoeren van een wachtwoord weer te geven.
 lightbulb-aria-label =
     .aria-label = Illustratie om het maken van een opslaghint weer te geven.
 email-code-image-aria-label =
     .aria-label = Illustratie om een e-mailbericht met een code weer te geven.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = U bent aangemeld bij { -brand-firefox }
+inline-recovery-key-setup-create-header = Beveilig uw account
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Hebt u even de tijd om uw gegevens te beschermen?
+inline-recovery-key-setup-info = Maak een accountherstelsleutel aan, zodat u uw gesynchroniseerde navigatiegegevens kunt herstellen als u ooit uw wachtwoord vergeet.
+inline-recovery-key-setup-start-button = Accountherstelsleutel aanmaken
+inline-recovery-key-setup-later-button = Later
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Primair e-mailadres al bevestigd
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Aanmelding is al bevestigd
 confirmation-link-reused-message = Die bevestigingskoppeling is al gebruikt, en kan maar één keer worden gebruikt.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Aanmaken
+account-recovery-notification-header-value = Verlies uw gegevens niet als u uw wachtwoord vergeet
+account-recovery-notification-header-description = Maak een accountherstelsleutel aan, zodat u uw gesynchroniseerde navigatiegegevens kunt herstellen als u ooit uw wachtwoord vergeet.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ongeldige aanvraag
 
@@ -305,6 +323,17 @@ ready-continue = Doorgaan
 sign-in-complete-header = Aanmelding bevestigd
 sign-up-complete-header = Account bevestigd
 primary-email-verified-header = Primair e-mailadres bevestigd
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Plaatsen om uw sleutel op te slaan:
+flow-recovery-key-download-storage-ideas-folder-v2 = Map op beveiligd apparaat
+flow-recovery-key-download-storage-ideas-cloud = Vertrouwde cloudopslag
+flow-recovery-key-download-storage-ideas-print-v2 = Afgedrukt fysiek exemplaar
+flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwoordenbeheerder
 
 ## Alert Bar
 
@@ -445,13 +474,6 @@ flow-recovery-key-download-heading-v2 = Accountherstelsleutel aangemaakt – Dow
 flow-recovery-key-download-info-v2 = Met deze sleutel kunt u uw gegevens herstellen als u uw wachtwoord bent vergeten. Download hem nu en bewaar hem op een plek die u kunt onthouden – u kunt later niet meer terugkeren naar deze pagina.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Doorgaan zonder downloaden
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Plaatsen om uw sleutel op te slaan:
-flow-recovery-key-download-storage-ideas-folder-v2 = Map op beveiligd apparaat
-flow-recovery-key-download-storage-ideas-cloud = Vertrouwde cloudopslag
-flow-recovery-key-download-storage-ideas-print-v2 = Afgedrukt fysiek exemplaar
-flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwoordenbeheerder
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1074,6 +1096,13 @@ index-cta = Registreren of aanmelden
 index-account-info = Een { -product-mozilla-account } ontgrendelt ook de toegang tot meer privacybeschermende producten van { -brand-mozilla }.
 index-email-input =
     .label = Voer uw e-mailadres in
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Sleutel voor accountherstel aangemaakt
+inline-recovery-key-setup-download-header = Beveilig uw account
+inline-recovery-key-setup-download-subheader = Nu downloaden en opslaan
+inline-recovery-key-setup-download-info = Bewaar deze sleutel op een plek die u kunt onthouden – u kunt deze pagina later niet meer openen.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
