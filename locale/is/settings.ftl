@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Skýringarmynd til að tákna endurheimtulykil reiknings.
-lock-image-aria-label =
-    .aria-label = Skýringamynd af lás
+password-image-aria-label =
+    .aria-label = Myndskreyting sem táknar að setja inn lykilorð.
 lightbulb-aria-label =
     .aria-label = Myndskreyting sem táknar að búa til vísbendingu fyrir geymslu.
 email-code-image-aria-label =
     .aria-label = Myndskreyting sem táknar tölvupóst sem inniheldur kóða.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Þú hefur skráð inn á { -brand-firefox }
+inline-recovery-key-setup-create-header = Gerðu reikninginn þinn öruggan
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Hefurðu tíma aflögu til að vernda gögnin þín?
+inline-recovery-key-setup-info = Búðu til endurheimtulykil fyrir reikninginn svo þú getir endurheimt samstilltu vafragögnin þín ef þú gleymir lykilorðinu þínu.
+inline-recovery-key-setup-start-button = Útbúðu endurheimtulykil reiknings
+inline-recovery-key-setup-later-button = Gera það seinna
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Aðallykilorð hefur þegar verið sta�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innskráning hefur þegar verið staðfest
 confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Búa til
+account-recovery-notification-header-value = Ekki tapa gögnunum þínum ef þú gleymir lykilorðinu þínu
+account-recovery-notification-header-description = Búðu til endurheimtulykil fyrir reikninginn svo þú getir endurheimt samstilltu vafragögnin þín ef þú gleymir lykilorðinu þínu.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Röng beiðni
 
@@ -305,6 +323,17 @@ ready-continue = Halda áfram
 sign-in-complete-header = Innskráning staðfest
 sign-up-complete-header = Reikningur staðfestur
 primary-email-verified-header = Aðalpóstfang staðfest
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Staðir til að geyma lykilinn þinn:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappa á öruggu tæki
+flow-recovery-key-download-storage-ideas-cloud = Traust skýjageymsla
+flow-recovery-key-download-storage-ideas-print-v2 = Prentað eintak
+flow-recovery-key-download-storage-ideas-pwd-manager = Lykilorðaumsýsla
 
 ## Alert Bar
 
@@ -445,13 +474,6 @@ flow-recovery-key-download-heading-v2 = Endurheimtulykill reiknings búinn til �
 flow-recovery-key-download-info-v2 = Þessi lykill gerir þér kleift að endurheimta gögnin þín ef þú gleymir lykilorðinu þínu. Sæktu hann núna og geymdu einhvers staðar þar sem þú manst - þú munt ekki geta farið aftur á þessa síðu.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Halda áfram án þess að sækja
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Staðir til að geyma lykilinn þinn:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mappa á öruggu tæki
-flow-recovery-key-download-storage-ideas-cloud = Traust skýjageymsla
-flow-recovery-key-download-storage-ideas-print-v2 = Prentað eintak
-flow-recovery-key-download-storage-ideas-pwd-manager = Lykilorðaumsýsla
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1068,6 +1090,11 @@ index-cta = Nýskráðu þig eða skráðu þig inn
 index-account-info = { -product-mozilla-account }-reikningur opnar einnig aðgang að öðrum persónuverndandi hugbúnaði frá { -brand-mozilla }.
 index-email-input =
     .label = Settu inn tölvupóstfangið þitt
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Endurheimtulykill reiknings útbúinn
+inline-recovery-key-setup-download-header = Gerðu reikninginn þinn öruggan
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
