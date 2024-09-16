@@ -1364,17 +1364,6 @@ account-recovery-confirm-key-button = Confirm account recovery key
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Create new password
-account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Password set
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Unexpected error encountered
-account-recovery-reset-password-redirecting = Redirecting
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1389,36 +1378,7 @@ complete-reset-password-error-alert = Sorry, there was a problem setting your pa
 complete-reset-password-recovery-key-error-v2 = Sorry, there was a problem checking if you have an account recovery key.
 complete-reset-password-recovery-key-link = Reset your password with your account recovery key.
 
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Reset email sent
-
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Click the link emailed to { $email } within the next hour to create a new password.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Reset password <span>to continue to account settings</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
-reset-password-warning-message-2 = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-  .label = Email
-reset-password-button = Begin reset
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Email required
-
-reset-password-with-recovery-key-verified-page-title = Password reset successful
-reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
-reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
+account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
 
 ## Confirm Reset Password With Code
 
@@ -1452,6 +1412,10 @@ password-reset-email-input =
   .label = Enter your email
 
 password-reset-submit-button = Send me reset instructions
+
+reset-password-with-recovery-key-verified-page-title = Password reset successful
+reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
+reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
 
 ## CompleteSignin component
 
