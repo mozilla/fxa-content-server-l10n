@@ -207,12 +207,19 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Yllustraasje om in accountwerstelkaai wer te jaan.
-lock-image-aria-label =
-    .aria-label = In yllustraasje fan in slot
+password-image-aria-label =
+    .aria-label = In yllustraasje om it ynfieren fan in wachtwurd wer te jaan.
 lightbulb-aria-label =
     .aria-label = Yllustraasje om it meitsjen fan in ûnthâldhint wer te jaan.
 email-code-image-aria-label =
     .aria-label = Yllustraasje om in e-mailberjocht mei in koade wer te jaan.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Jo binne oanmeld by { -brand-firefox }
+inline-recovery-key-setup-create-header = Befeiligje jo account
 
 ## Input Password
 
@@ -271,6 +278,9 @@ primary-email-confirmation-link-reused = Primêr e-mailadres al befêstige
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Oanmelding is al befêstige
 confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Unjildige oanfraach
 
@@ -305,6 +315,17 @@ ready-continue = Trochgean
 sign-in-complete-header = Oanmelding befêstige
 sign-up-complete-header = Account befêstige
 primary-email-verified-header = Primêr e-mailadres befêstige
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Plakken om jo kaai te bewarjen:
+flow-recovery-key-download-storage-ideas-folder-v2 = Map op befeilige apparaat
+flow-recovery-key-download-storage-ideas-cloud = Fertroude cloudûnthâld
+flow-recovery-key-download-storage-ideas-print-v2 = Ofdrukt fysyk eksimplaar
+flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwurdbehearder
 
 ## Alert Bar
 
@@ -449,13 +470,6 @@ flow-recovery-key-download-heading-v2 = Accountwerstelkaai oanmakke – Download
 flow-recovery-key-download-info-v2 = Mei dizze kaai kinne jo jo gegevens weromhelje as jo jo wachtwurd ferjitten binne. Download it no en bewarje it op in plak dat jo ûnthâlde kinne – jo kinne letter net werom nei dizze side.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Trochgean sûnder te downloaden
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Plakken om jo kaai te bewarjen:
-flow-recovery-key-download-storage-ideas-folder-v2 = Map op befeilige apparaat
-flow-recovery-key-download-storage-ideas-cloud = Fertroude cloudûnthâld
-flow-recovery-key-download-storage-ideas-print-v2 = Ofdrukt fysyk eksimplaar
-flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwurdbehearder
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1079,6 +1093,9 @@ index-account-info = In { -product-mozilla-account } ûntskoattelet ek de tagong
 index-email-input =
     .label = Fier jo e-mailadres yn
 
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1414,6 +1431,13 @@ signin-bounced-message = De befêstigingsmail dy’t wy nei { $email } ferstjoer
 signin-bounced-help = As dit in jildich e-mailadres is, <linkExternal>lit dit dan witte</linkExternal> en wy helpe jo account te ûntskoatteljen.
 signin-bounced-create-new-account = Hawwe jo dat e-mailadres net mear? Meitsje in nije account
 back = Tebek
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
