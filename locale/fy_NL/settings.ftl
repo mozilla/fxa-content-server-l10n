@@ -220,6 +220,11 @@ email-code-image-aria-label =
 
 inline-recovery-key-setup-signed-in-firefox = Jo binne oanmeld by { -brand-firefox }
 inline-recovery-key-setup-create-header = Befeiligje jo account
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Hawwe jo in minút om jo gegevens te beskermjen?
+inline-recovery-key-setup-info = Meitsje in accountwerstelkaai oan, sadat jo jo syngronisearre navigaasjegegevens weromsette kinne as jo jo wachtwurd ea ferjitte.
+inline-recovery-key-setup-start-button = Accountwerstelkaai oanmeitsje
+inline-recovery-key-setup-later-button = Letter
 
 ## Input Password
 
@@ -281,6 +286,9 @@ confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Oanmeitsje
+account-recovery-notification-header-value = Ferlies jo gegevens net as jo jo wachtwurd ferjitte
+account-recovery-notification-header-description = Meitsje in accountwerstelkaai oan, sadat jo jo syngronisearre navigaasjegegevens weromsette kinne as jo jo wachtwurd ea ferjitte.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Unjildige oanfraach
 
@@ -1095,6 +1103,10 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Kaai foar accountwerstel oanmakke
+inline-recovery-key-setup-download-header = Befeiligje jo account
+inline-recovery-key-setup-download-subheader = No downloade en bewarje
+inline-recovery-key-setup-download-info = Bewarje dizze kaai op in plak dy’t jo ûnthâlde kinne – jo kinne dizze side letter net mear iepenje.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1435,9 +1447,21 @@ back = Tebek
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Ferifiearje dizze oanmelding <span>om troch te gean nei jo accountynstellingen</span>
+signin-push-code-heading-w-custom-service = Ferifiearje dizze oanmelding <span>om troch te gean nei { $serviceName }</span>
+signin-push-code-instruction = Kontrolearje jo oare apparaten en kar dizze oanmelding goed fan jo { -brand-firefox }-browser út.
+signin-push-code-did-not-recieve = Hawwe jo de melding net ûntfongen?
+signin-push-code-send-email-link = Ferstjoer de koade fia e-mail
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Befêstigje jo oanmelding
+signin-push-code-confirm-description = Wy hawwe in oanmeldbesykjen fan it folgjende apparaat ôf detektearre. As jo dit wiene, kar dan de oanmelding goed
+signin-push-code-confirm-verifying = Ferifiearje
+signin-push-code-confirm-login = Oanmelding befêstigje
+signin-push-code-confirm-wasnt-me = Dit wie ik net, wizigje wachtwurd.
+signin-push-code-confirm-login-approved = Jo oanmelding is goedkard. Slút dit finster.
+signin-push-code-confirm-link-error = Keppeling is skansearre. Probearje it nochris.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
