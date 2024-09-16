@@ -101,12 +101,29 @@ form-reset-password-with-balloon-submit-button = Berrezarri pasahitza
 form-reset-password-with-balloon-match-error = Pasahitzak ez datoz bat
 form-password-sr-too-short-message = Psahitzak gutxienez 8 karaktere izan behar ditu.
 form-password-sr-not-email-message = Pasahitzak ezin du zure posta elektronikoa izan.
+form-password-sr-not-common-message = Pasahitza ezin da ohiko pasahitz bat izan.
+form-password-sr-requirements-met = Sartutako pasahitzak betetzen ditu eskatutako baldintza guztiak.
+form-password-sr-passwords-match = Sartutako pasahitza bat datoz.
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Eremu hau beharrezkoa da
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }  kontua berreskuratzeko gakoa
+get-data-trio-title-backup-verification-codes = Autentifikazio-kodearen babes-kopia
+get-data-trio-download-2 =
+    .title = Deskargatu
+    .aria-label = Deskargatu
+get-data-trio-copy-2 =
+    .title = Kopiatu
+    .aria-label = Kopiatu
+get-data-trio-print-2 =
+    .title = Inprimatu
+    .aria-label = Inprimatu
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -129,18 +146,33 @@ input-password-show = Erakutsi pasahitza
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Jaso lotura berria
 
 ## LinkExpiredResetPassword component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Pasahitza berrezartzeko lotura iraungita
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Gogoratu pasahitza?
+# link navigates to the sign in page
+remember-password-signin-link = Hasi saioa
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Helbide elektroniko nagusia dagoeneko berretsita
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Saio-hasiera dagoeneko berretsita
+confirmation-link-reused-message = Berrespen-lotura hori erabilita dago eta behin bakarrik erabil daiteke.
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Sortu
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -151,10 +183,19 @@ input-password-show = Erakutsi pasahitza
 
 ## Ready component
 
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Zure kontua prest dago!
+ready-continue = Jarraitu
+sign-in-complete-header = Saio-hasiera berretsita
+sign-up-complete-header = Kontua berretsi da
+primary-email-verified-header = Helbide elektroniko nagusia berretsi da
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Zure gakoa gordetzeko tokiak:
 
 ## Alert Bar
 
@@ -189,6 +230,11 @@ cs-heading = Konektatutako zerbitzuak
 cs-description = Erabiltzen ari zaren eta saioa hasita duzun guztia.
 cs-cannot-refresh = Barkatu, arazo bat gertatu da konektatutako zerbitzuen zerrenda berritzean.
 cs-cannot-disconnect = Ez da bezeroa aurkitu, ezin da deskonektatu
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Mozilla accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = { $service } zerbitzutik saioa amaituta.
 cs-refresh-button =
     .title = Berritu konektatutako zerbitzuak
 # Link text to a support page on missing or duplicate devices
@@ -224,6 +270,7 @@ cs-sign-out-button = Amaitu saioa
 
 ## Data collection section
 
+dc-learn-more = Argibide gehiago
 
 # DropDownAvatarMenu component
 
