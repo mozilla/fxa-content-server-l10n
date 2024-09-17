@@ -1211,11 +1211,19 @@ signin-totp-code-input-label-v2 = Upiši šesteroznamenkasti kod
 signin-totp-code-confirm-button = Potvrdi
 signin-totp-code-other-account-link = Koristi jedan drugi račun
 signin-totp-code-recovery-code-link = Problem s unosom koda?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Potreban je kod autentifikacije
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Autoriziraj ovu prijavu
+signin-unblock-code-input = Upiši kod za autorizaciju
 signin-unblock-submit-button = Nastavi
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Potreban je kod autorizacije
+signin-unblock-code-incorrect-length = Kod za autorizaciju mora sadržati 8 znakova
+signin-unblock-code-incorrect-format-2 = Kod za autorizaciju smije sadržati samo slova i/ili brojke
 signin-unblock-support-link = Zašto se ovo događa?
 
 ## ConfirmSignupCode page
