@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-05-03 18:50+0000\n"
-"Last-Translator: proba.educator226 <proba.educator226@passinbox.com>\n"
+"PO-Revision-Date: 2024-09-17 16:50+0000\n"
+"Last-Translator: Jesús Amieiro <amieiro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -183,7 +183,7 @@ msgstr "Mostrar o contrasinal"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Códigos de autenticación de respaldo de Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
@@ -191,7 +191,7 @@ msgstr "Activouse a autenticación en dous pasos"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Clave de recuperación da conta de Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
