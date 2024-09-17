@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-17 16:50+0000\n"
+"PO-Revision-Date: 2024-09-17 16:52+0000\n"
 "Last-Translator: Jesús Amieiro <amieiro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -215,7 +215,7 @@ msgstr "Imprimiouse"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "A conta confirmouse correctamente"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
@@ -231,7 +231,7 @@ msgstr "problemas técnicos"
 
 #: .es5/models/support-form.js:23
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "proporcionar comentarios / solicitar funcionalidades"
 
 #: .es5/models/support-form.js:23
 msgid "not listed"
@@ -463,7 +463,7 @@ msgstr "Non se atopou o código TOTP"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Non se atopou o código de autenticación do respaldo"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
@@ -471,11 +471,11 @@ msgstr "A orde do dispositivo non está dispoñíbel"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Non se atopou a clave de recuperación da conta"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Clave de recuperación da conta non válida"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -511,7 +511,7 @@ msgstr "Rexeitouse a actualización. Inténteo de novo."
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Código de confirmación non válido ou caducado"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
