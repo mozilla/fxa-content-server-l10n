@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustraziun che represchenta ina clav da recuperaziun dal conto.
-lock-image-aria-label =
-    .aria-label = Ina illustraziun dad in maschlos
+password-image-aria-label =
+    .aria-label = Ina illustraziun che represchenta l‘endataziun d‘in pled-clav.
 lightbulb-aria-label =
     .aria-label = Illustraziun che represchenta la creaziun dad in tip per l'archivaziun.
 email-code-image-aria-label =
     .aria-label = Illustraziun che represchenta in e-mail cun in code.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Ti es connectà cun { -brand-firefox }
+inline-recovery-key-setup-create-header = Protegia tes conto
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Has ti ina minuta per proteger tias datas?
+inline-recovery-key-setup-info = Creescha ina clav da recuperaziun dal conto per che ti possias recuperar tias datas da navigaziun sincronisadas sche ti avessas dad emblidar tes pled-clav.
+inline-recovery-key-setup-start-button = Crear ina clav da recuperaziun dal conto
+inline-recovery-key-setup-later-button = Far quai pli tard
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = L'adressa dad e-mail principala è gia 
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = L'annunzia è gia confermada
 confirmation-link-reused-message = Questa colliaziun da conferma è gia vegnida utilisada e po mo vegnir duvrada ina giada.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = Na perda betg tias datas sche ti emblidas tes pled-clav
+account-recovery-notification-header-description = Creescha ina clav da recuperaziun dal conto per che ti possias recuperar tias datas da navigaziun sincronisadas sche ti avessas dad emblidar tes pled-clav.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Dumonda nuncorrecta
 
@@ -305,6 +323,17 @@ ready-continue = Cuntinuar
 sign-in-complete-header = Confermà l'annunzia
 sign-up-complete-header = Conto confermà
 primary-email-verified-header = Confermà l'adressa dad e-mail principala
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lieus per tegnair en salv la clav:
+flow-recovery-key-download-storage-ideas-folder-v2 = Ordinatur sin in apparat segirà
+flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
+flow-recovery-key-download-storage-ideas-print-v2 = Copia stampada
+flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
 
 ## Alert Bar
 
@@ -449,13 +478,6 @@ flow-recovery-key-download-heading-v2 = Creà ina clav da recuperaziun dal conto
 flow-recovery-key-download-info-v2 = Questa clav ta permetta da recuperar tias datas sche ti emblidas tes pled-clav. Telechargia ussa la clav e la tegna en salv en in lieu che ti tegnas endament – ti na vegns betg a pudair returnar tar questa pagina.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Cuntinuar senza telechargiar
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Lieus per tegnair en salv la clav:
-flow-recovery-key-download-storage-ideas-folder-v2 = Ordinatur sin in apparat segirà
-flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
-flow-recovery-key-download-storage-ideas-print-v2 = Copia stampada
-flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1079,6 +1101,13 @@ index-account-info = In { -product-mozilla-account } dat era access ad ulteriurs
 index-email-input =
     .label = Endatescha tia adressa dad e-mail
 
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Creà la clav da recuperaziun dal conto
+inline-recovery-key-setup-download-header = Protegia tes conto
+inline-recovery-key-setup-download-subheader = La telechargia ussa per la tegnair en salv
+inline-recovery-key-setup-download-info = Tegna en salv la clav en in lieu dal qual ti ta regordas – pli tard na pos ti betg pli turnar tar questa pagina.
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1288,17 +1317,6 @@ account-recovery-confirm-key-button = Confermar la clav da recuperaziun dal cont
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Ti n'has nagina clav da recuperaziun dal conto?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Crear in nov pled-clav
-account-restored-success-message = Ti has restaurà cun succes tes conto cun agid da tia clav da recuperaziun dal conto. Creescha in nov pled-clav per segirar tias datas ed al tegna en salv en in lieu segir.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Definì il pled-clav
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Errur nunspetgada
-account-recovery-reset-password-redirecting = Renviament
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1312,35 +1330,7 @@ complete-reset-password-success-alert = Definì il pled-clav
 complete-reset-password-error-alert = Perstgisa, igl ha dà in problem cun definir tes pled-clav
 complete-reset-password-recovery-key-error-v2 = Perstgisa, igl ha dà in problem cun controllar sche ti has ina clav da recuperaziun dal conto.
 complete-reset-password-recovery-key-link = Redefinescha tes pled-clav cun tia clav da recuperaziun dal conto.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Tramess l'e-mail da reinizialisaziun
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Clicca entaifer la proxima ura sin la colliaziun tramessa via e-mail a { $email } per crear in nov pled-clav.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Reinizialisescha il pled-clav per <span>cuntinuar cun ils parameters dal conto</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Reinizialisescha il pled-clav per <span>cuntinuar cun { $serviceName }</span>
-reset-password-warning-message-2 = <span>Avis:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai capita perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads e las datas da { -product-pocket } n'èn betg pertutgadas.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mail
-reset-password-button = Lantschar la reinizialisaziun
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mail obligatoric
-reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success il pled-clav
-reset-password-with-recovery-key-verified-generate-new-key = Generar ina nova clav da recuperaziun dal conto
-reset-password-with-recovery-key-verified-continue-to-account = Vinavant tar mes conto
+account-restored-success-message = Ti has restaurà cun succes tes conto cun agid da tia clav da recuperaziun dal conto. Creescha in nov pled-clav per segirar tias datas ed al tegna en salv en in lieu segir.
 
 ## Confirm Reset Password With Code
 
@@ -1366,6 +1356,9 @@ password-reset-body = Endatescha tia adressa dad e-mail e nus ta tramettain in c
 password-reset-email-input =
     .label = Endatescha tia adressa dad e-mail
 password-reset-submit-button = Ma tramettai las instrucziuns per la reinizialisaziun
+reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success il pled-clav
+reset-password-with-recovery-key-verified-generate-new-key = Generar ina nova clav da recuperaziun dal conto
+reset-password-with-recovery-key-verified-continue-to-account = Vinavant tar mes conto
 
 ## CompleteSignin component
 
@@ -1414,6 +1407,25 @@ signin-bounced-message = L'e-mail da conferma tramess a { $email } è vegnì ret
 signin-bounced-help = Sche questa adressa dad e-mail è valida, <linkExternal>ans fa a savair</linkExternal> e nus pudain ta gidar a debloccar tes conto.
 signin-bounced-create-new-account = Quai n'è betg pli ti'adressa dad e-mail? Creescha in nov conto
 back = Enavos
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verifitgescha quest’annunzia per <span>acceder als parameters dal conto</span>
+signin-push-code-heading-w-custom-service = Verifitgescha quest’annunzia per <span>acceder a { $serviceName }</span>
+signin-push-code-instruction = Consultescha per plaschair tes auters apparats ed approvescha questa annunzia en tes navigatur { -brand-firefox }.
+signin-push-code-did-not-recieve = N’has ti betg retschavì la notificaziun?
+signin-push-code-send-email-link = Trametter in code via e-mail
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Conferma tia annunzia
+signin-push-code-confirm-description = Nus avain constatà ch’i ha dà in’emprova d’annunzia sin il suandant apparat. Sch’i sa tracta da tia emprova, conferma per plaschair l’annunzia
+signin-push-code-confirm-verifying = Verificaziun
+signin-push-code-confirm-login = Confermar l’annunzia
+signin-push-code-confirm-wasnt-me = Jau n’hai fatg nagut, midar il pled-clav.
+signin-push-code-confirm-login-approved = Tia annunzia è vegnida approvada. Serra per plaschair questa fanestra.
+signin-push-code-confirm-link-error = La colliaziun è donnegiada. Emprova per plaschair anc ina giada.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
