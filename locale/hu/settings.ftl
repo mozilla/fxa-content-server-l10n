@@ -1104,7 +1104,7 @@ index-email-input =
 inline-recovery-key-setup-recovery-created = Fiók-helyreállítási kulcs létrehozva
 inline-recovery-key-setup-download-header = Biztosítsa fiókját
 inline-recovery-key-setup-download-subheader = Töltse le és tegye el most
-inline-recovery-key-setup-download-info = Tárolja ezt a kulcsot valahol, ahová emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
+inline-recovery-key-setup-download-info = Tárolja Olyan helyen ezt a kulcsot, amelyre emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1409,20 +1409,20 @@ back = Vissza
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = Igazolja ezt a bejelentkezést <span>a fiókbeállításokhoz való továbblépéshez</span>
+signin-push-code-heading-w-default-service = Ellenőrizze ezt a bejelentkezést <span>a fiókbeállításokhoz való továbblépéshez</span>
 signin-push-code-heading-w-custom-service = Erősítse meg ezt a bejelentkezést <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 signin-push-code-instruction = Ellenőrizze a többi eszközét, és hagyja jóvá ezt a bejelentkezést a { -brand-firefox } böngészőjéből.
 signin-push-code-did-not-recieve = Nem kapta meg az értesítést?
-signin-push-code-send-email-link = E-mail kód
+signin-push-code-send-email-link = E-mail-kód
 
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Erősítse meg a bejelentkezését
-signin-push-code-confirm-description = Bejelentkezési kísérletet észleltünk a következő eszközről. Ha ez Ön volt, kérjük hagyja jóvá a bejelentkezését
+signin-push-code-confirm-description = Bejelentkezési kísérletet észleltünk a következő eszközről. Ha ez Ön volt, hagyja jóvá a bejelentkezését
 signin-push-code-confirm-verifying = Ellenőrzés
 signin-push-code-confirm-login = Bejelentkezés megerősítése
-signin-push-code-confirm-wasnt-me = Nem én voltam, változtasson jelszót.
-signin-push-code-confirm-login-approved = A bejelentkezése jóváhagyva. Zárja be ezt az ablakot.
+signin-push-code-confirm-wasnt-me = Nem én voltam, a jelszó megváltoztatása.
+signin-push-code-confirm-login-approved = A bejelentkezése jóvá lett hagyva. Zárja be ezt az ablakot.
 signin-push-code-confirm-link-error = A hivatkozás sérült. Próbálja meg újra.
 
 ## SigninRecoveryCode page
