@@ -1224,6 +1224,7 @@ signin-unblock-submit-button = Nastavi
 signin-unblock-code-required-error = Potreban je kod autorizacije
 signin-unblock-code-incorrect-length = Kod za autorizaciju mora sadržati 8 znakova
 signin-unblock-code-incorrect-format-2 = Kod za autorizaciju smije sadržati samo slova i/ili brojke
+signin-unblock-resend-code-button = Nije u sandučiću dolazne pošte niti u sandučiću neželjenih e-mailova? Pošalji ponovo
 signin-unblock-support-link = Zašto se ovo događa?
 
 ## ConfirmSignupCode page
