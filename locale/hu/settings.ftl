@@ -218,11 +218,11 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Bejelentkezett a { -brand-firefox }ba
+inline-recovery-key-setup-signed-in-firefox = Bejelentkezett a { -brand-firefox(case: "illative") }
 inline-recovery-key-setup-create-header = Biztosítsa fiókját
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Van egy perce az adatai megvédésére?
-inline-recovery-key-setup-info = Hozzon létre egy fiók-helyreállítási kulcsot, hogy helyreállítsa a szinkron böngészési adatait, ha elfelejtené a jelszavát.
+inline-recovery-key-setup-info = Hozzon létre egy fiók-helyreállítási kulcsot, hogy helyreállítsa a szinkronizált böngészési adatait, ha elfelejtené a jelszavát.
 inline-recovery-key-setup-start-button = Fiók-helyreállítási kulcs létrehozása
 inline-recovery-key-setup-later-button = Tegye meg később
 
@@ -288,7 +288,7 @@ confirmation-link-reused-message = A megerősítési hivatkozás már volt haszn
 
 account-recovery-notification-cta = Létrehozás
 account-recovery-notification-header-value = Ne veszítse el adatait, ha elfelejti a jelszavát
-account-recovery-notification-header-description = Hozzon létre egy fiók-helyreállítási kulcsot a szinkron böngészési adatok helyreállításához, ha elfelejtené a jelszavát.
+account-recovery-notification-header-description = Hozzon létre egy fiók-helyreállítási kulcsot, hogy helyreállítsa a szinkronizált böngészési adatait, ha elfelejtené a jelszavát.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hibás kérés
 
@@ -1103,7 +1103,7 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Fiók-helyreállítási kulcs létrehozva
 inline-recovery-key-setup-download-header = Biztosítsa fiókját
-inline-recovery-key-setup-download-subheader = Töltse le és tárolja most
+inline-recovery-key-setup-download-subheader = Töltse le és tegye el most
 inline-recovery-key-setup-download-info = Tárolja ezt a kulcsot valahol, ahová emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
 
 ## InlineRecoverySetup page
@@ -1315,17 +1315,6 @@ account-recovery-confirm-key-button = Erősítse meg a fiók-helyreállítási k
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nincs fiók-helyreállítási kulcsa?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Új jelszó létrehozása
-account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Jelszó megadva
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Váratlan hiba történt
-account-recovery-reset-password-redirecting = Átirányítás
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1339,35 +1328,7 @@ complete-reset-password-success-alert = Jelszó megadva
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
 complete-reset-password-recovery-key-error-v2 = Sajnos probléma merült fel annak ellenőrzése során, hogy rendelkezik-e fiók-helyreállítási kulccsal.
 complete-reset-password-recovery-key-link = Állítsa vissza jelszavát a fiók-helyreállítási kulcsával.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Visszaállítási e-mail elküldve
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Kattintson a(z) { $email } címre elküldött hivatkozásra a következő órán belül, hogy létrehozza az új jelszavát.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Állítsa vissza a jelszót <span>a fiókbeállításokhoz való továbblépéshez</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Állítsa vissza a jelszót <span>a következőhöz való továbblépéshez: { $serviceName }</span>
-reset-password-warning-message-2 = <span>Megjegyzés:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { -product-pocket }-adatait továbbra is meg fogja tartani.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mail
-reset-password-button = Visszaállítás elkezdése
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mail szükséges
-reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
-reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
-reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
+account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
 
 ## Confirm Reset Password With Code
 
@@ -1393,6 +1354,9 @@ password-reset-body = Adja meg az e-mail-címét, és küldünk egy megerősít�
 password-reset-email-input =
     .label = Adja meg az e-mail-címét
 password-reset-submit-button = Visszaállítási utasítások küldése
+reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
+reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
+reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
 
 ## CompleteSignin component
 
