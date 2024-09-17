@@ -128,6 +128,8 @@ payment-validate-name-error = Upiši tvoje ime
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } koristi { -brand-name-stripe } i { -brand-paypal } za sigurnu obradu plaćanja.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } politika privatnosti</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } politika privatnosti</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } koristi { -brand-paypal } za sigurnu obradu plaćanja.
 payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } politika privatnosti</paypalPrivacyLink>
 payment-legal-copy-stripe-3 = { -brand-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-17 19:40+0000\n"
+"PO-Revision-Date: 2024-09-17 19:46+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1158,7 +1158,7 @@ msgstr "Upiši svoju e-mail adresu"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Nastavi na <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
@@ -1957,15 +1957,15 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Povezivanje uređaja nije uspjelo"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed."
-msgstr ""
+msgstr "Nije bilo moguće dovršiti postavljanje."
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "Please sign in with your email."
-msgstr ""
+msgstr "Prijavi se sa svojom e-mail adresom."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
@@ -1973,7 +1973,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Preuzmi Firefox za mobilne uređaje"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
@@ -1985,7 +1985,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Već imam Firefox za mobilni uređaj"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
@@ -1993,7 +1993,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Nemam Firefox za mobilni uređaj"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
@@ -2073,7 +2073,7 @@ msgstr "Je li koristiš kameru sustava? Upariti moraš iz Firefox aplikacije."
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Preuzmi Firefox sada"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"

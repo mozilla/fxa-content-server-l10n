@@ -181,8 +181,14 @@ signin-recovery-code-image-description =
     .aria-label = Dokument koji sadrži skriveni tekst.
 signin-totp-code-image-label =
     .aria-label = Uređaj sa skrivenim 6-znamenkastim kodom.
-lock-image-aria-label =
-    .aria-label = Ilustracija lokota
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-create-header = Zaštiti svoj račun
+inline-recovery-key-setup-start-button = Stvori ključ za obnavljanje računa
+inline-recovery-key-setup-later-button = Učini to kasnije
 
 ## Input Password
 
@@ -239,6 +245,10 @@ primary-email-confirmation-link-reused = Primarna e-mail adresa je već potvrđe
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je već potvrđena
 confirmation-link-reused-message = Ta poveznica za potvrdu već je korištena i može se koristiti samo jednom.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Stvori
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Neispravan zahtjev
 
@@ -273,6 +283,17 @@ ready-continue = Nastavi
 sign-in-complete-header = Prijava je potvrđena
 sign-up-complete-header = Račun potvrđen
 primary-email-verified-header = Primarna e-mail adresa potvrđena
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Mjesta za spremanje tvog ključa:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mapa na sigurnom uređaju
+flow-recovery-key-download-storage-ideas-cloud = Pouzdano spremište u oblaku
+flow-recovery-key-download-storage-ideas-print-v2 = Ispisan fizički primjerak
+flow-recovery-key-download-storage-ideas-pwd-manager = Upravljač lozinki
 
 ## Alert Bar
 
@@ -398,13 +419,6 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Stvori novi ključ za o
 flow-recovery-key-download-heading-v2 = Ključ za obnavljanje računa je stvoren – preuzmi i spremi ga sada
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Nastavi bez preuzimanja
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Mjesta za spremanje tvog ključa:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mapa na sigurnom uređaju
-flow-recovery-key-download-storage-ideas-cloud = Pouzdano spremište u oblaku
-flow-recovery-key-download-storage-ideas-print-v2 = Ispisan fizički primjerak
-flow-recovery-key-download-storage-ideas-pwd-manager = Upravljač lozinki
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -919,6 +933,9 @@ index-cta = Registriraj se ili se prijavi
 index-email-input =
     .label = Upiši svoju e-mail adresu
 
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1041,17 +1058,6 @@ account-recovery-confirm-key-button = Potvrdi ključ za obnavljanje računa
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nemaš ključ za obnavljanje računa?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Stvori novu lozinku
-account-restored-success-message = Uspješno si obnovio/la svoj račun koristeći ključ za obnavljanje računa. Stvori novu lozinku za osiguravanje tvojih podataka i spremi ju na sigurnu mjesto.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Lozinka je postavljena
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Dogodila se neočekivana greška
-account-recovery-reset-password-redirecting = Preusmjeravanje
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1064,31 +1070,7 @@ complete-reset-password-success-alert = Lozinka je postavljena
 complete-reset-password-error-alert = Žao nam je. Došlo je do greške prilikom postavljanja tvoje lozinke
 complete-reset-password-recovery-key-error-v2 = Žao nam je. Došlo je do greške prilikom provjere postojanja ključa za obnavljanje računa.
 complete-reset-password-recovery-key-link = Resetiraj lozinku pomoću tvog ključa za obnavljanje računa.
-
-## Confirm Reset Password Component
-
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Za stvaranje nove lozinke pritisni e-poštom poslanu poveznicu na { $email } u roku od sat vremena.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Resetiraj lozinku <span>za nastavljanje postavljanja računa</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Resetiraj lozinku <span>za nastavljanje s { $serviceName }</span>
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mail adresa
-reset-password-button = Započni resetiranje
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mail adresa se mora zadati
-reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
-reset-password-with-recovery-key-verified-generate-new-key = Generiraj novi ključ za obnavljanje računa
-reset-password-with-recovery-key-verified-continue-to-account = Nastavi na moj račun
+account-restored-success-message = Uspješno si obnovio/la svoj račun koristeći ključ za obnavljanje računa. Stvori novu lozinku za osiguravanje tvojih podataka i spremi ju na sigurnu mjesto.
 
 ## Confirm Reset Password With Code
 
@@ -1114,6 +1096,9 @@ password-reset-body = Upiši tvoju e-mail adresu i poslat ćemo ti kod za potvrd
 password-reset-email-input =
     .label = Upiši tvoju e-mail adresu
 password-reset-submit-button = Pošaljite mi upute za resetiranje
+reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
+reset-password-with-recovery-key-verified-generate-new-key = Generiraj novi ključ za obnavljanje računa
+reset-password-with-recovery-key-verified-continue-to-account = Nastavi na moj račun
 
 ## CompleteSignin component
 
