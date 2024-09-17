@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-17 16:52+0000\n"
+"PO-Revision-Date: 2024-09-17 17:05+0000\n"
 "Last-Translator: Jesús Amieiro <amieiro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -532,7 +532,7 @@ msgstr "Xa non se permite usar este cabo"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Complete a configuración da conta, <a href=\"/reset_password\">restableza o contrasinal</a> para continuar."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
