@@ -629,6 +629,8 @@ recent-activity-account-two-factor-removed = Dvofaktorska autentifikacija uklonj
 recent-activity-account-password-reset-requested = Račun je zatražio resetiranje lozinke
 recent-activity-account-password-reset-success = Lozinka računa uspješno resetirana
 recent-activity-account-recovery-key-added = Ključ za obnavljanje računa aktiviran
+recent-activity-account-recovery-key-verification-failure = Potvrda ključa za obnavljanje računa neuspjela
+recent-activity-account-recovery-key-verification-success = Potvrda ključa za obnavljanje računa uspjela
 recent-activity-account-recovery-key-removed = Ključ za obnavljanje računa uklonjen
 recent-activity-account-password-added = Nova lozinka dodana
 recent-activity-account-password-changed = Lozinka spremljena
@@ -707,6 +709,8 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru autentičnosti:
+tfa-input-enter-totp-v2 =
+    .label = Upiši kod za autentifikaciju
 
 ##
 
