@@ -762,6 +762,7 @@ security-set-password = Postavi lozinku za sinkronizaciju i korištenje određen
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Pogledaj nedavnu aktivnost računa
 signout-sync-header = Sesija je istekla
+signout-sync-session-expired = Oprosti, nešto nije u redu. Odjavi se u izborniku preglednika i pokušaj ponovo.
 
 ## Switch component
 
@@ -805,15 +806,18 @@ unit-row-recovery-key-delete-icon-button-title = Izbriši ključ za obnavljanje 
 
 se-heading = Sekundarna adresa e-pošte
     .header = Sekundarna adresa e-pošte
+se-cannot-refresh-email = Oprosti, dogodila se greška prilikom aktualiziranja te e-mail adrese.
 se-cannot-resend-code-3 = Žao nam je, došlo je do problema prilikom ponovnog slanja potvrdnog koda
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } je sada tvoja primarna e-mail adresa
+se-set-primary-error-2 = Oprosti, dogodila se greška prilikom mijenjanja tvoje primarne e-mail adrese
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = E-mail adresa { $email } je uspješno izrisana
+se-delete-email-error-2 = Oprosti, dogodila se greška prilikom brisanja ove e-mail adrese
 se-verify-session-error-3 = Žao nam je. Došlo je do greške prilikom potvrđivanja tvoje sesije
 # Button to remove the secondary email
 se-remove-email =
@@ -873,6 +877,10 @@ continue-with-apple-button = Nastavi s { -brand-apple }
 ## TotpInputGroup component
 ## This component is composed of 6 or 8 single digit inputs for verification codes
 
+# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
+# $inputNumber is a number from 1 to 8
+# $codeLength is a number, it represents the total length of the code
+single-char-input-label = Znamenka { $inputNumber } od { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
@@ -940,12 +948,14 @@ cookies-disabled-learn-more = Saznaj više
 
 ## Index / home page
 
+index-header = Upiši svoju e-mail adresu
 index-cta = Registriraj se ili se prijavi
 index-email-input =
     .label = Upiši svoju e-mail adresu
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-download-header = Zaštiti svoj račun
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -967,10 +977,19 @@ inline-recovery-cancel-setup = Prekini postavljanje
 inline-totp-setup-cancel-setup-button = Prekini postavljanje
 inline-totp-setup-continue-button = Nastavi
 inline-totp-setup-ready-button = Spremno
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Kod za autentifikaciju
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Potreban je kod autentifikacije
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Pravno
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Uvjeti usluge
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Napomena o privatnosti
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
@@ -995,6 +1014,7 @@ pair-auth-allow-refuse-device-link = Ako to nisi bio/la ti, <link>promijeni lozi
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Uređaj je povezan
 pair-auth-complete-sync-benefits-text = Sada možeš pristupiti tvojim otvorenim karticama, lozinkama i zabilješkama na svim tvojim uređajima.
+pair-auth-complete-see-tabs-button = Pogledaj kartice od sinkroniziranih uređaja
 pair-auth-complete-manage-devices-link = Upravljaj uređajima
 
 ## AuthTotp page
@@ -1147,6 +1167,7 @@ back = Natrag
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Potvrdi tvoju prijavu
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
