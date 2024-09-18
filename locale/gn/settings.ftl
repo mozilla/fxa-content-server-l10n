@@ -207,12 +207,16 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua mba’ete mba’eñemi guerujeyrã.
-lock-image-aria-label =
-    .aria-label = Peteĩ mbotyha ra’ãnga
 lightbulb-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua ñemoñe’ẽ moheñoimby ñembyatyha rendarã.
 email-code-image-aria-label =
     .aria-label = Ta’ãnga ehechaukakuaa hag̃ua ñanduti veve ijayvúva.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-later-button = Ejapo uperire
 
 ## Input Password
 
@@ -271,6 +275,10 @@ primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
 confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Moheñói
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mba’ejerure ojavýva
 
@@ -305,6 +313,17 @@ ready-continue = Ku’ejey
 sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
 sign-up-complete-header = Mba’ete moneĩmbyre
 primary-email-verified-header = Ñanduti veve tuichavéva moneĩmbyre
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Eñongatukuaaha mba’eñemi:
+flow-recovery-key-download-storage-ideas-folder-v2 = Marandurenda mba’e’oka hekorosãvape
+flow-recovery-key-download-storage-ideas-cloud = Ñeñongatuha araípe jeroviaha
+flow-recovery-key-download-storage-ideas-print-v2 = Ñemonguatiapyre
+flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
 
 ## Alert Bar
 
@@ -401,7 +420,7 @@ cs-sign-out-button = Emboty tembiapo
 ## Data collection section
 
 dc-heading = Ñembyaty ha mba’ekuaarã jeporu
-dc-subheader-2 = Eipytyvõ oiko porãvévo { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-content-2 = Emoneĩ { -product-mozilla-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success-2 = Esẽ porã. { -product-mozilla-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success-2 = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-mozilla-accounts } oiko porãvévo.
@@ -443,13 +462,6 @@ flow-recovery-key-download-heading-v2 = Mba’ete mba’eñemi guerujeyrã mohe�
 flow-recovery-key-download-info-v2 = Ko mba’eñemi omoneĩ erujey hag̃ua ne mba’ekuaarã nderesaráirõ ñe’ẽñemígui. Emboguejy ko’ág̃a ha eñongatu nemandu’a hag̃uáme — nderejevykuaamo’ãvéima ko kuatiaroguépe upe rire.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Eku’ejey emboguejy’ỹre
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Eñongatukuaaha mba’eñemi:
-flow-recovery-key-download-storage-ideas-folder-v2 = Marandurenda mba’e’oka hekorosãvape
-flow-recovery-key-download-storage-ideas-cloud = Ñeñongatuha araípe jeroviaha
-flow-recovery-key-download-storage-ideas-print-v2 = Ñemonguatiapyre
-flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1058,6 +1070,12 @@ cookies-disabled-button-try-again = Eha’ãjey
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Kuaave
 
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1267,17 +1285,6 @@ account-recovery-confirm-key-button = Emoneĩ mba’ete mba’eñemi jeguerujeyr
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = ¿Ndereguerekói mba’eñemi jeguerujeyrã?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Emoheñói ñe’ẽñemi pyahu
-account-restored-success-message = Eruporãjey ne mba’ete eiporúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Ojejuhu jejavy ñeha’ãrõ’ỹva
-account-recovery-reset-password-redirecting = Mbohapejey
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1291,35 +1298,7 @@ complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 complete-reset-password-error-alert = Rombyasy, oiko apañuái emoĩnguévo ne ñe’ẽñemi
 complete-reset-password-recovery-key-error-v2 = Ore ñyro, oĩ apañuái hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
 complete-reset-password-recovery-key-link = Erujey ñe’ẽñemi mba’ete mba’eñemi jeguerujeyrã ndive.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Ñanduti jeguerujeyrã mondopyre
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Eikutu juajuha romondóva { $email } rupive peteĩ aravópe emoheñói hag̃ua ñe’ẽñemi pyahu.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua { $serviceName }</span> ndive
-reset-password-warning-message-2 = <span>Haipy:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ne ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { -product-pocket } mba’ekuaarã noñemoambuemo’ãi.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Ñandutiveve
-reset-password-button = Emoñepyrũ jeguerujey
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Ñanduti veve tekotevẽva
-reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
-reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
-reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
+account-restored-success-message = Eruporãjey ne mba’ete eiporúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 
 ## Confirm Reset Password With Code
 
@@ -1345,6 +1324,9 @@ password-reset-body = Ehai ne ñanduti veve ha roguerahaukáta ayvu ñemoneĩrã
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
 password-reset-submit-button = Embou mba’éichapa emoĩporãjeýta
+reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
+reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
+reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
 
 ## CompleteSignin component
 
@@ -1393,6 +1375,13 @@ signin-bounced-message = Ko ñanduti veve ñemoneĩgua romondóva { $email }-pe 
 signin-bounced-help = Kóva ha’erõ ñanduti veve oikóva, <linkExternal>emombe’u oréve</linkExternal> ha roipytyvõta erekojey hag̃ua ne mba’ete.
 signin-bounced-create-new-account = ¿Ndereguerkovéima ñanduti veve? Emoheñói ipyahúva
 back = Tapykue
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

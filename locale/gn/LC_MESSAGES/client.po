@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-18 15:40+0000\n"
+"PO-Revision-Date: 2024-09-18 15:49+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1990,11 +1990,11 @@ msgstr "Ojavy mba’e’oka ñembojuehe"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed."
-msgstr ""
+msgstr "Noñemohu’ãi ñemboheko."
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "Please sign in with your email."
-msgstr ""
+msgstr "Eñepyrũ tembiapo ne ñanduti veve ndive."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
@@ -2102,11 +2102,11 @@ msgstr "¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembiporu�
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Emboguejy Firefox ko’ág̃a"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Embojuaju ne pumbyry ne mba’ete Mozilla pegua ndive"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
