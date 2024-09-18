@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-08 06:36+0000\n"
-"Last-Translator: paperbox <lego37yoon@outlook.com>\n"
+"PO-Revision-Date: 2024-09-18 06:27+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -2011,15 +2011,15 @@ msgstr "모바일용 Firefox를 사용하고 있습니다"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "모바일 기기에서 이미 Firefox를 사용하고 있다면 지금 동기화를 시작할 수 있습니다."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "모바일용 Firefox를 사용하지 않습니다"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "모바일 기기에 Firefox를 다운로드하시고, 동기화를 시작하세요."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2027,23 +2027,23 @@ msgstr "나중에"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "휴대폰이나 태블릿의 Firefox와 동기화하시려면, 먼저 모바일용 Firefox를 다운로드하셔야 합니다. 아래 단계를 참조하세요:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>1단계</b>: 모바일 기기의 카메라로 이 QR코드를 스캔하고 Firefox를 다운로드하세요:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QR 코드 (화면 중앙에 위치)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>2단계</b>: \"이어서 동기화\"를 선택하여 모바일 기기에서 Firefox 사용 경험을 동기화하세요."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "이어서 동기화"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
@@ -2067,23 +2067,23 @@ msgstr "페어링 확인"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "이런! Firefox를 사용 중이지 않은 것 같아요."
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
-msgstr ""
+msgstr "주의:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Firefox로 바꾸고 이 페이지를 열어 다른 기기와 연결하세요."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr ""
+msgstr "Firefox 다운로드"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "새 창에서 열림"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
