@@ -421,6 +421,7 @@ cs-sign-out-button = Emboty tembiapo
 
 dc-heading = Ñembyaty ha mba’ekuaarã jeporu
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } kundahára
 dc-subheader-content-2 = Emoneĩ { -product-mozilla-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success-2 = Esẽ porã. { -product-mozilla-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success-2 = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-mozilla-accounts } oiko porãvévo.
@@ -1382,6 +1383,7 @@ back = Tapykue
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-verifying = Jehechajey
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
