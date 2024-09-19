@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Тіркелгіні қалпына келтіру кілтін бейнелейтін сурет.
-lock-image-aria-label =
-    .aria-label = Құлыптың суреті
+password-image-aria-label =
+    .aria-label = Парольді теруді көрсететін сурет.
 lightbulb-aria-label =
     .aria-label = Сақтау туралы кеңес жасауды бейнелейтін сурет.
 email-code-image-aria-label =
     .aria-label = Коды бар электрондық поштаны көрсетуге арналған иллюстрация.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Сіз { -brand-firefox } ішіне кірдіңіз
+inline-recovery-key-setup-create-header = Тіркелгіңізді қорғаңыз
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Деректеріңізді қорғауға бір минутыңыз бар ма?
+inline-recovery-key-setup-info = Парольді ұмытып қалсаңыз, синхрондалған шолу деректерін қалпына келтіру мүмкіндігін беретін тіркелгіні қалпына келтіру кілтін жасаңыз.
+inline-recovery-key-setup-start-button = Тіркелгіні қалпына келтіру кілтін жасау
+inline-recovery-key-setup-later-button = Кейінірек жасау
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Біріншілік эл. пошта �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Кіру расталған болып тұр
 confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Жасау
+account-recovery-notification-header-value = Пароліңізді ұмытып қалсаңыз, деректеріңізді жоғалтпаңыз
+account-recovery-notification-header-description = Парольді ұмытып қалсаңыз, синхрондалған шолу деректерін қалпына келтіру үшін тіркелгіні қалпына келтіру кілтін жасаңыз.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Жарамсыз сұраным
 
@@ -305,6 +323,17 @@ ready-continue = Жалғастыру
 sign-in-complete-header = Кіру расталды
 sign-up-complete-header = Тіркелгі расталды
 primary-email-verified-header = Біріншілік эл. пошта адресі расталды
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Кілтіңізді сақтайтын орындар:
+flow-recovery-key-download-storage-ideas-folder-v2 = Қауіпсіз құрылғыдағы бума
+flow-recovery-key-download-storage-ideas-cloud = Сенімді бұлттық қойма
+flow-recovery-key-download-storage-ideas-print-v2 = Басылған физикалық көшірме
+flow-recovery-key-download-storage-ideas-pwd-manager = Парольдер басқарушысы
 
 ## Alert Bar
 
@@ -447,13 +476,6 @@ flow-recovery-key-download-heading-v2 = Тіркелгіні қалпына ке
 flow-recovery-key-download-info-v2 = Бұл кілт парольді ұмытып қалсаңыз, деректерді қалпына келтіруге мүмкіндік береді. Оны қазір жүктеп алып, есіңізде қалатын жерде сақтаңыз — бұл бетке кейінірек орала алмайсыз.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Жүктеп алмай жалғастыру
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Кілтіңізді сақтайтын орындар:
-flow-recovery-key-download-storage-ideas-folder-v2 = Қауіпсіз құрылғыдағы бума
-flow-recovery-key-download-storage-ideas-cloud = Сенімді бұлттық қойма
-flow-recovery-key-download-storage-ideas-print-v2 = Басылған физикалық көшірме
-flow-recovery-key-download-storage-ideas-pwd-manager = Парольдер басқарушысы
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1075,6 +1097,13 @@ index-account-info = { -product-mozilla-account } { -brand-mozilla }-дан же
 index-email-input =
     .label = Эл. поштаны енгізіңіз
 
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Тіркелгіні қалпына келтіру кілті жасалды
+inline-recovery-key-setup-download-header = Тіркелгіңізді қорғаңыз
+inline-recovery-key-setup-download-subheader = Оны қазір жүктеп алу және сақтау
+inline-recovery-key-setup-download-info = Бұл кілтті сенімді жерде сақтаңыз — бұл бетке кейінірек орала алмайсыз.
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1284,17 +1313,6 @@ account-recovery-confirm-key-button = Тіркелгіні қалпына кел
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Тіркелгіні қалпына келтіру кілтіңіз жоқ па?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Жаңа парольді жасау
-account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Пароль орнатылды
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Күтпеген қате орын алды
-account-recovery-reset-password-redirecting = Қайта бағдарлау
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1308,35 +1326,7 @@ complete-reset-password-success-alert = Пароль орнатылды
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
 complete-reset-password-recovery-key-error-v2 = Кешіріңіз, тіркелгіні қалпына келтіру кілтінің бар-жоғын тексеру кезінде мәселе орын алды.
 complete-reset-password-recovery-key-link = Тіркелгіні қалпына келтіру кілтімен пароліңізді қалпына келтіріңіз.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Тастау эл. пошта хаты жіберілді
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Жаңа парольді жасау үшін келесі сағат ішінде { $email } электрондық поштасына жіберілген сілтемені басыңыз.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> парольді қалпына келтіріңіз
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
-reset-password-warning-message-2 = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - жекелігіңізді қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Эл. пошта
-reset-password-button = Қалпына келтіруді бастау
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Эл. пошта керек
-reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
-reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
-reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
+account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
 
 ## Confirm Reset Password With Code
 
@@ -1362,6 +1352,9 @@ password-reset-body = Электрондық поштаңызды енгізің
 password-reset-email-input =
     .label = Эл. поштаңызды енгізіңіз
 password-reset-submit-button = Маған қалпына келтіру нұсқауларын жіберіңіз
+reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
+reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
+reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
 
 ## CompleteSignin component
 
@@ -1410,6 +1403,25 @@ signin-bounced-message = { $email } адресіне жіберілген рас
 signin-bounced-help = Егер ол дұрыс эл. пошта адресі болса, <linkExternal>бізге хабарлаңыз</linkExternal>, тіркелгіңіздің блоктауын алып тастауға көмектесе аламыз.
 signin-bounced-create-new-account = Ол эл. пошта адресіне енді ие емессіз бе? Жаңа тіркелгіні жасаңыз
 back = Артқа
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> бұл логинді растаңыз
+signin-push-code-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> бұл логинді растаңыз
+signin-push-code-instruction = Басқа құрылғыларыңызды тексеріп, { -brand-firefox } браузерінен осы логинді растаңыз.
+signin-push-code-did-not-recieve = Хабарландыруды алған жоқсыз ба?
+signin-push-code-send-email-link = Коды эл. поштамен жіберу
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Логиніңізді растаңыз
+signin-push-code-confirm-description = Біз келесі құрылғыдан кіру әрекетін анықтадық. Бұл сіз болсаңыз, логинді растаңыз
+signin-push-code-confirm-verifying = Тексерілуде
+signin-push-code-confirm-login = Логинді растау
+signin-push-code-confirm-wasnt-me = Бұл мен емес едім, парольді өзгерту.
+signin-push-code-confirm-login-approved = Сіздің логиніңіз расталды. Бұл терезені жабыңыз.
+signin-push-code-confirm-link-error = Сілтеме зақымдалған. Қайталап көріңіз.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
