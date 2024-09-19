@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:08+0000\n"
-"PO-Revision-Date: 2024-09-19 07:53+0000\n"
+"PO-Revision-Date: 2024-09-19 08:07+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1302,7 +1302,7 @@ msgstr "Tirez le meilleur parti de Sync."
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr "Téléchargez Firefox pour iOS !"
+msgstr "Téléchargez Firefox pour iOS !"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20

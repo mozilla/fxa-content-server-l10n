@@ -15,7 +15,7 @@ moz-accounts-privacy-url-2 = Politique de confidentialité des { -product-mozill
 moz-accounts-terms-url = Conditions d’utilisation des { -product-mozilla-accounts }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
-subplat-automated-email = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
+subplat-automated-email = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
 subplat-privacy-notice = Politique de confidentialité
 subplat-privacy-plaintext = Politique de confidentialité :
 subplat-update-billing-plaintext = { subplat-update-billing } :
