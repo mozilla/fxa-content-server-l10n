@@ -6,6 +6,7 @@
 ## Component - AppLayout
 
 settings-home = 계정 홈
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -29,10 +30,11 @@ input-error-is-required = { $label }이(가) 필요합니다
 
 ## Component - Header
 
+brand-name-mozilla-logo = { -brand-mozilla } 로고
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link-2 = 이미 { -product-mozilla-account }를 갖고 계신가요? <a>로그인</a>
+new-user-sign-in-link-2 = 이미 { -product-mozilla-account }계정을 갖고 계신가요? <a>로그인</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -41,6 +43,9 @@ new-user-enter-email =
 new-user-confirm-email =
     .label = 이메일 확인
 new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 제품 뉴스와 최신정보를 받습니다.
+new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
+new-user-subscribe-product-updates-hubs = { -product-mozilla-hubs } 및 { -brand-mozilla }에서 제품 소식과 업데이트를 받고 싶습니다.
+new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } 및 { -brand-mozilla }에서 제품 소식 및 최신 정보를 받고 싶습니다.
 new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
 new-user-email-validate = 유효하지 않은 이메일
 new-user-email-validate-confirm = 이메일이 맞지 않습니다.
@@ -59,6 +64,8 @@ payment-confirmation-thanks-subheading = { $product_name }를 시작하는 방�
 payment-confirmation-thanks-subheading-account-exists = { $email } 주소로 계정 설정 지침과 결제 세부정보가 포함된 이메일을 받게 됩니다.
 payment-confirmation-order-heading = 주문 정보
 payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = 결제 정보
 payment-confirmation-amount = { $interval } 당 { $amount }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -89,6 +96,7 @@ payment-confirmation-download-button = 다운로드 계속 하기
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = <termsOfServiceLink>이용 약관</termsOfServiceLink> 및 <privacyNoticeLink>개인 정보 보호 고지</privacyNoticeLink>에 따라, 구독을 취소하기 전까지 { -brand-mozilla }가 표시된 금액을 내 결제 수단에 청구하도록 허가합니다.
 payment-confirm-checkbox-error = 계속 진행하기 전에 이 작업을 완료해야 합니다.
 
 ## Component - PaymentErrorView
@@ -98,6 +106,10 @@ payment-error-manage-subscription-button = 내 구독 관리
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = 이미 { -brand-google } 또는 { -brand-apple } 앱 스토어를 통해 { $productName } 구독을 하고 있습니다.
+iap-upgrade-no-bundle-support = 이러한 구독에 대한 업그레이드는 지원되지 않지만 곧 지원될 예정입니다.
+iap-upgrade-contact-support = 아직 이 제품을 구매할 수 있습니다. 지원팀에 문의하시면 도와드리겠습니다.
 iap-upgrade-get-help-button = 도움말
 
 ## Component - PaymentForm
@@ -115,6 +127,11 @@ payment-validate-name-error = 이름을 입력하세요
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla }는 안전한 결제 처리를 위해 { -brand-name-stripe }와 { -brand-paypal }을 사용합니다.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } 개인정보 보호 정책</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } 개인정보 보호 정책</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla }는 안전한 결제 처리를 위해 { -brand-paypal }을 사용합니다.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } 개인정보 보호정책</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla }는 안전한 결제 처리를 위해 { -brand-name-stripe }를 사용합니다.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 개인정보 처리방침</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -134,6 +151,7 @@ payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = { -brand-paypal }로 결제
 
 ## Component - PlanDetails
 
@@ -142,6 +160,7 @@ plan-details-list-price = 정가
 plan-details-show-button = 상세 정보 보기
 plan-details-hide-button = 상세 내용 숨기기
 plan-details-total-label = 전체
+plan-details-tax = 세금 및 수수료
 
 ## Component - PlanErrorDialog
 
@@ -151,6 +170,7 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } 세금
 
 ## Component - SubscriptionTitle
@@ -165,6 +185,9 @@ sub-guarantee = 30 일 환불 보장
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = 서비스 약관
 privacy = 개인정보처리방침
 terms-download = 약관 다운로드
@@ -225,6 +248,7 @@ coupon-success-repeating = 요금제는 { $couponDurationDate } 이후 정가로
 
 ## Routes - Checkout - New user
 
+new-user-step-1-2 = 1. { -product-mozilla-account }를 생성하세요.
 new-user-card-title = 카드 정보를 입력하세요.
 new-user-submit = 지금 구독하기
 
@@ -236,29 +260,42 @@ sub-update-payment-title = 결제 정보
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = 카드로 결제
+product-invoice-preview-error-title = 송장 미리보기 로딩 중 문제 발생
+product-invoice-preview-error-text = 송장 미리보기를 로드할 수 없습니다.
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = 아직 업그레이드할 수 없습니다.
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } 스토어
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = 변경사항 검토
 sub-change-failed = 플랜 변경 실패
+sub-update-acknowledgment =
+    요금제가 즉시 변경되며 
+    결제 주기의 나머지 기간 동안 비례 배분된 금액입니다. { $startingDate }일 부터
+    전체 금액이 청구됩니다.
 sub-change-submit = 변경 확인
 sub-update-current-plan-label = 현재 구독 정보
 sub-update-new-plan-label = 신규 구독 정보
 sub-update-total-label = 총
+sub-update-prorated-upgrade = 비례 업그레이드
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (매일)
 sub-update-new-plan-weekly = { $productName }(매주)
+sub-update-new-plan-monthly = { $productName } (월간)
+sub-update-new-plan-yearly = { $productName } (연간)
 
 ##
 
@@ -277,6 +314,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     내 접근 정보 취소
     { $period } 중 { $name }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } 쿠폰 적용됨: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -290,6 +339,7 @@ sub-route-idx-cancel-msg =
     { $name } 구독이 취소되었습니다.
           <br />
           { $date }까지 { $name }에 계속 접근할 수 있습니다.
+sub-route-idx-cancel-aside-2 = 질문이 있으신가요? <a>{ -brand-mozilla } 지원</a>을 방문하세요.
 
 ## Routes - Subscriptions - Errors
 
@@ -298,6 +348,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = 청구서 읽기 오류
 sub-billing-update-success = 결제 정보가 성공적으로 업데이트되었습니다.
+sub-invoice-previews-error-title = 송장 미리보기 로딩 문제
+sub-invoice-previews-error-text = 송장 미리보기를 로드할 수 없습니다.
 
 ## Routes - Subscription - ActionButton
 
@@ -310,6 +362,8 @@ pay-update-manage-btn = 관리
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 다음 청구일: { $date }
+sub-next-bill-no-tax-1 = 다음 청구서의 { $priceAmount }은 { $date }일 까지 납부해야 합니다.
+sub-next-bill-tax-1 = 다음 청구서의 { $priceAmount } + { $taxAmount } 세금은 { $date }일 까지 납부해야 합니다.
 sub-expires-on = { $date }에 만료
 
 ## Routes - Subscription - PaymentUpdate
@@ -320,6 +374,7 @@ sub-expires-on = { $date }에 만료
 pay-update-card-exp = 만료 { $expirationDate }
 sub-route-idx-updating = 결제 정보 업데이트중…
 sub-route-payment-modal-heading = 유효하지 않은 결제 정보
+sub-route-payment-modal-message-2 = { -brand-paypal } 계정에 오류가 있는 것 같습니다. 이 결제 문제를 해결하기 위해 필요한 조치를 취해 주시기 바랍니다.
 sub-route-missing-billing-agreement-payment-alert = 유효하지 않은 결제 정보입니다. 계정에 오류가 있습니다. <div>관리</div>
 sub-route-funding-source-payment-alert = 유효하지 않은 결제 정보입니다. 계정에 오류가 있습니다. 정보를 성공적으로 업데이트한 후 이 알림이 지워지는 데까지 시간이 걸릴 수 있습니다. <div>관리</div>
 
@@ -328,9 +383,12 @@ sub-route-funding-source-payment-alert = 유효하지 않은 결제 정보입니
 sub-item-no-such-plan = 관련 구독 정보가 없습니다.
 invoice-not-found = 다음 청구서를 찾을 수 없습니다.
 sub-item-no-such-subsequent-invoice = 이 구독에 대한 다음 청구서를 찾을 수 없습니다.
+sub-invoice-preview-error-title = 송장 미리보기를 찾을 수 없습니다
+sub-invoice-preview-error-text = 이 구독에 대한 송장 미리보기를 찾을 수 없습니다.
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = { -product-pocket } 프리미엄 구독을 원하시나요?
 manage-pocket-body-2 = 관리하려면 <linkExternal>여기를 클릭하세요</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -361,4 +419,6 @@ reactivate-success-button = 닫기
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: 앱 내 구매
+sub-iap-item-apple-purchase-2 = { -brand-apple }: 앱 내 구매
 sub-iap-item-manage-button = 관리
