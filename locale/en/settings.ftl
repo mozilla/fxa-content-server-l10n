@@ -187,6 +187,21 @@ form-password-sr-passwords-match = Entered passwords match.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = This field is required
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Enter { $codeLength }-digit code to continue
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Enter {$ codeLength }-character code to continue bloop
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -1034,14 +1049,6 @@ third-party-auth-options-or = or
 
 continue-with-google-button = Continue with { -brand-google }
 continue-with-apple-button = Continue with { -brand-apple }
-
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Digit { $inputNumber } of { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
