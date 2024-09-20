@@ -220,6 +220,7 @@ inline-recovery-key-setup-signed-in-firefox = Sće pola { -brand-firefox } přiz
 inline-recovery-key-setup-create-header = Zawěsćće swoje konto
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Maće mjeńšinu, zo byšće swoje daty škitał?
+inline-recovery-key-setup-info = Wutworće kontowy wobnowjenski kluč, zo byšće móhł swoje synchronizaciske přehladowanske daty wobnowić, jeli swoje hesło zabudźeće.
 inline-recovery-key-setup-start-button = Kontowy wobnowjenski kluč wutworić
 inline-recovery-key-setup-later-button = Pozdźišo činić
 
@@ -284,6 +285,7 @@ confirmation-link-reused-message = Tutón wobkrućenski wotkaz je so hižo wuži
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Wutworić
+account-recovery-notification-header-description = Wutworće kontowy wobnowjenski kluč, zo byšće swoje synchronizaciske přehladowanske daty wobnowił, jeli swoje hesło zabudźeće.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne naprašowanje
 
@@ -1093,6 +1095,7 @@ index-email-input =
 inline-recovery-key-setup-recovery-created = Kontowy wobnowjenski kluč je so wutworił
 inline-recovery-key-setup-download-header = Zawěsćće swoje konto
 inline-recovery-key-setup-download-subheader = Sćehńće a składujće jón nětko
+inline-recovery-key-setup-download-info = Składujće tutón kluč na městnje, na kotrež so dopominaće – njemóžeće so k tutej stronje pozdźišo wróćić.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1303,17 +1306,6 @@ account-recovery-confirm-key-button = Kontowy wobnowjenski kluč wobkrućić
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nimaće kontowy wobnowjenski kluč?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Nowe hesło wutworić
-account-restored-success-message = Sće wuspěšnje swoje konto z pomocu swojeho kontoweho wobnowjenskeho kluča wobnowił. Wutworće nowe hesło, zo byšće swoje daty zawěsćił a składujće jo na wěstym městnje.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Hesło je so nastajiło
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Njewočakowany zmylk je wustupił
-account-recovery-reset-password-redirecting = Posrědkujeće so dale
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1327,35 +1319,7 @@ complete-reset-password-success-alert = Hesło je so nastajiło
 complete-reset-password-error-alert = Bohužel je při stajenju wašeho hesła problem nastał
 complete-reset-password-recovery-key-error-v2 = Bohužel je při přepruwowanju, hač kontowy wobnowjenski kluč maće, problem nastał.
 complete-reset-password-recovery-key-link = Stajće swoje hesło ze swojim kontowym wobnowjenskim klučom wróćo.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = E-mejlka za wróćostajenje je so pósłała
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Klikńće wob hodźinu na wotkaz, kotryž smy přez e-mejl na { $email } pósłali, zo byšće nowe hesło wutworił.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Stajće hesło wróćo, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Stajće hesło wróćo, <span>zo byšće z { $serviceName } pokročował</span>
-reset-password-warning-message-2 = <span>Kedźbu:</span> Hdyž swoje hesło wróćo stajeće, stajiće swoje konto wróćo. Móžeće někotre z wašich wosobinskich datow zhubić (na přikład historiju, zapołožki a hesła). Tohodla zaklučujemy waše daty z wašim hesłom, zo bychmy wašu priwatnosć škitali. Waše abonementy, kotrež snano maće, wobchowaće a daty { -product-pocket } njejsu potrjechene.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mejlowa adresa
-reset-password-button = Wróćostajenje započeć
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mejlowa adresa trěbna
-reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
-reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
-reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu kontu
+account-restored-success-message = Sće wuspěšnje swoje konto z pomocu swojeho kontoweho wobnowjenskeho kluča wobnowił. Wutworće nowe hesło, zo byšće swoje daty zawěsćił a składujće jo na wěstym městnje.
 
 ## Confirm Reset Password With Code
 
@@ -1381,6 +1345,9 @@ password-reset-body = Zapodajće swoju e-mejlowu adresu a budźemy wam wobkruće
 password-reset-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
 password-reset-submit-button = Sćelće mi instrukcije wo wróćostajenju
+reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
+reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
+reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu kontu
 
 ## CompleteSignin component
 
