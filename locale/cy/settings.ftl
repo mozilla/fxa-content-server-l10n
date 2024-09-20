@@ -172,6 +172,20 @@ form-password-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cyfateb.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Mae angen llanw'r maes hwn
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Rhowch cod { $codeLength }-digid i barhau
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Rhowch { $codeLength } - cod nod i barhau
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Storfa cwmwl dibynadwy
 flow-recovery-key-download-storage-ideas-print-v2 = Copi ffisegol wedi'i argraffu
 flow-recovery-key-download-storage-ideas-pwd-manager = Rheolwr cyfrineiriau
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Ychwanegwch awgrym i'ch helpu i ddod o hyd i'ch allwedd
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Dylai'r awgrym hwn eich helpu i gofio ble rydych wedi storio allwedd adfer eich cyfrif. Gallwn ei ddangos i chi yn ystod ailosod y cyfrinair i adennill eich data.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Rhowch awgrym (dewisol)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Gorffen
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Rhaid i'r awgrym gynnwys llai na 255 nod.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicode anniogel. Dim ond llythrennau, rhifau, atalnodau a symbolau a ganiateir.
+
 ## Alert Bar
 
 alert-bar-close-message = Cau neges
@@ -474,30 +512,11 @@ flow-recovery-key-download-info-v2 = Mae'r allwedd hon yn eich galluogi i adenni
 flow-recovery-key-download-next-link-v2 = Parhewch heb ei lwytho i lawr
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Ychwanegwch awgrym i'ch helpu i ddod o hyd i'ch allwedd
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Dylai'r awgrym hwn eich helpu i gofio ble rydych wedi storio allwedd adfer eich cyfrif. Gallwn ei ddangos i chi yn ystod ailosod y cyfrinair i adennill eich data.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Rhowch awgrym (dewisol)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Gorffen
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Crëwyd yr allwedd adfer cyfrif.
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Rhaid i'r awgrym gynnwys llai na 255 nod.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicode anniogel. Dim ond llythrennau, rhifau, atalnodau a symbolau a ganiateir.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -992,14 +1011,6 @@ third-party-auth-options-or = Neu
 continue-with-google-button = Parhau gyda { -brand-google }
 continue-with-apple-button = Parhau gyda { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Digid { $inputNumber } o { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Cyfrif anhysbys
@@ -1093,10 +1104,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Wps! Ni allem greu allwedd adfer eich cyfrif. Ceisiwch eto yn nes ymlaen.
 inline-recovery-key-setup-recovery-created = Crëwyd yr allwedd adfer cyfrif.
 inline-recovery-key-setup-download-header = Diogelwch eich cyfrif
 inline-recovery-key-setup-download-subheader = Llwythwch ef i lawr a'i gadw
 inline-recovery-key-setup-download-info = Cadwch yr allwedd hon yn rhywle y byddwch chi'n ei gofio - fyddwch chi ddim yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
+inline-recovery-key-setup-hint-header = Argymhelliad diogelwch
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1307,17 +1320,6 @@ account-recovery-confirm-key-button = Cadarnhewch allwedd adfer cyfrif
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Dim allwedd adfer cyfrif?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Creu cyfrinair newydd
-account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Wedi gosod y cyfrinair
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Cafwyd gwall annisgwyl
-account-recovery-reset-password-redirecting = Yn ailgyfeirio
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1331,35 +1333,7 @@ complete-reset-password-success-alert = Wedi gosod y cyfrinair
 complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
 complete-reset-password-recovery-key-error-v2 = Mae'n ddrwg gennym, roedd anhawster wrth wirio a oes gennych allwedd adfer cyfrif.
 complete-reset-password-recovery-key-link = Ailosodwch eich cyfrinair gyda'ch allwedd adfer cyfrif.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Wedi anfon yr e-bost ailosod
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Cliciwch y ddolen anfonwyd drwy e-bost at { $email } o fewn yr awr nesaf er mwyn creu cyfrinair newydd.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau i osodiadau cyfrif</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Ailosodwch y cyfrinair <span>i barhau i { $serviceName }</span>
-reset-password-warning-message-2 = <span>Sylwch:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { -product-pocket } yn cael ei effeithio.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-bost
-reset-password-button = Cychwyn ailosod
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Mae angen e-bost
-reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
-reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
-reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
+account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
 
 ## Confirm Reset Password With Code
 
@@ -1385,6 +1359,9 @@ password-reset-body = Rhowch eich e-bost a byddwn yn anfon cod cadarnhau atoch i
 password-reset-email-input =
     .label = Rhowch eich e-bost
 password-reset-submit-button = Anfonwch ata i fanylion sut i ailosod
+reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
+reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
+reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
 
 ## CompleteSignin component
 
