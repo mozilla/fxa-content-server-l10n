@@ -207,6 +207,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustration to represent an account recovery key.
+password-image-aria-label =
+    .aria-label = An illustration to represent typing in a password.
 lightbulb-aria-label =
     .aria-label = Illustration to represent creating a storage hint.
 email-code-image-aria-label =
@@ -216,6 +218,13 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = You’re signed in to { -brand-firefox }
+inline-recovery-key-setup-create-header = Secure your account
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Got a minute to protect your data?
+inline-recovery-key-setup-info = Create an account recovery key so you can restore your sync browsing data if you ever forget your password.
+inline-recovery-key-setup-start-button = Create account recovery key
+inline-recovery-key-setup-later-button = Do it later
 
 ## Input Password
 
@@ -277,6 +286,9 @@ confirmation-link-reused-message = That confirmation link was already used, and 
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Create
+account-recovery-notification-header-value = Don’t lose your data if you forget your password
+account-recovery-notification-header-description = Create an account recovery key to restore your sync browsing data if you ever forget your password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Bad Request
 
