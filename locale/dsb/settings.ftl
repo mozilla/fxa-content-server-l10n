@@ -207,6 +207,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustracija za kontowy wótnowjeński kluc.
+password-image-aria-label =
+    .aria-label = Ilustracija, kótaraž zapódaśe gronidła pokazujo.
 lightbulb-aria-label =
     .aria-label = Ilustracija za napóranje składowańskeje pokazki.
 email-code-image-aria-label =
@@ -220,6 +222,7 @@ inline-recovery-key-setup-signed-in-firefox = Sćo pla { -brand-firefox } pśizj
 inline-recovery-key-setup-create-header = Zawěsććo swójo konto
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Maśo minutu, aby swóje daty šćitał?
+inline-recovery-key-setup-info = Napórajśo kontowy wótnowjeński kluc, aby mógał swóje synchronizaciske pśeglědowańske daty wótnowiś, jolic swójo gronidło zabydnjośo.
 inline-recovery-key-setup-start-button = Kontowy wótnowjeński kluc napóraś
 inline-recovery-key-setup-later-button = Pózdźej cyniś
 
@@ -284,6 +287,8 @@ confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Napóraś
+account-recovery-notification-header-value = Njezgubujśo swóje daty, jolic swójo gronidło zabydnjośo.
+account-recovery-notification-header-description = Napórajśo kontowy wótnowjeński kluc, aby swóje synchronizaciske pśeglědowańske daty wótnowiś, jolic swójo gronidło zabydnjośo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne napšašowanje
 
@@ -1091,6 +1096,7 @@ index-email-input =
 inline-recovery-key-setup-recovery-created = Kontowy wótnowjeński kluc jo se napórał
 inline-recovery-key-setup-download-header = Zawěsććo swójo konto
 inline-recovery-key-setup-download-subheader = Ześěgniśo a składujśo jen něnto
+inline-recovery-key-setup-download-info = Składujśo toś ten kluc na městnje, na kótarež se dopominaśo – njamóžośo se k toś tomu bokoju pózdźej wrośiś.
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1301,17 +1307,6 @@ account-recovery-confirm-key-button = Kontowy wótnowjeński kluc wobkšuśiś
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Njamaśo kontowy wótnowjeński kluc?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Nowe gronidło napóraś
-account-restored-success-message = Sćo wuspěšnje wótnowił swójo konto z pomocu swójogo kontowego wótnowjeńskego kluca. Napórajśo nowe gronidło, aby swóje daty zawěsćił a składujśo jo na wěstem městnje.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Gronidło jo se nastajiło
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Njewótcakana zmólka jo nastała
-account-recovery-reset-password-redirecting = Pósrědnjaśo se dalej
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1325,35 +1320,7 @@ complete-reset-password-success-alert = Gronidło jo se nastajiło
 complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju wašogo gronidła
 complete-reset-password-recovery-key-error-v2 = Bohužel jo pśi pśeglědowanju, lěc kontowy wótnowjeński kluc maśo, problem nastał.
 complete-reset-password-recovery-key-link = Stajśo swójo gronidło ze swójom kontowym wótnowjeńskim klucom slědk.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Mailka za slědkstajenje jo se pósłała
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Klikniśo w běgu góźiny na wótkaz, kótaryž smy pśez e-mejl na { $email } pósłali, aby napórał nowe gronidło.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Stajśo gronidło slědk, <span>aby z kontowymi nastajenjami pókšacował</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Stajśo gronidło slědk, <span>aby z { $serviceName } pókšacował</span>
-reset-password-warning-message-2 = <span>GLĚDAJŚO:</span> Gaž swójo gronidło slědk stajaśo, stajijośo swójo konto slědk. Móžośo někotare z wašych wósobinskich datow zgubiś (na pśikład historiju, cytańske znamjenjai a gronidła). Togodla zaklucujomy waše daty z wašym gronidłom, aby my wašu priwatnosć šćitali. Waše abonementy, kótarež snaź maśo, wobchowajośo a daty { -product-pocket } njejsu pótrjefjone.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mailowa adresa
-reset-password-button = Slědkstajanje zachopiś
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mailowa adresa trjebna
-reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
-reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
-reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
+account-restored-success-message = Sćo wuspěšnje wótnowił swójo konto z pomocu swójogo kontowego wótnowjeńskego kluca. Napórajśo nowe gronidło, aby swóje daty zawěsćił a składujśo jo na wěstem městnje.
 
 ## Confirm Reset Password With Code
 
@@ -1379,6 +1346,9 @@ password-reset-body = Zapódajśo swóju e-mailowu adresu a buźomy wam wobkšu�
 password-reset-email-input =
     .label = Zapódajśo swóju e-mailowu adresu
 password-reset-submit-button = Sćelśo mě instrukcije wó slědkstajanju
+reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
+reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
+reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
 
 ## CompleteSignin component
 
