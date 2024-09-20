@@ -207,6 +207,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustracija za kontowy wobnowjenski kluč.
+password-image-aria-label =
+    .aria-label = Ilustracija, kotraž zapodaće hesła pokazuje.
 lightbulb-aria-label =
     .aria-label = Ilustracija za wutworjenje składowanskeje pokazki.
 email-code-image-aria-label =
@@ -285,6 +287,7 @@ confirmation-link-reused-message = Tutón wobkrućenski wotkaz je so hižo wuži
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Wutworić
+account-recovery-notification-header-value = Njezhubjejće swoje daty, jeli swoje hesło zabudźeće.
 account-recovery-notification-header-description = Wutworće kontowy wobnowjenski kluč, zo byšće swoje synchronizaciske přehladowanske daty wobnowił, jeli swoje hesło zabudźeće.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne naprašowanje
