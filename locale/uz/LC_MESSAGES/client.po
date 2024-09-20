@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 20:08+0000\n"
+"POT-Creation-Date: 2024-09-20 21:16+0000\n"
 "PO-Revision-Date: 2019-10-27 18:49+0000\n"
 "Last-Translator: Akmal <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr "Parol almashtirildi. Davom ettirish uchun hisobingiz bilan kiring."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:10 .es5/templates/pair/failure.mustache:5
+#: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Kirish"
 
@@ -1966,11 +1966,7 @@ msgid "Device pairing failed"
 msgstr ""
 
 #: .es5/templates/pair/failure.mustache:2
-msgid "The setup couldn’t be completed."
-msgstr ""
-
-#: .es5/templates/pair/failure.mustache:3
-msgid "Please sign in with your email."
+msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
