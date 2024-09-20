@@ -172,6 +172,20 @@ form-password-sr-passwords-match = Οι κωδικοί πρόσβασης που
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Αυτό το πεδίο απαιτείται
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Εισαγάγετε τον { $codeLength }ψήφιο κωδικό για να συνεχίσετε
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Εισαγάγετε τον κωδικό { $codeLength } χαρακτήρων για να συνεχίσετε
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος
 flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
 flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Προσθέστε μια υπόδειξη για να βρείτε εύκολα το κλειδί σας
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Αυτή η υπόδειξη θα σας βοηθήσει να θυμηθείτε πού αποθηκεύσατε το κλειδί ανάκτησης του λογαριασμού σας. Μπορούμε να σας την εμφανίσουμε κατά την επαναφορά του κωδικού πρόσβασης για να ανακτήσετε τα δεδομένα σας.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Εισαγάγετε μια υπόδειξη (προαιρετικό)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Τέλος
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Η υπόδειξη πρέπει να περιέχει λιγότερους από 255 χαρακτήρες.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορεί να περιέχει μη ασφαλείς χαρακτήρες unicode. Επιτρέπονται μόνο γράμματα, αριθμοί, σημεία στίξης και σύμβολα.
+
 ## Alert Bar
 
 alert-bar-close-message = Κλείσιμο μηνύματος
@@ -478,30 +516,11 @@ flow-recovery-key-download-info-v2 = Αυτό το κλειδί σάς επιτ�
 flow-recovery-key-download-next-link-v2 = Συνέχεια χωρίς λήψη
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Προσθέστε μια υπόδειξη για να βρείτε εύκολα το κλειδί σας
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Αυτή η υπόδειξη θα σας βοηθήσει να θυμηθείτε πού αποθηκεύσατε το κλειδί ανάκτησης του λογαριασμού σας. Μπορούμε να σας την εμφανίσουμε κατά την επαναφορά του κωδικού πρόσβασης για να ανακτήσετε τα δεδομένα σας.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Εισαγάγετε μια υπόδειξη (προαιρετικό)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Τέλος
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Η υπόδειξη πρέπει να περιέχει λιγότερους από 255 χαρακτήρες.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορεί να περιέχει μη ασφαλείς χαρακτήρες unicode. Επιτρέπονται μόνο γράμματα, αριθμοί, σημεία στίξης και σύμβολα.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -1000,14 +1019,6 @@ third-party-auth-options-or = Ή
 continue-with-google-button = Συνέχεια με { -brand-google }
 continue-with-apple-button = Συνέχεια με { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Ψηφίο { $inputNumber } από { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Άγνωστος λογαριασμός
@@ -1101,10 +1112,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Ωχ! Δεν μπορέσαμε να δημιουργήσουμε το κλειδί ανάκτησης του λογαριασμού σας. Παρακαλούμε δοκιμάστε ξανά αργότερα.
 inline-recovery-key-setup-recovery-created = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 inline-recovery-key-setup-download-header = Ασφαλίστε τον λογαριασμό σας
 inline-recovery-key-setup-download-subheader = Κάντε το λήψη και αποθήκευση τώρα
 inline-recovery-key-setup-download-info = Αποθηκεύστε αυτό το κλειδί σε μέρος που θα το θυμάστε. Δεν θα μπορείτε να επιστρέψετε σε αυτή τη σελίδα αργότερα.
+inline-recovery-key-setup-hint-header = Σύσταση ασφαλείας
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1315,17 +1328,6 @@ account-recovery-confirm-key-button = Επιβεβαίωση κλειδιού α
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανάκτησης λογαριασμού;
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Δημιουργία νέου κωδικού πρόσβασης
-account-restored-success-message = Έχετε ανακτήσει επιτυχώς τον λογαριασμό σας με το κλειδί ανάκτησης του λογαριασμού σας. Δημιουργήστε έναν νέο κωδικό πρόσβασης για την προστασία των δεδομένων σας και αποθηκεύστε τον σε ένα ασφαλές μέρος.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Παρουσιάστηκε απρόσμενο σφάλμα
-account-recovery-reset-password-redirecting = Ανακατεύθυνση
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1339,35 +1341,7 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
 complete-reset-password-recovery-key-error-v2 = Δυστυχώς, προέκυψε πρόβλημα κατά τον έλεγχο για την ύπαρξη κλειδιού ανάκτησης λογαριασμού.
 complete-reset-password-recovery-key-link = Κάντε επαναφορά του κωδικού πρόσβασής σας με το κλειδί ανάκτησης του λογαριασμού σας.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Απεστάλη το email επαναφοράς
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Κάντε κλικ στον σύνδεσμο που απεστάλη στο { $email } μέσα στην επόμενη ώρα για να δημιουργήσετε έναν νέο κωδικό πρόσβασης.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Κάντε επαναφορά του κωδικού πρόσβασης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Κάντε επαναφορά του κωδικού πρόσβασης <span>για να συνεχίσετε στο { $serviceName }</span>
-reset-password-warning-message-2 = <span>Σημείωση:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και κωδικούς πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν και τα δεδομένα σας στο { -product-pocket } δεν θα επηρεαστούν.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Email
-reset-password-button = Έναρξη επαναφοράς
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Απαιτείται email
-reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
-reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
-reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
+account-restored-success-message = Έχετε ανακτήσει επιτυχώς τον λογαριασμό σας με το κλειδί ανάκτησης του λογαριασμού σας. Δημιουργήστε έναν νέο κωδικό πρόσβασης για την προστασία των δεδομένων σας και αποθηκεύστε τον σε ένα ασφαλές μέρος.
 
 ## Confirm Reset Password With Code
 
@@ -1393,6 +1367,9 @@ password-reset-body = Εισαγάγετε το email σας και θα σας 
 password-reset-email-input =
     .label = Εισαγάγετε το email σας
 password-reset-submit-button = Αποστολή οδηγιών επαναφοράς
+reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
+reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
+reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
 
 ## CompleteSignin component
 
