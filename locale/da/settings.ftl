@@ -207,12 +207,24 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustration af en genoprettelsesnøgle til en konto.
-lock-image-aria-label =
-    .aria-label = En illustration af en lås
+password-image-aria-label =
+    .aria-label = En illustration af indtastning af en adgangskode.
 lightbulb-aria-label =
     .aria-label = Illustration af oprettelse af opbevaringstip.
 email-code-image-aria-label =
     .aria-label = Illustration af en mail, der indeholder en kode.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Du er logget ind på { -brand-firefox }
+inline-recovery-key-setup-create-header = Beskyt din konto
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Har du et øjeblik til at beskytte dine data?
+inline-recovery-key-setup-info = Opret en genoprettelsesnøgle til kontoen, så du kan gendanne dine synkroniserede data, hvis du nogensinde glemmer din adgangskode.
+inline-recovery-key-setup-start-button = Opret genoprettelsesnøgle til kontoen
+inline-recovery-key-setup-later-button = Gør det senere
 
 ## Input Password
 
@@ -271,6 +283,12 @@ primary-email-confirmation-link-reused = Primær mailadresse allerede bekræftet
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Login er allerede bekræftet
 confirmation-link-reused-message = Det bekræftelseslink er allerede blevet brugt, og det kan kun bruges én gang.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Opret
+account-recovery-notification-header-value = Mist ikke dine data, hvis du glemmer din adgangskode
+account-recovery-notification-header-description = Opret en genoprettelsesnøgle til kontoen for at gendanne dine synkroniserede data, hvis du nogensinde glemmer din adgangskode.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig forespørgsel
 
@@ -305,6 +323,17 @@ ready-continue = Fortsæt
 sign-in-complete-header = Login er bekræftet
 sign-up-complete-header = Konto bekræftet
 primary-email-verified-header = Primær mailadresse bekræftet
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Steder du kan gemme din nøgle:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på en sikker enhed
+flow-recovery-key-download-storage-ideas-cloud = Betroet opbevaring i skyen
+flow-recovery-key-download-storage-ideas-print-v2 = Udskrevet fysisk kopi
+flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
 
 ## Alert Bar
 
@@ -445,13 +474,6 @@ flow-recovery-key-download-heading-v2 = Genoprettelsesnøgle til kontoen oprette
 flow-recovery-key-download-info-v2 = Med denne nøgle kan du gendanne dine data, hvis du glemmer din adgangskode. Hent den nu og gem den et sted, du kan huske — Du kan ikke vende tilbage til denne side senere.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Fortsæt uden at hente
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Steder du kan gemme din nøgle:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på en sikker enhed
-flow-recovery-key-download-storage-ideas-cloud = Betroet opbevaring i skyen
-flow-recovery-key-download-storage-ideas-print-v2 = Udskrevet fysisk kopi
-flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1074,6 +1096,13 @@ index-account-info = En { -product-mozilla-account } giver også adgang til fler
 index-email-input =
     .label = Indtast din mailadresse
 
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Genoprettelsesnøgle til kontoen blev oprettet
+inline-recovery-key-setup-download-header = Beskyt din konto
+inline-recovery-key-setup-download-subheader = Hent og gem den nu
+inline-recovery-key-setup-download-info = Gem denne nøgle et sted, du vil huske - du kan ikke vende tilbage til denne side senere.
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1283,17 +1312,6 @@ account-recovery-confirm-key-button = Bekræft genoprettelsesnøgle til kontoen
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Har du ikke en genoprettelsesnøgle til kontoen?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Opret ny adgangskode
-account-restored-success-message = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Adgangskode oprettet
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Der opstod en uventet fejl
-account-recovery-reset-password-redirecting = Omdirigerer
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1307,35 +1325,7 @@ complete-reset-password-success-alert = Adgangskode oprettet
 complete-reset-password-error-alert = Der opstod desværre et problem med at oprette din adgangskode
 complete-reset-password-recovery-key-error-v2 = Der opstod desværre et problem med at tjekke, om du har en genoprettelsesnøgle til kontoen.
 complete-reset-password-recovery-key-link = Nulstil din adgangskode med din genoprettelsesnøgle til kontoen.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Mail til nulstilling sendt
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Klik på linket, vi har sendt til { $email } indenfor den næste time for at oprette en ny adgangskode.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Nulstil adgangskode <span>for at fortsætte til kontoindstillinger</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Nulstil adgangskode <span>for at fortsætte til { $serviceName }</span>
-reset-password-warning-message-2 = <span>Bemærk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { -product-pocket }-data berøres ikke.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Mailadresse
-reset-password-button = Start nulstilling
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Mailadresse påkrævet
-reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
-reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
-reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
+account-restored-success-message = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
 
 ## Confirm Reset Password With Code
 
@@ -1361,6 +1351,9 @@ password-reset-body = Indtast din mailadresse for at få tilsendt en bekræftels
 password-reset-email-input =
     .label = Indtast din mailadresse
 password-reset-submit-button = Send mig en vejledning til at nulstille
+reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
+reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
+reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
 
 ## CompleteSignin component
 
