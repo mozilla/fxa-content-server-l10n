@@ -207,12 +207,15 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustration to represent an account recovery key.
-lock-image-aria-label =
-    .aria-label = An illustration of a lock
 lightbulb-aria-label =
     .aria-label = Illustration to represent creating a storage hint.
 email-code-image-aria-label =
     .aria-label = Illustration to represent an email containing a code.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -271,6 +274,9 @@ primary-email-confirmation-link-reused = Primary email already confirmed
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Sign-in already confirmed
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Bad Request
 
@@ -305,6 +311,17 @@ ready-continue = Continue
 sign-in-complete-header = Sign-in confirmed
 sign-up-complete-header = Account confirmed
 primary-email-verified-header = Primary email confirmed
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Places to store your key:
+flow-recovery-key-download-storage-ideas-folder-v2 = Folder on secure device
+flow-recovery-key-download-storage-ideas-cloud = Trusted cloud storage
+flow-recovery-key-download-storage-ideas-print-v2 = Printed physical copy
+flow-recovery-key-download-storage-ideas-pwd-manager = Password manager
 
 ## Alert Bar
 
@@ -443,13 +460,6 @@ flow-recovery-key-download-heading-v2 = Account recovery key created — Downloa
 flow-recovery-key-download-info-v2 = This key allows you to recover your data if you forget your password. Download it now and store it somewhere you’ll remember — you won’t be able to return to this page later.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continue without downloading
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Places to store your key:
-flow-recovery-key-download-storage-ideas-folder-v2 = Folder on secure device
-flow-recovery-key-download-storage-ideas-cloud = Trusted cloud storage
-flow-recovery-key-download-storage-ideas-print-v2 = Printed physical copy
-flow-recovery-key-download-storage-ideas-pwd-manager = Password manager
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -1065,6 +1075,13 @@ index-account-info = A { -product-mozilla-account } also unlocks access to more 
 index-email-input =
     .label = Enter your email
 
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-recovery-created = Account recovery key created
+inline-recovery-key-setup-download-header = Secure your account
+inline-recovery-key-setup-download-subheader = Download and store it now
+inline-recovery-key-setup-download-info = Store this key somewhere you’ll remember — you won’t be able to get back to this page later.
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1274,17 +1291,6 @@ account-recovery-confirm-key-button = Confirm account recovery key
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Create new password
-account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Password set
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Unexpected error encountered
-account-recovery-reset-password-redirecting = Redirecting
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1298,35 +1304,7 @@ complete-reset-password-success-alert = Password set
 complete-reset-password-error-alert = Sorry, there was a problem setting your password
 complete-reset-password-recovery-key-error-v2 = Sorry, there was a problem checking if you have an account recovery key.
 complete-reset-password-recovery-key-link = Reset your password with your account recovery key.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Reset email sent
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Click the link emailed to { $email } within the next hour to create a new password.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Reset password <span>to continue to account settings</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
-reset-password-warning-message-2 = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Email
-reset-password-button = Begin reset
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Email required
-reset-password-with-recovery-key-verified-page-title = Password reset successful
-reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
-reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
+account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
 
 ## Confirm Reset Password With Code
 
@@ -1352,6 +1330,9 @@ password-reset-body = Enter your email and we’ll send you a confirmation code 
 password-reset-email-input =
     .label = Enter your email
 password-reset-submit-button = Send me reset instructions
+reset-password-with-recovery-key-verified-page-title = Password reset successful
+reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
+reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
 
 ## CompleteSignin component
 
@@ -1400,6 +1381,25 @@ signin-bounced-message = The confirmation email we sent to { $email } was return
 signin-bounced-help = If this is a valid email address, <linkExternal>let us know</linkExternal> and we can help unlock your account.
 signin-bounced-create-new-account = No longer own that email? Create a new account
 back = Back
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-heading-w-default-service = Verify this login <span>to continue to account settings</span>
+signin-push-code-heading-w-custom-service = Verify this login <span>to continue to { $serviceName }</span>
+signin-push-code-instruction = Please check your other devices and approve this login from your { -brand-firefox } browser.
+signin-push-code-did-not-recieve = Didn’t receive the notification?
+signin-push-code-send-email-link = Email code
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Confirm your login
+signin-push-code-confirm-description = We detected a login attempt from the following device. If this was you, please approve the login
+signin-push-code-confirm-verifying = Verifying
+signin-push-code-confirm-login = Confirm login
+signin-push-code-confirm-wasnt-me = This wasn’t me, change password.
+signin-push-code-confirm-login-approved = Your login has been approved. Please close this window.
+signin-push-code-confirm-link-error = Link is damaged. Please try again.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
