@@ -172,6 +172,20 @@ form-password-sr-passwords-match = Zadaná hesla se shodují.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Toto pole je povinné
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Pro pokračování vložte { $codeLength }-místný číselný kód
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Pro pokračování vložte { $codeLength } znakový kód
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Důvěryhodné cloudové úlož
 flow-recovery-key-download-storage-ideas-print-v2 = Tištěná fyzická kopie
 flow-recovery-key-download-storage-ideas-pwd-manager = Správce hesel
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Přidejte nápovědu, která vám pomůže najít klíč
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Tato nápověda by vám měla pomoci zapamatovat si, kam jste si uložili obnovovací klíč k účtu. Můžeme vám ji zobrazit v průběhu obnovy hesla a pomoci vám tak obnovit vaše data.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Zadejte nápovědu (volitelné)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Dokončit
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Nápověda musí mít méně než 255 znaků.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Nápověda nemůže obsahovat nebezpečné znaky Unicode. Povoleny jsou pouze písmena, číslice, interpunkční znaménka a symboly.
+
 ## Alert Bar
 
 alert-bar-close-message = Zavřít zprávu
@@ -478,30 +516,11 @@ flow-recovery-key-download-info-v2 = Tento klíč umožňuje obnovit data, pokud
 flow-recovery-key-download-next-link-v2 = Pokračovat bez stahování
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Přidejte nápovědu, která vám pomůže najít klíč
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Tato nápověda by vám měla pomoci zapamatovat si, kam jste si uložili obnovovací klíč k účtu. Můžeme vám ji zobrazit v průběhu obnovy hesla a pomoci vám tak obnovit vaše data.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Zadejte nápovědu (volitelné)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Dokončit
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Obnovovací klíč k účtu byl vytvořen
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Nápověda musí mít méně než 255 znaků.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Nápověda nemůže obsahovat nebezpečné znaky Unicode. Povoleny jsou pouze písmena, číslice, interpunkční znaménka a symboly.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -987,14 +1006,6 @@ third-party-auth-options-or = Nebo
 continue-with-google-button = Pokračovat pomocí { -brand-google }
 continue-with-apple-button = Pokračovat pomocí { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Číslice { $inputNumber } z { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznámý účet
@@ -1088,10 +1099,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Jejda! Nepodařilo se vytvořit váš obnovovací klíč k účtu. Zkuste to prosím znovu později.
 inline-recovery-key-setup-recovery-created = Obnovovací klíč k účtu byl vytvořen
 inline-recovery-key-setup-download-header = Zabezpečte svůj účet
 inline-recovery-key-setup-download-subheader = Stáhněte a uložte jej
 inline-recovery-key-setup-download-info = Uložte si tento klíč na místo, které si budete pamatovat — později se na tuto stránku nebudete moci vrátit.
+inline-recovery-key-setup-hint-header = Bezpečnostní doporučení
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1302,17 +1315,6 @@ account-recovery-confirm-key-button = Potvrďte obnovovací klíč k účtu
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nemáte obnovovací klíč k účtu?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Vytvořit nové heslo
-account-restored-success-message = Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče k účtu. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si ho na bezpečné místo.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Heslo nastaveno
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Nastala neočekávaná chyba.
-account-recovery-reset-password-redirecting = Probíhá přesměrování
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1326,35 +1328,7 @@ complete-reset-password-success-alert = Heslo nastaveno
 complete-reset-password-error-alert = Vaše heslo se nepodařilo nastavit
 complete-reset-password-recovery-key-error-v2 = Omlouváme se, došlo k problému při kontrole, zda máte obnovovací klíč k účtu.
 complete-reset-password-recovery-key-link = Obnovte heslo pomocí obnovovacího klíče k účtu.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = E-mail pro obnovu odeslán
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Pro vytvoření nového hesla prosím během jedné hodiny klepněte na odkaz, který jsme vám poslali e-mailem na adresu { $email }.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do nastavení účtu</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
-reset-password-warning-message-2 = <span>Poznámka:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro ochranu soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě { -product-pocket } zůstanou beze změny.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mail
-reset-password-button = Začít obnovu
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mail je vyžadován
-reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
-reset-password-with-recovery-key-verified-generate-new-key = Vytvořit nový obnovovací klíč k účtu
-reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
+account-restored-success-message = Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče k účtu. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si ho na bezpečné místo.
 
 ## Confirm Reset Password With Code
 
@@ -1380,6 +1354,9 @@ password-reset-body = Zadejte svou e-mailovou adresu a my vám zašleme potvrzov
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
 password-reset-submit-button = Pošlete mi pokyny pro obnovení
+reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
+reset-password-with-recovery-key-verified-generate-new-key = Vytvořit nový obnovovací klíč k účtu
+reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
 
 ## CompleteSignin component
 
