@@ -184,7 +184,7 @@ form-verify-totp-disabled-button-title-numeric = Geben Sie den { $codeLength }-s
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = Geben Sie einen { $codeLength }-Zeichen Code ein, um fortzufahren
+form-verify-totp-disabled-button-title-alphanumeric = Geben Sie den { $codeLength }-stelligen Code ein, um fortzufahren
 
 # GetDataTrio component, part of Account Recovery Key flow
 
