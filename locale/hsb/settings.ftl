@@ -172,6 +172,20 @@ form-password-sr-passwords-match = Zapodate hesła su jenake.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Tute polo je trěbne
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Zapodajće { $codeLength }-městnowy kod, zo byšće pokročował
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Zapodajće { $codeLength }-znamješkowy kod, zo byšće pokročował
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Dowěryhódny składowak w clou
 flow-recovery-key-download-storage-ideas-print-v2 = Wućišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Přidajće pokiw, zo byšće swój kluč zaso namakał
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Tutón pokiw dyrbjał wam pomhać, sej spomjatkować, hdźež sće swój kluč kontoweho wobnowjenja składował. Móžemy wam jón za wróćostajenje hesła pokazać, zo bychu so waše daty wobnowili.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Zapodajće pokiw (na přeće)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Dokónčić
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Pokiw dyrbi mjenje hač 255 znamješkow wobsahować.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Pokiw njesmě njewěste znamješka Unicode wobsahować. Jenož pismiki, ličby, interpunkciske znamješka a symbole su dowolene.
+
 ## Alert Bar
 
 alert-bar-close-message = Zdźělenku začinić
@@ -476,30 +514,11 @@ flow-recovery-key-download-info-v2 = Tutón kluč wam zmóžnja, waše daty wobn
 flow-recovery-key-download-next-link-v2 = Dale bjez sćehnjenja
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Přidajće pokiw, zo byšće swój kluč zaso namakał
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Tutón pokiw dyrbjał wam pomhać, sej spomjatkować, hdźež sće swój kluč kontoweho wobnowjenja składował. Móžemy wam jón za wróćostajenje hesła pokazać, zo bychu so waše daty wobnowili.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Zapodajće pokiw (na přeće)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Dokónčić
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontowy wobnowjenski kluč je so wutworił
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Pokiw dyrbi mjenje hač 255 znamješkow wobsahować.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Pokiw njesmě njewěste znamješka Unicode wobsahować. Jenož pismiki, ličby, interpunkciske znamješka a symbole su dowolene.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -994,14 +1013,6 @@ third-party-auth-options-or = abo
 continue-with-google-button = Dale z { -brand-google }
 continue-with-apple-button = Dale z { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Městno { $inputNumber } z { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Njeznate konto
@@ -1095,10 +1106,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Hopla! Njemóžachmy waš kontowy wobnowjenski kluč wutworić. Prošu spytajće pozdźišo hišće raz.
 inline-recovery-key-setup-recovery-created = Kontowy wobnowjenski kluč je so wutworił
 inline-recovery-key-setup-download-header = Zawěsćće swoje konto
 inline-recovery-key-setup-download-subheader = Sćehńće a składujće jón nětko
 inline-recovery-key-setup-download-info = Składujće tutón kluč na městnje, na kotrež so dopominaće – njemóžeće so k tutej stronje pozdźišo wróćić.
+inline-recovery-key-setup-hint-header = Wěstotne poručenje
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
