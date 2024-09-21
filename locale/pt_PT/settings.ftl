@@ -184,7 +184,7 @@ form-verify-totp-disabled-button-title-numeric = Introduza o código de { $codeL
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = Introduza o código de caracteres { $codeLength } para continuar
+form-verify-totp-disabled-button-title-alphanumeric = Introduza o código de { $codeLength } caracteres para continuar
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -222,7 +222,7 @@ security-shield-aria-label =
 recovery-key-image-aria-label =
     .aria-label = Ilustração para representar uma chave de recuperação da conta.
 password-image-aria-label =
-    .aria-label = Uma imagem para representar a escrita de uma palavra-passe.
+    .aria-label = Uma ilustração para representar a escrita de uma palavra-passe.
 lightbulb-aria-label =
     .aria-label = Ilustração para representar a criação de uma dica de armazenamento.
 email-code-image-aria-label =
@@ -232,11 +232,11 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Está autenticado no { -brand-firefox }
-inline-recovery-key-setup-create-header = Proteger a sua conta
+inline-recovery-key-setup-signed-in-firefox = Tem sessão iniciada no { -brand-firefox }
+inline-recovery-key-setup-create-header = Proteja a sua conta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Tem um minuto para proteger os seus dados?
-inline-recovery-key-setup-info = Crie uma chave de recuperação da conta para que possa restaurar os seus dados de navegação sincronizados se algum dia se esquecer da sua palavra-passe.
+inline-recovery-key-setup-info = Crie uma chave da recuperação de conta para que possa restaurar os seus dados de navegação sincronizados se algum dia se esquecer da sua palavra-passe.
 inline-recovery-key-setup-start-button = Criar chave de recuperação da conta
 inline-recovery-key-setup-later-button = Fazer mais tarde
 
@@ -1101,11 +1101,11 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
-inline-recovery-key-setup-create-error = Ops! Não conseguimos criar a sua chave de recuperação da conta. Por favor, tente novamente mais tarde.
+inline-recovery-key-setup-create-error = Ups! Não conseguimos criar a sua chave de recuperação da conta. Por favor, tente novamente mais tarde.
 inline-recovery-key-setup-recovery-created = Chave de recuperação da conta criada
-inline-recovery-key-setup-download-header = Proteger a sua conta
+inline-recovery-key-setup-download-header = Proteja a sua conta
 inline-recovery-key-setup-download-subheader = Transferir e guardar agora
-inline-recovery-key-setup-download-info = Guarde esta chave num lugar onde se lembre - não irá conseguir voltar a esta página mais tarde.
+inline-recovery-key-setup-download-info = Guarde esta chave num sítio onde se lembre — não irá conseguir regressar a esta página mais tarde.
 inline-recovery-key-setup-hint-header = Recomendação de segurança
 
 ## InlineRecoverySetup page
@@ -1413,17 +1413,17 @@ back = Voltar
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = Verifique esta credencial <span>para continuar para as definições da conta</span>
-signin-push-code-heading-w-custom-service = Verifique esta credencial <span>para continuar para { $serviceName }</span>
-signin-push-code-instruction = Por favor verifique os seus outros dispositivos e aprove esta credencial no seu { -brand-firefox }.
+signin-push-code-heading-w-default-service = Confirme este início de sessão <span>para continuar para as definições da conta</span>
+signin-push-code-heading-w-custom-service = Confirme este início de sessão <span>para continuar para { $serviceName }</span>
+signin-push-code-instruction = Por favor, verifique os seus outros dispositivos e aprove este início de sessão no seu { -brand-firefox }.
 signin-push-code-did-not-recieve = Não recebeu a notificação?
-signin-push-code-send-email-link = Código de e-mail
+signin-push-code-send-email-link = Enviar código por e-mail
 
 ## SigninPushCodeConfirmPage
 
-signin-push-code-confirm-instruction = Confirmar a sua credencial
-signin-push-code-confirm-description = Detetámos uma tentativa de início de sessão a partir do seguinte dispositivo. Se foi você, por favor aprove a credencial
-signin-push-code-confirm-verifying = A verificar
+signin-push-code-confirm-instruction = Confirme o seu início de sessão
+signin-push-code-confirm-description = Detetámos uma tentativa de início de sessão a partir do seguinte dispositivo. Se foi você, por favor, aprove o início sessão
+signin-push-code-confirm-verifying = A confirmar
 signin-push-code-confirm-login = Confirmar início de sessão
 signin-push-code-confirm-wasnt-me = Não foi eu, altere a palavra-passe.
 signin-push-code-confirm-login-approved = A sua credencial foi aprovada. Por favor feche esta janela.

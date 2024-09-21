@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-21 22:47+0000\n"
+"PO-Revision-Date: 2024-09-21 23:05+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -2108,7 +2108,7 @@ msgstr "Transferir o Firefox agora"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr "Ligar o seu dispositivo móvel à sua conta Mozilla"
+msgstr "A ligar o seu dispositivo móvel à sua conta Mozilla"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
@@ -2116,4 +2116,4 @@ msgstr "Ups! Algo correu mal."
 
 #: .es5/templates/pair/unsupported.mustache:20
 msgid "Please close this tab and try again."
-msgstr "Por favor feche este separador e tente novamente."
+msgstr "Por favor, feche este separador e tente novamente."
