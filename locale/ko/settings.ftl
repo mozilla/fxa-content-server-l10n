@@ -72,6 +72,9 @@ recovery-key-pdf-download-error = 죄송합니다. 계정 복구 키를 다운�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla }에서 더 많은 정보를 얻으세요:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = 최신 소식과 제품 업데이트를 받아보세요
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = 신제품 테스트를 위한 조기 액세스
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -169,6 +172,10 @@ form-password-sr-passwords-match = 입력한 비밀번호가 일치합니다.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = 필수 항목입니다
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -226,6 +233,8 @@ input-password-hide-aria-2 = 비밀번호가 현재 화면에 표시됩니다.
 input-password-show-aria-2 = 비밀번호가 현재 숨겨져 있습니다.
 # Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
 input-password-sr-only-now-visible = 이제 비밀번호가 화면에 표시됩니다.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = 이제 비밀번호가 숨겨졌습니다.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 뒤로
 
@@ -240,15 +249,27 @@ signin-link-damaged-header = 확인 링크가 손상됨
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = 링크 손상됨
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = 클릭하신 링크에 누락된 문자가 있습니다. 이메일 클라이언트에 의해 깨졌을 수 있습니다. 주소를 주의 깊게 복사한 후 다시 시도하세요.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = 새 링크 받기
 
 ## LinkExpiredResetPassword component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = 비밀번호 재설정 링크가 만료됨
+reset-pwd-link-expired-message = 비밀번호를 재설정하기 위해 클릭한 링크가 만료되었습니다.
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = 비밀번호를 기억하시나요?
+# link navigates to the sign in page
+remember-password-signin-link = 로그인
 
 ## LinkUsed component
 
@@ -260,14 +281,18 @@ confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 
 
 ## Notification Promo Banner component
 
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = 잘못된 요청
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = 여기에 저장한 암호화된 데이터에 접근하려면 이 비밀번호가 필요합니다.
+password-info-balloon-reset-risk-info = 재설정은 비밀번호와 북마크 같은 데이터가 손실될 수 있음을 의미합니다.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = 비밀번호 요구 사항
 password-strength-balloon-min-length = 최소 8자 이상이어야 합니다
 password-strength-balloon-not-email = 사용자의 이메일 주소가 아니어야 합니다
 password-strength-balloon-not-common = 흔히 사용되는 비밀번호가 아니어야 합니다
@@ -277,10 +302,13 @@ password-strength-balloon-stay-safe-tips = 안전을 위해 — 비밀번호를 
 
 reset-password-complete-header = 비밀번호가 재설정되었습니다
 ready-complete-set-up-instruction = 다른 { -brand-firefox } 기기에 새 비밀번호를 입력하여 설정을 완료하세요.
+ready-start-browsing-button = 탐색 시작
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } 사용할 준비가 완료되었습니다.
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = 이제 계정 설정을 사용할 준비가 되었습니다.
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = 계정생성완료!
 ready-continue = 계속
@@ -299,6 +327,30 @@ flow-recovery-key-download-storage-ideas-cloud = 신뢰할 수 있는 클라우�
 flow-recovery-key-download-storage-ideas-print-v2 = 복사 된 물리적 사본
 flow-recovery-key-download-storage-ideas-pwd-manager = 비밀번호 관리자
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = 키를 찾는 데 도움이 되는 힌트를 추가하세요
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = 이 힌트는 계정 복구 키를 어디에 저장했는지 기억하는 데 도움을 줍니다. 데이터를 복구하기 위해 비밀번호를 재설정하는 동안 이것을 볼 수 있습니다.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = 힌트 입력 (선택사항)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = 완료
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = 힌트는 255자 미만이어야 합니다.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = 힌트에는 안전하지 않은 유니코드 문자가 포함될 수 없습니다. 문자, 숫자, 구두점 및 기호만 허용됩니다.
+
 ## Alert Bar
 
 alert-bar-close-message = 메시지 닫기
@@ -315,6 +367,8 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = { -brand-mozilla } 제품
+bento-menu-tagline = 사용자의 개인 정보를 보호하는 더 많은 { -brand-mozilla }의 제품
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -326,6 +380,7 @@ bento-menu-made-by-mozilla = { -brand-mozilla } 제작
 ## Connect another device promo
 
 connect-another-fx-mobile = 모바일이나 태블릿에서 { -brand-firefox } 받기
+connect-another-find-fx-mobile-2 = { -google-play }와 { -app-store }에서 { -brand-firefox }를 찾으세요.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -418,30 +473,11 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 새로운 계정 복구
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = 키를 찾는 데 도움이 되는 힌트를 추가하세요
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = 이 힌트는 계정 복구 키를 어디에 저장했는지 기억하는 데 도움을 줍니다. 데이터를 복구하기 위해 비밀번호를 재설정하는 동안 이것을 볼 수 있습니다.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = 힌트 입력 (선택사항)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = 완료
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = 계정 복구 키 생성됨
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = 힌트는 255자 미만이어야 합니다.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = 힌트에는 안전하지 않은 유니코드 문자가 포함될 수 없습니다. 문자, 숫자, 구두점 및 기호만 허용됩니다.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -832,10 +868,6 @@ tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 알 수 없는 계정
@@ -957,21 +989,9 @@ pair-supp-allow-cancel-link = 취소
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-
-## Confirm Reset Password Component
-
-
-## ResetPassword page
-
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = 이메일
 
 ## Confirm Reset Password With Code
 
