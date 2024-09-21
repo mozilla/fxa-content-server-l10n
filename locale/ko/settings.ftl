@@ -697,6 +697,22 @@ recent-activity-account-disable-v2 = 계정 비활성화됨
 recent-activity-account-enable-v2 = 계정 활성화됨
 recent-activity-account-login-v2 = 계정 로그인 개시됨
 recent-activity-account-reset-v2 = 비밀번호 재설정 개시됨
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = 이메일 반송 해결됨
+recent-activity-account-login-failure = 계정 로그인 시도 실패
+recent-activity-account-two-factor-added = 2단계 인증 활성화됨
+recent-activity-account-two-factor-requested = 2단계 인증이 요청됨
+recent-activity-account-two-factor-failure = 2단계 인증 실패함
+recent-activity-account-two-factor-success = 2단계 인증 성공함
+recent-activity-account-two-factor-removed = 2단계 인증 제거됨
+recent-activity-account-password-reset-requested = 계정 비밀번호 재설정 요청됨
+recent-activity-account-password-reset-success = 계정 비밀번호 재설정 성공함
+recent-activity-account-recovery-key-added = 계정 복구 키 활성화됨
+recent-activity-account-recovery-key-verification-failure = 계정 복구 키 확인 실패함
+recent-activity-account-recovery-key-verification-success = 계정 복구 키 검증 성공함
+recent-activity-account-recovery-key-removed = 계정 복구 키 제거됨
+recent-activity-account-password-added = 새 비밀번호 추가됨
 
 ## PageRecoveryKeyCreate
 
