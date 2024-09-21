@@ -172,6 +172,20 @@ form-password-sr-passwords-match = Angivna lösenord matchar.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Detta fält är obligatoriskt
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Ange { $codeLength }-siffrig kod för att fortsätta
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Ange en kod på { $codeLength } tecken för att fortsätta
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Pålitlig molnlagring
 flow-recovery-key-download-storage-ideas-print-v2 = Utskrivet fysiskt exemplar
 flow-recovery-key-download-storage-ideas-pwd-manager = Lösenordshanterare
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Lägg till ett tips för att hitta din nyckel
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Den här tipsen bör hjälpa dig att komma ihåg var du lagrade din kontoåterställningsnyckel. Vi kan visa de för dig under lösenordsåterställningen för att återställa dina data.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Ange ett tips (valfritt)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Slutför
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Tipset måste innehålla färre än 255 tecken.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Tipset får inte innehålla osäkra unicode-tecken. Endast bokstäver, siffror, skiljetecken och symboler är tillåtna.
+
 ## Alert Bar
 
 alert-bar-close-message = Stäng meddelande
@@ -476,30 +514,11 @@ flow-recovery-key-download-info-v2 = Denna nyckel låter dig återställa dina d
 flow-recovery-key-download-next-link-v2 = Fortsätt utan att ladda ner
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Lägg till ett tips för att hitta din nyckel
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Den här tipsen bör hjälpa dig att komma ihåg var du lagrade din kontoåterställningsnyckel. Vi kan visa de för dig under lösenordsåterställningen för att återställa dina data.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Ange ett tips (valfritt)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Slutför
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontoåterställningsnyckel skapad
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Tipset måste innehålla färre än 255 tecken.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Tipset får inte innehålla osäkra unicode-tecken. Endast bokstäver, siffror, skiljetecken och symboler är tillåtna.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -1000,14 +1019,6 @@ third-party-auth-options-or = Eller
 continue-with-google-button = Fortsätt med { -brand-google }
 continue-with-apple-button = Fortsätt med { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Siffra { $inputNumber } av { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Okänt konto
@@ -1101,10 +1112,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Hoppsan! Vi kunde inte skapa din kontoåterställningsnyckel. Försök igen senare.
 inline-recovery-key-setup-recovery-created = Kontoåterställningsnyckel skapad
 inline-recovery-key-setup-download-header = Säkra ditt konto
 inline-recovery-key-setup-download-subheader = Ladda ner och lagra den nu
 inline-recovery-key-setup-download-info = Förvara den här nyckeln någonstans du kommer ihåg — du kommer inte att kunna komma tillbaka till den här sidan senare.
+inline-recovery-key-setup-hint-header = Säkerhetsrekommendation
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1315,17 +1328,6 @@ account-recovery-confirm-key-button = Bekräfta nyckel för kontoåterställning
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Har du ingen kontoåterställningsnyckel?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Skapa nytt lösenord
-account-restored-success-message = Du har lyckats återställa ditt konto med din kontoåterställningsnyckel. Skapa ett nytt lösenord för att skydda dina data och lagra dem på en säker plats.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Lösenord satt
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Ett oväntat fel uppstod
-account-recovery-reset-password-redirecting = Omdirigerar
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1339,35 +1341,7 @@ complete-reset-password-success-alert = Lösenord satt
 complete-reset-password-error-alert = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
 complete-reset-password-recovery-key-error-v2 = Det gick tyvärr inte att kontrollera om du har en kontoåterställningsnyckel.
 complete-reset-password-recovery-key-link = Återställ ditt lösenord med din kontoåterställningsnyckel.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Återställningsmejl skickat
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Klicka på länken som skickats till din { $email } inom den närmaste timmen för att skapa ett nytt lösenord.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Återställ lösenordet <span>för att fortsätta till kontoinställningarna</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Återställ lösenordet <span>för att fortsätta till { $serviceName }</span>
-reset-password-warning-message-2 = <span>Obs!</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { -product-pocket }-data kommer inte att påverkas.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-post
-reset-password-button = Påbörja återställning
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-post krävs
-reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
-reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
-reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
+account-restored-success-message = Du har lyckats återställa ditt konto med din kontoåterställningsnyckel. Skapa ett nytt lösenord för att skydda dina data och lagra dem på en säker plats.
 
 ## Confirm Reset Password With Code
 
@@ -1393,6 +1367,9 @@ password-reset-body = Ange din e-postadress så skickar vi en bekräftelsekod f�
 password-reset-email-input =
     .label = Ange din e-postadress
 password-reset-submit-button = Skicka mig återställningsinstruktioner
+reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
+reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
+reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
 
 ## CompleteSignin component
 
