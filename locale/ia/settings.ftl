@@ -175,6 +175,16 @@ form-verify-code-default-error = Campo requirite.
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Insere un codice de { $codeLength } cifras pro continuar
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Insere un codice de { $codeLength } characteres pro continuar
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -1098,6 +1108,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Oops! Impossibile crear le clave de recuperation del conto. Retenta plus tarde.
 inline-recovery-key-setup-recovery-created = Clave de recuperation del conto create
 inline-recovery-key-setup-download-header = Protege tu conto
 inline-recovery-key-setup-download-subheader = Discarga e immagazina lo ora
