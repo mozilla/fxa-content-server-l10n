@@ -172,6 +172,20 @@ form-password-sr-passwords-match = Mật khẩu đã nhập đã khớp.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Trường này là bắt buộc
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Nhập mã { $codeLength } chữ số để tiếp tục
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Nhập mã { $codeLength } ký tự để tiếp tục
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Lưu trữ đám mây đáng ti
 flow-recovery-key-download-storage-ideas-print-v2 = Bản in vật lý
 flow-recovery-key-download-storage-ideas-pwd-manager = Trình quản lý mật khẩu
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Thêm gợi ý để giúp tìm khóa của bạn
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Gợi ý này sẽ giúp bạn nhớ nơi bạn đã lưu khóa khôi phục tài khoản của mình. Chúng tôi có thể hiển thị nó cho bạn trong lúc bạn đặt lại mật khẩu để khôi phục dữ liệu của bạn.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Nhập gợi ý (không bắt buộc)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Hoàn thành
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Chuỗi gợi ý phải chứa ít hơn 255 kí tự.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Gợi ý không được chứa các ký tự unicode không an toàn. Chỉ cho phép các chữ cái, số, dấu chấm câu và ký hiệu.
+
 ## Alert Bar
 
 alert-bar-close-message = Đóng thông báo
@@ -476,30 +514,11 @@ flow-recovery-key-download-info-v2 = Khóa này cho phép bạn khôi phục d�
 flow-recovery-key-download-next-link-v2 = Tiếp tục mà không tải xuống
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Thêm gợi ý để giúp tìm khóa của bạn
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Gợi ý này sẽ giúp bạn nhớ nơi bạn đã lưu khóa khôi phục tài khoản của mình. Chúng tôi có thể hiển thị nó cho bạn trong lúc bạn đặt lại mật khẩu để khôi phục dữ liệu của bạn.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Nhập gợi ý (không bắt buộc)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Hoàn thành
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Đã tạo khóa khôi phục tài khoản
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Chuỗi gợi ý phải chứa ít hơn 255 kí tự.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Gợi ý không được chứa các ký tự unicode không an toàn. Chỉ cho phép các chữ cái, số, dấu chấm câu và ký hiệu.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -996,14 +1015,6 @@ third-party-auth-options-or = Hoặc
 continue-with-google-button = Tiếp tục với { -brand-google }
 continue-with-apple-button = Tiếp tục với { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Chữ số { $inputNumber } của { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Tài khoản không xác định
@@ -1097,10 +1108,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Rất tiếc! Chúng tôi không thể tạo khóa khôi phục tài khoản của bạn. Vui lòng thử lại sau.
 inline-recovery-key-setup-recovery-created = Đã tạo khóa khôi phục tài khoản
 inline-recovery-key-setup-download-header = Bảo mật tài khoản của bạn
 inline-recovery-key-setup-download-subheader = Tải xuống và lưu trữ ngay bây giờ
 inline-recovery-key-setup-download-info = Hãy lưu trữ khóa này ở nơi bạn dễ nhớ — bạn sẽ không thể quay lại trang để lấy nó sau này.
+inline-recovery-key-setup-hint-header = Đề xuất bảo mật
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1311,17 +1324,6 @@ account-recovery-confirm-key-button = Xác nhận khóa khôi phục tài khoả
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Không có khóa khôi phục tài khoản?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Tạo mật khẩu mới
-account-restored-success-message = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Đã đặt mật khẩu
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Đã xảy ra lỗi không mong muốn
-account-recovery-reset-password-redirecting = Đang chuyển hướng
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1335,35 +1337,7 @@ complete-reset-password-success-alert = Đã đặt mật khẩu
 complete-reset-password-error-alert = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
 complete-reset-password-recovery-key-error-v2 = Rất tiếc, đã xảy ra sự cố khi kiểm tra xem bạn có khóa khôi phục tài khoản hay không.
 complete-reset-password-recovery-key-link = Đặt lại mật khẩu của bạn bằng khóa khôi phục tài khoản.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Đã gửi email đặt lại
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Nhấp vào liên kết được gửi qua email tới { $email } trong vòng một giờ tới để tạo mật khẩu mới.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Đặt lại mật khẩu <span>để tiếp tục cài đặt tài khoản</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Đặt lại mật khẩu <span>để tiếp tục đến với { $serviceName }</span>
-reset-password-warning-message-2 = <span>Lưu ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { -product-pocket } sẽ không bị ảnh hưởng.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Email
-reset-password-button = Bắt đầu đặt lại
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Yêu cầu email
-reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
-reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
-reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
+account-restored-success-message = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
 
 ## Confirm Reset Password With Code
 
@@ -1389,6 +1363,9 @@ password-reset-body = Nhập email của bạn và chúng tôi sẽ gửi cho b�
 password-reset-email-input =
     .label = Nhập email của bạn
 password-reset-submit-button = Gửi cho tôi hướng dẫn đặt lại
+reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
+reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
+reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
 
 ## CompleteSignin component
 
