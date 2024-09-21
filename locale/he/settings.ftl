@@ -161,6 +161,20 @@ form-password-sr-passwords-match = הססמאות שהוזנו תואמות.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = שדה זה נדרש
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = יש להזין קוד בן { $codeLength } ספרות כדי להמשיך
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = יש להזין קוד בן { $codeLength } תווים כדי להמשיך
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -275,6 +289,7 @@ confirmation-link-reused-message = נעשה שימוש קודם בקישור ה�
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = יצירה
+account-recovery-notification-header-value = לא לאבד את הנתונים שלך אם הססמה שלך תישכח
 account-recovery-notification-header-description = ניתן ליצור מפתח לשחזור חשבון כדי לשחזר את נתוני הגלישה המסונכרנים שלך אם הססמה שלך תישכח.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = בקשה שגויה
@@ -321,6 +336,30 @@ flow-recovery-key-download-storage-ideas-folder-v2 = תיקייה במכשיר �
 flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
 flow-recovery-key-download-storage-ideas-print-v2 = עותק פיזי מודפס
 flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = הוספת רמז שיעזור למצוא את המפתח שלך
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = רמז זה אמור לעזור לך לזכור היכן שמרת את מפתח שחזור החשבון שלך. נוכל להראות לך אותו במהלך איפוס ססמה כדי לשחזר את הנתונים שלך.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = נא להכיס רמז (אופציונלי)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = סיום
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = הרמז חייב להכיל פחות מ־255 תווים.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = הרמז אינו יכול להכיל תווי יוניקוד שלא בטוחים. רק אותיות, מספרים, סימני פיסוק וסמלים מותרים.
 
 ## Alert Bar
 
@@ -458,30 +497,11 @@ flow-recovery-key-download-info-v2 = מפתח זה מאפשר לך לשחזר א
 flow-recovery-key-download-next-link-v2 = המשך ללא הורדה
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = הוספת רמז שיעזור למצוא את המפתח שלך
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = רמז זה אמור לעזור לך לזכור היכן שמרת את מפתח שחזור החשבון שלך. נוכל להראות לך אותו במהלך איפוס ססמה כדי לשחזר את הנתונים שלך.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = נא להכיס רמז (אופציונלי)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = סיום
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = נוצר מפתח לשחזור החשבון
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = הרמז חייב להכיל פחות מ־255 תווים.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = הרמז אינו יכול להכיל תווי יוניקוד שלא בטוחים. רק אותיות, מספרים, סימני פיסוק וסמלים מותרים.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -933,14 +953,6 @@ third-party-auth-options-or = או
 continue-with-google-button = המשך באמצעות { -brand-google }
 continue-with-apple-button = המשך באמצעות { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = ספרה { $inputNumber } מתוך { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = חשבון לא ידוע
@@ -1230,17 +1242,6 @@ account-recovery-confirm-key-button = נא לחזור שנית על מפתח ש�
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = אין לך מפתח לשחזור חשבון?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = יצירת ססמה חדשה
-account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = הססמה הוגדרה
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = אירעה שגיאה בלתי צפויה
-account-recovery-reset-password-redirecting = מתבצעת הפניה
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1254,35 +1255,7 @@ complete-reset-password-success-alert = הססמה הוגדרה
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
 complete-reset-password-recovery-key-error-v2 = אירעה שגיאה בבדיקה האם יש לך מפתח לשחזור חשבון, עמך הסליחה.
 complete-reset-password-recovery-key-link = איפוס הססמה שלך עם מפתח שחזור החשבון שלך.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = הודעת דוא״ל לאיפוס נשלחה
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = נא ללחוץ על הקישור שנשלח בדוא״ל אל { $email } בשעה הקרובה כדי ליצור ססמה חדשה.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = איפוס ססמה <span>כדי להמשיך להגדרות החשבון</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = איפוס ססמה <span>כדי להמשיך אל { $serviceName }</span>
-reset-password-warning-message-2 = <span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ -product-pocket } שלך לא יושפעו.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = דוא״ל
-reset-password-button = התחלת איפוס
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = דוא״ל נדרש
-reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
-reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
-reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
+account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
 
 ## Confirm Reset Password With Code
 
@@ -1308,6 +1281,9 @@ password-reset-body = נא להכניס  את כתובת הדוא״ל שלך ו�
 password-reset-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
 password-reset-submit-button = שלחו לי הוראות לאיפוס
+reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
+reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
+reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
 
 ## CompleteSignin component
 
