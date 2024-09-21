@@ -414,6 +414,9 @@ cs-disconnect-sync-heading = Sync 연결 끊기
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    브라우징 데이터는 <span>{ $device }</span>에 남지만, 
+    계정과 더이상 동기화하지 않을 것입니다.
 cs-disconnect-sync-reason-3 = <span>{ $device }</span>의 연결을 해제하는 이유는 무엇인가요?
 
 ## The following are the options for selecting a reason for disconnecting the
@@ -430,7 +433,9 @@ cs-disconnect-sync-opt-not-say = 답변하지 않음
 
 cs-disconnect-advice-confirm = 알겠습니다.
 cs-disconnect-lost-advice-heading = 분실 또는 도난당한 장치 연걸 해제됨
+cs-disconnect-lost-advice-content-3 = 기기를 분실하거나 도난 되었기 때문에 정보를 안전하게 보호하려면 계정 설정에서 { -product-mozilla-account } 비밀번호를 변경해야 합니다. 또한 원격으로 데이터를 지우는 방법에 대해 기기 제조사에서 찾아봐야 합니다.
 cs-disconnect-suspicious-advice-heading = 의심스러운 기기가 연결 해제됨
+cs-disconnect-suspicious-advice-content-2 = 연결이 끊긴 장치가 실제로 의심스러운 경우, 정보를 안전하게 보호하려면 계정 설정에서 { -product-mozilla-account } 비밀번호를 변경해야 합니다. 주소창에 about:logins을 입력하여 { -brand-firefox }에 저장한 다른 비밀번호도 변경해야 합니다.
 cs-sign-out-button = 로그아웃
 
 ##
@@ -439,11 +444,18 @@ cs-sign-out-button = 로그아웃
 ## Data collection section
 
 dc-heading = 데이터 수집 및 사용
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } 브라우저
+dc-subheader-content-2 = { -product-mozilla-accounts }가 기술 및 상호작용 데이터를 { -brand-mozilla }로 전송하도록 허용합니다.
+dc-subheader-ff-content = { -brand-firefox } 브라우저의 기술 및 상호작용 데이터 설정을 검토하거나 업데이트하려면 { -brand-firefox } 설정을 열고 개인정보 보호 및 보안으로 이동하세요.
+dc-opt-out-success-2 = 동의 철회에 성공했습니다. { -product-mozilla-accounts }는 기술 및 상호작용 데이터를 { -brand-mozilla }에 보내지 않습니다.
+dc-opt-in-success-2 = 감사합니다! 이 데이터를 공유하면 { -product-mozilla-accounts }를 개선하는 데 도움이 됩니다.
 dc-opt-in-out-error-2 = 데이터 수집 설정을 변경하는 중 문제가 발생했습니다.
 dc-learn-more = 자세히 알아보기
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = { -product-mozilla-account } 메뉴
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -471,6 +483,11 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 새로운 계정 복구
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = 계정 복구 키가 생성되었습니다. 지금 다운로드하고 저장하세요.
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = 이 키는 비밀번호를 잊어버린 경우 데이터를 복구할 수 있게 해줍니다. 지금 다운로드하고 기억할 수 있는 곳에 보관하세요. — 나중에 이 페이지로 돌아올 수 없습니다.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = 다운로드하지 않고 계속하기
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -485,6 +502,12 @@ flow-recovery-key-success-alert = 계정 복구 키 생성됨
 flow-recovery-key-info-header = 비밀번호를 잊어버린 경우를 대비해 계정 복구 키 만들기
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = 계정 복구 키 변경
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = 우리는 브라우징 데이터(비밀번호, 북마크 등)를 암호화합니다. 개인 정보 보호를 위해선 좋지만 비밀번호를 잊어버리면 데이터를 잃을 수도 있습니다.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = 그렇기 때문에 계정 복구 키를 만드는 것이 매우 중요합니다. 이 키를 사용하면 데이터를 복구할 수 있습니다.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = 시작
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 취소
 
@@ -503,14 +526,17 @@ la-heading = 연결된 계정
 la-description = 다음 계정에 접근 권한이 있습니다.
 la-unlink-button = 연결 끊기
 la-unlink-account-button = 연결 끊기
+la-set-password-button = 비밀번호 설정
 la-unlink-heading = 삼자의 계정에서 연결 해제
 la-unlink-content-3 = 계정 연결을 해제하시겠습니까? 계정 연결을 해제해도 연결된 서비스에서 자동으로 로그아웃되지 않습니다. 이렇게 하려면 연결된 서비스 섹션에서 수동으로 로그아웃해야 합니다.
+la-unlink-content-4 = 계정 연결을 해제하기 전에 비밀번호를 설정해야 합니다. 비밀번호가 없으면 계정 연결을 해제한 후 로그인할 방법이 없습니다.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = 닫기
 modal-cancel-button = 취소
+modal-default-confirm-button = 확인
 
 ## Modal Verify Session
 
@@ -535,6 +561,8 @@ nav-email-comm = 이메일 설정 관리
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = 백업 인증 코드를 교체하는 중에 문제가 발생했습니다.
+tfa-create-code-error = 백업 인증 코드를 생성하는 중에 문제가 발생했습니다.
 tfa-replace-code-1-2 = 1/2 단계
 tfa-replace-code-2-2 = 2/2 단계
 
