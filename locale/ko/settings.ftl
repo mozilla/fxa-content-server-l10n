@@ -713,9 +713,20 @@ recent-activity-account-recovery-key-verification-failure = 계정 복구 키 �
 recent-activity-account-recovery-key-verification-success = 계정 복구 키 검증 성공함
 recent-activity-account-recovery-key-removed = 계정 복구 키 제거됨
 recent-activity-account-password-added = 새 비밀번호 추가됨
+recent-activity-account-password-changed = 비밀번호 변경됨
+recent-activity-account-secondary-email-added = 보조 이메일 주소 추가됨
+recent-activity-account-secondary-email-removed = 보조 이메일 주소 제거됨
+recent-activity-account-emails-swapped = 주 이메일과 보조 이메일이 서로 바뀜
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = 기타 계정 활동
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = 계정 복구 키
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = 설정으로 돌아가기
 
 ## Add secondary email page
 
@@ -727,6 +738,10 @@ add-secondary-email-enter-address =
     .label = 이메일 주소 입력
 add-secondary-email-cancel-button = 취소
 add-secondary-email-save-button = 저장
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = 이메일 마스크는 보조 이메일로 사용할 수 없습니다.
 
 ## Verify secondary email page
 
@@ -763,6 +778,8 @@ tfa-button-cancel = 취소
 tfa-button-finish = 완료
 tfa-incorrect-totp = 잘못된 2단계 인증 코드
 tfa-cannot-retrieve-code = 코드를 복원하는 데 문제가 발생했습니다.
+tfa-cannot-verify-code-4 = 백업 인증코드 확인 중에 문제가 발생했습니다.
+tfa-incorrect-recovery-code-1 = 잘못된 백업 인증 코드
 tfa-enabled = 2단계 인증 활성화됨
 tfa-scan-this-code =
     <linkExternal>인증 앱 중 하나</linkExternal>를 사용하여
@@ -779,12 +796,25 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = 코드를 스캔할 수 없습니까?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = 이 비밀 키를 인증 앱에 입력하세요:
+tfa-enter-totp-v2 = 이제 인증 앱에서 인증 코드를 입력하세요.
+tfa-input-enter-totp-v2 =
+    .label = 인증 코드를 입력하세요
+tfa-save-these-codes-1 = 모바일 기기가 없을 때를 대비해 일회용 백업 인증 코드를 안전한 곳에 보관하세요.
+tfa-enter-code-to-confirm-1 =
+    백업 인증 코드 중 하나를 지금 입력하여
+    저장했는지 확인하세요. 모바일 기기에 접근할 수 없는 경우 로그인하려면 코드가 필요합니다.
+tfa-enter-recovery-code-1 =
+    .label = 백업 인증 코드를 입력하세요
 
 ##
 
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = 개인 정보가 어디에 유출됐는지 찾아 보세요. — 다시 가져오세요.
+product-promo-monitor-plus-description = 개인 정보 보호는 중요합니다: 개인 정보가 노출된 곳을 찾아 다시 가져오세요.
 
 ## Profile section
 
