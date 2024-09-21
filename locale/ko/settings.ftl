@@ -563,6 +563,10 @@ nav-email-comm = 이메일 설정 관리
 
 tfa-replace-code-error-3 = 백업 인증 코드를 교체하는 중에 문제가 발생했습니다.
 tfa-create-code-error = 백업 인증 코드를 생성하는 중에 문제가 발생했습니다.
+tfa-replace-code-success-1 =
+    새로운 코드가 생성되었습니다. 이 일회용
+    백업 인증 코드를 안전한 곳에 저장하세요. 모바일 기기가 없을 때 계정에 접근하는 데 필요합니다.
+tfa-replace-code-success-alert-3 = 계정 백업 인증 코드가 업데이트되었습니다.
 tfa-replace-code-1-2 = 1/2 단계
 tfa-replace-code-2-2 = 2/2 단계
 
@@ -639,6 +643,7 @@ delete-account-header =
     .title = 계정 삭제
 delete-account-step-1-2 = 1/2 단계
 delete-account-step-2-2 = 2/2 단계
+delete-account-confirm-title-4 = { -product-mozilla-account }이 웹에서 보안과 생산성을 유지하는 다음의 { -brand-mozilla } 제품이나 서비스 중 하나 이상에 연결했을 수 있습니다:
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -646,7 +651,11 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } 데이터 동기화
+delete-account-product-firefox-addons = { -brand-firefox } 부가 기능
 delete-account-acknowledge = 계정 삭제 전 다음 사항에 유의하세요.
+delete-account-chk-box-1-v3 =
+    .label = { -product-pocket }을 제외한 모든 유료 구독이 취소됩니다.
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 제품에 포함된 저장 정보와 기능을 잃을 수 있습니다.
 delete-account-chk-box-3 =
@@ -656,6 +665,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 계속하기
 delete-account-password-input =
     .label = 비밀번호 입력
+pocket-delete-notice = Pocket Premium에 가입한 경우 계정을 삭제하기 전에 <a>구독을 취소</a>하세요.
+pocket-delete-notice-marketing = Mozilla Corporation 및 Mozilla Foundation에서 마케팅 이메일을 더 이상 받지 않으려면 <a>마케팅 데이터 삭제를 요청</a>해야 합니다.
 delete-account-cancel-button = 취소
 delete-account-delete-button-2 = 삭제
 
@@ -681,6 +692,11 @@ display-name-success-alert-2 = 표시 이름 업데이트됨
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = 최근 계정 활동
+recent-activity-account-create-v2 = 계정 생성됨
+recent-activity-account-disable-v2 = 계정 비활성화됨
+recent-activity-account-enable-v2 = 계정 활성화됨
+recent-activity-account-login-v2 = 계정 로그인 개시됨
+recent-activity-account-reset-v2 = 비밀번호 재설정 개시됨
 
 ## PageRecoveryKeyCreate
 
@@ -891,10 +907,18 @@ tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = 계속 진행하시면 <mozillaAccountsTos>이용 약관</mozillaAccountsTos>과 <mozillaAccountsPrivacy>개인 정보 보호 정책</mozillaAccountsPrivacy>에 동의하는 것으로 간주됩니다.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = 또는
+continue-with-google-button = { -brand-google }로 계속하기
+continue-with-apple-button = { -brand-apple }로 계속하기
 
 ## Auth-server based errors that originate from backend service
 
@@ -902,6 +926,9 @@ auth-error-102 = 알 수 없는 계정
 auth-error-103 = 잘못된 비밀번호
 auth-error-105-2 = 잘못된 인증 코드
 auth-error-110 = 유효하지 않은 토큰
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = 너무 많이 시도하였습니다. 잠시 후에 다시 시도하세요.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -911,15 +938,25 @@ auth-error-114 = 너무 많이 시도했습니다. { $retryAfter } 다시 시도
 auth-error-138-2 = 확인되지 않은 세션
 auth-error-139 = 보조 이메일은 계정 이메일과 달라야 합니다.
 auth-error-155 = TOTP 토큰 찾을 수 없음
+auth-error-159 = 잘못된 계정 복구 키
 auth-error-183-2 = 유효하지 않거나 만료된 인증 코드
+auth-error-999 = 알 수 없는 오류
+auth-error-1001 = 로그인 시도 취소됨
 auth-error-1002 = 세션이 만료되었습니다. 계속하려면 로그인하세요.
+auth-error-1003 = 로컬 저장소 또는 쿠키가 여전히 비활성화되어 있음
 auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니다.
+auth-error-1010 = 올바른 비밀번호 필요
 auth-error-1011 = 올바른 이메일이 필요합니다
+auth-error-1031 = 가입을 하려면 나이를 입력해야 합니다.
+auth-error-1032 = 가입을 하려면 유효한 나이를 입력해야 합니다.
+auth-error-1062 = 잘못된 리디렉션
+oauth-error-1000 = 오류가 발생했습니다. 현재 탭을 닫고 다시 실행해주세요.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = 계정을 생성할 수 없습니다
+cannot-create-account-requirements-2 = { -product-mozilla-account }를 생성하려면 특정 연령 요건을 충족해야 합니다.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 더 알아보기
 
@@ -927,12 +964,33 @@ cannot-create-account-learn-more-link = 더 알아보기
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = { -brand-firefox }에 로그인했습니다.
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = 이메일 확인됨
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = 로그인 확인됨
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = 이 { -brand-firefox }에 로그인하여 설정을 완료하세요.
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = 로그인
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = 더 추가할 기기가 있나요? 다른 기기에서 { -brand-firefox }에 로그인하여 설정을 완료하세요.
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = 다른 기기에서 { -brand-firefox }에 로그인하여 설정을 완료하세요.
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = 탭, 북마크, 비밀번호를 다른 기기에서 사용하고 싶으신가요?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = 다른 기기 연결
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = 나중에
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Android용 { -brand-firefox }에 로그인하여 설정을 완료하세요.
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = iOS용 { -brand-firefox }에 로그인하여 설정을 완료하세요.
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = 로컬 스토리지와 쿠키가 필요합니다.
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 더 알아보기
 
