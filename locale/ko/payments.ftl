@@ -172,6 +172,50 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } 세금
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] 매일 { $priceAmount }
+       *[other] { $intervalCount }일 마다 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 매일 { $priceAmount }
+           *[other] { $intervalCount }일 마다 { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] 매주 { $priceAmount }
+       *[other] { $intervalCount }주 마다 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 매주 { $priceAmount }
+           *[other] { $intervalCount }주 마다 { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] 매달 { $priceAmount }
+       *[other] { $intervalCount }달 마다 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 매달  { $priceAmount } monthly
+           *[other] { $intervalCount }달 마다 { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] 매년 { $priceAmount }
+       *[other] { $intervalCount }년 마다 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 매년 { $priceAmount }
+           *[other] { $intervalCount }년 마다 { $priceAmount }
+        }
 
 ## Component - SubscriptionTitle
 
