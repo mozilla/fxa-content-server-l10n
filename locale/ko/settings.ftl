@@ -815,6 +815,10 @@ product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = 개인 정보가 어디에 유출됐는지 찾아 보세요. — 다시 가져오세요.
 product-promo-monitor-plus-description = 개인 정보 보호는 중요합니다: 개인 정보가 노출된 곳을 찾아 다시 가져오세요.
+# Links out to the Monitor site
+product-promo-monitor-cta = 무료 검사 받기
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = 시작하기
 
 ## Profile section
 
@@ -878,6 +882,8 @@ rk-header-1 = 계정 복구 키
 rk-enabled = 활성화됨
 rk-not-set = 설정되지 않음
 rk-action-create = 생성
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = 변경
 rk-action-remove = 제거
 rk-key-removed-2 = 계정 복구 키가 삭제됨
 rk-cannot-remove-key = 계정 복구 키를 제거할 수 없습니다.
@@ -885,7 +891,12 @@ rk-refresh-key-1 = 계정 복구 키 새로 고침
 rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원합니다.
 rk-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 rk-remove-modal-heading-1 = 계정 복구 키를 삭제하시겠습니까?
+rk-remove-modal-content-1 =
+    비밀번호를 재설정하면
+    계정 복구 키로 데이터에 접근하는 것이 불가능해집니다. 이 작업은 취소할 수 없습니다.
 rk-remove-error-2 = 계정 복구 키를 제거할 수 없습니다.
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = 계정 복구 키 삭제
 
 ## Secondary email sub-section on main Settings page
 
@@ -946,13 +957,25 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 tfa-row-disable-modal-heading = 2단계 인증을 비활성화하시겠습니까?
 tfa-row-disable-modal-confirm = 비활성화
+tfa-row-disable-modal-explain-1 =
+    이 작업은 되돌릴 수 없습니다.
+    <linkExternal>백업 인증 코드를 바꾸는</linkExternal> 옵션도 있습니다.
 tfa-row-cannot-disable-2 = 2단계 인증을 비활성화할 수 없습니다.
+tfa-row-change-modal-heading-1 = 백업 인증 코드를 변경하시겠습니까?
 tfa-row-change-modal-confirm = 변경
 tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = 계속 진행하면 다음 사항에 동의하게 됩니다:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>이용 약관</pocketTos> 및 <pocketPrivacy>개인 정보 보호 정책</pocketPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } 구독 서비스 <mozSubscriptionTosLink>이용 약관</mozSubscriptionTosLink> 및 <mozSubscriptionPrivacyLink>개인 정보 보호 정책</mozSubscriptionPrivacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>이용 약관</mozillaAccountsTos> 및 <mozillaAccountsPrivacy>개인 정보 보호 정책</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 계속 진행하시면 <mozillaAccountsTos>이용 약관</mozillaAccountsTos>과 <mozillaAccountsPrivacy>개인 정보 보호 정책</mozillaAccountsPrivacy>에 동의하는 것으로 간주됩니다.
 
@@ -1103,10 +1126,39 @@ inline-totp-setup-continue-button = 계속
 inline-totp-setup-add-security-link = <authenticationAppsLink>다음 인증 앱</authenticationAppsLink> 중 하나에 보안 코드를 요청하게 하여 계정의 보안을 한 층 높입니다.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = 2단계 인증을 활성화하여 <span>계정 설정을 계속 진행하세요</span>.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = 2단계 인증을 활성화하여 <span>계속 { $serviceName } 서비스를 이용하세요.</span>
+inline-totp-setup-ready-button = 준비
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = 인증 코드를 스캔하여 <span>{ $serviceName } 서비스 계속하기</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } 서비스를 계속하려면</span> 코드를 수동으로 입력하세요.
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = 인증 코드를 스캔하여 <span>계정 설정을 계속하세요</span>.
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = 코드를 수동으로 입력하여 <span>계정 설정을 계속 진행하세요</span>.
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = 이 비밀 키를 인증 앱에 입력하세요. <toggleToQRButton>대신 QR 코드를 스캔하시겠습니까?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = 인증 앱에서 QR 코드를 스캔한 다음 제공된 인증 코드를 입력합니다. <toggleToManualModeButton>코드를 스캔할 수 없습니까?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = 완료되면 인증 코드가 생성되어 입력할 수 있습니다.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = 인증 코드
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = 인증 코드 필요함
+tfa-qr-code-alt = 지원되는 애플리케이션에서 2단계 인증을 설정하려면 { $code } 코드를 사용하세요.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = 법적 고지
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = 이용 약관
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = 개인정보 보호정책
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
