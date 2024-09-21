@@ -172,6 +172,20 @@ form-password-sr-passwords-match = As senhas inseridas coincidem.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Este campo é obrigatório
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Insira o código de { $codeLength } dígitos para continuar
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Digite o código de { $codeLength } caracteres para continuar
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Armazenamento confiável em nuv
 flow-recovery-key-download-storage-ideas-print-v2 = Cópia física impressa
 flow-recovery-key-download-storage-ideas-pwd-manager = Gerenciador de senhas
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar sua chave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Esta dica deve te ajudar a lembrar onde guardou a chave de recuperação de conta. A dica pode ser exibida durante a redefinição de senha para recuperar seus dados.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Digite uma dica (opcional)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Pronto
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 caracteres.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = A dica não pode conter caracteres unicode não seguros. São permitidos somente letras, números, sinais de pontuação e símbolos.
+
 ## Alert Bar
 
 alert-bar-close-message = Fechar mensagem
@@ -472,30 +510,11 @@ flow-recovery-key-download-info-v2 = Esta chave permite que você recupere seus 
 flow-recovery-key-download-next-link-v2 = Continuar sem baixar
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar sua chave
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Esta dica deve te ajudar a lembrar onde guardou a chave de recuperação de conta. A dica pode ser exibida durante a redefinição de senha para recuperar seus dados.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Digite uma dica (opcional)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Pronto
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Criada chave de recuperação de conta
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 caracteres.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = A dica não pode conter caracteres unicode não seguros. São permitidos somente letras, números, sinais de pontuação e símbolos.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -970,14 +989,6 @@ third-party-auth-options-or = ou
 continue-with-google-button = Continue com { -brand-google }
 continue-with-apple-button = Continue com { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Dígito { $inputNumber } de { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conta desconhecida
@@ -1285,17 +1296,6 @@ account-recovery-confirm-key-button = Confirmar chave de recuperação de conta
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação de conta?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Criar nova senha
-account-restored-success-message = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Senha definida
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Encontrado erro não esperado
-account-recovery-reset-password-redirecting = Redirecionando
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1309,35 +1309,7 @@ complete-reset-password-success-alert = Senha definida
 complete-reset-password-error-alert = Desculpe, houve um problema ao definir sua senha
 complete-reset-password-recovery-key-error-v2 = Desculpe, houve um problema ao verificar se você tem uma chave de recuperação de conta.
 complete-reset-password-recovery-key-link = Redefina a senha com sua chave de recuperação de conta.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Email de redefinição enviado
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Clique no link enviado por email para { $email } em até uma hora para criar uma nova senha.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Redefina a senha <span>para continuar para as configurações da conta</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Redefina a senha <span>para continuar para { $serviceName }</span>
-reset-password-warning-message-2 = <span>Nota:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (inclusive histórico, favoritos e senhas). Isso porque criptografamos seus dados com sua senha para proteger sua privacidade. São mantidas as assinaturas que você tiver. Dados do { -product-pocket } não são afetados.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Email
-reset-password-button = Iniciar redefinição
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Email obrigatório
-reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
-reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
-reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
+account-restored-success-message = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
 
 ## Confirm Reset Password With Code
 
@@ -1363,6 +1335,9 @@ password-reset-body = Digite seu email e enviaremos um código de confirmação 
 password-reset-email-input =
     .label = Insira seu email
 password-reset-submit-button = Me envie instruções de redefinição
+reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
+reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
+reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
 
 ## CompleteSignin component
 
