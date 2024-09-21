@@ -991,11 +991,25 @@ connect-another-device-ios-complete-setup-message = iOS용 { -brand-firefox }에
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = 로컬 스토리지와 쿠키가 필요합니다.
+cookies-disabled-enable-prompt-2 = 브라우저에서 쿠키와 로컬 스토리지를 활성화하여 { -product-mozilla-account }에 접근하세요. 그렇게 하면 세션 간에 사용자를 기억하는 기능 등이 활성화됩니다.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = 다시 시도
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 더 알아보기
 
 ## Index / home page
 
+index-header = 이메일 입력
+index-sync-header = { -product-mozilla-account }로 계속 진행하세요.
+index-sync-subheader = { -brand-firefox }를 사용하는 모든 곳에서 비밀번호, 탭, 북마크를 동기화하세요.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = { $serviceName }로 계속
+index-subheader-with-logo = <span>{ $serviceLogo }</span>로 계속
+index-subheader-default = 계정 설정 계속하기
+index-cta = 가입 또는 로그인
+index-account-info = { -product-mozilla-account }를 사용하면 { -brand-mozilla }의 더 많은 개인 정보 보호 제품에 접근할 수 있습니다.
+index-email-input =
+    .label = 이메일 입력
 
 ## InlineRecoveryKeySetup page component
 
@@ -1004,6 +1018,15 @@ cookies-disabled-learn-more = 더 알아보기
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = 백업 인증 코드를 확인하여 <span>계정 설정을 계속 진행하세요</span>.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-setup-header = 백업 인증 코드를 저장하여 <span>계속 { $serviceName } 서비스를 진행하세요.</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = 모바일 기기가 없을 때를 대비해 일회용 코드를 안전한 장소에 보관하세요.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = 취소
@@ -1011,11 +1034,29 @@ inline-recovery-cancel-button = 취소
 inline-recovery-continue-button = 계속
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = 확인
+inline-recovery-back-link = 뒤로
+inline-recovery-cancel-setup = 설정 취소
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = 백업 인증 코드
+inline-recovery-confirmation-description = 기기를 분실한 경우 계정에 다시 접근할 수 있도록 저장된 백업 인증 코드 중 하나를 입력하세요.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = <span>계정 설정을 계속하려면</span> 백업 인증 코드를 확인하세요.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-confirmation-header = { $serviceName } 서비스를 계속하려면 백업 인증 코드를 확인하세요.</span>
+inline-recovery-2fa-enabled = 2단계 인증 활성화됨
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = 설정 취소
 inline-totp-setup-continue-button = 계속
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = <authenticationAppsLink>다음 인증 앱</authenticationAppsLink> 중 하나에 보안 코드를 요청하게 하여 계정의 보안을 한 층 높입니다.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = 2단계 인증을 활성화하여 <span>계정 설정을 계속 진행하세요</span>.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
