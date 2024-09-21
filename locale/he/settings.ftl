@@ -1046,10 +1046,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = אופס! לא הצלחנו ליצור מפתח לשחזור החשבון שלך. נא לנסות שוב מאוחר יותר.
 inline-recovery-key-setup-recovery-created = נוצר מפתח לשחזור החשבון
 inline-recovery-key-setup-download-header = אבטחת החשבון שלך
 inline-recovery-key-setup-download-subheader = להוריד ולאחסן אותו כעת
 inline-recovery-key-setup-download-info = יש לשמור את המפתח הזה במקום שקל לזכור — לא תהיה לך אפשרות לחזור לדף זה מאוחר יותר.
+inline-recovery-key-setup-hint-header = המלצת אבטחה
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
