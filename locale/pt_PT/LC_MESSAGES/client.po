@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-20 23:14+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-09-21 22:47+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -2076,23 +2076,23 @@ msgstr "Confirmar emparelhamento"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "Ups! Parece que não está a utilizar o Firefox."
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
-msgstr ""
+msgstr "Atenção:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Mude para o Firefox e abra esta página para ligar outro dispositivo."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr ""
+msgstr "Transferir o Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "Abre numa nova janela"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
