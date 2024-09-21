@@ -172,6 +172,10 @@ form-password-sr-passwords-match = Le contrasignos inserite concorda.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Campo requirite.
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +339,30 @@ flow-recovery-key-download-storage-ideas-cloud = Stockage fidibile in nube
 flow-recovery-key-download-storage-ideas-print-v2 = Copia physic imprimite
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestor de contrasigno
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Adde un indicio pro adjutar a trovar tu clave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Iste indicio te adjuta a memorar ubi tu guardava le clave pro recuperar tu conto. Nos pote monstrar te lo durante le reset del contrasigno pro recuperar tu datos.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Insere un indicio (optional)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Finir
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Le indicio debe continer minus que 255 characteres.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Le indicio non pote continer characteres unicode non secur.
+
 ## Alert Bar
 
 alert-bar-close-message = Clauder message
@@ -478,30 +506,11 @@ flow-recovery-key-download-info-v2 = Iste clave permitte que tu recupera tu dato
 flow-recovery-key-download-next-link-v2 = Continuar sin discargar
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Adde un indicio pro adjutar a trovar tu clave
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Iste indicio te adjuta a memorar ubi tu guardava le clave pro recuperar tu conto. Nos pote monstrar te lo durante le reset del contrasigno pro recuperar tu datos.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Insere un indicio (optional)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Finir
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Clave de recuperation del conto create
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Le indicio debe continer minus que 255 characteres.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Le indicio non pote continer characteres unicode non secur.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -996,14 +1005,6 @@ third-party-auth-options-or = O
 continue-with-google-button = Continuar con { -brand-google }
 continue-with-apple-button = Continuar con { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Cifra { $inputNumber } de { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conto incognite
@@ -1101,6 +1102,7 @@ inline-recovery-key-setup-recovery-created = Clave de recuperation del conto cre
 inline-recovery-key-setup-download-header = Protege tu conto
 inline-recovery-key-setup-download-subheader = Discarga e immagazina lo ora
 inline-recovery-key-setup-download-info = Immagazina iste clave in qualque loco que tu memorara, tu non potera revolver a iste pagina plus tarde.
+inline-recovery-key-setup-hint-header = Recommendation de securitate
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1311,17 +1313,6 @@ account-recovery-confirm-key-button = Confirma clave de recuperation del conto
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Non ha tu un clave de recuperation del conto?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Crear nove contrasigno
-account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Configuration del contrasigno
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Error inexpectate incontrate
-account-recovery-reset-password-redirecting = Re-direction
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1335,35 +1326,7 @@ complete-reset-password-success-alert = Configuration del contrasigno
 complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
 complete-reset-password-recovery-key-error-v2 = Desolate, il habeva un problema controlante si tu ha un clave de recuperation del conto.
 complete-reset-password-recovery-key-link = Reinitialisa tu contrasigno con tu clave de recuperation del conto.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Message de reinitialisation inviate
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Clicca sur le ligamine inviate a { $email } intra le proxime hora pro crear un nove contrasigno.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Remonta le contrasigno <span>pro continuar a configurar le conto</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Remonta le contrasigno <span>pro continuar a { $serviceName }</span>
-reset-password-warning-message-2 = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { -product-pocket } non sera afficite.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Email
-reset-password-button = Initiar reinitialisation
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Email obligatori
-reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
-reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
-reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
+account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
 
 ## Confirm Reset Password With Code
 
@@ -1389,6 +1352,9 @@ password-reset-body = Insere tu email e nos te inviara un codice de confirmation
 password-reset-email-input =
     .label = Insere tu email
 password-reset-submit-button = Invia me instructiones pro reinitialisar
+reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
+reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
+reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
 
 ## CompleteSignin component
 
