@@ -1082,10 +1082,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Não foi possível criar sua chave de recuperação de conta. Tente novamente mais tarde.
 inline-recovery-key-setup-recovery-created = Criada chave de recuperação de conta
 inline-recovery-key-setup-download-header = Proteja sua conta
 inline-recovery-key-setup-download-subheader = Baixe e guarde agora
 inline-recovery-key-setup-download-info = Guarde esta chave em algum lugar que você lembre. Você não poderá voltar a esta página mais tarde para ver a chave.
+inline-recovery-key-setup-hint-header = Recomendação de segurança
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
