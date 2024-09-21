@@ -971,13 +971,13 @@ tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 계속 진행하면 다음 사항에 동의하게 됩니다:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>이용 약관</pocketTos> 및 <pocketPrivacy>개인 정보 보호 정책</pocketPrivacy>
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>이용 약관</pocketTos> 및 <pocketPrivacy>개인정보 보호정책</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } 구독 서비스 <mozSubscriptionTosLink>이용 약관</mozSubscriptionTosLink> 및 <mozSubscriptionPrivacyLink>개인 정보 보호 정책</mozSubscriptionPrivacyLink>
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } 구독 서비스 <mozSubscriptionTosLink>이용 약관</mozSubscriptionTosLink> 및 <mozSubscriptionPrivacyLink>개인정보 보호정책</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>이용 약관</mozillaAccountsTos> 및 <mozillaAccountsPrivacy>개인 정보 보호 정책</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>이용 약관</mozillaAccountsTos> 및 <mozillaAccountsPrivacy>개인정보 보호정책</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
-terms-privacy-agreement-default-2 = 계속 진행하시면 <mozillaAccountsTos>이용 약관</mozillaAccountsTos>과 <mozillaAccountsPrivacy>개인 정보 보호 정책</mozillaAccountsPrivacy>에 동의하는 것으로 간주됩니다.
+terms-privacy-agreement-default-2 = 계속 진행하시면 <mozillaAccountsTos>이용 약관</mozillaAccountsTos>과 <mozillaAccountsPrivacy>개인정보 보호정책</mozillaAccountsPrivacy>에 동의하는 것으로 간주됩니다.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1162,33 +1162,74 @@ legal-privacy-link = 개인정보 보호정책
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = 개인정보 보호정책
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = 이용 약관
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = 방금 { -product-firefox }에 로그인하셨나요?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = 네, 기기를 승인합니다.
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = 본인이 아니라면, <link>비밀번호를 변경하세요</link>.
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = 기기 연결됨
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = 이제 { $deviceOS }에서 { $deviceFamily }와 동기화 중입니다.
+pair-auth-complete-sync-benefits-text = 이제 모든 장치에서 열려 있는 탭, 암호 및 책갈피에 접근할 수 있습니다.
+pair-auth-complete-see-tabs-button = 동기화된 기기의 탭 보기
+pair-auth-complete-manage-devices-link = 기기 관리
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = 계정 설정을 계속하려면 인증 코드를 입력하세요.
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = <span> { $serviceName } 서비스를</span> 계속하려면 인증 코드를 입력하세요.
+auth-totp-instruction = 인증 앱을 열고 제공된 인증 코드를 입력하세요.
+auth-totp-input-label = 6자리 숫자 코드 입력
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = 확인
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = 인증 코드 필요함
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = 이제 <span>다른 기기</span>에서 승인이 필요합니다.
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = 페어링에 실패함
+pair-failure-message = 설정 과정이 종료되었습니다.
 
 ## Pair index page
 
+pair-sync-header = 스마트폰이나 태블릿에서 { -brand-firefox }를 동기화하세요.
+pair-cad-header = 다른 기기에 { -brand-firefox } 연결
+pair-already-have-firefox-paragraph = 이미 스마트폰이나 태블릿에 { -brand-firefox }가 설치되어 있나요?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = 기기 동기화
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = 또는 다운로드
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 

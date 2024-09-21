@@ -96,7 +96,7 @@ payment-confirmation-download-button = 다운로드 계속 하기
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = <termsOfServiceLink>이용 약관</termsOfServiceLink> 및 <privacyNoticeLink>개인 정보 보호 고지</privacyNoticeLink>에 따라, 구독을 취소하기 전까지 { -brand-mozilla }가 표시된 금액을 내 결제 수단에 청구하도록 허가합니다.
+payment-confirm-with-legal-links-static-3 = <termsOfServiceLink>이용 약관</termsOfServiceLink> 및 <privacyNoticeLink>개인 정보 보호정책</privacyNoticeLink>에 따라, 구독을 취소하기 전까지 { -brand-mozilla }가 표시된 금액을 내 결제 수단에 청구하도록 허가합니다.
 payment-confirm-checkbox-error = 계속 진행하기 전에 이 작업을 완료해야 합니다.
 
 ## Component - PaymentErrorView
@@ -213,7 +213,7 @@ sub-guarantee = 30 일 환불 보장
 # This heading is followed by links to Terms of Service and Privacy Notice
 subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = 서비스 약관
-privacy = 개인정보처리방침
+privacy = 개인정보 보호정책
 terms-download = 약관 다운로드
 
 ## App-level string(s) and messages shared by multiple components or routes

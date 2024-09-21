@@ -6,7 +6,7 @@ app-general-err-message = 문제가 발생했습니다. 나중에 다시 시도�
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = { -brand-mozilla } 로고
-app-footer-privacy-notice = 웹 사이트 개인 정보 보호 안내
+app-footer-privacy-notice = 웹 사이트 개인정보 보호정책
 app-footer-terms-of-service = 이용 약관
 
 ## FxA React - Strings shared between multiple FxA products for application page title

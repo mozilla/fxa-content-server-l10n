@@ -16,7 +16,7 @@ moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase"
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } 로고">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } 로고">
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
-subplat-privacy-notice = 개인 정보 보호 정책
+subplat-privacy-notice = 개인정보 보호정책
 subplat-privacy-plaintext = 개인정보 보호정책:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
