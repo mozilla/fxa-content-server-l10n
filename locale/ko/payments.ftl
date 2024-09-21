@@ -173,49 +173,29 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } 세금
 # $intervalCount (Number) - The interval between payments, in days.
-price-details-no-tax-day =
-    { $intervalCount ->
-        [one] 매일 { $priceAmount }
-       *[other] { $intervalCount }일 마다 { $priceAmount }
-    }
-    .title =
-        { $intervalCount ->
-            [one] 매일 { $priceAmount }
-           *[other] { $intervalCount }일 마다 { $priceAmount }
-        }
+price-details-no-tax-day = { $intervalCount }일 마다 { $priceAmount }
+    .title = { $intervalCount }일 마다 { $priceAmount }
 # $intervalCount (Number) - The interval between payments, in weeks.
-price-details-no-tax-week =
-    { $intervalCount ->
-        [one] 매주 { $priceAmount }
-       *[other] { $intervalCount }주 마다 { $priceAmount }
-    }
-    .title =
-        { $intervalCount ->
-            [one] 매주 { $priceAmount }
-           *[other] { $intervalCount }주 마다 { $priceAmount }
-        }
+price-details-no-tax-week = { $intervalCount }주 마다 { $priceAmount }
+    .title = { $intervalCount }주 마다 { $priceAmount }
 # $intervalCount (Number) - The interval between payments, in months.
-price-details-no-tax-month =
-    { $intervalCount ->
-        [one] 매달 { $priceAmount }
-       *[other] { $intervalCount }달 마다 { $priceAmount }
-    }
-    .title =
-        { $intervalCount ->
-            [one] 매달  { $priceAmount } monthly
-           *[other] { $intervalCount }달 마다 { $priceAmount }
-        }
+price-details-no-tax-month = { $intervalCount }달 마다 { $priceAmount }
+    .title = { $intervalCount }달 마다 { $priceAmount }
 # $intervalCount (Number) - The interval between payments, in years.
-price-details-no-tax-year =
-    { $intervalCount ->
-        [one] 매년 { $priceAmount }
-       *[other] { $intervalCount }년 마다 { $priceAmount }
-    }
-    .title =
-        { $intervalCount ->
-            [one] 매년 { $priceAmount }
-           *[other] { $intervalCount }년 마다 { $priceAmount }
-        }
+price-details-no-tax-year = { $intervalCount }년 마다 { $priceAmount }
+    .title = { $intervalCount }년 마다 { $priceAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day = { $intervalCount }일 마다 { $priceAmount } + 세금 { $taxAmount }
+    .title = { $intervalCount }일 마다 { $priceAmount } + 세금 { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week = { $intervalCount }주 마다 { $priceAmount } + 세금 { $taxAmount }
+    .title = { $intervalCount }주 마다 { $priceAmount } + 세금 { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month = { $intervalCount }달 마다 { $priceAmount } + 세금 { $taxAmount }
+    .title = { $intervalCount }달 마다 { $priceAmount } + 세금 { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year = { $intervalCount }년 마다 { $priceAmount } + 세금 { $taxAmount }
+    .title = { $intervalCount }년 마다 { $priceAmount } + 세금 { $taxAmount }
 
 ## Component - SubscriptionTitle
 
@@ -250,6 +230,18 @@ coupon-promo-code = 프로모션 코드
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day = { $intervalCount }일 마다 { $amount }
+    .title = { $intervalCount }일 마다 { $amount }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week = { $intervalCount }주 마다 { $amount }
+    .title = { $intervalCount }주 마다 { $amount }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month = { $intervalCount }달 마다 { $amount }
+    .title = { $intervalCount }달 마다 { $amount }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year = { $intervalCount }년 마다 { $amount }
+    .title = { $intervalCount }년 마다 { $amount }
 
 ## Error messages
 
