@@ -1425,9 +1425,9 @@ signin-push-code-confirm-instruction = Confirme o seu início de sessão
 signin-push-code-confirm-description = Detetámos uma tentativa de início de sessão a partir do seguinte dispositivo. Se foi você, por favor, aprove o início sessão
 signin-push-code-confirm-verifying = A confirmar
 signin-push-code-confirm-login = Confirmar início de sessão
-signin-push-code-confirm-wasnt-me = Não foi eu, altere a palavra-passe.
-signin-push-code-confirm-login-approved = A sua credencial foi aprovada. Por favor feche esta janela.
-signin-push-code-confirm-link-error = A ligação está danificada. Por favor, tente novamente.
+signin-push-code-confirm-wasnt-me = Não foi eu. Alterar a palavra-passe.
+signin-push-code-confirm-login-approved = O seu início de sessão foi aprovado. Feche esta janela.
+signin-push-code-confirm-link-error = A ligação está danificada. Tente novamente.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
