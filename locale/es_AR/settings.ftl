@@ -179,12 +179,12 @@ form-verify-code-default-error = Este campo es requerido
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may only contain numbers
 # $codeLength : number of digits in a valid code
-form-verify-totp-disabled-button-title-numeric = Ingresa un código de { $codeLength } dígitos para continuar
+form-verify-totp-disabled-button-title-numeric = Ingresá un código de { $codeLength } dígitos para continuar
 # Information explaining why button is disabled, also read to screen readers
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = Ingresa un código de { $codeLength } para continuar
+form-verify-totp-disabled-button-title-alphanumeric = Ingresá un código de { $codeLength } caracteres para continuar
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -1103,7 +1103,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
-inline-recovery-key-setup-create-error = ¡Ups! No pudimos crear tu clave de recuperación de cuenta. Inténtelo más tarde.
+inline-recovery-key-setup-create-error = ¡Epa! No pudimos crear tu clave de recuperación de cuenta. Probá de nuevo más tarde.
 inline-recovery-key-setup-recovery-created = Se creó la clave de recuperación de la cuenta
 inline-recovery-key-setup-download-header = Asegurá tu cuenta
 inline-recovery-key-setup-download-subheader = Descargala y guardala
