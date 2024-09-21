@@ -172,6 +172,20 @@ form-password-sr-passwords-match = 两次输入的密码一致。
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = 此字段必填
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = 输入 { $codeLength } 位数的验证码以继续操作
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = 输入由 { $codeLength } 个字符组成的验证码以继续操作
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = 可信的云存储
 flow-recovery-key-download-storage-ideas-print-v2 = 打印的物理副本
 flow-recovery-key-download-storage-ideas-pwd-manager = 密码管理器
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = 添加提示以帮助记忆恢复密钥
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = 此提示应该帮助您记住保存账户恢复密钥的位置。我们会在密码重置时向您展示该提示以帮您恢复数据。
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = 输入提示（可选）
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = 完成
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = 提示不能超过 255 个字符。
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicode 字符。只允许使用字母、数字、标点符号和符号。
+
 ## Alert Bar
 
 alert-bar-close-message = 关闭消息
@@ -474,30 +512,11 @@ flow-recovery-key-download-info-v2 = 如果您忘记密码，此密钥可让您�
 flow-recovery-key-download-next-link-v2 = 继续但不下载
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = 添加提示以帮助记忆恢复密钥
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = 此提示应该帮助您记住保存账户恢复密钥的位置。我们会在密码重置时向您展示该提示以帮您恢复数据。
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = 输入提示（可选）
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = 完成
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = 已创建账户恢复密钥
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = 提示不能超过 255 个字符。
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicode 字符。只允许使用字母、数字、标点符号和符号。
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -972,14 +991,6 @@ third-party-auth-options-or = 或者
 continue-with-google-button = 通过 { -brand-google } 登录
 continue-with-apple-button = 通过 { -brand-apple } 登录
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = 第 { $inputNumber } 位数，共 { $codeLength } 位数
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 未知账户
@@ -1073,10 +1084,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = 哎呀！无法创建账户恢复密钥，请稍后再试。
 inline-recovery-key-setup-recovery-created = 已创建账户恢复密钥
 inline-recovery-key-setup-download-header = 保护账户安全
 inline-recovery-key-setup-download-subheader = 立即下载并存储
 inline-recovery-key-setup-download-info = 请将此密钥存储在您会记得的位置。以后将无法再回到此页面。
+inline-recovery-key-setup-hint-header = 安全建议
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1293,17 +1306,6 @@ account-recovery-confirm-key-button = 确认账户恢复密钥
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = 没有账户恢复密钥？
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = 创建新密码
-account-restored-success-message = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = 密码已设置
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = 发生意外错误。
-account-recovery-reset-password-redirecting = 正在重定向
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1317,35 +1319,7 @@ complete-reset-password-success-alert = 密码已设置
 complete-reset-password-error-alert = 抱歉，设置密码时出现问题
 complete-reset-password-recovery-key-error-v2 = 抱歉，我们在检查您是否拥有账户恢复密钥时遇到问题。
 complete-reset-password-recovery-key-link = 使用账户恢复密钥重置密码。
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = 已发送重置邮件
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = 请在一小时内点击发送到 { $email } 的链接以创建新密码。
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = 重置密码<span>以继续进行账户设置</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = 重置密码<span>以继续使用 { $serviceName }</span>
-reset-password-warning-message-2 = <span>注意：</span>重置密码时，您也重置了账户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保留您的订阅，并且 { -product-pocket } 数据不会受到影响。
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = 邮箱地址
-reset-password-button = 开始重置
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = 请输入邮箱地址
-reset-password-with-recovery-key-verified-page-title = 密码重置成功
-reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
-reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
+account-restored-success-message = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
 
 ## Confirm Reset Password With Code
 
@@ -1371,6 +1345,9 @@ password-reset-body = 请输入您的电子邮件地址，我们会向您发送�
 password-reset-email-input =
     .label = 请输入您的电子邮箱
 password-reset-submit-button = 请向我发送重置操作说明
+reset-password-with-recovery-key-verified-page-title = 密码重置成功
+reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
+reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
 
 ## CompleteSignin component
 
