@@ -172,6 +172,20 @@ form-password-sr-passwords-match = Введённые пароли совпад�
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Это обязательное поле
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Введите { $codeLength }-значный код для продолжения
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Введите для продолжения код из { $codeLength } символов
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -335,6 +349,30 @@ flow-recovery-key-download-storage-ideas-cloud = Надежное облачно
 flow-recovery-key-download-storage-ideas-print-v2 = Распечатанная физическая копия
 flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Добавьте подсказку, которая поможет найти ключ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Эта подсказка должна помочь вам вспомнить, где вы сохранили ключ восстановления своего аккаунта. Мы можем показать её вам во время сброса пароля, чтобы восстановить ваши данные.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Введите подсказку (необязательно)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Завершить
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Подсказка должна содержать менее 255 символов.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Подсказка не может содержать небезопасные символы Юникода. Допускаются только буквы, цифры, знаки препинания и символы.
+
 ## Alert Bar
 
 alert-bar-close-message = Закрыть сообщение
@@ -474,30 +512,11 @@ flow-recovery-key-download-info-v2 = Этот ключ позволяет вос
 flow-recovery-key-download-next-link-v2 = Продолжить без загрузки
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Добавьте подсказку, которая поможет найти ключ
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Эта подсказка должна помочь вам вспомнить, где вы сохранили ключ восстановления своего аккаунта. Мы можем показать её вам во время сброса пароля, чтобы восстановить ваши данные.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Введите подсказку (необязательно)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Завершить
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Ключ восстановления аккаунта создан
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Подсказка должна содержать менее 255 символов.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Подсказка не может содержать небезопасные символы Юникода. Допускаются только буквы, цифры, знаки препинания и символы.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -994,14 +1013,6 @@ third-party-auth-options-or = Или
 continue-with-google-button = Продолжить с { -brand-google }
 continue-with-apple-button = Продолжить с { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Цифра { $inputNumber } из { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Неизвестный аккаунт
@@ -1095,10 +1106,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Ой! Мы не смогли создать ключ восстановления вашего аккаунта. Подождите некоторое время и попробуйте снова.
 inline-recovery-key-setup-recovery-created = Ключ восстановления аккаунта создан
 inline-recovery-key-setup-download-header = Защитите свой аккаунт
 inline-recovery-key-setup-download-subheader = Загрузить и сохранить его сейчас
 inline-recovery-key-setup-download-info = Храните этот ключ в удобном для вас месте — вы не сможете вернуться на эту страницу позже.
+inline-recovery-key-setup-hint-header = Рекомендация по безопасности
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1309,17 +1322,6 @@ account-recovery-confirm-key-button = Подтвердите ключ восст
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = У вас нет ключа восстановления аккаунта?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Создать новый пароль
-account-restored-success-message = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Пароль установлен
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Произошла непредвиденная ошибка
-account-recovery-reset-password-redirecting = Перенаправление
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1333,35 +1335,7 @@ complete-reset-password-success-alert = Пароль установлен
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
 complete-reset-password-recovery-key-error-v2 = К сожалению, при проверке наличия у вас ключа восстановления аккаунта произошла ошибка.
 complete-reset-password-recovery-key-link = Сбросьте свой пароль с помощью вашего ключа восстановления аккаунта.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Письмо о сбросе пароля отправлено
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Щёлкните по ссылке, которая была отправлена на { $email } в течение часа, чтобы создать новый пароль.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Сбросьте пароль <span>для перехода к настройкам аккаунта</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Сбросьте пароль <span>для перехода к { $serviceName }</span>
-reset-password-warning-message-2 = <span>Примечание:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { -product-pocket } затронуты не будут.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Электронная почта
-reset-password-button = Начать сброс
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Требуется указать электронную почту
-reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
-reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
-reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
+account-restored-success-message = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
 
 ## Confirm Reset Password With Code
 
@@ -1387,6 +1361,9 @@ password-reset-body = Введите свой адрес электронной 
 password-reset-email-input =
     .label = Введите ваш адрес эл. почты
 password-reset-submit-button = Отправить мне инструкции по сбросу
+reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
+reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
+reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
 
 ## CompleteSignin component
 
