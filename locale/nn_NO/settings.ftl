@@ -180,6 +180,11 @@ form-verify-code-default-error = Dette feltet er påkravd
 # Used when the code may only contain numbers
 # $codeLength : number of digits in a valid code
 form-verify-totp-disabled-button-title-numeric = Skriv inn { $codeLength }-sifra kode for å halde fram
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Skriv inn den { $codeLength }-sifra koden for å halde fram
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -221,6 +226,10 @@ recovery-key-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = Du er logga inn på { -brand-firefox }
+inline-recovery-key-setup-create-header = Sikre kontoen din
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Har du eit minutt til å verne dataa dine?
 
 ## Input Password
 
