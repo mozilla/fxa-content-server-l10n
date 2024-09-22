@@ -172,6 +172,15 @@ form-password-sr-passwords-match = Innskrive passord samsvarar.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dette feltet er påkravd
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Skriv inn { $codeLength }-sifra kode for å halde fram
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -207,8 +216,11 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustrasjon som representerer ein kontogjenopprettingsnøkkel.
-lock-image-aria-label =
-    .aria-label = Ein illustrasjon av ein lås.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -267,6 +279,9 @@ primary-email-confirmation-link-reused = Primær e-postadresse allereie stadfest
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innlogging allereie stadfesta
 confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og kan berre brukast ein gong.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig førespurnad
 
@@ -301,6 +316,35 @@ ready-continue = Hald fram
 sign-in-complete-header = Innlogging stadfesta
 sign-up-complete-header = Konto stadfesta
 primary-email-verified-header = Primær e-postadresse stadfesta
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Plassar å lagre nøkkelen din:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker eining
+flow-recovery-key-download-storage-ideas-cloud = Påliteleg skylagring
+flow-recovery-key-download-storage-ideas-print-v2 = Utskriven fysisk kopi
+flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Legg til eit hint for å finne nøkkelen din
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Legg til eit hint (valfritt)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Fullfør
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 teikn.
 
 ## Alert Bar
 
@@ -438,33 +482,13 @@ flow-recovery-key-download-heading-v2 = Kontogjenopprettingsnøkkel oppretta —
 flow-recovery-key-download-info-v2 = Denne nøkkelen lèt deg tilbakestille dataa dine om du gløymer passordet ditt. Last ned og lagre han på ein trygg plass — du vil ikkje kunne gå tilbake til denne sida seinare.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Hald fram utan å laste ned
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Plassar å lagre nøkkelen din:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker eining
-flow-recovery-key-download-storage-ideas-cloud = Påliteleg skylagring
-flow-recovery-key-download-storage-ideas-print-v2 = Utskriven fysisk kopi
-flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Legg til eit hint for å finne nøkkelen din
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Legg til eit hint (valfritt)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Fullfør
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontogjenopprettingsnøkkel oppretta
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 teikn.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -874,14 +898,6 @@ third-party-auth-options-or = Eller
 continue-with-google-button = Hald fram med { -brand-google }
 continue-with-apple-button = Hald fram med { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Siffer { $inputNumber } av { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Ukjend konto
@@ -970,6 +986,9 @@ index-cta = Registrer deg eller logg inn
 index-account-info = Ein { -product-mozilla-account } låser også opp tilgang til meir personvern-beskyttande produkt frå { -brand-mozilla }.
 index-email-input =
     .label = Skriv inn e-postadressa di
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1124,14 +1143,6 @@ account-recovery-confirm-key-button = Stadfest kontogjenopprettingsnøkkel
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Har du ikkje ein kontogjenopprettingsnøkkel?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Lag nytt passord
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Passord innstilt
-account-recovery-reset-password-redirecting = Omdirigerer
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1140,27 +1151,6 @@ complete-reset-pw-header = Lag nytt passord
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord innstilt
 complete-reset-password-recovery-key-link = Tilbakestill passordet ditt med kontogjenopprettingsnøkkelen din
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = E-post for tilbakestilling er sendt
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Tilbakestill passordet <span>for å halde fram til kontoinnstillingar</span>
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-post
-reset-password-button = Start tilbakestilling
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-post påkravd
-reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
-reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
-reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
 
 ## Confirm Reset Password With Code
 
@@ -1186,6 +1176,9 @@ password-reset-body = Skriv inn e-postadressa di, og vi sender deg ein kode, for
 password-reset-email-input =
     .label = Skriv inn e-postadressa di
 password-reset-submit-button = Send meg instruksjonar for tilbakestilling
+reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
+reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
+reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
 
 ## CompleteSignin component
 
