@@ -235,7 +235,7 @@ email-code-image-aria-label =
 inline-recovery-key-setup-signed-in-firefox = Jste přihlášeni do { -brand-firefox(case: "gen") }
 inline-recovery-key-setup-create-header = Zabezpečte svůj účet
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
-inline-recovery-key-setup-create-subheader = Máte minutku na ochranu svých dat?
+inline-recovery-key-setup-create-subheader = Máte minutku na ochranu svých údajů?
 inline-recovery-key-setup-info = Vytvořte si obnovovací klíč k účtu, abyste mohli obnovit synchronizovaná data procházení, pokud zapomenete heslo.
 inline-recovery-key-setup-start-button = Vytvořit obnovovací klíč k účtu
 inline-recovery-key-setup-later-button = Udělejte to později
