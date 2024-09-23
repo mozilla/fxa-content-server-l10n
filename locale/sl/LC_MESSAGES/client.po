@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-20 23:14+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-09-23 21:10+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -1993,7 +1993,7 @@ msgstr "Namestitve ni bilo mogoče dokončati. Prijavite se s svojim e-poštnim 
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Sinhronizirajte svojo izkušnjo s Firefoxom"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Download Firefox for mobile"
@@ -2005,7 +2005,7 @@ msgstr "Sinhronizirajte Firefox na telefonu ali tablici"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Oglejte si shranjena gesla, zavihke, zgodovino brskanja in drugo – v vseh svojih napravah."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
@@ -2029,7 +2029,7 @@ msgstr "Ne zdaj"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Za sinhronizacijo Firefoxa na telefonu ali tablici morate najprej prenesti Firefox za mobilne naprave. To storite tako:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
