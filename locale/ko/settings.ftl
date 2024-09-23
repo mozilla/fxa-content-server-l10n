@@ -1196,7 +1196,7 @@ pair-auth-complete-manage-devices-link = 기기 관리
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-auth-totp-heading-w-default-service = 계정 설정을 계속하려면 인증 코드를 입력하세요.
+auth-totp-heading-w-default-service = <span>계정 설정을 계속하려면</span> 인증 코드를 입력하세요.
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
