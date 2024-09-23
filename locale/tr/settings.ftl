@@ -172,6 +172,10 @@ form-password-sr-passwords-match = Girilen parolalar eşleşiyor.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Bu alanı doldurmalısınız
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -207,12 +211,18 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Bir hesap kurtarma anahtarını betimleyen resim.
-lock-image-aria-label =
-    .aria-label = Bir kilit resmi
+password-image-aria-label =
+    .aria-label = Parola girmeyi betimleyen bir çizim.
 lightbulb-aria-label =
     .aria-label = Saklama ipucu oluşturmayı betimleyen çizim.
 email-code-image-aria-label =
     .aria-label = Kod içeren bir e-postayı betimleyen çizim.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = { -brand-firefox }’a giriş yaptınız
 
 ## Input Password
 
@@ -271,6 +281,10 @@ primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Giriş zaten onaylanmış
 confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
+
+## Notification Promo Banner component
+
+account-recovery-notification-header-value = Parolanızı unutsanız bile verilerinizi kaybetmeyin
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hatalı istek
 
@@ -305,6 +319,41 @@ ready-continue = Devam et
 sign-in-complete-header = Giriş onaylandı
 sign-up-complete-header = Hesap onaylandı
 primary-email-verified-header = Ana e-posta onaylandı
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Anahtarınızı saklayabileceğiniz yerler:
+flow-recovery-key-download-storage-ideas-folder-v2 = Güvenli bir cihazdaki bir klasör
+flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
+flow-recovery-key-download-storage-ideas-print-v2 = Yazdırılmış fiziksel kopya
+flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Anahtarınızı bulmanıza yardımcı olacak bir ipucu ekleyin
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Bu ipucu, hesap kurtarma anahtarınızı nerede sakladığınızı size hatırlatmalı. Verilerinizi kurtarmak için parola sıfırlama esnasında bu ipucunu size gösterebiliriz.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = İpucunuzu yazın (isteğe bağlı)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Bitir
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = İpucu 255 karakterden kısa olmalıdır.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = İpucu güvensiz unicode karakterler içeremez. Yalnızca harf, sayı, noktalama işareti ve simge içerebilir.
 
 ## Alert Bar
 
@@ -445,39 +494,13 @@ flow-recovery-key-download-heading-v2 = Hesap kurtarma anahtarı oluşturuldu. H
 flow-recovery-key-download-info-v2 = Parolanızı unutursanız bu anahtarı kullanarak verilerinizi kurtarabilirsiniz. Şimdi bu anahtarı indirin ve unutmayacağınız bir yerde saklayın. Daha sonra bu sayfaya geri dönemezsiniz.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = İndirmeden devam et
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Anahtarınızı saklayabileceğiniz yerler:
-flow-recovery-key-download-storage-ideas-folder-v2 = Güvenli bir cihazdaki bir klasör
-flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
-flow-recovery-key-download-storage-ideas-print-v2 = Yazdırılmış fiziksel kopya
-flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Anahtarınızı bulmanıza yardımcı olacak bir ipucu ekleyin
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Bu ipucu, hesap kurtarma anahtarınızı nerede sakladığınızı size hatırlatmalı. Verilerinizi kurtarmak için parola sıfırlama esnasında bu ipucunu size gösterebiliriz.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = İpucunuzu yazın (isteğe bağlı)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Bitir
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Hesap kurtarma anahtarı oluşturuldu
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = İpucu 255 karakterden kısa olmalıdır.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = İpucu güvensiz unicode karakterler içeremez. Yalnızca harf, sayı, noktalama işareti ve simge içerebilir.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -957,14 +980,6 @@ third-party-auth-options-or = veya
 continue-with-google-button = { -brand-google } ile devam et
 continue-with-apple-button = { -brand-apple } ile devam et
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = { $inputNumber } haneden { $codeLength }. hane
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Bilinmeyen hesap
@@ -1055,6 +1070,11 @@ index-cta = Kaydol veya giriş yap
 index-account-info = { -product-mozilla-account }, gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerine de erişmenizi sağlar.
 index-email-input =
     .label = E-posta adresinizi yazın
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-create-error = Hesap kurtarma anahtarınızı oluşturamadık. Lütfen daha sonra yeniden deneyin.
+inline-recovery-key-setup-recovery-created = Hesap kurtarma anahtarı oluşturuldu
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1265,17 +1285,6 @@ account-recovery-confirm-key-button = Hesap kurtarma anahtarını onaylayın
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Hesap kurtarma anahtarınız yok mu?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Yeni parola oluştur
-account-restored-success-message = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Parola ayarlandı
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Beklenmeyen bir hatayla karşılaşıldı
-account-recovery-reset-password-redirecting = Yönlendiriliyor
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1289,35 +1298,7 @@ complete-reset-password-success-alert = Parola ayarlandı
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
 complete-reset-password-recovery-key-error-v2 = Hesap kurtarma anahtarınızın olup olmadığı kontrol edilirken bir sorun oluştu.
 complete-reset-password-recovery-key-link = Hesap kurtarma anahtarınızla parolanızı sıfırlayın.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Sıfırlama e-postası gönderildi
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Yeni bir parola oluşturmak için { $email } adresine gönderdiğimiz bağlantıya bir saat içinde tıklayın.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> parolayı sıfırlayın
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> parolanızı sıfırlayın
-reset-password-warning-message-2 = <span>Not:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { -product-pocket } verileriniz etkilenmeyecektir.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-posta
-reset-password-button = Sıfırlamayı başlat
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-posta gerekli
-reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
-reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
-reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
+account-restored-success-message = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
 
 ## Confirm Reset Password With Code
 
@@ -1343,6 +1324,9 @@ password-reset-body = E-posta adresinizi yazın. Gerçekten siz olduğunuzu doğ
 password-reset-email-input =
     .label = E-posta adresinizi yazın
 password-reset-submit-button = Sıfırlama talimatlarını gönder
+reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
+reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
+reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
 
 ## CompleteSignin component
 
@@ -1391,6 +1375,17 @@ signin-bounced-message = { $email } adresine gönderdiğimiz onay e-postası ger
 signin-bounced-help = Bu e-posta adresi geçerliyse <linkExternal>bize haber verirseniz</linkExternal> hesabınızı açmanıza yardımcı olabiliriz.
 signin-bounced-create-new-account = Bu e-posta adresine artık ulaşamıyor musunuz? Yeni bir hesap açın
 back = Geri dön
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-did-not-recieve = Bildirim almadınız mı?
+signin-push-code-send-email-link = Kodu e-posta ile gönder
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-wasnt-me = Bu ben değilim, parolayı değiştir.
+signin-push-code-confirm-link-error = Bağlantı bozulmuş. Lütfen yeniden deneyin.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
