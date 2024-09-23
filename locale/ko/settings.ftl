@@ -1114,7 +1114,7 @@ inline-recovery-confirmation-header-default = <span>계정 설정을 계속하�
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = { $serviceName } 서비스를 계속하려면 백업 인증 코드를 확인하세요.</span>
+inline-recovery-confirmation-header = <span>{ $serviceName } 서비스를 계속하려면</span> 백업 인증 코드를 확인하세요.
 inline-recovery-2fa-enabled = 2단계 인증 활성화됨
 
 ## InlineTotpSetup page
