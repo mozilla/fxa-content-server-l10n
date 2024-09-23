@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-23 21:10+0000\n"
+"PO-Revision-Date: 2024-09-23 21:12+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -2033,7 +2033,7 @@ msgstr "Za sinhronizacijo Firefoxa na telefonu ali tablici morate najprej prenes
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>1. korak</b>: Prenesite Firefox, tako da z mobilno napravo poslikate to QR-kodo:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
@@ -2041,7 +2041,7 @@ msgstr "Koda QR (na sredini zaslona)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>2. korak</b>: Izberite \"Nadaljuj za sinhronizacijo\" za sinhronizacijo Firefoxa z mobilno napravo."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
@@ -2077,7 +2077,7 @@ msgstr "Pozor:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Preklopite na Firefox in odprite to stran za povezavo druge naprave."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
