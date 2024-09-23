@@ -172,6 +172,20 @@ form-password-sr-passwords-match = As palavras-passe introduzidas coincidem.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Este campo é obrigatório
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Introduza o código de { $codeLength } dígitos para continuar
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Introduza o código de { $codeLength } caracteres para continuar
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -208,7 +222,7 @@ security-shield-aria-label =
 recovery-key-image-aria-label =
     .aria-label = Ilustração para representar uma chave de recuperação da conta.
 password-image-aria-label =
-    .aria-label = Uma imagem para representar a escrita de uma palavra-passe.
+    .aria-label = Uma ilustração para representar a escrita de uma palavra-passe.
 lightbulb-aria-label =
     .aria-label = Ilustração para representar a criação de uma dica de armazenamento.
 email-code-image-aria-label =
@@ -218,11 +232,11 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Está autenticado no { -brand-firefox }
-inline-recovery-key-setup-create-header = Proteger a sua conta
+inline-recovery-key-setup-signed-in-firefox = Tem sessão iniciada no { -brand-firefox }
+inline-recovery-key-setup-create-header = Proteja a sua conta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Tem um minuto para proteger os seus dados?
-inline-recovery-key-setup-info = Crie uma chave de recuperação da conta para que possa restaurar os seus dados de navegação sincronizados se algum dia se esquecer da sua palavra-passe.
+inline-recovery-key-setup-info = Crie uma chave da recuperação de conta para que possa restaurar os seus dados de navegação sincronizados se algum dia se esquecer da sua palavra-passe.
 inline-recovery-key-setup-start-button = Criar chave de recuperação da conta
 inline-recovery-key-setup-later-button = Fazer mais tarde
 
@@ -334,6 +348,30 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Pasta num dispositivo segur
 flow-recovery-key-download-storage-ideas-cloud = Armazenamento de confiança na nuvem
 flow-recovery-key-download-storage-ideas-print-v2 = Cópia física impressa
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestor de palavras-passe
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar a sua chave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Esta dica deveria ajudar a lembrar onde guardou a sua chave de recuperação da conta. Nós podemos mostrar a mesma durante a redefinição da palavra-passe para recuperar os seus dados.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Digite uma dica (opcional)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Terminar
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 carateres.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = A dica não pode conter carateres Unicode inseguros. É permitido apenas letras, números, sinais de pontuação e símbolos.
 
 ## Alert Bar
 
@@ -474,30 +512,11 @@ flow-recovery-key-download-info-v2 = Esta chave permite-lhe recuperar os seus da
 flow-recovery-key-download-next-link-v2 = Continuar sem transferir
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar a sua chave
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Esta dica deveria ajudar a lembrar onde guardou a sua chave de recuperação da conta. Nós podemos mostrar a mesma durante a redefinição da palavra-passe para recuperar os seus dados.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Digite uma dica (opcional)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Terminar
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Chave de recuperação da conta criada
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 carateres.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = A dica não pode conter carateres Unicode inseguros. É permitido apenas letras, números, sinais de pontuação e símbolos.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -989,14 +1008,6 @@ third-party-auth-options-or = Ou
 continue-with-google-button = Continue com { -brand-google }
 continue-with-apple-button = Continue com { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Dígito { $inputNumber } de { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conta desconhecida
@@ -1090,10 +1101,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Ups! Não conseguimos criar a sua chave de recuperação da conta. Por favor, tente novamente mais tarde.
 inline-recovery-key-setup-recovery-created = Chave de recuperação da conta criada
-inline-recovery-key-setup-download-header = Proteger a sua conta
+inline-recovery-key-setup-download-header = Proteja a sua conta
 inline-recovery-key-setup-download-subheader = Transferir e guardar agora
-inline-recovery-key-setup-download-info = Guarde esta chave num lugar onde se lembre - não irá conseguir voltar a esta página mais tarde.
+inline-recovery-key-setup-download-info = Guarde esta chave num sítio onde se lembre — não irá conseguir regressar a esta página mais tarde.
+inline-recovery-key-setup-hint-header = Recomendação de segurança
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1306,17 +1319,6 @@ account-recovery-confirm-key-button = Confirmar chave de recuperação da conta
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação da conta?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Criar nova palavra-passe
-account-restored-success-message = Restaurou com sucesso a sua conta utilizando a chave de recuperação da conta. Crie uma nova palavra-passe para proteger os seus dados e guarde-a numa localização segura.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Palavra-passe definida
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Encontrado um erro inesperado
-account-recovery-reset-password-redirecting = A redirecionar
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1330,35 +1332,7 @@ complete-reset-password-success-alert = Palavra-passe definida
 complete-reset-password-error-alert = Desculpe, ocorreu um problema ao definir a sua palavra-passe
 complete-reset-password-recovery-key-error-v2 = Pedimos desculpa, mas ocorreu um problema ao verificar se tem uma chave de recuperação de conta.
 complete-reset-password-recovery-key-link = Reponha a sua palavra-passe com a sua chave de recuperação de conta.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Mensagem de reposição enviada
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Clique na ligação enviada para { $email } dentro da próxima hora para criar uma nova palavra-passe.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Redefina a palavra-passe <span>para continuar para as definições da conta</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Reponha a palavra-passe <span>para continuar para { $serviceName }</span>
-reset-password-warning-message-2 = <span>Nota:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mail
-reset-password-button = Iniciar redefinição
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = É necessário o e-mail
-reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
-reset-password-with-recovery-key-verified-generate-new-key = Gerar uma nova chave de recuperação da conta
-reset-password-with-recovery-key-verified-continue-to-account = Continuar para a minha conta
+account-restored-success-message = Restaurou com sucesso a sua conta utilizando a chave de recuperação da conta. Crie uma nova palavra-passe para proteger os seus dados e guarde-a numa localização segura.
 
 ## Confirm Reset Password With Code
 
@@ -1384,6 +1358,9 @@ password-reset-body = Insira o seu e-mail e iremos enviar-lhe um código de conf
 password-reset-email-input =
     .label = Inserir o seu e-mail
 password-reset-submit-button = Enviar as instruções de reposição para mim
+reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
+reset-password-with-recovery-key-verified-generate-new-key = Gerar uma nova chave de recuperação da conta
+reset-password-with-recovery-key-verified-continue-to-account = Continuar para a minha conta
 
 ## CompleteSignin component
 
@@ -1436,21 +1413,21 @@ back = Voltar
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = Verifique esta credencial <span>para continuar para as definições da conta</span>
-signin-push-code-heading-w-custom-service = Verifique esta credencial <span>para continuar para { $serviceName }</span>
-signin-push-code-instruction = Por favor verifique os seus outros dispositivos e aprove esta credencial no seu { -brand-firefox }.
+signin-push-code-heading-w-default-service = Confirme este início de sessão <span>para continuar para as definições da conta</span>
+signin-push-code-heading-w-custom-service = Confirme este início de sessão <span>para continuar para { $serviceName }</span>
+signin-push-code-instruction = Por favor, verifique os seus outros dispositivos e aprove este início de sessão no seu { -brand-firefox }.
 signin-push-code-did-not-recieve = Não recebeu a notificação?
-signin-push-code-send-email-link = Código de e-mail
+signin-push-code-send-email-link = Enviar código por e-mail
 
 ## SigninPushCodeConfirmPage
 
-signin-push-code-confirm-instruction = Confirmar a sua credencial
-signin-push-code-confirm-description = Detetámos uma tentativa de início de sessão a partir do seguinte dispositivo. Se foi você, por favor aprove a credencial
-signin-push-code-confirm-verifying = A verificar
+signin-push-code-confirm-instruction = Confirme o seu início de sessão
+signin-push-code-confirm-description = Detetámos uma tentativa de início de sessão a partir do seguinte dispositivo. Se foi você, por favor, aprove o início sessão
+signin-push-code-confirm-verifying = A confirmar
 signin-push-code-confirm-login = Confirmar início de sessão
-signin-push-code-confirm-wasnt-me = Não foi eu, altere a palavra-passe.
-signin-push-code-confirm-login-approved = A sua credencial foi aprovada. Por favor feche esta janela.
-signin-push-code-confirm-link-error = A ligação está danificada. Por favor, tente novamente.
+signin-push-code-confirm-wasnt-me = Não foi eu. Alterar a palavra-passe.
+signin-push-code-confirm-login-approved = O seu início de sessão foi aprovado. Feche esta janela.
+signin-push-code-confirm-link-error = A ligação está danificada. Tente novamente.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
