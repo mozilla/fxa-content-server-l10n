@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-20 23:14+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-09-23 08:04+0000\n"
+"Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1997,7 +1997,7 @@ msgstr "Échec de l’association de l’appareil"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "L’installation n’a pas pu être terminée. Veuillez vous connecter avec votre adresse e-mail."
+msgstr "La configuration n’a pas pu être terminée. Veuillez vous connecter avec votre adresse e-mail."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"

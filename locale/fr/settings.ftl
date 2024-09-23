@@ -179,12 +179,12 @@ form-verify-code-default-error = Ce champ est requis.
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may only contain numbers
 # $codeLength : number of digits in a valid code
-form-verify-totp-disabled-button-title-numeric = Saisissez un code à { $codeLength } chiffres pour continuer
+form-verify-totp-disabled-button-title-numeric = Saisissez le code à { $codeLength } chiffres pour continuer
 # Information explaining why button is disabled, also read to screen readers
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = Saisissez un code de { $codeLength } caractères pour continuer
+form-verify-totp-disabled-button-title-alphanumeric = Saisissez le code de { $codeLength } caractères pour continuer
 
 # GetDataTrio component, part of Account Recovery Key flow
 
