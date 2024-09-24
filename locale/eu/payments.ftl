@@ -110,6 +110,8 @@ payment-error-manage-subscription-button = Kudeatu nire harpidetza
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Dagoeneko { $productName } harpidetza duzu { -brand-google } edo { -brand-apple } aplikazio denden bidez.
 
 ## Component - PaymentForm
 
