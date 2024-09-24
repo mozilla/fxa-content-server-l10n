@@ -46,9 +46,28 @@ new-user-subscribe-product-updates-mozilla = { -brand-mozilla } produktuen berri
 new-user-subscribe-product-updates-snp = { -brand-mozilla } segurtasun eta pribatutasun albisteak eta eguneraketak jaso nahi ditut.
 new-user-subscribe-product-updates-hubs = { -product-mozilla-hubs } eta { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut.
 new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } eta { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut
+new-user-subscribe-product-assurance = Zure posta elektronikoa zure kontua sortzeko soilik erabiltzen dugu. Ez diogu inoiz hirugarren bati salduko.
+new-user-email-validate = Posta elektronikoa ez da baliozkoa
+new-user-email-validate-confirm = Postak ez datoz bat.
+new-user-already-has-account-sign-in = Dagoeneko kontu bat duzu. <a>Hasi saioa</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Helbidea gaizki idatzi duzu? { $domain } domeinuak ez du posta elektroniko zerbitzurik.
 
 ## Component - PaymentConfirmation
 
+payment-confirmation-thanks-heading = Eskerrik asko!
+payment-confirmation-thanks-heading-account-exists = Eskerri asko, begiratu zure posta elektronikoa
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = Berrespen-mezu bat bidali da { $email } helbidera, { $product_name } erabiltzen hasteko xehetasunekin.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = { $email } helbidean mezu elektroniko bat jasoko duzu zure kontua konfiguratzeko argibideekin, baita zure ordainketa xehetasunekin ere.
+payment-confirmation-order-heading = Eskaeraren xehetasunak
+payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
+payment-confirmation-details-heading-2 = Ordainketa informazioa
+payment-confirmation-amount = { $amount } { $interval }-(e)ro
 payment-confirmation-download-button = Jarraitu deskargara
 
 ## Component - PaymentConsentCheckbox
