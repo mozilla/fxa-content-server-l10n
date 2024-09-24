@@ -68,10 +68,40 @@ payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Ordainketa informazioa
 payment-confirmation-amount = { $amount } { $interval }-(e)ro
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } egunero
+       *[other] { $amount } { $intervalCount } egunetik behin
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } astero
+       *[other] { $amount } { $intervalCount } astetik behin
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } hilero
+       *[other] { $amount } { $intervalCount } hiletik behin
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } urtero
+       *[other] { $amount } { $intervalCount } urtetik behin
+    }
 payment-confirmation-download-button = Jarraitu deskargara
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static-3 = Baimena ematen diot { -brand-mozilla }-ri nire ordainketa-metodoari kobratzeko erakutsitako zenbatekoa, <termsOfServiceLink>Zerbitzu-baldintzen arabera</termsOfServiceLink> eta <privacyNoticeLink>Pribatutasun-oharra</privacyNoticeLink>, nire harpidetza bertan behera utzi arte.
+payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 
 ## Component - PaymentErrorView
 
