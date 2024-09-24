@@ -3,114 +3,197 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Branding
+## Component - AppLayout
 
-project-brand = Firefoxeko kontuak
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-document =
-    .title = Firefoxeko kontuak
+settings-home = Kontuaren hasiera-orria
+settings-project-header-title = { -product-mozilla-account }
 
-## General aria-label
+## Component - CouponForm
 
-close-aria =
-    .aria-label = Itxi leiho modala
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promozio kodea aplikatuta
+coupon-submit = Aplikatu
+coupon-remove = Kendu
+coupon-error = Sartu duzun kodea iraungita dago edo baliogabea da.
+coupon-error-generic = Errore bat gertatu da kodea prozesatzen. Mesedez, saiatu berriro.
+coupon-error-expired = Sartu duzun kodea iraungi egin da.
+coupon-error-limit-reached = Sartu duzun kodea bere mugara iritsi da.
+coupon-error-invalid = Sartu duzun kodea baliogabea da.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Sartu kodea
 
-## App error dialog
+## Component - Fields
 
-general-error-heading = Aplikazioaren errore orokorra
-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+default-input-error = Eremu hau beharrezkoa da
+input-error-is-required = { $label } beharrezkoa da
+
+## Component - Header
+
+brand-name-mozilla-logo = { -brand-mozilla } logoa
+
+## Component - NewUserEmailForm
+
+new-user-sign-in-link-2 = Jada badaukazu { -product-mozilla-account }? <a>Hasi saioa</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Idatzi zure helbide elektronikoa
+
+## Component - PaymentConfirmation
+
+payment-confirmation-download-button = Jarraitu deskargara
+
+## Component - PaymentConsentCheckbox
+
+
+## Component - PaymentErrorView
+
 payment-error-retry-button = Saiatu berriro
 payment-error-manage-subscription-button = Kudeatu nire harpidetza
 
-## Settings
-
-settings-home = Kontuaren hasiera-orria
-settings-subscriptions-title = Harpidetzak
-
-## Legal footer
-
-terms = Zerbitzuaren baldintzak
-privacy = Pribatutasun-oharra
-
-## Subscription titles
+## Component - PaymentErrorView - IAP upgrade errors
 
 
-## $productName (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-## Product route
-
-product-profile-error =
-    .title = Arazoa profila kargatzerakoan
-product-customer-error =
-    .title = Arazoa bezeroa kargatzerakoan
-product-plan-not-found = Ez da plana aurkitu
-
-## Payment legal blurb
-
-
-## Payment form
+## Component - PaymentForm
 
 payment-name =
     .placeholder = Izen osoa
     .label = Zure txartelean agertzen den izena
 payment-cc =
     .label = Zure txartela
-payment-ccn =
-    .label = Txartelaren zenbakia
-payment-exp =
-    .label = iraungitzea
-payment-cvc =
-    .label = CVC kodea
-payment-zip =
-    .label = ZIP kodea
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-##
-
 payment-cancel-btn = Utzi
 payment-update-btn = Eguneratu
 payment-pay-btn = Ordaindu orain
 payment-validate-name-error = Idatzi zure izena
 
-## Subscription redirect
+## Component - PaymentLegalBlurb
 
 
-## Fields
+## Component - PaymentMethodHeader
 
-default-input-error = Eremu hau beharrezkoa da
-input-error-is-required = { $label } beharrezkoa da
 
-## Subscription upgrade
+## Component - PaymentProcessing
+
+
+## Component - PaymentProviderDetails
+
+
+## Component - PayPalButton
+
+
+## Component - PlanDetails
+
+
+## Component - PlanErrorDialog
+
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
+## Component - SubscriptionTitle
+
+
+## Component - TermsAndPrivacy
+
+terms = Zerbitzuaren baldintzak
+privacy = Pribatutasun-oharra
+
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Firefoxeko kontuak
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Itxi leiho modala
+settings-subscriptions-title = Harpidetzak
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## Error messages
+
+# App error dialog
+general-error-heading = Aplikazioaren errore orokorra
+basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+product-profile-error =
+    .title = Arazoa profila kargatzerakoan
+product-customer-error =
+    .title = Arazoa bezeroa kargatzerakoan
+product-plan-not-found = Ez da plana aurkitu
+
+## Hooks - coupons
+
+
+## Routes - Checkout - New user
+
+
+## Routes - Product and Subscriptions
+
+
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
+
+
+## Routes - Product - IapRoadblock
+
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+
+## Routes - Product - Subscription upgrade
+
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
 ##
 
 
-## Subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Subscriptions - Cancel
 
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
 
 
+## Routes - Subscription
+
+
+## Routes - Subscriptions - Errors
+
+
+## Routes - Subscription - ActionButton
+
+pay-update-manage-btn = Kudeatu
+
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 
-##
+## Routes - Subscription - PaymentUpdate
 
 
-## reactivate
+# $expirationDate (Date) - The payment card's expiration date.
+
+
+## Routes - Subscription - SubscriptionItem
+
+
+## Routes - Subscriptions - Pocket Subscription
+
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 
@@ -118,45 +201,6 @@ input-error-is-required = { $label } beharrezkoa da
 
 reactivate-success-button = Itxi
 
-## Subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-
-## Subscription iap item
+## Routes - Subscriptions - Subscription iap item
 
 sub-iap-item-manage-button = Kudeatu
-
-## Subscription route index
-
-pay-update-manage-btn = Kudeatu
-
-## Subscription create
-
-
-## Plan details
-
-
-## Coupons
-
-
-## Payment processing
-
-
-## Payment confirmation
-
-
-## Payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-
-## $email (string) - The user's email.
-
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-payment-confirmation-download-button = Jarraitu deskargara
-
-## New user email form
-

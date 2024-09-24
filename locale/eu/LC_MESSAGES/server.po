@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-16 08:23+0000\n"
+"PO-Revision-Date: 2024-09-24 09:46+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -91,6 +91,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Zure Mozilla kontuak zure Firefox bertsioan onartzen ez\n"
+"                        diren funtzioak erabiltzen ditu.\n"
+"                        Deskargatu eta instalatu Firefoxen azken\n"
+"                        bertsioa jarraitzeko."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
