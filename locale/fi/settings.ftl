@@ -172,6 +172,10 @@ form-password-sr-passwords-match = Annetut salasanat vastaavat toisiaan.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Tämä kenttä on pakollinen
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -332,6 +336,30 @@ flow-recovery-key-download-storage-ideas-cloud = Luotettu pilvitallennustila
 flow-recovery-key-download-storage-ideas-print-v2 = Tulostettu fyysinen kopio
 flow-recovery-key-download-storage-ideas-pwd-manager = Salasanojen hallinta
 
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Lisää vihje, joka auttaa löytämään avaimesi
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Tämän vihjeen tulisi auttaa sinua muistamaan, mihin talletit tilin palautusavaimen. Voimme näyttää vihjeen sinulle, kun nollaat salasanasi, jotta voit palauttaa tietosi.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Anna vihje (valinnainen)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Valmis
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Vihje saa sisältää alle 255 merkkiä.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Vihje ei saa sisältää vaarallisia unicode-merkkejä. Vain kirjaimet, numerot, välimerkit ja symbolit ovat sallittuja.
+
 ## Alert Bar
 
 alert-bar-close-message = Sulje viesti
@@ -472,30 +500,11 @@ flow-recovery-key-download-info-v2 = Tämän avaimen avulla voit palauttaa tieto
 flow-recovery-key-download-next-link-v2 = Jatka lataamatta
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Lisää vihje, joka auttaa löytämään avaimesi
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Tämän vihjeen tulisi auttaa sinua muistamaan, mihin talletit tilin palautusavaimen. Voimme näyttää vihjeen sinulle, kun nollaat salasanasi, jotta voit palauttaa tietosi.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Anna vihje (valinnainen)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Valmis
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Tilin palautusavain luotu
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Vihje saa sisältää alle 255 merkkiä.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Vihje ei saa sisältää vaarallisia unicode-merkkejä. Vain kirjaimet, numerot, välimerkit ja symbolit ovat sallittuja.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -993,14 +1002,6 @@ third-party-auth-options-or = Tai
 continue-with-google-button = Jatka käyttämällä { -brand-google }a
 continue-with-apple-button = Jatka käyttämällä { -brand-apple }a
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Numero { $inputNumber } / { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Tuntematon tili
@@ -1093,8 +1094,11 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Oho! Emme voineet luoda tilin palautusavainta. Yritä myöhemmin uudelleen.
+inline-recovery-key-setup-recovery-created = Tilin palautusavain luotu
 inline-recovery-key-setup-download-header = Suojaa tilisi
 inline-recovery-key-setup-download-subheader = Lataa ja tallenna se nyt
+inline-recovery-key-setup-hint-header = Turvallisuussuositus
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1305,17 +1309,6 @@ account-recovery-confirm-key-button = Vahvista tilin palautusavain
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Eikö sinulla ole tilin palautusavainta?
 
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Luo uusi salasana
-account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Salasana asetettu
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Tapahtui odottamaton virhe
-account-recovery-reset-password-redirecting = Uudelleenohjataan
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
@@ -1328,35 +1321,7 @@ complete-reset-password-success-alert = Salasana asetettu
 # Displayed in an alert bar
 complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni ongelma
 complete-reset-password-recovery-key-link = Nollaa salasana tilin palautusavaimella.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Nollaussähköposti lähetetty
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Luo uusi salasana napsauttamalla osoitteeseen { $email } lähetetyssä viestissä olevaa linkkiä tunnin sisällä.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tilin asetuksiin</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
-reset-password-warning-message-2 = <span>Huomioi:</span> Salasanan nollaus tyhjentää myös tilisi sisällön. Saatat menettää joitakin henkilökohtaisia tietojasi (kuten historian, kirjanmerkit ja salasanat). Tämä johtuu siitä, että tietosi salataan salasanallasi yksityisyytesi suojaamiseksi. Mahdolliset tilauksesi pysyvät silti edelleen voimassa, eikä tämä vaikuta { -product-pocket }in tietoihin.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Sähköposti
-reset-password-button = Aloita nollaus
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Sähköpostiosoite vaaditaan
-reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
-reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
-reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
+account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
 
 ## Confirm Reset Password With Code
 
@@ -1382,6 +1347,9 @@ password-reset-body = Anna sähköpostiosoitteesi, niin lähetämme sinulle vahv
 password-reset-email-input =
     .label = Kirjoita sähköpostiosoitteesi
 password-reset-submit-button = Lähetä minulle palautusohjeet
+reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
+reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
+reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
 
 ## CompleteSignin component
 
@@ -1433,9 +1401,16 @@ back = Edellinen
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Vahvista tämä kirjautuminen <span>jatkaaksesi tilin asetuksiin</span>
+signin-push-code-heading-w-custom-service = Vahvista tämä kirjautuminen <span>jatkaaksesi palveluun { $serviceName }</span>
+signin-push-code-did-not-recieve = Etkö saanut ilmoitusta?
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Vahvista kirjautumisesi
+signin-push-code-confirm-description = Havaitsimme kirjautumisyrityksen seuraavasta laitteesta. Jos se olit sinä, hyväksy kirjautuminen
+signin-push-code-confirm-verifying = Vahvistetaan
+signin-push-code-confirm-login = Vahvista kirjautuminen
 signin-push-code-confirm-wasnt-me = Tämä en ollut minä, vaihda salasana.
 signin-push-code-confirm-login-approved = Kirjautumisesi on hyväksytty. Sulje tämä ikkuna.
 signin-push-code-confirm-link-error = Linkki on vaurioitunut. Yritä uudelleen.
