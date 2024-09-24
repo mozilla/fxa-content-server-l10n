@@ -1385,6 +1385,7 @@ signin-push-code-send-email-link = Kodu e-posta ile gönder
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-wasnt-me = Bu ben değilim, parolayı değiştir.
+signin-push-code-confirm-login-approved = Girişiniz onaylandı. Lütfen bu pencereyi kapatın.
 signin-push-code-confirm-link-error = Bağlantı bozulmuş. Lütfen yeniden deneyin.
 
 ## SigninRecoveryCode page
