@@ -1106,10 +1106,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Hëm! S’e krijuam dot kodin tuaj të rimarrjes së llogarisë. Ju lutemi, riprovoni më vonë.
 inline-recovery-key-setup-recovery-created = U krijua kyç rimarrjeje llogarie
 inline-recovery-key-setup-download-header = Siguroni llogarinë tuaj
 inline-recovery-key-setup-download-subheader = Shkarkojeni dhe depozitojeni që tani
 inline-recovery-key-setup-download-info = Ruajeni këtë kyç diku ku e mbani mend — s’do të jini në gjendje të ktheheni te kjo faqe më vonë.
+inline-recovery-key-setup-hint-header = Rekomandim sigurie
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
