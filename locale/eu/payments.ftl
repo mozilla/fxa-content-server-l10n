@@ -40,6 +40,12 @@ new-user-sign-in-link-2 = Jada badaukazu { -product-mozilla-account }? <a>Hasi s
 # continue.
 new-user-enter-email =
     .label = Idatzi zure helbide elektronikoa
+new-user-confirm-email =
+    .label = Berretsi helbide elektronikoa
+new-user-subscribe-product-updates-mozilla = { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut.
+new-user-subscribe-product-updates-snp = { -brand-mozilla } segurtasun eta pribatutasun albisteak eta eguneraketak jaso nahi ditut.
+new-user-subscribe-product-updates-hubs = { -product-mozilla-hubs } eta { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut.
+new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } eta { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut
 
 ## Component - PaymentConfirmation
 
