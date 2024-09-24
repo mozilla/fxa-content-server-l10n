@@ -112,6 +112,9 @@ payment-error-manage-subscription-button = Kudeatu nire harpidetza
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed-2 = Dagoeneko { $productName } harpidetza duzu { -brand-google } edo { -brand-apple } aplikazio denden bidez.
+iap-upgrade-no-bundle-support = Ez dugu harpidetza hauetarako bertsio berritzea onartzen, baina laster egingo dugu.
+iap-upgrade-contact-support = Produktu hau eskura dezakezu oraindik. Jarri laguntza-zerbitzuarekin laguntza lortzeko.
+iap-upgrade-get-help-button = Lortu laguntza
 
 ## Component - PaymentForm
 
@@ -123,6 +126,7 @@ payment-cc =
 payment-cancel-btn = Utzi
 payment-update-btn = Eguneratu
 payment-pay-btn = Ordaindu orain
+payment-pay-with-paypal-btn-2 = Ordaindu { -brand-paypal } erabiliz
 payment-validate-name-error = Idatzi zure izena
 
 ## Component - PaymentLegalBlurb
@@ -217,6 +221,7 @@ product-plan-not-found = Ez da plana aurkitu
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Utzi harpidetza
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
@@ -230,6 +235,7 @@ product-plan-not-found = Ez da plana aurkitu
 
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = Aldatu
 pay-update-manage-btn = Kudeatu
 
 ## Routes - Subscriptions - Cancel and IapItem
@@ -253,6 +259,7 @@ pay-update-manage-btn = Kudeatu
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Harpidetza berritu
 
 ## $date (Date) - Last day of product access
 
