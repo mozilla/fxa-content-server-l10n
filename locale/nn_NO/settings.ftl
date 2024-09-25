@@ -867,6 +867,10 @@ se-refresh-email =
 se-unverified-2 = ikkje stadfesta
 # Button to make secondary email the primary
 se-make-primary = Bruk som primær e-postadresse
+se-default-content = Få tilgang til kontoen din viss du ikkje kan logge inn med den primære e-postadressa di.
+se-content-note-1 =
+    Merk: ei sekundær e-postadresse vil ikkje rette opp igjen informasjonen din – du treng 
+    ein <a>kontogjenopprettingsnøkkel</a> for det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
 
