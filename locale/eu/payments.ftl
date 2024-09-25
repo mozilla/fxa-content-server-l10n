@@ -469,9 +469,23 @@ sub-route-idx-reactivating = Harpidetza beraktibatzeak huts egin du
 sub-route-idx-cancel-failed = Harpidetza bertan behera uzteak huts egin du
 sub-route-idx-contact = Laguntza kontaktua
 sub-route-idx-cancel-msg-title = Sentitzen dugu zu joaten ikusteak
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Zure { $name } harpidetza bertan behera utzi da.
+          <br />
+          { $name } sarbidea izango duzu oraindik { $date } arte.
+sub-route-idx-cancel-aside-2 = Galderarik baduzu? Joan <a>{ -brand-mozilla } Laguntzara</a>.
 
 ## Routes - Subscriptions - Errors
 
+sub-customer-error =
+    .title = Arazoa bezeroa kargatzerakoan
+sub-invoice-error =
+    .title = Arazoa faktura kargatzerakoan
+sub-billing-update-success = Zure fakturazio-informazioa behar bezala eguneratu da
+sub-invoice-previews-error-title = Arazoa faktura aurrebistak kargatzerakoan
+sub-invoice-previews-error-text = Ezin da faktura aurrebistak kargatu
 
 ## Routes - Subscription - ActionButton
 
@@ -483,12 +497,19 @@ pay-update-manage-btn = Kudeatu
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Hurrengo fakturazioa { $date }
+sub-next-bill-no-tax-1 = Hurrengo fakturazio kopurua: { $priceAmount } data: { $date }
+sub-next-bill-tax-1 = Hurrengo fakturazioa { $priceAmount } + { $taxAmount } zerga data honetan { $date }
+sub-expires-on = Iraungitze data: { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+pay-update-card-exp = Iraungitzea { $expirationDate }
+sub-route-idx-updating = Fakturazio-informazioa eguneratzen…
+sub-route-payment-modal-heading = Fakturazio-informazio baliogabea
 
 ## Routes - Subscription - SubscriptionItem
 
