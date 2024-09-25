@@ -886,6 +886,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Diverre oppstod eit problem med å oppdatere
     tostegs-godkjenning.
+tfa-row-content-explain =
+    Hinder nokon annan i å logge på, ved å krevje ein
+    unik kode berre du har tilgang til.
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-godkjenning.
