@@ -231,6 +231,7 @@ inline-recovery-key-setup-create-header = Sikre kontoen din
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Har du eit minutt til å verne dataa dine?
 inline-recovery-key-setup-info = Opprett ein kontogjenopprettingsnøkkel slik at du kan rette opp igjen synkroniserte nettlesardata viss du gløymer passordet ditt.
+inline-recovery-key-setup-start-button = Opprett kontogjenopprettingsnøkkel
 inline-recovery-key-setup-later-button = Gjer det seinare
 
 ## Input Password
@@ -293,6 +294,7 @@ confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Opprett
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig førespurnad
 
@@ -1000,6 +1002,8 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel oppretta
+inline-recovery-key-setup-download-header = Sikre kontoen din
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1059,6 +1063,7 @@ legal-terms-heading = Tenestevilkår
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Logga du nettopp på { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Ja, godkjenn eininga
