@@ -110,6 +110,10 @@ form-password-sr-passwords-match = Sartutako pasahitza bat datoz.
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Eremu hau beharrezkoa da
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -196,6 +200,11 @@ primary-email-verified-header = Helbide elektroniko nagusia berretsi da
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Zure gakoa gordetzeko tokiak:
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
 
 ## Alert Bar
 
@@ -295,7 +304,7 @@ flow-container-back = Atzera
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 
@@ -397,6 +406,13 @@ delete-account-header =
     .title = Ezabatu kontua
 delete-account-step-1-2 = 2tik 1. urratsa
 delete-account-step-2-2 = 2tik 2. urratsa
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Mesedez aitor ezazu kontua ezabatzeak ondorengoa eragingo duela:
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } produktuetan gordeta duzun informazio eta eginbideak gal litzakezu
@@ -449,6 +465,7 @@ add-secondary-email-step-2 = 2tik 2. urratsa
 verify-secondary-email-page-title =
     .title = Ordezko helbide elektronikoa
 verify-secondary-email-cancel-button = Utzi
+verify-secondary-email-verify-button-2 = Berretsi
 
 ##
 
@@ -477,6 +494,8 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Erabili { $secret } kodea bi urratseko autentifikazioa konfiguratzeko
     euskarria duten aplikazioetan.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ezin duzu kodea eskaneatu?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Idatzi gako sekretu hau zure autentifikazio-aplikazioan:
@@ -506,6 +525,14 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Segurtasuna
+security-password =
+    .header = Pasahitza
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Sortze-data: { $date }
+security-not-set = Ezarri gabe
+security-action-create = Sortu
 
 ## Switch component
 
@@ -570,10 +597,6 @@ tfa-row-change-modal-explain = Ezingo duzu ekintza hau desegin.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
-
-
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
 
 
 ## Auth-server based errors that originate from backend service
@@ -665,17 +688,8 @@ auth-error-1008 = Pasahitz berriak desberdina izan behar du
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
-
-
-## Confirm Reset Password Component
-
-
-## ResetPassword page
 
 
 ## Confirm Reset Password With Code

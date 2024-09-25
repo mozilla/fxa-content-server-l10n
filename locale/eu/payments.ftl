@@ -530,10 +530,13 @@ manage-pocket-body-2 = Kudeatzeko, <linkExternal>egin klik hemen</linkExternal>.
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name } erabiltzen jarraitu nahi duzu?
 reactivate-confirm-button = Harpidetza berritu
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-copy = { $name }rako sarbidea galduko duzu <strong>{ $date }</strong> egunean.
+reactivate-success-copy = Eskerrik asko! Dena prest daukazu.
 reactivate-success-button = Itxi
 
 ## Routes - Subscriptions - Subscription iap item
