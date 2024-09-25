@@ -510,12 +510,22 @@ sub-expires-on = Iraungitze data: { $date }
 pay-update-card-exp = Iraungitzea { $expirationDate }
 sub-route-idx-updating = Fakturazio-informazioa eguneratzen…
 sub-route-payment-modal-heading = Fakturazio-informazio baliogabea
+sub-route-payment-modal-message-2 = Errore bat dagoela dirudi zure { -brand-paypal } kontuarekin, ordainketa-arazo hau konpontzeko beharrezko urratsak eman behar dituzu.
+sub-route-missing-billing-agreement-payment-alert = Ordainketa-informazio baliogabea; errore bat dago zure kontuarekin. <div>Kudeatu</div>
+sub-route-funding-source-payment-alert = Ordainketa-informazio baliogabea; errore bat dago zure kontuarekin. Baliteke alerta hau denbora pixka bat behar izatea garbitzeko zure informazioa behar bezala eguneratu ondoren. <div>Kudeatu</div>
 
 ## Routes - Subscription - SubscriptionItem
 
+sub-item-no-such-plan = Ez dago horrelako planik harpidetza honetarako.
+invoice-not-found = Ez da ondorengo faktura aurkitu
+sub-item-no-such-subsequent-invoice = Ez da aurkitu harpidetza honen ondorengo faktura.
+sub-invoice-preview-error-title = Ez da fakturen aurrebista aurkitu
+sub-invoice-preview-error-text = Ez da aurkitu harpidetza honetarako fakturen aurrebista
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Zure { -product-pocket } premium harpidetza bilatzen ari zara?
+manage-pocket-body-2 = Kudeatzeko, <linkExternal>egin klik hemen</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
