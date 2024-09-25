@@ -1067,6 +1067,9 @@ pair-auth-allow-heading-text = Logga du nettopp på { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Ja, godkjenn eininga
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Viss dette ikkje var deg, <link>endre passordet ditt</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1084,6 +1087,14 @@ pair-auth-complete-manage-devices-link = Handsam einingar
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Skriv inn godkjenningskoden <span>for å halde fram til kontoinnstillingar</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Skriv inn godkjenningskode <span>for å halde fram til { $serviceName }</span>
+auth-totp-instruction = Opne autentiseringsappen din og skriv inn godkjenningskoden du får opp.
 auth-totp-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Stadfest
@@ -1167,6 +1178,7 @@ complete-reset-pw-header = Lag nytt passord
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord innstilt
 complete-reset-password-recovery-key-link = Tilbakestill passordet ditt med kontogjenopprettingsnøkkelen din
+account-restored-success-message = Du har retta opp igjen kontoen din ved å bruke nøkkelen for kontogjenoppretting. Opprett eit nytt passord for å sikre dataa dine, og lagre dei på ein trygg stad.
 
 ## Confirm Reset Password With Code
 
@@ -1246,6 +1258,7 @@ signin-push-code-heading-w-default-service = Stadfest denne innlogginga <span>fo
 signin-push-code-heading-w-custom-service = Stadfest denne innlogginga <span>for å halde fram til { $serviceName }</span>
 signin-push-code-instruction = Kontroller dei andre einingane dine og godkjenn denne innlogginga frå { -brand-firefox }-nettlesaren din.
 signin-push-code-did-not-recieve = Har du ikkje motteke varselet?
+signin-push-code-send-email-link = Send kode på e-post
 
 ## SigninPushCodeConfirmPage
 
