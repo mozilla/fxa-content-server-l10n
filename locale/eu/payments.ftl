@@ -413,12 +413,25 @@ brand-name-apple-app-store-2 = { -app-store }
 
 product-plan-change-heading = Berrikusi zure aldaketa
 sub-change-failed = Plan aldaketak huts egin du
+sub-update-acknowledgment =
+    Zure plana berehala aldatuko da, eta proportzioan kobratuko dizugu
+    zenbatekoa. gaurtik fakturazio-ziklo honen gainerako.  { $startingDate }
+    hasita kopuru osoa kobratuko dizute.
+sub-change-submit = Berretsi aldaketa
+sub-update-current-plan-label = Uneko plana
+sub-update-new-plan-label = Plan berria
+sub-update-total-label = Guztira berria
+sub-update-prorated-upgrade = Bertsio proportzionala
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (egunero)
+sub-update-new-plan-weekly = { $productName } (astero)
+sub-update-new-plan-monthly = { $productName } (hilero)
+sub-update-new-plan-yearly = { $productName } (urtero)
 
 ##
 
@@ -426,13 +439,36 @@ sub-change-failed = Plan aldaketak huts egin du
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Utzi harpidetza
+sub-item-stay-sub = Jarraitu harpidetua
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg =
+    Aurrerantzean ezin izango duzu { $name } erabili
+    { $period }, fakturazio-zikloaren azken eguna.
+sub-item-cancel-confirm =
+    Bertan behera utzi dudan sarbidea eta gordetako informazioa
+    { $name } { $period } egunean
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } kupoia erabilita: <priceDetails>
 
 ## Routes - Subscription
 
+sub-route-idx-reactivating = Harpidetza beraktibatzeak huts egin du
+sub-route-idx-cancel-failed = Harpidetza bertan behera uzteak huts egin du
+sub-route-idx-contact = Laguntza kontaktua
+sub-route-idx-cancel-msg-title = Sentitzen dugu zu joaten ikusteak
 
 ## Routes - Subscriptions - Errors
 
