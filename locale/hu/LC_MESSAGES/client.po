@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-20 23:14+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-09-25 08:24+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -1994,7 +1994,7 @@ msgstr "Az eszközpárosítás sikertelen"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "A telepítés nem fejezhető be. Jelentkezzen be az e-mail címével."
+msgstr "A telepítés nem fejezhető be. Jelentkezzen be az e-mail-címével."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"

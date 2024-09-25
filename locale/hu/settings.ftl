@@ -184,7 +184,7 @@ form-verify-totp-disabled-button-title-numeric = A folytatáshoz adja meg a { $c
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = A folytatáshoz adja meg az { $codeLength } karakteres kódot
+form-verify-totp-disabled-button-title-alphanumeric = A folytatáshoz adja meg a { $codeLength } karakteres kódot
 
 # GetDataTrio component, part of Account Recovery Key flow
 
