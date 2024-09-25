@@ -175,6 +175,16 @@ form-verify-code-default-error = Bu alanı doldurmalısınız
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Devam etmek için { $codeLength } haneli kodu yazın
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Devam etmek için { $codeLength } karakterlik kodu yazın
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -223,6 +233,7 @@ email-code-image-aria-label =
 ## after signing in.
 
 inline-recovery-key-setup-signed-in-firefox = { -brand-firefox }’a giriş yaptınız
+inline-recovery-key-setup-later-button = Daha sonra oluşturacağım
 
 ## Input Password
 
@@ -284,6 +295,7 @@ confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmı
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Oluştur
 account-recovery-notification-header-value = Parolanızı unutsanız bile verilerinizi kaybetmeyin
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hatalı istek
@@ -1075,6 +1087,9 @@ index-email-input =
 
 inline-recovery-key-setup-create-error = Hesap kurtarma anahtarınızı oluşturamadık. Lütfen daha sonra yeniden deneyin.
 inline-recovery-key-setup-recovery-created = Hesap kurtarma anahtarı oluşturuldu
+inline-recovery-key-setup-download-header = Hesabınızın güvenliğini sağlayın
+inline-recovery-key-setup-download-info = Bu anahtarı unutmayacağınız bir yerde saklayın. Daha sonra bu sayfaya geri dönemeyeceksiniz.
+inline-recovery-key-setup-hint-header = Güvenlik önerisi
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
