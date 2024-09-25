@@ -231,6 +231,7 @@ inline-recovery-key-setup-create-header = Sikre kontoen din
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Har du eit minutt til å verne dataa dine?
 inline-recovery-key-setup-info = Opprett ein kontogjenopprettingsnøkkel slik at du kan rette opp igjen synkroniserte nettlesardata viss du gløymer passordet ditt.
+inline-recovery-key-setup-later-button = Gjer det seinare
 
 ## Input Password
 
