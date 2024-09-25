@@ -184,7 +184,7 @@ form-verify-totp-disabled-button-title-numeric = Rhowch cod { $codeLength }-digi
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = Rhowch { $codeLength } - cod nod i barhau
+form-verify-totp-disabled-button-title-alphanumeric = Rhowch cod { $codeLength }-nod i barhau
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -1104,7 +1104,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
-inline-recovery-key-setup-create-error = Wps! Ni allem greu allwedd adfer eich cyfrif. Ceisiwch eto yn nes ymlaen.
+inline-recovery-key-setup-create-error = Wps! Nid oedd modd i ni greu allwedd adfer eich cyfrif. Ceisiwch eto yn nes ymlaen.
 inline-recovery-key-setup-recovery-created = Crëwyd yr allwedd adfer cyfrif.
 inline-recovery-key-setup-download-header = Diogelwch eich cyfrif
 inline-recovery-key-setup-download-subheader = Llwythwch ef i lawr a'i gadw

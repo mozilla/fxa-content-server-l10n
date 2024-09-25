@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-20 23:15+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -1997,7 +1997,7 @@ msgstr "Methodd paru dyfais"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "Ni fu modd cwblhau'r gosodiad. Mewngofnodwch gyda'ch e-bost."
+msgstr "Nid oedd modd cwblhau'r gosodiad. Mewngofnodwch gyda'ch e-bost."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
