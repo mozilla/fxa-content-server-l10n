@@ -358,6 +358,12 @@ charge-exceeds-source-limit = Badirudi transakzio honek zure eguneroko kreditu-m
 instant-payouts-unsupported = Badirudi zordunketa-txartela ez dagoela berehalako ordainketak egiteko konfiguratuta. Probatu beste zordunketa edo kreditu txartel bat.
 duplicate-transaction = Hmm. Transakzio berdina bidali berri dela dirudi. Egiaztatu zure ordainketa-historia.
 coupon-expired = Sustapen-kode hori iraungi dela dirudi.
+card-error = Ezin izan da prozesatu zure transakzioa. Egiaztatu kreditu txartelaren informazioa eta saiatu berriro.
+country-currency-mismatch = Harpidetza honen dibisak ez du balio ordainketarekin lotutako herrialderako.
+currency-currency-mismatch = Barkatu. Ezin duzu txanpon/dibisa batetik bestera aldatu.
+no-subscription-change = Barkatu. Ezin duzu zure harpidetza-plana aldatu.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Dagoeneko { $mobileAppStore } bidez harpidetuta zaude.
 product-profile-error =
     .title = Arazoa profila kargatzerakoan
 product-customer-error =
