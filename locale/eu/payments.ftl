@@ -253,14 +253,36 @@ price-details-tax-month =
             [one] { $priceAmount } + { $taxAmount } zerga hilero
            *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } hiletik behin
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } zerga urtero
+       *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } urtetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } zerga urtero
+           *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } urtetik behin
+        }
 
 ## Component - SubscriptionTitle
 
+subscription-create-title = Zure harpidetzaren ezarpenak
+subscription-success-title = Harpidetza baieztapena
+subscription-processing-title = Harpidetza baieztatzen…
+subscription-error-title = Errorea harpidetza baieztatzen…
+subscription-noplanchange-title = Harpidetza-planaren aldaketa ez da onartzen
+subscription-iapsubscribed-title = Bazadude harpidetua
+sub-guarantee = 30 eguneko dirua itzultzeko bermea
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Zerbitzuaren baldintzak
 privacy = Pribatutasun-oharra
+terms-download = Deskargatu baldintzak
 
 ## App-level string(s) and messages shared by multiple components or routes
 
@@ -270,16 +292,67 @@ document =
 close-aria =
     .aria-label = Itxi leiho modala
 settings-subscriptions-title = Harpidetzak
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Sustapen kodea
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } egunero
+       *[other] { $amount } { $intervalCount } egunetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } egunero
+           *[other] { $amount } { $intervalCount } egunetik behin
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } astero
+       *[other] { $amount } { $intervalCount } astetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } astero
+           *[other] { $amount } { $intervalCount } astetik behin
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } hilero
+       *[other] { $amount } { $intervalCount } hiletik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } hilero
+           *[other] { $amount } { $intervalCount } hiletik behin
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } urtero
+       *[other] { $amount } { $intervalCount } urtetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } urtero
+           *[other] { $amount } { $intervalCount } urtetik behin
+        }
 
 ## Error messages
 
 # App error dialog
 general-error-heading = Aplikazioaren errore orokorra
 basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+payment-error-1 = Hmm. Arazo bat izan da zure ordainketa baimentzean. Saiatu berriro edo jarri harremanetan txartelaren jaulkitzailearekin.
+payment-error-2 = Hmm. Arazo bat izan da zure ordainketa baimentzean. Jarri harremanetan zure txartelaren jaulkitzailearekin.
+payment-error-3b = Ustekabeko errore bat gertatu da ordainketa prozesatzen ari zaren bitartean. Saiatu berriro.
+expired-card-error = Zure kreditu-txartela iraungi dela dirudi. Probatu beste txartel bat.
+insufficient-funds-error = Zure txartelak funts nahikorik ez duela dirudi. Probatu beste txartel bat.
 product-profile-error =
     .title = Arazoa profila kargatzerakoan
 product-customer-error =
