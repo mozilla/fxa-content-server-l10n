@@ -364,6 +364,12 @@ currency-currency-mismatch = Barkatu. Ezin duzu txanpon/dibisa batetik bestera a
 no-subscription-change = Barkatu. Ezin duzu zure harpidetza-plana aldatu.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Dagoeneko { $mobileAppStore } bidez harpidetuta zaude.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Sistemaren errore batek zure { $productName } erregistratzea huts egin du. Zure ordainketa-metodoa ez da kobratu. Mesedez, saiatu berriro.
+fxa-post-passwordless-sub-error = Harpidetza berretsi da, baina berrespen orria ezin izan da kargatu. Mesedez, egiaztatu zure posta elektronikoa zure kontua konfiguratzeko.
+newsletter-signup-error = Ez zaude erregistratuta produktuen eguneratze-mezu elektronikoetarako. Berriro saia zaitezke zure kontuaren ezarpenetan.
+product-plan-error =
+    .title = Arazoa planak kargatzerakoan
 product-profile-error =
     .title = Arazoa profila kargatzerakoan
 product-customer-error =
@@ -372,26 +378,41 @@ product-plan-not-found = Ez da plana aurkitu
 
 ## Hooks - coupons
 
+coupon-success = Zure plana automatikoki berrituko da zerrendako prezioan.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Zure plana automatikoki berrituko da { $couponDurationDate } ondoren zerrendako prezioan.
 
 ## Routes - Checkout - New user
 
+new-user-step-1-2 = 1. sortu { -product-mozilla-account }
+new-user-card-title = Sartu zure txartelaren informazioa
+new-user-submit = Harpidetu orain
 
 ## Routes - Product and Subscriptions
 
+sub-update-payment-title = Ordainketa informazioa
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
+pay-with-heading-card-only = Ordaindu txartelaz
+product-invoice-preview-error-title = Arazoa faktura aurrebista kargatzerakoan
+product-invoice-preview-error-text = Ezin da faktura aurrebista kargatu
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Ezin zaitugu oraindik berritu
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Berrikusi zure aldaketa
+sub-change-failed = Plan aldaketak huts egin du
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
