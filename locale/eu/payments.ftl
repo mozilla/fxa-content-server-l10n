@@ -131,6 +131,7 @@ payment-validate-name-error = Idatzi zure izena
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla }-k { -brand-name-stripe } eta { -brand-paypal } erabiltzen ditu ordainketa seguruak izateko.
 
 ## Component - PaymentMethodHeader
 
