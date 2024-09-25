@@ -209,6 +209,50 @@ price-details-no-tax-month =
             [one] { $priceAmount } hilero
            *[other] { $priceAmount } { $intervalCount } hiletik behin
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } urtero
+       *[other] { $priceAmount } { $intervalCount } urtetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } urtero
+           *[other] { $priceAmount } { $intervalCount } urtetik behin
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } zerga egunero
+       *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } egunetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } zerga egunero
+           *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } egunetik behin
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } zerga astero
+       *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } astetik bahin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } zerga astero
+           *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } astetik bahin
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } zerga hilero
+       *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } hiletik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } zerga hilero
+           *[other] { $priceAmount } + { $taxAmount } zerga { $intervalCount } hiletik behin
+        }
 
 ## Component - SubscriptionTitle
 
