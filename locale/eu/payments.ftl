@@ -132,29 +132,83 @@ payment-validate-name-error = Idatzi zure izena
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla }-k { -brand-name-stripe } eta { -brand-paypal } erabiltzen ditu ordainketa seguruak izateko.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe }  pribatutasun politika </stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } pribatutasun politika</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla }-k { -brand-paypal } darabil ordainketa seguruak izateko.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } pribatutasun politika</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla }-k { -brand-name-stripe } darabil ordainketa seguruak izateko.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } pribatutasun politika</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Hautatu zure ordaiketa metodoa
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beharko duzu
 
 ## Component - PaymentProcessing
 
+payment-processing-message = Mesedez, itxaron ordainketa prozesatzen dugun bitartean...
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Ordaindu { -brand-paypal } erabiliz
 
 ## Component - PlanDetails
 
+plan-details-header = Produktuaren xehetasuna
+plan-details-list-price = Prezio zerrenda
+plan-details-show-button = Erakutsi xehetasunak
+plan-details-hide-button = Ezkutatu xehetasunak
+plan-details-total-label = Guztira
+plan-details-tax = Zergak eta Tasak
 
 ## Component - PlanErrorDialog
 
+product-no-such-plan = Ez dago horrelako planik produktu honetarako.
 
 ## Price details including tax
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } zerga
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } egunero
+       *[other] { $priceAmount } { $intervalCount } egunetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } egunero
+           *[other] { $priceAmount } { $intervalCount } egunetik behin
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } astero
+       *[other] { $priceAmount } { $intervalCount } astetik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } astero
+           *[other] { $priceAmount } { $intervalCount } astetik behin
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } hilero
+       *[other] { $priceAmount } { $intervalCount } hiletik behin
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } hilero
+           *[other] { $priceAmount } { $intervalCount } hiletik behin
+        }
 
 ## Component - SubscriptionTitle
 
