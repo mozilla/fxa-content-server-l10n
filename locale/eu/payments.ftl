@@ -531,6 +531,20 @@ manage-pocket-body-2 = Kudeatzeko, <linkExternal>egin klik hemen</linkExternal>.
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name } erabiltzen jarraitu nahi duzu?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    { $name }-rako sarbidea jarraituko du eta fakturazio-zikloa 
+    eta ordainketa berdin jarraituko du. Zure hurrengo kargua  { $amount } izango da
+    { $last }-z amaitzen den txartelean { $endDate } datan.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    { $name }-rako sarbidea jarraituko du eta fakturazio-zikloa 
+    eta ordainketa berdin jarraituko du. Zure hurrengo kargua 
+    { $amount } izango da { $endDate } datan.
 reactivate-confirm-button = Harpidetza berritu
 
 ## $date (Date) - Last day of product access
@@ -541,4 +555,6 @@ reactivate-success-button = Itxi
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: aplikazioko erosketa
+sub-iap-item-apple-purchase-2 = { -brand-apple }: aplikazioko erosketa
 sub-iap-item-manage-button = Kudeatu

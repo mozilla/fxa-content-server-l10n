@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-24 12:02+0000\n"
+"PO-Revision-Date: 2024-09-26 06:20+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -71,7 +71,7 @@ msgstr "Konfigurazioa osatzeko, idatzi pasahitz berria Firefox darabilzun beste 
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Orain prest zaude aldaketak egiteko zure Mozilla kontuan."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -124,6 +124,8 @@ msgstr "Eskerrik asko Mozilla laguntzarekin <b>%(escapedLowercaseTopic)s</b>(r)i
 #: .es5/views/support.js:233
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
+"Eskerrik asko <b>%(escapedLowercaseTopic)s</b>ri buruz <b>%(escapedSelectedProduct)s</b>-gatik Mozillaren laguntzarekin harremanetan jartzeagatik. Zurekin harremanetan jarriko gara posta elektroniko"
+" bidez ahalik eta lasterren."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
@@ -533,7 +535,7 @@ msgstr "Mutur hau ez da onartzen"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Osatu kontuaren konfigurazioa, <a href=\"/reset_password\">berrezarri pasahitza</a> jarraitzeko."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -601,7 +603,7 @@ msgstr "Idatzi baliozko helbide elektronikoa. firefox.com-ek ez du posta elektro
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Mozilla kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -701,7 +703,7 @@ msgstr "Irudi-fitxategiaren tamaina handiegia da igotzeko."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "Ezin dira erabili posta elektronikoko maskarak kontu bat sortzeko."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -721,7 +723,7 @@ msgstr "Gaizki idatzitako helbidea?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Produktu berriak probatzeko sarbidea goiztiarra"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -729,7 +731,7 @@ msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Lagundu internet osasuntsu mantentzen"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -737,7 +739,7 @@ msgstr "Izan seguru eta azkarragoa Interneten"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Segurtasun eta pribatutasun albisteak eta eguneraketak"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -902,7 +904,7 @@ msgstr "Jarraitu %(serviceName)s zerbitzura"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Mesedez sartu erabilera bakarreko kontu berreskuratze gakoa toki seguruan gordea duzuna berriz bereganatzeko zure Mozilla kontura sarrera."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -951,10 +953,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>GOGORATU:</span> Pasahitza berrezartzen duzunean, zure kontua berrezartzen duzu. Baliteke zure informazio pertsonala galtzea (historia, laster-markak eta pasahitzak barne). Hori gerta daiteke "
+"zure datuak zure pasahitzarekin enkriptatzen ditugulako zure pribatutasuna babesteko. Oraindik eduki ditzakezun harpidetzak mantenduko dituzu eta Pocket-eko datuei ez zaie eragingo."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Kontua behar bezala leheneratu duzu kontua berreskuratzeko gakoa erabiliz. Sortu pasahitz berri bat zure datuak babesteko eta gorde kokapen seguru batean."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
