@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-26 11:20+0000\n"
+"PO-Revision-Date: 2024-09-26 11:29+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1987,23 +1987,23 @@ msgstr "Kudeatu gailuak"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "Orain <small class=\"card-subheader\">zure beste gailuaren</small> onarpena behar da"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Gailua parekatzea huts egin du"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "Ezin izan da konfigurazioa osatu. Mesedez, hasi saioa zure posta elektronikoarekin."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Sinkronizatu zure Firefox esperientzia"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Deskargatu mugikorrerako Firefox"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Sync Firefox on your phone or tablet"
@@ -2011,19 +2011,19 @@ msgstr "Sinkronizatu Firefox zure telefonoan edo tabletan"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Ikusi gordetako pasahitzak, fitxak, nabigazio-historia eta gehiago — zure gailu guztietan."
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Dagoeneko daukat Firefox mugikorretarako"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Hasi sinkronizazioa orain zure gailu mugikorrean Firefox baduzu."
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Ez daukat Firefox mugikorretarako"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
