@@ -221,13 +221,28 @@ codes-reminder-title-one = Zure azkeneko babes-kopiarako autentikazio-kodean zau
 codes-reminder-description-part-two = Zure datuak aurrerago ez galtzeko, sor itzazu kode berriak orain.
 codes-reminder-description-two-left = Bakarrik bi kode gelditzen zaizkizu.
 lowRecoveryCodes-action-2 = Kodeak sortu
+codes-create-plaintext = { lowRecoveryCodes-action-2 }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Saio hasiera berria { $clientName }-n
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Ez zara zu? <a data-l10n-name="passwordChangeLink"> Alda ezazu pasahitza</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Ez zara zu? Alda ezazu pasahitza:
 newDeviceLogin-action = Kudeatu kontua
 passwordChanged-subject = Pasahitza eguneratuta
 passwordChanged-title = Pasahitza ondo aldatu da
 passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
 passwordChangeRequired-title = Pasahitza aldatzea beharrezkoa da
+passwordChangeRequired-different-password = <b>Garrantzitsua:</b> Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
+passwordChangeRequired-different-password-plaintext = Garrantzitsua: Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
 passwordReset-subject = Pasahitza eguneratuta
 passwordReset-title = Zure kontuaren pasahitza aldatu egin da
+passwordReset-description = Zure pasahitz berria gainontzeko gailuetan sartu beharko duzu sinkronizazioarekin jarraitzeko.
+passwordResetAccountRecovery-subject-2 = Zure pasahitza berrezarri egin da
+passwordResetAccountRecovery-title-2 = Pasahitza ondo berrezarri da
 postAddAccountRecovery-action = Kudeatu kontua
 postAddLinkedAccount-action = Kudeatu kontua
 postAddTwoStepAuthentication-action = Kudeatu kontua
