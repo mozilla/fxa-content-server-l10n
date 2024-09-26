@@ -14,6 +14,7 @@ fxa-privacy-url = { -brand-mozilla }ren pribatutasun politika
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(majuskulaz: "uppercase") } pribatutasun-oharra
 moz-accounts-terms-url = { -product-mozilla-accounts(majuskulaz: "uppercase") } Zerbitzu-baldintzak
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
 subplat-privacy-notice = Pribatutasun-oharra
 subplat-privacy-plaintext = Pribatutasun-oharra:
@@ -26,7 +27,11 @@ subplat-explainer-specific-2 = Posta elektroniko hau jaso duzu { $email }-k { -p
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Posta elektroniko hau jaso duzu { $email }-k { -product-mozilla-account } duelako.
 subplat-explainer-multiple-2 = Posta elektroniko hau jaso duzu { $email }-k { -product-mozilla-account } duelako eta hainbat produktutara harpidetuta zaudelako.
+subplat-explainer-was-deleted-2 = Posta elektroniko hau jaso duzu { $email } posta  { -product-mozilla-account } kontuan erregistratu delako..
 subplat-manage-account-2 = Kudeatu zure { -product-mozilla-account } ezarpenak <a data-l10n-name="subplat-account-page">kontuaren orria</a> bisitatuz.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Kudeatu zure { -product-mozilla-account } ezarpenak zure kontuko orrian: { $accountSettingsUrl }
 subplat-terms-policy = Baldintzak eta bertan behera uzteko politika
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Utzi harpidetza
@@ -37,7 +42,9 @@ subplat-update-billing = Eguneratu fakturazio-informazioa
 subplat-privacy-policy = { -brand-mozilla }ren pribatutasun politika
 subplat-privacy-policy-2 = { -product-mozilla-accounts(majuskulaz: "majuskulaz") } Pribatutasun-oharra
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = { -product-mozilla-accounts(majuskulaz: "majuskulaz") } Zerbitzu-baldintzak
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Lege-oharra
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Pribatutasuna
