@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-26 20:08+0000\n"
 "PO-Revision-Date: 2024-08-06 07:57+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1023,7 +1023,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "Indaûr"
 
@@ -1073,7 +1073,7 @@ msgstr "Acès realizât par Firefox"
 msgid "Email confirmed"
 msgstr "E-mail confermade"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "Dispositîfs cun cûrs sui lôrs schermis"
 
@@ -1085,11 +1085,11 @@ msgstr "Acès eseguît a Firefox"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Par completâ la configurazion jentre su chest Firefox"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Stâstu ancjemò zontant dispositîfs?"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Par completâ la configurazion jentre su Firefox suntun altri dispositîf"
 
@@ -1100,18 +1100,6 @@ msgstr "Desideristu vê lis tôs schedis, i tiei segnelibris e lis tôs password
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Scomence a navigâ"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Stâstu ancjemò zontant dispositîfs? Jentre in Firefox suntun altri dispositîf par completâ la configurazion"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Jentre in Firefox par Android par completâ la configurazion"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Jentre in Firefox par iOS par completâ la configurazion"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1796,7 +1784,7 @@ msgstr "Sincronize Firefox tra i varis dispositîfs"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Sincronize segnelibris, cronologjie e passwords di Firefox sui tiei dispositîfs mobii. Al puarte vie dome pôcs minûts."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "Scomence"
 
@@ -1864,7 +1852,7 @@ msgstr "I accounts di Firefox a cambiaran non in accounts di Mozilla dal 1ⁿ di
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Dut câs tu jentrarâs cul stes non utent e password e no saran fatis altris modifichis ai prodots che tu dopris."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "Plui informazions"
 
@@ -1956,6 +1944,14 @@ msgstr "Continue cun Google"
 msgid "Continue with Apple"
 msgstr "Continue cun Apple"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr ""
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "Âstu a pene eseguît l'acès a Firefox?"
@@ -2014,17 +2010,17 @@ msgstr ""
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr "Sincronize la tô esperience in Firefox"
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "Discjame Firefox pai dispositîfs mobii"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "Sincronize Firefox sul to telefon o tablet"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2069,10 +2065,6 @@ msgstr "<b>Passaç 2</b>: selezione “Continue par sincronizâ” par sincroniz
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "Continue par sincronizâ"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "Puartiti daûr lis schedis, i segnelibris e lis passwords, dapardut là che tu dopris Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2122,14 +2114,10 @@ msgstr "Âstu doprât la fotocjamare di sisteme? Tu scugnis associâ di dentri d
 msgid "Download Firefox now"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr ""

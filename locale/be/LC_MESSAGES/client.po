@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-26 20:08+0000\n"
 "PO-Revision-Date: 2024-07-05 20:16+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1022,7 +1022,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Няма ў уваходных ці ў спаме? Выслаць яшчэ раз"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "Назад"
 
@@ -1072,7 +1072,7 @@ msgstr "Вы ўвайшлі ў Firefox"
 msgid "Email confirmed"
 msgstr "Электронная пошта пацверджана"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "Прылады з сэрцайкамі на экранах"
 
@@ -1084,11 +1084,11 @@ msgstr "Вы ўвайшлі ў Firefox"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Увайдзіце ў гэты Firefox, каб закончыць наладу"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Яшчэ дадаяце прылады?"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Увайдзіце ў Firefox на іншай прыладзе, каб закончыць наладу"
 
@@ -1099,18 +1099,6 @@ msgstr "Хочаце атрымаць свае карткі, закладкі і
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Пачаць агляданне"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Яшчэ дадаяце прылады? Увайдзіце ў Firefox на іншай прыладзе, каб закончыць наладу"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Увайдзіце ў Firefox для Android, каб закончыць наладу"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Увайдзіце ў Firefox для iOS, каб закончыць наладу"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1766,7 +1754,7 @@ msgstr "Сінхранізуйце Firefox паміж прыладамі"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Сінхранізуйце закладкі, гісторыю і паролі з Firefox на мабільных прыладах. Гэта зойме ўсяго некалькі хвілін."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "Пачаць"
 
@@ -1834,7 +1822,7 @@ msgstr "Уліковыя запісы Firefox будуць перайменав�
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Вы па-ранейшаму будзеце ўваходзіць у сістэму з тым жа імем карыстальніка і паролем, і ніякіх іншых змен у прадуктах, якімі вы карыстаецеся, не будзе."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "Даведацца больш"
 
@@ -1928,6 +1916,14 @@ msgstr "Працягнуць з Google"
 msgid "Continue with Apple"
 msgstr "Працягвайце з Apple"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr ""
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "Вы толькі што ўвайшлі ў Firefox?"
@@ -1986,17 +1982,17 @@ msgstr ""
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "Сцягнуць Firefox для мабільнага"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "Сінхранізуйце Firefox на тэлефоне або планшэце"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2041,10 +2037,6 @@ msgstr ""
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "Працягнуць сінхранізацыю"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "Бярыце з сабой карткі, закладкі і паролі ўсюды, дзе вы карыстаецеся Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2094,14 +2086,10 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 msgid "Download Firefox now"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr ""

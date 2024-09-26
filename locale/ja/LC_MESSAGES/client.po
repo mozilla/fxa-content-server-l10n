@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-26 20:08+0000\n"
 "PO-Revision-Date: 2024-08-14 11:40+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -1025,7 +1025,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "戻る"
 
@@ -1075,7 +1075,7 @@ msgstr "Firefox にログインしました"
 msgid "Email confirmed"
 msgstr "メールアドレスを確認しました"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "画面にハートが付いた端末"
 
@@ -1087,11 +1087,11 @@ msgstr "Firefox にログインしました"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "この Firefox へログインして設定を完了してください"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "他にも端末を追加しますか？"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "他の端末上の Firefox へログインして設定を完了してください"
 
@@ -1102,18 +1102,6 @@ msgstr "他の端末で開いているタブやブックマーク、パスワー
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "ブラウジングを始める"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "まだ端末を追加していますか？ 他の端末上で Firefox へログインして設定を完了しましょう"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Android 版 Firefox へログインして設定を完了してください"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "iOS 版 Firefox へログインして設定を完了してください"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1797,7 +1785,7 @@ msgstr "端末間で Firefox を同期"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "ブックマーク、履歴、パスワードをモバイル端末の Firefox と同期します。ほんの数分しかかかりません。"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "はじめる"
 
@@ -1865,7 +1853,7 @@ msgstr "Firefox アカウントが 11 月 1 日から Mozilla アカウントに
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "これまでと同じユーザー名とパスワードでログインできます。ご使用の製品にその他の変更はありません。"
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "詳細情報"
 
@@ -1957,6 +1945,14 @@ msgstr "Google で続ける"
 msgid "Continue with Apple"
 msgstr "Apple で続ける"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr ""
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "今 Firefox にログインしましたか？"
@@ -2014,17 +2010,17 @@ msgstr ""
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr "Firefox の使用環境を同期する"
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "モバイル版 Firefox をダウンロード"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "スマートフォンやタブレットで Firefox を同期する"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2069,10 +2065,6 @@ msgstr "<b>ステップ 2</b>: [同期を続ける] を選択してモバイル�
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "同期を続ける"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "Firefox を使用しているすべての場所でパスワード、タブ、ブックマークを持ち運びましょう。"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2122,14 +2114,10 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 msgid "Download Firefox now"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr ""

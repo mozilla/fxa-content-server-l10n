@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-26 20:08+0000\n"
 "PO-Revision-Date: 2024-06-07 23:52+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1019,7 +1019,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปม? ส่งใหม่"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "ย้อนกลับ"
 
@@ -1069,7 +1069,7 @@ msgstr "คุณได้ลงชื่อเข้า Firefox แล้ว"
 msgid "Email confirmed"
 msgstr "ยืนยันอีเมลแล้ว"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr ""
 
@@ -1081,11 +1081,11 @@ msgstr ""
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "ลงชื่อเข้าใช้ Firefox นี้เพื่อการติดตั้งที่สมบูรณ์"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "ต้องการเพิ่มอุปกรณ์?"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "ลงชื่อเข้าใช้ Firefox บนอุปกรณ์อื่นเพื่อการติดตั้งที่สมบูรณ์"
 
@@ -1096,18 +1096,6 @@ msgstr "ต้องการเห็นแท็บ ที่คั่นห�
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "เริ่มการเรียกดู"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "ต้องการเพิ่มอุปกรณ์? ลงชื่อเข้าใช้ Firefox บนอุปกรณ์อื่นเพื่อการติดตั้งที่สมบูรณ์"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ Android เพื่อการติดตั้งที่สมบูรณ์"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ iOS เพื่อการติดตั้งที่สมบูรณ์"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1783,7 +1771,7 @@ msgstr "ซิงค์ Firefox ระหว่างอุปกรณ์"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "ซิงค์ที่คั่นหน้า ประวัติ และรหัสผ่านกับ Firefox บนอุปกรณ์มือถือของคุณ การซิงค์ใช้เวลาเพียงไม่กี่นาทีเท่านั้น"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "เริ่มต้นใช้งาน"
 
@@ -1851,7 +1839,7 @@ msgstr "บัญชี Firefox จะถูกเปลี่ยนชื่อ
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "คุณจะยังลงชื่อเข้าด้วยชื่อผู้ใช้และรหัสผ่านเดียวกันอยู่ และจะไม่มีการเปลี่ยนแปลงอื่นใดกับผลิตภัณฑ์ที่คุณใช้"
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "เรียนรู้เพิ่มเติม"
 
@@ -1943,6 +1931,14 @@ msgstr "ดำเนินการต่อด้วย Google"
 msgid "Continue with Apple"
 msgstr "ดำเนินการต่อด้วย Apple"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr ""
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "คุณเพิ่งลงชื่อเข้าใช้ Firefox หรือไม่?"
@@ -2001,17 +1997,17 @@ msgstr ""
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr ""
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "ซิงค์ Firefox ในโทรศัพท์หรือแท็บเล็ตของคุณ"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2056,10 +2052,6 @@ msgstr ""
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr ""
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "นำแท็บ ที่คั่นหน้า และรหัสผ่านของคุณไปทุกที่ที่คุณใช้ Firefox"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2109,14 +2101,10 @@ msgstr "คุณใช้กล้องระบบหรือไม่? ค�
 msgid "Download Firefox now"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr ""

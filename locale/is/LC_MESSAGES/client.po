@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-26 20:08+0000\n"
 "PO-Revision-Date: 2024-09-11 12:39+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1026,7 +1026,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Ekki í pósthólfinu eða ruslpóstmöppunni? Senda aftur"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "Til baka"
 
@@ -1076,7 +1076,7 @@ msgstr "Þú hefur skráð inn í Firefox"
 msgid "Email confirmed"
 msgstr "Tölvupóstur staðfestur"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "Tæki með hjörtu á skjánum sínum"
 
@@ -1088,11 +1088,11 @@ msgstr "Þú hefur skráð inn í Firefox"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Skráðu þig inn í þetta tilvik Firefox til að ljúka uppsetningunni"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Enn að bæta við tækjum?"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Skráðu þig inn í Firefox á öðru tæki til að ljúka uppsetningunni"
 
@@ -1103,18 +1103,6 @@ msgstr "Viltu fá flipana þína, bókamerki og lykilorð yfir í annað tæki?"
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Byrja vafur"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Enn að bæta við tækjum? Skráðu þig inn í Firefox á öðru tæki til að ljúka uppsetningunni"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Skráðu þig inn í Firefox fyrir Android til að ljúka uppsetningunni"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Skráðu þig inn í Firefox fyrir iOS til að ljúka uppsetningunni"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1800,7 +1788,7 @@ msgstr "Samstilltu Firefox á milli tækja"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Samstilltu bókamerki, vafurferil og lykilorð í Firefox á snjalltækjunum þínum. Þetta tekur bara örfáar mínútur."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "Komast í gang"
 
@@ -1868,7 +1856,7 @@ msgstr "Firefox-reikningar verða endurnefndir Mozilla-reikningar þann 1. nóve
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Þú munt samt skrá þig inn með sama notandanafni og lykilorði og það eru engar aðrar breytingar á hugbúnaðnum sem þú notar."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "Kanna nánar"
 
@@ -1960,6 +1948,14 @@ msgstr "Halda áfram með Google"
 msgid "Continue with Apple"
 msgstr "Halda áfram með Apple"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr "Að tengja farsímann þinn við Mozilla reikninginn þinn"
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "Varstu að skrá þig inn á Firefox?"
@@ -2018,17 +2014,17 @@ msgstr "Pörun tækis mistókst"
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr "Samstilltu Firefox-gögnin þín"
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "Sækja Firefox fyrir farsíma"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "Samstilltu Firefox við símann eða spjaldtölvuna"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2073,10 +2069,6 @@ msgstr "<b>Skref 2</b>: Veldu \"Halda áfram að samstilla\" til að samstilla F
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "Halda áfram að samstilla"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "Taktu flipana þína, bókamerki og lykilorð með þér hvert sem þú notar Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2126,14 +2118,10 @@ msgstr "Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr F
 msgid "Download Firefox now"
 msgstr "Sækja Firefox núna"
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "Að tengja farsímann þinn við Mozilla reikninginn þinn"
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr "Úbbs! Eitthvað fór úrskeiðis."
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr "Lokaðu þessum flipa og reyndu aftur."
