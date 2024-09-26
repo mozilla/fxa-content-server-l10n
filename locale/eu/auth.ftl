@@ -210,6 +210,10 @@ view-invoice = <a data-l10n-name="invoiceLink">Ikusi zure faktura</a>.
 view-invoice-plaintext = Ikusi faktura: { $invoiceLink }
 cadReminderFirst-action = Sinkronizatu beste gailu bat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Bi behar dira sinkronizatzeko
+cadReminderFirst-description-v2 = Eraman zure fitxak gailu guztietara. Lortu zure laster-markak, pasahitzak eta bestelako datuak { -brand-firefox } erabiltzen dituzun toki guztietan.
+cadReminderSecond-subject-2 = Ez galdu! Amai dezagun sinkronizazio konfigurazioa
 cadReminderSecond-action = Sinkronizatu beste gailu bat
 cadReminderSecond-title-2 = Ez ahaztu sinkronizatzea!
 cadReminderSecond-description-sync = Sinkronizatu zure laster-markak, pasahitzak, irekitako fitxak eta gehiago { -brand-firefox } erabiltzen duzun toki guztietan.
@@ -222,6 +226,7 @@ downloadSubscription-subject = Ongi etorri { $productName }(e)ra
 downloadSubscription-title = Ongi etorri { $productName }(e)ra
 downloadSubscription-content-2 = Has gaitezen zure harpidetzako erabilera guztiak erabiltzen:
 downloadSubscription-link-action-2 = Hasi erabiltzen
+fraudulentAccountDeletion-subject-2 = Zure { -product-mozilla-account } ezabatu zen
 fraudulentAccountDeletion-title = Zure kontua ezabatu da
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -249,6 +254,8 @@ passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
 passwordChangeRequired-title = Pasahitza aldatzea beharrezkoa da
 passwordChangeRequired-different-password = <b>Garrantzitsua:</b> Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
 passwordChangeRequired-different-password-plaintext = Garrantzitsua: Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
+password-forgot-otp-subject = Pasahitza ahaztu duzu?
+password-forgot-otp-title = Pasahitza ahaztu duzu?
 passwordReset-subject = Pasahitza eguneratuta
 passwordReset-title = Zure kontuaren pasahitza aldatu egin da
 passwordReset-description = Zure pasahitz berria gainontzeko gailuetan sartu beharko duzu sinkronizazioarekin jarraitzeko.
@@ -267,11 +274,18 @@ postRemoveSecondary-subject = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-title = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-action = Kudeatu kontua
 postRemoveTwoStepAuthentication-action = Kudeatu kontua
+postVerify-subject-4 = Ongi etorri { -brand-mozilla }-ra!
+postVerify-setup-2 = Konektatu beste gailu bat:
+postVerify-action-2 = Konektatu beste gailu bat
 postVerifySecondary-subject = Helbide elektroniko alternatiboa gehitua
 postVerifySecondary-title = Helbide elektroniko alternatiboa gehitua
 postVerifySecondary-action = Kudeatu kontua
 recovery-subject = Berrezarri pasahitza
+recovery-title-2 = Pasahitza ahaztu duzu?
 recovery-action = Sortu pasahitz berria
+subscriptionAccountReminderFirst-action = Sortu pasahitza
+subscriptionAccountReminderSecond-subject = Azken oroigarria: konfiguratu zure kontua
+subscriptionAccountReminderSecond-title-2 = Ongi etorri { -brand-mozilla }-ra!
 subscriptionAccountReminderSecond-action = Sortu pasahitza
 
 ## Variables
@@ -279,6 +293,7 @@ subscriptionAccountReminderSecond-action = Sortu pasahitza
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 unblockCode-subject = Kontuaren baimen-kodea
 unblockCode-title = Zuk hasi duzu saioa?
 unblockCode-prompt = Hala bada, hau da behar duzun baimen-kodea:
