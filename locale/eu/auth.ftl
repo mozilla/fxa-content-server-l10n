@@ -7,9 +7,13 @@ session-verify-send-push-body-2 = Klikatu hemen zeu zarela egiaztatzeko
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
+body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla }ren pribatutasun politika
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(majuskulaz: "uppercase") } pribatutasun-oharra
 moz-accounts-terms-url = { -product-mozilla-accounts(majuskulaz: "uppercase") } Zerbitzu-baldintzak
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
 subplat-privacy-notice = Pribatutasun-oharra
 subplat-privacy-plaintext = Pribatutasun-oharra:

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 23:01+0000\n"
-"PO-Revision-Date: 2024-09-26 11:29+0000\n"
+"PO-Revision-Date: 2024-09-26 11:39+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -2027,7 +2027,7 @@ msgstr "Ez daukat Firefox mugikorretarako"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Deskargatu Firefox zure gailu mugikorrean, eta hasi sinkronizazioa."
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2035,23 +2035,23 @@ msgstr "Une honetan ez"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Firefox zure telefonoan edo tabletan sinkronizatzeko, lehenik eta behin mugikorrerako Firefox deskargatu behar duzu. Hona hemen nola:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Lehen urratsa</b>: Deskargatu Firefox QR kode hau zure gailu mugikorreko kamerarekin eskaneatuz:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QR kodea (pantailaren erdian dago)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>2. urratsa</b>: Hautatu \"Jarraitu sinkronizatzen\" zure Firefox esperientzia gailu mugikorrean sinkronizatzeko."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "Jarraitu sinkronizatzen"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
@@ -2067,7 +2067,7 @@ msgstr "Parekatzea ondo egin da."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Berretsi <span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span></span> parekatzea."
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
@@ -2075,15 +2075,15 @@ msgstr "Berretsi parekatzea"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "Oops! Badirudi ez darabilzula Firefox."
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
-msgstr ""
+msgstr "Adi:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Aldatu Firefoxera eta ireki orri hau beste gailu bat konektatzeko."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
@@ -2107,7 +2107,7 @@ msgstr "Deskargatu Firefox orain"
 
 #: .es5/templates/pair/unsupported.mustache:16
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Zure gailu mugikorra zure Mozilla kontuarekin konektatzen"
 
 #: .es5/templates/pair/unsupported.mustache:19
 msgid "Oops! Something went wrong."
