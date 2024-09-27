@@ -405,11 +405,11 @@ flow-recovery-key-hint-unsafe-char-error = Il suggerimento non può contenere ca
 password-reset-warning-icon = Attenzione
 password-reset-chevron-expanded = Comprimi avviso
 password-reset-chevron-collapsed = Espandi avviso
-password-reset-data-may-not-be-recovered = I dati del browser potrebbero non essere recuperati
+password-reset-data-may-not-be-recovered = Potrebbe non essere possibile recuperare i dati del browser
 password-reset-previously-signed-in-device = Hai un dispositivo su cui hai effettuato l’accesso in precedenza?
 password-reset-data-may-be-saved-locally = I dati del browser potrebbero essere salvati localmente su quel dispositivo. Accedi con la nuova password per ripristinare e sincronizzare.
-password-reset-no-old-device = Hai un nuovo dispositivo ma non hai il vecchio?
-password-reset-encrypted-data-cannot-be-recovered = Siamo spiacenti, i dati crittati del browser sui server { -brand-firefox } non possono essere recuperati. Tuttavia, puoi comunque accedere ai tuoi dati locali da qualsiasi dispositivo su cui hai effettuato l’accesso in precedenza.
+password-reset-no-old-device = Hai un nuovo dispositivo ma non hai più quello vecchio?
+password-reset-encrypted-data-cannot-be-recovered = Ci dispiace, i dati del browser sono crittati sui server { -brand-firefox } e non possono essere recuperati. Tuttavia, puoi comunque accedere ai tuoi dati locali da qualsiasi dispositivo su cui hai effettuato l’accesso in precedenza.
 password-reset-learn-about-restoring-account-data = Ulteriori informazioni sul ripristino dei dati dell’account
 
 ## Alert Bar
@@ -1330,13 +1330,13 @@ third-party-auth-callback-message = Attendere, si sta per essere reindirizzati a
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Inserisci la chiave di recupero dell’account
-account-recovery-confirm-key-instruction = Questa chiave recupera i dati di navigazione crittati, come password e segnalibri, dai server di { -brand-firefox }.
+account-recovery-confirm-key-instruction = Questa chiave ti permette di recuperare i dati di navigazione crittati, come password e segnalibri, dai server di { -brand-firefox }.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = Inserisci la chiave di recupero dell’account di 32 caratteri
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
-account-recovery-confirm-key-hint = Il tuo suggerimento per lo spazio di archiviazione è:
+account-recovery-confirm-key-hint = Il tuo suggerimento per l’archiviazione è:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Continua
 # Link that leads to the password reset page (without recovery code)
@@ -1353,7 +1353,7 @@ complete-reset-password-success-alert = Password impostata
 # Displayed in an alert bar
 complete-reset-password-error-alert = Si è verificato un problema durante l’impostazione della password
 password-reset-could-not-determine-account-recovery-key = Hai la chiave di recupero dell’account?
-password-reset-use-account-recovery-key = Reimposta la password e conserva i tuoi dati
+password-reset-use-account-recovery-key = Reimposta la password e mantieni i tuoi dati
 
 ## Confirm Reset Password With Code
 
