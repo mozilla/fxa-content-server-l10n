@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Heslo nesmie byť bežne používané hesl
 form-password-sr-requirements-met = Zadané heslo rešpektuje všetky požiadavky na heslo.
 form-password-sr-passwords-match = Zadané heslá sa zhodujú.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Heslo
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Zopakujte heslo
+form-password-with-inline-criteria-signup-submit-button = Vytvoriť účet
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nové heslo
+form-password-with-inline-criteria-confirm-password =
+    .label = Potvrdiť heslo
+form-password-with-inline-criteria-reset-submit-button = Vytvoriť nové heslo
+form-password-with-inline-criteria-match-error = Heslá sa nezhodujú
+form-password-with-inline-criteria-sr-too-short-message = Heslo musí obsahovať aspoň 8 znakov.
+form-password-with-inline-criteria-sr-not-email-message = Heslo nesmie obsahovať vašu e-mailovú adresu.
+form-password-with-inline-criteria-sr-not-common-message = Heslo nesmie byť bežne používané heslo.
+form-password-with-inline-criteria-sr-requirements-met = Zadané heslo rešpektuje všetky požiadavky na heslo.
+form-password-with-inline-criteria-sr-passwords-match = Zadané heslá sa zhodujú.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Nie je to vaša e‑mailová adresa
 password-strength-balloon-not-common = Nie je to bežne používané heslo
 password-strength-balloon-stay-safe-tips = Zostaňte v bezpečí – nepoužívajte heslá znova. Pozrite si ďalšie tipy na <LinkExternal>vytvorenie silných hesiel</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Minimálne 8 znakov
+password-strength-inline-not-email = Nie je to vaša e‑mailová adresa
+password-strength-inline-not-common = Nie je to bežne používané heslo
+password-strength-inline-confirmed-must-match = Potvrdenie sa zhoduje s novým heslom
+
 ## Ready component
 
 reset-password-complete-header = Vaše heslo bolo obnovené
 ready-complete-set-up-instruction = Dokončite nastavenie zadaním nového hesla na ostatných zariadeniach s { -brand-firefox(case: "ins") }.
-ready-start-browsing-button = Poďme prehliadať
+manage-your-account-button = Spravovať účet
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,12 @@ flow-recovery-key-hint-char-limit-error = Pomôcka musí obsahovať menej ako 25
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Pomôcka nemôže obsahovať nebezpečné znaky Unicode. Povolené sú iba písmená, čísla, interpunkčné znamienka a symboly.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Upozornenie
+password-reset-chevron-expanded = Zbaliť upozornenie
 
 ## Alert Bar
 
@@ -1303,37 +1335,16 @@ third-party-auth-callback-message = Počkajte, prosím, budete presmerovaní na 
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocou kľúča na obnovenie účtu <span>a pokračujte do nastavení účtu</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Obnovte heslo pomocou kľúča na obnovenie účtu <span>a pokračujte do služby { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Zadajte jednorazový kľúč na obnovenie účtu, ktorý ste uložili na bezpečnom mieste, aby ste znova získali prístup k svojmu { -product-mozilla-account(case: "dat", capitalization: "lower") }.
-account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Ak obnovíte svoje heslo a nemáte uložený kľúč na obnovenie účtu, niektoré z vašich údajov budú vymazané (vrátane synchronizovaných údajov na serveri, ako je história a záložky).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Zadajte kľúč na obnovenie účtu
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Potvrďte kľúč na obnovenie účtu
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Nemáte kľúč na obnovenie účtu?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Vytvoriť nové heslo
-complete-reset-password-warning-message-2 = <span>Nezabudnite:</span> ak obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { -product-pocket }.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Heslo bolo nastavené
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
-complete-reset-password-recovery-key-error-v2 = Ľutujeme, pri kontrole, či máte kľúč na obnovenie účtu, sa vyskytol problém.
-complete-reset-password-recovery-key-link = Obnovte svoje heslo pomocou kľúča na obnovenie účtu.
-account-restored-success-message = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
 
 ## Confirm Reset Password With Code
 
