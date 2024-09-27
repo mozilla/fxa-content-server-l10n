@@ -167,6 +167,17 @@ form-password-sr-not-common-message = Ο κωδικός πρόσβασης δε�
 form-password-sr-requirements-met = Ο κωδικός πρόσβασης εισήχθη πληροί όλες τις απαιτήσεις κωδικού πρόσβασης.
 form-password-sr-passwords-match = Οι κωδικοί πρόσβασης που εισήχθησαν ταιριάζουν.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Κωδικός πρόσβασης
+form-password-with-inline-criteria-signup-submit-button = Δημιουργία λογαριασμού
+form-password-with-inline-criteria-reset-new-password =
+    .label = Νέος κωδικός πρόσβασης
+form-password-with-inline-criteria-confirm-password =
+    .label = Επιβεβαίωση κωδικού πρόσβασης
+form-password-with-inline-criteria-reset-submit-button = Δημιουργία νέου κωδικού πρόσβασης
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +331,13 @@ password-strength-balloon-not-email = Όχι τη διεύθυνση email σα�
 password-strength-balloon-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασης
 password-strength-balloon-stay-safe-tips = Για την προστασία σας, μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <LinkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
 ready-complete-set-up-instruction = Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασής σας στις άλλες σας συσκευές με { -brand-firefox }.
-ready-start-browsing-button = Έναρξη περιήγησης
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +385,11 @@ flow-recovery-key-hint-char-limit-error = Η υπόδειξη πρέπει να 
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορεί να περιέχει μη ασφαλείς χαρακτήρες unicode. Επιτρέπονται μόνο γράμματα, αριθμοί, σημεία στίξης και σύμβολα.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Προειδοποίηση
 
 ## Alert Bar
 
@@ -1311,37 +1329,18 @@ third-party-auth-callback-message = Παρακαλούμε περιμένετε,
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Κάντε επαναφορά του κωδικού πρόσβασης με το κλειδί ανάκτησης λογαριασμού <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Κάντε επαναφορά κωδικού πρόσβασης με το κλειδί ανάκτησης λογαριασμού <span>για να συνεχίσετε στο { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού μίας χρήσης που έχετε αποθηκεύσει σε κάποιο ασφαλές μέρος για να ανακτήσετε την πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
-account-recovery-confirm-key-warning-message = <span>Σημείωση:</span> Εάν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει το κλειδί ανάκτησης λογαριασμού, κάποια από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Επιβεβαίωση κλειδιού ανάκτησης λογαριασμού
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανάκτησης λογαριασμού;
+account-recovery-confirm-key-button-2 = Συνέχεια
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Δημιουργία νέου κωδικού πρόσβασης
-complete-reset-password-warning-message-2 = <span>Υπενθύμιση:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και κωδικούς πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν και τα δεδομένα σας στο { -product-pocket } δεν θα επηρεαστούν.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
-complete-reset-password-recovery-key-error-v2 = Δυστυχώς, προέκυψε πρόβλημα κατά τον έλεγχο για την ύπαρξη κλειδιού ανάκτησης λογαριασμού.
-complete-reset-password-recovery-key-link = Κάντε επαναφορά του κωδικού πρόσβασής σας με το κλειδί ανάκτησης του λογαριασμού σας.
-account-restored-success-message = Έχετε ανακτήσει επιτυχώς τον λογαριασμό σας με το κλειδί ανάκτησης του λογαριασμού σας. Δημιουργήστε έναν νέο κωδικό πρόσβασης για την προστασία των δεδομένων σας και αποθηκεύστε τον σε ένα ασφαλές μέρος.
 
 ## Confirm Reset Password With Code
 
