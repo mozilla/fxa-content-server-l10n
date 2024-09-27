@@ -167,6 +167,25 @@ form-password-sr-not-common-message = La contraseña no debe ser una contraseña
 form-password-sr-requirements-met = La contraseña ingresada respeta todos los requisitos de contraseña.
 form-password-sr-passwords-match = Las contraseñas ingresadas coinciden.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Contraseña
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Repetir contraseña
+form-password-with-inline-criteria-signup-submit-button = Crear cuenta
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nueva contraseña
+form-password-with-inline-criteria-confirm-password =
+    .label = Confirmar contraseña
+form-password-with-inline-criteria-reset-submit-button = Crear nueva contraseña
+form-password-with-inline-criteria-match-error = Las contraseñas no coinciden
+form-password-with-inline-criteria-sr-too-short-message = La contraseña debe contener al menos 8 caracteres.
+form-password-with-inline-criteria-sr-not-email-message = La contraseña no debe contener tu dirección de correo electrónico.
+form-password-with-inline-criteria-sr-not-common-message = La contraseña no debe ser una contraseña de uso común.
+form-password-with-inline-criteria-sr-requirements-met = La contraseña ingresada respeta todos los requisitos de contraseña.
+form-password-with-inline-criteria-sr-passwords-match = Las contraseñas ingresadas coinciden.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Que no sea tu dirección de correo
 password-strength-balloon-not-common = Que no sea una contraseña de uso común
 password-strength-balloon-stay-safe-tips = Mantén la seguridad — No reutilices las contraseñas. Revisa más consejos para <LinkExternal>crear contraseñas seguras</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Al menos 8 carácteres
+password-strength-inline-not-email = Que no sea tu dirección de correo
+password-strength-inline-not-common = Que no sea una contraseña de uso común
+password-strength-inline-confirmed-must-match = La confirmación coincide con la nueva contraseña
+
 ## Ready component
 
 reset-password-complete-header = Tu contraseña ha sido reiniciada
 ready-complete-set-up-instruction = Completa la configuración ingresando tu nueva contraseña en tus otros dispositivos { -brand-firefox }.
-ready-start-browsing-button = Empezar a navegar
+manage-your-account-button = Administra tu cuenta
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,11 @@ flow-recovery-key-hint-char-limit-error = La sugerencia debe contener menos de 2
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = La sugerencia no puede contener caracteres Unicode no seguros. Solo se permiten letras, números, signos de puntuación y símbolos.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Advertencia
 
 ## Alert Bar
 
@@ -1300,37 +1331,16 @@ third-party-auth-callback-message = Espera, estás siendo redirigido a la aplica
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Restablece la contraseña con la clave de recuperación de la cuenta <span>para continuar a los ajustes de la cuenta</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Restablece la contraseña con la clave de recuperación de la cuenta <span>para continuar con { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Por favor, ingresa la clave de recuperación de cuenta de un solo uso que guardaste en un lugar seguro para recuperar el acceso a tu { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Nota:</span> Si restableces tu contraseña y no tienes tu clave de recuperación de cuenta guardada, algunos de tus datos serán eliminados (incluyendo los datos sincronizados con el servidor como el historial y los marcadores).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Ingresar clave de recuperación de cuenta
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Confirmar clave de recuperación de cuenta
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = ¿No tienes una clave de recuperación de cuenta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Crear nueva contraseña
-complete-reset-password-warning-message-2 = <span>Recuerda:</span> Cuando restableces tu contraseña, también lo hace tu cuenta. Puedes perder información personal (incluidos marcadores, y contraseñas). Esto ocurre porque nosotros encriptamos tus datos con tus contraseñas para proteger tu privacidad. Mantendrás cualquier suscripción que tengas y los datos de { -product-pocket } no se verán afectados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Lo sentimos, hubo un problema al establecer tu contraseña
-complete-reset-password-recovery-key-error-v2 = Lo sentimos, hubo un problema al verificar si tienes una clave de recuperación de cuenta.
-complete-reset-password-recovery-key-link = Restablece tu contraseña con tu clave de recuperación de cuenta.
-account-restored-success-message = Has restaurado exitosamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos, y guárdala en un lugar seguro.
 
 ## Confirm Reset Password With Code
 
