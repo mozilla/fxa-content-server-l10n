@@ -333,6 +333,9 @@ password-strength-balloon-stay-safe-tips = Για την προστασία σα
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Τουλάχιστον 8 χαρακτήρες
+password-strength-inline-not-email = Όχι τη διεύθυνση email σας
+password-strength-inline-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασής σας
 
 ## Ready component
 
@@ -390,6 +393,7 @@ flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορε
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Προειδοποίηση
+password-reset-learn-about-restoring-account-data = Μάθετε περισσότερα σχετικά με την ανάκτηση των δεδομένων λογαριασμού
 
 ## Alert Bar
 
@@ -1335,12 +1339,14 @@ account-recovery-confirm-key-button-2 = Συνέχεια
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Δημιουργία νέου κωδικού πρόσβασης
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
+password-reset-could-not-determine-account-recovery-key = Έχετε το κλειδί ανάκτησης του λογαριασμού σας;
 
 ## Confirm Reset Password With Code
 
