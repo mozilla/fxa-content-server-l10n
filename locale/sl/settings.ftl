@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Ne smete uporabiti pogosto uporabljenega g
 form-password-sr-requirements-met = Vneseno geslo izpolnjuje vse zahteve.
 form-password-sr-passwords-match = Vneseni gesli se ujemata.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Geslo
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ponovite geslo
+form-password-with-inline-criteria-signup-submit-button = Ustvari račun
+form-password-with-inline-criteria-reset-new-password =
+    .label = Novo geslo
+form-password-with-inline-criteria-confirm-password =
+    .label = Potrdite geslo
+form-password-with-inline-criteria-reset-submit-button = Ustvarite novo geslo
+form-password-with-inline-criteria-match-error = Gesli se ne ujemata
+form-password-with-inline-criteria-sr-too-short-message = Geslo mora vsebovati vsaj 8 znakov.
+form-password-with-inline-criteria-sr-not-email-message = Geslo ne sme vsebovati vašega e-poštnega naslova.
+form-password-with-inline-criteria-sr-not-common-message = Ne smete uporabiti pogosto uporabljenega gesla.
+form-password-with-inline-criteria-sr-requirements-met = Vneseno geslo izpolnjuje vse zahteve.
+form-password-with-inline-criteria-sr-passwords-match = Vneseni gesli se ujemata.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = ni vaš e-poštni naslov
 password-strength-balloon-not-common = ni eno od pogostih gesel
 password-strength-balloon-stay-safe-tips = Ostanite varni – ne reciklirajte gesel. Oglejte si več nasvetov za <LinkExternal>ustvarjanje močnih gesel</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = vsaj 8 znakov
+password-strength-inline-not-email = ni vaš e-poštni naslov
+password-strength-inline-not-common = ni eno od pogostih gesel
+password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslom
+
 ## Ready component
 
 reset-password-complete-header = Vaše geslo je bilo ponastavljeno
 ready-complete-set-up-instruction = Dokončajte namestitev z vnosom novega gesla v drugih napravah { -brand-firefox }.
-ready-start-browsing-button = Začnite z brskanjem
+manage-your-account-button = Upravljajte račun
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = Namig lahko vsebuje največ 255 znakov
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Namig ne sme vsebovati nevarnih znakov unicode. Dovoljene so samo črke, številke, ločila in simboli.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Opozorilo
+password-reset-chevron-expanded = Strni opozorilo
+password-reset-chevron-collapsed = Opozorilo o razširitvi
+password-reset-data-may-not-be-recovered = Podatkov brskalnika morda ne bo mogoče obnoviti
+password-reset-previously-signed-in-device = Imate napravo, kamor ste se predhodno prijavili?
+password-reset-data-may-be-saved-locally = Podatki brskalnika so lahko shranjeni lokalno na tej napravi. Prijavite se z novim geslom za obnovitev in sinhronizacijo.
+password-reset-no-old-device = Imate novo napravo, vendar nimate stare?
+password-reset-encrypted-data-cannot-be-recovered = Žal nam je, toda šifriranih podatkov brskalnika v strežnikih { -brand-firefox } ni mogoče obnoviti. Še vedno pa lahko dostopate do svojih lokalnih podatkov na vseh napravah, v katere ste se predhodno prijavili.
+password-reset-learn-about-restoring-account-data = Preberite več o obnavljanju podatkov o računih
 
 ## Alert Bar
 
@@ -1307,37 +1346,31 @@ third-party-auth-callback-message = Počakajte, poteka preusmeritev na pooblaš�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje na nastavitve računa</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje na { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Vnesite ključ za enkratno uporabo, ki ste ga shranili na varnem mestu, da ponovno pridobite dostop do svojega { -product-mozilla-account(sklon: "rodilnik") }.
-account-recovery-confirm-key-warning-message = <span>Opomba:</span> Če ponastavite geslo in nimate shranjenega ključa za obnovitev računa, bodo nekateri vaši podatki izbrisani (vključno s sinhroniziranimi podatki strežnika, npr. zgodovino in zaznamki).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Vnesite ključ za obnovitev računa
+account-recovery-confirm-key-heading = Vnesite ključ za obnovitev računa
+account-recovery-confirm-key-instruction = Ta ključ obnovi šifrirane podatke brskanja, kot so gesla in zaznamki, v strežnikih { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Vnesite 32-mestni ključ za obnovitev računa
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Vaš namig za shranjevanje je:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Potrdite ključ za obnovitev računa
+account-recovery-confirm-key-button-2 = Nadaljuj
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Nimate ključa za obnovitev računa?
+account-recovery-lost-recovery-key-link-2 = Ne najdete ključa za obnovitev računa?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Ustvarite novo geslo
-complete-reset-password-warning-message-2 = <span>Ne pozabite:</span> s ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke { -product-pocket }.
+complete-reset-pw-header-v2 = Ustvarite novo geslo
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Geslo je nastavljeno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do težave
-complete-reset-password-recovery-key-error-v2 = Pri preverjanju, ali imate ključ za obnovitev računa, je prišlo do težave.
-complete-reset-password-recovery-key-link = Ponastavite geslo s ključem za obnovitev računa.
-account-restored-success-message = Uspešno ste obnovili svoj račun z uporabo ključa za obnovitev računa. Ustvarite novo geslo, da zavarujete svoje podatke in ga shranite na varnem mestu.
+password-reset-could-not-determine-account-recovery-key = Imate ključ za obnovitev računa?
+password-reset-use-account-recovery-key = Ponastavite geslo in obdržite svoje podatke
 
 ## Confirm Reset Password With Code
 
