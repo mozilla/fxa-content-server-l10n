@@ -71,6 +71,7 @@ ios-download-plaintext = Jaitsi { $productName } App Store-n
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instalatu { $productName } beste gailu batean
 automated-email-change-2 = Ekintza hau egin ez baduzu, <a data-l10n-name="passwordChangeLink">aldatu pasahitza</a> berehala.
+automated-email-support = Informazio gehiago lortzeko, joan<a data-l10n-name="supportLink">{ -brand-mozilla } Laguntza</a>ra.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Zuk ez baduzu egin, alda ezazu zure pasahitza orain
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -315,9 +316,21 @@ postAddTwoStepAuthentication-title-2 = Bi urratseko autentifikazioa aktibatu duz
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Hemendik gaitu duzu:
 postAddTwoStepAuthentication-action = Kudeatu kontua
+postAddTwoStepAuthentication-code-required-2 = Zure autentifikazio-aplikazioko segurtasun-kodeak behar dira orain saioa hasten duzun bakoitzean.
+postChangeAccountRecovery-subject = Kontuaren berreskuratze-gakoa aldatuta
+postChangeAccountRecovery-title = Kontua berreskuratzeko gakoa aldatu duzu
+postChangeAccountRecovery-body-part1 = Orain kontua berreskuratzeko gako berri bat duzu. Zure aurreko gakoa ezabatu egin da.
+postChangeAccountRecovery-body-part2 = Gorde gako hau leku seguru batean — pasahitza ahazten baduzu zure zifratutako nabigazio-datuak leheneratzeko beharko dituzu.
+postChangeAccountRecovery-action = Kudeatu kontua
 postChangePrimary-subject = Helbide elektroniko nagusia eguneratua
 postChangePrimary-title = Helbide elektroniko nagusi berria
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Behar bezala aldatu duzu zure helbide elektroniko nagusia { $email } izatera. Helbide hau zure { -product-mozilla-account }-n saioa hasteko zure erabiltzaile-izena da, baita segurtasun jakinarazpenak eta saioa hasteko berrespenak jasotzeko ere.
 postChangePrimary-action = Kudeatu kontua
+postConsumeRecoveryCode-title-2 = Babeskopiarako autentifikazio-kodea erabili duzu
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Data honetan erabili zen:
 postConsumeRecoveryCode-action = Kudeatu kontua
 postNewRecoveryCodes-action = Kudeatu kontua
 postRemoveAccountRecovery-action = Kudeatu kontua
