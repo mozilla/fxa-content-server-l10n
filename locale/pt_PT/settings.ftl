@@ -167,6 +167,25 @@ form-password-sr-not-common-message = A palavra-passe não pode ser uma palavra-
 form-password-sr-requirements-met = A palavra-passe introduzida respeita todos os requisitos de palavra-passe.
 form-password-sr-passwords-match = As palavras-passe introduzidas coincidem.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Palavra-passe
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Repetir palavra-passe
+form-password-with-inline-criteria-signup-submit-button = Criar conta
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nova palavra-passe
+form-password-with-inline-criteria-confirm-password =
+    .label = Confirmar palavra-passe
+form-password-with-inline-criteria-reset-submit-button = Criar nova palavra-passe
+form-password-with-inline-criteria-match-error = As palavras-passe não coincidem
+form-password-with-inline-criteria-sr-too-short-message = A palavra-passe deve conter, pelo menos, 8 caracteres.
+form-password-with-inline-criteria-sr-not-email-message = A palavra-passe não pode conter o seu endereço de e-mail.
+form-password-with-inline-criteria-sr-not-common-message = A palavra-passe não pode ser uma palavra-passe habitualmente utilizada.
+form-password-with-inline-criteria-sr-requirements-met = A palavra-passe introduzida respeita todos os requisitos de palavra-passe.
+form-password-with-inline-criteria-sr-passwords-match = As palavras-passe introduzidas coincidem.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Não é o seu endereço de e-mail
 password-strength-balloon-not-common = Não é uma palavra-passe comummente utilizada
 password-strength-balloon-stay-safe-tips = Mantenha-se em segurança: não reutilize palavras-passe. Consulte mais dicas para <LinkExternal>criar palavras-passe fortes</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Pelo menos 8 caracteres
+password-strength-inline-not-email = Não é o seu endereço de e-mail
+password-strength-inline-not-common = Não é uma palavra-passe comummente utilizada
+password-strength-inline-confirmed-must-match = A confirmação corresponde à nova palavra-passe
+
 ## Ready component
 
 reset-password-complete-header = A sua palavra-passe foi reposta
 ready-complete-set-up-instruction = Complete a configuração ao introduzir a sua nova palavra-passe nos seus outros dispositivos { -brand-firefox }.
-ready-start-browsing-button = Começar a navegar
+manage-your-account-button = Gerir a sua conta
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 carate
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = A dica não pode conter carateres Unicode inseguros. É permitido apenas letras, números, sinais de pontuação e símbolos.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Aviso
+password-reset-chevron-expanded = Colapsar aviso
+password-reset-chevron-collapsed = Expandir aviso
+password-reset-data-may-not-be-recovered = Os dados do seu navegador poderão não ser recuperados
+password-reset-previously-signed-in-device = Tem um dispositivo em que iniciou sessão anteriormente?
+password-reset-data-may-be-saved-locally = Os dados do seu navegador poderão ser guardados localmente nesse dispositivo. Inicie sessão com a sua nova palavra-passe para restaurar e sincronizar.
+password-reset-no-old-device = Tem um dispositivo novo mas não tem o seu antigo?
+password-reset-encrypted-data-cannot-be-recovered = Lamentamos, mas os seus dados encriptados do navegador nos servidores { -brand-firefox } não podem ser recuperados. No entanto, pode ainda aceder aos seus dados locais em qualquer dispositivo em que tenha sessão iniciada anteriormente.
+password-reset-learn-about-restoring-account-data = Saber mais acerca de restaurar dados da conta
 
 ## Alert Bar
 
@@ -1302,37 +1341,31 @@ third-party-auth-callback-message = Por favor, aguarde. Está a ser reencaminhad
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Redefina a palavra-passe com a chave de recuperação da conta <span>para continuar para as definições da conta</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Reponha a palavra-passe com a chave de recuperação da conta <span>para continuar para { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Por favor, introduza a chave única de recuperação da conta que guardou num lugar seguro, para recuperar o acesso à sua { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Nota:</span> Se repuser a sua palavra-passe e não tiver uma chave de recuperação da sua conta guardada, alguns dos seus dados irão ser eliminados (incluindo os dados de servidor sincronizados, tais como histórico e marcadores).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Inserir uma chave de recuperação da conta
+account-recovery-confirm-key-heading = Insira a sua chave de recuperação da conta
+account-recovery-confirm-key-instruction = Esta chave recuperar os seus dados de navegação encriptados, tais como palavras-passe e marcadores, dos servidores { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Introduza a sua chave de recuperação da conta de 32 caracteres
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = A sua dica de armazenamento é:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Confirmar chave de recuperação da conta
+account-recovery-confirm-key-button-2 = Continuar
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação da conta?
+account-recovery-lost-recovery-key-link-2 = Não consegue encontrar a sua chave de recuperação da conta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Criar nova palavra-passe
-complete-reset-password-warning-message-2 = <span>Memorizar:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Poderá perder alguma da sua informação pessoal (incluindo histórico, marcadores e palavras-passe). Isto porque encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá manter quaisquer subscrições que tenha e os dados do { -product-pocket } não serão afetados.
+complete-reset-pw-header-v2 = Criar uma nova palavra-passe
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Palavra-passe definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, ocorreu um problema ao definir a sua palavra-passe
-complete-reset-password-recovery-key-error-v2 = Pedimos desculpa, mas ocorreu um problema ao verificar se tem uma chave de recuperação de conta.
-complete-reset-password-recovery-key-link = Reponha a sua palavra-passe com a sua chave de recuperação de conta.
-account-restored-success-message = Restaurou com sucesso a sua conta utilizando a chave de recuperação da conta. Crie uma nova palavra-passe para proteger os seus dados e guarde-a numa localização segura.
+password-reset-could-not-determine-account-recovery-key = Tem a sua chave de recuperação da conta?
+password-reset-use-account-recovery-key = Reponha a sua palavra-passe e mantenha os seus dados
 
 ## Confirm Reset Password With Code
 
