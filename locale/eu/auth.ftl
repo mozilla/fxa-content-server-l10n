@@ -71,7 +71,6 @@ ios-download-plaintext = Jaitsi { $productName } App Store-n
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instalatu { $productName } beste gailu batean
 automated-email-change-2 = Ekintza hau egin ez baduzu, <a data-l10n-name="passwordChangeLink">aldatu pasahitza</a> berehala.
-automated-email-support = Informazio gehiago nahi baduzu, jo <a data-l10n-name="supportLink">{ -brand-mozilla } -ra
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Zuk ez baduzu egin, alda ezazu zure pasahitza orain
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -126,7 +125,7 @@ automated-email-reset =
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ez baduzu zuk aldatu, mesedez, alda ezazu orain zure pasahitza hemen { $resetLink }
 brand-banner-message = Ba al zenekien gure izena { -product-firefox-accounts } izatetik { -product-mozilla-accounts } izatera aldatu dugula? <a data-l10n-name="learnMore">Lortu informazio gehiago</a>
-cancellationSurvey = Mesedez, gure zerbitzuak hobetzen lagun iezaguzu honako <a data-l10n-name="cancellationSurveyUrl"> galdetegi motz honi erantzunez.
+cancellationSurvey = Mesedez, gure zerbitzuak hobetzen lagun iezaguzu honako <a data-l10n-name="cancellationSurveyUrl"> galdetegi motz honi erantzunez</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Mesedez, gure zerbitzuak hobetzen lagun iezaguzu honako galdetegi motz honi erantzunez
 change-password-plaintext = Inor zure kontuan sartzen saiatzen ari dela susmatzen baduzu, mesedez aldatu zure pasahitza.
@@ -191,7 +190,7 @@ subscriptionSupport-plaintext = Zure harpidetzari buruzko galderarik ba al duzu?
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSupportContact = Eskarrikasko { $productName }-n harpidetzeagatik. Zure harpidetzari buruz galderarik baduzu edo { $productName }ri buruz informazio gehiago nahi baduzu, jarri harremanetan <a data-l10n-name="subscriptionSupportUrl"> gurekin</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupportContact-plaintext = Eskarrikasko { $productName }-n harpidetzeagatik. Zure harpidetzari buruz galderarik baduzu edo { $productName }-ri buruz informazio gehiago nahi baduzu, jarri harremanetan gurekin</a>.
+subscriptionSupportContact-plaintext = Eskarrikasko { $productName }-n harpidetzeagatik. Zure harpidetzari buruz galderarik baduzu edo { $productName }-ri buruz informazio gehiago nahi baduzu, jarri harremanetan gurekin.
 subscriptionUpdateBillingEnsure = Zure ordainketa-metodoa eta kontuaren informazioa eguneratuta daudela <a data-l10n-name="updateBillingUrl"> hemen ziurtatu dezakezu</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Zure ordainketa-metodoa eta kontuaren informazioa eguneratuta daudela hemen ziurtatu dezakezu:
@@ -306,7 +305,15 @@ postAddAccountRecovery-body-part1 = Gorde gako hau leku seguru batean — pasahi
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Gako hau behin bakarrik erabil daiteke. Erabili ondoren, automatikoki sortuko dizugu berri bat. Edo edozein unetan berri bat sor dezakezu zure kontuaren ezarpenetatik.
 postAddAccountRecovery-action = Kudeatu kontua
+postAddLinkedAccount-subject-2 = Kontu berria zure { -product-mozilla-account }-ri lotuta
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Zure { $providerName } kontuarekin lotu da zure { -product-mozilla-account }
 postAddLinkedAccount-action = Kudeatu kontua
+postAddTwoStepAuthentication-subject-2 = Bi urratseko autentifikazioa aktibatu da
+postAddTwoStepAuthentication-title-2 = Bi urratseko autentifikazioa aktibatu duzu
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Hemendik gaitu duzu:
 postAddTwoStepAuthentication-action = Kudeatu kontua
 postChangePrimary-subject = Helbide elektroniko nagusia eguneratua
 postChangePrimary-title = Helbide elektroniko nagusi berria

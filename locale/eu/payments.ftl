@@ -147,7 +147,7 @@ payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beharko 
 
 ## Component - PaymentProcessing
 
-payment-processing-message = Mesedez, itxaron ordainketa prozesatzen dugun bitartean...
+payment-processing-message = Mesedez, itxaron ordainketa prozesatzen dugun bitartean…
 
 ## Component - PaymentProviderDetails
 
@@ -461,7 +461,7 @@ sub-item-cancel-confirm =
 # Holiday Offer 2023 coupon applied: $11.20 monthly
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
-sub-promo-coupon-applied = { $promotion_name } kupoia erabilita: <priceDetails>
+sub-promo-coupon-applied = { $promotion_name } kupoia erabilita: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
