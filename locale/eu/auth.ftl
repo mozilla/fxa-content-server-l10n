@@ -361,15 +361,44 @@ postRemoveTwoStepAuthentication-action = Kudeatu kontua
 postRemoveTwoStepAuthentication-not-required-2 = Jada ez duzu zure autentifikazio-aplikazioko segurtasun-koderik behar saioa hasten duzunean.
 postVerify-sub-title-3 = Pozik gaude zu ikusteaz!
 postVerify-title-2 = Fitxa bera ikusi nahi duzu bi gailutan?
+postVerify-description-2 = Erraza da! Instalatu { -brand-firefox } beste gailu batean eta hasi saioa sinkronizatzeko. Magia bezalakoa da!
+postVerify-sub-description = (Psst... Horrek esan nahi du zure laster-markak, pasahitzak eta { -brand-firefox } beste datu batzuk lor ditzakezula saioa hasita duzun toki guztietan).
 postVerify-subject-4 = Ongi etorri { -brand-mozilla }-ra!
 postVerify-setup-2 = Konektatu beste gailu bat:
 postVerify-action-2 = Konektatu beste gailu bat
 postVerifySecondary-subject = Helbide elektroniko alternatiboa gehitua
 postVerifySecondary-title = Helbide elektroniko alternatiboa gehitua
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Behar bezala berretsi duzu { $secondaryEmail } zure { -product-mozilla-account } bigarren mailako mezu elektroniko gisa. Segurtasun jakinarazpenak eta saioa hasteko baieztapenak bi helbide elektronikoetara bidaliko dira orain.
 postVerifySecondary-action = Kudeatu kontua
 recovery-subject = Berrezarri pasahitza
 recovery-title-2 = Pasahitza ahaztu duzu?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Zure { -product-mozilla-account } pasahitza aldatzeko eskaera jaso dugu hemendik:
+recovery-new-password-button = Sortu pasahitz berri bat beheko botoian klik eginez. Esteka hau hurrengo ordu batean iraungiko da.
+recovery-copy-paste = Sortu pasahitz berri bat kopiatu eta itsatsi beheko URLa zure arakatzailean. Esteka hau hurrengo ordu bete barru iraungiko da.
 recovery-action = Sortu pasahitz berria
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Zure { $productName } harpidetza bertan behera utzi da
+subscriptionAccountDeletion-title = Sentitzen dugu zu joatea
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Duela gutxi ezabatu duzu zure { -product-mozilla-account }. Ondorioz, { $productName } harpidetza bertan behera utzi dugu. { $invoiceTotal }ren azken ordainketa { $invoiceDateOnly } egunean ordaindu zen.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Ongi etorri { $productName }-ra: ezarri zure pasahitza.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Ongi etorri { $productName }(e)ra
+subscriptionAccountFinishSetup-content-processing = Ordainketa prozesatzen ari da eta lau lanegun behar izan ditzake osatzeko. Zure harpidetza automatikoki berrituko da fakturazio-aldi bakoitzean bertan behera uztea erabakitzen ez baduzu.
+subscriptionAccountFinishSetup-content-create-3 = Ondoren, { -product-mozilla-account } pasahitz bat sortu beharko duzu harpidetza berria erabiltzen hasteko.
+subscriptionAccountFinishSetup-action-2 = Hasi erabiltzen
+subscriptionAccountReminderFirst-subject = Oroigarria: amaitu zure kontuaren ezarpenak
+subscriptionAccountReminderFirst-title = Oraindik ezin duzu zure harpidetza sartu
 subscriptionAccountReminderFirst-action = Sortu pasahitza
 subscriptionAccountReminderSecond-subject = Azken oroigarria: konfiguratu zure kontua
 subscriptionAccountReminderSecond-title-2 = Ongi etorri { -brand-mozilla }-ra!
