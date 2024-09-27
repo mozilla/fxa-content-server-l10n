@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-27 17:42+0000\n"
 "PO-Revision-Date: 2024-07-31 06:36+0000\n"
 "Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1019,7 +1019,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "ਪਿੱਛੇ"
 
@@ -1069,7 +1069,7 @@ msgstr "ਤੁਸੀਂ Firefox ਵਿੱਚ ਸਾਈਨ ਕੀਤਾ ਹੈ"
 msgid "Email confirmed"
 msgstr "ਈਮੇਲ ਤਸਦੀਕ ਕੀਤੀ"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr ""
 
@@ -1081,11 +1081,11 @@ msgstr "ਤੁਸੀਂ Firefox ਲਈ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਇਸ Firefox ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰੋ"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "ਹਾਲੇ ਵੀ ਡਿਵਾਈਸਾਂ ਜੋੜੀਆਂ ਜਾ ਰਹੀਆਂ?"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ Firefox ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰੋ"
 
@@ -1094,20 +1094,8 @@ msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "ਆਪਣੀਆਂ ਟੈਬਾਂ, ਬੁੱਕਮਾਰਕਾਂ ਅਤੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਵੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "ਬਰਾਊਜ਼ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "ਹਾਲੇ ਵੀ ਡਿਵਾਈਸ ਜੋੜਨੇ ਹਨ? ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ Firefox ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰੋ"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ Android ਲਈ Firefox ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਰੋ"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ iOS ਲਈ Firefox ਨੂੰ ਸਾਇਨ ਇਨ ਕਰੋ"
+msgid "Manage your account"
+msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1763,7 +1751,7 @@ msgstr "ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ Firefox ਸਿੰਕ ਕਰ�
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "ਬੁੱਕਮਾਰਕ, ਅਤੀਤ ਅਤੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸਾਂ ਉੱਤੇ Firefox ਨਾਲ ਸਿੰਕ ਕਰੋ। ਇਸ ਨੂੰ ਕੁਝ ਕੁ ਮਿੰਟ ਹੀ ਲੱਗਣੇ ਹਨ।"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "ਸ਼ੁਰੂ ਕਰੀਏ"
 
@@ -1831,7 +1819,7 @@ msgstr "1 ਨਵੰਬਰ ਨੂੰ Firefox ਖਾਤਿਆਂ ਦਾ ਨਾਂ 
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਉਸੇ ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤੋਂਗੇ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਉਤਪਾਦਾਂ ਵਿੱਚ ਹੋਰ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਆਵੇਗੀ।"
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "ਹੋਰ ਜਾਣੋ"
 
@@ -1923,6 +1911,14 @@ msgstr "Google ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 msgid "Continue with Apple"
 msgstr "Apple ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr ""
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਹੀ Firefox ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?"
@@ -1981,17 +1977,17 @@ msgstr ""
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr "ਆਪਣੇ Firefox ਤਜਰਬੇ ਨੂੰ ਸਿੰਕ ਕਰੋ"
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "ਮੋਬਾਈਲ ਲਈ Firefox ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "ਆਪਣੇ ਫ਼਼ੋਨ ਜਾਂ ਟੇਬਲੇਟ ਉੱਤੇ Firefox ਸਿੰਕ ਕਰੋ"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2036,10 +2032,6 @@ msgstr ""
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "ਸਿੰਕ ਲਈ ਜਾਰੀ ਰੱਖੋ"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ Firefox ਵਰਤੋਂ, ਆਪਣੀਆਂ ਟੈਬਾਂ, ਬੁੱਕਮਾਰਕ ਤੇ ਪਾਸਵਰਡ ਆਪਣੇ ਨਾਲ ਰੱਖੋ।"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2089,14 +2081,10 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤ�
 msgid "Download Firefox now"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr ""
