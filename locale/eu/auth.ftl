@@ -105,6 +105,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Eskaera hau { $uaOS } 
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Eskaera hau { $uaOS }-tik etorri da.
+automatedEmailRecoveryKey-delete-key-change-pwd = Zu ez bazara, <a data-l10n-name="revokeAccountRecoveryLink">ezabatu gako berria</a> eta <a data-l10n-name="passwordChangeLink"> aldatu zure pasahitza</a>.
 automatedEmailRecoveryKey-change-pwd-only = Hau ez bazara, <a data-l10n-name="passwordChangeLink">aldatu pasahitza</a>.
 automatedEmailRecoveryKey-more-info = Informazio gehiago lortzeko, joan <a data-l10n-name="supportLink">{ -brand-mozilla } Laguntza</a>ra.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
