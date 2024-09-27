@@ -202,6 +202,9 @@ subscriptionUpdatePayment = Zure zerbitzua etenik ez izateko, mesedez <a data-l1
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zure zerbitzua etenik ez izateko, mesedez eguneratu zure ordainketa-informazioa ahalik eta azkarren.
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Informazio gehiago lortzeko, bisitatu { -brand-mozilla } Laguntza: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -215,6 +218,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Ikusi zure faktura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Ikusi faktura: { $invoiceLink }
+cadReminderFirst-subject-1 = Gogoratu! Sinkroniza dezagun { -brand-firefox }
 cadReminderFirst-action = Sinkronizatu beste gailu bat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -235,6 +239,8 @@ downloadSubscription-content-2 = Has gaitezen zure harpidetzako erabilera guztia
 downloadSubscription-link-action-2 = Hasi erabiltzen
 fraudulentAccountDeletion-subject-2 = Zure { -product-mozilla-account } ezabatu zen
 fraudulentAccountDeletion-title = Zure kontua ezabatu da
+fraudulentAccountDeletion-content-part1-v2 = Duela gutxi, { -product-mozilla-account } bat sortu da eta harpidetza kobratu da helbide elektroniko hau erabiliz. Kontu berri guztiekin egiten dugun bezala, zure kontua berresteko eskatu dizugu helbide elektroniko hau balioztatuz.
+fraudulentAccountDeletion-content-part2-v2 = Gaur egun, kontua ez dela inoiz baieztatu ikusten dugu. Urrats hau amaitu ez denez, ez dakigu ziur harpidetza baimendua den. Ondorioz, helbide elektroniko honetan erregistratutako { -product-mozilla-account } ezabatu egin da eta zure harpidetza bertan behera utzi da, gastu guztiak itzulita.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Galderarik baduzu, mesedez, gure laguntza taldearekin jar zaitez harremanetan: { $mozillaSupportUrl }
