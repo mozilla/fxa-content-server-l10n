@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Peidiwch â defnyddio cyfrinair cyffredin
 form-password-sr-requirements-met = Mae'r cyfrinair a gofnodwyd yn parchu'r holl ofynion cyfrinair.
 form-password-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cyfateb.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Cyfrinair
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ailadrodd y cyfrinair
+form-password-with-inline-criteria-signup-submit-button = Creu cyfrif
+form-password-with-inline-criteria-reset-new-password =
+    .label = Cyfrinair newydd
+form-password-with-inline-criteria-confirm-password =
+    .label = Cadarnhau'r cyfrinair
+form-password-with-inline-criteria-reset-submit-button = Creu cyfrinair newydd
+form-password-with-inline-criteria-match-error = Nid yw'r cyfrineiriau'n cydweddu
+form-password-with-inline-criteria-sr-too-short-message = Rhaid i'r cyfrinair gynnwys o leiaf 8 nod.
+form-password-with-inline-criteria-sr-not-email-message = Peidiwch â chynnwys eich cyfeiriad e-bost yn eich cyfrinair.
+form-password-with-inline-criteria-sr-not-common-message = Peidiwch â defnyddio cyfrinair cyffredin
+form-password-with-inline-criteria-sr-requirements-met = Mae'r cyfrinair a gofnodwyd yn parchu'r holl ofynion cyfrinair.
+form-password-with-inline-criteria-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cyfateb.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Nid eich cyfeiriad e-bost chi
 password-strength-balloon-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n arferol
 password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag ailddefnyddio cyfrineiriau. Dyma ragor o awgrymiadau i <linkExternal>greu cyfrineiriau cryf</linkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = O leiaf 8 nod
+password-strength-inline-not-email = Nid eich cyfeiriad e-bost
+password-strength-inline-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n arferol
+password-strength-inline-confirmed-must-match = Mae cadarnhad yn cyfateb i'r cyfrinair newydd
+
 ## Ready component
 
 reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
 ready-complete-set-up-instruction = Cwblhewch y gosod drwy roi eich cyfrinair ar eich dyfeisiau { -brand-firefox } eraill.
-ready-start-browsing-button = Cychwyn pori
+manage-your-account-button = Rheoli eich cyfrif
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = Rhaid i'r awgrym gynnwys llai na 255 n
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicode anniogel. Dim ond llythrennau, rhifau, atalnodau a symbolau a ganiateir.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Rhybudd
+password-reset-chevron-expanded = Rhybudd cwymp
+password-reset-chevron-collapsed = Ehangu rhybudd
+password-reset-data-may-not-be-recovered = Mae'n bosibl na fydd data eich porwr yn cael ei adennill
+password-reset-previously-signed-in-device = Oes gennych chi ddyfais lle gwnaethoch chi fewngofnodi o'r blaen?
+password-reset-data-may-be-saved-locally = Mae'n bosibl y bydd data eich porwr yn cael ei gadw'n lleol ar y ddyfais honno. Mewngofnodwch yno gyda'ch cyfrinair newydd i'w adfer a'i gysoni.
+password-reset-no-old-device = Oes gennych chi ddyfais newydd ond nad oes gennych chi'ch hen un?
+password-reset-encrypted-data-cannot-be-recovered = Mae'n ddrwg gennym, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }. Fodd bynnag, gallwch barhau i gael mynediad at eich data lleol ar unrhyw ddyfais lle rydych wedi mewngofnodi o'r blaen.
+password-reset-learn-about-restoring-account-data = Dysgwch fwy am adfer data cyfrif
 
 ## Alert Bar
 
@@ -1303,37 +1342,31 @@ third-party-auth-callback-message = Arhoswch, rydych chi'n cael eich ailgyfeirio
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Ailosodwch gyfrinair gydag allwedd adfer cyfrif <span>i barhau i osodiadau cyfrif</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Ailosodwch gyfrinair gydag allwedd adfer cyfrif <span>i barhau { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Rhowch yr allwedd adfer cyfrif defnydd unwaith y gwnaethoch ei storio mewn man diogel i adennill mynediad i'ch { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Sylwch:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei gydweddu fel hanes a nodau tudalen).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Rhowch allwedd adfer cyfrif
+account-recovery-confirm-key-heading = Rhowch allwedd adfer eich cyfrif
+account-recovery-confirm-key-instruction = Mae'r allwedd hon yn adennill eich data pori wedi'i amgryptio, megis cyfrineiriau a nodau tudalen, o weinyddion { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Rhowch allwedd adfer eich cyfrif 32 nod
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Eich awgrym storio yw:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Cadarnhewch allwedd adfer cyfrif
+account-recovery-confirm-key-button-2 = Parhau
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Dim allwedd adfer cyfrif?
+account-recovery-lost-recovery-key-link-2 = Methu â dod o hyd i allwedd adfer eich cyfrif?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Creu cyfrinair newydd
-complete-reset-password-warning-message-2 = <span>Cofiwch:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch manylion personol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { -product-pocket } yn cael ei effeithio.
+complete-reset-pw-header-v2 = Creu cyfrinair newydd
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wedi gosod y cyfrinair
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
-complete-reset-password-recovery-key-error-v2 = Mae'n ddrwg gennym, roedd anhawster wrth wirio a oes gennych allwedd adfer cyfrif.
-complete-reset-password-recovery-key-link = Ailosodwch eich cyfrinair gyda'ch allwedd adfer cyfrif.
-account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
+password-reset-could-not-determine-account-recovery-key = Oes gennych chi allwedd adfer eich cyfrif?
+password-reset-use-account-recovery-key = Ailosodwch eich cyfrinair a chadwch eich data
 
 ## Confirm Reset Password With Code
 
