@@ -403,6 +403,8 @@ flow-recovery-key-hint-unsafe-char-error = La sugerencia no puede contener carac
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Advertencia
+password-reset-chevron-expanded = Contraer advertencia
+password-reset-chevron-collapsed = Expandir advertencia
 
 ## Alert Bar
 
@@ -1331,16 +1333,21 @@ third-party-auth-callback-message = Espera, estás siendo redirigido a la aplica
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Continuar
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Crear una nueva contraseña
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Lo sentimos, hubo un problema al establecer tu contraseña
+password-reset-could-not-determine-account-recovery-key = ¿Tienes tu clave de recuperación de cuenta?
+password-reset-use-account-recovery-key = Restablece tu contraseña y conserva tus datos
 
 ## Confirm Reset Password With Code
 
