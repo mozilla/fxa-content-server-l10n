@@ -167,6 +167,25 @@ form-password-sr-not-common-message = A jelszó nem lehet gyakran használt jels
 form-password-sr-requirements-met = A megadott jelszó betartja az összes jelszókövetelményt.
 form-password-sr-passwords-match = A megadott jelszavak egyeznek.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Jelszó
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Jelszó megismétlése
+form-password-with-inline-criteria-signup-submit-button = Fiók létrehozása
+form-password-with-inline-criteria-reset-new-password =
+    .label = Új jelszó
+form-password-with-inline-criteria-confirm-password =
+    .label = Jelszó megerősítése
+form-password-with-inline-criteria-reset-submit-button = Új jelszó létrehozása
+form-password-with-inline-criteria-match-error = A jelszavak nem egyeznek
+form-password-with-inline-criteria-sr-too-short-message = A jelszónak legalább 8 karakterből kell állnia.
+form-password-with-inline-criteria-sr-not-email-message = A jelszó nem tartalmazhatja az e-mail-címét.
+form-password-with-inline-criteria-sr-not-common-message = A jelszó nem lehet gyakran használt jelszó.
+form-password-with-inline-criteria-sr-requirements-met = A megadott jelszó betartja az összes jelszókövetelményt.
+form-password-with-inline-criteria-sr-passwords-match = A megadott jelszavak egyeznek.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Nem az Ön e-mail-címe
 password-strength-balloon-not-common = Nem gyakran használt jelszó
 password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne használja újra a jelszavakat. Nézzen meg további tippeket az <linkExternal>erős jelszavak létrehozásához</linkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Legalább 8 karakter
+password-strength-inline-not-email = Nem az Ön e-mail-címe
+password-strength-inline-not-common = Nem gyakran használt jelszó
+password-strength-inline-confirmed-must-match = A megerősítés megfelel az új jelszónak
+
 ## Ready component
 
 reset-password-complete-header = A jelszó vissza lett állítva
 ready-complete-set-up-instruction = Fejezze be a beállítást az új jelszó megadásával a többi { -brand-firefox(case: "accusative") } használó eszközén.
-ready-start-browsing-button = Böngészés megkezdése
+manage-your-account-button = Saját fiók kezelése
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = A tippnek 255 karakternél rövidebbne
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = A tipp nem tartalmazhat nem biztonságos Unicode karaktereket. Csak betűk, számok, írásjelek és szimbólumok engedélyezettek.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Figyelmeztetés
+password-reset-chevron-expanded = Figyelmeztetés összecsukása
+password-reset-chevron-collapsed = Figyelmeztetés kinyitása
+password-reset-data-may-not-be-recovered = Előfordulhat, hogy a böngésző adatai nem állnak vissza
+password-reset-previously-signed-in-device = Van olyan eszköze, amelyre korábban bejelentkezett?
+password-reset-data-may-be-saved-locally = A böngésző adatai helyileg lehetnek mentve ezen az eszközön. Jelentkezzen be az új jelszavával a visszaállításhoz és szinkronizáláshoz.
+password-reset-no-old-device = Van egy új eszköze, de a régi nincs meg?
+password-reset-encrypted-data-cannot-be-recovered = Sajnáljuk, de a { -brand-firefox } kiszolgálókon lévő titkosított böngészőadatai nem állíthatók helyre. Helyi adatait azonban továbbra is elérheti minden olyan eszközön, amelyen korábban bejelentkezett.
+password-reset-learn-about-restoring-account-data = Tudjon meg többet a fiókadatok visszaállításáról
 
 ## Alert Bar
 
@@ -1311,37 +1350,31 @@ third-party-auth-callback-message = Kis türelmet, át lesz irányítva az enged
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Állítsa vissza a jelszót a fiók-helyreállítási kulccsal <span>a fiókbeállításokhoz való továbblépéshez</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Állítsa vissza a jelszót a fiók-helyreállítási kulccsal <span>a { $serviceName } szolgáltatáshoz való továbblépéshez</span>
-account-recovery-confirm-key-instructions-2 = Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tárolt, hogy újra hozzáférjen a { -product-mozilla-account }jához.
-account-recovery-confirm-key-warning-message = <span>Megjegyzés</span> Ha a jelszót visszaállítja, és nincs mentett fiókhelyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Adja meg a fiók-helyreállítási kulcsot
+account-recovery-confirm-key-heading = Adja meg a fiók-helyreállítási kulcsát
+account-recovery-confirm-key-instruction = Ez a kulcs helyreállítja a titkosított böngészési adatait, mint a jelszavak és a könyvjelzők, a { -brand-firefox } kiszolgálóiról.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Adja meg a 32 karakteres fiók-helyreállítási kulcsát
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = A tárolási tipp:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Erősítse meg a fiók-helyreállítási kulcsot
+account-recovery-confirm-key-button-2 = Folytatás
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Nincs fiók-helyreállítási kulcsa?
+account-recovery-lost-recovery-key-link-2 = Nem találja a fiók-helyreállítási kulcsát?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Új jelszó létrehozása
-complete-reset-password-warning-message-2 = <span>Ne feledje:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { -product-pocket }-adatait továbbra is meg fogja tartani.
+complete-reset-pw-header-v2 = Új jelszó létrehozása
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Jelszó megadva
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
-complete-reset-password-recovery-key-error-v2 = Sajnos probléma merült fel annak ellenőrzése során, hogy rendelkezik-e fiók-helyreállítási kulccsal.
-complete-reset-password-recovery-key-link = Állítsa vissza jelszavát a fiók-helyreállítási kulcsával.
-account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
+password-reset-could-not-determine-account-recovery-key = Megvan a fiók-helyreállítási kulcsa?
+password-reset-use-account-recovery-key = Állítsa vissza a jelszavát és tartsa meg az adatait
 
 ## Confirm Reset Password With Code
 
