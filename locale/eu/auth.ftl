@@ -241,19 +241,31 @@ fraudulentAccountDeletion-subject-2 = Zure { -product-mozilla-account } ezabatu 
 fraudulentAccountDeletion-title = Zure kontua ezabatu da
 fraudulentAccountDeletion-content-part1-v2 = Duela gutxi, { -product-mozilla-account } bat sortu da eta harpidetza kobratu da helbide elektroniko hau erabiliz. Kontu berri guztiekin egiten dugun bezala, zure kontua berresteko eskatu dizugu helbide elektroniko hau balioztatuz.
 fraudulentAccountDeletion-content-part2-v2 = Gaur egun, kontua ez dela inoiz baieztatu ikusten dugu. Urrats hau amaitu ez denez, ez dakigu ziur harpidetza baimendua den. Ondorioz, helbide elektroniko honetan erregistratutako { -product-mozilla-account } ezabatu egin da eta zure harpidetza bertan behera utzi da, gastu guztiak itzulita.
+fraudulentAccountDeletion-contact = Galderarik baduzu, jarri harremanetan gure <a data-l10n-name="mozillaSupportUrl">laguntza-taldearekin</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Galderarik baduzu, mesedez, gure laguntza taldearekin jar zaitez harremanetan: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Babes-kopiarako autentikazio-koderik gabe gelditu zara!
 codes-reminder-title-one = Zure azkeneko babes-kopiarako autentikazio-kodean zaude
+codes-reminder-title-two = Babeskopiako autentifikazio-kode gehiago sortzeko garaia
+codes-reminder-description-part-one = Babeskopiako autentifikazio-kodeek zure informazioa leheneratzen laguntzen dizute pasahitza ahazten duzunean.
 codes-reminder-description-part-two = Zure datuak aurrerago ez galtzeko, sor itzazu kode berriak orain.
 codes-reminder-description-two-left = Bakarrik bi kode gelditzen zaizkizu.
+codes-reminder-description-create-codes = Sortu babeskopiko autentifikazio-kode berriak, blokeatuta bazaude zure kontua itzultzen laguntzeko.
 lowRecoveryCodes-action-2 = Kodeak sortu
 codes-create-plaintext = { lowRecoveryCodes-action-2 }
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Ez da ordezko autentifikazio-koderik geratzen
+        [one] autentifikazio-kode bakarra geldintzen da
+       *[other] { $numberRemaining } autentifikazio-kode bakarrik gelditzen dira!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Saio hasiera berria { $clientName }-n
+newDeviceLogin-subjectForMozillaAccount = Hasi saioa zure { -product-mozilla-account } kontuan
+newDeviceLogin-title-3 = Zure { -product-mozilla-account } erabili zen saioa hasteko
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Ez zara zu? <a data-l10n-name="passwordChangeLink"> Alda ezazu pasahitza</a>.
@@ -263,17 +275,36 @@ newDeviceLogin-change-password-plain = Ez zara zu? Alda ezazu pasahitza:
 newDeviceLogin-action = Kudeatu kontua
 passwordChanged-subject = Pasahitza eguneratuta
 passwordChanged-title = Pasahitza ondo aldatu da
+passwordChanged-description-2 = Zure { -product-mozilla-account }-ko pasahitza ondo aldatu da ondorengo gailutik:
 passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
 passwordChangeRequired-title = Pasahitza aldatzea beharrezkoa da
+passwordChangeRequired-suspicious-activity-2 = Jokabide susmagarriak hauteman ditugu zure { -product-mozilla-account }-n. Zure { -product-mozilla-account } baimenik gabeko sarbidea saihesteko, zure kontuko gailu guztiak deskonektatu ditugu eta zure pasahitza aldatzeko eskatzen dizugu prebentzio gisa.
+passwordChangeRequired-sign-in-2 = Hasi saioa berriro zure { -product-mozilla-account } erabiltzen duzun edozein gailu edo zerbitzutan eta jarraitu aurkeztuko zaizkizun urratsei.
 passwordChangeRequired-different-password = <b>Garrantzitsua:</b> Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
 passwordChangeRequired-different-password-plaintext = Garrantzitsua: Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
 password-forgot-otp-subject = Pasahitza ahaztu duzu?
 password-forgot-otp-title = Pasahitza ahaztu duzu?
+password-forgot-otp-request = Zure { -product-mozilla-account } pasahitza aldatzeko eskaera jaso dugu hemendik:
+password-forgot-otp-code = Baiezkoa bada, hona hemen zure berrespen-kodea aurrera egiteko:
+password-forgot-otp-expiry-notice = Kode hau 10 minutu barru iraungiko da.
 passwordReset-subject = Pasahitza eguneratuta
 passwordReset-title = Zure kontuaren pasahitza aldatu egin da
 passwordReset-description = Zure pasahitz berria gainontzeko gailuetan sartu beharko duzu sinkronizazioarekin jarraitzeko.
 passwordResetAccountRecovery-subject-2 = Zure pasahitza berrezarri egin da
 passwordResetAccountRecovery-title-2 = Pasahitza ondo berrezarri da
+# Details of the device and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Zure kontua berreskuratzeko gakoa erabili duzu pasahitza eguneratzeko hemendik:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-3 = Sortu kontua  berreskuratzeko gakoa
+passwordResetAccountRecovery-regen-required-mjml-1 = Berriro saioa hasi beharko duzu sinkronizatutako gailu guztietan. Gogoratu kontua berreskuratzeko gako berri bat sortu behar duzula erabili duzuna ordezkatzeko.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Berriro saioa hasi beharko duzu sinkronizatutako gailu guztietan. Gogoratu kontua berreskuratzeko gako berri bat sortu behar duzula erabili duzuna ordezkatzeko:
+postAddAccountRecovery-subject-3 = Kontua berreskuratzeko gako berria sortua
+postAddAccountRecovery-title2 = Kontua berreskuratzeko gako berria sortu duzu
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Gorde gako hau leku seguru batean — pasahitza ahazten baduzu zure nabigazio-datuak enkriptatutakoak leheneratzeko beharko dituzu.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Gako hau behin bakarrik erabil daiteke. Erabili ondoren, automatikoki sortuko dizugu berri bat. Edo edozein unetan berri bat sor dezakezu zure kontuaren ezarpenetatik.
 postAddAccountRecovery-action = Kudeatu kontua
 postAddLinkedAccount-action = Kudeatu kontua
 postAddTwoStepAuthentication-action = Kudeatu kontua
