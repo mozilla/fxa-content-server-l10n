@@ -446,6 +446,42 @@ subscriptionDowngrade-content-auto-renew = Zure harpidetzak fakturazio-aldi bako
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Zure { $productName } harpidetza bertan behera utzi da
 subscriptionFailedPaymentsCancellation-title = Zure harpidetza bertan behera utzi da
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = { $productName } harpidetza bertan behera utzi dugu hainbat ordainketa-saiakerak huts egin direlako. Berriro sarbidea lortzeko, hasi harpidetza berri bat ordainketa-metodo eguneratu batekin.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } ordainketa berretsi da
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Eskerrik asko { $productName } zerbitzura harpidetzeagatik
+subscriptionFirstInvoice-content-processing = Ordainketa prozesatzen ari da eta lau lanegun behar izan ditzake osatzeko.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = { $productName } erabiltzen hasteko mezu elektroniko bat jasoko duzu.
+subscriptionFirstInvoice-content-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Hurrengo faktura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = { $productName }ren kreditu-txartela iraungi da edo laster iraungiko da
+subscriptionPaymentExpired-title-1 = Zure kreditu txartela iraungita dago edo iraungitzear dago
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = { $productName }-ren ordainketak egiteko erabiltzen ari zaren kreditu-txartela iraungita dago edo iraungitzear dago.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } ordainketak huts egin du
+subscriptionPaymentFailed-title = Barkatu, arazoak ditugu ordainketarekin
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Arazo bat izan dugu { $productName }-ren azken ordainketarekin.
+subscriptionPaymentFailed-content-outdated = Baliteke zure kreditu-txartela iraungita egotea edo egungo ordainketa-metodoa zaharkituta egotea.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Ordainketa-informazioa eguneratu behar da { $productName }-rako
+subscriptionPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-metodoarekin
 subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 unblockCode-subject = Kontuaren baimen-kodea
 unblockCode-title = Zuk hasi duzu saioa?
