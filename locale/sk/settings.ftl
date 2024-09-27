@@ -404,6 +404,13 @@ flow-recovery-key-hint-unsafe-char-error = Pomôcka nemôže obsahovať nebezpe�
 
 password-reset-warning-icon = Upozornenie
 password-reset-chevron-expanded = Zbaliť upozornenie
+password-reset-chevron-collapsed = Rozbaliť upozornenie
+password-reset-data-may-not-be-recovered = Údaje vášho prehliadača nemusia byť obnovené
+password-reset-previously-signed-in-device = Máte zariadenie, na ktorom ste sa predtým prihlásili?
+password-reset-data-may-be-saved-locally = Údaje vášho prehliadača môžu byť uložené lokálne v tomto zariadení. Na obnovenie a synchronizáciu sa prihláste pomocou svojho nového hesla.
+password-reset-no-old-device = Máte nové zariadenie, ale nemáte staré?
+password-reset-encrypted-data-cannot-be-recovered = Je nám ľúto, ale vaše šifrované údaje prehliadača na serveroch { -brand-firefox(case: "gen") } nie je možné obnoviť. Naďalej však máte prístup k svojim lokálnym údajom na akomkoľvek zariadení, na ktorom ste sa predtým prihlásili.
+password-reset-learn-about-restoring-account-data = Ďalšie informácie o obnovení údajov účtu
 
 ## Alert Bar
 
@@ -1335,16 +1342,31 @@ third-party-auth-callback-message = Počkajte, prosím, budete presmerovaní na 
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Zadajte kľúč na obnovenie účtu
+account-recovery-confirm-key-instruction = Tento kľúč obnoví vaše zašifrované údaje prehliadania, ako sú heslá a záložky, zo serverov { -brand-firefox(case: "gen") }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Zadajte 32‑miestny kľúč na obnovenie účtu
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Tip, kam ste ho uložili:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Pokračovať
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Nemôžete nájsť kľúč na obnovenie účtu?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Vytvorte si nové heslo
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Heslo bolo nastavené
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
+password-reset-could-not-determine-account-recovery-key = Máte kľúč na obnovenie účtu?
+password-reset-use-account-recovery-key = Obnovte svoje heslo a uchovajte svoje údaje
 
 ## Confirm Reset Password With Code
 
