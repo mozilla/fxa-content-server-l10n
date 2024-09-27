@@ -195,6 +195,12 @@ subscriptionSupportContact-plaintext = Eskarrikasko { $productName }-n harpidetz
 subscriptionUpdateBillingEnsure = Zure ordainketa-metodoa eta kontuaren informazioa eguneratuta daudela <a data-l10n-name="updateBillingUrl"> hemen ziurtatu dezakezu</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Zure ordainketa-metodoa eta kontuaren informazioa eguneratuta daudela hemen ziurtatu dezakezu:
+subscriptionUpdateBillingTry = Zure ordainketa egiten saiatuko gara berriro hurrengo egunetan, baina baliteke hori konpontzen lagundu behar izatea <a data-l10n-name="updateBillingUrl">ordainketen informazioa eguneratuz</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Zure ordainketa egiten saiatuko gara berriro hurrengo egunetan, baina baliteke hori konpontzen lagundu behar izatea ordainketen informazioa eguneratuz:
+subscriptionUpdatePayment = Zure zerbitzua etenik ez izateko, mesedez <a data-l10n-name="updateBillingUrl">eguneratu zure ordainketa-informazioa</a> ahalik eta azkarren.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Zure zerbitzua etenik ez izateko, mesedez eguneratu zure ordainketa-informazioa ahalik eta azkarren.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
