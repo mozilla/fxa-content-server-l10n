@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-27 17:42+0000\n"
 "PO-Revision-Date: 2024-09-10 07:12+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1019,7 +1019,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "חזרה"
 
@@ -1069,7 +1069,7 @@ msgstr ""
 msgid "Email confirmed"
 msgstr "כתובת הדוא״ל אומתה"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "מכשירים עם לבבות על המסכים שלהם"
 
@@ -1081,11 +1081,11 @@ msgstr ""
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "יש להיכנס ל־Firefox זה כדי להשלים את ההתקנה"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "עדיין מתבצעת הוספת מכשירים?"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "יש להיכנס ל־Firefox במכשיר נוסף כדי להשלים את ההתקנה"
 
@@ -1094,20 +1094,8 @@ msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "רוצה לקבל את הלשוניות, הסימניות והססמאות שלך במכשיר נוסף?"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "התחלת גלישה"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "עוד לא הוספת את כל המכשירים שלך? יש להיכנס ל־Firefox במכשיר נוסף כדי להשלים את ההתקנה"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "יש להיכנס ל־Firefox עבור Android כדי להשלים את ההתקנה"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "יש להיכנס ל־Firefox עבור iOS כדי להשלים את ההתקנה"
+msgid "Manage your account"
+msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1783,7 +1771,7 @@ msgstr "סנכרון Firefox בין מכשירים"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "סנכרון סימניות, היסטוריה וססמאות ל־Firefox שבמכשירים הניידים שלך. זה לוקח רק כמה דקות."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "תחילת עבודה"
 
@@ -1851,7 +1839,7 @@ msgstr "חשבונות Firefox ישונו לחשבונות Mozilla ב־1 בנו�
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "מידע נוסף"
 
@@ -1943,6 +1931,14 @@ msgstr "המשך עם Google"
 msgid "Continue with Apple"
 msgstr "המשך עם Apple"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr "חיבור המכשיר הנייד שלך עם חשבון ה־Mozilla שלך"
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "האם זה עתה התחברת ל־Firefox?"
@@ -2001,17 +1997,17 @@ msgstr "צימוד המכשיר נכשל"
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr "סנכרון חווית המשתמש שלך ב־Firefox"
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "הורדת Firefox לנייד"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "סנכרון Firefox עם הטלפון או מחשב הלוח שלך"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2056,10 +2052,6 @@ msgstr "<b>שלב 2</b>: יש לבחור באפשרות ״המשך לסנכרו�
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "המשך לסנכרון"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "קחו את הלשוניות, הסימניות והססמאות לכל מקום שבו תשתמשו ב־Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2109,14 +2101,10 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 msgid "Download Firefox now"
 msgstr "הורדת Firefox כעת"
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "חיבור המכשיר הנייד שלך עם חשבון ה־Mozilla שלך"
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr "אופס! משהו השתבש."
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr "נא לסגור לשונית זו ולנסות שוב."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-27 17:42+0000\n"
 "PO-Revision-Date: 2024-09-21 16:21+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -837,7 +837,9 @@ msgid "Invalid Token"
 msgstr "无效令牌"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: .es5/lib/strings.js:33
@@ -904,7 +906,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对账户的访问权限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -947,7 +950,9 @@ msgstr "创建新密码"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>牢记：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务的数据也不受影响。"
+msgstr ""
+"<span>牢记：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务"
+"的数据也不受影响。"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1015,7 +1020,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "不在收件箱和垃圾邮件箱？重新发送"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "返回"
 
@@ -1065,7 +1070,7 @@ msgstr "您已登录 Firefox"
 msgid "Email confirmed"
 msgstr "已验证电子邮件"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "屏幕上有爱心图案的设备"
 
@@ -1077,11 +1082,11 @@ msgstr "您已登录 Firefox"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "登录此 Firefox 以完成设置"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "仍要添加设备？"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "在另一台设备上登录 Firefox 以完成设置"
 
@@ -1090,20 +1095,8 @@ msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "想在其他设备上也能获得标签页、书签和密码等数据吗？"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "开始浏览"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "还想添加其他设备吗？请在新设备上登录 Firefox 以完成配置"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "登录 Firefox Android 版以完成设置"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "登录 Firefox iOS 版以完成设置"
+msgid "Manage your account"
+msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1117,13 +1110,15 @@ msgstr "密码"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "          继续操作即表示您同意<br />\n"
-"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明</a><br />\n"
+"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明"
+"</a><br />\n"
 "          Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "        "
 
@@ -1131,19 +1126,22 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              继续操作则表示您同意：<br />\n"
-"              Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
+"              Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
 "              Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "继续操作则表示，您同意我们的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
@@ -1182,13 +1180,15 @@ msgstr "Mozilla 账户还可用于访问 Mozilla 的更多隐私保护产品。"
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          继续操作即表示您同意<br />\n"
-"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明</a><br />\n"
+"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明"
+"</a><br />\n"
 "          Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "        "
 
@@ -1196,13 +1196,15 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "             继续操作则表示您同意：<br />\n"
-"            Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
+"            Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
 "            Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "          "
 
@@ -1369,7 +1371,9 @@ msgstr "为何需要这样操作？"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>注意：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务的数据也不受影响。"
+msgstr ""
+"<span>注意：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务"
+"的数据也不受影响。"
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1768,7 +1772,7 @@ msgstr "在设备之间同步 Firefox"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "与移动设备上的 Firefox 同步书签、历史记录、密码，只需几分钟就能搞定。"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "开始使用"
 
@@ -1836,7 +1840,7 @@ msgstr "11 月 1 日起，Firefox 账户将更名为 Mozilla 账户"
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "您仍将使用原有的用户名和密码，所使用的产品内容也不会有其他变化。"
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "详细了解"
 
@@ -1928,6 +1932,14 @@ msgstr "Google 账号登录"
 msgid "Continue with Apple"
 msgstr "Apple 账户登录"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr "将移动设备与 Mozilla 账户连接"
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "您刚刚登录了 Firefox 吗？"
@@ -1983,17 +1995,17 @@ msgstr "设备配对失败"
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr "无法完成设置，请通过邮箱地址登录。"
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr "同步您的 Firefox 体验"
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "下载 Firefox 移动版"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "与手机或平板电脑上的 Firefox 同步"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2038,10 +2050,6 @@ msgstr "<b>第 2 步</b>：选择“继续同步”在移动设备上同步您�
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "继续同步"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "将您的 Firefox 标签页、书签、密码随身携带。"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2091,14 +2099,10 @@ msgstr "您用的是系统相机？配对必须通过 Firefox 应用程序扫码
 msgid "Download Firefox now"
 msgstr "立即下载 Firefox"
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "将移动设备与 Mozilla 账户连接"
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr "哎呀！出了点问题。"
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr "请关闭此标签页并重试。"
