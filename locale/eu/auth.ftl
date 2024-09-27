@@ -399,16 +399,53 @@ subscriptionAccountFinishSetup-content-create-3 = Ondoren, { -product-mozilla-ac
 subscriptionAccountFinishSetup-action-2 = Hasi erabiltzen
 subscriptionAccountReminderFirst-subject = Oroigarria: amaitu zure kontuaren ezarpenak
 subscriptionAccountReminderFirst-title = Oraindik ezin duzu zure harpidetza sartu
+subscriptionAccountReminderFirst-content-info-3 = Duela egun batzuk { -product-mozilla-account } bat sortu zenuen baina ez zenuen inoiz baieztatu. Zure kontua konfiguratzen amaitzea espero dugu, harpidetza berria erabil dezazun.
+subscriptionAccountReminderFirst-content-select-2 = Hautatu "Sortu pasahitza" pasahitz berri bat konfiguratzeko eta zure kontua berresten amaitzeko.
 subscriptionAccountReminderFirst-action = Sortu pasahitza
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Azken oroigarria: konfiguratu zure kontua
 subscriptionAccountReminderSecond-title-2 = Ongi etorri { -brand-mozilla }-ra!
+subscriptionAccountReminderSecond-content-info-3 = Duela egun batzuk { -product-mozilla-account } bat sortu zenuen baina ez zenuen inoiz baieztatu. Zure kontua konfiguratzen amaitzea espero dugu, harpidetza berria erabil dezazun.
+subscriptionAccountReminderSecond-content-select-2 = Hautatu "Sortu pasahitza" pasahitz berri bat konfiguratzeko eta zure kontua berresten amaitzeko.
 subscriptionAccountReminderSecond-action = Sortu pasahitza
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Zure { $productName } harpidetza bertan behera utzi da
+subscriptionCancellation-title = Sentitzen dugu zu joatea
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = { $productName } harpidetza bertan behera utzi dugu. { $invoiceTotal }ren azken ordainketa { $invoiceDateOnly } egunean ordaindu zen.
+subscriptionCancellation-outstanding-content-2 = { $productName } harpidetza bertan behera utzi dugu. { $invoiceTotal }ren azken ordainketa { $invoiceDateOnly } egunean ordainduko da.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Zure zerbitzuak uneko fakturazio-aldia amaitu arte jarraituko du, hau da, { $serviceLastActiveDateOnly }.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = { $productName }-ra aldatu zara
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld }-tik { $productName }-ra behar bezala aldatu zara.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Zure hurrengo fakturatik hasita, zure kobratzea { $paymentAmountOld } { $productPaymentCycleOld } bakoitzeko izatetik,  { $paymentAmountNew } { $productPaymentCycleNew } bakoitzeko izatera aldatuko da. Une horretan, { $paymentProrated }-ko kreditu bakarre bat ere emango zaizu { $productPaymentCycleOld } honen gainontzeko kargu txikiagoa islatzeko.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = { $productName } erabili ahal izateko instalatu behar duzun software berria badago, mezu elektroniko bat jasoko duzu deskargatzeko argibideekin.
+subscriptionDowngrade-content-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Zure { $productName } harpidetza bertan behera utzi da
+subscriptionFailedPaymentsCancellation-title = Zure harpidetza bertan behera utzi da
 subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 unblockCode-subject = Kontuaren baimen-kodea
 unblockCode-title = Zuk hasi duzu saioa?
