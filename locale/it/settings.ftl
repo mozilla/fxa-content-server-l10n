@@ -167,6 +167,25 @@ form-password-sr-not-common-message = La password non deve essere una password d
 form-password-sr-requirements-met = La password inserita rispetta tutti i requisiti per le password.
 form-password-sr-passwords-match = Le password inserite corrispondono.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Password
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ripeti password
+form-password-with-inline-criteria-signup-submit-button = Crea un account
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nuova password
+form-password-with-inline-criteria-confirm-password =
+    .label = Conferma password
+form-password-with-inline-criteria-reset-submit-button = Crea nuova password
+form-password-with-inline-criteria-match-error = Le password non corrispondono
+form-password-with-inline-criteria-sr-too-short-message = La password deve contenere almeno 8 caratteri.
+form-password-with-inline-criteria-sr-not-email-message = La password non deve contenere il tuo indirizzo email.
+form-password-with-inline-criteria-sr-not-common-message = La password non deve essere una password di uso comune.
+form-password-with-inline-criteria-sr-requirements-met = La password inserita rispetta tutti i requisiti per le password.
+form-password-with-inline-criteria-sr-passwords-match = Le password inserite corrispondono.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Non uguale al tuo indirizzo email
 password-strength-balloon-not-common = Non una password di uso comune
 password-strength-balloon-stay-safe-tips = Rimani al sicuro: non riutilizzare le password. Scopri altri suggerimenti per <LinkExternal>generare password complesse</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Almeno 8 caratteri
+password-strength-inline-not-email = Non uguale al tuo indirizzo email
+password-strength-inline-not-common = Non una password di uso comune
+password-strength-inline-confirmed-must-match = La conferma corrisponde alla nuova password
+
 ## Ready component
 
 reset-password-complete-header = La password è stata reimpostata
 ready-complete-set-up-instruction = Per completare la configurazione inserisci la nuova password sugli altri dispositivi { -brand-firefox }.
-ready-start-browsing-button = Inizia a navigare
+manage-your-account-button = Gestisci il tuo account
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = Il suggerimento deve contenere meno di
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Il suggerimento non può contenere caratteri Unicode non sicuri. Sono consentiti solo lettere, numeri, segni di punteggiatura e simboli.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Attenzione
+password-reset-chevron-expanded = Comprimi avviso
+password-reset-chevron-collapsed = Espandi avviso
+password-reset-data-may-not-be-recovered = I dati del browser potrebbero non essere recuperati
+password-reset-previously-signed-in-device = Hai un dispositivo su cui hai effettuato l’accesso in precedenza?
+password-reset-data-may-be-saved-locally = I dati del browser potrebbero essere salvati localmente su quel dispositivo. Accedi con la nuova password per ripristinare e sincronizzare.
+password-reset-no-old-device = Hai un nuovo dispositivo ma non hai il vecchio?
+password-reset-encrypted-data-cannot-be-recovered = Siamo spiacenti, i dati crittati del browser sui server { -brand-firefox } non possono essere recuperati. Tuttavia, puoi comunque accedere ai tuoi dati locali da qualsiasi dispositivo su cui hai effettuato l’accesso in precedenza.
+password-reset-learn-about-restoring-account-data = Ulteriori informazioni sul ripristino dei dati dell’account
 
 ## Alert Bar
 
@@ -1290,37 +1329,31 @@ third-party-auth-callback-message = Attendere, si sta per essere reindirizzati a
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Reimposta la password con la chiave di recupero dell’account <span>per passare alle impostazioni dell’account</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Reimposta la password con la chiave di recupero dell’account <span>per continuare su { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Inserisci la chiave di recupero monouso dell’account per riottenere accesso al tuo { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Nota:</span> se reimposti la password e non hai salvato la chiave di recupero dell’account, alcuni dati verranno eliminati (compresi i dati sincronizzati sul server come cronologia e segnalibri).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Inserisci la chiave di recupero dell’account
+account-recovery-confirm-key-heading = Inserisci la chiave di recupero dell’account
+account-recovery-confirm-key-instruction = Questa chiave recupera i dati di navigazione crittati, come password e segnalibri, dai server di { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Inserisci la chiave di recupero dell’account di 32 caratteri
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Il tuo suggerimento per lo spazio di archiviazione è:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Conferma la chiave di recupero dell’account
+account-recovery-confirm-key-button-2 = Continua
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Non possiedi una chiave di recupero per l’account?
+account-recovery-lost-recovery-key-link-2 = Non riesci a trovare la chiave di recupero dell’account?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Crea nuova password
-complete-reset-password-warning-message-2 = <span>Ricorda:</span> quando reimposti la password, l’account viene reimpostato. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittiamo i dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { -product-pocket } non subiranno modifiche.
+complete-reset-pw-header-v2 = Crea una nuova password
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password impostata
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Si è verificato un problema durante l’impostazione della password
-complete-reset-password-recovery-key-error-v2 = Siamo spiacenti, si è verificato un problema durante la verifica della presenza di una chiave di recupero dell’account.
-complete-reset-password-recovery-key-link = Reimposta la password con la tua chiave di recupero dell’account.
-account-restored-success-message = L’account è stato correttamente recuperato utilizzando la chiave di recupero dell’account. Crea una nuova password per garantire la sicurezza dei tuoi dati e conservala in un luogo sicuro.
+password-reset-could-not-determine-account-recovery-key = Hai la chiave di recupero dell’account?
+password-reset-use-account-recovery-key = Reimposta la password e conserva i tuoi dati
 
 ## Confirm Reset Password With Code
 
