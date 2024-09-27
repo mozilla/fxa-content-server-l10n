@@ -182,6 +182,27 @@ form-password-sr-not-common-message = Password must not be a commonly used passw
 form-password-sr-requirements-met = The entered password respects all password requirements.
 form-password-sr-passwords-match = Entered passwords match.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+  .label = Password
+form-password-with-inline-criteria-signup-confirm-password-label =
+  .label = Repeat password
+form-password-with-inline-criteria-signup-submit-button = Create account
+
+form-password-with-inline-criteria-reset-new-password =
+  .label = New password
+form-password-with-inline-criteria-confirm-password =
+  .label = Confirm password
+form-password-with-inline-criteria-reset-submit-button = Create new password
+
+form-password-with-inline-criteria-match-error = Passwords do not match
+form-password-with-inline-criteria-sr-too-short-message = Password must contain at least 8 characters.
+form-password-with-inline-criteria-sr-not-email-message = Password must not contain your email address.
+form-password-with-inline-criteria-sr-not-common-message = Password must not be a commonly used password.
+form-password-with-inline-criteria-sr-requirements-met = The entered password respects all password requirements.
+form-password-with-inline-criteria-sr-passwords-match = Entered passwords match.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -341,11 +362,18 @@ password-strength-balloon-not-email = Not your email address
 password-strength-balloon-not-common = Not a commonly used password
 password-strength-balloon-stay-safe-tips = Stay safe — Don’t reuse passwords. See more tips to <LinkExternal>create strong passwords</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = At least 8 characters
+password-strength-inline-not-email = Not your email address
+password-strength-inline-not-common = Not a commonly used password
+password-strength-inline-confirmed-must-match = Confirmation matches the new password
+
 ## Ready component
 
 reset-password-complete-header = Your password has been reset
 ready-complete-set-up-instruction = Complete setup by entering your new password on your other { -brand-firefox } devices.
-ready-start-browsing-button = Start browsing
+manage-your-account-button = Manage your account
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -393,6 +421,20 @@ flow-recovery-key-hint-char-limit-error = The hint must contain fewer than 255 c
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = The hint cannot contain unsafe unicode characters. Only letters, numbers, punctuation marks and symbols are allowed.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Warning
+password-reset-chevron-expanded = Collapse warning
+password-reset-chevron-collapsed = Expand warning
+
+password-reset-data-may-not-be-recovered = Your browser data may not be recovered
+password-reset-previously-signed-in-device = Have a device where you previously signed in?
+password-reset-data-may-be-saved-locally = Your browser data may be locally saved on that device. Sign in there with your new password to restore and sync.
+password-reset-no-old-device = Have a new device but don’t have your old one?
+password-reset-encrypted-data-cannot-be-recovered = We’re sorry, but your encrypted browser data on { -brand-Firefox } servers can’t be recovered. However, you can still access your local data on any device where you have previously signed in.
+password-reset-learn-about-restoring-account-data = Learn more about restoring account data
 
 ## Alert Bar
 
@@ -1359,40 +1401,34 @@ third-party-auth-callback-message = Please wait, you are being redirected to the
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Reset password with account recovery key <span>to continue to account settings</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Reset password with account recovery key <span>to continue to { $serviceName }</span>
+account-recovery-confirm-key-heading = Enter your account recovery key
 
-account-recovery-confirm-key-instructions-2 = Please enter the one time use account recovery key you stored in a safe place to regain access to your { -product-mozilla-account }.
+account-recovery-confirm-key-instruction = This key recovers your encrypted browsing data, such as passwords and bookmarks, from { -brand-firefox } servers.
 
-account-recovery-confirm-key-warning-message = <span>Note:</span> If you reset your password and don’t have your account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-  .label = Enter account recovery key
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+  .label = Enter your 32-character account recovery key
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Your storage hint is:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Confirm account recovery key
+account-recovery-confirm-key-button-2 = Continue
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
+account-recovery-lost-recovery-key-link-2 = Can’t find your account recovery key?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Create new password
-complete-reset-password-warning-message-2 = <span>Remember:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
+complete-reset-pw-header-v2 = Create a new password
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password set
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, there was a problem setting your password
-complete-reset-password-recovery-key-error-v2 = Sorry, there was a problem checking if you have an account recovery key.
-complete-reset-password-recovery-key-link = Reset your password with your account recovery key.
 
-account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
+password-reset-could-not-determine-account-recovery-key = Got your account recovery key?
+password-reset-use-account-recovery-key = Reset your password and keep your data
 
 ## Confirm Reset Password With Code
 

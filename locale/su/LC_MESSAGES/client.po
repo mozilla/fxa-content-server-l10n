@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 23:01+0000\n"
+"POT-Creation-Date: 2024-09-27 16:05+0000\n"
 "PO-Revision-Date: 2024-06-19 13:15+0000\n"
 "Last-Translator: ilhamkang <ilhamnurwansah@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1023,7 +1023,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Euweuh na kotak asup atawa folder spam? Kirim deui"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
 msgstr "Mundur"
 
@@ -1073,7 +1073,7 @@ msgstr "Anjeun geus asup kana Firefox"
 msgid "Email confirmed"
 msgstr "Surélék dikonfirmasi"
 
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/index.mustache:25 .es5/templates/pair/unsupported.mustache:15
+#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
 msgstr "Alat jeung haté dina layarna"
 
@@ -1085,11 +1085,11 @@ msgstr "Anjeun geus asup kana Firefox"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Asup ka ieu Firefox pikeun mungkaskeun panataharan"
 
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/connect_another_device.mustache:33 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Nambahkeun parangkat kénéh?"
 
-#: .es5/templates/connect_another_device.mustache:20 .es5/templates/connect_another_device.mustache:35
+#: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Asup ka ieu Firefox na parangkat séjén pikeun mungkaskeun panataharan"
 
@@ -1098,20 +1098,8 @@ msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "Anjeun hayang tab, markah sarta kecap sandina diteundeun dina alat séjén?"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Start browsing"
-msgstr "Mitembeyan nyungsi"
-
-#: .es5/templates/connect_another_device.mustache:27
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Nambahkeun parangkat kénéh? Asup ka Firefox na parangkat séjén pikeun mungkaskeun panataharan"
-
-#: .es5/templates/connect_another_device.mustache:29
-msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Asup ka ieu Firefox Android pikeun mungkaskeun panataharan"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Asup ka ieu Firefox iOS pikeun mungkaskeun panataharan"
+msgid "Manage your account"
+msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1790,7 +1778,7 @@ msgstr "Singkronkeun Firefox antarparanti"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Singkronkeun markah, jujutan, jeung kecap sandi ka Firefox dina piranti ider anjeun. Ngan sakeudeung da."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:27
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "Mitembeyan"
 
@@ -1858,7 +1846,7 @@ msgstr "Akun Firefox bakal diganti ngaranna jadi akun Mozilla dina tanggal 1 Nov
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Anjeun masih bakal asup maké ngaran pamaké jeung sandi anu sarua, sarta euweuh parobahan séjén kana produk anu dipaké ku anjeun."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/pair/unsupported.mustache:17
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
 msgstr "Lenyepan"
 
@@ -1950,6 +1938,14 @@ msgstr "Tuluykeun ku Google"
 msgid "Continue with Apple"
 msgstr "Tuluykeun ku Apple"
 
+#: .es5/templates/partial/unsupported-pair.mustache:1
+msgid "Connecting your mobile device with your Mozilla account"
+msgstr ""
+
+#: .es5/templates/partial/unsupported-pair.mustache:2
+msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
+msgstr ""
+
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
 msgstr "Naha anjeun kakara asup ka Firefox?"
@@ -2008,17 +2004,17 @@ msgstr ""
 msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:5
+#: .es5/templates/pair/index.mustache:1
+msgid "Signed in successfully!"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
 msgstr "Singkronkeun pangalaman Firefox anjeun"
 
-#: .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
 msgstr "Undeur Firefox pikeun sélulér"
-
-#: .es5/templates/pair/index.mustache:9
-msgid "Sync Firefox on your phone or tablet"
-msgstr "Singkronkeun Firefox dina telepon atawa tablét anjeun"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2063,10 +2059,6 @@ msgstr "<b>Lengkah 2</b>: Pilih \"Teruskeun singkronisasi\" pikeun nyingkronkeun
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
 msgstr "Terus nyingkronkeun"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr "Bawa tab anjeun, tetengger jeung sandi di mana waé anjeun ngagunakeun Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2116,14 +2108,10 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 msgid "Download Firefox now"
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:16
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:19
+#: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
 msgstr ""
 
-#: .es5/templates/pair/unsupported.mustache:20
+#: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
 msgstr ""
