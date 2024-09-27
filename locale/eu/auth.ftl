@@ -332,12 +332,35 @@ postConsumeRecoveryCode-title-2 = Babeskopiarako autentifikazio-kodea erabili du
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Data honetan erabili zen:
 postConsumeRecoveryCode-action = Kudeatu kontua
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Autentifikazio-kode 1 bakarrik gelditzen da
+       *[other] { $numberRemaining } autentifikazio-kode bakarrik gelditzen dira
+    }
+postNewRecoveryCodes-subject-2 = Sortu dira babeskopiko autentifikazio-kode berriak
+postNewRecoveryCodes-title-2 = Babeskopiarako autentifikazio-kodea berriak sortu dituzu
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Data honetan sortu ziren:
 postNewRecoveryCodes-action = Kudeatu kontua
+postRemoveAccountRecovery-subject-2 = Kontua berreskuratzeko gakoa ezabatua
+postRemoveAccountRecovery-title-3 = Kontua berreskuratzeko gakoa ezabatu duzu
+postRemoveAccountRecovery-body-part1 = Zure kontua berreskuratzeko gakoa beharrezkoa da zifratutako arakatze-datuak leheneratzeko pasahitza ahazten baduzu.
+postRemoveAccountRecovery-body-part2 = Oraindik ez baduzu, sortu kontua berreskuratzeko gako berri bat kontuaren ezarpenetan, gordetako pasahitzak, laster-markak, arakatze-historia eta abar ez galtzeko.
 postRemoveAccountRecovery-action = Kudeatu kontua
 postRemoveSecondary-subject = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-title = Helbide elektronikoa alternatiboa kenduta
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Behar bezala kendu duzu { $secondaryEmail } bigarren mailako mezu elektroniko gisa zure { -product-mozilla-account }tik. Segurtasun-jakinarazpenak eta saioa hasteko berrespenak ez dira helbide honetara bidaliko.
 postRemoveSecondary-action = Kudeatu kontua
+postRemoveTwoStepAuthentication-subject-line-2 = Bi urratseko autentifikazioa desaktibatu da
+postRemoveTwoStepAuthentication-title-2 = Bi urratseko autentifikazioa desaktibatu duzu
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Hemendik desgaitu duzu:
 postRemoveTwoStepAuthentication-action = Kudeatu kontua
+postRemoveTwoStepAuthentication-not-required-2 = Jada ez duzu zure autentifikazio-aplikazioko segurtasun-koderik behar saioa hasten duzunean.
+postVerify-sub-title-3 = Pozik gaude zu ikusteaz!
+postVerify-title-2 = Fitxa bera ikusi nahi duzu bi gailutan?
 postVerify-subject-4 = Ongi etorri { -brand-mozilla }-ra!
 postVerify-setup-2 = Konektatu beste gailu bat:
 postVerify-action-2 = Konektatu beste gailu bat
