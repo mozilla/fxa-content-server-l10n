@@ -410,6 +410,7 @@ password-reset-previously-signed-in-device = Maśo rěd, źož sćo se do togo p
 password-reset-data-may-be-saved-locally = Daty wašogo wobglědowaka daju se na tom rěźe lokalnje składowaś. Pśizjawśo se tam ze swójim nowym gronidłom, aby wótnowił a synchronizěrował.
 password-reset-no-old-device = Maśo nowy rěd, ale njamaśo stary?
 password-reset-encrypted-data-cannot-be-recovered = Jo nam luto, ale skoděrowane daty wašogo wobglědowaka na serwerach { -brand-firefox } njedaju se wótnowiś. Maśo pak hyšći pśistup k swójim lokalnym datam na kuždem rěźe, źož sćo do togo pśizjawił.
+password-reset-learn-about-restoring-account-data = Zgóńśo wěcej wó wótnowjenju kontowych datow
 
 ## Alert Bar
 
@@ -1341,16 +1342,31 @@ third-party-auth-callback-message = Pšosym cakajśo, buźośo se k awtorizěrow
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Zapódajśo swój kontowy wótnowjeński kluc
+account-recovery-confirm-key-instruction = Toś ten kluc waše skoděrowane pśeglědowańske daty, na pśikład gronidła a cytańske znamjenja, ze serwerow { -brand-firefox } wótnowja.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Zapódajśo swój 32-znamjenjowy kontowy wótnowjeński kluc
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Waš składowański pokaz jo:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Dalej
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Njamóžośo swój kontowy wótnowjeński kluc namakaś?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Nowe gronidło napóraś
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Gronidło jo se nastajiło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju wašogo gronidła
+password-reset-could-not-determine-account-recovery-key = Sće dostał swój kontowy wótnowjeński kluc?
+password-reset-use-account-recovery-key = Stajśo swójo gronidło slědk a wobchowajśo swóje daty
 
 ## Confirm Reset Password With Code
 
