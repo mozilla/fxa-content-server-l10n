@@ -68,6 +68,9 @@ recovery-key-pdf-download-error = אירעה שגיאה בהורדת מפתח ש
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = קבלו יותר מ־{ -brand-mozilla }:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = קבלת חדשות ועדכוני מוצרים שלנו
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = גישה מוקדמת לבדיקת מוצרים חדשים
 
@@ -155,6 +158,18 @@ form-password-sr-not-email-message = הססמה אינה יכולה להכיל �
 form-password-sr-not-common-message = אסור שהססמה תהיה ססמה נפוצה.
 form-password-sr-requirements-met = הססמה שהוזנה מכבדת את כל הדרישות לססמה תקינה.
 form-password-sr-passwords-match = הססמאות שהוזנו תואמות.
+
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-reset-new-password =
+    .label = ססמה חדשה
+form-password-with-inline-criteria-confirm-password =
+    .label = אימות ססמה
+form-password-with-inline-criteria-reset-submit-button = יצירת ססמה חדשה
+form-password-with-inline-criteria-match-error = הססמאות אינן תואמות
+form-password-with-inline-criteria-sr-too-short-message = הססמה חייבת להכיל לפחות 8 תווים.ת
+form-password-with-inline-criteria-sr-not-email-message = הססמה אינה יכולה להכיל את כתובת הדוא״ל שלך.
+form-password-with-inline-criteria-sr-not-common-message = אסור שהססמה תהיה ססמה נפוצה.
 
 ## FormVerifyCode
 
@@ -308,11 +323,13 @@ password-strength-balloon-not-email = לא כתובת הדוא״ל שלך
 password-strength-balloon-not-common = לא ססמה נפוצה
 password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <LinkExternal>ליצירת ססמאות חזקות</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = הססמה שלך אופסה
 ready-complete-set-up-instruction = ניתן להשלים את ההתקנה על ידי הקלדת הססמה החדשה שלך במכשירי ה־{ -brand-firefox } הנוספים שלך.
-ready-start-browsing-button = התחלת גלישה
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -360,6 +377,10 @@ flow-recovery-key-hint-char-limit-error = הרמז חייב להכיל פחות 
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = הרמז אינו יכול להכיל תווי יוניקוד שלא בטוחים. רק אותיות, מספרים, סימני פיסוק וסמלים מותרים.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -1227,37 +1248,16 @@ pair-unsupported-message = האם השתמשת במצלמת המערכת? יש �
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = איפוס ססמה באמצעות מפתח שחזור חשבון <span>כדי להמשיך להגדרות החשבון</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = איפוס ססמה באמצעות מפתח שחזור חשבון <span>כדי להמשיך אל { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = יש להזין את מפתח שחזור החשבון החד פעמי ששמרת במקום בטוח כדי לקבל גישה ל{ -product-mozilla-account(case: "the") } שלך.
-account-recovery-confirm-key-warning-message = <span>לתשומת לבך:</span> אם יבוצע איפוס הססמה ולא שמרת את מפתח שחזור החשבון שלך, חלק מהנתונים שלך יימחקו (כולל נתוני שרת מסונכרנים כמו היסטוריה וסימניות).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = נא להכניס מפתח לשחזור חשבון
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = נא לחזור שנית על מפתח שחזור החשבון
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = אין לך מפתח לשחזור חשבון?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = יצירת ססמה חדשה
-complete-reset-password-warning-message-2 = <span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ -product-pocket } שלך לא יושפעו.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = הססמה הוגדרה
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
-complete-reset-password-recovery-key-error-v2 = אירעה שגיאה בבדיקה האם יש לך מפתח לשחזור חשבון, עמך הסליחה.
-complete-reset-password-recovery-key-link = איפוס הססמה שלך עם מפתח שחזור החשבון שלך.
-account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
 
 ## Confirm Reset Password With Code
 
