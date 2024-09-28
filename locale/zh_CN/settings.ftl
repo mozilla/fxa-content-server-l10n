@@ -405,7 +405,6 @@ flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicod
 password-reset-warning-icon = 警告
 password-reset-chevron-expanded = 折叠警告
 password-reset-chevron-collapsed = 展开警告
-password-reset-data-may-not-be-recovered = 您的浏览数据有可能无法恢复
 
 ## Alert Bar
 
