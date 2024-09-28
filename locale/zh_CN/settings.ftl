@@ -363,11 +363,11 @@ flow-recovery-key-download-storage-ideas-pwd-manager = 密码管理器
 flow-recovery-key-hint-header-v2 = 添加提示以帮助记忆恢复密钥
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 # "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = 此提示应该帮助您记住保存账户恢复密钥的位置。我们会在密码重置时向您展示该提示以帮您恢复数据。
+flow-recovery-key-hint-message-v3 = 此提示应能帮助您记起账户恢复密钥的位置。我们可在您重置密码时向您显示此提示，以帮助恢复数据。
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
-    .label = 输入提示（可选）
+    .label = 输入提示（选填）
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = 完成
