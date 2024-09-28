@@ -171,12 +171,20 @@ form-password-sr-passwords-match = Οι κωδικοί πρόσβασης που
 
 form-password-with-inline-criteria-signup-new-password-label =
     .label = Κωδικός πρόσβασης
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Επανάληψη κωδικού πρόσβασης
 form-password-with-inline-criteria-signup-submit-button = Δημιουργία λογαριασμού
 form-password-with-inline-criteria-reset-new-password =
     .label = Νέος κωδικός πρόσβασης
 form-password-with-inline-criteria-confirm-password =
     .label = Επιβεβαίωση κωδικού πρόσβασης
 form-password-with-inline-criteria-reset-submit-button = Δημιουργία νέου κωδικού πρόσβασης
+form-password-with-inline-criteria-match-error = Οι κωδικοί πρόσβασης δεν ταιριάζουν
+form-password-with-inline-criteria-sr-too-short-message = Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες.
+form-password-with-inline-criteria-sr-not-email-message = Ο κωδικός πρόσβασης δεν πρέπει να περιέχει τη διεύθυνση email σας.
+form-password-with-inline-criteria-sr-not-common-message = Ο κωδικός πρόσβασης δεν πρέπει να είναι ένας συνήθης κωδικός πρόσβασης.
+form-password-with-inline-criteria-sr-requirements-met = Ο κωδικός πρόσβασης πληροί όλες τις απαιτήσεις κωδικού πρόσβασης.
+form-password-with-inline-criteria-sr-passwords-match = Οι κωδικοί πρόσβασης που εισήχθησαν ταιριάζουν.
 
 ## FormVerifyCode
 
