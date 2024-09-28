@@ -69,7 +69,7 @@ recovery-key-pdf-download-error = אירעה שגיאה בהורדת מפתח ש
 choose-newsletters-prompt-2 = קבלו יותר מ־{ -brand-mozilla }:
 # Newsletter checklist item
 choose-newsletters-option-latest-news =
-    .label = קבלת חדשות ועדכוני מוצרים שלנו
+    .label = קבלת חדשות ועדכונים למוצרים שלנו
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = גישה מוקדמת לבדיקת מוצרים חדשים
@@ -170,6 +170,8 @@ form-password-with-inline-criteria-match-error = הססמאות אינן תוא�
 form-password-with-inline-criteria-sr-too-short-message = הססמה חייבת להכיל לפחות 8 תווים.ת
 form-password-with-inline-criteria-sr-not-email-message = הססמה אינה יכולה להכיל את כתובת הדוא״ל שלך.
 form-password-with-inline-criteria-sr-not-common-message = אסור שהססמה תהיה ססמה נפוצה.
+form-password-with-inline-criteria-sr-requirements-met = הססמה שהוזנה מכבדת את כל הדרישות לססמה תקינה.
+form-password-with-inline-criteria-sr-passwords-match = הססמאות שהוזנו תואמות.
 
 ## FormVerifyCode
 
@@ -325,11 +327,16 @@ password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל ת�
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = לפחות 8 תווים
+password-strength-inline-not-email = לא כתובת הדוא״ל שלך
+password-strength-inline-not-common = לא ססמה נפוצה
+password-strength-inline-confirmed-must-match = האימות מתאים לססמה החדשה
 
 ## Ready component
 
 reset-password-complete-header = הססמה שלך אופסה
 ready-complete-set-up-instruction = ניתן להשלים את ההתקנה על ידי הקלדת הססמה החדשה שלך במכשירי ה־{ -brand-firefox } הנוספים שלך.
+manage-your-account-button = ניהול החשבון שלך
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -381,6 +388,15 @@ flow-recovery-key-hint-unsafe-char-error = הרמז אינו יכול להכיל
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = אזהרה
+password-reset-chevron-expanded = צמצום האזהרה
+password-reset-chevron-collapsed = הרחבת האזהרה
+password-reset-data-may-not-be-recovered = ייתכן שנתוני הדפדפן שלך לא ישוחזרו
+password-reset-previously-signed-in-device = יש לך מכשיר שבו התחברת בעבר?
+password-reset-data-may-be-saved-locally = ייתכן שנתוני הדפדפן שלך שמורים באופן מקומי במכשיר ההוא. יש להתחבר לשם עם הססמה החדשה שלך כדי לשחזר ולסנכרן.
+password-reset-no-old-device = יש לך מכשיר חדש אבל אין לך את הישן?
+password-reset-encrypted-data-cannot-be-recovered = אנו מצטערים, אך לא ניתן לשחזר את נתוני הדפדפן המוצפנים שלך בשרתי { -brand-firefox }. יחד עם זאת, באפשרותך עדיין לגשת לנתונים המקומיים שלך בכל מכשיר שבו התחברת בעבר.
+password-reset-learn-about-restoring-account-data = מידע נוסף על שחזור נתוני חשבון
 
 ## Alert Bar
 
@@ -1248,16 +1264,31 @@ pair-unsupported-message = האם השתמשת במצלמת המערכת? יש �
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = נא להכניס את המפתח לשחזור החשבון שלך
+account-recovery-confirm-key-instruction = מפתח זה משחזר את נתוני הגלישה המוצפנים שלך, כגון ססמאות וסימניות, משרתי { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = נא להכניס את המפתח לשחזור החשבון שלך בן 32 תווים
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = רמז האחסון שלך הוא:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = המשך
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = לא הצלחת למצוא את מפתח שחזור החשבון שלך?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = יצירת ססמה חדשה
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = הססמה הוגדרה
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
+password-reset-could-not-determine-account-recovery-key = יש לך את מפתח שחזור החשבון שלך?
+password-reset-use-account-recovery-key = איפוס הססמה שלך ושמירה על הנתונים שלך
 
 ## Confirm Reset Password With Code
 
