@@ -403,6 +403,14 @@ flow-recovery-key-hint-unsafe-char-error = Подсказка не может с
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Предупреждение
+password-reset-chevron-expanded = Свернуть предупреждение
+password-reset-chevron-collapsed = Развернуть предупреждение
+password-reset-data-may-not-be-recovered = Данные вашего браузера могут быть не восстановлены
+password-reset-previously-signed-in-device = У вас есть устройство, на котором вы ранее входили в систему?
+password-reset-data-may-be-saved-locally = Данные вашего браузера могут быть локально сохранёнными на этом устройстве. Войдите там, используя новый пароль для восстановления и синхронизации.
+password-reset-no-old-device = У вас новое устройство, но нет вашего старого?
+password-reset-encrypted-data-cannot-be-recovered = Извините, но ваши зашифрованные данные браузера на серверах { -brand-firefox } не могут быть восстановлены. Однако вы по-прежнему можете получить доступ к своим локальным данным на любом устройстве, на котором ранее вошли в систему.
+password-reset-learn-about-restoring-account-data = Узнайте больше о восстановлении данных аккаунта
 
 ## Alert Bar
 
@@ -1336,16 +1344,31 @@ third-party-auth-callback-message = Подождите, вас перенапр�
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Введите ключ восстановления аккаунта
+account-recovery-confirm-key-instruction = Этот ключ восстанавливает ваши зашифрованные данные просмотра, такие как пароли и закладки, с серверов { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Введите 32-значный ключ восстановления аккаунта
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Ваша подсказка хранилища:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Продолжить
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Не можете найти ключ восстановления своего аккаунта?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Создать новый пароль
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль установлен
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
+password-reset-could-not-determine-account-recovery-key = У вас есть ключ для восстановления вашего аккаунта?
+password-reset-use-account-recovery-key = Сбросьте свой пароль и сохраните свои данные
 
 ## Confirm Reset Password With Code
 
