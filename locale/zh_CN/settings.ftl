@@ -360,7 +360,7 @@ flow-recovery-key-download-storage-ideas-pwd-manager = 密码管理器
 
 # The header of the last step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = 添加提示以帮助记忆恢复密钥
+flow-recovery-key-hint-header-v2 = 添加提示，帮助自己找到密钥
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 # "it" here refers to the storage hint, NOT the "account recovery key"
 flow-recovery-key-hint-message-v3 = 此提示应能帮助您记起账户恢复密钥的位置。我们可在您重置密码时向您显示此提示，以帮助恢复数据。
@@ -911,7 +911,7 @@ rk-action-remove = 移除
 rk-key-removed-2 = 已移除账户恢复密钥
 rk-cannot-remove-key = 无法删除您的账户恢复密钥。
 rk-refresh-key-1 = 刷新账户恢复密钥
-rk-content-explain = 当您忘记密码时恢复数据。
+rk-content-explain = 忘记密码时可用于恢复数据。
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 rk-remove-modal-heading-1 = 要移除账户恢复密钥吗？
 rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户恢复密钥访问您的数据。此操作不可撤销。
