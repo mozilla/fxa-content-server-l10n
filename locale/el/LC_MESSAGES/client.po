@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-27 21:41+0000\n"
+"PO-Revision-Date: 2024-09-28 02:26+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1945,6 +1945,8 @@ msgstr "Σύνδεση της κινητής συσκευής σας, με το�
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
 msgstr ""
+"Ανοίξτε το Firefox στον υπολογιστή σας, επισκεφτείτε το <b class=\"whitespace-nowrap\">firefox.com/pair</b> και ακολουθήστε τις οδηγίες που εμφανίζονται στην οθόνη, προκειμένου να συνδέσετε την "
+"κινητή σας συσκευή."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
