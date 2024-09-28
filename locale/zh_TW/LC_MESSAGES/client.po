@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-28 07:24+0000\n"
+"PO-Revision-Date: 2024-09-28 07:32+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1913,7 +1913,7 @@ msgstr "使用您的 Mozilla 帳號連線到您的行動裝置"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "於您的電腦使用 Firefox，造訪 <b class=\"whitespace-nowrap\">firefox.com/pair</b>，然後依照畫面上的指示連結您的行動裝置。"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
