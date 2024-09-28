@@ -344,6 +344,7 @@ password-strength-balloon-stay-safe-tips = Remane secur, non reusa tu contrasign
 password-strength-inline-min-length = Al minus 8 characteres
 password-strength-inline-not-email = Non tu adresse email
 password-strength-inline-not-common = Non un contrasigno commun
+password-strength-inline-confirmed-must-match = Le confirmation concorda con le nove contrasigno
 
 ## Ready component
 
