@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Passord må ikkje vere eit vanleg brukt pa
 form-password-sr-requirements-met = Det angitte passordet respekterer alle passordkrav.
 form-password-sr-passwords-match = Innskrive passord samsvarar.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Passord
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Gjenta passord
+form-password-with-inline-criteria-signup-submit-button = Lag konto
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nytt passord
+form-password-with-inline-criteria-confirm-password =
+    .label = Stadfest passord
+form-password-with-inline-criteria-reset-submit-button = Lag nytt passord
+form-password-with-inline-criteria-match-error = Passorda samsvarar ikkje
+form-password-with-inline-criteria-sr-too-short-message = Passord må innehalde minst 8 teikn.
+form-password-with-inline-criteria-sr-not-email-message = Passord kan ikkje innehalde e-postadressa di.
+form-password-with-inline-criteria-sr-not-common-message = Passord må ikkje vere eit vanleg brukt passord.
+form-password-with-inline-criteria-sr-requirements-met = Innskrive passord respekterer alle passordkrav.
+form-password-with-inline-criteria-sr-passwords-match = Innskrive passord samsvarar.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -312,11 +331,14 @@ password-strength-balloon-not-email = Ikkje di e-postadresse
 password-strength-balloon-not-common = Ikkje eit vanleg brukt passord
 password-strength-balloon-stay-safe-tips = Hald deg trygg – Ikkje bruk passord på nytt. Sjå fleire tips for å <LinkExternal>lage sterke passord</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Minst 8 teikn
+
 ## Ready component
 
 reset-password-complete-header = Passordet ditt er tilbakestilt
 ready-complete-set-up-instruction = Fullfør oppsettet ved å skrive inn det nye passordet på dei andre { -brand-firefox }-einingane dine.
-ready-start-browsing-button = Start nettlesinga
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -358,6 +380,10 @@ flow-recovery-key-hint-cta-text = Fullfør
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 teikn.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -1166,26 +1192,13 @@ pair-unsupported-header = Paring via ein app
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Tilbakestill passordet med kontogjenopprettingsnøkkelen <span>for å halde fram til kontoinnstillingar</span>
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Skriv inn kontogjenopprettingsnøkkel
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Stadfest kontogjenopprettingsnøkkel
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Har du ikkje ein kontogjenopprettingsnøkkel?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Lag nytt passord
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord innstilt
-complete-reset-password-recovery-key-link = Tilbakestill passordet ditt med kontogjenopprettingsnøkkelen din
-account-restored-success-message = Du har retta opp igjen kontoen din ved å bruke nøkkelen for kontogjenoppretting. Opprett eit nytt passord for å sikre dataa dine, og lagre dei på ein trygg stad.
 
 ## Confirm Reset Password With Code
 
