@@ -183,8 +183,8 @@ form-password-with-inline-criteria-match-error = Οι κωδικοί πρόσβ�
 form-password-with-inline-criteria-sr-too-short-message = Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες.
 form-password-with-inline-criteria-sr-not-email-message = Ο κωδικός πρόσβασης δεν πρέπει να περιέχει τη διεύθυνση email σας.
 form-password-with-inline-criteria-sr-not-common-message = Ο κωδικός πρόσβασης δεν πρέπει να είναι ένας συνήθης κωδικός πρόσβασης.
-form-password-with-inline-criteria-sr-requirements-met = Ο κωδικός πρόσβασης πληροί όλες τις απαιτήσεις κωδικού πρόσβασης.
-form-password-with-inline-criteria-sr-passwords-match = Οι κωδικοί πρόσβασης που εισήχθησαν ταιριάζουν.
+form-password-with-inline-criteria-sr-requirements-met = Ο κωδικός πρόσβασης πληροί όλες τις απαιτήσεις.
+form-password-with-inline-criteria-sr-passwords-match = Οι κωδικοί πρόσβασης ταιριάζουν.
 
 ## FormVerifyCode
 
@@ -344,11 +344,13 @@ password-strength-balloon-stay-safe-tips = Για την προστασία σα
 password-strength-inline-min-length = Τουλάχιστον 8 χαρακτήρες
 password-strength-inline-not-email = Όχι τη διεύθυνση email σας
 password-strength-inline-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασής σας
+password-strength-inline-confirmed-must-match = Η επιβεβαίωση ταιριάζει με τον νέο κωδικό πρόσβασης
 
 ## Ready component
 
 reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
 ready-complete-set-up-instruction = Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασής σας στις άλλες σας συσκευές με { -brand-firefox }.
+manage-your-account-button = Διαχείριση του λογαριασμού σας
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -401,6 +403,13 @@ flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορε
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Προειδοποίηση
+password-reset-chevron-expanded = Σύμπτυξη προειδοποίησης
+password-reset-chevron-collapsed = Ανάπτυξη προειδοποίησης
+password-reset-data-may-not-be-recovered = Τα δεδομένα του προγράμματος περιήγησής σας ενδέχεται να μην ανακτηθούν
+password-reset-previously-signed-in-device = Είχατε συνδεθεί από κάποια συσκευή στο παρελθόν;
+password-reset-data-may-be-saved-locally = Τα δεδομένα του προγράμματος περιήγησής σας ενδέχεται να έχουν αποθηκευτεί τοπικά σε αυτήν τη συσκευή. Κάντε σύνδεση εκεί με τον νέο σας κωδικό πρόσβασης για ανάκτηση και συγχρονισμό των δεδομένων.
+password-reset-no-old-device = Έχετε μια νέα συσκευή, αλλά δεν έχετε την παλιά σας;
+password-reset-encrypted-data-cannot-be-recovered = Δυστυχώς, δεν είναι δυνατή η ανάκτηση των κρυπτογραφημένων δεδομένων προγράμματος περιήγησης που βρίσκονται στους διακομιστές του { -brand-firefox }. Μπορείτε, ωστόσο, να έχετε ακόμα πρόσβαση στα τοπικά σας δεδομένα από οποιαδήποτε συσκευή που είχατε κάνει σύνδεση στο παρελθόν.
 password-reset-learn-about-restoring-account-data = Μάθετε περισσότερα σχετικά με την ανάκτηση των δεδομένων λογαριασμού
 
 ## Alert Bar
@@ -1341,8 +1350,18 @@ third-party-auth-callback-message = Παρακαλούμε περιμένετε,
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Εισαγάγετε το κλειδί ανάκτησης του λογαριασμού σας
+account-recovery-confirm-key-instruction = Αυτό το κλειδί ανακτά τα κρυπτογραφημένα δεδομένα περιήγησής σας, όπως κωδικούς πρόσβασης και σελιδοδείκτες, από τους διακομιστές του { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Εισαγάγετε το κλειδί ανάκτησης 32 χαρακτήρων του λογαριασμού σας
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Η υπόδειξη για την τοποθεσία αποθήκευσης είναι:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Συνέχεια
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Δεν μπορείτε να βρείτε το κλειδί ανάκτησης του λογαριασμού σας;
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1355,6 +1374,7 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 # Displayed in an alert bar
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
 password-reset-could-not-determine-account-recovery-key = Έχετε το κλειδί ανάκτησης του λογαριασμού σας;
+password-reset-use-account-recovery-key = Κάντε επαναφορά του κωδικού πρόσβασής σας και διατηρήστε τα δεδομένα σας
 
 ## Confirm Reset Password With Code
 
