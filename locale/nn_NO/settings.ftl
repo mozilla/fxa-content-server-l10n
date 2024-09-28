@@ -1041,6 +1041,7 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel oppretta
 inline-recovery-key-setup-download-header = Sikre kontoen din
+inline-recovery-key-setup-hint-header = Tryggingstilråding
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
