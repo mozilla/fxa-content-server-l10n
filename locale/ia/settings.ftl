@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Le contrasigno debe esser communmente usat
 form-password-sr-requirements-met = Le contrasigno inserite respecta tote le requisitos.
 form-password-sr-passwords-match = Le contrasignos inserite concorda.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Contrasigno
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Repeter contrasigno
+form-password-with-inline-criteria-signup-submit-button = Crear un conto
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nove contrasigno
+form-password-with-inline-criteria-confirm-password =
+    .label = Confirmar contrasigno
+form-password-with-inline-criteria-reset-submit-button = Crear nove contrasigno
+form-password-with-inline-criteria-match-error = Le contrasignos non concorda
+form-password-with-inline-criteria-sr-too-short-message = Le contrasigno debe continer al minus 8 characteres.
+form-password-with-inline-criteria-sr-not-email-message = Le contrasigno non debe continer tu adresse email.
+form-password-with-inline-criteria-sr-not-common-message = Le contrasigno debe esser communmente usate.
+form-password-with-inline-criteria-sr-requirements-met = Le contrasigno inserite respecta tote le requisitos.
+form-password-with-inline-criteria-sr-passwords-match = Le contrasignos inserite concorda.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,17 @@ password-strength-balloon-not-email = Non tu adresse email
 password-strength-balloon-not-common = Non un contrasigno commun
 password-strength-balloon-stay-safe-tips = Remane secur, non reusa tu contrasignos. Vide plus de consilios a in <LinkExternal>crear contrasignos forte</LinkExternal>
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Al minus 8 characteres
+password-strength-inline-not-email = Non tu adresse email
+password-strength-inline-not-common = Non un contrasigno commun
+
 ## Ready component
 
 reset-password-complete-header = Tu contrasigno ha essite remontate
 ready-complete-set-up-instruction = Completa le configuration inserente tu nove contrasigno in tu altere apparatos { -brand-firefox }.
-ready-start-browsing-button = Initia a navigar
+manage-your-account-button = Gere tu conto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +397,11 @@ flow-recovery-key-hint-char-limit-error = Le indicio debe continer minus que 255
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Le indicio non pote continer characteres unicode non secur.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Aviso
 
 ## Alert Bar
 
@@ -1307,37 +1337,22 @@ third-party-auth-callback-message = Attende, tu va esser re-dirigite al applicat
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Remonta le contrasigno con le clave de recuperation del conto <span>pro continuar a configurar le conto</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Remonta le contrasigno con le clave de recuperation del conto <span>pro continuar a configurar le { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Nota:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como chronologia e marcapaginas).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Insere clave de recuperation del conto
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Confirma clave de recuperation del conto
+account-recovery-confirm-key-button-2 = Continuar
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Non ha tu un clave de recuperation del conto?
+account-recovery-lost-recovery-key-link-2 = Non pote tu trovar le clave de recuperation de tu conto?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Crear le nove contrasigno
-complete-reset-password-warning-message-2 = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { -product-pocket } non sera afficite.
+complete-reset-pw-header-v2 = Crear un nove contrasigno
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Configuration del contrasigno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
-complete-reset-password-recovery-key-error-v2 = Desolate, il habeva un problema controlante si tu ha un clave de recuperation del conto.
-complete-reset-password-recovery-key-link = Reinitialisa tu contrasigno con tu clave de recuperation del conto.
-account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
+password-reset-could-not-determine-account-recovery-key = Ha tu le clave de recuperation de tu conto
 
 ## Confirm Reset Password With Code
 
