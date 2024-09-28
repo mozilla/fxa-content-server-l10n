@@ -179,6 +179,12 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Hesło wobkrućić
 form-password-with-inline-criteria-reset-submit-button = Nowe hesło wutworić
+form-password-with-inline-criteria-match-error = Hesle jenakej njejstej
+form-password-with-inline-criteria-sr-too-short-message = Hesło dyrbi znajmjeńša 8 znamješkow wobsahować.
+form-password-with-inline-criteria-sr-not-email-message = Hesło njesmě wašu e-mejlowu adresu wobsahować.
+form-password-with-inline-criteria-sr-not-common-message = Hesło njesmě zhromadnje wužiwane hesło być.
+form-password-with-inline-criteria-sr-requirements-met = Zapodate hesło wšě žadanja na hesło respektuje.
+form-password-with-inline-criteria-sr-passwords-match = Zapodate hesła su jenake.
 
 ## FormVerifyCode
 
@@ -335,11 +341,15 @@ password-strength-balloon-stay-safe-tips = Wostańće wěsty – Njewužiwajće 
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Znajmjeńša 8 znamješkow
+password-strength-inline-not-email = Nic waša e-mejlowa adresa
+password-strength-inline-not-common = Nic husto wužiwane hesło
 
 ## Ready component
 
 reset-password-complete-header = Waše hesło je so wróćo stajiło
 ready-complete-set-up-instruction = Zapodajće swoje nowe hesło na swojich druhich gratach { -brand-firefox }, zo byšće zarjadowanje dokónčił.
+manage-your-account-button = Rjadujće sowje konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -391,6 +401,9 @@ flow-recovery-key-hint-unsafe-char-error = Pokiw njesmě njewěste znamješka Un
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Warnowanje
+password-reset-chevron-expanded = Warnowanje schować
+password-reset-chevron-collapsed = Warnowanje pokazać
 
 ## Alert Bar
 
@@ -1324,10 +1337,14 @@ third-party-auth-callback-message = Prošu čakajće, budźeće so k awtorizowan
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Zapodajće swój kontowy wobnowjenski kluč
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Dale
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Nowe hesło wutworić
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Hesło je so nastajiło
