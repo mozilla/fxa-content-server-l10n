@@ -407,6 +407,8 @@ password-reset-chevron-expanded = Tkurre sinjalizimin
 password-reset-chevron-collapsed = Zgjeroje sinjalizimin
 password-reset-data-may-not-be-recovered = Të dhënat e shfletuesit tuaj mund të mos rikthehen dot
 password-reset-previously-signed-in-device = Keni një pajisje ku keni bërë hyrjen më herët?
+password-reset-no-old-device = Keni një pajisje të re, por jo të vjetrën?
+password-reset-learn-about-restoring-account-data = Mësoni më tepër rreth rikthimit të të dhënave të llogarisë
 
 ## Alert Bar
 
@@ -1341,6 +1343,10 @@ third-party-auth-callback-message = Ju lutemi, pritni, po ridrejtoheni te aplika
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Jepni kyçin tuaj të rimarrjes së llogarisë
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Jepni kyçin tuaj prej 32 shenjash të rikthimit të llogarisë
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
 account-recovery-confirm-key-hint = Ndihmëza për depozitën tuaj është:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account

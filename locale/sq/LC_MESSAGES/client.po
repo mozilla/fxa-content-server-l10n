@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-28 10:35+0000\n"
+"PO-Revision-Date: 2024-09-28 10:42+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1979,7 +1979,7 @@ msgstr "Po lidhet pajisja juaj celulare me llogarinë tuaj Mozilla"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Që të lidhni pajisjen tuaj celulare, hapni Firefox-in në kompjuterin tuaj, vizitoni lidhjen <b class=\"whitespace-nowrap\">firefox.com/pair</b> dhe ndiqni udhëzimet që jepen në ekran."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
