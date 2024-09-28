@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Lösenord får inte vara ett vanligt anvä
 form-password-sr-requirements-met = Det angivna lösenordet respekterar alla lösenordskrav.
 form-password-sr-passwords-match = Angivna lösenord matchar.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Lösenord
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Upprepa lösenordet
+form-password-with-inline-criteria-signup-submit-button = Skapa konto
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nytt lösenord
+form-password-with-inline-criteria-confirm-password =
+    .label = Bekräfta lösenord
+form-password-with-inline-criteria-reset-submit-button = Skapa nytt lösenord
+form-password-with-inline-criteria-match-error = Lösenorden matchar inte
+form-password-with-inline-criteria-sr-too-short-message = Lösenord måste innehålla minst 8 tecken.
+form-password-with-inline-criteria-sr-not-email-message = Lösenord får inte innehålla din e-postadress.
+form-password-with-inline-criteria-sr-not-common-message = Lösenord får inte vara ett vanligt använt lösenord.
+form-password-with-inline-criteria-sr-requirements-met = Det angivna lösenordet respekterar alla lösenordskrav.
+form-password-with-inline-criteria-sr-passwords-match = Angivna lösenord matchar.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Inte din e-postadress
 password-strength-balloon-not-common = Inte ett vanligt använt lösenord
 password-strength-balloon-stay-safe-tips = Var säker — Återanvänd inte lösenord. Se fler tips för att <LinkExternal>skapa starka lösenord</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Minst 8 tecken
+password-strength-inline-not-email = Inte din e-postadress
+password-strength-inline-not-common = Inte ett vanligt använt lösenord
+password-strength-inline-confirmed-must-match = Bekräftelse matchar det nya lösenordet
+
 ## Ready component
 
 reset-password-complete-header = Ditt lösenord har återställts
 ready-complete-set-up-instruction = Slutför konfigurationen genom att ange ditt nya lösenord på dina andra { -brand-firefox }-enheter.
-ready-start-browsing-button = Börja surfa
+manage-your-account-button = Hantera ditt konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = Tipset måste innehålla färre än 25
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Tipset får inte innehålla osäkra unicode-tecken. Endast bokstäver, siffror, skiljetecken och symboler är tillåtna.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Varning
+password-reset-chevron-expanded = Fäll ihop varning
+password-reset-chevron-collapsed = Expandera varning
+password-reset-data-may-not-be-recovered = Din webbläsardata kanske inte kan återställas
+password-reset-previously-signed-in-device = Har du en enhet där du tidigare loggat in?
+password-reset-data-may-be-saved-locally = Din webbläsardata kan sparas lokalt på den enheten. Logga in där med ditt nya lösenord för att återställa och synkronisera.
+password-reset-no-old-device = Har du en ny enhet men har inte kvar din gamla?
+password-reset-encrypted-data-cannot-be-recovered = Vi är ledsna, men din krypterade webbläsardata på { -brand-firefox }-servrar kan inte återställas. Men du kan fortfarande komma åt din lokala data på alla enheter där du tidigare har loggat in.
+password-reset-learn-about-restoring-account-data = Läs mer om att återställa kontodata
 
 ## Alert Bar
 
@@ -1311,37 +1350,31 @@ third-party-auth-callback-message = Vänta, du omdirigeras till den auktoriserad
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Återställ lösenordet med kontoåterställningsnyckeln <span>för att fortsätta till kontoinställningarna</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Återställ lösenordet med kontoåterställningsnyckeln <span>för att fortsätta till { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Ange engångsnyckeln för kontoåterställning som du lagrade på ett säkert ställe för att återfå åtkomst till ditt { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Obs:</span> Om du återställer ditt lösenord och inte har din kontoåterställningsnyckel sparad kommer en del av dina data att raderas (inklusive synkroniserad serverdata som historik och bokmärken).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Ange nyckel för kontoåterställning
+account-recovery-confirm-key-heading = Ange din kontoåterställningsnyckel
+account-recovery-confirm-key-instruction = Den här nyckeln återställer dina krypterade webbläsardata, till exempel lösenord och bokmärken, från { -brand-firefox } servrar.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Ange din 32 tecken långa kontoåterställningsnyckel
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Ditt lagringstips är:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Bekräfta nyckel för kontoåterställning
+account-recovery-confirm-key-button-2 = Fortsätt
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Har du ingen kontoåterställningsnyckel?
+account-recovery-lost-recovery-key-link-2 = Kan du inte hitta din kontoåterställningsnyckel?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Skapa nytt lösenord
-complete-reset-password-warning-message-2 = <span>Kom ihåg:</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { -product-pocket }-data kommer inte att påverkas.
+complete-reset-pw-header-v2 = Skapa ett nytt lösenord
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lösenord satt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
-complete-reset-password-recovery-key-error-v2 = Det gick tyvärr inte att kontrollera om du har en kontoåterställningsnyckel.
-complete-reset-password-recovery-key-link = Återställ ditt lösenord med din kontoåterställningsnyckel.
-account-restored-success-message = Du har lyckats återställa ditt konto med din kontoåterställningsnyckel. Skapa ett nytt lösenord för att skydda dina data och lagra dem på en säker plats.
+password-reset-could-not-determine-account-recovery-key = Har du din kontoåterställningsnyckel?
+password-reset-use-account-recovery-key = Återställ lösenordet och behåll din data
 
 ## Confirm Reset Password With Code
 

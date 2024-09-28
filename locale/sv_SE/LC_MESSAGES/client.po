@@ -1991,7 +1991,7 @@ msgstr "Installationen kunde inte slutföras. Vänligen logga in med din e-posta
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "Inloggad!"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
