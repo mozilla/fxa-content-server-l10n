@@ -405,6 +405,7 @@ flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicod
 password-reset-warning-icon = 警告
 password-reset-chevron-expanded = 折叠警告
 password-reset-chevron-collapsed = 展开警告
+password-reset-learn-about-restoring-account-data = 详细了解恢复账户数据
 
 ## Alert Bar
 
@@ -1322,16 +1323,31 @@ third-party-auth-callback-message = 请稍等，正将您重定向至授权的�
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = 请输入账户恢复密钥
+account-recovery-confirm-key-instruction = 此密钥可从 { -brand-firefox } 服务器中恢复已加密的浏览数据，例如密码和书签。
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = 请输入包含 32 个字符的账户恢复密钥
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = 您存储的提示是：
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = 继续
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = 找不到账户恢复密钥了？
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = 创建新密码
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = 密码已设置
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 抱歉，设置密码时出现问题
+password-reset-could-not-determine-account-recovery-key = 拥有账户恢复密钥？
+password-reset-use-account-recovery-key = 重置密码并保留数据
 
 ## Confirm Reset Password With Code
 
