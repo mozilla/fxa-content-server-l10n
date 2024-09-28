@@ -534,11 +534,11 @@ flow-recovery-key-info-header = 创建账户恢复密钥，以防忘记密码
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = 更改账户恢复密钥
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point-v2 = 我们会加密浏览数据——密码、书签等。这样能很好地保护隐私，但是如果您忘记密码，那么您的数据可能会丢失。
+flow-recovery-key-info-shield-bullet-point-v2 = 我们会加密浏览数据，包括密码、书签等。这样能很好地保护隐私，但如果您忘记密码，就有可能丢失数据。
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = 您可以通过账户恢复密钥恢复数据，因此很有必要创建该密钥。
 # The text of the "submit" button to start creating (or changing) an account recovery key
-flow-recovery-key-info-cta-text-v3 = 新手上路
+flow-recovery-key-info-cta-text-v3 = 开始创建
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
 
