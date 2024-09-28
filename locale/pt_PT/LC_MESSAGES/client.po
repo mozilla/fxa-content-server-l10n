@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-27 18:17+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2024-09-28 05:15+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -1934,7 +1934,7 @@ msgstr "A ligar o seu dispositivo móvel à sua conta Mozilla"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr "Abra o Firefox no seu computador, visite <b class=\"Whitespace-nowrap\">firefox.com/pair</b> e siga as instruções no ecrã para ligar o seu dispositivo móvel."
+msgstr "Abra o Firefox no seu computador, visite <b class=\"whitespace-nowrap\">firefox.com/pair</b> e siga as instruções no ecrã para ligar o seu dispositivo móvel."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
