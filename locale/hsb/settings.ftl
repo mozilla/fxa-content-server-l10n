@@ -407,7 +407,9 @@ password-reset-chevron-expanded = Warnowanje schować
 password-reset-chevron-collapsed = Warnowanje pokazać
 password-reset-data-may-not-be-recovered = Waše přehladowanske daty so snano njewobnowja
 password-reset-previously-signed-in-device = Maće grat, hdźež sće so do toho přizjewił?
+password-reset-data-may-be-saved-locally = Daty wašeho wobhladowaka dadźa so na tym graće lokalnje składować. Přizjewće so tam ze swojim nowym hesłom, zo byšće wobnowił a synchronizował.
 password-reset-no-old-device = Maće nowy grat, ale nimaće stary?
+password-reset-encrypted-data-cannot-be-recovered = Je nam žel, ale zaklučowane daty wašeho wobhladowaka na serwerach { -brand-firefox } njedadźa so wobnowić. Maće wšak hišće přistup k swojim lokalnym datam na kóždym graće, hdźež sće do toho přizjewił.
 password-reset-learn-about-restoring-account-data = Zhońće wjace wo wobnowjenju kontowych datow
 
 ## Alert Bar
@@ -1343,6 +1345,7 @@ third-party-auth-callback-message = Prošu čakajće, budźeće so k awtorizowan
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Zapodajće swój kontowy wobnowjenski kluč
+account-recovery-confirm-key-instruction = Tutón kluč waše zaklučowane přehladowanske daty, na přikład hesła a zapołožki, ze serwerow { -brand-firefox } wobnowja.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
@@ -1364,6 +1367,8 @@ complete-reset-password-success-alert = Hesło je so nastajiło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bohužel je při stajenju wašeho hesła problem nastał
+password-reset-could-not-determine-account-recovery-key = Sće swój kontowy wobnowjenski kluč dóstał?
+password-reset-use-account-recovery-key = Stajće swoje hesło wróćo a wobchowajće swoje daty
 
 ## Confirm Reset Password With Code
 
