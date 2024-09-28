@@ -914,7 +914,7 @@ rk-refresh-key-1 = 刷新账户恢复密钥
 rk-content-explain = 忘记密码时可用于恢复数据。
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 rk-remove-modal-heading-1 = 要移除账户恢复密钥吗？
-rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户恢复密钥访问您的数据。此操作不可撤销。
+rk-remove-modal-content-1 = 以后重置密码时，将无法再使用账户恢复密钥访问您的数据。此操作不可撤销。
 rk-remove-error-2 = 无法删除您的账户恢复密钥
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = 删除账户恢复密钥
