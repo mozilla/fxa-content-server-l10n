@@ -516,7 +516,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 创建新的账户恢�
 
 flow-recovery-key-download-heading-v2 = 已创建账户恢复密钥——立即下载并保存
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = 如果您忘记密码，此密钥可让您恢复数据。请立即下载并将其妥善保存——您将无法返回此页面。
+flow-recovery-key-download-info-v2 = 如果您忘记密码，可使用此密钥恢复数据。请立即下载此密钥，并将其存储在您会记得的位置。此后将无法再回到本页面。
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = 继续但不下载
 
@@ -1097,7 +1097,7 @@ inline-recovery-key-setup-create-error = 哎呀！无法创建账户恢复密钥
 inline-recovery-key-setup-recovery-created = 已创建账户恢复密钥
 inline-recovery-key-setup-download-header = 保护账户安全
 inline-recovery-key-setup-download-subheader = 立即下载并存储
-inline-recovery-key-setup-download-info = 请将此密钥存储在您会记得的位置。以后将无法再回到此页面。
+inline-recovery-key-setup-download-info = 请将此密钥存储在您会记得的位置。此后将无法再回到本页面。
 inline-recovery-key-setup-hint-header = 安全建议
 
 ## InlineRecoverySetup page
