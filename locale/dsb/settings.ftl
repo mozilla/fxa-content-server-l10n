@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Gronidło njesměj zgromadnje wužywane gr
 form-password-sr-requirements-met = Zapódane gronidło wšykne pominanja na gronidło respektěrujo.
 form-password-sr-passwords-match = Zapódane gronidła su jadnake.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Gronidło
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Gronidło wóspjetowaś
+form-password-with-inline-criteria-signup-submit-button = Konto załožyś
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nowe gronidło
+form-password-with-inline-criteria-confirm-password =
+    .label = Gronidło wobkšuśiś
+form-password-with-inline-criteria-reset-submit-button = Nowe gronidło napóraś
+form-password-with-inline-criteria-match-error = Gronidle njejstej jadnakej
+form-password-with-inline-criteria-sr-too-short-message = Gronidło musy nanejmjenjej 8 znamuškow wopśimowaś.
+form-password-with-inline-criteria-sr-not-email-message = Gronidło njesmějo wašu e-mailowu adresu wopśimowaś.
+form-password-with-inline-criteria-sr-not-common-message = Gronidło njesměj zgromadnje wužywane gronidło byś.
+form-password-with-inline-criteria-sr-requirements-met = Zapódane gronidło wšykne pominanja na gronidło respektěrujo.
+form-password-with-inline-criteria-sr-passwords-match = Zapódane gronidła su jadnake.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Nic waša e-mailowa adresa
 password-strength-balloon-not-common = Nic cesto wužywane gronidło
 password-strength-balloon-stay-safe-tips = Wóstańśo wěsty – njewužywajśo gronidła wěcej raz. Glejśo dalšne pokaze aby <LinkExternal>mócne gronidła napórał</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Nanejmjenjej 8 znamuškow
+password-strength-inline-not-email = Nic waša e-mailowa adresa
+password-strength-inline-not-common = Nic cesto wužywane gronidło
+password-strength-inline-confirmed-must-match = Wobkšuśenje nowemu gronidłoju wótpowědujo
+
 ## Ready component
 
 reset-password-complete-header = Wašo gronidło jo se slědk stajiło
 ready-complete-set-up-instruction = Zapódajśo swójo nowe gronidło na swójich drugich rědach { -brand-firefox }, aby zarědowanje dokóńcył.
-ready-start-browsing-button = Pśeglědowanje zachopiś
+manage-your-account-button = Zastojśo swójo konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,18 @@ flow-recovery-key-hint-char-limit-error = Pokaz musy mjenjej ako 255 znamuškow 
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Pokaz njesmějo njewěste znamuška Unicode wopśimowaś. Jano pismiki, licby, interpunkciske znamuška a symbole su dowólone.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Warnowanje
+password-reset-chevron-expanded = Warnowanje schowaś
+password-reset-chevron-collapsed = Warnowanje pokazaś
+password-reset-data-may-not-be-recovered = Daty wašogo wobglědowaka se snaź njewobnowiju
+password-reset-previously-signed-in-device = Maśo rěd, źož sćo se do togo pśizjawił?
+password-reset-data-may-be-saved-locally = Daty wašogo wobglědowaka daju se na tom rěźe lokalnje składowaś. Pśizjawśo se tam ze swójim nowym gronidłom, aby wótnowił a synchronizěrował.
+password-reset-no-old-device = Maśo nowy rěd, ale njamaśo stary?
+password-reset-encrypted-data-cannot-be-recovered = Jo nam luto, ale skoděrowane daty wašogo wobglědowaka na serwerach { -brand-firefox } njedaju se wótnowiś. Maśo pak hyšći pśistup k swójim lokalnym datam na kuždem rěźe, źož sćo do togo pśizjawił.
 
 ## Alert Bar
 
@@ -1303,37 +1341,16 @@ third-party-auth-callback-message = Pšosym cakajśo, buźośo se k awtorizěrow
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Stajśo gronidło z kontowym wótnowjeńskim klucom slědk, <span>aby z kontowymi nastajenjami pókšacował</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Stajśo gronidło z kontowym wótnowjeńskim klucom slědk, <span>aby z { $serviceName } pókšacował</span>
-account-recovery-confirm-key-instructions-2 = Pšosym zapódajśo kontowy wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu { -product-mozilla-account(case: "dat", capitalization: "lower") } měł.
-account-recovery-confirm-key-warning-message = <span>GLĚDAJŚO:</span> Jolic sćo swójo gronidło slědk stajił a njamaśo swój skłaźony kontowy wótnowjeński kluc, budu se někotare z wašych datow lašowaś (inkluziwnje synchronizěrowane serwerowe daty ako historiju a cytańske znamjenja).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Zapódajśo kontowy wótnowjeński kluc
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Kontowy wótnowjeński kluc wobkšuśiś
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Njamaśo kontowy wótnowjeński kluc?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Nowe gronidło napóraś
-complete-reset-password-warning-message-2 = <span>NJEZABYWAJŚO:</span> Gaž swójo gronidło slědk stajaśo, stajijośo swójo konto slědk. Móžośo někotare z wašych wósobinskich datow zgubiś (na pśikład historiju, cytańske znamjenjai a gronidła). Togodla zaklucujomy waše daty z wašym gronidłom, aby my wašu priwatnosć šćitali. Waše abonementy, kótarež snaź maśo, wobchowajośo a daty { -product-pocket } njejsu pótrjefjone.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Gronidło jo se nastajiło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju wašogo gronidła
-complete-reset-password-recovery-key-error-v2 = Bohužel jo pśi pśeglědowanju, lěc kontowy wótnowjeński kluc maśo, problem nastał.
-complete-reset-password-recovery-key-link = Stajśo swójo gronidło ze swójom kontowym wótnowjeńskim klucom slědk.
-account-restored-success-message = Sćo wuspěšnje wótnowił swójo konto z pomocu swójogo kontowego wótnowjeńskego kluca. Napórajśo nowe gronidło, aby swóje daty zawěsćił a składujśo jo na wěstem městnje.
 
 ## Confirm Reset Password With Code
 
