@@ -344,6 +344,7 @@ password-strength-balloon-stay-safe-tips = Wostańće wěsty – Njewužiwajće 
 password-strength-inline-min-length = Znajmjeńša 8 znamješkow
 password-strength-inline-not-email = Nic waša e-mejlowa adresa
 password-strength-inline-not-common = Nic husto wužiwane hesło
+password-strength-inline-confirmed-must-match = Wobkrućenje nowemu hesłu wotpowěduje
 
 ## Ready component
 
@@ -404,6 +405,10 @@ flow-recovery-key-hint-unsafe-char-error = Pokiw njesmě njewěste znamješka Un
 password-reset-warning-icon = Warnowanje
 password-reset-chevron-expanded = Warnowanje schować
 password-reset-chevron-collapsed = Warnowanje pokazać
+password-reset-data-may-not-be-recovered = Waše přehladowanske daty so snano njewobnowja
+password-reset-previously-signed-in-device = Maće grat, hdźež sće so do toho přizjewił?
+password-reset-no-old-device = Maće nowy grat, ale nimaće stary?
+password-reset-learn-about-restoring-account-data = Zhońće wjace wo wobnowjenju kontowych datow
 
 ## Alert Bar
 
@@ -1338,8 +1343,16 @@ third-party-auth-callback-message = Prošu čakajće, budźeće so k awtorizowan
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Zapodajće swój kontowy wobnowjenski kluč
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Zapodajće swój 32-znamješkowy kontowy wobnowjenski kluč
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Waš składowanski pokaz je:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Dale
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Njemóžeće swój kontowy wobnowjenski kluč namakać?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
