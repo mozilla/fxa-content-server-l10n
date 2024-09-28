@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Fjalëkalimi s’duhet të jetë një fjal
 form-password-sr-requirements-met = Fjalëkalimi i dhënë respekton krejt domosdoshmëritë për fjalëkalim.
 form-password-sr-passwords-match = Fjalëkalimet e dhënë përputhen.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Fjalëkalim
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Rijepeni fjalëkalimin
+form-password-with-inline-criteria-signup-submit-button = Krijoje llogarinë
+form-password-with-inline-criteria-reset-new-password =
+    .label = Fjalëkalim i ri
+form-password-with-inline-criteria-confirm-password =
+    .label = Ripohoni fjalëkalimin
+form-password-with-inline-criteria-reset-submit-button = Krijoni fjalëkalim të ri
+form-password-with-inline-criteria-match-error = Fjalëkalimet nuk përputhen
+form-password-with-inline-criteria-sr-too-short-message = Fjalëkalimi duhet të përmbajë të paktën 8 shenja.
+form-password-with-inline-criteria-sr-not-email-message = Fjalëkalimi s’duhet të përmbajë adresën tuaj email.
+form-password-with-inline-criteria-sr-not-common-message = Fjalëkalimi s’duhet të jetë një fjalëkalim i përdorur rëndom.
+form-password-with-inline-criteria-sr-requirements-met = Fjalëkalimi i dhënë respekton krejt domosdoshmëritë për fjalëkalim.
+form-password-with-inline-criteria-sr-passwords-match = Fjalëkalimet e dhënë përputhen.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Jo adresën tuaj email
 password-strength-balloon-not-common = Jo një fjalëkalim të përdorur rëndom
 password-strength-balloon-stay-safe-tips = Jini të parrezik — Mos ripërdorni fjalëkalime. Shihni më tepër ndihmëza se si <LinkExternal>të krijohen fjalëkalime të fuqishëm</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Të paktën 8 shenja
+password-strength-inline-not-email = Jo adresën tuaj email
+password-strength-inline-not-common = Jo një fjalëkalim të përdorur rëndom
+password-strength-inline-confirmed-must-match = Ripohimi përkon me fjalëkalimin e ri
+
 ## Ready component
 
 reset-password-complete-header = Fjalëkalimi juaj u ricaktua
 ready-complete-set-up-instruction = Plotësojeni rregullimin duke dhënë fjalëkalimin tuaj të ri te pajisjet tuaja të tjera me { -brand-firefox }.
-ready-start-browsing-button = Nisni shfletimin
+manage-your-account-button = Administroni llogarinë tuaj
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,15 @@ flow-recovery-key-hint-char-limit-error = Ndihmëza duhet të përmbajë më pak
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Ndihmëza s’mund të përmbajë shenja unikod jo të parrezik. Lejohen vetëm shkronja, numra, shenja pikësimi dhe simbole.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Sinjalizim
+password-reset-chevron-expanded = Tkurre sinjalizimin
+password-reset-chevron-collapsed = Zgjeroje sinjalizimin
+password-reset-data-may-not-be-recovered = Të dhënat e shfletuesit tuaj mund të mos rikthehen dot
+password-reset-previously-signed-in-device = Keni një pajisje ku keni bërë hyrjen më herët?
 
 ## Alert Bar
 
@@ -1305,37 +1340,26 @@ third-party-auth-callback-message = Ju lutemi, pritni, po ridrejtoheni te aplika
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Ricaktoni fjalëkalimin përmes kyçi rimarrjeje llogarie, <span>që të vazhdoni te rregullimet e llogarisë</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Ricaktoni fjalëkalimin përmes kyçi rimarrjeje llogarie, <span>që të vazhdoni te { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Ju lutemi, që të rimerrni hyrjen te { -product-mozilla-account } juaj, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik.
-account-recovery-confirm-key-warning-message = <span>SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga shërbyesi, f.v., historik dhe shfletues).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Jepni kyç rimarrjeje llogarie
+account-recovery-confirm-key-heading = Jepni kyçin tuaj të rimarrjes së llogarisë
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Ndihmëza për depozitën tuaj është:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Ripohoni kyç rimarrjeje llogarie
+account-recovery-confirm-key-button-2 = Vazhdo
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = S’keni kyç rimarrjeje llogarie?
+account-recovery-lost-recovery-key-link-2 = S’gjeni dot kyçin tuaj të rimarrjes së llogarisë?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Krijoni fjalëkalim të ri
-complete-reset-password-warning-message-2 = <span>Mbani mend:</span> Kur ricaktoni fjalëkalimin tuaj, llogarinë tuaj e ktheni në fillimet. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj. Do të mbani, prapëseprapë, çfarëdo pajtimesh që mund të keni dhe të dhënat në { -product-pocket } s’do të preken.
+complete-reset-pw-header-v2 = Krijoni fjalëkalim të ri
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Fjalëkalimi u caktua
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
-complete-reset-password-recovery-key-error-v2 = Na ndjeni, pati një problem me kontrollin për të parë nëse keni një kyç rimarrjeje llogarie.
-complete-reset-password-recovery-key-link = Ricaktoni fjalëkalimin tuaj me kyçin tuaj të rimarrjes së llogarisë.
-account-restored-success-message = E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes së llogarisë. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezik.
+password-reset-could-not-determine-account-recovery-key = E keni kyçin tuaj të rimarrjes së llogarisë?
+password-reset-use-account-recovery-key = Ricaktoni fjalëkalimin tuaj dhe mbani të dhënat tuaja
 
 ## Confirm Reset Password With Code
 
