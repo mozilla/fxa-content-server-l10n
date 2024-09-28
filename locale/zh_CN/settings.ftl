@@ -169,6 +169,22 @@ form-password-sr-passwords-match = 两次输入的密码一致。
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = 密码
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = 再次输入密码
+form-password-with-inline-criteria-signup-submit-button = 创建账户
+form-password-with-inline-criteria-reset-new-password =
+    .label = 新密码
+form-password-with-inline-criteria-confirm-password =
+    .label = 再次输入密码
+form-password-with-inline-criteria-reset-submit-button = 创建新密码
+form-password-with-inline-criteria-match-error = 两次输入的密码不一致
+form-password-with-inline-criteria-sr-too-short-message = 密码至少需要包含 8 个字符。
+form-password-with-inline-criteria-sr-not-email-message = 密码中不能包含您的邮箱地址。
+form-password-with-inline-criteria-sr-not-common-message = 不能使用常见密码。
+form-password-with-inline-criteria-sr-requirements-met = 输入的密码符合各项密码要求。
+form-password-with-inline-criteria-sr-passwords-match = 两次输入的密码一致。
 
 ## FormVerifyCode
 
@@ -325,11 +341,16 @@ password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使�
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = 至少 8 个字符
+password-strength-inline-not-email = 不包含您的邮箱地址
+password-strength-inline-not-common = 不是常见密码
+password-strength-inline-confirmed-must-match = 再次输入的密码与新密码一致
 
 ## Ready component
 
 reset-password-complete-header = 您的密码已重置
 ready-complete-set-up-instruction = 在您的其他 { -brand-firefox } 设备上输入新的密码以完成设置。
+manage-your-account-button = 管理账户
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -381,6 +402,10 @@ flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicod
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = 警告
+password-reset-chevron-expanded = 折叠警告
+password-reset-chevron-collapsed = 展开警告
+password-reset-data-may-not-be-recovered = 您的浏览数据有可能无法恢复
 
 ## Alert Bar
 
