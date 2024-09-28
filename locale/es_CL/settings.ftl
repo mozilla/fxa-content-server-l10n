@@ -405,6 +405,7 @@ flow-recovery-key-hint-unsafe-char-error = La sugerencia no puede contener carac
 password-reset-warning-icon = Advertencia
 password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
+password-reset-learn-about-restoring-account-data = Aprende más sobre la  restauración de datos de cuenta
 
 ## Alert Bar
 
@@ -1333,8 +1334,18 @@ third-party-auth-callback-message = Espera, estás siendo redirigido a la aplica
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Ingresa tu clave de recuperación de cuenta
+account-recovery-confirm-key-instruction = Esta clave recupera tus datos de navegación cifrados, como contraseñas y marcadores, desde los servidores de { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Ingresa tu clave de recuperación de cuenta de 32 caracteres
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Tu sugerencia de almacenamiento es:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Continuar
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = ¿No puedes encontrar tu clave de recuperación de cuenta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
