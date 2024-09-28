@@ -167,6 +167,9 @@ form-password-sr-not-common-message = 不能使用常见密码。
 form-password-sr-requirements-met = 输入的密码符合各项密码要求。
 form-password-sr-passwords-match = 两次输入的密码一致。
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -286,7 +289,7 @@ reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
 ## LinkRememberPassword component
 
 # immediately before remember-password-signin-link
-remember-password-text = 记住密码？
+remember-password-text = 想起密码了？
 # link navigates to the sign in page
 remember-password-signin-link = 登录
 
@@ -320,11 +323,13 @@ password-strength-balloon-not-email = 不可以与邮箱地址相同
 password-strength-balloon-not-common = 不可以是常见密码
 password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使用密码。请查看有关<LinkExternal>创建强密码</LinkExternal>的更多提示。
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = 您的密码已重置
 ready-complete-set-up-instruction = 在您的其他 { -brand-firefox } 设备上输入新的密码以完成设置。
-ready-start-browsing-button = 开始浏览
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +377,10 @@ flow-recovery-key-hint-char-limit-error = 提示不能超过 255 个字符。
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicode 字符。只允许使用字母、数字、标点符号和符号。
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -1289,37 +1298,16 @@ third-party-auth-callback-message = 请稍等，正将您重定向至授权的�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = 使用账户恢复密钥重置密码<span>以继续进行账户设置</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = 使用账户恢复密钥重置密码<span>以继续使用 { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = 请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 { -product-mozilla-account }的访问权限。
-account-recovery-confirm-key-warning-message = <span>注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = 请输入账户恢复密钥
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = 确认账户恢复密钥
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = 没有账户恢复密钥？
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = 创建新密码
-complete-reset-password-warning-message-2 = <span>记住：</span>当您重置密码时，您也重置了您的账户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保有您的订阅，并且 { -product-pocket } 数据不会受到影响。
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = 密码已设置
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 抱歉，设置密码时出现问题
-complete-reset-password-recovery-key-error-v2 = 抱歉，我们在检查您是否拥有账户恢复密钥时遇到问题。
-complete-reset-password-recovery-key-link = 使用账户恢复密钥重置密码。
-account-restored-success-message = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
 
 ## Confirm Reset Password With Code
 
@@ -1340,7 +1328,7 @@ confirm-reset-password-otp-different-account-link = 换个账户登录
 
 ## ResetPassword start page
 
-password-reset-flow-heading = 重置您的密码
+password-reset-flow-heading = 重置密码
 password-reset-body = 请输入您的电子邮件地址，我们会向您发送一个验证码以确认身份。
 password-reset-email-input =
     .label = 请输入您的电子邮箱
