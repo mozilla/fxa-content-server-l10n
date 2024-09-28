@@ -167,6 +167,25 @@ form-password-sr-not-common-message = 密碼不能是被普遍使用的密碼。
 form-password-sr-requirements-met = 輸入的密碼應符合所有要求。
 form-password-sr-passwords-match = 輸入的密碼相符。
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = 密碼
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = 重複輸入密碼
+form-password-with-inline-criteria-signup-submit-button = 註冊帳號
+form-password-with-inline-criteria-reset-new-password =
+    .label = 新密碼
+form-password-with-inline-criteria-confirm-password =
+    .label = 請再次輸入密碼
+form-password-with-inline-criteria-reset-submit-button = 建立新密碼
+form-password-with-inline-criteria-match-error = 密碼不符合
+form-password-with-inline-criteria-sr-too-short-message = 密碼必須包含至少 8 個字元。
+form-password-with-inline-criteria-sr-not-email-message = 密碼不得包含您的電子郵件地址。
+form-password-with-inline-criteria-sr-not-common-message = 密碼不能是被普遍使用的密碼。
+form-password-with-inline-criteria-sr-requirements-met = 輸入的密碼應符合所有要求。
+form-password-with-inline-criteria-sr-passwords-match = 輸入的密碼相符。
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = 不可以與您的電子郵件地址相同
 password-strength-balloon-not-common = 不可以是常見的密碼
 password-strength-balloon-stay-safe-tips = 確保安全 — 請勿重複使用密碼。若需有關於建立高安全性密碼的秘訣，<LinkExternal>請見此處</LinkExternal>。
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = 至少八個字元長
+password-strength-inline-not-email = 不可以與您的電子郵件地址相同
+password-strength-inline-not-common = 不可以是常見的密碼
+password-strength-inline-confirmed-must-match = 再次輸入的密碼與新密碼相符
+
 ## Ready component
 
 reset-password-complete-header = 已重設您的密碼
 ready-complete-set-up-instruction = 請到您另一台 { -brand-firefox } 裝置中輸入新密碼完成設定。
-ready-start-browsing-button = 開始上網
+manage-your-account-button = 管理帳號
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = 提示不可以超過 255 個字。
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = 提示內容不可使用 Unicode 特殊字元，僅接受一般文字、拉丁字母、數字、標點符號。
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = 警告
+password-reset-chevron-expanded = 摺疊警告
+password-reset-chevron-collapsed = 展開警告
+password-reset-data-may-not-be-recovered = 可能無法救回您的上網資料
+password-reset-previously-signed-in-device = 有先前登入過的裝置嗎？
+password-reset-data-may-be-saved-locally = 您的上網資料可能還保存在該裝置中，請使用該裝置，以新密碼登入即可同步並恢復資料。
+password-reset-no-old-device = 有新裝置，但已經找不到舊裝置了嗎？
+password-reset-encrypted-data-cannot-be-recovered = 很抱歉，無法救回您儲存在 { -brand-firefox } 伺服器上的加密資料。但您仍然可以在先前登入過的裝置存取該裝置上的資料。
+password-reset-learn-about-restoring-account-data = 了解有關還原帳號資料的更多資訊
 
 ## Alert Bar
 
@@ -1281,37 +1320,31 @@ third-party-auth-callback-message = 請稍後，將帶您前往要登入的應�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往帳號設定</span>頁面
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往 { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-mozilla-account }的使用權限。
-account-recovery-confirm-key-warning-message = <span>註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = 輸入帳號救援金鑰
+account-recovery-confirm-key-heading = 輸入您的帳號救援金鑰
+account-recovery-confirm-key-instruction = 使用這把金鑰，可從 { -brand-firefox } 伺服器救回您加密過的密碼、書籤等上網資料。
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = 請輸入您的 32 字元帳號救援金鑰
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = 您當時設定的保存提示是：
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = 確認帳號救援金鑰
+account-recovery-confirm-key-button-2 = 繼續
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = 沒有帳號救援金鑰嗎？
+account-recovery-lost-recovery-key-link-2 = 找不到您的帳號救援金鑰嗎？
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = 建立新密碼
-complete-reset-password-warning-message-2 = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ -product-pocket } 服務當中的資料也不受影響。
+complete-reset-pw-header-v2 = 建立新密碼
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = 已設定密碼
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 很抱歉，設定您的密碼時發生問題
-complete-reset-password-recovery-key-error-v2 = 很抱歉，確認您是否擁有帳號救援金鑰時發生問題。
-complete-reset-password-recovery-key-link = 使用您的帳號救援金鑰重設密碼。
-account-restored-success-message = 已成功使用帳號救援金鑰恢復您的帳號。請設定新的密碼來加密您的資料，並將密碼保存在安全的地方。
+password-reset-could-not-determine-account-recovery-key = 您的帳號救援金鑰在手邊嗎？
+password-reset-use-account-recovery-key = 重設密碼，並保留資料
 
 ## Confirm Reset Password With Code
 
