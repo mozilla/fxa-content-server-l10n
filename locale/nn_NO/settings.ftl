@@ -334,11 +334,14 @@ password-strength-balloon-stay-safe-tips = Hald deg trygg – Ikkje bruk passord
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = Minst 8 teikn
+password-strength-inline-not-email = Ikkje di e-postadresse
+password-strength-inline-not-common = Ikkje eit vanleg brukt passord
 
 ## Ready component
 
 reset-password-complete-header = Passordet ditt er tilbakestilt
 ready-complete-set-up-instruction = Fullfør oppsettet ved å skrive inn det nye passordet på dei andre { -brand-firefox }-einingane dine.
+manage-your-account-button = Handsam kontoen din
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -384,6 +387,7 @@ flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 te
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Åtvaring
 
 ## Alert Bar
 
@@ -1192,10 +1196,17 @@ pair-unsupported-header = Paring via ein app
 
 ## AccountRecoveryConfirmKey page
 
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Lagringstipset ditt er:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Hald fram
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Finn du ikkje kontogjenopprettingsnøkkelen din?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Lag eit nytt passord
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord innstilt
