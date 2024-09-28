@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Пароль не должен быть ч
 form-password-sr-requirements-met = Введённый пароль соответствует всем требованиям к паролям.
 form-password-sr-passwords-match = Введённые пароли совпадают.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Пароль
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Повторите пароль
+form-password-with-inline-criteria-signup-submit-button = Создать аккаунт
+form-password-with-inline-criteria-reset-new-password =
+    .label = Новый пароль
+form-password-with-inline-criteria-confirm-password =
+    .label = Подтвердите пароль
+form-password-with-inline-criteria-reset-submit-button = Создать новый пароль
+form-password-with-inline-criteria-match-error = Пароли не совпадают
+form-password-with-inline-criteria-sr-too-short-message = Пароль должен содержать не менее 8 символов.
+form-password-with-inline-criteria-sr-not-email-message = Пароль не должен содержать ваш адрес электронной почты.
+form-password-with-inline-criteria-sr-not-common-message = Пароль не должен быть часто используемым паролем.
+form-password-with-inline-criteria-sr-requirements-met = Введённый пароль соответствует всем требованиям к паролям.
+form-password-with-inline-criteria-sr-passwords-match = Введённые пароли совпадают.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Не ваш адрес электронн�
 password-strength-balloon-not-common = Не часто используемый пароль
 password-strength-balloon-stay-safe-tips = Будьте в безопасности — не используйте пароли повторно. Ознакомьтесь с дополнительными советами по <LinkExternal>созданию надёжных паролей</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Не менее 8 символов
+password-strength-inline-not-email = Не ваш адрес электронной почты
+password-strength-inline-not-common = Не часто используемый пароль
+password-strength-inline-confirmed-must-match = Подтверждение соответствует новому паролю
+
 ## Ready component
 
 reset-password-complete-header = Ваш пароль был сброшен
 ready-complete-set-up-instruction = Завершите настройку, введя свой новый пароль на других ваших устройствах с { -brand-firefox }.
-ready-start-browsing-button = Начать веб-сёрфинг
+manage-your-account-button = Управление вашим аккаунтом
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,11 @@ flow-recovery-key-hint-char-limit-error = Подсказка должна сод
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Подсказка не может содержать небезопасные символы Юникода. Допускаются только буквы, цифры, знаки препинания и символы.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Предупреждение
 
 ## Alert Bar
 
@@ -1305,37 +1336,16 @@ third-party-auth-callback-message = Подождите, вас перенапр�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Сбросьте пароль с помощью ключа восстановления аккаунта, <span>чтобы перейти к настройкам аккаунта</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Сбросьте пароль с помощью ключа восстановления аккаунта, <span>чтобы перейти к { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своим { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Примечание:</span> Если вы сбросите пароль и у вас не сохранился ваш ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, такие как история и закладки).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Введите ключ восстановления аккаунта
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Подтвердите ключ восстановления аккаунта
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = У вас нет ключа восстановления аккаунта?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Создать новый пароль
-complete-reset-password-warning-message-2 = <span>Помните:</span> Когда вы сбрасываете свой пароль, вы сбрасываете свой аккаунт. Вы можете потерять часть своей личной информации (включая историю, закладки и пароли). Это потому, что мы шифруем ваши данные с помощью вашего пароля, чтобы защитить вашу конфиденциальность. Вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { -product-pocket } не будут затронуты.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль установлен
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
-complete-reset-password-recovery-key-error-v2 = К сожалению, при проверке наличия у вас ключа восстановления аккаунта произошла ошибка.
-complete-reset-password-recovery-key-link = Сбросьте свой пароль с помощью вашего ключа восстановления аккаунта.
-account-restored-success-message = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
 
 ## Confirm Reset Password With Code
 
