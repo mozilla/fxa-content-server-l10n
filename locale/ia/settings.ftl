@@ -403,6 +403,14 @@ flow-recovery-key-hint-unsafe-char-error = Le indicio non pote continer characte
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Aviso
+password-reset-chevron-expanded = Aviso de collapso
+password-reset-chevron-collapsed = Aviso de expansion
+password-reset-data-may-not-be-recovered = Tu datos de navigator pote non esser recuperate
+password-reset-previously-signed-in-device = Ha tu un apparato ubi tu previemente habeva accedite?
+password-reset-data-may-be-saved-locally = Tu datos de navigator pote esser localmente salvate sur ille apparato. Accede illac con tu nove contrasigno pro restaurar e synchronisar.
+password-reset-no-old-device = Ha tu un apparato nove, ma tu non ha uno vetere?
+password-reset-encrypted-data-cannot-be-recovered = Nos es desolate, ma tu datos de navigator cryptate sur servitores de { -brand-firefox } non pote esser recuperate. Comocunque, tu pote ancora acceder a tu datos local sur alcun apparato ubi tu ha previemente accedite.
+password-reset-learn-about-restoring-account-data = Pro saper plus re restaurar tu datos de conto
 
 ## Alert Bar
 
@@ -1338,6 +1346,14 @@ third-party-auth-callback-message = Attende, tu va esser re-dirigite al applicat
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Insere tu clave recuperation del conto
+account-recovery-confirm-key-instruction = Iste clave recupera tu datos de navigation cryptate, tal como contrasignos e marcapaginas, del servitores de { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Insere tu clave recuperation del conto a 32 characteres
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Tu indicio de immagazinage es:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Continuar
 # Link that leads to the password reset page (without recovery code)
@@ -1354,6 +1370,7 @@ complete-reset-password-success-alert = Configuration del contrasigno
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
 password-reset-could-not-determine-account-recovery-key = Ha tu le clave de recuperation de tu conto
+password-reset-use-account-recovery-key = Reinitialisa tu contrasigno e mantene tu datos
 
 ## Confirm Reset Password With Code
 
