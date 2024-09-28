@@ -167,6 +167,19 @@ form-password-sr-not-common-message = Hesło njesmě zhromadnje wužiwane hesło
 form-password-sr-requirements-met = Zapodate hesło wšě žadanja na hesło respektuje.
 form-password-sr-passwords-match = Zapodate hesła su jenake.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Hesło
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Hesło wospjetować
+form-password-with-inline-criteria-signup-submit-button = Konto załožić
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nowe hesło
+form-password-with-inline-criteria-confirm-password =
+    .label = Hesło wobkrućić
+form-password-with-inline-criteria-reset-submit-button = Nowe hesło wutworić
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +333,13 @@ password-strength-balloon-not-email = Nic waša e-mejlowa adresa
 password-strength-balloon-not-common = Nic husto wužiwane hesło
 password-strength-balloon-stay-safe-tips = Wostańće wěsty – Njewužiwajće hesła wjacekróć. Hlejće dalše pokiwy, zo byšće <LinkExternal>sylne hesła wutworił</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = Waše hesło je so wróćo stajiło
 ready-complete-set-up-instruction = Zapodajće swoje nowe hesło na swojich druhich gratach { -brand-firefox }, zo byšće zarjadowanje dokónčił.
-ready-start-browsing-button = Přehladowanje započeć
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +387,10 @@ flow-recovery-key-hint-char-limit-error = Pokiw dyrbi mjenje hač 255 znamješko
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Pokiw njesmě njewěste znamješka Unicode wobsahować. Jenož pismiki, ličby, interpunkciske znamješka a symbole su dowolene.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -1305,37 +1324,16 @@ third-party-auth-callback-message = Prošu čakajće, budźeće so k awtorizowan
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Stajće hesło z kontowym wobnowjenskim klučom wróćo, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Stajće hesło z kontowym wobnowjenskim klučom wróćo, <span>zo byšće z { $serviceName } pokročował</span>
-account-recovery-confirm-key-instructions-2 = Prošu zapodajće kontowy wobnowjenski kluč za jónkróćne wužiće, kotryž sće na wěstym městnje składował, zo byšće přistup k swojemu  { -product-mozilla-account(case: "dat", captalization: "lower)") } měł.
-account-recovery-confirm-key-warning-message = <span>KEDŹBU:</span> Jeli sće swoje hesło wróćo stajił a njejsće swój kontowy wobnowjenski kluč składował, so někotre z wašich datow zhašeja (inkluziwnje synchronizowane serwerowe daty kaž historiju a zapołožki).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Zapodajće kontowy wobnowjenski kod
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Kontowy wobnowjenski kluč wobkrućić
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Nimaće kontowy wobnowjenski kluč?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Nowe hesło wutworić
-complete-reset-password-warning-message-2 = <span>Njezaywajśo:</span> Hdyž swoje hesło wróćo stajeće, stajiće swoje konto wróćo. Móžeće někotre z wašich wosobinskich datow zhubić (na přikład historiju, zapołožki a hesła). Tohodla zaklučujemy waše daty z wašim hesłom, zo bychmy wašu priwatnosć škitali. Waše abonementy, kotrež snano maće, wobchowaće a daty { -product-pocket } njejsu potrjechene.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Hesło je so nastajiło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bohužel je při stajenju wašeho hesła problem nastał
-complete-reset-password-recovery-key-error-v2 = Bohužel je při přepruwowanju, hač kontowy wobnowjenski kluč maće, problem nastał.
-complete-reset-password-recovery-key-link = Stajće swoje hesło ze swojim kontowym wobnowjenskim klučom wróćo.
-account-restored-success-message = Sće wuspěšnje swoje konto z pomocu swojeho kontoweho wobnowjenskeho kluča wobnowił. Wutworće nowe hesło, zo byšće swoje daty zawěsćił a składujće jo na wěstym městnje.
 
 ## Confirm Reset Password With Code
 
