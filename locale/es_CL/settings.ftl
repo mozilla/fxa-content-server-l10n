@@ -405,6 +405,11 @@ flow-recovery-key-hint-unsafe-char-error = La sugerencia no puede contener carac
 password-reset-warning-icon = Advertencia
 password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
+password-reset-data-may-not-be-recovered = Tus datos de navegación podrían no ser recuperados
+password-reset-previously-signed-in-device = ¿Tienes un dispositivo desde el cual te hayas conectado anteriormente?
+password-reset-data-may-be-saved-locally = Es posible que los datos de tu navegador se guarden localmente en ese dispositivo. Conéctate allí con tu nueva contraseña para restaurarlos y sincronizarlos.
+password-reset-no-old-device = ¿Tienes un dispositivo nuevo pero no tienes el antiguo?
+password-reset-encrypted-data-cannot-be-recovered = Lo sentimos, pero no es posible recuperar los datos cifrados de tu navegador desde los servidores de { -brand-firefox }. Sin embargo, aún puedes acceder a tus datos locales en cualquier dispositivo desde el que te hayas conectado previamente.
 password-reset-learn-about-restoring-account-data = Aprende más sobre la  restauración de datos de cuenta
 
 ## Alert Bar
