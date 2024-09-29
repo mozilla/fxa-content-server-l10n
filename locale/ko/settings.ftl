@@ -1427,7 +1427,16 @@ signin-totp-code-required-error = 인증 코드 필요함
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = 이 로그인 승인
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = { $email } 메일로 전송된 인증 코드를 확인하세요.
+signin-unblock-code-input = 인증 코드 입력
 signin-unblock-submit-button = 계속
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = 인증 코드 필요
+signin-unblock-code-incorrect-length = 인증 코드는 8글자여야 합니다.
+signin-unblock-code-incorrect-format-2 = 인증 코드에는 문자 및/또는 숫자만 사용할 수 있습니다.
+signin-unblock-resend-code-button = 받은편지함 또는 스팸함에 없나요? 다시 보내기
+signin-unblock-support-link = 이런 일이 왜 일어나나요?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1435,9 +1444,25 @@ signin-unblock-submit-button = 계속
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = 확인 코드를 입력하세요.
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span> 확인 코드를 입력하세요.
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = 5분 이내에 { $email } 메일로 전송된 코드를 입력하세요.
+confirm-signup-code-input-label = 6자리 숫자 코드 입력
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 확인
+confirm-signup-code-code-expired = 코드가 만료되었나요?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = 이메일로 새 코드를 받으세요.
+confirm-signup-code-success-alert = 성공적으로 계정이 확인되었습니다.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = 확인 코드가 필요합니다.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = 비밀번호 설정
