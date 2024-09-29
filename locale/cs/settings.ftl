@@ -1452,8 +1452,8 @@ signin-push-code-send-email-link = Kód e-mailu
 
 signin-push-code-confirm-instruction = Potvrďte své přihlášení
 signin-push-code-confirm-description = Zjistili jsme pokus o přihlášení z následujícího zařízení. Pokud jste to byli vy, potvrďte přihlášení
-signin-push-code-confirm-verifying = Ověřování
-signin-push-code-confirm-login = Potvrďte přihlášení
+signin-push-code-confirm-verifying = Ověřuje se
+signin-push-code-confirm-login = Potvrdit přihlášení
 signin-push-code-confirm-wasnt-me = Toto jsem nebyl(a) já, změnit heslo.
 signin-push-code-confirm-login-approved = Vaše přihlašovací údaje byly schváleny. Zavřete prosím toto okno.
 signin-push-code-confirm-link-error = Odkaz je poškozen. Zkuste to prosím znovu.
