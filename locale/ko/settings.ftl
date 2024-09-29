@@ -1355,6 +1355,10 @@ reset-password-with-recovery-key-verified-continue-to-account = 내 계정으로
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = 오류:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = 로그인 확인 중…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = 인증 오류
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = 인증 링크가 만료됨
 
