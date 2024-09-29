@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-27 18:14+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2024-09-29 17:55+0000\n"
+"Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -2091,7 +2091,7 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr "Stáhněte si Firefox"
+msgstr "Stáhnout Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."

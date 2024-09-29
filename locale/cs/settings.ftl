@@ -257,7 +257,7 @@ inline-recovery-key-setup-create-header = Zabezpečte svůj účet
 inline-recovery-key-setup-create-subheader = Máte minutku na ochranu svých údajů?
 inline-recovery-key-setup-info = Vytvořte si obnovovací klíč k účtu, abyste mohli obnovit synchronizovaná data procházení, pokud zapomenete heslo.
 inline-recovery-key-setup-start-button = Vytvořit obnovovací klíč k účtu
-inline-recovery-key-setup-later-button = Udělejte to později
+inline-recovery-key-setup-later-button = Udělám to později
 
 ## Input Password
 
@@ -1360,7 +1360,7 @@ complete-reset-password-success-alert = Heslo nastaveno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Vaše heslo se nepodařilo nastavit
-password-reset-could-not-determine-account-recovery-key = Získali jste svůj obnovovací klíč k účtu?
+password-reset-could-not-determine-account-recovery-key = Máte klíč pro obnovení účtu?
 password-reset-use-account-recovery-key = Obnovte své heslo a uschovejte svá data
 
 ## Confirm Reset Password With Code
