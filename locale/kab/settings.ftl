@@ -34,7 +34,15 @@ brand-m-logo =
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Sader syen kemmel
+    .title = Sader syen kemmel
 recovery-key-pdf-heading = Tasarut n tririt n umiḍan
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Yettusirew: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Tasarut n tririt n umiḍan
 
@@ -124,10 +132,28 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Wennez awal uffir
 form-reset-password-with-balloon-match-error = Awalen uffiren ur mṣadan ara
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Awal uffir
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Sekcem tikelt nniḍen awal uffir
+form-password-with-inline-criteria-signup-submit-button = Rnu amiḍan
+form-password-with-inline-criteria-reset-new-password =
+    .label = Awal uffir amaynut
+form-password-with-inline-criteria-confirm-password =
+    .label = Sentem awal uffir
+form-password-with-inline-criteria-reset-submit-button = Sekcem awal uffir amaynut
+form-password-with-inline-criteria-match-error = Awalen uffiren ur mṣadan ara
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Urti-a yettwasra
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -147,6 +173,15 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox = Teqqneḍ ɣer { -brand-firefox }
+inline-recovery-key-setup-create-header = Seɣles amiḍan-ik
+inline-recovery-key-setup-start-button = Rnu tasarut n tririt n umiḍan
+inline-recovery-key-setup-later-button = Ticki
 
 ## Input Password
 
@@ -197,6 +232,9 @@ primary-email-confirmation-link-reused = Imayl amezwaru ittwasentem yakan
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tuqqna tettwasentem yakan
 confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yir tuttra
 
@@ -209,10 +247,15 @@ error-bad-request = Yir tuttra
 password-strength-balloon-min-length = Ma drus 8 yisekkilen
 password-strength-balloon-not-email = Mačči d tansa-k·m n yimayl
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Ma drus 8 yisekkilen
+password-strength-inline-not-email = Mačči d tansa-k·m n yimayl
+
 ## Ready component
 
 reset-password-complete-header = Awla inek uffir yettuwennez
-ready-start-browsing-button = Bdu tunigin
+manage-your-account-button = Sefrek amiḍan-ik·im
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -223,6 +266,24 @@ ready-continue = Kemmel
 sign-in-complete-header = Tuqqna tentem
 sign-up-complete-header = Amiḍan ittwasentem
 primary-email-verified-header = Imayl agejdan yettwasentem
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-storage-ideas-pwd-manager = Amsefrak n wawal uffir
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Fak
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Alɣu
 
 ## Alert Bar
 
@@ -240,6 +301,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = Ifarisen n { -brand-mozilla }
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -251,9 +313,6 @@ bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Awi { -brand-firefox } uziraz akked tfelwit n uselkim
-connect-another-find-fx-mobile =
-    Af-d { -brand-firefox } deg { -google-play } akked { -app-store } neɣ
-    <br /><linkExternal>azen aseɣwen n usadar ɣer yibenk-ik·im.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -323,13 +382,15 @@ cs-sign-out-button = Ffeɣ
 ## Data collection section
 
 dc-heading = Alqaḍ d useqdec n yisefka
-dc-subheader-2 = Allel i usnerni { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Iminig { -brand-firefox }
 dc-subheader-content-2 = Sireg { -product-mozilla-accounts } i tuzna n yisefka itiknikanen d umyigew ɣer { -brand-mozilla }.
 dc-opt-in-out-error-2 = Nesḥassef, yella wugur deg usali n yismenyafen-ik•im n ulqaḍ n yisefka
 dc-learn-more = Issin ugar
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = Umuɣ n { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -345,6 +406,9 @@ flow-container-back = Uɣal ɣer deffir
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-input-label = Sekcem awal-ik uffir
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Rnu tasarut n tririt n umiḍan
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -352,9 +416,11 @@ flow-container-back = Uɣal ɣer deffir
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Tasarut n tririt n umiḍan tettwarna
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -614,6 +680,13 @@ tfa-enter-recovery-code-1 =
 ##
 
 
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Bdu
+
 ## Profile section
 
 profile-heading = Amaɣnu
@@ -666,6 +739,8 @@ rk-header-1 = Tasarut n tririt n umiḍan
 rk-enabled = Yettwarmed
 rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Snifel
 rk-action-remove = Kkes
 rk-key-removed-2 = Tasarutt n tririt n umiḍan tettwakkes
 rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
@@ -753,10 +828,6 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Amiḍan arussin
@@ -809,6 +880,12 @@ connect-another-device-not-now-link = Mačči tura
 cookies-disabled-button-try-again = Ɛreḍ tikelt nniḍen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Issin ugar
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -928,47 +1005,13 @@ pair-unsupported-header = Cudd s usnas
 
 ## AccountRecoveryConfirmKey page
 
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Sekcem tasarut n tririt n umiḍan
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Sentem tasarut n tririt n umiḍan
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Sekcem awal uffir amaynut
-account-restored-success-message = Terriḍ-d akken iwata amiḍan-ik·im s tsarutt n tririt n umiḍan. Rnu awal uffir amaynut akken ad ilin isefka-inek/inem d iɣelsanen, sekles-it deg umḍiq iwatan.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Awal uffir yettusbadu
-account-recovery-reset-password-redirecting = Awelleh iteddu
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Sekcem awal uffir amaynut
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Awal uffir yettusbadu
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Wennez imayl yettwaznen
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Sit ɣef useɣwen i k-d-nuzen ɣer { $email } akka di kra n usrag akken ad ternuḍ awal uffir amaynut.
-
-## ResetPassword page
-
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Imayl
-reset-password-button = Bdu awennez
-reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
-reset-password-with-recovery-key-verified-generate-new-key = Sirew tasarut n tririt n umiḍan tamaynut
-reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umiḍan-iw
 
 ## Confirm Reset Password With Code
 
@@ -986,6 +1029,9 @@ confirm-reset-password-otp-different-account-link = Seqdec amiḍan nniḍen
 password-reset-flow-heading = Wennez awal uffir-ik
 password-reset-email-input =
     .label = Sekcem imayl inek
+reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
+reset-password-with-recovery-key-verified-generate-new-key = Sirew tasarut n tririt n umiḍan tamaynut
+reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umiḍan-iw
 
 ## CompleteSignin component
 
@@ -1022,6 +1068,13 @@ report-signin-submit-button = Mmel-aɣ-d armud
 report-signin-support-link = Acuɣeṛ i d-iḍerru waya?
 signin-bounced-create-new-account = Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut
 back = Ɣer deffir
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
