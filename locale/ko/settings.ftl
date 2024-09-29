@@ -1361,11 +1361,18 @@ validating-signin = 로그인 확인 중…
 complete-signin-error-header = 인증 오류
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = 인증 링크가 만료됨
+signin-link-expired-message-2 = 클릭한 링크가 만료되었거나 이미 사용되었습니다.
 
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비밀번호를 입력하세요
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span>로 계속
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = { $serviceName }로 계속
 signin-button = 로그인
 signin-password-button-label = 비밀번호
 
