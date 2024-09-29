@@ -305,6 +305,7 @@ confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 
 
 account-recovery-notification-cta = 생성
 account-recovery-notification-header-value = 비밀번호를 잊어버려도 데이터를 지킬 수 있습니다.
+account-recovery-notification-header-description = 계정 복구 키를 만들어 비밀번호를 잊어버렸을 때 동기화 브라우징 데이터를 복원하세요.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 잘못된 요청
 
@@ -1112,6 +1113,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = 이런! 계정 복구 키를 만들지 못했습니다. 잠시 후에 다시 시도해 주세요.
+inline-recovery-key-setup-recovery-created = 계정 복구 키 생성됨
+inline-recovery-key-setup-download-header = 계정을 보호하세요.
+inline-recovery-key-setup-download-subheader = 지금 다운로드하고 저장하세요.
+inline-recovery-key-setup-download-info = 이 키를 기억할 수 있는 곳에 저장하세요. 나중에 이 페이지로 돌아올 수 없습니다.
+inline-recovery-key-setup-hint-header = 보안 관련 권장 사항
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1260,9 +1267,20 @@ pair-already-have-firefox-paragraph = 이미 스마트폰이나 태블릿에 { -
 pair-sync-your-device-button = 기기 동기화
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = 또는 다운로드
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = 스캔하여 모바일용 { -brand-firefox }를 다운로드하거나 자신에게 <linkExternal>다운로드 링크</linkExternal>를 보내세요.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = 지금 안 함
+pair-take-your-data-message = { -brand-firefox }를 사용하는 어디에서나 사용자의 탭, 북마크, 비밀번호 데이터를 이용하세요.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = 시작하기
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR 코드
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = 기기 연결됨
+pair-success-message-2 = 페어링에 성공했습니다.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
