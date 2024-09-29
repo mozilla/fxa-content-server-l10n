@@ -373,7 +373,7 @@ flow-recovery-key-download-storage-ideas-heading-v2 = Orte zum Speichern Ihres S
 flow-recovery-key-download-storage-ideas-folder-v2 = Ordner auf sicherem Gerät
 flow-recovery-key-download-storage-ideas-cloud = Vertrauenswürdiger Cloud-Speicher
 flow-recovery-key-download-storage-ideas-print-v2 = Gedruckte Kopie
-flow-recovery-key-download-storage-ideas-pwd-manager = Passwort-Manager
+flow-recovery-key-download-storage-ideas-pwd-manager = Passwortverwaltung
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
