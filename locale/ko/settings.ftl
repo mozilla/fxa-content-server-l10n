@@ -1414,10 +1414,19 @@ signin-token-code-confirm-button = 확인
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-instruction-v2 = 인증 앱을 열고 제공된 인증 코드를 입력하세요.
+signin-totp-code-input-label-v2 = 6자리 숫자 코드 입력
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = 확인
+signin-totp-code-other-account-link = 다른 계정 사용
+signin-totp-code-recovery-code-link = 코드 입력에 문제가 있으신가요?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = 인증 코드 필요함
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = 이 로그인 승인
 signin-unblock-submit-button = 계속
 
 ## ConfirmSignupCode page
