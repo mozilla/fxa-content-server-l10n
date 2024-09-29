@@ -167,6 +167,9 @@ form-password-sr-not-common-message = 비밀번호는 너무 일반적인 비밀
 form-password-sr-requirements-met = 입력한 비밀번호는 모든 요건을 충족합니다.
 form-password-sr-passwords-match = 입력한 비밀번호가 일치합니다.
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -175,6 +178,16 @@ form-verify-code-default-error = 필수 항목입니다
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = 계속하려면 { $codeLength }자리 코드를 입력하세요.
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = 계속하려면 { $codeLength }글자의 코드를 입력하세요.
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -211,6 +224,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = 계정 복구 키를 나타내는 그림입니다.
+password-image-aria-label =
+    .aria-label = 비밀번호 입력을 표현한 그림입니다.
 lightbulb-aria-label =
     .aria-label = 저장소 힌트 생성을 표현한 그림입니다.
 email-code-image-aria-label =
@@ -220,6 +235,13 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = { -brand-firefox }에 로그인했습니다.
+inline-recovery-key-setup-create-header = 계정을 보호하세요.
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = 잠시 시간을 내어 데이터를 보호하세요.
+inline-recovery-key-setup-info = 비밀번호를 잊어버렸을 때 동기화 브라우징 데이터를 복원할 수 있도록 계정 복구 키를 만드세요.
+inline-recovery-key-setup-start-button = 계정 복구 키 생성
+inline-recovery-key-setup-later-button = 나중에
 
 ## Input Password
 
@@ -281,6 +303,8 @@ confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = 생성
+account-recovery-notification-header-value = 비밀번호를 잊어버려도 데이터를 지킬 수 있습니다.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 잘못된 요청
 
@@ -298,11 +322,13 @@ password-strength-balloon-not-email = 사용자의 이메일 주소가 아니어
 password-strength-balloon-not-common = 흔히 사용되는 비밀번호가 아니어야 합니다
 password-strength-balloon-stay-safe-tips = 안전을 위해 — 비밀번호를 재사용하지 마세요. <linkExternal>강력한 비밀번호를 생성</linkExternal>하는 방법에 대해 알아보세요.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = 비밀번호가 재설정되었습니다
 ready-complete-set-up-instruction = 다른 { -brand-firefox } 기기에 새 비밀번호를 입력하여 설정을 완료하세요.
-ready-start-browsing-button = 탐색 시작
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -350,6 +376,10 @@ flow-recovery-key-hint-char-limit-error = 힌트는 255자 미만이어야 합�
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = 힌트에는 안전하지 않은 유니코드 문자가 포함될 수 없습니다. 문자, 숫자, 구두점 및 기호만 허용됩니다.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
