@@ -1387,39 +1387,95 @@ signin-password-button-label = 비밀번호
 report-signin-link-damaged-body = 클릭한 링크에 빠진 글자가 있습니다. 이메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요.
 report-signin-header = 승인되지 않은 로그인을 보고하시겠습니까?
 report-signin-body = 계정에 접속하려는 시도에 대한 이메일을 받았습니다. 의심스러운 활동으로 보고하시겠습니까?
+report-signin-submit-button = 활동내역 보고
+report-signin-support-link = 이런 일이 왜 일어나나요?
+report-signin-error = 죄송합니다. 보고서를 제출하는 중에 문제가 발생했습니다.
+signin-bounced-header = 죄송합니다. 계정이 잠겼습니다.
+# $email (string) - The user's email.
+signin-bounced-message = { $email } 메일로 전송한 인증 메일이 반송되어 사용자의 { -brand-firefox } 데이터를 보호하기 위해 계정을 잠갔습니다.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = 이메일이 올바른 경우 <linkExternal>알려 주시면</linkExternal> 계정 잠금을 해제할 수 있습니다.
+signin-bounced-create-new-account = 더 이상 사용하는 이메일이 아닌가요? 새 계정 만들기
 back = 뒤로
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = 로그인을 확인하여 <span>계정 설정 계속하기</span>
+signin-push-code-heading-w-custom-service = 로그인을 확인하여 <span>{ $serviceName } 계속하기</span>
+signin-push-code-instruction = 다른 기기를 확인하여 { -brand-firefox } 브라우저에서 이 로그인을 승인하세요.
+signin-push-code-did-not-recieve = 알림을 못 받으셨나요?
+signin-push-code-send-email-link = 이메일 코드
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = 로그인 확인
+signin-push-code-confirm-description = 다음 기기에서의 로그인 시도를 감지했습니다. 본인이라면 로그인을 승인해 주세요.
+signin-push-code-confirm-verifying = 확인중
+signin-push-code-confirm-login = 로그인 확인
+signin-push-code-confirm-wasnt-me = 제가 아닙니다. 비밀번호를 변경해 주세요.
+signin-push-code-confirm-login-approved = 로그인이 승인되었습니다. 이 창을 닫아 주세요.
+signin-push-code-confirm-link-error = 링크가 손상되었습니다. 다시 시도하세요.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = 백업 인증 코드를 입력하고 <span>계정 설정을 계속하세요</span>.
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = 백업 인증 코드를 입력하고 <span>{ $serviceName }을 계속하세요</span>.
+signin-recovery-code-instruction = 2단계 인증 설정 과정에서 제공된 백업 인증 코드를 입력하세요.
+signin-recovery-code-input-label = 10자리 백업 인증 코드를 입력하세요.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 확인
 # Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = 뒤로
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = 접근이 불가능한 상태이신가요?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = 백업 인증 코드 필요
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = 의견을 보내 주셔서 감사합니다.
+signin-reported-message = 우리 팀에 통보되었습니다. 이와 같은 보고서는 우리가 침입자를 방어하는데 도움이 됩니다.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> 확인 코드를 입력하세요.
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = 5분 이내에 { $email }으로 전송된 코드를 입력하세요.
+signin-token-code-input-label-v2 = 6자리 숫자 코드 입력
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 확인
+signin-token-code-code-expired = 코드가 만료되었나요?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = 이메일로 새 코드를 받으세요.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = 확인 코드 필요
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = <span>계정 설정을 계속하려면</span> 인증 코드를 입력하세요.
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = <span> { $serviceName } 서비스를</span> 계속하려면 인증 코드를 입력하세요.
 signin-totp-code-instruction-v2 = 인증 앱을 열고 제공된 인증 코드를 입력하세요.
 signin-totp-code-input-label-v2 = 6자리 숫자 코드 입력
 # Form button to confirm if the authentication code entered by the user is valid
