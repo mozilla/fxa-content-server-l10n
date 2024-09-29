@@ -1446,7 +1446,7 @@ signin-push-code-heading-w-default-service = <span>Pro pokračování do nastave
 signin-push-code-heading-w-custom-service = Ověřte tyto přihlašovací údaje <span>a pokračujte do služby { $serviceName }</span>
 signin-push-code-instruction = Zkontrolujte prosím svá ostatní zařízení a schvalte toto přihlášení z prohlížeče { -brand-firefox }.
 signin-push-code-did-not-recieve = Nedostali jste oznámení?
-signin-push-code-send-email-link = Kód e-mailu
+signin-push-code-send-email-link = Odeslat kód na e-mail
 
 ## SigninPushCodeConfirmPage
 
