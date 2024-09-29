@@ -1286,19 +1286,29 @@ pair-success-message-2 = 페어링에 성공했습니다.
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = <span>{ $email }에 대한</span> 페어링 확인
+pair-supp-allow-confirm-button = 페어링 확인
 pair-supp-allow-cancel-link = 취소
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = 이제 <span>다른 기기</span>에서 승인이 필요합니다.
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = 앱으로 페어링
+pair-unsupported-message = 기본 카메라를 쓰셨습니까? { -brand-firefox } 앱 안의 카메라로 페어링해야 합니다.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = 잠시만 기다려 주세요. 승인된 애플리케이션으로 리디렉션되는 중입니다.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1306,15 +1316,40 @@ pair-supp-allow-cancel-link = 취소
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = 비밀번호 설정
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = 죄송합니다. 비밀번호를 설정하는 중 문제가 발생했습니다.
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = 이메일을 확인하세요.
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = <span>{ $email }</span> 메일로 확인 코드를 보냈습니다.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = 10분 이내에 8자리 숫자 코드를 입력하세요.
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = 계속
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = 코드 재전송
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = 다른 계정 사용
 
 ## ResetPassword start page
 
+password-reset-flow-heading = 비밀번호 재설정
+password-reset-body = 이메일을 입력하시면 본인 확인용 확인 코드를 보내드립니다.
+password-reset-email-input =
+    .label = 이메일 입력
+password-reset-submit-button = 재설정 가이드 전송
+reset-password-with-recovery-key-verified-page-title = 비밀번호 재설정 성공
+reset-password-with-recovery-key-verified-generate-new-key = 새 계정 복구 키 생성
+reset-password-with-recovery-key-verified-continue-to-account = 내 계정으로 이동
 
 ## CompleteSignin component
 
