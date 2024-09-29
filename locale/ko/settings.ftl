@@ -1373,7 +1373,10 @@ signin-subheader-with-logo = <span>{ $serviceLogo }</span>로 계속
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName }로 계속
+signin-subheader-without-logo-default = 계정 설정 계속하기
 signin-button = 로그인
+signin-use-a-different-account-link = 다른 계정 사용
+signin-forgot-password-link = 비밀번호를 잊으셨나요?
 signin-password-button-label = 비밀번호
 
 ## ReportSignin Page
@@ -1381,6 +1384,9 @@ signin-password-button-label = 비밀번호
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = 클릭한 링크에 빠진 글자가 있습니다. 이메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요.
+report-signin-header = 승인되지 않은 로그인을 보고하시겠습니까?
+report-signin-body = 계정에 접속하려는 시도에 대한 이메일을 받았습니다. 의심스러운 활동으로 보고하시겠습니까?
 back = 뒤로
 
 ## SigninPushCode page
@@ -1466,3 +1472,14 @@ confirm-signup-code-is-required-error = 확인 코드가 필요합니다.
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = 비밀번호 설정
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = 계정을 생성해야 하는 이유가 궁금하신가요? <LinkExternal>여기서 이유를 알아보세요</LinkExternal>.
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = 이메일 변경
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = 나이가 어떻게 되세요?
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = 왜 이것을 확인하나요?
