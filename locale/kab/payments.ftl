@@ -6,6 +6,7 @@
 ## Component - AppLayout
 
 settings-home = Asebter agejdan n umiḍan
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -27,6 +28,7 @@ input-error-is-required = { $label } ilaq
 
 ## Component - Header
 
+brand-name-mozilla-logo = alugu { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
@@ -111,6 +113,7 @@ payment-cc =
 payment-cancel-btn = Sefsex
 payment-update-btn = Leqqem
 payment-pay-btn = Sellek tura
+payment-pay-with-paypal-btn-2 = Xelleṣ { -brand-paypal }
 payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
 
 ## Component - PaymentLegalBlurb

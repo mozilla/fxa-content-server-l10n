@@ -827,6 +827,12 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = neɣ
+continue-with-google-button = Kemmel s { -brand-google }
+continue-with-apple-button = Kemmel s { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -843,8 +849,11 @@ auth-error-114 = Tɛerḍeḍ aṭas n tikkal. Ttxil-k·m ɛreḍ tikkelt-nniḍ
 auth-error-138-2 = Tiɣimit ur nettwasentem ara
 auth-error-139 = Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan
 auth-error-155 = Ulac ajiṭun TOTP
+auth-error-159 = Yir tasarut n tririt n umiḍan
 auth-error-183-2 = Tangalt n usentem d tarameɣtut neɣ temmut
 auth-error-999 = Tuccḍa ur nettwaṛǧi ara
+auth-error-1001 = Aɛraḍ n unekcum yettwasefsex
+auth-error-1002 = Tiɣimit tezri. Qqen tikelt nniden akken ad tkemleḍ.
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
 auth-error-1010 = Awal uffir ameɣtu yettwasra
 auth-error-1011 = Imayl ameɣtu ilaq
@@ -862,6 +871,8 @@ cannot-create-account-learn-more-link = Issin ugar
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Teqqneḍ ɣer { -brand-firefox }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Yettwasentem yimayl
 # A "success" message visible to users who verified via sign-in
@@ -883,9 +894,21 @@ cookies-disabled-learn-more = Issin ugar
 
 ## Index / home page
 
+index-header = Sekcem imayl inek
+index-sync-header = Kemmel ɣer umiḍan-ik { -product-mozilla-account }
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Kemmel ɣer { $serviceName }
+index-subheader-with-logo = Kemmel ɣer <span>{ $serviceLogo }</span>
+index-subheader-default = Kemmel ɣer yiɣewwaren n umiḍan
+index-cta = Kcem neɣ qqen
+index-email-input =
+    .label = Sekcem imayl inek
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Tasarut n tririt n umiḍan tettwarna
+inline-recovery-key-setup-download-header = Seɣles amiḍan-ik
+inline-recovery-key-setup-download-subheader = Sader-it syen ḥrez-it tura
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1121,6 +1144,7 @@ signin-totp-code-recovery-code-link = Ugur deg usekcem n tengalt?
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Sireg ajerred-agi
+signin-unblock-support-link = Acuɣeṛ i d-iḍerru waya?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1128,12 +1152,17 @@ signin-unblock-header = Sireg ajerred-agi
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Sekcem tangalt n usentem
 confirm-signup-code-input-label = Sekcem tangalt s 6-izwilen
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Sentem
 confirm-signup-code-code-expired = Tangalt temmut?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Azen tangalt tamaynut.
+confirm-signup-code-success-alert = Yettwasentem umiḍan akken iwata
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Tangalt n usentem tettwasra
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
