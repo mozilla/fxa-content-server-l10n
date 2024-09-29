@@ -409,7 +409,7 @@ password-reset-data-may-not-be-recovered = Es posible que no se recuperen los da
 password-reset-previously-signed-in-device = ¿Tenés un dispositivo en el que iniciaste sesión anteriormente?
 password-reset-data-may-be-saved-locally = Los datos de navegador pueden guardarse localmente en ese dispositivo. Iniciá sesión ahí con tu nueva contraseña para restaurar y sincronizar.
 password-reset-no-old-device = ¿Tenés un dispositivo nuevo pero no tenés el anterior?
-password-reset-encrypted-data-cannot-be-recovered = Lo sentimos, pero los datos cifrados del navegador en los servidores de { -brand-firefox } no pueden recuperarse. Sin embargo, aún puedes acceder a tus datos locales en cualquier dispositivo en el que hayas iniciado sesión previamente.
+password-reset-encrypted-data-cannot-be-recovered = Lo sentimos, pero los datos cifrados del navegador en los servidores de { -brand-firefox } no pueden recuperarse. Sin embargo, aún podés acceder a tus datos locales en cualquier dispositivo en el que hayás iniciado sesión previamente.
 password-reset-learn-about-restoring-account-data = Conocer más sobre cómo restaurar los datos de la cuenta
 
 ## Alert Bar
