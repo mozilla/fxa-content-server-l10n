@@ -1337,14 +1337,14 @@ third-party-auth-callback-message = Čekejte prosím, budete přesměrováni na 
 
 ## AccountRecoveryConfirmKey page
 
-account-recovery-confirm-key-heading = Zadejte obnovovací klíč k účtu
+account-recovery-confirm-key-heading = Zadejte váš obnovovací klíč k účtu
 account-recovery-confirm-key-instruction = Tento klíč obnovuje vaše zašifrovaná data o prohlížení, jako jsou hesla a záložky, ze serverů { -brand-firefox(case: "gen") }.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = Zadejte 32místný obnovovací klíč k účtu
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
-account-recovery-confirm-key-hint = Vaše tipy na úložiště je:
+account-recovery-confirm-key-hint = Vaše nápověda k uložení je:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Pokračovat
 # Link that leads to the password reset page (without recovery code)
