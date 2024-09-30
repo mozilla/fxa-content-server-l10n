@@ -181,7 +181,7 @@ form-password-with-inline-criteria-confirm-password =
 form-password-with-inline-criteria-reset-submit-button = Créer un nouveau mot de passe
 form-password-with-inline-criteria-match-error = Les mots de passe ne correspondent pas
 form-password-with-inline-criteria-sr-too-short-message = Le mot de passe doit contenir au moins 8 caractères.
-form-password-with-inline-criteria-sr-not-email-message = Le mot de passe ne doit pas contenir votre adresse email.
+form-password-with-inline-criteria-sr-not-email-message = Le mot de passe ne doit pas contenir votre adresse e-mail.
 form-password-with-inline-criteria-sr-not-common-message = Le mot de passe ne doit pas être un mot de passe trop commun.
 form-password-with-inline-criteria-sr-requirements-met = Le mot de passe saisi respecte toutes les exigences en matière de mots de passe.
 form-password-with-inline-criteria-sr-passwords-match = Les mots de passe saisis correspondent.
@@ -403,13 +403,13 @@ flow-recovery-key-hint-unsafe-char-error = L’indice ne peut pas contenir de ca
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Avertissement
-password-reset-chevron-expanded = Réduction de l’avertissement
+password-reset-chevron-expanded = Réduire l’avertissement
 password-reset-chevron-collapsed = Développer l’avertissement
-password-reset-data-may-not-be-recovered = Les données de votre navigateur n’ont peut-être pas été récupérées
+password-reset-data-may-not-be-recovered = Les données de votre navigateur pourraient ne pas été récupérées
 password-reset-previously-signed-in-device = Vous disposez d’un appareil sur lequel vous vous êtes déjà connecté·e ?
-password-reset-data-may-be-saved-locally = Les données de votre navigateur peuvent être enregistrées localement sur cet appareil. Connectez-vous avec votre nouveau mot de passe à restaurer et à synchroniser.
-password-reset-no-old-device = Vous avez un nouvel appareil, mais vous n’avez plus votre ancien appareil ?
-password-reset-encrypted-data-cannot-be-recovered = Nous sommes désolés, mais vos données de navigateur chiffrées sur les serveurs de { -brand-firefox } ne peuvent pas être récupérées. Cependant, vous pouvez toujours accéder à vos données locales sur n’importe quel appareil sur lequel vous vous êtes déjà connecté.
+password-reset-data-may-be-saved-locally = Les données de votre navigateur peuvent être enregistrées localement sur cet appareil. Connectez-vous avec votre nouveau mot de passe pour les restaurer et les synchroniser.
+password-reset-no-old-device = Vous avez un nouvel appareil, mais vous n’avez plus l’ancien ?
+password-reset-encrypted-data-cannot-be-recovered = Nous sommes désolés, mais vos données de navigateur chiffrées sur les serveurs de { -brand-firefox } ne peuvent pas être récupérées. Cependant, vous pouvez toujours accéder à vos données locales sur n’importe quel appareil sur lequel vous vous êtes déjà connecté·e.
 password-reset-learn-about-restoring-account-data = En savoir plus sur la restauration des données de compte
 
 ## Alert Bar

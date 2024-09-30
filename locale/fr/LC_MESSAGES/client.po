@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-27 18:15+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2024-09-30 09:42+0000\n"
+"Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1997,7 +1997,7 @@ msgstr "La configuration n’a pas pu être terminée. Veuillez vous connecter a
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr "Connexion réussie."
+msgstr "Connexion réussie !"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
