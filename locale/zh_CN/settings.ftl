@@ -405,6 +405,11 @@ flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicod
 password-reset-warning-icon = 警告
 password-reset-chevron-expanded = 折叠警告
 password-reset-chevron-collapsed = 展开警告
+password-reset-data-may-not-be-recovered = 您的浏览数据有可能无法恢复
+password-reset-previously-signed-in-device = 还留有以前登录过的设备？
+password-reset-data-may-be-saved-locally = 相应设备可能在本地存有您的浏览数据。在那台设备上使用新密码登录，以恢复数据并同步。
+password-reset-no-old-device = 只有新设备，已不再拥有旧设备？
+password-reset-encrypted-data-cannot-be-recovered = 很抱歉，我们无法恢复 { -brand-firefox } 服务器中加密存储的浏览数据。不过，您仍可访问保存在您以前登录过的设备上的本地数据。
 password-reset-learn-about-restoring-account-data = 详细了解恢复账户数据
 
 ## Alert Bar
