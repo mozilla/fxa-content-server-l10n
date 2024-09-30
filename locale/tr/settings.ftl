@@ -256,6 +256,7 @@ inline-recovery-key-setup-create-header = Hesabınızın güvenliğini sağlayı
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Verilerinizi korumak için bir dakikanızı ayırır mısınız?
 inline-recovery-key-setup-info = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarabilmek için bir hesap kurtarma anahtarı oluşturun.
+inline-recovery-key-setup-start-button = Hesap kurtarma anahtarı oluşturun
 inline-recovery-key-setup-later-button = Daha sonra oluşturacağım
 
 ## Input Password
@@ -319,7 +320,8 @@ confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmı
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Oluştur
-account-recovery-notification-header-value = Parolanızı unutsanız bile verilerinizi kaybetmeyin
+account-recovery-notification-header-value = Parolanızı unutursanız verileriniz kaybolmasın
+account-recovery-notification-header-description = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarmak için bir hesap kurtarma anahtarı oluşturun.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hatalı istek
 
@@ -339,11 +341,15 @@ password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları fa
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = En az 8 karakter
+password-strength-inline-not-email = E-posta adresiniz olmamalı
+password-strength-inline-not-common = Yaygın olarak kullanılan bir parola olmamalı
 
 ## Ready component
 
 reset-password-complete-header = Parolanız sıfırlandı
 ready-complete-set-up-instruction = Yeni parolanızı diğer { -brand-firefox } cihazlarınıza girerek kurulumu tamamlayın.
+manage-your-account-button = Hesabınızı yönetin
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -395,6 +401,9 @@ flow-recovery-key-hint-unsafe-char-error = İpucu güvensiz unicode karakterler 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Uyarı
+password-reset-chevron-expanded = Uyarıyı daralt
+password-reset-chevron-collapsed = Uyarıyı genişlet
 password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
 password-reset-previously-signed-in-device = Daha önce giriş yaptığınız bir cihazınız var mı?
 password-reset-no-old-device = Yeni bir cihaza geçtiniz ama eskisine artık ulaşamıyor musunuz?
@@ -1319,12 +1328,15 @@ third-party-auth-callback-message = Lütfen bekleyin, yetkili uygulamaya yönlen
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Hesap kurtarma anahtarınızı girin
+account-recovery-confirm-key-instruction = Bu anahtar, { -brand-firefox } sunucularındaki parolalarınız ve yer imleriniz gibi şifrelenmiş gezinti verilerinizi kurtarır.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = 32 karakterli hesap kurtarma anahtarınızı girin
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
 account-recovery-confirm-key-hint = Saklama ipucunuz:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = İleri
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link-2 = Hesap kurtarma anahtarınızı bulamıyor musunuz?
 
@@ -1420,11 +1432,18 @@ back = Geri dön
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> bu hesabı doğrulayın
+signin-push-code-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> bu hesabı doğrulayın
+signin-push-code-instruction = Lütfen diğer cihazlarınızı kontrol ederek { -brand-firefox } tarayıcınızdan bu girişi doğrulayın.
 signin-push-code-did-not-recieve = Bildirim almadınız mı?
 signin-push-code-send-email-link = Kodu e-posta ile gönder
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Girişinizi onaylayın
+signin-push-code-confirm-description = Aşağıdaki cihazdan giriş yapılmaya çalışıldığını tespit ettik. Siz yaptıysanız lütfen girişi onaylayın
+signin-push-code-confirm-verifying = Doğrulanıyor
+signin-push-code-confirm-login = Girişi onayla
 signin-push-code-confirm-wasnt-me = Bu ben değilim, parolayı değiştir.
 signin-push-code-confirm-login-approved = Girişiniz onaylandı. Lütfen bu pencereyi kapatın.
 signin-push-code-confirm-link-error = Bağlantı bozulmuş. Lütfen yeniden deneyin.
