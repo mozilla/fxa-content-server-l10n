@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Parolanız yaygın olarak kullanılan bir 
 form-password-sr-requirements-met = Girdiğiniz parola tüm parola gereksinimlerine uygun.
 form-password-sr-passwords-match = Girilen parolalar eşleşiyor.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Parola
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Parola tekrarı
+form-password-with-inline-criteria-signup-submit-button = Hesap oluştur
+form-password-with-inline-criteria-reset-new-password =
+    .label = Yeni parola
+form-password-with-inline-criteria-confirm-password =
+    .label = Parolayı onaylayın
+form-password-with-inline-criteria-reset-submit-button = Yeni parola oluştur
+form-password-with-inline-criteria-match-error = Parolalar uyuşmuyor
+form-password-with-inline-criteria-sr-too-short-message = Parola en az 8 karakterden oluşmalıdır.
+form-password-with-inline-criteria-sr-not-email-message = Parolanız e-posta adresinizi içeremez.
+form-password-with-inline-criteria-sr-not-common-message = Parolanız yaygın olarak kullanılan bir parola olmamalıdır.
+form-password-with-inline-criteria-sr-requirements-met = Girdiğiniz parola tüm parola gereksinimlerine uygun.
+form-password-with-inline-criteria-sr-passwords-match = Girilen parolalar eşleşiyor.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -233,6 +252,10 @@ email-code-image-aria-label =
 ## after signing in.
 
 inline-recovery-key-setup-signed-in-firefox = { -brand-firefox }’a giriş yaptınız
+inline-recovery-key-setup-create-header = Hesabınızın güvenliğini sağlayın
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Verilerinizi korumak için bir dakikanızı ayırır mısınız?
+inline-recovery-key-setup-info = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarabilmek için bir hesap kurtarma anahtarı oluşturun.
 inline-recovery-key-setup-later-button = Daha sonra oluşturacağım
 
 ## Input Password
@@ -314,11 +337,13 @@ password-strength-balloon-not-email = E-posta adresiniz olmamalı
 password-strength-balloon-not-common = Yaygın olarak kullanılan bir parola olmamalı
 password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <LinkExternal>Güçlü parolalar oluşturmak</LinkExternal> için daha fazla ipucu görün.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = Parolanız sıfırlandı
 ready-complete-set-up-instruction = Yeni parolanızı diğer { -brand-firefox } cihazlarınıza girerek kurulumu tamamlayın.
-ready-start-browsing-button = Gezinmeye başla
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -366,6 +391,15 @@ flow-recovery-key-hint-char-limit-error = İpucu 255 karakterden kısa olmalıd�
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = İpucu güvensiz unicode karakterler içeremez. Yalnızca harf, sayı, noktalama işareti ve simge içerebilir.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
+password-reset-previously-signed-in-device = Daha önce giriş yaptığınız bir cihazınız var mı?
+password-reset-no-old-device = Yeni bir cihaza geçtiniz ama eskisine artık ulaşamıyor musunuz?
+password-reset-encrypted-data-cannot-be-recovered = Bu durumda maalesef { -brand-firefox } sunucularındaki şifrelenmiş tarayıcı verileriniz kurtarılamaz. Ancak daha önce giriş yaptığınız cihazlardaki yerel verilerinize erişmeye devam edebilirsiniz.
+password-reset-learn-about-restoring-account-data = Hesap verilerini geri yüklemeyle ilgili daha fazla bilgi alın
 
 ## Alert Bar
 
@@ -1088,6 +1122,7 @@ index-email-input =
 inline-recovery-key-setup-create-error = Hesap kurtarma anahtarınızı oluşturamadık. Lütfen daha sonra yeniden deneyin.
 inline-recovery-key-setup-recovery-created = Hesap kurtarma anahtarı oluşturuldu
 inline-recovery-key-setup-download-header = Hesabınızın güvenliğini sağlayın
+inline-recovery-key-setup-download-subheader = Hemen indirip saklayın
 inline-recovery-key-setup-download-info = Bu anahtarı unutmayacağınız bir yerde saklayın. Daha sonra bu sayfaya geri dönemeyeceksiniz.
 inline-recovery-key-setup-hint-header = Güvenlik önerisi
 
@@ -1283,37 +1318,28 @@ third-party-auth-callback-message = Lütfen bekleyin, yetkili uygulamaya yönlen
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> hesap kurtarma anahtarıyla parolanızı sıfırlayın
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> hesap kurtarma anahtarıyla parolanızı sıfırlayın
-account-recovery-confirm-key-instructions-2 = { -product-mozilla-account }nıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın.
-account-recovery-confirm-key-warning-message = <span>Not:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir.
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Hesap kurtarma anahtarını girin
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Hesap kurtarma anahtarını onaylayın
+account-recovery-confirm-key-heading = Hesap kurtarma anahtarınızı girin
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = 32 karakterli hesap kurtarma anahtarınızı girin
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Saklama ipucunuz:
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Hesap kurtarma anahtarınız yok mu?
+account-recovery-lost-recovery-key-link-2 = Hesap kurtarma anahtarınızı bulamıyor musunuz?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Yeni parola oluştur
-complete-reset-password-warning-message-2 = <span>Unutmayın:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { -product-pocket } verileriniz etkilenmeyecektir.
+complete-reset-pw-header-v2 = Yeni parola oluşturun
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Parola ayarlandı
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
-complete-reset-password-recovery-key-error-v2 = Hesap kurtarma anahtarınızın olup olmadığı kontrol edilirken bir sorun oluştu.
-complete-reset-password-recovery-key-link = Hesap kurtarma anahtarınızla parolanızı sıfırlayın.
-account-restored-success-message = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
+password-reset-could-not-determine-account-recovery-key = Hesap kurtarma anahtarınız var mı?
+password-reset-use-account-recovery-key = Parolanızı sıfırlayıp verilerinizi geri getirin
 
 ## Confirm Reset Password With Code
 
