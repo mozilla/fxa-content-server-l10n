@@ -1347,7 +1347,7 @@ third-party-auth-callback-message = Počakajte, poteka preusmeritev na pooblaš�
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Vnesite ključ za obnovitev računa
-account-recovery-confirm-key-instruction = Ta ključ obnovi šifrirane podatke brskanja, kot so gesla in zaznamki, v strežnikih { -brand-firefox }.
+account-recovery-confirm-key-instruction = Ta ključ obnovi podatke, kot so gesla in zaznamki, ki so šifrirani shranjeni v strežnikih { -brand-firefox(sklon: "rodilnik") }.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
@@ -1460,7 +1460,7 @@ signin-push-code-send-email-link = E-poštna koda
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Potrdite prijavo
-signin-push-code-confirm-description = Zaznali smo poskus prijave naslednje naprave. Če ste bili to vi, odobrite prijavo
+signin-push-code-confirm-description = Z naslednje naprave smo zaznali poskus prijave. Če ste bili to vi, odobrite prijavo
 signin-push-code-confirm-verifying = Potrjevanje
 signin-push-code-confirm-login = Potrdi prijavo
 signin-push-code-confirm-wasnt-me = To nisem bil/-a jaz, spremeni geslo.
