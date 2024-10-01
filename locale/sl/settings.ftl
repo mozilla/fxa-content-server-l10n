@@ -255,7 +255,7 @@ inline-recovery-key-setup-signed-in-firefox = Prijavljeni ste v { -brand-firefox
 inline-recovery-key-setup-create-header = Zavarujte svoj račun
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Imate minuto za zaščito svojih podatkov?
-inline-recovery-key-setup-info = Ustvarite ključ za obnovitev računa, da lahko obnovite podatke brskanja za sinhronizacijo, če kadarkoli pozabite geslo.
+inline-recovery-key-setup-info = Ustvarite ključ za obnovitev računa, ki vam bo omogočal obnoviti sinhronizirane podatke v primeru, da kadarkoli pozabite geslo.
 inline-recovery-key-setup-start-button = Ustvari ključ za obnovitev računa
 inline-recovery-key-setup-later-button = Pozneje
 
@@ -320,8 +320,8 @@ confirmation-link-reused-message = Ta potrditvena povezava je bila že uporablje
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Ustvari
-account-recovery-notification-header-value = Ne izgubite svojih podatkov, če pozabite geslo
-account-recovery-notification-header-description = Ustvarite obnovitveni ključ za obnovitev podatkov brskanja v sinhronizaciji, če pozabite geslo.
+account-recovery-notification-header-value = Ne izgubite podatkov, če pozabite geslo
+account-recovery-notification-header-description = Ustvarite ključ, ki omogoča obnovitev sinhroniziranih podatkov iz računa v primeru, da kadarkoli pozabite geslo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Zahteva z napako
 
@@ -341,7 +341,7 @@ password-strength-balloon-stay-safe-tips = Ostanite varni – ne reciklirajte ge
 
 ## PasswordStrengthBalloon component
 
-password-strength-inline-min-length = vsaj 8 znakov
+password-strength-inline-min-length = vsebuje vsaj 8 znakov
 password-strength-inline-not-email = ni vaš e-poštni naslov
 password-strength-inline-not-common = ni eno od pogostih gesel
 password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslom
@@ -403,8 +403,8 @@ flow-recovery-key-hint-unsafe-char-error = Namig ne sme vsebovati nevarnih znako
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Opozorilo
-password-reset-chevron-expanded = Strni opozorilo
-password-reset-chevron-collapsed = Opozorilo o razširitvi
+password-reset-chevron-expanded = Skrči opozorilo
+password-reset-chevron-collapsed = Razširi opozorilo
 password-reset-data-may-not-be-recovered = Podatkov brskalnika morda ne bo mogoče obnoviti
 password-reset-previously-signed-in-device = Imate napravo, kamor ste se predhodno prijavili?
 password-reset-data-may-be-saved-locally = Podatki brskalnika so lahko shranjeni lokalno na tej napravi. Prijavite se z novim geslom za obnovitev in sinhronizacijo.
