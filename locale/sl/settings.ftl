@@ -406,9 +406,9 @@ password-reset-warning-icon = Opozorilo
 password-reset-chevron-expanded = Skrči opozorilo
 password-reset-chevron-collapsed = Razširi opozorilo
 password-reset-data-may-not-be-recovered = Podatkov brskalnika morda ne bo mogoče obnoviti
-password-reset-previously-signed-in-device = Imate napravo, kamor ste se predhodno prijavili?
-password-reset-data-may-be-saved-locally = Podatki brskalnika so lahko shranjeni lokalno na tej napravi. Prijavite se z novim geslom za obnovitev in sinhronizacijo.
-password-reset-no-old-device = Imate novo napravo, vendar nimate stare?
+password-reset-previously-signed-in-device = Imate napravo, kamor ste se že kdaj prej prijavili?
+password-reset-data-may-be-saved-locally = Podatki brskalnika so morda shranjeni na tej napravi. Prijavite se vanjo z novim geslom, da jih obnovite in sinhronizirate.
+password-reset-no-old-device = Imate novo napravo, nimate pa stare?
 password-reset-encrypted-data-cannot-be-recovered = Žal nam je, toda šifriranih podatkov brskalnika v strežnikih { -brand-firefox } ni mogoče obnoviti. Še vedno pa lahko dostopate do svojih lokalnih podatkov na vseh napravah, v katere ste se predhodno prijavili.
 password-reset-learn-about-restoring-account-data = Preberite več o obnavljanju podatkov o računih
 
