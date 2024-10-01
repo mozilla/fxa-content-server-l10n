@@ -184,7 +184,7 @@ form-password-with-inline-criteria-sr-too-short-message = Rhaid i'r cyfrinair gy
 form-password-with-inline-criteria-sr-not-email-message = Peidiwch â chynnwys eich cyfeiriad e-bost yn eich cyfrinair.
 form-password-with-inline-criteria-sr-not-common-message = Peidiwch â defnyddio cyfrinair cyffredin
 form-password-with-inline-criteria-sr-requirements-met = Mae'r cyfrinair a gofnodwyd yn parchu'r holl ofynion cyfrinair.
-form-password-with-inline-criteria-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cyfateb.
+form-password-with-inline-criteria-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cydweddu.
 
 ## FormVerifyCode
 
@@ -343,8 +343,8 @@ password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag aildd
 
 password-strength-inline-min-length = O leiaf 8 nod
 password-strength-inline-not-email = Nid eich cyfeiriad e-bost
-password-strength-inline-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n arferol
-password-strength-inline-confirmed-must-match = Mae cadarnhad yn cyfateb i'r cyfrinair newydd
+password-strength-inline-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n gyffredin
+password-strength-inline-confirmed-must-match = Cadarnhad ei fod yn cydweddu â'r cyfrinair newydd
 
 ## Ready component
 
@@ -403,14 +403,14 @@ flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicod
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Rhybudd
-password-reset-chevron-expanded = Rhybudd cwymp
-password-reset-chevron-collapsed = Ehangu rhybudd
-password-reset-data-may-not-be-recovered = Mae'n bosibl na fydd data eich porwr yn cael ei adennill
-password-reset-previously-signed-in-device = Oes gennych chi ddyfais lle gwnaethoch chi fewngofnodi o'r blaen?
-password-reset-data-may-be-saved-locally = Mae'n bosibl y bydd data eich porwr yn cael ei gadw'n lleol ar y ddyfais honno. Mewngofnodwch yno gyda'ch cyfrinair newydd i'w adfer a'i gysoni.
-password-reset-no-old-device = Oes gennych chi ddyfais newydd ond nad oes gennych chi'ch hen un?
-password-reset-encrypted-data-cannot-be-recovered = Mae'n ddrwg gennym, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }. Fodd bynnag, gallwch barhau i gael mynediad at eich data lleol ar unrhyw ddyfais lle rydych wedi mewngofnodi o'r blaen.
-password-reset-learn-about-restoring-account-data = Dysgwch fwy am adfer data cyfrif
+password-reset-chevron-expanded = Cau'r rhybudd
+password-reset-chevron-collapsed = Ehangu'r rhybudd
+password-reset-data-may-not-be-recovered = Mae'n bosibl na fydd data eich porwr yn cael ei adfer
+password-reset-previously-signed-in-device = Oes gennych chi ddyfais lle rydych chi wedi mewngofnodi o'r blaen?
+password-reset-data-may-be-saved-locally = Mae'n bosibl y bydd data eich porwr yn cael ei gadw'n lleol ar y ddyfais honno. Mewngofnodwch yno gyda'ch cyfrinair newydd i'w adfer a'i gydweddu.
+password-reset-no-old-device = Oes gennych chi ddyfais newydd ond heb yr hen un?
+password-reset-encrypted-data-cannot-be-recovered = Ymddiheuriadau, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }. Fodd bynnag, gallwch barhau i gael mynediad at eich data lleol ar unrhyw ddyfais lle rydych wedi mewngofnodi o'r blaen.
+password-reset-learn-about-restoring-account-data = Darllenwch fwy am adfer data cyfrif
 
 ## Alert Bar
 
@@ -1343,13 +1343,13 @@ third-party-auth-callback-message = Arhoswch, rydych chi'n cael eich ailgyfeirio
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Rhowch allwedd adfer eich cyfrif
-account-recovery-confirm-key-instruction = Mae'r allwedd hon yn adennill eich data pori wedi'i amgryptio, megis cyfrineiriau a nodau tudalen, o weinyddion { -brand-firefox }.
+account-recovery-confirm-key-instruction = Mae'r allwedd hon yn adennill eich data pori wedi'i amgryptio, fel cyfrineiriau a nodau tudalen, o weinyddion { -brand-firefox }.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = Rhowch allwedd adfer eich cyfrif 32 nod
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
-account-recovery-confirm-key-hint = Eich awgrym storio yw:
+account-recovery-confirm-key-hint = Eich awgrym cadw yw:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Parhau
 # Link that leads to the password reset page (without recovery code)

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-27 18:20+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2024-10-01 14:52+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -1997,7 +1997,7 @@ msgstr "Nid oedd modd cwblhau'r gosodiad. Mewngofnodwch gyda'ch e-bost."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr "Wedi mewngofnodi yn llwyddiannus!"
+msgstr "Wedi mewngofnodi'n llwyddiannus!"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
