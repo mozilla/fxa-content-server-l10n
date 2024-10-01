@@ -6,9 +6,11 @@ session-verify-send-push-body-2 = Щракнете тук, за да потвъ�
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип на { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронизирани устройства">
 body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика за личните данни на { -brand-mozilla }
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип на { -brand-mozilla }">
 subplat-automated-email = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 subplat-privacy-notice = Политика за личните данни
 subplat-privacy-plaintext = Политика за лични данни:
@@ -22,6 +24,8 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Обновяване на платежна информация
 subplat-privacy-policy = Политика за личните данни на { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Правна информация
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Поверителност
