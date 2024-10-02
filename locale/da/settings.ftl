@@ -1139,6 +1139,7 @@ inline-recovery-key-setup-recovery-created = Genoprettelsesnøgle til kontoen bl
 inline-recovery-key-setup-download-header = Beskyt din konto
 inline-recovery-key-setup-download-subheader = Hent og gem den nu
 inline-recovery-key-setup-download-info = Gem denne nøgle et sted, du vil huske - du kan ikke vende tilbage til denne side senere.
+inline-recovery-key-setup-hint-header = Sikkerhedsanbefaling
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1332,16 +1333,28 @@ third-party-auth-callback-message = Vent venligst, du bliver omdirigeret til den
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Indtast din genoprettelsesnøgle til kontoen
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Indtast din genoprettelsesnøgle til kontoen på 32 tegn
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Fortsæt
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Kan du ikke finde din genoprettelsesnøgle til kontoen?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Opret en ny adgangskode
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Adgangskode oprettet
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Der opstod desværre et problem med at oprette din adgangskode
+password-reset-could-not-determine-account-recovery-key = Har du din genoprettelsesnøgle til kontoen?
+password-reset-use-account-recovery-key = Nulstil din adgangskode og behold dine data
 
 ## Confirm Reset Password With Code
 
