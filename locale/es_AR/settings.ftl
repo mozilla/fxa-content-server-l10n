@@ -1365,7 +1365,7 @@ complete-reset-password-success-alert = Contraseña establecida
 # Displayed in an alert bar
 complete-reset-password-error-alert = Disculpá, hubo un problema al establecer tu contraseña
 password-reset-could-not-determine-account-recovery-key = ¿Tenés la clave de recuperación de cuenta?
-password-reset-use-account-recovery-key = Restablece tu contraseña y conserva tus datos
+password-reset-use-account-recovery-key = Restablecé tu contraseña y conservá tus datos
 
 ## Confirm Reset Password With Code
 
