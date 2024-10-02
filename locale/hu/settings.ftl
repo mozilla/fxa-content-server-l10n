@@ -344,7 +344,7 @@ password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne haszná
 password-strength-inline-min-length = Legalább 8 karakter
 password-strength-inline-not-email = Nem az Ön e-mail-címe
 password-strength-inline-not-common = Nem gyakran használt jelszó
-password-strength-inline-confirmed-must-match = A megerősítés megfelel az új jelszónak
+password-strength-inline-confirmed-must-match = A megerősítés egyezik az új jelszóval
 
 ## Ready component
 
@@ -405,12 +405,12 @@ flow-recovery-key-hint-unsafe-char-error = A tipp nem tartalmazhat nem biztonsá
 password-reset-warning-icon = Figyelmeztetés
 password-reset-chevron-expanded = Figyelmeztetés összecsukása
 password-reset-chevron-collapsed = Figyelmeztetés kinyitása
-password-reset-data-may-not-be-recovered = Előfordulhat, hogy a böngésző adatai nem állnak vissza
+password-reset-data-may-not-be-recovered = Előfordulhat, hogy a böngészési adatok nem állíthatók helyre
 password-reset-previously-signed-in-device = Van olyan eszköze, amelyre korábban bejelentkezett?
-password-reset-data-may-be-saved-locally = A böngésző adatai helyileg lehetnek mentve ezen az eszközön. Jelentkezzen be az új jelszavával a visszaállításhoz és szinkronizáláshoz.
+password-reset-data-may-be-saved-locally = A böngésző adatai helyileg lehetnek mentve ezen az eszközön. Jelentkezzen be az új jelszavával a helyreállításhoz és a szinkronizáláshoz.
 password-reset-no-old-device = Van egy új eszköze, de a régi nincs meg?
-password-reset-encrypted-data-cannot-be-recovered = Sajnáljuk, de a { -brand-firefox } kiszolgálókon lévő titkosított böngészőadatai nem állíthatók helyre. Helyi adatait azonban továbbra is elérheti minden olyan eszközön, amelyen korábban bejelentkezett.
-password-reset-learn-about-restoring-account-data = Tudjon meg többet a fiókadatok visszaállításáról
+password-reset-encrypted-data-cannot-be-recovered = Sajnáljuk, de a { -brand-firefox } kiszolgálókon lévő titkosított böngészési adatai nem állíthatók helyre. Helyi adatait azonban továbbra is elérheti az összes olyan eszközön, amelyen korábban bejelentkezett.
+password-reset-learn-about-restoring-account-data = Tudjon meg többet a fiókadatok helyreállításáról
 
 ## Alert Bar
 
@@ -1357,7 +1357,7 @@ account-recovery-confirm-key-instruction = Ez a kulcs helyreállítja a titkosí
 account-recovery-confirm-key-input-label =
     .label = Adja meg a 32 karakteres fiók-helyreállítási kulcsát
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
-account-recovery-confirm-key-hint = A tárolási tipp:
+account-recovery-confirm-key-hint = A tárolási emlékeztető:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Folytatás
 # Link that leads to the password reset page (without recovery code)
