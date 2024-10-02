@@ -403,6 +403,14 @@ flow-recovery-key-hint-unsafe-char-error = De hint mag geen onveilige Unicode-te
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Waarschuwing
+password-reset-chevron-expanded = Waarschuwing samenvouwen
+password-reset-chevron-collapsed = Waarschuwing uitvouwen
+password-reset-data-may-not-be-recovered = Uw browsergegevens worden mogelijk niet hersteld
+password-reset-previously-signed-in-device = Hebt u een apparaat waarop u eerder bent aangemeld?
+password-reset-data-may-be-saved-locally = Uw browsergegevens zijn mogelijk lokaal op dat apparaat opgeslagen. Meld u daar aan met uw nieuwe wachtwoord om te herstellen en te synchroniseren.
+password-reset-no-old-device = Hebt u een nieuw apparaat maar uw oude niet?
+password-reset-encrypted-data-cannot-be-recovered = Sorry, maar uw versleutelde browsergegevens op { -brand-firefox }-servers kunnen niet worden hersteld. U kunt echter nog steeds uw lokale gegevens benaderen op elk apparaat waarop u zich eerder hebt aangemeld.
+password-reset-learn-about-restoring-account-data = Meer info over het herstellen van accountgegevens
 
 ## Alert Bar
 
@@ -1141,10 +1149,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Oeps! We konden uw accountherstelsleutel niet aanmaken. Probeer het later opnieuw.
 inline-recovery-key-setup-recovery-created = Sleutel voor accountherstel aangemaakt
 inline-recovery-key-setup-download-header = Beveilig uw account
 inline-recovery-key-setup-download-subheader = Nu downloaden en opslaan
 inline-recovery-key-setup-download-info = Bewaar deze sleutel op een plek die u kunt onthouden – u kunt deze pagina later niet meer openen.
+inline-recovery-key-setup-hint-header = Beveiligingsaanbeveling
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1338,16 +1348,31 @@ third-party-auth-callback-message = Even geduld, u wordt doorgestuurd naar de ge
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Voer uw accountherstelsleutel in
+account-recovery-confirm-key-instruction = Deze sleutel herstelt uw versleutelde navigatiegegevens, zoals wachtwoorden en bladwijzers, van { -brand-firefox }-servers.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Voer uw accountherstelsleutel van 32 tekens in
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Uw opslaghint is:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Doorgaan
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Kunt u uw accountherstelsleutel niet vinden?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Nieuw wachtwoord aanmaken
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wachtwoord ingesteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
+password-reset-could-not-determine-account-recovery-key = Hebt u uw accountherstelsleutel?
+password-reset-use-account-recovery-key = Uw wachtwoord opnieuw instellen en uw gegevens behouden
 
 ## Confirm Reset Password With Code
 
