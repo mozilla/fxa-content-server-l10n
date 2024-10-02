@@ -396,7 +396,9 @@ password-reset-chevron-expanded = Fold advarsel sammen
 password-reset-chevron-collapsed = Fold advarsel ud
 password-reset-data-may-not-be-recovered = Dine browserdata bliver måske ikke gendannet
 password-reset-previously-signed-in-device = Har du en enhed, hvor du tidligere har logget ind?
+password-reset-data-may-be-saved-locally = Dine browserdata kan være gemt lokalt på den pågældende enhed. Log ind på enheden med din nye adgangskode for at gendanne og synkronisere.
 password-reset-no-old-device = Har du en ny enhed, men ikke din gamle?
+password-reset-encrypted-data-cannot-be-recovered = Dine krypterede browserdata på { -brand-firefox }' servere kan desværre ikke gendannes. Du kan dog stadig få adgang til dine lokale data på enhver enhed, hvor du tidligere har logget ind.
 password-reset-learn-about-restoring-account-data = Læs mere om gendannelse af konto-data
 
 ## Alert Bar
@@ -1135,6 +1137,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Vi kunne ikke oprette din genoprettelsesnøgle til kontoen. Prøv igen senere.
 inline-recovery-key-setup-recovery-created = Genoprettelsesnøgle til kontoen blev oprettet
 inline-recovery-key-setup-download-header = Beskyt din konto
 inline-recovery-key-setup-download-subheader = Hent og gem den nu
@@ -1334,6 +1337,7 @@ third-party-auth-callback-message = Vent venligst, du bliver omdirigeret til den
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Indtast din genoprettelsesnøgle til kontoen
+account-recovery-confirm-key-instruction = Med denne nøgle gendanner dine krypterede browserdata som fx adgangskoder og bogmærker fra { -brand-firefox }' servere.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
