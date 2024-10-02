@@ -405,6 +405,12 @@ flow-recovery-key-hint-unsafe-char-error = De hint mei gjin ûnfeilige Unicode-t
 password-reset-warning-icon = Warskôging
 password-reset-chevron-expanded = Warskôging ynklappe
 password-reset-chevron-collapsed = Warskôging útklappe
+password-reset-data-may-not-be-recovered = Jo browsergegevens wurde mooglik net wersteld
+password-reset-previously-signed-in-device = Hawwe jo in apparaat dêr’t jo earder oanmeld binne?
+password-reset-data-may-be-saved-locally = Jo browsergegevens binne mooglik lokaal op dat apparaat bewarre. Meld jo dêr oan mei jo nije wachtwurd om te werstellen en te syngronisearjen.
+password-reset-no-old-device = Hawwe jo in nij apparaat, mar jo âlde net?
+password-reset-encrypted-data-cannot-be-recovered = It spyt ús, mar jo fersifere browsergegevens op { -brand-firefox }-servers kinne net weromhelle wurde. Jo kinne lykwols noch tagong krije ta jo lokale gegevens op elk apparaat dêr’t jo earder oanmeld west binne.
+password-reset-learn-about-restoring-account-data = Mear ynfo oer it werstellen fan accountgegevens
 
 ## Alert Bar
 
@@ -1147,10 +1153,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Oeps! Wy koenen jo accountwerstelkaai net oanmeitsje. Probearje it letter nochris.
 inline-recovery-key-setup-recovery-created = Kaai foar accountwerstel oanmakke
 inline-recovery-key-setup-download-header = Befeiligje jo account
 inline-recovery-key-setup-download-subheader = No downloade en bewarje
 inline-recovery-key-setup-download-info = Bewarje dizze kaai op in plak dy’t jo ûnthâlde kinne – jo kinne dizze side letter net mear iepenje.
+inline-recovery-key-setup-hint-header = Befeiligingsoanrekommandaasje
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1344,16 +1352,31 @@ third-party-auth-callback-message = In amerijke, jo wurde omlaat nei de autorise
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Fier jo accountwerstelkaai yn
+account-recovery-confirm-key-instruction = Dizze kaai werstelt jo fersifere navigaasjegegevens, lykas wachtwurden en blêdwizers, fan { -brand-firefox }-servers.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Fier jo accountwerstelkaai fan 32 tekens yn
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Jo opslachhint is:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Trochgean
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Kinne jo jo accountwerstelkaai net fine?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Nij wachtwurd oanmeitsje
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wachtwurd ynsteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
+password-reset-could-not-determine-account-recovery-key = Hawwe jo jo accountherstelkaai?
+password-reset-use-account-recovery-key = Jo wachtwurd opnij ynstelle en jo gegevens behâlde
 
 ## Confirm Reset Password With Code
 
