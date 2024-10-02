@@ -171,6 +171,20 @@ form-password-sr-passwords-match = Енгізілген парольдер өз�
 
 form-password-with-inline-criteria-signup-new-password-label =
     .label = Пароль
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Парольді қайталау
+form-password-with-inline-criteria-signup-submit-button = Тіркелгіні жасау
+form-password-with-inline-criteria-reset-new-password =
+    .label = Жаңа пароль
+form-password-with-inline-criteria-confirm-password =
+    .label = Парольді растау
+form-password-with-inline-criteria-reset-submit-button = Жаңа парольді жасау
+form-password-with-inline-criteria-match-error = Парольдер өзара сәйкес келмейді!
+form-password-with-inline-criteria-sr-too-short-message = Пароль кемінде 8 таңбадан тұруы керек.
+form-password-with-inline-criteria-sr-not-email-message = Пароль ішінде сіздің эл. пошта адресіңіз болмауы керек.
+form-password-with-inline-criteria-sr-not-common-message = Пароль жиі қолданылатын пароль болмауы керек.
+form-password-with-inline-criteria-sr-requirements-met = Енгізілген пароль парольдерге қойылатын барлық шарттарға сай келеді.
+form-password-with-inline-criteria-sr-passwords-match = Енгізілген парольдер өзара сәйкес келеді.
 
 ## FormVerifyCode
 
@@ -327,6 +341,9 @@ password-strength-balloon-stay-safe-tips = Қауіпсіз болыңыз — �
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Кемінде 8 таңба
+password-strength-inline-not-email = Сіздің эл. пошта адресіңіз емес
+password-strength-inline-not-common = Жиі қолданылатын пароль емес
 
 ## Ready component
 
