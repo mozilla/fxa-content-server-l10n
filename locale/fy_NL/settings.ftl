@@ -167,10 +167,43 @@ form-password-sr-not-common-message = Wachtwurd mei gjin faaks brûkt wachtwurd 
 form-password-sr-requirements-met = It ynfierde wachtwurd foldocht oan alle wachtwurdfereasken.
 form-password-sr-passwords-match = Ynfierde wachtwurden komme oerien.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Wachtwurd
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Nochris it wachtwurd
+form-password-with-inline-criteria-signup-submit-button = Account oanmeitsje
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nij wachtwurd
+form-password-with-inline-criteria-confirm-password =
+    .label = Befêstigje wachtwurd
+form-password-with-inline-criteria-reset-submit-button = Nij wachtwurd oanmeitsje
+form-password-with-inline-criteria-match-error = Wachtwurden komme net oerien
+form-password-with-inline-criteria-sr-too-short-message = Wachtwurd moat op syn minst 8 karakters befetsje.
+form-password-with-inline-criteria-sr-not-email-message = Wachtwurd mei net jo e-mailadres befetsje.
+form-password-with-inline-criteria-sr-not-common-message = Wachtwurd mei gjin faaks brûkt wachtwurd wêze.
+form-password-with-inline-criteria-sr-requirements-met = It ynfierde wachtwurd foldocht oan alle wachtwurdfereasken.
+form-password-with-inline-criteria-sr-passwords-match = Ynfierde wachtwurden komme oerien.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dit fjild is ferplichte
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Fier in { $codeLength }-siferige koade yn om troch te gean
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Fier in koade fan { $codeLength } tekens yn om troch te gean
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -306,11 +339,18 @@ password-strength-balloon-not-email = Net jo e-mailadres
 password-strength-balloon-not-common = Net in faaks brûkt wachtwurd
 password-strength-balloon-stay-safe-tips = Bliuw feilich – Brûk wachtwurden net opnij. Besjoch mear tips om <LinkExternal>sterke wachtwurden te meitsjen</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Op syn minst 8 karakters
+password-strength-inline-not-email = Net jo e-mailadres
+password-strength-inline-not-common = Net in faaks brûkt wachtwurd
+password-strength-inline-confirmed-must-match = Befêstiging komt oerien mei it nije wachtwurd
+
 ## Ready component
 
 reset-password-complete-header = Jo wachtwurd is opnij ynsteld
 ready-complete-set-up-instruction = Foltôgje de ynstallaasje troch it nije wachtwurd op jo oare { -brand-firefox }-apparaten yn te foljen.
-ready-start-browsing-button = Start mei browsen
+manage-your-account-button = Jo account beheare
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -334,6 +374,37 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Map op befeilige apparaat
 flow-recovery-key-download-storage-ideas-cloud = Fertroude cloudûnthâld
 flow-recovery-key-download-storage-ideas-print-v2 = Ofdrukt fysyk eksimplaar
 flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwurdbehearder
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Foegje in hint ta om jo kaai te finen
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Dizze hint helpt jo te mei in omtinken wêr’t jo jo accountwerstelkaai bewarre hawwe. Wy kinne it jo toane as jo jo wachtwurd opnij ynstelle om jo gegevens te werstellen.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Fier in hint yn (opsjoneel)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Foltôgje
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = De hint moat minder as 255 tekens befetsje.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = De hint mei gjin ûnfeilige Unicode-tekens befetsje. Allinnich letters, sifers, leestekens en symboalen binne tastien.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Warskôging
+password-reset-chevron-expanded = Warskôging ynklappe
+password-reset-chevron-collapsed = Warskôging útklappe
 
 ## Alert Bar
 
@@ -480,30 +551,11 @@ flow-recovery-key-download-info-v2 = Mei dizze kaai kinne jo jo gegevens weromhe
 flow-recovery-key-download-next-link-v2 = Trochgean sûnder te downloaden
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Foegje in hint ta om jo kaai te finen
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Dizze hint helpt jo te mei in omtinken wêr’t jo jo accountwerstelkaai bewarre hawwe. Wy kinne it jo toane as jo jo wachtwurd opnij ynstelle om jo gegevens te werstellen.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Fier in hint yn (opsjoneel)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Foltôgje
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kaai foar accountwerstel oanmakke
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = De hint moat minder as 255 tekens befetsje.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = De hint mei gjin ûnfeilige Unicode-tekens befetsje. Allinnich letters, sifers, leestekens en symboalen binne tastien.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -1002,14 +1054,6 @@ third-party-auth-options-or = Of
 continue-with-google-button = Trochgean mei { -brand-google }
 continue-with-apple-button = Trochgean mei { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Sifer { $inputNumber } fan { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Unbekend account
@@ -1300,76 +1344,16 @@ third-party-auth-callback-message = In amerijke, jo wurde omlaat nei de autorise
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei jo accountynstellingen</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Fier de foar ien kear te brûken accountwerstelkaai, dy’t jo op in feilich plak bewarre hawwe, yn om wer tagong ta jo { -product-mozilla-account } te krijen.
-account-recovery-confirm-key-warning-message = <span>Noat:</span> as jo jo wachtwurd opnij ynstelle en jo kaai foar accountwerstel bewarre hawwe, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens lykas skiednis en blêdwizers).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Fier accountwerstelkaai yn
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Befêstigje accountwerstelkaai
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Hawwe jo gjin accountwerstelkaai?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Nij wachtwurd oanmeitsje
-account-restored-success-message = Jo hawwe mei sukses jo account wersteld fia jo accountwerstelkaai. Meitsje in nij wachtwurd oan om jo gegevens te befeiligjen, en bewarje dit op in feilige lokaasje.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Wachtwurd ynsteld
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Der is in ûnferwachte flater bard
-account-recovery-reset-password-redirecting = Omliede
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Nij wachtwurd oanmeitsje
-complete-reset-password-warning-message-2 = <span>Unthâld:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { -product-pocket }-gegevens wurde net beynfloede.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wachtwurd ynsteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
-complete-reset-password-recovery-key-error-v2 = Sorry, der is in probleem bard by it kontrolearjen oft jo in accountwerstelkaai hawwe.
-complete-reset-password-recovery-key-link = Stel in nij wachtwurd yn mei jo accountwerstelkaai.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = E-mailberjocht foar opnij ynstellen ferstjoerd
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Klik binnen in oere op de keppeling dy’t nei { $email } ferstjoerd is om in nij wachtwurd oan te meitsjen.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei jo accountynstellingen</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
-reset-password-warning-message-2 = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { -product-pocket }-gegevens wurde net beynfloede.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mailadres
-reset-password-button = Werinisjalisaasje begjinne
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mailadres fereaske
-reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
-reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
-reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
 
 ## Confirm Reset Password With Code
 
@@ -1395,6 +1379,9 @@ password-reset-body = Fier jo e-mailadres yn en wy stjoere jo in befêstigingsko
 password-reset-email-input =
     .label = Fier jo e-mailadres yn
 password-reset-submit-button = Stjoer my ynstruksjes foar opnij ynstellen
+reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
+reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
+reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
 
 ## CompleteSignin component
 
