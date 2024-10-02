@@ -167,6 +167,11 @@ form-password-sr-not-common-message = Пароль жиі қолданылаты
 form-password-sr-requirements-met = Енгізілген пароль парольдерге қойылатын барлық шарттарға сай келеді.
 form-password-sr-passwords-match = Енгізілген парольдер өзара сәйкес келеді.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Пароль
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +325,13 @@ password-strength-balloon-not-email = Сіздің эл. пошта адресі
 password-strength-balloon-not-common = Жиі қолданылатын пароль емес
 password-strength-balloon-stay-safe-tips = Қауіпсіз болыңыз — парольдерді қайта қолданбаңыз. <LinkExternal>Мықты парольдерді жасау</LinkExternal> бойынша қосымша кеңестерді қараңыз.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = Пароліңіз тасталды
 ready-complete-set-up-instruction = Баптауды аяқтау үшін басқа { -brand-firefox } құрылғыларыңызда жаңа парольді енгізіңіз.
-ready-start-browsing-button = Шолуды бастау
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +379,10 @@ flow-recovery-key-hint-char-limit-error = Кеңес 255 таңбадан аз �
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Кеңесте қауіпті юникод таңбалары болмауы керек. Тек әріптерге, сандарға, тыныс белгілеріне және белгілерге рұқсат етіледі.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -1309,37 +1320,16 @@ third-party-auth-callback-message = Күте тұрыңыз, сіз автори
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
-account-recovery-confirm-key-instructions-2 = { -product-mozilla-account } ішіне қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз.
-account-recovery-confirm-key-warning-message = <span>ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз өшіріледі (соның ішінде тарих және бетбелгілер сияқты синхрондалған сервер деректері).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Тіркелгіні қалпына келтіру кілтін енгізіңіз
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Тіркелгіні қалпына келтіру кілтін растаңыз
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Тіркелгіні қалпына келтіру кілтіңіз жоқ па?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Жаңа парольді жасау
-complete-reset-password-warning-message-2 = <span>Есіңізде болсын:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - жекелігіңізді қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль орнатылды
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
-complete-reset-password-recovery-key-error-v2 = Кешіріңіз, тіркелгіні қалпына келтіру кілтінің бар-жоғын тексеру кезінде мәселе орын алды.
-complete-reset-password-recovery-key-link = Тіркелгіні қалпына келтіру кілтімен пароліңізді қалпына келтіріңіз.
-account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
 
 ## Confirm Reset Password With Code
 
