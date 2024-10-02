@@ -167,10 +167,33 @@ form-password-sr-not-common-message = Adgangskoden må ikke være en ofte anvend
 form-password-sr-requirements-met = Den indtastede adgangskode opfylder alle kravene til adgangskoder.
 form-password-sr-passwords-match = De indtastede adgangskoder er ens.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Adgangskode
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Gentag adgangskode
+form-password-with-inline-criteria-signup-submit-button = Opret konto
+form-password-with-inline-criteria-reset-new-password =
+    .label = Ny adgangskode
+form-password-with-inline-criteria-confirm-password =
+    .label = Bekræft adgangskode
+form-password-with-inline-criteria-reset-submit-button = Opret ny adgangskode
+form-password-with-inline-criteria-match-error = Adgangskoderne er ikke ens
+form-password-with-inline-criteria-sr-too-short-message = Adgangskoden skal indeholde mindst 8 tegn.
+form-password-with-inline-criteria-sr-not-email-message = Adgangskoden må ikke indeholde din mailadresse.
+form-password-with-inline-criteria-sr-not-common-message = Adgangskoden må ikke være en ofte anvendt adgangskode.
+form-password-with-inline-criteria-sr-requirements-met = Den indtastede adgangskode opfylder alle kravene til adgangskoder.
+form-password-with-inline-criteria-sr-passwords-match = De indtastede adgangskoder er ens.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Dette felt er påkrævet
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -306,11 +329,17 @@ password-strength-balloon-not-email = Ikke din mailadresse
 password-strength-balloon-not-common = Ikke en almindeligt brugt adgangskode
 password-strength-balloon-stay-safe-tips = Beskyt dig selv — Genbrug ikke adgangskoder. Læs mere om, hvordan du <LinkExternal>opretter stærke adgangskoder</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Mindst 8 tegn
+password-strength-inline-not-email = Ikke din mailadresse
+password-strength-inline-not-common = Ikke en almindeligt brugt adgangskode
+
 ## Ready component
 
 reset-password-complete-header = Din adgangskode er blevet nulstillet
 ready-complete-set-up-instruction = Indtast din nye adgangskode på dine andre { -brand-firefox }-enheder for at færdiggøre opsætningen.
-ready-start-browsing-button = Gå i gang med at bruge nettet
+manage-your-account-button = Håndter din konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -334,6 +363,41 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på en sikker enhed
 flow-recovery-key-download-storage-ideas-cloud = Betroet opbevaring i skyen
 flow-recovery-key-download-storage-ideas-print-v2 = Udskrevet fysisk kopi
 flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Tilføj et tip til at hjælpe med at finde din nøgle
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Dette tip skal hjælpe dig med at huske, hvor du gemte din genoprettelsesnøgle til kontoen. Vi kan vise dig tippet, når du nulstiller adgangskoden for at gendanne dine data.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Indtast et tip (valgfrit)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Afslut
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Tippet skal indeholde færre end 255 tegn.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Tippet kan ikke indeholde usikre unicode-tegn. Kun bogstaver, tal, tegnsætningstegn og symboler er tilladt.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Advarsel
+password-reset-chevron-expanded = Fold advarsel sammen
+password-reset-chevron-collapsed = Fold advarsel ud
+password-reset-data-may-not-be-recovered = Dine browserdata bliver måske ikke gendannet
+password-reset-previously-signed-in-device = Har du en enhed, hvor du tidligere har logget ind?
+password-reset-no-old-device = Har du en ny enhed, men ikke din gamle?
+password-reset-learn-about-restoring-account-data = Læs mere om gendannelse af konto-data
 
 ## Alert Bar
 
@@ -476,30 +540,11 @@ flow-recovery-key-download-info-v2 = Med denne nøgle kan du gendanne dine data,
 flow-recovery-key-download-next-link-v2 = Fortsæt uden at hente
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Tilføj et tip til at hjælpe med at finde din nøgle
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Dette tip skal hjælpe dig med at huske, hvor du gemte din genoprettelsesnøgle til kontoen. Vi kan vise dig tippet, når du nulstiller adgangskoden for at gendanne dine data.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Indtast et tip (valgfrit)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Afslut
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Genoprettelsesnøgle til kontoen blev oprettet
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Tippet skal indeholde færre end 255 tegn.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Tippet kan ikke indeholde usikre unicode-tegn. Kun bogstaver, tal, tegnsætningstegn og symboler er tilladt.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -997,14 +1042,6 @@ third-party-auth-options-or = eller
 continue-with-google-button = fortsæt med { -brand-google }
 continue-with-apple-button = fortsæt med { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Ciffer { $inputNumber } af { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Ukendt konto
@@ -1295,37 +1332,16 @@ third-party-auth-callback-message = Vent venligst, du bliver omdirigeret til den
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Nulstil adgangskode med genoprettelsesnøgle til kontoen <span>for at fortsætte til kontoindstillinger</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Nulstil adgangskode med genoprettelsesnøgle til kontoen <span>for at fortsætte til { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din { -product-mozilla-account } igen.
-account-recovery-confirm-key-warning-message = <span>BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt din genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data som fx historik og bogmærker).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Indtast genoprettelsesnøgle til kontoen
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Bekræft genoprettelsesnøgle til kontoen
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Har du ikke en genoprettelsesnøgle til kontoen?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Opret ny adgangskode
-complete-reset-password-warning-message-2 = <span>Husk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { -product-pocket }-data berøres ikke.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Adgangskode oprettet
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Der opstod desværre et problem med at oprette din adgangskode
-complete-reset-password-recovery-key-error-v2 = Der opstod desværre et problem med at tjekke, om du har en genoprettelsesnøgle til kontoen.
-complete-reset-password-recovery-key-link = Nulstil din adgangskode med din genoprettelsesnøgle til kontoen.
-account-restored-success-message = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
 
 ## Confirm Reset Password With Code
 
