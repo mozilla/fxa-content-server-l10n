@@ -344,11 +344,13 @@ password-strength-balloon-stay-safe-tips = Қауіпсіз болыңыз — �
 password-strength-inline-min-length = Кемінде 8 таңба
 password-strength-inline-not-email = Сіздің эл. пошта адресіңіз емес
 password-strength-inline-not-common = Жиі қолданылатын пароль емес
+password-strength-inline-confirmed-must-match = Растау жаңа парольге сәйкес келеді
 
 ## Ready component
 
 reset-password-complete-header = Пароліңіз тасталды
 ready-complete-set-up-instruction = Баптауды аяқтау үшін басқа { -brand-firefox } құрылғыларыңызда жаңа парольді енгізіңіз.
+manage-your-account-button = Тіркелгіні басқару
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -400,6 +402,9 @@ flow-recovery-key-hint-unsafe-char-error = Кеңесте қауіпті юни�
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Ескерту
+password-reset-chevron-expanded = Ескертуді бүктеу
+password-reset-chevron-collapsed = Ескертуді ашу
 
 ## Alert Bar
 
@@ -1337,16 +1342,23 @@ third-party-auth-callback-message = Күте тұрыңыз, сіз автори
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Жалғастыру
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Тіркелгіңізді қалпына келтіру кілтін таба алмайсыз ба?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Жаңа парольді жасау
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль орнатылды
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
+password-reset-could-not-determine-account-recovery-key = Тіркелгіңізді қалпына келтіру кілті бар ма?
+password-reset-use-account-recovery-key = Парольді тастап, деректеріңізді сақтау
 
 ## Confirm Reset Password With Code
 
