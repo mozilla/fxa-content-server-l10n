@@ -1381,10 +1381,10 @@ confirm-reset-password-otp-different-account-link = Utiliser un autre { -product
 ## ResetPassword start page
 
 password-reset-flow-heading = Réinitialiser le mot de passe
-password-reset-body = Saisissez votre adresse e-mail et nous vous enverrons un code de confirmation pour s’assurer qu’il s’agit bien de vous.
+password-reset-body-2 = Nous vous demanderons d’effectuer certaines opérations pour assurer la sécurité de votre compte.
 password-reset-email-input =
     .label = Saisissez votre adresse e-mail
-password-reset-submit-button = M’envoyer les instructions de réinitialisation
+password-reset-submit-button-2 = Continuer
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
@@ -1508,15 +1508,9 @@ signin-token-code-required-error = Code de confirmation requis
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Saisissez le code d’authentification <span>pour accéder aux paramètres du compte</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Saisissez le code d’authentification <span>pour continuer vers { $serviceName }</span>
-signin-totp-code-instruction-v2 = Ouvrez l’application d’authentification et saisissez le code d’authentification fourni.
-signin-totp-code-input-label-v2 = Saisissez le code à 6 chiffres
+signin-totp-code-subheader = Saisissez le code de sécurité pour l’authentification à deux facteurs (2FA)
+signin-totp-code-instruction-v3 = Vérifiez votre application d’authentification pour confirmer votre connexion.
+signin-totp-code-input-label-v3 = Saisissez le code
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
 signin-totp-code-other-account-link = Utiliser un autre { -product-mozilla-account }
