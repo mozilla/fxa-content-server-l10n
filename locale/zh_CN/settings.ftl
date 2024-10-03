@@ -1223,7 +1223,7 @@ pair-auth-allow-heading-text = 您刚刚登录了 { -product-firefox } 吗？
 pair-auth-allow-confirm-button = 是的，确认此设备
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = 如非本人操作，请<link>更改密码</link>
+pair-auth-allow-refuse-device-link = 若非本人操作，请<link>更改密码</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
