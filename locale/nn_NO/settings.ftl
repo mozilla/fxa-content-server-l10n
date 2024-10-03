@@ -1232,10 +1232,9 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Tilbakestill passordet ditt
-password-reset-body = Skriv inn e-postadressa di, og vi sender deg ein kode, for å stadfeste at det er deg.
 password-reset-email-input =
     .label = Skriv inn e-postadressa di
-password-reset-submit-button = Send meg instruksjonar for tilbakestilling
+password-reset-submit-button-2 = Hald fram
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
 reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
@@ -1354,15 +1353,7 @@ signin-token-code-required-error = Stadfestingskode påkravd
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Skriv inn godkjenningskoden <span>for å halde fram til kontoinnstillingar</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Skriv inn godkjenningskode <span>for å halde fram til { $serviceName }</span>
-signin-totp-code-instruction-v2 = Opne autentiseringsappen din og skriv inn godkjenningskoden du får opp.
-signin-totp-code-input-label-v2 = Skriv inn 6-sifra kode
+signin-totp-code-input-label-v3 = Skriv inn kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
 signin-totp-code-other-account-link = Bruk ein annan konto
