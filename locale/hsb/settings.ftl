@@ -1520,6 +1520,7 @@ signin-token-code-required-error = Wobkrućenski kod trěbny
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader = Zapodajće swój kod dwufaktoroweje awtentifikacije (2FA)
+signin-totp-code-instruction-v3 = Zmóžńće swoje nałoženje awtentizowanja, zo byšće swoje přizjewjenje wobkrućił.
 signin-totp-code-input-label-v3 = Kod zapodać
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Wobkrućić
