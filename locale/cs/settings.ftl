@@ -1383,10 +1383,10 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 ## ResetPassword start page
 
 password-reset-flow-heading = Obnovení hesla
-password-reset-body = Zadejte svou e-mailovou adresu a my vám zašleme potvrzovací kód pro ověření, že jste to skutečně vy.
+password-reset-body-2 = Jen vy vítejte, abychom váš účet udrželi v bezpečí.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
-password-reset-submit-button = Pošlete mi pokyny pro obnovení
+password-reset-submit-button-2 = Pokračovat
 reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
 reset-password-with-recovery-key-verified-generate-new-key = Vytvořit nový obnovovací klíč k účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
@@ -1510,15 +1510,9 @@ signin-token-code-required-error = Je vyžadován potvrzovací kód
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Zadejte ověřovací kód <span>pro pokračování do nastavení účtu</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Zadejte ověřovací kód <span>a pokračujte do služby { $serviceName }</span>
-signin-totp-code-instruction-v2 = Otevřete svoji ověřovací aplikaci a zadejte ověřovací kód, který vám poskytne.
-signin-totp-code-input-label-v2 = Zadejte šestimístný kód
+signin-totp-code-subheader = Zadejte svůj bezpečnostní kód pro dvoufaktorovou autentizaci (2FA)
+signin-totp-code-instruction-v3 = Zkontrolujte přihlášení ve své ověřovací aplikaci.
+signin-totp-code-input-label-v3 = Zadejte kód
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdit
 signin-totp-code-other-account-link = Použít jiný účet
