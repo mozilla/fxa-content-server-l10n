@@ -1396,10 +1396,10 @@ confirm-reset-password-otp-different-account-link = Másik fiók használata
 ## ResetPassword start page
 
 password-reset-flow-heading = Jelszó visszaállítása
-password-reset-body = Adja meg az e-mail-címét, és küldünk egy megerősítő kódot, hogy megerősítse, valóban Ön az.
+password-reset-body-2 = Kérünk néhány dolgot, amit csak Ön tud, hogy biztonságban tartsa a fiókját.
 password-reset-email-input =
     .label = Adja meg az e-mail-címét
-password-reset-submit-button = Visszaállítási utasítások küldése
+password-reset-submit-button-2 = Folytatás
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
@@ -1523,15 +1523,9 @@ signin-token-code-required-error = Megerősítési kód szükséges
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Adja meg a hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Adja meg a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
-signin-totp-code-instruction-v2 = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott hitelesítési kódot.
-signin-totp-code-input-label-v2 = Adja meg a 6 számjegyű kódot
+signin-totp-code-subheader = Adja meg a kétfaktoros hitelesítési biztonsági kódját (2FA)
+signin-totp-code-instruction-v3 = Ellenőrizze a hitelesítő alkalmazást a bejelentkezés megerősítéséhez.
+signin-totp-code-input-label-v3 = Adja meg a kódot
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Megerősítés
 signin-totp-code-other-account-link = Másik fiók használata
