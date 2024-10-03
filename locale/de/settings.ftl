@@ -1387,10 +1387,10 @@ confirm-reset-password-otp-different-account-link = Ein anderes Konto verwenden
 ## ResetPassword start page
 
 password-reset-flow-heading = Setzen Sie Ihr Passwort zurück
-password-reset-body = Geben Sie Ihre E-Mail-Adresse ein und wir schicken Ihnen einen Bestätigungscode, um Ihre Identität zu bestätigen.
+password-reset-body-2 = Wir bitten Sie um ein paar Dinge, die nur Sie wissen, um Ihr Konto zu schützen.
 password-reset-email-input =
     .label = E-Mail-Adresse eingeben
-password-reset-submit-button = Senden Sie mir eine Anleitung zum Zurücksetzen
+password-reset-submit-button-2 = Weiter
 reset-password-with-recovery-key-verified-page-title = Passwort erfolgreich zurückgesetzt
 reset-password-with-recovery-key-verified-generate-new-key = Einen neuen Kontowiederherstellungsschlüssel erzeugen
 reset-password-with-recovery-key-verified-continue-to-account = Weiter zu meinem Konto
@@ -1514,15 +1514,9 @@ signin-token-code-required-error = Bestätigungscode erforderlich
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Geben Sie den Authentifizierungscode ein, <span>um mit den Kontoeinstellungen fortzufahren</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Geben Sie einen Authentifizierungscode ein, <span>um mit { $serviceName } fortzufahren</span>
-signin-totp-code-instruction-v2 = Öffnen Sie Ihre Authentifizierungs-App und geben Sie den bereitgestellten Authentifizierungscode ein.
-signin-totp-code-input-label-v2 = 6-stelligen Code eingeben
+signin-totp-code-subheader = Geben Sie Ihren Sicherheitscode für Zwei-Faktor-Authentifizierung (2FA) ein
+signin-totp-code-instruction-v3 = Überprüfen Sie Ihre Authentifizierungs-App, um Ihre Anmeldung zu bestätigen.
+signin-totp-code-input-label-v3 = Code eingeben
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bestätigen
 signin-totp-code-other-account-link = Ein anderes Konto verwenden
