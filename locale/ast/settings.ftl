@@ -41,7 +41,14 @@
 signup-new-password-label =
     .label = Contraseña
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
+
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
 
 # GetDataTrio component, part of Account Recovery Key flow
@@ -49,6 +56,11 @@ signup-new-password-label =
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
 
 
 ## Input Password
@@ -63,13 +75,13 @@ signup-new-password-label =
 ## LinkExpiredResetPassword component
 
 
-## LinkExpiredSignin component
-
-
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
+
+
+## Notification Promo Banner component
 
 
 ## PasswordInfoBalloon
@@ -79,7 +91,23 @@ signup-new-password-label =
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
 
 
 ## Alert Bar
@@ -93,9 +121,7 @@ signup-new-password-label =
 
 # BentoMenu component
 
-bento-menu-firefox-title = { -brand-firefox } ye teunoloxía que llucha pola to privacidá en llinia.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Restolador { -brand-firefox } pa ordenadores
@@ -104,9 +130,6 @@ bento-menu-firefox-mobile = Restolador { -brand-firefox } pa móviles
 ## Connect another device promo
 
 connect-another-fx-mobile = { -brand-firefox } nel móvil o na tableta
-connect-another-find-fx-mobile =
-    Atopa { -brand-firefox } na { -google-play } y { -app-store } o
-    <br /><linkExternal>unvia un enllaz de descarga al to preséu</linkExternal>.
 
 ##
 
@@ -114,7 +137,7 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Servicios conectaos
-cs-description = Tolo que tas usando y no qu'aniciesti la sesión.
+cs-description = Tolos servicios que tas usando y nos qu'aniciesti la sesión.
 cs-cannot-refresh = Hebo un problema al anovar la llista de servicios conectaos.
 cs-cannot-disconnect = Nun s'atopó'l veceru, nun ye posible conectase
 
@@ -142,11 +165,9 @@ cs-sign-out-button = Zarrar la sesión
 
 ## Data collection section
 
-dc-subheader-content = Permitir a { -product-firefox-accounts } qu'unvie datos téunicos y d'interaición a { -brand-mozilla }.
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Menú de { -product-firefox-account }
 drop-down-menu-sign-out-error-2 = Hebo un problema al zarrar la sesión
 
 ## Flow Container
@@ -164,7 +185,7 @@ flow-container-back = Atrás
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 
@@ -173,7 +194,6 @@ flow-container-back = Atrás
 
 ## HeaderLockup component, the header in account settings
 
-header-title = { -product-firefox-accounts }
 header-help = Ayuda
 
 ## Linked Accounts section
@@ -220,7 +240,7 @@ avatar-page-zoom-out-button =
     .title = Alloñar
 avatar-page-zoom-in-button =
     .title = Averar
-avatar-page-camera-error = Nun pudo aniciase la cámara
+avatar-page-camera-error = Nun se pudo aniciar la cámara
 avatar-page-new-avatar =
     .alt = semeya del perfil nueva
 avatar-page-file-upload-error-3 = Hebo un problema al xubir la semeya del perfil
@@ -250,13 +270,11 @@ delete-account-header =
     .title = Desaniciu de la cuenta
 delete-account-step-1-2 = Pasu 1 de 2
 delete-account-step-2-2 = Pasu 2 de 2
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-chk-box-4 =
     .label = Van desaniciase toles estensiones y estilos qu'espublizares n'addons.mozilla.org
@@ -324,6 +342,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -408,6 +429,12 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 ## Users will see this page if they have local storage or cookies disabled.
 
 
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -472,26 +499,33 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
 
-## ResetPassword page
+## ResetPassword start page
 
 
 ## CompleteSignin component
 
 
-## ConfirmSignin component
-
-
 ## Signin page
+
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
 
 
 ## SigninRecoveryCode page
@@ -513,9 +547,8 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page
@@ -531,5 +564,3 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = ¿Qué edá tienes?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Has introducir la edá p'aniciar la sesión
