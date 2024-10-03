@@ -1388,10 +1388,10 @@ confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 ## ResetPassword start page
 
 password-reset-flow-heading = Ailosod eich cyfrinair
-password-reset-body = Rhowch eich e-bost a byddwn yn anfon cod cadarnhau atoch i gadarnhau mai chi sydd yno.
+password-reset-body-2 = Byddwn yn gofyn am ychydig o bethau rydych chi'n eu gwybod yn unig i gadw'ch cyfrif yn ddiogel.
 password-reset-email-input =
     .label = Rhowch eich e-bost
-password-reset-submit-button = Anfonwch ata i fanylion sut i ailosod
+password-reset-submit-button-2 = Parhau
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
@@ -1515,15 +1515,9 @@ signin-token-code-required-error = Mae angen codi dilys
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i osodiadau'r cyfrif</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Rhowch god dilysu <span>i barhau i { $serviceName }</span>
-signin-totp-code-instruction-v2 = Agorwch eich ap dilysu a rhowch y cod dilysu y mae'n ei gynnig.
-signin-totp-code-input-label-v2 = Rhowch y cod 6 digid
+signin-totp-code-subheader = Rhowch eich cod diogelwch dilysu dau ffactor (2FA)
+signin-totp-code-instruction-v3 = Gwiriwch eich app dilysu i gadarnhau eich mewngofnodi.
+signin-totp-code-input-label-v3 = Rhowch y cod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Cadarnhau
 signin-totp-code-other-account-link = Defnyddiwch gyfrif gwahanol
