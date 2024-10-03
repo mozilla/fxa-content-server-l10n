@@ -1392,10 +1392,10 @@ confirm-reset-password-otp-different-account-link = Uporabi drug račun
 ## ResetPassword start page
 
 password-reset-flow-heading = Ponastavite geslo
-password-reset-body = Vpišite e-poštni naslov in poslali vam bomo potrditveno kodo, s katero boste potrdili, da ste to res vi.
+password-reset-body-2 = Samo vas bomo prosili za nekaj stvari, ki jih poznate, da ohranite vaš račun varen.
 password-reset-email-input =
     .label = Vnesite e-poštni naslov
-password-reset-submit-button = Pošlji mi navodila za ponastavitev
+password-reset-submit-button-2 = Nadaljuj
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
 reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj račun
@@ -1519,15 +1519,9 @@ signin-token-code-required-error = Zahtevana je potrditvena koda
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Vnesite overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Vnesite overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
-signin-totp-code-instruction-v2 = Odprite aplikacijo za overjanje in vnesite kodo, ki jo predlaga.
-signin-totp-code-input-label-v2 = Vnesite 6-mestno kodo
+signin-totp-code-subheader = Vnesite varnostno kodo za preverjanje pristnosti v dveh korakih (2FA)
+signin-totp-code-instruction-v3 = V aplikaciji za overitev potrdite prijavo.
+signin-totp-code-input-label-v3 = Vnesite kodo
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potrdi
 signin-totp-code-other-account-link = Uporabi drug račun
