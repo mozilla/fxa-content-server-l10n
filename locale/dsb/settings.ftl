@@ -1388,10 +1388,12 @@ confirm-reset-password-otp-different-account-link = Wužywajśo druge konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Stajśo swójo gronidło slědk
-password-reset-body = Zapódajśo swóju e-mailowu adresu a buźomy wam wobkšuśeński kod słaś, aby my wašu identitu wobkšuśili.
+password-reset-body-2 =
+    Pšašamy se za někotarymi wěcami, kótarež jano wy wěsćo, aby my wašo konto
+    wěste źaržali.
 password-reset-email-input =
     .label = Zapódajśo swóju e-mailowu adresu
-password-reset-submit-button = Sćelśo mě instrukcije wó slědkstajanju
+password-reset-submit-button-2 = Dalej
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
 reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
@@ -1515,15 +1517,9 @@ signin-token-code-required-error = Wobkšuśeński kod trjebny
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Zapódajśo awtentifikaciski kod, <span>aby z kontowymi nastajenjami pókšacował</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Zapódajśo awtentifikaciski kod, <span>aby z { $serviceName } pókšacował</span>
-signin-totp-code-instruction-v2 = Wócyńśo swójo awtentificěrowańske nałoženje a zapódajśo k dispoziciji stajony awtentifikaciski kod.
-signin-totp-code-input-label-v2 = 6-městnowy kod zapódaś
+signin-totp-code-subheader = Zapódajśo swój kod dwójofaktoroweje awtentifikacije (2FA)
+signin-totp-code-instruction-v3 = Zmóžniśo swójo nałoženje awtentizěrowanja, aby swójo pśizjawjenje wobkšuśił.
+signin-totp-code-input-label-v3 = Kod zapódaś
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Wobkšuśiś
 signin-totp-code-other-account-link = Wužywajśo druge konto
