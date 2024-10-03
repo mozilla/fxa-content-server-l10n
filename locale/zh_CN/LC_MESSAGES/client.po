@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-28 06:50+0000\n"
+"PO-Revision-Date: 2024-10-03 17:48+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1993,7 +1993,7 @@ msgstr "下载 Firefox 移动版"
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr "在您的所有设备间查看已经保存的密码、标签页、浏览历史等信息。"
+msgstr "跨设备查看保存的密码、标签页、浏览历史等信息。"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
@@ -2001,7 +2001,7 @@ msgstr "我已经安装 Firefox 移动版"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "如果您已经在移动设备上安装了 Firefox，请现在开始同步。"
+msgstr "若已在移动设备上安装 Firefox，可立即开始同步。"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
