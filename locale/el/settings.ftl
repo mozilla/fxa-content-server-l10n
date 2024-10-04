@@ -1396,10 +1396,12 @@ confirm-reset-password-otp-different-account-link = Χρήση διαφορετ�
 ## ResetPassword start page
 
 password-reset-flow-heading = Επαναφορά κωδικού πρόσβασης
-password-reset-body = Εισαγάγετε το email σας και θα σας στείλουμε έναν κωδικό επιβεβαίωσης για να επαληθεύσουμε την ταυτότητά σας.
+password-reset-body-2 =
+    Θα σας ρωτήσουμε μερικά πράγματα που μόνο εσείς γνωρίζετε, προκειμένου
+    να διατηρήσουμε τον λογαριασμό σας ασφαλή.
 password-reset-email-input =
     .label = Εισαγάγετε το email σας
-password-reset-submit-button = Αποστολή οδηγιών επαναφοράς
+password-reset-submit-button-2 = Συνέχεια
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
@@ -1523,15 +1525,9 @@ signin-token-code-required-error = Απαιτείται κωδικός επιβ�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
-signin-totp-code-instruction-v2 = Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ταυτοποίησης που σας παρέχει.
-signin-totp-code-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
+signin-totp-code-subheader = Εισαγάγετε τον κωδικό ασφαλείας ταυτοποίησης δύο παραγόντων (2FA)
+signin-totp-code-instruction-v3 = Ελέγξτε την εφαρμογή ελέγχου ταυτότητάς σας για να επιβεβαιώσετε τη σύνδεσή σας.
+signin-totp-code-input-label-v3 = Εισαγάγετε τον κωδικό
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση
 signin-totp-code-other-account-link = Χρήση διαφορετικού λογαριασμού
