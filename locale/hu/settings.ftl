@@ -1396,7 +1396,7 @@ confirm-reset-password-otp-different-account-link = Másik fiók használata
 ## ResetPassword start page
 
 password-reset-flow-heading = Jelszó visszaállítása
-password-reset-body-2 = Kérünk néhány dolgot, amit csak Ön tud, hogy biztonságban tartsa a fiókját.
+password-reset-body-2 = Kérdezünk néhány dolgot, melyet csak Ön tud, hogy biztonságban tartsa a fiókját.
 password-reset-email-input =
     .label = Adja meg az e-mail-címét
 password-reset-submit-button-2 = Folytatás
@@ -1523,7 +1523,7 @@ signin-token-code-required-error = Megerősítési kód szükséges
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Adja meg a kétfaktoros hitelesítési biztonsági kódját (2FA)
+signin-totp-code-subheader = Adja meg a kétlépcsős hitelesítés biztonsági kódját (2FA)
 signin-totp-code-instruction-v3 = Ellenőrizze a hitelesítő alkalmazást a bejelentkezés megerősítéséhez.
 signin-totp-code-input-label-v3 = Adja meg a kódot
 # Form button to confirm if the authentication code entered by the user is valid
