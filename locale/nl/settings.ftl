@@ -1394,10 +1394,12 @@ confirm-reset-password-otp-different-account-link = Een andere account gebruiken
 ## ResetPassword start page
 
 password-reset-flow-heading = Uw wachtwoord opnieuw instellen
-password-reset-body = Voer uw e-mailadres in en we sturen u een bevestigingscode om te bevestigen dat u het bent.
+password-reset-body-2 =
+    We vragen u een aantal dingen die alleen u weet om uw account
+    veilig te houden.
 password-reset-email-input =
     .label = Voer uw e-mailadres in
-password-reset-submit-button = Stuur mij herinitialisatieinstructies
+password-reset-submit-button-2 = Doorgaan
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-with-recovery-key-verified-generate-new-key = Een nieuwe accountherstelsleutel aanmaken
 reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mijn account
@@ -1521,15 +1523,9 @@ signin-token-code-required-error = Bevestigingscode vereist
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Voer uw authenticatiecode in <span>om door te gaan naar uw accountinstellingen</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Voer uw authenticatiecode in <span>om door te gaan naar { $serviceName }</span>
-signin-totp-code-instruction-v2 = Open uw app voor authenticatie en voer de aangeboden authenticatiecode in.
-signin-totp-code-input-label-v2 = Voer 6-cijferige code in
+signin-totp-code-subheader = Voer uw beveiligingscode voor tweefactorauthenticatie (2FA) in
+signin-totp-code-instruction-v3 = Controleer uw authenticatie-app om uw aanmelding te bevestigen.
+signin-totp-code-input-label-v3 = Code invoeren
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bevestigen
 signin-totp-code-other-account-link = Een andere account gebruiken
