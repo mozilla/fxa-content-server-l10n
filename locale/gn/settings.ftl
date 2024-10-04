@@ -319,11 +319,15 @@ password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey �
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Michĩvéramo 8 tai
+password-strength-inline-not-email = Ani ne ñanduti veve kundaharape
+password-strength-inline-not-common = Ndaha’éi ne ñe’ẽñemi eiporumeméva
 
 ## Ready component
 
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 ready-complete-set-up-instruction = Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka { -brand-firefox } ndive.
+manage-your-account-button = Eñangareko ne mba’etére
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -375,6 +379,9 @@ flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Jesarekorã
+password-reset-chevron-expanded = Ñemongyhyje
+password-reset-chevron-collapsed = Emyasãi mongyhyje
 
 ## Alert Bar
 
