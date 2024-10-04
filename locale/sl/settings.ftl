@@ -410,7 +410,7 @@ password-reset-previously-signed-in-device = Imate napravo, kamor ste se že kda
 password-reset-data-may-be-saved-locally = Podatki brskalnika so morda shranjeni na tej napravi. Prijavite se vanjo z novim geslom, da jih obnovite in sinhronizirate.
 password-reset-no-old-device = Imate novo napravo, nimate pa stare?
 password-reset-encrypted-data-cannot-be-recovered = Žal nam je, toda šifriranih podatkov brskalnika v strežnikih { -brand-firefox } ni mogoče obnoviti. Še vedno pa lahko dostopate do svojih lokalnih podatkov na vseh napravah, v katere ste se predhodno prijavili.
-password-reset-learn-about-restoring-account-data = Preberite več o obnavljanju podatkov o računih
+password-reset-learn-about-restoring-account-data = Preberite več o obnavljanju podatkov računov
 
 ## Alert Bar
 
@@ -1147,7 +1147,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
-inline-recovery-key-setup-create-error = Ups! Vašega ključa za obnovitev računa ni bilo mogoče ustvariti. Poskusite znova pozneje.
+inline-recovery-key-setup-create-error = Opla! Ključa za obnovitev računa ni bilo mogoče ustvariti. Poskusite znova pozneje.
 inline-recovery-key-setup-recovery-created = Ključ za obnovitev računa ustvarjen
 inline-recovery-key-setup-download-header = Zavarujte svoj račun
 inline-recovery-key-setup-download-subheader = Prenesite in shranite ga zdaj
@@ -1370,7 +1370,7 @@ complete-reset-password-success-alert = Geslo je nastavljeno
 # Displayed in an alert bar
 complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do težave
 password-reset-could-not-determine-account-recovery-key = Imate ključ za obnovitev računa?
-password-reset-use-account-recovery-key = Ponastavite geslo in obdržite svoje podatke
+password-reset-use-account-recovery-key = Ponastavite geslo in obdržite podatke
 
 ## Confirm Reset Password With Code
 
@@ -1392,7 +1392,7 @@ confirm-reset-password-otp-different-account-link = Uporabi drug račun
 ## ResetPassword start page
 
 password-reset-flow-heading = Ponastavite geslo
-password-reset-body-2 = Samo vas bomo prosili za nekaj stvari, ki jih poznate, da ohranite vaš račun varen.
+password-reset-body-2 = Vprašali bomo za nekaj stvari, ki jih veste samo vi, da zavarujemo vaš račun.
 password-reset-email-input =
     .label = Vnesite e-poštni naslov
 password-reset-submit-button-2 = Nadaljuj
@@ -1455,7 +1455,7 @@ signin-push-code-heading-w-default-service = Potrdite to prijavo <span>za nadalj
 signin-push-code-heading-w-custom-service = Potrdite to prijavo <span>za nadaljevanje v { $serviceName }</span>
 signin-push-code-instruction = Preverite druge svoje naprave in odobrite to prijavo iz svojega brskalnika { -brand-firefox }.
 signin-push-code-did-not-recieve = Niste prejeli obvestila?
-signin-push-code-send-email-link = E-poštna koda
+signin-push-code-send-email-link = Pošlji kodo
 
 ## SigninPushCodeConfirmPage
 
