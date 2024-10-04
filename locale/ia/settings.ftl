@@ -1392,6 +1392,7 @@ confirm-reset-password-otp-different-account-link = Usa un conto differente
 ## ResetPassword start page
 
 password-reset-flow-heading = Reinitialisa tu contrasigno
+password-reset-body-2 = Pro mantener tu conto secur, nos te demandara alcun informationes que solo tu sape.
 password-reset-email-input =
     .label = Insere tu email
 password-reset-submit-button-2 = Continuar
@@ -1518,6 +1519,9 @@ signin-token-code-required-error = Il es necesse codice de confirmation
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Insere tu codice de securitate pro le authentication a duo factores (2FA)
+signin-totp-code-instruction-v3 = Consulta tu application de authentification pro confirmar tu accesso.
+signin-totp-code-input-label-v3 = Insere le codice
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa un conto differente
