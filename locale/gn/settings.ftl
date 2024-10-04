@@ -167,10 +167,31 @@ form-password-sr-not-common-message = Pe ñe’ẽñemi ani oreko ñe’ẽñemi
 form-password-sr-requirements-met = Pe ñe’ẽñemi haipyre ohechapava’erã ñe’ẽñemi oikotevẽva.
 form-password-sr-passwords-match = Ko’ã ñe’ẽñemi haipyre ojuehegua.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Ñe’ẽñemi
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ehai jey ñe’ẽñemi
+form-password-with-inline-criteria-signup-submit-button = Emoheñói mba’ete
+form-password-with-inline-criteria-reset-new-password =
+    .label = Ñe’ẽñemi pyahu
+form-password-with-inline-criteria-confirm-password =
+    .label = Emoneĩ ñe'ẽñemi
+form-password-with-inline-criteria-reset-submit-button = Emoheñói ñe’ẽñemi pyahu
+form-password-with-inline-criteria-match-error = Ko’ã ñe’ẽñemi ndojojoguái
+form-password-with-inline-criteria-sr-too-short-message = Pe ñe’ẽñemi oguerekova’erã michĩ’vérõ 8 tai.
+form-password-with-inline-criteria-sr-not-email-message = Pe ñe’ẽñemi ani oreko ne ñanduti veve kundaharape.
+form-password-with-inline-criteria-sr-not-common-message = Pe ñe’ẽñemi ani oreko ñe’ẽñemi ojeporumeméva.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Ko korápe ahaiva’erã
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -296,11 +317,13 @@ password-strength-balloon-not-email = Aníke ne ñanduti veve kundaharape
 password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojeporumeméva
 password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey ñe’ẽñemi. Ehechajey ñemoñe’ẽ <LinkExternal>emoheñói ñe’ẽñemi hekorosãva</LinkExternal> peg̃uarã.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 ready-complete-set-up-instruction = Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka { -brand-firefox } ndive.
-ready-start-browsing-button = Eikundaha ñepyrũ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -324,6 +347,34 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Marandurenda mba’e’oka 
 flow-recovery-key-download-storage-ideas-cloud = Ñeñongatuha araípe jeroviaha
 flow-recovery-key-download-storage-ideas-print-v2 = Ñemonguatiapyre
 flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Embojuaju tape roipytyvõ hag̃ua ne mba’eñemi guerujeyrã
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Ko tape nepytyvõta nemandu’a hag̃ua moõpa eñongatu mba’ete mba’eñemi guerujeyrã. Rohechaukakuaa erujey aja ne ñe’ẽñemi erekojey hag̃ua ne mba’ekuaarã.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Emoinge tape (ejaposérõ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Mbopaha
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Pe tape oguerekova’erã hetave 255 tairendágui.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua Unicode hekorosã’ỹva. Oñemoneĩ tai añónte, papapy, kyta aty ha ta’ãnga’i.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -465,30 +516,11 @@ flow-recovery-key-download-info-v2 = Ko mba’eñemi omoneĩ erujey hag̃ua ne m
 flow-recovery-key-download-next-link-v2 = Eku’ejey emboguejy’ỹre
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Embojuaju tape roipytyvõ hag̃ua ne mba’eñemi guerujeyrã
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Ko tape nepytyvõta nemandu’a hag̃ua moõpa eñongatu mba’ete mba’eñemi guerujeyrã. Rohechaukakuaa erujey aja ne ñe’ẽñemi erekojey hag̃ua ne mba’ekuaarã.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Emoinge tape (ejaposérõ)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Mbopaha
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Mba’ete mba’eñemi guerujeyrã moheñoimbyre
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Pe tape oguerekova’erã hetave 255 tairendágui.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua Unicode hekorosã’ỹva. Oñemoneĩ tai añónte, papapy, kyta aty ha ta’ãnga’i.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -986,14 +1018,6 @@ third-party-auth-options-or = Térã
 continue-with-google-button = Eku’ejey { -brand-google } ndive
 continue-with-apple-button = Eku’ejey { -brand-apple } ndive
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Papapy { $inputNumber } { $codeLength } rehegua
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Mba’ete ojeikuaa’ỹva
@@ -1269,37 +1293,16 @@ third-party-auth-callback-message = Eha’ãrõmína, ejeguerahajeyhína tembipo
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Erujey ñe’ẽñemi mba’eñemi jeguerujeyrã ndive <span>embohekokuaa hag̃ua ne mba’egueru</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Erujey ñe’ẽñemi mba’eñemi jeguerujeyrã ndive <span>eku’ejey hag̃ua { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde { -product-mozilla-account }-pe.
-account-recovery-confirm-key-warning-message = <span>Jehaipy</span> emoñepyrũjeývo ñe’ẽñemi ha nereñongatúirõ mba’eñemi jeguerujeyrã, oguekuaa mba’ekuaarã (oikehápe apopyvusu mba’ekuaarã moñondivepyre ikatúva tambiasakue ha techaukaha).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Emoinge mba’ete mba’eñemi jeguerujeyrã
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Emoneĩ mba’ete mba’eñemi jeguerujeyrã
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = ¿Ndereguerekói mba’eñemi jeguerujeyrã?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Emoheñói ñe’ẽñemi pyahu
-complete-reset-password-warning-message-2 = <span>Nemandu’ápa:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha, ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { -product-pocket } mba’ekuaarã naiñambuemo’ãi.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Rombyasy, oiko apañuái emoĩnguévo ne ñe’ẽñemi
-complete-reset-password-recovery-key-error-v2 = Ore ñyro, oĩ apañuái hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
-complete-reset-password-recovery-key-link = Erujey ñe’ẽñemi mba’ete mba’eñemi jeguerujeyrã ndive.
-account-restored-success-message = Eruporãjey ne mba’ete eiporúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 
 ## Confirm Reset Password With Code
 
@@ -1321,10 +1324,8 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 ## ResetPassword start page
 
 password-reset-flow-heading = Embojevyjey ne ñe’ẽñemi
-password-reset-body = Ehai ne ñanduti veve ha roguerahaukáta ayvu ñemoneĩrã ehechauka hag̃ua ndeha.
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
-password-reset-submit-button = Embou mba’éichapa emoĩporãjeýta
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
@@ -1437,15 +1438,6 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Emoinge ayvu guerujeyrã <span>eku’e hag̃ua mba’ete ñembohekópe</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Ehai ayvu ñemoneĩgua <span>eku’e hag̃ua { $serviceName }</span> peve
-signin-totp-code-instruction-v2 = Embojuruja ne rembiporu’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
-signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
 signin-totp-code-other-account-link = Eiporu ambuéva mba’ete
