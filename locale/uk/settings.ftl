@@ -167,6 +167,23 @@ form-password-sr-not-common-message = Пароль не повинен бути 
 form-password-sr-requirements-met = Введений пароль відповідає всім вимогам.
 form-password-sr-passwords-match = Введені паролі збігаються.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Пароль
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Повторити пароль
+form-password-with-inline-criteria-signup-submit-button = Створити обліковий запис
+form-password-with-inline-criteria-reset-new-password =
+    .label = Новий пароль
+form-password-with-inline-criteria-confirm-password =
+    .label = Підтвердити пароль
+form-password-with-inline-criteria-reset-submit-button = Створити новий пароль
+form-password-with-inline-criteria-sr-too-short-message = Пароль має містити принаймні 8 символів.
+form-password-with-inline-criteria-sr-not-common-message = Пароль не повинен бути загальновживаним.
+form-password-with-inline-criteria-sr-requirements-met = Введений пароль відповідає всім вимогам.
+form-password-with-inline-criteria-sr-passwords-match = Введені паролі збігаються.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +337,17 @@ password-strength-balloon-not-email = Не ваша електронна адр�
 password-strength-balloon-not-common = Не часто використовуваний пароль
 password-strength-balloon-stay-safe-tips = Убезпечте себе — не використовуйте паролі повторно. Перегляньте інші поради щодо <LinkExternal>створення надійних паролів</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Принаймні 8 символів
+password-strength-inline-not-common = Не загальновживаний пароль
+password-strength-inline-confirmed-must-match = Підтвердження відповідає новому паролю
+
 ## Ready component
 
 reset-password-complete-header = Ваш пароль було відновлено
 ready-complete-set-up-instruction = Завершіть налаштування, ввівши новий пароль на інших пристроях { -brand-firefox }.
-ready-start-browsing-button = Почати перегляд
+manage-your-account-button = Керувати обліковим записом
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +395,16 @@ flow-recovery-key-hint-char-limit-error = Підказка має містити
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Підказка не може містити небезпечні символи unicode. Допускаються лише букви, цифри, знаки пунктуації та символи.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Попередження
+password-reset-chevron-expanded = Згорнути попередження
+password-reset-chevron-collapsed = Розгорнути попередження
+password-reset-data-may-not-be-recovered = Дані вашого браузера можуть не відновитися
+password-reset-no-old-device = Маєте новий пристрій, але не маєте старого?
+password-reset-learn-about-restoring-account-data = Докладніше про відновлення даних облікового запису
 
 ## Alert Bar
 
@@ -1309,37 +1342,26 @@ third-party-auth-callback-message = Зачекайте, вас буде пере
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Відновіть пароль за допомогою ключа відновлення облікового запису, <span>щоб перейти до налаштувань облікового запису</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Відновіть пароль за допомогою ключа відновлення облікового запису, <span>щоб перейти до { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Введіть свій одноразовий ключ відновлення, щоб поновити доступ до { -product-mozilla-account(case: "gen") }.
-account-recovery-confirm-key-warning-message = <span>Примітка:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включно з історією перегляду й закладками).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Введіть ключ відновлення облікового запису
+account-recovery-confirm-key-heading = Введіть ключ відновлення облікового запису
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Введіть свій 32-значний ключ відновлення облікового запису
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Підтвердьте ключ відновлення облікового запису
+account-recovery-confirm-key-button-2 = Продовжити
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Не маєте ключа відновлення облікового запису?
+account-recovery-lost-recovery-key-link-2 = Не можете знайти ключ відновлення облікового запису?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Створити новий пароль
-complete-reset-password-warning-message-2 = <span>Пам'ятайте:</span> Скидання пароля призводить до скидання вашого облікового запису. Ви можете втратити особисту інформацію (включно з історією, закладками та паролями). Це тому, що ми шифруємо дані за допомогою пароля для захисту вашої приватності. Проте, ця дія не вплине на ваші чинні передплати й дані, раніше збережені в { -product-pocket }.
+complete-reset-pw-header-v2 = Створити новий пароль
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль встановлено
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Перепрошуємо, але під час встановлення пароля виникла проблема
-complete-reset-password-recovery-key-error-v2 = На жаль, виникла проблема під час перевірки наявності у вас ключа відновлення облікового запису.
-complete-reset-password-recovery-key-link = Відновіть пароль за допомогою ключа відновлення облікового запису
-account-restored-success-message = Ви успішно відновили обліковий запис за допомогою свого ключа. Створіть новий пароль для захисту даних і збережіть його в надійному місці.
 
 ## Confirm Reset Password With Code
 
@@ -1361,10 +1383,8 @@ confirm-reset-password-otp-different-account-link = Використати ін�
 ## ResetPassword start page
 
 password-reset-flow-heading = Відновити свій пароль
-password-reset-body = Введіть свою електронну адресу, і ми надішлемо вам код підтвердження для перевірки.
 password-reset-email-input =
     .label = Адреса електронної пошти
-password-reset-submit-button = Надішліть мені інструкції зі скидання
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
@@ -1488,15 +1508,6 @@ signin-token-code-required-error = Потрібно ввести код підт
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Введіть код автентифікації, <span>щоб перейти до налаштувань облікового запису</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Введіть код автентифікації, <span>щоб продовжити в { $serviceName }</span>
-signin-totp-code-instruction-v2 = Відкрийте вашу програму автентифікації та введіть код, який вона пропонує.
-signin-totp-code-input-label-v2 = Введіть 6-значний код
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Підтвердити
 signin-totp-code-other-account-link = Використати інший обліковий запис
