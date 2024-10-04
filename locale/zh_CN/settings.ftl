@@ -1154,7 +1154,7 @@ inline-recovery-back-link = 上一步
 inline-recovery-cancel-setup = 取消设置
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = 备用验证码
-inline-recovery-confirmation-description = 为确保您在设备丢失的情况下仍能登录您的账号，请输入此前保存的备用验证码中的任意一个。
+inline-recovery-confirmation-description = 为确保您在设备丢失的情况下仍能登录您的账户，请输入此前保存的备用验证码中的任意一个。
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-confirmation-header-default = 确认备用验证码以<span>继续进行账户设置</span>
