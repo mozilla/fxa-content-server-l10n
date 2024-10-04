@@ -1374,10 +1374,10 @@ confirm-reset-password-otp-different-account-link = 换个账户登录
 ## ResetPassword start page
 
 password-reset-flow-heading = 重置密码
-password-reset-body = 请输入您的电子邮件地址，我们会向您发送一个验证码以确认身份。
+password-reset-body-2 = 我们将询问一些仅您自己知道的信息，以确保账户安全。
 password-reset-email-input =
     .label = 请输入您的电子邮箱
-password-reset-submit-button = 请向我发送重置操作说明
+password-reset-submit-button-2 = 继续
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
@@ -1501,15 +1501,9 @@ signin-token-code-required-error = 请输入验证码
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = 输入验证码<span>以继续进行账户设置</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = 输入验证码<span>以进入 { $serviceName }</span>
-signin-totp-code-instruction-v2 = 请打开您的身份验证应用，并输入其提供的验证码。
-signin-totp-code-input-label-v2 = 请输入 6 位验证码
+signin-totp-code-subheader = 请输入双因子身份验证安全码（2FA）
+signin-totp-code-instruction-v3 = 请通过身份验证器确认登录。
+signin-totp-code-input-label-v3 = 请输入验证码
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
