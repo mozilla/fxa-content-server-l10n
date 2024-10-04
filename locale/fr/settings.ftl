@@ -1509,7 +1509,7 @@ signin-token-code-required-error = Code de confirmation requis
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader = Saisissez le code de sécurité pour l’authentification à deux facteurs (2FA)
-signin-totp-code-instruction-v3 = Vérifiez votre application d’authentification pour confirmer votre connexion.
+signin-totp-code-instruction-v3 = Consultez votre application d’authentification pour confirmer votre connexion.
 signin-totp-code-input-label-v3 = Saisissez le code
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
