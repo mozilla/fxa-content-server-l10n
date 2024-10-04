@@ -1398,10 +1398,12 @@ confirm-reset-password-otp-different-account-link = In oar account brûke
 ## ResetPassword start page
 
 password-reset-flow-heading = Jo wachtwurd opnij ynstelle
-password-reset-body = Fier jo e-mailadres yn en wy stjoere jo in befêstigingskoade om te befêstigjen dat jo it echt binne.
+password-reset-body-2 =
+    Wy freegje jo in pear dingen dy’t allinnich jo witte om jo account
+    feilich te hâlden.
 password-reset-email-input =
     .label = Fier jo e-mailadres yn
-password-reset-submit-button = Stjoer my ynstruksjes foar opnij ynstellen
+password-reset-submit-button-2 = Trochgean
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
@@ -1525,15 +1527,9 @@ signin-token-code-required-error = Befêstigingskoade nedich
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Fier jo autentikaasjekoade yn <span>om troch te gean nei jo accountynstellingen</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Fier jo autentikaasjekoade yn <span>om troch te gean nei { $serviceName }</span>
-signin-totp-code-instruction-v2 = Iepenje jo app foar autentikaasje en fier de oanbeane autentikaasjekoade yn.
-signin-totp-code-input-label-v2 = Fier 6-siferige koade yn
+signin-totp-code-subheader = Fier jo befeiligingskoade foar twafaktorautentikaasje (2FA) yn
+signin-totp-code-instruction-v3 = Kontrolearje jo autentikaasje-app om jo oanmelding te befêstigjen.
+signin-totp-code-input-label-v3 = Koade ynfiere
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Befêstigje
 signin-totp-code-other-account-link = In oar account brûke
