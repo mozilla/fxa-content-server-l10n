@@ -1315,8 +1315,10 @@ confirm-reset-password-otp-different-account-link = שימוש בחשבון אח
 ## ResetPassword start page
 
 password-reset-flow-heading = איפוס הססמה שלך
+password-reset-body-2 = נשאל אותך כמה שאלות שהתשובות עליהן ידועות רק לך, כדי לשמור על החשבון שלך.
 password-reset-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
+password-reset-submit-button-2 = המשך
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
@@ -1427,6 +1429,9 @@ signin-token-code-required-error = נדרש קוד אימות
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = נא להכניס את קוד האבטחה של האימות הדו־שלבי (2FA)
+signin-totp-code-instruction-v3 = נא לפתוח את היישומון המאמת שלך ולאמת את ההתחברות שלך.
+signin-totp-code-input-label-v3 = נא להזין קוד
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = אישור
 signin-totp-code-other-account-link = שימוש בחשבון אחר
