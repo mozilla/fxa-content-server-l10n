@@ -170,6 +170,9 @@ form-password-with-inline-criteria-reset-submit-button = Stvori novu lozinku
 form-password-with-inline-criteria-match-error = Lozinke se ne podudaraju
 form-password-with-inline-criteria-sr-too-short-message = Lozinka mora sadržati barem 8 znakova.
 form-password-with-inline-criteria-sr-not-email-message = Lozinka ne smije sadržati tvoju e-mail adresu.
+form-password-with-inline-criteria-sr-not-common-message = Lozinka ne smije biti često korištena lozinka.
+form-password-with-inline-criteria-sr-requirements-met = Upisana lozinka poštuje sve zahtjeve za lozinku.
+form-password-with-inline-criteria-sr-passwords-match = Upisane lozinke se podudaraju.
 
 ## FormVerifyCode
 
@@ -179,6 +182,16 @@ form-verify-code-default-error = Ovo je obavezno polje
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Upiši { $codeLength }-znamenkasti kod
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Upiši { $codeLength }-znakovni kod
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -288,11 +301,16 @@ password-strength-balloon-stay-safe-tips = Zaštiti se – nemoj koristiti već 
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Barem 8 znakova
+password-strength-inline-not-email = Nije tvoja e-mail adresa
+password-strength-inline-not-common = Nije često korištena lozinka
+password-strength-inline-confirmed-must-match = Potvrda odgovara novoj lozinci
 
 ## Ready component
 
 reset-password-complete-header = Tvoja je lozinka resetirana
 ready-complete-set-up-instruction = Završi postavljanje upisom tvoje nove lozinke na tvojim drugim { -brand-firefox } uređajima.
+manage-your-account-button = Upravljaj svojim računom
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
