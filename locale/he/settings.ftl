@@ -161,6 +161,11 @@ form-password-sr-passwords-match = הססמאות שהוזנו תואמות.
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = ססמה
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = חזרה על הססמה
+form-password-with-inline-criteria-signup-submit-button = יצירת חשבון
 form-password-with-inline-criteria-reset-new-password =
     .label = ססמה חדשה
 form-password-with-inline-criteria-confirm-password =
@@ -1310,10 +1315,8 @@ confirm-reset-password-otp-different-account-link = שימוש בחשבון אח
 ## ResetPassword start page
 
 password-reset-flow-heading = איפוס הססמה שלך
-password-reset-body = נא להכניס  את כתובת הדוא״ל שלך ואנו נשלח לך קוד אישור כדי לאמת את זהותך.
 password-reset-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
-password-reset-submit-button = שלחו לי הוראות לאיפוס
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
@@ -1424,15 +1427,6 @@ signin-token-code-required-error = נדרש קוד אימות
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = נא להכניס קוד אימות <span>כדי להמשיך להגדרות החשבון</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = נא להכניס קוד אימות <span>כדי להמשיך אל { $serviceName }</span>
-signin-totp-code-instruction-v2 = נא לפתוח את יישומון האימות שלך ולהקליד את קוד האימות שמופיע בו.
-signin-totp-code-input-label-v2 = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = אישור
 signin-totp-code-other-account-link = שימוש בחשבון אחר
