@@ -155,10 +155,30 @@ form-password-sr-not-common-message = Lozinka ne smije biti često korištena lo
 form-password-sr-requirements-met = Upisana lozinka poštuje sve zahtjeve za lozinku.
 form-password-sr-passwords-match = Upisane lozinke se podudaraju.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Lozinka
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ponovi lozinku
+form-password-with-inline-criteria-signup-submit-button = Otvori račun
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nova lozinka
+form-password-with-inline-criteria-confirm-password =
+    .label = Potvrdi lozinku
+form-password-with-inline-criteria-reset-submit-button = Stvori novu lozinku
+form-password-with-inline-criteria-match-error = Lozinke se ne podudaraju
+form-password-with-inline-criteria-sr-too-short-message = Lozinka mora sadržati barem 8 znakova.
+form-password-with-inline-criteria-sr-not-email-message = Lozinka ne smije sadržati tvoju e-mail adresu.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Ovo je obavezno polje
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -266,11 +286,13 @@ password-strength-balloon-not-email = Nije tvoja e-mail adresa
 password-strength-balloon-not-common = Nije često korištena lozinka
 password-strength-balloon-stay-safe-tips = Zaštiti se – nemoj koristiti već korištene lozinke. Pogledaj savjete za <LinkExternal>stvaranje jakih lozinki</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = Tvoja je lozinka resetirana
 ready-complete-set-up-instruction = Završi postavljanje upisom tvoje nove lozinke na tvojim drugim { -brand-firefox } uređajima.
-ready-start-browsing-button = Počni pregledavati
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -294,6 +316,28 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Mapa na sigurnom uređaju
 flow-recovery-key-download-storage-ideas-cloud = Pouzdano spremište u oblaku
 flow-recovery-key-download-storage-ideas-print-v2 = Ispisan fizički primjerak
 flow-recovery-key-download-storage-ideas-pwd-manager = Upravljač lozinki
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Dodaj savjet za pronalaženje ključa
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Upiši savjet (opcionalno)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Završi
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Savjet mora sadržati manje od 255 znakova.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -421,24 +465,11 @@ flow-recovery-key-download-heading-v2 = Ključ za obnavljanje računa je stvoren
 flow-recovery-key-download-next-link-v2 = Nastavi bez preuzimanja
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Dodaj savjet za pronalaženje ključa
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Upiši savjet (opcionalno)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Završi
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Ključ za obnavljanje računa je stvoren
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Savjet mora sadržati manje od 255 znakova.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -874,14 +905,6 @@ third-party-auth-options-or = ili
 continue-with-google-button = Nastavi s { -brand-google }
 continue-with-apple-button = Nastavi s { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Znamenka { $inputNumber } od { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Nepoznati račun
@@ -1073,35 +1096,16 @@ pair-supp-allow-cancel-link = Odustani
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = <span>Za nastavljanje s postavljanjem računa</span> resetiraj lozinku pomoću ključa za obnavljanje računa
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Resetiraj lozinku pomoću ključa za obnavljanje računa <span>za nastavljanje na { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Za ponovni pristup tvom { -product-mozilla-account } upiši spremljeni jednokratni ključ za oporavak računa.
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Upiši ključ za obnavljanje računa
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Potvrdi ključ za obnavljanje računa
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Nemaš ključ za obnavljanje računa?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Stvori novu lozinku
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lozinka je postavljena
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Žao nam je. Došlo je do greške prilikom postavljanja tvoje lozinke
-complete-reset-password-recovery-key-error-v2 = Žao nam je. Došlo je do greške prilikom provjere postojanja ključa za obnavljanje računa.
-complete-reset-password-recovery-key-link = Resetiraj lozinku pomoću tvog ključa za obnavljanje računa.
-account-restored-success-message = Uspješno si obnovio/la svoj račun koristeći ključ za obnavljanje računa. Stvori novu lozinku za osiguravanje tvojih podataka i spremi ju na sigurnu mjesto.
 
 ## Confirm Reset Password With Code
 
@@ -1123,10 +1127,8 @@ confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 ## ResetPassword start page
 
 password-reset-flow-heading = Resetiraj tvoju lozinku
-password-reset-body = Upiši tvoju e-mail adresu i poslat ćemo ti kod za potvrdu da bismo potvrdili da si to doista ti.
 password-reset-email-input =
     .label = Upiši tvoju e-mail adresu
-password-reset-submit-button = Pošaljite mi upute za resetiranje
 reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
 reset-password-with-recovery-key-verified-generate-new-key = Generiraj novi ključ za obnavljanje računa
 reset-password-with-recovery-key-verified-continue-to-account = Nastavi na moj račun
@@ -1206,7 +1208,6 @@ signin-token-code-required-error = Potreban je potvrdni kod
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-input-label-v2 = Upiši šesteroznamenkasti kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdi
 signin-totp-code-other-account-link = Koristi jedan drugi račun
