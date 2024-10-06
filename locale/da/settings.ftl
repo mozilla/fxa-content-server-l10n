@@ -194,6 +194,16 @@ form-verify-code-default-error = Dette felt er påkrævet
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Indtast den { $codeLength }-cifrede kode for at fortsætte
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Indtast koden på { $codeLength } tegn for at fortsætte
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -233,7 +243,7 @@ recovery-key-image-aria-label =
 password-image-aria-label =
     .aria-label = En illustration af indtastning af en adgangskode.
 lightbulb-aria-label =
-    .aria-label = Illustration af oprettelse af opbevaringstip.
+    .aria-label = Illustration af oprettelse af huskeregel.
 email-code-image-aria-label =
     .aria-label = Illustration af en mail, der indeholder en kode.
 
@@ -334,6 +344,7 @@ password-strength-balloon-stay-safe-tips = Beskyt dig selv — Genbrug ikke adga
 password-strength-inline-min-length = Mindst 8 tegn
 password-strength-inline-not-email = Ikke din mailadresse
 password-strength-inline-not-common = Ikke en almindeligt brugt adgangskode
+password-strength-inline-confirmed-must-match = Bekræftelsen matcher den nye adgangskode
 
 ## Ready component
 
