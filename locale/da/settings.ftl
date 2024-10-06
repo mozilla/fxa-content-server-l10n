@@ -370,23 +370,23 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
 
 # The header of the last step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Tilføj et tip til at hjælpe med at finde din nøgle
+flow-recovery-key-hint-header-v2 = Tilføj en huskeregel til at hjælpe med at finde din nøgle
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 # "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Dette tip skal hjælpe dig med at huske, hvor du gemte din genoprettelsesnøgle til kontoen. Vi kan vise dig tippet, når du nulstiller adgangskoden for at gendanne dine data.
+flow-recovery-key-hint-message-v3 = Denne huskeregel skal hjælpe dig med at huske, hvor du gemte din genoprettelsesnøgle til kontoen. Vi kan vise dig tippet, når du nulstiller adgangskoden for at gendanne dine data.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
-    .label = Indtast et tip (valgfrit)
+    .label = Indtast en huskeregel (valgfrit)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Afslut
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Tippet skal indeholde færre end 255 tegn.
+flow-recovery-key-hint-char-limit-error = Huskereglen skal indeholde færre end 255 tegn.
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Tippet kan ikke indeholde usikre unicode-tegn. Kun bogstaver, tal, tegnsætningstegn og symboler er tilladt.
+flow-recovery-key-hint-unsafe-char-error = Huskereglen kan ikke indeholde usikre unicode-tegn. Kun bogstaver, tal, tegnsætningstegn og symboler er tilladt.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -1342,6 +1342,8 @@ account-recovery-confirm-key-instruction = Med denne nøgle gendanner dine krypt
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = Indtast din genoprettelsesnøgle til kontoen på 32 tegn
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Din huskeregel er:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Fortsæt
 # Link that leads to the password reset page (without recovery code)
@@ -1380,10 +1382,10 @@ confirm-reset-password-otp-different-account-link = Brug en anden konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Nulstil din adgangskode
-password-reset-body = Indtast din mailadresse for at få tilsendt en bekræftelseskode til at bekræfte din identitet.
+password-reset-body-2 = For at sikre din konto, spørger vi dig om nogle ting, som kun du kender.
 password-reset-email-input =
     .label = Indtast din mailadresse
-password-reset-submit-button = Send mig en vejledning til at nulstille
+password-reset-submit-button-2 = Fortsæt
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
 reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
@@ -1507,15 +1509,9 @@ signin-token-code-required-error = Bekræftelseskode påkrævet
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Indtast godkendelseskoden <span>for at fortsætte til kontoindstillingerne</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Indtast godkendelseskoden <span>for at fortsætte til { $serviceName }</span>
-signin-totp-code-instruction-v2 = Åbn din godkendelsesapp og indtast den angivne godkendelseskode.
-signin-totp-code-input-label-v2 = Indtast 6-cifret kode
+signin-totp-code-subheader = Indtast din sikkerhedskode for tofaktorgodkendelse (2FA)
+signin-totp-code-instruction-v3 = Tjek din godkendelsesapp for at bekræfte dit login.
+signin-totp-code-input-label-v3 = Indtast kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekræft
 signin-totp-code-other-account-link = Brug en anden konto
