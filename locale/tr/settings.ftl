@@ -1373,10 +1373,10 @@ confirm-reset-password-otp-different-account-link = Farklı bir hesap kullan
 ## ResetPassword start page
 
 password-reset-flow-heading = Parolanızı sıfırlayın
-password-reset-body = E-posta adresinizi yazın. Gerçekten siz olduğunuzu doğrulamak için e-posta adresinize bir doğrulama kodu göndereceğiz.
+password-reset-body-2 = Hesabınızı güvende tutmak için yalnızca sizin bildiğiniz birkaç şey soracağız.
 password-reset-email-input =
     .label = E-posta adresinizi yazın
-password-reset-submit-button = Sıfırlama talimatlarını gönder
+password-reset-submit-button-2 = Devam et
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
@@ -1500,15 +1500,6 @@ signin-token-code-required-error = Onay kodu gerekiyor
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = <span>Hesap ayarlarına devam etmek için</span> kimlik doğrulama kodunu yazın
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = <span>{ $serviceName } hizmetine devam etmek için</span> kimlik doğrulama kodunu yazın
-signin-totp-code-instruction-v2 = Kimlik doğrulama uygulamanızı açın ve uygulamanın verdiği kimlik doğrulama kodunu yazın.
-signin-totp-code-input-label-v2 = 6 basamaklı kodu girin
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Onayla
 signin-totp-code-other-account-link = Farklı bir hesap kullan
