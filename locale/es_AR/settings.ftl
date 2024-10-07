@@ -403,7 +403,7 @@ flow-recovery-key-hint-unsafe-char-error = La pista no puede contener caracteres
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Advertencia
-password-reset-chevron-expanded = Advertencia de contraer
+password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
 password-reset-data-may-not-be-recovered = Es posible que no se recuperen los datos del navegador
 password-reset-previously-signed-in-device = ¿Tenés un dispositivo en el que iniciaste sesión anteriormente?
