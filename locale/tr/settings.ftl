@@ -406,6 +406,7 @@ password-reset-chevron-expanded = Uyarıyı daralt
 password-reset-chevron-collapsed = Uyarıyı genişlet
 password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
 password-reset-previously-signed-in-device = Daha önce giriş yaptığınız bir cihazınız var mı?
+password-reset-data-may-be-saved-locally = Tarayıcı verileriniz o cihazda yerel olarak duruyor olabilir. Verileri geri yüklemek ve eşitlemek için yeni parolanızla giriş yapın.
 password-reset-no-old-device = Yeni bir cihaza geçtiniz ama eskisine artık ulaşamıyor musunuz?
 password-reset-encrypted-data-cannot-be-recovered = Bu durumda maalesef { -brand-firefox } sunucularındaki şifrelenmiş tarayıcı verileriniz kurtarılamaz. Ancak daha önce giriş yaptığınız cihazlardaki yerel verilerinize erişmeye devam edebilirsiniz.
 password-reset-learn-about-restoring-account-data = Hesap verilerini geri yüklemeyle ilgili daha fazla bilgi alın
@@ -1500,6 +1501,9 @@ signin-token-code-required-error = Onay kodu gerekiyor
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = İki aşamalı kimlik doğrulama (2FA) güvenlik kodunuzu yazın
+signin-totp-code-instruction-v3 = Giriş işleminizi onaylamak için kimlik doğrulama uygulamanızı kontrol edin.
+signin-totp-code-input-label-v3 = Kodu yazın
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Onayla
 signin-totp-code-other-account-link = Farklı bir hesap kullan
