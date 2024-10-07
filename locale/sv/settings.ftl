@@ -1396,10 +1396,12 @@ confirm-reset-password-otp-different-account-link = Använd ett annat konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Återställ ditt lösenord
-password-reset-body = Ange din e-postadress så skickar vi en bekräftelsekod för att bekräfta att det verkligen är du.
+password-reset-body-2 =
+    Vi ber om ett par saker som bara du vet för att behålla ditt konto
+    säkert.
 password-reset-email-input =
     .label = Ange din e-postadress
-password-reset-submit-button = Skicka mig återställningsinstruktioner
+password-reset-submit-button-2 = Fortsätt
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
@@ -1523,15 +1525,9 @@ signin-token-code-required-error = Bekräftelsekod krävs
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Ange autentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Ange autentiseringskoden <span>för att fortsätta till { $serviceName }</span>
-signin-totp-code-instruction-v2 = Öppna din autentiseringsapp och ange autentiseringskoden den tillhandahåller.
-signin-totp-code-input-label-v2 = Ange 6-siffrig kod
+signin-totp-code-subheader = Ange din säkerhetskod för tvåfaktorsautentisering (2FA)
+signin-totp-code-instruction-v3 = Kontrollera din autentiseringsapp för att bekräfta din inloggning.
+signin-totp-code-input-label-v3 = Ange kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekräfta
 signin-totp-code-other-account-link = Använd ett annat konto
