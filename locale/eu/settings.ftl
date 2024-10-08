@@ -14,8 +14,15 @@ banner-dismiss-button =
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Itxi pankarta
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Argibide gehiago
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Itxi pankarta
 # Alt text for 'm' logo in banner header
 brand-m-logo =
     .alt = { -brand-mozilla } logoa
@@ -42,10 +49,16 @@ recovery-key-pdf-storage-ideas-heading = Zure gakoa gordetzeko tokiak
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Produktu berriak probatzeko sarbidea goiztiarra
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Aukeratu zer sinkronizatu
 choose-what-to-sync-option-bookmarks =
     .label = Laster-markak
 choose-what-to-sync-option-history =
@@ -85,6 +98,26 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (zenbatetsia)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (zenbatetsia)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (zenbatetsia)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (zenbatetsia)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Kokapen ezezaguna
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } { $genericOSName }-(e)n
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP helbidea: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
@@ -104,6 +137,25 @@ form-password-sr-not-email-message = Pasahitzak ezin du zure posta elektronikoa 
 form-password-sr-not-common-message = Pasahitza ezin da ohiko pasahitz bat izan.
 form-password-sr-requirements-met = Sartutako pasahitzak betetzen ditu eskatutako baldintza guztiak.
 form-password-sr-passwords-match = Sartutako pasahitza bat datoz.
+
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Pasahitza
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Errepikatu pasahitza
+form-password-with-inline-criteria-signup-submit-button = Sortu kontua
+form-password-with-inline-criteria-reset-new-password =
+    .label = Pasahitz berria
+form-password-with-inline-criteria-confirm-password =
+    .label = Berretsi pasahitza
+form-password-with-inline-criteria-reset-submit-button = Sortu pasahitz berria
+form-password-with-inline-criteria-match-error = Pasahitzak ez datoz bat
+form-password-with-inline-criteria-sr-too-short-message = Psahitzak gutxienez 8 karaktere izan behar ditu.
+form-password-with-inline-criteria-sr-not-email-message = Pasahitzak ezin du zure posta elektronikoa izan.
+form-password-with-inline-criteria-sr-not-common-message = Pasahitza ezin da ohiko pasahitz bat izan.
+form-password-with-inline-criteria-sr-requirements-met = Sartutako pasahitzak betetzen ditu eskatutako baldintza guztiak.
+form-password-with-inline-criteria-sr-passwords-match = Sartutako pasahitza bat datoz.
 
 ## FormVerifyCode
 
@@ -185,6 +237,9 @@ account-recovery-notification-cta = Sortu
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 # Message shown when the account is ready but the user is not signed in
@@ -200,11 +255,22 @@ primary-email-verified-header = Helbide elektroniko nagusia berretsi da
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Zure gakoa gordetzeko tokiak:
+flow-recovery-key-download-storage-ideas-pwd-manager = Pasahitz-kudeatzailea
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Amaitu
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Abisua
+password-reset-chevron-expanded = Tolestu abisua
+password-reset-chevron-collapsed = Zabaldu abisua
 
 ## Alert Bar
 
@@ -222,6 +288,11 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = { -brand-mozilla } produktuak
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Mahaigainerako { -brand-firefox } nabigatzailea
 bento-menu-firefox-mobile = Mugikorrerako { -brand-firefox } nabigatzailea
 bento-menu-made-by-mozilla = { -brand-mozilla }(e)k egina
@@ -310,6 +381,10 @@ flow-container-back = Atzera
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Hasi erabiltzen
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Utzi
 
 ## HeaderLockup component, the header in account settings
 
@@ -317,19 +392,26 @@ header-menu-open = Itxi menua
 header-menu-closed = Gunearen nabigazio-menua
 header-back-to-top-link =
     .title = Itzuli gora
+header-title-2 = { -product-mozilla-account }
 header-help = Laguntza
 
 ## Linked Accounts section
 
+la-heading = Lotutako kontuak
+la-set-password-button = Ezarri pasahitza
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Itxi
 modal-cancel-button = Utzi
+modal-default-confirm-button = Berretsi
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Berretsi helbide elektronikoa
+mvs-enter-verification-code-2 = Sartu zure baieztapen-kodea
 msv-cancel-button = Utzi
+msv-submit-button-2 = Berretsi
 
 ## Settings Nav
 
@@ -337,6 +419,7 @@ nav-settings = Ezarpenak
 nav-profile = Profila
 nav-security = Segurtasuna
 nav-connected-services = Konektatutako zerbitzuak
+nav-data-collection = Datuen bilketa eta erabilera
 nav-paid-subs = Ordainpeko harpidetzak
 nav-email-comm = Posta bidezko komunikazioak
 
@@ -390,12 +473,16 @@ pw-change-new-password =
     .label = Idatzi pasahitz berria
 pw-change-confirm-password =
     .label = Berretsi pasahitz berria
+pw-change-success-alert-2 = Pasahitza eguneratuta
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Sortu pasahitza
+pw-create-success-alert-2 = Ezarri pasahitza
 
 ##
 
@@ -437,6 +524,8 @@ display-name-input =
     .label = Idatzi bistaratzeko izena
 submit-display-name = Gorde
 cancel-display-name = Utzi
+display-name-update-error-2 = Arazoa egon da zure bistaratzeko izena eguneratzean
+display-name-success-alert-2 = Bistaratze-izena eguneratua
 
 ##
 
@@ -445,6 +534,7 @@ cancel-display-name = Utzi
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-account-create-v2 = Kontua sortua
 
 ## PageRecoveryKeyCreate
 
@@ -536,6 +626,14 @@ security-action-create = Sortu
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Itzali
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Piztu
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Bidaltzen…
+switch-is-on = piztuta
+switch-is-off = itzalita
 
 ## Sub-section row Defaults
 
@@ -546,10 +644,14 @@ row-defaults-status = Bat ere ez
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Kontua berreskuratzeko gakoa
 rk-enabled = Gaituta
 rk-not-set = Ezarri gabe
 rk-action-create = Sortu
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Aldatu
 rk-action-remove = Kendu
+rk-key-removed-2 = Kontuaren berreskuratze-gakoa kenduta
 rk-cannot-remove-key = Ezin izan da zure kontuaren berreskuratze-gakoa kendu.
 rk-content-explain = Berrezarri zure informazioa pasahitza ahazten duzunean.
 
@@ -567,6 +669,8 @@ se-refresh-email =
 # Button to make secondary email the primary
 se-make-primary = Bihurtu nagusi
 se-default-content = Sartu zure kontura ezin baduzu zure helbide elektroniko nagusiarekin saioa hasi.
+# Default value for the secondary email
+se-secondary-email-none = Bat ere ez
 
 ##
 
