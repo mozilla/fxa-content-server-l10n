@@ -179,7 +179,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Підтвердити пароль
 form-password-with-inline-criteria-reset-submit-button = Створити новий пароль
+form-password-with-inline-criteria-match-error = Паролі відрізняються
 form-password-with-inline-criteria-sr-too-short-message = Пароль має містити принаймні 8 символів.
+form-password-with-inline-criteria-sr-not-email-message = Пароль не повинен містити вашу адресу електронної пошти.
 form-password-with-inline-criteria-sr-not-common-message = Пароль не повинен бути загальновживаним.
 form-password-with-inline-criteria-sr-requirements-met = Введений пароль відповідає всім вимогам.
 form-password-with-inline-criteria-sr-passwords-match = Введені паролі збігаються.
@@ -340,6 +342,7 @@ password-strength-balloon-stay-safe-tips = Убезпечте себе — не 
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = Принаймні 8 символів
+password-strength-inline-not-email = Не ваша адреса електронної пошти
 password-strength-inline-not-common = Не загальновживаний пароль
 password-strength-inline-confirmed-must-match = Підтвердження відповідає новому паролю
 
@@ -403,7 +406,10 @@ password-reset-warning-icon = Попередження
 password-reset-chevron-expanded = Згорнути попередження
 password-reset-chevron-collapsed = Розгорнути попередження
 password-reset-data-may-not-be-recovered = Дані вашого браузера можуть не відновитися
+password-reset-previously-signed-in-device = У вас є пристрій, з якого ви раніше входили в систему?
+password-reset-data-may-be-saved-locally = Дані вашого браузера можуть зберігатися локально на тому пристрої. Увійдіть на ньому за допомогою нового пароля, щоб відновити й синхронізувати дані.
 password-reset-no-old-device = Маєте новий пристрій, але не маєте старого?
+password-reset-encrypted-data-cannot-be-recovered = На жаль, ваші зашифровані дані браузера, що зберігаються на серверах { -brand-firefox }, неможливо відновити. Однак ви все ще можете отримати доступ до своїх локальних даних на будь-якому пристрої, на якому ви раніше входили в систему.
 password-reset-learn-about-restoring-account-data = Докладніше про відновлення даних облікового запису
 
 ## Alert Bar
@@ -1343,10 +1349,13 @@ third-party-auth-callback-message = Зачекайте, вас буде пере
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Введіть ключ відновлення облікового запису
+account-recovery-confirm-key-instruction = Цей ключ відновлює ваші зашифровані дані браузера, як-от паролі та закладки, що зберігаються на серверах { -brand-firefox }.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = Введіть свій 32-значний ключ відновлення облікового запису
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Ваша підказка для сховища:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Продовжити
 # Link that leads to the password reset page (without recovery code)
@@ -1362,6 +1371,8 @@ complete-reset-password-success-alert = Пароль встановлено
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Перепрошуємо, але під час встановлення пароля виникла проблема
+password-reset-could-not-determine-account-recovery-key = Маєте ключ відновлення облікового запису?
+password-reset-use-account-recovery-key = Скиньте пароль і збережіть свої дані
 
 ## Confirm Reset Password With Code
 
@@ -1383,8 +1394,10 @@ confirm-reset-password-otp-different-account-link = Використати ін�
 ## ResetPassword start page
 
 password-reset-flow-heading = Відновити свій пароль
+password-reset-body-2 = Ми запитаємо у вас про інформацію, відому лише вам, щоб захистити ваш обліковий запис.
 password-reset-email-input =
     .label = Адреса електронної пошти
+password-reset-submit-button-2 = Продовжити
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
@@ -1508,6 +1521,9 @@ signin-token-code-required-error = Потрібно ввести код підт
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Введіть секретний код двоетапної перевірки (2FA)
+signin-totp-code-instruction-v3 = Підтвердьте вхід у програмі автентифікації.
+signin-totp-code-input-label-v3 = Введіть код
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Підтвердити
 signin-totp-code-other-account-link = Використати інший обліковий запис
