@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Mật khẩu không trùng với các mậ
 form-password-sr-requirements-met = Mật khẩu đã nhập cần đáp ứng tất cả các yêu cầu về mật khẩu.
 form-password-sr-passwords-match = Mật khẩu đã nhập đã khớp.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Mật khẩu
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Nhập lại mật khẩu
+form-password-with-inline-criteria-signup-submit-button = Tạo tài khoản
+form-password-with-inline-criteria-reset-new-password =
+    .label = Mật khẩu mới
+form-password-with-inline-criteria-confirm-password =
+    .label = Xác nhận mật khẩu
+form-password-with-inline-criteria-reset-submit-button = Tạo mật khẩu mới
+form-password-with-inline-criteria-match-error = Mật khẩu không khớp
+form-password-with-inline-criteria-sr-too-short-message = Mật khẩu phải chứa ít nhất 8 ký tự.
+form-password-with-inline-criteria-sr-not-email-message = Mật khẩu không được chứa địa chỉ email của bạn.
+form-password-with-inline-criteria-sr-not-common-message = Mật khẩu không trùng với các mật khẩu được sử dụng phổ biến.
+form-password-with-inline-criteria-sr-requirements-met = Mật khẩu đã nhập cần đáp ứng tất cả các yêu cầu về mật khẩu.
+form-password-with-inline-criteria-sr-passwords-match = Mật khẩu đã nhập đã khớp.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +339,18 @@ password-strength-balloon-not-email = Không phải địa chỉ email của b�
 password-strength-balloon-not-common = Không phải mật khẩu thường được sử dụng
 password-strength-balloon-stay-safe-tips = Giữ an toàn — Không sử dụng lại mật khẩu. Xem thêm các mẹo để <LinkExternal>tạo mật khẩu mạnh</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Ít nhất 8 ký tự
+password-strength-inline-not-email = Không phải địa chỉ email của bạn
+password-strength-inline-not-common = Không phải mật khẩu thường được sử dụng
+password-strength-inline-confirmed-must-match = Xác nhận khớp với mật khẩu mới
+
 ## Ready component
 
 reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
 ready-complete-set-up-instruction = Hoàn tất thiết lập bằng cách nhập mật khẩu mới của bạn trên các thiết bị { -brand-firefox } khác của bạn.
-ready-start-browsing-button = Bắt đầu duyệt web
+manage-your-account-button = Quản lý tài khoản của bạn
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +398,19 @@ flow-recovery-key-hint-char-limit-error = Chuỗi gợi ý phải chứa ít hơ
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Gợi ý không được chứa các ký tự unicode không an toàn. Chỉ cho phép các chữ cái, số, dấu chấm câu và ký hiệu.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Cảnh báo
+password-reset-chevron-expanded = Thu gọn cảnh báo
+password-reset-chevron-collapsed = Mở rộng cảnh báo
+password-reset-data-may-not-be-recovered = Dữ liệu trình duyệt của bạn có thể không được phục hồi
+password-reset-previously-signed-in-device = Bạn có thiết bị nào đã đăng nhập trước đó không?
+password-reset-data-may-be-saved-locally = Dữ liệu trình duyệt của bạn có thể được lưu cục bộ trên thiết bị đó. Đăng nhập vào đó bằng mật khẩu mới của bạn để khôi phục và đồng bộ hóa.
+password-reset-no-old-device = Bạn có thiết bị mới nhưng không có thiết bị cũ?
+password-reset-encrypted-data-cannot-be-recovered = Chúng tôi xin lỗi, nhưng dữ liệu trình duyệt được mã hóa của bạn trên máy chủ { -brand-firefox } không thể phục hồi được. Tuy nhiên, bạn vẫn có thể truy cập dữ liệu cục bộ của mình trên bất kỳ thiết bị nào mà bạn đã đăng nhập trước đó.
+password-reset-learn-about-restoring-account-data = Tìm hiểu thêm về cách khôi phục dữ liệu tài khoản
 
 ## Alert Bar
 
@@ -1307,37 +1346,31 @@ third-party-auth-callback-message = Vui lòng đợi, bạn đang được chuy�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Đặt lại mật khẩu bằng khóa khôi phục tài khoản <span>để tiếp tục đến cài đặt tài khoản</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Đặt lại mật khẩu bằng khóa khôi phục tài khoản <span>để tiếp tục đến { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Vui lòng nhập khóa khôi phục tài khoản sử dụng một lần mà bạn đã lưu ở nơi an toàn để lấy lại quyền truy cập vào { -product-mozilla-account } của mình.
-account-recovery-confirm-key-warning-message = <span>Lưu ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và dấu trang).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Nhập khóa khôi phục tài khoản
+account-recovery-confirm-key-heading = Nhập khóa khôi phục tài khoản của bạn
+account-recovery-confirm-key-instruction = Khóa này khôi phục dữ liệu duyệt web được mã hóa của bạn, chẳng hạn như mật khẩu và dấu trang, từ máy chủ { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Nhập khóa khôi phục tài khoản gồm 32 ký tự của bạn
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Gợi ý khoá của bạn là:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Xác nhận khóa khôi phục tài khoản
+account-recovery-confirm-key-button-2 = Tiếp tục
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Không có khóa khôi phục tài khoản?
+account-recovery-lost-recovery-key-link-2 = Không thể tìm thấy khóa khôi phục tài khoản của bạn?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Tạo mật khẩu mới
-complete-reset-password-warning-message-2 = <span>Hãy nhớ:</span> Khi bạn đặt lại mật khẩu, bạn sẽ đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { -product-pocket } sẽ không bị ảnh hưởng.
+complete-reset-pw-header-v2 = Tạo mật khẩu mới
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Đã đặt mật khẩu
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
-complete-reset-password-recovery-key-error-v2 = Rất tiếc, đã xảy ra sự cố khi kiểm tra xem bạn có khóa khôi phục tài khoản hay không.
-complete-reset-password-recovery-key-link = Đặt lại mật khẩu của bạn bằng khóa khôi phục tài khoản.
-account-restored-success-message = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
+password-reset-could-not-determine-account-recovery-key = Bạn đã có khoá khôi phục tài khoản?
+password-reset-use-account-recovery-key = Đặt lại mật khẩu và giữ lại dữ liệu của bạn
 
 ## Confirm Reset Password With Code
 
@@ -1359,10 +1392,12 @@ confirm-reset-password-otp-different-account-link = Sử dụng tài khoản kh�
 ## ResetPassword start page
 
 password-reset-flow-heading = Đặt lại mật khẩu của bạn
-password-reset-body = Nhập email của bạn và chúng tôi sẽ gửi cho bạn mã xác minh để xác nhận đó thực sự là bạn.
+password-reset-body-2 =
+    Chúng tôi sẽ yêu cầu một số điều chỉ bạn biết để giữ tài khoản của bạn
+    an toàn.
 password-reset-email-input =
     .label = Nhập email của bạn
-password-reset-submit-button = Gửi cho tôi hướng dẫn đặt lại
+password-reset-submit-button-2 = Tiếp tục
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
 reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
@@ -1486,15 +1521,9 @@ signin-token-code-required-error = Yêu cầu mã xác nhận
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Nhập mã xác thực <span>để tiếp tục đến cài đặt tài khoản</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Nhập mã xác thực <span>để tiếp tục đến { $serviceName }</span>
-signin-totp-code-instruction-v2 = Mở ứng dụng xác thực của bạn và nhập mã xác thực mà nó cung cấp.
-signin-totp-code-input-label-v2 = Nhập mã gồm 6 chữ số
+signin-totp-code-subheader = Nhập mã bảo mật xác thực hai yếu tố (2FA) của bạn
+signin-totp-code-instruction-v3 = Kiểm tra ứng dụng xác thực của bạn để xác nhận thông tin đăng nhập của bạn.
+signin-totp-code-input-label-v3 = Nhập mã
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Xác nhận
 signin-totp-code-other-account-link = Sử dụng một tài khoản khác
