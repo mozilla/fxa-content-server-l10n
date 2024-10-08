@@ -557,4 +557,46 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Gogoratu zure kontua berrestea
 verificationReminderFirst-title-3 = Ongi etorri { -brand-mozilla }-ra!
 verificationReminderFirst-description-3 = Duela egun batzuk { -product-mozilla-account } bat sortu zenuen, baina ez duzu inoiz baieztatu. Mesedez, berretsi zure kontua hurrengo 15 egunetan edo automatikoki ezabatuko da.
+verificationReminderFirst-sub-description-3 = Ez galdu zu eta zure pribatutasuna lehenik jartzen dituen arakatzailea.
+confirm-email-2 = Berretsi kontua
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Berretsi kontua
+verificationReminderSecond-subject-2 = Gogoratu zure kontua berrestea
+verificationReminderSecond-title-3 = Ez galdu { -brand-mozilla }!
+verificationReminderSecond-description-4 = Duela egun batzuk { -product-mozilla-account } bat sortu zenuen, baina ez duzu inoiz baieztatu. Mesedez, berretsi zure kontua hurrengo 10 egunetan edo automatikoki ezabatuko da.
+verificationReminderSecond-second-description-3 = Zure { -product-mozilla-account } zure { -brand-firefox } esperientzia sinkronizatzeko aukera ematen dizu gailu guztietan eta { -brand-mozilla } zerbitzuko pribatutasuna babesten duten produktu gehiagorako sarbidea desblokeatzen du.
+verificationReminderSecond-sub-description-2 = Izan zaitez Internet guztientzako irekia den leku bihurtzeko gure misioaren parte.
+verificationReminderSecond-action-2 = Berretsi kontua
+verify-title-3 = Ireki internet { -brand-mozilla }z
+verify-description-2 = Berretsi kontua eta atera etekinik handiena { -brand-mozilla }-ri saioa hasten duzun toki guztietan:
+verify-subject = Bukatu zure kontua sortzen
+verify-action-2 = Berretsi kontua
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Hasi duzu saioa { $clientName }-(e)n?
+verifyLogin-description-2 = Lagundu iezaguzu zure kontua seguru mantentzen saioa hasi duzula baieztatuz:
+verifyLogin-subject-2 = Berretsi saio-hasiera
 verifyLogin-action = Berretsi saio-hasiera
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Onartu saioa hastea { $serviceName }(e)n
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Hasi duzu saioa { $clientName }-(e)n?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Lagundu iezaguzu zure kontua seguru mantentzen saioa hastea onartuz:
+verifyLoginCode-prompt-3 = Baiezkoa bada, hona hemen zure baimen-kodea:
+verifyLoginCode-expiry-notice = 5 minututan iraungiko da.
+verifyPrimary-title-2 = Berretsi helbide elektroniko lehenetsia
+verifyPrimary-description = Kontua aldatzeko eskaera egin da gailu honetatik:
+verifyPrimary-subject = Berretsi helbide elektroniko lehenetsia
+verifyPrimary-action-2 = Berretsi helbide elektronikoa
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Berretsi ondoren, kontu-aldaketak egin ahal izango dira gailu honetatik bigarren mailako mezu elektroniko bat gehitzea, esaterako.
+verifySecondaryCode-subject = Berretsi bigarren helbide elektronikoa
+verifySecondaryCode-title-2 = Berretsi bigarren helbide elektronikoa
+verifySecondaryCode-action-2 = Berretsi helbide elektronikoa
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = { $email } bigarren helbide elektroniko gisa erabiltzeko eskaera egin da { -product-mozilla-account } honetatik:
+verifySecondaryCode-prompt-2 = Sartu baieztapen-kode hau:
