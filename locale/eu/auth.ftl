@@ -509,9 +509,52 @@ subscriptionRenewalReminder-content-greeting = { $productName } bezero agurgarri
 #   $planInterval (String) - The interval of time of the subscription plan, e.g. week
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-current = Uneko harpidetza { $reminderLength } egun barru automatikoki berritzeko ezarrita dago. Une horretan, { -brand-mozilla }-k zure { $planIntervalCount } { $planInterval } harpidetza berrituko du eta { $invoiceTotal } kobratuko da zure kontuko ordainketa-metodoari.
+subscriptionRenewalReminder-content-closing = Adeitasunez
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = { $productName } taldea
+subscriptionsPaymentExpired-subject-1 = Zure harpidetzen kreditu txartela iraungi edo laster iraungiko da
+subscriptionsPaymentExpired-title-1 = Zure kreditu txartela iraungita dago edo iraungitzear dago
+subscriptionsPaymentExpired-content-1 = Harpidetza hauetarako ordainketak egiteko erabiltzen ari zaren kreditu-txartela iraungita dago edo iraungitzear dago.
+subscriptionsPaymentProviderCancelled-subject = Ordainketa-informazioaren eguneratzea beharrezkoa da { -brand-mozilla } harpidetzetan
+subscriptionsPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-metodoarekin
+subscriptionsPaymentProviderCancelled-content-detected = Arazo bat hauteman dugu zure ordainketa-metodoarekin hurrengo harpidetzetan.
+subscriptionsPaymentProviderCancelled-content-payment = Baliteke zure kreditu-txartela iraungita egotea edo egungo ordainketa-metodoa zaharkituta egotea.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = { $productName } ordainketa jaso da
+subscriptionSubsequentInvoice-title = Eskerrik asko harpidedun izateagatik!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = { $productName }-ren azken ordainketa jaso dugu.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Hurrengo faktura: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = { $productName }-era berritu zara
 subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Behar bezala berritu duzu { $productNameOld }tik { $productName }ra.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = { $productName } erabili ahal izateko instalatu behar duzun software berria badago, mezu elektroniko bat jasoko duzu deskargatzeko argibideekin.
+subscriptionUpgrade-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
 unblockCode-subject = Kontuaren baimen-kodea
 unblockCode-title = Zuk hasi duzu saioa?
 unblockCode-prompt = Hala bada, hau da behar duzun baimen-kodea:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Baiezkoa bada, hona hemen behar duzun baimen-kodea: { $unblockCode }
+unblockCode-report = Ezezkoa bada, lagundu intrusioak uxatzen eta <a data-l10n-name="reportSignInLink">jakinarazi iezaguzu</a>.
 unblockCode-report-plaintext = Ez bada, lagun iezaguzu arrotzak kanporatzen eta eman horren berri guri.
+verificationReminderFinal-subject = Zure kontua berresteko azken abisua
+verificationReminderFinal-description-2 = Duela aste pare bat { -product-mozilla-account } bat sortu zenuen, baina ez zenuen inoiz baieztatu. Zure segurtasunerako, hurrengo 24 orduetan egiaztatzen ez bada kontua ezabatuko dugu.
+confirm-account = Berretsi kontua
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Gogoratu zure kontua berrestea
+verificationReminderFirst-title-3 = Ongi etorri { -brand-mozilla }-ra!
+verificationReminderFirst-description-3 = Duela egun batzuk { -product-mozilla-account } bat sortu zenuen, baina ez duzu inoiz baieztatu. Mesedez, berretsi zure kontua hurrengo 15 egunetan edo automatikoki ezabatuko da.
 verifyLogin-action = Berretsi saio-hasiera
