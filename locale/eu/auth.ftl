@@ -600,3 +600,12 @@ verifySecondaryCode-action-2 = Berretsi helbide elektronikoa
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = { $email } bigarren helbide elektroniko gisa erabiltzeko eskaera egin da { -product-mozilla-account } honetatik:
 verifySecondaryCode-prompt-2 = Sartu baieztapen-kode hau:
+verifySecondaryCode-expiry-notice-2 = 5 minututan iraungiko da. Behin baieztatuta, helbide hau segurtasun jakinarazpenak eta berrespenak jasotzen hasiko da.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Berretsi zure kontua
+verifyShortCode-title-3 = Ireki internet { -brand-mozilla }z
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Berretsi kontua eta atera etekinik handiena { -brand-mozilla }-ri saioa hasten duzun toki guztietan:
+verifyShortCode-prompt-3 = Sartu baieztapen-kode hau:
+verifyShortCode-expiry-notice = 5 minututan iraungiko da.
