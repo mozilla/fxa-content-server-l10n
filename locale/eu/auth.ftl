@@ -482,6 +482,33 @@ subscriptionPaymentFailed-content-outdated = Baliteke zure kreditu-txartela irau
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Ordainketa-informazioa eguneratu behar da { $productName }-rako
 subscriptionPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-metodoarekin
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Arazo bat hauteman dugu zure ordainketa-metodoarekin: { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Baliteke zure kreditu-txartela iraungita egotea edo egungo ordainketa-metodoa zaharkituta egotea.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } harpidetza berriz aktibatua
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Eskerrik asko { $productName } harpidetza berriz aktibatzeagatik!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Zure fakturazio-zikloa eta ordainketa berdinak izango dira. Hurrengo kargua { $invoiceTotal } izango da { $nextInvoiceDateOnly } egunean. Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du, bertan behera uztea erabakit arte.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = { $productName } berritze automatikoko oharra
+subscriptionRenewalReminder-title = Zure harpidetza laster berrituko da
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = { $productName } bezero agurgarria:
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Uneko harpidetza { $reminderLength } egun barru automatikoki berritzeko ezarrita dago. Une horretan, { -brand-mozilla }-k zure { $planIntervalCount } { $planInterval } harpidetza berrituko du eta { $invoiceTotal } kobratuko da zure kontuko ordainketa-metodoari.
 subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 unblockCode-subject = Kontuaren baimen-kodea
 unblockCode-title = Zuk hasi duzu saioa?
