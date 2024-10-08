@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-09-29 07:01+0000\n"
-"Last-Translator: Lobodzets <Lobodzets@meta.ua>\n"
+"PO-Revision-Date: 2024-10-04 13:32+0000\n"
+"Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -1930,7 +1930,7 @@ msgstr "Під'єднання мобільного пристрою до обл�
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Відкрийте Firefox на своєму комп'ютері, відвідайте <b class=\"whitespace-nowrap\">firefox.com/pair</b> і дотримуйтесь інструкцій на екрані, щоб під'єднати мобільний пристрій."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
