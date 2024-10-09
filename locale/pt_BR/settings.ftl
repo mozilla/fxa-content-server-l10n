@@ -178,6 +178,13 @@ form-password-with-inline-criteria-reset-new-password =
     .label = Nova senha
 form-password-with-inline-criteria-confirm-password =
     .label = Confirmar senha
+form-password-with-inline-criteria-reset-submit-button = Criar nova senha
+form-password-with-inline-criteria-match-error = As senhas não coincidem
+form-password-with-inline-criteria-sr-too-short-message = A senha deve ter pelo menos 8 caracteres.
+form-password-with-inline-criteria-sr-not-email-message = A senha não pode ter seu endereço de email
+form-password-with-inline-criteria-sr-not-common-message = A senha não deve ser uma comumente usada.
+form-password-with-inline-criteria-sr-requirements-met = A senha inserida atende todos os requisitos.
+form-password-with-inline-criteria-sr-passwords-match = As senhas inseridas coincidem.
 
 ## FormVerifyCode
 
@@ -334,6 +341,9 @@ password-strength-balloon-stay-safe-tips = Fique seguro, não reuse senhas. Veja
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Pelo menos 8 caracteres
+password-strength-inline-not-email = Não ter seu endereço de email
+password-strength-inline-not-common = Não ser uma senha comumente usada
 
 ## Ready component
 
@@ -390,6 +400,10 @@ flow-recovery-key-hint-unsafe-char-error = A dica não pode conter caracteres un
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Aviso
+password-reset-chevron-expanded = Recolher aviso
+password-reset-chevron-collapsed = Expandir aviso
+password-reset-data-may-not-be-recovered = Os dados do seu navegador podem não ser recuperados
 
 ## Alert Bar
 
@@ -1299,6 +1313,8 @@ third-party-auth-callback-message = Aguarde, você está sendo redirecionado par
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Avançar
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1332,6 +1348,7 @@ confirm-reset-password-otp-different-account-link = Usar outra conta
 password-reset-flow-heading = Redefina sua senha
 password-reset-email-input =
     .label = Insira seu email
+password-reset-submit-button-2 = Avançar
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
