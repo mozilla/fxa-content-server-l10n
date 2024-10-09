@@ -167,6 +167,18 @@ form-password-sr-not-common-message = A senha não deve ser uma comumente usada.
 form-password-sr-requirements-met = A senha inserida respeita todos os requisitos de senha.
 form-password-sr-passwords-match = As senhas inseridas coincidem.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Senha
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Repetir senha
+form-password-with-inline-criteria-signup-submit-button = Criar conta
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nova senha
+form-password-with-inline-criteria-confirm-password =
+    .label = Confirmar senha
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -320,11 +332,13 @@ password-strength-balloon-not-email = Não ser seu endereço de email
 password-strength-balloon-not-common = Não ser uma senha comumente usada
 password-strength-balloon-stay-safe-tips = Fique seguro, não reuse senhas. Veja mais dicas para <linkExternal>criar senhas fortes</linkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
 reset-password-complete-header = Sua senha foi redefinida
 ready-complete-set-up-instruction = Conclua a configuração inserindo a nova senha em seus outros dispositivos com { -brand-firefox }.
-ready-start-browsing-button = Iniciar navegação
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -372,6 +386,10 @@ flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 caract
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = A dica não pode conter caracteres unicode não seguros. São permitidos somente letras, números, sinais de pontuação e símbolos.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -1281,37 +1299,16 @@ third-party-auth-callback-message = Aguarde, você está sendo redirecionado par
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Redefina a senha com a chave de recuperação de conta <span>para seguir para as configurações da conta</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Redefina a senha com a chave de recuperação de conta <span>para seguir para { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Insira a chave de recuperação de conta de uso único que você armazenou em um local seguro para recuperar o acesso à sua { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Nota:</span> Se você redefinir sua senha e não tiver salva uma chave de recuperação de conta, alguns dos seus dados serão apagados (incluindo dados sincronizados no servidor, como histórico e favoritos).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Digite a chave de recuperação da conta
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Confirmar chave de recuperação de conta
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação de conta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Criar nova senha
-complete-reset-password-warning-message-2 = <span>Lembre:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (inclusive histórico, favoritos e senhas). Isso porque criptografamos seus dados com sua senha para proteger sua privacidade. São mantidas as assinaturas que você tiver. Dados do { -product-pocket } não são afetados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Senha definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, houve um problema ao definir sua senha
-complete-reset-password-recovery-key-error-v2 = Desculpe, houve um problema ao verificar se você tem uma chave de recuperação de conta.
-complete-reset-password-recovery-key-link = Redefina a senha com sua chave de recuperação de conta.
-account-restored-success-message = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
 
 ## Confirm Reset Password With Code
 
@@ -1333,10 +1330,8 @@ confirm-reset-password-otp-different-account-link = Usar outra conta
 ## ResetPassword start page
 
 password-reset-flow-heading = Redefina sua senha
-password-reset-body = Digite seu email e enviaremos um código de confirmação para verificar que é realmente você.
 password-reset-email-input =
     .label = Insira seu email
-password-reset-submit-button = Me envie instruções de redefinição
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
@@ -1460,15 +1455,6 @@ signin-token-code-required-error = Necessário código de confirmação
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Digite o código de autenticação <span>para continuar para as configurações da conta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Digite o código de autenticação <span>para continuar para o { $serviceName }</span>
-signin-totp-code-instruction-v2 = Abra seu aplicativo de autenticação e digite o código de autenticação que ele fornecer.
-signin-totp-code-input-label-v2 = Digite o código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar outra conta
