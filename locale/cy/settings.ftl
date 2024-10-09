@@ -1388,7 +1388,7 @@ confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 ## ResetPassword start page
 
 password-reset-flow-heading = Ailosod eich cyfrinair
-password-reset-body-2 = Byddwn yn gofyn am ychydig o bethau rydych chi'n eu gwybod yn unig i gadw'ch cyfrif yn ddiogel.
+password-reset-body-2 = Byddwn yn gofyn am ychydig o bethau dim ond chi sy'n eu gwybod yn i gadw'ch cyfrif yn ddiogel.
 password-reset-email-input =
     .label = Rhowch eich e-bost
 password-reset-submit-button-2 = Parhau
@@ -1516,7 +1516,7 @@ signin-token-code-required-error = Mae angen codi dilys
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader = Rhowch eich cod diogelwch dilysu dau ffactor (2FA)
-signin-totp-code-instruction-v3 = Gwiriwch eich app dilysu i gadarnhau eich mewngofnodi.
+signin-totp-code-instruction-v3 = Gwiriwch eich ap dilysu i gadarnhau eich mewngofnodi.
 signin-totp-code-input-label-v3 = Rhowch y cod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Cadarnhau
