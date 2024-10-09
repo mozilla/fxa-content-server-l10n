@@ -1343,6 +1343,8 @@ complete-reset-password-success-alert = Senha definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, houve um problema ao definir sua senha
+password-reset-could-not-determine-account-recovery-key = Tem sua chave de recuperação de conta?
+password-reset-use-account-recovery-key = Redefina a senha e mantenha seus dados
 
 ## Confirm Reset Password With Code
 
