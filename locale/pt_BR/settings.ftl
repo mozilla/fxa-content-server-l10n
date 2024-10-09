@@ -407,6 +407,10 @@ password-reset-chevron-expanded = Recolher aviso
 password-reset-chevron-collapsed = Expandir aviso
 password-reset-data-may-not-be-recovered = Os dados do seu navegador podem não ser recuperados
 password-reset-previously-signed-in-device = Tem um dispositivo em que você conectou na conta?
+password-reset-data-may-be-saved-locally = Os dados do seu navegador podem estar salvos localmente nesse dispositivo. Entre com a nova senha para restaurar e sincronizar.
+password-reset-no-old-device = Tem um novo dispositivo, mas não tem o seu antigo?
+password-reset-encrypted-data-cannot-be-recovered = Desculpe, mas os dados de navegação são criptografados nos servidores do { -brand-firefox }, não podem ser recuperados. No entanto, você ainda pode acessar seus dados locais em qualquer dispositivo em que tenha conectado na conta.
+password-reset-learn-about-restoring-account-data = Saiba mais sobre restauração de dados de contas
 
 ## Alert Bar
 
@@ -1316,12 +1320,23 @@ third-party-auth-callback-message = Aguarde, você está sendo redirecionado par
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Digite sua chave de recuperação de conta
+account-recovery-confirm-key-instruction = Esta chave recupera seus dados de navegação criptografados, como senhas e favoritos, dos servidores do { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Digite sua chave de recuperação de conta de 32 caracteres
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Sua dica de onde guardou é:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Avançar
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Não encontrou sua chave de recuperação de conta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Crie uma nova senha
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Senha definida
