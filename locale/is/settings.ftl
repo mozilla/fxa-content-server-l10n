@@ -167,10 +167,33 @@ form-password-sr-not-common-message = Lykilorð má ekki vera algengt lykilorð.
 form-password-sr-requirements-met = Uppgefna lykilorðið uppfyllir allar kröfur um lykilorð.
 form-password-sr-passwords-match = Uppgefin lykilorð passa saman.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Lykilorð
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Endurtaka lykilorð
+form-password-with-inline-criteria-signup-submit-button = Búa til reikning
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nýtt lykilorð
+form-password-with-inline-criteria-confirm-password =
+    .label = Staðfestu lykilorð
+form-password-with-inline-criteria-reset-submit-button = Búðu til nýtt lykilorð
+form-password-with-inline-criteria-match-error = Lykilorð passa ekki
+form-password-with-inline-criteria-sr-too-short-message = Lykilorð verður að innihalda að minnsta kosti 8 stafi.
+form-password-with-inline-criteria-sr-not-email-message = Lykilorð má ekki innihalda tölvupóstfangið þitt.
+form-password-with-inline-criteria-sr-not-common-message = Lykilorð má ekki vera algengt lykilorð.
+form-password-with-inline-criteria-sr-requirements-met = Uppgefna lykilorðið uppfyllir allar kröfur um lykilorð.
+form-password-with-inline-criteria-sr-passwords-match = Uppgefin lykilorð passa saman.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Þessi reitur er nauðsynlegur
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -306,11 +329,17 @@ password-strength-balloon-not-email = Ekki tölvupóstfangið þitt
 password-strength-balloon-not-common = Ekki algengt lykilorð
 password-strength-balloon-stay-safe-tips = Tryggðu öriggið - ekki endurnýta lykilorð. Sjáðu fleiri aðferðir til að <LinkExternal>búa til sterk lykilorð</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Að minnsta kosti 8 stafir
+password-strength-inline-not-email = Ekki tölvupóstfangið þitt
+password-strength-inline-not-common = Ekki algengt lykilorð
+
 ## Ready component
 
 reset-password-complete-header = Lykilorðið þitt var endurstillt
 ready-complete-set-up-instruction = Ljúktu uppsetningunni með því að setja inn nýja lykilorðið á hinum { -brand-firefox }-tækjunum þínum.
-ready-start-browsing-button = Byrjaðu að vafra
+manage-your-account-button = Sýslaðu með reikninginn þinn
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -334,6 +363,37 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Mappa á öruggu tæki
 flow-recovery-key-download-storage-ideas-cloud = Traust skýjageymsla
 flow-recovery-key-download-storage-ideas-print-v2 = Prentað eintak
 flow-recovery-key-download-storage-ideas-pwd-manager = Lykilorðaumsýsla
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Bættu við vísbendingu til að hjálpa þér að finna lykilinn þinn
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Þessi vísbending ætti að hjálpa þér að muna hvar þú geymir endurheimtarlykilinn þinn. Við getum sýnt þér hana við endurstillingu lykilorðsins til að geta endurheimt gögnin þín.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Settu inn vísbendingu (valfrjálst)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Ljúka
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Vísbendingin verður að innihalda færri en 255 stafi.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Vísbendingin má ekki innihalda óörugga unicode-stafi. Aðeins bókstafir, tölustafir, greinarmerki og tákn eru leyfð.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Aðvörun
+password-reset-chevron-expanded = Fella aðvörun saman
+password-reset-chevron-collapsed = Fella út aðvörun
 
 ## Alert Bar
 
@@ -476,30 +536,11 @@ flow-recovery-key-download-info-v2 = Þessi lykill gerir þér kleift að endurh
 flow-recovery-key-download-next-link-v2 = Halda áfram án þess að sækja
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Bættu við vísbendingu til að hjálpa þér að finna lykilinn þinn
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Þessi vísbending ætti að hjálpa þér að muna hvar þú geymir endurheimtarlykilinn þinn. Við getum sýnt þér hana við endurstillingu lykilorðsins til að geta endurheimt gögnin þín.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Settu inn vísbendingu (valfrjálst)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Ljúka
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Endurheimtulykill reiknings útbúinn
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Vísbendingin verður að innihalda færri en 255 stafi.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Vísbendingin má ekki innihalda óörugga unicode-stafi. Aðeins bókstafir, tölustafir, greinarmerki og tákn eru leyfð.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -992,14 +1033,6 @@ third-party-auth-options-or = Eða
 continue-with-google-button = Halda áfram með { -brand-google }
 continue-with-apple-button = Halda áfram með { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Tala { $inputNumber } af { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Óþekktur reikningur
@@ -1290,76 +1323,16 @@ third-party-auth-callback-message = Hinkraðu aðeins, þér verður endurbeint 
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Endurstilltu aðgangsorðið með endurheimtarlykli reikningsins <span>til að halda áfram í reikningsstillingarnar</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Endurstilltu aðgangsorðið með endurheimtarlykli reikningsins <span>til að halda áfram í { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Athugaðu:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á netþjóni á borð við vafurferil og bókamerki).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Settu inn endurheimtulykil reiknings
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Staðfestu endurheimtulykil reiknings
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Ertu ekki með endurheimtulykil reiknings?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Búa til nýtt lykilorð
-account-restored-success-message = Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Lykilorð stillt
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Óvænt villa kom upp
-account-recovery-reset-password-redirecting = Endurbeini
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Búðu til nýtt lykilorð
-complete-reset-password-warning-message-2 = <span>Mundu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { -product-pocket }.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lykilorð stillt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Því miður kom upp vandamál við að stilla lykilorðið þitt
-complete-reset-password-recovery-key-error-v2 = Því miður kom upp vandamál við að athuga hvort þú sért með endurheimtulykil fyrir reikning.
-complete-reset-password-recovery-key-link = Endurstilltu lykilorðið þitt með endurheimtulykli reiknings.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Endurstillingarpóstur sendur
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Smelltu innan klukkustundar á tengilinn sem var sendur í tölvupósti á { $email } til að útbúa nýtt lykilorð.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Endurstilltu lykilorðið <span>til að halda áfram í aðgangsstillingar</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Endurstilltu lykilorðið <span>til að halda áfram í { $serviceName }</span>
-reset-password-warning-message-2 = <span>Athugaðu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { -product-pocket }.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Tölvupóstfang
-reset-password-button = Hefja endurstillingu
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Tölvupóstur er nauðsynlegur
-reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
-reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
-reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
 
 ## Confirm Reset Password With Code
 
@@ -1381,10 +1354,11 @@ confirm-reset-password-otp-different-account-link = Nota annan reikning
 ## ResetPassword start page
 
 password-reset-flow-heading = Endurstilltu lykilorðið þitt
-password-reset-body = Settu inn tölvupóstfangið þitt og við sendum þér staðfestingarkóða til að staðfesta að þetta sé raunverulega þú.
 password-reset-email-input =
     .label = Settu inn tölvupóstfangið þitt
-password-reset-submit-button = Sendið mér leiðbeiningar varðandi endurstillingu
+reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
+reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
+reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
 
 ## CompleteSignin component
 
@@ -1505,15 +1479,6 @@ signin-token-code-required-error = Staðfestingarkóða krafist
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Settu inn auðkenningarkóða <span>til að halda áfram í stillingar reikningsins</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Settu inn auðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
-signin-totp-code-instruction-v2 = Opnaðu auðkenningarforritið þitt og settu inn auðkenningarkóðann sem það gefur upp.
-signin-totp-code-input-label-v2 = Settu inn 6-stafa kóða
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Staðfesta
 signin-totp-code-other-account-link = Nota annan reikning
