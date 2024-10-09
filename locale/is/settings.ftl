@@ -394,6 +394,8 @@ flow-recovery-key-hint-unsafe-char-error = Vísbendingin má ekki innihalda óö
 password-reset-warning-icon = Aðvörun
 password-reset-chevron-expanded = Fella aðvörun saman
 password-reset-chevron-collapsed = Fella út aðvörun
+password-reset-no-old-device = Ertu með nýtt tæki en ert ekki með það gamla?
+password-reset-learn-about-restoring-account-data = Frekari upplýsingar um endurheimt reikningsgagna
 
 ## Alert Bar
 
@@ -1323,16 +1325,23 @@ third-party-auth-callback-message = Hinkraðu aðeins, þér verður endurbeint 
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Halda áfram
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Finnurðu ekki endurheimtulykil reikningsins þíns?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Búðu til nýtt lykilorð
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lykilorð stillt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Því miður kom upp vandamál við að stilla lykilorðið þitt
+password-reset-could-not-determine-account-recovery-key = Ertu með endurheimtulykil reiknings?
+password-reset-use-account-recovery-key = Endurstilltu lykilorðið þitt og haltu gögnunum þínum
 
 ## Confirm Reset Password With Code
 
@@ -1356,6 +1365,7 @@ confirm-reset-password-otp-different-account-link = Nota annan reikning
 password-reset-flow-heading = Endurstilltu lykilorðið þitt
 password-reset-email-input =
     .label = Settu inn tölvupóstfangið þitt
+password-reset-submit-button-2 = Halda áfram
 reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
@@ -1479,6 +1489,7 @@ signin-token-code-required-error = Staðfestingarkóða krafist
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v3 = Settu inn kóða
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Staðfesta
 signin-totp-code-other-account-link = Nota annan reikning
