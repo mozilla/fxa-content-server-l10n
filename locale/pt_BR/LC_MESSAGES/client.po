@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-10-09 11:01+0000\n"
+"PO-Revision-Date: 2024-10-09 21:50+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1155,7 +1155,7 @@ msgstr "Continuar para sua conta Mozilla"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Sincronize suas senhas, abas e favoritos onde quer que use o Firefox."
+msgstr "Sincronize senhas, abas e favoritos onde quer que use o Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
