@@ -344,11 +344,13 @@ password-strength-balloon-stay-safe-tips = Fique seguro, não reuse senhas. Veja
 password-strength-inline-min-length = Pelo menos 8 caracteres
 password-strength-inline-not-email = Não ter seu endereço de email
 password-strength-inline-not-common = Não ser uma senha comumente usada
+password-strength-inline-confirmed-must-match = A confirmação corresponde à nova senha
 
 ## Ready component
 
 reset-password-complete-header = Sua senha foi redefinida
 ready-complete-set-up-instruction = Conclua a configuração inserindo a nova senha em seus outros dispositivos com { -brand-firefox }.
+manage-your-account-button = Gerenciar sua conta
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -404,6 +406,7 @@ password-reset-warning-icon = Aviso
 password-reset-chevron-expanded = Recolher aviso
 password-reset-chevron-collapsed = Expandir aviso
 password-reset-data-may-not-be-recovered = Os dados do seu navegador podem não ser recuperados
+password-reset-previously-signed-in-device = Tem um dispositivo em que você conectou na conta?
 
 ## Alert Bar
 
@@ -1472,6 +1475,9 @@ signin-token-code-required-error = Necessário código de confirmação
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Digite o código de segurança da autenticação em duas etapas
+signin-totp-code-instruction-v3 = Use um aplicativo de autenticação para confirmar seu acesso.
+signin-totp-code-input-label-v3 = Digite o código
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar outra conta
