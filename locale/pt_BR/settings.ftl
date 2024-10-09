@@ -1366,6 +1366,7 @@ confirm-reset-password-otp-different-account-link = Usar outra conta
 ## ResetPassword start page
 
 password-reset-flow-heading = Redefina sua senha
+password-reset-body-2 = Para manter sua conta segura, solicitaremos algumas informações que só você sabe.
 password-reset-email-input =
     .label = Insira seu email
 password-reset-submit-button-2 = Avançar
