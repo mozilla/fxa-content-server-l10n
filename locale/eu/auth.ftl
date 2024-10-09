@@ -582,7 +582,7 @@ verifyLogin-action = Berretsi saio-hasiera
 verifyLoginCode-subject-line-2 = Onartu saioa hastea { $serviceName }(e)n
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-title-2 = Hasi duzu saioa { $clientName }-(e)n?
+verifyLoginCode-title-2 = Hasi duzu saioa { $serviceName }-(e)n?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Lagundu iezaguzu zure kontua seguru mantentzen saioa hastea onartuz:
 verifyLoginCode-prompt-3 = Baiezkoa bada, hona hemen zure baimen-kodea:
