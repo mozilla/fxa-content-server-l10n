@@ -1380,10 +1380,9 @@ confirm-reset-password-otp-different-account-link = Басқа тіркелгі�
 ## ResetPassword start page
 
 password-reset-flow-heading = Парольді тастау
-password-reset-body = Электрондық поштаңызды енгізіңіз, сіздің шынайылығын растау үшін сізге растау кодын жібереміз.
 password-reset-email-input =
     .label = Эл. поштаңызды енгізіңіз
-password-reset-submit-button = Маған қалпына келтіру нұсқауларын жіберіңіз
+password-reset-submit-button-2 = Жалғастыру
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
@@ -1507,15 +1506,7 @@ signin-token-code-required-error = Растау коды қажет
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = <span>Тіркелгі баптауларына өту үшін</span> аутентификация кодын енгізіңіз
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = <span>{ $serviceName } қызметіне өту үшін</span> аутентификация кодын енгізіңіз
-signin-totp-code-instruction-v2 = Аутентификация қолданбаңызды ашып, ол ұсынған аутентификация кодын енгізіңіз.
-signin-totp-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
+signin-totp-code-input-label-v3 = Кодты енгізіңіз
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Растау
 signin-totp-code-other-account-link = Басқа тіркелгіні қолдану
