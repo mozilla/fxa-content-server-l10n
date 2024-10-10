@@ -10,6 +10,11 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Itxi
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Posta birbidalia. Gehitu { $accountsEmail } zure kontaktuetara arazorik gabeko bidalketarako.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -18,6 +23,13 @@ banner-dismiss-button =
 # This text is for screen-readers
 brand-banner-dismiss-button-2 =
     .aria-label = Itxi pankarta
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } berrizendatuko da azaroaren batean { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Erabiltzaile-izen eta pasahitz berarekin hasiko duzu saioa oraindik, eta ez dago beste aldaketarik erabiltzen dituzun produktuetan.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = { -product-firefox-accounts } { -product-mozilla-accounts } izena jarri diegu. Erabiltzaile-izen eta pasahitz berarekin hasiko duzu saioa oraindik, eta ez dago beste aldaketarik erabiltzen dituzun produktuetan.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Argibide gehiago
 # Alt text for close banner image
@@ -42,16 +54,33 @@ recovery-key-pdf-heading = Kontua berreskuratzeko gakoa
 recovery-key-pdf-download-date = Sortze-data: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Kontua berreskuratzeko gakoa
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Gako honi esker, zifratutako nabigatzailearen datuak (pasahitzak, laster-markak eta historia barne) berreskura ditzakezu pasahitza ahazten baduzu. Gorde ezazu gogoratuko duzun leku batean.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Zure gakoa gordetzeko tokiak
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Lortu informazio gehiago kontua berreskuratzeko gakoari buruz
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Arazo bat izan da kontua berreskuratzeko gakoa deskargatzean.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Lortu gehiago { -brand-mozilla }-tik:
+# Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Lortu gure azken berriak eta produktuen eguneraketak
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Produktu berriak probatzeko sarbidea goiztiarra
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Ekintza alertak Internet berreskuratzeko
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -165,6 +194,16 @@ form-verify-code-default-error = Eremu hau beharrezkoa da
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Jarraitzeko, idatzi { $codeLength } zifrako kodea
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Jarraitzeko, idatzi { $codeLength } karaktere kodea
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -184,11 +223,36 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Ordenagailu bat eta telefono mugikor bat eta bihotz hautsi baten irudia bakoitzean
+hearts-verified-image-aria-label =
+    .aria-label = Ordenagailu bat eta telefono mugikor bat eta tablet bat, bakoitzean bihotza dardarka
+signin-recovery-code-image-description =
+    .aria-label = Ezkutuko testua duen dokumentua.
+signin-totp-code-image-label =
+    .aria-label = Ezkutuko 6 digituko kodea duen gailua.
+confirm-signup-aria-label =
+    .aria-label = Esteka duen gutun-azal bat
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Kontua berreskuratzeko gako bat irudikatzeko irudia.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Kontua berreskuratzeko gako bat irudikatzeko irudia.
+password-image-aria-label =
+    .aria-label = Pasahitz bat idazten irudikatzeko ilustrazioa.
+lightbulb-aria-label =
+    .aria-label = Biltegiratze-iradokizun bat sortzea irudikatzeko irudia.
+email-code-image-aria-label =
+    .aria-label = Kode bat duen mezu elektroniko bat irudikatzeko ilustrazioa.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = { -brand-firefox } saioa hasi duzu
+inline-recovery-key-setup-create-header = Babestu zure kontua
 
 ## Input Password
 
