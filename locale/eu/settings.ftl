@@ -253,6 +253,11 @@ email-code-image-aria-label =
 
 inline-recovery-key-setup-signed-in-firefox = { -brand-firefox } saioa hasi duzu
 inline-recovery-key-setup-create-header = Babestu zure kontua
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Hartuko minutu bat zure datuak babesteko?
+inline-recovery-key-setup-info = Sortu kontua berreskuratzeko gako bat, zure sinkronizazioaren arakatze-datuak leheneratu ahal izateko pasahitza ahazten baduzu.
+inline-recovery-key-setup-start-button = Sortu kontua berreskuratzeko gakoa
+inline-recovery-key-setup-later-button = Beranduago egin
 
 ## Input Password
 
@@ -260,9 +265,30 @@ inline-recovery-key-setup-create-header = Babestu zure kontua
 input-password-hide = Ezkutatu pasahitza
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Erakutsi pasahitza
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Zure pasahitza ikusgai dago pantailan.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Zure pasahitza ezkutatuta dago une honetan.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Zure pasahitza orain ikusgai dago pantailan.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Zure pasahitza orain ezkutatuta dago.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Atzera
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Pasahitza berrezartzeko lotura hondatuta
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Berrespen-esteka kaltetuta dago
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Lotura kaltetuta dago
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Klik egin duzun loturak karaktereak falta ditu; agian zure posta-bezeroak hondatu du. Kopiatu helbidea kontuz eta saiatu berriro.
 
 ## LinkExpired component
 
@@ -274,6 +300,7 @@ reset-pwd-resend-link = Jaso lotura berria
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Pasahitza berrezartzeko lotura iraungita
+reset-pwd-link-expired-message = Pasahitza berrezartzeko klik egin duzun lotura iraungita dago.
 
 ## LinkRememberPassword component
 
