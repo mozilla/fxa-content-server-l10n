@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-10-09 21:50+0000\n"
-"Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
+"PO-Revision-Date: 2024-10-10 17:55+0000\n"
+"Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -1931,7 +1931,7 @@ msgstr "Conectando o dispositivo móvel à sua conta Mozilla"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr "Abra o Firefox no computador, visite <b class=\"Whitespace-nowrap\">firefox.com/pair</b> e siga as instruções na tela para conectar seu dispositivo móvel."
+msgstr "Abra o Firefox no computador, visite <b class=\"whitespace-nowrap\">firefox.com/pair</b> e siga as instruções na tela para conectar seu dispositivo móvel."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
