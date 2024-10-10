@@ -371,7 +371,6 @@ password-strength-inline-confirmed-must-match = Confirmation matches the new pas
 
 ## Ready component
 
-reset-password-complete-header = Your password has been reset
 ready-complete-set-up-instruction = Complete setup by entering your new password on your other { -brand-firefox } devices.
 manage-your-account-button = Manage your account
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -430,11 +429,13 @@ password-reset-chevron-expanded = Collapse warning
 password-reset-chevron-collapsed = Expand warning
 
 password-reset-data-may-not-be-recovered = Your browser data may not be recovered
-password-reset-previously-signed-in-device = Have a device where you previously signed in?
-password-reset-data-may-be-saved-locally = Your browser data may be locally saved on that device. Sign in there with your new password to restore and sync.
-password-reset-no-old-device = Have a new device but don’t have your old one?
-password-reset-encrypted-data-cannot-be-recovered = We’re sorry, but your encrypted browser data on { -brand-firefox } servers can’t be recovered. However, you can still access your local data on any device where you have previously signed in.
-password-reset-learn-about-restoring-account-data = Learn more about restoring account data
+password-reset-previously-signed-in-device-2 = Have any device where you previously signed in?
+password-reset-data-may-be-saved-locally-2 = Your browser data might be saved on that device. Reset your password, then sign in there to restore and sync your data.
+password-reset-no-old-device-2 = Have a new device but don’t have access to any of your previous ones?
+password-reset-encrypted-data-cannot-be-recovered-2 = We’re sorry, but your encrypted browser data on { -brand-firefox } servers can’t be recovered.
+
+password-reset-warning-have-key = Have an account recovery key?
+password-reset-warning-use-key-link = Use it now to reset your password and keep your data
 
 ## Alert Bar
 
@@ -1427,8 +1428,8 @@ complete-reset-password-success-alert = Password set
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, there was a problem setting your password
 
-password-reset-could-not-determine-account-recovery-key = Got your account recovery key?
-password-reset-use-account-recovery-key = Reset your password and keep your data
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Use account recovery key
 
 ## Confirm Reset Password With Code
 
@@ -1452,6 +1453,14 @@ confirm-reset-password-otp-resend-code-button = Resend code
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Use a different account
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Reset your password
+confirm-totp-reset-password-subheader = Enter your two-factor authentication security code (2FA)
+confirm-totp-reset-password-instruction = Check your authenticator app to reset your password.
+confirm-totp-reset-password-trouble-code = Trouble entering code?
+confirm-totp-reset-password-confirm-button = Confirm
+confirm-totp-reset-password-input-label = Enter code
 ## ResetPassword start page
 
 password-reset-flow-heading = Reset your password
@@ -1463,6 +1472,12 @@ password-reset-email-input =
   .label = Enter your email
 
 password-reset-submit-button-2 = Continue
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Your password has been reset
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Continue to { $serviceName }
 
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
