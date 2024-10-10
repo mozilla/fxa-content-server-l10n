@@ -405,6 +405,12 @@ flow-recovery-key-hint-unsafe-char-error = Кеңесте қауіпті юни�
 password-reset-warning-icon = Ескерту
 password-reset-chevron-expanded = Ескертуді бүктеу
 password-reset-chevron-collapsed = Ескертуді ашу
+password-reset-data-may-not-be-recovered = Браузеріңіздің деректері қалпына келтірілмеуі мүмкін
+password-reset-previously-signed-in-device = Бұрын жүйеге кірген құрылғыңыз бар ма?
+password-reset-data-may-be-saved-locally = Браузеріңіздің деректері сол құрылғыда жергілікті түрде сақталуы мүмкін. Қалпына келтіру және синхрондау үшін сол жерге жаңа парольмен кіріңіз.
+password-reset-no-old-device = Жаңа құрылғыңыз бар, бірақ ескі құрылғыңыз жоқ па?
+password-reset-encrypted-data-cannot-be-recovered = Кешіріңіз, { -brand-firefox } серверлеріндегі шифрленген браузеріңіздің деректерін қалпына келтіру мүмкін емес. Дегенмен, бұрын жүйеге кірген кез келген құрылғыда жергілікті деректерге әлі де қол жеткізе аласыз.
+password-reset-learn-about-restoring-account-data = Тіркелгі деректерін қалпына келтіру туралы көбірек біліңіз
 
 ## Alert Bar
 
@@ -1342,6 +1348,14 @@ third-party-auth-callback-message = Күте тұрыңыз, сіз автори
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Тіркелгіні қалпына келтіру кілтіңізді енгізіңіз
+account-recovery-confirm-key-instruction = Бұл кілт { -brand-firefox } серверлерінен парольдер мен бетбелгілер сияқты шифрленген шолу деректерін қалпына келтіреді.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = 32 таңбадан тұратын тіркелгіні қалпына келтіру кілтін енгізіңіз
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Сіздің сақтау туралы кеңесіңіз:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Жалғастыру
 # Link that leads to the password reset page (without recovery code)
@@ -1380,6 +1394,7 @@ confirm-reset-password-otp-different-account-link = Басқа тіркелгі�
 ## ResetPassword start page
 
 password-reset-flow-heading = Парольді тастау
+password-reset-body-2 = Тіркелгіңізді қауіпсіз сақтау үшін тек сіз білетін бірнеше нәрсені сұраймыз.
 password-reset-email-input =
     .label = Эл. поштаңызды енгізіңіз
 password-reset-submit-button-2 = Жалғастыру
@@ -1506,6 +1521,8 @@ signin-token-code-required-error = Растау коды қажет
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Екі факторлы аутентификация қауіпсіздік кодын енгізіңіз (2FA)
+signin-totp-code-instruction-v3 = Жүйеге кіруді растау үшін аутентификация қолданбасын тексеріңіз.
 signin-totp-code-input-label-v3 = Кодты енгізіңіз
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Растау
