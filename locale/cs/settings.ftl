@@ -409,7 +409,7 @@ password-reset-data-may-not-be-recovered = Data prohlížeče nemusí být možn
 password-reset-previously-signed-in-device = Máte zařízení, na kterém jste se už dříve přihlásili?
 password-reset-data-may-be-saved-locally = Data o vašem prohlížeči mohou být ukládána na tomto zařízení. Pro obnovení a synchronizaci se přihlaste pomocí svého nového hesla.
 password-reset-no-old-device = Máte nové zařízení, ale staré už nemáte?
-password-reset-encrypted-data-cannot-be-recovered = Je nám líto, ale vaše šifrovaná data uložená na serverech { -brand-firefox(case: "gen") } nelze obnovit. Stále však budete mít přístup ke svým místním datům na jakémkoli zařízení, kde jste se dříve přihlásili.
+password-reset-encrypted-data-cannot-be-recovered = Je nám líto, ale vaše šifrovaná data uložená na serverech { -brand-firefox(case: "gen") } nelze obnovit. Stále však budete mít přístup ke svým datům na jakémkoli zařízení, kde jste se dříve přihlásili.
 password-reset-learn-about-restoring-account-data = Přečtěte si více o obnově dat účtu
 
 ## Alert Bar
@@ -1138,7 +1138,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
-inline-recovery-key-setup-create-error = Jejda! Nepodařilo se vytvořit váš obnovovací klíč k účtu. Zkuste to prosím znovu později.
+inline-recovery-key-setup-create-error = Jejda! Obnovovací klíč se pro váš účet nepodařilo vytvořit. Zkuste to prosím znovu později.
 inline-recovery-key-setup-recovery-created = Obnovovací klíč k účtu byl vytvořen
 inline-recovery-key-setup-download-header = Zabezpečte svůj účet
 inline-recovery-key-setup-download-subheader = Stáhněte a uložte jej
@@ -1342,7 +1342,7 @@ account-recovery-confirm-key-instruction = Tento klíč obnovuje vaše zašifrov
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
-    .label = Zadejte 32místný obnovovací klíč k účtu
+    .label = Zadejte 32místný obnovovací klíč
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
 account-recovery-confirm-key-hint = Vaše nápověda k uložení je:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
@@ -1383,7 +1383,6 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 ## ResetPassword start page
 
 password-reset-flow-heading = Obnovení hesla
-password-reset-body-2 = Jen vy vítejte, abychom váš účet udrželi v bezpečí.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
 password-reset-submit-button-2 = Pokračovat
@@ -1442,8 +1441,8 @@ back = Zpět
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = <span>Pro pokračování do nastavení účtu</span> ověřte tyto přihlašovací údaje
-signin-push-code-heading-w-custom-service = Ověřte tyto přihlašovací údaje <span>a pokračujte do služby { $serviceName }</span>
+signin-push-code-heading-w-default-service = <span>Pro pokračování do nastavení účtu</span> ověřte toto přihlášení
+signin-push-code-heading-w-custom-service = Ověřit toto přihlášení <span>a pokračovat do služby { $serviceName }</span>
 signin-push-code-instruction = Zkontrolujte prosím svá ostatní zařízení a schvalte toto přihlášení z prohlížeče { -brand-firefox }.
 signin-push-code-did-not-recieve = Nedostali jste oznámení?
 signin-push-code-send-email-link = Odeslat kód na e-mail
@@ -1454,8 +1453,8 @@ signin-push-code-confirm-instruction = Potvrďte své přihlášení
 signin-push-code-confirm-description = Zjistili jsme pokus o přihlášení z následujícího zařízení. Pokud jste to byli vy, potvrďte přihlášení
 signin-push-code-confirm-verifying = Ověřuje se
 signin-push-code-confirm-login = Potvrdit přihlášení
-signin-push-code-confirm-wasnt-me = Toto jsem nebyl(a) já, změnit heslo.
-signin-push-code-confirm-login-approved = Vaše přihlašovací údaje byly schváleny. Zavřete prosím toto okno.
+signin-push-code-confirm-wasnt-me = Toto nebylo mé přihlášení, změnit heslo.
+signin-push-code-confirm-login-approved = Vaše přihlášení bylo schváleno. Zavřete prosím toto okno.
 signin-push-code-confirm-link-error = Odkaz je poškozen. Zkuste to prosím znovu.
 
 ## SigninRecoveryCode page
@@ -1510,7 +1509,7 @@ signin-token-code-required-error = Je vyžadován potvrzovací kód
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Zadejte svůj bezpečnostní kód pro dvoufaktorovou autentizaci (2FA)
+signin-totp-code-subheader = Zadejte svůj bezpečnostní kód pro dvoufaktorové ověření (2FA)
 signin-totp-code-instruction-v3 = Zkontrolujte přihlášení ve své ověřovací aplikaci.
 signin-totp-code-input-label-v3 = Zadejte kód
 # Form button to confirm if the authentication code entered by the user is valid
