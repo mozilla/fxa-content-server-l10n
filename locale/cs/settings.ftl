@@ -251,11 +251,11 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Jste přihlášeni do { -brand-firefox(case: "gen") }
+inline-recovery-key-setup-signed-in-firefox = Jste přihlášeni k { -brand-firefox(case: "dat") }
 inline-recovery-key-setup-create-header = Zabezpečte svůj účet
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Máte minutku na ochranu svých údajů?
-inline-recovery-key-setup-info = Vytvořte si obnovovací klíč k účtu, abyste mohli obnovit synchronizovaná data procházení, pokud zapomenete heslo.
+inline-recovery-key-setup-info = Vytvořte si k účtu obnovovací klíč, abyste mohli obnovit synchronizovaná data o prohlížení v případě, že zapomenete své heslo.
 inline-recovery-key-setup-start-button = Vytvořit obnovovací klíč k účtu
 inline-recovery-key-setup-later-button = Udělám to později
 
@@ -321,7 +321,7 @@ confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze
 
 account-recovery-notification-cta = Vytvořit
 account-recovery-notification-header-value = Neztraťte svá data, pokud zapomenete své heslo
-account-recovery-notification-header-description = Vytvořte si obnovovací klíč k účtu, abyste mohli obnovit synchronizovaná data prohlížení, pokud zapomenete heslo.
+account-recovery-notification-header-description = Vytvořte si k účtu obnovovací klíč pro obnovení synchronizovaných dat v případě, že zapomenete své heslo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatný požadavek
 
@@ -403,11 +403,11 @@ flow-recovery-key-hint-unsafe-char-error = Nápověda nemůže obsahovat nebezpe
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Varování
-password-reset-chevron-expanded = Sbalit varování
+password-reset-chevron-expanded = Skrýt varování
 password-reset-chevron-collapsed = Rozbalit varování
 password-reset-data-may-not-be-recovered = Data prohlížeče nemusí být možné obnovit
 password-reset-previously-signed-in-device = Máte zařízení, na kterém jste se už dříve přihlásili?
-password-reset-data-may-be-saved-locally = Data o vašem prohlížeči mohou být na tomto zařízení ukládána. Pro obnovení a synchronizaci se přihlaste pomocí svého nového hesla.
+password-reset-data-may-be-saved-locally = Data o vašem prohlížeči mohou být ukládána na tomto zařízení. Pro obnovení a synchronizaci se přihlaste pomocí svého nového hesla.
 password-reset-no-old-device = Máte nové zařízení, ale staré už nemáte?
 password-reset-encrypted-data-cannot-be-recovered = Je nám líto, ale vaše šifrovaná data uložená na serverech { -brand-firefox(case: "gen") } nelze obnovit. Stále však budete mít přístup ke svým místním datům na jakémkoli zařízení, kde jste se dříve přihlásili.
 password-reset-learn-about-restoring-account-data = Přečtěte si více o obnově dat účtu
