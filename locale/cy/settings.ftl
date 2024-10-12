@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Cadarnhad ei fod yn cydweddu â'
 
 ## Ready component
 
-reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
 ready-complete-set-up-instruction = Cwblhewch y gosod drwy roi eich cyfrinair ar eich dyfeisiau { -brand-firefox } eraill.
 manage-your-account-button = Rheoli eich cyfrif
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Rhybudd
 password-reset-chevron-expanded = Cau'r rhybudd
 password-reset-chevron-collapsed = Ehangu'r rhybudd
 password-reset-data-may-not-be-recovered = Mae'n bosibl na fydd data eich porwr yn cael ei adfer
-password-reset-previously-signed-in-device = Oes gennych chi ddyfais lle rydych chi wedi mewngofnodi o'r blaen?
-password-reset-data-may-be-saved-locally = Mae'n bosibl y bydd data eich porwr yn cael ei gadw'n lleol ar y ddyfais honno. Mewngofnodwch yno gyda'ch cyfrinair newydd i'w adfer a'i gydweddu.
-password-reset-no-old-device = Oes gennych chi ddyfais newydd ond heb yr hen un?
-password-reset-encrypted-data-cannot-be-recovered = Ymddiheuriadau, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }. Fodd bynnag, gallwch barhau i gael mynediad at eich data lleol ar unrhyw ddyfais lle rydych wedi mewngofnodi o'r blaen.
-password-reset-learn-about-restoring-account-data = Darllenwch fwy am adfer data cyfrif
+password-reset-previously-signed-in-device-2 = Oes gennych chi unrhyw ddyfais lle gwnaethoch chi fewngofnodi o'r blaen?
+password-reset-data-may-be-saved-locally-2 = Mae'n bosibl y bydd data eich porwr yn cael ei gadw ar y ddyfais honno. Ailosodwch eich cyfrinair, yna mewngofnodwch yno i adfer a chysoni eich data.
+password-reset-no-old-device-2 = Oes gennych chi ddyfais newydd ond heb fynediad i unrhyw un o'ch rhai blaenorol?
+password-reset-encrypted-data-cannot-be-recovered-2 = Mae'n ddrwg gennym, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }.
+password-reset-warning-have-key = Oes gennych chi allwedd adfer cyfrif?
+password-reset-warning-use-key-link = Defnyddiwch ef nawr i ailosod eich cyfrinair a chadw'ch data
 
 ## Alert Bar
 
@@ -1365,8 +1365,8 @@ complete-reset-password-success-alert = Wedi gosod y cyfrinair
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
-password-reset-could-not-determine-account-recovery-key = Oes gennych chi allwedd adfer eich cyfrif?
-password-reset-use-account-recovery-key = Ailosodwch eich cyfrinair a chadwch eich data
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Defnyddiwch allwedd adfer cyfrif
 
 ## Confirm Reset Password With Code
 
@@ -1385,6 +1385,15 @@ confirm-reset-password-otp-resend-code-button = Ail-anfon y cod
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Ailosod eich cyfrinair
+confirm-totp-reset-password-subheader = Rhowch eich cod diogelwch dilysu dau ffactor (2FA)
+confirm-totp-reset-password-instruction = Gwiriwch eich app dilysu i ailosod eich cyfrinair.
+confirm-totp-reset-password-trouble-code = Trafferth cyflwyno cod?
+confirm-totp-reset-password-confirm-button = Cadarnhau
+confirm-totp-reset-password-input-label = Rhowch y cod
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Ailosod eich cyfrinair
@@ -1392,6 +1401,12 @@ password-reset-body-2 = Byddwn yn gofyn am ychydig o bethau dim ond chi sy'n eu 
 password-reset-email-input =
     .label = Rhowch eich e-bost
 password-reset-submit-button-2 = Parhau
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Parhau i { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
