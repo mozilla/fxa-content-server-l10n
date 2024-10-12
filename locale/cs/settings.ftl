@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Potvrzení odpovídá novému he
 
 ## Ready component
 
-reset-password-complete-header = Vaše heslo bylo obnoveno
 ready-complete-set-up-instruction = Dokončete nastavení zadáním nového hesla na ostatní zařízeních s { -brand-firefox(case: "ins") }.
 manage-your-account-button = Správa účtu
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Varování
 password-reset-chevron-expanded = Skrýt varování
 password-reset-chevron-collapsed = Rozbalit varování
 password-reset-data-may-not-be-recovered = Data prohlížeče nemusí být možné obnovit
-password-reset-previously-signed-in-device = Máte zařízení, na kterém jste se už dříve přihlásili?
-password-reset-data-may-be-saved-locally = Data o vašem prohlížeči mohou být ukládána na tomto zařízení. Pro obnovení a synchronizaci se přihlaste pomocí svého nového hesla.
-password-reset-no-old-device = Máte nové zařízení, ale staré už nemáte?
-password-reset-encrypted-data-cannot-be-recovered = Je nám líto, ale vaše šifrovaná data uložená na serverech { -brand-firefox(case: "gen") } nelze obnovit. Stále však budete mít přístup ke svým datům na jakémkoli zařízení, kde jste se dříve přihlásili.
-password-reset-learn-about-restoring-account-data = Přečtěte si více o obnově dat účtu
+password-reset-previously-signed-in-device-2 = Máte nějaké zařízení, na kterém jste se dříve přihlásili?
+password-reset-data-may-be-saved-locally-2 = Data o prohlížeči mohou být na tomto zařízení uložena. Obnovte své heslo a poté se přihlaste pro obnovu a synchronizaci svých dat.
+password-reset-no-old-device-2 = Vlastníte nové zařízení, ale nemáte přístup k žádnému z předchozích?
+password-reset-encrypted-data-cannot-be-recovered-2 = Je nám líto, ale vaše šifrovaná data uložená na serverech { -brand-firefox(case: "gen") } nelze obnovit.
+password-reset-warning-have-key = Máte obnovovací klíč k účtu?
+password-reset-warning-use-key-link = Použijte jej nyní k obnovení svého hesla a uchování dat
 
 ## Alert Bar
 
@@ -1360,8 +1360,8 @@ complete-reset-password-success-alert = Heslo nastaveno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Vaše heslo se nepodařilo nastavit
-password-reset-could-not-determine-account-recovery-key = Máte klíč pro obnovení účtu?
-password-reset-use-account-recovery-key = Obnovte své heslo a uschovejte svá data
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Použít obnovovací klíč k účtu
 
 ## Confirm Reset Password With Code
 
@@ -1380,12 +1380,27 @@ confirm-reset-password-otp-resend-code-button = Znovu odeslat kód
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Použít jiný účet
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Obnovit heslo
+confirm-totp-reset-password-subheader = Zadejte svůj bezpečnostní kód pro dvoufaktorové ověření (2FA)
+confirm-totp-reset-password-instruction = Pro obnovu hesla prosím zkontrolujte aplikaci.
+confirm-totp-reset-password-trouble-code = Problém se zadáváním kódu?
+confirm-totp-reset-password-confirm-button = Potvrdit
+confirm-totp-reset-password-input-label = Zadejte kód
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Obnovení hesla
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
 password-reset-submit-button-2 = Pokračovat
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Vaše heslo bylo obnoveno
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Pokračovat do služby { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
 reset-password-with-recovery-key-verified-generate-new-key = Vytvořit nový obnovovací klíč k účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
