@@ -408,9 +408,9 @@ password-reset-data-may-not-be-recovered = Potrebbe non essere possibile recuper
 password-reset-previously-signed-in-device-2 = Hai un dispositivo su cui hai effettuato l’accesso in precedenza?
 password-reset-data-may-be-saved-locally-2 = I dati del browser potrebbero essere salvati su quel dispositivo. Reimposta la password, quindi accedi per ripristinare e sincronizzare i tuoi dati.
 password-reset-no-old-device-2 = Hai un nuovo dispositivo ma non hai accesso a nessuno dei tuoi dispositivi precedenti?
-password-reset-encrypted-data-cannot-be-recovered-2 = Siamo spiacenti, i dati crittati del browser sui server { -brand-firefox } non possono essere recuperati.
+password-reset-encrypted-data-cannot-be-recovered-2 = Siamo spiacenti, non è possibile recuperare i dati crittati del tuo browser sui server { -brand-firefox }.
 password-reset-warning-have-key = Hai una chiave di recupero dell’account?
-password-reset-warning-use-key-link = Usalo ora per reimpostare la password e conservare i tuoi dati
+password-reset-warning-use-key-link = Usala ora per reimpostare la password e conservare i tuoi dati
 
 ## Alert Bar
 
