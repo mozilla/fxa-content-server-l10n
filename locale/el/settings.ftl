@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Η επιβεβαίωση ται
 
 ## Ready component
 
-reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
 ready-complete-set-up-instruction = Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασής σας στις άλλες σας συσκευές με { -brand-firefox }.
 manage-your-account-button = Διαχείριση του λογαριασμού σας
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,6 @@ password-reset-warning-icon = Προειδοποίηση
 password-reset-chevron-expanded = Σύμπτυξη προειδοποίησης
 password-reset-chevron-collapsed = Ανάπτυξη προειδοποίησης
 password-reset-data-may-not-be-recovered = Τα δεδομένα του προγράμματος περιήγησής σας ενδέχεται να μην ανακτηθούν
-password-reset-previously-signed-in-device = Είχατε συνδεθεί από κάποια συσκευή στο παρελθόν;
-password-reset-data-may-be-saved-locally = Τα δεδομένα του προγράμματος περιήγησής σας ενδέχεται να έχουν αποθηκευτεί τοπικά σε αυτήν τη συσκευή. Κάντε σύνδεση εκεί με τον νέο σας κωδικό πρόσβασης για ανάκτηση και συγχρονισμό των δεδομένων.
-password-reset-no-old-device = Έχετε μια νέα συσκευή, αλλά δεν έχετε την παλιά σας;
-password-reset-encrypted-data-cannot-be-recovered = Δυστυχώς, δεν είναι δυνατή η ανάκτηση των κρυπτογραφημένων δεδομένων προγράμματος περιήγησης που βρίσκονται στους διακομιστές του { -brand-firefox }. Μπορείτε, ωστόσο, να έχετε ακόμα πρόσβαση στα τοπικά σας δεδομένα από οποιαδήποτε συσκευή που είχατε κάνει σύνδεση στο παρελθόν.
-password-reset-learn-about-restoring-account-data = Μάθετε περισσότερα σχετικά με την ανάκτηση των δεδομένων λογαριασμού
 
 ## Alert Bar
 
@@ -1373,8 +1367,6 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
-password-reset-could-not-determine-account-recovery-key = Έχετε το κλειδί ανάκτησης του λογαριασμού σας;
-password-reset-use-account-recovery-key = Κάντε επαναφορά του κωδικού πρόσβασής σας και διατηρήστε τα δεδομένα σας
 
 ## Confirm Reset Password With Code
 
@@ -1393,6 +1385,11 @@ confirm-reset-password-otp-resend-code-button = Νέα αποστολή κωδι
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Χρήση διαφορετικού λογαριασμού
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-confirm-button = Επιβεβαίωση
+confirm-totp-reset-password-input-label = Εισαγάγετε τον κωδικό
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Επαναφορά κωδικού πρόσβασης
@@ -1402,6 +1399,12 @@ password-reset-body-2 =
 password-reset-email-input =
     .label = Εισαγάγετε το email σας
 password-reset-submit-button-2 = Συνέχεια
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
