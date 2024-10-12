@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Wobkšuśenje nowemu gronidłoju
 
 ## Ready component
 
-reset-password-complete-header = Wašo gronidło jo se slědk stajiło
 ready-complete-set-up-instruction = Zapódajśo swójo nowe gronidło na swójich drugich rědach { -brand-firefox }, aby zarědowanje dokóńcył.
 manage-your-account-button = Zastojśo swójo konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Warnowanje
 password-reset-chevron-expanded = Warnowanje schowaś
 password-reset-chevron-collapsed = Warnowanje pokazaś
 password-reset-data-may-not-be-recovered = Daty wašogo wobglědowaka se snaź njewobnowiju
-password-reset-previously-signed-in-device = Maśo rěd, źož sćo se do togo pśizjawił?
-password-reset-data-may-be-saved-locally = Daty wašogo wobglědowaka daju se na tom rěźe lokalnje składowaś. Pśizjawśo se tam ze swójim nowym gronidłom, aby wótnowił a synchronizěrował.
-password-reset-no-old-device = Maśo nowy rěd, ale njamaśo stary?
-password-reset-encrypted-data-cannot-be-recovered = Jo nam luto, ale skoděrowane daty wašogo wobglědowaka na serwerach { -brand-firefox } njedaju se wótnowiś. Maśo pak hyšći pśistup k swójim lokalnym datam na kuždem rěźe, źož sćo do togo pśizjawił.
-password-reset-learn-about-restoring-account-data = Zgóńśo wěcej wó wótnowjenju kontowych datow
+password-reset-previously-signed-in-device-2 = Maśo rěd, źož sćo se do togo pśizjawił?
+password-reset-data-may-be-saved-locally-2 = Daty wašogo wobglědowaka su snaź na tom rěźe skłaźone. Stajśo swójo gronidło slědk, pśizjawśo se pón tam, aby swóje daty wótnowił a synchronizěrował.
+password-reset-no-old-device-2 = Maśo nowy rěd, ale njamaśo pśistup k swójim staršym?
+password-reset-encrypted-data-cannot-be-recovered-2 = Jo nam luto, ale waše skoděrowane daty wobglědowaka na serwerach { -brand-firefox } njedaju se wótnowiś.
+password-reset-warning-have-key = Maśo kontowy wótnowjeński kluc?
+password-reset-warning-use-key-link = Wužywajśo jen něnto, aby swójo gronidło slědk stajił a swóje daty wobchował
 
 ## Alert Bar
 
@@ -1365,8 +1365,8 @@ complete-reset-password-success-alert = Gronidło jo se nastajiło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju wašogo gronidła
-password-reset-could-not-determine-account-recovery-key = Sće dostał swój kontowy wótnowjeński kluc?
-password-reset-use-account-recovery-key = Stajśo swójo gronidło slědk a wobchowajśo swóje daty
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Kontowy wótnowjeński kluc wužywaś
 
 ## Confirm Reset Password With Code
 
@@ -1385,6 +1385,9 @@ confirm-reset-password-otp-resend-code-button = Kod znowego słaś
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Wužywajśo druge konto
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Stajśo swójo gronidło slědk
@@ -1394,6 +1397,10 @@ password-reset-body-2 =
 password-reset-email-input =
     .label = Zapódajśo swóju e-mailowu adresu
 password-reset-submit-button-2 = Dalej
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Wašo gronidło jo se slědk stajiło
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
 reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
