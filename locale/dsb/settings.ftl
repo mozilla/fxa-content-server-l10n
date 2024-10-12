@@ -1387,6 +1387,12 @@ confirm-reset-password-otp-different-account-link = Wužywajśo druge konto
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Stajśo swójo gronidło slědk
+confirm-totp-reset-password-subheader = Zapódajśo swój kod dwójofaktoroweje awtentifikacije (2FA)
+confirm-totp-reset-password-instruction = Zmóžniśo swójo nałoženje awtentificěrowanja, aby swójo gronidło slědk stajił.
+confirm-totp-reset-password-trouble-code = Maśo problemy pśi zapódawanju koda?
+confirm-totp-reset-password-confirm-button = Wobkšuśiś
+confirm-totp-reset-password-input-label = Kod zapódaś
 
 ## ResetPassword start page
 
@@ -1401,6 +1407,8 @@ password-reset-submit-button-2 = Dalej
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Wašo gronidło jo se slědk stajiło
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Dalej k { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
 reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
