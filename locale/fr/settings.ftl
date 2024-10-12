@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = La confirmation correspond au no
 
 ## Ready component
 
-reset-password-complete-header = Votre mot de passe a été réinitialisé
 ready-complete-set-up-instruction = Terminez la configuration en saisissant votre nouveau mot de passe sur vos autres appareils { -brand-firefox }.
 manage-your-account-button = Gérer votre compte
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Avertissement
 password-reset-chevron-expanded = Réduire l’avertissement
 password-reset-chevron-collapsed = Développer l’avertissement
 password-reset-data-may-not-be-recovered = Les données de votre navigateur pourraient ne pas été récupérées
-password-reset-previously-signed-in-device = Vous disposez d’un appareil sur lequel vous vous êtes déjà connecté·e ?
-password-reset-data-may-be-saved-locally = Les données de votre navigateur peuvent être enregistrées localement sur cet appareil. Connectez-vous avec votre nouveau mot de passe pour les restaurer et les synchroniser.
-password-reset-no-old-device = Vous avez un nouvel appareil, mais vous n’avez plus l’ancien ?
-password-reset-encrypted-data-cannot-be-recovered = Nous sommes désolés, mais vos données de navigateur chiffrées sur les serveurs de { -brand-firefox } ne peuvent pas être récupérées. Cependant, vous pouvez toujours accéder à vos données locales sur n’importe quel appareil sur lequel vous vous êtes déjà connecté·e.
-password-reset-learn-about-restoring-account-data = En savoir plus sur la restauration des données de compte
+password-reset-previously-signed-in-device-2 = Vous utilisez un appareil sur lequel vous vous êtes connecté·e précédemment&nbsp;?
+password-reset-data-may-be-saved-locally-2 = Les données de votre navigateur sont peut-être enregistrées sur cet appareil. Réinitialisez votre mot de passe, puis connectez-vous pour restaurer et synchroniser vos données.
+password-reset-no-old-device-2 = Vous avez un nouvel appareil mais vous n’avez plus accès à vos anciens appareils ?
+password-reset-encrypted-data-cannot-be-recovered-2 = Nous sommes désolés, mais vos données de navigateur chiffrées sur les serveurs de { -brand-firefox } ne peuvent pas être récupérées.
+password-reset-warning-have-key = Vous disposez d’une clé de récupération de compte ?
+password-reset-warning-use-key-link = Utilisez-le maintenant pour réinitialiser votre mot de passe et conserver vos données
 
 ## Alert Bar
 
@@ -1358,8 +1358,8 @@ complete-reset-password-success-alert = Mot de passe défini
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Un problème est survenu lors de la création de votre mot de passe
-password-reset-could-not-determine-account-recovery-key = Vous avez la clé de récupération de votre compte ?
-password-reset-use-account-recovery-key = Réinitialisez votre mot de passe et conservez vos données
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Utiliser la clé de récupération de compte
 
 ## Confirm Reset Password With Code
 
@@ -1378,6 +1378,15 @@ confirm-reset-password-otp-resend-code-button = Renvoyer le code
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Utiliser un autre { -product-mozilla-account }
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Réinitialiser le mot de passe
+confirm-totp-reset-password-subheader = Saisissez le code de sécurité pour l’authentification à deux facteurs (2FA)
+confirm-totp-reset-password-instruction = Vérifiez votre application d’authentification pour réinitialiser votre mot de passe.
+confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
+confirm-totp-reset-password-confirm-button = Confirmer
+confirm-totp-reset-password-input-label = Saisissez le code
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Réinitialiser le mot de passe
@@ -1385,6 +1394,12 @@ password-reset-body-2 = Nous vous demanderons d’effectuer certaines opération
 password-reset-email-input =
     .label = Saisissez votre adresse e-mail
 password-reset-submit-button-2 = Continuer
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Votre mot de passe a été réinitialisé
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Continuez vers { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
