@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Bevestiging komt overeen met het
 
 ## Ready component
 
-reset-password-complete-header = Uw wachtwoord is opnieuw ingesteld
 ready-complete-set-up-instruction = Voltooi de installatie door uw nieuwe wachtwoord op uw andere { -brand-firefox }-apparaten in te vullen.
 manage-your-account-button = Uw account beheren
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,6 @@ password-reset-warning-icon = Waarschuwing
 password-reset-chevron-expanded = Waarschuwing samenvouwen
 password-reset-chevron-collapsed = Waarschuwing uitvouwen
 password-reset-data-may-not-be-recovered = Uw browsergegevens worden mogelijk niet hersteld
-password-reset-previously-signed-in-device = Hebt u een apparaat waarop u eerder bent aangemeld?
-password-reset-data-may-be-saved-locally = Uw browsergegevens zijn mogelijk lokaal op dat apparaat opgeslagen. Meld u daar aan met uw nieuwe wachtwoord om te herstellen en te synchroniseren.
-password-reset-no-old-device = Hebt u een nieuw apparaat maar uw oude niet?
-password-reset-encrypted-data-cannot-be-recovered = Sorry, maar uw versleutelde browsergegevens op { -brand-firefox }-servers kunnen niet worden hersteld. U kunt echter nog steeds uw lokale gegevens benaderen op elk apparaat waarop u zich eerder hebt aangemeld.
-password-reset-learn-about-restoring-account-data = Meer info over het herstellen van accountgegevens
 
 ## Alert Bar
 
@@ -1371,8 +1365,6 @@ complete-reset-password-success-alert = Wachtwoord ingesteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
-password-reset-could-not-determine-account-recovery-key = Hebt u uw accountherstelsleutel?
-password-reset-use-account-recovery-key = Uw wachtwoord opnieuw instellen en uw gegevens behouden
 
 ## Confirm Reset Password With Code
 
@@ -1391,6 +1383,14 @@ confirm-reset-password-otp-resend-code-button = Code nogmaals versturen
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Een andere account gebruiken
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Herinitialiseer uw wachtwoord
+confirm-totp-reset-password-subheader = Voer uw beveiligingscode voor tweefactorauthenticatie (2FA) in
+confirm-totp-reset-password-trouble-code = Problemen bij het invoeren van de code?
+confirm-totp-reset-password-confirm-button = Bevestigen
+confirm-totp-reset-password-input-label = Code invoeren
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Uw wachtwoord opnieuw instellen
@@ -1400,6 +1400,12 @@ password-reset-body-2 =
 password-reset-email-input =
     .label = Voer uw e-mailadres in
 password-reset-submit-button-2 = Doorgaan
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Uw wachtwoord is opnieuw ingesteld
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Doorgaan naar { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-with-recovery-key-verified-generate-new-key = Een nieuwe accountherstelsleutel aanmaken
 reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mijn account
