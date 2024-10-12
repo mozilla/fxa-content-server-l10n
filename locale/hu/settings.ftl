@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = A megerősítés egyezik az új 
 
 ## Ready component
 
-reset-password-complete-header = A jelszó vissza lett állítva
 ready-complete-set-up-instruction = Fejezze be a beállítást az új jelszó megadásával a többi { -brand-firefox(case: "accusative") } használó eszközén.
 manage-your-account-button = Saját fiók kezelése
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Figyelmeztetés
 password-reset-chevron-expanded = Figyelmeztetés összecsukása
 password-reset-chevron-collapsed = Figyelmeztetés kinyitása
 password-reset-data-may-not-be-recovered = Előfordulhat, hogy a böngészési adatok nem állíthatók helyre
-password-reset-previously-signed-in-device = Van olyan eszköze, amelyre korábban bejelentkezett?
-password-reset-data-may-be-saved-locally = A böngésző adatai helyileg lehetnek mentve ezen az eszközön. Jelentkezzen be az új jelszavával a helyreállításhoz és a szinkronizáláshoz.
-password-reset-no-old-device = Van egy új eszköze, de a régi nincs meg?
-password-reset-encrypted-data-cannot-be-recovered = Sajnáljuk, de a { -brand-firefox } kiszolgálókon lévő titkosított böngészési adatai nem állíthatók helyre. Helyi adatait azonban továbbra is elérheti az összes olyan eszközön, amelyen korábban bejelentkezett.
-password-reset-learn-about-restoring-account-data = Tudjon meg többet a fiókadatok helyreállításáról
+password-reset-previously-signed-in-device-2 = Van olyan eszköze, amelyre korábban bejelentkezett?
+password-reset-data-may-be-saved-locally-2 = Előfordulhat, hogy a böngésző adatai vannak mentve ezen az eszközön. Állítsa vissza a jelszavát, majd jelentkezzen be ott az adatai visszaállításához és szinkronizálásához.
+password-reset-no-old-device-2 = Új eszköze van, de a korábbiakhoz már nem fér hozzá?
+password-reset-encrypted-data-cannot-be-recovered-2 = Sajnáljuk, de a { -brand-firefox } kiszolgálókon lévő titkosított böngészőadatai nem állíthatók helyre.
+password-reset-warning-have-key = Van fiók-helyreállítási kulcsa?
+password-reset-warning-use-key-link = Használja most a jelszó helyreállításához és az adatok megtartásához
 
 ## Alert Bar
 
@@ -1373,8 +1373,8 @@ complete-reset-password-success-alert = Jelszó megadva
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
-password-reset-could-not-determine-account-recovery-key = Megvan a fiók-helyreállítási kulcsa?
-password-reset-use-account-recovery-key = Állítsa vissza a jelszavát és tartsa meg az adatait
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Fiók-helyreállítási kulcs használata
 
 ## Confirm Reset Password With Code
 
@@ -1393,6 +1393,15 @@ confirm-reset-password-otp-resend-code-button = Kód újraküldése
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Másik fiók használata
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Jelszó visszaállítása
+confirm-totp-reset-password-subheader = Adja meg a kétlépcsős hitelesítés biztonsági kódját (2FA)
+confirm-totp-reset-password-instruction = Ellenőrizze a hitelesítő alkalmazást, hogy visszaállítsa a jelszavát.
+confirm-totp-reset-password-trouble-code = Nem tudja beírni a kódot?
+confirm-totp-reset-password-confirm-button = Megerősítés
+confirm-totp-reset-password-input-label = Adja meg a kódot
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Jelszó visszaállítása
@@ -1400,6 +1409,12 @@ password-reset-body-2 = Kérdezünk néhány dolgot, melyet csak Ön tud, hogy b
 password-reset-email-input =
     .label = Adja meg az e-mail-címét
 password-reset-submit-button-2 = Folytatás
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = A jelszó vissza lett állítva
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Tovább erre: { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
