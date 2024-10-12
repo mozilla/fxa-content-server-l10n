@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslo
 
 ## Ready component
 
-reset-password-complete-header = Vaše geslo je bilo ponastavljeno
 ready-complete-set-up-instruction = Dokončajte namestitev z vnosom novega gesla v drugih napravah { -brand-firefox }.
 manage-your-account-button = Upravljajte račun
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Opozorilo
 password-reset-chevron-expanded = Skrči opozorilo
 password-reset-chevron-collapsed = Razširi opozorilo
 password-reset-data-may-not-be-recovered = Podatkov brskalnika morda ne bo mogoče obnoviti
-password-reset-previously-signed-in-device = Imate napravo, kamor ste se že kdaj prej prijavili?
-password-reset-data-may-be-saved-locally = Podatki brskalnika so morda shranjeni na tej napravi. Prijavite se vanjo z novim geslom, da jih obnovite in sinhronizirate.
-password-reset-no-old-device = Imate novo napravo, nimate pa stare?
-password-reset-encrypted-data-cannot-be-recovered = Žal nam je, toda šifriranih podatkov brskalnika iz strežnikov { -brand-firefox } ni mogoče obnoviti. Še vedno pa imate dostop do podatkov, ki so shranjeni lokalno na vseh napravah, v katere ste se predhodno prijavili.
-password-reset-learn-about-restoring-account-data = Preberite več o obnavljanju podatkov računov
+password-reset-previously-signed-in-device-2 = Imate kakšno napravo, kjer ste se predhodno prijavili?
+password-reset-data-may-be-saved-locally-2 = Podatki brskalnika so morda shranjeni na tej napravi. Ponastavite geslo in se prijavite za obnovitev in sinhronizacijo podatkov.
+password-reset-no-old-device-2 = Imate novo napravo, vendar nimate dostopa do nobene od prejšnjih?
+password-reset-encrypted-data-cannot-be-recovered-2 = Žal nam je, toda šifriranih podatkov brskalnika v strežnikih { -brand-firefox } ni mogoče obnoviti.
+password-reset-warning-have-key = Imate ključ za obnovitev računa?
+password-reset-warning-use-key-link = Uporabite ga zdaj za ponastavitev gesla in obdržanje podatkov
 
 ## Alert Bar
 
@@ -1369,8 +1369,8 @@ complete-reset-password-success-alert = Geslo je nastavljeno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do težave
-password-reset-could-not-determine-account-recovery-key = Imate ključ za obnovitev računa?
-password-reset-use-account-recovery-key = Ponastavite geslo in obdržite podatke
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Uporabi ključ za obnovitev računa
 
 ## Confirm Reset Password With Code
 
@@ -1389,6 +1389,15 @@ confirm-reset-password-otp-resend-code-button = Znova pošlji kodo
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Uporabi drug račun
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Ponastavite geslo
+confirm-totp-reset-password-subheader = Vnesite varnostno kodo za preverjanje pristnosti v dveh korakih (2FA)
+confirm-totp-reset-password-instruction = V aplikaciji za overitev ponastavite geslo.
+confirm-totp-reset-password-trouble-code = Imate težave pri vnosu kode?
+confirm-totp-reset-password-confirm-button = Potrdi
+confirm-totp-reset-password-input-label = Vnesite kodo
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Ponastavite geslo
@@ -1396,6 +1405,12 @@ password-reset-body-2 = Vprašali bomo za nekaj stvari, ki jih veste samo vi, da
 password-reset-email-input =
     .label = Vnesite e-poštni naslov
 password-reset-submit-button-2 = Nadaljuj
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Vaše geslo je bilo ponastavljeno
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Nadaljuj na { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
 reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj račun
