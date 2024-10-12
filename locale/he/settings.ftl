@@ -339,7 +339,6 @@ password-strength-inline-confirmed-must-match = האימות מתאים לססמ
 
 ## Ready component
 
-reset-password-complete-header = הססמה שלך אופסה
 ready-complete-set-up-instruction = ניתן להשלים את ההתקנה על ידי הקלדת הססמה החדשה שלך במכשירי ה־{ -brand-firefox } הנוספים שלך.
 manage-your-account-button = ניהול החשבון שלך
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -397,11 +396,9 @@ password-reset-warning-icon = אזהרה
 password-reset-chevron-expanded = צמצום האזהרה
 password-reset-chevron-collapsed = הרחבת האזהרה
 password-reset-data-may-not-be-recovered = ייתכן שנתוני הדפדפן שלך לא ישוחזרו
-password-reset-previously-signed-in-device = יש לך מכשיר שבו התחברת בעבר?
-password-reset-data-may-be-saved-locally = ייתכן שנתוני הדפדפן שלך שמורים באופן מקומי במכשיר ההוא. יש להתחבר לשם עם הססמה החדשה שלך כדי לשחזר ולסנכרן.
-password-reset-no-old-device = יש לך מכשיר חדש אבל אין לך את הישן?
-password-reset-encrypted-data-cannot-be-recovered = אנו מצטערים, אך לא ניתן לשחזר את נתוני הדפדפן המוצפנים שלך בשרתי { -brand-firefox }. יחד עם זאת, באפשרותך עדיין לגשת לנתונים המקומיים שלך בכל מכשיר שבו התחברת בעבר.
-password-reset-learn-about-restoring-account-data = מידע נוסף על שחזור נתוני חשבון
+password-reset-previously-signed-in-device-2 = יש לך מכשיר כלשהו שבו התחברת בעבר?
+password-reset-data-may-be-saved-locally-2 = ייתכן שנתוני הדפדפן שלך שמורים במכשיר ההוא. יש לאפס את הססמה שלך ולאחר מכן להתחבר שם כדי לשחזר ולסנכרן את הנתונים שלך.
+password-reset-no-old-device-2 = יש לך מכשיר חדש אבל אין לך גישה לאף אחד מהקודמים שלך?
 
 ## Alert Bar
 
@@ -1292,8 +1289,6 @@ complete-reset-password-success-alert = הססמה הוגדרה
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
-password-reset-could-not-determine-account-recovery-key = יש לך את מפתח שחזור החשבון שלך?
-password-reset-use-account-recovery-key = איפוס הססמה שלך ושמירה על הנתונים שלך
 
 ## Confirm Reset Password With Code
 
@@ -1312,6 +1307,9 @@ confirm-reset-password-otp-resend-code-button = שליחת הקוד מחדש
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = שימוש בחשבון אחר
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = איפוס הססמה שלך
@@ -1319,6 +1317,10 @@ password-reset-body-2 = נשאל אותך כמה שאלות שהתשובות ע�
 password-reset-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
 password-reset-submit-button-2 = המשך
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = הססמה שלך אופסה
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
