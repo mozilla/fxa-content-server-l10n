@@ -406,7 +406,11 @@ password-reset-chevron-expanded = 折叠警告
 password-reset-chevron-collapsed = 展开警告
 password-reset-data-may-not-be-recovered = 您的浏览数据有可能无法恢复
 password-reset-previously-signed-in-device-2 = 还留有以前登录过的设备？
+password-reset-data-may-be-saved-locally-2 = 相应设备可能存有您的浏览数据。请重置密码，然后在那台设备上登录，即可恢复数据并同步。
 password-reset-no-old-device-2 = 有新设备，但已无法使用旧设备？
+password-reset-encrypted-data-cannot-be-recovered-2 = 很抱歉，我们无法恢复 { -brand-firefox } 服务器中加密存储的浏览数据。
+password-reset-warning-have-key = 拥有账户恢复密钥？
+password-reset-warning-use-key-link = 立即使用以重置密码，并可保留数据
 
 ## Alert Bar
 
@@ -1347,6 +1351,8 @@ complete-reset-password-success-alert = 密码已设置
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 抱歉，设置密码时出现问题
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = 使用账户恢复密钥
 
 ## Confirm Reset Password With Code
 
@@ -1367,6 +1373,11 @@ confirm-reset-password-otp-different-account-link = 换个账户登录
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = 重置密码
+confirm-totp-reset-password-subheader = 请输入双因子身份验证安全码（2FA）
+confirm-totp-reset-password-trouble-code = 输入代码时遇到问题？
+confirm-totp-reset-password-confirm-button = 确认
+confirm-totp-reset-password-input-label = 请输入代码
 
 ## ResetPassword start page
 
@@ -1379,6 +1390,8 @@ password-reset-submit-button-2 = 继续
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = 您的密码已重置
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = 继续使用 { $serviceName }
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
