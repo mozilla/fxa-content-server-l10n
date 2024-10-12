@@ -406,6 +406,8 @@ password-reset-chevron-expanded = Warnowanje schować
 password-reset-chevron-collapsed = Warnowanje pokazać
 password-reset-data-may-not-be-recovered = Daty wašeho wobhladowaka so snano njewobnowja
 password-reset-previously-signed-in-device-2 = Maće grat, hdźež sće so do toho přizjewił?
+password-reset-no-old-device-2 = Maće nowy grat, ale nimaće přistup k swojim staršim?
+password-reset-encrypted-data-cannot-be-recovered-2 = Je nam žel, ale waše zaklučowane daty wobhladowaka na serwerach { -brand-firefox } njedadźa so wobnowić.
 password-reset-warning-have-key = Maće kontowy wobnowjenski kluč?
 
 ## Alert Bar
