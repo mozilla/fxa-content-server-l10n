@@ -325,7 +325,6 @@ password-strength-inline-not-common = Ndaha’éi ne ñe’ẽñemi eiporumemév
 
 ## Ready component
 
-reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 ready-complete-set-up-instruction = Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka { -brand-firefox } ndive.
 manage-your-account-button = Eñangareko ne mba’etére
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -1104,9 +1103,17 @@ cookies-disabled-learn-more = Kuaave
 
 ## Index / home page
 
+index-header = Emoinge ne ñanduti veve
+index-sync-header = Eku’e jey nde { -product-mozilla-account } ndive
+index-subheader-default = Eku’ejey mba’ete mbohekopyahúpe
+index-cta = Emoinge térã eñemboheraguapy
+index-email-input =
+    .label = Emoinge ne ñanduti veve
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Oñemoheñói mba’eñemi jeguerujeyrã
+inline-recovery-key-setup-download-header = Embojuaju ne mba’ete
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1300,6 +1307,8 @@ third-party-auth-callback-message = Eha’ãrõmína, ejeguerahajeyhína tembipo
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Ku’ejey
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1328,11 +1337,21 @@ confirm-reset-password-otp-resend-code-button = Emondojey ayvu
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-confirm-button = Moneĩ
+confirm-totp-reset-password-input-label = Emoinge ayvu
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Embojevyjey ne ñe’ẽñemi
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
+password-reset-submit-button-2 = Ku’ejey
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
@@ -1388,9 +1407,11 @@ back = Tapykue
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-send-email-link = Ñanduti veve ayvu
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Emoneĩ ne rembiapo ñepyrũ
 signin-push-code-confirm-verifying = Jehechajey
 
 ## SigninRecoveryCode page
@@ -1445,6 +1466,7 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v3 = Emoinge ayvu
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
 signin-totp-code-other-account-link = Eiporu ambuéva mba’ete
