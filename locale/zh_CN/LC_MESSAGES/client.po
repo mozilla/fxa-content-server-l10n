@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-10-03 17:59+0000\n"
+"PO-Revision-Date: 2024-10-12 14:39+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -137,7 +137,7 @@ msgstr "账户通知现也在将发送到 %(secondaryEmail)s。"
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
-msgstr "继续 %(serviceName)s"
+msgstr "继续使用 %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"

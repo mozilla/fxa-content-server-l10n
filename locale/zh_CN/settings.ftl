@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = 再次输入的密码与新密�
 
 ## Ready component
 
-reset-password-complete-header = 您的密码已重置
 ready-complete-set-up-instruction = 在您的其他 { -brand-firefox } 设备上输入新的密码以完成设置。
 manage-your-account-button = 管理账户
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,8 @@ password-reset-warning-icon = 警告
 password-reset-chevron-expanded = 折叠警告
 password-reset-chevron-collapsed = 展开警告
 password-reset-data-may-not-be-recovered = 您的浏览数据有可能无法恢复
-password-reset-previously-signed-in-device = 还留有以前登录过的设备？
-password-reset-data-may-be-saved-locally = 相应设备可能在本地存有您的浏览数据。在那台设备上使用新密码登录，以恢复数据并同步。
-password-reset-no-old-device = 只有新设备，已不再拥有旧设备？
-password-reset-encrypted-data-cannot-be-recovered = 很抱歉，我们无法恢复 { -brand-firefox } 服务器中加密存储的浏览数据。不过，您仍可访问保存在您以前登录过的设备上的本地数据。
-password-reset-learn-about-restoring-account-data = 详细了解恢复账户数据
+password-reset-previously-signed-in-device-2 = 还留有以前登录过的设备？
+password-reset-no-old-device-2 = 有新设备，但已无法使用旧设备？
 
 ## Alert Bar
 
@@ -1351,8 +1347,6 @@ complete-reset-password-success-alert = 密码已设置
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 抱歉，设置密码时出现问题
-password-reset-could-not-determine-account-recovery-key = 拥有账户恢复密钥？
-password-reset-use-account-recovery-key = 重置密码并保留数据
 
 ## Confirm Reset Password With Code
 
@@ -1371,6 +1365,9 @@ confirm-reset-password-otp-resend-code-button = 重新发送验证码
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = 换个账户登录
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = 重置密码
@@ -1378,6 +1375,10 @@ password-reset-body-2 = 我们将询问一些仅您自己知道的信息，以�
 password-reset-email-input =
     .label = 请输入您的电子邮箱
 password-reset-submit-button-2 = 继续
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = 您的密码已重置
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
@@ -1502,7 +1503,7 @@ signin-token-code-required-error = 请输入验证码
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader = 请输入双因子身份验证安全码（2FA）
-signin-totp-code-instruction-v3 = 请通过身份验证器确认登录。
+signin-totp-code-instruction-v3 = 请通过身份验证器应用确认登录。
 signin-totp-code-input-label-v3 = 请输入验证码
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
