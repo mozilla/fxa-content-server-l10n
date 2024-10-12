@@ -405,12 +405,12 @@ password-reset-warning-icon = Advertencia
 password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
 password-reset-data-may-not-be-recovered = Es posible que no se recuperen los datos del navegador
-password-reset-previously-signed-in-device-2 = ¿Tienes algún dispositivo en el que iniciaste sesión anteriormente?
-password-reset-data-may-be-saved-locally-2 = Los datos de tu navegador pueden estar guardados en ese dispositivo. Restablece tu contraseña e inicia sesión allí para restaurar y sincronizar tus datos.
-password-reset-no-old-device-2 = ¿Tienes un dispositivo nuevo pero no tienes acceso a los anteriores?
+password-reset-previously-signed-in-device-2 = ¿Tenés algún dispositivo en el que iniciaste sesión anteriormente?
+password-reset-data-may-be-saved-locally-2 = Los datos de tu navegador pueden estar guardados en ese dispositivo. Restablecé tu contraseña e iniciá sesión ahí para restaurar y sincronizar tus datos.
+password-reset-no-old-device-2 = ¿Tenés un dispositivo nuevo pero no tenés acceso a los anteriores?
 password-reset-encrypted-data-cannot-be-recovered-2 = Lo sentimos, pero los datos cifrados del navegador en los servidores de { -brand-firefox } no pueden recuperarse.
-password-reset-warning-have-key = ¿Tienes una clave de recuperación de cuenta?
-password-reset-warning-use-key-link = Úsalo ahora para restablecer tu contraseña y mantener tus datos
+password-reset-warning-have-key = ¿Tenés una clave de recuperación de cuenta?
+password-reset-warning-use-key-link = Usala ahora para restablecer tu contraseña y mantener tus datos
 
 ## Alert Bar
 
@@ -1388,7 +1388,7 @@ confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
 
 confirm-totp-reset-password-header = Restablecé tu contraseña
 confirm-totp-reset-password-subheader = Ingresar código de seguridad de autenticación de dos pasos (2FA)
-confirm-totp-reset-password-instruction = Verifica tu aplicación de autenticación para restablecer tu contraseña.
+confirm-totp-reset-password-instruction = Mirá en tu aplicación de autenticación para restablecer tu contraseña.
 confirm-totp-reset-password-trouble-code = ¿Problemas para ingresar el código?
 confirm-totp-reset-password-confirm-button = Confirmar
 confirm-totp-reset-password-input-label = Ingresar el código
