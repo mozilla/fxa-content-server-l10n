@@ -410,7 +410,7 @@ password-reset-data-may-be-saved-locally-2 = Möglicherweise sind Ihre Browser-D
 password-reset-no-old-device-2 = Sie haben ein neues Gerät, aber Sie haben keinen Zugriff auf Ihre alten?
 password-reset-encrypted-data-cannot-be-recovered-2 = Es tut uns leid, aber Ihre verschlüsselten Browser-Daten auf { -brand-firefox }-Servern können nicht wiederhergestellt werden.
 password-reset-warning-have-key = Haben Sie einen Kontowiederherstellungsschlüssel?
-password-reset-warning-use-key-link = Verwenden Sie es jetzt, um Ihr Passwort zurückzusetzen und Ihre Daten zu behalten
+password-reset-warning-use-key-link = Verwenden Sie ihn jetzt, um Ihr Passwort zurückzusetzen und Ihre Daten zu behalten
 
 ## Alert Bar
 
