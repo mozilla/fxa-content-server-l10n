@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Wobkrućenje nowemu hesłu wotpo
 
 ## Ready component
 
-reset-password-complete-header = Waše hesło je so wróćo stajiło
 ready-complete-set-up-instruction = Zapodajće swoje nowe hesło na swojich druhich gratach { -brand-firefox }, zo byšće zarjadowanje dokónčił.
 manage-your-account-button = Rjadujće sowje konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,8 @@ password-reset-warning-icon = Warnowanje
 password-reset-chevron-expanded = Warnowanje schować
 password-reset-chevron-collapsed = Warnowanje pokazać
 password-reset-data-may-not-be-recovered = Daty wašeho wobhladowaka so snano njewobnowja
-password-reset-previously-signed-in-device = Maće grat, hdźež sće so do toho přizjewił?
-password-reset-data-may-be-saved-locally = Daty wašeho wobhladowaka dadźa so na tym graće lokalnje składować. Přizjewće so tam ze swojim nowym hesłom, zo byšće wobnowił a synchronizował.
-password-reset-no-old-device = Maće nowy grat, ale nimaće stary?
-password-reset-encrypted-data-cannot-be-recovered = Je nam žel, ale zaklučowane daty wašeho wobhladowaka na serwerach { -brand-firefox } njedadźa so wobnowić. Maće wšak hišće přistup k swojim lokalnym datam na kóždym graće, hdźež sće do toho přizjewił.
-password-reset-learn-about-restoring-account-data = Zhońće wjace wo wobnowjenju kontowych datow
+password-reset-previously-signed-in-device-2 = Maće grat, hdźež sće so do toho přizjewił?
+password-reset-warning-have-key = Maće kontowy wobnowjenski kluč?
 
 ## Alert Bar
 
@@ -1367,8 +1363,8 @@ complete-reset-password-success-alert = Hesło je so nastajiło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bohužel je při stajenju wašeho hesła problem nastał
-password-reset-could-not-determine-account-recovery-key = Sće swój kontowy wobnowjenski kluč dóstał?
-password-reset-use-account-recovery-key = Stajće swoje hesło wróćo a wobchowajće swoje daty
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Kontowy wobnowjenski kluč wužiwać
 
 ## Confirm Reset Password With Code
 
@@ -1387,6 +1383,15 @@ confirm-reset-password-otp-resend-code-button = Kod znowa słać
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Wužiwajće druhe konto
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Stajće swoje hesło wróćo
+confirm-totp-reset-password-subheader = Zapodajće swój kod dwufaktoroweje awtentifikacije (2FA)
+confirm-totp-reset-password-instruction = Zmóžńće swoje nałoženje awtentizowanja, zo byšće swoje hesło wróćo stajił.
+confirm-totp-reset-password-trouble-code = Maće problemy při zapodawanju koda?
+confirm-totp-reset-password-confirm-button = Wobkrućić
+confirm-totp-reset-password-input-label = Kod zapodać
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Stajće swoje hesło wróćo
@@ -1396,6 +1401,12 @@ password-reset-body-2 =
 password-reset-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
 password-reset-submit-button-2 = Dale
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Waše hesło je so wróćo stajiło
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Dale k { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
 reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu kontu
