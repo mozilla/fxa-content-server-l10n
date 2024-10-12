@@ -399,6 +399,9 @@ password-reset-data-may-not-be-recovered = ייתכן שנתוני הדפדפן 
 password-reset-previously-signed-in-device-2 = יש לך מכשיר כלשהו שבו התחברת בעבר?
 password-reset-data-may-be-saved-locally-2 = ייתכן שנתוני הדפדפן שלך שמורים במכשיר ההוא. יש לאפס את הססמה שלך ולאחר מכן להתחבר שם כדי לשחזר ולסנכרן את הנתונים שלך.
 password-reset-no-old-device-2 = יש לך מכשיר חדש אבל אין לך גישה לאף אחד מהקודמים שלך?
+password-reset-encrypted-data-cannot-be-recovered-2 = אנו מצטערים, אך לא ניתן לשחזר את נתוני הדפדפן המוצפנים שלך שנמצאים בשרתי { -brand-firefox }.
+password-reset-warning-have-key = יש לך מפתח לשחזור החשבון?
+password-reset-warning-use-key-link = ניתן להשתמש בו כעת כדי לאפס את הססמה שלך ולשמור את נתונים שלך
 
 ## Alert Bar
 
@@ -1289,6 +1292,8 @@ complete-reset-password-success-alert = הססמה הוגדרה
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = שימוש במפתח לשחזור החשבון
 
 ## Confirm Reset Password With Code
 
@@ -1309,6 +1314,12 @@ confirm-reset-password-otp-different-account-link = שימוש בחשבון אח
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = איפוס הססמה שלך
+confirm-totp-reset-password-subheader = נא להכניס את קוד האבטחה של האימות הדו־שלבי (2FA)
+confirm-totp-reset-password-instruction = נא לפתוח את היישומון המאמת שלך כדי לאפס את הססמה שלך.
+confirm-totp-reset-password-trouble-code = מתקשה בהזנת הקוד?
+confirm-totp-reset-password-confirm-button = אישור
+confirm-totp-reset-password-input-label = נא להזין קוד
 
 ## ResetPassword start page
 
@@ -1321,6 +1332,8 @@ password-reset-submit-button-2 = המשך
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = הססמה שלך אופסה
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = המשך אל { $serviceName }
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
