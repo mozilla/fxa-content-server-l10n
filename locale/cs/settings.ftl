@@ -409,8 +409,8 @@ password-reset-previously-signed-in-device-2 = Máte nějaké zařízení, na kt
 password-reset-data-may-be-saved-locally-2 = Data o prohlížeči mohou být na tomto zařízení uložena. Obnovte své heslo a poté se přihlaste pro obnovu a synchronizaci svých dat.
 password-reset-no-old-device-2 = Vlastníte nové zařízení, ale nemáte přístup k žádnému z předchozích?
 password-reset-encrypted-data-cannot-be-recovered-2 = Je nám líto, ale vaše šifrovaná data uložená na serverech { -brand-firefox(case: "gen") } nelze obnovit.
-password-reset-warning-have-key = Máte obnovovací klíč k účtu?
-password-reset-warning-use-key-link = Použijte jej nyní k obnovení svého hesla a uchování dat
+password-reset-warning-have-key = Máte k účtu obnovovací klíč?
+password-reset-warning-use-key-link = Použijte ho k obnovení svého hesla a uchování dat
 
 ## Alert Bar
 
@@ -1361,7 +1361,7 @@ complete-reset-password-success-alert = Heslo nastaveno
 # Displayed in an alert bar
 complete-reset-password-error-alert = Vaše heslo se nepodařilo nastavit
 # Link to go back and use an account recovery key before resetting the password
-complete-reset-pw-recovery-key-link = Použít obnovovací klíč k účtu
+complete-reset-pw-recovery-key-link = Použít obnovovací klíč
 
 ## Confirm Reset Password With Code
 
