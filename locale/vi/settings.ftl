@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Xác nhận khớp với mật k
 
 ## Ready component
 
-reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
 ready-complete-set-up-instruction = Hoàn tất thiết lập bằng cách nhập mật khẩu mới của bạn trên các thiết bị { -brand-firefox } khác của bạn.
 manage-your-account-button = Quản lý tài khoản của bạn
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Cảnh báo
 password-reset-chevron-expanded = Thu gọn cảnh báo
 password-reset-chevron-collapsed = Mở rộng cảnh báo
 password-reset-data-may-not-be-recovered = Dữ liệu trình duyệt của bạn có thể không được phục hồi
-password-reset-previously-signed-in-device = Bạn có thiết bị nào đã đăng nhập trước đó không?
-password-reset-data-may-be-saved-locally = Dữ liệu trình duyệt của bạn có thể được lưu cục bộ trên thiết bị đó. Đăng nhập vào đó bằng mật khẩu mới của bạn để khôi phục và đồng bộ hóa.
-password-reset-no-old-device = Bạn có thiết bị mới nhưng không có thiết bị cũ?
-password-reset-encrypted-data-cannot-be-recovered = Chúng tôi xin lỗi, nhưng dữ liệu trình duyệt được mã hóa của bạn trên máy chủ { -brand-firefox } không thể phục hồi được. Tuy nhiên, bạn vẫn có thể truy cập dữ liệu cục bộ của mình trên bất kỳ thiết bị nào mà bạn đã đăng nhập trước đó.
-password-reset-learn-about-restoring-account-data = Tìm hiểu thêm về cách khôi phục dữ liệu tài khoản
+password-reset-previously-signed-in-device-2 = Bạn có thiết bị nào đã đăng nhập trước đó không?
+password-reset-data-may-be-saved-locally-2 = Dữ liệu trình duyệt của bạn có thể được lưu trên thiết bị đó. Đặt lại mật khẩu của bạn, sau đó đăng nhập vào đó để khôi phục và đồng bộ hóa dữ liệu của bạn.
+password-reset-no-old-device-2 = Bạn có thiết bị mới nhưng không có quyền truy cập vào bất kỳ thiết bị nào trước đây của bạn?
+password-reset-encrypted-data-cannot-be-recovered-2 = Chúng tôi rất tiếc, dữ liệu trình duyệt được mã hóa của bạn trên máy chủ { -brand-firefox } không thể khôi phục được.
+password-reset-warning-have-key = Bạn đã có khóa khôi phục tài khoản?
+password-reset-warning-use-key-link = Sử dụng nó ngay bây giờ để đặt lại mật khẩu và giữ lại dữ liệu của bạn
 
 ## Alert Bar
 
@@ -1369,8 +1369,8 @@ complete-reset-password-success-alert = Đã đặt mật khẩu
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
-password-reset-could-not-determine-account-recovery-key = Bạn đã có khoá khôi phục tài khoản?
-password-reset-use-account-recovery-key = Đặt lại mật khẩu và giữ lại dữ liệu của bạn
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Sử dụng khóa khôi phục tài khoản
 
 ## Confirm Reset Password With Code
 
@@ -1389,6 +1389,15 @@ confirm-reset-password-otp-resend-code-button = Gửi lại mã
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Sử dụng tài khoản khác
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Đặt lại mật khẩu của bạn
+confirm-totp-reset-password-subheader = Nhập mã bảo mật xác thực hai yếu tố (2FA) của bạn
+confirm-totp-reset-password-instruction = Kiểm tra ứng dụng xác thực của bạn để đặt lại mật khẩu.
+confirm-totp-reset-password-trouble-code = Khó khăn khi nhập mã?
+confirm-totp-reset-password-confirm-button = Xác nhận
+confirm-totp-reset-password-input-label = Nhập mã
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Đặt lại mật khẩu của bạn
@@ -1398,6 +1407,12 @@ password-reset-body-2 =
 password-reset-email-input =
     .label = Nhập email của bạn
 password-reset-submit-button-2 = Tiếp tục
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Tiếp tục đến { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
 reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
