@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Подтверждение со�
 
 ## Ready component
 
-reset-password-complete-header = Ваш пароль был сброшен
 ready-complete-set-up-instruction = Завершите настройку, введя свой новый пароль на других ваших устройствах с { -brand-firefox }.
 manage-your-account-button = Управление вашим аккаунтом
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Предупреждение
 password-reset-chevron-expanded = Свернуть предупреждение
 password-reset-chevron-collapsed = Развернуть предупреждение
 password-reset-data-may-not-be-recovered = Данные вашего браузера могут быть не восстановлены
-password-reset-previously-signed-in-device = У вас есть устройство, на котором вы ранее входили в систему?
-password-reset-data-may-be-saved-locally = Данные вашего браузера могут быть локально сохранёнными на этом устройстве. Войдите там, используя новый пароль для восстановления и синхронизации.
-password-reset-no-old-device = У вас новое устройство, но нет вашего старого?
-password-reset-encrypted-data-cannot-be-recovered = Извините, но ваши зашифрованные данные браузера на серверах { -brand-firefox } не могут быть восстановлены. Однако вы по-прежнему можете получить доступ к своим локальным данным на любом устройстве, на котором ранее вошли в систему.
-password-reset-learn-about-restoring-account-data = Узнайте больше о восстановлении данных аккаунта
+password-reset-previously-signed-in-device-2 = У вас есть устройство, на котором вы ранее вошли в систему?
+password-reset-data-may-be-saved-locally-2 = Данные вашего браузера могут быть сохранёны на этом устройстве. Сбросьте свой пароль, а затем войдите в аккаунт, чтобы восстановить и синхронизировать свои данные.
+password-reset-no-old-device-2 = У вас новое устройство, но у вас нет доступа к ни одному из предыдущих?
+password-reset-encrypted-data-cannot-be-recovered-2 = Извините, но ваши зашифрованные данные браузера на серверах { -brand-firefox } не могут быть восстановлены.
+password-reset-warning-have-key = У вас есть ключ восстановления аккаунта?
+password-reset-warning-use-key-link = Используйте его сейчас, чтобы сбросить пароль и сохранить свои данные
 
 ## Alert Bar
 
@@ -1367,8 +1367,8 @@ complete-reset-password-success-alert = Пароль установлен
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
-password-reset-could-not-determine-account-recovery-key = У вас есть ключ для восстановления вашего аккаунта?
-password-reset-use-account-recovery-key = Сбросьте свой пароль и сохраните свои данные
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Использовать ключ восстановления аккаунта
 
 ## Confirm Reset Password With Code
 
@@ -1387,6 +1387,15 @@ confirm-reset-password-otp-resend-code-button = Отправить код ещё
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Использовать другой аккаунт
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Сбросить ваш пароль
+confirm-totp-reset-password-subheader = Введите код безопасности своей двухфакторной аутентификации (2FA)
+confirm-totp-reset-password-instruction = Проверьте своё приложение для аутентификации, чтобы сбросить пароль.
+confirm-totp-reset-password-trouble-code = Проблемы с вводом кода?
+confirm-totp-reset-password-confirm-button = Подтвердить
+confirm-totp-reset-password-input-label = Введите код
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Сбросить пароль
@@ -1394,6 +1403,12 @@ password-reset-body-2 = Мы спросим пару вещей, которые 
 password-reset-email-input =
     .label = Введите ваш адрес эл. почты
 password-reset-submit-button-2 = Продолжить
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Ваш пароль был сброшен
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Перейти к { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
 reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
 reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
