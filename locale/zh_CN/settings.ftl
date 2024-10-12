@@ -1375,6 +1375,7 @@ confirm-reset-password-otp-different-account-link = 换个账户登录
 
 confirm-totp-reset-password-header = 重置密码
 confirm-totp-reset-password-subheader = 请输入双因子身份验证安全码（2FA）
+confirm-totp-reset-password-instruction = 请查看身份验证器应用，以重置密码。
 confirm-totp-reset-password-trouble-code = 输入代码时遇到问题？
 confirm-totp-reset-password-confirm-button = 确认
 confirm-totp-reset-password-input-label = 请输入代码
