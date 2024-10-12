@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Растау жаңа парол
 
 ## Ready component
 
-reset-password-complete-header = Пароліңіз тасталды
 ready-complete-set-up-instruction = Баптауды аяқтау үшін басқа { -brand-firefox } құрылғыларыңызда жаңа парольді енгізіңіз.
 manage-your-account-button = Тіркелгіні басқару
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,6 @@ password-reset-warning-icon = Ескерту
 password-reset-chevron-expanded = Ескертуді бүктеу
 password-reset-chevron-collapsed = Ескертуді ашу
 password-reset-data-may-not-be-recovered = Браузеріңіздің деректері қалпына келтірілмеуі мүмкін
-password-reset-previously-signed-in-device = Бұрын жүйеге кірген құрылғыңыз бар ма?
-password-reset-data-may-be-saved-locally = Браузеріңіздің деректері сол құрылғыда жергілікті түрде сақталуы мүмкін. Қалпына келтіру және синхрондау үшін сол жерге жаңа парольмен кіріңіз.
-password-reset-no-old-device = Жаңа құрылғыңыз бар, бірақ ескі құрылғыңыз жоқ па?
-password-reset-encrypted-data-cannot-be-recovered = Кешіріңіз, { -brand-firefox } серверлеріндегі шифрленген браузеріңіздің деректерін қалпына келтіру мүмкін емес. Дегенмен, бұрын жүйеге кірген кез келген құрылғыда жергілікті деректерге әлі де қол жеткізе аласыз.
-password-reset-learn-about-restoring-account-data = Тіркелгі деректерін қалпына келтіру туралы көбірек біліңіз
 
 ## Alert Bar
 
@@ -1371,8 +1365,8 @@ complete-reset-password-success-alert = Пароль орнатылды
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
-password-reset-could-not-determine-account-recovery-key = Тіркелгіңізді қалпына келтіру кілті бар ма?
-password-reset-use-account-recovery-key = Парольді тастап, деректеріңізді сақтау
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Тіркелгіні қалпына келтіру кілтін қолдану
 
 ## Confirm Reset Password With Code
 
@@ -1391,6 +1385,12 @@ confirm-reset-password-otp-resend-code-button = Кодты қайта жібер
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Басқа тіркелгіні қолдану
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Парольді тастау
+confirm-totp-reset-password-confirm-button = Растау
+confirm-totp-reset-password-input-label = Кодты енгізіңіз
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Парольді тастау
@@ -1398,6 +1398,12 @@ password-reset-body-2 = Тіркелгіңізді қауіпсіз сақтау
 password-reset-email-input =
     .label = Эл. поштаңызды енгізіңіз
 password-reset-submit-button-2 = Жалғастыру
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Пароліңіз тасталды
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = { $serviceName } қызметіне жалғастыру
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
