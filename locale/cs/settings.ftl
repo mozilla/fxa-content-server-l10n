@@ -1384,7 +1384,7 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 
 confirm-totp-reset-password-header = Obnovit heslo
 confirm-totp-reset-password-subheader = Zadejte svůj bezpečnostní kód pro dvoufaktorové ověření (2FA)
-confirm-totp-reset-password-instruction = Pro obnovu hesla prosím zkontrolujte aplikaci.
+confirm-totp-reset-password-instruction = Pro obnovu hesla prosím zkontrolujte svou ověřovací aplikaci.
 confirm-totp-reset-password-trouble-code = Problém se zadáváním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdit
 confirm-totp-reset-password-input-label = Zadejte kód
