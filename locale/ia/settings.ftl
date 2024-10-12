@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Le confirmation concorda con le 
 
 ## Ready component
 
-reset-password-complete-header = Tu contrasigno ha essite remontate
 ready-complete-set-up-instruction = Completa le configuration inserente tu nove contrasigno in tu altere apparatos { -brand-firefox }.
 manage-your-account-button = Gere tu conto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,10 @@ password-reset-warning-icon = Aviso
 password-reset-chevron-expanded = Aviso de collapso
 password-reset-chevron-collapsed = Aviso de expansion
 password-reset-data-may-not-be-recovered = Tu datos de navigator pote non esser recuperate
-password-reset-previously-signed-in-device = Ha tu un apparato ubi tu previemente habeva accedite?
-password-reset-data-may-be-saved-locally = Tu datos de navigator pote esser localmente salvate sur ille apparato. Accede illac con tu nove contrasigno pro restaurar e synchronisar.
-password-reset-no-old-device = Ha tu un apparato nove, ma tu non ha uno vetere?
-password-reset-encrypted-data-cannot-be-recovered = Nos es desolate, ma tu datos de navigator cryptate sur servitores de { -brand-firefox } non pote esser recuperate. Comocunque, tu pote ancora acceder a tu datos local sur alcun apparato ubi tu ha previemente accedite.
-password-reset-learn-about-restoring-account-data = Pro saper plus re restaurar tu datos de conto
+password-reset-previously-signed-in-device-2 = Ha il alcun apparato ubi tu previemente accedeva?
+password-reset-data-may-be-saved-locally-2 = Tu datos de navigator poterea esser salvate sur ille apparato. Reinitialisa tu contrasigno, pois accede illac pro restaurar e synchronisa tu datos.
+password-reset-warning-have-key = Ha tu un clave recuperation del conto?
+password-reset-warning-use-key-link = Usa lo ora pro reinitialisar tu contrasigno e reservar tu datos
 
 ## Alert Bar
 
@@ -1369,8 +1367,8 @@ complete-reset-password-success-alert = Configuration del contrasigno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
-password-reset-could-not-determine-account-recovery-key = Ha tu le clave de recuperation de tu conto
-password-reset-use-account-recovery-key = Reinitialisa tu contrasigno e mantene tu datos
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Usar clave de recuperation del conto
 
 ## Confirm Reset Password With Code
 
@@ -1389,6 +1387,15 @@ confirm-reset-password-otp-resend-code-button = Reinviar le codice
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Usa un conto differente
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Reinitialisa tu contrasigno
+confirm-totp-reset-password-subheader = Insere tu codice de securitate pro le authentication a duo factores (2FA)
+confirm-totp-reset-password-instruction = Verifica tu app de authentication pro reinitialisar tu contrasigno.
+confirm-totp-reset-password-trouble-code = Problemas a inserer le codice?
+confirm-totp-reset-password-confirm-button = Confirmar
+confirm-totp-reset-password-input-label = Insere le codice
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Reinitialisa tu contrasigno
@@ -1396,6 +1403,12 @@ password-reset-body-2 = Pro mantener tu conto secur, nos te demandara alcun info
 password-reset-email-input =
     .label = Insere tu email
 password-reset-submit-button-2 = Continuar
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Tu contrasigno ha essite remontate
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Continuar a { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
