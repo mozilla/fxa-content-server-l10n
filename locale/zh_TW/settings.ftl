@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = 再次輸入的密碼與新密�
 
 ## Ready component
 
-reset-password-complete-header = 已重設您的密碼
 ready-complete-set-up-instruction = 請到您另一台 { -brand-firefox } 裝置中輸入新密碼完成設定。
 manage-your-account-button = 管理帳號
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = 警告
 password-reset-chevron-expanded = 摺疊警告
 password-reset-chevron-collapsed = 展開警告
 password-reset-data-may-not-be-recovered = 可能無法救回您的上網資料
-password-reset-previously-signed-in-device = 有先前登入過的裝置嗎？
-password-reset-data-may-be-saved-locally = 您的上網資料可能還保存在該裝置中，請使用該裝置，以新密碼登入即可同步並恢復資料。
-password-reset-no-old-device = 有新裝置，但已經找不到舊裝置了嗎？
-password-reset-encrypted-data-cannot-be-recovered = 很抱歉，無法救回您儲存在 { -brand-firefox } 伺服器上的加密資料。但您仍然可以在先前登入過的裝置存取該裝置上的資料。
-password-reset-learn-about-restoring-account-data = 了解有關還原帳號資料的更多資訊
+password-reset-previously-signed-in-device-2 = 有先前登入過的裝置嗎？
+password-reset-data-may-be-saved-locally-2 = 您的瀏覽器資料可能還保存在該裝置中，請重設密碼，然後到該裝置登入，即可恢復資料並同步回來。
+password-reset-no-old-device-2 = 有新的裝置，但已經沒辦法使用任何先前的裝置了嗎？
+password-reset-encrypted-data-cannot-be-recovered-2 = 很抱歉，無法恢復您在 { -brand-firefox } 伺服器上，已加密過的瀏覽器資料。
+password-reset-warning-have-key = 之前有保存帳號救援金鑰嗎？
+password-reset-warning-use-key-link = 現在即可使用，以重設密碼並保留資料。
 
 ## Alert Bar
 
@@ -1343,8 +1343,8 @@ complete-reset-password-success-alert = 已設定密碼
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 很抱歉，設定您的密碼時發生問題
-password-reset-could-not-determine-account-recovery-key = 您的帳號救援金鑰在手邊嗎？
-password-reset-use-account-recovery-key = 重設密碼，並保留資料
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = 使用帳號救援金鑰
 
 ## Confirm Reset Password With Code
 
@@ -1363,6 +1363,15 @@ confirm-reset-password-otp-resend-code-button = 重寄確認碼
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = 使用另一個帳號
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = 重設您的密碼
+confirm-totp-reset-password-subheader = 請輸入您的兩階段驗證安全碼（2FA）
+confirm-totp-reset-password-instruction = 請使用您的驗證程式重設密碼。
+confirm-totp-reset-password-trouble-code = 輸入代碼時遇到問題嗎？
+confirm-totp-reset-password-confirm-button = 確認
+confirm-totp-reset-password-input-label = 輸入驗證碼
+
 ## ResetPassword start page
 
 password-reset-flow-heading = 重設您的密碼
@@ -1370,6 +1379,12 @@ password-reset-body-2 = 我們將與您確認一些僅有您知道的問題，�
 password-reset-email-input =
     .label = 請輸入您的電子郵件地址
 password-reset-submit-button-2 = 繼續
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = 已重設您的密碼
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = 繼續前往 { $serviceName }
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
