@@ -405,6 +405,8 @@ password-reset-chevron-expanded = Uyarıyı daralt
 password-reset-chevron-collapsed = Uyarıyı genişlet
 password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
 password-reset-previously-signed-in-device-2 = Daha önce giriş yaptığınız bir cihazınız var mı?
+password-reset-no-old-device-2 = Yeni bir cihazınız var ama eski cihazlarınıza erişemiyor musunuz?
+password-reset-warning-have-key = Hesap kurtarma anahtarınız var mı?
 
 ## Alert Bar
 
@@ -1346,6 +1348,8 @@ complete-reset-password-success-alert = Parola ayarlandı
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Hesap kurtarma anahtarını kullan
 
 ## Confirm Reset Password With Code
 
@@ -1366,7 +1370,12 @@ confirm-reset-password-otp-different-account-link = Farklı bir hesap kullan
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Parolanızı sıfırlayın
+confirm-totp-reset-password-subheader = İki aşamalı kimlik doğrulama (2FA) güvenlik kodunuzu yazın
+confirm-totp-reset-password-instruction = Parolanızı sıfırlamak için kimlik doğrulama uygulamanızı kontrol edin.
+confirm-totp-reset-password-trouble-code = Kod girerken sorun mu yaşıyorsunuz?
 confirm-totp-reset-password-confirm-button = Onayla
+confirm-totp-reset-password-input-label = Kodu yazın
 
 ## ResetPassword start page
 
@@ -1379,6 +1388,8 @@ password-reset-submit-button-2 = Devam et
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Parolanız sıfırlandı
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = { $serviceName } hizmetine devam et
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
