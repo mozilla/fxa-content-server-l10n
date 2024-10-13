@@ -405,7 +405,7 @@ password-reset-warning-icon = Aviso
 password-reset-chevron-expanded = Recolher aviso
 password-reset-chevron-collapsed = Expandir aviso
 password-reset-data-may-not-be-recovered = Os dados do seu navegador podem não ser recuperados
-password-reset-previously-signed-in-device-2 = Tem algum dispositivo em que você conectou na conta?
+password-reset-previously-signed-in-device-2 = Tem um dispositivo em que você conectou na conta?
 password-reset-data-may-be-saved-locally-2 = Seus dados de navegação podem estar salvos neste dispositivo. Redefina a senha, depois entre na sua conta para restaurar e sincronizar seus dados.
 password-reset-no-old-device-2 = Tem um novo dispositivo, mas não tem acesso a nenhum dispositivo anterior?
 password-reset-encrypted-data-cannot-be-recovered-2 = Desculpe, seus dados de navegação estão criptografados nos servidores do { -brand-firefox }, não podem ser recuperados.
@@ -1365,6 +1365,12 @@ confirm-reset-password-otp-different-account-link = Usar outra conta
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Redefinição de senha
+confirm-totp-reset-password-subheader = Digite o código de segurança de autenticação em duas etapas
+confirm-totp-reset-password-instruction = Use um aplicativo de autenticação para redefinir a senha.
+confirm-totp-reset-password-trouble-code = Problemas ao inserir o código?
+confirm-totp-reset-password-confirm-button = Confirmar
+confirm-totp-reset-password-input-label = Digite o código
 
 ## ResetPassword start page
 
@@ -1377,6 +1383,8 @@ password-reset-submit-button-2 = Avançar
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Sua senha foi redefinida
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Continuar para { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
