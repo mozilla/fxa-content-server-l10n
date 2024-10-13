@@ -347,7 +347,6 @@ password-strength-inline-not-common = Yaygın olarak kullanılan bir parola olma
 
 ## Ready component
 
-reset-password-complete-header = Parolanız sıfırlandı
 ready-complete-set-up-instruction = Yeni parolanızı diğer { -brand-firefox } cihazlarınıza girerek kurulumu tamamlayın.
 manage-your-account-button = Hesabınızı yönetin
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -405,11 +404,6 @@ password-reset-warning-icon = Uyarı
 password-reset-chevron-expanded = Uyarıyı daralt
 password-reset-chevron-collapsed = Uyarıyı genişlet
 password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
-password-reset-previously-signed-in-device = Daha önce giriş yaptığınız bir cihazınız var mı?
-password-reset-data-may-be-saved-locally = Tarayıcı verileriniz o cihazda yerel olarak duruyor olabilir. Verileri geri yüklemek ve eşitlemek için yeni parolanızla giriş yapın.
-password-reset-no-old-device = Yeni bir cihaza geçtiniz ama eskisine artık ulaşamıyor musunuz?
-password-reset-encrypted-data-cannot-be-recovered = Bu durumda maalesef { -brand-firefox } sunucularındaki şifrelenmiş tarayıcı verileriniz kurtarılamaz. Ancak daha önce giriş yaptığınız cihazlardaki yerel verilerinize erişmeye devam edebilirsiniz.
-password-reset-learn-about-restoring-account-data = Hesap verilerini geri yüklemeyle ilgili daha fazla bilgi alın
 
 ## Alert Bar
 
@@ -1351,8 +1345,6 @@ complete-reset-password-success-alert = Parola ayarlandı
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
-password-reset-could-not-determine-account-recovery-key = Hesap kurtarma anahtarınız var mı?
-password-reset-use-account-recovery-key = Parolanızı sıfırlayıp verilerinizi geri getirin
 
 ## Confirm Reset Password With Code
 
@@ -1371,6 +1363,10 @@ confirm-reset-password-otp-resend-code-button = Kodu yeniden gönder
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Farklı bir hesap kullan
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-confirm-button = Onayla
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Parolanızı sıfırlayın
@@ -1378,6 +1374,10 @@ password-reset-body-2 = Hesabınızı güvende tutmak için yalnızca sizin bild
 password-reset-email-input =
     .label = E-posta adresinizi yazın
 password-reset-submit-button-2 = Devam et
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Parolanız sıfırlandı
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
