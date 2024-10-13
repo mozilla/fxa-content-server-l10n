@@ -404,6 +404,7 @@ password-reset-warning-icon = Uyarı
 password-reset-chevron-expanded = Uyarıyı daralt
 password-reset-chevron-collapsed = Uyarıyı genişlet
 password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
+password-reset-previously-signed-in-device-2 = Daha önce giriş yaptığınız bir cihazınız var mı?
 
 ## Alert Bar
 
