@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = A confirmação corresponde à n
 
 ## Ready component
 
-reset-password-complete-header = Sua senha foi redefinida
 ready-complete-set-up-instruction = Conclua a configuração inserindo a nova senha em seus outros dispositivos com { -brand-firefox }.
 manage-your-account-button = Gerenciar sua conta
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Aviso
 password-reset-chevron-expanded = Recolher aviso
 password-reset-chevron-collapsed = Expandir aviso
 password-reset-data-may-not-be-recovered = Os dados do seu navegador podem não ser recuperados
-password-reset-previously-signed-in-device = Tem um dispositivo em que você conectou na conta?
-password-reset-data-may-be-saved-locally = Os dados do seu navegador podem estar salvos localmente nesse dispositivo. Entre com a nova senha para restaurar e sincronizar.
-password-reset-no-old-device = Tem um novo dispositivo, mas não tem o seu antigo?
-password-reset-encrypted-data-cannot-be-recovered = Desculpe, mas os dados de navegação são criptografados nos servidores do { -brand-firefox }, não podem ser recuperados. No entanto, você ainda pode acessar seus dados locais em qualquer dispositivo em que tenha conectado na conta.
-password-reset-learn-about-restoring-account-data = Saiba mais sobre restauração de dados de contas
+password-reset-previously-signed-in-device-2 = Tem algum dispositivo em que você conectou na conta?
+password-reset-data-may-be-saved-locally-2 = Seus dados de navegação podem estar salvos neste dispositivo. Redefina a senha, depois entre na sua conta para restaurar e sincronizar seus dados.
+password-reset-no-old-device-2 = Tem um novo dispositivo, mas não tem acesso a nenhum dispositivo anterior?
+password-reset-encrypted-data-cannot-be-recovered-2 = Desculpe, seus dados de navegação estão criptografados nos servidores do { -brand-firefox }, não podem ser recuperados.
+password-reset-warning-have-key = Tem uma chave de recuperação de conta?
+password-reset-warning-use-key-link = Use agora para redefinir a senha e manter seus dados
 
 ## Alert Bar
 
@@ -1343,8 +1343,8 @@ complete-reset-password-success-alert = Senha definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, houve um problema ao definir sua senha
-password-reset-could-not-determine-account-recovery-key = Tem sua chave de recuperação de conta?
-password-reset-use-account-recovery-key = Redefina a senha e mantenha seus dados
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Usar chave de recuperação de conta
 
 ## Confirm Reset Password With Code
 
@@ -1363,6 +1363,9 @@ confirm-reset-password-otp-resend-code-button = Reenviar código
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Usar outra conta
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Redefina sua senha
@@ -1370,6 +1373,10 @@ password-reset-body-2 = Para manter sua conta segura, solicitaremos algumas info
 password-reset-email-input =
     .label = Insira seu email
 password-reset-submit-button-2 = Avançar
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Sua senha foi redefinida
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
