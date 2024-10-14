@@ -1375,6 +1375,10 @@ complete-reset-password-success-alert = Jelszó megadva
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Fiók-helyreállítási kulcs használata
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = A mesterjelszó törölve
+reset-password-complete-banner-message = Ne felejtsen el egy új fiók-helyreállítási kulcsot előállítani a { -product-mozilla-account } beállításaiban, hogy megakadályozza a jövőbeli bejelentkezési problémákat.
 
 ## Confirm Reset Password With Code
 
@@ -1416,8 +1420,9 @@ reset-password-complete-header = A jelszó vissza lett állítva
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Tovább erre: { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
-reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
-reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
+reset-password-complete-new-password-saved = Új jelszó elmentve!
+reset-password-complete-recovery-key-created = Új fiók-helyreállítási kulcs létrehozva. Töltse le és tárolja most.
+reset-password-complete-recovery-key-download-info = Ez a kulcs elengedhetetlen az adat-helyreállításhoz, ha elfelejti a jelszavát. <b>Töltse le és tárolja biztonságosan most, mert később nem fogja tudni újra elérni ezt az oldalt.</b>
 
 ## CompleteSignin component
 
