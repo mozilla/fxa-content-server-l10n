@@ -1371,6 +1371,10 @@ complete-reset-password-success-alert = Geslo je nastavljeno
 complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do težave
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Uporabi ključ za obnovitev računa
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Vaše geslo je bilo ponastavljeno.
+reset-password-complete-banner-message = Ne pozabite iz nastavitev { -product-mozilla-account } ustvariti novega ključa za obnovitev računa, da preprečite prihodnje težave pri prijavi.
 
 ## Confirm Reset Password With Code
 
@@ -1412,8 +1416,9 @@ reset-password-complete-header = Vaše geslo je bilo ponastavljeno
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Nadaljuj na { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
-reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
-reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj račun
+reset-password-complete-new-password-saved = Novo geslo shranjeno!
+reset-password-complete-recovery-key-created = Nov obnovitveni ključ za račun ustvarjen. Prenesite in shranite ga zdaj.
+reset-password-complete-recovery-key-download-info = Ta ključ je potreben za obnovitev podatkov, če pozabite geslo. <b>Prenesite jo in jo varno shranite zdaj, saj pozneje ne boste mogli več dostopati do te strani.</b>
 
 ## CompleteSignin component
 
