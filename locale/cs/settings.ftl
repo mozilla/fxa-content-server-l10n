@@ -1392,6 +1392,7 @@ confirm-totp-reset-password-input-label = Zadejte kód
 ## ResetPassword start page
 
 password-reset-flow-heading = Obnovení hesla
+password-reset-body-2 = Abychom mohli vést váš účet v bezpečí, požádáme vás o několik věcí, které znáte jen vy.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
 password-reset-submit-button-2 = Pokračovat
