@@ -410,7 +410,7 @@ password-reset-data-may-be-saved-locally-2 = Podatki brskalnika so morda shranje
 password-reset-no-old-device-2 = Imate novo napravo, vendar nimate dostopa do nobene od prejšnjih?
 password-reset-encrypted-data-cannot-be-recovered-2 = Žal nam je, toda šifriranih podatkov brskalnika v strežnikih { -brand-firefox } ni mogoče obnoviti.
 password-reset-warning-have-key = Imate ključ za obnovitev računa?
-password-reset-warning-use-key-link = Uporabite ga zdaj za ponastavitev gesla in obdržanje podatkov
+password-reset-warning-use-key-link = Uporabite ga za ponastavitev gesla in ohranitev podatkov
 
 ## Alert Bar
 
