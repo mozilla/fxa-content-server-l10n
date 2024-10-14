@@ -1366,6 +1366,10 @@ complete-reset-password-success-alert = Passwort gesetzt
 complete-reset-password-error-alert = Beim Setzen Ihres Passworts ist ein Fehler aufgetreten.
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Kontowiederherstellungsschlüssel verwenden
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Ihr Passwort wurde zurückgesetzt.
+reset-password-complete-banner-message = Vergessen Sie nicht, einen neuen Kontowiederherstellungsschlüssel aus Ihren { -product-mozilla-account }-Einstellungen zu erzeugen, um zukünftige Anmeldeprobleme zu vermeiden.
 
 ## Confirm Reset Password With Code
 
@@ -1407,8 +1411,9 @@ reset-password-complete-header = Ihr Passwort wurde zurückgesetzt.
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Weiter zu { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Passwort erfolgreich zurückgesetzt
-reset-password-with-recovery-key-verified-generate-new-key = Einen neuen Kontowiederherstellungsschlüssel erzeugen
-reset-password-with-recovery-key-verified-continue-to-account = Weiter zu meinem Konto
+reset-password-complete-new-password-saved = Neues Passwort gespeichert!
+reset-password-complete-recovery-key-created = Neuer Kontowiederherstellungsschlüssel erstellt. Jetzt herunterladen und speichern.
+reset-password-complete-recovery-key-download-info = Dieser Schlüssel wird für die Datenwiederherstellung benötigt, wenn Sie Ihr Passwort vergessen haben. <b>Laden Sie es jetzt herunter und speichern Sie es sicher, da Sie später nicht mehr auf diese Seite zugreifen können.</b>
 
 ## CompleteSignin component
 
