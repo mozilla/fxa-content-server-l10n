@@ -405,6 +405,12 @@ password-reset-warning-icon = Waarschuwing
 password-reset-chevron-expanded = Waarschuwing samenvouwen
 password-reset-chevron-collapsed = Waarschuwing uitvouwen
 password-reset-data-may-not-be-recovered = Uw browsergegevens worden mogelijk niet hersteld
+password-reset-previously-signed-in-device-2 = Hebt u een apparaat waarop u eerder bent aangemeld?
+password-reset-data-may-be-saved-locally-2 = Uw browsergegevens zijn mogelijk op dat apparaat opgeslagen. Stel uw wachtwoord opnieuw in en meld u daar aan om uw gegevens te herstellen en te synchroniseren.
+password-reset-no-old-device-2 = Hebt u een nieuw apparaat, maar hebt u geen toegang tot een van uw vorige?
+password-reset-encrypted-data-cannot-be-recovered-2 = Sorry, maar uw versleutelde browsergegevens op { -brand-firefox }-servers kunnen niet worden hersteld.
+password-reset-warning-have-key = Hebt u een accountherstelsleutel?
+password-reset-warning-use-key-link = Gebruik deze nu om uw wachtwoord te herinitialiseren en uw gegevens te behouden
 
 ## Alert Bar
 
@@ -1365,6 +1371,8 @@ complete-reset-password-success-alert = Wachtwoord ingesteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Accountherstelsleutel gebruiken
 
 ## Confirm Reset Password With Code
 
@@ -1387,6 +1395,7 @@ confirm-reset-password-otp-different-account-link = Een andere account gebruiken
 
 confirm-totp-reset-password-header = Herinitialiseer uw wachtwoord
 confirm-totp-reset-password-subheader = Voer uw beveiligingscode voor tweefactorauthenticatie (2FA) in
+confirm-totp-reset-password-instruction = Controleer uw authenticatie-app om uw wachtwoord te herinitialiseren.
 confirm-totp-reset-password-trouble-code = Problemen bij het invoeren van de code?
 confirm-totp-reset-password-confirm-button = Bevestigen
 confirm-totp-reset-password-input-label = Code invoeren
