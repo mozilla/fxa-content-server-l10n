@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Підтвердження ві�
 
 ## Ready component
 
-reset-password-complete-header = Ваш пароль було відновлено
 ready-complete-set-up-instruction = Завершіть налаштування, ввівши новий пароль на інших пристроях { -brand-firefox }.
 manage-your-account-button = Керувати обліковим записом
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Попередження
 password-reset-chevron-expanded = Згорнути попередження
 password-reset-chevron-collapsed = Розгорнути попередження
 password-reset-data-may-not-be-recovered = Дані вашого браузера можуть не відновитися
-password-reset-previously-signed-in-device = У вас є пристрій, з якого ви раніше входили в систему?
-password-reset-data-may-be-saved-locally = Дані вашого браузера можуть зберігатися локально на тому пристрої. Увійдіть на ньому за допомогою нового пароля, щоб відновити й синхронізувати дані.
-password-reset-no-old-device = Маєте новий пристрій, але не маєте старого?
-password-reset-encrypted-data-cannot-be-recovered = На жаль, ваші зашифровані дані браузера, що зберігаються на серверах { -brand-firefox }, неможливо відновити. Однак ви все ще можете отримати доступ до своїх локальних даних на будь-якому пристрої, на якому ви раніше входили в систему.
-password-reset-learn-about-restoring-account-data = Докладніше про відновлення даних облікового запису
+password-reset-previously-signed-in-device-2 = У вас є пристрій, з якого ви входили раніше?
+password-reset-data-may-be-saved-locally-2 = Дані вашого браузера можуть бути збережені на цьому пристрої. Відновіть свій пароль, а потім увійдіть там, щоб відновити та синхронізувати дані.
+password-reset-no-old-device-2 = Маєте новий пристрій, але не маєте доступу до жодного з попередніх?
+password-reset-encrypted-data-cannot-be-recovered-2 = Нам прикро, але ваші зашифровані дані браузера на серверах { -brand-firefox } неможливо відновити.
+password-reset-warning-have-key = Маєте ключ відновлення облікового запису?
+password-reset-warning-use-key-link = Використайте його зараз, щоб відновити пароль і зберегти свої дані
 
 ## Alert Bar
 
@@ -1371,8 +1371,8 @@ complete-reset-password-success-alert = Пароль встановлено
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Перепрошуємо, але під час встановлення пароля виникла проблема
-password-reset-could-not-determine-account-recovery-key = Маєте ключ відновлення облікового запису?
-password-reset-use-account-recovery-key = Скиньте пароль і збережіть свої дані
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Використати ключ відновлення облікового запису
 
 ## Confirm Reset Password With Code
 
@@ -1391,6 +1391,15 @@ confirm-reset-password-otp-resend-code-button = Надіслати код пов
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Використати інший обліковий запис
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Відновити свій пароль
+confirm-totp-reset-password-subheader = Введіть секретний код двоетапної перевірки (2FA)
+confirm-totp-reset-password-instruction = Перевірте програму автентифікації, щоб відновити пароль.
+confirm-totp-reset-password-trouble-code = Проблеми з введенням коду?
+confirm-totp-reset-password-confirm-button = Підтвердити
+confirm-totp-reset-password-input-label = Ввести код
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Відновити свій пароль
@@ -1398,6 +1407,12 @@ password-reset-body-2 = Ми запитаємо у вас про інформа�
 password-reset-email-input =
     .label = Адреса електронної пошти
 password-reset-submit-button-2 = Продовжити
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Ваш пароль було відновлено
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Продовжити в { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
