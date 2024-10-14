@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Bekräftelse matchar det nya lö
 
 ## Ready component
 
-reset-password-complete-header = Ditt lösenord har återställts
 ready-complete-set-up-instruction = Slutför konfigurationen genom att ange ditt nya lösenord på dina andra { -brand-firefox }-enheter.
 manage-your-account-button = Hantera ditt konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Varning
 password-reset-chevron-expanded = Fäll ihop varning
 password-reset-chevron-collapsed = Expandera varning
 password-reset-data-may-not-be-recovered = Din webbläsardata kanske inte kan återställas
-password-reset-previously-signed-in-device = Har du en enhet där du tidigare loggat in?
-password-reset-data-may-be-saved-locally = Din webbläsardata kan sparas lokalt på den enheten. Logga in där med ditt nya lösenord för att återställa och synkronisera.
-password-reset-no-old-device = Har du en ny enhet men har inte kvar din gamla?
-password-reset-encrypted-data-cannot-be-recovered = Vi är ledsna, men din krypterade webbläsardata på { -brand-firefox }-servrar kan inte återställas. Men du kan fortfarande komma åt din lokala data på alla enheter där du tidigare har loggat in.
-password-reset-learn-about-restoring-account-data = Läs mer om att återställa kontodata
+password-reset-previously-signed-in-device-2 = Har du någon enhet där du tidigare loggat in?
+password-reset-data-may-be-saved-locally-2 = Din webbläsardata kan vara sparad på den enheten. Återställ ditt lösenord och logga sedan in där för att återställa och synkronisera din data.
+password-reset-no-old-device-2 = Har du en ny enhet men har inte tillgång till någon av dina tidigare?
+password-reset-encrypted-data-cannot-be-recovered-2 = Vi är ledsna, men din krypterade webbläsardata på { -brand-firefox }-servrar kan inte återställas.
+password-reset-warning-have-key = Har du en kontoåterställningsnyckel?
+password-reset-warning-use-key-link = Använd den nu för att återställa ditt lösenord och spara din data
 
 ## Alert Bar
 
@@ -1373,8 +1373,8 @@ complete-reset-password-success-alert = Lösenord satt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
-password-reset-could-not-determine-account-recovery-key = Har du din kontoåterställningsnyckel?
-password-reset-use-account-recovery-key = Återställ lösenordet och behåll din data
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Använd nyckel för kontoåterställning
 
 ## Confirm Reset Password With Code
 
@@ -1393,6 +1393,15 @@ confirm-reset-password-otp-resend-code-button = Skicka koden igen
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Använd ett annat konto
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Återställ lösenordet
+confirm-totp-reset-password-subheader = Ange din säkerhetskod för tvåfaktorsautentisering (2FA)
+confirm-totp-reset-password-instruction = Kontrollera din autentiseringsapp för att återställa ditt lösenord.
+confirm-totp-reset-password-trouble-code = Har du problem att ange koden?
+confirm-totp-reset-password-confirm-button = Bekräfta
+confirm-totp-reset-password-input-label = Ange kod
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Återställ ditt lösenord
@@ -1402,6 +1411,12 @@ password-reset-body-2 =
 password-reset-email-input =
     .label = Ange din e-postadress
 password-reset-submit-button-2 = Fortsätt
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Ditt lösenord har återställts
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Fortsätt till { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto

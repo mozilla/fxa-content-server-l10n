@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Befêstiging komt oerien mei it 
 
 ## Ready component
 
-reset-password-complete-header = Jo wachtwurd is opnij ynsteld
 ready-complete-set-up-instruction = Foltôgje de ynstallaasje troch it nije wachtwurd op jo oare { -brand-firefox }-apparaten yn te foljen.
 manage-your-account-button = Jo account beheare
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,7 @@ password-reset-warning-icon = Warskôging
 password-reset-chevron-expanded = Warskôging ynklappe
 password-reset-chevron-collapsed = Warskôging útklappe
 password-reset-data-may-not-be-recovered = Jo browsergegevens wurde mooglik net wersteld
-password-reset-previously-signed-in-device = Hawwe jo in apparaat dêr’t jo earder oanmeld binne?
-password-reset-data-may-be-saved-locally = Jo browsergegevens binne mooglik lokaal op dat apparaat bewarre. Meld jo dêr oan mei jo nije wachtwurd om te werstellen en te syngronisearjen.
-password-reset-no-old-device = Hawwe jo in nij apparaat, mar jo âlde net?
-password-reset-encrypted-data-cannot-be-recovered = It spyt ús, mar jo fersifere browsergegevens op { -brand-firefox }-servers kinne net weromhelle wurde. Jo kinne lykwols noch tagong krije ta jo lokale gegevens op elk apparaat dêr’t jo earder oanmeld west binne.
-password-reset-learn-about-restoring-account-data = Mear ynfo oer it werstellen fan accountgegevens
+password-reset-previously-signed-in-device-2 = Hawwe jo in apparaat dêr’t jo earder oanmeld binne?
 
 ## Alert Bar
 
@@ -1375,8 +1370,6 @@ complete-reset-password-success-alert = Wachtwurd ynsteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
-password-reset-could-not-determine-account-recovery-key = Hawwe jo jo accountherstelkaai?
-password-reset-use-account-recovery-key = Jo wachtwurd opnij ynstelle en jo gegevens behâlde
 
 ## Confirm Reset Password With Code
 
@@ -1395,6 +1388,9 @@ confirm-reset-password-otp-resend-code-button = Koade nochris ferstjoere
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = In oar account brûke
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Jo wachtwurd opnij ynstelle
@@ -1404,6 +1400,10 @@ password-reset-body-2 =
 password-reset-email-input =
     .label = Fier jo e-mailadres yn
 password-reset-submit-button-2 = Trochgean
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Jo wachtwurd is opnij ynsteld
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
