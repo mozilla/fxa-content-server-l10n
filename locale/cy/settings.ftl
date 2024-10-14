@@ -1367,6 +1367,10 @@ complete-reset-password-success-alert = Wedi gosod y cyfrinair
 complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Defnyddiwch allwedd adfer cyfrif
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Mae eich cyfrinair wedi cael ei ail osod.
+reset-password-complete-banner-message = Peidiwch ag anghofio cynhyrchu allwedd adfer cyfrif newydd o'ch gosodiadau { -product-mozilla-account } i atal problemau mewngofnodi yn y dyfodol.
 
 ## Confirm Reset Password With Code
 
@@ -1408,8 +1412,9 @@ reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Parhau i { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
-reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
-reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
+reset-password-complete-new-password-saved = Cyfrinair newydd wedi'i gadw!
+reset-password-complete-recovery-key-created = Allwedd adfer cyfrif newydd wedi'i chreu. Dadlwythwch a storiwch ef nawr.
+reset-password-complete-recovery-key-download-info = Mae'r allwedd hon yn hanfodol ar gyfer adfer data os byddwch yn anghofio eich cyfrinair. <b>Lawrlwythwch a storiwch hi'n ddiogel nawr, gan na fyddwch chi'n gallu cyrchu'r dudalen hon eto yn nes ymlaen.</b>
 
 ## CompleteSignin component
 
