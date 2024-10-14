@@ -410,7 +410,7 @@ password-reset-data-may-be-saved-locally-2 = Les données de votre navigateur so
 password-reset-no-old-device-2 = Vous avez un nouvel appareil mais vous n’avez plus accès à vos anciens appareils ?
 password-reset-encrypted-data-cannot-be-recovered-2 = Nous sommes désolés, mais vos données de navigateur chiffrées sur les serveurs de { -brand-firefox } ne peuvent pas être récupérées.
 password-reset-warning-have-key = Vous disposez d’une clé de récupération de compte ?
-password-reset-warning-use-key-link = Utilisez-le maintenant pour réinitialiser votre mot de passe et conserver vos données
+password-reset-warning-use-key-link = Utilisez-la maintenant pour réinitialiser votre mot de passe et conserver vos données
 
 ## Alert Bar
 
@@ -1359,7 +1359,7 @@ complete-reset-password-success-alert = Mot de passe défini
 # Displayed in an alert bar
 complete-reset-password-error-alert = Un problème est survenu lors de la création de votre mot de passe
 # Link to go back and use an account recovery key before resetting the password
-complete-reset-pw-recovery-key-link = Utiliser la clé de récupération de compte
+complete-reset-pw-recovery-key-link = Utiliser la clé de récupération du compte
 
 ## Confirm Reset Password With Code
 
@@ -1382,7 +1382,7 @@ confirm-reset-password-otp-different-account-link = Utiliser un autre { -product
 
 confirm-totp-reset-password-header = Réinitialiser le mot de passe
 confirm-totp-reset-password-subheader = Saisissez le code de sécurité pour l’authentification à deux facteurs (2FA)
-confirm-totp-reset-password-instruction = Vérifiez votre application d’authentification pour réinitialiser votre mot de passe.
+confirm-totp-reset-password-instruction = Consultez votre application d’authentification pour réinitialiser votre mot de passe.
 confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
 confirm-totp-reset-password-confirm-button = Confirmer
 confirm-totp-reset-password-input-label = Saisissez le code
@@ -1399,7 +1399,7 @@ password-reset-submit-button-2 = Continuer
 
 reset-password-complete-header = Votre mot de passe a été réinitialisé
 # $serviceName is a product name such as Monitor, Pocket, Relay
-reset-password-confirmed-cta = Continuez vers { $serviceName }
+reset-password-confirmed-cta = Continuer vers { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
