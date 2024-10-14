@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Potvrdenie sa zhoduje s novým h
 
 ## Ready component
 
-reset-password-complete-header = Vaše heslo bolo obnovené
 ready-complete-set-up-instruction = Dokončite nastavenie zadaním nového hesla na ostatných zariadeniach s { -brand-firefox(case: "ins") }.
 manage-your-account-button = Spravovať účet
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,12 @@ password-reset-warning-icon = Upozornenie
 password-reset-chevron-expanded = Zbaliť upozornenie
 password-reset-chevron-collapsed = Rozbaliť upozornenie
 password-reset-data-may-not-be-recovered = Údaje vášho prehliadača nemusia byť obnovené
-password-reset-previously-signed-in-device = Máte zariadenie, na ktorom ste sa predtým prihlásili?
-password-reset-data-may-be-saved-locally = Údaje vášho prehliadača môžu byť uložené lokálne v tomto zariadení. Na obnovenie a synchronizáciu sa prihláste pomocou svojho nového hesla.
-password-reset-no-old-device = Máte nové zariadenie, ale nemáte staré?
-password-reset-encrypted-data-cannot-be-recovered = Je nám ľúto, ale vaše šifrované údaje prehliadača na serveroch { -brand-firefox(case: "gen") } nie je možné obnoviť. Naďalej však máte prístup k svojim lokálnym údajom na akomkoľvek zariadení, na ktorom ste sa predtým prihlásili.
-password-reset-learn-about-restoring-account-data = Ďalšie informácie o obnovení údajov účtu
+password-reset-previously-signed-in-device-2 = Máte nejaké zariadenie, na ktorom ste sa predtým prihlásili?
+password-reset-data-may-be-saved-locally-2 = Údaje vášho prehliadača môžu byť uložené v danom zariadení. Obnovte svoje heslo a potom sa prihláste, aby ste obnovili a synchronizovali svoje údaje.
+password-reset-no-old-device-2 = Máte nové zariadenie, ale nemáte prístup k žiadnemu zo svojich predchádzajúcich?
+password-reset-encrypted-data-cannot-be-recovered-2 = Je nám ľúto, ale vaše šifrované údaje prehliadača na serveroch { -brand-firefox(case: "gen") } nie je možné obnoviť.
+password-reset-warning-have-key = Máte kľúč na obnovenie účtu?
+password-reset-warning-use-key-link = Použite ho teraz na obnovenie hesla a uchovanie údajov
 
 ## Alert Bar
 
@@ -1365,8 +1365,8 @@ complete-reset-password-success-alert = Heslo bolo nastavené
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
-password-reset-could-not-determine-account-recovery-key = Máte kľúč na obnovenie účtu?
-password-reset-use-account-recovery-key = Obnovte svoje heslo a uchovajte svoje údaje
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Použiť kľúč na obnovenie účtu
 
 ## Confirm Reset Password With Code
 
@@ -1385,6 +1385,15 @@ confirm-reset-password-otp-resend-code-button = Znova odoslať kód
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Použiť iný účet
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Obnovenie hesla
+confirm-totp-reset-password-subheader = Zadajte svoj dvojfaktorový overovací bezpečnostný kód (2FA)
+confirm-totp-reset-password-instruction = Ak chcete obnoviť heslo, skontrolujte aplikáciu na overenie totožnosti.
+confirm-totp-reset-password-trouble-code = Máte problémy so zadaním kódu?
+confirm-totp-reset-password-confirm-button = Potvrdiť
+confirm-totp-reset-password-input-label = Zadajte kód
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Obnovenie hesla
@@ -1392,6 +1401,12 @@ password-reset-body-2 = Požiadame vás o niekoľko vecí, ktoré viete iba vy, 
 password-reset-email-input =
     .label = Zadajte svoju e‑mailovú adresu
 password-reset-submit-button-2 = Pokračovať
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Vaše heslo bolo obnovené
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = A pokračovať do služby { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
