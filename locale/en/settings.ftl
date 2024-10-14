@@ -1431,6 +1431,11 @@ complete-reset-password-error-alert = Sorry, there was a problem setting your pa
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Use account recovery key
 
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Your password has been reset.
+reset-password-complete-banner-message = Don’t forget to generate a new account recovery key from your { -product-mozilla-account } settings to prevent future sign-in issues.
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Check your email
@@ -1480,8 +1485,11 @@ reset-password-complete-header = Your password has been reset
 reset-password-confirmed-cta = Continue to { $serviceName }
 
 reset-password-with-recovery-key-verified-page-title = Password reset successful
-reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
-reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
+reset-password-complete-new-password-saved = New password saved!
+reset-password-complete-recovery-key-created = New account recovery key created. Download and store it now.
+reset-password-complete-recovery-key-download-info = This key is essential for
+  data recovery if you forget your password. <b>Download and store it securely
+  now, as you won’t be able to access this page again later.</b>
 
 ## CompleteSignin component
 
