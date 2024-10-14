@@ -406,7 +406,9 @@ password-reset-chevron-collapsed = Uyarıyı genişlet
 password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
 password-reset-previously-signed-in-device-2 = Daha önce giriş yaptığınız bir cihazınız var mı?
 password-reset-no-old-device-2 = Yeni bir cihazınız var ama eski cihazlarınıza erişemiyor musunuz?
+password-reset-encrypted-data-cannot-be-recovered-2 = Üzgünüz, { -brand-firefox } sunucularındaki şifrelenmiş tarayıcı verileriniz bu durumda maalesef kurtarılamaz.
 password-reset-warning-have-key = Hesap kurtarma anahtarınız var mı?
+password-reset-warning-use-key-link = Parolanızı sıfırlayıp verilerinizi geri yüklemek için şimdi onu kullanabilirsiniz
 
 ## Alert Bar
 
