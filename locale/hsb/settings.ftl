@@ -1369,6 +1369,10 @@ complete-reset-password-success-alert = Hesło je so nastajiło
 complete-reset-password-error-alert = Bohužel je při stajenju wašeho hesła problem nastał
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Kontowy wobnowjenski kluč wužiwać
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Waše hesło bu wróćo stajene.
+reset-password-complete-banner-message = Njezabywajće nowy kontowy wobnowjenski kluč ze swojich nastajenjow { -product-mozilla-account } generěrować, zo byšće přichodnym přizjewjenskim problemam zadźěwał.
 
 ## Confirm Reset Password With Code
 
@@ -1412,8 +1416,8 @@ reset-password-complete-header = Waše hesło je so wróćo stajiło
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Dale k { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
-reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
-reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu kontu
+reset-password-complete-new-password-saved = Nowe hesło je so składowało!
+reset-password-complete-recovery-key-created = Nowy kontowy wobnowjenski kluč je so wutworił. Sćehńće a składujće jón nětko
 
 ## CompleteSignin component
 
