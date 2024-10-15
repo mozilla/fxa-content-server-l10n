@@ -406,6 +406,7 @@ password-reset-chevron-expanded = Fold advarsel sammen
 password-reset-chevron-collapsed = Fold advarsel ud
 password-reset-data-may-not-be-recovered = Dine browserdata bliver måske ikke gendannet
 password-reset-previously-signed-in-device-2 = Har du en enhed, hvor du tidligere har logget ind?
+password-reset-data-may-be-saved-locally-2 = Dine browserdata er muligvis gemt på den pågældende enhed. Nulstil din adgangskode, og log derefter ind på enheden for at gendanne og synkronisere dine data.
 password-reset-no-old-device-2 = Har du en ny enhed, men ikke adgang til nogen af dine gamle enheder?
 password-reset-encrypted-data-cannot-be-recovered-2 = Vi beklager, men dine krypterede browserdata på { -brand-firefox }' servere kan ikke gendannes.
 password-reset-warning-have-key = Har du en genoprettelsesnøgle til kontoen?
@@ -1369,9 +1370,12 @@ complete-reset-password-success-alert = Adgangskode oprettet
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Der opstod desværre et problem med at oprette din adgangskode
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Brug en genoprettelsesnøgle til kontoen
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Din adgangskode er blevet nulstillet.
+reset-password-complete-banner-message = Glem ikke at oprette en ny genoprettelsesnøgle til kontoen fra { -product-mozilla-account }-indstillingerne for at forhindre fremtidige login-problemer.
 
 ## Confirm Reset Password With Code
 
@@ -1414,6 +1418,7 @@ reset-password-complete-header = Din adgangskode er blevet nulstillet
 reset-password-confirmed-cta = Fortsæt til { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-complete-new-password-saved = Ny adgangskode gemt!
+reset-password-complete-recovery-key-created = Ny genoprettelsesnøgle til kontoen oprettet. Hent og gem den nu.
 reset-password-complete-recovery-key-download-info =
     Denne nøgle er nødvendig for
     gendannelse af data, hvis du glemmer din adgangskode. <b>Hent og gem den sikkert nu,
