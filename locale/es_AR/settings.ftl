@@ -1415,7 +1415,10 @@ reset-password-confirmed-cta = Continuar a { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
 reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
 reset-password-complete-recovery-key-created = Se creó una nueva clave de recuperación de cuenta. Descargala y guardala ahora.
-reset-password-complete-recovery-key-download-info = Esta clave es esencial para la recuperación de datos si olvida su contraseña. <b> Descárgalo y guárdalo de forma segura ahora, ya que no podrás volver a acceder a esta página más adelante. </b>
+reset-password-complete-recovery-key-download-info =
+    Esta clave es esencial para la
+    recuperación de datos si olvidás tu contraseña. <b>Descargala y guardala de forma segura
+    ahora, ya que no podrás volver a acceder a esta página más adelante.</b>
 
 ## CompleteSignin component
 
