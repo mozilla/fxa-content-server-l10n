@@ -1341,6 +1341,7 @@ reset-password-confirmed-cta = המשך אל { $serviceName }
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-complete-new-password-saved = הססמה החדשה נשמרה!
 reset-password-complete-recovery-key-created = מפתח חדש לשחזור החשבון נוצר. יש להוריד ולאחסן אותו כעת במקום בטוח.
+reset-password-complete-recovery-key-download-info = מפתח זה חיוני עבור שחזור נתונים אם הססמה שלך תישכח. <b>יש להוריד ולאחסן אותו במקום בטוח כעת, מכיוון שלא יהיה באפשרותך לגשת לדף זה שוב מאוחר יותר.</b>
 
 ## CompleteSignin component
 
