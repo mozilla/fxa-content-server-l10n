@@ -90,6 +90,11 @@ form-password-with-inline-criteria-signup-new-password-label =
     .label = گذرواژه
 form-password-with-inline-criteria-signup-confirm-password-label =
     .label = تکرار گذرواژه
+form-password-with-inline-criteria-signup-submit-button = ساخت حساب کاربری
+form-password-with-inline-criteria-reset-new-password =
+    .label = گذرواژه جدید
+form-password-with-inline-criteria-confirm-password =
+    .label = تأیید گذرواژه
 
 ## FormVerifyCode
 
