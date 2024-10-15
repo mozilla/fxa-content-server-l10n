@@ -1367,6 +1367,7 @@ complete-reset-pw-recovery-key-link = Usar clave de recuperación de cuenta
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Tu contraseña ha sido reiniciada.
+reset-password-complete-banner-message = No olvides generar una nueva clave de recuperación de cuenta desde la configuración de { -product-mozilla-account } para evitar futuros problemas de conexión.
 
 ## Confirm Reset Password With Code
 
@@ -1410,6 +1411,12 @@ reset-password-complete-header = Tu contraseña ha sido reiniciada
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar con { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Restablecimiento de contraseña exitoso
+reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
+reset-password-complete-recovery-key-created = Nueva clave de recuperación de cuenta creada. Descárgala y guárdala ahora.
+reset-password-complete-recovery-key-download-info =
+    Esta clave es esencial para
+    la recuperación de datos si olvidas tu contraseña. Descárgala y guárdala de manera segura
+    ahora mismo, ya que no podrás volver a esta página más tarde.
 
 ## CompleteSignin component
 
