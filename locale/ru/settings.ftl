@@ -1369,6 +1369,10 @@ complete-reset-password-success-alert = Пароль установлен
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Использовать ключ восстановления аккаунта
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Ваш пароль был сброшен.
+reset-password-complete-banner-message = Не забудьте сгенерировать новый ключ восстановления аккаунта в настройках { -product-mozilla-account }, чтобы избежать проблем со входом в систему в будущем.
 
 ## Confirm Reset Password With Code
 
@@ -1410,8 +1414,12 @@ reset-password-complete-header = Ваш пароль был сброшен
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Перейти к { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
-reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
-reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
+reset-password-complete-new-password-saved = Новый пароль сохранён!
+reset-password-complete-recovery-key-created = Новый ключ восстановления аккаунта создан. Загрузите и сохраните его сейчас.
+reset-password-complete-recovery-key-download-info =
+    Этот ключ необходим для
+    восстановления данных, если вы забудете свой пароль. <b>Загрузите и храните в безопасности
+    сейчас, так как вы не сможете получить доступ к этой странице позже.</b>
 
 ## CompleteSignin component
 
