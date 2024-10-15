@@ -1371,6 +1371,10 @@ complete-reset-password-success-alert = Configuration del contrasigno
 complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Usar clave de recuperation del conto
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Tu contrasigno ha essite reinitialisate.
+reset-password-complete-banner-message = Non oblida de generar un nove clave de recuperation de conto desde tu parametros de { -product-mozilla-account } pro evitar problemas de accesso in futuro.
 
 ## Confirm Reset Password With Code
 
@@ -1412,8 +1416,7 @@ reset-password-complete-header = Tu contrasigno ha essite remontate
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
-reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
-reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
+reset-password-complete-new-password-saved = Nove contrasigno salvate!
 
 ## CompleteSignin component
 
