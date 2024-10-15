@@ -344,6 +344,7 @@ password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları fa
 password-strength-inline-min-length = En az 8 karakter
 password-strength-inline-not-email = E-posta adresiniz olmamalı
 password-strength-inline-not-common = Yaygın olarak kullanılan bir parola olmamalı
+password-strength-inline-confirmed-must-match = Onay yeni parola ile eşleşiyor
 
 ## Ready component
 
@@ -405,6 +406,7 @@ password-reset-chevron-expanded = Uyarıyı daralt
 password-reset-chevron-collapsed = Uyarıyı genişlet
 password-reset-data-may-not-be-recovered = Tarayıcı verileriniz kurtarılamayabilir
 password-reset-previously-signed-in-device-2 = Daha önce giriş yaptığınız bir cihazınız var mı?
+password-reset-data-may-be-saved-locally-2 = Tarayıcı verileriniz o cihazda kayıtlı olabilir. Parolanızı sıfırlayın, ardından verilerinizi geri yüklemek ve eşitlemek için o cihazdan giriş yapın.
 password-reset-no-old-device-2 = Yeni bir cihazınız var ama eski cihazlarınıza erişemiyor musunuz?
 password-reset-encrypted-data-cannot-be-recovered-2 = Üzgünüz, { -brand-firefox } sunucularındaki şifrelenmiş tarayıcı verileriniz bu durumda maalesef kurtarılamaz.
 password-reset-warning-have-key = Hesap kurtarma anahtarınız var mı?
@@ -1352,6 +1354,10 @@ complete-reset-password-success-alert = Parola ayarlandı
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Hesap kurtarma anahtarını kullan
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Parolanız sıfırlandı.
+reset-password-complete-banner-message = Gelecekte sorun yaşamamak için { -product-mozilla-account } ayarlarınızdan yeni bir hesap kurtarma anahtarı oluşturmayı unutmayın.
 
 ## Confirm Reset Password With Code
 
@@ -1393,8 +1399,8 @@ reset-password-complete-header = Parolanız sıfırlandı
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } hizmetine devam et
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
-reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
-reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
+reset-password-complete-new-password-saved = Yeni parola kaydedildi!
+reset-password-complete-recovery-key-created = Yeni hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın.
 
 ## CompleteSignin component
 
