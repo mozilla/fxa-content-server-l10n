@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Bekræftelsen matcher den nye ad
 
 ## Ready component
 
-reset-password-complete-header = Din adgangskode er blevet nulstillet
 ready-complete-set-up-instruction = Indtast din nye adgangskode på dine andre { -brand-firefox }-enheder for at færdiggøre opsætningen.
 manage-your-account-button = Håndter din konto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,11 +405,11 @@ password-reset-warning-icon = Advarsel
 password-reset-chevron-expanded = Fold advarsel sammen
 password-reset-chevron-collapsed = Fold advarsel ud
 password-reset-data-may-not-be-recovered = Dine browserdata bliver måske ikke gendannet
-password-reset-previously-signed-in-device = Har du en enhed, hvor du tidligere har logget ind?
-password-reset-data-may-be-saved-locally = Dine browserdata kan være gemt lokalt på den pågældende enhed. Log ind på enheden med din nye adgangskode for at gendanne og synkronisere.
-password-reset-no-old-device = Har du en ny enhed, men ikke din gamle?
-password-reset-encrypted-data-cannot-be-recovered = Dine krypterede browserdata på { -brand-firefox }' servere kan desværre ikke gendannes. Du kan dog stadig få adgang til dine lokale data på enhver enhed, hvor du tidligere har logget ind.
-password-reset-learn-about-restoring-account-data = Læs mere om gendannelse af konto-data
+password-reset-previously-signed-in-device-2 = Har du en enhed, hvor du tidligere har logget ind?
+password-reset-no-old-device-2 = Har du en ny enhed, men ikke adgang til nogen af dine gamle enheder?
+password-reset-encrypted-data-cannot-be-recovered-2 = Vi beklager, men dine krypterede browserdata på { -brand-firefox }' servere kan ikke gendannes.
+password-reset-warning-have-key = Har du en genoprettelsesnøgle til kontoen?
+password-reset-warning-use-key-link = Brug den nu til at nulstille din adgangskode og beholde dine data
 
 ## Alert Bar
 
@@ -1370,8 +1369,9 @@ complete-reset-password-success-alert = Adgangskode oprettet
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Der opstod desværre et problem med at oprette din adgangskode
-password-reset-could-not-determine-account-recovery-key = Har du din genoprettelsesnøgle til kontoen?
-password-reset-use-account-recovery-key = Nulstil din adgangskode og behold dine data
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Din adgangskode er blevet nulstillet.
 
 ## Confirm Reset Password With Code
 
@@ -1390,6 +1390,15 @@ confirm-reset-password-otp-resend-code-button = Send kode igen
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Brug en anden konto
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Nulstil din adgangskode
+confirm-totp-reset-password-subheader = Indtast din sikkerhedskode for tofaktorgodkendelse (2FA)
+confirm-totp-reset-password-instruction = Tjek din godkendelsesapp for at nulstille din adgangskode.
+confirm-totp-reset-password-trouble-code = Har du problemer med at indtaste koden?
+confirm-totp-reset-password-confirm-button = Bekræft
+confirm-totp-reset-password-input-label = Indtast kode
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Nulstil din adgangskode
@@ -1397,9 +1406,18 @@ password-reset-body-2 = For at sikre din konto, spørger vi dig om nogle ting, s
 password-reset-email-input =
     .label = Indtast din mailadresse
 password-reset-submit-button-2 = Fortsæt
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Din adgangskode er blevet nulstillet
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Fortsæt til { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
-reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
-reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
+reset-password-complete-new-password-saved = Ny adgangskode gemt!
+reset-password-complete-recovery-key-download-info =
+    Denne nøgle er nødvendig for
+    gendannelse af data, hvis du glemmer din adgangskode. <b>Hent og gem den sikkert nu,
+    da du ikke kan få adgang til denne side igen senere.</b>
 
 ## CompleteSignin component
 
