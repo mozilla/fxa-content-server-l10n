@@ -1401,6 +1401,7 @@ reset-password-confirmed-cta = { $serviceName } hizmetine devam et
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-complete-new-password-saved = Yeni parola kaydedildi!
 reset-password-complete-recovery-key-created = Yeni hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın.
+reset-password-complete-recovery-key-download-info = Parolanızı unutursanız verilerinizi kurtarmak için bu anahtara sahip olmalısınız. <b>Şimdi indirip güvenli bir şekilde saklayın. Daha sonra bu sayfaya erişemeyeceksiniz.</b>
 
 ## CompleteSignin component
 
