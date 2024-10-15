@@ -1424,6 +1424,10 @@ reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-complete-new-password-saved = Ο νέος κωδικός πρόσβασης αποθηκεύτηκε!
 reset-password-complete-recovery-key-created = Το νέο κλειδί ανάκτησης λογαριασμού δημιουργήθηκε. Κάντε λήψη και αποθήκευσή του τώρα
+reset-password-complete-recovery-key-download-info =
+    Αυτό το κλειδί είναι απαραίτητο για την ανάκτηση των δεδομένων
+    σας εάν ξεχάσετε τον κωδικό πρόσβασής σας. <b>Αποθηκεύστε το σε ένα ασφαλές μέρος
+    τώρα, καθώς δεν θα μπορέσετε να αποκτήσετε ξανά πρόσβαση σε αυτήν τη σελίδα αργότερα.</b>
 
 ## CompleteSignin component
 
