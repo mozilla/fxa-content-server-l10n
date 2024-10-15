@@ -1356,6 +1356,7 @@ complete-reset-pw-recovery-key-link = 使用账户恢复密钥
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = 您的密码已重置。
+reset-password-complete-banner-message = 别忘了在 { -product-mozilla-account } 设置中生成新的账户恢复密钥，避免将来登录时遇到问题。
 
 ## Confirm Reset Password With Code
 
@@ -1397,6 +1398,8 @@ reset-password-complete-header = 您的密码已重置
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = 继续使用 { $serviceName }
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
+reset-password-complete-new-password-saved = 已保存新密码！
+reset-password-complete-recovery-key-created = 已创建新的账户恢复密钥，请立即下载并存储。
 
 ## CompleteSignin component
 
