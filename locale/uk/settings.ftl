@@ -1373,6 +1373,9 @@ complete-reset-password-success-alert = Пароль встановлено
 complete-reset-password-error-alert = Перепрошуємо, але під час встановлення пароля виникла проблема
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Використати ключ відновлення облікового запису
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Ваш пароль було скинуто.
 
 ## Confirm Reset Password With Code
 
@@ -1414,8 +1417,6 @@ reset-password-complete-header = Ваш пароль було відновлен
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Продовжити в { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
-reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
-reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
 
 ## CompleteSignin component
 
