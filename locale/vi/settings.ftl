@@ -1371,6 +1371,10 @@ complete-reset-password-success-alert = Đã đặt mật khẩu
 complete-reset-password-error-alert = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Sử dụng khóa khôi phục tài khoản
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Mật khẩu của bạn đã được đặt lại.
+reset-password-complete-banner-message = Đừng quên tạo khóa khôi phục tài khoản mới từ cài đặt { -product-mozilla-account } của bạn để tránh các vấn đề đăng nhập về sau.
 
 ## Confirm Reset Password With Code
 
@@ -1414,8 +1418,12 @@ reset-password-complete-header = Mật khẩu của bạn đã được đặt l
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Tiếp tục đến { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
-reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
-reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
+reset-password-complete-new-password-saved = Đã đặt mật khẩu mới!
+reset-password-complete-recovery-key-created = Đã tạo khóa khôi phục tài khoản mới. Tải xuống và lưu trữ ngay bây giờ.
+reset-password-complete-recovery-key-download-info =
+    Khóa này rất cần thiết cho việc khôi phục dữ liệu
+    nếu bạn quên mật khẩu. <b>Tải xuống và lưu trữ an toàn bây giờ,
+    vì bạn sẽ không thể truy cập lại trang này sau này.</b>
 
 ## CompleteSignin component
 
