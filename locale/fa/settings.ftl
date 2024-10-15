@@ -174,15 +174,28 @@ ready-continue = ادامه
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = چهرک شما
+avatar-default-avatar =
+    .alt = چهرک پیش‌فرض
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title-3 = محصولات { -brand-mozilla }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
+bento-menu-firefox-desktop = { -brand-firefox } مرورگر برای میزکار
+bento-menu-firefox-mobile = { -brand-firefox } مرورگر برای موبایل
+bento-menu-made-by-mozilla = ساخته شده توسط { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = { -brand-firefox } را برای موبایل یا تلبت دریافت کنید
 
 ##
 
@@ -204,16 +217,24 @@ cs-disconnect-sync-opt-duplicate = تکراری
 
 ##
 
+cs-sign-out-button = خروج از حساب کاربری
 
 ##
 
 
 ## Data collection section
 
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = مرورگر { -brand-firefox }
 dc-learn-more = بیشتر بدانید
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = منوی { -product-mozilla-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>وارد شده‌اید به عنوان</signin><user>{ $user }</user>
 drop-down-menu-sign-out = خروج
 
 ## Flow Container
@@ -237,13 +258,16 @@ flow-container-back = بازگشت
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = انصراف
 
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = بستن منو
-header-menu-closed = منوی ناوبری سایت
+header-menu-closed = منوی پیمایش وبگاه
 header-back-to-top-link =
     .title = برگشت به بالا
+header-title-2 = { -product-mozilla-account }
 header-help = راهنما
 
 ## Linked Accounts section
@@ -255,10 +279,12 @@ la-description = شما مجوز دسترسی به حساب‌های زیر را
 
 modal-close-title = بستن
 modal-cancel-button = لغو
+modal-default-confirm-button = تایید
 
 ## Modal Verify Session
 
 msv-cancel-button = انصراف
+msv-submit-button-2 = تایید
 
 ## Settings Nav
 
@@ -266,16 +292,26 @@ nav-settings = تنظیمات
 nav-profile = نمایه
 nav-security = امنیت
 nav-connected-services = خدمات متصل
+nav-paid-subs = اشتراک‌های پولی
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = مرحله ۱ از ۲
 tfa-replace-code-2-2 = مرحلهٔ ۲ از ۲
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = تصویر نمایه
 avatar-page-add-photo = اضافه کردن تصویر
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
 avatar-page-take-photo = عکس گرفتن
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
 avatar-page-remove-photo = عکس تصویر
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = گرفتن دوباره تصویر
 avatar-page-cancel-button = انصراف
 avatar-page-save-button = ذخیره
@@ -287,6 +323,8 @@ avatar-page-zoom-in-button =
 avatar-page-rotate-button =
     .title = چرخش
 avatar-page-camera-error = نمی‌توان دوربین را راه‌اندازی کرد
+avatar-page-new-avatar =
+    .alt = تصویر نمایه جدید
 
 ##
 
