@@ -1373,6 +1373,10 @@ complete-reset-password-success-alert = Wachtwoord ingesteld
 complete-reset-password-error-alert = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Accountherstelsleutel gebruiken
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Uw wachtwoord is geherinitialiseerd.
+reset-password-complete-banner-message = Vergeet niet een nieuwe accountherstelsleutel aan te maken vanuit uw { -product-mozilla-account }-instellingen om toekomstige aanmeldingsproblemen te voorkomen.
 
 ## Confirm Reset Password With Code
 
@@ -1416,8 +1420,9 @@ reset-password-complete-header = Uw wachtwoord is opnieuw ingesteld
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Doorgaan naar { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
-reset-password-with-recovery-key-verified-generate-new-key = Een nieuwe accountherstelsleutel aanmaken
-reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mijn account
+reset-password-complete-new-password-saved = Nieuw wachtwoord opgeslagen!
+reset-password-complete-recovery-key-created = Nieuwe accountherstelsleutel aangemaakt. Download en bewaar deze nu.
+reset-password-complete-recovery-key-download-info = Deze sleutel is essentieel voor gegevensherstel als u uw wachtwoord vergeet. <b>Download en bewaar het nu veilig, omdat u deze pagina later niet meer kunt openen.</b>
 
 ## CompleteSignin component
 
