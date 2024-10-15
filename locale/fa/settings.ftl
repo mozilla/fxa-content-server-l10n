@@ -342,6 +342,7 @@ pw-change-new-password =
     .label = یک گذرواژه جدید وارد کنید
 pw-change-confirm-password =
     .label = تایید گذرواژه جدید
+pw-change-success-alert-2 = گذرواژه به‌روزرسانی شد
 
 ##
 
