@@ -6,11 +6,35 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = بستن
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = بیشتر بدانید
+# Alt text for close banner image
+brand-close-banner =
+    .alt = بستن بنر
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = دریافت و ادامه
+    .title = دریافت و ادامه
+recovery-key-pdf-heading = کلید بازیابی حساب کاربری
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = تولید شده: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = کلید بازیابی حساب کاربری
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -19,10 +43,29 @@
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+choose-what-to-sync-option-bookmarks =
+    .label = نشانک‌ها
+choose-what-to-sync-option-history =
+    .label = تاریخچه
+choose-what-to-sync-option-passwords =
+    .label = گذرواژه‌ها
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = زبانه‌های باز
+choose-what-to-sync-option-prefs =
+    .label = ترجیحات
+choose-what-to-sync-option-addresses =
+    .label = نشانی‌ها
+choose-what-to-sync-option-paymentmethods =
+    .label = روش‌های پرداخت
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = در صندوق ورودی و در پوشه هرزنامه‌ها نبود؟ ارسال دوباره
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = برگشت
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -41,21 +84,42 @@ datablock-print =
 ## FormPasswordWithBalloons
 
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
+
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-copy-2 =
+    .title = رونوشت
+    .aria-label = رونوشت
+get-data-trio-print-2 =
+    .title = چاپ
+    .aria-label = چاپ
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = پنهان کردن گذرواژه
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = نمایش گذرواژه
-input-password-hide-aria = مخفی کردن گذرواژه از صفحه.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = بازگشت
 
 ## LinkDamaged component
 
@@ -66,14 +130,17 @@ input-password-hide-aria = مخفی کردن گذرواژه از صفحه.
 ## LinkExpiredResetPassword component
 
 
-## LinkExpiredSignin component
-
-
 ## LinkRememberPassword component
 
+# link navigates to the sign in page
+remember-password-signin-link = ورود
 
 ## LinkUsed component
 
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = ایجاد
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -82,7 +149,24 @@ input-password-hide-aria = مخفی کردن گذرواژه از صفحه.
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
+ready-continue = ادامه
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
 
 
 ## Alert Bar
@@ -109,7 +193,7 @@ input-password-hide-aria = مخفی کردن گذرواژه از صفحه.
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -147,20 +231,19 @@ flow-container-back = بازگشت
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = بستن منو
 header-menu-closed = منوی ناوبری سایت
 header-back-to-top-link =
     .title = برگشت به بالا
-header-title = حساب فایرفاکس
 header-help = راهنما
 
 ## Linked Accounts section
@@ -257,21 +340,10 @@ cancel-display-name = انصراف
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
-
-## $date (Date) - Date recent activity was created
-
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = انصراف
-recovery-key-close-button = بستن
-recovery-key-continue-button = ادامه
-recovery-key-enter-password =
-    .label = گذرواژه را وارد کنید
-recovery-key-step-1 = مرحله ۱ از ۲
-recovery-key-step-2 = مرحله ۲ از ۲
 
 ## PageRecoveryKeyCreate
 
@@ -296,6 +368,9 @@ tfa-button-continue = ادامه
 tfa-button-finish = پایان
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -357,6 +432,12 @@ rk-action-remove = برداشتن
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
 
 
 ## InlineRecoverySetup page
@@ -423,26 +504,39 @@ rk-action-remove = برداشتن
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
 
-## ResetPassword page
+## PasswordResetConfirmTotp Page
+
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component
 
 
-## ConfirmSignin component
-
-
 ## Signin page
+
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
 
 
 ## SigninRecoveryCode page
@@ -464,9 +558,8 @@ rk-action-remove = برداشتن
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page
