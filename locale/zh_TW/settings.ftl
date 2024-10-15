@@ -1345,6 +1345,9 @@ complete-reset-password-success-alert = 已設定密碼
 complete-reset-password-error-alert = 很抱歉，設定您的密碼時發生問題
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = 使用帳號救援金鑰
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = 您的密碼已重設成功。
 
 ## Confirm Reset Password With Code
 
@@ -1386,8 +1389,6 @@ reset-password-complete-header = 已重設您的密碼
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = 繼續前往 { $serviceName }
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
-reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
-reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
 
 ## CompleteSignin component
 
