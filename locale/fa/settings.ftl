@@ -86,6 +86,10 @@ datablock-print =
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = گذرواژه
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = تکرار گذرواژه
 
 ## FormVerifyCode
 
