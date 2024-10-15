@@ -1417,7 +1417,11 @@ reset-password-complete-header = Waše hesło je so wróćo stajiło
 reset-password-confirmed-cta = Dale k { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-complete-new-password-saved = Nowe hesło je so składowało!
-reset-password-complete-recovery-key-created = Nowy kontowy wobnowjenski kluč je so wutworił. Sćehńće a składujće jón nětko
+reset-password-complete-recovery-key-created = Nowy kontowy wobnowjenski kluč je so wutworił. Sćehńće a składujće jón nětko.
+reset-password-complete-recovery-key-download-info =
+    Tutón kluč je bytostny za
+    datowe wobnowjenje, jeli swoje hesło zabywaće. <b>Sćehńće a składujće jón nětko wěsće
+    dokelž pozdźišo k tutej stronje hižo přistup nimaće.</b>
 
 ## CompleteSignin component
 
