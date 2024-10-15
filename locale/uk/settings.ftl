@@ -1417,6 +1417,12 @@ reset-password-complete-header = Ваш пароль було відновлен
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Продовжити в { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
+reset-password-complete-new-password-saved = Новий пароль збережено!
+reset-password-complete-recovery-key-created = Створено новий ключ відновлення облікового запису. Завантажте та збережіть його зараз.
+reset-password-complete-recovery-key-download-info =
+    Цей ключ необхідний для
+    відновлення даних, якщо ви забули пароль. <b>Завантажте його зараз та надійно зберігайте,
+    оскільки ви не зможете отримати доступ до цієї сторінки з ключем пізніше.</b>
 
 ## CompleteSignin component
 
