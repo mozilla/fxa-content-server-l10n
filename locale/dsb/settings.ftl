@@ -1367,6 +1367,10 @@ complete-reset-password-success-alert = Gronidło jo se nastajiło
 complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju wašogo gronidła
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Kontowy wótnowjeński kluc wužywaś
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Wašo gronidło jo se slědk stajiło.
+reset-password-complete-banner-message = Njezabywajśo nowy kontowy wótnowjeński kluc ze swójich nastajenjow { -product-mozilla-account } generěrowaś, aby pśiducym pśizjawjeńskim problemam zajźował.
 
 ## Confirm Reset Password With Code
 
@@ -1410,8 +1414,12 @@ reset-password-complete-header = Wašo gronidło jo se slědk stajiło
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Dalej k { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
-reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
-reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
+reset-password-complete-new-password-saved = Nowe gronidło jo se składło!
+reset-password-complete-recovery-key-created = Nowy kontowy wótnowjeński kluc jo se napórał. Ześěgniśo a składujśo jen něnto.
+reset-password-complete-recovery-key-download-info =
+    Toś ten kluc jo bytostny za
+    datowe wótnowjenje, jolic swójo gronidło zabywaśo. <b>Ześěgniśo a składujśo jen něnto wěsće
+    dokulaž pózdźej k toś tomu bokoju wěcej pśistup njamaśo.</b>
 
 ## CompleteSignin component
 
