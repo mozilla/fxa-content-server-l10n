@@ -1375,6 +1375,10 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Χρήση κλειδιού ανάκτησης λογαριασμού
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Έγινε επαναφορά του κωδικού πρόσβασής σας.
+reset-password-complete-banner-message = Μην ξεχάσετε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού από τις ρυθμίσεις του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας για να αποτρέψετε μελλοντικά προβλήματα σύνδεσης.
 
 ## Confirm Reset Password With Code
 
@@ -1418,8 +1422,8 @@ reset-password-complete-header = Έγινε επαναφορά του κωδικ
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
-reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
-reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
+reset-password-complete-new-password-saved = Ο νέος κωδικός πρόσβασης αποθηκεύτηκε!
+reset-password-complete-recovery-key-created = Το νέο κλειδί ανάκτησης λογαριασμού δημιουργήθηκε. Κάντε λήψη και αποθήκευσή του τώρα
 
 ## CompleteSignin component
 
