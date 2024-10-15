@@ -1294,6 +1294,10 @@ complete-reset-password-success-alert = הססמה הוגדרה
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = שימוש במפתח לשחזור החשבון
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = הססמה שלך אופסה.
+reset-password-complete-banner-message = מומלץ ליצור מפתח שחזור חשבון חדש מהגדרות { -product-mozilla-account(case: "the") } שלך כדי למנוע בעיות התחברות עתידיות.
 
 ## Confirm Reset Password With Code
 
@@ -1335,8 +1339,8 @@ reset-password-complete-header = הססמה שלך אופסה
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = המשך אל { $serviceName }
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
-reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
-reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
+reset-password-complete-new-password-saved = הססמה החדשה נשמרה!
+reset-password-complete-recovery-key-created = מפתח חדש לשחזור החשבון נוצר. יש להוריד ולאחסן אותו כעת במקום בטוח.
 
 ## CompleteSignin component
 
