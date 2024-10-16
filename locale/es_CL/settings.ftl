@@ -1415,8 +1415,8 @@ reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
 reset-password-complete-recovery-key-created = Nueva clave de recuperación de cuenta creada. Descárgala y guárdala ahora.
 reset-password-complete-recovery-key-download-info =
     Esta clave es esencial para
-    la recuperación de datos si olvidas tu contraseña. Descárgala y guárdala de manera segura
-    ahora mismo, ya que no podrás volver a esta página más tarde.
+    la recuperación de datos si olvidas tu contraseña. <b>Descárgala y guárdala de manera segura
+    ahora mismo, ya que no podrás volver a esta página más tarde.</b>
 
 ## CompleteSignin component
 
