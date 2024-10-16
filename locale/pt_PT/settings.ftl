@@ -343,7 +343,7 @@ password-strength-balloon-stay-safe-tips = Mantenha-se em segurança: não reuti
 
 password-strength-inline-min-length = Pelo menos 8 caracteres
 password-strength-inline-not-email = Não é o seu endereço de e-mail
-password-strength-inline-not-common = Não é uma palavra-passe comummente utilizada
+password-strength-inline-not-common = Não é uma palavra-passe habitualmente utilizada
 password-strength-inline-confirmed-must-match = A confirmação corresponde à nova palavra-passe
 
 ## Ready component
@@ -406,8 +406,8 @@ password-reset-chevron-expanded = Colapsar aviso
 password-reset-chevron-collapsed = Expandir aviso
 password-reset-data-may-not-be-recovered = Os dados do seu navegador poderão não ser recuperados
 password-reset-previously-signed-in-device-2 = Tem algum dispositivo em que iniciou sessão anteriormente?
-password-reset-data-may-be-saved-locally-2 = Os dados do seu navegador poderão ser guardados nesse dispositivo. Redefina a sua palavra-passe e inicie sessão para restaurar e sincronizar os seus dados.
-password-reset-no-old-device-2 = Tem um novo dispositivo mas não tem acesso a qualquer um dos seus anteriores?
+password-reset-data-may-be-saved-locally-2 = Os dados do seu navegador poderão estar guardados nesse dispositivo. Redefina a sua palavra-passe e inicie sessão para restaurar e sincronizar os seus dados.
+password-reset-no-old-device-2 = Tem um novo dispositivo mas não tem acesso a qualquer um dos seus dispositivos anteriores?
 password-reset-encrypted-data-cannot-be-recovered-2 = Lamentamos, mas os seus dados encriptados do navegador nos servidores { -brand-firefox } não podem ser recuperados.
 password-reset-warning-have-key = Tem uma chave de recuperação da conta?
 password-reset-warning-use-key-link = Utilize-a agora para repor a sua palavra-passe e manter os seus dados
