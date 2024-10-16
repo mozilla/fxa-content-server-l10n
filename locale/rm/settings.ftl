@@ -167,10 +167,43 @@ form-password-sr-not-common-message = Il pled-clav na dastga betg esser in pled-
 form-password-sr-requirements-met = Il pled-clav endatà resguarda tut ils criteris per pleds-clav.
 form-password-sr-passwords-match = Ils pleds-clav endatads èn identics.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Pled-clav
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Repeter il pled-clav
+form-password-with-inline-criteria-signup-submit-button = Crear in conto
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nov pled-clav
+form-password-with-inline-criteria-confirm-password =
+    .label = Confermar il pled-clav
+form-password-with-inline-criteria-reset-submit-button = Crear in nov pled-clav
+form-password-with-inline-criteria-match-error = Ils pleds-clav na correspundan betg
+form-password-with-inline-criteria-sr-too-short-message = Il pled-clav sto cuntegnair almain 8 caracters.
+form-password-with-inline-criteria-sr-not-email-message = Il pled-clav na dastga betg cuntegnair tia adressa dad e-mail.
+form-password-with-inline-criteria-sr-not-common-message = Il pled-clav na dastga betg esser in pled-clav frequent.
+form-password-with-inline-criteria-sr-requirements-met = Il pled-clav endatà resguarda tut ils criteris per pleds-clav.
+form-password-with-inline-criteria-sr-passwords-match = Ils pleds-clav endatads èn identics.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Quest champ è obligatoric
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Endatescha il code da { $codeLength } cifras per cuntinuar
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Endatescha il code da { $codeLength } caracters per cuntinuar
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -306,11 +339,17 @@ password-strength-balloon-not-email = Betg tia adressa dad e-mail
 password-strength-balloon-not-common = Betg in pled-clav frequent
 password-strength-balloon-stay-safe-tips = Ta protegia – na reutilisescha nagins pleds-clav. Ulteriurs cussegls: <LinkExternal>crear ferms pleds-clav</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Almain 8 caracters
+password-strength-inline-not-email = Betg tia adressa dad e-mail
+password-strength-inline-not-common = Betg in pled-clav frequent
+password-strength-inline-confirmed-must-match = La conferma correspunda al nov pled-clav
+
 ## Ready component
 
-reset-password-complete-header = Tes pled-clav è vegnì reinizialisà
 ready-complete-set-up-instruction = Finescha la configuraziun cun endatar tes nov pled-clav sin tes auters apparats da { -brand-firefox }.
-ready-start-browsing-button = Cumenzar a navigar
+manage-your-account-button = Administrar tes conto
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -334,6 +373,38 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Ordinatur sin in apparat se
 flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
 flow-recovery-key-download-storage-ideas-print-v2 = Copia stampada
 flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Agiuntescha in tip che ta gida da chattar tia clav
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Quest tip duess gidar a ta regurdar nua che ti tegnas en salv tia clav da recuperaziun dal conto. Nus pudain ta mussar l'avis durant il process da reinizialisaziun dal pled-clav per recuperar tias datas.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Endatar in tip (facultativ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Finir
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Il tip na dastga betg surpassar 254 caracters.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Il tip na dastga betg cuntegnair caracters da unicode malsegirs. Mo letras, cifras, segns d'interpuncziun e simbols èn lubids.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Avertiment
+password-reset-chevron-expanded = Reducir l’avertiment
+password-reset-chevron-collapsed = Expander l’avertiment
+password-reset-data-may-not-be-recovered = Las datas da tes navigatur na pon eventualmain betg vegnir recuperadas
 
 ## Alert Bar
 
@@ -480,30 +551,11 @@ flow-recovery-key-download-info-v2 = Questa clav ta permetta da recuperar tias d
 flow-recovery-key-download-next-link-v2 = Cuntinuar senza telechargiar
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Agiuntescha in tip che ta gida da chattar tia clav
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Quest tip duess gidar a ta regurdar nua che ti tegnas en salv tia clav da recuperaziun dal conto. Nus pudain ta mussar l'avis durant il process da reinizialisaziun dal pled-clav per recuperar tias datas.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Endatar in tip (facultativ)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Finir
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Creà la clav da recuperaziun dal conto
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Il tip na dastga betg surpassar 254 caracters.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Il tip na dastga betg cuntegnair caracters da unicode malsegirs. Mo letras, cifras, segns d'interpuncziun e simbols èn lubids.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -1002,14 +1054,6 @@ third-party-auth-options-or = u
 continue-with-google-button = Cuntinuar cun { -brand-google }
 continue-with-apple-button = Cuntinuar cun { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Cifra { $inputNumber } da { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conto nunenconuschent
@@ -1103,10 +1147,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Oha! I n’è betg reussì da crear tia clav da recuperaziun dal conto. Emprova per plaschair pli tard anc ina giada.
 inline-recovery-key-setup-recovery-created = Creà la clav da recuperaziun dal conto
 inline-recovery-key-setup-download-header = Protegia tes conto
 inline-recovery-key-setup-download-subheader = La telechargia ussa per la tegnair en salv
 inline-recovery-key-setup-download-info = Tegna en salv la clav en in lieu dal qual ti ta regordas – pli tard na pos ti betg pli turnar tar questa pagina.
+inline-recovery-key-setup-hint-header = Recumandaziun da segirezza
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1300,37 +1346,29 @@ third-party-auth-callback-message = Spetga per plaschair, ti vegns renvià a l'a
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Reinizialisescha il pled-clav cun la clav da recuperaziun dal conto per <span>cuntinuar cun ils parameters dal conto</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Reinizialisescha il pled-clav cun la clav da recuperaziun dal conto per <span>cuntinuar cun { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Endatescha per plaschair la clav da recuperaziun a diever unic da tes conto che ti has tegnì en salv en in lieu segir per puspè obtegnair l'access a tes { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav e n'has betg tia clav da recuperaziun dal conto memorisada, vegnan tschertas datas stizzadas (inclus las datas memorisadas sin il server sco la cronologia ed ils segnapaginas).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Endatescha la clav da recuperaziun dal conto
+account-recovery-confirm-key-heading = Endatescha tia clav da recuperaziun dal conto
+account-recovery-confirm-key-instruction = Questa clav recuperescha tias datas da navigaziun criptadas, sco pleds-clav e segnapaginas, dals servers da { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Endatescha tia clav da recuperaziun dal conto da 32 caracters
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Tes tip per il lieu d’archivaziun è:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Confermar la clav da recuperaziun dal conto
+account-recovery-confirm-key-button-2 = Cuntinuar
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Ti n'has nagina clav da recuperaziun dal conto?
+account-recovery-lost-recovery-key-link-2 = Ti na chattas betg tia clav da recuperaziun dal conto?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Crear in nov pled-clav
-complete-reset-password-warning-message-2 = <span>Avis:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai capita perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads e las datas da { -product-pocket } n'èn betg pertutgadas.
+complete-reset-pw-header-v2 = Crear in nov pled-clav
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Definì il pled-clav
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Perstgisa, igl ha dà in problem cun definir tes pled-clav
-complete-reset-password-recovery-key-error-v2 = Perstgisa, igl ha dà in problem cun controllar sche ti has ina clav da recuperaziun dal conto.
-complete-reset-password-recovery-key-link = Redefinescha tes pled-clav cun tia clav da recuperaziun dal conto.
-account-restored-success-message = Ti has restaurà cun succes tes conto cun agid da tia clav da recuperaziun dal conto. Creescha in nov pled-clav per segirar tias datas ed al tegna en salv en in lieu segir.
 
 ## Confirm Reset Password With Code
 
@@ -1349,16 +1387,23 @@ confirm-reset-password-otp-resend-code-button = Trametter anc ina giada il code
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Utilisar in auter conto
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Redefinir tes pled-clav
-password-reset-body = Endatescha tia adressa dad e-mail e nus ta tramettain in code da conferma per verifitgar tia identitad.
+password-reset-body-2 =
+    Nus vegnin a ta dumandar in pèr chaussas che mo ti sas, per che tes conto restia
+    segir.
 password-reset-email-input =
     .label = Endatescha tia adressa dad e-mail
-password-reset-submit-button = Ma tramettai las instrucziuns per la reinizialisaziun
+password-reset-submit-button-2 = Cuntinuar
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Tes pled-clav è vegnì reinizialisà
 reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success il pled-clav
-reset-password-with-recovery-key-verified-generate-new-key = Generar ina nova clav da recuperaziun dal conto
-reset-password-with-recovery-key-verified-continue-to-account = Vinavant tar mes conto
 
 ## CompleteSignin component
 
@@ -1479,15 +1524,9 @@ signin-token-code-required-error = Code da conferma necessari
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Endatescha il code d'autentificaziun <span>per cuntinuar cun ils parameters dal conto</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Endatescha il code d'autentificaziun <span>per cuntinuar cun { $serviceName }</span>
-signin-totp-code-instruction-v2 = Avra tia applicaziun d'autentificaziun ed endatescha il code d'autentificaziun furnì.
-signin-totp-code-input-label-v2 = Endatescha il code da 6 cifras
+signin-totp-code-subheader = Endatescha il code da segirezza per l’autentificaziun en dus pass (2FA)
+signin-totp-code-instruction-v3 = Consultescha tia app d’autentificaziun per confermar tia annunzia.
+signin-totp-code-input-label-v3 = Endatescha il code
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confermar
 signin-totp-code-other-account-link = Utilisar in auter conto
