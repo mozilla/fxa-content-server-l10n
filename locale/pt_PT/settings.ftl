@@ -1341,8 +1341,8 @@ third-party-auth-callback-message = Por favor, aguarde. Está a ser reencaminhad
 
 ## AccountRecoveryConfirmKey page
 
-account-recovery-confirm-key-heading = Insira a sua chave de recuperação da conta
-account-recovery-confirm-key-instruction = Esta chave recuperar os seus dados de navegação encriptados, tais como palavras-passe e marcadores, dos servidores { -brand-firefox }.
+account-recovery-confirm-key-heading = Introduza a sua chave de recuperação da conta
+account-recovery-confirm-key-instruction = Esta chave recupera os seus dados de navegação encriptados, tais como palavras-passe e marcadores, dos servidores { -brand-firefox }.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
@@ -1368,7 +1368,7 @@ complete-reset-password-error-alert = Desculpe, ocorreu um problema ao definir a
 complete-reset-pw-recovery-key-link = Utilizar uma chave de recuperação da conta
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
-reset-password-complete-banner-heading = A sua palavra-passe foi reposta.
+reset-password-complete-banner-heading = A sua palavra-passe foi redefinida.
 reset-password-complete-banner-message = Não se esqueça de gerar uma nova chave de recuperação de conta a partir das definições da sua { -product-mozilla-account } para evitar futuros problemas de início de sessão.
 
 ## Confirm Reset Password With Code
@@ -1390,17 +1390,17 @@ confirm-reset-password-otp-different-account-link = Utilizar uma conta diferente
 
 ## PasswordResetConfirmTotp Page
 
-confirm-totp-reset-password-header = Repor a sua palavra-passe
-confirm-totp-reset-password-subheader = Insira o seu código de segurança da autenticação de dois fatores (2FA)
-confirm-totp-reset-password-instruction = Verifique a sua aplicação de autenticação para repor a sua palavra-passe.
-confirm-totp-reset-password-trouble-code = Problemas ao inserir o código?
+confirm-totp-reset-password-header = Redefinir a sua palavra-passe
+confirm-totp-reset-password-subheader = Introduza o seu código de segurança da autenticação de dois fatores (2FA)
+confirm-totp-reset-password-instruction = Consulte a sua aplicação de autenticação para redefinir a sua palavra-passe.
+confirm-totp-reset-password-trouble-code = Problemas ao introduzir o código?
 confirm-totp-reset-password-confirm-button = Confirmar
-confirm-totp-reset-password-input-label = Introduzir código
+confirm-totp-reset-password-input-label = Introduzir o código
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Redefinir a sua palavra-passe
-password-reset-body-2 = Iremos perguntar-lhe algumas coisas que apenas você sabe para manter a sua conta segura.
+password-reset-body-2 = Iremos perguntar-lhe algumas coisas que apenas você sabe, para manter a sua conta segura.
 password-reset-email-input =
     .label = Inserir o seu e-mail
 password-reset-submit-button-2 = Continuar
@@ -1413,7 +1413,7 @@ reset-password-confirmed-cta = Continuar para { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
 reset-password-complete-new-password-saved = Nova palavra-passe guardada!
 reset-password-complete-recovery-key-created = Nova chave de recuperação da conta criada. Transferir e guardar agora.
-reset-password-complete-recovery-key-download-info = Esta chave é essencial para a recuperação dos dados, caso se esqueça da sua palavra-passe. <b>Transferir e guardar em segurança agora, pois não poderá aceder novamente a esta página mais tarde.</b>
+reset-password-complete-recovery-key-download-info = Esta chave é essencial para a recuperação dos dados, caso se esqueça da sua palavra-passe. <b>Faça a transferência e guarde a mesma em segurança agora, pois não poderá aceder novamente a esta página mais tarde.</b>
 
 ## CompleteSignin component
 
@@ -1534,7 +1534,7 @@ signin-token-code-required-error = É necessário o código de confirmação
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Insira o seu código de segurança da autenticação de dois fatores (2FA)
+signin-totp-code-subheader = Introduza o seu código de segurança da autenticação de dois fatores (2FA)
 signin-totp-code-instruction-v3 = Consulte a sua aplicação de autenticação para confirmar o seu início de sessão.
 signin-totp-code-input-label-v3 = Introduzir código
 # Form button to confirm if the authentication code entered by the user is valid
