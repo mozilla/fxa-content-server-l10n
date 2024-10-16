@@ -1376,6 +1376,7 @@ complete-reset-pw-recovery-key-link = Використати ключ відно
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ваш пароль було скинуто.
+reset-password-complete-banner-message = Не забудьте згенерувати новий ключ відновлення облікового запису в налаштуваннях { -product-mozilla-account }, щоб уникнути проблем з входом у майбутньому.
 
 ## Confirm Reset Password With Code
 
