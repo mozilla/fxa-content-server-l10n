@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Wichtig: Wählen Sie ein a
 password-forgot-otp-subject = Passwort vergessen?
 password-forgot-otp-title = Passwort vergessen?
 password-forgot-otp-request = Wir haben eine Anfrage zur Passwortänderung für Ihr { -product-mozilla-account } erhalten von:
-password-forgot-otp-code = Wenn ja, ist hier Ihr Bestätigungscode, um fortzufahren:
+password-forgot-otp-code-2 = Wenn Sie das waren, ist hier Ihr Bestätigungscode, um fortzufahren:
 password-forgot-otp-expiry-notice = Dieser Code läuft in 10 Minuten ab.
-passwordReset-subject = Passwort aktualisiert
-passwordReset-title = Das Passwort Ihres Kontos wurde geändert
-passwordReset-description = Sie müssen Ihr neues Passwort auf den anderen Geräten eingeben, um die Synchronisation fortzusetzen.
+passwordReset-subject-2 = Ihr Passwort wurde zurückgesetzt.
+passwordReset-title-2 = Ihr Passwort wurde zurückgesetzt.
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Sie haben Ihr { -product-mozilla-account }-Passwort zurückgesetzt am:
 passwordResetAccountRecovery-subject-2 = Ihr Passwort wurde zurückgesetzt
-passwordResetAccountRecovery-title-2 = Passwort erfolgreich zurückgesetzt
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Sie haben Ihren Kontowiederherstellungsschlüssel verwendet, um Ihr Passwort zu aktualisieren von:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Kontowiederherstellungsschlüssel erstellen
-passwordResetAccountRecovery-regen-required-mjml-1 = Sie müssen sich auf allen synchronisierten Geräten erneut anmelden. Denken Sie daran, einen neuen Kontowiederherstellungsschlüssel zu erstellen, um den von Ihnen verwendeten zu ersetzen.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Sie müssen sich auf allen Ihren synchronisierten Geräten erneut anmelden. Denken Sie daran, einen neuen Kontowiederherstellungsschlüssel zu erstellen, um den verwendeten zu ersetzen:
+passwordResetAccountRecovery-title-3 = Ihr Passwort wurde zurückgesetzt.
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Sie haben Ihren Kontowiederherstellungsschlüssel verwendet, um Ihr { -product-mozilla-account }-Passwort am:
+passwordResetAccountRecovery-information = Wir haben Sie von allen synchronisierten Geräten abgemeldet. Wir haben einen neuen Kontowiederherstellungsschlüssel erstellt, um den von Ihnen verwendeten zu ersetzen. Sie können dies in Ihren Kontoeinstellungen ändern.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Wir haben Sie von allen synchronisierten Geräten abgemeldet. Wir haben einen neuen Kontowiederherstellungsschlüssel erstellt, um den von Ihnen verwendeten zu ersetzen. Dies können Sie in Ihren Account-Einstellungen ändern:
+passwordResetAccountRecovery-action-4 = Benutzerkonto verwalten
+passwordResetWithRecoveryKeyPrompt-subject = Ihr Passwort wurde zurückgesetzt.
+passwordResetWithRecoveryKeyPrompt-title = Ihr Passwort wurde zurückgesetzt.
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Sie haben Ihr { -product-mozilla-account }-Passwort zurückgesetzt am:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Kontowiederherstellungsschlüssel erstellen
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Kontowiederherstellungsschlüssel erstellen:
+passwordResetWithRecoveryKeyPrompt-cta-description = Sie müssen sich auf allen Ihren synchronisierten Geräten erneut anmelden. Schützen Sie Ihre Daten beim nächsten Mal mit einem Kontowiederherstellungsschlüssel. Hiermit können Sie Ihre Daten wiederherstellen, wenn Sie Ihr Passwort vergessen.
 postAddAccountRecovery-subject-3 = Neuer Kontowiederherstellungsschlüssel erstellt
 postAddAccountRecovery-title2 = Sie haben einen neuen Kontowiederherstellungsschlüssel erstellt
 # Key here refers to account recovery key
