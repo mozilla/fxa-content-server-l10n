@@ -1414,7 +1414,7 @@ reset-password-confirmed-cta = Parhau i { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-complete-new-password-saved = Cyfrinair newydd wedi'i gadw!
 reset-password-complete-recovery-key-created = Mae allwedd adfer cyfrif newydd wedi'i chreu. Llwythwch hi i lawr a'i chadw nawr.
-reset-password-complete-recovery-key-download-info = Mae'r allwedd hon yn hanfodol ar gyfer adfer data os byddwch yn anghofio eich cyfrinair. <b>Lawrlwythwch a storiwch hi'n ddiogel nawr, gan na fyddwch chi'n gallu cyrchu'r dudalen hon eto yn nes ymlaen.</b>
+reset-password-complete-recovery-key-download-info = Mae'r allwedd hon yn hanfodol ar gyfer adfer data os byddwch yn anghofio eich cyfrinair. <b>Llwythwch hi i lawr a'i chadw'n ddiogel nawr, gan na fydd modd i chi allu cyrchu'r dudalen hon eto yn nes ymlaen.</b>
 
 ## CompleteSignin component
 
