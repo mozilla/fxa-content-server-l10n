@@ -326,22 +326,32 @@ passwordChangeRequired-different-password-plaintext = Important: Pick a differen
 password-forgot-otp-subject = Forgot your password?
 password-forgot-otp-title = Forgot your password?
 password-forgot-otp-request = We received a request for a password change on your { -product-mozilla-account } from:
-password-forgot-otp-code = If yes, here is your confirmation code to proceed:
+password-forgot-otp-code-2 = If this was you, here is your confirmation code to proceed:
 password-forgot-otp-expiry-notice = This code expires in 10 minutes.
 
-passwordReset-subject = Password updated
-passwordReset-title = Your account password was changed
-passwordReset-description = You will need to enter your new password on other devices to resume syncing.
+passwordReset-subject-2 = Your password has been reset
+passwordReset-title-2 = Your password has been reset
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = You reset your { -product-mozilla-account } password on:
 
 passwordResetAccountRecovery-subject-2 = Your password has been reset
-passwordResetAccountRecovery-title-2 = Password reset successfully
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = You used your account recovery key to update your password from:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Create account recovery key
-passwordResetAccountRecovery-regen-required-mjml-1 = You’ll need to sign in again on all of your synced devices. Remember to create a new account recovery key to replace the one you used.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = You’ll need to sign in again on all of your synced devices. Remember to create a new account recovery key to replace the one you used:
+passwordResetAccountRecovery-title-3 = Your password has been reset
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = You used your account recovery key to reset your { -product-mozilla-account } password on:
+passwordResetAccountRecovery-information = We logged you out of all your synced devices. We created a new account recovery key to replace the one you used. You can change it in your account settings.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = We logged you out of all your synced devices. We created a new account recovery key to replace the one you used. You can change it in your account settings:
+passwordResetAccountRecovery-action-4 = Manage account
+
+passwordResetWithRecoveryKeyPrompt-subject = Your password has been reset
+passwordResetWithRecoveryKeyPrompt-title = Your password has been reset
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = You reset your { -product-mozilla-account } password on:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Create account recovery key
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Create account recovery key:
+passwordResetWithRecoveryKeyPrompt-cta-description = You’ll need to sign in again on all of your synced devices. Keep your data safe next time with an account recovery key. This allows you to recover your data if you forget your password.
 
 postAddAccountRecovery-subject-3 = New account recovery key created
 postAddAccountRecovery-title2 = You created a new account recovery key
