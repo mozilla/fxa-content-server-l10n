@@ -405,6 +405,10 @@ password-reset-warning-icon = Aðvörun
 password-reset-chevron-expanded = Fella aðvörun saman
 password-reset-chevron-collapsed = Fella út aðvörun
 password-reset-data-may-not-be-recovered = Ekki er víst að vafragögnin þín verði endurheimt
+password-reset-previously-signed-in-device-2 = Ertu með tæki þar sem þú skráðir þig áður inn?
+password-reset-data-may-be-saved-locally-2 = Gögn vafrans þíns gætu verið vistuð á því tæki. Endurstilltu lykilorðið þitt og skráðu þig síðan þar inn til að endurheimta og samstilla gögnin þín.
+password-reset-no-old-device-2 = Ertu með nýtt tæki en hefur ekki aðgang að neinu af þínum eldri tækjum?
+password-reset-encrypted-data-cannot-be-recovered-2 = Því miður er ekki hægt að endurheimta dulkrituðu vafragögnin þín af { -brand-firefox } netþjónum.
 password-reset-warning-have-key = Ertu með endurheimtulykil reiknings?
 password-reset-warning-use-key-link = Notaðu það núna til að endurstilla lykilorðið þitt og halda gögnunum þínum
 
@@ -1144,6 +1148,7 @@ inline-recovery-key-setup-recovery-created = Endurheimtulykill reiknings útbúi
 inline-recovery-key-setup-download-header = Gerðu reikninginn þinn öruggan
 inline-recovery-key-setup-download-subheader = Sæktu hann og og vistaðu núna
 inline-recovery-key-setup-download-info = Geymdu þennan lykil einhvers staðar sem þú manst - þú munt ekki geta farið aftur á þessa síðu síðar.
+inline-recovery-key-setup-hint-header = Til öryggis
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1337,6 +1342,14 @@ third-party-auth-callback-message = Hinkraðu aðeins, þér verður endurbeint 
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Settu inn endurheimtulykilinn þinn
+account-recovery-confirm-key-instruction = Þessi lykill endurheimtir dulrituðu vafragögnin þín, eins og lykilorð og bókamerki, frá { -brand-firefox } netþjónum.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Settu inn 32-stafa endurheimtulykilinn þinn
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Vísbendingin þín er:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Halda áfram
 # Link that leads to the password reset page (without recovery code)
@@ -1357,6 +1370,7 @@ complete-reset-pw-recovery-key-link = Nota endurheimtarlykil reiknings
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Lykilorðið þitt var endurstillt.
+reset-password-complete-banner-message = Ekki gleyma að búa til nýjan endurheimtulykil í { -product-mozilla-account } stillingunum þínum til að koma í veg fyrir möguleg vandamál með innskráningu í framtíðinni.
 
 ## Confirm Reset Password With Code
 
@@ -1379,6 +1393,7 @@ confirm-reset-password-otp-different-account-link = Nota annan reikning
 
 confirm-totp-reset-password-header = Endurstilla lykilorðið þitt
 confirm-totp-reset-password-subheader = Settu inn tveggja-þátta auðkenningaröryggiskóðann þinn (2FA)
+confirm-totp-reset-password-instruction = Athugaðu auðkenningarforritið þitt til að endurstilla lykilorðið.
 confirm-totp-reset-password-trouble-code = Vandamál við að setja inn kóða?
 confirm-totp-reset-password-confirm-button = Staðfesta
 confirm-totp-reset-password-input-label = Settu inn kóða
