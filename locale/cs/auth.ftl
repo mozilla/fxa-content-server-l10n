@@ -287,20 +287,29 @@ passwordChangeRequired-different-password-plaintext = Důležité: Jako nové he
 password-forgot-otp-subject = Zapomněli jste heslo?
 password-forgot-otp-title = Zapomněli jste heslo?
 password-forgot-otp-request = Obdrželi jsme žádost o změnu hesla k vašemu { -product-mozilla-account(case: "dat", capitalization: "lowercase") } z:
-password-forgot-otp-code = Pokud ano, tady je váš potvrzovací kód:
+password-forgot-otp-code-2 = Pokud jste to byli vy, zde je váš potvrzovací kód:
 password-forgot-otp-expiry-notice = Platnost kódu vyprší za 10 minut.
-passwordReset-subject = Heslo změněno
-passwordReset-title = Heslo k vašemu účtu bylo změněno
-passwordReset-description = Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo.
+passwordReset-subject-2 = Vaše heslo bylo obnoveno
+passwordReset-title-2 = Vaše heslo bylo obnoveno
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Heslo ke svému { -product-mozilla-account(case: "dat") } obnovíte dne:
 passwordResetAccountRecovery-subject-2 = Vaše heslo bylo obnoveno
-passwordResetAccountRecovery-title-2 = Heslo bylo úspěšně obnoveno
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Použili jste obnovovací klíč k účtu k aktualizaci hesla z:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Vytvořit obnovovací klíč k účtu
-passwordResetAccountRecovery-regen-required-mjml-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali:
+passwordResetAccountRecovery-title-3 = Vaše heslo bylo obnoveno
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Pomocí obnovovacího klíče k účtu jste obnovili heslo k { -product-mozilla-account(case: "dat") } dne:
+passwordResetAccountRecovery-information = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, který jste používali dříve. Můžete to změnit v nastavení účtu.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, který jste používali dříve. Můžete to změnit v nastavení účtu:
+passwordResetAccountRecovery-action-4 = Správa účtu
+passwordResetWithRecoveryKeyPrompt-subject = Vaše heslo bylo obnoveno
+passwordResetWithRecoveryKeyPrompt-title = Vaše heslo bylo obnoveno
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Heslo ke svému { -product-mozilla-account(case: "dat") } obnovíte dne:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Vytvořit obnovovací klíč k účtu
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Vytvořit obnovovací klíč k účtu:
+passwordResetWithRecoveryKeyPrompt-cta-description = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Mějte svá data pro příště v bezpečí pomocí klíče pro obnovení účtu. To vám umožní obnovit vaše data, pokud zapomenete své heslo.
 postAddAccountRecovery-subject-3 = Nový obnovovací klíč k účtu byl vytvořen
 postAddAccountRecovery-title2 = Vytvořili jste nový obnovovací klíč k účtu
 # Key here refers to account recovery key
