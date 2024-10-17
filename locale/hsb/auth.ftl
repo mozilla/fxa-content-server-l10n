@@ -287,20 +287,18 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjerće druhe he
 password-forgot-otp-subject = Sće swoje hesło zabył?
 password-forgot-otp-title = Sće swoje hesło zabył?
 password-forgot-otp-request = Smy próstwu wo změnjenje hesła za waše { -product-mozilla-account(case: "acc", capitalization: "lower") } dóstali:
-password-forgot-otp-code = Jeli haj, tu je waš wobkrućenski kod, zo byšće pokročował:
 password-forgot-otp-expiry-notice = Tutón kod za 20 minutow spadnje.
-passwordReset-subject = Hesło je so zaktualizowało
-passwordReset-title = Waše kontowe hesło je so změniło
-passwordReset-description = Dyrbiće swoje nowe hesło na druhich gratach zapodać, zo byšće ze synchronizaciju pokročował.
+passwordReset-subject-2 = Waše hesło je so wróćo stajiło
+passwordReset-title-2 = Waše hesło je so wróćo stajiło
 passwordResetAccountRecovery-subject-2 = Waše hesło je so wróćo stajiło
-passwordResetAccountRecovery-title-2 = Hesło je so wuspěšnje wróćo stajiło
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Sće swój kontowy wobnowjenski kluč wužił, zo byšće swoje hesło aktualizował wot:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Kontowy wobnowjenski kluč wutworić
-passwordResetAccountRecovery-regen-required-mjml-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił:
+passwordResetAccountRecovery-title-3 = Waše hesło je so wróćo stajiło
+passwordResetAccountRecovery-action-4 = Konto rjadować
+passwordResetWithRecoveryKeyPrompt-subject = Waše hesło je so wróćo stajiło
+passwordResetWithRecoveryKeyPrompt-title = Waše hesło je so wróćo stajiło
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Kontowy wobnowjenski kluč wutworić
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Wutworće kontowy wobnowjenski kluč:
 postAddAccountRecovery-subject-3 = Nowy kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 # Key here refers to account recovery key
