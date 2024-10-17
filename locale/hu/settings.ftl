@@ -1422,7 +1422,10 @@ reset-password-confirmed-cta = Tovább erre: { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-complete-new-password-saved = Új jelszó elmentve!
 reset-password-complete-recovery-key-created = Új fiók-helyreállítási kulcs létrehozva. Töltse le és tárolja most.
-reset-password-complete-recovery-key-download-info = Ez a kulcs elengedhetetlen az adat-helyreállításhoz, ha elfelejti a jelszavát. <b>Töltse le és tárolja biztonságosan most, mert később nem fogja tudni újra elérni ezt az oldalt.</b>
+reset-password-complete-recovery-key-download-info =
+    Ez a kulcs elengedhetetlen az adat-helyreállításhoz,
+    ha elfelejti a jelszavát. <b>Töltse le és tárolja biztonságosan most,
+    mert később nem fogja tudni újra elérni ezt az oldalt.</b>
 
 ## CompleteSignin component
 
