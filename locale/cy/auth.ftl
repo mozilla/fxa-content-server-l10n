@@ -289,20 +289,29 @@ passwordChangeRequired-different-password-plaintext = Pwysig: Dewiswch gyfrinair
 password-forgot-otp-subject = Wedi anghofio eich cyfrinair?
 password-forgot-otp-title = Wedi anghofio eich cyfrinair?
 password-forgot-otp-request = Rydym wedi derbyn cais i newid cyfrinair ar eich cyfrif { -product-mozilla-account } oddi wrth:
-password-forgot-otp-code = Os ydych am ei newid, dyma'ch cod cadarnhau i barhau:
+password-forgot-otp-code-2 = Os mai chi oedd hwn, dyma'ch cod cadarnhau i symud ymlaen:
 password-forgot-otp-expiry-notice = Mae'r cod hwn yn dod i ben mewn 10 munud.
-passwordReset-subject = Diweddarwyd y cyfrinair
-passwordReset-title = Mae cyfrinair eich cyfrif wedi newid
-passwordReset-description = Bydd angen i chi roi eich cyfrinair newydd ar ddyfeisiau eraill i barhau eu cydweddu.
+passwordReset-subject-2 = Mae eich cyfrinair wedi ei ailosod
+passwordReset-title-2 = Mae eich cyfrinair wedi ei ailosod
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Rydych chi'n ailosod eich cyfrinair { -product-mozilla-account } ar:
 passwordResetAccountRecovery-subject-2 = Mae eich cyfrinair wedi'i ailosod
-passwordResetAccountRecovery-title-2 = Mae eich cyfrinair wedi'i ailosod yn llwyddiannus
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Rydych wedi defnyddio'ch allwedd adfer cyfrif i ddiweddaru'ch cyfrinair o:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Crëwch allwedd adfer cyfrif
-passwordResetAccountRecovery-regen-required-mjml-1 = Bydd angen i chi fewngofnodi eto ar bob un o'ch dyfeisiau wedi'u cydweddu. Cofiwch greu allwedd adfer cyfrif newydd yn lle'r un rydych wedi'i ddefnyddio.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Bydd angen i chi fewngofnodi eto ar bob un o'ch dyfeisiau wedi'u cydweddu. Cofiwch greu allwedd adfer cyfrif newydd yn lle'r un rydych wedi'i ddefnyddio.
+passwordResetAccountRecovery-title-3 = Mae eich cyfrinair wedi ei ailosod
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Fe wnaethoch chi ddefnyddio'ch allwedd adfer cyfrif i ailosod eich cyfrinair { -product-mozilla-account } ar:
+passwordResetAccountRecovery-information = Fe wnaethom eich allgofnodi o'ch holl ddyfeisiau wedi'u cysoni. Rydym wedi creu allwedd adfer cyfrif newydd yn lle'r un a ddefnyddiwyd gennych. Gallwch ei newid yng ngosodiadau eich cyfrif.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Fe wnaethom eich allgofnodi o'ch holl ddyfeisiau wedi'u cysoni. Rydym wedi creu allwedd adfer cyfrif newydd yn lle'r un a ddefnyddiwyd gennych. Gallwch ei newid yng ngosodiadau eich cyfrif:
+passwordResetAccountRecovery-action-4 = Rheoli cyfrif
+passwordResetWithRecoveryKeyPrompt-subject = Mae eich cyfrinair wedi ei ailosod
+passwordResetWithRecoveryKeyPrompt-title = Mae eich cyfrinair wedi ei ailosod
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Rydych chi'n ailosod eich cyfrinair { -product-mozilla-account } ar:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Crëwch allwedd adfer cyfrif
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Creu allwedd adfer cyfrif:
+passwordResetWithRecoveryKeyPrompt-cta-description = Bydd angen i chi fewngofnodi eto ar bob un o'ch dyfeisiau wedi'u cysoni. Cadwch eich data yn ddiogel y tro nesaf gydag allwedd adfer cyfrif. Mae hyn yn eich galluogi i adennill eich data os byddwch yn anghofio eich cyfrinair.
 postAddAccountRecovery-subject-3 = Allwedd adfer cyfrif newydd wedi'i chreu
 postAddAccountRecovery-title2 = Rydych chi wedi creu allwedd adfer cyfrif newydd
 # Key here refers to account recovery key
