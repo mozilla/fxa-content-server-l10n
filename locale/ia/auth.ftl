@@ -289,6 +289,12 @@ password-forgot-otp-expiry-notice = Iste codice expira in 10 minutas.
 passwordReset-title-2 = Tu contrasigno ha essite remontate
 passwordResetAccountRecovery-subject-2 = Tu contrasigno ha essite remontate
 passwordResetAccountRecovery-title-3 = Tu contrasigno ha essite remontate
+passwordResetAccountRecovery-information = Nos te disconnecteva de tote le tu apparatos synchronisate. Nos creava un nove clave recuperation del conto pro reimplaciar le sol que tu usava. Tu pote cambiar lo in parametros de tu conto.
+passwordResetAccountRecovery-action-4 = Gerer le conto
+passwordResetWithRecoveryKeyPrompt-subject = Tu contrasigno ha essite remontate
+passwordResetWithRecoveryKeyPrompt-title = Tu contrasigno ha essite remontate
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Crear clave de recuperation del conto
 postAddAccountRecovery-subject-3 = Nove clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Key here refers to account recovery key
