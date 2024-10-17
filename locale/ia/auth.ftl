@@ -285,20 +285,10 @@ passwordChangeRequired-different-password-plaintext = Importante: elige un contr
 password-forgot-otp-subject = Contrasigno oblidate?
 password-forgot-otp-title = Contrasigno oblidate?
 password-forgot-otp-request = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-mozilla-account } ab:
-password-forgot-otp-code = Si si, ecce tu codice de confirmation pro proceder:
 password-forgot-otp-expiry-notice = Iste codice expira in 10 minutas.
-passwordReset-subject = Contrasigno actualisate
-passwordReset-title = Le contrasigno de tu conto ha essite cambiate
-passwordReset-description = Il essera necesse que tu insere tu nove contrasigno sur altere apparatos pro continuar le synchronisation.
+passwordReset-title-2 = Tu contrasigno ha essite remontate
 passwordResetAccountRecovery-subject-2 = Tu contrasigno ha essite remontate
-passwordResetAccountRecovery-title-2 = Contrasigno remontate con successo
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Tu ha usate tu clave recuperation del conto pro actualisar tu contrasigno ab:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Crear clave de recuperation del conto
-passwordResetAccountRecovery-regen-required-mjml-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate:
+passwordResetAccountRecovery-title-3 = Tu contrasigno ha essite remontate
 postAddAccountRecovery-subject-3 = Nove clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Key here refers to account recovery key
