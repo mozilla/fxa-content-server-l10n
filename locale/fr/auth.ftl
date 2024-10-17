@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Important : choisissez un
 password-forgot-otp-subject = Mot de passe oublié ?
 password-forgot-otp-title = Mot de passe oublié ?
 password-forgot-otp-request = Nous avons reçu une demande de changement de mot de passe pour votre { -product-mozilla-account } depuis :
-password-forgot-otp-code = Si oui, voici le code de confirmation pour continuer :
+password-forgot-otp-code-2 = Si c’était vous, voici le code de confirmation pour continuer :
 password-forgot-otp-expiry-notice = Ce code expire dans 10 minutes.
-passwordReset-subject = Mot de passe mis à jour
-passwordReset-title = Le mot de passe de votre compte a été changé
-passwordReset-description = Vous devrez saisir votre nouveau mot de passe sur vos autres appareils pour reprendre la synchronisation.
+passwordReset-subject-2 = Votre mot de passe à été réinitialisé
+passwordReset-title-2 = Votre mot de passe à été réinitialisé
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Vous avez réinitialisé votre mot de passe de { -product-mozilla-account } sur :
 passwordResetAccountRecovery-subject-2 = Votre mot de passe a été réinitialisé
-passwordResetAccountRecovery-title-2 = Mot de passe réinitialisé
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Vous avez utilisé votre clé de récupération de compte pour mettre à jour votre mot de passe depuis :
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Créer une clé de récupération de compte
-passwordResetAccountRecovery-regen-required-mjml-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée :
+passwordResetAccountRecovery-title-3 = Votre mot de passe à été réinitialisé
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Vous avez utilisé la clé de récupération de votre compte pour réinitialiser votre mot de passe de { -product-mozilla-account } sur :
+passwordResetAccountRecovery-information = Nous vous avons déconnecté de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous utilisiez. Vous pouvez le modifier dans les paramètres de votre compte.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Nous vous avons déconnecté de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous utilisiez. Vous pouvez le modifier dans les paramètres de votre compte :
+passwordResetAccountRecovery-action-4 = Gérer le compte
+passwordResetWithRecoveryKeyPrompt-subject = Votre mot de passe à été réinitialisé
+passwordResetWithRecoveryKeyPrompt-title = Votre mot de passe à été réinitialisé
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Vous avez réinitialisé votre mot de passe de { -product-mozilla-account } sur :
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Créer une clé de récupération de compte
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Créer une clé de récupération de compte :
+passwordResetWithRecoveryKeyPrompt-cta-description = Vous devrez vous reconnecter sur tous vos appareils synchronisés. Gardez vos données en sécurité la prochaine fois avec une clé de récupération de compte. Cela vous permet de récupérer vos données si vous oubliez votre mot de passe.
 postAddAccountRecovery-subject-3 = Une nouvelle clé de récupération de compte a été créée
 postAddAccountRecovery-title2 = Vous avez créé une nouvelle clé de récupération de compte
 # Key here refers to account recovery key
