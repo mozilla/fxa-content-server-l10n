@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Viktigt: Välj ett annat l
 password-forgot-otp-subject = Glömt ditt lösenord?
 password-forgot-otp-title = Glömt ditt lösenord?
 password-forgot-otp-request = Vi fick en begäran om lösenordsändring på ditt { -product-mozilla-account } från:
-password-forgot-otp-code = Om ja, här är din bekräftelsekod för att fortsätta:
+password-forgot-otp-code-2 = Om det var du, här är din bekräftelsekod för att fortsätta:
 password-forgot-otp-expiry-notice = Denna kod upphör efter 10 minuter.
-passwordReset-subject = Lösenord uppdaterat
-passwordReset-title = Ditt lösenord till kontot ändrades
-passwordReset-description = Du måste ange ditt nya lösenord på andra enheter för att återuppta synkroniseringen.
+passwordReset-subject-2 = Ditt lösenord har återställts
+passwordReset-title-2 = Ditt lösenord har återställts
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Du återställde ditt lösenord för { -product-mozilla-account } på:
 passwordResetAccountRecovery-subject-2 = Ditt lösenord har återställts
-passwordResetAccountRecovery-title-2 = Lösenordet har återställts
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Du använde din kontoåterställningsnyckel för att uppdatera ditt lösenord från:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Skapa kontoåterställningsnyckel
-passwordResetAccountRecovery-regen-required-mjml-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde:
+passwordResetAccountRecovery-title-3 = Ditt lösenord har återställts
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Du använde din kontoåterställningsnyckel för att återställa ditt lösenord för { -product-mozilla-account } på:
+passwordResetAccountRecovery-information = Vi loggade ut dig från alla dina synkroniserade enheter. Vi skapade en ny kontoåterställningsnyckel för att ersätta den du använde. Du kan ändra det i dina kontoinställningar.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Vi loggade ut dig från alla dina synkroniserade enheter. Vi skapade en ny kontoåterställningsnyckel för att ersätta den du använde. Du kan ändra det i dina kontoinställningar:
+passwordResetAccountRecovery-action-4 = Hantera konto
+passwordResetWithRecoveryKeyPrompt-subject = Ditt lösenord har återställts
+passwordResetWithRecoveryKeyPrompt-title = Ditt lösenord har återställts
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Du återställde ditt lösenord för { -product-mozilla-account } på:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Skapa kontoåterställningsnyckel
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Skapa kontoåterställningsnyckel:
+passwordResetWithRecoveryKeyPrompt-cta-description = Du måste logga in igen på alla dina synkroniserade enheter. Håll din data säker nästa gång med en kontoåterställningsnyckel. Detta gör att du kan återställa din data om du glömmer ditt lösenord.
 postAddAccountRecovery-subject-3 = Ny nyckel för kontoåterställning skapad
 postAddAccountRecovery-title2 = Du skapade en ny kontoåterställningsnyckel
 # Key here refers to account recovery key
