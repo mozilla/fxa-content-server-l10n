@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Fontos: Válasszon egy má
 password-forgot-otp-subject = Elfelejtette a jelszavát?
 password-forgot-otp-title = Elfelejtette a jelszavát?
 password-forgot-otp-request = A { -product-mozilla-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
-password-forgot-otp-code = Ha igen, akkor itt a megerősítő kód a folytatáshoz:
+password-forgot-otp-code-2 = Ha ez Ön volt, akkor itt a megerősítő kódja a folytatáshoz:
 password-forgot-otp-expiry-notice = Ez a kód 10 perc múlva lejár.
-passwordReset-subject = A jelszó frissítve
-passwordReset-title = A fiók jelszava megváltozott
-passwordReset-description = A szinkronizáció folytatásához meg kell adnia a jelszavát a többi eszközén is.
+passwordReset-subject-2 = A jelszó vissza lett állítva
+passwordReset-title-2 = A jelszó vissza lett állítva
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Visszaállította a { -product-mozilla-account }ja jelszavát ekkor:
 passwordResetAccountRecovery-subject-2 = A jelszó vissza lett állítva
-passwordResetAccountRecovery-title-2 = Jelszó sikeresen visszaállítva
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Fiók-helyreállítási kulcsával frissítette jelszavát a következőről:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Fiók-helyreállítási kulcs létrehozása
-passwordResetAccountRecovery-regen-required-mjml-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett:
+passwordResetAccountRecovery-title-3 = A jelszó vissza lett állítva
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = A fiók-helyreállítási kulcsát használta a { -product-mozilla-account }jához tartozó jelszavának visszaállításához a következőn:
+passwordResetAccountRecovery-information = Kijelentkeztettük az összes szinkronizált eszközéről. Készítettünk egy új fiók-helyreállítási kulcsot a most használt kulcs helyett. Ezt a fiókbeállításokban módosíthatja.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Kijelentkeztettük az összes szinkronizált eszközéről. Készítettünk egy új fiók-helyreállítási kulcsot a most használt kulcs helyett. Ezt a fiókbeállításokban módosíthatja:
+passwordResetAccountRecovery-action-4 = Fiók kezelése
+passwordResetWithRecoveryKeyPrompt-subject = A jelszó vissza lett állítva
+passwordResetWithRecoveryKeyPrompt-title = A jelszó vissza lett állítva
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Visszaállította a { -product-mozilla-account }ja jelszavát ekkor:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Fiók-helyreállítási kulcs létrehozása
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Fiók-helyreállítási kulcs létrehozása:
+passwordResetWithRecoveryKeyPrompt-cta-description = Újra be kell jelentkeznie az összes szinkronizált eszközén. Tartsa adatait biztonságban legközelebb egy fiók-helyreállítási kulccsal. Ez lehetővé teszi, hogy visszaállítsa az adatait, ha elfelejti a jelszavát.
 postAddAccountRecovery-subject-3 = Új fiók-helyreállítási kulcs létrehozva
 postAddAccountRecovery-title2 = Létrehozott egy új fiók-helyreállítási kulcsot
 # Key here refers to account recovery key
