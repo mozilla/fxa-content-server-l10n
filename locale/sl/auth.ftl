@@ -287,20 +287,29 @@ passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugač
 password-forgot-otp-subject = Ste pozabili geslo?
 password-forgot-otp-title = Ste pozabili geslo?
 password-forgot-otp-request = Prejeli smo zahtevo za spremembo gesla vašega { -product-mozilla-account(sklon: "rodilnik") } z:
-password-forgot-otp-code = Če da, za nadaljevanje uporabite to potrditveno kodo:
+password-forgot-otp-code-2 = Če ste to bili vi, je tu vaša potrditvena koda za nadaljevanje:
 password-forgot-otp-expiry-notice = Ta koda poteče čez 10 minut.
-passwordReset-subject = Geslo posodobljeno
-passwordReset-title = Geslo vašega računa je bilo spremenjeno
-passwordReset-description = Za nadaljevanje sinhronizacije boste morali na ostalih napravah vnesti svoje novo geslo.
+passwordReset-subject-2 = Vaše geslo je bilo ponastavljeno
+passwordReset-title-2 = Vaše geslo je bilo ponastavljeno
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Geslo ste ponastavili za { -product-mozilla-account }:
 passwordResetAccountRecovery-subject-2 = Vaše geslo je bilo ponastavljeno
-passwordResetAccountRecovery-title-2 = Geslo uspešno ponastavljeno
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = S ključem za obnovitev računa ste spremenili geslo z naslednje naprave:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Ustvari ključ za obnovitev računa
-passwordResetAccountRecovery-regen-required-mjml-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega:
+passwordResetAccountRecovery-title-3 = Vaše geslo je bilo ponastavljeno
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Uporabili ste ključ za obnovitev računa za ponastavitev gesla { -product-mozilla-account } na dan:
+passwordResetAccountRecovery-information = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil dosedanjega, ki ste ga vi uporabljali. Lahko ga spremenite v nastavitvah računa.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil dosedanjega, ki ste ga vi uporabljali. Lahko ga spremenite v nastavitvah računa:
+passwordResetAccountRecovery-action-4 = Upravljanje računa
+passwordResetWithRecoveryKeyPrompt-subject = Vaše geslo je bilo ponastavljeno
+passwordResetWithRecoveryKeyPrompt-title = Vaše geslo je bilo ponastavljeno
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Geslo ste ponastavili za { -product-mozilla-account }:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Ustvari ključ za obnovitev računa
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Ustvari ključ za obnovitev računa:
+passwordResetWithRecoveryKeyPrompt-cta-description = V vseh sinhroniziranih napravah se boste morali znova prijaviti. Ohranite svoje podatke naslednjič varne s ključem za obnovitev računa. Omogoča obnovitev podatkov v primeru, da pozabite geslo.
 postAddAccountRecovery-subject-3 = Nov ključ za obnovitev računa ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
 # Key here refers to account recovery key
