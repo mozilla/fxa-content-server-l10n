@@ -405,10 +405,10 @@ password-reset-warning-icon = Rhybudd
 password-reset-chevron-expanded = Cau'r rhybudd
 password-reset-chevron-collapsed = Ehangu'r rhybudd
 password-reset-data-may-not-be-recovered = Mae'n bosibl na fydd data eich porwr yn cael ei adfer
-password-reset-previously-signed-in-device-2 = Oes gennych chi unrhyw ddyfais lle gwnaethoch chi fewngofnodi o'r blaen?
-password-reset-data-may-be-saved-locally-2 = Mae'n bosibl y bydd data eich porwr yn cael ei gadw ar y ddyfais honno. Ailosodwch eich cyfrinair, yna mewngofnodwch yno i adfer a chysoni eich data.
+password-reset-previously-signed-in-device-2 = Oes gennych chi unrhyw ddyfais lle rydych wedi mewngofnodi o'r blaen?
+password-reset-data-may-be-saved-locally-2 = Mae'n bosibl fod data eich porwr wedi'i gadw ar y ddyfais honno. Ailosodwch eich cyfrinair, yna mewngofnodwch yno i adfer a chydweddu eich data.
 password-reset-no-old-device-2 = Oes gennych chi ddyfais newydd ond heb fynediad i unrhyw un o'ch rhai blaenorol?
-password-reset-encrypted-data-cannot-be-recovered-2 = Mae'n ddrwg gennym, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }.
+password-reset-encrypted-data-cannot-be-recovered-2 = Ymddiheuriadau, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }.
 password-reset-warning-have-key = Oes gennych chi allwedd adfer cyfrif?
 password-reset-warning-use-key-link = Defnyddiwch ef nawr i ailosod eich cyfrinair a chadw'ch data
 
@@ -1393,8 +1393,8 @@ confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 
 confirm-totp-reset-password-header = Ailosod eich cyfrinair
 confirm-totp-reset-password-subheader = Rhowch eich cod diogelwch dilysu dau ffactor (2FA)
-confirm-totp-reset-password-instruction = Gwiriwch eich app dilysu i ailosod eich cyfrinair.
-confirm-totp-reset-password-trouble-code = Trafferth cyflwyno cod?
+confirm-totp-reset-password-instruction = Gwiriwch eich ap dilysu i ailosod eich cyfrinair.
+confirm-totp-reset-password-trouble-code = Trafferth cyflwyno'r cod?
 confirm-totp-reset-password-confirm-button = Cadarnhau
 confirm-totp-reset-password-input-label = Rhowch y cod
 
