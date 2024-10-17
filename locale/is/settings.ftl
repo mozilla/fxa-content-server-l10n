@@ -194,6 +194,16 @@ form-verify-code-default-error = Þessi reitur er nauðsynlegur
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Settu inn { $codeLength }-talna kóða til að halda áfram
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Settu inn { $codeLength }-stafa kóða til að halda áfram
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -334,10 +344,10 @@ password-strength-balloon-stay-safe-tips = Tryggðu öriggið - ekki endurnýta 
 password-strength-inline-min-length = Að minnsta kosti 8 stafir
 password-strength-inline-not-email = Ekki tölvupóstfangið þitt
 password-strength-inline-not-common = Ekki algengt lykilorð
+password-strength-inline-confirmed-must-match = Staðfesting passar við nýja lykilorðið
 
 ## Ready component
 
-reset-password-complete-header = Lykilorðið þitt var endurstillt
 ready-complete-set-up-instruction = Ljúktu uppsetningunni með því að setja inn nýja lykilorðið á hinum { -brand-firefox }-tækjunum þínum.
 manage-your-account-button = Sýslaðu með reikninginn þinn
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -394,8 +404,9 @@ flow-recovery-key-hint-unsafe-char-error = Vísbendingin má ekki innihalda óö
 password-reset-warning-icon = Aðvörun
 password-reset-chevron-expanded = Fella aðvörun saman
 password-reset-chevron-collapsed = Fella út aðvörun
-password-reset-no-old-device = Ertu með nýtt tæki en ert ekki með það gamla?
-password-reset-learn-about-restoring-account-data = Frekari upplýsingar um endurheimt reikningsgagna
+password-reset-data-may-not-be-recovered = Ekki er víst að vafragögnin þín verði endurheimt
+password-reset-warning-have-key = Ertu með endurheimtulykil reiknings?
+password-reset-warning-use-key-link = Notaðu það núna til að endurstilla lykilorðið þitt og halda gögnunum þínum
 
 ## Alert Bar
 
@@ -1128,6 +1139,7 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Úbbs! Við gátum ekki búið til endurheimtulykilinn þinn. Reyndu aftur síðar.
 inline-recovery-key-setup-recovery-created = Endurheimtulykill reiknings útbúinn
 inline-recovery-key-setup-download-header = Gerðu reikninginn þinn öruggan
 inline-recovery-key-setup-download-subheader = Sæktu hann og og vistaðu núna
@@ -1340,8 +1352,11 @@ complete-reset-password-success-alert = Lykilorð stillt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Því miður kom upp vandamál við að stilla lykilorðið þitt
-password-reset-could-not-determine-account-recovery-key = Ertu með endurheimtulykil reiknings?
-password-reset-use-account-recovery-key = Endurstilltu lykilorðið þitt og haltu gögnunum þínum
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Nota endurheimtarlykil reiknings
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Lykilorðið þitt var endurstillt.
 
 ## Confirm Reset Password With Code
 
@@ -1360,15 +1375,36 @@ confirm-reset-password-otp-resend-code-button = Senda kóða aftur
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Nota annan reikning
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Endurstilla lykilorðið þitt
+confirm-totp-reset-password-subheader = Settu inn tveggja-þátta auðkenningaröryggiskóðann þinn (2FA)
+confirm-totp-reset-password-trouble-code = Vandamál við að setja inn kóða?
+confirm-totp-reset-password-confirm-button = Staðfesta
+confirm-totp-reset-password-input-label = Settu inn kóða
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Endurstilltu lykilorðið þitt
+password-reset-body-2 =
+    Við munum biðja um nokkra hluti sem aðeins þú veist til að halda reikningnum þínum
+    öruggum.
 password-reset-email-input =
     .label = Settu inn tölvupóstfangið þitt
 password-reset-submit-button-2 = Halda áfram
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Lykilorðið þitt var endurstillt
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Halda áfram í { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
-reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
-reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
+reset-password-complete-new-password-saved = Nýtt lykilorð vistað!
+reset-password-complete-recovery-key-created = Nýr endurheimtulykill reiknings búinn til - Sæktu hann núna og geymdu vel.
+reset-password-complete-recovery-key-download-info =
+    Þessi lykill er nauðsynlegur fyrir
+    endurheimt gagna ef þú gleymir lykilorðinu þínu. <b>Sæktu hann núna og geymdu á öruggum stað, 
+    þar sem þú munt ekki geta opnað þessa síðu aftur síðar.</b>
 
 ## CompleteSignin component
 
@@ -1489,6 +1525,8 @@ signin-token-code-required-error = Staðfestingarkóða krafist
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Settu inn tveggja-þátta auðkenningaröryggiskóðann þinn (2FA)
+signin-totp-code-instruction-v3 = Athugaðu auðkenningarforritið þitt til að staðfesta innskráninguna þína.
 signin-totp-code-input-label-v3 = Settu inn kóða
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Staðfesta

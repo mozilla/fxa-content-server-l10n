@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-10-09 10:39+0000\n"
+"PO-Revision-Date: 2024-10-17 10:39+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -1936,7 +1936,7 @@ msgstr "Að tengja farsímann þinn við Mozilla reikninginn þinn"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Opnaðu Firefox á tölvunni þinni, farðu á <b class=\"whitespace-nowrap\">firefox.com/pair</b> og fylgdu leiðbeiningunum á skjánum til að tengja snjalltækið þitt."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
@@ -1994,7 +1994,7 @@ msgstr "Pörun tækis mistókst"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "Ekki var hægt að ljúka uppsetningarferlinu. Skráðu þig inn með tölvupóstinum þínum."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
