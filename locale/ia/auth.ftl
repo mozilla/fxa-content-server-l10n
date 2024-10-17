@@ -285,16 +285,29 @@ passwordChangeRequired-different-password-plaintext = Importante: elige un contr
 password-forgot-otp-subject = Contrasigno oblidate?
 password-forgot-otp-title = Contrasigno oblidate?
 password-forgot-otp-request = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-mozilla-account } ab:
+password-forgot-otp-code-2 = Si isto era tu, ecce tu codice de confirmation pro continuar:
 password-forgot-otp-expiry-notice = Iste codice expira in 10 minutas.
+passwordReset-subject-2 = Tu contrasigno ha essite remontate
 passwordReset-title-2 = Tu contrasigno ha essite remontate
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Tu remontava tu contrasigno pro { -product-mozilla-account } sur:
 passwordResetAccountRecovery-subject-2 = Tu contrasigno ha essite remontate
 passwordResetAccountRecovery-title-3 = Tu contrasigno ha essite remontate
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Tu usava tu clave recuperation del conto pro remontar tu contrasigno pro { -product-mozilla-account } sur:
 passwordResetAccountRecovery-information = Nos te disconnecteva de tote le tu apparatos synchronisate. Nos creava un nove clave recuperation del conto pro reimplaciar le sol que tu usava. Tu pote cambiar lo in parametros de tu conto.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Nos te disconnecteva de tote le tu apparatos synchronisate. Nos creava un nove clave recuperation del conto pro reimplaciar le sol que tu usava. Tu pote cambiar lo in parametros de tu conto:
 passwordResetAccountRecovery-action-4 = Gerer le conto
 passwordResetWithRecoveryKeyPrompt-subject = Tu contrasigno ha essite remontate
 passwordResetWithRecoveryKeyPrompt-title = Tu contrasigno ha essite remontate
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Tu remontava tu contrasigno pro { -product-mozilla-account } sur:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Crear clave de recuperation del conto
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Crear clave de recuperation del conto:
+passwordResetWithRecoveryKeyPrompt-cta-description = Tu debera acceder de novo sur tote tu apparatos synchronisate. Mantene tu datos secur le proxime vice con un clave recuperation del conto. Isto te permitte de recuperar tu datos si tu oblida tu contrasigno.
 postAddAccountRecovery-subject-3 = Nove clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Key here refers to account recovery key
