@@ -558,12 +558,12 @@ unblockCode-prompt-plaintext = Ha igen, akkor erre az engedélyezési kódra van
 unblockCode-report = Ha nem, akkor segítsen kivédeni a behatolókat, és <a data-l10n-name="reportSignInLink">jelentse nekünk.</a>
 unblockCode-report-plaintext = Ha nem, akkor segítsen kivédeni a behatolókat, és jelentse nekünk.
 verificationReminderFinal-subject = Végső emlékeztető, hogy erősítse meg a fiókját
-verificationReminderFinal-description-2 = Néhány hete létrehozott egy { -product-mozilla-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
+verificationReminderFinal-description-2 = Néhány hete létrehozott egy { -product-mozilla-account }ot, de sosem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
 confirm-account = Fiók megerősítése
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
 verificationReminderFirst-title-3 = Üdvözli a { -brand-mozilla }!
-verificationReminderFirst-description-3 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 15 napon belül nem igazolja vissza.
+verificationReminderFirst-description-3 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de sosem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 15 napon belül nem igazolja vissza.
 verificationReminderFirst-sub-description-3 = Ne hagyja ki azt a böngészőt, amely Önt és a magánszféráját teszi az első helyre.
 confirm-email-2 = Fiók megerősítése
 confirm-email-plaintext-2 = { confirm-email-2 }:
