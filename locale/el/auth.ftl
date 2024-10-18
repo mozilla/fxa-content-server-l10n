@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Σημαντικό: Επι
 password-forgot-otp-subject = Ξεχάσατε τον κωδικό πρόσβασής σας;
 password-forgot-otp-title = Ξεχάσατε τον κωδικό πρόσβασής σας;
 password-forgot-otp-request = Λάβαμε ένα αίτημα αλλαγής κωδικού πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας από:
-password-forgot-otp-code = Εάν ναι, ακολουθεί ο κωδικός επιβεβαίωσης για να συνεχίσετε:
+password-forgot-otp-code-2 = Εάν το κάνατε εσείς, συνεχίστε με τον παρακάτω κωδικό επιβεβαίωσης:
 password-forgot-otp-expiry-notice = Αυτός ο κωδικός λήγει σε 10 λεπτά.
-passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθηκε
-passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
-passwordReset-description = Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό.
+passwordReset-subject-2 = Έγινε επαναφορά του κωδικού πρόσβασής σας
+passwordReset-title-2 = Έγινε επαναφορά του κωδικού πρόσβασής σας
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Επαναφέρατε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας στις:
 passwordResetAccountRecovery-subject-2 = Έγινε επαναφορά του κωδικού πρόσβασής σας
-passwordResetAccountRecovery-title-2 = Επιτυχής επαναφορά κωδικού πρόσβασης
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Χρησιμοποιήσατε το κλειδί ανάκτησης λογαριασμού σας για να ενημερώσετε τον κωδικό πρόσβασής σας από το:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Δημιουργία κλειδιού ανάκτησης λογαριασμού
-passwordResetAccountRecovery-regen-required-mjml-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε:
+passwordResetAccountRecovery-title-3 = Έγινε επαναφορά του κωδικού πρόσβασής σας
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Χρησιμοποιήσατε το κλειδί ανάκτησης του λογαριασμού σας για να επαναφέρετε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας στις:
+passwordResetAccountRecovery-information = Σας αποσυνδέσαμε από όλες τις συγχρονισμένες συσκευές σας. Δημιουργήσαμε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσουμε αυτό που χρησιμοποιήσατε. Μπορείτε να το αλλάξετε στις ρυθμίσεις του λογαριασμού σας.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Σας αποσυνδέσαμε από όλες τις συγχρονισμένες συσκευές σας. Δημιουργήσαμε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσουμε αυτό που χρησιμοποιήσατε. Μπορείτε να το αλλάξετε στις ρυθμίσεις του λογαριασμού σας:
+passwordResetAccountRecovery-action-4 = Διαχείριση λογαριασμού
+passwordResetWithRecoveryKeyPrompt-subject = Έγινε επαναφορά του κωδικού πρόσβασής σας
+passwordResetWithRecoveryKeyPrompt-title = Έγινε επαναφορά του κωδικού πρόσβασής σας
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Επαναφέρατε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας στις:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Δημιουργία κλειδιού ανάκτησης λογαριασμού
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Δημιουργία κλειδιού ανάκτησης λογαριασμού:
+passwordResetWithRecoveryKeyPrompt-cta-description = Θα πρέπει να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Προστατέψτε τα δεδομένα σας την επόμενη φορά με ένα κλειδί ανάκτησης λογαριασμού. Αυτό σας επιτρέπει να ανακτήσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 postAddAccountRecovery-subject-3 = Δημιουργήθηκε νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 # Key here refers to account recovery key
