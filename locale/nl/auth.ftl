@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Belangrijk: kies een ander
 password-forgot-otp-subject = Uw wachtwoord vergeten?
 password-forgot-otp-title = Uw wachtwoord vergeten?
 password-forgot-otp-request = We hebben een verzoek ontvangen voor een wachtwoordwijziging op uw { -product-mozilla-account } van:
-password-forgot-otp-code = Zo ja, dan is dit uw bevestigingscode om verder te gaan:
+password-forgot-otp-code-2 = Als u dit was, dan is dit uw bevestigingscode om verder te gaan:
 password-forgot-otp-expiry-notice = Deze code verloopt over 10 minuten.
-passwordReset-subject = Wachtwoord bijgewerkt
-passwordReset-title = Uw accountwachtwoord is gewijzigd
-passwordReset-description = U dient uw nieuwe wachtwoord op andere apparaten in te voeren om de synchronisatie te hervatten.
+passwordReset-subject-2 = Uw wachtwoord is opnieuw ingesteld
+passwordReset-title-2 = Uw wachtwoord is opnieuw ingesteld
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = U hebt uw { -product-mozilla-account }-wachtwoord opnieuw ingesteld op:
 passwordResetAccountRecovery-subject-2 = Uw wachtwoord is opnieuw ingesteld
-passwordResetAccountRecovery-title-2 = Wachtwoord met succes opnieuw ingesteld
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = U hebt uw accountherstelsleutel gebruikt om uw wachtwoord bij te werken vanaf:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Accountherstelsleutel aanmaken
-passwordResetAccountRecovery-regen-required-mjml-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen:
+passwordResetAccountRecovery-title-3 = Uw wachtwoord is opnieuw ingesteld
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = U hebt uw accountherstelsleutel gebruikt om uw { -product-mozilla-account }-wachtwoord opnieuw in te stellen op:
+passwordResetAccountRecovery-information = We hebben u op al uw gesynchroniseerde apparaten afgemeld. We hebben een nieuwe accountherstelsleutel aangemaakt om de gebruikte sleutel te vervangen. U kunt dit wijzigen in uw accountinstellingen.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = We hebben u op al uw gesynchroniseerde apparaten afgemeld. We hebben een nieuwe accountherstelsleutel aangemaakt om de gebruikte sleutel te vervangen. U kunt dit wijzigen in uw accountinstellingen:
+passwordResetAccountRecovery-action-4 = Account beheren
+passwordResetWithRecoveryKeyPrompt-subject = Uw wachtwoord is opnieuw ingesteld
+passwordResetWithRecoveryKeyPrompt-title = Uw wachtwoord is opnieuw ingesteld
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = U hebt uw { -product-mozilla-account }-wachtwoord opnieuw ingesteld op:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Accountherstelsleutel aanmaken
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Accountherstelsleutel aanmaken:
+passwordResetWithRecoveryKeyPrompt-cta-description = U dient zich opnieuw aan te melden op al uw gesynchroniseerde apparaten. Houd uw gegevens de volgende keer veilig met een accountherstelsleutel. Hierdoor kunt u uw gegevens herstellen als u uw wachtwoord bent vergeten.
 postAddAccountRecovery-subject-3 = Nieuwe accountherstelsleutel aangemaakt
 postAddAccountRecovery-title2 = U hebt een nieuwe sleutel voor accountherstel aangemaakt
 # Key here refers to account recovery key
