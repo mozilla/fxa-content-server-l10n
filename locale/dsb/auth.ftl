@@ -287,20 +287,11 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge g
 password-forgot-otp-subject = Sćo swójo gronidło zabył?
 password-forgot-otp-title = Sćo swójo gronidło zabył?
 password-forgot-otp-request = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:
-password-forgot-otp-code = Jolic jo, how jo waš wobkšuśeński kod, aby wy pókšacował:
+password-forgot-otp-code-2 = Jolic sćo to był wy, how jo waš wobkšuśeński kod, aby wy pókšacował:
 password-forgot-otp-expiry-notice = Toś ten kod za 20 minutow spadnjo.
-passwordReset-subject = Gronidło jo se zaktualizěrowało
-passwordReset-title = Wašo kontowe gronidło jo se změniło
-passwordReset-description = Musyśo swójo nowe gronidło na drugich rědach zapódaś, aby ze synchronizaciju pókšacował.
+passwordReset-subject-2 = Wašo gronidło jo se slědk stajiło
+passwordReset-title-2 = Wašo gronidło jo se slědk stajiło
 passwordResetAccountRecovery-subject-2 = Wašo gronidło jo se slědk stajiło
-passwordResetAccountRecovery-title-2 = Gronidło jo se wuspěšnje slědk stajiło
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Sćo wužył swój kontowy wótnowjeński kluc, aby swójo gronidło aktualizěrował wót:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Kontowy wótnowjeński kluc napóraś
-passwordResetAccountRecovery-regen-required-mjml-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył:
 postAddAccountRecovery-subject-3 = Nowy kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 # Key here refers to account recovery key
