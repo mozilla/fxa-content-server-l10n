@@ -282,20 +282,28 @@ passwordChangeRequired-different-password-plaintext = 重要：请改用您从�
 password-forgot-otp-subject = 忘记密码？
 password-forgot-otp-title = 忘记密码？
 password-forgot-otp-request = 我们收到更改 { -product-mozilla-account }密码的请求，来自：
-password-forgot-otp-code = 如果是您本人请求，请使用此确认码来继续操作：
+password-forgot-otp-code-2 = 如果是您本人请求，请使用此确认码来继续操作：
 password-forgot-otp-expiry-notice = 此确认码会在 10 分钟后过期。
-passwordReset-subject = 密码已更新
-passwordReset-title = 您的密码已变更
-passwordReset-description = 您必须在其他设备上输入新密码才能继续同步。
+passwordReset-subject-2 = 您的密码已重置
+passwordReset-title-2 = 您的密码已重置
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = 您通过以下设备重置了 { -product-mozilla-account }密码：
 passwordResetAccountRecovery-subject-2 = 您的密码已重置
-passwordResetAccountRecovery-title-2 = 密码重置成功
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = 您已从下列位置使用账户恢复密钥更改密码：
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = 创建账户恢复密钥
-passwordResetAccountRecovery-regen-required-mjml-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥。
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥：
+passwordResetAccountRecovery-title-3 = 您的密码已重置
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = 您通过以下设备使用账户恢复密钥，重置了 { -product-mozilla-account }密码：
+passwordResetAccountRecovery-information = 我们已将您从所有同步的设备上退出登录。我们创建了新的账户恢复密钥，用以替换已使用的密钥，您可以在账户设置中进行更改。
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = 我们已将您从所有同步的设备上退出登录。我们创建了新的账户恢复密钥，用以替换已使用的密钥，您可以在账户设置中进行更改。
+passwordResetAccountRecovery-action-4 = 管理账户
+passwordResetWithRecoveryKeyPrompt-subject = 您的密码已重置
+passwordResetWithRecoveryKeyPrompt-title = 您的密码已重置
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = 您通过以下设备重置了 { -product-mozilla-account }密码：
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = 创建账户恢复密钥
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = 创建账户恢复密钥：
 postAddAccountRecovery-subject-3 = 已创建新的账户恢复密钥
 postAddAccountRecovery-title2 = 您已生成新的账户恢复密钥
 # Key here refers to account recovery key
