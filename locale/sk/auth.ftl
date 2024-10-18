@@ -286,20 +286,29 @@ passwordChangeRequired-different-password-plaintext = Dôležité: Zvoľte si in
 password-forgot-otp-subject = Zabudli ste heslo?
 password-forgot-otp-title = Zabudli ste heslo?
 password-forgot-otp-request = Dostali sme žiadosť o zmenu hesla k vášmu { -product-mozilla-account(capitalization: "lower", case: "dat") } z:
-password-forgot-otp-code = Ak áno, tu je váš potvrdzovací kód, aby ste mohli pokračovať:
+password-forgot-otp-code-2 = Ak ste to boli vy, tu je váš potvrdzovací kód, aby ste mohli pokračovať:
 password-forgot-otp-expiry-notice = Platnosť tohto kódu vyprší o 10 minút.
-passwordReset-subject = Heslo bolo aktualizované
-passwordReset-title = Heslo k vášmu účtu bolo zmenené
-passwordReset-description = Aby bolo možné pokračovať v synchronizácii na ostatných zariadeniach, musíte na nich zadať nové heslo.
+passwordReset-subject-2 = Vaše heslo bolo obnovené
+passwordReset-title-2 = Vaše heslo bolo obnovené
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste obnovili na:
 passwordResetAccountRecovery-subject-2 = Vaše heslo bolo obnovené
-passwordResetAccountRecovery-title-2 = Heslo bolo úspešne obnovené
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Použili ste kľúč na obnovenie účtu na aktualizáciu hesla z:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Vytvoriť kľúč na obnovenie účtu
-passwordResetAccountRecovery-regen-required-mjml-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili:
+passwordResetAccountRecovery-title-3 = Vaše heslo bolo obnovené
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Použili ste kľúč na obnovenie účtu na obnovenie hesla { -product-mozilla-account(case: "dat", capitalization: "lower") } na:
+passwordResetAccountRecovery-information = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu:
+passwordResetAccountRecovery-action-4 = Spravovať účet
+passwordResetWithRecoveryKeyPrompt-subject = Vaše heslo bolo obnovené
+passwordResetWithRecoveryKeyPrompt-title = Vaše heslo bolo obnovené
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste obnovili na:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Vytvoriť kľúč na obnovenie účtu
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Vytvoriť kľúč na obnovenie účtu:
+passwordResetWithRecoveryKeyPrompt-cta-description = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Uchovajte svoje údaje nabudúce v bezpečí pomocou kľúča na obnovenie účtu. To vám umožní obnoviť vaše údaje, ak zabudnete heslo.
 postAddAccountRecovery-subject-3 = Bol vytvorený nový kľúč na obnovenie účtu
 postAddAccountRecovery-title2 = Vytvorili ste nový kľúč na obnovenie účtu
 # Key here refers to account recovery key
