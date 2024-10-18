@@ -295,9 +295,13 @@ passwordReset-title-2 = Waše hesło je so wróćo stajiło
 passwordReset-description-2 = Sće swoje hesło { -product-mozilla-account }  wróćo stajił:
 passwordResetAccountRecovery-subject-2 = Waše hesło je so wróćo stajiło
 passwordResetAccountRecovery-title-3 = Waše hesło je so wróćo stajiło
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Sće swój kontowy wobnowjenski kluč wužił, zo byšće swoje hesło { -product-mozilla-account } wróćo stajił dnja:
 passwordResetAccountRecovery-action-4 = Konto rjadować
 passwordResetWithRecoveryKeyPrompt-subject = Waše hesło je so wróćo stajiło
 passwordResetWithRecoveryKeyPrompt-title = Waše hesło je so wróćo stajiło
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Sće swoje hesło { -product-mozilla-account }  wróćo stajił dnja:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Kontowy wobnowjenski kluč wutworić
 # colon is followed by a link to create an account recovery key from the account settings page
