@@ -406,7 +406,11 @@ password-reset-chevron-expanded = Warskôging ynklappe
 password-reset-chevron-collapsed = Warskôging útklappe
 password-reset-data-may-not-be-recovered = Jo browsergegevens wurde mooglik net wersteld
 password-reset-previously-signed-in-device-2 = Hawwe jo in apparaat dêr’t jo earder oanmeld binne?
+password-reset-data-may-be-saved-locally-2 = Jo browsergegevens binne mooglik op dat apparaat bewarre. Stel jo wachtwurd opnij yn en meld jo dêr oan om jo gegevens te werstellen en te syngronisearjen.
+password-reset-no-old-device-2 = Hawwe jo in nij apparaat, mar hawwe jo gjin tagong ta ien fan jo foarige?
+password-reset-encrypted-data-cannot-be-recovered-2 = It spyt ús, mar jo fersifere browsergegevens op { -brand-firefox }-servers kinne net weromhelle wurde.
 password-reset-warning-have-key = Hawwe jo in accountwerstelkaai?
+password-reset-warning-use-key-link = Brûk dizze no om jo wachtwurd te opnij yn te stellen en jo gegevens te behâlden
 
 ## Alert Bar
 
@@ -1376,6 +1380,7 @@ complete-reset-pw-recovery-key-link = Accountwerstelkaai brûke
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Jo wachtwurd is opnij inisjalisearre.
+reset-password-complete-banner-message = Ferjit net in nije accountwerstelkaai te meitsjen fan jo { -product-mozilla-account }-ynstellingen út om takomstige oanmeldingsproblemen foar te kommen.
 
 ## Confirm Reset Password With Code
 
