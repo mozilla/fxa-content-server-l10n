@@ -284,20 +284,29 @@ passwordChangeRequired-different-password-plaintext = Quan trọng: Chọn một
 password-forgot-otp-subject = Bạn đã quên mật khẩu?
 password-forgot-otp-title = Bạn đã quên mật khẩu?
 password-forgot-otp-request = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu { -product-mozilla-account } của bạn từ:
-password-forgot-otp-code = Nếu đúng, đây là mã xác minh của bạn để tiếp tục:
+password-forgot-otp-code-2 = Nếu đây là bạn, đây là mã xác minh để bạn tiếp tục:
 password-forgot-otp-expiry-notice = Mã này sẽ hết hạn sau 10 phút.
-passwordReset-subject = Đã cập nhật mật khẩu
-passwordReset-title = Mật khẩu tài khoản của bạn đã được thay đổi
-passwordReset-description = Bạn sẽ cần nhập mật khẩu mới của mình trên các thiết bị khác để tiếp tục đồng bộ hóa.
+passwordReset-subject-2 = Mật khẩu của bạn đã được đặt lại
+passwordReset-title-2 = Mật khẩu của bạn đã được đặt lại
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Bạn đã đặt lại mật khẩu { -product-mozilla-account } của mình trên:
 passwordResetAccountRecovery-subject-2 = Mật khẩu của bạn đã được đặt lại
-passwordResetAccountRecovery-title-2 = Đặt lại mật khẩu thành công
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Bạn đã sử dụng khóa khôi phục tài khoản của mình để cập nhật mật khẩu của mình từ:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Tạo khóa khôi phục tài khoản
-passwordResetAccountRecovery-regen-required-mjml-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng:
+passwordResetAccountRecovery-title-3 = Mật khẩu của bạn đã được đặt lại
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Bạn đã sử dụng khóa khôi phục tài khoản để đặt lại mật khẩu { -product-mozilla-account } của mình trên:
+passwordResetAccountRecovery-information = Chúng tôi đã đăng xuất bạn khỏi tất cả các thiết bị được đồng bộ hóa của bạn. Chúng tôi đã tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng. Bạn có thể thay đổi nó trong cài đặt tài khoản của bạn.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Chúng tôi đã đăng xuất bạn khỏi tất cả các thiết bị được đồng bộ hóa của bạn. Chúng tôi đã tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng. Bạn có thể thay đổi nó trong cài đặt tài khoản của bạn:
+passwordResetAccountRecovery-action-4 = Quản lý tài khoản
+passwordResetWithRecoveryKeyPrompt-subject = Mật khẩu của bạn đã được đặt lại
+passwordResetWithRecoveryKeyPrompt-title = Mật khẩu của bạn đã được đặt lại
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Bạn đã đặt lại mật khẩu { -product-mozilla-account } của mình trên:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Tạo khóa khôi phục tài khoản
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Tạo khóa khôi phục tài khoản:
+passwordResetWithRecoveryKeyPrompt-cta-description = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Giữ dữ liệu của bạn an toàn vào lần tiếp theo bằng khóa khôi phục tài khoản. Điều này cho phép bạn khôi phục dữ liệu nếu bạn quên mật khẩu.
 postAddAccountRecovery-subject-3 = Đã tạo khóa khôi phục tài khoản mới
 postAddAccountRecovery-title2 = Bạn đã tạo khóa khôi phục tài khoản mới
 # Key here refers to account recovery key
