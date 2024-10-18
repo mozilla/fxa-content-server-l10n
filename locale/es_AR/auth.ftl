@@ -294,7 +294,7 @@ passwordReset-description-2 = Restableciste tu contraseña de { -product-mozilla
 passwordResetAccountRecovery-subject-2 = Tu contraseña fue restablecida
 passwordResetAccountRecovery-title-3 = Tu contraseña fue restablecida
 # Followed by details on the device and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Usaste la clave de recuperación de tu cuenta para restablecer tu contraseña de { -product-mozilla-account } en:
+passwordResetAccountRecovery-description-3 = Usaste la clave de recuperación de cuenta para restablecer tu contraseña de { -product-mozilla-account } en:
 passwordResetAccountRecovery-information = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarlo en la configuración de tu cuenta.
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarlo en la configuración de tu cuenta:
