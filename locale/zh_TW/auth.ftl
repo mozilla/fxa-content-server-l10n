@@ -282,20 +282,22 @@ passwordChangeRequired-different-password-plaintext = 重要：請改用您從�
 password-forgot-otp-subject = 忘記密碼了嗎？
 password-forgot-otp-title = 忘記密碼了嗎？
 password-forgot-otp-request = 我們收到要更改您 { -product-mozilla-account }密碼的請求：
-password-forgot-otp-code = 有的話，請使用下列驗證碼：
+password-forgot-otp-code-2 = 若是您提出的話，請使用下列確認碼：
 password-forgot-otp-expiry-notice = 此驗證碼將於 10 分鐘後失效。
-passwordReset-subject = 密碼已更新
-passwordReset-title = 您的帳號密碼已變更
-passwordReset-description = 將需要在其他裝置上輸入新密碼才能恢復同步。
+passwordReset-subject-2 = 已重設您的密碼
+passwordReset-title-2 = 已重設您的密碼
 passwordResetAccountRecovery-subject-2 = 已重設您的密碼
-passwordResetAccountRecovery-title-2 = 成功重設密碼
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = 您已從下列位置使用帳號救援金鑰更改密碼：
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = 產生帳號救援金鑰
-passwordResetAccountRecovery-regen-required-mjml-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰。
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰：
+passwordResetAccountRecovery-title-3 = 已重設您的密碼
+passwordResetAccountRecovery-information = 我們已將您從所有同步裝置登出，並產生一把新的帳號救援金鑰取代原金鑰。您可以到帳號設定中更改。
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = 我們已將您從所有同步裝置登出，並產生一把新的帳號救援金鑰取代原金鑰。您可以到帳號設定中更改：
+passwordResetAccountRecovery-action-4 = 管理帳號
+passwordResetWithRecoveryKeyPrompt-subject = 已重設您的密碼
+passwordResetWithRecoveryKeyPrompt-title = 已重設您的密碼
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = 產生帳號救援金鑰
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = 產生帳號救援金鑰：
 postAddAccountRecovery-subject-3 = 已建立新帳號救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 # Key here refers to account recovery key
