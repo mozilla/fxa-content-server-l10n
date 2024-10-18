@@ -294,10 +294,10 @@ passwordReset-description-2 = Sie haben Ihr { -product-mozilla-account }-Passwor
 passwordResetAccountRecovery-subject-2 = Ihr Passwort wurde zurückgesetzt
 passwordResetAccountRecovery-title-3 = Ihr Passwort wurde zurückgesetzt.
 # Followed by details on the device and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Sie haben Ihren Kontowiederherstellungsschlüssel verwendet, um Ihr { -product-mozilla-account }-Passwort am:
+passwordResetAccountRecovery-description-3 = Sie haben Ihren Kontowiederherstellungsschlüssel verwendet, um Ihr { -product-mozilla-account }-Passwort zurückzusetzen am:
 passwordResetAccountRecovery-information = Wir haben Sie von allen synchronisierten Geräten abgemeldet. Wir haben einen neuen Kontowiederherstellungsschlüssel erstellt, um den von Ihnen verwendeten zu ersetzen. Sie können dies in Ihren Kontoeinstellungen ändern.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Wir haben Sie von allen synchronisierten Geräten abgemeldet. Wir haben einen neuen Kontowiederherstellungsschlüssel erstellt, um den von Ihnen verwendeten zu ersetzen. Dies können Sie in Ihren Account-Einstellungen ändern:
+passwordResetAccountRecovery-information-txt = Wir haben Sie von allen synchronisierten Geräten abgemeldet. Wir haben einen neuen Kontowiederherstellungsschlüssel erstellt, um den von Ihnen verwendeten zu ersetzen. Dies können Sie in Ihren Kontoeinstellungen ändern:
 passwordResetAccountRecovery-action-4 = Benutzerkonto verwalten
 passwordResetWithRecoveryKeyPrompt-subject = Ihr Passwort wurde zurückgesetzt.
 passwordResetWithRecoveryKeyPrompt-title = Ihr Passwort wurde zurückgesetzt.
