@@ -297,12 +297,12 @@ passwordResetAccountRecovery-title-3 = Votre mot de passe à été réinitialis�
 passwordResetAccountRecovery-description-3 = Vous avez utilisé la clé de récupération de votre compte pour réinitialiser le mot de passe de votre { -product-mozilla-account } sur :
 passwordResetAccountRecovery-information = Nous vous avons déconnecté·e de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée. Vous pouvez la modifier dans les paramètres de votre compte.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Nous vous avons déconnecté de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous utilisiez. Vous pouvez le modifier dans les paramètres de votre compte :
+passwordResetAccountRecovery-information-txt = Nous vous avons déconnecté·e de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée. Vous pouvez la modifier dans les paramètres de votre compte :
 passwordResetAccountRecovery-action-4 = Gérer le compte
 passwordResetWithRecoveryKeyPrompt-subject = Votre mot de passe à été réinitialisé
 passwordResetWithRecoveryKeyPrompt-title = Votre mot de passe à été réinitialisé
 # Details of the device and date/time where the password was reset
-passwordResetWithRecoveryKeyPrompt-description = Vous avez réinitialisé votre mot de passe de { -product-mozilla-account } sur :
+passwordResetWithRecoveryKeyPrompt-description = Vous avez réinitialisé le mot de passe de votre { -product-mozilla-account } sur :
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Créer une clé de récupération de compte
 # colon is followed by a link to create an account recovery key from the account settings page
