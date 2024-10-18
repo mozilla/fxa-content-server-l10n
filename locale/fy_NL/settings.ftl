@@ -1426,6 +1426,7 @@ reset-password-confirmed-cta = Trochgean nei { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-complete-new-password-saved = Nij wachtwurd bewarre!
 reset-password-complete-recovery-key-created = Nije accountwerstelkaai oanmakke. Download en bewarje dizze no.
+reset-password-complete-recovery-key-download-info = Dizze kaai is essinsjeel foar gegevenswerstel as jo jo wachtwurd ferjitte. <b>Download en bewarje it no feilich, omdat jo dizze side letter net mear iepenje kinne.</b>
 
 ## CompleteSignin component
 
