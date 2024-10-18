@@ -299,9 +299,9 @@ passwordResetAccountRecovery-subject-2 = La password è stata reimpostata
 passwordResetAccountRecovery-title-3 = La password è stata reimpostata
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Hai utilizzato la chiave di recupero dell’account per reimpostare la password dell’{ -product-mozilla-account } su:
-passwordResetAccountRecovery-information = Ti abbiamo disconnesso da tutti i tuoi dispositivi sincronizzati. Abbiamo creato una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato. Puoi modificarlo nelle impostazioni del tuo account.
+passwordResetAccountRecovery-information = Ti abbiamo disconnesso da tutti i tuoi dispositivi sincronizzati. Abbiamo creato una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato. Puoi modificarla nelle impostazioni del tuo account.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Ti abbiamo disconnesso da tutti i tuoi dispositivi sincronizzati. Abbiamo creato una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato. Puoi modificarlo nelle impostazioni del tuo account:
+passwordResetAccountRecovery-information-txt = Ti abbiamo disconnesso da tutti i tuoi dispositivi sincronizzati. Abbiamo creato una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato. Puoi modificarla nelle impostazioni del tuo account:
 passwordResetAccountRecovery-action-4 = Gestisci account
 passwordResetWithRecoveryKeyPrompt-subject = La password è stata reimpostata
 passwordResetWithRecoveryKeyPrompt-title = La password è stata reimpostata
@@ -310,7 +310,7 @@ passwordResetWithRecoveryKeyPrompt-description = Hai reimpostato la password del
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Genera una chiave di recupero dell’account
 # colon is followed by a link to create an account recovery key from the account settings page
-passwordResetWithRecoveryKeyPrompt-action-txt = Crea la chiave di recupero dell’account:
+passwordResetWithRecoveryKeyPrompt-action-txt = Genera una chiave di recupero dell’account:
 passwordResetWithRecoveryKeyPrompt-cta-description = Dovrai accedere nuovamente su tutti i tuoi dispositivi sincronizzati. Mantieni i tuoi dati al sicuro la prossima volta con una chiave di recupero dell’account. Questo ti permette di recuperare i tuoi dati se dimentichi la password.
 postAddAccountRecovery-subject-3 = Generata nuova chiave di recupero dell’account
 postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero dell’account
