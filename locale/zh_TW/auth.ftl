@@ -286,14 +286,20 @@ password-forgot-otp-code-2 = 若是您提出的話，請使用下列確認碼：
 password-forgot-otp-expiry-notice = 此驗證碼將於 10 分鐘後失效。
 passwordReset-subject-2 = 已重設您的密碼
 passwordReset-title-2 = 已重設您的密碼
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = 您已於下列裝置與時間重設 { -product-mozilla-account }密碼：
 passwordResetAccountRecovery-subject-2 = 已重設您的密碼
 passwordResetAccountRecovery-title-3 = 已重設您的密碼
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = 您已於下列裝置與時間使用帳號救援金鑰重設 { -product-mozilla-account }密碼：
 passwordResetAccountRecovery-information = 我們已將您從所有同步裝置登出，並產生一把新的帳號救援金鑰取代原金鑰。您可以到帳號設定中更改。
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = 我們已將您從所有同步裝置登出，並產生一把新的帳號救援金鑰取代原金鑰。您可以到帳號設定中更改：
 passwordResetAccountRecovery-action-4 = 管理帳號
 passwordResetWithRecoveryKeyPrompt-subject = 已重設您的密碼
 passwordResetWithRecoveryKeyPrompt-title = 已重設您的密碼
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = 您已於下列裝置與時間重設 { -product-mozilla-account }密碼：
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = 產生帳號救援金鑰
 # colon is followed by a link to create an account recovery key from the account settings page
