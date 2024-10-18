@@ -285,20 +285,23 @@ passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo pet
 password-forgot-otp-subject = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-title = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-request = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-mozilla-account } rehegua:
-password-forgot-otp-code = Emoneĩ mba’éramo, ko’ápe oĩ ayvu ñemoneĩrã:
+password-forgot-otp-code-2 = Ndetéramo voi, kóva nde ayvu ñemoneĩrã eku’ekuaa jey hag̃ua:
 password-forgot-otp-expiry-notice = Ko ayvu ndoikovéitama 10 aravo’ípe.
-passwordReset-subject = Ñe’ẽñemi hekopyahúva
-passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
-passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe.
+passwordReset-subject-2 = Oikojeýma ne ñe’ẽñemi
+passwordReset-title-2 = Oikojeýma ne ñe’ẽñemi
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Egueru jey ne ñe’ẽñemi { -product-mozilla-account } pegua amo:
 passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
-passwordResetAccountRecovery-title-2 = Ñe’ẽñemi jeguerujey apañuai’ỹre
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Eiporu ayvu jeguerujeyrã embohekopyahu hag̃ua ne ñe’ẽñemi tenda guive:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Emoheñói mba’ete mba’eñemi guerujeyrã
-passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eiporuva’ekue.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eiporuva’ekue.
+passwordResetAccountRecovery-title-3 = Oikojeýma ne ñe’ẽñemi
+passwordResetAccountRecovery-action-4 = Mba’ete ñangareko
+passwordResetWithRecoveryKeyPrompt-subject = Oikojeýma ne ñe’ẽñemi
+passwordResetWithRecoveryKeyPrompt-title = Oikojeýma ne ñe’ẽñemi
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Egueru jey ne ñe’ẽñemi { -product-mozilla-account } pegua amo:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Emoheñói mba’ete mba’eñemi guerujeyrã
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Emoheñói mba’ete mba’eñemi gueru jeyrã
 postAddAccountRecovery-subject-3 = Mba’eñemi pyahu mba’ete guerujeyrã heñóima
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Key here refers to account recovery key

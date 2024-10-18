@@ -1105,6 +1105,9 @@ cookies-disabled-learn-more = Kuaave
 
 index-header = Emoinge ne ñanduti veve
 index-sync-header = Eku’e jey nde { -product-mozilla-account } ndive
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Eku’ejey { $serviceName } ndive
+index-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span> ndive
 index-subheader-default = Eku’ejey mba’ete mbohekopyahúpe
 index-cta = Emoinge térã eñemboheraguapy
 index-email-input =
@@ -1114,6 +1117,7 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Oñemoheñói mba’eñemi jeguerujeyrã
 inline-recovery-key-setup-download-header = Embojuaju ne mba’ete
+inline-recovery-key-setup-download-subheader = Emboguejy ha eñongatu
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1353,8 +1357,6 @@ password-reset-submit-button-2 = Ku’ejey
 
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
-reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
-reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
 
 ## CompleteSignin component
 
