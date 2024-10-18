@@ -291,7 +291,25 @@ password-forgot-otp-code-2 = Jolic sćo to był wy, how jo waš wobkšuśeński 
 password-forgot-otp-expiry-notice = Toś ten kod za 20 minutow spadnjo.
 passwordReset-subject-2 = Wašo gronidło jo se slědk stajiło
 passwordReset-title-2 = Wašo gronidło jo se slědk stajiło
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Wašo gronidło { -product-mozilla-account } jo se slědk stajiło dnja:
 passwordResetAccountRecovery-subject-2 = Wašo gronidło jo se slědk stajiło
+passwordResetAccountRecovery-title-3 = Wašo gronidło jo se slědk stajiło
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Sćo wužywał swój kontowy wótnowjeński kluc, aby slědk stajił swójo gronidło { -product-mozilla-account } dnja:
+passwordResetAccountRecovery-information = Smy wótzjawili was ze wšych wašych synchronizěrowanych rědow. Smy napórali nowy kontowy wótnowjeński kluc, kótaryž ten narownajo, kótaryž sćo wužywał. Móžośo jen w swójich kontowych nastajenjach změniś.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Smy wótzjawili was ze wšych wašych synchronizěrowanych rědow. Smy napórali nowy kontowy wótnowjeński kluc, kótaryž ten narownajo, kótaryž sćo wužywał. Móžośo jen w swójich kontowych nastajenjach změniś:
+passwordResetAccountRecovery-action-4 = Konto zastojaś
+passwordResetWithRecoveryKeyPrompt-subject = Wašo gronidło jo se slědk stajiło
+passwordResetWithRecoveryKeyPrompt-title = Wašo gronidło jo se slědk stajiło
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Wašo gronidło { -product-mozilla-account } jo se slědk stajiło dnja:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Kontowy wótnowjeński kluc napóraś
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Kontowy wótnowjeński kluc napóraś:
+passwordResetWithRecoveryKeyPrompt-cta-description = Musyśo se na wšych swójich synchronizěrowanych rědach pśizjawiś. Źaržćo swóje daty pśiducy raz wěsty z kontowym wótnowjeńskim klucom. To wam zmóžnja, waše daty wótnowiś, jolic sćo zabył wašo gronidło.
 postAddAccountRecovery-subject-3 = Nowy kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 # Key here refers to account recovery key
