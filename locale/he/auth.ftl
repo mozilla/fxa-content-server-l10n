@@ -290,6 +290,7 @@ passwordResetWithRecoveryKeyPrompt-description = איפסת את הססמה של
 passwordResetWithRecoveryKeyPrompt-action = יצירת מפתח שחזור חשבון
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = יצירת מפתח שחזור חשבון:
+passwordResetWithRecoveryKeyPrompt-cta-description = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. ניתן להגן על הנתונים שלך בפעם הבאה עם מפתח לשחזור חשבון. מפתח זה מאפשר לך לשחזר את הנתונים שלך אם הססמה שלך תישכח.
 postAddAccountRecovery-subject-3 = נוצר מפתח חדש לשחזור החשבון
 postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
 # Key here refers to account recovery key
