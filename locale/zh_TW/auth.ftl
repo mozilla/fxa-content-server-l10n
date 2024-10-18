@@ -298,6 +298,7 @@ passwordResetWithRecoveryKeyPrompt-title = 已重設您的密碼
 passwordResetWithRecoveryKeyPrompt-action = 產生帳號救援金鑰
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = 產生帳號救援金鑰：
+passwordResetWithRecoveryKeyPrompt-cta-description = 您需要到所有同步中的裝置重新登入，下次請使用帳號救援金鑰確保資料安全。使用這把金鑰，可以在您忘記密碼時救回帳號資料。
 postAddAccountRecovery-subject-3 = 已建立新帳號救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 # Key here refers to account recovery key
