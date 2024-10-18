@@ -291,6 +291,8 @@ password-forgot-otp-code-2 = Jeli to běšće wy, tu je waš wobkrućenski kod, 
 password-forgot-otp-expiry-notice = Tutón kod za 20 minutow spadnje.
 passwordReset-subject-2 = Waše hesło je so wróćo stajiło
 passwordReset-title-2 = Waše hesło je so wróćo stajiło
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Sće swoje hesło { -product-mozilla-account }  wróćo stajił:
 passwordResetAccountRecovery-subject-2 = Waše hesło je so wróćo stajiło
 passwordResetAccountRecovery-title-3 = Waše hesło je so wróćo stajiło
 passwordResetAccountRecovery-action-4 = Konto rjadować
