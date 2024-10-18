@@ -285,20 +285,22 @@ passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullan
 password-forgot-otp-subject = Parolanızı unuttunuz mu?
 password-forgot-otp-title = Parolanızı unuttunuz mu?
 password-forgot-otp-request = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
-password-forgot-otp-code = Parolanızı unuttuysanız şu onay koduyla devam edebilirsiniz:
 password-forgot-otp-expiry-notice = Kodun geçerlilik süresi 10 dakikadır.
-passwordReset-subject = Parola güncellendi
-passwordReset-title = Hesap parolanız değiştirildi
-passwordReset-description = Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz.
+passwordReset-subject-2 = Parolanız sıfırlandı
+passwordReset-title-2 = Parolanız sıfırlandı
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = { -product-mozilla-account } parolanızı sıfırladığınız cihaz ve tarih:
 passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
-passwordResetAccountRecovery-title-2 = Parola başarıyla sıfırlandı
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Şu cihazdan parolanızı güncellemek için hesap kurtarma anahtarınızı kullandınız:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Hesap kurtarma anahtarı oluştur
-passwordResetAccountRecovery-regen-required-mjml-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın:
+passwordResetAccountRecovery-title-3 = Parolanız sıfırlandı
+passwordResetAccountRecovery-action-4 = Hesabı yönet
+passwordResetWithRecoveryKeyPrompt-subject = Parolanız sıfırlandı
+passwordResetWithRecoveryKeyPrompt-title = Parolanız sıfırlandı
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = { -product-mozilla-account } parolanızı sıfırladığınız cihaz ve tarih:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Hesap kurtarma anahtarı oluştur
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Hesap kurtarma anahtarı oluştur:
 postAddAccountRecovery-subject-3 = Yeni hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
 # Key here refers to account recovery key
