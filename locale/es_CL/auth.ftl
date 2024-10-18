@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Importante: Elige una cont
 password-forgot-otp-subject = ¿Olvidaste tu contraseña?
 password-forgot-otp-title = ¿Olvidaste tu contraseña?
 password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } desde:
-password-forgot-otp-code = Si es así, aquí está tu código de confirmación para continuar:
+password-forgot-otp-code-2 = Si fuiste tu, aquí está tu código de confirmación para continuar:
 password-forgot-otp-expiry-notice = Este código expira en 10 minutos.
-passwordReset-subject = Contraseña actualizada
-passwordReset-title = La contraseña de tu cuenta ha cambiado
-passwordReset-description = Deberás ingresar tu nueva contraseña en los otros dispositivos para seguir sincronizando.
+passwordReset-subject-2 = Tu contraseña ha sido restablecida
+passwordReset-title-2 = Tu contraseña ha sido restablecida
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Restableciste tu contraseña de { -product-mozilla-account } en:
 passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
-passwordResetAccountRecovery-title-2 = Contraseña restablecida exitosamente
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Usaste la clave de recuperación de tu cuenta para actualizar tu contraseña desde:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Crear una clave de recuperación de cuenta
-passwordResetAccountRecovery-regen-required-mjml-1 = Tendrás que volver a conectarte en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Tendrás que volver a conectarte en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste:
+passwordResetAccountRecovery-title-3 = Tu contraseña ha sido restablecida
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Usaste la clave de recuperación de tu cuenta para restablecer tu contraseña { -product-mozilla-account } en:
+passwordResetAccountRecovery-information = Hemos cerrado tu sesión en todos tus dispositivos sincronizados. Hemos creado una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarla en la configuración de tu cuenta.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Hemos cerrado tu sesión en todos tus dispositivos sincronizados. Hemos creado una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarla en la configuración de tu cuenta:
+passwordResetAccountRecovery-action-4 = Administrar cuenta
+passwordResetWithRecoveryKeyPrompt-subject = Tu contraseña ha sido restablecida
+passwordResetWithRecoveryKeyPrompt-title = Tu contraseña ha sido restablecida
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Restableciste tu contraseña de { -product-mozilla-account } en:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Crear una clave de recuperación de cuenta
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Crear una clave de recuperación de cuenta:
+passwordResetWithRecoveryKeyPrompt-cta-description = Deberás volver a conectarte en todos los dispositivos sincronizados. Mantén tus datos seguros la próxima vez con una clave de recuperación de cuenta. Esto te permite recuperar tus datos si olvidas tu contraseña.
 postAddAccountRecovery-subject-3 = Nueva clave de recuperación de cuenta creada
 postAddAccountRecovery-title2 = Has creado una nueva clave de recuperación de cuenta
 # Key here refers to account recovery key
