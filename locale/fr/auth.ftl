@@ -290,12 +290,12 @@ password-forgot-otp-expiry-notice = Ce code expire dans 10 minutes.
 passwordReset-subject-2 = Votre mot de passe à été réinitialisé
 passwordReset-title-2 = Votre mot de passe à été réinitialisé
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Vous avez réinitialisé votre mot de passe de { -product-mozilla-account } sur :
+passwordReset-description-2 = Vous avez réinitialisé le mot de passe de votre { -product-mozilla-account } sur :
 passwordResetAccountRecovery-subject-2 = Votre mot de passe a été réinitialisé
 passwordResetAccountRecovery-title-3 = Votre mot de passe à été réinitialisé
 # Followed by details on the device and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Vous avez utilisé la clé de récupération de votre compte pour réinitialiser votre mot de passe de { -product-mozilla-account } sur :
-passwordResetAccountRecovery-information = Nous vous avons déconnecté de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous utilisiez. Vous pouvez le modifier dans les paramètres de votre compte.
+passwordResetAccountRecovery-description-3 = Vous avez utilisé la clé de récupération de votre compte pour réinitialiser le mot de passe de votre { -product-mozilla-account } sur :
+passwordResetAccountRecovery-information = Nous vous avons déconnecté·e de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée. Vous pouvez la modifier dans les paramètres de votre compte.
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Nous vous avons déconnecté de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous utilisiez. Vous pouvez le modifier dans les paramètres de votre compte :
 passwordResetAccountRecovery-action-4 = Gérer le compte
