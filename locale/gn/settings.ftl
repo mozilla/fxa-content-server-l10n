@@ -183,6 +183,8 @@ form-password-with-inline-criteria-match-error = Ko’ã ñe’ẽñemi ndojojog
 form-password-with-inline-criteria-sr-too-short-message = Pe ñe’ẽñemi oguerekova’erã michĩ’vérõ 8 tai.
 form-password-with-inline-criteria-sr-not-email-message = Pe ñe’ẽñemi ani oreko ne ñanduti veve kundaharape.
 form-password-with-inline-criteria-sr-not-common-message = Pe ñe’ẽñemi ani oreko ñe’ẽñemi ojeporumeméva.
+form-password-with-inline-criteria-sr-requirements-met = Pe ñe’ẽñemi haipyre ohechapava’erã ñe’ẽñemi oikotevẽva.
+form-password-with-inline-criteria-sr-passwords-match = Ko’ã ñe’ẽñemi haipyre ojuehegua.
 
 ## FormVerifyCode
 
@@ -192,6 +194,11 @@ form-verify-code-default-error = Ko korápe ahaiva’erã
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Ehai ayvu orekóva { $codeLength } tai eku’e hag̃ua
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -237,6 +244,8 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-create-header = Emo’ã ne mba’ete
+inline-recovery-key-setup-start-button = Emoheñói mba’ete mba’eñemi guerujeyrã
 inline-recovery-key-setup-later-button = Ejapo uperire
 
 ## Input Password
@@ -322,6 +331,7 @@ password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey �
 password-strength-inline-min-length = Michĩvéramo 8 tai
 password-strength-inline-not-email = Ani ne ñanduti veve kundaharape
 password-strength-inline-not-common = Ndaha’éi ne ñe’ẽñemi eiporumeméva
+password-strength-inline-confirmed-must-match = Pe ñemoneĩ ojokupyty ñe’ẽñemi pyahúre
 
 ## Ready component
 
@@ -381,6 +391,7 @@ flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua
 password-reset-warning-icon = Jesarekorã
 password-reset-chevron-expanded = Ñemongyhyje
 password-reset-chevron-collapsed = Emyasãi mongyhyje
+password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
 
 ## Alert Bar
 
