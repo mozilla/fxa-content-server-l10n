@@ -268,20 +268,28 @@ passwordChangeRequired-different-password-plaintext = חשוב: יש לבחור 
 password-forgot-otp-subject = שכחת את הססמה שלך?
 password-forgot-otp-title = שכחת את הססמה שלך?
 password-forgot-otp-request = קיבלנו בקשה לשינוי ססמה ב{ -product-mozilla-account(case: "the") } שלך מ:
-password-forgot-otp-code = אם כן, להלן קוד האימות שלך כדי להמשיך:
+password-forgot-otp-code-2 = אם פעולה זו הגיעה ממך, להלן קוד האימות שלך כדי להמשיך:
 password-forgot-otp-expiry-notice = הקוד יפוג בתוך 10 דקות.
-passwordReset-subject = הססמה עודכנה
-passwordReset-title = ססמת החשבון שלך הוחלפה
-passwordReset-description = יהיה עליך להקליד את הססמה החדשה שלך בשאר המכשירים כדי להמשיך בסנכרון.
+passwordReset-subject-2 = הססמה שלך אופסה
+passwordReset-title-2 = הססמה שלך אופסה
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = איפסת את הססמה של { -product-mozilla-account(case: "the") } שלך ב:
 passwordResetAccountRecovery-subject-2 = הססמה שלך אופסה
-passwordResetAccountRecovery-title-2 = ססמה אופסה בהצלחה
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = השתמש במפתח שחזור החשבון שלך כדי לעדכן את הססמה שלך מ:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = יצירת מפתח שחזור חשבון
-passwordResetAccountRecovery-regen-required-mjml-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת:
+passwordResetAccountRecovery-title-3 = הססמה שלך אופסה
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = השתמשת במפתח לשחזור החשבון שלך כדי לאפס את הססמה של { -product-mozilla-account(case: "the") } שלך ב:
+passwordResetAccountRecovery-information = ניתקנו אותך מכל המכשירים המסונכרנים שלך. יצרנו מפתח חדש לשחזור החשבון שלך כדי להחליף את זה שהשתמשת בו. באפשרות לשנות אותו בהגדרות החשבון שלך.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = ניתקנו אותך מכל המכשירים המסונכרנים שלך. יצרנו מפתח חדש לשחזור החשבון שלך כדי להחליף את זה שהשתמשת בו. באפשרות לשנות אותו בהגדרות החשבון שלך:
+passwordResetAccountRecovery-action-4 = ניהול חשבון
+passwordResetWithRecoveryKeyPrompt-subject = הססמה שלך אופסה
+passwordResetWithRecoveryKeyPrompt-title = הססמה שלך אופסה
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = איפסת את הססמה של { -product-mozilla-account(case: "the") } שלך ב:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = יצירת מפתח שחזור חשבון
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = יצירת מפתח שחזור חשבון:
 postAddAccountRecovery-subject-3 = נוצר מפתח חדש לשחזור החשבון
 postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
 # Key here refers to account recovery key
