@@ -1408,7 +1408,7 @@ reset-password-complete-header = Vaše heslo bylo obnoveno
 reset-password-confirmed-cta = Pokračovat do služby { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
 reset-password-complete-new-password-saved = Nové heslo uloženo!
-reset-password-complete-recovery-key-created = Nový obnovovací klíč k účtu byl vytvořen. Stáhněte a uložte jej.
+reset-password-complete-recovery-key-created = Nový obnovovací klíč k účtu byl vytvořen. Stáhněte si ho a uložte.
 reset-password-complete-recovery-key-download-info = Tento klíč je nezbytný pro obnovu dat v případě, že zapomenete své heslo. <b>Stáhněte si ji a bezpečně si ji uložte nyní, později už k ní nebudete moci přistupovat.</b>
 
 ## CompleteSignin component
