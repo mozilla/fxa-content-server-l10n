@@ -304,6 +304,7 @@ passwordResetWithRecoveryKeyPrompt-description = 您通过以下设备重置了 
 passwordResetWithRecoveryKeyPrompt-action = 创建账户恢复密钥
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = 创建账户恢复密钥：
+passwordResetWithRecoveryKeyPrompt-cta-description = 您需要在所有同步的设备上重新登录。下次可使用账户恢复密钥，确保自己的数据安全无虞，忘记密码时也能恢复数据。
 postAddAccountRecovery-subject-3 = 已创建新的账户恢复密钥
 postAddAccountRecovery-title2 = 您已生成新的账户恢复密钥
 # Key here refers to account recovery key
