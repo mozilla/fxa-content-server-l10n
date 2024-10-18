@@ -295,9 +295,9 @@ passwordResetAccountRecovery-subject-2 = Tu contraseña fue restablecida
 passwordResetAccountRecovery-title-3 = Tu contraseña fue restablecida
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Usaste la clave de recuperación de cuenta para restablecer tu contraseña de { -product-mozilla-account } en:
-passwordResetAccountRecovery-information = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarlo en la configuración de tu cuenta.
+passwordResetAccountRecovery-information = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Podés cambiarla en la configuración de tu cuenta.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarlo en la configuración de tu cuenta:
+passwordResetAccountRecovery-information-txt = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Podés cambiarla en la configuración de tu cuenta:
 passwordResetAccountRecovery-action-4 = Administrar cuenta
 passwordResetWithRecoveryKeyPrompt-subject = Tu contraseña fue restablecida
 passwordResetWithRecoveryKeyPrompt-title = Tu contraseña fue restablecida
@@ -307,7 +307,7 @@ passwordResetWithRecoveryKeyPrompt-description = Restableciste tu contraseña de
 passwordResetWithRecoveryKeyPrompt-action = Crear clave de recuperación de cuenta
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Crear clave de recuperación de cuenta:
-passwordResetWithRecoveryKeyPrompt-cta-description = Tendrás que volver a iniciar sesión en todos tus dispositivos sincronizados. Mantén tus datos seguros la próxima vez con una clave de recuperación de cuenta. Esto te permite recuperar tus datos si olvidas tu contraseña.
+passwordResetWithRecoveryKeyPrompt-cta-description = Tendrás que volver a iniciar sesión en todos tus dispositivos sincronizados. Mantené tus datos seguros la próxima vez con una clave de recuperación de cuenta. Esto te permite recuperar tus datos si olvidás tu contraseña.
 postAddAccountRecovery-subject-3 = Se creó una nueva clave de recuperación de cuenta
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de cuenta
 # Key here refers to account recovery key
