@@ -287,6 +287,7 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjerće druhe he
 password-forgot-otp-subject = Sće swoje hesło zabył?
 password-forgot-otp-title = Sće swoje hesło zabył?
 password-forgot-otp-request = Smy próstwu wo změnjenje hesła za waše { -product-mozilla-account(case: "acc", capitalization: "lower") } dóstali:
+password-forgot-otp-code-2 = Jeli to běšće wy, tu je waš wobkrućenski kod, zo byšće pokročował:
 password-forgot-otp-expiry-notice = Tutón kod za 20 minutow spadnje.
 passwordReset-subject-2 = Waše hesło je so wróćo stajiło
 passwordReset-title-2 = Waše hesło je so wróćo stajiło
