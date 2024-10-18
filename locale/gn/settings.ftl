@@ -1415,6 +1415,7 @@ signin-push-code-send-email-link = Ñanduti veve ayvu
 
 signin-push-code-confirm-instruction = Emoneĩ ne rembiapo ñepyrũ
 signin-push-code-confirm-verifying = Jehechajey
+signin-push-code-confirm-login = Emoneĩ tembiapo ñepyrũ
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
