@@ -406,6 +406,7 @@ password-reset-chevron-expanded = Warskôging ynklappe
 password-reset-chevron-collapsed = Warskôging útklappe
 password-reset-data-may-not-be-recovered = Jo browsergegevens wurde mooglik net wersteld
 password-reset-previously-signed-in-device-2 = Hawwe jo in apparaat dêr’t jo earder oanmeld binne?
+password-reset-warning-have-key = Hawwe jo in accountwerstelkaai?
 
 ## Alert Bar
 
@@ -1370,6 +1371,11 @@ complete-reset-password-success-alert = Wachtwurd ynsteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Accountwerstelkaai brûke
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Jo wachtwurd is opnij inisjalisearre.
 
 ## Confirm Reset Password With Code
 
@@ -1390,6 +1396,12 @@ confirm-reset-password-otp-different-account-link = In oar account brûke
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Stel jo wachtwurd opnij yn
+confirm-totp-reset-password-subheader = Fier jo befeiligingskoade foar twafaktorautentikaasje (2FA) yn
+confirm-totp-reset-password-instruction = Kontrolearje jo autentikaasje-app om jo wachtwurd te opnij yn te stellen.
+confirm-totp-reset-password-trouble-code = Problemen by it ynfieren fan de koade?
+confirm-totp-reset-password-confirm-button = Befêstigje
+confirm-totp-reset-password-input-label = Koade ynfiere
 
 ## ResetPassword start page
 
@@ -1404,9 +1416,11 @@ password-reset-submit-button-2 = Trochgean
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Jo wachtwurd is opnij ynsteld
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Trochgean nei { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
-reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
-reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
+reset-password-complete-new-password-saved = Nij wachtwurd bewarre!
+reset-password-complete-recovery-key-created = Nije accountwerstelkaai oanmakke. Download en bewarje dizze no.
 
 ## CompleteSignin component
 

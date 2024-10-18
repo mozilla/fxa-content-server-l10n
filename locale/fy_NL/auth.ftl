@@ -296,6 +296,18 @@ passwordResetAccountRecovery-title-3 = Jo wachtwurd is opnij ynsteld
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Jo hawwe jo accountwerstelkaai brûkt om jo { -product-mozilla-account }-wachtwurd opnij yn te stellen op:
 passwordResetAccountRecovery-information = Wy hawwe jo ôfmeld op al jo syngronisearre apparaten. Wy hawwe in nije accountwerstelkaai oanmakke om de brûkte kaai te ferfangen. Jo kinne dit wizigje yn jo accountynstellingen.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Wy hawwe jo ôfmeld op al jo syngronisearre apparaten. Wy hawwe in nije accountwerstelkaai oanmakke om de brûkte kaai te ferfangen. Jo kinne dit wizigje yn jo accountynstellingen:
+passwordResetAccountRecovery-action-4 = Account beheare
+passwordResetWithRecoveryKeyPrompt-subject = Jo wachtwurd is opnij ynsteld
+passwordResetWithRecoveryKeyPrompt-title = Jo wachtwurd is opnij ynsteld
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Jo hawwe jo { -product-mozilla-account }-wachtwurd opnij ynsteld op:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Accountwerstelkaai oanmeitsje
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Accountwerstelkaai oanmeitsje:
+passwordResetWithRecoveryKeyPrompt-cta-description = Jo moatte jo opnij oanmelde op al jo syngronisearre apparaten. Hâld jo gegevens de folgjende kear feilich mei in accountwerstelkaai. Hjirmei kinne jo jo gegevens weromhelje as jo jo wachtwurd ferjitten binne.
 postAddAccountRecovery-subject-3 = Nije accountwerstelkaai oanmakke
 postAddAccountRecovery-title2 = Jo hawwe in nije kaai foar accountwerstel oanmakke
 # Key here refers to account recovery key
