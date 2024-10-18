@@ -286,20 +286,29 @@ passwordChangeRequired-different-password-plaintext = Важно: Выберит
 password-forgot-otp-subject = Забыли ваш пароль?
 password-forgot-otp-title = Забыли ваш пароль?
 password-forgot-otp-request = Мы получили запрос на смену пароля для вашего аккаунта { -product-mozilla-account } от:
-password-forgot-otp-code = Если да, то вот ваш код подтверждения для продолжения:
+password-forgot-otp-code-2 = Если это были вы, вот ваш код подтверждения для продолжения:
 password-forgot-otp-expiry-notice = Срок действия этого кода истечёт через 10 минут.
-passwordReset-subject = Пароль изменён
-passwordReset-title = Пароль к вашей учётной записи был изменён
-passwordReset-description = Чтобы возобновить синхронизацию, вам нужно будет ввести новый пароль на других устройствах.
+passwordReset-subject-2 = Ваш пароль был сброшен
+passwordReset-title-2 = Ваш пароль был сброшен
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Вы сбросили свой пароль для { -product-mozilla-account } на:
 passwordResetAccountRecovery-subject-2 = Ваш пароль был сброшен
-passwordResetAccountRecovery-title-2 = Пароль успешно сброшен
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Вы использовали ключ восстановления аккаунта для обновления пароля от:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Создать ключ восстановления аккаунта
-passwordResetAccountRecovery-regen-required-mjml-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали:
+passwordResetAccountRecovery-title-3 = Ваш пароль был сброшен
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Вы использовали ключ восстановления своего аккаунта для сброса пароля { -product-mozilla-account } на:
+passwordResetAccountRecovery-information = Мы отключили вас на всех синхронизируемых устройствах. Мы создали новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали. Вы можете изменить его в настройках своего аккаунта.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Мы отключили вас на всех синхронизируемых устройствах. Мы создали новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали. Вы можете изменить его в настройках вашего аккаунта:
+passwordResetAccountRecovery-action-4 = Управление аккаунтом
+passwordResetWithRecoveryKeyPrompt-subject = Ваш пароль был сброшен
+passwordResetWithRecoveryKeyPrompt-title = Ваш пароль был сброшен
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Вы сбросили свой пароль для { -product-mozilla-account } на:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Создать ключ восстановления аккаунта
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Создать ключ восстановления аккаунта:
+passwordResetWithRecoveryKeyPrompt-cta-description = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. В следующий раз сохраните свои данные в безопасности с ключом восстановления аккаунта. Это позволит вам восстановить данные, если вы забудете пароль.
 postAddAccountRecovery-subject-3 = Новый ключ восстановления аккаунта создан
 postAddAccountRecovery-title2 = Вы создали новый ключ восстановления аккаунта
 # Key here refers to account recovery key
