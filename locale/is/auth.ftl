@@ -285,20 +285,29 @@ passwordChangeRequired-different-password-plaintext = Mikilvægt: Veldu annað l
 password-forgot-otp-subject = Gleymdirðu lykilorðinu þínu?
 password-forgot-otp-title = Gleymdirðu lykilorðinu þínu?
 password-forgot-otp-request = Við fengum beiðni um breytingu á lykilorði á { -product-mozilla-account }-reikningnum þínum frá:
-password-forgot-otp-code = Ef já, þá er hér staðfestingarkóðinn þinn til að halda áfram:
+password-forgot-otp-code-2 = Ef þetta varst þú, þá er hér staðfestingarkóði þinn til að halda áfram:
 password-forgot-otp-expiry-notice = Þessi kóði rennur út eftir 10 mínútur.
-passwordReset-subject = Lykilorð uppfært
-passwordReset-title = Lykilorð reikningsins þíns breyttist
-passwordReset-description = Þú verður að setja inn nýja lykilorðið þitt á öðrum tækjum til að halda áfram með samstillingu.
+passwordReset-subject-2 = Lykilorðið þitt var endurstillt
+passwordReset-title-2 = Lykilorðið þitt var endurstillt
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Þú endurstilltir { -product-mozilla-account } lykilorðið þitt á:
 passwordResetAccountRecovery-subject-2 = Lykilorðið þitt var endurstillt
-passwordResetAccountRecovery-title-2 = Það tókst að endurstilla lykilorð
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra lykilorðið þitt frá:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Útbúðu endurheimtulykil reiknings
-passwordResetAccountRecovery-regen-required-mjml-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir:
+passwordResetAccountRecovery-title-3 = Lykilorðið þitt var endurstillt
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra { -product-mozilla-account } lykilorðið þitt á:
+passwordResetAccountRecovery-information = Við skráðum þig út úr öllum samstilltu tækjunum þínum. Við bjuggum til nýjan endurheimtulykil í stað þess sem þú notaðir. Þú getur breytt þessu í reikningsstillingunum þínum.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Við skráðum þig út úr öllum samstilltu tækjunum þínum. Við bjuggum til nýjan endurheimtulykil í stað þess sem þú notaðir. Þú getur breytt þessu í reikningsstillingunum þínum:
+passwordResetAccountRecovery-action-4 = Sýsla með reikning
+passwordResetWithRecoveryKeyPrompt-subject = Lykilorðið þitt var endurstillt
+passwordResetWithRecoveryKeyPrompt-title = Lykilorðið þitt var endurstillt
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Þú endurstilltir { -product-mozilla-account } lykilorðið þitt á:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Útbúðu endurheimtulykil reiknings
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Útbúðu endurheimtulykil reiknings:
+passwordResetWithRecoveryKeyPrompt-cta-description = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Haltu gögnunum þínum öruggum næst með endurheimtulykli. Þetta gerir þér kleift að endurheimta gögnin þín ef þú gleymir lykilorðinu þínu.
 postAddAccountRecovery-subject-3 = Nýr endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtulykil fyrir reikninginn
 # Key here refers to account recovery key
