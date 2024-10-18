@@ -297,6 +297,9 @@ passwordResetAccountRecovery-subject-2 = Waše hesło je so wróćo stajiło
 passwordResetAccountRecovery-title-3 = Waše hesło je so wróćo stajiło
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Sće swój kontowy wobnowjenski kluč wužił, zo byšće swoje hesło { -product-mozilla-account } wróćo stajił dnja:
+passwordResetAccountRecovery-information = Smy was ze wšěch wašich synchronizowanych gratow wotzjewili. Wutworichmy nowy kontowy wobnowjenski kluč, kotryž tón naruna, kotryž sće wužiwał. Móžeće jón w swojich kontowych nastajenjach změnić.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Smy was ze wšěch wašich synchronizowanych gratow wotzjewili. Wutworichmy nowy kontowy wobnowjenski kluč, kotryž tón naruna, kotryž sće wužiwał. Móžeće jón w swojich kontowych nastajenjach změnić:
 passwordResetAccountRecovery-action-4 = Konto rjadować
 passwordResetWithRecoveryKeyPrompt-subject = Waše hesło je so wróćo stajiło
 passwordResetWithRecoveryKeyPrompt-title = Waše hesło je so wróćo stajiło
@@ -306,6 +309,7 @@ passwordResetWithRecoveryKeyPrompt-description = Sće swoje hesło { -product-mo
 passwordResetWithRecoveryKeyPrompt-action = Kontowy wobnowjenski kluč wutworić
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Wutworće kontowy wobnowjenski kluč:
+passwordResetWithRecoveryKeyPrompt-cta-description = Dyrbiće so na wšěch swojich synchronizowanych gratach přizjewić. Dźeržće swoje daty přichodny wěsty raz z kontowym wobnowjenskim klučom. To wam zmóžnja, waše daty wobnowić, jeli sće waše hesło zabył.
 postAddAccountRecovery-subject-3 = Nowy kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 # Key here refers to account recovery key
