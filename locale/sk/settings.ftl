@@ -504,7 +504,7 @@ cs-sign-out-button = Odhlásiť sa
 
 ## Data collection section
 
-dc-heading = Zbieranie údajov a ich použitie
+dc-heading = Zhromažďovanie a používanie údajov
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Prehliadač { -brand-firefox }
 dc-subheader-content-2 = Povoliť { -product-mozilla-accounts(capitalization: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
@@ -616,7 +616,7 @@ nav-settings = Nastavenia
 nav-profile = Profil
 nav-security = Bezpečnosť
 nav-connected-services = Pripojené služby
-nav-data-collection = Zbieranie údajov a ich použitie
+nav-data-collection = Zhromažďovanie a používanie údajov
 nav-paid-subs = Predplatné
 nav-email-comm = E‑mailová komunikácia
 
