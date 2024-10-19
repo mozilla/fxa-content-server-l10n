@@ -68,9 +68,6 @@ recovery-key-pdf-download-error = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੀ ਖਾ�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } ਤੋਂ ਹੋਰ ਲਵੋ:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = ਸੁਰੱਖਿਆ ਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = ਨਵੇਂ ਉਤਪਾਦਾਂ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਛੇਤੀ ਪਹੁੰਚ
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -163,10 +160,43 @@ form-password-sr-not-common-message = ਪਾਸਵਰਡ ਆਮ ਤੌਰ ਉੱ
 form-password-sr-requirements-met = ਦਿੱਤਾ ਪਾਸਵਰਡ ਸਾਰੀਆਂ ਪਾਸਵਰਡ ਸ਼ਰਤਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ।
 form-password-sr-passwords-match = ਦਿੱਤੇ ਗਏ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹਨ।
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = ਪਾਸਵਰਡ
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = ਪਾਸਵਰਡ ਦੁਹਰਾਉ
+form-password-with-inline-criteria-signup-submit-button = ਖਾਤਾ ਬਣਾਓ
+form-password-with-inline-criteria-reset-new-password =
+    .label = ਨਵਾਂ ਪਾਸਵਰਡ
+form-password-with-inline-criteria-confirm-password =
+    .label = ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
+form-password-with-inline-criteria-reset-submit-button = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
+form-password-with-inline-criteria-match-error = ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ
+form-password-with-inline-criteria-sr-too-short-message = ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+form-password-with-inline-criteria-sr-not-email-message = ਪਾਸਵਰਡ ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਰੱਖਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+form-password-with-inline-criteria-sr-not-common-message = ਪਾਸਵਰਡ ਆਮ ਤੌਰ ਉੱਤੇ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+form-password-with-inline-criteria-sr-requirements-met = ਦਿੱਤਾ ਪਾਸਵਰਡ ਸਾਰੀਆਂ ਪਾਸਵਰਡ ਸ਼ਰਤਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ।
+form-password-with-inline-criteria-sr-passwords-match = ਦਿੱਤੇ ਗਏ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹਨ।
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹੈ
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = ਜਾਰੀ ਰੱਖਣ ਲਈ { $codeLength }-ਅੰਕ ਦਿਓ
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = ਜਾਰੀ ਰੱਖਣ ਲਈ { $codeLength }-ਅੱਖਰ ਦਿਓ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -203,8 +233,11 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਰਸਾਉਣ ਵਾਸਤੇ ਮਿਸਾਲ ਹੈ।
-lock-image-aria-label =
-    .aria-label = ਲਾਕ ਦੀ ਮਿਸਾਲ
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -263,6 +296,9 @@ primary-email-confirmation-link-reused = ਮੁੱਢਲਾ ਈਮੇਲ ਪਹ�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ਸਾਈਨ-ਇਨ ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ
 confirmation-link-reused-message = ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਗਿਆ ਸੀ, ਅਤੇ ਸਿਰਫ਼ ਇੱਕ ਵਾਰ ਹੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = ਖ਼ਰਾਬ ਬੇਨਤੀ
 
@@ -280,11 +316,12 @@ password-strength-balloon-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰ�
 password-strength-balloon-not-common = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
 password-strength-balloon-stay-safe-tips = ਸੁਰੱਖਿਅਤ ਰਹੋ — ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਨਾ ਵਰਤੋਂ। <LinkExternal>ਮਜ਼ਬੂਤ ਪਾਸਵਰਡ ਬਣਾਓ</LinkExternal> ਨੂੰ ਹੋਰ ਸੁਝਾਆਵਾਂ ਵਾਸਤੇ ਵੇਖੋ।
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 ready-complete-set-up-instruction = ਆਪਣੇ ਹੋਰ { -brand-firefox } ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਭਰ ਕੇ ਸੈਟਅੱਪ ਪੂਰਾ ਕਰੋ।
-ready-start-browsing-button = ਬਰਾਊਜ਼ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -297,6 +334,39 @@ ready-continue = ਜਾਰੀ ਰੱਖੋ
 sign-in-complete-header = ਸਾਈਨ ਇਨ ਦੀ ਪੁਸ਼ਟੀ
 sign-up-complete-header = ਖਾਤਾ ਤਸਦੀਕ ਕੀਤਾ
 primary-email-verified-header = ਮੁੱਢਲੇ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕੀਤੀ
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = ਤੁਹਾਡੀ ਕੁੰਜੀ ਨੂੰ ਸੰਭਾਲਣ ਲਈ ਥਾਵਾਂ:
+flow-recovery-key-download-storage-ideas-folder-v2 = ਸੁਰੱਖਿਅਤ ਡਿਵਾਈਸ ਉੱਤੇ ਫੋਲਡਰ
+flow-recovery-key-download-storage-ideas-cloud = ਭਰੋਸੇਯੋਗ ਕਲਾਉਡ ਸਟੋਰੇਜ਼
+flow-recovery-key-download-storage-ideas-print-v2 = ਕਾਗਜ਼ ਉੱਤੇ ਪਰਿੰਟ ਕਰਕੇ ਰੱਖੋ
+flow-recovery-key-download-storage-ideas-pwd-manager = ਪਾਸਵਰਡ ਮੈਨੇਜਰ
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = ਤੁਹਾਡੀ ਕੁੰਜੀ ਨੂੰ ਲੱਭਣ ਲਈ ਮਦਦ ਵਾਸਤੇ ਇਸ਼ਾਰਾ ਦਿਓ
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = ਇਸ਼ਾਰਾ ਦਿਓ (ਚੋਣਵਾਂ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = ਮੁਕੰਮਲ
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = ਇਸ਼ਾਰੇ ਵਿੱਚ 255 ਤੋਂ ਘੱਟ ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -387,7 +457,6 @@ cs-sign-out-button = ਸਾਈਨ ਆਉਟ
 ## Data collection section
 
 dc-heading = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
-dc-subheader-2 = { -product-mozilla-accounts } ਨੂੰ ਸੁਧਾਰਨ ਲਈ ਮਦਦ ਕਰੋ
 dc-subheader-content-2 = { -product-mozilla-accounts } ਨੂੰ { -brand-mozilla } ਵੱਲ ਤਕਨੀਕੀ ਅਤੇ ਤਾਲਮੇਲ ਡਾਟਾ ਭੇਜਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।
 dc-opt-in-success-2 = ਮੇਹਰਬਾਨੀ! ਇਹ ਡਾਟਾ ਸਾਂਝਾ ਕਰਨਾ { -product-mozilla-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ।
 dc-opt-in-out-error-2 = ਅਫ਼਼ਸੋਸ, ਤੁਹਾਡੀ ਡਾਟਾ ਇਕੱਤਰ ਕਰਨ ਦੀ ਪਸੰਦ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ
@@ -426,33 +495,13 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = ਆਪਣੀ ਨਵੀ�
 flow-recovery-key-download-heading-v2 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ — ਇਸ ਨੂੰ ਹੁਣ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = ਬਿਨਾਂ ਡਾਊਨਲੋਡ ਕੀਤੇ ਹੀ ਜਾਰੀ ਰੱਖੋ
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = ਤੁਹਾਡੀ ਕੁੰਜੀ ਨੂੰ ਸੰਭਾਲਣ ਲਈ ਥਾਵਾਂ:
-flow-recovery-key-download-storage-ideas-folder-v2 = ਸੁਰੱਖਿਅਤ ਡਿਵਾਈਸ ਉੱਤੇ ਫੋਲਡਰ
-flow-recovery-key-download-storage-ideas-cloud = ਭਰੋਸੇਯੋਗ ਕਲਾਉਡ ਸਟੋਰੇਜ਼
-flow-recovery-key-download-storage-ideas-print-v2 = ਕਾਗਜ਼ ਉੱਤੇ ਪਰਿੰਟ ਕਰਕੇ ਰੱਖੋ
-flow-recovery-key-download-storage-ideas-pwd-manager = ਪਾਸਵਰਡ ਮੈਨੇਜਰ
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = ਤੁਹਾਡੀ ਕੁੰਜੀ ਨੂੰ ਲੱਭਣ ਲਈ ਮਦਦ ਵਾਸਤੇ ਇਸ਼ਾਰਾ ਦਿਓ
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = ਇਸ਼ਾਰਾ ਦਿਓ (ਚੋਣਵਾਂ)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = ਮੁਕੰਮਲ
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = ਇਸ਼ਾਰੇ ਵਿੱਚ 255 ਤੋਂ ਘੱਟ ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -731,6 +780,9 @@ tfa-enter-recovery-code-1 =
 ##
 
 
+## Product promotion
+
+
 ## Profile section
 
 profile-heading = ਪਰੋਫਾਇਲ
@@ -876,10 +928,6 @@ third-party-auth-options-or = ਜਾਂ
 continue-with-google-button = { -brand-google } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 continue-with-apple-button = { -brand-apple } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
@@ -949,6 +997,12 @@ cookies-disabled-enable-prompt-2 = ਤੁਹਾਡੇ { -product-mozilla-account
 cookies-disabled-button-try-again = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = ਹੋਰ ਜਾਣੋ
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1127,59 +1181,16 @@ pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰ�
 
 ## AccountRecoveryConfirmKey page
 
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਿਓ
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਸਦੀਕ ਕਰੋ
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਹੈ?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
-account-restored-success-message = ਤੁਸੀਂ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਵਰਤ ਕੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਬਹਾਲ ਕਰ ਲਿਆ ਹੈ। ਆਪਣੇ ਡੇਟਾ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਅਤੇ ਇਸਨੂੰ ਇੱਕ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ ਉੱਤੇ ਸਟੋਰ ਕਰਨ ਲਈ ਇੱਕ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ।
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
-account-recovery-reset-password-redirecting = ਰੀ-ਡਾਇਰੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
-complete-reset-password-recovery-key-link = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਾਲ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗਈ
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = <span>{ $serviceName }</span> ਨੀਲ ਜਾਰੀ ਰੱਖਣ ਲਈ ਪਾਸਰਵਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = ਈਮੇਲ
-reset-password-button = ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = ਈਮੇਲ ਲੋੜੀਂਦੀ ਹੈ
-reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
-reset-password-with-recovery-key-verified-generate-new-key = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ
-reset-password-with-recovery-key-verified-continue-to-account = ਮੇਰੇ ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 
 ## Confirm Reset Password With Code
 
@@ -1198,13 +1209,19 @@ confirm-reset-password-otp-resend-code-button = ਕੋਡ ਫੇਰ ਭੇਜੋ
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
-password-reset-body = ਆਪਣੀ ਈਮੇਲ ਦਿਓ ਅਤੇ ਅਸੀਂ ਤੁਹਾਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਭੇਜਾਂਗੇ।
 password-reset-email-input =
     .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
-password-reset-submit-button = ਮੈਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀਆਂ ਹਦਾਇਤਾਂ ਭੇਜੋ
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 
 ## CompleteSignin component
 
@@ -1252,6 +1269,13 @@ signin-bounced-message = ਸਾਡੇ ਵਲੋਂ { $email } ਨੂੰ ਭੇ�
 signin-bounced-help = ਜੇ ਇਹ ਵਾਜਬ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਹੈ ਤਾਂ <linkExternal>ਸਾਨੂੰ ਦੱਸੋ</linkExternal> ਅਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਬਹਾਲ ਕਰਨ ਲਈ ਮਦਦ ਕਰ ਸਕਦੇ ਹਾਂ।
 signin-bounced-create-new-account = ਉਹ ਈਮੇਲ ਹੁਣ ਤੁਹਾਡਾ ਨਹੀਂ ਹੈ? ਨਵਾਂ ਖਾਤਾ ਬਣਾਓ
 back = ਪਿੱਛੇ
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1304,15 +1328,6 @@ signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦ�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-signin-totp-code-instruction-v2 = ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਉਸ ਵਲੋਂ ਦਿੱਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ।
-signin-totp-code-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ਤਸਦੀਕ
 signin-totp-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
