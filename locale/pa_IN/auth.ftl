@@ -274,20 +274,23 @@ passwordChangeRequired-different-password-plaintext = ਖਾਸ: ਤੁਹਾਡ
 password-forgot-otp-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-title = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-request = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
-password-forgot-otp-code = ਜੇ ਹਾਂ ਤਾਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਡਾ ਤਸਦੀਕੀ-ਕੋਡ ਇਹ ਹੈ:
+password-forgot-otp-code-2 = ਜੇ ਇਹ ਤੁਸੀਂ ਹੋ ਤਾਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਡਾ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਇਹ ਹੈ:
 password-forgot-otp-expiry-notice = ਇਹ ਕੋਡ ਦੀ ਮਿਆਦ 10 ਮਿੰਟ ਹੈ।
-passwordReset-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
-passwordReset-title = ਤੁਹਾਡੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲਿਆ ਗਿਆ ਸੀ
-passwordReset-description = ਸਿੰਕ ਕਰਨਾ ਮੁੜ-ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹੋਰ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇਣ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
+passwordReset-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+passwordReset-title-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = ਤੁਸੀਂ ਇਸ ਉੱਤੇ ਆਪਣਾ { -product-mozilla-account } ਮੁੜ-ਸੈੱਟ ਕੀਤਾ:
 passwordResetAccountRecovery-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
-passwordResetAccountRecovery-title-2 = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = ਤੁਸੀਂ ਇਸ ਤੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਿਆ ਹੈ:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
-passwordResetAccountRecovery-regen-required-mjml-1 = ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਮੁੜ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ। ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੀ ਜਾ ਚੁੱਕੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਬਦਲ ਕੇ ਨਵੀਂ ਬਣਾਉਣਾ ਯਾਦ ਰੱਖੋ।
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਮੁੜ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ। ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੀ ਜਾ ਚੁੱਕੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਬਦਲ ਕੇ ਨਵੀਂ ਬਣਾਉਣਾ ਯਾਦ ਰੱਖੋ:
+passwordResetAccountRecovery-title-3 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+passwordResetAccountRecovery-action-4 = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+passwordResetWithRecoveryKeyPrompt-subject = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+passwordResetWithRecoveryKeyPrompt-title = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = ਤੁਸੀਂ ਇਸ ਉੱਤੇ ਆਪਣਾ { -product-mozilla-account } ਮੁੜ-ਸੈੱਟ ਕੀਤਾ:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ:
 postAddAccountRecovery-subject-3 = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
 postAddAccountRecovery-title2 = ਤੁਸੀਂ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਹੈ
 # Key here refers to account recovery key
@@ -422,7 +425,16 @@ subscriptionPaymentExpired-title-1 = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕ�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ਭੁਗਤਾਨ ਅਸਫ਼ਲ ਹੋਇਆ
 subscriptionPaymentFailed-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = { $productName } ਲਈ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 subscriptionPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } ਮੈਂਬਰੀ ਮੁੜ-ਸਰਗਰਮ ਕੀਤੀ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = ਤੁਹਾਡੀ { $productName } ਮੈਂਬਰ ਮੁੜ-ਸਰਗਰਮ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ!
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = { $productName } ਆਪਣੇ-ਆਪ ਨਵਿਆਉਣ ਨੋਟਿਸ
@@ -436,6 +448,7 @@ subscriptionRenewalReminder-content-closing = ਤਹਿ ਦਿਲੋਂ,
 subscriptionRenewalReminder-content-signature = { $productName } ਟੀਮ
 subscriptionsPaymentExpired-subject-1 = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਲਈ ਵਰਤੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
 subscriptionsPaymentExpired-title-1 = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
+subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } ਮੈਂਬਰੀਆਂ ਲਈ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 subscriptionsPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

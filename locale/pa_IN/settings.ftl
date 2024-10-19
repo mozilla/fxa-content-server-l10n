@@ -68,6 +68,9 @@ recovery-key-pdf-download-error = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੀ ਖਾ�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } ਤੋਂ ਹੋਰ ਲਵੋ:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = ਸਾਡੀਆਂ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਅਤੇ ਉਤਪਾਦ ਅੱਪਡੇਟ ਲਵੋ
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = ਨਵੇਂ ਉਤਪਾਦਾਂ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਛੇਤੀ ਪਹੁੰਚ
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -1108,6 +1111,7 @@ inline-totp-setup-on-completion-description = ਇੱਕ ਵਾਰ ਪੂਰਾ �
 inline-totp-setup-security-code-placeholder = ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
+tfa-qr-code-alt = ਸਹਾਇਕ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਿਕਤਾ ਨੂੰ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ { $code } ਕੋਡ ਦੀ ਵਰਤੋਂ ਕਰੋ।
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1230,16 +1234,33 @@ pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰ�
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਿਓ
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = ਆਪਣੀ 32-ਅੱਖਰਾਂ ਦੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਿਓ
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = ਤੁਹਾਡਾ ਸਟੋਰੇਜ਼ ਇਸ਼ਾਰਾ ਹੈ:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = ਜਾਰੀ ਰੱਖੋ
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = ਤੁਹਾਡੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਲੱਭੀ?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤੋਂ
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ।
 
 ## Confirm Reset Password With Code
 
@@ -1260,6 +1281,9 @@ confirm-reset-password-otp-different-account-link = ਵੱਖਰੇ ਖਾਤੇ
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+confirm-totp-reset-password-instruction = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵੇਖੋ।
+confirm-totp-reset-password-trouble-code = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
 
 ## ResetPassword start page
 
