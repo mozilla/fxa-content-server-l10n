@@ -285,20 +285,15 @@ passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passo
 password-forgot-otp-subject = Gløymt passordet ditt?
 password-forgot-otp-title = Gløymt passordet ditt?
 password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
-password-forgot-otp-code = Om ja, her er stadfestingskoden din:
 password-forgot-otp-expiry-notice = Denne koden går ut om 10 minutt.
-passwordReset-subject = Passord oppdatert
-passwordReset-title = Kontopassordet ditt vart endra
-passwordReset-description = Du må skrive inn det nye passordet ditt på andre einingar for å fortsetje synkroniseringa.
+passwordReset-title-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
-passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Du brukte kontogjenopprettingsnøkkelen din til å oppdatere passordet ditt frå:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Opprett kontogjenopprettingsnøkkel
-passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
+passwordResetAccountRecovery-title-3 = Passordet ditt er tilbakestilt
+passwordResetAccountRecovery-action-4 = Handsam kontoen
+passwordResetWithRecoveryKeyPrompt-subject = Passordet ditt er tilbakestilt
+passwordResetWithRecoveryKeyPrompt-title = Passordet ditt er tilbakestilt
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Opprett kontogjenopprettingsnøkkel
 postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel oppretta
 postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
 # Key here refers to account recovery key

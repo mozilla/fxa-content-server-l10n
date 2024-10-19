@@ -339,7 +339,6 @@ password-strength-inline-not-common = Ikkje eit vanleg brukt passord
 
 ## Ready component
 
-reset-password-complete-header = Passordet ditt er tilbakestilt
 ready-complete-set-up-instruction = Fullfør oppsettet ved å skrive inn det nye passordet på dei andre { -brand-firefox }-einingane dine.
 manage-your-account-button = Handsam kontoen din
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -388,6 +387,8 @@ flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 te
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Åtvaring
+password-reset-chevron-expanded = Skjul åtvaring
+password-reset-chevron-collapsed = Vis åtvaring
 
 ## Alert Bar
 
@@ -1229,15 +1230,20 @@ confirm-reset-password-otp-resend-code-button = Send koden på nytt
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Tilbakestill passordet ditt
 password-reset-email-input =
     .label = Skriv inn e-postadressa di
 password-reset-submit-button-2 = Hald fram
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Passordet ditt er tilbakestilt
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
-reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
-reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
 
 ## CompleteSignin component
 
