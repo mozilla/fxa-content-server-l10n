@@ -238,6 +238,12 @@ recovery-key-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = ਤੁਸੀਂ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ
+inline-recovery-key-setup-create-header = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਮਿੰਟ ਕੁ ਹੈ?
+inline-recovery-key-setup-start-button = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
+inline-recovery-key-setup-later-button = ਇਸ ਨੂੰ ਬਾਅਦ 'ਚ ਕਰੋ
 
 ## Input Password
 
@@ -299,6 +305,8 @@ confirmation-link-reused-message = ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹ
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = ਬਣਾਓ
+account-recovery-notification-header-value = ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਓ ਤਾਂ ਆਪਣਾ ਡਾਟਾ ਨਾ ਗੁਆਓ
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = ਖ਼ਰਾਬ ਬੇਨਤੀ
 
@@ -318,10 +326,15 @@ password-strength-balloon-stay-safe-tips = ਸੁਰੱਖਿਅਤ ਰਹੋ �
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ
+password-strength-inline-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੈ
+password-strength-inline-not-common = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
+password-strength-inline-confirmed-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ
 
 ## Ready component
 
 ready-complete-set-up-instruction = ਆਪਣੇ ਹੋਰ { -brand-firefox } ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਭਰ ਕੇ ਸੈਟਅੱਪ ਪੂਰਾ ਕਰੋ।
+manage-your-account-button = ਆਪਣੇ ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -367,6 +380,11 @@ flow-recovery-key-hint-char-limit-error = ਇਸ਼ਾਰੇ ਵਿੱਚ 255 ਤ�
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = ਚੇਤਾਵਨੀ
+password-reset-chevron-expanded = ਸਮੇਟਣ ਦੀ ਚੇਤਾਵਨੀ
+password-reset-chevron-collapsed = ਫੈਲਾਓ ਦੀ ਚੇਤਾਵਨੀ
+password-reset-data-may-not-be-recovered = ਸ਼ਾਇਦ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਰ ਡਾਟੇ ਨੂੰ ਰਿਕਵਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ
+password-reset-warning-have-key = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹੈ?
 
 ## Alert Bar
 
@@ -457,6 +475,8 @@ cs-sign-out-button = ਸਾਈਨ ਆਉਟ
 ## Data collection section
 
 dc-heading = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } ਬਰਾਊਜ਼ਰ
 dc-subheader-content-2 = { -product-mozilla-accounts } ਨੂੰ { -brand-mozilla } ਵੱਲ ਤਕਨੀਕੀ ਅਤੇ ਤਾਲਮੇਲ ਡਾਟਾ ਭੇਜਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।
 dc-opt-in-success-2 = ਮੇਹਰਬਾਨੀ! ਇਹ ਡਾਟਾ ਸਾਂਝਾ ਕਰਨਾ { -product-mozilla-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ।
 dc-opt-in-out-error-2 = ਅਫ਼਼ਸੋਸ, ਤੁਹਾਡੀ ਡਾਟਾ ਇਕੱਤਰ ਕਰਨ ਦੀ ਪਸੰਦ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ
@@ -949,9 +969,16 @@ auth-error-155 = TOTP ਟੋਕ ਨਹੀਂ ਲੱਭਿਆ
 auth-error-159 = ਗਲਤ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 auth-error-183-2 = ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ
 auth-error-999 = ਅਣਜਾਣ ਗਲਤੀ
+auth-error-1001 = ਲਾਗਇਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਰੱਦ ਕੀਤੀ
+auth-error-1002 = ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।
 auth-error-1003 = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਹਾਲੇ ਵੀ ਅਸਮਰੱਥ ਹਨ
 auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
+auth-error-1010 = ਠੀਕ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ
 auth-error-1011 = ਢੁੱਕਵੀਂ ਈਮੇਲ ਚਾਹੀਦੀ ਹੈ
+auth-error-1031 = ਸਾਈਨ ਅੱਪ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੀ ਉਮਰ ਦੇਣੀ ਪਵੇਗੀ
+auth-error-1032 = ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਢੁੱਕਵੀਂ ਉਮਰ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ
+auth-error-1062 = ਅਢੁੱਕਵਾਂ ਰੀ-ਡਿਰੈਕਟ
+oauth-error-1000 = ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਇਹ ਟੈਬ ਬੰਦ ਕਰੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1000,9 +1027,25 @@ cookies-disabled-learn-more = ਹੋਰ ਜਾਣੋ
 
 ## Index / home page
 
+index-header = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+index-sync-header = ਆਪਣੇ { -product-mozilla-account } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+index-sync-subheader = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ { -brand-firefox } ਵਰਤੋਂ, ਆਪਣੇ ਪਾਸਵਰਡ, ਟੈਬਾਂ ਤੇ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ।
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+index-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+index-subheader-default = ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+index-cta = ਸਾਈਨ ਅੱਪ ਜਾਂ ਸਾਈਨ ਇਨ ਕਰੋ
+index-account-info = { -product-mozilla-account } ਖਾਤਾ { -brand-mozilla } ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾਰੀ-ਸੁਰੱਖਿਅਤ ਖਾਤਿਆਂ ਲਈ ਪਹੁੰਚ ਵੀ ਦਿੰਦਾ ਹੈ।
+index-email-input =
+    .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = ਓਹ ਹੋ! ਅਸੀਂ ਤੁਹਾਡੀ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਬਣਾ ਸਕਦੇ ਹਾਂ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+inline-recovery-key-setup-recovery-created = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
+inline-recovery-key-setup-download-header = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ
+inline-recovery-key-setup-download-subheader = ਇਸ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ
+inline-recovery-key-setup-hint-header = ਸੁਰੱਖਿਆ ਸਿਫਾਰਸ਼
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1025,6 +1068,7 @@ inline-recovery-continue-button = ਜਾਰੀ ਰੱਖੋ
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = ਪੁਸ਼ਟੀ
 inline-recovery-back-link = ਪਿੱਛੇ
+inline-recovery-cancel-setup = ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 # Strings within the <span> elements appear as a subheading.
@@ -1034,6 +1078,7 @@ inline-recovery-confirmation-header-default = <span>ਖਾਤਾ ਸੈਟਿੰ
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
+inline-recovery-2fa-enabled = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸਮਰੱਥ ਹੈ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1058,7 +1103,11 @@ inline-totp-setup-no-qr-default-service-header-2 = ਖਾਤਾ ਸੈਟਿੰ�
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = ਇਹ ਗੁਪਤ ਕੁੰਜੀ ਨੂੰ ਆਪਣੇ ਪਰਮਾਣੀਕਰਨ ਐਪ ਵਿੱਚ ਲਿਖੋ। <toggleToQRButton>ਇਸ ਦੀ ਜਬਾਏ QR ਕੋਡ ਸਕੈਨ ਕਰਨਾ ਹੈ?</toggleToQRButton>
 # The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = ਇੱਕ ਵਾਰ ਪੂਰਾ ਹੋਣ ਉੱਤੇ ਇਹ ਤੁਹਾਡੇ ਵਲੋਂ ਭਰਨ ਵਾਲੇ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਉਣਾ ਸ਼ੁਰੂ ਕਰੇਗਾ।
+# The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
