@@ -405,6 +405,7 @@ password-reset-warning-icon = Jesarekorã
 password-reset-chevron-expanded = Ñemongyhyje
 password-reset-chevron-collapsed = Emyasãi mongyhyje
 password-reset-data-may-not-be-recovered = Ne ñeikundaha mba’ekuaarã ikatu okañyete
+password-reset-previously-signed-in-device-2 = ¿Ereko peteĩ mba’e’oka eñepyrũhaguékuri tembiapo?
 password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
 
 ## Alert Bar
@@ -1368,6 +1369,7 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-trouble-code = ¿Apañuái emoinge hag̃ua ayvu?
 confirm-totp-reset-password-confirm-button = Moneĩ
 confirm-totp-reset-password-input-label = Emoinge ayvu
 
@@ -1381,7 +1383,10 @@ password-reset-submit-button-2 = Ku’ejey
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Eku’ejey { $serviceName } ndive
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
+reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
 
 ## CompleteSignin component
 
