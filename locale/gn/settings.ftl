@@ -1347,18 +1347,28 @@ account-recovery-confirm-key-heading = Ehai mba’ete mba’eñemi jeguerujeyrã
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = Ehai mba’ete mba’eñemi guerujeyrã orekóva 32 tai
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Ne ñe’ẽ ñembyatyrã ha’e:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Ku’ejey
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = ¿Nderejuhukuaái ne mba’ete jeguerujeyrã?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Emoheñói ñe’ẽñemi pyahu
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Rombyasy, oiko apañuái emoĩnguévo ne ñe’ẽñemi
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Eiporu mba’eñemi jeguerujeyrã
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Ojeguerujeýma ne ñe’ẽñemi.
 
 ## Confirm Reset Password With Code
 
@@ -1379,6 +1389,7 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Embojevyjey ne ñe’ẽñemi
 confirm-totp-reset-password-trouble-code = ¿Apañuái emoinge hag̃ua ayvu?
 confirm-totp-reset-password-confirm-button = Moneĩ
 confirm-totp-reset-password-input-label = Emoinge ayvu
