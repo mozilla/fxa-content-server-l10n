@@ -240,6 +240,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua mba’ete mba’eñemi guerujeyrã.
+password-image-aria-label =
+    .aria-label = Ñemopyenda ehaikuaa hag̃ua ñe’ẽñemi jegueroike.
 lightbulb-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua ñemoñe’ẽ moheñoimby ñembyatyha rendarã.
 email-code-image-aria-label =
@@ -249,7 +251,11 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = Emoñepyrũma tembiapo { -brand-firefox }-pe
 inline-recovery-key-setup-create-header = Emo’ã ne mba’ete
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = ¿Ereko peteĩ aravo emo’ã hag̃ua ne mba’ekuaarã?
+inline-recovery-key-setup-info = Emoheñói mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ne ñeikundaha mba’ekuaarã mbojuehepyre nderesaráirõ ne ñe’ẽñemi.
 inline-recovery-key-setup-start-button = Emoheñói mba’ete mba’eñemi guerujeyrã
 inline-recovery-key-setup-later-button = Ejapo uperire
 
