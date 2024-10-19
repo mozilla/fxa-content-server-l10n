@@ -1084,6 +1084,8 @@ inline-totp-setup-show-qr-default-service-header-2 = Skann godkjenningskoden <sp
 inline-totp-setup-no-qr-default-service-header-2 = Skriv inn koden manuelt <span>for å halde fram til kontoinnstillingar</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Skriv inn den hemmelege nøkkelen i autentiseringsappen din. <toggleToQRButton>Skanne QR-kode i staden?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skann QR-koden i autentiseringsappen din, og skriv deretter inn autentiseringskoden han gir. <toggleToManualModeButton>Kan du ikkje skanne koden?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = godkjenningskode
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1239,6 +1241,10 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Tilbakestill passord
+confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
+confirm-totp-reset-password-confirm-button = Stadfest
+confirm-totp-reset-password-input-label = Skriv inn kode
 
 ## ResetPassword start page
 
@@ -1251,6 +1257,7 @@ password-reset-submit-button-2 = Hald fram
 
 reset-password-complete-header = Passordet ditt er tilbakestilt
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
+reset-password-complete-new-password-saved = Nytt passord lagra!
 
 ## CompleteSignin component
 
@@ -1366,6 +1373,7 @@ signin-token-code-required-error = Stadfestingskode påkravd
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Skriv inn tryggingskoden for tofaktorautentisering (2FA)
 signin-totp-code-input-label-v3 = Skriv inn kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
