@@ -563,6 +563,7 @@ la-description = Du har autorisert tilgang til følgjande kontoar.
 la-unlink-button = Fjern tilknyting
 la-unlink-account-button = Fjern tilknyting
 la-set-password-button = Vel passord
+la-unlink-heading = Fjern tilknyting til tredjepartskonto
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -1221,6 +1222,11 @@ complete-reset-pw-header-v2 = Lag eit nytt passord
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord innstilt
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Bruk kontogjenopprettingsnøkkelen
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Passordet er tilbakestilt.
 
 ## Confirm Reset Password With Code
 
@@ -1242,6 +1248,7 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Tilbakestill passord
+confirm-totp-reset-password-subheader = Skriv inn tryggingskoden for tofaktorautentisering (2FA)
 confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
 confirm-totp-reset-password-confirm-button = Stadfest
 confirm-totp-reset-password-input-label = Skriv inn kode
@@ -1256,6 +1263,8 @@ password-reset-submit-button-2 = Hald fram
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Passordet ditt er tilbakestilt
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Hald fram til { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-complete-new-password-saved = Nytt passord lagra!
 
@@ -1374,6 +1383,7 @@ signin-token-code-required-error = Stadfestingskode påkravd
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader = Skriv inn tryggingskoden for tofaktorautentisering (2FA)
+signin-totp-code-instruction-v3 = Sjekk autentiseringsappen for å stadfeste pålogginga.
 signin-totp-code-input-label-v3 = Skriv inn kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest

@@ -285,15 +285,25 @@ passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passo
 password-forgot-otp-subject = Gløymt passordet ditt?
 password-forgot-otp-title = Gløymt passordet ditt?
 password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
+password-forgot-otp-code-2 = Viss dette var deg, her er stadfestingskoden for å halde fram:
 password-forgot-otp-expiry-notice = Denne koden går ut om 10 minutt.
+passwordReset-subject-2 = Passordet ditt er tilbakestilt
 passwordReset-title-2 = Passordet ditt er tilbakestilt
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Du tilbakestiller passordet for { -product-mozilla-account } på:
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-title-3 = Passordet ditt er tilbakestilt
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Du brukte nøkkelen for kontogjenoppretting til å tilbakestille passordet for { -product-mozilla-account } på:
 passwordResetAccountRecovery-action-4 = Handsam kontoen
 passwordResetWithRecoveryKeyPrompt-subject = Passordet ditt er tilbakestilt
 passwordResetWithRecoveryKeyPrompt-title = Passordet ditt er tilbakestilt
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Du tilbakestiller passordet for { -product-mozilla-account } på:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Opprett kontogjenopprettingsnøkkel
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Opprett kontogjenopprettingsnøkkel:
 postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel oppretta
 postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
 # Key here refers to account recovery key
