@@ -320,6 +320,8 @@ confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha pete�
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Moheñói
+account-recovery-notification-header-value = Nokañyiva’erã ne mba’ekuaarã nderesaráirõ ne ñe’ẽñemi
+account-recovery-notification-header-description = Emoheñói mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ne ñeikundaha mba’ekuaarã mbojuehepyre nderesaráirõ ne ñe’ẽñemi.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mba’ejerure ojavýva
 
@@ -402,6 +404,7 @@ flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua
 password-reset-warning-icon = Jesarekorã
 password-reset-chevron-expanded = Ñemongyhyje
 password-reset-chevron-collapsed = Emyasãi mongyhyje
+password-reset-data-may-not-be-recovered = Ne ñeikundaha mba’ekuaarã ikatu okañyete
 password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
 
 ## Alert Bar
