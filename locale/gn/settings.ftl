@@ -1138,14 +1138,17 @@ index-subheader-with-servicename = Eku’ejey { $serviceName } ndive
 index-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span> ndive
 index-subheader-default = Eku’ejey mba’ete mbohekopyahúpe
 index-cta = Emoinge térã eñemboheraguapy
+index-account-info = Peteĩ { -product-mozilla-account } ombojurujakuaa heta apopyrépe jeike { -brand-mozilla } ñemigua omo’ãvape.
 index-email-input =
     .label = Emoinge ne ñanduti veve
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = ¡Ajépa! Ndaikatúi romoheñói ne mba’ete jeguerujeyrã. Eha’ã jey ag̃amieve.
 inline-recovery-key-setup-recovery-created = Oñemoheñói mba’eñemi jeguerujeyrã
 inline-recovery-key-setup-download-header = Embojuaju ne mba’ete
 inline-recovery-key-setup-download-subheader = Emboguejy ha eñongatu
+inline-recovery-key-setup-hint-header = Ñemoñe’ẽ tekorosãrã
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1339,6 +1342,11 @@ third-party-auth-callback-message = Eha’ãrõmína, ejeguerahajeyhína tembipo
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Ehai mba’ete mba’eñemi jeguerujeyrã
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Ehai mba’ete mba’eñemi guerujeyrã orekóva 32 tai
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Ku’ejey
 
