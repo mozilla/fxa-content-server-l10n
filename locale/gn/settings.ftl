@@ -407,6 +407,7 @@ password-reset-chevron-collapsed = Emyasãi mongyhyje
 password-reset-data-may-not-be-recovered = Ne ñeikundaha mba’ekuaarã ikatu okañyete
 password-reset-previously-signed-in-device-2 = ¿Ereko peteĩ mba’e’oka eñepyrũhaguékuri tembiapo?
 password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
+password-reset-warning-use-key-link = Eiporu egueru jey hag̃ua ne ñe’ẽñemi ha ani ogue ne mba’ekuaarã
 
 ## Alert Bar
 
@@ -1131,6 +1132,7 @@ cookies-disabled-learn-more = Kuaave
 
 index-header = Emoinge ne ñanduti veve
 index-sync-header = Eku’e jey nde { -product-mozilla-account } ndive
+index-sync-subheader = Embojuehe ñe’ẽñemi, tendayke ha techaukaha tenda eiporuhápe { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Eku’ejey { $serviceName } ndive
 index-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span> ndive
