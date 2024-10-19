@@ -307,7 +307,7 @@ passwordResetWithRecoveryKeyPrompt-description = Þú endurstilltir { -product-m
 passwordResetWithRecoveryKeyPrompt-action = Útbúðu endurheimtulykil reiknings
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Útbúðu endurheimtulykil reiknings:
-passwordResetWithRecoveryKeyPrompt-cta-description = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Haltu gögnunum þínum öruggum næst með endurheimtulykli. Þetta gerir þér kleift að endurheimta gögnin þín ef þú gleymir lykilorðinu þínu.
+passwordResetWithRecoveryKeyPrompt-cta-description = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Næst skaltu halda gögnunum þínum öruggum með endurheimtulykli. Þetta gerir þér kleift að endurheimta gögnin þín ef þú gleymir lykilorðinu þínu.
 postAddAccountRecovery-subject-3 = Nýr endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtulykil fyrir reikninginn
 # Key here refers to account recovery key
