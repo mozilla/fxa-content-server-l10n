@@ -510,6 +510,7 @@ flow-container-back = Tilbake
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Skriv inn passordet ditt på nytt for å vere på den sikre sida
 flow-recovery-key-confirm-pwd-input-label = Skriv inn passordet ditt
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Opprett kontogjenopprettingsnøkkel
@@ -694,6 +695,7 @@ display-name-input =
     .label = Skriv inn visingsnamn
 submit-display-name = Lagre
 cancel-display-name = Avbryt
+display-name-update-error-2 = Det oppstod eit problem med å oppdatere visingsnamnet ditt
 display-name-success-alert-2 = Visingsnamn oppdatert
 
 ##
@@ -709,6 +711,10 @@ recent-activity-account-disable-v2 = Konto deaktivert
 recent-activity-account-enable-v2 = Konto aktivert
 recent-activity-account-login-v2 = Kontoinnlogging starta
 recent-activity-account-reset-v2 = Tilbakestilling av passord starta
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-postavvisingar fjerna
+recent-activity-account-login-failure = Forsøk på kontopålogging mislykkast
 recent-activity-account-two-factor-added = Tostegs-godkjenning aktivert
 recent-activity-account-two-factor-requested = Tostegs-godkjenning påkravd
 recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
