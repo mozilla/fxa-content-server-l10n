@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-10-19 13:31+0000\n"
+"PO-Revision-Date: 2024-10-19 13:35+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -408,7 +408,7 @@ msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦ�
 
 #: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ ਸੈਕੰਡਰੀ ਈਮੇਲਾਂ ਦੀ ਹੱਦ ਪੂਰੀ ਕਰ ਚੁੱਕੇ ਹੋ"
 
 #: .es5/lib/auth-errors.js:170
 msgid "This email already exists on your account"
@@ -1911,7 +1911,7 @@ msgstr "ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨੂੰ ਆਪਣ�
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "ਆਪਣੇ ਕੰਪਿਊਟਰ ਤੋਂ Firefox ਨੂੰ ਚਲਾਓ, <b class=\"whitespace-nowrap\">firefox.com/pair</b> ਨੂੰ ਖੋਲ੍ਹੋ ਅਤੇ ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰਨ ਲਈ ਸਕਰੀਨ ਉੱਤੇ ਦਿੱਤੀਆਂ ਹਿਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
@@ -1961,19 +1961,19 @@ msgstr "ਡਿਵਾਈਸਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "<small class=\"card-subheader\">ਤੁਹਾਡੇ ਹੋਰ ਡਿਵਾਈਸ ਤੋਂ</small> ਹੁਣ ਮਨਜ਼ੂਰੀ ਚਾਹੀਦੀ ਹੈ"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਪੇਅਰ ਕਰਨਾ ਅਸਫ਼ਲ ਹੈ"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "ਸੈਟਅੱਪ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦਿਓ।"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਈਨ ਇਨ ਕੀਤਾ!"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
@@ -2073,12 +2073,12 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤ�
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "ਹੁਣ Firefox ਡਾਊਨਲੋਡ ਕਰੋ"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "ਓਹ ਹੋ! ਕੁਝ ਗ਼ਲਤ ਵਾਪਰਿਆ ਹੈ।"
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "ਇਹ ਟੈਬ ਨੂੰ ਬੰਦ ਕਰਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
