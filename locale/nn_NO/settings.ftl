@@ -1077,6 +1077,13 @@ inline-totp-setup-ready-button = Klar
 inline-totp-setup-show-qr-custom-service-header-2 = Skann godkjenningskoden <span>for å halde fram til { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Skriv inn koden manuelt <span>for å halde fram til { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Skann godkjenningskoden <span>for å halde fram til innstillingar</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Skriv inn koden manuelt <span>for å halde fram til kontoinnstillingar</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Skriv inn den hemmelege nøkkelen i autentiseringsappen din. <toggleToQRButton>Skanne QR-kode i staden?</toggleToQRButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = godkjenningskode
 # The "authentication code" here refers to the code provided by an authentication app.
