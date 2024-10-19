@@ -199,6 +199,11 @@ form-verify-code-default-error = Ko korápe ahaiva’erã
 # Used when the code may only contain numbers
 # $codeLength : number of digits in a valid code
 form-verify-totp-disabled-button-title-numeric = Ehai ayvu orekóva { $codeLength } tai eku’e hag̃ua
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Ehai ayvu orekóva { $codeLength } tai eku’e hag̃ua
 
 # GetDataTrio component, part of Account Recovery Key flow
 

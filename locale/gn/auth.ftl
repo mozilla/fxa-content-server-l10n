@@ -293,6 +293,8 @@ passwordReset-title-2 = Oikojeýma ne ñe’ẽñemi
 passwordReset-description-2 = Egueru jey ne ñe’ẽñemi { -product-mozilla-account } pegua amo:
 passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
 passwordResetAccountRecovery-title-3 = Oikojeýma ne ñe’ẽñemi
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Eiporu mba’ete ayvu jeguerujeyrã embojevy hag̃ua ne ñe’ẽñemi { -product-mozilla-account } amo:
 passwordResetAccountRecovery-action-4 = Mba’ete ñangareko
 passwordResetWithRecoveryKeyPrompt-subject = Oikojeýma ne ñe’ẽñemi
 passwordResetWithRecoveryKeyPrompt-title = Oikojeýma ne ñe’ẽñemi
