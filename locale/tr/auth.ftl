@@ -285,6 +285,7 @@ passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullan
 password-forgot-otp-subject = Parolanızı unuttunuz mu?
 password-forgot-otp-title = Parolanızı unuttunuz mu?
 password-forgot-otp-request = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
+password-forgot-otp-code-2 = Bunu siz talep ettiyseniz aşağıdaki onay koduyla devam edebilirsiniz:
 password-forgot-otp-expiry-notice = Kodun geçerlilik süresi 10 dakikadır.
 passwordReset-subject-2 = Parolanız sıfırlandı
 passwordReset-title-2 = Parolanız sıfırlandı
@@ -294,6 +295,9 @@ passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
 passwordResetAccountRecovery-title-3 = Parolanız sıfırlandı
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = { -product-mozilla-account } parolanızı sıfırlamak için hesap kurtarma anahtarınızı kullandığınız cihaz ve tarih:
+passwordResetAccountRecovery-information = Eşitlenen tüm cihazlarınızdaki oturumlarınızı kapattık. Biraz önce kullandığınız hesap kurtarma anahtarının yerine yeni bir tane oluşturduk. Hesap ayarlarınızdan değiştirebilirsiniz.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Eşitlenen tüm cihazlarınızdaki oturumlarınızı kapattık. Biraz önce kullandığınız hesap kurtarma anahtarının yerine yeni bir tane oluşturduk. Hesap ayarlarınızdan değiştirebilirsiniz:
 passwordResetAccountRecovery-action-4 = Hesabı yönet
 passwordResetWithRecoveryKeyPrompt-subject = Parolanız sıfırlandı
 passwordResetWithRecoveryKeyPrompt-title = Parolanız sıfırlandı
@@ -303,6 +307,7 @@ passwordResetWithRecoveryKeyPrompt-description = { -product-mozilla-account } pa
 passwordResetWithRecoveryKeyPrompt-action = Hesap kurtarma anahtarı oluştur
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Hesap kurtarma anahtarı oluştur:
+passwordResetWithRecoveryKeyPrompt-cta-description = Eşitlenen tüm cihazlarınıza yeniden giriş yapmanız gerekecek. Verilerinizi güvende tutmak için bir dahaki sefere hesap kurtarma anahtarı kullanmanızı öneririz. Bu sayede, parolanızı unutursanız verilerinizi kurtarabilirsiniz.
 postAddAccountRecovery-subject-3 = Yeni hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
 # Key here refers to account recovery key
