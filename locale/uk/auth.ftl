@@ -286,20 +286,29 @@ passwordChangeRequired-different-password-plaintext = Важливо: Вигад
 password-forgot-otp-subject = Забули свій пароль?
 password-forgot-otp-title = Забули свій пароль?
 password-forgot-otp-request = Ми отримали запит на зміну пароля до вашого { -product-mozilla-account(case: "gen") } від:
-password-forgot-otp-code = Ось ваш код підтвердження, щоб продовжити:
+password-forgot-otp-code-2 = Якщо це були ви, ось ваш код підтвердження, щоб продовжити:
 password-forgot-otp-expiry-notice = Термін дії коду – 10 хвилин.
-passwordReset-subject = Пароль оновлено
-passwordReset-title = Пароль вашого облікового запису було змінено
-passwordReset-description = Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації.
+passwordReset-subject-2 = Ваш пароль було скинуто
+passwordReset-title-2 = Ваш пароль було скинуто
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Ви скинули свій пароль { -product-mozilla-account }:
 passwordResetAccountRecovery-subject-2 = Ваш пароль було скинуто
-passwordResetAccountRecovery-title-2 = Пароль успішно скинуто
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Ви використали ключ відновлення облікового запису, щоб оновити пароль із:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Створити ключ відновлення облікового запису
-passwordResetAccountRecovery-regen-required-mjml-1 = Вам потрібно буде знову ввійти в систему на всіх синхронізованих пристроях. Не забудьте створити новий ключ відновлення облікового запису, щоб замінити той, який ви використовували.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Вам потрібно буде знову ввійти в систему на всіх синхронізованих пристроях. Не забудьте створити новий ключ відновлення облікового запису, щоб замінити той, який ви використовували:
+passwordResetAccountRecovery-title-3 = Ваш пароль було скинуто
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Ви використали ключ відновлення облікового запису, щоб скинути пароль { -product-mozilla-account }:
+passwordResetAccountRecovery-information = Ви вийшли з усіх ваших синхронізованих пристроїв. Ми створили новий ключ відновлення облікового запису замість використаного. Ви можете змінити його в налаштуваннях облікового запису.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Ви вийшли з усіх ваших синхронізованих пристроїв. Ми створили новий ключ відновлення облікового запису замість використаного. Ви можете змінити його в налаштуваннях облікового запису.
+passwordResetAccountRecovery-action-4 = Керувати обліковим записом
+passwordResetWithRecoveryKeyPrompt-subject = Ваш пароль було скинуто
+passwordResetWithRecoveryKeyPrompt-title = Ваш пароль було скинуто
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Ви скинули свій пароль { -product-mozilla-account }:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Створити ключ відновлення облікового запису
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Створити ключ відновлення облікового запису:
+passwordResetWithRecoveryKeyPrompt-cta-description = Вам потрібно буде знову виконати вхід на всіх синхронізованих пристроях. Наступного разу захистіть свої дані за допомогою ключа відновлення облікового запису. Це дасть вам змогу відновити дані у разі втрати пароля.
 postAddAccountRecovery-subject-3 = Створено новий ключ відновлення облікового запису
 postAddAccountRecovery-title2 = Ви створили новий ключ відновлення облікового запису
 # Key here refers to account recovery key
