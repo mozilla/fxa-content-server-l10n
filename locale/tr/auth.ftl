@@ -292,6 +292,8 @@ passwordReset-title-2 = Parolanız sıfırlandı
 passwordReset-description-2 = { -product-mozilla-account } parolanızı sıfırladığınız cihaz ve tarih:
 passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
 passwordResetAccountRecovery-title-3 = Parolanız sıfırlandı
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = { -product-mozilla-account } parolanızı sıfırlamak için hesap kurtarma anahtarınızı kullandığınız cihaz ve tarih:
 passwordResetAccountRecovery-action-4 = Hesabı yönet
 passwordResetWithRecoveryKeyPrompt-subject = Parolanız sıfırlandı
 passwordResetWithRecoveryKeyPrompt-title = Parolanız sıfırlandı
