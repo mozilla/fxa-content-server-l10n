@@ -1401,6 +1401,7 @@ confirm-totp-reset-password-instruction = V aplikaciji za overitev ponastavite g
 confirm-totp-reset-password-trouble-code = Imate težave pri vnosu kode?
 confirm-totp-reset-password-confirm-button = Potrdi
 confirm-totp-reset-password-input-label = Vnesite kodo
+confirm-totp-reset-password-use-different-account = Uporabi drug račun
 
 ## ResetPassword start page
 
