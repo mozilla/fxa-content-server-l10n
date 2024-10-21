@@ -1405,6 +1405,7 @@ confirm-totp-reset-password-instruction = Ellenőrizze a hitelesítő alkalmazá
 confirm-totp-reset-password-trouble-code = Nem tudja beírni a kódot?
 confirm-totp-reset-password-confirm-button = Megerősítés
 confirm-totp-reset-password-input-label = Adja meg a kódot
+confirm-totp-reset-password-use-different-account = Másik fiók használata
 
 ## ResetPassword start page
 
