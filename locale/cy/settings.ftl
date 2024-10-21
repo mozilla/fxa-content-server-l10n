@@ -1397,6 +1397,7 @@ confirm-totp-reset-password-instruction = Gwiriwch eich ap dilysu i ailosod eich
 confirm-totp-reset-password-trouble-code = Trafferth cyflwyno'r cod?
 confirm-totp-reset-password-confirm-button = Cadarnhau
 confirm-totp-reset-password-input-label = Rhowch y cod
+confirm-totp-reset-password-use-different-account = Defnyddiwch gyfrif gwahanol
 
 ## ResetPassword start page
 
