@@ -290,23 +290,23 @@ password-forgot-otp-expiry-notice = Este código expira em 10 minutos.
 passwordReset-subject-2 = A sua palavra-passe foi redefinida
 passwordReset-title-2 = A sua palavra-passe foi redefinida
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Repôs a palavra passe da sua { -product-mozilla-account } em:
+passwordReset-description-2 = Redefiniu a palavra passe da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
-passwordResetAccountRecovery-title-3 = A sua palavra-passe foi reposta
+passwordResetAccountRecovery-title-3 = A sua palavra-passe foi redefinida
 # Followed by details on the device and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Utilizou a sua chave de recuperação de conta para repor a palavra-passe da sua { -product-mozilla-account } em:
-passwordResetAccountRecovery-information = Terminamos a sessão de todos os seus dispositivos sincronizados. Criámos uma nova chave de recuperação da conta para substituir a que utilizou. Pode alterar as mesmas nas definições da sua conta.
+passwordResetAccountRecovery-description-3 = Utilizou a sua chave de recuperação de conta para redefinir a palavra-passe da sua { -product-mozilla-account } em:
+passwordResetAccountRecovery-information = Terminámos a sessão de todos os seus dispositivos sincronizados. Criámos uma nova chave de recuperação da conta para substituir a que utilizou. Pode alterar a mesma nas definições da sua conta.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Terminamos a sessão de todos os seus dispositivos sincronizados. Criámos uma nova chave de recuperação da conta para substituir a que utilizou. Pode alterar nas definições da sua conta:
+passwordResetAccountRecovery-information-txt = Terminamos a sessão de todos os seus dispositivos sincronizados. Criámos uma nova chave de recuperação da conta para substituir a que utilizou. Pode alterar a mesma nas definições da sua conta:
 passwordResetAccountRecovery-action-4 = Gerir conta
-passwordResetWithRecoveryKeyPrompt-subject = A sua palavra-passe foi reposta
-passwordResetWithRecoveryKeyPrompt-title = A sua palavra-passe foi reposta
+passwordResetWithRecoveryKeyPrompt-subject = A sua palavra-passe foi redefinida
+passwordResetWithRecoveryKeyPrompt-title = A sua palavra-passe foi redefinida
 # Details of the device and date/time where the password was reset
-passwordResetWithRecoveryKeyPrompt-description = Repôs a palavra passe da sua { -product-mozilla-account } em:
+passwordResetWithRecoveryKeyPrompt-description = Redefiniu a palavra passe da sua { -product-mozilla-account } em:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Criar chave de recuperação da conta
 # colon is followed by a link to create an account recovery key from the account settings page
-passwordResetWithRecoveryKeyPrompt-action-txt = Criar uma chave de recuperação da conta:
+passwordResetWithRecoveryKeyPrompt-action-txt = Criar chave de recuperação da conta:
 passwordResetWithRecoveryKeyPrompt-cta-description = Terá de iniciar a sessão novamente em todos os seus dispositivos sincronizados. Mantenha os seus dados seguros da próxima vez com uma chave de recuperação da conta. Isto permite-lhe recuperar os seus dados caso se esqueça da sua palavra-passe.
 postAddAccountRecovery-subject-3 = Nova chave de recuperação da conta criada
 postAddAccountRecovery-title2 = Criou uma nova chave de recuperação da conta
