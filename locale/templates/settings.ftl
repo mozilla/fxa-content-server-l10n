@@ -1466,6 +1466,7 @@ confirm-totp-reset-password-instruction = Check your authenticator app to reset 
 confirm-totp-reset-password-trouble-code = Trouble entering code?
 confirm-totp-reset-password-confirm-button = Confirm
 confirm-totp-reset-password-input-label = Enter code
+confirm-totp-reset-password-use-different-account = Use a different account
 ## ResetPassword start page
 
 password-reset-flow-heading = Reset your password
