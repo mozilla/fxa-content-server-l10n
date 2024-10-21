@@ -1392,6 +1392,7 @@ confirm-totp-reset-password-instruction = Pro obnovu hesla prosím zkontrolujte 
 confirm-totp-reset-password-trouble-code = Problém se zadáváním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdit
 confirm-totp-reset-password-input-label = Zadejte kód
+confirm-totp-reset-password-use-different-account = Použít jiný účet
 
 ## ResetPassword start page
 
