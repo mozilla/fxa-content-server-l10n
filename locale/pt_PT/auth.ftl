@@ -287,8 +287,8 @@ password-forgot-otp-title = Esqueceu-se da sua palavra-passe?
 password-forgot-otp-request = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:
 password-forgot-otp-code-2 = Se foi você, aqui está o seu código de confirmação para continuar:
 password-forgot-otp-expiry-notice = Este código expira em 10 minutos.
-passwordReset-subject-2 = A sua palavra-passe foi reposta
-passwordReset-title-2 = A sua palavra-passe foi reposta
+passwordReset-subject-2 = A sua palavra-passe foi redefinida
+passwordReset-title-2 = A sua palavra-passe foi redefinida
 # This sentence is followed by information about the device and time of the password reset
 passwordReset-description-2 = Repôs a palavra passe da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
