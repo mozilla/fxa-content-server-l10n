@@ -348,7 +348,6 @@ password-strength-inline-confirmed-must-match = Ripohimi përkon me fjalëkalimi
 
 ## Ready component
 
-reset-password-complete-header = Fjalëkalimi juaj u ricaktua
 ready-complete-set-up-instruction = Plotësojeni rregullimin duke dhënë fjalëkalimin tuaj të ri te pajisjet tuaja të tjera me { -brand-firefox }.
 manage-your-account-button = Administroni llogarinë tuaj
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -406,9 +405,7 @@ password-reset-warning-icon = Sinjalizim
 password-reset-chevron-expanded = Tkurre sinjalizimin
 password-reset-chevron-collapsed = Zgjeroje sinjalizimin
 password-reset-data-may-not-be-recovered = Të dhënat e shfletuesit tuaj mund të mos rikthehen dot
-password-reset-previously-signed-in-device = Keni një pajisje ku keni bërë hyrjen më herët?
-password-reset-no-old-device = Keni një pajisje të re, por jo të vjetrën?
-password-reset-learn-about-restoring-account-data = Mësoni më tepër rreth rikthimit të të dhënave të llogarisë
+password-reset-previously-signed-in-device-2 = Keni ndonjë pajisje ku keni bërë hyrjen më herët?
 
 ## Alert Bar
 
@@ -1364,8 +1361,11 @@ complete-reset-password-success-alert = Fjalëkalimi u caktua
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
-password-reset-could-not-determine-account-recovery-key = E keni kyçin tuaj të rimarrjes së llogarisë?
-password-reset-use-account-recovery-key = Ricaktoni fjalëkalimin tuaj dhe mbani të dhënat tuaja
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Përdorni kyç rimarrjeje llogarie
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Fjalëkalimi juaj u ricaktua.
 
 ## Confirm Reset Password With Code
 
@@ -1384,16 +1384,27 @@ confirm-reset-password-otp-resend-code-button = Ridërgo kodin
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Përdorni një llogari tjetër
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Ricaktoni fjalëkalimin tuaj
+confirm-totp-reset-password-confirm-button = Ripohojeni
+confirm-totp-reset-password-input-label = Jepni kod
+confirm-totp-reset-password-use-different-account = Përdorni një llogari tjetër
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Ricaktoni fjalëkalimin tuaj
-password-reset-body = Jepni email-in tuaj dhe do t’ju dërgojmë një kod ripohimi që të ripohoni se jeni vërtet ju.
 password-reset-email-input =
     .label = Jepni email-in tuaj
-password-reset-submit-button = Dërgomëni udhëzime ricaktimi
+password-reset-submit-button-2 = Vazhdo
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Fjalëkalimi juaj u ricaktua
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Vazhdoni te { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
-reset-password-with-recovery-key-verified-generate-new-key = Prodho një kyç të ri rimarrjeje llogarie
-reset-password-with-recovery-key-verified-continue-to-account = Vazhdo te llogaria ime
+reset-password-complete-new-password-saved = Fjalëkalimi i ri u ruajt!
 
 ## CompleteSignin component
 
@@ -1514,15 +1525,7 @@ signin-token-code-required-error = Lypset kod ripohimi
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = <span>Që të vazhdohet te rregullimet e llogarisë</span>, jepni kod mirëfilltësimi
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = <span>Që të vazhdohet te { $serviceName }</span>, jepni kod mirëfilltësimi
-signin-totp-code-instruction-v2 = Hapni aplikacionin tuaj të mirëfilltësimeve dhe jepni kodin e mirëfilltësimit që ofron.
-signin-totp-code-input-label-v2 = Jepni kodin 6-shifror
+signin-totp-code-input-label-v3 = Jepni kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Ripohojeni
 signin-totp-code-other-account-link = Përdorni një llogari tjetër

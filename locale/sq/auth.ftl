@@ -285,20 +285,18 @@ passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni 
 password-forgot-otp-subject = Harruat fjalëkalimin tuaj?
 password-forgot-otp-title = Harruat fjalëkalimin tuaj?
 password-forgot-otp-request = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
-password-forgot-otp-code = Nëse po, ja kodi juaj i ripohimit, për të vazhduar:
 password-forgot-otp-expiry-notice = Ky kod skadon për 10 minuta.
-passwordReset-subject = Fjalëkalimi u përditësua
-passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
-passwordReset-description = Që të vazhdohet me njëkohësimin, do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera
+passwordReset-subject-2 = Fjalëkalimi juaj u ricaktua
+passwordReset-title-2 = Fjalëkalimi juaj u ricaktua
 passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
-passwordResetAccountRecovery-title-2 = Fjalëkalimi u ricaktua me sukses
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Përdorët kyçin tuaj të rimarrjes së llogarisë për të përditësuar fjalëkalimin tuaj nga:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Krijoni kyç rimarrjeje llogarie
-passwordResetAccountRecovery-regen-required-mjml-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët:
+passwordResetAccountRecovery-title-3 = Fjalëkalimi juaj u ricaktua
+passwordResetAccountRecovery-action-4 = Administroni llogarinë
+passwordResetWithRecoveryKeyPrompt-subject = Fjalëkalimi juaj u ricaktua
+passwordResetWithRecoveryKeyPrompt-title = Fjalëkalimi juaj u ricaktua
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Krijoni kyç rimarrjeje llogarie
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Krijoni kyç rimarrjeje llogarie:
 postAddAccountRecovery-subject-3 = U krijua kyç i ri rimarrjeje llogarie
 postAddAccountRecovery-title2 = Krijuat një kyç të ri rimarrjeje llogarie
 # Key here refers to account recovery key
