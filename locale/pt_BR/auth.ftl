@@ -289,7 +289,24 @@ password-forgot-otp-code-2 = Se foi você, use este código de confirmação par
 password-forgot-otp-expiry-notice = Este código expira em 10 minutos.
 passwordReset-subject-2 = Sua senha foi redefinida
 passwordReset-title-2 = Sua senha foi redefinida
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Você redefiniu a senha da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-subject-2 = Sua senha foi redefinida
+passwordResetAccountRecovery-title-3 = Sua senha foi redefinida
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Você usou sua chave de recuperação de conta para redefinir a senha da sua { -product-mozilla-account } em:
+passwordResetAccountRecovery-information = Desconectamos você de todos os seus dispositivos sincronizados. Criamos uma nova chave de recuperação de conta para substituir a que você usou. Você pode alterar nas configurações da sua conta.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Desconectamos você de todos os seus dispositivos sincronizados. Criamos uma nova chave de recuperação de conta para substituir a que você usou. Você pode alterar nas configurações da sua conta:
+passwordResetAccountRecovery-action-4 = Gerenciar conta
+passwordResetWithRecoveryKeyPrompt-subject = Sua senha foi redefinida
+passwordResetWithRecoveryKeyPrompt-title = Sua senha foi redefinida
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Você redefiniu a senha da sua { -product-mozilla-account } em:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Criar chave de recuperação de conta
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Criar chave de recuperação de conta:
 postAddAccountRecovery-subject-3 = Criada nova chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Key here refers to account recovery key
