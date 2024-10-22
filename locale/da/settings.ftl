@@ -1402,6 +1402,7 @@ confirm-totp-reset-password-instruction = Tjek din godkendelsesapp for at nulsti
 confirm-totp-reset-password-trouble-code = Har du problemer med at indtaste koden?
 confirm-totp-reset-password-confirm-button = Bekræft
 confirm-totp-reset-password-input-label = Indtast kode
+confirm-totp-reset-password-use-different-account = Brug en anden konto
 
 ## ResetPassword start page
 

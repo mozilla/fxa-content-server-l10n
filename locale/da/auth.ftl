@@ -285,20 +285,26 @@ passwordChangeRequired-different-password-plaintext = Vigtigt: Vælg en anden ad
 password-forgot-otp-subject = Glemt din adgangskode?
 password-forgot-otp-title = Glemt din adgangskode?
 password-forgot-otp-request = Vi har modtaget en anmodning om at ændre adgangskoden til din { -product-mozilla-account } fra:
-password-forgot-otp-code = Hvis du har, så er din bekræftelseskode til at fortsætte her:
+password-forgot-otp-code-2 = Hvis det var dig, så er din bekræftelseskode til at fortsætte her:
 password-forgot-otp-expiry-notice = Denne kode udløber om 10 minutter.
-passwordReset-subject = Adgangskode opdateret
-passwordReset-title = Adgangskoden til din konto blev er blevet ændret
-passwordReset-description = Du skal indtaste din nye adgangskode på andre enheder for at genoptage synkroniseringen.
+passwordReset-subject-2 = Din adgangskode er blevet nulstillet
+passwordReset-title-2 = Din adgangskode er blevet nulstillet
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Du nulstillede adgangskoden til din { -product-mozilla-account } på:
 passwordResetAccountRecovery-subject-2 = Din adgangskode er blevet nulstillet
-passwordResetAccountRecovery-title-2 = Adgangskoden er blevet nulstillet
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Du brugte din genoprettelsesnøgle til kontoen til at opdatere din adgangskode fra:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Opret genoprettelsesnøgle til kontoen
-passwordResetAccountRecovery-regen-required-mjml-1 = Du skal logge ind igen på alle dine synkroniserede enheder. Husk at oprette en ny genoprettelsesnøgle til kontoen til erstatning for den, du brugte.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Du skal logge ind igen på alle dine synkroniserede enheder. Husk at oprette en ny genoprettelsesnøgle til kontoen til erstatning for den, du brugte:
+passwordResetAccountRecovery-title-3 = Din adgangskode er blevet nulstillet
+passwordResetAccountRecovery-information = Vi har logget dig ud af alle dine synkroniserede enheder. Vi har oprettet en ny genoprettelsesnøgle til kontoen til at erstatte den, du brugte. Du kan ændre den i dine kontoindstillinger.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Vi har logget dig ud af alle dine synkroniserede enheder. Vi har oprettet en ny genoprettelsesnøgle til kontoen til at erstatte den, du brugte. Du kan ændre den i dine kontoindstillinger:
+passwordResetAccountRecovery-action-4 = Håndter konto
+passwordResetWithRecoveryKeyPrompt-subject = Din adgangskode er blevet nulstillet
+passwordResetWithRecoveryKeyPrompt-title = Din adgangskode er blevet nulstillet
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Du nulstillede adgangskoden til din { -product-mozilla-account } på:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Opret genoprettelsesnøgle til kontoen
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Opret genoprettelsesnøgle til kontoen:
 postAddAccountRecovery-subject-3 = Ny genoprettelsesnøgle til kontoen blev oprettet
 postAddAccountRecovery-title2 = Du oprettede en ny genoprettelsesnøgle til kontoen
 # Key here refers to account recovery key
