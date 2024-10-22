@@ -293,6 +293,8 @@ passwordReset-title-2 = Din adgangskode er blevet nulstillet
 passwordReset-description-2 = Du nulstillede adgangskoden til din { -product-mozilla-account } på:
 passwordResetAccountRecovery-subject-2 = Din adgangskode er blevet nulstillet
 passwordResetAccountRecovery-title-3 = Din adgangskode er blevet nulstillet
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Du brugte din genoprettelsesnøgle til kontoen til at nulstille adgangskoden til din { -product-mozilla-account } på:
 passwordResetAccountRecovery-information = Vi har logget dig ud af alle dine synkroniserede enheder. Vi har oprettet en ny genoprettelsesnøgle til kontoen til at erstatte den, du brugte. Du kan ændre den i dine kontoindstillinger.
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Vi har logget dig ud af alle dine synkroniserede enheder. Vi har oprettet en ny genoprettelsesnøgle til kontoen til at erstatte den, du brugte. Du kan ændre den i dine kontoindstillinger:
