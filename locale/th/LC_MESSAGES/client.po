@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-10-22 01:40+0000\n"
+"PO-Revision-Date: 2024-10-22 01:50+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -2006,7 +2006,7 @@ msgstr "ฉันมี Firefox สำหรับมือถือแล้ว
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "เริ่มต้นซิงค์ได้เลยถ้าคุณมี Firefox อยู่บนอุปกรณ์มือถือแล้ว"
+msgstr "เริ่มต้นซิงค์ได้เลยหากคุณมี Firefox อยู่บนอุปกรณ์มือถือแล้ว"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
@@ -2014,7 +2014,7 @@ msgstr "ฉันไม่มี Firefox สำหรับมือถือ"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "ดาวน์โหลด Firefox บนอุปกรณ์มือถือของคุณ แล้วเริ่มต้นซิงค์"
 
 #: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
 msgid "Not now"
@@ -2022,23 +2022,23 @@ msgstr "ยังไม่ทำตอนนี้"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "หากต้องการซิงค์ Firefox บนโทรศัพท์หรือแท็บเล็ตของคุณ คุณจะต้องดาวน์โหลด Firefox สำหรับมือถือก่อน โดยมีวิธีต่อไปนี้"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>ขั้นที่ 1</b>: ดาวน์โหลด Firefox โดยสแกนคิวอาร์โค้ดนี้ด้วยกล้องบนอุปกรณ์มือถือของคุณ:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "คิวอาร์โค้ด (อยู่ตรงกลางในหน้าจอ)"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>ขั้นที่ 2</b>: เลือก \"ซิงค์ต่อไป\" เพื่อซิงค์ข้อมูลใน Firefox ของคุณบนอุปกรณ์มือถือของคุณ"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
-msgstr ""
+msgstr "ซิงค์ต่อไป"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2058,23 +2058,23 @@ msgstr "ยืนยันการจับคู่"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "อ้าว! ดูเหมือนว่าคุณจะไม่ได้ใช้ Firefox นะ"
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
-msgstr ""
+msgstr "คำเตือน:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "สลับไปใช้ Firefox แล้วเปิดหน้านี้ เพื่อเชื่อมต่ออุปกรณ์อีกเครื่อง"
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr ""
+msgstr "ดาวน์โหลด Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "จะเปิดในหน้าต่างใหม่"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
@@ -2086,12 +2086,12 @@ msgstr "คุณใช้กล้องระบบหรือไม่? ค�
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "ดาวน์โหลด Firefox ตอนนี้"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "อ้าว! มีบางอย่างผิดพลาด"
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "กรุณาปิดแท็บนี้แล้วลองใหม่อีกครั้ง"
