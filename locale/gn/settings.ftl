@@ -1468,8 +1468,10 @@ signin-push-code-send-email-link = Ñanduti veve ayvu
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Emoneĩ ne rembiapo ñepyrũ
+signin-push-code-confirm-description = Rohechakuaa omoñepyrũséva tembiapo ko mba’e’oka guive. Ndetéramo, emoneĩntema upéichamo
 signin-push-code-confirm-verifying = Jehechajey
 signin-push-code-confirm-login = Emoneĩ tembiapo ñepyrũ
+signin-push-code-confirm-wasnt-me = Kóva ndachéi, emoambue ñe’ẽñemi.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
