@@ -1009,10 +1009,34 @@ inline-recovery-setup-header-default = ยืนยันรหัสยืน�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = บันทึกรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยัง { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = เก็บรหัสแบบใช้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัยเพื่อใช้เมื่อคุณไม่มีอุปกรณ์มือถือ
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = ยกเลิก
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = ดำเนินการต่อ
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = ยืนยัน
+inline-recovery-back-link = ย้อนกลับ
+inline-recovery-cancel-setup = ยกเลิกการตั้งค่า
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = รหัสยืนยันตัวตนสำรอง
+inline-recovery-confirmation-description = เพื่อให้แน่ใจว่าคุณจะสามารถเข้าถึงบัญชีของคุณในกรณีที่อุปกรณ์สูญหายได้ กรุณาป้อนหนึ่งในรหัสยืนยันตัวตนสำรองที่คุณบันทึกไว้
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-confirmation-header = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยัง { $serviceName }</span>
+inline-recovery-2fa-enabled = เปิดใช้งานการยืนยันตัวตนสองขั้นแล้ว
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = ยกเลิกการตั้งค่า
+inline-totp-setup-continue-button = ดำเนินการต่อ
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
