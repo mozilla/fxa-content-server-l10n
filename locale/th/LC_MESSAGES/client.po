@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 17:42+0000\n"
-"PO-Revision-Date: 2024-10-22 01:30+0000\n"
+"PO-Revision-Date: 2024-10-22 01:40+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1990,7 +1990,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Sync your Firefox experience"
-msgstr "เชื่อมข้อมูลใน Firefox ของคุณให้ตรงกัน"
+msgstr "ซิงค์ข้อมูลใน Firefox ของคุณให้ตรงกัน"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Download Firefox for mobile"
@@ -1998,19 +1998,19 @@ msgstr "ดาวน์โหลด Firefox สำหรับมือถือ
 
 #: .es5/templates/pair/index.mustache:10
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "ดูรหัสผ่านที่บันทึก แท็บ ประวัติการเรียกดู และอื่นๆ ของคุณ — จากทุกอุปกรณ์ของคุณ"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "ฉันมี Firefox สำหรับมือถือแล้ว"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "เริ่มต้นซิงค์ได้เลยถ้าคุณมี Firefox อยู่บนอุปกรณ์มือถือแล้ว"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "ฉันไม่มี Firefox สำหรับมือถือ"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Download Firefox on your mobile device, then start your sync."
