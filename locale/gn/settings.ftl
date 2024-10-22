@@ -1472,6 +1472,8 @@ signin-push-code-confirm-description = Rohechakuaa omoñepyrũséva tembiapo ko 
 signin-push-code-confirm-verifying = Jehechajey
 signin-push-code-confirm-login = Emoneĩ tembiapo ñepyrũ
 signin-push-code-confirm-wasnt-me = Kóva ndachéi, emoambue ñe’ẽñemi.
+signin-push-code-confirm-login-approved = Oñemoneĩma ne rembiapo ñepyrũ. Embotykuaáma ko ovetã.
+signin-push-code-confirm-link-error = Pe juajuha imarã. Eha’ã jey ag̃ave.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
