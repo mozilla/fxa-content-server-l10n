@@ -1384,6 +1384,7 @@ confirm-totp-reset-password-instruction = Parolanızı sıfırlamak için kimlik
 confirm-totp-reset-password-trouble-code = Kod girerken sorun mu yaşıyorsunuz?
 confirm-totp-reset-password-confirm-button = Onayla
 confirm-totp-reset-password-input-label = Kodu yazın
+confirm-totp-reset-password-use-different-account = Farklı bir hesap kullan
 
 ## ResetPassword start page
 
