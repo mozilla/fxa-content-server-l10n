@@ -1401,6 +1401,7 @@ confirm-totp-reset-password-instruction = Verifica tu app de authentication pro 
 confirm-totp-reset-password-trouble-code = Problemas a inserer le codice?
 confirm-totp-reset-password-confirm-button = Confirmar
 confirm-totp-reset-password-input-label = Insere le codice
+confirm-totp-reset-password-use-different-account = Usa un conto differente
 
 ## ResetPassword start page
 
