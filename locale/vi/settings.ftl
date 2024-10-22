@@ -1401,6 +1401,7 @@ confirm-totp-reset-password-instruction = Kiểm tra ứng dụng xác thực c�
 confirm-totp-reset-password-trouble-code = Khó khăn khi nhập mã?
 confirm-totp-reset-password-confirm-button = Xác nhận
 confirm-totp-reset-password-input-label = Nhập mã
+confirm-totp-reset-password-use-different-account = Sử dụng một tài khoản khác
 
 ## ResetPassword start page
 
