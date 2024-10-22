@@ -1324,6 +1324,7 @@ confirm-totp-reset-password-instruction = נא לפתוח את היישומון 
 confirm-totp-reset-password-trouble-code = מתקשה בהזנת הקוד?
 confirm-totp-reset-password-confirm-button = אישור
 confirm-totp-reset-password-input-label = נא להזין קוד
+confirm-totp-reset-password-use-different-account = שימוש בחשבון אחר
 
 ## ResetPassword start page
 
