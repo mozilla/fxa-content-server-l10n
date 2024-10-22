@@ -1390,9 +1390,12 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Embojevyjey ne ñe’ẽñemi
+confirm-totp-reset-password-subheader = Ehai tekorosã ayvu ñemoneĩrã mokõi jeku’epegua (2FA)
+confirm-totp-reset-password-instruction = Ehecha ne rembiporu’i ñemoneĩrã eru jey hag̃ua ñe’ẽñemi.
 confirm-totp-reset-password-trouble-code = ¿Apañuái emoinge hag̃ua ayvu?
 confirm-totp-reset-password-confirm-button = Moneĩ
 confirm-totp-reset-password-input-label = Emoinge ayvu
+confirm-totp-reset-password-use-different-account = Eiporu ambuéva mba’ete
 
 ## ResetPassword start page
 
@@ -1527,6 +1530,8 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Ehai tekorosã ayvu ñemoneĩrã mokõi jeku’epegua (2FA)
+signin-totp-code-instruction-v3 = Ehecha ne rembiporu’i ñemoneĩrãva tembiapo ñepyrũ.
 signin-totp-code-input-label-v3 = Emoinge ayvu
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
