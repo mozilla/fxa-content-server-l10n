@@ -307,6 +307,7 @@ passwordResetWithRecoveryKeyPrompt-description = Du nulstillede adgangskoden til
 passwordResetWithRecoveryKeyPrompt-action = Opret genoprettelsesnøgle til kontoen
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Opret genoprettelsesnøgle til kontoen:
+passwordResetWithRecoveryKeyPrompt-cta-description = Du skal logge ind igen på alle dine synkroniserede enheder. Hvis du fremover har brug for at nulstille din adgangskode, kan du med fordel benytte en genoprettelsesnøgle til kontoen for at sikre dig imod tab af data.
 postAddAccountRecovery-subject-3 = Ny genoprettelsesnøgle til kontoen blev oprettet
 postAddAccountRecovery-title2 = Du oprettede en ny genoprettelsesnøgle til kontoen
 # Key here refers to account recovery key
