@@ -72,9 +72,6 @@ recovery-key-pdf-download-error = ขออภัย เกิดปัญหา
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = รับประโยชน์เพิ่มเติมจาก { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = ข่าวสารล่าสุดเกี่ยวกับความปลอดภัยและความเป็นส่วนตัว
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = ทดสอบผลิตภัณฑ์ใหม่ๆ ก่อนใคร
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -167,10 +164,17 @@ form-password-sr-not-common-message = รหัสผ่านต้องไม
 form-password-sr-requirements-met = รหัสผ่านที่ป้อนเป็นไปตามข้อกำหนดทั้งหมด
 form-password-sr-passwords-match = รหัสผ่านที่ป้อนตรงกัน
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = จำเป็นต้องกรอกช่องนี้
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -207,12 +211,15 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = ภาพประกอบที่สื่อถึงคีย์กู้คืนบัญชี
-lock-image-aria-label =
-    .aria-label = ภาพประกอบแม่กุญแจ
 lightbulb-aria-label =
     .aria-label = ภาพประกอบที่สื่อถึงการสร้างคำใบ้ที่เก็บ
 email-code-image-aria-label =
     .aria-label = ภาพประกอบที่สื่อถึงอีเมลที่ประกอบด้วยรหัส
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -220,20 +227,49 @@ email-code-image-aria-label =
 input-password-hide = ซ่อนรหัสผ่าน
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = แสดงรหัสผ่าน
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = ตอนนี้รหัสผ่านของคุณสามารถมองเห็นได้บนหน้าจอ
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = ตอนนี้รหัสผ่านของคุณถูกซ่อนอยู่
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = รหัสผ่านของคุณสามารถมองเห็นได้บนหน้าจอแล้ว
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = รหัสผ่านของคุณถูกซ่อนแล้ว
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = ย้อนกลับ
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = ลิงก์สำหรับตั้งรหัสผ่านใหม่เสียหาย
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = ลิงก์สำหรับยืนยันเสียหาย
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = ลิงก์เสียหาย
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = ลิงก์ที่คุณคลิกมีอักขระไม่ครบซึ่งอาจจะเพราะโปรแกรมอ่านอีเมลของคุณ คัดลอกที่อยู่อย่างระมัดระวัง และลองอีกครั้งหนึ่ง
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = รับลิงก์ใหม่
 
 ## LinkExpiredResetPassword component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = ลิงค์สำหรับตั้งรหัสผ่านใหม่หมดอายุ
+reset-pwd-link-expired-message = ลิงก์ที่คุณได้คลิกเพื่อตั้งรหัสผ่านใหม่ของคุณหมดอายุแล้ว
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = จำรหัสผ่านของคุณได้ใช่ไหม?
+# link navigates to the sign in page
+remember-password-signin-link = ลงชื่อเข้าใช้
 
 ## LinkUsed component
 
@@ -242,6 +278,10 @@ primary-email-confirmation-link-reused = ยืนยันอีเมลหล
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ยืนยันการลงชื่อเข้าไปแล้ว
 confirmation-link-reused-message = ลิงก์ยืนยันนั้นถูกใช้ไปแล้ว และสามารถใช้ได้แค่ครั้งเดียว
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = สร้าง
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -256,9 +296,11 @@ password-strength-balloon-not-email = ไม่ใช่ที่อยู่อ
 password-strength-balloon-not-common = ไม่ใช่รหัสผ่านที่พบบ่อย
 password-strength-balloon-stay-safe-tips = รักษาความปลอดภัยด้วยการไม่ใช้รหัสผ่านซ้ำ ดูเคล็ดลับในการ<LinkExternal>สร้างรหัสผ่านที่รัดกุม</LinkExternal>เพิ่ม
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
 ready-complete-set-up-instruction = ตั้งค่าให้เสร็จสิ้นโดยป้อนรหัสผ่านใหม่ของคุณบน { -brand-firefox } ในอุปกรณ์อื่นๆ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -270,6 +312,45 @@ ready-continue = ดำเนินการต่อ
 sign-in-complete-header = ยืนยันการลงชื่อเข้าแล้ว
 sign-up-complete-header = ยืนยันบัญชีแล้ว
 primary-email-verified-header = ยืนยันอีเมลหลักแล้ว
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = ตำแหน่งที่จะเก็บคีย์ของคุณ:
+flow-recovery-key-download-storage-ideas-folder-v2 = โฟลเดอร์บนอุปกรณ์ที่ปลอดภัย
+flow-recovery-key-download-storage-ideas-cloud = ที่เก็บข้อมูลบนคลาวด์ที่เชื่อถือได้
+flow-recovery-key-download-storage-ideas-print-v2 = พิมพ์ลงบนกระดาษ
+flow-recovery-key-download-storage-ideas-pwd-manager = ตัวจัดการรหัสผ่าน
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = เพิ่มคำใบ้สำหรับช่วยหาคีย์ของคุณ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = คำใบนี้ควรเป็นคำใบ้ที่สามารถช่วยคุณจำตำแหน่งที่คุณเก็บคีย์กู้คืนบัญชีของคุณได้ โดยเราจะแสดงให้คุณเห็นระหว่างที่ตั้งรหัสผ่านใหม่เพื่อกู้คืนข้อมูลของคุณ
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = ป้อนคำใบ้ (ไม่บังคับ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = เสร็จสิ้น
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = คำใบ้จะต้องมีอักขระน้อยกว่า 255 ตัว
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = คำใบ้จะต้องไม่มีอักขระ Unicode ที่ไม่ปลอดภัย โดยให้ใช้ได้เฉพาะตัวอักษร ตัวเลข เครื่องหมายวรรคตอน และเครื่องหมายทั่วไปเท่านั้น
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -387,39 +468,13 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = สร้างคี�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = ตำแหน่งที่จะเก็บคีย์ของคุณ:
-flow-recovery-key-download-storage-ideas-folder-v2 = โฟลเดอร์บนอุปกรณ์ที่ปลอดภัย
-flow-recovery-key-download-storage-ideas-cloud = ที่เก็บข้อมูลบนคลาวด์ที่เชื่อถือได้
-flow-recovery-key-download-storage-ideas-print-v2 = พิมพ์ลงบนกระดาษ
-flow-recovery-key-download-storage-ideas-pwd-manager = ตัวจัดการรหัสผ่าน
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = เพิ่มคำใบ้สำหรับช่วยหาคีย์ของคุณ
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = คำใบนี้ควรเป็นคำใบ้ที่สามารถช่วยคุณจำตำแหน่งที่คุณเก็บคีย์กู้คืนบัญชีของคุณได้ โดยเราจะแสดงให้คุณเห็นระหว่างที่ตั้งรหัสผ่านใหม่เพื่อกู้คืนข้อมูลของคุณ
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = ป้อนคำใบ้ (ไม่บังคับ)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = เสร็จสิ้น
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = สร้างคีย์กู้คืนบัญชีแล้ว
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = คำใบ้จะต้องมีอักขระน้อยกว่า 255 ตัว
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = คำใบ้จะต้องไม่มีอักขระ Unicode ที่ไม่ปลอดภัย โดยให้ใช้ได้เฉพาะตัวอักษร ตัวเลข เครื่องหมายวรรคตอน และเครื่องหมายทั่วไปเท่านั้น
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -653,6 +708,9 @@ tfa-enter-secret-key = ป้อนคีย์ลับนี้ลงในแ
 ##
 
 
+## Product promotion
+
+
 ## Profile section
 
 profile-heading = โปรไฟล์
@@ -797,10 +855,6 @@ tfa-row-change-modal-explain = คุณจะไม่สามารถยก�
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = บัญชีที่ไม่รู้จัก
@@ -835,6 +889,12 @@ connect-another-device-signed-in-header = คุณได้ลงชื่อ�
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
 
 
 ## InlineRecoverySetup page
@@ -901,24 +961,22 @@ connect-another-device-signed-in-header = คุณได้ลงชื่อ�
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
-
-
-## Confirm Reset Password Component
-
-
-## ResetPassword page
 
 
 ## Confirm Reset Password With Code
 
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
 
 ## CompleteSignin component
 
@@ -932,6 +990,13 @@ signin-link-expired-header = ลิงก์ยืนยันหมดอาย
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
 
 
 ## SigninRecoveryCode page
