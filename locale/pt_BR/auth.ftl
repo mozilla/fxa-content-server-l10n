@@ -285,20 +285,11 @@ passwordChangeRequired-different-password-plaintext = Importante: Escolha uma se
 password-forgot-otp-subject = Esqueceu sua senha?
 password-forgot-otp-title = Esqueceu sua senha?
 password-forgot-otp-request = Recebemos uma solicitação de alteração de senha da sua { -product-mozilla-account } vinda de:
-password-forgot-otp-code = Se foi você, use este código de confirmação para prosseguir:
+password-forgot-otp-code-2 = Se foi você, use este código de confirmação para prosseguir:
 password-forgot-otp-expiry-notice = Este código expira em 10 minutos.
-passwordReset-subject = Senha atualizada
-passwordReset-title = A senha da sua conta foi alterada
-passwordReset-description = Você precisa digitar sua nova senha em outros dispositivos para continuar sincronizando.
+passwordReset-subject-2 = Sua senha foi redefinida
+passwordReset-title-2 = Sua senha foi redefinida
 passwordResetAccountRecovery-subject-2 = Sua senha foi redefinida
-passwordResetAccountRecovery-title-2 = Senha redefinida com sucesso
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Você usou sua chave de recuperação de conta para atualizar sua senha no:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Criar chave de recuperação de conta
-passwordResetAccountRecovery-regen-required-mjml-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou:
 postAddAccountRecovery-subject-3 = Criada nova chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Key here refers to account recovery key
