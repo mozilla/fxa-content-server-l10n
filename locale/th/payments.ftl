@@ -380,6 +380,7 @@ coupon-success-repeating = แผนของคุณจะต่ออาย�
 
 ## Routes - Checkout - New user
 
+new-user-step-1-2 = 1. สร้าง{ -product-mozilla-account }
 new-user-card-title = ป้อนข้อมูลบัตรของคุณ
 new-user-submit = สมัครสมาชิกเลย
 
@@ -391,28 +392,42 @@ sub-update-payment-title = ข้อมูลการชำระเงิน
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = ชำระด้วยบัตร
+product-invoice-preview-error-title = เกิดปัญหาขณะโหลดตัวอย่างใบแจ้งหนี้
+product-invoice-preview-error-text = ไม่สามารถโหลดตัวอย่างใบแจ้งหนี้
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = ตอนนี้เรายังไม่สามารถอัปเกรดให้คุณได้
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = ตรวจสอบการเปลี่ยนแปลงของคุณ
 sub-change-failed = การเปลี่ยนแผนล้มเหลว
+sub-update-acknowledgment =
+    แผนของคุณจะเปลี่ยนทันที แล้วคุณจะถูกเรียกเก็บเงินตามสัดส่วน
+    ตั้งแต่วันนี้จนกว่าจะครบรอบบิลนี้ และจะถูกเรียกเก็บเงินเต็มจำนวน
+    ตั้งแต่ { $startingDate }
 sub-change-submit = ยืนยันการเปลี่ยนแปลง
 sub-update-current-plan-label = แผนปัจจุบัน
 sub-update-new-plan-label = แผนใหม่
 sub-update-total-label = ยอดรวมใหม่
+sub-update-prorated-upgrade = การอัปเกรดแบบคิดเงินตามสัดส่วน
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (รายวัน)
+sub-update-new-plan-weekly = { $productName } (รายสัปดาห์)
+sub-update-new-plan-monthly = { $productName } (รายเดือน)
+sub-update-new-plan-yearly = { $productName } (รายปี)
 
 ##
 
@@ -431,6 +446,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     ยกเลิกการเข้าถึงและข้อมูลที่บันทึกไว้ของฉันภายใน
     { $name } ใน { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = นำคูปอง { $promotion_name } ไปใช้แล้ว: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -444,6 +471,7 @@ sub-route-idx-cancel-msg =
     การสมัครสมาชิก { $name } ของคุณได้ถูกยกเลิกแล้ว
           <br />
           คุณจะยังสามารถเข้าถึง { $name } ได้จนถึง { $date }
+sub-route-idx-cancel-aside-2 = มีคำถามใช่ไหม? ไปที่<a>หน้าฝ่ายสนับสนุนของ { -brand-mozilla }</a>
 
 ## Routes - Subscriptions - Errors
 
@@ -452,6 +480,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = มีปัญหาในการโหลดใบแจ้งหนี้
 sub-billing-update-success = อัปเดตข้อมูลการเรียกเก็บเงินของคุณเรียบร้อยแล้ว
+sub-invoice-previews-error-title = เกิดปัญหาขณะโหลดตัวอย่างใบแจ้งหนี้
+sub-invoice-previews-error-text = ไม่สามารถโหลดตัวอย่างใบแจ้งหนี้
 
 ## Routes - Subscription - ActionButton
 
@@ -464,6 +494,8 @@ pay-update-manage-btn = จัดการ
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = จะเรียกเก็บเงินครั้งถัดไปในวันที่ { $date }
+sub-next-bill-no-tax-1 = รอบบิลถัดไปจำนวน { $priceAmount } จะครบกำหนดชำระวันที่ { $date }
+sub-next-bill-tax-1 = รอบบิลถัดไปจำนวน { $priceAmount } + { $taxAmount } จะครบกำหนดชำระวันที่ { $date }
 sub-expires-on = จะหมดอายุใน { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -474,6 +506,7 @@ sub-expires-on = จะหมดอายุใน { $date }
 pay-update-card-exp = หมดอายุ { $expirationDate }
 sub-route-idx-updating = กำลังอัปเดตข้อมูลการเรียกเก็บเงิน…
 sub-route-payment-modal-heading = ข้อมูลการเรียกเก็บเงินไม่ถูกต้อง
+sub-route-payment-modal-message-2 = ดูเหมือนว่าจะมีข้อผิดพลาดเกี่ยวกับบัญชี { -brand-paypal } ของคุณ เราต้องการให้คุณทำขั้นตอนที่จำเป็นเพื่อแก้ปัญหาในการชำระเงินนี้
 sub-route-missing-billing-agreement-payment-alert = ข้อมูลการชำระเงินไม่ถูกต้อง มีข้อผิดพลาดกับบัญชีของคุณ <div>จัดการ</div>
 sub-route-funding-source-payment-alert = ข้อมูลการชำระเงินไม่ถูกต้อง มีข้อผิดพลาดกับบัญชีของคุณ การแจ้งเตือนนี้อาจใช้เวลาสักครู่จึงจะหายไปหลังจากที่คุณอัปเดตข้อมูลเรียบร้อยแล้ว <div>จัดการ</div>
 
@@ -482,6 +515,7 @@ sub-route-funding-source-payment-alert = ข้อมูลการชำระ
 sub-item-no-such-plan = ไม่มีแผนดังกล่าวสำหรับการสมัครสมาชิกนี้
 invoice-not-found = ไม่พบใบแจ้งหนี้ที่เพิ่มมาภายหลัง
 sub-item-no-such-subsequent-invoice = ไม่พบใบแจ้งหนี้ที่เพิ่มมาภายหลังสำหรับการสมัครสมาชิกนี้
+sub-invoice-preview-error-title = ไม่พบตัวอย่างใบแจ้งหนี้
 
 ## Routes - Subscriptions - Pocket Subscription
 
