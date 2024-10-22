@@ -307,6 +307,7 @@ passwordResetWithRecoveryKeyPrompt-description = Você redefiniu a senha da sua 
 passwordResetWithRecoveryKeyPrompt-action = Criar chave de recuperação de conta
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Criar chave de recuperação de conta:
+passwordResetWithRecoveryKeyPrompt-cta-description = Você precisa entrar na conta novamente em todos os seus dispositivos sincronizados. Mantenha seus dados protegidos na próxima vez, com uma chave de recuperação de conta. Ela permite recuperar seus dados no caso de esquecer sua senha.
 postAddAccountRecovery-subject-3 = Criada nova chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Key here refers to account recovery key
