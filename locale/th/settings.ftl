@@ -969,10 +969,28 @@ connect-another-device-signin-to-complete-message = ลงชื่อเข้�
 connect-another-device-signin-link = ลงชื่อเข้าใช้
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-still-adding-devices-message = ยังเพิ่มอุปกรณ์อยู่ใช่ไหม? ลงชื่อเข้าใช้ { -brand-firefox } บนอุปกรณ์อื่นเพื่อตั้งค่าให้เสร็จสิ้น
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = ลงชื่อเข้าใช้ { -brand-firefox } บนอุปกรณ์เครื่องอื่นเพื่อตั้งค่าให้เสร็จสิ้น
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = ต้องการนำแท็บ ที่คั่นหน้า และรหัสผ่านจากอุปกรณ์อื่นเข้ามาใช่ไหม?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = เชื่อมต่ออุปกรณ์อื่น
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = ยังไม่ทำตอนนี้
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = ลงชื่อเข้าใช้ { -brand-firefox } สำหรับ Android เพื่อตั้งค่าให้เสร็จสิ้น
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = ลงชื่อเข้าใช้ { -brand-firefox } สำหรับ iOS เพื่อตั้งค่าให้เสร็จสิ้น
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = จำเป็นต้องเปิดการเข้าถึงที่เก็บข้อมูลภายในเครื่องและคุกกี้
+cookies-disabled-enable-prompt-2 = กรุณาเปิดการเข้าถึงคุกกี้และที่เก็บข้อมูลภายในเครื่องจากเบราว์เซอร์ที่คุณใช้เพื่อเข้าถึง{ -product-mozilla-account } ของคุณ การกระทำนี้จะเปิดใช้งานฟังก์ชันการทำงาน เช่น การจดจำคุณระหว่างวาระต่างๆ
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = ลองอีกครั้ง
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = เรียนรู้เพิ่มเติม
 
 ## Index / home page
 
@@ -984,6 +1002,13 @@ connect-another-device-still-adding-devices-message = ยังเพิ่ม�
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-setup-header = บันทึกรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยัง { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
