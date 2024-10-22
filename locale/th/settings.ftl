@@ -566,6 +566,7 @@ nav-email-comm = การติดต่อสื่อสารทางอี
 tfa-replace-code-error-3 = มีปัญหาขณะแทนที่รหัสยืนยันตัวตนสำรองของคุณ
 tfa-create-code-error = มีปัญหาขณะสร้างรหัสยืนยันตัวตนสำรองของคุณ
 tfa-replace-code-success-1 = รหัสใหม่ได้ถูกสร้างขึ้นแล้ว โปรดบันทึกรหัสยืนยันตัวตนสำรองซึ่งใช้ได้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัย เพราะคุณจะต้องใช้ในการเข้าถึงบัญชีของคุณหากคุณไม่มีอุปกรณ์มือถือ
+tfa-replace-code-success-alert-3 = ปรับปรุงรหัสยืนยันตัวตนสำรองสำหรับบัญชีแล้ว
 tfa-replace-code-1-2 = ขั้นตอนที่ 1 จาก 2
 tfa-replace-code-2-2 = ขั้นตอนที่ 2 จาก 2
 
@@ -642,7 +643,19 @@ delete-account-header =
     .title = ลบบัญชี
 delete-account-step-1-2 = ขั้นตอนที่ 1 จาก 2
 delete-account-step-2-2 = ขั้นตอนที่ 2 จาก 2
+delete-account-confirm-title-4 = คุณอาจได้เชื่อมต่อ{ -product-mozilla-account } ของคุณกับผลิตภัณฑ์หรือบริการของ { -brand-mozilla } ซึ่งช่วยให้คุณปลอดภัยและทำงานอย่างได้ผลบนเว็บต่อไปนี้อย่างน้อยหนึ่งอย่าง:
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = การซิงค์ข้อมูลใน { -brand-firefox }
+delete-account-product-firefox-addons = ส่วนเสริมใน { -brand-firefox }
 delete-account-acknowledge = โปรดรับทราบว่าการลบบัญชีของคุณ:
+delete-account-chk-box-1-v3 =
+    .label = การสมัครสมาชิกแบบชำระเงินทั้งหมดที่คุณมีจะถูกยกเลิก (ยกเว้น { -product-pocket })
 delete-account-chk-box-2 =
     .label = คุณอาจสูญเสียข้อมูลและคุณลักษณะต่าง ๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -652,6 +665,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = ดำเนินการต่อ
 delete-account-password-input =
     .label = ใส่รหัสผ่าน
+pocket-delete-notice = หากคุณสมัครสมาชิก Pocket Premium กรุณาตรวจสอบให้แน่ใจว่าคุณได้<a>ยกเลิกการสมัครสมาชิก</a>ก่อนที่จะลบบัญชี
 delete-account-cancel-button = ยกเลิก
 delete-account-delete-button-2 = ลบ
 
@@ -677,6 +691,27 @@ display-name-success-alert-2 = ปรับปรุงชื่อที่ใ�
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = กิจกรรมในบัญชีล่าสุด
+recent-activity-account-create-v2 = สร้างบัญชีแล้ว
+recent-activity-account-disable-v2 = ปิดใช้งานบัญชีแล้ว
+recent-activity-account-enable-v2 = เปิดใช้งานบัญชีแล้ว
+recent-activity-account-login-v2 = เรียกการเข้าสู่ระบบบัญชีแล้ว
+recent-activity-account-reset-v2 = เรียกการตั้งรหัสผ่านใหม่แล้ว
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = ล้างการตีกลับของอีเมลแล้ว
+recent-activity-account-login-failure = การพยายามเข้าสู่ระบบบัญชีล้มเหลว
+recent-activity-account-two-factor-added = เปิดใช้งานการยืนยันตัวตนสองขั้นแล้ว
+recent-activity-account-two-factor-requested = ร้องขอการยืนยันตัวตนสองขั้นแล้ว
+recent-activity-account-two-factor-failure = การยืนยันตัวตนสองขั้นล้มเหลว
+recent-activity-account-two-factor-success = การยืนยันตัวตนสองขั้นสำเร็จ
+recent-activity-account-two-factor-removed = เอาการยืนยันตัวตนสองขั้นออกแล้ว
+recent-activity-account-password-reset-requested = บัญชีร้องขอการตั้งรหัสผ่านใหม่แล้ว
+recent-activity-account-password-reset-success = การตั้งรหัสผ่านบัญชีใหม่สำเร็จ
+recent-activity-account-recovery-key-added = เปิดใช้งานคีย์กู้คืนบัญชีแล้ว
+recent-activity-account-recovery-key-verification-failure = การยืนยันคีย์กู้คืนบัญชีล้มเหลว
+recent-activity-account-recovery-key-verification-success = การยืนยันคีย์กู้คืนบัญชีสำเร็จ
+recent-activity-account-recovery-key-removed = ลบคีย์กู้คืนบัญชีแล้ว
+recent-activity-account-password-added = เพิ่มรหัสผ่านใหม่แล้ว
 
 ## PageRecoveryKeyCreate
 
@@ -916,6 +951,7 @@ auth-error-1062 = การเปลี่ยนเส้นทางไม่�
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = ไม่สามารถสร้างบัญชีได้
+cannot-create-account-requirements-2 = คุณต้องมีอายุตามข้อกำหนดในการสร้าง{ -product-mozilla-account }
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = เรียนรู้เพิ่มเติม
 
@@ -923,6 +959,16 @@ cannot-create-account-learn-more-link = เรียนรู้เพิ่ม�
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = คุณได้ลงชื่อเข้า { -brand-firefox } แล้ว
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = ยืนยันอีเมลแล้ว
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = ยืนยันการลงชื่อเข้าใช้แล้ว
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = ลงชื่อเข้าใช้ { -brand-firefox } ตัวนี้เพื่อตั้งค่าให้เสร็จสิ้น
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = ลงชื่อเข้าใช้
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = ยังเพิ่มอุปกรณ์อยู่ใช่ไหม? ลงชื่อเข้าใช้ { -brand-firefox } บนอุปกรณ์อื่นเพื่อตั้งค่าให้เสร็จสิ้น
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
