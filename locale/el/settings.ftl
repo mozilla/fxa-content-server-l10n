@@ -1405,6 +1405,7 @@ confirm-totp-reset-password-instruction = Ελέγξτε την εφαρμογή
 confirm-totp-reset-password-trouble-code = Πρόβλημα με την εισαγωγή του κωδικού;
 confirm-totp-reset-password-confirm-button = Επιβεβαίωση
 confirm-totp-reset-password-input-label = Εισαγάγετε τον κωδικό
+confirm-totp-reset-password-use-different-account = Χρήση διαφορετικού λογαριασμού
 
 ## ResetPassword start page
 
