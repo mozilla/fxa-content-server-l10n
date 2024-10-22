@@ -282,11 +282,14 @@ confirmation-link-reused-message = ลิงก์ยืนยันนั้น
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = สร้าง
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = คำขอไม่ถูกต้อง
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = คุณต้องใช้รหัสผ่านนี้เพื่อเข้าถึงข้อมูลที่เข้ารหัสใดๆ ที่คุณเก็บไว้กับเรา
+password-info-balloon-reset-risk-info = การตั้งรหัสผ่านใหม่อาจทำให้สูญเสียข้อมูล เช่น รหัสผ่าน ที่คั่นหน้า
 
 ## PasswordStrengthBalloon component
 
@@ -306,6 +309,8 @@ ready-complete-set-up-instruction = ตั้งค่าให้เสร็�
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = ขณะนี้คุณพร้อมใช้ { $serviceName } แล้ว
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = คุณสามารถเข้าสู่การตั้งค่าบัญชีได้แล้ว
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = บัญชีของคุณพร้อมแล้ว!
 ready-continue = ดำเนินการต่อ
@@ -368,7 +373,10 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = ผลิตภัณฑ์ของ { -brand-mozilla }
+bento-menu-tagline = ผลิตภัณฑ์เพิ่มเติมจาก { -brand-mozilla } ที่ปกป้องความเป็นส่วนตัวของคุณ
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
@@ -378,6 +386,7 @@ bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = รับ { -brand-firefox } บนมือถือหรือแท็บเล็ต
+connect-another-find-fx-mobile-2 = หาคำว่า { -brand-firefox } ใน { -google-play } และ { -app-store }
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -411,6 +420,9 @@ cs-disconnect-sync-heading = ตัดการเชื่อมต่อจา
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    ข้อมูลการเรียกดูจะยังคงอยู่บน <span>{ $device }</span>
+    แต่จะไม่ซิงค์กับบัญชีของคุณอีกต่อไป
 cs-disconnect-sync-reason-3 = เหตุผลหลักที่ตัดการเชื่อมต่อ <span>{ $device }</span> มีอะไรบ้าง?
 
 ## The following are the options for selecting a reason for disconnecting the
