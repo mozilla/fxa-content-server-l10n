@@ -285,6 +285,7 @@ passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni 
 password-forgot-otp-subject = Harruat fjalëkalimin tuaj?
 password-forgot-otp-title = Harruat fjalëkalimin tuaj?
 password-forgot-otp-request = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
+password-forgot-otp-code-2 = Nëse qetë ju, ja kodi juaj i ripohimit, për të vazhduar:
 password-forgot-otp-expiry-notice = Ky kod skadon për 10 minuta.
 passwordReset-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordReset-title-2 = Fjalëkalimi juaj u ricaktua
