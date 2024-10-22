@@ -1460,6 +1460,9 @@ back = Tapykue
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Ehechajey ko tembiapo ñepyrũ <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
+signin-push-code-heading-w-custom-service = Ehechajey ko tembiapo ñepyrũ <span>eku’ejey { $serviceName } ndive</span>
+signin-push-code-did-not-recieve = ¿Nog̃uahẽipiko ndéve marandu’i?
 signin-push-code-send-email-link = Ñanduti veve ayvu
 
 ## SigninPushCodeConfirmPage
