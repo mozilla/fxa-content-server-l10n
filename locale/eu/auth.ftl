@@ -285,20 +285,16 @@ passwordChangeRequired-different-password-plaintext = Garrantzitsua: Ez erabili 
 password-forgot-otp-subject = Pasahitza ahaztu duzu?
 password-forgot-otp-title = Pasahitza ahaztu duzu?
 password-forgot-otp-request = Zure { -product-mozilla-account } pasahitza aldatzeko eskaera jaso dugu hemendik:
-password-forgot-otp-code = Baiezkoa bada, hona hemen zure berrespen-kodea aurrera egiteko:
+password-forgot-otp-code-2 = Hau zu bazara, hona hemen zure berrespen-kodea aurrera egiteko:
 password-forgot-otp-expiry-notice = Kode hau 10 minutu barru iraungiko da.
-passwordReset-subject = Pasahitza eguneratuta
-passwordReset-title = Zure kontuaren pasahitza aldatu egin da
-passwordReset-description = Zure pasahitz berria gainontzeko gailuetan sartu beharko duzu sinkronizazioarekin jarraitzeko.
+passwordReset-subject-2 = Zure pasahitza berrezarri egin da
+passwordReset-title-2 = Zure pasahitza berrezarri egin da
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Zure { -product-mozilla-account } pasahitza berrezarri zenuen:
 passwordResetAccountRecovery-subject-2 = Zure pasahitza berrezarri egin da
-passwordResetAccountRecovery-title-2 = Pasahitza ondo berrezarri da
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Zure kontua berreskuratzeko gakoa erabili duzu pasahitza eguneratzeko hemendik:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Sortu kontua  berreskuratzeko gakoa
-passwordResetAccountRecovery-regen-required-mjml-1 = Berriro saioa hasi beharko duzu sinkronizatutako gailu guztietan. Gogoratu kontua berreskuratzeko gako berri bat sortu behar duzula erabili duzuna ordezkatzeko.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Berriro saioa hasi beharko duzu sinkronizatutako gailu guztietan. Gogoratu kontua berreskuratzeko gako berri bat sortu behar duzula erabili duzuna ordezkatzeko:
+passwordResetAccountRecovery-title-3 = Zure pasahitza berrezarri egin da
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Zure { -product-mozilla-account } kontua berreskuratzeko gakoa erabili duzu pasahitza eguneratzeko data honetan:
 postAddAccountRecovery-subject-3 = Kontua berreskuratzeko gako berria sortua
 postAddAccountRecovery-title2 = Kontua berreskuratzeko gako berria sortu duzu
 # Key here refers to account recovery key
