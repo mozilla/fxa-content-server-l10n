@@ -289,8 +289,13 @@ password-forgot-otp-code-2 = Nëse qetë ju, ja kodi juaj i ripohimit, për të 
 password-forgot-otp-expiry-notice = Ky kod skadon për 10 minuta.
 passwordReset-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordReset-title-2 = Fjalëkalimi juaj u ricaktua
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = E ricaktuat fjalëkalimin tuaj për { -product-mozilla-account } më:
 passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordResetAccountRecovery-title-3 = Fjalëkalimi juaj u ricaktua
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Përdorët kyçin tuaj për rimarrje llogarie për të ricaktuar fjalëkalimin tuaj për { -product-mozilla-account } më:
+passwordResetAccountRecovery-information = Kemi bërë nxjerrjen tuaj nga krejt llogaritë në krejt pajisjet tuaja të njëkohësuara. Krijuam një kyç të ri rimarrjeje llogarie, për të zëvendësuar atë që përdorët. Mund ta ndryshoni që nga rregullimet e llogarisë tuaj.
 passwordResetAccountRecovery-action-4 = Administroni llogarinë
 passwordResetWithRecoveryKeyPrompt-subject = Fjalëkalimi juaj u ricaktua
 passwordResetWithRecoveryKeyPrompt-title = Fjalëkalimi juaj u ricaktua
