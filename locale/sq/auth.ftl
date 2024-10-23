@@ -296,13 +296,18 @@ passwordResetAccountRecovery-title-3 = Fjalëkalimi juaj u ricaktua
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Përdorët kyçin tuaj për rimarrje llogarie për të ricaktuar fjalëkalimin tuaj për { -product-mozilla-account } më:
 passwordResetAccountRecovery-information = Kemi bërë nxjerrjen tuaj nga krejt llogaritë në krejt pajisjet tuaja të njëkohësuara. Krijuam një kyç të ri rimarrjeje llogarie, për të zëvendësuar atë që përdorët. Mund ta ndryshoni që nga rregullimet e llogarisë tuaj.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Kemi bërë nxjerrjen tuaj nga krejt llogaritë në krejt pajisjet tuaja të njëkohësuara. Krijuam një kyç të ri rimarrjeje llogarie, për të zëvendësuar atë që përdorët. Mund ta ndryshoni që nga rregullimet e llogarisë tuaj:
 passwordResetAccountRecovery-action-4 = Administroni llogarinë
 passwordResetWithRecoveryKeyPrompt-subject = Fjalëkalimi juaj u ricaktua
 passwordResetWithRecoveryKeyPrompt-title = Fjalëkalimi juaj u ricaktua
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = E ricaktuat fjalëkalimin tuaj për { -product-mozilla-account } më:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Krijoni kyç rimarrjeje llogarie
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Krijoni kyç rimarrjeje llogarie:
+passwordResetWithRecoveryKeyPrompt-cta-description = Do t’ju duhet të ribëni hyrjen në krejt llogaritë në krejt pajisjet tuaja të njëkohësuara. Herës tjetër mbajini të parrezik të dhënat tuaja, me një kyç rimarrjeje llogarie. Kjo ju lejon të rimerrni të dhënat tuaja, nëse harroni fjalëkalimin tuaj.
 postAddAccountRecovery-subject-3 = U krijua kyç i ri rimarrjeje llogarie
 postAddAccountRecovery-title2 = Krijuat një kyç të ri rimarrjeje llogarie
 # Key here refers to account recovery key

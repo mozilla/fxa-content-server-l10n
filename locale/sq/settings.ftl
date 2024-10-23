@@ -406,6 +406,11 @@ password-reset-chevron-expanded = Tkurre sinjalizimin
 password-reset-chevron-collapsed = Zgjeroje sinjalizimin
 password-reset-data-may-not-be-recovered = Të dhënat e shfletuesit tuaj mund të mos rikthehen dot
 password-reset-previously-signed-in-device-2 = Keni ndonjë pajisje ku keni bërë hyrjen më herët?
+password-reset-data-may-be-saved-locally-2 = Të dhënat e shfletuesit tuaj mund të jenë ruajtur në atë pajisje. Ricaktoni fjalëkalimin tuaj, mandej bëni hyrjen në llogari atje, për të rikthyer dhe njëkohësuar të dhënat tuaja.
+password-reset-no-old-device-2 = Keni një pajisje të re, por s’përdorni dot më cilëndo nga të mëparshmet?
+password-reset-encrypted-data-cannot-be-recovered-2 = Na vjen keq, por të dhënat tuaja të fshehtëzuara të shfletuesit në shërbyesit { -brand-firefox } s’mund të rikthehen.
+password-reset-warning-have-key = Keni një kyç rimarrjeje llogarie?
+password-reset-warning-use-key-link = Përdoreni tani, që të ricaktoni fjalëkalimin tuaj dhe mbani të dhënat tuaja
 
 ## Alert Bar
 
@@ -1340,6 +1345,7 @@ third-party-auth-callback-message = Ju lutemi, pritni, po ridrejtoheni te aplika
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Jepni kyçin tuaj të rimarrjes së llogarisë
+account-recovery-confirm-key-instruction = Ky kyç rikthen të dhënat tuaja të fshehtëzuara të shfletimit, bie fjala, fjalëkalime dhe faqerojtës, që nga shërbyes { -brand-firefox }.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
@@ -1366,6 +1372,7 @@ complete-reset-pw-recovery-key-link = Përdorni kyç rimarrjeje llogarie
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Fjalëkalimi juaj u ricaktua.
+reset-password-complete-banner-message = Mos harroni të prodhoni një kyç të ri rimarrjeje llogarie që nga rregullimet e { -product-mozilla-account } tuaja, për të penguar probleme të ardhshme hyrjeje.
 
 ## Confirm Reset Password With Code
 
@@ -1387,6 +1394,9 @@ confirm-reset-password-otp-different-account-link = Përdorni një llogari tjet�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Ricaktoni fjalëkalimin tuaj
+confirm-totp-reset-password-subheader = Jepni kodin tuaj të sigurisë për mirëfilltësim dyfaktorësh (2FA)
+confirm-totp-reset-password-instruction = Shihni te aplikacioni juaj i mirëfilltësimeve si të ricaktoni fjalëkalimin tuaj.
+confirm-totp-reset-password-trouble-code = Probleme me dhënien e kodit?
 confirm-totp-reset-password-confirm-button = Ripohojeni
 confirm-totp-reset-password-input-label = Jepni kod
 confirm-totp-reset-password-use-different-account = Përdorni një llogari tjetër
@@ -1394,6 +1404,9 @@ confirm-totp-reset-password-use-different-account = Përdorni një llogari tjet�
 ## ResetPassword start page
 
 password-reset-flow-heading = Ricaktoni fjalëkalimin tuaj
+password-reset-body-2 =
+    Do t’ju pyesim për nja dy gjëra që vetëm ju i dini, për ta mbajtur
+    të parrezik llogarinë tuaj.
 password-reset-email-input =
     .label = Jepni email-in tuaj
 password-reset-submit-button-2 = Vazhdo
@@ -1405,6 +1418,11 @@ reset-password-complete-header = Fjalëkalimi juaj u ricaktua
 reset-password-confirmed-cta = Vazhdoni te { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-complete-new-password-saved = Fjalëkalimi i ri u ruajt!
+reset-password-complete-recovery-key-created = U krijua kyç i ri rimarrjeje llogarie. Tani shkarkojeni dhe depozitojeni.
+reset-password-complete-recovery-key-download-info =
+    Ky kyç është thelbësor për
+    rimarrje të dhënash, nëse harroni fjalëkalimin tuaj. <b>Shkarkojeni dhe depozitojeni
+    tani në mënyrë të sigurt, ngaqë s’do të jeni në gjendje të rihapni këtë faqe më vonë.</b>
 
 ## CompleteSignin component
 
@@ -1525,6 +1543,8 @@ signin-token-code-required-error = Lypset kod ripohimi
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Jepni kodin tuaj të sigurisë për mirëfilltësim dyfaktorësh (2FA)
+signin-totp-code-instruction-v3 = Shihni te aplikacioni juaj i mirëfilltësimeve, për ripohim se është bërë hyrja.
 signin-totp-code-input-label-v3 = Jepni kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Ripohojeni
