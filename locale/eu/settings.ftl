@@ -881,11 +881,13 @@ tfa-row-change-modal-explain = Ezingo duzu ekintza hau desegin.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
 third-party-auth-options-or = edo
 continue-with-google-button = { -brand-google }ekin jarraitu
+continue-with-apple-button = { -brand-apple }(e)kin jarraitu
 
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Kontu ezezaguna
 auth-error-103 = Pasahitz okerra
+auth-error-105-2 = Berrespen-kode baliogabea!
 auth-error-110 = Token baliogabea
 auth-error-155 = Ez da TOTP tokena aurkitu
 auth-error-1008 = Pasahitz berriak desberdina izan behar du
@@ -896,6 +898,10 @@ auth-error-1008 = Pasahitz berriak desberdina izan behar du
 
 ## Connect Another Device page
 
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Konektatu beste gailu bat
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Une honetan ez
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -915,6 +921,7 @@ auth-error-1008 = Pasahitz berriak desberdina izan behar du
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-continue-button = Jarraitu
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
