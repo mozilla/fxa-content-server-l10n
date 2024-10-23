@@ -402,7 +402,7 @@ flow-recovery-key-hint-unsafe-char-error = Huskereglen kan ikke indeholde usikre
 ## Warning shown to sync users that reset their password without using an account recovery key
 
 password-reset-warning-icon = Advarsel
-password-reset-chevron-expanded = Fold advarsel sammen
+password-reset-chevron-expanded = Sammenfold advarsel
 password-reset-chevron-collapsed = Fold advarsel ud
 password-reset-data-may-not-be-recovered = Dine browserdata bliver måske ikke gendannet
 password-reset-previously-signed-in-device-2 = Har du en enhed, hvor du tidligere har logget ind?
