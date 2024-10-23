@@ -295,6 +295,19 @@ passwordResetAccountRecovery-subject-2 = Zure pasahitza berrezarri egin da
 passwordResetAccountRecovery-title-3 = Zure pasahitza berrezarri egin da
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Zure { -product-mozilla-account } kontua berreskuratzeko gakoa erabili duzu pasahitza eguneratzeko data honetan:
+passwordResetAccountRecovery-information = Sinkronizatutako gailu guztietatan amaitu dugu saioa. Kontua berreskuratzeko gako berri bat sortu dugu erabili zenuena ordezkatzeko. Zure kontuaren ezarpenetan alda dezakezu.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Sinkronizatutako gailu guztietatan amaitu dugu saioa. Kontua berreskuratzeko gako berri bat sortu dugu erabili zenuena ordezkatzeko. Zure kontuaren ezarpenetan alda dezakezu:
+passwordResetAccountRecovery-action-4 = Kudeatu kontua
+passwordResetWithRecoveryKeyPrompt-subject = Zure pasahitza berrezarri egin da
+passwordResetWithRecoveryKeyPrompt-title = Zure pasahitza berrezarri egin da
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Zure { -product-mozilla-account } pasahitza berrezarri zenuen:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Sortu kontua  berreskuratzeko gakoa
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Sortu kontua berreskuratzeko gakoa:
+passwordResetWithRecoveryKeyPrompt-cta-description = Berriro saioa hasi beharko duzu sinkronizatutako gailu guztietan. Mantendu zure datuak seguru hurrengoan kontua berreskuratzeko giltza batekin. Horri esker, zure datuak berreskura ditzakezu pasahitza ahazten baduzu.
 postAddAccountRecovery-subject-3 = Kontua berreskuratzeko gako berria sortua
 postAddAccountRecovery-title2 = Kontua berreskuratzeko gako berria sortu duzu
 # Key here refers to account recovery key
