@@ -394,6 +394,9 @@ flow-recovery-key-hint-cta-text = Amaitu
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Aholkuak 255 karaktere baino gutxiago izan behar ditu.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Aholkuak ezin ditu Unicode karaktere arriskutsuak izan. Letrak, zenbakiak, puntuazio-ikurrak eta ikurrak soilik onartzen dira.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -401,6 +404,8 @@ flow-recovery-key-hint-char-limit-error = Aholkuak 255 karaktere baino gutxiago 
 password-reset-warning-icon = Abisua
 password-reset-chevron-expanded = Tolestu abisua
 password-reset-chevron-collapsed = Zabaldu abisua
+password-reset-data-may-not-be-recovered = Baliteke zure nabigatzailearen datuak ez berreskuratzea
+password-reset-previously-signed-in-device-2 = Aurretik saioa hasi zenuen gailurik al duzu?
 
 ## Alert Bar
 
@@ -489,6 +494,7 @@ dc-learn-more = Argibide gehiago
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user> <signin>gisa saioa hasita</signin>
 drop-down-menu-sign-out = Amaitu saioa
+drop-down-menu-sign-out-error-2 = Barkatu, arazo bat gertatu da zure saioa amaitzean
 
 ## Flow Container
 
@@ -498,11 +504,16 @@ flow-container-back = Atzera
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-input-label = Sartu zure pasahitza
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Sortu kontua berreskuratzeko gakoa
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Jarraitu deskargatu gabe
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -529,6 +540,7 @@ header-help = Laguntza
 
 la-heading = Lotutako kontuak
 la-set-password-button = Ezarri pasahitza
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
@@ -540,6 +552,10 @@ modal-default-confirm-button = Berretsi
 
 mvs-verify-your-email-2 = Berretsi helbide elektronikoa
 mvs-enter-verification-code-2 = Sartu zure baieztapen-kodea
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = 5 minuturen buruan idatzi <email>{ $email }</email> helbidera bidalitako berrespen-kodea.
 msv-cancel-button = Utzi
 msv-submit-button-2 = Berretsi
 
@@ -584,6 +600,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Ezin da kamera hasieratu
 avatar-page-new-avatar =
     .alt = profileko irudi berria
+avatar-page-file-upload-error-3 = Arazoa egon da zure profileko irudia igotzean
+avatar-page-delete-error-3 = Arazoa egon da zure profileko irudia ezabatzean
+avatar-page-image-too-large-error-2 = Irudi-fitxategiaren tamaina handiegia da igotzeko
 
 ##
 
@@ -592,8 +611,12 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Aldatu pasahitza
+pw-8-chars = Gutxienez 8 karaktere
 pw-not-email = Ezin da zure helbide elektronikoa izan
 pw-change-must-match = Pasahitz berria berrespenarekin bat dator
+pw-commonly-used = Ezin da askotan erabilitako pasahitza izan
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Egon seguru — Ez berrerabili pasahitzak. Ikusi aholku gehiago <LinkExternal>pasahitz sendoak sortzeko</LinkExternal>.
 pw-change-cancel-button = Utzi
 pw-change-save-button = Gorde
 pw-change-forgot-password-link = Pasahitza ahaztu duzu?
@@ -630,6 +653,8 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } datuak sinkronizatzen
+delete-account-product-firefox-addons = { -brand-firefox } gehigarriak
 delete-account-acknowledge = Mesedez aitor ezazu kontua ezabatzeak ondorengoa eragingo duela:
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } produktuetan gordeta duzun informazio eta eginbideak gal litzakezu
@@ -682,10 +707,21 @@ add-secondary-email-save-button = Gorde
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2tik 2. urratsa
+verify-secondary-email-error-3 = Arazoa egon da baieztapen-kodea bidaltzean.
 verify-secondary-email-page-title =
     .title = Ordezko helbide elektronikoa
+verify-secondary-email-verification-code-2 =
+    .label = Sartu zure baieztapen-kodea
 verify-secondary-email-cancel-button = Utzi
 verify-secondary-email-verify-button-2 = Berretsi
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = 5 minuturen buruan idatzi <strong>{ $email }</strong> helbidera bidalitako baieztapen-kodea.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } ondo gehituta
 
 ##
 
@@ -725,6 +761,8 @@ tfa-enter-secret-key = Idatzi gako sekretu hau zure autentifikazio-aplikazioan:
 
 ## Product promotion
 
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Hasi erabiltzen
 
 ## Profile section
 
@@ -741,6 +779,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = { $numberOfSteps } pausotik { $currentStep }.
 
 ## Security section of Setting
 
@@ -753,6 +796,7 @@ security-password =
 security-password-created-date = Sortze-data: { $date }
 security-not-set = Ezarri gabe
 security-action-create = Sortu
+signout-sync-header = Saioa iraungi da
 
 ## Switch component
 
@@ -832,6 +876,11 @@ tfa-row-change-modal-explain = Ezingo duzu ekintza hau desegin.
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = edo
+continue-with-google-button = { -brand-google }ekin jarraitu
 
 ## Auth-server based errors that originate from backend service
 
