@@ -285,20 +285,16 @@ passwordChangeRequired-different-password-plaintext = Impurtant: Tscherna in ple
 password-forgot-otp-subject = Emblidà tes pled-clav?
 password-forgot-otp-title = Emblidà tes pled-clav?
 password-forgot-otp-request = Nus avain retschavì ina dumonda da midar il pled-clav per tes { -product-mozilla-account } da:
-password-forgot-otp-code = Sche gea, qua è tes code da conferma per cuntinuar:
+password-forgot-otp-code-2 = Sche ti es stà quai, qua è tes code da conferma per cuntinuar:
 password-forgot-otp-expiry-notice = Quest code scada en 10 minutas.
-passwordReset-subject = Actualisà il pled-clav
-passwordReset-title = Il pled-clav da tes conto è vegnì midà
-passwordReset-description = Ti stos endatar tes nov pled-clav sin tes auters apparats per pudair cuntinuar cun la sincronisaziun.
+passwordReset-subject-2 = Tes pled-clav è vegnì reinizialisà
+passwordReset-title-2 = Tes pled-clav è vegnì reinizialisà
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Ti has reinizialisà tes pled-clav da { -product-mozilla-account } sin:
 passwordResetAccountRecovery-subject-2 = Tes pled-clav è vegnì reinizialisà
-passwordResetAccountRecovery-title-2 = Redefinì cun success tes pled-clav
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Ti has duvrà tia clav da recuperaziun dal conto per actualisar tes pled-clav:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Crear ina clav da recuperaziun dal conto
-passwordResetAccountRecovery-regen-required-mjml-1 = Ti stos t'annunziar danovamain sin tut tes apparats sincronisads. Tegna endament da crear ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Ti stos t'annunziar danovamain sin tut tes apparats sincronisads. Tegna endament da crear ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà:
+passwordResetAccountRecovery-title-3 = Tes pled-clav è vegnì reinizialisà
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Ti has duvrà tia clav da recuperaziun dal conto per reinizialisar tes pled-clav da { -product-mozilla-account } sin:
 postAddAccountRecovery-subject-3 = Creà ina nova clav da recuperaziun dal conto
 postAddAccountRecovery-title2 = Ti has creà ina nova clav da recuperaziun dal conto
 # Key here refers to account recovery key
