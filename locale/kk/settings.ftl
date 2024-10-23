@@ -1368,6 +1368,9 @@ complete-reset-password-success-alert = Пароль орнатылды
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Тіркелгіні қалпына келтіру кілтін қолдану
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Парль тасталды
 
 ## Confirm Reset Password With Code
 
