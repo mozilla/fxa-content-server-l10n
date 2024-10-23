@@ -1392,6 +1392,8 @@ confirm-reset-password-otp-different-account-link = Басқа тіркелгі�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Парольді тастау
+confirm-totp-reset-password-subheader = Екі факторлы аутентификация қауіпсіздік кодыңызды енгізіңіз (2FA)
+confirm-totp-reset-password-instruction = Пароліңізді тастау үшін аутентификация қолданбасын тексеріңіз.
 confirm-totp-reset-password-trouble-code = Кодты енгізуде мәселе бар ма?
 confirm-totp-reset-password-confirm-button = Растау
 confirm-totp-reset-password-input-label = Кодты енгізіңіз
@@ -1412,6 +1414,7 @@ reset-password-complete-header = Пароліңіз тасталды
 reset-password-confirmed-cta = { $serviceName } қызметіне жалғастыру
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-complete-new-password-saved = Жаңа пароль сақталды!
+reset-password-complete-recovery-key-created = Тіркелгіні қалпына келтірудің жаңа кілті жасалды. Оны қазір жүктеп алыңыз және сақтаңыз.
 
 ## CompleteSignin component
 
