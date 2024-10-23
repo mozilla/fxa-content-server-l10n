@@ -405,6 +405,7 @@ password-reset-warning-icon = Ескерту
 password-reset-chevron-expanded = Ескертуді бүктеу
 password-reset-chevron-collapsed = Ескертуді ашу
 password-reset-data-may-not-be-recovered = Браузеріңіздің деректері қалпына келтірілмеуі мүмкін
+password-reset-warning-have-key = Тіркелгіні қалпына келтіру кілтіңіз бар ма?
 
 ## Alert Bar
 
@@ -1388,8 +1389,10 @@ confirm-reset-password-otp-different-account-link = Басқа тіркелгі�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Парольді тастау
+confirm-totp-reset-password-trouble-code = Кодты енгізуде мәселе бар ма?
 confirm-totp-reset-password-confirm-button = Растау
 confirm-totp-reset-password-input-label = Кодты енгізіңіз
+confirm-totp-reset-password-use-different-account = Басқа тіркелгіні қолдану
 
 ## ResetPassword start page
 
@@ -1405,8 +1408,7 @@ reset-password-complete-header = Пароліңіз тасталды
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } қызметіне жалғастыру
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
-reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
-reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
+reset-password-complete-new-password-saved = Жаңа пароль сақталды!
 
 ## CompleteSignin component
 
