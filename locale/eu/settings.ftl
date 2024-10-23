@@ -320,19 +320,42 @@ confirmation-link-reused-message = Berrespen-lotura hori erabilita dago eta behi
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Sortu
+account-recovery-notification-header-value = Ez galdu zure datuak pasahitza ahazten baduzu
+account-recovery-notification-header-description = Sortu kontua berreskuratzeko gako bat, zure sinkronizazioaren arakatze-datuak leheneratu ahal izateko pasahitza ahazten baduzu.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Eskaera okerra
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Pasahitz hau behar duzu gurekin gordetzen dituzun datu enkriptatuak atzitzeko.
+password-info-balloon-reset-risk-info = Berrezartze batek pasahitzak eta laster-markak bezalako datuak galdu ahal izatea esan nahi du.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Pasahitzaren betebeharrak
+password-strength-balloon-min-length = Gutxienez 8 karaktere
+password-strength-balloon-not-email = Ezin da zure helbide elektronikoa izan
+password-strength-balloon-not-common = Ezin da askotan erabilitako pasahitza izan
+password-strength-balloon-stay-safe-tips = Egon seguru — Ez berrerabili pasahitzak. Ikusi aholku gehiago <LinkExternal>pasahitz sendoak sortzeko</LinkExternal>.
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Gutxienez 8 karaktere
+password-strength-inline-not-email = Ezin da zure helbide elektronikoa izan
+password-strength-inline-not-common = Ezin da askotan erabilitako pasahitza izan
+password-strength-inline-confirmed-must-match = Berrespena pasahitz berriarekin bat dator
 
 ## Ready component
 
+ready-complete-set-up-instruction = Konfigurazioa osatzeko, idatzi pasahitz berria { -brand-firefox } darabilzun beste gailuetan.
+manage-your-account-button = Kudeatu zure kontua
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Dena prest dago { $serviceName } erabiltzen hasteko
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Kontuaren ezarpenak erabiltzeko prest zaude orain
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Zure kontua prest dago!
 ready-continue = Jarraitu
@@ -346,15 +369,31 @@ primary-email-verified-header = Helbide elektroniko nagusia berretsi da
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Zure gakoa gordetzeko tokiak:
+flow-recovery-key-download-storage-ideas-folder-v2 = Karpeta gailu seguruan
+flow-recovery-key-download-storage-ideas-cloud = Hodeiko biltegiratze fidagarria
+flow-recovery-key-download-storage-ideas-print-v2 = Kopia fisiko inprimatua
 flow-recovery-key-download-storage-ideas-pwd-manager = Pasahitz-kudeatzailea
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Gehitu aholku bat zure giltza aurkitzen laguntzeko
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Aholku honek zure kontua berreskuratzeko gakoa non gorde zenuen gogoratzen lagunduko dizu. Pasahitza berrezartzean erakutsiko dizugu zure datuak berreskuratzeko.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Idatzi aholku bat (aukerakoa)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Amaitu
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Aholkuak 255 karaktere baino gutxiago izan behar ditu.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -890,7 +929,13 @@ auth-error-1008 = Pasahitz berriak desberdina izan behar du
 ## Confirm Reset Password With Code
 
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component
