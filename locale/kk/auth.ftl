@@ -285,20 +285,19 @@ passwordChangeRequired-different-password-plaintext = Маңызды: Бұрын
 password-forgot-otp-subject = Пароліңізді ұмыттыңыз ба?
 password-forgot-otp-title = Пароліңізді ұмыттыңыз ба?
 password-forgot-otp-request = Біз сіздің { -product-mozilla-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
-password-forgot-otp-code = Иә болса, міне, жалғастыру үшін сіздің растау кодыңыз:
+password-forgot-otp-code-2 = Бұл сіз болсаңыз, міне, жалғастыру үшін сіздің растау кодыңыз:
 password-forgot-otp-expiry-notice = Бұл кодтың мерзімі 10 минутта бітеді.
-passwordReset-subject = Пароль жаңартылды
-passwordReset-title = Тіркелгіңіздің паролі өзгертілді
-passwordReset-description = Синхрондауды жалғастыру үшін басқа құрылғыларда жаңа парольді енгізу қажет.
+passwordReset-subject-2 = Пароліңіз тасталды
+passwordReset-title-2 = Пароліңіз тасталды
 passwordResetAccountRecovery-subject-2 = Пароліңіз тасталды
-passwordResetAccountRecovery-title-2 = Парольді тастау сәтті аяқталды
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Пароліңізді жаңарту үшін тіркелгіні қалпына келтіру кілтін келесі жерден пайдаландыңыз:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Тіркелгіні қалпына келтіру кілтін жасау
-passwordResetAccountRecovery-regen-required-mjml-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз:
+passwordResetAccountRecovery-title-3 = Пароліңіз тасталды
+passwordResetAccountRecovery-action-4 = Тіркелгіні басқару
+passwordResetWithRecoveryKeyPrompt-subject = Пароліңіз тасталды
+passwordResetWithRecoveryKeyPrompt-title = Пароліңіз тасталды
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Тіркелгіні қалпына келтіру кілтін жасау
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Тіркелгіні қалпына келтіру кілтін жасау:
 postAddAccountRecovery-subject-3 = Тіркелгіні қалпына келтірудің жаңа кілті жасалды
 postAddAccountRecovery-title2 = Сіз тіркелгіні қалпына келтіру жаңа кілтін жасадыңыз
 # Key here refers to account recovery key
