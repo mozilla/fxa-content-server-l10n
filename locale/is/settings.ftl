@@ -1397,6 +1397,7 @@ confirm-totp-reset-password-instruction = Athugaðu auðkenningarforritið þitt
 confirm-totp-reset-password-trouble-code = Vandamál við að setja inn kóða?
 confirm-totp-reset-password-confirm-button = Staðfesta
 confirm-totp-reset-password-input-label = Settu inn kóða
+confirm-totp-reset-password-use-different-account = Nota annan reikning
 
 ## ResetPassword start page
 
