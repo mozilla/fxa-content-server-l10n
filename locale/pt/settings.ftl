@@ -1396,6 +1396,7 @@ confirm-totp-reset-password-instruction = Consulte a sua aplicação de autentic
 confirm-totp-reset-password-trouble-code = Problemas ao introduzir o código?
 confirm-totp-reset-password-confirm-button = Confirmar
 confirm-totp-reset-password-input-label = Introduzir o código
+confirm-totp-reset-password-use-different-account = Utilizar uma conta diferente
 
 ## ResetPassword start page
 
