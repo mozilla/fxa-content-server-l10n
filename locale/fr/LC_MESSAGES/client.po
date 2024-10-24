@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 17:42+0000\n"
+"POT-Creation-Date: 2024-10-24 20:09+0000\n"
 "PO-Revision-Date: 2024-09-30 09:42+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -836,7 +836,9 @@ msgid "Invalid Token"
 msgstr "Jeton invalide"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "En continuant, vous acceptez les <a id=\"service-tos\" href=\"%(termsUri)s\">Conditions d’utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">Politique de confidentialité</a> de "
 "%(serviceName)s (%(serviceUri)s).                "
@@ -905,7 +907,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Veuillez saisir la clé de récupération à usage unique de votre compte que vous avez stockée en lieu sûr pour retrouver l’accès à votre compte Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">Remarque :</span> si vous réinitialisez votre mot de passe et n’avez pas de clé de récupération de compte enregistrée, certaines de vos données seront effacées (y compris les "
 "données synchronisées sur les serveurs, comme l’historique et les marque-pages)."
@@ -1111,34 +1114,41 @@ msgstr "Mot de passe"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "En poursuivant, vous acceptez :<br />\n"
-"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">conditions d’utilisation</a> et la <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">politique de confidentialité</a> de Pocket<br />\n"
-"Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de confidentialité</a> des comptes Mozilla"
+"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">conditions d’utilisation</a> et la <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">politique de confidentialité</a> de Pocket<br />\n"
+"Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de confidentialité</a> des "
+"comptes Mozilla"
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "            En poursuivant, vous acceptez :<br />\n"
-"            Les <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">politique de confidentialité</a> des services d’abonnement de Mozilla<br/>\n"
-"            Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de confidentialité</a> des comptes Mozilla\n"
+"            Les <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">conditions d’utilisation</a> et la <a class=\"link-"
+"grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">politique de confidentialité</a> des services d’abonnement de Mozilla<br/>\n"
+"            Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de "
+"confidentialité</a> des comptes Mozilla\n"
 "          "
 
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"En continuant, vous acceptez les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Politique"
-" de confidentialité</a>."
+"En continuant, vous acceptez les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Politique de confidentialité</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1156,7 +1166,7 @@ msgstr "Continuer vers votre compte Mozilla"
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr "Synchronisez onglets, mots de passe et marque-pages partout où vous utilisez Firefox."
 
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
 msgstr "Saisissez votre adresse e-mail"
 
@@ -1164,38 +1174,52 @@ msgstr "Saisissez votre adresse e-mail"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Continuer vers <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
+#: .es5/templates/index.mustache:8
+msgid "Create an email mask"
+msgstr ""
+
 #: .es5/templates/index.mustache:9
+msgid "Please provide the email address where you’d like to forward emails from your masked email."
+msgstr ""
+
+#: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
 msgstr "S’inscrire ou se connecter"
 
-#: .es5/templates/index.mustache:10
+#: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Un compte Mozilla donne également accès à plus de produits de Mozilla qui protègent votre vie privée."
 
-#: .es5/templates/index.mustache:12
+#: .es5/templates/index.mustache:16
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "En poursuivant, vous acceptez :<br />\n"
-"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">conditions d’utilisation</a> et la <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">politique de confidentialité</a> de Pocket<br />\n"
-"Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de confidentialité</a> des comptes Mozilla"
+"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">conditions d’utilisation</a> et la <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">politique de confidentialité</a> de Pocket<br />\n"
+"Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de confidentialité</a> des "
+"comptes Mozilla"
 
-#: .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            En poursuivant, vous acceptez :<br />\n"
-"            Les <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">politique de confidentialité</a> des services d’abonnement de Mozilla<br/>\n"
-"            Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de confidentialité</a> des comptes Mozilla\n"
+"            Les <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">conditions d’utilisation</a> et la <a class=\"link-"
+"grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">politique de confidentialité</a> des services d’abonnement de Mozilla<br/>\n"
+"            Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">politique de "
+"confidentialité</a> des comptes Mozilla\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1489,8 +1513,8 @@ msgstr "Répéter le mot de passe"
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.<br class=\"mb-3\">Le réinitialiser peut entraîner une perte de données telles que les mots de passe"
-" ou les marque-pages."
+"Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.<br class=\"mb-3\">Le réinitialiser peut entraîner une perte de données telles que les mots de "
+"passe ou les marque-pages."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"

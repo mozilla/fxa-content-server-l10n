@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 17:42+0000\n"
+"POT-Creation-Date: 2024-10-24 20:09+0000\n"
 "PO-Revision-Date: 2024-08-06 07:57+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1143,7 +1143,7 @@ msgstr ""
 "riservatece</a> pai accounts Mozilla\n"
 "            "
 
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1167,7 +1167,7 @@ msgstr "Continue su to account Mozilla"
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr "Sincronize passwords, schedis e segnelibris dapardut là che tu dopris Firefox."
 
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
 msgstr "Inserìs la tô e-mail"
 
@@ -1175,15 +1175,23 @@ msgstr "Inserìs la tô e-mail"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Continue su <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
+#: .es5/templates/index.mustache:8
+msgid "Create an email mask"
+msgstr ""
+
 #: .es5/templates/index.mustache:9
+msgid "Please provide the email address where you’d like to forward emails from your masked email."
+msgstr ""
+
+#: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
 msgstr "Regjistriti o jentre"
 
-#: .es5/templates/index.mustache:10
+#: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Un account Mozilla al sbloche ancje l'acès a altris prodots di Mozilla che a protezin la riservatece."
 
-#: .es5/templates/index.mustache:12
+#: .es5/templates/index.mustache:16
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
@@ -1200,7 +1208,7 @@ msgstr ""
 "riservatece</a> dai accounts Mozilla.\n"
 "            "
 
-#: .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"

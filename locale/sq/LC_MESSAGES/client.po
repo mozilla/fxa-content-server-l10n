@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 17:42+0000\n"
+"POT-Creation-Date: 2024-10-24 20:09+0000\n"
 "PO-Revision-Date: 2024-09-28 10:42+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -527,7 +527,7 @@ msgstr "Veçori e paaktivizuar"
 
 # riprovoni
 # ndaj përpiquni sërish
-# 
+#
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i
 # përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga
 # pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
@@ -848,10 +848,12 @@ msgid "Invalid Token"
 msgstr "Token i Pavlefshëm"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -919,7 +921,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Ju lutemi, që të rimerrni hyrjen te llogaria juaj Mozilla, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga "
 "shërbyesi, të tilla si historik dhe shfletues)."
@@ -960,7 +963,7 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet
 # që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet
 # "character"-it të Anglishtes:
-# 
+#
 # KARAKTER m.
 #     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e
 # në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij;
@@ -979,10 +982,10 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik).
 # Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha)
 # një karakter të ri.
-# 
+#
 # Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen
 # të kalojnë me një syleshllëk të çuditshëm...
-# 
+#
 # P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1156,34 +1159,43 @@ msgstr "Fjalëkalimi"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Duke vazhduar, pajtoheni me:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Shënim Privatësie</a><br /> të Pocket-it\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive Mozilla\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Shënim Privatësie</a><br /> të Pocket-it\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive "
+"Mozilla\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Duke vazhduar, pajtoheni me:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> Llogarish Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> Llogarish "
+"Mozilla\n"
 "            "
 
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Duke vazhduar, pajtoheni me <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënimin mbi Privatësinë</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Duke vazhduar, pajtoheni me <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënimin mbi "
+"Privatësinë</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1201,7 +1213,7 @@ msgstr "Vazhdoni te llogaria juaj Mozilla"
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr "Njëkohësoni fjalëkalimet, skedat dhe faqerojtësit tuaj, kudo që përdorni Firefox-in."
 
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
 msgstr "Jepni email-in tuaj"
 
@@ -1209,39 +1221,52 @@ msgstr "Jepni email-in tuaj"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Vazhdo te <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
+#: .es5/templates/index.mustache:8
+msgid "Create an email mask"
+msgstr ""
+
 #: .es5/templates/index.mustache:9
+msgid "Please provide the email address where you’d like to forward emails from your masked email."
+msgstr ""
+
+#: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
 msgstr "Hyni ose regjistrohuni"
 
-#: .es5/templates/index.mustache:10
+#: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Një llogari Mozilla ju lejon gjithashtu përdorim më tepër produktesh Mozilla që mbrojnë privatësinë."
 
-#: .es5/templates/index.mustache:12
+#: .es5/templates/index.mustache:16
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Duke vazhduar, pajtoheni me:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Shënim Privatësie</a><br /> të Pocket-it\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Shënim "
+"Privatësie</a><br /> të Pocket-it\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive "
+"Mozilla\n"
 "        "
 
-#: .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Duke vazhduar, pajtoheni me:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe  <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe  <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> Llogarish Mozilla\n"
 "                    "
 
