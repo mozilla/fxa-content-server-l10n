@@ -405,9 +405,9 @@ password-reset-warning-icon = Opozorilo
 password-reset-chevron-expanded = Skrči opozorilo
 password-reset-chevron-collapsed = Razširi opozorilo
 password-reset-data-may-not-be-recovered = Podatkov brskalnika morda ne bo mogoče obnoviti
-password-reset-previously-signed-in-device-2 = Imate kakšno napravo, kjer ste se predhodno prijavili?
-password-reset-data-may-be-saved-locally-2 = Podatki brskalnika so morda shranjeni na tej napravi. Ponastavite geslo in se prijavite za obnovitev in sinhronizacijo podatkov.
-password-reset-no-old-device-2 = Imate novo napravo, vendar nimate dostopa do nobene od prejšnjih?
+password-reset-previously-signed-in-device-2 = Imate kakšno napravo, na kateri ste se že kdaj prej prijavili?
+password-reset-data-may-be-saved-locally-2 = Podatki brskalnika so morda shranjeni na tej napravi. Ponastavite geslo, nato pa se prijavite, s čimer boste obnovili in sinhronizirali podatke.
+password-reset-no-old-device-2 = Imate novo napravo, nimate pa dostopa do nobene izmed prejšnjih?
 password-reset-encrypted-data-cannot-be-recovered-2 = Žal nam je, toda šifriranih podatkov brskalnika v strežnikih { -brand-firefox } ni mogoče obnoviti.
 password-reset-warning-have-key = Imate ključ za obnovitev računa?
 password-reset-warning-use-key-link = Uporabite ga za ponastavitev gesla in ohranitev podatkov
@@ -1396,7 +1396,7 @@ confirm-reset-password-otp-different-account-link = Uporabi drug račun
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Ponastavite geslo
-confirm-totp-reset-password-subheader = Vnesite varnostno kodo za preverjanje pristnosti v dveh korakih (2FA)
+confirm-totp-reset-password-subheader = Vnesite varnostno kodo za dvostopenjsko overjanje (2FA)
 confirm-totp-reset-password-instruction = V aplikaciji za overitev ponastavite geslo.
 confirm-totp-reset-password-trouble-code = Imate težave pri vnosu kode?
 confirm-totp-reset-password-confirm-button = Potrdi
@@ -1418,7 +1418,7 @@ reset-password-complete-header = Vaše geslo je bilo ponastavljeno
 reset-password-confirmed-cta = Nadaljuj na { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-complete-new-password-saved = Novo geslo shranjeno!
-reset-password-complete-recovery-key-created = Nov obnovitveni ključ za račun ustvarjen. Prenesite in shranite ga zdaj.
+reset-password-complete-recovery-key-created = Nov obnovitveni ključ za račun je ustvarjen. Prenesite in shranite ga zdaj.
 reset-password-complete-recovery-key-download-info = Ta ključ je potreben za obnovitev podatkov, če pozabite geslo. <b>Prenesite jo in jo varno shranite zdaj, saj pozneje ne boste mogli več dostopati do te strani.</b>
 
 ## CompleteSignin component
@@ -1540,7 +1540,7 @@ signin-token-code-required-error = Zahtevana je potrditvena koda
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Vnesite varnostno kodo za preverjanje pristnosti v dveh korakih (2FA)
+signin-totp-code-subheader = Vnesite varnostno kodo za dvostopenjsko overjanje (2FA)
 signin-totp-code-instruction-v3 = V aplikaciji za overitev potrdite prijavo.
 signin-totp-code-input-label-v3 = Vnesite kodo
 # Form button to confirm if the authentication code entered by the user is valid

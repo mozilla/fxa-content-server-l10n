@@ -304,7 +304,7 @@ passwordResetAccountRecovery-action-4 = Upravljanje računa
 passwordResetWithRecoveryKeyPrompt-subject = Vaše geslo je bilo ponastavljeno
 passwordResetWithRecoveryKeyPrompt-title = Vaše geslo je bilo ponastavljeno
 # Details of the device and date/time where the password was reset
-passwordResetWithRecoveryKeyPrompt-description = Geslo ste ponastavili za { -product-mozilla-account }:
+passwordResetWithRecoveryKeyPrompt-description = Ponastavili ste geslo { -product-mozilla-account(sklon: "rodilnik") } z naslednje naprave:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Ustvari ključ za obnovitev računa
 # colon is followed by a link to create an account recovery key from the account settings page
