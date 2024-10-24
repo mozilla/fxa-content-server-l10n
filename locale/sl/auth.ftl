@@ -287,19 +287,19 @@ passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugač
 password-forgot-otp-subject = Ste pozabili geslo?
 password-forgot-otp-title = Ste pozabili geslo?
 password-forgot-otp-request = Prejeli smo zahtevo za spremembo gesla vašega { -product-mozilla-account(sklon: "rodilnik") } z:
-password-forgot-otp-code-2 = Če ste to bili vi, je tu vaša potrditvena koda za nadaljevanje:
+password-forgot-otp-code-2 = Če ste to bili vi, je tu potrditvena koda za nadaljevanje:
 password-forgot-otp-expiry-notice = Ta koda poteče čez 10 minut.
 passwordReset-subject-2 = Vaše geslo je bilo ponastavljeno
 passwordReset-title-2 = Vaše geslo je bilo ponastavljeno
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Geslo ste ponastavili za { -product-mozilla-account }:
+passwordReset-description-2 = Ponastavili ste geslo { -product-mozilla-account(sklon: "rodilnik") } z naslednje naprave:
 passwordResetAccountRecovery-subject-2 = Vaše geslo je bilo ponastavljeno
 passwordResetAccountRecovery-title-3 = Vaše geslo je bilo ponastavljeno
 # Followed by details on the device and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Uporabili ste ključ za obnovitev računa za ponastavitev gesla { -product-mozilla-account } na dan:
-passwordResetAccountRecovery-information = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil dosedanjega, ki ste ga vi uporabljali. Lahko ga spremenite v nastavitvah računa.
+passwordResetAccountRecovery-description-3 = Z uporabo ključa za obnovitev računa ste ponastavili geslo { -product-mozilla-account(sklon: "rodilnik") } z naslednje naprave:
+passwordResetAccountRecovery-information = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil uporabljenega dosedanjega. Lahko ga spremenite v nastavitvah računa.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil dosedanjega, ki ste ga vi uporabljali. Lahko ga spremenite v nastavitvah računa:
+passwordResetAccountRecovery-information-txt = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil uporabljenega dosedanjega. Lahko ga spremenite v nastavitvah računa:
 passwordResetAccountRecovery-action-4 = Upravljanje računa
 passwordResetWithRecoveryKeyPrompt-subject = Vaše geslo je bilo ponastavljeno
 passwordResetWithRecoveryKeyPrompt-title = Vaše geslo je bilo ponastavljeno
