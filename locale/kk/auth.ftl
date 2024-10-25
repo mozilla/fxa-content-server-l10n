@@ -289,6 +289,8 @@ password-forgot-otp-code-2 = Бұл сіз болсаңыз, міне, жалғ�
 password-forgot-otp-expiry-notice = Бұл кодтың мерзімі 10 минутта бітеді.
 passwordReset-subject-2 = Пароліңіз тасталды
 passwordReset-title-2 = Пароліңіз тасталды
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = { -product-mozilla-account } паролін келесі жерде қалпына келтірдіңіз:
 passwordResetAccountRecovery-subject-2 = Пароліңіз тасталды
 passwordResetAccountRecovery-title-3 = Пароліңіз тасталды
 passwordResetAccountRecovery-action-4 = Тіркелгіні басқару
