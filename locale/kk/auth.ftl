@@ -293,13 +293,21 @@ passwordReset-title-2 = Пароліңіз тасталды
 passwordReset-description-2 = { -product-mozilla-account } паролін келесі жерде қалпына келтірдіңіз:
 passwordResetAccountRecovery-subject-2 = Пароліңіз тасталды
 passwordResetAccountRecovery-title-3 = Пароліңіз тасталды
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Сіз өзіңіздің { -product-mozilla-account } паролін қалпына келтіру үшін тіркелгіні қалпына келтіру кілтін келесі жерде пайдаландыңыз:
+passwordResetAccountRecovery-information = Сізді барлық синхрондалған құрылғылардан жүйеден шығардық. Сіз пайдаланған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаға кілтін жасадық. Оны тіркелгі параметрлерінде өзгертуге болады.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Сізді барлық синхрондалған құрылғылардан жүйеден шығардық. Сіз пайдаланған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаға кілтін жасадық. Оны тіркелгі параметрлерінде өзгертуге болады:
 passwordResetAccountRecovery-action-4 = Тіркелгіні басқару
 passwordResetWithRecoveryKeyPrompt-subject = Пароліңіз тасталды
 passwordResetWithRecoveryKeyPrompt-title = Пароліңіз тасталды
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = { -product-mozilla-account } паролін келесі жерде қалпына келтірдіңіз:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Тіркелгіні қалпына келтіру кілтін жасау
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Тіркелгіні қалпына келтіру кілтін жасау:
+passwordResetWithRecoveryKeyPrompt-cta-description = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Тіркелгіні қалпына келтіру кілтімен келесі жолы деректеріңізді қауіпсіз сақтаңыз. Бұл парольді ұмытып қалсаңыз, деректерді қалпына келтіруге мүмкіндік береді.
 postAddAccountRecovery-subject-3 = Тіркелгіні қалпына келтірудің жаңа кілті жасалды
 postAddAccountRecovery-title2 = Сіз тіркелгіні қалпына келтіру жаңа кілтін жасадыңыз
 # Key here refers to account recovery key
