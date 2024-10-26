@@ -292,19 +292,19 @@ password-forgot-otp-expiry-notice = Platnost kódu vyprší za 10 minut.
 passwordReset-subject-2 = Vaše heslo bylo obnoveno
 passwordReset-title-2 = Vaše heslo bylo obnoveno
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Heslo ke svému { -product-mozilla-account(case: "dat") } obnovíte dne:
+passwordReset-description-2 = Heslo ke svému { -product-mozilla-account(case: "dat", capitalization: "lower") } jste obnovili:
 passwordResetAccountRecovery-subject-2 = Vaše heslo bylo obnoveno
 passwordResetAccountRecovery-title-3 = Vaše heslo bylo obnoveno
 # Followed by details on the device and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Pomocí obnovovacího klíče k účtu jste obnovili heslo k { -product-mozilla-account(case: "dat") } dne:
-passwordResetAccountRecovery-information = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, který jste používali dříve. Můžete to změnit v nastavení účtu.
+passwordResetAccountRecovery-description-3 = Pomocí obnovovacího klíče k účtu jste obnovili heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") }:
+passwordResetAccountRecovery-information = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, jako náhradu toho, který jste používali dříve. Můžete to změnit v nastavení účtu.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, který jste používali dříve. Můžete to změnit v nastavení účtu:
+passwordResetAccountRecovery-information-txt = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, jako náhradu toho, který jste používali dříve. Můžete to změnit v nastavení účtu:
 passwordResetAccountRecovery-action-4 = Správa účtu
 passwordResetWithRecoveryKeyPrompt-subject = Vaše heslo bylo obnoveno
 passwordResetWithRecoveryKeyPrompt-title = Vaše heslo bylo obnoveno
 # Details of the device and date/time where the password was reset
-passwordResetWithRecoveryKeyPrompt-description = Heslo ke svému { -product-mozilla-account(case: "dat") } obnovíte dne:
+passwordResetWithRecoveryKeyPrompt-description = Heslo ke svému { -product-mozilla-account(case: "dat", capitalization: "lower") } jste obnovili:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Vytvořit obnovovací klíč k účtu
 # colon is followed by a link to create an account recovery key from the account settings page
