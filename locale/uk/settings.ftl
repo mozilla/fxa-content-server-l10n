@@ -1403,6 +1403,7 @@ confirm-totp-reset-password-instruction = Перевірте програму а
 confirm-totp-reset-password-trouble-code = Проблеми з введенням коду?
 confirm-totp-reset-password-confirm-button = Підтвердити
 confirm-totp-reset-password-input-label = Ввести код
+confirm-totp-reset-password-use-different-account = Використати інший обліковий запис
 
 ## ResetPassword start page
 
