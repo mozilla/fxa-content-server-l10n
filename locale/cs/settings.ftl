@@ -406,7 +406,7 @@ password-reset-chevron-expanded = Skrýt varování
 password-reset-chevron-collapsed = Rozbalit varování
 password-reset-data-may-not-be-recovered = Data prohlížeče nemusí být možné obnovit
 password-reset-previously-signed-in-device-2 = Máte nějaké zařízení, na kterém jste se dříve přihlásili?
-password-reset-data-may-be-saved-locally-2 = Data o prohlížeči mohou být na tomto zařízení uložena. Obnovte své heslo a poté se přihlaste pro obnovu a synchronizaci svých dat.
+password-reset-data-may-be-saved-locally-2 = Data o prohlížeči mohou být uložena na tomto zařízení. Obnovte své heslo a poté se přihlaste pro obnovu a synchronizaci svých dat.
 password-reset-no-old-device-2 = Vlastníte nové zařízení, ale nemáte přístup k žádnému z předchozích?
 password-reset-encrypted-data-cannot-be-recovered-2 = Je nám líto, ale vaše šifrovaná data uložená na serverech { -brand-firefox(case: "gen") } nelze obnovit.
 password-reset-warning-have-key = Máte k účtu obnovovací klíč?
@@ -1410,7 +1410,7 @@ reset-password-confirmed-cta = Pokračovat do služby { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
 reset-password-complete-new-password-saved = Nové heslo uloženo!
 reset-password-complete-recovery-key-created = Nový obnovovací klíč k účtu byl vytvořen. Stáhněte si ho a uložte.
-reset-password-complete-recovery-key-download-info = Tento klíč je nezbytný pro obnovu dat v případě, že zapomenete své heslo. <b>Stáhněte si ji a bezpečně si ji uložte nyní, později už k ní nebudete moci přistupovat.</b>
+reset-password-complete-recovery-key-download-info = Tento klíč je nezbytný pro obnovu dat v případě, že zapomenete své heslo. <b>Hned si ho stáhněte a bezpečně uložte, později už k němu nebudete moci přistupovat.</b>
 
 ## CompleteSignin component
 
