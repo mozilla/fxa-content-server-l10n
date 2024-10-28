@@ -72,6 +72,9 @@ recovery-key-pdf-download-error = Lo sentimos, ha surgido un problema al descarg
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Obtener más de { -brand-mozilla }:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Recibe nuestras últimas noticias y actualizaciones de productos
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Acceso anticipado para probar nuevos productos
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -191,6 +194,16 @@ form-verify-code-default-error = Este campo es obligatorio
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Introduce un código de { $codeLength } dígitos para continuar
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Introduce un código de { $codeLength } caracteres para continuar
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -227,6 +240,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustración para representar una clave de recuperación de cuenta.
+password-image-aria-label =
+    .aria-label = Una ilustración para representar la introducción de una contraseña.
 lightbulb-aria-label =
     .aria-label = Ilustración para representar la creación de una sugerencia de almacenamiento.
 email-code-image-aria-label =
@@ -236,6 +251,7 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = Has iniciado sesión en { -brand-firefox }
 inline-recovery-key-setup-create-header = Asegura tu cuenta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = ¿Tienes un minuto para proteger tus datos?

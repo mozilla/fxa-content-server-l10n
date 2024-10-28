@@ -305,6 +305,9 @@ passwordResetWithRecoveryKeyPrompt-title = Se ha restablecido tu contraseña
 passwordResetWithRecoveryKeyPrompt-description = Restableciste tu contraseña de { -product-mozilla-account } en:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Crear una clave de recuperación de cuenta
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Crear una clave de recuperación de cuenta:
+passwordResetWithRecoveryKeyPrompt-cta-description = Deberás volver a conectarte en todos los dispositivos sincronizados. Mantén tus datos seguros la próxima vez con una clave de recuperación de cuenta. Esto te permite recuperar tus datos si olvidas tu contraseña.
 postAddAccountRecovery-subject-3 = Nueva clave de recuperación de cuenta creada
 postAddAccountRecovery-title2 = Has creado una nueva clave de recuperación de cuenta
 # Key here refers to account recovery key
