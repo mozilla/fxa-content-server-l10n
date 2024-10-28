@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-09-27 18:16+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2024-10-28 20:45+0000\n"
+"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -837,9 +837,7 @@ msgid "Invalid Token"
 msgstr "Érvénytelen token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi "
 "irányelveket</a>."
@@ -908,11 +906,10 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a Mozilla fiókjához."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, "
-"mint az előzmények és a könyvjelzők)."
+"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint"
+" az előzmények és a könyvjelzők)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1114,43 +1111,34 @@ msgstr "Jelszó"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            A folytatással beleegyezik az alábbiakba:<br />\n"
-"            A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Szolgáltatási feltételeibe</a> és <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
-"com/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"            A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
-"nyilatkozatába</a>.\n"
+"            A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Szolgáltatási feltételeibe</a> és <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
+"            A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>.\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              A folytatással beleegyezik az alábbiakba:<br />\n"
-"              A Mozilla előfizetéses szolgáltatásainak <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Szolgáltatási "
-"feltételeibe</a> és <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"              A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
-"nyilatkozatába</a>\n"
+"              A Mozilla előfizetéses szolgáltatásainak <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Adatvédelmi nyilatkozatába</a><br />\n"
+"              A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"A folytatással elfogadja a <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
-"nyilatkozatot</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "A folytatással elfogadja a <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatot</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1178,11 +1166,11 @@ msgstr "Tovább a következőhöz: <div class=\"graphic %(serviceLogo)s\">%(serv
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "Hozzon létre egy e-mail-maszkot"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Adja meg azt az e-mail címet, ahová a maszkolt e-mail címből érkező leveleket továbbítani szeretné."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1196,34 +1184,28 @@ msgstr "A Mozilla-fiók a Mozilla további adatvédelmi termékeihez is hozzáf�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          A folytatással beleegyezik az alábbiakba:<br />\n"
-"          A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Szolgáltatási feltételeibe</a> és <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
-"com/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"          A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
-"nyilatkozatába</a>\n"
+"          A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Szolgáltatási feltételeibe</a> és <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
+"          A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            A folytatással beleegyezik az alábbiakba:<br />\n"
-"            A Mozilla előfizetéses szolgáltatásainak <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Szolgáltatási "
-"feltételeibe</a> és <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"            A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
-"nyilatkozatába</a>\n"
+"            A Mozilla előfizetéses szolgáltatásainak <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Adatvédelmi nyilatkozatába</a><br />\n"
+"            A Mozilla-fiókok <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1958,8 +1940,7 @@ msgstr "A mobileszköze összekapcsolása a Mozilla-fiókjával"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
-"Nyissa meg a Firefoxot a számítógépén, keresse fel a <b class=\"whitespace-nowrap\">firefox.com/pair</b> oldalt, és kövesse a képernyőn megjelenő utasításokat a mobileszköz csatlakoztatásához."
+msgstr "Nyissa meg a Firefoxot a számítógépén, keresse fel a <b class=\"whitespace-nowrap\">firefox.com/pair</b> oldalt, és kövesse a képernyőn megjelenő utasításokat a mobileszköz csatlakoztatásához."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
