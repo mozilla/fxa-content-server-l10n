@@ -1466,6 +1466,7 @@ back = Tapykue
 
 signin-push-code-heading-w-default-service = Ehechajey ko tembiapo ñepyrũ <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
 signin-push-code-heading-w-custom-service = Ehechajey ko tembiapo ñepyrũ <span>eku’ejey { $serviceName } ndive</span>
+signin-push-code-instruction = Ehechajey ambue mba’e’oka ha emoneĩ ko tembiapo ñepyrũ ne kundahára { -brand-firefox } guive.
 signin-push-code-did-not-recieve = ¿Nog̃uahẽipiko ndéve marandu’i?
 signin-push-code-send-email-link = Ñanduti veve ayvu
 
