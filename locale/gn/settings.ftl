@@ -406,6 +406,7 @@ password-reset-chevron-expanded = Ñemongyhyje
 password-reset-chevron-collapsed = Emyasãi mongyhyje
 password-reset-data-may-not-be-recovered = Ne ñeikundaha mba’ekuaarã ikatu okañyete
 password-reset-previously-signed-in-device-2 = ¿Ereko peteĩ mba’e’oka eñepyrũhaguékuri tembiapo?
+password-reset-data-may-be-saved-locally-2 = Umi mba’ekuaarã ne kundaharagua oñeñongatukuaa mba’e’okápe. Erujey ne ñe’ẽñemi ha eñepyrũ tembiapo upépe erujey ha embojuehe hag̃ua ne mba’ekuaarã.
 password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
 password-reset-warning-use-key-link = Eiporu egueru jey hag̃ua ne ñe’ẽñemi ha ani ogue ne mba’ekuaarã
 
