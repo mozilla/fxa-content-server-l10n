@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 17:42+0000\n"
+"POT-Creation-Date: 2024-10-28 20:09+0000\n"
 "PO-Revision-Date: 2024-09-21 01:35+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1139,7 +1139,7 @@ msgstr ""
 "              Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
 "            "
 
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:16 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1163,7 +1163,7 @@ msgstr "Mozilla 계정으로 계속"
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr "Firefox를 사용하는 어디서든 탭, 비밀번호, 그리고 북마크를 동기화합니다."
 
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
 msgstr "이메일 입력"
 
@@ -1171,15 +1171,23 @@ msgstr "이메일 입력"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> 서비스로 계속"
 
+#: .es5/templates/index.mustache:8
+msgid "Create an email mask"
+msgstr ""
+
 #: .es5/templates/index.mustache:9
+msgid "Please provide the email address where you’d like to forward emails from your masked email."
+msgstr ""
+
+#: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
 msgstr "가입 또는 로그인"
 
-#: .es5/templates/index.mustache:10
+#: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Mozilla 계정을 사용하면 Mozilla의 더 많은 개인 정보 보호 제품에 접근할 수 있습니다."
 
-#: .es5/templates/index.mustache:12
+#: .es5/templates/index.mustache:16
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
@@ -1195,7 +1203,7 @@ msgstr ""
 "          Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
 "        "
 
-#: .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"

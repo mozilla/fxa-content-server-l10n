@@ -1407,6 +1407,7 @@ confirm-totp-reset-password-instruction = Kontrolearje jo autentikaasje-app om j
 confirm-totp-reset-password-trouble-code = Problemen by it ynfieren fan de koade?
 confirm-totp-reset-password-confirm-button = Befêstigje
 confirm-totp-reset-password-input-label = Koade ynfiere
+confirm-totp-reset-password-use-different-account = In oar account brûke
 
 ## ResetPassword start page
 
