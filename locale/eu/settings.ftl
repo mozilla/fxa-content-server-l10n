@@ -490,10 +490,13 @@ cs-sign-out-button = Amaitu saioa
 
 ## Data collection section
 
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } nabigatzailea
 dc-learn-more = Argibide gehiago
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = { -product-mozilla-account } menua
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -894,12 +897,25 @@ auth-error-102 = Kontu ezezaguna
 auth-error-103 = Pasahitz okerra
 auth-error-105-2 = Berrespen-kode baliogabea!
 auth-error-110 = Token baliogabea
+auth-error-139 = Helbide elektroniko alternatiboak zure kontuaren helbide elektronikoaren desberdina izan behar du
 auth-error-155 = Ez da TOTP tokena aurkitu
+auth-error-159 = Kontua berreskuratzeko gako baliogabea
+auth-error-183-2 = Berrespen-kode baliogabea edo iraungita
+auth-error-999 = Espero gabeko errorea
+auth-error-1001 = Saio-hasiera saiakera utzita
+auth-error-1002 = Saioa iraungita. Jarraitzeko, hasi saioa.
 auth-error-1008 = Pasahitz berriak desberdina izan behar du
+auth-error-1010 = Baliozko pasahitza behar da
+auth-error-1011 = Baliozko helbide elektronikoa behar da
+auth-error-1031 = Zure izena sartu behar duzu erregistratzeko
+auth-error-1032 = Adin egoki bat sartu behar duzu erregistratzeko
+auth-error-1062 = Birbideraketa baliogabea
+oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Ezin da kontua sortu
 
 ## Connect Another Device page
 
