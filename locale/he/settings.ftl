@@ -1229,7 +1229,7 @@ pair-or-download-subheader = או הורדה
 pair-scan-to-download-message = ניתן לסרוק כדי להוריד את { -brand-firefox } לנייד, או לשלוח לעצמך <linkExternal>קישור להורדה</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = לא כעת
-pair-take-your-data-message = קחו את הלשוניות, הסימניות והססמאות לכל מקום שבו תשתמשו ב־{ -brand-firefox }.
+pair-take-your-data-message = לקחת את הלשוניות, הסימניות והססמאות שלך לכל מקום בו יש לך את { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = תחילת עבודה
 # This is the aria label on the QR code image
