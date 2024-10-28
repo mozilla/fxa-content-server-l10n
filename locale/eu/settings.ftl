@@ -842,6 +842,7 @@ rk-content-explain = Berrezarri zure informazioa pasahitza ahazten duzunean.
 se-heading = Ordezko helbide elektronikoa
     .header = Ordezko helbide elektronikoa
 se-cannot-refresh-email = Barkatu, arazoa egon da helbide elektroniko hori berritzean.
+se-delete-email-error-2 = Barkatu, arazoa egon da helbide elektroniko hori ezabatzean
 # Button to remove the secondary email
 se-remove-email =
     .title = Kendu helbide elektronikoa
