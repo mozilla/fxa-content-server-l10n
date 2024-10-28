@@ -1596,6 +1596,7 @@ confirm-signup-code-is-required-error = Wobkrućenski kod je trěbny
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Zapodajće swoje hesło
+signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće rjadować a k wěstotnym nastrojam { -brand-mozilla } přistup měł.
 signup-heading-relay = Hesło wutworić
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
