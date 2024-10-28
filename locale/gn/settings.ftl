@@ -1411,6 +1411,7 @@ reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 reset-password-confirmed-cta = Eku’ejey { $serviceName } ndive
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
+reset-password-complete-recovery-key-created = Mba’ete mba’eñemi guerujeyrã moheñoimbyre. Emboguejy ha eñongatu.
 
 ## CompleteSignin component
 
