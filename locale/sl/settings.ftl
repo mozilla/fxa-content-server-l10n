@@ -1593,6 +1593,8 @@ confirm-signup-code-is-required-error = Zahtevana je potrditvena koda
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Nastavite geslo
+signup-relay-info = Geslo je potrebno za varno upravljanje zamaskirane e-pošte in dostop do { -brand-mozilla(sklon: "rodilnik") } varnostnih orodij.
+signup-heading-relay = Ustvarite geslo
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Zakaj moram ustvariti ta račun? <LinkExternal>Preberite tukaj</LinkExternal>
