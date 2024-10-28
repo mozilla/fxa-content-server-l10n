@@ -1594,6 +1594,8 @@ confirm-signup-code-is-required-error = Wobkšuśeński kod jo trjebny
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Zapódajśo swójo gronidło
+signup-relay-info = Gronidło jo trjebna, aby swóje maskěrowane mejlki wěsće zastojaś a k wěstotnym rědam { -brand-mozilla } pśistup měł.
+signup-heading-relay = Gronidło napóraś
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Cogodla musym toś to konto załožyś? <LinkExternal>Glejśo how</LinkExternal>
