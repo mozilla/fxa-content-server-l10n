@@ -1581,6 +1581,8 @@ confirm-signup-code-is-required-error = Le code de confirmation est requis
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Définissez votre mot de passe
+signup-relay-info = Un mot de passe est nécessaire pour gérer en toute sécurité vos alias de messagerie et accéder aux outils de sécurité de { -brand-mozilla }.
+signup-heading-relay = Créer un mot de passe
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Pourquoi dois-je créer ce compte ? <LinkExternal>Découvrez ici pourquoi</LinkExternal>
