@@ -1597,6 +1597,8 @@ confirm-signup-code-is-required-error = Bevestigingscode is vereist
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Stel uw wachtwoord in
+signup-relay-info = Er is een wachtwoord nodig om uw gemaskeerde e-mailadressen veilig te beheren en toegang te krijgen tot de beveiligingshulpmiddelen van { -brand-mozilla }.
+signup-heading-relay = Een wachtwoord aanmaken
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Waarom moet ik deze account aanmaken? <LinkExternal>Lees het hier</LinkExternal>
