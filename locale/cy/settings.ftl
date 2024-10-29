@@ -1589,7 +1589,7 @@ confirm-signup-code-is-required-error = Mae angen cod cadarnhad
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Gosod eich cyfrinair
-signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst sydd wedi'u cuddio yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
+signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
 signup-heading-relay = Crëwch gyfrinair
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration

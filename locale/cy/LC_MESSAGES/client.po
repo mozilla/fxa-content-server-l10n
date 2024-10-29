@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-28 20:47+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-10-29 10:55+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -1164,11 +1164,11 @@ msgstr "Parhau i <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr "Creu mwgwd e-bost"
+msgstr "Crëwch arallenw e-bost"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "Rhowch y cyfeiriad e-bost lle yr hoffech anfon e-byst ymlaen o'ch e-bost wedi'i guddio."
+msgstr "Rhowch y cyfeiriad e-bost lle yr hoffech anfon e-byst ymlaen o'ch e-bost ag arallenw."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
