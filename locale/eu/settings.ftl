@@ -553,6 +553,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Sortu kontua berreskura
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Kontua berreskuratzeko gakoa sortu da — Deskargatu eta gorde ezazu orain
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Gako honekin zure datuak berreskura ditzakezu pasahitza ahazten baduzu. Deskargatu orain eta gorde gogoratuko duzun leku batean; ezin izango zara orri honetara itzuli geroago.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Jarraitu deskargatu gabe
 
@@ -560,9 +562,19 @@ flow-recovery-key-download-next-link-v2 = Jarraitu deskargatu gabe
 ## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Kontuaren berreskuratze-gakoa sortuta
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Sortu kontua berreskuratzeko gako bat pasahitza ahazten duzunerako
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Aldatu zure kontua berreskuratzeko gakoa
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Nabigazio-datuak enkriptatzen ditugu: pasahitzak, laster-markak eta abar. Pribatutasunerako oso ona da, baina pasahitza ahazten baduzu zure datuak gal ditzakezu.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Horregatik, kontua berreskuratzeko gako bat sortzea oso garrantzitsua da -- zure datuak leheneratzeko erabil dezakezu.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Hasi erabiltzen
 # Link to cancel account recovery key change and return to settings
@@ -580,7 +592,13 @@ header-help = Laguntza
 ## Linked Accounts section
 
 la-heading = Lotutako kontuak
+la-description = Hurrengo kontuetarako sarbidea baimendu duzu.
+la-unlink-button = Lotura kendu
+la-unlink-account-button = Lotura kendu
 la-set-password-button = Ezarri pasahitza
+la-unlink-heading = Lotura kendu hirugarrenen kontuei
+la-unlink-content-3 = Ziur kontua deskonektatu nahi duzula? Kontuaren lotura kentzeak ez du automatikoki saioa amaituko zure Konektatutako Zerbitzuetatik. Horretarako, eskuz amaitu beharko duzu Konektatutako Zerbitzuak atalean.
+la-unlink-content-4 = Zure kontua deskonektatu aurretik, pasahitz bat ezarri behar duzu. Pasahitzik gabe, ez duzu saioa hasteko modurik zure kontuari lotura kendu ondoren.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -612,6 +630,8 @@ nav-email-comm = Posta bidezko komunikazioak
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Arazoa egon da zure autentikazio-kode segurtasun kopia ordezkatzean.
+tfa-create-code-error = Arazoa egon da zure autentikazio-kode segurtasun kopia sortzean.
 tfa-replace-code-1-2 = 2tik 1. urratsa
 tfa-replace-code-2-2 = 2tik 2. urratsa
 
