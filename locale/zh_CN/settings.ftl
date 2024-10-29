@@ -1575,6 +1575,7 @@ confirm-signup-code-is-required-error = 请输入验证码
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = 创建您的密码
+signup-heading-relay = 创建密码
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = 我为何需要创建此账户？<LinkExternal>点此了解</LinkExternal>
