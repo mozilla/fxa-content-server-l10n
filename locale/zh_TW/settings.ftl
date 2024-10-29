@@ -1375,6 +1375,7 @@ confirm-totp-reset-password-instruction = 請使用您的驗證程式重設密�
 confirm-totp-reset-password-trouble-code = 輸入代碼時遇到問題嗎？
 confirm-totp-reset-password-confirm-button = 確認
 confirm-totp-reset-password-input-label = 輸入驗證碼
+confirm-totp-reset-password-use-different-account = 使用另一個帳號
 
 ## ResetPassword start page
 
@@ -1566,6 +1567,8 @@ confirm-signup-code-is-required-error = 需要輸入確認碼
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = 請設定密碼
+signup-relay-info = 需要設定密碼，才能安全地管理轉寄信箱，並使用 { -brand-mozilla } 的安全工具。
+signup-heading-relay = 設定密碼
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = 為什麼要註冊這個帳號？<LinkExternal>在此了解</LinkExternal>
