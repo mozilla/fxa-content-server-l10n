@@ -1598,6 +1598,8 @@ confirm-signup-code-is-required-error = Растау коды қажет
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Парольді орнату
+signup-relay-info = Маскамен жасырылған эл. пошталарды қауіпсіз басқару және { -brand-mozilla } қауіпсіздік құралдарына кіру үшін пароль керек.
+signup-heading-relay = Парольді жасау
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Бұл тіркелгіні маған неге жасау керек?<LinkExternal>Осы жерден біліңіз</LinkExternal>

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-10 16:03+0000\n"
+"PO-Revision-Date: 2024-10-29 15:44+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -836,9 +836,7 @@ msgid "Invalid Token"
 msgstr "Қате токен"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -907,8 +905,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Mozilla тіркелгіңізге қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз (соның ішінде тарих және бетбелгілер сияқты синхрондалған "
 "сервер деректері) өшіріледі."
@@ -1113,43 +1110,34 @@ msgstr "Пароль"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
-"getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
-"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
-"ескертуі</a>\n"
+"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
+"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"              Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> "
-"және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
-"              Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
-"privacy\">Жекелік ескертуі</a>\n"
+"              Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
+"              Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Жалғастыру нәтижесінде, сіз <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</"
-"a> келісесіз."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Жалғастыру нәтижесінде, сіз <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1177,11 +1165,11 @@ msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> қызме�
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "Эл. пошта маскасын жасау"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Маскамен жасырылған эл. поштаңыздан электрондық хаттарды бағдарлау үшін эл. пошта адресін көрсетіңіз."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1195,34 +1183,28 @@ msgstr "Mozilla тіркелгісі Mozilla-дан жекелігіңізді �
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"          Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
-"getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
-"          Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
-"ескертуі</a>\n"
+"          Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
+"          Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"            Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> "
-"және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
-"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
-"ескертуі</a>\n"
+"            Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
+"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1514,8 +1496,7 @@ msgstr "Парольді қайталау"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
-"Бұл пароль бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін қажет.<br class=\"mb-3\">Қалпына келтіру парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді."
+msgstr "Бұл пароль бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін қажет.<br class=\"mb-3\">Қалпына келтіру парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
