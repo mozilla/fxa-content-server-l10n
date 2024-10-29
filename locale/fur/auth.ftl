@@ -285,20 +285,11 @@ passwordChangeRequired-different-password-plaintext = Impuartant: sielç une pas
 password-forgot-otp-subject = Password dismenteade?
 password-forgot-otp-title = Password dismenteade?
 password-forgot-otp-request = O vin ricevût une richieste di modifiche de tô password pal to { -product-mozilla-account } di:
-password-forgot-otp-code = Se sì, chest al è il to codiç di conferme par procedi:
+password-forgot-otp-code-2 = Se tu jeris tu, ve chi il codiç di conferme par continuâ:
 password-forgot-otp-expiry-notice = Chest codiç al scjât ca di 10 minûts.
-passwordReset-subject = Password inzornade
-passwordReset-title = La password dal to account e je stade modificade
-passwordReset-description = Tu varâs di inserì la tô gnove password sui altris dispositîfs colegâts par podê ripiâ la sincronizazion.
+passwordReset-subject-2 = La password e je stade ristabilide
+passwordReset-title-2 = La password e je stade ristabilide
 passwordResetAccountRecovery-subject-2 = La password e je stade ristabilide
-passwordResetAccountRecovery-title-2 = Password ristabilide cun sucès
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Tu âs doprât la clâf di recupar dal account par inzornâ la password di:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Cree une clâf di recupar dal account
-passwordResetAccountRecovery-regen-required-mjml-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî chê che tu âs doprât.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî che che tu âs doprât:
 postAddAccountRecovery-subject-3 = Gjenerade gnove clâf di recupar dal account
 postAddAccountRecovery-title2 = Tu âs creât une gnove clâf di recupar dal account
 # Key here refers to account recovery key
