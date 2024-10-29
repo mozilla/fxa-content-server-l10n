@@ -1594,6 +1594,8 @@ confirm-signup-code-is-required-error = Staðfestingarkóða er krafist
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Stilltu lykilorðið þitt
+signup-relay-info = Lykilorð er nauðsynlegt til að stýra huldum póstföngum þínum á öruggan hátt og fá aðgang að öryggisverkfærum { -brand-mozilla }.
+signup-heading-relay = Búðu til lykilorð
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Af hverju þarf ég að búa til þennan reikning? <LinkExternal>Kynntu þér það hér</LinkExternal>
