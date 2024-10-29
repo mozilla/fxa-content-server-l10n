@@ -289,7 +289,10 @@ password-forgot-otp-code-2 = Se tu jeris tu, ve chi il codiç di conferme par co
 password-forgot-otp-expiry-notice = Chest codiç al scjât ca di 10 minûts.
 passwordReset-subject-2 = La password e je stade ristabilide
 passwordReset-title-2 = La password e je stade ristabilide
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Tu âs ristabilît la password dal to { -product-mozilla-account } su:
 passwordResetAccountRecovery-subject-2 = La password e je stade ristabilide
+passwordResetAccountRecovery-title-3 = La password e je stade ristabilide
 postAddAccountRecovery-subject-3 = Gjenerade gnove clâf di recupar dal account
 postAddAccountRecovery-title2 = Tu âs creât une gnove clâf di recupar dal account
 # Key here refers to account recovery key
