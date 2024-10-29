@@ -1602,6 +1602,7 @@ confirm-signup-code-is-required-error = Απαιτείται κωδικός επ
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Ορισμός κωδικού πρόσβασης
+signup-heading-relay = Δημιουργία κωδικού πρόσβασης
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό; <LinkExternal>Μάθετε εδώ</LinkExternal>
