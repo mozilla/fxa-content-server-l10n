@@ -429,6 +429,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title-3 = { -brand-mozilla } produktuak
+bento-menu-tagline = Zure pribatutasuna babesten duten { -brand-mozilla }ren produktu gehiago
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -440,6 +441,13 @@ bento-menu-made-by-mozilla = { -brand-mozilla }(e)k egina
 ## Connect another device promo
 
 connect-another-fx-mobile = Eskuratu mugikor edo tabletarako { -brand-firefox }
+connect-another-find-fx-mobile-2 = Bilatu { -brand-firefox } { -google-play }(e)n eta { -app-store }(e)n.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Deskargatu { -brand-firefox } { -google-play }(e)n
+connect-another-app-store-image-2 =
+    .title = Deskargatu { -brand-firefox } { -app-store }(e)n
 
 ##
 
@@ -467,6 +475,10 @@ cs-disconnect-sync-heading = Deskonektatu sinkronizaziotik
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Zure nabigazio-datuak <span>{ $device }</span>(e)n geratuko dira,
+    baina jada ez da zure kontuarekin sinkronizatuko.
+cs-disconnect-sync-reason-3 = Zein da <span>{ $device }</span>tik deskonektatzeko arrazoi nagusia?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -482,7 +494,17 @@ cs-disconnect-sync-opt-not-say = Nahiago dut ez esan
 
 cs-disconnect-advice-confirm = Ados, ulertuta
 cs-disconnect-lost-advice-heading = Galdutako edo lapurtutako gailua deskonektatuta
+cs-disconnect-lost-advice-content-3 =
+    Zure gailua galdu edo lapurtu egin denez, 
+    zure informazioa seguru mantentzeko zure { -product-mozilla-account } pasahitza aldatu behar zenuke
+    kontuaren ezarpenetan. Era berean, gailuko datuak urrunetik ezabatzeko informazioa
+    bilatu beharko zenuke.
 cs-disconnect-suspicious-advice-heading = Gailu susmagarria deskonektatuta
+cs-disconnect-suspicious-advice-content-2 =
+    Deskonektatutako gailua susmagarria bada,
+    zure informazioa seguru mantentzeko zure { -product-mozilla-account } pasahitza aldatu behar zenuke
+    kontuaren ezarpenetan. Era berean, { -brand-firefox }(e)n gordetako beste edozein
+    pasahitz ere aldatu beharko zenuke, helbide-barran about:logins idatziz.
 cs-sign-out-button = Amaitu saioa
 
 ##
@@ -490,6 +512,7 @@ cs-sign-out-button = Amaitu saioa
 
 ## Data collection section
 
+dc-heading = Datuen bilketa eta erabilera
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } nabigatzailea
 dc-learn-more = Argibide gehiago
