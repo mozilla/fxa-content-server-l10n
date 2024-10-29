@@ -805,7 +805,7 @@ add-secondary-email-save-button = Lưu
 # This message is shown when a user tries to add a secondary email that is a
 # Firefox Relay email mask (generated email address that can be used in place of
 # your real email address)
-add-secondary-email-mask = Không thể sử dụng mặt nạ email làm email phụ
+add-secondary-email-mask = Không thể sử dụng email ẩn danh làm email phụ
 
 ## Verify secondary email page
 
@@ -1598,6 +1598,8 @@ confirm-signup-code-is-required-error = Yêu cầu mã xác nhận
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Đặt mật khẩu của bạn
+signup-relay-info = Cần có mật khẩu để quản lý an toàn các email ẩn danh và quyền truy cập vào các công cụ bảo mật của { -brand-mozilla } của bạn.
+signup-heading-relay = Tạo một mật khẩu
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Tại sao tôi cần tạo tài khoản này? <LinkExternal>Tìm hiểu tại đây</LinkExternal>
