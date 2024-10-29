@@ -515,6 +515,7 @@ cs-sign-out-button = Amaitu saioa
 dc-heading = Datuen bilketa eta erabilera
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } nabigatzailea
+dc-subheader-content-2 = Baimendu { -product-mozilla-accounts }(r)i datu teknikoak eta interakzio-datuak bidaltzea { -brand-mozilla }ra.
 dc-learn-more = Argibide gehiago
 
 # DropDownAvatarMenu component
