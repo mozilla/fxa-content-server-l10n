@@ -516,6 +516,10 @@ dc-heading = Datuen bilketa eta erabilera
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } nabigatzailea
 dc-subheader-content-2 = Baimendu { -product-mozilla-accounts }(r)i datu teknikoak eta interakzio-datuak bidaltzea { -brand-mozilla }ra.
+dc-subheader-ff-content = Zure { -brand-firefox } nabigatzailearen datu teknikoen eta interakzio datuen ezarpenak berrikusteko edo eguneratzeko, ireki { -brand-firefox } ezarpenak eta joan Pribatutasuna eta segurtasuna atalera.
+dc-opt-out-success-2 = Aukeratu arrakastaz. { -product-mozilla-accounts }k ez du bidaliko datu tekniko edo interakzio-daturik { -brand-mozilla }ra.
+dc-opt-in-success-2 = Eskerrik asko! Datu hauek partekatzeak { -product-mozilla-accounts } hobetzen laguntzen digu.
+dc-opt-in-out-error-2 = Barkatu, arazo bat izan da zure datuak biltzeko hobespenak aldatzean
 dc-learn-more = Argibide gehiago
 
 # DropDownAvatarMenu component
@@ -536,14 +540,19 @@ flow-container-back = Atzera
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Sartu berriz zure pasahitza segurtasunagatik
 flow-recovery-key-confirm-pwd-input-label = Sartu zure pasahitza
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Sortu kontua berreskuratzeko gakoa
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Sortu kontua berreskuratzeko gako berria
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Kontua berreskuratzeko gakoa sortu da — Deskargatu eta gorde ezazu orain
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Jarraitu deskargatu gabe
 
