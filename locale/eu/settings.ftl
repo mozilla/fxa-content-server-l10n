@@ -632,6 +632,11 @@ nav-email-comm = Posta bidezko komunikazioak
 
 tfa-replace-code-error-3 = Arazoa egon da zure autentikazio-kode segurtasun kopia ordezkatzean.
 tfa-create-code-error = Arazoa egon da zure autentikazio-kode segurtasun kopia sortzean.
+tfa-replace-code-success-1 =
+    Kode berriak sortu dira. Gorde erabilera bakarreko autentikazio
+    kode segurtasun kopia hauek toki seguruan — Gailu mugikorra ez baduzu zure kontura sartzeko
+    beharko dituzu.
+tfa-replace-code-success-alert-3 = Eguneratu dira kontuko autentifikazio-kode babeskopiak
 tfa-replace-code-1-2 = 2tik 1. urratsa
 tfa-replace-code-2-2 = 2tik 2. urratsa
 
@@ -697,6 +702,7 @@ pw-change-success-alert-2 = Pasahitza eguneratuta
 pw-create-header =
     .title = Sortu pasahitza
 pw-create-success-alert-2 = Ezarri pasahitza
+pw-create-error-2 = Barkatu, arazo bat izan da pasahitza ezartzean
 
 ##
 
@@ -1071,6 +1077,12 @@ inline-totp-setup-continue-button = Jarraitu
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Errorea:
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Berrespen-errorea
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Berrespen-lotura iraungita
 
 ## Signin page
 
