@@ -1576,7 +1576,7 @@ confirm-signup-code-is-required-error = Codice di conferma obbligatorio
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Imposta la tua password
-signup-relay-info = È necessaria una password per gestire in modo sicuro le tue email mascherate e accedere agli strumenti di sicurezza di { -brand-mozilla }.
+signup-relay-info = È necessaria una password per gestire in modo sicuro i tuoi alias di posta elettronica e accedere agli strumenti di sicurezza di { -brand-mozilla }.
 signup-heading-relay = Crea una password
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
