@@ -1591,6 +1591,8 @@ confirm-signup-code-is-required-error = Vyžaduje sa potvrdzovací kód
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Nastavte si heslo
+signup-relay-info = Heslo je potrebné na bezpečnú správu vašich maskovaných e‑mailov a prístup k bezpečnostným nástrojom od { -brand-mozilla(case: "gen") }.
+signup-heading-relay = Vytvorenie hesla
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Prečo si musím vytvoriť tento účet? <LinkExternal>Zistíte to tu</LinkExternal>.
