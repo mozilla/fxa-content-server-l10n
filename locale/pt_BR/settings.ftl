@@ -1567,6 +1567,8 @@ confirm-signup-code-is-required-error = O código de confirmação é obrigatór
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Defina sua senha
+signup-relay-info = É necessária uma senha para gerenciar de forma segura suas máscaras de email e acessar as ferramentas de segurança da { -brand-mozilla }.
+signup-heading-relay = Crie uma senha
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Por que preciso criar esta conta? <LinkExternal>Descubra aqui</LinkExternal>
