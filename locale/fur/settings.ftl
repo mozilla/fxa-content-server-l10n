@@ -194,6 +194,16 @@ form-verify-code-default-error = Chest cjamp al è obligatori
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Inserìs un codiç di { $codeLength } cifris par continuâ
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Inserìs un codiç di { $codeLength } caratars par continuâ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -230,6 +240,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustrazion par rapresentâ une clâf di recupar dal account.
+password-image-aria-label =
+    .aria-label = Une ilustrazion par rapresentâ la digjitazion di une password.
 lightbulb-aria-label =
     .aria-label = Ilustrazion par rapresentâ la creazion di un sugjeriment pe archiviazion.
 email-code-image-aria-label =
@@ -239,6 +251,11 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox = Tu sês jentrât/jentrade su { -brand-firefox }
+inline-recovery-key-setup-create-header = Protêç il to account
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Âstu un minût par protezi i tiei dâts?
+inline-recovery-key-setup-info = Cree une clâf di recupar dal account cussì che tu puedis ripristinâ i dâts di navigazion sincronizâts tal câs che tu ti dismenteis la password.
 inline-recovery-key-setup-start-button = Cree une clâf di recupar dal account
 inline-recovery-key-setup-later-button = Plui tart
 
@@ -304,6 +321,7 @@ confirmation-link-reused-message = Chel colegament di conferme al è za stât do
 
 account-recovery-notification-cta = Cree
 account-recovery-notification-header-value = No sta pierdi i tiei dâts se tu dismenteis la password
+account-recovery-notification-header-description = Cree une clâf di recupar dal account par ripristinâ i tiei dâts di navigazion sincronizâts tal câs che tu ti dismenteis la password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richieste sbaliade
 
@@ -323,10 +341,15 @@ password-strength-balloon-stay-safe-tips = Reste al sigûr — No sta tornâ a d
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Almancul 8 caratars
+password-strength-inline-not-email = No compagne de direzion e-mail
+password-strength-inline-not-common = No une password di ûs comun
+password-strength-inline-confirmed-must-match = La conferme e corispuint ae gnove password
 
 ## Ready component
 
 ready-complete-set-up-instruction = Finìs la configurazion inserint la gnove password sui altris dispositîfs { -brand-firefox }.
+manage-your-account-button = Gjestìs il to account
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -378,6 +401,9 @@ flow-recovery-key-hint-unsafe-char-error = Il sugjeriment nol pues contignî car
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Atenzion
+password-reset-chevron-expanded = Strenç l'avertiment
+password-reset-chevron-collapsed = Slargje l'avertiment
 
 ## Alert Bar
 
@@ -1353,6 +1379,7 @@ reset-password-complete-header = La password e je stade ristabilide
 reset-password-confirmed-cta = Continue su { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
 reset-password-complete-new-password-saved = Gnove password salvade!
+reset-password-complete-recovery-key-created = E je stade creade une gnove clâf di recupar dal account. Discjamile e salvile daurman.
 
 ## CompleteSignin component
 

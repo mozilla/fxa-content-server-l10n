@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-30 14:46+0000\n"
+"PO-Revision-Date: 2024-10-30 18:05+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1171,7 +1171,7 @@ msgstr "Cree une mascare di e-mail"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Indiche la direzion de e-mail là che tu vuelis mandâ indenant lis e-mails de tô mascare e-mail."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1937,11 +1937,11 @@ msgstr "Continue cun Apple"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Conession dal dispositîf mobil al account Mozilla"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Vierç Firefox sul to computer, visite <b class=\"whitespace-nowrap\">firefox.com/pair</b> e va daûr des istruzions visualizadis par coneti il to dispositîf mobil."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
