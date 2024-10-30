@@ -296,6 +296,18 @@ passwordResetAccountRecovery-title-3 = La password e je stade ristabilide
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Tu âs doprade la clâf di recupar dal account par ristabilî la password di { -product-mozilla-account } su:
 passwordResetAccountRecovery-information = Ti vin disconetût/disconetude di ducj i tiei dispositîfs sincronizâts. O vin creât une gnove clâf di recupar dal account par sostituî chê che tu âs doprât. Tu puedis modificâle tes impostazions dal to account.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Ti vin disconetût/disconetude di ducj i tiei dispositîfs sincronizâts. O vin creât une gnove clâf di recupar dal account par sostituî chê che tu âs doprât. Tu puedis modificâle tes impostazions dal account:
+passwordResetAccountRecovery-action-4 = Gjestìs account
+passwordResetWithRecoveryKeyPrompt-subject = La password e je stade ristabilide
+passwordResetWithRecoveryKeyPrompt-title = La password e je stade ristabilide
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Tu âs ristabilît la password dal to { -product-mozilla-account } su:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Cree une clâf di recupar dal account
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Cree une clâf di recupar dal account:
+passwordResetWithRecoveryKeyPrompt-cta-description = Tu varâs di jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. La prossime volte ten al sigûr i tiei dâts cuntune clâf di recupar dal account. Chest ti permetarà di recuperâ i tiei dâts se tu dismenteis la password.
 postAddAccountRecovery-subject-3 = Gjenerade gnove clâf di recupar dal account
 postAddAccountRecovery-title2 = Tu âs creât une gnove clâf di recupar dal account
 # Key here refers to account recovery key

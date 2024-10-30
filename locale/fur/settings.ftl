@@ -167,10 +167,33 @@ form-password-sr-not-common-message = La password no à di jessi une password di
 form-password-sr-requirements-met = La password inseride e rispiete ducj i recuisîts pes passwords.
 form-password-sr-passwords-match = Lis passwords inseridis a corispuindin.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Password
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ripet password
+form-password-with-inline-criteria-signup-submit-button = Cree un account
+form-password-with-inline-criteria-reset-new-password =
+    .label = Gnove password
+form-password-with-inline-criteria-confirm-password =
+    .label = Conferme password
+form-password-with-inline-criteria-reset-submit-button = Cree gnove password
+form-password-with-inline-criteria-match-error = Lis passwords no corispuindin
+form-password-with-inline-criteria-sr-too-short-message = La password e à di vê almancul 8 caratars.
+form-password-with-inline-criteria-sr-not-email-message = La password no à di contignî la tô direzion e-mail.
+form-password-with-inline-criteria-sr-not-common-message = La password no à di jessi une password di ûs comun.
+form-password-with-inline-criteria-sr-requirements-met = La password inseride e rispiete ducj i recuisîts pes passwords.
+form-password-with-inline-criteria-sr-passwords-match = Lis passwords inseridis a corispuindin.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Chest cjamp al è obligatori
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -207,12 +230,17 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustrazion par rapresentâ une clâf di recupar dal account.
-lock-image-aria-label =
-    .aria-label = Une ilustrazion di un lochet
 lightbulb-aria-label =
     .aria-label = Ilustrazion par rapresentâ la creazion di un sugjeriment pe archiviazion.
 email-code-image-aria-label =
     .aria-label = Ilustrazion par rapresentâ une e-mail che e conten un codiç.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-start-button = Cree une clâf di recupar dal account
+inline-recovery-key-setup-later-button = Plui tart
 
 ## Input Password
 
@@ -271,6 +299,11 @@ primary-email-confirmation-link-reused = E-mail primarie za confermade
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Acès za confermât
 confirmation-link-reused-message = Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte.
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Cree
+account-recovery-notification-header-value = No sta pierdi i tiei dâts se tu dismenteis la password
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richieste sbaliade
 
@@ -288,11 +321,12 @@ password-strength-balloon-not-email = No compagne de direzion e-mail
 password-strength-balloon-not-common = No une password di ûs comun
 password-strength-balloon-stay-safe-tips = Reste al sigûr — No sta tornâ a doprâ lis passwords. Viôt altris sugjeriments par <LinkExternal>creâ passwords complessis</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = La password e je stade ristabilide
 ready-complete-set-up-instruction = Finìs la configurazion inserint la gnove password sui altris dispositîfs { -brand-firefox }.
-ready-start-browsing-button = Scomence a navigâ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -305,6 +339,45 @@ ready-continue = Continue
 sign-in-complete-header = Acès confermât
 sign-up-complete-header = Account confermât
 primary-email-verified-header = E-mail primarie confermade
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Puescj dulà archiviâ la tô clâf:
+flow-recovery-key-download-storage-ideas-folder-v2 = Cartele suntun dispositîf sigûr
+flow-recovery-key-download-storage-ideas-cloud = Spazi di archiviazion su cloud afidabil
+flow-recovery-key-download-storage-ideas-print-v2 = Copie stampade te cjarte
+flow-recovery-key-download-storage-ideas-pwd-manager = Gjestôr di passwords
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Zonte un sugjeriment par judâti a cjatâ la clâf
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Chest sugjeriment al varès di judâti a visâti dulà che tu âs memorizât la tô clâf di recupar dal account. O podìn mostrâtal intant che tu ristabilissis la password par recuperâ i tiei dâts.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Inserìs un sugjeriment (facoltatîf)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Fin
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Il sugjeriment al à di vê mancul di 255 caratars.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Il sugjeriment nol pues contignî caratars Unicode no sigûrs. A son consintûts dome letaris, numars, segns di puntuazion e simbui.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -443,39 +516,13 @@ flow-recovery-key-download-heading-v2 = Clâf di recupar dal account creade — 
 flow-recovery-key-download-info-v2 = Cheste clâf ti permet di recuperâ i tiei dâts se tu dismenteis la password. Discjamile cumò e conservile là che tu ti impensis di vêle — un doman no tu podarâs tornâ a cheste pagjine.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continue cence discjariâ
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Puescj dulà archiviâ la tô clâf:
-flow-recovery-key-download-storage-ideas-folder-v2 = Cartele suntun dispositîf sigûr
-flow-recovery-key-download-storage-ideas-cloud = Spazi di archiviazion su cloud afidabil
-flow-recovery-key-download-storage-ideas-print-v2 = Copie stampade te cjarte
-flow-recovery-key-download-storage-ideas-pwd-manager = Gjestôr di passwords
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Zonte un sugjeriment par judâti a cjatâ la clâf
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Chest sugjeriment al varès di judâti a visâti dulà che tu âs memorizât la tô clâf di recupar dal account. O podìn mostrâtal intant che tu ristabilissis la password par recuperâ i tiei dâts.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Inserìs un sugjeriment (facoltatîf)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Fin
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = La clâf di recupar dal account e je stade creade
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Il sugjeriment al à di vê mancul di 255 caratars.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Il sugjeriment nol pues contignî caratars Unicode no sigûrs. A son consintûts dome letaris, numars, segns di puntuazion e simbui.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -972,14 +1019,6 @@ third-party-auth-options-or = Opûr
 continue-with-google-button = Continue cun { -brand-google }
 continue-with-apple-button = Continue cun { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = Cifre { $inputNumber } di { $codeLength }
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Account no cognossût
@@ -1070,6 +1109,9 @@ index-cta = Regjistriti o jentre
 index-account-info = Un { -product-mozilla-account } al permet ancje di acedi a altris prodots { -brand-mozilla } pe protezion de riservatece.
 index-email-input =
     .label = Inserìs la tô e-mail
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1263,76 +1305,16 @@ third-party-auth-callback-message = Par plasê spiete, al è in cors il dirotame
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Ristabilìs la password cu la clâf di recupar dal account <span>par passâ aes impostazions dal account</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Ristabilìs la password cu la clâf di recupar dal account <span>par continuâ su { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Inserìs la clâf di recupar dal account (che si pues doprâ dome une volte) che tu âs salvât intun puest sigûr par tornâ a otignî l’acès al to { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Note:</span> se tu ristabilissis la password e no tu âs salvade la clâf di recupar dal account, cualchi dât al vignarà eliminât (comprindûts i dâts sincronizâts sul servidôr come la cronologjie e i segnelibris).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Inserìs la clâf di recupar dal account
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Conferme la clâf di recupar dal account
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = No âstu une clâf di recupar dal account?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Creazion gnove password
-account-restored-success-message = Tu âs ripristinât cun sucès il to account doprant la clâf di recupar dal account. Cree une gnove password par meti al sigûr i tiei dâts e tegnile intun puest sigûr.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Password stabilide
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Si à vût un erôr inspietât
-account-recovery-reset-password-redirecting = Dirotament
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Cree gnove password
-complete-reset-password-warning-message-2 = <span>Visiti:</span> Cuant che tu ristabilissis la tô password, tu ristabilissis ancje il to account. Tu podaressis pierdi cualchidune des tôs informazions personâls (includûts cronologjie, segnelibris e passwords). Chest al sucêt parcè che o cifrìn i tiei dâts cu la tô password, par protezi la tô riservatece. Dut câs tu mantignarâs ducj i abonaments che tu varâs fat e i dâts di { -product-pocket } no vignaran tocjâts.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password stabilide
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Nus displâs, al è vignût fûr un probleme tal configurâ la tô password
-complete-reset-password-recovery-key-error-v2 = Nus displâs, al è vignût fûr un probleme tal verificâ se tu âs une clâf di recupar dal account.
-complete-reset-password-recovery-key-link = Ripristine la tô password cu la tô clâf di recupar dal account.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = E-mail par ristabilî la password inviade
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Fâs clic sul colegament mandât vie e-mail a { $email } dentri de prossime ore par creâ une gnove password.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Ristabilìs la password <span>par continuâ cu lis impostazions dal account</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Ristabilìs la password <span>par continuâ su { $serviceName }</span>
-reset-password-warning-message-2 = <span>Note:</span> Cuant che tu ristabilissis la tô password, tu ristabilissis ancje il to account. Tu podaressis pierdi cualchidune des tôs informazions personâls (includûts cronologjie, segnelibris e passwords). Chest al sucêt parcè che o cifrìn i tiei dâts cu la tô password, par protezi la tô riservatece. Dut câs tu mantignarâs ducj i abonaments che tu varâs fat e i dâts di { -product-pocket } no vignaran tocjâts.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = E-mail
-reset-password-button = Scomence ripristinament
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = E-mail necessarie
-reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
-reset-password-with-recovery-key-verified-generate-new-key = Gjenere une gnove clâf di recupar dal account
-reset-password-with-recovery-key-verified-continue-to-account = Continue sul gno account
 
 ## Confirm Reset Password With Code
 
@@ -1351,13 +1333,26 @@ confirm-reset-password-otp-resend-code-button = Torne mande il codiç
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Dopre un altri account
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-confirm-button = Conferme
+confirm-totp-reset-password-input-label = Inserìs il codiç
+confirm-totp-reset-password-use-different-account = Dopre un altri account
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Ristabilìs la tô password
-password-reset-body = Inserìs la tô direzion e-mail e ti inviarìn un codiç di conferme par confermâ la tô identitât.
 password-reset-email-input =
     .label = Inserìs la tô e-mail
-password-reset-submit-button = Mandimi lis istruzions pal ristabilî la password
+password-reset-submit-button-2 = Continue
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = La password e je stade ristabilide
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Continue su { $serviceName }
+reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
+reset-password-complete-new-password-saved = Gnove password salvade!
 
 ## CompleteSignin component
 
@@ -1406,6 +1401,13 @@ signin-bounced-message = La e-mail di conferme che o vin mandât a { $email } e 
 signin-bounced-help = Se tu sâs di vê inseride une direzion e-mail valide, <linkExternal>contatinus</linkExternal> e ti judarìn a sblocâ l’account.
 signin-bounced-create-new-account = No tu controlis plui chê e-mail? Cree un gnûf account
 back = Indaûr
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1459,15 +1461,6 @@ signin-token-code-required-error = Codiç di conferme necessari
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Inserìs il codiç di autenticazion <span>par continuâ cu lis impostazions dal account</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Inserìs il codiç di autenticazion <span>par continuâ su { $serviceName }</span>
-signin-totp-code-instruction-v2 = Vierç la aplicazion di autenticazion e inserìs il codiç di autenticazion che ti da.
-signin-totp-code-input-label-v2 = Inserìs il codiç a 6 cifris
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferme
 signin-totp-code-other-account-link = Dopre un altri account
