@@ -1372,6 +1372,7 @@ complete-reset-pw-recovery-key-link = Dopre la clâf di recupar dal account
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = La tô password e je stade ripristinade.
+reset-password-complete-banner-message = No sta dismenteâti di gjenerâ une gnove clâf di recupar dal account da lis impostazions dal to { -product-mozilla-account } par evitâ problemis di acès in futûr.
 
 ## Confirm Reset Password With Code
 
@@ -1392,6 +1393,10 @@ confirm-reset-password-otp-different-account-link = Dopre un altri account
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Ristabilìs la tô password
+confirm-totp-reset-password-subheader = Inserìs il codiç di sigurece pe autenticazion a doi fatôrs (2FA)
+confirm-totp-reset-password-instruction = Controle la aplicazion di autenticazion par ristabilî la password.
+confirm-totp-reset-password-trouble-code = Problemis a inserî il codiç?
 confirm-totp-reset-password-confirm-button = Conferme
 confirm-totp-reset-password-input-label = Inserìs il codiç
 confirm-totp-reset-password-use-different-account = Dopre un altri account
@@ -1399,6 +1404,9 @@ confirm-totp-reset-password-use-different-account = Dopre un altri account
 ## ResetPassword start page
 
 password-reset-flow-heading = Ristabilìs la tô password
+password-reset-body-2 =
+    Par mantignî al sigûr il to account, ti domandarìn cualchi informazion
+    che nome tu tu cognossis.
 password-reset-email-input =
     .label = Inserìs la tô e-mail
 password-reset-submit-button-2 = Continue
@@ -1411,6 +1419,10 @@ reset-password-confirmed-cta = Continue su { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
 reset-password-complete-new-password-saved = Gnove password salvade!
 reset-password-complete-recovery-key-created = E je stade creade une gnove clâf di recupar dal account. Discjamile e salvile daurman.
+reset-password-complete-recovery-key-download-info =
+    Cheste clâf e je essenziâl par
+    recuperâ i dâts se tu ti dismenteis la password. <b>Discjamile e salvile in mût sigûr
+    daurman, viodût che no tu rivarâs a acedi a cheste pagjine plui indevant.</b>
 
 ## CompleteSignin component
 
@@ -1463,9 +1475,21 @@ back = Indaûr
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Verifiche chestis credenziâls <span>par passâ aes impostazions dal account</span>
+signin-push-code-heading-w-custom-service = Verifiche chestis credenziâls <span>par continuâ su { $serviceName }</span>
+signin-push-code-instruction = Controle chei altris dispositîfs e aprove chest acès dal navigadôr { -brand-firefox }.
+signin-push-code-did-not-recieve = No âstu ricevude la notifiche?
+signin-push-code-send-email-link = Mande codiç vie e-mail
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Conferme il to acès
+signin-push-code-confirm-description = O vin rilevât un tentatîf di acès che al rive di chest dispositîf. Se tu jeris tu, conferme l’acès
+signin-push-code-confirm-verifying = Daûr a verificâ
+signin-push-code-confirm-login = Conferme l’acès
+signin-push-code-confirm-wasnt-me = No jeri jo, cambie la password.
+signin-push-code-confirm-login-approved = Il to acès al è stât aprovât. Siere chest barcon.
+signin-push-code-confirm-link-error = Il colegament al è rot. Torne prove.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1519,6 +1543,7 @@ signin-token-code-required-error = Codiç di conferme necessari
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = Inserìs il codiç di sigurece pe autenticazion a doi fatôrs (2FA)
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferme
 signin-totp-code-other-account-link = Dopre un altri account
