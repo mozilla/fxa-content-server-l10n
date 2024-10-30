@@ -404,6 +404,13 @@ flow-recovery-key-hint-unsafe-char-error = Il sugjeriment nol pues contignî car
 password-reset-warning-icon = Atenzion
 password-reset-chevron-expanded = Strenç l'avertiment
 password-reset-chevron-collapsed = Slargje l'avertiment
+password-reset-data-may-not-be-recovered = Al è pussibil che no si rivedi a recuperâ i dâts dal to navigadôr
+password-reset-previously-signed-in-device-2 = Âstu un dispositîf dulà che tu sês za jentrât/jentrade in precedence?
+password-reset-data-may-be-saved-locally-2 = Al podarès jessi pussibil che i dâts dal navigadôr a sedin salvâts su chel dispositîf. Ristabilìs la password, dopo su chel dispositîf jentre cu lis credenziâls par ripristinâ e sincronizâ i tiei dâts.
+password-reset-no-old-device-2 = Âstu un gnûf dispositîf ma no tu âs acès a nissun dai tiei dispositîfs precedents?
+password-reset-encrypted-data-cannot-be-recovered-2 = Nus displâs, ma nol è pussibil recuperâ i dâts cifrâts dal to navigadôr sui servidôrs di { -brand-firefox }.
+password-reset-warning-have-key = Âstu une clâf di recupar dal account?
+password-reset-warning-use-key-link = Doprile cumò par ristabilî la tô password e mantignî i tiei dâts
 
 ## Alert Bar
 
@@ -1138,6 +1145,12 @@ index-email-input =
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Orpo! No sin rivâts a creâ la tô clâf di recupar dal account. Torne prove plui tart.
+inline-recovery-key-setup-recovery-created = La clâf di recupar dal account e je stade creade
+inline-recovery-key-setup-download-header = Protêç il to account
+inline-recovery-key-setup-download-subheader = Discjamile e salvile daurman
+inline-recovery-key-setup-download-info = Salve cheste clâf di cualchi bande dulà che tu ti visis — no tu podarâs tornâ su cheste pagjine plui indevant.
+inline-recovery-key-setup-hint-header = Racomandazion di sigurece
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1331,16 +1344,34 @@ third-party-auth-callback-message = Par plasê spiete, al è in cors il dirotame
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Inserìs la clâf di recupar dal account
+account-recovery-confirm-key-instruction = Cheste clâf ti permet di recuperâ i dâts di navigazion cifrâts, come passwords e segnelibris, dai servidôrs di { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Inserìs la clâf di recupar dal account a 32 caratars
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Il to sugjeriment pe archiviazion al è:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Continue
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = No rivistu a cjatâ la tô clâf di recupar dal account?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Cree une gnove password
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password stabilide
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Nus displâs, al è vignût fûr un probleme tal configurâ la tô password
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Dopre la clâf di recupar dal account
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = La tô password e je stade ripristinade.
 
 ## Confirm Reset Password With Code
 
