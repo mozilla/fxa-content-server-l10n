@@ -1544,6 +1544,8 @@ signin-token-code-required-error = Codiç di conferme necessari
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader = Inserìs il codiç di sigurece pe autenticazion a doi fatôrs (2FA)
+signin-totp-code-instruction-v3 = Controle la aplicazion di autenticazion par confermâ il to acès.
+signin-totp-code-input-label-v3 = Inserìs il codiç
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferme
 signin-totp-code-other-account-link = Dopre un altri account
@@ -1594,6 +1596,8 @@ confirm-signup-code-is-required-error = Al è necessari il codiç di conferme
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Definìs la tô password
+signup-relay-info = E covente une password par gjestî in sigurece lis tôs mascaris di pueste e acedi ai struments di sigurece di { -brand-mozilla }.
+signup-heading-relay = Cree une password
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Percè mi covential creâ chest account? <LinkExternal>Scuvierzilu achì</LinkExternal>
