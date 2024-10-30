@@ -293,6 +293,9 @@ passwordReset-title-2 = La password e je stade ristabilide
 passwordReset-description-2 = Tu âs ristabilît la password dal to { -product-mozilla-account } su:
 passwordResetAccountRecovery-subject-2 = La password e je stade ristabilide
 passwordResetAccountRecovery-title-3 = La password e je stade ristabilide
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Tu âs doprade la clâf di recupar dal account par ristabilî la password di { -product-mozilla-account } su:
+passwordResetAccountRecovery-information = Ti vin disconetût/disconetude di ducj i tiei dispositîfs sincronizâts. O vin creât une gnove clâf di recupar dal account par sostituî chê che tu âs doprât. Tu puedis modificâle tes impostazions dal to account.
 postAddAccountRecovery-subject-3 = Gjenerade gnove clâf di recupar dal account
 postAddAccountRecovery-title2 = Tu âs creât une gnove clâf di recupar dal account
 # Key here refers to account recovery key
