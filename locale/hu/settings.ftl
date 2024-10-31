@@ -1600,7 +1600,7 @@ confirm-signup-code-is-required-error = Megerősítési kód szükséges
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Állítsa be a jelszavát
-signup-relay-info = A jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
+signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
 signup-heading-relay = Jelszó létrehozása
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
