@@ -1150,6 +1150,7 @@ inline-recovery-key-setup-create-error = ¡Ajépa! Ndaikatúi romoheñói ne mba
 inline-recovery-key-setup-recovery-created = Oñemoheñói mba’eñemi jeguerujeyrã
 inline-recovery-key-setup-download-header = Embojuaju ne mba’ete
 inline-recovery-key-setup-download-subheader = Emboguejy ha eñongatu
+inline-recovery-key-setup-download-info = Eñongatu ko mba’eñemi tenda nemandu’a hag̃uáme; ndaikatumo’ãi eike jey kóvape tenondeve.
 inline-recovery-key-setup-hint-header = Ñemoñe’ẽ tekorosãrã
 
 ## InlineRecoverySetup page
@@ -1402,6 +1403,9 @@ confirm-totp-reset-password-use-different-account = Eiporu ambuéva mba’ete
 ## ResetPassword start page
 
 password-reset-flow-heading = Embojevyjey ne ñe’ẽñemi
+password-reset-body-2 =
+    Rojerure ndéve ndahetái ndénte reikuaáva ereko hag̃ua ne mba’ete
+    tekorosãpe.
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
 password-reset-submit-button-2 = Ku’ejey
@@ -1587,6 +1591,7 @@ confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Emboaje ñe’ẽñemi
+signup-heading-relay = Emoheñói ñe’ẽñemi
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = ¿Mba’ére amoheñoiva’erã ko mba’ete? <LinkExternal>Eikuaa ko’ápe</LinkExternal>
