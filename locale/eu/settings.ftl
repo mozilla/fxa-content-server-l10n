@@ -764,13 +764,41 @@ display-name-success-alert-2 = Bistaratze-izena eguneratua
 recent-activity-title = Kontuaren azken jarduerak
 recent-activity-account-create-v2 = Kontua sortua
 recent-activity-account-disable-v2 = Kontu desgaitua
+recent-activity-account-enable-v2 = Kontu gaitua
+recent-activity-account-login-v2 = Kontuaren saioa hasi da
+recent-activity-account-reset-v2 = Pasahitza berrezartzea hasi da
+recent-activity-account-login-failure = Kontuan saioa hasteko saiakerak huts egin du
+recent-activity-account-two-factor-added = Bi urratseko autentifikazioa gaituta
+recent-activity-account-two-factor-requested = Bi urratseko autentifikazioa eskatu da
+recent-activity-account-two-factor-failure = Bi urratseko autentifikazioak huts egin du
+recent-activity-account-two-factor-success = Bi urratseko autentifikazioa arrakastatsua
+recent-activity-account-two-factor-removed = Bi urratseko autentifikazioa kendu da
+recent-activity-account-password-reset-requested = Kontuak pasahitza berrezartzea eskatu du
+recent-activity-account-password-reset-success = Kontuko pasahitza ondo berrezarri da
+recent-activity-account-recovery-key-added = Kontu berreskuratzeko gakoa gaitua
+recent-activity-account-recovery-key-verification-failure = Kontu berreskuratzeko gako egiaztatzeak huts egin du
+recent-activity-account-recovery-key-verification-success = Kontu berreskuratzeko gako egiaztatze zuzena
+recent-activity-account-recovery-key-removed = Kontuaren berreskuratze-gakoa kenduta
+recent-activity-account-password-added = Pasahitz berria gehituta
+recent-activity-account-password-changed = Pasahitza aldatuta
+recent-activity-account-secondary-email-added = Helbide elektroniko alternatiboa gehitua
+recent-activity-account-secondary-email-removed = Helbide elektroniko alternatiboa kenduta
+recent-activity-account-emails-swapped = Mezu elektroniko nagusiak eta alternatiboa trukatu dira
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Beste kontuaren jarduera
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Kontua berreskuratzeko gakoa
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Itzuli ezarpenetara
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2tik 1. urratsa
+add-secondary-email-error-2 = Arazo bat egon da mezu elektroniko hau sortzean
 add-secondary-email-page-title =
     .title = Ordezko helbide elektronikoa
 add-secondary-email-enter-address =
