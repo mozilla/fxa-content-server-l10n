@@ -1576,6 +1576,8 @@ confirm-signup-code-is-required-error = Onay kodu gerekli
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Parolanızı ayarlayın
+signup-relay-info = Maskeli e-postalarınızı güvenli bir şekilde yönetmek ve { -brand-mozilla }’nın güvenlik araçlarına erişmek için bir parolaya ihtiyacınız var.
+signup-heading-relay = Parola oluşturun
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Neden bu hesabı oluşturmam gerekiyor? <LinkExternal>Nedenini öğrenin</LinkExternal>
