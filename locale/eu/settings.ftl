@@ -1011,54 +1011,130 @@ oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Ezin da kontua sortu
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Argibide gehiago
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = { -brand-firefox } saioa hasi duzu
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Helbide elektronikoa berretsi da
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Saio-hasiera berretsita
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Konfigurazioa osatzeko, hasi saioa { -brand-firefox } honetan
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Hasi saioa
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Oraindik gailuak gehitzen? Konfigurazioa osatzeko, hasi saioa { -brand-firefox }en beste gailu batean
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Konfigurazioa osatzeko, hasi saioa { -brand-firefox }en beste gailu batean
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Zure fitxak, laster-markak eta pasahitzak beste gailu batean eduki nahi dituzu?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Konektatu beste gailu bat
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Une honetan ez
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Konfigurazioa osatzeko, hasi saioa Androiderako { -brand-firefox }en
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Konfigurazioa osatzeko, hasi saioa iOSerako { -brand-firefox }en
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Saiatu berriro
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Argibide gehiago
 
 ## Index / home page
 
+index-header = Idatzi zure helbide elektronikoa
+index-sync-header = Jarraitu zure { -product-mozilla-account }ra
+index-sync-subheader = Sinkronizatu zure pasahitzak, fitxak eta laster-markak { -brand-firefox } erabiltzen duzun toki orotan.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Jarraitu { $serviceName } zerbitzura
+index-subheader-with-logo = Jarraitu <span>{ $serviceLogo }</span>ra
+index-subheader-default = Jarraitu kontu-ezarpenekin
+index-cta = Erregistratu edo hasi saioa
+index-email-input =
+    .label = Idatzi zure helbide elektronikoa
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Kontuaren berreskuratze-gakoa sortuta
+inline-recovery-key-setup-download-header = Babestu zure kontua
+inline-recovery-key-setup-download-subheader = Deskargatu eta gorde orain
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Utzi
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Jarraitu
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Berretsi
+inline-recovery-back-link = Atzera
+inline-recovery-cancel-setup = Utzi konfigurazioa
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Babeskopiarako autentifikazio-kodea
+inline-recovery-confirmation-description = Zure konturako sarbidea berreskuratu ahal izango duzula ziurtatzeko, gailua galduz gero, idatzi gordetako babeskopiarako autentifikazio-kodeetako bat.
+inline-recovery-2fa-enabled = Bi urratseko autentifikazioa gaituta
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Utzi konfigurazioa
 inline-totp-setup-continue-button = Jarraitu
+inline-totp-setup-ready-button = Prest
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Legala
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Zerbitzuaren baldintzak
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Pribatutasun-oharra
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Pribatutasun-oharra
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Zerbitzuaren baldintzak
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = { -product-firefox }en saioa hasi berri duzu?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Bai, onartu gailua
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Hau ez bazara, <link>aldatu pasahitza</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Gailua konektatua
+pair-auth-complete-see-tabs-button = Ikusi sinkronizatutako gailuetako fitxak
+pair-auth-complete-manage-devices-link = Kudeatu gailuak
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Sartu 6 digituko kodea
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Berretsi
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1070,14 +1146,25 @@ inline-totp-setup-continue-button = Jarraitu
 
 ## Pair index page
 
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Une honetan ez
+pair-take-your-data-message = Eraman zure fitxak, laster-markak eta pasahitzak { -brand-firefox } erabiltzen duzun edonora.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Hasi erabiltzen
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR kodea
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Gailua konektatua
+pair-success-message-2 = Parekatzea ondo egin da.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = Berretsi parekatzea
+pair-supp-allow-cancel-link = Utzi
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1086,6 +1173,7 @@ inline-totp-setup-continue-button = Jarraitu
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Parekatzea aplikazioa erabiliz
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
