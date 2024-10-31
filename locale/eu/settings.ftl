@@ -724,6 +724,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } datuak sinkronizatzen
 delete-account-product-firefox-addons = { -brand-firefox } gehigarriak
 delete-account-acknowledge = Mesedez aitor ezazu kontua ezabatzeak ondorengoa eragingo duela:
+delete-account-chk-box-1-v3 =
+    .label = Ordaindutako harpidetzak bertan behera utziko dira ({ -product-pocket } izan ezik)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } produktuetan gordeta duzun informazio eta eginbideak gal litzakezu
 delete-account-chk-box-3 =
@@ -733,6 +735,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Jarraitu
 delete-account-password-input =
     .label = Idatzi pasahitza
+pocket-delete-notice = Pocket Premium-era harpidetzen bazara, ziurtatu <a>harpidetza bertan behera uzten duzula</a> zure kontua ezabatu aurretik.
+pocket-delete-notice-marketing = Mozilla Corporation eta Mozilla Foundationen marketin-mezu elektronikoak jasotzeari uzteko, <a>zure marketin-datuak ezabatzeko eskatu behar duzu.</a>
 delete-account-cancel-button = Utzi
 delete-account-delete-button-2 = Ezabatu
 
@@ -757,7 +761,9 @@ display-name-success-alert-2 = Bistaratze-izena eguneratua
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Kontuaren azken jarduerak
 recent-activity-account-create-v2 = Kontua sortua
+recent-activity-account-disable-v2 = Kontu desgaitua
 
 ## PageRecoveryKeyCreate
 
