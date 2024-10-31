@@ -1601,6 +1601,8 @@ confirm-signup-code-is-required-error = Befêstigingskoade is fereaske
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Stel jo wachtwurd yn
+signup-relay-info = Der is in wachtwurd nedich om jo maskearre e-mailadressen feilich te behearen en tagong te krijen ta de befeiligingshelpmiddelen fan { -brand-mozilla }.
+signup-heading-relay = In wachtwurd oanmeitsje
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Wêrom moat ik dizze account oanmeitsje? <LinkExternal>Lês it hjir</LinkExternal>
