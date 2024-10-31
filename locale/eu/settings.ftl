@@ -713,6 +713,7 @@ delete-account-header =
     .title = Ezabatu kontua
 delete-account-step-1-2 = 2tik 1. urratsa
 delete-account-step-2-2 = 2tik 2. urratsa
+delete-account-confirm-title-4 = Baliteke zure { -product-mozilla-account } sarean seguru eta produktiboa mantentzen zaituen { -brand-mozilla } produktu edo zerbitzu hauetako bati edo gehiagori konektatu izana:
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
