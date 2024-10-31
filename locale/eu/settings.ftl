@@ -1135,6 +1135,8 @@ pair-auth-complete-manage-devices-link = Kudeatu gailuak
 auth-totp-input-label = Sartu 6 digituko kodea
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Berretsi
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1143,6 +1145,7 @@ auth-totp-confirm-button = Berretsi
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Parekatzeak kale egin du
 
 ## Pair index page
 
@@ -1185,15 +1188,34 @@ pair-unsupported-header = Parekatzea aplikazioa erabiliz
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Erabili kontua berreskuratzeko gakoa
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Pasahitza berrezarri da.
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Egiaztatu zure posta elektronikoa
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Jarraitu
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Birbidali kodea
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Erabili beste kontu bat
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Berrezarri pasahitza
+confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
+confirm-totp-reset-password-confirm-button = Berretsi
+confirm-totp-reset-password-input-label = Sartu kodea
+confirm-totp-reset-password-use-different-account = Erabili beste kontu bat
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Berrezarri pasahitza
 
 ## ResetPasswordConfirmed
 
@@ -1215,6 +1237,12 @@ signin-link-expired-header = Berrespen-lotura iraungita
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-submit-button = Eman jardueraren berri
+report-signin-support-link = Zergatik ari da hau gertatzen?
+signin-bounced-header = Barkatu. Zure kontua blokeatu dugu.
+# $email (string) - The user's email.
+signin-bounced-message = { $email } helbidera bidali zen berrespen mezua itzuli egin zen eta zure kontua blokeatu dugu zure { -brand-firefox } datuak babesteko.
+back = Atzera
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
@@ -1222,12 +1250,24 @@ signin-link-expired-header = Berrespen-lotura iraungita
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Berretsi zure saio hasiera
+signin-push-code-confirm-verifying = Egiaztatzen
+signin-push-code-confirm-login = Berretsi saio hasiera
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Berretsi
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Atzera
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Blokeatuta zaude?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen babeskopia
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1241,10 +1281,23 @@ signin-link-expired-header = Berrespen-lotura iraungita
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v3 = Sartu kodea
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Berretsi
+signin-totp-code-other-account-link = Erabili beste kontu bat
+signin-totp-code-recovery-code-link = Arazoak kodea sartzean?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Baimendu saio-hasiera hau
+signin-unblock-code-input = Idatzi baimen-kodea
+signin-unblock-submit-button = Jarraitu
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Baimen-kodea behar da
+signin-unblock-support-link = Zergatik ari da hau gertatzen?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1252,7 +1305,22 @@ signin-link-expired-header = Berrespen-lotura iraungita
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Sartu baieztapen-kodea
+confirm-signup-code-input-label = Sartu 6 digituko kodea
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Berretsi
+confirm-signup-code-code-expired = Kodea iraungita?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Posta elektroniko kode berria.
+confirm-signup-code-success-alert = Kontua behar bezala berretsi da
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-relay = Sortu pasahitz bat
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Aldatu helbide elektronikoa
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Zenbat urte dituzu?
