@@ -285,6 +285,7 @@ passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri sa
 password-forgot-otp-subject = Unohditko salasanan?
 password-forgot-otp-title = Unohditko salasanasi?
 password-forgot-otp-request = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:
+password-forgot-otp-code-2 = Jos se olit sinä, tässä on vahvistuskoodi jatkaaksesi:
 password-forgot-otp-expiry-notice = Tämä koodi vanhenee 10 minuutissa.
 passwordReset-subject-2 = Salasanasi on nollattu
 passwordReset-title-2 = Salasanasi on nollattu
@@ -292,6 +293,11 @@ passwordReset-title-2 = Salasanasi on nollattu
 passwordReset-description-2 = Nollasit { -product-mozilla-account }-salasanasi:
 passwordResetAccountRecovery-subject-2 = Salasanasi on nollattu
 passwordResetAccountRecovery-title-3 = Salasanasi on nollattu
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Käytit tilin palautusavainta { -product-mozilla-account }-salasanan nollaamiseen:
+passwordResetAccountRecovery-information = Kirjasimme sinut ulos kaikista synkronoiduista laitteistasi. Loimme uuden tilin palautusavaimen korvaamaan käyttämäsi. Voit vaihtaa sen tilisi asetuksista.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Kirjasimme sinut ulos kaikista synkronoiduista laitteistasi. Loimme uuden tilin palautusavaimen korvaamaan käyttämäsi. Voit vaihtaa sen tilisi asetuksista:
 passwordResetAccountRecovery-action-4 = Hallinnoi tiliä
 passwordResetWithRecoveryKeyPrompt-subject = Salasanasi on nollattu
 passwordResetWithRecoveryKeyPrompt-title = Salasanasi on nollattu
@@ -301,6 +307,7 @@ passwordResetWithRecoveryKeyPrompt-description = Nollasit { -product-mozilla-acc
 passwordResetWithRecoveryKeyPrompt-action = Luo tilin palautusavain
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Luo tilin palautusavain:
+passwordResetWithRecoveryKeyPrompt-cta-description = Sinun on kirjauduttava uudelleen sisään kaikilla synkronoiduilla laitteillasi. Pidä tietosi turvassa seuraavan kerran tilin palautusavaimella. Sen avulla voit palauttaa tietosi, jos unohdat salasanasi.
 postAddAccountRecovery-subject-3 = Uusi tilin palautusavain luotu
 postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
 # Key here refers to account recovery key

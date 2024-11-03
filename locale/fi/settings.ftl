@@ -167,6 +167,25 @@ form-password-sr-not-common-message = Salasana ei saa olla yleisesti käytetty s
 form-password-sr-requirements-met = Syötetty salasana noudattaa kaikkia salasanavaatimuksia.
 form-password-sr-passwords-match = Annetut salasanat vastaavat toisiaan.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Salasana
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Toista salasana
+form-password-with-inline-criteria-signup-submit-button = Luo tili
+form-password-with-inline-criteria-reset-new-password =
+    .label = Uusi salasana
+form-password-with-inline-criteria-confirm-password =
+    .label = Vahvista salasana
+form-password-with-inline-criteria-reset-submit-button = Luo uusi salasana
+form-password-with-inline-criteria-match-error = Salasanat eivät täsmää
+form-password-with-inline-criteria-sr-too-short-message = Salasanan tulee sisältää vähintään 8 merkkiä.
+form-password-with-inline-criteria-sr-not-email-message = Salasana ei saa sisältää sähköpostiosoitettasi.
+form-password-with-inline-criteria-sr-not-common-message = Salasana ei saa olla yleisesti käytetty salasana.
+form-password-with-inline-criteria-sr-requirements-met = Syötetty salasana noudattaa kaikkia salasanavaatimuksia.
+form-password-with-inline-criteria-sr-passwords-match = Annetut salasanat vastaavat toisiaan.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -175,6 +194,16 @@ form-verify-code-default-error = Tämä kenttä on pakollinen
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Anna { $codeLength }-numeroinen koodi jatkaaksesi
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Anna { $codeLength }-merkkinen koodi jatkaaksesi
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -307,11 +336,17 @@ password-strength-balloon-not-email = Ei sinun sähköpostiosoite
 password-strength-balloon-not-common = Ei yleisesti käytetty salasana
 password-strength-balloon-stay-safe-tips = Pysy turvassa — älä käytä samoja salasanoja toistuvasti. Katso lisää <linkExternal>vahvojen salasanojen luontivinkkejä</linkExternal>.
 
+## PasswordStrengthBalloon component
+
+password-strength-inline-min-length = Vähintään 8 merkkiä
+password-strength-inline-not-email = Ei sinun sähköpostiosoite
+password-strength-inline-not-common = Ei yleisesti käytetty salasana
+password-strength-inline-confirmed-must-match = Vahvistus vastaa uutta salasanaa
+
 ## Ready component
 
-reset-password-complete-header = Salasanasi on nollattu
 ready-complete-set-up-instruction = Viimeistele määritys syöttämällä uusi salasana muihin { -brand-firefox }-asennuksiisi.
-ready-start-browsing-button = Aloita selaaminen
+manage-your-account-button = Hallinnoi tiliä
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -359,6 +394,19 @@ flow-recovery-key-hint-char-limit-error = Vihje saa sisältää alle 255 merkki�
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Vihje ei saa sisältää vaarallisia unicode-merkkejä. Vain kirjaimet, numerot, välimerkit ja symbolit ovat sallittuja.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = Varoitus
+password-reset-chevron-expanded = Supista varoitus
+password-reset-chevron-collapsed = Laajenna varoitus
+password-reset-data-may-not-be-recovered = Selaimen tietoja ei välttämättä palauteta
+password-reset-previously-signed-in-device-2 = Onko sinulla laitetta, jolla olet aiemmin kirjautunut?
+password-reset-no-old-device-2 = Onko sinulla uusi laite, mutta et pääse käyttämään aiempia laitteitasi?
+password-reset-encrypted-data-cannot-be-recovered-2 = Olemme pahoillamme, mutta salattuja selaintietojasi { -brand-firefox }-palvelimilla ei voida palauttaa.
+password-reset-warning-have-key = Onko sinulla tilin palautusavain?
+password-reset-warning-use-key-link = Käytä sitä nyt salasanan vaihtamiseen ja tietojesi säilyttämiseen
 
 ## Alert Bar
 
@@ -1292,36 +1340,31 @@ third-party-auth-callback-message = Odota, sinut ohjataan valtuutettuun sovelluk
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Nollaa salasana tilin palautusavaimella <span>jatkaksesi tilin asetuksiin</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Nollaa salasana tilin palautusavaimella <span>jatkaaksesi palveluun { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-mozilla-account }äsi.
-account-recovery-confirm-key-warning-message = <span>Huomaa:</span> Jos nollaat salasanasi etkä ole tallentanut tilin palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja kirjanmerkit).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Anna tilin palautusavain
+account-recovery-confirm-key-heading = Anna tilin palautusavain
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Anna 32-merkkinen tilin palautusavain
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Vahvista tilin palautusavain
+account-recovery-confirm-key-button-2 = Jatka
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Eikö sinulla ole tilin palautusavainta?
+account-recovery-lost-recovery-key-link-2 = Etkö löydä tilisi palautusavainta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Luo uusi salasana
-complete-reset-password-warning-message-2 = <span>Muista:</span> Salasanan nollaus tyhjentää myös tilisi sisällön. Saatat menettää joitakin henkilökohtaisia tietojasi (kuten historian, kirjanmerkit ja salasanat). Tämä johtuu siitä, että tietosi salataan salasanallasi yksityisyytesi suojaamiseksi. Mahdolliset tilauksesi pysyvät silti edelleen voimassa, eikä tämä vaikuta { -product-pocket }in paikallisiin tietoihin.
+complete-reset-pw-header-v2 = Luo uusi salasana
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Salasana asetettu
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni ongelma
-complete-reset-password-recovery-key-link = Nollaa salasana tilin palautusavaimella.
-account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Käytä tilin palautusavainta
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Salasanasi on nollattu.
 
 ## Confirm Reset Password With Code
 
@@ -1340,16 +1383,29 @@ confirm-reset-password-otp-resend-code-button = Lähetä koodi uudelleen
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Käytä toista tiliä
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Nollaa salasanasi
+confirm-totp-reset-password-subheader = Syötä kaksivaiheisen todennuksen suojakoodi (2FA)
+confirm-totp-reset-password-confirm-button = Vahvista
+confirm-totp-reset-password-input-label = Kirjoita koodi
+confirm-totp-reset-password-use-different-account = Käytä toista tiliä
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Nollaa salasanasi
-password-reset-body = Anna sähköpostiosoitteesi, niin lähetämme sinulle vahvistuskoodin, jotta voimme olla varmoja, että se todella olet sinä.
 password-reset-email-input =
     .label = Kirjoita sähköpostiosoitteesi
-password-reset-submit-button = Lähetä minulle palautusohjeet
+password-reset-submit-button-2 = Jatka
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Salasanasi on nollattu
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Jatka palveluun { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
-reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
-reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
+reset-password-complete-new-password-saved = Uusi salasana tallennettu!
+reset-password-complete-recovery-key-created = Uusi tilin palautusavain luotu. Lataa ja tallenna se nyt.
 
 ## CompleteSignin component
 
@@ -1403,6 +1459,7 @@ back = Edellinen
 
 signin-push-code-heading-w-default-service = Vahvista tämä kirjautuminen <span>jatkaaksesi tilin asetuksiin</span>
 signin-push-code-heading-w-custom-service = Vahvista tämä kirjautuminen <span>jatkaaksesi palveluun { $serviceName }</span>
+signin-push-code-instruction = Tarkista muut laitteesi ja hyväksy tämä kirjautuminen { -brand-firefox }-selaimestasi.
 signin-push-code-did-not-recieve = Etkö saanut ilmoitusta?
 
 ## SigninPushCodeConfirmPage
@@ -1467,15 +1524,9 @@ signin-token-code-required-error = Vahvistuskoodi vaaditaan
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Syötä todennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Syötä todennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
-signin-totp-code-instruction-v2 = Avaa käyttämäsi todennussovellus ja syötä sen ilmoittama todennuskoodi.
-signin-totp-code-input-label-v2 = Kirjoita 6-numeroinen koodi
+signin-totp-code-subheader = Syötä kaksivaiheisen todennuksen suojakoodi (2FA)
+signin-totp-code-instruction-v3 = Tarkista todennussovellus vahvistaaksesi kirjautumisen.
+signin-totp-code-input-label-v3 = Kirjoita koodi
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
 signin-totp-code-other-account-link = Käytä toista tiliä
@@ -1526,6 +1577,7 @@ confirm-signup-code-is-required-error = Vahvistuskoodi vaaditaan
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Aseta salasana
+signup-heading-relay = Luo salasana
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Miksi minun pitää luoda tämä tili? <LinkExternal>Lisätietoja tästä</LinkExternal>
