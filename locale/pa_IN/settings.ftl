@@ -673,6 +673,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } ਡਾਟਾ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 delete-account-product-firefox-addons = { -brand-firefox } ਐਡ-ਆਨ
@@ -805,6 +806,12 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+# Links out to the Monitor site
+product-promo-monitor-cta = ਮੁਫ਼ਤ ਸਕੈਨ ਲਵੋ
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = ਸ਼ੁਰੂ ਕਰੀਏ
 
 ## Profile section
 
@@ -842,6 +849,7 @@ security-set-password = ਸਿੰਕ ਕਰਨ ਤੇ ਕੁਝ ਖਾਤਾ ਸ
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = ਸੱਜਰੀ ਖਾਤਾ ਸਰਗਰਮੀ ਵੇਖੋ
 signout-sync-header = ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
+signout-sync-session-expired = ਅਫਸੋਸ, ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ। ਬਰਾਊਜ਼ਰ ਮੇਨੂ ਤੋਂ ਸਾਈਨ ਆਉਟ ਕਰਕੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## Switch component
 
@@ -884,6 +892,8 @@ unit-row-recovery-key-delete-icon-button-title = ਖਾਤਾ ਰਿਕਵਰੀ
 
 se-heading = ਸੈਕੰਡਰੀ ਈਮੇਲ
     .header = ਸੈਕੰਡਰੀ ਈਮੇਲ
+se-cannot-refresh-email = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਇਹ ਈਮੇਲ ਤਾਜ਼ਾ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
+se-cannot-resend-code-3 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਮੁੜ-ਭੇਜਣ ਦੌਰਾਨ ਗੜਬੜ ਹੋਈ।
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -894,6 +904,7 @@ se-set-primary-error-2 = ਅਫ਼਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੀ ਮ
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਹਟਾਇਆ
 se-delete-email-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਇਹ ਈਮੇਲ ਹਟਾਉਣ ਦੌਰਾਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+se-verify-session-error-3 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 # Button to remove the secondary email
 se-remove-email =
     .title = ਈਮੇਲ ਹਟਾਓ
@@ -922,6 +933,7 @@ tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
 tfa-row-content-explain = ਹਰ ਵਾਰ ਵਿਲੱਖਣ ਕੋਡ, ਜੋ ਸਿਰਫ਼਼ ਤੁਹਾਡੇ ਕੋਲ ਹੋਵੋ, ਚਾਹੀਦਾ ਬਣਾ ਕੇ ਕਿਸੇ ਹੋਰ ਨੂੰ ਲਾਗ ਇਨ ਹੋਣ ਤੋਂ ਰੋਕੋ।
+tfa-row-cannot-verify-session-4 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-row-disable-modal-heading = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਕਰਨਾ ਹੈ?
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-cannot-disable-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ
@@ -1282,19 +1294,29 @@ confirm-reset-password-otp-different-account-link = ਵੱਖਰੇ ਖਾਤੇ
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+confirm-totp-reset-password-subheader = ਆਪਣਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸੁਰੱਖਿਆ ਕੋਡ (2FA) ਦਿਓ
 confirm-totp-reset-password-instruction = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵੇਖੋ।
 confirm-totp-reset-password-trouble-code = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
+confirm-totp-reset-password-confirm-button = ਤਸਦੀਕ
+confirm-totp-reset-password-input-label = ਕੋਡ ਦਿਓ
+confirm-totp-reset-password-use-different-account = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 
 ## ResetPassword start page
 
 password-reset-flow-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
+password-reset-body-2 = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਅਸੀਂ ਕੁਝ ਸਵਾਲ ਪੁੱਛਾਂਗੇ, ਜਿਸੇ ਬਾਰੇ ਸਿਰਫ਼ ਤੁਹਾਨੂੰ ਪਤਾ ਹੈ।
 password-reset-email-input =
     .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+password-reset-submit-button-2 = ਜਾਰੀ ਰੱਖੋ
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
+reset-password-complete-new-password-saved = ਨਵਾਂ ਪਾਸਵਰਡ ਸੰਭਾਲਿਆ!
+reset-password-complete-recovery-key-created = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ। ਇਸ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ।
 
 ## CompleteSignin component
 
@@ -1335,6 +1357,7 @@ report-signin-header = ਅਣ-ਅਧਿਕਾਰਤ ਸਾਈਨ-ਇਨ ਦੀ �
 report-signin-body = ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਪਹੁੰਚ ਦੀ ਕੋਸ਼ਿਸ਼ ਬਾਰੇ ਈਮੇਲ ਮਿਲੀ ਹੈ। ਕੀ ਤੁਸੀਂ ਇਸ ਸਰਗਰਮੀ ਨੂੰ ਸ਼ੱਕੀ ਵਜੋਂ ਰਿਪੋਰਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
 report-signin-submit-button = ਸਰਗਰਮੀ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
 report-signin-support-link = ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?
+report-signin-error = ਅਫ਼ਸੋਸ, ਰਿਪੋਰਟ ਭੇਜਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ।
 signin-bounced-header = ਅਫ਼ਸੋਸ। ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕੀਤਾ ਹੈ।
 # $email (string) - The user's email.
 signin-bounced-message = ਸਾਡੇ ਵਲੋਂ { $email } ਨੂੰ ਭੇਜੀ ਤਸਦੀਕੀ ਈਮੇਲ ਬੇਰੰਗ ਪਰਤ ਆਈ ਅਤੇ ਤੁਹਾਡੇ { -brand-firefox } ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕਰ ਲਿਆ ਹੈ।
@@ -1346,9 +1369,14 @@ back = ਪਿੱਛੇ
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ<span>ਇਹ ਲਾਗਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ</span>
+signin-push-code-heading-w-custom-service = ਇਸ { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ <span>ਇਸ ਲਾਗਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ</span>
+signin-push-code-did-not-recieve = ਨੋਟੀਫਿਕੇਸ਼ਨ ਨਹੀਂ ਮਿਲਿਆ?
+signin-push-code-send-email-link = ਈਮੇਲ ਕੋਡ
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = ਆਪਣੇ ਲਾਗਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
