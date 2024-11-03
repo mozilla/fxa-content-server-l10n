@@ -285,20 +285,22 @@ passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri sa
 password-forgot-otp-subject = Unohditko salasanan?
 password-forgot-otp-title = Unohditko salasanasi?
 password-forgot-otp-request = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:
-password-forgot-otp-code = Jos kyllä, tässä on vahvistuskoodi:
 password-forgot-otp-expiry-notice = Tämä koodi vanhenee 10 minuutissa.
-passwordReset-subject = Salasana päivitetty
-passwordReset-title = Tilisi salasana vaihdettiin
-passwordReset-description = Syötä uusi salasanasi muihin laitteisiisi jatkaaksesi synkronointia.
+passwordReset-subject-2 = Salasanasi on nollattu
+passwordReset-title-2 = Salasanasi on nollattu
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Nollasit { -product-mozilla-account }-salasanasi:
 passwordResetAccountRecovery-subject-2 = Salasanasi on nollattu
-passwordResetAccountRecovery-title-2 = Salasanan nollaus onnistui
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Käytit tilisi palautusavaimen päivittääksesi salasanasi:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Luo tilin palautusavain
-passwordResetAccountRecovery-regen-required-mjml-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle:
+passwordResetAccountRecovery-title-3 = Salasanasi on nollattu
+passwordResetAccountRecovery-action-4 = Hallinnoi tiliä
+passwordResetWithRecoveryKeyPrompt-subject = Salasanasi on nollattu
+passwordResetWithRecoveryKeyPrompt-title = Salasanasi on nollattu
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Nollasit { -product-mozilla-account }-salasanasi:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Luo tilin palautusavain
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Luo tilin palautusavain:
 postAddAccountRecovery-subject-3 = Uusi tilin palautusavain luotu
 postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
 # Key here refers to account recovery key
