@@ -1598,6 +1598,8 @@ confirm-signup-code-is-required-error = Потрібно ввести код п�
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Встановіть пароль
+signup-relay-info = Пароль потрібен для безпечного керування замаскованими адресами е-пошти та доступу до інструментів безпеки { -brand-mozilla }.
+signup-heading-relay = Створити пароль
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Нащо потрібно створювати обліковий запис? <LinkExternal>Дізнайтеся тут</LinkExternal>
