@@ -1377,6 +1377,12 @@ signin-push-code-send-email-link = ਈਮੇਲ ਕੋਡ
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = ਆਪਣੇ ਲਾਗਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
+signin-push-code-confirm-description = ਸਾਨੂੰ ਅੱਗੇ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਲਾਗਇਨ ਦੀ ਕੋਸ਼ਿਸ ਬਾਰੇ ਪਤਾ ਲੱਗਾ ਹੈ। ਜੇ ਇਹ ਤੁਸੀਂ ਸੀ ਤਾਂ ਲਾਗਇਨ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰੋ।
+signin-push-code-confirm-verifying = ਜਾਂਚ ਜਾਰੀ ਹੈ
+signin-push-code-confirm-login = ਲਾਗਇਨ ਦੀ ਤਸਦੀਕ
+signin-push-code-confirm-wasnt-me = ਇਹ ਮੈਂ ਨਹੀਂ ਸੀ, ਪਾਸਵਰਡ ਨੂੰ ਬਦਲੋ।
+signin-push-code-confirm-login-approved = ਤੁਹਾਡੇ ਲਾਗਇਨ ਨੂੰ ਮਨਜ਼ੂਰ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਸ ਵਿੰਡੋ ਨੂੰ ਬੰਦ ਕਰੋ।
+signin-push-code-confirm-link-error = ਲਿੰਕ ਨੁਕਾਸਿਆ ਗਿਆ। ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1429,6 +1435,9 @@ signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦ�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader = ਆਪਣਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸੁਰੱਖਿਆ ਕੋਡ (2FA) ਦਿਓ
+signin-totp-code-instruction-v3 = ਆਪਣੇ ਸਾਈਨ-ਇਨ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵੇਖੋ।
+signin-totp-code-input-label-v3 = ਕੋਡ ਦਿਓ
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ਤਸਦੀਕ
 signin-totp-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
@@ -1479,6 +1488,7 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਲਾਓ
+signup-heading-relay = ਪਾਸਵਰਡ ਬਣਾਓ
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket =

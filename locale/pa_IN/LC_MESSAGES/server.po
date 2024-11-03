@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-01-08 01:41+0000\n"
+"PO-Revision-Date: 2024-11-03 15:05+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -89,6 +89,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Mozilla ਖਾਤੇ ਅਜਿਹਾ ਫੀਚਰ ਵਰਤਦੇ ਹਨ, ਜਿਸ ਲਈ \n"
+"                        Firefox ਦਾ ਤੁਹਾਡਾ ਵਰਜ਼ਨ ਸਹਾਇਕ ਨਹੀਂ ਹੈ। ਜਾਰੀ ਰੱਖਣ\n"
+"                        ਲਈ Firefox ਦਾ ਨਵਾਂ ਵਰਜ਼ਨ ਡਾਊਨਲੋਡ ਕਰਕੇ ਇੰਸਟਾਲ\n"
+"                        ਕਰੋ।"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
