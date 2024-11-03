@@ -251,25 +251,35 @@ passwordChangeRequired-different-password-plaintext = Axatar: Fren awal uffir ye
 password-forgot-otp-subject = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-title = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-request = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:
-password-forgot-otp-code = Ma yella ih, ha-tt-a tengalt n usentem i ukemmel:
-passwordReset-subject = Awal uffir yettuleqqem
-passwordReset-title = Awal uffir n umiḍan inek ibeddel
-passwordReset-description = Isefk ad teskecmeḍ awal-ik uffir amaynut akken ad tesfesxeḍ amtawi.
+password-forgot-otp-expiry-notice = Tangalt-a ad temmet deg 10 n tseddatin.
+passwordReset-subject-2 = Awla inek uffir yettuwennez
+passwordReset-title-2 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-subject-2 = Awla inek uffir yettuwennez
-passwordResetAccountRecovery-title-2 = Awal uffir yettuwennez akken iwata
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Rnu tasarut n tririt n umiḍan
+passwordResetAccountRecovery-action-4 = Sefrek amiḍan
+passwordResetWithRecoveryKeyPrompt-subject = Awla inek uffir yettuwennez
+passwordResetWithRecoveryKeyPrompt-title = Awla inek uffir yettuwennez
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Rnu tasarut n tririt n umiḍan:
 postAddAccountRecovery-subject-3 = Tasarut n tririt n umiḍan amaynut i tettwarna
 postAddAccountRecovery-title2 = Terniḍ tasarut n tririt n umiḍani tamaynut
 postAddAccountRecovery-action = Sefrek amiḍan
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-mozilla-account }-ik·im
 postAddLinkedAccount-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject-2 = Asesteb s snat n tarrayin yettwarmed
 postAddTwoStepAuthentication-title-2 = Tremseḍ asesteb s snat tarrayin
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Tremdeḍ-t-d seg:
 postAddTwoStepAuthentication-action = Sefrek amiḍan
+postChangeAccountRecovery-subject = Tasarut n tririt n umiḍan tbeddel
+postChangeAccountRecovery-title = Tbeddleḍ tasarut-ik·im n tririt n umiḍani tamaynut
+postChangeAccountRecovery-action = Sefrek amiḍan
 postChangePrimary-subject = Imayl amezwaru ittuleqqem
 postChangePrimary-title = Imayl amezwaru amaynut
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Asnifel n { $email } am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik { -product-mozilla-account }, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked
 postChangePrimary-action = Sefrek amiḍan
 postConsumeRecoveryCode-title-2 = tesqedceḍ tangalt n usesteb n uḥraz
 # After the colon, there is description of the device that the backup authentication code was used on
