@@ -235,6 +235,7 @@ confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemre
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Rnu
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yir tuttra
 
@@ -254,7 +255,6 @@ password-strength-inline-not-email = Mačči d tansa-k·m n yimayl
 
 ## Ready component
 
-reset-password-complete-header = Awla inek uffir yettuwennez
 manage-your-account-button = Sefrek amiḍan-ik·im
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -1047,14 +1047,19 @@ confirm-reset-password-otp-resend-code-button = Ales tuzna n tengalt
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Seqdec amiḍan nniḍen
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Wennez awal uffir-ik
 password-reset-email-input =
     .label = Sekcem imayl inek
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Awla inek uffir yettuwennez
 reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
-reset-password-with-recovery-key-verified-generate-new-key = Sirew tasarut n tririt n umiḍan tamaynut
-reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umiḍan-iw
 
 ## CompleteSignin component
 
@@ -1134,7 +1139,6 @@ signin-token-code-resend-code-link = Azen tangalt tamaynut.
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-input-label-v2 = Sekcem tangalt s 6-izwilen
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Sentem
 signin-totp-code-other-account-link = Seqdec amiḍan nniḍen
