@@ -238,6 +238,58 @@ get-data-trio-print-2 =
   .title = Print
   .aria-label = Print
 
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+alert-icon-aria-label =
+    .aria-label = Alert
+
+authenticator-app-aria-label =
+    .aria-label = Authenticator Application
+
+backup-codes-icon-aria-label =
+    .aria-label = Backup codes enabled
+
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Backup codes disabled
+
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Recovery SMS enabled
+
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Recovery SMS disabled
+
+# used indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Check
+
+# used indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Success
+
+# used indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Enabled
+
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Code
+
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Canadian Flag
+
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = United States Flag
+
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Information
+
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
@@ -264,6 +316,10 @@ lightbulb-aria-label =
   .aria-label = Illustration to represent creating a storage hint.
 email-code-image-aria-label =
   .aria-label = Illustration to represent an email containing a code.
+recovery-phone-image-description =
+  .aria-label = Mobile device that receives a code by text message.
+recovery-phone-code-image-description =
+  .aria-label = Code received on a mobile device.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
