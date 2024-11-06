@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-28 20:44+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-11-06 04:58+0000\n"
+"Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -1169,7 +1169,7 @@ msgstr "Vytvoření e-mailové masky"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "Zadejte prosím e-mailovou adresu, na kterou chcete přeposílat e-maily z vaší maskované e-mailové adresy."
+msgstr "Zadejte prosím e-mailovou adresu, na kterou chcete přeposílat e-maily z vaší e-mailové masky."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
