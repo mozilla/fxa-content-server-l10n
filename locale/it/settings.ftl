@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Chiudi
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Si è verificato un problema. Impossibile inviare un nuovo codice.
+resend-code-success-banner-heading = È stato inviato un nuovo codice alla tua email.
+resend-link-success-banner-heading = È stato inviato un nuovo link al tuo indirizzo email.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza intoppi.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Indirizzi
 choose-what-to-sync-option-paymentmethods =
     .label = Metodi di pagamento
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Il messaggio non si trova nella posta in arrivo e neppure nello spam? Invia nuovamente il link
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Indietro
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Avviso
+authenticator-app-aria-label =
+    .aria-label = Applicazione di autenticazione
+backup-codes-icon-aria-label =
+    .aria-label = Codici di backup attivati
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Codici di backup disattivati
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS di recupero attivato
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS di recupero disattivato
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Bandiera canadese
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Spunta
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Completato
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Attiva
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Chiudi messaggio
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Sviluppo
+error-icon-aria-label =
+    .aria-label = Errore
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informazioni
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandiera degli Stati Uniti
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Un computer, un telefono cellulare e l’immagine di un cuore spezzato su ciascuno
 hearts-verified-image-aria-label =
@@ -246,12 +276,16 @@ lightbulb-aria-label =
     .aria-label = Illustrazione per rappresentare la creazione di un suggerimento per l’archiviazione.
 email-code-image-aria-label =
     .aria-label = Illustrazione per rappresentare un’email contenente un codice.
+recovery-phone-image-description =
+    .aria-label = Dispositivo mobile che riceve un codice tramite SMS.
+recovery-phone-code-image-description =
+    .aria-label = Codice ricevuto su un dispositivo mobile.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Hai effettuato l’accesso a { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = Hai effettuato l’accesso a { -brand-firefox }.
 inline-recovery-key-setup-create-header = Proteggi il tuo account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hai un minuto per proteggere i tuoi dati?
@@ -293,14 +327,7 @@ reset-pwd-link-damaged-message = Nel link su cui hai fatto clic mancano alcuni c
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Ricevi un nuovo link
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Link per la reimpostazione della password scaduto
-reset-pwd-link-expired-message = Il link su cui hai fatto clic per reimpostare la password è scaduto.
+link-expired-new-link-button = Ricevi un nuovo link
 
 ## LinkRememberPassword component
 
@@ -1518,6 +1545,7 @@ signin-token-code-code-expired = Codice scaduto?
 signin-token-code-resend-code-link = Invia email con nuovo codice.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Codice di conferma obbligatorio
+signin-token-code-resend-error = Si è verificato un problema. Impossibile inviare un nuovo codice.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1579,8 +1607,10 @@ signup-heading = Imposta la tua password
 signup-relay-info = È necessaria una password per gestire in modo sicuro i tuoi alias di posta elettronica e accedere agli strumenti di sicurezza di { -brand-mozilla }.
 signup-heading-relay = Crea una password
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Perché è necessario creare questo account? <LinkExternal>Scoprilo qui</LinkExternal>
+signup-pocket-info-banner = Perché devo creare questo account?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Scoprilo qui
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambia e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
