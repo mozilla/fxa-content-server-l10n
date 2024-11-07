@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Zavřít
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-mail byl znovu odeslán. Pro jistotu si přidejte adresu { $accountsEmail } do svých kontaktů.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Nový kód se nepodařilo odeslat.
+resend-code-success-banner-heading = Na váš e-mail byl odeslán nový kód.
+resend-link-success-banner-heading = Na váš e-mail byl odeslán nový odkaz.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Pro jistotu si přidejte adresu { $accountsEmail } do svých kontaktů.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Adresy
 choose-what-to-sync-option-paymentmethods =
     .label = Platební metody
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Žádný email jste neobdrželi? Znovu odeslat
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Zpět
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Upozornění
+authenticator-app-aria-label =
+    .aria-label = Aplikace Authenticator
+backup-codes-icon-aria-label =
+    .aria-label = Záložní kódy povoleny
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Záložní kódy jsou zakázány
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Obnovovací SMS povoleny
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Obnovovací SMS jsou zakázány
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadská Vlajka
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Zaškrtnout
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Úspěch
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Povolit
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Zavřít zprávu
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kód
+error-icon-aria-label =
+    .aria-label = Chyba
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informace
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Vlajka Spojených států amerických
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Počítač a mobil a na každém obrázek zlomeného srdce
 hearts-verified-image-aria-label =
@@ -246,12 +276,16 @@ lightbulb-aria-label =
     .aria-label = Ilustrace znázorňující vytvoření nápovědy k úložišti.
 email-code-image-aria-label =
     .aria-label = Ilustrace znázorňující e-mail obsahující kód.
+recovery-phone-image-description =
+    .aria-label = Mobilní zařízení, které přijímá kód prostřednictvím textové zprávy.
+recovery-phone-code-image-description =
+    .aria-label = Kód byl přijat na mobilní zařízení.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Jste přihlášeni k { -brand-firefox(case: "dat") }
+inline-recovery-key-setup-signed-in-firefox-2 = Jste do { -brand-firefox(case: "gen") } přihlášeni.
 inline-recovery-key-setup-create-header = Zabezpečte svůj účet
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Máte minutku na ochranu svých údajů?
@@ -293,14 +327,7 @@ reset-pwd-link-damaged-message = Adresa odkazu, na který jste klikli, nebyla ko
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Získat nový odkaz
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Platnost odkazu pro obnovení hesla vypršela
-reset-pwd-link-expired-message = Platnost odkazu pro obnovení hesla už vypršela.
+link-expired-new-link-button = Získat nový odkaz
 
 ## LinkRememberPassword component
 
@@ -1526,6 +1553,7 @@ signin-token-code-code-expired = Platnost kódu vypršela?
 signin-token-code-resend-code-link = Zaslat e-mailem nový kód.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Je vyžadován potvrzovací kód
+signin-token-code-resend-error = Nový kód se nepodařilo odeslat.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1587,8 +1615,10 @@ signup-heading = Nastavte si heslo
 signup-relay-info = Heslo je potřeba pro bezpečnou správu e-mailových masek a pro přístup k bezpečnostním nástrojům { -brand-mozilla(case: "gen") }.
 signup-heading-relay = Vytvoření hesla
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Proč si musím vytvořit tento účet? <LinkExternal>Zjistěte to zde</LinkExternal>.
+signup-pocket-info-banner = Proč si musím vytvořit tento účet?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Zjistěte to zde
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Změna e-mailu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
