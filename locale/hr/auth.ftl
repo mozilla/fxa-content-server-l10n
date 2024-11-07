@@ -282,20 +282,25 @@ passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku ko
 password-forgot-otp-subject = Zaboravio/la si lozinku?
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
-password-forgot-otp-code = Ako da, evo tvog potvrdnog koda za nastavljanje:
+password-forgot-otp-code-2 = Ako si to bio/la ti, ovo je tvoj potvrdni kod za nastavljanje:
 password-forgot-otp-expiry-notice = Ovaj kod isteče za 10 minuta.
-passwordReset-subject = Lozinka aktualizirana
-passwordReset-title = Lozinka tvog računa je promijenjena
-passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
+passwordReset-subject-2 = Tvoja je lozinka resetirana
+passwordReset-title-2 = Tvoja je lozinka resetirana
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Resetirao/la si svoju { -product-mozilla-account } lozinku na:
 passwordResetAccountRecovery-subject-2 = Tvoja lozinka je resetirana
-passwordResetAccountRecovery-title-2 = Resetiranje lozinke je uspjelo
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Koristio/la si svoj ključ za obnavljanje računa za aktualiziranje lozinke od:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Stvori ključ za obnavljanje računa
-passwordResetAccountRecovery-regen-required-mjml-1 = Morat ćeš se ponovo prijaviti na svim tvojim sinkroniziranim uređajima. Nemoj zaboraviti izraditi novi ključ za obnavljanje računa koji će zamijeniti prethodno korišteni.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Morat ćeš se ponovo prijaviti na svim tvojim sinkroniziranim uređajima. Nemoj zaboraviti izraditi novi ključ za obnavljanje računa koji će zamijeniti prethodno korišteni:
+passwordResetAccountRecovery-title-3 = Tvoja je lozinka resetirana
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Koristio/la si svoj ključ za obnavljanje računa za resetiranje { -product-mozilla-account } lozinke na:
+passwordResetAccountRecovery-action-4 = Upravljaj računom
+passwordResetWithRecoveryKeyPrompt-subject = Tvoja je lozinka resetirana
+passwordResetWithRecoveryKeyPrompt-title = Tvoja je lozinka resetirana
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Resetirao/la si svoju { -product-mozilla-account } lozinku na:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Stvori ključ za obnavljanje računa
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Stvori ključ za obnavljanje računa:
 postAddAccountRecovery-subject-3 = Novi ključ za obnavljanje računa stvoren
 postAddAccountRecovery-title2 = Stvorio/la si novi ključ za obnavljanje računa
 # Key here refers to account recovery key
@@ -351,6 +356,8 @@ postRemoveTwoStepAuthentication-title-2 = Deaktivirao/la si dvofaktorsku autenti
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
 postRemoveTwoStepAuthentication-action = Upravljaj računom
+postVerify-title-2 = Želiš vidjeti istu karticu na dva uređaja?
+postVerify-description-2 = Ništa lakše od toga! Jednostavno instaliraj { -brand-firefox } na drugi uređaj i prijavi se za sinkronizaciju. To je poput magije!
 postVerify-subject-4 = Dobro došao, dobro došla u { -brand-mozilla }!
 postVerify-setup-2 = Poveži jedan drugi uređaj:
 postVerify-action-2 = Poveži jedan drugi uređaj
