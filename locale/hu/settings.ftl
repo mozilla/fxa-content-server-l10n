@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Bezárás
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kódot küldeni.
+resend-code-success-banner-heading = Új kód lett küldve az e-mail címére.
+resend-link-success-banner-heading = Új hivatkozás lett küldve az e-mail címére.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Adja hozzá a(z) { $accountsEmail } címet a névjegyeihez, hogy biztosítsa a sima kézbesítést.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Címek
 choose-what-to-sync-option-paymentmethods =
     .label = Fizetési módok
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Nincs a beérkezett vagy a spam mappában? Újraküldés
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Vissza
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Figyelmeztetés
+authenticator-app-aria-label =
+    .aria-label = Hitelesítő alkalmazás
+backup-codes-icon-aria-label =
+    .aria-label = Biztonsági kódok engedélyezve
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Biztonsági kódok letiltva
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Helyreállító SMS engedélyezve
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Helyreállító SMS letiltva
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadai zászló
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Jelölje be
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Sikeres
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Engedélyezve
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Üzenet bezárása
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kód
+error-icon-aria-label =
+    .aria-label = Hiba
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Információ
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Egyesült Államok zászlaja
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Egy számítógép és egy mobiltelefon, mindkettőn egy összetört szív képe
 hearts-verified-image-aria-label =
@@ -246,12 +276,16 @@ lightbulb-aria-label =
     .aria-label = A tárolási tipp létrehozását jelképező illusztráció.
 email-code-image-aria-label =
     .aria-label = Egy kódot tartalmazó e-mail ábrája.
+recovery-phone-image-description =
+    .aria-label = Mobileszköz, amely kódot kap szöveges üzenetben.
+recovery-phone-code-image-description =
+    .aria-label = Mobileszközön kapott kód.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Bejelentkezett a { -brand-firefox(case: "illative") }
+inline-recovery-key-setup-signed-in-firefox-2 = Bejelentkezett a { -brand-firefox }ba.
 inline-recovery-key-setup-create-header = Biztosítsa fiókját
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Van egy perce az adatai megvédésére?
@@ -293,14 +327,7 @@ reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt a
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Új hivatkozás kérése
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
-reset-pwd-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
+link-expired-new-link-button = Új hivatkozás kérése
 
 ## LinkRememberPassword component
 
@@ -1542,6 +1569,7 @@ signin-token-code-code-expired = A kód lejárt?
 signin-token-code-resend-code-link = Új kód elküldése e-mailben.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Megerősítési kód szükséges
+signin-token-code-resend-error = Valami elromlott. Nem sikerült új kódot küldeni.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1603,8 +1631,10 @@ signup-heading = Állítsa be a jelszavát
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
 signup-heading-relay = Jelszó létrehozása
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Miért kell létrehoznom ezt a fiókot? <LinkExternal>Itt tájékozódhat</LinkExternal>
+signup-pocket-info-banner = Miért kell létrehoznom ezt a fiókot?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Tudja meg itt
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mail-cím módosítása
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
