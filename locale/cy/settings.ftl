@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Cau
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
+resend-code-success-banner-heading = Anfonwyd cod newydd i'ch e-bost.
+resend-link-success-banner-heading = Anfonwyd dolen newydd i'ch e-bost.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Ychwanegu { $accountsEmail } at eich cysylltiadau i sicrhau danfoniad llyfn.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Cyfeiriadau
 choose-what-to-sync-option-paymentmethods =
     .label = Dulliau Talu
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Ddim yn y blwch derbyn na'r sbam? Ailanfon
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Nôl
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Rhybudd
+authenticator-app-aria-label =
+    .aria-label = Cais Authenticator
+backup-codes-icon-aria-label =
+    .aria-label = Codau wrth gefn wedi'u galluogi
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Analluogwyd y codau wrth gefn
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS adfer wedi'i alluogi
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Adfer SMS wedi'i analluogi
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Baner Canada
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Gwiro
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Llwyddiant
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Galluogwyd
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Cau neges
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Codio
+error-icon-aria-label =
+    .aria-label = Gwall
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Manylion
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Baner yr Unol Daleithiau
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Cyfrifiadur a ffôn symudol a delwedd o galon wedi torri ar bob un
 hearts-verified-image-aria-label =
@@ -246,12 +276,16 @@ lightbulb-aria-label =
     .aria-label = Darlun i gynrychioli creu awgrym storio.
 email-code-image-aria-label =
     .aria-label = Darlun i gynrychioli e-bost sy'n cynnwys cod.
+recovery-phone-image-description =
+    .aria-label = Dyfais symudol sy'n derbyn cod trwy neges destun.
+recovery-phone-code-image-description =
+    .aria-label = Cod a dderbyniwyd ar ddyfais symudol.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Rydych wedi mewngofnodi i { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = Rydych wedi mewngofnodi i { -brand-firefox }.
 inline-recovery-key-setup-create-header = Diogelwch eich cyfrif
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Oes gennych chi funud i ddiogelu eich data?
@@ -293,14 +327,7 @@ reset-pwd-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei 
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Derbyn dolen newydd
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Mae'r ddolen ailosod wedi dod i ben
-reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
+link-expired-new-link-button = Derbyn dolen newydd
 
 ## LinkRememberPassword component
 
@@ -1531,6 +1558,7 @@ signin-token-code-code-expired = Cod wedi dod i ben?
 signin-token-code-resend-code-link = E-bostiwch cod newydd.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Mae angen codi dilys
+signin-token-code-resend-error = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1592,8 +1620,10 @@ signup-heading = Gosod eich cyfrinair
 signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
 signup-heading-relay = Crëwch gyfrinair
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Pam fod angen i mi greu'r cyfrif hwn? <LinkExternal>Darganfyddwch yma</LinkExternal>
+signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Darganfyddwch yma
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Newid e-bost
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
