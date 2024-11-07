@@ -210,10 +210,16 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Računalo i mobitel sa slikom slomljenog srca
+hearts-verified-image-aria-label =
+    .aria-label = Računalo i mobitel sa slikom pulsirajućeg srca
 signin-recovery-code-image-description =
     .aria-label = Dokument koji sadrži skriveni tekst.
 signin-totp-code-image-label =
     .aria-label = Uređaj sa skrivenim 6-znamenkastim kodom.
+confirm-signup-aria-label =
+    .aria-label = Kuverta koja sadrži poveznicu
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -308,7 +314,6 @@ password-strength-inline-confirmed-must-match = Potvrda odgovara novoj lozinci
 
 ## Ready component
 
-reset-password-complete-header = Tvoja je lozinka resetirana
 ready-complete-set-up-instruction = Završi postavljanje upisom tvoje nove lozinke na tvojim drugim { -brand-firefox } uređajima.
 manage-your-account-button = Upravljaj svojim računom
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
@@ -1142,14 +1147,19 @@ confirm-reset-password-otp-resend-code-button = Ponovo pošalji kod
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Resetiraj tvoju lozinku
 password-reset-email-input =
     .label = Upiši tvoju e-mail adresu
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Tvoja je lozinka resetirana
 reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
-reset-password-with-recovery-key-verified-generate-new-key = Generiraj novi ključ za obnavljanje računa
-reset-password-with-recovery-key-verified-continue-to-account = Nastavi na moj račun
 
 ## CompleteSignin component
 
