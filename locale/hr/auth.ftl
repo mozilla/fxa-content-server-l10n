@@ -358,6 +358,7 @@ postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
 postRemoveTwoStepAuthentication-action = Upravljaj računom
 postVerify-title-2 = Želiš vidjeti istu karticu na dva uređaja?
 postVerify-description-2 = Ništa lakše od toga! Jednostavno instaliraj { -brand-firefox } na drugi uređaj i prijavi se za sinkronizaciju. To je poput magije!
+postVerify-sub-description = (Psst … To također znači da možeš pristupiti tvojim zabilješkama, lozinkama i drugim { -brand-firefox } podacima gdje god si prijavljen/a.)
 postVerify-subject-4 = Dobro došao, dobro došla u { -brand-mozilla }!
 postVerify-setup-2 = Poveži jedan drugi uređaj:
 postVerify-action-2 = Poveži jedan drugi uređaj
@@ -432,6 +433,12 @@ subscriptionPaymentProviderCancelled-title = Žao nam je, imamo problem s tvojim
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Otkrili smo problem s tvojim načinom plaćanja za { $productName }.
 subscriptionPaymentProviderCancelled-content-reason = Tvoja kreditna kartica je možda istekla ili je tvoj trenutačni način plaćanja zastario.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Pretplata na { $productName } je ponovo aktivirana
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Hvala ti na ponovnom aktiviranju tvoje pretplate na { $productName }!
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = { $productName } obavijest o automatskoj obnovi
