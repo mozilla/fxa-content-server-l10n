@@ -7,6 +7,8 @@
 
 resend-code-success-banner-heading = Um novo código foi enviado para seu email.
 resend-link-success-banner-heading = Um novo link foi enviado para seu email.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -207,6 +209,10 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Alerta
+authenticator-app-aria-label =
+    .aria-label = Aplicativo de autenticação
 backup-codes-icon-aria-label =
     .aria-label = Códigos de backup ativados
 backup-codes-disabled-icon-aria-label =
@@ -220,6 +226,29 @@ backup-recovery-sms-disabled-icon-aria-label =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Bandeira do Canadá
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Marcar
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Feito
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Ativado
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Fechar mensagem
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Código
+error-icon-aria-label =
+    .aria-label = Erro
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informação
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandeira dos Estados Unidos
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -247,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = Ilustração para representar a criação de uma dica de onde guardou.
 email-code-image-aria-label =
     .aria-label = Ilustração para representar um email contendo um código.
+recovery-phone-image-description =
+    .aria-label = Dispositivo móvel que recebe um código por mensagem de texto.
+recovery-phone-code-image-description =
+    .aria-label = Código recebido em um dispositivo móvel.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Você está conectado neste { -brand-firefox }.
 inline-recovery-key-setup-create-header = Proteja sua conta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Tem um minuto para proteger seus dados?
@@ -292,6 +326,8 @@ reset-pwd-link-damaged-message = O link que você clicou tem caracteres faltando
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Receber novo link
 
 ## LinkRememberPassword component
 
@@ -1500,6 +1536,7 @@ signin-token-code-code-expired = O código expirou?
 signin-token-code-resend-code-link = Enviar novo código por email.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Necessário código de confirmação
+signin-token-code-resend-error = Algo deu errado. Não foi possível enviar um novo código.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1560,6 +1597,11 @@ confirm-signup-code-is-required-error = O código de confirmação é obrigatór
 signup-heading = Defina sua senha
 signup-relay-info = É necessária uma senha para gerenciar de forma segura suas máscaras de email e acessar as ferramentas de segurança da { -brand-mozilla }.
 signup-heading-relay = Crie uma senha
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Por que preciso criar esta conta?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Descubra aqui
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
