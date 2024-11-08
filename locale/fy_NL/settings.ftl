@@ -7,6 +7,8 @@
 
 resend-code-success-banner-heading = Der is in nije koade nei jo e-mailadres ferstjoerd.
 resend-link-success-banner-heading = Der is in nije keppeling nei jo e-mailadres ferstjoerd.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Foegje { $accountsEmail } ta oan jo kontakten om in levering sûnder problemen te garandearjen.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -207,6 +209,46 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Warskôging
+authenticator-app-aria-label =
+    .aria-label = Authenticator-tapassing
+backup-codes-icon-aria-label =
+    .aria-label = Reservekopykoaden ynskeakele
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Reservekopykoaden útskeakele
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Werstel-sms ynskeakele
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Werstel-sms útskeakele
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadeeske flagge
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Finkje
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Slagge
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Ynskeakele
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Berjocht slute
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Koade
+error-icon-aria-label =
+    .aria-label = Flater
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Ynformaasje
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Amerikaanske flagge
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -234,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = Yllustraasje om it meitsjen fan in ûnthâldhint wer te jaan.
 email-code-image-aria-label =
     .aria-label = Yllustraasje om in e-mailberjocht mei in koade wer te jaan.
+recovery-phone-image-description =
+    .aria-label = Mobyl apparaat dat in koade fia sms ûntfangt.
+recovery-phone-code-image-description =
+    .aria-label = Koade ûntfongen op in mobyl apparaat.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Jo binne oanmeld by { -brand-firefox }.
 inline-recovery-key-setup-create-header = Befeiligje jo account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hawwe jo in minút om jo gegevens te beskermjen?
@@ -279,6 +326,8 @@ reset-pwd-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Nije keppeling ûntfange
 
 ## LinkRememberPassword component
 
@@ -1521,6 +1570,7 @@ signin-token-code-code-expired = Koade ferrûn?
 signin-token-code-resend-code-link = Nije koade ferstjoere.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Befêstigingskoade nedich
+signin-token-code-resend-error = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
