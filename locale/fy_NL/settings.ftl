@@ -1631,6 +1631,11 @@ confirm-signup-code-is-required-error = Befêstigingskoade is fereaske
 signup-heading = Stel jo wachtwurd yn
 signup-relay-info = Der is in wachtwurd nedich om jo maskearre e-mailadressen feilich te behearen en tagong te krijen ta de befeiligingshelpmiddelen fan { -brand-mozilla }.
 signup-heading-relay = In wachtwurd oanmeitsje
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Wêrom moat ik dizze account oanmeitsje?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Untdek it hjir
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wizigje
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
