@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Κλείσιμο
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Το email απεστάλη ξανά. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +95,6 @@ choose-what-to-sync-option-addresses =
     .label = Διευθύνσεις
 choose-what-to-sync-option-paymentmethods =
     .label = Μέθοδοι πληρωμής
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Δεν είναι στα εισερχόμενα ή στα ανεπιθύμητα; Αποστολή ξανά
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Πίσω
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +205,12 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Προειδοποίηση
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Ένας υπολογιστής, ένα κινητό τηλέφωνο και μια εικόνα ραγισμένης καρδιάς στο καθένα
 hearts-verified-image-aria-label =
@@ -251,7 +239,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Συνδεθήκατε στο { -brand-firefox }
 inline-recovery-key-setup-create-header = Ασφαλίστε τον λογαριασμό σας
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Έχετε χρόνο για να προστατέψετε τα δεδομένα σας;
@@ -292,15 +279,6 @@ reset-pwd-link-damaged-message = Ο σύνδεσμος στον οποίο κά�
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Λήψη νέου συνδέσμου
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης έληξε
-reset-pwd-link-expired-message = Ο σύνδεσμος στον οποίο κάνατε κλικ για επαναφορά του κωδικού πρόσβασής σας έχει λήξει.
 
 ## LinkRememberPassword component
 
@@ -1604,9 +1582,6 @@ confirm-signup-code-is-required-error = Απαιτείται κωδικός επ
 signup-heading = Ορισμός κωδικού πρόσβασης
 signup-relay-info = Απαιτείται ένας κωδικός πρόσβασης για τη διαχείριση των μασκών email σας και την πρόσβαση στα εργαλεία ασφαλείας της { -brand-mozilla }.
 signup-heading-relay = Δημιουργία κωδικού πρόσβασης
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό; <LinkExternal>Μάθετε εδώ</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
