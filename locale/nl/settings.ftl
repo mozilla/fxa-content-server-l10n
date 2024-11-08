@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Sluiten
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +95,6 @@ choose-what-to-sync-option-addresses =
     .label = Adressen
 choose-what-to-sync-option-paymentmethods =
     .label = Betalingsmethoden
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Niet in Postvak IN of map met spam? Opnieuw verzenden
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Terug
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +205,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Waarschuwing
+authenticator-app-aria-label =
+    .aria-label = Authenticator-toepassing
+backup-codes-icon-aria-label =
+    .aria-label = Reservekopiecodes ingeschakeld
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Reservekopiecodes uitgeschakeld
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Herstel-sms ingeschakeld
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Herstel-sms uitgeschakeld
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Canadese vlag
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Vinkje
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Geslaagd
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Ingeschakeld
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Bericht sluiten
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Code
+error-icon-aria-label =
+    .aria-label = Fout
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informatie
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Amerikaanse vlag
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Een computer en een mobiele telefoon en op beide een afbeelding van een gebroken hart
 hearts-verified-image-aria-label =
@@ -246,12 +272,16 @@ lightbulb-aria-label =
     .aria-label = Illustratie om het maken van een opslaghint weer te geven.
 email-code-image-aria-label =
     .aria-label = Illustratie om een e-mailbericht met een code weer te geven.
+recovery-phone-image-description =
+    .aria-label = Mobiel apparaat dat een code per sms ontvangt.
+recovery-phone-code-image-description =
+    .aria-label = Code ontvangen op een mobiel apparaat.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = U bent aangemeld bij { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = U bent aangemeld bij { -brand-firefox }.
 inline-recovery-key-setup-create-header = Beveilig uw account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hebt u even de tijd om uw gegevens te beschermen?
@@ -293,14 +323,7 @@ reset-pwd-link-damaged-message = De koppeling waarop u hebt geklikt miste tekens
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Nieuwe koppeling ontvangen
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Herinitialisatiekoppeling verlopen
-reset-pwd-link-expired-message = De koppeling waarop u hebt geklikt voor het opnieuw instellen van uw wachtwoord is verlopen.
+link-expired-new-link-button = Nieuwe koppeling ontvangen
 
 ## LinkRememberPassword component
 
@@ -1539,6 +1562,7 @@ signin-token-code-code-expired = Code verlopen?
 signin-token-code-resend-code-link = Nieuwe code versturen per e-mail.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bevestigingscode vereist
+signin-token-code-resend-error = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1600,8 +1624,10 @@ signup-heading = Stel uw wachtwoord in
 signup-relay-info = Er is een wachtwoord nodig om uw gemaskeerde e-mailadressen veilig te beheren en toegang te krijgen tot de beveiligingshulpmiddelen van { -brand-mozilla }.
 signup-heading-relay = Een wachtwoord aanmaken
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Waarom moet ik deze account aanmaken? <LinkExternal>Lees het hier</LinkExternal>
+signup-pocket-info-banner = Waarom moet ik deze account aanmaken?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Ontdek het hier
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wijzigen
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
