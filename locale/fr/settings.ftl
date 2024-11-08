@@ -6,9 +6,9 @@
 ## Banner component
 
 resend-code-success-banner-heading = Un nouveau code a été envoyé à votre adresse e-mail.
-resend-link-success-banner-heading = Un nouveau lien a été envoyé à votre adresse électronique.
+resend-link-success-banner-heading = Un nouveau lien a été envoyé à votre adresse e-mail.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-resend-success-banner-description = Ajoutez { $accountsEmail } à vos contacts pour assurer leur bonne réception.
+resend-success-banner-description = Ajoutez { $accountsEmail } à vos contacts pour assurer la bonne réception des messages.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -231,7 +231,7 @@ checkmark-icon-aria-label =
     .aria-label = Sélectionner
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
-    .aria-label = Succès
+    .aria-label = Effectué
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Activé
