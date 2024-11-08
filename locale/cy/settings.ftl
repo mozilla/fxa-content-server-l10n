@@ -8,7 +8,7 @@
 resend-code-success-banner-heading = Anfonwyd cod newydd i'ch e-bost.
 resend-link-success-banner-heading = Anfonwyd dolen newydd i'ch e-bost.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-resend-success-banner-description = Ychwanegu { $accountsEmail } at eich cysylltiadau i sicrhau danfoniad llyfn.
+resend-success-banner-description = Ychwanegu { $accountsEmail } i'ch cysylltiadau i sicrhau anfon llwyddiannus.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -212,7 +212,7 @@ get-data-trio-print-2 =
 alert-icon-aria-label =
     .aria-label = Rhybudd
 authenticator-app-aria-label =
-    .aria-label = Cais Authenticator
+    .aria-label = Cais Dilysydd
 backup-codes-icon-aria-label =
     .aria-label = Codau wrth gefn wedi'u galluogi
 backup-codes-disabled-icon-aria-label =
