@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Er is een nieuwe code naar uw e-mailadres verzonden.
+resend-link-success-banner-heading = Er is een nieuwe koppeling naar uw e-mailadres verzonden.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
