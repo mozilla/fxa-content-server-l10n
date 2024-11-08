@@ -240,7 +240,7 @@ close-icon-aria-label =
     .aria-label = Cau neges
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
-    .aria-label = Codio
+    .aria-label = Cod
 error-icon-aria-label =
     .aria-label = Gwall
 # Used as information icon for informative messaging
