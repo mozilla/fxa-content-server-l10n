@@ -207,6 +207,9 @@ get-data-trio-print-2 =
 
 alert-icon-aria-label =
     .aria-label = Προειδοποίηση
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Πληροφορίες
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
