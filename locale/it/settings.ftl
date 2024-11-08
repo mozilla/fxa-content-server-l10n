@@ -225,7 +225,7 @@ backup-recovery-sms-disabled-icon-aria-label =
     .aria-label = SMS di recupero disattivato
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
-    .aria-label = Bandiera canadese
+    .aria-label = Bandiera del Canada
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
     .aria-label = Spunta
@@ -234,13 +234,13 @@ checkmark-success-icon-aria-label =
     .aria-label = Completato
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
-    .aria-label = Attiva
+    .aria-label = Attivo
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Chiudi messaggio
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
-    .aria-label = Sviluppo
+    .aria-label = Codice
 error-icon-aria-label =
     .aria-label = Errore
 # Used as information icon for informative messaging
