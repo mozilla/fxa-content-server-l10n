@@ -1628,6 +1628,9 @@ signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće
 signup-heading-relay = Hesło wutworić
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Namakajće tu won
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mejlowu adresu změnić
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
