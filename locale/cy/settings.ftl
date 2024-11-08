@@ -222,7 +222,7 @@ backup-recovery-sms-icon-aria-label =
     .aria-label = SMS adfer wedi'i alluogi
 # Disabled version of backup-recovery-sms-icon-aria-label
 backup-recovery-sms-disabled-icon-aria-label =
-    .aria-label = Adfer SMS wedi'i analluogi
+    .aria-label = SMS adfer wedi'i analluogi
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Baner Canada
