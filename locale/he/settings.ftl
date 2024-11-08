@@ -200,6 +200,43 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = התרעה
+authenticator-app-aria-label =
+    .aria-label = יישום מאמת
+backup-codes-icon-aria-label =
+    .aria-label = קודי גיבוי מופעלים
+backup-codes-disabled-icon-aria-label =
+    .aria-label = קודי גיבוי מושבתים
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = הודעת SMS לשחזור מופעלת
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = הודעת SMS לשחזור מושבתת
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = דגל קנדי
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = הצלחה
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = מופעל
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = סגירת הודעה
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = קוד
+error-icon-aria-label =
+    .aria-label = שגיאה
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = מידע
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = דגל ארצות הברית
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -227,11 +264,16 @@ lightbulb-aria-label =
     .aria-label = איור המייצג יצירת רמז לאחסון.
 email-code-image-aria-label =
     .aria-label = איור המייצג מייל המכיל קוד.
+recovery-phone-image-description =
+    .aria-label = מכשיר נייד המקבל קוד בהודעת טקסט.
+recovery-phone-code-image-description =
+    .aria-label = קוד שהתקבל במכשיר נייד.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = התחברת ל־{ -brand-firefox }.
 inline-recovery-key-setup-create-header = אבטחת החשבון שלך
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = יש לך רגע להגן על הנתונים שלך?
@@ -272,6 +314,8 @@ reset-pwd-link-damaged-message = לקישור שלחצת חסרים תווים, 
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = קבלת קישור חדש
 
 ## LinkRememberPassword component
 
@@ -1425,6 +1469,7 @@ signin-token-code-code-expired = פג תוקף הקוד?
 signin-token-code-resend-code-link = שליחת קוד חדש בדוא״ל.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = נדרש קוד אימות
+signin-token-code-resend-error = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1483,6 +1528,12 @@ confirm-signup-code-is-required-error = נדרש קוד אימות
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = הגדרת הססמה שלך
+signup-relay-info = יש צורך בססמה כדי לנהל בצורה מאובטחת את חשבונות הדוא״ל המסוכות שלך ולגשת לכלי האבטחה של { -brand-mozilla }.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = ניתן למצוא את ההסבר כאן
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = שינוי כתובת דוא״ל
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
