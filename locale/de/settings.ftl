@@ -8,7 +8,7 @@
 resend-code-success-banner-heading = Ein neuer Code wurde an Ihre E-Mail-Adresse gesendet.
 resend-link-success-banner-heading = Ein neuer Link wurde an Ihre E-Mail-Adresse gesendet.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-resend-success-banner-description = Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die Zustellung problemlos zugestellt wird.
+resend-success-banner-description = Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die E-Mail problemlos zugestellt wird.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -212,11 +212,11 @@ get-data-trio-print-2 =
 alert-icon-aria-label =
     .aria-label = Warnung
 authenticator-app-aria-label =
-    .aria-label = Authenticator-Anwendung
+    .aria-label = Authentifikations-Anwendung
 backup-codes-icon-aria-label =
     .aria-label = Wiederherstellungscodes aktiviert
 backup-codes-disabled-icon-aria-label =
-    .aria-label = Backup-Codes deaktiviert
+    .aria-label = Wiederherstellungscodes deaktiviert
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Wiederherstellungs-SMS aktiviert
@@ -228,7 +228,7 @@ canadian-flag-icon-aria-label =
     .aria-label = Kanadische Flagge
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
-    .aria-label = Anwählen
+    .aria-label = Häkchen
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Erfolgreich
@@ -240,7 +240,7 @@ close-icon-aria-label =
     .aria-label = Nachricht schließen
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
-    .aria-label = Programmieren
+    .aria-label = Code
 error-icon-aria-label =
     .aria-label = Fehler
 # Used as information icon for informative messaging
@@ -248,7 +248,7 @@ info-icon-aria-label =
     .aria-label = Information
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
-    .aria-label = USA-Flagge
+    .aria-label = Flagge der USA
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
