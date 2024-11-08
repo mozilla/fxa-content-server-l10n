@@ -8,7 +8,7 @@
 resend-code-success-banner-heading = È stato inviato un nuovo codice alla tua email.
 resend-link-success-banner-heading = È stato inviato un nuovo link al tuo indirizzo email.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-resend-success-banner-description = Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza intoppi.
+resend-success-banner-description = Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
