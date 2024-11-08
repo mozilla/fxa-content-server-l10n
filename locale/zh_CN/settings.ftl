@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = 关闭
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = 电子邮件已重发。建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = 出了点问题，无法发送新验证码。
+resend-code-success-banner-heading = 已向您的邮箱发送新验证码。
+resend-link-success-banner-heading = 已向您的邮箱发送新链接。
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = 建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = 地址
 choose-what-to-sync-option-paymentmethods =
     .label = 付款方式
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = 不在收件箱和垃圾邮件箱？重新发送
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = 后退
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = 警告
+authenticator-app-aria-label =
+    .aria-label = 验证器应用程序
+backup-codes-icon-aria-label =
+    .aria-label = 备用验证码已启用
+backup-codes-disabled-icon-aria-label =
+    .aria-label = 备用验证码已禁用
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = 恢复短信已启用
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = 恢复短信已禁用
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = 加拿大国旗
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = 已勾选
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = 成功
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = 已启用
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = 关闭消息
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = 验证码
+error-icon-aria-label =
+    .aria-label = 错误
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = 信息
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = 美国国旗
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = 一台电脑和一部手机，上面分别有一颗破碎的心
 hearts-verified-image-aria-label =
@@ -246,12 +276,13 @@ lightbulb-aria-label =
     .aria-label = 创建存储的图案。
 email-code-image-aria-label =
     .aria-label = 一封包含验证码的电子邮件的插图。
+recovery-phone-image-description =
+    .aria-label = 收到验证码短信的移动设备。
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = 您已登录 { -brand-firefox }
 inline-recovery-key-setup-create-header = 保护账户安全
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = 花上片刻来保护您的数据吧？
@@ -292,15 +323,6 @@ reset-pwd-link-damaged-message = 您点击的链接缺少字符，可能是您�
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = 接收新链接
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = 重置密码链接已过期
-reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
 
 ## LinkRememberPassword component
 
@@ -1577,9 +1599,6 @@ confirm-signup-code-is-required-error = 请输入验证码
 signup-heading = 创建您的密码
 signup-relay-info = 需通过密码来安全管理您的马甲邮箱，以及使用 { -brand-mozilla } 的安全工具。
 signup-heading-relay = 创建密码
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = 我为何需要创建此账户？<LinkExternal>点此了解</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改邮箱
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
