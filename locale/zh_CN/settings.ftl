@@ -278,11 +278,14 @@ email-code-image-aria-label =
     .aria-label = 一封包含验证码的电子邮件的插图。
 recovery-phone-image-description =
     .aria-label = 收到验证码短信的移动设备。
+recovery-phone-code-image-description =
+    .aria-label = 一台移动设备收到验证码。
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = 您已登录 { -brand-firefox }。
 inline-recovery-key-setup-create-header = 保护账户安全
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = 花上片刻来保护您的数据吧？
@@ -323,6 +326,8 @@ reset-pwd-link-damaged-message = 您点击的链接缺少字符，可能是您�
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = 发送新链接
 
 ## LinkRememberPassword component
 
@@ -1539,6 +1544,7 @@ signin-token-code-code-expired = 验证码已过期？
 signin-token-code-resend-code-link = 重新发送验证码。
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 请输入验证码
+signin-token-code-resend-error = 出了点问题，无法发送新验证码。
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1599,6 +1605,11 @@ confirm-signup-code-is-required-error = 请输入验证码
 signup-heading = 创建您的密码
 signup-relay-info = 需通过密码来安全管理您的马甲邮箱，以及使用 { -brand-mozilla } 的安全工具。
 signup-heading-relay = 创建密码
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = 为什么要创建此账户？
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = 请参阅此处
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改邮箱
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
