@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Začinić
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-mejlka je so znowa pósłała. Přidajće swojim kontaktam { $accountsEmail }, zo byšće dodaće bjez problemow zawěsćił.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Něšto je so nimokuliło. Nowy kod njeda so słać.
+resend-code-success-banner-heading = Nowy kod je so na wašu e-mejlowu adresu pósłał.
+resend-link-success-banner-heading = Nowy wotkaz je so na wašu e-mejlowu adresu pósłał.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Přidajće swojim kontaktam { $accountsEmail }, zo byšće dodaće bjez problemow zawěsćił.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Adresy
 choose-what-to-sync-option-paymentmethods =
     .label = Płaćenske metody
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Ani w póstowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Wróćo
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Warnowanje
+authenticator-app-aria-label =
+    .aria-label = Nałoženje awtentifikacije
+backup-codes-icon-aria-label =
+    .aria-label = Zawěsćenske kody zmóžnjene
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Zawěsćenske kody znjemóžnjene
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Wobnowjenski SMS zmóžnjeny
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Wobnowjenski SMS znjemóžnjeny
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Chorhojčka Kanady
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Markěrować
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Wuspěch
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Zmóžnjeny
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Zdźělenku začinić
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kod
+error-icon-aria-label =
+    .aria-label = Zmylk
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informacije
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Chorhojčka Zjednoćenych statow
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Ličak a mobilny telefon a na kóždym wobraz złamaneje wutroby
 hearts-verified-image-aria-label =
@@ -246,12 +276,16 @@ lightbulb-aria-label =
     .aria-label = Ilustracija za wutworjenje składowanskeje pokazki.
 email-code-image-aria-label =
     .aria-label = Ilustracija za mejlku, kotraž kod wobsahuje.
+recovery-phone-image-description =
+    .aria-label = Mobilny grat, kotryž kod přez tekstowu zdźělenku dóstawa.
+recovery-phone-code-image-description =
+    .aria-label = Kod je so na mobilnym graće přijał.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Sće pola { -brand-firefox } přizjewjeny
+inline-recovery-key-setup-signed-in-firefox-2 = Sće pola { -brand-firefox } přizjewjeny.
 inline-recovery-key-setup-create-header = Zawěsćće swoje konto
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Maće mjeńšinu, zo byšće swoje daty škitał?
@@ -293,14 +327,7 @@ reset-pwd-link-damaged-message = Wotkazej, na kotryž sće kliknył, znamješka 
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Nowy wotkaz dóstać
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Wotkaz k wróćostajenju hesła spadnjony
-reset-pwd-link-expired-message = Wotkaz, na kotryž sće kliknył, zo byšće swoje hesło wróćo stajił, je spadnjeny.
+link-expired-new-link-button = Nowy wotkaz dóstać
 
 ## LinkRememberPassword component
 
@@ -1538,6 +1565,7 @@ signin-token-code-code-expired = Je kod spadnył?
 signin-token-code-resend-code-link = Nowy kod přez e-mejl pósłać.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Wobkrućenski kod trěbny
+signin-token-code-resend-error = Něšto je so nimokuliło. Nowy kod njeda so słać.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1599,8 +1627,7 @@ signup-heading = Zapodajće swoje hesło
 signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće rjadować a k wěstotnym nastrojam { -brand-mozilla } přistup měł.
 signup-heading-relay = Hesło wutworić
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Čehodla dyrbju tute konto załožić? <LinkExternal>Hlejće tu</LinkExternal>
+signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mejlowu adresu změnić
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
