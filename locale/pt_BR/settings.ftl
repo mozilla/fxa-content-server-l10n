@@ -4,17 +4,9 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Fechar
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Algo deu errado. Não foi possível enviar um novo código.
+resend-code-success-banner-heading = Um novo código foi enviado para seu email.
+resend-link-success-banner-heading = Um novo link foi enviado para seu email.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +97,6 @@ choose-what-to-sync-option-addresses =
     .label = Endereços
 choose-what-to-sync-option-paymentmethods =
     .label = Métodos de pagamento
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Não chegou em sua caixa de entrada ou pasta de spam? Reenviar
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Voltar
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +207,10 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Um computador, um celular e a imagem de um coração partido em cada um
 hearts-verified-image-aria-label =
@@ -251,7 +239,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Você está conectado neste { -brand-firefox }
 inline-recovery-key-setup-create-header = Proteja sua conta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Tem um minuto para proteger seus dados?
@@ -292,15 +279,6 @@ reset-pwd-link-damaged-message = O link que você clicou tem caracteres faltando
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Receber novo link
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = O link para redefinir a senha expirou
-reset-pwd-link-expired-message = O link que você clicou para redefinir sua senha expirou.
 
 ## LinkRememberPassword component
 
@@ -1569,9 +1547,6 @@ confirm-signup-code-is-required-error = O código de confirmação é obrigatór
 signup-heading = Defina sua senha
 signup-relay-info = É necessária uma senha para gerenciar de forma segura suas máscaras de email e acessar as ferramentas de segurança da { -brand-mozilla }.
 signup-heading-relay = Crie uma senha
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Por que preciso criar esta conta? <LinkExternal>Descubra aqui</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
