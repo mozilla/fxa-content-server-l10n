@@ -241,6 +241,14 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Programar
+error-icon-aria-label =
+    .aria-label = Error
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Información
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandera de Estados Unidos
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -268,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = Ilustración para representar la creación de una sugerencia de almacenamiento.
 email-code-image-aria-label =
     .aria-label = Ilustración para representar un correo electrónico que contiene un código.
+recovery-phone-image-description =
+    .aria-label = Dispositivo móvil que recibe un código por mensaje de texto.
+recovery-phone-code-image-description =
+    .aria-label = Código recibido en un dispositivo móvil.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Estás conectado a { -brand-firefox }.
 inline-recovery-key-setup-create-header = Protege tu cuenta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = ¿Tienes un minuto para proteger tus datos?
@@ -313,6 +326,8 @@ reset-pwd-link-damaged-message = Al enlace que cliqueaste le faltan caracteres, 
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Recibir enlace nuevo
 
 ## LinkRememberPassword component
 
@@ -1545,6 +1560,7 @@ signin-token-code-code-expired = ¿Código expirado?
 signin-token-code-resend-code-link = Enviar código nuevo por correo.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Enlace de confirmación requerido
+signin-token-code-resend-error = Algo se fue a las pailas. No se pudo enviar un código nuevo.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1605,6 +1621,11 @@ confirm-signup-code-is-required-error = El enlace de confirmación es requerido
 signup-heading = Establece tu contraseña
 signup-relay-info = Se necesita una contraseña para administrar de forma segura tus correos electrónicos enmascarados y acceder a las herramientas de seguridad de { -brand-mozilla }.
 signup-heading-relay = Crear una contraseña
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Descubrelo aquí
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
