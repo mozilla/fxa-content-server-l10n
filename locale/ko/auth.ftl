@@ -284,20 +284,29 @@ passwordChangeRequired-different-password-plaintext = 중요: 이전에 사용�
 password-forgot-otp-subject = 비밀번호를 잊으셨나요?
 password-forgot-otp-title = 비밀번호를 잊으셨나요?
 password-forgot-otp-request = 다음으로부터 { -product-mozilla-account } 비밀번호 변경 요청을 받았습니다:
-password-forgot-otp-code = 맞다면, 계속 진행하기 위한 확인 코드는 다음과 같습니다:
+password-forgot-otp-code-2 = 본인이 확인했다면 진행을 위한 확인 코드는 다음과 같습니다:
 password-forgot-otp-expiry-notice = 이 코드는 10분 후에 만료됩니다.
-passwordReset-subject = 비밀번호 수정 완료
-passwordReset-title = 계정 비밀번호가 변경됨
-passwordReset-description = 동기화를 다시 시작하려면 다른 기기에서 새 비밀번호를 입력해야 합니다.
+passwordReset-subject-2 = 비밀번호가 재설정되었습니다
+passwordReset-title-2 = 비밀번호가 재설정되었습니다
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = { -product-mozilla-account } 비밀번호 재설정 정보:
 passwordResetAccountRecovery-subject-2 = 비밀번호가 재설정되었습니다.
-passwordResetAccountRecovery-title-2 = 비밀번호 재설정 성공
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = 계정 복구 키를 사용하여 비밀번호를 업데이트 했습니다:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = 계정 복구 키 생성
-passwordResetAccountRecovery-regen-required-mjml-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
+passwordResetAccountRecovery-title-3 = 비밀번호가 재설정되었습니다
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = 계정 복구 키를 사용한 { -product-mozilla-account } 비밀번호 재설정 정보:
+passwordResetAccountRecovery-information = 동기화된 모든 기기에서 로그아웃되었습니다. 기존의 계정 복구 키를 대체할 새로운 계정 복구 키를 만들었습니다. 계정 설정에서 변경할 수 있습니다.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = 동기화된 모든 기기에서 로그아웃되었습니다. 기존의 계정 복구 키를 대체할 새로운 계정 복구 키를 만들었습니다. 계정 설정에서 변경할 수 있습니다:
+passwordResetAccountRecovery-action-4 = 계정 관리
+passwordResetWithRecoveryKeyPrompt-subject = 비밀번호가 재설정되었습니다
+passwordResetWithRecoveryKeyPrompt-title = 비밀번호가 재설정되었습니다
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = { -product-mozilla-account } 비밀번호 재설정 정보:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = 계정 복구 키 생성
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = 계정 복구 키 생성:
+passwordResetWithRecoveryKeyPrompt-cta-description = 동기화된 모든 기기에서 다시 로그인해야 합니다. 다음을 위해 계정 복구 키로 데이터를 안전하게 지키세요. 비밀번호를 잊어도 데이터를 복구할 수 있습니다.
 postAddAccountRecovery-subject-3 = 새 계정 복구 키 생성됨
 postAddAccountRecovery-title2 = 새 계정 복구 키를 생성했습니다
 # Key here refers to account recovery key
