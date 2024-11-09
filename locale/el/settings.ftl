@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Ένας νέος κωδικός στάλθηκε στο email σας.
+resend-link-success-banner-heading = Ένας νέος σύνδεσμος στάλθηκε στο email σας.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -207,9 +211,34 @@ get-data-trio-print-2 =
 
 alert-icon-aria-label =
     .aria-label = Προειδοποίηση
+authenticator-app-aria-label =
+    .aria-label = Εφαρμογή ελέγχου ταυτότητας
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Η ανάκτησης μέσω SMS ενεργοποιήθηκε
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Η ανάκτησης μέσω SMS απενεργοποιήθηκε
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Καναδική σημαία
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Ενεργοποίηση
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Κλείσιμο μηνύματος
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Κώδικας
+error-icon-aria-label =
+    .aria-label = Σφάλμα
 # Used as information icon for informative messaging
 info-icon-aria-label =
     .aria-label = Πληροφορίες
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Σημαία Ηνωμένων Πολιτειών
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -237,11 +266,14 @@ lightbulb-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά μια υπόδειξη για δημιουργία χώρου.
 email-code-image-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά ένα email που περιέχει έναν κωδικό.
+recovery-phone-image-description =
+    .aria-label = Κινητή συσκευή που λαμβάνει κωδικό μέσω μηνύματος κειμένου.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Συνδεθήκατε στο { -brand-firefox }.
 inline-recovery-key-setup-create-header = Ασφαλίστε τον λογαριασμό σας
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Έχετε χρόνο για να προστατέψετε τα δεδομένα σας;
@@ -282,6 +314,8 @@ reset-pwd-link-damaged-message = Ο σύνδεσμος στον οποίο κά�
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Λήψη νέου συνδέσμου
 
 ## LinkRememberPassword component
 
@@ -1525,6 +1559,7 @@ signin-token-code-code-expired = Έληξε ο κωδικός;
 signin-token-code-resend-code-link = Αποστολή νέου κωδικού.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Απαιτείται κωδικός επιβεβαίωσης
+signin-token-code-resend-error = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1585,6 +1620,11 @@ confirm-signup-code-is-required-error = Απαιτείται κωδικός επ
 signup-heading = Ορισμός κωδικού πρόσβασης
 signup-relay-info = Απαιτείται ένας κωδικός πρόσβασης για τη διαχείριση των μασκών email σας και την πρόσβαση στα εργαλεία ασφαλείας της { -brand-mozilla }.
 signup-heading-relay = Δημιουργία κωδικού πρόσβασης
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό;
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Μάθετέ το εδώ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
