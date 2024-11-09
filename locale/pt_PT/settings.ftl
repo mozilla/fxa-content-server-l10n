@@ -5,10 +5,10 @@
 
 ## Banner component
 
-resend-code-success-banner-heading = Foi enviado um novo código para o seu email.
-resend-link-success-banner-heading = Uma nova ligação foi enviada para o seu email.
+resend-code-success-banner-heading = Foi enviado um novo código para o seu e-mail.
+resend-link-success-banner-heading = Foi enviada uma nova ligação para o seu e-mail.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-resend-success-banner-description = Adicione { $accountsEmail } aos seus contactos para garantir uma entrega suave.
+resend-success-banner-description = Adicione { $accountsEmail } aos seus contactos para garantir uma entrega sem problemas.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -212,7 +212,7 @@ get-data-trio-print-2 =
 alert-icon-aria-label =
     .aria-label = Alerta
 authenticator-app-aria-label =
-    .aria-label = Aplicação autenticador
+    .aria-label = Aplicação de Autenticação
 backup-codes-icon-aria-label =
     .aria-label = Códigos de segurança ativados
 backup-codes-disabled-icon-aria-label =
@@ -225,10 +225,10 @@ backup-recovery-sms-disabled-icon-aria-label =
     .aria-label = SMS de recuperação desativado
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
-    .aria-label = bandeira canadiana
+    .aria-label = Bandeira canadiana
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
-    .aria-label = Marcar
+    .aria-label = Verificado
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Sucesso
@@ -248,7 +248,7 @@ info-icon-aria-label =
     .aria-label = Informação
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
-    .aria-label = bandeira dos Estados Unidos
+    .aria-label = Bandeira dos Estados Unidos
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1619,7 +1619,7 @@ signup-heading = Definir a sua palavra-passe
 signup-relay-info = É necessária uma palavra-passe para gerir com segurança os seus e-mails mascarados e aceder às ferramentas de segurança da { -brand-mozilla }.
 signup-heading-relay = Criar uma palavra-passe
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Por que preciso criar esta conta?
+signup-pocket-info-banner = Porque preciso de criar esta conta?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-pocket-info-banner-link = Descubra aqui
