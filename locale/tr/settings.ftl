@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Kapat
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
+resend-code-success-banner-heading = E-postanıza yeni bir kod gönderildi.
+resend-link-success-banner-heading = E-postanıza yeni bir bağlantı gönderildi.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Adresler
 choose-what-to-sync-option-paymentmethods =
     .label = Ödeme yöntemleri
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Gelen kutusunda ve spam klasöründe göremediniz mi? Yeniden gönderin
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Geri
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,40 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Uyarı
+authenticator-app-aria-label =
+    .aria-label = Kimlik doğrulayıcı uygulaması
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanada bayrağı
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = İşaretle
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Başarılı
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Etkin
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Mesajı kapat
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kod
+error-icon-aria-label =
+    .aria-label = Hata
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Bilgi
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Amerika Birleşik Devletleri bayrağı
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Her birinde kırık bir kalp olan bir bilgisayar ve bir cep telefonu
 hearts-verified-image-aria-label =
@@ -246,12 +266,14 @@ lightbulb-aria-label =
     .aria-label = Saklama ipucu oluşturmayı betimleyen çizim.
 email-code-image-aria-label =
     .aria-label = Kod içeren bir e-postayı betimleyen çizim.
+recovery-phone-image-description =
+    .aria-label = Kısa mesajla kod alan bir mobil cihaz.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = { -brand-firefox }’a giriş yaptınız
+inline-recovery-key-setup-signed-in-firefox-2 = { -brand-firefox }’a giriş yaptınız.
 inline-recovery-key-setup-create-header = Hesabınızın güvenliğini sağlayın
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Verilerinizi korumak için bir dakikanızı ayırır mısınız?
@@ -293,14 +315,7 @@ reset-pwd-link-damaged-message = Tıkladığınız bağlantıda bazı karakterle
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Yeni bağlantı iste
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Parolayı sıfırlama bağlantısının süresi doldu
-reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığınız bağlantı zaman aşımına uğramış.
+link-expired-new-link-button = Yeni bağlantı iste
 
 ## LinkRememberPassword component
 
@@ -1518,6 +1533,7 @@ signin-token-code-code-expired = Kodun süresi mi doldu?
 signin-token-code-resend-code-link = E-posta ile yeni kod gönder.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Onay kodu gerekiyor
+signin-token-code-resend-error = Bir sorun oluştu. Yeni kod gönderilemedi.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1579,8 +1595,10 @@ signup-heading = Parolanızı ayarlayın
 signup-relay-info = Maskeli e-postalarınızı güvenli bir şekilde yönetmek ve { -brand-mozilla }’nın güvenlik araçlarına erişmek için bir parolaya ihtiyacınız var.
 signup-heading-relay = Parola oluşturun
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Neden bu hesabı oluşturmam gerekiyor? <LinkExternal>Nedenini öğrenin</LinkExternal>
+signup-pocket-info-banner = Neden bu hesabı oluşturmam gerekiyor?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Nedenini öğrenin
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-postayı değiştir
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
