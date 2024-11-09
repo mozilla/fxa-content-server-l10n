@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Жабу
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Бірнәрсе қате кетті. Жаңа кодты жіберу мүмкін емес.
+resend-code-success-banner-heading = Электрондық поштаңызға жаңа код жіберілді.
+resend-link-success-banner-heading = Электрондық поштаңызға жаңа сілтеме жіберілді.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Адрестер
 choose-what-to-sync-option-paymentmethods =
     .label = Төлем әдістері
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Кіріс немесе спам бумасында жоқ па? Қайта жіберу
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Артқа
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Ескерту
+authenticator-app-aria-label =
+    .aria-label = Аутентификация қолданбасы
+backup-codes-icon-aria-label =
+    .aria-label = Сақтық көшірме кодтары іске қосылған
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Сақтық көшірме кодтары сөндірілген
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Қалпына келтіру SMS іске қосылған
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Қалпына келтіру SMS сөндірілген
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Канада туы
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Жалауша
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Сәтті
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Іске қосылған
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Хабарламаны жабу
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Код
+error-icon-aria-label =
+    .aria-label = Қате
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Ақпарат
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = АҚШ туы
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Компьютер мен ұялы телефон және әрқайсысында жаралы жүректің суреті
 hearts-verified-image-aria-label =
@@ -246,12 +276,16 @@ lightbulb-aria-label =
     .aria-label = Сақтау туралы кеңес жасауды бейнелейтін сурет.
 email-code-image-aria-label =
     .aria-label = Коды бар электрондық поштаны көрсетуге арналған иллюстрация.
+recovery-phone-image-description =
+    .aria-label = Мәтіндік хабарлама арқылы кодты қабылдайтын мобильді құрылғы.
+recovery-phone-code-image-description =
+    .aria-label = Мобильді құрылғыда алынған код.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Сіз { -brand-firefox } ішіне кірдіңіз
+inline-recovery-key-setup-signed-in-firefox-2 = Сіз { -brand-firefox } ішіне кірдіңіз.
 inline-recovery-key-setup-create-header = Тіркелгіңізді қорғаңыз
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Деректеріңізді қорғауға бір минутыңыз бар ма?
@@ -293,14 +327,7 @@ reset-pwd-link-damaged-message = Сіз шерткен сілтемеде бір
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Жаңа сілтемені алу
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
-reset-pwd-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
+link-expired-new-link-button = Жаңа сілтемені алу
 
 ## LinkRememberPassword component
 
@@ -1540,6 +1567,7 @@ signin-token-code-code-expired = Кодтың мерзімі бітті ме?
 signin-token-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Растау коды қажет
+signin-token-code-resend-error = Бірнәрсе қате кетті. Жаңа кодты жіберу мүмкін емес.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1601,8 +1629,10 @@ signup-heading = Парольді орнату
 signup-relay-info = Маскамен жасырылған эл. пошталарды қауіпсіз басқару және { -brand-mozilla } қауіпсіздік құралдарына кіру үшін пароль керек.
 signup-heading-relay = Парольді жасау
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Бұл тіркелгіні маған неге жасау керек?<LinkExternal>Осы жерден біліңіз</LinkExternal>
+signup-pocket-info-banner = Бұл тіркелгіні маған не үшін жасау керек?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Осы жерден біліңіз
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Эл. поштаны өзгерту
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
