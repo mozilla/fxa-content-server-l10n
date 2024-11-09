@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = 닫기
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = 이메일이 다시 전송되었습니다. 원활한 전송을 위해 { $accountsEmail }을 연락처에 추가하세요.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = 문제가 발생했습니다. 새 코드를 보낼 수 없습니다.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -106,14 +96,6 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-paymentmethods =
     .label = 결제 방법
 
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = 받은편지함이나 스팸 폴더에 없나요? 다시 보내기
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = 뒤로
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -169,6 +151,22 @@ form-password-sr-passwords-match = 입력한 비밀번호가 일치합니다.
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = 비밀번호
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = 비밀번호 재입력
+form-password-with-inline-criteria-signup-submit-button = 계정 만들기
+form-password-with-inline-criteria-reset-new-password =
+    .label = 새 비밀번호
+form-password-with-inline-criteria-confirm-password =
+    .label = 비밀번호 확인
+form-password-with-inline-criteria-reset-submit-button = 새로운 비밀번호 생성
+form-password-with-inline-criteria-match-error = 비밀번호가 일치하지 않습니다
+form-password-with-inline-criteria-sr-too-short-message = 비밀번호는 최소 8자 이상입니다.
+form-password-with-inline-criteria-sr-not-email-message = 비밀번호에 이메일 주소가 포함되어서는 안 됩니다.
+form-password-with-inline-criteria-sr-not-common-message = 비밀번호는 흔히 사용되는 비밀번호가 아니어야 합니다.
+form-password-with-inline-criteria-sr-requirements-met = 입력한 비밀번호는 모든 요건을 충족합니다.
+form-password-with-inline-criteria-sr-passwords-match = 입력한 비밀번호가 일치합니다.
 
 ## FormVerifyCode
 
@@ -207,6 +205,18 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = 경고
+authenticator-app-aria-label =
+    .aria-label = 인증기 애플리케이션
+backup-codes-icon-aria-label =
+    .aria-label = 백업 코드 활성화됨
+backup-codes-disabled-icon-aria-label =
+    .aria-label = 백업 코드 비활성화됨
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = 각각 깨진 하트가 그려진 컴퓨터와 휴대폰
 hearts-verified-image-aria-label =
@@ -235,7 +245,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = { -brand-firefox }에 로그인했습니다.
 inline-recovery-key-setup-create-header = 계정을 보호하세요.
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = 잠시 시간을 내어 데이터를 보호하세요.
@@ -276,15 +285,6 @@ reset-pwd-link-damaged-message = 클릭하신 링크에 누락된 문자가 있�
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = 새 링크 받기
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = 비밀번호 재설정 링크가 만료됨
-reset-pwd-link-expired-message = 비밀번호를 재설정하기 위해 클릭한 링크가 만료되었습니다.
 
 ## LinkRememberPassword component
 
@@ -325,11 +325,15 @@ password-strength-balloon-stay-safe-tips = 안전을 위해 — 비밀번호를 
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = 최소 8자 이상
+password-strength-inline-not-email = 이메일 주소가 아님
+password-strength-inline-not-common = 흔히 사용되는 비밀번호가 아님
+password-strength-inline-confirmed-must-match = 새 비밀번호 확인이 새 비밀번호와 일치
 
 ## Ready component
 
-reset-password-complete-header = 비밀번호가 재설정되었습니다
 ready-complete-set-up-instruction = 다른 { -brand-firefox } 기기에 새 비밀번호를 입력하여 설정을 완료하세요.
+manage-your-account-button = 계정 관리
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -381,6 +385,16 @@ flow-recovery-key-hint-unsafe-char-error = 힌트에는 안전하지 않은 유�
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = 경고
+password-reset-chevron-expanded = 경고 접기
+password-reset-chevron-collapsed = 경고 펼치기
+password-reset-data-may-not-be-recovered = 브라우저 데이터가 복구되지 않을 수 있습니다.
+password-reset-previously-signed-in-device-2 = 이전에 로그인한 기기가 있나요?
+password-reset-data-may-be-saved-locally-2 = 브라우저 데이터가 해당 기기에 저장되었을 수 있습니다. 비밀번호를 재설정한 뒤 기기에 로그인하여 데이터를 복구하고 동기화하세요.
+password-reset-no-old-device-2 = 새 기기는 있지만 이전 기기에 접근할 수 없나요?
+password-reset-encrypted-data-cannot-be-recovered-2 = 죄송합니다. { -brand-firefox } 서버에서 암호화된 브라우저 데이터를 복구할 수 없습니다.
+password-reset-warning-have-key = 계정 복구 키가 있나요?
+password-reset-warning-use-key-link = 지금 사용하여 비밀번호를 재설정하고 데이터를 유지하세요.
 
 ## Alert Bar
 
@@ -1312,16 +1326,35 @@ third-party-auth-callback-message = 잠시만 기다려 주세요. 승인된 애
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = 계정 복구 키를 입력하세요.
+account-recovery-confirm-key-instruction = 이 키는 { -brand-firefox } 서버에서 비밀번호 및 북마크와 같은 암호화된 탐색 데이터를 복구합니다.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = 32자리 계정 복구 키를 입력하세요.
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = 저장소 힌트:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = 계속
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = 계정 복구 키를 찾을 수 없나요?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = 새 비밀번호 만들기
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = 비밀번호 설정
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 죄송합니다. 비밀번호를 설정하는 중 문제가 발생했습니다.
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = 계정 복구 키 사용
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = 비밀번호가 재설정되었습니다.
+reset-password-complete-banner-message = 향후 로그인 문제가 생기는 것을 방지하기 위해 { -product-mozilla-account } 계정 설정에서 새로운 계정 복구 키를 생성하는 것을 잊지 마세요.
 
 ## Confirm Reset Password With Code
 
@@ -1340,16 +1373,38 @@ confirm-reset-password-otp-resend-code-button = 코드 재전송
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = 다른 계정 사용
 
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = 비밀번호 재설정
+confirm-totp-reset-password-subheader = 2단계 인증 보안 코드(2FA)를 입력하세요.
+confirm-totp-reset-password-instruction = 인증 앱을 확인하여 비밀번호를 재설정하세요.
+confirm-totp-reset-password-trouble-code = 코드 입력에 문제가 있나요?
+confirm-totp-reset-password-confirm-button = 확인
+confirm-totp-reset-password-input-label = 코드 입력
+confirm-totp-reset-password-use-different-account = 다른 계정 사용
+
 ## ResetPassword start page
 
 password-reset-flow-heading = 비밀번호 재설정
-password-reset-body = 이메일을 입력하시면 본인 확인용 확인 코드를 보내드립니다.
+password-reset-body-2 =
+    계정을 안전하게 유지하기 위해 사용자만 아는 몇 가지 사항을
+    묻겠습니다.
 password-reset-email-input =
     .label = 이메일 입력
-password-reset-submit-button = 재설정 가이드 전송
+password-reset-submit-button-2 = 계속
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = 비밀번호가 재설정되었습니다
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = { $serviceName }로 계속
 reset-password-with-recovery-key-verified-page-title = 비밀번호 재설정 성공
-reset-password-with-recovery-key-verified-generate-new-key = 새 계정 복구 키 생성
-reset-password-with-recovery-key-verified-continue-to-account = 내 계정으로 이동
+reset-password-complete-new-password-saved = 새 비밀번호 저장됨!
+reset-password-complete-recovery-key-created = 새로운 계정 복구 키가 생성되었습니다. 지금 다운로드하고 저장하세요.
+reset-password-complete-recovery-key-download-info =
+    이 키는 비밀번호를 잊어버렸을 때
+    데이터를 복구하는 데 필수입니다. <b>지금 다운로드하고 안전하게 저장하세요.
+    나중에 이 페이지에 다시 접근할 수 없습니다.</b>
 
 ## CompleteSignin component
 
@@ -1469,15 +1524,9 @@ signin-token-code-required-error = 확인 코드 필요
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = <span>계정 설정을 계속하려면</span> 인증 코드를 입력하세요.
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = <span> { $serviceName } 서비스를</span> 계속하려면 인증 코드를 입력하세요.
-signin-totp-code-instruction-v2 = 인증 앱을 열고 제공된 인증 코드를 입력하세요.
-signin-totp-code-input-label-v2 = 6자리 숫자 코드 입력
+signin-totp-code-subheader = 2단계 인증 보안 코드(2FA)를 입력하세요.
+signin-totp-code-instruction-v3 = 인증 앱을 확인하여 로그인을 승인하세요.
+signin-totp-code-input-label-v3 = 코드 입력
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 확인
 signin-totp-code-other-account-link = 다른 계정 사용
@@ -1528,9 +1577,6 @@ confirm-signup-code-is-required-error = 확인 코드가 필요합니다.
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = 비밀번호 설정
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = 계정을 생성해야 하는 이유가 궁금하신가요? <LinkExternal>여기서 이유를 알아보세요</LinkExternal>.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 이메일 변경
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
