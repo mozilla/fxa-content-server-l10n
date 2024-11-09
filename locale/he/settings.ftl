@@ -1440,6 +1440,8 @@ signin-push-code-confirm-link-error = הקישור פגום. נא לנסות ש�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = אישור
 # Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = חזרה
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1529,6 +1531,7 @@ confirm-signup-code-is-required-error = נדרש קוד אימות
 
 signup-heading = הגדרת הססמה שלך
 signup-relay-info = יש צורך בססמה כדי לנהל בצורה מאובטחת את חשבונות הדוא״ל המסוכות שלך ולגשת לכלי האבטחה של { -brand-mozilla }.
+signup-heading-relay = יצירת ססמה
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

@@ -475,6 +475,9 @@ subscriptionReactivation-content = מחזור החיוב והתשלום שלך �
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = הודעת חידוש אוטומטי של { $productName }
 subscriptionRenewalReminder-title = המינוי שלך יחודש בקרוב
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = לקוח { $productName } יקר,
 subscriptionRenewalReminder-content-closing = בברכה,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
