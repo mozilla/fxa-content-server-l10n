@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Закрыть
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Письмо отправлено повторно. Добавьте { $accountsEmail } в свои контакты, чтобы обеспечить его корректную доставку.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Что-то пошло не так. Не удалось отправить новый код.
+resend-code-success-banner-heading = Новый код был отправлен на вашу электронную почту.
+resend-link-success-banner-heading = Новая ссылка была отправлена на вашу электронную почту.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Добавьте { $accountsEmail } в свои контакты, чтобы обеспечить корректную доставку писем.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Адреса
 choose-what-to-sync-option-paymentmethods =
     .label = Способы оплаты
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Нет в папке «Входящие» или «Спам»? Отправить снова
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Назад
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,14 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Предупреждение
+authenticator-app-aria-label =
+    .aria-label = Приложение-аутентификатор
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Компьютер, мобильный телефон и изображение разбитого сердца на каждом
 hearts-verified-image-aria-label =
@@ -251,7 +245,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Вы вошли в { -brand-firefox }
 inline-recovery-key-setup-create-header = Защитите свой аккаунт
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Уделите минуту на защиту своих данных?
@@ -292,15 +285,6 @@ reset-pwd-link-damaged-message = В ссылке, по которой вы щё�
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Получить новую ссылку
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Срок жизни ссылки для сброса пароля истёк
-reset-pwd-link-expired-message = Срок жизни ссылки, по которой вы щёлкаете, чтобы сбросить пароль, истёк.
 
 ## LinkRememberPassword component
 
@@ -1596,9 +1580,6 @@ confirm-signup-code-is-required-error = Требуется код подтвер
 signup-heading = Установите пароль
 signup-relay-info = Пароль необходим для безопасного управления замаскированными адресами электронной почты и доступа к инструментам безопасности { -brand-mozilla }.
 signup-heading-relay = Создать пароль
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Зачем мне нужно создавать этот аккаунт? <LinkExternal>Узнайте здесь</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Сменить адрес электронной почты
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
