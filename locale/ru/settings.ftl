@@ -213,6 +213,42 @@ alert-icon-aria-label =
     .aria-label = Предупреждение
 authenticator-app-aria-label =
     .aria-label = Приложение-аутентификатор
+backup-codes-icon-aria-label =
+    .aria-label = Резервные коды включены
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Резервные коды отключены
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Восстановление по SMS включено
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Восстановление по SMS отключено
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Канадский флаг
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Флажок
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Успешно
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Включено
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Закрыть сообщение
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Код
+error-icon-aria-label =
+    .aria-label = Ошибка
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Информация
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Флаг США
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -240,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = Иллюстрация, показывающая создание подсказки хранилища.
 email-code-image-aria-label =
     .aria-label = Иллюстрация для представления электронного письма, содержащего код.
+recovery-phone-image-description =
+    .aria-label = Мобильное устройство, получающее код в виде текстового сообщения.
+recovery-phone-code-image-description =
+    .aria-label = Код, полученный на мобильное устройство.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Вы вошли в { -brand-firefox }.
 inline-recovery-key-setup-create-header = Защитите свой аккаунт
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Уделите минуту на защиту своих данных?
@@ -285,6 +326,8 @@ reset-pwd-link-damaged-message = В ссылке, по которой вы щё�
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Получить новую ссылку
 
 ## LinkRememberPassword component
 
@@ -1520,6 +1563,7 @@ signin-token-code-code-expired = Срок действия кода истёк?
 signin-token-code-resend-code-link = Отправить новый код по электронной почте.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Требуется код подтверждения
+signin-token-code-resend-error = Что-то пошло не так. Не удалось отправить новый код.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1580,6 +1624,11 @@ confirm-signup-code-is-required-error = Требуется код подтвер
 signup-heading = Установите пароль
 signup-relay-info = Пароль необходим для безопасного управления замаскированными адресами электронной почты и доступа к инструментам безопасности { -brand-mozilla }.
 signup-heading-relay = Создать пароль
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Зачем мне нужно создавать этот аккаунт?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Узнайте здесь
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Сменить адрес электронной почты
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
