@@ -8,7 +8,7 @@
 resend-code-success-banner-heading = Se envió un nuevo código a tu correo electrónico.
 resend-link-success-banner-heading = Se envió un nuevo enlace a tu correo electrónico.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-resend-success-banner-description = Agregue { $accountsEmail } a sus contactos para asegurar una entrega sin problemas.
+resend-success-banner-description = Agregá { $accountsEmail } a tus contactos para asegurar una entrega sin problemas.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -219,16 +219,16 @@ backup-codes-disabled-icon-aria-label =
     .aria-label = Códigos de respaldo deshabilitados
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
-    .aria-label = SMS de recuperación habilitados
+    .aria-label = SMS de recuperación habilitado
 # Disabled version of backup-recovery-sms-icon-aria-label
 backup-recovery-sms-disabled-icon-aria-label =
-    .aria-label = SMS de recuperación deshabilitados
+    .aria-label = SMS de recuperación deshabilitado
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Bandera canadiense
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
-    .aria-label = Chequear
+    .aria-label = Verificación
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Éxito
@@ -248,7 +248,7 @@ info-icon-aria-label =
     .aria-label = Información
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
-    .aria-label = Bandera de estados unidos
+    .aria-label = Bandera de Estados Unidos
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1627,7 +1627,7 @@ signup-heading-relay = Crear una contraseña
 signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Descúbrelo aquí
+signup-pocket-info-banner-link = Descúbrilo acá
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo electrónico
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
