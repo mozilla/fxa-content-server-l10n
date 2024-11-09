@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = 이메일로 새 코드를 발송했습니다.
+resend-link-success-banner-heading = 이메일로 새 링크를 발송했습니다.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = 원활한 전송을 위해 { $accountsEmail } 주소를 연락처에 추가하세요.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -213,6 +217,38 @@ backup-codes-icon-aria-label =
     .aria-label = 백업 코드 활성화됨
 backup-codes-disabled-icon-aria-label =
     .aria-label = 백업 코드 비활성화됨
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = 복구 SMS 활성화됨
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = 복구 SMS 비활성화됨
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = 캐나다 국기
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = 확인
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = 성공
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = 활성화됨
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = 메시지 닫기
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = 코드
+error-icon-aria-label =
+    .aria-label = 오류
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = 정보
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = 미국 국기
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -240,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = 저장소 힌트 생성을 표현한 그림입니다.
 email-code-image-aria-label =
     .aria-label = 코드가 포함된 이메일을 나타내는 그림입니다.
+recovery-phone-image-description =
+    .aria-label = 문자 메시지로 코드를 받는 모바일 기기.
+recovery-phone-code-image-description =
+    .aria-label = 모바일 기기로 받은 코드.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = { -brand-firefox }에 로그인했습니다.
 inline-recovery-key-setup-create-header = 계정을 보호하세요.
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = 잠시 시간을 내어 데이터를 보호하세요.
@@ -285,6 +326,8 @@ reset-pwd-link-damaged-message = 클릭하신 링크에 누락된 문자가 있�
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = 새 링크 받기
 
 ## LinkRememberPassword component
 
@@ -1430,6 +1473,7 @@ signin-subheader-with-logo = <span>{ $serviceLogo }</span>로 계속
 signin-subheader-without-logo-with-servicename = { $serviceName }로 계속
 signin-subheader-without-logo-default = 계정 설정 계속하기
 signin-button = 로그인
+signin-header = 로그인
 signin-use-a-different-account-link = 다른 계정 사용
 signin-forgot-password-link = 비밀번호를 잊으셨나요?
 signin-password-button-label = 비밀번호
@@ -1519,6 +1563,7 @@ signin-token-code-code-expired = 코드가 만료되었나요?
 signin-token-code-resend-code-link = 이메일로 새 코드를 받으세요.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 확인 코드 필요
+signin-token-code-resend-error = 문제가 발생했습니다. 새 코드를 보낼 수 없습니다.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1577,6 +1622,13 @@ confirm-signup-code-is-required-error = 확인 코드가 필요합니다.
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = 비밀번호 설정
+signup-relay-info = 안전하게 가려진 이메일을 관리하고 { -brand-mozilla }의 보안 도구에 접근하려면 비밀번호가 필요합니다.
+signup-heading-relay = 비밀번호 생성
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = 왜 이 계정을 만들어야 하나요?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = 자세히 보기
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 이메일 변경
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
