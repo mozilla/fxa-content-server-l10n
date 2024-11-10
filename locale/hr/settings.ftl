@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Zatvori
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-mail poruka je ponovo poslana. Dodaj { $accountsEmail } u svoje kontakte za sigurnu isporuku.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Nešto nije u redu. Nije bilo moguće poslati novi kod.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -93,14 +83,6 @@ choose-what-to-sync-option-addresses =
     .label = Adrese
 choose-what-to-sync-option-paymentmethods =
     .label = Načini plaćanja
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Nije u ulaznom sandučiću niti u sandučiću neželjenih e-mailova? Pošalji ponovo
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Natrag
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -210,6 +192,35 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Upozorenje
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadska zastava
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Uspjeh
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Aktivirano
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Zatvori poruku
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kod
+error-icon-aria-label =
+    .aria-label = Greška
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informacije
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Zastava Sjedinjenih Američkih Država
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Računalo i mobitel sa slikom slomljenog srca
 hearts-verified-image-aria-label =
@@ -260,15 +271,6 @@ report-signin-link-damaged-header = Poveznica je oštećena
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Primi novu poveznicu
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Poveznica za resetiranje lozinke je istekla
-reset-pwd-link-expired-message = Poveznica na koju si pritisnuo/la za resetiranje lozinke je istekla.
 
 ## LinkRememberPassword component
 
@@ -361,6 +363,9 @@ flow-recovery-key-hint-char-limit-error = Savjet mora sadržati manje od 255 zna
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Upozorenje
+password-reset-chevron-expanded = Sklopi upozorenje
+password-reset-chevron-collapsed = Rasklopi upozorenje
 
 ## Alert Bar
 
@@ -1119,16 +1124,22 @@ pair-supp-allow-cancel-link = Odustani
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Nastavi
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Stvori novu lozinku
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lozinka je postavljena
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Žao nam je. Došlo je do greške prilikom postavljanja tvoje lozinke
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Tvoja je lozinka resetirana.
 
 ## Confirm Reset Password With Code
 
@@ -1149,17 +1160,23 @@ confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Resetiraj tvoju lozinku
+confirm-totp-reset-password-confirm-button = Potvrdi
+confirm-totp-reset-password-input-label = Upiši kod
+confirm-totp-reset-password-use-different-account = Koristi jedan drugi račun
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Resetiraj tvoju lozinku
 password-reset-email-input =
     .label = Upiši tvoju e-mail adresu
+password-reset-submit-button-2 = Nastavi
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Tvoja je lozinka resetirana
 reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
+reset-password-complete-new-password-saved = Nova lozinka je spremljena!
 
 ## CompleteSignin component
 
@@ -1284,9 +1301,6 @@ confirm-signup-code-is-required-error = Potreban je potvrdni kod
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Postavi tvoju lozinku
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Zašto moram stvoriti ovaj račun? <LinkExternal>Saznaj ovdje</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Promijeni e-mail adresu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
