@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Cerrar
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Correo electrónico reenviado. Añade { $accountsEmail } a tus contactos para asegurar una recepción sin problemas.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Ha habido un problema. No se ha podido enviar un nuevo código.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +95,6 @@ choose-what-to-sync-option-addresses =
     .label = Direcciones
 choose-what-to-sync-option-paymentmethods =
     .label = Métodos de pago
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = ¿No está en la bandeja de entrada o en la carpeta spam? Reenviar
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Atrás
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +205,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Alerta
+authenticator-app-aria-label =
+    .aria-label = Aplicación de autenticación
+backup-codes-icon-aria-label =
+    .aria-label = Códigos de respaldo habilitados
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Códigos de respaldo deshabilitados
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS de recuperación habilitado
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS de recuperación deshabilitado
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Bandera canadiense
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Marcar
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Todo correcto
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Activado
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Cerrar mensaje
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Código
+error-icon-aria-label =
+    .aria-label = Error
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Información
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandera de Estados Unidos
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Un ordenador, un teléfono móvil y la imagen de un corazón roto en cada uno.
 hearts-verified-image-aria-label =
@@ -251,10 +277,11 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Has iniciado sesión en { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = Has iniciado sesión en { -brand-firefox }.
 inline-recovery-key-setup-create-header = Asegura tu cuenta
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = ¿Tienes un minuto para proteger tus datos?
+inline-recovery-key-setup-info = Crea una clave de recuperación de tu cuenta para que puedas restaurar tus datos de navegación sincronizada si alguna vez olvidas tu contraseña.
 inline-recovery-key-setup-start-button = Crear una clave de recuperación de cuenta
 inline-recovery-key-setup-later-button = Más tarde
 
@@ -292,14 +319,7 @@ reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caractere
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Recibir nuevo enlace
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = El enlace para restablecer la contraseña ha cadudado
-reset-pwd-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha caducado.
+link-expired-new-link-button = Recibir nuevo enlace
 
 ## LinkRememberPassword component
 
@@ -319,6 +339,8 @@ confirmation-link-reused-message = Ese enlace de confirmación ya ha sido usado 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
+account-recovery-notification-header-description = Crea una clave de recuperación de cuenta para restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud incorrecta
 
@@ -339,10 +361,14 @@ password-strength-balloon-stay-safe-tips = Mantente seguro — no reutilices las
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = Al menos 8 caracteres
+password-strength-inline-not-email = Diferente a tu dirección de correo electrónico
+password-strength-inline-not-common = Que no sea una contraseña de uso común
+password-strength-inline-confirmed-must-match = La confirmación coincide con la nueva contraseña
 
 ## Ready component
 
 ready-complete-set-up-instruction = Completa la configuración introduciendo tu nueva contraseña en el resto de tus dispositivos { -brand-firefox }.
+manage-your-account-button = Administra tu cuenta
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -496,6 +522,7 @@ cs-sign-out-button = Cerrar sesión
 
 dc-heading = Recopilación y uso de datos
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
 dc-opt-out-success-2 = Desactivación correcta. { -product-mozilla-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success-2 = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-mozilla-accounts }.
@@ -860,6 +887,13 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Descubre si tu información privada ha sido expuesta — y recupérala
+# Links out to the Monitor site
+product-promo-monitor-cta = Hacer un escaneo gratuito
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Comenzar
 
 ## Profile section
 
@@ -896,6 +930,7 @@ security-action-create = Crear
 security-set-password = Establecer una contraseña para sincronizar y usar ciertas funciones de seguridad de la cuenta.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ver actividad reciente de la cuenta
+signout-sync-header = Sesión expirada
 
 ## Switch component
 
@@ -1047,6 +1082,7 @@ auth-error-155 = Token TOTP no encontrado
 auth-error-159 = Clave de recuperación de cuenta no válida
 auth-error-183-2 = Código de confirmación no válido o caducado
 auth-error-999 = Error inesperado
+auth-error-1001 = Se ha cancelado el inicio de sesión
 auth-error-1002 = La sesión expiró. Inicia sesión para continuar.
 auth-error-1003 = El almacenamiento local o las cookies siguen desactivados
 auth-error-1008 = La nueva contraseña debe ser diferente
@@ -1104,6 +1140,8 @@ cookies-disabled-learn-more = Saber más
 
 ## Index / home page
 
+index-header = Escribe tu correo electrónico
+index-sync-header = Continuar a tu { -product-mozilla-account }
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
@@ -1523,9 +1561,12 @@ confirm-signup-code-is-required-error = Código de confirmación requerido
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Establece tu contraseña
+signup-heading-relay = Crear una contraseña
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = ¿Por qué necesito crear esta cuenta? <LinkExternal>Descúbrelo aquí</LinkExternal>
+signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Descúbrelo aquí
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
