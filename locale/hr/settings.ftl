@@ -197,6 +197,9 @@ alert-icon-aria-label =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanadska zastava
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Kvačica
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Uspjeh
@@ -1215,6 +1218,7 @@ back = Natrag
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Potvrdi tvoju prijavu
+signin-push-code-confirm-login = Potvrdi prijavu
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1253,6 +1257,7 @@ signin-token-code-required-error = Potreban je potvrdni kod
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v3 = Upiši kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdi
 signin-totp-code-other-account-link = Koristi jedan drugi račun
@@ -1301,6 +1306,12 @@ confirm-signup-code-is-required-error = Potreban je potvrdni kod
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Postavi tvoju lozinku
+signup-heading-relay = Stvori lozinku
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Zašto moram stvoriti ovaj račun?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Saznaj ovdje
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Promijeni e-mail adresu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
