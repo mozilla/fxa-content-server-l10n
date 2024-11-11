@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Sulje
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Sähköposti lähetetty uudelleen. Lisää { $accountsEmail } yhteystietoihisi varmistaaksesi sujuvan toimituksen.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
+resend-code-success-banner-heading = Uusi koodi lähetettiin sähköpostiisi.
+resend-link-success-banner-heading = Uusi linkki lähetettiin sähköpostiisi.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Lisää { $accountsEmail } yhteystietoihisi varmistaaksesi sujuvan toimituksen.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Osoitteet
 choose-what-to-sync-option-paymentmethods =
     .label = Maksutavat
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Ei saapuneissa tai roskapostissa? Lähetä uudestaan
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Edellinen
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -222,6 +208,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Käytössä
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Sulje viesti
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Koodi
+error-icon-aria-label =
+    .aria-label = Virhe
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Tietokone ja matkapuhelin, joissa molemmissa on särkynyt sydän
 hearts-verified-image-aria-label =
@@ -248,7 +249,7 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Olet kirjautunut { -brand-firefox }iin
+inline-recovery-key-setup-signed-in-firefox-2 = Olet kirjautunut { -brand-firefox }iin.
 inline-recovery-key-setup-create-header = Suojaa tilisi
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Onko sinulla hetki aikaa suojata tietosi?
@@ -290,14 +291,7 @@ reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähk�
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Vastaanota uusi linkki
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Salasanan nollauslinkki on vanhentunut
-reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on vanhentunut.
+link-expired-new-link-button = Vastaanota uusi linkki
 
 ## LinkRememberPassword component
 
@@ -1387,6 +1381,7 @@ confirm-reset-password-otp-different-account-link = Käytä toista tiliä
 
 confirm-totp-reset-password-header = Nollaa salasanasi
 confirm-totp-reset-password-subheader = Syötä kaksivaiheisen todennuksen suojakoodi (2FA)
+confirm-totp-reset-password-trouble-code = Ongelmia koodin kirjoittamisen kanssa?
 confirm-totp-reset-password-confirm-button = Vahvista
 confirm-totp-reset-password-input-label = Kirjoita koodi
 confirm-totp-reset-password-use-different-account = Käytä toista tiliä
@@ -1519,6 +1514,7 @@ signin-token-code-code-expired = Vanheniko koodi?
 signin-token-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Vahvistuskoodi vaaditaan
+signin-token-code-resend-error = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1579,8 +1575,10 @@ confirm-signup-code-is-required-error = Vahvistuskoodi vaaditaan
 signup-heading = Aseta salasana
 signup-heading-relay = Luo salasana
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Miksi minun pitää luoda tämä tili? <LinkExternal>Lisätietoja tästä</LinkExternal>
+signup-pocket-info-banner = Miksi minun pitää luoda tämä tili?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Lue lisää
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Vaihda sähköpostiosoite
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
