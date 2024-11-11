@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Закрити
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Повідомлення повторно надіслано. Додайте { $accountsEmail } до своїх контактів, для правильного доставлення.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Щось пішло не так. Не вдалося надіслати новий код.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +95,6 @@ choose-what-to-sync-option-addresses =
     .label = Адреси
 choose-what-to-sync-option-paymentmethods =
     .label = Способи оплати
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Немає у вхідних чи спамі? Надіслати ще раз
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Назад
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +205,36 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Попередження
+backup-codes-icon-aria-label =
+    .aria-label = Резервні коди ввімкнено
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Резервні коди вимкнено
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Канадський прапор
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Успішно
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Увімкнено
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Закрити повідомлення
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Код
+error-icon-aria-label =
+    .aria-label = Помилка
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Інформація
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Комп'ютер і мобільний телефон, а також зображення розбитого серця на пляжі
 hearts-verified-image-aria-label =
@@ -246,12 +258,14 @@ lightbulb-aria-label =
     .aria-label = Ілюстрація для створення підказки про сховище.
 email-code-image-aria-label =
     .aria-label = Ілюстрація із зображенням електронного листа з кодом.
+recovery-phone-image-description =
+    .aria-label = Мобільний пристрій, який отримує код у текстовому повідомленні.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Ви ввійшли у { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = Ви ввійшли в { -brand-firefox }.
 inline-recovery-key-setup-create-header = Захистіть свій обліковий запис
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Маєте хвилинку, щоб захистити свої дані?
@@ -293,14 +307,7 @@ reset-pwd-link-damaged-message = Посилання, за яким ви пере
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Отримати нове посилання
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Посилання для відновлення пароля протерміноване
-reset-pwd-link-expired-message = Посилання для відновлення пароля, за яким ви перейшли, протерміноване.
+link-expired-new-link-button = Отримати нове посилання
 
 ## LinkRememberPassword component
 
@@ -1540,6 +1547,7 @@ signin-token-code-code-expired = Код застарів?
 signin-token-code-resend-code-link = Надіслати новий код електронною поштою.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Потрібно ввести код підтвердження
+signin-token-code-resend-error = Щось пішло не так. Не вдалося надіслати новий код.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1601,8 +1609,10 @@ signup-heading = Встановіть пароль
 signup-relay-info = Пароль потрібен для безпечного керування замаскованими адресами е-пошти та доступу до інструментів безпеки { -brand-mozilla }.
 signup-heading-relay = Створити пароль
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Нащо потрібно створювати обліковий запис? <LinkExternal>Дізнайтеся тут</LinkExternal>
+signup-pocket-info-banner = Чому мені потрібно створити цей обліковий запис?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Дізнайтеся тут
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змінити адресу електронної пошти
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
