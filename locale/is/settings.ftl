@@ -7,6 +7,8 @@
 
 resend-code-success-banner-heading = Nýr kóði var sendur á tölvupóstfangið þitt.
 resend-link-success-banner-heading = Nýr tengill var sendur á tölvupóstfangið þitt.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -207,6 +209,46 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Aðvörun
+authenticator-app-aria-label =
+    .aria-label = Auðkenningarforrit
+backup-codes-icon-aria-label =
+    .aria-label = Öryggisafritunarkóðar virkir
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Öryggisafritunarkóðar óvirkir
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Endurheimtu-SMS virkt
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Endurheimtu-SMS óvirkt
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadískur fáni
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Merkja
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Tókst
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Virkt
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Loka skilaboðum
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kóði
+error-icon-aria-label =
+    .aria-label = Villa
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Upplýsingar
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandarískur fáni
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -234,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = Myndskreyting sem táknar að búa til vísbendingu fyrir geymslu.
 email-code-image-aria-label =
     .aria-label = Myndskreyting sem táknar tölvupóst sem inniheldur kóða.
+recovery-phone-image-description =
+    .aria-label = Farsímatæki sem fær kóða með textaskilaboðum.
+recovery-phone-code-image-description =
+    .aria-label = Kóði móttekinn í farsíma.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Þú hefur skráð inn á { -brand-firefox }.
 inline-recovery-key-setup-create-header = Gerðu reikninginn þinn öruggan
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hefurðu tíma aflögu til að vernda gögnin þín?
@@ -279,6 +326,8 @@ reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi o
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Fá nýjan tengil
 
 ## LinkRememberPassword component
 
@@ -1514,6 +1563,7 @@ signin-token-code-code-expired = Útrunninn kóði?
 signin-token-code-resend-code-link = Senda nýjan kóða í tölvupósti.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Staðfestingarkóða krafist
+signin-token-code-resend-error = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan kóða.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1574,6 +1624,11 @@ confirm-signup-code-is-required-error = Staðfestingarkóða er krafist
 signup-heading = Stilltu lykilorðið þitt
 signup-relay-info = Lykilorð er nauðsynlegt til að stýra huldum póstföngum þínum á öruggan hátt og fá aðgang að öryggisverkfærum { -brand-mozilla }.
 signup-heading-relay = Búðu til lykilorð
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Af hverju þarf ég að búa til þennan reikning?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Kynntu þér málið hér
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Breyta tölvupóstfangi
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
