@@ -285,7 +285,7 @@ recovery-phone-code-image-description =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox-2 = Rydych wedi mewngofnodi i { -brand-firefox }.
+inline-recovery-key-setup-signed-in-firefox-2 = Rydych wedi mewngofnodi i { -brand-firefox }
 inline-recovery-key-setup-create-header = Diogelwch eich cyfrif
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Oes gennych chi funud i ddiogelu eich data?
@@ -1623,7 +1623,7 @@ signup-heading-relay = Crëwch gyfrinair
 signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Darganfyddwch yma
+signup-pocket-info-banner-link = Dysgu rhagor
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Newid e-bost
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
