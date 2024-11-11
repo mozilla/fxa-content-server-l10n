@@ -213,6 +213,16 @@ alert-icon-aria-label =
     .aria-label = Uyarı
 authenticator-app-aria-label =
     .aria-label = Kimlik doğrulayıcı uygulaması
+backup-codes-icon-aria-label =
+    .aria-label = Yedek kodlar etkin
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Yedek kodlar devre dışı
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Kurtarma kısa mesajı etkin
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Kurtarma kısa mesajı devre dışı
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanada bayrağı
@@ -268,6 +278,8 @@ email-code-image-aria-label =
     .aria-label = Kod içeren bir e-postayı betimleyen çizim.
 recovery-phone-image-description =
     .aria-label = Kısa mesajla kod alan bir mobil cihaz.
+recovery-phone-code-image-description =
+    .aria-label = Bir mobil cihaza ulaşan kod.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
