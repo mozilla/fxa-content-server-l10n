@@ -279,7 +279,7 @@ email-code-image-aria-label =
 recovery-phone-image-description =
     .aria-label = Dyfais symudol sy'n derbyn cod trwy neges destun.
 recovery-phone-code-image-description =
-    .aria-label = Cod a dderbyniwyd ar ddyfais symudol.
+    .aria-label = Cod wedi'i dderbyn ar ddyfais symudol.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
