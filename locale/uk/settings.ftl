@@ -7,6 +7,8 @@
 
 resend-code-success-banner-heading = Новий код надіслано на вашу електронну пошту.
 resend-link-success-banner-heading = Нове посилання надіслано на вашу електронну пошту.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Додайте { $accountsEmail } до своїх контактів, щоб гарантовано отримувати повідомлення.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -215,9 +217,18 @@ backup-codes-icon-aria-label =
     .aria-label = Резервні коди ввімкнено
 backup-codes-disabled-icon-aria-label =
     .aria-label = Резервні коди вимкнено
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Відновлення через SMS увімкнено
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Відновлення через SMS вимкнено
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Канадський прапор
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Позначити
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Успішно
@@ -235,6 +246,9 @@ error-icon-aria-label =
 # Used as information icon for informative messaging
 info-icon-aria-label =
     .aria-label = Інформація
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Прапор США
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -264,6 +278,8 @@ email-code-image-aria-label =
     .aria-label = Ілюстрація із зображенням електронного листа з кодом.
 recovery-phone-image-description =
     .aria-label = Мобільний пристрій, який отримує код у текстовому повідомленні.
+recovery-phone-code-image-description =
+    .aria-label = Код, отриманий на мобільному пристрої.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
