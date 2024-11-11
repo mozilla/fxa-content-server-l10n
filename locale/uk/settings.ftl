@@ -5,6 +5,8 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Новий код надіслано на вашу електронну пошту.
+resend-link-success-banner-heading = Нове посилання надіслано на вашу електронну пошту.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -207,6 +209,8 @@ get-data-trio-print-2 =
 
 alert-icon-aria-label =
     .aria-label = Попередження
+authenticator-app-aria-label =
+    .aria-label = Програма автентифікації
 backup-codes-icon-aria-label =
     .aria-label = Резервні коди ввімкнено
 backup-codes-disabled-icon-aria-label =
