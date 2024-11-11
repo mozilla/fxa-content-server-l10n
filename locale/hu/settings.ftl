@@ -228,7 +228,7 @@ canadian-flag-icon-aria-label =
     .aria-label = Kanadai zászló
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
-    .aria-label = Jelölje be
+    .aria-label = Pipa
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Sikeres
@@ -285,7 +285,7 @@ recovery-phone-code-image-description =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox-2 = Bejelentkezett a { -brand-firefox }ba.
+inline-recovery-key-setup-signed-in-firefox-2 = Bejelentkezett a { -brand-firefox(case: "illative") } .
 inline-recovery-key-setup-create-header = Biztosítsa fiókját
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Van egy perce az adatai megvédésére?
@@ -1569,7 +1569,7 @@ signin-token-code-code-expired = A kód lejárt?
 signin-token-code-resend-code-link = Új kód elküldése e-mailben.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Megerősítési kód szükséges
-signin-token-code-resend-error = Valami elromlott. Nem sikerült új kódot küldeni.
+signin-token-code-resend-error = Hiba történt. Nem sikerült új kódot küldeni.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1631,7 +1631,7 @@ signup-heading = Állítsa be a jelszavát
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
 signup-heading-relay = Jelszó létrehozása
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Miért kell létrehoznom ezt a fiókot?
+signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-pocket-info-banner-link = Tudja meg itt
