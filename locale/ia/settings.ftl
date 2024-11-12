@@ -4,17 +4,9 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Clauder
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non pote esser inviate.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Adde { $accountsEmail } a tu contactos pro assecurar le livration.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +97,6 @@ choose-what-to-sync-option-addresses =
     .label = Adresses
 choose-what-to-sync-option-paymentmethods =
     .label = Methodos de pagamento
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Non in le cassa de entrata, ni in le dossier de spam? Reinviar
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Retro
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +207,34 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Alerta
+authenticator-app-aria-label =
+    .aria-label = Application authenticator
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Marcar
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Successo
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Activate
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Clauder message
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Codice
+error-icon-aria-label =
+    .aria-label = Error
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Information
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Un computator e un telephono mobile e un imagine de un corde rupte sur cata uno
 hearts-verified-image-aria-label =
@@ -251,7 +263,7 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Tu ha accedite a { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = Tu ha accedite a { -brand-firefox }.
 inline-recovery-key-setup-create-header = Protege tu conto
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Ha tu un minuta pro proteger tu datos?
@@ -293,14 +305,7 @@ reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Recipe un nove ligamine
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
-reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
+link-expired-new-link-button = Recipe un nove ligamine
 
 ## LinkRememberPassword component
 
@@ -1535,6 +1540,7 @@ signin-token-code-code-expired = Codice expirate?
 signin-token-code-resend-code-link = Inviar per email nove codice.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Il es necesse codice de confirmation
+signin-token-code-resend-error = Alco errate eveniva. Un nove codice non pote esser inviate.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1595,9 +1601,6 @@ confirm-signup-code-is-required-error = Codice de confirmation requirite
 signup-heading = Defini tu contrasigno
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
 signup-heading-relay = Crear un contrasigno
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Perque debe io crear iste conto? <LinkExternal>Trova lo ci</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
