@@ -234,7 +234,7 @@ checkmark-success-icon-aria-label =
     .aria-label = Úspěch
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
-    .aria-label = Povolit
+    .aria-label = Povoleno
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Zavřít zprávu
@@ -1553,7 +1553,7 @@ signin-token-code-code-expired = Platnost kódu vypršela?
 signin-token-code-resend-code-link = Zaslat e-mailem nový kód.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Je vyžadován potvrzovací kód
-signin-token-code-resend-error = Nový kód se nepodařilo odeslat.
+signin-token-code-resend-error = Něco se pokazilo. Nový kód se nepodařilo odeslat.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
