@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-29 09:18+0000\n"
-"Last-Translator: Joergen <joradan0@gmail.com>\n"
+"PO-Revision-Date: 2024-11-13 07:22+0000\n"
+"Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -1169,7 +1169,7 @@ msgstr "Opret en mail-maske"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Angiv den mailadresse, som mails fra din maskerede mailadresse skal videresendes til."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"

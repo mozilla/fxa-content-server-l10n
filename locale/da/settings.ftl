@@ -246,6 +246,9 @@ error-icon-aria-label =
 # Used as information icon for informative messaging
 info-icon-aria-label =
     .aria-label = Information
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = USA's flag
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1622,6 +1625,7 @@ confirm-signup-code-is-required-error = Bekræftelseskode er påkrævet
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Angiv din adgangskode
+signup-relay-info = En adgangskode er nødvendig for at kunne håndtere dine maskerede mailadresser sikkert og få adgang til { -brand-mozilla }s sikkerhedsværktøjer.
 signup-heading-relay = Opret en adgangskode
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Hvorfor skal jeg oprette denne konto?
