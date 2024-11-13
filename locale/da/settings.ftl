@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Luk
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke sendes.
+resend-code-success-banner-heading = En ny kode blev sendt til din mailadresse.
+resend-link-success-banner-heading = Et nyt link blev sendt til din mailadresse.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Føj mailadressen { $accountsEmail } til dine kontakter for at sikre en problemfri levering.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Adresser
 choose-what-to-sync-option-paymentmethods =
     .label = Betalingsmetoder
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Var mailen hverken i din indbakke eller spam-mappen? Send igen
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Tilbage
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,47 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Advarsel
+authenticator-app-aria-label =
+    .aria-label = Godkendelsesapplikation
+backup-codes-icon-aria-label =
+    .aria-label = Reserve-godkendelseskoder aktiveret
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Reserve-godkendelseskoder deaktiveret
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Gendannelses-SMS er aktiveret
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Gendannelses-SMS deaktiveret
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Canadisk flag
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Flueben
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Succes
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Aktiveret
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Luk besked
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kode
+error-icon-aria-label =
+    .aria-label = Fejl
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Information
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = En computer og en mobiltelefon med et billede af et knust hjerte på hver
 hearts-verified-image-aria-label =
@@ -246,12 +273,16 @@ lightbulb-aria-label =
     .aria-label = Illustration af oprettelse af huskeregel.
 email-code-image-aria-label =
     .aria-label = Illustration af en mail, der indeholder en kode.
+recovery-phone-image-description =
+    .aria-label = Mobil enhed, der modtager en kode i en SMS-besked.
+recovery-phone-code-image-description =
+    .aria-label = Kode modtaget på en mobil enhed.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Du er logget ind på { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = Du er logget ind på { -brand-firefox }.
 inline-recovery-key-setup-create-header = Beskyt din konto
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Har du et øjeblik til at beskytte dine data?
@@ -293,14 +324,7 @@ reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan v
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Få et nyt link
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Linket til nulstilling af adgangskode udløb
-reset-pwd-link-expired-message = Linket, du klikkede på for at nulstille din adgangskode, er udløbet.
+link-expired-new-link-button = Modtag nyt link
 
 ## LinkRememberPassword component
 
@@ -1539,6 +1563,7 @@ signin-token-code-code-expired = Er koden udløbet?
 signin-token-code-resend-code-link = Send en ny kode.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bekræftelseskode påkrævet
+signin-token-code-resend-error = Noget gik galt. En ny kode kunne ikke sendes.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1597,9 +1622,12 @@ confirm-signup-code-is-required-error = Bekræftelseskode er påkrævet
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Angiv din adgangskode
+signup-heading-relay = Opret en adgangskode
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Hvorfor skal jeg oprette denne konto? <LinkExternal>Find ud af det her</LinkExternal>
+signup-pocket-info-banner = Hvorfor skal jeg oprette denne konto?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Find ud af det her
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Skift mailadresse
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
