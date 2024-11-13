@@ -213,6 +213,10 @@ alert-icon-aria-label =
     .aria-label = Προειδοποίηση
 authenticator-app-aria-label =
     .aria-label = Εφαρμογή ελέγχου ταυτότητας
+backup-codes-icon-aria-label =
+    .aria-label = Ενεργοποιημένοι εφεδρικοί κωδικοί
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Απενεργοποιημένοι εφεδρικοί κωδικοί
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Η ανάκτησης μέσω SMS ενεργοποιήθηκε
@@ -222,6 +226,12 @@ backup-recovery-sms-disabled-icon-aria-label =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Καναδική σημαία
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Νύγμα
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Επιτυχία
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Ενεργοποίηση
@@ -268,6 +278,8 @@ email-code-image-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά ένα email που περιέχει έναν κωδικό.
 recovery-phone-image-description =
     .aria-label = Κινητή συσκευή που λαμβάνει κωδικό μέσω μηνύματος κειμένου.
+recovery-phone-code-image-description =
+    .aria-label = Ελήφθη κωδικός σε κινητή συσκευή.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
