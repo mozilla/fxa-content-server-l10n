@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-28 20:46+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-11-09 18:05+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -1170,7 +1170,7 @@ msgstr "Criar uma máscara de e-mail"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "Por favor, forneça o endereço de e-mail para o qual deseja encaminhar as mensagens do seu e-mail mascarado."
+msgstr "Forneça o endereço de e-mail para o qual deseja encaminhar as mensagens do seu e-mail mascarado."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
