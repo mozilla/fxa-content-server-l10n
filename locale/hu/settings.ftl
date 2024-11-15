@@ -1427,12 +1427,14 @@ confirm-reset-password-otp-different-account-link = Másik fiók használata
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Jelszó visszaállítása
-confirm-totp-reset-password-subheader = Adja meg a kétlépcsős hitelesítés biztonsági kódját (2FA)
-confirm-totp-reset-password-instruction = Ellenőrizze a hitelesítő alkalmazást, hogy visszaállítsa a jelszavát.
+confirm-totp-reset-password-subheader-v2 = Adja meg a kétlépcsős hitelesítési kódot
+confirm-totp-reset-password-instruction-v2 = Ellenőrizze a <strong>hitelesítő alkalmazását</strong>, hogy visszaállítsa a jelszavát.
 confirm-totp-reset-password-trouble-code = Nem tudja beírni a kódot?
 confirm-totp-reset-password-confirm-button = Megerősítés
-confirm-totp-reset-password-input-label = Adja meg a kódot
+confirm-totp-reset-password-input-label-v2 = Adja meg a 6 számjegyű kódot
 confirm-totp-reset-password-use-different-account = Másik fiók használata
+confirm-recovery-code-reset-password-input-label = Írjon be egy 10 karakter hosszú kódot
+confirm-recovery-code-reset-password-trouble-code = Vissza
 
 ## ResetPassword start page
 
@@ -1527,15 +1529,10 @@ signin-push-code-confirm-link-error = A hivatkozás sérült. Próbálja meg új
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Adja meg a tartalék hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Adja meg a tartalék hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
-signin-recovery-code-instruction = Adjon meg egy tartalék hitelesítési kódot, amelyet a kétlépcsős hitelesítés beállítása során kapott.
-signin-recovery-code-input-label = Adja meg a 10 számjegyű tartalék hitelesítési kódot
+signin-recovery-code-heading = Bejelentkezés
+signin-recovery-code-sub-heading = Adjon meg egy tartalék hitelesítési kódot
+signin-recovery-code-instruction-v2 = Írja be a kétlépcsős hitelesítés beállítása során mentett egyszer használatos tartalék hitelesítési kódok egyikét.
+signin-recovery-code-input-label-v2 = Írjon be egy 10 karakter hosszú kódot
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Megerősítés
 # Link to return to signin with two-step authentication code
@@ -1575,9 +1572,9 @@ signin-token-code-resend-error = Hiba történt. Nem sikerült új kódot külde
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Adja meg a kétlépcsős hitelesítés biztonsági kódját (2FA)
-signin-totp-code-instruction-v3 = Ellenőrizze a hitelesítő alkalmazást a bejelentkezés megerősítéséhez.
-signin-totp-code-input-label-v3 = Adja meg a kódot
+signin-totp-code-subheader-v2 = Adja meg a kétlépcsős hitelesítési kódot
+signin-totp-code-instruction-v4 = Ellenőrizze a <strong>hitelesítő alkalmazását</strong>, hogy megerősítse bejelentkezését.
+signin-totp-code-input-label-v4 = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Megerősítés
 signin-totp-code-other-account-link = Másik fiók használata
