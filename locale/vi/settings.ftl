@@ -1423,12 +1423,14 @@ confirm-reset-password-otp-different-account-link = Sử dụng tài khoản kh�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Đặt lại mật khẩu của bạn
-confirm-totp-reset-password-subheader = Nhập mã bảo mật xác thực hai yếu tố (2FA) của bạn
-confirm-totp-reset-password-instruction = Kiểm tra ứng dụng xác thực của bạn để đặt lại mật khẩu.
+confirm-totp-reset-password-subheader-v2 = Nhập mã xác thực hai bước
+confirm-totp-reset-password-instruction-v2 = Kiểm tra <strong>ứng dụng xác thực</strong> của bạn để đặt lại mật khẩu.
 confirm-totp-reset-password-trouble-code = Khó khăn khi nhập mã?
 confirm-totp-reset-password-confirm-button = Xác nhận
-confirm-totp-reset-password-input-label = Nhập mã
+confirm-totp-reset-password-input-label-v2 = Nhập mã gồm 6 chữ số
 confirm-totp-reset-password-use-different-account = Sử dụng một tài khoản khác
+confirm-recovery-code-reset-password-input-label = Nhập mã gồm 10 ký tự
+confirm-recovery-code-reset-password-trouble-code = Quay lại
 
 ## ResetPassword start page
 
@@ -1525,15 +1527,10 @@ signin-push-code-confirm-link-error = Liên kết đã bị hỏng. Hãy thử l
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Nhập mã xác thực dự phòng <span>để tiếp tục đến cài đặt tài khoản</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Nhập mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
-signin-recovery-code-instruction = Vui lòng nhập mã xác thực dự phòng đã được cung cấp cho bạn trong quá trình thiết lập xác thực hai bước.
-signin-recovery-code-input-label = Nhập mã xác thực dự phòng 10 chữ số
+signin-recovery-code-heading = Đăng nhập
+signin-recovery-code-sub-heading = Nhập mã xác thực dự phòng
+signin-recovery-code-instruction-v2 = Nhập một trong các mã xác thực dự phòng sử dụng một lần mà bạn đã lưu trong quá trình thiết lập xác thực hai bước.
+signin-recovery-code-input-label-v2 = Nhập mã gồm 10 ký tự
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Xác nhận
 # Link to return to signin with two-step authentication code
@@ -1573,9 +1570,9 @@ signin-token-code-resend-error = Đã xảy ra sự cố. Không thể gửi mã
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Nhập mã bảo mật xác thực hai yếu tố (2FA) của bạn
-signin-totp-code-instruction-v3 = Kiểm tra ứng dụng xác thực của bạn để xác nhận thông tin đăng nhập của bạn.
-signin-totp-code-input-label-v3 = Nhập mã
+signin-totp-code-subheader-v2 = Nhập mã xác thực hai bước
+signin-totp-code-instruction-v4 = Kiểm tra <strong>ứng dụng xác thực</strong> của bạn để xác nhận thông tin đăng nhập của bạn.
+signin-totp-code-input-label-v4 = Nhập mã gồm 6 chữ số
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Xác nhận
 signin-totp-code-other-account-link = Sử dụng một tài khoản khác
