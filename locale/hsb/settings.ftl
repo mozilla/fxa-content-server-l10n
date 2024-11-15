@@ -1527,6 +1527,7 @@ signin-push-code-confirm-link-error = Wotkaz je wobškodźeny. Spytajće prošu 
 
 signin-recovery-code-heading = Přizjewić
 signin-recovery-code-sub-heading = Zapodajće kod za zawěsćensku awtentifikaciju
+signin-recovery-code-instruction-v2 = Zapodajće jedyn ze zawěsćenskich kodow za awtentifikaciju za jónkróćne wužiwanje, kotrež sće za konfiguraciju dwukročeloweje awtentifikacije składował.
 signin-recovery-code-input-label-v2 = 10-městnowy kod zapodać
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkrućić
