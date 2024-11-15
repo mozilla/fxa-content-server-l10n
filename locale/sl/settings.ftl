@@ -1423,12 +1423,14 @@ confirm-reset-password-otp-different-account-link = Uporabi drug račun
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Ponastavite geslo
-confirm-totp-reset-password-subheader = Vnesite varnostno kodo za dvostopenjsko overjanje (2FA)
-confirm-totp-reset-password-instruction = V aplikaciji za overitev ponastavite geslo.
+confirm-totp-reset-password-subheader-v2 = Vnesite kodo za overjanje v dveh korakih
+confirm-totp-reset-password-instruction-v2 = V <strong>aplikaciji za overitev</strong> ponastavite geslo.
 confirm-totp-reset-password-trouble-code = Imate težave pri vnosu kode?
 confirm-totp-reset-password-confirm-button = Potrdi
-confirm-totp-reset-password-input-label = Vnesite kodo
+confirm-totp-reset-password-input-label-v2 = Vnesite 6-mestno kodo
 confirm-totp-reset-password-use-different-account = Uporabi drug račun
+confirm-recovery-code-reset-password-input-label = Vnesite 10-mestno kodo
+confirm-recovery-code-reset-password-trouble-code = Nazaj
 
 ## ResetPassword start page
 
@@ -1520,15 +1522,10 @@ signin-push-code-confirm-link-error = Povezava je poškodovana. Poskusite znova.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Vnesite rezervno overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Vnesite rezervno overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
-signin-recovery-code-instruction = Vnesite rezervno overitveno kodo, ki ste jo prejeli med nastavitvijo overjanja v dveh korakih.
-signin-recovery-code-input-label = Vnesite 10-mestno rezervno overitveno kodo
+signin-recovery-code-heading = Prijava
+signin-recovery-code-sub-heading = Vnesite rezervno overitveno kodo
+signin-recovery-code-instruction-v2 = Vnesite eno od rezervnih overitvenih kod za enkratno uporabo, ki ste jih shranili med nastavitvijo overjanja v dveh korakih.
+signin-recovery-code-input-label-v2 = Vnesite 10-mestno kodo
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potrdi
 # Link to return to signin with two-step authentication code
@@ -1568,9 +1565,9 @@ signin-token-code-resend-error = Prišlo je do napake. Nove kode ni bilo mogoče
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Vnesite varnostno kodo za dvostopenjsko overjanje (2FA)
-signin-totp-code-instruction-v3 = V aplikaciji za overitev potrdite prijavo.
-signin-totp-code-input-label-v3 = Vnesite kodo
+signin-totp-code-subheader-v2 = Vnesite kodo za overjanje v dveh korakih
+signin-totp-code-instruction-v4 = V <strong>aplikaciji za overitev</strong> potrdite prijavo.
+signin-totp-code-input-label-v4 = Vnesite 6-mestno kodo
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potrdi
 signin-totp-code-other-account-link = Uporabi drug račun
