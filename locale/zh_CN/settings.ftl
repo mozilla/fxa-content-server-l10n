@@ -1406,9 +1406,13 @@ confirm-reset-password-otp-different-account-link = 换个账户登录
 
 confirm-totp-reset-password-header = 重置密码
 confirm-totp-reset-password-subheader-v2 = 请输入两步验证的验证码
+confirm-totp-reset-password-instruction-v2 = 请查看<strong>身份验证器应用</strong>以重置密码。
 confirm-totp-reset-password-trouble-code = 输入代码时遇到问题？
 confirm-totp-reset-password-confirm-button = 确认
+confirm-totp-reset-password-input-label-v2 = 请输入 6 位验证码
 confirm-totp-reset-password-use-different-account = 换个账户登录
+confirm-recovery-code-reset-password-input-label = 请输入由 10 个字符组成的验证码
+confirm-recovery-code-reset-password-trouble-code = 返回
 
 ## ResetPassword start page
 
@@ -1500,6 +1504,10 @@ signin-push-code-confirm-link-error = 链接已损坏，请重试。
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = 登录
+signin-recovery-code-sub-heading = 请输入备用验证码
+signin-recovery-code-instruction-v2 = 请输入您在设置两步验证时保存的一次性备用验证码之一。
+signin-recovery-code-input-label-v2 = 请输入由 10 个字符组成的验证码
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 确认
 # Link to return to signin with two-step authentication code
@@ -1539,6 +1547,9 @@ signin-token-code-resend-error = 出了点问题，无法发送新验证码。
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = 请输入两步验证的验证码
+signin-totp-code-instruction-v4 = 请通过<strong>身份验证器应用</strong>确认登录。
+signin-totp-code-input-label-v4 = 请输入 6 位验证码
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
