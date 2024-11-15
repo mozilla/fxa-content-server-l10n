@@ -1567,6 +1567,8 @@ signin-token-code-resend-error = Что-то пошло не так. Не уда
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader-v2 = Введите код двухэтапной аутентификации
+signin-totp-code-instruction-v4 = Проверьте своё <strong>приложение-аутентификатор</strong>, чтобы подтвердить свой вход.
+signin-totp-code-input-label-v4 = Введите код из 6 цифр
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Подтвердить
 signin-totp-code-other-account-link = Использовать другой аккаунт
