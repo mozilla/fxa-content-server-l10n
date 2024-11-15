@@ -1413,10 +1413,10 @@ confirm-reset-password-otp-different-account-link = Utiliser un autre { -product
 
 confirm-totp-reset-password-header = Réinitialiser le mot de passe
 confirm-totp-reset-password-subheader-v2 = Saisissez le code d’authentification en deux étapes
-confirm-totp-reset-password-instruction-v2 = Vérifiez votre <strong>application Authenticator</strong> pour réinitialiser votre mot de passe.
+confirm-totp-reset-password-instruction-v2 = Consultez votre <strong>application d’authentification</strong> pour réinitialiser votre mot de passe.
 confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
 confirm-totp-reset-password-confirm-button = Confirmer
-confirm-totp-reset-password-input-label-v2 = Saisissez le code à 6 chiffres
+confirm-totp-reset-password-input-label-v2 = Saisissez le code à 6 chiffres
 confirm-recovery-code-reset-password-input-label = Saisissez le code de 10 caractères
 confirm-recovery-code-reset-password-trouble-code = Retour
 
@@ -1554,8 +1554,8 @@ signin-token-code-resend-error = Une erreur s’est produite. Impossible d’env
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader-v2 = Saisissez le code d’authentification en deux étapes
-signin-totp-code-instruction-v4 = Vérifiez votre <strong>application d’authentification</strong> pour confirmer votre connexion.
-signin-totp-code-input-label-v4 = Saisissez le code à 6 chiffres
+signin-totp-code-instruction-v4 = Consultez votre <strong>application d’authentification</strong> pour confirmer votre connexion.
+signin-totp-code-input-label-v4 = Saisissez le code à 6 chiffres
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
 signin-totp-code-other-account-link = Utiliser un autre { -product-mozilla-account }
