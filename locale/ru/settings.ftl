@@ -1421,12 +1421,14 @@ confirm-reset-password-otp-different-account-link = Использовать д�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Сбросить ваш пароль
-confirm-totp-reset-password-subheader = Введите код безопасности своей двухфакторной аутентификации (2FA)
-confirm-totp-reset-password-instruction = Проверьте своё приложение для аутентификации, чтобы сбросить пароль.
+confirm-totp-reset-password-subheader-v2 = Введите код двухэтапной аутентификации
+confirm-totp-reset-password-instruction-v2 = Зайдите в <strong>приложение-аутентификатор</strong>, чтобы сбросить пароль.
 confirm-totp-reset-password-trouble-code = Проблемы с вводом кода?
 confirm-totp-reset-password-confirm-button = Подтвердить
-confirm-totp-reset-password-input-label = Введите код
+confirm-totp-reset-password-input-label-v2 = Введите код из 6 цифр
 confirm-totp-reset-password-use-different-account = Использовать другой аккаунт
+confirm-recovery-code-reset-password-input-label = Введите 10-значный код
+confirm-recovery-code-reset-password-trouble-code = Назад
 
 ## ResetPassword start page
 
@@ -1521,15 +1523,10 @@ signin-push-code-confirm-link-error = Ссылка повреждена. Пов�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Введите резервный код аутентификации, <span>для перехода к настройкам аккаунта</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Введите резервный код аутентификации <span>для перехода к { $serviceName }</span>
-signin-recovery-code-instruction = Пожалуйста, введите резервный код аутентификации, который был предоставлен вам во время настройки двухэтапной аутентификации.
-signin-recovery-code-input-label = Введите 10-значный резервный код аутентификации
+signin-recovery-code-heading = Войти
+signin-recovery-code-sub-heading = Введите резервный код аутентификации
+signin-recovery-code-instruction-v2 = Введите один из одноразовых резервных кодов аутентификации, которые вы сохранили при настройке двухэтапной аутентификации.
+signin-recovery-code-input-label-v2 = Введите 10-значный код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Подтвердить
 # Link to return to signin with two-step authentication code
@@ -1569,9 +1566,7 @@ signin-token-code-resend-error = Что-то пошло не так. Не уда
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Введите код безопасности своей двухфакторной аутентификации (2FA)
-signin-totp-code-instruction-v3 = Проверьте ваше приложение для аунтентификации, чтобы подтвердить вход.
-signin-totp-code-input-label-v3 = Введите код
+signin-totp-code-subheader-v2 = Введите код двухэтапной аутентификации
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Подтвердить
 signin-totp-code-other-account-link = Использовать другой аккаунт
