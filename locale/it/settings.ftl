@@ -1406,12 +1406,14 @@ confirm-reset-password-otp-different-account-link = Utilizza un altro account
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Reimpostazione della password
-confirm-totp-reset-password-subheader = Inserisci il codice di sicurezza per l’autenticazione a due fattori (2FA)
-confirm-totp-reset-password-instruction = Controlla l’app di autenticazione per reimpostare la password.
+confirm-totp-reset-password-subheader-v2 = Inserire il codice di autenticazione in due passaggi
+confirm-totp-reset-password-instruction-v2 = Controlla l’<strong>app di autenticazione</strong> per reimpostare la password.
 confirm-totp-reset-password-trouble-code = Problemi a inserire il codice?
 confirm-totp-reset-password-confirm-button = Conferma
-confirm-totp-reset-password-input-label = Inserisci il codice
+confirm-totp-reset-password-input-label-v2 = Inserisci il codice a 6 cifre
 confirm-totp-reset-password-use-different-account = Utilizza un altro account
+confirm-recovery-code-reset-password-input-label = Inserire un codice di 10 caratteri
+confirm-recovery-code-reset-password-trouble-code = Indietro
 
 ## ResetPassword start page
 
@@ -1503,15 +1505,10 @@ signin-push-code-confirm-link-error = Il link è danneggiato. Riprova.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Inserisci il codice di autenticazione di backup <span>per continuare con le impostazioni dell’account</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Inserisci il codice di autenticazione di backup <span>per continuare su { $serviceName }</span>
-signin-recovery-code-instruction = Inserisci uno dei codici di autenticazione di backup che ti sono stati forniti durante la configurazione dell’autenticazione in due passaggi.
-signin-recovery-code-input-label = Digita il codice di autenticazione di backup composto da 10 cifre
+signin-recovery-code-heading = Accedi
+signin-recovery-code-sub-heading = Digita il codice di autenticazione di backup
+signin-recovery-code-instruction-v2 = Inserire uno dei codici di autenticazione di backup monouso salvati durante la configurazione dell’autenticazione in due passaggi.
+signin-recovery-code-input-label-v2 = Inserire un codice di 10 caratteri
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferma
 # Link to return to signin with two-step authentication code
@@ -1551,9 +1548,9 @@ signin-token-code-resend-error = Si è verificato un problema. Impossibile invia
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Inserisci il codice di sicurezza per l’autenticazione a due fattori (2FA)
-signin-totp-code-instruction-v3 = Controlla l’app di autenticazione per confermare l’accesso.
-signin-totp-code-input-label-v3 = Inserisci il codice
+signin-totp-code-subheader-v2 = Inserire il codice di autenticazione in due passaggi
+signin-totp-code-instruction-v4 = Controlla l’<strong>app di autenticazione</strong> per confermare l’accesso.
+signin-totp-code-input-label-v4 = Inserisci il codice a 6 cifre
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferma
 signin-totp-code-other-account-link = Utilizza un altro account
