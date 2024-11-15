@@ -1419,12 +1419,14 @@ confirm-reset-password-otp-different-account-link = Wužywajśo druge konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Stajśo swójo gronidło slědk
-confirm-totp-reset-password-subheader = Zapódajśo swój kod dwójofaktoroweje awtentifikacije (2FA)
-confirm-totp-reset-password-instruction = Zmóžniśo swójo nałoženje awtentificěrowanja, aby swójo gronidło slědk stajił.
+confirm-totp-reset-password-subheader-v2 = Zapódajśo kod za dwójokšacowu awtentifikaciju
+confirm-totp-reset-password-instruction-v2 = Zmóžniśo swójo <strong>nałoženje awtentificěrowanja</strong>, aby swójo gronidło slědk stajił.
 confirm-totp-reset-password-trouble-code = Maśo problemy pśi zapódawanju koda?
 confirm-totp-reset-password-confirm-button = Wobkšuśiś
-confirm-totp-reset-password-input-label = Kod zapódaś
+confirm-totp-reset-password-input-label-v2 = 6-městnowy kod zapódaś
 confirm-totp-reset-password-use-different-account = Druge konto wužywaś
+confirm-recovery-code-reset-password-input-label = 10-městnowy kod zapódaś
+confirm-recovery-code-reset-password-trouble-code = Slědk
 
 ## ResetPassword start page
 
@@ -1521,15 +1523,10 @@ signin-push-code-confirm-link-error = Wótkaz jo wobškóźony. Wopytajśo pšos
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Zapódajśo awtentifikaciski kod za zawěsćenje, <span>aby z kontowymi nastajenjami pókšacował</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Zapódajśo awtentifikaciski kod za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
-signin-recovery-code-instruction = Pšosym zapódajśo kod zawěsćeńskeje awtentifikacije, kótaryž jo se wam stajił k dispoziciji za konfiguraciju dwójoschójźeńkoweje awtentifikacije k dispoziciji.
-signin-recovery-code-input-label = Zapódajśo 10-městnowy kod za zawěsćeńsku awtentifikaciju
+signin-recovery-code-heading = Pśizjawiś
+signin-recovery-code-sub-heading = Zapódajśo kod za zawěsćeńsku awtentifikaciju
+signin-recovery-code-instruction-v2 = Zapódajśo jaden ze zawěsćeńskich kodow za awtentifikaciju za jadnorazowe wužywanje, kótarež sćo składł za konfiguraciju dwójokšacoweje awtentifikacije.
+signin-recovery-code-input-label-v2 = 10-městnowy kod zapódaś
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkšuśiś
 # Link to return to signin with two-step authentication code
@@ -1569,9 +1566,9 @@ signin-token-code-resend-error = Něco njejo se raźiło. Nowy code njedajo se s
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Zapódajśo swój kod dwójofaktoroweje awtentifikacije (2FA)
-signin-totp-code-instruction-v3 = Zmóžniśo swójo nałoženje awtentizěrowanja, aby swójo pśizjawjenje wobkšuśił.
-signin-totp-code-input-label-v3 = Kod zapódaś
+signin-totp-code-subheader-v2 = Zapódajśo kod za dwójokšacowu awtentifikaciju
+signin-totp-code-instruction-v4 = Zmóžniśo swójo <strong>nałoženje awtentizěrowanja</strong>, aby swójo pśizjawjenje wobkšuśił.
+signin-totp-code-input-label-v4 = 6-městnowy kod zapódaś
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Wobkšuśiś
 signin-totp-code-other-account-link = Wužywajśo druge konto
