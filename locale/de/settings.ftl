@@ -1418,13 +1418,13 @@ confirm-reset-password-otp-different-account-link = Ein anderes Konto verwenden
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Setzen Sie Ihr Passwort zurück
-confirm-totp-reset-password-subheader-v2 = Zwei-Schritt-Authentifizierung eingeben
-confirm-totp-reset-password-instruction-v2 = Sehen Sie in Ihrer <strong>Authentifikations-App</strong> nach, um Ihr Passwort zurückzusetzen.
+confirm-totp-reset-password-subheader-v2 = Code für Zwei-Schritt-Authentifizierung eingeben
+confirm-totp-reset-password-instruction-v2 = Sehen Sie in Ihrer Authentifikations-App nach, um Ihr Passwort zurückzusetzen.
 confirm-totp-reset-password-trouble-code = Probleme bei der Codeeingabe?
 confirm-totp-reset-password-confirm-button = Bestätigen
 confirm-totp-reset-password-input-label-v2 = 6-stelligen Code eingeben
 confirm-totp-reset-password-use-different-account = Ein anderes Konto verwenden
-confirm-recovery-code-reset-password-input-label = Zehnstelligen Code eingeben
+confirm-recovery-code-reset-password-input-label = 10-stelligen Code eingeben
 confirm-recovery-code-reset-password-trouble-code = Zurück
 
 ## ResetPassword start page
@@ -1520,7 +1520,7 @@ signin-push-code-confirm-link-error = Link ist beschädigt. Bitte versuchen Sie 
 signin-recovery-code-heading = Anmelden
 signin-recovery-code-sub-heading = Sicherungs-Authentifizierungscode eingeben
 signin-recovery-code-instruction-v2 = Geben Sie einen der einmaligen Sicherungs-Authentifizierungscodes ein, die Sie während der Einrichtung der Zwei-Schritt-Authentifizierung gespeichert haben.
-signin-recovery-code-input-label-v2 = Zehnstelligen Code eingeben
+signin-recovery-code-input-label-v2 = 10-stelligen Code eingeben
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bestätigen
 # Link to return to signin with two-step authentication code
@@ -1560,7 +1560,7 @@ signin-token-code-resend-error = Etwas ist schief gelaufen. Es konnte kein neuer
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader-v2 = Zwei-Schritt-Authentifizierung eingeben
+signin-totp-code-subheader-v2 = Code für Zwei-Schritt-Authentifizierung eingeben
 signin-totp-code-instruction-v4 = Überprüfen Sie Ihre <strong>Authentifizierungs-App</strong>, um Ihre Anmeldung zu bestätigen.
 signin-totp-code-input-label-v4 = 6-stelligen Code eingeben
 # Form button to confirm if the authentication code entered by the user is valid
