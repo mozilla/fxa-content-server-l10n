@@ -1397,12 +1397,14 @@ confirm-reset-password-otp-different-account-link = 使用另一個帳號
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = 重設您的密碼
-confirm-totp-reset-password-subheader = 請輸入您的兩階段驗證安全碼（2FA）
-confirm-totp-reset-password-instruction = 請使用您的驗證程式重設密碼。
+confirm-totp-reset-password-subheader-v2 = 請輸入兩階段驗證碼
+confirm-totp-reset-password-instruction-v2 = 請使用您的<strong>驗證程式</strong>以重設密碼。
 confirm-totp-reset-password-trouble-code = 輸入代碼時遇到問題嗎？
 confirm-totp-reset-password-confirm-button = 確認
-confirm-totp-reset-password-input-label = 輸入驗證碼
+confirm-totp-reset-password-input-label-v2 = 請輸入六位數的驗證碼
 confirm-totp-reset-password-use-different-account = 使用另一個帳號
+confirm-recovery-code-reset-password-input-label = 請輸入 10 字元長的驗證碼
+confirm-recovery-code-reset-password-trouble-code = 上一頁
 
 ## ResetPassword start page
 
@@ -1494,15 +1496,10 @@ signin-push-code-confirm-link-error = 鏈結毀損，請再試一次。
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = 輸入備用驗證碼<span>即可繼續前往帳號設定</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = 輸入備用驗證碼<span>即可繼續前往 { $serviceName }</span>
-signin-recovery-code-instruction = 請輸入設定兩階段驗證時，提供給您的備用驗證碼。
-signin-recovery-code-input-label = 請輸入十位數的備用驗證碼
+signin-recovery-code-heading = 登入
+signin-recovery-code-sub-heading = 請輸入備用驗證碼
+signin-recovery-code-instruction-v2 = 請輸入您在設定兩階段驗證時，儲存下來的任一組免洗備用驗證碼。
+signin-recovery-code-input-label-v2 = 請輸入 10 字元長的驗證碼
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to return to signin with two-step authentication code
@@ -1542,9 +1539,9 @@ signin-token-code-resend-error = 有些東西怪怪的，無法寄出新的確�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = 請輸入您的兩階段驗證安全碼（2FA）
-signin-totp-code-instruction-v3 = 請使用您的驗證程式確認登入動作。
-signin-totp-code-input-label-v3 = 輸入驗證碼
+signin-totp-code-subheader-v2 = 請輸入兩階段驗證碼
+signin-totp-code-instruction-v4 = 請使用您的<strong>驗證程式</strong>確認登入動作。
+signin-totp-code-input-label-v4 = 請輸入六位數的驗證碼
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 使用另一個帳號
