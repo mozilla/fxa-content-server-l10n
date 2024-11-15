@@ -1425,12 +1425,12 @@ confirm-reset-password-otp-different-account-link = Басқа тіркелгі�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Парольді тастау
-confirm-totp-reset-password-subheader = Екі факторлы аутентификация қауіпсіздік кодыңызды енгізіңіз (2FA)
-confirm-totp-reset-password-instruction = Пароліңізді тастау үшін аутентификация қолданбасын тексеріңіз.
 confirm-totp-reset-password-trouble-code = Кодты енгізуде мәселе бар ма?
 confirm-totp-reset-password-confirm-button = Растау
-confirm-totp-reset-password-input-label = Кодты енгізіңіз
+confirm-totp-reset-password-input-label-v2 = 6 таңбалы кодты енгізіңіз
 confirm-totp-reset-password-use-different-account = Басқа тіркелгіні қолдану
+confirm-recovery-code-reset-password-input-label = 10 таңбалы кодты енгізіңіз
+confirm-recovery-code-reset-password-trouble-code = Артқа
 
 ## ResetPassword start page
 
@@ -1525,15 +1525,9 @@ signin-push-code-confirm-link-error = Сілтеме зақымдалған. Қ�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> сақтық аутентификация кодын енгізіңіз
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын енгізіңіз
-signin-recovery-code-instruction = Екі қадамдық аутентификацияны баптау кезінде сізге берілген сақтық аутентификация кодын енгізіңіз.
-signin-recovery-code-input-label = 10 сандық сақтық аутентификация кодын енгізіңіз
+signin-recovery-code-heading = Кіру
+signin-recovery-code-sub-heading = Сақтық аутентификация кодын енгізіңіз
+signin-recovery-code-input-label-v2 = 10 таңбалы кодты енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Растау
 # Link to return to signin with two-step authentication code
@@ -1573,9 +1567,8 @@ signin-token-code-resend-error = Бірнәрсе қате кетті. Жаңа 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Екі факторлы аутентификация қауіпсіздік кодын енгізіңіз (2FA)
-signin-totp-code-instruction-v3 = Жүйеге кіруді растау үшін аутентификация қолданбасын тексеріңіз.
-signin-totp-code-input-label-v3 = Кодты енгізіңіз
+signin-totp-code-subheader-v2 = Екі қадамды аутентификация кодын енгізіңіз
+signin-totp-code-instruction-v4 = Жүйеге кіруді растау үшін <strong>аутентификация қолданбасын</strong> тексеріңіз.
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Растау
 signin-totp-code-other-account-link = Басқа тіркелгіні қолдану
