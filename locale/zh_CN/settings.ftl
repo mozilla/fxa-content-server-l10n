@@ -1405,11 +1405,9 @@ confirm-reset-password-otp-different-account-link = 换个账户登录
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = 重置密码
-confirm-totp-reset-password-subheader = 请输入双因子身份验证安全码（2FA）
-confirm-totp-reset-password-instruction = 请查看身份验证器应用，以重置密码。
+confirm-totp-reset-password-subheader-v2 = 请输入两步验证的验证码
 confirm-totp-reset-password-trouble-code = 输入代码时遇到问题？
 confirm-totp-reset-password-confirm-button = 确认
-confirm-totp-reset-password-input-label = 请输入代码
 confirm-totp-reset-password-use-different-account = 换个账户登录
 
 ## ResetPassword start page
@@ -1502,15 +1500,6 @@ signin-push-code-confirm-link-error = 链接已损坏，请重试。
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = 输入备用验证码<span>继续进行账户设置</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>以继续使用 { $serviceName }</span>
-signin-recovery-code-instruction = 请输入在两步验证设置期间提供给您的备用验证码。
-signin-recovery-code-input-label = 请输入 10 位备用验证码
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 确认
 # Link to return to signin with two-step authentication code
@@ -1550,9 +1539,6 @@ signin-token-code-resend-error = 出了点问题，无法发送新验证码。
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = 请输入双因子身份验证安全码（2FA）
-signin-totp-code-instruction-v3 = 请通过身份验证器应用确认登录。
-signin-totp-code-input-label-v3 = 请输入验证码
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
