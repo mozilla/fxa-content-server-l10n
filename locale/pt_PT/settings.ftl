@@ -1418,12 +1418,14 @@ confirm-reset-password-otp-different-account-link = Utilizar uma conta diferente
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Redefinir a sua palavra-passe
-confirm-totp-reset-password-subheader = Introduza o seu código de segurança da autenticação de dois fatores (2FA)
-confirm-totp-reset-password-instruction = Consulte a sua aplicação de autenticação para redefinir a sua palavra-passe.
+confirm-totp-reset-password-subheader-v2 = Inserir código de autenticação de dois passos
+confirm-totp-reset-password-instruction-v2 = Verifique a sua <strong>aplicação de autenticação</strong> para repor a sua palavra-passe.
 confirm-totp-reset-password-trouble-code = Problemas ao introduzir o código?
 confirm-totp-reset-password-confirm-button = Confirmar
-confirm-totp-reset-password-input-label = Introduzir o código
+confirm-totp-reset-password-input-label-v2 = Inserir código de 6 dígitos
 confirm-totp-reset-password-use-different-account = Utilizar uma conta diferente
+confirm-recovery-code-reset-password-input-label = Inserir código de 10 caracteres
+confirm-recovery-code-reset-password-trouble-code = Retroceder
 
 ## ResetPassword start page
 
@@ -1515,15 +1517,10 @@ signin-push-code-confirm-link-error = A ligação está danificada. Tente novame
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Insira o código de autenticação da cópia de segurança <span>para continuar para as definições da conta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Introduza o código de autenticação de recuperação <span>para continuar para { $serviceName }</span>
-signin-recovery-code-instruction = Insira um código de autenticação de recuperação que lhe foi fornecido durante a configuração da autenticação de dois fatores.
-signin-recovery-code-input-label = Insira o código de recuperação de autenticação de 10 dígitos
+signin-recovery-code-heading = Iniciar sessão
+signin-recovery-code-sub-heading = Insira o código de autenticação de recuperação
+signin-recovery-code-instruction-v2 = Insira um dos códigos de autenticação de recuperação de utilização única que guardou durante a configuração da autenticação de dois passos.
+signin-recovery-code-input-label-v2 = Inserir código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1563,9 +1560,9 @@ signin-token-code-resend-error = Algo correu mal. Não foi possível enviar um n
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Introduza o seu código de segurança da autenticação de dois fatores (2FA)
-signin-totp-code-instruction-v3 = Consulte a sua aplicação de autenticação para confirmar o seu início de sessão.
-signin-totp-code-input-label-v3 = Introduzir código
+signin-totp-code-subheader-v2 = Inserir código de autenticação de dois passos
+signin-totp-code-instruction-v4 = Consulte a sua <strong>aplicação de autenticação</strong> para confirmar o seu início de sessão.
+signin-totp-code-input-label-v4 = Inserir código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Utilizar uma conta diferente
