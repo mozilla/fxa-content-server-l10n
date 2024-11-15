@@ -1418,12 +1418,14 @@ confirm-reset-password-otp-different-account-link = Ein anderes Konto verwenden
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Setzen Sie Ihr Passwort zurück
-confirm-totp-reset-password-subheader = Geben Sie Ihren Sicherheitscode für Zwei-Faktor-Authentifizierung (2FA) ein
-confirm-totp-reset-password-instruction = Sehen Sie in Ihrer Authentifizierungs-App nach, um Ihr Passwort zurückzusetzen.
+confirm-totp-reset-password-subheader-v2 = Zwei-Schritt-Authentifizierung eingeben
+confirm-totp-reset-password-instruction-v2 = Sehen Sie in Ihrer <strong>Authentifikations-App</strong> nach, um Ihr Passwort zurückzusetzen.
 confirm-totp-reset-password-trouble-code = Probleme bei der Codeeingabe?
 confirm-totp-reset-password-confirm-button = Bestätigen
-confirm-totp-reset-password-input-label = Code eingeben
+confirm-totp-reset-password-input-label-v2 = 6-stelligen Code eingeben
 confirm-totp-reset-password-use-different-account = Ein anderes Konto verwenden
+confirm-recovery-code-reset-password-input-label = Zehnstelligen Code eingeben
+confirm-recovery-code-reset-password-trouble-code = Zurück
 
 ## ResetPassword start page
 
@@ -1515,15 +1517,10 @@ signin-push-code-confirm-link-error = Link ist beschädigt. Bitte versuchen Sie 
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Geben Sie einen Sicherungs-Authentifizierungscode ein, <span>um mit den Kontoeinstellungen fortzufahren</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Geben Sie einen Sicherungs-Authentifizierungscode ein, <span>um mit { $serviceName } fortzufahren</span>
-signin-recovery-code-instruction = Bitte geben Sie einen Sicherungs-Authentifizierungscode ein, der Ihnen während der Einrichtung der zweistufigen Authentifizierung zur Verfügung gestellt wurde.
-signin-recovery-code-input-label = Geben Sie den zehnstelligen Sicherungs-Authentifizierungscode ein
+signin-recovery-code-heading = Anmelden
+signin-recovery-code-sub-heading = Sicherungs-Authentifizierungscode eingeben
+signin-recovery-code-instruction-v2 = Geben Sie einen der einmaligen Sicherungs-Authentifizierungscodes ein, die Sie während der Einrichtung der Zwei-Schritt-Authentifizierung gespeichert haben.
+signin-recovery-code-input-label-v2 = Zehnstelligen Code eingeben
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bestätigen
 # Link to return to signin with two-step authentication code
@@ -1563,9 +1560,9 @@ signin-token-code-resend-error = Etwas ist schief gelaufen. Es konnte kein neuer
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Geben Sie Ihren Sicherheitscode für Zwei-Faktor-Authentifizierung (2FA) ein
-signin-totp-code-instruction-v3 = Überprüfen Sie Ihre Authentifizierungs-App, um Ihre Anmeldung zu bestätigen.
-signin-totp-code-input-label-v3 = Code eingeben
+signin-totp-code-subheader-v2 = Zwei-Schritt-Authentifizierung eingeben
+signin-totp-code-instruction-v4 = Überprüfen Sie Ihre <strong>Authentifizierungs-App</strong>, um Ihre Anmeldung zu bestätigen.
+signin-totp-code-input-label-v4 = 6-stelligen Code eingeben
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bestätigen
 signin-totp-code-other-account-link = Ein anderes Konto verwenden
