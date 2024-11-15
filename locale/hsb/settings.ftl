@@ -1421,6 +1421,7 @@ confirm-reset-password-otp-different-account-link = Wužiwajće druhe konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Stajće swoje hesło wróćo
+confirm-totp-reset-password-subheader-v2 = Zapodajće kod za dwukročelowu awtentifikaciju
 confirm-totp-reset-password-instruction-v2 = Zmóžńće swoje <strong>nałoženje awtentizowanja</strong>, zo byšće swoje hesło wróćo stajił.
 confirm-totp-reset-password-trouble-code = Maće problemy při zapodawanju koda?
 confirm-totp-reset-password-confirm-button = Wobkrućić
@@ -1566,6 +1567,7 @@ signin-token-code-resend-error = Něšto je so nimokuliło. Nowy kod njeda so s�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Zapodajće kod za dwukročelowu awtentifikaciju
 signin-totp-code-instruction-v4 = Zmóžńće swoje <strong>nałoženje awtentizowanja</strong>, zo byšće swoje přizjewjenje wobkrućił.
 signin-totp-code-input-label-v4 = 6-městnowy kod zapodać
 # Form button to confirm if the authentication code entered by the user is valid
