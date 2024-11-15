@@ -1410,9 +1410,9 @@ confirm-totp-reset-password-subheader-v2 = Inserire il codice di autenticazione 
 confirm-totp-reset-password-instruction-v2 = Controlla l’<strong>app di autenticazione</strong> per reimpostare la password.
 confirm-totp-reset-password-trouble-code = Problemi a inserire il codice?
 confirm-totp-reset-password-confirm-button = Conferma
-confirm-totp-reset-password-input-label-v2 = Inserisci il codice a 6 cifre
+confirm-totp-reset-password-input-label-v2 = Inserire il codice a 6 cifre
 confirm-totp-reset-password-use-different-account = Utilizza un altro account
-confirm-recovery-code-reset-password-input-label = Inserire un codice di 10 caratteri
+confirm-recovery-code-reset-password-input-label = Inserire il codice di 10 caratteri
 confirm-recovery-code-reset-password-trouble-code = Indietro
 
 ## ResetPassword start page
@@ -1507,8 +1507,8 @@ signin-push-code-confirm-link-error = Il link è danneggiato. Riprova.
 
 signin-recovery-code-heading = Accedi
 signin-recovery-code-sub-heading = Digita il codice di autenticazione di backup
-signin-recovery-code-instruction-v2 = Inserire uno dei codici di autenticazione di backup monouso salvati durante la configurazione dell’autenticazione in due passaggi.
-signin-recovery-code-input-label-v2 = Inserire un codice di 10 caratteri
+signin-recovery-code-instruction-v2 = Inserire uno dei codici monouso di backup per l’autenticazione salvati durante la configurazione dell’autenticazione in due passaggi.
+signin-recovery-code-input-label-v2 = Inserire il codice di 10 caratteri
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferma
 # Link to return to signin with two-step authentication code
@@ -1550,7 +1550,7 @@ signin-token-code-resend-error = Si è verificato un problema. Impossibile invia
 
 signin-totp-code-subheader-v2 = Inserire il codice di autenticazione in due passaggi
 signin-totp-code-instruction-v4 = Controlla l’<strong>app di autenticazione</strong> per confermare l’accesso.
-signin-totp-code-input-label-v4 = Inserisci il codice a 6 cifre
+signin-totp-code-input-label-v4 = Inserire il codice a 6 cifre
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferma
 signin-totp-code-other-account-link = Utilizza un altro account
