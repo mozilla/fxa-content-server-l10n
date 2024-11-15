@@ -1414,12 +1414,14 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Obnovit heslo
-confirm-totp-reset-password-subheader = Zadejte svůj bezpečnostní kód pro dvoufaktorové ověření (2FA)
-confirm-totp-reset-password-instruction = Pro obnovu hesla prosím zkontrolujte svou ověřovací aplikaci.
+confirm-totp-reset-password-subheader-v2 = Zadejte kód pro dvoufázové ověření
+confirm-totp-reset-password-instruction-v2 = Pro obnovení hesla zkontrolujte svůj <strong>ověřovací modul</strong>.
 confirm-totp-reset-password-trouble-code = Problém se zadáváním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdit
-confirm-totp-reset-password-input-label = Zadejte kód
+confirm-totp-reset-password-input-label-v2 = Zadejte šestimístný kód
 confirm-totp-reset-password-use-different-account = Použít jiný účet
+confirm-recovery-code-reset-password-input-label = Zadejte 10místný kód
+confirm-recovery-code-reset-password-trouble-code = Zpět
 
 ## ResetPassword start page
 
@@ -1511,15 +1513,10 @@ signin-push-code-confirm-link-error = Odkaz je poškozen. Zkuste to prosím znov
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Zadejte záložní ověřovací kód a <span>pokračujte do nastavení účtu</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Zadejte záložní ověřovací kód a <span>pokračujte do služby { $serviceName }</span>
-signin-recovery-code-instruction = Zadejte prosím záložní ověřovací kód, který vám byl poskytnut při nastavování dvoufázového ověřování.
-signin-recovery-code-input-label = Zadejte 10místný záložní ověřovací kód
+signin-recovery-code-heading = Přihlásit se
+signin-recovery-code-sub-heading = Zadejte záložní ověřovací kód
+signin-recovery-code-instruction-v2 = Zadejte jeden z jednorázových záložních ověřovacích kódů, které jste si uložili při nastavování dvoufázového ověřování.
+signin-recovery-code-input-label-v2 = Zadejte 10místný kód
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdit
 # Link to return to signin with two-step authentication code
@@ -1559,9 +1556,9 @@ signin-token-code-resend-error = Něco se pokazilo. Nový kód se nepodařilo od
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Zadejte svůj bezpečnostní kód pro dvoufaktorové ověření (2FA)
-signin-totp-code-instruction-v3 = Zkontrolujte přihlášení ve své ověřovací aplikaci.
-signin-totp-code-input-label-v3 = Zadejte kód
+signin-totp-code-subheader-v2 = Zadejte kód pro dvoufázové ověření
+signin-totp-code-instruction-v4 = Zkontrolujte svou <strong>ověřovací aplikaci</strong> a potvrďte přihlášení.
+signin-totp-code-input-label-v4 = Zadejte šestimístný kód
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdit
 signin-totp-code-other-account-link = Použít jiný účet
