@@ -1412,11 +1412,13 @@ confirm-reset-password-otp-different-account-link = Utiliser un autre { -product
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Réinitialiser le mot de passe
-confirm-totp-reset-password-subheader = Saisissez le code de sécurité pour l’authentification à deux facteurs (2FA)
-confirm-totp-reset-password-instruction = Consultez votre application d’authentification pour réinitialiser votre mot de passe.
+confirm-totp-reset-password-subheader-v2 = Saisissez le code d’authentification en deux étapes
+confirm-totp-reset-password-instruction-v2 = Vérifiez votre <strong>application Authenticator</strong> pour réinitialiser votre mot de passe.
 confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
 confirm-totp-reset-password-confirm-button = Confirmer
-confirm-totp-reset-password-input-label = Saisissez le code
+confirm-totp-reset-password-input-label-v2 = Saisissez le code à 6 chiffres
+confirm-recovery-code-reset-password-input-label = Saisissez le code de 10 caractères
+confirm-recovery-code-reset-password-trouble-code = Retour
 
 ## ResetPassword start page
 
@@ -1508,15 +1510,10 @@ signin-push-code-confirm-link-error = Le lien est altéré. Veuillez réessayer.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Saisissez le code d’authentification de secours <span>pour accéder aux paramètres du compte</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Saisissez le code d’authentification de secours <span>pour continuer { $serviceName }</span>
-signin-recovery-code-instruction = Veuillez saisir un code d’authentification de secours fourni lors de la configuration de l’authentification en deux étapes.
-signin-recovery-code-input-label = Saisissez un code d’authentification de secours de 10 chiffres
+signin-recovery-code-heading = Connexion
+signin-recovery-code-sub-heading = Saisissez un code d’authentification de secours
+signin-recovery-code-instruction-v2 = Saisissez l’un des codes de secours à usage unique que vous avez enregistrés lors de la configuration de l’authentification en deux étapes.
+signin-recovery-code-input-label-v2 = Saisissez le code de 10 caractères
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmer
 # Link to return to signin with two-step authentication code
@@ -1556,9 +1553,9 @@ signin-token-code-resend-error = Une erreur s’est produite. Impossible d’env
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Saisissez le code de sécurité pour l’authentification à deux facteurs (2FA)
-signin-totp-code-instruction-v3 = Consultez votre application d’authentification pour confirmer votre connexion.
-signin-totp-code-input-label-v3 = Saisissez le code
+signin-totp-code-subheader-v2 = Saisissez le code d’authentification en deux étapes
+signin-totp-code-instruction-v4 = Vérifiez votre <strong>application d’authentification</strong> pour confirmer votre connexion.
+signin-totp-code-input-label-v4 = Saisissez le code à 6 chiffres
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
 signin-totp-code-other-account-link = Utiliser un autre { -product-mozilla-account }
