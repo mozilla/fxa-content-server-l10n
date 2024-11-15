@@ -1416,12 +1416,14 @@ confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Restablecer tu contraseña
-confirm-totp-reset-password-subheader = Ingresa tu código de seguridad de autenticación de dos factores (2FA)
-confirm-totp-reset-password-instruction = Verifica tu aplicación de autenticación para resetear tu contraseña.
+confirm-totp-reset-password-subheader-v2 = Ingresar código de autenticación en dos pasos
+confirm-totp-reset-password-instruction-v2 = Verifica tu <strong>aplicación de autenticación</strong> para resetear tu contraseña.
 confirm-totp-reset-password-trouble-code = ¿Problemas para ingresar el código?
 confirm-totp-reset-password-confirm-button = Confirmar
-confirm-totp-reset-password-input-label = Ingresar código
+confirm-totp-reset-password-input-label-v2 = Ingresa el código de 6 dígitos
 confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
+confirm-recovery-code-reset-password-input-label = Ingresa el código de 10 caracteres
+confirm-recovery-code-reset-password-trouble-code = Atrás
 
 ## ResetPassword start page
 
@@ -1518,15 +1520,10 @@ signin-push-code-confirm-link-error = El enlace está dañado. Por favor, vuelve
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Ingresa un código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Ingresa un código de autenticación de respaldo <span>para continuar con { $serviceName }</span>
-signin-recovery-code-instruction = Por favor, ingresa un código de autenticación de respaldo que se te proporcionó durante la configuración de la autenticación de dos pasos.
-signin-recovery-code-input-label = Ingresar el código de autenticación de respaldo de 10 dígitos
+signin-recovery-code-heading = Conectarse
+signin-recovery-code-sub-heading = Ingresa el código de autenticación de respaldo
+signin-recovery-code-instruction-v2 = Ingresa uno de los códigos de autenticación de respaldo de un solo uso que guardaste durante la configuración de la autenticación de dos pasos.
+signin-recovery-code-input-label-v2 = Ingresa el código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1566,9 +1563,9 @@ signin-token-code-resend-error = Algo se fue a las pailas. No se pudo enviar un 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Ingresa tu código de seguridad de autenticación de dos factores (2FA)
-signin-totp-code-instruction-v3 = Verifica tu aplicación de autenticación para confirmar tu conexión.
-signin-totp-code-input-label-v3 = Ingresar código
+signin-totp-code-subheader-v2 = Ingresar código de autenticación en dos pasos
+signin-totp-code-instruction-v4 = Verifica tu <strong>aplicación de autenticación</strong> para confirmar tu conexión.
+signin-totp-code-input-label-v4 = Ingresa el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
