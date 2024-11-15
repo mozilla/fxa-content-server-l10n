@@ -1425,9 +1425,11 @@ confirm-reset-password-otp-different-account-link = Басқа тіркелгі�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Парольді тастау
+confirm-totp-reset-password-subheader-v2 = Екі қадамды аутентификация кодын енгізіңіз
+confirm-totp-reset-password-instruction-v2 = Пароліңізді тастау үшін <strong>аутентификация қолданбасын</strong> тексеріңіз.
 confirm-totp-reset-password-trouble-code = Кодты енгізуде мәселе бар ма?
 confirm-totp-reset-password-confirm-button = Растау
-confirm-totp-reset-password-input-label-v2 = 6 таңбалы кодты енгізіңіз
+confirm-totp-reset-password-input-label-v2 = 6 цифрлы кодты енгізіңіз
 confirm-totp-reset-password-use-different-account = Басқа тіркелгіні қолдану
 confirm-recovery-code-reset-password-input-label = 10 таңбалы кодты енгізіңіз
 confirm-recovery-code-reset-password-trouble-code = Артқа
@@ -1527,6 +1529,7 @@ signin-push-code-confirm-link-error = Сілтеме зақымдалған. Қ�
 
 signin-recovery-code-heading = Кіру
 signin-recovery-code-sub-heading = Сақтық аутентификация кодын енгізіңіз
+signin-recovery-code-instruction-v2 = Екі қадамды аутентификацияны баптау кезінде сақталған бір рет қолданылатын сақтық көшірме аутентификация кодтарының бірін енгізіңіз.
 signin-recovery-code-input-label-v2 = 10 таңбалы кодты енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Растау
@@ -1569,6 +1572,7 @@ signin-token-code-resend-error = Бірнәрсе қате кетті. Жаңа 
 
 signin-totp-code-subheader-v2 = Екі қадамды аутентификация кодын енгізіңіз
 signin-totp-code-instruction-v4 = Жүйеге кіруді растау үшін <strong>аутентификация қолданбасын</strong> тексеріңіз.
+signin-totp-code-input-label-v4 = 6 цифрлы кодты енгізіңіз
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Растау
 signin-totp-code-other-account-link = Басқа тіркелгіні қолдану
