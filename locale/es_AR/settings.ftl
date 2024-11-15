@@ -1418,13 +1418,13 @@ confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Restablecé tu contraseña
-confirm-totp-reset-password-subheader-v2 = Ingresa el código de autenticación de dos pasos
-confirm-totp-reset-password-instruction-v2 = Comprueba tu <strong> aplicación de autenticación </strong> para restablecer tu contraseña.
+confirm-totp-reset-password-subheader-v2 = Ingresá el código de autenticación de dos pasos
+confirm-totp-reset-password-instruction-v2 = Usá tu <strong>aplicación de autenticación</strong> para restablecer tu contraseña.
 confirm-totp-reset-password-trouble-code = ¿Problemas para ingresar el código?
 confirm-totp-reset-password-confirm-button = Confirmar
 confirm-totp-reset-password-input-label-v2 = Ingresá el código de 6 dígitos
 confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
-confirm-recovery-code-reset-password-input-label = Ingresar código de 10 caracteres
+confirm-recovery-code-reset-password-input-label = Ingresá el código de 10 caracteres
 confirm-recovery-code-reset-password-trouble-code = Atrás
 
 ## ResetPassword start page
@@ -1523,9 +1523,9 @@ signin-push-code-confirm-link-error = El enlace está dañado. Probá de nuevo.
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = Iniciar sesión
-signin-recovery-code-sub-heading = Ingresar código de autenticación de respaldo
-signin-recovery-code-instruction-v2 = Ingresa uno de los códigos de autenticación de respaldo de un solo uso que guardaste durante la configuración de la autenticación en dos pasos.
-signin-recovery-code-input-label-v2 = Ingresar código de 10 caracteres
+signin-recovery-code-sub-heading = Ingresá el código de autenticación de respaldo
+signin-recovery-code-instruction-v2 = Ingres uno de los códigos de autenticación de respaldo de un solo uso que guardaste durante la configuración de la autenticación en dos pasos.
+signin-recovery-code-input-label-v2 = Ingresá el código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1565,7 +1565,7 @@ signin-token-code-resend-error = Algo salió mal. No se pudo enviar un nuevo có
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader-v2 = Ingresa el código de autenticación de dos pasos
+signin-totp-code-subheader-v2 = Ingresá el código de autenticación de dos pasos
 signin-totp-code-instruction-v4 = Comprueba tu <strong> aplicación de autenticación </strong> para confirmar que has iniciado sesión.
 signin-totp-code-input-label-v4 = Ingresá el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
