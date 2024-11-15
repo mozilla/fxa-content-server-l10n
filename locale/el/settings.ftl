@@ -1427,12 +1427,14 @@ confirm-reset-password-otp-different-account-link = Χρήση διαφορετ�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Επαναφορά κωδικού πρόσβασης
-confirm-totp-reset-password-subheader = Εισαγάγετε τον κωδικό ασφαλείας ταυτοποίησης δύο παραγόντων (2FA)
-confirm-totp-reset-password-instruction = Ελέγξτε την εφαρμογή ταυτοποίησής σας για να επαναφορέρετε τον κωδικό πρόσβασής σας.
+confirm-totp-reset-password-subheader-v2 = Εισαγάγετε κωδικό ταυτοποίησης δύο παραγόντων
+confirm-totp-reset-password-instruction-v2 = Ελέγξτε την <strong>εφαρμογή ταυτοποίησής</strong> σας για να επαναφορέρετε τον κωδικό πρόσβασής σας.
 confirm-totp-reset-password-trouble-code = Πρόβλημα με την εισαγωγή του κωδικού;
 confirm-totp-reset-password-confirm-button = Επιβεβαίωση
-confirm-totp-reset-password-input-label = Εισαγάγετε τον κωδικό
+confirm-totp-reset-password-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
 confirm-totp-reset-password-use-different-account = Χρήση διαφορετικού λογαριασμού
+confirm-recovery-code-reset-password-input-label = Εισαγάγετε τον κωδικό 10 χαρακτήρων
+confirm-recovery-code-reset-password-trouble-code = Πίσω
 
 ## ResetPassword start page
 
@@ -1529,15 +1531,10 @@ signin-push-code-confirm-link-error = Ο σύνδεσμος είναι κατε�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Εισαγάγετε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Εισαγάγετε τον εφεδδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
-signin-recovery-code-instruction = Παρακαλώ εισαγάγετε έναν από τους εφεδρικούς κωδικούς ταυτοποίησης που λάβατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων.
-signin-recovery-code-input-label = Εισαγάγετε τον 10ψήφιο εφεδρικό κωδικό ταυτοποίησης
+signin-recovery-code-heading = Σύνδεση
+signin-recovery-code-sub-heading = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
+signin-recovery-code-instruction-v2 = Εισαγάγετε έναν από τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης που αποθηκεύσατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων.
+signin-recovery-code-input-label-v2 = Εισαγάγετε τον κωδικό 10 χαρακτήρων
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Επιβεβαίωση
 # Link to return to signin with two-step authentication code
@@ -1577,9 +1574,9 @@ signin-token-code-resend-error = Κάτι πήγε στραβά. Δεν ήταν
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Εισαγάγετε τον κωδικό ασφαλείας ταυτοποίησης δύο παραγόντων (2FA)
-signin-totp-code-instruction-v3 = Ελέγξτε την εφαρμογή ελέγχου ταυτότητάς σας για να επιβεβαιώσετε τη σύνδεσή σας.
-signin-totp-code-input-label-v3 = Εισαγάγετε τον κωδικό
+signin-totp-code-subheader-v2 = Εισαγάγετε κωδικό ταυτοποίησης δύο παραγόντων
+signin-totp-code-instruction-v4 = Ελέγξτε την <strong>εφαρμογή ταυτοποίησής</strong> σας για να επιβεβαιώσετε τη σύνδεσή σας.
+signin-totp-code-input-label-v4 = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση
 signin-totp-code-other-account-link = Χρήση διαφορετικού λογαριασμού
