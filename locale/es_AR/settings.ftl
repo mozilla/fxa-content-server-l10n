@@ -1566,7 +1566,7 @@ signin-token-code-resend-error = Algo salió mal. No se pudo enviar un nuevo có
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader-v2 = Ingresá el código de autenticación de dos pasos
-signin-totp-code-instruction-v4 = Comprueba tu <strong> aplicación de autenticación </strong> para confirmar que has iniciado sesión.
+signin-totp-code-instruction-v4 = Usá tu <strong>aplicación de autenticación</strong> para confirmar el inicio de sesión.
 signin-totp-code-input-label-v4 = Ingresá el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
