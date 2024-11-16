@@ -1343,12 +1343,14 @@ confirm-reset-password-otp-different-account-link = שימוש בחשבון אח
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = איפוס הססמה שלך
-confirm-totp-reset-password-subheader = נא להכניס את קוד האבטחה של האימות הדו־שלבי (2FA)
-confirm-totp-reset-password-instruction = נא לפתוח את היישומון המאמת שלך כדי לאפס את הססמה שלך.
+confirm-totp-reset-password-subheader-v2 = נא להכניס קוד אימות דו־שלבי
+confirm-totp-reset-password-instruction-v2 = נא לפתוח את <strong>היישומון המאמת</strong> שלך כדי לאפס את הססמה שלך.
 confirm-totp-reset-password-trouble-code = מתקשה בהזנת הקוד?
 confirm-totp-reset-password-confirm-button = אישור
-confirm-totp-reset-password-input-label = נא להזין קוד
+confirm-totp-reset-password-input-label-v2 = נא להזין קוד בן 6 ספרות
 confirm-totp-reset-password-use-different-account = שימוש בחשבון אחר
+confirm-recovery-code-reset-password-input-label = נא להזין קוד בן 10 תווים
+confirm-recovery-code-reset-password-trouble-code = חזרה
 
 ## ResetPassword start page
 
@@ -1440,6 +1442,8 @@ signin-push-code-confirm-link-error = הקישור פגום. נא לנסות ש�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = כניסה
+signin-recovery-code-input-label-v2 = נא להזין קוד בן 10 תווים
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = אישור
 # Link to return to signin with two-step authentication code
@@ -1477,9 +1481,9 @@ signin-token-code-resend-error = משהו השתבש. לא ניתן היה לש�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = נא להכניס את קוד האבטחה של האימות הדו־שלבי (2FA)
-signin-totp-code-instruction-v3 = נא לפתוח את היישומון המאמת שלך ולאמת את ההתחברות שלך.
-signin-totp-code-input-label-v3 = נא להזין קוד
+signin-totp-code-subheader-v2 = נא להכניס קוד אימות דו־שלבי
+signin-totp-code-instruction-v4 = נא לפתוח את <strong>היישומון המאמת</strong> שלך ולאמת את ההתחברות שלך.
+signin-totp-code-input-label-v4 = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = אישור
 signin-totp-code-other-account-link = שימוש בחשבון אחר
