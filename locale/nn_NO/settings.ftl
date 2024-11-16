@@ -4,17 +4,9 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Lat att
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-post sendt på nytt. Legg til { $accountsEmail } i kontaktane dine for å sikre problemfri levering.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Noko gjekk gale. Klarte ikkje å sende ein ny kode.
+resend-code-success-banner-heading = Ein ny kode er sendt til e-posten din.
+resend-link-success-banner-heading = Ei ny lenke er sendt til e-posten din.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +97,6 @@ choose-what-to-sync-option-addresses =
     .label = Adresser
 choose-what-to-sync-option-paymentmethods =
     .label = Betalingsmåtar
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Ikkje i Innboks eller Uønskt-mappa («spam»)? Send på nytt
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Tilbake
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +207,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Canadisk flagg
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kode
+error-icon-aria-label =
+    .aria-label = Feil
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informasjon
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Ei datamaskin og ein mobiltelefon og eit bilde av eit knust hjarte på kvar
 hearts-verified-image-aria-label =
@@ -245,7 +244,6 @@ recovery-key-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Du er logga inn på { -brand-firefox }
 inline-recovery-key-setup-create-header = Sikre kontoen din
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Har du eit minutt til å verne dataa dine?
@@ -286,15 +284,6 @@ reset-pwd-link-damaged-message = Lenka du trykte på manglar nokre teikn, og kan
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Få ei ny lenke
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Passordlenke for tilbakestilling er gått ut
-reset-pwd-link-expired-message = Lenka du trykte på for å tilbakestille passordet ditt har gått ut.
 
 ## LinkRememberPassword component
 
@@ -1254,10 +1243,8 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Tilbakestill passord
-confirm-totp-reset-password-subheader = Skriv inn tryggingskoden for tofaktorautentisering (2FA)
 confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
 confirm-totp-reset-password-confirm-button = Stadfest
-confirm-totp-reset-password-input-label = Skriv inn kode
 
 ## ResetPassword start page
 
@@ -1341,15 +1328,6 @@ signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Skriv inn godkjenningskode <span>for å halde fram til kontoinnstillingar</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Skriv inn godkjenningskode <span>for å halde fram til { $serviceName }</span>
-signin-recovery-code-instruction = Skriv inn ein reserve-godkjenningskode som som du fekk under installasjonen av tostegs-godkjenninga.
-signin-recovery-code-input-label = Skriv inn ein 10-sifra reserve-godkjenningskode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Stadfest
 # Link to return to signin with two-step authentication code
@@ -1388,9 +1366,6 @@ signin-token-code-required-error = Stadfestingskode påkravd
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Skriv inn tryggingskoden for tofaktorautentisering (2FA)
-signin-totp-code-instruction-v3 = Sjekk autentiseringsappen for å stadfeste pålogginga.
-signin-totp-code-input-label-v3 = Skriv inn kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
 signin-totp-code-other-account-link = Bruk ein annan konto
@@ -1441,9 +1416,6 @@ confirm-signup-code-is-required-error = Stadfestingskode er påkravd
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Angje passord
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Kvifor må eg opprette denne kontoen? <LinkExternal>Finn ut av det her</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Endre e-post
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
