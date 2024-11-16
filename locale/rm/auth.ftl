@@ -295,6 +295,19 @@ passwordResetAccountRecovery-subject-2 = Tes pled-clav è vegnì reinizialisà
 passwordResetAccountRecovery-title-3 = Tes pled-clav è vegnì reinizialisà
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Ti has duvrà tia clav da recuperaziun dal conto per reinizialisar tes pled-clav da { -product-mozilla-account } sin:
+passwordResetAccountRecovery-information = Nus avain ta deconnectà sin tut tes apparats sincronisads. Nus avain creà ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà. Ti la pos midar en ils parameters da tes conto.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Nus avain ta deconnectà sin tut tes apparats sincronisads. Nus avain creà ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà. Ti la pos midar en ils parameters da tes conto:
+passwordResetAccountRecovery-action-4 = Administrar il conto
+passwordResetWithRecoveryKeyPrompt-subject = Tes pled-clav è vegnì reinizialisà
+passwordResetWithRecoveryKeyPrompt-title = Tes pled-clav è vegnì reinizialisà
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Ti has reinizialisà tes pled-clav da { -product-mozilla-account } sin:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Crear ina clav da recuperaziun dal conto
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Crear ina clav da recuperaziun dal conto:
+passwordResetWithRecoveryKeyPrompt-cta-description = Ti vegns a stuair s’annunziar danovamain sin tut tes apparats sincronisads. Protegia la proxima giada tias datas cun agid dad ina clav da recuperaziun dal conto. Quella ta permetta da recuperar tias datas sche ti emblidas tes pled-clav.
 postAddAccountRecovery-subject-3 = Creà ina nova clav da recuperaziun dal conto
 postAddAccountRecovery-title2 = Ti has creà ina nova clav da recuperaziun dal conto
 # Key here refers to account recovery key

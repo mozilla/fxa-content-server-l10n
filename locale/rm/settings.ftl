@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Serrar
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Tramess anc ina giada l'e-mail. Agiuntescha { $accountsEmail } a tes contacts per far la segira che e-mails da quest speditur arrivian.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Insatge è ì mal. I n'è betg reussì da trametter in nov code.
+resend-code-success-banner-heading = In nov code è vegnì tramess a tia adressa dad e-mail.
+resend-link-success-banner-heading = Ina nova colliaziun è vegnida tramessa a tia adressa dad e-mail.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Agiuntescha { $accountsEmail } a tes contacts per far la segira ch’ils e-mails da quest speditur arrivian.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Adressas
 choose-what-to-sync-option-paymentmethods =
     .label = Metodas da pajament
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Betg en la posta entrada u en l'ordinatur da spam? Trametter anc ina giada
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Enavos
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,50 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Avertiment
+authenticator-app-aria-label =
+    .aria-label = Applicaziun d’autentificaziun
+backup-codes-icon-aria-label =
+    .aria-label = Codes da recuperaziun activads
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Codes da recuperaziun deactivads
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS da recuperaziun activà
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS da recuperaziun deactivà
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Bandiera canadaisa
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Crutschet
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Success
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Activà
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Serrar il messadi
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Code
+error-icon-aria-label =
+    .aria-label = Errur
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Infurmaziuns
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandiera dal Stadis Unids da l’America
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = In computer ed in telefonin e sin omadus in maletg dad in cor rut
 hearts-verified-image-aria-label =
@@ -246,12 +276,16 @@ lightbulb-aria-label =
     .aria-label = Illustraziun che represchenta la creaziun dad in tip per l'archivaziun.
 email-code-image-aria-label =
     .aria-label = Illustraziun che represchenta in e-mail cun in code.
+recovery-phone-image-description =
+    .aria-label = Apparat mobil che retschaiva in code via SMS.
+recovery-phone-code-image-description =
+    .aria-label = Code retschavì sin in apparat mobil.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Ti es connectà cun { -brand-firefox }
+inline-recovery-key-setup-signed-in-firefox-2 = Ti es annunzià en { -brand-firefox }.
 inline-recovery-key-setup-create-header = Protegia tes conto
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Has ti ina minuta per proteger tias datas?
@@ -293,14 +327,7 @@ reset-pwd-link-damaged-message = La colliaziun sin la quala ti has cliccà n'è 
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Ma trametter ina nova colliaziun
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = La colliaziun per redefinir il pled-clav è scrudada
-reset-pwd-link-expired-message = La colliaziun sin la quala ti has cliccà per redefinir tes pled-clav è scrudada.
+link-expired-new-link-button = Ma trametter ina nova colliaziun
 
 ## LinkRememberPassword component
 
@@ -405,6 +432,12 @@ password-reset-warning-icon = Avertiment
 password-reset-chevron-expanded = Reducir l’avertiment
 password-reset-chevron-collapsed = Expander l’avertiment
 password-reset-data-may-not-be-recovered = Las datas da tes navigatur na pon eventualmain betg vegnir recuperadas
+password-reset-previously-signed-in-device-2 = Has ti in apparat sin il qual ti es gia annunzià?
+password-reset-data-may-be-saved-locally-2 = Las datas da tes navigatur èn eventualmain memorisadas sin lez apparat. Reinizialisescha tes pled-clav, t’annunzia lura là per recuperar e sincronisar tias datas.
+password-reset-no-old-device-2 = Has ti in nov apparat ma n’has betg access a tes apparats vegls?
+password-reset-encrypted-data-cannot-be-recovered-2 = Quai ans displascha, ma tias datas dal navigatur criptadas sin ils servers da { -brand-firefox } na pon betg vegnir recuperadas.
+password-reset-warning-have-key = Has ti ina clav da recuperaziun dal conto?
+password-reset-warning-use-key-link = L’utilisescha ussa per reinizialisar tes pled-clav e salvar tias datas
 
 ## Alert Bar
 
@@ -1369,6 +1402,12 @@ complete-reset-password-success-alert = Definì il pled-clav
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Perstgisa, igl ha dà in problem cun definir tes pled-clav
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Utilisar la clav da recuperaziun dal conto
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Tes pled-clav è vegnì reinizialisà.
+reset-password-complete-banner-message = N’emblida betg da generar ina nova clav da recuperaziun dal conto en ils parameters da tes { -product-mozilla-account } per evitar problems d’annunzia en l’avegnir.
 
 ## Confirm Reset Password With Code
 
@@ -1389,6 +1428,10 @@ confirm-reset-password-otp-different-account-link = Utilisar in auter conto
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Redefinir tes pled-clav
+confirm-totp-reset-password-trouble-code = Difficultads cun endatar il code?
+confirm-totp-reset-password-confirm-button = Confermar
+confirm-totp-reset-password-use-different-account = Utilisar in auter conto
 
 ## ResetPassword start page
 
@@ -1403,7 +1446,15 @@ password-reset-submit-button-2 = Cuntinuar
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Tes pled-clav è vegnì reinizialisà
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Cuntinuar vers { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success il pled-clav
+reset-password-complete-new-password-saved = Memorisà il nov pled-clav!
+reset-password-complete-recovery-key-created = Creà ina nova clav da recuperaziun dal conto. Telechargia ussa la clav e la tegna en salv.
+reset-password-complete-recovery-key-download-info =
+    Questa clav è essenziala per
+    la restauraziun da datas sche ti emblidas tes pled-clav. <b>La telechargia ussa e la tegna en salv,
+    cunquai che ti na vegns pli tard betg pli a pudair acceder a questa pagina.</b>
 
 ## CompleteSignin component
 
@@ -1477,15 +1528,6 @@ signin-push-code-confirm-link-error = La colliaziun è donnegiada. Emprova per p
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Endatescha il code d'autentificaziun da backup <span>per cuntinuar cun ils parameters dal conto</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Endatescha il code d'autentificaziun da backup <span>per cuntinuar cun { $serviceName }</span>
-signin-recovery-code-instruction = Endatescha per plaschair in code d'autentificaziun da backup che ti has obtegnì durant la configuraziun da l'autentificaziun en dus pass.
-signin-recovery-code-input-label = Endatescha il code d'autentificaziun da backup da 10 cifras
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confermar
 # Link to return to signin with two-step authentication code
@@ -1519,14 +1561,12 @@ signin-token-code-code-expired = Code scadì?
 signin-token-code-resend-code-link = Trametter in nov code via e-mail.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Code da conferma necessari
+signin-token-code-resend-error = Insatge è ì mal. I n’è betg reussì da trametter in nov code.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Endatescha il code da segirezza per l’autentificaziun en dus pass (2FA)
-signin-totp-code-instruction-v3 = Consultescha tia app d’autentificaziun per confermar tia annunzia.
-signin-totp-code-input-label-v3 = Endatescha il code
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confermar
 signin-totp-code-other-account-link = Utilisar in auter conto
@@ -1577,9 +1617,13 @@ confirm-signup-code-is-required-error = Il code da conferma è necessari
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Definescha tes pled-clav
+signup-relay-info = In pled-clav è necessari per administrar a moda segira tes e-mails cun alias e per pudair acceder als utensils da segirezza da { -brand-mozilla }.
+signup-heading-relay = Crear in pled-clav
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Pertge stoss jau crear quest conto? <LinkExternal>Ve a savair pertge</LinkExternal>
+signup-pocket-info-banner = Pertge stoss jau crear quest conto?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Ve a savair quai qua
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Midar l'adressa dad e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
