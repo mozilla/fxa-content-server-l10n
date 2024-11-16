@@ -210,6 +210,18 @@ get-data-trio-print-2 =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Canadisk flagg
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Valt
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Vellykka
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Slått på
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Lat att melding
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Kode
@@ -284,6 +296,8 @@ reset-pwd-link-damaged-message = Lenka du trykte på manglar nokre teikn, og kan
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Få ei ny lenke
 
 ## LinkRememberPassword component
 
