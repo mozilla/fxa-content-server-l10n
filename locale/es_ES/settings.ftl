@@ -1167,13 +1167,17 @@ index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
 index-subheader-default = Continuar a configuración de cuenta
 index-cta = Regístrate o inicia sesión
+index-account-info = Una { -product-mozilla-account } también desbloquea el acceso a más productos de protección de privacidad de { -brand-mozilla }.
 index-email-input =
     .label = Escribe tu correo electrónico
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = ¡Vaya! No hemos podido crear tu clave de recuperación de cuenta. Prueba de nuevo más tarde.
 inline-recovery-key-setup-recovery-created = Clave de recuperación de cuenta creada
 inline-recovery-key-setup-download-header = Asegura tu cuenta
+inline-recovery-key-setup-download-subheader = Descárgala y guárdala ahora
+inline-recovery-key-setup-download-info = Guarda esta clave en algún lugar que puedas recordar — no podrás volver a esta página más tarde.
 inline-recovery-key-setup-hint-header = Recomendación de seguridad
 
 ## InlineRecoverySetup page
@@ -1368,21 +1372,35 @@ third-party-auth-callback-message = Espera, estás siendo redirigido a la aplica
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Introduce tu clave de recuperación de cuenta
+account-recovery-confirm-key-instruction = Esta clave recupera tus datos de navegación cifrados, como contraseñas y marcadores, desde los servidores de { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Escribe tu clave de recuperación de cuenta de 32 caracteres
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Tu sugerencia de almacenamiento es:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Continuar
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = ¿No puedes encontrar tu clave de recuperación de cuenta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Crear una nueva contraseña
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Lo sentimos, ha surgido un problema al establecer tu contraseña
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Usar la clave de recuperación de la cuenta
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Se ha restablecido tu contraseña maestra.
+reset-password-complete-banner-message = No olvides generar una nueva clave de recuperación de cuenta desde la configuración de { -product-mozilla-account } para evitar futuros problemas de conexión.
 
 ## Confirm Reset Password With Code
 
@@ -1404,8 +1422,14 @@ confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Restablecer tu contraseña
+confirm-totp-reset-password-subheader-v2 = Escribir el código de autenticación en dos pasos
+confirm-totp-reset-password-instruction-v2 = Comprueba tu <strong>aplicación de autenticación</strong> para restablecer tu contraseña.
 confirm-totp-reset-password-trouble-code = ¿Problemas para introducir el código?
 confirm-totp-reset-password-confirm-button = Confirmar
+confirm-totp-reset-password-input-label-v2 = Introduce el código de 6 dígitos
+confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
+confirm-recovery-code-reset-password-input-label = Introduce el código de 10 caracteres
+confirm-recovery-code-reset-password-trouble-code = Atrás
 
 ## ResetPassword start page
 
