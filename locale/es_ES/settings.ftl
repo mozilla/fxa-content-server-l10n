@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Se ha enviado un nuevo código a tu correo electrónico.
+resend-link-success-banner-heading = Se ha enviado un nuevo enlace a tu correo electrónico.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Añade { $accountsEmail } a tus contactos para asegurar una entrega sin problemas.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -272,6 +276,10 @@ lightbulb-aria-label =
     .aria-label = Ilustración para representar la creación de una sugerencia de almacenamiento.
 email-code-image-aria-label =
     .aria-label = Ilustración para representar un correo electrónico que contiene un código.
+recovery-phone-image-description =
+    .aria-label = Dispositivo móvil que recibe un código por mensaje de texto.
+recovery-phone-code-image-description =
+    .aria-label = Código recibido en un dispositivo móvil.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -424,6 +432,12 @@ password-reset-warning-icon = Advertencia
 password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
 password-reset-data-may-not-be-recovered = Tal vez no puedan recuperar los datos de tu navegador
+password-reset-previously-signed-in-device-2 = ¿Tienes algún dispositivo desde el cual te hayas conectado anteriormente?
+password-reset-data-may-be-saved-locally-2 = Es posible que los datos de tu navegador estén guardados en ese dispositivo. Restablece tu contraseña y luego conéctate desde allí para restaurar y sincronizar tus datos.
+password-reset-no-old-device-2 = ¿Tienes un dispositivo nuevo pero no tienes acceso a ninguno de los anteriores?
+password-reset-encrypted-data-cannot-be-recovered-2 = Lo sentimos, pero los datos de tu navegador que se encuentran cifrados en los servidores de { -brand-firefox } no se pueden recuperar.
+password-reset-warning-have-key = ¿Tienes una clave de recuperación de cuenta?
+password-reset-warning-use-key-link = Úsala ahora para restablecer tu contraseña y conservar tus datos.
 
 ## Alert Bar
 
@@ -454,6 +468,7 @@ bento-menu-made-by-mozilla = Creado por { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Obtén { -brand-firefox } en un dispositivo móvil o tableta
+connect-another-find-fx-mobile-2 = Busca { -brand-firefox } en { -google-play } y { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -524,6 +539,7 @@ dc-heading = Recopilación y uso de datos
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
+dc-subheader-ff-content = Para revisar o actualizar la configuración de datos de interacción y técnicos de tu navegador { -brand-firefox }, abre los ajustes de { -brand-firefox } y navega a Privacidad y seguridad.
 dc-opt-out-success-2 = Desactivación correcta. { -product-mozilla-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success-2 = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Lo sentimos, ha surgido un problema al cambiar tu preferencia de recolección de datos
@@ -743,6 +759,7 @@ delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Introducir contraseña
 pocket-delete-notice = Si te suscribes a Pocket Premium, asegúrate de <a>cancelar tu suscripción</a> antes de eliminar tu cuenta.
+pocket-delete-notice-marketing = Para dejar de recibir correos electrónicos de marketing de Mozilla Corporation y Mozilla Foundation, debes <a>solicitar la eliminación de tus datos de marketing.</a>
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -890,6 +907,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Descubre si tu información privada ha sido expuesta — y recupérala
+product-promo-monitor-plus-description = La privacidad es importante: descubre dónde está expuesta tu información privada y recupérala
 # Links out to the Monitor site
 product-promo-monitor-cta = Hacer un escaneo gratuito
 # Links out to the Monitor pricing site
@@ -931,6 +949,7 @@ security-set-password = Establecer una contraseña para sincronizar y usar ciert
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ver actividad reciente de la cuenta
 signout-sync-header = Sesión expirada
+signout-sync-session-expired = Lo sentimos, algo ha salido mal. Cierra la sesión en el menú del navegador y vuelve a intentarlo.
 
 ## Switch component
 
@@ -1142,6 +1161,7 @@ cookies-disabled-learn-more = Saber más
 
 index-header = Escribe tu correo electrónico
 index-sync-header = Continuar a tu { -product-mozilla-account }
+index-sync-subheader = Sincroniza tus contraseñas, pestañas y marcadores donde sea que uses { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
@@ -1386,7 +1406,6 @@ confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
 confirm-totp-reset-password-header = Restablecer tu contraseña
 confirm-totp-reset-password-trouble-code = ¿Problemas para introducir el código?
 confirm-totp-reset-password-confirm-button = Confirmar
-confirm-totp-reset-password-input-label = Introducir código
 
 ## ResetPassword start page
 
@@ -1463,15 +1482,6 @@ signin-push-code-confirm-verifying = Verificando
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Introduce el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Introduce el código de autenticación de respaldo <span>para continuar en { $serviceName }</span>
-signin-recovery-code-instruction = Por favor, introduce un código de autenticación de respaldo que se te proporcionó durante la configuración de la autenticación de dos pasos.
-signin-recovery-code-input-label = Introduce un código de autenticación de respaldo de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1510,7 +1520,6 @@ signin-token-code-required-error = Código de confirmación requerido
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-input-label-v3 = Introducir código
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
