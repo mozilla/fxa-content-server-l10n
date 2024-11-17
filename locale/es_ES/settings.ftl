@@ -1434,6 +1434,9 @@ confirm-recovery-code-reset-password-trouble-code = Atrás
 ## ResetPassword start page
 
 password-reset-flow-heading = Restablecer tu contraseña
+password-reset-body-2 =
+    Te pediremos un par de cosas que solo tú sabes para mantener tu cuenta
+    segura.
 password-reset-email-input =
     .label = Escribe tu correo electrónico
 password-reset-submit-button-2 = Continuar
@@ -1444,6 +1447,12 @@ reset-password-complete-header = Se ha restablecido tu contraseña
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
+reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
+reset-password-complete-recovery-key-created = Se ha creado una nueva clave de recuperación de cuenta. Descárgala y guárdala ahora.
+reset-password-complete-recovery-key-download-info =
+    Esta clave es esencial para
+    la recuperación de datos si olvidas tu contraseña. <b>Descárgala y guárdala de manera segura
+    ahora mismo, ya que no podrás volver a esta página más tarde.</b>
 
 ## CompleteSignin component
 
@@ -1496,16 +1505,31 @@ back = Atrás
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Verifica este inicio de sesión <span>para continuar con la configuración de la cuenta</span>
+signin-push-code-heading-w-custom-service = Verifica este inicio de sesión <span>para continuar a { $serviceName }</span>
+signin-push-code-instruction = Por favor, verifica tus otros dispositivos y aprueba esta conexión desde tu navegador { -brand-firefox }.
+signin-push-code-did-not-recieve = ¿No has recibido la notificación?
+signin-push-code-send-email-link = Enviar código por correo electrónico
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Confirma tu inicio de sesión
+signin-push-code-confirm-description = Hemos detectado un intento de inicio de sesión desde el siguiente dispositivo. Si has sido tú, por favor, aprueba el inicio de sesión
 signin-push-code-confirm-verifying = Verificando
+signin-push-code-confirm-login = Confirmar inicio de sesión
+signin-push-code-confirm-wasnt-me = No he sido yo, cambiar la contraseña.
+signin-push-code-confirm-login-approved = Se ha aprobado tu inicio de sesión. Puedes cerrar esta ventana.
+signin-push-code-confirm-link-error = El enlace está dañado. Prueba de nuevo.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Iniciar sesión
+signin-recovery-code-sub-heading = Introduce el código de autenticación de respaldo
+signin-recovery-code-instruction-v2 = Escribe uno de los códigos de autenticación de respaldo de un solo uso que guardaste durante la configuración de la autenticación de dos pasos.
+signin-recovery-code-input-label-v2 = Introduce el código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1539,11 +1563,15 @@ signin-token-code-code-expired = ¿Código caducado?
 signin-token-code-resend-code-link = Enviar código nuevo por correo electrónico.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Código de confirmación requerido
+signin-token-code-resend-error = Ha habido un problema. No se ha podido enviar un nuevo código.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Escribir el código de autenticación en dos pasos
+signin-totp-code-instruction-v4 = Comprueba tu <strong>aplicación de autenticación</strong> para confirmar tu inicio de sesión.
+signin-totp-code-input-label-v4 = Introduce el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
@@ -1594,6 +1622,7 @@ confirm-signup-code-is-required-error = Código de confirmación requerido
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Establece tu contraseña
+signup-relay-info = Se necesita una contraseña para administrar de forma segura tus correos electrónicos enmascarados y acceder a las herramientas de seguridad de { -brand-mozilla }.
 signup-heading-relay = Crear una contraseña
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
