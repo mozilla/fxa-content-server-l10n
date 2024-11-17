@@ -225,7 +225,7 @@ backup-recovery-sms-disabled-icon-aria-label =
     .aria-label = Obnovovací SMS jsou zakázány
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
-    .aria-label = Kanadská Vlajka
+    .aria-label = Kanadská vlajka
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
     .aria-label = Zaškrtnout
@@ -1415,7 +1415,7 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 
 confirm-totp-reset-password-header = Obnovit heslo
 confirm-totp-reset-password-subheader-v2 = Zadejte kód pro dvoufázové ověření
-confirm-totp-reset-password-instruction-v2 = Pro obnovení hesla zkontrolujte svůj <strong>ověřovací modul</strong>.
+confirm-totp-reset-password-instruction-v2 = Pro obnovení hesla zkontrolujte <strong>aplikaci pro autentizaci</strong>.
 confirm-totp-reset-password-trouble-code = Problém se zadáváním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdit
 confirm-totp-reset-password-input-label-v2 = Zadejte šestimístný kód
