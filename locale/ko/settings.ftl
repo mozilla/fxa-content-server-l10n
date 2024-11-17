@@ -1419,12 +1419,14 @@ confirm-reset-password-otp-different-account-link = 다른 계정 사용
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = 비밀번호 재설정
-confirm-totp-reset-password-subheader = 2단계 인증 보안 코드(2FA)를 입력하세요.
-confirm-totp-reset-password-instruction = 인증 앱을 확인하여 비밀번호를 재설정하세요.
+confirm-totp-reset-password-subheader-v2 = 2 단계 인증 코드 입력
+confirm-totp-reset-password-instruction-v2 = <strong>인증 앱</strong>을 확인하여 비밀번호를 재설정하세요.
 confirm-totp-reset-password-trouble-code = 코드 입력에 문제가 있나요?
 confirm-totp-reset-password-confirm-button = 확인
-confirm-totp-reset-password-input-label = 코드 입력
+confirm-totp-reset-password-input-label-v2 = 6자리 숫자 코드 입력
 confirm-totp-reset-password-use-different-account = 다른 계정 사용
+confirm-recovery-code-reset-password-input-label = 10자리 코드 입력
+confirm-recovery-code-reset-password-trouble-code = 뒤로
 
 ## ResetPassword start page
 
@@ -1521,15 +1523,10 @@ signin-push-code-confirm-link-error = 링크가 손상되었습니다. 다시 �
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = 백업 인증 코드를 입력하고 <span>계정 설정을 계속하세요</span>.
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = 백업 인증 코드를 입력하고 <span>{ $serviceName }을 계속하세요</span>.
-signin-recovery-code-instruction = 2단계 인증 설정 과정에서 제공된 백업 인증 코드를 입력하세요.
-signin-recovery-code-input-label = 10자리 백업 인증 코드를 입력하세요.
+signin-recovery-code-heading = 로그인
+signin-recovery-code-sub-heading = 백업 인증 코드 입력
+signin-recovery-code-instruction-v2 = 2단계 인증 설정 중에 저장한 일회용 백업 인증 코드 중 하나를 입력하세요.
+signin-recovery-code-input-label-v2 = 10자리 코드 입력
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 확인
 # Link to return to signin with two-step authentication code
@@ -1569,9 +1566,9 @@ signin-token-code-resend-error = 문제가 발생했습니다. 새 코드를 보
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = 2단계 인증 보안 코드(2FA)를 입력하세요.
-signin-totp-code-instruction-v3 = 인증 앱을 확인하여 로그인을 승인하세요.
-signin-totp-code-input-label-v3 = 코드 입력
+signin-totp-code-subheader-v2 = 2단계 인증 코드 입력
+signin-totp-code-instruction-v4 = <strong>인증기 앱</strong>에서 로그인을 확인하세요.
+signin-totp-code-input-label-v4 = 6자리 숫자 코드 입력
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 확인
 signin-totp-code-other-account-link = 다른 계정 사용
