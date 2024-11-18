@@ -1397,12 +1397,14 @@ confirm-reset-password-otp-different-account-link = Usar outra conta
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Redefinição de senha
-confirm-totp-reset-password-subheader = Digite o código de segurança de autenticação em duas etapas
-confirm-totp-reset-password-instruction = Use um aplicativo de autenticação para redefinir a senha.
+confirm-totp-reset-password-subheader-v2 = Insira o código de autenticação em duas etapas
+confirm-totp-reset-password-instruction-v2 = Use um <strong>aplicativo de autenticação</strong> para redefinir a senha.
 confirm-totp-reset-password-trouble-code = Problemas ao inserir o código?
 confirm-totp-reset-password-confirm-button = Confirmar
-confirm-totp-reset-password-input-label = Digite o código
+confirm-totp-reset-password-input-label-v2 = Insira o código de 6 dígitos
 confirm-totp-reset-password-use-different-account = Usar outra conta
+confirm-recovery-code-reset-password-input-label = Insira o código de 10 caracteres
+confirm-recovery-code-reset-password-trouble-code = Voltar
 
 ## ResetPassword start page
 
@@ -1494,15 +1496,10 @@ signin-push-code-confirm-link-error = Link danificado. Tente novamente.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Digite o código de autenticação de backup <span>para continuar para as configurações da conta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Digite o código de autenticação de backup <span>para continuar para o { $serviceName }</span>
-signin-recovery-code-instruction = Digite o código de autenticação de backup fornecido durante a configuração da autenticação em duas etapas.
-signin-recovery-code-input-label = Digite o código de autenticação de backup de 10 dígitos
+signin-recovery-code-heading = Entrar
+signin-recovery-code-sub-heading = Digite um código de autenticação de backup
+signin-recovery-code-instruction-v2 = Digite um dos códigos de autenticação de backup de uso único que você salvou durante a configuração da autenticação em duas etapas.
+signin-recovery-code-input-label-v2 = Insira um código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1542,9 +1539,9 @@ signin-token-code-resend-error = Algo deu errado. Não foi possível enviar um n
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Digite o código de segurança da autenticação em duas etapas
-signin-totp-code-instruction-v3 = Use um aplicativo de autenticação para confirmar seu acesso.
-signin-totp-code-input-label-v3 = Digite o código
+signin-totp-code-subheader-v2 = Insira o código de autenticação em duas etapas
+signin-totp-code-instruction-v4 = Use um <strong>aplicativo de autenticação</strong> para confirmar seu acesso.
+signin-totp-code-input-label-v4 = Insira o código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar outra conta
