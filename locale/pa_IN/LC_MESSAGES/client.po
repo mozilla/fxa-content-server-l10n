@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-11-03 14:50+0000\n"
+"PO-Revision-Date: 2024-11-18 02:02+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1401,7 +1401,7 @@ msgstr "ਸਾਡੇ ਵਲੋਂ %(email)s ਨੂੰ ਭੇਜੀ ਤਸਦੀ�
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "ਜੇ ਇਹ ਵਾਜਬ ਈਮੇਲ ਹੈ ਤਾਂ <a %(escapedSupportLinkAttrs)s>ਸਾਨੂੰ ਦੱਸੋ</a> ਅਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਅਣ-ਲਾਕ ਕਰਨ ਲਈ ਮਦਦ ਕਰ ਸਕਦੇ ਹਾਂ।"
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1413,7 +1413,7 @@ msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ, ਜੋ ਕਿ ਤੁਹਾਨੂੰ ਦੋ ਪੜ੍ਹਾਵੀ ਸੈਟਅੱਪ ਕਰਨ ਦੇ ਦੌਰਾਨ ਦਿੱਤਾ ਗਿਆ ਸੀ।"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
@@ -1703,7 +1703,7 @@ msgstr "ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ਵਿ�
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "ਇਸ ਬਾਰੇ ਅਮਲੀ ਜਾਣਕਾਰੀ ਨੂੰ ਆਪਣੇ ਇਨਬਾਕਸ ਵਿੱਚ ਲਵੋ:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -1767,7 +1767,7 @@ msgstr "ਆਪਣੇ ਕੈਮਰਾ ਐਪ ਨਾਲ Firefox ਡਾਊਨਲੋ
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Firefox ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਅਤੇ ਘੱਟੋ-ਘੱਟ ਦੋ ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ ਸਿੰਕ ਕਰਨ ਨਾਲ ਤੁਹਾਡੇ ਡਾਟੇ ਦੇ ਗੁੰਮਣ ਤੋਂ ਬਚਾਅ ਰਹਿੰਦਾ ਹੈ।"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
@@ -1891,7 +1891,7 @@ msgstr "ਸੁਰੱਖਿਅਤ ਰਹੋ &mdash; ਪਾਸਵਰਡ ਦੁਬ�
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "ਓਹ ਹੋ, ਸਾਨੂੰ ਸਾਡੇ ਸਿਸਟਮ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ। ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਇਸ ਨੂੰ ਠੀਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹਾਂ ਅਤੇ ਸਮੱਸਿਆ ਲਈ ਮਾਫ਼ੀ ਚਾਹੁੰਦੇ ਹਾਂ। ਕਿਰਪਾ ਕਰਕੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
@@ -2017,11 +2017,11 @@ msgstr "ਹੁਣੇ ਨਹੀਂ"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Firefox ਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਜਾਂ ਟੇਬਲੇਟ ਉੱਤੇ ਸਿੰਕ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਮੋਬਾਇਲ ਲਈ Firefox ਡਾਊਨਲੋਡ ਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਇਸ ਨੂੰ ਇੰਝ ਕਰੋ:"
 
 #: .es5/templates/pair/index.mustache:18
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>ਪੜਾਅ 1</b>: ਆਪਣੇ ਮੋਬਾਇਲ ਡਿਵਾਈਸ ਦੇ ਕੈਮਰੇ ਰਾਹੀਂ ਇਹ QR ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰਕੇ Firefox ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "QR code (located in the middle of the screen)"
@@ -2029,7 +2029,7 @@ msgstr "QR ਕੋਡ (ਸਕਰੀਨ ਦੇ ਵਿਚਾਲੇ ਮੌਜੂਦ 
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>ਪੜਾਅ 2</b>: ਆਪਣੇ ਮੋਬਾਇਲ ਡਿਵਾਈਸ ਉੱਤੇ ਆਪਣੇ Firefox ਨੂੰ ਸਿੰਕ ਕਰਨ ਲਈ \"ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਿੰਕ ਕਰੋ\" ਨੂੰ ਚੁਣੋ।"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "Continue to sync"
