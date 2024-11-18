@@ -1427,12 +1427,14 @@ confirm-reset-password-otp-different-account-link = Använd ett annat konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Återställ lösenordet
-confirm-totp-reset-password-subheader = Ange din säkerhetskod för tvåfaktorsautentisering (2FA)
-confirm-totp-reset-password-instruction = Kontrollera din autentiseringsapp för att återställa ditt lösenord.
+confirm-totp-reset-password-subheader-v2 = Ange tvåstegsautentiseringskod
+confirm-totp-reset-password-instruction-v2 = Kontrollera din <strong>autentiseringsapp</strong> för att återställa ditt lösenord.
 confirm-totp-reset-password-trouble-code = Har du problem att ange koden?
 confirm-totp-reset-password-confirm-button = Bekräfta
-confirm-totp-reset-password-input-label = Ange kod
+confirm-totp-reset-password-input-label-v2 = Ange 6-siffrig kod
 confirm-totp-reset-password-use-different-account = Använd ett annat konto
+confirm-recovery-code-reset-password-input-label = Ange 10 tecken lång kod
+confirm-recovery-code-reset-password-trouble-code = Bakåt
 
 ## ResetPassword start page
 
@@ -1529,15 +1531,10 @@ signin-push-code-confirm-link-error = Länken är skadad. Försök igen.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Ange reservautentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Ange reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
-signin-recovery-code-instruction = Vänligen ange en reservautentiseringskod som du fick under installationen av tvåstegsautentisering.
-signin-recovery-code-input-label = Ange en 10-siffrig reservautentiseringskod
+signin-recovery-code-heading = Logga in
+signin-recovery-code-sub-heading = Ange reservautentiseringskod
+signin-recovery-code-instruction-v2 = Ange en av reservautentiseringskoderna för engångsbruk som du sparade under installationen av tvåstegsautentisering.
+signin-recovery-code-input-label-v2 = Ange 10 tecken lång kod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekräfta
 # Link to return to signin with two-step authentication code
@@ -1577,9 +1574,9 @@ signin-token-code-resend-error = Något gick fel. En ny kod kunde inte skickas.
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Ange din säkerhetskod för tvåfaktorsautentisering (2FA)
-signin-totp-code-instruction-v3 = Kontrollera din autentiseringsapp för att bekräfta din inloggning.
-signin-totp-code-input-label-v3 = Ange kod
+signin-totp-code-subheader-v2 = Ange tvåstegsautentiseringskod
+signin-totp-code-instruction-v4 = Kontrollera din <strong>autentiseringsapp</strong> för att bekräfta din inloggning.
+signin-totp-code-input-label-v4 = Ange 6-siffrig kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekräfta
 signin-totp-code-other-account-link = Använd ett annat konto

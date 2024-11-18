@@ -1429,12 +1429,14 @@ confirm-reset-password-otp-different-account-link = In oar account brûke
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Stel jo wachtwurd opnij yn
-confirm-totp-reset-password-subheader = Fier jo befeiligingskoade foar twafaktorautentikaasje (2FA) yn
-confirm-totp-reset-password-instruction = Kontrolearje jo autentikaasje-app om jo wachtwurd te opnij yn te stellen.
+confirm-totp-reset-password-subheader-v2 = Fier twastaps-autentikaasjekoade yn
+confirm-totp-reset-password-instruction-v2 = Kontrolearje jo <strong>autentikaasje-app</strong> om jo wachtwurd opnij yn te stellen.
 confirm-totp-reset-password-trouble-code = Problemen by it ynfieren fan de koade?
 confirm-totp-reset-password-confirm-button = Befêstigje
-confirm-totp-reset-password-input-label = Koade ynfiere
+confirm-totp-reset-password-input-label-v2 = Fier 6-siferige koade yn
 confirm-totp-reset-password-use-different-account = In oar account brûke
+confirm-recovery-code-reset-password-input-label = Fier koade fan 10 tekens yn
+confirm-recovery-code-reset-password-trouble-code = Tebek
 
 ## ResetPassword start page
 
@@ -1528,15 +1530,10 @@ signin-push-code-confirm-link-error = Keppeling is skansearre. Probearje it noch
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Fier reservekopy-autentikaasjekoade yn <span>om troch te gean nei accountynstellingen</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Fier reservekopy-autentikaasjekoade yn <span>om troch te gean nei { $serviceName }</span>
-signin-recovery-code-instruction = Fier in reserve-autentikaasjekoade yn dy’t oan jo levere is wylst it ynstellen fan autentikaasje yn twa stappen.
-signin-recovery-code-input-label = Fier in 10-siferich reserve-autentikaasjekoade yn
+signin-recovery-code-heading = Oanmelde
+signin-recovery-code-sub-heading = Fier reserve-autentikaasjekoade yn
+signin-recovery-code-instruction-v2 = Fier ien fan de ienmalige reserve-autentikaasjekoaden yn dy’t jo bewarre hawwe wylst it ynstellen fan twa-stapsautentikaasje.
+signin-recovery-code-input-label-v2 = Fier koade fan 10 tekens yn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Befêstigje
 # Link to return to signin with two-step authentication code
@@ -1576,9 +1573,9 @@ signin-token-code-resend-error = Der is wat misgien. Der koe gjin nije koade fer
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Fier jo befeiligingskoade foar twafaktorautentikaasje (2FA) yn
-signin-totp-code-instruction-v3 = Kontrolearje jo autentikaasje-app om jo oanmelding te befêstigjen.
-signin-totp-code-input-label-v3 = Koade ynfiere
+signin-totp-code-subheader-v2 = Fier twastaps-autentikaasjekoade yn
+signin-totp-code-instruction-v4 = Kontrolearje jo <strong>autentikaasje-app</strong> om jo oanmelding te befêstigjen.
+signin-totp-code-input-label-v4 = Fier 6-siferige koade yn
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Befêstigje
 signin-totp-code-other-account-link = In oar account brûke

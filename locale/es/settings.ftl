@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Se ha enviado un nuevo código a tu correo electrónico.
+resend-link-success-banner-heading = Se ha enviado un nuevo enlace a tu correo electrónico.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Añade { $accountsEmail } a tus contactos para asegurar una entrega sin problemas.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -272,6 +276,10 @@ lightbulb-aria-label =
     .aria-label = Ilustración para representar la creación de una sugerencia de almacenamiento.
 email-code-image-aria-label =
     .aria-label = Ilustración para representar un correo electrónico que contiene un código.
+recovery-phone-image-description =
+    .aria-label = Dispositivo móvil que recibe un código por mensaje de texto.
+recovery-phone-code-image-description =
+    .aria-label = Código recibido en un dispositivo móvil.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -424,6 +432,12 @@ password-reset-warning-icon = Advertencia
 password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
 password-reset-data-may-not-be-recovered = Tal vez no puedan recuperar los datos de tu navegador
+password-reset-previously-signed-in-device-2 = ¿Tienes algún dispositivo desde el cual te hayas conectado anteriormente?
+password-reset-data-may-be-saved-locally-2 = Es posible que los datos de tu navegador estén guardados en ese dispositivo. Restablece tu contraseña y luego conéctate desde allí para restaurar y sincronizar tus datos.
+password-reset-no-old-device-2 = ¿Tienes un dispositivo nuevo pero no tienes acceso a ninguno de los anteriores?
+password-reset-encrypted-data-cannot-be-recovered-2 = Lo sentimos, pero los datos de tu navegador que se encuentran cifrados en los servidores de { -brand-firefox } no se pueden recuperar.
+password-reset-warning-have-key = ¿Tienes una clave de recuperación de cuenta?
+password-reset-warning-use-key-link = Úsala ahora para restablecer tu contraseña y conservar tus datos.
 
 ## Alert Bar
 
@@ -454,6 +468,7 @@ bento-menu-made-by-mozilla = Creado por { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Obtén { -brand-firefox } en un dispositivo móvil o tableta
+connect-another-find-fx-mobile-2 = Busca { -brand-firefox } en { -google-play } y { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -524,6 +539,7 @@ dc-heading = Recopilación y uso de datos
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Navegador { -brand-firefox }
 dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
+dc-subheader-ff-content = Para revisar o actualizar la configuración de datos de interacción y técnicos de tu navegador { -brand-firefox }, abre los ajustes de { -brand-firefox } y navega a Privacidad y seguridad.
 dc-opt-out-success-2 = Desactivación correcta. { -product-mozilla-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success-2 = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Lo sentimos, ha surgido un problema al cambiar tu preferencia de recolección de datos
@@ -743,6 +759,7 @@ delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Introducir contraseña
 pocket-delete-notice = Si te suscribes a Pocket Premium, asegúrate de <a>cancelar tu suscripción</a> antes de eliminar tu cuenta.
+pocket-delete-notice-marketing = Para dejar de recibir correos electrónicos de marketing de Mozilla Corporation y Mozilla Foundation, debes <a>solicitar la eliminación de tus datos de marketing.</a>
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -890,6 +907,7 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Descubre si tu información privada ha sido expuesta — y recupérala
+product-promo-monitor-plus-description = La privacidad es importante: descubre dónde está expuesta tu información privada y recupérala
 # Links out to the Monitor site
 product-promo-monitor-cta = Hacer un escaneo gratuito
 # Links out to the Monitor pricing site
@@ -931,6 +949,7 @@ security-set-password = Establecer una contraseña para sincronizar y usar ciert
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ver actividad reciente de la cuenta
 signout-sync-header = Sesión expirada
+signout-sync-session-expired = Lo sentimos, algo ha salido mal. Cierra la sesión en el menú del navegador y vuelve a intentarlo.
 
 ## Switch component
 
@@ -1142,18 +1161,23 @@ cookies-disabled-learn-more = Saber más
 
 index-header = Escribe tu correo electrónico
 index-sync-header = Continuar a tu { -product-mozilla-account }
+index-sync-subheader = Sincroniza tus contraseñas, pestañas y marcadores donde sea que uses { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
 index-subheader-default = Continuar a configuración de cuenta
 index-cta = Regístrate o inicia sesión
+index-account-info = Una { -product-mozilla-account } también desbloquea el acceso a más productos de protección de privacidad de { -brand-mozilla }.
 index-email-input =
     .label = Escribe tu correo electrónico
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = ¡Vaya! No hemos podido crear tu clave de recuperación de cuenta. Prueba de nuevo más tarde.
 inline-recovery-key-setup-recovery-created = Clave de recuperación de cuenta creada
 inline-recovery-key-setup-download-header = Asegura tu cuenta
+inline-recovery-key-setup-download-subheader = Descárgala y guárdala ahora
+inline-recovery-key-setup-download-info = Guarda esta clave en algún lugar que puedas recordar — no podrás volver a esta página más tarde.
 inline-recovery-key-setup-hint-header = Recomendación de seguridad
 
 ## InlineRecoverySetup page
@@ -1348,21 +1372,35 @@ third-party-auth-callback-message = Espera, estás siendo redirigido a la aplica
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Introduce tu clave de recuperación de cuenta
+account-recovery-confirm-key-instruction = Esta clave recupera tus datos de navegación cifrados, como contraseñas y marcadores, desde los servidores de { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Escribe tu clave de recuperación de cuenta de 32 caracteres
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Tu sugerencia de almacenamiento es:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Continuar
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = ¿No puedes encontrar tu clave de recuperación de cuenta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Crear una nueva contraseña
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Lo sentimos, ha surgido un problema al establecer tu contraseña
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Usar la clave de recuperación de la cuenta
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Se ha restablecido tu contraseña maestra.
+reset-password-complete-banner-message = No olvides generar una nueva clave de recuperación de cuenta desde la configuración de { -product-mozilla-account } para evitar futuros problemas de conexión.
 
 ## Confirm Reset Password With Code
 
@@ -1384,13 +1422,21 @@ confirm-reset-password-otp-different-account-link = Usar una cuenta diferente
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Restablecer tu contraseña
+confirm-totp-reset-password-subheader-v2 = Escribir el código de autenticación en dos pasos
+confirm-totp-reset-password-instruction-v2 = Comprueba tu <strong>aplicación de autenticación</strong> para restablecer tu contraseña.
 confirm-totp-reset-password-trouble-code = ¿Problemas para introducir el código?
 confirm-totp-reset-password-confirm-button = Confirmar
-confirm-totp-reset-password-input-label = Introducir código
+confirm-totp-reset-password-input-label-v2 = Introduce el código de 6 dígitos
+confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
+confirm-recovery-code-reset-password-input-label = Introduce el código de 10 caracteres
+confirm-recovery-code-reset-password-trouble-code = Atrás
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Restablecer tu contraseña
+password-reset-body-2 =
+    Te pediremos un par de cosas que solo tú sabes para mantener tu cuenta
+    segura.
 password-reset-email-input =
     .label = Escribe tu correo electrónico
 password-reset-submit-button-2 = Continuar
@@ -1401,6 +1447,12 @@ reset-password-complete-header = Se ha restablecido tu contraseña
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
+reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
+reset-password-complete-recovery-key-created = Se ha creado una nueva clave de recuperación de cuenta. Descárgala y guárdala ahora.
+reset-password-complete-recovery-key-download-info =
+    Esta clave es esencial para
+    la recuperación de datos si olvidas tu contraseña. <b>Descárgala y guárdala de manera segura
+    ahora mismo, ya que no podrás volver a esta página más tarde.</b>
 
 ## CompleteSignin component
 
@@ -1453,25 +1505,31 @@ back = Atrás
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Verifica este inicio de sesión <span>para continuar con la configuración de la cuenta</span>
+signin-push-code-heading-w-custom-service = Verifica este inicio de sesión <span>para continuar a { $serviceName }</span>
+signin-push-code-instruction = Por favor, verifica tus otros dispositivos y aprueba esta conexión desde tu navegador { -brand-firefox }.
+signin-push-code-did-not-recieve = ¿No has recibido la notificación?
+signin-push-code-send-email-link = Enviar código por correo electrónico
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Confirma tu inicio de sesión
+signin-push-code-confirm-description = Hemos detectado un intento de inicio de sesión desde el siguiente dispositivo. Si has sido tú, por favor, aprueba el inicio de sesión
 signin-push-code-confirm-verifying = Verificando
+signin-push-code-confirm-login = Confirmar inicio de sesión
+signin-push-code-confirm-wasnt-me = No he sido yo, cambiar la contraseña.
+signin-push-code-confirm-login-approved = Se ha aprobado tu inicio de sesión. Puedes cerrar esta ventana.
+signin-push-code-confirm-link-error = El enlace está dañado. Prueba de nuevo.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Introduce el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Introduce el código de autenticación de respaldo <span>para continuar en { $serviceName }</span>
-signin-recovery-code-instruction = Por favor, introduce un código de autenticación de respaldo que se te proporcionó durante la configuración de la autenticación de dos pasos.
-signin-recovery-code-input-label = Introduce un código de autenticación de respaldo de 10 dígitos
+signin-recovery-code-heading = Iniciar sesión
+signin-recovery-code-sub-heading = Introduce el código de autenticación de respaldo
+signin-recovery-code-instruction-v2 = Escribe uno de los códigos de autenticación de respaldo de un solo uso que guardaste durante la configuración de la autenticación de dos pasos.
+signin-recovery-code-input-label-v2 = Introduce el código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1505,12 +1563,15 @@ signin-token-code-code-expired = ¿Código caducado?
 signin-token-code-resend-code-link = Enviar código nuevo por correo electrónico.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Código de confirmación requerido
+signin-token-code-resend-error = Ha habido un problema. No se ha podido enviar un nuevo código.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-input-label-v3 = Introducir código
+signin-totp-code-subheader-v2 = Escribir el código de autenticación en dos pasos
+signin-totp-code-instruction-v4 = Comprueba tu <strong>aplicación de autenticación</strong> para confirmar tu inicio de sesión.
+signin-totp-code-input-label-v4 = Introduce el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
@@ -1561,6 +1622,7 @@ confirm-signup-code-is-required-error = Código de confirmación requerido
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Establece tu contraseña
+signup-relay-info = Se necesita una contraseña para administrar de forma segura tus correos electrónicos enmascarados y acceder a las herramientas de seguridad de { -brand-mozilla }.
 signup-heading-relay = Crear una contraseña
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
