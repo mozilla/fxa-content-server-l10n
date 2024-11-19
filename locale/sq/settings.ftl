@@ -1421,12 +1421,14 @@ confirm-reset-password-otp-different-account-link = Përdorni një llogari tjet�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Ricaktoni fjalëkalimin tuaj
-confirm-totp-reset-password-subheader = Jepni kodin tuaj të sigurisë për mirëfilltësim dyfaktorësh (2FA)
-confirm-totp-reset-password-instruction = Shihni te aplikacioni juaj i mirëfilltësimeve si të ricaktoni fjalëkalimin tuaj.
+confirm-totp-reset-password-subheader-v2 = Jepni kod mirëfilltësimi dyfaktorësh
+confirm-totp-reset-password-instruction-v2 = Shihni te <strong>aplikacioni juaj i mirëfilltësimeve</strong> si të ricaktoni fjalëkalimin tuaj.
 confirm-totp-reset-password-trouble-code = Probleme me dhënien e kodit?
 confirm-totp-reset-password-confirm-button = Ripohojeni
-confirm-totp-reset-password-input-label = Jepni kod
+confirm-totp-reset-password-input-label-v2 = Jepni kodin 6-shifror
 confirm-totp-reset-password-use-different-account = Përdorni një llogari tjetër
+confirm-recovery-code-reset-password-input-label = Jepni kodin me 10 shenja
+confirm-recovery-code-reset-password-trouble-code = Mbrapsht
 
 ## ResetPassword start page
 
@@ -1523,15 +1525,10 @@ signin-push-code-confirm-link-error = Lidhja është e dëmtuar. Ju lutemi, ripr
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = <span>Që të vazhdoni te rregullimet e llogarisë</span>, jepni kod mirëfilltësimi kopjeruajtjeje
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = <span>Që të vazhdohet te { $serviceName }</span>, jepni kod mirëfilltësimi kopjeruajtjeje
-signin-recovery-code-instruction = Ju lutemi, jepni një kod mirëfilltësimi kopjeruajtjeje që ju qe dhënë gjatë ujdisjes së mirëfilltësimit dyhapësh.
-signin-recovery-code-input-label = Jepni kod dhjetë-shifror mirëfilltësimi kopjeruajtjeje
+signin-recovery-code-heading = Hyni
+signin-recovery-code-sub-heading = Jepni kod mirëfilltësimi kopjeruajtjeje
+signin-recovery-code-instruction-v2 = Jepni një nga kodet tuaj për përdorim një here për mirëfilltësim kopjeruajtje, që ruajtët gjatë ujdisjes së mirëfilltësimit dyfaktorësh.
+signin-recovery-code-input-label-v2 = Jepni kodin me 10 shenja
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Ripohojeni
 # Link to return to signin with two-step authentication code
@@ -1571,9 +1568,9 @@ signin-token-code-resend-error = Diç shkoi ters. S’u dërgua dot një kod i r
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Jepni kodin tuaj të sigurisë për mirëfilltësim dyfaktorësh (2FA)
-signin-totp-code-instruction-v3 = Shihni te aplikacioni juaj i mirëfilltësimeve, për ripohim se është bërë hyrja.
-signin-totp-code-input-label-v3 = Jepni kod
+signin-totp-code-subheader-v2 = Jepni kod mirëfilltësimi dyfaktorësh
+signin-totp-code-instruction-v4 = Shihni te <strong>aplikacioni juaj i mirëfilltësimeve</strong>, për ripohim se është bërë hyrja.
+signin-totp-code-input-label-v4 = Jepni kodin 6-shifror
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Ripohojeni
 signin-totp-code-other-account-link = Përdorni një llogari tjetër
