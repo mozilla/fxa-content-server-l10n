@@ -1419,12 +1419,14 @@ confirm-reset-password-otp-different-account-link = Nota annan reikning
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Endurstilla lykilorðið þitt
-confirm-totp-reset-password-subheader = Settu inn tveggja-þátta auðkenningaröryggiskóðann þinn (2FA)
-confirm-totp-reset-password-instruction = Athugaðu auðkenningarforritið þitt til að endurstilla lykilorðið.
+confirm-totp-reset-password-subheader-v2 = Settu inn tveggja-þrepa auðkenningarkóða
+confirm-totp-reset-password-instruction-v2 = Athugaðu <strong>auðkenningarforritið þitt</strong> til að endurstilla lykilorðið.
 confirm-totp-reset-password-trouble-code = Vandamál við að setja inn kóða?
 confirm-totp-reset-password-confirm-button = Staðfesta
-confirm-totp-reset-password-input-label = Settu inn kóða
+confirm-totp-reset-password-input-label-v2 = Settu inn 6-stafa kóða
 confirm-totp-reset-password-use-different-account = Nota annan reikning
+confirm-recovery-code-reset-password-input-label = Settu inn 10-stafa kóða
+confirm-recovery-code-reset-password-trouble-code = Til baka
 
 ## ResetPassword start page
 
@@ -1521,15 +1523,10 @@ signin-push-code-confirm-link-error = Tengillinn er skemmdur. Reyndu aftur.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Settu inn öryggisauðkenningarkóða <span>til að halda áfram í stillingar reikningsins</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Settu inn öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
-signin-recovery-code-instruction = Settu inn varaauðkenningarkóða sem þú fékkst við uppsetningu tveggja-þrepa auðkenningar.
-signin-recovery-code-input-label = Settu inn 10-stafa varaauðkenningarkóða
+signin-recovery-code-heading = Skrá inn
+signin-recovery-code-sub-heading = Settu inn varaauðkenningarkóða
+signin-recovery-code-instruction-v2 = Sláðu inn einn af eins-skiptis varaauðkenningarkóðunum sem þú vistaðir við uppsetningu tveggja-þrepa auðkenningar.
+signin-recovery-code-input-label-v2 = Settu inn 10-stafa kóða
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Staðfesta
 # Link to return to signin with two-step authentication code
@@ -1569,9 +1566,9 @@ signin-token-code-resend-error = Eitthvað fór úrskeiðis. Ekki var hægt að 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Settu inn tveggja-þátta auðkenningaröryggiskóðann þinn (2FA)
-signin-totp-code-instruction-v3 = Athugaðu auðkenningarforritið þitt til að staðfesta innskráninguna þína.
-signin-totp-code-input-label-v3 = Settu inn kóða
+signin-totp-code-subheader-v2 = Settu inn tveggja-þrepa auðkenningarkóða
+signin-totp-code-instruction-v4 = Athugaðu <strong>auðkenningarforritið þitt</strong> til að staðfesta innskráninguna þína.
+signin-totp-code-input-label-v4 = Settu inn 6-stafa kóða
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Staðfesta
 signin-totp-code-other-account-link = Nota annan reikning
