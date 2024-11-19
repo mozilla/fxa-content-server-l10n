@@ -1406,12 +1406,14 @@ confirm-reset-password-otp-different-account-link = Farklı bir hesap kullan
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Parolanızı sıfırlayın
-confirm-totp-reset-password-subheader = İki aşamalı kimlik doğrulama (2FA) güvenlik kodunuzu yazın
-confirm-totp-reset-password-instruction = Parolanızı sıfırlamak için kimlik doğrulama uygulamanızı kontrol edin.
+confirm-totp-reset-password-subheader-v2 = İki aşamalı kimlik doğrulama kodunu yazın
+confirm-totp-reset-password-instruction-v2 = Parolanızı sıfırlamak için <strong>kimlik doğrulama uygulamanızı</strong> kontrol edin.
 confirm-totp-reset-password-trouble-code = Kod girerken sorun mu yaşıyorsunuz?
 confirm-totp-reset-password-confirm-button = Onayla
-confirm-totp-reset-password-input-label = Kodu yazın
+confirm-totp-reset-password-input-label-v2 = 6 basamaklı kodu yazın
 confirm-totp-reset-password-use-different-account = Farklı bir hesap kullan
+confirm-recovery-code-reset-password-input-label = 10 karakterli kodu yazın
+confirm-recovery-code-reset-password-trouble-code = Geri dön
 
 ## ResetPassword start page
 
@@ -1503,15 +1505,10 @@ signin-push-code-confirm-link-error = Bağlantı bozulmuş. Lütfen yeniden dene
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> yedek kimlik doğrulama kodunu girin
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu girin
-signin-recovery-code-instruction = Lütfen iki aşamalı kimlik doğrulama kurulumu sırasında size verilen yedek kimlik doğrulama kodunu yazın.
-signin-recovery-code-input-label = 10 basamaklı yedek kimlik doğrulama kodunu girin
+signin-recovery-code-heading = Giriş yap
+signin-recovery-code-sub-heading = Yedek kimlik doğrulama kodunuzu yazın
+signin-recovery-code-instruction-v2 = İki aşamalı kimlik doğrulama kurulumu sırasında kaydettiğiniz tek seferlik yedek kimlik doğrulama kodlarından birini yazın.
+signin-recovery-code-input-label-v2 = 10 karakterli kodu yazın
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Onayla
 # Link to return to signin with two-step authentication code
@@ -1551,9 +1548,9 @@ signin-token-code-resend-error = Bir sorun oluştu. Yeni kod gönderilemedi.
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = İki aşamalı kimlik doğrulama (2FA) güvenlik kodunuzu yazın
-signin-totp-code-instruction-v3 = Giriş işleminizi onaylamak için kimlik doğrulama uygulamanızı kontrol edin.
-signin-totp-code-input-label-v3 = Kodu yazın
+signin-totp-code-subheader-v2 = İki aşamalı kimlik doğrulama kodunuzu yazın
+signin-totp-code-instruction-v4 = Giriş işleminizi onaylamak için <strong>kimlik doğrulama uygulamanızı</strong> kontrol edin.
+signin-totp-code-input-label-v4 = 6 basamaklı kodu yazın
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Onayla
 signin-totp-code-other-account-link = Farklı bir hesap kullan
