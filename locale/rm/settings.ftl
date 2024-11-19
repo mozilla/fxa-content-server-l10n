@@ -1429,9 +1429,14 @@ confirm-reset-password-otp-different-account-link = Utilisar in auter conto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Redefinir tes pled-clav
+confirm-totp-reset-password-subheader-v2 = Endatescha il code da l’autentificaziun en dus pass
+confirm-totp-reset-password-instruction-v2 = Consultescha tia <strong>app d’autentificaziun</strong> per reinizialisar tes pled-clav.
 confirm-totp-reset-password-trouble-code = Difficultads cun endatar il code?
 confirm-totp-reset-password-confirm-button = Confermar
+confirm-totp-reset-password-input-label-v2 = Endatescha il code da 6 cifras
 confirm-totp-reset-password-use-different-account = Utilisar in auter conto
+confirm-recovery-code-reset-password-input-label = Endatescha il code da 10 caracters
+confirm-recovery-code-reset-password-trouble-code = Enavos
 
 ## ResetPassword start page
 
@@ -1528,6 +1533,10 @@ signin-push-code-confirm-link-error = La colliaziun è donnegiada. Emprova per p
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = S’annunziar
+signin-recovery-code-sub-heading = Endatescha il code d’autentificaziun da backup
+signin-recovery-code-instruction-v2 = Endatescha in dals codes d’autentificaziun da backup a diever unic che ti has memorisà durant la configuraziun da l’autentificaziun en dus pass.
+signin-recovery-code-input-label-v2 = Endatescha il code da 10 caracters
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confermar
 # Link to return to signin with two-step authentication code
@@ -1567,6 +1576,9 @@ signin-token-code-resend-error = Insatge è ì mal. I n’è betg reussì da tra
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Endatescha il code da l’autentificaziun en dus pass
+signin-totp-code-instruction-v4 = Consultescha tia <strong>app d’autentificaziun</strong> per confermar tia annunzia.
+signin-totp-code-input-label-v4 = Endatescha il code da 6 cifras
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confermar
 signin-totp-code-other-account-link = Utilisar in auter conto
