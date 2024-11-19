@@ -228,7 +228,7 @@ canadian-flag-icon-aria-label =
     .aria-label = Kanadska zastava
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
-    .aria-label = Označi
+    .aria-label = Kljukica
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Uspeh
@@ -245,10 +245,10 @@ error-icon-aria-label =
     .aria-label = Napaka
 # Used as information icon for informative messaging
 info-icon-aria-label =
-    .aria-label = Informacije
+    .aria-label = Informacija
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
-    .aria-label = Zastava Združenih držav
+    .aria-label = Zastava ZDA
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -277,9 +277,9 @@ lightbulb-aria-label =
 email-code-image-aria-label =
     .aria-label = Ilustracija, ki upodablja e-poštno sporočilo s kodo.
 recovery-phone-image-description =
-    .aria-label = Mobilna naprava, ki kodo prejme v besedilnem sporočilu.
+    .aria-label = Mobilnik, ki prejme sporočilo s kodo.
 recovery-phone-code-image-description =
-    .aria-label = Koda prejeta na mobilno napravo.
+    .aria-label = Koda, prejeta na mobilno napravo.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1524,7 +1524,7 @@ signin-push-code-confirm-link-error = Povezava je poškodovana. Poskusite znova.
 
 signin-recovery-code-heading = Prijava
 signin-recovery-code-sub-heading = Vnesite rezervno overitveno kodo
-signin-recovery-code-instruction-v2 = Vnesite eno od rezervnih overitvenih kod za enkratno uporabo, ki ste jih shranili med nastavitvijo overjanja v dveh korakih.
+signin-recovery-code-instruction-v2 = Vnesite eno od rezervnih overitvenih kod za enkratno uporabo, ki ste jih shranili, ko ste nastavljali dvostopenjsko overjanje.
 signin-recovery-code-input-label-v2 = Vnesite 10-mestno kodo
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potrdi
@@ -1624,7 +1624,7 @@ signup-heading-relay = Ustvarite geslo
 signup-pocket-info-banner = Zakaj moram ustvariti ta račun?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Preverite tukaj
+signup-pocket-info-banner-link = Preberite tukaj
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Spremeni e-pošto
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
