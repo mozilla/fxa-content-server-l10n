@@ -5,6 +5,8 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Un nove codice ha essite inviate a tu email.
+resend-link-success-banner-heading = Un nove ligamine ha essite inviate a tu email.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Adde { $accountsEmail } a tu contactos pro assecurar le livration.
 
@@ -211,6 +213,19 @@ alert-icon-aria-label =
     .aria-label = Alerta
 authenticator-app-aria-label =
     .aria-label = Application authenticator
+backup-codes-icon-aria-label =
+    .aria-label = Codices de reserva activate
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Codices de reserva disactivate
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS de recuperation activate
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS de recuperation disactivate
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Bandiera canadian
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
     .aria-label = Marcar
@@ -231,6 +246,9 @@ error-icon-aria-label =
 # Used as information icon for informative messaging
 info-icon-aria-label =
     .aria-label = Information
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandiera de SUA
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -258,6 +276,10 @@ lightbulb-aria-label =
     .aria-label = Illustration pro representar le creation de un indicio de immagazinage.
 email-code-image-aria-label =
     .aria-label = Illustration pro representar un email que contine un codice.
+recovery-phone-image-description =
+    .aria-label = Apparato mobile que recipe un codice per SMS.
+recovery-phone-code-image-description =
+    .aria-label = Codice recipite sur un apparato mobile.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1401,12 +1423,14 @@ confirm-reset-password-otp-different-account-link = Usa un conto differente
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Reinitialisa tu contrasigno
-confirm-totp-reset-password-subheader = Insere tu codice de securitate pro le authentication a duo factores (2FA)
-confirm-totp-reset-password-instruction = Verifica tu app de authentication pro reinitialisar tu contrasigno.
+confirm-totp-reset-password-subheader-v2 = Insere le codice de authentication a duo passos
+confirm-totp-reset-password-instruction-v2 = Verifica tu <strong>app de authentication</strong> pro reinitialisar tu contrasigno.
 confirm-totp-reset-password-trouble-code = Problemas a inserer le codice?
 confirm-totp-reset-password-confirm-button = Confirmar
-confirm-totp-reset-password-input-label = Insere le codice
+confirm-totp-reset-password-input-label-v2 = Insere le codice de 6 digitos
 confirm-totp-reset-password-use-different-account = Usa un conto differente
+confirm-recovery-code-reset-password-input-label = Insere le codice de 10 characteres
+confirm-recovery-code-reset-password-trouble-code = Retro
 
 ## ResetPassword start page
 
@@ -1498,15 +1522,8 @@ signin-push-code-confirm-link-error = Ligamine damnificate. Retenta.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Insere le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Insere le codice authentication del salvamento <span>pro continuar a { $serviceName }</span>
-signin-recovery-code-instruction = Insere un codice de authentication de salvamento que te ha essite fornite durante le implementation del authentication a duo passos.
-signin-recovery-code-input-label = Insere le codice de authentication de salvamento a 10 cifras
+signin-recovery-code-heading = Aperir session
+signin-recovery-code-sub-heading = Insere codice de authentication de reserva
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1546,9 +1563,6 @@ signin-token-code-resend-error = Alco errate eveniva. Un nove codice non pote es
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Insere tu codice de securitate pro le authentication a duo factores (2FA)
-signin-totp-code-instruction-v3 = Consulta tu application de authentification pro confirmar tu accesso.
-signin-totp-code-input-label-v3 = Insere le codice
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa un conto differente
