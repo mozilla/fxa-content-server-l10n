@@ -1420,12 +1420,12 @@ confirm-reset-password-otp-different-account-link = Defnyddiwch gyfrif gwahanol
 
 confirm-totp-reset-password-header = Ailosod eich cyfrinair
 confirm-totp-reset-password-subheader-v2 = Rhowch god dilysu dau gam
-confirm-totp-reset-password-instruction-v2 = Gwiriwch eich <strong>ap authenticator</strong> i ailosod eich cyfrinair.
+confirm-totp-reset-password-instruction-v2 = Gwiriwch eich <strong>ap dilysu</strong> i ailosod eich cyfrinair.
 confirm-totp-reset-password-trouble-code = Trafferth cyflwyno'r cod?
 confirm-totp-reset-password-confirm-button = Cadarnhau
 confirm-totp-reset-password-input-label-v2 = Rhowch y cod 6 digid
 confirm-totp-reset-password-use-different-account = Defnyddiwch gyfrif gwahanol
-confirm-recovery-code-reset-password-input-label = Rhowch god 10 cymeriad
+confirm-recovery-code-reset-password-input-label = Rhowch god 10 nod
 confirm-recovery-code-reset-password-trouble-code = Nôl
 
 ## ResetPassword start page
@@ -1521,7 +1521,7 @@ signin-push-code-confirm-link-error = Dolen wedi'i difrodi. Ceisiwch eto.
 signin-recovery-code-heading = Mewngofnodi
 signin-recovery-code-sub-heading = Rhowch god dilysu wrth gefn
 signin-recovery-code-instruction-v2 = Rhowch un o'r codau dilysu defnydd un-amser wrth gefn y gwnaethoch chi eu cadw yn ystod gosodiad dilysu dau gam.
-signin-recovery-code-input-label-v2 = Rhowch god 10 cymeriad
+signin-recovery-code-input-label-v2 = Rhowch god 10 nod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Cadarnhau
 # Link to return to signin with two-step authentication code
@@ -1562,7 +1562,7 @@ signin-token-code-resend-error = Aeth rhywbeth o'i le. Nid oedd modd anfon cod n
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader-v2 = Rhowch god dilysu dau gam
-signin-totp-code-instruction-v4 = Gwiriwch eich <strong>ap athenticator</strong> i gadarnhau eich mewngofnodi.
+signin-totp-code-instruction-v4 = Gwiriwch eich <strong>ap dilysu</strong> i gadarnhau eich mewngofnodi.
 signin-totp-code-input-label-v4 = Rhowch y cod 6 digid
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Cadarnhau
