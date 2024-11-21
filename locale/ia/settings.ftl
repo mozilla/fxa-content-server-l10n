@@ -1524,6 +1524,7 @@ signin-push-code-confirm-link-error = Ligamine damnificate. Retenta.
 
 signin-recovery-code-heading = Aperir session
 signin-recovery-code-sub-heading = Insere codice de authentication de reserva
+signin-recovery-code-input-label-v2 = Insere le codice de 10 characteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1563,6 +1564,8 @@ signin-token-code-resend-error = Alco errate eveniva. Un nove codice non pote es
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Insere le codice de authentication a duo passos
+signin-totp-code-input-label-v4 = Insere le codice de 6 digitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa un conto differente
@@ -1615,6 +1618,9 @@ confirm-signup-code-is-required-error = Codice de confirmation requirite
 signup-heading = Defini tu contrasigno
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
 signup-heading-relay = Crear un contrasigno
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Discoperi lo hic
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
