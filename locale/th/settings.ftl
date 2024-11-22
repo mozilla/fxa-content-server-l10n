@@ -1214,6 +1214,10 @@ inline-totp-setup-show-qr-default-service-header-2 = สแกนรหัสย
 inline-totp-setup-no-qr-default-service-header-2 = ป้อนรหัสด้วยตนเอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = พิมพ์คีย์ลับนี้ในแอปพลิเคชันยืนยันตัวตนของคุณ <toggleToQRButton>ต้องการสแกนรหัส QR แทนงั้นหรือ?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = สแกนคิวอาร์โค้ดในแอปยืนยันตัวตนของคุณแล้วป้อนรหัสยืนยันตัวตนที่แอปให้มา <toggleToManualModeButton>ไม่สามารถสแกนได้งั้นหรือ?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = เมื่อเสร็จสมบูรณ์แล้ว ระบบจะเริ่มสร้างรหัสยืนยันตัวตนให้คุณป้อน
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
