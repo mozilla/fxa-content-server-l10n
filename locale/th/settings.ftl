@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = ปิด
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = ส่งอีเมลใหม่แล้ว เพิ่ม { $accountsEmail } ในรายชื่อติดต่อของคุณเพื่อให้แน่ใจว่ามีการส่งมอบอย่างราบรื่น
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = มีบางอย่างผิดพลาด ไม่สามารถส่งรหัสใหม่ได้
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -72,6 +62,9 @@ recovery-key-pdf-download-error = ขออภัย เกิดปัญหา
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = รับประโยชน์เพิ่มเติมจาก { -brand-mozilla }:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = รับข่าวสารล่าสุดและข้อมูลอัปเดตผลิตภัณฑ์จากเรา
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = ทดสอบผลิตภัณฑ์ใหม่ๆ ก่อนใคร
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
@@ -102,14 +95,6 @@ choose-what-to-sync-option-addresses =
     .label = ที่อยู่
 choose-what-to-sync-option-paymentmethods =
     .label = วิธีการชำระเงิน
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปม? ส่งใหม่
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = ย้อนกลับ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -166,6 +151,22 @@ form-password-sr-passwords-match = รหัสผ่านที่ป้อน
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = รหัสผ่าน
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = ทวนรหัสผ่าน
+form-password-with-inline-criteria-signup-submit-button = สร้างบัญชี
+form-password-with-inline-criteria-reset-new-password =
+    .label = รหัสผ่านใหม่
+form-password-with-inline-criteria-confirm-password =
+    .label = ยืนยันรหัสผ่าน
+form-password-with-inline-criteria-reset-submit-button = สร้างรหัสผ่านใหม่
+form-password-with-inline-criteria-match-error = รหัสผ่านไม่ตรงกัน
+form-password-with-inline-criteria-sr-too-short-message = รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
+form-password-with-inline-criteria-sr-not-email-message = รหัสผ่านต้องไม่มีที่อยู่อีเมลของคุณ
+form-password-with-inline-criteria-sr-not-common-message = รหัสผ่านต้องไม่ใช่รหัสผ่านที่ใช้กันทั่วไป
+form-password-with-inline-criteria-sr-requirements-met = รหัสผ่านที่ป้อนเป็นไปตามข้อกำหนดทั้งหมด
+form-password-with-inline-criteria-sr-passwords-match = รหัสผ่านที่ป้อนตรงกัน
 
 ## FormVerifyCode
 
@@ -190,6 +191,10 @@ get-data-trio-copy-2 =
 get-data-trio-print-2 =
     .title = พิมพ์
     .aria-label = พิมพ์
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -254,15 +259,6 @@ reset-pwd-link-damaged-message = ลิงก์ที่คุณคลิก�
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = รับลิงก์ใหม่
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = ลิงค์สำหรับตั้งรหัสผ่านใหม่หมดอายุ
-reset-pwd-link-expired-message = ลิงก์ที่คุณได้คลิกเพื่อตั้งรหัสผ่านใหม่ของคุณหมดอายุแล้ว
 
 ## LinkRememberPassword component
 
