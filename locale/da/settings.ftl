@@ -1430,6 +1430,7 @@ confirm-totp-reset-password-trouble-code = Har du problemer med at indtaste kode
 confirm-totp-reset-password-confirm-button = Bekræft
 confirm-totp-reset-password-input-label-v2 = Indtast 6-cifret kode
 confirm-totp-reset-password-use-different-account = Brug en anden konto
+confirm-recovery-code-reset-password-input-label = Indtast koden på 10 tegn
 confirm-recovery-code-reset-password-trouble-code = Tilbage
 
 ## ResetPassword start page
@@ -1528,6 +1529,7 @@ signin-push-code-confirm-link-error = Link er beskadiget. Prøv igen.
 signin-recovery-code-heading = Log ind
 signin-recovery-code-sub-heading = Indtast reserve-godkendelseskode
 signin-recovery-code-instruction-v2 = Indtast en af de engangs-reserve-godkendelseskoder, du gemte under opsætningen af totrinsgodkendelse.
+signin-recovery-code-input-label-v2 = Indtast koden på 10 tegn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekræft
 # Link to return to signin with two-step authentication code
