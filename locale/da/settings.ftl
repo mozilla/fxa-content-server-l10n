@@ -1424,12 +1424,13 @@ confirm-reset-password-otp-different-account-link = Brug en anden konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Nulstil din adgangskode
-confirm-totp-reset-password-subheader = Indtast din sikkerhedskode for tofaktorgodkendelse (2FA)
-confirm-totp-reset-password-instruction = Tjek din godkendelsesapp for at nulstille din adgangskode.
+confirm-totp-reset-password-subheader-v2 = Indtast kode til totrinsgodkendelse
+confirm-totp-reset-password-instruction-v2 = Tjek din <strong>godkendelsesapp</strong> for at nulstille din adgangskode.
 confirm-totp-reset-password-trouble-code = Har du problemer med at indtaste koden?
 confirm-totp-reset-password-confirm-button = Bekræft
-confirm-totp-reset-password-input-label = Indtast kode
+confirm-totp-reset-password-input-label-v2 = Indtast 6-cifret kode
 confirm-totp-reset-password-use-different-account = Brug en anden konto
+confirm-recovery-code-reset-password-trouble-code = Tilbage
 
 ## ResetPassword start page
 
@@ -1524,15 +1525,9 @@ signin-push-code-confirm-link-error = Link er beskadiget. Prøv igen.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Indtast reserve-godkendelseskode <span>for at fortsætte til kontoindstillingerne</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Indtast reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
-signin-recovery-code-instruction = Indtast en reserve-godkendelseskode, som du fik under opsætningen af totrinsgodkendelse.
-signin-recovery-code-input-label = Indtast 10-cifret reserve-godkendelseskode
+signin-recovery-code-heading = Log ind
+signin-recovery-code-sub-heading = Indtast reserve-godkendelseskode
+signin-recovery-code-instruction-v2 = Indtast en af de engangs-reserve-godkendelseskoder, du gemte under opsætningen af totrinsgodkendelse.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekræft
 # Link to return to signin with two-step authentication code
@@ -1572,9 +1567,9 @@ signin-token-code-resend-error = Noget gik galt. En ny kode kunne ikke sendes.
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Indtast din sikkerhedskode for tofaktorgodkendelse (2FA)
-signin-totp-code-instruction-v3 = Tjek din godkendelsesapp for at bekræfte dit login.
-signin-totp-code-input-label-v3 = Indtast kode
+signin-totp-code-subheader-v2 = Indtast kode til totrinsgodkendelse
+signin-totp-code-instruction-v4 = Tjek din <strong>godkendelsesapp</strong> for at bekræfte dit login.
+signin-totp-code-input-label-v4 = Indtast 6-cifret kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekræft
 signin-totp-code-other-account-link = Brug en anden konto
