@@ -1043,10 +1043,18 @@ terms-privacy-agreement-pocket-2 = <pocketTos>เงื่อนไขการ�
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>เงื่อนไขการให้บริการ</mozSubscriptionTosLink>และ<mozSubscriptionPrivacyLink>ประกาศความเป็นส่วนตัว</mozSubscriptionPrivacyLink>สำหรับบริการแบบสมัครสมาชิกของ { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>เงื่อนไขการให้บริการ</mozillaAccountsTos>และ<mozillaAccountsPrivacy>ประกาศความเป็นส่วนตัว</mozillaAccountsPrivacy>สำหรับ{ -product-mozilla-accounts(capitalization: "uppercase") }
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = เมื่อดำเนินการต่อ จะถือว่าคุณยอมรับ<mozillaAccountsTos>เงื่อนไขการให้บริการ</mozillaAccountsTos>และ<mozillaAccountsPrivacy>ประกาศความเป็นส่วนตัว</mozillaAccountsPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = หรือ
+continue-with-google-button = ดำเนินการต่อด้วย { -brand-google }
+continue-with-apple-button = ดำเนินการต่อด้วย { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -1054,6 +1062,9 @@ auth-error-102 = บัญชีที่ไม่รู้จัก
 auth-error-103 = รหัสผ่านไม่ถูกต้อง
 auth-error-105-2 = รหัสยืนยันไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = คุณได้พยายามหลายครั้งเกินไป โปรดลองอีกครั้งในภายหลัง
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -1063,10 +1074,19 @@ auth-error-114 = คุณได้พยายามหลายครั้ง
 auth-error-138-2 = วาระที่ยังไม่ยืนยัน
 auth-error-139 = อีเมลสำรองต้องแตกต่างจากอีเมลของบัญชีคุณ
 auth-error-155 = ไม่พบโทเค็น TOTP
+auth-error-159 = คีย์การกู้คืนบัญชีไม่ถูกต้อง
 auth-error-183-2 = รหัสยืนยันไม่ถูกต้องหรือหมดอายุ
+auth-error-999 = ข้อผิดพลาดที่ไม่คาดคิด
+auth-error-1001 = ความพยายามในการเข้าสู่ระบบถูกยกเลิก
+auth-error-1002 = วาระหมดอายุ ลงชื่อเข้าใหม่เพื่อดำเนินการต่อ
+auth-error-1003 = การเข้าถึงที่เก็บข้อมูลภายในเครื่องหรือคุกกี้ถูกปิดใช้งานอยู่
 auth-error-1008 = รหัสผ่านใหม่ของคุณต้องไม่เหมือนเดิม
+auth-error-1010 = ต้องการรหัสผ่านที่ถูกต้อง
 auth-error-1011 = ต้องการอีเมลที่ถูกต้อง
+auth-error-1031 = คุณต้องป้อนอายุของคุณเพื่อลงทะเบียน
+auth-error-1032 = คุณต้องป้อนอายุที่ถูกต้องเพื่อลงทะเบียน
 auth-error-1062 = การเปลี่ยนเส้นทางไม่ถูกต้อง
+oauth-error-1000 = มีความผิดพลาดบางประการ โปรดปิดแท็บนี้และลองใหม่อีกครั้ง
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1115,9 +1135,26 @@ cookies-disabled-learn-more = เรียนรู้เพิ่มเติ�
 
 ## Index / home page
 
+index-header = ป้อนอีเมลของคุณ
+index-sync-header = ดำเนินการต่อไปยัง { -product-mozilla-account }
+index-sync-subheader = ซิงค์รหัสผ่าน แท็บ และที่คั่นหน้าของคุณในทุกที่ที่คุณใช้ { -brand-firefox }
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = ดำเนินการต่อไปยัง { $serviceName }
+index-subheader-with-logo = ดำเนินการต่อไปยัง <span>{ $serviceLogo }</span>
+index-subheader-default = ดำเนินการต่อไปยังการตั้งค่าบัญชี
+index-cta = ลงทะเบียนหรือลงชื่อเข้า
+index-account-info = { -product-mozilla-account } จะช่วยปลดล็อกสิทธิ์เข้าถึงผลิตภัณฑ์ที่ปกป้องความเป็นส่วนตัวจาก { -brand-mozilla } เช่นกัน
+index-email-input =
+    .label = ป้อนอีเมลของคุณ
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = ขออภัย! เราไม่สามารถสร้างคีย์กู้คืนบัญชีของคุณ โปรดลองอีกครั้งในภายหลัง
+inline-recovery-key-setup-recovery-created = สร้างคีย์กู้คืนบัญชีแล้ว
+inline-recovery-key-setup-download-header = ปกป้องความปลอดภัยให้กับบัญชีของคุณ
+inline-recovery-key-setup-download-subheader = ดาวน์โหลดและเก็บตอนนี้
+inline-recovery-key-setup-download-info = โปรดเก็บคีย์นี้ไว้ในที่ที่คุณสามารถจำได้ เนื่องจากคุณจะไม่สามารถกลับมาที่หน้านี้ได้อีก
+inline-recovery-key-setup-hint-header = คำแนะนำด้านความปลอดภัย
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1158,6 +1195,25 @@ inline-recovery-2fa-enabled = เปิดใช้งานการยืน�
 
 inline-totp-setup-cancel-setup-button = ยกเลิกการตั้งค่า
 inline-totp-setup-continue-button = ดำเนินการต่อ
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = ปกป้องบัญชีของคุณให้ปลอดภัยอีกขั้นโดยกำหนดรหัสยืนยันตัวตนจากหนึ่งใน<authenticationAppsLink>แอปยืนยันตัวตนเหล่านี้</authenticationAppsLink>
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = เปิดใช้งานการยืนยันตัวตนสองขั้น<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = เปิดใช้งานการยืนยันตัวตนสองขั้น<span>เพื่อไปยัง { $serviceName }</span>
+inline-totp-setup-ready-button = พร้อม
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = สแกนรหัสยืนยันตัวตน<span>เพื่อไปยัง { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = ป้อนรหัสด้วยตนเอง<span>เพื่อไปยัง { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = สแกนรหัสยืนยันตัวตน<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = ป้อนรหัสด้วยตนเอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = พิมพ์คีย์ลับนี้ในแอปพลิเคชันยืนยันตัวตนของคุณ <toggleToQRButton>ต้องการสแกนรหัส QR แทนงั้นหรือ?</toggleToQRButton>
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
