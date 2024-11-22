@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = รหัสใหม่ถูกส่งไปทางอีเมลของคุณแล้ว
+resend-link-success-banner-heading = ลิงก์ใหม่ถูกส่งไปทางอีเมลของคุณแล้ว
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = เพิ่ม { $accountsEmail } ในรายชื่อติดต่อของคุณเพื่อให้แน่ใจว่ามีการส่งมอบอย่างราบรื่น
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -176,6 +180,16 @@ form-verify-code-default-error = จำเป็นต้องกรอกช�
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = ป้อนรหัส { $codeLength } หลักเพื่อดำเนินการต่อ
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = ป้อนรหัส { $codeLength } ตัวอักษรเพื่อดำเนินการต่อ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -195,6 +209,46 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = สัญลักษณ์เตือน
+authenticator-app-aria-label =
+    .aria-label = แอปพลิเคชันเครื่องมือยืนยันตัวตน
+backup-codes-icon-aria-label =
+    .aria-label = เปิดใช้งานรหัสสำรองแล้ว
+backup-codes-disabled-icon-aria-label =
+    .aria-label = ปิดใช้งานรหัสสำรองแล้ว
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = เปิดใช้งาน SMS กู้คืนแล้ว
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = ปิดใช้งาน SMS กู้คืนแล้ว
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = ธงชาติแคนาดา
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = กาเครื่องหมาย
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = สำเร็จ
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = เปิดใช้งาน
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = ปิดข้อความ
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = รหัส
+error-icon-aria-label =
+    .aria-label = ข้อผิดพลาด
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = ข้อมูล
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = ธงชาติสหรัฐอเมริกา
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -216,15 +270,28 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = ภาพประกอบที่สื่อถึงคีย์กู้คืนบัญชี
+password-image-aria-label =
+    .aria-label = ภาพประกอบสื่อถึงการพิมพ์รหัสผ่าน
 lightbulb-aria-label =
     .aria-label = ภาพประกอบที่สื่อถึงการสร้างคำใบ้ที่เก็บ
 email-code-image-aria-label =
     .aria-label = ภาพประกอบที่สื่อถึงอีเมลที่ประกอบด้วยรหัส
+recovery-phone-image-description =
+    .aria-label = อุปกรณ์มือถือที่รับรหัสจากข้อความตัวอักษร
+recovery-phone-code-image-description =
+    .aria-label = รหัสที่ได้รับบนอุปกรณ์มือถือ
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = คุณได้ลงชื่อเข้า { -brand-firefox } แล้ว
+inline-recovery-key-setup-create-header = ปกป้องความปลอดภัยให้กับบัญชีของคุณ
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = พอมีเวลาที่จะปกป้องข้อมูลของคุณไหม?
+inline-recovery-key-setup-info = สร้างคีย์กู้คืนบัญชีเพื่อให้คุณสามารถเรียกคืนข้อมูลการเรียกดูที่ซิงค์ไว้ของคุณกลับมาได้ในกรณีที่คุณเกิดลืมรหัสผ่าน
+inline-recovery-key-setup-start-button = สร้างคีย์กู้คืนบัญชี
+inline-recovery-key-setup-later-button = ทำภายหลัง
 
 ## Input Password
 
@@ -259,6 +326,8 @@ reset-pwd-link-damaged-message = ลิงก์ที่คุณคลิก�
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = รับลิงก์ใหม่
 
 ## LinkRememberPassword component
 
@@ -278,6 +347,8 @@ confirmation-link-reused-message = ลิงก์ยืนยันนั้น
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = สร้าง
+account-recovery-notification-header-value = ไม่ต้องสูญเสียข้อมูลของคุณถ้าลืมรหัสผ่าน
+account-recovery-notification-header-description = สร้างคีย์กู้คืนบัญชีเพื่อเรียกคืนข้อมูลการเรียกดูที่ซิงค์ไว้ของคุณกลับมาในกรณีที่คุณเกิดลืมรหัสผ่าน
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = คำขอไม่ถูกต้อง
 
@@ -297,10 +368,15 @@ password-strength-balloon-stay-safe-tips = รักษาความปลอ�
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = อย่างน้อย 8 ตัวอักษร
+password-strength-inline-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
+password-strength-inline-not-common = ไม่ใช่รหัสผ่านที่พบบ่อย
+password-strength-inline-confirmed-must-match = รหัสยืนยันตรงกับรหัสผ่านใหม่
 
 ## Ready component
 
 ready-complete-set-up-instruction = ตั้งค่าให้เสร็จสิ้นโดยป้อนรหัสผ่านใหม่ของคุณบน { -brand-firefox } ในอุปกรณ์อื่นๆ
+manage-your-account-button = จัดการบัญชีของคุณ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -446,6 +522,7 @@ cs-sign-out-button = ลงชื่อออก
 ## Data collection section
 
 dc-heading = การเก็บรวบรวมและใช้ข้อมูล
+dc-subheader-ff-content = ถ้าต้องการตรวจสอบหรือปรับปรุงการตั้งค่าด้านเทคนิคและข้อมูลการโต้ตอบในเบราว์เซอร์ { -brand-firefox } ของคุณ ให้เปิดการตั้งค่า { -brand-firefox } และไปยัง “ความเป็นส่วนตัวและความปลอดภัย”
 dc-opt-out-success-2 = ยกเลิกสำเร็จ { -product-mozilla-accounts } จะไม่ส่งข้อมูลด้านเทคนิคหรือการโต้ตอบให้กับ { -brand-mozilla }
 dc-opt-in-success-2 = ขอบคุณ! การร่วมให้ข้อมูลนี้ช่วยเราปรับปรุง { -product-mozilla-accounts } ให้ดีขึ้นได้
 dc-opt-in-out-error-2 = ขออภัย มีปัญหาในการเปลี่ยนการกำหนดลักษณะการรวบรวมข้อมูลของคุณ
@@ -662,6 +739,7 @@ delete-account-continue-button = ดำเนินการต่อ
 delete-account-password-input =
     .label = ใส่รหัสผ่าน
 pocket-delete-notice = หากคุณสมัครสมาชิก Pocket Premium กรุณาตรวจสอบให้แน่ใจว่าคุณได้<a>ยกเลิกการสมัครสมาชิก</a>ก่อนที่จะลบบัญชี
+pocket-delete-notice-marketing = ถ้าต้องการหยุดรับอีเมลการตลาดจาก Mozilla Corporation และ Mozilla Foundation คุณต้อง<a>ร้องขอให้ลบข้อมูลการตลาดของคุณ</a>
 delete-account-cancel-button = ยกเลิก
 delete-account-delete-button-2 = ลบ
 
@@ -882,7 +960,10 @@ rk-refresh-key-1 = รีเฟรชคีย์กู้คืนบัญช�
 rk-content-explain = เรียกคืนข้อมูลของคุณเมื่อคุณลืมรหัสผ่าน
 rk-cannot-verify-session-4 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
 rk-remove-modal-heading-1 = ลบคีย์กู้คืนบัญชีหรือไม่?
+rk-remove-modal-content-1 = ในกรณีที่คุณตั้งรหัสผ่านของคุณใหม่ คุณจะไม่สามารถใช้คีย์กู้คืนบัญชีเพื่อเข้าถึงข้อมูลของคุณได้ คุณไม่สามารถยกเลิกการกระทำนี้ได้
 rk-remove-error-2 = ไม่สามารถลบคีย์กู้คืนบัญชีของคุณได้
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = ลบคีย์กู้คืนบัญชี
 
 ## Secondary email sub-section on main Settings page
 
@@ -954,6 +1035,14 @@ tfa-row-change-modal-explain = คุณจะไม่สามารถยก�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = เมื่อดำเนินการต่อ จะถือว่าคุณยอมรับ:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>เงื่อนไขการให้บริการ</pocketTos>และ<pocketPrivacy>ประกาศความเป็นส่วนตัว</pocketPrivacy>สำหรับ { -product-pocket }
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>เงื่อนไขการให้บริการ</mozSubscriptionTosLink>และ<mozSubscriptionPrivacyLink>ประกาศความเป็นส่วนตัว</mozSubscriptionPrivacyLink>สำหรับบริการแบบสมัครสมาชิกของ { -brand-mozilla }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>เงื่อนไขการให้บริการ</mozillaAccountsTos>และ<mozillaAccountsPrivacy>ประกาศความเป็นส่วนตัว</mozillaAccountsPrivacy>สำหรับ{ -product-mozilla-accounts(capitalization: "uppercase") }
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
