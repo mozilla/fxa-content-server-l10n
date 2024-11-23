@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-11-23 19:19+0000\n"
+"PO-Revision-Date: 2024-11-23 20:25+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1673,7 +1673,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "Синхронизована историја, забелешке, пријаве и други лични подаци неће бити изгубљени."
+msgstr "Синхронизована историја, обележивачи, пријаве и други лични подаци неће бити изгубљени."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"

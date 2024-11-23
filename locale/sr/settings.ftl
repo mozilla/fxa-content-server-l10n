@@ -4,73 +4,31 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Затвори
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Е-порука је поново послата. Додајте { $accountsEmail } у ваше контакте да бисте осигурали пријем поруке.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Нешто је пошло наопако. Није могуће послати нову везу.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Нешто је пошло наопако. Није могуће послати нови код.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Преузми и настави
     .title = Преузми и настави
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = САЧУВАЈТЕ ВАШ КЉУЧ ЗА ОПОРАВАК НАЛОГА
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Чувајте ову датотеку која садржи кључ за опоравак налога на безбедном. Или је одштампајте и задржите физичку копију. Ако заборавите лозинку, можете да користите кључ за опоравак налога да опоравите ваше { -brand-firefox } податке.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Кључ:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Кључ је направљен: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Сазнајте више о вашем кључу за опоравак налога: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Практично знање стиже директно у ваше пријемно сандуче. Пријавите се за више:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Сазнајте најновије вести о { -brand-mozilla }-и и { -brand-firefox }-у
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Предузмите кораке за одржавање здравог интернета
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Будите безбеднији и паметнији на мрежи
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Изаберите шта ћете синхронизовати:
 choose-what-to-sync-option-bookmarks =
-    .label = Забелешке
+    .label = Обележивачи
 choose-what-to-sync-option-history =
     .label = Историју
 choose-what-to-sync-option-passwords =
@@ -84,16 +42,6 @@ choose-what-to-sync-option-prefs =
     .label = Поставке
 choose-what-to-sync-option-addresses =
     .label = Адресе
-choose-what-to-sync-option-creditcards =
-    .label = Кредитне картице
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Није у сандучету или у нежељеној пошти? Пошаљи поново
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Назад
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -143,16 +91,22 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Ресетуј лозинку
 form-reset-password-with-balloon-match-error = Лозинке се не подударају
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Ово поље је обавезно
 
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } кључ за опоравак налога
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } резервни приступни кодови
 get-data-trio-download-2 =
     .title = Преузми
     .aria-label = Преузми
@@ -162,6 +116,10 @@ get-data-trio-copy-2 =
 get-data-trio-print-2 =
     .title = Штампај
     .aria-label = Штампај
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -183,17 +141,20 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Илустрација која представља кључ за опоравак налога.
-lock-image-aria-label =
-    .aria-label = Илустрација катанца
 lightbulb-aria-label =
     .aria-label = Илустрација која представља осмишљавање наговештаја за складиште.
 
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Сакриј лозинку
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Прикажи лозинку
-input-password-hide-aria = Сакриј лозинку са екрана.
-input-password-show-aria = Прикажи лозинку као обични текст. Ваша лозинка ће бити видљива на екрану.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -205,32 +166,14 @@ reset-pwd-link-damaged-header = Веза за ресетовање лозинк�
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Веза за потврду је оштећена
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Вези на који сте кликнули недостају знакови и могуће је да ју је оштетио ваш клијент е-поште. Пажљиво копирајте адресу и покушајте поново.
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Примите нову везу
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Веза за ресетовање лозинке је истекла
-reset-pwd-link-expired-message = Везу коју сте кликнули за обнављање лозинке је истекла.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = Веза за потврду је истекла
-signin-link-expired-message = Веза коју сте кликнули за потврду е-поште је истекла.
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Сећате се лозинке? Пријавите се
 
 ## LinkUsed component
 
@@ -239,6 +182,9 @@ primary-email-confirmation-link-reused = Примарна адреса е-пош
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Пријава је већ потврђена
 confirmation-link-reused-message = Ова веза за потврду је већ искоришћена, може се искористити само једном.
+
+## Notification Promo Banner component
+
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -254,11 +200,12 @@ password-strength-balloon-not-email = Није ваша адреса е-пошт
 password-strength-balloon-not-common = Није често употребљавана лозинка
 password-strength-balloon-stay-safe-tips = Будите безбедни — немојте да дуплирате лозинке. Погледајте савете за <LinkExternal>прављење јаких лозинки</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = Ваша лозинка је ресетована
 ready-complete-set-up-instruction = Завршите подешавање тако што ћете унети нову лозинку на вашим осталим { -brand-firefox } уређајима.
-ready-start-browsing-button = Започните прегледање
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -271,6 +218,45 @@ ready-continue = Настави
 sign-in-complete-header = Пријава је потврђена
 sign-up-complete-header = Налог је потврђен
 primary-email-verified-header = Примарна е-пошта је потврђена
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Места за чување кључа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Фасцикла на безбедном уређају
+flow-recovery-key-download-storage-ideas-cloud = Поуздано складиште у облаку
+flow-recovery-key-download-storage-ideas-print-v2 = Одштампана физичка копија
+flow-recovery-key-download-storage-ideas-pwd-manager = Уређивач лозинки
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Додајте наговештај који ће вам помоћи да пронађете кључ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Овај наговештај служи да се сетите где сте сачували кључ за опоравак налога. Можемо вам га показати при ресетовању лозинке како бисте могли да повратите податке.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Унесите наговештај (није обавезно)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Заврши
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Наговештај мора да садржи мање од 255 знакова.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Наговештај не може да садржи небезбедне Уникод знакове. Дозвољена су само слова, бројеви, знакови интерпункције и симболи.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -288,10 +274,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento мени
-bento-menu-firefox-title = { -brand-firefox } је технологија која се бори за вашу приватност.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } прегледач за десктоп
@@ -301,9 +284,6 @@ bento-menu-made-by-mozilla = Створила { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Преузмите { -brand-firefox } на телефон или таблет
-connect-another-find-fx-mobile =
-    Пронађите { -brand-firefox } у { -google-play } и { -app-store }-у или
-    <br /><linkExternal>пошаљите везу за преузимање на ваш уређај.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -324,7 +304,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Клијент није пронађен, није могуће прекинути везу
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Одјављени сте из { $service }-а
 cs-refresh-button =
@@ -336,7 +316,7 @@ cs-disconnect-sync-heading = Прекини везу са Sync-ом
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 =
@@ -358,19 +338,8 @@ cs-disconnect-sync-opt-not-say = Не желим да кажем
 
 cs-disconnect-advice-confirm = У реду, разумем
 cs-disconnect-lost-advice-heading = Изгубљени или украдени уређај је искључен
-cs-disconnect-lost-advice-content-2 =
-    Пошто је ваш уређај изгубљен или украден,
-    морате да промените { -product-firefox-account } лозинку у подешавањима налога
-    да бисте заштитили своје податке. Такође би требало да проверите код
-    произвођача уређаја како да даљински избришете податке.
 cs-disconnect-suspicious-advice-heading = Сумњив уређај је искључен
-cs-disconnect-suspicious-advice-content =
-    Ако је искључени уређај заиста сумњив, да бисте заштитили своје податке,
-    у подешавањима налога морате да промените { -product-firefox-account } лозинку.
-    Такође бисте требали променити све друге лозинке
-    које сте сачували у { -brand-firefox }-у тако што ћете у траку за адресу откуцати about:logins.
 cs-sign-out-button = Одјави се
-cs-recent-activity = Недавне активности налога
 
 ##
 
@@ -378,16 +347,11 @@ cs-recent-activity = Недавне активности налога
 ## Data collection section
 
 dc-heading = Сакупљање и коришћење података
-dc-subheader = Помозите да побољшамо { -product-firefox-accounts }
-dc-subheader-content = Дозволите { -product-firefox-accounts } да шаље техничке и податке употребе { -brand-mozilla }-и.
-dc-opt-out-success = Одбијање је успешно. { -product-firefox-accounts } неће слати техничке или податке употребе { -brand-mozilla }-и.
-dc-opt-in-success = Хвала! Дељење ових података нам помаже у побољшању { -product-firefox-accounts }.
 dc-opt-in-out-error-2 = Жао нам је, дошло је до грешке при мењању ваших подешавања за прикупљање података
 dc-learn-more = Сазнајте више
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } мени
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -422,37 +386,11 @@ flow-recovery-key-download-info-v2 = Овај кључ вам омогућава
 flow-recovery-key-download-next-link-v2 = Наставите без преузимања
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Додајте наговештај који ће вам помоћи да пронађете кључ
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Овај наговештај служи да се сетите где сте сачували кључ за опоравак налога. Можемо вам га показати при ресетовању лозинке како бисте могли да повратите податке.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Унесите наговештај (није обавезно)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Заврши
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Места за чување кључа:
-flow-recovery-key-download-storage-ideas-folder-v2 = Фасцикла на безбедном уређају
-flow-recovery-key-download-storage-ideas-cloud = Поуздано складиште у облаку
-flow-recovery-key-download-storage-ideas-print-v2 = Одштампана физичка копија
-flow-recovery-key-download-storage-ideas-pwd-manager = Уређивач лозинки
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Кључ за опоравак налога је направљен
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Наговештај мора да садржи мање од 255 знакова.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Наговештај не може да садржи небезбедне Уникод знакове. Дозвољена су само слова, бројеви, знакови интерпункције и симболи.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -469,13 +407,12 @@ flow-recovery-key-info-cta-text-v3 = Започните
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Откажи
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Затвори мени
 header-menu-closed = Мени навигације странице
 header-back-to-top-link =
     .title = Назад на врх
-header-title = { -product-firefox-accounts }
 header-help = Помоћ
 
 ## Linked Accounts section
@@ -600,13 +537,10 @@ delete-account-header =
     .title = Обриши налог
 delete-account-step-1-2 = Корак 1 од 2
 delete-account-step-2-2 = Корак 2 од 2
-delete-account-confirm-title-3 = Можда сте повезали ваш { -product-firefox-account } са једним или више од следећих { -brand-mozilla } производа или услуга који помажу да будете безбедни и ефикасни на интернету:
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Синхронизовање { -brand-firefox } података
 delete-account-product-firefox-addons = { -brand-firefox } додаци
@@ -643,33 +577,11 @@ display-name-success-alert-2 = Име за приказ је ажурирано
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Недавне активности налога
-recent-activity-account-create = Налог је направљен
-recent-activity-account-disable = Налог је онемогућен
-recent-activity-account-enable = Налог је омогућен
-recent-activity-account-login = Налог је започео пријаву
-recent-activity-account-reset = Налог је започео ресетовање лозинке
-recent-activity-emails-clearBounces = Налог је обрисао враћене е-поруке
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Откажи
-recovery-key-close-button = Затвори
-recovery-key-continue-button = Настави
-recovery-key-created-1 = Ваш кључ за опоравак налога је направљен. Обавезно чувајте кључ на безбедном месту где га касније можете лако наћи. Ако заборавите лозинку, биће вам потребан кључ да повратите приступ вашим подацима.
-recovery-key-enter-password =
-    .label = Унесите лозинку
-recovery-key-page-title-1 =
-    .title = Кључ за опоравак налога
-recovery-key-step-1 = Корак 1 од 2
-recovery-key-step-2 = Корак 2 од 2
-recovery-key-success-alert-3 = Кључ за опоравак налога је направљен
 
 ## PageRecoveryKeyCreate
 
@@ -757,6 +669,9 @@ tfa-enter-recovery-code-1 =
     .label = Унеси резервни приступни код
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -903,14 +818,6 @@ tfa-row-change-modal-explain = Нећете моћи да опозовете о�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro = Ако наставите, слажете се са:
-# links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>условима коришћења</pocketTos> и <pocketPrivacy>политиком приватности</pocketPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>условима коришћења</firefoxTos> и <firefoxPrivacy>политиком приватности</firefoxPrivacy>
-# links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Ако наставите, слажете се са <firefoxTos>условима коришћења</firefoxTos> и <firefoxPrivacy>политиком приватности</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -947,7 +854,6 @@ auth-error-1011 = Потребна је важећа адреса е-поште
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Налог се не може направити
-cannot-create-account-requirements = Морате да будете довољно стари да направите { -product-firefox-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Сазнај више
 
@@ -982,11 +888,16 @@ connect-another-device-ios-complete-setup-message = Пријавите се на
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Потребни су локално складиште и колачићи
-cookies-disabled-enable-prompt = Омогућите колачиће и локалну складиште у вашем прегледачу да приступите { -product-firefox-accounts }. Ово ће омогућити функције као што је памћење између сесија.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Покушај поново
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Сазнај више
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -997,7 +908,7 @@ cookies-disabled-learn-more = Сазнај више
 inline-recovery-setup-header-default = Потврдите резервни приступни код <span>да наставите на подешавања налога</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Сачувајте резервне приступне кодове <span>да наставите на { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Држите кодове за једнократну употребу на сигурном месту, у случају да немате ваш мобилни уређај.
@@ -1017,7 +928,7 @@ inline-recovery-confirmation-description = Да будете сигурни да
 inline-recovery-confirmation-header-default = Потврдите резервни приступни код <span>да наставите на подешавања налога</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Firefox accounts to authenticate
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Потврдите резервни приступни код <span>да наставите на { $serviceName }</span>
 
 ## InlineTotpSetup page
@@ -1175,79 +1086,30 @@ third-party-auth-callback-message = Сачекајте тренутак, бић�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Ресетујте лозинку уз кључ за опоравак налога да <span>наставите на подешавања налога</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Ресетујте лозинку уз кључ за опоравак налога да <span>наставите на { $serviceName }</span>
-account-recovery-confirm-key-instructions = Унесите једнократни кључ за опоравак, који сте претходно сачували, како би повратили приступ вашем { -product-firefox-account }-у.
-account-recovery-confirm-key-warning-message = <span>Напомена:</span> Ако ресетујете вашу лозинку и немате сачуван кључ за опоравак, неки ваши подаци ће бити обрисани (укључући синхронизоване податке као што су историја и обележивачи).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Унеси кључ за опоравак налога
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Потврди кључ за опоравак налога
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Неисправан кључ за опоравак налога
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Потребан је кључ за опоравак налога
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Немате кључ за опоравак налога?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Направи нову лозинку
-account-restored-success-message = Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Лозинка је постављена
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Дошло је до неочекиване грешке
-account-recovery-reset-password-redirecting = Преусмеравање
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Направи нову лозинку
-complete-reset-password-warning-message-2 = <span>Запамтите:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { -product-pocket } подаци неће бити погођени.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Лозинка је постављена
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Жао нам је, дошло је до грешке при постављању лозинке
-complete-reset-password-recovery-key-error = Жао нам је, дошло је до проблема при провери да ли имате кључ за опоравак налога. <hasRecoveryKeyErrorLink>Ресетујте лозинку помоћу кључа за опоравак налога.</hasRecoveryKeyErrorLink>
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Е-пошта за ресетовање је послата
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Кликните на везу послату на { $email } у наредних сат времена да направите нову лозинку.
 
-## ResetPassword page
+## PasswordResetConfirmTotp Page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Ресетујте лозинку <span>да наставите на подешавања налога</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Ресетујте лозинку <span>да наставите на { $serviceName }</span>
-reset-password-warning-message-2 = <span>Напомена:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { -product-pocket } подаци неће бити погођени.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Е-пошта
-reset-password-button = Започни ресетовање
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Адреса е-поште је обавезна
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Ваша лозинка је ресетована
 reset-password-with-recovery-key-verified-page-title = Успешно ресетовање лозинке
-reset-password-with-recovery-key-verified-generate-new-key = Направи нови кључ за опоравак налога
-reset-password-with-recovery-key-verified-continue-to-account = Настави на мој налог
 
 ## CompleteSignin component
 
@@ -1255,17 +1117,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Настави �
 error-label = Грешка:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Пријава се потрвђује…
-
-## ConfirmSignin component
-
-confirm-signin-header = Потврди ову пријаву
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Проверите вашу е-пошту ради везе за потврду послане на { $email }
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Веза за потврду је истекла
 
 ## Signin page
 
-# Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Унеси лозинку <span>за { -product-firefox-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Настави на <span>{ $serviceLogo }</span>
@@ -1277,6 +1133,12 @@ signin-button = Пријави се
 signin-header = Пријави се
 signin-use-a-different-account-link = Користи други налог
 signin-forgot-password-link = Заборавили сте лозинку?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = Жао нам је. Закључали смо ваш налог.
 # $email (string) - The user's email.
 signin-bounced-message = Потврдна порука е-поште коју смо послали на { $email } је враћена, те смо закључали ваш налог да заштитимо ваше { -brand-firefox } податке.
@@ -1285,20 +1147,18 @@ signin-bounced-help = Ако је ово исправна адреса е-пош
 signin-bounced-create-new-account = То више није ваша адреса е-поште? Направите нови налог
 back = Назад
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Унесите резервни приступни код <span>да наставите на подешавања налога</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Унесите резервни приступни код <span>да наставите на { $serviceName }</span>
-signin-recovery-code-instruction = Унесите резервни приступни код који сте добили када сте подесили аутентификацију у два корака.
-signin-recovery-code-input-label = Унесите 10-цифрени резервни приступни код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Потврди
 # Link to return to signin with two-step authentication code
@@ -1318,10 +1178,6 @@ signin-reported-message = Наш тим је обавештен. Овакви и
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Унесите потврдни код<span> за ваш { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
 signin-token-code-input-label-v2 = Унесите шестоцифрени код
@@ -1337,15 +1193,6 @@ signin-token-code-required-error = Потребан је потврдни код
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Унесите приступни кôд <span>да наставите на подешавања налога</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Унесите приступни кôд <span>да наставите на { $serviceName }</span>
-signin-totp-code-instruction-v2 = Отворите вашу апликацију за аутентификацију и унесите приступни кôд који нуди.
-signin-totp-code-input-label-v2 = Унесите шестоцифрени код
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Потврди
 signin-totp-code-other-account-link = Користи други налог
@@ -1353,13 +1200,9 @@ signin-totp-code-recovery-code-link = Проблеми с уносом кода?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Потребан је приступни кôд
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Потврди налог
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Проверите вашу е-пошту ради везе за потврду послане на { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1369,10 +1212,6 @@ confirm-signup-instruction = Проверите вашу е-пошту ради 
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Унесите код за потврду
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
-# can stand alone as "{ -product-firefox-account }"
-confirm-signup-code-heading = Унесите код за потврду <span>за ваш { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
 confirm-signup-code-input-label = Унесите шестоцифрени код
@@ -1389,16 +1228,11 @@ confirm-signup-code-is-required-error = Потребан је код за пот
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Поставите лозинку
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Зашто морам да направим налог? <LinkExternal>Сазнајте овде</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Промени е-пошту
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Колико имате година?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = Морате да унесете године да бисте се регистровали
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Зашто питамо?
