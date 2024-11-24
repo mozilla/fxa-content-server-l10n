@@ -1433,7 +1433,7 @@ confirm-totp-reset-password-trouble-code = Nem tudja beírni a kódot?
 confirm-totp-reset-password-confirm-button = Megerősítés
 confirm-totp-reset-password-input-label-v2 = Adja meg a 6 számjegyű kódot
 confirm-totp-reset-password-use-different-account = Másik fiók használata
-confirm-recovery-code-reset-password-input-label = Írjon be egy 10 karakter hosszú kódot
+confirm-recovery-code-reset-password-input-label = Adja meg a 10 karakteres kódot
 confirm-recovery-code-reset-password-trouble-code = Vissza
 
 ## ResetPassword start page
@@ -1531,8 +1531,8 @@ signin-push-code-confirm-link-error = A hivatkozás sérült. Próbálja meg új
 
 signin-recovery-code-heading = Bejelentkezés
 signin-recovery-code-sub-heading = Adjon meg egy tartalék hitelesítési kódot
-signin-recovery-code-instruction-v2 = Írja be a kétlépcsős hitelesítés beállítása során mentett egyszer használatos tartalék hitelesítési kódok egyikét.
-signin-recovery-code-input-label-v2 = Írjon be egy 10 karakter hosszú kódot
+signin-recovery-code-instruction-v2 = Adja meg a kétlépcsős hitelesítés beállítása során mentett egyszer használatos tartalék hitelesítési kódok egyikét.
+signin-recovery-code-input-label-v2 = Adja meg a 10 karakteres kódot
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Megerősítés
 # Link to return to signin with two-step authentication code
