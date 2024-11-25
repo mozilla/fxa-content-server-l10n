@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Zavrieť
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E‑mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Niečo sa pokazilo. Nový kód sa nepodarilo odoslať.
+resend-code-success-banner-heading = Na váš e‑mail bol odoslaný nový kód.
+resend-link-success-banner-heading = Na váš e‑mail bol odoslaný nový odkaz.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Adresy
 choose-what-to-sync-option-paymentmethods =
     .label = Spôsoby platby
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Nemáte nič v schránke ani v priečinku so spamom? Poslať znova
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Naspäť
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,12 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Upozornenie
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Počítač a mobilný telefón a na každom obrázok zlomeného srdca
 hearts-verified-image-aria-label =
@@ -251,7 +243,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Ste prihlásený/-á do { -brand-firefox(case: "gen") }
 inline-recovery-key-setup-create-header = Zabezpečte svoj účet
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Máte minútu na ochránenie svojich údajov?
@@ -292,15 +283,6 @@ reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Získať nový odkaz
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Platnosť odkazu na obnovenie hesla vypršala
-reset-pwd-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala.
 
 ## LinkRememberPassword component
 
@@ -1392,11 +1374,8 @@ confirm-reset-password-otp-different-account-link = Použiť iný účet
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Obnovenie hesla
-confirm-totp-reset-password-subheader = Zadajte svoj dvojfaktorový overovací bezpečnostný kód (2FA)
-confirm-totp-reset-password-instruction = Ak chcete obnoviť heslo, skontrolujte aplikáciu na overenie totožnosti.
 confirm-totp-reset-password-trouble-code = Máte problémy so zadaním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdiť
-confirm-totp-reset-password-input-label = Zadajte kód
 confirm-totp-reset-password-use-different-account = Použiť iný účet
 
 ## ResetPassword start page
@@ -1491,15 +1470,6 @@ signin-push-code-confirm-link-error = Odkaz je poškodený. Skúste to znova.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Zadajte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Zadajte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
-signin-recovery-code-instruction = Zadajte záložný overovací kód, ktorý ste dostali počas nastavovania dvojstupňového overenia.
-signin-recovery-code-input-label = Zadajte 10-miestny záložný overovací kód
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdiť
 # Link to return to signin with two-step authentication code
@@ -1538,9 +1508,6 @@ signin-token-code-required-error = Vyžaduje sa potvrdzovací kód
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Zadajte svoj dvojfaktorový overovací bezpečnostný kód (2FA)
-signin-totp-code-instruction-v3 = Skontrolujte svoju aplikáciu autentifikátora a potvrďte svoje prihlásenie.
-signin-totp-code-input-label-v3 = Zadajte kód
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdiť
 signin-totp-code-other-account-link = Použiť iný účet
@@ -1593,9 +1560,6 @@ confirm-signup-code-is-required-error = Vyžaduje sa potvrdzovací kód
 signup-heading = Nastavte si heslo
 signup-relay-info = Heslo je potrebné na bezpečnú správu vašich maskovaných e‑mailov a prístup k bezpečnostným nástrojom od { -brand-mozilla(case: "gen") }.
 signup-heading-relay = Vytvorenie hesla
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Prečo si musím vytvoriť tento účet? <LinkExternal>Zistíte to tu</LinkExternal>.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmeniť e‑mailovú adresu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
