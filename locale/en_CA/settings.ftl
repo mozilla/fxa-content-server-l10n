@@ -4,17 +4,9 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Close
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Something went wrong. A new code could not be sent.
+resend-code-success-banner-heading = A new code was sent to your email.
+resend-link-success-banner-heading = A new link was sent to your email.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +97,6 @@ choose-what-to-sync-option-addresses =
     .label = Addresses
 choose-what-to-sync-option-paymentmethods =
     .label = Payment Methods
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Not in inbox or spam folder? Resend
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Back
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -216,6 +200,10 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = A computer and a mobile phone and an image of a broken heart on each
 hearts-verified-image-aria-label =
@@ -244,7 +232,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = You’re signed in to { -brand-firefox }
 inline-recovery-key-setup-create-header = Secure your account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Got a minute to protect your data?
@@ -285,15 +272,6 @@ reset-pwd-link-damaged-message = The link you clicked was missing characters, an
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Receive new link
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Reset password link expired
-reset-pwd-link-expired-message = The link you clicked to reset your password is expired.
 
 ## LinkRememberPassword component
 
@@ -1381,8 +1359,6 @@ confirm-reset-password-otp-different-account-link = Use a different account
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Reset your password
-confirm-totp-reset-password-subheader = Enter your two-factor authentication security code (2FA)
-confirm-totp-reset-password-instruction = Check your authenticator app to reset your password.
 confirm-totp-reset-password-trouble-code = Trouble entering code?
 
 ## ResetPassword start page
@@ -1468,15 +1444,6 @@ signin-push-code-confirm-link-error = Link is damaged. Please try again.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Enter backup authentication code <span>to continue to account settings</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Enter backup authentication code <span>to continue to { $serviceName }</span>
-signin-recovery-code-instruction = Please enter a backup authentication code that was provided to you during two step authentication setup.
-signin-recovery-code-input-label = Enter 10-digit backup authentication code
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirm
 # Link to return to signin with two-step authentication code
@@ -1565,9 +1532,6 @@ confirm-signup-code-is-required-error = Confirmation code is required
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Set your password
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Why do I need to create this account? <LinkExternal>Find out here</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Change email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
