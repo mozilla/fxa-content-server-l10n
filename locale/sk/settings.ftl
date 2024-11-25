@@ -211,6 +211,44 @@ get-data-trio-print-2 =
 
 alert-icon-aria-label =
     .aria-label = Upozornenie
+authenticator-app-aria-label =
+    .aria-label = Overovacia aplikácia
+backup-codes-icon-aria-label =
+    .aria-label = Záložné kódy sú povolené
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Záložné kódy sú vypnuté
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS na obnovenie sú povolené
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS na obnovenie sú vypnuté
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadská vlajka
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Znak označenia
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Úspech
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Povolené
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Zavrieť správu
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kód
+error-icon-aria-label =
+    .aria-label = Chyba
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informácia
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Vlajka Spojených štátov amerických
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -238,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = Ilustrácia znázorňujúca vytváranie tipu na uloženie.
 email-code-image-aria-label =
     .aria-label = Ilustrácia znázorňujúca e‑mail obsahujúci kód.
+recovery-phone-image-description =
+    .aria-label = Mobilné zariadenie, ktoré prijíma kód prostredníctvom textovej správy.
+recovery-phone-code-image-description =
+    .aria-label = Kód prijatý na mobilné zariadenie.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Ste prihlásený/-á do { -brand-firefox(case: "gen") }.
 inline-recovery-key-setup-create-header = Zabezpečte svoj účet
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Máte minútu na ochránenie svojich údajov?
@@ -283,6 +326,8 @@ reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Získať nový odkaz
 
 ## LinkRememberPassword component
 
@@ -1374,9 +1419,14 @@ confirm-reset-password-otp-different-account-link = Použiť iný účet
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Obnovenie hesla
+confirm-totp-reset-password-subheader-v2 = Zadajte kód pre dvojstupňové overenie
+confirm-totp-reset-password-instruction-v2 = Ak chcete obnoviť heslo, skontrolujte <strong>overovaciu aplikáciu</strong>.
 confirm-totp-reset-password-trouble-code = Máte problémy so zadaním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdiť
+confirm-totp-reset-password-input-label-v2 = Zadajte šesťmiestny kód
 confirm-totp-reset-password-use-different-account = Použiť iný účet
+confirm-recovery-code-reset-password-input-label = Zadajte 10‑miestny kód
+confirm-recovery-code-reset-password-trouble-code = Naspäť
 
 ## ResetPassword start page
 
@@ -1470,6 +1520,10 @@ signin-push-code-confirm-link-error = Odkaz je poškodený. Skúste to znova.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Prihlásiť sa
+signin-recovery-code-sub-heading = Zadajte záložný overovací kód
+signin-recovery-code-instruction-v2 = Zadajte jeden zo záložných overovacích kódov na jednorazové použitie, ktoré ste si uložili počas nastavovania dvojstupňového overenia.
+signin-recovery-code-input-label-v2 = Zadajte 10‑miestny kód
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdiť
 # Link to return to signin with two-step authentication code
@@ -1503,11 +1557,15 @@ signin-token-code-code-expired = Platnosť kódu vypršala?
 signin-token-code-resend-code-link = Odoslať e‑mailom nový kód.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Vyžaduje sa potvrdzovací kód
+signin-token-code-resend-error = Niečo sa pokazilo. Nový kód sa nepodarilo odoslať.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Zadajte kód pre dvojstupňové overenie
+signin-totp-code-instruction-v4 = Skontrolujte svoju <strong>overovaciu aplikáciu</strong> a potvrďte svoje prihlásenie.
+signin-totp-code-input-label-v4 = Zadajte šesťmiestny kód
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdiť
 signin-totp-code-other-account-link = Použiť iný účet
@@ -1560,6 +1618,11 @@ confirm-signup-code-is-required-error = Vyžaduje sa potvrdzovací kód
 signup-heading = Nastavte si heslo
 signup-relay-info = Heslo je potrebné na bezpečnú správu vašich maskovaných e‑mailov a prístup k bezpečnostným nástrojom od { -brand-mozilla(case: "gen") }.
 signup-heading-relay = Vytvorenie hesla
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Prečo si musím vytvoriť tento účet?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Ďalšie informácie
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmeniť e‑mailovú adresu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
