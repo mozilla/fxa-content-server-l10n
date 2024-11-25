@@ -157,6 +157,11 @@ form-password-sr-passwords-match = Entered passwords match.
 
 form-password-with-inline-criteria-signup-new-password-label =
     .label = Password
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Repeat password
+form-password-with-inline-criteria-signup-submit-button = Create account
+form-password-with-inline-criteria-reset-new-password =
+    .label = New password
 form-password-with-inline-criteria-confirm-password =
     .label = Confirm password
 form-password-with-inline-criteria-reset-submit-button = Create new password
@@ -204,6 +209,46 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+alert-icon-aria-label =
+    .aria-label = Alert
+authenticator-app-aria-label =
+    .aria-label = Authenticator Application
+backup-codes-icon-aria-label =
+    .aria-label = Backup codes enabled
+backup-codes-disabled-icon-aria-label =
+    .aria-label = Backup codes disabled
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Recovery SMS enabled
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Recovery SMS disabled
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Canadian Flag
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Check
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Success
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Enabled
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Close message
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Code
+error-icon-aria-label =
+    .aria-label = Error
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Information
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = United States Flag
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -231,11 +276,16 @@ lightbulb-aria-label =
     .aria-label = Illustration to represent creating a storage hint.
 email-code-image-aria-label =
     .aria-label = Illustration to represent an email containing a code.
+recovery-phone-image-description =
+    .aria-label = Mobile device that receives a code by text message.
+recovery-phone-code-image-description =
+    .aria-label = Code received on a mobile device.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = You’re signed in to { -brand-firefox }.
 inline-recovery-key-setup-create-header = Secure your account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Got a minute to protect your data?
@@ -276,6 +326,8 @@ reset-pwd-link-damaged-message = The link you clicked was missing characters, an
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Receive new link
 
 ## LinkRememberPassword component
 
@@ -1363,18 +1415,37 @@ confirm-reset-password-otp-different-account-link = Use a different account
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Reset your password
+confirm-totp-reset-password-subheader-v2 = Enter two-step authentication code
+confirm-totp-reset-password-instruction-v2 = Check your <strong>authenticator app</strong> to reset your password.
 confirm-totp-reset-password-trouble-code = Trouble entering code?
+confirm-totp-reset-password-confirm-button = Confirm
+confirm-totp-reset-password-input-label-v2 = Enter 6-digit code
+confirm-totp-reset-password-use-different-account = Use a different account
+confirm-recovery-code-reset-password-input-label = Enter 10-character code
+confirm-recovery-code-reset-password-trouble-code = Back
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Reset your password
+password-reset-body-2 =
+    We’ll ask for a couple of things only you know to keep your account
+    safe.
 password-reset-email-input =
     .label = Enter your email
+password-reset-submit-button-2 = Continue
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Your password has been reset
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Continue to { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Password reset successful
+reset-password-complete-new-password-saved = New password saved!
+reset-password-complete-recovery-key-created = New account recovery key created. Download and store it now.
+reset-password-complete-recovery-key-download-info =
+    This key is essential for
+    data recovery if you forget your password. <b>Download and store it securely
+    now, as you won’t be able to access this page again later.</b>
 
 ## CompleteSignin component
 
@@ -1448,6 +1519,10 @@ signin-push-code-confirm-link-error = Link is damaged. Please try again.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Sign in
+signin-recovery-code-sub-heading = Enter backup authentication code
+signin-recovery-code-instruction-v2 = Enter one of the one-time use backup authentication codes you saved during two-step authentication setup.
+signin-recovery-code-input-label-v2 = Enter 10-character code
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirm
 # Link to return to signin with two-step authentication code
@@ -1481,11 +1556,15 @@ signin-token-code-code-expired = Code expired?
 signin-token-code-resend-code-link = Email new code.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Confirmation code required
+signin-token-code-resend-error = Something went wrong. A new code could not be sent.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Enter two-step authentication code
+signin-totp-code-instruction-v4 = Check your <strong>authenticator app</strong> to confirm your sign-in.
+signin-totp-code-input-label-v4 = Enter 6-digit code
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm
 signin-totp-code-other-account-link = Use a different account
@@ -1536,6 +1615,13 @@ confirm-signup-code-is-required-error = Confirmation code is required
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Set your password
+signup-relay-info = A password is needed to securely manage your masked emails and access { -brand-mozilla }’s security tools.
+signup-heading-relay = Create a password
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Why do I need to create this account?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Find out here
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Change email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
