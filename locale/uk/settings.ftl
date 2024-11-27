@@ -1425,12 +1425,10 @@ confirm-reset-password-otp-different-account-link = Використати ін�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Відновити свій пароль
-confirm-totp-reset-password-subheader = Введіть секретний код двоетапної перевірки (2FA)
-confirm-totp-reset-password-instruction = Перевірте програму автентифікації, щоб відновити пароль.
 confirm-totp-reset-password-trouble-code = Проблеми з введенням коду?
 confirm-totp-reset-password-confirm-button = Підтвердити
-confirm-totp-reset-password-input-label = Ввести код
 confirm-totp-reset-password-use-different-account = Використати інший обліковий запис
+confirm-recovery-code-reset-password-trouble-code = Назад
 
 ## ResetPassword start page
 
@@ -1525,15 +1523,10 @@ signin-push-code-confirm-link-error = Посилання пошкоджено. �
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Введіть резервний код автентифікації, <span>щоб перейти до налаштувань облікового запису</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Введіть резервний код автентифікації, <span>щоб продовжити в { $serviceName }</span>
-signin-recovery-code-instruction = Введіть резервний код автентифікації, наданий вам під час налаштування двоетапної перевірки.
-signin-recovery-code-input-label = Введіть 10-значний резервний код автентифікації
+signin-recovery-code-heading = Увійти
+signin-recovery-code-sub-heading = Введіть резервний код автентифікації
+signin-recovery-code-instruction-v2 = Введіть один із одноразових резервних кодів автентифікації, які ви зберегли під час налаштування двоетапної автентифікації.
+signin-recovery-code-input-label-v2 = Введіть 10-значний код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Підтвердити
 # Link to return to signin with two-step authentication code
@@ -1573,9 +1566,7 @@ signin-token-code-resend-error = Щось пішло не так. Не вдал�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Введіть секретний код двоетапної перевірки (2FA)
-signin-totp-code-instruction-v3 = Підтвердьте вхід у програмі автентифікації.
-signin-totp-code-input-label-v3 = Введіть код
+signin-totp-code-instruction-v4 = Підтвердьте вхід у <strong>програмі автентифікації</strong>.
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Підтвердити
 signin-totp-code-other-account-link = Використати інший обліковий запис
