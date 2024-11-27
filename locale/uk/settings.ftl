@@ -1525,7 +1525,6 @@ signin-push-code-confirm-link-error = Посилання пошкоджено. �
 
 signin-recovery-code-heading = Увійти
 signin-recovery-code-sub-heading = Введіть резервний код автентифікації
-signin-recovery-code-instruction-v2 = Введіть один із одноразових резервних кодів автентифікації, які ви зберегли під час налаштування двоетапної автентифікації.
 signin-recovery-code-input-label-v2 = Введіть 10-значний код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Підтвердити
