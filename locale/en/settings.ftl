@@ -1155,6 +1155,7 @@ auth-error-114-generic = You’ve tried too many times. Please try again later.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = You’ve tried too many times. Please try again { $retryAfter }.
+auth-error-125 = The request was blocked for security reasons
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
@@ -1436,6 +1437,13 @@ pair-wait-for-auth-heading-text = Approval now required <span>from your other de
 
 pair-unsupported-header = Pair using an app
 pair-unsupported-message = Did you use the system camera? You must pair from within a { -brand-firefox } app.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Create password
+set-password-info = Your sync data is encrypted with your password to protect your privacy.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
