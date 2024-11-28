@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-29 04:23+0000\n"
+"PO-Revision-Date: 2024-11-28 07:59+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -2000,7 +2000,7 @@ msgstr "我已經安裝 Firefox 行動版"
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "如果您已經在行動裝置上安裝 Firefox，請立即進行同步。"
+msgstr "如果您已經在行動裝置上安裝 Firefox，就可以立即進行同步。"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I don’t have Firefox for mobile"
