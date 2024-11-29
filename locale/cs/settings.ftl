@@ -285,7 +285,7 @@ recovery-phone-code-image-description =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox-2 = Jste do { -brand-firefox(case: "gen") } přihlášeni.
+inline-recovery-key-setup-signed-in-firefox-2 = Jste přihlášeni do { -brand-firefox(case: "gen") }.
 inline-recovery-key-setup-create-header = Zabezpečte svůj účet
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Máte minutku na ochranu svých údajů?
