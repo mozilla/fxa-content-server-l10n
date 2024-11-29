@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-10-29 11:22+0000\n"
+"PO-Revision-Date: 2024-11-29 10:52+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -364,7 +364,7 @@ msgstr "Solicitud de cuerpo demasiado grande"
 
 #: .es5/lib/auth-errors.js:109 .es5/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
-msgstr "La  solicitud fue bloqueada por razones de seguridad"
+msgstr "La solicitud fue bloqueada por razones de seguridad"
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
