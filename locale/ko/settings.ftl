@@ -1092,6 +1092,7 @@ auth-error-114-generic = 너무 많이 시도하였습니다. 잠시 후에 다�
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 너무 많이 시도했습니다. { $retryAfter } 다시 시도하십시오.
+auth-error-125 = 보안상의 이유로 요청이 차단 되었습니다
 auth-error-138-2 = 확인되지 않은 세션
 auth-error-139 = 보조 이메일은 계정 이메일과 달라야 합니다.
 auth-error-155 = TOTP 토큰 찾을 수 없음
@@ -1361,6 +1362,13 @@ pair-wait-for-auth-heading-text = 이제 <span>다른 기기</span>에서 승인
 
 pair-unsupported-header = 앱으로 페어링
 pair-unsupported-message = 기본 카메라를 쓰셨습니까? { -brand-firefox } 앱 안의 카메라로 페어링해야 합니다.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = 비밀번호 생성
+set-password-info = 개인정보 보호를 위해 동기화 데이터는 사용자의 비밀번호로 암호화됩니다.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
