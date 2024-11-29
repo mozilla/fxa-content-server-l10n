@@ -1100,6 +1100,7 @@ auth-error-114-generic = Έχετε προσπαθήσει πάρα πολλές
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
+auth-error-125 = Το αίτημα αποκλείστηκε για λόγους ασφαλείας
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
@@ -1369,6 +1370,13 @@ pair-wait-for-auth-heading-text = Απαιτείται έγκριση <span>απ
 
 pair-unsupported-header = Σύζευξη με εφαρμογή
 pair-unsupported-message = Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Δημιουργία κωδικού πρόσβασης
+set-password-info = Τα δεδομένα συγχρονισμού κρυπτογραφούνται με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
