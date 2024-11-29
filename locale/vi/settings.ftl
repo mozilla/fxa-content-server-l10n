@@ -1096,6 +1096,7 @@ auth-error-114-generic = Bạn đã thử quá nhiều lần. Hãy thử lại s
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $retryAfter }.
+auth-error-125 = Yêu cầu đã bị chặn vì lý do bảo mật
 auth-error-138-2 = Phiên chưa được xác minh
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
@@ -1365,6 +1366,13 @@ pair-wait-for-auth-heading-text = Hiện tại cần chấp nhận <span>từ th
 
 pair-unsupported-header = Ghép nối bằng ứng dụng
 pair-unsupported-message = Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ bên trong ứng dụng { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Tạo mật khẩu
+set-password-info = Dữ liệu đồng bộ hóa của bạn được mã hóa bằng mật khẩu để bảo vệ quyền riêng tư của bạn.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
