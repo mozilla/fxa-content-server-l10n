@@ -1098,6 +1098,7 @@ auth-error-114-generic = U hebt het te vaak geprobeerd. Probeer het later opnieu
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opnieuw.
+auth-error-125 = De aanvraag is om veiligheidsredenen geblokkeerd
 auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
@@ -1367,6 +1368,13 @@ pair-wait-for-auth-heading-text = Goedkeuring <span>vanaf uw andere apparaat</sp
 
 pair-unsupported-header = Koppelen via een app
 pair-unsupported-message = Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een { -brand-firefox }-app.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Wachtwoord aanmaken
+set-password-info = Uw gesynchroniseerde gegevens worden versleuteld met uw wachtwoord om uw privacy te beschermen.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
