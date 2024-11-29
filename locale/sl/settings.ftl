@@ -1372,7 +1372,7 @@ pair-unsupported-message = Ste uporabili sistemsko kamero? Seznanitev morate opr
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Ustvari geslo
-set-password-info = Podatki za sinhronizacijo so za zaščito vaše zasebnosti šifrirani z vašim geslom.
+set-password-info = Za zaščito vaše zasebnosti so sinhronizirani podatki šifrirani z vašim geslom.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
