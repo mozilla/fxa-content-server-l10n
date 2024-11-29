@@ -1367,7 +1367,7 @@ pair-unsupported-message = ¿Usaste la cámara del sistema? Tenés que emparejar
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Crear contraseña
-set-password-info = Tus datos de sincronización están encriptados con tu contraseña para proteger tu privacidad.
+set-password-info = Tus datos de sincronización están cifrados con tu contraseña para proteger tu privacidad.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
