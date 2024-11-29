@@ -1102,6 +1102,7 @@ auth-error-114-generic = Jo hawwe te faaks besocht. Probearje letter opnij.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Jo hawwe it te faak probearre. Probearje it { $retryAfter } opnij.
+auth-error-125 = De oanfraach is om reden fan feilichheid blokkearre
 auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
@@ -1371,6 +1372,12 @@ pair-wait-for-auth-heading-text = Goedkarring <span>fan jo oare apparaat ôf</sp
 
 pair-unsupported-header = Keppelje mei in app
 pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { -brand-firefox }-app út keppelje.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Wachtwurd oanmeitsje
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
