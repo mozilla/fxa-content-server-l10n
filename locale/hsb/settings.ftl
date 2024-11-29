@@ -1094,6 +1094,7 @@ auth-error-114-generic = Sće to přehusto spytał. Spytajće prošu pozdźišo 
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće raz.
+auth-error-125 = Naprašowanje je so z přičinow wěstoty zablokowało
 auth-error-138-2 = Njewobkrućene posedźenje
 auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać
 auth-error-155 = TOTP-token njeje so namakał
@@ -1363,6 +1364,13 @@ pair-wait-for-auth-heading-text = Schwalenje je nětko <span>wot wašeho druheho
 
 pair-unsupported-header = Z nałoženjom koplować
 pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju { -brand-firefox } koplować.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Hesło wutworić
+set-password-info = Waše synchronizaciske daty su ze swojim hesłom zaklučowane, zo by so waša priwatnosć škitała.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
