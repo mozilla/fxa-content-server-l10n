@@ -1092,6 +1092,7 @@ auth-error-114-generic = Rydych chi wedi ceisio gormod o weithiau. Ceisiwch eto 
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { $retryAfter }.
+auth-error-125 = Cafodd y cais ei rwystro am resymau diogelwch
 auth-error-138-2 = Sesiwn heb ei gadarnhau
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
@@ -1361,6 +1362,13 @@ pair-wait-for-auth-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais
 
 pair-unsupported-header = Paru gan ddefnyddio ap
 pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Crëwch gyfrinair
+set-password-info = Mae eich data cysoni wedi'i amgryptio gyda'ch cyfrinair i amddiffyn eich preifatrwydd.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
