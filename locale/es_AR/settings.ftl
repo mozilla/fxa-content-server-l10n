@@ -1091,6 +1091,7 @@ auth-error-114-generic = Probaste demasiadas veces. Intentalo de nuevo más tard
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Probaste demasiadas veces. Intentá { $retryAfter }.
+auth-error-125 = Se bloqueó este pedido por razones de seguridad
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = No se econtró el token TOTP.
@@ -1360,6 +1361,13 @@ pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde el otro di
 
 pair-unsupported-header = Conectar usando una aplicación
 pair-unsupported-message = ¿Usaste la cámara del sistema? Tenés que emparejarla desde una aplicación de { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Crear contraseña
+set-password-info = Tus datos de sincronización están encriptados con tu contraseña para proteger tu privacidad.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
