@@ -1378,6 +1378,7 @@ pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { 
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Wachtwurd oanmeitsje
+set-password-info = Jo syngronisearre gegevens wurde fersifere mei jo wachtwurd om jo privacy te beskermjen.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
