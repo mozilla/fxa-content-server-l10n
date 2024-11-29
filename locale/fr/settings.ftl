@@ -1085,6 +1085,7 @@ auth-error-114-generic = Vous avez effectué trop d’essais. Veuillez réessaye
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vous avez effectué trop d’essais. Veuillez réessayer { $retryAfter }.
+auth-error-125 = La requête a été bloquée par mesure de sécurité.
 auth-error-138-2 = Session non confirmée
 auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
 auth-error-155 = Jeton TOTP introuvable
@@ -1354,6 +1355,13 @@ pair-wait-for-auth-heading-text = L’approbation est maintenant nécessaire <sp
 
 pair-unsupported-header = Associer en utilisant une application
 pair-unsupported-message = Avez-vous utilisé la caméra du système ? L’association doit être effectuée depuis une application { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Créer un mot de passe
+set-password-info = Vos données de synchronisation sont chiffrées à l’aide de votre mot de passe pour protéger votre vie privée.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
