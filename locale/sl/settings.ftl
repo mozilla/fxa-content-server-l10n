@@ -219,10 +219,10 @@ backup-codes-disabled-icon-aria-label =
     .aria-label = Rezervne kode so onemogočene
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
-    .aria-label = Obnovitveni SMS omogočen
+    .aria-label = Obnovitev z SMS omogočena
 # Disabled version of backup-recovery-sms-icon-aria-label
 backup-recovery-sms-disabled-icon-aria-label =
-    .aria-label = Obnovitveni SMS je onemogočen
+    .aria-label = Obnovitev z SMS onemogočena
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanadska zastava
