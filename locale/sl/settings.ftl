@@ -1096,6 +1096,7 @@ auth-error-114-generic = Preveč poskusov. Poskusite znova pozneje.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
+auth-error-125 = Zahteva je bila zavrnjena iz varnostnih razlogov
 auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
@@ -1365,6 +1366,13 @@ pair-wait-for-auth-heading-text = Zdaj je zahtevana odobritev <span>z vaše drug
 
 pair-unsupported-header = Seznani s pomočjo aplikacije
 pair-unsupported-message = Ste uporabili sistemsko kamero? Seznanitev morate opraviti v aplikaciji { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Ustvari geslo
+set-password-info = Podatki za sinhronizacijo so za zaščito vaše zasebnosti šifrirani z vašim geslom.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
