@@ -5,9 +5,12 @@
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="آرم { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = سیاست‌های حریم‌خصوصی { -brand-mozilla }
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="آرم { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="آرم { -brand-mozilla }">
 subplat-automated-email = این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز به انجام کار خاصی نیست.
 subplat-privacy-notice = نکات حفظ حریم خصوصی
 subplat-privacy-plaintext = نکات حفظ حریم خصوصی:
@@ -17,6 +20,7 @@ subplat-cancel = لغو اشتراک
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = فعال‌سازی دوبارهٔ اشتراک
 subplat-privacy-policy = سیاست حفظ حریم خصوصی { -brand-mozilla }
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = ملاحظات حقوقی
 subplat-legal-plaintext = { subplat-legal }:
@@ -30,6 +34,7 @@ downloadSubscription-subject = به { $productName } خوش آمدید
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = به { $productName } خوش آمدید
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-action = مدیریت حساب‌کاربری
 passwordChanged-title = گذرواژه با موفقیت تغییر کرد
 postAddAccountRecovery-action = مدیریت حساب‌کاربری
