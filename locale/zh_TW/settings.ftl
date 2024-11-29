@@ -1070,6 +1070,7 @@ auth-error-114-generic = 您已嘗試太多次，請稍候再試。
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }再試。
+auth-error-125 = 因為安全性因素，已封鎖請求
 auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
@@ -1339,6 +1340,13 @@ pair-wait-for-auth-heading-text = 請到另一台裝置進行確認
 
 pair-unsupported-header = 使用應用程式配對
 pair-unsupported-message = 您用的是系統相機嗎？必須透過 { -brand-firefox } 程式中的相機配對。
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = 設定密碼
+set-password-info = 已使用密碼加密您同步的資料，以保護您的隱私。
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
