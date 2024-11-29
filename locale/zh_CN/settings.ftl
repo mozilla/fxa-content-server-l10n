@@ -1072,6 +1072,7 @@ auth-error-114-generic = 您的尝试次数过多，请稍后再试。
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已尝试太多次，请在 { $retryAfter }再试。
+auth-error-125 = 因为安全性因素，已拦截请求
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
@@ -1347,6 +1348,13 @@ pair-wait-for-auth-heading-text =
 
 pair-unsupported-header = 请使用应用程序配对
 pair-unsupported-message = 您用的是系统相机？配对必须通过 { -brand-firefox } 应用程序扫码完成。
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = 创建密码
+set-password-info = 同步的数据已通过您的密码加密，以保护隐私。
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
