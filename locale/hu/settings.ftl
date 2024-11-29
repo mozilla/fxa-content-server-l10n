@@ -1100,6 +1100,7 @@ auth-error-114-generic = Túl sokszor próbálkozott. Próbálja újra később.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
+auth-error-125 = A kérés biztonsági okokból blokkolva lett
 auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
@@ -1369,6 +1370,13 @@ pair-wait-for-auth-heading-text = Most jóváhagyás szükséges <span>a másik 
 
 pair-unsupported-header = Párosítás egy alkalmazás segítségével
 pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy { -brand-firefox } alkalmazásból.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Jelszó létrehozása
+set-password-info = Szinkronizálási adatai a jelszavával titkosítva vannak az adatai védelme érdekében.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
