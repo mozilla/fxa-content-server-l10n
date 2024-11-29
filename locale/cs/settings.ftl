@@ -1087,6 +1087,7 @@ auth-error-114-generic = Vyčerpali jste příliš mnoho pokusů. Prosím zkuste
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu { $retryAfter }.
+auth-error-125 = Z bezpečnostních důvodů byl požadavek zablokován
 auth-error-138-2 = Nepotvrzená relace
 auth-error-139 = Záložní e-mailová adresa musí být jiná než adresa účtu
 auth-error-155 = TOTP token nenalezen
@@ -1356,6 +1357,13 @@ pair-wait-for-auth-heading-text = Je požadováno schválení <span>z vašeho da
 
 pair-unsupported-header = Spárovat pomocí aplikace
 pair-unsupported-message = Použili jste systémový fotoaparát? Párování je potřeba zahájit z { -brand-firefox(case: "gen") }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Vytvoření hesla
+set-password-info = Synchronizovaná data jsou z důvodu ochrany vašeho soukromí šifrována heslem.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
