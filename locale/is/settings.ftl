@@ -1092,6 +1092,7 @@ auth-error-114-generic = Þú hefur prófað of oft. Reyndu aftur síðar.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Þú hefur prófað of oft. Reyndu aftur { $retryAfter }.
+auth-error-125 = Lokað var á beiðnina af öryggisástæðum
 auth-error-138-2 = Óstaðfest seta
 auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
 auth-error-155 = TOTP-teikn fannst ekki
@@ -1361,6 +1362,13 @@ pair-wait-for-auth-heading-text = Núna er krafist er samþykktar <span>frá hin
 
 pair-unsupported-header = Para með forriti
 pair-unsupported-message = Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr { -brand-firefox }-forritinu.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Búa til lykilorð
+set-password-info = Samstillingargögnin þín eru dulrituð með lykilorðinu þínu til að vernda friðhelgi þína.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
