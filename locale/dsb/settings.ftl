@@ -1092,6 +1092,7 @@ auth-error-114-generic = Sćo to pśecesto wopytał. Wopytajśo pšosym pózdźe
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyšći raz.
+auth-error-125 = Napšašowanje jo se z pśicynow wěstoty zablokěrowało
 auth-error-138-2 = Njewobkšuśone pósejźenje
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
 auth-error-155 = TOTP-token njejo se namakał
@@ -1361,6 +1362,13 @@ pair-wait-for-auth-heading-text = Pśizwólenje jo něnto <span>wót wašogo dru
 
 pair-unsupported-header = Z nałoženim koplowaś
 pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju { -brand-firefox } koplowaś.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Gronidło napóraś
+set-password-info = Daty wašeje synchronizacije ze swójim gronidłom skoděrowane, aby se waša priwatnosć šćitała.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
