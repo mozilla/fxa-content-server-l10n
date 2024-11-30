@@ -1098,6 +1098,7 @@ auth-error-114-generic = Тым көп талаптар санын жасады�
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Тым көп талаптар санын жасадыңыз. { $retryAfter } кейін қайталап көріңіз.
+auth-error-125 = Сұраным қауіпсіздік салдарынан блокталды
 auth-error-138-2 = Расталмаған сессия
 auth-error-139 = Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс
 auth-error-155 = TOTP токені табылмады
@@ -1367,6 +1368,13 @@ pair-wait-for-auth-heading-text = Енді сіздің <span>басқа құр�
 
 pair-unsupported-header = Қолданба арқылы жұптастыру
 pair-unsupported-message = Жүйелік камераны пайдаландыңыз ба? { -brand-firefox } қолданбасынан жұптастыру керек.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Парольді жасау
+set-password-info = Синхрондау деректеріңіз жекелігіңізді қорғау үшін сіздің пароліңізбен шифрленген.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
