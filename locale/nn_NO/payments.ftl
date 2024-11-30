@@ -441,7 +441,7 @@ sub-update-new-plan-yearly = { $productName } (kvart år)
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Avbryt abonnementet
-sub-item-stay-sub = Fortset abonnementet
+sub-item-stay-sub = Hald fram abonnementet
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access

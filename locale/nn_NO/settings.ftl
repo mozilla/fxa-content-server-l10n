@@ -681,7 +681,7 @@ delete-account-chk-box-3 =
     .label = Aktivering på nytt med denne e-postadressa vil kanskje ikkje gjenopprette den lagra informasjonen
 delete-account-chk-box-4 =
     .label = Eventuelle utvidingar og tema som du har publisert på addons.mozilla.org vert sletta
-delete-account-continue-button = Fortset
+delete-account-continue-button = Hald fram
 delete-account-password-input =
     .label = Skriv inn passord
 delete-account-cancel-button = Avbryt
@@ -775,7 +775,7 @@ tfa-title = Tostegs-godkjenning
 tfa-step-1-3 = Steg 1 av 3
 tfa-step-2-3 = Steg 2 av 3
 tfa-step-3-3 = Steg 3 av 3
-tfa-button-continue = Fortset
+tfa-button-continue = Hald fram
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
 tfa-incorrect-totp = Feil tostegs-godkjenningskode
@@ -1210,6 +1210,11 @@ pair-supp-allow-cancel-link = Avbryt
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Paring via ein app
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.

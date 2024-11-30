@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-11-16 11:37+0000\n"
+"PO-Revision-Date: 2024-11-30 17:18+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -540,7 +540,7 @@ msgstr "Innloggingsforsøket avbrote"
 
 #: .es5/lib/auth-errors.js:318
 msgid "Session expired. Sign in to continue."
-msgstr "Økta er slutt. Logg inn for å fortsetje."
+msgstr "Økta er slutt. Logg inn for å forthalde fram."
 
 #: .es5/lib/auth-errors.js:322
 msgid "Cookies are still disabled"
@@ -1229,7 +1229,7 @@ msgstr "Skriv ut"
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:15
 msgid "Continue"
-msgstr "Fortset"
+msgstr "Hald fram"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
