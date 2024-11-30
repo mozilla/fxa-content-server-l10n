@@ -1355,6 +1355,7 @@ pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-f
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Parola oluştur
+set-password-info = Eşitlenen verileriniz gizliliğinizi korumak için parolanızla şifrelenir.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
