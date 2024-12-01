@@ -1096,6 +1096,7 @@ auth-error-114-generic = Tu ha tentate troppo de vices. Retenta plus tarde.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
+auth-error-125 = Le requesta ha essite blocate pro rationes de securitate
 auth-error-138-2 = Session non confirmate
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate
@@ -1365,6 +1366,12 @@ pair-wait-for-auth-heading-text = Approbation necessari ora <span>ab tu altere a
 
 pair-unsupported-header = Accopulamento per un application
 pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular ab intra un application de { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Crear contrasigno
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
