@@ -1372,6 +1372,7 @@ pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular 
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Crear contrasigno
+set-password-info = Tu datos synchronisate es cryptate con tu contrasigno pro proteger tu confidentialitate.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
