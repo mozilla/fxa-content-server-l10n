@@ -1100,6 +1100,7 @@ auth-error-114-generic = Du har försökt för många gånger. Vänligen försö
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
+auth-error-125 = Begäran blockerades av säkerhetsskäl
 auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
@@ -1369,6 +1370,13 @@ pair-wait-for-auth-heading-text = Godkännande krävs nu <span>från din andra e
 
 pair-unsupported-header = Parkoppling via en app
 pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från en { -brand-firefox }-app.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Skapa lösenord
+set-password-info = Din synkroniseringsdata krypteras med ditt lösenord för att skydda din integritet.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
