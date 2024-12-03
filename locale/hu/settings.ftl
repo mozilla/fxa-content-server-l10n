@@ -1376,7 +1376,7 @@ pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Jelszó létrehozása
-set-password-info = Szinkronizálási adatai a jelszavával titkosítva vannak az adatai védelme érdekében.
+set-password-info = Szinkronizálási adatai a jelszavával vannak titkosítva az adatvédelme érdekében.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
