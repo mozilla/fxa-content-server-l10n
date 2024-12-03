@@ -1102,6 +1102,7 @@ auth-error-114-generic = Ti has empruvà memia savens. Emprova per plaschair pli
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Ti has empruvà memia savens. Emprova anc ina giada suenter { $retryAfter }.
+auth-error-125 = La dumonda è vegnida bloccada per motivs da segirezza
 auth-error-138-2 = Sesida betg confermada
 auth-error-139 = L'adressa dad e-mail alternativa sto esser differenta da l'adressa da tes conto
 auth-error-155 = Betg chattà il token TOTP
@@ -1371,6 +1372,13 @@ pair-wait-for-auth-heading-text = I dovra ussa ina approvaziun <span>sin tes aut
 
 pair-unsupported-header = Associar cun agid dad ina app
 pair-unsupported-message = Has ti utilisà la camera dal sistem? Ti stos associar cun agid dad ina app da { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Crear in pled-clav
+set-password-info = Tias datas sincronisadas èn criptadas cun tes pled-clav per proteger tia sfera privata.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
