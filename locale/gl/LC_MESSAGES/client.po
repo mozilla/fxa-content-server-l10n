@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-12-04 10:29+0000\n"
+"PO-Revision-Date: 2024-12-04 10:41+0000\n"
 "Last-Translator: Adrián <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -1111,6 +1111,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Ao continuar, acepta:<br />\n"
+"            as <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">condicións de servizo</a> e o <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">aviso de privacidade</a> de Pocket e<br />\n"
+"            as <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">condicións de servizo</a> e o <a class=\"link-grey\" id=\"fxa-pp \" href=\"/legal/privacy\">aviso de privacidade</a> de Contas de Mozilla.\n"
+"          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
@@ -1136,11 +1141,11 @@ msgstr "Esqueceu o contrasinal?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Continúe coa súa conta de Mozilla"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Sincronice os seus contrasinais, lapelas e marcadores alí onde use Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
@@ -1148,7 +1153,7 @@ msgstr "Escriba o seu enderezo de correo electrónico"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Continúe a <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
@@ -1160,11 +1165,11 @@ msgstr ""
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Rexístrese ou identifíquese"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Unha conta de Mozilla tamén desbloquea o acceso a máis produtos de Mozilla que protexen a privacidade."
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1174,6 +1179,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"            Ao continuar, acepta:<br />\n"
+"            as <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">condicións de servizo</a> e o <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">aviso de privacidade</a> de Pocket e<br />\n"
+"            as <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">condicións de servizo</a> e o <a class=\"link-grey\" id=\"fxa-pp \" href=\"/legal/privacy\">aviso de privacidade</a> de Contas de Mozilla.\n"
+"          "
 
 #: .es5/templates/index.mustache:18
 msgid ""
@@ -1186,7 +1196,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Gardar os códigos de autenticación de salvagarda"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1215,15 +1225,15 @@ msgstr "Cancelar a configuración"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Confirmar o código de autenticación de salvagarda"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Para asegurarse de que poderá recuperar o acceso á conta en caso de perder un dispositivo, introduza un dos códigos de autenticación de salvagarda que gardou."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Código de autenticación de salvagarda"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1313,7 +1323,7 @@ msgstr "Correctamente"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Xa pode usar <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1325,7 +1335,7 @@ msgstr "A súa conta está preparada!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Xerar unha nova clave de recuperación da conta"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1348,6 +1358,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>NOTA:</span> ao restabelecer o contrasinal, restabelece a conta. Pode perder parte da súa información persoal (incluído o historial, os marcadores e os contrasinais). Isto é porque ciframos os"
+" seus datos co seu contrasinal para protexer a súa privacidade. Aínda conservará as subscricións que teña e os datos de Pocket non se verán afectados."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1371,7 +1383,7 @@ msgstr "Nome do evento"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Confirmada"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1403,15 +1415,15 @@ msgstr "Xa non ten ese enderezo de correo electrónico? Cree unha nova conta"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Introduza o código de autenticación de salvagarda"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Introduza un código de autenticación de salvagarda dos que recibiu ao preparar a autenticación en dous pasos."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Introduza o código de autenticación de copia de seguranza de 10 díxitos"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1427,11 +1439,11 @@ msgstr "Notificamos ao noso equipo. Denuncias coma esta axúdannos a defendernos
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Introduza o código de confirmación <span class=\"card-subheader\">da súa conta de Mozilla</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Introduza o código que se enviou a %(email)s nun prazo de 5 minutos."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1916,23 +1928,23 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "Acaba de identificarse en Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "globo de localización"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Si, aprobar o dispositivo"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "Se non era vostede, <a id=\"change-password\" class=\"link-blue\">cambie o seu contrasinal</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1944,6 +1956,9 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Agora está sincronizando con: <span>%(deviceFamily)s en %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
