@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-12-04 10:41+0000\n"
+"PO-Revision-Date: 2024-12-04 10:55+0000\n"
 "Last-Translator: Adrián <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -1471,7 +1471,7 @@ msgstr "Escriba o código de autorización"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Estabeleza o seu contrasinal"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1483,11 +1483,11 @@ msgstr "Repetir contrasinal"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Necesita este contrasinal para acceder aos datos cifrados que almacene connosco.<br class=\"mb-3\">Ao restabelecelo pode perder datos como contrasinais e marcadores."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Obteña máis de Mozilla:"
 
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
@@ -1499,19 +1499,19 @@ msgstr "Crear unha conta"
 
 #: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Logotipo de m de Mozilla"
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
-msgstr ""
+msgstr "Conta de Mozilla"
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
-msgstr ""
+msgstr "Inicio da conta"
 
 #: .es5/templates/support.mustache:4
 msgid "Subscriptions"
-msgstr ""
+msgstr "Subscricións"
 
 #: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
 msgid "Contact Us"
@@ -1523,7 +1523,7 @@ msgstr "Por que está a contactar connosco?"
 
 #: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
 msgid "Please select one"
-msgstr ""
+msgstr "Escolla"
 
 #: .es5/templates/support.mustache:11
 msgid "What do you need help with?"
@@ -1551,7 +1551,7 @@ msgstr "Non aparece"
 
 #: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Necesita axuda cunha aplicación ou servizo específico? (opcional)"
 
 #: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
@@ -1583,7 +1583,7 @@ msgstr "Paso 1 de 2: repetir o contrasinal"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Introduza o seu contrasinal para ver a clave de recuperación da conta."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1595,11 +1595,11 @@ msgstr "Conectouse"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Peche esta páxina e continúe no outro dispositivo."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Novo inicio de sesión en Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
