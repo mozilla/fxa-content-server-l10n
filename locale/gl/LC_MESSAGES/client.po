@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 20:09+0000\n"
-"PO-Revision-Date: 2024-05-03 18:51+0000\n"
-"Last-Translator: proba.educator226 <proba.educator226@passinbox.com>\n"
+"PO-Revision-Date: 2024-12-04 10:29+0000\n"
+"Last-Translator: Adrián <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -728,7 +728,7 @@ msgstr "Reciba as últimas novas sobre Mozilla e Firefox"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Axuda a manter Internet saudable"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -736,7 +736,7 @@ msgstr "Goce dunha Internet máis segura e intelixente"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Noticias e actualizacións de seguridade e privacidade"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -840,7 +840,7 @@ msgstr "Ao continuar acepta as <a id=\"service-tos\" href=\"%(termsUri)s\">condi
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Axuda</a>"
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
@@ -888,7 +888,7 @@ msgstr "Recibir outra ligazón"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Restabelece o contrasinal coa clave de recuperación da conta"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -899,7 +899,7 @@ msgstr "Continuar a %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Introduza a clave de recuperación da conta de uso único que gardou nun lugar seguro para recuperar o acceso á súa conta de Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -909,15 +909,15 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Introduza a clave de recuperación da conta"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "Confirme a clave de recuperación da conta"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "Non ten unha chave de recuperación da conta?"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -948,10 +948,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>LEMBRE:</span> ao restabelecer o contrasinal, restabelece a conta. Pode perder parte da súa información persoal (incluído o historial, os marcadores e os contrasinais). Isto é porque ciframos "
+"os seus datos co seu contrasinal para protexer a súa privacidade. Aínda conservará as subscricións que teña e os datos de Pocket non se verán afectados."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Restaurou correctamente a súa conta usando a clave de recuperación. Cree un novo contrasinal para protexer os seus datos e gárdeo nun lugar seguro."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -975,23 +977,23 @@ msgstr "Xa se confirmou o inicio de sesión"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "A ligazón de confirmación caducou"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "A ligazón que premeu para confirmar o seu correo electrónico caducou."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Prema aquí para recibir unha nova ligazón de confirmación"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "A ligazón de confirmación está danada"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Erro de confirmación"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1003,7 +1005,7 @@ msgstr "Confirmar este inicio de sesión"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Busque no seu correo electrónico a ligazón de confirmación enviada a %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1029,11 +1031,11 @@ msgstr "Prema a ligazón enviada a %(email)s na próxima hora para crear un novo
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Introduza o código de confirmación <span class=\"card-subheader\" id=\"subheader\"> da súa conta de Mozilla</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Introduza o código que se enviou a %(escapedEmail)s nun prazo de 5 minutos."
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1047,11 +1049,11 @@ msgstr "Confirmar"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "O código caducou?"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Enviar un novo código."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
@@ -1059,11 +1061,11 @@ msgstr "Conectar outro dispositivo"
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Identificouse en Firefox"
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
-msgstr ""
+msgstr "Correo electrónico confirmado"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
@@ -1087,7 +1089,7 @@ msgstr "Inicie sesión no Firefox doutro dispositivo para completar a configurac
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "Quere obter as súas lapelas, marcadores e contrasinais noutro dispositivo?"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
@@ -1095,7 +1097,7 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Introduza o contrasinal <span class=\"card-subheader\" id=\"subheader\">da súa conta de Mozilla</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
