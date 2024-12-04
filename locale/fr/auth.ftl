@@ -307,7 +307,7 @@ passwordResetWithRecoveryKeyPrompt-description = Vous avez réinitialisé le mot
 passwordResetWithRecoveryKeyPrompt-action = Créer une clé de récupération de compte
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Créer une clé de récupération de compte :
-passwordResetWithRecoveryKeyPrompt-cta-description = Vous devrez vous reconnecter sur tous vos appareils synchronisés. Gardez vos données en sécurité la prochaine fois avec une clé de récupération de compte. Cela vous permet de récupérer vos données si vous oubliez votre mot de passe.
+passwordResetWithRecoveryKeyPrompt-cta-description = Vous devrez vous reconnecter sur tous vos appareils synchronisés. Gardez vos données en sécurité la prochaine fois avec une clé de récupération de compte. Une telle clé vous permet de récupérer vos données si vous oubliez votre mot de passe.
 postAddAccountRecovery-subject-3 = Une nouvelle clé de récupération de compte a été créée
 postAddAccountRecovery-title2 = Vous avez créé une nouvelle clé de récupération de compte
 # Key here refers to account recovery key
