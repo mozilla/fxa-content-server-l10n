@@ -147,11 +147,21 @@ passwordChanged-subject = Серсүз яңартылды
 passwordChanged-title = Парол уңышлы үзгәртелде
 passwordChangeRequired-subject = Шөбһәле гамәлләр ачыкланды
 passwordChangeRequired-title = Серсүзне үзгәртү кирәк
-passwordReset-subject = Серсүз яңартылды
-passwordReset-title = Хисабыгызның паролы үзгәртелде
-passwordReset-description = Башка җиһазларыгызда да синхронлау дәвам итсен өчен, аларга да яңа паролыгызны кертүегез кирәк.
+password-forgot-otp-subject = Серсүзегезне оныттыгызмы?
+password-forgot-otp-title = Серсүзегезне оныттыгызмы?
+password-forgot-otp-expiry-notice = Бу кодның яраклылык вакыты 10 минут.
+passwordReset-subject-2 = Серсүзегез үзгәртелде
+passwordReset-title-2 = Серсүзегез үзгәртелде
 passwordResetAccountRecovery-subject-2 = Серсүзегез үзгәртелде
-passwordResetAccountRecovery-title-2 = Серсүз уңышлы үзгәртелде
+passwordResetAccountRecovery-title-3 = Серсүзегез үзгәртелде
+passwordResetAccountRecovery-action-4 = Хисап белән идарә итү
+passwordResetWithRecoveryKeyPrompt-subject = Серсүзегез үзгәртелде
+passwordResetWithRecoveryKeyPrompt-title = Серсүзегез үзгәртелде
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Хисапны коткару ачкычын булдыру
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Хисапны коткару ачкычын булдыру:
+postAddAccountRecovery-subject-3 = Яңа хисапны коткару ачкычы ясалды
 postAddAccountRecovery-title2 = Сез яңа хисапны коткару ачкычы булдырдыгыз
 postAddAccountRecovery-action = Хисап белән идарә итү
 postAddLinkedAccount-action = Хисап белән идарә итү
@@ -160,6 +170,9 @@ postAddTwoStepAuthentication-title-2 = Сез ике адымлы аутенти
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Сез аны бу җиһаздан кабыздыгыз:
 postAddTwoStepAuthentication-action = Хисап белән идарә итү
+postChangeAccountRecovery-subject = Хисапны коткару ачкычы үзгәртелде
+postChangeAccountRecovery-title = Сез хисапны коткару ачкычыгызны үзгәрттегез
+postChangeAccountRecovery-body-part1 = Хәзер Сезнең яңа хисапны коткару ачкычыгыз бар. Искесе бетерелде.
 postChangePrimary-subject = Төп эл. почта адресы яңартылды
 postChangePrimary-title = Яңа төп электрон почта адресы
 postChangePrimary-action = Хисап белән идарә итү
