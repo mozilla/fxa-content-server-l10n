@@ -176,21 +176,44 @@ inline-recovery-key-setup-create-header = Хисабыгызны саклагы�
 input-password-hide = Серсүзне яшерү
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Серсүзне күрсәтү
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Серсүзегез хәзер яшерелгән.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Кире
 
 ## LinkDamaged component
 
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Раслау сылтамасына зыян килгән
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Сылтамага зыян килгән
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Яңа сылтама алу
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Серсүзегез исегездәме?
+# link navigates to the sign in page
+remember-password-signin-link = Керү
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Беренчел эл. почта адресы расланды инде
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Керү расланды инде
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Булдыру
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Яраксыз сорау
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -217,6 +240,9 @@ input-password-show = Серсүзне күрсәтү
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Кисәтү
+password-reset-chevron-expanded = Кисәтүне төреп кую
+password-reset-chevron-collapsed = Кисәтүне җәеп күрсәтү
 
 ## Alert Bar
 
@@ -234,6 +260,10 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Компьютерлар өчен { -brand-firefox } браузеры
 bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-firefox } браузеры
 bento-menu-made-by-mozilla = { -brand-mozilla } тарафыннан җитештерелгән
@@ -292,6 +322,8 @@ cs-sign-out-button = Чыгу
 ## Data collection section
 
 dc-heading = Мәгълүмат туплау һәм аны куллану
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } браузеры
 dc-learn-more = Күбрәк белү
 
 # DropDownAvatarMenu component
@@ -310,6 +342,7 @@ flow-container-back = Кире
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-input-label = Серсүзегезне кертегез
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -323,6 +356,10 @@ flow-container-back = Кире
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Башлап җибәрү
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Баш тарту
 
 ## HeaderLockup component, the header in account settings
 
@@ -330,6 +367,7 @@ header-menu-open = Менюны ябу
 header-menu-closed = Сайт навигациясе менюсы
 header-back-to-top-link =
     .title = Сәхифә башына
+header-title-2 = { -product-mozilla-account }
 header-help = Ярдәм
 
 ## Linked Accounts section
@@ -417,6 +455,14 @@ delete-account-header =
     .title = Хисапны бетерү
 delete-account-step-1-2 = Адым 1/2
 delete-account-step-2-2 = Адым 2/2
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } мәгълүматларын синхронлау
 delete-account-continue-button = Дәвам итү
 delete-account-password-input =
     .label = Паролны кертү
