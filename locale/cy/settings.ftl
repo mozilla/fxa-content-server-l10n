@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Rhybudd
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Sylw
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Rhybudd
 authenticator-app-aria-label =
     .aria-label = Cais Dilysydd
-backup-codes-icon-aria-label =
-    .aria-label = Codau wrth gefn wedi'u galluogi
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Analluogwyd y codau wrth gefn
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Codau dilysu wrth gefn wedi'u galluogi
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Analluogwyd y codau dilysu wrth gefn
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = SMS adfer wedi'i alluogi
@@ -891,10 +898,7 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais
     symudol gennych.
-tfa-enter-code-to-confirm-1 =
-    Rhowch un o'ch codau dilysu wrth gefn nawr i cadarnhau eich
-    bod wedi ei gadw. Bydd angen cod arnoch i fewngofnodi os nad oes gennych fynediad
-    i'ch dyfais symudol.
+tfa-enter-code-to-confirm-v2 = Rhowch un o'ch codau dilysu wrth gefn newydd i gadarnhau eich bod wedi eu cadw. Bydd eich hen godau dilysu wrth gefn yn cael eu hanalluogi unwaith y bydd y cam hwn wedi'i gwblhau.
 tfa-enter-recovery-code-1 =
     .label = Rhowch god dilysu wrth gefn
 
@@ -949,6 +953,22 @@ security-set-password = Gosodwch gyfrinair i gydweddu a defnyddio rhai nodweddio
 security-recent-activity-link = Gweld gweithgaredd diweddar cyfrif
 signout-sync-header = Sesiwn wedi Dod i Ben
 signout-sync-session-expired = Ymddiheuriadau, aeth rhywbeth o'i le. Allgofnodwch o ddewislen y porwr a cheisiwch eto.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Dim codau ar gael
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } cod yn weddill
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Cael codau newydd
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Ychwanegu
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Dyma’r dull adfer mwyaf diogel os na allwch gael mynediad i’ch dyfais symudol neu ap dilysu.
 
 ## Switch component
 
@@ -1031,27 +1051,25 @@ se-secondary-email-none = Dim
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dilysu dau gam
-tfa-row-disabled-2 = Mae dilysu dau gam wedi ei analluogi
 tfa-row-enabled = Galluogwyd
-tfa-row-not-set = Heb ei Osod
+tfa-row-disabled-status = Analluogwyd
 tfa-row-action-add = Ychwanegu
 tfa-row-action-disable = Analluogi
 tfa-row-button-refresh =
     .title = Adnewyddu dilysu dau gam
 tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu dau gam.
-tfa-row-content-explain =
-    Atal rhywun arall rhag mewngofnodi trwy fynnu
-    cod unigryw dim ond chi sydd â mynediad iddo.
+tfa-row-enabled-description = Mae eich cyfrif wedi'i ddiogelu gan ddilysiad dau gam. Bydd angen i chi roi cod pas un-amser o'ch ap dilysu wrth fewngofnodi i'ch { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Helpwch i ddiogelu'ch cyfrif drwy ddefnyddio <linkExternal>ap dilysu trydydd parti</linkExternal> fel ail gam i fewngofnodi.
 tfa-row-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
 tfa-row-disable-modal-explain-1 =
     Fyddwch chi ddim yn gallu dadwneud y weithred hon.
     Mae gennych hefyd y dewis o <linkExternal>greu codau adfer wrth gefn newydd</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Mae dilysu dau gam wedi ei analluogi
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
-tfa-row-change-modal-heading-1 = Newid codau dilysu wrth gefn?
-tfa-row-change-modal-confirm = Newid
-tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

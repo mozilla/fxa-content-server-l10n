@@ -473,6 +473,7 @@ coupon-expired = Mae'n edrych fel bod y cod hyrwyddo wedi dod i ben.
 card-error = Nid oedd modd prosesu eich trafodyn. Gwiriwch fanylion eich cerdyn credyd a rhoi cynnig arall arni.
 country-currency-mismatch = Nid yw arian cyfred y tanysgrifiad hwn yn ddilys ar gyfer y wlad sy'n gysylltiedig â'ch taliad.
 currency-currency-mismatch = Ymddiheuriadau. Nid oes modd i chi newid rhwng arian cyfred.
+location-unsupported = Nid yw eich lleoliad presennol yn cael ei gefnogi yn unol â'n Telerau Gwasanaeth.
 no-subscription-change = Ymddiheuriadau. Nid oes modd i chi newid eich cynllun tanysgrifio.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Rydych eisoes wedi tanysgrifio trwy'r { $mobileAppStore }
@@ -487,6 +488,7 @@ product-profile-error =
 product-customer-error =
     .title = Anhawster llwytho cwsmer
 product-plan-not-found = Heb ganfod y cynllun
+product-location-unsupported-error = Ni chefnogir y lleoliad
 
 ## Hooks - coupons
 
