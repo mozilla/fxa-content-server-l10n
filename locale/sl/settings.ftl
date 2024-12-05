@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Opozorilo
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Pozor
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Opozorilo
 authenticator-app-aria-label =
     .aria-label = Aplikacija za overitev
-backup-codes-icon-aria-label =
-    .aria-label = Rezervne kode so omogočene
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Rezervne kode so onemogočene
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Rezervne overitvene kode so omogočene
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Rezervne overitvene kode so onemogočene
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Obnovitev z SMS omogočena
@@ -891,10 +898,7 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Shranite te rezervne overitvene kode za enkratno uporabo na varno mesto
     za primere, ko nimate mobilne naprave.
-tfa-enter-code-to-confirm-1 =
-    Vnesite eno od rezervnih overitvenih kod, da potrdite, da
-    ste si jih shranili. Kodo boste potrebovali za prijavo v primeru, da nimate dostopa
-    do svoje mobilne naprave.
+tfa-enter-code-to-confirm-v2 = Vnesite eno od novih rezervnih overitvenih kod, da potrdite, da ste jih shranili. Vaše stare rezervne overitvene kode bodo onemogočene, ko bo ta korak zaključen.
 tfa-enter-recovery-code-1 =
     .label = Vnesite rezervno overitveno kodo
 
@@ -949,6 +953,22 @@ security-set-password = Nastavite geslo za sinhronizacijo in uporabo nekaterih v
 security-recent-activity-link = Oglejte si nedavno dejavnost v računu
 signout-sync-header = Seja je potekla
 signout-sync-session-expired = Oprostite, prišlo je do napake. V meniju brskalnika se odjavite in poskusite znova.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Ni razpoložljivih kod
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } preostalih kod
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Pridobite nove kode
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Dodaj
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = To je najvarnejša metoda obnovitve, če ne morete dostopati do mobilne naprave ali aplikacije za overitev.
 
 ## Switch component
 
@@ -1033,9 +1053,8 @@ se-secondary-email-none = Brez
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Overitev v dveh korakih
-tfa-row-disabled-2 = Overitev v dveh korakih je onemogočena
 tfa-row-enabled = Omogočena
-tfa-row-not-set = Ni nastavljena
+tfa-row-disabled-status = Onemogočeno
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
 tfa-row-button-refresh =
@@ -1043,19 +1062,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Oprostite, prišlo je do težave pri osveževanju
     overitve v dveh korakih.
-tfa-row-content-explain =
-    Preprečite, da bi se v vaš račun prijavil kdo drug, z
-    zahtevanjem edinstvene kode, do katere imate dostop samo vi.
+tfa-row-enabled-description = Vaš račun je zaščiten s overjanjem v dveh korakih. Ob prijavi v svoj { -product-mozilla-account } boste morali vnesti enkratno geslo iz aplikacije za overjanje.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Pomagajte zavarovati svoj račun z uporabo <linkExternal>aplikacije za preverjanje pristnosti tretjih ponudnikov</linkExternal> kot drugega koraka pri prijavi.
 tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
 tfa-row-disable-modal-explain-1 =
     Tega dejanja ne morete razveljaviti. Imate tudi
     možnost <linkExternal>zamenjave rezervnih overitvenih kod</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Overitev v dveh korakih je onemogočena
 tfa-row-cannot-disable-2 = Overitve v dveh korakih ni bilo mogoče izključiti
-tfa-row-change-modal-heading-1 = Spremeni rezervne overitvene kode?
-tfa-row-change-modal-confirm = Spremeni
-tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

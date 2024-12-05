@@ -417,6 +417,7 @@ coupon-expired = Videti je, da je promocijska koda potekla.
 card-error = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svoji kreditni kartici in poskusite znova.
 country-currency-mismatch = Valuta te naročnine ni veljavna za državo, povezano z vašim plačilom.
 currency-currency-mismatch = Oprostite. Med valutami ne morete preklapljati.
+location-unsupported = V skladu z našimi pogoji storitve vaša trenutna lokacija ni podprta.
 no-subscription-change = Oprostite. Naročniškega paketa ni mogoče spremeniti.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Že ste naročeni preko { $mobileAppStore }.
@@ -431,6 +432,7 @@ product-profile-error =
 product-customer-error =
     .title = Napaka pri nalaganju stranke
 product-plan-not-found = Načrta ni mogoče najti
+product-location-unsupported-error = Lokacija ni podprta
 
 ## Hooks - coupons
 
