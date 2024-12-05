@@ -4,24 +4,39 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
+
+
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Ябу
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Эл. хат яңадан җибәрелде. Тартмагызга килеп җитсен өчен, { $accountsEmail } адресын контактларыгызга өстәгез.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Нидер булды. Яңа сылтаманы җибәреп булмады.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Нидер булды. Яңа кодны җибәреп булмады.
+brand-banner-dismiss-button-2 =
+    .aria-label = Баннерны ябу
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Күбрәк белү
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Баннерны ябу
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m логотибы
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+recovery-key-pdf-heading = Хисапны Коткару Ачкычы
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Төзелгән: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Хисапны Коткару Ачкычы
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Ачкычыгызны саклау өчен урыннар
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Хисапны коткару ачкычыгыз турында күбрәк белү
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -30,10 +45,26 @@ link-expired-resent-code-error-message = Нидер булды. Яңа кодн�
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Ниләрне синхронларга икәнен сайлагыз
+choose-what-to-sync-option-bookmarks =
+    .label = Кыстыргычлар
+choose-what-to-sync-option-history =
+    .label = Тарих
+choose-what-to-sync-option-passwords =
+    .label = Серсүзләр
+choose-what-to-sync-option-addons =
+    .label = Кушымчалар
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Ачык таблар
+choose-what-to-sync-option-prefs =
+    .label = Көйләүләр
+choose-what-to-sync-option-addresses =
+    .label = Адреслар
+choose-what-to-sync-option-paymentmethods =
+    .label = Түләү ысуллары
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -48,25 +79,103 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (чама белән)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (чама белән)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (чама белән)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (чама белән)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Урнашу билгесез
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName } системасында { $browserName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP адрес: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Серсүз
+
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-sr-requirements-met = Кертелгән серсүз барлык серсүз таләпләренә дә туры килә
+form-password-with-inline-criteria-sr-passwords-match = Керелгән серсүзләр бер-берсенә  туры килә.
 
 ## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Бу кыр кирәкле
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } хисабын коткару ачкычы
+get-data-trio-download-2 =
+    .title = Иңдерү
+    .aria-label = Иңдерү
+get-data-trio-copy-2 =
+    .title = Күчереп алу
+    .aria-label = Күчереп алу
+get-data-trio-print-2 =
+    .title = Бастыру
+    .aria-label = Бастыру
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Канада байрагы
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Уңышлы
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Кабызылган
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Хәбәрне ябу
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Код
+error-icon-aria-label =
+    .aria-label = Хата
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Мәгълүмат
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Америка Кушма Штатлары байрагы
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-create-header = Хисабыгызны саклагыз
+
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Серсүзне яшерү
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Серсүзне күрсәтү
-input-password-hide-aria = Серсүзне экраннан яшерү.
 
 ## LinkDamaged component
 
@@ -74,16 +183,13 @@ input-password-hide-aria = Серсүзне экраннан яшерү.
 ## LinkExpired component
 
 
-## LinkExpiredResetPassword component
-
-
-## LinkExpiredSignin component
-
-
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
+
+
+## Notification Promo Banner component
 
 
 ## PasswordInfoBalloon
@@ -93,7 +199,23 @@ input-password-hide-aria = Серсүзне экраннан яшерү.
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
 
 
 ## Alert Bar
@@ -112,8 +234,6 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title = { -brand-firefox } Bento менюсы
-bento-menu-firefox-title = { -brand-firefox } — онлайн хосусыйлыгыгыз өчен көрәшүче технологияләр.
 bento-menu-firefox-desktop = Компьютерлар өчен { -brand-firefox } браузеры
 bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-firefox } браузеры
 bento-menu-made-by-mozilla = { -brand-mozilla } тарафыннан җитештерелгән
@@ -121,7 +241,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } тарафыннан җитеш�
 ## Connect another device promo
 
 connect-another-fx-mobile = Мобиль җиһазыгызга { -brand-firefox } программасын урнаштырыгыз
-connect-another-find-fx-mobile = { -brand-firefox }-ны { -google-play }-дан һәм { -app-store }-дан  таба яисә <br /><linkExternal>җиһазыгызга йөкләү сылтамасын җибәрә аласыз.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -146,7 +265,7 @@ cs-disconnect-sync-heading = Синхронлауны өзү
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -173,15 +292,10 @@ cs-sign-out-button = Чыгу
 ## Data collection section
 
 dc-heading = Мәгълүмат туплау һәм аны куллану
-dc-subheader = { -product-firefox-accounts } эшен яхшыртырга ярдәм итегез
-dc-subheader-content = { -product-firefox-accounts } хезмәтенә техник мәгълүматларны һәм кулланылыш статистикасын { -brand-mozilla }-га җибәрергә рөхсәт итү.
-dc-opt-out-success = Баш тарту кабул ителде. { -product-firefox-accounts } { -brand-mozilla }-га техник мәгълүматларны яки кулланылыш статистикасын җибәрмәячәк.
-dc-opt-in-success = Рәхмәт! Бу мәгълүматны уртаклашу безгә { -product-firefox-accounts } эшен яхшыртырга ярдәм итә.
 dc-learn-more = Күбрәк белү
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } меню
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -202,16 +316,20 @@ flow-container-back = Кире
 ## This screen displays the generated key and allows users to download or copy the key
 
 
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Менюны ябу
 header-menu-closed = Сайт навигациясе менюсы
 header-back-to-top-link =
     .title = Сәхифә башына
-header-title = { -product-firefox-accounts }
 header-help = Ярдәм
 
 ## Linked Accounts section
@@ -320,18 +438,10 @@ cancel-display-name = Баш тарту
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
-
-# Account recovery key setup page
-
-recovery-key-cancel-button = Баш тарту
-recovery-key-close-button = Ябу
-recovery-key-continue-button = Дәвам итү
-recovery-key-enter-password =
-    .label = Паролны кертү
-recovery-key-step-1 = Адым 1/2
-recovery-key-step-2 = Адым 2/2
 
 ## PageRecoveryKeyCreate
 
@@ -380,6 +490,9 @@ tfa-button-cant-scan-qr = Кодны сканерлый алмыйсызмы?
 tfa-enter-secret-key = Бу яшерен ачкычны аутентификация кушымтагызга кертегез:
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -498,6 +611,12 @@ auth-error-1008 = Яңа парол иске паролдан үзгә булы�
 ## Users will see this page if they have local storage or cookies disabled.
 
 
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -555,6 +674,11 @@ auth-error-1008 = Яңа парол иске паролдан үзгә булы�
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -562,26 +686,39 @@ auth-error-1008 = Яңа парол иске паролдан үзгә булы�
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
 
-## ResetPassword page
+## PasswordResetConfirmTotp Page
+
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component
 
 
-## ConfirmSignin component
-
-
 ## Signin page
+
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
 
 
 ## SigninRecoveryCode page
@@ -603,9 +740,8 @@ auth-error-1008 = Яңа парол иске паролдан үзгә булы�
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
 
 ## ConfirmSignupCode page

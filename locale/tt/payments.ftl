@@ -3,38 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Firefox Хисап язмалары
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Хисапның баш бите
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -58,11 +30,11 @@ input-error-is-required = { $label } кирәк
 
 ## Component - Header
 
-brand-name-firefox-logo = { -brand-name-firefox } логотибы
+brand-name-mozilla-logo = { -brand-mozilla } логотибы
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link = { -brand-name-firefox } хисабыгыз бармы инде? <a>Керү</a>
+new-user-sign-in-link-2 = { -product-mozilla-account } хисабыгыз бармы инде? <a>Керү</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -70,7 +42,8 @@ new-user-enter-email =
     .label = Эл. почтагызны кертегез
 new-user-confirm-email =
     .label = Эл. почтагызны раслагыз
-new-user-subscribe-product-updates = Мин { -brand-name-firefox } җибәргән яңалыклардан хәбәрдар булырга телим.
+new-user-subscribe-product-updates-mozilla = Мин { -brand-mozilla } җибәргән яңалыклардан хәбәрдар булырга телим
+new-user-subscribe-product-updates-snp = Мин { -brand-mozilla } җибәргән куркынычсызлык һәм хосусыйлык яңалыкларыннан һәм яңартулардан хәбәрдар булырга телим
 new-user-email-validate = Эл. почта адресы яраклы түгел
 new-user-email-validate-confirm = Эл. почта адреслары бер-берсенә туры килми
 new-user-already-has-account-sign-in = Сезнең хисабыгыз бар инде. <a>Керү</a>
@@ -81,6 +54,8 @@ payment-confirmation-thanks-heading = Рәхмәт!
 payment-confirmation-thanks-heading-account-exists = Рәхмәт, ә хәзер эл. почтагызны тикшерегез!
 payment-confirmation-order-heading = Заказ нечкәлекләре
 payment-confirmation-invoice-number = Квитанция №{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Түләү турындагы мәгълүмат
 payment-confirmation-amount = { $amount } / { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -135,16 +110,10 @@ payment-cc =
 payment-cancel-btn = Баш тарту
 payment-update-btn = Яңарту
 payment-pay-btn = Хәзер үк түләү
-payment-pay-with-paypal-btn = { -brand-name-paypal } белән түләү
 payment-validate-name-error = Зинһар, исемегезне кертегез
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } һәм { -brand-name-paypal } куллана.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-ның хосусыйлык сәясәте</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-ның хосусыйлык сәясәте</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } хосусыйлык сәясәте</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } хосусыйлык сәясәте</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -160,6 +129,10 @@ payment-processing-message = Сезнең түләү эшкәртелә. Зин�
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамланучы карта
+
+## Component - PayPalButton
+
+pay-with-heading-paypal-2 = { -brand-paypal } белән түләү
 
 ## Component - PlanDetails
 
@@ -240,7 +213,6 @@ product-plan-not-found = План табылмады
 
 ## Routes - Checkout - New user
 
-new-user-step-1 = 1. { -brand-name-firefox } хисабын булдырыгыз
 new-user-card-title = Кредит картагызның язуларын кертегез
 new-user-submit = Хәзер үк язылу
 
@@ -248,9 +220,9 @@ new-user-submit = Хәзер үк язылу
 
 sub-update-payment-title = Түләү турында мәгълүмат
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Яки карта белән түләү
 pay-with-heading-card-only = Карта белән түләү
 
 ## Routes - Product - IapRoadblock
@@ -259,9 +231,8 @@ pay-with-heading-card-only = Карта белән түләү
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -271,6 +242,15 @@ sub-change-submit = Үзгәртүне раслау
 sub-update-current-plan-label = Хәзерге план
 sub-update-new-plan-label = Яңа план
 sub-update-total-label = Яңа сумма
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -287,7 +267,6 @@ sub-route-idx-reactivating = Язылуны яңадан активләштер�
 sub-route-idx-cancel-failed = Язылудан баш тарту уңышсыз тәмамланды
 sub-route-idx-contact = Ярдәм хезмәтенә мөрәҗәгать итү
 sub-route-idx-cancel-msg-title = Сезнең белән саубуллашу кызганыч
-sub-route-idx-cancel-aside = Сорауларыгыз бармы? <a>{ -brand-name-mozilla } Ярдәм</a> битен зыярат итегез
 
 ## Routes - Subscriptions - Errors
 
@@ -320,10 +299,11 @@ sub-route-missing-billing-agreement-payment-alert = Яраксыз түләү м
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Әлеге язылу өчен андый план юк.
+invoice-not-found = Киләсе квитанция табылмады
+sub-item-no-such-subsequent-invoice = Бу язылу өчен киләсе квитанция табылмады.
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = { -brand-name-pocket } премиум абунәгезне эзлисезме?
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -338,6 +318,4 @@ reactivate-success-button = Ябу
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: Кушымта эчендә сатып алу
-sub-iap-item-apple-purchase = { -brand-name-apple }: Кушымта эчендә сатып алу
 sub-iap-item-manage-button = Идарә итү
