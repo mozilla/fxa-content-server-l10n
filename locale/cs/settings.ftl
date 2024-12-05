@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Upozornění
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Upozornění
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Varování
 authenticator-app-aria-label =
     .aria-label = Aplikace Authenticator
-backup-codes-icon-aria-label =
-    .aria-label = Záložní kódy povoleny
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Záložní kódy jsou zakázány
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Záložní ověřovací kódy povoleny
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Záložní ověřovací kódy jsou zakázány
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Obnovovací SMS povoleny
@@ -891,9 +898,7 @@ tfa-enter-totp-v2 = Nyní zadejte ověřovací kód z ověřovací aplikace.
 tfa-input-enter-totp-v2 =
     .label = Zadejte ověřovací kód
 tfa-save-these-codes-1 = Tyto jednorázové záložní ověřovací kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
-tfa-enter-code-to-confirm-1 =
-    Nyní prosím zadejte jeden ze svých záložních ověřovacích kódů a
-    potvrďte, že jste je uložili. Pokud nebudete mít přístup ke svému účtu, budete k přihlášení potřebovat tento kód.
+tfa-enter-code-to-confirm-v2 = Zadejte prosím jeden z vašich nových záložních ověřovacích kódů jako potvrzení uložení. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
 tfa-enter-recovery-code-1 =
     .label = Vložte záložní ověřovací kód
 
@@ -948,6 +953,22 @@ security-set-password = Pro synchronizaci a některé bezpečnostní funkce vaš
 security-recent-activity-link = Zobrazit nedávnou aktivitu u účtu
 signout-sync-header = Relace vypršela
 signout-sync-session-expired = Omlouváme se, něco se pokazilo. Odhlaste se prosím z nabídky prohlížeče a zkuste to znovu.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Žádné kódy nejsou k dispozici
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Zbývá { $numCodesAvailable } kódů
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Získat nové kódy
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Přidat
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Toto je nejbezpečnější způsob obnovení, pokud nemůžete přistupovat k svému mobilnímu zařízení nebo aplikaci pro ověřování.
 
 ## Switch component
 
@@ -1028,25 +1049,25 @@ se-secondary-email-none = Žádná
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvoufázové ověřování
-tfa-row-disabled-2 = Dvoufázové ověřování je vypnuto
 tfa-row-enabled = Povoleno
-tfa-row-not-set = Nenastaveno
+tfa-row-disabled-status = Zakázáno
 tfa-row-action-add = Přidat
 tfa-row-action-disable = Vypnout
 tfa-row-button-refresh =
     .title = Obnovit nastavení dvoufázového ověřování
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
-tfa-row-content-explain = Zabraňte cizím lidem v přístupu k vašemu účtu vyžadováním unikátního kódu, který můžete zadat jenom vy.
+tfa-row-enabled-description = Váš účet je chráněn pomocí dvoufázového ověřování. Při přihlašování ke svému { -product-mozilla-account(case: "dat") } budete muset zadat jednorázové heslo z vaší ověřovací aplikace.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Pomozte zabezpečit svůj účet pomocí <linkExternal>ověřovací aplikace</linkExternal> jako druhého kroku pro přihlášení.
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
 tfa-row-disable-modal-explain-1 =
     Tuto akci nelze vzít zpět. Máte také možnost
     <linkExternal>své záložní ověřovací kódy vyměnit</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Dvoufázové ověřování je vypnuto
 tfa-row-cannot-disable-2 = Dvoufázové ověřování se nepodařilo vypnout
-tfa-row-change-modal-heading-1 = Chcete změnit záložní ověřovací kódy?
-tfa-row-change-modal-confirm = Změnit
-tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
