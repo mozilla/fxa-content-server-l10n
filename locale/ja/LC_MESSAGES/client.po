@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 20:09+0000\n"
+"POT-Creation-Date: 2024-12-05 20:09+0000\n"
 "PO-Revision-Date: 2024-08-14 11:40+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -29,7 +29,7 @@ msgstr "パスワードのリセットが完了しました。続けるにはロ
 msgid "Sign in"
 msgstr "ログイン"
 
-#: .es5/views/index.js:152
+#: .es5/views/index.js:154
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
@@ -1063,7 +1063,7 @@ msgstr "コードの有効期限が切れていますか？"
 msgid "Email new code."
 msgstr "新しいコードをメールに送信する。"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:7 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "他の端末を接続"
 
@@ -1248,7 +1248,7 @@ msgid "Print"
 msgstr "印刷"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:15
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:17
 msgid "Continue"
 msgstr "続ける"
 
@@ -2022,55 +2022,59 @@ msgstr ""
 msgid "Signed in successfully!"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:7
+#: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
 msgstr "Firefox の使用環境を同期する"
 
-#: .es5/templates/pair/index.mustache:8
+#: .es5/templates/pair/index.mustache:9
 msgid "Download Firefox for mobile"
 msgstr "モバイル版 Firefox をダウンロード"
 
-#: .es5/templates/pair/index.mustache:10
+#: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
 msgstr "保存したパスワード、タブ、閲覧履歴などをすべての端末で表示できます。"
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:12
+msgid "Select an option to continue:"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
 msgstr "モバイル版 Firefox をすでに持っています"
 
-#: .es5/templates/pair/index.mustache:12
+#: .es5/templates/pair/index.mustache:14
 msgid "Start your sync now if you already have Firefox on your mobile device."
 msgstr "携帯端末に Firefox がすでにインストールされている場合は、今すぐ同期を開始してください。"
 
-#: .es5/templates/pair/index.mustache:13
+#: .es5/templates/pair/index.mustache:15
 msgid "I don’t have Firefox for mobile"
 msgstr "モバイル版 Firefox を持っていません"
 
-#: .es5/templates/pair/index.mustache:14
+#: .es5/templates/pair/index.mustache:16
 msgid "Download Firefox on your mobile device, then start your sync."
 msgstr "端末に Firefox をダウンロードして、同期を開始しましょう。"
 
-#: .es5/templates/pair/index.mustache:16 .es5/templates/pair/index.mustache:22
+#: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"
 msgstr "後で"
 
-#: .es5/templates/pair/index.mustache:17
+#: .es5/templates/pair/index.mustache:19
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
 msgstr "スマートフォンまたはタブレットで Firefox を同期するには、まずモバイル版 Firefox をダウンロードする必要があります。次の方法で同期してください:"
 
-#: .es5/templates/pair/index.mustache:18
+#: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
 msgstr "<b>ステップ 1</b>: 携帯端末のカメラで次の QR コードをスキャンして Firefox をダウンロードします:"
 
-#: .es5/templates/pair/index.mustache:19
+#: .es5/templates/pair/index.mustache:21
 msgid "QR code (located in the middle of the screen)"
 msgstr "QRコード (画面中央にあります)"
 
-#: .es5/templates/pair/index.mustache:20
+#: .es5/templates/pair/index.mustache:22
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
 msgstr "<b>ステップ 2</b>: [同期を続ける] を選択してモバイル端末上の Firefox データを同期します。"
 
-#: .es5/templates/pair/index.mustache:21
+#: .es5/templates/pair/index.mustache:23
 msgid "Continue to sync"
 msgstr "同期を続ける"
 
