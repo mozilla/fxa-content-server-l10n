@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Figyelmeztetés
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Figyelem
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Figyelmeztetés
 authenticator-app-aria-label =
     .aria-label = Hitelesítő alkalmazás
-backup-codes-icon-aria-label =
-    .aria-label = Biztonsági kódok engedélyezve
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Biztonsági kódok letiltva
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Tartalék hitelesítési kódok engedélyezve
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = A tartalék hitelesítési kódok letiltva
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Helyreállító SMS engedélyezve
@@ -895,10 +902,7 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
-tfa-enter-code-to-confirm-1 =
-    Adja meg az egyik tartalék hitelesítési kódot most,
-    hogy megerősítse, hogy elmentette. Szüksége lesz egy kódra a bejelentkezéshez,
-    ha nem fér hozzá a mobileszközéhez.
+tfa-enter-code-to-confirm-v2 = Adja meg az egyik új tartalék hitelesítési kódot, hogy megerősítse, hogy elmentette azokat. A lépés befejeztével a régi tartalék hitelesítési kódok letiltásra kerülnek.
 tfa-enter-recovery-code-1 =
     .label = Adjon meg egy tartalék hitelesítési kódot
 
@@ -953,6 +957,22 @@ security-set-password = Állítson be jelszót a szinkronizáláshoz és bizonyo
 security-recent-activity-link = Legutóbbi fióktevékenységek megtekintése
 signout-sync-header = A munkamenet lejárt
 signout-sync-session-expired = Elnézést, hiba történt. Jelentkezzen ki a böngésző menüjéből, és próbálja újra.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nem érhetők el kódok
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } kód maradt
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Új kódok beszerzése
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Hozzáadás
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Ez a legbiztonságosabb helyreállítási módszer, ha nem éri el a mobileszközét vagy a hitelesítő alkalmazást.
 
 ## Switch component
 
@@ -1037,9 +1057,8 @@ se-secondary-email-none = Nincs
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kétlépcsős hitelesítés
-tfa-row-disabled-2 = Kétlépcsős hitelesítés letiltva
 tfa-row-enabled = Engedélyezve
-tfa-row-not-set = Nincs beállítva
+tfa-row-disabled-status = Tiltva
 tfa-row-action-add = Hozzáadás
 tfa-row-action-disable = Letiltás
 tfa-row-button-refresh =
@@ -1047,19 +1066,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Sajnos probléma merült fel a kétlépéses hitelesítés
     frissítésekor.
-tfa-row-content-explain =
-    Akadályozza meg, hogy valaki más lépjen be, követeljen meg
-    egy egyedi kódot, amelyhez csak Ön fér hozzá.
+tfa-row-enabled-description = Fiókját kétlépcsős hitelesítés védi. Meg kell adnia egy egyszer használatos jelkódot a hitelesítő alkalmazásból, amikor bejelentkezik a { -product-mozilla-account }jába.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Segítsen biztonságban tartani fiókját azzal, hogy a bejelentkezés második lépéseként használ egy <linkExternal>harmadik féltől származó hitelesítő alkalmazást</linkExternal>.
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
 tfa-row-disable-modal-explain-1 =
     Ezt a műveletet nem fogja tudni visszavonni. Arra is van
     lehetősége, hogy <linkExternal>lecserélje a tartalék hitelesítési kódjait</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Kétlépcsős hitelesítés letiltva
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
-tfa-row-change-modal-heading-1 = Lecseréli a tartalék hitelesítési kódokat?
-tfa-row-change-modal-confirm = Módosítás
-tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -361,6 +361,7 @@ coupon-expired = Úgy tűnik, hogy a promóciós kód lejárt.
 card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatait, és próbálja újra.
 country-currency-mismatch = Az előfizetés pénzneme nem érvényes a fizetéséhez társított országban.
 currency-currency-mismatch = Sajnáljuk. Nem válthat a pénznemek között.
+location-unsupported = A jelenlegi tartózkodási helye a Szolgáltatási feltételeink szerint nem támogatott.
 no-subscription-change = Sajnáljuk. Nem módosíthatja az előfizetési csomagot.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Már előfizetett a(z) { $mobileAppStore } oldalon.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Probléma az ügyfél betöltésekor
 product-plan-not-found = Az előfizetés nem található
+product-location-unsupported-error = A hely nem támogatott
 
 ## Hooks - coupons
 
