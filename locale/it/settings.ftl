@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Avviso
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Attenzione
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Attenzione
 authenticator-app-aria-label =
     .aria-label = Applicazione di autenticazione
-backup-codes-icon-aria-label =
-    .aria-label = Codici di backup attivati
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Codici di backup disattivati
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Codici di autenticazione di backup attivati
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Codici di autenticazione di backup disattivati
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = SMS di recupero attivato
@@ -884,10 +891,7 @@ tfa-enter-totp-v2 = Ora inserisci il codice di autenticazione dall’app di aute
 tfa-input-enter-totp-v2 =
     .label = Inserisci il codice di autenticazione
 tfa-save-these-codes-1 = Conserva questi codici di autenticazione di backup monouso in un posto sicuro e usali quando non hai a disposizione il tuo dispositivo mobile.
-tfa-enter-code-to-confirm-1 =
-    Inserisci ora uno dei tuoi codici di autenticazione di backup per
-    confermare di averlo salvato. Avrai bisogno di un codice per accedere se non hai a disposizione il tuo
-    dispositivo mobile.
+tfa-enter-code-to-confirm-v2 = Inserire uno dei nuovi codici di autenticazione di backup per confermare di averli salvati. I vecchi codici di autenticazione di backup verranno disattivati al termine di questo passaggio.
 tfa-enter-recovery-code-1 =
     .label = Digita un codice di autenticazione di backup
 
@@ -942,6 +946,22 @@ security-set-password = Imposta una password per sincronizzare e utilizzare spec
 security-recent-activity-link = Visualizza l’attività recente dell’account
 signout-sync-header = Sessione scaduta
 signout-sync-session-expired = Si è verificato un errore. Disconnettiti dal menu del browser e riprova.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nessun codice disponibile
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } codici rimanenti
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Ottieni nuovi codici
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Aggiungi
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Questo è il metodo di recupero più sicuro se non riesci ad accedere al tuo dispositivo mobile o all’app di autenticazione.
 
 ## Switch component
 
@@ -1020,25 +1040,25 @@ se-secondary-email-none = Nessuna
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticazione in due passaggi
-tfa-row-disabled-2 = Autenticazione in due passaggi disattivata
 tfa-row-enabled = Attiva
-tfa-row-not-set = Non impostata
+tfa-row-disabled-status = Disattivato
 tfa-row-action-add = Aggiungi
 tfa-row-action-disable = Disattiva
 tfa-row-button-refresh =
     .title = Ripristina l’autenticazione in due passaggi
 tfa-row-cannot-refresh = Si è verificato un problema durante l’aggiornamento dell’autenticazione in due passaggi.
-tfa-row-content-explain = Impedisci a terzi di accedere al tuo account richiedendo a ogni accesso un codice univoco che conosci solo tu.
+tfa-row-enabled-description = Il tuo account è protetto dall’autenticazione in due passaggi. Quando accedi al tuo { -product-mozilla-account } dovrai inserire un codice monouso dall’app di autenticazione.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Proteggi il tuo account utilizzando un’<linkExternal>app di autenticazione di terze parti</linkExternal> come secondo passaggio per accedere.
 tfa-row-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
 tfa-row-disable-modal-heading = Disattivare l’autenticazione in due passaggi?
 tfa-row-disable-modal-confirm = Disattiva
 tfa-row-disable-modal-explain-1 =
     Questa azione è irreversibile.
     In alternativa, puoi <linkExternal>sostituire i codici di autenticazione di backup</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Autenticazione in due passaggi disattivata
 tfa-row-cannot-disable-2 = Impossibile disattivare l’autenticazione in due passaggi.
-tfa-row-change-modal-heading-1 = Modificare i codici di autenticazione di backup?
-tfa-row-change-modal-confirm = Cambia
-tfa-row-change-modal-explain = Questa azione è irreversibile.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
