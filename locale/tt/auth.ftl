@@ -56,6 +56,22 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName }-ны { -app-store }-дан йөкләп алу">
 # Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = { $productName } кушымтасын <a data-l10n-name="anotherDeviceLink"> башка компьютерга</a> урнаштырыгыз.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = { $productName } кушымтасын <a data-l10n-name="anotherDeviceLink">башка җиһазга</a> урнаштырыгыз.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = { $productName } кушымтасын Google Play-дан алу:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = { $productName } кушымтасын App Store-дан иңдерү:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = { $productName } кушымтасын башка җиһазга урнаштыру:
+automated-email-change-2 = Әгәр дә бу гамәлне Сез эшләмәгән булсагыз, хәзер үк <a data-l10n-name="passwordChangeLink">серсүзегезне үзгәртегез</a>.
+# Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Серсүзегезне үзгәртмәгән булсагыз, зинһар хәзер үк { $resetLink } битендә яңа серсүз куегыз
 cancellationSurvey = Хезмәтләребезне яхшыртырга ярдәм итү өчен зинһар бу <a data-l10n-name="cancellationSurveyUrl">кыска сораулыкка</a> җавап бирүегезне сорыйбыз.

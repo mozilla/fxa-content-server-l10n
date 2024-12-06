@@ -41,6 +41,9 @@ recovery-key-pdf-support = Хисапны коткару ачкычыгыз ту
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Яңа продуктларны иртәрәк сынап карау мөмкинлеге
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -104,6 +107,13 @@ device-info-ip-address = IP адрес: { $ipAddress }
 
 signup-new-password-label =
     .label = Серсүз
+signup-confirm-password-label =
+    .label = Серсүзне кабатлагыз
+signup-submit-button = Хисап язмасы булдыру
+form-reset-password-with-balloon-new-password =
+    .label = Яңа серсүз
+form-reset-password-with-balloon-confirm-password =
+    .label = Серсүзне янәдән кертегез
 
 ## FormPasswordInlineCriteria
 
@@ -561,6 +571,9 @@ profile-primary-email =
 
 security-heading = Хәвефсезлек
 
+## Settings sub row
+
+
 ## Switch component
 
 # Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
@@ -610,7 +623,6 @@ se-secondary-email-none = Бернинди дә
 
 tfa-row-header = Ике адымлы аутентификация
 tfa-row-enabled = Кабызылган
-tfa-row-not-set = Көйләнмәгән
 tfa-row-action-add = Өстәү
 tfa-row-action-disable = Cүндерү
 tfa-row-button-refresh =
@@ -620,8 +632,6 @@ tfa-row-cannot-refresh =
     хата килеп чыкты.
 tfa-row-disable-modal-heading = Ике адымлы аутентификация сүндерелсенме?
 tfa-row-disable-modal-confirm = Cүндерү
-tfa-row-change-modal-confirm = Үзгәртү
-tfa-row-change-modal-explain = Бу гамәлне кире кайтара алмаячаксыз.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
