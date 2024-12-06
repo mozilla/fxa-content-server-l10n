@@ -375,6 +375,7 @@ product-profile-error =
 product-customer-error =
     .title = Apañuái emyanyhẽvo ñemuhára
 product-plan-not-found = Ndojejuhúi tembiaporã
+product-location-unsupported-error = Tendatee oñepytyvõ’ỹva
 
 ## Hooks - coupons
 

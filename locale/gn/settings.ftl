@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Oñemondo mba’eñemi ne ñanduti vevépe.
+resend-link-success-banner-heading = Oñemondo juajuha ne ñanduti vevépe.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
