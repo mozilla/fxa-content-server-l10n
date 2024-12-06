@@ -205,6 +205,7 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Kyhyjerã
 # Used to  indicate a general checkmark, as in something checked off in a list!
@@ -864,10 +865,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Eñongatu ko’ã ayvu ñemoneĩrã ijeporu peteĩva tenda hekorosãvévape
     ndereguerekói jave ne pumbyry jeheguáva.
-tfa-enter-code-to-confirm-1 =
-    Ikatúpa, emoinge peteĩva ayvu jeguerujeyrã jeykekoha
-    emoneĩ hag̃ua eñongatuva’ekue. Eikotevẽta peteĩ ayvu eike hag̃ua ndaikatúitaramo eike
-    ne pumbyry rupive.
 tfa-enter-recovery-code-1 =
     .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
@@ -922,6 +919,12 @@ security-set-password = Emoĩ ñe’ẽñemi embojuehe hag̃ua ha eiporu peteĩv
 security-recent-activity-link = Ejecha mba’ete rembiapo ramoguavéva
 signout-sync-header = Jeikerã opámava
 signout-sync-session-expired = Oĩ ndoikoporãiva. Emboty tembiapo kundahára poravorãme ha ag̃amieve eha’ã jey.
+
+## Settings sub row
+
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Mbojuaju
 
 ## Switch component
 
@@ -1006,9 +1009,7 @@ se-secondary-email-none = Avave
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ñemoneĩ mokõi jeku’épe
-tfa-row-disabled-2 = Ojepe’áma ñemoneĩ mokõi jeku’egua
 tfa-row-enabled = Myandypyre
-tfa-row-not-set = Noñembohekóiva
 tfa-row-action-add = Mbojuaju
 tfa-row-action-disable = Pe’a
 tfa-row-button-refresh =
@@ -1016,19 +1017,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Rombyasy, oiko apañuái embopyahúvo ñemoneĩ
     mokõi jeku’egua.
-tfa-row-content-explain =
-    Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
-    ayvu peteĩva ndénte eiporukuaáva.
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuái guasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain-1 =
     Nerembojevymo’ãi ko tembiapo. Nde avei
     eguereko poravopyrã <linkExternal>emyengovia nde ayvu guerujeyrã jeykekoguáva </linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Ojepe’áma ñemoneĩ mokõi jeku’egua
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
-tfa-row-change-modal-heading-1 = ¿Emoambue umi ayvu ñemoneĩrã jeykekoha?
-tfa-row-change-modal-confirm = Moambue
-tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
