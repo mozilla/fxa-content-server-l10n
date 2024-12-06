@@ -200,14 +200,14 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = התרעה
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = לתשומת ליבך
 authenticator-app-aria-label =
     .aria-label = יישום מאמת
-backup-codes-icon-aria-label =
-    .aria-label = קודי גיבוי מופעלים
-backup-codes-disabled-icon-aria-label =
-    .aria-label = קודי גיבוי מושבתים
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = הודעת SMS לשחזור מופעלת
@@ -902,6 +902,9 @@ security-recent-activity-link = הצגת פעילות אחרונה בחשבון
 signout-sync-header = פג תוקף ההפעלה
 signout-sync-session-expired = משהו השתמש, עמך הסליחה. נא להתנתק מתפריט הדפדפן ולנסות שוב.
 
+## Settings sub row
+
+
 ## Switch component
 
 # Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
@@ -979,21 +982,18 @@ se-secondary-email-none = ללא
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = אימות דו־שלבי
-tfa-row-disabled-2 = אימות דו־שלבי הושבת
 tfa-row-enabled = מופעל
-tfa-row-not-set = לא מוגדר
 tfa-row-action-add = הוספה
 tfa-row-action-disable = השבתה
 tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
-tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצעות דרישת קוד ייחודי שרק לך יש גישה אליו.
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = אימות דו־שלבי הושבת
 tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
-tfa-row-change-modal-confirm = שינוי
-tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

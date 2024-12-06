@@ -29,14 +29,10 @@ input-error-is-required = ‏{ $label } נדרש
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = הלוגו של { -brand-name-firefox }
 brand-name-mozilla-logo = הסמל של { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = כבר יש לך חשבון { -brand-name-firefox }? <a>כניסה</a>
 new-user-sign-in-link-2 = כבר יש לך חשבון { -product-mozilla-account }? <a>כניסה</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -383,6 +379,7 @@ instant-payouts-unsupported = נראה כי כרטיס החיוב שלך לא מ
 card-error = לא ניתן היה לעבד את העסקה שלך. נא לאמת את פרטי כרטיס האשראי שלך ולנסות שוב.
 country-currency-mismatch = המטבע של מינוי זה אינו תקף למדינה המשויכת לתשלום שלך.
 currency-currency-mismatch = מצטערים. אין לך אפשרות לעבור בין מטבעות.
+location-unsupported = המיקום הנוכחי שלך אינו נתמך בהתאם לתנאי השירות שלנו.
 no-subscription-change = מצטערים. אין לך אפשרות לשנות את תוכנית המינוי שלך.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = כבר קיים לך מינוי דרך { $mobileAppStore }.
@@ -397,6 +394,7 @@ product-profile-error =
 product-customer-error =
     .title = בעיה בטעינת לקוח
 product-plan-not-found = תוכנית לא נמצאה
+product-location-unsupported-error = המיקום אינו נתמך
 
 ## Hooks - coupons
 
