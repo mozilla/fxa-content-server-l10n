@@ -954,7 +954,11 @@ signout-sync-session-expired = Si è verificato un errore. Disconnettiti dal men
 tfa-row-backup-codes-not-available = Nessun codice disponibile
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } codici rimanenti
+tfa-row-backup-codes-available =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } codice rimanente
+       *[other] { $numCodesAvailable } codici rimanenti
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Ottieni nuovi codici
 # Shown to users who have no backup authentication codes
@@ -1041,7 +1045,7 @@ se-secondary-email-none = Nessuna
 
 tfa-row-header = Autenticazione in due passaggi
 tfa-row-enabled = Attiva
-tfa-row-disabled-status = Disattivato
+tfa-row-disabled-status = Disattivata
 tfa-row-action-add = Aggiungi
 tfa-row-action-disable = Disattiva
 tfa-row-button-refresh =
