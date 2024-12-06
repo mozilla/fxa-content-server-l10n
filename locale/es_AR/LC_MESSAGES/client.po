@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-05 21:50+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-12-06 05:14+0000\n"
+"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -2020,7 +2020,7 @@ msgstr "Mirá tus contraseñas guardadas, pestañas, historial de navegación y 
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr "Selecciona una opción para continuar:"
+msgstr "Seleccioná una opción para continuar:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
