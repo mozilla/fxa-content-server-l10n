@@ -364,9 +364,21 @@ verifyLoginCode-subject-line-2 = { $serviceName } хезмәтенә керүн�
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } хезмәтенә кердегезме?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Керүегезне раслап, хисабыгызның куркынычсызлыгын сакларга ярдәм итегез:
+verifyLoginCode-prompt-3 = Әйе булса, авторизация кодыгыз менә бу:
 verifyLoginCode-expiry-notice = Кодның яраклылык вакыты 5 минут.
+verifyPrimary-title-2 = Беренчел эл. почтагызны раслагыз
 verifyPrimary-description = Түбәндәге җиһаздан хисапны үзгәртүгә үтенеч керде:
 verifyPrimary-subject = Төп эл. почтаны раслау
+verifyPrimary-action-2 = Эл. почтагызны раслагыз
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Расланганнан соң, икенчел эл. почта адресын өстәү кебек хисапка үзгәрешләр кертү бу җиһаздан мөмкин булачак.
 verifySecondaryCode-subject = Икенчел эл. почтаны раслау
+verifySecondaryCode-title-2 = Икенчел эл. почтагызны раслагыз
+verifySecondaryCode-action-2 = Эл. почтагызны раслагыз
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Хисабыгызны раслагыз
 verifyShortCode-prompt-3 = Бу раслау кодын куллану:
 verifyShortCode-expiry-notice = Кодның яраклылык вакыты 5 минут.

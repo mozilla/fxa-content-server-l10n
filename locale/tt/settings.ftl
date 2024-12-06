@@ -124,6 +124,18 @@ form-password-sr-passwords-match = Кертелгән серсүзләр бер-
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Серсүз
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Серсүзне кабатлагыз
+form-password-with-inline-criteria-signup-submit-button = Хисап язмасы булдыру
+form-password-with-inline-criteria-reset-new-password =
+    .label = Яңа серсүз
+form-password-with-inline-criteria-confirm-password =
+    .label = Серсүзне раслау
+form-password-with-inline-criteria-reset-submit-button = Яңа серсүз булдыру
+form-password-with-inline-criteria-match-error = Серсүзләр туры килми
+form-password-with-inline-criteria-sr-too-short-message = Серсүз кимендә 8 билге булырга тиеш.
 form-password-with-inline-criteria-sr-requirements-met = Кертелгән серсүз барлык серсүз таләпләренә дә туры килә
 form-password-with-inline-criteria-sr-passwords-match = Керелгән серсүзләр бер-берсенә  туры килә.
 
