@@ -689,14 +689,31 @@ auth-error-183-2 = Яраксыз яки вакыты чыккан раслау 
 auth-error-999 = Көтелмәгән хата
 auth-error-1001 = Керергә тырышудан баш тартылды
 auth-error-1002 = Сессиянең мөддәте бетте. Дәвам итү өчен керегез.
+auth-error-1003 = Җирле саклагыч яки кукилар әле дә сүндерелгән
 auth-error-1008 = Яңа парол иске паролдан үзгә булырга тиеш
+auth-error-1010 = Дөрес cерсүз кирәк
+auth-error-1011 = Дөрес эл. почта адресы кирәк
+auth-error-1031 = Теркәлү өчен, яшегезне күрсәтүегез кирәк
+auth-error-1032 = Теркәлү өчен, дөрес яшьне күрсәтүегез кирәк
+auth-error-1062 = Яраксыз юнәлтү
+oauth-error-1000 = Нидер булды. Бу табны ябып, зинһар янәдән тырышып карагыз.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Хисап ясый алмыйм
+cannot-create-account-requirements-2 = { -product-mozilla-account } булдыру өчен билгеле бер яшьтән өлкәнрәк булуыгыз кирәк.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Күбрәк белү
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Сез { -brand-firefox } эченә кердегез
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Эл. почта расланды
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Керү расланды
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
