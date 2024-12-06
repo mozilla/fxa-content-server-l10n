@@ -887,6 +887,7 @@ tfa-enter-totp-v2 = 現在請輸入驗證應用程式當中的驗證碼。
 tfa-input-enter-totp-v2 =
     .label = 輸入驗證碼
 tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
+tfa-enter-code-to-confirm-v2 = 請輸入您的任一組備用驗證碼，以確認您已安全地儲存它們。完成本階段之後，將停用您舊的備用驗證碼。
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
@@ -955,6 +956,8 @@ tfa-row-backup-codes-get-new-cta = 產生新備用驗證碼
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = 新增
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = 當您無法再使用您的行動裝置或驗證程式時，這是最安全的救援方法。
 
 ## Switch component
 
@@ -1034,11 +1037,15 @@ se-secondary-email-none = 無
 
 tfa-row-header = 兩階段驗證
 tfa-row-enabled = 啟用
+tfa-row-disabled-status = 已停用
 tfa-row-action-add = 新增
 tfa-row-action-disable = 停用
 tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
+tfa-row-enabled-description = 已開啟兩階段驗證保護您的帳號。登入 { -product-mozilla-account }時，需要輸入驗證器程式當中產生的一組驗證碼。
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = 您可以使用<linkExternal>第三方驗證器程式</linkExternal>進行第二階段登入，來保護您的帳號安全。
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
