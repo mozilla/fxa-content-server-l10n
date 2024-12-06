@@ -959,7 +959,7 @@ tfa-row-backup-codes-get-new-cta = 获取新验证码
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = 添加
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = 在无法使用移动设备或验证器应用时，这是最安全的恢复方法。
+tfa-row-backup-codes-description = 在无法使用移动设备或身份验证器应用时，这是最安全的恢复方法。
 
 ## Switch component
 
@@ -1045,6 +1045,7 @@ tfa-row-action-disable = 禁用
 tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
+tfa-row-enabled-description = 您的账户受两步验证保护。登录 { -product-mozilla-account }时，您将需要输入身份验证器应用中的一次性密码。
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
