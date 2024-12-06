@@ -212,6 +212,27 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Kyhyjerã
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Ema’ẽmi
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Kyhyjerã
+authenticator-app-aria-label =
+    .aria-label = Ñemoñeĩha ñemboguata
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Ayvu ñemoneĩrã jeykekoha jurujapyre
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Ayvu ñemoneĩrã jeykekoha pe’apyre
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS guerujeyrã jurujapyre
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS guerujeyrã pe’apyre
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Canadá Poyvi
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
     .aria-label = Mongurusu
@@ -307,6 +328,8 @@ reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Ereko juajuha pyahu
 
 ## LinkRememberPassword component
 
@@ -926,6 +949,14 @@ signout-sync-session-expired = Oĩ ndoikoporãiva. Emboty tembiapo kundahára po
 
 ## Settings sub row
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Ndaipóri mba’eñemi porupyrã
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } mba’eñemi hembýva
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Ereko mba’eñemi pyahu
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Mbojuaju
@@ -1014,6 +1045,7 @@ se-secondary-email-none = Avave
 
 tfa-row-header = Ñemoneĩ mokõi jeku’épe
 tfa-row-enabled = Myandypyre
+tfa-row-disabled-status = Pe’apyre
 tfa-row-action-add = Mbojuaju
 tfa-row-action-disable = Pe’a
 tfa-row-button-refresh =
@@ -1344,6 +1376,7 @@ pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã 
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Emoheñói ñe’ẽñemi
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
