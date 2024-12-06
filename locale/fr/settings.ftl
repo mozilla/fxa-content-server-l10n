@@ -1050,7 +1050,7 @@ se-secondary-email-none = Aucune
 
 tfa-row-header = Authentification en deux étapes
 tfa-row-enabled = Activée
-tfa-row-disabled-status = Désactivé
+tfa-row-disabled-status = Désactivée
 tfa-row-action-add = Ajouter
 tfa-row-action-disable = Désactiver
 tfa-row-button-refresh =
