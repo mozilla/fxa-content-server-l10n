@@ -953,6 +953,9 @@ signout-sync-session-expired = Кешіріңіз, бірдеңе дұрыс б�
 
 ## Settings sub row
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Қолжетімді кодтар жоқ
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available = { $numCodesAvailable } код қалды
@@ -1046,6 +1049,7 @@ se-secondary-email-none = Ешнәрсе
 
 tfa-row-header = Екі қадамды аутентификация
 tfa-row-enabled = Іске қосулы
+tfa-row-disabled-status = Сөндірілген
 tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
 tfa-row-button-refresh =
