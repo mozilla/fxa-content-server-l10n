@@ -954,6 +954,19 @@ signout-sync-session-expired = Bóžko něco njejo se raźiło. Pšosym wótzjaw
 
 ## Settings sub row
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Žedne kody k dispoziciji
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Zwóstawajuce kody: { $numCodesAvailable }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Nowe kody wobstaraś
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Pśidaś
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = To jo nejwěsćejša wótnowjeńska metoda, jolic pśistup k swójomu mobilnemu rědoju abo awtentifikaciskemu nałoženjeju njamaśo.
 
 ## Switch component
 
@@ -1039,6 +1052,7 @@ se-secondary-email-none = Žedna
 
 tfa-row-header = Dwójokšacowa awtentifikacija
 tfa-row-enabled = Zmóžnjony
+tfa-row-disabled-status = Znjemóžnjony
 tfa-row-action-add = Pśidaś
 tfa-row-action-disable = Znjemóžniś
 tfa-row-button-refresh =
@@ -1046,6 +1060,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Bóžko jo pśi aktualizěrowanju dwójokšacoweje
     awtentifikacije problem nastał.
+tfa-row-enabled-description = Wašo konto se pśez dwójokšacowu awtentifikaciju šćita. Musyśo jadnorazowy gronidłowy kod  z nałoženja awtentifikacije  zapódaś, gaž se pla swójogo { -product-mozilla-account } pśizjawjaśo.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Wužywajśo <linkExternal>nałoženje awtentifikacije tśeśego póbitowarja</linkExternal> ako drugi kšać, aby pomagał, swójo konto zawěsćił a pśizjawśo se.
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
