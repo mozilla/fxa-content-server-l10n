@@ -1433,6 +1433,8 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Embojevyjey ne ñe’ẽñemi
+confirm-totp-reset-password-subheader-v2 = Ehai mba’eñemi ñemoneĩrã mokõi jeku’épe
+confirm-totp-reset-password-instruction-v2 = Ehechajey ne <strong>rembiporu’i ñemoneĩrã</strong> erujey hag̃ua ne ñe’ẽñemi.
 confirm-totp-reset-password-trouble-code = ¿Apañuái emoinge hag̃ua ayvu?
 confirm-totp-reset-password-confirm-button = Moneĩ
 confirm-totp-reset-password-input-label-v2 = Emoinge mba’eñemi 6 taíva
