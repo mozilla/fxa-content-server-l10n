@@ -357,6 +357,7 @@ coupon-expired = 折扣码似乎已过期。
 card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
 country-currency-mismatch = 您的付款方式所在的国家/地区，无此订阅可用的货币。
 currency-currency-mismatch = 抱歉，您不能切换货币。
+location-unsupported = 根据服务条款，我们尚未支持您所在的地区。
 no-subscription-change = 抱歉，无法更改您的订阅方案。
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = 您已通过 { $mobileAppStore } 订阅。
@@ -371,6 +372,7 @@ product-profile-error =
 product-customer-error =
     .title = 客户资料加载出错
 product-plan-not-found = 找不到方案内容
+product-location-unsupported-error = 不支持该地区
 
 ## Hooks - coupons
 

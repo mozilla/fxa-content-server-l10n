@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = 警告
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = 注意
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = 警告
 authenticator-app-aria-label =
     .aria-label = 验证器应用程序
-backup-codes-icon-aria-label =
-    .aria-label = 备用验证码已启用
-backup-codes-disabled-icon-aria-label =
-    .aria-label = 备用验证码已禁用
+backup-codes-icon-aria-label-v2 =
+    .aria-label = 已启用备用验证码
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = 已禁用备用验证码
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = 恢复短信已启用
@@ -882,7 +889,7 @@ tfa-enter-totp-v2 = 现在请输入验证应用的中的验证码。
 tfa-input-enter-totp-v2 =
     .label = 请输入验证码
 tfa-save-these-codes-1 = 请妥善保管下列一次性备用验证码，以便在移动设备不可用时使用。
-tfa-enter-code-to-confirm-1 = 请输入其中一枚备用验证码以确认您已进行保存。当移动设备不可用时，可以使用验证码访问账户。
+tfa-enter-code-to-confirm-v2 = 请输入新的备份验证码中的一个，以确认您已正确保存这些验证码。完成此步骤后将禁用旧的备用验证码。
 tfa-enter-recovery-code-1 =
     .label = 请输入备用验证码
 
@@ -937,6 +944,22 @@ security-set-password = 请设置密码以启用同步及使用更多账户安�
 security-recent-activity-link = 查看近期账户活动
 signout-sync-header = 会话已过期
 signout-sync-session-expired = 抱歉，出了点问题。请在浏览器菜单中退出登录，然后再重试。
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = 没有可用的验证码
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = 剩余 { $numCodesAvailable } 个验证码
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = 获取新验证码
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = 添加
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = 在无法使用移动设备或验证器应用时，这是最安全的恢复方法。
 
 ## Switch component
 
@@ -1015,23 +1038,20 @@ se-secondary-email-none = 无
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 两步验证
-tfa-row-disabled-2 = 已禁用两步验证
 tfa-row-enabled = 已启用
-tfa-row-not-set = 未设置
+tfa-row-disabled-status = 已禁用
 tfa-row-action-add = 添加
 tfa-row-action-disable = 禁用
 tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
-tfa-row-content-explain = 登录时需提供只有您有权访问的验证码，防止他人恶意登录。
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
 tfa-row-disable-modal-explain-1 = 您将无法撤销此操作。您也可选择<linkExternal>更换备用验证码</linkExternal>。
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = 已禁用两步验证
 tfa-row-cannot-disable-2 = 无法禁用两步验证
-tfa-row-change-modal-heading-1 = 要更改备份验证码吗？
-tfa-row-change-modal-confirm = 更改
-tfa-row-change-modal-explain = 此操作无法撤销。
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
