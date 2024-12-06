@@ -4,21 +4,23 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = بستن
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = بستن بنر
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = بیشتر بدانید
 # Alt text for close banner image
 brand-close-banner =
     .alt = بستن بنر
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } چ آرم
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -49,6 +51,8 @@ choose-what-to-sync-option-history =
     .label = تاریخچه
 choose-what-to-sync-option-passwords =
     .label = گذرواژه‌ها
+choose-what-to-sync-option-addons =
+    .label = برافزا
 # Refers to 'tabs that are open', not the action
 choose-what-to-sync-option-tabs =
     .label = زبانه‌های باز
@@ -58,14 +62,6 @@ choose-what-to-sync-option-addresses =
     .label = نشانی‌ها
 choose-what-to-sync-option-paymentmethods =
     .label = روش‌های پرداخت
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = در صندوق ورودی و در پوشه هرزنامه‌ها نبود؟ ارسال دوباره
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = برگشت
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -116,6 +112,10 @@ get-data-trio-print-2 =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
@@ -134,9 +134,6 @@ legal-back-button = بازگشت
 
 
 ## LinkExpired component
-
-
-## LinkExpiredResetPassword component
 
 
 ## LinkRememberPassword component
@@ -440,6 +437,9 @@ security-password =
     .header = گذرواژه
 security-action-create = ایجاد
 
+## Settings sub row
+
+
 ## Switch component
 
 
@@ -543,6 +543,11 @@ rk-action-remove = برداشتن
 
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page
