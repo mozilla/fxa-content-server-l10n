@@ -209,13 +209,20 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = 警告
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = 注意
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = 警告
 authenticator-app-aria-label =
     .aria-label = 驗證器應用程式
-backup-codes-icon-aria-label =
+backup-codes-icon-aria-label-v2 =
     .aria-label = 已啟用備用驗證碼
-backup-codes-disabled-icon-aria-label =
+backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = 已停用備用驗證碼
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
@@ -880,7 +887,6 @@ tfa-enter-totp-v2 = 現在請輸入驗證應用程式當中的驗證碼。
 tfa-input-enter-totp-v2 =
     .label = 輸入驗證碼
 tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
-tfa-enter-code-to-confirm-1 = 請立刻輸入您的任一組備用驗證碼，以確認您已儲存該驗證碼。當您無法再使用目前的行動裝置時，需要輸入該驗證碼才能登入。
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
@@ -935,6 +941,20 @@ security-set-password = 設定密碼，方可使用同步功能與其他帳號�
 security-recent-activity-link = 檢視近期帳號活動
 signout-sync-header = 登入階段已過期
 signout-sync-session-expired = 抱歉，有些東西不對勁，請從瀏覽器選單登出後再試一次。
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = 無備用驗證碼可用
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = 剩餘 { $numCodesAvailable } 組備用驗證碼
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = 產生新備用驗證碼
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = 新增
 
 ## Switch component
 
@@ -1013,23 +1033,19 @@ se-secondary-email-none = 無
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 兩階段驗證
-tfa-row-disabled-2 = 已關閉兩階段驗證
 tfa-row-enabled = 啟用
-tfa-row-not-set = 未設定
 tfa-row-action-add = 新增
 tfa-row-action-disable = 停用
 tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
-tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限存取的代碼，防止他人登入您的帳號。
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
 tfa-row-disable-modal-explain-1 = 將無法還原此動作。您還可以<linkExternal>換新備用救援碼</linkExternal>。
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = 已關閉兩階段驗證
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
-tfa-row-change-modal-heading-1 = 要變更備用驗證碼嗎？
-tfa-row-change-modal-confirm = 變更
-tfa-row-change-modal-explain = 將無法恢復此動作。
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
