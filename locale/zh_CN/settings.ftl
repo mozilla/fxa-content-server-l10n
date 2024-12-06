@@ -889,7 +889,7 @@ tfa-enter-totp-v2 = 现在请输入验证应用的中的验证码。
 tfa-input-enter-totp-v2 =
     .label = 请输入验证码
 tfa-save-these-codes-1 = 请妥善保管下列一次性备用验证码，以便在移动设备不可用时使用。
-tfa-enter-code-to-confirm-v2 = 请输入新的备份验证码中的一个，以确认您已正确保存这些验证码。完成此步骤后将禁用旧的备用验证码。
+tfa-enter-code-to-confirm-v2 = 请输入新的备份验证码中的一个，以确认您已保存这些验证码。完成此步骤后将禁用旧的备用验证码。
 tfa-enter-recovery-code-1 =
     .label = 请输入备用验证码
 
@@ -1046,6 +1046,8 @@ tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
 tfa-row-enabled-description = 您的账户受两步验证保护。登录 { -product-mozilla-account }时，您将需要输入身份验证器应用中的一次性密码。
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = 将<linkExternal>第三方身份验证器应用</linkExternal>用作登录的附加确认手段，帮助保护账户安全。
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
