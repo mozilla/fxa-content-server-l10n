@@ -221,9 +221,9 @@ icon-warning-aria-label =
 authenticator-app-aria-label =
     .aria-label = Nałoženje awtentifikacije
 backup-codes-icon-aria-label-v2 =
-    .aria-label = Awtentifikaciske kody za zawěsćenje su so zmóžnilil
+    .aria-label = Awtentifikaciske kody za zawěsćenje su so zmóžnili
 backup-codes-disabled-icon-aria-label-v2 =
-    .aria-label = Awtentifikaciske kody za zawěsćenje su so znjemóžnilil
+    .aria-label = Awtentifikaciske kody za zawěsćenje su so znjemóžnili
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Wobnowjenski SMS zmóžnjeny
