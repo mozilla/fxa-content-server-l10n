@@ -1063,6 +1063,8 @@ tfa-row-cannot-refresh =
     Bohužel je při aktualizowanju dwukročeloweje awtentfikacije
     problem nastał.
 tfa-row-enabled-description = Waše konto so přez dwukročelowu awtentifikaciju škita. Dyrbiće jónkróćny hesłowy kod  z nałoženja awtentifikacije  zapodać, hdyž so pola swojeho { -product-mozilla-account } přizjewjeće.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Wužiwajće <linkExternal>nałoženje awtentifikacije třećeho poskićowarja</linkExternal> jako druhi krok, zo byšće pomhał, swoje konto zawěsćił a přizjewće so.
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
