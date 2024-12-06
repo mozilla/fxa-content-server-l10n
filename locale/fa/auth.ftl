@@ -53,6 +53,23 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="بارگیری
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="بارگیری { $productName } از { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = نصب { $productName } روی <a data-l10n-name="anotherDeviceLink">دستگاه رومیزی دیگر</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = نصب { $productName } روی <a data-l10n-name="anotherDeviceLink">دستگاه دیگر</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = { $productName } را از Google Play دریافت نمایید:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = { $productName } را از App Store بارگیری نمایید:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = { $productName } را روی دستگاه دیگری نصب نمایید:
+automated-email-change-2 = اگر این اقدام را انجام نداده‌اید، <a data-l10n-name="passwordChangeLink">گذرواژه خود را تغییر دهید</a>.
+automated-email-support = برای اطلاعات بیشتر، به <a data-l10n-name="supportLink">پشتیبانی { -brand-mozilla }</a> مراجعه کنید.
 change-password-plaintext = اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید.
 manage-account = مدیریت حساب‌کاربری
 #  Variables:
