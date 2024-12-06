@@ -223,7 +223,7 @@ authenticator-app-aria-label =
 backup-codes-icon-aria-label-v2 =
     .aria-label = Tartalék hitelesítési kódok engedélyezve
 backup-codes-disabled-icon-aria-label-v2 =
-    .aria-label = A tartalék hitelesítési kódok letiltva
+    .aria-label = Tartalék hitelesítési kódok letiltva
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Helyreállító SMS engedélyezve
