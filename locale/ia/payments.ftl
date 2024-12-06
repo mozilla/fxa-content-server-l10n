@@ -375,6 +375,7 @@ product-profile-error =
 product-customer-error =
     .title = Problema al cargamento del cliente
 product-plan-not-found = Plano non trovate
+product-location-unsupported-error = Position non supportate
 
 ## Hooks - coupons
 

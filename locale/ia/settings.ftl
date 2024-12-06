@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Alerta
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Attention
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Advertentia
 authenticator-app-aria-label =
     .aria-label = Application authenticator
-backup-codes-icon-aria-label =
-    .aria-label = Codices de reserva activate
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Codices de reserva disactivate
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Codice de authentication de reserva activate
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Codice de authentication de reserva disactivate
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = SMS de recuperation activate
@@ -892,10 +899,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Salva iste codices de authentication de salvamento provisori in un loco secur pro quando
     tu non ha tu apparato mobile.
-tfa-enter-code-to-confirm-1 =
-    Insere ora un de tu codices de authentication de salvamento pro
-     confirmar que tu lo ha salvate.Tu besoniara de un codice pro acceder si tu non ha accesso a tu 
-    apparato mobile.
 tfa-enter-recovery-code-1 =
     .label = Insere un codice de authentication de salvamento
 
@@ -950,6 +953,20 @@ security-set-password = Defini un contrasigno pro synchronisar e usar certe func
 security-recent-activity-link = Vider activitate de conto recente
 signout-sync-header = Session expirate
 signout-sync-session-expired = Un error ha occurrite. Claude iste session e retenta.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nulle codice disponibile
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } codices restante
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Obtener nove codices
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Adder
 
 ## Switch component
 
@@ -1034,9 +1051,8 @@ se-secondary-email-none = Nihil
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authentication a duo passos
-tfa-row-disabled-2 = Authentication a duo passos disactivate
 tfa-row-enabled = Activate
-tfa-row-not-set = Non definite
+tfa-row-disabled-status = Disactivate
 tfa-row-action-add = Adder
 tfa-row-action-disable = Disactivar
 tfa-row-button-refresh =
@@ -1044,7 +1060,6 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
-tfa-row-content-explain = Impedi que altere personas accede a tu conto, exigente un codice unic al qual solo tu ha accesso.
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
@@ -1052,10 +1067,9 @@ tfa-row-disable-modal-explain-1 =
     Tu non potera disfacer iste action. Tu alsi
     ha le option de <linkExternal> reimplaciar tu codices de authentication de
     salvamento</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Authentication a duo passos disactivate
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
-tfa-row-change-modal-heading-1 = Cambiar codices de authentication de salvamento?
-tfa-row-change-modal-confirm = Cambiar
-tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
