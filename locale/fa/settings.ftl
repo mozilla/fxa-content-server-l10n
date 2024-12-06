@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = یک کد جدید به رایانامه شما ارسال شد.
+resend-link-success-banner-heading = یک پیوند جدید به رایانامه شما ارسال شد.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = { $accountsEmail } را به مخاطبین خود اضافه کنید تا از تحویل روان رایانامه‌ها اطمینان حاصل کنید.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -13,6 +17,13 @@
 # This text is for screen-readers
 brand-banner-dismiss-button-2 =
     .aria-label = بستن بنر
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } در تاریخ ۱ نوامبر به { -product-mozilla-accounts } تغییر نام خواهد یافت.
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = شما همچنان با همان نام‌کاربری و گذرواژه وارد حساب خود خواهید شد و هیچ تغییر دیگری در محصولات استفاده‌ شده شما وجود نخواهد داشت.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = ما نام { -product-firefox-accounts } را به { -product-mozilla-accounts } تغییر داده‌ایم. شما همچنان با همان نام‌کاربری و گذرواژه وارد حساب خود خواهید شد و هیچ تغییر دیگری در محصولات استفاده‌ شده شما وجود نخواهد داشت.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = بیشتر بدانید
 # Alt text for close banner image
@@ -29,8 +40,8 @@ brand-m-logo =
 # Button to download the account recovery key as a PDF file and navigate to the next step
 # The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v3 = دریافت و ادامه
-    .title = دریافت و ادامه
+recovery-key-download-button-v3 = بارگیری و ادامه
+    .title = بارگیری و ادامه
 recovery-key-pdf-heading = کلید بازیابی حساب کاربری
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
@@ -76,9 +87,23 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = نشانی IP: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = گذرواژه
+signup-confirm-password-label =
+    .label = تکرار گذرواژه
+signup-submit-button = ایجاد حساب کاربری
+form-reset-password-with-balloon-new-password =
+    .label = گذرواژه جدید
+form-reset-password-with-balloon-confirm-password =
+    .label = گذرواژه را دوباره وارد کنید
+form-reset-password-with-balloon-submit-button = بازنشانی گذرواژه
+form-reset-password-with-balloon-match-error = گذرواژه‌ها منطبق نیستند
 
 ## FormPasswordInlineCriteria
 
@@ -91,6 +116,8 @@ form-password-with-inline-criteria-reset-new-password =
     .label = گذرواژه جدید
 form-password-with-inline-criteria-confirm-password =
     .label = تأیید گذرواژه
+form-password-with-inline-criteria-reset-submit-button = ایجاد گذرواژه جدید
+form-password-with-inline-criteria-match-error = گذرواژه‌ها منطبق نیستند
 
 ## FormVerifyCode
 
@@ -101,6 +128,9 @@ form-password-with-inline-criteria-confirm-password =
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-download-2 =
+    .title = بارگیری
+    .aria-label = بارگیری
 get-data-trio-copy-2 =
     .title = رونوشت
     .aria-label = رونوشت
@@ -111,6 +141,9 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = هشدار
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
