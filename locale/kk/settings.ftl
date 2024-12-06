@@ -209,14 +209,17 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Ескерту
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Назар аударыңыз
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Ескерту
 authenticator-app-aria-label =
     .aria-label = Аутентификация қолданбасы
-backup-codes-icon-aria-label =
-    .aria-label = Сақтық көшірме кодтары іске қосылған
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Сақтық көшірме кодтары сөндірілген
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Қалпына келтіру SMS іске қосылған
@@ -893,10 +896,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Мобильді құрылғыңыз болмаған кездері үшін осы бір рет қолданылатын сақтық көшірме
     аутентификация кодтарын қауіпсіз жерде сақтаңыз.
-tfa-enter-code-to-confirm-1 =
-    Сақтағаныңызды растау үшін қазір сақтық көшірме аутентификация
-    кодтарының бірін енгізіңіз. Мобильді құрылғыға кіру мүмкіндігіңіз болмаса,
-    жүйеге кіру үшін код қажет болады.
 tfa-enter-recovery-code-1 =
     .label = Сақтық көшірме аутентификация кодын енгізіңіз
 
@@ -951,6 +950,17 @@ security-set-password = Синхрондау және белгілі бір ті
 security-recent-activity-link = Тіркелгінің жуырдағы белсенділігін қарау
 signout-sync-header = Сессия уақыты аяқталды
 signout-sync-session-expired = Кешіріңіз, бірдеңе дұрыс болмады. Браузер мәзірінен шығып, әрекетті қайталаңыз.
+
+## Settings sub row
+
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } код қалды
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Жаңа кодтарды алу
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Қосу
 
 ## Switch component
 
@@ -1035,9 +1045,7 @@ se-secondary-email-none = Ешнәрсе
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Екі қадамды аутентификация
-tfa-row-disabled-2 = Екі қадамды аутентификация сөндірілді
 tfa-row-enabled = Іске қосулы
-tfa-row-not-set = Орнатылмаған
 tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
 tfa-row-button-refresh =
@@ -1045,19 +1053,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Кешіріңіз, екі қадамды аутентификацияны жаңарту кезінде
     мәселе орын алды.
-tfa-row-content-explain =
-    Сіз ғана қол жеткізе алатын бірегей кодты талап ету арқылы
-    басқа біреудің жүйеге кіруіне жол бермеңіз.
 tfa-row-cannot-verify-session-4 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
 tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
 tfa-row-disable-modal-confirm = Сөндіру
 tfa-row-disable-modal-explain-1 =
     Бұл әрекетті кері қайтара алмайсыз. Сондай-ақ, <linkExternal>сақтық көшірме
     аутентификация кодтарын ауыстыру</linkExternal> опциясы бар.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Екі қадамды аутентификация сөндірілді
 tfa-row-cannot-disable-2 = Екі қадамды аутентификацияны сөндіру мүмкін емес
-tfa-row-change-modal-heading-1 = Сақтық аутентификация кодтарын ауыстыру керек пе?
-tfa-row-change-modal-confirm = Өзгерту
-tfa-row-change-modal-explain = Бұл әрекетті кері қайтара алмайсыз.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

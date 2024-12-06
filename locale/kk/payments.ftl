@@ -375,6 +375,7 @@ product-profile-error =
 product-customer-error =
     .title = Тұтынушыны жүктеу мәселесі
 product-plan-not-found = Жоспар табылмады
+product-location-unsupported-error = Орналасуға қолдау жоқ
 
 ## Hooks - coupons
 
