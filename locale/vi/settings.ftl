@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Cảnh báo
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Chú ý
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Cảnh báo
 authenticator-app-aria-label =
     .aria-label = Ứng dụng xác thực
-backup-codes-icon-aria-label =
-    .aria-label = Đã bật mã dự phòng
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Đã tắt mã dự phòng
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Đã bật mã xác thực dự phòng
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Đã tắt mã xác thực dự phòng
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Đã bật SMS khôi phục
@@ -893,10 +900,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Lưu các mã xác thực dự phòng sử dụng một lần này ở một nơi an toàn khi
     bạn không có thiết bị di động của mình.
-tfa-enter-code-to-confirm-1 =
-    Vui lòng nhập một trong các mã xác thực dự phòng của bạn ngay bây giờ để
-    xác nhận bạn đã lưu nó. Bạn sẽ cần mã để đăng nhập nếu bạn không có quyền truy cập vào
-    thiết bị di động.
+tfa-enter-code-to-confirm-v2 =
+    Vui lòng nhập một trong các mã xác thực dự phòng mới của bạn để
+    xác nhận rằng bạn đã lưu chúng. Mã xác thực dự phòng cũ của bạn sẽ bị vô hiệu hóa sau khi hoàn tất bước này.
 tfa-enter-recovery-code-1 =
     .label = Nhập mã xác thực dự phòng
 
@@ -951,6 +957,22 @@ security-set-password = Đặt mật khẩu để đồng bộ hóa và sử d�
 security-recent-activity-link = Xem hoạt động tài khoản gần đây
 signout-sync-header = Phiên đã hết hạn
 signout-sync-session-expired = Xin lỗi, đã có lỗi xảy ra. Vui lòng đăng xuất từ menu trình duyệt và thử lại.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Không còn mã nào khả dụng
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } mã còn lại
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Tạo mã mới
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Thêm
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Đây là phương pháp khôi phục an toàn nhất nếu bạn không thể truy cập thiết bị di động hoặc ứng dụng xác thực của mình.
 
 ## Switch component
 
@@ -1035,27 +1057,25 @@ se-secondary-email-none = Không có
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Xác thực hai bước
-tfa-row-disabled-2 = Đã tắt xác thực hai bước
 tfa-row-enabled = Đã bật
-tfa-row-not-set = Chưa tạo
+tfa-row-disabled-status = Đã tắt
 tfa-row-action-add = Thêm
 tfa-row-action-disable = Vô hiệu hóa
 tfa-row-button-refresh =
     .title = Làm mới xác thực hai bước
 tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác thực hai bước.
-tfa-row-content-explain =
-    Ngăn người khác đăng nhập bằng cách yêu cầu
-    mã duy nhất chỉ bạn có quyền truy cập.
+tfa-row-enabled-description = Tài khoản của bạn được bảo vệ bằng xác thực hai bước. Bạn sẽ cần nhập mật mã một lần từ ứng dụng xác thực của mình khi đăng nhập vào { -product-mozilla-account } của bạn.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Giúp bảo mật tài khoản của bạn bằng cách sử dụng một <linkExternal>ứng dụng xác thực của bên thứ ba</linkExternal> làm bước thứ hai để đăng nhập.
 tfa-row-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 tfa-row-disable-modal-heading = Tắt xác thực hai bước?
 tfa-row-disable-modal-confirm = Tắt
 tfa-row-disable-modal-explain-1 =
     Bạn sẽ không thể hoàn tác hành động này. Bạn cũng
     có tùy chọn <linkExternal>thay thế mã xác thực dự phòng của bạn</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Đã tắt xác thực hai bước
 tfa-row-cannot-disable-2 = Không thể tắt xác thực hai bước
-tfa-row-change-modal-heading-1 = Thay đổi mã xác thực dự phòng?
-tfa-row-change-modal-confirm = Thay đổi
-tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động này.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

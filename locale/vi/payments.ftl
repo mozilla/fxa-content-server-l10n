@@ -333,6 +333,7 @@ coupon-expired = Có vẻ như mã khuyến mãi đã hết hạn.
 card-error = Không thể xử lý giao dịch của bạn. Vui lòng xác minh thông tin thẻ tín dụng của bạn và thử lại.
 country-currency-mismatch = Đơn vị tiền tệ của thuê bao này không hợp lệ cho quốc gia được liên kết với khoản thanh toán của bạn.
 currency-currency-mismatch = Xin lỗi. Bạn không thể chuyển đổi giữa các loại tiền tệ.
+location-unsupported = Địa điểm hiện tại của bạn không được hỗ trợ theo điều khoản dịch vụ của chúng tôi.
 no-subscription-change = Rất tiếc. Bạn không thể thay đổi gói thuê bao của mình.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Bạn đã đăng ký qua { $mobileAppStore }
@@ -347,6 +348,7 @@ product-profile-error =
 product-customer-error =
     .title = Sự cố tải thông tin khách hàng
 product-plan-not-found = Không tìm thấy lịch
+product-location-unsupported-error = Địa điểm không được hỗ trợ
 
 ## Hooks - coupons
 
