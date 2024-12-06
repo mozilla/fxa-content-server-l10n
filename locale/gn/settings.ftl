@@ -1435,7 +1435,9 @@ confirm-reset-password-otp-different-account-link = Eiporu ambuéva mba’ete
 confirm-totp-reset-password-header = Embojevyjey ne ñe’ẽñemi
 confirm-totp-reset-password-trouble-code = ¿Apañuái emoinge hag̃ua ayvu?
 confirm-totp-reset-password-confirm-button = Moneĩ
+confirm-totp-reset-password-input-label-v2 = Emoinge mba’eñemi 6 taíva
 confirm-totp-reset-password-use-different-account = Eiporu ambuéva mba’ete
+confirm-recovery-code-reset-password-input-label = Ehai mba’eñemi 10 taíva
 confirm-recovery-code-reset-password-trouble-code = Tapykue
 
 ## ResetPassword start page
@@ -1531,6 +1533,7 @@ signin-push-code-confirm-link-error = Pe juajuha imarã. Eha’ã jey ag̃ave.
 
 signin-recovery-code-heading = Eñepyrũ tembiapo
 signin-recovery-code-sub-heading = Emoinge ayvu ñemoneĩrã jeykekoha
+signin-recovery-code-input-label-v2 = Ehai mba’eñemi 10 taíva
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Moneĩ
 # Link to return to signin with two-step authentication code
@@ -1564,11 +1567,13 @@ signin-token-code-code-expired = ¿Ndoikovéima ayvu?
 signin-token-code-resend-code-link = Emondo ayvu pyahu.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
+signin-token-code-resend-error = Oiko apañuái. Noñemondokuaái mba’eñemi ipyahúva.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v4 = Emoinge mba’eñemi 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
 signin-totp-code-other-account-link = Eiporu ambuéva mba’ete
