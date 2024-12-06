@@ -900,6 +900,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Spara dessa reservautentiseringskoder för engångsbruk på en säker plats
     när du inte har din mobila enhet.
+tfa-enter-code-to-confirm-v2 =
+    Ange en av dina nya reservautentiseringskoder för att
+    bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
 tfa-enter-recovery-code-1 =
     .label = Ange en reservautentiseringskod
 
@@ -1063,6 +1066,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Tyvärr uppstod ett problem med att uppdatera
     tvåstegautentisering.
+tfa-row-enabled-description = Ditt konto skyddas av tvåstegsautentisering. Du måste ange en engångskod från din autentiseringsapp när du loggar in på ditt { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Hjälp till att säkra ditt konto genom att använda en <linkExternal>autentiseringsapp från tredje part</linkExternal> som ett andra steg för att logga in.
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
