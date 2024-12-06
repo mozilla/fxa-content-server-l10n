@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Предупреждение
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Внимание
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Предупреждение
 authenticator-app-aria-label =
     .aria-label = Приложение-аутентификатор
-backup-codes-icon-aria-label =
-    .aria-label = Резервные коды включены
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Резервные коды отключены
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Резервные коды аутентификации включены
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Резервные коды аутентификации отключены
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Восстановление по SMS включено
@@ -891,10 +898,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Храните эти одноразовые резервные коды аутентификации в безопасном месте, на случай, если
     у вас не будет доступа к мобильному устройству.
-tfa-enter-code-to-confirm-1 =
-    Пожалуйста, введите один из ваших резервных кодов аутентификации сейчас, чтобы
-    подтвердите, что вы сохранили его. Вам понадобится код для входа, если у вас не будет доступа к
-    мобильному устройству.
+tfa-enter-code-to-confirm-v2 =
+    Пожалуйста, введите один из ваших новых резервных кодов аутентификации, чтобы
+    подтвердить, что вы сохранили их. Ваши старые резервные коды аутентификации будут отключены после завершения этого шага.
 tfa-enter-recovery-code-1 =
     .label = Введите резервный код аутентификации
 
@@ -949,6 +955,22 @@ security-set-password = Установите пароль для синхрон�
 security-recent-activity-link = Просмотр последних действий в аккаунте
 signout-sync-header = Время сессии истекло
 signout-sync-session-expired = Извините, что-то пошло не так. Пожалуйста, выйдите из меню браузера и попробуйте ещё раз.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Нет доступных кодов
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Осталось { $numCodesAvailable } кодов
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Получить новые коды
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Добавить
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Это самый безопасный метод восстановления, если вы не можете получить доступ к своему мобильному устройству или приложению для аутентификации.
 
 ## Switch component
 
@@ -1031,9 +1053,8 @@ se-secondary-email-none = Нет
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аутентификация
-tfa-row-disabled-2 = Двухэтапная аутентификация отключена
 tfa-row-enabled = Включена
-tfa-row-not-set = Не настроена
+tfa-row-disabled-status = Отключено
 tfa-row-action-add = Добавить
 tfa-row-action-disable = Отключить
 tfa-row-button-refresh =
@@ -1041,19 +1062,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     К сожалению, при обновлении двухэтапной
     аутентификации произошла ошибка.
-tfa-row-content-explain =
-    Запретите вход другим, затребовав 
-    уникальный код, доступ к которому есть только у вас.
+tfa-row-enabled-description = Ваш аккаунт защищен двухэтапной аутентификацией. Вам нужно будет ввести одноразовый код-пароль из приложения для аутентификации при входе в { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Помогите защитить свой аккаунт, используя <linkExternal>стороннее приложение для аутентификации</linkExternal> в качестве второго шага для входа.
 tfa-row-cannot-verify-session-4 = К сожалению, при подтверждении вашей сессии возникла проблема
 tfa-row-disable-modal-heading = Отключить двухэтапную аутентификацию?
 tfa-row-disable-modal-confirm = Отключить
 tfa-row-disable-modal-explain-1 =
     Вы не сможете отменить это действие. У вас также
     есть возможность <linkExternal>заменить свои резервные коды аутентификации</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Двухэтапная аутентификация отключена
 tfa-row-cannot-disable-2 = Двухэтапная аутентификация не может быть отключена
-tfa-row-change-modal-heading-1 = Сменить резервные коды аутентификации?
-tfa-row-change-modal-confirm = Сменить
-tfa-row-change-modal-explain = Вы не сможете отменить это действие.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
