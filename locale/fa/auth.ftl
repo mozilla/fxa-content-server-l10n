@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title-2 = به { -product-mozilla-account } خود وارد می‌شوید؟
+session-verify-send-push-body-2 = برای تأیید این‌که شما هستید، اینجا کلیک کنید
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
