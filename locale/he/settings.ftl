@@ -904,6 +904,19 @@ signout-sync-session-expired = משהו השתמש, עמך הסליחה. נא ל
 
 ## Settings sub row
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = אין קודים זמינים
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = נשארו { $numCodesAvailable } קודים
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = קבלת קודים חדשים
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = הוספה
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך לגשת למכשיר הנייד או ליישומון המאמת שלך.
 
 ## Switch component
 
@@ -983,11 +996,15 @@ se-secondary-email-none = ללא
 
 tfa-row-header = אימות דו־שלבי
 tfa-row-enabled = מופעל
+tfa-row-disabled-status = מושבת
 tfa-row-action-add = הוספה
 tfa-row-action-disable = השבתה
 tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
+tfa-row-enabled-description = החשבון שלך מוגן על־ידי אימות דו־שלבי. יהיה עליך להכניס קוד גישה חד פעמי מהיישומון המאמת שלך בעת הכניסה ל{ -product-mozilla-account(case: "the") } שלך.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = כדאי לאבטח את החשבון שלך על־ידי שימוש <linkExternal>ביישומון מאמת (גורם צד שלישי)</linkExternal> כשלב שני להתחברות.
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
@@ -1145,9 +1162,9 @@ inline-totp-setup-continue-button = המשך
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = ניתן להוסיף שכבת אבטחה לחשבון שלך על־ידי דרישת קודים של אימות מאחד <authenticationAppsLink>מיישומוני האימות האלו</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header-2 = נא להפעיל אימות דו שלבי <span>כדי להמשיך להגדרות החשבון</span>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = נא להפעיל אימות דו־שלבי <span>כדי להמשיך להגדרות החשבון</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header-2 = נא להפעיל אימות דו שלבי <span>כדי להמשיך אל { $serviceName }</span>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = נא להפעיל אימות דו־שלבי <span>כדי להמשיך אל { $serviceName }</span>
 inline-totp-setup-ready-button = מוכן
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
