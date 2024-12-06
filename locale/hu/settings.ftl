@@ -1058,7 +1058,7 @@ se-secondary-email-none = Nincs
 
 tfa-row-header = Kétlépcsős hitelesítés
 tfa-row-enabled = Engedélyezve
-tfa-row-disabled-status = Tiltva
+tfa-row-disabled-status = Letiltva
 tfa-row-action-add = Hozzáadás
 tfa-row-action-disable = Letiltás
 tfa-row-button-refresh =
@@ -1068,7 +1068,7 @@ tfa-row-cannot-refresh =
     frissítésekor.
 tfa-row-enabled-description = Fiókját kétlépcsős hitelesítés védi. Meg kell adnia egy egyszer használatos jelkódot a hitelesítő alkalmazásból, amikor bejelentkezik a { -product-mozilla-account }jába.
 # <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Segítsen biztonságban tartani fiókját azzal, hogy a bejelentkezés második lépéseként használ egy <linkExternal>harmadik féltől származó hitelesítő alkalmazást</linkExternal>.
+tfa-row-disabled-description = Segítsen biztonságban tartani fiókját azzal, hogy a bejelentkezés második lépéseként egy <linkExternal>harmadik féltől származó hitelesítő alkalmazást</linkExternal> használ.
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
