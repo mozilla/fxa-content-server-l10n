@@ -728,6 +728,8 @@ connect-another-device-get-data-on-another-device-message = Табларыгыз
 connect-another-device-cad-link = Башка бер җиһазны тоташтыру
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Хәзер түгел
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Көйләүне тәмамлар өчен, Android өчен { -brand-firefox }-ка керегез
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
