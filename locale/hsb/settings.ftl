@@ -1062,6 +1062,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Bohužel je při aktualizowanju dwukročeloweje awtentfikacije
     problem nastał.
+tfa-row-enabled-description = Waše konto so přez dwukročelowu awtentifikaciju škita. Dyrbiće jónkróćny hesłowy kod  z nałoženja awtentifikacije  zapodać, hdyž so pola swojeho { -product-mozilla-account } přizjewjeće.
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
