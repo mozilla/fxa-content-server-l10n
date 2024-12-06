@@ -114,6 +114,13 @@ form-reset-password-with-balloon-new-password =
     .label = Яңа серсүз
 form-reset-password-with-balloon-confirm-password =
     .label = Серсүзне янәдән кертегез
+form-reset-password-with-balloon-submit-button = Серсүзне алыштыру
+form-reset-password-with-balloon-match-error = Серсүзләр туры килми
+form-password-sr-too-short-message = Серсүз кимендә 8 билге булырга тиеш.
+form-password-sr-not-email-message = Серсүз эчендә эл. почта адресыгыз булырга тиеш түгел.
+form-password-sr-not-common-message = Серсүз еш кулланыла торган серсүз булырга тиеш түгел.
+form-password-sr-requirements-met = Кертелгән серсүз барлык серсүз таләпләренә дә туры килә
+form-password-sr-passwords-match = Кертелгән серсүзләр бер-берсенә туры килә.
 
 ## FormPasswordInlineCriteria
 

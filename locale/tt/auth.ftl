@@ -356,7 +356,14 @@ verificationReminderSecond-subject-2 = Хисабыгызны расларга �
 verificationReminderSecond-action-2 = Хисапны раслагыз
 verify-title-3 = Интернетны { -brand-mozilla } белән ачыгыз
 verify-subject = Хисап язмагызны ясап бетерегез
+verifyLogin-subject-2 = Керүне раслау
 verifyLogin-action = Керүне раслау
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = { $serviceName } хезмәтенә керүне раслагыз
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = { $serviceName } хезмәтенә кердегезме?
 verifyLoginCode-expiry-notice = Кодның яраклылык вакыты 5 минут.
 verifyPrimary-description = Түбәндәге җиһаздан хисапны үзгәртүгә үтенеч керде:
 verifyPrimary-subject = Төп эл. почтаны раслау
