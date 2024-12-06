@@ -893,7 +893,9 @@ tfa-enter-totp-v2 = Ahora ingresá el código de autenticación de la aplicació
 tfa-input-enter-totp-v2 =
     .label = Ingresá el código de autenticación
 tfa-save-these-codes-1 = Guardá estos códigos de autenticación de respaldo en un lugar seguro para cuando no tengás tu dispositivo móvil.
-tfa-enter-code-to-confirm-v2 = Ingrese uno de sus nuevos códigos de autenticación de respaldo para confirmar que los ha guardado. Sus viejos códigos de autenticación de respaldo se desactivarán una vez que se complete este paso.
+tfa-enter-code-to-confirm-v2 =
+    Ingresá uno de tus nuevos códigos de autenticación de respaldo para
+    confirmar que los has guardado. Tus viejos códigos de autenticación de respaldo se desactivarán una vez que se complete este paso.
 tfa-enter-recovery-code-1 =
     .label = Ingresá un código de autenticación de respaldo
 
