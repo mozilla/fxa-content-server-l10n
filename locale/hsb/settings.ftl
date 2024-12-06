@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Warnowanje
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Kedźbu
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Warnowanje
 authenticator-app-aria-label =
     .aria-label = Nałoženje awtentifikacije
-backup-codes-icon-aria-label =
-    .aria-label = Zawěsćenske kody zmóžnjene
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Zawěsćenske kody znjemóžnjene
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Awtentifikaciske kody za zawěsćenje su so zmóžnilil
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Awtentifikaciske kody za zawěsćenje su so znjemóžnilil
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Wobnowjenski SMS zmóžnjeny
@@ -889,10 +896,6 @@ tfa-enter-totp-v2 = Zapodajće nětko awtentifikaciski kod z awtentifikaciskeho 
 tfa-input-enter-totp-v2 =
     .label = Awtentifikaciski kod zapodać
 tfa-save-these-codes-1 = Składujće tute kody za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
-tfa-enter-code-to-confirm-1 =
-    Prošu zapodajće nětko jedyn z wašich kodow zawěsćenskeje awtentifikacije, zo byšće
-    wobkrućił, zo sće jón składował. Trjebaće kod za přizjewjenje, jeli nimaće přistup k swojemu
-    mobilnemu gratej.
 tfa-enter-recovery-code-1 =
     .label = Zapodajće kod za zawěsćensku awtentifikaciju
 
@@ -947,6 +950,20 @@ security-set-password = Nastajće hesło, zo byšće wěste wěstotne funkcije k
 security-recent-activity-link = Najnowšu kontowu aktiwitu pokazać
 signout-sync-header = Posedźenje je spadnyło
 signout-sync-session-expired = Bohužel něšto je so nimokuliło. Prošu wotzjewće so z menija wobhladowaka a spytajće hišće raz.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Žane kody k dispoziciji
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Zwostawace kody: { $numCodesAvailable }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Nowe kody wobstarać
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Přidać
 
 ## Switch component
 
@@ -1031,9 +1048,8 @@ se-secondary-email-none = Žana
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dwukročelowa awtentifikacija
-tfa-row-disabled-2 = Dwukročelowa awtentifikacija znjemóžnjena
 tfa-row-enabled = Zmóžnjeny
-tfa-row-not-set = Njenastajeny
+tfa-row-disabled-status = Znjemóžnjeny
 tfa-row-action-add = Přidać
 tfa-row-action-disable = Znjemóžnić
 tfa-row-button-refresh =
@@ -1041,19 +1057,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Bohužel je při aktualizowanju dwukročeloweje awtentfikacije
     problem nastał.
-tfa-row-content-explain =
-    Požadajće jónkróćny kod, ke kotremuž jenož wy maće přistup,
-    zo byšće zadźěwał tomu, zo so něchtó druhi přizjewja.
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
 tfa-row-disable-modal-explain-1 =
     Njemóžeće tutu akciju cofnyć. Maće tež
     móžnosć <linkExternal>swoje kody za zawěsćensku awtentifikaciju wuměnić</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Dwukročelowa awtentifikacija znjemóžnjena
 tfa-row-cannot-disable-2 = Dwukročelowa awtentifikacija njeda so znjemóžnić
-tfa-row-change-modal-heading-1 = Kody za zawěsćensku awtentifikaciju změnić?
-tfa-row-change-modal-confirm = Změnić
-tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

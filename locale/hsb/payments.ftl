@@ -417,6 +417,7 @@ coupon-expired = Zda so, kaž by promokod spadnył.
 card-error = Waša transakcija njeda so předźěłować. Přepruwujće prošu informacije swojeje kreditneje karty a spytajće hišće raz.
 country-currency-mismatch = Měna tutoho abonementa za kraj, kotryž je z wašim płaćenjom zwjazany, płaćiwa njeje.
 currency-currency-mismatch = Bohužel njemóžeće měny přeměnić.
+location-unsupported = Waše aktualne městno so po našich wužiwanskich wuměnjenjach njepodpěruje.
 no-subscription-change = Bohužel njemóžeće swój abonementowy plan změnić.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Sće hižo přez { $mobileAppStore } abonował.
@@ -431,6 +432,7 @@ product-profile-error =
 product-customer-error =
     .title = Zmylk při čitanju kupca
 product-plan-not-found = Plan njeje so namakał
+product-location-unsupported-error = Městno so njepodpěruje
 
 ## Hooks - coupons
 
