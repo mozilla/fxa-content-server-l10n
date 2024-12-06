@@ -714,6 +714,20 @@ connect-another-device-signed-in-header = Сез { -brand-firefox } эченә �
 connect-another-device-email-confirmed-banner = Эл. почта расланды
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Керү расланды
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Көйләүне тәмамлар өчен бу { -brand-firefox }-ка керегез
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Керү
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Әле дә җиһазлар өстисезме? Көйләүне тәмамлар өчен башка бер җиһаздан { -brand-firefox }-ка керегез
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Көйләүне тәмамлар өчен башка бер җиһаздан { -brand-firefox }-ка керегез
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Табларыгыз, кыстыргычларыгыз һәм серсүзләрегезне башка җиһазларда да кулланырга телисезме?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Башка бер җиһазны тоташтыру
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Хәзер түгел
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
