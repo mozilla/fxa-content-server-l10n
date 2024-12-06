@@ -896,6 +896,9 @@ tfa-enter-totp-v2 = Zapodajće nětko awtentifikaciski kod z awtentifikaciskeho 
 tfa-input-enter-totp-v2 =
     .label = Awtentifikaciski kod zapodać
 tfa-save-these-codes-1 = Składujće tute kody za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
+tfa-enter-code-to-confirm-v2 =
+    Prošu zapodajće jedyn ze swojich awtentifikaciskich kodo za zawěsćenje, zo byšće
+    wobkrućił, zo sće je składował. Waše stare awtentifikaciske kody za zawěsćenje so znjemóžnja, hdyž so tutón krok dokónča.
 tfa-enter-recovery-code-1 =
     .label = Zapodajće kod za zawěsćensku awtentifikaciju
 
@@ -964,6 +967,8 @@ tfa-row-backup-codes-get-new-cta = Nowe kody wobstarać
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Přidać
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = To je najwěsćiša wobnowjenska metoda, jeli přistup k swojemu mobilnemu gratej abo awtentifikaciskemu nałoženju nimaće.
 
 ## Switch component
 
