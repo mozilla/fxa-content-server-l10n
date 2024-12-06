@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Warnowanje
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Glědajśo
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Warnowanje
 authenticator-app-aria-label =
     .aria-label = Nałoženje awtentificěrowanja
-backup-codes-icon-aria-label =
-    .aria-label = Zawěsćeńske kody zmóžnjone
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Zawěsćeńske kody znjemóžnjone
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Awtentifikaciske kody za zawěsćenje su se zmóžnili
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Awtentifikaciske kody za zawěsćenje su se znjemóžnili
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Wótnowjeński SMS zmóžnjony
@@ -887,10 +894,9 @@ tfa-enter-totp-v2 = Zapódajśo něnto awtentifikaciski kod z awtentifikaciskego
 tfa-input-enter-totp-v2 =
     .label = Awtentificěrowański kod zapódaś
 tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
-tfa-enter-code-to-confirm-1 =
-    Pšosym zapódajśo něnto jaden z wašych kodow zawěsćeńskeje awtentifikacije, aby
-    wobkšuśił, až sćo jen składł. Trjebaśo kod za pśizjawjenje, jolic njamaśo pśistup k swójomu
-    mobilnemu rědoju.
+tfa-enter-code-to-confirm-v2 =
+    Pšosym zapódajśo jaden ze swójich awtentifikaciskich kodow za zawěsćenje, aby
+    wobkšuśił, až sćo je składł. Waše stare awtentifikaciske kody za zawěsćenje se znjemóžnja, gaž se toś ten kšac dokóńcujo.
 tfa-enter-recovery-code-1 =
     .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 
@@ -945,6 +951,9 @@ security-set-password = Nastajśo gronidło, aby wěste wěstotne funkcije konta
 security-recent-activity-link = Nejnowšu kontowu aktiwitu pokazaś
 signout-sync-header = Pósejźenje jo spadnuło
 signout-sync-session-expired = Bóžko něco njejo se raźiło. Pšosym wótzjawśo se z menija wobglědowaka a wopytajśo hyšći raz.
+
+## Settings sub row
+
 
 ## Switch component
 
@@ -1029,9 +1038,7 @@ se-secondary-email-none = Žedna
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dwójokšacowa awtentifikacija
-tfa-row-disabled-2 = Dwójokšacowa awtentifikacija jo se znjemóžniła
 tfa-row-enabled = Zmóžnjony
-tfa-row-not-set = Njepóstajony
 tfa-row-action-add = Pśidaś
 tfa-row-action-disable = Znjemóžniś
 tfa-row-button-refresh =
@@ -1039,19 +1046,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Bóžko jo pśi aktualizěrowanju dwójokšacoweje
     awtentifikacije problem nastał.
-tfa-row-content-explain =
-    Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
-    aby zajźował tomu, až se něchten drugi pśizjawja.
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
 tfa-row-disable-modal-explain-1 =
     Njamóžośo toś tu akciju anulěrowaś. Maśo teke
     móžnosć <linkExternal>swóje kody za zawěsćeńsku awtentifikaciju wuměniś</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Dwójokšacowa awtentifikacija jo se znjemóžniła
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
-tfa-row-change-modal-heading-1 = Kody za zawěsćeńsku awtentifikaciju změniś?
-tfa-row-change-modal-confirm = Změniś
-tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
