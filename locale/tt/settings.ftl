@@ -659,20 +659,36 @@ tfa-row-disable-modal-confirm = Cүндерү
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = яки
+continue-with-google-button = { -brand-google } аркылы дәвам итү
+continue-with-apple-button = { -brand-apple } аркылы дәвам итү
 
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Билгесез хисап
 auth-error-103 = Парол хаталы
+auth-error-105-2 = Раслау кодында хата
 auth-error-110 = Хаталы токен
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Артык күп тапкыр тырышып карадыгыз. Зинһар, соңрак янәдән тырышып карагыз.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Артык күп тапкыр тырышып карадыгыз. Зинһар, { $retryAfter } вакыт кичкәч, янәдән тырышыгыз.
+auth-error-138-2 = Расланмаган утырыш
 auth-error-139 = Икенчел эл. почта хисабыгызның төп эл. почтасыннан башка булырга тиеш
 auth-error-155 = TOTP токен табылмады
+auth-error-159 = Яраксыз хисапны коткару ачкычы
+auth-error-183-2 = Яраксыз яки вакыты чыккан раслау коды
+auth-error-999 = Көтелмәгән хата
+auth-error-1001 = Керергә тырышудан баш тартылды
+auth-error-1002 = Сессиянең мөддәте бетте. Дәвам итү өчен керегез.
 auth-error-1008 = Яңа парол иске паролдан үзгә булырга тиеш
 
 ## Cannot Create Account page
