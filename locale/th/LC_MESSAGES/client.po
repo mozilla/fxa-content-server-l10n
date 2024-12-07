@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-07 15:19+0000\n"
+"PO-Revision-Date: 2024-12-07 15:26+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1249,11 +1249,11 @@ msgstr "เปิดใช้งานการยืนยันตัวตน
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "รักษาบัญชีของคุณให้ปลอดภัยอีกขั้นโดยกำหนดรหัสความปลอดภัยจาก<a %(escapedTotpSupportAttributes)s>แอพการยืนยันตัวบุคคล</a>แอพใดแอพหนึ่งเหล่านี้"
+msgstr "รักษาบัญชีของคุณให้ปลอดภัยอีกขั้นโดยกำหนดรหัสความปลอดภัยจาก<a %(escapedTotpSupportAttributes)s>แอปยืนยันตัวตน</a>แอปใดแอปหนึ่งเหล่านี้"
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr "สแกนรหัสยืนยันตัวบุคคล"
+msgstr "สแกนรหัสยืนยันตัวตน"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
@@ -1261,7 +1261,7 @@ msgstr "ใส่รหัสด้วยตนเอง"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "สแกนคิวอาร์โค้ดในแอพการยืนยันตัวบุคคลของคุณ แล้วใส่รหัสความปลอดภัยที่ได้มา"
+msgstr "สแกนคิวอาร์โค้ดในแอปยืนยันตัวตนของคุณ แล้วใส่รหัสความปลอดภัยที่ได้มา"
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
