@@ -268,6 +268,8 @@ signin-recovery-code-image-description =
     .aria-label = سندی که دارای متن پنهان است.
 signin-totp-code-image-label =
     .aria-label = یک دستگاه با کد ۶ رقمی پنهان.
+confirm-signup-aria-label =
+    .aria-label = یک پاکت حاوی پیوند
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
