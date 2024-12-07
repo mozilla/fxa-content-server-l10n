@@ -1350,24 +1350,57 @@ reset-password-complete-banner-message = อย่าลืมสร้างค
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = ตรวจดูอีเมลของคุณ
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = เราส่งรหัสยืนยันไปยัง <span>{ $email }</span> แล้ว
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = ใส่รหัส 8 หลักภายใน 10 นาที
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = ทำต่อ
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = ส่งรหัสอีกครั้ง
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = ใช้บัญชีอื่น
 
 ## PasswordResetConfirmTotp Page
 
 
 ## ResetPassword start page
 
+password-reset-flow-heading = ตั้งรหัสผ่านของคุณใหม่
+password-reset-body-2 = เราจะสอบถามข้อมูลจำนวนหนึ่งซึ่งคุณทราบอยู่เพียงคนเดียว เพื่อปกป้องบัญชีของคุณให้ปลอดภัย
+password-reset-email-input =
+    .label = ใส่อีเมลของคุณ
+password-reset-submit-button-2 = ทำต่อ
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = ทำต่อไปยัง { $serviceName }
+reset-password-with-recovery-key-verified-page-title = ตั้งรหัสผ่านใหม่สำเร็จ
+reset-password-complete-new-password-saved = บันทึกรหัสผ่านใหม่แล้ว!
+reset-password-complete-recovery-key-created = สร้างคีย์กู้คืนบัญชีใหม่แล้ว กรุณาดาวน์โหลดและจัดเก็บคีย์นี้ทันที
+reset-password-complete-recovery-key-download-info = คีย์นี้จำเป็นต่อการกู้คืนข้อมูลถ้าคุณลืมรหัสผ่านของคุณ <b>กรุณาดาวน์โหลดและจัดเก็บคีย์นี้ไว้ในที่ปลอดภัยทันที เนื่องจากทีหลังคุณจะไม่สามารถเข้าถึงหน้านี้ได้อีก</b>
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = ข้อผิดพลาด:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = กำลังยืนยันการลงชื่อเข้า…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = การยืนยันผิดพลาด
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = ลิงก์ยืนยันหมดอายุ
+signin-link-expired-message-2 = ลิงก์ที่คุณคลิกหมดอายุแล้วหรือถูกใช้ไปแล้ว
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = ใส่รหัสผ่านของคุณ<span>สำหรับ{ -product-mozilla-account } ของคุณ</span>
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1387,9 +1420,17 @@ signin-link-expired-header = ลิงก์ยืนยันหมดอาย
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = ย้อนกลับ
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = คุณถูกล็อกใช่หรือไม่?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = ต้องใส่รหัสยืนยันตัวตน
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = ขอบคุณที่เฝ้าระวังอยู่เสมอ
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
