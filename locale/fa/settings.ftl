@@ -57,10 +57,24 @@ recovery-key-pdf-instructions = این کلید به شما اجازه می‌د
 recovery-key-pdf-storage-ideas-heading = مکان‌هایی برای نگه‌داری کلید شما
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = بیشتر در مورد کلید بازیابی حساب خود بدانید
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = متاسفیم، مشکلی در بارگیری کلید بازیابی حساب شما وجود داشت.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = بیشتر از { -brand-mozilla } دریافت کنید:
+# Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = اخبار و به‌روزرسانی‌های محصول جدید ما
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = دسترسی اولیه به آزمایش محصولات جدید
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = هشدارهای عملی برای بازپس‌گیری اینترنت
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -99,6 +113,23 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }، { $region }، { $country } (تخمین زده‌شده)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (تخمین زده‌شده)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (تخمین زده‌شده)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (تخمین زده‌شده)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = مکان ناشناخته
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } بر روی { $genericOSName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = نشانی IP: { $ipAddress }
@@ -116,6 +147,8 @@ form-reset-password-with-balloon-confirm-password =
     .label = گذرواژه را دوباره وارد کنید
 form-reset-password-with-balloon-submit-button = بازنشانی گذرواژه
 form-reset-password-with-balloon-match-error = گذرواژه‌ها منطبق نیستند
+form-password-sr-too-short-message = گذرواژه باید حداقل حاوی ۸ نویسه باشد.
+form-password-sr-not-email-message = گذرواژه نباید حاوی نشانی رایانامه شما باشد.
 
 ## FormPasswordInlineCriteria
 
