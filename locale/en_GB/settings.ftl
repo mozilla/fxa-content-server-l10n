@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Alert
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Attention
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Warning
 authenticator-app-aria-label =
     .aria-label = Authenticator Application
-backup-codes-icon-aria-label =
-    .aria-label = Backup codes enabled
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Backup codes disabled
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Backup authentication codes enabled
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Backup authentication codes disabled
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Recovery SMS enabled
@@ -893,10 +900,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Save these one-time use backup authentication codes in a safe place for when
     you don’t have your mobile device.
-tfa-enter-code-to-confirm-1 =
-    Please enter one of your backup authentication codes now to
-    confirm you’ve saved it. You’ll need a code to login if you don’t have access to your
-    mobile device.
+tfa-enter-code-to-confirm-v2 =
+    Please enter one of your new backup authentication codes to
+    confirm that you have saved them. Your old backup authentication codes will be disabled once this step is completed.
 tfa-enter-recovery-code-1 =
     .label = Enter a backup authentication code
 
@@ -951,6 +957,22 @@ security-set-password = Set a password to synchronise and use certain account se
 security-recent-activity-link = View recent account activity
 signout-sync-header = Session Expired
 signout-sync-session-expired = Sorry, something went wrong. Please sign out from the browser menu and try again.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = No codes available
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } codes remaining
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Get new codes
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Add
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = This is the safest recovery method if you canʼt access your mobile device or authenticator app.
 
 ## Switch component
 
@@ -1035,9 +1057,8 @@ se-secondary-email-none = None
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Two-step authentication
-tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-enabled = Enabled
-tfa-row-not-set = Not Set
+tfa-row-disabled-status = Disabled
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
 tfa-row-button-refresh =
@@ -1045,19 +1066,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Sorry, there was a problem refreshing two-step
     authentication.
-tfa-row-content-explain =
-    Prevent someone else from logging in by requiring a
-    unique code only you have access to.
+tfa-row-enabled-description = Your account is protected by two-step authentication. You will need to enter a one-time passcode from your authentication app when logging into your { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Help secure your account by using a <linkExternal>third-party authenticator app</linkExternal> as a second step to sign in.
 tfa-row-cannot-verify-session-4 = Sorry, there was a problem confirming your session
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain-1 =
     You won’t be able to undo this action. You also
     have the option of <linkExternal>replacing your backup authentication codes</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
-tfa-row-change-modal-heading-1 = Change backup authentication codes?
-tfa-row-change-modal-confirm = Change
-tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
