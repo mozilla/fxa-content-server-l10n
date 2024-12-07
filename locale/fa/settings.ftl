@@ -239,15 +239,35 @@ checkmark-icon-aria-label =
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = موفق
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = فعال شد
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = بستن پیام
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = کد
 error-icon-aria-label =
     .aria-label = خطا
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = اطلاعات
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = پرچم ایالات متحده آمریکا
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = یک رایانه و یک تلفن همراه و تصویری از یک قلب شکسته روی هر کدام
+hearts-verified-image-aria-label =
+    .aria-label = یک رایانه و یک تلفن همراه و یک تبلت با یک قلب تپنده روی هر کدام
+signin-recovery-code-image-description =
+    .aria-label = سندی که دارای متن پنهان است.
+signin-totp-code-image-label =
+    .aria-label = یک دستگاه با کد ۶ رقمی پنهان.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
