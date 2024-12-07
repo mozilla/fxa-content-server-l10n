@@ -772,11 +772,11 @@ recent-activity-account-reset-v2 = เรียกการตั้งรหั
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = ล้างการตีกลับของอีเมลแล้ว
 recent-activity-account-login-failure = การพยายามเข้าสู่ระบบบัญชีล้มเหลว
-recent-activity-account-two-factor-added = เปิดใช้งานการยืนยันตัวตนสองขั้นแล้ว
-recent-activity-account-two-factor-requested = ร้องขอการยืนยันตัวตนสองขั้นแล้ว
-recent-activity-account-two-factor-failure = การยืนยันตัวตนสองขั้นล้มเหลว
-recent-activity-account-two-factor-success = การยืนยันตัวตนสองขั้นสำเร็จ
-recent-activity-account-two-factor-removed = เอาการยืนยันตัวตนสองขั้นออกแล้ว
+recent-activity-account-two-factor-added = เปิดใช้งานการยืนยันตัวตนสองขั้นตอนแล้ว
+recent-activity-account-two-factor-requested = ร้องขอการยืนยันตัวตนสองขั้นตอนแล้ว
+recent-activity-account-two-factor-failure = การยืนยันตัวตนสองขั้นตอนล้มเหลว
+recent-activity-account-two-factor-success = การยืนยันตัวตนสองขั้นตอนสำเร็จ
+recent-activity-account-two-factor-removed = ลบการยืนยันตัวตนสองขั้นตอนออกแล้ว
 recent-activity-account-password-reset-requested = บัญชีร้องขอการตั้งรหัสผ่านใหม่แล้ว
 recent-activity-account-password-reset-success = การตั้งรหัสผ่านบัญชีใหม่สำเร็จ
 recent-activity-account-recovery-key-added = เปิดใช้งานคีย์กู้คืนบัญชีแล้ว
@@ -840,18 +840,18 @@ delete-account-link = ลบบัญชี
 
 ## Two Step Authentication
 
-tfa-title = การยืนยันตัวบุคคลแบบสองขั้นตอน
+tfa-title = การยืนยันตัวตนสองขั้นตอน
 tfa-step-1-3 = ขั้นตอนที่ 1 จาก 3
 tfa-step-2-3 = ขั้นตอนที่ 2 จาก 3
 tfa-step-3-3 = ขั้นตอนที่ 3 จาก 3
 tfa-button-continue = ดำเนินการต่อ
 tfa-button-cancel = ยกเลิก
 tfa-button-finish = เสร็จสิ้น
-tfa-incorrect-totp = รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง
+tfa-incorrect-totp = รหัสยืนยันตัวตนสองขั้นตอนไม่ถูกต้อง
 tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
 tfa-cannot-verify-code-4 = มีปัญหาขณะยืนยันรหัสยืนยันตัวตนสำรองของคุณ
 tfa-incorrect-recovery-code-1 = รหัสยืนยันตัวตนสำรองไม่ถูกต้อง
-tfa-enabled = เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
+tfa-enabled = เปิดใช้งานการยืนยันตัวตนสองขั้นตอนแล้ว
 tfa-scan-this-code =
     สแกนคิวอาร์โค้ดนี้โดยใช้หนึ่งใน<linkExternal>แอปยืนยันตัวตน
     เหล่านี้</linkExternal>
@@ -1007,24 +1007,22 @@ se-secondary-email-none = ไม่มี
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = การยืนยันตัวตนแบบสองชั้น
+tfa-row-header = การยืนยันตัวตนสองขั้นตอน
 tfa-row-enabled = เปิดใช้งานอยู่
 tfa-row-action-add = เพิ่ม
 tfa-row-action-disable = ปิดใช้งาน
 tfa-row-button-refresh =
-    .title = เรียกการยืนยันตัวตนแบบสองชั้นใหม่
-tfa-row-cannot-refresh =
-    ขออภัย เกิดปัญหาในการเรียกการยืนยันตัวตน
-    แบบสองชั้นใหม่
+    .title = เรียกการยืนยันตัวตนสองขั้นตอนใหม่
+tfa-row-cannot-refresh = ขออภัย เกิดปัญหาในการเรียกการยืนยันตัวตนสองขั้นตอนใหม่
 tfa-row-cannot-verify-session-4 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
-tfa-row-disable-modal-heading = ต้องการปิดใช้งานการยืนยันตัวตนแบบสองชั้นหรือไม่?
+tfa-row-disable-modal-heading = ต้องการปิดใช้งานการยืนยันตัวตนสองขั้นตอนหรือไม่?
 tfa-row-disable-modal-confirm = ปิดใช้งาน
 tfa-row-disable-modal-explain-1 =
     คุณจะไม่สามารถยกเลิกการกระทำนี้ได้ คุณยัง
     มีตัวเลือกในการ<linkExternal>แทนที่รหัสยืนยันตัวตนสำรองของคุณ</linkExternal>
 # Shown in an alert bar after two-step authentication is disabled
-tfa-row-disabled-2 = ปิดใช้งานการยืนยันตัวตนแบบสองชั้นแล้ว
-tfa-row-cannot-disable-2 = ไม่สามารถปิดใช้งานการยืนยันตัวตนแบบสองชั้นได้
+tfa-row-disabled-2 = ปิดใช้งานการยืนยันตัวตนสองขั้นตอนแล้ว
+tfa-row-cannot-disable-2 = ไม่สามารถปิดใช้งานการยืนยันตัวตนสองขั้นตอนได้
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1182,7 +1180,7 @@ inline-recovery-confirmation-header-default = ยืนยันรหัสย�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยัง { $serviceName }</span>
-inline-recovery-2fa-enabled = เปิดใช้งานการยืนยันตัวตนสองขั้นแล้ว
+inline-recovery-2fa-enabled = เปิดใช้งานการยืนยันตัวตนสองขั้นตอนแล้ว
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1192,9 +1190,9 @@ inline-totp-setup-continue-button = ดำเนินการต่อ
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = ปกป้องบัญชีของคุณให้ปลอดภัยอีกขั้นโดยกำหนดรหัสยืนยันตัวตนจากหนึ่งใน<authenticationAppsLink>แอปยืนยันตัวตนเหล่านี้</authenticationAppsLink>
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header-2 = เปิดใช้งานการยืนยันตัวตนสองขั้น<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = เปิดใช้งานการยืนยันตัวตนสองขั้นตอน<span>เพื่อไปยังการตั้งค่าบัญชี</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header-2 = เปิดใช้งานการยืนยันตัวตนสองขั้น<span>เพื่อไปยัง { $serviceName }</span>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = เปิดใช้งานการยืนยันตัวตนสองขั้นตอน<span>เพื่อไปยัง { $serviceName }</span>
 inline-totp-setup-ready-button = พร้อม
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
@@ -1299,9 +1297,18 @@ pair-sync-your-device-button = ซิงค์อุปกรณ์ของค�
 pair-or-download-subheader = หรือดาวน์โหลด
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
 pair-scan-to-download-message = สแกนเพื่อดาวน์โหลด { -brand-firefox } สำหรับมือถือ หรือส่ง<linkExternal>ลิงก์ดาวน์โหลด</linkExternal>ให้ตัวคุณเอง
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = ยังไม่ทำตอนนี้
+pair-take-your-data-message = นำแท็บ ที่คั่นหน้า และรหัสผ่านของคุณไปด้วยในทุกที่ที่ใช้ { -brand-firefox }
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = เริ่มต้น
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = คิวอาร์โค้ด
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = เชื่อมต่ออุปกรณ์แล้ว
+pair-success-message-2 = การจับคู่สำเร็จ
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1412,12 +1419,37 @@ signin-link-expired-message-2 = ลิงก์ที่คุณคลิกห
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = ใส่รหัสผ่านของคุณ<span>สำหรับ{ -product-mozilla-account } ของคุณ</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = ดำเนินการต่อไปยัง <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = ดำเนินการต่อไปยัง { $serviceName }
+signin-subheader-without-logo-default = ดำเนินการต่อไปยังการตั้งค่าบัญชี
+signin-button = ลงชื่อเข้า
+signin-header = ลงชื่อเข้า
+signin-use-a-different-account-link = ใช้บัญชีอื่น
+signin-forgot-password-link = ลืมรหัสผ่านใช่หรือไม่?
+signin-password-button-label = รหัสผ่าน
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = ลิงก์ที่คุณคลิกมีอักขระไม่ครบซึ่งอาจจะเพราะโปรแกรมอ่านอีเมลของคุณ คัดลอกที่อยู่อย่างระมัดระวัง และลองอีกครั้งหนึ่ง
+report-signin-header = รายงานการลงชื่อเข้าใช้ที่ไม่ได้รับอนุญาตใช่หรือไม่?
+report-signin-body = คุณได้รับอีเมลเกี่ยวกับความพยายามเข้าถึงบัญชีของคุณ คุณต้องการรายงานกิจกรรมนี้เป็นสิ่งน่าสงสัยหรือไม่?
+report-signin-submit-button = รายงานกิจกรรม
+report-signin-support-link = ทำไมสิ่งนี้จึงเกิดขึ้น?
+report-signin-error = ขออภัย เกิดปัญหาในการส่งรายงาน
+signin-bounced-header = ขออภัย เราได้ล็อกบัญชีของคุณแล้ว
+# $email (string) - The user's email.
+signin-bounced-message = อีเมลยืนยันที่เราส่งไปยัง { $email } ถูกตีกลับ เราจึงล็อกบัญชีของคุณเพื่อปกป้องข้อมูลใน { -brand-firefox } ของคุณ
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = ถ้านี่เป็นที่อยู่อีเมลที่ถูกต้อง โปรด<linkExternal>แจ้งเราให้ทราบ</linkExternal>และเราก็อาจจะช่วยปลดล็อกบัญชีของคุณได้
+signin-bounced-create-new-account = ไม่ได้เป็นเจ้าของอีเมลนั้นแล้วใช่หรือไม่? สร้างบัญชีใหม่
+back = ย้อนกลับ
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
@@ -1431,6 +1463,12 @@ signin-password-needed-header-2 = ใส่รหัสผ่านของค�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = ลงชื่อเข้า
+signin-recovery-code-sub-heading = ใส่รหัสยืนยันตัวตนสำรอง
+signin-recovery-code-instruction-v2 = ใส่หนึ่งในรหัสยืนยันตัวตนสำรองแบบใช้ครั้งเดียวที่คุณบันทึกไว้ระหว่างการตั้งค่าการยืนยันตัวตนสองขั้นตอน
+signin-recovery-code-input-label-v2 = ใส่รหัส 10 ตัวอักขระ
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = ยืนยัน
 # Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = ย้อนกลับ
 # External link for support if the user can't use two-step autentication or a backup authentication code

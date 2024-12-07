@@ -299,8 +299,8 @@ postAddLinkedAccount-subject-2 = มีบัญชีใหม่เชื่�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = ได้เชื่อมโยงบัญชี { $providerName } ของคุณกับ{ -product-mozilla-account } ของคุณแล้ว
 postAddLinkedAccount-action = จัดการบัญชี
-postAddTwoStepAuthentication-subject-2 = เปิดการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
-postAddTwoStepAuthentication-title-2 = คุณเปิดการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
+postAddTwoStepAuthentication-subject-2 = เปิดการยืนยันตัวตนสองขั้นตอนแล้ว
+postAddTwoStepAuthentication-title-2 = คุณเปิดการยืนยันตัวตนสองขั้นตอนแล้ว
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = คุณเปิดใช้งานจาก:
 postAddTwoStepAuthentication-action = จัดการบัญชี
@@ -341,8 +341,8 @@ postRemoveSecondary-title = อีเมลสำรองถูกลบแล�
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = คุณได้ลบ { $secondaryEmail } จากอีเมลสำรองจาก{ -product-mozilla-account } ของคุณสำเร็จแล้ว การแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะไม่มีการส่งไปยังที่อยู่นี้อีก
 postRemoveSecondary-action = จัดการบัญชี
-postRemoveTwoStepAuthentication-subject-line-2 = ปิดการยืนยันตัวตนแบบสองขั้นตอนแล้ว
-postRemoveTwoStepAuthentication-title-2 = คุณได้ปิดการยืนยันตัวตนแบบสองขั้นตอนแล้ว
+postRemoveTwoStepAuthentication-subject-line-2 = ปิดการยืนยันตัวตนสองขั้นตอนแล้ว
+postRemoveTwoStepAuthentication-title-2 = คุณได้ปิดการยืนยันตัวตนสองขั้นตอนแล้ว
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = คุณได้ปิดใช้งานจาก:
 postRemoveTwoStepAuthentication-action = จัดการบัญชี

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-07 15:09+0000\n"
+"PO-Revision-Date: 2024-12-07 15:19+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -34,7 +34,7 @@ msgstr "ได้ลบบัญชีเรียบร้อยแล้ว"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "ใช้รหัส %(code)s เพื่อตั้งค่าการยืนยันตัวบุคคลแบบสองขั้นตอนในแอพพลิเคชั่นที่รองรับ"
+msgstr "ใช้รหัส %(code)s เพื่อตั้งค่าการยืนยันตัวตนสองขั้นตอนในแอปพลิเคชันที่รองรับ"
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -187,7 +187,7 @@ msgstr "รหัสยืนยันตัวตนสำรอง Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
-msgstr "เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว"
+msgstr "เปิดใช้งานการยืนยันตัวตนสองขั้นตอนแล้ว"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
@@ -479,7 +479,7 @@ msgstr "คีย์การกู้คืนบัญชีไม่ถูก
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
-msgstr "คำขอนี้ต้องเปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนในบัญชีของคุณ"
+msgstr "คำขอนี้ต้องเปิดใช้งานการยืนยันตัวตนสองขั้นตอนในบัญชีของคุณ"
 
 #: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
@@ -664,11 +664,11 @@ msgstr "ต้องการเบอร์โทรศัพท์"
 
 #: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
-msgstr "จำเป็นต้องใช้รหัสการยืนยันตัวบุคคลแบบสองขั้นตอน"
+msgstr "ต้องใส่รหัสยืนยันตัวตนสองขั้นตอน"
 
 #: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
-msgstr "รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง"
+msgstr "รหัสยืนยันตัวตนสองขั้นตอนไม่ถูกต้อง"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
@@ -1245,7 +1245,7 @@ msgstr "รหัสยืนยันตัวตนสำรอง"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr "เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอน"
+msgstr "เปิดใช้งานการยืนยันตัวตนสองขั้นตอน"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
