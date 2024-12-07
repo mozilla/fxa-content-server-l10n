@@ -389,6 +389,7 @@ coupon-expired = Схоже, термін дії промо-коду минув.
 card-error = Ваш платіж не вдалося обробити. Підтвердьте дані своєї кредитної картки та повторіть спробу.
 country-currency-mismatch = Валюта цієї передплати недійсна для країни, пов’язаної з вашим платежем.
 currency-currency-mismatch = Перепрошуємо. Ви не можете перемикатися між валютами.
+location-unsupported = Згідно з нашими Умовами надання послуг ваше поточне розташування не підтримується.
 no-subscription-change = Перепрошуємо, але ви не можете змінити свій тарифний план.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Ви вже оформили передплату через { $mobileAppStore }.
@@ -403,6 +404,7 @@ product-profile-error =
 product-customer-error =
     .title = Не вдалося завантажити сторінку клієнта
 product-plan-not-found = Тарифний план не знайдено
+product-location-unsupported-error = Розташування не підтримується
 
 ## Hooks - coupons
 

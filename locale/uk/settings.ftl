@@ -212,8 +212,18 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Попередження
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Увага
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Попередження
 authenticator-app-aria-label =
     .aria-label = Програма автентифікації
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Резервні коди автентифікації увімкнено
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Резервні коди автентифікації вимкнено
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Відновлення через SMS увімкнено
@@ -890,6 +900,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Збережіть ці одноразові резервні коди автентифікації у безпечному місці
     на випадок відсутності мобільного пристрою.
+tfa-enter-code-to-confirm-v2 =
+    Введіть один із ваших резервних кодів автентифікації,
+    щоб упевнитися, що ви їх зберегли. Після завершення цього кроку ваші старі резервні коди автентифікації буде вимкнено.
 tfa-enter-recovery-code-1 =
     .label = Введіть резервний код автентифікації
 
@@ -947,6 +960,19 @@ signout-sync-session-expired = Перепрошуємо, щось пішло н�
 
 ## Settings sub row
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Немає доступних кодів
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Залишилося { $numCodesAvailable } кодів
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Отримати нові коди
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Додати
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Це найбезпечніший спосіб відновлення, якщо ви не можете отримати доступ до свого мобільного пристрою чи програми автентифікації.
 
 ## Switch component
 
@@ -1032,6 +1058,7 @@ se-secondary-email-none = Немає
 
 tfa-row-header = Двоетапна перевірка
 tfa-row-enabled = Увімкнено
+tfa-row-disabled-status = Вимкнено
 tfa-row-action-add = Додати
 tfa-row-action-disable = Вимкнути
 tfa-row-button-refresh =
@@ -1039,6 +1066,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Перепрошуємо, але при оновленні двоетапної перевірки
     виникла проблема.
+tfa-row-enabled-description = Ваш обліковий запис захищено двоетапною перевіркою. Під час входу в { -product-mozilla-account } вам потрібно буде ввести одноразовий код із програми автентифікації.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Допоможіть захистити свій обліковий запис, використовуючи <linkExternal>сторонню програму автентифікації</linkExternal> як другий крок для входу.
 tfa-row-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
@@ -1088,6 +1118,7 @@ auth-error-114-generic = Ви зробили забагато спроб. Пов
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Ви зробили надто багато спроб. Повторіть спробу через { $retryAfter }.
+auth-error-125 = Запит заблоковано з міркувань безпеки
 auth-error-138-2 = Непідтверджений сеанс
 auth-error-139 = Додаткова адреса електронної пошти повинна відрізнятися від адреси вашого облікового запису
 auth-error-155 = TOTP-код не знайдено
@@ -1362,6 +1393,8 @@ pair-unsupported-message = Ви використали системну каме
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Створити пароль
+set-password-info = Для захисту вашої приватності синхронізовані дані зашифровано за допомогою пароля.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
