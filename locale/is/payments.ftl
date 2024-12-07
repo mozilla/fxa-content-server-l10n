@@ -361,6 +361,7 @@ coupon-expired = Það lítur út fyrir að þessi tilboðskóði sé útrunninn
 card-error = Ekki tókst að vinna úr færslunni þinni. Staðfestu greiðslukortaupplýsingarnar þínar og reyndu aftur.
 country-currency-mismatch = Gjaldmiðill þessarar áskriftar gildir ekki fyrir landið sem tengist greiðslunni þinni.
 currency-currency-mismatch = Því miður. Þú getur ekki skipt á milli gjaldmiðla.
+location-unsupported = Núverandi staðsetning þín er ekki studd samkvæmt þjónustuskilmálum okkar.
 no-subscription-change = Því miður. Þú getur ekki breytt áskriftarleiðinni þinni.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Þú ert nú þegar áskrifandi í gegnum { $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Vandamál við að hlaða inn viðskiptavini
 product-plan-not-found = Áskriftarleið fannst ekki
+product-location-unsupported-error = Staðsetning ekki studd
 
 ## Hooks - coupons
 

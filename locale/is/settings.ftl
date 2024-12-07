@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Aðvörun
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Athugaðu
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Aðvörun
 authenticator-app-aria-label =
     .aria-label = Auðkenningarforrit
-backup-codes-icon-aria-label =
-    .aria-label = Öryggisafritunarkóðar virkir
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Öryggisafritunarkóðar óvirkir
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Varaauðkenningarkóðar virkjaðir
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Varaauðkenningarkóðar óvirkir
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Endurheimtu-SMS virkt
@@ -888,9 +895,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
     þegar þú ert ekki með snjalltækið þitt við hendina.
-tfa-enter-code-to-confirm-1 =
-    Settu núna inn einn af varaauðkenningarkóðunum þínum til að
-    staðfesta að þú hafir vistað hann. Þú þarft kóða til að skrá þig inn ef þú hefur ekki aðgang að snjalltækinu þínu.
 tfa-enter-recovery-code-1 =
     .label = Settu inn varaauðkenningarkóða
 
@@ -945,6 +949,20 @@ security-set-password = Settu lykilorð til að samstilla og nota ákveðna öry
 security-recent-activity-link = Skoða nýlega virkni á reikningi
 signout-sync-header = Lotan er útrunnin
 signout-sync-session-expired = Því miður, eitthvað fór úrskeiðis. Skráðu þig út í gegnum valmynd vafrans og reyndu aftur.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Engir kóðar til taks
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } kóðar eftir
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Sækja nýja kóða
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Bæta við
 
 ## Switch component
 
@@ -1029,9 +1047,8 @@ se-secondary-email-none = Ekkert
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tveggja-þrepa auðkenning
-tfa-row-disabled-2 = Tveggja-þrepa auðkenning óvirk
 tfa-row-enabled = Virkjað
-tfa-row-not-set = Ekki stillt
+tfa-row-disabled-status = Óvirkt
 tfa-row-action-add = Bæta við
 tfa-row-action-disable = Gera óvirkt
 tfa-row-button-refresh =
@@ -1039,19 +1056,16 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Því miður kom upp vandamál við að endurnýja tveggja-þrepa
     auðkenningu.
-tfa-row-content-explain =
-    Komdu í veg fyrir að einhver annar skrái sig inn með því að krefjast
-    einstaks kóða sem aðeins þú hefur aðgang að.
+tfa-row-enabled-description = Reikningurinn þinn er varinn með tveggja-þrepa auðkenningu. Þú þarft að setja einu sinni inn aðgangskóða úr auðkenningarforritinu þínu þegar þú skráir þig inn á { -product-mozilla-account } þinn.
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
 tfa-row-disable-modal-explain-1 =
     Þú munt ekki geta afturkallað þessa aðgerð. Þú hefur
     einnig möguleika á að <linkExternal>skipta um varaauðkenningarkóðana þína</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Tveggja-þrepa auðkenning óvirk
 tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka
-tfa-row-change-modal-heading-1 = Skipta um varaauðkenningarkóða?
-tfa-row-change-modal-confirm = Breyta
-tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
