@@ -215,6 +215,11 @@ alert-icon-aria-label =
 # Aria-label option for an alert symbol
 icon-attention-aria-label =
     .aria-label = توجه
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = اخطار
+authenticator-app-aria-label =
+    .aria-label = برنامه احراز هویت
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = کد
