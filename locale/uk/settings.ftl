@@ -209,14 +209,11 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Попередження
 authenticator-app-aria-label =
     .aria-label = Програма автентифікації
-backup-codes-icon-aria-label =
-    .aria-label = Резервні коди ввімкнено
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Резервні коди вимкнено
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Відновлення через SMS увімкнено
@@ -893,10 +890,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Збережіть ці одноразові резервні коди автентифікації у безпечному місці
     на випадок відсутності мобільного пристрою.
-tfa-enter-code-to-confirm-1 =
-    Введіть один із ваших резервних кодів автентифікації зараз, щоб
-    підтвердити його збереження. Вам знадобиться код для входу, якщо
-    ви не матимете доступу до свого мобільного пристрою.
 tfa-enter-recovery-code-1 =
     .label = Введіть резервний код автентифікації
 
@@ -951,6 +944,9 @@ security-set-password = Встановіть пароль для синхрон�
 security-recent-activity-link = Переглянути останні дії в обліковому записі
 signout-sync-header = Сеанс завершився
 signout-sync-session-expired = Перепрошуємо, щось пішло не так. Вийдіть через меню браузера та повторіть спробу.
+
+## Settings sub row
+
 
 ## Switch component
 
@@ -1035,9 +1031,7 @@ se-secondary-email-none = Немає
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двоетапна перевірка
-tfa-row-disabled-2 = Двоетапна перевірка вимкнена
 tfa-row-enabled = Увімкнено
-tfa-row-not-set = Не налаштовано
 tfa-row-action-add = Додати
 tfa-row-action-disable = Вимкнути
 tfa-row-button-refresh =
@@ -1045,19 +1039,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Перепрошуємо, але при оновленні двоетапної перевірки
     виникла проблема.
-tfa-row-content-explain =
-    Запобігайте входу когось іншого, вимагаючи
-    унікальний код, який є лише у вас.
 tfa-row-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
 tfa-row-disable-modal-explain-1 =
     Ви не зможете скасувати цю дію. Ви також маєте
     можливість <linkExternal>замінити резервні коди автентифікації</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Двоетапна перевірка вимкнена
 tfa-row-cannot-disable-2 = Неможливо вимкнути двоетапну перевірку
-tfa-row-change-modal-heading-1 = Змінити резервні коди автентифікації?
-tfa-row-change-modal-confirm = Змінити
-tfa-row-change-modal-explain = Ви не зможете скасувати цю дію.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1368,6 +1358,11 @@ pair-wait-for-auth-heading-text = Відтепер підтвердження з
 pair-unsupported-header = Створення пари за допомогою програми
 pair-unsupported-message = Ви використали системну камеру? Ви повинні створити пару через програму { -brand-firefox }.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1425,9 +1420,13 @@ confirm-reset-password-otp-different-account-link = Використати ін�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Відновити свій пароль
+confirm-totp-reset-password-subheader-v2 = Введіть код двоетапної перевірки
+confirm-totp-reset-password-instruction-v2 = Перевірте <strong>програму автентифікації</strong>, щоб скинути пароль.
 confirm-totp-reset-password-trouble-code = Проблеми з введенням коду?
 confirm-totp-reset-password-confirm-button = Підтвердити
+confirm-totp-reset-password-input-label-v2 = Введіть код із 6 цифр
 confirm-totp-reset-password-use-different-account = Використати інший обліковий запис
+confirm-recovery-code-reset-password-input-label = Введіть код із 10 цифр
 confirm-recovery-code-reset-password-trouble-code = Назад
 
 ## ResetPassword start page
@@ -1525,6 +1524,7 @@ signin-push-code-confirm-link-error = Посилання пошкоджено. �
 
 signin-recovery-code-heading = Увійти
 signin-recovery-code-sub-heading = Введіть резервний код автентифікації
+signin-recovery-code-instruction-v2 = Введіть один із одноразових резервних кодів автентифікації, які ви зберегли під час налаштування двоетапної перевірки.
 signin-recovery-code-input-label-v2 = Введіть 10-значний код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Підтвердити
@@ -1565,7 +1565,9 @@ signin-token-code-resend-error = Щось пішло не так. Не вдал�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Введіть код двоетапної перевірки
 signin-totp-code-instruction-v4 = Підтвердьте вхід у <strong>програмі автентифікації</strong>.
+signin-totp-code-input-label-v4 = Введіть код із 6 цифр
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Підтвердити
 signin-totp-code-other-account-link = Використати інший обліковий запис
