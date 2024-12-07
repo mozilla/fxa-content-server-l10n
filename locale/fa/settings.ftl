@@ -48,6 +48,15 @@ recovery-key-pdf-heading = کلید بازیابی حساب کاربری
 recovery-key-pdf-download-date = تولید شده: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = کلید بازیابی حساب کاربری
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = این کلید به شما اجازه می‌دهد تا در صورت فراموشی گذرواژه‌ها، داده‌های رمزگذاری‌شده مرورگر خود (شامل گذرواژه‌ها، نشانک‌ها و تاریخچه) را بازیابی کنید. آن را در محلی نگه‌دارید که به خاطر می‌آورید.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = مکان‌هایی برای نگه‌داری کلید شما
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = بیشتر در مورد کلید بازیابی حساب خود بدانید
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -56,6 +65,9 @@ recovery-key-pdf-key-legend = کلید بازیابی حساب کاربری
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = انتخاب کنید که چه چیزهایی همگام‌‌سازی شوند
 choose-what-to-sync-option-bookmarks =
     .label = نشانک‌ها
 choose-what-to-sync-option-history =
