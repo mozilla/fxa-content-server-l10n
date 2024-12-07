@@ -209,14 +209,11 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = สัญลักษณ์เตือน
 authenticator-app-aria-label =
     .aria-label = แอปพลิเคชันเครื่องมือยืนยันตัวตน
-backup-codes-icon-aria-label =
-    .aria-label = เปิดใช้งานรหัสสำรองแล้ว
-backup-codes-disabled-icon-aria-label =
-    .aria-label = ปิดใช้งานรหัสสำรองแล้ว
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = เปิดใช้งาน SMS กู้คืนแล้ว
@@ -522,6 +519,7 @@ cs-sign-out-button = ลงชื่อออก
 ## Data collection section
 
 dc-heading = การเก็บรวบรวมและใช้ข้อมูล
+dc-subheader-content-2 = อนุญาตให้{ -product-mozilla-accounts } ส่งข้อมูลด้านเทคนิคและการโต้ตอบไปยัง { -brand-mozilla }
 dc-subheader-ff-content = ถ้าต้องการตรวจสอบหรือปรับปรุงการตั้งค่าด้านเทคนิคและข้อมูลการโต้ตอบในเบราว์เซอร์ { -brand-firefox } ของคุณ ให้เปิดการตั้งค่า { -brand-firefox } และไปยัง “ความเป็นส่วนตัวและความปลอดภัย”
 dc-opt-out-success-2 = ยกเลิกสำเร็จ { -product-mozilla-accounts } จะไม่ส่งข้อมูลด้านเทคนิคหรือการโต้ตอบให้กับ { -brand-mozilla }
 dc-opt-in-success-2 = ขอบคุณ! การร่วมให้ข้อมูลนี้ช่วยเราปรับปรุง { -product-mozilla-accounts } ให้ดีขึ้นได้
@@ -871,7 +869,6 @@ tfa-enter-totp-v2 = ทีนี้ ให้ป้อนรหัสยืน�
 tfa-input-enter-totp-v2 =
     .label = ป้อนรหัสยืนยันตัวตน
 tfa-save-these-codes-1 = บันทึกรหัสยืนยันตัวตนสำรองแบบใช้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัยเพื่อใช้เมื่อคุณไม่มีอุปกรณ์มือถือ
-tfa-enter-code-to-confirm-1 = กรุณาป้อนหนึ่งในรหัสยืนยันตัวตนสำรองของคุณทันที เพื่อยืนยันว่าคุณได้บันทึกไว้แล้ว คุณจะต้องใช้รหัสเพื่อเข้าสู่ระบบหากคุณไม่สามารถเข้าถึงอุปกรณ์มือถือของคุณได้
 tfa-enter-recovery-code-1 =
     .label = ป้อนรหัสยืนยันตัวตนสำรอง
 
@@ -926,6 +923,9 @@ security-set-password = ตั้งรหัสผ่านเพื่อซ�
 security-recent-activity-link = ดูกิจกรรมบัญชีล่าสุด
 signout-sync-header = วาระหมดอายุ
 signout-sync-session-expired = ขออภัย มีบางอย่างผิดพลาด กรุณาลงชื่อออกจากเมนูเบราว์เซอร์แล้วลองอีกครั้ง
+
+## Settings sub row
+
 
 ## Switch component
 
@@ -1008,9 +1008,7 @@ se-secondary-email-none = ไม่มี
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = การยืนยันตัวตนแบบสองชั้น
-tfa-row-disabled-2 = ปิดใช้งานการยืนยันตัวตนแบบสองชั้นแล้ว
 tfa-row-enabled = เปิดใช้งานอยู่
-tfa-row-not-set = ไม่ได้ตั้งค่า
 tfa-row-action-add = เพิ่ม
 tfa-row-action-disable = ปิดใช้งาน
 tfa-row-button-refresh =
@@ -1018,19 +1016,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     ขออภัย เกิดปัญหาในการเรียกการยืนยันตัวตน
     แบบสองชั้นใหม่
-tfa-row-content-explain =
-    ป้องกันไม่ให้บุคคลอื่นใดเข้าสู่ระบบโดยกำหนด
-    รหัสเฉพาะที่คุณเข้าถึงได้เพียงคนเดียว
 tfa-row-cannot-verify-session-4 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
 tfa-row-disable-modal-heading = ต้องการปิดใช้งานการยืนยันตัวตนแบบสองชั้นหรือไม่?
 tfa-row-disable-modal-confirm = ปิดใช้งาน
 tfa-row-disable-modal-explain-1 =
     คุณจะไม่สามารถยกเลิกการกระทำนี้ได้ คุณยัง
     มีตัวเลือกในการ<linkExternal>แทนที่รหัสยืนยันตัวตนสำรองของคุณ</linkExternal>
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = ปิดใช้งานการยืนยันตัวตนแบบสองชั้นแล้ว
 tfa-row-cannot-disable-2 = ไม่สามารถปิดใช้งานการยืนยันตัวตนแบบสองชั้นได้
-tfa-row-change-modal-heading-1 = ต้องการเปลี่ยนรหัสยืนยันตัวตนสำรองหรือไม่?
-tfa-row-change-modal-confirm = เปลี่ยน
-tfa-row-change-modal-explain = คุณจะไม่สามารถยกเลิกการกระทำนี้ได้
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1218,32 +1212,76 @@ inline-totp-setup-enter-key-or-use-qr-instructions = พิมพ์คีย์
 inline-totp-setup-use-qr-or-enter-key-instructions = สแกนคิวอาร์โค้ดในแอปยืนยันตัวตนของคุณแล้วป้อนรหัสยืนยันตัวตนที่แอปให้มา <toggleToManualModeButton>ไม่สามารถสแกนได้งั้นหรือ?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = เมื่อเสร็จสมบูรณ์แล้ว ระบบจะเริ่มสร้างรหัสยืนยันตัวตนให้คุณป้อน
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = รหัสยืนยันตัวตน
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = ต้องใส่รหัสยืนยันตัวตน
+tfa-qr-code-alt = ใช้รหัส { $code } เพื่อตั้งค่าการยืนยันตัวตนสองขั้นตอนในแอปพลิเคชันที่รองรับ
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = ข้อกฎหมาย
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = เงื่อนไขการให้บริการ
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = ประกาศความเป็นส่วนตัว
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = ประกาศความเป็นส่วนตัว
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = เงื่อนไขการให้บริการ
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = คุณเพิ่งลงชื่อเข้าใช้ { -product-firefox } หรือเปล่า?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = ใช่ อนุมัติอุปกรณ์
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = ถ้านี่ไม่ใช่คุณ ให้<link>เปลี่ยนรหัสผ่านของคุณ</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = เชื่อมต่ออุปกรณ์แล้ว
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = ตอนนี้คุณกำลังซิงค์กับ: { $deviceFamily } บน { $deviceOS }
+pair-auth-complete-sync-benefits-text = ตอนนี้คุณสามารถเข้าถึงแท็บที่เปิดอยู่ รหัสผ่าน และที่คั่นหน้าของคุณได้แล้วจากอุปกรณ์ทั้งหมดของคุณ
+pair-auth-complete-see-tabs-button = ดูแท็บจากอุปกรณ์ที่ซิงค์
+pair-auth-complete-manage-devices-link = จัดการอุปกรณ์
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = ใส่รหัสยืนยันตัวตน<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = ใส่รหัสยืนยันตัวตน<span>เพื่อไปยัง { $serviceName }</span>
+auth-totp-instruction = เปิดแอปยืนยันตัวตนของคุณและป้อนรหัสยืนยันตัวตนที่ให้มา
+auth-totp-input-label = ป้อนรหัส 6 หลัก
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = ยืนยัน
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = ต้องใส่รหัสยืนยันตัวตน
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = ตอนนี้ต้องรอการอนุมัติ<span>จากอุปกรณ์อื่นของคุณ</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1258,18 +1296,36 @@ inline-totp-setup-on-completion-description = เมื่อเสร็จส�
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = ยืนยันการจับคู่<span>สำหรับ { $email }</span>
+pair-supp-allow-confirm-button = ยืนยันการจับคู่
+pair-supp-allow-cancel-link = ยกเลิก
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = ตอนนี้ต้องรอการอนุมัติ<span>จากอุปกรณ์อื่นของคุณ</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = จับคู่โดยใช้แอป
+pair-unsupported-message = คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอป { -brand-firefox }
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = สร้างรหัสผ่าน
+set-password-info = ข้อมูลซิงค์ของคุณจะถูกเข้ารหัสลับด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = กรุณารอ ระบบกำลังเปลี่ยนเส้นทางให้คุณไปยังแอปพลิเคชันที่อนุญาต
 
 ## AccountRecoveryConfirmKey page
 
@@ -1277,9 +1333,23 @@ inline-totp-setup-on-completion-description = เมื่อเสร็จส�
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = สร้างรหัสผ่านใหม่
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = ตั้งรหัสผ่านแล้ว
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = ขออภัย เกิดปัญหาในการตั้งรหัสผ่านของคุณ
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = ใช้คีย์กู้คืนบัญชี
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = รหัสผ่านของคุณได้ถูกตั้งใหม่แล้ว
+reset-password-complete-banner-message = อย่าลืมสร้างคีย์กู้คืนบัญชีใหม่จากหน้าการตั้งค่า{ -product-mozilla-account } ของคุณเพื่อป้องกันปัญหาการลงชื่อเข้าในอนาคต
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = ตรวจดูอีเมลของคุณ
 
 ## PasswordResetConfirmTotp Page
 
