@@ -1046,7 +1046,7 @@ tfa-row-disable-modal-explain-1 =
     Ви не зможете скасувати цю дію. Ви також маєте
     можливість <linkExternal>замінити резервні коди автентифікації</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
-tfa-row-disabled-2 = Двоетапна перевірка вимкнена
+tfa-row-disabled-2 = Двоетапну перевірку вимкнено
 tfa-row-cannot-disable-2 = Неможливо вимкнути двоетапну перевірку
 
 ## TermsPrivacyAgreement
