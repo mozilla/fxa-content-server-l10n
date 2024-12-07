@@ -184,12 +184,12 @@ form-verify-code-default-error = จำเป็นต้องกรอกช�
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may only contain numbers
 # $codeLength : number of digits in a valid code
-form-verify-totp-disabled-button-title-numeric = ใส่รหัส { $codeLength } หลักเพื่อทำต่อ
+form-verify-totp-disabled-button-title-numeric = ใส่รหัส { $codeLength } หลักเพื่อดำเนินการต่อ
 # Information explaining why button is disabled, also read to screen readers
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = ใส่รหัส { $codeLength } ตัวอักขระเพื่อทำต่อ
+form-verify-totp-disabled-button-title-alphanumeric = ใส่รหัส { $codeLength } ตัวอักขระเพื่อดำเนินการต่อ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -560,7 +560,7 @@ flow-recovery-key-download-heading-v2 = สร้างคีย์กู้ค�
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info-v2 = คีย์นี้ช่วยให้คุณสามารถกู้คืนข้อมูลในกรณีที่ลืมรหัสผ่านได้ กรุณาดาวน์โหลดคีย์นี้ทันที แล้วเก็บไว้ในที่ที่คุณสามารถจำได้ เพราะคุณจะไม่สามารถกลับมายังหน้านี้ได้อีก
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link-v2 = ทำต่อไปโดยไม่ดาวน์โหลด
+flow-recovery-key-download-next-link-v2 = ดำเนินการต่อโดยไม่ดาวน์โหลด
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -806,7 +806,7 @@ add-secondary-email-error-2 = เกิดปัญหาในการสร�
 add-secondary-email-page-title =
     .title = อีเมลสำรอง
 add-secondary-email-enter-address =
-    .label = ป้อนที่อยู่อีเมล
+    .label = ใส่ที่อยู่อีเมล
 add-secondary-email-cancel-button = ยกเลิก
 add-secondary-email-save-button = บันทึก
 # This message is shown when a user tries to add a secondary email that is a
@@ -864,13 +864,13 @@ tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
 # When the user cannot use a QR code.
-tfa-enter-secret-key = ป้อนคีย์ลับนี้ลงในแอปยืนยันตัวตนของคุณ:
-tfa-enter-totp-v2 = ทีนี้ ให้ป้อนรหัสยืนยันตัวตนที่ได้จากแอปยืนยันตัวตน
+tfa-enter-secret-key = ใส่คีย์ลับนี้ลงในแอปยืนยันตัวตนของคุณ:
+tfa-enter-totp-v2 = ทีนี้ ให้ใส่รหัสยืนยันตัวตนที่ได้จากแอปยืนยันตัวตน
 tfa-input-enter-totp-v2 =
-    .label = ป้อนรหัสยืนยันตัวตน
+    .label = ใส่รหัสยืนยันตัวตน
 tfa-save-these-codes-1 = บันทึกรหัสยืนยันตัวตนสำรองแบบใช้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัยเพื่อใช้เมื่อคุณไม่มีอุปกรณ์มือถือ
 tfa-enter-recovery-code-1 =
-    .label = ป้อนรหัสยืนยันตัวตนสำรอง
+    .label = ใส่รหัสยืนยันตัวตนสำรอง
 
 ##
 
@@ -1077,8 +1077,8 @@ auth-error-1003 = การเข้าถึงที่เก็บข้อ�
 auth-error-1008 = รหัสผ่านใหม่ของคุณต้องไม่เหมือนเดิม
 auth-error-1010 = ต้องการรหัสผ่านที่ถูกต้อง
 auth-error-1011 = ต้องการอีเมลที่ถูกต้อง
-auth-error-1031 = คุณต้องป้อนอายุของคุณเพื่อลงทะเบียน
-auth-error-1032 = คุณต้องป้อนอายุที่ถูกต้องเพื่อลงทะเบียน
+auth-error-1031 = คุณต้องใส่อายุของคุณเพื่อลงทะเบียน
+auth-error-1032 = คุณต้องใส่อายุที่ถูกต้องเพื่อลงทะเบียน
 auth-error-1062 = การเปลี่ยนเส้นทางไม่ถูกต้อง
 oauth-error-1000 = มีความผิดพลาดบางประการ โปรดปิดแท็บนี้และลองใหม่อีกครั้ง
 
@@ -1129,7 +1129,7 @@ cookies-disabled-learn-more = เรียนรู้เพิ่มเติ�
 
 ## Index / home page
 
-index-header = ป้อนอีเมลของคุณ
+index-header = ใส่อีเมลของคุณ
 index-sync-header = ดำเนินการต่อไปยัง { -product-mozilla-account }
 index-sync-subheader = ซิงค์รหัสผ่าน แท็บ และที่คั่นหน้าของคุณในทุกที่ที่คุณใช้ { -brand-firefox }
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
@@ -1139,7 +1139,7 @@ index-subheader-default = ดำเนินการต่อไปยังก
 index-cta = ลงทะเบียนหรือลงชื่อเข้า
 index-account-info = { -product-mozilla-account } จะช่วยปลดล็อกสิทธิ์เข้าถึงผลิตภัณฑ์ที่ปกป้องความเป็นส่วนตัวจาก { -brand-mozilla } เช่นกัน
 index-email-input =
-    .label = ป้อนอีเมลของคุณ
+    .label = ใส่อีเมลของคุณ
 
 ## InlineRecoveryKeySetup page component
 
@@ -1174,7 +1174,7 @@ inline-recovery-back-link = ย้อนกลับ
 inline-recovery-cancel-setup = ยกเลิกการตั้งค่า
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = รหัสยืนยันตัวตนสำรอง
-inline-recovery-confirmation-description = เพื่อให้แน่ใจว่าคุณจะสามารถเข้าถึงบัญชีของคุณในกรณีที่อุปกรณ์สูญหายได้ กรุณาป้อนหนึ่งในรหัสยืนยันตัวตนสำรองที่คุณบันทึกไว้
+inline-recovery-confirmation-description = เพื่อให้แน่ใจว่าคุณจะสามารถเข้าถึงบัญชีของคุณในกรณีที่อุปกรณ์สูญหายได้ กรุณาใส่หนึ่งในรหัสยืนยันตัวตนสำรองที่คุณบันทึกไว้
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-confirmation-header-default = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
@@ -1200,18 +1200,18 @@ inline-totp-setup-ready-button = พร้อม
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = สแกนรหัสยืนยันตัวตน<span>เพื่อไปยัง { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header-2 = ป้อนรหัสด้วยตนเอง<span>เพื่อไปยัง { $serviceName }</span>
+inline-totp-setup-no-qr-custom-service-header-2 = ใส่รหัสด้วยตนเอง<span>เพื่อไปยัง { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = สแกนรหัสยืนยันตัวตน<span>เพื่อไปยังการตั้งค่าบัญชี</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header-2 = ป้อนรหัสด้วยตนเอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+inline-totp-setup-no-qr-default-service-header-2 = ใส่รหัสด้วยตนเอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
-inline-totp-setup-enter-key-or-use-qr-instructions = พิมพ์คีย์ลับนี้ในแอปพลิเคชันยืนยันตัวตนของคุณ <toggleToQRButton>ต้องการสแกนรหัส QR แทนงั้นหรือ?</toggleToQRButton>
+inline-totp-setup-enter-key-or-use-qr-instructions = พิมพ์คีย์ลับนี้ในแอปพลิเคชันยืนยันตัวตนของคุณ <toggleToQRButton>ต้องการสแกนรหัส QR แทนใช่หรือไม่?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
-inline-totp-setup-use-qr-or-enter-key-instructions = สแกนคิวอาร์โค้ดในแอปยืนยันตัวตนของคุณแล้วป้อนรหัสยืนยันตัวตนที่แอปให้มา <toggleToManualModeButton>ไม่สามารถสแกนได้งั้นหรือ?</toggleToManualModeButton>
+inline-totp-setup-use-qr-or-enter-key-instructions = สแกนคิวอาร์โค้ดในแอปยืนยันตัวตนของคุณแล้วใส่รหัสยืนยันตัวตนที่แอปให้มา <toggleToManualModeButton>ไม่สามารถสแกนได้ใช่หรือไม่?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-on-completion-description = เมื่อเสร็จสมบูรณ์แล้ว ระบบจะเริ่มสร้างรหัสยืนยันตัวตนให้คุณป้อน
+inline-totp-setup-on-completion-description = เมื่อเสร็จสมบูรณ์แล้ว ระบบจะเริ่มสร้างรหัสยืนยันตัวตนให้คุณใส่
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = รหัสยืนยันตัวตน
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1268,8 +1268,8 @@ auth-totp-heading-w-default-service = ใส่รหัสยืนยันต
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = ใส่รหัสยืนยันตัวตน<span>เพื่อไปยัง { $serviceName }</span>
-auth-totp-instruction = เปิดแอปยืนยันตัวตนของคุณและป้อนรหัสยืนยันตัวตนที่ให้มา
-auth-totp-input-label = ป้อนรหัส 6 หลัก
+auth-totp-instruction = เปิดแอปยืนยันตัวตนของคุณและใส่รหัสยืนยันตัวตนที่ให้มา
+auth-totp-input-label = ใส่รหัส 6 หลัก
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = ยืนยัน
 # Error displayed in a tooltip when the form is submitted without a code
@@ -1285,9 +1285,20 @@ pair-wait-for-supp-heading-text = ตอนนี้ต้องรอการ�
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = การจับคู่ไม่สำเร็จ
+pair-failure-message = กระบวนการตั้งค่าถูกยกเลิก
 
 ## Pair index page
 
+pair-sync-header = ซิงค์ { -brand-firefox } บนโทรศัพท์หรือแท็บเล็ตของคุณ
+pair-cad-header = เชื่อมต่อ { -brand-firefox } บนอุปกรณ์อื่น
+pair-already-have-firefox-paragraph = มี { -brand-firefox } อยู่แล้วบนโทรศัพท์หรือแท็บเล็ตใช่หรือไม่?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = ซิงค์อุปกรณ์ของคุณ
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = หรือดาวน์โหลด
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = สแกนเพื่อดาวน์โหลด { -brand-firefox } สำหรับมือถือ หรือส่ง<linkExternal>ลิงก์ดาวน์โหลด</linkExternal>ให้ตัวคุณเอง
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1358,7 +1369,7 @@ confirm-reset-password-with-code-instruction = เราส่งรหัสย
 confirm-reset-password-code-input-group-label = ใส่รหัส 8 หลักภายใน 10 นาที
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
-confirm-reset-password-otp-submit-button = ทำต่อ
+confirm-reset-password-otp-submit-button = ดำเนินการต่อ
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = ส่งรหัสอีกครั้ง
 # Link to cancel the password reset and sign in with a different account
@@ -1373,13 +1384,13 @@ password-reset-flow-heading = ตั้งรหัสผ่านของค�
 password-reset-body-2 = เราจะสอบถามข้อมูลจำนวนหนึ่งซึ่งคุณทราบอยู่เพียงคนเดียว เพื่อปกป้องบัญชีของคุณให้ปลอดภัย
 password-reset-email-input =
     .label = ใส่อีเมลของคุณ
-password-reset-submit-button-2 = ทำต่อ
+password-reset-submit-button-2 = ดำเนินการต่อ
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
 # $serviceName is a product name such as Monitor, Pocket, Relay
-reset-password-confirmed-cta = ทำต่อไปยัง { $serviceName }
+reset-password-confirmed-cta = ดำเนินการต่อไปยัง { $serviceName }
 reset-password-with-recovery-key-verified-page-title = ตั้งรหัสผ่านใหม่สำเร็จ
 reset-password-complete-new-password-saved = บันทึกรหัสผ่านใหม่แล้ว!
 reset-password-complete-recovery-key-created = สร้างคีย์กู้คืนบัญชีใหม่แล้ว กรุณาดาวน์โหลดและจัดเก็บคีย์นี้ทันที
@@ -1463,7 +1474,7 @@ signin-totp-code-input-label-v4 = ใส่รหัส 6 หลัก
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ยืนยัน
 signin-totp-code-other-account-link = ใช้บัญชีอื่น
-signin-totp-code-recovery-code-link = มีปัญหาในการป้อนรหัสใช่หรือไม่?
+signin-totp-code-recovery-code-link = มีปัญหาในการใส่รหัสใช่หรือไม่?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = ต้องใส่รหัสยืนยันตัวตน
 
@@ -1474,7 +1485,7 @@ signin-unblock-header = อนุญาตการลงชื่อเข้�
 # Where $email is the email address entered for the sign-in attempt
 signin-unblock-body = ตรวจดูรหัสยืนยันที่ส่งไปยัง { $email } ทางอีเมลของคุณ
 signin-unblock-code-input = ใส่รหัสอนุญาต
-signin-unblock-submit-button = ทำต่อ
+signin-unblock-submit-button = ดำเนินการต่อ
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = ต้องใส่รหัสอนุญาต
 signin-unblock-code-incorrect-length = รหัสอนุญาตต้องมี 8 ตัวอักขระ

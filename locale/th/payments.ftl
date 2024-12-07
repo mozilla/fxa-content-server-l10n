@@ -39,7 +39,7 @@ new-user-sign-in-link-2 = มี{ -product-mozilla-account } แล้วใช�
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-enter-email =
-    .label = ป้อนอีเมลของคุณ
+    .label = ใส่อีเมลของคุณ
 new-user-confirm-email =
     .label = ยืนยันอีเมลของคุณ
 new-user-subscribe-product-updates-mozilla = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -brand-mozilla }
@@ -123,7 +123,7 @@ payment-cancel-btn = ยกเลิก
 payment-update-btn = อัปเดต
 payment-pay-btn = ชำระเงินตอนนี้
 payment-pay-with-paypal-btn-2 = ชำระเงินด้วย { -brand-paypal }
-payment-validate-name-error = โปรดป้อนชื่อของคุณ
+payment-validate-name-error = กรุณาใส่ชื่อของคุณ
 
 ## Component - PaymentLegalBlurb
 
@@ -381,7 +381,7 @@ coupon-success-repeating = แผนของคุณจะต่ออาย�
 ## Routes - Checkout - New user
 
 new-user-step-1-2 = 1. สร้าง{ -product-mozilla-account }
-new-user-card-title = ป้อนข้อมูลบัตรของคุณ
+new-user-card-title = ใส่ข้อมูลบัตรของคุณ
 new-user-submit = สมัครสมาชิกเลย
 
 ## Routes - Product and Subscriptions

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-10-22 01:50+0000\n"
+"PO-Revision-Date: 2024-12-07 15:09+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -66,7 +66,7 @@ msgstr "รหัสผ่านของคุณถูกตั้งใหม
 
 #: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "ตั้งค่าให้สมบูรณ์ โดยการป้อนรหัสผ่านใหม่บน Firefox ในอุปกรณ์อื่น ๆ"
+msgstr "ตั้งค่าให้สมบูรณ์ โดยการใส่รหัสผ่านใหม่บน Firefox ในอุปกรณ์อื่นๆ"
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
@@ -367,7 +367,7 @@ msgstr "การร้องขอถูกปิดกั้นด้วยเ
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
-msgstr "รหัสยืนยันตัวตนผิดพลาด"
+msgstr "รหัสอนุญาตไม่ถูกต้อง"
 
 #: .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
@@ -596,7 +596,7 @@ msgstr "อีเมลยืนยันของคุณถูกตีกล
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "โปรแกรดป้อนที่อยู่อีเมลที่ถูกต้อง firefox.com ไม่มีบริการอีเมล"
+msgstr "ใส่ที่อยู่อีเมลที่ถูกต้อง firefox.com ไม่มีบริการอีเมล"
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
@@ -616,11 +616,11 @@ msgstr "Firefox สำหรับ iOS จะลงทะเบียนได�
 
 #: .es5/lib/auth-errors.js:446
 msgid "You must enter your age to sign up"
-msgstr "คุณต้องป้อนอายุของคุณเพื่อลงทะเบียน"
+msgstr "คุณต้องใส่อายุของคุณเพื่อลงทะเบียน"
 
 #: .es5/lib/auth-errors.js:450
 msgid "You must enter a valid age to sign up"
-msgstr "คุณต้องป้อนอายุที่ถูกต้องเพื่อลงทะเบียน"
+msgstr "คุณต้องใส่อายุที่ถูกต้องเพื่อลงทะเบียน"
 
 #: .es5/lib/auth-errors.js:465
 msgid "Account no longer exists."
@@ -652,7 +652,7 @@ msgstr "ช่องนี้จำเป็นต้องกรอก"
 
 #: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
-msgstr "ต้องการรหัสยืนยันตัวตน"
+msgstr "ต้องใส่รหัสอนุญาต"
 
 #: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
@@ -835,11 +835,8 @@ msgid "Invalid Token"
 msgstr "โทเคนไม่ถูกต้อง"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -902,11 +899,10 @@ msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr "โปรดป้อนคีย์กู้คืนบัญชีแบบใช้ครั้งเดียวที่คุณเก็บไว้ในที่ปลอดภัยเพื่อรับสิทธิ์การเข้าถึงบัญชี Mozilla ของคุณอีกครั้ง"
+msgstr "กรุณาใส่คีย์กู้คืนบัญชีแบบใช้ครั้งเดียวที่คุณเก็บไว้ในที่ปลอดภัยเพื่อให้สามารถเข้าถึงบัญชี Mozilla ของคุณได้อีกครั้ง"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">หมายเหตุ:</span> หากคุณรีเซ็ตรหัสผ่านและไม่ได้บันทึกคีย์การกู้คืนบัญชี ข้อมูลบางส่วนของคุณจะถูกลบ (รวมถึงข้อมูลเซิร์ฟเวอร์ที่ซิงค์ เช่น ประวัติ และที่คั่นหน้า)"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -950,8 +946,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>โปรดจำไว้ว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ "
-"คุณจะไม่สูญเสียการสมัครสมาชิกใดๆ ของคุณและข้อมูล Pocket จะไม่ได้รับผลกระทบ"
+"<span>โปรดจำไว้ว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) "
+"เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ คุณจะไม่สูญเสียการสมัครสมาชิกใดๆ ของคุณและข้อมูล Pocket จะไม่ได้รับผลกระทบ"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -963,7 +959,7 @@ msgstr "รหัสผ่านใหม่"
 
 #: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
-msgstr "ป้อนรหัสผ่านอีกครั้ง"
+msgstr "ใส่รหัสผ่านอีกครั้ง"
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
@@ -1033,7 +1029,7 @@ msgstr "คลิกที่ลิงก์เพื่อส่งอีเม
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr "ป้อนรหัสยืนยัน<span class=\"card-subheader\" id=\"subheader\">สำหรับบัญชี Mozilla ของคุณ</span>"
+msgstr "ใส่รหัสยืนยัน<span class=\"card-subheader\" id=\"subheader\">สำหรับบัญชี Mozilla ของคุณ</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1042,7 +1038,7 @@ msgstr "ใส่รหัสที่ส่งไปยัง %(escapedEmail)s 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr "ป้อนรหัส 6 หลัก"
+msgstr "ใส่รหัส 6 หลัก"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
@@ -1099,7 +1095,7 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "ป้อนรหัสผ่านของคุณ<span class=\"card-subheader\" id=\"subheader\">สำหรับบัญชี Mozilla ของคุณ</span>"
+msgstr "ใส่รหัสผ่านของคุณ<span class=\"card-subheader\" id=\"subheader\">สำหรับบัญชี Mozilla ของคุณ</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1109,15 +1105,13 @@ msgstr "รหัสผ่าน"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            การดำเนินการต่อถือว่าคุณยอมรับ:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">เงื่อนไขการให้บริการ</a>และ<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">ประกาศความเป็นส่วนตัว</a>ของ Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">เงื่อนไขการให้บริการ</a>และ<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">ประกาศความเป็นส่วนตัว</a>ของ Pocket<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>ของบัญชี Mozilla\n"
 "          "
 
@@ -1125,22 +1119,19 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              การดำเนินการต่อถือว่าคุณยอมรับ:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"moz-"
-"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">ประกาศความเป็นส่วนตัว</a>ของบริการแบบสมัครสมาชิกของ Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">ประกาศความเป็นส่วนตัว</a>ของบริการแบบสมัครสมาชิกของ Mozilla<br />\n"
 "              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>ของบัญชี Mozilla\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "การดำเนินการต่อถือว่าคุณยอมรับ<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>"
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
@@ -1187,15 +1178,13 @@ msgstr "บัญชี Mozilla ยังสามารถใช้เข้า
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "              การดำเนินการต่อถือว่าคุณยอมรับ:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">เงื่อนไขการให้บริการ</a>และ<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">ประกาศความเป็นส่วนตัว</a>ของ Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">เงื่อนไขการให้บริการ</a>และ<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">ประกาศความเป็นส่วนตัว</a>ของ Pocket<br />\n"
 "              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>ของบัญชี Mozilla\n"
 "            "
 
@@ -1203,15 +1192,13 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
-"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            การดำเนินการต่อถือว่าคุณยอมรับ:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"moz-"
-"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">ประกาศความเป็นส่วนตัว</a>ของบริการแบบสมัครสมาชิกของ Mozilla<br />\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">ประกาศความเป็นส่วนตัว</a>ของบริการแบบสมัครสมาชิกของ Mozilla<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>ของบัญชี Mozilla\n"
 "          "
 
@@ -1250,7 +1237,7 @@ msgstr "ยืนยันรหัสยืนยันตัวตนสำร
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "เพื่อให้แน่ใจว่าคุณจะสามารถเข้าถึงบัญชีของคุณในกรณีที่อุปกรณ์สูญหายได้ โปรดป้อนรหัสยืนยันตัวตนสำรองรหัสใดรหัสหนึ่งที่คุณบันทึกไว้"
+msgstr "เพื่อให้แน่ใจว่าคุณจะสามารถเข้าถึงบัญชีของคุณในกรณีที่อุปกรณ์สูญหายได้ กรุณาใส่รหัสยืนยันตัวตนสำรองรหัสใดรหัสหนึ่งที่คุณบันทึกไว้"
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
@@ -1270,11 +1257,11 @@ msgstr "สแกนรหัสยืนยันตัวบุคคล"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr "ป้อนรหัสด้วยตนเอง"
+msgstr "ใส่รหัสด้วยตนเอง"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "สแกนคิวอาร์โค้ดในแอพการยืนยันตัวบุคคลของคุณ แล้วป้อนรหัสความปลอดภัยที่ได้มา"
+msgstr "สแกนคิวอาร์โค้ดในแอพการยืนยันตัวบุคคลของคุณ แล้วใส่รหัสความปลอดภัยที่ได้มา"
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
@@ -1282,7 +1269,7 @@ msgstr "ไม่สามารถสแกนรหัสได้?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "เมื่อเสร็จสมบูรณ์แล้ว ระบบจะเริ่มสร้างรหัสความปลอดภัยให้คุณป้อน"
+msgstr "เมื่อเสร็จสมบูรณ์แล้ว ระบบจะเริ่มสร้างรหัสความปลอดภัยให้คุณใส่"
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
@@ -1379,8 +1366,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>โปรดทราบว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ "
-"คุณจะไม่สูญเสียการสมัครสมาชิกใดๆ ของคุณและข้อมูล Pocket จะไม่ได้รับผลกระทบ"
+"<span>โปรดทราบว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) "
+"เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ คุณจะไม่สูญเสียการสมัครสมาชิกใดๆ ของคุณและข้อมูล Pocket จะไม่ได้รับผลกระทบ"
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1436,15 +1423,15 @@ msgstr "ไม่ได้เป็นเจ้าของอีเมลนั
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr "ป้อนรหัสยืนยันตัวตนสำรอง"
+msgstr "ใส่รหัสยืนยันตัวตนสำรอง"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "โปรดป้อนรหัสยืนยันตัวตนสำรองที่ได้เตรียมให้คุณระหว่างการตั้งค่าการยืนยันตัวตนสองชั้น"
+msgstr "โปรดใส่รหัสยืนยันตัวตนสำรองที่ได้เตรียมให้คุณระหว่างการตั้งค่าการยืนยันตัวตนสองขั้นตอน"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr "ป้อนรหัสยืนยันตัวตนสำรอง 10 หลัก"
+msgstr "ใส่รหัสยืนยันตัวตนสำรอง 10 หลัก"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1460,7 +1447,7 @@ msgstr "คณะทำงานได้รับคำแจ้งแล้ว
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr "ป้อนรหัสยืนยัน<span class=\"card-subheader\">สำหรับบัญชี Mozilla ของคุณ</span>"
+msgstr "ใส่รหัสยืนยัน<span class=\"card-subheader\">สำหรับบัญชี Mozilla ของคุณ</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1468,15 +1455,15 @@ msgstr "ใส่รหัสที่ส่งไปยัง %(email)s ภา�
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr "ป้อนรหัสความปลอดภัย"
+msgstr "ใส่รหัสความปลอดภัย"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "เปิดแอปการยืนยันตัวบุคคลของคุณและป้อนรหัสความปลอดภัยที่ให้มา"
+msgstr "เปิดแอปยืนยันตัวตนของคุณและใส่รหัสความปลอดภัยที่ได้มา"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr "มีปัญหาในการป้อนรหัสหรือไม่?"
+msgstr "มีปัญหาในการใส่รหัสใช่หรือไม่?"
 
 #: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
@@ -1484,11 +1471,11 @@ msgstr "อนุญาตการลงชื่อเข้านี้"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "ตรวจสอบอีเมลของคุณสำหรับโค้ดยืนยันตัวตนที่ส่งไปยัง %(email)s"
+msgstr "ตรวจดูรหัสอนุญาตที่ส่งไปยัง %(email)s ทางอีเมลของคุณ"
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr "ใส่รหัสอนุญา"
+msgstr "ใส่รหัสอนุญาต"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
@@ -1709,7 +1696,7 @@ msgstr "รหัสผ่านเก่า"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr "ป้อนรหัสผ่านใหม่อีกครั้ง"
+msgstr "ใส่รหัสผ่านใหม่อีกครั้ง"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
