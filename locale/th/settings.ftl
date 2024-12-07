@@ -144,14 +144,14 @@ signup-submit-button = สร้างบัญชี
 form-reset-password-with-balloon-new-password =
     .label = รหัสผ่านใหม่
 form-reset-password-with-balloon-confirm-password =
-    .label = ป้อนรหัสผ่านอีกครั้ง
+    .label = ใส่รหัสผ่านอีกครั้ง
 form-reset-password-with-balloon-submit-button = ตั้งรหัสผ่านใหม่
 form-reset-password-with-balloon-match-error = รหัสผ่านไม่ตรงกัน
 form-password-sr-too-short-message = รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
 form-password-sr-not-email-message = รหัสผ่านต้องไม่มีที่อยู่อีเมลของคุณ
 form-password-sr-not-common-message = รหัสผ่านต้องไม่ใช่รหัสผ่านที่ใช้กันทั่วไป
-form-password-sr-requirements-met = รหัสผ่านที่ป้อนเป็นไปตามข้อกำหนดทั้งหมด
-form-password-sr-passwords-match = รหัสผ่านที่ป้อนตรงกัน
+form-password-sr-requirements-met = รหัสผ่านที่ใส่เป็นไปตามเงื่อนไขทั้งหมด
+form-password-sr-passwords-match = รหัสผ่านที่ใส่ตรงกัน
 
 ## FormPasswordInlineCriteria
 
@@ -169,8 +169,8 @@ form-password-with-inline-criteria-match-error = รหัสผ่านไม�
 form-password-with-inline-criteria-sr-too-short-message = รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
 form-password-with-inline-criteria-sr-not-email-message = รหัสผ่านต้องไม่มีที่อยู่อีเมลของคุณ
 form-password-with-inline-criteria-sr-not-common-message = รหัสผ่านต้องไม่ใช่รหัสผ่านที่ใช้กันทั่วไป
-form-password-with-inline-criteria-sr-requirements-met = รหัสผ่านที่ป้อนเป็นไปตามข้อกำหนดทั้งหมด
-form-password-with-inline-criteria-sr-passwords-match = รหัสผ่านที่ป้อนตรงกัน
+form-password-with-inline-criteria-sr-requirements-met = รหัสผ่านที่ใส่เป็นไปตามเงื่อนไขทั้งหมด
+form-password-with-inline-criteria-sr-passwords-match = รหัสผ่านที่ใส่ตรงกัน
 
 ## FormVerifyCode
 
@@ -184,12 +184,12 @@ form-verify-code-default-error = จำเป็นต้องกรอกช�
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may only contain numbers
 # $codeLength : number of digits in a valid code
-form-verify-totp-disabled-button-title-numeric = ป้อนรหัส { $codeLength } หลักเพื่อดำเนินการต่อ
+form-verify-totp-disabled-button-title-numeric = ใส่รหัส { $codeLength } หลักเพื่อทำต่อ
 # Information explaining why button is disabled, also read to screen readers
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = ป้อนรหัส { $codeLength } ตัวอักษรเพื่อดำเนินการต่อ
+form-verify-totp-disabled-button-title-alphanumeric = ใส่รหัส { $codeLength } ตัวอักขระเพื่อทำต่อ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -372,7 +372,7 @@ password-strength-inline-confirmed-must-match = รหัสยืนยัน�
 
 ## Ready component
 
-ready-complete-set-up-instruction = ตั้งค่าให้เสร็จสิ้นโดยป้อนรหัสผ่านใหม่ของคุณบน { -brand-firefox } ในอุปกรณ์อื่นๆ
+ready-complete-set-up-instruction = ตั้งค่าให้เสร็จสมบูรณ์โดยการใส่รหัสผ่านใหม่ของคุณบน { -brand-firefox } ในอุปกรณ์อื่นๆ
 manage-your-account-button = จัดการบัญชีของคุณ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -411,7 +411,7 @@ flow-recovery-key-hint-message-v3 = คำใบนี้ควรเป็น�
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
-    .label = ป้อนคำใบ้ (ไม่บังคับ)
+    .label = ใส่คำใบ้ (ไม่บังคับ)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = เสร็จสิ้น
@@ -544,8 +544,8 @@ flow-container-back = กลับ
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading-v2 = ป้อนรหัสผ่านของคุณอีกครั้งเพื่อความปลอดภัย
-flow-recovery-key-confirm-pwd-input-label = ป้อนรหัสผ่านของคุณ
+flow-recovery-key-confirm-pwd-heading-v2 = ใส่รหัสผ่านของคุณอีกครั้งเพื่อความปลอดภัย
+flow-recovery-key-confirm-pwd-input-label = ใส่รหัสผ่านของคุณ
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = สร้างคีย์กู้คืนบัญชี
 # For users with an existing account recovery key, clicking on this button will
@@ -688,9 +688,9 @@ pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
 pw-change-current-password =
-    .label = ป้อนรหัสผ่านปัจจุบัน
+    .label = ใส่รหัสผ่านปัจจุบัน
 pw-change-new-password =
-    .label = ป้อนรหัสผ่านใหม่
+    .label = ใส่รหัสผ่านใหม่
 pw-change-confirm-password =
     .label = ยืนยันรหัสผ่านใหม่
 pw-change-success-alert-2 = ปรับปรุงรหัสผ่านแล้ว
@@ -749,7 +749,7 @@ delete-account-delete-button-2 = ลบ
 display-name-page-title =
     .title = ชื่อที่ใช้แสดง
 display-name-input =
-    .label = ป้อนชื่อที่ใช้แสดง
+    .label = ใส่ชื่อที่ใช้แสดง
 submit-display-name = บันทึก
 cancel-display-name = ยกเลิก
 display-name-update-error-2 = เกิดปัญหาในการปรับปรุงชื่อที่ใช้แสดงของคุณ
@@ -1431,20 +1431,56 @@ signin-recovery-code-required-error = ต้องใส่รหัสยืน
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = ขอบคุณที่เฝ้าระวังอยู่เสมอ
+signin-reported-message = ทีมงานของเราได้รับแจ้งรายงานแล้ว รายงานในลักษณะนี้สามารถช่วยเรากำจัดผู้บุกรุกได้
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = ใส่รหัสยืนยัน<span>สำหรับ{ -product-mozilla-account } ของคุณ</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = ใส่รหัสที่ส่งไปยัง { $email } ภายใน 5 นาที
+signin-token-code-input-label-v2 = ใส่รหัส 6 หลัก
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = ยืนยัน
+signin-token-code-code-expired = รหัสหมดอายุใช่หรือไม่?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = ส่งรหัสใหม่ทางอีเมล
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = ต้องใส่รหัสยืนยัน
+signin-token-code-resend-error = มีบางอย่างผิดพลาด ไม่สามารถส่งรหัสใหม่ได้
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = ใส่รหัสยืนยันตัวตอนสองขั้นตอน
+signin-totp-code-instruction-v4 = ตรวจดู<strong>แอปยืนยันตัวตน</strong>ของคุณเพื่อยืนยันการลงชื่อเข้า
+signin-totp-code-input-label-v4 = ใส่รหัส 6 หลัก
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = ยืนยัน
+signin-totp-code-other-account-link = ใช้บัญชีอื่น
+signin-totp-code-recovery-code-link = มีปัญหาในการป้อนรหัสใช่หรือไม่?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = ต้องใส่รหัสยืนยันตัวตน
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = อนุญาตการลงชื่อเข้านี้
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = ตรวจดูรหัสยืนยันที่ส่งไปยัง { $email } ทางอีเมลของคุณ
+signin-unblock-code-input = ใส่รหัสอนุญาต
+signin-unblock-submit-button = ทำต่อ
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = ต้องใส่รหัสอนุญาต
+signin-unblock-code-incorrect-length = รหัสอนุญาตต้องมี 8 ตัวอักขระ
+signin-unblock-code-incorrect-format-2 = รหัสอนุญาตต้องมีเฉพาะตัวอักษรและ/หรือตัวเลข
+signin-unblock-resend-code-button = ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปมใช่หรือไม่? ส่งใหม่
+signin-unblock-support-link = ทำไมถึงเกิดเหตุการณ์นี้?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1452,7 +1488,40 @@ signin-reported-header = ขอบคุณที่เฝ้าระวัง�
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = ใส่รหัสยืนยัน
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = ใส่รหัสยืนยัน<span>สำหรับ{ -product-mozilla-account } ของคุณ</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = ใส่รหัสที่ส่งไปยัง { $email } ภายใน 5 นาที
+confirm-signup-code-input-label = ใส่รหัส 6 หลัก
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = ยืนยัน
+confirm-signup-code-code-expired = รหัสหมดอายุใช่หรือไม่?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = ส่งรหัสใหม่ทางอีเมล
+confirm-signup-code-success-alert = ยืนยันบัญชีสำเร็จแล้ว
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = ต้องใส่รหัสยืนยัน
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = ตั้งรหัสผ่านของคุณ
+signup-relay-info = คุณต้องใส่รหัสผ่านเพื่อที่จะจัดการอีเมลที่ปกปิดของคุณและเข้าถึงเครื่องมือความปลอดภัยของ { -brand-mozilla } ได้อย่างปลอดภัย
+signup-heading-relay = สร้างรหัสผ่าน
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = ทำไมฉันถึงต้องสร้างบัญชีนี้ด้วย?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = หาคำตอบได้ที่นี่
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = เปลี่ยนอีเมล
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = คุณอายุเท่าไร?
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = ทำไมเราถึงต้องถาม?
