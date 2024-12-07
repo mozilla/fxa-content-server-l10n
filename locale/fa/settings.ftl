@@ -149,6 +149,9 @@ form-reset-password-with-balloon-submit-button = بازنشانی گذرواژه
 form-reset-password-with-balloon-match-error = گذرواژه‌ها منطبق نیستند
 form-password-sr-too-short-message = گذرواژه باید حداقل حاوی ۸ نویسه باشد.
 form-password-sr-not-email-message = گذرواژه نباید حاوی نشانی رایانامه شما باشد.
+form-password-sr-not-common-message = گذرواژه نباید یک گذرواژه رایج باشد.
+form-password-sr-requirements-met = گذرواژه وارد شده همه الزامات گذرواژه را رعایت می‌کند.
+form-password-sr-passwords-match = گذرواژه‌های وارد شده با هم مطابقت دارند.
 
 ## FormPasswordInlineCriteria
 
@@ -163,16 +166,36 @@ form-password-with-inline-criteria-confirm-password =
     .label = تأیید گذرواژه
 form-password-with-inline-criteria-reset-submit-button = ایجاد گذرواژه جدید
 form-password-with-inline-criteria-match-error = گذرواژه‌ها منطبق نیستند
+form-password-with-inline-criteria-sr-too-short-message = گذرواژه باید حداقل حاوی ۸ نویسه باشد.
+form-password-with-inline-criteria-sr-not-email-message = گذرواژه نباید حاوی نشانی رایانامه شما باشد.
+form-password-with-inline-criteria-sr-not-common-message = گذرواژه نباید یک گذرواژه رایج باشد.
+form-password-with-inline-criteria-sr-requirements-met = گذرواژه وارد شده همه الزامات گذرواژه را رعایت می‌کند.
+form-password-with-inline-criteria-sr-passwords-match = گذرواژه‌های وارد شده با هم مطابقت دارند.
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = این قسمت الزامی است.
 
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = وارد کردن کد { $codeLength } رقمی برای ادامه
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = وارد کردن کد { $codeLength } نویسه‌ای برای ادامه
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = کلید بازیابی حساب { -brand-firefox }
+get-data-trio-title-backup-verification-codes = کدهای احراز هویت بازیابی
 get-data-trio-download-2 =
     .title = بارگیری
     .aria-label = بارگیری
@@ -189,6 +212,14 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = هشدار
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = توجه
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = کد
+error-icon-aria-label =
+    .aria-label = خطا
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
