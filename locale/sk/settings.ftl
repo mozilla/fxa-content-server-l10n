@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Upozornenie
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Pozor
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Upozornenie
 authenticator-app-aria-label =
     .aria-label = Overovacia aplikácia
-backup-codes-icon-aria-label =
-    .aria-label = Záložné kódy sú povolené
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Záložné kódy sú vypnuté
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Záložné overovacie kódy sú povolené
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Záložné overovacie kódy sú vypnuté
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = SMS na obnovenie sú povolené
@@ -891,9 +898,7 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Uložte si tieto jednorazové záložné overovacie kódy na bezpečné miesto, aby ste mali k nim prístup
     keď nebudete mať svoje mobilné zariadenie.
-tfa-enter-code-to-confirm-1 =
-    Zadajte jeden zo svojich záložných overovacích kódov a potvrďte, že ste ho uložili.
-    Ak nebudete mať prístup k svojmu mobilnému zariadeniu, na prihlásenie budete potrebovať tento kód.
+tfa-enter-code-to-confirm-v2 = Zadajte jeden zo svojich nových záložných overovacích kódov, aby ste potvrdili, že ste ich uložili. Po dokončení tohto kroku budú vaše staré záložné overovacie kódy deaktivované.
 tfa-enter-recovery-code-1 =
     .label = Zadajte záložný overovací kód
 
@@ -948,6 +953,22 @@ security-set-password = Nastavte si heslo na synchronizáciu a používanie urč
 security-recent-activity-link = Zobraziť nedávnu aktivitu účtu
 signout-sync-header = Relácia vypršala
 signout-sync-session-expired = Prepáčte, niečo sa pokazilo. Odhláste sa v ponuke prehliadača a skúste to znova.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nie sú k dispozícii žiadne kódy
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Zostávajúce kódy: { $numCodesAvailable }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Získajte nové kódy
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Pridať
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Toto je najbezpečnejšia metóda obnovy, ak nemáte prístup k svojmu mobilnému zariadeniu alebo overovacej aplikácii.
 
 ## Switch component
 
@@ -1031,27 +1052,25 @@ se-secondary-email-none = žiadna
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvojstupňové overenie
-tfa-row-disabled-2 = Dvojstupňové overenie bolo zakázané
 tfa-row-enabled = Povolené
-tfa-row-not-set = Nie je nastavené
+tfa-row-disabled-status = Zakázané
 tfa-row-action-add = Pridať
 tfa-row-action-disable = Zakázať
 tfa-row-button-refresh =
     .title = Obnoviť dvojstupňové overenie
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
-tfa-row-content-explain =
-    Zabráňte niekomu inému v prihlásení vyžadovaním
-    jedinečného kódu, ku ktorému máte prístup iba vy.
+tfa-row-enabled-description = Váš účet je chránený dvojstupňovou autentifikáciou. Pri prihlasovaní do svojho { -product-mozilla-account(case: "gen", capitalization: "lower") } budete musieť zadať jednorazový prístupový kód z overovacej aplikácie.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Pomôžte zabezpečiť svoj účet pomocou <linkExternal>aplikácie na overenie totožnosti tretej strany</linkExternal> ako druhého kroku prihlásenia.
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
 tfa-row-disable-modal-explain-1 =
     Túto akciu nebudete môcť vrátiť späť. Máte tiež
     možnosť <linkExternal>nahradiť svoje záložné overovacie kódy</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Dvojstupňové overenie bolo zakázané
 tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
-tfa-row-change-modal-heading-1 = Chcete zmeniť záložné overovacie kódy?
-tfa-row-change-modal-confirm = Zmeniť
-tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

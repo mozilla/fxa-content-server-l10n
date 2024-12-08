@@ -389,6 +389,7 @@ coupon-expired = Zdá sa, že platnosť promo kódu skončila.
 card-error = Vašu transakciu sa nepodarilo spracovať. Skontrolujte, prosím, zadané údaje o svojej karte a skúste to znova.
 country-currency-mismatch = Mena tohto predplatného nie je platná pre krajinu spojenú s vašou platbou.
 currency-currency-mismatch = Ľutujeme. Medzi menami nemôžete prepínať.
+location-unsupported = Vaša aktuálna poloha nie je podľa našich Podmienok používania služby podporovaná.
 no-subscription-change = Ľutujeme, váš plán predplatného nemôžete zmeniť.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Už máte predplatné cez { $mobileAppStore }.
@@ -403,6 +404,7 @@ product-profile-error =
 product-customer-error =
     .title = Problém s načítaním zákazníka
 product-plan-not-found = Plán nebol nájdený
+product-location-unsupported-error = Lokalita nie je podporovaná
 
 ## Hooks - coupons
 
