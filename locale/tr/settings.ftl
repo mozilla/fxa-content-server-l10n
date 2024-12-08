@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Uyarı
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Dikkat
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Uyarı
 authenticator-app-aria-label =
     .aria-label = Kimlik doğrulayıcı uygulaması
-backup-codes-icon-aria-label =
-    .aria-label = Yedek kodlar etkin
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Yedek kodlar devre dışı
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Yedek kimlik doğrulama kodları etkinleştirildi
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Yedek kimlik doğrulama kodları devre dışı bırakıldı
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Kurtarma kısa mesajı etkin
@@ -884,10 +891,6 @@ tfa-enter-totp-v2 = Şimdi kimlik doğrulama uygulamasının verdiği kimlik do�
 tfa-input-enter-totp-v2 =
     .label = Kimlik doğrulama kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
-tfa-enter-code-to-confirm-1 =
-    Lütfen kaydettiğinizi onaylamak için yedek kimlik doğrulama kodlarınızdan
-    birini girin. Mobil cihazınıza erişemediğinizde giriş yapmak için bir koda
-    ihtiyacınız olacak.
 tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 
@@ -942,6 +945,14 @@ security-set-password = Eşitleme yapmak ve belirli hesap güvenlik özellikleri
 security-recent-activity-link = Son hesap etkinliklerini görüntüle
 signout-sync-header = Oturumun süresi doldu
 signout-sync-session-expired = Bir şeyler yanlış gitti. Lütfen tarayıcı menüsünden çıkış yapıp yeniden deneyin.
+
+## Settings sub row
+
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Ekle
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Mobil cihazınıza veya kimlik doğrulama uygulamanıza erişemiyorsanız bu en güvenli kurtarma yöntemidir.
 
 ## Switch component
 
@@ -1020,9 +1031,8 @@ se-secondary-email-none = Yok
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = İki aşamalı doğrulama
-tfa-row-disabled-2 = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-enabled = Etkin
-tfa-row-not-set = Ayarlanmamış
+tfa-row-disabled-status = Devre dışı
 tfa-row-action-add = Ekle
 tfa-row-action-disable = Devre dışı bırak
 tfa-row-button-refresh =
@@ -1030,15 +1040,13 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
-tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain-1 = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>yedek kimlik doğrulama kodlarınızı değiştirebilirisiniz</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
-tfa-row-change-modal-heading-1 = Yedek kimlik doğrulama kodları değiştirilsin mi?
-tfa-row-change-modal-confirm = Değiştir
-tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
