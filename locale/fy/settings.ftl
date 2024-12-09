@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Warskôging
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Attinsje
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Warskôging
 authenticator-app-aria-label =
     .aria-label = Authenticator-tapassing
-backup-codes-icon-aria-label =
-    .aria-label = Reservekopykoaden ynskeakele
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Reservekopykoaden útskeakele
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Reserve-autentikaasjekoaden ynskeakele
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Reserve-autentikaasjekoaden útskeakele
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Werstel-sms ynskeakele
@@ -897,10 +904,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Bewarje dizze reserve-autentikaasjekoaden foar ienmalich gebrûk op in feilich plak foar as
     jo jo mobile apparaat net hawwe.
-tfa-enter-code-to-confirm-1 =
-    Fier no ien fan jo reserve-autentikaasjekoaden yn om te befêstigjen dat jo dizze bewarre
-    hawwe. Jo hawwe in koade nedich om oan te melden as jo gjin tagong
-    hawwe ta jo mobile apparaat.
+tfa-enter-code-to-confirm-v2 =
+    Fier ien fan jo nije reserve-autentikaasjekoaden yn om te
+    befêstigjen dat jo se bewarre hawwe. Jo âlde reserve-autentikaasjekoaden wurde útskeakele sa gau dizze stap foltôge is.
 tfa-enter-recovery-code-1 =
     .label = Fier in reserve-autentikaasjekoade yn
 
@@ -955,6 +961,22 @@ security-set-password = Stel in wachtwurd yn om te syngronisearjen en bepaalde a
 security-recent-activity-link = Resinte accountaktiviteit besjen
 signout-sync-header = Sesje ferrûn
 signout-sync-session-expired = Sorry, der is wat misgien. Meld jo ôf fan it browsermenu út en probearje it opnij.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Gjin koaden beskikber
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } koaden restearjend
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Nije koaden krije
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Tafoegje
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Dit is de feilichste werstelmetoade as jo gjin tagong hawwe ta jo mobile apparaat of autentikaasje-app.
 
 ## Switch component
 
@@ -1039,9 +1061,8 @@ se-secondary-email-none = Gjin
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentikaasje yn twa stappen
-tfa-row-disabled-2 = Twa-staps autentikaasje útskeakele
 tfa-row-enabled = Ynskeakele
-tfa-row-not-set = Net ynsteld
+tfa-row-disabled-status = Utskeakele
 tfa-row-action-add = Tafoegje
 tfa-row-action-disable = Utskeakelje
 tfa-row-button-refresh =
@@ -1049,19 +1070,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Sorry, der is in probleem bard by it fernijen fan autentikaasje
     yn twa stappen.
-tfa-row-content-explain =
-    Foarkom dat in oar oanmeldt troch in
-    unike koade wêr’t allinnich jo tagong ta hawwe te easkjen.
+tfa-row-enabled-description = Jo account wurdt beskerme troch twa-stapsautentikaasje. Jo moatte ien kear in tagongskoade ynfiere fan jo autentikaasje-app ôf by it oanmelden by jo { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Help jo account te befeiligjen troch in <linkExternal>autentikaasje-app fan tredden</linkExternal> te brûken as twadde stap om jo oan te melden.
 tfa-row-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
 tfa-row-disable-modal-explain-1 =
     Jo kinne dizze aksje net ûngedien meitsje. Jo hawwe ek
     de opsje <linkExternal>jo reserve-accountwerstelkoaden te ferfangen</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Twa-staps autentikaasje útskeakele
 tfa-row-cannot-disable-2 = Autentikaasje yn twa stappen koe net útskeakele wurde
-tfa-row-change-modal-heading-1 = Reserve-autentikaasjekoaden wizigje?
-tfa-row-change-modal-confirm = Wizigje
-tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

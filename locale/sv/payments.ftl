@@ -361,6 +361,7 @@ coupon-expired = Det ser ut som att kampanjkoden har gått ut.
 card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsinformation och försök igen.
 country-currency-mismatch = Prenumerationens valuta är inte giltig för det land som är kopplat till din betalning.
 currency-currency-mismatch = Tyvärr. Du kan inte växla mellan valutor.
+location-unsupported = Din nuvarande plats stöds inte enligt våra användarvillkor.
 no-subscription-change = Tyvärr. Du kan inte ändra din prenumerationsplan.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Du prenumererar redan via { $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Problem med att ladda kund
 product-plan-not-found = Plan hittades inte
+product-location-unsupported-error = Plats stöds inte
 
 ## Hooks - coupons
 

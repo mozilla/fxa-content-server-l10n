@@ -361,6 +361,7 @@ coupon-expired = It liket derop dat dy promoasjekoade ferrûn is.
 card-error = Jo transaksje koe net ferwurke wurde. Kontrolearje jo creditkaartgegevens en probearje it opnij.
 country-currency-mismatch = De faluta fan dit abonnemint is net jildich foar it lân dat oan jo betelling keppele is.
 currency-currency-mismatch = Sorry. Jo kinne net wikselje tusken faluta.
+location-unsupported = Jo aktuele lokaasje wurdt net stipe neffens ús Tsjinstbetingsten.
 no-subscription-change = Sorry. Jo kinne jo abonnemint net wizigje.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Jo binne al abonnearre fia de { $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Probleem by it laden fan de klant
 product-plan-not-found = Skema net fûn
+product-location-unsupported-error = Lokaasje net stipe
 
 ## Hooks - coupons
 

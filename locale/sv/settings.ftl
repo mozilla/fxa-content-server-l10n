@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Varning
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Uppmärksamhet
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Varning
 authenticator-app-aria-label =
     .aria-label = Autentiseringsapplikation
-backup-codes-icon-aria-label =
-    .aria-label = Reservkoder aktiverade
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Reservkoder inaktiverade
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Reservautentiseringskoder aktiverade
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Reservautentiseringskoder inaktiverade
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Återställnings-SMS aktiverat
@@ -893,10 +900,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Spara dessa reservautentiseringskoder för engångsbruk på en säker plats
     när du inte har din mobila enhet.
-tfa-enter-code-to-confirm-1 =
-    Ange en av dina reservautentiseringskoder nu för att bekräfta
-    att du har sparat den. Du behöver en kod för att logga in om
-    du inte har tillgång till din mobila enhet.
+tfa-enter-code-to-confirm-v2 =
+    Ange en av dina nya reservautentiseringskoder för att
+    bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
 tfa-enter-recovery-code-1 =
     .label = Ange en reservautentiseringskod
 
@@ -951,6 +957,22 @@ security-set-password = Ange ett lösenord för att synkronisera och använda vi
 security-recent-activity-link = Visa senaste kontoaktivitet
 signout-sync-header = Sessionen upphörde
 signout-sync-session-expired = Tyvärr, något gick fel. Logga ut från webbläsarmenyn och försök igen.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Inga koder tillgängliga
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } koder återstår
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Hämta nya koder
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Lägg till
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Detta är den säkraste återställningsmetoden om du inte kan komma åt din mobila enhet eller autentiseringsappen.
 
 ## Switch component
 
@@ -1035,9 +1057,8 @@ se-secondary-email-none = Ingen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tvåstegsautentisering
-tfa-row-disabled-2 = Tvåstegsautentisering inaktiverad
 tfa-row-enabled = Aktiverad
-tfa-row-not-set = Inte inställd
+tfa-row-disabled-status = Inaktiverad
 tfa-row-action-add = Lägg till
 tfa-row-action-disable = Inaktivera
 tfa-row-button-refresh =
@@ -1045,19 +1066,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Tyvärr uppstod ett problem med att uppdatera
     tvåstegautentisering.
-tfa-row-content-explain =
-    Förhindra att någon annan loggar in genom att kräva en
-    unik kod som endast du har tillgång till.
+tfa-row-enabled-description = Ditt konto skyddas av tvåstegsautentisering. Du måste ange en engångskod från din autentiseringsapp när du loggar in på ditt { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Hjälp till att säkra ditt konto genom att använda en <linkExternal>autentiseringsapp från tredje part</linkExternal> som ett andra steg för att logga in.
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
 tfa-row-disable-modal-explain-1 =
     Du kommer inte att kunna ångra den här åtgärden.
     Du har också möjlighet att <linkExternal>byta ut dina reservautentiseringskoder</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Tvåstegsautentisering inaktiverad
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
-tfa-row-change-modal-heading-1 = Ändra reservautentiseringskoder?
-tfa-row-change-modal-confirm = Ändra
-tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
