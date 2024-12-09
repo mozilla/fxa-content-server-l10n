@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-09 09:41+0000\n"
+"PO-Revision-Date: 2024-12-09 09:51+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -70,7 +70,7 @@ msgstr "დაასრულეთ გამართვა ახალი პ
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "ახლა უკვე შეგიძლიათ თქვენს Mozilla-ანგარიშზე ცვლილებების შეტანა."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -600,7 +600,7 @@ msgstr "შეიყვანეთ ელფოსტის მართებ�
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Mozilla-ანგარიშების ჩასმისთვის მხოლოდ უნდა გამოიყენებოდეს IFRAME და ისიც ნებადართულ საიტებზე"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -901,7 +901,7 @@ msgstr "%(serviceName)s-ზე გადასვლა"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "გთხოვთ მიუთითოთ ერთჯერადი აღდგენის გასაღები, რომელსაც უსაფრთხო ადგილას ინახავდით თქვენს Mozilla-ანგარიშთან წვდომის აღსადგენად."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1033,7 +1033,7 @@ msgstr "დაწკაპეთ %(email)s-ზე ჩვენ მიერ გ�
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "შეიყვანეთ დამადასტურებელი კოდი <span class=\"card-subheader\" id=\"subheader\"> თქვენი Mozilla-ანგარიშისთვის</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1099,7 +1099,7 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "შეიყვანეთ პაროლი <span class=\"card-subheader\" id=\"subheader\">თქვენი Mozilla-ანგარიშისთვის</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1113,6 +1113,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            თუ განაგრძობთ, ამით ეთანხმებით:<br />\n"
+"            Pocket-ის <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">მომსახურების პირობებსა</a> და <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">პირადულობის დებულებას</a><br />\n"
+"            Mozilla-ანგარიშების <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">მომსახურების პირობებსა</a> და <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">პირადულობის დებულებას</a>\n"
+"          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
@@ -1122,6 +1127,11 @@ msgid ""
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              თუ განაგრძობთ, ამით ეთანხმებით:<br />\n"
+"              Mozilla-ს გამოწერის მომსახურებებით <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">სარგებლობის პირობებსა</a> და <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">პირადულობის დებულებას</a><br />\n"
+"              Mozilla-ანგარიშების <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">მომსახურების პირობებსა</a> და <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">პირადულობის დებულებას</a>\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1619,7 +1629,7 @@ msgstr "ჩანართის მიღება ვერ ხერხდე
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "გთხოვთ შექმნათ პაროლი, რომ გამოიყენოთ Firefox Sync. თქვენი მონაცემები დაიშიფრება ამ პაროლით პირადულობის დასაცავად."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
