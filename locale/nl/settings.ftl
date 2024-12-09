@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Waarschuwing
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Attentie
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Waarschuwing
 authenticator-app-aria-label =
     .aria-label = Authenticator-toepassing
-backup-codes-icon-aria-label =
-    .aria-label = Reservekopiecodes ingeschakeld
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Reservekopiecodes uitgeschakeld
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Reserve-authenticatiecodes ingeschakeld
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Reserve-authenticatiecodes uitgeschakeld
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Herstel-sms ingeschakeld
@@ -893,10 +900,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Bewaar deze reserve-authenticatiecodes voor eenmalig gebruik op een veilige plaats voor als
     u uw mobiele apparaat niet hebt.
-tfa-enter-code-to-confirm-1 =
-    Voer nu een van uw reserve-authenticatiecodes in om te bevestigen dat u deze hebt
-    opgeslagen. U hebt een code nodig om aan te melden als u geen toegang
-    hebt tot uw mobiele apparaat.
+tfa-enter-code-to-confirm-v2 =
+    Voer een van uw nieuwe reserve-authenticatiecodes in om te
+    bevestigen dat u ze hebt opgeslagen. Uw oude reserve-authenticatiecodes worden uitgeschakeld zodra deze stap is voltooid.
 tfa-enter-recovery-code-1 =
     .label = Voer een reserve-authenticatiecode in
 
@@ -951,6 +957,22 @@ security-set-password = Stel een wachtwoord in om te synchroniseren en bepaalde 
 security-recent-activity-link = Recente accountactiviteit bekijken
 signout-sync-header = Sessie verlopen
 signout-sync-session-expired = Sorry, er is iets misgegaan. Meld u af vanuit het browsermenu en probeer het opnieuw.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Geen codes beschikbaar
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } codes resterend
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Nieuwe codes verkrijgen
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Toevoegen
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Dit is de veiligste herstelmethode als u geen toegang hebt tot uw mobiele apparaat of authenticator-app.
 
 ## Switch component
 
@@ -1035,9 +1057,8 @@ se-secondary-email-none = Geen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authenticatie in twee stappen
-tfa-row-disabled-2 = Authenticatie in twee stappen uitgeschakeld
 tfa-row-enabled = Ingeschakeld
-tfa-row-not-set = Niet ingesteld
+tfa-row-disabled-status = Uitgeschakeld
 tfa-row-action-add = Toevoegen
 tfa-row-action-disable = Uitschakelen
 tfa-row-button-refresh =
@@ -1045,19 +1066,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Sorry, er is een probleem opgetreden bij het vernieuwen van authenticatie
     in twee stappen.
-tfa-row-content-explain =
-    Voorkom dat iemand anders aanmeldt door een
-    unieke code waar alleen u toegang toe hebt te vereisen.
+tfa-row-enabled-description = Uw account wordt beschermd door authenticatie in twee stappen. U dient een eenmalige toegangscode vanaf uw authenticatie-app in te voeren wanneer u zich aanmeldt bij uw { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Help uw account te beveiligen door een <linkExternal>authenticatie-app van derden</linkExternal> te gebruiken als tweede stap om u aan te melden.
 tfa-row-cannot-verify-session-4 = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
 tfa-row-disable-modal-heading = Authenticatie in twee stappen uitschakelen?
 tfa-row-disable-modal-confirm = Uitschakelen
 tfa-row-disable-modal-explain-1 =
     U kunt deze actie niet ongedaan maken. U hebt ook
     de optie om <linkExternal>uw reserve-authenticatiecodes te vervangen</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Authenticatie in twee stappen uitgeschakeld
 tfa-row-cannot-disable-2 = Authenticatie in twee stappen kon niet worden uitgeschakeld
-tfa-row-change-modal-heading-1 = Reserve-authenticatiecodes wijzigen?
-tfa-row-change-modal-confirm = Wijzigen
-tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

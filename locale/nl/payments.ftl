@@ -361,6 +361,7 @@ coupon-expired = Het lijkt erop dat die promotiecode is verlopen.
 card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
 country-currency-mismatch = De valuta van dit abonnement is niet geldig voor het land dat aan uw betaling is gekoppeld.
 currency-currency-mismatch = Sorry. U kunt niet tussen valuta wisselen.
+location-unsupported = Uw huidige locatie wordt niet ondersteund volgens onze Servicevoorwaarden.
 no-subscription-change = Sorry. U kunt uw abonnement niet wijzigen.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = U bent al geabonneerd via de { $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Probleem bij het laden van de klant
 product-plan-not-found = Schema niet gevonden
+product-location-unsupported-error = Locatie niet ondersteund
 
 ## Hooks - coupons
 
