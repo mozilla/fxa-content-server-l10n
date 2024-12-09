@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-05 21:51+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-12-09 12:50+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -2021,7 +2021,7 @@ msgstr "Gweld eich cyfrineiriau wedi'u cadw, tabiau, hanes pori a mwy - ar draws
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr "Dewiswch opsiwn i barhau:"
+msgstr "Dewiswch ddewis i barhau:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
