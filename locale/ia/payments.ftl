@@ -361,6 +361,7 @@ coupon-expired = Il pare que ille codice de promotion ha expirate.
 card-error = Tu transaction non pote esser processate. Verifica le informationes de tu carta de credito e reproba.
 country-currency-mismatch = Le moneta de iste subscription non es valide pro le pais associate con tu pagamento.
 currency-currency-mismatch = Desolate. Tu non pote cambiar inter monetas.
+location-unsupported = Tu actual position non es supportate secundo nostre Terminos de servicio.
 no-subscription-change = Desolate. Tu non pote cambiar tu plano de subscription.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Tu es jam subscribite per { $mobileAppStore }.
