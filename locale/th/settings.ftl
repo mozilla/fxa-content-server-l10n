@@ -1017,7 +1017,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = ขออภัย เกิดปัญหาในการเรียกการยืนยันตัวตนสองขั้นตอนใหม่
 tfa-row-enabled-description = บัญชีของคุณมีการปกป้องด้วยการยืนยันตัวตนสองขั้นตอน คุณจะต้องใส่รหัสผ่านแบบใช้ครั้งเดียวจากแอปยืนยันตัวตนของคุณเมื่อเข้าสู่ระบบ{ -product-mozilla-account } ของคุณ
 # <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = ช่วยปกป้องบัญชีของคุณให้ปลอดภัยด้วยการใช้</linkExternal>แอปยืนยันตัวตนจากบุคคลที่สาม</linkExternal>เป็นขั้นตอนที่สองสำหรับการลงชื่อเข้า
+tfa-row-disabled-description = ช่วยปกป้องบัญชีของคุณให้ปลอดภัยด้วยการใช้<linkExternal>แอปยืนยันตัวตนจากบุคคลที่สาม</linkExternal>เป็นขั้นตอนที่สองสำหรับการลงชื่อเข้า
 tfa-row-cannot-verify-session-4 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
 tfa-row-disable-modal-heading = ต้องการปิดใช้งานการยืนยันตัวตนสองขั้นตอนหรือไม่?
 tfa-row-disable-modal-confirm = ปิดใช้งาน
