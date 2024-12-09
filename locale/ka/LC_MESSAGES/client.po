@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-09 09:51+0000\n"
+"PO-Revision-Date: 2024-12-09 09:57+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1176,7 +1176,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Mozilla-ანგარიში აგრეთვე გზას გიხსნით Mozilla-ს პირადულობის უზრუნველმყოფ სხვა პროდუქტებისკენაც."
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1186,6 +1186,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"          თუ განაგრძობთ, ამით ეთანხმებით:<br />\n"
+"          Pocket-ის <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">მომსახურების პირობებსა</a> და <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">პირადულობის დებულებას</a><br />\n"
+"          Mozilla-ანგარიშების <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">მომსახურების პირობებსა</a> და <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">პირადულობის დებულებას</a>\n"
+"        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
@@ -1195,6 +1200,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            თუ განაგრძობთ, ამით ეთანხმებით:<br />\n"
+"            Mozilla-ს გამოწერის მომსახურებებით <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">სარგებლობის პირობებსა</a> და <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">პირადულობის დებულებას</a><br />\n"
+"            Mozilla-ანგარიშების <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">მომსახურების პირობებსა</a> და <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">პირადულობის დებულებას</a>\n"
+"          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1441,7 +1451,7 @@ msgstr "ჩვენი გუნდი უკვე გაფრთხილე
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "შეიყვანეთ დამადასტურებელი კოდი <span class=\"card-subheader\">თქვენი Mozilla-ანგარიშისთვის</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1505,7 +1515,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-ანგარიში"
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
@@ -1678,7 +1688,7 @@ msgstr "%(serviceName)s-ზე გადასვლა"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "თქვენს Mozilla-ანგარიშზე საეჭვო მოქმედება შევნიშნეთ. თქვენი ანგარიში დასაცავად გთხოვთ შექმნათ ახალი პაროლი. ამ პაროლით შეძლებთ თქვენი Mozilla-ანგარიშის ყველა მომსახურებაზე დაბრუნებას."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1722,7 +1732,7 @@ msgstr "ბმულს, რომელსაც დააწკაპეთ, �
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Mozilla-ანგარიშის შექმნა"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1822,7 +1832,7 @@ msgstr "რისთვის მჭირდება ანგარიში?
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Firefox-ანგარიშებს დაერქმევა Mozilla-ანგარიშები 1 ნოემბრიდან"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1834,7 +1844,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Firefox-ანგარიშებს ახლა უკვე Mozilla-ანგარიშები ეწოდება. კვლავ შეგეძლებათ შეხვიდეთ მომხმარებლის იმავე სახელითა და პაროლით, სხვა რამე ცვლილება არ შეეხება პროდუქტებს, რომელთაც იყენებთ."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
@@ -1922,7 +1932,7 @@ msgstr "გამოიყენეთ Apple"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "დააკავშირეთ მობილური მოწყობილობა თქვენი Mozilla-ანგარიშით"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
