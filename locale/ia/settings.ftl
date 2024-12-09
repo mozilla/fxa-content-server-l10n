@@ -899,6 +899,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Salva iste codices de authentication de salvamento provisori in un loco secur pro quando
     tu non ha tu apparato mobile.
+tfa-enter-code-to-confirm-v2 =
+    Insere un del nove codices de authentication de reserva pro
+    confirmar que tu los salvava. Tu vetere codices de authentication de reserva sera disactivate al fin de iste message.
 tfa-enter-recovery-code-1 =
     .label = Insere un codice de authentication de salvamento
 
@@ -967,6 +970,8 @@ tfa-row-backup-codes-get-new-cta = Obtener nove codices
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Adder
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Isto es le methodo de recuperation plus secur si tu non succede acceder a tu apparato mobile o al app de authentication.
 
 ## Switch component
 
