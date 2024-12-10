@@ -1065,6 +1065,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
+tfa-row-enabled-description = Tu conto es protegite per authentication a duo passos. Tu debera inserer un codice de accesso una tantum ab tu app de authentication quando tu accede in tu { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Adjuta assecurar tu conto per un <linkExternal>app de authentication de tertie-parte</linkExternal> como secunde passo pro aperir session.
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
