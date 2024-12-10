@@ -1386,7 +1386,7 @@ pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi 
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Crëwch gyfrinair
-set-password-info = Mae eich data cysoni wedi'i amgryptio gyda'ch cyfrinair i amddiffyn eich preifatrwydd.
+set-password-info = Mae eich data cydweddu wedi'i amgryptio gyda'ch cyfrinair i ddiogelu eich preifatrwydd.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
