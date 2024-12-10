@@ -1049,7 +1049,7 @@ se-secondary-email-none = Nenhum
 
 tfa-row-header = Autenticação de dois fatores
 tfa-row-enabled = Ativado
-tfa-row-disabled-status = Desativado
+tfa-row-disabled-status = Desativada
 tfa-row-action-add = Adicionar
 tfa-row-action-disable = Desativar
 tfa-row-button-refresh =
@@ -1451,7 +1451,7 @@ confirm-totp-reset-password-confirm-button = Confirmar
 confirm-totp-reset-password-input-label-v2 = Inserir código de 6 dígitos
 confirm-totp-reset-password-use-different-account = Utilizar uma conta diferente
 confirm-recovery-code-reset-password-input-label = Inserir código de 10 caracteres
-confirm-recovery-code-reset-password-trouble-code = Retroceder
+confirm-recovery-code-reset-password-trouble-code = Voltar
 
 ## ResetPassword start page
 
