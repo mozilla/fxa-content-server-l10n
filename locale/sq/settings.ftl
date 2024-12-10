@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Sinjalizim
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Kujdes
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Sinjalizim
 authenticator-app-aria-label =
     .aria-label = Aplikacion Mirëfilltësimesh
-backup-codes-icon-aria-label =
-    .aria-label = Kodet kopjeruajtje u aktivizuan
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Kodet kopjeruajtje u çaktivizuan
+backup-codes-icon-aria-label-v2 =
+    .aria-label = U aktivizua kopjeruajtje kodesh mirëfilltësimi kopjeruajtjeje
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = U aktivizua kopjeruajtje kodesh mirëfilltësimi kopjeruajtjeje
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = U aktivizua SMS Rikthimesh
@@ -889,10 +896,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
     të mos keni pajisjen tuaj celulare.
-tfa-enter-code-to-confirm-1 =
-    Ju lutemi, jepni tani një nga kodet tuaj të mirëfilltësimit kopjeruajtje që
-    të ripohoni se e ruajtët. Do t’ju duhet një kod për të bërë hyrjen, nëse s’keni hyrje
-    në pajisjen tuaj celulare.
 tfa-enter-recovery-code-1 =
     .label = Jepni një kod mirëfilltësimi kopjeruajtje
 
@@ -947,6 +950,20 @@ security-set-password = Caktoni një fjalëkalim për të njëkohësuar dhe për
 security-recent-activity-link = Shihni veprimtari së fundi në llogari
 signout-sync-header = Sesion i Skaduar
 signout-sync-session-expired = Na ndjeni, diç shkoi ters. Ju lutemi, dilni nga llogaria e shfletuesit që nga menuja e tij dhe riprovoni.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = S’ka më kode
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Edhe { $numCodesAvailable } kode
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Merrni kode të rinj
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Shtoje
 
 ## Switch component
 
@@ -1031,9 +1048,8 @@ se-secondary-email-none = Asnjë
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Mirëfilltësim dyhapësh
-tfa-row-disabled-2 = Mirëfilltësimi dyhapësh u çaktivizua
 tfa-row-enabled = I aktivizuar
-tfa-row-not-set = I paujdisur
+tfa-row-disabled-status = E çaktivizuar
 tfa-row-action-add = Shtoje
 tfa-row-action-disable = Çaktivizoje
 tfa-row-button-refresh =
@@ -1041,19 +1057,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Na ndjeni, pati një problem në rifreskimin e
     mirëfilltësimit dyfaktorësh.
-tfa-row-content-explain =
-    Pengojini hyrjen dikujt, duke kërkuar doemos një
-    kod unik, të cilin e dini vetëm ju.
 tfa-row-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
 tfa-row-disable-modal-explain-1 =
     S’do të jeni në gjendje ta zhbëni këtë veprim. Keni
     edhe mundësinë e <linkExternal>zëvendësimit të kodeve tuaj të mirëfilltësimit kopjeruajtje</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Mirëfilltësimi dyhapësh u çaktivizua
 tfa-row-cannot-disable-2 = Mirëfilltësimi dyhapësh s’u çaktivizua dot
-tfa-row-change-modal-heading-1 = Të ndryshohen kode mirëfilltësimi kopjeruajtjeje?
-tfa-row-change-modal-confirm = Ndryshoji
-tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë veprim.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1094,6 +1106,7 @@ auth-error-114-generic = E provuat shumë herë. Ju lutemi, riprovoni më vonë.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter }
+auth-error-125 = Kërkesa u bllokua për arsye sigurie
 auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
@@ -1363,6 +1376,12 @@ pair-wait-for-auth-heading-text = Miratim i domosdoshëm tani <span>që nga paji
 
 pair-unsupported-header = Çiftoji duke përdorur një aplikacion
 pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda aplikacionit { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Krijoni fjalëkalim
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.

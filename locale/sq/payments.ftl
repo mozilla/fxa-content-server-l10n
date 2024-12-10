@@ -361,6 +361,7 @@ coupon-expired = Duket sikur ai kod promocional të ketë skaduar.
 card-error = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat e kartës tuaj të kreditit dhe riprovoni.
 country-currency-mismatch = Monedha e këtij pajtimi s’është e vlefshme për vendin e përshoqëruar me pagesën tuaj.
 currency-currency-mismatch = Na ndjeni. S’mund të kaloni nga një monedhë në tjetër.
+location-unsupported = Sipas Kushteve tona të Shërbimit, vendndodhja juaj nuk mbulohet.
 no-subscription-change = Na ndjeni. S’mund të ndryshoni planin tuaj të pajtimit.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Jeni tashmë i pajtuar përmes { $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Problem në ngarkim klienti
 product-plan-not-found = S’u gjet plan
+product-location-unsupported-error = Vendndodhje që s’mbulohet
 
 ## Hooks - coupons
 
