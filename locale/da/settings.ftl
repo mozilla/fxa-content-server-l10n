@@ -209,13 +209,20 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Advarsel
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Bemærk
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Advarsel
 authenticator-app-aria-label =
     .aria-label = Godkendelsesapplikation
-backup-codes-icon-aria-label =
+backup-codes-icon-aria-label-v2 =
     .aria-label = Reserve-godkendelseskoder aktiveret
-backup-codes-disabled-icon-aria-label =
+backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Reserve-godkendelseskoder deaktiveret
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
@@ -892,10 +899,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Gem disse engangs-reserve-godkendelseskoder et sikkert sted,
     til hvis du mister adgangen til din mobile enhed.
-tfa-enter-code-to-confirm-1 =
-    Indtast en af dine reserve-godkendelseskoder nu for at bekræfte,
-    at du gemte den. Du skal bruge en kode til at logge ind, hvis du mister adgangen til
-    din mobile enhed.
+tfa-enter-code-to-confirm-v2 =
+    Indtast en af dine nye reserve-godkendelseskoder for at
+    bekræfte, at du har gemt dem. Dine gamle reserve-godkendelseskoder bliver deaktiveret, når dette trin er fuldført.
 tfa-enter-recovery-code-1 =
     .label = Indtast en reserve-godkendelseskode
 
@@ -950,6 +956,22 @@ security-set-password = Opret en adgangskode for at synkronisere og bruge visse 
 security-recent-activity-link = Se seneste kontoaktivitet
 signout-sync-header = Sessionen er udløbet
 signout-sync-session-expired = Noget gik galt. Log ud via browser-menuen og prøv igen.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Ingen koder tilgængelige
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } koder tilbage
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Få nye koder
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Tilføj
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Dette er den sikreste gendannelsesmetode, hvis du ikke har adgang til din mobile enhed eller godkendelsesapp.
 
 ## Switch component
 
@@ -1034,9 +1056,8 @@ se-secondary-email-none = Ingen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Totrinsgodkendelse
-tfa-row-disabled-2 = Totrinsgodkendelse deaktiveret
 tfa-row-enabled = Aktiveret
-tfa-row-not-set = Ikke indstillet
+tfa-row-disabled-status = Deaktiveret
 tfa-row-action-add = Tilføj
 tfa-row-action-disable = Deaktiver
 tfa-row-button-refresh =
@@ -1044,19 +1065,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Der opstod desværre et problem med at opdatere
     totrinsgodkendelse.
-tfa-row-content-explain =
-    Undgå at en anden logger ind ved at kræve en
-    unik kode, kun du har adgang til.
+tfa-row-enabled-description = Din konto er beskyttet af totrinsgodkendelse. Du skal indtaste en engangskode fra din godkendelsesapp, når du logger ind på din { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Beskyt din konto ved at bruge en <linkExternal>tredjeparts godkendelsesapp</linkExternal> som et andet trin til at logge ind.
 tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
 tfa-row-disable-modal-explain-1 =
     Du kan ikke fortryde denne handling. Du har også
     mulighed for at <linkExternal>erstatte dine reserve-godkendelseskoder</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Totrinsgodkendelse deaktiveret
 tfa-row-cannot-disable-2 = Totrinsgodkendelse kunne ikke deaktiveres
-tfa-row-change-modal-heading-1 = Skift reserve-godkendelseskoder?
-tfa-row-change-modal-confirm = Skift
-tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1097,6 +1117,7 @@ auth-error-114-generic = Du har prøvet for mange gange. Prøv igen senere.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har prøvet for mange gange. Prøv igen { $retryAfter }.
+auth-error-125 = Forespørgslen blev blokeret af sikkerhedsmæssige årsager
 auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
@@ -1366,6 +1387,13 @@ pair-wait-for-auth-heading-text = Godkendelse er nu påkrævet <span>fra din and
 
 pair-unsupported-header = Parring ved hjælp af en app
 pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp af en { -brand-firefox }-app.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Opret adgangskode
+set-password-info = Dine synkroniseringsdata er krypteret med din adgangskode for at beskytte dit privatliv.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
