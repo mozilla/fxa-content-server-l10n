@@ -955,6 +955,9 @@ signout-sync-session-expired = Δυστυχώς, κάτι πήγε στραβά.
 
 ## Settings sub row
 
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Προσθήκη
 
 ## Switch component
 
