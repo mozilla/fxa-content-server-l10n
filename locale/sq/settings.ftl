@@ -896,6 +896,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
     të mos keni pajisjen tuaj celulare.
+tfa-enter-code-to-confirm-v2 =
+    Ju lutemi, jepni një nga kodet tuaj të rinj të mirëfilltësimit të kopjeruajtjeve,
+    që të ripohoni se i keni ruajtur. Kodet tuaj të vjetër të mirëfilltësimit të kopjeruajtjeve do të çaktivizohen, kur të jetë plotësuar ky hap.
 tfa-enter-recovery-code-1 =
     .label = Jepni një kod mirëfilltësimi kopjeruajtje
 
