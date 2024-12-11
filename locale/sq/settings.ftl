@@ -964,6 +964,8 @@ tfa-row-backup-codes-get-new-cta = Merrni kode të rinj
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Shtoje
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Kjo është metoda më e parrezik e rikthimit, nëse s’hyni dot në pajisjen tuaj celulare, apo aplikacionin e mirëfilltësimeve.
 
 ## Switch component
 
@@ -1057,6 +1059,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Na ndjeni, pati një problem në rifreskimin e
     mirëfilltësimit dyfaktorësh.
+tfa-row-enabled-description = Llogaria juaj mbrohet me mirëfilltësim dyfaktorësh. Do t’ju duhet të jepni një kodkalim një here, prej aplikacionit tuaj të mirëfilltësimeeve, kur bëni hyrjen në { -product-mozilla-account } tuaj.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Ndihmoni të sigurohet llogaria juaj, duke përdorur një <linkExternal>aplikacion mirëfilltësimesh nga palë e tretë</linkExternal>, si një hap të dytë gjatë bërjes së hyrjes.
 tfa-row-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
@@ -1382,6 +1387,7 @@ pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çift
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Krijoni fjalëkalim
+set-password-info = Që të mbrohet privatësia juaj, të dhënat tuaja të njëkohësimit fshehtëzohen me fjalëkalimin tuaj.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
