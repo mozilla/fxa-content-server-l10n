@@ -956,6 +956,8 @@ tfa-row-backup-codes-get-new-cta = Obter novos códigos
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Adicionar
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Este é o método de recuperação mais seguro se você não conseguir acessar seu dispositivo móvel ou aplicativo de autenticação.
 
 ## Switch component
 
@@ -1035,11 +1037,15 @@ se-secondary-email-none = Nenhum
 
 tfa-row-header = Autenticação em duas etapas
 tfa-row-enabled = Ativada
+tfa-row-disabled-status = Desativado
 tfa-row-action-add = Adicionar
 tfa-row-action-disable = Desativar
 tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
+tfa-row-enabled-description = Sua conta é protegida pela autenticação em duas etapas. Você precisa inserir uma senha de uso único gerada por seu aplicativo de autenticação, ao entrar na sua { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Ajude a proteger a sua conta usando um <linkExternal>aplicativo de autenticação de terceiros</linkExternal> como segunda etapa para entrar na conta.
 tfa-row-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
