@@ -209,14 +209,17 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Προειδοποίηση
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Προσοχή
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Προειδοποίηση
 authenticator-app-aria-label =
     .aria-label = Εφαρμογή ελέγχου ταυτότητας
-backup-codes-icon-aria-label =
-    .aria-label = Ενεργοποιημένοι εφεδρικοί κωδικοί
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Απενεργοποιημένοι εφεδρικοί κωδικοί
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Η ανάκτησης μέσω SMS ενεργοποιήθηκε
@@ -895,10 +898,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης σε ένα ασφαλές μέρος,
     σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
-tfa-enter-code-to-confirm-1 =
-    Παρακαλώ εισαγάγετε τώρα έναν από τους εφεδρικούς κωδικούς ταυτοποίησης για να
-    επιβεβαιώσετε ότι το έχετε αποθηκεύσει. Θα χρειαστείτε έναν κωδικό για σύνδεση εάν δεν έχετε
-    πρόσβαση στην κινητή σας συσκευή.
 tfa-enter-recovery-code-1 =
     .label = Εισαγάγετε έναν εφεδρικό κωδικό ταυτοποίησης
 
@@ -953,6 +952,9 @@ security-set-password = Ορίστε έναν κωδικό πρόσβασης γ
 security-recent-activity-link = Προβολή πρόσφατης δραστηριότητας λογαριασμού
 signout-sync-header = Η συνεδρία έληξε
 signout-sync-session-expired = Δυστυχώς, κάτι πήγε στραβά. Παρακαλούμε αποσυνδεθείτε από το μενού του προγράμματος περιήγησης και δοκιμάστε ξανά.
+
+## Settings sub row
+
 
 ## Switch component
 
@@ -1037,9 +1039,7 @@ se-secondary-email-none = Κανένα
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ταυτοποίηση δύο παραγόντων
-tfa-row-disabled-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 tfa-row-enabled = Ενεργή
-tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
 tfa-row-button-refresh =
@@ -1047,19 +1047,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση
     της ταυτοποίησης δύο παραγόντων.
-tfa-row-content-explain =
-    Εμποδίστε τη σύνδεση τρίτων στον λογαριασμό σας με έναν
-    μοναδικό κωδικό στον οποίο θα έχετε μόνο εσείς πρόσβαση.
 tfa-row-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain-1 =
     Δεν μπορείτε να αναιρέσετε αυτήν την ενέργεια. Έχετε επίσης
     την επιλογή <linkExternal>αντικατάστασης των εφεδρικών κωδικών ταυτοποίησής σας</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
-tfa-row-change-modal-heading-1 = Αλλαγή εφεδρικών κωδικών ταυτοποίησης;
-tfa-row-change-modal-confirm = Αλλαγή
-tfa-row-change-modal-explain = Δεν μπορείτε να αναιρέσετε αυτήν την ενέργεια.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
