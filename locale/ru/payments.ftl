@@ -389,7 +389,7 @@ coupon-expired = Похоже, что срок действия промокод
 card-error = Ваша транзакция не может быть обработана. Пожалуйста, проверьте данные своей банковской карты и попробуйте ещё раз.
 country-currency-mismatch = Валюта этой подписки недействительна для страны, связанной с вашим платежом.
 currency-currency-mismatch = Извините. Вы не можете переключаться между валютами.
-location-unsupported = Ваше текущее местоположение не поддерживается нашими Условаиями использования.
+location-unsupported = Ваше текущее местоположение не поддерживается нашими Условиями использования.
 no-subscription-change = Извините. Вы не можете изменить свой план подписки.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Вы уже подписались через { $mobileAppStore }.
