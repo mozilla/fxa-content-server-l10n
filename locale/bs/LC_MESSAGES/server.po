@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2018-05-28 12:14+0000\n"
-"Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
+"PO-Revision-Date: 2018-11-14 12:03+0000\n"
+"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Učitavanje"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
