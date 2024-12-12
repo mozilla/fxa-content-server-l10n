@@ -1120,6 +1120,7 @@ auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova račun
 auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-159 = Neveljaven ključ za obnovitev računa
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
+auth-error-206 = Gesla ni mogoče ustvariti, geslo je že nastavljeno
 auth-error-999 = Nepričakovana napaka
 auth-error-1001 = Poskus prijave preklican
 auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.
@@ -1428,6 +1429,10 @@ complete-reset-pw-recovery-key-link = Uporabi ključ za obnovitev računa
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Vaše geslo je bilo ponastavljeno.
 reset-password-complete-banner-message = Ne pozabite iz nastavitev { -product-mozilla-account } ustvariti novega ključa za obnovitev računa, da preprečite prihodnje težave pri prijavi.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 
 ## Confirm Reset Password With Code
 
@@ -1504,6 +1509,10 @@ signin-header = Prijava
 signin-use-a-different-account-link = Uporabi drug račun
 signin-forgot-password-link = Pozabljeno geslo?
 signin-password-button-label = Geslo
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1561,6 +1570,10 @@ signin-recovery-code-back-link = Nazaj
 signin-recovery-code-support-link = Se ne morete prijaviti?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Zahtevana je rezervna overitvena koda
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1586,6 +1599,10 @@ signin-token-code-resend-code-link = Pošlji novo kodo.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Zahtevana je potrditvena koda
 signin-token-code-resend-error = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1600,6 +1617,10 @@ signin-totp-code-other-account-link = Uporabi drug račun
 signin-totp-code-recovery-code-link = Imate težave pri vnosu kode?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Zahtevana je overitvena koda
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1615,6 +1636,10 @@ signin-unblock-code-incorrect-length = Overitvena koda mora vsebovati 8 znakov
 signin-unblock-code-incorrect-format-2 = Koda lahko vsebuje samo črke in/ali številke
 signin-unblock-resend-code-button = Ni med prejeto ali vsiljeno pošto? Pošlji znova
 signin-unblock-support-link = Zakaj se to dogaja?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1639,6 +1664,10 @@ confirm-signup-code-resend-code-link = Pošlji novo kodo.
 confirm-signup-code-success-alert = Račun uspešno potrjen
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Zahtevana je potrditvena koda
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
