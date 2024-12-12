@@ -1116,6 +1116,7 @@ auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-159 = Allwedd adfer cyfrif annilys
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
+auth-error-206 = Methu creu cyfrinair, cyfrinair a osodwyd yn barod
 auth-error-999 = Gwall anhysbys
 auth-error-1001 = Diddymwyd yr ymgais i fewngofnodi
 auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
@@ -1424,6 +1425,10 @@ complete-reset-pw-recovery-key-link = Defnyddiwch allwedd adfer cyfrif
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Mae eich cyfrinair wedi cael ei ail osod.
 reset-password-complete-banner-message = Peidiwch ag anghofio cynhyrchu allwedd adfer cyfrif newydd o'ch gosodiadau { -product-mozilla-account } i atal problemau mewngofnodi yn y dyfodol.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio mwgwd e-bost ar ôl i chi fewngofnodi.
 
 ## Confirm Reset Password With Code
 
@@ -1500,6 +1505,10 @@ signin-header = Mewngofnodi
 signin-use-a-different-account-link = Defnyddiwch gyfrif gwahanol
 signin-forgot-password-link = Wedi anghofio'r cyfrinair?
 signin-password-button-label = Cyfrinair
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio mwgwd e-bost ar ôl i chi fewngofnodi.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1557,6 +1566,10 @@ signin-recovery-code-back-link = Nôl
 signin-recovery-code-support-link = Ydych chi wedi'ch cloi allan?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Mae angen cod dilysu wrth gefn
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio mwgwd e-bost ar ôl i chi fewngofnodi.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1582,6 +1595,10 @@ signin-token-code-resend-code-link = E-bostiwch cod newydd.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Mae angen codi dilys
 signin-token-code-resend-error = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio mwgwd e-bost ar ôl i chi fewngofnodi.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1596,6 +1613,10 @@ signin-totp-code-other-account-link = Defnyddiwch gyfrif gwahanol
 signin-totp-code-recovery-code-link = Trafferth cyflwyno cod?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Mae angen cod dilysu
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio mwgwd e-bost ar ôl i chi fewngofnodi.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1611,6 +1632,10 @@ signin-unblock-code-incorrect-length = Rhaid i'r cod awdurdodi gynnwys 8 nod
 signin-unblock-code-incorrect-format-2 = Dim ond llythrennau a/neu rifau y gall cod awdurdodi eu cynnwys
 signin-unblock-resend-code-button = Ddim yn y blwch derbyn na'r sbam? Ail-anfon
 signin-unblock-support-link = Pam mae hyn yn digwydd?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio mwgwd e-bost ar ôl i chi fewngofnodi.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1635,6 +1660,10 @@ confirm-signup-code-resend-code-link = E-bostiwch god newydd.
 confirm-signup-code-success-alert = Cyfrif wedi'i gadarnhau'n llwyddiannus
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Mae angen cod cadarnhad
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio mwgwd e-bost ar ôl i chi fewngofnodi.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
