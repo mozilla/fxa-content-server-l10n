@@ -1122,6 +1122,7 @@ auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
 auth-error-159 = Khóa khôi phục tài khoản không hợp lệ
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
+auth-error-206 = Không tạo được mật khẩu, mật khẩu đã được đặt trước đó
 auth-error-999 = Lỗi không xác định
 auth-error-1001 = Đã hủy đăng nhập
 auth-error-1002 = Phiên đã hết hạn. Đăng nhập để tiếp tục.
@@ -1430,6 +1431,10 @@ complete-reset-pw-recovery-key-link = Sử dụng khóa khôi phục tài khoả
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Mật khẩu của bạn đã được đặt lại.
 reset-password-complete-banner-message = Đừng quên tạo khóa khôi phục tài khoản mới từ cài đặt { -product-mozilla-account } của bạn để tránh các vấn đề đăng nhập về sau.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
 
 ## Confirm Reset Password With Code
 
@@ -1511,6 +1516,10 @@ signin-header = Đăng nhập
 signin-use-a-different-account-link = Sử dụng một tài khoản khác
 signin-forgot-password-link = Đã quên mật khẩu?
 signin-password-button-label = Mật khẩu
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1568,6 +1577,10 @@ signin-recovery-code-back-link = Quay lại
 signin-recovery-code-support-link = Tài khoản của bạn đang bị khóa?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Cần có mã xác thực dự phòng
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1593,6 +1606,10 @@ signin-token-code-resend-code-link = Gửi mã mới qua email.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Yêu cầu mã xác nhận
 signin-token-code-resend-error = Đã xảy ra sự cố. Không thể gửi mã mới.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1607,6 +1624,10 @@ signin-totp-code-other-account-link = Sử dụng một tài khoản khác
 signin-totp-code-recovery-code-link = Sự cố khi nhập mã?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Yêu cầu mã xác thực
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1622,6 +1643,10 @@ signin-unblock-code-incorrect-length = Mã xác minh phải chứa 8 ký tự
 signin-unblock-code-incorrect-format-2 = Mã xác minh chỉ có thể chứa chữ cái và/hoặc số
 signin-unblock-resend-code-button = Không có trong hộp thư đến hoặc thư mục spam? Gửi lại
 signin-unblock-support-link = Tại sao chuyện này xảy ra?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1646,6 +1671,10 @@ confirm-signup-code-resend-code-link = Gửi mã mới qua email.
 confirm-signup-code-success-alert = Đã xác minh tài khoản thành công
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Yêu cầu mã xác nhận
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
