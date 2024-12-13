@@ -1124,6 +1124,7 @@ auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
 auth-error-159 = Invalid account recovery key
 auth-error-183-2 = Invalid or expired confirmation code
+auth-error-206 = Can not create password, password already set
 auth-error-999 = Unexpected error
 auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
@@ -1432,6 +1433,10 @@ complete-reset-pw-recovery-key-link = Use account recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Your password has been reset.
 reset-password-complete-banner-message = Don’t forget to generate a new account recovery key from your { -product-mozilla-account } settings to prevent future sign-in issues.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Confirm Reset Password With Code
 
@@ -1513,6 +1518,10 @@ signin-header = Sign in
 signin-use-a-different-account-link = Use a different account
 signin-forgot-password-link = Forgot password?
 signin-password-button-label = Password
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1570,6 +1579,10 @@ signin-recovery-code-back-link = Back
 signin-recovery-code-support-link = Are you locked out?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Backup authentication code required
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1595,6 +1608,10 @@ signin-token-code-resend-code-link = Email new code.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Confirmation code required
 signin-token-code-resend-error = Something went wrong. A new code could not be sent.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1609,6 +1626,10 @@ signin-totp-code-other-account-link = Use a different account
 signin-totp-code-recovery-code-link = Trouble entering code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authentication code required
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1624,6 +1645,10 @@ signin-unblock-code-incorrect-length = Authorisation code must contain 8 charact
 signin-unblock-code-incorrect-format-2 = Authorisation code can only contain letters and/or numbers
 signin-unblock-resend-code-button = Not in inbox or spam folder? Resend
 signin-unblock-support-link = Why is this happening?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1648,6 +1673,10 @@ confirm-signup-code-resend-code-link = Email new code.
 confirm-signup-code-success-alert = Account confirmed successfully
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Confirmation code is required
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
