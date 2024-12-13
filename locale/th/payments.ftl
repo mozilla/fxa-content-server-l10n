@@ -357,6 +357,7 @@ coupon-expired = ดูเหมือนว่ารหัสโปรโมช
 card-error = ไม่สามารถประมวลผลธุรกรรมของคุณได้ โปรดยืนยันข้อมูลบัตรเครดิตของคุณแล้วลองอีกครั้ง
 country-currency-mismatch = สกุลเงินของการสมัครสมาชิกนี้ไม่ถูกต้องสำหรับประเทศที่เกี่ยวข้องกับการชำระเงินของคุณ
 currency-currency-mismatch = ขออภัย คุณไม่สามารถเปลี่ยนสกุลเงินไปมาได้
+location-unsupported = ตำแหน่งปัจจุบันของคุณไม่ถูกสนับสนุนตามเงื่อนไขการให้บริการของเรา
 no-subscription-change = ขออภัย คุณไม่สามารถเปลี่ยนแผนการสมัครสมาชิกของคุณได้
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = คุณได้สมัครสมาชิกผ่านทาง { $mobileAppStore } แล้ว
@@ -371,6 +372,7 @@ product-profile-error =
 product-customer-error =
     .title = เกิดปัญหาในการโหลดลูกค้า
 product-plan-not-found = ไม่พบแผน
+product-location-unsupported-error = ตำแหน่งไม่ถูกสนับสนุน
 
 ## Hooks - coupons
 

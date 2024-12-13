@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-07 15:26+0000\n"
+"PO-Revision-Date: 2024-12-13 04:58+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1091,7 +1091,7 @@ msgstr "ต้องการเห็นแท็บ ที่คั่นห�
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
-msgstr ""
+msgstr "จัดการบัญชีของคุณ"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1160,11 +1160,11 @@ msgstr "ไปยัง <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "สร้างตัวปกปิดอีเมล"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "โปรดระบุที่อยู่อีเมลที่คุณต้องการให้ส่งต่ออีเมลจากอีเมลที่ปกปิด"
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1928,11 +1928,11 @@ msgstr "ดำเนินการต่อด้วย Apple"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "กำลังเชื่อมต่ออุปกรณ์มือถือของคุณกับบัญชี Mozilla ของคุณ"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "ให้เปิด Firefox บนคอมพิวเตอร์ของคุณ เข้าไปที่ <b class=\"whitespace-nowrap\">firefox.com/pair</b> แล้วทำตามคำแนะนำบนหน้าจอเพื่อเชื่อมต่ออุปกรณ์มือถือของคุณ"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
@@ -1986,15 +1986,15 @@ msgstr "ขณะนี้จำเป็นต้องได้รับกา
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "การจับคู่อุปกรณ์ล้มเหลว"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "ไม่สามารถดำเนินการตั้งค่าให้เสร็จสมบูรณ์ได้ โปรดลงชื่อเข้าด้วยอีเมลของคุณ"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "ลงชื่อเข้าสำเร็จแล้ว!"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
@@ -2010,7 +2010,7 @@ msgstr "ดูรหัสผ่านที่บันทึก แท็บ �
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "เลือกตัวเลือกเพื่อดำเนินการต่อ:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"

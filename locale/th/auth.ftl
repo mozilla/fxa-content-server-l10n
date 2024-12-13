@@ -285,8 +285,29 @@ passwordChangeRequired-different-password-plaintext = สำคัญ: เลื
 password-forgot-otp-subject = ลืมรหัสผ่านของคุณใช่หรือไม่?
 password-forgot-otp-title = ลืมรหัสผ่านของคุณใช่หรือไม่?
 password-forgot-otp-request = เราได้รับคำขอเปลี่ยนรหัสผ่านใน{ -product-mozilla-account } ของคุณจาก:
+password-forgot-otp-code-2 = ถ้าเป็นตัวคุณ นี่คือรหัสยืนยันของคุณเพื่อดำเนินการต่อ:
 password-forgot-otp-expiry-notice = รหัสนี้จะหมดอายุใน 10 นาที
+passwordReset-subject-2 = ตั้งรหัสผ่านของคุณใหม่แล้ว
+passwordReset-title-2 = ตั้งรหัสผ่านของคุณใหม่แล้ว
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = คุณตั้งรหัสผ่าน{ -product-mozilla-account } ใหม่บน:
 passwordResetAccountRecovery-subject-2 = ตั้งรหัสผ่านของคุณใหม่แล้ว
+passwordResetAccountRecovery-title-3 = ตั้งรหัสผ่านของคุณใหม่แล้ว
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = คุณใช้คีย์กู้คืนบัญชีเพื่อตั้งรหัสผ่าน{ -product-mozilla-account } ใหม่บน:
+passwordResetAccountRecovery-information = เราได้นำคุณออกจากระบบในอุปกรณ์ที่ซิงค์ทั้งหมดแล้ว เราได้สร้างคีย์กู้คืนบัญชีใหม่เพื่อแทนที่คีย์เดิมที่คุณใช้ คุณสามารถเปลี่ยนได้ในหน้าการตั้งค่าบัญชีของคุณ
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = เราได้นำคุณออกจากระบบในอุปกรณ์ที่ซิงค์ทั้งหมดแล้ว เราได้สร้างคีย์กู้คืนบัญชีใหม่เพื่อแทนที่คีย์เดิมที่คุณใช้ คุณสามารถเปลี่ยนได้ในหน้าการตั้งค่าบัญชีของคุณ:
+passwordResetAccountRecovery-action-4 = จัดการบัญชี
+passwordResetWithRecoveryKeyPrompt-subject = ตั้งรหัสผ่านของคุณใหม่แล้ว
+passwordResetWithRecoveryKeyPrompt-title = ตั้งรหัสผ่านของคุณใหม่แล้ว
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = คุณตั้งรหัสผ่าน{ -product-mozilla-account } ใหม่บน:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = สร้างคีย์กู้คืนบัญชี
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = สร้างคีย์กู้คืนบัญชี:
+passwordResetWithRecoveryKeyPrompt-cta-description = คุณจะต้องลงชื่อเข้าอีกครั้งบนอุปกรณ์ที่ซิงค์ทั้งหมด ปกป้องข้อมูลของคุณให้ปลอดภัยในครั้งถัดไปได้ด้วยคีย์กู้คืนบัญชี ซึ่งช่วยให้คุณกู้คืนข้อมูลได้ถ้าคุณลืมรหัสผ่าน
 postAddAccountRecovery-subject-3 = สร้างคีย์กู้คืนบัญชีใหม่แล้ว
 postAddAccountRecovery-title2 = คุณสร้างคีย์การกู้คืนบัญชีใหม่แล้ว
 # Key here refers to account recovery key
