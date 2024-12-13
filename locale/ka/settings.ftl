@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = დახურვა
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = წერილი გაგზავნილია ახლიდან. დაამატეთ { $accountsEmail } ნაცნობ მისამართებში შეტყობინებების შეუფერხებლად მიღებისთვის.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Რაღაც ხარვეზი წარმოიშვა. ახალი კოდის გაგზავნა ვერ მოხერხდა.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -74,12 +64,6 @@ recovery-key-pdf-download-error = სამწუხაროდ, ხარვ�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = მიიღეთ მეტი { -brand-mozilla }-სგან:
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet-2 =
-    .label = დაგვეხმარეთ ინტერნეტის სიჯანსაღის შენარჩუნებაში
-# Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = უსაფრთხოებისა და პირადულობის შესახებ ამბები და სიახლეები
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = ადრეული წვდომა ახალი პროდუქტების გამოსაცდელად
 
@@ -106,14 +90,6 @@ choose-what-to-sync-option-addresses =
     .label = მისამართები
 choose-what-to-sync-option-paymentmethods =
     .label = გადახდის საშუალებები
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = არ მიგიღიათ და არც ჯართის საქაღალდეშია? გაგზავნეთ ხელახლა
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = უკან
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -163,10 +139,17 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = პაროლის განულება
 form-reset-password-with-balloon-match-error = პაროლები არ ემთხვევა
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = ველის შევსება აუცილებელია
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -182,6 +165,10 @@ get-data-trio-copy-2 =
 get-data-trio-print-2 =
     .title = ამობეჭდვა
     .aria-label = ამობეჭდვა
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -203,17 +190,20 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = გამოსახულებაზე წარმოდგენილი ანგარიშის აღდგენის გასაღები.
-lock-image-aria-label =
-    .aria-label = საკეტის გამოსახულება
 lightbulb-aria-label =
     .aria-label = გამოსახულებაზე წარმოდგენილია მინიშნების შექმნა საცავისთვის
 
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = პაროლის დამალვა
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = პაროლის ჩვენება
-input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
-input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = უკან
 
@@ -225,32 +215,14 @@ reset-pwd-link-damaged-header = პაროლის აღსადგენ�
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = დასადასტურებელი ბმული დაზიანებულია
-# The user followed a password reset or confirmation link received by email, but the link was damaged.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა.
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = ახალი ბმულის მიღება
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = პაროლის აღსადგენი ბმული ვადაგასულია
-reset-pwd-link-expired-message = პაროლის აღსადგენი ბმული, რომელზეც დააწკაპეთ, ვადაგასულია.
-
-## LinkExpiredSignin component
-
-# The user followed a signin confirmation link, but that link is expired and no longer valid
-signin-link-expired-header = დასადასტურებელი ბმული ვადაგასულია
-signin-link-expired-message = ბმული, რომელზეც დაწკაპეთ ელფოსტის დასადასტურებლად, ვადაგასულია.
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = გაგახსენდათ პაროლი? შესვლა
 
 ## LinkUsed component
 
@@ -259,6 +231,9 @@ primary-email-confirmation-link-reused = მთავარი ელფოს�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = შესვლა უკვე დამოწმებულია
 confirmation-link-reused-message = დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება მხოლოდ ერთხელ შეიძლება.
+
+## Notification Promo Banner component
+
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -274,11 +249,12 @@ password-strength-balloon-not-email = თქვენი ელფოსტი�
 password-strength-balloon-not-common = ხშირად გამოყენებულის გარდა
 password-strength-balloon-stay-safe-tips = დაიცავით უსაფრთხოება – ნუ გამოიყენებთ ერთსა და იმავე პაროლებს. ვრცლად იხილეთ რჩევები <LinkExternal>ძლიერი პაროლის შესაქმნელად</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = თქვენი პაროლი აღდგა.
 ready-complete-set-up-instruction = დაასრულეთ გამართვა ახალი პაროლის სხვა { -brand-firefox }-იან მოწყობილობებზე შეყვანით.
-ready-start-browsing-button = დაიწყეთ მოგზაურობა ინტერნეტში
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -291,6 +267,45 @@ ready-continue = განაგრძეთ
 sign-in-complete-header = შესვლა დადასტურებულია
 sign-up-complete-header = ანგარიში დადასტურებულია
 primary-email-verified-header = მთავარი ელფოსტა დამოწმებულია
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = ადგილები გასაღების შესანახად:
+flow-recovery-key-download-storage-ideas-folder-v2 = საქაღალდე დაცულ მოწყობილობაზე
+flow-recovery-key-download-storage-ideas-cloud = სანდო ღრუბლოვანი საცავი
+flow-recovery-key-download-storage-ideas-print-v2 = ფიზიკურად ამობეჭდილი ასლი
+flow-recovery-key-download-storage-ideas-pwd-manager = პაროლების მმართველი
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = დაამატეთ მინიშნება გასაღების ადვილად საპოვნელად
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = ეს მინიშნება დაგეხმარებათ, გაიხსენოთ, სად შეინახეთ თქვენი ანგარიშის აღდგენის გასაღები. იხილავთ, პაროლის განულებისას მონაცემების აღსადგენად.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = შეიყვანეთ მინიშნება (არასავალდებულო)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = დასრულება
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = მინიშნება უნდა შეიცავდეს არაუმეტეს 255 სიმბოლოს.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = მინიშნება არ უნდა შეიცავდეს საფრთხის შემცველ უნიკოდ-სიმბოლოებს. მისაღებია მხოლოდ ასოები, ციფრები და სასვენი ნიშნები.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -311,7 +326,6 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla }-ს ნაწარმი
 bento-menu-tagline = { -brand-mozilla }-ს მეტი ნაწარმი თქვენი პირადულობის დასაცავად
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
@@ -321,9 +335,6 @@ bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობილურზე ან ტაბლეტზე
-connect-another-find-fx-mobile =
-    მონახეთ { -brand-firefox } მაღაზიებში { -google-play } და { -app-store } ან
-    <br /><linkExternal>გაგზავნეთ ჩამოსატვირთი ბმული თქვენს მოწყობილობაზე.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -389,7 +400,6 @@ cs-sign-out-button = გამოსვლა
 ## Data collection section
 
 dc-heading = მონაცემთა აღრიცხვა და გამოყენება
-dc-subheader-2 = დაგვეხმარეთ, გავაუმჯობესოთ { -product-mozilla-accounts }
 dc-subheader-content-2 = ნების დართვა, რომ { -product-mozilla-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს ტექნიკური და გამოყენების მონაცემები.
 dc-opt-out-success-2 = უარი მიღებულია. { -product-mozilla-accounts } არ გაუგზავნის { -brand-mozilla }-ს ტექნიკურ და გამოყენების მონაცემებს.
 dc-opt-in-success-2 = გმადლობთ! ამ მონაცემების გაზიარება მეტად წაადგება { -product-mozilla-accounts(case: "gen") } გაუმჯობესებას.
@@ -431,39 +441,13 @@ flow-recovery-key-download-heading-v2 = შექმნილია ანგა
 flow-recovery-key-download-info-v2 = ეს გასაღები საშუალებას გაძლევთ, აღადგინოთ თქვენი მონაცემები, თუ დაგავიწყდებათ პაროლი. ჩამოტვირთეთ ახლავე და შეინახეთ დასამახსოვრებელ ადგილას — შემდგომ ვეღარ დაუბრუნდებით ამ გვერდს.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = განაგრძეთ ჩამოტვირთვის გარეშე
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = ადგილები გასაღების შესანახად:
-flow-recovery-key-download-storage-ideas-folder-v2 = საქაღალდე დაცულ მოწყობილობაზე
-flow-recovery-key-download-storage-ideas-cloud = სანდო ღრუბლოვანი საცავი
-flow-recovery-key-download-storage-ideas-print-v2 = ფიზიკურად ამობეჭდილი ასლი
-flow-recovery-key-download-storage-ideas-pwd-manager = პაროლების მმართველი
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = დაამატეთ მინიშნება გასაღების ადვილად საპოვნელად
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = ეს მინიშნება დაგეხმარებათ, გაიხსენოთ, სად შეინახეთ თქვენი ანგარიშის აღდგენის გასაღები. იხილავთ, პაროლის განულებისას მონაცემების აღსადგენად.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = შეიყვანეთ მინიშნება (არასავალდებულო)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = დასრულება
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = ანგარიშის აღდგენის გასაღები შექმნილია
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = მინიშნება უნდა შეიცავდეს არაუმეტეს 255 სიმბოლოს.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = მინიშნება არ უნდა შეიცავდეს საფრთხის შემცველ უნიკოდ-სიმბოლოებს. მისაღებია მხოლოდ ასოები, ციფრები და სასვენი ნიშნები.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -619,7 +603,6 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = სინქრონდება { -brand-firefox }-მონაცემები
 delete-account-product-firefox-addons = { -brand-firefox } დამატებები
@@ -771,14 +754,13 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     გადაინახეთ შესვლის ეს ერთჯერადი სამარქაფო კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
     როცა თან არ გექნებათ მობილური მოწყობილობა.
-tfa-enter-code-to-confirm-1 =
-    გთხოვთ შეინახოთ შესვლის სამარქაფო კოდები ახლავე
-    და დაადასტუროთ, რომ შენახულია. ეს კოდები დაგეხმარებათ ანგარიშზე შესვლაში, თუ
-    დაკარგავთ მობილურთან წვდომას.
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -816,6 +798,9 @@ security-action-create = შექმნა
 security-set-password = დააყენეთ პაროლი სინქრონიზაციისა და ანგარიშის უსაფრთხოების გარკვეული შესაძლებლობებით სარგებლობისთვის.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = ბოლო მოქმედებები ანგარიშზე
+
+## Settings sub row
+
 
 ## Switch component
 
@@ -900,27 +885,21 @@ se-secondary-email-none = ცარიელი
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = ორბიჯიანი დამოწმება
-tfa-row-disabled-2 = ორბიჯიანი დამოწმება შესვლისას გამორთულია
 tfa-row-enabled = ჩართულია
-tfa-row-not-set = არაა დაყენებული
 tfa-row-action-add = დამატება
 tfa-row-action-disable = ამორთვა
 tfa-row-button-refresh =
     .title = ორბიჯიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
-tfa-row-content-explain =
-    დაიცავით ანგარიში უცხო პირთა შესვლისგან
-    თქვენს ხელთ არსებული უნიკალური კოდის მოთხოვნით.
 tfa-row-cannot-verify-session-4 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას
 tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
 tfa-row-disable-modal-explain-1 =
     ეს ქმედება შეუქცევადია. ამასთანავე,
     შეგიძლიათ, <linkExternal>შეცვალოთ შესვლის სამარქაფო კოდები</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = ორბიჯიანი დამოწმება შესვლისას გამორთულია
 tfa-row-cannot-disable-2 = ორბიჯიანი დამოწმება ვერ გამოირთვება
-tfa-row-change-modal-heading-1 = შეიცვალოს შესვლის სამარქაფო კოდები?
-tfa-row-change-modal-confirm = შეცვლა
-tfa-row-change-modal-explain = ეს ქმედება შეუქცევადია.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -951,7 +930,7 @@ continue-with-apple-button = გამოიყენეთ { -brand-apple }, �
 auth-error-102 = უცნობი ანგარიში
 auth-error-103 = არასწორი პაროლი
 auth-error-105-2 = არასწორი დამადასტურებელი კოდი
-auth-error-110 = უმართებულო საცნობი
+auth-error-110 = უმართებულო საშვი
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = ზედმეტად ბევრი მცდელობა. კვლავ სინჯეთ მოგვიანებით.
@@ -963,7 +942,7 @@ auth-error-114-generic = ზედმეტად ბევრი მცდე�
 auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
 auth-error-138-2 = დაუმოწმებელი სეანსი
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
-auth-error-155 = TOTP-საცნობი ვერ მოიძებნა
+auth-error-155 = TOTP-საშვი ვერ მოიძებნა
 auth-error-159 = ანგარიშის აღდგენის უმართებულო გასაღები
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-999 = მოულოდნელი შეცდომა
@@ -1016,6 +995,12 @@ cookies-disabled-enable-prompt-2 = გთხოვთ ჩართოთ ბრ�
 cookies-disabled-button-try-again = ხელახლა ცდა
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = ვრცლად
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1197,6 +1182,11 @@ pair-wait-for-auth-heading-text = ახლა საჭიროა დამ�
 pair-unsupported-header = მიერთება აპლიკაციის გამოყენებით
 pair-unsupported-message = სისტემის კამერას იყენებდით? მიერთებაა საჭირო { -brand-firefox }-პროგრამიდან.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1204,76 +1194,30 @@ third-party-auth-callback-message = გთხოვთ მოითმინო�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = გაანულეთ პაროლი ანგარიშის აღდგენის გასაღებით, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = გაანულეთ პაროლი ანგარიშის აღდგენის გასაღებით, <span>რომ იხილოთ { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = თქვენს { -product-mozilla-account(case: "add") } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
-account-recovery-confirm-key-warning-message = <span>გაითვალისწინეთ:</span> თუ ანგარიშის აღდგენის გასაღები არ გაქვთ შენახული და მის გარეშე გაანულებთ პაროლს, თქვენი მონაცემების ნაწილი დაიკარგება (მათ შორის სერვერზე დასინქრონებული ისტორია და სანიშნები).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = შეიყვანეთ ანგარიშის აღდგენის გასაღები
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = დაადასტურეთ ანგარიშის აღდგენის გასაღები
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = არ გაქვთ ანგარიშის აღდგენის გასაღები?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = შექმენით ახალი პაროლი
-account-restored-success-message = თქვენ წარმატებით დაიბრუნეთ ანგარიშთან წვდომა მისი აღდგენის გასაღების მეშვეობით. შექმენით ახალი პაროლი თქვენი მონაცემების დასაცავად და შეინახეთ უსაფრთხო ადგილას.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = პაროლი დაყენებულია
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = წარმოიქმნა მოულოდნელი შეცდომა
-account-recovery-reset-password-redirecting = გადამისამართება
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = შექმენით ახალი პაროლი
-complete-reset-password-warning-message-2 = <span>გახსოვდეთ:</span> პაროლის განულებისას ასევე სუფთავდება თქვენი ანგარიშის მონაცემები. შესაძლოა დაკარგოთ პირადი ინფორმაციის ნაწილი (მათ შორის ისტორია, სანიშნები და პაროლები). ეს იმიტომ, რომ ჩვენ თქვენს მონაცემებს ვშიფრავთ თქვენი პაროლის მეშვეობით პირადი მონაცემების ხელშეუხებლობისთვის. გამოწერები თუ გაქვთ, შეგინარჩუნდებათ და { -product-pocket }-ის მონაცემებიც უცვლელად დარჩება.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = პაროლი დაყენებულია
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
-complete-reset-password-recovery-key-error-v2 = სამწუხაროდ, ხარვეზი წარმოიშვა ანგარიშის აღდგენის გასაღების შემოწმებისას.
-complete-reset-password-recovery-key-link = გაანულეთ პაროლი თქვენი ანგარიშის აღდგენის გასაღებით.
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = აღსადგენი შეტყობინება გამოგზავნილია
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = დააწკაპეთ ბმულზე, რომელსაც მიიღებთ ელფოსტაზე { $email } უახლოეს ერთი საათში და მიუთითეთ ახალი პაროლი.
 
-## ResetPassword page
+## PasswordResetConfirmTotp Page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = გაანულეთ პაროლი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = გაანულეთ პაროლი, <span>რომ იხილოთ { $serviceName }</span>
-reset-password-warning-message-2 = <span>გაითვალისწინეთ:</span> პაროლის განულებისას ასევე სუფთავდება თქვენი ანგარიშის მონაცემები. შესაძლოა დაკარგოთ პირადი ინფორმაციის ნაწილი (მათ შორის ისტორია, სანიშნები და პაროლები). ეს იმიტომ, რომ ჩვენ თქვენს მონაცემებს ვშიფრავთ თქვენივე პაროლით პირადი მონაცემების უსაფრთხოებისთვის. გამოწერები თუ გაქვთ, შეგინარჩუნდებათ და { -product-pocket }-ის მონაცემებიც ხელუხლებელი დარჩება.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = ელფოსტა
-reset-password-button = აღდგენის დაწყება
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = ელფოსტა აუცილებელია
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = თქვენი პაროლი აღდგა.
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
-reset-password-with-recovery-key-verified-generate-new-key = ანგარიშის აღდგენის ახალი გასაღების შედგენა
-reset-password-with-recovery-key-verified-continue-to-account = ანგარიშზე გადასვლა
 
 ## CompleteSignin component
 
@@ -1281,12 +1225,8 @@ reset-password-with-recovery-key-verified-continue-to-account = ანგარ�
 error-label = შეცდომა:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = მიმდინარეობს შესვლის დამოწმება…
-
-## ConfirmSignin component
-
-confirm-signin-header = დაადასტურეთ ეს შესვლა
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = შეამოწმეთ თქვენი ელფოსტა { $email }, რომელზეც გამოგზავნილია დასადასტურებელი ბმული
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = დასადასტურებელი ბმული ვადაგასულია
 
 ## Signin page
 
@@ -1303,6 +1243,12 @@ signin-button = შესვლა
 signin-header = შესვლა
 signin-use-a-different-account-link = სხვა ანგარიშის გამოყენება
 signin-forgot-password-link = დაგავიწყდათ პაროლი?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = ვწუხვართ. თქვენი ანგარიში ჩაკეტილია.
 # $email (string) - The user's email.
 signin-bounced-message = დასადასტურებელი ბმულის { $email } ელფოსტაზე გამოგზავნა ვერ მოხერხდა და თქვენი ანგარიში ჩაიკეტა { -brand-firefox }-მონაცემთა უსაფრთხოებისთვის.
@@ -1311,20 +1257,18 @@ signin-bounced-help = თუ ელფოსტის მითითებუ�
 signin-bounced-create-new-account = აღარ ფლობთ ელფოსტის ამ მისამართს? შექმენით ახალი ანგარიში
 back = უკან
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = შეიყვანეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = შეიყვანეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
-signin-recovery-code-instruction = გთხოვთ შეინახოთ შესვლის სამარქაფო კოდები, რომლებიც მოგეწოდათ ანგარიშზე ორბიჯიანი შესვლის გამართვისას.
-signin-recovery-code-input-label = შეიყვანეთ შესვლის 10-ციფრიანი სამარქაფო კოდი
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = თანხმობა
 # Link to return to signin with two-step authentication code
@@ -1363,15 +1307,6 @@ signin-token-code-required-error = საჭიროა დასტური�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = შეიყვანეთ შესვლის კოდი, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = შეიყვანეთ შესვლის კოდი, <span>რომ იხილოთ { $serviceName }</span>
-signin-totp-code-instruction-v2 = გახსენით შესვლის დასამოწმებელი პროგრამა და შეიყვანეთ შესვლის მოცემული კოდი.
-signin-totp-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = დასტური
 signin-totp-code-other-account-link = სხვა ანგარიშის გამოყენება
@@ -1379,13 +1314,9 @@ signin-totp-code-recovery-code-link = ვერ შეგყავთ კოდ�
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = შესვლის დამოწმების კოდი აუცილებელია
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = დაადასტურეთ თქვენი ანგარიში
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = შეამოწმეთ თქვენი ელფოსტა { $email }, რომელზეც გამოგზავნილია დასადასტურებელი ბმული
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1415,16 +1346,11 @@ confirm-signup-code-is-required-error = დადასტურების კ
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = მიუთითეთ თქვენი პაროლი
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = რატომაა საჭირო ანგარიშის შექმნა? <LinkExternal>გაეცანით აქ</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ელფოსტის შეცვლა
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = რა ასაკის ხართ?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = ანგარიშის შესაქმნელად უნდა მიუთითოთ ასაკი
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = რატომ გეკითხებით?
