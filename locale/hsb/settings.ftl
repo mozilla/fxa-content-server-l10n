@@ -1429,6 +1429,10 @@ complete-reset-pw-recovery-key-link = Kontowy wobnowjenski kluč wužiwać
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Waše hesło bu wróćo stajene.
 reset-password-complete-banner-message = Njezabywajće nowy kontowy wobnowjenski kluč ze swojich nastajenjow { -product-mozilla-account } generěrować, zo byšće přichodnym přizjewjenskim problemam zadźěwał.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 
 ## Confirm Reset Password With Code
 
@@ -1510,6 +1514,10 @@ signin-header = Přizjewić
 signin-use-a-different-account-link = Druhe konto wužiwać
 signin-forgot-password-link = Sće hesło zabył?
 signin-password-button-label = Hesło
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1567,6 +1575,10 @@ signin-recovery-code-back-link = Wróćo
 signin-recovery-code-support-link = Sće wuzamknjewny?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Awtentifikaciski kod za zawěsćenje trěbny
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1592,6 +1604,10 @@ signin-token-code-resend-code-link = Nowy kod přez e-mejl pósłać.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Wobkrućenski kod trěbny
 signin-token-code-resend-error = Něšto je so nimokuliło. Nowy kod njeda so słać.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1606,6 +1622,10 @@ signin-totp-code-other-account-link = Wužiwajće druhe konto
 signin-totp-code-recovery-code-link = Maće problemy při zapodawanju koda?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Awtentifikaciski kod trěbny
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1621,6 +1641,10 @@ signin-unblock-code-incorrect-length = Kod awtorizacije dyrbi 8 znamješkow wobs
 signin-unblock-code-incorrect-format-2 = Awtorizaciski kod móže jenož pismiki a/abo ličby wobsahować
 signin-unblock-resend-code-button = Ani w póstowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
 signin-unblock-support-link = Čehodla so to stawa?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1645,6 +1669,10 @@ confirm-signup-code-resend-code-link = Nowy kod přez e-mejl pósłać.
 confirm-signup-code-success-alert = Konto je so wuspěšnje wobkrućiło
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Wobkrućenski kod je trěbny
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
