@@ -1124,6 +1124,7 @@ auth-error-139 = Le adresse de e-mail secundari debe esser differente del adress
 auth-error-155 = Token TOTP non trovate
 auth-error-159 = Clave de recuperation del conto non valide
 auth-error-183-2 = Codice de confirmation invalide o expirate
+auth-error-206 = Impossibile crear contrasigno, contrasigno jam predefinite
 auth-error-999 = Error inexpectate
 auth-error-1001 = Tentativa de apertura de session cancellate
 auth-error-1002 = Session expirate. Reaperi session pro continuar.
@@ -1432,6 +1433,10 @@ complete-reset-pw-recovery-key-link = Usar clave de recuperation del conto
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Tu contrasigno ha essite reinitialisate.
 reset-password-complete-banner-message = Non oblida de generar un nove clave de recuperation de conto desde tu parametros de { -product-mozilla-account } pro evitar problemas de accesso in futuro.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
 ## Confirm Reset Password With Code
 
@@ -1508,6 +1513,10 @@ signin-header = Aperir session
 signin-use-a-different-account-link = Usa un conto differente
 signin-forgot-password-link = Contrasigno oblidate?
 signin-password-button-label = Contrasigno
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1565,6 +1574,10 @@ signin-recovery-code-back-link = Retro
 signin-recovery-code-support-link = Es tu blocate?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Codice de authentication de salvamento necessari
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1590,6 +1603,10 @@ signin-token-code-resend-code-link = Inviar per email nove codice.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Il es necesse codice de confirmation
 signin-token-code-resend-error = Alco errate eveniva. Un nove codice non pote esser inviate.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1604,6 +1621,10 @@ signin-totp-code-other-account-link = Usa un conto differente
 signin-totp-code-recovery-code-link = Problemas a inserer le codice?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Codice de authentication requirite
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1619,6 +1640,10 @@ signin-unblock-code-incorrect-length = Le codice de autorisation debe continer 8
 signin-unblock-code-incorrect-format-2 = Le codice de autorisation solo pote continer litteras o numeros
 signin-unblock-resend-code-button = Non in le cassa de entrata, ni in le dossier de spam? Reinviar
 signin-unblock-support-link = Perque isto eveni?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1643,6 +1668,10 @@ confirm-signup-code-resend-code-link = Inviar nove codice per email.
 confirm-signup-code-success-alert = Conto confirmate con successo
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Codice de confirmation requirite
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
