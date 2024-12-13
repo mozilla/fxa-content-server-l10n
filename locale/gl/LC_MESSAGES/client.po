@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-06 06:36+0000\n"
-"Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
+"PO-Revision-Date: 2024-05-03 19:04+0000\n"
+"Last-Translator: proba.educator226 <proba.educator226@passinbox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -1603,27 +1603,27 @@ msgstr "Novo inicio de sesión en Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Confirma o inicio de sesión"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Se sospeitas que alguén está tentando acceder á túa conta, <a id=\"change-password\" href=\"/settings/change_password\">cambia o teu contrasinal.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Enviar notificación push de inicio de sesión"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Consulta nos teus dispositivos Firefox conectados a pestana de confirmación de inicio de sesión que enviamos."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Reenviar a pestana"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Non chega a pestana? Envía un correo electrónico no seu lugar"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
