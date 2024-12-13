@@ -891,6 +891,7 @@ tfa-row-action-disable = ამორთვა
 tfa-row-button-refresh =
     .title = ორბიჯიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
+tfa-row-enabled-description = თქვენი ანგარიში დაცულია ორბიჯიანი დამოწმებით. დაგჭირდებათ ერთჯერადი შესვლის კოდის შეყვანა დამმოწმებელი აპიდან { -product-mozilla-account(case: "loc") } შესვლისას.
 tfa-row-cannot-verify-session-4 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას
 tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
