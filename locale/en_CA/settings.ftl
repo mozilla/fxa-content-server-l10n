@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Alert
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Attention
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Warning
 authenticator-app-aria-label =
     .aria-label = Authenticator Application
-backup-codes-icon-aria-label =
-    .aria-label = Backup codes enabled
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Backup codes disabled
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Backup authentication codes enabled
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Backup authentication codes disabled
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Recovery SMS enabled
@@ -887,10 +894,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Save these one-time use backup authentication codes in a safe place for when
     you don’t have your mobile device.
-tfa-enter-code-to-confirm-1 =
-    Please enter one of your backup authentication codes now to
-    confirm you’ve saved it. You’ll need a code to login if you don’t have access to your
-    mobile device.
+tfa-enter-code-to-confirm-v2 =
+    Please enter one of your new backup authentication codes to
+    confirm that you have saved them. Your old backup authentication codes will be disabled once this step is completed.
 tfa-enter-recovery-code-1 =
     .label = Enter a backup authentication code
 
@@ -945,6 +951,22 @@ security-set-password = Set a password to sync and use certain account security 
 security-recent-activity-link = View recent account activity
 signout-sync-header = Session Expired
 signout-sync-session-expired = Sorry, something went wrong. Please sign out from the browser menu and try again.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = No codes available
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } codes remaining
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Get new codes
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Add
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = This is the safest recovery method if you canʼt access your mobile device or authenticator app.
 
 ## Switch component
 
@@ -1029,25 +1051,25 @@ se-secondary-email-none = None
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Two-step authentication
-tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-enabled = Enabled
-tfa-row-not-set = Not set
+tfa-row-disabled-status = Disabled
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
 tfa-row-button-refresh =
     .title = Refresh two-step authentication
 tfa-row-cannot-refresh = Sorry, there was a problem refreshing two-step authentication.
-tfa-row-content-explain = Prevent someone else from logging in by requiring a unique code only you have access to.
+tfa-row-enabled-description = Your account is protected by two-step authentication. You will need to enter a one-time passcode from your authentication app when logging into your { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Help secure your account by using a <linkExternal>third-party authenticator app</linkExternal> as a second step to sign in.
 tfa-row-cannot-verify-session-4 = Sorry, there was a problem confirming your session
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain-1 =
     You won’t be able to undo this action. You also
     have the option of <linkExternal>replacing your backup authentication codes</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
-tfa-row-change-modal-heading-1 = Change backup authentication codes?
-tfa-row-change-modal-confirm = Change
-tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1094,6 +1116,7 @@ auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
 auth-error-159 = Invalid account recovery key
 auth-error-183-2 = Invalid or expired confirmation code
+auth-error-206 = Can not create password, password already set
 auth-error-999 = Unexpected error
 auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
@@ -1402,6 +1425,10 @@ complete-reset-pw-recovery-key-link = Use account recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Your password has been reset.
 reset-password-complete-banner-message = Don’t forget to generate a new account recovery key from your { -product-mozilla-account } settings to prevent future sign-in issues.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Confirm Reset Password With Code
 
@@ -1483,6 +1510,10 @@ signin-header = Sign in
 signin-use-a-different-account-link = Use a different account
 signin-forgot-password-link = Forgot password?
 signin-password-button-label = Password
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1540,6 +1571,10 @@ signin-recovery-code-back-link = Back
 signin-recovery-code-support-link = Are you locked out?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Backup authentication code required
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1565,6 +1600,10 @@ signin-token-code-resend-code-link = Email new code.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Confirmation code required
 signin-token-code-resend-error = Something went wrong. A new code could not be sent.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1579,6 +1618,10 @@ signin-totp-code-other-account-link = Use a different account
 signin-totp-code-recovery-code-link = Trouble entering code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Authentication code required
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1594,6 +1637,10 @@ signin-unblock-code-incorrect-length = Authorization code must contain 8 charact
 signin-unblock-code-incorrect-format-2 = Authorization code can only contain letters and/or numbers
 signin-unblock-resend-code-button = Not in inbox or spam folder? Resend
 signin-unblock-support-link = Why is this happening?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1618,6 +1665,10 @@ confirm-signup-code-resend-code-link = Email new code.
 confirm-signup-code-success-alert = Account confirmed successfully
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Confirmation code is required
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
