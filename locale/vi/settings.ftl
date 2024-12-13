@@ -1434,7 +1434,7 @@ reset-password-complete-banner-message = Đừng quên tạo khóa khôi phục 
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
+complete-reset-password-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
 ## Confirm Reset Password With Code
 
@@ -1519,7 +1519,7 @@ signin-password-button-label = Mật khẩu
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
+signin-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1580,7 +1580,7 @@ signin-recovery-code-required-error = Cần có mã xác thực dự phòng
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
+signin-recovery-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1609,7 +1609,7 @@ signin-token-code-resend-error = Đã xảy ra sự cố. Không thể gửi mã
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-token-code-instruction-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1627,7 +1627,7 @@ signin-totp-code-required-error = Yêu cầu mã xác thực
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-totp-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
+signin-totp-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1646,7 +1646,7 @@ signin-unblock-support-link = Tại sao chuyện này xảy ra?
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-unblock-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
+signin-unblock-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1674,7 +1674,7 @@ confirm-signup-code-is-required-error = Yêu cầu mã xác nhận
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-confirm-signup-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng mặt nạ email sau khi bạn đăng nhập.
+confirm-signup-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
