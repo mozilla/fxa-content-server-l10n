@@ -1429,7 +1429,7 @@ reset-password-complete-banner-message = No olvidés generar una nueva clave de 
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = { -brand-firefox } tratará de volver adonde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
+complete-reset-password-desktop-relay = { -brand-firefox } tratará de volver donde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## Confirm Reset Password With Code
 
@@ -1514,7 +1514,7 @@ signin-password-button-label = Contraseña
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-desktop-relay = { -brand-firefox } intentará enviarte de vuelta para usar una máscara de correo electrónico después de que inicies sesión.
+signin-desktop-relay = { -brand-firefox } tratará de volver donde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1575,7 +1575,7 @@ signin-recovery-code-required-error = Código de autenticación de respaldo requ
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } intentará enviarte de vuelta para usar una máscara de correo electrónico después de que inicies sesión.
+signin-recovery-code-desktop-relay = { -brand-firefox } tratará de volver donde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1604,7 +1604,7 @@ signin-token-code-resend-error = Algo salió mal. No se pudo enviar un nuevo có
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-token-code-instruction-desktop-relay = { -brand-firefox } intentará enviarte de vuelta para usar una máscara de correo electrónico después de que inicies sesión.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } tratará de volver donde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1622,7 +1622,7 @@ signin-totp-code-required-error = Código de autenticación requerido
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-totp-code-desktop-relay = { -brand-firefox } intentará enviarte de vuelta para usar una máscara de correo electrónico después de que inicies sesión.
+signin-totp-code-desktop-relay = { -brand-firefox } tratará de volver donde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1641,7 +1641,7 @@ signin-unblock-support-link = ¿Por qué pasa esto?
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-unblock-desktop-relay = { -brand-firefox } intentará enviarte de vuelta para usar una máscara de correo electrónico después de que inicies sesión.
+signin-unblock-desktop-relay = { -brand-firefox } tratará de volver donde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1669,7 +1669,7 @@ confirm-signup-code-is-required-error = Código de confirmación requerido
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-confirm-signup-code-desktop-relay = { -brand-firefox } intentará enviarte de vuelta para usar una máscara de correo electrónico después de que inicies sesión.
+confirm-signup-code-desktop-relay = { -brand-firefox } tratará de volver donde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
