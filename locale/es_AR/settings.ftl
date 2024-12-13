@@ -1429,7 +1429,7 @@ reset-password-complete-banner-message = No olvidés generar una nueva clave de 
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = { -brand-firefox } intentará enviarte de vuelta para usar una máscara de correo electrónico después de que inicies sesión.
+complete-reset-password-desktop-relay = { -brand-firefox } tratará de volver adonde estabas para usar una máscara de correo electrónico después de que iniciés sesión.
 
 ## Confirm Reset Password With Code
 
