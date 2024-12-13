@@ -1123,6 +1123,7 @@ auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen ti
 auth-error-155 = TOTP-token ikke fundet
 auth-error-159 = Ugyldig genoprettelsesnøgle til kontoen
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
+auth-error-206 = Kan ikke oprette adgangskode, adgangskode allerede angivet
 auth-error-999 = Uventet fejl
 auth-error-1001 = Login-forsøg annulleret
 auth-error-1002 = Sessionen udløb. Log ind for at fortsætte.
@@ -1431,6 +1432,10 @@ complete-reset-pw-recovery-key-link = Brug en genoprettelsesnøgle til kontoen
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Din adgangskode er blevet nulstillet.
 reset-password-complete-banner-message = Glem ikke at oprette en ny genoprettelsesnøgle til kontoen fra { -product-mozilla-account }-indstillingerne for at forhindre fremtidige login-problemer.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } vil forsøge at sende dig tilbage, så du kan bruge en mail-maske, når du har logget ind.
 
 ## Confirm Reset Password With Code
 
