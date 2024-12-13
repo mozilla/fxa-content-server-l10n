@@ -1128,6 +1128,7 @@ auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
 auth-error-159 = Unjildige accountwerstelkaai
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
+auth-error-206 = Kin gjin wachtwurd oanmeitsje, wachtwurd is al ynsteld
 auth-error-999 = Unferwachte flater
 auth-error-1001 = Oanmeldbesykjen annulearre
 auth-error-1002 = Sesje ferrûn. Meld jo oan om troch te gean.
@@ -1436,6 +1437,10 @@ complete-reset-pw-recovery-key-link = Accountwerstelkaai brûke
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Jo wachtwurd is opnij inisjalisearre.
 reset-password-complete-banner-message = Ferjit net in nije accountwerstelkaai te meitsjen fan jo { -product-mozilla-account }-ynstellingen út om takomstige oanmeldingsproblemen foar te kommen.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
 ## Confirm Reset Password With Code
 
@@ -1514,6 +1519,10 @@ signin-header = Oanmelde
 signin-use-a-different-account-link = In oar account brûke
 signin-forgot-password-link = Wachtwurd ferjitten?
 signin-password-button-label = Wachtwurd
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1571,6 +1580,10 @@ signin-recovery-code-back-link = Tebek
 signin-recovery-code-support-link = Binne jo bûten sluten?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reserve-autentikaasjekoade fereaske
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1596,6 +1609,10 @@ signin-token-code-resend-code-link = Nije koade ferstjoere.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Befêstigingskoade nedich
 signin-token-code-resend-error = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1610,6 +1627,10 @@ signin-totp-code-other-account-link = In oar account brûke
 signin-totp-code-recovery-code-link = Problemen by it ynfieren fan de koade?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Autentikaasjekoade fereaske
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1625,6 +1646,10 @@ signin-unblock-code-incorrect-length = Autorisaasjekoade moat 8 tekens befetsje
 signin-unblock-code-incorrect-format-2 = Autorisaasjekoade mei allinnich letters en/of sifers befetsje
 signin-unblock-resend-code-button = Net yn Postfek YN of map mei net-winske? Opnij ferstjoere
 signin-unblock-support-link = Werom bart dit?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1649,6 +1674,10 @@ confirm-signup-code-resend-code-link = Nije koade ferstjoere pr e-mail.
 confirm-signup-code-success-alert = Account mei sukses befêstige
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Befêstigingskoade is fereaske
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
