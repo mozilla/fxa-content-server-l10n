@@ -1118,6 +1118,7 @@ auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozezn
 auth-error-155 = TOTP-token njejo se namakał
 auth-error-159 = Njepłaśiwy kontowy wótnowjeński kluc
 auth-error-183-2 = Njepłaśiwy abo spadnjony wobkšuśeński kod
+auth-error-206 = Njejo móžno gronidło napóraś, dokulaž gronidło jo južo nastajone
 auth-error-999 = Njewótcakowana zmólka
 auth-error-1001 = Pśizjawjeński wopyt pśetergnjony
 auth-error-1002 = Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował.
@@ -1426,6 +1427,10 @@ complete-reset-pw-recovery-key-link = Kontowy wótnowjeński kluc wužywaś
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Wašo gronidło jo se slědk stajiło.
 reset-password-complete-banner-message = Njezabywajśo nowy kontowy wótnowjeński kluc ze swójich nastajenjow { -product-mozilla-account } generěrowaś, aby pśiducym pśizjawjeńskim problemam zajźował.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 
 ## Confirm Reset Password With Code
 
@@ -1507,6 +1512,10 @@ signin-header = Pśizjawiś
 signin-use-a-different-account-link = Druge konto wužywaś
 signin-forgot-password-link = Sćo gronidło zabył?
 signin-password-button-label = Gronidło
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1564,6 +1573,10 @@ signin-recovery-code-back-link = Slědk
 signin-recovery-code-support-link = Sćo se wuzamknuł?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Awtentifikaciski kod za zawěsćenje trjebny
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1589,6 +1602,10 @@ signin-token-code-resend-code-link = Nowy kod pśez e-mail pósłaś.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Wobkšuśeński kod trjebny
 signin-token-code-resend-error = Něco njejo se raźiło. Nowy code njedajo se słaś.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1603,6 +1620,10 @@ signin-totp-code-other-account-link = Wužywajśo druge konto
 signin-totp-code-recovery-code-link = Maśo problemy pśi zapódawanju koda?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Awtentifikaciski kod trjebny
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1618,6 +1639,10 @@ signin-unblock-code-incorrect-length = Kod awtorizacije musy 8 znamuškow wopśi
 signin-unblock-code-incorrect-format-2 = Awtorizaciski kod móžo jano pismiki a/abo licby wopśimowaś
 signin-unblock-resend-code-button = Ani w postowem dochaźe ani w spamowem zarědniku? Znowego pósłaś
 signin-unblock-support-link = Cogodla se to stawa?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1642,6 +1667,10 @@ confirm-signup-code-resend-code-link = Nowy kod pśez e-mail pósłaś.
 confirm-signup-code-success-alert = Konto jo se wuspěšnje wobkšuśiło
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Wobkšuśeński kod jo trjebny
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
