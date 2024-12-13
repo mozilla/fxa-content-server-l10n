@@ -1120,6 +1120,7 @@ auth-error-139 = Дополнительный адрес электронной 
 auth-error-155 = TOTP-токен не найден
 auth-error-159 = Некорректный ключ восстановления аккаунта
 auth-error-183-2 = Неверный или истёкший код подтверждения
+auth-error-206 = Не удалось создать пароль, пароль уже установлен
 auth-error-999 = Непредвиденная ошибка
 auth-error-1001 = Попытка входа отменена
 auth-error-1002 = Время сессии истекло. Войдите, чтобы продолжить.
@@ -1428,6 +1429,10 @@ complete-reset-pw-recovery-key-link = Использовать ключ восс
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ваш пароль был сброшен.
 reset-password-complete-banner-message = Не забудьте сгенерировать новый ключ восстановления аккаунта в настройках { -product-mozilla-account }, чтобы избежать проблем со входом в систему в будущем.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } попытается отправить вас обратно, чтобы вы использовали псевдоним электронной почты после входа.
 
 ## Confirm Reset Password With Code
 
@@ -1507,6 +1512,10 @@ signin-header = Войти
 signin-use-a-different-account-link = Использовать другой аккаунт
 signin-forgot-password-link = Забыли пароль?
 signin-password-button-label = Пароль
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } попытается отправить вас обратно, чтобы вы использовали псевдоним электронной почты после входа.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1564,6 +1573,10 @@ signin-recovery-code-back-link = Назад
 signin-recovery-code-support-link = Аккаунт заблокирован?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Требуется резервный код аутентификации
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } попытается отправить вас обратно, чтобы вы использовали псевдоним электронной почты после входа.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1589,6 +1602,10 @@ signin-token-code-resend-code-link = Отправить новый код по �
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Требуется код подтверждения
 signin-token-code-resend-error = Что-то пошло не так. Не удалось отправить новый код.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } попытается отправить вас обратно, чтобы вы использовали псевдоним электронной почты после входа.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1603,6 +1620,10 @@ signin-totp-code-other-account-link = Использовать другой ак
 signin-totp-code-recovery-code-link = Проблемы с вводом кода?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Требуется код аутентификации
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } попытается отправить вас обратно, чтобы вы использовали псевдоним электронной почты после входа.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1618,6 +1639,10 @@ signin-unblock-code-incorrect-length = Код авторизации долже�
 signin-unblock-code-incorrect-format-2 = Код авторизации может содержать только буквы и/или цифры
 signin-unblock-resend-code-button = Нет в папке «Входящие» или «Спам»? Отправить снова
 signin-unblock-support-link = Почему это происходит?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } попытается отправить вас обратно, чтобы вы использовали псевдоним электронной почты после входа.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1642,6 +1667,10 @@ confirm-signup-code-resend-code-link = Отправить новый код по
 confirm-signup-code-success-alert = Аккаунт успешно подтверждён
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Требуется код подтверждения
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } попытается отправить вас обратно, чтобы вы использовали псевдоним электронной почты после входа.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
