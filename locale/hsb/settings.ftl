@@ -1120,6 +1120,7 @@ auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozezn
 auth-error-155 = TOTP-token njeje so namakał
 auth-error-159 = Njepłaćiwy kontowy wobnowjenski kluč
 auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
+auth-error-206 = Njeje móžno hesło wutworić, dokelž hesło je hižo nastajene
 auth-error-999 = Njewočakowany zmylk
 auth-error-1001 = Přizjewjenski pospyt přetorhnjeny
 auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
