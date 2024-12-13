@@ -891,6 +891,7 @@ tfa-enter-totp-v2 = ทีนี้ ให้ใส่รหัสยืนย�
 tfa-input-enter-totp-v2 =
     .label = ใส่รหัสยืนยันตัวตน
 tfa-save-these-codes-1 = บันทึกรหัสยืนยันตัวตนสำรองแบบใช้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัยเพื่อใช้เมื่อคุณไม่มีอุปกรณ์มือถือ
+tfa-enter-code-to-confirm-v2 = โปรดป้อนหนึ่งในรหัสยืนยันตัวตนสำรองใหม่ของคุณเพื่อยืนยันว่าคุณได้บันทึกรหัสเหล่านี้ไว้แล้ว รหัสยืนยันตัวตนสำรองเดิมของคุณจะถูกปิดใช้งานเมื่อดำเนินการขั้นตอนนี้เสร็จสมบูรณ์แล้ว
 tfa-enter-recovery-code-1 =
     .label = ใส่รหัสยืนยันตัวตนสำรอง
 
@@ -948,6 +949,19 @@ signout-sync-session-expired = ขออภัย มีบางอย่าง
 
 ## Settings sub row
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = ไม่มีรหัสที่ใช้ได้
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = เหลือรหัสอีก { $numCodesAvailable } อัน
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = รับรหัสใหม่
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = เพิ่ม
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = นี่เป็นวิธีการกู้คืนที่ปลอดภัยที่สุดถ้าคุณไม่สามารถเข้าถึงอุปกรณ์มือถือหรือแอปยืนยันตัวตนได้
 
 ## Switch component
 
@@ -1089,11 +1103,13 @@ auth-error-114-generic = คุณได้พยายามหลายคร�
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = คุณได้พยายามหลายครั้งเกินไป โปรดลองอีกครั้ง{ $retryAfter }
+auth-error-125 = การร้องขอถูกปิดกั้นด้วยเหตุผลด้านความปลอดภัย
 auth-error-138-2 = วาระที่ยังไม่ยืนยัน
 auth-error-139 = อีเมลสำรองต้องแตกต่างจากอีเมลของบัญชีคุณ
 auth-error-155 = ไม่พบโทเค็น TOTP
 auth-error-159 = คีย์การกู้คืนบัญชีไม่ถูกต้อง
 auth-error-183-2 = รหัสยืนยันไม่ถูกต้องหรือหมดอายุ
+auth-error-206 = ไม่สามารถสร้างรหัสผ่านได้ เนื่องจากรหัสผ่านถูกตั้งไปแล้ว
 auth-error-999 = ข้อผิดพลาดที่ไม่คาดคิด
 auth-error-1001 = ความพยายามในการเข้าสู่ระบบถูกยกเลิก
 auth-error-1002 = วาระหมดอายุ ลงชื่อเข้าใหม่เพื่อดำเนินการต่อ
@@ -1373,6 +1389,18 @@ third-party-auth-callback-message = กรุณารอ ระบบกำล�
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = ใส่คีย์กู้คืนบัญชีของคุณ
+account-recovery-confirm-key-instruction = คีย์นี้จะกู้คืนข้อมูลการเรียกดูที่เข้ารหัสลับของคุณ เช่น รหัสผ่าน และที่คั่นหน้า จากเซิร์ฟเวอร์ { -brand-firefox }
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = ใส่คีย์กู้คืนบัญชี 32 อักขระของคุณ
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = คำใบ้สำหรับการจัดเก็บของคุณคือ:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = ดำเนินการต่อ
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = ไม่พบคีย์กู้คืนบัญชีของคุณใช่หรือไม่?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1390,6 +1418,10 @@ complete-reset-pw-recovery-key-link = ใช้คีย์กู้คืนบ
 # Displayed on the sign in page
 reset-password-complete-banner-heading = รหัสผ่านของคุณได้ถูกตั้งใหม่แล้ว
 reset-password-complete-banner-message = อย่าลืมสร้างคีย์กู้คืนบัญชีใหม่จากหน้าการตั้งค่า{ -product-mozilla-account } ของคุณเพื่อป้องกันปัญหาการลงชื่อเข้าในอนาคต
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
 ## Confirm Reset Password With Code
 
@@ -1466,6 +1498,10 @@ signin-header = ลงชื่อเข้า
 signin-use-a-different-account-link = ใช้บัญชีอื่น
 signin-forgot-password-link = ลืมรหัสผ่านใช่หรือไม่?
 signin-password-button-label = รหัสผ่าน
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1489,9 +1525,21 @@ back = ย้อนกลับ
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = ยืนยันการเข้าสู่ระบบนี้<span>เพื่อไปยังการตั้งค่าบัญชี</span>
+signin-push-code-heading-w-custom-service = ยืนยันการเข้าสู่ระบบนี้<span>เพื่อไปยัง { $serviceName }</span>
+signin-push-code-instruction = โปรดตรวจสอบอุปกรณ์อื่นๆ ของคุณและอนุมัติการเข้าสู่ระบบนี้จากเบราว์เซอร์ { -brand-firefox } ของคุณ
+signin-push-code-did-not-recieve = ไม่ได้รับการแจ้งเตือนใช่หรือไม่?
+signin-push-code-send-email-link = ส่งรหัสทางอีเมล
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = ยืนยันการเข้าสู่ระบบของคุณ
+signin-push-code-confirm-description = เราตรวจพบความพยายามเข้าสู่ระบบจากอุปกรณ์ต่อไปนี้ ถ้าเป็นตัวคุณ โปรดอนุมัติการเข้าสู่ระบบ
+signin-push-code-confirm-verifying = กำลังยืนยัน
+signin-push-code-confirm-login = ยืนยันการเข้าสู่ระบบ
+signin-push-code-confirm-wasnt-me = นี่ไม่ใช่ฉัน เปลี่ยนรหัสผ่าน
+signin-push-code-confirm-login-approved = การเข้าสู่ระบบของคุณได้ถูกอนุมัติแล้ว โปรดปิดหน้าต่างนี้
+signin-push-code-confirm-link-error = ลิงก์เสียหาย โปรดลองใหม่อีกครั้ง
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1511,6 +1559,10 @@ signin-recovery-code-back-link = ย้อนกลับ
 signin-recovery-code-support-link = คุณถูกล็อกใช่หรือไม่?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = ต้องใส่รหัสยืนยันตัวตน
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1536,6 +1588,10 @@ signin-token-code-resend-code-link = ส่งรหัสใหม่ทาง�
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = ต้องใส่รหัสยืนยัน
 signin-token-code-resend-error = มีบางอย่างผิดพลาด ไม่สามารถส่งรหัสใหม่ได้
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1550,6 +1606,10 @@ signin-totp-code-other-account-link = ใช้บัญชีอื่น
 signin-totp-code-recovery-code-link = มีปัญหาในการใส่รหัสใช่หรือไม่?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = ต้องใส่รหัสยืนยันตัวตน
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1565,6 +1625,10 @@ signin-unblock-code-incorrect-length = รหัสอนุญาตต้อ�
 signin-unblock-code-incorrect-format-2 = รหัสอนุญาตต้องมีเฉพาะตัวอักษรและ/หรือตัวเลข
 signin-unblock-resend-code-button = ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปมใช่หรือไม่? ส่งใหม่
 signin-unblock-support-link = ทำไมถึงเกิดเหตุการณ์นี้?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1589,6 +1653,10 @@ confirm-signup-code-resend-code-link = ส่งรหัสใหม่ทา�
 confirm-signup-code-success-alert = ยืนยันบัญชีสำเร็จแล้ว
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = ต้องใส่รหัสยืนยัน
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
