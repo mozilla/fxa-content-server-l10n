@@ -220,6 +220,10 @@ icon-warning-aria-label =
     .aria-label = Προειδοποίηση
 authenticator-app-aria-label =
     .aria-label = Εφαρμογή ελέγχου ταυτότητας
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Οι εφεδρικοί κωδικοί ταυτοποίησης ενεργοποιήθηκαν
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Οι εφεδρικοί κωδικοί ταυτοποίησης απενεργοποιήθηκαν
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Η ανάκτησης μέσω SMS ενεργοποιήθηκε

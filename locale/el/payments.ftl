@@ -375,6 +375,7 @@ product-profile-error =
 product-customer-error =
     .title = Πρόβλημα φόρτωσης πελάτη
 product-plan-not-found = Το πρόγραμμα δεν βρέθηκε
+product-location-unsupported-error = Η τοποθεσία δεν υποστηρίζεται
 
 ## Hooks - coupons
 
