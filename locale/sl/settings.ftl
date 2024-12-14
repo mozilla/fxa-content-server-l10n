@@ -442,7 +442,7 @@ password-reset-data-may-not-be-recovered = Podatkov brskalnika morda ne bo mogo�
 password-reset-previously-signed-in-device-2 = Imate kakšno napravo, na kateri ste se že kdaj prej prijavili?
 password-reset-data-may-be-saved-locally-2 = Podatki brskalnika so morda shranjeni na tej napravi. Ponastavite geslo, nato pa se prijavite, s čimer boste obnovili in sinhronizirali podatke.
 password-reset-no-old-device-2 = Imate novo napravo, nimate pa dostopa do nobene izmed prejšnjih?
-password-reset-encrypted-data-cannot-be-recovered-2 = Žal nam je, toda šifriranih podatkov brskalnika v strežnikih { -brand-firefox } ni mogoče obnoviti.
+password-reset-encrypted-data-cannot-be-recovered-2 = Žal nam je, toda šifriranih podatkov brskalnika iz { -brand-firefox }ovih strežnikov ni mogoče obnoviti.
 password-reset-warning-have-key = Imate ključ za obnovitev računa?
 password-reset-warning-use-key-link = Uporabite ga za ponastavitev gesla in ohranitev podatkov
 
@@ -1062,7 +1062,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Oprostite, prišlo je do težave pri osveževanju
     overitve v dveh korakih.
-tfa-row-enabled-description = Vaš račun je zaščiten s overjanjem v dveh korakih. Ob prijavi v svoj { -product-mozilla-account } boste morali vnesti enkratno geslo iz aplikacije za overjanje.
+tfa-row-enabled-description = Vaš račun je zaščiten s overjanjem v dveh korakih. Ob prijavi v { -product-mozilla-account(sklon: "tozilnik") } boste morali vnesti enkratno geslo iz aplikacije za overjanje.
 # <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-disabled-description = Pomagajte zavarovati svoj račun z uporabo <linkExternal>aplikacije za preverjanje pristnosti tretjih ponudnikov</linkExternal> kot drugega koraka pri prijavi.
 tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
@@ -1120,7 +1120,7 @@ auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova račun
 auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-159 = Neveljaven ključ za obnovitev računa
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
-auth-error-206 = Gesla ni mogoče ustvariti, geslo je že nastavljeno
+auth-error-206 = Gesla ni mogoče ustvariti – geslo je že nastavljeno
 auth-error-999 = Nepričakovana napaka
 auth-error-1001 = Poskus prijave preklican
 auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.
@@ -1428,7 +1428,7 @@ complete-reset-pw-recovery-key-link = Uporabi ključ za obnovitev računa
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Vaše geslo je bilo ponastavljeno.
-reset-password-complete-banner-message = Ne pozabite iz nastavitev { -product-mozilla-account } ustvariti novega ključa za obnovitev računa, da preprečite prihodnje težave pri prijavi.
+reset-password-complete-banner-message = Ne pozabite v nastavitvah { -product-mozilla-account(sklon: "rodilnik") } ustvariti novega ključa za obnovitev računa, da se izognete nadaljnjim težavam pri prijavi.
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
@@ -1455,7 +1455,7 @@ confirm-reset-password-otp-different-account-link = Uporabi drug račun
 
 confirm-totp-reset-password-header = Ponastavite geslo
 confirm-totp-reset-password-subheader-v2 = Vnesite kodo za overjanje v dveh korakih
-confirm-totp-reset-password-instruction-v2 = V <strong>aplikaciji za overitev</strong> ponastavite geslo.
+confirm-totp-reset-password-instruction-v2 = V <strong>aplikaciji za overjanje</strong> ponastavite geslo.
 confirm-totp-reset-password-trouble-code = Imate težave pri vnosu kode?
 confirm-totp-reset-password-confirm-button = Potrdi
 confirm-totp-reset-password-input-label-v2 = Vnesite 6-mestno kodo
@@ -1479,7 +1479,10 @@ reset-password-confirmed-cta = Nadaljuj na { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-complete-new-password-saved = Novo geslo shranjeno!
 reset-password-complete-recovery-key-created = Nov obnovitveni ključ za račun je ustvarjen. Prenesite in shranite ga zdaj.
-reset-password-complete-recovery-key-download-info = Ta ključ je potreben za obnovitev podatkov, če pozabite geslo. <b>Prenesite jo in jo varno shranite zdaj, saj pozneje ne boste mogli več dostopati do te strani.</b>
+reset-password-complete-recovery-key-download-info =
+    Ta ključ je potreben za
+    obnovitev podatkov, če pozabite geslo. <b>Prenesite ga in ga varno shranite
+     zdaj, saj se pozneje ne boste več mogli vrniti na to stran.</b>
 
 ## CompleteSignin component
 
@@ -1609,7 +1612,7 @@ signin-token-code-instruction-desktop-relay = Po prijavi vas bo { -brand-firefox
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-subheader-v2 = Vnesite kodo za overjanje v dveh korakih
-signin-totp-code-instruction-v4 = V <strong>aplikaciji za overitev</strong> potrdite prijavo.
+signin-totp-code-instruction-v4 = V <strong>aplikaciji za overjanje</strong> potrdite prijavo.
 signin-totp-code-input-label-v4 = Vnesite 6-mestno kodo
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potrdi
