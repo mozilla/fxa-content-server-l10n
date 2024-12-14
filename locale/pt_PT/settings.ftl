@@ -1113,7 +1113,7 @@ auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua cont
 auth-error-155 = Código TOTP não encontrado
 auth-error-159 = Chave de recuperação da conta inválida
 auth-error-183-2 = Código de confirmação inválido ou expirado
-auth-error-206 = Não foi possível criar a palavra-passe, a palavra-passe já foi definida
+auth-error-206 = Não foi possível criar a palavra-passe: a palavra-passe já foi definida
 auth-error-999 = Erro inesperado
 auth-error-1001 = Tentativa de início de sessão cancelada
 auth-error-1002 = A sessão expirou. Inicie sessão para continuar.
@@ -1427,7 +1427,7 @@ reset-password-complete-banner-message = Não se esqueça de gerar uma nova chav
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = O { -brand-firefox } irá tentar enviar-lhe de volta para utilizar uma máscara de e-mail após iniciar sessão.
+complete-reset-password-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
 
 ## Confirm Reset Password With Code
 
@@ -1507,7 +1507,7 @@ signin-password-button-label = Palavra-passe
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-desktop-relay = O { -brand-firefox } irá tentar enviar-lhe de volta para utilizar uma máscara de e-mail após iniciar sessão.
+signin-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1568,7 +1568,7 @@ signin-recovery-code-required-error = É necessário o código de recuperação 
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = O { -brand-firefox } irá tentar enviar-lhe de volta para utilizar uma máscara de e-mail após iniciar sessão.
+signin-recovery-code-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1597,7 +1597,7 @@ signin-token-code-resend-error = Algo correu mal. Não foi possível enviar um n
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-token-code-instruction-desktop-relay = O { -brand-firefox } irá tentar enviar-lhe de volta para utilizar uma máscara de e-mail após iniciar sessão.
+signin-token-code-instruction-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1615,7 +1615,7 @@ signin-totp-code-required-error = É necessário o código de autenticação
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-totp-code-desktop-relay = O { -brand-firefox } irá tentar enviar-lhe de volta para utilizar uma máscara de e-mail após iniciar sessão.
+signin-totp-code-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1634,7 +1634,7 @@ signin-unblock-support-link = Porque é que isto está a acontecer?
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-unblock-desktop-relay = O { -brand-firefox } irá tentar enviar-lhe de volta para utilizar uma máscara de e-mail após iniciar sessão.
+signin-unblock-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1662,7 +1662,7 @@ confirm-signup-code-is-required-error = É necessário o código de confirmaçã
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-confirm-signup-code-desktop-relay = O { -brand-firefox } irá tentar enviar-lhe de volta para utilizar uma máscara de e-mail após iniciar sessão.
+confirm-signup-code-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
