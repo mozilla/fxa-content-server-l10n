@@ -208,6 +208,18 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Hälytys
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Huomio
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Varoitus
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadan lippu
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Käytössä
@@ -219,6 +231,9 @@ code-icon-aria-label =
     .aria-label = Koodi
 error-icon-aria-label =
     .aria-label = Virhe
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Yhdysvaltain lippu
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -854,10 +869,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Tallenna nämä varatodennuskoodit turvalliseen paikkaan
     sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
-tfa-enter-code-to-confirm-1 =
-    Anna jokin varatodennuskoodeistasi nyt vahvistaaksesi,
-    että olet tallentanut sen. Tarvitset koodin kirjautumiseen, jos sinulla ei ole pääsyä
-    mobiililaitteellesi.
 tfa-enter-recovery-code-1 =
     .label = Anna varatodennuskoodi
 
@@ -912,6 +923,20 @@ security-set-password = Aseta salasana tilin tiettyjen suojausominaisuuksien syn
 security-recent-activity-link = Näytä viimeisimmät tilitapahtumat
 signout-sync-header = Istunto vanhentui
 signout-sync-session-expired = Pahoittelut, jotain meni pieleen. Kirjaudu ulos selaimen valikosta ja yritä uudelleen.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Koodeja ei ole saatavilla
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } koodia jäljellä
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Hanki uudet koodit
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Lisää
 
 ## Switch component
 
@@ -996,9 +1021,7 @@ se-secondary-email-none = Ei mitään
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kaksivaiheinen todennus
-tfa-row-disabled-2 = Kaksivaiheinen todennus poistettu käytöstä
 tfa-row-enabled = Käytössä
-tfa-row-not-set = Ei asetettu
 tfa-row-action-add = Lisää
 tfa-row-action-disable = Poista käytöstä
 tfa-row-button-refresh =
@@ -1006,19 +1029,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Valitettavasti kaksivaiheisen todennuksen
     päivittämisessä ilmeni ongelma.
-tfa-row-content-explain =
-    Estä muita kirjautumasta vaatimalla
-    yksilöllinen koodi, jonka vain sinä saat tietää.
 tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
 tfa-row-disable-modal-explain-1 =
     Et voi kumota tätä toimintoa. Sinulla on myös
     mahdollisuus <linkExternal>uusia varatodennuskoodisi</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Kaksivaiheinen todennus poistettu käytöstä
 tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöstä
-tfa-row-change-modal-heading-1 = Vaihdetaanko varatodennuskoodit?
-tfa-row-change-modal-confirm = Vaihda
-tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1064,6 +1083,7 @@ auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi en
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-159 = Virheellinen tilin palautusavain
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
+auth-error-206 = Salasanaa ei voi luoda, salasana on jo asetettu
 auth-error-999 = Odottamaton virhe
 auth-error-1001 = Kirjautumisyritys peruttu
 auth-error-1002 = Istunto vanhentui. Kirjaudu sisään uudelleen.
@@ -1327,6 +1347,12 @@ pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <span>joltain muult
 pair-unsupported-header = Muodosta pari sovelluksella
 pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostaminen tulee tehdä { -brand-firefox }-sovelluksesta.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = Luo salasana
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1380,11 +1406,12 @@ confirm-reset-password-otp-different-account-link = Käytä toista tiliä
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Nollaa salasanasi
-confirm-totp-reset-password-subheader = Syötä kaksivaiheisen todennuksen suojakoodi (2FA)
 confirm-totp-reset-password-trouble-code = Ongelmia koodin kirjoittamisen kanssa?
 confirm-totp-reset-password-confirm-button = Vahvista
-confirm-totp-reset-password-input-label = Kirjoita koodi
+confirm-totp-reset-password-input-label-v2 = Kirjoita 6-numeroinen koodi
 confirm-totp-reset-password-use-different-account = Käytä toista tiliä
+confirm-recovery-code-reset-password-input-label = Kirjoita 10-merkkinen koodi
+confirm-recovery-code-reset-password-trouble-code = Takaisin
 
 ## ResetPassword start page
 
@@ -1456,6 +1483,7 @@ signin-push-code-heading-w-default-service = Vahvista tämä kirjautuminen <span
 signin-push-code-heading-w-custom-service = Vahvista tämä kirjautuminen <span>jatkaaksesi palveluun { $serviceName }</span>
 signin-push-code-instruction = Tarkista muut laitteesi ja hyväksy tämä kirjautuminen { -brand-firefox }-selaimestasi.
 signin-push-code-did-not-recieve = Etkö saanut ilmoitusta?
+signin-push-code-send-email-link = Lähetä koodi sähköpostitse
 
 ## SigninPushCodeConfirmPage
 
@@ -1472,15 +1500,7 @@ signin-push-code-confirm-link-error = Linkki on vaurioitunut. Yritä uudelleen.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Syötä varatodennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Syötä varatodennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
-signin-recovery-code-instruction = Syötä varatodennuskoodi, jonka sait kaksivaiheisen todennuksen määrityksen yhteydessä.
-signin-recovery-code-input-label = Anna 10-numeroinen varatodennuskoodi
+signin-recovery-code-heading = Kirjaudu sisään
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
 # Link to return to signin with two-step authentication code
@@ -1520,9 +1540,7 @@ signin-token-code-resend-error = Jokin meni pieleen. Uutta koodia ei voitu lähe
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Syötä kaksivaiheisen todennuksen suojakoodi (2FA)
-signin-totp-code-instruction-v3 = Tarkista todennussovellus vahvistaaksesi kirjautumisen.
-signin-totp-code-input-label-v3 = Kirjoita koodi
+signin-totp-code-input-label-v4 = Syötä 6-numeroinen koodi
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
 signin-totp-code-other-account-link = Käytä toista tiliä

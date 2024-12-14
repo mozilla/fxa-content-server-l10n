@@ -361,6 +361,7 @@ coupon-expired = Vaikuttaa siltä, että tarjouskoodi on vanhentunut.
 card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yritä uudestaan.
 country-currency-mismatch = Tämän tilauksen valuutta ei ole voimassa maksun tapahtumamaassa.
 currency-currency-mismatch = Pahoittelut, et voi vaihtaa valuuttojen välillä.
+location-unsupported = Nykyistä sijaintiasi ei tueta käyttöehtojemme mukaisesti.
 no-subscription-change = Valitettavasti et voi muuttaa tilaustyyppiäsi.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Olet jo tilannut sovelluskaupan { $mobileAppStore } kautta.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Ongelma ladatessa asiakasta
 product-plan-not-found = Tilaustyyppiä ei löytynyt
+product-location-unsupported-error = Sijainti ei ole tuettu
 
 ## Hooks - coupons
 
