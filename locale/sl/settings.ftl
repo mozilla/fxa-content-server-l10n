@@ -968,7 +968,7 @@ tfa-row-backup-codes-get-new-cta = Pridobite nove kode
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = To je najvarnejša metoda obnovitve, če ne morete dostopati do mobilne naprave ali aplikacije za overitev.
+tfa-row-backup-codes-description = To je najvarnejša metoda obnovitve, če nimate dostopa do mobilne naprave ali aplikacije za overitev.
 
 ## Switch component
 

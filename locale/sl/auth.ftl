@@ -309,7 +309,7 @@ passwordResetWithRecoveryKeyPrompt-description = Ponastavili ste geslo { -produc
 passwordResetWithRecoveryKeyPrompt-action = Ustvari ključ za obnovitev računa
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Ustvari ključ za obnovitev računa:
-passwordResetWithRecoveryKeyPrompt-cta-description = V vseh sinhroniziranih napravah se boste morali znova prijaviti. Ohranite svoje podatke naslednjič varne s ključem za obnovitev računa. Omogoča obnovitev podatkov v primeru, da pozabite geslo.
+passwordResetWithRecoveryKeyPrompt-cta-description = V vseh sinhroniziranih napravah se boste morali znova prijaviti. Naslednjič svoje podatke ohranite varne s ključem za obnovitev računa, ki v primeru, da pozabite geslo, omogoča obnovitev podatkov.
 postAddAccountRecovery-subject-3 = Nov ključ za obnovitev računa ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
 # Key here refers to account recovery key
