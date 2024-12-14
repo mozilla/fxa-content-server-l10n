@@ -1117,6 +1117,7 @@ auth-error-139 = Alternatívna e‑mailová adresa musí byť iná ako adresa ú
 auth-error-155 = Token TOTP sa nenašiel
 auth-error-159 = Neplatný kľúč na obnovenie účtu
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
+auth-error-206 = Nie je možné vytvoriť heslo, heslo je už nastavené
 auth-error-999 = Neočakávaná chyba
 auth-error-1001 = Pokus o prihlásenie bol zrušený
 auth-error-1002 = Platnosť relácie vypršala. Ak chcete pokračovať, prihláste sa.
@@ -1425,6 +1426,10 @@ complete-reset-pw-recovery-key-link = Použiť kľúč na obnovenie účtu
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Vaše heslo bolo obnovené.
 reset-password-complete-banner-message = Nezabudnite si vygenerovať nový kľúč na obnovenie účtu v nastaveniach { -product-mozilla-account(case: "gen", capitalization: "lower") }, aby ste predišli budúcim problémom s prihlásením.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 
 ## Confirm Reset Password With Code
 
@@ -1503,6 +1508,10 @@ signin-header = Prihlásiť sa
 signin-use-a-different-account-link = Použiť iný účet
 signin-forgot-password-link = Zabudli ste heslo?
 signin-password-button-label = Heslo
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1560,6 +1569,10 @@ signin-recovery-code-back-link = Naspäť
 signin-recovery-code-support-link = Stratili ste prístup?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Vyžaduje sa záložný overovací kód
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1585,6 +1598,10 @@ signin-token-code-resend-code-link = Odoslať e‑mailom nový kód.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Vyžaduje sa potvrdzovací kód
 signin-token-code-resend-error = Niečo sa pokazilo. Nový kód sa nepodarilo odoslať.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1599,6 +1616,10 @@ signin-totp-code-other-account-link = Použiť iný účet
 signin-totp-code-recovery-code-link = Máte problémy so zadaním kódu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Vyžaduje sa overovací kód
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1614,6 +1635,10 @@ signin-unblock-code-incorrect-length = Autorizačný kód musí obsahovať 8 zna
 signin-unblock-code-incorrect-format-2 = Autorizačný kód môže obsahovať iba písmená a/alebo čísla
 signin-unblock-resend-code-button = Nemáte nič v schránke ani v priečinku so spamom? Chcete, aby sme vám e‑mail odoslali znova?
 signin-unblock-support-link = Prečo sa to stalo?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1638,6 +1663,10 @@ confirm-signup-code-resend-code-link = Odoslať e‑mailom nový kód.
 confirm-signup-code-success-alert = Účet bol úspešne potvrdený
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Vyžaduje sa potvrdzovací kód
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
