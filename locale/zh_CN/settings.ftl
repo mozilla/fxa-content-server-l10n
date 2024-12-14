@@ -1101,6 +1101,7 @@ auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
 auth-error-159 = 账户恢复密钥无效
 auth-error-183-2 = 验证码无效或已过期
+auth-error-206 = 由于已经设置密码，无法再次创建密码
 auth-error-999 = 意外错误
 auth-error-1001 = 登录尝试已取消
 auth-error-1002 = 会话已过期。请登录以继续操作。
@@ -1415,6 +1416,10 @@ complete-reset-pw-recovery-key-link = 使用账户恢复密钥
 # Displayed on the sign in page
 reset-password-complete-banner-heading = 您的密码已重置。
 reset-password-complete-banner-message = 别忘了在 { -product-mozilla-account }设置中生成新的账户恢复密钥，避免将来登录时遇到问题。
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
 ## Confirm Reset Password With Code
 
@@ -1491,6 +1496,10 @@ signin-header = 登录
 signin-use-a-different-account-link = 换个账户登录
 signin-forgot-password-link = 忘记密码？
 signin-password-button-label = 密码
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1548,6 +1557,10 @@ signin-recovery-code-back-link = 上一步
 signin-recovery-code-support-link = 被锁定了吗？
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = 需要使用备用验证码
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1573,6 +1586,10 @@ signin-token-code-resend-code-link = 重新发送验证码。
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 请输入验证码
 signin-token-code-resend-error = 出了点问题，无法发送新验证码。
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1587,6 +1604,10 @@ signin-totp-code-other-account-link = 换个账户登录
 signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = 请输入验证码
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1602,6 +1623,10 @@ signin-unblock-code-incorrect-length = 授权码应由 8 个字符组成
 signin-unblock-code-incorrect-format-2 = 授权码只能是字母、数字或其组合
 signin-unblock-resend-code-button = 收件箱和垃圾邮件箱中都没有？重新发送
 signin-unblock-support-link = 为什么会出现此情况？
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1626,6 +1651,10 @@ confirm-signup-code-resend-code-link = 重新发送验证码。
 confirm-signup-code-success-alert = 账户已成功确认
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = 请输入验证码
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
