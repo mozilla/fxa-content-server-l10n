@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Alerta
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Atención
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Advertencia
 authenticator-app-aria-label =
     .aria-label = Aplicación de autenticación
-backup-codes-icon-aria-label =
-    .aria-label = Códigos de respaldo habilitados
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Códigos de respaldo deshabilitados
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Códigos de autenticación de respaldo activados
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Códigos de autenticación de respaldo desactivados
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = SMS de recuperación habilitado
@@ -893,9 +900,7 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando
     no tengas tu dispositivo móvil.
-tfa-enter-code-to-confirm-1 =
-    Por favor, introduce uno de tus códigos de autenticación de respaldo ahora para
-    confirmar que los has guardado. Necesitarás un código para conectarte si no tienes acceso a tu dispositivo móvil.
+tfa-enter-code-to-confirm-v2 = Por favor, escribe uno de tus nuevos códigos de autenticación de respaldo para confirmar que los has guardado. Tus códigos de autenticación de respaldo antiguos se desactivarán una vez que completes este paso.
 tfa-enter-recovery-code-1 =
     .label = Introduce un código de autenticación de respaldo
 
@@ -950,6 +955,22 @@ security-set-password = Establecer una contraseña para sincronizar y usar ciert
 security-recent-activity-link = Ver actividad reciente de la cuenta
 signout-sync-header = Sesión expirada
 signout-sync-session-expired = Lo sentimos, algo ha salido mal. Cierra la sesión en el menú del navegador y vuelve a intentarlo.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = No hay códigos disponibles
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } códigos restantes
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Obtener nuevos códigos
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Añadir
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Este es el método de recuperación más seguro si no puedes acceder a tu dispositivo móvil o a la aplicación de autenticación.
 
 ## Switch component
 
@@ -1034,27 +1055,25 @@ se-secondary-email-none = Ninguno
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticación en dos pasos
-tfa-row-disabled-2 = Autenticación en dos pasos desactivada
 tfa-row-enabled = Activado
-tfa-row-not-set = No establecida
+tfa-row-disabled-status = Desactivado
 tfa-row-action-add = Añadir
 tfa-row-action-disable = Desactivar
 tfa-row-button-refresh =
     .title = Actualizar autenticación en dos pasos
 tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la autenticación en dos pasos.
-tfa-row-content-explain =
-    Evita que otra persona se conecte solicitando un
-    código único al que solo tú tienes acceso.
+tfa-row-enabled-description = Tu cuenta está protegida con la verificación en dos pasos. Tendrás que meter un código que se usa una sola vez de tu app de autenticación cuando entres en tu { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Ayuda a proteger tu cuenta utilizando una <linkExternal>aplicación de autenticación de terceros</linkExternal> como segundo paso para iniciar sesión.
 tfa-row-cannot-verify-session-4 = Lo sentimos, ha surgido un problema al confirmar tu sesión
 tfa-row-disable-modal-heading = ¿Desactivar la autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Desactivar
 tfa-row-disable-modal-explain-1 =
     No podrás deshacer esta acción. También
     tienes la opción de <linkExternal>reemplazar tus códigos de autenticación de respaldo</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Autenticación en dos pasos desactivada
 tfa-row-cannot-disable-2 = La autenticación en dos pasos no ha podido ser desactivada
-tfa-row-change-modal-heading-1 = ¿Cambiar los códigos de autenticación de respaldo?
-tfa-row-change-modal-confirm = Cambiar
-tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1101,6 +1120,7 @@ auth-error-139 = El correo electrónico secundario debe ser diferente del correo
 auth-error-155 = Token TOTP no encontrado
 auth-error-159 = Clave de recuperación de cuenta no válida
 auth-error-183-2 = Código de confirmación no válido o caducado
+auth-error-206 = No se puede crear la contraseña, la contraseña ya está establecida
 auth-error-999 = Error inesperado
 auth-error-1001 = Se ha cancelado el inicio de sesión
 auth-error-1002 = La sesión expiró. Inicia sesión para continuar.
@@ -1409,6 +1429,10 @@ complete-reset-pw-recovery-key-link = Usar la clave de recuperación de la cuent
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Se ha restablecido tu contraseña maestra.
 reset-password-complete-banner-message = No olvides generar una nueva clave de recuperación de cuenta desde la configuración de { -product-mozilla-account } para evitar futuros problemas de conexión.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
 
 ## Confirm Reset Password With Code
 
@@ -1490,6 +1514,10 @@ signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usar una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
 signin-password-button-label = Contraseña
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1547,6 +1575,10 @@ signin-recovery-code-back-link = Atrás
 signin-recovery-code-support-link = ¿Estás bloqueado?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Se requiere un código de autenticación de respaldo
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1572,6 +1604,10 @@ signin-token-code-resend-code-link = Enviar código nuevo por correo electrónic
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Código de confirmación requerido
 signin-token-code-resend-error = Ha habido un problema. No se ha podido enviar un nuevo código.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1586,6 +1622,10 @@ signin-totp-code-other-account-link = Usar una cuenta diferente
 signin-totp-code-recovery-code-link = ¿Problemas para introducir el código?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Código de autenticación requerido
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1601,6 +1641,10 @@ signin-unblock-code-incorrect-length = El código de autorización debe tener 8 
 signin-unblock-code-incorrect-format-2 = El código de autorización solo puede contener letras y/o números
 signin-unblock-resend-code-button = ¿No está en la bandeja de entrada o en la carpeta de spam? Reenviar
 signin-unblock-support-link = ¿Por qué sucede esto?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1625,6 +1669,10 @@ confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrón
 confirm-signup-code-success-alert = Cuenta confirmada correctamente
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Código de confirmación requerido
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
