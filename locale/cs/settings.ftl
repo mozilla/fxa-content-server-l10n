@@ -963,7 +963,7 @@ tfa-row-backup-codes-not-available = Žádné kódy nejsou k dispozici
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available = Zbývá { $numCodesAvailable } kódů
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Získat nové kódy
+tfa-row-backup-codes-get-new-cta = Získejte nové kódy
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Přidat
