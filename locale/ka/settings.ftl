@@ -1102,7 +1102,7 @@ pair-auth-complete-heading = მოწყობილობა დაკავ�
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-now-syncing-device-text = ახლა დასინქრონებულია: { $deviceFamily } მოწყობილობაზე { $deviceOS }
 pair-auth-complete-sync-benefits-text = ახლა უკვე შეგიძლიათ წვდომა თქვენს გახსნილ ჩანართებთან, პაროლებსა და სანიშნებთან ყველა მოწყობილობიდან.
-pair-auth-complete-see-tabs-button = იხილეთ ჩანართები დასინქრონებული მოწყობილობებიდან
+pair-auth-complete-see-tabs-button = იხილეთ დასინქ. ჩანართები მოწყობილობებიდან
 pair-auth-complete-manage-devices-link = მოწყობილობების მართვა
 
 ## AuthTotp page
