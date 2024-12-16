@@ -1407,8 +1407,16 @@ third-party-auth-callback-message = Proszę czekać, następuje przekierowanie d
 
 account-recovery-confirm-key-heading = Wpisz klucz odzyskiwania konta
 account-recovery-confirm-key-instruction = Ten klucz umożliwia odzyskanie zaszyfrowanych danych przeglądania, takich jak hasła i zakładki, z serwerów { -brand-firefox(case: "gen") }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Wpisz 32-znakowy klucz odzyskiwania konta
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Wskazówka o miejscu przechowywania:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Kontynuuj
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Nie możesz znaleźć klucza odzyskiwania konta?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1425,6 +1433,11 @@ complete-reset-pw-recovery-key-link = Użyj klucza odzyskiwania konta
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Zmieniono hasło.
+reset-password-complete-banner-message = Nie zapomnij utworzyć nowego klucza odzyskiwania konta w ustawieniach { -product-mozilla-account(case: "gen", capitalization: "lower") }, aby zapobiec przyszłym problemom z logowaniem.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
 ## Confirm Reset Password With Code
 
@@ -1446,6 +1459,7 @@ confirm-reset-password-otp-different-account-link = Użyj innego konta
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Zmień hasło
+confirm-totp-reset-password-subheader-v2 = Wpisz kod uwierzytelniania dwuetapowego
 confirm-totp-reset-password-confirm-button = Potwierdź
 confirm-totp-reset-password-input-label-v2 = Wpisz sześciocyfrowy kod
 confirm-recovery-code-reset-password-trouble-code = Wstecz
