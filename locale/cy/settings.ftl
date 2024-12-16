@@ -954,8 +954,9 @@ security-recent-activity-link = Gweld gweithgaredd diweddar cyfrif
 signout-sync-header = Sesiwn wedi Dod i Ben
 signout-sync-session-expired = Ymddiheuriadau, aeth rhywbeth o'i le. Allgofnodwch o ddewislen y porwr a cheisiwch eto.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Codau dilysu wrth gefn
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Dim codau ar gael
@@ -968,7 +969,27 @@ tfa-row-backup-codes-get-new-cta = Cael codau newydd
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Ychwanegu
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Dyma’r dull adfer mwyaf diogel os na allwch gael mynediad i’ch dyfais symudol neu ap dilysu.
+tfa-row-backup-codes-description-2 = Dyma’r dull adfer mwyaf diogel os na allwch ddefnyddio’ch dyfais symudol neu ap dilysu.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Ffôn adfer copi wrth gefn
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Dim rhif ffôn adfer ar gael
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Newid
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Ychwanegu
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Tynnu
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Dileu ffôn adfer copi wrth gefn
+tfa-row-backup-phone-delete-restriction = Os ydych chi am gael gwared ar eich ffôn adfer copi wrth gefn, ychwanegwch godau dilysu wrth gefn neu analluoga dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch app dilysu.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Dysgwch am risg cyfnewid SIM
 
 ## Switch component
 
@@ -1126,6 +1147,7 @@ auth-error-1010 = Rhaid darparu cyfrinair dilys
 auth-error-1011 = Mae angen e-bost dilys
 auth-error-1031 = Mae'n rhaid i chi roi eich oed er mwyn cofrestru
 auth-error-1032 = Rhaid rhoi oed dilys er mwyn cofrestru
+auth-error-1054 = Cod dilysu dau gam annilys
 auth-error-1062 = Ailgyfeirio annilys
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
@@ -1604,6 +1626,7 @@ signin-token-code-instruction-desktop-relay = Bydd { -brand-firefox } yn ceisio 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Mewngofnodi
 signin-totp-code-subheader-v2 = Rhowch god dilysu dau gam
 signin-totp-code-instruction-v4 = Gwiriwch eich <strong>ap dilysu</strong> i gadarnhau eich mewngofnodi.
 signin-totp-code-input-label-v4 = Rhowch y cod 6 digid
