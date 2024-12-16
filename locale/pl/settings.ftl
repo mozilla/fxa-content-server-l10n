@@ -438,6 +438,13 @@ flow-recovery-key-hint-unsafe-char-error = Wskazówka nie może zawierać niebez
 password-reset-warning-icon = Ostrzeżenie
 password-reset-chevron-expanded = Ukryj ostrzeżenie
 password-reset-chevron-collapsed = Pokaż ostrzeżenie
+password-reset-data-may-not-be-recovered = Dane Twojej przeglądarki mogą nie zostać odzyskane
+password-reset-previously-signed-in-device-2 = Masz jakieś urządzenie, na którym wcześniej się logowano?
+password-reset-data-may-be-saved-locally-2 = Dane Twojej przeglądarki mogą być zachowane na tym urządzeniu. Zmień hasło, a następnie zaloguj się na nim, aby odzyskać i zsynchronizować dane.
+password-reset-no-old-device-2 = Masz nowe urządzenie, ale nie masz dostępu do żadnego z poprzednich?
+password-reset-encrypted-data-cannot-be-recovered-2 = Przepraszamy, ale nie można odzyskać zaszyfrowanych danych Twojej przeglądarki znajdujących się na serwerach { -brand-firefox(case: "gen") }.
+password-reset-warning-have-key = Masz klucz odzyskiwania konta?
+password-reset-warning-use-key-link = Użyj go teraz, aby zmienić hasło i zachować swoje dane
 
 ## Alert Bar
 
@@ -1401,10 +1408,13 @@ confirm-recovery-code-reset-password-trouble-code = Wstecz
 password-reset-flow-heading = Zmień hasło
 password-reset-email-input =
     .label = Wpisz adres e-mail
+password-reset-submit-button-2 = Kontynuuj
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Zmieniono hasło
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Przejdź do usługi { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 
 ## CompleteSignin component
@@ -1461,12 +1471,17 @@ back = Wstecz
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-verifying = Weryfikowanie
+signin-push-code-confirm-login = Potwierdź logowanie
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Zaloguj się
+signin-recovery-code-sub-heading = Wpisz zapasowy kod uwierzytelniania
+signin-recovery-code-input-label-v2 = Wpisz 10-znakowy kod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potwierdź
 # Link to return to signin with two-step authentication code
@@ -1500,11 +1515,13 @@ signin-token-code-code-expired = Kod wygasł?
 signin-token-code-resend-code-link = Wyślij nowy.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Wymagany jest kod potwierdzenia
+signin-token-code-resend-error = Coś się nie powiodło. Nie można wysłać nowego kodu.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v4 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź
 signin-totp-code-other-account-link = Użyj innego konta
@@ -1555,6 +1572,7 @@ confirm-signup-code-is-required-error = Wymagany jest kod potwierdzenia
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Ustaw hasło
+signup-heading-relay = Utwórz hasło
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmień adres e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
