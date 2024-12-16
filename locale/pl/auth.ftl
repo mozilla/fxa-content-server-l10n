@@ -291,20 +291,16 @@ passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasł
 password-forgot-otp-subject = Nie pamiętasz hasła?
 password-forgot-otp-title = Nie pamiętasz hasła?
 password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z:
-password-forgot-otp-code = Jeśli tak, oto kod potwierdzenia:
+password-forgot-otp-code-2 = Jeśli to Ty, oto kod potwierdzenia:
 password-forgot-otp-expiry-notice = Ten kod wygaśnie za 10 minut.
-passwordReset-subject = Zaktualizowano hasło
-passwordReset-title = Hasło konta zostało zmienione
-passwordReset-description = Wznowienie synchronizacji wymaga wprowadzenia nowego hasła na pozostałych urządzeniach.
+passwordReset-subject-2 = Zmieniono hasło
+passwordReset-title-2 = Zmieniono hasło
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na:
 passwordResetAccountRecovery-subject-2 = Zmieniono hasło
-passwordResetAccountRecovery-title-2 = Pomyślnie zmieniono hasło
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Użyto klucza odzyskiwania konta, aby zaktualizować hasło na urządzeniu:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Utwórz klucz odzyskiwania konta
-passwordResetAccountRecovery-regen-required-mjml-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty:
+passwordResetAccountRecovery-title-3 = Zmieniono hasło
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Użyto klucza odzyskiwania konta, aby zmienić hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na urządzeniu:
 postAddAccountRecovery-subject-3 = Utworzono nowy klucz odzyskiwania konta
 postAddAccountRecovery-title2 = Utworzono nowy klucz odzyskiwania konta
 # Key here refers to account recovery key
