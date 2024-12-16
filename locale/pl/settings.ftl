@@ -1460,13 +1460,18 @@ confirm-reset-password-otp-different-account-link = Użyj innego konta
 
 confirm-totp-reset-password-header = Zmień hasło
 confirm-totp-reset-password-subheader-v2 = Wpisz kod uwierzytelniania dwuetapowego
+confirm-totp-reset-password-instruction-v2 = Sprawdź <strong>aplikację uwierzytelniającą</strong>, aby zmienić hasło.
+confirm-totp-reset-password-trouble-code = Masz problem z wpisywaniem kodu?
 confirm-totp-reset-password-confirm-button = Potwierdź
 confirm-totp-reset-password-input-label-v2 = Wpisz sześciocyfrowy kod
+confirm-totp-reset-password-use-different-account = Użyj innego konta
+confirm-recovery-code-reset-password-input-label = Wpisz 10-znakowy kod
 confirm-recovery-code-reset-password-trouble-code = Wstecz
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Zmień hasło
+password-reset-body-2 = Zapytamy Cię o kilka rzeczy znanych tylko Tobie, aby zapewnić bezpieczeństwo Twojego konta.
 password-reset-email-input =
     .label = Wpisz adres e-mail
 password-reset-submit-button-2 = Kontynuuj
@@ -1477,6 +1482,12 @@ reset-password-complete-header = Zmieniono hasło
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Przejdź do usługi { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
+reset-password-complete-new-password-saved = Zachowano nowe hasło
+reset-password-complete-recovery-key-created = Utworzono nowy klucz odzyskiwania konta. Teraz pobierz go i zachowaj.
+reset-password-complete-recovery-key-download-info =
+    Ten klucz jest niezbędny do odzyskania danych, jeśli zapomnisz hasła.
+    <b>Pobierz go teraz i zachowaj w bezpiecznym miejscu, ponieważ później
+    nie będziesz mieć dostępu do tej strony.</b>
 
 ## CompleteSignin component
 
@@ -1506,6 +1517,10 @@ signin-header = Zaloguj się
 signin-use-a-different-account-link = Użyj innego konta
 signin-forgot-password-link = Nie pamiętasz hasła?
 signin-password-button-label = Hasło
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1529,11 +1544,20 @@ back = Wstecz
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Zweryfikuj to logowanie, <span>aby przejść do ustawień konta</span>
+signin-push-code-heading-w-custom-service = Zweryfikuj to logowanie, <span>aby przejść do usługi { $serviceName }</span>
+signin-push-code-instruction = Sprawdź inne swoje urządzenia i zatwierdź to logowanie w przeglądarce { -brand-firefox }.
+signin-push-code-did-not-recieve = Powiadomienie nie doszło?
+signin-push-code-send-email-link = Wyślij kod na e-mail
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Potwierdź logowanie
+signin-push-code-confirm-description = Wykryliśmy próbę logowania z poniższego urządzenia. Jeśli to Ty, zatwierdź logowanie
 signin-push-code-confirm-verifying = Weryfikowanie
 signin-push-code-confirm-login = Potwierdź logowanie
+signin-push-code-confirm-wasnt-me = To nie ja, zmień hasło.
+signin-push-code-confirm-login-approved = Logowanie zostało zatwierdzone. Zamknij to okno.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
