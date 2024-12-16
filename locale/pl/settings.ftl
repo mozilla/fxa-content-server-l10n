@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Zamknij
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Wysłano wiadomość e-mail. Dodaj { $accountsEmail } do kontaktów, aby zapewnić jej odbiór.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Coś się nie powiodło. Nie można wysłać nowego kodu.
+resend-code-success-banner-heading = Nowy kod został wysłany na Twój adres e-mail.
+resend-link-success-banner-heading = Nowy odnośnik został wysłany na Twój adres e-mail.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Dodaj { $accountsEmail } do kontaktów, aby zapewnić odbiór wiadomości.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -106,14 +100,6 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-paymentmethods =
     .label = Metody płatności
 
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Nie ma nic w Odebranych ani w Niechcianych? Wyślij jeszcze raz
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Wstecz
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -167,10 +153,43 @@ form-password-sr-not-common-message = Hasło nie może być często używanym ha
 form-password-sr-requirements-met = Wpisane hasło spełnia wszystkie wymagania.
 form-password-sr-passwords-match = Wpisane hasła są zgodne.
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Hasło
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Powtórz hasło
+form-password-with-inline-criteria-signup-submit-button = Utwórz konto
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nowe hasło
+form-password-with-inline-criteria-confirm-password =
+    .label = Potwierdź hasło
+form-password-with-inline-criteria-reset-submit-button = Utwórz nowe hasło
+form-password-with-inline-criteria-match-error = Hasła są niezgodne
+form-password-with-inline-criteria-sr-too-short-message = Hasło musi mieć co najmniej 8 znaków.
+form-password-with-inline-criteria-sr-not-email-message = Hasło nie może zawierać Twojego adresu e-mail.
+form-password-with-inline-criteria-sr-not-common-message = Hasło nie może być często używanym hasłem.
+form-password-with-inline-criteria-sr-requirements-met = Wpisane hasło spełnia wszystkie wymagania.
+form-password-with-inline-criteria-sr-passwords-match = Wpisane hasła są zgodne.
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = To pole jest wymagane
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Wpisz { $codeLength }-cyfrowy kod, aby kontynuować
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Wpisz { $codeLength }-znakowy kod, aby kontynuować
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -186,6 +205,25 @@ get-data-trio-copy-2 =
 get-data-trio-print-2 =
     .title = Drukuj
     .aria-label = Drukuj
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Powiadomienie
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Uwaga
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Ostrzeżenie
+authenticator-app-aria-label =
+    .aria-label = Aplikacja uwierzytelniająca
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Włączono zapasowe kody uwierzytelniania
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Wyłączono zapasowe kody uwierzytelniania
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -207,12 +245,15 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Rysunek przedstawiający klucz odzyskiwania konta.
-lock-image-aria-label =
-    .aria-label = Rysunek zamka
 lightbulb-aria-label =
     .aria-label = Rysunek przedstawiający tworzenie wskazówki o miejscu przechowywania.
 email-code-image-aria-label =
     .aria-label = Rysunek przedstawiający wiadomość e-mail zawierającą kod.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -247,15 +288,6 @@ reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Móg
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Wyślij nowy odnośnik
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Odnośnik do zmiany hasła wygasł
-reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
 
 ## LinkRememberPassword component
 
@@ -271,6 +303,9 @@ primary-email-confirmation-link-reused = Główny adres e-mail został już potw
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Już potwierdzono logowanie
 confirmation-link-reused-message = Ten odnośnik potwierdzenia został już użyty, a może być używany tylko raz.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Błędne żądanie
 
@@ -288,11 +323,12 @@ password-strength-balloon-not-email = Nie może być Twoim adresem e-mail
 password-strength-balloon-not-common = Nie może być często używanym hasłem
 password-strength-balloon-stay-safe-tips = Zachowaj bezpieczeństwo — każdego hasła używaj tylko w jednym miejscu. Przeczytaj o <LinkExternal>tworzeniu silnych haseł</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = Zmieniono hasło
 ready-complete-set-up-instruction = Dokończ konfigurację wprowadzając nowe hasło na pozostałych urządzeniach z { -brand-firefox(case: "ins") }.
-ready-start-browsing-button = Zacznij przeglądać Internet
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -305,6 +341,45 @@ ready-continue = Kontynuuj
 sign-in-complete-header = Potwierdzono logowanie
 sign-up-complete-header = Potwierdzono konto
 primary-email-verified-header = Potwierdzono główny adres e-mail
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Miejsca, w których można zachować klucz:
+flow-recovery-key-download-storage-ideas-folder-v2 = Folder na zabezpieczonym urządzeniu
+flow-recovery-key-download-storage-ideas-cloud = Zaufany serwis do przechowywania plików
+flow-recovery-key-download-storage-ideas-print-v2 = Wydrukowana kartka
+flow-recovery-key-download-storage-ideas-pwd-manager = Menedżer haseł
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Dodaj wskazówkę, która pomoże Ci znaleźć klucz
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Ta wskazówka powinna być pomocna przy szukaniu klucza odzyskiwania konta. Możemy pokazać Ci ją podczas zmiany hasła, aby odzyskać Twoje dane.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Wpisz wskazówkę (opcjonalnie)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Dokończ
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Wskazówka nie może mieć więcej niż 254 znaki.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Wskazówka nie może zawierać niebezpiecznych znaków Unicode. Dozwolone są tylko litery, cyfry, znaki interpunkcyjne i symbole.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -401,7 +476,6 @@ cs-sign-out-button = Wyloguj się
 ## Data collection section
 
 dc-heading = Zbieranie i wykorzystywanie danych
-dc-subheader-2 = Pomóż ulepszać { -product-mozilla-accounts(case: "acc", capitalization: "lower") }
 dc-subheader-content-2 = Pozwól { -product-mozilla-accounts(case: "dat", capitalization: "lower") } wysyłać dane techniczne i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-out-success-2 = Pomyślnie zrezygnowano. { -product-mozilla-accounts } nie będą wysyłać danych technicznych i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-in-success-2 = Dzięki! Dzielenie się tymi danymi pomaga nam ulepszać { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
@@ -443,39 +517,13 @@ flow-recovery-key-download-heading-v2 = Utworzono klucz odzyskiwania konta — t
 flow-recovery-key-download-info-v2 = Ten klucz umożliwia odzyskanie danych, jeśli zapomnisz hasła. Pobierz go teraz i zachowaj w miejscu, które zapamiętasz — nie będzie można później wrócić do tej strony.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Kontynuuj bez pobierania
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Miejsca, w których można zachować klucz:
-flow-recovery-key-download-storage-ideas-folder-v2 = Folder na zabezpieczonym urządzeniu
-flow-recovery-key-download-storage-ideas-cloud = Zaufany serwis do przechowywania plików
-flow-recovery-key-download-storage-ideas-print-v2 = Wydrukowana kartka
-flow-recovery-key-download-storage-ideas-pwd-manager = Menedżer haseł
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Dodaj wskazówkę, która pomoże Ci znaleźć klucz
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Ta wskazówka powinna być pomocna przy szukaniu klucza odzyskiwania konta. Możemy pokazać Ci ją podczas zmiany hasła, aby odzyskać Twoje dane.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Wpisz wskazówkę (opcjonalnie)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Dokończ
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Utworzono klucz odzyskiwania konta
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Wskazówka nie może mieć więcej niż 254 znaki.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Wskazówka nie może zawierać niebezpiecznych znaków Unicode. Dozwolone są tylko litery, cyfry, znaki interpunkcyjne i symbole.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -782,10 +830,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
     na wypadek sytuacji, w której nie masz swojego telefonu.
-tfa-enter-code-to-confirm-1 =
-    Proszę teraz wpisać jeden z zapasowych kodów uwierzytelniania, aby potwierdzić,
-    że zostały zachowane. Kod będzie potrzebny do logowania, jeśli nie masz dostępu
-    do swojego telefonu.
 tfa-enter-recovery-code-1 =
     .label = Wpisz zapasowy kod uwierzytelniania
 
@@ -840,6 +884,9 @@ security-set-password = Ustaw hasło, aby synchronizować i korzystać z czę�
 security-recent-activity-link = Ostatnie działania na koncie
 signout-sync-header = Sesja wygasła
 signout-sync-session-expired = Coś się nie powiodło. Proszę wylogować się z menu przeglądarki i spróbować ponownie.
+
+## Settings sub row
+
 
 ## Switch component
 
@@ -924,9 +971,7 @@ se-secondary-email-none = Brak
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Uwierzytelnianie dwuetapowe
-tfa-row-disabled-2 = Uwierzytelnianie dwuetapowe jest wyłączone
 tfa-row-enabled = Włączone
-tfa-row-not-set = Nieustawione
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Wyłącz
 tfa-row-button-refresh =
@@ -934,17 +979,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
-tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do którego tylko Ty masz dostęp, co uniemożliwia innym zalogowanie się.
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
 tfa-row-disable-modal-explain-1 =
     Tego działania nie będzie można cofnąć. Można zamiast tego
     <linkExternal>zastąpić zapasowe kody uwierzytelniania</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Uwierzytelnianie dwuetapowe jest wyłączone
 tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
-tfa-row-change-modal-heading-1 = Zmienić zapasowe kody uwierzytelniania?
-tfa-row-change-modal-confirm = Zmień
-tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -969,14 +1012,6 @@ terms-privacy-agreement-default-2 = Kontynuując, wyrażasz zgodę na <mozillaAc
 third-party-auth-options-or = Lub
 continue-with-google-button = Kontynuuj za pomocą konta { -brand-google }
 continue-with-apple-button = Kontynuuj za pomocą konta { -brand-apple }
-
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = { $inputNumber }. cyfra z { $codeLength }
 
 ## Auth-server based errors that originate from backend service
 
@@ -1054,6 +1089,12 @@ cookies-disabled-enable-prompt-2 = Proszę włączyć obsługę ciasteczek i lo
 cookies-disabled-button-try-again = Spróbuj ponownie
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Więcej informacji
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1240,6 +1281,11 @@ pair-wait-for-auth-heading-text = Teraz wymagane jest zatwierdzenie <span>z inn
 pair-unsupported-header = Powiąż za pomocą aplikacji
 pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji { -brand-firefox }.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1247,76 +1293,16 @@ third-party-auth-callback-message = Proszę czekać, następuje przekierowanie d
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Zmień hasło za pomocą klucza odzyskiwania konta, <span>aby przejść do ustawień konta</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Zmień hasło za pomocą klucza odzyskiwania konta, <span>aby przejść do usługi { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Proszę wpisać jednorazowy klucz odzyskiwania konta przechowany w bezpiecznym miejscu, aby odzyskać dostęp do { -product-mozilla-account(case: "gen", capitalization: "lower") }.
-account-recovery-confirm-key-warning-message = <span>Uwaga:</span> zmiana hasła bez dostępu do zachowanego klucza odzyskiwania konta spowoduje usunięcie części danych (w tym danych synchronizowanych na serwerze, takich jak historia i zakładki).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Wpisz klucz odzyskiwania konta
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Potwierdź klucz odzyskiwania konta
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Nie masz klucza odzyskiwania konta?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Utwórz nowe hasło
-account-restored-success-message = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Ustawiono hasło
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Wystąpił nieoczekiwany błąd
-account-recovery-reset-password-redirecting = Przekierowywanie
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Utwórz nowe hasło
-complete-reset-password-warning-message-2 = <span>Pamiętaj:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { -product-pocket }.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ustawiono hasło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Przepraszamy, wystąpił problem z ustawieniem hasła
-complete-reset-password-recovery-key-error-v2 = Przepraszamy, wystąpił problem podczas sprawdzania, czy użytkownika ma klucz odzyskiwania konta.
-complete-reset-password-recovery-key-link = Zmień hasło za pomocą klucza odzyskiwania konta.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Wysłano e-mail do zmiany hasła
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Kliknij odnośnik wysłany na adres { $email } w ciągu godziny, aby utworzyć nowe hasło.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Zmień hasło, <span>aby przejść do ustawień konta</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Zmień hasło, <span>aby przejść do usługi { $serviceName }</span>
-reset-password-warning-message-2 = <span>Uwaga:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { -product-pocket }.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Adres e-mail
-reset-password-button = Rozpocznij zmianę
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Adres e-mail jest wymagany
-reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
-reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
-reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
 
 ## Confirm Reset Password With Code
 
@@ -1335,13 +1321,19 @@ confirm-reset-password-otp-resend-code-button = Wyślij ponownie kod
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Użyj innego konta
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Zmień hasło
-password-reset-body = Wpisz swój adres e-mail, a wyślemy Ci kod potwierdzający Twoją tożsamość.
 password-reset-email-input =
     .label = Wpisz adres e-mail
-password-reset-submit-button = Wyślij mi instrukcję zmiany hasła
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Zmieniono hasło
+reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 
 ## CompleteSignin component
 
@@ -1391,20 +1383,18 @@ signin-bounced-help = Jeśli to prawidłowy adres e-mail, to <linkExternal>daj n
 signin-bounced-create-new-account = Ten adres e-mail zmienił właściciela? Utwórz nowe konto
 back = Wstecz
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Wpisz zapasowy kod uwierzytelniania, <span>aby przejść do ustawień konta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Wpisz zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
-signin-recovery-code-instruction = Proszę wpisać zapasowy kod uwierzytelniania otrzymany podczas konfiguracji uwierzytelniania dwuetapowego.
-signin-recovery-code-input-label = Wpisz 10-cyfrowy zapasowy kod uwierzytelniania
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potwierdź
 # Link to return to signin with two-step authentication code
@@ -1443,15 +1433,6 @@ signin-token-code-required-error = Wymagany jest kod potwierdzenia
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Wpisz kod uwierzytelniania, <span>aby przejść do ustawień konta</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Wpisz kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
-signin-totp-code-instruction-v2 = Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod uwierzytelniania.
-signin-totp-code-input-label-v2 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź
 signin-totp-code-other-account-link = Użyj innego konta
@@ -1502,9 +1483,6 @@ confirm-signup-code-is-required-error = Wymagany jest kod potwierdzenia
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Ustaw hasło
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Dlaczego muszę utworzyć to konto? <LinkExternal>Dowiedz się tutaj</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmień adres e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
