@@ -296,11 +296,24 @@ password-forgot-otp-expiry-notice = Ten kod wygaśnie za 10 minut.
 passwordReset-subject-2 = Zmieniono hasło
 passwordReset-title-2 = Zmieniono hasło
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na:
+passwordReset-description-2 = Zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na urządzeniu:
 passwordResetAccountRecovery-subject-2 = Zmieniono hasło
 passwordResetAccountRecovery-title-3 = Zmieniono hasło
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Użyto klucza odzyskiwania konta, aby zmienić hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na urządzeniu:
+passwordResetAccountRecovery-information = Wylogowaliśmy Cię ze wszystkich synchronizowanych urządzeń. Utworzyliśmy nowy klucz odzyskiwania konta, aby zastąpić ten zużyty. Można go zmienić w ustawieniach konta.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Wylogowaliśmy Cię ze wszystkich synchronizowanych urządzeń. Utworzyliśmy nowy klucz odzyskiwania konta, aby zastąpić ten zużyty. Można go zmienić w ustawieniach konta:
+passwordResetAccountRecovery-action-4 = Zarządzaj kontem
+passwordResetWithRecoveryKeyPrompt-subject = Zmieniono hasło
+passwordResetWithRecoveryKeyPrompt-title = Zmieniono hasło
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na urządzeniu:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Utwórz klucz odzyskiwania konta
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Utwórz klucz odzyskiwania konta:
+passwordResetWithRecoveryKeyPrompt-cta-description = Będzie trzeba zalogować się ponownie na wszystkich synchronizowanych urządzeniach. Następnym razem chroń swoje dane za pomocą klucza odzyskiwania konta. Dzięki temu odzyskasz swoje dane, jeśli zapomnisz hasła.
 postAddAccountRecovery-subject-3 = Utworzono nowy klucz odzyskiwania konta
 postAddAccountRecovery-title2 = Utworzono nowy klucz odzyskiwania konta
 # Key here refers to account recovery key
