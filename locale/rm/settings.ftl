@@ -209,14 +209,21 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
+    .aria-label = Avertiment
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Attenziun
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
     .aria-label = Avertiment
 authenticator-app-aria-label =
     .aria-label = Applicaziun d’autentificaziun
-backup-codes-icon-aria-label =
-    .aria-label = Codes da recuperaziun activads
-backup-codes-disabled-icon-aria-label =
-    .aria-label = Codes da recuperaziun deactivads
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Codes d’autentificaziun da backup activads
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Codes d’autentificaziun da backup deactivads
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = SMS da recuperaziun activà
@@ -897,10 +904,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Memorisescha quests codes d'autentificaziun da backup a diever unic en in lieu segir
     en cas che ti n'has ina giada betg access a tes apparat mobil.
-tfa-enter-code-to-confirm-1 =
-    Endatescha ussa per plaschair in da tes codes d'autentificaziun da backup
-    per confermar che ti als has memorisà. Ti dovras in code per t'annunziar sche ti n'has betg access
-    a tes apparat mobil.
+tfa-enter-code-to-confirm-v2 =
+    Endatescha per plaschair in da tes novs codes d’autentificaziun da backup per
+    confermar che ti als has memorisà. Tes codes d’autentificaziun da backup vegls vegnan deactivads uschespert che quest pass è fatg.
 tfa-enter-recovery-code-1 =
     .label = Endatescha in code d'autentificaziun da backup
 
@@ -955,6 +961,22 @@ security-set-password = Definescha in pled-clav per sincronisar ed utilisar tsch
 security-recent-activity-link = Mussar las activitads recentas dal conto
 signout-sync-header = Sesida scadida
 signout-sync-session-expired = Perstgisa, insatge n’ha betg funcziunà. Sorta p.pl. via il menu dal navigatur ed emprova anc ina giada.
+
+## Settings sub row
+
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nagins codes disponibels
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } codes restants
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Retschaiver novs codes
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Agiuntar
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = Quai è la metoda da recuperaziun la pli segira sche ti na pos betg acceder a tes apparat mobil u a l’app d’autentificaziun.
 
 ## Switch component
 
@@ -1039,9 +1061,8 @@ se-secondary-email-none = Nagina
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentificaziun en dus pass
-tfa-row-disabled-2 = Autentificaziun en dus pass deactivada
 tfa-row-enabled = Activada
-tfa-row-not-set = Betg definida
+tfa-row-disabled-status = Deactivà
 tfa-row-action-add = Agiuntar
 tfa-row-action-disable = Deactivar
 tfa-row-button-refresh =
@@ -1049,19 +1070,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Perstgisa, igl ha dà in problem cun actualisar l'autentificaziun
     en dus pass.
-tfa-row-content-explain =
-    Impedir ch'insatgi auter possia s'annunziar cun pretender
-    in code unic, al qual mo ti has access.
+tfa-row-enabled-description = Tes conto è protegì cun l’autentificaziun en dus pass. Ti vegns a stuair endatar in code d’access a diever unic da tia app d’autentificaziun cura che ti t’annunzias en tes { -product-mozilla-account }.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Protegia tes conto cun utilisar ina <linkExternal>app d’autentificaziun d’ina terza partida</linkExternal> sco segund pass durant l’annunzia.
 tfa-row-cannot-verify-session-4 = Perstgisa, igl ha dà in problem cun confermar tia sesida
 tfa-row-disable-modal-heading = Deactivar l'autentificaziun en dus pass?
 tfa-row-disable-modal-confirm = Deactivar
 tfa-row-disable-modal-explain-1 =
     Ti na vegns betg a pudair revocar questa acziun. Ti has
     era la pussaivladad da <linkExternal>remplazzar tes codes d'autentificaziun da backup</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Autentificaziun en dus pass deactivada
 tfa-row-cannot-disable-2 = Impussibel da deactivar l'autentificaziun en dus pass
-tfa-row-change-modal-heading-1 = Midar ils codes d'autentificaziun da backup?
-tfa-row-change-modal-confirm = Midar
-tfa-row-change-modal-explain = Ti na vegns betg a pudair revocar questa acziun.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1108,6 +1128,7 @@ auth-error-139 = L'adressa dad e-mail alternativa sto esser differenta da l'adre
 auth-error-155 = Betg chattà il token TOTP
 auth-error-159 = Clav da recuperaziun dal conto nunvalida
 auth-error-183-2 = Code da conferma nunvalid u scadì
+auth-error-206 = Impussibel da crear il pled-clav, in pled-clav è gia definì
 auth-error-999 = Errur nunspetgada
 auth-error-1001 = Interrut l’emprova d’annunzia
 auth-error-1002 = La sesida è scrudada. T’annunzia per cuntinuar.
@@ -1416,6 +1437,10 @@ complete-reset-pw-recovery-key-link = Utilisar la clav da recuperaziun dal conto
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Tes pled-clav è vegnì reinizialisà.
 reset-password-complete-banner-message = N’emblida betg da generar ina nova clav da recuperaziun dal conto en ils parameters da tes { -product-mozilla-account } per evitar problems d’annunzia en l’avegnir.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } vegn ad empruvar da ta renviar a la pagina per utilisar in alias dad e-mail suenter l’annunzia.
 
 ## Confirm Reset Password With Code
 

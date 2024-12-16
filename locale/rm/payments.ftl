@@ -361,6 +361,7 @@ coupon-expired = I para che quest code da promoziun saja scadì.
 card-error = Impussibel dad elavurar tia transacziun. Verifitgescha per plaschair las datas da tia carta da credit ed emprova anc ina giada.
 country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
 currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
+location-unsupported = Tia posiziun actuala na vegn betg sustegnida segund nossas cundiziuns d’utilisaziun.
 no-subscription-change = Perstgisa. Ti na pos betg midar tes plan d'abunaments.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Ti has gia in abunament via l'{ $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Problem cun chargiar il client
 product-plan-not-found = Betg chattà il plan
+product-location-unsupported-error = Posiziun betg sustegnida
 
 ## Hooks - coupons
 
