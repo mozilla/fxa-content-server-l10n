@@ -848,6 +848,12 @@ signin-subheader-with-logo = <span>{ $serviceLogo }</span> хезмәтенә к
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } хезмәтенә күчү
+signin-subheader-without-logo-default = Хисап көйләүләренә күчү
+signin-button = Керү
+signin-header = Керү
+signin-use-a-different-account-link = Башка бер хисап куллану
+signin-forgot-password-link = Серсүзегезне оныттыгызмы?
+signin-password-button-label = Серсүз
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -858,15 +864,24 @@ signin-subheader-without-logo-with-servicename = { $serviceName } хезмәте
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-did-not-recieve = Искәртү килмәдеме?
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-verifying = Тикшерү
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Раслау
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Кире
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Хисабыгыз биклеме?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -875,6 +890,8 @@ signin-subheader-without-logo-with-servicename = { $serviceName } хезмәте
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Раслау
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
