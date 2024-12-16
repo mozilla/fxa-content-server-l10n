@@ -544,6 +544,7 @@ dc-heading = Zbieranie i wykorzystywanie danych
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Przeglądarka { -brand-firefox }
 dc-subheader-content-2 = Pozwól { -product-mozilla-accounts(case: "dat", capitalization: "lower") } wysyłać dane techniczne i o interakcjach do { -brand-mozilla(case: "gen") }.
+dc-subheader-ff-content = Aby przejrzeć lub zaktualizować ustawienia danych technicznych i o interakcjach przeglądarki { -brand-firefox }, otwórz ustawienia { -brand-firefox(case: "gen") } i przejdź do sekcji „Prywatność i bezpieczeństwo”.
 dc-opt-out-success-2 = Pomyślnie zrezygnowano. { -product-mozilla-accounts } nie będą wysyłać danych technicznych i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-in-success-2 = Dzięki! Dzielenie się tymi danymi pomaga nam ulepszać { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Przepraszamy, wystąpił problem podczas zmieniania preferencji zbierania danych
@@ -897,6 +898,7 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
     na wypadek sytuacji, w której nie masz swojego telefonu.
+tfa-enter-code-to-confirm-v2 = Proszę wpisać jeden z nowych zapasowych kodów uwierzytelniania, aby potwierdzić, że je zapisano. Po ukończeniu tego kroku poprzednie zapasowe kody uwierzytelniania zostaną wyłączone.
 tfa-enter-recovery-code-1 =
     .label = Wpisz zapasowy kod uwierzytelniania
 
@@ -954,6 +956,9 @@ signout-sync-session-expired = Coś się nie powiodło. Proszę wylogować się 
 
 ## Settings sub row
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Brak dostępnych kodów
 
 ## Switch component
 
