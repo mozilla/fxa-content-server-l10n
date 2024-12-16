@@ -1126,6 +1126,7 @@ auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-po
 auth-error-155 = TOTP-tecken hittades inte
 auth-error-159 = Ogiltig nyckel för kontoåterställning
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
+auth-error-206 = Kan inte skapa lösenord, lösenord är redan inställt
 auth-error-999 = Oväntat fel
 auth-error-1001 = Inloggningsförsök avbröts
 auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
@@ -1434,6 +1435,10 @@ complete-reset-pw-recovery-key-link = Använd nyckel för kontoåterställning
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ditt lösenord har återställts.
 reset-password-complete-banner-message = Glöm inte att skapa en ny kontoåterställningsnyckel från dina inställningar för { -product-mozilla-account } för att förhindra framtida inloggningsproblem.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 
 ## Confirm Reset Password With Code
 
@@ -1515,6 +1520,10 @@ signin-header = Logga in
 signin-use-a-different-account-link = Använd ett annat konto
 signin-forgot-password-link = Glömt ditt lösenord?
 signin-password-button-label = Lösenord
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1572,6 +1581,10 @@ signin-recovery-code-back-link = Tillbaka
 signin-recovery-code-support-link = Är du utelåst?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reservautentiseringskod krävs
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1597,6 +1610,10 @@ signin-token-code-resend-code-link = Mejla ny kod.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bekräftelsekod krävs
 signin-token-code-resend-error = Något gick fel. En ny kod kunde inte skickas.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1611,6 +1628,10 @@ signin-totp-code-other-account-link = Använd ett annat konto
 signin-totp-code-recovery-code-link = Har du problem att ange koden?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Autentiseringskod krävs
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1626,6 +1647,10 @@ signin-unblock-code-incorrect-length = Behörighetskod måste innehålla 8 tecke
 signin-unblock-code-incorrect-format-2 = Behörighetskod kan endast innehålla bokstäver och/eller siffror
 signin-unblock-resend-code-button = Inte i inkorgen eller skräppostmappen? Skicka igen
 signin-unblock-support-link = Varför händer detta?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1650,6 +1675,10 @@ confirm-signup-code-resend-code-link = Mejla ny kod.
 confirm-signup-code-success-alert = Kontot har bekräftats
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bekräftelsekod krävs
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

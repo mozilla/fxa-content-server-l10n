@@ -361,6 +361,7 @@ coupon-expired = Parece que ese código promocional ha expirado.
 card-error = Tu transacción no pudo ser procesada. Verifica la información de tu tarjeta de crédito y vuelve a intentarlo.
 country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Lo sentimos. No puedes cambiar entre monedas.
+location-unsupported = Tu ubicación actual no se admite según nuestros Términos de Servicio.
 no-subscription-change = Lo sentimos. No puedes cambiar tu plan de suscripción.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Ya tienes una suscripción a través de { $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Problema al cargar el cliente
 product-plan-not-found = No se ha encontrado el plan
+product-location-unsupported-error = Ubicación no admitida
 
 ## Hooks - coupons
 
