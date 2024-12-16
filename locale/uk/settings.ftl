@@ -1124,6 +1124,7 @@ auth-error-139 = Додаткова адреса електронної пошт
 auth-error-155 = TOTP-код не знайдено
 auth-error-159 = Недійсний ключ відновлення облікового запису
 auth-error-183-2 = Недійсний або протермінований код підтвердження
+auth-error-206 = Неможливо створити пароль, пароль уже встановлено
 auth-error-999 = Несподівана помилка
 auth-error-1001 = Спробу входу скасовано
 auth-error-1002 = Сеанс завершено. Увійдіть для продовження.
@@ -1432,6 +1433,10 @@ complete-reset-pw-recovery-key-link = Використати ключ відно
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ваш пароль було скинуто.
 reset-password-complete-banner-message = Не забудьте згенерувати новий ключ відновлення облікового запису в налаштуваннях { -product-mozilla-account }, щоб уникнути проблем з входом у майбутньому.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
 ## Confirm Reset Password With Code
 
@@ -1511,6 +1516,10 @@ signin-header = Увійти
 signin-use-a-different-account-link = Використати інший обліковий запис
 signin-forgot-password-link = Забули пароль?
 signin-password-button-label = Пароль
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1568,6 +1577,10 @@ signin-recovery-code-back-link = Назад
 signin-recovery-code-support-link = Ви заблоковані?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Потрібен резервний код автентифікації
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1593,6 +1606,10 @@ signin-token-code-resend-code-link = Надіслати новий код еле
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Потрібно ввести код підтвердження
 signin-token-code-resend-error = Щось пішло не так. Не вдалося надіслати новий код.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1607,6 +1624,10 @@ signin-totp-code-other-account-link = Використати інший облі
 signin-totp-code-recovery-code-link = Проблеми з введенням коду?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Потрібно ввести код автентифікації
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1622,6 +1643,10 @@ signin-unblock-code-incorrect-length = Код авторизації повин�
 signin-unblock-code-incorrect-format-2 = Код авторизації може містити лише літери та/або цифри
 signin-unblock-resend-code-button = Немає у вхідних чи у спамі? Надіслати ще раз
 signin-unblock-support-link = Чому це відбувається?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1646,6 +1671,10 @@ confirm-signup-code-resend-code-link = Надіслати новий код ел
 confirm-signup-code-success-alert = Обліковий запис успішно підтверджено
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Потрібно ввести код підтвердження
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
