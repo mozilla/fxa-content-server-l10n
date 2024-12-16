@@ -296,6 +296,9 @@ inline-recovery-key-setup-signed-in-firefox-2 = Zalogowano do { -brand-firefox(c
 inline-recovery-key-setup-create-header = Zabezpiecz swoje konto
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Masz chwilę, aby zabezpieczyć swoje dane?
+inline-recovery-key-setup-info = Utwórz klucz odzyskiwania konta, dzięki któremu będzie możliwość odzyskania synchronizowanych danych przeglądania, jeśli kiedykolwiek zapomnisz hasła.
+inline-recovery-key-setup-start-button = Utwórz klucz odzyskiwania konta
+inline-recovery-key-setup-later-button = Zrób to później
 
 ## Input Password
 
@@ -330,6 +333,8 @@ reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Móg
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Wyślij nowy odnośnik
 
 ## LinkRememberPassword component
 
@@ -348,6 +353,7 @@ confirmation-link-reused-message = Ten odnośnik potwierdzenia został już uży
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Utwórz
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Błędne żądanie
 
