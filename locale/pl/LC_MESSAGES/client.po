@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-16 11:29+0000\n"
+"PO-Revision-Date: 2024-12-16 11:36+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1941,7 +1941,7 @@ msgstr "Łączenie telefonu z kontem Mozilli"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Włącz Firefoksa na komputerze, otwórz stronę <b class=\"whitespace-nowrap\">firefox.com/pair</b> i postępuj zgodnie z instrukcjami na ekranie, aby połączyć swój telefon."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
@@ -1995,15 +1995,15 @@ msgstr "Teraz wymagane jest zatwierdzenie <small class=\"card-subheader\">z inn
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Powiązanie urządzenia się nie powiodło"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "Nie udało się dokończyć konfiguracji. Proszę zalogować się za pomocą adresu e-mail."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "Pomyślnie zalogowano"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
@@ -2019,7 +2019,7 @@ msgstr "Korzystaj z zachowanych haseł, kart, historii przeglądania i nie tyl
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Wybierz opcję, aby kontynuować:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
@@ -2107,12 +2107,12 @@ msgstr "Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji 
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Pobierz Firefoksa"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Ups! Coś poszło nie tak."
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Proszę zamknąć tę kartę i spróbować ponownie."
