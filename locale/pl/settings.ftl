@@ -959,6 +959,21 @@ signout-sync-session-expired = Coś się nie powiodło. Proszę wylogować się 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Brak dostępnych kodów
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available =
+    { $numCodesAvailable ->
+        [one] Został jeden kod
+        [few] Zostały { $numCodesAvailable } kody
+       *[many] Zostało { $numCodesAvailable } kodów
+    }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Uzyskaj nowe kody
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Dodaj
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description = To najbezpieczniejsza metoda odzyskiwania, jeśli nie masz dostępu do telefonu lub aplikacji uwierzytelniającej.
 
 ## Switch component
 
@@ -1044,6 +1059,7 @@ se-secondary-email-none = Brak
 
 tfa-row-header = Uwierzytelnianie dwuetapowe
 tfa-row-enabled = Włączone
+tfa-row-disabled-status = Wyłączone
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Wyłącz
 tfa-row-button-refresh =
@@ -1051,6 +1067,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
+tfa-row-enabled-description = Twoje konto jest chronione uwierzytelnianiem dwuetapowym. Podczas logowania do { -product-mozilla-account(case: "gen", capitalization: "lower") } będzie trzeba wpisać jednorazowy kod z aplikacji uwierzytelniającej.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Zabezpiecz swoje konto, używając <linkExternal>aplikacji uwierzytelniającej innej firmy</linkExternal> jako drugiego kroku logowania.
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
@@ -1100,11 +1119,13 @@ auth-error-114-generic = Próbowano za wiele razy. Proszę spróbować ponownie 
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Próbowano za wiele razy. Proszę spróbować ponownie { $retryAfter }.
+auth-error-125 = Żądanie zostało zablokowane z powodów bezpieczeństwa
 auth-error-138-2 = Niepotwierdzona sesja
 auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
 auth-error-155 = Nie odnaleziono tokena TOTP
 auth-error-159 = Nieprawidłowy klucz odzyskiwania konta
 auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
+auth-error-206 = Nie można utworzyć hasła, hasło jest już ustawione
 auth-error-999 = Nieznany błąd
 auth-error-1001 = Anulowano próbę logowania
 auth-error-1002 = Sesja wygasła. Zaloguj się, aby kontynuować.
@@ -1164,6 +1185,7 @@ cookies-disabled-learn-more = Więcej informacji
 
 ## Index / home page
 
+index-header = Wpisz adres e-mail
 
 ## InlineRecoveryKeySetup page component
 
