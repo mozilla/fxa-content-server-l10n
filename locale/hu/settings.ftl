@@ -958,8 +958,9 @@ security-recent-activity-link = Legutóbbi fióktevékenységek megtekintése
 signout-sync-header = A munkamenet lejárt
 signout-sync-session-expired = Elnézést, hiba történt. Jelentkezzen ki a böngésző menüjéből, és próbálja újra.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Tartalék hitelesítési kódok
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nem érhetők el kódok
@@ -972,7 +973,27 @@ tfa-row-backup-codes-get-new-cta = Új kódok beszerzése
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Hozzáadás
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Ez a legbiztonságosabb helyreállítási módszer, ha nem éri el a mobileszközét vagy a hitelesítő alkalmazást.
+tfa-row-backup-codes-description-2 = Ez a legbiztonságosabb helyreállítási módszer, ha nem tudja használni a mobileszközét vagy a hitelesítő alkalmazást.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Helyreállítási telefonszám
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Nem érhető el helyreállítási telefonszám
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Módosítás
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Hozzáadás
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Eltávolítás
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Biztonsági helyreállítási telefonszám eltávolítása
+tfa-row-backup-phone-delete-restriction = Ha el akarja távolítani a tartalék helyreállítási telefonszámát, akkor először adjon hozzá tartalék hitelesítési kódokat vagy kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja a fiókját.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Ez a könnyebb helyreállítási módszer, ha nem tudja használni a hitelesítő alkalmazást.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Tudjon meg többet a SIM-csere kockázatáról
 
 ## Switch component
 
@@ -1134,6 +1155,7 @@ auth-error-1010 = Érvényes jelszó szükséges
 auth-error-1011 = Érvényes e-mail-cím szükséges
 auth-error-1031 = A regisztrációhoz meg kell adnia az életkorát
 auth-error-1032 = A regisztrációhoz érvényes életkort kell megadnia
+auth-error-1054 = Érvénytelen kétlépcsős hitelesítési kód
 auth-error-1062 = Érvénytelen átirányítás
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
@@ -1615,6 +1637,7 @@ signin-token-code-instruction-desktop-relay = Bejelentkezés után a { -brand-fi
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Bejelentkezés
 signin-totp-code-subheader-v2 = Adja meg a kétlépcsős hitelesítési kódot
 signin-totp-code-instruction-v4 = Ellenőrizze a <strong>hitelesítő alkalmazását</strong>, hogy megerősítse bejelentkezését.
 signin-totp-code-input-label-v4 = Adja meg a 6 számjegyű kódot
