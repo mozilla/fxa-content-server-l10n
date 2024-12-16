@@ -1186,9 +1186,25 @@ cookies-disabled-learn-more = Więcej informacji
 ## Index / home page
 
 index-header = Wpisz adres e-mail
+index-sync-header = Przejdź do { -product-mozilla-account(case: "gen", capitalization: "lower") }
+index-sync-subheader = Synchronizuj hasła, karty i zakładki wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Przejdź do usługi { $serviceName }
+index-subheader-with-logo = Przejdź do usługi <span>{ $serviceLogo }</span>
+index-subheader-default = Przejdź do ustawień konta
+index-cta = Zarejestruj się lub zaloguj
+index-account-info = { -product-mozilla-account } odblokowuje również dostęp do innych produktów { -brand-mozilla(case: "gen") } chroniących prywatność.
+index-email-input =
+    .label = Wpisz adres e-mail
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Ups! Nie można utworzyć klucza odzyskiwania konta. Proszę spróbować ponownie później.
+inline-recovery-key-setup-recovery-created = Utworzono klucz odzyskiwania konta
+inline-recovery-key-setup-download-header = Zabezpiecz swoje konto
+inline-recovery-key-setup-download-subheader = Pobierz go teraz i zachowaj
+inline-recovery-key-setup-download-info = Zachowaj ten klucz w miejscu, które zapamiętasz — nie będzie można później wrócić do tej strony.
+inline-recovery-key-setup-hint-header = Zalecenie dotyczące bezpieczeństwa
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1379,6 +1395,8 @@ pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z�
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Utwórz hasło
+set-password-info = Twoje dane są szyfrowane za pomocą hasła, aby chronić Twoją prywatność.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1387,6 +1405,8 @@ third-party-auth-callback-message = Proszę czekać, następuje przekierowanie d
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Wpisz klucz odzyskiwania konta
+account-recovery-confirm-key-instruction = Ten klucz umożliwia odzyskanie zaszyfrowanych danych przeglądania, takich jak hasła i zakładki, z serwerów { -brand-firefox(case: "gen") }.
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Kontynuuj
 
