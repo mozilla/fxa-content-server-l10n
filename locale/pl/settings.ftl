@@ -354,6 +354,8 @@ confirmation-link-reused-message = Ten odnośnik potwierdzenia został już uży
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Utwórz
+account-recovery-notification-header-value = Nie strać swoich danych, jeśli zapomnisz hasła
+account-recovery-notification-header-description = Utwórz klucz odzyskiwania konta, aby odzyskać synchronizowane dane przeglądania, jeśli kiedykolwiek zapomnisz hasła.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Błędne żądanie
 
@@ -373,6 +375,9 @@ password-strength-balloon-stay-safe-tips = Zachowaj bezpieczeństwo — każdego
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Musi mieć co najmniej 8 znaków
+password-strength-inline-not-email = Nie może być Twoim adresem e-mail
+password-strength-inline-not-common = Nie może być często używanym hasłem
 
 ## Ready component
 
