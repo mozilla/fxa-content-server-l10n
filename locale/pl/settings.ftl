@@ -378,10 +378,12 @@ password-strength-balloon-stay-safe-tips = Zachowaj bezpieczeństwo — każdego
 password-strength-inline-min-length = Musi mieć co najmniej 8 znaków
 password-strength-inline-not-email = Nie może być Twoim adresem e-mail
 password-strength-inline-not-common = Nie może być często używanym hasłem
+password-strength-inline-confirmed-must-match = Potwierdzenie zgadza się z nowym hasłem
 
 ## Ready component
 
 ready-complete-set-up-instruction = Dokończ konfigurację wprowadzając nowe hasło na pozostałych urządzeniach z { -brand-firefox(case: "ins") }.
+manage-your-account-button = Zarządzaj kontem
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -433,6 +435,9 @@ flow-recovery-key-hint-unsafe-char-error = Wskazówka nie może zawierać niebez
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Ostrzeżenie
+password-reset-chevron-expanded = Ukryj ostrzeżenie
+password-reset-chevron-collapsed = Pokaż ostrzeżenie
 
 ## Alert Bar
 
@@ -529,6 +534,8 @@ cs-sign-out-button = Wyloguj się
 ## Data collection section
 
 dc-heading = Zbieranie i wykorzystywanie danych
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Przeglądarka { -brand-firefox }
 dc-subheader-content-2 = Pozwól { -product-mozilla-accounts(case: "dat", capitalization: "lower") } wysyłać dane techniczne i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-out-success-2 = Pomyślnie zrezygnowano. { -product-mozilla-accounts } nie będą wysyłać danych technicznych i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-in-success-2 = Dzięki! Dzielenie się tymi danymi pomaga nam ulepszać { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
@@ -1346,16 +1353,24 @@ third-party-auth-callback-message = Proszę czekać, następuje przekierowanie d
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Kontynuuj
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Utwórz nowe hasło
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ustawiono hasło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Przepraszamy, wystąpił problem z ustawieniem hasła
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Użyj klucza odzyskiwania konta
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Zmieniono hasło.
 
 ## Confirm Reset Password With Code
 
@@ -1376,6 +1391,10 @@ confirm-reset-password-otp-different-account-link = Użyj innego konta
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Zmień hasło
+confirm-totp-reset-password-confirm-button = Potwierdź
+confirm-totp-reset-password-input-label-v2 = Wpisz sześciocyfrowy kod
+confirm-recovery-code-reset-password-trouble-code = Wstecz
 
 ## ResetPassword start page
 
