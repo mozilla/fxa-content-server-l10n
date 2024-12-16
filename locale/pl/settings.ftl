@@ -224,6 +224,38 @@ backup-codes-icon-aria-label-v2 =
     .aria-label = Włączono zapasowe kody uwierzytelniania
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Wyłączono zapasowe kody uwierzytelniania
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Włączono SMS-y odzyskiwania
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Wyłączono SMS-y odzyskiwania
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Flaga kanadyjska
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Zaznaczone
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Powodzenie
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Włączone
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Zamknij komunikat
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kod
+error-icon-aria-label =
+    .aria-label = Błąd
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informacje
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Flaga USA
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -245,15 +277,25 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Rysunek przedstawiający klucz odzyskiwania konta.
+password-image-aria-label =
+    .aria-label = Ilustracja przedstawiająca wpisywanie hasła.
 lightbulb-aria-label =
     .aria-label = Rysunek przedstawiający tworzenie wskazówki o miejscu przechowywania.
 email-code-image-aria-label =
     .aria-label = Rysunek przedstawiający wiadomość e-mail zawierającą kod.
+recovery-phone-image-description =
+    .aria-label = Telefon odbierający kod SMS-em.
+recovery-phone-code-image-description =
+    .aria-label = Kod odebrany na telefonie.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Zalogowano do { -brand-firefox(case: "gen") }.
+inline-recovery-key-setup-create-header = Zabezpiecz swoje konto
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Masz chwilę, aby zabezpieczyć swoje dane?
 
 ## Input Password
 
