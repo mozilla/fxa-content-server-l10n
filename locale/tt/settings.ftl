@@ -828,9 +828,26 @@ connect-another-device-android-complete-setup-message = Көйләүне тәм�
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Хата:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Керү тикшерелә…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Раслау хатасы
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Раслау сылтамасының вакыты узган
+signin-link-expired-message-2 = Сез баскан сылтаманың вакыты чыккан яисә ул инде кулланылган.
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = <span>{ -product-mozilla-account } хисабыгыз өчен</span> серсүзегезне кертегез
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span> хезмәтенә күчү
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = { $serviceName } хезмәтенә күчү
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,

@@ -265,6 +265,9 @@ sub-item-stay-sub = Язылуда калу
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg =
+    Исәп-хисапның соңгы көне булган { $period }
+    көненнән соң { $name } продуктын куллана алмаячаксыз.
 
 ## Routes - Subscription
 
