@@ -913,7 +913,13 @@ signin-totp-code-required-error = Аутентификация коды кирә
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
-signin-unblock-header = Бу керүне раслау
+signin-unblock-header = Бу керүне рөхсәт итү
+signin-unblock-code-input = Авторизация кодын кертү
+signin-unblock-submit-button = Дәвам итү
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Авторизация коды кирәк
+signin-unblock-code-incorrect-length = Авторизация кодында 8 символ булырга тиеш
+signin-unblock-code-incorrect-format-2 = Авторизация коды хәрефләр һәм/яки саннардан гына торырга тиеш
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
