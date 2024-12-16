@@ -954,8 +954,9 @@ security-recent-activity-link = Oglejte si nedavno dejavnost v računu
 signout-sync-header = Seja je potekla
 signout-sync-session-expired = Oprostite, prišlo je do napake. V meniju brskalnika se odjavite in poskusite znova.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Rezervne overitvene kode
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ni razpoložljivih kod
@@ -968,7 +969,27 @@ tfa-row-backup-codes-get-new-cta = Pridobite nove kode
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = To je najvarnejša metoda obnovitve, če nimate dostopa do mobilne naprave ali aplikacije za overitev.
+tfa-row-backup-codes-description-2 = To je najvarnejša metoda obnovitve, če ne morete uporabiti mobilne naprave ali aplikacije za overitev.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Telefonska številka za obnovitev iz varnostne kopije
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Telefonska številka za obnovitev ni na voljo
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Spremeni
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Dodaj
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Odstrani
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Odstranite telefonsko številko za obnovitev z varnostno kopijo
+tfa-row-backup-phone-delete-restriction = Če želite odstraniti varnostno telefonsko številko za obnovitev, dodajte rezervne kode za overitev ali najprej onemogočite overjanje v dveh korakih, da preprečite izgubo dostopa do računa.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = To je lažji način obnovitve, če ne morete uporabiti aplikacije za overitev.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Spoznajte tveganje zamenjave SIM
 
 ## Switch component
 
@@ -1130,6 +1151,7 @@ auth-error-1010 = Zahtevano je veljavno geslo
 auth-error-1011 = Zahtevan je veljaven e-poštni naslov
 auth-error-1031 = Za registracijo morate vnesti svojo starost
 auth-error-1032 = Za registracijo morate vnesti veljavno starost
+auth-error-1054 = Neveljavna koda za overitev v dveh korakih
 auth-error-1062 = Neveljavna preusmeritev
 oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 
@@ -1611,6 +1633,7 @@ signin-token-code-instruction-desktop-relay = Po prijavi vas bo { -brand-firefox
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Prijava
 signin-totp-code-subheader-v2 = Vnesite kodo za overjanje v dveh korakih
 signin-totp-code-instruction-v4 = V <strong>aplikaciji za overjanje</strong> potrdite prijavo.
 signin-totp-code-input-label-v4 = Vnesite 6-mestno kodo
