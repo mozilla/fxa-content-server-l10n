@@ -892,15 +892,28 @@ signin-recovery-code-support-link = Хисабыгыз биклеме?
 
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Раслау
+signin-token-code-code-expired = Кодның мөддәте беткәнме?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Эл. почта аша яңа код җибәрү.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Раслау коды кирәк
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Ике адымлы аутентификация кодын кертегез
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Раслау
+signin-totp-code-other-account-link = Башка бер хисап куллану
+signin-totp-code-recovery-code-link = Кодны кертеп булмыймы?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Аутентификация коды кирәк
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Бу керүне раслау
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
