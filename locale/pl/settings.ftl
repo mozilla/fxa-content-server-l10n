@@ -1558,6 +1558,7 @@ signin-push-code-confirm-verifying = Weryfikowanie
 signin-push-code-confirm-login = Potwierdź logowanie
 signin-push-code-confirm-wasnt-me = To nie ja, zmień hasło.
 signin-push-code-confirm-login-approved = Logowanie zostało zatwierdzone. Zamknij to okno.
+signin-push-code-confirm-link-error = Odnośnik jest uszkodzony. Proszę spróbować ponownie.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1566,6 +1567,7 @@ signin-push-code-confirm-login-approved = Logowanie zostało zatwierdzone. Zamkn
 
 signin-recovery-code-heading = Zaloguj się
 signin-recovery-code-sub-heading = Wpisz zapasowy kod uwierzytelniania
+signin-recovery-code-instruction-v2 = Wpisz jeden z jednorazowych zapasowych kodów uwierzytelniania zachowanych podczas konfiguracji uwierzytelniania dwuetapowego.
 signin-recovery-code-input-label-v2 = Wpisz 10-znakowy kod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potwierdź
@@ -1576,6 +1578,10 @@ signin-recovery-code-back-link = Wstecz
 signin-recovery-code-support-link = Nie możesz się zalogować?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Wymagany jest zapasowy kod uwierzytelniania
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1601,11 +1607,17 @@ signin-token-code-resend-code-link = Wyślij nowy.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Wymagany jest kod potwierdzenia
 signin-token-code-resend-error = Coś się nie powiodło. Nie można wysłać nowego kodu.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = Wpisz kod uwierzytelniania dwuetapowego
+signin-totp-code-instruction-v4 = Sprawdź <strong>aplikację uwierzytelniającą</strong>, aby potwierdzić logowanie.
 signin-totp-code-input-label-v4 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź
@@ -1613,6 +1625,10 @@ signin-totp-code-other-account-link = Użyj innego konta
 signin-totp-code-recovery-code-link = Masz problem z wpisywaniem kodu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Wymagany jest kod uwierzytelniania
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1628,6 +1644,10 @@ signin-unblock-code-incorrect-length = Kod upoważnienia musi mieć 8 znaków
 signin-unblock-code-incorrect-format-2 = Kod upoważnienia może zawierać tylko litery i cyfry
 signin-unblock-resend-code-button = Nie ma nic w Odebranych ani w Niechcianych? Wyślij jeszcze raz
 signin-unblock-support-link = Dlaczego to się stało?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1652,12 +1672,22 @@ confirm-signup-code-resend-code-link = Wyślij nowy.
 confirm-signup-code-success-alert = Pomyślnie potwierdzono konto
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Wymagany jest kod potwierdzenia
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Ustaw hasło
+signup-relay-info = Hasło jest potrzebne do bezpiecznego zarządzania zamaskowanymi adresami e-mail i do dostępu do narzędzi bezpieczeństwa { -brand-mozilla(case: "gen") }.
 signup-heading-relay = Utwórz hasło
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Dlaczego muszę założyć to konto?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Więcej informacji
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmień adres e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
