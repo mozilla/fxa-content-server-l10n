@@ -954,8 +954,9 @@ security-recent-activity-link = Zobrazit nedávnou aktivitu u účtu
 signout-sync-header = Relace vypršela
 signout-sync-session-expired = Omlouváme se, něco se pokazilo. Odhlaste se prosím z nabídky prohlížeče a zkuste to znovu.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Záložní ověřovací kódy
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Žádné kódy nejsou k dispozici
@@ -968,7 +969,27 @@ tfa-row-backup-codes-get-new-cta = Získejte nové kódy
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Přidat
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Toto je nejbezpečnější způsob obnovení, pokud nemůžete přistupovat k svému mobilnímu zařízení nebo aplikaci pro ověřování.
+tfa-row-backup-codes-description-2 = Toto je nejbezpečnější způsob obnovení, pokud nemůžete použít své mobilní zařízení nebo autentizační aplikaci.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Zálohovat telefon pro obnovení
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Telefonní číslo pro obnovení není k dispozici
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Změnit
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Přidat
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Odebrat
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Odebrat záložní telefon pro obnovení
+tfa-row-backup-phone-delete-restriction = Pokud chcete odebrat záložní telefon pro obnovení, přidejte záložní ověřovací kódy nebo vypněte nejprve dvoufázové ověření, abyste předešli uzamčení přístupu ke svému účtu.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Jedná se o jednodušší metodu obnovení, pokud nemůžete použít svou ověřovací aplikaci.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Další informace o riziku při výměně karty SIM
 
 ## Switch component
 
@@ -1124,6 +1145,7 @@ auth-error-1010 = Je požadováno platné heslo
 auth-error-1011 = Je požadován platný e-mail
 auth-error-1031 = Pro registraci musíte zadat svůj věk
 auth-error-1032 = Pro registraci musíte zadat platný věk
+auth-error-1054 = Neplatný kód pro dvoufázové ověření
 auth-error-1062 = Neplatné přesměrování
 oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu.
 
@@ -1602,6 +1624,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } se vás pokusí
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Přihlásit se
 signin-totp-code-subheader-v2 = Zadejte kód pro dvoufázové ověření
 signin-totp-code-instruction-v4 = Zkontrolujte svou <strong>ověřovací aplikaci</strong> a potvrďte přihlášení.
 signin-totp-code-input-label-v4 = Zadejte šestimístný kód
