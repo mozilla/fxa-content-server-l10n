@@ -952,8 +952,9 @@ security-recent-activity-link = Nejnowšu kontowu aktiwitu pokazaś
 signout-sync-header = Pósejźenje jo spadnuło
 signout-sync-session-expired = Bóžko něco njejo se raźiło. Pšosym wótzjawśo se z menija wobglědowaka a wopytajśo hyšći raz.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Kody za zawěsćeńsku awtentifikaciju
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Žedne kody k dispoziciji
@@ -966,7 +967,23 @@ tfa-row-backup-codes-get-new-cta = Nowe kody wobstaraś
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Pśidaś
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = To jo nejwěsćejša wótnowjeńska metoda, jolic pśistup k swójomu mobilnemu rědoju abo awtentifikaciskemu nałoženjeju njamaśo.
+tfa-row-backup-codes-description-2 = To jo nejwěsćejša wótnowjeńska metoda, jolic njamóžośo swój mobilny rěd abo awtentifikaciske nałoženje wužywaś.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Wótnowjeński telefon za zawěsćenje
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Numer wótnowjeńskego telefona njejo k dispoziciji
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Změniś
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Pśidaś
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Wótwónoźeś
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Wótnowjeński telefon za zawěsćenje wótwónoźeś
+tfa-row-backup-phone-delete-restriction = Jolic cośo swój wótnowjeński telefon za zawěsćenje wótónoźeś, pśidajśo zawěsćeńske awtentifikaciske kody abo znjemóžniśo nejpjerwjej dwójokšacowu awtentifikaciju, aby se wobinuł, až se ze swójogo konta wuzamkujośo.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = To jo lažčejša wótnowjeńska metoda, jolic njamóžośo swójo awtentifikaciske nałoženje wužywaś.
 
 ## Switch component
 
