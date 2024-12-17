@@ -801,7 +801,7 @@ add-secondary-email-save-button = שמירה
 # This message is shown when a user tries to add a secondary email that is a
 # Firefox Relay email mask (generated email address that can be used in place of
 # your real email address)
-add-secondary-email-mask = לא ניתן להשתמש במסיכות דוא״ל כדוא"ל משני
+add-secondary-email-mask = לא ניתן להשתמש במסכות דוא״ל כדוא"ל משני
 
 ## Verify secondary email page
 
