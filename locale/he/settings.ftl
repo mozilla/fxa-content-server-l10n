@@ -206,6 +206,9 @@ alert-icon-aria-label =
 # Aria-label option for an alert symbol
 icon-attention-aria-label =
     .aria-label = לתשומת ליבך
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = אזהרה
 authenticator-app-aria-label =
     .aria-label = יישום מאמת
 # An icon of phone with text message. A back recovery phone number
@@ -902,7 +905,7 @@ security-recent-activity-link = הצגת פעילות אחרונה בחשבון
 signout-sync-header = פג תוקף ההפעלה
 signout-sync-session-expired = משהו השתמש, עמך הסליחה. נא להתנתק מתפריט הדפדפן ולנסות שוב.
 
-## Settings sub row
+## SubRow component
 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
@@ -916,7 +919,21 @@ tfa-row-backup-codes-get-new-cta = קבלת קודים חדשים
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = הוספה
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך לגשת למכשיר הנייד או ליישומון המאמת שלך.
+tfa-row-backup-codes-description-2 = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך להשתמש במכשיר הנייד או ביישומון המאמת שלך.
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = אין מספרי טלפון זמינים לשחזור
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = שינוי
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = הוספה
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = הסרה
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = זוהי שיטת השחזור הקלה ביותר אם אין באפשרותך להשתמש ביישומון המאמת שלך.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = מידע נוסף על סיכון בהחלפת סים
 
 ## Switch component
 
@@ -1057,6 +1074,7 @@ auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שו
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-159 = מפתח שחזור חשבון שגוי
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
+auth-error-206 = לא ניתן ליצור ססמה, הססמה כבר הוגדרה
 auth-error-999 = שגיאה בלתי צפויה
 auth-error-1001 = ניסיון ההתחברות בוטל
 auth-error-1002 = פג תוקף ההפעלה. יש להתחבר כדי להמשיך.
@@ -1066,6 +1084,7 @@ auth-error-1010 = נדרשת ססמה חוקית
 auth-error-1011 = נדרשת כתובת דוא״ל חוקית
 auth-error-1031 = עליך להכניס את גילך כדי להשלים את ההרשמה
 auth-error-1032 = עליך להקליד גיל תקני כדי להירשם
+auth-error-1054 = קוד אימות דו־שלבי לא תקין
 auth-error-1062 = הפנייה לא חוקית
 oauth-error-1000 = משהו השתבש. נא לסגור לשונית זו ולנסות שוב.
 
@@ -1347,6 +1366,10 @@ complete-reset-pw-recovery-key-link = שימוש במפתח לשחזור החש�
 # Displayed on the sign in page
 reset-password-complete-banner-heading = הססמה שלך אופסה.
 reset-password-complete-banner-message = מומלץ ליצור מפתח שחזור חשבון חדש מהגדרות { -product-mozilla-account(case: "the") } שלך כדי למנוע בעיות התחברות עתידיות.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 
 ## Confirm Reset Password With Code
 
@@ -1423,6 +1446,10 @@ signin-header = כניסה
 signin-use-a-different-account-link = שימוש בחשבון אחר
 signin-forgot-password-link = שכחת את הססמה?
 signin-password-button-label = ססמה
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1476,6 +1503,10 @@ signin-recovery-code-back-link = חזרה
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ננעלת מחוץ לחשבון?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
