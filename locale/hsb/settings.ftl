@@ -983,6 +983,7 @@ tfa-row-backup-phone-add-cta = Přidać
 tfa-row-backup-phone-delete-button = Wotstronić
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Wobnowjenski telefon za zawěsćenje wotstronić
+tfa-row-backup-phone-delete-restriction = Jeli chceće swój wobnowjenski telefon za zawěsćenje wotstronić, přidajće zawěsćenske awtentifikaciske kody abo znjemóžńće najprjedy dwukročelowu awtentifikaciju, zo byšće wobešoł, zo so ze swojeho konta wuzamknjeće.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = To je lóša wobnowjenska metoda, jeli njemóžeće swoje awtentifikaciske nałoženje wužiwać.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
