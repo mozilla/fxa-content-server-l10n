@@ -1532,11 +1532,16 @@ signin-token-code-resend-code-link = שליחת קוד חדש בדוא״ל.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = נדרש קוד אימות
 signin-token-code-resend-error = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = כניסה
 signin-totp-code-subheader-v2 = נא להכניס קוד אימות דו־שלבי
 signin-totp-code-instruction-v4 = נא לפתוח את <strong>היישומון המאמת</strong> שלך ולאמת את ההתחברות שלך.
 signin-totp-code-input-label-v4 = נא להזין קוד בן 6 ספרות
@@ -1546,6 +1551,10 @@ signin-totp-code-other-account-link = שימוש בחשבון אחר
 signin-totp-code-recovery-code-link = מתקשה בהזנת הקוד?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = נדרש קוד אימות
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1561,6 +1570,10 @@ signin-unblock-code-incorrect-length = קוד ההרשאה חייב להכיל 8
 signin-unblock-code-incorrect-format-2 = קוד ההרשאה יכול להכיל רק אותיות ו/או מספרים
 signin-unblock-resend-code-button = לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת
 signin-unblock-support-link = מדוע זה קורה?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1585,6 +1598,10 @@ confirm-signup-code-resend-code-link = שליחת קוד חדש בדוא״ל.
 confirm-signup-code-success-alert = החשבון אומת בהצלחה
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = נדרש קוד אימות
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
