@@ -958,8 +958,9 @@ security-recent-activity-link = Visa senaste kontoaktivitet
 signout-sync-header = Sessionen upphörde
 signout-sync-session-expired = Tyvärr, något gick fel. Logga ut från webbläsarmenyn och försök igen.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Säkerhetskopiera autentiseringskoder
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Inga koder tillgängliga
@@ -972,7 +973,17 @@ tfa-row-backup-codes-get-new-cta = Hämta nya koder
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Lägg till
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Detta är den säkraste återställningsmetoden om du inte kan komma åt din mobila enhet eller autentiseringsappen.
+tfa-row-backup-codes-description-2 = Detta är den säkraste återställningsmetoden om du inte kan använda din mobila enhet eller autentiseringsappen.
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Inget återställningstelefonnummer tillgängligt
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Ändra
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Lägg till
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Ta bort
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Det här är den enklare återställningsmetoden om du inte kan använda din autentiseringsapp.
 
 ## Switch component
 
@@ -1136,6 +1147,7 @@ auth-error-1010 = Giltigt lösenord krävs
 auth-error-1011 = Giltig e-postadress krävs
 auth-error-1031 = Du måste ange din ålder för att registrera dig
 auth-error-1032 = Du måste ange en giltig ålder för att registrera dig
+auth-error-1054 = Ogiltig tvåstegsautentiseringskod
 auth-error-1062 = Ogiltig omdirigering
 oauth-error-1000 = Något gick fel. Stäng den här fliken och försök igen.
 
@@ -1619,6 +1631,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } försöker skic
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Logga in
 signin-totp-code-subheader-v2 = Ange tvåstegsautentiseringskod
 signin-totp-code-instruction-v4 = Kontrollera din <strong>autentiseringsapp</strong> för att bekräfta din inloggning.
 signin-totp-code-input-label-v4 = Ange 6-siffrig kod
