@@ -979,13 +979,13 @@ tfa-row-backup-phone-add-cta = Hinzufügen
 tfa-row-backup-phone-delete-button = Entfernen
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Sicherungs-Wiederherstellungsnummer entfernen
-tfa-row-backup-phone-delete-restriction = Wenn Sie Ihr Sicherungs-Wiederherstellungs-Telefon entfernen möchten, fügen Sie Sicherungs-Authentifizierungscodes hinzu oder deaktivieren Sie zuerst die Zwei-Schritt-Authentifizierung, um nicht aus Ihrem Konto ausgesperrt zu werden.
+tfa-row-backup-phone-delete-restriction = Wenn Sie Ihre Sicherungs-Wiederherstellungs-Telefonnummer entfernen möchten, fügen Sie Sicherungs-Authentifizierungscodes hinzu oder deaktivieren Sie zuerst die Zwei-Schritt-Authentifizierung, um nicht aus Ihrem Konto ausgesperrt zu werden.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Dies ist die einfachere Wiederherstellungsmethode, wenn Sie Ihre Authentifizierungs-App nicht verwenden können.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
-tfa-row-backup-phone-sim-swap-risk-link = Weitere Informationen über das SIM-Swap-Risiken
+tfa-row-backup-phone-sim-swap-risk-link = Weitere Informationen über die Risiken von SIM-Swap
 
 ## Switch component
 
