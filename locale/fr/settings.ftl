@@ -970,7 +970,7 @@ tfa-row-backup-codes-add-cta = Ajouter
 tfa-row-backup-codes-description-2 = Il s’agit de la méthode de récupération la plus sûre si vous ne pouvez pas utiliser votre appareil mobile ou votre application d’authentification.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Numéro de téléphone de récupération de la sauvegarde
+tfa-row-backup-phone-title = Numéro de téléphone de récupération de secours
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Aucun numéro de téléphone de récupération disponible
 # button to change the configured backup recovery phone
@@ -980,7 +980,7 @@ tfa-row-backup-phone-add-cta = Ajouter
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Supprimer
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Supprimer le numéro de téléphone de secours de récupération
+tfa-row-backup-phone-delete-title = Supprimer le numéro de téléphone de récupération de secours
 tfa-row-backup-phone-delete-restriction = Si vous souhaitez supprimer votre numéro de téléphone de récupération de secours, ajoutez d’abord des codes d’authentification de secours ou désactivez d’abord l’authentification en deux étapes pour éviter de perdre l’accès à votre compte.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = C’est la méthode de récupération la plus simple si vous ne pouvez pas utiliser votre application d’authentification.
