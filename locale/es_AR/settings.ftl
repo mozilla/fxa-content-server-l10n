@@ -966,7 +966,7 @@ tfa-row-backup-codes-get-new-cta = Obtener nuevos códigos
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Agregar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = Este es el método de recuperación más seguro si no puede usar su dispositivo móvil o aplicación de autenticación.
+tfa-row-backup-codes-description-2 = Este es el método de recuperación más seguro si no podés usar tu dispositivo móvil o aplicación de autenticación.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title = Teléfono de recuperación de respaldo
@@ -980,9 +980,9 @@ tfa-row-backup-phone-add-cta = Agregar
 tfa-row-backup-phone-delete-button = Eliminar
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Eliminar teléfono de recuperación de respaldo
-tfa-row-backup-phone-delete-restriction = Si deseas eliminar tu teléfono de recuperación de respaldo, primero agrega códigos de autenticación de respaldo o deshabilita la autenticación de dos pasos para evitar el bloqueo de tu cuenta.
+tfa-row-backup-phone-delete-restriction = Si querés eliminar tu teléfono de recuperación de respaldo, primero agregá códigos de autenticación de respaldo o deshabilitá la autenticación de dos pasos para evitar el bloqueo de tu cuenta.
 # "this" refers to backup recovery phone
-tfa-row-backup-phone-description = Este es el método de recuperación más fácil si no puede usar su aplicación de autenticación.
+tfa-row-backup-phone-description = Este es el método de recuperación más fácil si no podés usar tu aplicación de autenticación.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
