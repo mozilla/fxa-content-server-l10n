@@ -954,8 +954,9 @@ security-recent-activity-link = Najnowšu kontowu aktiwitu pokazać
 signout-sync-header = Posedźenje je spadnyło
 signout-sync-session-expired = Bohužel něšto je so nimokuliło. Prošu wotzjewće so z menija wobhladowaka a spytajće hišće raz.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Zawěsćenske awtentifikaciske kody
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Žane kody k dispoziciji
@@ -968,7 +969,15 @@ tfa-row-backup-codes-get-new-cta = Nowe kody wobstarać
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Přidać
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = To je najwěsćiša wobnowjenska metoda, jeli přistup k swojemu mobilnemu gratej abo awtentifikaciskemu nałoženju nimaće.
+tfa-row-backup-codes-description-2 = To je najwěsćiša wobnowjenska metoda, jeli njemóžeće swój mobilny grat abo awtentifikaciske nałoženje wužiwać.
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Změnić
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Přidać
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Wotstronić
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = To je lóša wobnowjenska metoda, jeli njemóžeće swoje awtentifikaciske nałoženje wužiwać.
 
 ## Switch component
 
@@ -1130,6 +1139,7 @@ auth-error-1010 = Płaćiwe hesło trěbne
 auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
 auth-error-1031 = Dyrbiće swoju starobu zapodać, zo byšće so registrował
 auth-error-1032 = Dyrbiće płaćiwu starobu zapodać, zo byšće so registrował
+auth-error-1054 = Njepłaćiwy kod za dwukročelowu awtentifikacija
 auth-error-1062 = Njepłaćiwe dalesposrědkowanje
 oauth-error-1000 = Něšto je so nimokuliło. Prošu začińće tutón rajtark a spytajće hišće raz.
 
@@ -1613,6 +1623,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } budźe was wró
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Přizjewić
 signin-totp-code-subheader-v2 = Zapodajće kod za dwukročelowu awtentifikaciju
 signin-totp-code-instruction-v4 = Zmóžńće swoje <strong>nałoženje awtentizowanja</strong>, zo byšće swoje přizjewjenje wobkrućił.
 signin-totp-code-input-label-v4 = 6-městnowy kod zapodać
