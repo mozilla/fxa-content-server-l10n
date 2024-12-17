@@ -958,8 +958,9 @@ security-recent-activity-link = Xem hoạt động tài khoản gần đây
 signout-sync-header = Phiên đã hết hạn
 signout-sync-session-expired = Xin lỗi, đã có lỗi xảy ra. Vui lòng đăng xuất từ menu trình duyệt và thử lại.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Mã xác thực dự phòng
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Không còn mã nào khả dụng
@@ -972,7 +973,27 @@ tfa-row-backup-codes-get-new-cta = Tạo mã mới
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Thêm
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Đây là phương pháp khôi phục an toàn nhất nếu bạn không thể truy cập thiết bị di động hoặc ứng dụng xác thực của mình.
+tfa-row-backup-codes-description-2 = Đây là phương pháp khôi phục an toàn nhất nếu bạn không thể sử dụng thiết bị di động hoặc ứng dụng xác thực của mình.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Số điện thoại khôi phục dự phòng
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Không có số điện thoại khôi phục
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Thay đổi
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Thêm
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Xóa
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Xóa số điện thoại khôi phục dự phòng
+tfa-row-backup-phone-delete-restriction = Nếu bạn muốn xóa số điện thoại khôi phục dự phòng của mình, hãy thêm mã xác thực dự phòng hoặc tắt xác thực hai bước trước để tránh bị khóa tài khoản.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Đây là phương pháp khôi phục dễ dàng hơn nếu bạn không thể sử dụng ứng dụng xác thực của mình.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Tìm hiểu về rủi ro hoán đổi SIM
 
 ## Switch component
 
@@ -1132,6 +1153,7 @@ auth-error-1010 = Yêu cầu mật khẩu hợp lệ
 auth-error-1011 = Yêu cầu email hợp lệ
 auth-error-1031 = Bạn phải nhập tuổi của bạn để đăng ký
 auth-error-1032 = Bạn phải nhập tuổi hợp lệ để đăng ký
+auth-error-1054 = Mã xác thực hai bước không hợp lệ
 auth-error-1062 = Chuyển hướng không hợp lệ
 oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
 
@@ -1615,6 +1637,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } sẽ điều h�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Đăng nhập
 signin-totp-code-subheader-v2 = Nhập mã xác thực hai bước
 signin-totp-code-instruction-v4 = Kiểm tra <strong>ứng dụng xác thực</strong> của bạn để xác nhận thông tin đăng nhập của bạn.
 signin-totp-code-input-label-v4 = Nhập mã gồm 6 chữ số
