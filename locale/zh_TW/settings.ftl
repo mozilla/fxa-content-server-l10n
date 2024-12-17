@@ -943,8 +943,9 @@ security-recent-activity-link = 檢視近期帳號活動
 signout-sync-header = 登入階段已過期
 signout-sync-session-expired = 抱歉，有些東西不對勁，請從瀏覽器選單登出後再試一次。
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = 備用驗證碼
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = 無備用驗證碼可用
@@ -957,7 +958,27 @@ tfa-row-backup-codes-get-new-cta = 產生新備用驗證碼
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = 新增
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = 當您無法再使用您的行動裝置或驗證程式時，這是最安全的救援方法。
+tfa-row-backup-codes-description-2 = 當您無法再使用您的行動裝置或驗證程式時，這是最安全的救援方法。
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = 備用救援手機號碼
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = 未設定備用手機號碼
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = 變更
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = 新增
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = 移除
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = 移除備用救援手機號碼
+tfa-row-backup-phone-delete-restriction = 若您想要移除備用救援號碼，請先產生備用驗證碼，或停用兩階段驗證，以避免被鎖在帳號外面無法登入。
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = 當您無法再使用驗證程式時，這是最安全的救援方法。
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = 了解 SIM 卡替換攻擊的風險
 
 ## Switch component
 
@@ -1109,6 +1130,7 @@ auth-error-1010 = 必須輸入有效的密碼
 auth-error-1011 = 請輸入有效的電子郵件信箱
 auth-error-1031 = 您必須輸入年齡才能註冊
 auth-error-1032 = 您必須輸入有效年齡才能註冊
+auth-error-1054 = 無效的兩階段驗證碼
 auth-error-1062 = 重導無效
 oauth-error-1000 = 有些東西不對勁，請關閉此分頁再試一次。
 
@@ -1587,6 +1609,7 @@ signin-token-code-instruction-desktop-relay = 登入後，{ -brand-firefox } 將
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = 登入
 signin-totp-code-subheader-v2 = 請輸入兩階段驗證碼
 signin-totp-code-instruction-v4 = 請使用您的<strong>驗證程式</strong>確認登入動作。
 signin-totp-code-input-label-v4 = 請輸入六位數的驗證碼
