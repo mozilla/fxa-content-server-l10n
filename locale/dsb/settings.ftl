@@ -984,6 +984,10 @@ tfa-row-backup-phone-delete-title = Wótnowjeński telefon za zawěsćenje wótw
 tfa-row-backup-phone-delete-restriction = Jolic cośo swój wótnowjeński telefon za zawěsćenje wótónoźeś, pśidajśo zawěsćeńske awtentifikaciske kody abo znjemóžniśo nejpjerwjej dwójokšacowu awtentifikaciju, aby se wobinuł, až se ze swójogo konta wuzamkujośo.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = To jo lažčejša wótnowjeńska metoda, jolic njamóžośo swójo awtentifikaciske nałoženje wužywaś.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Informacije wó riziku złoźejstwa SIM (SIM swap)
 
 ## Switch component
 
@@ -1145,6 +1149,7 @@ auth-error-1010 = Płaśiwe gronidło trjebne
 auth-error-1011 = Płaśiwa e-mailowa adresa trjebna
 auth-error-1031 = Musyśo swójo starstwo zapódaś, aby se registrěrował
 auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
+auth-error-1054 = Njepłaśiwy kod za dwójokšacowu awtentifikaciju
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
 oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
 
@@ -1628,6 +1633,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } buźo was slěd
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Pśizjawiś
 signin-totp-code-subheader-v2 = Zapódajśo kod za dwójokšacowu awtentifikaciju
 signin-totp-code-instruction-v4 = Zmóžniśo swójo <strong>nałoženje awtentizěrowanja</strong>, aby swójo pśizjawjenje wobkšuśił.
 signin-totp-code-input-label-v4 = 6-městnowy kod zapódaś
