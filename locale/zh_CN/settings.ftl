@@ -945,8 +945,9 @@ security-recent-activity-link = 查看近期账户活动
 signout-sync-header = 会话已过期
 signout-sync-session-expired = 抱歉，出了点问题。请在浏览器菜单中退出登录，然后再重试。
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = 备用验证码
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = 没有可用的验证码
@@ -959,7 +960,25 @@ tfa-row-backup-codes-get-new-cta = 获取新验证码
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = 添加
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = 在无法使用移动设备或身份验证器应用时，这是最安全的恢复方法。
+tfa-row-backup-codes-description-2 = 在无法使用移动设备或身份验证器应用时，这是最安全的恢复方法。
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = 备用恢复电话号码
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = 没有可用的恢复电话号码
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = 更改
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = 添加
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = 移除
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = 移除备用恢复电话号码
+tfa-row-backup-phone-delete-restriction = 若要移除备用恢复电话号码，请先添加备用验证码或关闭两步验证，以免无法登录账户。
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = 了解 SIM 卡交换攻击的风险
 
 ## Switch component
 
@@ -1111,6 +1130,7 @@ auth-error-1010 = 请输入有效的密码
 auth-error-1011 = 需要有效的邮箱地址
 auth-error-1031 = 您需要输入您的年龄才能注册
 auth-error-1032 = 您需要输入有效年龄才能注册
+auth-error-1054 = 无效的两步验证码
 auth-error-1062 = 无效重定向
 oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
 
@@ -1595,6 +1615,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } 将尝试在您
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = 登录
 signin-totp-code-subheader-v2 = 请输入两步验证的验证码
 signin-totp-code-instruction-v4 = 请通过<strong>身份验证器应用</strong>确认登录。
 signin-totp-code-input-label-v4 = 请输入 6 位验证码
