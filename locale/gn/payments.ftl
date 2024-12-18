@@ -361,6 +361,7 @@ coupon-expired = Pe ayvu jekuaaukarã ndoikovéima.
 card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuatia’atã ñemurã rehegua ha eha’ãjey uperire.
 country-currency-mismatch = Pe viru ko ñemboheraguapy pegua ndoikói pe tetã ehepyme’ẽseha peguápe.
 currency-currency-mismatch = Rombyasy. Ndakatúi emoambue virukuéra pa’ũme.
+location-unsupported = Ne rendatee ag̃agua noñemoneĩri he’iháicha ore Remiñemi Purureko.
 no-subscription-change = Rombyasy. Neremoambuekuaái ñemboheraguapy rape.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Eñemboheraguapýma { $mobileAppStore } rupive.
