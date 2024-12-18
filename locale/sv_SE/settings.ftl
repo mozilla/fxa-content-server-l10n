@@ -974,6 +974,9 @@ tfa-row-backup-codes-get-new-cta = Hämta nya koder
 tfa-row-backup-codes-add-cta = Lägg till
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Detta är den säkraste återställningsmetoden om du inte kan använda din mobila enhet eller autentiseringsappen.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Återställningstelefon för säkerhetskopiering
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Inget återställningstelefonnummer tillgängligt
 # button to change the configured backup recovery phone
@@ -982,6 +985,9 @@ tfa-row-backup-phone-change-cta = Ändra
 tfa-row-backup-phone-add-cta = Lägg till
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Ta bort
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Ta bort återställningtelefon för säkerhetskopiering
+tfa-row-backup-phone-delete-restriction = Om du vill ta bort din återställningstelefon för säkerhetskopiering, lägg till reservautentiseringskoder eller inaktivera tvåstegsautentisering först för att undvika att bli utelåst från ditt konto.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Det här är den enklare återställningsmetoden om du inte kan använda din autentiseringsapp.
 
