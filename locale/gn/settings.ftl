@@ -1651,6 +1651,8 @@ confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
 
 signup-heading = Emboaje ñe’ẽñemi
 signup-heading-relay = Emoheñói ñe’ẽñemi
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-pocket-info-banner-link = Ehechakuaa ko’ápe
