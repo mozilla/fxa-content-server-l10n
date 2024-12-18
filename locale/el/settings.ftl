@@ -957,11 +957,24 @@ security-recent-activity-link = Προβολή πρόσφατης δραστηρ
 signout-sync-header = Η συνεδρία έληξε
 signout-sync-session-expired = Δυστυχώς, κάτι πήγε στραβά. Παρακαλούμε αποσυνδεθείτε από το μενού του προγράμματος περιήγησης και δοκιμάστε ξανά.
 
-## Settings sub row
+## SubRow component
 
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Λήψη νέων κωδικών
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Προσθήκη
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Εφεδρικό τηλέφωνο ανάκτησης
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Αλλαγή
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Προσθήκη
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Αφαίρεση
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Αφαίρεση εφεδρικού τηλεφώνου ανάκτησης
 
 ## Switch component
 
@@ -1585,6 +1598,7 @@ signin-token-code-resend-error = Κάτι πήγε στραβά. Δεν ήταν
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Σύνδεση
 signin-totp-code-subheader-v2 = Εισαγάγετε κωδικό ταυτοποίησης δύο παραγόντων
 signin-totp-code-instruction-v4 = Ελέγξτε την <strong>εφαρμογή ταυτοποίησής</strong> σας για να επιβεβαιώσετε τη σύνδεσή σας.
 signin-totp-code-input-label-v4 = Εισαγάγετε τον εξαψήφιο κωδικό
