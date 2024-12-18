@@ -367,10 +367,10 @@ postRemoveTwoStepAuthentication-not-required-2 = 登录时，不会再要求您�
 postVerify-sub-title-3 = 很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到同样的标签页吗？
 postVerify-description-2 = 很简单！只需在另一台设备上安装 { -brand-firefox } 并登录，即可进行同步，如同魔术般奇妙！
-postVerify-sub-description = （嘘…… 这也意味着您可以在任何地方登录获取您的书签、密码和其他 { -brand-firefox } 数据。）
+postVerify-sub-description = （嘘…… 这样一来，您还可以在所有已登录的设备上获取书签、密码等 { -brand-firefox } 数据。）
 postVerify-subject-4 = { -brand-mozilla } 欢迎您！
 postVerify-setup-2 = 连接其他设备：
-postVerify-action-2 = 连接另一台设备
+postVerify-action-2 = 连接其他设备
 postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
 # Variables:
@@ -579,7 +579,7 @@ verificationReminderSecond-description-4 = 您几天前创建的 { -product-mozi
 verificationReminderSecond-second-description-3 = 您的 { -product-mozilla-account }可让您跨设备同步 { -brand-firefox } 体验，并解锁访问 { -brand-mozilla } 更多保护隐私的产品。
 verificationReminderSecond-sub-description-2 = 让互联网成为对所有人开放的地方，是我们使命的一部分。
 verificationReminderSecond-action-2 = 验证账户
-verify-title-3 = 使用 { -brand-mozilla } 打开互联网世界
+verify-title-3 = 携手 { -brand-mozilla } 打开互联网世界
 verify-description-2 = 确认您的账户即可在任何登录的设备中解锁 { -brand-mozilla } 完整体验，现在开始：
 verify-subject = 账户创建完成
 verify-action-2 = 验证账户
@@ -616,7 +616,7 @@ verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 验证您的账户
-verifyShortCode-title-3 = 使用 { -brand-mozilla } 打开互联网世界
+verifyShortCode-title-3 = 携手 { -brand-mozilla } 打开互联网世界
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 确认您的账户后，即可在所有登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：
 verifyShortCode-prompt-3 = 请使用此验证码：
