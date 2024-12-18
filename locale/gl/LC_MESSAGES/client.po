@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-05-03 19:04+0000\n"
-"Last-Translator: proba.educator226 <proba.educator226@passinbox.com>\n"
+"PO-Revision-Date: 2024-12-18 21:06+0000\n"
+"Last-Translator: Jesús Amieiro <amieiro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -1627,11 +1627,11 @@ msgstr "Non chega a pestana? Envía un correo electrónico no seu lugar"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Crea un contrasinal para continuar con Firefox Sync. Os teus datos están cifrados co teu contrasinal para protexer a túa privacidade."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Crear contrasinal"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1651,11 +1651,11 @@ msgstr "Quizais máis tarde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Introduce o código de confirmación"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Introduce o código de confirmación que se enviou a %(escapedEmail)s nun prazo de 5 minutos."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1677,6 +1677,8 @@ msgstr "para continuar a %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Detectamos un comportamento sospeitoso na túa conta de Mozilla. Para protexer a túa conta, crea un novo contrasinal. Usarás este contrasinal para iniciar sesión de novo en todos os servizos da túa "
+"conta de Mozilla."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1716,19 +1718,19 @@ msgstr "Subscribir %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Faltaban caracteres na ligazón na que fixeches clic e é posible que o teu cliente de correo electrónico o rompera."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Crea unha conta de Mozilla"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Continuar a %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Enter a password"
-msgstr ""
+msgstr "Introduce un contrasinal"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
@@ -1816,7 +1818,7 @@ msgstr "<span class=\"number\">4</span>Inicie sesión"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Por que teño que crear esta conta? <a %(escapedSuggestionAttrs)s>Descúbreo aquí</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
