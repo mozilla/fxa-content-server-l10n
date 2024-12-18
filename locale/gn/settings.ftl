@@ -283,11 +283,16 @@ lightbulb-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua ñemoñe’ẽ moheñoimby ñembyatyha rendarã.
 email-code-image-aria-label =
     .aria-label = Ta’ãnga ehechaukakuaa hag̃ua ñanduti veve ijayvúva.
+recovery-phone-image-description =
+    .aria-label = Pumbyrýpe og̃uahẽva ayvu ñe’ẽmondo jehaíva rehegua.
+recovery-phone-code-image-description =
+    .aria-label = Ayvu og̃uahẽva pumbyry popeguápe.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Emoñepyrũma tembiapo { -brand-firefox }-pe.
 inline-recovery-key-setup-create-header = Emo’ã ne mba’ete
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = ¿Ereko peteĩ aravo emo’ã hag̃ua ne mba’ekuaarã?
@@ -947,8 +952,9 @@ security-recent-activity-link = Ejecha mba’ete rembiapo ramoguavéva
 signout-sync-header = Jeikerã opámava
 signout-sync-session-expired = Oĩ ndoikoporãiva. Emboty tembiapo kundahára poravorãme ha ag̃amieve eha’ã jey.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Ayvu ñemoneĩrã jeykekoha
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ndaipóri mba’eñemi porupyrã
@@ -960,6 +966,11 @@ tfa-row-backup-codes-get-new-cta = Ereko mba’eñemi pyahu
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Mbojuaju
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Pumbyry guerujeyrã jeykekoha
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Ndaipóri pumbyry papapy guerujeyrã eiporukuaáva
 
 ## Switch component
 
