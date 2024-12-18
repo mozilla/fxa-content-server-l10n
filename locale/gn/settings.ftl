@@ -971,6 +971,14 @@ tfa-row-backup-codes-add-cta = Mbojuaju
 tfa-row-backup-phone-title = Pumbyry guerujeyrã jeykekoha
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Ndaipóri pumbyry papapy guerujeyrã eiporukuaáva
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Moambue
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Mbojuaju
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Mboguete
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Eipe’a pumbyry guerujeyrã jeykekoha
 
 ## Switch component
 
@@ -1113,11 +1121,13 @@ auth-error-114-generic = Eiporuse heta jeýma. Ikatúpiko eha’ãjey ag̃amieve
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Eiporuse heta jeýma. Eha’ãjey { $retryAfter }-pe.
+auth-error-125 = Ojejokóma ko mba’ejerure tekorosãrãve
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
+auth-error-206 = Neremoheñoikuaái ñe’ẽñemi, pe ñe’ẽñemi ipyendáma
 auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
@@ -1127,6 +1137,7 @@ auth-error-1010 = Eikotevẽ ñe’ẽñemi oikóva
 auth-error-1011 = Eikotevẽ ñanduti veve oikóva
 auth-error-1031 = Emoinge nde arytee eñemboheraguapývo
 auth-error-1032 = Emoinge nde arytee eñemboheraguapývo
+auth-error-1054 = Pe ayvu ñemoneĩ mokõi jeku’épe ndoikói
 auth-error-1062 = Ñemondojey ndoikói
 oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ãjey.
 
@@ -1586,6 +1597,8 @@ signin-token-code-resend-error = Oiko apañuái. Noñemondokuaái mba’eñemi i
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Eñemboheraguapy
+signin-totp-code-subheader-v2 = Ehai mba’eñemi ñemoneĩrã mokõi jeku’épe
 signin-totp-code-input-label-v4 = Emoinge mba’eñemi 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
