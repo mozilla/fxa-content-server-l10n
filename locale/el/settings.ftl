@@ -959,6 +959,7 @@ signout-sync-session-expired = Δυστυχώς, κάτι πήγε στραβά.
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Εφεδρικοί κωδικοί ταυτοποίησης
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Λήψη νέων κωδικών
 # Shown to users who have no backup authentication codes
