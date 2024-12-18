@@ -990,6 +990,10 @@ tfa-row-backup-phone-delete-title = Ta bort återställningtelefon för säkerhe
 tfa-row-backup-phone-delete-restriction = Om du vill ta bort din återställningstelefon för säkerhetskopiering, lägg till reservautentiseringskoder eller inaktivera tvåstegsautentisering först för att undvika att bli utelåst från ditt konto.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Det här är den enklare återställningsmetoden om du inte kan använda din autentiseringsapp.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Lär dig mer om SIM-bytesattack
 
 ## Switch component
 
