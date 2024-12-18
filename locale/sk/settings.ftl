@@ -968,6 +968,14 @@ tfa-row-backup-codes-get-new-cta = Získajte nové kódy
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Pridať
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Toto je najbezpečnejšia metóda obnovy, ak nemôžete použiť svoje mobilné zariadenie alebo aplikáciu na overovanie.
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Zmeniť
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Pridať
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Odstrániť
 
 ## Switch component
 
@@ -1606,6 +1614,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } sa vás po prih
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Prihlásiť sa
 signin-totp-code-subheader-v2 = Zadajte kód pre dvojstupňové overenie
 signin-totp-code-instruction-v4 = Skontrolujte svoju <strong>overovaciu aplikáciu</strong> a potvrďte svoje prihlásenie.
 signin-totp-code-input-label-v4 = Zadajte šesťmiestny kód
