@@ -954,8 +954,9 @@ security-recent-activity-link = Zobraziť nedávnu aktivitu účtu
 signout-sync-header = Relácia vypršala
 signout-sync-session-expired = Prepáčte, niečo sa pokazilo. Odhláste sa v ponuke prehliadača a skúste to znova.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Záložné overovacie kódy
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nie sú k dispozícii žiadne kódy
@@ -967,8 +968,6 @@ tfa-row-backup-codes-get-new-cta = Získajte nové kódy
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Pridať
-# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Toto je najbezpečnejšia metóda obnovy, ak nemáte prístup k svojmu mobilnému zariadeniu alebo overovacej aplikácii.
 
 ## Switch component
 
