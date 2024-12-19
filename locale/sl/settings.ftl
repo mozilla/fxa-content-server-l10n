@@ -314,6 +314,12 @@ input-password-show-aria-2 = Vaše geslo je trenutno skrito.
 input-password-sr-only-now-visible = Vaše geslo je zdaj vidno na zaslonu.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Vaše geslo je zdaj skrito.
+
+## Phone number component
+
+input-phone-number-enter-number = Vnesite telefonsko številko
+input-phone-number-country-united-states = Združene države Amerike
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Nazaj
 
