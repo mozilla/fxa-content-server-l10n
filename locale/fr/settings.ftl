@@ -314,6 +314,12 @@ input-password-show-aria-2 = Votre mot de passe est actuellement masqué.
 input-password-sr-only-now-visible = Votre mot de passe est désormais visible à l’écran.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Votre mot de passe est maintenant masqué.
+
+## Phone number component
+
+input-phone-number-enter-number = Saisissez le numéro de téléphone
+input-phone-number-country-united-states = États-Unis
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Retour
 
