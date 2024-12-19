@@ -314,6 +314,12 @@ input-password-show-aria-2 = La password è attualmente nascosta.
 input-password-sr-only-now-visible = La password è ora visibile sullo schermo.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = La password è ora nascosta.
+
+## Phone number component
+
+input-phone-number-enter-number = Inserire il numero di telefono
+input-phone-number-country-united-states = Stati Uniti
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Indietro
 
