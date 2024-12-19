@@ -949,8 +949,9 @@ security-recent-activity-link = Ver a atividade recente da conta
 signout-sync-header = Sessão expirada
 signout-sync-session-expired = Desculpe, algo correu mal. Por favor, termine a sessão no menu do navegador e tente novamente.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Códigos de autenticação de recuperação
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Não existem códigos disponíveis
@@ -963,7 +964,27 @@ tfa-row-backup-codes-get-new-cta = Obter novos códigos
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Adicionar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Este é o método de recuperação mais seguro se não conseguir aceder ao seu dispositivo móvel ou à aplicação de autenticação.
+tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seguro se não puder utilizar o seu dispositivo móvel ou a aplicação de autenticação.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Telefone de recuperação de cópia de segurança
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Não existe um número de telefone de recuperação disponível
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Alterar
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Adicionar
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Remover
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Remover telefone de recuperação de cópia de segurança
+tfa-row-backup-phone-delete-restriction = Se quiser remover o seu telefone de recuperação de recuperação, adicione códigos de autenticação de recuperação ou desative primeiro a autenticação de dois passos para evitar que fique sem acesso à sua conta.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Este é o método de recuperação mais fácil se não puder utilizar a sua aplicação de autenticação.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Saber mais sobre o risco de troca de SIM
 
 ## Switch component
 
@@ -1123,6 +1144,7 @@ auth-error-1010 = Palavra-passe válida necessária
 auth-error-1011 = É necessário um e-mail válido
 auth-error-1031 = Deve inserir a sua idade para se registar
 auth-error-1032 = Deve inserir uma idade válida para se registar
+auth-error-1054 = Código de autenticação de dois fatores inválido
 auth-error-1062 = Redirecionamento inválido
 oauth-error-1000 = Ocorreu um erro. Feche este separador e tente novamente.
 
@@ -1603,6 +1625,7 @@ signin-token-code-instruction-desktop-relay = O { -brand-firefox } vai tentar re
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Iniciar sessão
 signin-totp-code-subheader-v2 = Inserir código de autenticação de dois passos
 signin-totp-code-instruction-v4 = Consulte a sua <strong>aplicação de autenticação</strong> para confirmar o seu início de sessão.
 signin-totp-code-input-label-v4 = Inserir código de 6 dígitos
