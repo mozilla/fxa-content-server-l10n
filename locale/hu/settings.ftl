@@ -314,6 +314,12 @@ input-password-show-aria-2 = A jelszava jelenleg rejtett.
 input-password-sr-only-now-visible = A jelszava most már látható a képernyőn.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = A jelszava most már rejtett.
+
+## Phone number component
+
+input-phone-number-enter-number = Adja meg a telefonszámot
+input-phone-number-country-united-states = Egyesült Államok
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Vissza
 
