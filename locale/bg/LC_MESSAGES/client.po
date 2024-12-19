@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-08 14:52+0000\n"
+"PO-Revision-Date: 2024-12-19 14:36+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -533,7 +533,7 @@ msgstr "Тази крайна точка вече не се поддържа"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Завършете настройката на профила <a href=\"/reset_password\">нулирайте паролата</a>, за да продължите."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -1316,7 +1316,7 @@ msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
-msgstr ""
+msgstr "Напред към профила"
 
 #: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"

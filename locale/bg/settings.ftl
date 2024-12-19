@@ -90,6 +90,7 @@
 
 ## Ready component
 
+ready-continue = Продължаване
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -166,6 +167,8 @@ flow-container-back = Назад
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Напред без изтегляне
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -228,6 +231,7 @@ avatar-page-add-photo-button =
 
 delete-account-step-1-2 = Стъпка 1 от 2
 delete-account-step-2-2 = Стъпка 2 от 2
+delete-account-continue-button = Продължаване
 
 ##
 
@@ -275,6 +279,7 @@ delete-account-link = Изтриване на профил
 
 tfa-step-1-3 = Стъпка 1 от 3
 tfa-step-2-3 = Стъпка 2 от 3
+tfa-button-continue = Продължаване
 tfa-button-finish = Край
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
@@ -299,7 +304,7 @@ profile-display-name =
 ## Security section of Setting
 
 
-## Settings sub row
+## SubRow component
 
 
 ## Switch component
@@ -334,6 +339,8 @@ tfa-row-action-add = Добавяне
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+continue-with-google-button = Напред с { -brand-google }
+continue-with-apple-button = Напред с { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -343,6 +350,7 @@ tfa-row-action-add = Добавяне
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Твърде много опити. Опитайте отново { $retryAfter }.
+auth-error-1002 = Сесията е изтекла. Впишете се, за да продължите.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -365,6 +373,8 @@ auth-error-114 = Твърде много опити. Опитайте отнов
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Продължаване
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

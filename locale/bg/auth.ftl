@@ -108,10 +108,7 @@ passwordChanged-subject = Променена парола
 passwordChanged-title = Паролата е успешно променена
 passwordChangeRequired-subject = Открита подозрителна дейност
 passwordChangeRequired-title = Необходима е промяна на паролата
-passwordReset-subject = Променена парола
-passwordReset-title = Паролата за профила е сменена
 passwordResetAccountRecovery-subject-2 = Паролата ви е нулирана
-passwordResetAccountRecovery-title-2 = Паролата е нулирана
 postAddAccountRecovery-action = Управление на профила
 postAddLinkedAccount-action = Управление на профила
 postAddTwoStepAuthentication-action = Управление на профила
@@ -161,6 +158,9 @@ subscriptionCancellation-title = Съжаляваме, че си тръгват�
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Услугата ще продължи до края на текущия период на фактуриране, който е { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Превключихте към { $productName }
