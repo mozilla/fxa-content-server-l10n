@@ -975,6 +975,8 @@ tfa-row-backup-phone-delete-button = 移除
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = 移除备用恢复电话号码
 tfa-row-backup-phone-delete-restriction = 若要移除备用恢复电话号码，请先添加备用验证码或关闭两步验证，以免无法登录账户。
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = 在无法使用身份验证器应用时，这是较简易的恢复方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
