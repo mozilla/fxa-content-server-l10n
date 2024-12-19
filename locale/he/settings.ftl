@@ -298,6 +298,12 @@ input-password-show-aria-2 = הססמה שלך מוסתרת כרגע.
 input-password-sr-only-now-visible = הססמה שלך עכשיו גלויה על המסך.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = הססמה שלך עכשיו מוסתרת.
+
+## Phone number component
+
+input-phone-number-enter-number = נא להכניס מספר טלפון
+input-phone-number-country-united-states = ארצות הברית
+input-phone-number-country-canada = קנדה
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = חזרה
 
