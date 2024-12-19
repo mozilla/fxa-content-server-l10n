@@ -285,7 +285,29 @@ passwordChangeRequired-different-password-plaintext = მნიშვნელ�
 password-forgot-otp-subject = დაგავიწყდათ პაროლი?
 password-forgot-otp-title = დაგავიწყდათ პაროლი?
 password-forgot-otp-request = პაროლის შეცვლის მოთხოვნა მივიღეთ თქვენს { -product-mozilla-account(case: "loc") } აქედან:
+password-forgot-otp-code-2 = თუ თქვენ იყავით, განაგრძეთ გამოგზავნილი დამადასტურებელი კოდით:
+password-forgot-otp-expiry-notice = ვადა ამოეწურება 10 წუთში.
+passwordReset-subject-2 = თქვენი პაროლი აღდგენილია
+passwordReset-title-2 = თქვენი პაროლი აღდგენილია
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = თქვენ აღადგინეთ { -product-mozilla-account(case: "gen") } პაროლი:
 passwordResetAccountRecovery-subject-2 = თქვენი პაროლი აღდგენილია
+passwordResetAccountRecovery-title-3 = თქვენი პაროლი აღდგენილია
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = გამოყენებულია ანგარიშის აღდგენის გასაღები პაროლის { -product-mozilla-account(case: "gen") } აღსადგენად:
+passwordResetAccountRecovery-information = ანგარიშიდან გამოხვალთ ყველა დასინქრონებული მოწყობილობიდან. თქვენთვის შექმნილია აღდგენის ახალი გასაღები გამოყენებულის სანაცვლოდ. შეცვლა შეგიძლიათ ანგარიშის პარამეტრებიდან.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = ანგარიშიდან გამოხვალთ ყველა დასინქრონებული მოწყობილობიდან. თქვენთვის შექმნილია აღდგენის ახალი გასაღები გამოყენებულის სანაცვლოდ. შეცვლა შეგიძლიათ ანგარიშის პარამეტრებიდან:
+passwordResetAccountRecovery-action-4 = ანგარიშის მართვა
+passwordResetWithRecoveryKeyPrompt-subject = თქვენი პაროლი აღდგენილია
+passwordResetWithRecoveryKeyPrompt-title = თქვენი პაროლი აღდგენილია
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = თქვენ აღადგინეთ { -product-mozilla-account(case: "gen") } პაროლი:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = ანგარიშის აღდგენის გასაღების შექმნა
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = ანგარიშის აღდგენის გასაღების შექმნა:
+passwordResetWithRecoveryKeyPrompt-cta-description = ხელახლა მოგიწევთ შესვლა ყველა დასინქრონებული მოწყობილობიდან. მომავლისთვის დაიცავით თქვენი მონაცემები უსაფრთხოდ ანგარიშის აღდგენის გასაღებით. იგი საშუალებას მოგცემთ დაიბრუნოთ თქვენი მონაცემები პაროლის დავიწყების შემთხვევაში.
 postAddAccountRecovery-subject-3 = ანგარიშის აღდგენის ახალი გასაღები შექმნილია
 postAddAccountRecovery-title2 = ანგარიშის აღდგენის ახალი გასაღები შეიქმნა
 # Key here refers to account recovery key

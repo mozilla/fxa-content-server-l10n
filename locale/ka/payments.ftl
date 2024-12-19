@@ -30,14 +30,10 @@ input-error-is-required = { $label } აუცილებელია
 
 ## Component - Header
 
-# TODO: Remove once new branding sticks
-brand-name-firefox-logo = { -brand-name-firefox }-ლოგო
 brand-name-mozilla-logo = { -brand-mozilla }-ლოგო
 
 ## Component - NewUserEmailForm
 
-# TODO: Remove once new branding sticks
-new-user-sign-in-link = უკვე გაქვთ { -brand-name-firefox }-ანგარიში? <a>შედით</a>
 new-user-sign-in-link-2 = უკვე გაქვთ { -product-mozilla-account }? <a>შესვლა</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -365,6 +361,7 @@ coupon-expired = როგორც ჩანს, ფასდაკლები
 card-error = თქვენი გადარიცხვა ვერ სრულდება. გთხოვთ, გადაამოწმოთ საკრედიტო ბარათის მონაცემები და კვლავ სცადოთ.
 country-currency-mismatch = გამოწერის ეს ვალუტა, არაა მოქმედი იმ ქვეყნისთვის, რომელიც თქვენს ანგარიშზეა მიბმული.
 currency-currency-mismatch = სამწუხაროდ, ვერ შეძლებთ ვალუტის შეცვლას.
+location-unsupported = თქვენი ამჟამინდელი მდებარეობა არაა მხარდაჭერილი მომსახურების პირობების შესაბამისად.
 no-subscription-change = ვწუხვართ. თქვენ ვერ შეძლებთ სახელშეკრულებო გეგმის შეცვლას.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = უკვე გამოწერილი გაქვთ, გამოყენებულია { $mobileAppStore }.
@@ -379,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = ხარვეზი, მომხმარებლის ჩატვირთვისას
 product-plan-not-found = გეგმა ვერ მოიძებნა
+product-location-unsupported-error = მდებარეობა მხარდაუჭერელია
 
 ## Hooks - coupons
 
@@ -388,8 +386,6 @@ coupon-success-repeating = თქვენი გეგმა თავისი
 
 ## Routes - Checkout - New user
 
-# TODO - Remove once branding sticks
-new-user-step-1 = 1. შექმენით { -brand-name-firefox }-ანგარიში
 new-user-step-1-2 = 1. შექმენით { -product-mozilla-account }
 new-user-card-title = შეიყვანეთ თქვენი ბარათის ინფორმაცია
 new-user-submit = გამოწერა ახლავე
@@ -456,6 +452,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     გაუქმდეს წვდომა და მონაცემები, მომსახურებასთან
     { $name } თარიღზე { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = გამოყენებულია { $promotion_name } ფასდაკლებისთვის: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -492,8 +500,8 @@ pay-update-manage-btn = მართვა
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = მომდევნო ანგარიშსწორება { $date }
-sub-next-bill-no-tax = მომდევნო ანგარიშსწორების <strong>{ $priceAmount }</strong> თარიღია <strong>{ $date }</strong>
-sub-next-bill-tax = მომდევნო ანგარიშსწორების <strong>{ $priceAmount } + { $taxAmount }</strong> გადასახადით თარიღია  <strong>{ $date }</strong>
+sub-next-bill-no-tax-1 = მომდევნო ანგარიშსწორება { $priceAmount } თარიღისთვის { $date }
+sub-next-bill-tax-1 = მომდევნო ანგარიშსწორება { $priceAmount } + { $taxAmount } თარიღისთვის { $date }
 sub-expires-on = ბოლო ვადაა { $date }
 
 ## Routes - Subscription - PaymentUpdate
