@@ -361,6 +361,7 @@ coupon-expired = Sustapen-kode hori iraungi dela dirudi.
 card-error = Ezin izan da prozesatu zure transakzioa. Egiaztatu kreditu txartelaren informazioa eta saiatu berriro.
 country-currency-mismatch = Harpidetza honen dibisak ez du balio ordainketarekin lotutako herrialderako.
 currency-currency-mismatch = Barkatu. Ezin duzu txanpon/dibisa batetik bestera aldatu.
+location-unsupported = Zure uneko kokapena ez da onartzen gure Zerbitzu-baldintzen arabera.
 no-subscription-change = Barkatu. Ezin duzu zure harpidetza-plana aldatu.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Dagoeneko { $mobileAppStore } bidez harpidetuta zaude.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Arazoa bezeroa kargatzerakoan
 product-plan-not-found = Ez da plana aurkitu
+product-location-unsupported-error = Kokapen ez onartua
 
 ## Hooks - coupons
 
