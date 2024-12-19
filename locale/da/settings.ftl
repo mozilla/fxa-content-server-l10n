@@ -987,6 +987,8 @@ tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Fjern reserve-gendannelses-telefonnummer
 tfa-row-backup-phone-delete-restriction = Hvis du vil fjerne dit reserve-gendannelses-telefonnummer, skal du først tilføje reserve-godkendelseskoder eller deaktiver totrinsgodkendelse for at undgå at blive låst ude af din konto.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Dette er den nemmeste gendannelsesmetode, hvis du ikke kan bruge din godkendelsesapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
