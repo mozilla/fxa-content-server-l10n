@@ -957,8 +957,9 @@ security-recent-activity-link = Se seneste kontoaktivitet
 signout-sync-header = Sessionen er udløbet
 signout-sync-session-expired = Noget gik galt. Log ud via browser-menuen og prøv igen.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Reserve-godkendelseskoder
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen koder tilgængelige
@@ -971,7 +972,25 @@ tfa-row-backup-codes-get-new-cta = Få nye koder
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Tilføj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Dette er den sikreste gendannelsesmetode, hvis du ikke har adgang til din mobile enhed eller godkendelsesapp.
+tfa-row-backup-codes-description-2 = Dette er den sikreste gendannelsesmetode, hvis du ikke kan bruge til din mobile enhed eller godkendelsesapp.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Reserve-gendannelses-telefonnummer
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Intet reserve-gendannelses-telefonnummer tilgængeligt
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Skift
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Tilføj
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Fjern
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Fjern reserve-gendannelses-telefonnummer
+tfa-row-backup-phone-delete-restriction = Hvis du vil fjerne dit reserve-gendannelses-telefonnummer, skal du først tilføje reserve-godkendelseskoder eller deaktiver totrinsgodkendelse for at undgå at blive låst ude af din konto.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Læs mere om SIM-swapping-risiko
 
 ## Switch component
 
@@ -1133,6 +1152,7 @@ auth-error-1010 = Gyldig adgangskode påkrævet
 auth-error-1011 = Gyldig mailadresse påkrævet
 auth-error-1031 = Du skal indtaste din alder for at tilmelde dig
 auth-error-1032 = Du skal indtaste en gyldig alder for at tilmelde dig
+auth-error-1054 = Ugyldig kode til totrinsgodkendelse
 auth-error-1062 = Ugyldig omdirigering
 oauth-error-1000 = Noget gik galt. Luk dette faneblad og prøv igen.
 
@@ -1614,6 +1634,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } vil forsøge at
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Log ind
 signin-totp-code-subheader-v2 = Indtast kode til totrinsgodkendelse
 signin-totp-code-instruction-v4 = Tjek din <strong>godkendelsesapp</strong> for at bekræfte dit login.
 signin-totp-code-input-label-v4 = Indtast 6-cifret kode
