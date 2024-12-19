@@ -350,6 +350,11 @@ input-password-sr-only-now-visible = Your password is now visible on screen.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Your password is now hidden.
 
+## Phone number component
+input-phone-number-enter-number = Enter phone number
+input-phone-number-country-united-states = United States
+input-phone-number-country-canada = Canada
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Back
 
