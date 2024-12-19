@@ -962,8 +962,9 @@ security-recent-activity-link = Resinte accountaktiviteit besjen
 signout-sync-header = Sesje ferrûn
 signout-sync-session-expired = Sorry, der is wat misgien. Meld jo ôf fan it browsermenu út en probearje it opnij.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Reserve-autentikaasjekoaden
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Gjin koaden beskikber
@@ -976,7 +977,27 @@ tfa-row-backup-codes-get-new-cta = Nije koaden krije
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Tafoegje
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Dit is de feilichste werstelmetoade as jo gjin tagong hawwe ta jo mobile apparaat of autentikaasje-app.
+tfa-row-backup-codes-description-2 = Dit is de feilichste werstelmetoade as jo jo mobile apparaat of autentikaasje-app net brûke kinne.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Reserve-wersteltelefoan
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Gjin wersteltelefoannûmer beskikber
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Wizigje
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Tafoegje
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Fuortsmite
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Reserve-wersteltelefoan fuortsmite
+tfa-row-backup-phone-delete-restriction = As jo jo reserve-wersteltelefoan fuortsmite wolle, foegje dan earst reserve-autentikaasjekoaden ta of skeakelje earst twastapsautentikaasje út om foar te kommen dat jo gjin tagong mear hawwe ta jo account.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Dit is de ienfâldigere werstelmetoade as jo jo autentikaasje-app net brûke kinne.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Mear ynfo oer it risiko fan simkaartwikseling
 
 ## Switch component
 
@@ -1138,6 +1159,7 @@ auth-error-1010 = Jildich wachtwurd fereaske
 auth-error-1011 = Jildich e-mailadres fereaske
 auth-error-1031 = Jo moatte jo leeftiid ynfiere om te registrearjen
 auth-error-1032 = Jo moatte in jildige leeftiid ynfiere om te registrearjen
+auth-error-1054 = Unjildige koade foar autentikaasje yn twa stappen
 auth-error-1062 = Unjildige trochferwizing
 oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij.
 
@@ -1618,6 +1640,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } probearret jo w
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Oanmelde
 signin-totp-code-subheader-v2 = Fier twastaps-autentikaasjekoade yn
 signin-totp-code-instruction-v4 = Kontrolearje jo <strong>autentikaasje-app</strong> om jo oanmelding te befêstigjen.
 signin-totp-code-input-label-v4 = Fier 6-siferige koade yn
