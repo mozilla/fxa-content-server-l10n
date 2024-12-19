@@ -314,6 +314,12 @@ input-password-show-aria-2 = Vaše heslo je aktuálně skryté.
 input-password-sr-only-now-visible = Vaše heslo je nyní viditelné na obrazovce.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Vaše heslo je nyní skryté.
+
+## Phone number component
+
+input-phone-number-enter-number = Zadejte telefonní číslo
+input-phone-number-country-united-states = Spojené státy
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Zpět
 
