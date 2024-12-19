@@ -314,6 +314,12 @@ input-password-show-aria-2 = Mae'ch cyfrinair wedi'i guddio ar hyn o bryd.
 input-password-sr-only-now-visible = Mae'ch cyfrinair nawr yn weladwy ar y sgrin.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Mae eich cyfrinair nawr wedi'i guddio.
+
+## Phone number component
+
+input-phone-number-enter-number = Rhowch rif ffôn
+input-phone-number-country-united-states = Yr Unol Daleithiau
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Nôl
 
