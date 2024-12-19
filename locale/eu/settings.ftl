@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Itxi
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Posta birbidalia. Gehitu { $accountsEmail } zure kontaktuetara arazorik gabeko bidalketarako.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
+resend-code-success-banner-heading = Kode berri bat bidali da zure posta elektronikora.
+resend-link-success-banner-heading = Esteka berri bat bidali da zure posta elektronikora.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Gehitu { $accountsEmail } zure kontaktuetara arazorik gabeko bidalketarako.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +99,6 @@ choose-what-to-sync-option-addresses =
     .label = Helbideak
 choose-what-to-sync-option-paymentmethods =
     .label = Ordainketa metodoak
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Ez dago sarrera-ontzian edo spam karpetan? Bidali berriro
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Atzera
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +209,25 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Alerta
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Adi
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Abisua
+authenticator-app-aria-label =
+    .aria-label = Autentifikatzaileen aplikazioa
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Autentifikazio-kodearen babes-kopia gaitua
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Autentifikazio-kodearen babes-kopia desgaitua
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Ordenagailu bat eta telefono mugikor bat eta bihotz hautsi baten irudia bakoitzean
 hearts-verified-image-aria-label =
@@ -251,7 +256,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = { -brand-firefox } saioa hasi duzu
 inline-recovery-key-setup-create-header = Babestu zure kontua
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hartuko minutu bat zure datuak babesteko?
@@ -292,15 +296,6 @@ reset-pwd-link-damaged-message = Klik egin duzun loturak karaktereak falta ditu;
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Jaso lotura berria
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Pasahitza berrezartzeko lotura iraungita
-reset-pwd-link-expired-message = Pasahitza berrezartzeko klik egin duzun lotura iraungita dago.
 
 ## LinkRememberPassword component
 
@@ -900,6 +895,9 @@ security-not-set = Ezarri gabe
 security-action-create = Sortu
 signout-sync-header = Saioa iraungi da
 
+## SubRow component
+
+
 ## Switch component
 
 # Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
@@ -955,22 +953,17 @@ se-secondary-email-none = Bat ere ez
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Bi urratseko autentifikazioa
-tfa-row-disabled-2 = Bi urratseko autentifikazioa desgaituta
 tfa-row-enabled = Gaituta
-tfa-row-not-set = Ezarri gabe
 tfa-row-action-add = Gehitu
 tfa-row-action-disable = Desgaitu
 tfa-row-button-refresh =
     .title = Berritu bi urratseko autentifikazioa
 tfa-row-cannot-refresh = Barkatu, arazoa egon da bi urratseko autentifikazioa berritzean.
-tfa-row-content-explain =
-    Eragotzi beste inor zure kontuan sartzea
-    zuk bakarrik eskura dezakezun kode esklusiboa eskatuz.
 tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
 tfa-row-disable-modal-confirm = Desgaitu
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Bi urratseko autentifikazioa desgaituta
 tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
-tfa-row-change-modal-confirm = Aldatu
-tfa-row-change-modal-explain = Ezingo duzu ekintza hau desegin.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1178,6 +1171,11 @@ pair-supp-allow-cancel-link = Utzi
 
 pair-unsupported-header = Parekatzea aplikazioa erabiliz
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1210,7 +1208,6 @@ confirm-reset-password-otp-different-account-link = Erabili beste kontu bat
 confirm-totp-reset-password-header = Berrezarri pasahitza
 confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
 confirm-totp-reset-password-confirm-button = Berretsi
-confirm-totp-reset-password-input-label = Sartu kodea
 confirm-totp-reset-password-use-different-account = Erabili beste kontu bat
 
 ## ResetPassword start page
@@ -1281,7 +1278,6 @@ signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen bab
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-input-label-v3 = Sartu kodea
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Berretsi
 signin-totp-code-other-account-link = Erabili beste kontu bat
