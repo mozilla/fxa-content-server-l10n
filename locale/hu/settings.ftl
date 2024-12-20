@@ -992,8 +992,8 @@ tfa-row-backup-phone-add-cta = Hozzáadás
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Eltávolítás
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Biztonsági helyreállítási telefonszám eltávolítása
-tfa-row-backup-phone-delete-restriction = Ha el akarja távolítani a tartalék helyreállítási telefonszámát, akkor először adjon hozzá tartalék hitelesítési kódokat vagy kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja a fiókját.
+tfa-row-backup-phone-delete-title = Helyreállítási telefonszám eltávolítása
+tfa-row-backup-phone-delete-restriction = Ha el akarja távolítani a helyreállítási telefonszámát, akkor először adjon hozzá tartalék hitelesítési kódokat vagy kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja magát a fiókjából.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Ez a könnyebb helyreállítási módszer, ha nem tudja használni a hitelesítő alkalmazást.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
