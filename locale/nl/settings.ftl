@@ -314,6 +314,12 @@ input-password-show-aria-2 = Uw wachtwoord is momenteel verborgen.
 input-password-sr-only-now-visible = Uw wachtwoord is nu zichtbaar op het scherm.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Uw wachtwoord is nu verborgen.
+
+## Phone number component
+
+input-phone-number-enter-number = Voer telefoonnummer in
+input-phone-number-country-united-states = Verenigde Staten
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Terug
 
