@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2023-10-13 00:01+0000\n"
-"Last-Translator: seber <seber.tatsoft@gmail.com>\n"
+"PO-Revision-Date: 2024-12-20 09:13+0000\n"
+"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -1962,7 +1962,7 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Җиһазның ялгашуы уңышсыз булды"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
@@ -1970,7 +1970,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "Уңышлы кердегез!"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
@@ -1978,7 +1978,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Мобиль җиһазлар өчен Firefox-ны иңдерегез"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -1990,7 +1990,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Мобиль җиһазымда Firefox урнаштырылган инде"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Start your sync now if you already have Firefox on your mobile device."
@@ -1998,7 +1998,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:15
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Мобиль җиһазымда Firefox юк"
 
 #: .es5/templates/pair/index.mustache:16
 msgid "Download Firefox on your mobile device, then start your sync."
@@ -2074,12 +2074,12 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Firefox-ны хәзер иңдерү"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Абау! Ниндидер хата килеп чыкты."
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Бу табны ябып, зинһар янәдән тырышып карагыз."

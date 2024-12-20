@@ -207,6 +207,9 @@ input-password-hide = Серсүзне яшерү
 input-password-show = Серсүзне күрсәтү
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Серсүзегез хәзер яшерелгән.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Кире
 
@@ -569,6 +572,8 @@ tfa-enter-secret-key = Бу яшерен ачкычны аутентификац
 
 ## Product promotion
 
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Башлап җибәрү
 
 ## Profile section
 
@@ -585,13 +590,41 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Адым { $currentStep }/{ $numberOfSteps }.
 
 ## Security section of Setting
 
 security-heading = Хәвефсезлек
+security-password =
+    .header = Серсүз
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Төзелгән: { $date }
+security-not-set = Көйләнмәгән
+security-action-create = Булдыру
+security-set-password = Синхронлау һәм хисап язмаларының билгеле хәвефсезлек мөмкинлекләрен куллану өчен серсүз куегыз.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Соңгы хисап гамәлләрен карау
+signout-sync-header = Сессиянең вакыты чыкты
+signout-sync-session-expired = Гафу итегез, ниндидер хата килеп чыкты. Браузер менюсыннан чыгып, зинһар янәдән тырышып карагыз.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Резерв аутентификация кодлары
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Өстәү
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Үзгәртү
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Өстәү
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Бетерү
 
 ## Switch component
 
@@ -613,11 +646,19 @@ row-defaults-status = Бернинди дә
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Хисапны коткару ачкычы
 rk-enabled = Кабызылган
 rk-not-set = Көйләнмәгән
 rk-action-create = Булдыру
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Үзгәртү
 rk-action-remove = Бетерү
+rk-key-removed-2 = Хисапны коткару ачкычы бетерелде
 rk-cannot-remove-key = Хисабыгызны коткару ачкычын бетереп булмады.
+rk-refresh-key-1 = Хисапны коткару ачкычын яңарту
+rk-content-explain = Серсүзегезне онытканда, мәгълүматыгызны торгызыгыз.
+rk-cannot-verify-session-4 = Гафу итегез, утырышыгызны раслаганда проблема килеп чыкты
+rk-remove-modal-heading-1 = Хисапны коткару ачкычы бетерелсенме?
 
 ## Secondary email sub-section on main Settings page
 
