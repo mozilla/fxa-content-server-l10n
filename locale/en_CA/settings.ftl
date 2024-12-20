@@ -981,6 +981,19 @@ tfa-row-backup-phone-title = Backup recovery phone
 tfa-row-backup-phone-not-available = No recovery phone number available
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Change
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Add
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Remove
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Remove backup recovery phone
+tfa-row-backup-phone-delete-restriction = If you want to remove your backup recovery phone, add backup authentication codes or disable two-step authentication first to avoid getting locked out of your account.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = This is the easier recovery method if you canʼt use your authenticator app.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Learn about SIM swap risk
 
 ## Switch component
 
@@ -1140,6 +1153,7 @@ auth-error-1010 = Valid password required
 auth-error-1011 = Valid email required
 auth-error-1031 = You must enter your age to sign up
 auth-error-1032 = You must enter a valid age to sign up
+auth-error-1054 = Invalid two-step authentication code
 auth-error-1062 = Invalid redirect
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
@@ -1623,6 +1637,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } will try sendin
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Sign in
 signin-totp-code-subheader-v2 = Enter two-step authentication code
 signin-totp-code-instruction-v4 = Check your <strong>authenticator app</strong> to confirm your sign-in.
 signin-totp-code-input-label-v4 = Enter 6-digit code
