@@ -318,6 +318,8 @@ input-password-sr-only-now-hidden = Ne ñe’ẽñemi ko’ag̃aite oĩ kañyhá
 ## Phone number component
 
 input-phone-number-enter-number = Ehai pumbyry papapy
+input-phone-number-country-united-states = Estados Unidos
+input-phone-number-country-canada = Canadá
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tapykue
 
@@ -446,6 +448,7 @@ password-reset-data-may-not-be-recovered = Ne ñeikundaha mba’ekuaarã ikatu o
 password-reset-previously-signed-in-device-2 = ¿Ereko peteĩ mba’e’oka eñepyrũhaguékuri tembiapo?
 password-reset-data-may-be-saved-locally-2 = Umi mba’ekuaarã ne kundaharagua oñeñongatukuaa mba’e’okápe. Erujey ne ñe’ẽñemi ha eñepyrũ tembiapo upépe erujey ha embojuehe hag̃ua ne mba’ekuaarã.
 password-reset-no-old-device-2 = ¿Eguereko peteĩ mba’e’oka pyahu hákatu ndereikekuaái itujavévape?
+password-reset-encrypted-data-cannot-be-recovered-2 = Rombyasy, mba’ekuaarã ne mohendahapegua ipapapýva { -brand-firefox } mohendahavusu ndaikatúi erujey.
 password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
 password-reset-warning-use-key-link = Eiporu egueru jey hag̃ua ne ñe’ẽñemi ha ani ogue ne mba’ekuaarã
 
@@ -1571,6 +1574,10 @@ signin-recovery-code-back-link = Tapykue
 signin-recovery-code-support-link = ¿Rejejokóma?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Ayvu ñemoneĩrã jeykekoha jerurepyre
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1596,6 +1603,10 @@ signin-token-code-resend-code-link = Emondo ayvu pyahu.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 signin-token-code-resend-error = Oiko apañuái. Noñemondokuaái mba’eñemi ipyahúva.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
