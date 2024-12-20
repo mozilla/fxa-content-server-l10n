@@ -314,6 +314,12 @@ input-password-show-aria-2 = Mật khẩu của bạn hiện đang bị ẩn.
 input-password-sr-only-now-visible = Mật khẩu của bạn bây giờ được hiển thị trên màn hình.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Mật khẩu của bạn bây giờ đã bị ẩn.
+
+## Phone number component
+
+input-phone-number-enter-number = Nhập số điện thoại
+input-phone-number-country-united-states = Hoa Kỳ
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Quay lại
 
