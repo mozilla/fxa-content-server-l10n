@@ -981,6 +981,13 @@ tfa-row-backup-codes-get-new-cta = Retschaiver novs codes
 tfa-row-backup-codes-add-cta = Agiuntar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Quai è la metoda da recuperaziun la pli segira sche ti na pos betg utilisar tes apparat mobil u a l’app d’autentificaziun.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Numer da telefon da recuperaziun da backup
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Nagin numer da telefon da recuperaziun disponibel
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Modifitgar
 
 ## Switch component
 
