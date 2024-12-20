@@ -986,7 +986,7 @@ tfa-row-backup-phone-add-cta = Aggiungi
 tfa-row-backup-phone-delete-button = Rimuovi
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Rimuovi numero di telefono
-tfa-row-backup-phone-delete-restriction = Se desideri rimuovere il numero di telefono per il recupero dell’account, aggiungi prima i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
+tfa-row-backup-phone-delete-restriction = Se desideri rimuovere il numero di telefono come metodo di riserva per il recupero dell’account, aggiungi prima i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Questo è il metodo di recupero più semplice se non puoi utilizzare l’app di autenticazione.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
