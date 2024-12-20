@@ -972,7 +972,7 @@ tfa-row-backup-codes-get-new-cta = Ottieni nuovi codici
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Aggiungi
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = Questo è il metodo di recupero più sicuro se non riesci a utilizzare il tuo dispositivo mobile o l’app di autenticazione.
+tfa-row-backup-codes-description-2 = Questo è il metodo di recupero più sicuro se non puoi utilizzare il tuo dispositivo mobile o l’app di autenticazione.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title = Backup del telefono di recupero
@@ -992,7 +992,7 @@ tfa-row-backup-phone-description = Questo è il metodo di recupero più semplice
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
-tfa-row-backup-phone-sim-swap-risk-link = Ulteriori informazioni sul rischio di swap SIM
+tfa-row-backup-phone-sim-swap-risk-link = Ulteriori informazioni sul rischio legato allo scambio di SIM (SIM swap)
 
 ## Switch component
 
