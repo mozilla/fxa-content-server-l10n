@@ -314,6 +314,11 @@ input-password-show-aria-2 = Sua senha está oculta.
 input-password-sr-only-now-visible = Agora sua senha está visível na tela.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Agora sua senha está oculta.
+
+## Phone number component
+
+input-phone-number-country-united-states = Estados Unidos
+input-phone-number-country-canada = Canadá
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Voltar
 
@@ -943,8 +948,9 @@ security-recent-activity-link = Ver atividade recente da conta
 signout-sync-header = Sessão expirada
 signout-sync-session-expired = Desculpe, algo deu errado. Saia da sua conta no menu do navegador e tente novamente.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Códigos de autenticação de backup
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nenhum código disponível
@@ -957,7 +963,13 @@ tfa-row-backup-codes-get-new-cta = Obter novos códigos
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Adicionar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Este é o método de recuperação mais seguro se você não conseguir acessar seu dispositivo móvel ou aplicativo de autenticação.
+tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seguro se você não puder usar seu dispositivo móvel ou aplicativo de autenticação.
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Alterar
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Adicionar
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Remover
 
 ## Switch component
 
@@ -1109,6 +1121,7 @@ auth-error-1010 = É necessário uma senha válida
 auth-error-1011 = É necessário um email válido
 auth-error-1031 = É necessário informar sua idade para se cadastrar
 auth-error-1032 = É necessário informar uma idade válida para se cadastrar
+auth-error-1054 = Código de autenticação em duas etapas inválido
 auth-error-1062 = Redirecionamento inválido
 oauth-error-1000 = Algo deu errado. Feche esta aba e tente novamente.
 
@@ -1587,6 +1600,7 @@ signin-token-code-instruction-desktop-relay = O { -brand-firefox } irá tentar r
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Entrar
 signin-totp-code-subheader-v2 = Insira o código de autenticação em duas etapas
 signin-totp-code-instruction-v4 = Use um <strong>aplicativo de autenticação</strong> para confirmar seu acesso.
 signin-totp-code-input-label-v4 = Insira o código de 6 dígitos
