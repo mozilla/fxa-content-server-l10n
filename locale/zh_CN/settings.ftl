@@ -314,6 +314,12 @@ input-password-show-aria-2 = 您的密码目前被隐藏。
 input-password-sr-only-now-visible = 您的密码现在会显示在屏幕上。
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = 您的密码现在会被隐藏。
+
+## Phone number component
+
+input-phone-number-enter-number = 请输入电话号码
+input-phone-number-country-united-states = 美国
+input-phone-number-country-canada = 加拿大
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 后退
 
