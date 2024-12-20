@@ -975,7 +975,7 @@ tfa-row-backup-codes-add-cta = Aggiungi
 tfa-row-backup-codes-description-2 = Questo è il metodo di recupero più sicuro se non puoi utilizzare il tuo dispositivo mobile o l’app di autenticazione.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Numero di telefono di riserva per il recupero dell’account
+tfa-row-backup-phone-title = Numero di telefono per il recupero dell’account
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Nessun numero di telefono disponibile per il recupero
 # button to change the configured backup recovery phone
