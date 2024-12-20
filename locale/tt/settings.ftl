@@ -659,6 +659,10 @@ rk-refresh-key-1 = Хисапны коткару ачкычын яңарту
 rk-content-explain = Серсүзегезне онытканда, мәгълүматыгызны торгызыгыз.
 rk-cannot-verify-session-4 = Гафу итегез, утырышыгызны раслаганда проблема килеп чыкты
 rk-remove-modal-heading-1 = Хисапны коткару ачкычы бетерелсенме?
+rk-remove-modal-content-1 = Серсүзегезне алыштырган очракта, мәгълүматыгызга ирешү өчен хисапны коткару ачкычын кулланып булмаячак. Бу гамәлне кире алып булмый.
+rk-remove-error-2 = Хисабыгызны коткару ачкычын бетереп булмады
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Хисапны коткару ачкычын бетерү
 
 ## Secondary email sub-section on main Settings page
 
@@ -683,6 +687,7 @@ se-secondary-email-none = Бернинди дә
 
 tfa-row-header = Ике адымлы аутентификация
 tfa-row-enabled = Кабызылган
+tfa-row-disabled-status = Cүндерелгән
 tfa-row-action-add = Өстәү
 tfa-row-action-disable = Cүндерү
 tfa-row-button-refresh =
@@ -775,6 +780,10 @@ connect-another-device-android-complete-setup-message = Көйләүне тәм�
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Янәдән тырышып карау
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Күбрәк белү
 
 ## Index / home page
 
@@ -786,10 +795,18 @@ connect-another-device-android-complete-setup-message = Көйләүне тәм�
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+inline-recovery-2fa-enabled = Ике адымлы аутентификация кабызылды
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Урнаштырудан баш тарту
+inline-totp-setup-continue-button = Дәвам итү
+inline-totp-setup-ready-button = Әзер
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Аутентификация коды
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Аутентификация коды таләп ителә
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
