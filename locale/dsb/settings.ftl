@@ -314,6 +314,12 @@ input-password-show-aria-2 = Wašo gronidło jo tuchylu schowane.
 input-password-sr-only-now-visible = Wašo gronidło jo něnto na wobrazowce widobne.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Wašo gronidło jo něnto schowane.
+
+## Phone number component
+
+input-phone-number-enter-number = Zapódajśo telefonowy numer
+input-phone-number-country-united-states = Zjadnośone staty
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Slědk
 
