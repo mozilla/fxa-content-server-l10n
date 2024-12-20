@@ -314,6 +314,9 @@ input-password-show-aria-2 = Tes pled-clav è actualmain zuppentà.
 input-password-sr-only-now-visible = Tes pled-clav è ussa visibel sin il visur.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Tes pled-clav è ussa zuppentà.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Enavos
 
@@ -962,8 +965,9 @@ security-recent-activity-link = Mussar las activitads recentas dal conto
 signout-sync-header = Sesida scadida
 signout-sync-session-expired = Perstgisa, insatge n’ha betg funcziunà. Sorta p.pl. via il menu dal navigatur ed emprova anc ina giada.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Codes d’autentificaziun da backup
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nagins codes disponibels
@@ -976,7 +980,7 @@ tfa-row-backup-codes-get-new-cta = Retschaiver novs codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Agiuntar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Quai è la metoda da recuperaziun la pli segira sche ti na pos betg acceder a tes apparat mobil u a l’app d’autentificaziun.
+tfa-row-backup-codes-description-2 = Quai è la metoda da recuperaziun la pli segira sche ti na pos betg utilisar tes apparat mobil u a l’app d’autentificaziun.
 
 ## Switch component
 
