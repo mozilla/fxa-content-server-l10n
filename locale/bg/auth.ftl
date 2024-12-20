@@ -14,10 +14,24 @@ fxa-privacy-url = Политика за личните данни на { -brand-
 moz-accounts-privacy-url-2 = Поверителност на { -product-mozilla-accounts(capitalization: "uppercase") }
 moz-accounts-terms-url = Условия за ползване на { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип на { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Лого на { -brand-mozilla }">
 subplat-automated-email = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 subplat-privacy-notice = Политика за личните данни
 subplat-privacy-plaintext = Политика за лични данни:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Получавате това писмо, защото { $email } е регистриран във { -product-mozilla-account } и имате профил в/ъв { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Получавате това писмо, защото { $email } е регистриран във { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Получавате това писмо, защото { $email } е регистриран във { -product-mozilla-account } и имате абонамент за няколко продукта.
+subplat-explainer-was-deleted-2 = Получавате това писмо, защото { $email } е регистриран във { -product-mozilla-account }.
+subplat-manage-account-2 = Управлявайте настройките на { -product-mozilla-account }, като посетите <a data-l10n-name="subplat-account-page">профила си</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Управлявайте настройките на { -product-mozilla-account }, като посетите профила си: { $accountSettingsUrl }
 subplat-terms-policy = Условия и политика за анулиране
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Прекратяване на абонамент
@@ -26,8 +40,10 @@ subplat-reactivate = Подновяване на абонамент
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Обновяване на платежна информация
 subplat-privacy-policy = Политика за личните данни на { -brand-mozilla }
+subplat-privacy-policy-2 = Поверителност на { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = Условия за ползване на { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Правна информация
 subplat-legal-plaintext = { subplat-legal }:
@@ -42,6 +58,15 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Изтеглете {
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-desktop-device-2 = Инсталирайте { $productName } на <a data-l10n-name="anotherDeviceLink">друго настолно устройство</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Инсталирайте { $productName } на <a data-l10n-name="anotherDeviceLink">друго устройство</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Изтеглете { $productName } от Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Изтеглете { $productName } от App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Инсталирайте { $productName } на друго устройство:
