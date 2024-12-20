@@ -1614,6 +1614,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } orahaukajeýta 
 
 signin-totp-code-header = Eñemboheraguapy
 signin-totp-code-subheader-v2 = Ehai mba’eñemi ñemoneĩrã mokõi jeku’épe
+signin-totp-code-instruction-v4 = Ehechajey ne <strong>rembiporu’i ñemoneĩrã</strong> emoneĩ hag̃ua nde jeike.
 signin-totp-code-input-label-v4 = Emoinge mba’eñemi 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
@@ -1621,6 +1622,10 @@ signin-totp-code-other-account-link = Eiporu ambuéva mba’ete
 signin-totp-code-recovery-code-link = ¿Apañuái emoinge hag̃ua ayvu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1636,6 +1641,10 @@ signin-unblock-code-incorrect-length = Pe ayvu ñemoneĩrã orekova’erã mich�
 signin-unblock-code-incorrect-format-2 = Pe ayvu ñemoneĩrã orekova’erã tai ha/térã papapy
 signin-unblock-resend-code-button = ¿Ndaipóri ñe’ẽmondo g̃uahẽhápe térã spam marandurendápe? Emondojey
 signin-unblock-support-link = ¿Mba’ére oiko ko’ãva?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1660,6 +1669,10 @@ confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
 confirm-signup-code-success-alert = Mba’ete oñemoneĩva apañuai’ỹre
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
