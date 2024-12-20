@@ -317,7 +317,7 @@ input-password-sr-only-now-hidden = Votre mot de passe est maintenant masqué.
 
 ## Phone number component
 
-input-phone-number-enter-number = Saisissez le numéro de téléphone
+input-phone-number-enter-number = Saisissez un numéro de téléphone
 input-phone-number-country-united-states = États-Unis
 input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
@@ -1085,7 +1085,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = Un problème est survenu lors de l’actualisation de l’authentification en deux étapes.
 tfa-row-enabled-description = Votre compte est protégé par une authentification en deux étapes. Vous devrez saisir un code d’accès à usage unique provenant de votre application d’authentification lorsque vous vous connecterez à votre { -product-mozilla-account }.
 # <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Aidez-nous à sécuriser votre compte en utilisant une <linkExternal>application d’authentification tierce</linkExternal> dans un deuxième temps pour vous connecter.
+tfa-row-disabled-description = Aidez-nous à sécuriser votre compte en utilisant une <linkExternal>application d’authentification tierce</linkExternal> en tant que deuxième facteur pour vous connecter.
 tfa-row-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
 tfa-row-disable-modal-heading = Désactiver l’authentification en deux étapes ?
 tfa-row-disable-modal-confirm = Désactiver
