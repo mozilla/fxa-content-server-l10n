@@ -1,5 +1,6 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = Влизате във { -product-mozilla-account }?
 session-verify-send-push-body-2 = Щракнете тук, за да потвърдите, че сте вие
 
 ## Email content
@@ -10,6 +11,8 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронизирани устройства">
 body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика за личните данни на { -brand-mozilla }
+moz-accounts-privacy-url-2 = Поверителност на { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-terms-url = Условия за ползване на { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип на { -brand-mozilla }">
 subplat-automated-email = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 subplat-privacy-notice = Политика за личните данни
