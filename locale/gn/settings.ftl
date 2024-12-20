@@ -314,6 +314,10 @@ input-password-show-aria-2 = Ne ñe’ẽñemi ko’ag̃aite oĩ kañyhápe.
 input-password-sr-only-now-visible = Ne ñe’ẽñemi ojekuaa mba’erechahápe.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Ne ñe’ẽñemi ko’ag̃aite oĩ kañyhápe.
+
+## Phone number component
+
+input-phone-number-enter-number = Ehai pumbyry papapy
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tapykue
 
