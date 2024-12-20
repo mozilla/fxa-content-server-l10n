@@ -988,6 +988,19 @@ tfa-row-backup-phone-title = Numer da telefon da recuperaziun da backup
 tfa-row-backup-phone-not-available = Nagin numer da telefon da recuperaziun disponibel
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Modifitgar
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Agiuntar
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Allontanar
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Allontanar il numer da telefon da recuperaziun da backup
+tfa-row-backup-phone-delete-restriction = Sche ti vuls allontanar tes numer da telefon da recuperaziun da backup, agiunta l’emprim codes d’autentificaziun da backup u deactivescha l’autentificaziun en dus pass per evitar che ti perdias l’access a tes conto.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Quai è la metoda da recuperaziun pli simpla sche ti na pos betg utilisar tia app d’autentificaziun.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Ulteriuras infurmaziuns davart la ristga da l’enguladitsch da la SIM
 
 ## Switch component
 
@@ -1149,6 +1162,7 @@ auth-error-1010 = In pled-clav valid è necessari
 auth-error-1011 = Adressa dad e-mail valida è obligatorica
 auth-error-1031 = Ti stos inditgar tia vegliadetgna per ta registrar
 auth-error-1032 = Ti stos inditgar ina vegliadetgna valida per ta registrar
+auth-error-1054 = Code d’autentificaziun en dus pass nunvalid
 auth-error-1062 = Renviament nunvalid
 oauth-error-1000 = Insatge n’ha betg funcziunà. Serra p.pl. quest tab ed emprova anc ina giada.
 
@@ -1533,6 +1547,10 @@ signin-header = S'annunziar
 signin-use-a-different-account-link = Utilisar in auter conto
 signin-forgot-password-link = Emblidà il pled-clav?
 signin-password-button-label = Pled-clav
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } vegn ad empruvar da ta renviar danovamain a la pagina per utilisar in alias dad e-mail suenter l’annunzia.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1590,6 +1608,10 @@ signin-recovery-code-back-link = Enavos
 signin-recovery-code-support-link = Es ti sclaus da tes conto?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Code d'autentificaziun da backup necessari
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } vegn ad empruvar da ta renviar danovamain a la pagina per utilisar in alias dad e-mail suenter l’annunzia.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1615,11 +1637,16 @@ signin-token-code-resend-code-link = Trametter in nov code via e-mail.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Code da conferma necessari
 signin-token-code-resend-error = Insatge è ì mal. I n’è betg reussì da trametter in nov code.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } vegn ad empruvar da ta renviar danovamain a la pagina per utilisar in alias dad e-mail suenter l’annunzia.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = S’annunziar
 signin-totp-code-subheader-v2 = Endatescha il code da l’autentificaziun en dus pass
 signin-totp-code-instruction-v4 = Consultescha tia <strong>app d’autentificaziun</strong> per confermar tia annunzia.
 signin-totp-code-input-label-v4 = Endatescha il code da 6 cifras
@@ -1629,6 +1656,10 @@ signin-totp-code-other-account-link = Utilisar in auter conto
 signin-totp-code-recovery-code-link = Difficultads cun endatar il code?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Code d'autentificaziun necessari
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } vegn ad empruvar da ta renviar danovamain a la pagina per utilisar in alias dad e-mail suenter l’annunzia.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1644,6 +1675,10 @@ signin-unblock-code-incorrect-length = Il code d’autorisaziun sto cuntegnair 8
 signin-unblock-code-incorrect-format-2 = Il code d’autorisaziun po mo cuntegnair letras e/u cifras
 signin-unblock-resend-code-button = Betg en la posta entrada u en l’ordinatur da spam? Trametter anc ina giada
 signin-unblock-support-link = Pertge capita quai?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } vegn ad empruvar da ta renviar danovamain a la pagina per utilisar in alias dad e-mail suenter l’annunzia.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1668,6 +1703,10 @@ confirm-signup-code-resend-code-link = Trametter in nov code via e-mail.
 confirm-signup-code-success-alert = Confermà cun success il conto
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Il code da conferma è necessari
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } vegn ad empruvar da ta renviar danovamain a la pagina per utilisar in alias dad e-mail suenter l’annunzia.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
