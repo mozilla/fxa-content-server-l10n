@@ -975,7 +975,7 @@ tfa-row-backup-codes-add-cta = Aggiungi
 tfa-row-backup-codes-description-2 = Questo è il metodo di recupero più sicuro se non puoi utilizzare il tuo dispositivo mobile o l’app di autenticazione.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Backup del telefono di recupero
+tfa-row-backup-phone-title = Numero di telefono di riserva per il recupero dell’account
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Nessun numero di telefono disponibile per il recupero
 # button to change the configured backup recovery phone
@@ -985,8 +985,8 @@ tfa-row-backup-phone-add-cta = Aggiungi
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Rimuovi
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Rimuovi backup del telefono di recupero
-tfa-row-backup-phone-delete-restriction = Se desideri rimuovere il telefono di recupero di backup, aggiungi prima i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
+tfa-row-backup-phone-delete-title = Rimuovi numero di telefono
+tfa-row-backup-phone-delete-restriction = Se desideri rimuovere il numero di telefono per il recupero dell’account, aggiungi prima i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Questo è il metodo di recupero più semplice se non puoi utilizzare l’app di autenticazione.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1584,7 +1584,7 @@ signin-recovery-code-confirm-button = Conferma
 signin-recovery-code-back-link = Indietro
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Sei rimasto chiuso fuori dal tuo account?
+signin-recovery-code-support-link = Sei rimasto bloccato fuori dal tuo account?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = È necessario inserire il codice di autenticazione di backup
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser

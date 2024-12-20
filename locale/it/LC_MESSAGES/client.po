@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-05 21:49+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2024-12-20 07:23+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1442,7 +1442,7 @@ msgstr "Digita il codice di autenticazione di backup composto da 10 cifre"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr "Sei tagliato fuori dal tuo account?"
+msgstr "Sei bloccato fuori dal tuo account?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
