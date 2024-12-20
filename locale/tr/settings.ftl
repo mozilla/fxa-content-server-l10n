@@ -314,6 +314,12 @@ input-password-show-aria-2 = Parolanız şu anda gizli.
 input-password-sr-only-now-visible = Parolanız artık ekranda görülebilir.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Parolanız gizlendi.
+
+## Phone number component
+
+input-phone-number-enter-number = Telefon numarasını yazın
+input-phone-number-country-united-states = Amerika Birleşik Devletleri
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Geri
 
@@ -946,7 +952,7 @@ security-recent-activity-link = Son hesap etkinliklerini görüntüle
 signout-sync-header = Oturumun süresi doldu
 signout-sync-session-expired = Bir şeyler yanlış gitti. Lütfen tarayıcı menüsünden çıkış yapıp yeniden deneyin.
 
-## Settings sub row
+## SubRow component
 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
@@ -959,8 +965,14 @@ tfa-row-backup-codes-get-new-cta = Yeni kod alın
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Ekle
-# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Mobil cihazınıza veya kimlik doğrulama uygulamanıza erişemiyorsanız bu en güvenli kurtarma yöntemidir.
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Değiştir
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Ekle
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Kaldır
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Yedek kurtarma telefonunu kaldır
 
 ## Switch component
 
@@ -1572,6 +1584,7 @@ signin-token-code-resend-error = Bir sorun oluştu. Yeni kod gönderilemedi.
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Giriş yap
 signin-totp-code-subheader-v2 = İki aşamalı kimlik doğrulama kodunuzu yazın
 signin-totp-code-instruction-v4 = Giriş işleminizi onaylamak için <strong>kimlik doğrulama uygulamanızı</strong> kontrol edin.
 signin-totp-code-input-label-v4 = 6 basamaklı kodu yazın

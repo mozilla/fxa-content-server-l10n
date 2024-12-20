@@ -361,6 +361,7 @@ coupon-expired = Promosyon kodunun süresi dolmuş.
 card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
 country-currency-mismatch = Bu aboneliğin para birimi, ödemenizle ilişkili ülke için geçerli değil.
 currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
+location-unsupported = Hizmet Koşullarımız kapsamında şu anki konumunuz desteklenmiyor.
 no-subscription-change = Maalesef abonelik planınızı değiştiremezsiniz.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = { $mobileAppStore } üzerinden zaten abone oldunuz.
