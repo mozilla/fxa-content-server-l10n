@@ -973,7 +973,22 @@ tfa-row-backup-codes-description-2 = ესაა აღდგენის მ�
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title = აღდგენის სამარქაფო ტელეფონი
 # Shown with an alert icon to indicate that no backup recovery phone is configured
-tfa-row-backup-phone-not-available = აღდგენის ტელეფონის ნომერი არაა ხელმისაწვდომი
+tfa-row-backup-phone-not-available = აღდგენის ტელეფონის ნომერი არაა მითითებული
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = შეცვლა
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = დამატება
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = მოცილება
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = აღდგენის სამარქაფო ტელეფონის მოცილება
+tfa-row-backup-phone-delete-restriction = თუ გსურთ ამოშალოთ თქვენი აღდგენის სამარქაფო ტელეფონი, დაამატეთ შესვლის სამარქაფო კოდები ან ჯერ გამორთეთ ორსაფეხურიანი დამოწმება თქვენი ანგარიშის ჩაკეტვის ასარიდებლად.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = ესაა აღდგენის მეტად ადვილი გზა, თუ ვერ იყენებთ თქვენს დამმოწმებელ პროგრამას.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = გაეცანით SIM-ბარათის შენაცვლების საფრთხის შესახებ
 
 ## Switch component
 
@@ -1059,12 +1074,15 @@ se-secondary-email-none = ცარიელი
 
 tfa-row-header = ორბიჯიანი დამოწმება
 tfa-row-enabled = ჩართულია
+tfa-row-disabled-status = გამორთულია
 tfa-row-action-add = დამატება
-tfa-row-action-disable = ამორთვა
+tfa-row-action-disable = გამორთვა
 tfa-row-button-refresh =
     .title = ორბიჯიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
 tfa-row-enabled-description = თქვენი ანგარიში დაცულია ორბიჯიანი დამოწმებით. დაგჭირდებათ ერთჯერადი შესვლის კოდის შეყვანა დამმოწმებელი აპიდან { -product-mozilla-account(case: "loc") } შესვლისას.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = თქვენი ანგარიშის დაცვისთვის დაიხმარეთ <linkExternal>რომელიმე დამმოწმებელი პროგრამა</linkExternal> ორბიჯიანი შესვლისთვის.
 tfa-row-cannot-verify-session-4 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას
 tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
@@ -1114,17 +1132,25 @@ auth-error-114-generic = ზედმეტად ბევრი მცდე�
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
+auth-error-125 = მოთხოვნა უარყოფილია უსაფრთხოების მიზნით
 auth-error-138-2 = დაუმოწმებელი სეანსი
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
 auth-error-155 = TOTP-საშვი ვერ მოიძებნა
 auth-error-159 = ანგარიშის აღდგენის უმართებულო გასაღები
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
+auth-error-206 = პაროლი ვერ შეიქმნება, პაროლი უკვე მითითებულია
 auth-error-999 = მოულოდნელი შეცდომა
+auth-error-1001 = შესვლის მცდელობა აღკვეთილია
 auth-error-1002 = სეანსი ამოიწურა. შედით ანგარიშზე, რომ განაგრძოთ.
 auth-error-1003 = ადგილობრივი საცავი ან ფუნთუშები კვლავ გათიშულია
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
-auth-error-1011 = მართებული ელფოსტის მითითება აუცილებელია
-auth-error-1062 = არამართებული გადამისამართება
+auth-error-1010 = მართებული პაროლია აუცილებელი
+auth-error-1011 = მართებული ელფოსტაა აუცილებელი
+auth-error-1031 = ანგარიშის შესაქმნელად უნდა მიუთითოთ ასაკი
+auth-error-1032 = მართებული ასაკია აუცილებელი ანგარიშის შესაქმნელად
+auth-error-1054 = ორბიჯიანი დამოწმების კოდი არასწორია
+auth-error-1062 = გაუმართავი გადამისამართება
+oauth-error-1000 = რაღაც ხარვეზია. გთხოვთ დახუროთ ჩანართი და სცადოთ ხელახლა.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1173,6 +1199,8 @@ cookies-disabled-learn-more = ვრცლად
 
 ## Index / home page
 
+index-header = შეიყვანეთ თქვენი ელფოსტა
+index-account-info = { -product-mozilla-account } აგრეთვე გზას გიხსნით პირადულობის უზრუნველმყოფ სხვა პროდუქტებისკენაც, რომელთაც ქმნის { -brand-mozilla }.
 
 ## InlineRecoveryKeySetup page component
 
