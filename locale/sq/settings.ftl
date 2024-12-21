@@ -314,6 +314,12 @@ input-password-show-aria-2 = Fjalëkalimi juaj aktualisht është i fshehur.
 input-password-sr-only-now-visible = Fjalëkalimi juaj tani është i dukshëm në ekran.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Fjalëkalimi juaj tani është i fshehur.
+
+## Phone number component
+
+input-phone-number-enter-number = Jepni numër telefoni
+input-phone-number-country-united-states = Shtetet e Bashkuara
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Mbrapsht
 
@@ -954,7 +960,7 @@ security-recent-activity-link = Shihni veprimtari së fundi në llogari
 signout-sync-header = Sesion i Skaduar
 signout-sync-session-expired = Na ndjeni, diç shkoi ters. Ju lutemi, dilni nga llogaria e shfletuesit që nga menuja e tij dhe riprovoni.
 
-## Settings sub row
+## SubRow component
 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
@@ -967,8 +973,12 @@ tfa-row-backup-codes-get-new-cta = Merrni kode të rinj
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Shtoje
-# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Kjo është metoda më e parrezik e rikthimit, nëse s’hyni dot në pajisjen tuaj celulare, apo aplikacionin e mirëfilltësimeve.
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Ndryshoje
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Shtoje
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Hiqe
 
 ## Switch component
 
@@ -1129,6 +1139,7 @@ auth-error-1010 = Lyp fjalëkalim të vlefshëm
 auth-error-1011 = Lypset email i vlefshëm
 auth-error-1031 = Duhet të jepni moshën tuaj që të regjistroheni
 auth-error-1032 = Që të regjistroheni, duhet të jepni një moshë të vlefshme
+auth-error-1054 = Kod i pavlefshëm mirëfilltësimi dyhapësh
 auth-error-1062 = Ridrejtim i pavlefshëm
 oauth-error-1000 = Diç shkoi ters. Ju lutemi, mbylleni këtë skedë dhe riprovoni.
 
@@ -1596,6 +1607,7 @@ signin-token-code-resend-error = Diç shkoi ters. S’u dërgua dot një kod i r
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Hyni
 signin-totp-code-subheader-v2 = Jepni kod mirëfilltësimi dyfaktorësh
 signin-totp-code-instruction-v4 = Shihni te <strong>aplikacioni juaj i mirëfilltësimeve</strong>, për ripohim se është bërë hyrja.
 signin-totp-code-input-label-v4 = Jepni kodin 6-shifror
