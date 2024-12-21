@@ -1200,10 +1200,25 @@ cookies-disabled-learn-more = ვრცლად
 ## Index / home page
 
 index-header = შეიყვანეთ თქვენი ელფოსტა
+index-sync-header = განაგრძეთ თქვენი { -product-mozilla-account(case: "ins") }
+index-sync-subheader = დაასინქრონეთ სანიშნები, ისტორია და პაროლები ყველგან, სადაც გიყენიათ { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = განაგრძეთ და იხილეთ { $serviceName }
+index-subheader-with-logo = განაგრძეთ და იხილეთ <span>{ $serviceLogo }</span>
+index-subheader-default = განაგრძეთ და იხილეთ ანგარიშის პარამეტრები
+index-cta = შედით ან შექმენით ანგარიში
 index-account-info = { -product-mozilla-account } აგრეთვე გზას გიხსნით პირადულობის უზრუნველმყოფ სხვა პროდუქტებისკენაც, რომელთაც ქმნის { -brand-mozilla }.
+index-email-input =
+    .label = შეიყვანეთ თქვენი ელფოსტა
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = უჰ! ანგარიშის აღდგენის გასაღების შექმნა ვერ ხერხდება. მოგვიანებით სცადეთ.
+inline-recovery-key-setup-recovery-created = ანგარიშის აღდგენის გასაღები შექმნილია
+inline-recovery-key-setup-download-header = დაიცავით თქვენი ანგარიში
+inline-recovery-key-setup-download-subheader = ჩამოტვირთეთ და შეინახეთ ახლავე
+inline-recovery-key-setup-download-info = გადაინახეთ ეს გასაღები ადვილად მისაგნებ ადგილას — მოგვიანებით ამ გვერდზე დაბრუნება აღარ შეგეძლებათ.
+inline-recovery-key-setup-hint-header = რჩევები უსაფრთხოებისთვის
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1226,6 +1241,7 @@ inline-recovery-continue-button = გაგრძელება
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = თანხმობა
 inline-recovery-back-link = უკან
+inline-recovery-cancel-setup = გამართვის გაუქმება
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = შესვლის სამარქაფო კოდი
 inline-recovery-confirmation-description = იმის უზრუნველსაყოფად, რომ თქვენ შეძლებთ თქვენს ანგარიშთან წვდომის აღდგენას მოწყობილობის დაკარგვის შემთხვევაში გთხოვთ, შეიყვანოთ შესვლის შენახული სამარქაფო კოდიდან რომელიმე.
@@ -1236,6 +1252,7 @@ inline-recovery-confirmation-header-default = დაადასტურეთ 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = დაადასტურეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
+inline-recovery-2fa-enabled = ორბიჯიანი დამოწმება ჩართულია
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1267,6 +1284,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = წააკითხეთ
 inline-totp-setup-on-completion-description = დასრულების შემდეგ დაიწყება უსაფრთხოების კოდების შედგენა გამოსაყენებლად.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = შესვლის დამოწმების კოდი
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = საჭიროა დამოწმების კოდი
+tfa-qr-code-alt = გამოიყენეთ კოდი { $code } ორბიჯიანი დამოწმების გასამართად მხარდაჭერილ პროგრამებში.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1407,6 +1427,7 @@ complete-reset-password-success-alert = პაროლი დაყენებ
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
+reset-password-complete-banner-message = არ დაგავიწყდეთ ანგარიშის აღდგენის ახალი გასაღებების შედგენა თქვენი { -product-mozilla-account(case: "gen") } პარამეტრებიდან მომავალში შესვლის ხარვეზების ასარიდებლად.
 
 ## Confirm Reset Password With Code
 
