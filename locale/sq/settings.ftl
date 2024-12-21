@@ -962,6 +962,7 @@ signout-sync-session-expired = Na ndjeni, diç shkoi ters. Ju lutemi, dilni nga 
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Kode mirëfilltësimi kopjeruajtjeje
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = S’ka më kode
@@ -1656,6 +1657,10 @@ confirm-signup-code-resend-code-link = Dërgo me email kod të ri.
 confirm-signup-code-success-alert = Llogaria u ripohua me sukses
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Kodi i ripohimit është i domosdoshëm
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
