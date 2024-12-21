@@ -165,6 +165,12 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Игътибар
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Кисәтү
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Канада байрагы
@@ -256,13 +262,18 @@ error-bad-request = Яраксыз сорау
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Кимендә 8 символ
 
 ## Ready component
 
+ready-continue = Дәвам итү
+sign-in-complete-header = Керү расланды
+sign-up-complete-header = Хисап расланды
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-pwd-manager = Серсүз идарәчесе
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
