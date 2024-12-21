@@ -954,6 +954,7 @@ signout-sync-session-expired = Bir şeyler yanlış gitti. Lütfen tarayıcı me
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Yedek kimlik doğrulama kodları
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Hiç kod kalmamış
@@ -965,6 +966,13 @@ tfa-row-backup-codes-get-new-cta = Yeni kod alın
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Ekle
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Mobil cihazınızı veya kimlik doğrulama uygulamanızı kullanamıyorsanız bu en güvenli kurtarma yöntemidir.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Yedek kurtarma telefonu
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Kurtarma telefon numarası yok
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Değiştir
 # button to add/configure a backup recovery phone
@@ -1122,6 +1130,7 @@ auth-error-1010 = Geçerli parola gerekli
 auth-error-1011 = Geçerli bir e-posta gerekiyor
 auth-error-1031 = Kaydolmak için yaşınızı belirtmelisiniz
 auth-error-1032 = Kaydolmak için geçerli bir yaş belirtmelisiniz
+auth-error-1054 = İki aşamalı kimlik doğrulama kodu geçersiz
 auth-error-1062 = Geçersiz yönlendirme
 oauth-error-1000 = Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
