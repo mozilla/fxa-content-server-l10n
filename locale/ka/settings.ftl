@@ -1417,31 +1417,91 @@ third-party-auth-callback-message = გთხოვთ მოითმინო�
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = შეიყვანეთ ანგარიშის აღდგენის გასაღები
+account-recovery-confirm-key-instruction = ეს გასაღები აღადგენს თქვენს დაშიფრულ მონაცემებს, მათ შორის პაროლებსა და სანიშნებს, რომელთაც { -brand-firefox } ინახავს სერვერებზე.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = შეიყვანეთ ანგარიშის აღდგენის 32-სიმბოლოიანი გასაღები
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = თქვენი შესანახის მინიშნებაა:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = გაგრძელება
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = ვერ იპოვეთ ანგარიშის აღდგენის გასაღები?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = შექმენით ახალი პაროლი
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = პაროლი დაყენებულია
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = გამოიყენეთ ანგარიშის აღდგენის გასაღები
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = თქვენი პაროლი აღდგა.
 reset-password-complete-banner-message = არ დაგავიწყდეთ ანგარიშის აღდგენის ახალი გასაღებების შედგენა თქვენი { -product-mozilla-account(case: "gen") } პარამეტრებიდან მომავალში შესვლის ხარვეზების ასარიდებლად.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = შეამოწმეთ თქვენი ელფოსტა
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = გამოგზავნილია დასადასტურებელი კოდი მისამართზე <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = შეიყვანეთ 8-ნიშნა კოდი 10 წუთში
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = გაგრძელება
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = კოდის კვლავ გაგზავნა
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = სხვა ანგარიშის გამოყენება
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = პაროლის განულება
+confirm-totp-reset-password-subheader-v2 = ორბიჯიანი დამოწმების კოდის შეიყვანა
+confirm-totp-reset-password-instruction-v2 = გამოიყენეთ <strong>დამმოწმებელი პროგრამა</strong> პაროლის აღსადგენად.
+confirm-totp-reset-password-trouble-code = ვერ ახერხებთ კოდის შეყვანას?
+confirm-totp-reset-password-confirm-button = დასტური
+confirm-totp-reset-password-input-label-v2 = შეიყვანეთ 6-ნიშნა კოდი
+confirm-totp-reset-password-use-different-account = სხვა ანგარიშის გამოყენება
+confirm-recovery-code-reset-password-input-label = შეიყვანეთ 10-ნიშნა კოდი
+confirm-recovery-code-reset-password-trouble-code = უკან
 
 ## ResetPassword start page
 
+password-reset-flow-heading = პაროლის განულება
+password-reset-body-2 =
+    ჩვენ მოგთხოვთ რამდენიმე რაღაცას, რაც მხოლოდ თქვენ გეცოდინებათ ანგარიშის
+    დასაცავად.
+password-reset-email-input =
+    .label = შეიყვანეთ თქვენი ელფოსტა
+password-reset-submit-button-2 = განაგრძეთ
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = თქვენი პაროლი აღდგა.
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = განაგრძეთ და იხილეთ { $serviceName }
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
+reset-password-complete-new-password-saved = ახალი პაროლი შენახულია!
+reset-password-complete-recovery-key-created = შექმნილია ანგარიშის აღდგენის გასაღები. ჩამოტვირთეთ და შეინახეთ ახლავე
+reset-password-complete-recovery-key-download-info =
+    ეს გასაღები გადამწყვეტია
+    მონაცემთა აღდგენისთვის, თუ დაგავიწყდებათ პაროლი. <b>ჩამოტვირთეთ და შეინახეთ უსაფრთხოდ
+    ახლავე, ვინაიდან მოგვიანებით ვეღარ შეძლებთ ამ გვერდთან წვდომას.</b>
 
 ## CompleteSignin component
 
@@ -1449,8 +1509,11 @@ reset-password-with-recovery-key-verified-page-title = პაროლი აღ
 error-label = შეცდომა:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = მიმდინარეობს შესვლის დამოწმება…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = დადასტურების შეცდომა
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = დასადასტურებელი ბმული ვადაგასულია
+signin-link-expired-message-2 = ბმული, რომელზეც გადახვედით ვადაგასულია ან უკვე გამოყენებულია.
 
 ## Signin page
 
@@ -1467,12 +1530,22 @@ signin-button = შესვლა
 signin-header = შესვლა
 signin-use-a-different-account-link = სხვა ანგარიშის გამოყენება
 signin-forgot-password-link = დაგავიწყდათ პაროლი?
+signin-password-button-label = პაროლი
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა.
+report-signin-header = გსურთ მოგვახსენოთ უნებართვო შესვლის შესახებ?
+report-signin-body = ესაა შეტყობინება თქვენს ანგარიშთან წვდომის მცდელობის შესახებ. საეჭვოდ მიგაჩნიათ და გსურთ მოგვახსენოთ ამის შესახებ?
+report-signin-submit-button = საეჭვო მოქმედების მოხსენება
+report-signin-support-link = რის გამოა ეს?
 signin-bounced-header = ვწუხვართ. თქვენი ანგარიში ჩაკეტილია.
 # $email (string) - The user's email.
 signin-bounced-message = დასადასტურებელი ბმულის { $email } ელფოსტაზე გამოგზავნა ვერ მოხერხდა და თქვენი ანგარიში ჩაიკეტა { -brand-firefox }-მონაცემთა უსაფრთხოებისთვის.
