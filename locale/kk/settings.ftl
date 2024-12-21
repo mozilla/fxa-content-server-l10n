@@ -310,6 +310,12 @@ input-password-show-aria-2 = Сіздің пароліңіз ағымдағы у
 input-password-sr-only-now-visible = Сіздің пароліңіз енді экранда көрініп тұр.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Сіздің пароліңіз енді жасырын болып тұр.
+
+## Phone number component
+
+input-phone-number-enter-number = Телефон нөмірін енгізіңіз
+input-phone-number-country-united-states = АҚШ
+input-phone-number-country-canada = Канада
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Артқа
 
@@ -951,7 +957,7 @@ security-recent-activity-link = Тіркелгінің жуырдағы белс
 signout-sync-header = Сессия уақыты аяқталды
 signout-sync-session-expired = Кешіріңіз, бірдеңе дұрыс болмады. Браузер мәзірінен шығып, әрекетті қайталаңыз.
 
-## Settings sub row
+## SubRow component
 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
