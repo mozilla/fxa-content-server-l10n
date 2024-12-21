@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-21 09:49+0000\n"
+"PO-Revision-Date: 2024-12-21 09:59+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -601,7 +601,7 @@ msgstr "Дөрес эл. почта адресын кертегез. firefox.com
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Mozilla Хисаплары расланган сайтлардагы IFRAME эченә генә урнаштырыла ала"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -701,7 +701,7 @@ msgstr "Рәсем файлы йөкләп булмаслык зур."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "Эл. почта маскаларын хисап булдыру өчен кулланып булмый."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -721,7 +721,7 @@ msgstr "Адресыгызны дөрес язмадыгызмы?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Яңа продуктларны алдан сынау мөмкинлеге"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -729,7 +729,7 @@ msgstr "Mozilla һәм Firefox хакындагы соңгы яңалыклар�
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Интернетны сәламәт сакларга ярдәм итегез"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -737,7 +737,7 @@ msgstr "Интернетта иминлерәк һәм акыллырак бул
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Хосусыйлык һәм хәвефсезлеккә бәйле яңалыклар һәм яңартулар"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
