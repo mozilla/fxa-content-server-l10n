@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-20 09:13+0000\n"
+"PO-Revision-Date: 2024-12-21 09:49+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -70,7 +70,7 @@ msgstr "Firefox'лы башка җиһазларыгызда да яңа пар�
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Сез хәзер Mozilla хисабыгызга үзгәрешләр кертергә әзерсез."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -268,7 +268,7 @@ msgstr "Адреслар"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Түләү ысуллары"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -480,11 +480,11 @@ msgstr "Яраксыз хисапны коткару ачкычы"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Бу сорау эшкәртелсен өчен хисап язмагызда ике адымлы аутентификацияне кабызылган булырга тиеш."
 
 #: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
-msgstr ""
+msgstr "Каршы килүче сорау аркасында уңышсыз, зинһар янәдән тырышып карагыз."
 
 #: .es5/lib/auth-errors.js:258
 msgid "Unknown customer for subscription."
@@ -533,7 +533,7 @@ msgstr "Бу сорау адресы тотылмый инде"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Хисабыгызны урнаштыруны тәмамлагыз, дәвам итү өчен <a href=\"/reset_password\">серсүзегезне алыштырыгыз</a>."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -593,7 +593,7 @@ msgstr "Дөрес URL кирәк"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Сезнең раслау хатыгыз кире кайтты. Адресыгызны дөрес язмадыгызмы?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
