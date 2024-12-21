@@ -138,9 +138,30 @@ form-reset-password-with-balloon-confirm-password =
     .label = ხელმეორედ შეყვანა:
 form-reset-password-with-balloon-submit-button = პაროლის განულება
 form-reset-password-with-balloon-match-error = პაროლები არ ემთხვევა
+form-password-sr-too-short-message = პაროლი არანაკლებ 8 სიმბოლოსგან უნდა შედგებოდეს.
+form-password-sr-not-email-message = პაროლი არ უნდა შეიცავდეს თქვენს ელფოსტას.
+form-password-sr-not-common-message = პაროლი არ ემთხვეოდეს ხშირად გამოყენებულს.
+form-password-sr-requirements-met = შეყვანილი პაროლი აკმაყოფილებს ყველა მოთხოვნას.
+form-password-sr-passwords-match = შეყვანილი პაროლები ემთხვევა.
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = პაროლი
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = გაიმეორეთ პაროლი
+form-password-with-inline-criteria-signup-submit-button = ანგარიშის შექმნა
+form-password-with-inline-criteria-reset-new-password =
+    .label = ახალი პაროლი
+form-password-with-inline-criteria-confirm-password =
+    .label = დაადასტურეთ პაროლი
+form-password-with-inline-criteria-reset-submit-button = შეიყვანეთ ახალი პაროლი
+form-password-with-inline-criteria-match-error = პაროლები არ ემთხვევა
+form-password-with-inline-criteria-sr-too-short-message = პაროლი არანაკლებ 8 სიმბოლოსგან უნდა შედგებოდეს.
+form-password-with-inline-criteria-sr-not-email-message = პაროლი არ უნდა შეიცავდეს თქვენს ელფოსტას.
+form-password-with-inline-criteria-sr-not-common-message = პაროლი არ ემთხვეოდეს ხშირად გამოყენებულს.
+form-password-with-inline-criteria-sr-requirements-met = შეყვანილი პაროლი აკმაყოფილებს ყველა მოთხოვნას.
+form-password-with-inline-criteria-sr-passwords-match = შეყვანილი პაროლები ემთხვევა.
 
 ## FormVerifyCode
 
@@ -150,6 +171,16 @@ form-verify-code-default-error = ველის შევსება აუც
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = შეიყვანეთ { $codeLength }-ნიშნა კოდი, რომ განაგრძოთ
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = შეიყვანეთ { $codeLength }-სიმბოლოიანი კოდი, რომ განაგრძოთ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -169,6 +200,53 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = ცნობა
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = ყურადღება
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = გაფრთხილება
+authenticator-app-aria-label =
+    .aria-label = დამმოწმებელი პროგრამა
+backup-codes-icon-aria-label-v2 =
+    .aria-label = შესვლის სამარქაფო კოდები ამოქმედებულია
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = შესვლის სამარქაფო კოდები გათიშულია
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = აღდგენის SMS ჩართულია
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = აღდგენის SMS გათიშულია
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = კანადის დროშა
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = მონიშვნა
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = შესრულდა
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = ჩართულია
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = შეტყობინების დახურვა
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = კოდი
+error-icon-aria-label =
+    .aria-label = შეცდომა
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = ცნობა
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = შეერთებული შტატების დროშა
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -204,6 +282,9 @@ lightbulb-aria-label =
 input-password-hide = პაროლის დამალვა
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = პაროლის ჩვენება
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = უკან
 
@@ -799,7 +880,7 @@ security-set-password = დააყენეთ პაროლი სინქ
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = ბოლო მოქმედებები ანგარიშზე
 
-## Settings sub row
+## SubRow component
 
 
 ## Switch component
@@ -947,6 +1028,7 @@ auth-error-155 = TOTP-საშვი ვერ მოიძებნა
 auth-error-159 = ანგარიშის აღდგენის უმართებულო გასაღები
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-999 = მოულოდნელი შეცდომა
+auth-error-1002 = სეანსი ამოიწურა. შედით ანგარიშზე, რომ განაგრძოთ.
 auth-error-1003 = ადგილობრივი საცავი ან ფუნთუშები კვლავ გათიშულია
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
 auth-error-1011 = მართებული ელფოსტის მითითება აუცილებელია
