@@ -5,6 +5,10 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = ახალი კოდი გამოიგზავნა თქვენს ელფოსტაზე.
+resend-link-success-banner-heading = ახალი ბმული გამოიგზავნა თქვენს ელფოსტაზე.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = დაამატეთ { $accountsEmail } ნაცნობ მისამართებში შეტყობინებების შეუფერხებლად მიღებისთვის.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -64,8 +68,15 @@ recovery-key-pdf-download-error = სამწუხაროდ, ხარვ�
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = მიიღეთ მეტი { -brand-mozilla }-სგან:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = გაეცანით ჩვენს ბოლო სიახლეებსა და განახლებულ პროდუქტებს.
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = ადრეული წვდომა ახალი პროდუქტების გამოსაცდელად
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = სამოქმედო ცნობები ინტერნეტის დასაბრუნებლად
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -372,6 +383,7 @@ password-strength-balloon-stay-safe-tips = დაიცავით უსაფ
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = სულ მცირე 8 სიმბოლო
 password-strength-inline-not-email = თქვენი ელფოსტის გარდა
 password-strength-inline-not-common = ხშირად გამოყენებული პაროლის გარდა
 password-strength-inline-confirmed-must-match = დამადასტურებელი ემთხვევა ახალ პაროლს
@@ -743,6 +755,7 @@ delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = სინქრონდება { -brand-firefox }-მონაცემები
 delete-account-product-firefox-addons = { -brand-firefox } დამატებები
@@ -1409,6 +1422,8 @@ pair-unsupported-message = სისტემის კამერას იყ
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = პაროლის შექმნა
+set-password-info = თქვენი სინქრონიზაციის მონაცემები იშიფრება პაროლით პირადულობის დასაცავად.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1592,6 +1607,10 @@ signin-recovery-code-back-link = უკან
 signin-recovery-code-support-link = ვერ ახერხებთ შესვლას?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = შესვლის დამოწმების სამარქაფო კოდი აუცილებელია
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
