@@ -1546,6 +1546,7 @@ report-signin-header = გსურთ მოგვახსენოთ უნ�
 report-signin-body = ესაა შეტყობინება თქვენს ანგარიშთან წვდომის მცდელობის შესახებ. საეჭვოდ მიგაჩნიათ და გსურთ მოგვახსენოთ ამის შესახებ?
 report-signin-submit-button = საეჭვო მოქმედების მოხსენება
 report-signin-support-link = რის გამოა ეს?
+report-signin-error = სამწუხაროდ, ხარვეზი წარმოიშვა მოხსენებისას.
 signin-bounced-header = ვწუხვართ. თქვენი ანგარიში ჩაკეტილია.
 # $email (string) - The user's email.
 signin-bounced-message = დასადასტურებელი ბმულის { $email } ელფოსტაზე გამოგზავნა ვერ მოხერხდა და თქვენი ანგარიში ჩაიკეტა { -brand-firefox }-მონაცემთა უსაფრთხოებისთვის.
@@ -1557,15 +1558,31 @@ back = უკან
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = დაამოწმეთ შესვლა <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
+signin-push-code-heading-w-custom-service = დაამოწმეთ შესვლა <span>რომ განაგრზოთ და იხილოთ { $serviceName }</span>
+signin-push-code-instruction = გთხოვთ, ნახოთ სხვა მოწყობილობები და დაადასტუროთ ეს შესვლა თქვენი { -brand-firefox }-ბრაუზერიდან.
+signin-push-code-did-not-recieve = არ მიგიღიათ შეტყობინება?
+signin-push-code-send-email-link = ელფოსტის კოდი
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = დაადასტურეთ თქვენი შესვლა
+signin-push-code-confirm-description = აღმოჩენილია შესვლის მცდელობა შემდეგი მოწყობილობიდან. თუ თქვენ იყავით, გთხოვთ დაადასტუროთ შესვლა
+signin-push-code-confirm-verifying = მოწმდება
+signin-push-code-confirm-login = შესვლის დადასტურება
+signin-push-code-confirm-wasnt-me = არაფერი მომიმოქმედებია, შეიცვალოს პაროლი.
+signin-push-code-confirm-login-approved = თქვენი შესვლა დამოწმებულია. გთხოვთ დახუროთ ფანჯარა.
+signin-push-code-confirm-link-error = ბმულია დაზიანებული. გთხოვთ, კვლავ სცადოთ.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = შესვლა
+signin-recovery-code-sub-heading = შეიყვანეთ შესვლის სამარქაფო კოდი
+signin-recovery-code-instruction-v2 = შეიყვანეთ რომელიმე ერთჯერადი სამარქაფო კოდი, რომელიც შეინახეთ ორბიჯიანი დამოწმების გამართვისას.
+signin-recovery-code-input-label-v2 = შეიყვანეთ 10-ნიშნა კოდი
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = თანხმობა
 # Link to return to signin with two-step authentication code
@@ -1599,21 +1616,49 @@ signin-token-code-code-expired = კოდი ვადაგასულია?
 signin-token-code-resend-code-link = ახალი კოდის გაგზავნა.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = საჭიროა დასტურის კოდი
+signin-token-code-resend-error = Რაღაც ხარვეზი წარმოიშვა. ახალი კოდის გაგზავნა ვერ მოხერხდა.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = შესვლა
+signin-totp-code-subheader-v2 = ორბიჯიანი დამოწმების კოდის შეიყვანა
+signin-totp-code-instruction-v4 = გამოიყენეთ <strong>დამმოწმებელი პროგრამა</strong> შესვლის დასამოწმებლად.
+signin-totp-code-input-label-v4 = შეიყვანეთ 6-ნიშნა კოდი
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = დასტური
 signin-totp-code-other-account-link = სხვა ანგარიშის გამოყენება
 signin-totp-code-recovery-code-link = ვერ შეგყავთ კოდი?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = შესვლის დამოწმების კოდი აუცილებელია
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = ამ შესვლის დამოწმება
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = იხილეთ თქვენი ელფოსტა { $email }, რომელზეც გამოგზავნილია დამოწმების კოდი.
+signin-unblock-code-input = შეიყვანეთ დამოწმების კოდი
+signin-unblock-submit-button = განაგრძეთ
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = დამოწმების კოდი აუცილებელია
+signin-unblock-code-incorrect-length = დამოწმების კოდი უნდა შედგებოდეს 8 სიმბოლოსგან
+signin-unblock-code-incorrect-format-2 = დამოწმების კოდი უნდა შეიცავდეს მხოლოდ ასოებს და/ან ციფრებს
+signin-unblock-resend-code-button = არ მიგიღიათ და არც ჯართის საქაღალდეშია? გაგზავნეთ ხელახლა
+signin-unblock-support-link = რის გამოა ეს?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1638,11 +1683,22 @@ confirm-signup-code-resend-code-link = ახალი კოდის გაგ
 confirm-signup-code-success-alert = ანგარიში წარმატებით დამოწმდა
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = დადასტურების კოდის აუცილებელია
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = მიუთითეთ თქვენი პაროლი
+signup-relay-info = პაროლი საჭიროა შენიღბული ელფოსტის უსაფრთხოდ სამართავად და დაცვის საშუალებებთან წვდომისთვის, რომელთაც უზრუნველყოფს { -brand-mozilla }.
+signup-heading-relay = შექმენით პაროლი
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = რისთვისაა საჭირო ანგარიშის შექმნა?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = გაეცანით სრულად აქ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ელფოსტის შეცვლა
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
