@@ -1124,6 +1124,7 @@ auth-error-139 = Екіншілік эл. пошта адресі негізгі
 auth-error-155 = TOTP токені табылмады
 auth-error-159 = Тіркелгіні қалпына келтіру кілті жарамсыз
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
+auth-error-206 = Парольді жасау мүмкін емес, пароль орнатылған болып тұр
 auth-error-999 = Күтпеген қате
 auth-error-1001 = Кіру талабынан бас тартылды
 auth-error-1002 = Сессия мерзімі бітті. Жалғастыру үшін кіріңіз.
@@ -1133,6 +1134,7 @@ auth-error-1010 = Жарамды пароль керек
 auth-error-1011 = Жарамды эл. пошта адресі керек
 auth-error-1031 = Тіркелу үшін өз жасыңызды көрсетуіңіз керек
 auth-error-1032 = Тіркелу үшін жарамды жасты енгізуіңіз керек
+auth-error-1054 = Екі қадамды аутентификация коды жарамсыз
 auth-error-1062 = Жарамсыз қайта бағдарлау
 oauth-error-1000 = Бірнәрсе қате кетті. Бұл бетті жауып, қайталап көріңіз.
 
@@ -1598,6 +1600,7 @@ signin-token-code-resend-error = Бірнәрсе қате кетті. Жаңа 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Кіру
 signin-totp-code-subheader-v2 = Екі қадамды аутентификация кодын енгізіңіз
 signin-totp-code-instruction-v4 = Жүйеге кіруді растау үшін <strong>аутентификация қолданбасын</strong> тексеріңіз.
 signin-totp-code-input-label-v4 = 6 цифрлы кодты енгізіңіз
