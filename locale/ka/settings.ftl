@@ -435,6 +435,12 @@ password-reset-warning-icon = გაფრთხილება
 password-reset-chevron-expanded = გაფრთხილების აკეცვა
 password-reset-chevron-collapsed = გაფრთხილების გაშლა
 password-reset-data-may-not-be-recovered = თქვენი ბრაუზერის მონაცემები შესაძლოა, ვერ აღდგეს
+password-reset-previously-signed-in-device-2 = გაქვთ მოწყობილობა, საიდანაც მანამდეც ყოფილხართ შესული?
+password-reset-data-may-be-saved-locally-2 = თქვენი ბრაუზერის მონაცემები შესაძლოა, ამ მოწყობილობაზე ინახებოდეს. გაანულეთ პაროლი და შედით ანგარიშზე მონაცემების დასინქრონებისა და აღდგენისთვის.
+password-reset-no-old-device-2 = გაქვთ ახალი მოწყობილობა, მაგრამ აღარ გაქვთ წვდომა ადრინდელზე?
+password-reset-encrypted-data-cannot-be-recovered-2 = სამწუხაროდ, თქვენი დაშიფრული მონაცემები, რომელსაც { -brand-firefox } ინახავს სერვერებზე, ვეღარ აღდგება.
+password-reset-warning-have-key = გაქვთ ანგარიშის აღდგენის გასაღების?
+password-reset-warning-use-key-link = გამოიყენეთ პაროლის გასანულებლად მონაცემების დაკარგვის გარეშე
 
 ## Alert Bar
 
@@ -455,6 +461,7 @@ avatar-default-avatar =
 bento-menu-title-3 = { -brand-mozilla }-ს ნაწარმი
 bento-menu-tagline = { -brand-mozilla }-ს მეტი ნაწარმი თქვენი პირადულობის დასაცავად
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
@@ -464,6 +471,7 @@ bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობილურზე ან ტაბლეტზე
+connect-another-find-fx-mobile-2 = მონახეთ { -brand-firefox }, გახსენით { -google-play } და { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -529,7 +537,10 @@ cs-sign-out-button = გამოსვლა
 ## Data collection section
 
 dc-heading = მონაცემთა აღრიცხვა და გამოყენება
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox }-ბრაუზერი
 dc-subheader-content-2 = ნების დართვა, რომ { -product-mozilla-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს ტექნიკური და გამოყენების მონაცემები.
+dc-subheader-ff-content = { -brand-firefox }-ბრაუზერის ტექნიკური და გამოყენების მონაცემების აღრიცხვის გადასახედად ან შესაცვლელად, გახსენით { -brand-firefox }-პარამეტრები, შემდეგ კი გადადით განყოფილებაში პირადულობა და უსაფრთხოება.
 dc-opt-out-success-2 = უარი მიღებულია. { -product-mozilla-accounts } არ გაუგზავნის { -brand-mozilla }-ს ტექნიკურ და გამოყენების მონაცემებს.
 dc-opt-in-success-2 = გმადლობთ! ამ მონაცემების გაზიარება მეტად წაადგება { -product-mozilla-accounts(case: "gen") } გაუმჯობესებას.
 dc-opt-in-out-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა მონაცემთა აღრიცხვის პარამეტრის ცვლილებისას
@@ -748,6 +759,7 @@ delete-account-continue-button = გაგრძელება
 delete-account-password-input =
     .label = შეიყვანეთ პაროლი
 pocket-delete-notice = თუ გამოწერილი გაქვთ Pocket Premium, გთხოვთ, დარწმუნდეთ, რომ <a>გამოწერა გაუქმებული გაქვთ</a> ანგარიშის წაშლამდე.
+pocket-delete-notice-marketing = იმისთვის, რომ აღარ მიიღოთ მარკეტინგული წერილები Mozilla-ს კორპორაციისა და Mozilla-ფონდისგან, უნდა <a>მოითხოვოთ თქვენი მარკეტინგული მონაცემების წაშლა.</a>
 delete-account-cancel-button = გაუქმება
 delete-account-delete-button-2 = წაშლა
 
@@ -883,6 +895,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     გადაინახეთ შესვლის ეს ერთჯერადი სამარქაფო კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
     როცა თან არ გექნებათ მობილური მოწყობილობა.
+tfa-enter-code-to-confirm-v2 =
+    გთხოვთ, შეიყვანოთ თქვენი ერთ-ერთი ახალი სამარქაფო კოდი და
+    დაადასტუროთ, რომ მართლაც შენახული გაქვთ. თქვენი წინა სამარქაფო კოდები გაუქმდება ამ ნაბიჯის დასრულებისთანავე.
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
@@ -891,6 +906,14 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები — და დაიბრუნეთ
+product-promo-monitor-plus-description = პირადულობა გადამწყვეტია: გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები და დაიბრუნეთ
+# Links out to the Monitor site
+product-promo-monitor-cta = შეამოწმეთ უფასოდ
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = დაიწყეთ
 
 ## Profile section
 
@@ -927,9 +950,30 @@ security-action-create = შექმნა
 security-set-password = დააყენეთ პაროლი სინქრონიზაციისა და ანგარიშის უსაფრთხოების გარკვეული შესაძლებლობებით სარგებლობისთვის.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = ბოლო მოქმედებები ანგარიშზე
+signout-sync-header = სეანსი ამოიწურა
+signout-sync-session-expired = სამწუხაროდ, რაღაც ხარვეზია. გთხოვთ გამოხვიდეთ ბრაუზერის მენიუს ანგარიშიდან და სცადოთ ხელახლა.
 
 ## SubRow component
 
+tfa-row-backup-codes-title = შესვლის სამარქაფო კოდები
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = კოდები არაა ხელმისაწვდომი
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } კოდია დარჩენილი
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = ახალი კოდების მიღება
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = დამატება
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = ესაა აღდგენის მეტად უსაფრთხო გზა, თუ ვერ იყენებთ თქვენს მობილურ მოწყობილობას ან დამმოწმებელ პროგრამას.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = აღდგენის სამარქაფო ტელეფონი
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = აღდგენის ტელეფონის ნომერი არაა ხელმისაწვდომი
 
 ## Switch component
 
