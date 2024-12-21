@@ -974,12 +974,28 @@ tfa-row-backup-codes-get-new-cta = Merrni kode të rinj
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Shtoje
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Kjo është metoda më e parrezik për rimarrje, nëse s’mundeni të përdorni pajisjen tuaj celulare, apo aplikacionin e mirëfilltësimeve.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Telefon rikthimi kopjeruajtjeje
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = S’ka numër telefoni rimarrjesh
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Ndryshoje
 # button to add/configure a backup recovery phone
 tfa-row-backup-phone-add-cta = Shtoje
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Hiqe
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Hiqe telefonin e rikthimit të kopjeruajtjeve
+tfa-row-backup-phone-delete-restriction = Nëse doni të hiqni telefonin tuaj të rikthimit të kopjeruajtjeve, shtoni kode mirëfilltësimi kopjeruajtjesh, apo të çaktivizoni, së pari, mirëfilltësimin me dy hapa, që të shmangni lënien jashtë llogarie.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Kjo është metoda më e kollajtë për rimarrje, nëse s’mundeni të përdorni aplikacionin e mirëfilltësimeve.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Mësoni rreth rrezikut të ndërrimit të SIM-eve
 
 ## Switch component
 
@@ -1131,6 +1147,7 @@ auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj 
 auth-error-155 = S’u gjet token TOTP
 auth-error-159 = Kyç rimarrjeje llogarie i pavlefshëm
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
+auth-error-206 = S’mund të krijohet fjalëkalim, fjalëkalim tashmë i krijuar
 auth-error-999 = Gabim i papritur
 auth-error-1001 = Përpjekja për hyrje u anulua
 auth-error-1002 = Sesioni skadoi. Që të vazhdohet, bëni hyrjen.
@@ -1440,6 +1457,10 @@ complete-reset-pw-recovery-key-link = Përdorni kyç rimarrjeje llogarie
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Fjalëkalimi juaj u ricaktua.
 reset-password-complete-banner-message = Mos harroni të prodhoni një kyç të ri rimarrjeje llogarie që nga rregullimet e { -product-mozilla-account } tuaja, për të penguar probleme të ardhshme hyrjeje.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 
 ## Confirm Reset Password With Code
 
@@ -1521,6 +1542,10 @@ signin-header = Hyni
 signin-use-a-different-account-link = Përdorni një llogari tjetër
 signin-forgot-password-link = Harruat  fjalëkalimin?
 signin-password-button-label = Fjalëkalim
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1578,6 +1603,10 @@ signin-recovery-code-back-link = Mbrapsht
 signin-recovery-code-support-link = Jeni kyçur jashtë?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Lypset kod mirëfilltësimi kopjeruajtjeje
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1603,6 +1632,10 @@ signin-token-code-resend-code-link = Dërgo me email kod të ri.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Lypset kod ripohimi
 signin-token-code-resend-error = Diç shkoi ters. S’u dërgua dot një kod i ri.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1618,6 +1651,10 @@ signin-totp-code-other-account-link = Përdorni një llogari tjetër
 signin-totp-code-recovery-code-link = Probleme me dhënien e kodit?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Lypset kod mirëfilltësimi
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1633,6 +1670,10 @@ signin-unblock-code-incorrect-length = Kodi i autorizimit duhet të përmbajë 8
 signin-unblock-code-incorrect-format-2 = Kodi i autorizimit mund të përmbajë vetëm shkronja dhe/ose numra
 signin-unblock-resend-code-button = S’gjendet te dosja e të marrëve apo e të padëshiruarave? Ridërgojeni
 signin-unblock-support-link = Pse ndodh kjo?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
