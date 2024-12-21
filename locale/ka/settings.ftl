@@ -268,13 +268,28 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = გამოსახულებაზე წარმოდგენილი ანგარიშის აღდგენის გასაღები.
+password-image-aria-label =
+    .aria-label = პაროლის აკრეფის გამოსახულება.
 lightbulb-aria-label =
     .aria-label = გამოსახულებაზე წარმოდგენილია მინიშნების შექმნა საცავისთვის
+email-code-image-aria-label =
+    .aria-label = კოდის შემცველი ელფოსტის გამოსახულება.
+recovery-phone-image-description =
+    .aria-label = მობილური მოწყობილობა, რომელიც კოდს იღებს ტექსტური შეტყობინებით.
+recovery-phone-code-image-description =
+    .aria-label = მობილურ მოწყობილობაზე მიღებული კოდი.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = შესული ხართ, მოგესალმებათ { -brand-firefox }.
+inline-recovery-key-setup-create-header = დაიცავით თქვენი ანგარიში
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = გცალიათ ორი წამი თქვენი მონაცემების დასაცავად?
+inline-recovery-key-setup-info = შექმენით ანგარიშის აღდგენის გასაღები, რომ შეძლოთ ბრაუზერის დასინქრონებული მონაცემების აღდგენა, თუ დაგავიწყდებათ პაროლი.
+inline-recovery-key-setup-start-button = ანგარიშის აღდგენის გასაღების შექმნა
+inline-recovery-key-setup-later-button = შეხსენება მოგვიანებით
 
 ## Input Password
 
@@ -282,9 +297,20 @@ lightbulb-aria-label =
 input-password-hide = პაროლის დამალვა
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = პაროლის ჩვენება
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = თქვენი პაროლი ამჟამად ხილულია ეკრანზე.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = თქვენი პაროლი ამჟამად დაფარულია.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = თქვენი პაროლი ახლა ხილულია ეკრანზე.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = თქვენი პაროლი ახლა დაფარულია.
 
 ## Phone number component
 
+input-phone-number-enter-number = მიუთითეთ ტელეფონის ნომერი
+input-phone-number-country-united-states = შეერთებული შტატები
+input-phone-number-country-canada = კანადა
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = უკან
 
@@ -296,14 +322,23 @@ reset-pwd-link-damaged-header = პაროლის აღსადგენ�
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = დასადასტურებელი ბმული დაზიანებულია
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = ბმული დაზიანებულია
 # The user followed a link received by email, but the link was damaged.
-reset-pwd-link-damaged-message = ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა.
+reset-pwd-link-damaged-message = ბმულს, რომელზეც გადახვედით, აკლია სიმბოლოები ან დაზიანდა თქვენი ელფოსტის პროგრამიდან აღებისას. ყურადღებით გადმოიტანეთ მისამართი და კვლავ სცადეთ.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = ახალი ბმულის მიღება
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = გაგახსენდათ პაროლი?
+# link navigates to the sign in page
+remember-password-signin-link = შესვლა
 
 ## LinkUsed component
 
@@ -315,6 +350,11 @@ confirmation-link-reused-message = დადასტურების ბმ�
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = შექმნა
+account-recovery-notification-header-value = ნუ დაკარგავთ მონაცემებს პაროლის დავიწყებისას
+account-recovery-notification-header-description = შექმენით ანგარიშის აღდგენის გასაღები და შეგეძლებათ ბრაუზერის დასინქრონებული მონაცემების აღდგენა, თუ დაგავიწყდებათ პაროლი.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = გაუმართავი მოთხოვნა
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -332,10 +372,14 @@ password-strength-balloon-stay-safe-tips = დაიცავით უსაფ
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-not-email = თქვენი ელფოსტის გარდა
+password-strength-inline-not-common = ხშირად გამოყენებული პაროლის გარდა
+password-strength-inline-confirmed-must-match = დამადასტურებელი ემთხვევა ახალ პაროლს
 
 ## Ready component
 
-ready-complete-set-up-instruction = დაასრულეთ გამართვა ახალი პაროლის სხვა { -brand-firefox }-იან მოწყობილობებზე შეყვანით.
+ready-complete-set-up-instruction = დაასრულეთ გამართვა ახალი პაროლის შეყვანით სხვა მოწყობილობაზე, რომელზეც აყენია { -brand-firefox }.
+manage-your-account-button = ანგარიშის მართვა
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -387,6 +431,10 @@ flow-recovery-key-hint-unsafe-char-error = მინიშნება არ �
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = გაფრთხილება
+password-reset-chevron-expanded = გაფრთხილების აკეცვა
+password-reset-chevron-collapsed = გაფრთხილების გაშლა
+password-reset-data-may-not-be-recovered = თქვენი ბრაუზერის მონაცემები შესაძლოა, ვერ აღდგეს
 
 ## Alert Bar
 
