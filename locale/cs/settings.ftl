@@ -904,7 +904,9 @@ tfa-enter-totp-v2 = Nyní zadejte ověřovací kód z ověřovací aplikace.
 tfa-input-enter-totp-v2 =
     .label = Zadejte ověřovací kód
 tfa-save-these-codes-1 = Tyto jednorázové záložní ověřovací kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
-tfa-enter-code-to-confirm-v2 = Zadejte prosím jeden z vašich nových záložních ověřovacích kódů jako potvrzení uložení. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
+tfa-enter-code-to-confirm-v2 =
+    Zadejte prosím jeden ze svých nových záložních ověřovacích kódů pro
+    potvrzení jejich uložení. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
 tfa-enter-recovery-code-1 =
     .label = Vložte záložní ověřovací kód
 
@@ -968,17 +970,17 @@ tfa-row-backup-codes-title = Záložní ověřovací kódy
 tfa-row-backup-codes-not-available = Žádné kódy nejsou k dispozici
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
-tfa-row-backup-codes-available = Zbývá { $numCodesAvailable } kódů
+tfa-row-backup-codes-available = Zbývající kódy: { $numCodesAvailable }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Získejte nové kódy
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Přidat
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = Toto je nejbezpečnější způsob obnovení, pokud nemůžete použít své mobilní zařízení nebo autentizační aplikaci.
+tfa-row-backup-codes-description-2 = Pokud nemůžete použít mobilní zařízení nebo aplikaci autentikátoru, je to nejbezpečnější způsob obnovy.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Zálohovat telefon pro obnovení
+tfa-row-backup-phone-title = Záložní telefon pro obnovu
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Telefonní číslo pro obnovení není k dispozici
 # button to change the configured backup recovery phone
@@ -989,9 +991,9 @@ tfa-row-backup-phone-add-cta = Přidat
 tfa-row-backup-phone-delete-button = Odebrat
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Odebrat záložní telefon pro obnovení
-tfa-row-backup-phone-delete-restriction = Pokud chcete odebrat záložní telefon pro obnovení, přidejte záložní ověřovací kódy nebo vypněte nejprve dvoufázové ověření, abyste předešli uzamčení přístupu ke svému účtu.
+tfa-row-backup-phone-delete-restriction = Pokud chcete odebrat záložní telefon pro obnovení, přidejte nejprve záložní ověřovací kódy nebo vypněte dvoufázové ověřování, abyste se vyhnuli zablokování účtu.
 # "this" refers to backup recovery phone
-tfa-row-backup-phone-description = Jedná se o jednodušší metodu obnovení, pokud nemůžete použít svou ověřovací aplikaci.
+tfa-row-backup-phone-description = Pokud nemůžete použít aplikaci pro autentizaci, je to jednodušší způsob obnovení.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1083,7 +1085,7 @@ tfa-row-action-disable = Vypnout
 tfa-row-button-refresh =
     .title = Obnovit nastavení dvoufázového ověřování
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
-tfa-row-enabled-description = Váš účet je chráněn pomocí dvoufázového ověřování. Při přihlašování ke svému { -product-mozilla-account(case: "dat") } budete muset zadat jednorázové heslo z vaší ověřovací aplikace.
+tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřováním. Při přihlašování k účtu { -product-mozilla-account } musíte zadat jednorázový přístupový kód z ověřovací aplikace.
 # <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-disabled-description = Pomozte zabezpečit svůj účet pomocí <linkExternal>ověřovací aplikace</linkExternal> jako druhého kroku pro přihlášení.
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
