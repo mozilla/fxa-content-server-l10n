@@ -970,6 +970,12 @@ tfa-row-backup-codes-get-new-cta = Жаңа кодтарды алу
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Қосу
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Өзгерту
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Қосу
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Өшіру
 
 ## Switch component
 
