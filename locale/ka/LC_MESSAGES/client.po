@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-22 02:26+0000\n"
+"PO-Revision-Date: 2024-12-22 13:17+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -897,7 +897,7 @@ msgstr ""
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s-ზე გადასვლა"
+msgstr "გაიხსნება %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
@@ -1136,7 +1136,7 @@ msgstr ""
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "თუ განაგრძობთ, ეთანხმებით <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">მომსახურების პირობებსა</a> და <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">პირადულობის დაცვის განაცხადს</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1683,7 +1683,7 @@ msgstr "გთხოვთ, შეცვალოთ თქვენი პა�
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr "%(serviceName)s-ზე გადასვლა"
+msgstr "გაიხსნება %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -1736,7 +1736,7 @@ msgstr "Mozilla-ანგარიშის შექმნა"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
-msgstr "%(productName)s-ზე გადასვლა"
+msgstr "გაიხსნება %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Enter a password"
