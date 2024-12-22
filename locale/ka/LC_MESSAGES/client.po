@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-13 15:13+0000\n"
+"PO-Revision-Date: 2024-12-22 02:26+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -135,7 +135,7 @@ msgstr "ანგარიშის შეტყობინებების�
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
-msgstr "გამოიყენეთ %(serviceName)s"
+msgstr "გადადით და იხილეთ %(serviceName)s "
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
