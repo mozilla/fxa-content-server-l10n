@@ -220,6 +220,10 @@ icon-warning-aria-label =
     .aria-label = Ескерту
 authenticator-app-aria-label =
     .aria-label = Аутентификация қолданбасы
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Сақтық аутентификация кодтары іске қосылған
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Сақтық аутентификация кодтары сөндірілген
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Қалпына келтіру SMS іске қосылған
@@ -959,6 +963,7 @@ signout-sync-session-expired = Кешіріңіз, бірдеңе дұрыс б�
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Сақтық аутентификация кодтары
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Қолжетімді кодтар жоқ
@@ -970,6 +975,11 @@ tfa-row-backup-codes-get-new-cta = Жаңа кодтарды алу
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Қосу
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Мобильді құрылғыны немесе аутентификация қолданбасын пайдалана алмасаңыз, бұл - қалпына келтірудің ең қауіпсіз әдісі.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Қалпына келтіру үшін қосымша телефон нөмірі
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Өзгерту
 # button to add/configure a backup recovery phone
