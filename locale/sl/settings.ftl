@@ -975,10 +975,10 @@ tfa-row-backup-codes-get-new-cta = Pridobite nove kode
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = To je najvarnejša metoda obnovitve, če ne morete uporabiti mobilne naprave ali aplikacije za overitev.
+tfa-row-backup-codes-description-2 = To je najvarnejša metoda obnovitve, če nimate možnosti uporabe mobilne naprave ali aplikacije za overitev.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Telefonska številka za obnovitev iz varnostne kopije
+tfa-row-backup-phone-title = Pomožna telefonska številka za obnovitev
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Telefonska številka za obnovitev ni na voljo
 # button to change the configured backup recovery phone
@@ -991,7 +991,7 @@ tfa-row-backup-phone-delete-button = Odstrani
 tfa-row-backup-phone-delete-title = Odstrani pomožno telefonsko številko za obnovitev
 tfa-row-backup-phone-delete-restriction = Če želite odstraniti pomožno telefonsko številko za obnovitev, najprej dodajte rezervne overitvene kode ali onemogočite overjanje v dveh korakih, da preprečite izgubo dostopa do računa.
 # "this" refers to backup recovery phone
-tfa-row-backup-phone-description = To je lažji način obnovitve, če ne morete uporabiti aplikacije za overitev.
+tfa-row-backup-phone-description = To je preprostejša metoda obnovitve, če nimate možnosti uporabe aplikacije za overitev.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1081,7 +1081,7 @@ se-secondary-email-none = Brez
 
 tfa-row-header = Overitev v dveh korakih
 tfa-row-enabled = Omogočena
-tfa-row-disabled-status = Onemogočeno
+tfa-row-disabled-status = Onemogočena
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
 tfa-row-button-refresh =
