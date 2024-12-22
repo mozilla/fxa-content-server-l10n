@@ -259,6 +259,10 @@ lightbulb-aria-label =
     .aria-label = Talletusvihjeen luomista esittävä kuva.
 email-code-image-aria-label =
     .aria-label = Kuva, joka esittää koodin sisältävää sähköpostiviestiä.
+recovery-phone-image-description =
+    .aria-label = Mobiililaite, joka vastaanottaa koodin tekstiviestillä.
+recovery-phone-code-image-description =
+    .aria-label = Koodi vastaanotettu mobiililaitteeseen.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -286,6 +290,12 @@ input-password-show-aria-2 = Salasanasi on tällä hetkellä piilotettu.
 input-password-sr-only-now-visible = Salasanasi näkyy nyt näytöllä.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Salasanasi on nyt piilotettu.
+
+## Phone number component
+
+input-phone-number-enter-number = Kirjoita puhelinnumero
+input-phone-number-country-united-states = Yhdysvallat
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Takaisin
 
@@ -924,7 +934,7 @@ security-recent-activity-link = Näytä viimeisimmät tilitapahtumat
 signout-sync-header = Istunto vanhentui
 signout-sync-session-expired = Pahoittelut, jotain meni pieleen. Kirjaudu ulos selaimen valikosta ja yritä uudelleen.
 
-## Settings sub row
+## SubRow component
 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
@@ -937,6 +947,10 @@ tfa-row-backup-codes-get-new-cta = Hanki uudet koodit
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Lisää
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Lisää
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Poista
 
 ## Switch component
 
@@ -1022,6 +1036,7 @@ se-secondary-email-none = Ei mitään
 
 tfa-row-header = Kaksivaiheinen todennus
 tfa-row-enabled = Käytössä
+tfa-row-disabled-status = Pois käytöstä
 tfa-row-action-add = Lisää
 tfa-row-action-disable = Poista käytöstä
 tfa-row-button-refresh =
@@ -1540,6 +1555,7 @@ signin-token-code-resend-error = Jokin meni pieleen. Uutta koodia ei voitu lähe
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Kirjaudu sisään
 signin-totp-code-input-label-v4 = Syötä 6-numeroinen koodi
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
