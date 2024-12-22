@@ -314,6 +314,12 @@ input-password-show-aria-2 = Vaše heslo je momentálne skryté.
 input-password-sr-only-now-visible = Vaše heslo je teraz viditeľné na obrazovke.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Vaše heslo je teraz skryté.
+
+## Phone number component
+
+input-phone-number-enter-number = Zadajte telefónne číslo
+input-phone-number-country-united-states = Spojené štáty americké
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Naspäť
 
@@ -970,12 +976,22 @@ tfa-row-backup-codes-get-new-cta = Získajte nové kódy
 tfa-row-backup-codes-add-cta = Pridať
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Toto je najbezpečnejšia metóda obnovy, ak nemôžete použiť svoje mobilné zariadenie alebo aplikáciu na overovanie.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Telefón na obnovu zo zálohy
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Nie je k dispozícii žiadne telefónne číslo na obnovenie zo zálohy
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Zmeniť
 # button to add/configure a backup recovery phone
 tfa-row-backup-phone-add-cta = Pridať
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Odstrániť
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Odstráni telefón na obnovenie zo zálohy
+tfa-row-backup-phone-delete-restriction = Ak chcete odstrániť telefón na obnovenie zo zálohy, pridajte záložné overovacie kódy alebo najskôr zakážte dvojstupňové overenie, aby ste sa vyhli zablokovaniu vášho účtu.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Toto je jednoduchší spôsob obnovenia, ak nemôžete použiť aplikáciu na overenie totožnosti.
 
 ## Switch component
 
