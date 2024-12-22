@@ -992,6 +992,10 @@ tfa-row-backup-phone-delete-title = Odstráni telefón na obnovenie zo zálohy
 tfa-row-backup-phone-delete-restriction = Ak chcete odstrániť telefón na obnovenie zo zálohy, pridajte záložné overovacie kódy alebo najskôr zakážte dvojstupňové overenie, aby ste sa vyhli zablokovaniu vášho účtu.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Toto je jednoduchší spôsob obnovenia, ak nemôžete použiť aplikáciu na overenie totožnosti.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Prečítajte si o riziku pri výmene SIM karty
 
 ## Switch component
 
@@ -1150,6 +1154,7 @@ auth-error-1010 = Vyžaduje sa zadanie platného hesla
 auth-error-1011 = Vyžaduje sa platná e‑mailová adresa
 auth-error-1031 = Ak sa chcete prihlásiť, musíte zadať svoj vek
 auth-error-1032 = Ak sa chcete prihlásiť, musíte zadať platný vek
+auth-error-1054 = Neplatný dvojstupňový overovací kód
 auth-error-1062 = Neplatné presmerovanie
 oauth-error-1000 = Niečo sa pokazilo. Prosím, zatvorte túto kartu a skúste to znova.
 
