@@ -979,15 +979,26 @@ tfa-row-backup-codes-get-new-cta = Obtener nove codices
 tfa-row-backup-codes-add-cta = Adder
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Isto es le methodo de recuperation plus secur si tu non pote usar a tu apparato mobile o le app de authentication.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Numero de telephono de recuperation salveguarda
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Nulle numero de telephono de recuperation disponibile
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Cambiar
 # button to add/configure a backup recovery phone
 tfa-row-backup-phone-add-cta = Adder
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Remover numero de telephono de recuperation salveguarda
 tfa-row-backup-phone-delete-restriction = Si tu desira remover tu numero de telephono de recuperation salveguarda, adde le codices de authentication o primo disactiva le authentication a duo passos pro evitar de perder le accesso de tu conto.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Isto es le methodo de recuperation plus facile si tu non pote usar a tu app de authentication.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Saper plus re risco de excambio de SIM
 
 ## Switch component
 
