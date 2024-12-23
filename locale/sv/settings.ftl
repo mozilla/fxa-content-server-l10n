@@ -314,6 +314,12 @@ input-password-show-aria-2 = Ditt lösenord är för närvarande dolt.
 input-password-sr-only-now-visible = Ditt lösenord visas nu på skärmen.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Ditt lösenord är nu dolt.
+
+## Phone number component
+
+input-phone-number-enter-number = Ange telefonnummer
+input-phone-number-country-united-states = USA
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tillbaka
 
