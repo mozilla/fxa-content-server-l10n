@@ -985,6 +985,8 @@ tfa-row-backup-phone-change-cta = Cambiar
 tfa-row-backup-phone-add-cta = Adder
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Isto es le methodo de recuperation plus facile si tu non pote usar a tu app de authentication.
 
 ## Switch component
 
