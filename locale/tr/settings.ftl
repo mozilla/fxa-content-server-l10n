@@ -981,6 +981,8 @@ tfa-row-backup-phone-add-cta = Ekle
 tfa-row-backup-phone-delete-button = Kaldır
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Yedek kurtarma telefonunu kaldır
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu daha kolay bir kurtarma yöntemidir.
 
 ## Switch component
 
