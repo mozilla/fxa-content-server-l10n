@@ -314,6 +314,12 @@ input-password-show-aria-2 = Tu contrasigno es actualmente celate.
 input-password-sr-only-now-visible = Tu contrasigno es ora visibile sur le schermo.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Tu contrasigno es ora celate.
+
+## Phone number component
+
+input-phone-number-enter-number = Inserer numero de telephono
+input-phone-number-country-united-states = Statos Unite
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Retro
 
@@ -957,8 +963,9 @@ security-recent-activity-link = Vider activitate de conto recente
 signout-sync-header = Session expirate
 signout-sync-session-expired = Un error ha occurrite. Claude iste session e retenta.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Codices de authentication de salvamento
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nulle codice disponibile
@@ -971,7 +978,13 @@ tfa-row-backup-codes-get-new-cta = Obtener nove codices
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Adder
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Isto es le methodo de recuperation plus secur si tu non succede acceder a tu apparato mobile o al app de authentication.
+tfa-row-backup-codes-description-2 = Isto es le methodo de recuperation plus secur si tu non pote usar a tu apparato mobile o le app de authentication.
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Cambiar
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Adder
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Remover
 
 ## Switch component
 
@@ -1134,6 +1147,7 @@ auth-error-1010 = Un contrasigno valide es necessari
 auth-error-1011 = Il es necessari un adresse email valide
 auth-error-1031 = Tu debe inserer tu etate pro inscriber te
 auth-error-1032 = Tu debe inserer un etate valide pro inscriber te
+auth-error-1054 = Codice de authentication a duo passos non valide
 auth-error-1062 = Redirection non valide
 oauth-error-1000 = Un error ha occurrite. Per favor claude iste scheda e retenta.
 
@@ -1612,6 +1626,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } tentara inviar 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Aperir session
 signin-totp-code-subheader-v2 = Insere le codice de authentication a duo passos
 signin-totp-code-instruction-v4 = Verifica tu <strong>app de authentication</strong> pro confirmar tu authentication.
 signin-totp-code-input-label-v4 = Insere le codice de 6 digitos
