@@ -992,7 +992,7 @@ tfa-row-backup-phone-add-cta = Adder
 tfa-row-backup-phone-delete-button = Remover
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Remover numero de telephono de recuperation salveguarda
-tfa-row-backup-phone-delete-restriction = Si tu desira remover tu numero de telephono de recuperation salveguarda, adde le codices de authentication o primo disactiva le authentication a duo passos pro evitar de perder le accesso de tu conto.
+tfa-row-backup-phone-delete-restriction = Si tu desira remover tu numero de telephono de recuperation de reserva, adde le codices de authentication o primo disactiva le authentication a duo passos pro evitar de perder le accesso de tu conto.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Isto es le methodo de recuperation plus facile si tu non pote usar a tu app de authentication.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1101,7 +1101,7 @@ tfa-row-disable-modal-confirm = Disactivar
 tfa-row-disable-modal-explain-1 =
     Tu non potera disfacer iste action. Tu alsi
     ha le option de <linkExternal> reimplaciar tu codices de authentication de
-    salvamento</linkExternal>.
+    reserva</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Authentication a duo passos disactivate
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
@@ -1239,11 +1239,11 @@ inline-recovery-key-setup-hint-header = Recommendation de securitate
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Confirma le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
+inline-recovery-setup-header-default = Confirma le codice authentication del reserva <span>pro continuar a configurar le conto</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = Salva le codices authentication del salvamento <span>pro continuar a { $serviceName }</span>
+inline-recovery-setup-header = Salva le codices authentication del reserva <span>pro continuar a { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Reserva iste codices a uso unic in un loco secur pro le caso que tu non ha accesso a tu apparato mobile.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -1256,15 +1256,15 @@ inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Retro
 inline-recovery-cancel-setup = Cancellar configuration
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Codice de authentication de salvamento
-inline-recovery-confirmation-description = Pro permitter que tu potera reganiar accesso a tu conto, in caso de un apparato perdite, insere un de tu codices de authentication de salvamento salvate.
+inline-recovery-backup-authentication-code = Codice de authentication de reserva
+inline-recovery-confirmation-description = Pro permitter que tu potera reganiar accesso a tu conto, in caso de un apparato perdite, insere un de tu codices de authentication de reserva salvate.
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Confirma le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
+inline-recovery-confirmation-header-default = Confirma le codice authentication del reserva <span>pro continuar a configurar le conto</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = Confirma le codice authentication del salvamento <span>pro continuar a { $serviceName }</span>
+inline-recovery-confirmation-header = Confirma le codice authentication del reserva <span>pro continuar a { $serviceName }</span>
 inline-recovery-2fa-enabled = Authentication a duo passos activate
 
 ## InlineTotpSetup page
@@ -1601,7 +1601,7 @@ signin-recovery-code-back-link = Retro
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Es tu blocate?
 # Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Codice de authentication de salvamento necessari
+signin-recovery-code-required-error = Codice de authentication de reserva necessari
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
