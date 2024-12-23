@@ -246,20 +246,20 @@ fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tu ha questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title-zero = Tu ha terminate le codices de authentication de salvamento!
-codes-reminder-title-one = Tu es a tu ultime codice de authentication de salvamento
-codes-reminder-title-two = Tempore pro crear altere codices de authentication de salvamento
-codes-reminder-description-part-one = Le codices de authentication de salvamento te adjuta a restaurar tu informationes quando tu oblida tu contrasigno.
+codes-reminder-title-zero = Tu ha terminate le codices de authentication de reserva!
+codes-reminder-title-one = Tu es a tu ultime codice de authentication de reserva
+codes-reminder-title-two = Tempore pro crear altere codices de authentication de reserva
+codes-reminder-description-part-one = Le codices de authentication de reserva te adjuta a restaurar tu informationes quando tu oblida tu contrasigno.
 codes-reminder-description-part-two = Crea nove codices ora, assi tu non perde tu datos plus tarde.
 codes-reminder-description-two-left = Tu ha solo duo codices restate.
-codes-reminder-description-create-codes = Crea nove codices de authentication de salvamento pro adjutar te a re-acceder in tu conto si tu ha perdite le accesso.
+codes-reminder-description-create-codes = Crea nove codices de authentication de reserva pro adjutar te a re-acceder in tu conto si tu ha perdite le accesso.
 lowRecoveryCodes-action-2 = Crear codices
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [0] Nulle codices de authentication de salvamento restate
-        [one] Solo 1 codice de authentication de salvamento restate
-       *[other] Solo { $numberRemaining } codices de authentication de salvamento restate!
+        [0] Nulle codices de authentication de reserva restate
+        [one] Solo 1 codice de authentication de reserva restate
+       *[other] Solo { $numberRemaining } codices de authentication de reserva restate!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -337,17 +337,17 @@ postChangePrimary-title = Nove e-mail primari
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-mozilla-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
-postConsumeRecoveryCode-title-2 = Tu ha usate un codice de authentication de salvamento
+postConsumeRecoveryCode-title-2 = Tu ha usate un codice de authentication de reserva
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Illo era usate sur:
 postConsumeRecoveryCode-action = Gerer le conto
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
-        [one] 1 codice authentication de salvamento restate
-       *[other] { $numberRemaining } codices authentication de salvamento restate
+        [one] 1 codice authentication de reserva restate
+       *[other] { $numberRemaining } codices authentication de reserva restate
     }
-postNewRecoveryCodes-subject-2 = Nove codice authentication del salvamento create
-postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de salvamento
+postNewRecoveryCodes-subject-2 = Nove codice authentication de reserva create
+postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de reserva
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Illos era create sur:
 postNewRecoveryCodes-action = Gerer le conto
