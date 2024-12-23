@@ -669,7 +669,7 @@ nav-email-comm = Communicationes email
 tfa-replace-code-error-3 = Il habeva un problema a reimplaciar tu codices de authentication de reserva
 tfa-create-code-error = Il habeva un problema a crear tu codices de authentication de reserva
 tfa-replace-code-success-1 = Nove codices ha essite create. Salva iste codices de authentication de reserva provisori in un loco secur: tu besoniara de illos pro acceder a tu conto, si tu non ha tu apparato mobile.
-tfa-replace-code-success-alert-3 = Conto codices de authentication de salvamento actualisate
+tfa-replace-code-success-alert-3 = Conto codices de authentication de reserva actualisate
 tfa-replace-code-1-2 = Passo 1de 2
 tfa-replace-code-2-2 = Passo 2 de 2
 
@@ -881,8 +881,8 @@ tfa-button-cancel = Cancellar
 tfa-button-finish = Finir
 tfa-incorrect-totp = Codice de authentication a duo passos non correcte
 tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
-tfa-cannot-verify-code-4 = Il habeva un problema al confirmation de tu codice de authentication de salvamento
-tfa-incorrect-recovery-code-1 = Codice de authentication de salvamento non correcte
+tfa-cannot-verify-code-4 = Il habeva un problema al confirmation de tu codice de authentication de reserva
+tfa-incorrect-recovery-code-1 = Codice de authentication de reserva non correcte
 tfa-enabled = Authentication a duo-grados activate
 tfa-scan-this-code =
     Scanna iste codice QR usante un de <linkExternal>iste
@@ -903,13 +903,13 @@ tfa-enter-totp-v2 = Ora insere le codice de authentication ab le application de 
 tfa-input-enter-totp-v2 =
     .label = Insere le codice de authentication
 tfa-save-these-codes-1 =
-    Salva iste codices de authentication de salvamento provisori in un loco secur pro quando
+    Salva iste codices de authentication de reserva provisori in un loco secur pro quando
     tu non ha tu apparato mobile.
 tfa-enter-code-to-confirm-v2 =
     Insere un del nove codices de authentication de reserva pro
     confirmar que tu los salvava. Tu vetere codices de authentication de reserva sera disactivate al fin de iste message.
 tfa-enter-recovery-code-1 =
-    .label = Insere un codice de authentication de salvamento
+    .label = Insere un codice de authentication de reserva
 
 ##
 
@@ -965,7 +965,7 @@ signout-sync-session-expired = Un error ha occurrite. Claude iste session e rete
 
 ## SubRow component
 
-tfa-row-backup-codes-title = Codices de authentication de salvamento
+tfa-row-backup-codes-title = Codices de authentication de reserva
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nulle codice disponibile
