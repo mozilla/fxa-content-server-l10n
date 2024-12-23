@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-23 17:01+0000\n"
+"PO-Revision-Date: 2024-12-23 17:08+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -463,7 +463,7 @@ msgstr "Token TOTP non trovate"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr "Codice de authentication de salvamento non trovate"
+msgstr "Codice de authentication de reserva non trovate"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
@@ -672,11 +672,11 @@ msgstr "Codice de authentication a duo passos non valide"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr "Codice de authentication de salvamento necessari"
+msgstr "Codice de authentication de reserva necessari"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr "Codice de authentication de salvamento non valide"
+msgstr "Codice de authentication de reserva non valide"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
@@ -1211,7 +1211,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr "Salvar codices de authentication de salvamento"
+msgstr "Salvar codices de authentication de reserva"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1240,15 +1240,15 @@ msgstr "Cancellar configuration"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr "Confirmar codice de authentication de salvamento"
+msgstr "Confirmar codice de authentication de reserva"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "Pro permitter que tu potera reganiar accesso a tu conto, in caso de un apparato perdite, insere un de tu codices de authentication de salvamento salvate."
+msgstr "Pro permitter que tu potera reganiar accesso a tu conto, in caso de un apparato perdite, insere un de tu codices de authentication de reserva salvate."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr "Codice de authentication de salvamento"
+msgstr "Codice de authentication de reserva"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1430,15 +1430,15 @@ msgstr "Non possede tu plus iste adresse de e-mail? Crea un nove conto"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr "Insere codice de authentication de salvamento"
+msgstr "Insere codice de authentication de reserva"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Insere un codice de authentication de salvamento que te ha essite fornite durante le implementation del authentication a duo passos."
+msgstr "Insere un codice de authentication de reserva que te ha essite fornite durante le implementation del authentication a duo passos."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr "Insere le codice de authentication de salvamento a 10-cifras"
+msgstr "Insere le codice de authentication de reserva a 10-cifras"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
