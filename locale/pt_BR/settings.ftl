@@ -317,6 +317,7 @@ input-password-sr-only-now-hidden = Agora sua senha está oculta.
 
 ## Phone number component
 
+input-phone-number-enter-number = Insira o número do celular
 input-phone-number-country-united-states = Estados Unidos
 input-phone-number-country-canada = Canadá
 # Back button on legal/terms or legal/privacy that takes users to the previous page
@@ -964,12 +965,20 @@ tfa-row-backup-codes-get-new-cta = Obter novos códigos
 tfa-row-backup-codes-add-cta = Adicionar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seguro se você não puder usar seu dispositivo móvel ou aplicativo de autenticação.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Celular de recuperação de backup
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Nenhum número de celular de recuperação disponível
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Alterar
 # button to add/configure a backup recovery phone
 tfa-row-backup-phone-add-cta = Adicionar
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Remover celular de recuperação de backup
+tfa-row-backup-phone-delete-restriction = Se quiser remover o celular de recuperação de backup, adicione códigos de autenticação de backup ou desative primeiro a autenticação em duas etapas para evitar que sua conta seja bloqueada.
 
 ## Switch component
 
