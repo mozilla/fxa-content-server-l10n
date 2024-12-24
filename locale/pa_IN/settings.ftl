@@ -1351,6 +1351,8 @@ confirm-totp-reset-password-trouble-code = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ 
 confirm-totp-reset-password-confirm-button = ਤਸਦੀਕ
 confirm-totp-reset-password-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 confirm-totp-reset-password-use-different-account = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
+confirm-recovery-code-reset-password-input-label = 10-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+confirm-recovery-code-reset-password-trouble-code = ਪਿੱਛੇ
 
 ## ResetPassword start page
 
@@ -1440,6 +1442,9 @@ signin-push-code-confirm-link-error = ਲਿੰਕ ਨੁਕਾਸਿਆ ਗਿ�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = ਸਾਈਨ ਇਨ
+signin-recovery-code-sub-heading = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+signin-recovery-code-input-label-v2 = 10-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = ਤਸਦੀਕ
 # Link to return to signin with two-step authentication code
@@ -1478,6 +1483,9 @@ signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦ�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = ਸਾਈਨ ਇਨ
+signin-totp-code-subheader-v2 = ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+signin-totp-code-input-label-v4 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ਤਸਦੀਕ
 signin-totp-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
