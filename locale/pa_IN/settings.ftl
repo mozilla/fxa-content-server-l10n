@@ -4,17 +4,11 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = ਬੰਦ ਕਰੋ
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = ਈਮੇਲ ਮੁੜ-ਭੇਜੀ ਗਈ। ਬੇਫਿਕਰੀ ਨਾਲ ਡਿਲਵਰੀ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ { $accountsEmail } ਨੂੰ ਆਪਣੇ ਸੰਪਰਕਾਂ ਵਿੱਚ ਜੋੜੋ।
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਕੋਡ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+resend-code-success-banner-heading = ਤੁਹਾਡੀ ਈਮੇਲ ਉੱਤੇ ਨਵਾਂ ਕੋਡ ਭੇਜਿਆ ਗਿਆ ਸੀ।
+resend-link-success-banner-heading = ਤੁਹਾਡੀ ਈਮੇਲ ਉੱਤੇ ਨਵਾਂ ਲਿੰਕ ਭੇਜਿਆ ਗਿਆ ਸੀ।
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = ਸੁਚਾਰੂ ਡਿਲਵਰੀ ਯਕੀਨੀ ਬਣਾਉਣ ਵਾਸਤੇ { $accountsEmail } ਨੂੰ ਆਪਣੇ ਸੰਪਰਕਾਂ ਵਿੱਚ ਜੋੜੋ।
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -101,14 +95,6 @@ choose-what-to-sync-option-addresses =
     .label = ਸਿਰਨਾਵੇਂ
 choose-what-to-sync-option-paymentmethods =
     .label = ਭੁਗਤਾਨ ਦੇ ਢੰਗ
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = ਪਿੱਛੇ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -219,6 +205,57 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = ਚੌਕਸੀ
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = ਸਾਵਧਾਨ
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = ਚੇਤਾਵਨੀ
+authenticator-app-aria-label =
+    .aria-label = ਪਰਮਾਣਿਕਰਤਾ ਐਪਲੀਕੇਸ਼ਨ
+backup-codes-icon-aria-label-v2 =
+    .aria-label = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਸਮਰੱਥ ਹੈ
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਅਸਮਰੱਥ ਹੈ
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = ਰਿਕਵਰੀ SMS ਸਮਰੱਥ ਹੈ
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = ਰਿਕਵਰੀ SMS ਅਸਮਰੱਥ ਹੈ
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = ਕੈਨੇਡੀਅਨ ਝੰਡਾ
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = ਚੁਣੋ
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = ਕਾਮਯਾਬ
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = ਸਮਰੱਥ ਹੈ
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = ਕੋਡ
+error-icon-aria-label =
+    .aria-label = ਗਲਤੀ
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = ਜਾਣਕਾਰੀ
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = ਸੰਯੁਕਤ ਰਾਜ ਅਮਰੀਕਾ ਦਾ ਝੰਡਾ
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = ਕੰਪਿਊਟਰ ਤੇ ਮੋਬਾਈਲ ਫ਼ੋਨ ਅਤੇ ਦੋਵਾਂ ਉੱਤੇ ਟੁੱਟੇ ਹੋਏ ਦਿਲ ਦੀ ਤਸਵੀਰ
 hearts-verified-image-aria-label =
@@ -241,7 +278,6 @@ recovery-key-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = ਤੁਸੀਂ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ
 inline-recovery-key-setup-create-header = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਮਿੰਟ ਕੁ ਹੈ?
@@ -262,6 +298,12 @@ input-password-show-aria-2 = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਇਸ ਵੇ
 input-password-sr-only-now-visible = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਇਸ ਵੇਲੇ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਹੁਣ ਲੁਕਵਾਂ ਹੈ।
+
+## Phone number component
+
+input-phone-number-enter-number = ਫ਼ੋਨ ਨੰਬਰ ਦਿਓ
+input-phone-number-country-united-states = ਸੰਯਕੁਤ ਰਾਜ ਅਮਰੀਕਾ
+input-phone-number-country-canada = ਕੈਨੇਡਾ
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = ਪਿੱਛੇ
 
@@ -282,14 +324,7 @@ reset-pwd-link-damaged-message = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ �
 ## LinkExpired component
 
 # Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = ਨਵਾਂ ਲਿੰਕ ਮਿਲਿਆ
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
-reset-pwd-link-expired-message = ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਚੁੱਕੀ ਹੈ।
+link-expired-new-link-button = ਨਵਾਂ ਲਿੰਕ ਲਵੋ
 
 ## LinkRememberPassword component
 
@@ -851,6 +886,21 @@ security-recent-activity-link = ਸੱਜਰੀ ਖਾਤਾ ਸਰਗਰਮੀ 
 signout-sync-header = ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 signout-sync-session-expired = ਅਫਸੋਸ, ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ। ਬਰਾਊਜ਼ਰ ਮੇਨੂ ਤੋਂ ਸਾਈਨ ਆਉਟ ਕਰਕੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
+## SubRow component
+
+tfa-row-backup-codes-title = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = ਕੋਈ ਕੋਡ ਉਪਲੱਬਧ ਨਹੀਂ
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਹਨ
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = ਨਵੇਂ ਕੋਡ ਲਵੋ
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = ਜੋੜੋ
+
 ## Switch component
 
 # Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
@@ -925,21 +975,18 @@ se-secondary-email-none = ਕੋਈ ਨਹੀਂ
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ
-tfa-row-disabled-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਹੈ
 tfa-row-enabled = ਸਮਰੱਥ ਹੈ
-tfa-row-not-set = ਸੈੱਟ ਨਹੀਂ
+tfa-row-disabled-status = ਅਸਮਰੱਥ ਹੈ
 tfa-row-action-add = ਜੋੜੋ
 tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
-tfa-row-content-explain = ਹਰ ਵਾਰ ਵਿਲੱਖਣ ਕੋਡ, ਜੋ ਸਿਰਫ਼਼ ਤੁਹਾਡੇ ਕੋਲ ਹੋਵੋ, ਚਾਹੀਦਾ ਬਣਾ ਕੇ ਕਿਸੇ ਹੋਰ ਨੂੰ ਲਾਗ ਇਨ ਹੋਣ ਤੋਂ ਰੋਕੋ।
 tfa-row-cannot-verify-session-4 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-row-disable-modal-heading = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਕਰਨਾ ਹੈ?
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਹੈ
 tfa-row-cannot-disable-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ
-tfa-row-change-modal-heading-1 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਦਲਣੇ ਹਨ?
-tfa-row-change-modal-confirm = ਬਦਲੋ
-tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲੈ ਸਕੋਗੇ।
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1240,6 +1287,12 @@ pair-wait-for-auth-heading-text = ਹੁਣ <span>ਤੁਹਾਡੇ ਹੋਰ �
 pair-unsupported-header = ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ
 pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰਾ ਵਰਤਿਆ ਸੀ? ਤੁਹਾਨੂੰ { -brand-firefox } ਐਪ ਤੋਂ ਪੇਅਰ ਕਰਨਾ ਪਵੇਗਾ।
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading = ਪਾਸਵਰਡ ਬਣਾਓ
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1294,11 +1347,9 @@ confirm-reset-password-otp-different-account-link = ਵੱਖਰੇ ਖਾਤੇ
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
-confirm-totp-reset-password-subheader = ਆਪਣਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸੁਰੱਖਿਆ ਕੋਡ (2FA) ਦਿਓ
-confirm-totp-reset-password-instruction = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵੇਖੋ।
 confirm-totp-reset-password-trouble-code = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
 confirm-totp-reset-password-confirm-button = ਤਸਦੀਕ
-confirm-totp-reset-password-input-label = ਕੋਡ ਦਿਓ
+confirm-totp-reset-password-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 confirm-totp-reset-password-use-different-account = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 
 ## ResetPassword start page
@@ -1389,14 +1440,6 @@ signin-push-code-confirm-link-error = ਲਿੰਕ ਨੁਕਾਸਿਆ ਗਿ�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-signin-recovery-code-input-label = 10-ਅੰਕਾਂ ਦਾ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = ਤਸਦੀਕ
 # Link to return to signin with two-step authentication code
@@ -1435,9 +1478,6 @@ signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦ�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = ਆਪਣਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸੁਰੱਖਿਆ ਕੋਡ (2FA) ਦਿਓ
-signin-totp-code-instruction-v3 = ਆਪਣੇ ਸਾਈਨ-ਇਨ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵੇਖੋ।
-signin-totp-code-input-label-v3 = ਕੋਡ ਦਿਓ
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ਤਸਦੀਕ
 signin-totp-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
@@ -1489,11 +1529,6 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 
 signup-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਲਾਓ
 signup-heading-relay = ਪਾਸਵਰਡ ਬਣਾਓ
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket =
-    ਮੈਨੂੰ ਇਸ ਖਾਤੇ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ?
-    <LinkExternal>ਜਾਣਕਾਰੀ ਇੱਥੋਂ ਲਵੋ</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)

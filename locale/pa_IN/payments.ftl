@@ -404,4 +404,6 @@ reactivate-success-button = ਬੰਦ ਕਰੋ
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: ਐਪ-ਵਿੱਚ ਖਰੀਦੋ
+sub-iap-item-apple-purchase-2 = { -brand-apple }: ਐਪ ਵਿੱਚ ਖਰੀਦੋ
 sub-iap-item-manage-button = ਬੰਦੋਬਸਤ
