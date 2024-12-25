@@ -351,7 +351,7 @@ expired-card-error = 您的信用卡已过期，请改用其他卡。
 insufficient-funds-error = 您的卡余额不足，请改用其他卡。
 withdrawal-count-limit-exceeded-error = 此交易会超过您的卡可用额度，请改用其他卡。
 charge-exceeds-source-limit = 此交易会超过您的卡可用额度。请改用其他卡，或在 24 小时后再试一次。
-instant-payouts-unsupported = 看来您的借记卡不允许即时付款。请改用其他借记卡或信用卡。
+instant-payouts-unsupported = 您的借记卡似乎未允许即时付款。请改用其他借记卡或信用卡。
 duplicate-transaction = 呃，看起来刚刚发生了相同的交易。请检查您的付款记录。
 coupon-expired = 折扣码似乎已过期。
 card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
@@ -525,7 +525,7 @@ reactivate-confirm-dialog-header = 是否要继续使用 { $name }？
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
-reactivate-confirm-copy = 您可继续访问 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate }，对尾号为 { $last } 的卡收取 { $amount }。
+reactivate-confirm-copy = 您可继续使用 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate }，对尾号为 { $last } 的卡收取 { $amount }。
 # Alternate copy used when a payment method is not available, e.g. for free trials
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
