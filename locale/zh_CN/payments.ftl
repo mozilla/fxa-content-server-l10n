@@ -344,13 +344,13 @@ plan-price-interval-year =
 # App error dialog
 general-error-heading = 一般性程序错误
 basic-error-message = 出问题了，请稍后再试。
-payment-error-1 = 呃，您的付款授权有问题。请再试一次或与您的发卡行联系。
-payment-error-2 = 呃，您的付款授权有问题。请与您的发卡行联系。
+payment-error-1 = 呃，您的付款授权有问题。请再试一次或与您的发卡机构联系。
+payment-error-2 = 呃，您的付款授权有问题。请与您的发卡机构联系。
 payment-error-3b = 处理付款时发生意外错误，请重试。
 expired-card-error = 您的信用卡已过期，请改用其他卡。
 insufficient-funds-error = 您的卡余额不足，请改用其他卡。
 withdrawal-count-limit-exceeded-error = 此交易会超过您的卡可用额度，请改用其他卡。
-charge-exceeds-source-limit = 此交易会超过您的卡可用额度，请在改用其他卡，或在 24 小时后再刷一次。
+charge-exceeds-source-limit = 此交易会超过您的卡可用额度。请改用其他卡，或在 24 小时后再试一次。
 instant-payouts-unsupported = 看来您的借记卡不允许即时付款。请改用其他借记卡或信用卡。
 duplicate-transaction = 呃，看起来刚刚发生了相同的交易。请检查您的付款记录。
 coupon-expired = 折扣码似乎已过期。
