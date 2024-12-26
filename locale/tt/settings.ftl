@@ -26,6 +26,11 @@ brand-m-logo =
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Иңдерү һәм дәвам итү
+    .title = Иңдерү һәм дәвам итү
 recovery-key-pdf-heading = Хисапны Коткару Ачкычы
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
@@ -41,6 +46,11 @@ recovery-key-pdf-support = Хисапны коткару ачкычыгыз ту
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = { -brand-mozilla } хәбәрләренә язылыгыз:
+# Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Иң соңгы яңалыкларыбыз һәм продукт яңартуларыбыз турында хәбәрдар булыгыз
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Яңа продуктларны иртәрәк сынап карау мөмкинлеге
@@ -415,15 +425,20 @@ header-help = Ярдәм
 
 ## Linked Accounts section
 
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Ябу
 modal-cancel-button = Баш тарту
+modal-default-confirm-button = Раслау
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Эл. почтагызны раслагыз
+mvs-enter-verification-code-2 = Раслау кодыгызны кертегез
 msv-cancel-button = Баш тарту
+msv-submit-button-2 = Раслау
 
 ## Settings Nav
 
@@ -437,6 +452,8 @@ nav-email-comm = Эл. почта элемтәләр
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = Адым 1/2
+tfa-replace-code-2-2 = Адым 2/2
 
 ## Avatar change page
 
@@ -464,6 +481,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Камераны кабызып булмады
 avatar-page-new-avatar =
     .alt = яңа профиль рәсеме
+avatar-page-file-upload-error-3 = Профиль рәсемегезне йөкләгәндә хата китте
+avatar-page-delete-error-3 = Профиль рәсемегезне бетергәндә хата китте
+avatar-page-image-too-large-error-2 = Рәсем файлы йөкләп булмаслык зур
 
 ##
 
@@ -472,7 +492,10 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Серсүзне үзгәртү
+pw-8-chars = Кимендә 8 символ
+pw-not-email = Эл. почта адресыгыз түгел
 pw-change-must-match = Яңа серсүз раслауга туры килә
+pw-commonly-used = Еш куллана торган серсүз түгел
 pw-change-cancel-button = Баш тарту
 pw-change-save-button = Саклау
 pw-change-forgot-password-link = Паролыгызны оныттыгызмы?
@@ -482,12 +505,17 @@ pw-change-new-password =
     .label = Яңа паролны языгыз
 pw-change-confirm-password =
     .label = Яңа серсүзне раслагыз
+pw-change-success-alert-2 = Серсүз яңартылды
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Серсүз булдыру
+pw-create-success-alert-2 = Cерсүз куелды
+pw-create-error-2 = Гафу итегез, серсүзне куюда хата килеп чыкты
 
 ##
 
@@ -506,6 +534,7 @@ delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } мәгълүматларын синхронлау
+delete-account-product-firefox-addons = { -brand-firefox } кушымчалары
 delete-account-continue-button = Дәвам итү
 delete-account-password-input =
     .label = Паролны кертү
@@ -523,6 +552,7 @@ display-name-input =
     .label = Күрсәтеләчәк исемне кертегез
 submit-display-name = Саклау
 cancel-display-name = Баш тарту
+display-name-success-alert-2 = Күрсәтелүче исем яңартылды
 
 ##
 
@@ -531,6 +561,11 @@ cancel-display-name = Баш тарту
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Соңгы хисап гамәлләре
+recent-activity-account-create-v2 = Хисап булдырылды
+recent-activity-account-disable-v2 = Хисап сүндерелде
+recent-activity-account-enable-v2 = Хисап кабызылды
+recent-activity-account-login-v2 = Хисапка керү башланды
 
 ## PageRecoveryKeyCreate
 
