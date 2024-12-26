@@ -1432,6 +1432,10 @@ complete-reset-pw-recovery-key-link = Hesap kurtarma anahtarını kullan
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Parolanız sıfırlandı.
 reset-password-complete-banner-message = Gelecekte sorun yaşamamak için { -product-mozilla-account } ayarlarınızdan yeni bir hesap kurtarma anahtarı oluşturmayı unutmayın.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
 ## Confirm Reset Password With Code
 
@@ -1508,6 +1512,10 @@ signin-header = Giriş yap
 signin-use-a-different-account-link = Farklı bir hesap kullan
 signin-forgot-password-link = Parolanızı unuttunuz mu?
 signin-password-button-label = Parola
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1565,6 +1573,10 @@ signin-recovery-code-back-link = Geri dön
 signin-recovery-code-support-link = Hesabınız kilitlendi mi?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Yedek kimlik doğrulama kodu gerekli
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1590,6 +1602,10 @@ signin-token-code-resend-code-link = E-posta ile yeni kod gönder.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Onay kodu gerekiyor
 signin-token-code-resend-error = Bir sorun oluştu. Yeni kod gönderilemedi.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1605,6 +1621,10 @@ signin-totp-code-other-account-link = Farklı bir hesap kullan
 signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Kimlik doğrulama kodu gerekli
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1620,6 +1640,10 @@ signin-unblock-code-incorrect-length = Yetkilendirme kodu 8 karakterden oluşmal
 signin-unblock-code-incorrect-format-2 = Yetkilendirme kodu yalnızca harf ve rakamlardan oluşabilir
 signin-unblock-resend-code-button = Gelen kutusunda ve spam klasöründe göremediniz mi? Yeniden gönderin
 signin-unblock-support-link = Neden böyle bir şey oldu?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1644,6 +1668,10 @@ confirm-signup-code-resend-code-link = E-posta ile yeni kod gönder.
 confirm-signup-code-success-alert = Hesap başarıyla onaylandı
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Onay kodu gerekli
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
