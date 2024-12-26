@@ -566,6 +566,15 @@ recent-activity-account-create-v2 = Хисап булдырылды
 recent-activity-account-disable-v2 = Хисап сүндерелде
 recent-activity-account-enable-v2 = Хисап кабызылды
 recent-activity-account-login-v2 = Хисапка керү башланды
+recent-activity-account-reset-v2 = Серсүзне үзгәртү башланды
+recent-activity-account-two-factor-added = Ике адымлы аутентификация кабызылды
+recent-activity-account-two-factor-requested = Ике адымлы аутентификация соралды
+recent-activity-account-two-factor-failure = Ике адымлы аутентификация уңышсыз тәмамланды
+recent-activity-account-two-factor-success = Ике адымлы аутентификация уңышлы булды
+recent-activity-account-two-factor-removed = Ике адымлы аутентификация сүндерелде
+recent-activity-account-password-reset-requested = Хисап серсүзен үзгәртүне сорады
+recent-activity-account-password-reset-success = Хисап серсүзен үзгәртү уңышлы тәмамланды
+recent-activity-account-recovery-key-added = Хисапны коткару ачкычы кабызылды
 
 ## PageRecoveryKeyCreate
 
