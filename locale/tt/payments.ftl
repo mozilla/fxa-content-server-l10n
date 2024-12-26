@@ -110,6 +110,7 @@ payment-cc =
 payment-cancel-btn = Баш тарту
 payment-update-btn = Яңарту
 payment-pay-btn = Хәзер үк түләү
+payment-pay-with-paypal-btn-2 = { -brand-paypal } белән түләү
 payment-validate-name-error = Зинһар, исемегезне кертегез
 
 ## Component - PaymentLegalBlurb
@@ -280,6 +281,8 @@ sub-route-idx-cancel-msg-title = Сезнең белән саубуллашу к
 
 sub-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
+sub-invoice-error =
+    .title = Квитанцияләрне йөкләгәндә хата китте
 sub-billing-update-success = Түләү турындагы мәгълүматларыгызны яңарту уңышлы узды
 
 ## Routes - Subscription - ActionButton
@@ -326,4 +329,6 @@ reactivate-success-button = Ябу
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Кушымта эчендә сатып алу
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Кушымта эчендә сатып алу
 sub-iap-item-manage-button = Идарә итү

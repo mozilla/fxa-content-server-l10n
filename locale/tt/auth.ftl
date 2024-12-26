@@ -356,6 +356,10 @@ verificationReminderSecond-subject-2 = Хисабыгызны расларга �
 verificationReminderSecond-action-2 = Хисапны раслагыз
 verify-title-3 = Интернетны { -brand-mozilla } белән ачыгыз
 verify-subject = Хисап язмагызны ясап бетерегез
+verify-action-2 = Хисапны раслагыз
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Сез { $clientName } кушымтасына кердегезме?
 verifyLogin-subject-2 = Керүне раслау
 verifyLogin-action = Керүне раслау
 # Variables:
