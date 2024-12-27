@@ -314,6 +314,9 @@ input-password-show-aria-2 = Ваш пароль зараз приховано.
 input-password-sr-only-now-visible = Ваш пароль тепер видно на екрані.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Ваш пароль тепер приховано.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -958,8 +961,9 @@ security-recent-activity-link = Переглянути останні дії в 
 signout-sync-header = Сеанс завершився
 signout-sync-session-expired = Перепрошуємо, щось пішло не так. Вийдіть через меню браузера та повторіть спробу.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Резервні коди автентифікації
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Немає доступних кодів
@@ -972,7 +976,20 @@ tfa-row-backup-codes-get-new-cta = Отримати нові коди
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Додати
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Це найбезпечніший спосіб відновлення, якщо ви не можете отримати доступ до свого мобільного пристрою чи програми автентифікації.
+tfa-row-backup-codes-description-2 = Це найбезпечніший спосіб відновлення, якщо ви не можете використати свій мобільний пристрій або програму автентифікації.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Резервний телефон для відновлення
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Номер телефону для відновлення недоступний
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Змінити
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Додати
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Вилучити
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Це простіший спосіб відновлення, якщо ви не можете використовувати програму автентифікації.
 
 ## Switch component
 
@@ -1615,6 +1632,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } спробує 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Увійти
 signin-totp-code-subheader-v2 = Введіть код двоетапної перевірки
 signin-totp-code-instruction-v4 = Підтвердьте вхід у <strong>програмі автентифікації</strong>.
 signin-totp-code-input-label-v4 = Введіть код із 6 цифр
