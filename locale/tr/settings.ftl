@@ -983,6 +983,10 @@ tfa-row-backup-phone-delete-button = Kaldır
 tfa-row-backup-phone-delete-title = Yedek kurtarma telefonunu kaldır
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu daha kolay bir kurtarma yöntemidir.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = SIM swap saldırısı bilgi alın
 
 ## Switch component
 
@@ -1123,6 +1127,7 @@ auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
 auth-error-159 = Geçersiz hesap kurtarma anahtarı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
+auth-error-206 = Parola zaten belirlenmiş olduğu için parola oluşturulamıyor
 auth-error-999 = Beklenmeyen hata
 auth-error-1001 = Giriş denemesi iptal edildi
 auth-error-1002 = Oturum zaman aşımına uğradı. Devam etmek için giriş yapın.
