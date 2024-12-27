@@ -317,6 +317,9 @@ input-password-sr-only-now-hidden = Ваш пароль тепер прихов�
 
 ## Phone number component
 
+input-phone-number-enter-number = Введіть номер телефону
+input-phone-number-country-united-states = США
+input-phone-number-country-canada = Канада
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -988,8 +991,15 @@ tfa-row-backup-phone-change-cta = Змінити
 tfa-row-backup-phone-add-cta = Додати
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Вилучити
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Видалити резервний телефон для відновлення
+tfa-row-backup-phone-delete-restriction = Якщо ви хочете вилучити резервний телефон для відновлення, додайте резервні коди автентифікації або спершу вимкніть двоетапну перевірку, щоб уникнути блокування облікового запису.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Це простіший спосіб відновлення, якщо ви не можете використовувати програму автентифікації.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Дізнайтеся про ризик підміни SIM-карти
 
 ## Switch component
 
@@ -1151,6 +1161,7 @@ auth-error-1010 = Введіть правильний пароль
 auth-error-1011 = Потрібна дійсна адреса електронної пошти
 auth-error-1031 = Ви повинні вказати свій вік, щоб виконати вхід
 auth-error-1032 = Для реєстрації ви повинні вказати правильний вік
+auth-error-1054 = Недійсний код двоетапної перевірки
 auth-error-1062 = Недійсне переспрямування
 oauth-error-1000 = Щось пішло не так. Закрийте цю вкладку і спробуйте знову.
 
