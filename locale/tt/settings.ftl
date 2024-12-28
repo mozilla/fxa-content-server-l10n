@@ -575,13 +575,27 @@ recent-activity-account-two-factor-removed = Ике адымлы аутенти�
 recent-activity-account-password-reset-requested = Хисап серсүзен үзгәртүне сорады
 recent-activity-account-password-reset-success = Хисап серсүзен үзгәртү уңышлы тәмамланды
 recent-activity-account-recovery-key-added = Хисапны коткару ачкычы кабызылды
+recent-activity-account-recovery-key-removed = Хисапны коткару ачкычы бетерелде
+recent-activity-account-password-added = Яңа серсүз өстәлде
+recent-activity-account-password-changed = Cерсүз үзгәртелде
+recent-activity-account-secondary-email-added = Икенчел эл. почта адресы өстәлде
+recent-activity-account-secondary-email-removed = Икенчел эл. почта адресы бетерелде
+recent-activity-account-emails-swapped = Беренчел һәм икенчел эл. почталар алыштырылды
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Башка хисап гамәлләре
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Хисапны коткару ачкычы
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Көйләүләргә кире кайту
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Адым 1/2
+add-secondary-email-error-2 = Бу эл. почтаны ясаганда хата китте
 add-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
 add-secondary-email-enter-address =
