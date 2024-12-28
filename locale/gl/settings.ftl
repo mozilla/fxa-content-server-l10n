@@ -112,15 +112,47 @@ device-info-block-location-city-region-country = { $city }, { $region }, { $coun
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
 device-info-block-location-region-country = { $region }, { $country } (estimado)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (estimado)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (estimado)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Localización descoñecida
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } en { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Enderezo IP: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Contrasinal
+signup-confirm-password-label =
+    .label = Repetir contrasinal
+signup-submit-button = Crear unha conta
+form-reset-password-with-balloon-new-password =
+    .label = Novo contrasinal
+form-reset-password-with-balloon-confirm-password =
+    .label = Escriba de novo o contrasinal
+form-reset-password-with-balloon-submit-button = Restablecer o contrasinal
+form-reset-password-with-balloon-match-error = Non coinciden os contrasinais
+form-password-sr-too-short-message = O contrasinal debe conter polo menos 8 caracteres.
+form-password-sr-not-email-message = O contrasinal non debe conter o seu enderezo de correo electrónico.
+form-password-sr-not-common-message = O contrasinal non debe ser un contrasinal de uso habitual.
+form-password-sr-requirements-met = O contrasinal introducido respecta todos os requisitos de contrasinal.
+form-password-sr-passwords-match = Os contrasinais introducidos coinciden.
 
 ## FormPasswordInlineCriteria
 
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Este campo é obrigatorio
 
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
@@ -128,6 +160,18 @@ device-info-block-location-region-country = { $region }, { $country } (estimado)
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Chave de recuperación da conta de { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Copia de seguridade dos códigos de autenticación
+get-data-trio-download-2 =
+    .title = Descargar
+    .aria-label = Descargar
+get-data-trio-copy-2 =
+    .title = Copiar
+    .aria-label = Copiar
+get-data-trio-print-2 =
+    .title = Mostrar
+    .aria-label = Mostrar
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -136,6 +180,25 @@ device-info-block-location-region-country = { $region }, { $country } (estimado)
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Un ordenador, un teléfono móbil e unha imaxe dun corazón partido en cada un
+hearts-verified-image-aria-label =
+    .aria-label = Un ordenador, un teléfono móbil e unha tableta cun corazón palpitante en cada un
+signin-recovery-code-image-description =
+    .aria-label = Documento que contén texto oculto.
+signin-totp-code-image-label =
+    .aria-label = Un dispositivo cun código oculto de 6 díxitos.
+confirm-signup-aria-label =
+    .aria-label = Un sobre que contén unha ligazón
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustración para representar unha clave de recuperación da conta.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustración para representar unha clave de recuperación da conta.
+lightbulb-aria-label =
+    .aria-label = Ilustración para representar a creación dunha pista de almacenamento.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -144,9 +207,37 @@ device-info-block-location-region-country = { $region }, { $country } (estimado)
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
+input-password-hide = Agochar o contrasinal
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
+input-password-show = Amosar contrasinal
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = O teu contrasinal está actualmente visible na pantalla.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = O teu contrasinal está oculto actualmente.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = O teu contrasinal está sendo visible na pantalla.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = O teu contrasinal agora está oculto.
+
+## Phone number component
+
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Atrás
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Danouse a ligazón de restabelecer o contrasinal
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = A ligazón de confirmación está danada
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = A ligazón está danada
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Á ligazón que premeu faltábanlle caracteres, pode que o seu cliente de correo electrónico a rompese. Probe a copiar o enderezo de novo, con coidado.
 
 ## LinkExpired component
 
@@ -156,9 +247,16 @@ device-info-block-location-region-country = { $region }, { $country } (estimado)
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = O correo electrónico principal xa está confirmado
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Xa se confirmou o inicio de sesión
+confirmation-link-reused-message = Esa ligazón de confirmación xa se usou e só pode usarse unha vez.
 
 ## Notification Promo Banner component
 
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Solicitude incorrecta
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -351,6 +449,9 @@ cs-disconnect-sync-heading = Desconectar de Sync
 
 
 ## Security section of Setting
+
+
+## SubRow component
 
 
 ## Switch component

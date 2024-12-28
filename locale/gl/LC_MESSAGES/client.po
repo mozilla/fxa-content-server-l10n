@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-05-03 19:06+0000\n"
-"Last-Translator: proba.educator226 <proba.educator226@passinbox.com>\n"
+"PO-Revision-Date: 2024-12-28 13:33+0000\n"
+"Last-Translator: Adrián <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -1834,15 +1834,15 @@ msgstr "Máis información"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Cambiamos o nome das contas de Firefox a contas de Mozilla. Seguirá iniciando sesión co mesmo nome de usuario e contrasinal e non hai outros cambios nos produtos que utiliza."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "Pechar o cartel"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Cantos anos ten? Para saber por que pedimos a súa idade, siga a ligazón «Por que preguntamos» a continuación."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1850,7 +1850,7 @@ msgstr "Cantos anos ten?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "Por que preguntamos?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1878,23 +1878,23 @@ msgstr "Enderezo IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Requisitos de contrasinal"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Polo menos 8 caracteres"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Non é o seu enderezo de correo electrónico"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Non é un contrasinal de uso habitual"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Mantéñase seguro &mdash; non reutilice os contrasinais. Consulte máis consellos para <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">crear contrasinais seguros</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1910,15 +1910,15 @@ msgstr "Volver a subscricións"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"
-msgstr ""
+msgstr "Continúa con Google"
 
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
-msgstr ""
+msgstr "Continúa con Apple"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
