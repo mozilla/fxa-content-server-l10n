@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-18 21:06+0000\n"
-"Last-Translator: Jesús Amieiro <amieiro@gmail.com>\n"
+"PO-Revision-Date: 2024-05-03 19:06+0000\n"
+"Last-Translator: proba.educator226 <proba.educator226@passinbox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -1822,15 +1822,15 @@ msgstr "Por que teño que crear esta conta? <a %(escapedSuggestionAttrs)s>Descú
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "As contas de Firefox renomearanse como Mozilla o 1 de novembro"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Seguirá iniciando sesión co mesmo nome de usuario e contrasinal e non hai outros cambios nos produtos que utiliza."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Máis información"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
