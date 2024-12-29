@@ -970,12 +970,20 @@ tfa-row-backup-codes-get-new-cta = Sækja nýja kóða
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Bæta við
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Þetta er öruggasta endurheimtuaðferðin ef þú getur ekki notað farsímann þinn eða auðkenningarforritið.
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Breyta
 # button to add/configure a backup recovery phone
 tfa-row-backup-phone-add-cta = Bæta við
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Fjarlægja
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = Þetta er auðveldasta endurheimtuaðferðin ef þú getur ekki notað auðkenningarforritið þitt.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Kynntu þér áhættu varðandi útskipti á SIM-kortum
 
 ## Switch component
 
@@ -1125,6 +1133,7 @@ auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstf
 auth-error-155 = TOTP-teikn fannst ekki
 auth-error-159 = Ógildur endurheimtulykill reiknings
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
+auth-error-206 = Get ekki búið til lykilorð, lykilorð er þegar stillt
 auth-error-999 = Óvænt villa
 auth-error-1001 = Hætt við tilraun til innskráningar
 auth-error-1002 = Lota rann út. Skráðu þig inn til að halda áfram.
@@ -1134,6 +1143,7 @@ auth-error-1010 = Gerð er krafa um gilt lykilorð
 auth-error-1011 = Krafist er gilds tölvupóstfangs
 auth-error-1031 = Þú verður að setja inn aldur þinn til að geta nýskráð þig
 auth-error-1032 = Þú verður að setja inn gildan aldur til að geta nýskráð þig
+auth-error-1054 = Ógildur tveggja-þrepa auðkenningarkóði
 auth-error-1062 = Ógild endurbeining
 oauth-error-1000 = Eitthvað fór úrskeiðis. Lokaðu þessum flipa og prófaðu aftur.
 
@@ -1433,6 +1443,10 @@ complete-reset-pw-recovery-key-link = Nota endurheimtarlykil reiknings
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Lykilorðið þitt var endurstillt.
 reset-password-complete-banner-message = Ekki gleyma að búa til nýjan endurheimtulykil í { -product-mozilla-account } stillingunum þínum til að koma í veg fyrir möguleg vandamál með innskráningu í framtíðinni.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } mun reyna að senda þig til baka til að nota tölvupósthulu eftir að þú skráir þig inn.
 
 ## Confirm Reset Password With Code
 
@@ -1514,6 +1528,10 @@ signin-header = Skrá inn
 signin-use-a-different-account-link = Nota annan reikning
 signin-forgot-password-link = Gleymt lykilorð?
 signin-password-button-label = Lykilorð
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } mun reyna að senda þig til baka til að nota tölvupósthulu eftir að þú skráir þig inn.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1571,6 +1589,10 @@ signin-recovery-code-back-link = Til baka
 signin-recovery-code-support-link = Ertu læst/ur úti?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Varaauðkenningarkóða krafist
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = { -brand-firefox } mun reyna að senda þig til baka til að nota tölvupósthulu eftir að þú skráir þig inn.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1596,6 +1618,10 @@ signin-token-code-resend-code-link = Senda nýjan kóða í tölvupósti.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Staðfestingarkóða krafist
 signin-token-code-resend-error = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan kóða.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } mun reyna að senda þig til baka til að nota tölvupósthulu eftir að þú skráir þig inn.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1611,6 +1637,10 @@ signin-totp-code-other-account-link = Nota annan reikning
 signin-totp-code-recovery-code-link = Vandamál við að setja inn kóða?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Auðkenningarkóða krafist
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } mun reyna að senda þig til baka til að nota tölvupósthulu eftir að þú skráir þig inn.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1626,6 +1656,10 @@ signin-unblock-code-incorrect-length = Heimildarkóði verður að innihalda 8 s
 signin-unblock-code-incorrect-format-2 = Heimildarkóði getur aðeins innihaldið bókstafi og/eða tölustafi
 signin-unblock-resend-code-button = Ekki í pósthólfinu eða ruslpóstmöppunni? Senda aftur
 signin-unblock-support-link = Hvers vegna er þetta að gerast?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } mun reyna að senda þig til baka til að nota tölvupósthulu eftir að þú skráir þig inn.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1650,6 +1684,10 @@ confirm-signup-code-resend-code-link = Senda nýjan kóða í tölvupósti.
 confirm-signup-code-success-alert = Tókst að staðfesta reikning
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Staðfestingarkóða er krafist
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } mun reyna að senda þig til baka til að nota tölvupósthulu eftir að þú skráir þig inn.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
