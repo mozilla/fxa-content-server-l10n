@@ -972,12 +972,19 @@ tfa-row-backup-codes-get-new-cta = Sækja nýja kóða
 tfa-row-backup-codes-add-cta = Bæta við
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Þetta er öruggasta endurheimtuaðferðin ef þú getur ekki notað farsímann þinn eða auðkenningarforritið.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Símanúmer varaöryggisafritunar
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Ekkert endurheimtusímanúmer tiltækt
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Breyta
 # button to add/configure a backup recovery phone
 tfa-row-backup-phone-add-cta = Bæta við
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Fjarlægja
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Fjarlægja símanúmer varaöryggisafritunar
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Þetta er auðveldasta endurheimtuaðferðin ef þú getur ekki notað auðkenningarforritið þitt.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
