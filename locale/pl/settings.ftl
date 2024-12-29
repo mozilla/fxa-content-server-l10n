@@ -314,6 +314,12 @@ input-password-show-aria-2 = Twoje hasło jest obecnie ukryte.
 input-password-sr-only-now-visible = Twoje hasło jest teraz widoczne na ekranie.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Twoje hasło jest teraz ukryte.
+
+## Phone number component
+
+input-phone-number-enter-number = Wpisz numer telefonu
+input-phone-number-country-united-states = Stany Zjednoczone
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Wstecz
 
@@ -954,8 +960,9 @@ security-recent-activity-link = Ostatnie działania na koncie
 signout-sync-header = Sesja wygasła
 signout-sync-session-expired = Coś się nie powiodło. Proszę wylogować się z menu przeglądarki i spróbować ponownie.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Zapasowe kody uwierzytelniania
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Brak dostępnych kodów
@@ -973,7 +980,21 @@ tfa-row-backup-codes-get-new-cta = Uzyskaj nowe kody
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = To najbezpieczniejsza metoda odzyskiwania, jeśli nie masz dostępu do telefonu lub aplikacji uwierzytelniającej.
+tfa-row-backup-codes-description-2 = To najbezpieczniejsza metoda odzyskiwania, jeśli nie możesz użyć telefonu lub aplikacji uwierzytelniającej.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = Zapasowy telefon odzyskiwania
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = Brak dostępnego numeru telefonu odzyskiwania
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Zmień
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Dodaj
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Usuń
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = Usuń zapasowy telefon odzyskiwania
+tfa-row-backup-phone-delete-restriction = Jeśli chcesz usunąć zapasowy telefon odzyskiwania, najpierw dodaj zapasowe kody uwierzytelniania lub wyłącz uwierzytelnianie dwuetapowe, aby uniknąć zablokowania konta.
 
 ## Switch component
 
