@@ -901,6 +901,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
     þegar þú ert ekki með snjalltækið þitt við hendina.
+tfa-enter-code-to-confirm-v2 =
+    Settu inn einn af nýju öryggisafritunar-auðkenningarkóðunum þínum til að
+    staðfesta að þú hafir vistað þá. Gömlu auðkenningarkóðarnir þínir verða óvirkir þegar þessu skrefi er lokið.
 tfa-enter-recovery-code-1 =
     .label = Settu inn varaauðkenningarkóða
 
