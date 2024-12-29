@@ -988,6 +988,7 @@ tfa-row-backup-phone-add-cta = Bæta við
 tfa-row-backup-phone-delete-button = Fjarlægja
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Fjarlægja símanúmer varaöryggisafritunar
+tfa-row-backup-phone-delete-restriction = Ef þú vilt fjarlægja símanúmer öryggisafritunar skaltu bæta við auðkenningarkóðum öryggisafritunar eða slökkva fyrst á tveggja-þrepa auðkenningu til að forðast það að læsast úti á reikningnum þínum.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Þetta er auðveldasta endurheimtuaðferðin ef þú getur ekki notað auðkenningarforritið þitt.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1088,6 +1089,8 @@ tfa-row-cannot-refresh =
     Því miður kom upp vandamál við að endurnýja tveggja-þrepa
     auðkenningu.
 tfa-row-enabled-description = Reikningurinn þinn er varinn með tveggja-þrepa auðkenningu. Þú þarft að setja einu sinni inn aðgangskóða úr auðkenningarforritinu þínu þegar þú skráir þig inn á { -product-mozilla-account } þinn.
+# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-disabled-description = Hjálpaðu til við að tryggja öryggi reikningsins þíns með því að nota <linkExternal>auðkenningararforrit frá utanaðkomandi aðila</linkExternal> sem annað þrep til að skrá þig inn.
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
