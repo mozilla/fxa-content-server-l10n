@@ -278,6 +278,7 @@ recovery-key-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = ਤੁਸੀਂ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰ ਚੁੱਕੇ ਹੋ।
 inline-recovery-key-setup-create-header = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਮਿੰਟ ਕੁ ਹੈ?
@@ -900,6 +901,23 @@ tfa-row-backup-codes-get-new-cta = ਨਵੇਂ ਕੋਡ ਲਵੋ
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = ਜੋੜੋ
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = ਬੈਕਅੱਪ ਰਿਕਵਰੀ ਫ਼ੋਨ
+# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-not-available = ਕੋਈ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਮੌਜੂਦ ਨਹੀਂ ਹੈ
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = ਬਦਲੋ
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = ਜੋੜੋ
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = ਹਟਾਓ
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = ਬੈਕਅੱਪ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਹਟਾਓ
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = ਸਿਮ ਬਦਲਣ ਦੇ ਖ਼ਤਰੇ ਬਾਰੇ ਹੋਰ ਜਾਣੋ
 
 ## Switch component
 
@@ -1537,6 +1555,9 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 
 signup-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਲਾਓ
 signup-heading-relay = ਪਾਸਵਰਡ ਬਣਾਓ
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = ਇੱਥੇ ਹੋਰ ਲੱਭੋ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
