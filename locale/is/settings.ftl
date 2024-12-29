@@ -314,6 +314,12 @@ input-password-show-aria-2 = Lykilorðið þitt er núna falið.
 input-password-sr-only-now-visible = Lykilorðið þitt er nú sýnilegt á skjánum.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Lykilorðið þitt er núna falið.
+
+## Phone number component
+
+input-phone-number-enter-number = Settu inn símanúmer
+input-phone-number-country-united-states = Bandaríkin
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Til baka
 
@@ -950,8 +956,9 @@ security-recent-activity-link = Skoða nýlega virkni á reikningi
 signout-sync-header = Lotan er útrunnin
 signout-sync-session-expired = Því miður, eitthvað fór úrskeiðis. Skráðu þig út í gegnum valmynd vafrans og reyndu aftur.
 
-## Settings sub row
+## SubRow component
 
+tfa-row-backup-codes-title = Varaauðkenningarkóðar
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Engir kóðar til taks
@@ -963,6 +970,12 @@ tfa-row-backup-codes-get-new-cta = Sækja nýja kóða
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Bæta við
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Breyta
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Bæta við
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Fjarlægja
 
 ## Switch component
 
@@ -1588,6 +1601,7 @@ signin-token-code-resend-error = Eitthvað fór úrskeiðis. Ekki var hægt að 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Skrá inn
 signin-totp-code-subheader-v2 = Settu inn tveggja-þrepa auðkenningarkóða
 signin-totp-code-instruction-v4 = Athugaðu <strong>auðkenningarforritið þitt</strong> til að staðfesta innskráninguna þína.
 signin-totp-code-input-label-v4 = Settu inn 6-stafa kóða
