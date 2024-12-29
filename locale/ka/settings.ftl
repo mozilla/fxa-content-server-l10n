@@ -1539,7 +1539,7 @@ signin-password-needed-header-2 = შეიყვანეთ პაროლი
 signin-subheader-with-logo = განაგრძეთ, რომ იხილოთ <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
-signin-subheader-without-logo-with-servicename = გამოიყენეთ { $serviceName }
+signin-subheader-without-logo-with-servicename = გაიხსნება { $serviceName }
 signin-subheader-without-logo-default = გადასვლა ანგარიშის პარამეტრებზე
 signin-button = შესვლა
 signin-header = შესვლა
