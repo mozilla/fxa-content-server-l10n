@@ -995,6 +995,12 @@ tfa-row-backup-phone-delete-button = Usuń
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Usuń zapasowy telefon odzyskiwania
 tfa-row-backup-phone-delete-restriction = Jeśli chcesz usunąć zapasowy telefon odzyskiwania, najpierw dodaj zapasowe kody uwierzytelniania lub wyłącz uwierzytelnianie dwuetapowe, aby uniknąć zablokowania konta.
+# "this" refers to backup recovery phone
+tfa-row-backup-phone-description = To najłatwiejsza metoda odzyskiwania, jeśli nie możesz użyć aplikacji uwierzytelniającej.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Więcej informacji o ryzyku zamiany karty SIM
 
 ## Switch component
 
@@ -1156,6 +1162,7 @@ auth-error-1010 = Wymagane jest prawidłowe hasło
 auth-error-1011 = Wymagany jest prawidłowy adres e-mail
 auth-error-1031 = Należy podać swój wiek przed zarejestrowaniem
 auth-error-1032 = Należy podać prawidłowy wiek przed zarejestrowaniem
+auth-error-1054 = Nieprawidłowy kod uwierzytelniania dwuetapowego
 auth-error-1062 = Nieprawidłowe przekierowanie
 oauth-error-1000 = Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie.
 
@@ -1637,6 +1644,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } po zalogowaniu 
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Zaloguj się
 signin-totp-code-subheader-v2 = Wpisz kod uwierzytelniania dwuetapowego
 signin-totp-code-instruction-v4 = Sprawdź <strong>aplikację uwierzytelniającą</strong>, aby potwierdzić logowanie.
 signin-totp-code-input-label-v4 = Wpisz sześciocyfrowy kod
