@@ -978,7 +978,7 @@ tfa-row-backup-codes-add-cta = Ychwanegu
 tfa-row-backup-codes-description-2 = Dyma’r dull adfer mwyaf diogel os na allwch ddefnyddio’ch dyfais symudol neu ap dilysu.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Ffôn adfer copi wrth gefn
+tfa-row-backup-phone-title = Ffôn adfer y copi wrth gefn
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Dim rhif ffôn adfer ar gael
 # button to change the configured backup recovery phone
@@ -988,14 +988,14 @@ tfa-row-backup-phone-add-cta = Ychwanegu
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Tynnu
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Dileu ffôn adfer copi wrth gefn
-tfa-row-backup-phone-delete-restriction = Os ydych chi am gael gwared ar eich ffôn adfer copi wrth gefn, ychwanegwch godau dilysu wrth gefn neu analluoga dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
+tfa-row-backup-phone-delete-title = Dileu ffôn adfer y copi wrth gefn
+tfa-row-backup-phone-delete-restriction = Os ydych chi am ddileu eich ffôn adfer copi wrth gefn, ychwanegwch godau dilysu wrth gefn neu analluogi dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
 # "this" refers to backup recovery phone
-tfa-row-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch app dilysu.
+tfa-row-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch ap dilysu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
-tfa-row-backup-phone-sim-swap-risk-link = Dysgwch am risg cyfnewid SIM
+tfa-row-backup-phone-sim-swap-risk-link = Gwybodaeth am risg cyfnewid SIM
 
 ## Switch component
 
