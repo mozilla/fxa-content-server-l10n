@@ -973,7 +973,7 @@ tfa-row-backup-codes-add-cta = Adicionar
 tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seguro se não puder utilizar o seu dispositivo móvel ou a aplicação de autenticação.
 # Backup recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Telefone de recuperação de cópia de segurança
+tfa-row-backup-phone-title = Telefone de recuperação de recurso
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = Não existe um número de telefone de recuperação disponível
 # button to change the configured backup recovery phone
@@ -983,8 +983,8 @@ tfa-row-backup-phone-add-cta = Adicionar
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Remover telefone de recuperação de cópia de segurança
-tfa-row-backup-phone-delete-restriction = Se quiser remover o seu telefone de recuperação de recuperação, adicione códigos de autenticação de recuperação ou desative primeiro a autenticação de dois passos para evitar que fique sem acesso à sua conta.
+tfa-row-backup-phone-delete-title = Remover telefone de recuperação de recurso
+tfa-row-backup-phone-delete-restriction = Se quiser remover o seu telefone de recuperação de recurso, adicione códigos de autenticação de recuperação ou desative primeiro a autenticação de dois passos para evitar que fique sem acesso à sua conta.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Este é o método de recuperação mais fácil se não puder utilizar a sua aplicação de autenticação.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1150,7 +1150,7 @@ auth-error-1010 = Palavra-passe válida necessária
 auth-error-1011 = É necessário um e-mail válido
 auth-error-1031 = Deve inserir a sua idade para se registar
 auth-error-1032 = Deve inserir uma idade válida para se registar
-auth-error-1054 = Código de autenticação de dois fatores inválido
+auth-error-1054 = Código de autenticação de dois passos inválido
 auth-error-1062 = Redirecionamento inválido
 oauth-error-1000 = Ocorreu um erro. Feche este separador e tente novamente.
 
