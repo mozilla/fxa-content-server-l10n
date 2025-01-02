@@ -897,6 +897,9 @@ tfa-enter-totp-v2 = Şimdi kimlik doğrulama uygulamasının verdiği kimlik do�
 tfa-input-enter-totp-v2 =
     .label = Kimlik doğrulama kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
+tfa-enter-code-to-confirm-v2 =
+    Yeni yedek kimlik doğrulama kodlarınızı kaydettiğinizi onaylamak için lütfen kodlardan birini girin.
+    Bu adımı tamamladığınızda eski yedek kimlik doğrulama kodlarınız devre dışı bırakılacaktır.
 tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 
@@ -981,6 +984,7 @@ tfa-row-backup-phone-add-cta = Ekle
 tfa-row-backup-phone-delete-button = Kaldır
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title = Yedek kurtarma telefonunu kaldır
+tfa-row-backup-phone-delete-restriction = Yedek kurtarma telefonunuzu kaldırmak istiyorsanız hesabınızın kilitlenmesini önlemek için öncelikle yedek kimlik doğrulama kodlarını ekleyin veya iki aşamalı kimlik doğrulamayı devre dışı bırakın.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu daha kolay bir kurtarma yöntemidir.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
