@@ -897,33 +897,66 @@ inline-totp-setup-code-required-error = Аутентификация коды т
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = 6-цифрлы кодны кертегез
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Раслау
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Аутентификация коды кирәк
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Хәзер <span>бүтән җиһазыгыздан</span> рөхсәт кирәк
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Ялгау килеп чыкмады
+pair-failure-message = Урнаштыру процессы өзелде.
 
 ## Pair index page
 
+pair-sync-header = { -brand-firefox }-ны телефоныгызда яки планшетыгызда синхронлагыз
+pair-cad-header = { -brand-firefox }-ны башка җиһазда тоташтырыгыз
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Җиһазыгызны синхронлагыз
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Яки иңдерү
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Хәзер түгел
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Башлап җибәрү
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR коды
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Җиһаз тоташтырылды
+pair-success-message-2 = Ялгау уңышлы булды.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = <span>{ $email } өчен</span> ялгауны раслау
+pair-supp-allow-confirm-button = Ялгауны раслау
+pair-supp-allow-cancel-link = Баш тарту
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Хәзер <span>бүтән җиһазыгыздан</span> рөхсәт кирәк
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Кушымта ярдәмендә ялгау
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
