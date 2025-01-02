@@ -962,6 +962,7 @@ pair-unsupported-header = Кушымта ярдәмендә ялгау
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Серсүз булдыру
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -969,22 +970,56 @@ pair-unsupported-header = Кушымта ярдәмендә ялгау
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Дәвам итү
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Яңа серсүз булдыру
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Серсүз урнаштырылды
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Гафу итегез, серсүзегезне урнаштыруда хата килеп чыкты
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Хисапны коткару ачкычын куллану
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Серсүзегез алмаштырылды
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Эл. почтагызны тикшерегез
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Дәвам итү
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Кодны яңадан җибәрү
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Башка бер хисап куллану
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Серсүзне алыштыру
+confirm-totp-reset-password-subheader-v2 = Ике адымлы аутентификация кодын кертегез
+confirm-totp-reset-password-trouble-code = Кодны кертеп булмыймы?
+confirm-totp-reset-password-confirm-button = Раслау
+confirm-totp-reset-password-input-label-v2 = 6-цифрлы кодны кертегез
+confirm-totp-reset-password-use-different-account = Башка бер хисап куллану
+confirm-recovery-code-reset-password-trouble-code = Кире
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Серсүзне ташлату
+password-reset-email-input =
+    .label = Эл. почтагызны кертегез
+password-reset-submit-button-2 = Дәвам итү
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-header = Серсүзегез алмаштырылды
 
 ## CompleteSignin component
 
