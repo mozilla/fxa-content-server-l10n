@@ -1020,6 +1020,8 @@ password-reset-submit-button-2 = Дәвам итү
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Серсүзегез алмаштырылды
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = { $serviceName } хезмәтенә күчү
 
 ## CompleteSignin component
 
