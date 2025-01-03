@@ -1078,6 +1078,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
+tfa-row-enabled-description = Hesabınız iki aşamalı doğrulamayla korunuyor. { -product-mozilla-account }nıza giriş yaparken kimlik doğrulama uygulamanızdan alacağınız tek kullanımlık kodu girmeniz gerekecektir.
 # <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-disabled-description = Giriş yaparken ikinci adım olarak <linkExternal>üçüncü taraf bir kimlik doğrulama uygulaması</linkExternal> kullanarak hesabınızın güvenliğini sağlayın.
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
