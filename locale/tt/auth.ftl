@@ -71,6 +71,13 @@ ios-download-plaintext = { $productName } кушымтасын App Store-дан 
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = { $productName } кушымтасын башка җиһазга урнаштыру:
 automated-email-change-2 = Әгәр дә бу гамәлне Сез эшләмәгән булсагыз, хәзер үк <a data-l10n-name="passwordChangeLink">серсүзегезне үзгәртегез</a>.
+automated-email-support = Күбрәк мәгълүмат өчен <a data-l10n-name="supportLink">{ -brand-mozilla } Ярдәм</a> битен зыярат итегез.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Әгәр дә бу гамәлне эшләмәгән булсагыз, серсүзегезне хәзер үк үзгәртегез:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Күбрәк мәгълүмат өчен { -brand-mozilla } Ярдәм битен зыярат итегез:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Күбрәк мәгълүмат өчен <a data-l10n-name="supportLink">{ -brand-mozilla } Ярдәм</a> битен зыярат итегез.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Серсүзегезне үзгәртмәгән булсагыз, зинһар хәзер үк { $resetLink } битендә яңа серсүз куегыз
