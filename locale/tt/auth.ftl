@@ -78,9 +78,54 @@ automated-email-change-plaintext-2 = Әгәр дә бу гамәлне эшлә�
 automated-email-support-plaintext = Күбрәк мәгълүмат өчен { -brand-mozilla } Ярдәм битен зыярат итегез:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Күбрәк мәгълүмат өчен <a data-l10n-name="supportLink">{ -brand-mozilla } Ярдәм</a> битен зыярат итегез.
+automated-email-no-action-plaintext = Бу автоматик электрон хат. Сезгә ялгыш җибәрелгән булса, берни дә эшләргә кирәкми.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Бу автоматик бер электрон хат; әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар серсүзегезне үзгәртегез:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Бу сорау { $uaOS } { $uaOSVersion } системасындагы { $uaBrowser } кушымтасыннан килде.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Бу сорау { $uaOS } системасындагы { $uaBrowser } кушымтасыннан килде.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Бу сорау { $uaBrowser } кушымтасыннан килде.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Бу сорау { $uaOS } { $uaOSVersion } системасыннан килде.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Бу сорау { $uaOS } системасыннан килде.
+automatedEmailRecoveryKey-delete-key-change-pwd = Әгәр дә моны Сез эшләмәгән булсагыз, <a data-l10n-name="revokeAccountRecoveryLink">яңа ачкычны бетерегез</a> һәм <a data-l10n-name="passwordChangeLink">серсүзегезне үзгәртегез</a>.
+automatedEmailRecoveryKey-change-pwd-only = Әгәр дә моны Сез эшләмәгән булсагыз, <a data-l10n-name="passwordChangeLink">серсүзегезне үзгәртегез</a>.
+automatedEmailRecoveryKey-more-info = Күбрәк мәгълүмат өчен <a data-l10n-name="supportLink">{ -brand-mozilla } Ярдәм</a> битен зыярат итегез.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Бу сорау түбәндәгедән килде:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Әгәр дә моны Сез эшләмәгән булсагыз, яңа ачкычны бетерегез:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Әгәр дә моны Сез эшләмәгән булсагыз, серсүзегезне үзгәртегез:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = һәм серсүзегезне үзгәртегез:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Күбрәк мәгълүмат өчен { -brand-mozilla } Ярдәм битен зыярат итегез:
+automated-email-reset =
+    Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, <a data-l10n-name="resetLink">зинһар серсүзегезне алыштырыгыз</a>.
+    Күбрәк белү өчен, <a data-l10n-name="supportLink">{ -brand-mozilla } Ярдәм</a> адресын зыярат итегез.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Серсүзегезне үзгәртмәгән булсагыз, зинһар хәзер үк { $resetLink } битендә яңа серсүз куегыз
+brand-banner-message = Сез { -product-firefox-accounts } исемебезне { -product-mozilla-accounts } итеп үзгәрткәнебезне беләсезме? <a data-l10n-name="learnMore">Күбрәк белү</a>
 cancellationSurvey = Хезмәтләребезне яхшыртырга ярдәм итү өчен зинһар бу <a data-l10n-name="cancellationSurveyUrl">кыска сораулыкка</a> җавап бирүегезне сорыйбыз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Зинһар, хезмәтләребезне яхшыртырга ярдәм итү өчен бу кыска сораулыкны алыгыз:
@@ -101,6 +146,15 @@ payment-plan-next-invoice = Киләсе квитанция: { $nextInvoiceDateO
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Түләү ысулы:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = { $lastFour } белән тәмамланучы { $cardName } картасы
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = { $lastFour } белән тәмамланучы билгесез карта
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Квитанция номеры: <b>{ $invoiceNumber }</b>
@@ -113,6 +167,19 @@ subscriptionSubsequentInvoice-content-plan-change = Планны үзгәртү:
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Моңа кадәр барлыгы: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Ташлама: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Бер тапкырлы ташлама: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } айлык ташлама: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Салымнар һәм түләүләр: { $invoiceTaxAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
