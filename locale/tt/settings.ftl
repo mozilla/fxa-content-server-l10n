@@ -269,26 +269,50 @@ error-bad-request = Яраксыз сорау
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Серсүз таләпләре
+password-strength-balloon-min-length = Кимендә 8 символ
+password-strength-balloon-not-email = Эл. почта адресыгыз түгел
+password-strength-balloon-not-common = Еш кулланыла торган серсүз түгел
 
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = Кимендә 8 символ
+password-strength-inline-not-email = Эл. почта адресыгыз түгел
+password-strength-inline-not-common = Еш кулланылучы серсүз түгел
 
 ## Ready component
 
+manage-your-account-button = Хисабыгыз белән идарә итү
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Сез хәзер { $serviceName } хезмәтен куллана аласыз
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Сез хәзер хисап көйләүләрен куллана аласыз
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Хисабыгыз хәзер!
 ready-continue = Дәвам итү
 sign-in-complete-header = Керү расланды
 sign-up-complete-header = Хисап расланды
+primary-email-verified-header = Төп эл. почта адресы расланды
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Ачкычыгызны саклау өчен урыннар:
+flow-recovery-key-download-storage-ideas-folder-v2 = Хәвефсез җиһаздагы папка
+flow-recovery-key-download-storage-ideas-cloud = Ышанычлы болыт саклагычы
 flow-recovery-key-download-storage-ideas-pwd-manager = Серсүз идарәчесе
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Әзер
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -296,6 +320,7 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Серсүз идарәч
 password-reset-warning-icon = Кисәтү
 password-reset-chevron-expanded = Кисәтүне төреп кую
 password-reset-chevron-collapsed = Кисәтүне җәеп күрсәтү
+password-reset-warning-have-key = Хисапны коткару ачкычыгыз бармы?
 
 ## Alert Bar
 
@@ -339,6 +364,11 @@ cs-cannot-refresh =
     Гафу итегез, тоташтырылган хезмәтләр исемлеген яңартканда
     кыенлыклар килеп чыкты.
 cs-cannot-disconnect = Клиент табылмады, тоташуны өзеп булмый
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Mozilla accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = { $service } хезмәтеннән чыктыгыз
 cs-refresh-button =
     .title = Бәйләнгән хезмәтләрне яңарту
 # Link text to a support page on missing or duplicate devices
@@ -381,6 +411,7 @@ dc-learn-more = Күбрәк белү
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = { -product-mozilla-account } менюсы
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -609,6 +640,7 @@ add-secondary-email-step-2 = Адым 2/2
 verify-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
 verify-secondary-email-cancel-button = Баш тарту
+verify-secondary-email-verify-button-2 = Раслау
 
 ##
 
@@ -880,15 +912,25 @@ inline-totp-setup-code-required-error = Аутентификация коды т
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Хокукый мәсьәләләр
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Куллану шартлары
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Хосусыйлык аңлатмасы
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Хосусыйлык аңлатмасы
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Куллану шартлары
 
 ## AuthAllow page - Part of the device pairing flow
 
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Әйе, җиһазны раслау
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1057,15 +1099,21 @@ signin-password-button-label = Серсүз
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+back = Кире
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
 signin-push-code-did-not-recieve = Искәртү килмәдеме?
+signin-push-code-send-email-link = Кодны эл. почта аша җибәрү
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Керүегезне раслагыз
 signin-push-code-confirm-verifying = Тикшерү
+signin-push-code-confirm-login = Керүне раслау
+signin-push-code-confirm-wasnt-me = Бу мин түгел, серсүзне үзгәртү.
+signin-push-code-confirm-link-error = Сылтамага зыян килгән. Зинһар янәдән тырышып карагыз.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1087,6 +1135,7 @@ signin-recovery-code-support-link = Хисабыгыз биклеме?
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = 6-цифрлы кодны кертегез
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Раслау
 signin-token-code-code-expired = Кодның мөддәте беткәнме?
@@ -1099,6 +1148,7 @@ signin-token-code-required-error = Раслау коды кирәк
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Керү
 signin-totp-code-subheader-v2 = Ике адымлы аутентификация кодын кертегез
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Раслау
@@ -1124,7 +1174,18 @@ signin-unblock-code-incorrect-format-2 = Авторизация коды хәр�
 
 # and a confirmation code has been sent to their email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Раслау
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-relay = Серсүз булдыру
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Эл. почтаны үзгәртү
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Сезгә ничә яшь?
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Нигә сорыйбызмы?
