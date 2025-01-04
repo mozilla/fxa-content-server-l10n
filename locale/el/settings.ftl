@@ -314,6 +314,11 @@ input-password-show-aria-2 = Ο κωδικός πρόσβασής σας είν�
 input-password-sr-only-now-visible = Ο κωδικός πρόσβασής σας είναι πλέον ορατός στην οθόνη.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Ο κωδικός πρόσβασής σας είναι πλέον κρυφός.
+
+## Phone number component
+
+input-phone-number-country-united-states = Ηνωμένες Πολιτείες
+input-phone-number-country-canada = Καναδάς
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Πίσω
 
