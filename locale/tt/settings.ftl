@@ -427,16 +427,26 @@ flow-container-back = Кире
 ## This screen asks the user to confirm their password before generating a new key
 
 flow-recovery-key-confirm-pwd-input-label = Серсүзегезне кертегез
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Хисапны коткару ачкычын булдыру
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Яңа хисапны коткару ачкычын булдыру
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Хисапны коткару ачкычы ясалды — аны хәзер үк иңдерегез һәм саклагыз
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Иңдермичә дәвам итү
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Хисапны коткару ачкычы булдырылды
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
