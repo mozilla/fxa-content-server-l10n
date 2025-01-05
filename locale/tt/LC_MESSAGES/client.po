@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-26 21:00+0000\n"
+"PO-Revision-Date: 2025-01-05 00:20+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -1458,7 +1458,7 @@ msgstr "Раслау кодын кертү"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Серсүз кую"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"

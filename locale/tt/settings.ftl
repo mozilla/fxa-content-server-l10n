@@ -450,6 +450,10 @@ flow-recovery-key-success-alert = Хисапны коткару ачкычы б�
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Серсүз онытылып киткән очракларда куллану өчен бер хисапны коткару ачкычы булдырыгыз
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Хисапны коткару ачкычын үзгәртү
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Башлап җибәрү
 # Link to cancel account recovery key change and return to settings
@@ -466,6 +470,11 @@ header-help = Ярдәм
 
 ## Linked Accounts section
 
+la-heading = Бәйле хисап язмалары
+la-unlink-button = Бәйләнешне өзү
+la-unlink-account-button = Бәйләнешне өзү
+la-set-password-button = Серсүз урнаштыру
+la-unlink-heading = Өченче тараф хисабы белән бәйләнешне өзү
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -651,6 +660,10 @@ verify-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
 verify-secondary-email-cancel-button = Баш тарту
 verify-secondary-email-verify-button-2 = Раслау
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } уңышлы өстәлде
 
 ##
 
@@ -674,15 +687,21 @@ tfa-enabled = Ике адымлы аутентификация кабызылд�
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Тәэмин ителгән кушымталарда ике адымлы аутентификацияне көйләү өчен { $secret } кодын кулланыгыз.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Кодны сканерлый алмыйсызмы?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Бу яшерен ачкычны аутентификация кушымтагызга кертегез:
+tfa-input-enter-totp-v2 =
+    .label = Аутентификация кодын кертү
 
 ##
 
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
 # Links out to the Monitor pricing site
 product-promo-monitor-plus-cta = Башлап җибәрү
 
@@ -780,12 +799,17 @@ unit-row-recovery-key-delete-icon-button-title = Хисапны коткару �
 se-heading = Икенчел эл. почта адресы
     .header = Икенчел эл. почта адресы
 se-cannot-refresh-email = Гафу итегез, бу эл. почтаны яңартканда хата килеп чыкты.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } уңышлы бетерелде
 # Button to remove the secondary email
 se-remove-email =
     .title = Эл. почтаны бетерү
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Эл. почтаны яңарту
+se-unverified-2 = расланмаган
 # Button to make secondary email the primary
 se-make-primary = Төп адрес итү
 # Default value for the secondary email
@@ -898,6 +922,7 @@ cookies-disabled-learn-more = Күбрәк белү
 
 ## Index / home page
 
+index-header = Эл. почтагызны кертегез
 
 ## InlineRecoveryKeySetup page component
 
@@ -906,6 +931,8 @@ cookies-disabled-learn-more = Күбрәк белү
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+inline-recovery-back-link = Кире
+inline-recovery-cancel-setup = Урнаштырудан баш тарту
 inline-recovery-2fa-enabled = Ике адымлы аутентификация кабызылды
 
 ## InlineTotpSetup page
@@ -944,6 +971,7 @@ pair-auth-allow-confirm-button = Әйе, җиһазны раслау
 
 ## PairAuthComplete page - part of the device pairing flow
 
+pair-auth-complete-manage-devices-link = Җиһазлар белән идарә итү
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1074,6 +1102,8 @@ password-reset-submit-button-2 = Дәвам итү
 reset-password-complete-header = Серсүзегез алмаштырылды
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } хезмәтенә күчү
+reset-password-with-recovery-key-verified-page-title = Серзүз уңышлы ташлатылды
+reset-password-complete-new-password-saved = Яңа серсүз сакланды!
 
 ## CompleteSignin component
 
@@ -1130,6 +1160,7 @@ signin-push-code-confirm-link-error = Сылтамага зыян килгән. 
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Керү
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Раслау
 # Link to return to signin with two-step authentication code
@@ -1160,6 +1191,7 @@ signin-token-code-required-error = Раслау коды кирәк
 
 signin-totp-code-header = Керү
 signin-totp-code-subheader-v2 = Ике адымлы аутентификация кодын кертегез
+signin-totp-code-input-label-v4 = 6-цифрлы кодны кертегез
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Раслау
 signin-totp-code-other-account-link = Башка бер хисап куллану
@@ -1177,6 +1209,7 @@ signin-unblock-submit-button = Дәвам итү
 signin-unblock-code-required-error = Авторизация коды кирәк
 signin-unblock-code-incorrect-length = Авторизация кодында 8 символ булырга тиеш
 signin-unblock-code-incorrect-format-2 = Авторизация коды хәрефләр һәм/яки саннардан гына торырга тиеш
+signin-unblock-support-link = Бу нидән килеп чыга?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1184,12 +1217,22 @@ signin-unblock-code-incorrect-format-2 = Авторизация коды хәр�
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Раслау кодын кертү
+confirm-signup-code-input-label = 6-цифрлы кодны кертегез
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Раслау
+confirm-signup-code-code-expired = Мөддәте чыккан кодмы?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Эл. почта аша яңа код җибәрү.
+confirm-signup-code-success-alert = Хисап уңышлы расланды
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Раслау коды кирәк
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Серсүз урнаштыру
 signup-heading-relay = Серсүз булдыру
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Эл. почтаны үзгәртү
