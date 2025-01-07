@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Mae eich cyfrinair nawr wedi'i guddio.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Dewis gwlad
 input-phone-number-enter-number = Rhowch rif ffôn
 input-phone-number-country-united-states = Yr Unol Daleithiau
 input-phone-number-country-canada = Canada
@@ -557,10 +559,9 @@ dc-learn-more = Dysgu rhagor
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Dewislen cyfrif { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Mewngofnodwyd fel </signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Mewngofnodwyd fel
 drop-down-menu-sign-out = Allgofnodi
 drop-down-menu-sign-out-error-2 = Ymddiheuriadau, bu anhawster wrth i chi allgofnodi.
 
@@ -611,6 +612,36 @@ flow-recovery-key-info-key-bullet-point-v2 = Dyna pam mae creu allwedd adfer cyf
 flow-recovery-key-info-cta-text-v3 = Cychwyn arni
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Diddymu
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Rhowch y cod dilysu
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Anfonwyd cod chwe digid at <span>{ $phoneNumber }</span> trwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud.
+flow-setup-phone-confirm-code-input-label = Rhowch y cod 6 digid
+flow-setup-phone-confirm-code-button = Cadarnhau
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Cod wedi dod i ben?
+flow-setup-phone-confirm-code-resend-code-button = Ail-anfon y cod
+flow-setup-phone-confirm-code-success-message = Ffôn adfer copi wrth gefn wedi'i ychwanegu
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Gwiriwch eich rhif ffôn
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Byddwch yn cael neges destun gan { -brand-mozilla } gyda chod i ddilysu'ch rhif. Peidiwch â rhannu'r cod hwn ag unrhyw un.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Dim ond yn yr Unol Daleithiau a Chanada y mae ffôn adfer copi wrth gefn ar gael. Nid yw rhifau VoIP a masgiau ffôn yn cael eu hargymell.
+flow-setup-phone-submit-number-legal = Trwy ddarparu eich rhif, rydych yn cytuno i ni ei storio fel y gallwn anfon neges destun atoch er mwyn dilysu cyfrif yn unig. Gall cyfraddau neges a data fod yn berthnasol.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Anfon cod
 
 ## HeaderLockup component, the header in account settings
 
@@ -830,6 +861,10 @@ recovery-key-create-page-title = Allwedd Adfer Cyfrif
 # and back to account settings
 recovery-key-create-back-button-title = Nôl i'r gosodiadau
 
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Ychwanegu ffôn adfer
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Cam 1 o 2
@@ -882,7 +917,7 @@ tfa-incorrect-totp = Cod dilysu dau gam annilys
 tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
 tfa-cannot-verify-code-4 = Bu anhawster wrth gadarnhau eich cod dilysu wrth gefn
 tfa-incorrect-recovery-code-1 = Cod dilysu wrth gefn anghywir
-tfa-enabled = Mae dilysu dau gam wedi ei alluogi
+tfa-enabled-v2 = Mae dilysu dau gam wedi'i alluogi
 tfa-scan-this-code =
     Sganiwch y cod QR hwn gan ddefnyddio un o'r <linkExternal>
     apiau dilysu hyn</linkExternal>.
@@ -1086,8 +1121,10 @@ tfa-row-button-refresh =
     .title = Adnewyddu dilysu dau gam
 tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu dau gam.
 tfa-row-enabled-description = Mae eich cyfrif wedi'i ddiogelu gan ddilysiad dau gam. Bydd angen i chi roi cod pas un-amser o'ch ap dilysu wrth fewngofnodi i'ch { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Helpwch i ddiogelu'ch cyfrif drwy ddefnyddio <linkExternal>ap dilysu trydydd parti</linkExternal> fel ail gam i fewngofnodi.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Sut mae hyn yn amddiffyn eich cyfrif
+tfa-row-disabled-description-v2 = Helpwch i ddiogelu'ch cyfrif trwy ddefnyddio ap dilysu trydydd parti fel ail gam i fewngofnodi.
 tfa-row-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
@@ -1257,7 +1294,7 @@ inline-recovery-confirmation-header-default = Cadarnhewch y cod dilysu wrth gefn
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i { $serviceName }</span>
-inline-recovery-2fa-enabled = Mae dilysu dau gam wedi ei alluogi
+inline-recovery-2fa-enabled-v2 = Mae dilysu dau gam wedi'i alluogi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
