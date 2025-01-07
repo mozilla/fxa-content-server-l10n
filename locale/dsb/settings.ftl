@@ -620,6 +620,9 @@ flow-recovery-key-info-cancel-link = Pśetergnuś
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Wobkšuśeński kod zapódaś
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Šesćměstnowy kod jo se pósłał pśez tekstowu powěsć na <span>{ $phoneNumber }</span>. Toś ten kod za 5 minutow spadnjo.
 flow-setup-phone-confirm-code-input-label = 6-městnowy kod zapódaś
 flow-setup-phone-confirm-code-button = Wobkšuśiś
 # button to resend a code by text message to the user's phone
@@ -631,6 +634,14 @@ flow-setup-phone-confirm-code-success-message = Wótnowjeński telefon za zawěs
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Pśeglědajśo swój telefonowy numer
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Dostanjośo tekstowu powěsć wót { -brand-mozilla } z kodom, aby swój numer pśeglědował. Njeźělśo toś ten kod z někim drugim.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Wótnowjeński telefon za zawěsćenje jo jano w Zjadnośonych statach a Kanaźe k dispoziciji. Numery VoIP a telefonowe maski se njepórucaju.
+flow-setup-phone-submit-number-legal = Gaž waš numer pódawaśo, zwólijośo do togo, až móžomy jen składowaś, aby my mógli wam powěźeńku jano za kontowe pśeglědowanje pósłali. Płaśonki mógu se za powěsći a datowe raty pominaś.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kod słaś
 
