@@ -986,6 +986,10 @@ tfa-row-backup-phone-change-cta = Өзгерту
 tfa-row-backup-phone-add-cta = Қосу
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Өшіру
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = SIM картасын ауыстыру қаупі туралы біліңіз
 
 ## Switch component
 
