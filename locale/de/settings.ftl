@@ -639,7 +639,7 @@ flow-setup-phone-verify-number-instruction = Sie erhalten eine Textnachricht von
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message = Die Telefonnummer für das Wiederherstellen des Backups ist nur in den USA und Kanada verfügbar. VoIP-Nummern und Telefonnummer-Masken werden nicht empfohlen.
-flow-setup-phone-submit-number-legal = Indem Sie Ihre Nummer angeben, stimmen Sie zu, dass wir sie speichern, damit wir Sie nur zur Verifizierung Ihres Kontos speichern können. Es können Gebühren für Nachrichten und Datenübertragungen anfallen.
+flow-setup-phone-submit-number-legal = Indem Sie Ihre Nummer angeben, stimmen Sie zu, dass wir diese speichern; die Nummer wird nur zur Verifizierung Ihres Kontos verwendet. Es können Gebühren für Nachrichten und Datenübertragungen anfallen.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Code senden
 
