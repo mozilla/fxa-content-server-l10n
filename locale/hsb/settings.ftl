@@ -641,6 +641,7 @@ flow-setup-phone-verify-number-instruction = Dóstanjeće tekstowu powěsć wot 
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message = Wobnowjenski telefon za zawěsćenje je jenož w Zjednoćenych statach a Kanadźe k dispoziciji. Čisła VoIP a telefonowe maski so njeporučeja.
+flow-setup-phone-submit-number-legal = Hdyž waše čisło podawaće, zwoliće do toho, zo móžemy jo składować, zo bychmy móhli wam zdźělenku jenož za kontowe přepruwowanje pósłali. Popłatki móža so za powěsće a datowe raty zběrać.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kod słać
 
