@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Votre mot de passe est maintenant masqué.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Sélectionnez votre pays
 input-phone-number-enter-number = Saisissez un numéro de téléphone
 input-phone-number-country-united-states = États-Unis
 input-phone-number-country-canada = Canada
@@ -555,10 +557,9 @@ dc-learn-more = En savoir plus
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account(capitalization: "uppercase") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Connecté·e en tant que</signin> <user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Connecté en tant que
 drop-down-menu-sign-out = Déconnexion
 drop-down-menu-sign-out-error-2 = Un problème est survenu lors de votre déconnexion
 
@@ -609,6 +610,36 @@ flow-recovery-key-info-key-bullet-point-v2 = C’est pourquoi créer une clé de
 flow-recovery-key-info-cta-text-v3 = Commencer
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annuler
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Saisissez le code de vérification
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Un code à six chiffres a été envoyé à <span>{ $phoneNumber }</span> par SMS. Ce code expire après 5 minutes.
+flow-setup-phone-confirm-code-input-label = Saisissez le code à 6 chiffres
+flow-setup-phone-confirm-code-button = Confirmer
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Code expiré ?
+flow-setup-phone-confirm-code-resend-code-button = Renvoyer le code
+flow-setup-phone-confirm-code-success-message = Numéro de téléphone de secours ajouté
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Confirmer votre numéro de téléphone
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Vous recevrez un SMS de { -brand-mozilla } avec un code pour vérifier votre numéro. Ne partagez pas ce code avec qui que ce soit.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = La sauvegarde du numéro de téléphone du téléphone est uniquement disponible aux États-Unis et au Canada. Les numéros VoIP et les alias de numéro de téléphone ne sont pas recommandés.
+flow-setup-phone-submit-number-legal = En fournissant votre numéro, vous acceptez que nous le conservions afin que nous puissions vous envoyer des SMS pour vérification de compte uniquement. Des frais de communication peuvent s’appliquer.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Envoyer le code
 
 ## HeaderLockup component, the header in account settings
 
@@ -828,6 +859,10 @@ recovery-key-create-page-title = Clé de récupération de compte
 # and back to account settings
 recovery-key-create-back-button-title = Retour aux paramètres
 
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Ajouter un numéro de téléphone de récupération
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Étape 1 sur 2
@@ -880,7 +915,7 @@ tfa-incorrect-totp = Code d’authentification en deux étapes incorrect
 tfa-cannot-retrieve-code = Un problème est survenu lors de la récupération de votre code.
 tfa-cannot-verify-code-4 = Un problème est survenu lors de la confirmation de vos codes d’authentification de secours
 tfa-incorrect-recovery-code-1 = Code d’authentification de secours incorrect
-tfa-enabled = Authentification en deux étapes activée
+tfa-enabled-v2 = L’authentification en deux étapes a été activée
 tfa-scan-this-code =
     Scannez ce code QR en utilisant l’une de <linkExternal>ces 
     applications d’authentification</linkExternal>.
@@ -1084,8 +1119,10 @@ tfa-row-button-refresh =
     .title = Actualiser l’authentification en deux étapes
 tfa-row-cannot-refresh = Un problème est survenu lors de l’actualisation de l’authentification en deux étapes.
 tfa-row-enabled-description = Votre compte est protégé par une authentification en deux étapes. Vous devrez saisir un code d’accès à usage unique provenant de votre application d’authentification lorsque vous vous connecterez à votre { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Aidez-nous à sécuriser votre compte en utilisant une <linkExternal>application d’authentification tierce</linkExternal> en tant que deuxième facteur pour vous connecter.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = En quoi cela protège votre compte
+tfa-row-disabled-description-v2 = Aidez-nous à sécuriser votre compte en utilisant une application d’authentification tierce comme deuxième étape pour vous connecter.
 tfa-row-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
 tfa-row-disable-modal-heading = Désactiver l’authentification en deux étapes ?
 tfa-row-disable-modal-confirm = Désactiver
@@ -1255,7 +1292,7 @@ inline-recovery-confirmation-header-default = Confirmez le code d’authentifica
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirmez le code d’authentification de secours <span>pour continuer vers { $serviceName }</span>
-inline-recovery-2fa-enabled = Authentification en deux étapes activée
+inline-recovery-2fa-enabled-v2 = L’authentification en deux étapes a été activée
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
