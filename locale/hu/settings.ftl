@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = A jelszava most már rejtett.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Válasszon országot
 input-phone-number-enter-number = Adja meg a telefonszámot
 input-phone-number-country-united-states = Egyesült Államok
 input-phone-number-country-canada = Kanada
@@ -563,10 +565,9 @@ dc-learn-more = További tudnivalók
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } menü
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Bejelentkezve mint</signin> <user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Bejelentkezve mint
 drop-down-menu-sign-out = Kijelentkezés
 drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezésekor
 
@@ -617,6 +618,36 @@ flow-recovery-key-info-key-bullet-point-v2 = Ezért olyan fontos a fiók-helyre�
 flow-recovery-key-info-cta-text-v3 = Kezdő lépések
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Mégse
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Adja meg az ellenőrzőkódot
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = SMS-ben egy hatjegyű kód lett küldve a(z) <span>{ $phoneNumber }</span> telefonszámra. Ez a kód 5 perc után lejár.
+flow-setup-phone-confirm-code-input-label = Adja meg a 6 számjegyű kódot
+flow-setup-phone-confirm-code-button = Megerősítés
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = A kód lejárt?
+flow-setup-phone-confirm-code-resend-code-button = Kód újraküldése
+flow-setup-phone-confirm-code-success-message = Biztonsági mentés helyreállítási telefonszám hozzáadva
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Ellenőrizze a telefonszámát
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Kapni fog egy SMS-t a { -brand-mozilla }tól, amely egy kódot tartalmaz a száma ellenőrzéséhez. Ne ossza meg ezt a kódot másokkal.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = A biztonsági mentés helyreállítási telefonszáma csak az Egyesült Államokban és Kanadában érhető el. A VoIP számok és a telefonmaszkok nem ajánlottak.
+flow-setup-phone-submit-number-legal = A telefonszám megadásával beleegyezik, hogy tároljuk, így csak fiók-ellenőrzési SMS-eket küldhetünk. Üzenet- és adatforgalmi költségek merülhetnek fel.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Kód küldése
 
 ## HeaderLockup component, the header in account settings
 
@@ -836,6 +867,10 @@ recovery-key-create-page-title = Fiók-helyreállítási kulcs
 # and back to account settings
 recovery-key-create-back-button-title = Vissza a beállításokhoz
 
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Helyreállítási telefonszám hozzáadása
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1. / 2. lépés
@@ -888,7 +923,7 @@ tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
 tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
 tfa-cannot-verify-code-4 = Hiba történt a tartalék hitelesítési kódok megerősítése során
 tfa-incorrect-recovery-code-1 = Érvénytelen tartalék hitelesítési kód
-tfa-enabled = Kétlépcsős hitelesítés engedélyezve
+tfa-enabled-v2 = A kétlépcsős hitelesítés engedélyezve lett
 tfa-scan-this-code =
     Olvassa be ezt a QR-kódot <linkExternal>ezen
     hitelesítő alkalmazások egyikével</linkExternal>.
@@ -1094,8 +1129,10 @@ tfa-row-cannot-refresh =
     Sajnos probléma merült fel a kétlépéses hitelesítés
     frissítésekor.
 tfa-row-enabled-description = Fiókját kétlépcsős hitelesítés védi. Meg kell adnia egy egyszer használatos jelkódot a hitelesítő alkalmazásból, amikor bejelentkezik a { -product-mozilla-account }jába.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Segítsen biztonságban tartani fiókját azzal, hogy a bejelentkezés második lépéseként egy <linkExternal>harmadik féltől származó hitelesítő alkalmazást</linkExternal> használ.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Hogyan védi ez a fiókját
+tfa-row-disabled-description-v2 = Segítsen biztonságban tartani fiókját azzal, hogy a bejelentkezés második lépéseként egy harmadik féltől származó hitelesítő alkalmazást használ.
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
@@ -1265,7 +1302,7 @@ inline-recovery-confirmation-header-default = Erősítse meg a tartalék hiteles
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Erősítse meg a tartalék hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
-inline-recovery-2fa-enabled = Kétlépcsős hitelesítés engedélyezve
+inline-recovery-2fa-enabled-v2 = A kétlépcsős hitelesítés engedélyezve lett
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
