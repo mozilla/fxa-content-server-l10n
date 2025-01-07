@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Wašo gronidło jo něnto schowane.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Wubjeŕśo kraj
 input-phone-number-enter-number = Zapódajśo telefonowy numer
 input-phone-number-country-united-states = Zjadnośone staty
 input-phone-number-country-canada = Kanada
@@ -559,10 +561,9 @@ dc-learn-more = Dalšne informacije
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Meni { -product-mozilla-account(case: "gen", capitalization: "lower") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Pśizjawjony ako</signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Pśizjawjony ako
 drop-down-menu-sign-out = Wótzjawiś
 drop-down-menu-sign-out-error-2 = Bóžko jo pśi wótzjawjanju problem nastał
 
@@ -613,6 +614,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Togodla jo tak wažnje, až kontowy
 flow-recovery-key-info-cta-text-v3 = Prědne kšace
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Pśetergnuś
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -832,6 +839,9 @@ recovery-key-create-page-title = Kontowy wótnowjeński kluc
 # and back to account settings
 recovery-key-create-back-button-title = Slědk k nastajenjam
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Kšac 1 z 2
@@ -884,7 +894,6 @@ tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
 tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
 tfa-cannot-verify-code-4 = Pśi wobkśuśenju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
 tfa-incorrect-recovery-code-1 = Wopacny kod za zawěsćeńsku awtentifikaciju
-tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
 tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1088,8 +1097,6 @@ tfa-row-cannot-refresh =
     Bóžko jo pśi aktualizěrowanju dwójokšacoweje
     awtentifikacije problem nastał.
 tfa-row-enabled-description = Wašo konto se pśez dwójokšacowu awtentifikaciju šćita. Musyśo jadnorazowy gronidłowy kod  z nałoženja awtentifikacije  zapódaś, gaž se pla swójogo { -product-mozilla-account } pśizjawjaśo.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Wužywajśo <linkExternal>nałoženje awtentifikacije tśeśego póbitowarja</linkExternal> ako drugi kšać, aby pomagał, swójo konto zawěsćił a pśizjawśo se.
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
@@ -1259,7 +1266,6 @@ inline-recovery-confirmation-header-default = Wobkšuśćo awtentifikaciski kod 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Wobkšuśćo awtentifikaciske kody za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
-inline-recovery-2fa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
