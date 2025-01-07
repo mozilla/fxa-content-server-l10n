@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Waše hesło je nětko schowane.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Wubjerće kraj
 input-phone-number-enter-number = Telefonowe čisło zapodać
 input-phone-number-country-united-states = Zjednoćene staty
 input-phone-number-country-canada = Kanada
@@ -559,10 +561,9 @@ dc-learn-more = Dalše informacije
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Meni { -product-mozilla-account(case: "gen", capitalization: "lower") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Přizjewjeny jako</signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Přizjewjeny jako
 drop-down-menu-sign-out = Wotzjewić
 drop-down-menu-sign-out-error-2 = Bohužel je při wotzjewjenju problem nastał
 
@@ -613,6 +614,15 @@ flow-recovery-key-info-key-bullet-point-v2 = Tohodla je tak wažnje, zo kontowy 
 flow-recovery-key-info-cta-text-v3 = Prěnje kroki
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Přetorhnyć
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Wobkrućenski kod zapodać
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -832,6 +842,9 @@ recovery-key-create-page-title = Kontowy wobnowjenski kluč
 # and back to account settings
 recovery-key-create-back-button-title = Wróćo k nastajenjam
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Krok 1 z 2
@@ -884,7 +897,6 @@ tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
 tfa-cannot-retrieve-code = Při wotwołowanju wašeho koda je problem nastał.
 tfa-cannot-verify-code-4 = Při wobkrućenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
 tfa-incorrect-recovery-code-1 = Wopačny kod za zawěsćensku awtentifikaciju
-tfa-enabled = Dwukročelowa awtentifikacija zmóžnjena
 tfa-scan-this-code = skenujće tutón QR-kod z pomocu jednoho z <linkExternal>tutych awtentifikaciskich nałoženjow</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1090,8 +1102,6 @@ tfa-row-cannot-refresh =
     Bohužel je při aktualizowanju dwukročeloweje awtentfikacije
     problem nastał.
 tfa-row-enabled-description = Waše konto so přez dwukročelowu awtentifikaciju škita. Dyrbiće jónkróćny hesłowy kod  z nałoženja awtentifikacije  zapodać, hdyž so pola swojeho { -product-mozilla-account } přizjewjeće.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Wužiwajće <linkExternal>nałoženje awtentifikacije třećeho poskićowarja</linkExternal> jako druhi krok, zo byšće pomhał, swoje konto zawěsćił a přizjewće so.
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
@@ -1261,7 +1271,6 @@ inline-recovery-confirmation-header-default = Wobkrućće awtentifikaciski kod z
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
-inline-recovery-2fa-enabled = Dwukročelowa awtentifikacija zmóžnjena
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
