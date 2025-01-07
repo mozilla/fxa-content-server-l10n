@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Vaše heslo je nyní skryté.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Vyberte zemi
 input-phone-number-enter-number = Zadejte telefonní číslo
 input-phone-number-country-united-states = Spojené státy
 input-phone-number-country-canada = Kanada
@@ -561,10 +563,9 @@ dc-learn-more = Zjistit více
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Nabídka { -product-mozilla-account(case: "gen", capitalization: "lower") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Jste přihlášeni jako</signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Přihlášen(a) jako
 drop-down-menu-sign-out = Odhlásit se
 drop-down-menu-sign-out-error-2 = Omlouváme se, odhlášení se nezdařilo
 
@@ -615,6 +616,36 @@ flow-recovery-key-info-key-bullet-point-v2 = Proto je vytvoření obnovovacího 
 flow-recovery-key-info-cta-text-v3 = Začít
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Zrušit
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Zadejte ověřovací kód
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Na číslo <span>{ $phoneNumber }</span> byl odeslán šestimístný kód jako textová zpráva. Tento kód vyprší po 5 minutách.
+flow-setup-phone-confirm-code-input-label = Zadejte šestimístný kód
+flow-setup-phone-confirm-code-button = Potvrdit
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Platnost kódu vypršela?
+flow-setup-phone-confirm-code-resend-code-button = Znovu odeslat kód
+flow-setup-phone-confirm-code-success-message = Záložní telefonní číslo pro obnovení bylo přidáno
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Ověřte své telefonní číslo
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = { -brand-mozilla } vám zašle textovou zprávu s kódem pro ověření vašeho čísla. Tento kód s nikým nesdílejte.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Zálohování telefonu pro obnovení je dostupné pouze ve Spojených státech a Kanadě. Čísla VoIP a telefonní masky se nedoporučují.
+flow-setup-phone-submit-number-legal = Poskytnutím vašeho telefonního čísla souhlasíte s jeho uložením, abychom vám mohli posílat textové zprávy pouze pro ověření účtu. Mohou být účtovány poplatky za zprávy a data.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Odeslat kód
 
 ## HeaderLockup component, the header in account settings
 
@@ -834,6 +865,10 @@ recovery-key-create-page-title = Obnovovací klíč k účtu
 # and back to account settings
 recovery-key-create-back-button-title = Zpět do nastavení
 
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Přidat telefon pro obnovení
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Krok 1 ze 2
@@ -886,7 +921,7 @@ tfa-incorrect-totp = Nesprávný kód pro dvoufázové ověření
 tfa-cannot-retrieve-code = Nepodařilo se získat váš kód.
 tfa-cannot-verify-code-4 = Při potvrzení vašeho záložního ověřovacího kódu se vyskytl problém
 tfa-incorrect-recovery-code-1 = Nesprávný záložní ověřovací kód
-tfa-enabled = Dvoufázové ověřování zapnuto
+tfa-enabled-v2 = Dvoufázové ověřování je zapnuto
 tfa-scan-this-code =
     Naskenujte tento QR kód jednou z <linkExternal>těchto
     ověřovacích aplikací</linkExternal>.
@@ -1086,8 +1121,10 @@ tfa-row-button-refresh =
     .title = Obnovit nastavení dvoufázového ověřování
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
 tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřováním. Při přihlašování k účtu { -product-mozilla-account } musíte zadat jednorázový přístupový kód z ověřovací aplikace.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Pomozte zabezpečit svůj účet použitím aplikace <linkExternal>autentikátoru třetí strany</linkExternal> jako druhého kroku pro přihlášení.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Jak tato tato funkce chrání váš účet
+tfa-row-disabled-description-v2 = Pomozte zabezpečit svůj účet pomocí ověřovací aplikace třetí strany jako druhého kroku pro přihlášení.
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
@@ -1257,7 +1294,7 @@ inline-recovery-confirmation-header-default = Potvrďte záložní ověřovací 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložní ověřovací kód a <span>pokračujte do služby { $serviceName }</span>
-inline-recovery-2fa-enabled = Dvoufázové ověřování je zapnuto
+inline-recovery-2fa-enabled-v2 = Dvoufázové ověřování je zapnuto
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
