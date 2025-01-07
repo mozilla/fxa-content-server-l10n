@@ -620,6 +620,9 @@ flow-recovery-key-info-cancel-link = Přetorhnyć
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Wobkrućenski kod zapodać
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Šěsćměstnowy kod je so přez tekstowu powěsć na <span>{ $phoneNumber }</span> pósłał. Tutón kod za 5 mjeńšin spadnje.
 flow-setup-phone-confirm-code-input-label = 6-městnowy kod zapodać
 flow-setup-phone-confirm-code-button = Wobkrućić
 # button to resend a code by text message to the user's phone
@@ -631,6 +634,13 @@ flow-setup-phone-confirm-code-success-message = Wobnowjenski telefon za zawěsć
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Přepruwujće swoje telefonowe čisło
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Dóstanjeće tekstowu powěsć wot { -brand-mozilla } z kodom, zo byšće swoje čisło přepruwował. Njedźělće tutón kod z někim druhim.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Wobnowjenski telefon za zawěsćenje je jenož w Zjednoćenych statach a Kanadźe k dispoziciji. Čisła VoIP a telefonowe maski so njeporučeja.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kod słać
 
