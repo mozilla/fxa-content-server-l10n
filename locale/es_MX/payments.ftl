@@ -3,35 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Cuentas de Firefox
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Página principal de la cuenta
@@ -58,11 +29,9 @@ input-error-is-required = Se requiere { $label }
 
 ## Component - Header
 
-brand-name-firefox-logo = Logo de { -brand-name-firefox }
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -70,7 +39,6 @@ new-user-enter-email =
     .label = Ingresa tu correo electrónico
 new-user-confirm-email =
     .label = Confirma tu correo electrónico
-new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de productos de { -brand-name-firefox }
 new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 new-user-email-validate = El correo electrónico no es válido
 new-user-email-validate-confirm = Las direcciones de correo electrónico no coinciden
@@ -123,7 +91,6 @@ payment-confirmation-download-button = Continuar para descargar
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, fabricante de productos { -brand-name-firefox }, a cargar mi método de pago por el monto que se muestra, de acuerdo con <termsOfServiceLink>Términos del servicio</termsOfServiceLink> y <privacyNoticeLink>Aviso de Privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
 
 ## Component - PaymentErrorView
 
@@ -132,8 +99,6 @@ payment-error-manage-subscription-button = Administrar mi suscripción
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Ya tienes una suscripción a { $productName } a través de las tiendas de aplicaciones { -brand-name-google } o { -brand-name-apple }.
 iap-upgrade-no-bundle-support = No admitimos actualizaciones para estas suscripciones, pero pronto lo haremos.
 iap-upgrade-contact-support = Todavía puedes obtener este producto —  por favor, pónte en contacto con el soporte para poder ayudarte.
 iap-upgrade-get-help-button = Obtener ayuda
@@ -148,16 +113,11 @@ payment-cc =
 payment-cancel-btn = Cancelar
 payment-update-btn = Actualizar
 payment-pay-btn = Pagar ahora
-payment-pay-with-paypal-btn = Pagar con { -brand-name-paypal }
+payment-pay-with-paypal-btn-2 = Pagar con { -brand-paypal }
 payment-validate-name-error = Por favor, ingresa tu nombre
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de pagos.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } política de privacidad</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }política de privacidad</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } política de privacidad</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -165,7 +125,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } polític
 payment-method-header = Elige tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Requerido
 
 ## Component - PaymentProcessing
 
@@ -174,6 +133,9 @@ payment-processing-message = Por favor, espera mientras procesamos tu pago…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
+
+## Component - PayPalButton
+
 
 ## Component - PlanDetails
 
@@ -366,7 +328,6 @@ coupon-success-repeating = Tu plan se renovará automáticamente después del { 
 
 ## Routes - Checkout - New user
 
-new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
 new-user-card-title = Escribe la información de tu tarjeta
 new-user-submit = Suscribirse ahora
 
@@ -374,9 +335,9 @@ new-user-submit = Suscribirse ahora
 
 sub-update-payment-title = Información del pago
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = O paga con tarjeta
 pay-with-heading-card-only = Pagar con tarjeta
 product-invoice-preview-error-title = Problema al cargar vista previa de la factura
 product-invoice-preview-error-text = No se pudo cargar la vista previa de la factura
@@ -388,22 +349,24 @@ subscription-iaperrorupgrade-title = Todavía no podemos actualizarte
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = Revisa tu cambio
 sub-change-failed = El cambio de plan ha fallado
-sub-update-copy =
-    Tu plan cambiará inmediatamente y se te cobrará un importe ajustado
-    para el resto de tu ciclo de facturación. A partir del { $startingDate }
-    se te cobrará el importe total.
 sub-change-submit = Confirmar cambio
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nuevo plan
 sub-update-total-label = Nuevo total
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -432,7 +395,6 @@ sub-route-idx-cancel-msg =
     Tu suscripción a { $name } ha sido cancelada.
           <br />
           Todavía tendrás acceso a { $name } hasta el { $date }.
-sub-route-idx-cancel-aside = ¿Alguna pregunta? Visita la <a>ayuda de { -brand-name-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -455,8 +417,6 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
-sub-next-bill-no-tax = Tu próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }</strong>
-sub-next-bill-tax = Tu próxima factura de <strong>{ $priceAmount } + { $taxAmount }</strong> vence el <strong>{ $date }</strong>
 sub-expires-on = Expira el { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -467,7 +427,6 @@ sub-expires-on = Expira el { $date }
 pay-update-card-exp = Vence { $expirationDate }
 sub-route-idx-updating = Actualizando datos de facturación…
 sub-route-payment-modal-heading = Datos de facturación inválidos
-sub-route-payment-modal-message = Parece haber un error con tu cuenta de { -brand-name-paypal }, necesitamos que tomes las medidas necesarias para resolver este problema de pago.
 sub-route-missing-billing-agreement-payment-alert = Datos de pago no válidos, hay un error con tu cuenta. <div>Administrar</div>
 sub-route-funding-source-payment-alert = Información de pago no válida; hay un error con tu cuenta. Puede pasar un tiempo antes de que esta alerta desaparezca, aunque hayas actualizado correctamente la información. <div>Administrar</div>
 
@@ -481,7 +440,6 @@ sub-invoice-preview-error-text = Vista previa de la factura no encontrada para e
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = ¿Buscas tu suscripción premium de { -brand-name-pocket }?
 manage-pocket-body-2 = Para administrarlo, <linkExternal>haz clic aquí</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -512,6 +470,4 @@ reactivate-success-button = Cerrar
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: compras en la app
-sub-iap-item-apple-purchase = { -brand-name-apple }: compras en la app
 sub-iap-item-manage-button = Administrar

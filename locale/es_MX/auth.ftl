@@ -219,6 +219,7 @@ passwordChangeRequired-title = Se requiere cambio de contraseña
 passwordChangeRequired-different-password = <b>Importante:</b> elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordChangeRequired-different-password-plaintext = Importante: elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
+passwordResetAccountRecovery-action-4 = Administrar cuenta
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
 postAddAccountRecovery-action = Administrar cuenta
 postAddLinkedAccount-action = Administrar cuenta
