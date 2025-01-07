@@ -301,6 +301,8 @@ input-password-sr-only-now-hidden = הססמה שלך עכשיו מוסתרת.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = בחירת מדינה
 input-phone-number-enter-number = נא להכניס מספר טלפון
 input-phone-number-country-united-states = ארצות הברית
 input-phone-number-country-canada = קנדה
@@ -538,10 +540,9 @@ dc-learn-more = מידע נוסף
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = תפריט { -product-mozilla-account(case: "a") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>נכנסת בתור</signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = מחובר בתור
 drop-down-menu-sign-out = התנתקות
 drop-down-menu-sign-out-error-2 = הייתה בעיה בהתנתקות מהחשבון שלך, עמך הסליחה
 
@@ -592,6 +593,26 @@ flow-recovery-key-info-key-bullet-point-v2 = לכן יצירת מפתח שחזו
 flow-recovery-key-info-cta-text-v3 = תחילת עבודה
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ביטול
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = נא להכניס את קוד האימות
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = קוד בן שש ספרות נשלח אל <span>{ $phoneNumber }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות.
+flow-setup-phone-confirm-code-input-label = נא להזין קוד בן 6 ספרות
+flow-setup-phone-confirm-code-button = אישור
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = פג תוקף הקוד?
+flow-setup-phone-confirm-code-resend-code-button = שליחת הקוד מחדש
+flow-setup-phone-confirm-code-success-message = נוסף טלפון גיבוי לשחזור
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = אימות מספר הטלפון שלך
 
 ## HeaderLockup component, the header in account settings
 
@@ -794,6 +815,9 @@ recovery-key-create-page-title = מפתח שחזור חשבון
 # and back to account settings
 recovery-key-create-back-button-title = חזרה להגדרות
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = שלב 1 מתוך 2
@@ -844,7 +868,6 @@ tfa-button-cancel = ביטול
 tfa-button-finish = סיום
 tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
-tfa-enabled = אימות דו־שלבי הופעל
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1026,8 +1049,6 @@ tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-enabled-description = החשבון שלך מוגן על־ידי אימות דו־שלבי. יהיה עליך להכניס קוד גישה חד פעמי מהיישומון המאמת שלך בעת הכניסה ל{ -product-mozilla-account(case: "the") } שלך.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = כדאי לאבטח את החשבון שלך על־ידי שימוש <linkExternal>ביישומון מאמת (גורם צד שלישי)</linkExternal> כשלב שני להתחברות.
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
@@ -1177,7 +1198,6 @@ inline-recovery-continue-button = המשך
 inline-recovery-confirm-button = אישור
 inline-recovery-back-link = חזרה
 inline-recovery-cancel-setup = ביטול ההגדרה
-inline-recovery-2fa-enabled = אימות דו־שלבי הופעל
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
