@@ -613,6 +613,16 @@ flow-setup-phone-confirm-code-success-message = נוסף טלפון גיבוי �
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = אימות מספר הטלפון שלך
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = תישלח אליך הודעת טקסט מ־{ -brand-mozilla } עם קוד לאימות המספר שלך. אין לשתף את הקוד הזה עם אף אחד.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = טלפון גיבוי לשחזור זמין רק בארצות הברית ובקנדה. מספרי VoIP ומסכות טלפון אינם מומלצים.
+flow-setup-phone-submit-number-legal = מסירת המספר שלך מהווה הסכמה שנשמור אותו כדי שנוכל לשלוח לך הודעת טקסט לצורך אימות החשבון בלבד. ייתכן שיחולו תעריפי הודעות ונתונים.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = שליחת קוד
 
 ## HeaderLockup component, the header in account settings
 
@@ -817,6 +827,7 @@ recovery-key-create-back-button-title = חזרה להגדרות
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = הוספת טלפון לשחזור
 
 ## Add secondary email page
 
@@ -868,6 +879,7 @@ tfa-button-cancel = ביטול
 tfa-button-finish = סיום
 tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
+tfa-enabled-v2 = אימות דו־שלבי הופעל
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -949,6 +961,9 @@ tfa-row-backup-codes-get-new-cta = קבלת קודים חדשים
 tfa-row-backup-codes-add-cta = הוספה
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך להשתמש במכשיר הנייד או ביישומון המאמת שלך.
+# Backup recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title = טלפון גיבוי לשחזור
 # Shown with an alert icon to indicate that no backup recovery phone is configured
 tfa-row-backup-phone-not-available = אין מספרי טלפון זמינים לשחזור
 # button to change the configured backup recovery phone
@@ -957,6 +972,8 @@ tfa-row-backup-phone-change-cta = שינוי
 tfa-row-backup-phone-add-cta = הוספה
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = הסרה
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title = הסרת טלפון גיבוי לשחזור
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = זוהי שיטת השחזור הקלה ביותר אם אין באפשרותך להשתמש ביישומון המאמת שלך.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1049,6 +1066,10 @@ tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-enabled-description = החשבון שלך מוגן על־ידי אימות דו־שלבי. יהיה עליך להכניס קוד גישה חד פעמי מהיישומון המאמת שלך בעת הכניסה ל{ -product-mozilla-account(case: "the") } שלך.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = כיצד זה מגן על החשבון שלך
+tfa-row-disabled-description-v2 = כדאי לאבטח את החשבון שלך על־ידי שימוש ביישומון מאמת (גורם צד שלישי) כשלב שני להתחברות.
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
@@ -1198,6 +1219,7 @@ inline-recovery-continue-button = המשך
 inline-recovery-confirm-button = אישור
 inline-recovery-back-link = חזרה
 inline-recovery-cancel-setup = ביטול ההגדרה
+inline-recovery-2fa-enabled-v2 = אימות דו־שלבי הופעל
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
