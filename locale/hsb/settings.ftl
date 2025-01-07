@@ -620,9 +620,19 @@ flow-recovery-key-info-cancel-link = Přetorhnyć
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Wobkrućenski kod zapodać
+flow-setup-phone-confirm-code-input-label = 6-městnowy kod zapodać
+flow-setup-phone-confirm-code-button = Wobkrućić
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Je kod spadnył?
+flow-setup-phone-confirm-code-resend-code-button = Kod znowa słać
+flow-setup-phone-confirm-code-success-message = Wobnowjenski telefon za zawěsćenje přidaty
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Přepruwujće swoje telefonowe čisło
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Kod słać
 
 ## HeaderLockup component, the header in account settings
 
@@ -844,6 +854,7 @@ recovery-key-create-back-button-title = Wróćo k nastajenjam
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Wobnowjenski telefon přidać
 
 ## Add secondary email page
 
@@ -897,6 +908,7 @@ tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
 tfa-cannot-retrieve-code = Při wotwołowanju wašeho koda je problem nastał.
 tfa-cannot-verify-code-4 = Při wobkrućenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
 tfa-incorrect-recovery-code-1 = Wopačny kod za zawěsćensku awtentifikaciju
+tfa-enabled-v2 = Dwukročelowa awtentifikacija je zmóžnjena
 tfa-scan-this-code = skenujće tutón QR-kod z pomocu jednoho z <linkExternal>tutych awtentifikaciskich nałoženjow</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1102,6 +1114,10 @@ tfa-row-cannot-refresh =
     Bohužel je při aktualizowanju dwukročeloweje awtentfikacije
     problem nastał.
 tfa-row-enabled-description = Waše konto so přez dwukročelowu awtentifikaciju škita. Dyrbiće jónkróćny hesłowy kod  z nałoženja awtentifikacije  zapodać, hdyž so pola swojeho { -product-mozilla-account } přizjewjeće.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Kak to waše konto škita
+tfa-row-disabled-description-v2 = Wužiwajće nałoženje awtentifikacije třećeho poskićowarja jako druhi krok, zo byšće pomhał, swoje konto zawěsćił a přizjewće so.
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
@@ -1271,6 +1287,7 @@ inline-recovery-confirmation-header-default = Wobkrućće awtentifikaciski kod z
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
+inline-recovery-2fa-enabled-v2 = Dwukročelowa awtentifikacija je zmóžnjena
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
