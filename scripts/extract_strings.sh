@@ -27,6 +27,7 @@ fi
 MAILER_DIR="./fxa-auth-server"
 CONTENT_DIR="./fxa-content-server"
 PAYMENTS_DIR="./fxa-payments-server"
+PAYMENTS_NEXT_DIR="../apps/payments/next"
 SETTINGS_DIR="./fxa-settings"
 REACT_DIR="./fxa-react"
 SHARED_DIR="../libs/shared"
@@ -47,6 +48,10 @@ case $param in
     ;;
     --payments-repo)
     PAYMENTS_DIR="$2"
+    shift 2
+    ;;
+    --payments-next-repo)
+    PAYMENTS_NEXT_DIR="$2"
     shift 2
     ;;
     --settings-repo)
@@ -77,6 +82,8 @@ printf "Checking $CONTENT_DIR.. "
 check_folder $CONTENT_DIR
 printf "Checking $PAYMENTS_DIR.. "
 check_folder $PAYMENTS_DIR
+printf "Checking $PAYMENTS_NEXT_DIR.. "
+check_folder $PAYMENTS_NEXT_DIR
 printf "Checking $SETTINGS_DIR.. "
 check_folder $SETTINGS_DIR
 printf "Checking $REACT_DIR.. "
@@ -133,6 +140,7 @@ sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/
 # Fluent extraction
 
 cp $PAYMENTS_DIR/public/locales/en/payments.ftl $L10N_DIR/locale/templates
+cp $PAYMENTS_NEXT_DIR/public/locales/en/payments-next.ftl $L10N_DIR/locale/templates
 cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/templates
 cp $MAILER_DIR/public/locales/en/auth.ftl $L10N_DIR/locale/templates
 cp $REACT_DIR/public/locales/en/react.ftl $L10N_DIR/locale/templates
