@@ -321,6 +321,8 @@ input-password-sr-only-now-hidden = Ваш пароль теперь скрыт.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Выберите страну
 input-phone-number-enter-number = Введите номер телефона
 input-phone-number-country-united-states = США
 input-phone-number-country-canada = Канада
@@ -561,6 +563,9 @@ dc-learn-more = Подробнее
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Меню { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Вы вошли как
 drop-down-menu-sign-out = Выйти
 drop-down-menu-sign-out-error-2 = К сожалению, при выходе возникла проблема
 
@@ -614,9 +619,33 @@ flow-recovery-key-info-cancel-link = Отмена
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Введите код подтверждения
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Шестизначный код был отправлен на <span>{ $phoneNumber }</span> как текстовое сообщение. Срок действия данного кода истечёт через 5 минут.
+flow-setup-phone-confirm-code-input-label = Введите код из 6 цифр
+flow-setup-phone-confirm-code-button = Подтвердить
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Срок действия кода истёк?
+flow-setup-phone-confirm-code-resend-code-button = Отправить код ещё раз
+flow-setup-phone-confirm-code-success-message = Резервный телефон для восстановления был добавлен
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Подтвердите свой номер телефона
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Вы получите текстовое сообщение от { -brand-mozilla } с кодом для подтверждения вашего номера телефона. Не сообщайте этот код никому.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Резервный телефон для восстановления доступен только на территории США и Канады. Использовать VoIP-номера и телефонные псевдонимы не рекомендуется.
+flow-setup-phone-submit-number-legal = Предоставляя свой номер телефона, вы соглашаетесь с тем, что мы будем хранить его, чтобы мы могли отправлять вам текстовые сообщения только для проверки аккаунта. За сообщение и передачу данных может взиматься плата.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Отправить код
 
 ## HeaderLockup component, the header in account settings
 
@@ -838,6 +867,7 @@ recovery-key-create-back-button-title = Вернуться в настройки
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Добавить телефон для восстановления
 
 ## Add secondary email page
 
@@ -891,6 +921,7 @@ tfa-incorrect-totp = Неверный код двухэтапной аутент
 tfa-cannot-retrieve-code = При запрашивании вашего кода произошла ошибка.
 tfa-cannot-verify-code-4 = При подтверждении вашего резервного кода аутентификации возникла проблема
 tfa-incorrect-recovery-code-1 = Некорректный резервный код аутентификации
+tfa-enabled-v2 = Двухэтапная аутентификация включена
 tfa-scan-this-code =
     Отсканируйте QR-код с помощью одного из <linkExternal>этих
     приложений для аутентификации</linkExternal>.
@@ -1098,6 +1129,10 @@ tfa-row-cannot-refresh =
     К сожалению, при обновлении двухэтапной
     аутентификации произошла ошибка.
 tfa-row-enabled-description = Ваш аккаунт защищен двухэтапной аутентификацией. Вам нужно будет ввести одноразовый код-пароль из приложения для аутентификации при входе в { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Как это защищает ваш аккаунт
+tfa-row-disabled-description-v2 = Помогите защитить свой аккаунт, используя стороннее приложение для аутентификации в качестве второго шага для входа.
 tfa-row-cannot-verify-session-4 = К сожалению, при подтверждении вашей сессии возникла проблема
 tfa-row-disable-modal-heading = Отключить двухэтапную аутентификацию?
 tfa-row-disable-modal-confirm = Отключить
@@ -1267,6 +1302,7 @@ inline-recovery-confirmation-header-default = Подтвердите резер�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Подтвердите резервный код аутентификации <span>для перехода к { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Двухэтапная аутентификация включена
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

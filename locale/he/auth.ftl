@@ -303,6 +303,16 @@ postAddLinkedAccount-subject-2 = חשבון חדש מקושר ל{ -product-mozil
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = חשבון ה־{ $providerName } קושר אל { -product-mozilla-account(case: "the") } שלך
 postAddLinkedAccount-action = ניהול חשבון
+postAddRecoveryPhone-subject = נוסף טלפון לשחזור
+postAddRecoveryPhone-title = יצרת מספר טלפון לשחזור
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = הוספת את { $maskedLastFourPhoneNumber } כטלפון השחזור שלך
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = כיצד זה מגן על החשבון שלך
+postAddRecoveryPhone-how-protect-plaintext = כיצד זה מגן על החשבון שלך:
+postAddRecoveryPhone-enabled-device = הפעלת אותו מ:
+postAddRecoveryPhone-action = ניהול חשבון
 postAddTwoStepAuthentication-subject-2 = אימות דו־שלבי הופעל
 postAddTwoStepAuthentication-title-2 = הפעלת את האימות הדו־שלבי
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -320,6 +330,10 @@ postChangePrimary-title = כתובת דוא״ל ראשית חדשה
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = שינית את כתובת הדוא״ל הראשית שלך ל־{ $email }. כתובת זו היא מעכשיו שם המשתמש שלך לכניסה ל{ -product-mozilla-account(case: "the") } שלך, ותשמש לקבלת התרעות אבטחה ואישורי כניסה.
 postChangePrimary-action = ניהול חשבון
+postChangeRecoveryPhone-subject = טלפון לשחזור עודכן
+postChangeRecoveryPhone-title = שינית את טלפון השחזור שלך
+postChangeRecoveryPhone-description = כעת יש לך טלפון חדש לשחזור. מספר הטלפון הקודם שלך נמחק.
+postChangeRecoveryPhone-requested-device = ביקשת אותו מ:
 postConsumeRecoveryCode-action = ניהול חשבון
 postNewRecoveryCodes-action = ניהול חשבון
 postRemoveAccountRecovery-subject-2 = מפתח לשחזור החשבון נמחק
@@ -327,6 +341,9 @@ postRemoveAccountRecovery-title-3 = מחקת את מפתח שחזור החשבו
 postRemoveAccountRecovery-body-part1 = המפתח לשחזור החשבון שלך נדרש כדי לשחזר את נתוני הגלישה המוצפנים שלך אם הססמה שלך תישכח.
 postRemoveAccountRecovery-body-part2 = אם עדיין לא עשית זאת, מומלץ ליצור מפתח שחזור חשבון חדש בהגדרות החשבון שלך כדי למנוע אובדן הססמאות השמורות, הסימניות, היסטוריית הגלישה שלך ועוד.
 postRemoveAccountRecovery-action = ניהול חשבון
+postRemoveRecoveryPhone-subject = הוסר טלפון לשחזור
+postRemoveRecoveryPhone-title = הוסר טלפון לשחזור
+postRemoveRecoveryPhone-requested-device = ביקשת אותו מ:
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 # Variables:
