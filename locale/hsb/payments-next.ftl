@@ -9,6 +9,8 @@ next-basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźiš
 
 ## Page
 
+checkout-signin-or-create = 1. Přizjewće so abo załožće { -product-mozilla-account }
+checkout-create-account = Załožće { -product-mozilla-account }
 continue-signin-with-google-button = Dale z { -brand-google }
 continue-signin-with-apple-button = Dale z { -brand-apple }
 next-payment-method-header = Wubjerće swoju płaćensku metodu
@@ -16,6 +18,8 @@ next-payment-method-header = Wubjerće swoju płaćensku metodu
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprjedy dyrbiće swój abonement wobkrućić
 next-payment-confirmation-thanks-heading-account-exists = Wulki dźak, přepruwujće nětko swoju e-mejl!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Dóstanjeće mejlku na { $email } z instrukcijemi za waš abonement kaž tež waše płaćenske podrobnosće.
 next-payment-confirmation-order-heading = Skazanske podrobnosće
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Zličbowanka #{ $invoiceNumber }
@@ -29,6 +33,7 @@ next-payment-confirmation-amount = { $amount } na { $interval }
 next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } kónči
 next-payment-confirmation-download-button = Dale k sćehnjenju
 checkout-error-boundary-retry-button = Hišće raz spytać
+checkout-error-boundary-basic-error-message = Něšto je so nimokuliło. Prošu spytajće hišće raz abo <contactSupportLink>stajće so z pomocu do zwiska.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -39,6 +44,8 @@ next-payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móž
 
 next-new-user-submit = Nětko abonować
 next-payment-validate-name-error = Prošu zapodajće swoje mjeno
+# Label for the Full Name input
+payment-name-label = Mjeno kaž so na wašej karće jewi
 payment-name-placeholder = Dospołne mjeno
 
 ## Component - CouponForm
@@ -110,6 +117,11 @@ next-coupon-success-repeating = Waš plan so po { $couponDurationDate } za lisć
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } kóždy dźeń
+plan-price-interval-weekly = { $amount } kóždy tydźeń
+plan-price-interval-monthly = { $amount } kóždy měsac
+plan-price-interval-6monthly = { $amount } kóžde 6 měsacow
+plan-price-interval-yearly = { $amount } kóžde lěto
 
 ## Component - SubscriptionTitle
 

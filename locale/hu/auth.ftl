@@ -373,7 +373,7 @@ postRemoveAccountRecovery-action = Fiók kezelése
 postRemoveRecoveryPhone-subject = Helyreállítási telefonszám eltávolítva
 postRemoveRecoveryPhone-title = Helyreállítási telefonszám eltávolítva
 postRemoveRecoveryPhone-description = A helyreállítási telefonszámát eltávolították a kétlépcsős hitelesítési beállítások közül. Még mindig megvannak a használható tartalék hitelesítési kódjai.
-postRemoveRecoveryPhone-requested-device = A következőtől kérte:
+postRemoveRecoveryPhone-requested-device = Innen kérte:
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
 # Variables:
