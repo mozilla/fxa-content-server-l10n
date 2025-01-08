@@ -322,6 +322,16 @@ postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Vaš račun { $providerName } se je povezal z vašim { -product-mozilla-account(sklon: "orodnik") }
 postAddLinkedAccount-action = Upravljanje računa
+postAddRecoveryPhone-subject = Telefonska številka za obnovitev dodana
+postAddRecoveryPhone-title = Ustvarili ste telefonsko številko za obnovitev
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = { $maskedLastFourPhoneNumber } ste dodali kot telefonsko številko za obnovitev
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Kako to ščiti vaš račun
+postAddRecoveryPhone-how-protect-plaintext = Kako to ščiti vaš račun:
+postAddRecoveryPhone-enabled-device = Omogočili ste jo z naslednje naprave:
+postAddRecoveryPhone-action = Upravljanje računa
 postAddTwoStepAuthentication-subject-2 = Overitev v dveh korakih vklopljena
 postAddTwoStepAuthentication-title-2 = Vklopili ste overitev v dveh korakih
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -339,6 +349,10 @@ postChangePrimary-title = Nov glavni e-poštni naslov
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-mozilla-account(sklon: "tozilnik") }, kot tudi naslov za prejemanje varnostnih obvestil ter
 postChangePrimary-action = Upravljanje računa
+postChangeRecoveryPhone-subject = Telefonska številka za obnovitev je posodobljena
+postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
+postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Vaša prejšnja telefonska številka je bila izbrisana.
+postChangeRecoveryPhone-requested-device = Zahtevali ste jo od:
 postConsumeRecoveryCode-title-2 = Uporabili ste rezervno overitveno kodo
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Uporabljena je bila na naslednji napravi:
@@ -360,6 +374,10 @@ postRemoveAccountRecovery-title-3 = Izbrisali ste ključ za obnovitev računa
 postRemoveAccountRecovery-body-part1 = Ključ za obnovitev računa je potreben za obnovitev šifriranih podatkov brskanja, če pozabite geslo.
 postRemoveAccountRecovery-body-part2 = Če tega še niste storili, v nastavitvah računa ustvarite nov obnovitveni ključ in preprečite izgubo shranjenih gesel, zaznamkov, zgodovine brskanja in drugega.
 postRemoveAccountRecovery-action = Upravljanje računa
+postRemoveRecoveryPhone-subject = Telefonska številka za obnovitev je odstranjena
+postRemoveRecoveryPhone-title = Telefonska številka za obnovitev je odstranjena
+postRemoveRecoveryPhone-description = Vaša telefonska številka za obnovitev je bila odstranjena iz nastavitev overjanja v dveh korakih. Še vedno imate na voljo rezervne overitvene kode za uporabo.
+postRemoveRecoveryPhone-requested-device = Zahtevali ste jo od:
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 # Variables:

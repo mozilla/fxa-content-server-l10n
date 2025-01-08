@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Slědk
+button-back-title = Slědk
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Mobilny rěd, kótaryž kod pśez tekstowu powěźeńku dostawa.
 recovery-phone-code-image-description =
     .aria-label = Kod jo se dostał na mobilnem rěźe.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobilny rěd z móžnosću, tekstowe powěźeńki SMS słaś
+backup-authentication-codes-image-aria-label =
+    .aria-label = Rědowa wobrazowka z kodami
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1651,6 +1657,11 @@ signin-recovery-code-desktop-relay = { -brand-firefox } buźo was slědk słaś,
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Pśizjawiś
+signin-recovery-method-subheader = Wubjeŕśo wótnowjeńsku metodu
+signin-recovery-method-details = Pśeznańśo se, až wy swóje wótnowjeńske metody wužywaśo.
+signin-recovery-method-phone = Wótnowjeński telefon
+signin-recovery-method-code = Awtentificěrowańske kody
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

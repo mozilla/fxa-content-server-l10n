@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Vissza
+button-back-title = Vissza
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Mobileszköz, amely kódot kap szöveges üzenetben.
 recovery-phone-code-image-description =
     .aria-label = Mobileszközön kapott kód.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobileszköz SMS szöveges üzenetküldési lehetőséggel
+backup-authentication-codes-image-aria-label =
+    .aria-label = Eszköz képernyő kódok
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1655,6 +1661,13 @@ signin-recovery-code-desktop-relay = Bejelentkezés után a { -brand-firefox } m
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Bejelentkezés
+signin-recovery-method-subheader = Válasszon helyreállítási módszert
+signin-recovery-method-details = A helyreállítási módszerek segítségével győződjön meg róla, hogy Ön az.
+signin-recovery-method-phone = Helyreállítási telefonszám
+signin-recovery-method-code = Hitelesítési kódok
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } kód maradt
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

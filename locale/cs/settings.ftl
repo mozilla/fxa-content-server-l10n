@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Zpět
+button-back-title = Zpět
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Mobilní zařízení, které přijímá kód prostřednictvím textové zprávy.
 recovery-phone-code-image-description =
     .aria-label = Kód byl přijat na mobilní zařízení.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobilní zařízení s možností textových SMS zpráv
+backup-authentication-codes-image-aria-label =
+    .aria-label = Obrazovka zařízení s kódy
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1644,6 +1650,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox } se vás pokusí po přih
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Přihlásit se
+signin-recovery-method-subheader = Vyberte způsob obnovení
+signin-recovery-method-details = Pojďme se ujistit, že jste to vy pomocí vašich metod obnovení.
+signin-recovery-method-phone = Telefon pro obnovení
+signin-recovery-method-code = Ověřovací kódy
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Zbývá { $numberOfCodes } kódů
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

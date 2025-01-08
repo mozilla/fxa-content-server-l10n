@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Nôl
+button-back-title = Nôl
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Dyfais symudol sy'n derbyn cod trwy neges destun.
 recovery-phone-code-image-description =
     .aria-label = Cod wedi'i dderbyn ar ddyfais symudol.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dyfais symudol gyda galluoedd neges destun SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Sgrin dyfais gyda chodau
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1644,6 +1650,13 @@ signin-recovery-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfo
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Mewngofnodi
+signin-recovery-method-subheader = Dewiswch ddull adfer
+signin-recovery-method-details = Gadewch i ni sicrhau mai chi sy'n defnyddio'ch dulliau adfer.
+signin-recovery-method-phone = Ffôn adfer
+signin-recovery-method-code = Codau dilysu
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } cod yn weddill
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

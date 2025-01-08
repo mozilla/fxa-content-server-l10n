@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Indietro
+button-back-title = Indietro
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Dispositivo mobile che riceve un codice tramite SMS.
 recovery-phone-code-image-description =
     .aria-label = Codice ricevuto su un dispositivo mobile.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dispositivo mobile con funzionalità SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Schermo del dispositivo con codici
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1637,6 +1643,13 @@ signin-recovery-code-desktop-relay = Dopo aver effettuato l’accesso, { -brand-
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Accedi
+signin-recovery-method-subheader = Scegli un metodo di recupero
+signin-recovery-method-details = Verifichiamo che sia davvero tu a utilizzare i metodi di recupero.
+signin-recovery-method-phone = Telefono per il recupero dell’account
+signin-recovery-method-code = Codici di autenticazione
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } codici rimanenti
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

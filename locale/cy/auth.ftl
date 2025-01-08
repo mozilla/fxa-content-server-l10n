@@ -324,6 +324,16 @@ postAddLinkedAccount-subject-2 = Cyfrif newydd yn gysylltiedig â'ch cyfrif { -p
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Mae eich cyfrif { $providerName } wedi'i gysylltu â'ch cyfrif { -product-mozilla-account }
 postAddLinkedAccount-action = Rheoli cyfrif
+postAddRecoveryPhone-subject = Ffôn adfer wedi'i ychwanegu
+postAddRecoveryPhone-title = Rydych chi wedi creu rhif ffôn adfer
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Rydych wedi ychwanegu { $maskedLastFourPhoneNumber } fel eich ffôn adfer
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Sut mae hyn yn amddiffyn eich cyfrif
+postAddRecoveryPhone-how-protect-plaintext = Sut mae hyn yn amddiffyn eich cyfrif:
+postAddRecoveryPhone-enabled-device = Rydych chi wedi'i alluogi o:
+postAddRecoveryPhone-action = Rheoli cyfrif
 postAddTwoStepAuthentication-subject-2 = Mae dilysu dau gam wedi ei droi ymlaen
 postAddTwoStepAuthentication-title-2 = Rydych chi wedi troi dilysu dau gam ymlaen
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -341,6 +351,10 @@ postChangePrimary-title = Prif e-bost newydd
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Rydych wedi llwyddo i newid eich prif e-bost i { $email }. Y cyfeiriad hwn bellach yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch cyfrif { -product-mozilla-account }, yn ogystal â derbyn hysbysiadau diogelwch a chadarnhau eich mewngofnodi.
 postChangePrimary-action = Rheoli cyfrif
+postChangeRecoveryPhone-subject = Ffôn adfer wedi'i ddiweddaru
+postChangeRecoveryPhone-title = Rydych chi wedi newid eich ffôn adfer
+postChangeRecoveryPhone-description = Mae gennych ffôn adfer newydd nawr. Cafodd eich rhif ffôn blaenorol ei ddileu.
+postChangeRecoveryPhone-requested-device = Fe wnaethoch chi ofyn amdano gan:
 postConsumeRecoveryCode-title-2 = Rydych wedi defnyddio cod dilysu wrth gefn
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Cafodd ei ddefnyddio ar:
@@ -364,6 +378,10 @@ postRemoveAccountRecovery-title-3 = Rydych wedi dileu allwedd adfer eich cyfrif
 postRemoveAccountRecovery-body-part1 = Mae angen eich allwedd adfer cyfrif i adfer eich data pori wedi'i amgryptio os byddwch yn anghofio eich cyfrinair.
 postRemoveAccountRecovery-body-part2 = Os nad ydych wedi gwneud hynny eisoes, crëwch allwedd adfer cyfrif newydd yng ngosodiadau eich cyfrif i atal colli eich cyfrineiriau sydd wedi'u cadw, nodau tudalen, hanes pori, a mwy.
 postRemoveAccountRecovery-action = Rheoli cyfrif
+postRemoveRecoveryPhone-subject = Ffôn adfer wedi'i dynnu
+postRemoveRecoveryPhone-title = Ffôn adfer wedi'i dynnu
+postRemoveRecoveryPhone-description = Mae eich ffôn adfer wedi'i dynnu o'ch gosodiadau dilysu dau gam. Mae'ch codau dilysu wrth gefn ar gael i chi eu defnyddio o hyd.
+postRemoveRecoveryPhone-requested-device = Fe wnaethoch chi ofyn amdano gan:
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost
 # Variables:

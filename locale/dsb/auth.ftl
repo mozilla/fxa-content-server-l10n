@@ -322,6 +322,16 @@ postAddLinkedAccount-subject-2 = Nowe konto jo se zwězało z wašym { -product-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Wašo konto { $providerName } jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
 postAddLinkedAccount-action = Konto zastojaś
+postAddRecoveryPhone-subject = Wótnowjeński telefon pśidany
+postAddRecoveryPhone-title = Sćo napórał numer wótnowjeńskego telefona
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Sćo pśidał { $maskedLastFourPhoneNumber } ako swój wótnowjeński telefon
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Kak to wašo konto šćita
+postAddRecoveryPhone-how-protect-plaintext = Kak to wašo konto šćita:
+postAddRecoveryPhone-enabled-device = Sćo ju zmóžnił z:
+postAddRecoveryPhone-action = Konto zastojaś
 postAddTwoStepAuthentication-subject-2 = Dwójokšacowa awtentifikacija jo se zmóžniła
 postAddTwoStepAuthentication-title-2 = Sćo zmóžnił dwójokšacowu awtentifikaciju
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -339,6 +349,10 @@ postChangePrimary-title = Nowa primarna e-mailowa adresa
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywaŕske mě za pśizjawjenje pla wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
+postChangeRecoveryPhone-subject = Wótnowjeński telefon zaktualizěrowany
+postChangeRecoveryPhone-title = Sćo změnił swój wótnowjeński telefon
+postChangeRecoveryPhone-description = Maśo něnto nowy wótnowjeński telefon. Waš pjerwjejšny telefonowy numer jo se wulašował.
+postChangeRecoveryPhone-requested-device = Sćo póžedał jen wót:
 postConsumeRecoveryCode-title-2 = Sćo wužył kod za zawěsćeńsku awtentifikaciju
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Jo se wužyl na:
@@ -360,6 +374,10 @@ postRemoveAccountRecovery-title-3 = Sćo wulašował swój kontowy wótnowjeńsk
 postRemoveAccountRecovery-body-part1 = Waš kontowy wótnowjeński kluc jo trjebny, aby se waše skoděrowane pśeglědowańske daty wótnowili, jolic wašo gronidło zabydnjośo.
 postRemoveAccountRecovery-body-part2 = Jolic hyšći kluc njamaśo, napórajśo nowy kontowy wótnowjeński kluc w swójich kontowych nastajenjach, aby tomu zajźował, až se waše skłaźone gronidła, cytańske znamjenja, pśeglědowańska historija a wěcej zgubiju.
 postRemoveAccountRecovery-action = Konto zastojaś
+postRemoveRecoveryPhone-subject = Wótnowjeński telefon wótwónoźony
+postRemoveRecoveryPhone-title = Wótnowjeński telefon wótwónoźony
+postRemoveRecoveryPhone-description = Waš wótnowjeński telefon jo se wótwónoźeł z wašych nastajenjow za dwójokšacowu awtentifikaciju. Waše awtentifikaciske kody za zawěsćenje su hyšći za wužywanje k dispoziciji.
+postRemoveRecoveryPhone-requested-device = Sćo póžedał jen wót:
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:

@@ -320,6 +320,16 @@ postAddLinkedAccount-subject-2 = Új fiók kapcsolva a { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-fiókja össze lett kapcsolva a { -product-mozilla-account }jával
 postAddLinkedAccount-action = Fiók kezelése
+postAddRecoveryPhone-subject = Helyreállítási telefonszám hozzáadva
+postAddRecoveryPhone-title = Létrehozott egy helyreállítási telefonszámot
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Hozzáadta a(z) { $maskedLastFourPhoneNumber } helyreállítási telefonszámot
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Hogyan védi ez a fiókját
+postAddRecoveryPhone-how-protect-plaintext = Hogyan védi ez a fiókját:
+postAddRecoveryPhone-enabled-device = Innen engedélyezte:
+postAddRecoveryPhone-action = Fiók kezelése
 postAddTwoStepAuthentication-subject-2 = Kétlépcsős hitelesítés bekapcsolva
 postAddTwoStepAuthentication-title-2 = Bekapcsolta a kétlépcsős hitelesítést
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -337,6 +347,10 @@ postChangePrimary-title = Új elsődleges e-mail cím
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-mozilla-account }ba való bejelentkezéshez, illetve ide fognak érkezni a biztonsági értesítések, és a bejelentkezési visszaigazolások.
 postChangePrimary-action = Fiók kezelése
+postChangeRecoveryPhone-subject = Helyreállítási telefonszám frissítve
+postChangeRecoveryPhone-title = Módosította a helyreállítási telefonszámát
+postChangeRecoveryPhone-description = Most van egy új helyreállítási telefonszáma. Az előző telefonszám törölve lett.
+postChangeRecoveryPhone-requested-device = A következőtől kérte:
 postConsumeRecoveryCode-title-2 = Egy tartalék hitelesítési kódot használt
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = A következőn használták:
@@ -356,6 +370,10 @@ postRemoveAccountRecovery-title-3 = Törölte a fiók-helyreállítási kulcsát
 postRemoveAccountRecovery-body-part1 = A fiók-helyreállítási kulcsra szükség van a titkosított böngészési adatainak helyreállításához, ha elfelejti a jelszavát.
 postRemoveAccountRecovery-body-part2 = Ha még nem tette, hozzon létre egy új fiók-helyreállítási kulcsot a fiókbeállításokban, hogy megakadályozza a mentett jelszavak, könyvjelzők, böngészési előzmények és egyebek elveszítését.
 postRemoveAccountRecovery-action = Fiók kezelése
+postRemoveRecoveryPhone-subject = Helyreállítási telefonszám eltávolítva
+postRemoveRecoveryPhone-title = Helyreállítási telefonszám eltávolítva
+postRemoveRecoveryPhone-description = A helyreállítási telefonszámát eltávolították a kétlépcsős hitelesítési beállítások közül. Még mindig megvannak a használható tartalék hitelesítési kódjai.
+postRemoveRecoveryPhone-requested-device = A következőtől kérte:
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
 # Variables:

@@ -322,6 +322,16 @@ postAddLinkedAccount-subject-2 = Nový účet propojený s vaším { -product-mo
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Váš účet { $providerName } byl propojen s vaším účtem { -product-mozilla-account(case: "ins") }
 postAddLinkedAccount-action = Správa účtu
+postAddRecoveryPhone-subject = Telefon pro obnovení byl přidán
+postAddRecoveryPhone-title = Bylo vytvořeno telefonní číslo pro obnovení
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Jako telefonní číslo pro obnovení jste přidali { $maskedLastFourPhoneNumber }
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Jak tato tato funkce chrání váš účet
+postAddRecoveryPhone-how-protect-plaintext = Jak tato nastavení chrání váš účet:
+postAddRecoveryPhone-enabled-device = Povolili jste ho z:
+postAddRecoveryPhone-action = Správa účtu
 postAddTwoStepAuthentication-subject-2 = Dvoufázové ověření je zapnuto
 postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -339,6 +349,10 @@ postChangePrimary-title = Nová hlavní e-mailová adresa
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Vaše hlavní e-mailová adresa byla úspěšně změněna na { $email }. Tato adresa bude nyní použita pro přihlašování k vašemu { -product-mozilla-account(case: "dat") } a na zasílání bezpečnostních upozornění a potvrzení.
 postChangePrimary-action = Správa účtu
+postChangeRecoveryPhone-subject = Telefon pro obnovení byl aktualizován
+postChangeRecoveryPhone-title = Změnili jste své telefonní číslo
+postChangeRecoveryPhone-description = Nyní máte nové telefonní číslo. Vaše předchozí telefonní číslo bylo smazáno.
+postChangeRecoveryPhone-requested-device = Vyžádali jste si ho z:
 postConsumeRecoveryCode-title-2 = Použili jste záložní ověřovací kód
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Byl použitý na:
@@ -360,6 +374,10 @@ postRemoveAccountRecovery-title-3 = Smazali jste svůj obnovovací klíč k úč
 postRemoveAccountRecovery-body-part1 = Pokud zapomenete heslo, je vyžadován obnovovací klíč k vašemu účtu.
 postRemoveAccountRecovery-body-part2 = Pokud jste tak ještě neučinili, vytvořte si v nastavení účtu nový obnovovací klíč k účtu, abyste předešli ztrátě svých uložených hesel, záložek, historie prohlížení a dalších věcí.
 postRemoveAccountRecovery-action = Správa účtu
+postRemoveRecoveryPhone-subject = Telefon pro obnovení byl odebrán
+postRemoveRecoveryPhone-title = Telefon pro obnovení byl odebrán
+postRemoveRecoveryPhone-description = U vašeho telefonu pro obnovení bylo odebráno nastavení dvoufázového ověřování. Stále máte k dispozici své záložní ověřovací kódy.
+postRemoveRecoveryPhone-requested-device = Vyžádali jste si ho z:
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 # Variables:
