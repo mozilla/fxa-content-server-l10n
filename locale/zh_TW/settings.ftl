@@ -613,9 +613,33 @@ flow-recovery-key-info-cancel-link = 取消
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = 請輸入驗證碼
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = 已透過簡訊將六位數的驗證碼發送至尾數為 <span>{ $phoneNumber }</span> 的門號，此驗證碼將於 5 分鐘後失效。
+flow-setup-phone-confirm-code-input-label = 請輸入六位數的驗證碼
+flow-setup-phone-confirm-code-button = 確認
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = 驗證碼失效？
+flow-setup-phone-confirm-code-resend-code-button = 重寄驗證碼
+flow-setup-phone-confirm-code-success-message = 已加入備用救援手機號碼
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = 確認您的手機號碼
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = 您會收到來自 { -brand-mozilla } 的驗證簡訊，當中包含一組驗證碼。請勿將此驗證碼提供給任何人。
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = 備用救援號碼僅提供美國與加拿大使用者使用，不建議使用 VoIP 網路號碼或轉接門號。
+flow-setup-phone-submit-number-legal = 提供您的電話號碼，就代表您同意我們將其儲存下來，僅供帳號驗證使用。您可能會被收取簡訊或數據傳輸費用。
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = 傳送驗證碼
 
 ## HeaderLockup component, the header in account settings
 
@@ -834,6 +858,7 @@ recovery-key-create-back-button-title = 回到設定
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = 新增救援電話號碼
 
 ## Add secondary email page
 
@@ -887,6 +912,7 @@ tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
 tfa-cannot-verify-code-4 = 確認您的備用驗證碼時發生問題
 tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
+tfa-enabled-v2 = 已開啟兩階段驗證
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
 # This is the image alt text for a QR code.
 # Variables:
