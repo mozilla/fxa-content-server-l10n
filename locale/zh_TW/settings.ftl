@@ -1106,6 +1106,10 @@ tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-enabled-description = 已開啟兩階段驗證保護您的帳號。登入 { -product-mozilla-account }時，需要輸入驗證器程式當中產生的一組驗證碼。
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = 此功能如何保護您的帳號
+tfa-row-disabled-description-v2 = 您可以使用第三方驗證器程式進行第二階段登入，來保護您的帳號安全。
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
@@ -1273,6 +1277,7 @@ inline-recovery-confirmation-header-default = 確認備用驗證碼<span>即可�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = 確認備用驗證碼<span>即可繼續前往 { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = 已開啟兩階段驗證
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
