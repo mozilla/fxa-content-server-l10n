@@ -629,12 +629,19 @@ flow-setup-phone-confirm-code-button = Bekräfta
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Har koden upphört?
 flow-setup-phone-confirm-code-resend-code-button = Skicka koden igen
+flow-setup-phone-confirm-code-success-message = Återställningstelefon för säkerhetskopiering tillagd
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifiera ditt telefonnummer
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Du får ett sms från { -brand-mozilla } med en kod för att verifiera ditt nummer. Dela inte den här koden med någon.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Återställningstelefon för säkerhetskopiering är endast tillgänglig i USA och Kanada. VoIP-nummer och telefonalias rekommenderas inte.
+flow-setup-phone-submit-number-legal = Genom att uppge ditt nummer godkänner du att vi lagrar det så att vi endast kan sms:a dig för kontoverifiering. Meddelande- och datataxor kan tillkomma.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Skicka kod
 
@@ -858,6 +865,7 @@ recovery-key-create-back-button-title = Tillbaka till inställningar
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Lägg till återställningstelefon
 
 ## Add secondary email page
 
@@ -911,6 +919,7 @@ tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
 tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din reservautentiseringskod
 tfa-incorrect-recovery-code-1 = Felaktig reservautentiseringskod
+tfa-enabled-v2 = Tvåstegsautentisering har aktiverats
 tfa-scan-this-code =
     Skanna den här QR-koden med en av dessa
     <linkExternal>autentiseringsappar</linkExternal>.
@@ -1120,6 +1129,10 @@ tfa-row-cannot-refresh =
     Tyvärr uppstod ett problem med att uppdatera
     tvåstegautentisering.
 tfa-row-enabled-description = Ditt konto skyddas av tvåstegsautentisering. Du måste ange en engångskod från din autentiseringsapp när du loggar in på ditt { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Hur detta skyddar ditt konto
+tfa-row-disabled-description-v2 = Hjälp till att säkra ditt konto genom att använda en autentiseringsapp från tredje part som ett andra steg för att logga in.
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
@@ -1291,6 +1304,7 @@ inline-recovery-confirmation-header-default = Bekräfta reservautentiseringskode
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekräfta reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Tvåstegsautentisering har aktiverats
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
