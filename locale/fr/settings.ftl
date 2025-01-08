@@ -629,14 +629,14 @@ flow-setup-phone-confirm-code-success-message = Numéro de téléphone de secour
 
 ## FlowSetupPhoneConfirmCode
 
-flow-setup-phone-submit-number-heading = Confirmer votre numéro de téléphone
+flow-setup-phone-submit-number-heading = Vérifiez votre numéro de téléphone
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Vous recevrez un SMS de { -brand-mozilla } avec un code pour vérifier votre numéro. Ne partagez pas ce code avec qui que ce soit.
 # The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = La sauvegarde du numéro de téléphone du téléphone est uniquement disponible aux États-Unis et au Canada. Les numéros VoIP et les alias de numéro de téléphone ne sont pas recommandés.
+flow-setup-phone-submit-number-info-message = Le numéro de téléphone de secours est uniquement disponible aux États-Unis et au Canada. Les numéros VoIP et les alias de numéro de téléphone ne sont pas recommandés.
 flow-setup-phone-submit-number-legal = En fournissant votre numéro, vous acceptez que nous le conservions afin que nous puissions vous envoyer des SMS pour vérification de compte uniquement. Des frais de communication peuvent s’appliquer.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Envoyer le code
