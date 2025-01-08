@@ -294,7 +294,7 @@ recovery-phone-image-description =
 recovery-phone-code-image-description =
     .aria-label = Code auf einem Mobilgerät empfangen.
 backup-recovery-phone-image-aria-label =
-    .aria-label = Mobiles Gerät mit SMS-Textnachrichten
+    .aria-label = SMS-fähiges Mobilgerät
 backup-authentication-codes-image-aria-label =
     .aria-label = Gerätebildschirm mit Codes
 
@@ -1651,7 +1651,7 @@ signin-recovery-code-desktop-relay = { -brand-firefox } wird versuchen, Sie nach
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Anmelden
-signin-recovery-method-subheader = Wählen Sie eine Wiederherstellungsmethode
+signin-recovery-method-subheader = Wählen Sie eine Kontowiederherstellungsmethode
 signin-recovery-method-details = Verwenden Sie Ihre Wiederherstellungsmethode erneut.
 signin-recovery-method-phone = Telefonnummer zum Wiederherstellen
 signin-recovery-method-code = Authentifizierungscodes

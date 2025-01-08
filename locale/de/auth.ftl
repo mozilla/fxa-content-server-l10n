@@ -320,11 +320,11 @@ postAddLinkedAccount-subject-2 = Neues Konto mit Ihrem { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ihr { $providerName }-Konto wurde mit Ihrem { -product-mozilla-account } verknüpft
 postAddLinkedAccount-action = Benutzerkonto verwalten
-postAddRecoveryPhone-subject = Telefonnummer zur Wiederherstellung hinzugefügt
-postAddRecoveryPhone-title = Sie haben eine Telefonnummer zur Wiederherstellung erstellt
+postAddRecoveryPhone-subject = Telefonnummer zur Kontowiederherstellung hinzugefügt
+postAddRecoveryPhone-title = Sie haben eine Telefonnummer zur Kontowiederherstellung erstellt
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Sie haben { $maskedLastFourPhoneNumber } als Ihre Telefonnummer hinzugefügt
+postAddRecoveryPhone-description = Sie haben { $maskedLastFourPhoneNumber } als Ihre Telefonnummer zur Kontowiederherstellung hinzugefügt
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Wie dies Ihr Konto schützt
 postAddRecoveryPhone-how-protect-plaintext = Wie dies Ihr Konto schützt:
@@ -348,9 +348,9 @@ postChangePrimary-title = Neue Primär-E-Mail-Adresse
 postChangePrimary-description-2 = Sie haben Ihre Primär-E-Mail-Adresse zu { $email } geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem { -product-mozilla-account }, sowie zum Erhalt von Sicherheitsbenachrichtigungen und Anmeldebestätigungen.
 postChangePrimary-action = Benutzerkonto verwalten
 postChangeRecoveryPhone-subject = Telefonnummer für Kontowiederherstellung aktualisiert
-postChangeRecoveryPhone-title = Sie haben Ihre Telefonnummer zur Wiederherstellung geändert
-postChangeRecoveryPhone-description = Sie haben jetzt eine neue Telefonnummer. Ihre vorherige Telefonnummer wurde gelöscht.
-postChangeRecoveryPhone-requested-device = Sie haben angefordert von:
+postChangeRecoveryPhone-title = Sie haben Ihre Telefonnummer zur Kontowiederherstellung geändert
+postChangeRecoveryPhone-description = Sie haben jetzt eine neue Telefonnummer zur Kontowiederherstellung. Ihre vorherige Telefonnummer wurde gelöscht.
+postChangeRecoveryPhone-requested-device = Sie haben sie angefordert von:
 postConsumeRecoveryCode-title-2 = Sie haben einen Sicherungs-Authentifizierungscode verwendet
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Er wurde verwendet auf:
@@ -370,10 +370,10 @@ postRemoveAccountRecovery-title-3 = Sie haben Ihren Kontowiederherstellungsschl�
 postRemoveAccountRecovery-body-part1 = Ihr Kontowiederherstellungsschlüssel wird benötigt, um Ihre verschlüsselten Browser-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
 postRemoveAccountRecovery-body-part2 = Falls noch nicht geschehen, erstellen Sie in Ihren Kontoeinstellungen einen neuen Kontowiederherstellungsschlüssel, um zu verhindern, dass Ihre gespeicherten Passwörter, Lesezeichen, Chronik und mehr verloren gehen.
 postRemoveAccountRecovery-action = Benutzerkonto verwalten
-postRemoveRecoveryPhone-subject = Telefonnummer für Wiederherstellung entfernt
-postRemoveRecoveryPhone-title = Telefonnummer für Wiederherstellung entfernt
-postRemoveRecoveryPhone-description = Ihre Telefonnummer zur Wiederherstellung wurde aus Ihren Einstellungen für die Zwei-Schritt-Authentifizierung entfernt. Sie haben noch Ihre Sicherungs-Authentifizierungscodes zur Verfügung.
-postRemoveRecoveryPhone-requested-device = Sie haben angefordert von:
+postRemoveRecoveryPhone-subject = Telefonnummer für Kontowiederherstellung entfernt
+postRemoveRecoveryPhone-title = Telefonnummer für Kontowiederherstellung entfernt
+postRemoveRecoveryPhone-description = Ihre Telefonnummer zur Kontowiederherstellung wurde aus Ihren Einstellungen für die Zwei-Schritt-Authentifizierung entfernt. Sie haben noch Ihre Sicherungs-Authentifizierungscodes zur Verfügung.
+postRemoveRecoveryPhone-requested-device = Sie haben sie angefordert von:
 postRemoveSecondary-subject = Zweit-E-Mail-Adresse entfernt
 postRemoveSecondary-title = Zweit-E-Mail-Adresse entfernt
 # Variables:
