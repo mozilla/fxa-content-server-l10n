@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = 您的密码现在会被隐藏。
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = 选择国家/地区
 input-phone-number-enter-number = 请输入电话号码
 input-phone-number-country-united-states = 美国
 input-phone-number-country-canada = 加拿大
@@ -557,10 +559,6 @@ dc-learn-more = 详细了解
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }菜单
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>已登录为</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = 退出
 drop-down-menu-sign-out-error-2 = 抱歉，退出登录时出现问题。
 
@@ -611,6 +609,28 @@ flow-recovery-key-info-key-bullet-point-v2 = 您可以通过账户恢复密钥�
 flow-recovery-key-info-cta-text-v3 = 开始创建
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = 请输入验证码
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = 一个六位验证码已以短信形式发送到 <span>{ $phoneNumber }</span>。此验证码将在 5 分钟后失效。
+flow-setup-phone-confirm-code-input-label = 请输入 6 位验证码
+flow-setup-phone-confirm-code-button = 确认
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = 验证码已过期？
+flow-setup-phone-confirm-code-resend-code-button = 重新发送验证码
+
+## FlowSetupPhoneConfirmCode
+
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = 您会收到一条来自 { -brand-mozilla } 的短信，内容是用于验证您的手机号的验证码。请不要与任何人分享此验证码。
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = 发送验证码
 
 ## HeaderLockup component, the header in account settings
 
@@ -827,6 +847,9 @@ recovery-key-create-page-title = 账户恢复密钥
 # and back to account settings
 recovery-key-create-back-button-title = 返回设置
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 步骤（1 / 2）
@@ -879,7 +902,7 @@ tfa-incorrect-totp = 错误的两步验证码
 tfa-cannot-retrieve-code = 检索您的验证码时出现问题。
 tfa-cannot-verify-code-4 = 确认您的备用验证码时出现问题
 tfa-incorrect-recovery-code-1 = 备份验证码不正确
-tfa-enabled = 已启用两步验证
+tfa-enabled-v2 = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
 # This is the image alt text for a QR code.
 # Variables:
@@ -1073,8 +1096,9 @@ tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
 tfa-row-enabled-description = 您的账户受两步验证保护。登录 { -product-mozilla-account }时，您将需要输入身份验证器应用中的一次性密码。
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = 将<linkExternal>第三方身份验证器应用</linkExternal>用作登录的附加确认手段，帮助保护账户安全。
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = 此举如何保护您的账户
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
@@ -1242,7 +1266,7 @@ inline-recovery-confirmation-header-default = 确认备用验证码以<span>继�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用 { $serviceName }</span>
-inline-recovery-2fa-enabled = 已启用两步验证
+inline-recovery-2fa-enabled-v2 = 已启用两步验证
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
