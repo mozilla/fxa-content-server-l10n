@@ -32,6 +32,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = חזרה
+button-back-title = חזרה
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -275,6 +277,10 @@ recovery-phone-image-description =
     .aria-label = מכשיר נייד המקבל קוד בהודעת טקסט.
 recovery-phone-code-image-description =
     .aria-label = קוד שהתקבל במכשיר נייד.
+backup-recovery-phone-image-aria-label =
+    .aria-label = מכשיר נייד עם יכולות של הודעות SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = מסך מכשיר עם קודים
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -773,6 +779,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = המשך
 delete-account-password-input =
     .label = נא להכניס ססמה
+pocket-delete-notice = אם נרשמת כמינוי ל־Pocket Premium, נא לוודא <a>שיבוצע ביטול של המינוי </a> לפני מחיקת החשבון שלך.
 pocket-delete-notice-marketing = כדי להפסיק לקבל דוא״ל שיווקיים מ־Mozilla Corporation ומ־Mozilla Foundation, יש <a>לבקש מחיקה של נתוני השיווק שלך.</a>
 delete-account-cancel-button = ביטול
 delete-account-delete-button-2 = מחיקה
@@ -1564,6 +1571,13 @@ signin-recovery-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח �
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = כניסה
+signin-recovery-method-subheader = בחירת אמצעי לשחזור
+signin-recovery-method-details = בואו נוודא שזה אתה המשתמש בשיטות השחזור שלך.
+signin-recovery-method-phone = טלפון לשחזור
+signin-recovery-method-code = קודי אימות
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = נותרו { $numberOfCodes } קודים
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

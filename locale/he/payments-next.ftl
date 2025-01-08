@@ -9,9 +9,17 @@ next-basic-error-message = משהו השתבש. נא לנסות שוב מאוח�
 
 ## Page
 
+checkout-signin-or-create = 1. התחברות או יצירת { -product-mozilla-account(case: "a") }
+checkout-create-account = יצירת { -product-mozilla-account(case: "a") }
+continue-signin-with-google-button = המשך באמצעות { -brand-google }
+continue-signin-with-apple-button = המשך באמצעות { -brand-apple }
 next-payment-method-header = נא לבחור את שיטת התשלום שלך
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ראשית יש לאשר את המינוי שלך
 next-payment-confirmation-thanks-heading-account-exists = תודה, עכשיו יש לבדוק את הדוא״ל שלך!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = תתקבל הודעת דוא״ל לכתובת { $email } עם הנחיות לגבי המינוי שלך, לרבות פרטים על התשלום שלך.
 next-payment-confirmation-order-heading = פרטי הזמנה
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
@@ -80,6 +88,8 @@ select-tax-location-successfully-updated = המיקום שלך עודכן.
 select-tax-location-error-location-not-updated = לא ניתן היה לעדכן את המיקום שלך. נא לנסות שוב.
 signin-form-continue-button = המשך
 signin-form-email-input = נא להכניס את כתובת הדוא״ל שלך
+signin-form-email-input-missing = נא להכניס את כתובת הדוא״ל שלך
+signin-form-email-input-invalid = נא להכניס כתובת דוא״ל תקנית
 next-new-user-subscribe-product-updates-mdnplus = ברצוני לקבל חדשות ועדכונים על מוצרים מ־{ -product-mdn-plus } ו־{ -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = ברצוני לקבל חדשות ועדכונים על מוצרים מ־{ -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = ברצוני לקבל חדשות ועדכונים על פרטיות ואבטחה מ־{ -brand-mozilla }
@@ -94,6 +104,8 @@ next-plan-details-total-label = סה״כ
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = התוכנית שלך תתחדש אוטומטית עם המחיר המוצע.
 
 ## Component - PriceInterval
@@ -102,11 +114,18 @@ next-coupon-success = התוכנית שלך תתחדש אוטומטית עם ה�
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } כל יום
+plan-price-interval-weekly = { $amount } כל שבוע
+plan-price-interval-monthly = { $amount } כל חודש
+plan-price-interval-6monthly = { $amount } כל 6 חודשים
+plan-price-interval-yearly = { $amount } כל שנה
 
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = הגדרת המינוי שלך
+next-subscription-success-title = אישור המינוי
 next-subscription-processing-title = המינוי מועבר לאישור…
+next-subscription-error-title = שגיאה באישור המינוי…
 next-sub-guarantee = החזר כספי מובטח תוך 30 יום
 
 ## Component - TermsAndPrivacy

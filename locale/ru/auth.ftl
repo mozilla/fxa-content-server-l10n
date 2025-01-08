@@ -321,6 +321,16 @@ postAddLinkedAccount-subject-2 = Новый аккаунт, связанный �
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ваш аккаунт { $providerName } был привязан к { -product-mozilla-account }
 postAddLinkedAccount-action = Управлять аккаунтом
+postAddRecoveryPhone-subject = Телефон для восстановления добавлен
+postAddRecoveryPhone-title = Вы создали номер телефона для восстановления
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Вы добавили { $maskedLastFourPhoneNumber } в качестве телефона для восстановления
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Как это защищает ваш аккаунт
+postAddRecoveryPhone-how-protect-plaintext = Как это защищает ваш аккаунт:
+postAddRecoveryPhone-enabled-device = Вы включили его из:
+postAddRecoveryPhone-action = Управление аккаунтом
 postAddTwoStepAuthentication-subject-2 = Двухэтапная аутентификация включена
 postAddTwoStepAuthentication-title-2 = Вы включили двухэтапную аутентификацию
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -338,6 +348,10 @@ postChangePrimary-title = Новая основная электронная п�
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Вы успешно изменили свой адрес электронной почты на { $email }. Этот адрес является вашим именем пользователя для входа в { -product-mozilla-account }, а также для получения уведомлений безопасности и подтверждений входа.
 postChangePrimary-action = Управление аккаунтом
+postChangeRecoveryPhone-subject = Телефон для восстановления обновлён
+postChangeRecoveryPhone-title = Вы изменили свой телефон для восстановления
+postChangeRecoveryPhone-description = Теперь у вас есть новый телефон для восстановления. Ваш предыдущий номер телефона был удалён.
+postChangeRecoveryPhone-requested-device = Вы запросили его из:
 postConsumeRecoveryCode-title-2 = Вы использовали резервный код аутентификации
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Он был использован на:
@@ -358,6 +372,10 @@ postRemoveAccountRecovery-title-3 = Вы удалили свой ключ вос
 postRemoveAccountRecovery-body-part1 = Ключ восстановления вашего аккаунта необходим для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
 postRemoveAccountRecovery-body-part2 = Если вы ещё этого не сделали, создайте новый ключ восстановления аккаунта в настройках своего аккаунта, чтобы не потерять сохранённые пароли, закладки, историю просмотров и многое другое.
 postRemoveAccountRecovery-action = Управление аккаунтом
+postRemoveRecoveryPhone-subject = Телефон для восстановления удалён
+postRemoveRecoveryPhone-title = Телефон для восстановления удалён
+postRemoveRecoveryPhone-description = Ваш телефон для восстановления был удален из настроек двухэтапной аутентификации. У вас всё ещё есть резервные коды аутентификации, доступные для использования.
+postRemoveRecoveryPhone-requested-device = Вы запросили его из:
 postRemoveSecondary-subject = Удалена дополнительная электронная почта
 postRemoveSecondary-title = Удалена дополнительная электронная почта
 # Variables:
