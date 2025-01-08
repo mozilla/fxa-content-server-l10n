@@ -33,6 +33,10 @@ brand-close-banner =
 brand-m-logo =
     .alt = { -brand-mozilla } m-logo
 
+## ButtonBack component
+## Allows users to click a back arrow to navigate to the previous page
+
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -1606,6 +1610,11 @@ signin-recovery-code-required-error = Reserve-godkendelseskode påkrævet
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-desktop-relay = { -brand-firefox } vil forsøge at sende dig tilbage, så du kan bruge en mail-maske, når du har logget ind.
+
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

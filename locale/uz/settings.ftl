@@ -10,6 +10,10 @@
 ## Used to show in product messaging about upcoming brand changes
 
 
+## ButtonBack component
+## Allows users to click a back arrow to navigate to the previous page
+
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -438,6 +442,11 @@ tfa-qa-code-alt = Qoʻllab-quvvatlanadigan ilovalarda ikki bosqichli autentifika
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

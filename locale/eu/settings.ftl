@@ -33,6 +33,10 @@ brand-close-banner =
 brand-m-logo =
     .alt = { -brand-mozilla } logoa
 
+## ButtonBack component
+## Allows users to click a back arrow to navigate to the previous page
+
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -1271,6 +1275,11 @@ signin-recovery-code-back-link = Atzera
 signin-recovery-code-support-link = Blokeatuta zaude?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen babeskopia
+
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
