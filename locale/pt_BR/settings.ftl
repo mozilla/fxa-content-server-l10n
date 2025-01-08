@@ -625,10 +625,19 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = O código expirou?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
-flow-setup-phone-confirm-code-success-message = Adicionado telefone de recuperação de backup
+flow-setup-phone-confirm-code-success-message = Adicionado celular de recuperação de backup
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Verifique seu número de celular
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Você receberá uma mensagem de texto da { -brand-mozilla } com um código para verificar seu número. Não compartilhe esse código com ninguém.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Celular de recuperação de backup está disponível apenas nos Estados Unidos e no Canadá. Números VoIP e máscaras de celular não são recomendados.
+flow-setup-phone-submit-number-legal = Ao fornecer seu número, você declara que concorda que ele seja salvo para podermos te enviar mensagens de texto, apenas para verificação de conta. Podem ser cobrados valores por mensagens e dados.
 
 ## HeaderLockup component, the header in account settings
 
