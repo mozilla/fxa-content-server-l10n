@@ -318,7 +318,7 @@ input-password-sr-only-now-hidden = Votre mot de passe est maintenant masqué.
 ## Phone number component
 
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
-input-phone-number-country-list-aria-label = Sélectionnez votre pays
+input-phone-number-country-list-aria-label = Sélectionnez un pays
 input-phone-number-enter-number = Saisissez un numéro de téléphone
 input-phone-number-country-united-states = États-Unis
 input-phone-number-country-canada = Canada
@@ -559,7 +559,7 @@ dc-learn-more = En savoir plus
 drop-down-menu-title-2 = Menu { -product-mozilla-account(capitalization: "uppercase") }
 # This is displayed in the Settings menu after user's click on their profile icon.
 # Following this string on a new line will be their display name (user's name or email)
-drop-down-menu-signed-in-as-v2 = Connecté en tant que
+drop-down-menu-signed-in-as-v2 = Connecté·e en tant que
 drop-down-menu-sign-out = Déconnexion
 drop-down-menu-sign-out-error-2 = Un problème est survenu lors de votre déconnexion
 
@@ -618,8 +618,8 @@ flow-recovery-key-info-cancel-link = Annuler
 flow-setup-phone-confirm-code-heading = Saisissez le code de vérification
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = Un code à six chiffres a été envoyé à <span>{ $phoneNumber }</span> par SMS. Ce code expire après 5 minutes.
-flow-setup-phone-confirm-code-input-label = Saisissez le code à 6 chiffres
+flow-setup-phone-confirm-code-instruction = Un code à six chiffres a été envoyé au <span>{ $phoneNumber }</span> par SMS. Ce code expire au bout de 5 minutes.
+flow-setup-phone-confirm-code-input-label = Saisissez le code à 6 chiffres
 flow-setup-phone-confirm-code-button = Confirmer
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
