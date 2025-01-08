@@ -861,7 +861,7 @@ recovery-key-create-back-button-title = Retour aux paramètres
 
 ## PageSetupRecoveryPhone
 
-page-setup-recovery-phone-heading = Ajouter un numéro de téléphone de récupération
+page-setup-recovery-phone-heading = Ajoutez un numéro de téléphone de récupération
 
 ## Add secondary email page
 
