@@ -626,26 +626,26 @@ flow-recovery-key-info-cancel-link = Mégse
 flow-setup-phone-confirm-code-heading = Adja meg az ellenőrzőkódot
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = SMS-ben egy hatjegyű kód lett küldve a(z) <span>{ $phoneNumber }</span> telefonszámra. Ez a kód 5 perc után lejár.
+flow-setup-phone-confirm-code-instruction = SMS-ben egy hatjegyű kód lett küldve a <span>{ $phoneNumber }</span> telefonszámra. Ez a kód 5 perc után lejár.
 flow-setup-phone-confirm-code-input-label = Adja meg a 6 számjegyű kódot
 flow-setup-phone-confirm-code-button = Megerősítés
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = A kód lejárt?
 flow-setup-phone-confirm-code-resend-code-button = Kód újraküldése
-flow-setup-phone-confirm-code-success-message = Biztonsági mentés helyreállítási telefonszám hozzáadva
+flow-setup-phone-confirm-code-success-message = Biztonsági mentés helyreállítási telefonszáma hozzáadva
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Ellenőrizze a telefonszámát
 # The code is a 6-digit code send by text message/SMS
-flow-setup-phone-verify-number-instruction = Kapni fog egy SMS-t a { -brand-mozilla }tól, amely egy kódot tartalmaz a száma ellenőrzéséhez. Ne ossza meg ezt a kódot másokkal.
+flow-setup-phone-verify-number-instruction = Kapni fog egy SMS-t a { -brand-mozilla(ending: "accented") }tól, amely egy kódot tartalmaz a száma ellenőrzéséhez. Ne ossza meg ezt a kódot másokkal.
 # The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message = A biztonsági mentés helyreállítási telefonszáma csak az Egyesült Államokban és Kanadában érhető el. A VoIP számok és a telefonmaszkok nem ajánlottak.
-flow-setup-phone-submit-number-legal = A telefonszám megadásával beleegyezik, hogy tároljuk, így csak fiók-ellenőrzési SMS-eket küldhetünk. Üzenet- és adatforgalmi költségek merülhetnek fel.
+flow-setup-phone-submit-number-legal = A telefonszám megadásával beleegyezik, hogy tároljuk, de csak fiók-ellenőrzési SMS-eket küldhetünk. Üzenet- és adatforgalmi költségek merülhetnek fel.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kód küldése
 
