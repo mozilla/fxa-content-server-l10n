@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Jo wachtwurd is no ferburgen.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Lân selektearje
 input-phone-number-enter-number = Fier telefoannûmer yn
 input-phone-number-country-united-states = Ferienige Steaten
 input-phone-number-country-canada = Kanada
@@ -563,10 +565,9 @@ dc-learn-more = Mear ynfo
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-menu
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Oanmeld as </signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Oanmeld as
 drop-down-menu-sign-out = Ofmelde
 drop-down-menu-sign-out-error-2 = Sorry, der is in probleem bard by it ôfmelden
 
@@ -617,6 +618,36 @@ flow-recovery-key-info-key-bullet-point-v2 = Dêrom is it meitsjen fan in accoun
 flow-recovery-key-info-cta-text-v3 = Begjinne
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annulearje
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Fier ferifikaasjekoade yn
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Der is per sms in 6-siferige koade ferstjoerd nei <span>{ $phoneNumber }</span>. Dizze koade ferrint nei 5 minuten.
+flow-setup-phone-confirm-code-input-label = Fier 6-siferige koade yn
+flow-setup-phone-confirm-code-button = Befêstigje
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Koade ferrûn?
+flow-setup-phone-confirm-code-resend-code-button = Koade nochris ferstjoere
+flow-setup-phone-confirm-code-success-message = Reserve-wersteltelefoannûmer tafoege
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Ferifiearje jo telefoannûmer
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Jo ûntfange in sms fan { -brand-mozilla } mei in koade om jo nûmer te ferifiearjen. Diel dizze koade mei net ien.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Reserve-wersteltelefoannûmer is allinnich beskikber yn de Ferienige Steaten en Kanada. VoIP-nûmers en telefoanmaskers wurde net oanrekommandearre.
+flow-setup-phone-submit-number-legal = Troch jo nûmer op te jaan, geane jo akkoard dat wy dit bewarje, sadat wy jo allinnich kinne sms’e foar accountferifikaasje. Berjocht- en gegevenstariven kinne fan tapassing wêze.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Koade ferstjoere
 
 ## HeaderLockup component, the header in account settings
 
@@ -836,6 +867,10 @@ recovery-key-create-page-title = Accountwerstelkaai
 # and back to account settings
 recovery-key-create-back-button-title = Tebek nei ynstellingen
 
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Wersteltelefoannûmer tafoegje
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Stap 1 fan 2
@@ -888,7 +923,7 @@ tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
 tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
 tfa-cannot-verify-code-4 = Der is in probleem bard by it befêstigjen fan jo reserve-autentikaasjekoade
 tfa-incorrect-recovery-code-1 = Ferkearde reserve-autentikaasjekoade
-tfa-enabled = Autentikaasje yn twa stappen ynskeakele
+tfa-enabled-v2 = Autentikaasje yn twa stappen is ynskeakele.
 tfa-scan-this-code =
     Scan dizze QR-koade mei ien fan <linkExternal>dizze 
     autentikaasje-apps</linkExternal>.
@@ -1098,8 +1133,10 @@ tfa-row-cannot-refresh =
     Sorry, der is in probleem bard by it fernijen fan autentikaasje
     yn twa stappen.
 tfa-row-enabled-description = Jo account wurdt beskerme troch twa-stapsautentikaasje. Jo moatte ien kear in tagongskoade ynfiere fan jo autentikaasje-app ôf by it oanmelden by jo { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Help jo account te befeiligjen troch in <linkExternal>autentikaasje-app fan tredden</linkExternal> te brûken as twadde stap om jo oan te melden.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Hoe dit jo account beskermet
+tfa-row-disabled-description-v2 = Help jo account te befeiligjen troch in autentikaasje-app fan tredden te brûken as twadde stap om jo oan te melden.
 tfa-row-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
@@ -1269,7 +1306,7 @@ inline-recovery-confirmation-header-default = Befêstigje jo reserve-autentikaas
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
-inline-recovery-2fa-enabled = Twa-staps autentikaasje ynskeakele
+inline-recovery-2fa-enabled-v2 = Autentikaasje yn twa stappen is ynskeakele
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
