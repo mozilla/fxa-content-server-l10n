@@ -41,10 +41,12 @@ jobs:
           yarn workspace fxa-settings grunt merge-ftl
           yarn workspace fxa-auth-server grunt merge-ftl
           yarn workspace fxa-react grunt merge-ftl
+          npx grunt --gruntfile='apps/payments/next/Gruntfile.js' merge-ftl
 
           NODE_ENV=development ../fxa-l10n/scripts/extract_strings.sh \
             --mailer-repo ./packages/fxa-auth-server \
             --payments-repo ./packages/fxa-payments-server \
+            --payments-next-repo ./apps/payments/next \
             --content-repo ./packages/fxa-content-server \
             --settings-repo ./packages/fxa-settings \
             --react-repo ./packages/fxa-react \
