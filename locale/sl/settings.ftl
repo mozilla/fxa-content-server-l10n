@@ -563,7 +563,7 @@ dc-learn-more = Več o tem
 drop-down-menu-title-2 = Meni { -product-mozilla-account(sklon: "rodilnik") }
 # This is displayed in the Settings menu after user's click on their profile icon.
 # Following this string on a new line will be their display name (user's name or email)
-drop-down-menu-signed-in-as-v2 = Prijavljen kot
+drop-down-menu-signed-in-as-v2 = Prijavljeni kot
 drop-down-menu-sign-out = Odjava
 drop-down-menu-sign-out-error-2 = Oprostite, prišlo je do težave pri odjavljanju
 
@@ -622,25 +622,25 @@ flow-recovery-key-info-cancel-link = Prekliči
 flow-setup-phone-confirm-code-heading = Vnesite potrditveno kodo
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = Šestmestna koda je bila poslana na <span>{ $phoneNumber }</span> v sporočilu SMS. Koda poteče po 5 minutah.
+flow-setup-phone-confirm-code-instruction = Na <span>{ $phoneNumber }</span> je bilo poslano sporočilo SMS s šestmestno kodo. Koda poteče po 5 minutah.
 flow-setup-phone-confirm-code-input-label = Vnesite 6-mestno kodo
 flow-setup-phone-confirm-code-button = Potrdi
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Je koda potekla?
 flow-setup-phone-confirm-code-resend-code-button = Znova pošlji kodo
-flow-setup-phone-confirm-code-success-message = Telefonska številka za obnovitev iz varnostne kopije dodana
+flow-setup-phone-confirm-code-success-message = Pomožna telefonska številka za obnovitev dodana
 
 ## FlowSetupPhoneConfirmCode
 
-flow-setup-phone-submit-number-heading = Preverite svojo telefonsko številko
+flow-setup-phone-submit-number-heading = Potrdite svojo telefonsko številko
 # The code is a 6-digit code send by text message/SMS
-flow-setup-phone-verify-number-instruction = Prejeli boste besedilno sporočilo od { -brand-mozilla(sklon: "rodilnik") } s kodo za potrdilo številke. Ne delite te kode z nikomer.
+flow-setup-phone-verify-number-instruction = Od { -brand-mozilla(sklon: "rodilnik") } boste prejeli sporočilo SMS s kodo za potrditev številke. Kode ne pokažite nikomur drugemu.
 # The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Telefonska številka za obnovitev z varnostno kopijo je na voljo samo v Združenih državah in Kanadi. VoIP številke in telefonske maske niso priporočljivi.
+flow-setup-phone-submit-number-info-message = Pomožna telefonska številka za obnovitev je na voljo samo v ZDA in Kanadi. Uporabe številk VoIP in telefonskih mask ne priporočamo.
 flow-setup-phone-submit-number-legal = S predložitvijo vaše številke se strinjate z njeno shranjevanjem, da vam lahko pošiljamo sporočila samo za potrditev računa. Sporočila in prenos podatkov lahko nastanejo.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Pošlji kodo
@@ -865,7 +865,7 @@ recovery-key-create-back-button-title = Nazaj na nastavitve
 
 ## PageSetupRecoveryPhone
 
-page-setup-recovery-phone-heading = Dodaj obnovitveno telefonsko številko
+page-setup-recovery-phone-heading = Dodaj telefonsko številko za obnovitev
 
 ## Add secondary email page
 
