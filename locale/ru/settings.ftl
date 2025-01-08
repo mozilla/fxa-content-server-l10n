@@ -293,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Мобильное устройство, получающее код в виде текстового сообщения.
 recovery-phone-code-image-description =
     .aria-label = Код, полученный на мобильное устройство.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Мобильное устройство с возможностью отправки текстовых SMS-сообщений
+backup-authentication-codes-image-aria-label =
+    .aria-label = Экран устройства с кодами
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1653,6 +1657,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox } попытается о�
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Войти
+signin-recovery-method-subheader = Выберите метод восстановления
+signin-recovery-method-details = Давайте удостоверимся, что это вы используете ваши методы восстановления.
+signin-recovery-method-phone = Телефон для восстановления
+signin-recovery-method-code = Коды аутентификации
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Осталось { $numberOfCodes } кодов
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
