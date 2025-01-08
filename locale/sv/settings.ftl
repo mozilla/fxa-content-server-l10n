@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Ditt lösenord är nu dolt.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Välj land
 input-phone-number-enter-number = Ange telefonnummer
 input-phone-number-country-united-states = USA
 input-phone-number-country-canada = Kanada
@@ -559,10 +561,9 @@ dc-learn-more = Läs mer
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-meny
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Inloggad som</signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Inloggad som
 drop-down-menu-sign-out = Logga ut
 drop-down-menu-sign-out-error-2 = Tyvärr, det gick inte att logga ut dig
 
@@ -613,6 +614,36 @@ flow-recovery-key-info-key-bullet-point-v2 = Det är därför det är så viktig
 flow-recovery-key-info-cta-text-v3 = Kom igång
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Avbryt
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Ange verifieringskod
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = En sexsiffrig kod skickades till <span>{ $phoneNumber }</span> via sms. Denna kod upphör efter 5 minuter.
+flow-setup-phone-confirm-code-input-label = Ange 6-siffrig kod
+flow-setup-phone-confirm-code-button = Bekräfta
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Har koden upphört?
+flow-setup-phone-confirm-code-resend-code-button = Skicka koden igen
+flow-setup-phone-confirm-code-success-message = Återställningstelefon för säkerhetskopiering tillagd
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Verifiera ditt telefonnummer
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Du får ett sms från { -brand-mozilla } med en kod för att verifiera ditt nummer. Dela inte den här koden med någon.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Återställningstelefon för säkerhetskopiering är endast tillgänglig i USA och Kanada. VoIP-nummer och telefonalias rekommenderas inte.
+flow-setup-phone-submit-number-legal = Genom att uppge ditt nummer godkänner du att vi lagrar det så att vi endast kan sms:a dig för kontoverifiering. Meddelande- och datataxor kan tillkomma.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Skicka kod
 
 ## HeaderLockup component, the header in account settings
 
@@ -832,6 +863,10 @@ recovery-key-create-page-title = Nyckel för kontoåterställning
 # and back to account settings
 recovery-key-create-back-button-title = Tillbaka till inställningar
 
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Lägg till återställningstelefon
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Steg 1 av 2
@@ -884,7 +919,7 @@ tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
 tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din reservautentiseringskod
 tfa-incorrect-recovery-code-1 = Felaktig reservautentiseringskod
-tfa-enabled = Tvåstegsautentisering aktiverad
+tfa-enabled-v2 = Tvåstegsautentisering har aktiverats
 tfa-scan-this-code =
     Skanna den här QR-koden med en av dessa
     <linkExternal>autentiseringsappar</linkExternal>.
@@ -1094,8 +1129,10 @@ tfa-row-cannot-refresh =
     Tyvärr uppstod ett problem med att uppdatera
     tvåstegautentisering.
 tfa-row-enabled-description = Ditt konto skyddas av tvåstegsautentisering. Du måste ange en engångskod från din autentiseringsapp när du loggar in på ditt { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Hjälp till att säkra ditt konto genom att använda en <linkExternal>autentiseringsapp från tredje part</linkExternal> som ett andra steg för att logga in.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Hur detta skyddar ditt konto
+tfa-row-disabled-description-v2 = Hjälp till att säkra ditt konto genom att använda en autentiseringsapp från tredje part som ett andra steg för att logga in.
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
@@ -1267,7 +1304,7 @@ inline-recovery-confirmation-header-default = Bekräfta reservautentiseringskode
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekräfta reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
-inline-recovery-2fa-enabled = Tvåstegsautentisering aktiverad
+inline-recovery-2fa-enabled-v2 = Tvåstegsautentisering har aktiverats
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
