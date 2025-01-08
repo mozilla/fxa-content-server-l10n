@@ -1122,7 +1122,7 @@ tfa-row-enabled-description = Votre compte est protégé par une authentificatio
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = En quoi cela protège votre compte
-tfa-row-disabled-description-v2 = Aidez-nous à sécuriser votre compte en utilisant une application d’authentification tierce comme deuxième étape pour vous connecter.
+tfa-row-disabled-description-v2 = Aidez-nous à sécuriser votre compte en utilisant une application d’authentification tierce en tant que deuxième facteur pour vous connecter.
 tfa-row-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
 tfa-row-disable-modal-heading = Désactiver l’authentification en deux étapes ?
 tfa-row-disable-modal-confirm = Désactiver
