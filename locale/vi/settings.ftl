@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Mật khẩu của bạn bây giờ đã b�
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Chọn quốc gia
 input-phone-number-enter-number = Nhập số điện thoại
 input-phone-number-country-united-states = Hoa Kỳ
 input-phone-number-country-canada = Canada
@@ -559,10 +561,9 @@ dc-learn-more = Tìm hiểu thêm
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Đã đăng nhập bằng</signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Đã đăng nhập với tài khoản
 drop-down-menu-sign-out = Đăng xuất
 drop-down-menu-sign-out-error-2 = Xin lỗi, đã xảy ra sự cố khi đăng xuất cho bạn
 
@@ -613,6 +614,36 @@ flow-recovery-key-info-key-bullet-point-v2 = Đó là lý do tại sao việc t�
 flow-recovery-key-info-cta-text-v3 = Bắt đầu
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Hủy bỏ
+
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Nhập mã xác minh
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Một mã gồm sáu chữ số đã được gửi đến <span>{ $phoneNumber }</span> bằng tin nhắn văn bản. Mã này hết hạn sau 5 phút.
+flow-setup-phone-confirm-code-input-label = Nhập mã gồm 6 chữ số
+flow-setup-phone-confirm-code-button = Xác nhận
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Mã đã hết hạn?
+flow-setup-phone-confirm-code-resend-code-button = Gửi lại mã
+flow-setup-phone-confirm-code-success-message = Đã thêm số điện thoại khôi phục dự phòng
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Xác minh số điện thoại của bạn
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Bạn sẽ nhận được tin nhắn văn bản từ { -brand-mozilla } kèm theo mã để xác minh số của bạn. Không chia sẻ mã này với bất kỳ ai.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Số điện thoại khôi phục dự phòng chỉ khả dụng ở Hoa Kỳ và Canada. Không khuyến khích số VoIP và số điện thoại ẩn danh.
+flow-setup-phone-submit-number-legal = Bằng cách cung cấp số của bạn, bạn đồng ý cho chúng tôi lưu trữ số đó để chúng tôi có thể nhắn tin cho bạn chỉ để xác minh tài khoản. Tốc độ tin nhắn và dữ liệu có thể được áp dụng.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Gửi mã
 
 ## HeaderLockup component, the header in account settings
 
@@ -832,6 +863,10 @@ recovery-key-create-page-title = Khóa khôi phục tài khoản
 # and back to account settings
 recovery-key-create-back-button-title = Quay lại cài đặt
 
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Thêm số điện thoại khôi phục
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Bước 1/2
@@ -884,7 +919,7 @@ tfa-incorrect-totp = Mã xác thực hai bước không đúng
 tfa-cannot-retrieve-code = Có vấn đề trong khi nhận mã của bạn.
 tfa-cannot-verify-code-4 = Đã xảy ra sự cố khi xác nhận mã xác thực dự phòng của bạn
 tfa-incorrect-recovery-code-1 = Mã xác thực dự phòng không chính xác
-tfa-enabled = Đã bật xác thực hai bước
+tfa-enabled-v2 = Xác thực hai bước đã được bật
 tfa-scan-this-code =
     Quét mã QR này sử dụng một trong <linkExternal>những
     ứng dụng xác thực này</linkExternal>.
@@ -1092,8 +1127,10 @@ tfa-row-button-refresh =
     .title = Làm mới xác thực hai bước
 tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác thực hai bước.
 tfa-row-enabled-description = Tài khoản của bạn được bảo vệ bằng xác thực hai bước. Bạn sẽ cần nhập mật mã một lần từ ứng dụng xác thực của mình khi đăng nhập vào { -product-mozilla-account } của bạn.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Giúp bảo mật tài khoản của bạn bằng cách sử dụng một <linkExternal>ứng dụng xác thực của bên thứ ba</linkExternal> làm bước thứ hai để đăng nhập.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
+tfa-row-disabled-description-v2 = Giúp bảo mật tài khoản của bạn bằng cách sử dụng ứng dụng xác thực của bên thứ ba làm bước thứ hai để đăng nhập.
 tfa-row-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 tfa-row-disable-modal-heading = Tắt xác thực hai bước?
 tfa-row-disable-modal-confirm = Tắt
@@ -1263,7 +1300,7 @@ inline-recovery-confirmation-header-default = Xác nhận mã xác thực dự p
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Xác nhận mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
-inline-recovery-2fa-enabled = Đã bật xác thực hai bước
+inline-recovery-2fa-enabled-v2 = Xác thực hai bước đã được bật
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
