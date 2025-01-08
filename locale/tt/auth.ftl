@@ -223,6 +223,7 @@ cadReminderFirst-action = Башка җиһазны синхронлау
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхронлау өчен 2 җиһаз кирәк
+cadReminderFirst-description-v2 = Ачык табларыгыз барлык җиһазларыгызда да булсын. Сез { -brand-firefox } кулланган һәр җирдә дә кыстыргычларыгыз, серсүзләрегез һәм башка мәгълүматларыгыз сезнең белән."
 cadReminderSecond-action = Башка җиһазны синхронлау
 cadReminderSecond-title-2 = Синхронлауны онытмагыз!
 #  Variables:
