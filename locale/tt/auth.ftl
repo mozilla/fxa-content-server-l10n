@@ -196,6 +196,19 @@ subscriptionUpdateBillingEnsure = Түләү ысулыгызның һәм хи�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Түләү ысулыгызның һәм хисабыгыз турындагы мәгълүматның актуаль булуын монда тикшерә аласыз:
 subscriptionUpdateBillingTry = Берничә көн эчендә тагын бер кат түләвегезне алырга тырышып карарбыз. Ләкин проблема чишелсен өчен <a data-l10n-name="updateBillingUrl">түләү турындагы мәгълүматыгызны яңартырга</a> кирәк булырга мөмкин.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Берничә көн эчендә тагын бер кат түләвегезне алырга тырышып карарбыз, ләкин проблема чишелсен өчен түләү турындагы мәгълүматыгызны яңартырга кирәк булырга мөмкин:
+subscriptionUpdatePayment = Хезмәтегезнең өзелүен булдырмас өчен, зинһар, тиз арада <a data-l10n-name="updateBillingUrl">түләү турындагы мәгълүматыгызны яңартыгыз</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Хезмәтегезнең өзелүен булдырмас өчен, зинһар, тиз арада түләү турындагы мәгълүматыгызны яңартыгыз:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Күбрәк мәгълүмат өчен { -brand-mozilla } Ярдәм битен зыярат итегез: { $supportUrl }.
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } - { $uaOS } { $uaOSVersion }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
