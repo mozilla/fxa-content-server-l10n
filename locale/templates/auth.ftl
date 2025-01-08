@@ -367,6 +367,17 @@ postAddLinkedAccount-subject-2 = New account linked to your { -product-mozilla-a
 postAddLinkedAccount-title-2 = Your { $providerName } account has been linked to your { -product-mozilla-account }
 postAddLinkedAccount-action = Manage account
 
+postAddRecoveryPhone-subject = Recovery phone added
+postAddRecoveryPhone-title = You created a recovery phone number
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = You added { $maskedLastFourPhoneNumber } as your recovery phone
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = How this protects your account
+postAddRecoveryPhone-how-protect-plaintext = How this protects your account:
+postAddRecoveryPhone-enabled-device = You enabled it from:
+postAddRecoveryPhone-action = Manage account
+
 postAddTwoStepAuthentication-subject-2 = Two-step authentication turned on
 postAddTwoStepAuthentication-title-2 = You turned on two-step authentication
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -386,6 +397,11 @@ postChangePrimary-title = New primary email
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -product-mozilla-account }, as well as receiving security notifications and sign-in confirmations.
 postChangePrimary-action = Manage account
+
+postChangeRecoveryPhone-subject = Recovery phone updated
+postChangeRecoveryPhone-title = You changed your recovery phone
+postChangeRecoveryPhone-description = You now have a new recovery phone. Your previous phone number was deleted.
+postChangeRecoveryPhone-requested-device = You requested it from:
 
 postConsumeRecoveryCode-title-2 = You used a backup authentication code
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -408,6 +424,11 @@ postRemoveAccountRecovery-title-3 = You deleted your account recovery key
 postRemoveAccountRecovery-body-part1 = Your account recovery key is required to restore your encrypted browsing data if you forget your password.
 postRemoveAccountRecovery-body-part2 = If you haven’t already, create a new account recovery key in your account settings to prevent losing your saved passwords, bookmarks, browsing history, and more.
 postRemoveAccountRecovery-action = Manage account
+
+postRemoveRecoveryPhone-subject = Recovery phone removed
+postRemoveRecoveryPhone-title = Recovery phone removed
+postRemoveRecoveryPhone-description = Your recovery phone has been removed from your two-step authentication settings. You still have your backup authentication codes available for use.
+postRemoveRecoveryPhone-requested-device = You requested it from:
 
 postRemoveSecondary-subject = Secondary email removed
 postRemoveSecondary-title = Secondary email removed
