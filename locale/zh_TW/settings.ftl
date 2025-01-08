@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = 您的密碼現在已隱藏。
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = 選擇國家
 input-phone-number-enter-number = 請輸入手機號碼
 input-phone-number-country-united-states = 美國
 input-phone-number-country-canada = 加拿大
@@ -555,10 +557,9 @@ dc-learn-more = 了解更多
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } 選單
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>已登入為</signin><user>{ $user }</user>
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = 已登入為
 drop-down-menu-sign-out = 登出
 drop-down-menu-sign-out-error-2 = 很抱歉，將您登出時發生問題
 
@@ -609,6 +610,12 @@ flow-recovery-key-info-key-bullet-point-v2 = 所以帳號救援金鑰相當重�
 flow-recovery-key-info-cta-text-v3 = 開始使用
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -825,6 +832,9 @@ recovery-key-create-page-title = 帳號救援金鑰
 # and back to account settings
 recovery-key-create-back-button-title = 回到設定
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 第 1 步，共 2 步
@@ -877,7 +887,6 @@ tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
 tfa-cannot-verify-code-4 = 確認您的備用驗證碼時發生問題
 tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
-tfa-enabled = 已開啟兩階段驗證
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
 # This is the image alt text for a QR code.
 # Variables:
@@ -1071,8 +1080,6 @@ tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-enabled-description = 已開啟兩階段驗證保護您的帳號。登入 { -product-mozilla-account }時，需要輸入驗證器程式當中產生的一組驗證碼。
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = 您可以使用<linkExternal>第三方驗證器程式</linkExternal>進行第二階段登入，來保護您的帳號安全。
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
@@ -1240,7 +1247,6 @@ inline-recovery-confirmation-header-default = 確認備用驗證碼<span>即可�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = 確認備用驗證碼<span>即可繼續前往 { $serviceName }</span>
-inline-recovery-2fa-enabled = 已開啟兩階段驗證
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
