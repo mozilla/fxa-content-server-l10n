@@ -620,7 +620,7 @@ flow-recovery-key-info-cancel-link = Cancelar
 flow-setup-phone-confirm-code-heading = Ingresar código de verificación
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = Se envió un código de seis dígitos a <span> { $phoneNumber }</span> por mensaje de texto. Este código caduca después de 5 minutos.
+flow-setup-phone-confirm-code-instruction = Se envió un código de seis dígitos al <span>{ $phoneNumber }</span> por mensaje de texto. Este código expira después de 5 minutos.
 flow-setup-phone-confirm-code-input-label = Ingresá el código de 6 dígitos
 flow-setup-phone-confirm-code-button = Confirmar
 # button to resend a code by text message to the user's phone
@@ -631,15 +631,15 @@ flow-setup-phone-confirm-code-success-message = Teléfono de recuperación de re
 
 ## FlowSetupPhoneConfirmCode
 
-flow-setup-phone-submit-number-heading = Verifica tu número de teléfono
+flow-setup-phone-submit-number-heading = Verificá tu número de teléfono
 # The code is a 6-digit code send by text message/SMS
-flow-setup-phone-verify-number-instruction = Recibirás un mensaje de texto de { -brand-mozilla } con un código para verificar tu número. No compartas este código con nadie.
+flow-setup-phone-verify-number-instruction = Recibirás un mensaje de texto de { -brand-mozilla } con un código para verificar tu número. No compartás este código con nadie.
 # The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message = El teléfono de recuperación de respaldo solo está disponible en Estados Unidos y Canadá. No se recomiendan números VoIP ni máscaras telefónicas.
-flow-setup-phone-submit-number-legal = Al proporcionar tu número, aceptas que lo guardemos para que podamos enviarte mensajes de texto solo para verificar la cuenta. Se pueden aplicar tarifas por mensajes y datos.
+flow-setup-phone-submit-number-legal = Al proporcionar tu número, aceptás que lo guardemos para que podamos enviarte mensajes de texto solo para verificar la cuenta. Se pueden aplicar tarifas por mensajes y datos.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Enviar código
 
@@ -1124,7 +1124,7 @@ tfa-row-cannot-refresh =
 tfa-row-enabled-description = Tu cuenta está protegida por una autenticación en dos pasos. Tendrás que ingresar un código de acceso de un solo uso desde tu aplicación de autenticación cuando iniciés sesión en tu { -product-mozilla-account }.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-enabled-info-link = Cómo protege tu cuenta
+tfa-row-enabled-info-link = Cómo esto protege tu cuenta
 tfa-row-disabled-description-v2 = Ayuda a proteger tu cuenta utilizando una aplicación de autenticación de terceros como segundo paso para iniciar sesión.
 tfa-row-cannot-verify-session-4 = Disculpá, hubo un problema confirmando la sesión
 tfa-row-disable-modal-heading = ¿Deshabilitar autenticación de dos pasos?
