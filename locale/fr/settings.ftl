@@ -637,7 +637,7 @@ flow-setup-phone-verify-number-instruction = Vous recevrez un SMS de { -brand-mo
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message = Le numéro de téléphone de secours est uniquement disponible aux États-Unis et au Canada. Les numéros VoIP et les alias de numéro de téléphone ne sont pas recommandés.
-flow-setup-phone-submit-number-legal = En fournissant votre numéro, vous acceptez que nous le conservions afin que nous puissions vous envoyer des SMS pour vérification de compte uniquement. Des frais de communication peuvent s’appliquer.
+flow-setup-phone-submit-number-legal = En fournissant votre numéro, vous acceptez que nous le conservions pour vous envoyer des SMS dans l’unique but de vérifier votre compte. Des frais de communication peuvent s’appliquer.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Envoyer le code
 
