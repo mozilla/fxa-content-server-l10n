@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Siere
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = E-mail mandade di gnûf. Zonte { $accountsEmail } ai tiei contats par garantî une consegne cence fastidis.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Alc al è lât strucj. Impussibil inviâ un gnûf codiç.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -105,14 +95,6 @@ choose-what-to-sync-option-addresses =
     .label = Direzions
 choose-what-to-sync-option-paymentmethods =
     .label = Metodis di paiament
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Indaûr
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -223,6 +205,10 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 hearts-broken-image-aria-label =
     .aria-label = Un computer e un celulâr e la imagjin di un cûr slambrât su ogniun
 hearts-verified-image-aria-label =
@@ -251,7 +237,6 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Tu sês jentrât/jentrade su { -brand-firefox }
 inline-recovery-key-setup-create-header = Protêç il to account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Âstu un minût par protezi i tiei dâts?
@@ -273,6 +258,9 @@ input-password-show-aria-2 = In chest moment la password e je platade.
 input-password-sr-only-now-visible = Cumò la password e je visibile sul schermi.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Cumò la password e je platade.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Indaûr
 
@@ -292,15 +280,6 @@ reset-pwd-link-damaged-message = Al colegament che tu âs doprât i mancjave cua
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Mandimi un gnûf colegament
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Chest colegament par ristabilî la password al è scjadût
-reset-pwd-link-expired-message = Il colegament doprât par ristabilî la tô password al è scjadût.
 
 ## LinkRememberPassword component
 
@@ -517,10 +496,6 @@ dc-learn-more = Plui informazions
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menù { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Acès eseguît come</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Disconet
 drop-down-menu-sign-out-error-2 = Nus displâs, al è vignût fûr un probleme tal disconetiti
 
@@ -571,6 +546,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Ve ca parcè che al è cussì impua
 flow-recovery-key-info-cta-text-v3 = Scomence
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anule
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -790,6 +771,9 @@ recovery-key-create-page-title = Clâf di recupar dal account
 # and back to account settings
 recovery-key-create-back-button-title = Torne aes impostazions
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Passaç 1 di 2
@@ -842,7 +826,6 @@ tfa-incorrect-totp = Codiç di autenticazion in doi passaçs sbaliât
 tfa-cannot-retrieve-code = Al è vignût fûr un probleme tal recuperâ il to codiç.
 tfa-cannot-verify-code-4 = Al è vignût fûr un probleme tal confermâ il to codiç di autenticazion di backup
 tfa-incorrect-recovery-code-1 = Codiç di autenticazion di backup sbaliât
-tfa-enabled = Autenticazion in doi passaçs ativade
 tfa-scan-this-code =
     Scansione chest codiç QR doprant une di <linkExternal>chestis
     aplicazions di autenticazion</linkExternal>.
@@ -862,10 +845,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Salve chescj codiç di autenticazion di backup, che si puedin doprâ dome une volte,
     intun puest sigûr par cuant che no tu âs a disposizion il to dispositîf mobil.
-tfa-enter-code-to-confirm-1 =
-    Inserìs cumò un dai tiei codiçs di autenticazion di backup par
-    confermâ di vêlu salvât. Ti coventarà un codiç par jentrâ se no tu âs a disposizion il to
-    dispositîf mobil.
 tfa-enter-recovery-code-1 =
     .label = Inserìs un codiç di autenticazion di backup
 
@@ -920,6 +899,9 @@ security-set-password = Stabilìs une password par sincronizâ e doprâ ciertis 
 security-recent-activity-link = Visualize lis ativitâts resintis dal account
 signout-sync-header = Session scjadude
 signout-sync-session-expired = Nus displâs, alc al è lât strucj. Disconetiti dal menù dal navigadôr e torne prove.
+
+## SubRow component
+
 
 ## Switch component
 
@@ -1004,9 +986,7 @@ se-secondary-email-none = Nissune
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticazion in doi passaçs
-tfa-row-disabled-2 = Autenticazion in doi passaçs disativade
 tfa-row-enabled = Ativade
-tfa-row-not-set = No configurade
 tfa-row-action-add = Zonte
 tfa-row-action-disable = Disative
 tfa-row-button-refresh =
@@ -1014,19 +994,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Nus displâs, al è vignût fûr un probleme tal inzornament
     de autenticazion in doi passaçs.
-tfa-row-content-explain =
-    Impedìs a tierçs di jentrâ sul to account domandant ogni
-    volte un codiç univoc che tu cognossis dome tu.
 tfa-row-cannot-verify-session-4 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
 tfa-row-disable-modal-heading = Disativâ la autenticazion in doi passaçs?
 tfa-row-disable-modal-confirm = Disative
 tfa-row-disable-modal-explain-1 =
     No tu rivarâs a tornâ indaûr di cheste azion. In
     alternative tu puedis <linkExternal>sostituî i tiei codiçs di autenticazion di backup</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Autenticazion in doi passaçs disativade
 tfa-row-cannot-disable-2 = Impussibil disativâ la autenticazion in doi passaçs
-tfa-row-change-modal-heading-1 = Cambiâ i codiçs di autenticazion di backup?
-tfa-row-change-modal-confirm = Cambie
-tfa-row-change-modal-explain = No tu rivarâs a tornâ indaûr di cheste azion.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1184,7 +1160,6 @@ inline-recovery-confirmation-header-default = Conferme il codiç di autenticazio
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferme il codiç di autenticazion di backup <span>par continuâ su { $serviceName }</span>
-inline-recovery-2fa-enabled = Autenticazion in doi passaçs ativade
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1337,6 +1312,11 @@ pair-wait-for-auth-heading-text = E je necessarie cumò la aprovazion <span>di c
 pair-unsupported-header = Associe doprant une aplicazion
 pair-unsupported-message = Âstu doprât la fotocjamare di sisteme? Tu scugnis associâ dal didentri di une aplicazion { -brand-firefox }.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1394,11 +1374,8 @@ confirm-reset-password-otp-different-account-link = Dopre un altri account
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Ristabilìs la tô password
-confirm-totp-reset-password-subheader = Inserìs il codiç di sigurece pe autenticazion a doi fatôrs (2FA)
-confirm-totp-reset-password-instruction = Controle la aplicazion di autenticazion par ristabilî la password.
 confirm-totp-reset-password-trouble-code = Problemis a inserî il codiç?
 confirm-totp-reset-password-confirm-button = Conferme
-confirm-totp-reset-password-input-label = Inserìs il codiç
 confirm-totp-reset-password-use-different-account = Dopre un altri account
 
 ## ResetPassword start page
@@ -1496,15 +1473,6 @@ signin-push-code-confirm-link-error = Il colegament al è rot. Torne prove.
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Inserìs il codiç di autenticazion di backup <span>par continuâ cu lis impostazions dal account</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Inserìs il codiç di autenticazion di backup <span>par continuâ su { $serviceName }</span>
-signin-recovery-code-instruction = Inserìs un dai codiç di autenticazion di backup che ti son stâts dâts dilunc la configurazion de autenticazion in doi passaçs.
-signin-recovery-code-input-label = Inserìs il codiç di autenticazion di backup di 10 cifris
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferme
 # Link to return to signin with two-step authentication code
@@ -1543,9 +1511,6 @@ signin-token-code-required-error = Codiç di conferme necessari
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-subheader = Inserìs il codiç di sigurece pe autenticazion a doi fatôrs (2FA)
-signin-totp-code-instruction-v3 = Controle la aplicazion di autenticazion par confermâ il to acès.
-signin-totp-code-input-label-v3 = Inserìs il codiç
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferme
 signin-totp-code-other-account-link = Dopre un altri account
@@ -1598,9 +1563,6 @@ confirm-signup-code-is-required-error = Al è necessari il codiç di conferme
 signup-heading = Definìs la tô password
 signup-relay-info = E covente une password par gjestî in sigurece lis tôs mascaris di pueste e acedi ai struments di sigurece di { -brand-mozilla }.
 signup-heading-relay = Cree une password
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Percè mi covential creâ chest account? <LinkExternal>Scuvierzilu achì</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambie e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)

@@ -555,10 +555,6 @@ dc-learn-more = Saiba mais
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu da { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Desconectar
 drop-down-menu-sign-out-error-2 = Desculpe, houve um problema ao desconectar da sua conta
 
@@ -609,6 +605,12 @@ flow-recovery-key-info-key-bullet-point-v2 = É por isso que criar uma chave de 
 flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -825,6 +827,9 @@ recovery-key-create-page-title = Chave de recuperação de conta
 # and back to account settings
 recovery-key-create-back-button-title = Voltar à configuração
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Etapa 1 de 2
@@ -877,7 +882,6 @@ tfa-incorrect-totp = Código de autenticação em duas etapas incorreto
 tfa-cannot-retrieve-code = Houve um problema ao buscar seu código.
 tfa-cannot-verify-code-4 = Houve um problema ao confirmar seu código de autenticação de backup
 tfa-incorrect-recovery-code-1 = Código de autenticação de backup incorreto
-tfa-enabled = Autenticação em duas etapas ativada
 tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicativos de autenticação</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1071,8 +1075,6 @@ tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
 tfa-row-enabled-description = Sua conta é protegida pela autenticação em duas etapas. Você precisa inserir uma senha de uso único gerada por seu aplicativo de autenticação, ao entrar na sua { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Ajude a proteger a sua conta usando um <linkExternal>aplicativo de autenticação de terceiros</linkExternal> como segunda etapa para entrar na conta.
 tfa-row-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
@@ -1240,7 +1242,6 @@ inline-recovery-confirmation-header-default = Confirme o código de autenticaç�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirme o código de autenticação de backup <span>para continuar para o { $serviceName }</span>
-inline-recovery-2fa-enabled = Autenticação em duas etapas ativada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

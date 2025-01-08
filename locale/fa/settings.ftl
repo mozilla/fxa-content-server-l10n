@@ -282,6 +282,9 @@ confirm-signup-aria-label =
 input-password-hide = پنهان کردن گذرواژه
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = نمایش گذرواژه
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = بازگشت
 
@@ -392,10 +395,6 @@ dc-learn-more = بیشتر بدانید
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = منوی { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>وارد شده‌اید به عنوان</signin><user>{ $user }</user>
 drop-down-menu-sign-out = خروج
 
 ## Flow Container
@@ -421,6 +420,12 @@ flow-container-back = بازگشت
 
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = انصراف
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -548,6 +553,9 @@ cancel-display-name = انصراف
 ## PageRecoveryKeyCreate
 
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = مرحله ۱ از ۲
@@ -592,7 +600,7 @@ security-password =
     .header = گذرواژه
 security-action-create = ایجاد
 
-## Settings sub row
+## SubRow component
 
 
 ## Switch component

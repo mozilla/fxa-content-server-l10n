@@ -314,6 +314,9 @@ input-password-show-aria-2 = Din adgangskode er i øjeblikket skjult.
 input-password-sr-only-now-visible = Din adgangskode er nu synlig på skærmen.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Din adgangskode er nu skjult.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbage
 
@@ -553,10 +556,6 @@ dc-learn-more = Læs mere
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-menu
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Logget ind som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Log ud
 drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge dig ud
 
@@ -607,6 +606,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Derfor er det meget vigtig, at du o
 flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annuller
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -825,6 +830,9 @@ recovery-key-create-page-title = Genoprettelsesnøgle til kontoen
 # and back to account settings
 recovery-key-create-back-button-title = Tilbage til indstillinger
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Trin 1 af 2
@@ -877,7 +885,6 @@ tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
 tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
 tfa-cannot-verify-code-4 = Der opstod et problem med at bekræfte din reserve-godkendelseskode
 tfa-incorrect-recovery-code-1 = Forkert reserve-godkendelseskode
-tfa-enabled = Totrinsgodkendelse aktiveret
 tfa-scan-this-code =
     Skan denne QR-kode ved hjælp af en af <linkExternal>disse
     godkendelsesapps</linkExternal>.
@@ -1087,8 +1094,6 @@ tfa-row-cannot-refresh =
     Der opstod desværre et problem med at opdatere
     totrinsgodkendelse.
 tfa-row-enabled-description = Din konto er beskyttet af totrinsgodkendelse. Du skal indtaste en engangskode fra din godkendelsesapp, når du logger ind på din { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Beskyt din konto ved at bruge en <linkExternal>tredjeparts godkendelsesapp</linkExternal> som et andet trin til at logge ind.
 tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
@@ -1258,7 +1263,6 @@ inline-recovery-confirmation-header-default = Bekræft reserve-godkendelseskode 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekræft reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
-inline-recovery-2fa-enabled = Totrinsgodkendelse aktiveret
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

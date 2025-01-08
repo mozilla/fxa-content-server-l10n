@@ -1,36 +1,18 @@
 ## Non-email strings
 
-session-verify-send-push-title = Пријављујете се на { -product-firefox-accounts }?
 session-verify-send-push-body-2 = Кликните овде да потврдите да сте то ви
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } полиса приватности
-fxa-service-url = { -product-firefox-cloud } услови коришћења
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Ово је аутоматска е-пошта; ако сте је грешком примили, ниједна радња није потребна.
 subplat-privacy-notice = Политика приватности
 subplat-privacy-plaintext = Политика приватности:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Примили сте ову поруку зато што { $email } има { -product-firefox-account } и претплатили сте се на { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Примили сте ову поруку зато што { $email } има { -product-firefox-account }.
-subplat-explainer-multiple = Примили сте ову поруку зато што { $email } има { -product-firefox-account } и претплатили сте се на више производа.
-subplat-explainer-was-deleted = Примили сте ову поруку зато што је { $email } регистрован на { -product-firefox-account }.
-subplat-manage-account = Управљајте вашим { -product-firefox-account } подешавањима на <a data-l10n-name="subplat-account-page">страници налога</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Управљајте вашим { -product-firefox-account } подешавањима на страници налога: { $accountSettingsUrl }
 subplat-terms-policy = Услови и полиса отказивања
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Откажите претплату
@@ -40,8 +22,6 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ажурирајте податке о плаћању
 subplat-privacy-policy = { -brand-mozilla } политика приватности
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = { -product-firefox-cloud } услови коришћења
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Правне информације
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Приватност
@@ -171,25 +151,6 @@ device-all = { $uaBrowser } за { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } за { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP адреса: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (процењено)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (процењено)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (процењено)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (процењено)
 view-invoice = <a data-l10n-name="invoiceLink">Погледајте ваш рачун</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -200,8 +161,6 @@ cadReminderFirst-action = Синхронизуј други уређај
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = За синхронизацију је потребно двоје
-cadReminderFirst-description-1 = Пренесите ваше картице на све ваше уређаје. Пронађите ваше обележиваче, лозинке и друго где год да користите { -brand-firefox }. То је магија вашег { -brand-firefox } налога!
-cadReminderFirst-description-2 = Синхронизација траје само секунду.
 cadReminderSecond-subject-2 = Хајде да завршимо подешавање ваше синхронизације
 cadReminderSecond-action = Синхронизуј други уређај
 cadReminderSecond-title-2 = Не заборавите да синхронизујете!
@@ -215,10 +174,7 @@ downloadSubscription-subject = Добродошли у { $productName }
 downloadSubscription-title = Добродошли у { $productName }
 downloadSubscription-content-2 = Хајде да почнемо да користимо све функције укључене у вашу претплату:
 downloadSubscription-link-action-2 = Започните
-fraudulentAccountDeletion-subject = Ваш { -product-firefox-account } је обрисан
 fraudulentAccountDeletion-title = Ваш налог је обрисан
-fraudulentAccountDeletion-content = Неко је недавно направио { -product-firefox-account } са овом адресом е-поште и платио претплату. Пошто тако захтевамо за све нове налоге, мораћете прво да верификујете ову адресу е-поште да бисте потврдили ваш налог.
-fraudulentAccountDeletion-content-2 = Налог тренутно није верификован и немогуће је утврдити да ли се ради о овлашћеној претплати. Сходно томе, { -product-firefox-account } регистрован на овој адреси е-поште је уклоњен и ваша претплата је отказана, а сви трошкови ће бити враћени.
 fraudulentAccountDeletion-contact = Ако имате питања, обратите се нашем <a data-l10n-name="mozillaSupportUrl">тиму за подршку</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -243,9 +199,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Нова пријава на { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title-2 = Ваш { -product-firefox-account } је коришћен за пријаву
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Нисте били ви? <a data-l10n-name="passwordChangeLink">Мењајте лозинку</a>.
@@ -255,41 +208,13 @@ newDeviceLogin-change-password-plain = Нисте били ви? Мењајте 
 newDeviceLogin-action = Управљајте налогом
 passwordChanged-subject = Лозинка је ажурирана
 passwordChanged-title = Лозинка је успешно промењена
-passwordChanged-description = Ваша { -product-firefox-account } лозинка је успешно промењена са следећег уређаја:
 passwordChangeRequired-subject = Откривена је сумњива радња
 passwordChangeRequired-title = Потребна је промена лозинке
-passwordChangeRequired-suspicious-activity = Открили смо сумњиву активност на вашем { -product-firefox-account }-у. Да бисмо спречили неовлашћени приступ вашем { -product-firefox-account }-у, искључили смо све уређаје са вашим налогом и тражимо од вас да промените лозинку из предострожности.
-passwordChangeRequired-sign-in = Пријавите се поново на { -product-firefox-account } са уређаја или услуге које уобичајено користите и пратите приказане кораке.
 passwordChangeRequired-different-password = <b>Важно:</b> користите нову лозинку коју никада раније нисте користили и уверите се да није иста као лозинка вашег налога е-поште.
-passwordChangeRequired-signoff = Све најбоље,
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } тим
 passwordChangeRequired-different-password-plaintext = Важно: користите нову лозинку коју никада раније нисте користили и уверите се да није иста као лозинка вашег налога е-поште.
-passwordReset-subject = Лозинка је ажурирана
-passwordReset-title = Лозинка вашег налога је промењена
-passwordReset-description = Морате да унесете нову лозинку на осталим уређајима да бисте наставили синхронизацију.
 passwordResetAccountRecovery-subject-2 = Ваша лозинка је ресетована
-passwordResetAccountRecovery-title-2 = Успешно ресетовање лозинке
-# Details of the device, location, IP address, and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Променили сте лозинку користећи кључ за опоравак налога са:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Направи нови кључ за опоравак налога
-passwordResetAccountRecovery-regen-required-mjml-1 = Мораћете поново да се пријавите на свим синхронизованим уређајима. Не заборавите да направите нови кључ за опоравак налога да замените већ коришћени.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Мораћете поново да се пријавите на свим синхронизованим уређајима. Не заборавите да направите нови кључ за опоравак налога да замените већ коришћени:
-postAddAccountRecovery-subject-2 = Кључ за опоравак налога је направљен
 postAddAccountRecovery-title2 = Направили сте нови кључ за опоравак налога
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Нови кључ је направљен са:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Нисте ви?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Обришите нови кључ</a> и <a data-l10n-name="passwordChangeLink">промените лозинку</a>
 postAddAccountRecovery-action = Управљајте налогом
-postAddAccountRecovery-delete-key = Обриши нови кључ:
-postAddAccountRecovery-changd-password = Промени лозинку:
-postAddLinkedAccount-subject = Нови налог је повезан на { -brand-firefox }
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Ваш { $providerName } налог је повезан са вашим { -product-firefox-account }-ом
 postAddLinkedAccount-action = Управљај налогом
 postAddTwoStepAuthentication-subject-2 = Аутентификација у два корака је укључена
 postAddTwoStepAuthentication-title-2 = Укључили сте аутентификацију у два корака
@@ -299,9 +224,6 @@ postAddTwoStepAuthentication-action = Управљајте налогом
 postAddTwoStepAuthentication-code-required-2 = Од сада, од вас ће се тражити да унесете код из апликације за аутентификацију сваки пут када се пријавите.
 postChangePrimary-subject = Примарна адреса е-поште је ажурирана
 postChangePrimary-title = Нова примарна адреса е-поште
-# Variables:
-#  $email (String) - A user's email address
-postChangePrimary-description = Успешно сте променили своју примарну адресу е-поште у { $email }. Ова адреса је сада ваше корисничко име за пријављивање на { -product-firefox-account } и за примање безбедносних обавештења и потврда за пријаву.
 postChangePrimary-action = Управљајте налогом
 postConsumeRecoveryCode-title-2 = Искористили сте резервни приступни код
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -319,16 +241,9 @@ postNewRecoveryCodes-title-2 = Направили сте нове резервн
 postNewRecoveryCodes-description-2 = Направљени су на:
 postNewRecoveryCodes-action = Управљајте налогом
 postRemoveAccountRecovery-subject-2 = Кључ за опоравак налога је обрисан
-postRemoveAccountRecovery-title-2 = Обрисали сте кључ за опоравак налога.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Обрисан је са:
 postRemoveAccountRecovery-action = Управљајте налогом
-postRemoveAccountRecovery-invalid-2 = Ако заборавите лозинку, биће вам потребан кључ за опоравак налога да опоравите ваше { -brand-firefox } податке.
 postRemoveSecondary-subject = Уклоњена је секундарна адреса е-поште
 postRemoveSecondary-title = Уклоњена је секундарна адреса е-поште
-# Variables:
-#  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Успешно сте уклонили { $secondaryEmail }, секундарну адресу вашег { -product-firefox-account }-а. Безбедносна обавештења и потврде пријаве се неће више слати на ову адресу е-поште.
 postRemoveSecondary-action = Управљајте налогом
 postRemoveTwoStepAuthentication-subject-line-2 = Аутентификација у два корака је искључена
 postRemoveTwoStepAuthentication-title-2 = Искључили сте аутентификацију у два корака
@@ -340,20 +255,13 @@ postVerify-sub-title-3 = Драго нам је што вас видимо!
 postVerify-title-2 = Желите да видите исте картице на два уређаја?
 postVerify-description-2 = Једноставно је! Само инсталирајте { -brand-firefox } на други уређај и пријавите се да бисте синхронизовали. Чиста магија!
 postVerify-sub-description = (Псст… ово такође значи да се можете пријавити било где да видите ваше обележиваче, лозинке и друге { -brand-firefox } податке.)
-postVerify-subject-3 = Добродошли у { -brand-firefox }!
 postVerify-setup-2 = Повежите други уређај:
 postVerify-action-2 = Повежи други уређај
 postVerifySecondary-subject = Секундарна адреса додата
 postVerifySecondary-title = Секундарна адреса додата
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Успешно сте додали { $secondaryEmail } као секундарну адресу е-поште за { -product-firefox-account }. Од сада ће се на ову адресу слати безбедносна обавештења и е-поруке за потврде пријава.
 postVerifySecondary-action = Управљајте налогом
 recovery-subject = Ресетујте лозинку
 recovery-title-2 = Заборавили сте лозинку?
-# Information on the browser, IP address, date and time of the request that
-# triggered the email follows.
-recovery-request-origin = Примили смо захтев за промену ваше { -product-firefox-account } лозинке са:
 recovery-new-password-button = Направите нову лозинку кликом на дугме испод. Ова веза истиче за један сат.
 recovery-copy-paste = Направите нову лозинку тако што ћете копирати и налепити URL испод у ваш прегледач. Ова веза истиче за један сат.
 recovery-action = Направи нову лозинку
@@ -361,11 +269,6 @@ recovery-action = Направи нову лозинку
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Ваша { $productName } претплата је отказана
 subscriptionAccountDeletion-title = Тужни смо што одлазите
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Недавно сте избрисали ваш { -product-firefox-account }. Стога смо отказали вашу претплату на { $productName }. Ваша коначна уплата у износу { $invoiceTotal } извршена је { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Добродошли у { $productName }: Поставите вашу лозинку.
@@ -373,17 +276,13 @@ subscriptionAccountFinishSetup-subject = Добродошли у { $productName 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Добродошли у { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваша уплата се обрађује и може потрајати до 4 радна дана да се заврши. Претплата ће се аутоматски обновити на крају сваког обрачунског циклуса осим ако је ви не откажете.
-subscriptionAccountFinishSetup-content-create-2 = Даље, направите { -product-firefox-account } лозинку да почнете са коришћењем ваше нове претплате.
 subscriptionAccountFinishSetup-action-2 = Започните
 subscriptionAccountReminderFirst-subject = Подсећамо: довршите постављање вашег налога
 subscriptionAccountReminderFirst-title = Још не можете да приступите вашим претплатама
-subscriptionAccountReminderFirst-content-info-2 = { -product-firefox-account } који сте направили пре неколико дана још увек није верификован. Довршите поставку вашег налога што је пре могуће да бисте користили нове претплате.
 subscriptionAccountReminderFirst-content-select-2 = Изаберите „Направи лозинку“ да поставите нову лозинку и завршите потврђивање налога.
 subscriptionAccountReminderFirst-action = Направи лозинку
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Последњи подсетник: поставите налог
-subscriptionAccountReminderSecond-title = Добродошли у { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info-2 = { -product-firefox-account } који сте направили пре неколико дана још увек није верификован. Довршите поставку вашег налога што је пре могуће да бисте користили нове претплате.
 subscriptionAccountReminderSecond-content-select-2 = Изаберите „Направи лозинку“ да поставите нову лозинку и завршите потврђивање налога.
 subscriptionAccountReminderSecond-action = Направи лозинку
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -522,7 +421,6 @@ subscriptionUpgrade-upgrade-info = Успешно сте надоградили 
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Од следећег плаћања, накнаде ће се променити из { $paymentAmountOld } по { $productPaymentCycleOld } у { $paymentAmountNew } по { $productPaymentCycleNew }. Тада ћете добити и једнократни кредит у износу од { $paymentProrated } који ће одразити ниже накнаде за остатак овог { $productPaymentCycleOld } периода.
 subscriptionUpgrade-content-charge-info-different-cycle = Наплатићемо вам једнократну наплату од { $paymentProrated } да би се одразила већа цена ваше претплате за остатак овог { $productPaymentCycleOld } периода. Почевши од следећег обрачунског периода, прећи ћемо са наплате { $paymentAmountOld } по { $productPaymentCycleOld } на { $paymentAmountNew } по { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -537,24 +435,16 @@ unblockCode-prompt-plaintext = Ако да, ево кода за ауториз�
 unblockCode-report = Ако не, помозите нам да одбијемо уљезе и <a data-l10n-name="reportSignInLink">пријавите нам то</a>.
 unblockCode-report-plaintext = Ако не, помозите нам да одбијемо уљезе и пријавите нам то.
 verificationReminderFinal-subject = Последњи подсетник да потврдите налог
-verificationReminderFinal-description = Пре неколико недеља сте направили { -product-firefox-account }, али га никада нисте потврдили. Ради ваше безбедности, избрисаћемо налог ако не буде верификован у наредна 24 сата.
 confirm-account = Потврдите налог
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не заборавите да потврдите налог
-verificationReminderFirst-title-2 = Добродошли у { -brand-firefox }!
-verificationReminderFirst-description-2 = Регистровали сте се за { -product-firefox-account } пре неколико дана, али нисте верификовали ваш налог. Верификујте га у року од 15 дана, иначе ће бити аутоматски обрисан.
 verificationReminderFirst-sub-description-3 = Не пропустите прегледач који вас и вашу приватност ставља на прво место.
 confirm-email-2 = Потврдите налог
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Потврдите налог
 verificationReminderSecond-subject-2 = Не заборавите да потврдите налог
-verificationReminderSecond-title-2 = Не пропустите ништа од { -brand-firefox }-а!
-verificationReminderSecond-description-3 = Регистровали сте се за { -product-firefox-account } пре неколико дана, али нисте верификовали ваш налог. Верификујте га у року од 10 дана, иначе ће бити аутоматски обрисан.
-verificationReminderSecond-second-description = Ваш { -product-firefox-account } ће вам омогућити да синхронизујете податке на свим уређајима и откључате приступ { -brand-mozilla } производима који штите приватност.
 verificationReminderSecond-sub-description-2 = Будите део наше мисије да интернет учинимо местом отвореним за све.
 verificationReminderSecond-action-2 = Потврдите налог
-verify-title-2 = Отворите интернет уз { -brand-firefox }
-verify-description = Потврдите свој налог и извуците максимум из { -brand-firefox }-а пријављивањем на било ком уређају:
 verify-subject = Завршите прављење вашег налога
 verify-action-2 = Потврдите налог
 # Variables:
@@ -582,16 +472,10 @@ verifyPrimary-post-verify-2 = Једном када потврдите, изме
 verifySecondaryCode-subject = Потврдите секундарну адресу е-поште
 verifySecondaryCode-title-2 = Потврдите секундарну адресу е-поште
 verifySecondaryCode-action-2 = Потврдите адресу е-поште
-# Variables:
-#  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Захтев за коришћење { $email } као секундарне адресе је послат са следећег { -product-firefox-account }-а:
 verifySecondaryCode-prompt-2 = Искористите овај код за потврду:
 verifySecondaryCode-expiry-notice-2 = Истиче за 5 минута. Једном када верификујете, адреса ће добијати безбедносна обавештења и потврде о пријавама.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Потврдите налог
-verifyShortCode-title-2 = Отворите интернет уз { -brand-firefox }
-# Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Потврдите ваш налог и максимално искористите { -brand-firefox } где год да се пријавите почевши са:
 verifyShortCode-prompt-3 = Искористите овај код за потврду:
 verifyShortCode-expiry-notice = Истиче за 5 минута.

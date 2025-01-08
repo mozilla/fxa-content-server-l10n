@@ -314,6 +314,9 @@ input-password-show-aria-2 = Tu contraseña está actualmente oculta.
 input-password-sr-only-now-visible = Tu contraseña ahora está visible en la pantalla.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Tu contraseña ahora está oculta.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Atrás
 
@@ -555,10 +558,6 @@ dc-learn-more = Saber más
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = menú { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Cerrar sesión
 drop-down-menu-sign-out-error-2 = Lo sentimos, ha surgido un problema al cerrar tu sesión
 
@@ -609,6 +608,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Por eso es tan importante crear una
 flow-recovery-key-info-cta-text-v3 = Comenzar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -828,6 +833,9 @@ recovery-key-create-page-title = Clave de recuperación de cuenta
 # and back to account settings
 recovery-key-create-back-button-title = Volver a los ajustes
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Paso 1 de 2
@@ -880,7 +888,6 @@ tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
 tfa-cannot-verify-code-4 = Ha habido un problema al confirmar tu código de autenticación de respaldo
 tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
-tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExternal>estas
     aplicaciones de autenticación</linkExternal>.
@@ -956,7 +963,7 @@ security-recent-activity-link = Ver actividad reciente de la cuenta
 signout-sync-header = Sesión expirada
 signout-sync-session-expired = Lo sentimos, algo ha salido mal. Cierra la sesión en el menú del navegador y vuelve a intentarlo.
 
-## Settings sub row
+## SubRow component
 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
@@ -969,8 +976,6 @@ tfa-row-backup-codes-get-new-cta = Obtener nuevos códigos
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Añadir
-# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = Este es el método de recuperación más seguro si no puedes acceder a tu dispositivo móvil o a la aplicación de autenticación.
 
 ## Switch component
 
@@ -1063,8 +1068,6 @@ tfa-row-button-refresh =
     .title = Actualizar autenticación en dos pasos
 tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la autenticación en dos pasos.
 tfa-row-enabled-description = Tu cuenta está protegida con la verificación en dos pasos. Tendrás que meter un código que se usa una sola vez de tu app de autenticación cuando entres en tu { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Ayuda a proteger tu cuenta utilizando una <linkExternal>aplicación de autenticación de terceros</linkExternal> como segundo paso para iniciar sesión.
 tfa-row-cannot-verify-session-4 = Lo sentimos, ha surgido un problema al confirmar tu sesión
 tfa-row-disable-modal-heading = ¿Desactivar la autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Desactivar
@@ -1233,7 +1236,6 @@ inline-recovery-confirmation-header-default = Confirma el código de autenticaci
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirma el código de autenticación de respaldo <span>para continuar en { $serviceName }</span>.
-inline-recovery-2fa-enabled = Autenticación en dos pasos activada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

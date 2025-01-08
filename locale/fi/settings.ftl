@@ -533,10 +533,6 @@ dc-learn-more = Lue lisää
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }en valikko
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Kirjautunut sisään käyttäjänä</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Kirjaudu ulos
 drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma
 
@@ -587,6 +583,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Siksi tilin palautusavaimen luomine
 flow-recovery-key-info-cta-text-v3 = Aloitetaan
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Peruuta
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -805,6 +807,9 @@ recovery-key-create-page-title = Tilin palautusavain
 # and back to account settings
 recovery-key-create-back-button-title = Takaisin asetuksiin
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Vaihe 1/2
@@ -857,7 +862,6 @@ tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
 tfa-cannot-verify-code-4 = Varatodennuskoodisi vahvistamisessa ilmeni ongelma
 tfa-incorrect-recovery-code-1 = Virheellinen varatodennuskoodi
-tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
     Skannaa tämä QR-koodi käyttäen jotain <linkExternal>näistä
     todennussovelluksista</linkExternal>.
@@ -1209,7 +1213,6 @@ inline-recovery-confirmation-header-default = Vahvista varatodennuskoodi <span>j
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Vahvista varatodennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
-inline-recovery-2fa-enabled = Kaksivaiheinen todennus käytössä
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

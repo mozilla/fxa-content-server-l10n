@@ -314,6 +314,9 @@ input-password-show-aria-2 = ตอนนี้รหัสผ่านของ
 input-password-sr-only-now-visible = รหัสผ่านของคุณสามารถมองเห็นได้บนหน้าจอแล้ว
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = รหัสผ่านของคุณถูกซ่อนแล้ว
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = ย้อนกลับ
 
@@ -551,10 +554,6 @@ dc-learn-more = เรียนรู้เพิ่มเติม
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = เมนู { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>ลงชื่อเข้าแล้วในชื่อ</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ลงชื่อออก
 drop-down-menu-sign-out-error-2 = ขออภัย เกิดปัญหาในการลงชื่อออก
 
@@ -605,6 +604,12 @@ flow-recovery-key-info-key-bullet-point-v2 = นั่นคือเหตุ�
 flow-recovery-key-info-cta-text-v3 = เริ่ม
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ยกเลิก
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -821,6 +826,9 @@ recovery-key-create-page-title = คีย์กู้คืนบัญชี
 # and back to account settings
 recovery-key-create-back-button-title = กลับไปยังการตั้งค่า
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = ขั้นตอนที่ 1 จาก 2
@@ -873,7 +881,6 @@ tfa-incorrect-totp = รหัสยืนยันตัวตนสองข�
 tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
 tfa-cannot-verify-code-4 = มีปัญหาขณะยืนยันรหัสยืนยันตัวตนสำรองของคุณ
 tfa-incorrect-recovery-code-1 = รหัสยืนยันตัวตนสำรองไม่ถูกต้อง
-tfa-enabled = เปิดใช้งานการยืนยันตัวตนสองขั้นตอนแล้ว
 tfa-scan-this-code =
     สแกนคิวอาร์โค้ดนี้โดยใช้หนึ่งใน<linkExternal>แอปยืนยันตัวตน
     เหล่านี้</linkExternal>
@@ -947,7 +954,7 @@ security-recent-activity-link = ดูกิจกรรมบัญชีล่
 signout-sync-header = วาระหมดอายุ
 signout-sync-session-expired = ขออภัย มีบางอย่างผิดพลาด กรุณาลงชื่อออกจากเมนูเบราว์เซอร์แล้วลองอีกครั้ง
 
-## Settings sub row
+## SubRow component
 
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
@@ -960,8 +967,6 @@ tfa-row-backup-codes-get-new-cta = รับรหัสใหม่
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = เพิ่ม
-# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description = นี่เป็นวิธีการกู้คืนที่ปลอดภัยที่สุดถ้าคุณไม่สามารถเข้าถึงอุปกรณ์มือถือหรือแอปยืนยันตัวตนได้
 
 ## Switch component
 
@@ -1052,8 +1057,6 @@ tfa-row-button-refresh =
     .title = เรียกการยืนยันตัวตนสองขั้นตอนใหม่
 tfa-row-cannot-refresh = ขออภัย เกิดปัญหาในการเรียกการยืนยันตัวตนสองขั้นตอนใหม่
 tfa-row-enabled-description = บัญชีของคุณมีการปกป้องด้วยการยืนยันตัวตนสองขั้นตอน คุณจะต้องใส่รหัสผ่านแบบใช้ครั้งเดียวจากแอปยืนยันตัวตนของคุณเมื่อเข้าสู่ระบบ{ -product-mozilla-account } ของคุณ
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = ช่วยปกป้องบัญชีของคุณให้ปลอดภัยด้วยการใช้<linkExternal>แอปยืนยันตัวตนจากบุคคลที่สาม</linkExternal>เป็นขั้นตอนที่สองสำหรับการลงชื่อเข้า
 tfa-row-cannot-verify-session-4 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
 tfa-row-disable-modal-heading = ต้องการปิดใช้งานการยืนยันตัวตนสองขั้นตอนหรือไม่?
 tfa-row-disable-modal-confirm = ปิดใช้งาน
@@ -1222,7 +1225,6 @@ inline-recovery-confirmation-header-default = ยืนยันรหัสย�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยัง { $serviceName }</span>
-inline-recovery-2fa-enabled = เปิดใช้งานการยืนยันตัวตนสองขั้นตอนแล้ว
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

@@ -3,54 +3,102 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Component - AppLayout
 
-project-brand = Firefox اکاؤنٹس
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
-document =
-    .title = Firefox اکاؤنٹس
 
-## general-aria
+## Component - CouponForm
 
-close-aria =
-    .aria-label = موڈل بند کریں
 
-## app error dialog
+## Component - Fields
 
-general-error-heading = عمومی ایپلیکیشن کی خرابی
-basic-error-message = کچھ غلط ہو گیا. براہ مہربانی کچھ دیر بعد کوشش کریں.
+
+## Component - Header
+
+
+## Component - NewUserEmailForm
+
+
+## Component - PaymentConfirmation
+
+payment-confirmation-download-button = ڈاؤن لوڈ جاری رکھیں
+
+## Component - PaymentConsentCheckbox
+
+
+## Component - PaymentErrorView
+
 payment-error-retry-button = دوبارہ کوشش کریں
 payment-error-manage-subscription-button = میری رکنیت منظم کریں
 
-##  $productName (String) - The name of the subscribed product.
+## Component - PaymentErrorView - IAP upgrade errors
 
 
-## settings
+## Component - PaymentForm
 
-settings-subscriptions-title = رکنیت
+payment-cc =
+    .label = آپ کا کارڈ
+payment-cancel-btn = منسوخ کریں
+payment-update-btn = اپڈیٹ
+payment-pay-btn = ابھی ادا کریں
+payment-validate-name-error = براہ مہربانی اپنا نام درج کریں
 
-## legal footer
+## Component - PaymentLegalBlurb
+
+
+## Component - PaymentMethodHeader
+
+
+## Component - PaymentProcessing
+
+
+## Component - PaymentProviderDetails
+
+
+## Component - PayPalButton
+
+
+## Component - PlanDetails
+
+plan-details-header = مسنوعہ کی تفصیلات
+plan-details-show-button = &تفصیلات دکھائیں
+plan-details-hide-button = تفصیلات چھپائیں
+plan-details-total-label = کل
+
+## Component - PlanErrorDialog
+
+product-no-such-plan = اس مصنوعہ  کے لئے ایسا کوئی منصوبہ نہیں ہے۔
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
+## Component - SubscriptionTitle
+
+
+## Component - TermsAndPrivacy
 
 terms = خدمت کی شرائط
 privacy = رازداری کا نوٹس
 
-## Subscription titles
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Firefox اکاؤنٹس
+# General aria-label for closing modals
+close-aria =
+    .aria-label = موڈل بند کریں
+settings-subscriptions-title = رکنیت
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Error messages
 
-
-## Product route
-
+# App error dialog
+general-error-heading = عمومی ایپلیکیشن کی خرابی
+basic-error-message = کچھ غلط ہو گیا. براہ مہربانی کچھ دیر بعد کوشش کریں.
 product-plan-error =
     .title = منصوبہ لوڈ کرنے میں مسلہ ہے
 product-profile-error =
@@ -58,118 +106,89 @@ product-profile-error =
 product-customer-error =
     .title = صارف کو لوڈ کرنے میں مسئلہ ہے
 product-plan-not-found = منصوبہ نہیں ملا
-product-no-such-plan = اس مصنوعہ  کے لئے ایسا کوئی منصوبہ نہیں ہے۔
 
-## payment legal blurb
-
-
-## payment form
-
-payment-cc =
-    .label = آپ کا کارڈ
-payment-ccn =
-    .label = کارڈ کا نمبر
-payment-exp =
-    .label = میعاد ختم ہونا
-payment-cvc =
-    .label = CVC
-payment-zip =
-    .label = زپ کوڈ
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Hooks - coupons
 
 
-##
-
-payment-cancel-btn = منسوخ کریں
-payment-update-btn = اپڈیٹ
-payment-pay-btn = ابھی ادا کریں
-payment-pay-with-paypal-btn = { -brand-name-paypal } کے ساتھ ادائیگی کریں
-payment-validate-name-error = براہ مہربانی اپنا نام درج کریں
-
-## subscription redirect
+## Routes - Checkout - New user
 
 
-## fields
+## Routes - Product and Subscriptions
 
 
-## subscription upgrade
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 
-##
+## Routes - Product - IapRoadblock
+
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+
+## Routes - Product - Subscription upgrade
 
 sub-update-current-plan-label = موجودہ منصوبہ
 sub-update-new-plan-label = نیا منصوبہ
 
-## subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-## subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-## $date (Date) - The date for the next time a charge will occur.
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
 ##
 
+
+## Routes - Subscriptions - Cancel
+
+sub-item-cancel-sub = رکنیت منسوخ کریں
+
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
+
+
+## Routes - Subscription
+
+sub-route-idx-cancel-failed = رکنیت سازی  منسوخ کرنے میں ناکام ہوگیا
+sub-route-idx-cancel-msg-title = ہمیں آپ کو جاتے دیکھ کر افسوس ہے  ۔
+
+## Routes - Subscriptions - Errors
+
+
+## Routes - Subscription - ActionButton
+
 pay-update-change-btn = تبدیل کریں
 
-## reactivate
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $date (Date) - The date for the next time a charge will occur.
+
+
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
+
+
+## Routes - Subscription - SubscriptionItem
+
+
+## Routes - Subscriptions - Pocket Subscription
+
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name }کا استعمال جاری رکھنا چاہتے ہیں؟
 reactivate-confirm-button = دوبارہ رکن بنیں
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-success-copy = شکریہ! آپ بالکل تیار ہیں۔
 reactivate-success-button = بند کریں
 
-## subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-sub-item-missing-msg = برہ بہربانی بعد ازاں دوبارہ کوشش کریں
-sub-item-cancel-sub = رکنیت منسوخ کریں
-
-## subscription iap item
-
-
-## subscription route index
-
-sub-route-idx-cancel-failed = رکنیت سازی  منسوخ کرنے میں ناکام ہوگیا
-sub-route-idx-cancel-msg-title = ہمیں آپ کو جاتے دیکھ کر افسوس ہے  ۔
-
-## subscription create
-
-
-## plan-details
-
-plan-details-header = مسنوعہ کی تفصیلات
-plan-details-show-button = &تفصیلات دکھائیں
-plan-details-hide-button = تفصیلات چھپائیں
-plan-details-total-label = کل
-
-## payment-processing
-
-
-## payment confirmation
-
-payment-confirmation-mobile-alert = ایپ نہیں کھلی؟ <a> یہاں کلک کریں </a>
-
-## payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-
-## $email (string) - The user's email.
-
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-payment-confirmation-download-button = ڈاؤن لوڈ جاری رکھیں
-
-## new user email form
+## Routes - Subscriptions - Subscription iap item
 

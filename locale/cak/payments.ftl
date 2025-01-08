@@ -3,35 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Firefox Accounts
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Rutikirib'al Rub'i' Taqoya'l
@@ -51,7 +22,6 @@ input-error-is-required = Najowäx { $label }
 
 ## Component - Header
 
-brand-name-firefox-logo = { -brand-name-firefox } wachib'äl
 
 ## Component - NewUserEmailForm
 
@@ -131,15 +101,11 @@ payment-validate-name-error = Tatz'ib'aj ab'i'
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } nrokisaj { -brand-name-stripe } chuqa' { -brand-name-paypal } richin nijikib'äx ri tojïk.
-payment-legal-copy-paypal = { -brand-name-mozilla } nrokisaj { -brand-name-paypal } richin nijikib'äx ri tojïk.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } nrokisaj { -brand-name-stripe } richin nijikib'äx ri tojïk.
 
 ## Component - PaymentMethodHeader
 
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Ajowan
 
 ## Component - PaymentProcessing
 
@@ -148,6 +114,9 @@ payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = K'isb'en pa { $last4 } ri tarjeta'
+
+## Component - PayPalButton
+
 
 ## Component - PlanDetails
 
@@ -229,9 +198,9 @@ new-user-submit = Tatz'ib'aj ab'i' wakami
 
 sub-update-payment-title = Retamab'al tojïk
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = O tatojo' rik'in tarjeta'
 pay-with-heading-card-only = Titoj rik'in tarjeta'
 
 ## Routes - Product - IapRoadblock
@@ -240,19 +209,21 @@ pay-with-heading-card-only = Titoj rik'in tarjeta'
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
-sub-update-copy =
-    Anin xtijalatäj ri retal rajil chuqa' xtik'ul jun rajil
-    pa ruwi' ri k'a nib'an na ruwujil. Ri nitikïr { $startingDate }
-    xtik'ul ronojel ri rajil.
 sub-update-current-plan-label = Ajil wakami
 sub-update-new-plan-label = K'ak'a' ajil
 sub-update-total-label = Ronojel k'ak'a'
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -281,7 +252,6 @@ sub-route-idx-cancel-msg =
     Ri { $name } rutz'ib'axik ab'i' xq'at.
           <br />
           Xkatikïr xkatok pa { $name } k'a pa { $date }.
-sub-route-idx-cancel-aside = ¿La k'o ak'utunik? Tatz'eta' <a>{ -brand-name-mozilla } Tob'äl</a>.
 
 ## Routes - Subscriptions - Errors
 

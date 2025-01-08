@@ -559,10 +559,6 @@ dc-learn-more = Докладніше
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Меню { -product-mozilla-account(case: "gen") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Ви увійшли як</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Вийти
 drop-down-menu-sign-out-error-2 = Перепрошуємо, але під час виходу виникла проблема
 
@@ -613,6 +609,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Саме тому дуже важл
 flow-recovery-key-info-cta-text-v3 = Розпочати
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Скасувати
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -832,6 +834,9 @@ recovery-key-create-page-title = Ключ відновлення обліков�
 # and back to account settings
 recovery-key-create-back-button-title = Назад до налаштувань
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Крок 1 з 2
@@ -884,7 +889,6 @@ tfa-incorrect-totp = Неправильний код двоетапної пер
 tfa-cannot-retrieve-code = Виникла проблема при отриманні вашого коду.
 tfa-cannot-verify-code-4 = Виникла проблема під час перевірки вашого резервного коду автентифікації
 tfa-incorrect-recovery-code-1 = Неправильний резервний код автентифікації
-tfa-enabled = Двоетапну перевірку увімкнено
 tfa-scan-this-code =
     Скануйте цей QR-код, використовуючи одну з  <linkExternal>цих
     програм для двоетапної перевірки</linkExternal>.
@@ -1094,8 +1098,6 @@ tfa-row-cannot-refresh =
     Перепрошуємо, але при оновленні двоетапної перевірки
     виникла проблема.
 tfa-row-enabled-description = Ваш обліковий запис захищено двоетапною перевіркою. Під час входу в { -product-mozilla-account } вам потрібно буде ввести одноразовий код із програми автентифікації.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Допоможіть захистити свій обліковий запис, використовуючи <linkExternal>сторонню програму автентифікації</linkExternal> як другий крок для входу.
 tfa-row-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
@@ -1265,7 +1267,6 @@ inline-recovery-confirmation-header-default = <span>Щоб перейти до �
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>Щоб перейти до { $serviceName }</span>, введіть резервний код автентифікації
-inline-recovery-2fa-enabled = Двоетапну перевірку увімкнено
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

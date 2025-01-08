@@ -557,10 +557,6 @@ dc-learn-more = Ďalšie informácie
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Ponuka { -product-mozilla-account(case: "gen", capitalization: "lower") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Prihlásený ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odhlásiť sa
 drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 
@@ -611,6 +607,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Preto je vytvorenie kľúča na obn
 flow-recovery-key-info-cta-text-v3 = Začíname
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Zrušiť
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -830,6 +832,9 @@ recovery-key-create-page-title = Kľúč na obnovenie účtu
 # and back to account settings
 recovery-key-create-back-button-title = Späť na nastavenia
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Krok 1 z 2
@@ -882,7 +887,6 @@ tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
 tfa-cannot-verify-code-4 = Pri potvrdení vášho záložného overovacieho kódu sa vyskytol problém
 tfa-incorrect-recovery-code-1 = Nesprávny záložný overovací kód
-tfa-enabled = Dvojstupňové overenie bolo povolené
 tfa-scan-this-code =
     Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
     aplikácií</linkExternal>.
@@ -1087,8 +1091,6 @@ tfa-row-button-refresh =
     .title = Obnoviť dvojstupňové overenie
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
 tfa-row-enabled-description = Váš účet je chránený dvojstupňovou autentifikáciou. Pri prihlasovaní do svojho { -product-mozilla-account(case: "gen", capitalization: "lower") } budete musieť zadať jednorazový prístupový kód z overovacej aplikácie.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Pomôžte zabezpečiť svoj účet pomocou <linkExternal>aplikácie na overenie totožnosti tretej strany</linkExternal> ako druhého kroku prihlásenia.
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
@@ -1258,7 +1260,6 @@ inline-recovery-confirmation-header-default = Potvrďte záložný overovací k�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
-inline-recovery-2fa-enabled = Dvojstupňové overenie bolo povolené
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

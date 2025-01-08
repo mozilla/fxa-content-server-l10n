@@ -558,10 +558,6 @@ dc-learn-more = Kuaave
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } poravorã
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ramo
 drop-down-menu-sign-out = Ñesẽ
 drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuái embotykuévo ne rembiapo
 
@@ -612,6 +608,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Upévare natekotevéi emoheñói mb
 flow-recovery-key-info-cta-text-v3 = Eñepyrũ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Heja
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -830,6 +832,9 @@ recovery-key-create-page-title = Mba’ete mba’eñemi jeguerujeyrã
 # and back to account settings
 recovery-key-create-back-button-title = Eguevi ñembohekópe
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Ku’e 1 2-gui
@@ -882,7 +887,6 @@ tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuái eguerukuévo ayvu.
 tfa-cannot-verify-code-4 = Oiko peteĩ apañuái emoneĩnguévo nde ayvu ñemoneĩrã jeykekoha
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
-tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
     Emoha’ãnga QR ayvu eiporúvo <linkExternal>peteĩva
     ñemoneĩrã rembiporu’i</linkExternal>.
@@ -1248,7 +1252,6 @@ inline-recovery-confirmation-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoh
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Erujey ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
-inline-recovery-2fa-enabled = Ijurujáma mokõi jeku’épe ñemoneĩ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

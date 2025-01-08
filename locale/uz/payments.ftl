@@ -3,146 +3,170 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Component - AppLayout
 
-project-brand = Firefox hisoblari
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
+
+## Component - CouponForm
+
+
+## Component - Fields
+
+
+## Component - Header
+
+
+## Component - NewUserEmailForm
+
+
+## Component - PaymentConfirmation
+
+
+## Component - PaymentConsentCheckbox
+
+
+## Component - PaymentErrorView
+
+payment-error-retry-button = Qayta urining
+payment-error-manage-subscription-button = Obunalarni boshqarish
+
+## Component - PaymentErrorView - IAP upgrade errors
+
+
+## Component - PaymentForm
+
+
+## Component - PaymentLegalBlurb
+
+
+## Component - PaymentMethodHeader
+
+
+## Component - PaymentProcessing
+
+
+## Component - PaymentProviderDetails
+
+
+## Component - PayPalButton
+
+
+## Component - PlanDetails
+
+
+## Component - PlanErrorDialog
+
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
+## Component - SubscriptionTitle
+
+
+## Component - TermsAndPrivacy
+
+
+## App-level string(s) and messages shared by multiple components or routes
+
 document =
     .title = Firefox hisoblari
-
-## general-aria
-
+# General aria-label for closing modals
 close-aria =
     .aria-label = Oynani yopish
 
-## app error dialog
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
+
+## Error messages
+
+# App error dialog
 general-error-heading = Umumiy dastur xatosi
 basic-error-message = Qandaydir xatolik yuz berdi. Keyinroq qayta urining.
 payment-error-1 = Hmm. Toʻlovni tasdiqlashda muammo yuz berdi. Qayta urinib koʻring yoki karta beruvchi bankka murojaat qiling.
 payment-error-2 = Hmm. Toʻlovni tasdiqlashda muammo yuz berdi. Karta beruvchi bankka murojaat qiling.
 payment-error-3b = Toʻlovni amalga oshirishda kutilmagan xatolik yuz berdi, qaytadan urinib koʻring.
-payment-error-retry-button = Qayta urining
-payment-error-manage-subscription-button = Obunalarni boshqarish
+expired-card-error = Kredit kartangiz muddati tugaganga oʻxshaydi. Boshqa kartani sinab koʻring.
+insufficient-funds-error = Kartangizda mablagʻ kamga oʻxshaydi. Boshqa kartani sinab koʻring.
 country-currency-mismatch = Ushbu obuna valyutasi toʻlovingiz bilan bogʻliq mamlakat uchun yaroqsiz.
 currency-currency-mismatch = Kechirasiz. Siz valyutalarni almashtira olmaysiz.
 no-subscription-change = Kechirasiz. Obuna rejangizni oʻzgartira olmaysiz.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Siz allaqachon { $mobileAppStore } orqali obuna boʻlgansiz.
-expired-card-error = Kredit kartangiz muddati tugaganga oʻxshaydi. Boshqa kartani sinab koʻring.
-insufficient-funds-error = Kartangizda mablagʻ kamga oʻxshaydi. Boshqa kartani sinab koʻring.
 
-##  $productName (String) - The name of the subscribed product.
+## Hooks - coupons
 
 
-## settings
+## Routes - Checkout - New user
 
 
-## legal footer
+## Routes - Product and Subscriptions
 
 
-## Subscription titles
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Product - IapRoadblock
 
 
-## Product route
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
 
 
-## payment legal blurb
+## Routes - Product - Subscription upgrade
 
 
-## payment form
-
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-##
-
-
-## subscription redirect
-
-
-## fields
-
-
-## subscription upgrade
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
 ##
 
 
-## subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Subscriptions - Cancel
 
 
-## subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-## $date (Date) - The date for the next time a charge will occur.
-
-
-##
-
-
-## reactivate
-## $name (String) - The name of the subscribed product.
-
-
-##  $date (Date) - Last day of product access
-
-
-## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
 
-## subscription iap item
+## Routes - Subscription
 
 
-## subscription route index
+## Routes - Subscriptions - Errors
 
 
-## subscription create
+## Routes - Subscription - ActionButton
 
 
-## plan-details
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $date (Date) - The date for the next time a charge will occur.
 
 
-## coupons
+## Routes - Subscription - PaymentUpdate
 
 
-## payment-processing
+# $expirationDate (Date) - The payment card's expiration date.
 
 
-## payment confirmation
+## Routes - Subscription - SubscriptionItem
 
 
-## payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
+## Routes - Subscriptions - Pocket Subscription
 
 
-## $email (string) - The user's email.
+## Routes - Subscriptions - Reactivate
+## $name (String) - The name of the subscribed product.
 
 
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## $date (Date) - Last day of product access
 
 
-## new user email form
+## Routes - Subscriptions - Subscription iap item
 

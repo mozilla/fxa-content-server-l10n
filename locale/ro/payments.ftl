@@ -3,26 +3,151 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Branding
+## Component - AppLayout
 
-project-brand = Conturi Firefox
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
+settings-home = Pagina principală a contului
+
+## Component - CouponForm
+
+
+## Component - Fields
+
+default-input-error = Acest câmp este obligatoriu
+input-error-is-required = { $label } este necesar
+
+## Component - Header
+
+
+## Component - NewUserEmailForm
+
+
+## Component - PaymentConfirmation
+
+payment-confirmation-order-heading = Detalii comandă
+payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+payment-confirmation-amount = { $amount } per { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } zilnic
+        [few] { $amount } la fiecare { $intervalCount } zile
+       *[other] { $amount } la fiecare { $intervalCount } de zile
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } săptămânal
+        [few] { $amount } la fiecare { $intervalCount } săptămâni
+       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } lunar
+        [few] { $amount } la fiecare { $intervalCount } luni
+       *[other] { $amount } la fiecare { $intervalCount } de luni
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+        [few] { $amount } la fiecare { $intervalCount } ani
+       *[other] { $amount } la fiecare { $intervalCount } de ani
+    }
+payment-confirmation-download-button = Continuă cu descărcarea
+
+## Component - PaymentConsentCheckbox
+
+
+## Component - PaymentErrorView
+
+payment-error-manage-subscription-button = Gestionează abonamentul meu
+
+## Component - PaymentErrorView - IAP upgrade errors
+
+
+## Component - PaymentForm
+
+payment-name =
+    .placeholder = Nume complet
+    .label = Numele, așa cum apare pe card
+payment-cc =
+    .label = Cardul tău
+payment-cancel-btn = Anulează
+payment-update-btn = Actualizează
+payment-pay-btn = Plătește acum
+payment-validate-name-error = Te rugăm să îți introduci numele
+
+## Component - PaymentLegalBlurb
+
+
+## Component - PaymentMethodHeader
+
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+
+## Component - PaymentProcessing
+
+payment-processing-message = Vă rugăm să așteptați în timp ce procesăm plata dvs. …
+
+## Component - PaymentProviderDetails
+
+
+## Component - PayPalButton
+
+
+## Component - PlanDetails
+
+plan-details-header = Detalii produs
+plan-details-show-button = Afișează detaliile
+plan-details-hide-button = Ascunde detaliile
+plan-details-total-label = Total
+
+## Component - PlanErrorDialog
+
+product-no-such-plan = Nu există un astfel de plan pentru acest produs.
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
+## Component - SubscriptionTitle
+
+subscription-create-title = Configurează-ți abonamentul
+subscription-processing-title = Se confirmă abonamentul …
+subscription-error-title = Eroare la confirmarea abonamentului …
+sub-guarantee = Garanție de rambursare a banilor în 30 de zile
+
+## Component - TermsAndPrivacy
+
+terms = Termenii de utilizare a serviciului
+privacy = Notificare privind confidențialitatea
+
+## App-level string(s) and messages shared by multiple components or routes
+
 document =
     .title = Conturi Firefox
-
-## General aria-label
-
+# General aria-label for closing modals
 close-aria =
     .aria-label = Închide fereastra de dialog
+settings-subscriptions-title = Abonamente
 
-## App error dialog
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
+
+## Error messages
+
+# App error dialog
 general-error-heading = Eroare generală de aplicație
 basic-error-message = Ceva nu a funcționat. Te rugăm să încerci mai târziu.
 payment-error-1 = Hmm. A apărut o problemă la autorizarea plății tale. Încearcă din nou sau contactează emitentul cardului.
 payment-error-2 = Hmm. A apărut o problemă la autorizarea plății tale. Contactează emitentul cardului.
-payment-error-manage-subscription-button = Gestionează abonamentul meu
 expired-card-error = Se pare că ți-a expirat cardul de credit. Încearcă alt card.
 insufficient-funds-error = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
 withdrawal-count-limit-exceeded-error = Se pare că această tranzacție îți depășește limita de credit. Încearcă alt card.
@@ -31,57 +156,6 @@ instant-payouts-unsupported = Se pare că nu ai cardul de debit configurat pentr
 duplicate-transaction = Hmm. Se pare că tocmai a fost transmisă o tranzacție identică. Verifică-ți istoricul plăților.
 coupon-expired = Se pare că acest cod promoțional a expirat.
 card-error = Tranzacția nu a putut fi procesată. Te rugăm să verifici informațiile cardului de credit și încearcă din nou.
-
-## Settings
-
-settings-home = Pagina principală a contului
-settings-subscriptions-title = Abonamente
-
-## Legal footer
-
-terms = Termenii de utilizare a serviciului
-privacy = Notificare privind confidențialitatea
-
-## Subscription titles
-
-subscription-create-title = Configurează-ți abonamentul
-subscription-processing-title = Se confirmă abonamentul …
-subscription-error-title = Eroare la confirmarea abonamentului …
-
-## $productName (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-day-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } facturat cu { $amount } zilnic
-        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } zile
-       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de zile
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-week-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } facturat cu { $amount } săptămânal
-        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } săptămâni
-       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de săptămâni
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-month-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } facturat cu { $amount } lunar
-        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } luni
-       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de luni
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-year-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } facturat cu { $amount } anual
-        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } ani
-       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de ani
-    }
-
-## Product route
-
 product-plan-error =
     .title = Problemă la încărcarea planurilor
 product-profile-error =
@@ -89,166 +163,107 @@ product-profile-error =
 product-customer-error =
     .title = Problemă la încărcarea clientului
 product-plan-not-found = Planul nu a fost găsit
-product-no-such-plan = Nu există un astfel de plan pentru acest produs.
 
-## Payment legal blurb
+## Hooks - coupons
 
 
-## Payment form
+## Routes - Checkout - New user
 
-payment-name =
-    .placeholder = Nume complet
-    .label = Numele, așa cum apare pe card
-payment-cc =
-    .label = Cardul tău
-payment-ccn =
-    .label = Număr card
-payment-exp =
-    .label = Data expirării
-payment-cvc =
-    .label = CVC
-payment-zip =
-    .label = Cod poștal
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Product and Subscriptions
 
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } zilnic</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } zile</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de zile</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } săptămânal</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } săptămâni</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de săptămâni</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } lunar</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } luni</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de luni</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } anual</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } ani</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze prin metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de ani</strong>, conform <termsOfServiceLink>Termenilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
-    }
 
-##
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-payment-cancel-btn = Anulează
-payment-update-btn = Actualizează
-payment-pay-btn = Plătește acum
-payment-validate-name-error = Te rugăm să îți introduci numele
-payment-validate-zip-required = Codul poștal este necesar
-payment-validate-zip-short = Codul poștal este prea scurt
+pay-with-heading-card-only = Plătește cu cardul
 
-## Subscription redirect
+## Routes - Product - IapRoadblock
 
-sub-redirect-ready = Abonamentul tău este gata
-sub-redirect-copy = Vrei să ne acorzi un minut și să ne spui despre experiența ta?
-sub-redirect-skip-survey = Nu, mulțumesc. Du-mă la produs.
 
-## Fields
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
 
-default-input-error = Acest câmp este obligatoriu
-input-error-is-required = { $label } este necesar
 
-## Subscription upgrade
-
-sub-update-card-exp = Data expirării: { $cardExpMonth }/{ $cardExpYear }
-sub-update-copy =
-    Planul tău va fi modificat imediat și ți se va percepe o sumă ajustată
-    pe restul perioadei ciclului de facturare. Începând cu { $startingDate },
-    ți se va percepe suma totală.
-
-##
+## Routes - Product - Subscription upgrade
 
 sub-update-current-plan-label = Plan curent
 sub-update-new-plan-label = Plan nou
 sub-update-total-label = Total nou
 
-## Subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } zilnic
-        [few] { $amount } la fiecare { $intervalCount } zile
-       *[other] { $amount } la fiecare { $intervalCount } de zile
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } săptămânal
-        [few] { $amount } la fiecare { $intervalCount } săptămâni
-       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } lunar
-        [few] { $amount } la fiecare { $intervalCount } luni
-       *[other] { $amount } la fiecare { $intervalCount } de luni
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } anual
-        [few] { $amount } la fiecare { $intervalCount } ani
-       *[other] { $amount } la fiecare { $intervalCount } de ani
-    }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+##
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } pe zi
-        [few] { $amount } la fiecare { $intervalCount } zile
-       *[other] { $amount } la fiecare { $intervalCount } de zile
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } pe săptămână
-        [few] { $amount } la fiecare { $intervalCount } săptămâni
-       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } pe lună
-        [few] { $amount } la fiecare { $intervalCount } luni
-       *[other] { $amount } la fiecare { $intervalCount } de luni
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } pe an
-        [few] { $amount } la fiecare { $intervalCount } ani
-       *[other] { $amount } la fiecare { $intervalCount } de ani
-    }
 
+## Routes - Subscriptions - Cancel
+
+sub-item-cancel-sub = Anulează abonamentul
+sub-item-stay-sub = Păstrează abonamentul
+
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
+
+sub-item-cancel-msg =
+    Nu vei mai putea folosi { $name } după
+    { $period }, ultima zi din ciclul tău de facturare.
+sub-item-cancel-confirm =
+    Anulează-mi accesul și informațiile mele salvate în
+    { $name } la { $period }
+
+## Routes - Subscription
+
+sub-route-idx-reactivating = Reactivarea abonamentului a eșuat
+sub-route-idx-cancel-failed = Anularea abonamentului a eșuat
+sub-route-idx-contact = Contactează serviciul de asistență
+sub-route-idx-cancel-msg-title = Ne pare rău că pleci
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Abonamentul tău pentru { $name } a fost anulat.
+          <br />
+          Vei mai avea acces la { $name } până la data de { $date }.
+
+## Routes - Subscriptions - Errors
+
+sub-customer-error =
+    .title = Problemă la încărcarea clientului
+sub-billing-update-success = Informațiile tale de facturare au fost actualizate cu succes
+
+## Routes - Subscription - ActionButton
+
+pay-update-change-btn = Modifică
+pay-update-manage-btn = Gestionează
+
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Data următoarei facturi: { $date }
 
-##
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Data expirării: { $expirationDate }
-pay-update-change-btn = Modifică
+sub-route-idx-updating = Se actualizează informațiile de facturare…
+sub-route-missing-billing-agreement-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. <div>Gestionează</div>
+sub-route-funding-source-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. Această alertă poate dura ceva timp până să dispară după ce îți actualizezi cu succes informațiile. <div>Gestionează</div>
 
-## reactivate
+## Routes - Subscription - SubscriptionItem
+
+sub-item-no-such-plan = Nu există un asemenea plan pentru acest abonament.
+
+## Routes - Subscriptions - Pocket Subscription
+
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vrei să folosești în continuare { $name }?
@@ -270,127 +285,9 @@ reactivate-confirm-button = Reabonare
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-date = Ți-ai anulat abonamentul la data de { $date }.
 reactivate-panel-copy = Vei pierde accesul la { $name } pe data de <strong>{ $date }</strong>.
 reactivate-success-copy = Îți mulțumim! Totul este gata.
 reactivate-success-button = Închide
 
-## Subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
+## Routes - Subscriptions - Subscription iap item
 
-sub-item-missing = Problemă la încărcarea abonamentelor
-sub-item-missing-msg = Te rugăm să încerci mai târziu.
-sub-item-no-such-plan = Nu există un asemenea plan pentru acest abonament.
-sub-item-cancel-sub = Anulează abonamentul
-sub-item-stay-sub = Păstrează abonamentul
-sub-item-cancel-msg =
-    Nu vei mai putea folosi { $name } după
-    { $period }, ultima zi din ciclul tău de facturare.
-sub-item-cancel-confirm =
-    Anulează-mi accesul și informațiile mele salvate în
-    { $name } la { $period }
-
-## Subscription iap item
-
-account-activated = Contul tău este activat, <userEl/>
-
-## Subscription route index
-
-sub-route-idx-updating = Se actualizează informațiile de facturare…
-sub-route-idx-reactivating = Reactivarea abonamentului a eșuat
-sub-route-idx-cancel-failed = Anularea abonamentului a eșuat
-sub-route-idx-contact = Contactează serviciul de asistență
-sub-route-idx-cancel-msg-title = Ne pare rău că pleci
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-sub-route-idx-cancel-msg =
-    Abonamentul tău pentru { $name } a fost anulat.
-          <br />
-          Vei mai avea acces la { $name } până la data de { $date }.
-sub-route-idx-cancel-aside = Ai întrebări? Vizitează <a>{ -brand-name-mozilla } Support</a>.
-sub-subscription-error =
-    .title = Problemă la încărcarea abonamentelor
-sub-customer-error =
-    .title = Problemă la încărcarea clientului
-sub-billing-update-success = Informațiile tale de facturare au fost actualizate cu succes
-sub-route-missing-billing-agreement-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. <div>Gestionează</div>
-sub-route-funding-source-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. Această alertă poate dura ceva timp până să dispară după ce îți actualizezi cu succes informațiile. <div>Gestionează</div>
-pay-update-manage-btn = Gestionează
-
-## Subscription create
-
-sub-guarantee = Garanție de rambursare a banilor în 30 de zile
-pay-with-heading-other = Selectează opțiunea de plată
-pay-with-heading-card-or = Sau plătește cu cardul
-pay-with-heading-card-only = Plătește cu cardul
-
-## Plan details
-
-plan-details-header = Detalii produs
-plan-details-show-button = Afișează detaliile
-plan-details-hide-button = Ascunde detaliile
-plan-details-total-label = Total
-
-## Coupons
-
-
-## Payment processing
-
-payment-processing-message = Vă rugăm să așteptați în timp ce procesăm plata dvs. …
-
-## Payment confirmation
-
-payment-confirmation-alert = Dă clic aici pentru descărcare
-payment-confirmation-mobile-alert = Nu s-a deschis aplicația? <a>Dă clic aici</a>
-
-## Payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-
-## $email (string) - The user's email.
-
-payment-confirmation-order-heading = Detalii comandă
-payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
-payment-confirmation-billing-heading = Facturat către
-payment-confirmation-amount = { $amount } per { $interval }
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-payment-confirmation-amount-day =
-    { $intervalCount ->
-        [one] { $amount } zilnic
-        [few] { $amount } la fiecare { $intervalCount } zile
-       *[other] { $amount } la fiecare { $intervalCount } de zile
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirmation-amount-week =
-    { $intervalCount ->
-        [one] { $amount } săptămânal
-        [few] { $amount } la fiecare { $intervalCount } săptămâni
-       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirmation-amount-month =
-    { $intervalCount ->
-        [one] { $amount } lunar
-        [few] { $amount } la fiecare { $intervalCount } luni
-       *[other] { $amount } la fiecare { $intervalCount } de luni
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirmation-amount-year =
-    { $intervalCount ->
-        [one] { $amount } anual
-        [few] { $amount } la fiecare { $intervalCount } ani
-       *[other] { $amount } la fiecare { $intervalCount } de ani
-    }
-payment-confirmation-download-button = Continuă cu descărcarea
-
-## New user email form
-
-new-user-sign-in-link = Ai deja un cont { -brand-name-firefox }? <a>Autentifică-te</a>
-new-user-step-1 = 1. Creează un cont { -brand-name-firefox }
-# This message is used to indicate the second step in a multi step process.
-payment-method-header-second-step = 2. { payment-method-header }

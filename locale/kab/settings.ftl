@@ -4,15 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Mdel
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Email yettwaezn tikelt-nneḍen. Rnu { $accountsEmail } ɣer yinermisen-ik akken ad tḍemneḍ armas yelhan n yiznan.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -75,14 +67,6 @@ choose-what-to-sync-option-addresses =
     .label = Tansiwin
 choose-what-to-sync-option-paymentmethods =
     .label = Tarrayin n uxelleṣ
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Mačči deg tebwaṭ n unekcum neɣ afaylu n yispamen? Ales tuzna
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Ɣer deffir
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -174,11 +158,14 @@ get-data-trio-print-2 =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
-inline-recovery-key-setup-signed-in-firefox = Teqqneḍ ɣer { -brand-firefox }
 inline-recovery-key-setup-create-header = Seɣles amiḍan-ik
 inline-recovery-key-setup-start-button = Rnu tasarut n tririt n umiḍan
 inline-recovery-key-setup-later-button = Ticki
@@ -189,6 +176,9 @@ inline-recovery-key-setup-later-button = Ticki
 input-password-hide = Ffer awal uffir
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Sken awal uffir
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Ɣer deffir
 
@@ -208,15 +198,6 @@ reset-pwd-link-damaged-message = Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Awi aseγwen amaynut
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Wennez aseɣwen n wawal uffir aqbuṛ
-reset-pwd-link-expired-message = Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ awal inek uffir yezri.
 
 ## LinkRememberPassword component
 
@@ -391,10 +372,6 @@ dc-learn-more = Issin ugar
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Umuɣ n { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Yeqqen am</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ffeɣ
 drop-down-menu-sign-out-error-2 = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg tuqqna
 
@@ -428,6 +405,12 @@ flow-recovery-key-success-alert = Tasarut n tririt n umiḍan tettwarna
 flow-recovery-key-info-cta-text-v3 = Bdu
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Sefsex
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -608,6 +591,9 @@ recovery-key-create-page-title = Tasarut n tririt n umiḍan
 # and back to account settings
 recovery-key-create-back-button-title = Uɣal ɣer iɣewwaṛen
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Asurif 1 seg 2
@@ -655,7 +641,6 @@ tfa-button-finish = Fakk
 tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
 tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
 tfa-incorrect-recovery-code-1 = Tangalt n usesteb n uḥraz d tarameɣtut
-tfa-enabled = Asesteb s snat n tarrayin yermed
 tfa-scan-this-code =
     Smiḍen tangalt-a QR s useqdec n yiwen seg <linkExternal>
     yisnasen-a n usesteb</linkExternal>.
@@ -714,6 +699,9 @@ security-password =
 security-password-created-date = Yettwarna { $date }
 security-not-set = Ur sbaduy ara
 security-action-create = Rnu
+
+## SubRow component
+
 
 ## Switch component
 
@@ -796,9 +784,7 @@ se-secondary-email-none = Ula yiwen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Asesteb s snat n tarrayin
-tfa-row-disabled-2 = Asesteb s snat n tarrayin yensa
 tfa-row-enabled = Yettwarmed
-tfa-row-not-set = Ur yettusbadu ara
 tfa-row-action-add = Rnu
 tfa-row-action-disable = Sens
 tfa-row-button-refresh =
@@ -806,19 +792,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Suref-aɣ, yella-d wugur deg usmiren n usesteb
     s snat n tarrayin.
-tfa-row-content-explain =
-    Ur ttaǧǧa yiwen ad yeqqen, ssuter 
-    tangalt tasuft i tzemreḍ ad tesqedceḍ kečč/kemm kan.
 tfa-row-cannot-verify-session-4 = Suref-aɣ, yella-d wugur deg usentem n tɣimit-ik•im.
 tfa-row-disable-modal-heading = Ad tessenseḍ asesteb s snat n tarrayin?
 tfa-row-disable-modal-confirm = Sens
 tfa-row-disable-modal-explain-1 =
     Ur tzemmreḍ ara aṭas tesfesxeḍ tigawt-a. Daɣen
     tesɛiḍ taxtirt n <linkExternal> usenkez n tengalin-ik•im n usesteb n uḥraz </linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Asesteb s snat n tarrayin yensa
 tfa-row-cannot-disable-2 = Asesteb s snat n tarrayin ulamek ad yens
-tfa-row-change-modal-heading-1 = Senfel tangalt n usesteb n uḥraz?
-tfa-row-change-modal-confirm = Senfel
-tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -927,7 +909,6 @@ inline-recovery-back-link = Ɣer deffir
 inline-recovery-cancel-setup = Sefsex asebeddi
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
-inline-recovery-2fa-enabled = Asesteb s snat n tarrayin yermed
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1021,6 +1002,11 @@ pair-supp-allow-cancel-link = Sefsex
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Cudd s usnas
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.

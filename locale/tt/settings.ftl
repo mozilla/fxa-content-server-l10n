@@ -412,10 +412,6 @@ dc-learn-more = Күбрәк белү
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } менюсы
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <user>{ $user }</user><signin> буларак кердегез</signin>
 drop-down-menu-sign-out = Чыгу
 
 ## Flow Container
@@ -458,6 +454,12 @@ flow-recovery-key-info-header-change-key = Хисапны коткару ачк�
 flow-recovery-key-info-cta-text-v3 = Башлап җибәрү
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Баш тарту
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -642,6 +644,9 @@ recovery-key-create-page-title = Хисапны коткару ачкычы
 # and back to account settings
 recovery-key-create-back-button-title = Көйләүләргә кире кайту
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Адым 1/2
@@ -681,7 +686,6 @@ tfa-button-cancel = Баш тарту
 tfa-button-finish = Әзер
 tfa-incorrect-totp = Ике адымлы аутентификация коды хаталы
 tfa-cannot-retrieve-code = Кодыгызны алганда хата килеп чыкты.
-tfa-enabled = Ике адымлы аутентификация кабызылды
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -933,7 +937,6 @@ index-header = Эл. почтагызны кертегез
 
 inline-recovery-back-link = Кире
 inline-recovery-cancel-setup = Урнаштырудан баш тарту
-inline-recovery-2fa-enabled = Ике адымлы аутентификация кабызылды
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

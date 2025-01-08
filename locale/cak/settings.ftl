@@ -4,31 +4,24 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Titz'apïx
+
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Choj ruxe' etamab'äl niqatäq chawe. Tatz'ib'aj ab'i' richin nawetamaj ch'aqa' chik:
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Kasamäj richin nab'än raxinäq chi re ri k'amaya'l
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Kajike' chuqa' kana'owinaqin pa k'amab'ey
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Tacha' achike naxïm:
 choose-what-to-sync-option-bookmarks =
     .label = Taq yaketal
 choose-what-to-sync-option-history =
@@ -44,20 +37,6 @@ choose-what-to-sync-option-prefs =
     .label = Taq ajowab'äl
 choose-what-to-sync-option-addresses =
     .label = Taq ochochib'äl
-choose-what-to-sync-option-creditcards =
-    .label = Taq Ch'utit'im Pwäq
-
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
-
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Tijaq { $emailProvider }
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = ¿La man k'o ta pan taqob'äl o pa ruyakwuj seq'tzijol? Titaq chik
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Chi rij
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -107,6 +86,16 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Titzolïx ewan tzij
 form-reset-password-with-balloon-match-error = Man nikik'äm ta ki' ri taq ewan tzij
 
+## FormPasswordInlineCriteria
+
+
+## FormVerifyCode
+
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -121,12 +110,27 @@ get-data-trio-print-2 =
     .aria-label = Titz'ajb'äx
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
 
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Tewäx ewan tzij
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Tik'ut ewan tzij
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Chi rij
 
@@ -135,22 +139,14 @@ legal-back-button = Chi rij
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Titzolïx ruwäch ri man ütz ta ruximonel ewan tzij
-# The user followed a "reset password" link received by email.
+# The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = K'a k'o na taq tz'ib' nrajo' ri ximonel xapïtz' ruma ri' toq rik'in jub'a' xq'at ruma ri ataqoya'l richin winäq. Tachajij ruwachib'enik ri ochochib'äl richin natojtob'ej chik.
 
 ## LinkExpired component
 
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Titzolïx ruwäch ri ruximonel ewan tzij xk'is yan ruq'ijul
-reset-pwd-link-expired-message = Ri ximonel xapïtz richin natzolij ruwäch ri ewan atzij xk'is yan ruq'ijul.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Tik'ul k'ak'a' ximonel
 
 ## LinkRememberPassword component
 
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = ¿La nanataj ri ewan atzij? Titikirisäx molojri'ïl
 
 ## LinkUsed component
 
@@ -160,6 +156,9 @@ primary-email-confirmation-link-reused = Xjikib'äx yan ri nab'ey taqoya'l
 signin-confirmation-link-reused = Xjikib'äx yan rutikirisaxik molojri'ïl
 confirmation-link-reused-message = Chi ri ruximonel jikib'anïk xokisäx yan, xa xe tikirel nokisäx jun mul.
 
+## Notification Promo Banner component
+
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -167,10 +166,11 @@ confirmation-link-reused-message = Chi ri ruximonel jikib'anïk xokisäx yan, xa
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = Xtzolïx ri ewan atzij
-ready-start-browsing-button = Tichap okem pa k'amaya'l
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -180,6 +180,19 @@ ready-account-ready = ¡Ütz chik ri rub'i' ataqoya'l!
 ready-continue = Titikïr chik el
 sign-in-complete-header = Xjikib'äx rutikirisaxik molojri'ïl
 sign-up-complete-header = Xjikib'äx rub'i' taqoya'l
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -197,9 +210,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-firefox-title = { -brand-firefox } jun na'ob'äl nuto' ri awichinanem pa k'amab'ey.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-made-by-mozilla = B'anon ruma { -brand-mozilla }
@@ -207,9 +218,6 @@ bento-menu-made-by-mozilla = B'anon ruma { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Tak'ulu' { -brand-firefox } pan oyonib'äl o kematz'ib'
-connect-another-find-fx-mobile =
-    Takanoj { -brand-firefox } pa { -google-play } chuqa' pa { -app-store } o
-    <br /><linkExternal>tataqa' jun ruximonel qasanïk pan awoyonib'al.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -230,7 +238,7 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Man xilitäj ta ri okisanel, man xchuputäj ta
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Chupun pa { $service }
 cs-refresh-button =
@@ -242,7 +250,7 @@ cs-disconnect-sync-heading = Tichup pa Sync
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 
@@ -260,17 +268,7 @@ cs-disconnect-sync-opt-not-say = Man ninwajo' ta ninb'ij
 
 cs-disconnect-advice-confirm = Ütz, xno' pa nuwi'
 cs-disconnect-lost-advice-heading = Eleq'an o sachon okisab'äl chupül
-cs-disconnect-lost-advice-content-2 =
-    Ruma chi xeleq'äx o xsach ri okisab'äl, richin
-    nichajïx ri etamab'äl, k'o ta chi najäl ri ewan rutzij { -product-firefox-account }
-    pa ri runuk'ulem rub'i' taqoya'l. Chuqa' k'o ta chi nakanoj retamab'al
-    ri b'anöy okisab'äl richin ye'ayüj ri taq rutzij toq k'o näj.
 cs-disconnect-suspicious-advice-heading = Xchup ri q'elenel okisab'äl
-cs-disconnect-suspicious-advice-content =
-    We q'eleb'el ri
-    okisab'äl, richin chi jikïl ri awetamab'al, k'o chi najäl ri ewan atzij pa { -product-firefox-account }
-    pa runuk'ulem rub'i' ataqoya'l. Chuqa' k'o chi najäl jun chik xab'achike
-    ewan tzij xayäk pa { -brand-firefox } rik'in natz'ib'aj about:logins pa rukajtz'ik ochochib'äl.
 cs-sign-out-button = Titz'apïx molojri'ïl
 
 ##
@@ -283,27 +281,49 @@ dc-learn-more = Tetamäx ch'aqa' chik
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = { -product-firefox-account } k'utsamaj
 drop-down-menu-sign-out = Titz'apïx molojri'ïl
 
 ## Flow Container
 
 flow-container-back = Chi rij
 
-# HeaderLockup component
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Titz'apïx k'utsamaj
 header-menu-closed = Ruk'utsamaj okem pa ruk'amaya'l ruxaq
 header-back-to-top-link =
     .title = Titzolin pa rutikirib'al
-header-title = { -product-firefox-accounts }
 header-help = Tob'äl
 
 ## Linked Accounts section
 
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Titz'apïx
 modal-cancel-button = Tiq'at
@@ -396,12 +416,10 @@ delete-account-header =
     .title = Tiyuj rub'i' taqoya'l
 delete-account-step-1-2 = 1 xak richin 2
 delete-account-step-2-2 = 2 xak richin 2
-delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
-delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-addons = { -brand-firefox } Taq tz'aqat
 delete-account-acknowledge = Tanataj chi toq nayüj el ri rub'i' ataqoya'l:
@@ -434,18 +452,16 @@ display-name-success-alert-2 = Tik'ut pe ri b'i'aj xk'ex
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 
-# Account recovery key setup page
+## PageRecoveryKeyCreate
 
-recovery-key-cancel-button = Tiq'at
-recovery-key-close-button = Titz'apïx
-recovery-key-continue-button = Titikïr chik el
-recovery-key-enter-password =
-    .label = Titz'ib'äx ewan tzij
-recovery-key-step-1 = 1 xak richin 2
-recovery-key-step-2 = 2 xak richin 2
+
+## PageSetupRecoveryPhone
+
 
 ## Add secondary email page
 
@@ -490,7 +506,6 @@ tfa-button-cancel = Tiq'at
 tfa-button-finish = Tik'is
 tfa-incorrect-totp = Man ütz ta ri rub'itz'ib' jikib'anem rik'in ka'i'-xak
 tfa-cannot-retrieve-code = Xk'ulwachitäj jun k'ayewal toq nikol ri b'itz'ib'.
-tfa-enabled = Xtzij ri jikib'anem rik'in ka'i'-xaq
 tfa-scan-this-code =
     Tatz'ajwachib'ej re QR b'itz'ib' akuchi' nawokisaj <linkExternal>re
     jikib'anel taq chokoy </linkExternal>.
@@ -504,11 +519,11 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Titz'ib'äx re ewan ruk'u'x tzij re' pa ri achokoy  richin jikib'anem:
-tfa-enter-totp = Wakami tatz'ib'aj ri rub'itz'ib' rujikomal ruchokoy jikib'anïk.
-tfa-input-enter-totp =
-    .label = Tatz'ib'aj ri rub'itz'ib' jikomal
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -524,6 +539,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Jikomal
@@ -535,6 +553,9 @@ security-password =
 security-password-created-date = Xtz'uk: { $date }
 security-not-set = Majun Runuk'ulem
 security-action-create = Titz'uk
+
+## SubRow component
+
 
 ## Switch component
 
@@ -596,9 +617,7 @@ se-secondary-email-none = Majun
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Jikib'anem rik'in ka'i'-xak
-tfa-row-disabled-2 = Xchup ri jikib'anem rik'in ka'i'-xaq
 tfa-row-enabled = Tzijon
-tfa-row-not-set = Majun runuk'ulem
 tfa-row-action-add = Titz'aqatisäx
 tfa-row-action-disable = Tichup
 tfa-row-button-refresh =
@@ -606,18 +625,18 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Takuyu', xk'oje' jun k'ayewal toq nik'ex ri rujikib'axik
     pa ka'i' xak.
-tfa-row-content-explain =
-    Man taya' q'ij chi jun chik winäq tok rik'in nuk'utuj jun
-    ruyonil b'itz'ib'
-    ruyonil b'itz'ib' ri xa xe rat yatikïr nawokisaj.
 tfa-row-disable-modal-heading = ¿La nichup ri jikib'anem rik'in ka'i'-xak?
 tfa-row-disable-modal-confirm = Tichup
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Xchup ri jikib'anem rik'in ka'i'-xaq
 tfa-row-cannot-disable-2 = Man tikirel ta nichup ri rujikib'axik pa ka'i'-xaq
-tfa-row-change-modal-confirm = Tijalwachïx
-tfa-row-change-modal-explain = Man tikirel ta nitzolïx re samaj re'.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
+
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
 ## Auth-server based errors that originate from backend service
@@ -666,6 +685,12 @@ connect-another-device-ios-complete-setup-message = Titikirisäx molojri'ïl pa 
 cookies-disabled-button-try-again = Titojtob'ëx chik
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Tetamäx ch'aqa' chik
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -717,6 +742,11 @@ legal-terms-heading = Taq Rojqanem Samaj
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Okisan okisaxel
 
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -760,53 +790,43 @@ pair-supp-allow-cancel-link = Tiq'at
 
 pair-unsupported-message = ¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun ruchokoy { -brand-firefox }.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Titz'uk' k'ak'a' ewan tzij
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Xjikib'äx ewan tzij
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Titz'uk' k'ak'a' ewan tzij
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Xjikib'äx ewan tzij
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Xtaq ri taqoya'l richin nitzolïx
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Tipitz' pa ruwi' ri ximonel xtaq pa { $email } ri ramaj wakami richin natz'ük jun k'ak'a' ewan tzij.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Xtaq chik taqoya'l. Titz'aqatisäx { $accountsEmail } chi ke ri awachib'il richin nijikib'äx jun k'ulujri'ïl akuchi' majun k'ayewal.
 
-## ResetPassword page
+## PasswordResetConfirmTotp Page
 
-reset-password-button = Titikirisäx nitzolïx
-reset-password-success-alert = Titzolïx ewan tzij
-reset-password-error-unknown-account = Man etaman ta ruwäch rub'i' taqoya'l
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Xtzolïx ri ewan atzij
 reset-password-with-recovery-key-verified-page-title = Xtzolïx ütz ri ewan tzij
-reset-password-with-recovery-key-verified-continue-to-account = Kib'e pa rub'i' nutaqoya'l
 
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Sachoj:
-
-## ConfirmSignin component
-
-confirm-signin-header = Tijikib'äx re rutikirisaxik molojri'ïl re'
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Tab'enik'oj pan ataqoya'l ri ruximonel rujikib'anik rutikirisaxik molojri'ïl taqon chi re { $email }
 
 ## Signin page
 
@@ -814,11 +834,24 @@ signin-button = Titikirisäx molojri'ïl
 signin-header = Titikirisäx molojri'ïl
 signin-use-a-different-account-link = Tokisäx jun chik rub'i' taqoya'l
 signin-forgot-password-link = ¿La xmestäx ri ewan tzij?
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
 signin-bounced-header = Takuyu'. Xqaq'ät ri rub'i' ataqoya'l.
 # $email (string) - The user's email.
 signin-bounced-message = Xtzolïx ri rutaqoya'l jikib'anïk xtaq pa { $email } chuqa' xqaq'ät ri rub'i' ataqoya'l richin yeqachajij ri taq atzij richin { -brand-firefox }.
 signin-bounced-create-new-account = ¿La man awichin ta chik re taqoya'l re'? Tatz'uku' jun k'ak'a' rub'i' taqoya'l
 back = Chi rij
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -827,7 +860,7 @@ back = Chi rij
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Tijikib'äx
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Chi rij
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -849,22 +882,15 @@ signin-token-code-confirm-button = Tijikib'äx
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-signin-totp-code-instruction = Tajaqa' ri ruchokoy jikib'anem chuqa' tatz'ib'aj ri rub'itz'ib' jikomal nuk'üt pe.
-signin-totp-code-input-label-v2 = Titz'ib'äx 6-rutz'ib' b'itz'ib'
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Tijikib'äx
 signin-totp-code-other-account-link = Tokisäx jun chik rub'i' taqoya'l
 signin-totp-code-recovery-code-link = ¿La k'ayew xatz'ib'aj ri b'itz'ib'?
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
 
-confirm-signup-heading = Tajikib'a' rub'i' ataqoya'l
-# { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Tab'enik'oj pan ataqoya'l ri ruximonel jikib'anïk xtaq pa { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -884,5 +910,3 @@ signup-change-email-link = Tijal taqoya'l
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = ¿Janipe' ajuna'?
-# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
-signup-age-check-input-error = K'o chi natz'ib'aj ajuna' richin natz'ib'aj awi'

@@ -277,6 +277,9 @@ input-password-show-aria-2 = Zure pasahitza ezkutatuta dago une honetan.
 input-password-sr-only-now-visible = Zure pasahitza orain ikusgai dago pantailan.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Zure pasahitza orain ezkutatuta dago.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Atzera
 
@@ -520,10 +523,6 @@ dc-learn-more = Argibide gehiago
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } menua
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <user>{ $user }</user> <signin>gisa saioa hasita</signin>
 drop-down-menu-sign-out = Amaitu saioa
 drop-down-menu-sign-out-error-2 = Barkatu, arazo bat gertatu da zure saioa amaitzean
 
@@ -574,6 +573,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Horregatik, kontua berreskuratzeko 
 flow-recovery-key-info-cta-text-v3 = Hasi erabiltzen
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Utzi
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -790,6 +795,9 @@ recovery-key-create-page-title = Kontua berreskuratzeko gakoa
 # and back to account settings
 recovery-key-create-back-button-title = Itzuli ezarpenetara
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2tik 1. urratsa
@@ -836,7 +844,6 @@ tfa-button-cancel = Utzi
 tfa-button-finish = Amaitu
 tfa-incorrect-totp = Bi urratseko autentifikazio-kode okerra
 tfa-cannot-retrieve-code = Arazoa egon da zure kodea eskuratzen.
-tfa-enabled = Bi urratseko autentifikazioa gaituta
 tfa-scan-this-code =
     Eskaneatu QR kodea <linkExternal>hauetako autentifikazio-aplikazio
     bat</linkExternal> erabiliz.
@@ -1077,7 +1084,6 @@ inline-recovery-cancel-setup = Utzi konfigurazioa
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Babeskopiarako autentifikazio-kodea
 inline-recovery-confirmation-description = Zure konturako sarbidea berreskuratu ahal izango duzula ziurtatzeko, gailua galduz gero, idatzi gordetako babeskopiarako autentifikazio-kodeetako bat.
-inline-recovery-2fa-enabled = Bi urratseko autentifikazioa gaituta
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

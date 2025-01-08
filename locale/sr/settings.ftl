@@ -155,6 +155,9 @@ lightbulb-aria-label =
 input-password-hide = Сакриј лозинку
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Прикажи лозинку
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -352,10 +355,6 @@ dc-learn-more = Сазнајте више
 
 # DropDownAvatarMenu component
 
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Пријављени сте као</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Одјави се
 drop-down-menu-sign-out-error-2 = Жао нам је, дошло је до грешке при одјављивању
 
@@ -406,6 +405,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Због тога је толико
 flow-recovery-key-info-cta-text-v3 = Започните
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Откажи
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -591,6 +596,9 @@ recovery-key-create-page-title = Кључ за опоравак налога
 # and back to account settings
 recovery-key-create-back-button-title = Назад на подешавања
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Корак 1 од 2
@@ -639,7 +647,6 @@ tfa-incorrect-totp = Неисправан код за аутентификаци
 tfa-cannot-retrieve-code = Дошло је до проблема приликом добављања вашег кода.
 tfa-cannot-verify-code-4 = Дошло је до грешке при потврђивању вашег резервног приступног кода
 tfa-incorrect-recovery-code-1 = Неисправан резервни приступни код
-tfa-enabled = Аутентификација у два корака омогућена
 tfa-scan-this-code =
     Скенирајте овај QR код помоћу једне од <linkExternal>ових
     апликација за аутентификацију</linkExternal>.
@@ -661,10 +668,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Чувајте ове једнократне кодове на сигурном месту,
     у случају да изгубите приступ мобилном уређају.
-tfa-enter-code-to-confirm-1 =
-    Унесите један од резервних приступних кодова да
-    потврдите да сте их сачували. Требаће вам код за пријаву у случају да изгубите приступ
-    вашем мобилном уређају.
 tfa-enter-recovery-code-1 =
     .label = Унеси резервни приступни код
 
@@ -707,6 +710,9 @@ security-password-created-date = Створено { $date }
 security-not-set = Није постављено
 security-action-create = Направи
 security-set-password = Поставите лозинку да омогућите синхронизацију и безбедносне функција налога.
+
+## SubRow component
+
 
 ## Switch component
 
@@ -791,9 +797,7 @@ se-secondary-email-none = Ништа
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Аутентификација у два корака
-tfa-row-disabled-2 = Аутентификација у два корака онемогућена
 tfa-row-enabled = Омогућено
-tfa-row-not-set = Није постављено
 tfa-row-action-add = Додај
 tfa-row-action-disable = Онемогући
 tfa-row-button-refresh =
@@ -801,19 +805,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Жао нам је, дошло је до проблема при освежавању
     аутентификације у два корака.
-tfa-row-content-explain =
-    Спречите неовлашћени приступ вашем налогу
-    захтевањем јединственог кода који имате само ви.
 tfa-row-cannot-verify-session-4 = Жао нам је, дошло је до грешке при потврђивању ваше сесије
 tfa-row-disable-modal-heading = Онемогућити аутентификацију у два корака?
 tfa-row-disable-modal-confirm = Онемогући
 tfa-row-disable-modal-explain-1 =
     Нећете моћи да опозовете ову радњу. Такође,
     имате опцију за <linkExternal>замену ваших резервних приступних кодова</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Аутентификација у два корака онемогућена
 tfa-row-cannot-disable-2 = Није могуће онемогућити аутентификацију у два корака
-tfa-row-change-modal-heading-1 = Променити резервне приступне кодове?
-tfa-row-change-modal-confirm = Промени
-tfa-row-change-modal-explain = Нећете моћи да опозовете ову радњу.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1078,6 +1078,11 @@ pair-wait-for-auth-heading-text = Сада је потребно одобрењ�
 
 pair-unsupported-header = Упаривање помоћу апликације
 pair-unsupported-message = Да ли сте користили системску камеру? Морате да се упарите у оквиру { -brand-firefox } апликације.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.

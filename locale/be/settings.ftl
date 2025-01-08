@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Закрыць
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = Нешта пайшло не так. Не ўдалося адправіць новы код.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -72,9 +62,6 @@ recovery-key-pdf-download-error = На жаль, узнікла праблема
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Атрымайце больш ад { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-security-privacy =
-    .label = Навіны і абнаўленні бяспекі і прыватнасці
-# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Ранні доступ да тэставання новых прадуктаў
 
@@ -101,14 +88,6 @@ choose-what-to-sync-option-addresses =
     .label = Адрасы
 choose-what-to-sync-option-paymentmethods =
     .label = Спосабы аплаты
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Няма ў уваходных ці ў спаме? Выслаць яшчэ раз
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Назад
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -158,10 +137,17 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Скінуць пароль
 form-reset-password-with-balloon-match-error = Паролі не супадаюць
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = Гэта поле абавязковае
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -177,6 +163,10 @@ get-data-trio-copy-2 =
 get-data-trio-print-2 =
     .title = Друкаваць
     .aria-label = Друкаваць
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -198,10 +188,13 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ілюстрацыя, якая прадстаўляе ключ аднаўлення ўліковага запісу.
-lock-image-aria-label =
-    .aria-label = Ілюстрацыя замка
 lightbulb-aria-label =
     .aria-label = Ілюстрацыя, якая прадстаўляе стварэнне падказкі для сховішча.
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -209,6 +202,9 @@ lightbulb-aria-label =
 input-password-hide = Схаваць пароль
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Паказаць пароль
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -228,15 +224,6 @@ reset-pwd-link-damaged-message = У спасылцы, па якой вы пра�
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = Атрымаць новую спасылку
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
-reset-pwd-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
 
 ## LinkRememberPassword component
 
@@ -252,6 +239,9 @@ primary-email-confirmation-link-reused = Асноўны адрас электр�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Уваход у сістэму ўжо пацверджаны
 confirmation-link-reused-message = Гэта спасылка для пацвярджэння ўжо была выкарыстана, і можа выкарыстоўвацца толькі адзін раз.
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Дрэнны запыт
 
@@ -269,11 +259,12 @@ password-strength-balloon-not-email = Не ваш адрас электронн�
 password-strength-balloon-not-common = Не часта выкарыстаны пароль
 password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы — не выкарыстоўвайце паролі паўторна. Даведайцеся больш пра <LinkExternal>стварэнне надзейных пароляў</LinkExternal>.
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = Ваш пароль быў скінуты
 ready-complete-set-up-instruction = Закончыце наладку, увёўшы новы пароль на іншых вашых прыладах { -brand-firefox }.
-ready-start-browsing-button = Пачаць агляданне
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -286,6 +277,45 @@ ready-continue = Працягнуць
 sign-in-complete-header = Уваход пацверджаны
 sign-up-complete-header = Уліковы запіс пацверджаны
 primary-email-verified-header = Асноўны адрас электроннай пошты пацверджаны
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Месцы для захоўвання вашага ключа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Папка на бяспечнай прыладзе
+flow-recovery-key-download-storage-ideas-cloud = Надзейнае воблачнае сховішча
+flow-recovery-key-download-storage-ideas-print-v2 = Друкаваная фізічная копія
+flow-recovery-key-download-storage-ideas-pwd-manager = Менеджар пароляў
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Дадайце падказку, якая дапаможа знайсці ваш ключ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Гэта падказка павінна дапамагчы вам успомніць, дзе вы захавалі ключ аднаўлення ўліковага запісу. Мы можам паказаць яе вам у часе скіду пароля, каб аднавіць вашы звесткі.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Увядзіце падказку (неабавязкова)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Скончыць
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Падказка павінна змяшчаць менш за 255 знакаў.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Падказка не можа ўтрымліваць небяспечныя сімвалы унікода. Дапускаюцца толькі літары, лічбы, знакі прыпынку і сімвалы.
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -315,9 +345,6 @@ bento-menu-made-by-mozilla = Зроблена { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Усталюйце { -brand-firefox } на мабільную прыладу
-connect-another-find-fx-mobile =
-    Знайдзіце { -brand-firefox } у { -google-play } ці { -app-store } або
-    <br /><linkExternal>адпраўце спасылку для сцягвання на сваю прыладу.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -385,7 +412,6 @@ cs-sign-out-button = Выйсці
 ## Data collection section
 
 dc-heading = Збор і выкарыстанне дадзеных
-dc-subheader-2 = Дапамажыце ўдасканаліць { -product-mozilla-accounts }
 dc-subheader-content-2 = Дазволіць { -product-mozilla-accounts } адпраўляць тэхнічныя дадзеныя і інфармацыю аб узаемадзеянні ў { -brand-mozilla }.
 dc-opt-out-success-2 = Адмова пацверджана. { -product-mozilla-accounts } не будзе адпраўляць тэхнічныя дадзеныя або звесткі аб ўзаемадзеянні ў { -brand-mozilla }.
 dc-opt-in-success-2 = Дзякуй! Адпраўка гэтых дадзеных дапаможа нам палепшыць { -product-mozilla-accounts }.
@@ -395,10 +421,6 @@ dc-learn-more = Падрабязней
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Меню { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Увайшлі як: </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Выйсці
 drop-down-menu-sign-out-error-2 = На жаль, пры выхадзе ўзнікла праблема
 
@@ -427,39 +449,13 @@ flow-recovery-key-download-heading-v2 = Ключ аднаўлення ўліко
 flow-recovery-key-download-info-v2 = Гэты ключ дазваляе аднавіць вашы дадзеныя, калі вы забыліся пароль. Сцягніце яго зараз і захавайце ў памятным месцы — вы не зможаце вярнуцца на гэтую старонку пазней.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Працягнуць без сцягвання
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Месцы для захоўвання вашага ключа:
-flow-recovery-key-download-storage-ideas-folder-v2 = Папка на бяспечнай прыладзе
-flow-recovery-key-download-storage-ideas-cloud = Надзейнае воблачнае сховішча
-flow-recovery-key-download-storage-ideas-print-v2 = Друкаваная фізічная копія
-flow-recovery-key-download-storage-ideas-pwd-manager = Менеджар пароляў
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Дадайце падказку, якая дапаможа знайсці ваш ключ
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Гэта падказка павінна дапамагчы вам успомніць, дзе вы захавалі ключ аднаўлення ўліковага запісу. Мы можам паказаць яе вам у часе скіду пароля, каб аднавіць вашы звесткі.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = Увядзіце падказку (неабавязкова)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Скончыць
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Ключ аднаўлення ўліковага запісу створаны
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Падказка павінна змяшчаць менш за 255 знакаў.
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Падказка не можа ўтрымліваць небяспечныя сімвалы унікода. Дапускаюцца толькі літары, лічбы, знакі прыпынку і сімвалы.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -475,6 +471,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Вось чаму стварэнн�
 flow-recovery-key-info-cta-text-v3 = Пачаць
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Скасаваць
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -693,6 +695,9 @@ recovery-key-create-page-title = Ключ аднаўлення ўліковаг�
 # and back to account settings
 recovery-key-create-back-button-title = Вярнуцца да наладаў
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Крок 1 з 2
@@ -741,7 +746,6 @@ tfa-incorrect-totp = Няправільны код двухэтапнай аўт
 tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
 tfa-cannot-verify-code-4 = Узнікла праблема пры пацверджанні вашага рэзервовага кода аўтэнтыфікацыі
 tfa-incorrect-recovery-code-1 = Няправільны рэзервовы код аўтэнтыфікацыі
-tfa-enabled = Двухэтапная аўтарызацыя ўключана
 tfa-scan-this-code =
     Адсканіруйце гэты QR-код, выкарыстоўваючы адзну з <linkExternal>гэтых
     праграм для аўтэнтыфікацыі</linkExternal>.
@@ -763,14 +767,13 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Захоўвайце гэтыя аднаразовыя рэзервовыя коды аўтэнтыфікацыі ў бяспечным месцы,
     на выпадак, калі ў вас не будзе мабільнай прылады.
-tfa-enter-code-to-confirm-1 =
-    Увядзіце адзін з вашых рэзервовых кодаў аўтэнтыфікацыі зараз, каб
-    пацвердзіць, што вы яго захавалі. Код вам спатрэбіцца каб увайсці, калі ў вас няма доступу да вашай
-    мабільнай прылады.
 tfa-enter-recovery-code-1 =
     .label = Увядзіце рэзервовы код аўтарызацыі
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -808,6 +811,9 @@ security-action-create = Стварыць
 security-set-password = Усталюйце пароль для сінхранізацыі і выкарыстання пэўных функцый бяспекі ўліковага запісу.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Паглядзець апошнія дзеянні ўліковага запісу
+
+## SubRow component
+
 
 ## Switch component
 
@@ -892,9 +898,7 @@ se-secondary-email-none = Няма
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аўтарызацыя
-tfa-row-disabled-2 = Двухэтапная аўтарызацыя адключана
 tfa-row-enabled = Уключана
-tfa-row-not-set = Не ўстаноўлена
 tfa-row-action-add = Дадаць
 tfa-row-action-disable = Адключыць
 tfa-row-button-refresh =
@@ -902,19 +906,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     На жаль, пры абнаўленні двухэтапнай
     аўтэнтыфікацыі узнікла праблема.
-tfa-row-content-explain =
-    Забараніце ўваход іншым, запатрабаваўшы 
-    унікальны код, які ёсць толькі ў вас.
 tfa-row-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
 tfa-row-disable-modal-explain-1 =
     Вы не зможаце скасаваць гэта дзеянне. У вас таксама
     ёсць магчымасць <linkExternal>замяніць рэзервовыя коды аўтэнтыфікацыі</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Двухэтапная аўтарызацыя адключана
 tfa-row-cannot-disable-2 = Немагчыма адключыць двухэтапную аўтарызацыю
-tfa-row-change-modal-heading-1 = Змяніць рэзервовыя коды аўтэнтыфікацыі?
-tfa-row-change-modal-confirm = Змяніць
-tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -933,10 +933,6 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Умовы выкарыстанн�
 third-party-auth-options-or = Або
 continue-with-google-button = Працягнуць з { -brand-google }
 continue-with-apple-button = Працягнуць з { -brand-apple }
-
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
 
 ## Auth-server based errors that originate from backend service
 
@@ -1007,6 +1003,12 @@ cookies-disabled-enable-prompt-2 = Калі ласка, уключыце кук�
 cookies-disabled-button-try-again = Паспрабаваць зноў
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Падрабязней
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1188,6 +1190,11 @@ pair-wait-for-auth-heading-text = Цяпер патрэбна пацвярджэ
 pair-unsupported-header = Спарванне з дапамогай праграмы
 pair-unsupported-message = Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы { -brand-firefox }.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1195,76 +1202,16 @@ third-party-auth-callback-message = Калі ласка, пачакайце, в�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу, <span>каб перайсці да налад уліковага запісу</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу, <span>каб перайсці да { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Калі ласка, увядзіце аднаразовы ключ аднаўлення ўліковага запісу, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да свайго { -product-mozilla-account }.
-account-recovery-confirm-key-warning-message = <span>Заўвага:</span> Калі вы скінеце пароль, але не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер звесткі, такія як гісторыя і закладкі).
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = Увядзіце ключ аднаўлення ўліковага запісу
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = Пацвердзіце ключ аднаўлення ўліковага запісу
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = У вас няма ключа аднаўлення ўліковага запісу?
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = Стварыць новы пароль
-account-restored-success-message = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = Пароль усталяваны
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = Узнікла нечаканая памылка
-account-recovery-reset-password-redirecting = Перанакіраванне
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = Стварыць новы пароль
-complete-reset-password-warning-message-2 = <span>Памятайце:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { -product-pocket } таксама не будуць закранутыя.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль усталяваны
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = На жаль, падчас усталявання вашага пароля узнікла праблема
-complete-reset-password-recovery-key-error-v2 = На жаль, узнікла праблема пры праверцы, ці ёсць у вас ключ аднаўлення ўліковага запісу.
-complete-reset-password-recovery-key-link = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу.
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Ліст для скіду пароля дасланы
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Прайдзіце па спасылцы, дасланай на { $email }, на працягу наступнай гадзіны, каб стварыць новы пароль.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Скіньце пароль, <span>каб перайсці да налад уліковага запісу</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
-reset-password-warning-message-2 = <span>Заўвага:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { -product-pocket } таксама не будуць закранутыя.
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = Электронная пошта
-reset-password-button = Пачаць скід
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Электронная пошта абавязковая
-reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
-reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
-reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
 
 ## Confirm Reset Password With Code
 
@@ -1276,11 +1223,19 @@ confirm-reset-password-otp-resend-code-button = Паўторна адправі�
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Выкарыстаць іншы уліковы запіс
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = Скінуць пароль
 password-reset-email-input =
     .label = Увядзіце сваю электронную пошту
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Ваш пароль быў скінуты
+reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
 
 ## CompleteSignin component
 
@@ -1322,20 +1277,18 @@ signin-bounced-help = Калі гэта сапраўдны адрас элект
 signin-bounced-create-new-account = Больш не валодаеце гэтым адрасам? Стварыце новы ўліковы запіс
 back = Назад
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Увядзіце рэзервовы код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Увядзіце рэзервовы код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
-signin-recovery-code-instruction = Калі ласка, увядзіце рэзервовы код аўтарызацыі, які быў прадстаўлены вам у часе наладжвання двухэтапнай аўтарызацыі.
-signin-recovery-code-input-label = Увядзіце 10-значны рэзервовы код аўтарызацыі
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Сцвердзіць
 # Link to return to signin with two-step authentication code
@@ -1374,15 +1327,6 @@ signin-token-code-required-error = Патрэбен код пацвярджэн�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Увядзіце код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Увядзіце код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
-signin-totp-code-instruction-v2 = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код, які яна выдае.
-signin-totp-code-input-label-v2 = Увядзіце 6-значны код
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Сцвердзіць
 signin-totp-code-other-account-link = Выкарыстаць іншы уліковы запіс
@@ -1428,9 +1372,6 @@ confirm-signup-code-is-required-error = Патрабуецца код пацвя
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Усталюйце пароль
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = Навошта мне ствараць гэты ўліковы запіс? <LinkExternal>Даведайцеся тут</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змяніць адрас электроннай пошты
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)

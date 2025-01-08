@@ -11,12 +11,6 @@ app-footer-terms-of-service = Taq Rojqanem Samaj
 
 ## FxA React - Strings shared between multiple FxA products for application page title
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
@@ -30,5 +24,3 @@ app-loading-spinner-aria-label-loading = Nisamäj…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
-app-logo-alt =
-    .alt = { -brand-firefox } wachib'äl

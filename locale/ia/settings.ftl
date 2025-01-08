@@ -561,10 +561,6 @@ dc-learn-more = Pro saper plus
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu de { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>In session como</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Clauder session
 drop-down-menu-sign-out-error-2 = Desolate, problema durante tu disconnexion
 
@@ -615,6 +611,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Ecce perque le creation del un clav
 flow-recovery-key-info-cta-text-v3 = Comenciar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancellar
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -831,6 +833,9 @@ recovery-key-create-page-title = Clave de recuperation del conto
 # and back to account settings
 recovery-key-create-back-button-title = Retornar al configuration
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Passo 1de 2
@@ -883,7 +888,6 @@ tfa-incorrect-totp = Codice de authentication a duo passos non correcte
 tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
 tfa-cannot-verify-code-4 = Il habeva un problema al confirmation de tu codice de authentication de reserva
 tfa-incorrect-recovery-code-1 = Codice de authentication de reserva non correcte
-tfa-enabled = Authentication a duo-grados activate
 tfa-scan-this-code =
     Scanna iste codice QR usante un de <linkExternal>iste
     applicationes de authentication</linkExternal>.
@@ -1093,8 +1097,6 @@ tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
 tfa-row-enabled-description = Tu conto es protegite per authentication a duo passos. Tu debera inserer un codice de accesso una tantum ab tu app de authentication quando tu accede in tu { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Adjuta assecurar tu conto per un <linkExternal>app de authentication de tertie-parte</linkExternal> como secunde passo pro aperir session.
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
@@ -1265,7 +1267,6 @@ inline-recovery-confirmation-header-default = Confirma le codice authentication 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirma le codice authentication del reserva <span>pro continuar a { $serviceName }</span>
-inline-recovery-2fa-enabled = Authentication a duo passos activate
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

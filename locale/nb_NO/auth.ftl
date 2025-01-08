@@ -285,20 +285,8 @@ passwordChangeRequired-different-password-plaintext = Viktig: Velg et annet pass
 password-forgot-otp-subject = Glemt passord ditt?
 password-forgot-otp-title = Glemt passord ditt?
 password-forgot-otp-request = Vi mottok en forespørsel om passordendring på din { -product-mozilla-account } fra:
-password-forgot-otp-code = Hvis ja, her er bekreftelseskoden for å fortsette:
 password-forgot-otp-expiry-notice = Denne koden utløper om 10 minutter.
-passwordReset-subject = Passord oppdatert
-passwordReset-title = Kontopassordet ditt ble endret
-passwordReset-description = Du må skrive inn det nye passordet ditt på andre enheter for å fortsette synkroniseringen.
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
-passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Du brukte din kontogjenopprettingsnøkkel til å oppdatere passordet ditt fra:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Opprett kontogjenopprettingsnøkkel
-passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
 postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel opprettet
 postAddAccountRecovery-title2 = Du opprettet en ny kontogjenopprettingsnøkkel
 # Key here refers to account recovery key

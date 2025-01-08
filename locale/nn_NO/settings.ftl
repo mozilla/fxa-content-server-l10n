@@ -277,6 +277,9 @@ input-password-show-aria-2 = Passordet ditt er skjult akkurat no.
 input-password-sr-only-now-visible = Passordet ditt er no synleg på skjermen.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Passordet ditt er no skjult.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbake
 
@@ -498,10 +501,6 @@ dc-learn-more = Les meir
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-meny
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Logga inn som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logg ut
 drop-down-menu-sign-out-error-2 = Beklagar, det oppstod eit problem med å logge deg ut
 
@@ -550,6 +549,12 @@ flow-recovery-key-info-shield-bullet-point-v2 = Vi krypterer nettlesingsdata –
 flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Avbryt
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -740,6 +745,9 @@ recovery-key-create-page-title = Kontogjenopprettingsnøkkel
 # and back to account settings
 recovery-key-create-back-button-title = Tilbake til innstillingar
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Steg 1 av 2
@@ -779,7 +787,6 @@ tfa-button-continue = Hald fram
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
 tfa-incorrect-totp = Feil tostegs-godkjenningskode
-tfa-enabled = Tostegs-godkjenning aktivert
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -852,6 +859,9 @@ security-recent-activity-link = Vis nyleg kontoaktivitet
 signout-sync-header = Økta har gått ut
 signout-sync-session-expired = Noko gjekk diverre gale. Logg ut frå nettlesaren og prøv på nytt.
 
+## SubRow component
+
+
 ## Switch component
 
 # Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
@@ -921,9 +931,7 @@ se-secondary-email-none = Ingen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tostegs-godkjenning
-tfa-row-disabled-2 = Tostegs-godkjenning deaktivert
 tfa-row-enabled = Aktivert
-tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-button-refresh =
@@ -931,15 +939,11 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Diverre oppstod eit problem med å oppdatere
     tostegs-godkjenning.
-tfa-row-content-explain =
-    Hinder nokon annan i å logge på, ved å krevje ein
-    unik kode berre du har tilgang til.
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Tostegs-godkjenning deaktivert
 tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-godkjenning.
-tfa-row-change-modal-heading-1 = Endre reserve-godkjenningskodar?
-tfa-row-change-modal-confirm = Endre
-tfa-row-change-modal-explain = Du vil ikkje kunne angre denne handlinga.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1070,7 +1074,6 @@ inline-recovery-cancel-setup = Avbryt konfigurasjon
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-godkjenningskode
 inline-recovery-confirmation-description = For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine.
-inline-recovery-2fa-enabled = Tostegs-godkjenning aktivert
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

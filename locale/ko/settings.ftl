@@ -209,14 +209,11 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = 경고
 authenticator-app-aria-label =
     .aria-label = 인증기 애플리케이션
-backup-codes-icon-aria-label =
-    .aria-label = 백업 코드 활성화됨
-backup-codes-disabled-icon-aria-label =
-    .aria-label = 백업 코드 비활성화됨
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = 복구 SMS 활성화됨
@@ -307,6 +304,9 @@ input-password-show-aria-2 = 비밀번호가 현재 숨겨져 있습니다.
 input-password-sr-only-now-visible = 이제 비밀번호가 화면에 표시됩니다.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = 이제 비밀번호가 숨겨졌습니다.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 뒤로
 
@@ -544,10 +544,6 @@ dc-learn-more = 자세히 알아보기
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } 메뉴
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <user>{ $user }</user> <signin>로그인 됨</signin>
 drop-down-menu-sign-out = 로그아웃
 drop-down-menu-sign-out-error-2 = 로그아웃 중 문제가 발생했습니다.
 
@@ -598,6 +594,12 @@ flow-recovery-key-info-key-bullet-point-v2 = 그렇기 때문에 계정 복구 �
 flow-recovery-key-info-cta-text-v3 = 시작
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 취소
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -816,6 +818,9 @@ recovery-key-create-page-title = 계정 복구 키
 # and back to account settings
 recovery-key-create-back-button-title = 설정으로 돌아가기
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2단계 중 1단계
@@ -868,7 +873,6 @@ tfa-incorrect-totp = 잘못된 2단계 인증 코드
 tfa-cannot-retrieve-code = 코드를 복원하는 데 문제가 발생했습니다.
 tfa-cannot-verify-code-4 = 백업 인증코드 확인 중에 문제가 발생했습니다.
 tfa-incorrect-recovery-code-1 = 잘못된 백업 인증 코드
-tfa-enabled = 2단계 인증 활성화됨
 tfa-scan-this-code =
     <linkExternal>인증 앱 중 하나</linkExternal>를 사용하여
     QR 코드를 스캔하세요.
@@ -888,9 +892,6 @@ tfa-enter-totp-v2 = 이제 인증 앱에서 인증 코드를 입력하세요.
 tfa-input-enter-totp-v2 =
     .label = 인증 코드를 입력하세요
 tfa-save-these-codes-1 = 모바일 기기가 없을 때를 대비해 일회용 백업 인증 코드를 안전한 곳에 보관하세요.
-tfa-enter-code-to-confirm-1 =
-    백업 인증 코드 중 하나를 지금 입력하여
-    저장했는지 확인하세요. 모바일 기기에 접근할 수 없는 경우 로그인하려면 코드가 필요합니다.
 tfa-enter-recovery-code-1 =
     .label = 백업 인증 코드를 입력하세요
 
@@ -945,6 +946,9 @@ security-set-password = 특정 계정 보안 기능을 사용하고 동기화하
 security-recent-activity-link = 최근 계정 활동 보기
 signout-sync-header = 세션이 만료됨
 signout-sync-session-expired = 죄송합니다. 오류가 발생했습니다. 브라우저 메뉴에서 로그아웃하고 다시 시도하세요.
+
+## SubRow component
+
 
 ## Switch component
 
@@ -1029,9 +1033,7 @@ se-secondary-email-none = 없음
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 2단계 인증
-tfa-row-disabled-2 = 2단계 인증 비활성화됨
 tfa-row-enabled = 활성화됨
-tfa-row-not-set = 설정되지 않음
 tfa-row-action-add = 추가
 tfa-row-action-disable = 비활성화
 tfa-row-button-refresh =
@@ -1039,19 +1041,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     죄송합니다. 2단계 인증을 새로고침하는 중에 문제가
     발생했습니다.
-tfa-row-content-explain =
-    당신만이 접근할 수 있는 고유 코드를 필요로 하여
-    다른 사람이 로그인하는 것을 방지합니다.
 tfa-row-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 tfa-row-disable-modal-heading = 2단계 인증을 비활성화하시겠습니까?
 tfa-row-disable-modal-confirm = 비활성화
 tfa-row-disable-modal-explain-1 =
     이 작업은 되돌릴 수 없습니다.
     <linkExternal>백업 인증 코드를 바꾸는</linkExternal> 옵션도 있습니다.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = 2단계 인증 비활성화됨
 tfa-row-cannot-disable-2 = 2단계 인증을 비활성화할 수 없습니다.
-tfa-row-change-modal-heading-1 = 백업 인증 코드를 변경하시겠습니까?
-tfa-row-change-modal-confirm = 변경
-tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1210,7 +1208,6 @@ inline-recovery-confirmation-header-default = <span>계정 설정을 계속하�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } 서비스를 계속하려면</span> 백업 인증 코드를 확인하세요.
-inline-recovery-2fa-enabled = 2단계 인증 활성화됨
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

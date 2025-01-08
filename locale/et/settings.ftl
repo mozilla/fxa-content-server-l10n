@@ -2,18 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
-## Used to show success, error or info messages
+
+
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -28,34 +36,86 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+
 ## FormPasswordWithBalloons
+
+
+## FormPasswordInlineCriteria
+
+
+## FormVerifyCode
+
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Peida parool
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Kuva parooli
-input-password-hide-aria = Peida parool ekraanilt.
-input-password-show-aria = Kuva parool lihttekstina. Sinu parool on ekraanil nähtav.
+
+## Phone number component
 
 
 ## LinkDamaged component
 
+
 ## LinkExpired component
+
 
 ## LinkRememberPassword component
 
+
 ## LinkUsed component
+
+
+## Notification Promo Banner component
+
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+
 ## PasswordStrengthBalloon component
 
+
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -70,23 +130,16 @@ avatar-default-avatar =
 
 ##
 
-# BentoMenu component
 
-bento-menu-title = { -brand-firefox }i Bento menüü
-bento-menu-firefox-title = { -brand-firefox } on tehnoloogia, mis võitleb sinu võrguprivaatsuse eest.
+# BentoMenu component
 
 bento-menu-firefox-desktop = { -brand-firefox }i brauser töölauale
 bento-menu-firefox-mobile = { -brand-firefox }i brauser mobiilile
-
 bento-menu-made-by-mozilla = Loodud { -brand-mozilla } poolt
 
 ## Connect another device promo
 
 connect-another-fx-mobile = Hangi { -brand-firefox } mobiilile või tahvlile
-connect-another-find-fx-mobile =
-    Leia { -brand-firefox } { -google-play }st ja { -app-store }'ist või 
-    <br /><linkExternal>saada allalaadimise link oma seadmesse</linkExternal>.
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -95,6 +148,7 @@ connect-another-app-store-image-2 =
     .title = Laadi { -brand-firefox } alla { -app-store }'ist
 
 ##
+
 
 ## Connected services section
 
@@ -106,23 +160,21 @@ cs-cannot-refresh =
 cs-cannot-disconnect = Klienti ei leitud, polnud võimalik ühendust katkestada
 # This string is used in a notification message near the top of the page.
 # Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
+#   $service (String) - the name of a device or service that uses Mozilla accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Välja logitud teenusest { $service }
-
 cs-refresh-button =
     .title = Uuenda ühendatud seadmete nimekirja
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuduvad või topeltkirjed?
-
 cs-disconnect-sync-heading = Ühenda Syncist lahti
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
 ## Variables:
-##   $device (String) - the name of a device using Firefox Accounts
+##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -138,54 +190,57 @@ cs-disconnect-sync-opt-not-say = ei soovi öelda
 
 cs-disconnect-advice-confirm = Olgu, sain aru
 cs-disconnect-lost-advice-heading = Kaotatud või varastatud seade on lahti ühendatud
-cs-disconnect-lost-advice-content-2 =
-    Kuna sinu seade läks kaduma või varastati,
-    siis peaksid oma andmete turvalisuse nimel muutma konto { -product-firefox-account } parooli
-    oma konto sätetes. Samuti peaksid otsima oma seadme tootjalt teavet, mis aitab seadme sisu
-    kaugelt kustutada.
 cs-disconnect-suspicious-advice-heading = Kahtlane seade on lahti ühendatud
-cs-disconnect-suspicious-advice-content =
-    Kui lahti ühendatud seade oli tõepoolest kahtlane,
-    siis peaksid oma andmete turvalisuse nimel muutma konto { -product-firefox-account } parooli
-    oma konto sätetes. Samuti peaksid muutma kõik teised paroolid, mille oled { -brand-firefox }i
-    salvestanud. Seda saab teha sisestades aadressiribale about:logins.
-
 cs-sign-out-button = Logi välja
 
 ##
 
+
 ## Data collection section
 
 dc-heading = Andmete kogumine ja kasutamine
-dc-subheader = Aita teenust { -product-firefox-accounts } paremaks teha
-dc-subheader-content = Teenusel { -product-firefox-accounts } lubatakse saata tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
-dc-opt-out-success = Loobumine õnnestus. Teenus { -product-firefox-accounts } ei saada enam tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
-dc-opt-in-success = Täname! Nende andmete jagamine aitab meil teenust { -product-firefox-accounts } paremaks teha.
 dc-opt-in-out-error-2 = Vabandust, kahjuks esines andmete kogumise eelistuste muutmisel probleem
 dc-learn-more = Rohkem teavet
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Teenuse { -product-firefox-account } menüü
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Sisse logitud kasutajana</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logi välja
-
 drop-down-menu-sign-out-error-2 = Vabandust, väljalogimisel esines probleem
 
 ## Flow Container
 
 flow-container-back = Tagasi
 
-# HeaderLockup component
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Sulge menüü
 header-menu-closed = Saidi navigeerimismenüü
 header-back-to-top-link =
     .title = Tagasi üles
-header-title = Firefoxi konto
 header-help = Abi
 
 ## Linked Accounts section
@@ -198,7 +253,7 @@ la-unlink-heading = Katkesta ühendus kolmanda osapoole kontoga
 la-unlink-content-3 = Kas oled kindel, et soovid kontoga ühenduse katkestada? Konto lahti ühendamine ei logi sind automaatselt ühendatud teenustest välja.Välja logimiseks pead sa seda tegema ühendatud teenuste sektsioonis käsitsi.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Sulge
 modal-cancel-button = Loobu
@@ -254,11 +309,11 @@ avatar-page-image-too-large-error-2 = Pildifaili suurus on üleslaadimiseks liig
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Parooli muutmine
-
 pw-8-chars = Vähemalt 8 tähemärki
 pw-not-email = Pole sinu e-posti aadress
 pw-change-must-match = Uus parool ja selle kinnitus ühtivad
@@ -268,84 +323,73 @@ pw-tips = Ole turvaline — ära taaskasuta paroole. Vaata rohkem näpunäiteid 
 pw-change-cancel-button = Loobu
 pw-change-save-button = Salvesta
 pw-change-forgot-password-link = Unustasid parooli?
-
 pw-change-current-password =
     .label = Sisesta praegune parool
 pw-change-new-password =
     .label = Sisesta uus parool
 pw-change-confirm-password =
     .label = Kinnita parool
-
 pw-change-success-alert-2 = Parool uuendatud
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Parooli määramine
-
 pw-create-success-alert-2 = Parool on muudetud
 pw-create-error-2 = Vabandust, parooli määramisel esines probleem
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Kustuta konto
-
 delete-account-step-1-2 = Samm 1 2st
 delete-account-step-2-2 = Samm 2 2st
-
 delete-account-acknowledge = Kinnita, et oma konto kustutamisega:
-
 delete-account-chk-box-2 =
     .label = Võid kaotada salvestatud andmed ja funktsionaalsuse { -brand-mozilla } teenustes
 delete-account-chk-box-3 =
     .label = Taasaktiveerimine selle e-posti aadressiga ei pruugi taastada sinu salvestatud andmeid
 delete-account-chk-box-4 =
     .label = Kõik sinu poolt saidil addons.mozilla.org avalikustatud laiendused ja teemad kustutatakse
-
-
 delete-account-continue-button = Jätka
-
 delete-account-password-input =
     .label = Sisesta parool
-
 delete-account-cancel-button = Loobu
 delete-account-delete-button-2 = Kustuta
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Kuvatav nimi
-
 display-name-input =
     .label = Sisesta kuvatav nimi
 submit-display-name = Salvesta
 cancel-display-name = Loobu
-
 display-name-update-error-2 = Kuvatava nime uuendamisel esines probleem
-
 display-name-success-alert-2 = Kuvatav nimi on uuendatud
 
 ##
 
-## Recent Activity
+
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 
-# Account recovery key setup page
+## PageRecoveryKeyCreate
 
-recovery-key-cancel-button = Loobu
-recovery-key-close-button = Sulge
-recovery-key-continue-button = Jätka
-recovery-key-enter-password =
-    .label = Sisesta parool
-recovery-key-step-1 = Samm 1 2st
-recovery-key-step-2 = Samm 2 2st
+
+## PageSetupRecoveryPhone
+
 
 ## Add secondary email page
 
@@ -377,21 +421,15 @@ delete-account-link = Kustuta konto
 ## Two Step Authentication
 
 tfa-title = Kaheastmeline autentimine
-
 tfa-step-1-3 = Samm 1 3st
 tfa-step-2-3 = Samm 2 3st
 tfa-step-3-3 = Samm 3 3st
-
 tfa-button-continue = Jätka
 tfa-button-cancel = Loobu
 tfa-button-finish = Lõpeta
-
 tfa-incorrect-totp = Vale kaheastmelise autentimise kood
 tfa-cannot-retrieve-code = Sinu koodi hankimisel esines probleem.
-tfa-enabled = Kaheastmeline autentimine lubati
-
 tfa-scan-this-code = Skanni see QR-kood, kasutades <linkExternal>üht neist autentimisäppidest</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -400,15 +438,14 @@ tfa-qa-code-alt = Toetatud rakendustes kaheastmelise autentimise seadistamiseks 
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Pole võimalik koodi skannida?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Sisesta see turvakood oma autentimisäppi:
 
-tfa-enter-totp = Nüüd sisesta autentimisäpis kuvatav turvakood.
-tfa-input-enter-totp =
-    .label = Sisesta turvakood
-
 ##
+
+
+## Product promotion
+
 
 ## Profile section
 
@@ -422,6 +459,10 @@ profile-primary-email =
 
 ##
 
+
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Turvalisus
@@ -434,6 +475,9 @@ security-password-created-date = Loodud { $date }
 security-not-set = Pole määratud
 security-action-create = Loo
 security-set-password = Sünkroniseerimiseks ja teatud konto turvafunktsioonide kasutamiseks määra parool.
+
+## SubRow component
+
 
 ## Switch component
 
@@ -493,33 +537,31 @@ se-secondary-email-none = Puudub
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kaheastmeline autentimine
-tfa-row-disabled-2 = Kaheastmeline autentimine keelati
 tfa-row-enabled = Lubatud
-tfa-row-not-set = Pole määratud
 tfa-row-action-add = Lisa
 tfa-row-action-disable = Keela
-
 tfa-row-button-refresh =
     .title = Uuenda kaheastmelist autentmist
 tfa-row-cannot-refresh =
     Vabandust, kaheastmelise autentimise uuendamisel
     esines probleem.
-tfa-row-content-explain =
-    Takista teiste sisselogimine, nõudes unikaalset koodi, millele
-    ainult sinul on ligipääs.
-
 tfa-row-disable-modal-heading = Kas keelata kaheastmeline autentimine?
 tfa-row-disable-modal-confirm = Keela
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Kaheastmeline autentimine keelati
 tfa-row-cannot-disable-2 = Kaheastmelist autentimist polnud võimalik keelata
-
-tfa-row-change-modal-confirm = Muuda
-tfa-row-change-modal-explain = Seda tegevust ei saa tagasi võtta.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
+
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -528,103 +570,164 @@ auth-error-103 = Vigane parool
 auth-error-110 = Vigane turvatõend
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Proovisid liiga palju. Proovi uuesti { $retryAfter }.
 auth-error-139 = Teine e-posti aadress peab erinema konto peamisest e-posti aadressist.
 auth-error-155 = TOTP-turvatõendit ei leitud
 auth-error-1008 = Vana ja uus parool peavad erinema
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+
 ## Connect Another Device page
+
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+
 ## AuthAllow page - Part of the device pairing flow
 
+
 ## PairAuthComplete page - part of the device pairing flow
+
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairFailure - a view which displays on failure of the device pairing process
+
 
 ## Pair index page
 
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
+
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 
-## Account recovery reset password page
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-## Confirm Reset Password Component
 
-## ResetPassword page
+## Confirm Reset Password With Code
+
+
+## PasswordResetConfirmTotp Page
+
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
+
 
 ## CompleteSignin component
 
-## ConfirmSignin component
 
 ## Signin page
+
+
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
+
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

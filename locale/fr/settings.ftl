@@ -1518,6 +1518,7 @@ confirm-totp-reset-password-instruction-v2 = Consultez votre <strong>application
 confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
 confirm-totp-reset-password-confirm-button = Confirmer
 confirm-totp-reset-password-input-label-v2 = Saisissez le code à 6 chiffres
+confirm-totp-reset-password-use-different-account = Utiliser un autre { -product-mozilla-account }
 confirm-recovery-code-reset-password-input-label = Saisissez le code de 10 caractères
 confirm-recovery-code-reset-password-trouble-code = Retour
 

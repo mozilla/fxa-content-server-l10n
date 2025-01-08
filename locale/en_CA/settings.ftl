@@ -557,10 +557,6 @@ dc-learn-more = Learn more
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } menu
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Signed in as</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Sign out
 drop-down-menu-sign-out-error-2 = Sorry, there was a problem signing you out
 
@@ -611,6 +607,12 @@ flow-recovery-key-info-key-bullet-point-v2 = That’s why creating an account re
 flow-recovery-key-info-cta-text-v3 = Get started
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancel
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -830,6 +832,9 @@ recovery-key-create-page-title = Account Recovery Key
 # and back to account settings
 recovery-key-create-back-button-title = Back to settings
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Step 1 of 2
@@ -882,7 +887,6 @@ tfa-incorrect-totp = Incorrect two-step authentication code
 tfa-cannot-retrieve-code = There was a problem retrieving your code.
 tfa-cannot-verify-code-4 = There was a problem confirming your backup authentication code
 tfa-incorrect-recovery-code-1 = Incorrect backup authentication code
-tfa-enabled = Two-step authentication enabled
 tfa-scan-this-code = Scan this QR code using one of <linkExternal>these authentication apps</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1086,8 +1090,6 @@ tfa-row-button-refresh =
     .title = Refresh two-step authentication
 tfa-row-cannot-refresh = Sorry, there was a problem refreshing two-step authentication.
 tfa-row-enabled-description = Your account is protected by two-step authentication. You will need to enter a one-time passcode from your authentication app when logging into your { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Help secure your account by using a <linkExternal>third-party authenticator app</linkExternal> as a second step to sign in.
 tfa-row-cannot-verify-session-4 = Sorry, there was a problem confirming your session
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
@@ -1257,7 +1259,6 @@ inline-recovery-confirmation-header-default = Confirm backup authentication code
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirm backup authentication code <span>to continue to { $serviceName }</span>
-inline-recovery-2fa-enabled = Two-step authentication enabled
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

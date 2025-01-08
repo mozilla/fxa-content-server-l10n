@@ -4,7 +4,6 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
 
 ## Brand Messaging component
@@ -24,10 +23,6 @@
 ## Checklist of services/information that can be synced across signed in devices
 
 
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -45,7 +40,14 @@ datablock-print =
 ## FormPasswordWithBalloons
 
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
+
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
 
 # GetDataTrio component, part of Account Recovery Key flow
@@ -55,6 +57,15 @@ datablock-print =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+
 ## Input Password
 
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
@@ -62,19 +73,22 @@ input-password-hide = Amaga la contrasenya
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Mostra la contrasenya
 
+## Phone number component
+
+
 ## LinkDamaged component
 
 
 ## LinkExpired component
 
 
-## LinkExpiredResetPassword component
-
-
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
+
+
+## Notification Promo Banner component
 
 
 ## PasswordInfoBalloon
@@ -84,7 +98,23 @@ input-password-show = Mostra la contrasenya
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
 
 
 ## Alert Bar
@@ -163,10 +193,6 @@ cs-sign-out-button = Tanca la sessió
 
 # DropDownAvatarMenu component
 
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Heu iniciat la sessió com a</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Tanca la sessió
 
 ## Flow Container
@@ -184,11 +210,17 @@ flow-container-back = Enrere
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
 
 
 ## HeaderLockup component, the header in account settings
@@ -342,6 +374,9 @@ display-name-success-alert-2 = S'ha actualitzat el nom a mostrar
 ## PageRecoveryKeyCreate
 
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-error-2 = S'ha produït un problema en crear aquesta adreça electrònica
@@ -378,7 +413,6 @@ tfa-button-cancel = Cancel·la
 tfa-button-finish = Finalitza
 tfa-incorrect-totp = El codi d'autenticació en dos passos és incorrecte
 tfa-cannot-retrieve-code = S'ha produït un problema en recuperar el vostre codi.
-tfa-enabled = S'ha activat l'autenticació en dos passos
 tfa-scan-this-code = Escanegeu aquest codi QR utilitzant una d'<linkExternal>aquestes aplicacions d'autenticació</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -390,6 +424,9 @@ tfa-button-cant-scan-qr = No podeu escanejar el codi?
 tfa-enter-secret-key = Introduïu aquesta clau secreta a la vostra aplicació d'autenticació:
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -413,6 +450,9 @@ profile-primary-email =
 security-heading = Seguretat
 security-not-set = No s'ha definit
 security-action-create = Crea
+
+## SubRow component
+
 
 ## Switch component
 
@@ -455,17 +495,13 @@ se-default-content = Accediu al compte si no podeu iniciar la sessió amb l'adre
 
 tfa-row-header = Autenticació en dos passos
 tfa-row-enabled = Activada
-tfa-row-not-set = No definida
 tfa-row-action-add = Afegeix
 tfa-row-action-disable = Desactiva
 tfa-row-button-refresh =
     .title = Actualitza l'autenticació en dos passos
 tfa-row-cannot-refresh = S'ha produït un error en actualitzar la verificació en dos passos.
-tfa-row-content-explain = Impediu que altres persones iniciïn la sessió demanant un codi únic que no conegui ningú altre.
 tfa-row-disable-modal-heading = Voleu desactivar l'autenticació en dos passos?
 tfa-row-disable-modal-confirm = Desactiva
-tfa-row-change-modal-confirm = Canvia
-tfa-row-change-modal-explain = Aquesta acció no es pot desfer.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -473,10 +509,6 @@ tfa-row-change-modal-explain = Aquesta acció no es pot desfer.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
-
-
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
 
 
 ## Auth-server based errors that originate from backend service
@@ -498,6 +530,12 @@ connect-another-device-not-now-link = Ara no
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
 
 
 ## InlineRecoverySetup page
@@ -559,6 +597,11 @@ pair-not-now-button = Ara no
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -566,23 +609,20 @@ pair-not-now-button = Ara no
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
-
-
-## Confirm Reset Password Component
-
-
-## ResetPassword page
 
 
 ## Confirm Reset Password With Code
 
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component
@@ -595,6 +635,13 @@ pair-not-now-button = Ara no
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
 
 
 ## SigninRecoveryCode page

@@ -272,18 +272,7 @@ passwordChangeRequired-different-password-plaintext = Важна: Выберыц
 password-forgot-otp-subject = Забылі свой пароль?
 password-forgot-otp-title = Забылі свой пароль?
 password-forgot-otp-request = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
-passwordReset-subject = Пароль абноўлены
-passwordReset-title = Пароль вашага ўліковага запісу быў зменены
-passwordReset-description = Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю.
 passwordResetAccountRecovery-subject-2 = Ваш пароль быў скінуты
-passwordResetAccountRecovery-title-2 = Пароль паспяхова скінуты
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Вы выкарысталі ключ аднаўлення ўліковага запісу, каб абнавіць свой пароль з:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = Стварыць ключ аднаўлення ўліковага запісу
-passwordResetAccountRecovery-regen-required-mjml-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі:
 postAddAccountRecovery-subject-3 = Створаны новы ключ аднаўлення ўліковага запісу
 postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
 # Key here refers to account recovery key

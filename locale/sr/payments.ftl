@@ -3,35 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Firefox налози
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
--brand-name-paypal = PayPal
--brand-name-stripe = Stripe
--brand-name-google = Google
--brand-name-apple = Apple
--brand-name-pocket = Pocket
-
 ## Component - AppLayout
 
 settings-home = Почетна страница налога
@@ -58,11 +29,9 @@ input-error-is-required = { $label } је обавезно
 
 ## Component - Header
 
-brand-name-firefox-logo = { -brand-name-firefox } лого
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link = Већ имате { -brand-name-firefox } налог? <a>Пријавите се</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -70,7 +39,6 @@ new-user-enter-email =
     .label = Унесите вашу е-адресу
 new-user-confirm-email =
     .label = Потврди адресу е-поште
-new-user-subscribe-product-updates = Желим да примам ажурирања производа од { -brand-name-firefox }-а
 new-user-subscribe-product-assurance = Користимо само вашу е-пошту да направимо ваш налог. Никада је нећемо продати трећој страни.
 new-user-email-validate = Е-пошта није важећа
 new-user-email-validate-confirm = Е-поште се не подударају
@@ -129,7 +97,6 @@ payment-confirmation-download-button = Идите на преузимање
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Овлашћујем { -brand-name-mozilla }-у, творца { -brand-name-firefox } производа, да наплати мој начин плаћања за ове трошкове, у складу са <termsOfServiceLink>условима коришћења</termsOfServiceLink> и <privacyNoticeLink>политиком приватности</privacyNoticeLink>, док добровољно не откажем претплату.
 payment-confirm-checkbox-error = Прихватите ово да бисте наставили
 
 ## Component - PaymentErrorView
@@ -139,8 +106,6 @@ payment-error-manage-subscription-button = Управљај претплатом
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-# $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Већ имате { $productName } претплату преко { -brand-name-google } или { -brand-name-apple } продавнице.
 iap-upgrade-no-bundle-support = Сада нисмо у могућности да надоградимо на ове претплате, али радимо на томе.
 iap-upgrade-contact-support = Овај производ вам је и даље доступан — контактирајте подршку да вам помогне.
 iap-upgrade-get-help-button = Потражите помоћ
@@ -155,16 +120,10 @@ payment-cc =
 payment-cancel-btn = Откажи
 payment-update-btn = Ажурирај
 payment-pay-btn = Плати сад
-payment-pay-with-paypal-btn = Платите { -brand-name-paypal }-ом
 payment-validate-name-error = Унесите ваше име
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } користи { -brand-name-stripe } и { -brand-name-paypal } за безбедна плаћања.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } политика приватности</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } политика приватности</paypalPrivacyLink>
-payment-legal-copy-paypal = { -brand-name-mozilla } користи { -brand-name-paypal } за безбедна плаћања.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } политика приватности</paypalPrivacyLink>
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } користи { -brand-name-stripe } за безбедна плаћања.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } политика приватности</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
@@ -184,7 +143,6 @@ payment-confirmation-cc-card-ending-in = Картица завршава са { 
 
 ## Component - PayPalButton
 
-pay-with-heading-paypal = Платите { -brand-name-paypal }-ом
 
 ## Component - PlanDetails
 
@@ -434,7 +392,6 @@ coupon-success-repeating = Ваш план ће се аутоматски обн
 
 ## Routes - Checkout - New user
 
-new-user-step-1 = 1. Направите { -brand-name-firefox } налог
 new-user-card-title = Унесите податке са картице
 new-user-submit = Претплати се
 
@@ -456,22 +413,24 @@ subscription-iaperrorupgrade-title = Још не можемо да вас над
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = Прегледајте промену
 sub-change-failed = Промена плана није успела
-sub-update-copy =
-    Ваш план ће се одмах променити и биће вам наплаћена прилагођен
-    износ за остатак циклуса наплате. Почевши од { $startingDate }
-    биће вам наплаћен пун износ.
 sub-change-submit = Потврди промене
 sub-update-current-plan-label = Тренутни план
 sub-update-new-plan-label = Нови план
 sub-update-total-label = Нови укупни износ
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -500,7 +459,6 @@ sub-route-idx-cancel-msg =
     Ваша { $name } претплата је отказана.
           <br />
           Још увек имате приступ { $name } услузи до { $date }.
-sub-route-idx-cancel-aside = Имате питања? Посетите <a>{ -brand-name-mozilla } подршку</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -523,8 +481,6 @@ pay-update-manage-btn = Управљај
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Следећи обрачун { $date }
-sub-next-bill-no-tax = Ваш следећи рачун од <strong>{ $priceAmount }</strong> доспева <strong>{ $date }</strong>
-sub-next-bill-tax = Ваш следећи рачун од <strong>{ $priceAmount } + { $taxAmount }</strong> пореза доспева <strong>{ $date }</strong>
 sub-expires-on = Истиче { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -535,7 +491,6 @@ sub-expires-on = Истиче { $date }
 pay-update-card-exp = Истиче { $expirationDate }
 sub-route-idx-updating = Ажурирам податке о плаћању…
 sub-route-payment-modal-heading = Неваћежи подаци о плаћању
-sub-route-payment-modal-message = Изгледа да је дошло до грешке са вашим { -brand-name-paypal } налогом. Морате да следите неопходне кораке да решите проблем са овом уплатом.
 sub-route-missing-billing-agreement-payment-alert = Неважећи подаци о плаћању; дошло је до грешке са вашим налогом. <div>Управљај</div>
 sub-route-funding-source-payment-alert = Неважећи подаци о плаћању; дошло је до грешке са вашим налогом. Ово упозорење се може задржати неко време након што сте успешно ажурирали своје податке. <div>Управљај</div>
 
@@ -549,7 +504,6 @@ sub-invoice-preview-error-text = Преглед рачуна није прона
 
 ## Routes - Subscriptions - Pocket Subscription
 
-manage-pocket-title = Тражите вашу { -brand-name-pocket } премијум претплату?
 manage-pocket-body-2 = Да управљате, <linkExternal>кликните овде</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
@@ -580,6 +534,4 @@ reactivate-success-button = Затвори
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: куповина у апликацији
-sub-iap-item-apple-purchase = { -brand-name-apple }: куповина у апликацији
 sub-iap-item-manage-button = Управљај

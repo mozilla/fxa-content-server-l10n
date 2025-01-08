@@ -4,7 +4,6 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
 
 ## Brand Messaging component
@@ -22,10 +21,6 @@
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
-
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
 
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
@@ -58,6 +53,10 @@ signup-new-password-label =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
@@ -66,13 +65,13 @@ signup-new-password-label =
 ## Input Password
 
 
+## Phone number component
+
+
 ## LinkDamaged component
 
 
 ## LinkExpired component
-
-
-## LinkExpiredResetPassword component
 
 
 ## LinkRememberPassword component
@@ -192,6 +191,12 @@ flow-container-back = Atrás
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
+
 ## HeaderLockup component, the header in account settings
 
 header-help = Ayuda
@@ -301,6 +306,9 @@ cancel-display-name = Encaboxar
 ## PageRecoveryKeyCreate
 
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Pasu 1 de 2
@@ -328,7 +336,6 @@ tfa-button-cancel = Encaboxar
 tfa-button-finish = Finar
 tfa-incorrect-totp = El códigu de l'autenticación en dos pasos ye incorreutu
 tfa-cannot-retrieve-code = Hebo un problema al recuperar el códigu.
-tfa-enabled = Activóse l'autenticación en dos pasos
 tfa-scan-this-code =
     Escania esti códigu QR con <linkExternal>estes
     aplicaciones d'autenticación</linkExternal>.
@@ -365,6 +372,9 @@ security-heading = Seguranza
 security-password =
     .header = Contraseña
 
+## SubRow component
+
+
 ## Switch component
 
 # Used as "title" attribute when switch has been interacted with and form is submitting
@@ -397,12 +407,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Hebo un problema al anovar l'autenticación
     en dos pasos.
-tfa-row-content-explain =
-    Impide qu'otres persones anicien la sesión pidiendo
-    un códigu únicu que namás tu conoces.
 tfa-row-disable-modal-heading = ¿Quies desactivar l'autenticación en dos pasos?
-tfa-row-change-modal-confirm = Camudar
-tfa-row-change-modal-explain = Nun vas ser a desfacer esta aición.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -492,6 +497,11 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -506,7 +516,13 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 ## Confirm Reset Password With Code
 
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component

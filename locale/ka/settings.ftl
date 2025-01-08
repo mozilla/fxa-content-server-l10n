@@ -561,10 +561,6 @@ dc-learn-more = ვრცლად
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account(case: "gen") } მენიუ
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>შემოსული, როგორც</signin><user>{ $user }</user>
 drop-down-menu-sign-out = გამოსვლა
 drop-down-menu-sign-out-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა გამოსვლისას.
 
@@ -615,6 +611,12 @@ flow-recovery-key-info-key-bullet-point-v2 = სწორედ ამიტო�
 flow-recovery-key-info-cta-text-v3 = დაიწყეთ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = გაუქმება
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -834,6 +836,9 @@ recovery-key-create-page-title = ანგარიშის აღდგენ�
 # and back to account settings
 recovery-key-create-back-button-title = პარამეტრებზე დაბრუნება
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1-ელი ნაბიჯი 2-დან
@@ -886,7 +891,6 @@ tfa-incorrect-totp = ორბიჯიანი დამოწმების 
 tfa-cannot-retrieve-code = ხარვეზი წარმოიშვა თქვენი კოდის მიღებისას.
 tfa-cannot-verify-code-4 = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების დამოწმებისას
 tfa-incorrect-recovery-code-1 = არასწორი სამარქაფო კოდი
-tfa-enabled = ორბიჯიანი დამოწმება შესვლისას ჩართულია
 tfa-scan-this-code =
     წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
     რომელიმე ამ პროგრამას</linkExternal>.
@@ -1094,8 +1098,6 @@ tfa-row-button-refresh =
     .title = ორბიჯიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
 tfa-row-enabled-description = თქვენი ანგარიში დაცულია ორბიჯიანი დამოწმებით. დაგჭირდებათ ერთჯერადი შესვლის კოდის შეყვანა დამმოწმებელი აპიდან { -product-mozilla-account(case: "loc") } შესვლისას.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = თქვენი ანგარიშის დაცვისთვის დაიხმარეთ <linkExternal>რომელიმე დამმოწმებელი პროგრამა</linkExternal> ორბიჯიანი შესვლისთვის.
 tfa-row-cannot-verify-session-4 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას
 tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
@@ -1265,7 +1267,6 @@ inline-recovery-confirmation-header-default = დაადასტურეთ 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = დაადასტურეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
-inline-recovery-2fa-enabled = ორბიჯიანი დამოწმება ჩართულია
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

@@ -559,10 +559,6 @@ dc-learn-more = Daha fazla bilgi al
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } menüsü
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <user>{ $user }</user><signin>olarak giriş yaptınız</signin>
 drop-down-menu-sign-out = Çıkış yap
 drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun oluştu
 
@@ -613,6 +609,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Bu yüzden hesap kurtarma anahtarı
 flow-recovery-key-info-cta-text-v3 = Başla
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = İptal
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -829,6 +831,9 @@ recovery-key-create-page-title = Hesap kurtarma anahtarı
 # and back to account settings
 recovery-key-create-back-button-title = Ayarlara dön
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Adım 1/2
@@ -881,7 +886,6 @@ tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
 tfa-cannot-verify-code-4 = Yedek kimlik doğrulama kodunuz onaylanırken bir sorun oluştu
 tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
-tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1079,8 +1083,6 @@ tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
 tfa-row-enabled-description = Hesabınız iki aşamalı doğrulamayla korunuyor. { -product-mozilla-account }nıza giriş yaparken kimlik doğrulama uygulamanızdan alacağınız tek kullanımlık kodu girmeniz gerekecektir.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Giriş yaparken ikinci adım olarak <linkExternal>üçüncü taraf bir kimlik doğrulama uygulaması</linkExternal> kullanarak hesabınızın güvenliğini sağlayın.
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
@@ -1248,7 +1250,6 @@ inline-recovery-confirmation-header-default = <span>Hesap ayarlarına devam etme
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
-inline-recovery-2fa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

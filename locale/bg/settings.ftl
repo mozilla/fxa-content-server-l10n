@@ -63,6 +63,9 @@
 ## Input Password
 
 
+## Phone number component
+
+
 ## LinkDamaged component
 
 
@@ -178,6 +181,12 @@ flow-recovery-key-download-next-link-v2 = Напред без изтегляне
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
+
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Затваряне на менюто
@@ -254,6 +263,9 @@ cancel-display-name = Отказ
 
 
 ## PageRecoveryKeyCreate
+
+
+## PageSetupRecoveryPhone
 
 
 ## Add secondary email page

@@ -37,7 +37,6 @@
 -product-mozilla-hubs = Mozilla Hubs
 -product-mdn-plus = MDN Plus
 -product-firefox-cloud = Firefox Cloud
--product-firefox-monitor = Firefox Monitor
 -product-firefox-relay = Firefox Relay
 -product-pocket = Pocket
 -brand-apple = Apple

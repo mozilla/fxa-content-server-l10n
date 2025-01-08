@@ -560,10 +560,6 @@ dc-learn-more = Μάθετε περισσότερα
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Μενού { -product-mozilla-account(case: "gen", capitalization: "lower") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Έγινε σύνδεση ως</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Αποσύνδεση
 drop-down-menu-sign-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αποσύνδεση
 
@@ -614,6 +610,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Αυτός είναι ο λόγος
 flow-recovery-key-info-cta-text-v3 = Έναρξη
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Ακύρωση
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -833,6 +835,9 @@ recovery-key-create-page-title = Κλειδί ανάκτησης λογαρια�
 # and back to account settings
 recovery-key-create-back-button-title = Πίσω στις ρυθμίσεις
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Βήμα 1 από 2
@@ -885,7 +890,6 @@ tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο �
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
 tfa-cannot-verify-code-4 = Προέκυψε πρόβλημα κατά την επιβεβαίωση του εφεδρικού κωδικού ταυτοποίησής σας
 tfa-incorrect-recovery-code-1 = Εσφαλμένος εφεδρικός κωδικός ταυτοποίησης
-tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 tfa-scan-this-code =
     Σαρώστε τον κωδικό QR με κάποια από <linkExternal>αυτές
     τις εφαρμογές ταυτοποίησης</linkExternal>.
@@ -1240,7 +1244,6 @@ inline-recovery-confirmation-header-default = Επιβεβαιώστε τον ε
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
-inline-recovery-2fa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

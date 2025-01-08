@@ -320,10 +320,6 @@ dc-learn-more = Saber más
 
 # DropDownAvatarMenu component
 
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Cerrar sesión
 drop-down-menu-sign-out-error-2 = Lo sentimos, hubo un problema al cerrar sesión
 
@@ -347,6 +343,12 @@ flow-container-back = Atrás
 
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
 
 
 ## HeaderLockup component, the header in account settings
@@ -523,6 +525,9 @@ recent-activity-title = Actividad reciente de la cuenta
 ## PageRecoveryKeyCreate
 
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Paso 1 de 2
@@ -571,7 +576,6 @@ tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
 tfa-cannot-verify-code-4 = Hubo un problema al confirmar tu código de autenticación de respaldo
 tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
-tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExternal>estas
     aplicaciones de autenticación</linkExternal>.

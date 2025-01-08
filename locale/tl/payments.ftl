@@ -3,25 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
-
 ## Component - AppLayout
 
 
@@ -65,6 +46,9 @@ default-input-error = Ang patlang na ito ay kinakailangan
 ## Component - PaymentProviderDetails
 
 
+## Component - PayPalButton
+
+
 ## Component - PlanDetails
 
 
@@ -104,7 +88,8 @@ insufficient-funds-error = Mukhang kulang na ang laman ng iyong card. Sumubok ng
 ## Routes - Product and Subscriptions
 
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 
 ## Routes - Product - IapRoadblock
@@ -115,6 +100,15 @@ insufficient-funds-error = Mukhang kulang na ang laman ng iyong card. Sumubok ng
 
 
 ## Routes - Product - Subscription upgrade
+
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
 
 
 ## Routes - Subscriptions - Cancel

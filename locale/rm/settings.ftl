@@ -563,10 +563,6 @@ dc-learn-more = Ulteriuras infurmaziuns
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Annunzià sco</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Sortir
 drop-down-menu-sign-out-error-2 = Perstgisa, igl ha dà in problem cun ta deconnectar
 
@@ -617,6 +613,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Perquai èsi uschè impurtant da cr
 flow-recovery-key-info-cta-text-v3 = Cumenzar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Interrumper
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -836,6 +838,9 @@ recovery-key-create-page-title = Clav da recuperaziun dal conto
 # and back to account settings
 recovery-key-create-back-button-title = Turnar als parameters
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Pass 1 da 2
@@ -888,7 +893,6 @@ tfa-incorrect-totp = Code d'autentificaziun en dus pass nuncorrect
 tfa-cannot-retrieve-code = Igl ha dà in problem cun retschaiver tes code.
 tfa-cannot-verify-code-4 = I ha dà in problem cun confermar tes code d'autentificaziun da backup
 tfa-incorrect-recovery-code-1 = Code d'autentificaziun da backup nuncorrect
-tfa-enabled = Autentificaziun en dus pass activada
 tfa-scan-this-code =
     Scannescha quest code QR cun agid dad in da <linkExternal>questas
     apps d'autentificaziun</linkExternal>.
@@ -1098,8 +1102,6 @@ tfa-row-cannot-refresh =
     Perstgisa, igl ha dà in problem cun actualisar l'autentificaziun
     en dus pass.
 tfa-row-enabled-description = Tes conto è protegì cun l’autentificaziun en dus pass. Ti vegns a stuair endatar in code d’access a diever unic da tia app d’autentificaziun cura che ti t’annunzias en tes { -product-mozilla-account }.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Protegia tes conto cun utilisar ina <linkExternal>app d’autentificaziun d’ina terza partida</linkExternal> sco segund pass durant l’annunzia.
 tfa-row-cannot-verify-session-4 = Perstgisa, igl ha dà in problem cun confermar tia sesida
 tfa-row-disable-modal-heading = Deactivar l'autentificaziun en dus pass?
 tfa-row-disable-modal-confirm = Deactivar
@@ -1269,7 +1271,6 @@ inline-recovery-confirmation-header-default = Conferma il code d'autentificaziun
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferma il code d'autentificaziun da backup per <span>cuntinuar cun { $serviceName }</span>
-inline-recovery-2fa-enabled = Autentificaziun en dus pass activada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

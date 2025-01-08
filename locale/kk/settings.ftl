@@ -561,10 +561,6 @@ dc-learn-more = Көбірек білу
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } мәзірі
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Жүйеге</signin><user>{ $user }</user> ретінде кірдіңіз
 drop-down-menu-sign-out = Шығу
 drop-down-menu-sign-out-error-2 = Кешіріңіз, жүйеден шығу кезінде мәселе туындады
 
@@ -615,6 +611,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Сондықтан тіркелгі
 flow-recovery-key-info-cta-text-v3 = Бастау
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Бас тарту
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -834,6 +836,9 @@ recovery-key-create-page-title = Тіркелгіні қалпына келті�
 # and back to account settings
 recovery-key-create-back-button-title = Баптауларға оралу
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Қадам 1, барлығы 2
@@ -886,7 +891,6 @@ tfa-incorrect-totp = Екі қадамды аутентификация коды
 tfa-cannot-retrieve-code = Кодыңызды сұрау кезінде мәселе орын алды.
 tfa-cannot-verify-code-4 = Сақтық көшірме аутентификация кодын растау кезінде мәселе орын алды
 tfa-incorrect-recovery-code-1 = Жарамсыз сақтық аутентификация коды
-tfa-enabled = Екі қадамды аутентификация іске қосылды
 tfa-scan-this-code =
     <linkExternal>осы аутентификация қолданбаларының</linkExternal>
     біреуін пайдаланып, осы QR кодын сканерлеңіз.
@@ -1252,7 +1256,6 @@ inline-recovery-confirmation-header-default = <span>Тіркелгі бапта�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын растаңыз
-inline-recovery-2fa-enabled = Екі қадамды аутентификация іске қосылды
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

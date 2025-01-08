@@ -6,30 +6,13 @@ session-verify-send-push-body-2 = Feu clic aquí per confirmar la vostra identit
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logotip del { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronitza dispositius">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositius">
 fxa-privacy-url = Política de privadesa de { -brand-mozilla }
-fxa-service-url = Condicions del servei del { -product-firefox-cloud }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotip del { -brand-firefox }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip de { -brand-mozilla }">
 subplat-automated-email = Aquest és un missatge automàtic; si l’heu rebut per error, no cal que feu res.
 subplat-privacy-notice = Avís de privadesa
 subplat-privacy-plaintext = Avís de privadesa:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-firefox-account } i us heu inscrit al { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-firefox-account }.
-subplat-explainer-multiple = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-firefox-account } i us heu subscrit a diversos productes.
-subplat-explainer-was-deleted = Heu rebut aquest missatge perquè s’ha utilitzat l’adreça { $email } per registrar un { -product-firefox-account }.
-subplat-manage-account = Gestioneu els paràmetres del { -product-firefox-account } visitant la <a data-l10n-name="subplat-account-page">pàgina del compte</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Gestioneu la configuració del vostre { -product-firefox-account } visitant aquesta pàgina: { $accountSettingsUrl }
 subplat-terms-policy = Condicions d'ús i política de cancel·lació
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel·la la subscripció
@@ -39,8 +22,6 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Actualitza la informació de facturació
 subplat-privacy-policy = Política de privadesa de { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = Condicions del servei del { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Avisos legals
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privadesa
@@ -88,9 +69,6 @@ subscriptionSupport-plaintext = Teniu dubtes sobre la vostra subscripció? El no
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSupportContact = Gràcies per subscriure-us al { $productName }. Si teniu qualsevol dubte o us cal més informació sobre el { $productName }, <a data-l10n-name="subscriptionSupportUrl">contacteu amb nosaltres</a>.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Adreça IP: { $ip }
 cadReminderFirst-action = Sincronitza un altre dispositiu
 downloadSubscription-link-action-2 = Primers passos
 # Variables:
@@ -105,7 +83,6 @@ passwordChanged-title = La contrasenya s’ha canviat correctament
 passwordChangeRequired-title = Cal que canvieu la contrasenya
 passwordChangeRequired-different-password = <b>Important:</b> Trieu una contrasenya diferent de la que utilitzàveu prèviament i assegureu-vos que sigui diferent de la del vostre compte de correu electrònic.
 passwordChangeRequired-different-password-plaintext = Important: Trieu una contrasenya diferent de la que utilitzàveu prèviament i assegureu-vos que sigui diferent de la del vostre compte de correu electrònic.
-passwordReset-title = S’ha canviat la contrasenya del compte
 postAddAccountRecovery-action = Gestiona el compte
 postAddTwoStepAuthentication-action = Gestiona el compte
 postChangePrimary-title = Adreça electrònica principal nova

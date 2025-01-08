@@ -559,10 +559,6 @@ dc-learn-more = Więcej informacji
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account(case: "gen", capitalization: "lower") }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Zalogowano jako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wyloguj się
 drop-down-menu-sign-out-error-2 = Przepraszamy, wystąpił problem z wylogowaniem
 
@@ -613,6 +609,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Dlatego tak ważne jest utworzenie 
 flow-recovery-key-info-cta-text-v3 = Zacznij teraz
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anuluj
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -832,6 +834,9 @@ recovery-key-create-page-title = Klucz odzyskiwania konta
 # and back to account settings
 recovery-key-create-back-button-title = Wróć do ustawień
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1. krok z 2
@@ -884,7 +889,6 @@ tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
 tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
 tfa-cannot-verify-code-4 = Wystąpił problem podczas potwierdzania zapasowego kodu uwierzytelniania
 tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
-tfa-enabled = Włączono uwierzytelnianie dwuetapowe
 tfa-scan-this-code =
     Zeskanuj ten kod QR za pomocą jednej
     z <linkExternal>tych aplikacji uwierzytelniania</linkExternal>.
@@ -1095,8 +1099,6 @@ tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
 tfa-row-enabled-description = Twoje konto jest chronione uwierzytelnianiem dwuetapowym. Podczas logowania do { -product-mozilla-account(case: "gen", capitalization: "lower") } będzie trzeba wpisać jednorazowy kod z aplikacji uwierzytelniającej.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Zabezpiecz swoje konto, używając <linkExternal>aplikacji uwierzytelniającej innej firmy</linkExternal> jako drugiego kroku logowania.
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
@@ -1266,7 +1268,6 @@ inline-recovery-confirmation-header-default = Potwierdź zapasowy kod uwierzytel
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potwierdź zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
-inline-recovery-2fa-enabled = Włączono uwierzytelnianie dwuetapowe
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

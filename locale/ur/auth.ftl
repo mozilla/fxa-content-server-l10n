@@ -1,6 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title = { -product-firefox-accounts } میں لاگ ان ہو رہے ہیں؟
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -28,10 +27,6 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 newDeviceLogin-action = اکاؤنٹ بندوبست کریں
 passwordChanged-title = پاس ورڈ کامیابی سے تبدیل کر دیا گیا ہے
 passwordChangeRequired-subject = مشکوک سرگرمی کا پتہ چلا ہے
-passwordChangeRequired-signoff = بہترين
-passwordReset-subject = پاس ورڈ تبدیل کر دیا گیا۔
-passwordReset-title = آپ کے اکاؤنٹ کا پاس ورڈ تبدیل کیا گیا تھا
-passwordReset-description = ہمہ وقت سازی کو دوبارہ شروع کرنے کیلئے آپ کو دوسرے آلات پر اپنا نیا پاس ورڈ درج کرنے کی ضرورت ہوگی۔
 postAddAccountRecovery-action = اکاؤنٹ بندوبست کریں
 postAddTwoStepAuthentication-action = اکاؤنٹ بندوبست کریں
 postChangePrimary-title = نئی بنیادی ای میل

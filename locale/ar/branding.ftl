@@ -2,7 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Brands used in fxa-auth-server and fxa-settings.
+
+## Brands used across fxa-auth-server, fxa-payments-server, and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
 ## - Transliterated.
@@ -17,13 +18,10 @@
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "Firefox accounts" refers to the service
 -product-firefox-accounts = حسابات Firefox
-
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" should be localized and lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = حساب Firefox
-
-# "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-

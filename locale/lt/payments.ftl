@@ -3,113 +3,151 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Branding
+## Component - AppLayout
 
 
-## General aria-label
+## Component - CouponForm
 
 
-## App error dialog
+## Component - Fields
 
 
-## Settings
+## Component - Header
 
 
-## Legal footer
+## Component - NewUserEmailForm
 
 
-## Subscription titles
+## Component - PaymentConfirmation
+
+payment-confirmation-download-button = Pereiti prie atsisiuntimo
+
+## Component - PaymentConsentCheckbox
 
 
-## $productName (String) - The name of the subscribed product.
+## Component - PaymentErrorView
+
+
+## Component - PaymentErrorView - IAP upgrade errors
+
+
+## Component - PaymentForm
+
+
+## Component - PaymentLegalBlurb
+
+
+## Component - PaymentMethodHeader
+
+
+## Component - PaymentProcessing
+
+
+## Component - PaymentProviderDetails
+
+
+## Component - PayPalButton
+
+
+## Component - PlanDetails
+
+
+## Component - PlanErrorDialog
+
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
+## Component - SubscriptionTitle
+
+
+## Component - TermsAndPrivacy
+
+
+## App-level string(s) and messages shared by multiple components or routes
+
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## Product route
+## Error messages
 
 
-## Payment legal blurb
+## Hooks - coupons
 
 
-## Payment form
+## Routes - Checkout - New user
 
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Product and Subscriptions
+
+
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
+
+
+## Routes - Product - IapRoadblock
+
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+
+## Routes - Product - Subscription upgrade
+
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
 ##
 
 
-## Subscription redirect
+## Routes - Subscriptions - Cancel
 
 
-## Fields
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
 
 
-## Subscription upgrade
+## Routes - Subscription
 
 
-##
+## Routes - Subscriptions - Errors
 
 
-## Subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Subscription - ActionButton
 
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 
-##
+## Routes - Subscription - PaymentUpdate
 
 
-## reactivate
+# $expirationDate (Date) - The payment card's expiration date.
+
+
+## Routes - Subscription - SubscriptionItem
+
+
+## Routes - Subscriptions - Pocket Subscription
+
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 
 ## $date (Date) - Last day of product access
 
 
-## Subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-
-## Subscription iap item
-
-
-## Subscription route index
-
-
-## Subscription create
-
-
-## Plan details
-
-
-## Coupons
-
-
-## Payment processing
-
-
-## Payment confirmation
-
-
-## Payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-
-## $email (string) - The user's email.
-
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-payment-confirmation-download-button = Pereiti prie atsisiuntimo
-
-## New user email form
+## Routes - Subscriptions - Subscription iap item
 

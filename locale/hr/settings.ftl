@@ -192,6 +192,7 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Upozorenje
 # Used to select Canada as country code for phone number
@@ -257,6 +258,9 @@ input-password-show-aria-2 = Tvoja je lozinka trenutačno skrivena.
 input-password-sr-only-now-visible = Tvoja je lozinka sada vidljiva na ekranu.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = Tvoja je lozinka sada skrivena.
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Natrag
 
@@ -464,10 +468,6 @@ dc-learn-more = Saznaj više
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Izbornik za { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Prijavljen/a kao</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odjava
 drop-down-menu-sign-out-error-2 = Žao nam je. Došlo je do greške prilikom odjave
 
@@ -510,6 +510,12 @@ flow-recovery-key-info-header-change-key = Promijeni ključ za obnavljanje raču
 flow-recovery-key-info-cta-text-v3 = Započni
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Odustani
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -710,6 +716,9 @@ recovery-key-create-page-title = Ključ za obnavljanje računa
 # and back to account settings
 recovery-key-create-back-button-title = Natrag na postavke
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Korak 1 od 2
@@ -755,7 +764,6 @@ tfa-button-cancel = Odustani
 tfa-button-finish = Završi
 tfa-incorrect-totp = Neispravan kôd za dvofaktorsku autentifikaciju
 tfa-cannot-retrieve-code = Došlo je do greške prilikom dohvaćanja tvog kôda.
-tfa-enabled = Dvofaktorska autentifikacija je omogućena
 tfa-scan-this-code =
     Skeniraj ovaj QR kôd pomoću jedne od <linkExternal>ovih
     aplikacija za provjeru autentičnosti</linkExternal>.
@@ -825,6 +833,9 @@ security-set-password = Postavi lozinku za sinkronizaciju i korištenje određen
 security-recent-activity-link = Pogledaj nedavnu aktivnost računa
 signout-sync-header = Sesija je istekla
 signout-sync-session-expired = Oprosti, nešto nije u redu. Odjavi se u izborniku preglednika i pokušaj ponovo.
+
+## SubRow component
+
 
 ## Switch component
 
@@ -904,21 +915,16 @@ se-secondary-email-none = Nema
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvofaktorska autentifikacija
-tfa-row-disabled-2 = Autentifikacija u dva koraka je deaktivirana
 tfa-row-enabled = Omogućeno
-tfa-row-not-set = Nije postavljeno
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogući
 tfa-row-button-refresh =
     .title = Osvježi dvofaktorsku autentifikaciju
-tfa-row-content-explain =
-    Spriječi da se netko drugi prijavi na tvoj račun tako da
-    zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Autentifikacija u dva koraka je deaktivirana
 tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva koraka
-tfa-row-change-modal-confirm = Promijeni
-tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1121,6 +1127,11 @@ pair-supp-allow-cancel-link = Odustani
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1165,7 +1176,6 @@ confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 
 confirm-totp-reset-password-header = Resetiraj tvoju lozinku
 confirm-totp-reset-password-confirm-button = Potvrdi
-confirm-totp-reset-password-input-label = Upiši kod
 confirm-totp-reset-password-use-different-account = Koristi jedan drugi račun
 
 ## ResetPassword start page
@@ -1225,7 +1235,6 @@ signin-push-code-confirm-login = Potvrdi prijavu
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-signin-recovery-code-input-label = Upiši 10-znamenkasti rezervni kod za autentifikaciju
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdi
 # Link to return to signin with two-step authentication code
@@ -1257,7 +1266,6 @@ signin-token-code-required-error = Potreban je potvrdni kod
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-input-label-v3 = Upiši kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdi
 signin-totp-code-other-account-link = Koristi jedan drugi račun

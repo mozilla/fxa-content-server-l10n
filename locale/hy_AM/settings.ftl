@@ -4,12 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = Փակել
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -48,14 +43,6 @@ choose-what-to-sync-option-addresses =
     .label = Հասցեներ
 choose-what-to-sync-option-paymentmethods =
     .label = Վճարամիջոցներ
-
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Ներբեռնման կամ լցոնի թղթապանակում չե՞ք։ Ուղարկել նորից
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = Ետ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -106,10 +93,14 @@ form-reset-password-with-balloon-submit-button = Վերակայել գաղտնա
 form-reset-password-with-balloon-match-error = Գաղտնաբառերը չեն համապատասխանում
 form-password-sr-passwords-match = Մուտքագրված գաղտնաբառերը համընկնում են:
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 
-## FormVerifyTotp
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
 
 # GetDataTrio component, part of Account Recovery Key flow
@@ -131,12 +122,24 @@ get-data-trio-print-2 =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+
 ## Input Password
 
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Թաքցնել գաղտնաբառը
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Ցուցադրել գաղտնաբառը
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Ետ
 
@@ -149,17 +152,20 @@ reset-pwd-link-damaged-header = Վերականգնված գաղտնաբառի հ
 ## LinkExpired component
 
 
-## LinkExpiredResetPassword component
-
-
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
 
 
+## Notification Promo Banner component
+
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
+
+
+## PasswordStrengthBalloon component
 
 
 ## PasswordStrengthBalloon component
@@ -171,6 +177,19 @@ ready-continue = Շարունակել
 sign-in-complete-header = Մուտք գործումը հաստատվեց
 sign-up-complete-header = Հաշիվը հաստատվեց
 primary-email-verified-header = Հիմնական էլ. փոստը հաստատվեց
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -237,11 +256,17 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
 
 
 ## HeaderLockup component, the header in account settings
@@ -300,6 +325,9 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## PageRecoveryKeyCreate
 
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 
@@ -315,6 +343,9 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ##
 
 
+## Product promotion
+
+
 ## Profile section
 
 
@@ -325,6 +356,9 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 
 
 ## Security section of Setting
+
+
+## SubRow component
 
 
 ## Switch component
@@ -353,10 +387,6 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-
 ## Auth-server based errors that originate from backend service
 
 
@@ -369,6 +399,12 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
 
 
 ## InlineRecoverySetup page
@@ -428,6 +464,11 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -435,17 +476,20 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
 
-## ResetPassword page
+## PasswordResetConfirmTotp Page
+
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component
@@ -458,6 +502,13 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
 
 
 ## SigninRecoveryCode page

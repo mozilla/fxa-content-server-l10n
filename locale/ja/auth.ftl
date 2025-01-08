@@ -284,20 +284,8 @@ passwordChangeRequired-different-password-plaintext = 重要: 以前に使用し
 password-forgot-otp-subject = パスワードをお忘れですか？
 password-forgot-otp-title = パスワードをお忘れですか？
 password-forgot-otp-request = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
-password-forgot-otp-code = 間違いない場合は、次の確認コードを使用してください:
 password-forgot-otp-expiry-notice = このコードの有効期限は 10分です。
-passwordReset-subject = パスワードを更新しました
-passwordReset-title = アカウントのパスワードが変更されました
-passwordReset-description = 同期を再開するには、他の端末で新しいパスワードを入力する必要があります。
 passwordResetAccountRecovery-subject-2 = あなたのパスワードはリセットされました
-passwordResetAccountRecovery-title-2 = パスワードのリセットが完了しました
-# Details of the device and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = 次の端末でアカウント回復用キーを使用してパスワードを更新しました:
-# Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-3 = アカウント回復用キーを作成
-passwordResetAccountRecovery-regen-required-mjml-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください。
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください:
 postAddAccountRecovery-subject-3 = 新しいアカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
 # Key here refers to account recovery key

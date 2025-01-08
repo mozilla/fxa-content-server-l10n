@@ -1,36 +1,18 @@
 ## Non-email strings
 
-session-verify-send-push-title = A bheil thu airson clàradh a-steach gu { -product-firefox-accounts }?
 session-verify-send-push-body-2 = Briog an-seo a dhearbhadh gur tusa a th’ ann
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="suaicheantas { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sioncronaich uidheaman">
 body-devices-image = <img data-l10n-name="devices-image" alt="Uidheaman">
 fxa-privacy-url = Poileasaidh prìobhaideachd { -brand-mozilla }
-fxa-service-url = Teirmichean na seirbheise aig { -product-firefox-cloud }
-subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Suaicheantas { -brand-firefox }">
-subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Suaicheantas { -brand-mozilla }">
 subplat-automated-email = Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
 subplat-privacy-notice = Aithris na prìobhaideachd
 subplat-privacy-plaintext = Aithris na prìobhaideachd:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Fhuair thu am post-d seo a chionn ’s gu bheil  { -product-firefox-account } aig { $email } agus a chionn ’s gun do chlàraich thu airson { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-reminder-form = Fhuair thu am post-d seo a chionn ’s gu bheil  { -product-firefox-account } aig { $email }.
-subplat-explainer-multiple = Fhuair thu am post-d seo a chionn ’s gu bheil  { -product-firefox-account } aig { $email } agus a chionn ’s gu bheil fo-sgrìobhadh agad aig iomadh bathar.
-subplat-explainer-was-deleted = Fhuair thu am post-d seo a chionn ’s gun deach { $email } a chlàradh airson { -product-firefox-account }.
-subplat-manage-account = Stiùirich am { -product-firefox-account } agad le bhith a’ tadhal air <a data-l10n-name="subplat-account-page">duilleag a’ chunntais agad</a>.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = Stiùirich am { -product-firefox-account } agad le bhith a’ tadhal air duilleag a’ chunntais agad: { $accountSettingsUrl }
 subplat-terms-policy = Na teirmichean is poileasaidh a’ chuir gu neoini
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cuir crìoch air an fho-sgrìobhadh
@@ -40,8 +22,6 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ùraich am fiosrachadh bileachaidh
 subplat-privacy-policy = Poileasaidh prìobhaideachd { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = Teirmichean na seirbheise aig { -product-firefox-cloud }
-subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Nòtaichean laghail
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Prìobhaideachd
@@ -104,10 +84,6 @@ payment-plan-next-invoice = An ath-fhàirdeal: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = An dòigh pàighidh:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = Cairt { $cardType } a tha a’ crìochnachadh le { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Àireamh an fhàirdeil: <b>{ $invoiceNumber }</b>
@@ -172,25 +148,6 @@ device-all = { $uaBrowser } air { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } air { $uaOS }
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Seòladh IP: { $ip }
-# Variables:
-#  $city (String) - User's city
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (tuairmse)
-# Variables:
-#  $city (String) - User's city
-#  $country (String) - User's country
-location-city-country = { $city }, { $country } (tuairmse)
-# Variables:
-#  $stateCode (String) - User's state
-#  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (tuairmse)
-# Variables:
-#  $country (stateCode) - User's country
-location-country = { $country } (tuairmse)
 view-invoice = <a data-l10n-name="invoiceLink">Coimhead air an fhàirdeal agad</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -203,9 +160,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderFirst-title-1 = Tha feum air dithis airson sioncronachadh
 newDeviceLogin-action = Stiùirich an cunntas
 passwordChanged-title = Chaidh am facal-faire atharrachadh
-passwordChangeRequired-signoff = le gach deagh-dhùrachd,
-passwordReset-title = Chaidh facal-faire a’ chunntais agad atharrachadh
-passwordReset-description = Feumaidh tu am facal-faire ùr agad a chur a-steach air na h-uidheaman eile agad a leantainn air an t-sioncronachadh.
 postAddAccountRecovery-action = Stiùirich an cunntas
 postAddTwoStepAuthentication-action = Stiùirich an cunntas
 postChangePrimary-title = Prìomh phost-d ùr
@@ -231,7 +185,6 @@ subscriptionUpgrade-title = Mòran taing airson ùrachadh!
 unblockCode-title = An tusa a tha a’ clàradh a-steach?
 unblockCode-prompt = Mas e, seo an còd ùghdarachaidh a dh’fheumas tu:
 unblockCode-report-plaintext = Mur e, cuidich leinn ’nar strì an aghaidh luchd-foill is cuir aithisg mu dhèidhinn thugainn.
-verify-description = Dearbh an cunntas agad is cuir { -brand-firefox } gu làn-fheum àite sam bith far an clàraich thu a-steach, a’ tòiseachadh le:
 verify-subject = Cuir crìoch air cruthachadh a’ chunntais agad
 verifyLogin-action = Dearbh an clàradh a-steach
 verifyPrimary-description = Chaidh iarrtas airson atharrachadh sa chunntas a dhèanamh air an uidheam a leanas:

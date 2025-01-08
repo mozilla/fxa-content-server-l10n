@@ -3,30 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Terms and messages used in fxa-payments-server
-
-
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
-# 'Firefox Accounts' refers to the service
-project-brand = Contas de Firefox
-
-## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
-
-
 ## Component - AppLayout
 
 settings-home = Inicio da conta
@@ -198,10 +174,18 @@ product-plan-not-found = Non se atopou o plan
 
 ## Routes - Product - Subscription upgrade
 
-sub-update-copy = O seu plan cambiará de inmediato e cobraráselle un importe axustado ao que resta do período de facturación actual. A partir de { $startingDate } cobraráselle o importe completo.
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Novo plan
 sub-update-total-label = Novo total
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
@@ -230,7 +214,6 @@ sub-route-idx-cancel-msg =
     Cancelouse a súa subscrición de { $name }
                 <br />
                 O seu acceso a { $name } rematará o { $date }.
-sub-route-idx-cancel-aside = Ten preguntas? Visite <a> { -brand-name-mozilla } Asistencia </a>.
 
 ## Routes - Subscriptions - Errors
 

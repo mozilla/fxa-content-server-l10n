@@ -4,7 +4,6 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
 
 ## Brand Messaging component
@@ -29,10 +28,6 @@ brand-postlaunch-title = Vi har endret navn på { -product-firefox-accounts } ti
 ## Checklist of services/information that can be synced across signed in devices
 
 
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -50,7 +45,14 @@ datablock-print =
 ## FormPasswordWithBalloons
 
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
+
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
 
 # GetDataTrio component, part of Account Recovery Key flow
@@ -60,6 +62,15 @@ datablock-print =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+
 ## Input Password
 
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
@@ -67,19 +78,22 @@ input-password-hide = Skjul passord
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Vis passord
 
+## Phone number component
+
+
 ## LinkDamaged component
 
 
 ## LinkExpired component
 
 
-## LinkExpiredResetPassword component
-
-
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
+
+
+## Notification Promo Banner component
 
 
 ## PasswordInfoBalloon
@@ -89,7 +103,23 @@ input-password-show = Vis passord
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
 
 
 ## Alert Bar
@@ -114,9 +144,6 @@ bento-menu-firefox-mobile = { -brand-firefox }-nettleser for mobil
 ## Connect another device promo
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
-connect-another-find-fx-mobile =
-    Finn { -brand-firefox } på { -google-play } og { -app-store } eller
-    <br /><linkExternal>send en nedlastingslenke til enheten.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -169,7 +196,6 @@ cs-sign-out-button = Logg ut
 ## Data collection section
 
 dc-heading = Datainnsamling og -bruk
-dc-subheader-2 = Hjelp til med å forbedre { -product-mozilla-accounts }
 dc-subheader-content-2 = Tillate { -product-mozilla-accounts } å sende tekniske- og interaksjonsdata til { -brand-mozilla }?
 dc-opt-out-success-2 = Fravalget vellykket. { -product-mozilla-accounts } sender ikke tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Deling av disse data hjelper oss med å forbedre { -product-mozilla-accounts }.
@@ -197,11 +223,17 @@ flow-container-back = Tilbake
 flow-recovery-key-download-next-link-v2 = Fortsett uten å laste ned
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
 
 
 ## HeaderLockup component, the header in account settings
@@ -324,6 +356,9 @@ cancel-display-name = Avbryt
 ## PageRecoveryKeyCreate
 
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Trinn 1 av 2
@@ -340,6 +375,9 @@ add-secondary-email-step-1 = Trinn 1 av 2
 ##
 
 
+## Product promotion
+
+
 ## Profile section
 
 
@@ -350,6 +388,9 @@ add-secondary-email-step-1 = Trinn 1 av 2
 
 
 ## Security section of Setting
+
+
+## SubRow component
 
 
 ## Switch component
@@ -386,10 +427,6 @@ third-party-auth-options-or = eller
 continue-with-google-button = Fortsett med { -brand-google }
 continue-with-apple-button = Fortsett med { -brand-apple }
 
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-
 ## Auth-server based errors that originate from backend service
 
 
@@ -405,6 +442,12 @@ cannot-create-account-requirements-2 = Du må oppfylle visse alderskrav for å o
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-enable-prompt-2 = Slå på infokapsler og lokal lagring i nettleseren din for å få tilgang til din { -product-mozilla-account }. Dette vil aktivere funksjonalitet som for eksempel å huske deg mellom økter.
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -470,49 +513,32 @@ auth-totp-heading-w-custom-service = Skriv inn verifiseringskoden <span>for å f
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Tilbakestill passord med kontogjenopprettingsnøkkelen <span>for å fortsette til kontoinnstillingene</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Tilbakestill passord med kontogjenopprettingsnøkkelen <span>for å fortsette til { $serviceName }</span>
-account-recovery-confirm-key-instructions-2 = Skriv inn engangs-kontogjenopprettingsnøkkelen du lagret på et trygt sted, for å få tilgang til din { -product-mozilla-account } igjen.
-
-## Account recovery reset password page
-
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 
-## Confirm Reset Password Component
-
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Trykk på lenken som er sendt til { $email } innen en time, for å lage et nytt passord.
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Tilbakestill passordet <span>for å fortsette til kontoinnstillingene</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Tilbakestill passordet <span>for å fortsette til { $serviceName }</span>
-reset-password-with-recovery-key-verified-continue-to-account = Fortsett til kontoen min
-
 ## Confirm Reset Password With Code
 
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component
@@ -536,18 +562,18 @@ signin-subheader-without-logo-default = Fortsett til kontoinnstillingene
 ## This will be the page shown to users to block the sign in and report it.
 
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Skriv inn reserve-verifiseringskode <span>for å fortsette til kontoinnstillingene</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Skriv inn reserve-verifiseringskode <span>for å fortsette til { $serviceName }</span>
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -565,13 +591,6 @@ signin-token-code-heading-2 = Skriv inn bekreftelseskoden<span> for { -product-m
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Skriv inn verifiseringskoden <span>for å fortsette til kontoinnstillingene</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = Skriv inn verifiseringskoden <span>for å fortsette til { $serviceName }</span>
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)

@@ -524,10 +524,6 @@ dc-learn-more = ਹੋਰ ਜਾਣੋ
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } ਮੇਨੂ
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <user>{ $user }</user> ਵਜੋਂ <signin>ਸਾਈਨ ਇਨ ਕੀਤਾ</signin>
 drop-down-menu-sign-out = ਸਾਈਨ ਆਉਟ
 drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਸਾਈਨ ਆਉਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 
@@ -576,6 +572,12 @@ flow-recovery-key-info-key-bullet-point-v2 = ਇਸ ਕਰਕੇ ਖਾਤਾ �
 flow-recovery-key-info-cta-text-v3 = ਸ਼ੁਰੂ ਕਰੀਏ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ਰੱਦ ਕਰੋ
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -775,6 +777,9 @@ recovery-key-create-page-title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 # and back to account settings
 recovery-key-create-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
@@ -818,7 +823,6 @@ tfa-button-finish = ਮੁਕੰਮਲ
 tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 tfa-cannot-verify-code-4 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-incorrect-recovery-code-1 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਗਲਤ ਹੈ
-tfa-enabled = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਹੈ
 tfa-scan-this-code = <linkExternal>ਇਹ ਪਰਮਾਣਕਿਤਾ ਐਪਾਂ</linkExternal> ਵਿੱਚ ਕਿਸੇ ਨਾਲ ਇਹ QR ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ।
 # This is the image alt text for a QR code.
 # Variables:
@@ -1158,7 +1162,6 @@ inline-recovery-confirmation-header-default = <span>ਖਾਤਾ ਸੈਟਿੰ
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
-inline-recovery-2fa-enabled = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸਮਰੱਥ ਹੈ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

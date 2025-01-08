@@ -559,10 +559,6 @@ dc-learn-more = Frekari upplýsingar
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-valmynd
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Skráð inn sem</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Skrá út
 drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá þig út
 
@@ -613,6 +609,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Þess vegna er svo mikilvægt að b
 flow-recovery-key-info-cta-text-v3 = Hefjast handa
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Hætta við
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -829,6 +831,9 @@ recovery-key-create-page-title = Endurheimtulykill reiknings
 # and back to account settings
 recovery-key-create-back-button-title = Til baka í stillingar
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Skref 1 af 2
@@ -881,7 +886,6 @@ tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
 tfa-cannot-verify-code-4 = Vandamál kom upp við að staðfesta varaauðkenningarkóðann þinn
 tfa-incorrect-recovery-code-1 = Rangur varaauðkenningarkóði
-tfa-enabled = Tveggja-þrepa auðkenning virkjuð
 tfa-scan-this-code =
     Skannaðu þennan QR-kóða með því að nota eitt af 
     <linkExternal>þessum auðkenningarforritum</linkExternal>.
@@ -1089,8 +1093,6 @@ tfa-row-cannot-refresh =
     Því miður kom upp vandamál við að endurnýja tveggja-þrepa
     auðkenningu.
 tfa-row-enabled-description = Reikningurinn þinn er varinn með tveggja-þrepa auðkenningu. Þú þarft að setja einu sinni inn aðgangskóða úr auðkenningarforritinu þínu þegar þú skráir þig inn á { -product-mozilla-account } þinn.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Hjálpaðu til við að tryggja öryggi reikningsins þíns með því að nota <linkExternal>auðkenningararforrit frá utanaðkomandi aðila</linkExternal> sem annað þrep til að skrá þig inn.
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
@@ -1260,7 +1262,6 @@ inline-recovery-confirmation-header-default = Staðfestu öryggisauðkenningark�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
-inline-recovery-2fa-enabled = Tveggja-þrepa auðkenning virkjuð
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

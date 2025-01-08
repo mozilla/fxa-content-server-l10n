@@ -4,7 +4,6 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
 
 ## Brand Messaging component
@@ -26,10 +25,6 @@
 choose-what-to-sync-option-paymentmethods =
     .label = Metode de plată
 
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 
@@ -41,7 +36,14 @@ choose-what-to-sync-option-paymentmethods =
 ## FormPasswordWithBalloons
 
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
+
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
 
 # GetDataTrio component, part of Account Recovery Key flow
@@ -51,11 +53,24 @@ choose-what-to-sync-option-paymentmethods =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Ascunde parola
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Afișează parola
-input-password-hide-aria = Ascunde parola de pe ecran.
+
+## Phone number component
+
 
 ## LinkDamaged component
 
@@ -63,13 +78,13 @@ input-password-hide-aria = Ascunde parola de pe ecran.
 ## LinkExpired component
 
 
-## LinkExpiredResetPassword component
-
-
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
+
+
+## Notification Promo Banner component
 
 
 ## PasswordInfoBalloon
@@ -79,7 +94,23 @@ input-password-hide-aria = Ascunde parola de pe ecran.
 ## PasswordStrengthBalloon component
 
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
 
 
 ## Alert Bar
@@ -171,11 +202,17 @@ flow-container-back = Înapoi
 
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
 
 
 ## HeaderLockup component, the header in account settings
@@ -305,6 +342,9 @@ cancel-display-name = Anulează
 ## PageRecoveryKeyCreate
 
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Pasul 1 din 2
@@ -338,7 +378,6 @@ tfa-button-cancel = Anulează
 tfa-button-finish = Finalizează
 tfa-incorrect-totp = Cod de autentificare în doi pași incorect
 tfa-cannot-retrieve-code = A apărut o problemă la recuperarea codului.
-tfa-enabled = Autentificare în doi pași activată
 tfa-scan-this-code =
     Scanează acest cod QR folosind unul dintre <linkExternal>aceste
     aplicații de autentificare</linkExternal>.
@@ -354,6 +393,9 @@ tfa-button-cant-scan-qr = Nu poți scana codul?
 tfa-enter-secret-key = Introdu această cheie secretă în aplicația de autentificare:
 
 ##
+
+
+## Product promotion
 
 
 ## Profile section
@@ -381,6 +423,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Creată în { $date }
+
+## SubRow component
+
 
 ## Switch component
 
@@ -424,7 +469,6 @@ se-secondary-email-none = Niciunul
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentificare în doi pași
-tfa-row-not-set = Nu este setată
 tfa-row-action-add = Adaugă
 tfa-row-action-disable = Dezactivează
 tfa-row-button-refresh =
@@ -432,13 +476,8 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Ne pare rău, a apărut o problemă la reîmprospătarea
     autentificării în doi pași.
-tfa-row-content-explain =
-    Împiedică pe altcineva să se autentifice solicitând un
-    cod unic la care numai tu ai acces.
 tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
 tfa-row-disable-modal-confirm = Dezactivează
-tfa-row-change-modal-confirm = Modifică
-tfa-row-change-modal-explain = Nu vei putea anula această acțiune.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -462,6 +501,12 @@ auth-error-1008 = Noua ta parolă trebuie să fie diferită
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
+
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
 
 
 ## InlineRecoverySetup page
@@ -521,6 +566,11 @@ auth-error-1008 = Noua ta parolă trebuie să fie diferită
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -528,17 +578,20 @@ auth-error-1008 = Noua ta parolă trebuie să fie diferită
 ## AccountRecoveryConfirmKey page
 
 
-## Account recovery reset password page
-
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 
-## Confirm Reset Password Component
+## Confirm Reset Password With Code
 
 
-## ResetPassword page
+## PasswordResetConfirmTotp Page
+
+
+## ResetPassword start page
+
+
+## ResetPasswordConfirmed
 
 
 ## CompleteSignin component
@@ -551,6 +604,13 @@ auth-error-1008 = Noua ta parolă trebuie să fie diferită
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
+
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
 
 
 ## SigninRecoveryCode page

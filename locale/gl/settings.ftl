@@ -365,6 +365,12 @@ cs-disconnect-sync-heading = Desconectar de Sync
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
+
 ## HeaderLockup component, the header in account settings
 
 
@@ -419,6 +425,9 @@ cs-disconnect-sync-heading = Desconectar de Sync
 
 
 ## PageRecoveryKeyCreate
+
+
+## PageSetupRecoveryPhone
 
 
 ## Add secondary email page

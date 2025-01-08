@@ -4,17 +4,7 @@
 
 
 ## Banner component
-## Used to show success, error or info messages
 
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-banner-dismiss-button =
-    .aria-label = 閉じる
-# This message is displayed in a success banner
-# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
-link-expired-resent-link-success-message = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -106,14 +96,6 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-paymentmethods =
     .label = 決済方法
 
-## ConfirmWithLink
-## Users will see this page if a confirmation link was sent to their email address
-
-# Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = 受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信
-# The link target may vary depending on the user's entry point into the confirmation page
-confirm-with-link-back-link = 戻る
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -167,10 +149,17 @@ form-password-sr-not-common-message = パスワードは一般的に使用され
 form-password-sr-requirements-met = 入力されたパスワードはすべてのパスワード要件を満たしています。
 form-password-sr-passwords-match = 入力したパスワードは一致しています。
 
+## FormPasswordInlineCriteria
+
+
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
 form-verify-code-default-error = この項目は必須です
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -186,6 +175,10 @@ get-data-trio-copy-2 =
 get-data-trio-print-2 =
     .title = 印刷
     .aria-label = 印刷
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -207,12 +200,15 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = アカウント回復用キーを表すイラスト。
-lock-image-aria-label =
-    .aria-label = 錠前のイラスト
 lightbulb-aria-label =
     .aria-label = ストレージヒントの作成を表すイラスト。
 email-code-image-aria-label =
     .aria-label = コードを含む電子メールを表す図。
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
 
 ## Input Password
 
@@ -228,6 +224,9 @@ input-password-show-aria-2 = パスワードが隠されています。
 input-password-sr-only-now-visible = パスワードが画面に表示されました。
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
 input-password-sr-only-now-hidden = パスワードが隠されました。
+
+## Phone number component
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 戻る
 
@@ -247,15 +246,6 @@ reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません
 
 ## LinkExpired component
 
-# Button to request a new link if the previous link that was emailed to the user is expired
-# This button is used for password reset and signin confirmation 
-reset-pwd-resend-link = 新しいリンクを受け取る
-
-## LinkExpiredResetPassword component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = パスワードをリセットするリンクの有効期限が切れました
-reset-pwd-link-expired-message = パスワードをリセットするリンクの有効期限が過ぎています。
 
 ## LinkRememberPassword component
 
@@ -271,6 +261,9 @@ primary-email-confirmation-link-reused = 優先メールアドレスは既に確
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ログインは既に確認されています
 confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
+
+## Notification Promo Banner component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 不正なリクエスト
 
@@ -288,11 +281,12 @@ password-strength-balloon-not-email = メールアドレスと一致しないこ
 password-strength-balloon-not-common = よく使われるパスワードと一致しないこと
 password-strength-balloon-stay-safe-tips = 安全のため、パスワードを再利用してはいけません。<LinkExternal>強力なパスワードを作成する</LinkExternal>ためのヒントをご覧ください。
 
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-reset-password-complete-header = パスワードがリセットされました
 ready-complete-set-up-instruction = 他の端末上の { -brand-firefox } でも新しいパスワードを入力して、設定を完了してください。
-ready-start-browsing-button = ブラウジングを開始
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -305,6 +299,45 @@ ready-continue = 続ける
 sign-in-complete-header = ログインが確認されました
 sign-up-complete-header = アカウントを確認しました
 primary-email-verified-header = 優先メールアドレスを確認しました
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = キーを保管する場所:
+flow-recovery-key-download-storage-ideas-folder-v2 = 安全な端末内のフォルダー
+flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
+flow-recovery-key-download-storage-ideas-print-v2 = 印刷された物理コピー
+flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = キーを見つけるのに役立つヒントを追加してください
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = このヒントは、アカウント回復キーを保管した場所を思い出すのに役立ちます。これは、パスワードをリセットしてデータを回復するときに表示されます。
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = ヒントを入力してください (任意)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = 完了
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = このヒントは 255 文字以内に短くしてください。
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = ヒントに安全でないユニコードの制御文字等を含めることはできません。通常の文字、数字、句読点、記号のみが使用できます。
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
 
 ## Alert Bar
 
@@ -397,7 +430,6 @@ cs-sign-out-button = ログアウト
 ## Data collection section
 
 dc-heading = データの収集と使用
-dc-subheader-2 = { -product-mozilla-accounts } の改善にご協力ください
 dc-subheader-content-2 = { -product-mozilla-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
 dc-opt-out-success-2 = オプトアウトが完了しました。{ -product-mozilla-accounts }が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
 dc-opt-in-success-2 = ご協力ありがとうございます。このデータを共有することで { -product-mozilla-accounts }の改善に役立てられます。
@@ -407,10 +439,6 @@ dc-learn-more = 詳細情報
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }メニュー
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>ログイン済み</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ログアウト
 drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト中に問題が発生しました
 
@@ -439,39 +467,13 @@ flow-recovery-key-download-heading-v2 = アカウント回復キーが作成さ�
 flow-recovery-key-download-info-v2 = パスワードを忘れた場合に、このキーを使用してデータを回復できます。今すぐダウンロードして、覚えやすい場所に保管してください。後でこのページに戻ることはできません。
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = ダウンロードせずに続ける
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = キーを保管する場所:
-flow-recovery-key-download-storage-ideas-folder-v2 = 安全な端末内のフォルダー
-flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
-flow-recovery-key-download-storage-ideas-print-v2 = 印刷された物理コピー
-flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
 
 ## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow
+## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = キーを見つけるのに役立つヒントを追加してください
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-# "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = このヒントは、アカウント回復キーを保管した場所を思い出すのに役立ちます。これは、パスワードをリセットしてデータを回復するときに表示されます。
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input-v2 =
-    .label = ヒントを入力してください (任意)
-# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
-# "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = 完了
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = アカウント回復用キーが生成されました
-# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = このヒントは 255 文字以内に短くしてください。
-# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
-# "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = ヒントに安全でないユニコードの制御文字等を含めることはできません。通常の文字、数字、句読点、記号のみが使用できます。
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -487,6 +489,12 @@ flow-recovery-key-info-key-bullet-point-v2 = そのため、アカウント回�
 flow-recovery-key-info-cta-text-v3 = はじめる
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -703,6 +711,9 @@ recovery-key-create-page-title = アカウント回復用キー
 # and back to account settings
 recovery-key-create-back-button-title = 設定に戻る
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = ステップ 1/2
@@ -755,7 +766,6 @@ tfa-incorrect-totp = 2 段階認証コードが正しくありません
 tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
 tfa-cannot-verify-code-4 = バックアップ認証コードの確認時に問題が発生しました
 tfa-incorrect-recovery-code-1 = バックアップ認証コードが正しくありません
-tfa-enabled = 2 段階認証が有効化されました
 tfa-scan-this-code =
     この QR コードを読み取って<linkExternal>この
     認証アプリ</linkExternal> を使用してください。
@@ -773,7 +783,6 @@ tfa-enter-totp-v2 = 次に、認証アプリからの認証コードを入力し
 tfa-input-enter-totp-v2 =
     .label = 認証コードを入力
 tfa-save-these-codes-1 = これらのワンタイム使用のバックアップ認証コードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
-tfa-enter-code-to-confirm-1 = 保存できたことを確認するためにバックアップ認証コードを 1 個入力してください。これらのコードは、モバイル端末を持っていない場合に必要になります。
 tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
@@ -828,6 +837,9 @@ security-set-password = パスワードを設定して同期し、特定のア�
 security-recent-activity-link = 最近のアカウント利用情報を見る
 signout-sync-header = セッションの有効期限切れ
 signout-sync-session-expired = 申し訳ございません。問題が発生しました。ブラウザーのメニューからログアウトして、もう一度お試しください。
+
+## SubRow component
+
 
 ## Switch component
 
@@ -910,25 +922,21 @@ se-secondary-email-none = なし
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 2 段階認証
-tfa-row-disabled-2 = 2 段階認証が無効化されました
 tfa-row-enabled = 有効
-tfa-row-not-set = 未設定
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
-tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
 tfa-row-cannot-verify-session-4 = 申し訳ありませんが、セッションの確認中に問題が発生しました
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
 tfa-row-disable-modal-explain-1 =
     この操作は元に戻せません。
     <linkExternal>バックアップ認証コードを差し替える</linkExternal> オプションもあります。
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = 2 段階認証が無効化されました
 tfa-row-cannot-disable-2 = 2 段階認証を無効化できませんでした
-tfa-row-change-modal-heading-1 = バックアップ認証コードを変更しますか？
-tfa-row-change-modal-confirm = 変更
-tfa-row-change-modal-explain = この操作は元に戻せません。
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -953,14 +961,6 @@ terms-privacy-agreement-default-2 = 続けることにより、<mozillaAccountsT
 third-party-auth-options-or = または
 continue-with-google-button = { -brand-google } で続ける
 continue-with-apple-button = { -brand-apple } で続ける
-
-## TotpInputGroup component
-## This component is composed of 6 or 8 single digit inputs for verification codes
-
-# Screen reader only label for each single-digit input, e.g., Code digit 1 of 6
-# $inputNumber is a number from 1 to 8
-# $codeLength is a number, it represents the total length of the code
-single-char-input-label = { $inputNumber } / { $codeLength } 桁
 
 ## Auth-server based errors that originate from backend service
 
@@ -1039,6 +1039,12 @@ cookies-disabled-button-try-again = 再試行
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 詳細情報
 
+## Index / home page
+
+
+## InlineRecoveryKeySetup page component
+
+
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1071,7 +1077,6 @@ inline-recovery-confirmation-header-default = バックアップ認証コード�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = バックアップ認証コードを確認して <span>{ $serviceName } に進む</span>
-inline-recovery-2fa-enabled = 2 段階認証が有効になりました
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1224,6 +1229,11 @@ pair-wait-for-auth-heading-text = <span>他の端末から</span> の承認が�
 pair-unsupported-header = アプリを使用してペアリング
 pair-unsupported-message = システムカメラを使用しましたか？ { -brand-firefox } アプリ内からペアリングする必要があります。
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+## password to complete their sign-in when they want to login to a service requiring it.
+
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1231,76 +1241,16 @@ third-party-auth-callback-message = 認証されたアプリケーションに�
 
 ## AccountRecoveryConfirmKey page
 
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = アカウント回復用キーでパスワードをリセットして <span>アカウント設定に進む</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = アカウント回復用キーでパスワードをリセットして <span>{ $serviceName } に進む</span>
-account-recovery-confirm-key-instructions-2 = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-mozilla-account }へのアクセスを取り戻しましょう。
-account-recovery-confirm-key-warning-message = <span>注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。
-# Prompts the user to enter their account recovery code
-account-recovery-confirm-key-input =
-    .label = アカウント回復用キーを入力してください
-# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
-account-recovery-confirm-key-button = アカウント回復用キーを確認
-# Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = アカウント回復用キーを持っていませんか？
-
-## Account recovery reset password page
-
-# Header for form to create new password
-create-new-password-header = 新しいパスワードを作成
-account-restored-success-message = 回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。
-# Feedback displayed in alert bar when password reset is successful
-account-recovery-reset-password-success-alert = パスワードを設定しました
-# An error case was hit that we cannot account for.
-account-recovery-reset-password-unexpected-error = 予期しないエラーが発生しました
-account-recovery-reset-password-redirecting = リダイレクトします
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-complete-reset-pw-header = 新しいパスワードを設定
-complete-reset-password-warning-message-2 = <span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { -product-pocket } のデータは影響を受けません。
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = パスワードを設定しました
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 申し訳ありませんが、パスワードの設定中に問題が発生しました
-complete-reset-password-recovery-key-error-v2 = 申し訳ありませんが、アカウント回復用キーの確認中に問題が発生しました。
-complete-reset-password-recovery-key-link = アカウント回復用キーであなたのパスワードをリセットします。
-
-## Confirm Reset Password Component
-
-# Second step of password reset flow for Firefox accounts
-# Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = リセット用のメールが送信されました
-# Instructions to continue the password reset process
-# { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = 1 時間以内に { $email } 宛にメールでお送りするリンクをクリックして、新しいパスワードを設定してください。
-
-## ResetPassword page
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = パスワードをリセットして <span>アカウント設定に進む</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = パスワードをリセットして <span>{ $serviceName } に進む</span>
-reset-password-warning-message-2 = <span>注意:</span> パスワードをリセットするとアカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { -product-pocket } のデータは影響を受けません。
-# Users type their email address in this field to start a password reset
-reset-password-password-input =
-    .label = メールアドレス
-reset-password-button = リセットを開始
-# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = メールアドレスが必須です
-reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
-reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
-reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
 
 ## Confirm Reset Password With Code
 
@@ -1319,13 +1269,19 @@ confirm-reset-password-otp-resend-code-button = 確認コードを再送する
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = 別のアカウントを使用する
 
+## PasswordResetConfirmTotp Page
+
+
 ## ResetPassword start page
 
 password-reset-flow-heading = パスワードをリセット
-password-reset-body = メールアドレスを入力すると、本人確認のための確認コードを送信します。
 password-reset-email-input =
     .label = メールアドレスを入力
-password-reset-submit-button = リセット方法を送信
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = パスワードがリセットされました
+reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 
 ## CompleteSignin component
 
@@ -1375,20 +1331,18 @@ signin-bounced-help = このメールアドレスが正しい場合は、<linkEx
 signin-bounced-create-new-account = 既にこのアドレスをお持ちでないなら、新しいアカウントを作成してください
 back = 戻る
 
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+
+## SigninPushCodeConfirmPage
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = バックアップ認証コードを入力して <span>アカウント設定に進む</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = バックアップ認証コードを入力して <span>{ $serviceName } に進む</span>
-signin-recovery-code-instruction = 2 段階認証のセットアップ中に用意されたバックアップ認証コードを入力してください。
-signin-recovery-code-input-label = 10 桁のバックアップ認証コードを入力してください
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to return to signin with two-step authentication code
@@ -1427,15 +1381,6 @@ signin-token-code-required-error = 確認コードが必要です
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = 認証コードを入力して <span>アカウント設定へ進む</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service-v2 = 認証コードを入力して <span>{ $serviceName } へ進む</span>
-signin-totp-code-instruction-v2 = お使いの認証アプリを開いて、そこに表示された認証コードを入力してください。
-signin-totp-code-input-label-v2 = 6 桁のコードを入力してください
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 別のアカウントを使用する
@@ -1486,9 +1431,6 @@ confirm-signup-code-is-required-error = 確認コードが必要です
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = パスワードを設定
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-info-banner-for-pocket = なぜアカウントを作成する必要があるのか、<LinkExternal>ここで調べてください</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = メールアドレスを変更
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)

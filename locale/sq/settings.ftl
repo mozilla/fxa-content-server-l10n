@@ -557,10 +557,6 @@ dc-learn-more = Mësoni më tepër
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account }
-# This string is used to show the current user's name or email in the settings page menu.
-# Variables:
-#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Futur si</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Dilni
 drop-down-menu-sign-out-error-2 = Na ndjeni, pati një problem me daljen tuaj nga llogaria
 
@@ -611,6 +607,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Kjo është arsyeja pse një kyç r
 flow-recovery-key-info-cta-text-v3 = Fillojani
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anuloje
+
+## FlowSetupPhoneConfirmCode
+
+
+## FlowSetupPhoneConfirmCode
+
 
 ## HeaderLockup component, the header in account settings
 
@@ -830,6 +832,9 @@ recovery-key-create-page-title = Kyç Rimarrjeje Llogarie
 # and back to account settings
 recovery-key-create-back-button-title = Mbrapsht te rregullimet
 
+## PageSetupRecoveryPhone
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Hapi 1 nga 2
@@ -882,7 +887,6 @@ tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
 tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
 tfa-cannot-verify-code-4 = Pati një problem me ripohimin e kodit tuaj të mirëfilltësimit kopjeruajtje.
 tfa-incorrect-recovery-code-1 = Kod mirëfilltësimi kopjeruajtje i pasaktë
-tfa-enabled = Mirëfilltësimi dyhapësh u aktivizua
 tfa-scan-this-code =
     Skanojeni këtë kod QR duke përdorur një nga <linkExternal>këto
     aplikacione mirëfilltësimi</linkExternal>.
@@ -1090,8 +1094,6 @@ tfa-row-cannot-refresh =
     Na ndjeni, pati një problem në rifreskimin e
     mirëfilltësimit dyfaktorësh.
 tfa-row-enabled-description = Llogaria juaj mbrohet me mirëfilltësim dyfaktorësh. Do t’ju duhet të jepni një kodkalim një here, prej aplikacionit tuaj të mirëfilltësimeeve, kur bëni hyrjen në { -product-mozilla-account } tuaj.
-# <linkExternal> goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-disabled-description = Ndihmoni të sigurohet llogaria juaj, duke përdorur një <linkExternal>aplikacion mirëfilltësimesh nga palë e tretë</linkExternal>, si një hap të dytë gjatë bërjes së hyrjes.
 tfa-row-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
@@ -1261,7 +1263,6 @@ inline-recovery-confirmation-header-default = <span>Që të vazhdoni te rregulli
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>Që të vazhdoni te { $serviceName }</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
-inline-recovery-2fa-enabled = Mirëfilltësimi dyhapësh u aktivizua
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

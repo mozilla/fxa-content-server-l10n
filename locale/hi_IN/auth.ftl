@@ -6,8 +6,6 @@
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = { -brand-mozilla } गोपनीयता नीति
-fxa-service-url = { -product-firefox-cloud } क्लाउड सेवा की शर्तें
-
 subplat-automated-email = यह एक स्वाचालित ईमेल है; यदि आपने इसको किसी त्रुटि के तहत प्राप्त किया है, कोई क्रिया आवश्यक नहीं.
 subplat-privacy-plaintext = गोपनीयता सूचना:
 subplat-update-billing-plaintext = { subplat-update-billing }:
@@ -19,53 +17,29 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = बिलिंग जानकारी को सामयिक करें
 subplat-legal = कानूनी
 subplat-privacy = गोपनीयता
-
 change-password-plaintext = यदि आपको संदेह है कि कोई आपके खाते तक पहुंच हासिल करने के लिए कोशिश कर रहा है, तो कृपया अपना पासवर्ड बदल लें.
-
 manage-account = खाता प्रबंधित करें
 manage-account-plaintext = { manage-account }:
-
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP एड्रेस: { $ip }
-
 newDeviceLogin-action = खाता प्रबंधित करें
-
 passwordChanged-subject = पासवर्ड अपडेट किया गया
 passwordChanged-title = कूटशब्द सफलतापूर्वक परिवर्तित
-
 passwordChangeRequired-subject = संदिग्ध गतिविधि का पता चला
-passwordChangeRequired-signoff = श्रेष्ठ,
-
-passwordReset-subject = पासवर्ड अपडेट किया गया
-passwordReset-title = आपके खाते का पासवर्ड बदला गया था
-
 postAddAccountRecovery-action = खाता प्रबंधित करें
-
 postAddTwoStepAuthentication-action = खाता प्रबंधित करें
-
 postChangePrimary-subject = प्राथमिक ईमेल अपडेट किया गया
 postChangePrimary-title = नया प्राथमिक ईमेल
 postChangePrimary-action = खाता प्रबंधित करें
-
 postConsumeRecoveryCode-action = खाता प्रबंधित करें
-
 postNewRecoveryCodes-action = खाता प्रबंधित करें
-
 postRemoveAccountRecovery-action = खाता प्रबंधित करें
-
 postRemoveSecondary-subject = द्वितीयक ईमेल हटा दिया गया
 postRemoveSecondary-title = द्वितीयक ईमेल हटा दिया गया
 postRemoveSecondary-action = खाता प्रबंधित करें
-
 postRemoveTwoStepAuthentication-action = खाता प्रबंधित करें
-
 postVerifySecondary-subject = द्वितीयक ई-मेल जोड़ा गया
 postVerifySecondary-title = द्वितीयक ई-मेल जोड़ा गया
 postVerifySecondary-action = खाता प्रबंधित करें
-
 recovery-subject = अपना कूटशब्द बदली करें
 recovery-action = नया कूटशब्द बनाएँ
 
@@ -78,16 +52,10 @@ unblockCode-subject = खाता प्राधिकरण कोड
 unblockCode-title = क्या आप ही साइन-इन कर रहे हैं?
 unblockCode-prompt = यदि हाँ, तो ये है आपका प्राधिकरण कोड जिसकी आपको ज़रूरत है:
 unblockCode-report-plaintext = यदि नहीं, तो हमें घुसपैठियों को रोकने मे मदद करें और हमें इसकी रिपोर्ट करें।
-
 verify-subject = अपना खाता बनाना पूर्ण करें
-
 verifyLogin-action = साइन-इन की पुष्टि करें
-
 verifyLoginCode-expiry-notice = यह 5 मिनट में समाप्त हो जाता है।
-
 verifyPrimary-description = खाता परिवर्तन करने के लिए एक अनुरोध निम्न डिवाइस से किया गया है:
 verifyPrimary-subject = प्राथमिक ईमेल की पुष्टि करें
-
 verifySecondaryCode-subject = द्वितीयक ईमेल की पुष्टि करें
-
 verifyShortCode-expiry-notice = यह 5 मिनट में समाप्त हो जाता है।
