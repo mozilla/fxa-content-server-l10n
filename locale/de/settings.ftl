@@ -1652,8 +1652,8 @@ signin-recovery-code-desktop-relay = { -brand-firefox } wird versuchen, Sie nach
 
 signin-recovery-method-header = Anmelden
 signin-recovery-method-subheader = Wählen Sie eine Kontowiederherstellungsmethode
-signin-recovery-method-details = Verwenden Sie Ihre Wiederherstellungsmethode erneut.
-signin-recovery-method-phone = Telefonnummer zum Wiederherstellen
+signin-recovery-method-details = Wir prüfen, ob Sie selbst Ihre Kontowiederherstellungsmethode nutzen.
+signin-recovery-method-phone = Telefonnummer zur Kontowiederherstellung
 signin-recovery-method-code = Authentifizierungscodes
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } Codes übrig

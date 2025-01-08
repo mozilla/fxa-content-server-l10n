@@ -349,8 +349,8 @@ postChangePrimary-description-2 = Sikeresen megváltoztatta az elsődleges e-mai
 postChangePrimary-action = Fiók kezelése
 postChangeRecoveryPhone-subject = Helyreállítási telefonszám frissítve
 postChangeRecoveryPhone-title = Módosította a helyreállítási telefonszámát
-postChangeRecoveryPhone-description = Most van egy új helyreállítási telefonszáma. Az előző telefonszám törölve lett.
-postChangeRecoveryPhone-requested-device = A következőtől kérte:
+postChangeRecoveryPhone-description = Új helyreállítási telefonszáma van. Az előző telefonszám törölve lett.
+postChangeRecoveryPhone-requested-device = Innen kérte:
 postConsumeRecoveryCode-title-2 = Egy tartalék hitelesítési kódot használt
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = A következőn használták:
