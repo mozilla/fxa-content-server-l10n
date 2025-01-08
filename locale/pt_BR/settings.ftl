@@ -317,6 +317,8 @@ input-password-sr-only-now-hidden = Agora sua senha está oculta.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Selecione um país
 input-phone-number-enter-number = Insira o número do celular
 input-phone-number-country-united-states = Estados Unidos
 input-phone-number-country-canada = Canadá
@@ -555,6 +557,9 @@ dc-learn-more = Saiba mais
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu da { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Conectado como
 drop-down-menu-sign-out = Desconectar
 drop-down-menu-sign-out-error-2 = Desculpe, houve um problema ao desconectar da sua conta
 
@@ -608,6 +613,19 @@ flow-recovery-key-info-cancel-link = Cancelar
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Digite o código de verificação
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Um código de seis dígitos foi enviado para <span>{ $phoneNumber }</span> por mensagem de texto. Esse código expira após 5 minutos.
+flow-setup-phone-confirm-code-input-label = Digite o código de 6 dígitos
+flow-setup-phone-confirm-code-button = Confirmar
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = O código expirou?
+flow-setup-phone-confirm-code-resend-code-button = Reenviar código
+flow-setup-phone-confirm-code-success-message = Adicionado telefone de recuperação de backup
 
 ## FlowSetupPhoneConfirmCode
 
