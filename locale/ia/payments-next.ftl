@@ -76,7 +76,14 @@ select-tax-location-edit-button = Rediger
 select-tax-location-save-button = Salvar
 select-tax-location-country-code-label = Pais
 select-tax-location-country-code-placeholder = Elige tu pais
+select-tax-location-error-missing-country-code = Elige tu pais
 select-tax-location-postal-code-label = Codice postal
+select-tax-location-postal-code =
+    .placeholder = Insere tu codice postal
+select-tax-location-error-missing-postal-code = Insere tu codice postal
+select-tax-location-error-invalid-postal-code = Insere un codice postal valide
+select-tax-location-successfully-updated = Tu position ha essite actualisate.
+select-tax-location-error-location-not-updated = Tu position non poteva esser actualisate. Retenta.
 signin-form-continue-button = Continuar
 signin-form-email-input = Insere tu email
 signin-form-email-input-missing = Insere tu email
@@ -107,6 +114,11 @@ next-coupon-success-repeating = Tu plano se renovara automaticamente depost le {
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } cata die
+plan-price-interval-weekly = { $amount } septimanalmente
+plan-price-interval-monthly = { $amount } cata mense
+plan-price-interval-6monthly = { $amount } cata 6 menses
+plan-price-interval-yearly = { $amount } annualmente
 
 ## Component - SubscriptionTitle
 
