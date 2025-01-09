@@ -42,6 +42,7 @@ next-new-user-submit = Pretplati se sada
 next-payment-validate-name-error = Upiši tvoje ime
 # Label for the Full Name input
 payment-name-label = Ime kako je navedeno na tvojoj kartici
+payment-name-placeholder = Potpuno ime
 
 ## Component - CouponForm
 
@@ -53,6 +54,9 @@ next-coupon-promo-code = Kod kupona
 next-coupon-promo-code-applied = Kod kupona primjenjen
 next-coupon-remove = Ukloni
 next-coupon-submit = Primijeni
+payments-client-loading-spinner =
+    .aria-label = Učitavanje …
+    .alt = Učitavanje …
 
 ## Payment Section
 
