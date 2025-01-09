@@ -616,9 +616,19 @@ flow-recovery-key-info-cancel-link = İptal
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-input-label = 6 basamaklı kodu girin
+flow-setup-phone-confirm-code-button = Onayla
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Kodun süresi mi doldu?
+flow-setup-phone-confirm-code-resend-code-button = Kodu yeniden gönder
+flow-setup-phone-confirm-code-success-message = Yedek kurtarma telefonu eklendi
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Telefon numaranızı doğrulayın
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Kodu gönder
 
 ## HeaderLockup component, the header in account settings
 
@@ -890,6 +900,7 @@ tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
 tfa-cannot-verify-code-4 = Yedek kimlik doğrulama kodunuz onaylanırken bir sorun oluştu
 tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
+tfa-enabled-v2 = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1254,6 +1265,7 @@ inline-recovery-confirmation-header-default = <span>Hesap ayarlarına devam etme
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
+inline-recovery-2fa-enabled-v2 = İki aşamalı kimlik doğrulama etkinleştirildi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
