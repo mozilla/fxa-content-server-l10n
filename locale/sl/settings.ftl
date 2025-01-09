@@ -294,7 +294,7 @@ recovery-phone-image-description =
 recovery-phone-code-image-description =
     .aria-label = Koda, prejeta na mobilno napravo.
 backup-recovery-phone-image-aria-label =
-    .aria-label = Mobilna naprava z možnostjo pošiljanja sporočil SMS
+    .aria-label = Mobilnik z možnostjo prejemanja sporočil SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Zaslon naprave s kodami
 
@@ -1138,7 +1138,7 @@ tfa-row-enabled-description = Vaš račun je zaščiten s overjanjem v dveh kora
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = Kako to ščiti vaš račun
-tfa-row-disabled-description-v2 = Pomagajte zavarovati svoj račun z uporabo aplikacije za overitev tretjega ponudnika kot drugega koraka pri prijavi.
+tfa-row-disabled-description-v2 = Dodatno zavarujte svoj račun z uporabo zunanje aplikacije za overjanje kot drugega koraka pri prijavi.
 tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
