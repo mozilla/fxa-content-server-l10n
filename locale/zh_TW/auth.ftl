@@ -317,6 +317,16 @@ postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozil
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 帳號已連結到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理帳號
+postAddRecoveryPhone-subject = 已新增救援電話號碼
+postAddRecoveryPhone-title = 您已新增救援電話號碼
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = 您已將尾碼為 { $maskedLastFourPhoneNumber } 的電話號碼，新增為救援電話號碼
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = 此功能如何保護您的帳號
+postAddRecoveryPhone-how-protect-plaintext = 此功能如何保護您的帳號：
+postAddRecoveryPhone-enabled-device = 您從下列位置開啟：
+postAddRecoveryPhone-action = 管理帳號
 postAddTwoStepAuthentication-subject-2 = 已開啟兩階段驗證
 postAddTwoStepAuthentication-title-2 = 您已開啟兩階段驗證
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -334,6 +344,8 @@ postChangePrimary-title = 新增主要電子郵件地址
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-mozilla-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
+postChangeRecoveryPhone-subject = 已更新救援電話號碼
+postChangeRecoveryPhone-title = 您已更改救援電話號碼
 postConsumeRecoveryCode-title-2 = 您使用了備用驗證碼
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = 使用於：
