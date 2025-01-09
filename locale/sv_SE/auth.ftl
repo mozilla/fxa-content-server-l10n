@@ -372,6 +372,8 @@ postRemoveAccountRecovery-body-part2 = Om du inte redan har gjort det, skapa en 
 postRemoveAccountRecovery-action = Hantera konto
 postRemoveRecoveryPhone-subject = Återställningstelefon borttagen
 postRemoveRecoveryPhone-title = Återställningstelefon borttagen
+postRemoveRecoveryPhone-description = Din återställningstelefon har tagits bort från dina tvåstegsautentiseringsinställningar. Du har fortfarande dina backup-autentiseringskoder tillgängliga för användning.
+postRemoveRecoveryPhone-requested-device = Du har begärt det från:
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen
 # Variables:
