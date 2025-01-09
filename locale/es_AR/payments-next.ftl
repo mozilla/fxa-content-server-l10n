@@ -9,7 +9,7 @@ next-basic-error-message = Algo salió mal. Probá de nuevo más tarde.
 
 ## Page
 
-checkout-signin-or-create = 1. Inicia sesión o crea una { -product-mozilla-account }
+checkout-signin-or-create = 1. Iniciá sesión o creá una { -product-mozilla-account }
 checkout-create-account = Crear una { -product-mozilla-account }
 continue-signin-with-google-button = Continuar con { -brand-google }
 continue-signin-with-apple-button = Continuar con { -brand-apple }
