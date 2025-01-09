@@ -33,7 +33,7 @@ next-payment-confirmation-amount = { $amount } por { $interval }
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 next-payment-confirmation-download-button = Continuar descargando
 checkout-error-boundary-retry-button = Intentar nuevamente
-checkout-error-boundary-basic-error-message = Algo salió mal Vuelva a intentarlo o <contactSupportLink> comuníquese con el servicio de asistencia. </contactSupportLink>
+checkout-error-boundary-basic-error-message = Algo salió mal. Volvé a intentarlo o <contactSupportLink>comunicate con soporte técnico .</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -78,18 +78,18 @@ select-tax-location-edit-button = Editar
 select-tax-location-save-button = Guardar
 select-tax-location-country-code-label = País
 select-tax-location-country-code-placeholder = Seleccioná tu pais
-select-tax-location-error-missing-country-code = Por favor selecciona tu país
+select-tax-location-error-missing-country-code = Seleccioná tu pais
 select-tax-location-postal-code-label = Código postal
 select-tax-location-postal-code =
-    .placeholder = Ingresa tu código postal
-select-tax-location-error-missing-postal-code = Por favor introduce tu código postal
-select-tax-location-error-invalid-postal-code = Por favor introduce un código postal válido
+    .placeholder = Ingresá tu código postal
+select-tax-location-error-missing-postal-code = Ingresá tu código postal
+select-tax-location-error-invalid-postal-code = Ingresá un código postal válido
 select-tax-location-successfully-updated = Se actualizó tu ubicación.
-select-tax-location-error-location-not-updated = No se pudo actualizar tu ubicación. Inténtelo de nuevo.
+select-tax-location-error-location-not-updated = No se pudo actualizar tu ubicación. Intentalo nuevamente.
 signin-form-continue-button = Continuar
 signin-form-email-input = Ingresá tu correo electrónico
-signin-form-email-input-missing = Por favor introduce tu correo
-signin-form-email-input-invalid = Proporciona un correo electrónico válido
+signin-form-email-input-missing = Ingresá tu correo electrónico
+signin-form-email-input-invalid = Ingresá un correo electrónico válido
 next-new-user-subscribe-product-updates-mdnplus = Me gustaría recibir noticias y actualizaciones sobre los productos de { -product-mdn-plus } y { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias y actualizaciones sobre los productos de { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
@@ -117,8 +117,8 @@ next-coupon-success-repeating = Tu plan se renovará automáticamente después d
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-plan-price-interval-daily = { $amount } al día
-plan-price-interval-weekly = { $amount } a la semana
+plan-price-interval-daily = { $amount } por día
+plan-price-interval-weekly = { $amount } por semana
 plan-price-interval-monthly = { $amount } mensuales
 plan-price-interval-6monthly = { $amount } cada 6 meses
 plan-price-interval-yearly = { $amount } al año

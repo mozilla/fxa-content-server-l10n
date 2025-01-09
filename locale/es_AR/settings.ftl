@@ -1657,12 +1657,12 @@ signin-recovery-code-desktop-relay = { -brand-firefox } tratará de volver donde
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Iniciar sesión
-signin-recovery-method-subheader = Elige un método de recuperación
-signin-recovery-method-details = Asegurámonos de que eres tú quien usó los métodos de recuperación.
+signin-recovery-method-subheader = Elegí un método de recuperación
+signin-recovery-method-details = Asegurámonos de que fuiste vos el que usó los métodos de recuperación.
 signin-recovery-method-phone = Teléfono de recuperación
 signin-recovery-method-code = Códigos de autenticación
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Quedan { $numberOfCodes }
+signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
