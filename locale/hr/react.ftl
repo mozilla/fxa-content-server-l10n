@@ -7,7 +7,7 @@ app-general-err-message = Nešto nije u redu. Pokušaj kasnije ponovo.
 
 app-footer-mozilla-logo-label = { -brand-mozilla } logotip
 app-footer-privacy-notice = Napomena o privatnosti web stranice
-app-footer-terms-of-service = Uvjeti korištenja
+app-footer-terms-of-service = Uvjeti usluge
 
 ## FxA React - Strings shared between multiple FxA products for application page title
 
