@@ -106,6 +106,7 @@ next-plan-details-total-label = Totaal
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Jo abonnemint wurdt automatysk ferlinge tsjin de normale priis.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } automatysk ferlinge tsjin de standertpriis.
@@ -116,6 +117,11 @@ next-coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } deis
+plan-price-interval-weekly = { $amount } wyks
+plan-price-interval-monthly = { $amount } yn ’e moanne
+plan-price-interval-6monthly = { $amount } yn 6 moannen
+plan-price-interval-yearly = { $amount } it jier
 
 ## Component - SubscriptionTitle
 

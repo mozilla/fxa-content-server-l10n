@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Tebek
+button-back-title = Tebek
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Mobyl apparaat dat in koade fia sms ûntfangt.
 recovery-phone-code-image-description =
     .aria-label = Koade ûntfongen op in mobyl apparaat.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobyl apparaat mei sms-mooglikheden
+backup-authentication-codes-image-aria-label =
+    .aria-label = Apparaatskerm mei koaden
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1658,6 +1664,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox } probearret jo werom te s
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Oanmelde
+signin-recovery-method-subheader = Kies in werstelmetoade
+signin-recovery-method-details = Litte wy der wis fan wêze dat jo it binne dy’t jo werstelmetoaden brûke.
+signin-recovery-method-phone = Wersteltelefoannûmer
+signin-recovery-method-code = Autentikaasjekoaden
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } koaden oer
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
