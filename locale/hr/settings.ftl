@@ -199,6 +199,8 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Upozorenje
+authenticator-app-aria-label =
+    .aria-label = Aplikacija za autentifikaciju
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanadska zastava
@@ -265,6 +267,11 @@ input-password-sr-only-now-hidden = Tvoja je lozinka sada skrivena.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Odaberi zemlju
+input-phone-number-enter-number = Upiši broj telefona
+input-phone-number-country-united-states = Sjedinjene Američke Države
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Natrag
 
@@ -517,6 +524,8 @@ flow-recovery-key-info-cancel-link = Odustani
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-input-label = Upiši šesteroznamenkasti kod
+flow-setup-phone-confirm-code-button = Potvrdi
 
 ## FlowSetupPhoneConfirmCode
 
@@ -840,6 +849,17 @@ signout-sync-session-expired = Oprosti, nešto nije u redu. Odjavi se u izbornik
 
 ## SubRow component
 
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Nabavi nove kodove
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Dodaj
+# button to change the configured backup recovery phone
+tfa-row-backup-phone-change-cta = Promijeni
+# button to add/configure a backup recovery phone
+tfa-row-backup-phone-add-cta = Dodaj
+# Button to remove a backup recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Ukloni
 
 ## Switch component
 
@@ -920,6 +940,7 @@ se-secondary-email-none = Nema
 
 tfa-row-header = Dvofaktorska autentifikacija
 tfa-row-enabled = Omogućeno
+tfa-row-disabled-status = Deaktivirano
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogući
 tfa-row-button-refresh =
@@ -1180,6 +1201,7 @@ confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
 
 confirm-totp-reset-password-header = Resetiraj tvoju lozinku
 confirm-totp-reset-password-confirm-button = Potvrdi
+confirm-totp-reset-password-input-label-v2 = Upiši šesteroznamenkasti kod
 confirm-totp-reset-password-use-different-account = Koristi jedan drugi račun
 
 ## ResetPassword start page

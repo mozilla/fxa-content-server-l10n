@@ -69,6 +69,24 @@ next-plan-details-show-button = Pokaži podatke
 
 ## Select Tax Location
 
+select-tax-location-title = Mjesto
+select-tax-location-edit-button = Uredi
+select-tax-location-save-button = Spremi
+select-tax-location-country-code-label = Zemlja
+select-tax-location-country-code-placeholder = Odaberi zemlju
+select-tax-location-error-missing-country-code = Odaberi zemlju
+select-tax-location-postal-code-label = Poštanski broj
+select-tax-location-postal-code =
+    .placeholder = Upiši tvoj poštanski broj
+select-tax-location-error-missing-postal-code = Upiši tvoj poštanski broj
+select-tax-location-error-invalid-postal-code = Upiši ispravni poštanski broj
+select-tax-location-successfully-updated = Tvoje je mjesto uspješno aktualizirano.
+select-tax-location-error-location-not-updated = Neuspjelo aktualiziranje tvog mjesta. Pokušaj ponovo.
+signin-form-continue-button = Nastavi
+signin-form-email-input = Upiši tvoju e-mail adresu
+signin-form-email-input-missing = Upiši tvoju e-mail adresu
+signin-form-email-input-invalid = Upiši ispravnu e-mail adresu
+next-new-user-subscribe-product-updates-mdnplus = Želim primati novosti i aktualiziranja za { -product-mdn-plus } i { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Želim primati novosti { -brand-mozilla } proizvoda i aktualiziranja
 next-new-user-subscribe-product-updates-snp = Želim primati novosti { -brand-mozilla } sigurnosti, obavijesti o privatnosti i aktualiziranja
 next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
@@ -83,6 +101,8 @@ next-plan-details-total-label = Ukupno
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Tvoj plan će se automatski obnoviti prema cjeniku.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $couponDurationDate } prema cjeniku.
@@ -93,6 +113,8 @@ next-coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $co
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } dnevno
+plan-price-interval-weekly = { $amount } tjedno
 
 ## Component - SubscriptionTitle
 
