@@ -352,7 +352,7 @@ postChangePrimary-action = Upravljanje računa
 postChangeRecoveryPhone-subject = Telefonska številka za obnovitev je posodobljena
 postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
 postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Prejšnja številka je bila izbrisana.
-postChangeRecoveryPhone-requested-device = Zahtevali ste jo od:
+postChangeRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
 postConsumeRecoveryCode-title-2 = Uporabili ste rezervno overitveno kodo
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Uporabljena je bila na naslednji napravi:
@@ -377,7 +377,7 @@ postRemoveAccountRecovery-action = Upravljanje računa
 postRemoveRecoveryPhone-subject = Telefonska številka za obnovitev je odstranjena
 postRemoveRecoveryPhone-title = Telefonska številka za obnovitev je odstranjena
 postRemoveRecoveryPhone-description = Vaša telefonska številka za obnovitev je bila odstranjena iz nastavitev overjanja v dveh korakih. Še vedno imate možnost uporabiti rezervne overitvene kode.
-postRemoveRecoveryPhone-requested-device = Zahtevali ste jo od:
+postRemoveRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 # Variables:
