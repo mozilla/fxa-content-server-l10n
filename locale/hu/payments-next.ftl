@@ -19,7 +19,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Először jóvá kell hagynia az előfizetését
 next-payment-confirmation-thanks-heading-account-exists = Köszönjük, most pedig nézze meg az e-mailjeit!
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Az előfizetéssel és a fizetéssel kapcsolatos tudnivalókat tartalmazó e-mailt kapni fog a(z) { $email } címre.
+payment-confirmation-thanks-subheading-account-exists-2 = Az előfizetéssel és a fizetés részleteivel kapcsolatos tudnivalókat tartalmazó e-mailt kapni fog a(z) { $email } címre.
 next-payment-confirmation-order-heading = Megrendelés részletei
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Számla #{ $invoiceNumber }
