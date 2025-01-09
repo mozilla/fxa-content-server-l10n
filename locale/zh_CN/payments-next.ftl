@@ -82,6 +82,8 @@ select-tax-location-postal-code =
 select-tax-location-error-missing-postal-code = 请输入您的邮政编码
 select-tax-location-error-invalid-postal-code = 请输入有效的邮政编码
 select-tax-location-successfully-updated = 您的位置已更新。
+select-tax-location-error-location-not-updated = 无法更新您的位置。请重试。
+signin-form-continue-button = 继续
 next-new-user-subscribe-product-updates-mdnplus = 我愿意接收来自 { -product-mdn-plus } 和 { -brand-mozilla } 的产品新闻及更新
 next-new-user-subscribe-product-updates-mozilla = 我愿意接收来自 { -brand-mozilla } 的产品新闻和更新
 next-new-user-subscribe-product-updates-snp = 我愿意接收来自 { -brand-mozilla } 的安全和隐私新闻及更新
@@ -97,6 +99,8 @@ next-plan-details-total-label = 总计
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = 您的方案将自动按标价续订。
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之后按标价自动续订。
@@ -107,6 +111,9 @@ next-coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之�
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount }/天
+plan-price-interval-weekly = { $amount }/周
+plan-price-interval-monthly = { $amount }/月
 
 ## Component - SubscriptionTitle
 

@@ -291,6 +291,8 @@ recovery-phone-image-description =
     .aria-label = 收到验证码短信的移动设备。
 recovery-phone-code-image-description =
     .aria-label = 一台移动设备收到验证码。
+backup-recovery-phone-image-aria-label =
+    .aria-label = 具有短信功能的移动设备
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
