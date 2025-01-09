@@ -9,8 +9,8 @@ next-basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
 
 ## Page
 
-checkout-signin-or-create = 1. Prijavite se ali ustvarite { -product-mozilla-account }
-checkout-create-account = Ustvarite { -product-mozilla-account }
+checkout-signin-or-create = 1. Prijavite se ali ustvarite { -product-mozilla-account(sklon: "tozilnik") }
+checkout-create-account = Ustvarite { -product-mozilla-account(sklon: "tozilnik") }
 continue-signin-with-google-button = Nadaljuj z { -brand-google(sklon: "orodnik") }
 continue-signin-with-apple-button = Nadaljuj z { -brand-apple(sklon: "orodnik") }
 next-payment-method-header = Izberite način plačila
@@ -19,7 +19,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprej morate odobriti svojo naročnino
 next-payment-confirmation-thanks-heading-account-exists = Hvala, sedaj preverite svojo e-pošto!
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Na { $email } boste prejeli e-pošto z navodili o naročnini in podrobnostih o plačilu.
+payment-confirmation-thanks-subheading-account-exists-2 = Na { $email } boste prejeli e-pošto z navodili za naročnino in podrobnostmi o plačilu.
 next-payment-confirmation-order-heading = Podrobnosti naročila
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Račun št. { $invoiceNumber }
@@ -33,7 +33,7 @@ next-payment-confirmation-amount = { $amount } na { $interval }
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 next-payment-confirmation-download-button = Nadaljuj prenos
 checkout-error-boundary-retry-button = Poskusi znova
-checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>obrnite na podporo.</contactSupportLink>
+checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>se obrnite na podporo</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -45,7 +45,7 @@ next-payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 next-new-user-submit = Naroči se zdaj
 next-payment-validate-name-error = Vnesite svoje ime
 # Label for the Full Name input
-payment-name-label = Imejte, kot je prikazano na kartici
+payment-name-label = Ime, kot je izpisano na kartici
 payment-name-placeholder = Polno ime
 
 ## Component - CouponForm
@@ -77,18 +77,18 @@ select-tax-location-title = Lokacija
 select-tax-location-edit-button = Uredi
 select-tax-location-save-button = Shrani
 select-tax-location-country-code-label = Država
-select-tax-location-country-code-placeholder = Izberite svojo državo
+select-tax-location-country-code-placeholder = Izberite državo
 select-tax-location-error-missing-country-code = Izberite svojo državo
 select-tax-location-postal-code-label = Poštna številka
 select-tax-location-postal-code =
     .placeholder = Vnesite poštno številko
-select-tax-location-error-missing-postal-code = Vnesite vašo poštno številko
+select-tax-location-error-missing-postal-code = Vnesite svojo poštno številko
 select-tax-location-error-invalid-postal-code = Vnesite veljavno poštno številko
 select-tax-location-successfully-updated = Vaša lokacija je posodobljena.
-select-tax-location-error-location-not-updated = Vaše lokacije ni bilo mogoče posodobiti. Prosimo, poskusite znova.
+select-tax-location-error-location-not-updated = Vaše lokacije ni bilo mogoče posodobiti. Poskusite znova.
 signin-form-continue-button = Nadaljuj
 signin-form-email-input = Vnesite e-poštni naslov
-signin-form-email-input-missing = Vnesite prosim svoj e-poštni naslov
+signin-form-email-input-missing = Vnesite svoj e-poštni naslov
 signin-form-email-input-invalid = Vnesite veljaven e-poštni naslov
 next-new-user-subscribe-product-updates-mdnplus = Želim prejemati novice in obvestila o izdelkih { -product-mdn-plus } in { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Želim prejemati novice in obvestila o izdelkih { -brand-mozilla(sklon: "rodilnik") }
