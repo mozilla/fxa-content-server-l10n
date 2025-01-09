@@ -646,6 +646,14 @@ flow-setup-phone-confirm-code-success-message = Numero de telephono de recuperat
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifica tu numero de telephono
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Tu recipera un SMS ab { -brand-mozilla } con un codice pro verificar tu numero. Non comparti iste codice con quicunque.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Le numero de telephono de recuperation de reserva es solo disponibile in le Statos Unite e Canada. Numeros e mascas de telephono VoIP non es recommendate.
+flow-setup-phone-submit-number-legal = Forniente tu numero, tu concorda con nos de immagazinar lo assi nos pote inviar te SMS pro solo pro verification del conto. Tarifas de messages e datos pote applicar se.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Inviar codice
 
@@ -1133,6 +1141,7 @@ tfa-row-enabled-description = Tu conto es protegite per authentication a duo pas
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = Como isto protege tu conto
+tfa-row-disabled-description-v2 = Adjuta assecurar tu conto per un app de authentication de tertie-parte como secunde passo pro aperir session.
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
@@ -1650,6 +1659,8 @@ signin-recovery-code-desktop-relay = { -brand-firefox } tentara inviar te retro 
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Aperir session
+signin-recovery-method-subheader = Selige un methodo de recuperation
+signin-recovery-method-details = Que nos verifica que il es tu que usa tu methodos de recuperation.
 signin-recovery-method-phone = Telephono de recuperation
 signin-recovery-method-code = Codices de authentication
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4

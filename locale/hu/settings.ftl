@@ -294,9 +294,9 @@ recovery-phone-image-description =
 recovery-phone-code-image-description =
     .aria-label = Mobileszközön kapott kód.
 backup-recovery-phone-image-aria-label =
-    .aria-label = Mobileszköz SMS szöveges üzenetküldési lehetőséggel
+    .aria-label = Mobileszköz SMS lehetőséggel
 backup-authentication-codes-image-aria-label =
-    .aria-label = Eszköz képernyő kódok
+    .aria-label = Eszközképernyő kódokkal
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1662,8 +1662,8 @@ signin-recovery-code-desktop-relay = Bejelentkezés után a { -brand-firefox } m
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Bejelentkezés
-signin-recovery-method-subheader = Válasszon helyreállítási módszert
-signin-recovery-method-details = A helyreállítási módszerek segítségével győződjön meg róla, hogy Ön az.
+signin-recovery-method-subheader = Válasszon helyreállítási módot
+signin-recovery-method-details = A helyreállítási módok segítségével meggyőződünk arról, hogy Ön az.
 signin-recovery-method-phone = Helyreállítási telefonszám
 signin-recovery-method-code = Hitelesítési kódok
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
