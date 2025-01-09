@@ -85,6 +85,11 @@ select-tax-location-postal-code =
 select-tax-location-error-missing-postal-code = Fier jo postkoade yn
 select-tax-location-error-invalid-postal-code = Fier in jildige postkoade yn
 select-tax-location-successfully-updated = Jo lokaasje is bywurke.
+select-tax-location-error-location-not-updated = Jo lokaasje koe net bywurke wurde. Probearje it opnij.
+signin-form-continue-button = Trochgean
+signin-form-email-input = Fier jo e-mailadres yn
+signin-form-email-input-missing = Fier jo e-mailadres yn
+signin-form-email-input-invalid = Jou in jildich e-mailadres op.
 next-new-user-subscribe-product-updates-mdnplus = Ik wol graach produktnijs en -updates fan { -product-mdn-plus } en { -brand-mozilla } ûntfange
 next-new-user-subscribe-product-updates-mozilla = Ik wol graach produktnijs en -updates fan { -brand-mozilla } ûntfange
 next-new-user-subscribe-product-updates-snp = Ik wol graach befeiligings- en privacynijs en updates fan { -brand-mozilla } ûntfange
@@ -100,6 +105,7 @@ next-plan-details-total-label = Totaal
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
 next-coupon-success = Jo abonnemint wurdt automatysk ferlinge tsjin de normale priis.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } automatysk ferlinge tsjin de standertpriis.
