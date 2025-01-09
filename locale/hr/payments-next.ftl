@@ -3,8 +3,9 @@
 
 next-payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
 next-payment-error-manage-subscription-button = Upravljaj mojom pretplatom
-next-payment-error-retry-button = Pokušaj ponovno
-next-basic-error-message = Nešto je pošlo po zlu. Pokušaj ponovo kasnije.
+next-iap-upgrade-contact-support = Još uvijek možeš dobiti ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
+next-payment-error-retry-button = Pokušaj ponovo
+next-basic-error-message = Nešto nije u redu. Pokušaj kasnije ponovo.
 
 ## Page
 
@@ -29,12 +30,14 @@ next-payment-confirmation-details-heading-2 = Informacije o plaćanju
 # $interval (String) - The interval between payments.
 next-payment-confirmation-amount = { $amount } / { $interval }
 # $last4 (Number) - Last four numbers of credit card
-next-payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
+next-payment-confirmation-cc-card-ending-in = Kartica završava s { $last4 }
 next-payment-confirmation-download-button = Nastavi s preuzimanjem
 checkout-error-boundary-retry-button = Pokušaj ponovo
+checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponovo ili <contactSupportLink>kontaktiraj podršku.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
+next-payment-confirm-checkbox-error = Ovo moraš dovršiti prije nego što nastaviš
 
 ## Checkout Form
 
@@ -115,6 +118,9 @@ next-coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $co
 
 plan-price-interval-daily = { $amount } dnevno
 plan-price-interval-weekly = { $amount } tjedno
+plan-price-interval-monthly = { $amount } mjesečno
+plan-price-interval-6monthly = { $amount } svakih 6 mjeseci
+plan-price-interval-yearly = { $amount } godišnje
 
 ## Component - SubscriptionTitle
 
