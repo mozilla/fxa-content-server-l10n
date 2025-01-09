@@ -313,6 +313,7 @@ postAddLinkedAccount-subject-2 = Novi račun je povezan s tvojim { -product-mozi
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tvoj { $providerName } račun je povezan s tvojim { -product-mozilla-account }
 postAddLinkedAccount-action = Upravljaj računom
+postAddRecoveryPhone-action = Upravljaj računom
 postAddTwoStepAuthentication-subject-2 = Dvofaktorska autentifikacija aktivirana
 postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -399,6 +400,13 @@ subscriptionCancellation-title = Žao nam je što odlaziš
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Prebacio/la si se na { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Uspješno si se prebacio/la s { $productNameOld } na { $productName }.
 subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -485,6 +493,7 @@ unblockCode-subject = Kod za autorizaciju računa
 unblockCode-title = Je li ovo tvoja prijava?
 unblockCode-prompt = Ako da, ovo je potrebni autorizacijski kôd:
 unblockCode-report-plaintext = Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema.
+verificationReminderFinal-subject = Posljednji podsjetnik za potvrđivanje tvog računa
 confirm-account = Potvrdi račun
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ne zaboravi potvrditi svoj račun

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-11-07 19:01+0000\n"
+"PO-Revision-Date: 2025-01-09 16:19+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -532,7 +532,7 @@ msgstr "Ova krajnja točka više nije podržana"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Završi postavljanje računa. <a href=\"/reset_password\">Resetiraj lozinku</a> za nastavak."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -2013,11 +2013,11 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>1. korak</b>: Preuzmi Firefox skeniranjem ovog QR koda kamerom na svom mobilnom uređaju:"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QR kod (nalazi se u sredini ekrana)"
 
 #: .es5/templates/pair/index.mustache:22
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
