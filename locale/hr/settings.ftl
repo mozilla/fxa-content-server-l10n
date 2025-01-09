@@ -1203,6 +1203,8 @@ confirm-totp-reset-password-header = Resetiraj tvoju lozinku
 confirm-totp-reset-password-confirm-button = Potvrdi
 confirm-totp-reset-password-input-label-v2 = Upiši šesteroznamenkasti kod
 confirm-totp-reset-password-use-different-account = Koristi jedan drugi račun
+confirm-recovery-code-reset-password-input-label = Upiši desetoznamenkasti kod
+confirm-recovery-code-reset-password-trouble-code = Natrag
 
 ## ResetPassword start page
 
@@ -1261,6 +1263,8 @@ signin-push-code-confirm-login = Potvrdi prijavu
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Prijavi se
+signin-recovery-code-input-label-v2 = Upiši desetoznamenkasti kod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdi
 # Link to return to signin with two-step authentication code
@@ -1270,6 +1274,10 @@ signin-recovery-code-back-link = Natrag
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Prijavi se
+signin-recovery-method-code = Kodovi za autentifikaciju
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Broj preostalih kodova: { $numberOfCodes }
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1297,6 +1305,8 @@ signin-token-code-required-error = Potreban je potvrdni kod
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Prijavi se
+signin-totp-code-input-label-v4 = Upiši šesteroznamenkasti kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdi
 signin-totp-code-other-account-link = Koristi jedan drugi račun

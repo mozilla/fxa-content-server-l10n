@@ -383,6 +383,7 @@ coupon-expired = Čini se da je taj kod kupona istekao.
 card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
 country-currency-mismatch = Valuta ove pretplate ne vrijedi za zemlju povezanu s tvojom plaćanjem.
 currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
+location-unsupported = Tvoje trenutačno mjesto nije podržano prema našim uvjetima usluge.
 no-subscription-change = Žao nam je. Ne možeš promijeniti tvoj plan pretplate.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Već si pretplaćen/a putem { $mobileAppStore }.
@@ -397,6 +398,7 @@ product-profile-error =
 product-customer-error =
     .title = Problem s učitavanjem kupca
 product-plan-not-found = Plan nije pronađen
+product-location-unsupported-error = Mjesto nije podržano
 
 ## Hooks - coupons
 
