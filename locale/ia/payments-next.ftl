@@ -9,6 +9,7 @@ next-basic-error-message = Alco errate eveniva. Reproba plus tarde.
 
 ## Page
 
+checkout-signin-or-create = 1. Acceder o crear un { -product-mozilla-account }
 checkout-create-account = Crear un { -product-mozilla-account }
 continue-signin-with-google-button = Continuar con { -brand-google }
 continue-signin-with-apple-button = Continuar con { -brand-apple }
@@ -17,6 +18,8 @@ next-payment-method-header = Elige tu methodo de pagamento
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primo tu debera approbar tu subscription
 next-payment-confirmation-thanks-heading-account-exists = Gratias, ora verifica tu e-mail!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Tu recipera un email a { $email } con instructiones re tu abonamento, e tu detalios de pagamento.
 next-payment-confirmation-order-heading = Detalios del ordine
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
@@ -30,6 +33,7 @@ next-payment-confirmation-amount = { $amount } per { $interval }
 next-payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 next-payment-confirmation-download-button = Continuar a discargar
 checkout-error-boundary-retry-button = Retentar
+checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o contacta le <contactSupportLink>supporto.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 

@@ -321,8 +321,13 @@ postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-accou
 postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Gerer le conto
 postAddRecoveryPhone-subject = Telephono de recuperation addite
+postAddRecoveryPhone-title = Tu ha create un numero de telephono de recuperation
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Tu ha addite { $maskedLastFourPhoneNumber } como tu numero de telephono de recuperation
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Como isto protege tu conto
+postAddRecoveryPhone-how-protect-plaintext = Como isto protege tu conto:
 postAddRecoveryPhone-enabled-device = Tu lo activava ab:
 postAddRecoveryPhone-action = Gerer le conto
 postAddTwoStepAuthentication-subject-2 = Le authentication a duo passos es activate
@@ -344,6 +349,10 @@ postChangePrimary-description-2 = Tu ha correctemente cambiate tu adresse de e-m
 postChangePrimary-action = Gerer le conto
 postChangeRecoveryPhone-subject = Telephono de recuperation actualisate
 postChangeRecoveryPhone-title = Tu cambiava tu telephono de recuperation
+postChangeRecoveryPhone-description =
+    Tu ora ha un nove numero de telephono de recuperation.
+    Tu previe numero de telephono ha essite delite.
+postChangeRecoveryPhone-requested-device = Tu ha requirite illo ab:
 postConsumeRecoveryCode-title-2 = Tu ha usate un codice de authentication de reserva
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Illo era usate sur:
@@ -363,6 +372,10 @@ postRemoveAccountRecovery-title-3 = Tu ha delite tu clave recuperation del conto
 postRemoveAccountRecovery-body-part1 = Tu clave de recuperation del conto es necessari pro restaurar tu datos de navigation cryptate si tu oblida tu contrasigno.
 postRemoveAccountRecovery-body-part2 = Si tu jam non lo habeva, crea un nove clave de recuperation del conto in le parametro de tu conto, pro impedir de perder tu contrasignos, marcapaginas, chronologia de navigation, e altero ancora reservate.
 postRemoveAccountRecovery-action = Gerer le conto
+postRemoveRecoveryPhone-subject = Numero de telephono de recuperation removite
+postRemoveRecoveryPhone-title = Telephono de recuperation removite
+postRemoveRecoveryPhone-description = Tu numero de telephono de recuperation ha essite removite ab le parametros de tu authentication a duo passos. Tu ancora ha tu codices de authentication disponibile a usar.
+postRemoveRecoveryPhone-requested-device = Tu ha requirite illo ab:
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
 # Variables:
