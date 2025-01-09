@@ -346,6 +346,8 @@ postChangePrimary-description-2 = 您已成功將主要電子郵件地址更改�
 postChangePrimary-action = 管理帳號
 postChangeRecoveryPhone-subject = 已更新救援電話號碼
 postChangeRecoveryPhone-title = 您已更改救援電話號碼
+postChangeRecoveryPhone-description = 您已更新救援電話號碼，舊號碼已刪除。
+postChangeRecoveryPhone-requested-device = 您從下列位置要求：
 postConsumeRecoveryCode-title-2 = 您使用了備用驗證碼
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = 使用於：
@@ -364,6 +366,8 @@ postRemoveAccountRecovery-title-3 = 您已刪除帳號救援金鑰。
 postRemoveAccountRecovery-body-part1 = 若您忘記密碼，必須使用帳號救援金鑰才可以解開加密過的瀏覽資料。
 postRemoveAccountRecovery-body-part2 = 若您還沒有建立過，請先到帳號設定中建立帳號救援金鑰，即可避免遺失儲存的網站密碼、書籤、瀏覽紀錄等資料。
 postRemoveAccountRecovery-action = 管理帳號
+postRemoveRecoveryPhone-subject = 已移除救援電話號碼
+postRemoveRecoveryPhone-title = 已移除救援電話號碼
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:
