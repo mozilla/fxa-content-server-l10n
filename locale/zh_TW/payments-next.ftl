@@ -41,6 +41,9 @@ next-payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下
 
 next-new-user-submit = 立刻訂閱
 next-payment-validate-name-error = 請輸入您的大名
+# Label for the Full Name input
+payment-name-label = 卡片上的持卡人姓名
+payment-name-placeholder = 全名
 
 ## Component - CouponForm
 
@@ -52,6 +55,9 @@ next-coupon-promo-code = 折扣碼
 next-coupon-promo-code-applied = 已套用折扣碼
 next-coupon-remove = 移除
 next-coupon-submit = 套用
+payments-client-loading-spinner =
+    .aria-label = 載入中…
+    .alt = 載入中…
 
 ## Payment Section
 
@@ -64,6 +70,23 @@ next-plan-details-show-button = 顯示詳細資訊
 
 ## Select Tax Location
 
+select-tax-location-title = 位置
+select-tax-location-edit-button = 編輯
+select-tax-location-save-button = 儲存
+select-tax-location-country-code-label = 國家
+select-tax-location-country-code-placeholder = 選擇您的國家
+select-tax-location-error-missing-country-code = 請選擇您的國家
+select-tax-location-postal-code-label = 郵遞區號
+select-tax-location-postal-code =
+    .placeholder = 請輸入您的郵遞區號
+select-tax-location-error-missing-postal-code = 請輸入您的郵遞區號
+select-tax-location-error-invalid-postal-code = 請輸入有效的郵遞區號
+select-tax-location-successfully-updated = 已更新您的地點。
+select-tax-location-error-location-not-updated = 無法更新您的地點，請再試一次。
+signin-form-continue-button = 繼續
+signin-form-email-input = 輸入您的電子郵件地址
+signin-form-email-input-missing = 請輸入您的電子郵件地址
+signin-form-email-input-invalid = 請提供您的電子郵件地址
 next-new-user-subscribe-product-updates-mdnplus = 我想要收到 { -product-mdn-plus } 與 { -brand-mozilla } 的產品新聞與更新資訊
 next-new-user-subscribe-product-updates-mozilla = 我想要收到 { -brand-mozilla } 的產品新聞與更新資訊
 next-new-user-subscribe-product-updates-snp = 我想要收到 { -brand-mozilla } 的安全性與隱私權新聞與更新資訊
@@ -79,6 +102,8 @@ next-plan-details-total-label = 總計
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = 您的訂閱方案將以牌告原價自動續約。
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之後依牌告原價自動續訂。
@@ -89,6 +114,11 @@ next-coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之�
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = 每天 { $amount }
+plan-price-interval-weekly = 每週 { $amount }
+plan-price-interval-monthly = 每月 { $amount }
+plan-price-interval-6monthly = 每半年 { $amount }
+plan-price-interval-yearly = 每年 { $amount }
 
 ## Component - SubscriptionTitle
 

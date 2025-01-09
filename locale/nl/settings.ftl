@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Terug
+button-back-title = Terug
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Mobiel apparaat dat een code per sms ontvangt.
 recovery-phone-code-image-description =
     .aria-label = Code ontvangen op een mobiel apparaat.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobiel apparaat met sms-mogelijkheden
+backup-authentication-codes-image-aria-label =
+    .aria-label = Apparaatscherm met codes
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1654,6 +1660,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox } probeert u terug te stur
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Aanmelden
+signin-recovery-method-subheader = Kies een herstelmethode
+signin-recovery-method-details = Laten we controleren dat u het bent die uw herstelmethoden gebruikt.
+signin-recovery-method-phone = Hersteltelefoonnummer
+signin-recovery-method-code = Authenticatiecodes
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } codes resterend
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

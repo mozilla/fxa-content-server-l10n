@@ -33,7 +33,7 @@ next-payment-confirmation-amount = { $amount } par { $interval }
 next-payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 next-payment-confirmation-download-button = Continuer vers le téléchargement
 checkout-error-boundary-retry-button = Réessayer
-checkout-error-boundary-basic-error-message = Quelque chose s'est mal passé. Veuillez réessayer ou <contactSupportLink>contacter l’assistance.</contactSupportLink>
+checkout-error-boundary-basic-error-message = Quelque chose s’est mal passé. Veuillez réessayer ou <contactSupportLink>contacter l’assistance.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -45,7 +45,7 @@ next-payment-confirm-checkbox-error = Vous devez terminer cette étape avant de 
 next-new-user-submit = S’abonner maintenant
 next-payment-validate-name-error = Veuillez saisir votre nom
 # Label for the Full Name input
-payment-name-label = Nom tel qu’il apparaît sur votre carte
+payment-name-label = Votre nom tel qu’il apparaît sur votre carte
 payment-name-placeholder = Nom complet
 
 ## Component - CouponForm
@@ -73,7 +73,7 @@ next-plan-details-show-button = Afficher les détails
 
 ## Select Tax Location
 
-select-tax-location-title = Emplacement
+select-tax-location-title = Localisation
 select-tax-location-edit-button = Modifier
 select-tax-location-save-button = Enregistrer
 select-tax-location-country-code-label = Pays
@@ -88,8 +88,8 @@ select-tax-location-successfully-updated = Votre localisation a été mise à jo
 select-tax-location-error-location-not-updated = Votre localisation n’a pas pu être mise à jour. Veuillez réessayer.
 signin-form-continue-button = Continuer
 signin-form-email-input = Saisissez votre adresse e-mail
-signin-form-email-input-missing = Veuillez saisir votre adresse électronique
-signin-form-email-input-invalid = Veuillez spécifier une adresse électronique valide
+signin-form-email-input-missing = Veuillez saisir votre adresse e-mail
+signin-form-email-input-invalid = Veuillez spécifier une adresse e-mail valide
 next-new-user-subscribe-product-updates-mdnplus = Je souhaite recevoir des informations sur les produits et des actualités de { -product-mdn-plus } et { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Je souhaite recevoir des informations sur les produits et des actualités de { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Je souhaite recevoir des informations sur la sécurité et la confidentialité et des actualités de { -brand-mozilla }

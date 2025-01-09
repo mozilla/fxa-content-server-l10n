@@ -320,6 +320,16 @@ postAddLinkedAccount-subject-2 = Nieuwe account gekoppeld aan uw { -product-mozi
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Uw { $providerName }-account is gekoppeld aan uw { -product-mozilla-account }
 postAddLinkedAccount-action = Account beheren
+postAddRecoveryPhone-subject = Hersteltelefoonnummer toegevoegd
+postAddRecoveryPhone-title = U hebt een hersteltelefoonnummer aangemaakt
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = U hebt { $maskedLastFourPhoneNumber } toegevoegd als uw hersteltelefoonnummer
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Hoe dit uw account beschermt
+postAddRecoveryPhone-how-protect-plaintext = Hoe dit uw account beschermt:
+postAddRecoveryPhone-enabled-device = U hebt het ingeschakeld vanaf:
+postAddRecoveryPhone-action = Account beheren
 postAddTwoStepAuthentication-subject-2 = Authenticatie in twee stappen ingeschakeld
 postAddTwoStepAuthentication-title-2 = U hebt authenticatie in twee stappen ingeschakeld
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -337,6 +347,10 @@ postChangePrimary-title = Nieuw primair e-mailadres
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = U hebt uw primaire e-mailadres met succes naar { $email } gewijzigd. Dit adres is nu uw gebruikersnaam voor het aanmelden bij uw { -product-mozilla-account }, evenals voor het ontvangen van beveiligingsmeldingen
 postChangePrimary-action = Account beheren
+postChangeRecoveryPhone-subject = Hersteltelefoonnummer bijgewerkt
+postChangeRecoveryPhone-title = U hebt uw hersteltelefoonnummer gewijzigd
+postChangeRecoveryPhone-description = U hebt nu een nieuw hersteltelefoonnummer. Uw vorige telefoonnummer is verwijderd.
+postChangeRecoveryPhone-requested-device = U hebt het opgevraagd vanaf:
 postConsumeRecoveryCode-title-2 = U hebt een reserve-authenticatiecode gebruikt
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Deze is gebruikt op:
@@ -356,6 +370,10 @@ postRemoveAccountRecovery-title-3 = U hebt uw accountherstelsleutel verwijderd
 postRemoveAccountRecovery-body-part1 = Uw accountherstelsleutel is vereist om uw versleutelde navigatiegegevens te herstellen als u uw wachtwoord vergeet.
 postRemoveAccountRecovery-body-part2 = Maak, als u dat nog niet hebt gedaan, een nieuwe accountherstelsleutel aan in uw accountinstellingen om te voorkomen dat u uw opgeslagen wachtwoorden, bladwijzers, navigatiegeschiedenis en meer kwijtraakt.
 postRemoveAccountRecovery-action = Account beheren
+postRemoveRecoveryPhone-subject = Hersteltelefoonnummer verwijderd
+postRemoveRecoveryPhone-title = Hersteltelefoonnummer verwijderd
+postRemoveRecoveryPhone-description = Uw hersteltelefoonnummer is verwijderd uit uw instellingen voor authenticatie in twee stappen. U kunt nog steeds uw reserve-authenticatiecodes gebruiken.
+postRemoveRecoveryPhone-requested-device = U hebt het opgevraagd vanaf:
 postRemoveSecondary-subject = Secundair e-mailadres verwijderd
 postRemoveSecondary-title = Secundair e-mailadres verwijderd
 # Variables:

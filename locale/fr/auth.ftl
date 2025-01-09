@@ -328,7 +328,7 @@ postAddRecoveryPhone-description = Vous avez ajouté { $maskedLastFourPhoneNumbe
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Comment cela protège votre compte
 postAddRecoveryPhone-how-protect-plaintext = Comment cela protège votre compte :
-postAddRecoveryPhone-enabled-device = Vous l’avez activée depuis :
+postAddRecoveryPhone-enabled-device = Vous l’avez activé le :
 postAddRecoveryPhone-action = Gérer le compte
 postAddTwoStepAuthentication-subject-2 = Authentification en deux étapes activée
 postAddTwoStepAuthentication-title-2 = Vous avez activé l’authentification en deux étapes
@@ -348,9 +348,9 @@ postChangePrimary-title = Nouvelle adresse e-mail principale
 postChangePrimary-description-2 = Votre adresse e-mail principale est désormais { $email }. Vous pouvez à présent l’utiliser pour vous connecter à votre { -product-mozilla-account } et recevoir les notifications de sécurité et les confirmations de connexion.
 postChangePrimary-action = Gérer le compte
 postChangeRecoveryPhone-subject = Numéro de téléphone de récupération mis à jour
-postChangeRecoveryPhone-title = Vous avez changé de numéro de téléphone de récupération
+postChangeRecoveryPhone-title = Vous avez changé votre numéro de téléphone de récupération
 postChangeRecoveryPhone-description = Vous avez maintenant un nouveau numéro de téléphone de récupération. Votre précédent numéro de téléphone a été supprimé.
-postChangeRecoveryPhone-requested-device = L’invitation a été effectuée depuis :
+postChangeRecoveryPhone-requested-device = La demande a été effectuée depuis :
 postConsumeRecoveryCode-title-2 = Vous avez utilisé un code d’authentification de secours
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Il a été utilisé sur :
@@ -370,10 +370,10 @@ postRemoveAccountRecovery-title-3 = Vous avez supprimé la clé de récupératio
 postRemoveAccountRecovery-body-part1 = Votre clé de récupération de compte est nécessaire pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
 postRemoveAccountRecovery-body-part2 = Si ce n’est pas déjà fait, créez une nouvelle clé de récupération depuis les paramètres de votre compte pour éviter de perdre vos mots de passe, marque-pages, historique de navigation et autres données enregistrées.
 postRemoveAccountRecovery-action = Gérer le compte
-postRemoveRecoveryPhone-subject = Le numéro de téléphone a été supprimé
-postRemoveRecoveryPhone-title = Le numéro de téléphone a été supprimé
+postRemoveRecoveryPhone-subject = Le numéro de téléphone de récupération a été supprimé
+postRemoveRecoveryPhone-title = Le numéro de téléphone de récupération a été supprimé
 postRemoveRecoveryPhone-description = Votre numéro de téléphone de récupération a été supprimé de vos paramètres d’authentification en deux étapes. Vous pouvez toujours utiliser vos codes d’authentification de secours.
-postRemoveRecoveryPhone-requested-device = L’invitation a été effectuée depuis :
+postRemoveRecoveryPhone-requested-device = La demande a été effectuée depuis :
 postRemoveSecondary-subject = L’adresse e-mail secondaire a été supprimée
 postRemoveSecondary-title = L’adresse e-mail secondaire a été supprimée
 # Variables:
