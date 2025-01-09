@@ -45,6 +45,7 @@ new-user-confirm-email =
 new-user-subscribe-product-updates-mozilla = Želim primati novosti { -brand-mozilla } proizvoda i aktualiziranja
 new-user-subscribe-product-updates-snp = Želim primati novosti { -brand-mozilla } sigurnosti, obavijesti o privatnosti i aktualiziranja
 new-user-subscribe-product-updates-hubs = Želim primati { -product-mozilla-hubs } i { -brand-mozilla } novosti i aktualiziranja
+new-user-subscribe-product-updates-mdnplus = Želim primati novosti i aktualiziranja za { -product-mdn-plus } i { -brand-mozilla }
 new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
 new-user-email-validate = E-mail adresa nije ispravna
 new-user-email-validate-confirm = E-mail adrese se ne poklapaju
