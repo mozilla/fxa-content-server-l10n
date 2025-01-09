@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Retro
+button-back-title = Retro
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -321,6 +323,8 @@ input-password-sr-only-now-hidden = Tu contrasigno es ora celate.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Elige le pais
 input-phone-number-enter-number = Inserer numero de telephono
 input-phone-number-country-united-states = Statos Unite
 input-phone-number-country-canada = Canada
@@ -565,6 +569,9 @@ dc-learn-more = Pro saper plus
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu de { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = In session como
 drop-down-menu-sign-out = Clauder session
 drop-down-menu-sign-out-error-2 = Desolate, problema durante tu disconnexion
 
@@ -618,9 +625,20 @@ flow-recovery-key-info-cancel-link = Cancellar
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Insere le codice de verification
+flow-setup-phone-confirm-code-input-label = Insere le codice de 6 digitos
+flow-setup-phone-confirm-code-button = Confirmar
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Codice expirate?
+flow-setup-phone-confirm-code-resend-code-button = Reinviar le codice
 
 ## FlowSetupPhoneConfirmCode
 
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Inviar codice
 
 ## HeaderLockup component, the header in account settings
 
@@ -839,6 +857,7 @@ recovery-key-create-back-button-title = Retornar al configuration
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Adder telephono de recuperation
 
 ## Add secondary email page
 
@@ -892,6 +911,7 @@ tfa-incorrect-totp = Codice de authentication a duo passos non correcte
 tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
 tfa-cannot-verify-code-4 = Il habeva un problema al confirmation de tu codice de authentication de reserva
 tfa-incorrect-recovery-code-1 = Codice de authentication de reserva non correcte
+tfa-enabled-v2 = Authentication a duo passos activate
 tfa-scan-this-code =
     Scanna iste codice QR usante un de <linkExternal>iste
     applicationes de authentication</linkExternal>.
@@ -1616,6 +1636,9 @@ signin-recovery-code-desktop-relay = { -brand-firefox } tentara inviar te retro 
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Aperir session
+signin-recovery-method-phone = Telephono de recuperation
+signin-recovery-method-code = Codices de authentication
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

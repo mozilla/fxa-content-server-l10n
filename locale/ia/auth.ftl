@@ -320,6 +320,9 @@ postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-accou
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Gerer le conto
+postAddRecoveryPhone-subject = Telephono de recuperation addite
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Como isto protege tu conto
 postAddRecoveryPhone-enabled-device = Tu lo activava ab:
 postAddRecoveryPhone-action = Gerer le conto
 postAddTwoStepAuthentication-subject-2 = Le authentication a duo passos es activate
@@ -339,6 +342,8 @@ postChangePrimary-title = Nove e-mail primari
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-mozilla-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
+postChangeRecoveryPhone-subject = Telephono de recuperation actualisate
+postChangeRecoveryPhone-title = Tu cambiava tu telephono de recuperation
 postConsumeRecoveryCode-title-2 = Tu ha usate un codice de authentication de reserva
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Illo era usate sur:
