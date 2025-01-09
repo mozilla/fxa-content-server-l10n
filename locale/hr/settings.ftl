@@ -199,6 +199,12 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = Upozorenje
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Pažnja
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Upozorenje
 authenticator-app-aria-label =
     .aria-label = Aplikacija za autentifikaciju
 # Used to select Canada as country code for phone number
@@ -241,6 +247,8 @@ signin-totp-code-image-label =
     .aria-label = Uređaj sa skrivenim 6-znamenkastim kodom.
 confirm-signup-aria-label =
     .aria-label = Kuverta koja sadrži poveznicu
+backup-authentication-codes-image-aria-label =
+    .aria-label = Ekran uređaja s kodovima
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -286,9 +294,13 @@ signin-link-damaged-header = Poveznica potvrde je oštećena
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Poveznica je oštećena
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Poveznici na koju si kliknuo/la nedostaju neki znakovi ili ju je tvoj klijent e-pošte pokvario. Kopiraj poveznicu i pokušaj ponovo.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Primi novu poveznicu
 
 ## LinkRememberPassword component
 
@@ -479,6 +491,9 @@ dc-learn-more = Saznaj više
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Izbornik za { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Prijavljen/a si kao
 drop-down-menu-sign-out = Odjava
 drop-down-menu-sign-out-error-2 = Žao nam je. Došlo je do greške prilikom odjave
 
@@ -526,9 +541,15 @@ flow-recovery-key-info-cancel-link = Odustani
 
 flow-setup-phone-confirm-code-input-label = Upiši šesteroznamenkasti kod
 flow-setup-phone-confirm-code-button = Potvrdi
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Kod je istekao?
+flow-setup-phone-confirm-code-resend-code-button = Ponovo pošalji kod
 
 ## FlowSetupPhoneConfirmCode
 
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Pošalji kod
 
 ## HeaderLockup component, the header in account settings
 
