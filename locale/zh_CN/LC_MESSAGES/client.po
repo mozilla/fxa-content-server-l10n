@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-29 10:02+0000\n"
+"PO-Revision-Date: 2025-01-09 06:59+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -782,7 +782,7 @@ msgstr "令牌已过期"
 
 #: .es5/lib/oauth-errors.js:127
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "出问题了。请关闭本标签页然后再试一次。"
+msgstr "出了点问题。请关闭本标签页然后再试一次。"
 
 #: .es5/lib/oauth-errors.js:146
 msgid "no message"

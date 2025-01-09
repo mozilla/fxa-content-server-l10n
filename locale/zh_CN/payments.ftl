@@ -343,7 +343,7 @@ plan-price-interval-year =
 
 # App error dialog
 general-error-heading = 一般性程序错误
-basic-error-message = 出问题了，请稍后再试。
+basic-error-message = 出了点问题，请稍后再试。
 payment-error-1 = 呃，您的付款授权有问题。请再试一次或与您的发卡机构联系。
 payment-error-2 = 呃，您的付款授权有问题。请与您的发卡机构联系。
 payment-error-3b = 处理付款时发生意外错误，请重试。

@@ -317,6 +317,11 @@ postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理账户
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = 此举如何保护您的账户
+postAddRecoveryPhone-how-protect-plaintext = 此举如何保护您的账户：
+postAddRecoveryPhone-enabled-device = 您已从下列位置启用：
+postAddRecoveryPhone-action = 管理账户
 postAddTwoStepAuthentication-subject-2 = 两步验证已开启
 postAddTwoStepAuthentication-title-2 = 您已开启两步验证
 # After the colon, there is a description of the device that the user used to enable two-step authentication

@@ -1,7 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
 app-general-err-heading = 一般性程序错误
-app-general-err-message = 出问题了，请稍后再试。
+app-general-err-message = 出了点问题，请稍后再试。
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
