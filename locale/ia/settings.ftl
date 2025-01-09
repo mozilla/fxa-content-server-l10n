@@ -293,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Apparato mobile que recipe un codice per SMS.
 recovery-phone-code-image-description =
     .aria-label = Codice recipite sur un apparato mobile.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Apparato mobile con capacitates de messages de texto SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Schermo de apparato con codices
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -628,15 +632,20 @@ flow-recovery-key-info-cancel-link = Cancellar
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Insere le codice de verification
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Un codice de sex cifras era inviate a <span>{ $phoneNumber }</span> per message de texto. Iste codice expira post 5 minutas.
 flow-setup-phone-confirm-code-input-label = Insere le codice de 6 digitos
 flow-setup-phone-confirm-code-button = Confirmar
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Codice expirate?
 flow-setup-phone-confirm-code-resend-code-button = Reinviar le codice
+flow-setup-phone-confirm-code-success-message = Numero de telephono de recuperation de reserva addite
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Verifica tu numero de telephono
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Inviar codice
 

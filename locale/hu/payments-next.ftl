@@ -45,7 +45,7 @@ next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 next-new-user-submit = Előfizetés most
 next-payment-validate-name-error = Adja meg a nevét
 # Label for the Full Name input
-payment-name-label = Név ahogyan a kártyáján megjelenik
+payment-name-label = A kártyán szereplő név
 payment-name-placeholder = Teljes név
 
 ## Component - CouponForm

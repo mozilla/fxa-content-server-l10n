@@ -89,6 +89,7 @@ select-tax-location-error-location-not-updated = Tu position non poteva esser ac
 signin-form-continue-button = Continuar
 signin-form-email-input = Insere tu email
 signin-form-email-input-missing = Insere tu email
+signin-form-email-input-invalid = Forni un email valide
 next-new-user-subscribe-product-updates-mdnplus = Il me placerea reciper novas e actualisationes de productos per { -product-mdn-plus } e { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Il me placerea reciper novas e actualisationes de productos per { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Il me placerea reciper novas e actualisationes de securitate e confidentialitate per { -brand-mozilla }
