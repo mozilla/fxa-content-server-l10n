@@ -320,13 +320,13 @@ postAddLinkedAccount-subject-2 = Nouveau compte lié à votre { -product-mozilla
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Votre compte { $providerName } a été lié à votre { -product-mozilla-account }
 postAddLinkedAccount-action = Gérer le compte
-postAddRecoveryPhone-subject = Numéro de téléphone ajouté lors de la récupération
+postAddRecoveryPhone-subject = Numéro de téléphone de récupération ajouté
 postAddRecoveryPhone-title = Vous avez créé un numéro de téléphone de récupération
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Vous avez ajouté { $maskedLastFourPhoneNumber } à votre numéro de téléphone de récupération
+postAddRecoveryPhone-description = Vous avez ajouté { $maskedLastFourPhoneNumber } en tant que numéro de téléphone de récupération
 # Links out to a support article about two factor authentication
-postAddRecoveryPhone-how-protect = En quoi cela protège votre compte
+postAddRecoveryPhone-how-protect = Comment cela protège votre compte
 postAddRecoveryPhone-how-protect-plaintext = Comment cela protège votre compte :
 postAddRecoveryPhone-enabled-device = Vous l’avez activée depuis :
 postAddRecoveryPhone-action = Gérer le compte
