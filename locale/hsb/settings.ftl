@@ -1664,6 +1664,8 @@ signin-recovery-method-subheader = Wubjerće wobnowjensku metodu
 signin-recovery-method-details = Přeswědčće so, zo wy swoje wobnowjenske metody wužiwaće.
 signin-recovery-method-phone = Wobnowjenski telefon
 signin-recovery-method-code = Awtentifikaciske kody
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Zbywace kody: { $numberOfCodes }
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
