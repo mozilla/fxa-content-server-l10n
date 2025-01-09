@@ -320,6 +320,16 @@ postAddLinkedAccount-subject-2 = Nije account keppele oan jo { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Jo { $providerName }-account is keppele oan jo { -product-mozilla-account }
 postAddLinkedAccount-action = Account beheare
+postAddRecoveryPhone-subject = Wersteltelefoannûmer tafoege
+postAddRecoveryPhone-title = Jo hawwe in wersteltelefoannûmer oanmakke
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Jo hawwe { $maskedLastFourPhoneNumber } as jo wersteltelefoannûmer tafoege
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Hoe dit jo account beskermet
+postAddRecoveryPhone-how-protect-plaintext = Hoe dit jo account beskermet:
+postAddRecoveryPhone-enabled-device = Jo hawwe it ynskeakele fanôf:
+postAddRecoveryPhone-action = Account beheare
 postAddTwoStepAuthentication-subject-2 = Autentikaasje yn twa stappen is ynskeakele
 postAddTwoStepAuthentication-title-2 = Jo hawwe autentikaasje yn twa stappen ynskeakele
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -337,6 +347,10 @@ postChangePrimary-title = Nij primêr e-mailadres
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Jo hawwe jo primêre e-mailadres mei sukses nei { $email } wizige. Dit adres is no jo brûkersnamme foar it oanmelden by jo { -product-mozilla-account }, krekt as foar it ûntfangen fan befeiligingsmeldingen en
 postChangePrimary-action = Account beheare
+postChangeRecoveryPhone-subject = Wersteltelefoannûmer bywurke
+postChangeRecoveryPhone-title = Jo hawwe jo wersteltelefoannûmer wizige
+postChangeRecoveryPhone-description = Jo hawwe no in nij wersteltelefoannûmer. Jo foarige telefoannûmer is fuortsmiten.
+postChangeRecoveryPhone-requested-device = Jo hawwe it opfrege fanôf:
 postConsumeRecoveryCode-title-2 = Jo hawwe in reserve-autentikaasjekoade brûkt
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Dizze is brûkt op:
@@ -356,6 +370,10 @@ postRemoveAccountRecovery-title-3 = Jo hawwe jo   accountwerstelkaai fuortsmiten
 postRemoveAccountRecovery-body-part1 = Jo accountwerstelkaai is nedich om jo fersifere navigaasjegegevens te werstellen as jo jo wachtwurd ferjitte.
 postRemoveAccountRecovery-body-part2 = Meitsje, as jo dat noch net dien hawwe, in nije accountwerstelkaai oan yn jo accountynstellingen om foar te kommen dat jo jo bewarre wachtwurden, blêdwizers, navigaasjeskiednis en mear kwytreitsje.
 postRemoveAccountRecovery-action = Account beheare
+postRemoveRecoveryPhone-subject = Wersteltelefoannûmer fuortsmiten
+postRemoveRecoveryPhone-title = Wersteltelefoannûmer fuortsmiten
+postRemoveRecoveryPhone-description = Jo wersteltelefoannûmer is fuortsmiten út jo ynstellingen foar twa-stapsautentikaasje. Jo kinne altyd noch jo reservekopy-autentikaasjekoades brûke.
+postRemoveRecoveryPhone-requested-device = Jo hawwe it opfrege fanôf:
 postRemoveSecondary-subject = Sekundêr e-mailadres fuortsmiten
 postRemoveSecondary-title = Sekundêr e-mailadres fuortsmiten
 # Variables:

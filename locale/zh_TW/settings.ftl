@@ -1635,7 +1635,11 @@ signin-recovery-code-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使
 
 signin-recovery-method-header = 登入
 signin-recovery-method-subheader = 選擇救援方式
+signin-recovery-method-details = 請使用您原先設定的救援方式確認身分。
 signin-recovery-method-phone = 救援電話號碼
+signin-recovery-method-code = 驗證碼
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

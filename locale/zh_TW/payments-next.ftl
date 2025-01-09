@@ -18,6 +18,8 @@ next-payment-method-header = 選擇付款方式
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 請先授權付款訂閱
 next-payment-confirmation-thanks-heading-account-exists = 謝謝，接下來請到信箱收信！
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = 您將會在 { $email } 收到一封信，當中包含訂閱內容、付款方式的相關資訊。
 next-payment-confirmation-order-heading = 訂單詳細資訊
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = 請款單號碼 #{ $invoiceNumber }
@@ -31,6 +33,7 @@ next-payment-confirmation-amount = 每 { $interval } { $amount }
 next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 next-payment-confirmation-download-button = 前往下載
 checkout-error-boundary-retry-button = 重試
+checkout-error-boundary-basic-error-message = 有些東西不對勁，請再試一次或<contactSupportLink>聯絡我們的技術支援團隊。</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
