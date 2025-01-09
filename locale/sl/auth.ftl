@@ -322,7 +322,7 @@ postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Vaš račun { $providerName } se je povezal z vašim { -product-mozilla-account(sklon: "orodnik") }
 postAddLinkedAccount-action = Upravljanje računa
-postAddRecoveryPhone-subject = Telefonska številka za obnovitev dodana
+postAddRecoveryPhone-subject = Telefonska številka za obnovitev je dodana
 postAddRecoveryPhone-title = Ustvarili ste telefonsko številko za obnovitev
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -351,7 +351,7 @@ postChangePrimary-description-2 = Uspešno ste spremenili glavni e-poštni naslo
 postChangePrimary-action = Upravljanje računa
 postChangeRecoveryPhone-subject = Telefonska številka za obnovitev je posodobljena
 postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
-postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Vaša prejšnja telefonska številka je bila izbrisana.
+postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Prejšnja številka je bila izbrisana.
 postChangeRecoveryPhone-requested-device = Zahtevali ste jo od:
 postConsumeRecoveryCode-title-2 = Uporabili ste rezervno overitveno kodo
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -376,7 +376,7 @@ postRemoveAccountRecovery-body-part2 = Če tega še niste storili, v nastavitvah
 postRemoveAccountRecovery-action = Upravljanje računa
 postRemoveRecoveryPhone-subject = Telefonska številka za obnovitev je odstranjena
 postRemoveRecoveryPhone-title = Telefonska številka za obnovitev je odstranjena
-postRemoveRecoveryPhone-description = Vaša telefonska številka za obnovitev je bila odstranjena iz nastavitev overjanja v dveh korakih. Še vedno imate na voljo rezervne overitvene kode za uporabo.
+postRemoveRecoveryPhone-description = Vaša telefonska številka za obnovitev je bila odstranjena iz nastavitev overjanja v dveh korakih. Še vedno imate možnost uporabiti rezervne overitvene kode.
 postRemoveRecoveryPhone-requested-device = Zahtevali ste jo od:
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
