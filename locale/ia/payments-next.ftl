@@ -44,6 +44,8 @@ next-payment-confirm-checkbox-error = Il besonia completar isto, ante proceder
 
 next-new-user-submit = Abona te ora
 next-payment-validate-name-error = Insere tu nomine
+# Label for the Full Name input
+payment-name-label = Nomine como illo appare sur tu carta
 payment-name-placeholder = Nomine complete
 
 ## Component - CouponForm

@@ -1121,6 +1121,9 @@ tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
 tfa-row-enabled-description = Tu conto es protegite per authentication a duo passos. Tu debera inserer un codice de accesso una tantum ab tu app de authentication quando tu accede in tu { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Como isto protege tu conto
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
@@ -1291,6 +1294,7 @@ inline-recovery-confirmation-header-default = Confirma le codice authentication 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirma le codice authentication del reserva <span>pro continuar a { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Authentication a duo passos activate
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1639,6 +1643,8 @@ signin-recovery-code-desktop-relay = { -brand-firefox } tentara inviar te retro 
 signin-recovery-method-header = Aperir session
 signin-recovery-method-phone = Telephono de recuperation
 signin-recovery-method-code = Codices de authentication
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } codices remanente
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
