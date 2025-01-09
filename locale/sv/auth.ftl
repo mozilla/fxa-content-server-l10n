@@ -320,6 +320,16 @@ postAddLinkedAccount-subject-2 = Nytt konto länkat till ditt { -product-mozilla
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ditt { $providerName }-konto har länkats till ditt { -product-mozilla-account }
 postAddLinkedAccount-action = Hantera konto
+postAddRecoveryPhone-subject = Återställningstelefon tillagd
+postAddRecoveryPhone-title = Du skapade ett återställningstelefonnummer
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Du lade till { $maskedLastFourPhoneNumber } som din återställningstelefon
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Hur detta skyddar ditt konto
+postAddRecoveryPhone-how-protect-plaintext = Hur detta skyddar ditt konto:
+postAddRecoveryPhone-enabled-device = Du aktiverade det från:
+postAddRecoveryPhone-action = Hantera konto
 postAddTwoStepAuthentication-subject-2 = Tvåstegsautentisering har aktiverats
 postAddTwoStepAuthentication-title-2 = Du har aktiverat tvåstegsautentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -337,6 +347,10 @@ postChangePrimary-title = Ny primär e-post
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Du har ändrat din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-mozilla-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
+postChangeRecoveryPhone-subject = Återställningstelefon uppdaterad
+postChangeRecoveryPhone-title = Du har bytt återställningstelefon
+postChangeRecoveryPhone-description = Du har nu en ny återställningstelefon. Ditt tidigare telefonnummer raderades.
+postChangeRecoveryPhone-requested-device = Du har begärt det från:
 postConsumeRecoveryCode-title-2 = Du använde en reservautentiseringskod
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Den användes på:
@@ -356,6 +370,10 @@ postRemoveAccountRecovery-title-3 = Du raderade din kontoåterställningsnyckel
 postRemoveAccountRecovery-body-part1 = Din kontoåterställningsnyckel krävs för att återställa dina krypterade webbläsardata om du glömmer ditt lösenord.
 postRemoveAccountRecovery-body-part2 = Om du inte redan har gjort det, skapa en ny kontoåterställningsnyckel i dina kontoinställningar för att förhindra att du förlorar dina sparade lösenord, bokmärken, webbhistorik och mer.
 postRemoveAccountRecovery-action = Hantera konto
+postRemoveRecoveryPhone-subject = Återställningstelefon borttagen
+postRemoveRecoveryPhone-title = Återställningstelefon borttagen
+postRemoveRecoveryPhone-description = Din återställningstelefon har tagits bort från dina tvåstegsautentiseringsinställningar. Du har fortfarande dina backup-autentiseringskoder tillgängliga för användning.
+postRemoveRecoveryPhone-requested-device = Du har begärt det från:
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen
 # Variables:
