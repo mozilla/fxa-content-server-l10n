@@ -1194,6 +1194,7 @@ pair-supp-allow-cancel-link = Odustani
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Pričekaj, preusmjeravamo te na ovlaštenu aplikaciju.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1277,6 +1278,7 @@ signin-password-button-label = Lozinka
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-header = Prijaviti neautoriziranu prijavu?
 report-signin-submit-button = Prijavi aktivnost
 report-signin-support-link = Zašto se ovo događa?
 # $email (string) - The user's email.
