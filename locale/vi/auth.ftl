@@ -319,6 +319,16 @@ postAddLinkedAccount-subject-2 = Tài khoản mới được liên kết với {
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tài khoản { $providerName } của bạn đã được liên kết với { -product-mozilla-account }
 postAddLinkedAccount-action = Quản lý tài khoản
+postAddRecoveryPhone-subject = Đã thêm số điện thoại khôi phục
+postAddRecoveryPhone-title = Bạn đã tạo số điện thoại khôi phục
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Bạn đã thêm { $maskedLastFourPhoneNumber } làm số điện thoại khôi phục của mình
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
+postAddRecoveryPhone-how-protect-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
+postAddRecoveryPhone-enabled-device = Bạn đã bật nó từ:
+postAddRecoveryPhone-action = Quản lý tài khoản
 postAddTwoStepAuthentication-subject-2 = Đã bật xác thực hai bước
 postAddTwoStepAuthentication-title-2 = Bạn đã bật xác thực hai bước
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -336,6 +346,10 @@ postChangePrimary-title = Email chính mới
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Bạn đã thay đổi thành công email chính của mình thành { $email }. Địa chỉ này hiện là tên người dùng để đăng nhập vào { -product-mozilla-account } của bạn cũng như nhận thông báo bảo mật và xác nhận đăng nhập.
 postChangePrimary-action = Quản lý tài khoản
+postChangeRecoveryPhone-subject = Đã cập nhật số điện thoại khôi phục
+postChangeRecoveryPhone-title = Bạn đã thay đổi số điện thoại khôi phục của mình
+postChangeRecoveryPhone-description = Bây giờ bạn có số điện thoại khôi phục mới. Số điện thoại trước đó của bạn đã bị xóa.
+postChangeRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
 postConsumeRecoveryCode-title-2 = Bạn đã sử dụng mã xác thực dự phòng
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Nó đã được sử dụng vào:
@@ -354,6 +368,10 @@ postRemoveAccountRecovery-title-3 = Bạn đã xóa khóa khôi phục tài kho�
 postRemoveAccountRecovery-body-part1 = Khóa khôi phục tài khoản của bạn là bắt buộc để khôi phục dữ liệu duyệt web được mã hóa nếu bạn quên mật khẩu.
 postRemoveAccountRecovery-body-part2 = Nếu bạn chưa tạo, hãy tạo khóa khôi phục tài khoản mới trong cài đặt tài khoản của bạn để tránh mất mật khẩu, dấu trang, lịch sử duyệt web đã lưu, v.v.
 postRemoveAccountRecovery-action = Quản lý tài khoản
+postRemoveRecoveryPhone-subject = Đã xóa số điện thoại khôi phục
+postRemoveRecoveryPhone-title = Đã xóa số điện thoại khôi phục
+postRemoveRecoveryPhone-description = Số điện thoại khôi phục của bạn đã bị xóa khỏi cài đặt xác thực hai bước. Bạn vẫn có sẵn mã xác thực dự phòng để sử dụng.
+postRemoveRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
 postRemoveSecondary-subject = Đã xóa email phụ
 postRemoveSecondary-title = Đã xóa email phụ
 # Variables:

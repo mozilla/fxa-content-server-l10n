@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Quay lại
+button-back-title = Quay lại
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Thiết bị di động nhận mã qua tin nhắn văn bản.
 recovery-phone-code-image-description =
     .aria-label = Mã xác minh nhận được trên thiết bị di động.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Thiết bị di động có khả năng nhắn tin văn bản SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Màn hình thiết bị có mã
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1655,6 +1661,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox } sẽ điều hướng b�
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Đăng nhập
+signin-recovery-method-subheader = Chọn phương pháp khôi phục
+signin-recovery-method-details = Hãy đảm bảo rằng bạn chính là người đang sử dụng phương thức khôi phục của mình.
+signin-recovery-method-phone = Số điện thoại khôi phục
+signin-recovery-method-code = Mã xác thực
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } mã còn lại
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
