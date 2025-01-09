@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Πίσω
+button-back-title = Πίσω
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -617,6 +619,7 @@ flow-recovery-key-info-cancel-link = Ακύρωση
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-button = Επιβεβαίωση
 
 ## FlowSetupPhoneConfirmCode
 
@@ -1586,6 +1589,7 @@ signin-recovery-code-required-error = Απαιτείται εφεδρικός κ
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Σύνδεση
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

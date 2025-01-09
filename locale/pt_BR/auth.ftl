@@ -320,6 +320,10 @@ postAddLinkedAccount-subject-2 = Nova conta vinculada à sua { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Sua conta em { $providerName } foi vinculada à sua { -product-mozilla-account }
 postAddLinkedAccount-action = Gerenciar conta
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Como isso protege sua conta
+postAddRecoveryPhone-how-protect-plaintext = Como isso protege sua conta:
+postAddRecoveryPhone-action = Gerenciar conta
 postAddTwoStepAuthentication-subject-2 = Autenticação em duas etapas ativada
 postAddTwoStepAuthentication-title-2 = Você ativou a autenticação em duas etapas
 # After the colon, there is a description of the device that the user used to enable two-step authentication

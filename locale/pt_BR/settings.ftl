@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Voltar
+button-back-title = Voltar
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -642,6 +644,8 @@ flow-setup-phone-verify-number-instruction = Você receberá uma mensagem de tex
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message = Celular de recuperação de backup está disponível apenas nos Estados Unidos e no Canadá. Números VoIP e máscaras de celular não são recomendados.
 flow-setup-phone-submit-number-legal = Ao fornecer seu número, você declara que concorda que ele seja salvo para podermos te enviar mensagens de texto, apenas para verificação de conta. Podem ser cobrados valores por mensagens e dados.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Enviar código
 
 ## HeaderLockup component, the header in account settings
 
@@ -1618,6 +1622,9 @@ signin-recovery-code-desktop-relay = O { -brand-firefox } irá tentar redirecion
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-code = Códigos de autenticação
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

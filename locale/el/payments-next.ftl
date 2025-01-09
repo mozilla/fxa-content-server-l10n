@@ -83,6 +83,7 @@ next-plan-details-total-label = Σύνολο
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Το πρόγραμμά σας θα ανανεωθεί αυτόματα στην τιμή καταλόγου.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθεί αυτόματα μετά τις { $couponDurationDate } στην τιμή καταλόγου.
