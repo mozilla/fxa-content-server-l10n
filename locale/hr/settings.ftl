@@ -723,6 +723,7 @@ recent-activity-account-disable-v2 = Račun je deaktiviran
 recent-activity-account-enable-v2 = Račun je aktiviran
 recent-activity-account-login-v2 = Pokrenuta je prijava na račun
 recent-activity-account-reset-v2 = Pokrenuto je resetiranje lozinke
+recent-activity-account-login-failure = Pokušaj prijave na račun nije uspio
 recent-activity-account-two-factor-added = Dvofaktorska autentifikacija aktivirana
 recent-activity-account-two-factor-requested = Dvofaktorska autentifikacija potrebna
 recent-activity-account-two-factor-failure = Dvofaktorska autentifikacija neuspjela
@@ -756,12 +757,17 @@ recovery-key-create-back-button-title = Natrag na postavke
 ## Add secondary email page
 
 add-secondary-email-step-1 = Korak 1 od 2
+add-secondary-email-error-2 = Dogodila se greška prilikom stvaranja ove e-mail adrese
 add-secondary-email-page-title =
-    .title = Sekundarna adresa e-pošte
+    .title = Sekundarna e-mail adresa
 add-secondary-email-enter-address =
     .label = Upiši e-mail adresu
 add-secondary-email-cancel-button = Odustani
 add-secondary-email-save-button = Spremi
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Maske za e-mail adrese se ne mogu koristiti kao sekundarne e-mail adrese
 
 ## Verify secondary email page
 
@@ -870,6 +876,12 @@ signout-sync-session-expired = Oprosti, nešto nije u redu. Odjavi se u izbornik
 
 ## SubRow component
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nema dostupnih kodova
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Broj preostalih kodova: { $numberOfCodes }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Nabavi nove kodove
 # Shown to users who have no backup authentication codes
@@ -1014,6 +1026,7 @@ auth-error-1010 = Potrebna je ispravna lozinka
 auth-error-1011 = Potrebna je ispravna e-mail adresa
 auth-error-1031 = Za prijavu moraš upisati svoju dob
 auth-error-1032 = Za registraciju moraš upisati ispravnu dob
+auth-error-1054 = Neispravan kod dvofaktorske autentikacije
 auth-error-1062 = Neispravno preusmjeravanje
 oauth-error-1000 = Dogodila se greška. Zatvori ovu karticu i pokušaj ponovo.
 

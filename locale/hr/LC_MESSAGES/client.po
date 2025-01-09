@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-09 16:23+0000\n"
+"PO-Revision-Date: 2025-01-09 19:40+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -668,7 +668,7 @@ msgstr "Potreban je kod dvofaktorske autentikacije"
 
 #: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
-msgstr "Neispravan kud dvofaktorske autentikacije"
+msgstr "Neispravan kod dvofaktorske autentikacije"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
