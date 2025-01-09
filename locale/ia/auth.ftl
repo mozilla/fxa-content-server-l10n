@@ -320,6 +320,8 @@ postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-accou
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Gerer le conto
+postAddRecoveryPhone-enabled-device = Tu lo activava ab:
+postAddRecoveryPhone-action = Gerer le conto
 postAddTwoStepAuthentication-subject-2 = Le authentication a duo passos es activate
 postAddTwoStepAuthentication-title-2 = Tu activava le authentication a duo passos
 # After the colon, there is a description of the device that the user used to enable two-step authentication
