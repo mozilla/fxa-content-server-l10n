@@ -347,6 +347,7 @@ postChangePrimary-action = 管理账户
 postChangeRecoveryPhone-subject = 已更新恢复电话号码
 postChangeRecoveryPhone-title = 您更改了恢复电话号码
 postChangeRecoveryPhone-description = 您已设置新的恢复电话号码，先前的电话号码已删除。
+postChangeRecoveryPhone-requested-device = 您从下列位置请求：
 postConsumeRecoveryCode-title-2 = 您使用了备用验证码
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = 使用于：
@@ -368,6 +369,7 @@ postRemoveAccountRecovery-action = 管理账户
 postRemoveRecoveryPhone-subject = 已移除恢复电话号码
 postRemoveRecoveryPhone-title = 已移除恢复电话号码
 postRemoveRecoveryPhone-description = 您的恢复电话已从两步验证设置中移除。您仍然可以使用备用验证码。
+postRemoveRecoveryPhone-requested-device = 您从下列位置请求：
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
 # Variables:
