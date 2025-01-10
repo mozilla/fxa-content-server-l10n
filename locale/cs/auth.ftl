@@ -351,7 +351,7 @@ postChangePrimary-description-2 = Vaše hlavní e-mailová adresa byla úspěšn
 postChangePrimary-action = Správa účtu
 postChangeRecoveryPhone-subject = Telefon pro obnovení byl aktualizován
 postChangeRecoveryPhone-title = Změnili jste své telefonní číslo pro obnovení
-postChangeRecoveryPhone-description = Nyní máte nové telefonní číslo. Vaše předchozí telefonní číslo bylo smazáno.
+postChangeRecoveryPhone-description = Nyní máte nové telefonní číslo pro obnovu. Vaše předchozí telefonní číslo bylo smazáno.
 postChangeRecoveryPhone-requested-device = Vyžádali jste si ho z:
 postConsumeRecoveryCode-title-2 = Použili jste záložní ověřovací kód
 # After the colon, there is description of the device that the backup authentication code was used on
