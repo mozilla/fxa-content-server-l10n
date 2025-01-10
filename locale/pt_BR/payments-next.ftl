@@ -44,6 +44,9 @@ next-payment-confirm-checkbox-error = Você precisa concluir isto antes de pross
 
 next-new-user-submit = Assinar agora
 next-payment-validate-name-error = Digite seu nome
+# Label for the Full Name input
+payment-name-label = Nome como aparece no seu cartão
+payment-name-placeholder = Nome completo
 
 ## Component - CouponForm
 
@@ -55,6 +58,9 @@ next-coupon-promo-code = Código promocional
 next-coupon-promo-code-applied = Código promocional aplicado
 next-coupon-remove = Remover
 next-coupon-submit = Aplicar
+payments-client-loading-spinner =
+    .aria-label = Carregando…
+    .alt = Carregando…
 
 ## Payment Section
 
@@ -67,6 +73,20 @@ next-plan-details-show-button = Mostra detalhes
 
 ## Select Tax Location
 
+select-tax-location-title = Localização
+select-tax-location-edit-button = Editar
+select-tax-location-save-button = Salvar
+select-tax-location-country-code-label = País
+select-tax-location-country-code-placeholder = Selecione seu país
+select-tax-location-error-missing-country-code = Selecione seu país
+select-tax-location-postal-code-label = Código postal
+select-tax-location-postal-code =
+    .placeholder = Digite seu código postal
+select-tax-location-error-missing-postal-code = Digite seu código postal
+select-tax-location-error-invalid-postal-code = Insira um código postal válido
+select-tax-location-successfully-updated = Sua localização foi atualizada.
+select-tax-location-error-location-not-updated = Sua localização não pôde ser atualizada. Tente novamente.
+signin-form-continue-button = Continuar
 next-new-user-subscribe-product-updates-mdnplus = Quero receber notícias e novidades de produtos de { -product-mdn-plus } e { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Quero receber notícias e novidades de produtos da { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Quero de receber notícias e novidades da { -brand-mozilla } sobre segurança e privacidade

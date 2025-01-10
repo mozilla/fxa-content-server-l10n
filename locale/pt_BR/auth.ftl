@@ -323,6 +323,7 @@ postAddLinkedAccount-action = Gerenciar conta
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Como isso protege sua conta
 postAddRecoveryPhone-how-protect-plaintext = Como isso protege sua conta:
+postAddRecoveryPhone-enabled-device = Você ativou a partir de:
 postAddRecoveryPhone-action = Gerenciar conta
 postAddTwoStepAuthentication-subject-2 = Autenticação em duas etapas ativada
 postAddTwoStepAuthentication-title-2 = Você ativou a autenticação em duas etapas
