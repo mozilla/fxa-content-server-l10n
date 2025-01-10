@@ -320,6 +320,7 @@ postAddLinkedAccount-subject-2 = New account linked to your { -product-mozilla-a
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Your { $providerName } account has been linked to your { -product-mozilla-account }
 postAddLinkedAccount-action = Manage account
+postAddRecoveryPhone-subject = Recovery phone added
 postAddTwoStepAuthentication-subject-2 = Two-step authentication turned on
 postAddTwoStepAuthentication-title-2 = You turned on two-step authentication
 # After the colon, there is a description of the device that the user used to enable two-step authentication
