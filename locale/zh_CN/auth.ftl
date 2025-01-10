@@ -317,6 +317,11 @@ postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理账户
+postAddRecoveryPhone-subject = 已添加恢复电话号码
+postAddRecoveryPhone-title = 您已创建恢复电话号码
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = 您已将 { $maskedLastFourPhoneNumber } 添加为恢复电话号码
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = 此举如何保护您的账户
 postAddRecoveryPhone-how-protect-plaintext = 此举如何保护您的账户：
@@ -339,6 +344,9 @@ postChangePrimary-title = 新的主邮箱
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-mozilla-account }的用户名，也用于接收安全通知和登录确认。
 postChangePrimary-action = 管理账户
+postChangeRecoveryPhone-subject = 已更新恢复电话号码
+postChangeRecoveryPhone-title = 您更改了恢复电话号码
+postChangeRecoveryPhone-description = 您已设置新的恢复电话号码，先前的电话号码已删除。
 postConsumeRecoveryCode-title-2 = 您使用了备用验证码
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = 使用于：
@@ -357,6 +365,9 @@ postRemoveAccountRecovery-title-3 = 您已删除账户恢复密钥。
 postRemoveAccountRecovery-body-part1 = 在忘记密码的情况下，需要使用账户恢复密钥来恢复加密的浏览数据。
 postRemoveAccountRecovery-body-part2 = 请在账户设置中创建新的账户恢复密钥，以免丢失您保存的密码、书签、浏览历史等数据。
 postRemoveAccountRecovery-action = 管理账户
+postRemoveRecoveryPhone-subject = 已移除恢复电话号码
+postRemoveRecoveryPhone-title = 已移除恢复电话号码
+postRemoveRecoveryPhone-description = 您的恢复电话已从两步验证设置中移除。您仍然可以使用备用验证码。
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
 # Variables:

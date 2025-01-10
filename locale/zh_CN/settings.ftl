@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = 返回
+button-back-title = 返回
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -293,6 +295,8 @@ recovery-phone-code-image-description =
     .aria-label = 一台移动设备收到验证码。
 backup-recovery-phone-image-aria-label =
     .aria-label = 具有短信功能的移动设备
+backup-authentication-codes-image-aria-label =
+    .aria-label = 显示验证码的设备屏幕
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -565,6 +569,9 @@ dc-learn-more = 详细了解
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }菜单
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = 已登录为
 drop-down-menu-sign-out = 退出
 drop-down-menu-sign-out-error-2 = 抱歉，退出登录时出现问题。
 
@@ -630,11 +637,19 @@ flow-setup-phone-confirm-code-button = 确认
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = 验证码已过期？
 flow-setup-phone-confirm-code-resend-code-button = 重新发送验证码
+flow-setup-phone-confirm-code-success-message = 已添加备用恢复电话号码
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = 请验证您的电话号码
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = 您会收到一条来自 { -brand-mozilla } 的短信，内容是用于验证您的手机号的验证码。请不要与任何人分享此验证码。
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = 备用恢复电话号码仅在美国和加拿大可用。不建议使用 VoIP 号码和虚拟号码。
+flow-setup-phone-submit-number-legal = 提供号码即代表您同意我们存储您的号码。我们仅在验证账户时向您发送短信，可能需支付短信和数据费用。
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = 发送验证码
 
@@ -855,6 +870,7 @@ recovery-key-create-back-button-title = 返回设置
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = 添加恢复电话号码
 
 ## Add secondary email page
 
@@ -1105,6 +1121,7 @@ tfa-row-enabled-description = 您的账户受两步验证保护。登录 { -prod
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = 此举如何保护您的账户
+tfa-row-disabled-description-v2 = 将第三方身份验证器应用作为登录的附加确认手段，帮助保护账户安全。
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
@@ -1624,6 +1641,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox } 将尝试在您登录后
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = 登录
+signin-recovery-method-subheader = 请选择一项恢复方式
+signin-recovery-method-details = 请协助确认是您本人在使用恢复方法。
+signin-recovery-method-phone = 恢复电话号码
+signin-recovery-method-code = 验证码
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = 剩余 { $numberOfCodes } 个验证码
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

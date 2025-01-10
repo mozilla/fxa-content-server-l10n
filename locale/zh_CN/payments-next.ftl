@@ -33,6 +33,7 @@ next-payment-confirmation-amount = 每 { $interval } { $amount }
 next-payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 next-payment-confirmation-download-button = 前往下载
 checkout-error-boundary-retry-button = 重试
+checkout-error-boundary-basic-error-message = 出了点问题。请重试或<contactSupportLink>联系用户支持</contactSupportLink>。
 
 ## Component - Payment Consent Checkbox
 
@@ -43,6 +44,8 @@ next-payment-confirm-checkbox-error = 同意此项后才可继续
 
 next-new-user-submit = 立即订阅
 next-payment-validate-name-error = 请输入您的名字
+# Label for the Full Name input
+payment-name-label = 填写卡片上所载的姓名
 payment-name-placeholder = 全名
 
 ## Component - CouponForm
@@ -84,6 +87,9 @@ select-tax-location-error-invalid-postal-code = 请输入有效的邮政编码
 select-tax-location-successfully-updated = 您的位置已更新。
 select-tax-location-error-location-not-updated = 无法更新您的位置。请重试。
 signin-form-continue-button = 继续
+signin-form-email-input = 请输入您的邮箱地址
+signin-form-email-input-missing = 请输入您的邮箱地址
+signin-form-email-input-invalid = 请输入有效的邮箱地址
 next-new-user-subscribe-product-updates-mdnplus = 我愿意接收来自 { -product-mdn-plus } 和 { -brand-mozilla } 的产品新闻及更新
 next-new-user-subscribe-product-updates-mozilla = 我愿意接收来自 { -brand-mozilla } 的产品新闻和更新
 next-new-user-subscribe-product-updates-snp = 我愿意接收来自 { -brand-mozilla } 的安全和隐私新闻及更新
@@ -114,6 +120,8 @@ next-coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之�
 plan-price-interval-daily = { $amount }/天
 plan-price-interval-weekly = { $amount }/周
 plan-price-interval-monthly = { $amount }/月
+plan-price-interval-6monthly = { $amount }/6个月
+plan-price-interval-yearly = { $amount }/年
 
 ## Component - SubscriptionTitle
 
