@@ -323,12 +323,12 @@ postAddLinkedAccount-subject-2 = Nový účet propojený s vaším { -product-mo
 postAddLinkedAccount-title-2 = Váš účet { $providerName } byl propojen s vaším účtem { -product-mozilla-account(case: "ins") }
 postAddLinkedAccount-action = Správa účtu
 postAddRecoveryPhone-subject = Telefon pro obnovení byl přidán
-postAddRecoveryPhone-title = Bylo vytvořeno telefonní číslo pro obnovení
+postAddRecoveryPhone-title = Bylo přidáno telefonní číslo pro obnovení
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description = Jako telefonní číslo pro obnovení jste přidali { $maskedLastFourPhoneNumber }
 # Links out to a support article about two factor authentication
-postAddRecoveryPhone-how-protect = Jak tato tato funkce chrání váš účet
+postAddRecoveryPhone-how-protect = Jak tato funkce chrání váš účet
 postAddRecoveryPhone-how-protect-plaintext = Jak tato nastavení chrání váš účet:
 postAddRecoveryPhone-enabled-device = Povolili jste ho z:
 postAddRecoveryPhone-action = Správa účtu
@@ -350,7 +350,7 @@ postChangePrimary-title = Nová hlavní e-mailová adresa
 postChangePrimary-description-2 = Vaše hlavní e-mailová adresa byla úspěšně změněna na { $email }. Tato adresa bude nyní použita pro přihlašování k vašemu { -product-mozilla-account(case: "dat") } a na zasílání bezpečnostních upozornění a potvrzení.
 postChangePrimary-action = Správa účtu
 postChangeRecoveryPhone-subject = Telefon pro obnovení byl aktualizován
-postChangeRecoveryPhone-title = Změnili jste své telefonní číslo
+postChangeRecoveryPhone-title = Změnili jste své telefonní číslo pro obnovení
 postChangeRecoveryPhone-description = Nyní máte nové telefonní číslo. Vaše předchozí telefonní číslo bylo smazáno.
 postChangeRecoveryPhone-requested-device = Vyžádali jste si ho z:
 postConsumeRecoveryCode-title-2 = Použili jste záložní ověřovací kód
