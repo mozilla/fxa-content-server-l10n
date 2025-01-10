@@ -106,7 +106,7 @@ next-plan-details-total-label = Skupaj
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 list-positive-amount = { $amount }
-list-negative-amount = – { $amount }
+list-negative-amount = − { $amount }
 next-coupon-success = Vaš paket se bo samodejno podaljšal po maloprodajni ceni.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Vaš paket se bo po { $couponDurationDate } samodejno obnovil po maloprodajni ceni.
