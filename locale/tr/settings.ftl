@@ -321,6 +321,8 @@ input-password-sr-only-now-hidden = Parolanız gizlendi.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Ülke seçin
 input-phone-number-enter-number = Telefon numarasını yazın
 input-phone-number-country-united-states = Amerika Birleşik Devletleri
 input-phone-number-country-canada = Kanada
@@ -563,6 +565,9 @@ dc-learn-more = Daha fazla bilgi al
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } menüsü
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Giriş yapan kullanıcı
 drop-down-menu-sign-out = Çıkış yap
 drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun oluştu
 
@@ -616,6 +621,9 @@ flow-recovery-key-info-cancel-link = İptal
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Doğrulama kodunu girin
 flow-setup-phone-confirm-code-input-label = 6 basamaklı kodu girin
 flow-setup-phone-confirm-code-button = Onayla
 # button to resend a code by text message to the user's phone
@@ -847,6 +855,7 @@ recovery-key-create-back-button-title = Ayarlara dön
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Kurtarma telefonu ekle
 
 ## Add secondary email page
 
@@ -1098,6 +1107,10 @@ tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
 tfa-row-enabled-description = Hesabınız iki aşamalı doğrulamayla korunuyor. { -product-mozilla-account }nıza giriş yaparken kimlik doğrulama uygulamanızdan alacağınız tek kullanımlık kodu girmeniz gerekecektir.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
+tfa-row-disabled-description-v2 = Giriş yaparken ikinci adım olarak üçüncü taraf bir kimlik doğrulama uygulaması kullanarak hesabınızın güvenliğini sağlayın.
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
