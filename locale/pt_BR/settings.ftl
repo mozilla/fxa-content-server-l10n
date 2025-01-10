@@ -293,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Dispositivo móvel que recebe um código por mensagem de texto.
 recovery-phone-code-image-description =
     .aria-label = Código recebido em um dispositivo móvel.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dispositivo móvel com recursos de mensagens de texto SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Tela de dispositivo com códigos
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -864,6 +868,7 @@ recovery-key-create-back-button-title = Voltar à configuração
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Adicionar celular de recuperação
 
 ## Add secondary email page
 
@@ -917,6 +922,7 @@ tfa-incorrect-totp = Código de autenticação em duas etapas incorreto
 tfa-cannot-retrieve-code = Houve um problema ao buscar seu código.
 tfa-cannot-verify-code-4 = Houve um problema ao confirmar seu código de autenticação de backup
 tfa-incorrect-recovery-code-1 = Código de autenticação de backup incorreto
+tfa-enabled-v2 = A autenticação em duas etapas foi ativada
 tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicativos de autenticação</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1110,6 +1116,10 @@ tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
 tfa-row-enabled-description = Sua conta é protegida pela autenticação em duas etapas. Você precisa inserir uma senha de uso único gerada por seu aplicativo de autenticação, ao entrar na sua { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Como isso protege sua conta
+tfa-row-disabled-description-v2 = Ajude a proteger sua conta usando um aplicativo de autenticação de terceiros como segunda etapa para entrar na conta.
 tfa-row-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
@@ -1277,6 +1287,7 @@ inline-recovery-confirmation-header-default = Confirme o código de autenticaç�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirme o código de autenticação de backup <span>para continuar para o { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = A autenticação em duas etapas foi ativada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1622,6 +1633,10 @@ signin-recovery-code-desktop-relay = O { -brand-firefox } irá tentar redirecion
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Entrar
+signin-recovery-method-subheader = Escolha um método de recuperação
+signin-recovery-method-details = Vamos garantir que é mesmo você usando seus métodos de recuperação.
+signin-recovery-method-phone = Celular de recuperação
 signin-recovery-method-code = Códigos de autenticação
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
