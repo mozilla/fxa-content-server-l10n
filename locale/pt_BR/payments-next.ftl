@@ -18,6 +18,8 @@ next-payment-method-header = Escolha um método de pagamento
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primeiro você precisa aprovar sua assinatura
 next-payment-confirmation-thanks-heading-account-exists = Obrigado, agora verifique seu email!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Você receberá um email em { $email } com instruções sobre sua assinatura, bem como seus detalhes de pagamento.
 next-payment-confirmation-order-heading = Detalhes do pedido
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
@@ -30,6 +32,8 @@ next-payment-confirmation-amount = { $amount } por { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 next-payment-confirmation-download-button = Continuar para baixar
+checkout-error-boundary-retry-button = Tentar novamente
+checkout-error-boundary-basic-error-message = Algo deu errado. Tente novamente ou <contactSupportLink>entre em contato com o suporte</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
