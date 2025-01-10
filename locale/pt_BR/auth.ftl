@@ -341,6 +341,7 @@ postChangePrimary-title = Novo email principal
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Você alterou com sucesso seu email principal para { $email }. Este endereço é agora seu nome de usuário para entrar na sua { -product-mozilla-account }, assim como receber notificações de segurança e confirmações de acesso.
 postChangePrimary-action = Gerenciar conta
+postChangeRecoveryPhone-requested-device = Você solicitou a partir de:
 postConsumeRecoveryCode-title-2 = Você usou um código de autenticação de backup
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Foi usado no:
@@ -360,6 +361,7 @@ postRemoveAccountRecovery-title-3 = Você excluiu sua chave de recuperação de 
 postRemoveAccountRecovery-body-part1 = Sua chave de recuperação de conta é necessária para restaurar seus dados de navegação criptografados caso esqueça sua senha.
 postRemoveAccountRecovery-body-part2 = Se ainda não o fez, crie uma nova chave de recuperação de conta nas configurações da sua conta para evitar a perda de senhas salvas, favoritos, histórico de navegação e muito mais.
 postRemoveAccountRecovery-action = Gerenciar conta
+postRemoveRecoveryPhone-requested-device = Você solicitou a partir de:
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:

@@ -9,7 +9,13 @@ next-basic-error-message = Algo deu errado. Tente novamente mais tarde.
 
 ## Page
 
+checkout-signin-or-create = 1. Entre na sua conta ou crie uma { -product-mozilla-account }
+checkout-create-account = Criar uma { -product-mozilla-account }
+continue-signin-with-google-button = Continuar com { -brand-google }
+continue-signin-with-apple-button = Continuar com { -brand-apple }
 next-payment-method-header = Escolha um método de pagamento
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primeiro você precisa aprovar sua assinatura
 next-payment-confirmation-thanks-heading-account-exists = Obrigado, agora verifique seu email!
 next-payment-confirmation-order-heading = Detalhes do pedido
