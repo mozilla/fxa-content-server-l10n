@@ -294,7 +294,7 @@ recovery-phone-image-description =
 recovery-phone-code-image-description =
     .aria-label = Kód byl přijat na mobilní zařízení.
 backup-recovery-phone-image-aria-label =
-    .aria-label = Mobilní zařízení s možností textových SMS zpráv
+    .aria-label = Mobilní zařízení s možností zasílání SMS zpráv
 backup-authentication-codes-image-aria-label =
     .aria-label = Obrazovka zařízení s kódy
 
@@ -931,7 +931,7 @@ tfa-incorrect-totp = Nesprávný kód pro dvoufázové ověření
 tfa-cannot-retrieve-code = Nepodařilo se získat váš kód.
 tfa-cannot-verify-code-4 = Při potvrzení vašeho záložního ověřovacího kódu se vyskytl problém
 tfa-incorrect-recovery-code-1 = Nesprávný záložní ověřovací kód
-tfa-enabled-v2 = Dvoufázové ověřování je zapnuto
+tfa-enabled-v2 = Bylo povoleno dvoufázové ověřování
 tfa-scan-this-code =
     Naskenujte tento QR kód jednou z <linkExternal>těchto
     ověřovacích aplikací</linkExternal>.
@@ -1133,7 +1133,7 @@ tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověř
 tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřováním. Při přihlašování k účtu { -product-mozilla-account } musíte zadat jednorázový přístupový kód z ověřovací aplikace.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-enabled-info-link = Jak tato tato funkce chrání váš účet
+tfa-row-enabled-info-link = Jak to chrání váš účet
 tfa-row-disabled-description-v2 = Pomozte zabezpečit svůj účet pomocí ověřovací aplikace třetí strany jako druhého kroku pro přihlášení.
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
@@ -1304,7 +1304,7 @@ inline-recovery-confirmation-header-default = Potvrďte záložní ověřovací 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložní ověřovací kód a <span>pokračujte do služby { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = Dvoufázové ověřování je zapnuto
+inline-recovery-2fa-enabled-v2 = Bylo povoleno dvoufázové ověřování
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1656,7 +1656,7 @@ signin-recovery-method-details = Pojďme se ujistit, že jste to vy pomocí vaš
 signin-recovery-method-phone = Telefon pro obnovení
 signin-recovery-method-code = Ověřovací kódy
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Zbývá { $numberOfCodes } kódů
+signin-recovery-method-code-info = Zbývajících počet kódů: { $numberOfCodes }
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

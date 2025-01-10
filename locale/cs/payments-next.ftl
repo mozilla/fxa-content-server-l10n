@@ -45,7 +45,7 @@ next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokonči
 next-new-user-submit = Předplatit
 next-payment-validate-name-error = Zadejte prosím své jméno
 # Label for the Full Name input
-payment-name-label = Pojmenujte jej tak, jak je uveden na vaší kartě
+payment-name-label = Jméno, jak je uvedeno na vaší kartě
 payment-name-placeholder = Celé jméno
 
 ## Component - CouponForm
