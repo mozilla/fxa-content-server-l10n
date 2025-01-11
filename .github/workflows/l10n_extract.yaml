@@ -70,7 +70,7 @@ jobs:
             git push -f origin "merge-train-$TRAIN_NUMBER-strings"
 
             # Create pull request, use the last commit message as title
-            gh pr create --fill
+            gh pr create --fill --head merge-train-$TRAIN_NUMBER-strings
           else
             echo "No changes found."
           fi
