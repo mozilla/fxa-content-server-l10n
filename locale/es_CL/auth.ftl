@@ -320,6 +320,16 @@ postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } ha sido vinculada a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar cuenta
+postAddRecoveryPhone-subject = Teléfono de recuperación añadido
+postAddRecoveryPhone-title = Creaste un número de teléfono de recuperación
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Añadiste { $maskedLastFourPhoneNumber } como tu teléfono de recuperación
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Cómo esto protege tu cuenta
+postAddRecoveryPhone-how-protect-plaintext = Cómo esto protege tu cuenta:
+postAddRecoveryPhone-enabled-device = Lo activaste desde:
+postAddRecoveryPhone-action = Administrar cuenta
 postAddTwoStepAuthentication-subject-2 = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-title-2 = Activaste la autenticación en dos pasos
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -337,6 +347,10 @@ postChangePrimary-title = Nuevo correo primario
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Has cambiado exitosamente tu correo primario a { $email }. Este correo es ahora tu nombre de usuario para conectarte a tu { -product-mozilla-account }, así como para recibir notificaciones de seguridad y
 postChangePrimary-action = Administrar cuenta
+postChangeRecoveryPhone-subject = Teléfono de recuperación actualizado
+postChangeRecoveryPhone-title = Cambiaste tu teléfono de recuperación
+postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se eliminó tu número de teléfono anterior.
+postChangeRecoveryPhone-requested-device = Lo solicitaste desde:
 postConsumeRecoveryCode-title-2 = Usaste un código de autenticación de respaldo
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Fue usado en:
@@ -356,6 +370,10 @@ postRemoveAccountRecovery-title-3 = Has eliminado tu clave de recuperación de c
 postRemoveAccountRecovery-body-part1 = Se requiere la clave de recuperación de tu cuenta para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
 postRemoveAccountRecovery-body-part2 = Si aún no lo has hecho, crea una nueva clave de recuperación de cuenta en los ajustes de tu cuenta para evitar perder tus contraseñas guardadas, marcadores, historial de navegación y más.
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemoveRecoveryPhone-subject = Teléfono de recuperación eliminado
+postRemoveRecoveryPhone-title = Teléfono de recuperación eliminado
+postRemoveRecoveryPhone-description = Tu teléfono de recuperación se ha eliminado de la configuración de autenticación en dos pasos. Aún tienes disponibles tus códigos de autenticación de respaldo para usar.
+postRemoveRecoveryPhone-requested-device = Lo solicitaste desde:
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado
 # Variables:
