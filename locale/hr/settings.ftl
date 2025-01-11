@@ -881,7 +881,7 @@ signout-sync-session-expired = Oprosti, nešto nije u redu. Odjavi se u izbornik
 tfa-row-backup-codes-not-available = Nema dostupnih kodova
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
-tfa-row-backup-codes-available = Broj preostalih kodova: { $numberOfCodes }
+tfa-row-backup-codes-available = Broj preostalih kodova: { $numCodesAvailable }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Nabavi nove kodove
 # Shown to users who have no backup authentication codes
