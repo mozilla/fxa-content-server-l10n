@@ -322,6 +322,14 @@ postAddLinkedAccount-subject-2 = Nový účet prepojený s vaším { -product-mo
 postAddLinkedAccount-title-2 = Váš účet { $providerName } bol prepojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Spravovať účet
 postAddRecoveryPhone-subject = Obnovenie pomocou telefónu bolo pridané
+postAddRecoveryPhone-title = Pridali ste telefónne číslo na obnovenie účtu
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Pridali ste { $maskedLastFourPhoneNumber } ako svoje telefónne číslo na obnovenie účtu
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Ako to chráni váš účet
+postAddRecoveryPhone-how-protect-plaintext = Ako to chráni váš účet:
+postAddRecoveryPhone-enabled-device = Povolili ste to z:
 postAddRecoveryPhone-action = Spravovať účet
 postAddTwoStepAuthentication-subject-2 = Dvojstupňové overenie je zapnuté
 postAddTwoStepAuthentication-title-2 = Zapli ste dvojstupňové overenie
@@ -340,6 +348,10 @@ postChangePrimary-title = Nová hlavná e‑mailová adresa
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Úspešne ste zmenili svoju hlavnú e‑mailovú adresu na { $email }. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k { -product-mozilla-account(case: "dat", capitalization: "lower") } a na zasielanie bezpečnostných upozornení a potvrdení.
 postChangePrimary-action = Spravovať účet
+postChangeRecoveryPhone-subject = Obnovenie pomocou telefónu bolo aktualizované
+postChangeRecoveryPhone-title = Zmenili ste si telefón na obnovenie účtu
+postChangeRecoveryPhone-description = Teraz máte nové telefónne číslo na obnovenie účtu. Vaše predchádzajúce telefónne číslo bolo odstránené.
+postChangeRecoveryPhone-requested-device = Požiadali ste o to z:
 postConsumeRecoveryCode-title-2 = Použili ste záložný overovací kód
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Bol použitý na:
@@ -360,6 +372,10 @@ postRemoveAccountRecovery-title-3 = Odstránili ste kľúč na obnovenie účtu
 postRemoveAccountRecovery-body-part1 = Ak zabudnete heslo, na obnovenie zašifrovaných údajov prehliadania sa vyžaduje kľúč na obnovenie účtu.
 postRemoveAccountRecovery-body-part2 = Ak ste tak ešte neurobili, vytvorte si v nastaveniach účtu nový kľúč na obnovenie účtu, aby ste predišli strate uložených hesiel, záložiek, histórie prehliadania atď.
 postRemoveAccountRecovery-action = Spravovať účet
+postRemoveRecoveryPhone-subject = Obnovenie pomocou telefónu bolo zrušené
+postRemoveRecoveryPhone-title = Obnovenie pomocou telefónu bolo zrušené
+postRemoveRecoveryPhone-description = Vaše telefónne číslo na obnovenie účtu bolo odstránené z nastavení dvojstupňového overenia. Stále máte svoje záložné overovacie kódy k dispozícii na použitie.
+postRemoveRecoveryPhone-requested-device = Požiadali ste o to z:
 postRemoveSecondary-subject = Alternatívna e‑mailová adresa bola odstránená
 postRemoveSecondary-title = Alternatívna e‑mailová adresa bola odstránená
 # Variables:
