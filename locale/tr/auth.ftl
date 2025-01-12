@@ -320,6 +320,13 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }nıza yeni bir hesa
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } hesabınız { -product-mozilla-account }na bağlandı
 postAddLinkedAccount-action = Hesabı yönet
+postAddRecoveryPhone-subject = Kurtarma telefonu eklendi
+postAddRecoveryPhone-title = Kurtarma telefon numarası oluşturdunuz
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = { $maskedLastFourPhoneNumber } numarasını kurtarma telefonunuz olarak eklediniz
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 postAddTwoStepAuthentication-subject-2 = İki aşamalı doğrulama açıldı
 postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
 # After the colon, there is a description of the device that the user used to enable two-step authentication
