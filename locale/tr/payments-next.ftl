@@ -1,40 +1,42 @@
-
 ## Checkout Page
 ## Common strings used in multiple checkout pages
 
 next-payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
-
 next-payment-error-manage-subscription-button = Aboneliğimi yönet
 next-iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
 next-payment-error-retry-button = Tekrar dene
 next-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 
 ## Page
+
+checkout-signin-or-create = 1. { -product-mozilla-account }na giriş yapın veya hesap açın
+checkout-create-account = { -product-mozilla-account } oluşturun
+continue-signin-with-google-button = { -brand-google } ile devam et
+continue-signin-with-apple-button = { -brand-apple } ile devam et
 next-payment-method-header = Ödeme yönteminizi seçin
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Öncelikle aboneliğinizi onaylamanız gerekiyor
-
 next-payment-confirmation-thanks-heading-account-exists = Teşekkürler, şimdi e-postanızı kontrol edin!
-
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = { $email } adresine, aboneliğinizle ilgili talimatların yanı sıra ödeme ayrıntılarınızı içeren bir e-posta göndereceğiz.
 next-payment-confirmation-order-heading = Sipariş ayrıntıları
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
-
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-
 next-payment-confirmation-details-heading-2 = Ödeme bilgileri
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $interval (String) - The interval between payments.
 next-payment-confirmation-amount = { $interval } { $amount }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
-
 next-payment-confirmation-download-button = İndirmeye devam et
+checkout-error-boundary-retry-button = Yeniden dene
 
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = { -brand-mozilla }’nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
-
 next-payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerekiyor
 
 ## Checkout Form
@@ -44,17 +46,17 @@ next-payment-validate-name-error = Lütfen adınızı girin
 
 ## Component - CouponForm
 
-next-coupon-enter-code = 
-  .placeholder = Kodu yazın
-
+next-coupon-enter-code =
+    .placeholder = Kodu yazın
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 next-coupon-promo-code = Promosyon kodu
-
 # Title of container showing discount coupon code applied to a subscription.
 next-coupon-promo-code-applied = Promosyon kodu uygulandı
-
 next-coupon-remove = Kaldır
 next-coupon-submit = Uygula
+payments-client-loading-spinner =
+    .aria-label = Yükleniyor…
+    .alt = Yükleniyor…
 
 ## Payment Section
 
@@ -67,6 +69,21 @@ next-plan-details-show-button = Ayrıntıları göster
 
 ## Select Tax Location
 
+select-tax-location-title = Konum
+select-tax-location-edit-button = Düzenle
+select-tax-location-save-button = Kaydet
+select-tax-location-country-code-label = Ülke
+select-tax-location-country-code-placeholder = Ülkenizi seçin
+select-tax-location-error-missing-country-code = Lütfen ülkenizi seçin
+select-tax-location-postal-code-label = Posta kodu
+select-tax-location-postal-code =
+    .placeholder = Posta kodunuzu girin
+select-tax-location-error-missing-postal-code = Lütfen posta kodunuzu girin
+select-tax-location-error-invalid-postal-code = Lütfen geçerli bir posta kodu girin
+select-tax-location-successfully-updated = Konumunuz güncellendi.
+select-tax-location-error-location-not-updated = Konumunuz güncellenemedi. Lütfen yeniden deneyin.
+signin-form-continue-button = Devam et
+signin-form-email-input = E-postanızı girin
 next-new-user-subscribe-product-updates-mdnplus = { -brand-mozilla } ve { -product-mdn-plus }’tan ürün haberleri ve duyuruları almak istiyorum
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }’dan ürün haberleri ve duyuruları almak istiyorum
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }’dan güvenlik ve gizlilik ile ilgili haberleri ve duyuruları almak istiyorum
@@ -86,13 +103,19 @@ next-coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenile
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra liste fiyatı üzerinden otomatik olarak yenilenecek.
 
+## Component - PriceInterval
+
+
+## PriceInterval - shared by multiple components, including Details and PurchaseDetails
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Aboneliğinizi ayarlayın
 next-subscription-success-title = Abonelik onayı
 next-subscription-processing-title = Abonelik onaylanıyor…
 next-subscription-error-title = Abonelik onaylanırken hata oluştu…
-
 next-sub-guarantee = 30 gün para iade garantisi
 
 ## Component - TermsAndPrivacy
@@ -100,7 +123,6 @@ next-sub-guarantee = 30 gün para iade garantisi
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
 next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
-
 next-terms = Kullanım Koşulları
 next-privacy = Gizlilik Bildirimi
 next-terms-download = İndirme Koşulları

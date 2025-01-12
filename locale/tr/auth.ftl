@@ -327,6 +327,9 @@ postAddRecoveryPhone-title = Kurtarma telefon numarası oluşturdunuz
 postAddRecoveryPhone-description = { $maskedLastFourPhoneNumber } numarasını kurtarma telefonunuz olarak eklediniz
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
+postAddRecoveryPhone-how-protect-plaintext = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
+postAddRecoveryPhone-enabled-device = Bu cihazdan etkinleştirdiniz:
+postAddRecoveryPhone-action = Hesabı yönet
 postAddTwoStepAuthentication-subject-2 = İki aşamalı doğrulama açıldı
 postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -344,6 +347,10 @@ postChangePrimary-title = Yeni ana e-posta
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-mozilla-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 postChangePrimary-action = Hesabı yönet
+postChangeRecoveryPhone-subject = Kurtarma telefonu güncellendi
+postChangeRecoveryPhone-title = Kurtarma telefonunuzu değiştirdiniz
+postChangeRecoveryPhone-description = Artık yeni bir kurtarma telefonunuz var. Önceki telefon numaranız silindi.
+postChangeRecoveryPhone-requested-device = Bu cihazdan istediniz:
 postConsumeRecoveryCode-title-2 = Yedek kimlik doğrulama kodu kullandınız
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Kullanılan cihaz:
@@ -363,6 +370,9 @@ postRemoveAccountRecovery-title-3 = Hesap kurtarma anahtarınızı sildiniz
 postRemoveAccountRecovery-body-part1 = Parolanızı unutursanız şifrelenmiş gezinti verilerinizi kurtarmak için hesap kurtarma anahtarınız gerekir.
 postRemoveAccountRecovery-body-part2 = Henüz oluşturmadıysanız hesap ayarlarınızdan yeni bir hesap kurtarma anahtarı oluşturun. Kayıtlı parolalarınızı, yer imlerinizi, gezinti geçmişinizi ve diğer verilerinizi kaybetmeyin.
 postRemoveAccountRecovery-action = Hesabı yönet
+postRemoveRecoveryPhone-subject = Kurtarma telefonu kaldırıldı
+postRemoveRecoveryPhone-title = Kurtarma telefonu kaldırıldı
+postRemoveRecoveryPhone-requested-device = Bu cihazdan istediniz:
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
 # Variables:
