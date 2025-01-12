@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Naspäť
+button-back-title = Naspäť
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Mobilné zariadenie, ktoré prijíma kód prostredníctvom textovej správy.
 recovery-phone-code-image-description =
     .aria-label = Kód prijatý na mobilné zariadenie.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobilné zariadenie s možnosťou textových správ SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Obrazovka zariadenia s kódmi
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -321,6 +327,8 @@ input-password-sr-only-now-hidden = Vaše heslo je teraz skryté.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Zvoľte krajinu
 input-phone-number-enter-number = Zadajte telefónne číslo
 input-phone-number-country-united-states = Spojené štáty americké
 input-phone-number-country-canada = Kanada
@@ -561,6 +569,9 @@ dc-learn-more = Ďalšie informácie
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Ponuka { -product-mozilla-account(case: "gen", capitalization: "lower") }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Prihlásený ako
 drop-down-menu-sign-out = Odhlásiť sa
 drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 
@@ -614,9 +625,33 @@ flow-recovery-key-info-cancel-link = Zrušiť
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Zadajte overovací kód
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Na číslo <span>{ $phoneNumber }</span> bol prostredníctvom textovej správy odoslaný šesťmiestny kód. Platnosť tohto kódu vyprší po 5 minútach.
+flow-setup-phone-confirm-code-input-label = Zadajte šesťmiestny kód
+flow-setup-phone-confirm-code-button = Potvrdiť
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Platnosť kódu vypršala?
+flow-setup-phone-confirm-code-resend-code-button = Znova odoslať kód
+flow-setup-phone-confirm-code-success-message = Obnovenie pomocou telefónu bolo pridané
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Overte svoje telefónne číslo
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Dostanete textovú správy od { -brand-mozilla(case: "gen") } s kódom na overenie vášho čísla. S nikým tento kód nezdieľajte.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Obnovenie pomocou telefónu je k dispozícii iba v Spojených štátoch a Kanade. VoIP čísla a telefónne masky sa neodporúčajú.
+flow-setup-phone-submit-number-legal = Poskytnutím svojho čísla súhlasíte s jeho uložením, aby sme vám mohli posielať textové správy na overenie účtu. Môžu sa účtovať poplatky za správy a dáta.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Odoslať kód
 
 ## HeaderLockup component, the header in account settings
 
@@ -891,6 +926,7 @@ tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
 tfa-cannot-verify-code-4 = Pri potvrdení vášho záložného overovacieho kódu sa vyskytol problém
 tfa-incorrect-recovery-code-1 = Nesprávny záložný overovací kód
+tfa-enabled-v2 = Dvojstupňové overenie bolo povolené
 tfa-scan-this-code =
     Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
     aplikácií</linkExternal>.
@@ -1095,6 +1131,10 @@ tfa-row-button-refresh =
     .title = Obnoviť dvojstupňové overenie
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
 tfa-row-enabled-description = Váš účet je chránený dvojstupňovou autentifikáciou. Pri prihlasovaní do svojho { -product-mozilla-account(case: "gen", capitalization: "lower") } budete musieť zadať jednorazový prístupový kód z overovacej aplikácie.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Ako toto chráni váš účet
+tfa-row-disabled-description-v2 = Pomôžte zabezpečiť svoj účet pomocou aplikácie na overenie totožnosti tretej strany ako druhého kroku prihlásenia.
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
@@ -1264,6 +1304,7 @@ inline-recovery-confirmation-header-default = Potvrďte záložný overovací k�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Dvojstupňové overenie bolo povolené
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1611,6 +1652,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox } sa vás po prihlásení 
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Prihlásiť sa
+signin-recovery-method-subheader = Vyberte spôsob obnovy
+signin-recovery-method-details = Poďme sa, že ste to vy, čo používate svoje metódy obnovy.
+signin-recovery-method-phone = Obnovenie pomocou telefónu
+signin-recovery-method-code = Overovacie kódy
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Zostávajúce kódy: { $numberOfCodes }
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
