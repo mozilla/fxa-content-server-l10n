@@ -873,6 +873,7 @@ recovery-key-create-back-button-title = Späť na nastavenia
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Pridajte obnovenie pomocou telefónu
 
 ## Add secondary email page
 
@@ -1024,7 +1025,7 @@ tfa-row-backup-codes-description-2 = Toto je najbezpečnejšia metóda obnovy, a
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title = Telefón na obnovu zo zálohy
 # Shown with an alert icon to indicate that no backup recovery phone is configured
-tfa-row-backup-phone-not-available = Nie je k dispozícii žiadne telefónne číslo na obnovenie zo zálohy
+tfa-row-backup-phone-not-available = Nie je k dispozícii žiadne telefónne číslo na obnovenie pomocou telefónu
 # button to change the configured backup recovery phone
 tfa-row-backup-phone-change-cta = Zmeniť
 # button to add/configure a backup recovery phone
@@ -1032,8 +1033,8 @@ tfa-row-backup-phone-add-cta = Pridať
 # Button to remove a backup recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Odstrániť
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Odstráni telefón na obnovenie zo zálohy
-tfa-row-backup-phone-delete-restriction = Ak chcete odstrániť telefón na obnovenie zo zálohy, pridajte záložné overovacie kódy alebo najskôr zakážte dvojstupňové overenie, aby ste sa vyhli zablokovaniu vášho účtu.
+tfa-row-backup-phone-delete-title = Odstráni možnosť obnovy pomocou telefónu
+tfa-row-backup-phone-delete-restriction = Ak chcete odstrániť možnosť obnovy pomocou telefónu, pridajte záložné overovacie kódy alebo najskôr zakážte dvojstupňové overenie, aby ste sa vyhli zablokovaniu vášho účtu.
 # "this" refers to backup recovery phone
 tfa-row-backup-phone-description = Toto je jednoduchší spôsob obnovenia, ak nemôžete použiť aplikáciu na overenie totožnosti.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier

@@ -321,6 +321,8 @@ postAddLinkedAccount-subject-2 = Nový účet prepojený s vaším { -product-mo
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Váš účet { $providerName } bol prepojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Spravovať účet
+postAddRecoveryPhone-subject = Obnovenie pomocou telefónu bolo pridané
+postAddRecoveryPhone-action = Spravovať účet
 postAddTwoStepAuthentication-subject-2 = Dvojstupňové overenie je zapnuté
 postAddTwoStepAuthentication-title-2 = Zapli ste dvojstupňové overenie
 # After the colon, there is a description of the device that the user used to enable two-step authentication
