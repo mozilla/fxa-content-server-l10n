@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Atrás
+button-back-title = Atrás
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,8 @@ recovery-phone-image-description =
     .aria-label = Dispositivo móvil que recibe un código por mensaje de texto.
 recovery-phone-code-image-description =
     .aria-label = Código recibido en un dispositivo móvil.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dispositivo móvil con capacidad para enviar mensajes de texto SMS
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key

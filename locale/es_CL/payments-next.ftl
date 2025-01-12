@@ -75,6 +75,18 @@ select-tax-location-edit-button = Editar
 select-tax-location-save-button = Guardar
 select-tax-location-country-code-label = País
 select-tax-location-country-code-placeholder = Selecciona tu país
+select-tax-location-error-missing-country-code = Por favor, selecciona tu país
+select-tax-location-postal-code-label = Código postal
+select-tax-location-postal-code =
+    .placeholder = Ingresa tu código postal
+select-tax-location-error-missing-postal-code = Por favor, ingresa tu código postal
+select-tax-location-error-invalid-postal-code = Por favor, introduce un código postal válido
+select-tax-location-successfully-updated = Tu ubicación ha sido actualizada.
+select-tax-location-error-location-not-updated = No se pudo actualizar tu ubicación. Por favor, vuelve a intentarlo.
+signin-form-continue-button = Continuar
+signin-form-email-input = Ingresa tu correo
+signin-form-email-input-missing = Por favor, ingresa tu correo
+signin-form-email-input-invalid = Por favor, proporciona un correo electrónico válido
 next-new-user-subscribe-product-updates-mdnplus = Me gustaría recibir noticias y actualizaciones de productos de { -product-mdn-plus } y { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias y actualizaciones de productos de { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
@@ -90,6 +102,8 @@ next-plan-details-total-label = Total
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Su plan se renovará automáticamente al precio de lista.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Tu plan se renovará automáticamente después de { $couponDurationDate } al precio de lista.
@@ -100,6 +114,11 @@ next-coupon-success-repeating = Tu plan se renovará automáticamente después d
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } diarios
+plan-price-interval-weekly = { $amount } semanales
+plan-price-interval-monthly = { $amount } mensuales
+plan-price-interval-6monthly = { $amount } cada 6 meses
+plan-price-interval-yearly = { $amount } al año
 
 ## Component - SubscriptionTitle
 
