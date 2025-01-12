@@ -320,6 +320,16 @@ postAddLinkedAccount-subject-2 = Сіздің { -product-mozilla-account } іш�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Сіздің { $providerName } тіркелгіңіз { -product-mozilla-account } ішіне байланыстырылды.
 postAddLinkedAccount-action = Тіркелгіні басқару
+postAddRecoveryPhone-subject = Қалпына келтіру телефоны қосылды
+postAddRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін жасадыңыз
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Сіз қалпына келтіру телефоны ретінде { $maskedLastFourPhoneNumber } нөмірін қостыңыз
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Бұл сіздің тіркелгіңізді қалай қорғайды
+postAddRecoveryPhone-how-protect-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
+postAddRecoveryPhone-enabled-device = Сіз оны келесі жерден іске қостыңыз:
+postAddRecoveryPhone-action = Тіркелгіні басқару
 postAddTwoStepAuthentication-subject-2 = Екі қадамды аутентификация іске қосылды
 postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны іске қостыңыз
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -337,6 +347,8 @@ postChangePrimary-title = Жаңа біріншілік эл. поштасы
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Сіз біріншілік электрондық поштаңызды { $email } етіп өзгерттіңіз. Бұл аджрес енді { -product-mozilla-account } тіркелгіңізге кіруге, сондай-ақ қауіпсіздік хабарландыруларын және жүйеге кіру растауларын алуға арналған пайдаланушы атыңыз болып табылады.
 postChangePrimary-action = Тіркелгіні басқару
+postChangeRecoveryPhone-subject = Қалпына келтіру телефоны жаңартылды
+postChangeRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін өзгерттіңіз
 postConsumeRecoveryCode-title-2 = Сіз сақтық аутентификация кодын пайдаландыңыз
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Ол келесі жерде пайдаланылды:
