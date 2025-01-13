@@ -114,6 +114,10 @@ payment-error-manage-subscription-button = Upravljaj mojom pretplatom
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Već imaš pretplatu na { $productName } putem trgovina { -brand-google } ili { -brand-apple }.
+iap-upgrade-no-bundle-support = Ne podržavamo nadogradnje za ove pretplate, ali uskoro hoćemo.
+iap-upgrade-contact-support = Još uvijek možeš dobiti ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
 iap-upgrade-get-help-button = Dobij pomoć
 
 ## Component - PaymentForm
