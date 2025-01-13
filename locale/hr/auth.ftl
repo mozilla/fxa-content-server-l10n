@@ -393,6 +393,7 @@ subscriptionAccountReminderFirst-action = Stvori lozinku
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Posljednji podsjetnik: postavi svoj račun
 subscriptionAccountReminderSecond-title-2 = Dobro došao, dobro došla u { -brand-mozilla }!
+subscriptionAccountReminderSecond-content-select-2 = Odaberi „Stvori lozinku” za postavljanje nove lozinke i dovršavanje potvrđivanja tvog računa.
 subscriptionAccountReminderSecond-action = Stvori lozinku
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -405,6 +406,7 @@ subscriptionCancellation-title = Žao nam je što odlaziš
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Prekinuli smo tvoju pretplatu na { $productName }. Tvoja zadnja uplata od { $invoiceTotal } je plaćena { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Tvoja će usluga biti dostupna do kraja tekućeg obračunskog razdoblja, a to je { $serviceLastActiveDateOnly }.
@@ -532,8 +534,10 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdi račun
 verificationReminderSecond-subject-2 = Ne zaboravi potvrditi svoj račun
 verificationReminderSecond-description-4 = Prije nekoliko dana si stvorio/la { -product-mozilla-account }, ali ga nikada nisi potvrdio/la. Potvrdi račun u sljedećih 10 dana ili će se račun automatski izbrisati.
+verificationReminderSecond-sub-description-2 = Budi dio naše misije pretvaranja interneta u mjesto koje je otvoreno za sve.
 verificationReminderSecond-action-2 = Potvrdi račun
 verify-title-3 = Otvori internet s { -brand-mozilla }
+verify-description-2 = Potvrdi svoj račun i izvuci maksimum iz { -brand-mozilla } gdje god se prijaviš počevši s:
 verify-subject = Završi stvaranje računa
 verify-action-2 = Potvrdi račun
 # Variables:
