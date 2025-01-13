@@ -52,6 +52,11 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
 subplat-privacy-website-plaintext = { subplat-privacy }:
 
+account-deletion-info-block-communications = If your account is deleted, you’ll still receive emails from Mozilla Corporation and Mozilla Foundation, unless you <a data-l10n-name="unsubscribeLink">ask to unsubscribe</a>.
+account-deletion-info-block-support = If you have any questions or need assistance, feel free to contact our <a data-l10n-name="supportLink">support team</a>.
+account-deletion-info-block-communications-plaintext = If your account is deleted, you’ll still receive emails from Mozilla Corporation and Mozilla Foundation, unless you ask to unsubscribe:
+account-deletion-info-block-support-plaintext = If you have any questions or need assistance, feel free to contact our support team:
+
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $productName } on { -google-play }">
@@ -80,6 +85,8 @@ automated-email-support =  For more info, visit <a data-l10n-name="supportLink">
 automated-email-change-plaintext-2 = If you didn’t take this action, change your password right away:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = For more info, visit { -brand-mozilla } Support:
+
+automated-email-inactive-account = This is an automated email. You are receiving it because you have a { -product-mozilla-account } and it has been 2 years since your last sign-in.
 
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
@@ -279,6 +286,17 @@ fraudulentAccountDeletion-contact = If you have any questions, please contact ou
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext =  If you have any questions, please contact our support team: { $mozillaSupportUrl }
+
+inactiveAccountFirstWarning-subject = Donʼt lose your account
+inactiveAccountFirstWarning-title = Do you want to keep your { -brand-mozilla } account and data?
+inactiveAccountFirstWarning-account-description = Your { -product-mozilla-account } is used to access free privacy and browsing products like { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay }, and { -product-mdn }.</span>
+inactiveAccountFirstWarning-inactive-status = We noticed you haven’t signed in for 2 years.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Your account and your personal data will be permanently deleted on <strong>{ $deletionDate }</strong> because you haven’t been active.
+inactiveAccountFirstWarning-action = Sign in to keep your account
+# followed by link to sign in
+inactiveAccountFirstWarning-action = Sign in to keep your account:
 
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = You’re out of backup authentication codes!
@@ -729,6 +747,7 @@ verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, t
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirm your account
+verifyShortCode-preview = Use the included code to confirm your { -product-mozilla-account }.
 verifyShortCode-title-3 = Open the internet with { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:
