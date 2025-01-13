@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-09 19:40+0000\n"
+"PO-Revision-Date: 2025-01-13 13:32+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -2053,7 +2053,7 @@ msgstr "Pažnja:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Prijeđi na Firefox i otvori ovu stranicu za povezivanje jednog drugog uređaja."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
