@@ -372,6 +372,7 @@ postRemoveAccountRecovery-body-part2 = Henüz oluşturmadıysanız hesap ayarlar
 postRemoveAccountRecovery-action = Hesabı yönet
 postRemoveRecoveryPhone-subject = Kurtarma telefonu kaldırıldı
 postRemoveRecoveryPhone-title = Kurtarma telefonu kaldırıldı
+postRemoveRecoveryPhone-description = Kurtarma telefonunuz iki aşamalı kimlik doğrulama ayarlarınızdan kaldırıldı. Yedek kimlik doğrulama kodlarınızı kullanmaya devam edebilirsiniz.
 postRemoveRecoveryPhone-requested-device = Bu cihazdan istediniz:
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi

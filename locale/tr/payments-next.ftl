@@ -33,6 +33,7 @@ next-payment-confirmation-amount = { $interval } { $amount }
 next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 next-payment-confirmation-download-button = İndirmeye devam et
 checkout-error-boundary-retry-button = Yeniden dene
+checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden deneyin veya <contactSupportLink>destek ekibiyle iletişime geçin.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -43,6 +44,9 @@ next-payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerek
 
 next-new-user-submit = Şimdi abone ol
 next-payment-validate-name-error = Lütfen adınızı girin
+# Label for the Full Name input
+payment-name-label = Kartınızda göründüğü şekliyle adınız
+payment-name-placeholder = Ad ve soyadı
 
 ## Component - CouponForm
 
@@ -84,6 +88,8 @@ select-tax-location-successfully-updated = Konumunuz güncellendi.
 select-tax-location-error-location-not-updated = Konumunuz güncellenemedi. Lütfen yeniden deneyin.
 signin-form-continue-button = Devam et
 signin-form-email-input = E-postanızı girin
+signin-form-email-input-missing = Lütfen e-posta adresinizi yazın
+signin-form-email-input-invalid = Lütfen geçerli bir e-posta yazın
 next-new-user-subscribe-product-updates-mdnplus = { -brand-mozilla } ve { -product-mdn-plus }’tan ürün haberleri ve duyuruları almak istiyorum
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }’dan ürün haberleri ve duyuruları almak istiyorum
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }’dan güvenlik ve gizlilik ile ilgili haberleri ve duyuruları almak istiyorum
@@ -99,6 +105,8 @@ next-plan-details-total-label = Toplam
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra liste fiyatı üzerinden otomatik olarak yenilenecek.
@@ -109,6 +117,11 @@ next-coupon-success-repeating = Planınız { $couponDurationDate } tarihinden so
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = Günlük { $amount }
+plan-price-interval-weekly = Haftalık { $amount }
+plan-price-interval-monthly = Aylık { $amount }
+plan-price-interval-6monthly = 6 ayda bir { $amount }
+plan-price-interval-yearly = Yıllık { $amount }
 
 ## Component - SubscriptionTitle
 

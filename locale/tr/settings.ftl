@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Geri
+button-back-title = Geri
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Kısa mesajla kod alan bir mobil cihaz.
 recovery-phone-code-image-description =
     .aria-label = Bir mobil cihaza ulaşan kod.
+backup-recovery-phone-image-aria-label =
+    .aria-label = SMS mesajı özelliğine sahip mobil cihaz
+backup-authentication-codes-image-aria-label =
+    .aria-label = Kodlar görünen cihaz ekranı
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -624,6 +630,9 @@ flow-recovery-key-info-cancel-link = İptal
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Doğrulama kodunu girin
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = <span>{ $phoneNumber }</span> numarasına kısa mesajla altı haneli bir kod gönderdik. Bu kodun geçerlilik süresi 5 dakikadır.
 flow-setup-phone-confirm-code-input-label = 6 basamaklı kodu girin
 flow-setup-phone-confirm-code-button = Onayla
 # button to resend a code by text message to the user's phone
@@ -635,6 +644,11 @@ flow-setup-phone-confirm-code-success-message = Yedek kurtarma telefonu eklendi
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Telefon numaranızı doğrulayın
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Yedek kurtarma telefonu yalnızca Amerika Birleşik Devletleri ve Kanada’da kullanılabilir. VoIP numaraları ve telefon maskeleri önerilmez.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kodu gönder
 
@@ -1624,6 +1638,13 @@ signin-recovery-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Giriş yap
+signin-recovery-method-subheader = Bir kurtarma yöntemi seçin
+signin-recovery-method-details = Kurtarma yöntemlerinizi kullanan kişinin siz olduğunuzdan emin olmamız gerekiyor.
+signin-recovery-method-phone = Kurtarma telefonu
+signin-recovery-method-code = Kimlik doğrulama kodları
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } kod kaldı
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
