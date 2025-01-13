@@ -1133,7 +1133,7 @@ tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu da
 tfa-row-enabled-description = Mae eich cyfrif wedi'i ddiogelu gan ddilysiad dau gam. Bydd angen i chi roi cod pas un-amser o'ch ap dilysu wrth fewngofnodi i'ch { -product-mozilla-account }.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-tfa-row-enabled-info-link = Sut mae hyn yn amddiffyn eich cyfrif
+tfa-row-enabled-info-link = Sut mae hyn yn diogelu eich cyfrif
 tfa-row-disabled-description-v2 = Helpwch i ddiogelu'ch cyfrif trwy ddefnyddio ap dilysu trydydd parti fel ail gam i fewngofnodi.
 tfa-row-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?

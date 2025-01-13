@@ -547,6 +547,8 @@ sub-route-funding-source-payment-alert = Neispravni podaci o plaćanju; postoji 
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Ne postoji takav plan za ovu pretplatu.
+invoice-not-found = Naknadni račun nije pronađen
+sub-item-no-such-subsequent-invoice = Naknadni račun nije pronađen za ovu pretplatu.
 sub-invoice-preview-error-title = Pregled računa nije pronađen
 sub-invoice-preview-error-text = Pregled računa nije pronađen za ovu pretplatu
 
