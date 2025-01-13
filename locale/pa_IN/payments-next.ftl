@@ -1,33 +1,27 @@
-
 ## Checkout Page
 ## Common strings used in multiple checkout pages
 
 next-payment-processing-message = ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਉੱਤੇ ਸਾਡੇ ਵਲੋਂ ਕਾਰਵਾਈ ਕੀਤੇ ਤੱਕ ਉਡੀਕੋ…
-
 next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## Page
+
 next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ
 next-payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
-
 next-payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁਣ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ!
-
 next-payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = ਇਨਵਾਇਸ ${ $invoiceNumber }
-
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-
 next-payment-confirmation-details-heading-2 = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $interval (String) - The interval between payments.
 next-payment-confirmation-amount = { $amount } ਪ੍ਰਤੀ { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
-
 next-payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ
 
 ## Component - Payment Consent Checkbox
@@ -41,15 +35,12 @@ next-payment-validate-name-error = ਆਪਣਾ ਪੂਰਾ ਨਾਂ ਭਰੋ
 
 ## Component - CouponForm
 
-next-coupon-enter-code = 
-  .placeholder = ਕੋਡ ਦਿਓ
-
+next-coupon-enter-code =
+    .placeholder = ਕੋਡ ਦਿਓ
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 next-coupon-promo-code = ਪਰਚਾਰ ਕੋਡ
-
 # Title of container showing discount coupon code applied to a subscription.
 next-coupon-promo-code-applied = ਪ੍ਰੋਮੋ ਕੋਡ ਲਾਗੂ ਕੀਤਾ
-
 next-coupon-remove = ਹਟਾਓ
 next-coupon-submit = ਲਾਗੂ ਕਰੋ
 
@@ -76,13 +67,23 @@ next-plan-details-list-price = ਭਾਅ ਸੂਚੀ
 next-plan-details-tax = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
 next-plan-details-total-label = ਕੁੱਲ ਜੋੜ
 
+## Purchase details - shared by multiple components, including purchase details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## Component - PriceInterval
+
+
+## PriceInterval - shared by multiple components, including Details and PurchaseDetails
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = ਆਪਣੀ ਮੈਂਬਰੀ ਸੈਟਅੱਪ ਕਰੋ
 next-subscription-success-title = ਮੈਂਬਰੀ ਦੀ ਤਸਦੀਕ
 next-subscription-processing-title = ਮੈਂਬਰੀ ਤਸਦੀਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…
 next-subscription-error-title = ਮੈਂਬਰੀ ਤਸਦੀ ਕਰਨ ਦੌਰਾਨ ਗ਼ਲਤੀ…
-
 next-sub-guarantee = 30-ਦਿਨ ਦੀ ਰਕਮ ਵਾਪਸੀ ਗਾਰੰਟੀ
 
 ## Component - TermsAndPrivacy
@@ -90,7 +91,6 @@ next-sub-guarantee = 30-ਦਿਨ ਦੀ ਰਕਮ ਵਾਪਸੀ ਗਾਰੰ�
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
 next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
-
 next-terms = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 next-privacy = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 next-terms-download = ਡਾਊਨਲੋਡ ਕਰਨ ਦੀਆਂ ਸ਼ਰਤਾਂ

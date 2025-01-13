@@ -1,40 +1,33 @@
-
 ## Checkout Page
 ## Common strings used in multiple checkout pages
 
 next-payment-processing-message = Mesedez, itxaron ordainketa prozesatzen dugun bitartean…
-
 next-payment-error-manage-subscription-button = Kudeatu nire harpidetza
 next-iap-upgrade-contact-support = Produktu hau eskura dezakezu oraindik. Jarri laguntza-zerbitzuarekin laguntza lortzeko.
 next-payment-error-retry-button = Saiatu berriro
 next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
 
 ## Page
+
 next-payment-method-header = Hautatu zure ordaiketa metodoa
 next-payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beharko duzu
-
 next-payment-confirmation-thanks-heading-account-exists = Eskerri asko, begiratu zure posta elektronikoa
-
 next-payment-confirmation-order-heading = Eskaeraren xehetasunak
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
-
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-
 next-payment-confirmation-details-heading-2 = Ordainketa informazioa
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $interval (String) - The interval between payments.
 next-payment-confirmation-amount = { $amount } { $interval }-(e)ro
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
-
 next-payment-confirmation-download-button = Jarraitu deskargara
 
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Baimena ematen diot { -brand-mozilla }-ri nire ordainketa-metodoari kobratzeko erakutsitako zenbatekoa, <termsOfServiceLink>Zerbitzu-baldintzen arabera</termsOfServiceLink> eta <privacyNoticeLink>Pribatutasun-oharra</privacyNoticeLink>, nire harpidetza bertan behera utzi arte.
-
 next-payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 
 ## Checkout Form
@@ -44,15 +37,12 @@ next-payment-validate-name-error = Idatzi zure izena
 
 ## Component - CouponForm
 
-next-coupon-enter-code = 
-  .placeholder = Sartu kodea
-
+next-coupon-enter-code =
+    .placeholder = Sartu kodea
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 next-coupon-promo-code = Sustapen kodea
-
 # Title of container showing discount coupon code applied to a subscription.
 next-coupon-promo-code-applied = Promozio kodea aplikatuta
-
 next-coupon-remove = Kendu
 next-coupon-submit = Aplikatu
 
@@ -86,13 +76,19 @@ next-coupon-success = Zure plana automatikoki berrituko da zerrendako prezioan.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Zure plana automatikoki berrituko da { $couponDurationDate } ondoren zerrendako prezioan.
 
+## Component - PriceInterval
+
+
+## PriceInterval - shared by multiple components, including Details and PurchaseDetails
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Zure harpidetzaren ezarpenak
 next-subscription-success-title = Harpidetza baieztapena
 next-subscription-processing-title = Harpidetza baieztatzen…
 next-subscription-error-title = Errorea harpidetza baieztatzen…
-
 next-sub-guarantee = 30 eguneko dirua itzultzeko bermea
 
 ## Component - TermsAndPrivacy
@@ -100,7 +96,6 @@ next-sub-guarantee = 30 eguneko dirua itzultzeko bermea
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
 next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
-
 next-terms = Zerbitzuaren baldintzak
 next-privacy = Pribatutasun-oharra
 next-terms-download = Deskargatu baldintzak

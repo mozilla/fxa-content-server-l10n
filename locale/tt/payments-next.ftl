@@ -1,32 +1,30 @@
-
 ## Checkout Page
 ## Common strings used in multiple checkout pages
 
 next-payment-processing-message = Сезнең түләү эшкәртелә. Зинһар, көтегез…
-
 next-payment-error-manage-subscription-button = Минем язылу белән идарә итү
 next-payment-error-retry-button = Янәдән тырышып карау
 next-basic-error-message = Нидер булды. Зинһар соңрак тырышып карагыз.
 
 ## Page
+
 next-payment-method-header = Түләү ысулын сайлагыз
 next-payment-confirmation-thanks-heading-account-exists = Рәхмәт, ә хәзер эл. почтагызны тикшерегез!
-
 next-payment-confirmation-order-heading = Заказ нечкәлекләре
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Квитанция №{ $invoiceNumber }
-
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-
 next-payment-confirmation-details-heading-2 = Түләү турындагы мәгълүмат
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $interval (String) - The interval between payments.
 next-payment-confirmation-amount = { $amount } / { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамланучы карта
-
 next-payment-confirmation-download-button = Йөкләүне дәвам итү
+
+## Component - Payment Consent Checkbox
+
 
 ## Checkout Form
 
@@ -35,15 +33,12 @@ next-payment-validate-name-error = Зинһар, исемегезне керте
 
 ## Component - CouponForm
 
-next-coupon-enter-code = 
-  .placeholder = Кодны кертү
-
+next-coupon-enter-code =
+    .placeholder = Кодны кертү
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 next-coupon-promo-code = Промо-код
-
 # Title of container showing discount coupon code applied to a subscription.
 next-coupon-promo-code-applied = Промо-код кулланылды
-
 next-coupon-remove = Бетерү
 next-coupon-submit = Куллану
 
@@ -68,13 +63,23 @@ next-plan-details-list-price = Бәяләр исемлеге
 next-plan-details-tax = Салымнар һәм түләүләр
 next-plan-details-total-label = Барлыгы
 
+## Purchase details - shared by multiple components, including purchase details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## Component - PriceInterval
+
+
+## PriceInterval - shared by multiple components, including Details and PurchaseDetails
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Язылуларыгызны көйләү
 next-subscription-success-title = Язылуны раслау
 next-subscription-processing-title = Язылуны раслау…
 next-subscription-error-title = Язылуны раслау хатасы…
-
 next-sub-guarantee = 30 көн эчендә акчаны кире кайтару гарантиясе
 
 ## Component - TermsAndPrivacy
