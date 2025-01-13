@@ -1050,6 +1050,10 @@ connect-another-device-signin-confirmed-banner = Prijava je potvrđena
 connect-another-device-signin-to-complete-message = Prijavi se na ovaj { -brand-firefox } za dovršavanje postavljanja
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Prijavi se
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Još uvijek dodaješ uređaj? Prijavi se u { -brand-firefox } na jednom drugom uređaju za završavanje postavljanja
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Prijavi se u { -brand-firefox } na jednom drugom uređaju za završavanje postavljanja
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
 connect-another-device-get-data-on-another-device-message = Želiš li dobiti tvoje kartice, zabilješke i lozinke na jednom drugom uređaju?
 # This link leads the user back to the `/pair` page so as to connect another device
