@@ -350,6 +350,8 @@ postNewRecoveryCodes-description-2 = Stvoreni su:
 postNewRecoveryCodes-action = Upravljaj računom
 postRemoveAccountRecovery-subject-2 = Ključ za obnavljanje računa je izbrisan
 postRemoveAccountRecovery-title-3 = Izbrisao/la si tvoj ključ za obnavljanje računa
+postRemoveAccountRecovery-body-part1 = Tvoj ključ za obnavljanje računa je potreban za vraćanje šifriranih podataka pregledavanja ako zaboraviš lozinku.
+postRemoveAccountRecovery-body-part2 = Ako već nisi, izradi novi ključ za obnavljanje računa u postavkama računa kako bi spriječio/la gubljenje spremljenih lozinki, zabilješki, povijesti pregledavanja i više.
 postRemoveAccountRecovery-action = Upravljaj računom
 postRemoveSecondary-subject = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-title = Sekundarna adresa e-pošte je uklonjena
@@ -359,6 +361,7 @@ postRemoveTwoStepAuthentication-title-2 = Deaktivirao/la si dvofaktorsku autenti
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
 postRemoveTwoStepAuthentication-action = Upravljaj računom
+postRemoveTwoStepAuthentication-not-required-2 = Više ne trebaš sigurnosne kodove od tvoje aplikacije za autentifikaciju kada se prijaviš.
 postVerify-title-2 = Želiš vidjeti istu karticu na dva uređaja?
 postVerify-description-2 = Ništa lakše od toga! Jednostavno instaliraj { -brand-firefox } na drugi uređaj i prijavi se za sinkronizaciju. To je poput magije!
 postVerify-sub-description = (Psst … To također znači da možeš pristupiti tvojim zabilješkama, lozinkama i drugim { -brand-firefox } podacima gdje god si prijavljen/a.)
