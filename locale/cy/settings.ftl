@@ -643,15 +643,15 @@ flow-setup-phone-confirm-code-success-message = Ffôn adfer copi wrth gefn wedi'
 
 flow-setup-phone-submit-number-heading = Gwiriwch eich rhif ffôn
 # The code is a 6-digit code send by text message/SMS
-flow-setup-phone-verify-number-instruction = Byddwch yn cael neges destun gan { -brand-mozilla } gyda chod i ddilysu'ch rhif. Peidiwch â rhannu'r cod hwn ag unrhyw un.
+flow-setup-phone-verify-number-instruction = Byddwch yn cael neges destun gan { -brand-mozilla } gyda chod i ddilysu'ch rhif. Peidiwch â rhannu'r cod hwn gydag unrhyw un.
 # The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Dim ond yn yr Unol Daleithiau a Chanada y mae ffôn adfer copi wrth gefn ar gael. Nid yw rhifau VoIP a masgiau ffôn yn cael eu hargymell.
-flow-setup-phone-submit-number-legal = Trwy ddarparu eich rhif, rydych yn cytuno i ni ei storio fel y gallwn anfon neges destun atoch er mwyn dilysu cyfrif yn unig. Gall cyfraddau neges a data fod yn berthnasol.
+flow-setup-phone-submit-number-info-message = Dim ond yn yr Unol Daleithiau a Chanada y mae ffôn adfer copi wrth gefn ar gael. Nid yw rhifau VoIP a rhifau ffôn cudd yn cael eu hargymell.
+flow-setup-phone-submit-number-legal = Trwy ddarparu eich rhif, rydych yn cytuno i ni ei gadw fel y gallwn anfon neges destun atoch dim ond er mwyn dilysu'r cyfrif. Gall cyfraddau neges a data fod yn berthnasol.
 # cliking on the button sends a code by text message to the phone number typed in by the user
-flow-setup-phone-submit-number-button = Anfon cod
+flow-setup-phone-submit-number-button = Anfon y cod
 
 ## HeaderLockup component, the header in account settings
 
