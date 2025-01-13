@@ -9,7 +9,7 @@ next-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 
 ## Page
 
-checkout-signin-or-create = 1. Mewngofnodwch neu crëwch { -product-mozilla-account }
+checkout-signin-or-create = 1. Mewngofnodwch neu greu { -product-mozilla-account }
 checkout-create-account = Creu { -product-mozilla-account }
 continue-signin-with-google-button = Parhau gyda { -brand-google }
 continue-signin-with-apple-button = Parhau gyda { -brand-apple }
@@ -19,7 +19,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tanysgrifiad
 next-payment-confirmation-thanks-heading-account-exists = Diolch, nawr edrychwch ar eich e-bost!
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Byddwch yn derbyn e-bost yn { $email } gyda chyfarwyddiadau am eich tanysgrifiad, yn ogystal â'ch manylion talu.
+payment-confirmation-thanks-subheading-account-exists-2 = Byddwch yn derbyn e-bost i { $email } gyda chyfarwyddiadau am eich tanysgrifiad, yn ogystal â'ch manylion talu.
 next-payment-confirmation-order-heading = Manylion yr archeb
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Anfoneb # { $invoiceNumber }

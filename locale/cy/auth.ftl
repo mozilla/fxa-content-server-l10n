@@ -330,8 +330,8 @@ postAddRecoveryPhone-title = Rydych chi wedi creu rhif ffôn adfer
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description = Rydych wedi ychwanegu { $maskedLastFourPhoneNumber } fel eich ffôn adfer
 # Links out to a support article about two factor authentication
-postAddRecoveryPhone-how-protect = Sut mae hyn yn amddiffyn eich cyfrif
-postAddRecoveryPhone-how-protect-plaintext = Sut mae hyn yn amddiffyn eich cyfrif:
+postAddRecoveryPhone-how-protect = Sut mae hyn yn diogelu eich cyfrif
+postAddRecoveryPhone-how-protect-plaintext = Sut mae hyn yn diogelu eich cyfrif:
 postAddRecoveryPhone-enabled-device = Rydych chi wedi'i alluogi o:
 postAddRecoveryPhone-action = Rheoli cyfrif
 postAddTwoStepAuthentication-subject-2 = Mae dilysu dau gam wedi ei droi ymlaen
@@ -352,9 +352,9 @@ postChangePrimary-title = Prif e-bost newydd
 postChangePrimary-description-2 = Rydych wedi llwyddo i newid eich prif e-bost i { $email }. Y cyfeiriad hwn bellach yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch cyfrif { -product-mozilla-account }, yn ogystal â derbyn hysbysiadau diogelwch a chadarnhau eich mewngofnodi.
 postChangePrimary-action = Rheoli cyfrif
 postChangeRecoveryPhone-subject = Ffôn adfer wedi'i ddiweddaru
-postChangeRecoveryPhone-title = Rydych chi wedi newid eich ffôn adfer
+postChangeRecoveryPhone-title = Rydych wedi newid eich ffôn adfer
 postChangeRecoveryPhone-description = Mae gennych ffôn adfer newydd nawr. Cafodd eich rhif ffôn blaenorol ei ddileu.
-postChangeRecoveryPhone-requested-device = Fe wnaethoch chi ofyn amdano gan:
+postChangeRecoveryPhone-requested-device = Rydych wedi gofyn amdano o:
 postConsumeRecoveryCode-title-2 = Rydych wedi defnyddio cod dilysu wrth gefn
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Cafodd ei ddefnyddio ar:
@@ -381,7 +381,7 @@ postRemoveAccountRecovery-action = Rheoli cyfrif
 postRemoveRecoveryPhone-subject = Ffôn adfer wedi'i dynnu
 postRemoveRecoveryPhone-title = Ffôn adfer wedi'i dynnu
 postRemoveRecoveryPhone-description = Mae eich ffôn adfer wedi'i dynnu o'ch gosodiadau dilysu dau gam. Mae'ch codau dilysu wrth gefn ar gael i chi eu defnyddio o hyd.
-postRemoveRecoveryPhone-requested-device = Fe wnaethoch chi ofyn amdano gan:
+postRemoveRecoveryPhone-requested-device = Rydych wedi gofyn amdano o:
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost
 # Variables:
