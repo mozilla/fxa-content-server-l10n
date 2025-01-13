@@ -33,7 +33,7 @@ next-payment-confirmation-amount = { $amount } fesul { $interval }
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 next-payment-confirmation-download-button = Parhau i lwytho i lawr
 checkout-error-boundary-retry-button = Ceisiwch eto
-checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'r cymorth.</contactSupportLink>
+checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -59,8 +59,8 @@ next-coupon-promo-code-applied = Cod Hyrwyddo wedi'i Osod
 next-coupon-remove = Tynnu
 next-coupon-submit = Gosod
 payments-client-loading-spinner =
-    .aria-label = Llwytho…
-    .alt = Llwytho…
+    .aria-label = Yn Llwytho…
+    .alt = Yn Llwytho…
 
 ## Payment Section
 
@@ -117,9 +117,9 @@ next-coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ô
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-plan-price-interval-daily = { $amount } dyddiol
-plan-price-interval-weekly = { $amount } wythnosol
-plan-price-interval-monthly = { $amount } misol
+plan-price-interval-daily = { $amount } yn dyddiol
+plan-price-interval-weekly = { $amount } yn wythnosol
+plan-price-interval-monthly = { $amount } yn fisol
 plan-price-interval-6monthly = { $amount } bob 6 mis
 plan-price-interval-yearly = { $amount } y flwyddyn
 
