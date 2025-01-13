@@ -412,6 +412,13 @@ subscriptionDowngrade-subject = Prebacio/la si se na { $productName }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Uspješno si se prebacio/la s { $productNameOld } na { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Od sljedećeg računa pa nadalje, tvoja će se naplata promijeniti od { $paymentAmountOld } na { $productPaymentCycleOld } u { $paymentAmountNew } na { $productPaymentCycleNew }. Tada ćeš dobiti i jednokratni bonus od { $paymentProrated } kako bi se odrazila niža naplata za ostatak ovog { $productPaymentCycleOld }.
 subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -454,6 +461,10 @@ subscriptionReactivation-subject = Pretplata na { $productName } je ponovo aktiv
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Hvala ti na ponovnom aktiviranju tvoje pretplate na { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Ciklus naplate i plaćanje ostat će isti. Sljedeće terećenje iznosi { $invoiceTotal } na { $nextInvoiceDateOnly }. Tvoja će se pretplata automatski obnoviti za svako obračunsko razdoblje ukoliko je ne otkažeš.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = { $productName } obavijest o automatskoj obnovi
