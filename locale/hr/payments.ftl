@@ -475,7 +475,7 @@ sub-item-stay-sub = Zadrži pretplatu
 ## $period (Date) - The last day of product access
 
 sub-item-cancel-msg =
-    Nakon zadnjeg dana ciklusa naplate { $period }
+    Nakon zadnjeg dana obračunskog razdoblja { $period }
     više nećeš moći koristiti { $name }.
 sub-item-cancel-confirm =
     Otkaži moj pristup i moje spremljene podatke na usluzi

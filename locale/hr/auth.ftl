@@ -422,6 +422,7 @@ subscriptionFirstInvoice-subject = { $productName } plaćanje potvrđeno
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Hvala ti na pretplati na { $productName }
 subscriptionFirstInvoice-content-processing = Tvoje se plaćanje trenutačno obrađuje i može potrajati do četiri radna dana.
+subscriptionFirstInvoice-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
