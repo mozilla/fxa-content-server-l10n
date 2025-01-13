@@ -443,10 +443,15 @@ brand-name-apple-app-store-2 = { -app-store }
 
 product-plan-change-heading = Pregledaj svoju promjenu
 sub-change-failed = Promjena plana nije uspjela
+sub-update-acknowledgment =
+    Tvoj plan će se odmah promijeniti i danas ćemo naplatit proporcionalni
+    iznos za ostatak ovog obračunskog razdoblja. Počevši od { $startingDate }
+    naplatit ćemo puni iznos.
 sub-change-submit = Potvrdi promjenu
 sub-update-current-plan-label = Aktualni plan
 sub-update-new-plan-label = Novi plan
 sub-update-total-label = Nov ukupni iznos
+sub-update-prorated-upgrade = Proporcionalna nadogradnja
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
@@ -535,6 +540,9 @@ sub-expires-on = Isteče { $date }
 pay-update-card-exp = Isteče { $expirationDate }
 sub-route-idx-updating = Aktualiziranje podataka naplate …
 sub-route-payment-modal-heading = Nevaljane informacije o plaćanju
+sub-route-payment-modal-message-2 = Čini se da postoji greška s tvojim { -brand-paypal } računom. Moraš poduzeti potrebne korake za rješavanje ovog problema plaćanja.
+sub-route-missing-billing-agreement-payment-alert = Neispravni podaci o plaćanju; postoji greška s tvojim računom. <div>Upravljaj</div>
+sub-route-funding-source-payment-alert = Neispravni podaci o plaćanju; postoji greška s tvojim računom. Uklanjanje ovog upozorenja može potrajati nakon što uspješno aktualiziraš tvoje podatke. <div>Upravljaj</div>
 
 ## Routes - Subscription - SubscriptionItem
 
