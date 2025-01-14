@@ -33,6 +33,7 @@ next-payment-confirmation-amount = { $amount } por { $interval }
 next-payment-confirmation-cc-card-ending-in = Tarjeta terminada en { $last4 }
 next-payment-confirmation-download-button = Continuar para descargar
 checkout-error-boundary-retry-button = Volver a intentarlo
+checkout-error-boundary-basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo o <contactSupportLink>contacta con el soporte técnico.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -43,6 +44,8 @@ next-payment-confirm-checkbox-error = Debe completar esto antes de seguir adelan
 
 next-new-user-submit = Suscríbete ahora
 next-payment-validate-name-error = Por favor, ingresa tu nombre
+# Label for the Full Name input
+payment-name-label = Nombre como aparece en tu tarjeta
 payment-name-placeholder = Nombre completo
 
 ## Component - CouponForm
