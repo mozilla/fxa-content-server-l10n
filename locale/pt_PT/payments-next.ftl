@@ -117,9 +117,9 @@ next-coupon-success-repeating = O seu plano será renovado automaticamente depoi
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-plan-price-interval-daily = { $amount } diariamente
-plan-price-interval-weekly = { $amount } semanalmente
-plan-price-interval-monthly = { $amount } mensais
+plan-price-interval-daily = { $amount } por dia
+plan-price-interval-weekly = { $amount } por semana
+plan-price-interval-monthly = { $amount } por mês
 plan-price-interval-6monthly = { $amount } a cada 6 meses
 plan-price-interval-yearly = { $amount } por ano
 
