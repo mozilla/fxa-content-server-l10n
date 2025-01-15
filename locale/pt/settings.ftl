@@ -630,14 +630,14 @@ flow-recovery-key-info-cancel-link = Cancelar
 flow-setup-phone-confirm-code-heading = Inserir código de confirmação
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = Um código de seis dígitos foi enviado para <span>{ $phoneNumber }</span> por mensagem de texto. Este código expira após 5 minutos.
+flow-setup-phone-confirm-code-instruction = Foi enviado um código de seis dígitos para <span>{ $phoneNumber }</span> por mensagem de texto. Este código expira após 5 minutos.
 flow-setup-phone-confirm-code-input-label = Inserir código de 6 dígitos
 flow-setup-phone-confirm-code-button = Confirmar
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Código expirado?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
-flow-setup-phone-confirm-code-success-message = Telefone de recuperação de cópia adicionado
+flow-setup-phone-confirm-code-success-message = Telefone de recuperação de recurso adicionado
 
 ## FlowSetupPhoneConfirmCode
 
