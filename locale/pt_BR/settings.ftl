@@ -1132,7 +1132,7 @@ tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação em duas
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Ao prosseguir, você concorda com os:
+terms-privacy-agreement-intro-2 = Ao prosseguir, você declara que concorda com os:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Termos do serviço</pocketTos> e <pocketPrivacy>Aviso de privacidade</pocketPrivacy> do { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
@@ -1140,7 +1140,7 @@ terms-privacy-agreement-monitor-3 = Serviços de assinatura <mozSubscriptionTosL
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>Termos do serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Aviso de privacidade</mozillaAccountsPrivacy> das { -product-mozilla-accounts }
 # links to Mozilla Account's Terms of Service and Privacy Notice
-terms-privacy-agreement-default-2 = Ao prosseguir, você concorda com os <mozillaAccountsTos>Termos do serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Aviso de privacidade</mozillaAccountsPrivacy>.
+terms-privacy-agreement-default-2 = Ao prosseguir, você declara que concorda com os <mozillaAccountsTos>Termos do serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Aviso de privacidade</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1149,8 +1149,8 @@ terms-privacy-agreement-default-2 = Ao prosseguir, você concorda com os <mozill
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
 third-party-auth-options-or = ou
-continue-with-google-button = Continue com { -brand-google }
-continue-with-apple-button = Continue com { -brand-apple }
+continue-with-google-button = Continuar com { -brand-google }
+continue-with-apple-button = Continuar com { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
