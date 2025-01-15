@@ -399,7 +399,7 @@ postVerifySecondary-title = Email secundário adicionado
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = Você confirmou com sucesso { $secondaryEmail } como email secundário da sua { -product-mozilla-account }. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de email.
 postVerifySecondary-action = Gerenciar conta
-recovery-subject = Redefina a sua senha
+recovery-subject = Redefinição de senha
 recovery-title-2 = Esqueceu sua senha?
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Recebemos uma solicitação de alteração de senha de sua { -product-mozilla-account } de:

@@ -1519,7 +1519,7 @@ confirm-recovery-code-reset-password-trouble-code = Voltar
 
 ## ResetPassword start page
 
-password-reset-flow-heading = Redefina sua senha
+password-reset-flow-heading = Redefinição de senha
 password-reset-body-2 = Para manter sua conta segura, solicitaremos algumas informações que só você sabe.
 password-reset-email-input =
     .label = Insira seu email
