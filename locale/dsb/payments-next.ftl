@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Musyśo to dokóncyś, nježli až móžo�
 
 next-new-user-submit = Něnto aboněrowaś
 next-payment-validate-name-error = Pšosym zapódajśo swójo mě
+next-pay-with-heading-paypal = Z { -brand-paypal } płaśiś
 # Label for the Full Name input
 payment-name-label = Mě ako se na wašej kórśe zjawijo
 payment-name-placeholder = Dopołne mě

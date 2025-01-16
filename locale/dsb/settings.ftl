@@ -639,12 +639,18 @@ flow-setup-phone-confirm-code-button = Wobkšuśiś
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Kod jo spadnuł?
 flow-setup-phone-confirm-code-resend-code-button = Kod znowego słaś
+flow-setup-phone-confirm-code-success-message-v2 = Wótnowjeński telefon pśidany
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Pśeglědajśo swój telefonowy numer
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Dostanjośo tekstowu powěsć wót { -brand-mozilla } z kodom, aby swój numer pśeglědował. Njeźělśo toś ten kod z někim drugim.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Wótnowjeński telefon jo jano w Zjadnośonych statach a Kanaźe k dispoziciji. Numery VoIP a telefonowe maski se njepórucaju.
 flow-setup-phone-submit-number-legal = Gaž waš numer pódawaśo, zwólijośo do togo, až móžomy jen składowaś, aby my mógli wam powěźeńku jano za kontowe pśeglědowanje pósłali. Płaśonki mógu se za powěsći a datowe raty pominaś.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kod słaś
@@ -870,6 +876,8 @@ recovery-key-create-back-button-title = Slědk k nastajenjam
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Telefonowy numer wótwónoźeś
+settings-recovery-phone-remove-cancel = Pśetergnuś
 
 ## PageSetupRecoveryPhone
 
@@ -1017,6 +1025,9 @@ tfa-row-backup-codes-get-new-cta = Nowe kody wobstaraś
 tfa-row-backup-codes-add-cta = Pśidaś
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = To jo nejwěsćejša wótnowjeńska metoda, jolic njamóžośo swój mobilny rěd abo awtentifikaciske nałoženje wužywaś.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Wótnowjeński telefon
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Numer wótnowjeńskego telefona njejo k dispoziciji
 # button to change the configured recovery phone
@@ -1025,6 +1036,9 @@ tfa-row-backup-phone-change-cta = Změniś
 tfa-row-backup-phone-add-cta = Pśidaś
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Wótwónoźeś
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Wótnowjeński telefon wótwónoźeś
+tfa-row-backup-phone-delete-restriction-v2 = Jolic cośo swój wótnowjeński telefon wótwónoźeś, pśidajśo zawěsćeńske awtentifikaciske kody abo znjemóžniśo nejpjerwjej dwójokšacowu awtentifikaciju, aby se wobinuł, až se ze swójogo konta wuzamkujośo.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = To jo lažčejša wótnowjeńska metoda, jolic njamóžośo swójo awtentifikaciske nałoženje wužywaś.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1659,6 +1673,14 @@ signin-recovery-method-code-info = Zbywajuce kody: { $numberOfCodes }
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Pśizjawiś
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Wótnowjeński kod zapódaś
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Šesćměstnowy kod jo se pósłał pśez tekstowu powěsć na <span>{ $maskedPhoneNumber }</span>. Toś ten kod za 5 minutow spadnjo.
+recovery-phone-code-confirm-input-group-label = 6-městnowy kod zapódaś
+recovery-phone-code-confirm-otp-submit-button = Wobkšuśiś
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -245,6 +245,11 @@ fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jolic pšašanja maśo, stajśo se pšosym z našym teamom pomocy do zwiska: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
+inactiveAccountFinalWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Pśizjawśo se, aby pśi swójom konśe wóstał:
+inactiveAccountFirstWarning-subject = Njezgubśo swójo konto
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Njamaśo wěcej kody za zawěsćeńsku awtentfikaciju!
 codes-reminder-title-one = Wužywaśo južo swój slědny kod za zawěsćeńsku awtentifikaciju
@@ -390,6 +395,12 @@ postRemoveTwoStepAuthentication-title-2 = Sćo znjemóžnił dwójokšacowu awte
 postRemoveTwoStepAuthentication-from-device = Sćo ju znjemóžnił z:
 postRemoveTwoStepAuthentication-action = Konto zastojaś
 postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaśo wěcej wěstotne kody ze swójogo awtentifikaciskego nałoženja, gaž se pśizjawjaśo.
+postSigninRecoveryCode-preview = Kontowu aktiwitu wobkšuśiś
+postSigninRecoveryCode-device = Sćo se pśizjawił wót:
+postSigninRecoveryCode-action = Konto zastojaś
+postSigninRecoveryPhone-preview = Kontowu aktiwitu wobkšuśiś
+postSigninRecoveryPhone-device = Sćo se pśizjawił wót:
+postSigninRecoveryPhone-action = Konto zastojaś
 postVerify-sub-title-3 = Wjaselimy se was wiźeś!
 postVerify-title-2 = Cośo samski rejtarik na dwěma rědoma wiźeś?
 postVerify-description-2 = To jo lažko! Instalštujśo jadnorje { -brand-firefox } na drugem rěźe a pśizawśo se za synchronizaciju. Na magisku wašnju!

@@ -988,8 +988,6 @@ tfa-row-backup-codes-get-new-cta = Få nye koder
 tfa-row-backup-codes-add-cta = Tilføj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Dette er den sikreste gendannelsesmetode, hvis du ikke kan bruge til din mobile enhed eller godkendelsesapp.
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Intet reserve-gendannelses-telefonnummer tilgængeligt
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Skift
 # button to add/configure a recovery phone
