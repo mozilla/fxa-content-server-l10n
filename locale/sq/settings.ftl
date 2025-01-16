@@ -291,6 +291,10 @@ recovery-phone-image-description =
     .aria-label = Pajisja celulare që merr një kod përmes një mesazhi tekst.
 recovery-phone-code-image-description =
     .aria-label = Kod i marrë në një pajisje celulare.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Pajisje celulare me aftësi mesazhesh tekst SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Ekran pajisje me kode
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -321,6 +325,8 @@ input-password-sr-only-now-hidden = Fjalëkalimi juaj tani është i fshehur.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Përzgjidhni vendin
 input-phone-number-enter-number = Jepni numër telefoni
 input-phone-number-country-united-states = Shtetet e Bashkuara
 input-phone-number-country-canada = Kanada
@@ -561,6 +567,9 @@ dc-learn-more = Mësoni më tepër
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Futur si
 drop-down-menu-sign-out = Dilni
 drop-down-menu-sign-out-error-2 = Na ndjeni, pati një problem me daljen tuaj nga llogaria
 
@@ -614,6 +623,9 @@ flow-recovery-key-info-cancel-link = Anuloje
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Jepni kodin e verifikimit
 
 ## FlowSetupPhoneConfirmCode
 
