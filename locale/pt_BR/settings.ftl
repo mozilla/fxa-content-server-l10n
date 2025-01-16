@@ -635,18 +635,12 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = O código expirou?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
-flow-setup-phone-confirm-code-success-message = Adicionado celular de recuperação de backup
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifique seu número de celular
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Você receberá uma mensagem de texto da { -brand-mozilla } com um código para verificar seu número. Não compartilhe esse código com ninguém.
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
-# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
-# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
-# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Celular de recuperação de backup está disponível apenas nos Estados Unidos e no Canadá. Números VoIP e máscaras de celular não são recomendados.
 flow-setup-phone-submit-number-legal = Ao fornecer seu número, você declara que concorda que ele seja salvo para podermos te enviar mensagens de texto, apenas para verificação de conta. Podem ser cobrados valores por mensagens e dados.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Enviar código
@@ -866,6 +860,10 @@ recovery-key-create-page-title = Chave de recuperação de conta
 # and back to account settings
 recovery-key-create-back-button-title = Voltar à configuração
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Adicionar celular de recuperação
@@ -1010,21 +1008,15 @@ tfa-row-backup-codes-get-new-cta = Obter novos códigos
 tfa-row-backup-codes-add-cta = Adicionar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seguro se você não puder usar seu dispositivo móvel ou aplicativo de autenticação.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Celular de recuperação de backup
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Nenhum número de celular de recuperação disponível
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Alterar
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Adicionar
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Remover celular de recuperação de backup
-tfa-row-backup-phone-delete-restriction = Se quiser remover o celular de recuperação de backup, adicione códigos de autenticação de backup ou desative primeiro a autenticação em duas etapas para evitar que sua conta seja bloqueada.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = Este é o método de recuperação mais fácil, caso você não possa usar o aplicativo de autenticação.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1640,6 +1632,9 @@ signin-recovery-method-phone = Celular de recuperação
 signin-recovery-method-code = Códigos de autenticação
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

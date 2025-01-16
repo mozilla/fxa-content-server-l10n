@@ -122,9 +122,6 @@ automatedEmailRecoveryKey-more-info-plaintext = Par vê plui informazions, visit
 automated-email-reset =
     Cheste e-mail e je stade inviade di un servizi automatic. Se no tu âs autorizât tu cheste azion, <a data-l10n-name="resetLink">ristabilìs la tô password</a>.
     Par vê plui informazions, visite la pagjine dal <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Se cheste modifiche no tu le âs fate tu, torne a configurâ la tô password cumò su { $resetLink }
 brand-banner-message = Savevistu che o vin cambiât non di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Plui informazions</a>
 cancellationSurvey = Judinus a miorâ i nestris servizis partecipant a chest <a data-l10n-name="cancellationSurveyUrl">curt sondaç</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

@@ -120,9 +120,6 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = i promijeni lozinku:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške:
 automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, <a data-l10n-name="resetLink">promijeni lozinku</a>. Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }podrške</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Ako je nisi promijenio/la, resetiraj lozinku sada na { $resetLink }
 brand-banner-message = Znaš li da smo promijenili ime { -product-firefox-accounts } u { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saznaj više</a>
 cancellationSurvey = Pomogni nam poboljšati naše usluge ispunjavanjem ove <a data-l10n-name="cancellationSurveyUrl">kratke ankete</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

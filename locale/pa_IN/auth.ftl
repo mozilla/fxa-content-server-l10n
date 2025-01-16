@@ -120,9 +120,6 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ਅਤੇ ਆਪਣਾ �
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਾਇਤਾ ਨੂੰ ਵੇਖੋ:
 automated-email-reset = ਇਹ ਆਟੋਮੈਟਿਕ ਭੇਜੀ ਗਈ ਈਮੇਲ ਹੈ। ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਖੁਦ ਨਹੀਂ ਕੀਤਾ ਸੀ ਤਾਂ <a data-l10n-name="resetLink">ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ</a>। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-name="supportLink">{ -brand-mozilla } ਸਹਿਯੋਗ</a> ਨੂੰ ਵੇਖੋ।
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = ਜੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਨਹੀਂ ਬਦਲਿਆ ਤਾਂ ਹੁਣੇ ਆਪਣਾ ਪਾਸਵਰਡ { $resetLink } ਰਾਹੀਂ ਬਦਲੋ
 brand-banner-message = ਕੀ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ ਕਿ ਅਸੀਂ ਆਪਣਾ ਨਾਂ { -product-firefox-accounts } ਤੋਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਕੀਤਾ ਹੈ? <a data-l10n-name="learnMore">ਹੋਰ ਜਾਣੋ</a>
 cancellationSurvey = ਇਸ <a data-l10n-name="cancellationSurveyUrl">ਸੰਖੇਪ ਜਿਹੇ ਸਰਵੇਖਣ</a> ਨੂੰ ਪੂਰਾ ਕਰਕੇ ਸਾਨੂੰ ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ ਬੇਹਤਰ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰੋ।
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

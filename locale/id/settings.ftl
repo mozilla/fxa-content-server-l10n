@@ -329,6 +329,10 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 ## PageRecoveryKeyCreate
 
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -524,6 +528,9 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
+
+
+## SigninRecoveryPhoneCodeConfirm page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

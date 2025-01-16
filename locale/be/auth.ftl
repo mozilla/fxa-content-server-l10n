@@ -114,9 +114,6 @@ automatedEmailRecoveryKey-more-info-plaintext = Для атрымання дад
 automated-email-reset =
     Гэта аўтаматычна створаны ліст; калі вы не здзяйснялі гэтага дзеяння, калі ласка, <a data-l10n-name="resetLink">скіньце свой пароль</a>.
     Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">Сайт падтрымкі { -brand-mozilla }</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Калі вы не змянялі яго, калі ласка, скіньце пароль зараз па спасылцы { $resetLink }
 cancellationSurvey = Калі ласка, дапамажыце нам палепшыць нашы паслугі, прыняўшы ўдзел у гэтым <a data-l10n-name="cancellationSurveyUrl">кароткім апытанні</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Калі ласка, дапамажыце нам палепшыць нашы паслугі, узяўшы ўдзел у гэтым кароткім апытанні:

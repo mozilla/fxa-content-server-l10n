@@ -715,6 +715,10 @@ recovery-key-create-page-title = アカウント回復用キー
 # and back to account settings
 recovery-key-create-back-button-title = 設定に戻る
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -1360,6 +1364,9 @@ signin-recovery-code-required-error = バックアップ認証コードが必要
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
+
+
+## SigninRecoveryPhoneCodeConfirm page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

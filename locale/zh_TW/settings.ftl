@@ -635,18 +635,12 @@ flow-setup-phone-confirm-code-button = 確認
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = 驗證碼失效？
 flow-setup-phone-confirm-code-resend-code-button = 重寄驗證碼
-flow-setup-phone-confirm-code-success-message = 已加入備用救援電話號碼
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = 確認您的手機號碼
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = 您會收到來自 { -brand-mozilla } 的驗證簡訊，當中包含一組驗證碼。請勿將此驗證碼提供給任何人。
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
-# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
-# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
-# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = 備用救援電話號碼僅提供美國與加拿大使用者使用，不建議使用 VoIP 網路號碼或轉接門號。
 flow-setup-phone-submit-number-legal = 提供您的電話號碼，就代表您同意我們將其儲存下來，僅供帳號驗證使用。您可能會被收取簡訊或數據傳輸費用。
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = 傳送驗證碼
@@ -866,6 +860,10 @@ recovery-key-create-page-title = 帳號救援金鑰
 # and back to account settings
 recovery-key-create-back-button-title = 回到設定
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = 新增救援電話號碼
@@ -1010,21 +1008,15 @@ tfa-row-backup-codes-get-new-cta = 產生新備用驗證碼
 tfa-row-backup-codes-add-cta = 新增
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = 當您無法再使用您的行動裝置或驗證程式時，這是最安全的救援方法。
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = 備用救援電話號碼
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = 未設定備用電話號碼
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = 變更
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = 新增
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = 移除
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = 移除備用救援電話號碼
-tfa-row-backup-phone-delete-restriction = 若您想要移除備用救援電話號碼，請先產生備用驗證碼，或停用兩階段驗證，以避免被鎖在帳號外面無法登入。
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = 當您無法再使用驗證程式時，這是最安全的救援方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1640,6 +1632,9 @@ signin-recovery-method-phone = 救援電話號碼
 signin-recovery-method-code = 驗證碼
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

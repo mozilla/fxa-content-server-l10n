@@ -639,16 +639,10 @@ flow-setup-phone-confirm-code-button = Onayla
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Kodun süresi mi doldu?
 flow-setup-phone-confirm-code-resend-code-button = Kodu yeniden gönder
-flow-setup-phone-confirm-code-success-message = Yedek kurtarma telefonu eklendi
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Telefon numaranızı doğrulayın
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
-# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
-# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
-# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Yedek kurtarma telefonu yalnızca Amerika Birleşik Devletleri ve Kanada’da kullanılabilir. VoIP numaraları ve telefon maskeleri önerilmez.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kodu gönder
 
@@ -867,6 +861,10 @@ recovery-key-create-page-title = Hesap kurtarma anahtarı
 # and back to account settings
 recovery-key-create-back-button-title = Ayarlara dön
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Kurtarma telefonu ekle
@@ -1013,21 +1011,15 @@ tfa-row-backup-codes-get-new-cta = Yeni kod alın
 tfa-row-backup-codes-add-cta = Ekle
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Mobil cihazınızı veya kimlik doğrulama uygulamanızı kullanamıyorsanız bu en güvenli kurtarma yöntemidir.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Yedek kurtarma telefonu
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Kurtarma telefon numarası yok
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Değiştir
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Ekle
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Kaldır
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Yedek kurtarma telefonunu kaldır
-tfa-row-backup-phone-delete-restriction = Yedek kurtarma telefonunuzu kaldırmak istiyorsanız hesabınızın kilitlenmesini önlemek için öncelikle yedek kimlik doğrulama kodlarını ekleyin veya iki aşamalı kimlik doğrulamayı devre dışı bırakın.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu daha kolay bir kurtarma yöntemidir.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1645,6 +1637,9 @@ signin-recovery-method-phone = Kurtarma telefonu
 signin-recovery-method-code = Kimlik doğrulama kodları
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } kod kaldı
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

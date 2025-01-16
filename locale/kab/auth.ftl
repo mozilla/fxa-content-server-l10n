@@ -116,9 +116,6 @@ automatedEmailRecoveryKey-more-info-plaintext = I wugar n telɣut, ddu ɣer tall
 automated-email-reset =
     Wa d imayl awurman;ma ur tessirgeḍ ara tigawt-a, ihi <a data-l10n-name="resetLink">Ttxil wennez awal-ik•im uffir</a>.
     I wugar n telɣut, ttxil rzu ɣer <a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Ma ur tbeddleḍ ara, ma ulac aɣilif ales awennez n wawal uffir inek tura deg { $resetLink }
 cancellationSurvey = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg <a data-l10n-name="cancellationSurveyUrl">tefrant-a wezzilen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:

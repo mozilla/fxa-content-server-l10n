@@ -648,6 +648,10 @@ recovery-key-create-page-title = Хисапны коткару ачкычы
 # and back to account settings
 recovery-key-create-back-button-title = Көйләүләргә кире кайту
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -757,11 +761,11 @@ tfa-row-backup-codes-title = Резерв аутентификация кодл�
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Өстәү
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Үзгәртү
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Өстәү
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Бетерү
 
 ## Switch component
@@ -1179,6 +1183,9 @@ signin-recovery-code-support-link = Хисабыгыз биклеме?
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
+
+
+## SigninRecoveryPhoneCodeConfirm page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

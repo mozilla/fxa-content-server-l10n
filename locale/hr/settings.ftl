@@ -751,6 +751,10 @@ recovery-key-create-page-title = Ključ za obnavljanje računa
 # and back to account settings
 recovery-key-create-back-button-title = Natrag na postavke
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -887,11 +891,11 @@ tfa-row-backup-codes-get-new-cta = Nabavi nove kodove
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Promijeni
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Dodaj
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Ukloni
 
 ## Switch component
@@ -1319,6 +1323,9 @@ signin-recovery-method-header = Prijavi se
 signin-recovery-method-code = Kodovi za autentifikaciju
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Broj preostalih kodova: { $numberOfCodes }
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

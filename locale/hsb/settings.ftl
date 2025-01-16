@@ -639,18 +639,12 @@ flow-setup-phone-confirm-code-button = Wobkrućić
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Je kod spadnył?
 flow-setup-phone-confirm-code-resend-code-button = Kod znowa słać
-flow-setup-phone-confirm-code-success-message = Wobnowjenski telefon za zawěsćenje přidaty
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Přepruwujće swoje telefonowe čisło
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Dóstanjeće tekstowu powěsć wot { -brand-mozilla } z kodom, zo byšće swoje čisło přepruwował. Njedźělće tutón kod z někim druhim.
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
-# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
-# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
-# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Wobnowjenski telefon za zawěsćenje je jenož w Zjednoćenych statach a Kanadźe k dispoziciji. Čisła VoIP a telefonowe maski so njeporučeja.
 flow-setup-phone-submit-number-legal = Hdyž waše čisło podawaće, zwoliće do toho, zo móžemy jo składować, zo bychmy móhli wam zdźělenku jenož za kontowe přepruwowanje pósłali. Popłatki móža so za powěsće a datowe raty zběrać.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kod słać
@@ -873,6 +867,10 @@ recovery-key-create-page-title = Kontowy wobnowjenski kluč
 # and back to account settings
 recovery-key-create-back-button-title = Wróćo k nastajenjam
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Wobnowjenski telefon přidać
@@ -1021,21 +1019,15 @@ tfa-row-backup-codes-get-new-cta = Nowe kody wobstarać
 tfa-row-backup-codes-add-cta = Přidać
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = To je najwěsćiša wobnowjenska metoda, jeli njemóžeće swój mobilny grat abo awtentifikaciske nałoženje wužiwać.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Wobnowjenski telefon za zawěsćenje
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Čisło wobnowjenskeho telefona k dispoziciji njeje
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Změnić
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Přidać
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Wotstronić
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Wobnowjenski telefon za zawěsćenje wotstronić
-tfa-row-backup-phone-delete-restriction = Jeli chceće swój wobnowjenski telefon za zawěsćenje wotstronić, přidajće zawěsćenske awtentifikaciske kody abo znjemóžńće najprjedy dwukročelowu awtentifikaciju, zo byšće wobešoł, zo so ze swojeho konta wuzamknjeće.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = To je lóša wobnowjenska metoda, jeli njemóžeće swoje awtentifikaciske nałoženje wužiwać.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1666,6 +1658,9 @@ signin-recovery-method-phone = Wobnowjenski telefon
 signin-recovery-method-code = Awtentifikaciske kody
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Zbywace kody: { $numberOfCodes }
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

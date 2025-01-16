@@ -122,9 +122,6 @@ automatedEmailRecoveryKey-more-info-plaintext = 자세한 내용은 { -brand-moz
 automated-email-reset =
     자동으로 발송된 이메일입니다. 승인하지 않은 작업인 경우 <a data-l10n-name="resetLink">비밀번호를 재설정</a>하십시오.
     자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla }지원 페이지</a>를 참조하십시오.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = 비밀번호를 변경하지 않으셨다면 지금 { $resetLink }에서 비밀번호를 재설정하세요.
 brand-banner-message = { -product-firefox-accounts } 명칭이 { -product-mozilla-accounts }으로 변경되었다는 사실을 알고 계신가요? <a data-l10n-name="learnMore">자세히 알아보세요</a>
 cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl">설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

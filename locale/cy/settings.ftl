@@ -637,18 +637,12 @@ flow-setup-phone-confirm-code-button = Cadarnhau
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Cod wedi dod i ben?
 flow-setup-phone-confirm-code-resend-code-button = Ail-anfon y cod
-flow-setup-phone-confirm-code-success-message = Ffôn adfer copi wrth gefn wedi'i ychwanegu
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Gwiriwch eich rhif ffôn
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Byddwch yn cael neges destun gan { -brand-mozilla } gyda chod i ddilysu'ch rhif. Peidiwch â rhannu'r cod hwn gydag unrhyw un.
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
-# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
-# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
-# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Dim ond yn yr Unol Daleithiau a Chanada y mae ffôn adfer copi wrth gefn ar gael. Nid yw rhifau VoIP a rhifau ffôn cudd yn cael eu hargymell.
 flow-setup-phone-submit-number-legal = Trwy ddarparu eich rhif, rydych yn cytuno i ni ei gadw fel y gallwn anfon neges destun atoch dim ond er mwyn dilysu'r cyfrif. Gall cyfraddau neges a data fod yn berthnasol.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Anfon y cod
@@ -871,6 +865,10 @@ recovery-key-create-page-title = Allwedd Adfer Cyfrif
 # and back to account settings
 recovery-key-create-back-button-title = Nôl i'r gosodiadau
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Ychwanegu ffôn adfer
@@ -1021,21 +1019,15 @@ tfa-row-backup-codes-get-new-cta = Cael codau newydd
 tfa-row-backup-codes-add-cta = Ychwanegu
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Dyma’r dull adfer mwyaf diogel os na allwch ddefnyddio’ch dyfais symudol neu ap dilysu.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Ffôn adfer y copi wrth gefn
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Dim rhif ffôn adfer ar gael
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Newid
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Ychwanegu
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Tynnu
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Dileu ffôn adfer y copi wrth gefn
-tfa-row-backup-phone-delete-restriction = Os ydych chi am ddileu eich ffôn adfer copi wrth gefn, ychwanegwch godau dilysu wrth gefn neu analluogi dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch ap dilysu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1657,6 +1649,9 @@ signin-recovery-method-phone = Ffôn adfer
 signin-recovery-method-code = Codau dilysu
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } cod yn weddill
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

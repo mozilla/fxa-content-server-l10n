@@ -836,6 +836,10 @@ recovery-key-create-page-title = Mba’ete mba’eñemi jeguerujeyrã
 # and back to account settings
 recovery-key-create-back-button-title = Eguevi ñembohekópe
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -981,19 +985,14 @@ tfa-row-backup-codes-get-new-cta = Ereko mba’eñemi pyahu
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Mbojuaju
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Pumbyry guerujeyrã jeykekoha
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Ndaipóri pumbyry papapy guerujeyrã eiporukuaáva
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Moambue
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Mbojuaju
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Mboguete
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Eipe’a pumbyry guerujeyrã jeykekoha
 
 ## Switch component
 
@@ -1589,6 +1588,9 @@ signin-recovery-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
+
+
+## SigninRecoveryPhoneCodeConfirm page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

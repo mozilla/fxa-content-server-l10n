@@ -639,18 +639,12 @@ flow-setup-phone-confirm-code-button = Xác nhận
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Mã đã hết hạn?
 flow-setup-phone-confirm-code-resend-code-button = Gửi lại mã
-flow-setup-phone-confirm-code-success-message = Đã thêm số điện thoại khôi phục dự phòng
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Xác minh số điện thoại của bạn
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Bạn sẽ nhận được tin nhắn văn bản từ { -brand-mozilla } kèm theo mã để xác minh số của bạn. Không chia sẻ mã này với bất kỳ ai.
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
-# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
-# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
-# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Số điện thoại khôi phục dự phòng chỉ khả dụng ở Hoa Kỳ và Canada. Không khuyến khích số VoIP và số điện thoại ẩn danh.
 flow-setup-phone-submit-number-legal = Bằng cách cung cấp số của bạn, bạn đồng ý cho chúng tôi lưu trữ số đó để chúng tôi có thể nhắn tin cho bạn chỉ để xác minh tài khoản. Tốc độ tin nhắn và dữ liệu có thể được áp dụng.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Gửi mã
@@ -873,6 +867,10 @@ recovery-key-create-page-title = Khóa khôi phục tài khoản
 # and back to account settings
 recovery-key-create-back-button-title = Quay lại cài đặt
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Thêm số điện thoại khôi phục
@@ -1025,21 +1023,15 @@ tfa-row-backup-codes-get-new-cta = Tạo mã mới
 tfa-row-backup-codes-add-cta = Thêm
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Đây là phương pháp khôi phục an toàn nhất nếu bạn không thể sử dụng thiết bị di động hoặc ứng dụng xác thực của mình.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Số điện thoại khôi phục dự phòng
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Không có số điện thoại khôi phục
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Thay đổi
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Thêm
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Xóa
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Xóa số điện thoại khôi phục dự phòng
-tfa-row-backup-phone-delete-restriction = Nếu bạn muốn xóa số điện thoại khôi phục dự phòng của mình, hãy thêm mã xác thực dự phòng hoặc tắt xác thực hai bước trước để tránh bị khóa tài khoản.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = Đây là phương pháp khôi phục dễ dàng hơn nếu bạn không thể sử dụng ứng dụng xác thực của mình.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1668,6 +1660,9 @@ signin-recovery-method-phone = Số điện thoại khôi phục
 signin-recovery-method-code = Mã xác thực
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } mã còn lại
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

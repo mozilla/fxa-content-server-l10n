@@ -40,9 +40,6 @@ automated-email-not-authorized-plaintext = Aquest és un correu automàtic; si n
 automated-email-reset =
     Aquest és un missatge automàtic. Si no heu autoritzat aquesta acció, <a data-l10n-name="resetLink">reinicieu la contrasenya</a>.
     Per a més informació, vegeu l'<a data-l10n-name="supportLink">assistència de { -brand-mozilla }</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Si no l'heu canviat, reinicieu ara mateix la contrasenya des de { $resetLink }
 cancellationSurvey = Ajudeu-nos a millorar els nostres serveis fent aquesta <a data-l10n-name="cancellationSurveyUrl">breu enquesta</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ajudeu-nos a millorar els nostres serveis fent aquesta breu enquesta:

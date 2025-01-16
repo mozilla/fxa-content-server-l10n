@@ -122,9 +122,6 @@ automatedEmailRecoveryKey-more-info-plaintext = Күбрәк мәгълүмат 
 automated-email-reset =
     Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, <a data-l10n-name="resetLink">зинһар серсүзегезне алыштырыгыз</a>.
     Күбрәк белү өчен, <a data-l10n-name="supportLink">{ -brand-mozilla } Ярдәм</a> адресын зыярат итегез.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Серсүзегезне үзгәртмәгән булсагыз, зинһар хәзер үк { $resetLink } битендә яңа серсүз куегыз
 brand-banner-message = Сез { -product-firefox-accounts } исемебезне { -product-mozilla-accounts } итеп үзгәрткәнебезне беләсезме? <a data-l10n-name="learnMore">Күбрәк белү</a>
 cancellationSurvey = Хезмәтләребезне яхшыртырга ярдәм итү өчен зинһар бу <a data-l10n-name="cancellationSurveyUrl">кыска сораулыкка</a> җавап бирүегезне сорыйбыз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

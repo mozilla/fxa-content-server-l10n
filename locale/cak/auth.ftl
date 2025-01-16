@@ -62,9 +62,6 @@ automated-email-change-plaintext-2 = We majun ab'anon, tajalaxtayij ri ewan atzi
 automated-email-support-plaintext = Richin rutzijol, tatz'eta' rutob'al { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Richin rutzijol, tatz'eta' <a data-l10n-name="supportLink"> Rutob'al { -brand-mozilla }</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = We man ja ta rat xajalo, tatzolij ri ewan atzij wakami pa { $resetLink }
 cancellationSurvey = Kojato' richin niqutzilaj ri qasamaj rik'in runojiaxik re <a data-l10n-name="cancellationSurveyUrl">ko'öl cholwuj</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Kojato’ richin niqutzilaj ri qasamaj rik‘in runojiaxik re ko'öl cholwuj:

@@ -122,9 +122,6 @@ automatedEmailRecoveryKey-more-info-plaintext = For more info, visit { -brand-mo
 automated-email-reset =
     This is an automated email; if you did not authorise this action, then <a data-l10n-name="resetLink">please reset your password</a>.
     For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = If you did not change it, please reset your password now at { $resetLink }
 brand-banner-message = Did you know we changed our name from { -product-firefox-accounts } to { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Learn more</a>
 cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl">short survey</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

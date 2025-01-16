@@ -122,9 +122,6 @@ automatedEmailRecoveryKey-more-info-plaintext = Pikeun leuwih teleb, buka Pangro
 automated-email-reset =
     Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="resetLink">ganti kecap sandi</a>.
     Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Lamun anjeun teu rumasa ngarobah, mangga rését kecap sandi anjeun ayeuna di { $resetLink }
 brand-banner-message = Naha anjeun nyaho yén urang ngarobah ngaran tina { -product-firefox-accounts } jadi { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Lenyepan</a>
 cancellationSurvey = Bantuan ngaronjatkeun layanan kami ku cara ngeusian ieu <a data-l10n-name="cancellationSurveyUrl"> surpéy</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

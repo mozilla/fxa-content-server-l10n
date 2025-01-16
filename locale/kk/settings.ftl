@@ -841,6 +841,10 @@ recovery-key-create-page-title = Тіркелгіні қалпына келті�
 # and back to account settings
 recovery-key-create-back-button-title = Баптауларға оралу
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -986,14 +990,11 @@ tfa-row-backup-codes-get-new-cta = Жаңа кодтарды алу
 tfa-row-backup-codes-add-cta = Қосу
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Мобильді құрылғыны немесе аутентификация қолданбасын пайдалана алмасаңыз, бұл - қалпына келтірудің ең қауіпсіз әдісі.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Қалпына келтіру үшін қосымша телефон нөмірі
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Өзгерту
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Қосу
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Өшіру
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1598,6 +1599,9 @@ signin-recovery-code-required-error = Сақтық аутентификация 
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Кіру
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

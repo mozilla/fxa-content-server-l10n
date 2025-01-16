@@ -838,6 +838,10 @@ recovery-key-create-page-title = Klucz odzyskiwania konta
 # and back to account settings
 recovery-key-create-back-button-title = Wróć do ustawień
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -989,21 +993,15 @@ tfa-row-backup-codes-get-new-cta = Uzyskaj nowe kody
 tfa-row-backup-codes-add-cta = Dodaj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = To najbezpieczniejsza metoda odzyskiwania, jeśli nie możesz użyć telefonu lub aplikacji uwierzytelniającej.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Zapasowy telefon odzyskiwania
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Brak dostępnego numeru telefonu odzyskiwania
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Zmień
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Dodaj
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Usuń
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Usuń zapasowy telefon odzyskiwania
-tfa-row-backup-phone-delete-restriction = Jeśli chcesz usunąć zapasowy telefon odzyskiwania, najpierw dodaj zapasowe kody uwierzytelniania lub wyłącz uwierzytelnianie dwuetapowe, aby uniknąć zablokowania konta.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = To najłatwiejsza metoda odzyskiwania, jeśli nie możesz użyć aplikacji uwierzytelniającej.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1619,6 +1617,9 @@ signin-recovery-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
+
+
+## SigninRecoveryPhoneCodeConfirm page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

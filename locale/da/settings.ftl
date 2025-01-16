@@ -834,6 +834,10 @@ recovery-key-create-page-title = Genoprettelsesnøgle til kontoen
 # and back to account settings
 recovery-key-create-back-button-title = Tilbage til indstillinger
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 
@@ -984,21 +988,15 @@ tfa-row-backup-codes-get-new-cta = Få nye koder
 tfa-row-backup-codes-add-cta = Tilføj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Dette er den sikreste gendannelsesmetode, hvis du ikke kan bruge til din mobile enhed eller godkendelsesapp.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Reserve-gendannelses-telefonnummer
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Intet reserve-gendannelses-telefonnummer tilgængeligt
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Skift
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Tilføj
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Fjern
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Fjern reserve-gendannelses-telefonnummer
-tfa-row-backup-phone-delete-restriction = Hvis du vil fjerne dit reserve-gendannelses-telefonnummer, skal du først tilføje reserve-godkendelseskoder eller deaktiver totrinsgodkendelse for at undgå at blive låst ude af din konto.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = Dette er den nemmeste gendannelsesmetode, hvis du ikke kan bruge din godkendelsesapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1614,6 +1612,9 @@ signin-recovery-code-desktop-relay = { -brand-firefox } vil forsøge at sende di
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
+
+
+## SigninRecoveryPhoneCodeConfirm page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

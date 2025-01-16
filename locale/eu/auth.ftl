@@ -122,9 +122,6 @@ automatedEmailRecoveryKey-more-info-plaintext = edo informazio gehiago, bisitatu
 automated-email-reset =
     Hau posta elektroniko automatizatu bat da; ekintza hau baimendu ez baduzu, <a data-l10n-name="resetLink">berrezarri pasahitza</a>.
     Informazio gehiago lortzeko, bisitatu <a data-l10n-name="supportLink">{ -brand-mozilla } Laguntza</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Ez baduzu zuk aldatu, mesedez, alda ezazu orain zure pasahitza hemen { $resetLink }
 brand-banner-message = Ba al zenekien gure izena { -product-firefox-accounts } izatetik { -product-mozilla-accounts } izatera aldatu dugula? <a data-l10n-name="learnMore">Lortu informazio gehiago</a>
 cancellationSurvey = Mesedez, gure zerbitzuak hobetzen lagun iezaguzu honako <a data-l10n-name="cancellationSurveyUrl"> galdetegi motz honi erantzunez</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

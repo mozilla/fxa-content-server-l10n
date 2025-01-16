@@ -122,9 +122,6 @@ automatedEmailRecoveryKey-more-info-plaintext = Per ulteriuras infurmaziuns, vis
 automated-email-reset =
     Quai è in e-mail automatic. Sche ti n'has betg autorisà questa acziun, <a data-l10n-name="resetLink">reinizialisescha per plaschair tes pled-clav</a>.
     Per ulteriuras infurmaziuns, per plaschair visitar il <a data-l10n-name="supportLink">support da { -brand-mozilla }</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Sche ti n'al has betg midà, reinizialisescha per plaschair ussa tes pled-clav sin { $resetLink }
 brand-banner-message = Sas ti che nus avain midà noss num da { -product-firefox-accounts } en { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Ulteriuras infurmaziuns</a>
 cancellationSurvey = Ans gida per plaschair da meglierar noss servetschs cun participar a questa <a data-l10n-name="cancellationSurveyUrl">curta enquista</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

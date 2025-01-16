@@ -61,9 +61,6 @@ automated-email-not-authorized-plaintext = Seo post-d fèin-obrachail, mur bu tu
 automated-email-reset =
     Seo post-d fèin-obrachail, mur bu tusa a cheadaich seo, <a data-l10n-name="resetLink">ath-shuidhich am facal-faire agad</a>.
     Airson barrachd fiosrachaidh, tadhail air <a data-l10n-name="supportLink">taic { -brand-mozilla }</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Mur tusa a dh’atharraich e, ath-shuidhich am facal-faire agad an-dràsta aig { $resetLink }
 cancellationSurvey = Cuidich leinn a’ toirt piseach air na seirbheisean againn is tu a’ gabhail <a data-l10n-name="cancellationSurveyUrl">na suirbhidhe ghoirid seo</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Cuidich leinn a’ toirt piseach air na seirbheisean againn is tu a’ gabhail na suirbhidhe ghoirid seo:
