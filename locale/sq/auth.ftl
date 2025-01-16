@@ -356,6 +356,7 @@ postRemoveAccountRecovery-title-3 = Fshitë kyçin tuaj të rimarrjes së llogar
 postRemoveAccountRecovery-body-part1 = Kyçi i rimarrjes së llogarisë tuaj është i domosdoshëm për rikthim të dhënash të fshehtëzuara shfletimi, nëse harroni fjalëkalimin tuaj.
 postRemoveAccountRecovery-body-part2 = Nëse s’e keni bërë tashmë, krijoni një kyç të ri rimarrjeje llogarie, që nga rregullimet e llogarisë tuaj, për të parandaluar humbjen e fjalëkalimeve të ruajtur, faqerojtësve, historikut të shfletimeve, etj.
 postRemoveAccountRecovery-action = Administroni llogarinë
+postRemoveRecoveryPhone-requested-device = E kërkuar prej:
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
 # Variables:

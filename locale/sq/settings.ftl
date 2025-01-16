@@ -891,6 +891,7 @@ tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
 tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
 tfa-cannot-verify-code-4 = Pati një problem me ripohimin e kodit tuaj të mirëfilltësimit kopjeruajtje.
 tfa-incorrect-recovery-code-1 = Kod mirëfilltësimi kopjeruajtje i pasaktë
+tfa-enabled-v2 = Mirëfilltësimi dyhapësh u aktivizua
 tfa-scan-this-code =
     Skanojeni këtë kod QR duke përdorur një nga <linkExternal>këto
     aplikacione mirëfilltësimi</linkExternal>.
