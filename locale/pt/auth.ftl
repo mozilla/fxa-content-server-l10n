@@ -325,7 +325,7 @@ postAddRecoveryPhone-title = Criou um número de telefone de recuperação
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Como isto protege a sua conta
 postAddRecoveryPhone-how-protect-plaintext = Como isto protege a sua conta:
-postAddRecoveryPhone-enabled-device = Ativou-a de:
+postAddRecoveryPhone-enabled-device = Foi ativado de:
 postAddRecoveryPhone-action = Gerir conta
 postAddTwoStepAuthentication-subject-2 = Autenticação de dois fatores ativada
 postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois fatores

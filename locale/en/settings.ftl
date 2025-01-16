@@ -684,7 +684,7 @@ flow-setup-phone-confirm-code-button = Confirm
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Code expired?
 flow-setup-phone-confirm-code-resend-code-button = Resend code
-flow-setup-phone-confirm-code-success-message = Backup recovery phone added
+flow-setup-phone-confirm-code-success-message-v2 = Recovery phone added
 
 ## FlowSetupPhoneConfirmCode
 
@@ -692,11 +692,11 @@ flow-setup-phone-submit-number-heading = Verify your phone number
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = You’ll get a text message from { -brand-mozilla } with a code to verify your number. Don’t share this code with anyone.
 
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Backup recovery phone is only available in the United States and Canada. VoIP numbers and phone masks are not recommended.
+flow-setup-phone-submit-number-info-message-v2 = Recovery phone is only available in the United States and Canada. VoIP numbers and phone masks are not recommended.
 
 flow-setup-phone-submit-number-legal = By providing your number, you agree to us storing it so we can text you for account verification only. Message and data rates may apply.
 # cliking on the button sends a code by text message to the phone number typed in by the user
@@ -933,6 +933,19 @@ recovery-key-create-page-title = Account Recovery Key
 # and back to account settings
 recovery-key-create-back-button-title = Back to settings
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+recovery-phone-remove-header = Remove recovery phone number
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = This will remove <strong>{ $formattedFullPhoneNumber }</strong> as your recovery phone.
+settings-recovery-phone-remove-recommend = We recommend you keep this method because it’s easier than saving backup authentication codes.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = If you delete it, make sure you still have your saved backup authentication codes. <linkExternal>Compare recovery methods</linkExternal>
+settings-recovery-phone-remove-button = Remove phone number
+settings-recovery-phone-remove-cancel = Cancel
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Add recovery phone
@@ -1090,21 +1103,21 @@ tfa-row-backup-codes-add-cta = Add
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = This is the safest recovery method if you canʼt use your mobile device or authenticator app.
 
-# Backup recovery phone is a recovery method for two-step authentication
+# Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Backup recovery phone
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+tfa-row-backup-phone-title-v2 = Recovery phone
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = No recovery phone number available
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Change
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Add
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remove
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Remove backup recovery phone
-tfa-row-backup-phone-delete-restriction = If you want to remove your backup recovery phone, add backup authentication codes or disable two-step authentication first to avoid getting locked out of your account.
-# "this" refers to backup recovery phone
+tfa-row-backup-phone-delete-title-v2 = Remove recovery phone
+tfa-row-backup-phone-delete-restriction-v2 = If you want to remove your recovery phone, add backup authentication codes or disable two-step authentication first to avoid getting locked out of your account.
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = This is the easier recovery method if you canʼt use your authenticator app.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1760,6 +1773,20 @@ signin-recovery-method-code = Authentication codes
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } codes remaining
 
+## SigninRecoveryPhoneCodeConfirm page
+
+recovery-phone-code-confirm-flow-heading = Sign in
+
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Enter recovery code
+
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = A six-digit code was sent to <span>{ $maskedPhoneNumber }</span> by text message. This code expires after 5 minutes.
+
+recovery-phone-code-confirm-input-group-label = Enter 6-digit code
+
+recovery-phone-code-confirm-otp-submit-button = Confirm
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Thank you for your vigilance
