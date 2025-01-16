@@ -50,6 +50,7 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-support = Jolic pšašanja maśo abo pomoc trjebaśo, stajśo se z našym <a data-l10n-name="supportLink">teamom pomocy</a> do zwiska.
+account-deletion-info-block-support-plaintext = Jolic pšašanja maśo abo pomoc trjebaśo, stajśo se z našym teamom pomocy do zwiska:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } na { -google-play } ześěgnuś">
@@ -246,11 +247,13 @@ fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jolic pšašanja maśo, stajśo se pšosym z našym teamom pomocy do zwiska: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-title = Waše kontowe a daty { -brand-mozilla } se wulašuju
 inactiveAccountFinalWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
 inactiveAccountFinalWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Pśizjawśo se, aby pśi swójom konśe wóstał:
 inactiveAccountFirstWarning-subject = Njezgubśo swójo konto
+inactiveAccountFirstWarning-title = Cośo pśi swójom konśe { -brand-mozilla } a swójich datach wóstaś?
 inactiveAccountFirstWarning-inactive-status = Smy zawupytnuli, až njejsćo se pśizjawił 2 lěśe dłujko.
 inactiveAccountFirstWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
 inactiveAccountFirstWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
@@ -415,7 +418,9 @@ postSigninRecoveryCode-preview = Kontowu aktiwitu wobkšuśiś
 postSigninRecoveryCode-title = Waš awtentifikaciski kod za zawěsćenje jo se wužył za pśizjawjenje
 postSigninRecoveryCode-device = Sćo se pśizjawił wót:
 postSigninRecoveryCode-action = Konto zastojaś
+postSigninRecoveryPhone-subject = Wótnowjeński telefon, kótaryž se za pśizjawjenje wužywa
 postSigninRecoveryPhone-preview = Kontowu aktiwitu wobkšuśiś
+postSigninRecoveryPhone-title = Wótnowjeński telefon, kótaryž jo se wužył za pśizjawjenje
 postSigninRecoveryPhone-device = Sćo se pśizjawił wót:
 postSigninRecoveryPhone-action = Konto zastojaś
 postVerify-sub-title-3 = Wjaselimy se was wiźeś!
