@@ -29,6 +29,9 @@ CO01:
             - product-firefox-relay
             - header-title
             - pocket-delete-notice-marketing
+            #auth.ftl
+            - account-deletion-info-block-communications
+            - account-deletion-info-block-communications-plaintext
 # Variable comments
 VC:
     disabled: true
