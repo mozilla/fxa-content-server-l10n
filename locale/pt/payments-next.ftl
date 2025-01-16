@@ -11,15 +11,15 @@ next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
 
 checkout-signin-or-create = 1. Inicie sessão ou crie uma { -product-mozilla-account }
 checkout-create-account = Criar uma { -product-mozilla-account }
-continue-signin-with-google-button = Continue com { -brand-google }
-continue-signin-with-apple-button = Continue com { -brand-apple }
+continue-signin-with-google-button = Continuar com { -brand-google }
+continue-signin-with-apple-button = Continuar com { -brand-apple }
 next-payment-method-header = Escolha o seu método de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primeiro, precisa de aprovar a sua subscrição
 next-payment-confirmation-thanks-heading-account-exists = Obrigado, agora consulte o seu email!
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Irá receber um e-mail em { $email } com instruções sobre a sua subscrição, bem como os seus detalhes de pagamento.
+payment-confirmation-thanks-subheading-account-exists-2 = Irá receber um e-mail em { $email } com instruções sobre a sua subscrição, bem como os seus dados de pagamento.
 next-payment-confirmation-order-heading = Detalhes de compra
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
@@ -33,7 +33,7 @@ next-payment-confirmation-amount = { $amount } por { $interval }
 next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
 next-payment-confirmation-download-button = Continuar para descarregar
 checkout-error-boundary-retry-button = Tentar novamente
-checkout-error-boundary-basic-error-message = Algo correu mal. Por favor, tente novamente ou <contactSupportLink>contacte o suporte.</contactSupportLink>
+checkout-error-boundary-basic-error-message = Algo correu mal. Tente novamente ou <contactSupportLink>contacte o apoio.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -45,7 +45,7 @@ next-payment-confirm-checkbox-error = Precisa de concluir isto antes de continua
 next-new-user-submit = Subscrever agora
 next-payment-validate-name-error = Por favor, insira o seu nome
 # Label for the Full Name input
-payment-name-label = Nome como aparece no seu cartão
+payment-name-label = Nome, como aparece no seu cartão
 payment-name-placeholder = Nome completo
 
 ## Component - CouponForm
@@ -78,17 +78,17 @@ select-tax-location-edit-button = Editar
 select-tax-location-save-button = Guardar
 select-tax-location-country-code-label = País
 select-tax-location-country-code-placeholder = Selecione o seu país
-select-tax-location-error-missing-country-code = Por favor selecione o seu país
+select-tax-location-error-missing-country-code = Por favor, selecione o seu país
 select-tax-location-postal-code-label = Código postal
 select-tax-location-postal-code =
     .placeholder = Introduza o seu código postal
 select-tax-location-error-missing-postal-code = Por favor, introduza o seu código postal
-select-tax-location-error-invalid-postal-code = Por favor introduza um código postal válido
+select-tax-location-error-invalid-postal-code = Por favor, introduza um código postal válido
 select-tax-location-successfully-updated = A sua localização foi atualizada.
 select-tax-location-error-location-not-updated = Não foi possível atualizar a sua localização. Por favor, tente novamente.
 signin-form-continue-button = Continuar
 signin-form-email-input = Introduza o seu email
-signin-form-email-input-missing = Por favor introduza o seu email
+signin-form-email-input-missing = Por favor, introduza o seu e-mail
 signin-form-email-input-invalid = Por favor, forneça um e-mail válido
 next-new-user-subscribe-product-updates-mdnplus = Eu gostaria de receber notícias e atualizações de produtos da { -product-mdn-plus } e da { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Eu gostaria de receber notícias e atualizações de produtos da { -brand-mozilla }
@@ -117,9 +117,9 @@ next-coupon-success-repeating = O seu plano será renovado automaticamente depoi
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-plan-price-interval-daily = { $amount } diariamente
-plan-price-interval-weekly = { $amount } semanalmente
-plan-price-interval-monthly = { $amount } mensais
+plan-price-interval-daily = { $amount } por dia
+plan-price-interval-weekly = { $amount } por semana
+plan-price-interval-monthly = { $amount } por mês
 plan-price-interval-6monthly = { $amount } a cada 6 meses
 plan-price-interval-yearly = { $amount } por ano
 
