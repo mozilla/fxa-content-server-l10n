@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Mbrapsht
+button-back-title = Mbrapsht
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -640,6 +642,14 @@ flow-setup-phone-confirm-code-success-message = U shtua telefon rimarrje kopjeru
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifikoni numrin tuaj të telefonit
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Do të merrni një mesazh tekst nga { -brand-mozilla } me një kod që të verifikoni numrin tuaj. Mos ia tregoni kujt këtë kod.
+# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message = Telefon rimarrje kopjeruajtesh mund të përdorni vetëm Shtetet e Bashkuara dhe Kanada. Nuk rekomandohen numra VoIP dhe maska telefonash.
+flow-setup-phone-submit-number-legal = Duke dhënë numrin tuaj, pajtoheni me depozitimin e tij prej nesh, që të mund t’ju dërgojmë mesazh tekst vetëm për verifikimin e llogarisë tuaj. Mund të ketë vend për tarifa mesazhesh dhe të dhënash.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Dërgo kod
 
