@@ -1102,6 +1102,7 @@ tfa-row-enabled-description = Llogaria juaj mbrohet me mirëfilltësim dyfaktor�
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = Si e mbron kjo llogarinë tuaj
+tfa-row-disabled-description-v2 = Ndihmoni të sigurohet llogaria juaj, duke përdorur një aplikacion mirëfilltësimesh nga palë e tretë, si një hap të dytë gjatë bërjes së hyrjes.
 tfa-row-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
@@ -1271,6 +1272,7 @@ inline-recovery-confirmation-header-default = <span>Që të vazhdoni te rregulli
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>Që të vazhdoni te { $serviceName }</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
+inline-recovery-2fa-enabled-v2 = Mirëfilltësimi dyhapësh u aktivizua
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1621,6 +1623,11 @@ signin-recovery-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Hyni
+signin-recovery-method-subheader = Zgjidhni një metodë rikthimi
+signin-recovery-method-code = Kode mirëfilltësimi
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Edhe { $numberOfCodes } kode
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
