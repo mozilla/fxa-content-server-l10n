@@ -876,6 +876,7 @@ recovery-key-create-back-button-title = Slědk k nastajenjam
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Numer wótnowjeńskego telefona wótwónoźeś
 settings-recovery-phone-remove-button = Telefonowy numer wótwónoźeś
 settings-recovery-phone-remove-cancel = Pśetergnuś
 

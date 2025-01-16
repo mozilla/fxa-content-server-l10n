@@ -49,6 +49,7 @@ subplat-legal = Pšawniske
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support = Jolic pšašanja maśo abo pomoc trjebaśo, stajśo se z našym <a data-l10n-name="supportLink">teamom pomocy</a> do zwiska.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } na { -google-play } ześěgnuś">
@@ -250,6 +251,17 @@ inactiveAccountFinalWarning-action = Pśizjawśo se, aby pśi swójom konśe wó
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Pśizjawśo se, aby pśi swójom konśe wóstał:
 inactiveAccountFirstWarning-subject = Njezgubśo swójo konto
+inactiveAccountFirstWarning-inactive-status = Smy zawupytnuli, až njejsćo se pśizjawił 2 lěśe dłujko.
+inactiveAccountFirstWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
+inactiveAccountFirstWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Pśizjawśo se, aby pśi swójom konśe wóstał:
+inactiveAccountSecondWarning-subject = Akcija trjebna: Kontowe wulašowanje za 7 dnjow
+inactiveAccountSecondWarning-title = Waše kontowe a daty { -brand-mozilla } se za 7 dnjow wulašuju
+inactiveAccountSecondWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
+inactiveAccountSecondWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Pśizjawśo se, aby pśi swójom konśe wóstał:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Njamaśo wěcej kody za zawěsćeńsku awtentfikaciju!
 codes-reminder-title-one = Wužywaśo južo swój slědny kod za zawěsćeńsku awtentifikaciju
@@ -328,6 +340,7 @@ postAddLinkedAccount-subject-2 = Nowe konto jo se zwězało z wašym { -product-
 postAddLinkedAccount-title-2 = Wašo konto { $providerName } jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
 postAddLinkedAccount-action = Konto zastojaś
 postAddRecoveryPhone-subject = Wótnowjeński telefon pśidany
+postAddRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju šćita
 postAddRecoveryPhone-title = Sćo napórał numer wótnowjeńskego telefona
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -355,6 +368,7 @@ postChangePrimary-title = Nowa primarna e-mailowa adresa
 postChangePrimary-description-2 = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywaŕske mě za pśizjawjenje pla wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
 postChangeRecoveryPhone-subject = Wótnowjeński telefon zaktualizěrowany
+postChangeRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju šćita
 postChangeRecoveryPhone-title = Sćo změnił swój wótnowjeński telefon
 postChangeRecoveryPhone-description = Maśo něnto nowy wótnowjeński telefon. Waš pjerwjejšny telefonowy numer jo se wulašował.
 postChangeRecoveryPhone-requested-device = Sćo póžedał jen wót:
@@ -380,6 +394,7 @@ postRemoveAccountRecovery-body-part1 = Waš kontowy wótnowjeński kluc jo trjeb
 postRemoveAccountRecovery-body-part2 = Jolic hyšći kluc njamaśo, napórajśo nowy kontowy wótnowjeński kluc w swójich kontowych nastajenjach, aby tomu zajźował, až se waše skłaźone gronidła, cytańske znamjenja, pśeglědowańska historija a wěcej zgubiju.
 postRemoveAccountRecovery-action = Konto zastojaś
 postRemoveRecoveryPhone-subject = Wótnowjeński telefon wótwónoźony
+postRemoveRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju šćita
 postRemoveRecoveryPhone-title = Wótnowjeński telefon wótwónoźony
 postRemoveRecoveryPhone-description = Waš wótnowjeński telefon jo se wótwónoźeł z wašych nastajenjow za dwójokšacowu awtentifikaciju. Waše awtentifikaciske kody za zawěsćenje su hyšći za wužywanje k dispoziciji.
 postRemoveRecoveryPhone-requested-device = Sćo póžedał jen wót:
@@ -395,7 +410,9 @@ postRemoveTwoStepAuthentication-title-2 = Sćo znjemóžnił dwójokšacowu awte
 postRemoveTwoStepAuthentication-from-device = Sćo ju znjemóžnił z:
 postRemoveTwoStepAuthentication-action = Konto zastojaś
 postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaśo wěcej wěstotne kody ze swójogo awtentifikaciskego nałoženja, gaž se pśizjawjaśo.
+postSigninRecoveryCode-subject = Awtentifikaciski kod za zawěsćenje, kótaryž se za pśizjawjenje wužywa
 postSigninRecoveryCode-preview = Kontowu aktiwitu wobkšuśiś
+postSigninRecoveryCode-title = Waš awtentifikaciski kod za zawěsćenje jo se wužył za pśizjawjenje
 postSigninRecoveryCode-device = Sćo se pśizjawił wót:
 postSigninRecoveryCode-action = Konto zastojaś
 postSigninRecoveryPhone-preview = Kontowu aktiwitu wobkšuśiś
