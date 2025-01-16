@@ -320,6 +320,16 @@ postAddLinkedAccount-subject-2 = Me { -product-mozilla-account } tuajën u lidh 
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Llogaria juaj { $providerName } është lidhur me { -product-mozilla-account } tuajën
 postAddLinkedAccount-action = Administroni llogarinë
+postAddRecoveryPhone-subject = U shtua telefon rimarrje
+postAddRecoveryPhone-title = Krijuat një numër telefoni rimarrjeje
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Shtuat { $maskedLastFourPhoneNumber } si telefon rimarrjeje
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Si e mbron kjo llogarinë tuaj
+postAddRecoveryPhone-how-protect-plaintext = Si e mbron kjo llogarinë tuaj:
+postAddRecoveryPhone-enabled-device = E aktivizuat që nga:
+postAddRecoveryPhone-action = Administroni llogarinë
 postAddTwoStepAuthentication-subject-2 = Mirëfilltësimi dyhapësh u aktivizua
 postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -337,6 +347,10 @@ postChangePrimary-title = Email parësor i ri
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = E ndryshuat me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-mozilla-account } e juaja, si edhe për të marrë njoftime sigurie dhe ripohime hyrjesh.
 postChangePrimary-action = Administroni llogarinë
+postChangeRecoveryPhone-subject = U përditësua telefon rimarrje
+postChangeRecoveryPhone-title = Ndryshuat telefonin tuaj të rimarrjes
+postChangeRecoveryPhone-description = Tani keni një telefon të ri rimarrjeje. Numri juaj i mëparshëm telefonik u fshi.
+postChangeRecoveryPhone-requested-device = E kërkuar prej:
 postConsumeRecoveryCode-title-2 = Përdorët një kod mirëfilltësimi kopjeruajtje
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Qe përdorur në:
@@ -356,6 +370,9 @@ postRemoveAccountRecovery-title-3 = Fshitë kyçin tuaj të rimarrjes së llogar
 postRemoveAccountRecovery-body-part1 = Kyçi i rimarrjes së llogarisë tuaj është i domosdoshëm për rikthim të dhënash të fshehtëzuara shfletimi, nëse harroni fjalëkalimin tuaj.
 postRemoveAccountRecovery-body-part2 = Nëse s’e keni bërë tashmë, krijoni një kyç të ri rimarrjeje llogarie, që nga rregullimet e llogarisë tuaj, për të parandaluar humbjen e fjalëkalimeve të ruajtur, faqerojtësve, historikut të shfletimeve, etj.
 postRemoveAccountRecovery-action = Administroni llogarinë
+postRemoveRecoveryPhone-subject = U hoq telefon rimarrjeje
+postRemoveRecoveryPhone-title = U hoq telefon rimarrjeje
+postRemoveRecoveryPhone-description = Telefoni juaj i rimarrjeve është hequr nga rregullimet tuaja për mirëfilltësimin me dy hapa. Keni ende për përdorim kodet tuaj të mirëfilltësimit të kopjeruajtjeve.
 postRemoveRecoveryPhone-requested-device = E kërkuar prej:
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq

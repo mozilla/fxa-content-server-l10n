@@ -626,9 +626,22 @@ flow-recovery-key-info-cancel-link = Anuloje
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Jepni kodin e verifikimit
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Te <span>{ $phoneNumber }</span> u dërgua përmes një mesazhi tekst një kod gjashtëshifror. Ky kod skadon pas 5 minutash.
+flow-setup-phone-confirm-code-input-label = Jepni kodin 6-shifror
+flow-setup-phone-confirm-code-button = Ripohojeni
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Skadoi kodi?
+flow-setup-phone-confirm-code-resend-code-button = Ridërgo kodin
+flow-setup-phone-confirm-code-success-message = U shtua telefon rimarrje kopjeruajtjeje
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Verifikoni numrin tuaj të telefonit
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Dërgo kod
 
 ## HeaderLockup component, the header in account settings
 
@@ -850,6 +863,7 @@ recovery-key-create-back-button-title = Mbrapsht te rregullimet
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Shtoni telefon rimarrjeje
 
 ## Add secondary email page
 
@@ -1637,6 +1651,8 @@ signin-recovery-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand
 
 signin-recovery-method-header = Hyni
 signin-recovery-method-subheader = Zgjidhni një metodë rikthimi
+signin-recovery-method-details = Le të sigurohemi se jeni ju ai që po përdorni metodat tuaja të rimarrjes.
+signin-recovery-method-phone = Telefon rimarrjeje
 signin-recovery-method-code = Kode mirëfilltësimi
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Edhe { $numberOfCodes } kode

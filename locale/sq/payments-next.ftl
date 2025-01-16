@@ -9,6 +9,7 @@ next-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
 
 ## Page
 
+checkout-signin-or-create = 1. Bëni hyrjen, ose krijoni një { -product-mozilla-account }
 checkout-create-account = Krijoni një { -product-mozilla-account }
 continue-signin-with-google-button = Vazhdoni me { -brand-google }
 continue-signin-with-apple-button = Vazhdoni me { -brand-apple }
@@ -17,6 +18,8 @@ next-payment-method-header = Zgjidhni metodën tuaj të pagesës
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Së pari, do t’ju duhet të miratoni pajtimin tuaj
 next-payment-confirmation-thanks-heading-account-exists = Faleminderit, tani kontrolloni email-in tuaj!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Do të merrni një email te { $email }, me udhëzime rreth pajtimit tuaj, si dhe me hollësitë e pagesës tuaj.
 next-payment-confirmation-order-heading = Hollësi porosie
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
@@ -30,6 +33,7 @@ next-payment-confirmation-amount = { $amount } në { $interval }
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 next-payment-confirmation-download-button = Vazhdoni te shkarkimi
 checkout-error-boundary-retry-button = Riprovoni
+checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -40,6 +44,8 @@ next-payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni
 
 next-new-user-submit = Pajtohuni Tani
 next-payment-validate-name-error = Ju lutemi, jepni emrin tuaj
+# Label for the Full Name input
+payment-name-label = Emër, siç duket te karta juaj
 payment-name-placeholder = Emër i Plotë
 
 ## Component - CouponForm
