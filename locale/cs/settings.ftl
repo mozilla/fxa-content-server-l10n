@@ -641,12 +641,18 @@ flow-setup-phone-confirm-code-button = Potvrdit
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Platnost kódu vypršela?
 flow-setup-phone-confirm-code-resend-code-button = Znovu odeslat kód
+flow-setup-phone-confirm-code-success-message-v2 = Telefon pro obnovení byl přidán
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Ověřte své telefonní číslo
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = { -brand-mozilla } vám zašle textovou zprávu s kódem pro ověření vašeho čísla. Tento kód s nikým nesdílejte.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Telefon pro obnovení je k dispozici pouze ve Spojených státech a Kanadě. VoIP čísla a telefonní masky se nedoporučují.
 flow-setup-phone-submit-number-legal = Poskytnutím vašeho telefonního čísla souhlasíte s jeho uložením, abychom vám mohli posílat textové zprávy pouze pro ověření účtu. Mohou být účtovány poplatky za zprávy a data.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Odeslat kód
@@ -872,6 +878,15 @@ recovery-key-create-back-button-title = Zpět do nastavení
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Odebrat telefonní číslo pro obnovení
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Tímto odstraníte <strong>{ $formattedFullPhoneNumber }</strong> jako své telefonní číslo pro obnovení.
+settings-recovery-phone-remove-recommend = Tuto metodu doporučujeme ponechat, protože je jednodušší než ukládání záložních ověřovacích kódů.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Pokud ji smažete, ujistěte se, že máte uložené záložní ověřovací kódy. <linkExternal>Porovnání metod obnovení</linkExternal>
+settings-recovery-phone-remove-button = Odebrat telefonní číslo
+settings-recovery-phone-remove-cancel = Zrušit
 
 ## PageSetupRecoveryPhone
 
@@ -1021,6 +1036,9 @@ tfa-row-backup-codes-get-new-cta = Získejte nové kódy
 tfa-row-backup-codes-add-cta = Přidat
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Pokud nemůžete použít mobilní zařízení nebo aplikaci autentikátoru, je to nejbezpečnější způsob obnovy.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Telefon pro obnovení
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Telefonní číslo pro obnovení není k dispozici
 # button to change the configured recovery phone
@@ -1029,6 +1047,9 @@ tfa-row-backup-phone-change-cta = Změnit
 tfa-row-backup-phone-add-cta = Přidat
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Odebrat
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Odebrat telefon pro obnovení
+tfa-row-backup-phone-delete-restriction-v2 = Pokud chcete odebrat své záložní telefonní číslo, přidejte záložní ověřovací kódy nebo nejprve vypněte dvoufázové ověření, abyste předešli nechtěnému uzamčení svého účtu.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Pokud nemůžete použít aplikaci pro autentizaci, je to jednodušší způsob obnovení.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1652,6 +1673,14 @@ signin-recovery-method-code-info = Zbývajících počet kódů: { $numberOfCode
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Přihlásit se
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Zadejte obnovovací kód
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Na číslo <span>{ $maskedPhoneNumber }</span> byl odeslán šestimístný kód jako textová zpráva. Tento kód vyprší po 5 minutách.
+recovery-phone-code-confirm-input-group-label = Zadejte šestimístný kód
+recovery-phone-code-confirm-otp-submit-button = Potvrdit
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

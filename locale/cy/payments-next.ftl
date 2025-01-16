@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymla
 
 next-new-user-submit = Tanysgrifiwch Nawr
 next-payment-validate-name-error = Rhowch eich enw
+next-pay-with-heading-paypal = Talu gyda { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Enw fel y mae'n ymddangos ar eich cerdyn
 payment-name-placeholder = Enw Llawn

@@ -49,6 +49,10 @@ subplat-legal = Pravne informacije
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Zasebnost
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Če je vaš račun izbrisan, boste še vedno prejemali e-pošto od Mozilla Corporation in Mozilla Foundation, razen če <a data-l10n-name="unsubscribeLink">zaprosite za odjavo</a>.
+account-deletion-info-block-support = Če imate kakršnakoli vprašanja ali potrebujete pomoč, se obrnite na našo <a data-l10n-name="supportLink">ekipo za podporo</a>.
+account-deletion-info-block-communications-plaintext = Če je vaš račun izbrisan, boste še vedno prejemali e-pošto od Mozilla Corporation in Mozilla Foundation, razen če zahtevate odjavo:
+account-deletion-info-block-support-plaintext = Če imate kakršnakoli vprašanja ali potrebujete pomoč, se obrnite na našo ekipo za podporo:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Prenesite { $productName } iz trgovine { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Za več informacij obiščite <a data-l10n-name="suppo
 automated-email-change-plaintext-2 = Če tega niste storili vi, takoj spremenite geslo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Za več informacij obiščite Podporo { -brand-mozilla }:
+automated-email-inactive-account = To je samodejno sporočilo. Prejeli ste jo, ker imate { -product-mozilla-account } in je minili 2 leti od vaše zadnje prijave.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = To sporočilo je bilo poslano samodejno. Če ste ga prejeli pomotoma, vam ni treba storiti ničesar.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Za več informacij obiščite Po
 automated-email-reset =
     To je samodejno sporočilo. Če niste sprožili tega dejanja, <a data-l10n-name="resetLink">ponastavite svoje geslo</a>.
     Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Če niste vi sprožili tega dejanja, zdaj ponastavite geslo na { $resetLink }
 brand-banner-message = Ali ste vedeli, da smo se preimenovali iz { -product-firefox-accounts } v { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Več o tem</a>
 cancellationSurvey = Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a data-l10n-name="cancellationSurveyUrl">kratko anketo</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = Če imate kakršnakoli vprašanja, se obrnit
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Če imate kakršnakoli vprašanja, se obrnite na našo skupino za podporo: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Zadnja priložnost, da obdržite svoj { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Vaš { -brand-mozilla } račun in podatki bodo izbrisani
+inactiveAccountFinalWarning-preview = Prijavite se, če želite obdržati račun
+inactiveAccountFinalWarning-account-description = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> bodo vaš račun in vaši osebni podatki trajno izbrisani, razen če se prijavite.
+inactiveAccountFinalWarning-action = Prijavite se, če želite obdržati račun
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Prijavite se, če želite obdržati račun:
+inactiveAccountFirstWarning-subject = Ne izgubite računa
+inactiveAccountFirstWarning-title = Želite obdržati račun in podatke { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
+inactiveAccountFirstWarning-inactive-status = Opazili smo, da se niste prijavili že 2 leti.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Vaš račun in vaši osebni podatki bodo <strong>{ $deletionDate }</strong> trajno izbrisani, ker niste bili aktivni.
+inactiveAccountFirstWarning-action = Prijavite se, če želite obdržati račun
+inactiveAccountFirstWarning-preview = Prijavite se, če želite obdržati račun
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Prijavite se, če želite obdržati račun:
+inactiveAccountSecondWarning-subject = Zahtevano dejanje: račun bo izbrisan čez 7 dni
+inactiveAccountSecondWarning-title = Vaš { -brand-mozilla } račun in podatki bodo izbrisani v 7 dneh
+inactiveAccountSecondWarning-account-description = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -produt-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Vaš račun in vaši osebni podatki bodo <strong>{ $deletionDate }</strong> trajno izbrisani, ker niste bili aktivni.
+inactiveAccountSecondWarning-action = Prijavite se, če želite obdržati račun
+inactiveAccountSecondWarning-preview = Prijavite se, če želite obdržati račun
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Prijavite se, če želite obdržati račun:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Zmanjkalo vam je rezervnih overitvenih kod!
 codes-reminder-title-one = Ostala vam je le še ena rezervna overitvena koda
@@ -320,6 +358,7 @@ postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-
 postAddLinkedAccount-title-2 = Vaš račun { $providerName } se je povezal z vašim { -product-mozilla-account(sklon: "orodnik") }
 postAddLinkedAccount-action = Upravljanje računa
 postAddRecoveryPhone-subject = Telefonska številka za obnovitev je dodana
+postAddRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korakih
 postAddRecoveryPhone-title = Ustvarili ste telefonsko številko za obnovitev
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -347,6 +386,7 @@ postChangePrimary-title = Nov glavni e-poštni naslov
 postChangePrimary-description-2 = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-mozilla-account(sklon: "tozilnik") }, kot tudi naslov za prejemanje varnostnih obvestil ter
 postChangePrimary-action = Upravljanje računa
 postChangeRecoveryPhone-subject = Telefonska številka za obnovitev je posodobljena
+postChangeRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korakih
 postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
 postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Prejšnja številka je bila izbrisana.
 postChangeRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
@@ -372,6 +412,7 @@ postRemoveAccountRecovery-body-part1 = Ključ za obnovitev računa je potreben z
 postRemoveAccountRecovery-body-part2 = Če tega še niste storili, v nastavitvah računa ustvarite nov obnovitveni ključ in preprečite izgubo shranjenih gesel, zaznamkov, zgodovine brskanja in drugega.
 postRemoveAccountRecovery-action = Upravljanje računa
 postRemoveRecoveryPhone-subject = Telefonska številka za obnovitev je odstranjena
+postRemoveRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korakih
 postRemoveRecoveryPhone-title = Telefonska številka za obnovitev je odstranjena
 postRemoveRecoveryPhone-description = Vaša telefonska številka za obnovitev je bila odstranjena iz nastavitev overjanja v dveh korakih. Še vedno imate možnost uporabiti rezervne overitvene kode.
 postRemoveRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
@@ -387,6 +428,18 @@ postRemoveTwoStepAuthentication-title-2 = Izklopili ste overitev v dveh korakih
 postRemoveTwoStepAuthentication-from-device = Onemogočili ste jo z naslednje naprave:
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required-2 = Ob prijavi ne potrebujete več varnostnih kod iz aplikacije za preverjanje pristnosti.
+postSigninRecoveryCode-subject = Rezervna overitvena koda, uporabljena za prijavo
+postSigninRecoveryCode-preview = Potrdite dejavnost računa
+postSigninRecoveryCode-title = Za prijavo je bila uporabljena vaša rezervna overitvena koda
+postSigninRecoveryCode-description = Če tega niste storili vi, takoj spremenite geslo, da svoj račun ohranite varen.
+postSigninRecoveryCode-device = Prijavili ste se iz:
+postSigninRecoveryCode-action = Upravljanje računa
+postSigninRecoveryPhone-subject = Za prijavo je bila uporabljena obnovitvena telefonska številka
+postSigninRecoveryPhone-preview = Potrdite dejavnost računa
+postSigninRecoveryPhone-title = Za prijavo je bila uporabljena vaša obnovitvena telefonska številka
+postSigninRecoveryPhone-description = Če tega niste storili vi, takoj spremenite geslo, da svoj račun ohranite varen.
+postSigninRecoveryPhone-device = Prijavili ste se iz:
+postSigninRecoveryPhone-action = Upravljanje računa
 postVerify-sub-title-3 = Veseli nas, da vas vidimo!
 postVerify-title-2 = Želite imeti isti zavihek na dveh napravah?
 postVerify-description-2 = Preprosto je! Samo namestite { -brand-firefox } na drugo napravo in se prijavite v sinhronizacijo. Kot čarovnija!
@@ -639,6 +692,7 @@ verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potrdite račun
+verifyShortCode-preview = S priloženo kodo potrdite svoj { -product-mozilla-account }.
 verifyShortCode-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla(sklon: "tozilnik") } na vseh napravah, začenši z:

@@ -49,6 +49,10 @@ subplat-legal = Mentions légales
 subplat-legal-plaintext = { subplat-legal } :
 subplat-privacy = Vie privée
 subplat-privacy-website-plaintext = { subplat-privacy } :
+account-deletion-info-block-communications = Si votre compte est supprimé, vous continuerez à recevoir des courriels de Mozilla Corporation et de la Fondation Mozilla, à moins que vous <a data-l10n-name="unsubscribeLink">demandiez votre désinscription</a>.
+account-deletion-info-block-support = Si vous avez des questions ou avez besoin d’assistance, n’hésitez pas à contacter notre <a data-l10n-name="supportLink">équipe d’assistance</a>.
+account-deletion-info-block-communications-plaintext = Si votre compte est supprimé, vous recevrez toujours les courriels de Mozilla Corporation et de la Fondation Mozilla, sauf si vous demandez votre désinscription :
+account-deletion-info-block-support-plaintext = Si vous avez des questions ou avez besoin d’aide, n’hésitez pas à contacter notre équipe d’assistance :
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Télécharger { $productName } sur { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Pour plus d’informations, consultez <a data-l10n-nam
 automated-email-change-plaintext-2 = Si vous n’êtes pas à l’origine de cette action, modifiez immédiatement votre mot de passe :
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pour plus d’informations, consultez le site d’assistance de { -brand-mozilla } :
+automated-email-inactive-account = Ceci est un message automatique. Vous le recevez, car vous avez un { -product-mozilla-account } et deux ans s’étaient écoulés depuis votre dernière connexion.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pour davantage d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Ceci est un e-mail automatique. Si vous l’avez reçu par erreur, vous n’avez rien à faire.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Pour plus d’informations, cons
 automated-email-reset =
     Il s’agit d’un e-mail automatisé ; si vous n’avez pas autorisé cette action, <a data-l10n-name="resetLink">veuillez changer de mot de passe</a>.
     Pour plus d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Si vous n’avez pas autorisé cette action, veuillez réinitialiser votre mot de passe immédiatement depuis { $resetLink }
 brand-banner-message = Saviez-vous que nous avons renommé les { -product-firefox-accounts } en { -product-mozilla-accounts } ? <a data-l10n-name="learnMore">En savoir plus</a>
 cancellationSurvey = Aidez-nous à améliorer nos services en répondant à <a data-l10n-name="cancellationSurveyUrl">ce court questionnaire</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = Pour toute question, veuillez contacter notr
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Pour toute question, veuillez contacter notre équipe d’assistance : { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Dernière chance de conserver votre { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Votre compte { -brand-mozilla } et vos données vont être supprimés
+inactiveAccountFinalWarning-preview = Connectez-vous pour conserver votre compte
+inactiveAccountFinalWarning-account-description = Votre { -product-mozilla-account } est utilisé pour accéder à des produits gratuits de confidentialité et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Le <strong>{ $deletionDate }</strong>, votre compte et vos données personnelles seront supprimés définitivement, sauf si vous vous connectez.
+inactiveAccountFinalWarning-action = Connectez-vous pour conserver votre compte
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Connectez-vous pour conserver votre compte :
+inactiveAccountFirstWarning-subject = Ne perdez pas votre compte
+inactiveAccountFirstWarning-title = Voulez-vous conserver votre compte et vos données { -brand-mozilla } ?
+inactiveAccountFirstWarning-account-description-v2 = Votre { -product-mozilla-account } est utilisé pour accéder à des produits gratuits de confidentialité et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Nous avons remarqué que vous ne vous êtes pas connecté·e depuis deux ans.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Votre compte et vos données personnelles seront supprimés définitivement le <strong>{ $deletionDate }</strong> car vous n’avez pas été actif.
+inactiveAccountFirstWarning-action = Connectez-vous pour conserver votre compte
+inactiveAccountFirstWarning-preview = Connectez-vous pour conserver votre compte
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Connectez-vous pour conserver votre compte :
+inactiveAccountSecondWarning-subject = Action requise : suppression du compte dans 7 jours
+inactiveAccountSecondWarning-title = Votre compte { -brand-mozilla } et vos données seront supprimés dans 7 jours
+inactiveAccountSecondWarning-account-description = Votre { -product-mozilla-account } est utilisé pour accéder à des produits gratuits de confidentialité et de navigation tels que { -brand-firefox } sync, { -produt-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Votre compte et vos données personnelles seront supprimés définitivement le <strong>{ $deletionDate }</strong> car vous n’avez pas été actif.
+inactiveAccountSecondWarning-action = Connectez-vous pour conserver votre compte
+inactiveAccountSecondWarning-preview = Connectez-vous pour conserver votre compte
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Connectez-vous pour conserver votre compte :
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Vous n’avez plus aucun code d’authentification de secours !
 codes-reminder-title-one = Vous utilisez votre dernier code d’authentification de secours.
@@ -318,6 +356,7 @@ postAddLinkedAccount-subject-2 = Nouveau compte lié à votre { -product-mozilla
 postAddLinkedAccount-title-2 = Votre compte { $providerName } a été lié à votre { -product-mozilla-account }
 postAddLinkedAccount-action = Gérer le compte
 postAddRecoveryPhone-subject = Numéro de téléphone de récupération ajouté
+postAddRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
 postAddRecoveryPhone-title = Vous avez créé un numéro de téléphone de récupération
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -345,6 +384,7 @@ postChangePrimary-title = Nouvelle adresse e-mail principale
 postChangePrimary-description-2 = Votre adresse e-mail principale est désormais { $email }. Vous pouvez à présent l’utiliser pour vous connecter à votre { -product-mozilla-account } et recevoir les notifications de sécurité et les confirmations de connexion.
 postChangePrimary-action = Gérer le compte
 postChangeRecoveryPhone-subject = Numéro de téléphone de récupération mis à jour
+postChangeRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
 postChangeRecoveryPhone-title = Vous avez changé votre numéro de téléphone de récupération
 postChangeRecoveryPhone-description = Vous avez maintenant un nouveau numéro de téléphone de récupération. Votre précédent numéro de téléphone a été supprimé.
 postChangeRecoveryPhone-requested-device = La demande a été effectuée depuis :
@@ -368,6 +408,7 @@ postRemoveAccountRecovery-body-part1 = Votre clé de récupération de compte es
 postRemoveAccountRecovery-body-part2 = Si ce n’est pas déjà fait, créez une nouvelle clé de récupération depuis les paramètres de votre compte pour éviter de perdre vos mots de passe, marque-pages, historique de navigation et autres données enregistrées.
 postRemoveAccountRecovery-action = Gérer le compte
 postRemoveRecoveryPhone-subject = Le numéro de téléphone de récupération a été supprimé
+postRemoveRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
 postRemoveRecoveryPhone-title = Le numéro de téléphone de récupération a été supprimé
 postRemoveRecoveryPhone-description = Votre numéro de téléphone de récupération a été supprimé de vos paramètres d’authentification en deux étapes. Vous pouvez toujours utiliser vos codes d’authentification de secours.
 postRemoveRecoveryPhone-requested-device = La demande a été effectuée depuis :
@@ -383,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = Vous avez désactivé l’authentifica
 postRemoveTwoStepAuthentication-from-device = Vous l’avez désactivée depuis :
 postRemoveTwoStepAuthentication-action = Gérer le compte
 postRemoveTwoStepAuthentication-not-required-2 = Vous n’avez plus besoin des codes de sécurité fournis par votre application d’authentification quand vous vous connectez.
+postSigninRecoveryCode-subject = Code d’authentification de secours utilisé pour se connecter
+postSigninRecoveryCode-preview = Confirmer l’activité du compte
+postSigninRecoveryCode-title = Votre code d’authentification de secours a été utilisé pour se connecter
+postSigninRecoveryCode-description = Si vous ne l’avez pas fait, vous devriez changer votre mot de passe immédiatement pour assurer la sécurité de votre compte.
+postSigninRecoveryCode-device = Vous vous êtes connecté·e depuis :
+postSigninRecoveryCode-action = Gérer le compte
+postSigninRecoveryPhone-subject = Numéro de téléphone de récupération utilisé pour la connexion
+postSigninRecoveryPhone-preview = Confirmer l’activité du compte
+postSigninRecoveryPhone-title = Votre numéro de téléphone de récupération a été utilisé pour se connecter
+postSigninRecoveryPhone-description = Si vous ne l’avez pas fait, vous devriez changer votre mot de passe immédiatement pour assurer la sécurité de votre compte.
+postSigninRecoveryPhone-device = Vous vous êtes connecté·e depuis :
+postSigninRecoveryPhone-action = Gérer le compte
 postVerify-sub-title-3 = Nous sommes ravis de vous voir !
 postVerify-title-2 = Vous voulez consulter le même onglet sur deux appareils ?
 postVerify-description-2 = C’est facile ! Installez simplement { -brand-firefox } sur un autre appareil et connectez-vous pour synchroniser, comme par magie.
@@ -635,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = Celui-ci expire dans 5 minutes. Une fois 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirmez votre compte
+verifyShortCode-preview = Utilisez le code inclus pour confirmer votre { -product-mozilla-account }.
 verifyShortCode-title-3 = Accédez à Internet avec { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirmez votre compte et tirez le meilleur parti de { -brand-mozilla } partout où vous vous connectez, en commençant par :

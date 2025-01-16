@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 next-new-user-submit = Naroči se zdaj
 next-payment-validate-name-error = Vnesite svoje ime
+next-pay-with-heading-paypal = Plačaj s { -brand-paypal }om
 # Label for the Full Name input
 payment-name-label = Ime, kot je izpisano na kartici
 payment-name-placeholder = Polno ime

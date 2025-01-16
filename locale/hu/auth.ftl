@@ -49,6 +49,10 @@ subplat-legal = Jogi információk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Adatvédelem
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem <a data-l10n-name="unsubscribeLink">leiratkozik</a>.
+account-deletion-info-block-support = Ha bármilyen kérdése van, vagy segítségre van szüksége, nyugodtan forduljon <a data-l10n-name="supportLink">támogatási csapatunkhoz</a>.
+account-deletion-info-block-communications-plaintext = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem kéri a leiratkozását:
+account-deletion-info-block-support-plaintext = Ha bármilyen kérdése van, vagy segítségre van szüksége, nyugodtan forduljon támogatási csapatunkhoz:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } letöltése a { -google-play }ről">
@@ -76,6 +80,7 @@ automated-email-support = További információért keresse fel a <a data-l10n-n
 automated-email-change-plaintext-2 = Ha nem Ön tette ezt a műveletet, azonnal változtassa meg a jelszavát:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = További információért keresse fel a { -brand-mozilla } Támogatást:
+automated-email-inactive-account = Ez egy automatikus e-mail. Azért kapja, mert van { -product-mozilla-account }ja, és eltelt 2 év a legutóbbi bejelentkezése óta.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 automated-email-no-action-plaintext = Ez egy automatizált e-mail. Ha tévedésből kapta, akkor nincs teendője.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = További információért keress
 automated-email-reset =
     Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a>.
     További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Ha nem adott engedélyt erre a műveletre, akkor állítsa helyre jelszavát itt: { $resetLink }
 brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
 cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl">rövid kérdőívet</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = Ha kérdése van, forduljon <a data-l10n-nam
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ha bármilyen kérdése van, forduljon támogatási csapatunkhoz: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Utolsó lehetőség, hogy megtartsa a { -product-mozilla-account }ját
+inactiveAccountFinalWarning-title = A { -brand-mozilla }-fiókja és az adatai törlésre kerülnek
+inactiveAccountFinalWarning-preview = Jelentkezzen be a fiókja megtartásához
+inactiveAccountFinalWarning-account-description = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és a { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Ha nem jelentkezik be, akkor fiókja és személyes adatai véglegesen törlésre kerülnek <strong>{ $deletionDate }</strong>.
+inactiveAccountFinalWarning-action = Jelentkezzen be a fiókja megtartásához
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Jelentkezzen be, hogy megtartsa a fiókját:
+inactiveAccountFirstWarning-subject = Ne veszítse el fiókját
+inactiveAccountFirstWarning-title = Megtartja a { -brand-mozilla }-fiókját és adatait?
+inactiveAccountFirstWarning-account-description-v2 = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és a { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Észrevettük, hogy 2 éve nem jelentkezett be.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Fiókja és személyes adatai véglegesen törölve lesznek ekkor: <strong>{ $deletionDate }</strong>, mert nem volt aktív.
+inactiveAccountFirstWarning-action = Jelentkezzen be a fiókja megtartásához
+inactiveAccountFirstWarning-preview = Jelentkezzen be a fiókja megtartásához
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Jelentkezzen be, hogy megtartsa a fiókját:
+inactiveAccountSecondWarning-subject = Művelet szükséges: Fióktörlés 7 napon belül
+inactiveAccountSecondWarning-title = A { -brand-mozilla }-fiókját és adatait 7 nap múlva töröljük
+inactiveAccountSecondWarning-account-description = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } sync, a { -produt-mozilla-monitor }, a { -product-firefox-relay } és a { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Fiókja és személyes adatai véglegesen törölve lesznek ekkor: <strong>{ $deletionDate }</strong>, mert nem volt aktív.
+inactiveAccountSecondWarning-action = Jelentkezzen be a fiókja megtartásához
+inactiveAccountSecondWarning-preview = Jelentkezzen be a fiókja megtartásához
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Jelentkezzen be, hogy megtartsa a fiókját:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Kifogyott a tartalék hitelesítési kódokból.
 codes-reminder-title-one = Az utolsó tartalék hitelesítési kódjánál jár
@@ -318,6 +356,7 @@ postAddLinkedAccount-subject-2 = Új fiók kapcsolva a { -product-mozilla-accoun
 postAddLinkedAccount-title-2 = { $providerName }-fiókja össze lett kapcsolva a { -product-mozilla-account }jával
 postAddLinkedAccount-action = Fiók kezelése
 postAddRecoveryPhone-subject = Helyreállítási telefonszám hozzáadva
+postAddRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postAddRecoveryPhone-title = Létrehozott egy helyreállítási telefonszámot
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -345,6 +384,7 @@ postChangePrimary-title = Új elsődleges e-mail cím
 postChangePrimary-description-2 = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-mozilla-account }ba való bejelentkezéshez, illetve ide fognak érkezni a biztonsági értesítések, és a bejelentkezési visszaigazolások.
 postChangePrimary-action = Fiók kezelése
 postChangeRecoveryPhone-subject = Helyreállítási telefonszám frissítve
+postChangeRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postChangeRecoveryPhone-title = Módosította a helyreállítási telefonszámát
 postChangeRecoveryPhone-description = Új helyreállítási telefonszáma van. Az előző telefonszám törölve lett.
 postChangeRecoveryPhone-requested-device = Innen kérte:
@@ -368,6 +408,7 @@ postRemoveAccountRecovery-body-part1 = A fiók-helyreállítási kulcsra szüks�
 postRemoveAccountRecovery-body-part2 = Ha még nem tette, hozzon létre egy új fiók-helyreállítási kulcsot a fiókbeállításokban, hogy megakadályozza a mentett jelszavak, könyvjelzők, böngészési előzmények és egyebek elveszítését.
 postRemoveAccountRecovery-action = Fiók kezelése
 postRemoveRecoveryPhone-subject = Helyreállítási telefonszám eltávolítva
+postRemoveRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postRemoveRecoveryPhone-title = Helyreállítási telefonszám eltávolítva
 postRemoveRecoveryPhone-description = A helyreállítási telefonszáma el lett távolítva a kétlépcsős hitelesítési beállítások közül. A tartalék hitelesítési kódjai továbbra is használhatók.
 postRemoveRecoveryPhone-requested-device = Innen kérte:
@@ -383,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = Kikapcsolta a kétlépcsős hitelesít
 postRemoveTwoStepAuthentication-from-device = Innen tiltotta le:
 postRemoveTwoStepAuthentication-action = Fiók kezelése
 postRemoveTwoStepAuthentication-not-required-2 = Már nincs szüksége biztonsági kódokra a hitelesítő alkalmazásból, amikor bejelentkezik.
+postSigninRecoveryCode-subject = Bejelentkezéshez használt tartalék hitelesítési kód
+postSigninRecoveryCode-preview = Fióktevékenység megerősítése
+postSigninRecoveryCode-title = A tartalék hitelesítési kódját használták a bejelentkezéshez
+postSigninRecoveryCode-description = Ha nem ezt tette, akkor azonnal változtassa meg jelszavát, hogy biztonságban tudja a fiókját.
+postSigninRecoveryCode-device = Bejelentkezett innen:
+postSigninRecoveryCode-action = Fiók kezelése
+postSigninRecoveryPhone-subject = A bejelentkezéshez használt helyreállítási telefonszám
+postSigninRecoveryPhone-preview = Fióktevékenység megerősítése
+postSigninRecoveryPhone-title = A helyreállítási telefonszámát a bejelentkezéshez használták
+postSigninRecoveryPhone-description = Ha nem ezt tette, akkor azonnal változtassa meg jelszavát, hogy biztonságban tudja a fiókját.
+postSigninRecoveryPhone-device = Bejelentkezett innen:
+postSigninRecoveryPhone-action = Fiók kezelése
 postVerify-sub-title-3 = Örülünk, hogy látjuk!
 postVerify-title-2 = Két eszközön szeretné látni ugyanazt a lapot?
 postVerify-description-2 = Könnyedén! Csak telepítse a { -brand-firefox(case: "accusative") } egy másik eszközre, és jelentkezzen be a szinkronizáláshoz. Olyan, mint a varázslat!
@@ -635,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akk
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Fiók jóváhagyása
+verifyShortCode-preview = Használja a mellékelt kódot a { -product-mozilla-account }ja megerősítéséhez.
 verifyShortCode-title-3 = Nyissa meg az internetet a { -brand-mozilla(ending: "accented") }val
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-mozilla(ending: "accented") }ból mindenhol, ahol bejelentkezik:

@@ -643,12 +643,18 @@ flow-setup-phone-confirm-code-button = Megerősítés
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = A kód lejárt?
 flow-setup-phone-confirm-code-resend-code-button = Kód újraküldése
+flow-setup-phone-confirm-code-success-message-v2 = Helyreállítási telefonszám hozzáadva
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Ellenőrizze a telefonszámát
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Kapni fog egy SMS-t a { -brand-mozilla(ending: "accented") }tól, amely egy kódot tartalmaz a száma ellenőrzéséhez. Ne ossza meg ezt a kódot másokkal.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = A helyreállítási telefonszám csak az Egyesült Államokban és Kanadában érhető el. A VoIP számok és a telefonmaszkok nem ajánlottak.
 flow-setup-phone-submit-number-legal = A telefonszám megadásával beleegyezik, hogy tároljuk, de csak fiók-ellenőrzési SMS-eket küldhetünk. Üzenet- és adatforgalmi költségek merülhetnek fel.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kód küldése
@@ -874,6 +880,15 @@ recovery-key-create-back-button-title = Vissza a beállításokhoz
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Helyreállítási telefonszám eltávolítása
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Ez eltávolítja a(z) <strong>{ $formattedFullPhoneNumber }</strong> telefonszámot a helyreállítási telefonszámként.
+settings-recovery-phone-remove-recommend = Javasoljuk, hogy tartsa meg ezt a módszert, mert könnyebb, mint a tartalék hitelesítési kódok elmentése.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Ha törli, győződjön meg róla, hogy vannak-e még az elmentett tartalék hitelesítési kódjai. <linkExternal>Helyreállítási módszerek összehasonlítása</linkExternal>
+settings-recovery-phone-remove-button = Telefonszám eltávolítása
+settings-recovery-phone-remove-cancel = Mégse
 
 ## PageSetupRecoveryPhone
 
@@ -1023,6 +1038,9 @@ tfa-row-backup-codes-get-new-cta = Új kódok beszerzése
 tfa-row-backup-codes-add-cta = Hozzáadás
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Ez a legbiztonságosabb helyreállítási módszer, ha nem tudja használni a mobileszközét vagy a hitelesítő alkalmazást.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Helyreállítási telefonszám
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Nem érhető el helyreállítási telefonszám
 # button to change the configured recovery phone
@@ -1031,6 +1049,9 @@ tfa-row-backup-phone-change-cta = Módosítás
 tfa-row-backup-phone-add-cta = Hozzáadás
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Eltávolítás
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Helyreállítási telefonszám eltávolítása
+tfa-row-backup-phone-delete-restriction-v2 = Ha el akarja távolítani a helyreállítási telefonszámát, adjon hozzá tartalék hitelesítési kódokat vagy először kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja a fiókját.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Ez a könnyebb helyreállítási módszer, ha nem tudja használni a hitelesítő alkalmazást.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1663,6 +1684,14 @@ signin-recovery-method-code-info = { $numberOfCodes } kód maradt
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Bejelentkezés
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Adja meg a helyreállítási kódot
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = SMS-ben egy hatjegyű kód lett küldve <span>{ $maskedPhoneNumber }</span> telefonszámra. Ez a kód 5 perc után lejár.
+recovery-phone-code-confirm-input-group-label = Adja meg a 6 számjegyű kódot
+recovery-phone-code-confirm-otp-submit-button = Megerősítés
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

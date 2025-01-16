@@ -237,6 +237,8 @@
     }
     .gender = feminine
 -product-mozilla-hubs = Mozilla Hubs
+# Mozilla Developer Network
+-product-mdn = MDN
 -product-mdn-plus = MDN Plus
 -product-firefox-cloud =
     { $case ->

@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Vous devez terminer cette étape avant de 
 
 next-new-user-submit = S’abonner maintenant
 next-payment-validate-name-error = Veuillez saisir votre nom
+next-pay-with-heading-paypal = Payer avec { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Votre nom tel qu’il apparaît sur votre carte
 payment-name-placeholder = Nom complet

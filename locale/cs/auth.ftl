@@ -49,6 +49,10 @@ subplat-legal = Právní informace
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ochrana osobních údajů
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Pokud bude váš účet smazán, budete stále dostávat e-maily od společností Mozilla Corporation a Mozilla Foundation. Pokud <a data-l10n-name="unsubscribeLink">požádáte o zrušení jejich odběru</a>.
+account-deletion-info-block-support = Pokud máte jakékoliv otázky nebo potřebujete pomoci, neváhejte kontaktovat náš <a data-l10n-name="supportLink">tým podpory</a>.
+account-deletion-info-block-communications-plaintext = Pokud bude váš účet smazán, budete stále dostávat e-maily od Mozilla Corporation a Mozilla Foundation, pokud ovšem nepožádáte o jeho zrušení:
+account-deletion-info-block-support-plaintext = Pokud máte jakékoliv otázky nebo potřebujete pomoci, neváhejte se obrátit na náš tým podpory:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Stáhnout aplikaci { $productName } z { -google-play(case: "gen") }">
@@ -76,6 +80,7 @@ automated-email-support = Další informace nalezete na stránkách <a data-l10n
 automated-email-change-plaintext-2 = Pokud jste tuto akci neprovedli, okamžitě si změňte heslo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }:
+automated-email-inactive-account = Toto je automatický e-mail. Dostali jste ji, protože máte založený { -product-mozilla-account(case: "acc", capitalization: "lower") } a uběhly 2 roky od vašeho posledního přihlášení.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Další informace naleznete na stránkách <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Tento e-mail byl zaslán automaticky. Pokud jste jej obdrželi omylem, nemusíte nic dělat.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Pro více informací navštivte 
 automated-email-reset =
     Toto je automatický e-mail; pokud jste tuto akci neschválili, tak si prosím <a data-l10n-name="resetLink">obnovte heslo</a>.
     Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Pokud jste tuto akci neschválili, obnovte si prosím své heslo na adrese { $resetLink }
 brand-banner-message = Víte, že jsme změnili název z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Zjistit více</a>
 cancellationSurvey = Pomozte nám vylepšit naše služby tím, že se zúčastníte tohoto <a data-l10n-name="cancellationSurveyUrl">krátkého průzkumu</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = Pokud máte nějaké dotazy, kontaktujte pro
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Pokud máte nějaké dotazy, kontaktujte náš tým podpory: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Poslední šance ponechat si { -product-mozilla-account(case: "acc", capitalization: "lower") }
+inactiveAccountFinalWarning-title = Váš účet { -brand-mozilla } a data budou smazána
+inactiveAccountFinalWarning-preview = Pro zachování účtu se přihlaste
+inactiveAccountFinalWarning-account-description = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Dne <strong>{ $deletionDate }</strong> budou váš účet a vaše osobní data trvale smazána, dokud se nepřihlásíte.
+inactiveAccountFinalWarning-action = Pro zachování účtu se přihlaste
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Pro zachování účtu:
+inactiveAccountFirstWarning-subject = Neztraťte svůj účet
+inactiveAccountFirstWarning-title = Chcete si ponechat účet { -brand-mozilla } a data?
+inactiveAccountFirstWarning-account-description-v2 = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Všimli jsme si, že jste se nepřihlásili už 2 roky.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Váš účet a vaše osobní data budou dne <strong>{ $deletionDate }</strong> trvale smazána, protože nejste aktivní.
+inactiveAccountFirstWarning-action = Pro zachování účtu se přihlaste
+inactiveAccountFirstWarning-preview = Pro zachování účtu se přihlaste
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Pro zachování účtu:
+inactiveAccountSecondWarning-subject = Je vyžadována akce: účet bude za 7 dní smazán
+inactiveAccountSecondWarning-title = Váš účet { -brand-mozilla } a data budou smazána za 7 dní
+inactiveAccountSecondWarning-account-description = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -produt-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Váš účet a vaše osobní data budou dne <strong>{ $deletionDate }</strong> trvale smazána, protože nejste aktivní.
+inactiveAccountSecondWarning-action = Pro zachování účtu se přihlaste
+inactiveAccountSecondWarning-preview = Pro zachování účtu se přihlaste
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Pro zachování účtu:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Došly vám záložní ověřovací kódy!
 codes-reminder-title-one = Používáte poslední záložní ověřovací kód
@@ -320,6 +358,7 @@ postAddLinkedAccount-subject-2 = Nový účet propojený s vaším { -product-mo
 postAddLinkedAccount-title-2 = Váš účet { $providerName } byl propojen s vaším účtem { -product-mozilla-account(case: "ins") }
 postAddLinkedAccount-action = Správa účtu
 postAddRecoveryPhone-subject = Telefon pro obnovení byl přidán
+postAddRecoveryPhone-preview = Účet chráněn pomocí dvoufázového ověřování
 postAddRecoveryPhone-title = Bylo přidáno telefonní číslo pro obnovení
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -347,6 +386,7 @@ postChangePrimary-title = Nová hlavní e-mailová adresa
 postChangePrimary-description-2 = Vaše hlavní e-mailová adresa byla úspěšně změněna na { $email }. Tato adresa bude nyní použita pro přihlašování k vašemu { -product-mozilla-account(case: "dat") } a na zasílání bezpečnostních upozornění a potvrzení.
 postChangePrimary-action = Správa účtu
 postChangeRecoveryPhone-subject = Telefon pro obnovení byl aktualizován
+postChangeRecoveryPhone-preview = Účet chráněn pomocí dvoufázového ověřování
 postChangeRecoveryPhone-title = Změnili jste své telefonní číslo pro obnovení
 postChangeRecoveryPhone-description = Nyní máte nové telefonní číslo pro obnovu. Vaše předchozí telefonní číslo bylo smazáno.
 postChangeRecoveryPhone-requested-device = Vyžádali jste si ho z:
@@ -372,6 +412,7 @@ postRemoveAccountRecovery-body-part1 = Pokud zapomenete heslo, je vyžadován ob
 postRemoveAccountRecovery-body-part2 = Pokud jste tak ještě neučinili, vytvořte si v nastavení účtu nový obnovovací klíč k účtu, abyste předešli ztrátě svých uložených hesel, záložek, historie prohlížení a dalších věcí.
 postRemoveAccountRecovery-action = Správa účtu
 postRemoveRecoveryPhone-subject = Telefon pro obnovení byl odebrán
+postRemoveRecoveryPhone-preview = Účet chráněn pomocí dvoufázového ověřování
 postRemoveRecoveryPhone-title = Telefon pro obnovení byl odebrán
 postRemoveRecoveryPhone-description = Váš telefon pro obnovení byl odstraněn z nastavení dvoufázového ověřování. Stále máte k dispozici záložní ověřovací kódy, které můžete použít.
 postRemoveRecoveryPhone-requested-device = Vyžádali jste si ho z:
@@ -387,6 +428,18 @@ postRemoveTwoStepAuthentication-title-2 = Vypnuli jste dvoufázové ověření
 postRemoveTwoStepAuthentication-from-device = Zakázali jste ho z:
 postRemoveTwoStepAuthentication-action = Správa účtu
 postRemoveTwoStepAuthentication-not-required-2 = Při přihlašování již nepotřebujete bezpečnostní kódy z ověřovací aplikace.
+postSigninRecoveryCode-subject = Záložní ověřovací kód používaný k přihlášení
+postSigninRecoveryCode-preview = Potvrďte aktivitu účtu
+postSigninRecoveryCode-title = K přihlášení byl použit váš záložní ověřovací kód
+postSigninRecoveryCode-description = Pokud jste tak neudělali, měli byste si okamžitě změnit heslo, aby byl váš účet v bezpečí.
+postSigninRecoveryCode-device = Přihlásili jste se z:
+postSigninRecoveryCode-action = Správa účtu
+postSigninRecoveryPhone-subject = Telefonní číslo, pomocí kterého jste se přihlašovali
+postSigninRecoveryPhone-preview = Potvrďte aktivitu účtu
+postSigninRecoveryPhone-title = K přihlášení bylo použito telefonní číslo pro obnovení
+postSigninRecoveryPhone-description = Pokud jste tak neudělali, měli byste si okamžitě změnit heslo, aby byl váš účet v bezpečí.
+postSigninRecoveryPhone-device = Přihlásili jste se z:
+postSigninRecoveryPhone-action = Správa účtu
 postVerify-sub-title-3 = Jsme rádi, že vás vidíme!
 postVerify-title-2 = Chcete vidět stejné panely na dvou zařízeních?
 postVerify-description-2 = Je to snadné! Stačí nainstalovat { -brand-firefox } na jiné zařízení a přihlásit se k synchronizaci. Je to jako kouzlo!
@@ -639,6 +692,7 @@ verifySecondaryCode-expiry-notice-2 = Platnost vyprší za 5 minut. Po ověřen�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrďte svůj účet
+verifyShortCode-preview = Pomocí přiloženého kódu potvrďte svůj { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 verifyShortCode-title-3 = Pojďte na internet pomocí { -brand-mozilla(case: "acc") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrďte svůj účet a využívejte výhody { -brand-mozilla(case: "gen") } všude, kde se přihlásíte, počínaje:

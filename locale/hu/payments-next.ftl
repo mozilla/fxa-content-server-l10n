@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 next-new-user-submit = Előfizetés most
 next-payment-validate-name-error = Adja meg a nevét
+next-pay-with-heading-paypal = Fizetés { -brand-paypal }lal
 # Label for the Full Name input
 payment-name-label = A kártyán szereplő név
 payment-name-placeholder = Teljes név
