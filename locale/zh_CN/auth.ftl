@@ -248,6 +248,7 @@ fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = 保留您 { -product-mozilla-account }的最后机会
 inactiveAccountFinalWarning-title = 您的 { -brand-mozilla } 账户和数据即将被删除
 inactiveAccountFinalWarning-preview = 登录以保留您的账户
 inactiveAccountFinalWarning-account-description = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
@@ -260,12 +261,17 @@ inactiveAccountFinalWarning-action-plaintext = 登录以保留您的账户：
 inactiveAccountFirstWarning-title = 您想要保留您的 { -brand-mozilla } 账户和数据吗？
 inactiveAccountFirstWarning-account-description-v2 = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
 inactiveAccountFirstWarning-inactive-status = 我们注意到您已经 2 年没有登录了。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = 由于已长时间未使用，您的账户和个人信息将于 <strong>{ $deletionDate }</strong> 被永久删除。
 inactiveAccountFirstWarning-action = 登录以保留您的账户
 inactiveAccountFirstWarning-preview = 登录以保留您的账户
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = 登录以保留您的账户：
 inactiveAccountSecondWarning-title = 您的 { -brand-mozilla } 账户和数据将在 7 天后被删除
 inactiveAccountSecondWarning-account-description-v2 = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = 由于已长时间未使用，您的账户和个人数据将于 <strong>{ $deletionDate }</strong> 被永久删除。
 inactiveAccountSecondWarning-action = 登录以保留您的账户
 inactiveAccountSecondWarning-preview = 登录以保留您的账户
 # followed by link to sign in
@@ -416,11 +422,13 @@ postSigninRecoveryCode-subject = 已通过备用验证码登录
 postSigninRecoveryCode-preview = 确认账户活动
 postSigninRecoveryCode-title = 您的账户已通过备用验证码登录
 postSigninRecoveryCode-description = 若非本人操作，请立即更改密码以保护账户安全。
+postSigninRecoveryCode-device = 您已从以下位置登录：
 postSigninRecoveryCode-action = 管理账户
 postSigninRecoveryPhone-subject = 已通过恢复电话号码登录
 postSigninRecoveryPhone-preview = 确认账户活动
 postSigninRecoveryPhone-title = 您的账户已通过恢复电话号码登录
 postSigninRecoveryPhone-description = 若非本人操作，请立即更改密码以保护账户安全。
+postSigninRecoveryPhone-device = 您已从以下位置登录：
 postSigninRecoveryPhone-action = 管理账户
 postVerify-sub-title-3 = 很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到同样的标签页吗？
