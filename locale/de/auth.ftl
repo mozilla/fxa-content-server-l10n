@@ -261,12 +261,12 @@ inactiveAccountFinalWarning-action = Melden Sie sich an, um Ihr Konto zu behalte
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Melden Sie sich an, um Ihr Konto zu behalten:
 inactiveAccountFirstWarning-subject = Verlieren Sie Ihr Konto nicht
-inactiveAccountFirstWarning-title = Soll Ihr { -brand-mozilla }-Konto und Ihre Daten behalten werden?
+inactiveAccountFirstWarning-title = Sollen Ihr { -brand-mozilla }-Konto und Ihre Daten erhalten bleiben?
 inactiveAccountFirstWarning-account-description-v2 = Ihr { -product-mozilla-account } wird für den Zugriff auf kostenlose Datenschutz- und Surf-Produkte wie { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } und { -product-mdn } verwendet.
 inactiveAccountFirstWarning-inactive-status = Wir haben festgestellt, dass Sie sich seit zwei Jahren nicht angemeldet haben.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Dein Konto und deine persönlichen Daten werden am <strong>{ $delectionDate }</strong> dauerhaft gelöscht, da du nicht aktiv warst.
+inactiveAccountFirstWarning-impact = Ihr Konto und Ihre persönlichen Daten werden am <strong>{ $delectionDate }</strong> dauerhaft gelöscht, da Sie nicht aktiv waren.
 inactiveAccountFirstWarning-action = Melden Sie sich an, um Ihr Konto zu behalten
 inactiveAccountFirstWarning-preview = Melden Sie sich an, um Ihr Konto zu behalten
 # followed by link to sign in
@@ -275,7 +275,7 @@ inactiveAccountSecondWarning-subject = Handeln erforderlich: Kontolöschung in 7
 inactiveAccountSecondWarning-title = Ihr { -brand-mozilla }-Konto und Ihre Daten werden in 7 Tagen gelöscht
 inactiveAccountSecondWarning-account-description-v2 = Ihr { -product-mozilla-account } wird für den Zugriff auf kostenlose Datenschutz- und Surf-Produkte wie { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } und { -product-mdn } verwendet.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Dein Konto und deine persönlichen Daten werden am <strong>{ $delectionDate }</strong> dauerhaft gelöscht, da du nicht aktiv warst.
+inactiveAccountSecondWarning-impact = Ihr Konto und Ihre persönlichen Daten werden am <strong>{ $delectionDate }</strong> dauerhaft gelöscht, da Sie nicht aktiv waren.
 inactiveAccountSecondWarning-action = Melden Sie sich an, um Ihr Konto zu behalten
 inactiveAccountSecondWarning-preview = Melden Sie sich an, um Ihr Konto zu behalten
 # followed by link to sign in
@@ -424,15 +424,15 @@ postRemoveTwoStepAuthentication-title-2 = Sie haben die Zwei-Schritt-Authentifiz
 postRemoveTwoStepAuthentication-from-device = Sie haben sie deaktiviert von:
 postRemoveTwoStepAuthentication-action = Benutzerkonto verwalten
 postRemoveTwoStepAuthentication-not-required-2 = Sie benötigen keine Sicherheitscodes mehr von Ihrer Authentifizierungs-App, wenn Sie sich anmelden.
-postSigninRecoveryCode-subject = Für die Anmeldung verwendeter Sicherungs-Authentifizierungscode
+postSigninRecoveryCode-subject = Sicherungs-Authentifizierungscode wurde zur Anmeldung verwendet
 postSigninRecoveryCode-preview = Kontoaktivität bestätigen
 postSigninRecoveryCode-title = Ihr Sicherungs-Authentifizierungscode wurde für die Anmeldung verwendet
 postSigninRecoveryCode-description = Wenn Sie dies nicht getan haben, sollten Sie sofort Ihr Passwort ändern, um Ihr Konto zu schützen.
 postSigninRecoveryCode-device = Sie haben sich angemeldet von:
 postSigninRecoveryCode-action = Benutzerkonto verwalten
-postSigninRecoveryPhone-subject = Für Anmeldung verwendete Telefonnummer zur Wiederherstellung
+postSigninRecoveryPhone-subject = Telefonnummer zur Kontowiederherstellung wurde zur Anmeldung verwendet
 postSigninRecoveryPhone-preview = Kontoaktivität bestätigen
-postSigninRecoveryPhone-title = Ihre Telefonnummer wurde zur Anmeldung verwendet
+postSigninRecoveryPhone-title = Ihre Telefonnummer zur Kontowiederherstellung wurde zur Anmeldung verwendet
 postSigninRecoveryPhone-description = Wenn Sie dies nicht getan haben, sollten Sie sofort Ihr Passwort ändern, um Ihr Konto zu schützen.
 postSigninRecoveryPhone-device = Sie haben sich angemeldet von:
 postSigninRecoveryPhone-action = Benutzerkonto verwalten

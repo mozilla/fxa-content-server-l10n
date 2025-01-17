@@ -648,7 +648,7 @@ flow-setup-phone-verify-number-instruction = Sie erhalten eine Textnachricht von
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = Die Telefonnummer zur Wiederherstellung ist nur in den USA und Kanada verfügbar. VoIP-Nummern und Telefonnummer-Masken werden nicht empfohlen.
+flow-setup-phone-submit-number-info-message-v2 = Die Telefonnummer zur Kontowiederherstellung ist nur in den USA und Kanada verfügbar. VoIP-Nummern und Telefonnummer-Masken werden nicht empfohlen.
 flow-setup-phone-submit-number-legal = Indem Sie Ihre Nummer angeben, stimmen Sie zu, dass wir diese speichern; die Nummer wird nur zur Verifizierung Ihres Kontos verwendet. Es können Gebühren für Nachrichten und Datenübertragungen anfallen.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Code senden
@@ -874,10 +874,10 @@ recovery-key-create-back-button-title = Zurück zu den Einstellungen
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Telefonnummer zur Wiederherstellung entfernen
+recovery-phone-remove-header = Telefonnummer zur Kontowiederherstellung entfernen
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Dies entfernt <strong>{ $formattedFullPhoneNumber }</strong> als Ihre Telefonnummer.
+settings-recovery-phone-remove-info = Dies entfernt <strong>{ $formattedFullPhoneNumber }</strong> als Ihre Telefonnummer zur Kontowiederherstellung.
 settings-recovery-phone-remove-recommend = Wir empfehlen Ihnen, diese Methode beizubehalten, da sie einfacher ist, als Sicherungs-Authentifizierungscodes zu speichern.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Wenn Sie sie löschen, stellen Sie sicher, dass Sie Ihre gespeicherten Sicherungs-Authentifizierungscodes noch haben. <linkExternal>Wiederherstellungsmethoden vergleichen</linkExternal>
@@ -1042,8 +1042,8 @@ tfa-row-backup-phone-add-cta = Hinzufügen
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Entfernen
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title-v2 = Telefonnummer zur Wiederherstellung entfernen
-tfa-row-backup-phone-delete-restriction-v2 = Wenn Sie Ihre Wiederherstellungsnummer entfernen möchten, fügen Sie Sicherungs-Authentifizierungscodes hinzu oder deaktivieren Sie zuerst die Zwei-Schritt-Authentifizierung, um nicht aus Ihrem Konto ausgesperrt zu werden.
+tfa-row-backup-phone-delete-title-v2 = Telefonnummer zur Kontowiederherstellung entfernen
+tfa-row-backup-phone-delete-restriction-v2 = Wenn Sie Ihre Telefonnummer zur Kontowiederherstellung entfernen möchten, fügen Sie Sicherungs-Authentifizierungscodes hinzu oder deaktivieren Sie zuerst die Zwei-Schritt-Authentifizierung, um nicht aus Ihrem Konto ausgesperrt zu werden.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Dies ist die einfachere Wiederherstellungsmethode, wenn Sie Ihre Authentifizierungs-App nicht verwenden können.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
