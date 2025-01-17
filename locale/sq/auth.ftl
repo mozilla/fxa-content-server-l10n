@@ -49,6 +49,10 @@ subplat-legal = Ligjore
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatësi
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Nëse fshihet llogaria juaj, do të merrni email-e nga Mozilla Corporation dhe Mozilla Foundation, veç në <a data-l10n-name="unsubscribeLink">kërkofshi të shpajtoheni</a>.
+account-deletion-info-block-support = Nëse keni pyetje, apo nevojë për asistencë, mos ngurroni të lidheni me <a data-l10n-name="supportLink">ekipin tonë të asistencës</a>.
+account-deletion-info-block-communications-plaintext = Nëse fshihet llogaria juaj, do të merrni email-e nga Mozilla Corporation dhe Mozilla Foundation, veç në kërkofshi të shpahtoheni:
+account-deletion-info-block-support-plaintext = Nëse keni pyetje, apo nevojë për asistencë, mos ngurroni të lidheni me ekipin tonë të asistencës:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Shkarkojeni { $productName } nga { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Për më tepër hollësi, vizitoni <a data-l10n-name="
 automated-email-change-plaintext-2 = Nëse s’e kryet ju këtë veprim, ndryshoni fjalëkalimin tuaj pa humbur një çast:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Për më tepër hollësi, vizitoniAsistencën { -brand-mozilla }:
+automated-email-inactive-account = Ky është një email i automatizuar. Po e merrni nga keni një { -product-mozilla-account } dhe u bënë 2 vjet që nga hyrja juaj e fundit në llogari.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Për më tepër hollësi, vizitoni <a data-l10n-name="supportLink">Asistencën { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Ky është një email i automatizuar. Nëse e morët gabimisht, s’ju duhet të bëni gjë.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Për më tepër hollësi, vizito
 automated-email-reset =
     Ky është një email i automatizuar; nëse këtë veprim s’e autorizuat ju, atëherë <a data-l10n-name="resetLink">ju lutemi, ndryshoni fjalëkalimin tuaj</a>.
     Për më tepër hollësi, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Nëse s’e autorizuat këtë veprim, ju lutemi, ricaktoni fjalëkalimin tuaj tani, te { $resetLink }
 brand-banner-message = E dini se ndryshuam emrin tonë nga { -product-firefox-accounts } në { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mësoni më tepër</a>
 cancellationSurvey = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë <a data-l10n-name="cancellationSurveyUrl">pyetësor të shkurtër</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,10 @@ fraudulentAccountDeletion-contact = Nëse keni ndonjë pyetje, ju lutemi, lidhun
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me ekipin tonë të asistencës: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Shansi juaj i fundit për të mbajtur { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Llogaria juaj { -brand-mozilla } dhe të dhënat tuaja do të fshihen
+inactiveAccountFinalWarning-preview = Që të mbani llogarinë tuaj, bëni hyrjen në të
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account } juaj përdoret për të hyrë në produkte të lirë privatësie dhe shfletimi, të tillë si njëkohësimi { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } dhe { -product-mdn }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Keni mbetur pa kode mirëfilltësimi kopjeruajtjeje!
 codes-reminder-title-one = Keni mbetur me kodin e fundit mirëfilltësimi kopjeruajtjeje!
