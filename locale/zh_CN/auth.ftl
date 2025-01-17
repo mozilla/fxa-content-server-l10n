@@ -49,7 +49,7 @@ subplat-legal = 法律
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隐私
 subplat-privacy-website-plaintext = { subplat-privacy }：
-account-deletion-info-block-communications = 若您的账户已删除，除非您<a data-l10n-name="unsubscribeLink">要求退订</a>，否则仍会收到来自 Mozilla Corporation 和 Mozilla Foundation的邮件。
+account-deletion-info-block-communications = 删除账户后，您仍会收到来自 Mozilla 公司和 Mozilla 基金会的邮件，除非您<a data-l10n-name="unsubscribeLink">要求退订</a>。
 account-deletion-info-block-support = 如有疑问或需要协助，请随时联系我们的<a data-l10n-name="supportLink">用户支持团队</a>。
 account-deletion-info-block-communications-plaintext = 删除账户后，您仍会收到来自 Mozilla 公司和 Mozilla 基金会的邮件，除非您要求退订。
 account-deletion-info-block-support-plaintext = 如有疑问或需要协助，请随时联系我们的用户支持团队：
@@ -258,6 +258,7 @@ inactiveAccountFinalWarning-impact = 您的账户和个人数据将于 <strong>{
 inactiveAccountFinalWarning-action = 登录以保留您的账户
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = 登录以保留您的账户：
+inactiveAccountFirstWarning-subject = 请登录以保留您的账户
 inactiveAccountFirstWarning-title = 您想要保留您的 { -brand-mozilla } 账户和数据吗？
 inactiveAccountFirstWarning-account-description-v2 = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
 inactiveAccountFirstWarning-inactive-status = 我们注意到您已经 2 年没有登录了。
@@ -268,6 +269,7 @@ inactiveAccountFirstWarning-action = 登录以保留您的账户
 inactiveAccountFirstWarning-preview = 登录以保留您的账户
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = 登录以保留您的账户：
+inactiveAccountSecondWarning-subject = 需要操作：账户将于 7 天后被删除
 inactiveAccountSecondWarning-title = 您的 { -brand-mozilla } 账户和数据将在 7 天后被删除
 inactiveAccountSecondWarning-account-description-v2 = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
