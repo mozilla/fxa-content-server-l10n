@@ -637,12 +637,18 @@ flow-setup-phone-confirm-code-button = Ripohojeni
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Skadoi kodi?
 flow-setup-phone-confirm-code-resend-code-button = Ridërgo kodin
+flow-setup-phone-confirm-code-success-message-v2 = U shtua telefon rimarrje
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifikoni numrin tuaj të telefonit
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Do të merrni një mesazh tekst nga { -brand-mozilla } me një kod që të verifikoni numrin tuaj. Mos ia tregoni kujt këtë kod.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Telefon rimarrje mund të përdorni vetëm Shtetet e Bashkuara dhe Kanada. Nuk rekomandohen numra VoIP dhe maska telefonash.
 flow-setup-phone-submit-number-legal = Duke dhënë numrin tuaj, pajtoheni me depozitimin e tij prej nesh, që të mund t’ju dërgojmë mesazh tekst vetëm për verifikimin e llogarisë tuaj. Mund të ketë vend për tarifa mesazhesh dhe të dhënash.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Dërgo kod
@@ -868,6 +874,13 @@ recovery-key-create-back-button-title = Mbrapsht te rregullimet
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Hiq numër telefoni rimarrjesh
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Kjo do të heqë <strong>{ $formattedFullPhoneNumber }</strong> si telefonin tuaj të rimarrjes.
+settings-recovery-phone-remove-recommend = Rekomandojmë ta mbani këtë metodë, ngaqë është më e lehtë se sa ruajtja e kodeve të mirëfilltësimit të kopjeruajtjeve.
+settings-recovery-phone-remove-button = Hiq numër telefoni
+settings-recovery-phone-remove-cancel = Anuloje
 
 ## PageSetupRecoveryPhone
 
@@ -1019,6 +1032,9 @@ tfa-row-backup-codes-get-new-cta = Merrni kode të rinj
 tfa-row-backup-codes-add-cta = Shtoje
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Kjo është metoda më e parrezik për rimarrje, nëse s’mundeni të përdorni pajisjen tuaj celulare, apo aplikacionin e mirëfilltësimeve.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Telefon rimarrjeje
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = S’ka numër telefoni rimarrjesh
 # button to change the configured recovery phone
@@ -1027,6 +1043,8 @@ tfa-row-backup-phone-change-cta = Ndryshoje
 tfa-row-backup-phone-add-cta = Shtoje
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Hiqe
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Hiq telefon rimarrjeje
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Kjo është metoda më e kollajtë për rimarrje, nëse s’mundeni të përdorni aplikacionin e mirëfilltësimeve.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1661,6 +1679,7 @@ signin-recovery-method-code-info = Edhe { $numberOfCodes } kode
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-otp-submit-button = Ripohojeni
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

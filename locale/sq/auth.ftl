@@ -254,6 +254,32 @@ inactiveAccountFinalWarning-subject = Shansi juaj i fundit për të mbajtur { -p
 inactiveAccountFinalWarning-title = Llogaria juaj { -brand-mozilla } dhe të dhënat tuaja do të fshihen
 inactiveAccountFinalWarning-preview = Që të mbani llogarinë tuaj, bëni hyrjen në të
 inactiveAccountFinalWarning-account-description = { -product-mozilla-account } juaj përdoret për të hyrë në produkte të lirë privatësie dhe shfletimi, të tillë si njëkohësimi { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } dhe { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Më <strong>{ $deletionDate }</strong>, llogaria juaj dhe të dhënat tuaja do të fshihen përgjithmonë, veç në bëfshi hyrjen në llogari.
+inactiveAccountFinalWarning-action = Që të mbani llogarinë tuaj, bëni hyrjen në të
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Që të mbani llogarinë tuaj, bëni hyrjen në të:
+inactiveAccountFirstWarning-subject = Mos e humbni llogarinë tuaj
+inactiveAccountFirstWarning-title = Doni të mbani llogarinë dhe të dhënat tuaja { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } juaj përdoret për të hyrë në produkte të lirë privatësie dhe shfletimi, të tillë si njëkohësimi { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } dhe { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Kemi vënë re se u bënë 2 vjet që s’keni bërë hyrjen në llogari.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Llogaria juaj dhe të dhënat personale do të fshihen përgjithmonë më <strong>{ $deletionDate }</strong>, ngaqë s’keni qenë aktiv.
+inactiveAccountFirstWarning-action = Që të mbani llogarinë tuaj, bëni hyrjen në të
+inactiveAccountFirstWarning-preview = Që të mbani llogarinë tuaj, bëni hyrjen në të
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Që të mbani llogarinë tuaj, bëni hyrjen në të:
+inactiveAccountSecondWarning-subject = Lypset veprim: Fshirje llogarie për 7 ditë
+inactiveAccountSecondWarning-title = Llogaria juaj { -brand-mozilla } dhe të dhënat tuaja do të fshihen për 7 ditë
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account } juaj përdoret për të hyrë në produkte të lirë privatësie dhe shfletimi, të tillë si njëkohësimi { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } dhe { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Llogaria juaj dhe të dhënat personale do të fshihen përgjithmonë më <strong>{ $deletionDate }</strong>, ngaqë s’keni qenë aktiv.
+inactiveAccountSecondWarning-action = Që të mbani llogarinë tuaj, bëni hyrjen në të
+inactiveAccountSecondWarning-preview = Që të mbani llogarinë tuaj, bëni hyrjen në të
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Që të mbani llogarinë tuaj, bëni hyrjen në të:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Keni mbetur pa kode mirëfilltësimi kopjeruajtjeje!
 codes-reminder-title-one = Keni mbetur me kodin e fundit mirëfilltësimi kopjeruajtjeje!
@@ -330,6 +356,7 @@ postAddLinkedAccount-subject-2 = Me { -product-mozilla-account } tuajën u lidh 
 postAddLinkedAccount-title-2 = Llogaria juaj { $providerName } është lidhur me { -product-mozilla-account } tuajën
 postAddLinkedAccount-action = Administroni llogarinë
 postAddRecoveryPhone-subject = U shtua telefon rimarrje
+postAddRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
 postAddRecoveryPhone-title = Krijuat një numër telefoni rimarrjeje
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -357,6 +384,7 @@ postChangePrimary-title = Email parësor i ri
 postChangePrimary-description-2 = E ndryshuat me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-mozilla-account } e juaja, si edhe për të marrë njoftime sigurie dhe ripohime hyrjesh.
 postChangePrimary-action = Administroni llogarinë
 postChangeRecoveryPhone-subject = U përditësua telefon rimarrje
+postChangeRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
 postChangeRecoveryPhone-title = Ndryshuat telefonin tuaj të rimarrjes
 postChangeRecoveryPhone-description = Tani keni një telefon të ri rimarrjeje. Numri juaj i mëparshëm telefonik u fshi.
 postChangeRecoveryPhone-requested-device = E kërkuar prej:
@@ -380,6 +408,7 @@ postRemoveAccountRecovery-body-part1 = Kyçi i rimarrjes së llogarisë tuaj ës
 postRemoveAccountRecovery-body-part2 = Nëse s’e keni bërë tashmë, krijoni një kyç të ri rimarrjeje llogarie, që nga rregullimet e llogarisë tuaj, për të parandaluar humbjen e fjalëkalimeve të ruajtur, faqerojtësve, historikut të shfletimeve, etj.
 postRemoveAccountRecovery-action = Administroni llogarinë
 postRemoveRecoveryPhone-subject = U hoq telefon rimarrjeje
+postRemoveRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
 postRemoveRecoveryPhone-title = U hoq telefon rimarrjeje
 postRemoveRecoveryPhone-description = Telefoni juaj i rimarrjeve është hequr nga rregullimet tuaja për mirëfilltësimin me dy hapa. Keni ende për përdorim kodet tuaj të mirëfilltësimit të kopjeruajtjeve.
 postRemoveRecoveryPhone-requested-device = E kërkuar prej:
@@ -395,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = Çaktivizuat mirëfilltësim dyhapësh
 postRemoveTwoStepAuthentication-from-device = E çaktivizuat që nga:
 postRemoveTwoStepAuthentication-action = Administroni llogarinë
 postRemoveTwoStepAuthentication-not-required-2 = Nuk ju duhen më kode sigurie prej aplikacionit tuaj të mirëfilltësimeve, kur bëni hyrjen.
+postSigninRecoveryCode-subject = Kod mirëfilltësimi kopjeruajtjeje i përdorur për të bërë hyrjen
+postSigninRecoveryCode-preview = Ripohoni veprimtari llogarie
+postSigninRecoveryCode-title = Kodi juaj i mirëfilltësimit të kopjeruajtjes qe përdorur për të bërë hyrjen
+postSigninRecoveryCode-description = Nëse s’e bëtë ju, duhet të ndryshoni fjalëkalimin tuaj menjëherë, për të mbajtur llogarinë tuaj të parrezik.
+postSigninRecoveryCode-device = Bëtë hyrjen që nga:
+postSigninRecoveryCode-action = Administroni llogarinë
+postSigninRecoveryPhone-subject = Telefon rimarrjeje i përdorur për të bërë hyrjen
+postSigninRecoveryPhone-preview = Ripohoni veprimtari llogarie
+postSigninRecoveryPhone-title = Telefon juaj i rimarrjes u përdorur për të bërë hyrjen
+postSigninRecoveryPhone-description = Nëse s’e bëtë ju, duhet të ndryshoni fjalëkalimin tuaj menjëherë, për të mbajtur llogarinë tuaj të parrezik.
+postSigninRecoveryPhone-device = Bëtë hyrjen që nga:
+postSigninRecoveryPhone-action = Administroni llogarinë
 postVerify-sub-title-3 = Jemi të ngazëllyer t’ju shohim!
 postVerify-title-2 = Doni të shihni të njëjtën skedë në dy pajisje?
 postVerify-description-2 = Është kollaj! Thjesht instaloni { -brand-firefox }-in në pajisjen tjetër dhe bëni hyrjen që t’i njëkohësoni. Si me magji!
@@ -647,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = Skadon për 5 minuta. Pas ripohimit, kjo a
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Ripohoni llogarinë tuaj
+verifyShortCode-preview = Përdorni kodin e përfshirë këtu, që të ripohoni  { -product-mozilla-account } tuaj.
 verifyShortCode-title-3 = Hapeni internetin me { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:

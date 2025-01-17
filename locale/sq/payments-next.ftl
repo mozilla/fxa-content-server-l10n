@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni
 
 next-new-user-submit = Pajtohuni Tani
 next-payment-validate-name-error = Ju lutemi, jepni emrin tuaj
+next-pay-with-heading-paypal = Paguani me { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Emër, siç duket te karta juaj
 payment-name-placeholder = Emër i Plotë
