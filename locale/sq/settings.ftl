@@ -879,6 +879,8 @@ recovery-phone-remove-header = Hiq numër telefoni rimarrjesh
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Kjo do të heqë <strong>{ $formattedFullPhoneNumber }</strong> si telefonin tuaj të rimarrjes.
 settings-recovery-phone-remove-recommend = Rekomandojmë ta mbani këtë metodë, ngaqë është më e lehtë se sa ruajtja e kodeve të mirëfilltësimit të kopjeruajtjeve.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Nëse e fshini, sigurohuni se keni ende kodet tuaj të ruajtur të mirëfilltësimit të kopjeruajtjeve. <linkExternal>Krahasoni metoda rimarrjeje</linkExternal>
 settings-recovery-phone-remove-button = Hiq numër telefoni
 settings-recovery-phone-remove-cancel = Anuloje
 
@@ -1045,6 +1047,7 @@ tfa-row-backup-phone-add-cta = Shtoje
 tfa-row-backup-phone-delete-button = Hiqe
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Hiq telefon rimarrjeje
+tfa-row-backup-phone-delete-restriction-v2 = Nëse doni të hiqni telefonin tuaj të rikthimit, shtoni kode mirëfilltësimi kopjeruajtjesh, apo të çaktivizoni, së pari, mirëfilltësimin me dy hapa, që të shmangni lënien jashtë llogarie.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Kjo është metoda më e kollajtë për rimarrje, nëse s’mundeni të përdorni aplikacionin e mirëfilltësimeve.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1679,6 +1682,13 @@ signin-recovery-method-code-info = Edhe { $numberOfCodes } kode
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Hyni
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Jepni kod rikthimi
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Te <span>{ $maskedPhoneNumber }</span> u dërgua përmes një mesazhi tekst një kod gjashtëshifror. Ky kod skadon pas 5 minutash.
+recovery-phone-code-confirm-input-group-label = Jepni kodin 6-shifror
 recovery-phone-code-confirm-otp-submit-button = Ripohojeni
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
