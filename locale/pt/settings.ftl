@@ -1675,9 +1675,6 @@ signin-recovery-method-code-info = { $numberOfCodes } códigos remanescentes
 recovery-phone-code-confirm-flow-heading = Iniciar sessão
 # A recovery code in context of this page is a one time code sent to the user's phone
 recovery-phone-code-confirm-with-code-heading = Introduza o código de recuperação
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Um código de seis dígitos foi enviado para <span>{ $mastedPhoneNumber }</span> por mensagem de texto. Este código expira após 5 minutos.
 recovery-phone-code-confirm-input-group-label = Inserir código de 6 dígitos
 recovery-phone-code-confirm-otp-submit-button = Confirmar
 

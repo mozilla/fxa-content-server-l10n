@@ -49,7 +49,6 @@ subplat-legal = Informações legais
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidade
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Se a sua conta for apagada, irá continuar a receber e-mails da Mozilla Corporation e da Mozilla Foundation, a menos que <a data-l10n-name="unsubscriptionLink">peça para cancelar a subscrição</a>.
 account-deletion-info-block-support = Se tiver quaisquer questões ou precisar de ajuda, não hesite em contactar a nossa <a data-l10n-name="supportLink">equipa de apoio</a>.
 account-deletion-info-block-communications-plaintext = Se a sua conta for eliminada, irá continuar a receber emails da Mozilla Corporation e da Mozilla Foundation, a menos que peça para cancelar a subscrição:
 account-deletion-info-block-support-plaintext = Se tiver quaisquer dúvidas ou precisar de ajuda, não hesite em contactar a nossa equipa de apoio:
@@ -273,7 +272,7 @@ inactiveAccountFirstWarning-preview = Iniciar sessão para manter a sua conta
 inactiveAccountFirstWarning-action-plaintext = Iniciar sessão para manter a sua conta:
 inactiveAccountSecondWarning-subject = Ação necessária: eliminação da conta em 7 dias
 inactiveAccountSecondWarning-title = A sua conta e dados da { -brand-mozilla } serão eliminados em 7 dias
-inactiveAccountSecondWarning-account-description = A sua { -product-mozilla-account } é utilizada para aceder gratuitamente a produtos de privacidade e de navegação como o { -brand-firefox } sync, { -produt-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+inactiveAccountSecondWarning-account-description-v2 = A sua { -product-mozilla-account } é utilizada para aceder gratuitamente a produtos de privacidade e de navegação como o { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> porque não tem estado ativo.
 inactiveAccountSecondWarning-action = Iniciar sessão para manter a sua conta
