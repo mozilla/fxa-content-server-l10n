@@ -51,7 +51,7 @@ subplat-privacy = Preifatrwydd
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan y Mozilla Corporation a'r Mozilla Foundation, oni bai eich bod <a data-l10n-name="unsubscribeLink">yn gofyn i ddad-danysgrifio</a>.
 account-deletion-info-block-support = Os oes gennych unrhyw gwestiynau, teimlwch yn rydd i gysyllu â'n <a data-l10n-name="mozillaSupportUrl">tîm cymorth</a>.
-account-deletion-info-block-communications-plaintext = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan y Mozilla Corporation a'r Mozilla Foundation, oni bai eich bod yn gofyn i ddad-danysgrifio:
+account-deletion-info-block-communications-plaintext = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan y Mozilla Corporation a'r Mozilla Foundation, oni bai eich bod yn gofyn i gael dad-danysgrifio:
 account-deletion-info-block-support-plaintext = Os oes gennych unrhyw gwestiynau neu os oes angen cymorth arnoch, mae croeso i chi gysylltu â'n tîm cymorth:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -80,7 +80,7 @@ automated-email-support = Am ragor o wybodaeth, ewch i <a data-l10n-name="suppor
 automated-email-change-plaintext-2 = Os nad chi wnaeth hyn, newidiwch eich cyfrinair ar unwaith:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Am ragor o wybodaeth, ewch i { -brand-mozilla } Cefnogaeth:
-automated-email-inactive-account = E-bost awtomatig yw hwn. Rydych yn ei dderbyn oherwydd bod gennych chi { -product-mozilla-account } ac mae'n 2 flynedd ers i chi fewngofnodi diwethaf.
+automated-email-inactive-account = E-bost awtomatig yw hwn. Rydych yn ei dderbyn oherwydd bod gennych chi gyfrif { -product-mozilla-account } ac mae'n 2 flynedd ers i chi fewngofnodi diwethaf.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cefnogaeth { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Mae hwn yn e-bost awtomataidd. Os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen i chi wneud dim.
@@ -129,7 +129,7 @@ automated-email-reset =
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Os wnaethoch chi ddim awdurdodi'r weithred hon, ailosodwch eich cyfrinair nawr yn { $resetLink }
+automated-email-reset-plaintext-v2 = Os nad chi wnaeth awdurdodi'r weithred hon, ailosodwch eich cyfrinair nawr yn { $resetLink }
 brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
 cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -251,7 +251,7 @@ fraudulentAccountDeletion-contact = Os oes gennych unrhyw gwestiynau, cysylltwch
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Os oes gennych unrhyw gwestiynau, cysylltwch â'n tîm cymorth: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Y cyfle olaf i gadw'ch cyfrif { -product-mozilla-account }
-inactiveAccountFinalWarning-title = Bydd eich cyfrif a data { -brand-mozilla } yn cael eu dileu
+inactiveAccountFinalWarning-title = Bydd eich cyfrif a'ch data { -brand-mozilla } yn cael eu dileu
 inactiveAccountFinalWarning-preview = Mewngofnodwch i gadw'ch cyfrif
 inactiveAccountFinalWarning-account-description = Mae eich cyfrif { -product-mozilla-account } yn cael ei ddefnyddio i gael mynediad at gynnyrch preifatrwydd am ddim a chynnyrch pori fel { -brand-firefox } Sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
@@ -271,9 +271,9 @@ inactiveAccountFirstWarning-action = Mewngofnodwch i gadw'ch cyfrif
 inactiveAccountFirstWarning-preview = Mewngofnodwch i gadw'ch cyfrif
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Mewngofnodwch i gadw'ch cyfrif:
-inactiveAccountSecondWarning-subject = Camau i'w cymryd: Dileu cyfrif o fewn 7 diwrnod
-inactiveAccountSecondWarning-title = Bydd eich cyfrif a data { -brand-mozilla } yn cael eu dileu ymhen 7 diwrnod
-inactiveAccountSecondWarning-account-description-v2 = Defnyddir eich { -product-mozilla-account } i gael mynediad at breifatrwydd am ddim a chynhyrchion pori fel { -brand-firefox } sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
+inactiveAccountSecondWarning-subject = Camau i'w cymryd: Bydd eich cyfrif yn cael ei ddileu o fewn 7 diwrnod
+inactiveAccountSecondWarning-title = Bydd eich cyfrif a'ch data { -brand-mozilla } yn cael eu dileu ymhen 7 diwrnod
+inactiveAccountSecondWarning-account-description-v2 = Mae eich cyfrif { -product-mozilla-account } yn cael ei ddefnyddio i gael mynediad at gynnyrch preifatrwydd am ddim a chynnyrch pori fel { -brand-firefox } Sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Bydd eich cyfrif a'ch data personol yn cael eu dileu yn barhaol ar <strong>{ $deletionDate }</strong> oherwydd nad ydych wedi bod yn weithredol.
 inactiveAccountSecondWarning-action = Mewngofnodwch i gadw'ch cyfrif
@@ -432,16 +432,16 @@ postRemoveTwoStepAuthentication-title-2 = Rydych wedi diffodd dilysu dau gam
 postRemoveTwoStepAuthentication-from-device = Rydych wedi'i analluogi o:
 postRemoveTwoStepAuthentication-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-not-required-2 = Nid oes angen codau diogelwch arnoch o'ch ap dilysu mwyach pan fyddwch yn mewngofnodi.
-postSigninRecoveryCode-subject = Cod dilysu wrth gefn a ddefnyddiwyd i fewngofnodi
+postSigninRecoveryCode-subject = Y cod dilysu wrth gefn a ddefnyddiwyd i fewngofnodi
 postSigninRecoveryCode-preview = Cadarnhau gweithgarwch cyfrif
 postSigninRecoveryCode-title = Defnyddiwyd eich cod dilysu wrth gefn i fewngofnodi
-postSigninRecoveryCode-description = Os na wnaethoch hyn, dylech newid eich cyfrinair ar unwaith i gadw'ch cyfrif yn ddiogel.
+postSigninRecoveryCode-description = Os nad chi wnaeth hyn, dylech newid eich cyfrinair ar unwaith i gadw'ch cyfrif yn ddiogel.
 postSigninRecoveryCode-device = Fe wnaethoch chi fewngofnodi o:
 postSigninRecoveryCode-action = Rheoli cyfrif
-postSigninRecoveryPhone-subject = Ffôn adfer a ddefnyddir i fewngofnodi
+postSigninRecoveryPhone-subject = Ffôn adfer sy'n cael ei ddefnyddio i fewngofnodi
 postSigninRecoveryPhone-preview = Cadarnhau gweithgarwch cyfrif
 postSigninRecoveryPhone-title = Defnyddiwyd eich ffôn adfer i fewngofnodi
-postSigninRecoveryPhone-description = Os na wnaethoch hyn, dylech newid eich cyfrinair ar unwaith i gadw'ch cyfrif yn ddiogel.
+postSigninRecoveryPhone-description = Os nad chi wnaeth hyn, dylech newid eich cyfrinair ar unwaith i gadw'ch cyfrif yn ddiogel.
 postSigninRecoveryPhone-device = Fe wnaethoch chi fewngofnodi o:
 postSigninRecoveryPhone-action = Rheoli cyfrif
 postVerify-sub-title-3 = Rydym wrth ein bodd eich gweld!

@@ -253,7 +253,7 @@ fraudulentAccountDeletion-contact-plaintext = Pour toute question, veuillez cont
 inactiveAccountFinalWarning-subject = Dernière chance de conserver votre { -product-mozilla-account }
 inactiveAccountFinalWarning-title = Votre compte { -brand-mozilla } et vos données vont être supprimés
 inactiveAccountFinalWarning-preview = Connectez-vous pour conserver votre compte
-inactiveAccountFinalWarning-account-description = Votre { -product-mozilla-account } est utilisé pour accéder à des produits gratuits de confidentialité et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
+inactiveAccountFinalWarning-account-description = Votre { -product-mozilla-account } sert à accéder à des produits gratuits de protection de la vie privée et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Le <strong>{ $deletionDate }</strong>, votre compte et vos données personnelles seront supprimés définitivement, sauf si vous vous connectez.
@@ -262,7 +262,7 @@ inactiveAccountFinalWarning-action = Connectez-vous pour conserver votre compte
 inactiveAccountFinalWarning-action-plaintext = Connectez-vous pour conserver votre compte :
 inactiveAccountFirstWarning-subject = Ne perdez pas votre compte
 inactiveAccountFirstWarning-title = Voulez-vous conserver votre compte et vos données { -brand-mozilla } ?
-inactiveAccountFirstWarning-account-description-v2 = Votre { -product-mozilla-account } est utilisé pour accéder à des produits gratuits de confidentialité et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
+inactiveAccountFirstWarning-account-description-v2 = Votre { -product-mozilla-account } sert à accéder à des produits gratuits de protection de la vie privée et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Nous avons remarqué que vous ne vous êtes pas connecté·e depuis deux ans.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -273,7 +273,7 @@ inactiveAccountFirstWarning-preview = Connectez-vous pour conserver votre compte
 inactiveAccountFirstWarning-action-plaintext = Connectez-vous pour conserver votre compte :
 inactiveAccountSecondWarning-subject = Action requise : suppression du compte dans 7 jours
 inactiveAccountSecondWarning-title = Votre compte { -brand-mozilla } et vos données seront supprimés dans 7 jours
-inactiveAccountSecondWarning-account-description-v2 = Votre { -product-mozilla-account } est utilisé pour accéder à des produits gratuits de confidentialité et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
+inactiveAccountSecondWarning-account-description-v2 = Votre { -product-mozilla-account } sert à accéder à des produits gratuits de protection de la vie privée et de navigation tels que { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } et { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Votre compte et vos données personnelles seront supprimés définitivement le <strong>{ $deletionDate }</strong> en raison de votre inactivité.
 inactiveAccountSecondWarning-action = Connectez-vous pour conserver votre compte
@@ -430,10 +430,10 @@ postSigninRecoveryCode-title = Votre code d’authentification de secours a ét�
 postSigninRecoveryCode-description = Si vous n’êtes pas à l’origine de cette action, vous devriez changer votre mot de passe immédiatement pour assurer la sécurité de votre compte.
 postSigninRecoveryCode-device = Vous vous êtes connecté·e depuis :
 postSigninRecoveryCode-action = Gérer le compte
-postSigninRecoveryPhone-subject = Numéro de téléphone de récupération utilisé pour la connexion
+postSigninRecoveryPhone-subject = Numéro de téléphone de récupération utilisé pour se connecter
 postSigninRecoveryPhone-preview = Confirmer l’activité du compte
 postSigninRecoveryPhone-title = Votre numéro de téléphone de récupération a été utilisé pour se connecter
-postSigninRecoveryPhone-description = Si vous ne l’avez pas fait, vous devriez changer votre mot de passe immédiatement pour assurer la sécurité de votre compte.
+postSigninRecoveryPhone-description = Si vous n’êtes pas à l’origine de cette action, vous devriez changer votre mot de passe immédiatement pour assurer la sécurité de votre compte.
 postSigninRecoveryPhone-device = Vous vous êtes connecté·e depuis :
 postSigninRecoveryPhone-action = Gérer le compte
 postVerify-sub-title-3 = Nous sommes ravis de vous voir !

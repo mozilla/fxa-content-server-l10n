@@ -875,10 +875,10 @@ recovery-key-create-back-button-title = Retour aux paramètres
 recovery-phone-remove-header = Supprimer le numéro de téléphone de récupération
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = La suppression de <strong>{ $formattedFullPhoneNumber }</strong> sera votre numéro de téléphone de récupération.
-settings-recovery-phone-remove-recommend = Nous vous recommandons de conserver cette méthode, car elle est plus facile que d’enregistrer des codes d’authentification de secours.
+settings-recovery-phone-remove-info = Le numéro de téléphone de récupération <strong>{ $formattedFullPhoneNumber }</strong> sera supprimé.
+settings-recovery-phone-remove-recommend = Nous vous recommandons de conserver cette méthode, car elle est plus facile à utiliser que d’enregistrer des codes d’authentification de secours.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Si vous le supprimez, assurez-vous de conserver vos codes d’authentification de secours enregistrés. <linkExternal>Comparer les méthodes de récupération</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Si vous supprimez cette méthode, assurez-vous de conserver les codes d’authentification de secours que vous avez enregistrés. <linkExternal>Comparer les méthodes de récupération</linkExternal>
 settings-recovery-phone-remove-button = Supprimer le numéro de téléphone
 settings-recovery-phone-remove-cancel = Annuler
 
@@ -1676,8 +1676,8 @@ recovery-phone-code-confirm-flow-heading = Connexion
 recovery-phone-code-confirm-with-code-heading = Saisissez le code de récupération
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Un code à six chiffres a été envoyé au <span>{ $maskedPhoneNumber }</span> par SMS. Ce code expire après 5 minutes.
-recovery-phone-code-confirm-input-group-label = Saisissez le code à 6 chiffres
+recovery-phone-code-confirm-code-instruction = Un code à six chiffres a été envoyé au <span>{ $maskedPhoneNumber }</span> par SMS. Ce code expire au bout de 5 minutes.
+recovery-phone-code-confirm-input-group-label = Saisissez le code à 6 chiffres
 recovery-phone-code-confirm-otp-submit-button = Confirmer
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
