@@ -49,6 +49,10 @@ subplat-legal = Právne informácie
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Súkromie
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Ak je váš účet odstránený, budete naďalej dostávať e‑maily od spoločností Mozilla Corporation a Mozilla Foundation, pokiaľ <a data-l10n-name="unsubscribeLink">nepožiadate o zrušenie ich odberu</a>.
+account-deletion-info-block-support = Ak máte nejaké otázky alebo potrebujete pomoc, neváhajte kontaktovať náš <a data-l10n-name="supportLink">tím podpory</a>.
+account-deletion-info-block-communications-plaintext = Ak je váš účet odstránený, budete naďalej dostávať e‑maily od spoločností Mozilla Corporation a Mozilla Foundation, pokiaľ nepožiadate o zrušenie ich odberu:
+account-deletion-info-block-support-plaintext = Ak máte akékoľvek otázky alebo potrebujete pomoc, neváhajte kontaktovať náš tím podpory:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Stiahnuť { $productName } z { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Ďalšie informácie nájdete na stránkach <a data-l1
 automated-email-change-plaintext-2 = Ak ste túto akciu neurobili, okamžite si zmeňte heslo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Ďalšie informácie nájdete na stránkach Podpory { -brand-mozilla(case: "gen") }.
+automated-email-inactive-account = Toto je automatický e‑mail. Dostávate ho, pretože máte { -product-mozilla-account } a od vášho posledného prihlásenia uplynuli 2 roky.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nemusíte robiť nič.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Ďalšie informácie nájdete na
 automated-email-reset =
     Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, <a data-l10n-name="resetLink">zmeňte si svoje heslo</a>.
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Ak ste túto akciu nepovolili, obnovte svoje heslo teraz na stránke { $resetLink }
 brand-banner-message = Vedeli ste, že sme zmenili názov z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Ďalšie informácie</a>
 cancellationSurvey = Vyplňte, prosím, tento <a data-l10n-name="cancellationSurveyUrl">krátky prieskum</a> a pomôžte nám zlepšiť naše služby.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,23 @@ fraudulentAccountDeletion-contact = Ak máte nejaké otázky, kontaktujte náš 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ak máte nejaké otázky, kontaktujte náš tím podpory: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Posledná šanca ponechať si svoj { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Váš účet { -brand-mozilla } a údaje budú vymazané
+inactiveAccountFinalWarning-preview = Ak si chcete ponechať svoj účet, prihláste sa
+inactiveAccountFinalWarning-account-description = Váš { -product-mozilla-account } sa používa na prístup k bezplatným produktom na ochranu súkromia a prehliadanie webu, ako sú synchronizácia v prehliadači { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Pokiaľ sa neprihlásite, dňa <strong>{ $deletionDate }</strong> bude váš účet a vaše osobné údaje natrvalo odstránené.
+inactiveAccountFinalWarning-action = Ak si chcete ponechať svoj účet, prihláste sa
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Ak si chcete ponechať svoj účet, prihláste sa:
+inactiveAccountFirstWarning-subject = Nestraťte svoj účet
+inactiveAccountFirstWarning-title = Chcete si ponechať svoj účet { -brand-mozilla } a údaje?
+inactiveAccountFirstWarning-account-description-v2 = Váš { -product-mozilla-account } sa používa na prístup k bezplatným produktom na ochranu súkromia a prehliadanie webu, ako sú synchronizácia v prehliadači { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Všimli sme si, že ste sa neprihlásili 2 roky.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Váš účet a vaše osobné údaje budú natrvalo odstránené dňa <strong>{ $deletionDate }</strong>, pretože ste neboli aktívni.
 inactiveAccountFirstWarning-action = Ak si chcete ponechať svoj účet, prihláste sa
 inactiveAccountFirstWarning-preview = Ak si chcete ponechať svoj účet, prihláste sa
 # followed by link to sign in
@@ -665,6 +690,7 @@ verifySecondaryCode-expiry-notice-2 = Jeho platnosť vyprší po 5 minútach. Po
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrďte svoj účet
+verifyShortCode-preview = Pomocou priloženého kódu potvrďte svoj { -product-mozilla-account }.
 verifyShortCode-title-3 = Poďte na internet vďaka { -brand-mozilla(case: "dat") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrďte svoj účet a vyťažte zo svojej { -brand-mozilla(case: "gen") } čo najviac, začínajúc s:
