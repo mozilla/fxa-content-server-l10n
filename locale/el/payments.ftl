@@ -361,6 +361,7 @@ coupon-expired = Φαίνεται πως ο κωδικός της προωθητ
 card-error = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Παρακαλούμε επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
 country-currency-mismatch = Το νόμισμα της συνδρομής δεν είναι έγκυρο για τη χώρα που σχετίζεται με την πληρωμή σας.
 currency-currency-mismatch = Δυστυχώς, δεν μπορείτε να κάνετε εναλλαγή νομισμάτων.
+location-unsupported = Η τρέχουσα τοποθεσία σας δεν υποστηρίζεται σύμφωνα με τους Όρους υπηρεσίας μας.
 no-subscription-change = Δυστυχώς, δεν μπορείτε να αλλάξετε το πακέτο συνδρομής σας.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Έχετε ήδη εγγραφεί μέσω του { $mobileAppStore }.

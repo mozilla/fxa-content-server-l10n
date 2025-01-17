@@ -1620,6 +1620,10 @@ signin-recovery-method-header = Σύνδεση
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Σύνδεση
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Εισαγάγετε τον κωδικό ανάκτησης
+recovery-phone-code-confirm-otp-submit-button = Επιβεβαίωση
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

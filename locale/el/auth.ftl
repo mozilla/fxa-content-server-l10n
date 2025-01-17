@@ -242,6 +242,10 @@ fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, παρ
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
+inactiveAccountFirstWarning-title = Θέλετε να διατηρήσετε τον λογαριασμό { -brand-mozilla } και τα δεδομένα σας;
+inactiveAccountFirstWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Έχετε εξαντλήσει τους εφεδρικούς κωδικούς ταυτοποίησής σας!
 codes-reminder-title-one = Σας απομένει μόνο ένας εφεδρικός κωδικός ταυτοποίησης
@@ -317,6 +321,7 @@ postAddLinkedAccount-subject-2 = Συνδέθηκε νέος λογαριασμ�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ο λογαριασμός { $providerName } σας έχει συνδεθεί με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
+postAddRecoveryPhone-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-subject-2 = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -334,6 +339,8 @@ postChangePrimary-title = Νέο κύριο email
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας και θα χρησιμοποιείται για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
 postChangePrimary-action = Διαχείριση λογαριασμού
+postChangeRecoveryPhone-subject = Το τηλέφωνο ανάκτησης ενημερώθηκε
+postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Χρησιμοποιήθηκε στο:
@@ -365,6 +372,9 @@ postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε τη�
 postRemoveTwoStepAuthentication-from-device = Απενεργοποιήθηκε από το:
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required-2 = Δεν χρειάζεστε πλέον κωδικούς ασφαλείας από την εφαρμογή ταυτοποίησής σας κατά τη σύνδεση.
+postSigninRecoveryCode-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
+postSigninRecoveryPhone-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
+postSigninRecoveryPhone-action = Διαχείριση λογαριασμού
 postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
 postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
 postVerify-description-2 = Είναι απλό! Εγκαταστήστε απλώς το { -brand-firefox } σε μια άλλη συσκευή και συνδεθείτε για συγχρονισμό. Είναι σαν μαγεία!

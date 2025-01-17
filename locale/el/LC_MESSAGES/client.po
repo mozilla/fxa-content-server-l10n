@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-17 13:51+0000\n"
+"PO-Revision-Date: 2025-01-17 15:02+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -2032,7 +2032,7 @@ msgstr "Δείτε τους αποθηκευμένους κωδικούς πρό
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Ορίστε μια επιλογή για να συνεχίσετε:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
