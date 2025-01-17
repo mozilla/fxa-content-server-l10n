@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerek
 
 next-new-user-submit = Şimdi abone ol
 next-payment-validate-name-error = Lütfen adınızı girin
+next-pay-with-heading-paypal = { -brand-paypal } ile öde
 # Label for the Full Name input
 payment-name-label = Kartınızda göründüğü şekliyle adınız
 payment-name-placeholder = Ad ve soyadı
