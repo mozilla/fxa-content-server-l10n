@@ -49,7 +49,7 @@ subplat-legal = Jogi információk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Adatvédelem
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem <a data-l10n-name="unsubscribeLink">iratkozik le</a>.
+account-deletion-info-block-communications = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem <a data-l10n-name="unsubscribeLink">kéri a leiratkozását</a>.
 account-deletion-info-block-support = Ha bármilyen kérdése van, vagy segítségre van szüksége, nyugodtan forduljon <a data-l10n-name="supportLink">támogatási csapatunkhoz</a>.
 account-deletion-info-block-communications-plaintext = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem kéri a leiratkozását:
 account-deletion-info-block-support-plaintext = Ha bármilyen kérdése van, vagy segítségre van szüksége, nyugodtan forduljon támogatási csapatunkhoz:
@@ -80,7 +80,7 @@ automated-email-support = További információért keresse fel a <a data-l10n-n
 automated-email-change-plaintext-2 = Ha nem Ön tette ezt a műveletet, azonnal változtassa meg a jelszavát:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = További információért keresse fel a { -brand-mozilla } Támogatást:
-automated-email-inactive-account = Ez egy automatikus e-mail. Azért kapja, mert van { -product-mozilla-account }ja, és eltelt 2 év a legutóbbi bejelentkezése óta.
+automated-email-inactive-account = Ez egy automatikus e-mail. Azért kapja, mert van { -product-mozilla-account }ja, és a legutóbbi bejelentkezése óta 2 év telt el.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 automated-email-no-action-plaintext = Ez egy automatizált e-mail. Ha tévedésből kapta, akkor nincs teendője.
@@ -129,7 +129,7 @@ automated-email-reset =
     További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Ha nem adott engedélyt erre a műveletre, akkor állítsa helyre jelszavát itt: { $resetLink }
+automated-email-reset-plaintext-v2 = Ha nem adott engedélyt erre a műveletre, akkor állítsa vissza a jelszavát itt: { $resetLink }
 brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
 cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl">rövid kérdőívet</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -253,7 +253,7 @@ fraudulentAccountDeletion-contact-plaintext = Ha bármilyen kérdése van, fordu
 inactiveAccountFinalWarning-subject = Utolsó lehetőség, hogy megtartsa a { -product-mozilla-account }ját
 inactiveAccountFinalWarning-title = A { -brand-mozilla }-fiókja és az adatai törlésre kerülnek
 inactiveAccountFinalWarning-preview = Jelentkezzen be a fiókja megtartásához
-inactiveAccountFinalWarning-account-description = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és a { -product-mdn }.
+inactiveAccountFinalWarning-account-description = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } Sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és az { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Ha nem jelentkezik be, akkor fiókja és személyes adatai véglegesen törlésre kerülnek <strong>{ $deletionDate }</strong>.
