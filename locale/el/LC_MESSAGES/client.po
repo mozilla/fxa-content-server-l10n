@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-10-30 09:26+0000\n"
+"PO-Revision-Date: 2025-01-17 13:51+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1681,7 +1681,7 @@ msgstr "Παρακαλούμε εισαγάγετε τον κωδικό επιβ
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή ξανά"
+msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή νέου"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"

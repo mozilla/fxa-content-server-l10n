@@ -293,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Κινητή συσκευή που λαμβάνει κωδικό μέσω μηνύματος κειμένου.
 recovery-phone-code-image-description =
     .aria-label = Ελήφθη κωδικός σε κινητή συσκευή.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Κινητή συσκευή με δυνατότητες μηνυμάτων κειμένου SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Οθόνη συσκευής με κωδικούς
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -323,6 +327,8 @@ input-password-sr-only-now-hidden = Ο κωδικός πρόσβασής σας 
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Επιλογή χώρας
 input-phone-number-country-united-states = Ηνωμένες Πολιτείες
 input-phone-number-country-canada = Καναδάς
 # Back button on legal/terms or legal/privacy that takes users to the previous page
@@ -620,10 +626,16 @@ flow-recovery-key-info-cancel-link = Ακύρωση
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-confirm-code-button = Επιβεβαίωση
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Έληξε ο κωδικός;
 flow-setup-phone-confirm-code-resend-code-button = Αποστολή νέου κωδικού
+flow-setup-phone-confirm-code-success-message-v2 = Προστέθηκε τηλέφωνο ανάκτησης
 
 ## FlowSetupPhoneConfirmCode
 
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Αποστολή κωδικού
 
 ## HeaderLockup component, the header in account settings
 
@@ -846,11 +858,13 @@ recovery-key-create-back-button-title = Πίσω στις ρυθμίσεις
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Αφαίρεση αριθμού τηλεφώνου ανάκτησης
 settings-recovery-phone-remove-button = Αφαίρεση αριθμού τηλεφώνου
 settings-recovery-phone-remove-cancel = Ακύρωση
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Προσθήκη τηλεφώνου ανάκτησης
 
 ## Add secondary email page
 
@@ -1473,7 +1487,7 @@ confirm-reset-password-code-input-group-label = Εισαγάγετε τον οκ
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Συνέχεια
 # Button to request a new reset password confirmation code
-confirm-reset-password-otp-resend-code-button = Νέα αποστολή κωδικού
+confirm-reset-password-otp-resend-code-button = Αποστολή νέου κωδικού
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Χρήση διαφορετικού λογαριασμού
 
