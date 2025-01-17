@@ -339,6 +339,7 @@ postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-accoun
 postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理账户
 postAddRecoveryPhone-subject = 已添加恢复电话号码
+postAddRecoveryPhone-preview = 账户受两步验证保护
 postAddRecoveryPhone-title = 您已创建恢复电话号码
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -366,6 +367,7 @@ postChangePrimary-title = 新的主邮箱
 postChangePrimary-description-2 = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-mozilla-account }的用户名，也用于接收安全通知和登录确认。
 postChangePrimary-action = 管理账户
 postChangeRecoveryPhone-subject = 已更新恢复电话号码
+postChangeRecoveryPhone-preview = 账户受两步验证保护
 postChangeRecoveryPhone-title = 您更改了恢复电话号码
 postChangeRecoveryPhone-description = 您已设置新的恢复电话号码，先前的电话号码已删除。
 postChangeRecoveryPhone-requested-device = 您从下列位置请求：
@@ -388,6 +390,7 @@ postRemoveAccountRecovery-body-part1 = 在忘记密码的情况下，需要使�
 postRemoveAccountRecovery-body-part2 = 请在账户设置中创建新的账户恢复密钥，以免丢失您保存的密码、书签、浏览历史等数据。
 postRemoveAccountRecovery-action = 管理账户
 postRemoveRecoveryPhone-subject = 已移除恢复电话号码
+postRemoveRecoveryPhone-preview = 账户受两步验证保护
 postRemoveRecoveryPhone-title = 已移除恢复电话号码
 postRemoveRecoveryPhone-description = 您的恢复电话已从两步验证设置中移除。您仍然可以使用备用验证码。
 postRemoveRecoveryPhone-requested-device = 您从下列位置请求：
@@ -403,9 +406,15 @@ postRemoveTwoStepAuthentication-title-2 = 您已关闭两步验证
 postRemoveTwoStepAuthentication-from-device = 您已从下列位置禁用：
 postRemoveTwoStepAuthentication-action = 管理账户
 postRemoveTwoStepAuthentication-not-required-2 = 登录时，不会再要求您输入身份验证应用上的安全码。
+postSigninRecoveryCode-subject = 已通过备用验证码登录
 postSigninRecoveryCode-preview = 确认账户活动
+postSigninRecoveryCode-title = 您的账户已通过备用验证码登录
+postSigninRecoveryCode-description = 若非本人操作，请立即更改密码以保护账户安全。
 postSigninRecoveryCode-action = 管理账户
+postSigninRecoveryPhone-subject = 已通过恢复电话号码登录
 postSigninRecoveryPhone-preview = 确认账户活动
+postSigninRecoveryPhone-title = 您的账户已通过恢复电话号码登录
+postSigninRecoveryPhone-description = 若非本人操作，请立即更改密码以保护账户安全。
 postSigninRecoveryPhone-action = 管理账户
 postVerify-sub-title-3 = 很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到同样的标签页吗？
@@ -659,6 +668,7 @@ verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 验证您的账户
+verifyShortCode-preview = 通过随附的验证码来确认 { -product-mozilla-account }。
 verifyShortCode-title-3 = 携手 { -brand-mozilla } 打开互联网世界
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 确认您的账户后，即可在所有登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：
