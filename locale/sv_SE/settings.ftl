@@ -639,12 +639,18 @@ flow-setup-phone-confirm-code-button = Bekräfta
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Har koden upphört?
 flow-setup-phone-confirm-code-resend-code-button = Skicka koden igen
+flow-setup-phone-confirm-code-success-message-v2 = Återställningstelefon tillagd
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifiera ditt telefonnummer
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Du får ett sms från { -brand-mozilla } med en kod för att verifiera ditt nummer. Dela inte den här koden med någon.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Återställningstelefon är endast tillgänglig i USA och Kanada. VoIP-nummer och telefonalias rekommenderas inte.
 flow-setup-phone-submit-number-legal = Genom att uppge ditt nummer godkänner du att vi lagrar det så att vi endast kan sms:a dig för kontoverifiering. Meddelande- och datataxor kan tillkomma.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Skicka kod
@@ -870,6 +876,7 @@ recovery-key-create-back-button-title = Tillbaka till inställningar
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Ta bort telefonnummer för återställning
 
 ## PageSetupRecoveryPhone
 
@@ -1667,6 +1674,7 @@ signin-recovery-method-code-info = { $numberOfCodes } koder återstår
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-otp-submit-button = Bekräfta
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
