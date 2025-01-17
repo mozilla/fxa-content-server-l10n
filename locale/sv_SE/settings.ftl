@@ -877,6 +877,14 @@ recovery-key-create-back-button-title = Tillbaka till inställningar
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Ta bort telefonnummer för återställning
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Detta tar bort <strong>{ $formattedFullPhoneNumber }</strong> som din återställningstelefon.
+settings-recovery-phone-remove-recommend = Vi rekommenderar att du behåller den här metoden eftersom det är enklare än att spara reservautentiseringskoder.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Om du tar bort den, se till att du fortfarande har kvar dina sparade reservautentiseringskoder. <linkExternal>Jämför återställningsmetoder</linkExternal>
+settings-recovery-phone-remove-button = Ta bort telefonnummer
+settings-recovery-phone-remove-cancel = Avbryt
 
 ## PageSetupRecoveryPhone
 
@@ -1030,6 +1038,9 @@ tfa-row-backup-codes-get-new-cta = Hämta nya koder
 tfa-row-backup-codes-add-cta = Lägg till
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Detta är den säkraste återställningsmetoden om du inte kan använda din mobila enhet eller autentiseringsappen.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Telefon för återställning
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Inget återställningstelefonnummer tillgängligt
 # button to change the configured recovery phone
@@ -1038,6 +1049,9 @@ tfa-row-backup-phone-change-cta = Ändra
 tfa-row-backup-phone-add-cta = Lägg till
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Ta bort
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Ta bort återställningstelefon
+tfa-row-backup-phone-delete-restriction-v2 = Om du vill ta bort din återställningstelefon för säkerhetskopiering, lägg till reservautentiseringskoder eller inaktivera tvåstegsautentisering först för att undvika att bli utelåst från ditt konto.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Det här är den enklare återställningsmetoden om du inte kan använda din autentiseringsapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1674,6 +1688,13 @@ signin-recovery-method-code-info = { $numberOfCodes } koder återstår
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Logga in
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Ange återställningskod
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = En sexsiffrig kod skickades till <span>{ $maskedPhoneNumber }</span> via sms. Denna kod upphör efter 5 minuter.
+recovery-phone-code-confirm-input-group-label = Ange 6-siffrig kod
 recovery-phone-code-confirm-otp-submit-button = Bekräfta
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
