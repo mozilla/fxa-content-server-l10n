@@ -620,6 +620,7 @@ flow-recovery-key-info-cancel-link = Ακύρωση
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-confirm-code-button = Επιβεβαίωση
+flow-setup-phone-confirm-code-resend-code-button = Αποστολή νέου κωδικού
 
 ## FlowSetupPhoneConfirmCode
 
@@ -845,6 +846,8 @@ recovery-key-create-back-button-title = Πίσω στις ρυθμίσεις
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Αφαίρεση αριθμού τηλεφώνου
+settings-recovery-phone-remove-cancel = Ακύρωση
 
 ## PageSetupRecoveryPhone
 
@@ -980,17 +983,28 @@ signout-sync-session-expired = Δυστυχώς, κάτι πήγε στραβά.
 ## SubRow component
 
 tfa-row-backup-codes-title = Εφεδρικοί κωδικοί ταυτοποίησης
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Δεν υπάρχουν διαθέσιμοι κωδικοί
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available = Απομένουν { $numCodesAvailable } κωδικοί
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Λήψη νέων κωδικών
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Προσθήκη
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Τηλέφωνο ανάκτησης
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Αλλαγή
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Προσθήκη
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Αφαίρεση
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Αφαίρεση τηλεφώνου ανάκτησης
 
 ## Switch component
 
