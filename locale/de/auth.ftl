@@ -256,7 +256,7 @@ inactiveAccountFinalWarning-preview = Melden Sie sich an, um Ihr Konto zu behalt
 inactiveAccountFinalWarning-account-description = Ihr { -product-mozilla-account } wird für den Zugriff auf kostenlose Datenschutz- und Surf-Produkte wie { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } und { -product-mdn } verwendet.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = Am <strong>{ $delectionDate }</strong> werden Ihr Konto und Ihre persönlichen Daten dauerhaft gelöscht, es sei denn, Sie melden sich an.
+inactiveAccountFinalWarning-impact = Am <strong>{ $deletionDate }</strong> werden Ihr Konto und Ihre persönlichen Daten dauerhaft gelöscht, es sei denn, Sie melden sich an.
 inactiveAccountFinalWarning-action = Melden Sie sich an, um Ihr Konto zu behalten
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Melden Sie sich an, um Ihr Konto zu behalten:
@@ -266,7 +266,7 @@ inactiveAccountFirstWarning-account-description-v2 = Ihr { -product-mozilla-acco
 inactiveAccountFirstWarning-inactive-status = Wir haben festgestellt, dass Sie sich seit zwei Jahren nicht angemeldet haben.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Ihr Konto und Ihre persönlichen Daten werden am <strong>{ $delectionDate }</strong> dauerhaft gelöscht, da Sie nicht aktiv waren.
+inactiveAccountFirstWarning-impact = Ihr Konto und Ihre persönlichen Daten werden am <strong>{ $deletionDate }</strong> dauerhaft gelöscht, da Sie nicht aktiv waren.
 inactiveAccountFirstWarning-action = Melden Sie sich an, um Ihr Konto zu behalten
 inactiveAccountFirstWarning-preview = Melden Sie sich an, um Ihr Konto zu behalten
 # followed by link to sign in
@@ -275,7 +275,7 @@ inactiveAccountSecondWarning-subject = Handeln erforderlich: Kontolöschung in 7
 inactiveAccountSecondWarning-title = Ihr { -brand-mozilla }-Konto und Ihre Daten werden in 7 Tagen gelöscht
 inactiveAccountSecondWarning-account-description-v2 = Ihr { -product-mozilla-account } wird für den Zugriff auf kostenlose Datenschutz- und Surf-Produkte wie { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } und { -product-mdn } verwendet.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Ihr Konto und Ihre persönlichen Daten werden am <strong>{ $delectionDate }</strong> dauerhaft gelöscht, da Sie nicht aktiv waren.
+inactiveAccountSecondWarning-impact = Ihr Konto und Ihre persönlichen Daten werden am <strong>{ $deletionDate }</strong> dauerhaft gelöscht, da Sie nicht aktiv waren.
 inactiveAccountSecondWarning-action = Melden Sie sich an, um Ihr Konto zu behalten
 inactiveAccountSecondWarning-preview = Melden Sie sich an, um Ihr Konto zu behalten
 # followed by link to sign in
