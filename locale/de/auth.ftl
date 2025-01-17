@@ -49,9 +49,9 @@ subplat-legal = Rechtliches
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Datenschutz
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Wenn Ihr Konto gelöscht wird, erhalten Sie weiterhin E-Mails von der Mozilla Corporation und der Mozilla Foundation, es sei denn, Sie <a data-l10n-name="unsubscribeLink">bitten Sie um das Abonnement</a>.
+account-deletion-info-block-communications = Wenn Ihr Konto gelöscht wird, erhalten Sie weiterhin E-Mails von der Mozilla Corporation und der Mozilla Foundation, es sei denn, Sie <a data-l10n-name="unsubscribeLink">bitten um Löschung des Abonnements</a>.
 account-deletion-info-block-support = Wenn Sie Fragen haben oder Hilfe benötigen, können Sie sich gerne an unser <a data-l10n-name="supportLink">Hilfe-Team</a> wenden.
-account-deletion-info-block-communications-plaintext = Wenn Ihr Konto gelöscht wird, erhalten Sie weiterhin E-Mails von der Mozilla Corporation und der Mozilla Foundation, es sei denn, Sie bitten um die Abmeldung:
+account-deletion-info-block-communications-plaintext = Wenn Ihr Konto gelöscht wird, erhalten Sie weiterhin E-Mails von der Mozilla Corporation und der Mozilla Foundation, es sei denn, Sie bitten um Löschung des Abonnements.
 account-deletion-info-block-support-plaintext = Wenn Sie Fragen haben oder Hilfe benötigen, können Sie sich gerne an unser Hilfe-Team wenden:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -80,7 +80,7 @@ automated-email-support = Weitere Informationen erhalten Sie bei der <a data-l10
 automated-email-change-plaintext-2 = Wenn Sie diese Maßnahme nicht ausgelöst haben, ändern Sie sofort Ihr Passwort:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Weitere Informationen erhalten Sie bei der { -brand-mozilla }-Hilfe:
-automated-email-inactive-account = Diese E-Mail wurde automatisch verschickt. Sie erhalten es, weil Sie ein { -product-mozilla-account } haben und seit Ihrer letzten Anmeldung zwei Jahre vergangen sind.
+automated-email-inactive-account = Diese E-Mail wurde automatisch verschickt. Sie erhalten sie, weil Sie ein { -product-mozilla-account } haben und seit Ihrer letzten Anmeldung zwei Jahre vergangen sind.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Weitere Informationen erhalten Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
 automated-email-no-action-plaintext = Dies ist eine automatisierte E-Mail. Wenn Sie sie versehentlich erhalten haben, brauchen Sie nichts zu tun.
@@ -253,14 +253,16 @@ fraudulentAccountDeletion-contact-plaintext = Wenden Sie sich bei Fragen bitte a
 inactiveAccountFinalWarning-subject = Letzte Chance, um Ihr { -product-mozilla-account } zu behalten
 inactiveAccountFinalWarning-title = Ihr { -brand-mozilla }-Konto und Ihre Daten werden gelöscht
 inactiveAccountFinalWarning-preview = Melden Sie sich an, um Ihr Konto zu behalten
+inactiveAccountFinalWarning-account-description = Ihr { -product-mozilla-account } wird für den Zugriff auf kostenlose Datenschutz- und Surf-Produkte wie { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } und { -product-mdn } verwendet.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Am <strong>{ $delectionDate }</strong> werden Ihr Konto und Ihre persönlichen Daten dauerhaft gelöscht, es sei denn, Sie melden sich an.
 inactiveAccountFinalWarning-action = Melden Sie sich an, um Ihr Konto zu behalten
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Melden Sie sich an, um Ihr Konto zu behalten:
-inactiveAccountFirstWarning-subject = Verlieren Sie nicht Ihr Konto
+inactiveAccountFirstWarning-subject = Verlieren Sie Ihr Konto nicht
 inactiveAccountFirstWarning-title = Soll Ihr { -brand-mozilla }-Konto und Ihre Daten behalten werden?
+inactiveAccountFirstWarning-account-description-v2 = Ihr { -product-mozilla-account } wird für den Zugriff auf kostenlose Datenschutz- und Surf-Produkte wie { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } und { -product-mdn } verwendet.
 inactiveAccountFirstWarning-inactive-status = Wir haben festgestellt, dass Sie sich seit zwei Jahren nicht angemeldet haben.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -271,6 +273,7 @@ inactiveAccountFirstWarning-preview = Melden Sie sich an, um Ihr Konto zu behalt
 inactiveAccountFirstWarning-action-plaintext = Melden Sie sich an, um Ihr Konto zu behalten:
 inactiveAccountSecondWarning-subject = Handeln erforderlich: Kontolöschung in 7 Tagen
 inactiveAccountSecondWarning-title = Ihr { -brand-mozilla }-Konto und Ihre Daten werden in 7 Tagen gelöscht
+inactiveAccountSecondWarning-account-description-v2 = Ihr { -product-mozilla-account } wird für den Zugriff auf kostenlose Datenschutz- und Surf-Produkte wie { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } und { -product-mdn } verwendet.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Dein Konto und deine persönlichen Daten werden am <strong>{ $delectionDate }</strong> dauerhaft gelöscht, da du nicht aktiv warst.
 inactiveAccountSecondWarning-action = Melden Sie sich an, um Ihr Konto zu behalten

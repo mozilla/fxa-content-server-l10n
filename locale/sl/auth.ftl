@@ -261,9 +261,9 @@ inactiveAccountFinalWarning-action = Prijavite se, če želite obdržati račun
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Prijavite se, če želite obdržati račun:
 inactiveAccountFirstWarning-subject = Ne izgubite računa
-inactiveAccountFirstWarning-title = Želite obdržati račun in podatke { -brand-mozilla }?
-inactiveAccountFirstWarning-account-description-v2 = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
-inactiveAccountFirstWarning-inactive-status = Opazili smo, da se niste prijavili že 2 leti.
+inactiveAccountFirstWarning-title = Želite obdržati račun { -brand-mozilla } in podatke?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account(zacetnica: "velika") } vam daje dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so sinhronizacija { -brand-firefox(sklon: "rodilnik") }, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Opazili smo, da se niste prijavili že dve leti.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Vaš račun in vaši osebni podatki bodo <strong>{ $deletionDate }</strong> trajno izbrisani, ker niste bili aktivni.
@@ -429,9 +429,9 @@ postRemoveTwoStepAuthentication-from-device = Onemogočili ste jo z naslednje na
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required-2 = Ob prijavi ne potrebujete več varnostnih kod iz aplikacije za preverjanje pristnosti.
 postSigninRecoveryCode-subject = Rezervna overitvena koda, uporabljena za prijavo
-postSigninRecoveryCode-preview = Potrdite dejavnost računa
+postSigninRecoveryCode-preview = Potrdite dejavnost v računu
 postSigninRecoveryCode-title = Za prijavo je bila uporabljena vaša rezervna overitvena koda
-postSigninRecoveryCode-description = Če tega niste storili vi, takoj spremenite geslo, da svoj račun ohranite varen.
+postSigninRecoveryCode-description = Če tega niste storili vi, takoj spremenite geslo, da zavarujete račun.
 postSigninRecoveryCode-device = Prijavili ste se iz:
 postSigninRecoveryCode-action = Upravljanje računa
 postSigninRecoveryPhone-subject = Za prijavo je bila uporabljena obnovitvena telefonska številka
