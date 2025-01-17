@@ -635,6 +635,7 @@ flow-setup-phone-confirm-code-button = 確認
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = 驗證碼失效？
 flow-setup-phone-confirm-code-resend-code-button = 重寄驗證碼
+flow-setup-phone-confirm-code-success-message-v2 = 已新增救援電話號碼
 
 ## FlowSetupPhoneConfirmCode
 
@@ -863,6 +864,8 @@ recovery-key-create-back-button-title = 回到設定
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = 移除電話號碼
+settings-recovery-phone-remove-cancel = 取消
 
 ## PageSetupRecoveryPhone
 
@@ -1008,6 +1011,9 @@ tfa-row-backup-codes-get-new-cta = 產生新備用驗證碼
 tfa-row-backup-codes-add-cta = 新增
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = 當您無法再使用您的行動裝置或驗證程式時，這是最安全的救援方法。
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = 救援電話號碼
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = 未設定備用電話號碼
 # button to change the configured recovery phone
@@ -1016,6 +1022,8 @@ tfa-row-backup-phone-change-cta = 變更
 tfa-row-backup-phone-add-cta = 新增
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = 移除
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = 移除救援電話號碼
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = 當您無法再使用驗證程式時，這是最安全的救援方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1635,6 +1643,9 @@ signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = 登入
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = 請輸入救援碼
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

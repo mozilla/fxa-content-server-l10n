@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下
 
 next-new-user-submit = 立刻訂閱
 next-payment-validate-name-error = 請輸入您的大名
+next-pay-with-heading-paypal = 使用 { -brand-paypal } 付款
 # Label for the Full Name input
 payment-name-label = 卡片上的持卡人姓名
 payment-name-placeholder = 全名

@@ -251,15 +251,29 @@ fraudulentAccountDeletion-contact-plaintext = 若您有其他問題，請聯絡�
 inactiveAccountFinalWarning-subject = 保留您 { -product-mozilla-account }的最後機會
 inactiveAccountFinalWarning-title = 即將刪除您的 { -brand-mozilla } 帳號與資料
 inactiveAccountFinalWarning-preview = 登入即可保留帳號
+inactiveAccountFinalWarning-account-description = 可透過 { -product-mozilla-account } 使用 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay }、{ -product-mdn } 等隱私保護與瀏覽器產品。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = 除非您登入，否則您的帳號與個人資料將於 <strong>{ $deletionDate }</strong> 後被刪除。
 inactiveAccountFinalWarning-action = 登入即可保留帳號
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = 登入即可保留帳號：
+inactiveAccountFirstWarning-subject = 別失去您的帳號
+inactiveAccountFirstWarning-title = 您想要保留 { -brand-mozilla } 帳號與資料嗎？
+inactiveAccountFirstWarning-account-description-v2 = 可透過 { -product-mozilla-account } 使用 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay }、{ -product-mdn } 等隱私保護與瀏覽器產品。
+inactiveAccountFirstWarning-inactive-status = 我們發現您已經有 2 年沒登入了。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = 您已經好一陣子沒有登入了，將於 <strong>{ $deletionDate }</strong> 刪除您的帳號與個人資料。
 inactiveAccountFirstWarning-action = 登入即可保留帳號
 inactiveAccountFirstWarning-preview = 登入即可保留帳號
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = 登入即可保留帳號：
 inactiveAccountSecondWarning-subject = 需要採取行動：帳號將於 7 天後刪除
 inactiveAccountSecondWarning-title = 將於 7 天後刪除您的 { -brand-mozilla } 帳號與資料
+inactiveAccountSecondWarning-account-description-v2 = 可透過 { -product-mozilla-account } 使用 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay }、{ -product-mdn } 等隱私保護與瀏覽器產品。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = 您已經好一陣子沒有登入了，將於 <strong>{ $deletionDate }</strong> 刪除您的帳號與個人資料。
 inactiveAccountSecondWarning-action = 登入即可保留帳號
 inactiveAccountSecondWarning-preview = 登入即可保留帳號
 # followed by link to sign in
@@ -339,6 +353,7 @@ postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozil
 postAddLinkedAccount-title-2 = 您的 { $providerName } 帳號已連結到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理帳號
 postAddRecoveryPhone-subject = 已新增救援電話號碼
+postAddRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳號
 postAddRecoveryPhone-title = 您已新增救援電話號碼
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -366,6 +381,7 @@ postChangePrimary-title = 新增主要電子郵件地址
 postChangePrimary-description-2 = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-mozilla-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
 postChangeRecoveryPhone-subject = 已更新救援電話號碼
+postChangeRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳號
 postChangeRecoveryPhone-title = 您已更改救援電話號碼
 postChangeRecoveryPhone-description = 您已更新救援電話號碼，舊號碼已刪除。
 postChangeRecoveryPhone-requested-device = 您從下列位置要求：
@@ -388,6 +404,7 @@ postRemoveAccountRecovery-body-part1 = 若您忘記密碼，必須使用帳號�
 postRemoveAccountRecovery-body-part2 = 若您還沒有建立過，請先到帳號設定中建立帳號救援金鑰，即可避免遺失儲存的網站密碼、書籤、瀏覽紀錄等資料。
 postRemoveAccountRecovery-action = 管理帳號
 postRemoveRecoveryPhone-subject = 已移除救援電話號碼
+postRemoveRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳號
 postRemoveRecoveryPhone-title = 已移除救援電話號碼
 postRemoveRecoveryPhone-description = 已從兩階段驗證設定中移除您的救援電話號碼，您仍然可以使用備用驗證碼。
 postRemoveRecoveryPhone-requested-device = 您從下列位置要求：
@@ -403,6 +420,16 @@ postRemoveTwoStepAuthentication-title-2 = 您已關閉兩階段驗證
 postRemoveTwoStepAuthentication-from-device = 您從下列位置關閉：
 postRemoveTwoStepAuthentication-action = 管理帳號
 postRemoveTwoStepAuthentication-not-required-2 = 登入時，不再需要輸入來自驗證應用程式的安全碼。
+postSigninRecoveryCode-subject = 已使用備用驗證碼登入
+postSigninRecoveryCode-preview = 確認帳號活動紀錄
+postSigninRecoveryCode-title = 已使用您的備用驗證碼登入
+postSigninRecoveryCode-device = 您從下列裝置登入：
+postSigninRecoveryCode-action = 管理帳號
+postSigninRecoveryPhone-subject = 已使用救援電話號碼登入
+postSigninRecoveryPhone-preview = 確認帳號活動紀錄
+postSigninRecoveryPhone-title = 已使用您的救援電話號碼登入
+postSigninRecoveryPhone-device = 您從下列裝置登入：
+postSigninRecoveryPhone-action = 管理帳號
 postVerify-sub-title-3 = 很高興能見到你！
 postVerify-title-2 = 想要在其他裝置上也能看到同個分頁嗎？
 postVerify-description-2 = 很簡單！只要在另一台裝置上也安裝 { -brand-firefox } 並且登入同步功能就好！
