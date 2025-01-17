@@ -385,6 +385,7 @@ postRemoveTwoStepAuthentication-title-2 = Vypli ste dvojstupňové overenie
 postRemoveTwoStepAuthentication-from-device = Zakázali ste ju z:
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required-2 = Pri prihlasovaní už nepotrebujete bezpečnostné kódy z overovacej aplikácie.
+postSigninRecoveryCode-action = Spravovať účet
 postVerify-sub-title-3 = Sme radi, že vás vidíme!
 postVerify-title-2 = Chcete vidieť rovnakú kartu na dvoch zariadeniach?
 postVerify-description-2 = Je to jednoduché! Stačí si nainštalovať { -brand-firefox } na iné zariadenie a prihlásiť sa k synchronizácii. Je to ako kúzlo!
