@@ -644,6 +644,11 @@ flow-setup-phone-confirm-code-success-message-v2 = 已添加恢复电话号码
 flow-setup-phone-submit-number-heading = 请验证您的电话号码
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = 您会收到一条来自 { -brand-mozilla } 的短信，内容是用于验证您的手机号的验证码。请不要与任何人分享此验证码。
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = 恢复电话号码仅在美国和加拿大可用。不推荐使用 VoIP 和虚拟手机号。
 flow-setup-phone-submit-number-legal = 提供号码即代表您同意我们存储您的号码。我们仅在验证账户时向您发送短信，可能需支付短信和数据费用。
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = 发送验证码
@@ -867,6 +872,7 @@ recovery-key-create-back-button-title = 返回设置
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = 移除恢复电话号码
+settings-recovery-phone-remove-button = 移除恢复电话号码
 settings-recovery-phone-remove-cancel = 取消
 
 ## PageSetupRecoveryPhone
