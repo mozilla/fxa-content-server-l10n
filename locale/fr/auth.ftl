@@ -49,9 +49,9 @@ subplat-legal = Mentions légales
 subplat-legal-plaintext = { subplat-legal } :
 subplat-privacy = Vie privée
 subplat-privacy-website-plaintext = { subplat-privacy } :
-account-deletion-info-block-communications = Si votre compte est supprimé, vous continuerez à recevoir des e-mails de Mozilla Corporation et de la Fondation Mozilla, à moins que vous <a data-l10n-name="unsubscribeLink">demandiez votre désinscription</a>.
-account-deletion-info-block-support = Si vous avez des questions ou avez besoin d’assistance, n’hésitez pas à contacter notre <a data-l10n-name="supportLink">équipe d’assistance</a>.
-account-deletion-info-block-communications-plaintext = Si votre compte est supprimé, vous recevrez toujours les courriels de Mozilla Corporation et de la Fondation Mozilla, sauf si vous demandez votre désinscription :
+account-deletion-info-block-communications = Si votre compte est supprimé, vous continuerez à recevoir des e-mails de Mozilla Corporation et de la Fondation Mozilla, sauf si vous <a data-l10n-name="unsubscribeLink">demandez votre désinscription</a>.
+account-deletion-info-block-support = Si vous avez des questions ou avez besoin d’aide, n’hésitez pas à contacter notre <a data-l10n-name="supportLink">équipe d’assistance</a>.
+account-deletion-info-block-communications-plaintext = Si votre compte est supprimé, vous recevrez toujours des e-mails de Mozilla Corporation et de la Fondation Mozilla, sauf si vous demandez votre désinscription :
 account-deletion-info-block-support-plaintext = Si vous avez des questions ou avez besoin d’aide, n’hésitez pas à contacter notre équipe d’assistance :
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -80,7 +80,7 @@ automated-email-support = Pour plus d’informations, consultez <a data-l10n-nam
 automated-email-change-plaintext-2 = Si vous n’êtes pas à l’origine de cette action, modifiez immédiatement votre mot de passe :
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pour plus d’informations, consultez le site d’assistance de { -brand-mozilla } :
-automated-email-inactive-account = Ceci est un message automatique. Vous le recevez, car vous avez un { -product-mozilla-account } et deux ans s’étaient écoulés depuis votre dernière connexion.
+automated-email-inactive-account = Ceci est un message automatique. Vous le recevez, car vous avez un { -product-mozilla-account } et deux ans se sont écoulés depuis votre dernière connexion.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pour davantage d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Ceci est un e-mail automatique. Si vous l’avez reçu par erreur, vous n’avez rien à faire.
