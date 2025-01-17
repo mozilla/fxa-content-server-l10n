@@ -875,6 +875,9 @@ recovery-phone-remove-header = 移除恢复电话号码
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = 此操作将移除您的恢复电话号码 <strong>{ $formattedFullPhoneNumber }</strong>。
+settings-recovery-phone-remove-recommend = 我们推荐您继续使用此方式，因为这种方式比保存备用验证码更简单易行。
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = 若您决定删除此方式，请确保自己仍存有备用验证码。<linkExternal>对比不同的恢复方式</linkExternal>
 settings-recovery-phone-remove-button = 移除恢复电话号码
 settings-recovery-phone-remove-cancel = 取消
 
@@ -1035,6 +1038,7 @@ tfa-row-backup-phone-add-cta = 添加
 tfa-row-backup-phone-delete-button = 移除
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = 移除恢复电话号码
+tfa-row-backup-phone-delete-restriction-v2 = 若要移除恢复电话号码，请先添加备用验证码或关闭两步验证，以免无法登录账户。
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = 在无法使用身份验证器应用时，这是较简易的恢复方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
