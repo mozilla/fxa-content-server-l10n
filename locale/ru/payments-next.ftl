@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Вы должны принять это, �
 
 next-new-user-submit = Подписаться
 next-payment-validate-name-error = Пожалуйста, введите своё имя
+next-pay-with-heading-paypal = Оплатить через { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Имя, как оно написано на вашей карте
 payment-name-placeholder = Полное имя

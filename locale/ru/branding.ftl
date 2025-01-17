@@ -67,6 +67,8 @@
     }
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Клубы Mozilla
+# Mozilla Developer Network
+-product-mdn = MDN
 -product-mdn-plus = MDN Plus
 -product-firefox-cloud = Firefox Cloud
 -product-mozilla-monitor = Mozilla Monitor
