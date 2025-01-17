@@ -242,6 +242,19 @@ fraudulentAccountDeletion-contact = Ak máte nejaké otázky, kontaktujte náš 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ak máte nejaké otázky, kontaktujte náš tím podpory: { $mozillaSupportUrl }
+inactiveAccountFirstWarning-action = Ak si chcete ponechať svoj účet, prihláste sa
+inactiveAccountFirstWarning-preview = Ak si chcete ponechať svoj účet, prihláste sa
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Ak si chcete ponechať svoj účet, prihláste sa:
+inactiveAccountSecondWarning-subject = Vyžaduje sa akcia: účet sa odstráni o 7 dní
+inactiveAccountSecondWarning-title = Váš účet { -brand-mozilla } a údaje budú vymazané o 7 dní
+inactiveAccountSecondWarning-account-description-v2 = Váš { -product-mozilla-account } sa používa na prístup k bezplatným produktom na ochranu súkromia a prehliadanie webu, ako sú synchronizácia v prehliadači { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Pretože ste neboli aktívni, váš účet a vaše osobné údaje budú natrvalo odstránené dňa <strong>{ $deletionDate }</strong>.
+inactiveAccountSecondWarning-action = Ak si chcete ponechať svoj účet, prihláste sa
+inactiveAccountSecondWarning-preview = Ak si chcete ponechať svoj účet, prihláste sa
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Ak si chcete ponechať svoj účet, prihláste sa:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Minuli sa vám záložné overovacie kódy!
 codes-reminder-title-one = Používate posledný záložný overovací kód
@@ -319,6 +332,7 @@ postAddLinkedAccount-subject-2 = Nový účet prepojený s vaším { -product-mo
 postAddLinkedAccount-title-2 = Váš účet { $providerName } bol prepojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Spravovať účet
 postAddRecoveryPhone-subject = Obnovenie pomocou telefónu bolo pridané
+postAddRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
 postAddRecoveryPhone-title = Pridali ste telefónne číslo na obnovenie účtu
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -346,6 +360,7 @@ postChangePrimary-title = Nová hlavná e‑mailová adresa
 postChangePrimary-description-2 = Úspešne ste zmenili svoju hlavnú e‑mailovú adresu na { $email }. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k { -product-mozilla-account(case: "dat", capitalization: "lower") } a na zasielanie bezpečnostných upozornení a potvrdení.
 postChangePrimary-action = Spravovať účet
 postChangeRecoveryPhone-subject = Obnovenie pomocou telefónu bolo aktualizované
+postChangeRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
 postChangeRecoveryPhone-title = Zmenili ste si telefón na obnovenie účtu
 postChangeRecoveryPhone-description = Teraz máte nové telefónne číslo na obnovenie účtu. Vaše predchádzajúce telefónne číslo bolo odstránené.
 postChangeRecoveryPhone-requested-device = Požiadali ste o to z:
@@ -370,6 +385,7 @@ postRemoveAccountRecovery-body-part1 = Ak zabudnete heslo, na obnovenie zašifro
 postRemoveAccountRecovery-body-part2 = Ak ste tak ešte neurobili, vytvorte si v nastaveniach účtu nový kľúč na obnovenie účtu, aby ste predišli strate uložených hesiel, záložiek, histórie prehliadania atď.
 postRemoveAccountRecovery-action = Spravovať účet
 postRemoveRecoveryPhone-subject = Obnovenie pomocou telefónu bolo zrušené
+postRemoveRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
 postRemoveRecoveryPhone-title = Obnovenie pomocou telefónu bolo zrušené
 postRemoveRecoveryPhone-description = Vaše telefónne číslo na obnovenie účtu bolo odstránené z nastavení dvojstupňového overenia. Stále máte svoje záložné overovacie kódy k dispozícii na použitie.
 postRemoveRecoveryPhone-requested-device = Požiadali ste o to z:
@@ -385,7 +401,18 @@ postRemoveTwoStepAuthentication-title-2 = Vypli ste dvojstupňové overenie
 postRemoveTwoStepAuthentication-from-device = Zakázali ste ju z:
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required-2 = Pri prihlasovaní už nepotrebujete bezpečnostné kódy z overovacej aplikácie.
+postSigninRecoveryCode-subject = Na prihlásenie bol použitý záložný overovací kód
+postSigninRecoveryCode-preview = Potvrďte aktivitu účtu
+postSigninRecoveryCode-title = Na prihlásenie bol použitý váš záložný overovací kód
+postSigninRecoveryCode-description = Ak ste tak neurobili, mali by ste si okamžite zmeniť heslo, aby bol váš účet v bezpečí.
+postSigninRecoveryCode-device = Prihlásili ste sa z:
 postSigninRecoveryCode-action = Spravovať účet
+postSigninRecoveryPhone-subject = Na prihlásenie bol použitý telefón na obnovenie účtu
+postSigninRecoveryPhone-preview = Potvrďte aktivitu účtu
+postSigninRecoveryPhone-title = Na prihlásenie bol použitý váš telefón na obnovenie účtu
+postSigninRecoveryPhone-description = Ak ste tak neurobili, mali by ste si okamžite zmeniť heslo, aby bol váš účet v bezpečí.
+postSigninRecoveryPhone-device = Prihlásili ste sa z:
+postSigninRecoveryPhone-action = Spravovať účet
 postVerify-sub-title-3 = Sme radi, že vás vidíme!
 postVerify-title-2 = Chcete vidieť rovnakú kartu na dvoch zariadeniach?
 postVerify-description-2 = Je to jednoduché! Stačí si nainštalovať { -brand-firefox } na iné zariadenie a prihlásiť sa k synchronizácii. Je to ako kúzlo!
