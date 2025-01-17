@@ -255,6 +255,7 @@ inactiveAccountFinalWarning-action = 登录以保留您的账户
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = 登录以保留您的账户：
 inactiveAccountFirstWarning-title = 您想要保留您的 { -brand-mozilla } 账户和数据吗？
+inactiveAccountFirstWarning-inactive-status = 我们注意到您已经 2 年没有登录了。
 inactiveAccountFirstWarning-action = 登录以保留您的账户
 inactiveAccountFirstWarning-preview = 登录以保留您的账户
 # followed by link to sign in
