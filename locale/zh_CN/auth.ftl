@@ -49,6 +49,9 @@ subplat-legal = 法律
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隐私
 subplat-privacy-website-plaintext = { subplat-privacy }：
+account-deletion-info-block-communications = 若您的账户已删除，除非您<a data-l10n-name="unsubscribeLink">要求退订</a>，否则仍会收到来自 Mozilla Corporation 和 Mozilla Foundation的邮件。
+account-deletion-info-block-support = 如有疑问或需要协助，请随时联系我们的<a data-l10n-name="supportLink">用户支持团队</a>。
+account-deletion-info-block-support-plaintext = 如有疑问或需要协助，请随时联系我们的用户支持团队：
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="到 { -google-play } 下载 { $productName }">
@@ -120,6 +123,9 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = 并更改密码：
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = 如需了解更多信息，请访问 { -brand-mozilla } 支持：
 automated-email-reset = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="resetLink">请立即重置密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = 如果您未授权此操作，请立即在 { $resetLink } 修改您的密码
 brand-banner-message = 您知道我们已由 { -product-firefox-accounts }更名为 { -product-mozilla-accounts }吗？<a data-l10n-name="learnMore">详细了解</a>
 cancellationSurvey = 请填写这份<a data-l10n-name="cancellationSurveyUrl">简短问卷</a> ，帮助我们改善服务质量。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
