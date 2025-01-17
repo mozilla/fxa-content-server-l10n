@@ -273,7 +273,6 @@ inactiveAccountFirstWarning-preview = Jelentkezzen be a fiókja megtartásához
 inactiveAccountFirstWarning-action-plaintext = Jelentkezzen be, hogy megtartsa a fiókját:
 inactiveAccountSecondWarning-subject = Művelet szükséges: Fióktörlés 7 napon belül
 inactiveAccountSecondWarning-title = A { -brand-mozilla }-fiókját és adatait 7 nap múlva töröljük
-inactiveAccountSecondWarning-account-description = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } sync, a { -produt-mozilla-monitor }, a { -product-firefox-relay } és a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Fiókja és személyes adatai véglegesen törölve lesznek ekkor: <strong>{ $deletionDate }</strong>, mert nem volt aktív.
 inactiveAccountSecondWarning-action = Jelentkezzen be a fiókja megtartásához

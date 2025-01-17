@@ -277,7 +277,6 @@ inactiveAccountFirstWarning-preview = Accedi per mantenere il tuo account
 inactiveAccountFirstWarning-action-plaintext = Accedi per mantenere il tuo account:
 inactiveAccountSecondWarning-subject = Azione richiesta: eliminazione dell’account entro 7 giorni
 inactiveAccountSecondWarning-title = Il tuo account { -brand-mozilla } e i tuoi dati verranno eliminati entro 7 giorni
-inactiveAccountSecondWarning-account-description = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come { -brand-firefox } sync, { -produt-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente il <strong>{ $deletionDate }</strong> perché non sei stato attivo.
 inactiveAccountSecondWarning-action = Accedi per mantenere il tuo account
