@@ -49,7 +49,7 @@ subplat-legal = Jogi információk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Adatvédelem
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem <a data-l10n-name="unsubscribeLink">leiratkozik</a>.
+account-deletion-info-block-communications = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem <a data-l10n-name="unsubscribeLink">iratkozik le</a>.
 account-deletion-info-block-support = Ha bármilyen kérdése van, vagy segítségre van szüksége, nyugodtan forduljon <a data-l10n-name="supportLink">támogatási csapatunkhoz</a>.
 account-deletion-info-block-communications-plaintext = Ha a fiókját törli, akkor továbbra is kapni fogja a Mozilla Corporation és a Mozilla Foundation e-mailjeit, hacsak nem kéri a leiratkozását:
 account-deletion-info-block-support-plaintext = Ha bármilyen kérdése van, vagy segítségre van szüksége, nyugodtan forduljon támogatási csapatunkhoz:
