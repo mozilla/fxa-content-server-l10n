@@ -80,6 +80,7 @@ automated-email-support = Для получения дополнительной
 automated-email-change-plaintext-2 = Если вы не производили это действие, немедленно измените пароль:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Для получения дополнительных сведений посетите страницу поддержки { -brand-mozilla }:
+automated-email-inactive-account = Это письмо создано автоматически. Вы получаете его, потому что у вас есть { -product-mozilla-account } и прошло 2 года с момента вашего последнего входа.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">Страницу поддержки { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
@@ -126,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Для получения доп
 automated-email-reset =
     Это письмо создано автоматически; если вы не выполняли это действие, то, пожалуйста, <a data-l10n-name="resetLink">сбросьте свой пароль</a>.
     Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">Страницу поддержки { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Если вы не авторизовали это действие, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
 brand-banner-message = Знаете ли вы, что мы изменили наше название с { -product-firefox-accounts } на { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Подробнее</a>
 cancellationSurvey = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом <a data-l10n-name="cancellationSurveyUrl">кратком опросе</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -246,6 +250,36 @@ fraudulentAccountDeletion-contact = Если у вас есть вопросы, 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Если у вас есть вопросы, обратитесь к нашей команде поддержки: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Последний шанс сохранить свой { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Ваш аккаунт { -brand-mozilla } и данные будут удалены
+inactiveAccountFinalWarning-preview = Войдите, чтобы сохранить свой аккаунт
+inactiveAccountFinalWarning-account-description = Ваш { -product-mozilla-account } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong>, ваш аккаунт и ваши личные данные будут навсегда удалены, если вы не войдете в него.
+inactiveAccountFinalWarning-action = Войдите, чтобы сохранить свой аккаунт
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Войдите, чтобы сохранить свой аккаунт:
+inactiveAccountFirstWarning-subject = Не потеряйте свой аккаунт
+inactiveAccountFirstWarning-title = Вы хотите сохранить свой аккаунт { -brand-mozilla } и данные?
+inactiveAccountFirstWarning-account-description-v2 = Ваш { -product-mozilla-account } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Мы заметили, что вы не совершали вход в течение 2 лет.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Ваш аккаунт и ваши личные данные будут навсегда удалены на <strong>{ $deletionDate }</strong>, так как вы не были активны.
+inactiveAccountFirstWarning-action = Войдите, чтобы сохранить свой аккаунт
+inactiveAccountFirstWarning-preview = Войдите, чтобы сохранить свой аккаунт
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Войдите, чтобы сохранить свой аккаунт:
+inactiveAccountSecondWarning-subject = Требуется действие: Удаление аккаунта через 7 дней
+inactiveAccountSecondWarning-title = Ваш аккаунт { -brand-mozilla } и данные будут удалены через 7 дней
+inactiveAccountSecondWarning-account-description-v2 = Ваш { -product-mozilla-account } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Ваш аккаунт и ваши личные данные будут навсегда удалены на <strong>{ $deletionDate }</strong>, так как вы не были активны.
+inactiveAccountSecondWarning-action = Войдите, чтобы сохранить свой аккаунт
+inactiveAccountSecondWarning-preview = Войдите, чтобы сохранить свой аккаунт
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Войдите, чтобы сохранить свой аккаунт:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = У вас закончились резервные коды аутентификации!
 codes-reminder-title-one = Вы используете последний резервный код аутентификации
@@ -323,6 +357,7 @@ postAddLinkedAccount-subject-2 = Новый аккаунт, связанный �
 postAddLinkedAccount-title-2 = Ваш аккаунт { $providerName } был привязан к { -product-mozilla-account }
 postAddLinkedAccount-action = Управлять аккаунтом
 postAddRecoveryPhone-subject = Телефон для восстановления добавлен
+postAddRecoveryPhone-preview = Аккаунт защищен двухэтапной аутентификацией
 postAddRecoveryPhone-title = Вы создали номер телефона для восстановления
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -350,6 +385,7 @@ postChangePrimary-title = Новая основная электронная п�
 postChangePrimary-description-2 = Вы успешно изменили свой адрес электронной почты на { $email }. Этот адрес является вашим именем пользователя для входа в { -product-mozilla-account }, а также для получения уведомлений безопасности и подтверждений входа.
 postChangePrimary-action = Управление аккаунтом
 postChangeRecoveryPhone-subject = Телефон для восстановления обновлён
+postChangeRecoveryPhone-preview = Аккаунт защищен двухэтапной аутентификацией
 postChangeRecoveryPhone-title = Вы изменили свой телефон для восстановления
 postChangeRecoveryPhone-description = Теперь у вас есть новый телефон для восстановления. Ваш предыдущий номер телефона был удалён.
 postChangeRecoveryPhone-requested-device = Вы запросили его из:
@@ -374,6 +410,7 @@ postRemoveAccountRecovery-body-part1 = Ключ восстановления в�
 postRemoveAccountRecovery-body-part2 = Если вы ещё этого не сделали, создайте новый ключ восстановления аккаунта в настройках своего аккаунта, чтобы не потерять сохранённые пароли, закладки, историю просмотров и многое другое.
 postRemoveAccountRecovery-action = Управление аккаунтом
 postRemoveRecoveryPhone-subject = Телефон для восстановления удалён
+postRemoveRecoveryPhone-preview = Аккаунт защищен двухэтапной аутентификацией
 postRemoveRecoveryPhone-title = Телефон для восстановления удалён
 postRemoveRecoveryPhone-description = Ваш телефон для восстановления был удален из настроек двухэтапной аутентификации. У вас всё ещё есть резервные коды аутентификации, доступные для использования.
 postRemoveRecoveryPhone-requested-device = Вы запросили его из:
@@ -389,6 +426,18 @@ postRemoveTwoStepAuthentication-title-2 = Вы отключили двухэта
 postRemoveTwoStepAuthentication-from-device = Вы отключили её с:
 postRemoveTwoStepAuthentication-action = Управление аккаунтом
 postRemoveTwoStepAuthentication-not-required-2 = Вам больше не нужны коды безопасности из приложения для аутентификации при входе в систему.
+postSigninRecoveryCode-subject = Резервный код аутентификации, используемый для входа
+postSigninRecoveryCode-preview = Подтвердите активность аккаунта
+postSigninRecoveryCode-title = Ваш резервный код аутентификации был использован для входа
+postSigninRecoveryCode-description = Если вы этого не делали, вам следует немедленно сменить свой пароль, чтобы обеспечить безопасность вашего аккаунта.
+postSigninRecoveryCode-device = Вы вошли с:
+postSigninRecoveryCode-action = Управление аккаунтом
+postSigninRecoveryPhone-subject = Восстановление телефона, использованного для входа
+postSigninRecoveryPhone-preview = Подтвердите активность аккаунта
+postSigninRecoveryPhone-title = Ваш телефон для восстановления был использован для входа в систему
+postSigninRecoveryPhone-description = Если вы этого не делали, вам следует немедленно сменить свой пароль, чтобы обеспечить безопасность вашего аккаунта.
+postSigninRecoveryPhone-device = Вы вошли с:
+postSigninRecoveryPhone-action = Управление аккаунтом
 postVerify-sub-title-3 = Мы рады видеть вас!
 postVerify-title-2 = Хотите видеть одну и ту же вкладку на двух устройствах?
 postVerify-description-2 = Это просто! Просто установите { -brand-firefox } на другое устройство и войдите в аккаунт для синхронизации. Это как волшебство!
@@ -641,6 +690,7 @@ verifySecondaryCode-expiry-notice-2 = Срок его действия исте�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Подтвердите ваш аккаунт
+verifyShortCode-preview = Используйте прилагаемый код для подтверждения вашего { -product-mozilla-account }.
 verifyShortCode-title-3 = Откройте Интернет с помощью { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Подтвердите свой аккаунт и получайте максимальную пользу от { -brand-mozilla } везде, где вы входите в систему, начиная с:
