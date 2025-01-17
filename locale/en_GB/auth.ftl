@@ -49,6 +49,10 @@ subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = If your account is deleted, you’ll still receive emails from Mozilla Corporation and Mozilla Foundation, unless you <a data-l10n-name="unsubscribeLink">ask to unsubscribe</a>.
+account-deletion-info-block-support = If you have any questions or need assistance, feel free to contact our <a data-l10n-name="supportLink">support team</a>.
+account-deletion-info-block-communications-plaintext = If your account is deleted, you’ll still receive emails from Mozilla Corporation and Mozilla Foundation, unless you ask to unsubscribe:
+account-deletion-info-block-support-plaintext = If you have any questions or need assistance, feel free to contact our support team:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $productName } on { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = For more info, visit <a data-l10n-name="supportLink">{
 automated-email-change-plaintext-2 = If you didn’t take this action, change your password right away:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = For more info, visit { -brand-mozilla } Support:
+automated-email-inactive-account = This is an automated email. You are receiving it because you have a { -product-mozilla-account } and it has been 2 years since your last sign-in.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = This is an automated email. If you received it by mistake, you don’t need to do anything.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = For more info, visit { -brand-mo
 automated-email-reset =
     This is an automated email; if you did not authorise this action, then <a data-l10n-name="resetLink">please reset your password</a>.
     For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = If you did not authorise this action, please reset your password now at { $resetLink }
 brand-banner-message = Did you know we changed our name from { -product-firefox-accounts } to { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Learn more</a>
 cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl">short survey</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = If you have any questions, please contact ou
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = If you have any questions, please contact our support team: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Last chance to keep your { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Your { -brand-mozilla } account and data will be deleted
+inactiveAccountFinalWarning-preview = Sign in to keep your account
+inactiveAccountFinalWarning-account-description = Your { -product-mozilla-account } is used to access free privacy and browsing products like { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay }, and { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = On <strong>{ $deletionDate }</strong>, your account and your personal data will be permanently deleted unless you sign in.
+inactiveAccountFinalWarning-action = Sign in to keep your account
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Sign in to keep your account:
+inactiveAccountFirstWarning-subject = Donʼt lose your account
+inactiveAccountFirstWarning-title = Do you want to keep your { -brand-mozilla } account and data?
+inactiveAccountFirstWarning-account-description-v2 = Your { -product-mozilla-account } is used to access free privacy and browsing products like { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay }, and { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = We noticed you haven’t signed in for 2 years.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Your account and your personal data will be permanently deleted on <strong>{ $deletionDate }</strong> because you haven’t been active.
+inactiveAccountFirstWarning-action = Sign in to keep your account
+inactiveAccountFirstWarning-preview = Sign in to keep your account
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Sign in to keep your account:
+inactiveAccountSecondWarning-subject = Action required: Account deletion in 7 days
+inactiveAccountSecondWarning-title = Your { -brand-mozilla } account and data will be deleted in 7 days
+inactiveAccountSecondWarning-account-description-v2 = Your { -product-mozilla-account } is used to access free privacy and browsing products like { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay }, and { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Your account and your personal data will be permanently deleted on <strong>{ $deletionDate }</strong> because you haven’t been active.
+inactiveAccountSecondWarning-action = Sign in to keep your account
+inactiveAccountSecondWarning-preview = Sign in to keep your account
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Sign in to keep your account:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = You’re out of backup authentication codes!
 codes-reminder-title-one = You’re on your last backup authentication code
@@ -318,6 +356,7 @@ postAddLinkedAccount-subject-2 = New account linked to your { -product-mozilla-a
 postAddLinkedAccount-title-2 = Your { $providerName } account has been linked to your { -product-mozilla-account }
 postAddLinkedAccount-action = Manage account
 postAddRecoveryPhone-subject = Recovery phone added
+postAddRecoveryPhone-preview = Account protected by two-step authentication
 postAddRecoveryPhone-title = You created a recovery phone number
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -345,6 +384,7 @@ postChangePrimary-title = New primary email
 postChangePrimary-description-2 = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -product-mozilla-account }, as well as receiving security notifications and sign-in confirmations.
 postChangePrimary-action = Manage account
 postChangeRecoveryPhone-subject = Recovery phone updated
+postChangeRecoveryPhone-preview = Account protected by two-step authentication
 postChangeRecoveryPhone-title = You changed your recovery phone
 postChangeRecoveryPhone-description = You now have a new recovery phone. Your previous phone number was deleted.
 postChangeRecoveryPhone-requested-device = You requested it from:
@@ -368,6 +408,7 @@ postRemoveAccountRecovery-body-part1 = Your account recovery key is required to 
 postRemoveAccountRecovery-body-part2 = If you haven’t already, create a new account recovery key in your account settings to prevent losing your saved passwords, bookmarks, browsing history, and more.
 postRemoveAccountRecovery-action = Manage account
 postRemoveRecoveryPhone-subject = Recovery phone removed
+postRemoveRecoveryPhone-preview = Account protected by two-step authentication
 postRemoveRecoveryPhone-title = Recovery phone removed
 postRemoveRecoveryPhone-description = Your recovery phone has been removed from your two-step authentication settings. You still have your backup authentication codes available for use.
 postRemoveRecoveryPhone-requested-device = You requested it from:
@@ -383,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = You turned off two-step authentication
 postRemoveTwoStepAuthentication-from-device = You disabled it from:
 postRemoveTwoStepAuthentication-action = Manage account
 postRemoveTwoStepAuthentication-not-required-2 = You no longer need security codes from your authentication app when you sign in.
+postSigninRecoveryCode-subject = Backup authentication code used to sign in
+postSigninRecoveryCode-preview = Confirm account activity
+postSigninRecoveryCode-title = Your backup authentication code was used to sign in
+postSigninRecoveryCode-description = If you didn’t do this, you should change your password immediately to keep your account safe.
+postSigninRecoveryCode-device = You signed in from:
+postSigninRecoveryCode-action = Manage account
+postSigninRecoveryPhone-subject = Recovery phone used to sign in
+postSigninRecoveryPhone-preview = Confirm account activity
+postSigninRecoveryPhone-title = Your recovery phone was used to sign in
+postSigninRecoveryPhone-description = If you didn’t do this, you should change your password immediately to keep your account safe.
+postSigninRecoveryPhone-device = You signed in from:
+postSigninRecoveryPhone-action = Manage account
 postVerify-sub-title-3 = We’re delighted to see you!
 postVerify-title-2 = Want to see the same tab on two devices?
 postVerify-description-2 = It’s easy! Just install { -brand-firefox } on another device and log in to synchronise. It’s like magic!
@@ -635,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, t
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirm your account
+verifyShortCode-preview = Use the included code to confirm your { -product-mozilla-account }.
 verifyShortCode-title-3 = Open the internet with { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:
