@@ -639,18 +639,12 @@ flow-setup-phone-confirm-code-button = Bekräfta
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Har koden upphört?
 flow-setup-phone-confirm-code-resend-code-button = Skicka koden igen
-flow-setup-phone-confirm-code-success-message = Återställningstelefon för säkerhetskopiering tillagd
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifiera ditt telefonnummer
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Du får ett sms från { -brand-mozilla } med en kod för att verifiera ditt nummer. Dela inte den här koden med någon.
-# The initial rollout of the backup recovery phone is only available to users with US and Canada mobile phone numbers.
-# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
-# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
-# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message = Återställningstelefon för säkerhetskopiering är endast tillgänglig i USA och Kanada. VoIP-nummer och telefonalias rekommenderas inte.
 flow-setup-phone-submit-number-legal = Genom att uppge ditt nummer godkänner du att vi lagrar det så att vi endast kan sms:a dig för kontoverifiering. Meddelande- och datataxor kan tillkomma.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Skicka kod
@@ -873,6 +867,10 @@ recovery-key-create-page-title = Nyckel för kontoåterställning
 # and back to account settings
 recovery-key-create-back-button-title = Tillbaka till inställningar
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Lägg till återställningstelefon
@@ -1025,21 +1023,15 @@ tfa-row-backup-codes-get-new-cta = Hämta nya koder
 tfa-row-backup-codes-add-cta = Lägg till
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Detta är den säkraste återställningsmetoden om du inte kan använda din mobila enhet eller autentiseringsappen.
-# Backup recovery phone is a recovery method for two-step authentication
-# A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title = Återställningstelefon för säkerhetskopiering
-# Shown with an alert icon to indicate that no backup recovery phone is configured
+# Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Inget återställningstelefonnummer tillgängligt
-# button to change the configured backup recovery phone
+# button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Ändra
-# button to add/configure a backup recovery phone
+# button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Lägg till
-# Button to remove a backup recovery phone from the user's account
+# Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Ta bort
-# Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title = Ta bort återställningtelefon för säkerhetskopiering
-tfa-row-backup-phone-delete-restriction = Om du vill ta bort din återställningstelefon för säkerhetskopiering, lägg till reservautentiseringskoder eller inaktivera tvåstegsautentisering först för att undvika att bli utelåst från ditt konto.
-# "this" refers to backup recovery phone
+# "this" refers to recovery phone
 tfa-row-backup-phone-description = Det här är den enklare återställningsmetoden om du inte kan använda din autentiseringsapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
@@ -1672,6 +1664,9 @@ signin-recovery-method-phone = Telefon för återställning
 signin-recovery-method-code = Autentiseringskoder
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } koder återstår
+
+## SigninRecoveryPhoneCodeConfirm page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
