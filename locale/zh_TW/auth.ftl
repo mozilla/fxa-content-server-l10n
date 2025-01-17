@@ -80,6 +80,7 @@ automated-email-support = 若需更多資訊，請造訪 <a data-l10n-name="supp
 automated-email-change-plaintext-2 = 若您並未進行此操作，請立即更改密碼：
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：
+automated-email-inactive-account = 這是一封系統自動寄出的郵件，您會收到是因為曾經註冊 { -product-mozilla-account }，並且已經超過 2 年未登入。
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件，可直接忽略。
@@ -124,6 +125,9 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = 並且更改密碼：
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：
 automated-email-reset = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="resetLink">請立即重設密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = 若您並未進行此變更，請到 { $resetLink } 重設密碼
 brand-banner-message = 您知道我們將 { -product-firefox-accounts }的名稱更改為 { -product-mozilla-accounts }了嗎？<a data-l10n-name="learnMore">更多資訊</a>
 cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl">簡短問卷</a>幫助我們改善服務品質。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -244,6 +248,10 @@ fraudulentAccountDeletion-contact = 若您有其他問題，請聯絡我們的<a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 若您有其他問題，請聯絡我們的技術支援團隊：{ $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = 保留您 { -product-mozilla-account }的最後機會
+inactiveAccountFinalWarning-title = 即將刪除您的 { -brand-mozilla } 帳號與資料
+inactiveAccountFinalWarning-preview = 登入即可保留帳號
+inactiveAccountFinalWarning-action = 登入即可保留帳號
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 您的備用驗證碼已經用完了！
 codes-reminder-title-one = 您只剩下一組備用驗證碼
