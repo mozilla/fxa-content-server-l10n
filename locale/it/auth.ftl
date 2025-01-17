@@ -80,7 +80,7 @@ automated-email-support = Per ulteriori informazioni, visita il <a data-l10n-nam
 automated-email-change-plaintext-2 = Se questa operazione non è stata eseguita da te, cambia la tua password immediatamente.
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Per ulteriori informazioni, visita il supporto { -brand-mozilla }:
-automated-email-inactive-account = Questa è una email automatica. Lo ricevi perché hai un { -product-mozilla-account } e sono trascorsi 2 anni dall’ultimo accesso.
+automated-email-inactive-account = Questa è una email automatica. L’hai ricevuta perché hai un { -product-mozilla-account } e sono trascorsi 2 anni dall’ultimo accesso.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
@@ -257,29 +257,29 @@ fraudulentAccountDeletion-contact-plaintext = Per qualsiasi domanda contatta il 
 inactiveAccountFinalWarning-subject = Ultima possibilità per mantenere il tuo { -product-mozilla-account }
 inactiveAccountFinalWarning-title = Il tuo account { -brand-mozilla } e i tuoi dati verranno eliminati
 inactiveAccountFinalWarning-preview = Accedi per mantenere il tuo account
-inactiveAccountFinalWarning-account-description = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+inactiveAccountFinalWarning-account-description = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come la sincronizzazione in { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = Il giorno <strong>{ $deletionDate }</strong>, il tuo account e i tuoi dati personali verranno eliminati in modo permanente a meno che tu non acceda.
+inactiveAccountFinalWarning-impact = Il giorno <strong>{ $deletionDate }</strong>, il tuo account e i tuoi dati personali verranno eliminati in modo permanente a meno che tu non effettui l’accesso.
 inactiveAccountFinalWarning-action = Accedi per mantenere il tuo account
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Accedi per mantenere il tuo account:
 inactiveAccountFirstWarning-subject = Non perdere il tuo account
-inactiveAccountFirstWarning-title = Conservare i dati e l’account { -brand-mozilla }?
-inactiveAccountFirstWarning-account-description-v2 = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+inactiveAccountFirstWarning-title = Vuoi conservare i dati e l’account { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come la sincronizzazione in { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Abbiamo notato che non accedi da 2 anni.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente il <strong>{ $deletionDate }</strong> perché non sei stato attivo.
+inactiveAccountFirstWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente il <strong>{ $deletionDate }</strong> a causa della tua inattività.
 inactiveAccountFirstWarning-action = Accedi per mantenere il tuo account
 inactiveAccountFirstWarning-preview = Accedi per mantenere il tuo account
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Accedi per mantenere il tuo account:
 inactiveAccountSecondWarning-subject = Azione richiesta: eliminazione dell’account entro 7 giorni
 inactiveAccountSecondWarning-title = Il tuo account { -brand-mozilla } e i tuoi dati verranno eliminati entro 7 giorni
-inactiveAccountSecondWarning-account-description-v2 = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+inactiveAccountSecondWarning-account-description-v2 = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come la sincronizzazione in { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente il <strong>{ $deletionDate }</strong> perché non sei stato attivo.
+inactiveAccountSecondWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente il <strong>{ $deletionDate }</strong> a causa della tua inattività.
 inactiveAccountSecondWarning-action = Accedi per mantenere il tuo account
 inactiveAccountSecondWarning-preview = Accedi per mantenere il tuo account
 # followed by link to sign in
@@ -434,7 +434,7 @@ postSigninRecoveryCode-title = Il codice di autenticazione di backup è stato ut
 postSigninRecoveryCode-description = In caso contrario, dovresti cambiare immediatamente la password per mantenere il tuo account al sicuro.
 postSigninRecoveryCode-device = Hai effettuato l’accesso da:
 postSigninRecoveryCode-action = Gestisci account
-postSigninRecoveryPhone-subject = Numero di telefono di recupero utilizzato per accedere
+postSigninRecoveryPhone-subject = Numero di telefono per il recupero dell’account utilizzato per accedere
 postSigninRecoveryPhone-preview = Conferma l’attività dell’account
 postSigninRecoveryPhone-title = È stato utilizzato il numero di telefono di recupero per accedere
 postSigninRecoveryPhone-description = In caso contrario, dovresti cambiare immediatamente la password per mantenere il tuo account al sicuro.
