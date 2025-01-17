@@ -9,9 +9,17 @@ next-basic-error-message = Κάτι πήγε στραβά. Παρακαλούμ�
 
 ## Page
 
+checkout-signin-or-create = 1. Συνδεθείτε ή δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
+checkout-create-account = Δημιουργία { -product-mozilla-account(case: "gen", capitalization: "lower") }
+continue-signin-with-google-button = Συνέχεια με { -brand-google }
+continue-signin-with-apple-button = Συνέχεια με { -brand-apple }
 next-payment-method-header = Επιλέξτε τη μέθοδο πληρωμής σας
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Θα πρέπει πρώτα να εγκρίνετε τη συνδρομή σας
 next-payment-confirmation-thanks-heading-account-exists = Ευχαριστούμε, τώρα ελέγξτε το email σας!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Θα λάβετε ένα email στο { $email } με οδηγίες σχετικά με τη συνδρομή σας, καθώς και τα στοιχεία πληρωμής σας.
 next-payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
@@ -24,6 +32,8 @@ next-payment-confirmation-amount = { $amount } ανά { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
 next-payment-confirmation-download-button = Συνέχεια στη λήψη
+checkout-error-boundary-retry-button = Δοκιμή ξανά
+checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή <contactSupportLink>επικοινωνήστε με την υποστήριξη.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +44,10 @@ next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε
 
 next-new-user-submit = Συνδρομή τώρα
 next-payment-validate-name-error = Παρακαλώ εισαγάγετε το όνομά σας
+next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Το όνομα όπως εμφανίζεται στην κάρτα σας
+payment-name-placeholder = Ονοματεπώνυμο
 
 ## Component - CouponForm
 
@@ -65,8 +79,18 @@ select-tax-location-edit-button = Επεξεργασία
 select-tax-location-save-button = Αποθήκευση
 select-tax-location-country-code-label = Χώρα
 select-tax-location-country-code-placeholder = Επιλέξτε τη χώρα σας
+select-tax-location-error-missing-country-code = Επιλέξτε τη χώρα σας
 select-tax-location-postal-code-label = Ταχυδρομικός κώδικας
+select-tax-location-postal-code =
+    .placeholder = Εισαγάγετε τον ταχυδρομικό σας κώδικα
+select-tax-location-error-missing-postal-code = Εισαγάγετε τον ταχυδρομικό σας κώδικα
+select-tax-location-error-invalid-postal-code = Εισαγάγετε έναν έγκυρο ταχυδρομικό κώδικα
+select-tax-location-successfully-updated = Η τοποθεσία σας έχει ενημερωθεί.
+select-tax-location-error-location-not-updated = Δεν ήταν δυνατή η ενημέρωση της τοποθεσίας σας. Δοκιμάστε ξανά.
 signin-form-continue-button = Συνέχεια
+signin-form-email-input = Εισαγάγετε το email σας
+signin-form-email-input-missing = Εισαγάγετε το email σας
+signin-form-email-input-invalid = Εισαγάγετε ένα έγκυρο email
 next-new-user-subscribe-product-updates-mdnplus = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις προϊόντων από το { -product-mdn-plus } και τη { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις προϊόντων από τη { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις ασφαλείας και απορρήτου από τη { -brand-mozilla }
@@ -94,6 +118,11 @@ next-coupon-success-repeating = Το πρόγραμμά σας θα ανανεω
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } ημερησίως
+plan-price-interval-weekly = { $amount } εβδομαδιαία
+plan-price-interval-monthly = { $amount } μηνιαία
+plan-price-interval-6monthly = { $amount } κάθε 6 μήνες
+plan-price-interval-yearly = { $amount } ετησίως
 
 ## Component - SubscriptionTitle
 
