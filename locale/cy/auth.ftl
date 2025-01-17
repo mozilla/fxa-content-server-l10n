@@ -273,6 +273,7 @@ inactiveAccountFirstWarning-preview = Mewngofnodwch i gadw'ch cyfrif
 inactiveAccountFirstWarning-action-plaintext = Mewngofnodwch i gadw'ch cyfrif:
 inactiveAccountSecondWarning-subject = Camau i'w cymryd: Dileu cyfrif o fewn 7 diwrnod
 inactiveAccountSecondWarning-title = Bydd eich cyfrif a data { -brand-mozilla } yn cael eu dileu ymhen 7 diwrnod
+inactiveAccountSecondWarning-account-description-v2 = Defnyddir eich { -product-mozilla-account } i gael mynediad at breifatrwydd am ddim a chynhyrchion pori fel { -brand-firefox } sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Bydd eich cyfrif a'ch data personol yn cael eu dileu yn barhaol ar <strong>{ $deletionDate }</strong> oherwydd nad ydych wedi bod yn weithredol.
 inactiveAccountSecondWarning-action = Mewngofnodwch i gadw'ch cyfrif

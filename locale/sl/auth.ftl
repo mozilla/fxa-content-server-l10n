@@ -273,6 +273,7 @@ inactiveAccountFirstWarning-preview = Prijavite se, če želite obdržati račun
 inactiveAccountFirstWarning-action-plaintext = Prijavite se, če želite obdržati račun:
 inactiveAccountSecondWarning-subject = Zahtevano dejanje: račun bo izbrisan čez 7 dni
 inactiveAccountSecondWarning-title = Vaš { -brand-mozilla } račun in podatki bodo izbrisani v 7 dneh
+inactiveAccountSecondWarning-account-description-v2 = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Vaš račun in vaši osebni podatki bodo <strong>{ $deletionDate }</strong> trajno izbrisani, ker niste bili aktivni.
 inactiveAccountSecondWarning-action = Prijavite se, če želite obdržati račun
