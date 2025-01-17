@@ -49,9 +49,9 @@ subplat-legal = Cyfreithiol
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Preifatrwydd
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan Mozilla Corporation a Mozilla Foundation, oni bai eich bod <a data-l10n-name="unsubscribeLink">yn gofyn am ddad-danysgrifio</a>.
-account-deletion-info-block-support = Os oes gennych unrhyw gwestiynau neu os oes angen cymorth arnoch, mae croeso i chi gysylltu â'n <a data-l10n-name="supportLink">tîm cymorth</a>.
-account-deletion-info-block-communications-plaintext = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan Mozilla Corporation a Mozilla Foundation, oni bai eich bod yn gofyn am ddad-danysgrifio:
+account-deletion-info-block-communications = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan y Mozilla Corporation a'r Mozilla Foundation, oni bai eich bod <a data-l10n-name="unsubscribeLink">yn gofyn i ddad-danysgrifio</a>.
+account-deletion-info-block-support = Os oes gennych unrhyw gwestiynau, teimlwch yn rydd i gysyllu â'n <a data-l10n-name="mozillaSupportUrl">tîm cymorth</a>.
+account-deletion-info-block-communications-plaintext = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan y Mozilla Corporation a'r Mozilla Foundation, oni bai eich bod yn gofyn i ddad-danysgrifio:
 account-deletion-info-block-support-plaintext = Os oes gennych unrhyw gwestiynau neu os oes angen cymorth arnoch, mae croeso i chi gysylltu â'n tîm cymorth:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -80,7 +80,7 @@ automated-email-support = Am ragor o wybodaeth, ewch i <a data-l10n-name="suppor
 automated-email-change-plaintext-2 = Os nad chi wnaeth hyn, newidiwch eich cyfrinair ar unwaith:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Am ragor o wybodaeth, ewch i { -brand-mozilla } Cefnogaeth:
-automated-email-inactive-account = E-bost awtomataidd yw hwn. Rydych chi'n ei dderbyn oherwydd bod gennych chi { -product-mozilla-account } ac mae 2 flynedd ers eich mewngofnodi diwethaf.
+automated-email-inactive-account = E-bost awtomatig yw hwn. Rydych yn ei dderbyn oherwydd bod gennych chi { -product-mozilla-account } ac mae'n 2 flynedd ers i chi fewngofnodi diwethaf.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cefnogaeth { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Mae hwn yn e-bost awtomataidd. Os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen i chi wneud dim.
@@ -129,7 +129,7 @@ automated-email-reset =
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Os na wnaethoch awdurdodi'r weithred hon, ailosodwch eich cyfrinair nawr yn { $resetLink }
+automated-email-reset-plaintext-v2 = Os wnaethoch chi ddim awdurdodi'r weithred hon, ailosodwch eich cyfrinair nawr yn { $resetLink }
 brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
 cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -250,20 +250,20 @@ fraudulentAccountDeletion-contact = Os oes gennych unrhyw gwestiynau, cysylltwch
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Os oes gennych unrhyw gwestiynau, cysylltwch â'n tîm cymorth: { $mozillaSupportUrl }
-inactiveAccountFinalWarning-subject = Cyfle olaf i gadw eich { -product-mozilla-account }
+inactiveAccountFinalWarning-subject = Y cyfle olaf i gadw'ch cyfrif { -product-mozilla-account }
 inactiveAccountFinalWarning-title = Bydd eich cyfrif a data { -brand-mozilla } yn cael eu dileu
 inactiveAccountFinalWarning-preview = Mewngofnodwch i gadw'ch cyfrif
-inactiveAccountFinalWarning-account-description = Defnyddir eich { -product-mozilla-account } i gael mynediad at breifatrwydd am ddim a chynhyrchion pori fel { -brand-firefox } sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
+inactiveAccountFinalWarning-account-description = Mae eich cyfrif { -product-mozilla-account } yn cael ei ddefnyddio i gael mynediad at gynnyrch preifatrwydd am ddim a chynnyrch pori fel { -brand-firefox } Sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Ar <strong>{ $deletionDate }</strong>, bydd eich cyfrif a'ch data personol yn cael eu dileu'n barhaol oni bai eich bod yn mewngofnodi.
 inactiveAccountFinalWarning-action = Mewngofnodwch i gadw'ch cyfrif
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Mewngofnodwch i gadw'ch cyfrif:
-inactiveAccountFirstWarning-subject = Peidiwch â cholli eich cyfrif
-inactiveAccountFirstWarning-title = Ydych chi am gadw eich cyfrif a data { -brand-mozilla }?
-inactiveAccountFirstWarning-account-description-v2 = Defnyddir eich { -product-mozilla-account } i gael mynediad at breifatrwydd am ddim a chynhyrchion pori fel { -brand-firefox } sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
-inactiveAccountFirstWarning-inactive-status = Sylwasom nad ydych wedi mewngofnodi ers 2 flynedd.
+inactiveAccountFirstWarning-subject = Peidiwch â cholli'ch cyfrif
+inactiveAccountFirstWarning-title = Ydych chi am gadw eich cyfrif a'ch data { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Mae eich cyfrif { -product-mozilla-account } yn cael ei ddefnyddio i gael mynediad at gynnyrch preifatrwydd am ddim a chynnyrch pori fel { -brand-firefox } Sync , { -product-mozilla-monitor }, { -product-firefox-relay }, a { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Rydym wedi sylwi nad ydych wedi mewngofnodi ers 2 flynedd.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Bydd eich cyfrif a'ch data personol yn cael eu dileu yn barhaol ar <strong>{ $deletionDate }</strong> oherwydd nad ydych wedi bod yn weithredol.
