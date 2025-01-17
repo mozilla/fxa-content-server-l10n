@@ -259,6 +259,11 @@ inactiveAccountFirstWarning-preview = 登入即可保留帳號
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = 登入即可保留帳號：
 inactiveAccountSecondWarning-subject = 需要採取行動：帳號將於 7 天後刪除
+inactiveAccountSecondWarning-title = 將於 7 天後刪除您的 { -brand-mozilla } 帳號與資料
+inactiveAccountSecondWarning-action = 登入即可保留帳號
+inactiveAccountSecondWarning-preview = 登入即可保留帳號
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = 登入即可保留帳號：
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 您的備用驗證碼已經用完了！
 codes-reminder-title-one = 您只剩下一組備用驗證碼
