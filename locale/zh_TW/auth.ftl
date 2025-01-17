@@ -682,6 +682,7 @@ verifySecondaryCode-expiry-notice-2 = 驗證碼將於 5 分鐘後失效。驗證
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = 確認您的帳號
+verifyShortCode-preview = 請使用當中的代碼來確認 { -product-mozilla-account }。
 verifyShortCode-title-3 = 與 { -brand-mozilla } 一起打開網路環境
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 確認您的帳號，就可以在任何登入的裝置中發揮 { -brand-mozilla } 產品的最大功能：

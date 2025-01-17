@@ -642,6 +642,11 @@ flow-setup-phone-confirm-code-success-message-v2 = 已新增救援電話號碼
 flow-setup-phone-submit-number-heading = 確認您的手機號碼
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = 您會收到來自 { -brand-mozilla } 的驗證簡訊，當中包含一組驗證碼。請勿將此驗證碼提供給任何人。
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = 救援電話號碼僅提供美國與加拿大使用者使用，不建議使用 VoIP 網路號碼或轉接門號。
 flow-setup-phone-submit-number-legal = 提供您的電話號碼，就代表您同意我們將其儲存下來，僅供帳號驗證使用。您可能會被收取簡訊或數據傳輸費用。
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = 傳送驗證碼
@@ -864,6 +869,7 @@ recovery-key-create-back-button-title = 回到設定
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = 移除救援電話號碼
 settings-recovery-phone-remove-button = 移除電話號碼
 settings-recovery-phone-remove-cancel = 取消
 
@@ -1646,6 +1652,8 @@ signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
 recovery-phone-code-confirm-flow-heading = 登入
 # A recovery code in context of this page is a one time code sent to the user's phone
 recovery-phone-code-confirm-with-code-heading = 請輸入救援碼
+recovery-phone-code-confirm-input-group-label = 請輸入六位數的救援碼
+recovery-phone-code-confirm-otp-submit-button = 確認
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
