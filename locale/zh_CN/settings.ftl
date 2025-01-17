@@ -1665,6 +1665,11 @@ signin-recovery-method-code-info = 剩余 { $numberOfCodes } 个验证码
 ## SigninRecoveryPhoneCodeConfirm page
 
 recovery-phone-code-confirm-flow-heading = 登录
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = 请输入恢复验证码
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = 一个六位数验证码已通过短信发送到 <span>{ $maskedPhoneNumber }</span>，5 分钟内有效。
 recovery-phone-code-confirm-input-group-label = 请输入 6 位验证码
 recovery-phone-code-confirm-otp-submit-button = 确认
 

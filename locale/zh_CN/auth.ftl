@@ -51,6 +51,7 @@ subplat-privacy = 隐私
 subplat-privacy-website-plaintext = { subplat-privacy }：
 account-deletion-info-block-communications = 若您的账户已删除，除非您<a data-l10n-name="unsubscribeLink">要求退订</a>，否则仍会收到来自 Mozilla Corporation 和 Mozilla Foundation的邮件。
 account-deletion-info-block-support = 如有疑问或需要协助，请随时联系我们的<a data-l10n-name="supportLink">用户支持团队</a>。
+account-deletion-info-block-communications-plaintext = 删除账户后，您仍会收到来自 Mozilla 公司和 Mozilla 基金会的邮件，除非您要求退订。
 account-deletion-info-block-support-plaintext = 如有疑问或需要协助，请随时联系我们的用户支持团队：
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -79,6 +80,7 @@ automated-email-support = 如需了解更多信息，请访问 <a data-l10n-name
 automated-email-change-plaintext-2 = 如非本人操作，请立即更改密码：
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = 如需了解更多信息，请访问 { -brand-mozilla } 支持：
+automated-email-inactive-account = 您收到此邮件是因为您拥有 { -product-mozilla-account }，且已连续 2 年未登录。
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 automated-email-no-action-plaintext = 这是一封自动发送的电子邮件。如果我们误向您发送了此邮件，则您无需执行任何操作。
@@ -248,6 +250,7 @@ fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10
 fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
 inactiveAccountFinalWarning-title = 您的 { -brand-mozilla } 账户和数据即将被删除
 inactiveAccountFinalWarning-preview = 登录以保留您的账户
+inactiveAccountFinalWarning-account-description = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = 您的账户和个人数据将于 <strong>{ $deletionDate }</strong> 被永久删除，除非您登录账户。
@@ -255,11 +258,14 @@ inactiveAccountFinalWarning-action = 登录以保留您的账户
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = 登录以保留您的账户：
 inactiveAccountFirstWarning-title = 您想要保留您的 { -brand-mozilla } 账户和数据吗？
+inactiveAccountFirstWarning-account-description-v2 = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
 inactiveAccountFirstWarning-inactive-status = 我们注意到您已经 2 年没有登录了。
 inactiveAccountFirstWarning-action = 登录以保留您的账户
 inactiveAccountFirstWarning-preview = 登录以保留您的账户
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = 登录以保留您的账户：
+inactiveAccountSecondWarning-title = 您的 { -brand-mozilla } 账户和数据将在 7 天后被删除
+inactiveAccountSecondWarning-account-description-v2 = 您已通过 { -product-mozilla-account }来使用免费的隐私保护和网页浏览产品，例如 { -brand-firefox } 同步、{ -product-mozilla-monitor }、{ -product-firefox-relay } 和 { -product-mdn }。
 inactiveAccountSecondWarning-action = 登录以保留您的账户
 inactiveAccountSecondWarning-preview = 登录以保留您的账户
 # followed by link to sign in
