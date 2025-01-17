@@ -630,7 +630,7 @@ flow-recovery-key-info-cancel-link = 取消
 flow-setup-phone-confirm-code-heading = 请输入验证码
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = 一个六位验证码已以短信形式发送到 <span>{ $phoneNumber }</span>。此验证码将在 5 分钟后失效。
+flow-setup-phone-confirm-code-instruction = 一个六位数验证码已通过短信发送到 <span>{ $phoneNumber }</span>，5 分钟内有效。
 flow-setup-phone-confirm-code-input-label = 请输入 6 位验证码
 flow-setup-phone-confirm-code-button = 确认
 # button to resend a code by text message to the user's phone

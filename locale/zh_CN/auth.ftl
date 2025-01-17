@@ -246,7 +246,11 @@ fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
+inactiveAccountFinalWarning-title = 您的 { -brand-mozilla } 账户和数据即将被删除
 inactiveAccountFinalWarning-preview = 登录以保留您的账户
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = 您的账户和个人数据将于 <strong>{ $deletionDate }</strong> 被永久删除，除非您登录账户。
 inactiveAccountFinalWarning-action = 登录以保留您的账户
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = 登录以保留您的账户：
