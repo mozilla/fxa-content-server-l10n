@@ -49,6 +49,9 @@ subplat-legal = 法律資訊
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隱私權
 subplat-privacy-website-plaintext = { subplat-privacy }：
+account-deletion-info-block-communications = 若您的帳號被刪除，還是會收到來自 Mozilla Corporation 或 Mozilla Foundation 的郵件，除非您<a data-l10n-name="unsubscribeLink">要求退訂</a>才會停止發送。
+account-deletion-info-block-support = 若您有任何問題或需要協助，歡迎透過<a data-l10n-name="supportLink">技術支援團隊</a>聯絡我們。
+account-deletion-info-block-communications-plaintext = 若您的帳號被刪除，還是會收到來自 Mozilla Corporation 或 Mozilla Foundation 的郵件，除非您要求退訂才會停止發送：
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="到 { -google-play } 下載 { $productName }">

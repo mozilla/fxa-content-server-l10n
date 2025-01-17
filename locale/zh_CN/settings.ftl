@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = 确认
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = 验证码已过期？
 flow-setup-phone-confirm-code-resend-code-button = 重新发送验证码
+flow-setup-phone-confirm-code-success-message-v2 = 已添加恢复电话号码
 
 ## FlowSetupPhoneConfirmCode
 
@@ -865,6 +866,8 @@ recovery-key-create-back-button-title = 返回设置
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = 移除恢复电话号码
+settings-recovery-phone-remove-cancel = 取消
 
 ## PageSetupRecoveryPhone
 
@@ -1010,6 +1013,9 @@ tfa-row-backup-codes-get-new-cta = 获取新验证码
 tfa-row-backup-codes-add-cta = 添加
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = 在无法使用移动设备或身份验证器应用时，这是最安全的恢复方法。
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = 恢复电话号码
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = 没有可用的恢复电话号码
 # button to change the configured recovery phone
@@ -1018,6 +1024,8 @@ tfa-row-backup-phone-change-cta = 更改
 tfa-row-backup-phone-add-cta = 添加
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = 移除
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = 移除恢复电话号码
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = 在无法使用身份验证器应用时，这是较简易的恢复方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1643,6 +1651,9 @@ signin-recovery-method-code-info = 剩余 { $numberOfCodes } 个验证码
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = 登录
+recovery-phone-code-confirm-input-group-label = 请输入 6 位验证码
+recovery-phone-code-confirm-otp-submit-button = 确认
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
