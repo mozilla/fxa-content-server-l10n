@@ -246,6 +246,19 @@ fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = 登录以保留您的账户
+inactiveAccountFinalWarning-action = 登录以保留您的账户
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = 登录以保留您的账户：
+inactiveAccountFirstWarning-title = 您想要保留您的 { -brand-mozilla } 账户和数据吗？
+inactiveAccountFirstWarning-action = 登录以保留您的账户
+inactiveAccountFirstWarning-preview = 登录以保留您的账户
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = 登录以保留您的账户：
+inactiveAccountSecondWarning-action = 登录以保留您的账户
+inactiveAccountSecondWarning-preview = 登录以保留您的账户
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = 登录以保留您的账户：
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 您备用验证码已用尽！
 codes-reminder-title-one = 只剩下一枚备用验证码
