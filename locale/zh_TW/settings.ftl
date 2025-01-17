@@ -870,6 +870,12 @@ recovery-key-create-back-button-title = 回到設定
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = 移除救援電話號碼
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = 將從您的救援電話號碼移除 <strong>{ $formattedFullPhoneNumber }</strong>。
+settings-recovery-phone-remove-recommend = 因為這個方式比保存備用驗證碼簡單，我們建議您繼續使用這個方法。
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = 請務必先確認已經產生並保存備用驗證碼，再刪除救援號碼。<linkExternal>比較各種救援方式</linkExternal>
 settings-recovery-phone-remove-button = 移除電話號碼
 settings-recovery-phone-remove-cancel = 取消
 
@@ -1030,6 +1036,7 @@ tfa-row-backup-phone-add-cta = 新增
 tfa-row-backup-phone-delete-button = 移除
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = 移除救援電話號碼
+tfa-row-backup-phone-delete-restriction-v2 = 若您想要移除救援電話號碼，請先產生備用驗證碼，或停用兩階段驗證，以避免被鎖在帳號外面無法登入。
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = 當您無法再使用驗證程式時，這是最安全的救援方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1652,6 +1659,9 @@ signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
 recovery-phone-code-confirm-flow-heading = 登入
 # A recovery code in context of this page is a one time code sent to the user's phone
 recovery-phone-code-confirm-with-code-heading = 請輸入救援碼
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = 已透過簡訊將六位數的驗證碼發送至尾數為 <span>{ $maskedPhoneNumber }</span> 的門號，此驗證碼將於 5 分鐘後失效。
 recovery-phone-code-confirm-input-group-label = 請輸入六位數的救援碼
 recovery-phone-code-confirm-otp-submit-button = 確認
 

@@ -49,9 +49,9 @@ subplat-legal = Pravne informacije
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Zasebnost
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Če je vaš račun izbrisan, boste še vedno prejemali e-pošto od Mozilla Corporation in Mozilla Foundation, razen če <a data-l10n-name="unsubscribeLink">zaprosite za odjavo</a>.
+account-deletion-info-block-communications = Če bo vaš račun izbrisan, boste še vedno prejemali e-pošto od Mozilla Corporation in Mozilla Foundation, razen če <a data-l10n-name="unsubscribeLink">se odjavite</a>.
 account-deletion-info-block-support = Če imate kakršnakoli vprašanja ali potrebujete pomoč, se obrnite na našo <a data-l10n-name="supportLink">ekipo za podporo</a>.
-account-deletion-info-block-communications-plaintext = Če je vaš račun izbrisan, boste še vedno prejemali e-pošto od Mozilla Corporation in Mozilla Foundation, razen če zahtevate odjavo:
+account-deletion-info-block-communications-plaintext = Če bo vaš račun izbrisan, boste še vedno prejemali e-pošto od Mozilla Corporation in Mozilla Foundation, razen če se odjavite:
 account-deletion-info-block-support-plaintext = Če imate kakršnakoli vprašanja ali potrebujete pomoč, se obrnite na našo ekipo za podporo:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -251,7 +251,7 @@ fraudulentAccountDeletion-contact = Če imate kakršnakoli vprašanja, se obrnit
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Če imate kakršnakoli vprašanja, se obrnite na našo skupino za podporo: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Zadnja priložnost, da obdržite svoj { -product-mozilla-account }
-inactiveAccountFinalWarning-title = Vaš { -brand-mozilla } račun in podatki bodo izbrisani
+inactiveAccountFinalWarning-title = Vaš račun { -brand-mozilla } in podatki bodo izbrisani
 inactiveAccountFinalWarning-preview = Prijavite se, če želite obdržati račun
 inactiveAccountFinalWarning-account-description = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
