@@ -55,6 +55,9 @@ next-plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
 
 ## Select Tax Location
 
+select-tax-location-edit-button = ਸੋਧੋ
+select-tax-location-save-button = ਸੰਭਾਲੋ
+select-tax-location-country-code-label = ਦੇਸ਼
 next-new-user-subscribe-product-updates-mdnplus = ਮੈਂ { -product-mdn-plus } ਅਤੇ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
@@ -70,6 +73,8 @@ next-plan-details-total-label = ਕੁੱਲ ਜੋੜ
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 
 ## Component - PriceInterval
 
@@ -77,6 +82,9 @@ next-plan-details-total-label = ਕੁੱਲ ਜੋੜ
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } ਰੋਜ਼ਾਨਾ
+plan-price-interval-weekly = { $amount } ਹਫ਼ਤਾਵਰ
+plan-price-interval-monthly = { $amount } ਮਹੀਨੇਵਾਰ
 
 ## Component - SubscriptionTitle
 
