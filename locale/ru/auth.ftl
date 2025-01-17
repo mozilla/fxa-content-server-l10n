@@ -49,6 +49,10 @@ subplat-legal = Права
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Конфиденциальность
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Если ваш аккаунт удалён, вы по-прежнему будете получать электронные письма от Mozilla Corporation и Mozilla Foundation, если только вы <a data-l10n-name="unsubscribeLink">не попросите отписаться</a>.
+account-deletion-info-block-support = Если у вас есть вопросы или нужна помощь, не стесняйтесь связаться с нашей <a data-l10n-name="supportLink">командой поддержки</a>.
+account-deletion-info-block-communications-plaintext = Если ваш аккаунт удалён, вы по-прежнему будете получать электронные письма от Mozilla Corporation и Mozilla Foundation, если только вы не попросите отписаться:
+account-deletion-info-block-support-plaintext = Если у вас есть вопросы или нужна помощь, не стесняйтесь обращаться к нашей команде поддержки:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Загрузить { $productName } на { -google-play }">
