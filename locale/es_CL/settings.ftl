@@ -637,12 +637,18 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = ¿Código expirado?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
+flow-setup-phone-confirm-code-success-message-v2 = Teléfono de recuperación añadido
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifica tu número de teléfono
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Recibirás un mensaje de texto de { -brand-mozilla } con un código para verificar tu número. No compartas este código con nadie.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = El teléfono de recuperación solo está disponible en Estados Unidos y Canadá. No se recomiendan los números de VoIP ni las máscaras telefónicas.
 flow-setup-phone-submit-number-legal = Al proporcionar tu número, aceptas que lo almacenemos para poder enviarte mensajes de texto únicamente para verificar la cuenta. Pueden aplicarse tarifas por mensajes y datos.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Enviar código
@@ -1673,6 +1679,11 @@ signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
 recovery-phone-code-confirm-flow-heading = Conectarse
 # A recovery code in context of this page is a one time code sent to the user's phone
 recovery-phone-code-confirm-with-code-heading = Ingresar código de recuperación
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Se envió un código de seis dígitos a <span>{ $maskedPhoneNumber }</span> por mensaje de texto. Este código expira después de 5 minutos.
+recovery-phone-code-confirm-input-group-label = Ingresa el código de 6 dígitos
+recovery-phone-code-confirm-otp-submit-button = Confirmar
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
