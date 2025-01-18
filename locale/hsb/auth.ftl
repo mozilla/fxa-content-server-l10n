@@ -420,6 +420,9 @@ postSigninRecoveryCode-device = Sće so přizjewił wot:
 postSigninRecoveryCode-action = Konto rjadować
 postSigninRecoveryPhone-subject = Wobnowjenski telefon, kotryž so za přizjewjenje wužiwa
 postSigninRecoveryPhone-preview = Kontowu aktiwitu wobkrućić
+postSigninRecoveryPhone-title = Waš wobnowjenski telefon je so za přizjewjenje wužił
+postSigninRecoveryPhone-device = Sće so přizjewił wot:
+postSigninRecoveryPhone-action = Konto rjadować
 postVerify-sub-title-3 = Wjeselimy so was widźeć!
 postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
 postVerify-description-2 = To je lochko! Instalujće prosće { -brand-firefox } na druhim graće a přizjewće so za synchronizaciju. Na magiske wašnje!
@@ -672,6 +675,7 @@ verifySecondaryCode-expiry-notice-2 = Spadnje za 5 mjeńšin. Tak ruče kaž je 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Wobkrućće swoje konto
+verifyShortCode-preview = Wužiwajće připołoženy kod, zo byšće swoje konto { -product-mozilla-account } wobkrućił.
 verifyShortCode-title-3 = Wočińće internet z { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-mozilla }, wšudźe, hdźež so přizjewjeće, započinajo z:

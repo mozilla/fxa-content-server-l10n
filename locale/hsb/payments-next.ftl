@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móž
 
 next-new-user-submit = Nětko abonować
 next-payment-validate-name-error = Prošu zapodajće swoje mjeno
+next-pay-with-heading-paypal = Z { -brand-paypal } płaćić
 # Label for the Full Name input
 payment-name-label = Mjeno kaž so na wašej karće jewi
 payment-name-placeholder = Dospołne mjeno
