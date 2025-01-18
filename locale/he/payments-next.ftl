@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = עליך להשלים זאת לפני שי
 
 next-new-user-submit = הרשמה כמינוי כעת
 next-payment-validate-name-error = נא להכניס את השם שלך
+next-pay-with-heading-paypal = תשלום באמצעות { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = השם כפי שהוא מופיע בכרטיס שלך
 payment-name-placeholder = שם מלא

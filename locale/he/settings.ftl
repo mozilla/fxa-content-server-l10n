@@ -618,12 +618,18 @@ flow-setup-phone-confirm-code-button = אישור
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = פג תוקף הקוד?
 flow-setup-phone-confirm-code-resend-code-button = שליחת הקוד מחדש
+flow-setup-phone-confirm-code-success-message-v2 = נוסף טלפון לשחזור
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = אימות מספר הטלפון שלך
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = תישלח אליך הודעת טקסט מ־{ -brand-mozilla } עם קוד לאימות המספר שלך. אין לשתף את הקוד הזה עם אף אחד.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = טלפון לשחזור זמין רק בארצות הברית ובקנדה. מספרי VoIP ומסכות טלפון אינם מומלצים.
 flow-setup-phone-submit-number-legal = מסירת המספר שלך מהווה הסכמה שנשמור אותו כדי שנוכל לשלוח לך הודעת טקסט לצורך אימות החשבון בלבד. ייתכן שיחולו תעריפי הודעות ונתונים.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = שליחת קוד
@@ -833,6 +839,12 @@ recovery-key-create-back-button-title = חזרה להגדרות
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = הסרת מספר טלפון לשחזור
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = פעולה זו תסיר את <strong>{ $formattedFullPhoneNumber }</strong> כטלפון השחזור שלך.
+settings-recovery-phone-remove-button = הסרת מספר טלפון
+settings-recovery-phone-remove-cancel = ביטול
 
 ## PageSetupRecoveryPhone
 

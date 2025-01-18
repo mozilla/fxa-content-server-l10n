@@ -395,6 +395,10 @@ postSigninRecoveryCode-description = אם לא ביצעת פעולה זו, על�
 postSigninRecoveryCode-device = התחברת מ:
 postSigninRecoveryCode-action = ניהול חשבון
 postSigninRecoveryPhone-subject = נעשה שימוש בטלפון לשחזור להתחברות
+postSigninRecoveryPhone-title = נעשה שימוש בטלפון השחזור שלך להתחברות
+postSigninRecoveryPhone-description = אם לא ביצעת פעולה זו, עליך לשנות את הססמה שלך באופן מיידי כדי לשמור על בטיחות החשבון שלך.
+postSigninRecoveryPhone-device = התחברת מ:
+postSigninRecoveryPhone-action = ניהול חשבון
 postVerify-sub-title-3 = אנחנו שמחים לראות אותך!
 postVerify-title-2 = רוצה לראות את אותה הלשונית בשני מכשירים שונים?
 postVerify-description-2 = זה קל! צריך פשוט להתקין את { -brand-firefox } במכשיר נוסף ולהתחבר כדי לסנכרן. זה עובד כמו קסם!
@@ -629,6 +633,7 @@ verifySecondaryCode-expiry-notice-2 = הקוד יפוג בתוך 5 דקות. ל�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = אימות החשבון שלך
+verifyShortCode-preview = יש להשתמש בקוד הכלול כדי לאמת את { -product-mozilla-account(case: "the") } שלך
 verifyShortCode-title-3 = לפתוח את האינטרנט עם { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = אימות החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-mozilla } עם כל מכשיר מחובר לרבות:
