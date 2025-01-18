@@ -244,6 +244,17 @@ fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data
 fraudulentAccountDeletion-contact-plaintext = Si tu ha questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-preview = Accede pro mantener tu conto
 inactiveAccountFinalWarning-action = Accede pro mantener tu conto
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Accede pro mantener tu conto:
+inactiveAccountFirstWarning-subject = Non perde tu conto
+inactiveAccountFirstWarning-action = Accede pro mantener tu conto
+inactiveAccountFirstWarning-preview = Accede pro mantener tu conto
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Accede pro mantener tu conto:
+inactiveAccountSecondWarning-action = Accede pro mantener tu conto
+inactiveAccountSecondWarning-preview = Accede pro mantener tu conto
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Accede pro mantener tu conto:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Tu ha terminate le codices de authentication de reserva!
 codes-reminder-title-one = Tu es a tu ultime codice de authentication de reserva
@@ -387,6 +398,9 @@ postRemoveTwoStepAuthentication-title-2 = Tu disactivava le authentication a duo
 postRemoveTwoStepAuthentication-from-device = Tu lo disactivava de:
 postRemoveTwoStepAuthentication-action = Gerer le conto
 postRemoveTwoStepAuthentication-not-required-2 = Tu non plus besonia codices de securitate de tu app de authentication quando aperi session
+postSigninRecoveryCode-action = Gerer conto
+postSigninRecoveryPhone-preview = Confirma le activitate del conto
+postSigninRecoveryPhone-action = Gerer conto
 postVerify-sub-title-3 = Nos es delectate de vider te!
 postVerify-title-2 = Vole tu vider le mesme scheda sur duo apparatos?
 postVerify-description-2 = Il es facile! Solo installa { -brand-firefox } sur un altere apparato e aperi session pro synchronisar. Illo es como magic!
