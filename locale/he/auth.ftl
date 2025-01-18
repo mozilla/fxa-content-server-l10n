@@ -254,6 +254,24 @@ inactiveAccountFinalWarning-impact = בתאריך <strong>{ $deletionDate }</str
 inactiveAccountFinalWarning-action = יש להיכנס כדי לשמור על החשבון שלך
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = יש להיכנס כדי לשמור על החשבון שלך:
+inactiveAccountFirstWarning-subject = אל תאבדו את החשבון שלכם
+inactiveAccountFirstWarning-title = האם ברצונך לשמור על חשבון ה־{ -brand-mozilla } שלך והנתונים שלו?
+inactiveAccountFirstWarning-inactive-status = שמנו לב שלא התחברת כבר שנתיים.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = החשבון והנתונים האישיים שלך יימחקו לצמיתות בתאריך <strong>{ $deletionDate }</strong> מכיוון שלא הייתה פעילות בחשבון.
+inactiveAccountFirstWarning-action = יש להיכנס כדי לשמור על החשבון שלך
+inactiveAccountFirstWarning-preview = יש להיכנס כדי לשמור על החשבון שלך
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = יש להיכנס כדי לשמור על החשבון שלך:
+inactiveAccountSecondWarning-subject = נדרשת פעולה: מחיקת החשבון בעוד 7 ימים
+inactiveAccountSecondWarning-title = חשבון ה־{ -brand-mozilla } שלך והנתונים שלו יימחקו בעוד 7 ימים
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = החשבון והנתונים האישיים שלך יימחקו לצמיתות בתאריך <strong>{ $deletionDate }</strong> מכיוון שלא הייתה פעילות בחשבון.
+inactiveAccountSecondWarning-action = יש להיכנס כדי לשמור על החשבון שלך
+inactiveAccountSecondWarning-preview = יש להיכנס כדי לשמור על החשבון שלך
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = יש להיכנס כדי לשמור על החשבון שלך:
 codes-reminder-description-part-two = מומלץ ליצור קודים חדשים עכשיו כדי שהנתונים שלך לא יאבדו מאוחר יותר.
 codes-reminder-description-two-left = נשארו לך רק שני קודים.
 lowRecoveryCodes-action-2 = יצירת קודים
@@ -318,6 +336,7 @@ postAddLinkedAccount-subject-2 = חשבון חדש מקושר ל{ -product-mozil
 postAddLinkedAccount-title-2 = חשבון ה־{ $providerName } קושר אל { -product-mozilla-account(case: "the") } שלך
 postAddLinkedAccount-action = ניהול חשבון
 postAddRecoveryPhone-subject = נוסף טלפון לשחזור
+postAddRecoveryPhone-preview = החשבון מוגן באמצעות אימות דו־שלבי
 postAddRecoveryPhone-title = יצרת מספר טלפון לשחזור
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -345,6 +364,7 @@ postChangePrimary-title = כתובת דוא״ל ראשית חדשה
 postChangePrimary-description-2 = שינית את כתובת הדוא״ל הראשית שלך ל־{ $email }. כתובת זו היא מעכשיו שם המשתמש שלך לכניסה ל{ -product-mozilla-account(case: "the") } שלך, ותשמש לקבלת התרעות אבטחה ואישורי כניסה.
 postChangePrimary-action = ניהול חשבון
 postChangeRecoveryPhone-subject = טלפון לשחזור עודכן
+postChangeRecoveryPhone-preview = החשבון מוגן באמצעות אימות דו־שלבי
 postChangeRecoveryPhone-title = שינית את טלפון השחזור שלך
 postChangeRecoveryPhone-description = כעת יש לך טלפון חדש לשחזור. מספר הטלפון הקודם שלך נמחק.
 postChangeRecoveryPhone-requested-device = ביקשת אותו מ:
