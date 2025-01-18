@@ -242,6 +242,8 @@ fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tu ha questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = Accede pro mantener tu conto
+inactiveAccountFinalWarning-action = Accede pro mantener tu conto
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Tu ha terminate le codices de authentication de reserva!
 codes-reminder-title-one = Tu es a tu ultime codice de authentication de reserva
