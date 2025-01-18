@@ -982,6 +982,9 @@ tfa-row-backup-codes-get-new-cta = קבלת קודים חדשים
 tfa-row-backup-codes-add-cta = הוספה
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך להשתמש במכשיר הנייד או ביישומון המאמת שלך.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = טלפון לשחזור
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = אין מספרי טלפון זמינים לשחזור
 # button to change the configured recovery phone
@@ -990,6 +993,8 @@ tfa-row-backup-phone-change-cta = שינוי
 tfa-row-backup-phone-add-cta = הוספה
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = הסרה
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = הסרת טלפון לשחזור
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = זוהי שיטת השחזור הקלה ביותר אם אין באפשרותך להשתמש ביישומון המאמת שלך.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1586,6 +1591,14 @@ signin-recovery-method-code-info = נותרו { $numberOfCodes } קודים
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = כניסה
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = נא להכניס קוד לשחזור
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = קוד בן שש ספרות נשלח אל <span>{ $maskedPhoneNumber }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות.
+recovery-phone-code-confirm-input-group-label = נא להזין קוד בן 6 ספרות
+recovery-phone-code-confirm-otp-submit-button = אישור
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
