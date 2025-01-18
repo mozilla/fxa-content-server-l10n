@@ -242,6 +242,19 @@ fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skalt
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurningar skaltu hafa samband við aðstoðarteymið okkar: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = Skráðu þig inn til að halda reikningnum þínum
+inactiveAccountFinalWarning-action = Skráðu þig inn til að halda reikningnum þínum
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
+inactiveAccountFirstWarning-subject = Ekki tapa reikningnum þínum
+inactiveAccountFirstWarning-inactive-status = Við höfum tekið eftir því að þú hefur ekki skráð þig inn í 2 ár.
+inactiveAccountFirstWarning-action = Skráðu þig inn til að halda reikningnum þínum
+inactiveAccountFirstWarning-preview = Skráðu þig inn til að halda reikningnum þínum
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
+inactiveAccountSecondWarning-subject = Aðgerðar krafist: Reikningi verður eytt eftir 7 daga
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Þú ert búinn með alla varaauðkenningarkóða!
 codes-reminder-title-one = Þú ert á síðasta varaauðkenningarkóðanum þínum
@@ -317,6 +330,12 @@ postAddLinkedAccount-subject-2 = Nýr reikningur tengdur við { -product-mozilla
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-mozilla-account }
 postAddLinkedAccount-action = Sýsla með aðgang
+postAddRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Hvernig þetta verndar reikninginn þinn
+postAddRecoveryPhone-how-protect-plaintext = Hvernig þetta verndar reikninginn þinn:
+postAddRecoveryPhone-enabled-device = Þú virkjaðir það frá:
+postAddRecoveryPhone-action = Sýsla með reikning
 postAddTwoStepAuthentication-subject-2 = Kveikt er á tveggja-þrepa auðkenningu
 postAddTwoStepAuthentication-title-2 = Þú kveiktir á tveggja-þrepa auðkenningu
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -334,6 +353,8 @@ postChangePrimary-title = Nýtt aðaltölvupóstfang
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-mozilla-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 postChangePrimary-action = Sýsla með reikning
+postChangeRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
+postChangeRecoveryPhone-requested-device = Þú baðst um það frá:
 postConsumeRecoveryCode-title-2 = Þú notaðir varaauðkenningarkóða
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Hann var notaður á:
@@ -353,6 +374,8 @@ postRemoveAccountRecovery-title-3 = Þú eyddir endurheimtulykli fyrir reikningi
 postRemoveAccountRecovery-body-part1 = Endurheimtulykillinn þinn er nauðsynlegur til að endurheimta dulrituðu vafragögnin þín ef þú gleymir lykilorðinu þínu.
 postRemoveAccountRecovery-body-part2 = Ef þú hefur ekki gert það nú þegar skaltu búa til nýjan endurheimtulykil í stillingum reikningsins þíns til að koma í veg fyrir að vistuð lykilorð þín, bókamerki, vafurferill og fleira glatist.
 postRemoveAccountRecovery-action = Sýsla með reikning
+postRemoveRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
+postRemoveRecoveryPhone-requested-device = Þú baðst um það frá:
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 # Variables:
@@ -365,6 +388,11 @@ postRemoveTwoStepAuthentication-title-2 = Þú slökktir á tveggja-þrepa auðk
 postRemoveTwoStepAuthentication-from-device = Þú gerðir hana óvirka frá:
 postRemoveTwoStepAuthentication-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-not-required-2 = Þú þarft ekki lengur öryggiskóða úr auðkenningarforritinu þínu þegar þú skráir þig inn.
+postSigninRecoveryCode-subject = Varaauðkenningarkóði sem notaður var til innskráningar
+postSigninRecoveryCode-preview = Staðfestu virkni á reikningi
+postSigninRecoveryCode-title = Varaauðkenningarkóðinn þinn var notaður til innskráningar
+postSigninRecoveryPhone-device = Þú skráðir þig inn frá:
+postSigninRecoveryPhone-action = Sýsla með reikning
 postVerify-sub-title-3 = Við erum ánægð að sjá þig!
 postVerify-title-2 = Viltu sjá sama flipa á tveimur tækjum?
 postVerify-description-2 = Það er einfalt! Settu bara { -brand-firefox } upp á öðru tæki og skráðu þig inn til að samstilla. Það virkar eins og galdrar!
