@@ -271,6 +271,15 @@ inactiveAccountFirstWarning-action = Conéctate para mantener tu cuenta
 inactiveAccountFirstWarning-preview = Conéctate para mantener tu cuenta
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Conéctate para mantener tu cuenta:
+inactiveAccountSecondWarning-subject = Acción requerida: Eliminación de la cuenta en 7 días
+inactiveAccountSecondWarning-title = Tu cuenta de { -brand-mozilla } y datos serán eliminados en 7 días
+inactiveAccountSecondWarning-account-description-v2 = Tu { -product-mozilla-account } es utilizada para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tu cuenta y datos personales se eliminarán de forma permanente el <strong>{ $deletionDate }</strong> porque no has estado activo.
+inactiveAccountSecondWarning-action = Conéctate para mantener tu cuenta
+inactiveAccountSecondWarning-preview = Conéctate para mantener tu cuenta
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Conéctate para mantener tu cuenta:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
 codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
@@ -347,6 +356,7 @@ postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-
 postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } ha sido vinculada a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar cuenta
 postAddRecoveryPhone-subject = Teléfono de recuperación añadido
+postAddRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
 postAddRecoveryPhone-title = Creaste un número de teléfono de recuperación
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -374,6 +384,7 @@ postChangePrimary-title = Nuevo correo primario
 postChangePrimary-description-2 = Has cambiado exitosamente tu correo primario a { $email }. Este correo es ahora tu nombre de usuario para conectarte a tu { -product-mozilla-account }, así como para recibir notificaciones de seguridad y
 postChangePrimary-action = Administrar cuenta
 postChangeRecoveryPhone-subject = Teléfono de recuperación actualizado
+postChangeRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
 postChangeRecoveryPhone-title = Cambiaste tu teléfono de recuperación
 postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se eliminó tu número de teléfono anterior.
 postChangeRecoveryPhone-requested-device = Lo solicitaste desde:
@@ -397,6 +408,7 @@ postRemoveAccountRecovery-body-part1 = Se requiere la clave de recuperación de 
 postRemoveAccountRecovery-body-part2 = Si aún no lo has hecho, crea una nueva clave de recuperación de cuenta en los ajustes de tu cuenta para evitar perder tus contraseñas guardadas, marcadores, historial de navegación y más.
 postRemoveAccountRecovery-action = Administrar cuenta
 postRemoveRecoveryPhone-subject = Teléfono de recuperación eliminado
+postRemoveRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
 postRemoveRecoveryPhone-title = Teléfono de recuperación eliminado
 postRemoveRecoveryPhone-description = Tu teléfono de recuperación se ha eliminado de la configuración de autenticación en dos pasos. Aún tienes disponibles tus códigos de autenticación de respaldo para usar.
 postRemoveRecoveryPhone-requested-device = Lo solicitaste desde:
@@ -412,6 +424,11 @@ postRemoveTwoStepAuthentication-title-2 = Desactivaste la autenticación en dos 
 postRemoveTwoStepAuthentication-from-device = Lo desactivaste desde:
 postRemoveTwoStepAuthentication-action = Administrar cuenta
 postRemoveTwoStepAuthentication-not-required-2 = Ya no necesitarás los códigos de seguridad de tu aplicación de autenticación cuando te conectes.
+postSigninRecoveryCode-subject = Código de autenticación de respaldo fue utilizado para conectarse
+postSigninRecoveryCode-preview = Confirmar actividad de la cuenta
+postSigninRecoveryCode-title = Tu código de autenticación de respaldo fue utilizado para conectarse
+postSigninRecoveryCode-description = Si no lo hiciste tu, debes cambiar tu contraseña inmediatamente para mantener tu cuenta segura.
+postSigninRecoveryCode-device = Te conectaste desde:
 postSigninRecoveryCode-action = Administrar cuenta
 postSigninRecoveryPhone-subject = Teléfono de recuperación utilizado para conectarse
 postSigninRecoveryPhone-preview = Confirmar actividad de la cuenta
