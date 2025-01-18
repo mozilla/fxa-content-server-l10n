@@ -49,6 +49,8 @@ subplat-legal = Νομικά
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Απόρρητο
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support = Αν έχετε ερωτήσεις ή χρειάζεστε βοήθεια, μη διστάσετε να επικοινωνήσετε με την <a data-l10n-name="supportLink">ομάδα υποστήριξής</a> μας.
+account-deletion-info-block-support-plaintext = Αν έχετε ερωτήσεις ή χρειάζεστε βοήθεια, μη διστάσετε να επικοινωνήσετε με την ομάδα υποστήριξής μας:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Λήψη του { $productName } στο { -google-play }">
@@ -76,6 +78,7 @@ automated-email-support = Για περισσότερες πληροφορίες
 automated-email-change-plaintext-2 = Εάν δεν εκτελέσατε αυτήν την ενέργεια, αλλάξτε τον κωδικό πρόσβασής σας αμέσως:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }:
+automated-email-inactive-account = Αυτό είναι ένα αυτοματοποιημένο email. Το λαμβάνετε επειδή διαθέτετε { -product-mozilla-account } και έχουν περάσει 2 χρόνια από την τελευταία σύνδεσή σας.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Αυτό είναι ένα αυτοματοποιημένο email. Εάν το λάβατε κατά λάθος, δεν χρειάζεται να κάνετε τίποτα.
@@ -246,6 +249,7 @@ fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, παρ
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Τελευταία ευκαιρία να διατηρήσετε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
+inactiveAccountFinalWarning-title = Ο λογαριασμός { -brand-mozilla } και τα δεδομένα σας θα διαγραφούν
 inactiveAccountFinalWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountFinalWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
@@ -253,6 +257,9 @@ inactiveAccountFinalWarning-action-plaintext = Συνδεθείτε για να 
 inactiveAccountFirstWarning-subject = Μη χάσετε τον λογαριασμό σας
 inactiveAccountFirstWarning-title = Θέλετε να διατηρήσετε τον λογαριασμό { -brand-mozilla } και τα δεδομένα σας;
 inactiveAccountFirstWarning-inactive-status = Παρατηρήσαμε ότι δεν έχετε συνδεθεί για 2 χρόνια.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Ο λογαριασμός και τα προσωπικά σας δεδομένα θα διαγραφούν οριστικά στις <strong>{ $deletionDate }</strong>, επειδή δεν ήσασταν ενεργοί.
 inactiveAccountFirstWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountFirstWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
@@ -340,6 +347,10 @@ postAddLinkedAccount-title-2 = Ο λογαριασμός { $providerName } σα�
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
 postAddRecoveryPhone-subject = Προστέθηκε τηλέφωνο ανάκτησης
 postAddRecoveryPhone-title = Δημιουργήσατε έναν αριθμό τηλεφώνου ανάκτησης
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Προσθέσατε το { $maskedLastFourPhoneNumber } ως τηλέφωνο ανάκτησης
+postAddRecoveryPhone-enabled-device = Το ενεργοποιήσατε από:
 postAddRecoveryPhone-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-subject-2 = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων

@@ -49,6 +49,7 @@ subplat-legal = מידע משפטי
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = פרטיות
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = אם החשבון שלך נמחק, עדיין יתקבלו הודעות דוא״ל מ־Mozilla Corporation ומ־Mozilla Foundation, אלא אם <a data-l10n-name="unsubscribeLink">תבקש לבטל את הרישום כמינוי</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="הורדת { $productName } ב־{ -google-play }">
