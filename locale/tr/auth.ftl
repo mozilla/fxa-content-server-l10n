@@ -49,6 +49,8 @@ subplat-legal = Hukuki Bilgiler
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Gizlilik
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support = Herhangi bir sorunuz veya yardıma ihtiyacınız varsa <a data-l10n-name="supportLink">destek ekibimizle</a> iletişime geçebilirsiniz.
+account-deletion-info-block-support-plaintext = Herhangi bir sorunuz veya yardıma ihtiyacınız varsa destek ekibimizle iletişime geçebilirsiniz:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } uygulamasını { -google-play }’den indir">
@@ -122,6 +124,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Daha fazla bilgi için { -brand-
 automated-email-reset =
     Bu otomatik bir e-postadır. Bu işlemi siz onaylamadıysanız <a data-l10n-name="resetLink">lütfen parolanızı sıfırlayın</a>.
     Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Bu işleme onay vermediyseniz lütfen hemen { $resetLink } adresinden parolanızı sıfırlayın
 brand-banner-message = { -product-firefox-accounts } adını { -product-mozilla-accounts } olarak değiştirdiğimizi biliyor muydunuz? <a data-l10n-name="learnMore">Bilgi alın</a>
 cancellationSurvey = Hizmetlerimizi iyileştirebilmemiz için bu <a data-l10n-name="cancellationSurveyUrl">kısa ankete</a> katılmanızı rica ederiz.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +247,21 @@ fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Sorularınız varsa lütfen destek ekibimizle iletişime geçin: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-title = { -brand-mozilla } hesabınız ve verileriniz silinecek
+inactiveAccountFinalWarning-preview = Hesabınızı korumak için giriş yapın
+inactiveAccountFirstWarning-subject = Hesabınızı kaybetmeyin
+inactiveAccountFirstWarning-inactive-status = İki yıldır giriş yapmadığınızı fark ettik.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Aktif olmadığınız için <strong>{ $deletionDate }</strong> tarihinde hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
+inactiveAccountSecondWarning-subject = İşlem gerekiyor: Hesabınız 7 gün sonra silinecek
+inactiveAccountSecondWarning-title = 7 gün sonra { -brand-mozilla } hesabınız ve verileriniz silinecektir
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Aktif olmadığınız için <strong>{ $deletionDate }</strong> tarihinde hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
+inactiveAccountSecondWarning-action = Hesabınızı korumak için giriş yapın
+inactiveAccountSecondWarning-preview = Hesabınızı korumak için giriş yapın
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Hesabınızı korumak için giriş yapın:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Yedek kimlik doğrulama kodunuz kalmadı!
 codes-reminder-title-one = Son yedek kimlik doğrulama kodunuzu kullanmak üzeresiniz
@@ -318,6 +338,7 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }nıza yeni bir hesa
 postAddLinkedAccount-title-2 = { $providerName } hesabınız { -product-mozilla-account }na bağlandı
 postAddLinkedAccount-action = Hesabı yönet
 postAddRecoveryPhone-subject = Kurtarma telefonu eklendi
+postAddRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postAddRecoveryPhone-title = Kurtarma telefon numarası oluşturdunuz
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -345,6 +366,7 @@ postChangePrimary-title = Yeni ana e-posta
 postChangePrimary-description-2 = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-mozilla-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 postChangePrimary-action = Hesabı yönet
 postChangeRecoveryPhone-subject = Kurtarma telefonu güncellendi
+postChangeRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postChangeRecoveryPhone-title = Kurtarma telefonunuzu değiştirdiniz
 postChangeRecoveryPhone-description = Artık yeni bir kurtarma telefonunuz var. Önceki telefon numaranız silindi.
 postChangeRecoveryPhone-requested-device = Bu cihazdan istediniz:
@@ -368,6 +390,7 @@ postRemoveAccountRecovery-body-part1 = Parolanızı unutursanız şifrelenmiş g
 postRemoveAccountRecovery-body-part2 = Henüz oluşturmadıysanız hesap ayarlarınızdan yeni bir hesap kurtarma anahtarı oluşturun. Kayıtlı parolalarınızı, yer imlerinizi, gezinti geçmişinizi ve diğer verilerinizi kaybetmeyin.
 postRemoveAccountRecovery-action = Hesabı yönet
 postRemoveRecoveryPhone-subject = Kurtarma telefonu kaldırıldı
+postRemoveRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postRemoveRecoveryPhone-title = Kurtarma telefonu kaldırıldı
 postRemoveRecoveryPhone-description = Kurtarma telefonunuz iki aşamalı kimlik doğrulama ayarlarınızdan kaldırıldı. Yedek kimlik doğrulama kodlarınızı kullanmaya devam edebilirsiniz.
 postRemoveRecoveryPhone-requested-device = Bu cihazdan istediniz:
@@ -383,6 +406,10 @@ postRemoveTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı kapattın
 postRemoveTwoStepAuthentication-from-device = Bu cihazdan devre dışı bıraktınız:
 postRemoveTwoStepAuthentication-action = Hesabı yönet
 postRemoveTwoStepAuthentication-not-required-2 = Artık giriş yaparken kimlik doğrulama uygulamanızın güvenlik kodlarına ihtiyacınız yok.
+postSigninRecoveryCode-description = Bunu siz yapmadıysanız hesabınızın güvenliğini sağlamak için parolanızı hemen değiştirmelisiniz.
+postSigninRecoveryCode-device = Bu cihazdan giriş yaptınız:
+postSigninRecoveryCode-action = Hesabı yönet
+postSigninRecoveryPhone-subject = Giriş yapmak için kullanılan kurtarma telefonu
 postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
 postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
 postVerify-description-2 = Çok kolay! Eşitlemeyi başlatmak için başka bir cihaza { -brand-firefox }’u yükleyip hesabınıza giriş yapmanız yeterli.
