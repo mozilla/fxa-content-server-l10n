@@ -49,6 +49,8 @@ subplat-legal = Prawniske
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support = Jeli prašenja maće abo pomoc trjebaće, stajće so z našim <a data-l10n-name="supportLink">teamom pomocy</a> do zwiska.
+account-deletion-info-block-support-plaintext = Jeli prašenja maće abo pomoc trjebaće, stajće so z našim teamom pomocy do zwiska.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } na { -google-play } sćahnyć">
@@ -122,6 +124,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Za dalše informacije wopytajće
 automated-email-reset =
     To je awtomatizowana mejlka; jeli njejsće tutu akciju awtorizował, <a data-l10n-name="resetLink">stajće prošu swoje hesło wróćo.</a>.
     Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Jeli njejsće tutu akciju awtorizował, stajće prošu nětko swoje hesło na { $resetLink } wróćo
 brand-banner-message = Sće wědźał, zo smy naše mjeno wot { -product-firefox-accounts } do { -product-mozilla-accounts } změnili? <a data-l10n-name="learnMore">Dalše informacije</a>
 cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl">krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
