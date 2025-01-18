@@ -247,6 +247,7 @@ fraudulentAccountDeletion-contact = Jeli prašenja maće, stajće so z našim <a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jeli prašenja maće, stajće so prošu z našim teamom pomocy do zwiska: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Poslednja šansa, zo byšće při swojim konće { -product-mozilla-account } wostał
 inactiveAccountFinalWarning-title = Waše kontowe a daty { -brand-mozilla } so zhašeja
 inactiveAccountFinalWarning-preview = Přizjewće so, zo byšće při swojim konće wostał
 inactiveAccountFinalWarning-action = Přizjewće so, zo byšće při swojim konće wostał
@@ -416,11 +417,13 @@ postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaće hižo wěstotne ko
 postSigninRecoveryCode-subject = Awtentifikaciski kod za zawěsćenje, kotryž so za přizjewjenje wužiwa
 postSigninRecoveryCode-preview = Kontowu aktiwitu wobkrućić
 postSigninRecoveryCode-title = Waš awtentifikaciski kod za zawěsćenje, kotryž je so za přizjewjenje wužił
+postSigninRecoveryCode-description = Jeli njejsće to činił, změńće swoje hesło hnydom, zo byšće swoje konto wěsty dźeržał.
 postSigninRecoveryCode-device = Sće so přizjewił wot:
 postSigninRecoveryCode-action = Konto rjadować
 postSigninRecoveryPhone-subject = Wobnowjenski telefon, kotryž so za přizjewjenje wužiwa
 postSigninRecoveryPhone-preview = Kontowu aktiwitu wobkrućić
 postSigninRecoveryPhone-title = Waš wobnowjenski telefon je so za přizjewjenje wužił
+postSigninRecoveryPhone-description = Jeli njejsće to činił, změńće swoje hesło hnydom, zo byšće swoje konto wěsty dźeržał.
 postSigninRecoveryPhone-device = Sće so přizjewił wot:
 postSigninRecoveryPhone-action = Konto rjadować
 postVerify-sub-title-3 = Wjeselimy so was widźeć!

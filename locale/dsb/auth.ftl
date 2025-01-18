@@ -247,6 +247,7 @@ fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jolic pšašanja maśo, stajśo se pšosym z našym teamom pomocy do zwiska: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Slědna šansa, aby wy pśi swójom konśe { -product-mozilla-account } wóstał
 inactiveAccountFinalWarning-title = Waše kontowe a daty { -brand-mozilla } se wulašuju
 inactiveAccountFinalWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
 inactiveAccountFinalWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
@@ -416,11 +417,13 @@ postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaśo wěcej wěstotne k
 postSigninRecoveryCode-subject = Awtentifikaciski kod za zawěsćenje, kótaryž se za pśizjawjenje wužywa
 postSigninRecoveryCode-preview = Kontowu aktiwitu wobkšuśiś
 postSigninRecoveryCode-title = Waš awtentifikaciski kod za zawěsćenje jo se wužył za pśizjawjenje
+postSigninRecoveryCode-description = Jolic njejsćo to cynił, změńśo swójo gronidło ned, aby swójo konto wěsty źaržał.
 postSigninRecoveryCode-device = Sćo se pśizjawił wót:
 postSigninRecoveryCode-action = Konto zastojaś
 postSigninRecoveryPhone-subject = Wótnowjeński telefon, kótaryž se za pśizjawjenje wužywa
 postSigninRecoveryPhone-preview = Kontowu aktiwitu wobkšuśiś
 postSigninRecoveryPhone-title = Wótnowjeński telefon, kótaryž jo se wužył za pśizjawjenje
+postSigninRecoveryPhone-description = Jolic njejsćo to cynił, změńśo swójo gronidło ned, aby swójo konto wěsty źaržał.
 postSigninRecoveryPhone-device = Sćo se pśizjawił wót:
 postSigninRecoveryPhone-action = Konto zastojaś
 postVerify-sub-title-3 = Wjaselimy se was wiźeś!
@@ -675,6 +678,7 @@ verifySecondaryCode-expiry-notice-2 = Spadnjo za 5 minutow. Gaž jo se wobkšuś
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Wubkšuśćo swójo konto
+verifyShortCode-preview = Wužywajśo pśipołožony kod, aby swójo konto { -product-mozilla-account } wobkšuśił.
 verifyShortCode-title-3 = Wócyńśo internet z { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-mozilla }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:

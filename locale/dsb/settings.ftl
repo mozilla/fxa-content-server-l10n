@@ -877,6 +877,10 @@ recovery-key-create-back-button-title = Slědk k nastajenjam
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Numer wótnowjeńskego telefona wótwónoźeś
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = To <strong>{ $formattedFullPhoneNumber }</strong> ako waš wótnowjeński telefon wótwónoźijo.
+settings-recovery-phone-remove-recommend = Pórucujomy, pśi toś tej metoźe wóstaś, dokulaž jo lažčejša, ako awtentifikaciske kody za zawěsćenje składowaś.
 settings-recovery-phone-remove-button = Telefonowy numer wótwónoźeś
 settings-recovery-phone-remove-cancel = Pśetergnuś
 
