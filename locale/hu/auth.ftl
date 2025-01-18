@@ -256,26 +256,26 @@ inactiveAccountFinalWarning-preview = Jelentkezzen be a fiókja megtartásához
 inactiveAccountFinalWarning-account-description = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } Sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és az { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = Ha nem jelentkezik be, akkor fiókja és személyes adatai véglegesen törlésre kerülnek <strong>{ $deletionDate }</strong>.
+inactiveAccountFinalWarning-impact = Ha nem jelentkezik be, akkor fiókja és személyes adatai ekkor véglegesen törlésre kerülnek: <strong>{ $deletionDate }</strong>.
 inactiveAccountFinalWarning-action = Jelentkezzen be a fiókja megtartásához
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Jelentkezzen be, hogy megtartsa a fiókját:
 inactiveAccountFirstWarning-subject = Ne veszítse el fiókját
 inactiveAccountFirstWarning-title = Megtartja a { -brand-mozilla }-fiókját és adatait?
-inactiveAccountFirstWarning-account-description-v2 = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és a { -product-mdn }.
+inactiveAccountFirstWarning-account-description-v2 = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } Sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és az { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Észrevettük, hogy 2 éve nem jelentkezett be.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Fiókja és személyes adatai véglegesen törölve lesznek ekkor: <strong>{ $deletionDate }</strong>, mert nem volt aktív.
+inactiveAccountFirstWarning-impact = Mivel nem volt aktív, a fiókja és személyes adatai ekkor véglegesen törlésre kerülnek: <strong>{ $deletionDate }</strong>.
 inactiveAccountFirstWarning-action = Jelentkezzen be a fiókja megtartásához
 inactiveAccountFirstWarning-preview = Jelentkezzen be a fiókja megtartásához
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Jelentkezzen be, hogy megtartsa a fiókját:
 inactiveAccountSecondWarning-subject = Művelet szükséges: Fióktörlés 7 napon belül
-inactiveAccountSecondWarning-title = A { -brand-mozilla }-fiókját és adatait 7 nap múlva töröljük
-inactiveAccountSecondWarning-account-description-v2 = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és a { -product-mdn }.
+inactiveAccountSecondWarning-title = A { -brand-mozilla }-fiókja és az adatai 7 nap múlva törlésre kerülnek
+inactiveAccountSecondWarning-account-description-v2 = A { -product-mozilla-account } ja az ingyenes adatvédelmi és böngészési termékek elérésére használható, mint a { -brand-firefox } Sync, a { -product-mozilla-monitor }, a { -product-firefox-relay } és az { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Fiókja és személyes adatai véglegesen törölve lesznek ekkor: <strong>{ $deletionDate }</strong>, mert nem volt aktív.
+inactiveAccountSecondWarning-impact = Mivel nem volt aktív, a fiókja és személyes adatai ekkor véglegesen törlésre kerülnek: <strong>{ $deletionDate }</strong>.
 inactiveAccountSecondWarning-action = Jelentkezzen be a fiókja megtartásához
 inactiveAccountSecondWarning-preview = Jelentkezzen be a fiókja megtartásához
 # followed by link to sign in
