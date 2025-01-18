@@ -276,10 +276,10 @@ inactiveAccountSecondWarning-title = Váš účet { -brand-mozilla } a data budo
 inactiveAccountSecondWarning-account-description-v2 = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Váš účet a vaše osobní data budou dne <strong>{ $deletionDate }</strong> trvale smazána, protože nejste aktivní.
-inactiveAccountSecondWarning-action = Pro zachování účtu se přihlaste
-inactiveAccountSecondWarning-preview = Pro zachování účtu se přihlaste
+inactiveAccountSecondWarning-action = Přihlaste se a zachovejte si svůj účet
+inactiveAccountSecondWarning-preview = Přihlaste se a zachovejte si svůj účet
 # followed by link to sign in
-inactiveAccountSecondWarning-action-plaintext = Pro zachování účtu:
+inactiveAccountSecondWarning-action-plaintext = Přihlaste se a zachovejte si svůj účet:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Došly vám záložní ověřovací kódy!
 codes-reminder-title-one = Používáte poslední záložní ověřovací kód
