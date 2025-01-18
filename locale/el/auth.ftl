@@ -370,6 +370,7 @@ postChangePrimary-title = Νέο κύριο email
 postChangePrimary-description-2 = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας και θα χρησιμοποιείται για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
 postChangePrimary-action = Διαχείριση λογαριασμού
 postChangeRecoveryPhone-subject = Το τηλέφωνο ανάκτησης ενημερώθηκε
+postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -390,6 +391,7 @@ postRemoveAccountRecovery-title-3 = Διαγράψατε το κλειδί αν�
 postRemoveAccountRecovery-body-part1 = Το κλειδί ανάκτησης του λογαριασμού σας απαιτείται για την επαναφορά των κρυπτογραφημένων δεδομένων περιήγησής σας, εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 postRemoveAccountRecovery-body-part2 = Εάν δεν το έχετε κάνει ήδη, δημιουργήστε ένα νέο κλειδί ανάκτησης λογαριασμού στις ρυθμίσεις του λογαριασμού σας για να αποτρέψετε την απώλεια των αποθηκευμένων κωδικών πρόσβασης, των σελιδοδεικτών, του ιστορικού περιήγησης και άλλων δεδομένων.
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
+postRemoveRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
@@ -402,7 +404,11 @@ postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε τη�
 postRemoveTwoStepAuthentication-from-device = Απενεργοποιήθηκε από το:
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required-2 = Δεν χρειάζεστε πλέον κωδικούς ασφαλείας από την εφαρμογή ταυτοποίησής σας κατά τη σύνδεση.
+postSigninRecoveryCode-subject = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης για σύνδεση
 postSigninRecoveryCode-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
+postSigninRecoveryCode-device = Έχετε συνδεθεί από:
+postSigninRecoveryCode-action = Διαχείριση λογαριασμού
+postSigninRecoveryPhone-subject = Τηλέφωνο ανάκτησης που χρησιμοποιήθηκε για σύνδεση
 postSigninRecoveryPhone-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
 postSigninRecoveryPhone-action = Διαχείριση λογαριασμού
 postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!

@@ -50,6 +50,9 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = פרטיות
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = אם החשבון שלך נמחק, עדיין יתקבלו הודעות דוא״ל מ־Mozilla Corporation ומ־Mozilla Foundation, אלא אם <a data-l10n-name="unsubscribeLink">תבקש לבטל את הרישום כמינוי</a>.
+account-deletion-info-block-support = אם יש לך שאלות כלשהן או שיש לך צורך בסיוע, נא ליצור קשר עם <a data-l10n-name="mozillaSupportUrl">צוות התמיכה</a> שלנו.
+account-deletion-info-block-communications-plaintext = אם החשבון שלך נמחק, עדיין יתקבלו הודעות דוא״ל מ־Mozilla Corporation ומ־Mozilla Foundation, אלא אם תבקש לבטל את הרישום כמינוי:
+account-deletion-info-block-support-plaintext = אם יש לך שאלות כלשהן או שיש לך צורך בסיוע, נא ליצור קשר עם צוות התמיכה שלנו:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="הורדת { $productName } ב־{ -google-play }">
@@ -71,6 +74,7 @@ automated-email-support = למידע נוסף, ניתן לבקר ב<a data-l10n-
 automated-email-change-plaintext-2 = אם לא ביצעת פעולה זו, יש לשנות את הססמה שלך מיד:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = למידע נוסף, ניתן לבקר בתמיכה של { -brand-mozilla }:
+automated-email-inactive-account = זוהי הודעת דוא״ל אוטומטית. קיבלת אותה מכיוון שיש לך  { -product-mozilla-account(case: "a") } ועברו שנתיים מאז ההתחברות האחרונה שלך.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = זוהי הודעת דוא״ל אוטומטית. אם קיבלת אותה בטעות, אין צורך לעשות דבר.
@@ -117,6 +121,9 @@ automatedEmailRecoveryKey-more-info-plaintext = למידע נוסף, ניתן ל
 automated-email-reset =
     זוהי הודעת דוא״ל אוטומטית; אם לא אישרת או יזמת פעולה זו, יש <a data-l10n-name="resetLink">לאפס את הססמה שלך</a>.
     למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = אם לא אישרת פעולה זו, נא לאפס את הססמה שלך כעת בכתובת { $resetLink }
 brand-banner-message = האם ידעת ששינינו את השם שלנו מ־{ -product-firefox-accounts } ל{ -product-mozilla-accounts }? <a data-l10n-name="learnMore">מידע נוסף</a>
 cancellationSurvey = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי <a data-l10n-name="cancellationSurveyUrl">סקר קצר</a> זה.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -238,6 +245,15 @@ fraudulentAccountDeletion-contact = אם יש לך שאלות כלשהן, נא �
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = אם יש לך שאלות כלשהן, נא ליצור קשר עם צוות התמיכה שלנו: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = הזדמנות אחרונה לשמור על { -product-mozilla-account(case: "the") } שלך
+inactiveAccountFinalWarning-title = חשבון ה־{ -brand-mozilla } שלך והנתונים שלו יימחקו
+inactiveAccountFinalWarning-preview = יש להיכנס כדי לשמור על החשבון שלך
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = בתאריך <strong>{ $deletionDate }</strong>, החשבון והנתונים האישיים שלך יימחקו לצמיתות אלא אם תבוצע כניסה לחשבון.
+inactiveAccountFinalWarning-action = יש להיכנס כדי לשמור על החשבון שלך
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = יש להיכנס כדי לשמור על החשבון שלך:
 codes-reminder-description-part-two = מומלץ ליצור קודים חדשים עכשיו כדי שהנתונים שלך לא יאבדו מאוחר יותר.
 codes-reminder-description-two-left = נשארו לך רק שני קודים.
 lowRecoveryCodes-action-2 = יצירת קודים

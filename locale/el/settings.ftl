@@ -329,6 +329,7 @@ input-password-sr-only-now-hidden = Ο κωδικός πρόσβασής σας 
 
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
 input-phone-number-country-list-aria-label = Επιλογή χώρας
+input-phone-number-enter-number = Εισαγάγετε τον αριθμό τηλεφώνου
 input-phone-number-country-united-states = Ηνωμένες Πολιτείες
 input-phone-number-country-canada = Καναδάς
 # Back button on legal/terms or legal/privacy that takes users to the previous page
@@ -572,6 +573,9 @@ dc-learn-more = Μάθετε περισσότερα
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Μενού { -product-mozilla-account(case: "gen", capitalization: "lower") }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Συνδεθήκατε ως
 drop-down-menu-sign-out = Αποσύνδεση
 drop-down-menu-sign-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αποσύνδεση
 
@@ -625,6 +629,9 @@ flow-recovery-key-info-cancel-link = Ακύρωση
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Εισάγετε τον κωδικό επαλήθευσής
 flow-setup-phone-confirm-code-button = Επιβεβαίωση
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -634,6 +641,7 @@ flow-setup-phone-confirm-code-success-message-v2 = Προστέθηκε τηλέ
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Επαληθεύστε τον αριθμό τηλεφώνου σας
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Αποστολή κωδικού
 
