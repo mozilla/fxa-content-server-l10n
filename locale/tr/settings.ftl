@@ -639,6 +639,7 @@ flow-setup-phone-confirm-code-button = Onayla
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Kodun süresi mi doldu?
 flow-setup-phone-confirm-code-resend-code-button = Kodu yeniden gönder
+flow-setup-phone-confirm-code-success-message-v2 = Kurtarma telefonu eklendi
 
 ## FlowSetupPhoneConfirmCode
 
@@ -864,6 +865,7 @@ recovery-key-create-back-button-title = Ayarlara dön
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Kurtarma telefon numarasını kaldır
 
 ## PageSetupRecoveryPhone
 

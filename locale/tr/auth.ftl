@@ -410,6 +410,7 @@ postSigninRecoveryCode-description = Bunu siz yapmadıysanız hesabınızın gü
 postSigninRecoveryCode-device = Bu cihazdan giriş yaptınız:
 postSigninRecoveryCode-action = Hesabı yönet
 postSigninRecoveryPhone-subject = Giriş yapmak için kullanılan kurtarma telefonu
+postSigninRecoveryPhone-action = Hesabı yönet
 postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
 postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
 postVerify-description-2 = Çok kolay! Eşitlemeyi başlatmak için başka bir cihaza { -brand-firefox }’u yükleyip hesabınıza giriş yapmanız yeterli.
