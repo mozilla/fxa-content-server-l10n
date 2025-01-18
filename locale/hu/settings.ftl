@@ -883,10 +883,10 @@ recovery-key-create-back-button-title = Vissza a beállításokhoz
 recovery-phone-remove-header = Helyreállítási telefonszám eltávolítása
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Ez eltávolítja a(z) <strong>{ $formattedFullPhoneNumber }</strong> telefonszámot a helyreállítási telefonszámként.
+settings-recovery-phone-remove-info = Ez eltávolítja a(z) <strong>{ $formattedFullPhoneNumber }</strong> telefonszámot helyreállítási telefonszámként.
 settings-recovery-phone-remove-recommend = Javasoljuk, hogy tartsa meg ezt a módszert, mert könnyebb, mint a tartalék hitelesítési kódok elmentése.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Ha törli, győződjön meg róla, hogy vannak-e még az elmentett tartalék hitelesítési kódjai. <linkExternal>Helyreállítási módszerek összehasonlítása</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Ha törli, győződjön meg róla, hogy megvannak-e még az elmentett tartalék hitelesítési kódjai. <linkExternal>Helyreállítási módszerek összehasonlítása</linkExternal>
 settings-recovery-phone-remove-button = Telefonszám eltávolítása
 settings-recovery-phone-remove-cancel = Mégse
 
@@ -1051,7 +1051,7 @@ tfa-row-backup-phone-add-cta = Hozzáadás
 tfa-row-backup-phone-delete-button = Eltávolítás
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Helyreállítási telefonszám eltávolítása
-tfa-row-backup-phone-delete-restriction-v2 = Ha el akarja távolítani a helyreállítási telefonszámát, adjon hozzá tartalék hitelesítési kódokat vagy először kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja a fiókját.
+tfa-row-backup-phone-delete-restriction-v2 = Ha el akarja távolítani a helyreállítási telefonszámát, adjon hozzá tartalék hitelesítési kódokat vagy először kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja magát a fiókjából.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Ez a könnyebb helyreállítási módszer, ha nem tudja használni a hitelesítő alkalmazást.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
