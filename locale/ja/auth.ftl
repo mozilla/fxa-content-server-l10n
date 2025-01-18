@@ -49,6 +49,10 @@ subplat-legal = 法的通知
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = プライバシー
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = アカウントが削除された場合でも、<a data-l10n-name="unsubscribeLink">配信停止を依頼</a> しない限り、Mozilla Corporation および Mozilla Foundation からのメールは引き続き配信されます。
+account-deletion-info-block-support = ご不明な点やご質問がありましたら、お気軽に <a data-l10n-name="supportLink">サポートチーム</a> までお問い合わせください。
+account-deletion-info-block-communications-plaintext = アカウントが削除された場合でも、配信停止を依頼しない限り、Mozilla Corporation および Mozilla Foundation からのメールは引き続き配信されます。
+account-deletion-info-block-support-plaintext = ご不明な点やご質問がありましたら、お気軽にサポートチームまでお問い合わせください:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play } で { $productName } をダウンロード">
