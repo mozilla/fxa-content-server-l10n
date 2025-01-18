@@ -257,9 +257,9 @@ inactiveAccountFinalWarning-account-description = Váš { -product-mozilla-accou
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Dne <strong>{ $deletionDate }</strong> budou váš účet a vaše osobní data trvale smazána, dokud se nepřihlásíte.
-inactiveAccountFinalWarning-action = Pro zachování účtu se přihlaste
+inactiveAccountFinalWarning-action = Přihlaste se a zachovejte si svůj účet
 # followed by link to sign in
-inactiveAccountFinalWarning-action-plaintext = Pro zachování účtu:
+inactiveAccountFinalWarning-action-plaintext = Přihlaste se a zachovejte si svůj účet:
 inactiveAccountFirstWarning-subject = Neztraťte svůj účet
 inactiveAccountFirstWarning-title = Chcete si ponechat účet { -brand-mozilla } a data?
 inactiveAccountFirstWarning-account-description-v2 = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
@@ -267,10 +267,10 @@ inactiveAccountFirstWarning-inactive-status = Všimli jsme si, že jste se nepř
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Váš účet a vaše osobní data budou dne <strong>{ $deletionDate }</strong> trvale smazána, protože nejste aktivní.
-inactiveAccountFirstWarning-action = Pro zachování účtu se přihlaste
-inactiveAccountFirstWarning-preview = Pro zachování účtu se přihlaste
+inactiveAccountFirstWarning-action = Přihlaste se a zachovejte si svůj účet
+inactiveAccountFirstWarning-preview = Přihlaste se a zachovejte si svůj účet
 # followed by link to sign in
-inactiveAccountFirstWarning-action-plaintext = Pro zachování účtu:
+inactiveAccountFirstWarning-action-plaintext = Přihlaste se a zachovejte si svůj účet:
 inactiveAccountSecondWarning-subject = Je vyžadována akce: účet bude za 7 dní smazán
 inactiveAccountSecondWarning-title = Váš účet { -brand-mozilla } a data budou smazána za 7 dní
 inactiveAccountSecondWarning-account-description-v2 = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
