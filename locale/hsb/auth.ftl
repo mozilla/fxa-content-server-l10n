@@ -247,6 +247,24 @@ fraudulentAccountDeletion-contact = Jeli prašenja maće, stajće so z našim <a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jeli prašenja maće, stajće so prošu z našim teamom pomocy do zwiska: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-title = Waše kontowe a daty { -brand-mozilla } so zhašeja
+inactiveAccountFinalWarning-preview = Přizjewće so, zo byšće při swojim konće wostał
+inactiveAccountFinalWarning-action = Přizjewće so, zo byšće při swojim konće wostał
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Přizjewće so, zo byšće při swojim konće wostał:
+inactiveAccountFirstWarning-subject = Njezhubjejće swoje konto
+inactiveAccountFirstWarning-title = Chceće při swojim konće { -brand-mozilla } a swojich datach wostać?
+inactiveAccountFirstWarning-inactive-status = Smy pytnyli, zo njejsće so 2 lěće dołho přizjewił.
+inactiveAccountFirstWarning-action = Přizjewće so, zo byšće při swojim konće wostał
+inactiveAccountFirstWarning-preview = Přizjewće so, zo byšće při swojim konće wostał
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Přizjewće so, zo byšće při swojim konće wostał:
+inactiveAccountSecondWarning-subject = Akcija trěbna: Kontowe zhašenje za 7 dnjow
+inactiveAccountSecondWarning-title = Waše kontowe a daty { -brand-mozilla } so za 7 dnjow zhašeja
+inactiveAccountSecondWarning-action = Přizjewće so, zo byšće při swojim konće wostał
+inactiveAccountSecondWarning-preview = Přizjewće so, zo byšće při swojim konće wostał
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Přizjewće so, zo byšće při swojim konće wostał:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Nimaće hižo kody za zawěsćensku awtentfikaciju!
 codes-reminder-title-one = Wužiwaće hižo swój posledni kod za zawěsćensku awtentifikaciju
@@ -325,6 +343,7 @@ postAddLinkedAccount-subject-2 = Nowe konto je so z wašim { -product-mozilla-ac
 postAddLinkedAccount-title-2 = Waše konto { $providerName } je so z wašim { -product-mozilla-account(case: "instr", capitalization: "lower") } zwjazało.
 postAddLinkedAccount-action = Konto rjadować
 postAddRecoveryPhone-subject = Wobnowjenski telefon přidaty
+postAddRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju škita
 postAddRecoveryPhone-title = Sće čisło wobnowjenskeho telefona wutworił
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -352,6 +371,7 @@ postChangePrimary-title = Nowa primarna e-mejlowa adresa
 postChangePrimary-description-2 = Sće swoju primarnu e-mejlowu adresu wuspěšnje do { $email } změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho { -product-mozilla-account(case: "gen", capitalization: "lower") } a zo byšće wěstotne powěsće a přizjewjenske
 postChangePrimary-action = Konto rjadować
 postChangeRecoveryPhone-subject = Wobnowjenski telefon zaktualizowany
+postChangeRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju škita
 postChangeRecoveryPhone-title = Sće swój wobnowjenski telefon změnił
 postChangeRecoveryPhone-description = Maće nětko nowy wobnowjenski telefon. Waše předchadne telefonowe čisło je so zhašało.
 postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
@@ -377,6 +397,7 @@ postRemoveAccountRecovery-body-part1 = Waš kontowy wobnowjenski kluč je trěbn
 postRemoveAccountRecovery-body-part2 = Jeli hišće kluč nimaće, wutworće nowy kontowy wobnowjenski kluč w swojich kontowych nastajenjach, zo byšće tomu zadźěwał, zo so waše składowane hesła, zapołožki, přehladowanska historija a wjace zhubja.
 postRemoveAccountRecovery-action = Konto rjadować
 postRemoveRecoveryPhone-subject = Wobnowjenski telefon wotstronjeny
+postRemoveRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju škita
 postRemoveRecoveryPhone-title = Wobnowjenski telefon wotstronjeny
 postRemoveRecoveryPhone-description = Waš wobnowjenski telefon je so z wašich nastajenjow za dwukročelowu awtentifikaciju wotstronił. Waše awtentifikaciske kody za zawěsćenje su hišće za wužiwanje k dispoziciji.
 postRemoveRecoveryPhone-requested-device = Sće jón požadał wot:
@@ -392,6 +413,13 @@ postRemoveTwoStepAuthentication-title-2 = Sće dwukročelowu awtentifikaciju znj
 postRemoveTwoStepAuthentication-from-device = Sće ju znjemóžnił z:
 postRemoveTwoStepAuthentication-action = Konto rjadować
 postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaće hižo wěstotne kody ze swojeho awtentifikaciskeho nałoženja, hdyž so přizjewjeće.
+postSigninRecoveryCode-subject = Awtentifikaciski kod za zawěsćenje, kotryž so za přizjewjenje wužiwa
+postSigninRecoveryCode-preview = Kontowu aktiwitu wobkrućić
+postSigninRecoveryCode-title = Waš awtentifikaciski kod za zawěsćenje, kotryž je so za přizjewjenje wužił
+postSigninRecoveryCode-device = Sće so přizjewił wot:
+postSigninRecoveryCode-action = Konto rjadować
+postSigninRecoveryPhone-subject = Wobnowjenski telefon, kotryž so za přizjewjenje wužiwa
+postSigninRecoveryPhone-preview = Kontowu aktiwitu wobkrućić
 postVerify-sub-title-3 = Wjeselimy so was widźeć!
 postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
 postVerify-description-2 = To je lochko! Instalujće prosće { -brand-firefox } na druhim graće a přizjewće so za synchronizaciju. Na magiske wašnje!
