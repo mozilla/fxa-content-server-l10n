@@ -644,6 +644,11 @@ flow-setup-phone-confirm-code-success-message-v2 = Kurtarma telefonu eklendi
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Telefon numaranızı doğrulayın
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Kurtarma telefonu yalnızca Amerika Birleşik Devletleri ve Kanada’da kullanılabilir. VoIP numaraları ve telefon maskeleri önerilmez.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kodu gönder
 
@@ -866,6 +871,10 @@ recovery-key-create-back-button-title = Ayarlara dön
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Kurtarma telefon numarasını kaldır
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Bu işlem <strong>{ $formattedFullPhoneNumber }</strong> numaralı kurtarma telefonunuzu kaldıracaktır.
+settings-recovery-phone-remove-button = Telefon numarasını kaldır
 settings-recovery-phone-remove-cancel = Vazgeç
 
 ## PageSetupRecoveryPhone

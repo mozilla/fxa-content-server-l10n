@@ -249,6 +249,9 @@ fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l
 fraudulentAccountDeletion-contact-plaintext = Sorularınız varsa lütfen destek ekibimizle iletişime geçin: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-title = { -brand-mozilla } hesabınız ve verileriniz silinecek
 inactiveAccountFinalWarning-preview = Hesabınızı korumak için giriş yapın
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> tarihine kadar giriş yapmazsanız hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
 inactiveAccountFirstWarning-subject = Hesabınızı kaybetmeyin
 inactiveAccountFirstWarning-inactive-status = İki yıldır giriş yapmadığınızı fark ettik.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
@@ -410,6 +413,9 @@ postSigninRecoveryCode-description = Bunu siz yapmadıysanız hesabınızın gü
 postSigninRecoveryCode-device = Bu cihazdan giriş yaptınız:
 postSigninRecoveryCode-action = Hesabı yönet
 postSigninRecoveryPhone-subject = Giriş yapmak için kullanılan kurtarma telefonu
+postSigninRecoveryPhone-title = Kurtarma telefonunuzla giriş yapıldı
+postSigninRecoveryPhone-description = Bunu siz yapmadıysanız hesabınızın güvenliğini sağlamak için parolanızı hemen değiştirmelisiniz.
+postSigninRecoveryPhone-device = Giriş yaptığınız cihaz:
 postSigninRecoveryPhone-action = Hesabı yönet
 postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
 postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
