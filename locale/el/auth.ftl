@@ -389,6 +389,7 @@ postChangeRecoveryPhone-subject = Το τηλέφωνο ανάκτησης εν�
 postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
+postChangeRecoveryPhone-requested-device = Το ζητήσατε από το:
 postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Χρησιμοποιήθηκε στο:
@@ -411,6 +412,8 @@ postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
 postRemoveRecoveryPhone-subject = Το τηλέφωνο ανάκτησης αφαιρέθηκε
 postRemoveRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postRemoveRecoveryPhone-title = Το τηλέφωνο ανάκτησης αφαιρέθηκε
+postRemoveRecoveryPhone-description = Το τηλέφωνο ανάκτησής σας έχει αφαιρεθεί από τις ρυθμίσεις της ταυτοποίησης δύο παραγόντων. Οι εφεδρικοί σας κωδικοί ταυτοποίησης εξακολουθούν να είναι διαθέσιμοι προς χρήση.
+postRemoveRecoveryPhone-requested-device = Το ζητήσατε από το:
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
@@ -425,6 +428,7 @@ postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμ
 postRemoveTwoStepAuthentication-not-required-2 = Δεν χρειάζεστε πλέον κωδικούς ασφαλείας από την εφαρμογή ταυτοποίησής σας κατά τη σύνδεση.
 postSigninRecoveryCode-subject = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης για σύνδεση
 postSigninRecoveryCode-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
+postSigninRecoveryCode-title = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης για σύνδεση
 postSigninRecoveryCode-device = Έχετε συνδεθεί από:
 postSigninRecoveryCode-action = Διαχείριση λογαριασμού
 postSigninRecoveryPhone-subject = Τηλέφωνο ανάκτησης που χρησιμοποιήθηκε για σύνδεση

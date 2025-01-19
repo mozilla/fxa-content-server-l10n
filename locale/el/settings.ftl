@@ -635,6 +635,7 @@ flow-setup-phone-confirm-code-heading = Εισάγετε τον κωδικό ε�
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
 flow-setup-phone-confirm-code-instruction = Ένας εξαψήφιος κωδικός έχει αποσταλεί στο <span>{ $phoneNumber }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά.
+flow-setup-phone-confirm-code-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 flow-setup-phone-confirm-code-button = Επιβεβαίωση
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -645,6 +646,8 @@ flow-setup-phone-confirm-code-success-message-v2 = Προστέθηκε τηλέ
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Επαληθεύστε τον αριθμό τηλεφώνου σας
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Θα λάβετε ένα μήνυμα κειμένου από τη { -brand-mozilla } με έναν κωδικό για την επαλήθευση του αριθμού σας. Μην μοιραστείτε αυτόν τον κωδικό με κανέναν.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Αποστολή κωδικού
 
@@ -870,6 +873,12 @@ recovery-key-create-back-button-title = Πίσω στις ρυθμίσεις
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Αφαίρεση αριθμού τηλεφώνου ανάκτησης
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Αυτή η ενέργεια θα καταργήσει το <strong>{ $formattedFullPhoneNumber }</strong> από τηλέφωνο ανάκτησης.
+settings-recovery-phone-remove-recommend = Προτείνουμε να διατηρήσετε αυτήν τη μέθοδο, επειδή είναι πιο εύκολη από την αποθήκευση εφεδρικών κωδικών ταυτοποίησης.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Εάν το διαγράψετε, βεβαιωθείτε ότι διαθέτετε ακόμα τους αποθηκευμένους εφεδρικούς κωδικούς ταυτοποίησής σας. <linkExternal>Σύγκριση μεθόδων ανάκτησης</linkExternal>
 settings-recovery-phone-remove-button = Αφαίρεση αριθμού τηλεφώνου
 settings-recovery-phone-remove-cancel = Ακύρωση
 
@@ -929,6 +938,7 @@ tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο �
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
 tfa-cannot-verify-code-4 = Προέκυψε πρόβλημα κατά την επιβεβαίωση του εφεδρικού κωδικού ταυτοποίησής σας
 tfa-incorrect-recovery-code-1 = Εσφαλμένος εφεδρικός κωδικός ταυτοποίησης
+tfa-enabled-v2 = Η ταυτοποίηση δύο παραγόντων έχει ενεργοποιηθεί
 tfa-scan-this-code =
     Σαρώστε τον κωδικό QR με κάποια από <linkExternal>αυτές
     τις εφαρμογές ταυτοποίησης</linkExternal>.
@@ -950,6 +960,10 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης σε ένα ασφαλές μέρος,
     σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
+tfa-enter-code-to-confirm-v2 =
+    Εισαγάγετε έναν από τους νέους σας εφεδρικούς κωδικούς ταυτοποίησης για να
+    επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Οι παλιοί σας εφεδρικοί κωδικοί ταυτοποίησης
+    θα απενεργοποιηθούν μόλις ολοκληρωθεί αυτό το βήμα.
 tfa-enter-recovery-code-1 =
     .label = Εισαγάγετε έναν εφεδρικό κωδικό ταυτοποίησης
 
@@ -1019,9 +1033,13 @@ tfa-row-backup-codes-get-new-cta = Λήψη νέων κωδικών
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Προσθήκη
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Αυτή είναι η πιο ασφαλής μέθοδος ανάκτησης εάν δεν μπορείτε να χρησιμοποιήσετε την κινητή σας συσκευή ή την εφαρμογή ελέγχου ταυτότητάς σας.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Τηλέφωνο ανάκτησης
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available = Δεν υπάρχει διαθέσιμος αριθμός τηλεφώνου ανάκτησης
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Αλλαγή
 # button to add/configure a recovery phone
@@ -1030,6 +1048,12 @@ tfa-row-backup-phone-add-cta = Προσθήκη
 tfa-row-backup-phone-delete-button = Αφαίρεση
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Αφαίρεση τηλεφώνου ανάκτησης
+# "this" refers to recovery phone
+tfa-row-backup-phone-description = Αυτή είναι η πιο εύκολη μέθοδος ανάκτησης εάν δεν μπορείτε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητάς σας.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Μάθετε σχετικά με τον κίνδυνο εναλλαγής SIM
 
 ## Switch component
 
@@ -1181,6 +1205,7 @@ auth-error-139 = Το δευτερεύον email πρέπει να είναι δ
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
+auth-error-206 = Δεν είναι δυνατή η δημιουργία κωδικού πρόσβασης, έχει ήδη οριστεί κωδικός πρόσβασης
 auth-error-999 = Απροσδόκητο σφάλμα
 auth-error-1001 = Η προσπάθεια σύνδεσης ακυρώθηκε
 auth-error-1002 = Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε.
@@ -1190,6 +1215,7 @@ auth-error-1010 = Απαιτείται έγκυρος κωδικός πρόσβ�
 auth-error-1011 = Απαιτείται έγκυρο email
 auth-error-1031 = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
 auth-error-1032 = Πρέπει να εισαγάγετε μια έγκυρη ηλικία για εγγραφή
+auth-error-1054 = Μη έγκυρος κωδικός ταυτοποίησης δύο παραγόντων
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
 oauth-error-1000 = Κάτι πήγε στραβά. Παρακαλώ κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
 
@@ -1293,6 +1319,7 @@ inline-recovery-confirmation-header-default = Επιβεβαιώστε τον ε
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Η ταυτοποίηση δύο παραγόντων έχει ενεργοποιηθεί
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
