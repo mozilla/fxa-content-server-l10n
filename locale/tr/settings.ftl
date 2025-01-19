@@ -866,6 +866,7 @@ recovery-key-create-back-button-title = Ayarlara dön
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Kurtarma telefon numarasını kaldır
+settings-recovery-phone-remove-cancel = Vazgeç
 
 ## PageSetupRecoveryPhone
 
@@ -1013,6 +1014,9 @@ tfa-row-backup-codes-get-new-cta = Yeni kod alın
 tfa-row-backup-codes-add-cta = Ekle
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Mobil cihazınızı veya kimlik doğrulama uygulamanızı kullanamıyorsanız bu en güvenli kurtarma yöntemidir.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Kurtarma telefonu
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Kurtarma telefon numarası yok
 # button to change the configured recovery phone
@@ -1021,6 +1025,8 @@ tfa-row-backup-phone-change-cta = Değiştir
 tfa-row-backup-phone-add-cta = Ekle
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Kaldır
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Kurtarma telefonunu kaldır
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu daha kolay bir kurtarma yöntemidir.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1642,6 +1648,14 @@ signin-recovery-method-code-info = { $numberOfCodes } kod kaldı
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Giriş yap
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Kurtarma kodunu girin
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = <span>{ $maskedPhoneNumber }</span> numarasına kısa mesajla altı haneli bir kod gönderdik. Bu kodun geçerlilik süresi 5 dakikadır.
+recovery-phone-code-confirm-input-group-label = 6 basamaklı kodu yazın
+recovery-phone-code-confirm-otp-submit-button = Onaylayın
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
