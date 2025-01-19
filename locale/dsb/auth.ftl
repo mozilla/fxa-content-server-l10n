@@ -49,7 +49,9 @@ subplat-legal = Pšawniske
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Jolic se wašo konto wulašujo, buźośo hyšći mejlki wót Mozilla Corporation a załožby Mozilla Foundation dostawaś, snaźkuli <a data-l10n-name="unsubscribeLink">pšosyśo wó wótskazanje</a>.
 account-deletion-info-block-support = Jolic pšašanja maśo abo pomoc trjebaśo, stajśo se z našym <a data-l10n-name="supportLink">teamom pomocy</a> do zwiska.
+account-deletion-info-block-communications-plaintext = Jolic se wašo konto wulašujo, buźośo hyšći mejlki wót Mozilla Corporation a załožby Mozilla Foundation dostawaś, snaźkuli pšosyśo wó wótskazanje.
 account-deletion-info-block-support-plaintext = Jolic pšašanja maśo abo pomoc trjebaśo, stajśo se z našym teamom pomocy do zwiska:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -78,6 +80,7 @@ automated-email-support = Za dalšne informacije woglědajśo s k <a data-l10n-n
 automated-email-change-plaintext-2 = Jolic njejsćo wuwjadł toś tu akciju, změńśo ned swójo gronidło:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Za dalšne informacije woglědajśo k pomocy { -brand-mozilla }:
+automated-email-inactive-account = To jo awtomatizěrowana mejlka. Dostawaśo ju, dokulaž maśo { -product-mozilla-account } a sćo se pśizjawił pśed dwěma lětoma slědny raz.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink"> pomocy { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = To jo awtomatizěrowana mejlka. Jolic sćo dostał ju womylnje, njetrjebaśo nic cyniś.
@@ -250,18 +253,29 @@ fraudulentAccountDeletion-contact-plaintext = Jolic pšašanja maśo, stajśo se
 inactiveAccountFinalWarning-subject = Slědna šansa, aby wy pśi swójom konśe { -product-mozilla-account } wóstał
 inactiveAccountFinalWarning-title = Waše kontowe a daty { -brand-mozilla } se wulašuju
 inactiveAccountFinalWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
+inactiveAccountFinalWarning-account-description = Wašo { -product-mozilla-account } se za pśistup k dermotnym produktam priwatnosći a pśeglědowanja ako sync { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn } wužywa.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> se wašo konto a waše wósobinske daty na pśecej wulašuju, snaźkuli se pśizjawjaśo.
 inactiveAccountFinalWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Pśizjawśo se, aby pśi swójom konśe wóstał:
 inactiveAccountFirstWarning-subject = Njezgubśo swójo konto
 inactiveAccountFirstWarning-title = Cośo pśi swójom konśe { -brand-mozilla } a swójich datach wóstaś?
+inactiveAccountFirstWarning-account-description-v2 = Wašo { -product-mozilla-account } se za pśistup k dermotnym produktam priwatnosći a pśeglědowanja ako sync { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn } wužywa.
 inactiveAccountFirstWarning-inactive-status = Smy zawupytnuli, až njejsćo se pśizjawił 2 lěśe dłujko.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Wašo konto a waše wósobinske daty se <strong>{ $deletionDate }</strong> na pśecej wulašuju, dokulaž njejsćo był aktiwny.
 inactiveAccountFirstWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
 inactiveAccountFirstWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Pśizjawśo se, aby pśi swójom konśe wóstał:
 inactiveAccountSecondWarning-subject = Akcija trjebna: Kontowe wulašowanje za 7 dnjow
 inactiveAccountSecondWarning-title = Waše kontowe a daty { -brand-mozilla } se za 7 dnjow wulašuju
+inactiveAccountSecondWarning-account-description-v2 = Wašo { -product-mozilla-account } se za pśistup k dermotnym produktam priwatnosći a pśeglědowanja ako sync { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn } wužywa.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Wašo konto a waše wósobinske daty se <strong>{ $deletionDate }</strong> na pśecej wulašuju, dokulaž njejsćo był aktiwny.
 inactiveAccountSecondWarning-action = Pśizjawśo se, aby pśi swójom konśe wóstał
 inactiveAccountSecondWarning-preview = Pśizjawśo se, aby pśi swójom konśe wóstał
 # followed by link to sign in

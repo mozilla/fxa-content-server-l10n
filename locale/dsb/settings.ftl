@@ -881,6 +881,8 @@ recovery-phone-remove-header = Numer wótnowjeńskego telefona wótwónoźeś
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = To <strong>{ $formattedFullPhoneNumber }</strong> ako waš wótnowjeński telefon wótwónoźijo.
 settings-recovery-phone-remove-recommend = Pórucujomy, pśi toś tej metoźe wóstaś, dokulaž jo lažčejša, ako awtentifikaciske kody za zawěsćenje składowaś.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Jolic je lašujośo, zawěsććo, až maśo swóje skłaźone awtentifikaciske kody. <linkExternal>Wótnowjeńske metody pśirownaś</linkExternal>
 settings-recovery-phone-remove-button = Telefonowy numer wótwónoźeś
 settings-recovery-phone-remove-cancel = Pśetergnuś
 
