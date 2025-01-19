@@ -11,7 +11,7 @@ settings-project-header-title = { -product-mozilla-account }
 ## Component - CouponForm
 
 # Title of container showing discount coupon code applied to a subscription.
-coupon-promo-code-applied = Kod kupona primjenjen
+coupon-promo-code-applied = Promotivni kod primijenjen
 coupon-submit = Primijeni
 coupon-remove = Ukloni
 coupon-error = Upisani kôd je neispravan i je istekao.
@@ -164,7 +164,7 @@ pay-with-heading-paypal-2 = Plati s { -brand-paypal }
 ## Component - PlanDetails
 
 plan-details-header = Podaci proizvoda
-plan-details-list-price = Cjenik
+plan-details-list-price = Cijena
 plan-details-show-button = Pokaži podatke
 plan-details-hide-button = Sakrij podatke
 plan-details-total-label = Ukupno
