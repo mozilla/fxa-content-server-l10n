@@ -49,6 +49,10 @@ subplat-legal = Pravno
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatnost
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Ako je tvoj račun izbrisan, i dalje ćeš primati e-poštu od Mozilla Corporation i Mozilla Foundation, osim ako <a data-l10n-name="unsubscribeLink">zatražiš otkazivanje pretplate</a>.
+account-deletion-info-block-support = Ako imaš pitanja ili trebaš pomoć, slobodno kontaktiraj naš <a data-l10n-name="supportLink">tim podrške</a>.
+account-deletion-info-block-communications-plaintext = Ako je tvoj račun izbrisan, i dalje ćeš primati e-poštu od Mozilla Corporation i Mozilla Foundation, osim ako zatražiš otkazivanje pretplate:
+account-deletion-info-block-support-plaintext = Ako imaš pitanja ili trebaš pomoć, slobodno kontaktiraj naš tim podrške:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Preuzmi { $productName } na { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Za više informacija posjeti stranicu <a data-l10n-nam
 automated-email-change-plaintext-2 = Ako nisi poduzeo/la ovu radnju, odmah promijeni lozinku:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške:
+automated-email-inactive-account = Ovo je automatski generirana e-mail poruka. Poslana ti je jer imaš { -product-mozilla-account } i prošle su 2 godine od tvoje zadnje prijave.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla } podrške</a>.
 automated-email-no-action-plaintext = Ovo je automatizirana e-mail poruka. Ako si je primio/la greškom, ne moraš ništa učiniti.
@@ -120,6 +125,9 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = i promijeni lozinku:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške:
 automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, <a data-l10n-name="resetLink">promijeni lozinku</a>. Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }podrške</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Ako nisi odobrio/la ovu radnju, resetiraj lozinku sada na { $resetLink }
 brand-banner-message = Znaš li da smo promijenili ime { -product-firefox-accounts } u { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saznaj više</a>
 cancellationSurvey = Pomogni nam poboljšati naše usluge ispunjavanjem ove <a data-l10n-name="cancellationSurveyUrl">kratke ankete</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
