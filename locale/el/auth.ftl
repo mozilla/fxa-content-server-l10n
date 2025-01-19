@@ -429,10 +429,14 @@ postRemoveTwoStepAuthentication-not-required-2 = Δεν χρειάζεστε π�
 postSigninRecoveryCode-subject = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης για σύνδεση
 postSigninRecoveryCode-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
 postSigninRecoveryCode-title = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης για σύνδεση
+postSigninRecoveryCode-description = Εάν δεν το κάνατε αυτό, θα πρέπει να αλλάξετε άμεσα τον κωδικό πρόσβασής σας για να παραμείνει ασφαλής ο λογαριασμός σας.
 postSigninRecoveryCode-device = Έχετε συνδεθεί από:
 postSigninRecoveryCode-action = Διαχείριση λογαριασμού
 postSigninRecoveryPhone-subject = Τηλέφωνο ανάκτησης που χρησιμοποιήθηκε για σύνδεση
 postSigninRecoveryPhone-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
+postSigninRecoveryPhone-title = Χρησιμοποιήθηκε το τηλέφωνο ανάκτησής σας για σύνδεση
+postSigninRecoveryPhone-description = Εάν δεν το κάνατε αυτό, θα πρέπει να αλλάξετε άμεσα τον κωδικό πρόσβασής σας για να παραμείνει ασφαλής ο λογαριασμός σας.
+postSigninRecoveryPhone-device = Έχετε συνδεθεί από το:
 postSigninRecoveryPhone-action = Διαχείριση λογαριασμού
 postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
 postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
@@ -686,6 +690,7 @@ verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις �
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Επιβεβαίωση του λογαριασμού σας
+verifyShortCode-preview = Χρησιμοποιήστε τον παρεχόμενο κωδικό για να επιβεβαιώσετε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
 verifyShortCode-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο τις υπηρεσίες της { -brand-mozilla }, όπου κι αν συνδεθείτε, ξεκινώντας με:

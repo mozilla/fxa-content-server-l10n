@@ -648,6 +648,12 @@ flow-setup-phone-confirm-code-success-message-v2 = Προστέθηκε τηλέ
 flow-setup-phone-submit-number-heading = Επαληθεύστε τον αριθμό τηλεφώνου σας
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Θα λάβετε ένα μήνυμα κειμένου από τη { -brand-mozilla } με έναν κωδικό για την επαλήθευση του αριθμού σας. Μην μοιραστείτε αυτόν τον κωδικό με κανέναν.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Το τηλέφωνο ανάκτησης είναι διαθέσιμο μόνο στις Ηνωμένες Πολιτείες και τον Καναδά. Δεν προτείνεται η χρήση αριθμών VoIP και μασκών τηλεφώνου.
+flow-setup-phone-submit-number-legal = Παρέχοντας τον αριθμό σας, συμφωνείτε με την αποθήκευσή του από εμάς, ώστε να μπορούμε να σας στέλνουμε μηνύματα αποκλειστικά για την επαλήθευση του λογαριασμού σας. Ενδέχεται να ισχύουν χρεώσεις μηνυμάτων και δεδομένων.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Αποστολή κωδικού
 
@@ -1048,6 +1054,7 @@ tfa-row-backup-phone-add-cta = Προσθήκη
 tfa-row-backup-phone-delete-button = Αφαίρεση
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Αφαίρεση τηλεφώνου ανάκτησης
+tfa-row-backup-phone-delete-restriction-v2 = Εάν θέλετε να αφαιρέσετε το τηλέφωνο ανάκτησής σας, προσθέστε εφεδρικούς κωδικούς ταυτοποίησης ή απενεργοποιήστε πρώτα την ταυτοποίηση δύο παραγόντων, ώστε να μην κλειδωθείτε εκτός του λογαριασμού σας.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Αυτή είναι η πιο εύκολη μέθοδος ανάκτησης εάν δεν μπορείτε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητάς σας.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1147,9 +1154,11 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση
     της ταυτοποίησης δύο παραγόντων.
+tfa-row-enabled-description = Ο λογαριασμός σας προστατεύεται από ταυτοποίηση δύο παραγόντων. Θα πρέπει να εισαγάγετε έναν κωδικό μίας χρήσης από την εφαρμογή ελέγχου ταυτότητάς σας κατά τη σύνδεση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = Πώς προστατεύεται ο λογαριασμός σας
+tfa-row-disabled-description-v2 = Ασφαλίστε τον λογαριασμό σας με μια τρίτη εφαρμογή ελέγχου ταυτότητας ως ένα δεύτερο βήμα για τη σύνδεση.
 tfa-row-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
@@ -1672,6 +1681,7 @@ signin-recovery-code-desktop-relay = Το { -brand-firefox } θα προσπαθ
 
 signin-recovery-method-header = Σύνδεση
 signin-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκτησης
+signin-recovery-method-details = Ας βεβαιωθούμε ότι είστε εσείς που χρησιμοποιείτε τις μεθόδους ανάκτησής σας.
 signin-recovery-method-phone = Τηλέφωνο ανάκτησης
 signin-recovery-method-code = Κωδικοί ταυτοποίησης
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
