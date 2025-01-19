@@ -1428,11 +1428,17 @@ signin-totp-code-other-account-link = Koristi jedan drugi račun
 signin-totp-code-recovery-code-link = Problem s unosom koda?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Potreban je kod autentifikacije
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } će te pokušati vratiti na karticu kako bi koristio/la masku e-mail adrese nakon što se prijaviš.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Autoriziraj ovu prijavu
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Pregledaj e-poštu za autorizacijskim kodom koji je poslan na { $email }.
 signin-unblock-code-input = Upiši kod za autorizaciju
 signin-unblock-submit-button = Nastavi
 # Shown when the user attempts to submit the form without including a code
@@ -1441,6 +1447,10 @@ signin-unblock-code-incorrect-length = Kod za autorizaciju mora sadržati 8 znak
 signin-unblock-code-incorrect-format-2 = Kod za autorizaciju smije sadržati samo slova i/ili brojke
 signin-unblock-resend-code-button = Nije u sandučiću dolazne pošte niti u sandučiću neželjenih e-mailova? Pošalji ponovo
 signin-unblock-support-link = Zašto se ovo događa?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } će te pokušati vratiti na karticu kako bi koristio/la masku e-mail adrese nakon što se prijaviš.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1465,11 +1475,16 @@ confirm-signup-code-resend-code-link = Pošalji e-mailom novi kod.
 confirm-signup-code-success-alert = Račun je uspješno potvrđen
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Potreban je potvrdni kod
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } će te pokušati vratiti na karticu kako bi koristio/la masku e-mail adrese nakon što se prijaviš.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Postavi tvoju lozinku
+signup-relay-info = Za sigurno upravljanje tvojim maskiranim e-mail adresama i pristup sigurnosnim { -brand-mozilla } alatima je potrebna lozinka.
 signup-heading-relay = Stvori lozinku
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zašto moram stvoriti ovaj račun?
