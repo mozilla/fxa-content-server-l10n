@@ -77,6 +77,10 @@ choose-newsletters-option-latest-news =
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Rani pristup za testiranje novih proizvoda
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Upozorenja radnji za vraćanje interneta
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -197,6 +201,7 @@ form-verify-totp-disabled-button-title-alphanumeric = Upiši { $codeLength }-zna
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ključ za obnavljanje { -brand-firefox } računa
+get-data-trio-title-backup-verification-codes = Rezervni kodovi za autentifikaciju
 get-data-trio-download-2 =
     .title = Preuzmi
     .aria-label = Preuzmi
@@ -221,6 +226,16 @@ icon-warning-aria-label =
     .aria-label = Upozorenje
 authenticator-app-aria-label =
     .aria-label = Aplikacija za autentifikaciju
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Rezervni kodovi za autentifikaciju aktivirani
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Rezervni kodovi za autentifikaciju deaktivirani
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Obnavljanje SMS-om aktivirano
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Obnavljanje SMS-om deaktivirano
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanadska zastava
@@ -430,6 +445,8 @@ flow-recovery-key-hint-char-limit-error = Savjet mora sadržati manje od 255 zna
 password-reset-warning-icon = Upozorenje
 password-reset-chevron-expanded = Sklopi upozorenje
 password-reset-chevron-collapsed = Rasklopi upozorenje
+password-reset-warning-have-key = Imaš ključ za obnavljanje računa?
+password-reset-warning-use-key-link = Upotrijebi ga sada za ponovno postavljanje lozinke i zadržavanje podataka
 
 ## Alert Bar
 
