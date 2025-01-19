@@ -508,6 +508,10 @@ cs-disconnect-sync-heading = Prekini vezu sa Syncom
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Tvoji podaci pregledavanja će ostati na tvom <span>{ $device }</span> uređaju,
+     ali se više neće sinkronizirati s tvojim računom.
+cs-disconnect-sync-reason-3 = Koji je glavni razlog za odspajanje <span>{ $device }</span> uređaja?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -1043,6 +1047,10 @@ tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Nastavljanjem prihvaćaš:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>uvjete usluge</pocketTos> i <pocketPrivacy>napomene o privatnosti</pocketPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } – <mozillaAccountsTos>Uvjeti usluge</mozillaAccountsTos> i <mozillaAccountsPrivacy>Obavijest o privatnosti</mozillaAccountsPrivacy>
 
@@ -1377,6 +1385,14 @@ signin-recovery-method-code-info = Broj preostalih kodova: { $numberOfCodes }
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Prijavi se
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Upiši ključ za obnavljanje
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Tekstualnom porukom je poslan šesteroznamenkasti kod na <span>{ $maskedPhoneNumber }</span>. Ovaj kod isteče nakon 5 minuta.
+recovery-phone-code-confirm-input-group-label = Upiši šesteroznamenkasti kod
+recovery-phone-code-confirm-otp-submit-button = Potvrdi
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
