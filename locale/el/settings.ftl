@@ -1625,6 +1625,10 @@ signin-recovery-code-required-error = Απαιτείται εφεδρικός κ
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Σύνδεση
+signin-recovery-method-phone = Τηλέφωνο ανάκτησης
+signin-recovery-method-code = Κωδικοί ταυτοποίησης
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Απομένουν { $numberOfCodes } κωδικοί
 
 ## SigninRecoveryPhoneCodeConfirm page
 
