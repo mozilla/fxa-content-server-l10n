@@ -19,6 +19,8 @@ brand-banner-dismiss-button-2 =
     .aria-label = Zatvori natpis
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } će se preimenovati u { -product-mozilla-accounts } 1. studenoga
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom i ništa se neće promijeniti u proizvodima koje koristiš.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
 brand-postlaunch-title = Preimenovali smo { -product-firefox-accounts } u { -product-mozilla-accounts }. I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom te nema drugih promjena u proizvodima koje koristiš.
@@ -34,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Natrag
+button-back-title = Natrag
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -50,11 +54,17 @@ recovery-key-pdf-heading = Ključ za obnavljanje računa
 recovery-key-pdf-download-date = Stvoreno: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Ključ za obnavljanje računa
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Ovaj ključ omogućuje obnavljanje šifriranih podataka preglednika (uključujući lozinke, zabilješke i povijest) ako zaboraviš lozinku. Spremi ga na mjesto kojeg ćeš se sjećati.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Mjesta za spremanje tvog ključa
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Saznaj više o ključu za obnavljanje računa
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Žao nam je. Došlo je do greške prilikom preuzimanja ključa za obnavljanje računa.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -251,6 +261,12 @@ signin-totp-code-image-label =
     .aria-label = Uređaj sa skrivenim 6-znamenkastim kodom.
 confirm-signup-aria-label =
     .aria-label = Kuverta koja sadrži poveznicu
+recovery-phone-image-description =
+    .aria-label = Mobilni uređaj koji prima kod putem SMS poruke.
+recovery-phone-code-image-description =
+    .aria-label = Kod je primljen na mobilnom uređaju.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobilni uređaj s mogućnostima slanja SMS poruka
 backup-authentication-codes-image-aria-label =
     .aria-label = Ekran uređaja s kodovima
 
@@ -258,6 +274,7 @@ backup-authentication-codes-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Prijavljen/na si na { -brand-firefox }.
 inline-recovery-key-setup-create-header = Zaštiti svoj račun
 inline-recovery-key-setup-start-button = Stvori ključ za obnavljanje računa
 inline-recovery-key-setup-later-button = Učini to kasnije
