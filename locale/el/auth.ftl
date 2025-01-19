@@ -253,11 +253,16 @@ fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσει
 inactiveAccountFinalWarning-subject = Τελευταία ευκαιρία να διατηρήσετε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 inactiveAccountFinalWarning-title = Ο λογαριασμός { -brand-mozilla } και τα δεδομένα σας θα διαγραφούν
 inactiveAccountFinalWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
+inactiveAccountFinalWarning-account-description = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας χρησιμοποιείται για την πρόσβαση σε δωρεάν προϊόντα απορρήτου και περιήγησης, όπως το { -brand-firefox } Sync, το { -product-mozilla-monitor }, το { -product-firefox-relay } και το { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Στις <strong>{ $deletionDate }</strong>, ο λογαριασμός και τα προσωπικά σας δεδομένα θα διαγραφούν οριστικά εκτός αν πραγματοποιήσετε σύνδεση.
 inactiveAccountFinalWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας:
 inactiveAccountFirstWarning-subject = Μη χάσετε τον λογαριασμό σας
 inactiveAccountFirstWarning-title = Θέλετε να διατηρήσετε τον λογαριασμό { -brand-mozilla } και τα δεδομένα σας;
+inactiveAccountFirstWarning-account-description-v2 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας χρησιμοποιείται για την πρόσβαση σε δωρεάν προϊόντα απορρήτου και περιήγησης, όπως το { -brand-firefox } Sync, το { -product-mozilla-monitor }, το { -product-firefox-relay } και το { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Παρατηρήσαμε ότι δεν έχετε συνδεθεί για 2 χρόνια.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -268,6 +273,11 @@ inactiveAccountFirstWarning-preview = Συνδεθείτε για να διατ�
 inactiveAccountFirstWarning-action-plaintext = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας:
 inactiveAccountSecondWarning-subject = Απαιτείται ενέργεια: Διαγραφή λογαριασμού σε 7 ημέρες
 inactiveAccountSecondWarning-title = Ο λογαριασμός { -brand-mozilla } και τα δεδομένα σας θα διαγραφούν σε 7 ημέρες
+inactiveAccountSecondWarning-account-description-v2 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας χρησιμοποιείται για την πρόσβαση σε δωρεάν προϊόντα απορρήτου και περιήγησης, όπως το { -brand-firefox } Sync, το { -product-mozilla-monitor }, το { -product-firefox-relay } και το { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact =
+    Ο λογαριασμός και τα προσωπικά σας δεδομένα θα διαγραφούν οριστικά στις
+    <strong>{ $deletionDate }</strong> επειδή δεν ήσασταν ενεργοί.
 inactiveAccountSecondWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountSecondWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
@@ -348,10 +358,14 @@ postAddLinkedAccount-subject-2 = Συνδέθηκε νέος λογαριασμ�
 postAddLinkedAccount-title-2 = Ο λογαριασμός { $providerName } σας έχει συνδεθεί με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
 postAddRecoveryPhone-subject = Προστέθηκε τηλέφωνο ανάκτησης
+postAddRecoveryPhone-preview = Ο λογαριασμός προστατεύεται από ταυτοποίηση δύο παραγόντων
 postAddRecoveryPhone-title = Δημιουργήσατε έναν αριθμό τηλεφώνου ανάκτησης
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description = Προσθέσατε το { $maskedLastFourPhoneNumber } ως τηλέφωνο ανάκτησης
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Πώς προστατεύεται ο λογαριασμός σας
+postAddRecoveryPhone-how-protect-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
 postAddRecoveryPhone-enabled-device = Το ενεργοποιήσατε από:
 postAddRecoveryPhone-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-subject-2 = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
@@ -374,6 +388,7 @@ postChangePrimary-action = Διαχείριση λογαριασμού
 postChangeRecoveryPhone-subject = Το τηλέφωνο ανάκτησης ενημερώθηκε
 postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
+postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
 postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Χρησιμοποιήθηκε στο:
@@ -393,7 +408,9 @@ postRemoveAccountRecovery-title-3 = Διαγράψατε το κλειδί αν�
 postRemoveAccountRecovery-body-part1 = Το κλειδί ανάκτησης του λογαριασμού σας απαιτείται για την επαναφορά των κρυπτογραφημένων δεδομένων περιήγησής σας, εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 postRemoveAccountRecovery-body-part2 = Εάν δεν το έχετε κάνει ήδη, δημιουργήστε ένα νέο κλειδί ανάκτησης λογαριασμού στις ρυθμίσεις του λογαριασμού σας για να αποτρέψετε την απώλεια των αποθηκευμένων κωδικών πρόσβασης, των σελιδοδεικτών, του ιστορικού περιήγησης και άλλων δεδομένων.
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
+postRemoveRecoveryPhone-subject = Το τηλέφωνο ανάκτησης αφαιρέθηκε
 postRemoveRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
+postRemoveRecoveryPhone-title = Το τηλέφωνο ανάκτησης αφαιρέθηκε
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:

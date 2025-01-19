@@ -632,6 +632,9 @@ flow-recovery-key-info-cancel-link = Ακύρωση
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Εισάγετε τον κωδικό επαλήθευσής
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Ένας εξαψήφιος κωδικός έχει αποσταλεί στο <span>{ $phoneNumber }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά.
 flow-setup-phone-confirm-code-button = Επιβεβαίωση
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -1112,6 +1115,7 @@ se-secondary-email-none = Κανένα
 
 tfa-row-header = Ταυτοποίηση δύο παραγόντων
 tfa-row-enabled = Ενεργή
+tfa-row-disabled-status = Ανενεργή
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
 tfa-row-button-refresh =
@@ -1119,6 +1123,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση
     της ταυτοποίησης δύο παραγόντων.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Πώς προστατεύεται ο λογαριασμός σας
 tfa-row-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
@@ -1481,6 +1488,10 @@ complete-reset-pw-recovery-key-link = Χρήση κλειδιού ανάκτησ
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Έγινε επαναφορά του κωδικού πρόσβασής σας.
 reset-password-complete-banner-message = Μην ξεχάσετε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού από τις ρυθμίσεις του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας για να αποτρέψετε μελλοντικά προβλήματα σύνδεσης.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
 ## Confirm Reset Password With Code
 
@@ -1562,6 +1573,10 @@ signin-header = Σύνδεση
 signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
 signin-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 signin-password-button-label = Κωδικός πρόσβασης
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1619,12 +1634,17 @@ signin-recovery-code-back-link = Πίσω
 signin-recovery-code-support-link = Έχετε κλειδωθεί;
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Απαιτείται εφεδρικός κωδικός ταυτοποίησης
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Σύνδεση
+signin-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκτησης
 signin-recovery-method-phone = Τηλέφωνο ανάκτησης
 signin-recovery-method-code = Κωδικοί ταυτοποίησης
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
@@ -1635,6 +1655,10 @@ signin-recovery-method-code-info = Απομένουν { $numberOfCodes } κωδ�
 recovery-phone-code-confirm-flow-heading = Σύνδεση
 # A recovery code in context of this page is a one time code sent to the user's phone
 recovery-phone-code-confirm-with-code-heading = Εισαγάγετε τον κωδικό ανάκτησης
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Ένας εξαψήφιος κωδικός έχει αποσταλεί στο <span>{ $maskedPhoneNumber }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά.
+recovery-phone-code-confirm-input-group-label = Εισαγάγετε τον εξαψήφιο κωδικό
 recovery-phone-code-confirm-otp-submit-button = Επιβεβαίωση
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
@@ -1661,6 +1685,10 @@ signin-token-code-resend-code-link = Αποστολή νέου κωδικού.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Απαιτείται κωδικός επιβεβαίωσης
 signin-token-code-resend-error = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1676,6 +1704,10 @@ signin-totp-code-other-account-link = Χρήση διαφορετικού λογ
 signin-totp-code-recovery-code-link = Πρόβλημα με την εισαγωγή του κωδικού;
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Απαιτείται κωδικός ταυτοποίησης
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1691,6 +1723,10 @@ signin-unblock-code-incorrect-length = Ο κωδικός ταυτοποίηση�
 signin-unblock-code-incorrect-format-2 = Ο κωδικός ταυτοποίησης μπορεί να περιέχει μόνο γράμματα ή/και αριθμούς
 signin-unblock-resend-code-button = Δεν βρίσκεται στα εισερχόμενα ή στα ανεπιθύμητα; Αποστολή ξανά
 signin-unblock-support-link = Γιατί συμβαίνει αυτό;
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1715,6 +1751,10 @@ confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
 confirm-signup-code-success-alert = Επιτυχής επιβεβαίωση λογαριασμού
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Απαιτείται κωδικός επιβεβαίωσης
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

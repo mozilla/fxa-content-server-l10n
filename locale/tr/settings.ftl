@@ -649,6 +649,7 @@ flow-setup-phone-submit-number-heading = Telefon numaranızı doğrulayın
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = Kurtarma telefonu yalnızca Amerika Birleşik Devletleri ve Kanada’da kullanılabilir. VoIP numaraları ve telefon maskeleri önerilmez.
+flow-setup-phone-submit-number-legal = Numaranızı verdiğinizde, yalnızca hesabınızı doğrulama amacıyla size kısa mesaj gönderebilmemiz için numaranızı saklamamızı kabul etmiş olursunuz. Mesaj ve veri ücretleri uygulanabilir.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Kodu gönder
 
