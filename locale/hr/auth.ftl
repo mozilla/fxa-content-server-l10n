@@ -248,18 +248,32 @@ fraudulentAccountDeletion-contact = Ako imaš pitanja, kontaktiraj naš <a data-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ako imaš pitanja kontaktiraj naš tim za podršku: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Zadnja prilika da zadržiš svoj { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Tvoj { -brand-mozilla } račun i podaci će se izbrisati
 inactiveAccountFinalWarning-preview = Prijavi se za zadržavanje tvog računa
+inactiveAccountFinalWarning-account-description = Tvoj se { -product-mozilla-account } koristi za pristup besplatnoj privatnosti i proizvodima za pregledavanje kao što su { -brand-firefox } sinkronizacija, { -product-mozilla-monitor }, { -product-firefox-relay } i { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> će se tvoj račun i tvoji osobni podaci trajno izbrisati ako se ne prijaviš.
 inactiveAccountFinalWarning-action = Prijavi se za zadržavanje tvog računa
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Prijavi se za zadržavanje tvog računa:
 inactiveAccountFirstWarning-subject = Nemoj izgubiti svoj račun
 inactiveAccountFirstWarning-title = Želiđ li zadržati svoj { -brand-mozilla } račun i podatke?
+inactiveAccountFirstWarning-account-description-v2 = Tvoj se { -product-mozilla-account } koristi za pristup besplatnoj privatnosti i proizvodima za pregledavanje kao što su { -brand-firefox } sinkronizacija, { -product-mozilla-monitor }, { -product-firefox-relay } i { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Primijetili smo da se nisi prijavio/la dvije godine.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tvoj račun i tvoji osobni podaci će se zbog neaktivnosti trajno izbrisati <strong>{ $deletionDate }</strong>.
 inactiveAccountFirstWarning-action = Prijavi se za zadržavanje tvog računa
 inactiveAccountFirstWarning-preview = Prijavi se za zadržavanje tvog računa
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Prijavi se za zadržavanje tvog računa:
 inactiveAccountSecondWarning-subject = Potrebna je radnja: Brisanje računa za 7 dana
 inactiveAccountSecondWarning-title = Tvoj { -brand-mozilla } račun i podaci će se izbrisati za 7 dana
+inactiveAccountSecondWarning-account-description-v2 = Tvoj se { -product-mozilla-account } koristi za pristup besplatnoj privatnosti i proizvodima za pregledavanje kao što su { -brand-firefox } sinkronizacija, { -product-mozilla-monitor }, { -product-firefox-relay } i { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tvoj račun i tvoji osobni podaci će se zbog neaktivnosti trajno izbrisati <strong>{ $deletionDate }</strong>.
 inactiveAccountSecondWarning-action = Prijavi se za zadržavanje tvog računa
 inactiveAccountSecondWarning-preview = Prijavi se za zadržavanje tvog računa
 # followed by link to sign in
