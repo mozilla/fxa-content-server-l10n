@@ -264,6 +264,9 @@ inactiveAccountFirstWarning-subject = No pierdas tu cuenta
 inactiveAccountFirstWarning-title = ¿Quiere conservar su cuenta y sus datos de { -brand-mozilla }?
 inactiveAccountFirstWarning-account-description-v2 = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Hemos detectado que no has iniciado sesión en 2 años.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente el{ $deletionDate }</strong>porque no estuviste activo.
 inactiveAccountFirstWarning-action = Inicia sesión para mantener tu cuenta
 inactiveAccountFirstWarning-preview = Inicia sesión para mantener tu cuenta
 # followed by link to sign in
