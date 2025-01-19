@@ -1,17 +1,28 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = Masuk ke { -product-mozilla-account } Anda?
+session-verify-send-push-body-2 = Klik di sini untuk mengonfirmasi bahwa ini memang Anda
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Perangkat">
 fxa-privacy-url = Kebijakan Privasi { -brand-mozilla }
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Pemberitahuan Privasi
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase'") } Syarat Layanan
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="logo { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="logo { -brand-mozilla }">
 subplat-automated-email = Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak ada tindakan yang harus dilakukan.
 subplat-privacy-notice = Pemberitahuan privasi
 subplat-privacy-plaintext = Pemberitahuan privasi:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Anda menerima surel ini karena { $email } memiliki { -product-mozilla-account } dan Anda mendaftar untuk { $productName }.
 subplat-terms-policy = Ketentuan dan kebijakan pembatalan
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Batal berlangganan
