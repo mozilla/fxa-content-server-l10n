@@ -1124,6 +1124,10 @@ connect-another-device-get-data-on-another-device-message = Želiš li dobiti tv
 connect-another-device-cad-link = Poveži jedan drugi uređaj
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ne sada
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Prijavi se na { -brand-firefox } za Android za dovršavanje postavljanja
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Prijavi se na { -brand-firefox } za iOS za dovršavanje postavljanja
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
