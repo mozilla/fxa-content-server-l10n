@@ -49,6 +49,10 @@ subplat-legal = Pháp lý
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Riêng tư
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Nếu tài khoản của bạn bị xóa, bạn vẫn sẽ nhận được email từ Mozilla Corporation và Mozilla Foundation, trừ khi bạn <a data-l10n-name="unsubscribeLink">yêu cầu hủy đăng ký</a>.
+account-deletion-info-block-support = Nếu bạn có thắc mắc hoặc cần hỗ trợ, vui lòng liên hệ <a data-l10n-name="supportLink">nhóm hỗ trợ</a> của chúng tôi.
+account-deletion-info-block-communications-plaintext = Nếu tài khoản của bạn bị xóa, bạn vẫn sẽ nhận được email từ Mozilla Corporation và Mozilla Foundation, trừ khi bạn yêu cầu hủy đăng ký:
+account-deletion-info-block-support-plaintext = Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Tải xuống { $productName } trên { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Để biết thêm thông tin, hãy truy cập <a data
 automated-email-change-plaintext-2 = Nếu bạn không thực hiện hành động này, hãy thay đổi mật khẩu của bạn ngay lập tức:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Để biết thêm thông tin, hãy truy cập { -brand-mozilla } Support:
+automated-email-inactive-account = Đây là một email tự động. Bạn nhận được nó bởi vì bạn có một { -product-mozilla-account } và bạn đã không đăng nhập nó trong vòng 2 năm gần đây.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext }Để biết thêm thông tin, hãy truy cập <<a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Đây là một email tự động. Nếu bạn nhận nhầm, bạn không cần phải làm gì cả.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Để biết thêm thông tin, h
 automated-email-reset =
     Đây là một tự động; nếu bạn không nhận ra hành động này, <a data-l10n-name="resetLink">vui lòng đặt lại mật khẩu của bạn </a>.
     Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Nếu bạn không cho phép hành động này, vui lòng đặt lại mật khẩu của bạn ngay bây giờ tại { $resetLink }
 brand-banner-message = Bạn có biết chúng tôi đã đổi tên từ { -product-firefox-accounts } thành { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Tìm hiểu thêm</a>
 cancellationSurvey = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện <a data-l10n-name="cancellationSurveyUrl">khảo sát ngắn</a> này.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = Nếu bạn có bất kỳ câu hỏi nào, 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Cơ hội cuối cùng để giữ { -product-mozilla-account } của bạn
+inactiveAccountFinalWarning-title = Tài khoản { -brand-mozilla } và dữ liệu của bạn sẽ bị xoá
+inactiveAccountFinalWarning-preview = Đăng nhập để giữ tài khoản của bạn
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account } của bạn được sử dụng để truy cập các sản phẩm duyệt web và quyền riêng tư miễn phí như đồng bộ hoá { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay }, và { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Vào <strong>{ $deletionDate }</strong>, tài khoản của bạn và dữ liệu cá nhân của bạn sẽ bị xóa vĩnh viễn trừ khi bạn đăng nhập.
+inactiveAccountFinalWarning-action = Đăng nhập để giữ tài khoản của bạn
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Đăng nhập để giữ tài khoản của bạn:
+inactiveAccountFirstWarning-subject = Đừng để mất tài khoản của bạn
+inactiveAccountFirstWarning-title = Bạn có muốn giữ lại tài khoản và dữ liệu { -brand-mozilla } của mình không?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } của bạn được sử dụng để truy cập các sản phẩm duyệt web và quyền riêng tư miễn phí như đồng bộ hoá { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay }, và { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Chúng tôi nhận thấy bạn đã không đăng nhập trong 2 năm.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tài khoản và dữ liệu cá nhân của bạn sẽ bị xóa vĩnh viễn vào <strong>{ $deletionDate }</strong> vì bạn không hoạt động.
+inactiveAccountFirstWarning-action = Đăng nhập để giữ tài khoản của bạn
+inactiveAccountFirstWarning-preview = Đăng nhập để giữ tài khoản của bạn
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Đăng nhập để giữ tài khoản của bạn:
+inactiveAccountSecondWarning-subject = Cần hành động của bạn: Tài khoản sẽ bị xoá sau 7 ngày
+inactiveAccountSecondWarning-title = Tài khoản và dữ liệu { -brand-mozilla } của bạn sẽ bị xóa sau 7 ngày nữa
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account } của bạn được sử dụng để truy cập các sản phẩm duyệt web và quyền riêng tư miễn phí như đồng bộ hoá { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay }, và { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tài khoản và dữ liệu cá nhân của bạn sẽ bị xóa vĩnh viễn vào <strong>{ $deletionDate }</strong> vì bạn không hoạt động.
+inactiveAccountSecondWarning-action = Đăng nhập để giữ tài khoản của bạn
+inactiveAccountSecondWarning-preview = Đăng nhập để giữ tài khoản của bạn
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Đăng nhập để giữ tài khoản của bạn:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Bạn đã hết mã xác thực dự phòng!
 codes-reminder-title-one = Bạn đang sử dụng mã xác thực dự phòng cuối cùng của mình
@@ -317,6 +355,7 @@ postAddLinkedAccount-subject-2 = Tài khoản mới được liên kết với {
 postAddLinkedAccount-title-2 = Tài khoản { $providerName } của bạn đã được liên kết với { -product-mozilla-account }
 postAddLinkedAccount-action = Quản lý tài khoản
 postAddRecoveryPhone-subject = Đã thêm số điện thoại khôi phục
+postAddRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác thực hai bước
 postAddRecoveryPhone-title = Bạn đã tạo số điện thoại khôi phục
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -344,6 +383,7 @@ postChangePrimary-title = Email chính mới
 postChangePrimary-description-2 = Bạn đã thay đổi thành công email chính của mình thành { $email }. Địa chỉ này hiện là tên người dùng để đăng nhập vào { -product-mozilla-account } của bạn cũng như nhận thông báo bảo mật và xác nhận đăng nhập.
 postChangePrimary-action = Quản lý tài khoản
 postChangeRecoveryPhone-subject = Đã cập nhật số điện thoại khôi phục
+postChangeRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác thực hai bước
 postChangeRecoveryPhone-title = Bạn đã thay đổi số điện thoại khôi phục của mình
 postChangeRecoveryPhone-description = Bây giờ bạn có số điện thoại khôi phục mới. Số điện thoại trước đó của bạn đã bị xóa.
 postChangeRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
@@ -366,6 +406,7 @@ postRemoveAccountRecovery-body-part1 = Khóa khôi phục tài khoản của b�
 postRemoveAccountRecovery-body-part2 = Nếu bạn chưa tạo, hãy tạo khóa khôi phục tài khoản mới trong cài đặt tài khoản của bạn để tránh mất mật khẩu, dấu trang, lịch sử duyệt web đã lưu, v.v.
 postRemoveAccountRecovery-action = Quản lý tài khoản
 postRemoveRecoveryPhone-subject = Đã xóa số điện thoại khôi phục
+postRemoveRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác thực hai bước
 postRemoveRecoveryPhone-title = Đã xóa số điện thoại khôi phục
 postRemoveRecoveryPhone-description = Số điện thoại khôi phục của bạn đã bị xóa khỏi cài đặt xác thực hai bước. Bạn vẫn có sẵn mã xác thực dự phòng để sử dụng.
 postRemoveRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
@@ -381,6 +422,18 @@ postRemoveTwoStepAuthentication-title-2 = Bạn đã tắt xác thực hai bư�
 postRemoveTwoStepAuthentication-from-device = Bạn đã tắt nó từ:
 postRemoveTwoStepAuthentication-action = Quản lý tài khoản
 postRemoveTwoStepAuthentication-not-required-2 = Bạn không còn cần mã bảo mật từ ứng dụng xác thực của mình khi đăng nhập.
+postSigninRecoveryCode-subject = Mã xác thực dự phòng dùng để đăng nhập
+postSigninRecoveryCode-preview = Xác nhận hoạt động tài khoản
+postSigninRecoveryCode-title = Mã xác thực dự phòng của bạn đã được sử dụng để đăng nhập
+postSigninRecoveryCode-description = Nếu không làm điều này, bạn nên thay đổi mật khẩu ngay lập tức để giữ an toàn cho tài khoản của mình.
+postSigninRecoveryCode-device = Bạn đã đăng nhập từ:
+postSigninRecoveryCode-action = Quản lý tài khoản
+postSigninRecoveryPhone-subject = Số điện thoại khôi phục được dùng để đăng nhập
+postSigninRecoveryPhone-preview = Xác nhận hoạt động tài khoản
+postSigninRecoveryPhone-title = Số điện thoại khôi phục của bạn đã được sử dụng để đăng nhập
+postSigninRecoveryPhone-description = Nếu không làm điều này, bạn nên thay đổi mật khẩu ngay lập tức để giữ an toàn cho tài khoản của mình.
+postSigninRecoveryPhone-device = Bạn đã đăng nhập từ:
+postSigninRecoveryPhone-action = Quản lý tài khoản
 postVerify-sub-title-3 = Chúng tôi rất vui được gặp bạn!
 postVerify-title-2 = Bạn muốn xem cùng một thẻ trên hai thiết bị?
 postVerify-description-2 = Dễ thôi! Chỉ cần cài đặt { -brand-firefox } trên một thiết bị khác và đăng nhập để đồng bộ hóa. Nó giống như một phép thuật!
@@ -633,6 +686,7 @@ verifySecondaryCode-expiry-notice-2 = Nó hết hạn sau 5 phút. Sau khi đư�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Xác minh tài khoản của bạn
+verifyShortCode-preview = Sử dụng mã đi kèm để xác nhận { -product-mozilla-account } của bạn.
 verifyShortCode-title-3 = Mở ra thế giới internet với { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-mozilla } ở mọi nơi bạn đăng nhập, bắt đầu bằng:

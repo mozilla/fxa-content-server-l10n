@@ -31,6 +31,8 @@
 -product-firefox-account = Tài khoản Firefox
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
+# Mozilla Developer Network
+-product-mdn = MDN
 -product-mdn-plus = MDN Plus
 -product-firefox-cloud = Firefox Cloud
 -product-mozilla-monitor = Mozilla Monitor

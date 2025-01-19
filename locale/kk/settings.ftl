@@ -37,6 +37,7 @@ brand-m-logo =
 ## Allows users to click a back arrow to navigate to the previous page
 
 button-back-aria-label = Артқа
+button-back-title = Артқа
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -292,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Мәтіндік хабарлама арқылы кодты қабылдайтын мобильді құрылғы.
 recovery-phone-code-image-description =
     .aria-label = Мобильді құрылғыда алынған код.
+backup-recovery-phone-image-aria-label =
+    .aria-label = SMS мәтіндік хабарлама мүмкіндіктері бар мобильді құрылғы
+backup-authentication-codes-image-aria-label =
+    .aria-label = Кодтары бар құрылғы экраны
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -322,6 +327,8 @@ input-password-sr-only-now-hidden = Сіздің пароліңіз енді ж�
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Елді таңдаңыз
 input-phone-number-enter-number = Телефон нөмірін енгізіңіз
 input-phone-number-country-united-states = АҚШ
 input-phone-number-country-canada = Канада
@@ -566,6 +573,9 @@ dc-learn-more = Көбірек білу
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } мәзірі
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Кім ретінде кірген
 drop-down-menu-sign-out = Шығу
 drop-down-menu-sign-out-error-2 = Кешіріңіз, жүйеден шығу кезінде мәселе туындады
 
@@ -619,9 +629,22 @@ flow-recovery-key-info-cancel-link = Бас тарту
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Растау кодын енгізіңіз
+flow-setup-phone-confirm-code-input-label = 6-цифрлық кодты енгізіңіз
+flow-setup-phone-confirm-code-button = Растау
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Кодтың мерзімі бітті ме?
+flow-setup-phone-confirm-code-resend-code-button = Кодты қайта жіберу
+flow-setup-phone-confirm-code-success-message-v2 = Қалпына келтіру телефоны қосылды
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Телефон нөміріңізді растаңыз
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Код жіберу
 
 ## HeaderLockup component, the header in account settings
 
@@ -844,6 +867,8 @@ recovery-key-create-back-button-title = Баптауларға оралу
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Телефон нөмірін өшіру
+settings-recovery-phone-remove-cancel = Бас тарту
 
 ## PageSetupRecoveryPhone
 
@@ -1599,9 +1624,16 @@ signin-recovery-code-required-error = Сақтық аутентификация 
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Кіру
+signin-recovery-method-phone = Қалпына келтіру телефоны
+signin-recovery-method-code = Аутентификация кодтары
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } код қалды
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Кіру
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Қалпына келтіру кодын енгізіңіз
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

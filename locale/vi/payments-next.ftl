@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trư�
 
 next-new-user-submit = Theo dõi ngay
 next-payment-validate-name-error = Vui lòng nhập tên của bạn
+next-pay-with-heading-paypal = Thanh toán bằng { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Tên giống như trên thẻ của bạn
 payment-name-placeholder = Họ và tên
