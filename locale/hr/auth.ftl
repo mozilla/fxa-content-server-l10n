@@ -240,6 +240,16 @@ fraudulentAccountDeletion-contact = Ako imaš pitanja, kontaktiraj naš <a data-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ako imaš pitanja kontaktiraj naš tim za podršku: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = Prijavi se za zadržavanje tvog računa
+inactiveAccountFinalWarning-action = Prijavi se za zadržavanje tvog računa
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Prijavi se za zadržavanje tvog računa:
+inactiveAccountFirstWarning-subject = Nemoj izgubiti svoj račun
+inactiveAccountFirstWarning-title = Želiđ li zadržati svoj { -brand-mozilla } račun i podatke?
+inactiveAccountFirstWarning-action = Prijavi se za zadržavanje tvog računa
+inactiveAccountFirstWarning-preview = Prijavi se za zadržavanje tvog računa
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Prijavi se za zadržavanje tvog računa:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Preostalo ti je još samo par sigurnosnih kodova za autentifikaciju!
 codes-reminder-title-one = Imaš još samo jedan sigurnosni kod za autentifikaciju!
