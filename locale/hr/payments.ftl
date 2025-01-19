@@ -39,7 +39,7 @@ new-user-sign-in-link-2 = Već imaš { -product-mozilla-account }? <a>Prijavi se
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-enter-email =
-    .label = Upiši tvoju e-mail adresu
+    .label = Upiši svoju e-mail adresu
 new-user-confirm-email =
     .label = Potvrdi svoju e-mail adresu
 new-user-subscribe-product-updates-mozilla = Želim primati novosti { -brand-mozilla } proizvoda i aktualiziranja
@@ -408,9 +408,9 @@ product-location-unsupported-error = Mjesto nije podržano
 
 ## Hooks - coupons
 
-coupon-success = Tvoj plan će se automatski obnoviti prema cjeniku.
+coupon-success = Tvoj plan će se automatski obnoviti po cijeni.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $couponDurationDate } prema cjeniku.
+coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $couponDurationDate } po cijeni.
 
 ## Routes - Checkout - New user
 
