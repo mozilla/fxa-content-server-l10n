@@ -329,6 +329,9 @@ passwordResetAccountRecovery-subject-2 = Tvoja lozinka je resetirana
 passwordResetAccountRecovery-title-3 = Tvoja je lozinka resetirana
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Koristio/la si svoj ključ za obnavljanje računa za resetiranje { -product-mozilla-account } lozinke na:
+passwordResetAccountRecovery-information = Odjavili smo te sa svih tvojih sinkroniziranih uređaja. Generirali smo novi ključ za obnavljanje računa koji će zamijeniti prijašnji ključ. Možeš ga promijeniti u postavkama računa.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Odjavili smo te sa svih tvojih sinkroniziranih uređaja. Generirali smo novi ključ za obnavljanje računa koji će zamijeniti prijašnji ključ. Možeš ga promijeniti u postavkama računa.
 passwordResetAccountRecovery-action-4 = Upravljaj računom
 passwordResetWithRecoveryKeyPrompt-subject = Tvoja je lozinka resetirana
 passwordResetWithRecoveryKeyPrompt-title = Tvoja je lozinka resetirana
@@ -338,6 +341,7 @@ passwordResetWithRecoveryKeyPrompt-description = Resetirao/la si svoju { -produc
 passwordResetWithRecoveryKeyPrompt-action = Stvori ključ za obnavljanje računa
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Stvori ključ za obnavljanje računa:
+passwordResetWithRecoveryKeyPrompt-cta-description = Morat ćeš se ponovo prijaviti na svim svojim sinkroniziranim uređajima. Sljedeći put čuvaj svoje podatke sigurno pomoću ključa za obnavljanje računa. To omogućuje obnavljanje podataka ako zaboraviš lozinku.
 postAddAccountRecovery-subject-3 = Novi ključ za obnavljanje računa stvoren
 postAddAccountRecovery-title2 = Stvorio/la si novi ključ za obnavljanje računa
 # Key here refers to account recovery key

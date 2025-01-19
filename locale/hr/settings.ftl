@@ -5,6 +5,8 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Na tvoju e-mail adresu je poslan novi kod.
+resend-link-success-banner-heading = Na tvoju e-mail adresu je poslana nova poveznica.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
