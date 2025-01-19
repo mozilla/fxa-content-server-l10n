@@ -250,6 +250,12 @@ inactiveAccountFirstWarning-action = Prijavi se za zadržavanje tvog računa
 inactiveAccountFirstWarning-preview = Prijavi se za zadržavanje tvog računa
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Prijavi se za zadržavanje tvog računa:
+inactiveAccountSecondWarning-subject = Potrebna je radnja: Brisanje računa za 7 dana
+inactiveAccountSecondWarning-title = Tvoj { -brand-mozilla } račun i podaci će se izbrisati za 7 dana
+inactiveAccountSecondWarning-action = Prijavi se za zadržavanje tvog računa
+inactiveAccountSecondWarning-preview = Prijavi se za zadržavanje tvog računa
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Prijavi se za zadržavanje tvog računa:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Preostalo ti je još samo par sigurnosnih kodova za autentifikaciju!
 codes-reminder-title-one = Imaš još samo jedan sigurnosni kod za autentifikaciju!
