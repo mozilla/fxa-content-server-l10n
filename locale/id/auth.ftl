@@ -23,6 +23,15 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific-2 = Anda menerima surel ini karena { $email } memiliki { -product-mozilla-account } dan Anda mendaftar untuk { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Anda menerima surel ini karena { $email } memiliki { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Anda menerima surel ini karena { $email } memiliki { -product-mozilla-account } dan Anda telah berlangganan ke banyak produk.
+subplat-explainer-was-deleted-2 = Anda menerima surel ini karena { $email } memiliki { -product-mozilla-account }.
+subplat-manage-account-2 = Kelola pengaturan { -product-mozilla-account } Anda dengan mengunjungi <a data-l10n-name="subplat-account-page">laman akun</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Kelola pengaturan { -product-mozilla-account } Anda dengan mengunjungi laman akun Anda: { $accountSettingsUrl }
 subplat-terms-policy = Ketentuan dan kebijakan pembatalan
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Batal berlangganan
