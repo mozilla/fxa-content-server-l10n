@@ -242,6 +242,13 @@ fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt support-teamet vårt: { $mozillaSupportUrl }
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Logg inn for å behalde kontoen din:
+inactiveAccountFirstWarning-subject = Ikkje mist kontoen din
+inactiveAccountFirstWarning-action = Logg inn for å behalde kontoen din
+inactiveAccountFirstWarning-preview = Logg inn for å behalde kontoen din
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Logg inn for å behalde kontoen din:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Du er tom for reserve-autentiseringskodar!
 codes-reminder-title-one = Du har kun éin reserve-autentiseringskode att
