@@ -876,7 +876,7 @@ recovery-key-create-back-button-title = Nazaj na nastavitve
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Odstranite telefonsko številko za obnovitev
+recovery-phone-remove-header = Odstrani telefonsko številko za obnovitev
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = S tem boste odstranili telefonsko številko za obnovitev <strong>{ $formattedFullPhoneNumber }</strong>.

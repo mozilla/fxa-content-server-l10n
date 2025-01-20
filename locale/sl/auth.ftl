@@ -80,7 +80,7 @@ automated-email-support = Za več informacij obiščite <a data-l10n-name="suppo
 automated-email-change-plaintext-2 = Če tega niste storili vi, takoj spremenite geslo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Za več informacij obiščite Podporo { -brand-mozilla }:
-automated-email-inactive-account = To je samodejno sporočilo. Prejeli ste jo, ker imate { -product-mozilla-account } in je minili 2 leti od vaše zadnje prijave.
+automated-email-inactive-account = To je samodejno sporočilo. Prejeli ste ga, ker imate { -product-mozilla-account } in sta minili 2 leti, odkar ste bili nazadnje prijavljeni vanj.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = To sporočilo je bilo poslano samodejno. Če ste ga prejeli pomotoma, vam ni treba storiti ničesar.
@@ -129,7 +129,7 @@ automated-email-reset =
     Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Če niste vi sprožili tega dejanja, zdaj ponastavite geslo na { $resetLink }
+automated-email-reset-plaintext-v2 = Če tega dejanja niste sprožili vi, takoj ponastavite geslo na { $resetLink }
 brand-banner-message = Ali ste vedeli, da smo se preimenovali iz { -product-firefox-accounts } v { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Več o tem</a>
 cancellationSurvey = Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a data-l10n-name="cancellationSurveyUrl">kratko anketo</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -250,13 +250,13 @@ fraudulentAccountDeletion-contact = Če imate kakršnakoli vprašanja, se obrnit
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Če imate kakršnakoli vprašanja, se obrnite na našo skupino za podporo: { $mozillaSupportUrl }
-inactiveAccountFinalWarning-subject = Zadnja priložnost, da obdržite svoj { -product-mozilla-account }
+inactiveAccountFinalWarning-subject = Zadnja priložnost, da obdržite svoj { -product-mozilla-account(sklon: "tozilnik") }
 inactiveAccountFinalWarning-title = Vaš račun { -brand-mozilla } in podatki bodo izbrisani
 inactiveAccountFinalWarning-preview = Prijavite se, če želite obdržati račun
 inactiveAccountFinalWarning-account-description = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> bodo vaš račun in vaši osebni podatki trajno izbrisani, razen če se prijavite.
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> bodo vaš račun in osebni podatki trajno izbrisani, razen če se prijavite vanj.
 inactiveAccountFinalWarning-action = Prijavite se, če želite obdržati račun
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Prijavite se, če želite obdržati račun:
@@ -266,16 +266,16 @@ inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account(
 inactiveAccountFirstWarning-inactive-status = Opazili smo, da se niste prijavili že dve leti.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Vaš račun in vaši osebni podatki bodo <strong>{ $deletionDate }</strong> trajno izbrisani, ker niste bili aktivni.
+inactiveAccountFirstWarning-impact = Zaradi nedejavnosti bo vaš račun in osebni podatki <strong>{ $deletionDate }</strong> trajno izbrisani.
 inactiveAccountFirstWarning-action = Prijavite se, če želite obdržati račun
 inactiveAccountFirstWarning-preview = Prijavite se, če želite obdržati račun
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Prijavite se, če želite obdržati račun:
-inactiveAccountSecondWarning-subject = Zahtevano dejanje: račun bo izbrisan čez 7 dni
-inactiveAccountSecondWarning-title = Vaš { -brand-mozilla } račun in podatki bodo izbrisani v 7 dneh
+inactiveAccountSecondWarning-subject = Potrebno je ukrepanje: račun bo čez 7 dni izbrisan
+inactiveAccountSecondWarning-title = Vaš račun { -brand-mozilla } in podatki v njem bodo po 7 dneh izbrisani
 inactiveAccountSecondWarning-account-description-v2 = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Vaš račun in vaši osebni podatki bodo <strong>{ $deletionDate }</strong> trajno izbrisani, ker niste bili aktivni.
+inactiveAccountSecondWarning-impact = Zaradi nedejavnosti bodo vaš račun in osebni podatki <strong>{ $deletionDate }</strong> trajno izbrisani.
 inactiveAccountSecondWarning-action = Prijavite se, če želite obdržati račun
 inactiveAccountSecondWarning-preview = Prijavite se, če želite obdržati račun
 # followed by link to sign in
@@ -428,16 +428,16 @@ postRemoveTwoStepAuthentication-title-2 = Izklopili ste overitev v dveh korakih
 postRemoveTwoStepAuthentication-from-device = Onemogočili ste jo z naslednje naprave:
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required-2 = Ob prijavi ne potrebujete več varnostnih kod iz aplikacije za preverjanje pristnosti.
-postSigninRecoveryCode-subject = Rezervna overitvena koda, uporabljena za prijavo
+postSigninRecoveryCode-subject = Rezervna overitvena koda je bila uporabljena za prijavo
 postSigninRecoveryCode-preview = Potrdite dejavnost v računu
 postSigninRecoveryCode-title = Za prijavo je bila uporabljena vaša rezervna overitvena koda
 postSigninRecoveryCode-description = Če tega niste storili vi, takoj spremenite geslo, da zavarujete račun.
 postSigninRecoveryCode-device = Prijavili ste se iz:
 postSigninRecoveryCode-action = Upravljanje računa
-postSigninRecoveryPhone-subject = Za prijavo je bila uporabljena obnovitvena telefonska številka
-postSigninRecoveryPhone-preview = Potrdite dejavnost računa
+postSigninRecoveryPhone-subject = Obnovitvena telefonska številka je bila uporabljena za prijavo
+postSigninRecoveryPhone-preview = Potrdite dejavnost v računu
 postSigninRecoveryPhone-title = Za prijavo je bila uporabljena vaša obnovitvena telefonska številka
-postSigninRecoveryPhone-description = Če tega niste storili vi, takoj spremenite geslo, da svoj račun ohranite varen.
+postSigninRecoveryPhone-description = Če tega niste storili vi, takoj spremenite geslo, da zavarujete račun.
 postSigninRecoveryPhone-device = Prijavili ste se iz:
 postSigninRecoveryPhone-action = Upravljanje računa
 postVerify-sub-title-3 = Veseli nas, da vas vidimo!
@@ -692,7 +692,7 @@ verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potrdite račun
-verifyShortCode-preview = S priloženo kodo potrdite svoj { -product-mozilla-account }.
+verifyShortCode-preview = S priloženo kodo potrdite svoj { -product-mozilla-account(sklon: "tozilnik") }.
 verifyShortCode-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla(sklon: "tozilnik") } na vseh napravah, začenši z:
