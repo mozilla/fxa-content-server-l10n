@@ -249,6 +249,12 @@ inactiveAccountFirstWarning-action = Logg inn for å behalde kontoen din
 inactiveAccountFirstWarning-preview = Logg inn for å behalde kontoen din
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Logg inn for å behalde kontoen din:
+inactiveAccountSecondWarning-subject = Handling påkravd: Sletting av kontoen om 7 dagar
+inactiveAccountSecondWarning-title = { -brand-mozilla }-kontoen din og data vil bli sletta om 7 dagar
+inactiveAccountSecondWarning-action = Logg inn for å behalde kontoen din
+inactiveAccountSecondWarning-preview = Logg inn for å behalde kontoen din
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Logg inn for å behalde kontoen din:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Du er tom for reserve-autentiseringskodar!
 codes-reminder-title-one = Du har kun éin reserve-autentiseringskode att
