@@ -34,6 +34,7 @@ next-payment-confirm-checkbox-error = คุณจะต้องทำเคร
 
 next-new-user-submit = สมัครสมาชิกเลย
 next-payment-validate-name-error = กรุณาใส่ชื่อของคุณ
+payment-name-placeholder = ชื่อเต็ม
 
 ## Component - CouponForm
 
@@ -57,6 +58,14 @@ next-plan-details-show-button = แสดงรายละเอียด
 
 ## Select Tax Location
 
+select-tax-location-title = ตำแหน่งที่ตั้ง
+select-tax-location-edit-button = แก้ไข
+select-tax-location-save-button = บันทึก
+select-tax-location-country-code-label = ประเทศ
+select-tax-location-country-code-placeholder = เลือกประเทศของคุณ
+select-tax-location-postal-code-label = รหัสไปรษณีย์
+signin-form-continue-button = ดำเนินการต่อ
+signin-form-email-input = ป้อนอีเมลของคุณ
 next-new-user-subscribe-product-updates-mdnplus = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -product-mdn-plus } และ { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับความปลอดภัยและความเป็นส่วนตัวจาก { -brand-mozilla }

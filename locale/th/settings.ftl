@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = ย้อนกลับ
+button-back-title = ย้อนกลับ
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -321,6 +323,8 @@ input-password-sr-only-now-hidden = รหัสผ่านของคุณ�
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = เลือกประเทศ
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = ย้อนกลับ
 
@@ -611,6 +615,11 @@ flow-recovery-key-info-cancel-link = ยกเลิก
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-button = ยืนยัน
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = รหัสหมดอายุใช่หรือไม่?
+flow-setup-phone-confirm-code-resend-code-button = ส่งรหัสอีกครั้ง
 
 ## FlowSetupPhoneConfirmCode
 
@@ -975,6 +984,12 @@ tfa-row-backup-codes-get-new-cta = รับรหัสใหม่
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = เพิ่ม
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = เปลี่ยน
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = เพิ่ม
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = ลบ
 
 ## Switch component
 
@@ -1578,9 +1593,15 @@ signin-recovery-code-desktop-relay = { -brand-firefox } จะลองนำค
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = ลงชื่อเข้า
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = ลงชื่อเข้าใช้
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = ป้อนรหัสการกู้คืน
+recovery-phone-code-confirm-input-group-label = ใส่รหัส 6 หลัก
+recovery-phone-code-confirm-otp-submit-button = ยืนยัน
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1615,6 +1636,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } จะลอง
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = ลงชื่อเข้าใช้
 signin-totp-code-subheader-v2 = ใส่รหัสยืนยันตัวตนสองขั้นตอน
 signin-totp-code-instruction-v4 = ตรวจดู<strong>แอปยืนยันตัวตน</strong>ของคุณเพื่อยืนยันการลงชื่อเข้า
 signin-totp-code-input-label-v4 = ใส่รหัส 6 หลัก

@@ -242,6 +242,15 @@ fraudulentAccountDeletion-contact = หากคุณมีคำถามใ�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = หากคุณมีคำถามใดๆ โปรดติดต่อทีมสนับสนุนของเรา: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
+inactiveAccountFirstWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
+inactiveAccountFirstWarning-preview = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ:
+inactiveAccountSecondWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
+inactiveAccountSecondWarning-preview = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = คุณไม่มีรหัสยืนยันตัวตนสำรองเหลืออีกแล้ว!
 codes-reminder-title-one = คุณเหลือรหัสยืนยันตัวตนสำรองเพียงรหัสเดียวเท่านั้น
@@ -317,6 +326,8 @@ postAddLinkedAccount-subject-2 = มีบัญชีใหม่เชื่�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = ได้เชื่อมโยงบัญชี { $providerName } ของคุณกับ{ -product-mozilla-account } ของคุณแล้ว
 postAddLinkedAccount-action = จัดการบัญชี
+postAddRecoveryPhone-enabled-device = คุณเปิดใช้งานจาก:
+postAddRecoveryPhone-action = จัดการบัญชี
 postAddTwoStepAuthentication-subject-2 = เปิดการยืนยันตัวตนสองขั้นตอนแล้ว
 postAddTwoStepAuthentication-title-2 = คุณเปิดการยืนยันตัวตนสองขั้นตอนแล้ว
 # After the colon, there is a description of the device that the user used to enable two-step authentication
