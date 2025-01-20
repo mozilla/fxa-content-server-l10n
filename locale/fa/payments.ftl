@@ -5,6 +5,8 @@
 
 ## Component - AppLayout
 
+settings-home = صفحه اصلی حساب
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -32,6 +34,9 @@ new-user-email-validate-confirm = رایانامه‌ها مطابقت ندار�
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = سپاسگذاریم!
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
+payment-confirmation-details-heading-2 = اطلاعات پرداخت
 
 ## Component - PaymentConsentCheckbox
 

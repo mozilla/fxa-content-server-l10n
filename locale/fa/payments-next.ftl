@@ -8,6 +8,9 @@ next-basic-error-message = مشکلی پیش آمد. لطفاً بعداً دو�
 ## Page
 
 next-payment-method-header = روش پرداخت خود را انتخاب کنید
+# $invoiceDate (Date) - Start date of the latest invoice
+next-payment-confirmation-invoice-date = { $invoiceDate }
+checkout-error-boundary-retry-button = تلاش دوباره
 
 ## Component - Payment Consent Checkbox
 
@@ -15,6 +18,7 @@ next-payment-method-header = روش پرداخت خود را انتخاب کنی
 ## Checkout Form
 
 next-payment-validate-name-error = لطفاً نام خود را وارد کنید
+payment-name-placeholder = نام کامل
 
 ## Component - CouponForm
 
@@ -32,6 +36,10 @@ next-plan-details-show-button = نمایش جزئیات
 
 ## Select Tax Location
 
+select-tax-location-title = مکان
+select-tax-location-edit-button = ویرایش
+select-tax-location-save-button = ذخیره
+select-tax-location-country-code-label = کشور
 
 ## Component - Details
 
@@ -42,6 +50,8 @@ next-plan-details-total-label = مجموع
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = طرح شما به طور خودکار با فهرست قیمت تمدید می‌شود.
 
 ## Component - PriceInterval
