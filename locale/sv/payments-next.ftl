@@ -44,6 +44,7 @@ next-payment-confirm-checkbox-error = Du måste slutföra detta innan du går vi
 
 next-new-user-submit = Prenumerera nu
 next-payment-validate-name-error = Ange ditt namn
+next-pay-with-heading-paypal = Betala med { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Namn som det visas på kortet
 payment-name-placeholder = Fullständigt namn

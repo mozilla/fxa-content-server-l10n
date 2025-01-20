@@ -9,7 +9,11 @@ next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo m�
 
 ## Page
 
+continue-signin-with-google-button = Continuar con { -brand-google }
+continue-signin-with-apple-button = Continuar con { -brand-apple }
 next-payment-method-header = Elige tu método de pago
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primero tendrás que aprobar tu suscripción
 next-payment-confirmation-thanks-heading-account-exists = Gracias. ¡Ahora revisa tu correo electrónico!
 next-payment-confirmation-order-heading = Detalles del pedido
@@ -57,6 +61,9 @@ next-plan-details-show-button = Mostrar detalles
 
 ## Select Tax Location
 
+select-tax-location-edit-button = Editar
+select-tax-location-save-button = Guardar
+select-tax-location-country-code-label = País
 next-new-user-subscribe-product-updates-mdnplus = Me gustaría recibir noticias y actualizaciones de productos de { -product-mdn-plus } y { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias y actualizaciones de productos de { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }

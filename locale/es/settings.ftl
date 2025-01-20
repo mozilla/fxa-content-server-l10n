@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Atrás
+button-back-title = Atrás
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -321,6 +323,9 @@ input-password-sr-only-now-hidden = Tu contraseña ahora está oculta.
 
 ## Phone number component
 
+input-phone-number-enter-number = Introduce el número de teléfono
+input-phone-number-country-united-states = Estados Unidos
+input-phone-number-country-canada = Canadá
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Atrás
 
@@ -615,6 +620,7 @@ flow-recovery-key-info-cancel-link = Cancelar
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-button = Confirmar
 
 ## FlowSetupPhoneConfirmCode
 
@@ -984,6 +990,12 @@ tfa-row-backup-codes-get-new-cta = Obtener nuevos códigos
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Añadir
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Cambiar
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Añadir
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Eliminar
 
 ## Switch component
 
@@ -1594,6 +1606,7 @@ signin-recovery-code-desktop-relay = { -brand-firefox } intentará enviarte nuev
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Iniciar sesión
 
 ## SigninRecoveryPhoneCodeConfirm page
 
@@ -1631,6 +1644,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } intentará envi
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Iniciar sesión
 signin-totp-code-subheader-v2 = Escribir el código de autenticación en dos pasos
 signin-totp-code-instruction-v4 = Comprueba tu <strong>aplicación de autenticación</strong> para confirmar tu inicio de sesión.
 signin-totp-code-input-label-v4 = Introduce el código de 6 dígitos
