@@ -49,8 +49,8 @@ subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidad
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Si se elimina tu cuenta, seguirás recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que <a data-l10n-name="unsubscribeLink"> solicites cancelar la suscripción </a>.
-account-deletion-info-block-support = Si tiene alguna pregunta o necesita ayuda, no dude en comunicarse con nuestro <a data-l10n-name="supportLink"> equipo de soporte </a>.
+account-deletion-info-block-communications = Si se borra tu cuenta, seguirás recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que <a data-l10n-name="unsubscribeLink">pidás cancelar la suscripción</a>.
+account-deletion-info-block-support = Si tenés alguna pregunta o necesitás asistencia, no dudés en comunicarse con nuestro <a data-l10n-name="supportLink">equipo de soporte</a>.
 account-deletion-info-block-communications-plaintext = Si se elimina su cuenta, seguirá recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que solicite cancelar la suscripción:
 account-deletion-info-block-support-plaintext = Si tiene alguna pregunta o necesita ayuda, no dude en ponerse en contacto con nuestro equipo de soporte:
 # Variables:
